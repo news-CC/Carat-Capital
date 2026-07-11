@@ -1,0 +1,20 @@
+{
+  "date_line": "Friday, July 10, 2026",
+  "edition": "Vol. I — No. 001 · Third Edition",
+  "items": [
+    {"b": "GOLD 4,135.40 ▲1.2%", "t": " — August futures open higher Friday"},
+    {"b": "BOUCHERON", "t": " resets Place Vendôme with reinterpreted signature silhouette"},
+    {"b": "WORLD CUP", "t": " — diamond-set footballs land as watchmakers bet the summer"},
+    {"b": "ODYSSEY EFFECT", "t": " — trade braces for ancient-jewelry revival post-Nolan"},
+    {"b": "AMERICA 250", "t": " — heritage houses ship anniversary collections"},
+    {"b": "LAB-GROWN 1CT", "t": " slips 1.8% — discount to natural widens to 86%"}
+  ],
+  "tape_ts": "10 Jul 2026",
+  "tape": [
+    {"name": "Gold / oz", "code": "XAU", "px": "4,115.10", "chg": "▲ +48.90 (+1.20%)", "dir": "up", "pts": [20,17,18,13,15,10,12,7,4]},
+    {"name": "Natural 1ct RBC", "code": "NAT1", "px": "5,240.00", "chg": "▲ +21.00 (+0.40%)", "dir": "up", "pts": [16,18,14,15,12,13,10]},
+    {"name": "Lab-Grown 1ct", "code": "LGD1", "px": "720.00", "chg": "▼ −13.20 (−1.80%)", "dir": "dn", "pts": [8,10,9,14,13,17,20]},
+    {"name": "Platinum / oz", "code": "XPT", "px": "1,394.00", "chg": "▲ +8.30 (+0.60%)", "dir": "up", "pts": [18,16,17,12,14,11,9]},
+    {"name": "Silver / oz", "code": "XAG", "px": "47.20", "chg": "▲ +0.42 (+0.90%)", "dir": "up", "pts": [19,15,16,13,15,10,8]}
+  ]
+}

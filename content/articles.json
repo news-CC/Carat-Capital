@@ -1,0 +1,64 @@
+[
+  {
+    "slug": "gold-4100-redraws-jewelry-map",
+    "desk": "gold-metals",
+    "date": "2026-07-10",
+    "lead": true,
+    "kicker": "Lead Story · Gold & Metals Desk",
+    "title": "Gold at $4,100 is quietly redrawing the entire map of the jewelry trade",
+    "dek": "Bullion opened above $4,135 this morning and the consequences are no longer theoretical: Surat is re-engineering mountings, Vicenza is hollowing chains, and the diamond markup model that held for forty years is being re-cut in real time.",
+    "byline": "The Bullion Desk",
+    "minutes": 8,
+    "body": [
+      "Gold opened higher again on Friday morning, with August futures up 1.2% and spot trading around $4,115 an ounce — the latest step in a rally that has added roughly a third to the metal's price over the trailing twelve months. For bullion traders this is a macro story about haven flows and central-bank buying. For the jewelry trade, it is something more intimate: the raw material of half the world's inventory has repriced underneath it.",
+      "The first response is engineering. Manufacturers in Vicenza and Shenzhen have spent the year refining what the trade politely calls lightweighting — hollow-form chains, electroformed volumes, thinner gauges that preserve the look of substance while shedding grams. The craft of making less metal read as more is suddenly the most commercially important skill on the bench.",
+      "The second response is a quiet migration down the fineness ladder. Markets that lived at 22 karat are showing 18-karat collections; 18-karat houses are testing 14 and even reviving 9 karat with design-forward positioning. India, the world's largest gold-jewelry market, has absorbed the shock with characteristic pragmatism — wedding-season volumes dip, values rise, and the buying continues, because the buying always continues.",
+      "The third response is the one nobody has fully priced: what expensive gold does to diamonds. When the mounting costs more, the stone's share of the ticket shrinks — and with it, the retailer's flexibility on diamond margin. Several sightholders describe a re-negotiation of the markup structure that has governed the pipeline for a generation. That conversation is just beginning, and it will run for years.",
+      "The desk's view: $4,000-plus gold is not a spike to be waited out but a level to be designed for. The houses treating it as the new baseline — re-engineering product, re-cutting margins, retraining sales floors to sell craft over weight — are the ones who will own the counter when the cycle turns."
+    ],
+    "sources": [
+      {"title": "Yahoo Finance — Gold prices today, Friday, July 10, 2026", "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-friday-july-10-2026-gold-finally-opens-higher-this-morning-120806614.html"},
+      {"title": "Forbes Advisor — Gold Price Today", "url": "https://www.forbes.com/advisor/investing/gold-price/"}
+    ]
+  },
+  {
+    "slug": "world-cup-watch-gold-rush",
+    "desk": "watches",
+    "date": "2026-07-10",
+    "kicker": "Watches Desk · Geneva",
+    "title": "World Cup gold rush: watchmakers bet the summer on football",
+    "dek": "Diamond-set footballs, athlete ambassadors and tournament-timed limited editions — the industry is spending the summer converting football fever into waiting lists.",
+    "byline": "The Watches Desk",
+    "minutes": 4,
+    "body": [
+      "The 2026 World Cup has done something Baselworld never managed: it has given the entire watch and jewelry industry a single, synchronized marketing calendar. Across the trade, houses are shipping tournament-adjacent product — from diamond-encrusted footballs built as showcase pieces to limited references timed to kickoff dates — betting that a summer of global attention converts into autumn sales.",
+      "The playbook is familiar from horology's long romance with motorsport, but the scale is new. North American retail, hosting much of the tournament, is the primary target; Geneva supplies the prestige, Miami and New York supply the foot traffic.",
+      "Industry coverage this week highlights sport-inspired collections landing at every price tier — the trade press notes diamond-set footballs among the season's showcase items, alongside athlete ambassador signings that would have gone to actors a decade ago.",
+      "The desk's view: sport partnerships are the rare marketing spend that reaches men aged 25 to 45 — the demographic luxury watches need and jewelry historically ignores. Expect the winners of this summer to make the arrangement permanent."
+    ],
+    "sources": [
+      {"title": "JCK — jewelry industry news and trends", "url": "https://www.jckonline.com/"}
+    ]
+  },
+  {
+    "slug": "lab-grown-86-percent-question",
+    "desk": "retail-tech",
+    "date": "2026-07-10",
+    "kicker": "Retail & Technology Desk · Surat",
+    "title": "Lab-grown slips again — the 86% question nobody will answer aloud",
+    "dek": "The discount to natural widened to 86% this week. The obituary readings are wrong: what collapsed is the price of carbon, and what survived is the business model.",
+    "byline": "The Retail & Technology Desk",
+    "minutes": 7,
+    "body": [
+      "One-carat lab-grown goods slipped again this week, with indicative pricing around $720 — an 86% discount to the comparable natural stone. Half the trade reads that number as a crisis. The other half, mostly the half selling lab-grown by the tray, reads it as the point.",
+      "Lab-grown pricing follows a technology curve, not a scarcity curve. Reactor capacity keeps growing, yields keep improving, and the price keeps finding lower floors. Fighting that curve was always a losing trade; the business model that works is the one that embraces it — high-volume, brand-margin, fashion-cadence jewelry that happens to sparkle like a mined stone.",
+      "The strategic consequence for natural diamonds is equally clear. At an 86% gap, the two products no longer compete on price at all — they compete on meaning. Provenance, rarity, resale value and story are now the entire natural-diamond value proposition, which is why traceability spending and origin marketing budgets are climbing across the majors.",
+      "Surat, which polishes most of the world's stones and now grows a large share of the lab-grown supply, sits on both sides of the divide — and its pivot toward LGD manufacturing scale is two years into a decade-long build.",
+      "The desk's view: stop asking when lab-grown prices recover. They aren't supposed to. Ask instead who owns the brands, the reactors, and the natural-diamond story — those are the three positions that pay."
+    ],
+    "sources": [
+      {"title": "JCK — industry coverage", "url": "https://www.jckonline.com/"},
+      {"title": "Branvas — 2026 jewelry industry statistics", "url": "https://branvas.com/blogs/news/jewelry-industry-statistics-2026"}
+    ]
+  }
+]
