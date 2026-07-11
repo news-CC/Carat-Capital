@@ -1,0 +1,50 @@
+name: Build and deploy Carat Capital
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: true
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build site
+        run: python build.py
+      - name: Generate social card
+        run: |
+          pip install pillow --quiet
+          python - <<'PYEOF'
+          from PIL import Image, ImageDraw, ImageFont
+          img = Image.new('RGB', (1200, 630), '#F2EDE3')
+          d = ImageDraw.Draw(img)
+          d.rectangle([60, 60, 1139, 569], outline='#16130E', width=2)
+          bold = ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf', 96)
+          mono = ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf', 26)
+          d.text((600, 250), 'CARAT^CAPITAL', font=bold, fill='#16130E', anchor='mm')
+          d.text((600, 360), 'THE TRADE PAPER OF THE JEWELRY WORLD', font=mono, fill='#3B362C', anchor='mm')
+          d.polygon([(600, 120), (640, 150), (600, 180), (560, 150)], outline='#BE3319', width=3)
+          img.save('assets/og-card.png')
+          PYEOF
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
