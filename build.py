@@ -9,6 +9,7 @@ CONTENT = ROOT / "content"
 ARTICLES = json.loads((CONTENT / "articles.json").read_text()) if (CONTENT / "articles.json").exists() else []
 ARTICLES.sort(key=lambda a: a.get("date", ""), reverse=True)
 WIRE = json.loads((CONTENT / "wire.json").read_text()) if (CONTENT / "wire.json").exists() else {}
+RECORD = json.loads((CONTENT / "record.json").read_text()) if (CONTENT / "record.json").exists() else {}
 
 def lead_article():
     for a in ARTICLES:
@@ -296,6 +297,8 @@ def omenu():
         <div class="o-label">The Paper</div>
         <a href="index.html">Front Page</a>
         <a href="field-guide.html">The Field Guide — Learn the Trade</a>
+        <a href="the-record.html">The Record — Eight Weeks of the Trade</a>
+        <a href="almanac.html">The Almanac — The Quarter in Numbers</a>
         <a href="index.html#tape-a">The Price Tape</a>
         <a href="index.html#voices">Voices — Interviews</a>
         <a href="index.html#coupon">The Morning Brief — Free</a>
@@ -327,7 +330,7 @@ def colophon():
       <div><h4>Desks</h4>{desk_links}</div>
       <div><h4>Masthead</h4>
         <a class="fl" href="about.html">About the paper</a><a class="fl" href="about.html#standards">Editorial standards</a>
-        <a class="fl" href="field-guide.html">The Field Guide</a><a class="fl" href="about.html#contact">Write to the desk</a>
+        <a class="fl" href="field-guide.html">The Field Guide</a><a class="fl" href="the-record.html">The Record</a><a class="fl" href="almanac.html">The Almanac</a><a class="fl" href="about.html#contact">Write to the desk</a>
       </div>
       <div><h4>Subscribe</h4>
         <a class="fl" href="index.html#coupon">Morning Brief — free</a>
@@ -361,6 +364,78 @@ function ccJoin(e){e.preventDefault();window.open('https://caratcapital.beehiiv.
 </body>
 </html>"""
 
+# ---------------- THE RECORD + ALMANAC ----------------
+DESK_CHIP = {"diamonds":"Diamonds","gold-metals":"Gold & Metals","gemstones":"Gemstones","watches":"Watches","auctions":"Auctions","retail-tech":"Retail & Tech"}
+
+def record_entry(e, week=""):
+    chip = DESK_CHIP.get(e.get("d",""), "The Paper")
+    wk = f'<span style="color:var(--ink-3)">{week}</span>' if week else ""
+    return f"""<div class="rec-e rv" style="padding:22px 0;border-bottom:1px solid rgba(22,19,14,.14)">
+      <div style="font-family:var(--mono);font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--seal);display:flex;gap:14px;align-items:baseline">{chip} {wk}</div>
+      <h3 style="font-family:var(--disp);font-weight:700;font-size:clamp(19px,2vw,25px);letter-spacing:-.02em;margin:8px 0 7px">{e["h"]}</h3>
+      <p style="max-width:820px;font-size:15.5px;line-height:1.65;color:var(--ink-2)">{e["t"]}</p>
+      <div style="font-family:var(--mono);font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--gilt);margin-top:9px">Source — {e["s"]}</div>
+    </div>"""
+
+def record_page():
+    weeks = ""
+    for w in RECORD.get("weeks", []):
+        entries = "".join(record_entry(e) for e in w["entries"])
+        weeks += f"""<section style="padding:34px 0 8px">
+          <div class="sec-mast rv"><h2>{w["label"]}</h2><div class="mono-note">the week's ledger</div></div>
+          {entries}</section>"""
+    return f"""{head("The Record — eight weeks of the trade — Carat Capital", "A dated, sourced chronicle of the jewelry trade, week by week.")}
+{folio("The Record · A running chronicle")}
+{navbar()}
+{omenu()}
+<section class="deskhero"><div class="wrap">
+  <div class="dh-no">The Paper · Updated {RECORD.get("updated","")}</div>
+  <h1 class="art-h" style="font-size:clamp(40px,6vw,86px);text-transform:uppercase">The Record<em style="font-family:var(--text);font-style:italic;font-weight:400;color:var(--seal);text-transform:none;font-size:.5em;display:block;margin-top:12px">eight weeks of the trade, kept properly</em></h1>
+  <p class="dh-dek" style="max-width:760px">{RECORD.get("intro","")}</p>
+</div></section>
+<section class="burin"><div class="wrap">{weeks}
+  <div style="padding:40px 0"><a class="big" href="almanac.html" style="font-family:var(--mono);font-size:12px;letter-spacing:.22em;text-transform:uppercase;border-bottom:2px solid var(--seal);padding-bottom:4px">The Almanac — the quarter in numbers →</a></div>
+</div></section>
+<section class="ctastrip"><div class="wrap"><div class="inner">
+  <h2>The Record, delivered — <em>every morning at 06:30.</em></h2>
+  <a class="big" href="index.html#coupon">Get the Morning Brief →</a>
+</div></div></section>
+{colophon()}
+{SCRIPT}"""
+
+def almanac_table(t):
+    headr = "".join(f'<th style="text-align:left;font-family:var(--mono);font-size:9.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-3);padding:0 14px 10px 0;border-bottom:2px solid var(--ink)">{c}</th>' for c in t["cols"])
+    rows = ""
+    for r in t["rows"]:
+        tds = f'<td style="font-family:var(--text);font-size:14.5px;padding:9px 14px 9px 0;border-bottom:1px solid rgba(22,19,14,.12)">{r[0]}</td>'
+        tds += "".join(f'<td style="font-family:var(--mono);font-size:13px;padding:9px 14px 9px 0;border-bottom:1px solid rgba(22,19,14,.12);white-space:nowrap">{c}</td>' for c in r[1:])
+        rows += f"<tr>{tds}</tr>"
+    return f"""<div class="rv" style="break-inside:avoid;margin:0 0 44px">
+      <h3 style="font-family:var(--disp);font-weight:700;font-size:21px;letter-spacing:-.02em">{t["title"]}</h3>
+      <div style="font-family:var(--mono);font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--seal);margin:5px 0 14px">{t.get("note","")}</div>
+      <table style="width:100%;border-collapse:collapse"><thead><tr>{headr}</tr></thead><tbody>{rows}</tbody></table>
+      <div style="font-family:var(--mono);font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--gilt);margin-top:10px">Source — {t.get("src","")}</div>
+    </div>"""
+
+def almanac_page():
+    tables = "".join(almanac_table(t) for t in RECORD.get("tables", []))
+    return f"""{head("The Almanac — the quarter in numbers — Carat Capital", "The jewelry trade's key numbers, tabled: metals, exports, prices, salerooms, retail.")}
+{folio("The Almanac · The quarter in numbers")}
+{navbar()}
+{omenu()}
+<section class="deskhero"><div class="wrap">
+  <div class="dh-no">The Paper · Updated {RECORD.get("updated","")}</div>
+  <h1 class="art-h" style="font-size:clamp(40px,6vw,86px);text-transform:uppercase">The Almanac<em style="font-family:var(--text);font-style:italic;font-weight:400;color:var(--seal);text-transform:none;font-size:.5em;display:block;margin-top:12px">the quarter, in numbers a desk can use</em></h1>
+  <p class="dh-dek" style="max-width:760px">Every figure below is sourced and dated. Read it with The Record for the narrative; bring it to your Monday meeting for the argument.</p>
+</div></section>
+<section class="burin"><div class="wrap" style="columns:2;column-gap:64px;padding-top:30px">{tables}</div></section>
+<section class="ctastrip"><div class="wrap"><div class="inner">
+  <h2>Numbers, every morning — <em>before the market opens.</em></h2>
+  <a class="big" href="index.html#coupon">Get the Morning Brief →</a>
+</div></div></section>
+{colophon()}
+{SCRIPT}"""
+
 # ---------------- DESK PAGES ----------------
 def desk_page(d):
     briefs = "".join(f"""<div class="brf rv">
@@ -373,6 +448,14 @@ def desk_page(d):
     stories = "".join(f"""<a class="dstory rv" href="{href}">
       <div class="n">S—{i+1:02d}</div><h3>{t}</h3><div class="d">{dk}</div><div class="m">{m}</div></a>""" for i,(href,t,dk,m) in enumerate(rows[:6]))
     stats = "".join(f"<div><b>{v}</b><span>{l}</span></div>" for v,l in d["stats"])
+    recs = [(w["label"], e) for w in RECORD.get("weeks", []) for e in w.get("entries", []) if e.get("d") == d["slug"]][:5]
+    recsec = ""
+    if recs:
+        rec_html = "".join(record_entry(e, wl) for wl, e in recs)
+        recsec = f"""<section class="burin"><div class="wrap">
+    <div class="sec-mast rv"><h2>This desk, on the record — <em>the last eight weeks</em></h2><div class="mono-note"><a href="the-record.html">Full chronicle →</a></div></div>
+    {rec_html}
+  </div></section>"""
     body = f"""{head(f"{d['title']} — Carat Capital", d['dek'][:150])}
 {folio(f"Desk D—{d['no']} · {d['title']}")}
 {navbar(d['slug'])}
@@ -409,6 +492,7 @@ def desk_page(d):
     <div>{stories}</div>
   </div>
 </section>
+{recsec}
 <section class="ctastrip">
   <div class="wrap"><div class="inner">
     <h2>Never miss this desk — <em>it's in the Morning Brief.</em></h2>
@@ -565,9 +649,9 @@ def index_page():
     <aside class="dispatch rv rv-d2">
       <svg class="stamp" width="30" height="19" viewBox="0 0 32 20" style="color:var(--gilt)"><use href="#hm-maker"/></svg>
       <div class="kick">The Dispatch · Opinion</div>
-      <h3>Nobody buys a stone. Everybody buys the story it can carry.</h3>
-      <p>The lab-grown discount hit 86% this week, and half the trade read it as an obituary. Wrong ledger. What collapsed is the price of carbon; what survived — untouched — is the price of meaning. The houses still standing in 2036 will be the ones who understood, early, which of the two they were actually selling.</p>
-      <div class="sig">— The Editor's Desk, No. 001</div>
+      <h3>A price list you can believe is worth more than a high one.</h3>
+      <p>De Beers spent two years defending a book that traded thirty percent above reality, and the market simply routed around it. This week it moves to close the gap. The lesson prices in everywhere: in rough, in retail tickets, in lab-grown tags — the trade pays a premium for honest numbers and discounts everything else.</p>
+      <div class="sig">— The Editor's Desk, No. 002</div>
     </aside>
   </div></div>
 </section>
@@ -577,6 +661,23 @@ def index_page():
     <div class="ledger rv">{ledger}</div>
   </div>
 </section>
+<section class="burin"><div class="wrap" style="padding:64px 0 58px">
+  <div class="sec-mast rv"><h2>The paper keeps a ledger. <em>Two of them.</em></h2><div class="mono-note">Updated weekly</div></div>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:26px;margin-top:26px">
+    <a class="rv" href="the-record.html" style="border:1.5px solid var(--ink);padding:30px 28px;display:block">
+      <div style="font-family:var(--mono);font-size:10px;letter-spacing:.24em;text-transform:uppercase;color:var(--seal)">The Record</div>
+      <div style="font-family:var(--disp);font-weight:700;font-size:clamp(22px,2.4vw,32px);letter-spacing:-.02em;margin:10px 0 8px">Eight weeks of the trade, kept properly</div>
+      <p style="color:var(--ink-2);font-size:14.5px;line-height:1.6">Every story that moved the industry since mid-May — dated, sourced, one page. The fastest way to catch up on the quarter.</p>
+      <div style="font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;margin-top:14px;border-bottom:2px solid var(--seal);display:inline-block;padding-bottom:3px">Read the chronicle →</div>
+    </a>
+    <a class="rv rv-d1" href="almanac.html" style="border:1.5px solid var(--ink);padding:30px 28px;display:block">
+      <div style="font-family:var(--mono);font-size:10px;letter-spacing:.24em;text-transform:uppercase;color:var(--seal)">The Almanac</div>
+      <div style="font-family:var(--disp);font-weight:700;font-size:clamp(22px,2.4vw,32px);letter-spacing:-.02em;margin:10px 0 8px">The quarter in numbers a desk can use</div>
+      <p style="color:var(--ink-2);font-size:14.5px;line-height:1.6">Metals prints, Swiss exports by market, lab-grown price curves, the saleroom league table, the retail scorecard — tabled and sourced.</p>
+      <div style="font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;margin-top:14px;border-bottom:2px solid var(--seal);display:inline-block;padding-bottom:3px">Open the tables →</div>
+    </a>
+  </div>
+</div></section>
 <section class="plateband">
   <div class="rosette">
     <svg width="640" height="640" viewBox="0 0 640 640" fill="none" stroke="#96762E" stroke-width=".6">
@@ -784,10 +885,12 @@ for d in DESKS:
 for a in ARTICLES:
     (out/f"a-{a['slug']}.html").write_text(article_page(a))
 (out/"field-guide.html").write_text(field_guide())
+(out/"the-record.html").write_text(record_page())
+(out/"almanac.html").write_text(almanac_page())
 (out/"about.html").write_text(about_page())
 (out/"assets"/"favicon.svg").write_text(FAVICON)
 (out/"assets"/"logo-mark.svg").write_text(logo_mark_svg())
-pages = ["index.html", "field-guide.html", "about.html"] + [f"{d['slug']}.html" for d in DESKS] + [f"a-{a['slug']}.html" for a in ARTICLES]
+pages = ["index.html", "field-guide.html", "about.html", "the-record.html", "almanac.html"] + [f"{d['slug']}.html" for d in DESKS] + [f"a-{a['slug']}.html" for a in ARTICLES]
 (out/"sitemap.xml").write_text(sitemap(pages))
 (out/"robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {BASE_URL}/sitemap.xml\n")
 print("built:", ", ".join(pages), "+ sitemap, robots, favicon")
