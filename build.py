@@ -639,12 +639,49 @@ def index_page():
       <div class="freq">{d['tag']}</div><div class="go">-&gt;</div></a>""" for d in DESKS)
     return f"""{head("CARAT CAPITAL — The Trade Paper of the Jewelry World",
       "Carat Capital is the trade paper of the global jewelry industry. Prices, intelligence and reporting from every desk of the stone trade.")}
-{folio('<span id="folio-date">Friday, July 10, 2026</span>')}
-<div class="wrap"><div class="nameplate">
-  {HALLROW}
-  <h1>Carat<span class="caret">^</span>Capital</h1>
-  <div class="plate-sub">The Trade Paper of the Jewelry World</div>
-</div></div>
+<style>
+.mast2{{background:linear-gradient(180deg,var(--paper-hi,#F8F4EB),var(--bone,#F2EDE3));border-bottom:1px solid rgba(22,19,14,.28)}}
+.mast2 .m2-grid{{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:28px;padding:26px 0 22px}}
+.mast2 .m2-side{{font-family:var(--mono);font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-2);display:flex;flex-direction:column;gap:7px}}
+.mast2 .m2-side b{{color:var(--seal);font-weight:600}}
+.mast2 .m2-right{{text-align:right;align-items:flex-end}}
+.mast2 .m2-center{{display:flex;align-items:center;gap:22px}}
+.mast2 .m2-rule{{display:block;width:min(11vw,150px);height:1px;background:linear-gradient(90deg,transparent,rgba(22,19,14,.5));position:relative}}
+.mast2 .m2-rule.r{{background:linear-gradient(90deg,rgba(22,19,14,.5),transparent)}}
+.mast2 .m2-rule::after{{content:"";position:absolute;top:-2.5px;width:6px;height:6px;transform:rotate(45deg);background:var(--seal)}}
+.mast2 .m2-rule.l::after{{right:0}}
+.mast2 .m2-rule.r::after{{left:0}}
+.mast2 .m2-medal{{width:104px;height:104px;display:block;transition:transform 1.2s cubic-bezier(.19,1,.22,1)}}
+.mast2 a:hover .m2-medal{{transform:rotate(8deg)}}
+.mast2 .m2-halls{{display:flex;gap:9px;align-items:center;color:var(--gilt)}}
+.mast2 .m2-clock b{{font-weight:600;color:var(--ink)}}
+@media(max-width:860px){{.mast2 .m2-side{{display:none}}.mast2 .m2-grid{{grid-template-columns:1fr;justify-items:center;padding:20px 0 16px}}.mast2 .m2-rule{{width:18vw}}}}
+</style>
+<div class="mast2"><div class="wrap"><div class="m2-grid">
+  <div class="m2-side">
+    <span>{WIRE.get("edition","")}</span>
+    <span>{WIRE.get("date_line","")}</span>
+    <span><b>Est. MMXXVI</b> · Read in 120+ countries</span>
+  </div>
+  <div class="m2-center">
+    <span class="m2-rule l"></span>
+    <div class="m2-halls">
+      <svg width="30" height="19" viewBox="0 0 32 20"><use href="#hm-maker"/></svg>
+      <svg width="25" height="19" viewBox="0 0 26 20"><use href="#hm-fine"/></svg>
+    </div>
+    <a href="index.html" aria-label="Carat Capital"><img class="m2-medal" src="assets/logo-mark.svg" alt="Carat Capital — the minted mark"></a>
+    <div class="m2-halls">
+      <svg width="25" height="19" viewBox="0 0 26 20"><use href="#hm-assay"/></svg>
+      <svg width="19" height="19" viewBox="0 0 20 20"><use href="#hm-date"/></svg>
+    </div>
+    <span class="m2-rule r"></span>
+  </div>
+  <div class="m2-side m2-right">
+    <span class="m2-clock">NYC <b data-tz="America/New_York">--:--</b> · ANR <b data-tz="Europe/Brussels">--:--</b></span>
+    <span class="m2-clock">BOM <b data-tz="Asia/Kolkata">--:--</b> · HKG <b data-tz="Asia/Hong_Kong">--:--</b></span>
+    <span>The trade paper of the jewelry world</span>
+  </div>
+</div></div></div>
 {navbar()}
 {omenu()}
 {wire_block()}
