@@ -1,20 +1,24 @@
 {
-  "date_line": "Friday, July 10, 2026",
-  "edition": "Vol. I — No. 001 · Third Edition",
+  "date_line": "Monday, July 14, 2026",
+  "edition": "Vol. I — No. 002 · Fourth Edition",
   "items": [
-    {"b": "GOLD 4,135.40 ▲1.2%", "t": " — August futures open higher Friday"},
-    {"b": "BOUCHERON", "t": " resets Place Vendôme with reinterpreted signature silhouette"},
-    {"b": "WORLD CUP", "t": " — diamond-set footballs land as watchmakers bet the summer"},
-    {"b": "ODYSSEY EFFECT", "t": " — trade braces for ancient-jewelry revival post-Nolan"},
-    {"b": "AMERICA 250", "t": " — heritage houses ship anniversary collections"},
-    {"b": "LAB-GROWN 1CT", "t": " slips 1.8% — discount to natural widens to 86%"}
+    {"b": "GOLD 4,102.30 ▲0.4%", "t": " — steadies near the H2 base case after June's $4,001 test"},
+    {"b": "DE BEERS", "t": " opens July sight in Gaborone poised to realign rough prices with the market"},
+    {"b": "PHILLIPS", "t": " closes a $235M spring — the biggest watch-auction season ever recorded"},
+    {"b": "AZURE BLUE", "t": " — 31.62ct fancy blue makes $8.4M as Christie's New York sells 100%"},
+    {"b": "CHOW TAI FOOK", "t": " books record HK$9.08B profit, up 52%, on fixed-price gold"},
+    {"b": "TARIFFS", "t": " — US–India deal to cut Indian-cut natural diamonds to zero duty"},
+    {"b": "RUSSIA", "t": " orders 'synthetic' labeling on lab-grown jewelry tags from Sept 1"},
+    {"b": "SSEF", "t": " trade alert: emeralds re-filled after lab testing — check report dates"},
+    {"b": "PLATINUM", "t": " holds near $1,900 after January's all-time $2,923 print"},
+    {"b": "LONDON", "t": " — Charlotte Rose elected first female president of the Diamond Bourse in 86 years"}
   ],
-  "tape_ts": "10 Jul 2026",
+  "tape_ts": "14 Jul 2026",
   "tape": [
-    {"name": "Gold / oz", "code": "XAU", "px": "4,115.10", "chg": "▲ +48.90 (+1.20%)", "dir": "up", "pts": [20,17,18,13,15,10,12,7,4]},
-    {"name": "Natural 1ct RBC", "code": "NAT1", "px": "5,240.00", "chg": "▲ +21.00 (+0.40%)", "dir": "up", "pts": [16,18,14,15,12,13,10]},
-    {"name": "Lab-Grown 1ct", "code": "LGD1", "px": "720.00", "chg": "▼ −13.20 (−1.80%)", "dir": "dn", "pts": [8,10,9,14,13,17,20]},
-    {"name": "Platinum / oz", "code": "XPT", "px": "1,394.00", "chg": "▲ +8.30 (+0.60%)", "dir": "up", "pts": [18,16,17,12,14,11,9]},
-    {"name": "Silver / oz", "code": "XAG", "px": "47.20", "chg": "▲ +0.42 (+0.90%)", "dir": "up", "pts": [19,15,16,13,15,10,8]}
+    {"name": "Gold / oz", "code": "XAU", "px": "4,102.30", "chg": "▲ +16.40 (+0.40%)", "dir": "up", "pts": [4, 7, 10, 14, 18, 20, 16, 13, 12]},
+    {"name": "Natural 1ct RBC", "code": "NAT1", "px": "5,236.00", "chg": "▼ -4.00 (-0.08%)", "dir": "down", "pts": [16, 15, 14, 15, 13, 13, 14]},
+    {"name": "Lab-Grown 1ct", "code": "LGD1", "px": "727.00", "chg": "▲ +7.00 (+0.97%)", "dir": "up", "pts": [20, 19, 18, 17, 16, 15, 13]},
+    {"name": "Platinum / oz", "code": "XPT", "px": "1,896.00", "chg": "▼ -8.30 (-0.44%)", "dir": "down", "pts": [22, 16, 10, 6, 4, 8, 9]},
+    {"name": "Silver / oz", "code": "XAG", "px": "71.40", "chg": "▲ +0.62 (+0.88%)", "dir": "up", "pts": [20, 18, 15, 13, 10, 8, 6]}
   ]
 }
