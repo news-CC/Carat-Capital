@@ -240,6 +240,7 @@ def head(title, desc, path="", extra=""):
 <meta property="og:url" content="{canonical}">
 <meta property="og:image" content="{BASE_URL}/assets/og-card.png">
 <meta name="twitter:card" content="summary_large_image">
+<link rel="alternate" type="application/rss+xml" title="Carat Capital — all desks" href="{BASE_URL}/feed.xml">
 <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -363,6 +364,52 @@ function ccJoin(e){e.preventDefault();window.open('https://caratcapital.beehiiv.
 </script>
 </body>
 </html>"""
+
+# ---------------- FEED + LLMS ----------------
+def rss_feed():
+    import datetime as _dt
+    items = ""
+    for a in ARTICLES[:30]:
+        d = _dt.datetime.strptime(a["date"], "%Y-%m-%d").strftime("%a, %d %b %Y 06:30:00 GMT")
+        items += f"""<item>
+<title>{H.escape(a["title"])}</title>
+<link>{BASE_URL}/a-{a["slug"]}.html</link>
+<guid isPermaLink="true">{BASE_URL}/a-{a["slug"]}.html</guid>
+<pubDate>{d}</pubDate>
+<category>{H.escape(DESK_NAMES.get(a["desk"], a["desk"]))}</category>
+<description>{H.escape(a["dek"])}</description>
+</item>"""
+    return f"""<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel>
+<title>Carat Capital — The Trade Paper of the Jewelry World</title>
+<link>{BASE_URL}</link>
+<description>Prices, intelligence and analysis from every desk of the stone trade: diamonds, gold and metals, gemstones, watches, auctions, retail and technology.</description>
+<language>en</language>
+{items}
+</channel></rss>"""
+
+def llms_txt():
+    desks = "\n".join(f"- [{d['title']}]({BASE_URL}/{d['slug']}.html): {d['tag']}" for d in DESKS)
+    arts = "\n".join(f"- [{a['title']}]({BASE_URL}/a-{a['slug']}.html): {a['dek'][:140]}" for a in ARTICLES[:15])
+    return f"""# Carat Capital
+
+> The trade paper of the jewelry world — original, sourced daily reporting on diamonds, gold and precious metals, colored gemstones, watches, jewelry auctions, and jewelry retail and technology. Published at {BASE_URL}. All articles are original writing with named, linked sources; prices are dated and indicative.
+
+## The paper
+- [Front page]({BASE_URL}/): today's edition, the wire, and the live price tape
+- [The Record]({BASE_URL}/the-record.html): a dated, sourced week-by-week chronicle of the industry
+- [The Almanac]({BASE_URL}/almanac.html): the quarter's key numbers in sourced tables (metals, exports, prices, auctions, retail)
+- [The Field Guide]({BASE_URL}/field-guide.html): plain-language introduction to how the jewelry trade works
+- [About & editorial standards]({BASE_URL}/about.html)
+- [RSS feed]({BASE_URL}/feed.xml)
+- [Morning Brief newsletter](https://caratcapital.beehiiv.com): free daily email, 06:30 ET
+
+## The six desks
+{desks}
+
+## Recent articles
+{arts}
+"""
 
 # ---------------- THE RECORD + ALMANAC ----------------
 DESK_CHIP = {"diamonds":"Diamonds","gold-metals":"Gold & Metals","gemstones":"Gemstones","watches":"Watches","auctions":"Auctions","retail-tech":"Retail & Tech"}
@@ -890,6 +937,8 @@ for a in ARTICLES:
 (out/"about.html").write_text(about_page())
 (out/"assets"/"favicon.svg").write_text(FAVICON)
 (out/"assets"/"logo-mark.svg").write_text(logo_mark_svg())
+(out/"feed.xml").write_text(rss_feed())
+(out/"llms.txt").write_text(llms_txt())
 pages = ["index.html", "field-guide.html", "about.html", "the-record.html", "almanac.html"] + [f"{d['slug']}.html" for d in DESKS] + [f"a-{a['slug']}.html" for a in ARTICLES]
 (out/"sitemap.xml").write_text(sitemap(pages))
 (out/"robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {BASE_URL}/sitemap.xml\n")
