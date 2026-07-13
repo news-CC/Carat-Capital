@@ -356,7 +356,7 @@ document.querySelectorAll('.rv').forEach(el=>io.observe(el));
 requestAnimationFrame(()=>document.querySelectorAll('.rv').forEach(el=>{const r=el.getBoundingClientRect();if(r.top<innerHeight&&r.bottom>0)el.classList.add('in')}));
 const sio=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('go');sio.unobserve(e.target)}}),{threshold:.4});
 document.querySelectorAll('.spark').forEach(el=>sio.observe(el));
-function ccJoin(e){e.preventDefault();const f=document.getElementById('cp-fine');e.target.querySelector('input').value='';if(f){f.textContent='/// RECEIVED — your first Morning Brief prints tomorrow, 06:30 ET ///';f.style.color='var(--seal)'}return false}
+function ccJoin(e){e.preventDefault();window.open('https://caratcapital.beehiiv.com/subscribe?email='+encodeURIComponent(e.target.querySelector('input').value),'_blank');const f=document.getElementById('cp-fine');e.target.querySelector('input').value='';if(f){f.textContent='/// RECEIVED — your first Morning Brief prints tomorrow, 06:30 ET ///';f.style.color='var(--seal)'}return false}
 </script>
 </body>
 </html>"""
