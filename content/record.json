@@ -1,0 +1,416 @@
+{
+ "updated": "14 Jul 2026",
+ "intro": "Eight weeks of the trade, kept the way a ledger should be kept — dated, sourced, and in one place. New entries are added at the top each week; the quarter's running numbers live in the Almanac below.",
+ "weeks": [
+  {
+   "label": "This week — July 13",
+   "entries": [
+    {
+     "d": "diamonds",
+     "h": "De Beers opens the July sight ready to realign rough prices",
+     "t": "The miner arrives in Gaborone prepared to cut official book prices or widen discounted deals — sightholders put the book 20–30% above market in sub-carat rough. A new sightholder contract takes effect against the backdrop of Anglo American's divestment.",
+     "s": "Rapaport"
+    },
+    {
+     "d": "gold-metals",
+     "h": "Gold camps at the $4,100 line",
+     "t": "Bullion consolidates near the World Gold Council's H2 base case (±5% around $4,100) after June 25's $4,001.80 trough; 30-day volatility cools from 50%+ to under 30%.",
+     "s": "World Gold Council"
+    },
+    {
+     "d": "gemstones",
+     "h": "ICA's new CEO takes office",
+     "t": "Brandee Dallow (ex-De Beers, Rio Tinto Diamonds, RJC) begins as chief executive of the International Colored Gemstone Association on July 6.",
+     "s": "The Diamond Press"
+    }
+   ]
+  },
+  {
+   "label": "Week of July 6",
+   "entries": [
+    {
+     "d": "auctions",
+     "h": "Phillips closes a $235M spring — the biggest watch season ever",
+     "t": "Combined Geneva–Hong Kong–New York sales top $235M at a 99.8% sell-through across 937 lots; an F.P. Journe Souscription Résonance makes $13.9M in New York, a record for any independent watchmaker.",
+     "s": "WatchPro"
+    },
+    {
+     "d": "retail-tech",
+     "h": "US independents post a fewer-better-dearer May",
+     "t": "Independent jewelers' sales rose 12% YoY on a 22% higher average ticket with 9% fewer units; diamond average prices +21%.",
+     "s": "The Diamond Press"
+    }
+   ]
+  },
+  {
+   "label": "Week of June 29",
+   "entries": [
+    {
+     "d": "diamonds",
+     "h": "Supply discipline turns physical",
+     "t": "Alrosa suspends Severalmaz mining for ~3 months from July 1; Storm Mountain puts Lesotho's Kao mine on care and maintenance (~750 workers); Petra's Finsch enters business rescue (~1,800 jobs).",
+     "s": "The Diamond Press"
+    },
+    {
+     "d": "gold-metals",
+     "h": "Gold survives its $4,000 test",
+     "t": "Spot touches $4,001.80 on June 25 — the H1 low — and holds the level; YTD the metal is down ~7% from a $5,405 January 29 peak yet remains a top-performing asset over 12 months.",
+     "s": "World Gold Council"
+    }
+   ]
+  },
+  {
+   "label": "Week of June 22",
+   "entries": [
+    {
+     "d": "diamonds",
+     "h": "Russia draws the hardest lab-grown line yet",
+     "t": "From September 1, lab-grown jewelry tags must read 'synthetic' — the words 'diamond', grading terms, and descriptors like 'natural' or 'eco-friendly' are banned; weights in grams only.",
+     "s": "The Diamond Press"
+    },
+    {
+     "d": "retail-tech",
+     "h": "Signet steadies, Asia soars",
+     "t": "Signet Q1: $1.55B (+0.7%), same-store +1.8%, guidance floor raised to $6.7B. Chow Tai Fook FY: revenue +5% to HK$94.4B, profit +52% to a record HK$9.08B; Luk Fook revenue +29%, profit +89%.",
+     "s": "The Diamond Press"
+    }
+   ]
+  },
+  {
+   "label": "Week of June 15",
+   "entries": [
+    {
+     "d": "watches",
+     "h": "Swiss exports eke out +0.4% in May",
+     "t": "CHF 2.11B — US +12%, France +57% (logistics hub), UK +25%, China −21%; CHF 200–500 watches +24% while the CHF 500–3,000 middle falls 17%. YTD −3.1%.",
+     "s": "FH / Rapaport"
+    },
+    {
+     "d": "auctions",
+     "h": "New York's blue June",
+     "t": "Christie's Magnificent Jewels makes $49.7M at 100% sell-through — the 31.62ct Azure Blue at $8.4M. Sotheby's answers with $43.4M at 98%, led by a 10.02ct fancy intense blue at $8.7M.",
+     "s": "The Diamond Press"
+    }
+   ]
+  },
+  {
+   "label": "Week of June 8",
+   "entries": [
+    {
+     "d": "auctions",
+     "h": "Estate material outperforms — again",
+     "t": "Christie's Stream Family Collection realizes $17.3M at 99% sold; a 49.91ct light green-yellow diamond quadruples its low estimate at $2M.",
+     "s": "The Diamond Press"
+    },
+    {
+     "d": "diamonds",
+     "h": "Rough turns a corner",
+     "t": "Alrosa logs record May client viewings — double last year, busiest in eight years — with 2–10ct prices up 6–9% since January; TAGS Dubai tender clears 80%.",
+     "s": "The Diamond Press"
+    }
+   ]
+  },
+  {
+   "label": "Week of June 1 — Vegas week",
+   "entries": [
+    {
+     "d": "gemstones",
+     "h": "JCK Las Vegas: color claims the counter",
+     "t": "The State of the Colored Gemstone Industry panel reports engagement customers choosing sapphire, spinel and garnet first; margins beat diamonds; Tucson 2026 ranked among dealers' best shows ever.",
+     "s": "AGTA"
+    },
+    {
+     "d": "gemstones",
+     "h": "The three trends of jewelry week",
+     "t": "Marion Fasel's Vegas read: mechanicals (transformable pieces), creative alternatives to gold (beads, cords, small scale), and narrative jewelry as the feature customers pay for.",
+     "s": "JCK"
+    },
+    {
+     "d": "retail-tech",
+     "h": "Pandora widens its lab-grown footprint",
+     "t": "Lab-grown collections expand to Spain and Italy via Barcelona and Milan flagships — eight markets globally.",
+     "s": "The Diamond Press"
+    }
+   ]
+  },
+  {
+   "label": "Late May",
+   "entries": [
+    {
+     "d": "diamonds",
+     "h": "Who buys diamonds now",
+     "t": "De Beers' US study: average natural-diamond spend up 25% to $4,063 vs 2023; 75% of value demand is non-bridal; Gen Z takes 23% of value demand vs 18% of population.",
+     "s": "De Beers via The Diamond Press"
+    },
+    {
+     "d": "retail-tech",
+     "h": "Jewelry leads a €1.44T luxury market",
+     "t": "Bain–Altagamma puts 2025 global luxury spending at €1.44T with jewelry the leading category; personal luxury +1% in H1 2026, 2–4% forecast for the year.",
+     "s": "Bain / Altagamma"
+    }
+   ]
+  },
+  {
+   "label": "Mid-May",
+   "entries": [
+    {
+     "d": "auctions",
+     "h": "Geneva rewrites the record book",
+     "t": "Phillips' Geneva Watch Auction XXIII realizes $96.3M — the highest-grossing watch auction in history — with a Patek Philippe Ref. 2523 at $10.2M and dozens of world records.",
+     "s": "Forbes"
+    },
+    {
+     "d": "watches",
+     "h": "Richemont's jewelry engine",
+     "t": "FY2026 (ended March 31): group sales €22.4B (+11% constant); Jewellery Maisons €16.5B (+14%) at a 30.5% operating margin; net profit €3.5B (+27%).",
+     "s": "Richemont"
+    },
+    {
+     "d": "diamonds",
+     "h": "London Diamond Bourse elects Charlotte Rose",
+     "t": "First female president in the bourse's 86-year history — believed the first woman to lead any diamond bourse worldwide.",
+     "s": "The Diamond Press"
+    }
+   ]
+  }
+ ],
+ "tables": [
+  {
+   "title": "Metals — the half at a glance",
+   "note": "USD/oz · H1 2026",
+   "cols": [
+    "Measure",
+    "Print",
+    "Context"
+   ],
+   "rows": [
+    [
+     "Gold — Jan 29 peak",
+     "5,405",
+     "all-time high"
+    ],
+    [
+     "Gold — Jun 25 trough",
+     "4,001.80",
+     "H1 low; level held"
+    ],
+    [
+     "Gold — H2 base case",
+     "≈4,100 ±5%",
+     "WGC mid-year outlook"
+    ],
+    [
+     "Platinum — Jan record",
+     "2,923.70",
+     "all-time high"
+    ],
+    [
+     "Platinum — early summer",
+     "≈1,900",
+     "+62% YoY"
+    ],
+    [
+     "Silver — June",
+     "≈72",
+     "+102% YoY"
+    ]
+   ],
+   "src": "World Gold Council · Trading Economics"
+  },
+  {
+   "title": "Swiss watch exports — May 2026",
+   "note": "CHF 2.11B total · +0.4% YoY · YTD −3.1%",
+   "cols": [
+    "Market",
+    "May value",
+    "YoY"
+   ],
+   "rows": [
+    [
+     "United States",
+     "$375.7M",
+     "+12%"
+    ],
+    [
+     "France",
+     "$237.6M",
+     "+57%"
+    ],
+    [
+     "United Kingdom",
+     "$203.0M",
+     "+25%"
+    ],
+    [
+     "Hong Kong",
+     "$201.9M",
+     "+3.4%"
+    ],
+    [
+     "Japan",
+     "$190.9M",
+     "−3.5%"
+    ],
+    [
+     "China",
+     "$162.1M",
+     "−21%"
+    ]
+   ],
+   "src": "Federation of the Swiss Watch Industry"
+  },
+  {
+   "title": "Lab-grown wholesale — Q2 2026",
+   "note": "year-on-year price change by size",
+   "cols": [
+    "Category",
+    "YoY",
+    "Note"
+   ],
+   "rows": [
+    [
+     "1ct rounds",
+     "+1%",
+     "first rise in years"
+    ],
+    [
+     "1.50–1.99ct",
+     "−11%",
+     "still falling"
+    ],
+    [
+     "2ct and above",
+     "−20%",
+     "steepest declines"
+    ],
+    [
+     "All categories avg",
+     "−13%",
+     "deceleration continues"
+    ],
+    [
+     "Cumulative since 2018",
+     "−96%",
+     "the long collapse"
+    ],
+    [
+     "Rough (recent)",
+     "+25–30%",
+     "producers push back"
+    ]
+   ],
+   "src": "Edahn Golan Diamond Research"
+  },
+  {
+   "title": "The saleroom — May–June league table",
+   "cols": [
+    "Sale",
+    "Total",
+    "Sold"
+   ],
+   "note": "headline results",
+   "rows": [
+    [
+     "Phillips spring season (watches)",
+     "$235M+",
+     "99.8%"
+    ],
+    [
+     "Phillips Geneva XXIII (May)",
+     "$96.3M",
+     "record"
+    ],
+    [
+     "Christie's NY Magnificent Jewels",
+     "$49.7M",
+     "100%"
+    ],
+    [
+     "Sotheby's NY (June)",
+     "$43.4M",
+     "98%"
+    ],
+    [
+     "Christie's Stream Collection",
+     "$17.3M",
+     "99%"
+    ]
+   ],
+   "src": "WatchPro · The Diamond Press"
+  },
+  {
+   "title": "Retail scorecard — latest reported",
+   "cols": [
+    "House",
+    "Revenue",
+    "Signal"
+   ],
+   "note": "most recent fiscal periods",
+   "rows": [
+    [
+     "Chow Tai Fook (FY26)",
+     "HK$94.4B · +5%",
+     "profit +52%, record"
+    ],
+    [
+     "Luk Fook (FY26)",
+     "HK$17.2B · +29%",
+     "profit +89%"
+    ],
+    [
+     "Richemont Jewellery (FY26)",
+     "€16.5B · +14%",
+     "30.5% margin"
+    ],
+    [
+     "Signet (Q1 FY27)",
+     "$1.55B · +0.7%",
+     "SSS +1.8%"
+    ],
+    [
+     "US independents (May)",
+     "+12% YoY",
+     "ticket +22%, units −9%"
+    ],
+    [
+     "Hong Kong jewelry retail (Apr)",
+     "+20% YoY",
+     "tourism-led"
+    ]
+   ],
+   "src": "company reports via The Diamond Press · Richemont"
+  },
+  {
+   "title": "Tariff arithmetic — US–India deal",
+   "cols": [
+    "Category",
+    "Before",
+    "After deal"
+   ],
+   "note": "US import duty on Indian goods",
+   "rows": [
+    [
+     "Natural cut & polished diamonds",
+     "25%",
+     "0%"
+    ],
+    [
+     "Finished jewelry",
+     "31%",
+     "24%"
+    ],
+    [
+     "Lab-grown diamonds",
+     "25%",
+     "18%"
+    ],
+    [
+     "US-cast jewelry",
+     "duty-free",
+     "duty-free"
+    ]
+   ],
+   "src": "JCK · National Jeweler"
+  }
+ ]
+}
