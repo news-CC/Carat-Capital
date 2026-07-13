@@ -1,64 +1,454 @@
 [
-  {
-    "slug": "gold-4100-redraws-jewelry-map",
-    "desk": "gold-metals",
-    "date": "2026-07-10",
-    "lead": true,
-    "kicker": "Lead Story · Gold & Metals Desk",
-    "title": "Gold at $4,100 is quietly redrawing the entire map of the jewelry trade",
-    "dek": "Bullion opened above $4,135 this morning and the consequences are no longer theoretical: Surat is re-engineering mountings, Vicenza is hollowing chains, and the diamond markup model that held for forty years is being re-cut in real time.",
-    "byline": "The Bullion Desk",
-    "minutes": 8,
-    "body": [
-      "Gold opened higher again on Friday morning, with August futures up 1.2% and spot trading around $4,115 an ounce — the latest step in a rally that has added roughly a third to the metal's price over the trailing twelve months. For bullion traders this is a macro story about haven flows and central-bank buying. For the jewelry trade, it is something more intimate: the raw material of half the world's inventory has repriced underneath it.",
-      "The first response is engineering. Manufacturers in Vicenza and Shenzhen have spent the year refining what the trade politely calls lightweighting — hollow-form chains, electroformed volumes, thinner gauges that preserve the look of substance while shedding grams. The craft of making less metal read as more is suddenly the most commercially important skill on the bench.",
-      "The second response is a quiet migration down the fineness ladder. Markets that lived at 22 karat are showing 18-karat collections; 18-karat houses are testing 14 and even reviving 9 karat with design-forward positioning. India, the world's largest gold-jewelry market, has absorbed the shock with characteristic pragmatism — wedding-season volumes dip, values rise, and the buying continues, because the buying always continues.",
-      "The third response is the one nobody has fully priced: what expensive gold does to diamonds. When the mounting costs more, the stone's share of the ticket shrinks — and with it, the retailer's flexibility on diamond margin. Several sightholders describe a re-negotiation of the markup structure that has governed the pipeline for a generation. That conversation is just beginning, and it will run for years.",
-      "The desk's view: $4,000-plus gold is not a spike to be waited out but a level to be designed for. The houses treating it as the new baseline — re-engineering product, re-cutting margins, retraining sales floors to sell craft over weight — are the ones who will own the counter when the cycle turns."
-    ],
-    "sources": [
-      {"title": "Yahoo Finance — Gold prices today, Friday, July 10, 2026", "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-friday-july-10-2026-gold-finally-opens-higher-this-morning-120806614.html"},
-      {"title": "Forbes Advisor — Gold Price Today", "url": "https://www.forbes.com/advisor/investing/gold-price/"}
-    ]
-  },
-  {
-    "slug": "world-cup-watch-gold-rush",
-    "desk": "watches",
-    "date": "2026-07-10",
-    "kicker": "Watches Desk · Geneva",
-    "title": "World Cup gold rush: watchmakers bet the summer on football",
-    "dek": "Diamond-set footballs, athlete ambassadors and tournament-timed limited editions — the industry is spending the summer converting football fever into waiting lists.",
-    "byline": "The Watches Desk",
-    "minutes": 4,
-    "body": [
-      "The 2026 World Cup has done something Baselworld never managed: it has given the entire watch and jewelry industry a single, synchronized marketing calendar. Across the trade, houses are shipping tournament-adjacent product — from diamond-encrusted footballs built as showcase pieces to limited references timed to kickoff dates — betting that a summer of global attention converts into autumn sales.",
-      "The playbook is familiar from horology's long romance with motorsport, but the scale is new. North American retail, hosting much of the tournament, is the primary target; Geneva supplies the prestige, Miami and New York supply the foot traffic.",
-      "Industry coverage this week highlights sport-inspired collections landing at every price tier — the trade press notes diamond-set footballs among the season's showcase items, alongside athlete ambassador signings that would have gone to actors a decade ago.",
-      "The desk's view: sport partnerships are the rare marketing spend that reaches men aged 25 to 45 — the demographic luxury watches need and jewelry historically ignores. Expect the winners of this summer to make the arrangement permanent."
-    ],
-    "sources": [
-      {"title": "JCK — jewelry industry news and trends", "url": "https://www.jckonline.com/"}
-    ]
-  },
-  {
-    "slug": "lab-grown-86-percent-question",
-    "desk": "retail-tech",
-    "date": "2026-07-10",
-    "kicker": "Retail & Technology Desk · Surat",
-    "title": "Lab-grown slips again — the 86% question nobody will answer aloud",
-    "dek": "The discount to natural widened to 86% this week. The obituary readings are wrong: what collapsed is the price of carbon, and what survived is the business model.",
-    "byline": "The Retail & Technology Desk",
-    "minutes": 7,
-    "body": [
-      "One-carat lab-grown goods slipped again this week, with indicative pricing around $720 — an 86% discount to the comparable natural stone. Half the trade reads that number as a crisis. The other half, mostly the half selling lab-grown by the tray, reads it as the point.",
-      "Lab-grown pricing follows a technology curve, not a scarcity curve. Reactor capacity keeps growing, yields keep improving, and the price keeps finding lower floors. Fighting that curve was always a losing trade; the business model that works is the one that embraces it — high-volume, brand-margin, fashion-cadence jewelry that happens to sparkle like a mined stone.",
-      "The strategic consequence for natural diamonds is equally clear. At an 86% gap, the two products no longer compete on price at all — they compete on meaning. Provenance, rarity, resale value and story are now the entire natural-diamond value proposition, which is why traceability spending and origin marketing budgets are climbing across the majors.",
-      "Surat, which polishes most of the world's stones and now grows a large share of the lab-grown supply, sits on both sides of the divide — and its pivot toward LGD manufacturing scale is two years into a decade-long build.",
-      "The desk's view: stop asking when lab-grown prices recover. They aren't supposed to. Ask instead who owns the brands, the reactors, and the natural-diamond story — those are the three positions that pay."
-    ],
-    "sources": [
-      {"title": "JCK — industry coverage", "url": "https://www.jckonline.com/"},
-      {"title": "Branvas — 2026 jewelry industry statistics", "url": "https://branvas.com/blogs/news/jewelry-industry-statistics-2026"}
-    ]
-  }
+ {
+  "slug": "gold-4100-redraws-jewelry-map",
+  "desk": "gold-metals",
+  "date": "2026-07-10",
+  "lead": false,
+  "kicker": "Lead Story · Gold & Metals Desk",
+  "title": "Gold at $4,100 is quietly redrawing the entire map of the jewelry trade",
+  "dek": "Bullion opened above $4,135 this morning and the consequences are no longer theoretical: Surat is re-engineering mountings, Vicenza is hollowing chains, and the diamond markup model that held for forty years is being re-cut in real time.",
+  "byline": "The Bullion Desk",
+  "minutes": 8,
+  "body": [
+   "Gold opened higher again on Friday morning, with August futures up 1.2% and spot trading around $4,115 an ounce — the latest step in a rally that has added roughly a third to the metal's price over the trailing twelve months. For bullion traders this is a macro story about haven flows and central-bank buying. For the jewelry trade, it is something more intimate: the raw material of half the world's inventory has repriced underneath it.",
+   "The first response is engineering. Manufacturers in Vicenza and Shenzhen have spent the year refining what the trade politely calls lightweighting — hollow-form chains, electroformed volumes, thinner gauges that preserve the look of substance while shedding grams. The craft of making less metal read as more is suddenly the most commercially important skill on the bench.",
+   "The second response is a quiet migration down the fineness ladder. Markets that lived at 22 karat are showing 18-karat collections; 18-karat houses are testing 14 and even reviving 9 karat with design-forward positioning. India, the world's largest gold-jewelry market, has absorbed the shock with characteristic pragmatism — wedding-season volumes dip, values rise, and the buying continues, because the buying always continues.",
+   "The third response is the one nobody has fully priced: what expensive gold does to diamonds. When the mounting costs more, the stone's share of the ticket shrinks — and with it, the retailer's flexibility on diamond margin. Several sightholders describe a re-negotiation of the markup structure that has governed the pipeline for a generation. That conversation is just beginning, and it will run for years.",
+   "The desk's view: $4,000-plus gold is not a spike to be waited out but a level to be designed for. The houses treating it as the new baseline — re-engineering product, re-cutting margins, retraining sales floors to sell craft over weight — are the ones who will own the counter when the cycle turns."
+  ],
+  "sources": [
+   {
+    "title": "Yahoo Finance — Gold prices today, Friday, July 10, 2026",
+    "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-friday-july-10-2026-gold-finally-opens-higher-this-morning-120806614.html"
+   },
+   {
+    "title": "Forbes Advisor — Gold Price Today",
+    "url": "https://www.forbes.com/advisor/investing/gold-price/"
+   }
+  ]
+ },
+ {
+  "slug": "world-cup-watch-gold-rush",
+  "desk": "watches",
+  "date": "2026-07-10",
+  "kicker": "Watches Desk · Geneva",
+  "title": "World Cup gold rush: watchmakers bet the summer on football",
+  "dek": "Diamond-set footballs, athlete ambassadors and tournament-timed limited editions — the industry is spending the summer converting football fever into waiting lists.",
+  "byline": "The Watches Desk",
+  "minutes": 4,
+  "body": [
+   "The 2026 World Cup has done something Baselworld never managed: it has given the entire watch and jewelry industry a single, synchronized marketing calendar. Across the trade, houses are shipping tournament-adjacent product — from diamond-encrusted footballs built as showcase pieces to limited references timed to kickoff dates — betting that a summer of global attention converts into autumn sales.",
+   "The playbook is familiar from horology's long romance with motorsport, but the scale is new. North American retail, hosting much of the tournament, is the primary target; Geneva supplies the prestige, Miami and New York supply the foot traffic.",
+   "Industry coverage this week highlights sport-inspired collections landing at every price tier — the trade press notes diamond-set footballs among the season's showcase items, alongside athlete ambassador signings that would have gone to actors a decade ago.",
+   "The desk's view: sport partnerships are the rare marketing spend that reaches men aged 25 to 45 — the demographic luxury watches need and jewelry historically ignores. Expect the winners of this summer to make the arrangement permanent."
+  ],
+  "sources": [
+   {
+    "title": "JCK — jewelry industry news and trends",
+    "url": "https://www.jckonline.com/"
+   }
+  ],
+  "lead": false
+ },
+ {
+  "slug": "lab-grown-86-percent-question",
+  "desk": "retail-tech",
+  "date": "2026-07-10",
+  "kicker": "Retail & Technology Desk · Surat",
+  "title": "Lab-grown slips again — the 86% question nobody will answer aloud",
+  "dek": "The discount to natural widened to 86% this week. The obituary readings are wrong: what collapsed is the price of carbon, and what survived is the business model.",
+  "byline": "The Retail & Technology Desk",
+  "minutes": 7,
+  "body": [
+   "One-carat lab-grown goods slipped again this week, with indicative pricing around $720 — an 86% discount to the comparable natural stone. Half the trade reads that number as a crisis. The other half, mostly the half selling lab-grown by the tray, reads it as the point.",
+   "Lab-grown pricing follows a technology curve, not a scarcity curve. Reactor capacity keeps growing, yields keep improving, and the price keeps finding lower floors. Fighting that curve was always a losing trade; the business model that works is the one that embraces it — high-volume, brand-margin, fashion-cadence jewelry that happens to sparkle like a mined stone.",
+   "The strategic consequence for natural diamonds is equally clear. At an 86% gap, the two products no longer compete on price at all — they compete on meaning. Provenance, rarity, resale value and story are now the entire natural-diamond value proposition, which is why traceability spending and origin marketing budgets are climbing across the majors.",
+   "Surat, which polishes most of the world's stones and now grows a large share of the lab-grown supply, sits on both sides of the divide — and its pivot toward LGD manufacturing scale is two years into a decade-long build.",
+   "The desk's view: stop asking when lab-grown prices recover. They aren't supposed to. Ask instead who owns the brands, the reactors, and the natural-diamond story — those are the three positions that pay."
+  ],
+  "sources": [
+   {
+    "title": "JCK — industry coverage",
+    "url": "https://www.jckonline.com/"
+   },
+   {
+    "title": "Branvas — 2026 jewelry industry statistics",
+    "url": "https://branvas.com/blogs/news/jewelry-industry-statistics-2026"
+   }
+  ],
+  "lead": false
+ },
+ {
+  "slug": "de-beers-blinks-july-sight",
+  "desk": "diamonds",
+  "date": "2026-07-14",
+  "lead": true,
+  "kicker": "Lead Story · Diamonds Desk",
+  "title": "De Beers blinks: the July sight and the end of the polite fiction",
+  "dek": "The miner opens its July sight in Gaborone this week prepared to do what sightholders have demanded for two years — bring official rough prices back into contact with the market they supposedly describe.",
+  "byline": "The Rough Desk",
+  "minutes": 7,
+  "body": [
+   "For most of the downturn, De Beers ran two price lists. There was the official book — the one sightholders were asked to buy against — and there was the market, which sat, by sightholder estimates, twenty to thirty percent below it in rough under a carat and five to fifteen percent below in larger sizes. Everyone in the pipeline knew the gap existed. The July sight, opening this week in Gaborone, is where the company finally moves to close it.",
+   "The mechanics matter less than the signal. De Beers can cut the book outright, or it can widen the discounted bulk deals it has been quietly running for select clients since the spring. Either way, executives telegraphed the shift in a run of client meetings across Mumbai, Dubai and Antwerp — a tour that sightholders read, correctly, as the end of the era of defending price over volume.",
+   "What makes the move possible is that the market has finally given the company room. Small rough — the category that spent 2025 in the deepest hole — has firmed sharply this year. Alrosa logged record client viewings in May, more than double last year's level, its busiest count in eight years, and has pushed prices on two-to-ten-carat rough up six to nine percent since January. One sightholder executive put the logic plainly: the market is much stronger, so it is an opportunity to align prices without creating weakness.",
+   "The supply side is doing its part through subtraction. Alrosa is suspending mining at Severalmaz for roughly three months from July 1 to manage rough supply. Storm Mountain Diamonds placed Lesotho's Kao mine on care and maintenance the same day, citing weak prices, diesel costs and lab-grown competition — some 750 workers affected. Petra Diamonds' Finsch mine entered business-rescue proceedings, with about 1,800 jobs in the balance. Painful as the individual stories are, the aggregate is the same medicine the natural pipeline has needed: less rough chasing the same demand.",
+   "Hanging over all of it is ownership. Botswana, already a fifteen-percent shareholder, is negotiating with the UAE and Oman over a possible acquisition of Anglo American's stake, while Namibia weighs a NAD 3 billion co-investment alongside Botswana and Angola. A producer-country consortium owning the world's most famous diamond marketer would remake the politics of rough pricing entirely — and July's realignment would look, in hindsight, like the first act of that remaking.",
+   "The desk's view: closing the book-to-market gap costs De Beers pride and revenue in the short run and buys back something more valuable — a price signal the trade can believe. Rough markets do not recover on sentiment; they recover on cleared inventory and honest numbers. This week is the honest-numbers week."
+  ],
+  "sources": [
+   {
+    "title": "Rapaport — De Beers Poised to Ease Rough Pricing at July Sight",
+    "url": "https://rapaport.com/news/de-beers-poised-to-ease-rough-pricing-at-july-sight/"
+   },
+   {
+    "title": "The Diamond Press — June 2026 News Roundup",
+    "url": "https://www.thediamondpress.com/post/june-2026-news-roundup"
+   },
+   {
+    "title": "CNBC Africa — Botswana seeing soft recovery in diamond demand",
+    "url": "https://www.cnbcafrica.com/2026/botswana-seeing-soft-recovery-in-diamond-demand-mines-minister-says"
+   }
+  ]
+ },
+ {
+  "slug": "gold-half-time-report",
+  "desk": "gold-metals",
+  "date": "2026-07-13",
+  "lead": false,
+  "kicker": "Gold & Metals Desk",
+  "title": "Half-time for gold: a $1,400 round trip and the level the trade must design for",
+  "dek": "From a $5,405 January peak to a $4,001.80 June trough, bullion's first half was a stress test of every gram on every bench. The consensus for the second half is calmer — and that is its own kind of decision.",
+  "byline": "The Bullion Desk",
+  "minutes": 6,
+  "body": [
+   "Strip the noise and gold's first half reads like a mountain profile: a vertical ascent to $5,405 an ounce on January 29, a long violent descent to $4,001.80 on June 25, and a camp established since around the $4,100 line — down roughly seven percent for the year, yet still among the best-performing assets over the trailing twelve months. Thirty-day realized volatility topped fifty percent at the worst of it, against a twenty-year average of seventeen.",
+   "The World Gold Council's attribution work tells the trade where the price actually came from: momentum and investor flows explain about a quarter of the first half's variability, risk and uncertainty another seventeen percent, currency effects fourteen. And the geography matters more than the math — Asia was the engine of price support, with most of the meaningful rebounds occurring during Asian trading hours. The counter in Shenzhen and the wholesaler in Mumbai are, functionally, the floor under this market.",
+   "The second-half consensus is almost suspiciously tidy: a base case of plus-or-minus five percent around $4,100, an upside scenario toward $4,500 on economic deterioration or geopolitical shock, a downside of ten to fifteen percent cushioned by bargain hunting. Central-bank arithmetic frames the band — every twenty to thirty tonnes of official buying above the 600-tonne annual run rate is worth roughly one percent on the price.",
+   "For the jewelry trade the implication is uncomfortable but clarifying: $4,000-plus is not an anomaly to be waited out. It is the planning assumption. The manufacturers who spent the spring re-engineering — hollow forms, lighter gauges, beads and cords where chains used to be — were not panicking; they were repricing the category's raw material a season ahead of their competitors.",
+   "The desk's view: the half-time score flatters no one — bulls hold a seven-percent loss, bears with a market that refused to break $4,000. But a $4,100 equilibrium with tamed volatility is the most workable gold market the bench has had in two years. Design for it."
+  ],
+  "sources": [
+   {
+    "title": "World Gold Council — Gold Mid-Year Outlook 2026: Point break",
+    "url": "https://www.gold.org/goldhub/research/gold-mid-year-outlook-2026"
+   },
+   {
+    "title": "CME Group — Precious Metals Outlook 2026",
+    "url": "https://www.cmegroup.com/articles/2026/precious-metals-outlook-2026-market-dynamics-following-a-record-breaking-year.html"
+   }
+  ]
+ },
+ {
+  "slug": "platinum-and-the-other-podium",
+  "desk": "gold-metals",
+  "date": "2026-07-12",
+  "lead": false,
+  "kicker": "Gold & Metals Desk",
+  "title": "The other podium: platinum's record January and silver's hundred-percent year",
+  "dek": "While the trade watched gold, platinum printed an all-time $2,923 and silver doubled. The white metals are no longer the cheap seats — and jewelry demand is reorganizing around that fact.",
+  "byline": "The Bullion Desk",
+  "minutes": 6,
+  "body": [
+   "Gold's drama monopolized the headlines, but the sharper repricing happened one row down the periodic table. Platinum touched an all-time high of $2,923.70 in January before settling near $1,900 by early summer — still up more than sixty percent year on year. Silver crossed $70 an ounce in June, roughly doubling over twelve months. For a century the white metals were where value-conscious jewelry lived; that assumption just expired.",
+   "The irony is that platinum's jewelry renaissance was built on its discount. Global platinum jewelry demand rose seven percent in 2025 to 2,157 thousand ounces, the strongest year since 2018, driven overwhelmingly by China — up forty-four percent as wholesalers swapped gold inventory for the cheaper white metal. That trade made sense at $900 platinum against $3,000 gold. At $1,900 against $4,100, the spreadsheet is grayer, and the World Platinum Investment Council expects global jewelry demand to give back six percent in 2026, with China down fourteen after its extraordinary stocking year.",
+   "India tells the more durable story. Demand there reached 186 thousand ounces in 2025 — the fourth-highest on record even after a thirty-percent tariff-bruised decline — and North America and Europe grew five and six percent respectively. Through 2029 the council projects a market stabilizing around 2,137 thousand ounces: smaller than the China-boom peak, but spread across more geographies than at any point in the metal's jewelry history.",
+   "Silver is the wilder card. At $70-plus, the sterling that anchored every entry-level case in America has quietly become a margin problem, and the 'silver and alternatives' category at US independents grew just one percent in May while diamond tickets rose twenty-one. Watch the demi-fine segment: gold-plated silver and gold-filled constructions are absorbing customers priced out of karat gold from below and squeezed sterling from above.",
+   "The desk's view: the white-metal repricing removes the trade's traditional pressure valve. When gold got expensive, the case rotated to platinum or silver; now everything is expensive at once. The winners will be the houses that sell design, story and craft — the things that don't trade by the ounce."
+  ],
+  "sources": [
+   {
+    "title": "CME Group — Platinum Jewelry Demand Update",
+    "url": "https://www.cmegroup.com/articles/2026/platinum-jewelry-demand-update.html"
+   },
+   {
+    "title": "Trading Economics — Platinum",
+    "url": "https://tradingeconomics.com/commodity/platinum"
+   },
+   {
+    "title": "The Diamond Press — June 2026 News Roundup",
+    "url": "https://www.thediamondpress.com/post/june-2026-news-roundup"
+   }
+  ]
+ },
+ {
+  "slug": "blue-is-the-color-of-money",
+  "desk": "auctions",
+  "date": "2026-07-11",
+  "lead": false,
+  "kicker": "Auctions Desk",
+  "title": "Blue is the color of money: New York's June sales clear at rates the trade forgot were possible",
+  "dek": "Christie's sold one hundred percent of its Magnificent Jewels. Sotheby's cleared ninety-eight. Two blue diamonds made $8 million-plus apiece in the same month — and the estate pipeline keeps delivering.",
+  "byline": "The Saleroom Desk",
+  "minutes": 6,
+  "body": [
+   "Auction people treat sell-through rates the way pilots treat fuel gauges — the headline number everyone quotes second, but the one that actually tells you whether the thing flies. In June, New York's gauges pinned. Christie's Magnificent Jewels made $49.7 million with a one-hundred-percent sell-through; Sotheby's answered with $43.4 million and ninety-eight percent. In a trade still complaining about soft polished prices, the top of the market is not soft. It is oversubscribed.",
+   "Blue did the heavy lifting. Christie's led with The Azure Blue, a 31.62-carat pear-shaped fancy blue of VVS1 clarity, at $8.4 million, with a 5.04-carat fancy vivid blue marquise close behind at $8.2 million. Across town, Sotheby's sold a rectangular 10.02-carat fancy intense blue at $8.7 million and a 5.02-carat fancy intense pink at $2.9 million. Three eight-figure-adjacent blues in one month is not a coincidence; it is a market telling you what it believes holds value when currencies and bullion wobble.",
+   "The quieter signal came from the estate rooms. Christie's sale of the Stream Family Collection reached $17.3 million on a ninety-nine percent clearance, led by a 49.91-carat very light green-yellow diamond that quadrupled its low estimate to make $2 million. Fresh-to-market estate material — unfashionable cuts included — is outperforming because provenance and rarity are doing the work that brand marketing does further down the pyramid.",
+   "Context sharpens the picture. The colored-diamond results landed in the same season Phillips was rewriting the watch-auction record book, and Bain was reporting jewelry as the leading category in a €1.44 trillion global luxury market. Hard, portable, singular assets are having a decade, and the auction room is where that preference clears at market price.",
+   "The desk's view: consignment supply, not demand, is the constraint to watch into the autumn. When one-hundred-percent sell-throughs become normal, estates and family offices notice — and the next great collection comes to market a year earlier than it otherwise would."
+  ],
+  "sources": [
+   {
+    "title": "The Diamond Press — June 2026 News Roundup",
+    "url": "https://www.thediamondpress.com/post/june-2026-news-roundup"
+   },
+   {
+    "title": "JCK — Sotheby's Hits $31.4M in Sale Last Week",
+    "url": "https://www.jckonline.com/editorial-article/sothebys-phillips-june-results/"
+   },
+   {
+    "title": "Natural Diamond Council — The Azure Blue",
+    "url": "https://www.naturaldiamonds.com/historic-diamonds/azure-blue-diamond/"
+   }
+  ]
+ },
+ {
+  "slug": "phillips-235-million-spring",
+  "desk": "auctions",
+  "date": "2026-07-09",
+  "lead": false,
+  "kicker": "Auctions Desk",
+  "title": "$235 million in a season: Phillips just rewrote the watch-auction record book",
+  "dek": "A 99.8 percent sell-through across 937 lots, a $13.9M F.P. Journe in New York, the first $10M watch ever sold in Asia — the spring of 2026 is now the standard every saleroom will be measured against.",
+  "byline": "The Saleroom Desk",
+  "minutes": 6,
+  "body": [
+   "No auction house had ever sold $235 million of watches in a year. Phillips, in association with Bacs & Russo, did it in six months. The spring 2026 season across Geneva, Hong Kong and New York closed above that figure with a 99.8 percent sell-through on 937 lots — a clearance rate that, at this scale, has no precedent in the category's history.",
+   "Geneva set the tone in May: the Geneva Watch Auction XXIII realized $96.3 million, the highest-grossing watch auction ever staged, with dozens of world records inside it — among them a Patek Philippe Ref. 2523 at $10.2 million. Hong Kong followed with a Ref. 2499 at $10.3 million, the first wristwatch to break eight figures at auction in Asia. New York closed the season with the Americas' highest total ever, crowned by an F.P. Journe Souscription Résonance No. 007 at $13.9 million — a record for any independent watchmaker and for any 21st-century timepiece.",
+   "The Journe result is the one the trade should sit with. The great records used to belong exclusively to vintage Patek and Rolex — the argument being that scarcity plus decades of history equals value. A living independent commanding $13.9 million collapses that argument into something simpler: scarcity plus craft is enough, and the market will not wait fifty years to say so.",
+   "The bidder data explains why the ceiling keeps rising. Participants came from more than seventy countries; thirty percent were new to the saleroom, and thirty-five percent were under forty. This is not a fixed pool of aging collectors recycling the same references — it is an expanding market discovering the category in real time, with independents as the entry drug.",
+   "The desk's view: the spring established a two-tier watch world. Retail — Swiss exports barely positive in May, China down twenty-one percent — is grinding. The auction market for singular pieces is euphoric. The gap between the two is the collector premium for things that cannot be reordered, and it has never been wider."
+  ],
+  "sources": [
+   {
+    "title": "WatchPro — Phillips achieves $235 million spring season",
+    "url": "https://usa.watchpro.com/phillips-achieves-235-million-spring-season-watch-auction/"
+   },
+   {
+    "title": "Forbes — Phillips Geneva Watch Auction Sets Record With $96.3 Million Sale",
+    "url": "https://www.forbes.com/sites/anthonydemarco/2026/05/11/phillips-geneva-watch-auction-sets-record-with-963-million-sale/"
+   },
+   {
+    "title": "Robb Report — Highest-Grossing Watch Auction in History",
+    "url": "https://robbreport.com/style/watch-collector/phillips-highest-grossing-watch-auction-in-history-1238055072/"
+   }
+  ]
+ },
+ {
+  "slug": "swiss-exports-flat-may",
+  "desk": "watches",
+  "date": "2026-07-08",
+  "lead": false,
+  "kicker": "Watches Desk",
+  "title": "The flat month that felt like a win: inside May's Swiss export numbers",
+  "dek": "CHF 2.11 billion, up 0.4 percent — barely growth, and the industry exhaled anyway. The map underneath tells the real story: America and France carrying, China falling, the middle hollowing out.",
+  "byline": "The Movement Desk",
+  "minutes": 6,
+  "body": [
+   "After April's seventeen-percent collapse, the Swiss watch industry would have taken zero. It got slightly better than that: May exports of CHF 2.11 billion ($2.63 billion), up 0.4 percent year on year, per the Federation of the Swiss Watch Industry. Year to date the industry is still down 3.1 percent at CHF 10.44 billion. Nobody in Biel or Geneva is celebrating — but nobody is revising forecasts downward either, and in 2026 that passes for relief.",
+   "The geography is doing all the work. The United States grew twelve percent to $375.7 million, reconfirmed as the industry's indispensable market. France exploded fifty-seven percent to $237.6 million — less a Parisian buying spree than logistics, as the country consolidates its role as a European distribution hub since late 2025. The United Kingdom added twenty-five percent. Then the other column: Japan down 3.5, and mainland China down twenty-one percent, extending a slide that has now outlasted every 'green shoots' narrative attached to it.",
+   "The price-band data is the strategic map. Watches at CHF 200–500 export prices grew twenty-four percent; pieces above CHF 3,000 rose 3.7 percent. The middle — CHF 500 to 3,000 — fell seventeen percent. The barbell that reshaped jewelry retail has arrived on the wrist: value at one end, luxury at the other, and a no-man's-land in between where mid-tier brands live.",
+   "Precious-metal watches declined seven percent to CHF 744 million even as steel held — a gold-price story as much as a demand story. When the case metal alone reprices by a third, maisons either eat margin, raise retails into a soft market, or pivot collections toward steel and titanium. All three are happening.",
+   "The desk's view: May bought the industry time, not direction. The China correction looks structural, the American consumer is now carrying uncomfortable weight, and the hollow middle is where the casualties will come from. Watch the July numbers — the Iran-conflict base effects wash out, and the underlying trend shows itself."
+  ],
+  "sources": [
+   {
+    "title": "Rapaport — Swiss Watch Exports See Revival in May",
+    "url": "https://rapaport.com/news/swiss-watch-exports-see-revival-in-may/"
+   },
+   {
+    "title": "Bloomberg — Swiss Watch Exports Barely Grow in May",
+    "url": "https://www.bloomberg.com/news/articles/2026-06-18/swiss-watch-exports-barely-grow-in-may-as-iran-conflict-weighs"
+   },
+   {
+    "title": "FH — Watch industry statistics",
+    "url": "https://www.fhs.swiss/eng/statistics.html"
+   }
+  ]
+ },
+ {
+  "slug": "lab-grown-96-down-and-firming",
+  "desk": "diamonds",
+  "date": "2026-07-11",
+  "lead": false,
+  "kicker": "Diamonds Desk",
+  "title": "Ninety-six percent down — and firming: the strange bottom of the lab-grown market",
+  "dek": "Q2 wholesale lists show one-carat lab-grown rounds rising for the first time in years while two-carat-plus goods fall twenty percent. Rough is up 25–30. This is what a floor looks like.",
+  "byline": "The Grown Desk",
+  "minutes": 7,
+  "body": [
+   "Since July 2018, wholesale lab-grown diamond prices have fallen ninety-six percent — one of the fastest commodity collapses in the history of luxury goods. Which is what makes the second-quarter 2026 price lists genuinely strange reading: the average is still down thirteen percent year on year, but one-carat rounds — the engagement-ring workhorse — are up one percent. In this market, a plus sign is an event.",
+   "The curve now bends by size. Stones of 1.50 to 1.99 carats are down eleven percent year on year; two carats and above are down twenty, the steepest declines in the categories that once carried the fattest wholesale margins. The goods that made growers rich are the goods still in free fall; the commodity sizes have found buyers at the bottom.",
+   "Upstream, the producers have stopped waiting. Rough lab-grown prices have been pushed up twenty-five to thirty percent in recent months — opportunistic moves by growers reading the same firming signals. Downstream, specialty retailers moved twenty-four percent more lab-grown units in the second quarter while total consumer spending on the category stayed flat, locked in the same narrow range it has held for eighteen months. More stones, same dollars: the category is still deflating at retail even as its wholesale floor sets.",
+   "Regulators are redrawing the labels while the prices settle. From September 1, Russia will require lab-grown jewelry tags to read 'synthetic' — banning the word 'diamond,' grading nomenclature, and descriptors like 'natural' or 'eco-friendly,' with weights stated in grams only. However the WTO politics of it play out, it is the hardest legal line yet drawn between the two products, and other producer nations are watching.",
+   "The desk's view: an eighteen-month flat line in consumer spending against double-digit unit growth means the category's identity has resolved — high-volume, low-price, fashion-adjacent. The one-percent uptick in one-carat rounds is not a recovery; it is the market agreeing, finally, on what a lab-grown diamond is worth. For retailers, the play remains margin discipline and honest positioning, not price speculation."
+  ],
+  "sources": [
+   {
+    "title": "Edahn Golan — After a 96% Decline, What's Next for LGD Prices?",
+    "url": "https://www.edahngolan.com/after-a-96-decline-whats-next-for-lgd-prices/"
+   },
+   {
+    "title": "Instore — Q2 2026 LGD Wholesale Price List",
+    "url": "https://instoremag.com/the-q2-2026-lgd-wholesale-price-list-not-all-lab-grown-diamond-prices-are-falling/"
+   },
+   {
+    "title": "The Diamond Press — June 2026 News Roundup (Russia labeling)",
+    "url": "https://www.thediamondpress.com/post/june-2026-news-roundup"
+   }
+  ]
+ },
+ {
+  "slug": "color-takes-the-counter",
+  "desk": "gemstones",
+  "date": "2026-07-10",
+  "lead": false,
+  "kicker": "Gemstones Desk",
+  "title": "Color takes the counter: what Vegas confirmed about the gemstone decade",
+  "dek": "Engagement customers are asking for sapphire, spinel and garnet by name. Margins beat diamonds. Tucson ran near-record. The colored-stone trade's long apprenticeship as 'the alternative' is over.",
+  "byline": "The Color Desk",
+  "minutes": 6,
+  "body": [
+   "The State of the Colored Gemstone Industry panel at JCK Las Vegas said out loud what dealers' order books have shown for two years: color is no longer the consolation prize. Retailers report customers arriving with colored stones as the first choice for engagement rings, coached by a social feed that rewards individuality over the four Cs. One panelist's summary of the opportunity: garnet is an untapped market, and tourmaline's colorways are just beginning to be explored commercially.",
+   "The economics explain the enthusiasm as much as the aesthetics. Colored stones carry meaningfully better margins than diamonds at the counter, and unlike the diamond pipeline there is no lab-grown shadow repricing the category from below at scale. One retailer described re-merchandising the entire case plan by color family in 2025 — organizing inventory the way customers actually shop rather than by species — and reading the sell-through by location like a heat map.",
+   "Supply-side signals match. A major dealer called the 2026 Tucson GemFair one of its two or three best shows ever, with manufacturing orders extending into 2027. Beyond the big three of ruby, sapphire and emerald, the momentum names are spinel, tourmaline and garnet — stones with color saturation, story and, crucially, price points that survive a $4,100 gold setting around them.",
+   "Two clouds. First, tariffs: loose colored gemstones lost their traditional duty-free entry to the US, with rates now varying by origin country, and AGTA is petitioning for an exemption under the harmonized codes. Second, integrity: the SSEF issued a trade alert on emeralds being fraudulently re-filled with resin after laboratory testing — clean report first, treatment after — a scheme aimed precisely at the trust that lab reports exist to provide. Check report dates against purchase dates, and re-test anything consequential.",
+   "The desk's view: the category's constraint is not demand but disciplined supply and graded trust. The dealers investing in traceability and consistent recuts will own the next five years; the ones treating the boom as a clearance opportunity will hand the future back to the diamond counter."
+  ],
+  "sources": [
+   {
+    "title": "AGTA — State of the Colored Gemstone Industry at JCK Las Vegas 2026",
+    "url": "https://agta.org/takeaways-from-state-of-the-colored-gemstone-industry-at-jck-las-vegas-2026/"
+   },
+   {
+    "title": "The Diamond Press — June 2026 News Roundup (SSEF alert)",
+    "url": "https://www.thediamondpress.com/post/june-2026-news-roundup"
+   },
+   {
+    "title": "JCK — Marion Fasel on the 3 Trends of Vegas 2026",
+    "url": "https://www.jckonline.com/editorial-article/marion-fasel-trends-vegas-2026/"
+   }
+  ]
+ },
+ {
+  "slug": "asia-ledger-record-year",
+  "desk": "retail-tech",
+  "date": "2026-07-09",
+  "lead": false,
+  "kicker": "Retail & Tech Desk",
+  "title": "The Asia ledger: record profits at the gold counter while the West grinds",
+  "dek": "Chow Tai Fook's profit jumped 52 percent to a record HK$9.08 billion. Luk Fook grew revenue 29 percent. Hong Kong jewelry retail is running up 20 percent. The gold bull market found its cash register.",
+  "byline": "The Counter Desk",
+  "minutes": 6,
+  "body": [
+   "For all the hand-wringing about what $4,000 gold does to jewelry demand, Asia's giants just published the answer: it makes money. Chow Tai Fook closed its fiscal year with revenue of HK$94.4 billion ($12.05 billion), up five percent, and a fifty-two percent surge in profit to a record HK$9.08 billion. The driver was not volume — it was mix, with fixed-price gold jewelry the strongest category, letting the retailer capture the metal's appreciation inside the product's margin instead of passing it through by weight.",
+   "The fixed-price pivot is the quarter's most important retail lesson. Weight-based gold pricing, the region's tradition, hands the customer full transparency and the retailer full commodity risk. Fixed-price collections — design-led, branded, margined like fashion — flip both. Luk Fook, riding the same strategy through a gold-hungry year, grew revenue twenty-nine percent to HK$17.21 billion and profit eighty-nine percent to HK$2.02 billion.",
+   "Geography split the ledgers. Chow Tai Fook's Hong Kong and Macau sales rose twenty-two percent while the mainland managed two; Hong Kong's official jewelry, watch and clock retail ran up twenty percent year on year in April; even long-suffering Tse Sui Leung swung back to profit. The pattern matches the tourism math — mainland customers buying in Hong Kong for price and selection — and quietly rebuilt the case for the territory as the trade's shop window.",
+   "The American contrast is instructive rather than grim. Signet's first quarter came in at $1.55 billion, up 0.7 percent with same-store sales up 1.8 — stability, not momentum — while Macy's called jewelry a standout in a two-percent-growth quarter. The sharper US signal: independents' May sales rose twelve percent on a twenty-two percent higher average ticket with nine percent fewer units. Fewer, better, dearer — the same fixed-price logic arriving by a different road.",
+   "The desk's view: the record profits are a management story, not a macro gift. The winners repriced gold as a design product while competitors kept selling it as a commodity. That playbook travels — and the western chains reading Chow Tai Fook's accounts this summer know it."
+  ],
+  "sources": [
+   {
+    "title": "The Diamond Press — June 2026 News Roundup (retail results)",
+    "url": "https://www.thediamondpress.com/post/june-2026-news-roundup"
+   },
+   {
+    "title": "Rapaport — Swiss Watch Exports See Revival in May (HK retail context)",
+    "url": "https://rapaport.com/news/swiss-watch-exports-see-revival-in-may/"
+   }
+  ]
+ },
+ {
+  "slug": "tariff-arithmetic-zero-and-eighteen",
+  "desk": "retail-tech",
+  "date": "2026-07-08",
+  "lead": false,
+  "kicker": "Retail & Tech Desk",
+  "title": "Tariff arithmetic: zero for natural, eighteen for grown",
+  "dek": "The US–India interim trade deal will eliminate duty on Indian-cut natural diamonds while lab-growns keep an 18 percent rate — the first time trade policy has priced the two products differently. The pipeline is already repositioning.",
+  "byline": "The Policy Desk",
+  "minutes": 6,
+  "body": [
+   "Buried in the US–India interim trade agreement is the most consequential sentence written about diamonds this year: cut and polished natural diamonds go to zero duty, down from twenty-five percent, once the deal concludes. Finished jewelry improves from an effective thirty-one percent to twenty-four. Lab-grown diamonds, explicitly excluded from the elimination, settle at eighteen percent. For the first time, a major trade regime prices natural and grown differently at the border.",
+   "The mechanics reward reading. Natural diamonds and gemstones cut in India are covered under the agreement's Annex III; jewelry cast in the United States remains duty-free regardless of where its stones were cut and set. That casting loophole is already reshaping production planning — set the Indian-cut stone in an American-cast mounting and the tariff conversation largely disappears.",
+   "For Surat and Mumbai, the stakes are existential. India cuts roughly ninety percent of the world's diamonds by volume, and the tariff era had been brutal: the trade watched the US reciprocal rate swing from fifty percent to twenty-five before the deal framework landed. May's numbers show the whiplash — polished exports up three percent to $981.7 million on a twelve percent volume increase (cheaper mix, more stones), while rough imports collapsed forty-two percent to $617.1 million as factories ran down inventory rather than restock into uncertainty.",
+   "The zero-versus-eighteen split also lands as an official thumb on the scale of the natural-versus-grown fight. Governments do not write product philosophy into tariff schedules by accident: New Delhi negotiated hardest for the category where India's value-add is craft and heritage, and conceded the one where its factories compete on electricity prices. Combined with Russia's September labeling rules, the regulatory world is converging on treating the two stones as different products.",
+   "The desk's view: when the agreement concludes, expect a sharp restocking wave — Belgian polished imports already jumped twenty-nine percent in May positioning for it — and a widening structural cost gap in natural's favor at the US counter. Timing risk is real; the direction is not."
+  ],
+  "sources": [
+   {
+    "title": "JCK — U.S. Dropping Tariffs on Indian-Cut Diamonds and Gems",
+    "url": "https://www.jckonline.com/editorial-article/u-s-tariffs-indian-diamonds-gems/"
+   },
+   {
+    "title": "National Jeweler — U.S., India Trade Deal One Step Closer",
+    "url": "https://nationaljeweler.com/articles/14682-u-s-india-trade-deal-one-step-closer-to-being-finalized"
+   },
+   {
+    "title": "The Diamond Press — June 2026 News Roundup (India trade data)",
+    "url": "https://www.thediamondpress.com/post/june-2026-news-roundup"
+   }
+  ]
+ },
+ {
+  "slug": "who-buys-diamonds-now",
+  "desk": "diamonds",
+  "date": "2026-07-07",
+  "lead": false,
+  "kicker": "Diamonds Desk",
+  "title": "Who buys diamonds now? The data says: not who the trade thinks",
+  "dek": "Average natural-diamond spend is up 25 percent to $4,063. Three-quarters of demand is non-bridal. Gen Z punches five points above its weight. The customer changed faster than the marketing did.",
+  "byline": "The Demand Desk",
+  "minutes": 6,
+  "body": [
+   "De Beers' latest US Diamond Acquisition Study quietly retired the industry's founding assumption. The average spend on a natural-diamond piece rose twenty-five percent in two years, from $3,242 to $4,063 — but seventy-five percent of demand by value is now non-bridal. The engagement ring, the category's mythological center since 1947, is a quarter of the business. Self-purchase, anniversary, milestone and no-occasion gifting are the other three quarters.",
+   "The generational data breaks the second assumption. Gen Z — supposedly the lab-grown generation, supposedly indifferent to mined stones — represents twenty-three percent of natural-diamond value demand while making up eighteen percent of the population. The cohort the trade wrote off is over-indexing, just not through the products or the messaging built for their parents: they arrive through vintage, through colored accents, through pieces with what Vegas trend-watchers this June called narrative — jewelry that tells a story rather than certifies a milestone.",
+   "The luxury macro agrees. Bain and Altagamma's spring study put global luxury spending at €1.44 trillion for 2025 with jewelry the leading category, growing ahead of handbags, watches and ready-to-wear. Richemont's fiscal year, closed in March, made it concrete: its Jewellery Maisons — Cartier, Van Cleef & Arpels, Buccellati — grew fourteen percent to €16.5 billion at a 30.5 percent operating margin, the most profitable large-scale jewelry business ever reported.",
+   "Read together, the numbers describe a customer the mid-market has not met: paying more per piece, buying outside bridal seasonality, younger than expected, and rewarding brand, design and story with fashion-like loyalty. The branded houses and the estate market serve that customer; the anonymous three-stone-special middle does not — which is precisely where the US independents' data (tickets up twenty-two percent, units down nine) says the squeeze is landing.",
+   "The desk's view: the trade spends its marketing budget re-arguing natural-versus-grown while the actual growth — non-bridal, self-purchase, Gen Z, story-led — goes underserved. The first mid-market retailer to rebuild its case plan around the seventy-five percent will look like a genius. The data has been public for a month."
+  ],
+  "sources": [
+   {
+    "title": "The Diamond Press — June 2026 News Roundup (De Beers acquisition study; Bain)",
+    "url": "https://www.thediamondpress.com/post/june-2026-news-roundup"
+   },
+   {
+    "title": "Richemont — FY2026 results (year ended 31 March 2026)",
+    "url": "https://www.richemont.com/news-media/press-releases-news/richemont-delivers-strong-sales-growth-and-solid-results-for-the-year-ended-31-march-2026/"
+   },
+   {
+    "title": "JCK — Marion Fasel on the 3 Trends of Vegas 2026",
+    "url": "https://www.jckonline.com/editorial-article/marion-fasel-trends-vegas-2026/"
+   }
+  ]
+ },
+ {
+  "slug": "vegas-2026-mechanicals-and-meaning",
+  "desk": "gemstones",
+  "date": "2026-07-06",
+  "lead": false,
+  "kicker": "Gemstones Desk",
+  "title": "Mechanicals, alternatives and meaning: the three ideas Vegas sent home",
+  "dek": "Jewelry week's real product story: pieces that transform, materials that dodge the gold price, and narrative as the feature customers actually pay for.",
+  "byline": "The Design Desk",
+  "minutes": 5,
+  "body": [
+   "Every June, Las Vegas jewelry week compresses the industry's next twelve months into a convention center. Jewelry historian Marion Fasel's read of the 2026 edition names three currents, and all three are answers to the same two pressures: a $4,100 gold price and a customer who buys meaning before mass.",
+   "First, mechanicals — transformable jewelry with hinges, openings and moving parts. Monica Rich Kosann showed a ruby cherry pendant that opens to reveal a garnet pit; Jade Ruzzo's Lady Compact Mirror necklace builds a functioning object into 18-karat gold. Transformability is craft made visible — and it justifies price in a way static grams no longer can.",
+   "Second, creative alternatives to gold. Leather cords, bolo constructions, beaded necklaces — Single Stone's Daphne strung turquoise where a chain would have been — plus a general miniaturization: charms, huggies, small-scale pieces that keep entry prices humane. As Fasel framed it, beads can be expensive, but they can also bring the price of a piece down; either way they break the tyranny of the per-gram calculation.",
+   "Third, narrative. Dorian Webb's Harriet Tubman-inspired charm necklaces led a wave of pieces built around story, symbol and personal meaning. It is the same signal the De Beers demand study sends from the data side: three-quarters of diamond demand is now non-bridal, and jewelry that says something specific is outcompeting jewelry that certifies something generic.",
+   "The desk's view: none of the three trends requires a house to be large — they require it to be intentional. For independents squeezed between commodity gold and branded luxury, Vegas 2026 was effectively a survival syllabus: build movement, tame the metal bill, tell a story worth retelling."
+  ],
+  "sources": [
+   {
+    "title": "JCK — Marion Fasel on the 3 Trends That Defined Las Vegas Jewelry Week 2026",
+    "url": "https://www.jckonline.com/editorial-article/marion-fasel-trends-vegas-2026/"
+   },
+   {
+    "title": "JCK — 2026 JCK Show Takeaways",
+    "url": "https://www.jckonline.com/editorial-article/show-takeaways-podcast-2026/"
+   }
+  ]
+ }
 ]
