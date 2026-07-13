@@ -19,7 +19,7 @@ def lead_article():
 def desk_articles(slug, n=6):
     return [a for a in ARTICLES if a.get("desk") == slug][:n]
 
-FONTS = "https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,400;12..96,600;12..96,700;12..96,800&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,300;1,8..60,400&family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&display=swap"
+FONTS = "https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&display=swap"
 
 DEFS = """
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
@@ -46,7 +46,7 @@ DEFS = """
   </g>
   <g id="hm-date">
     <rect x="1" y="1" width="18" height="18" rx="4" fill="url(#foilFill)" stroke="currentColor" stroke-width="1.2"/>
-    <text x="10" y="14.6" text-anchor="middle" font-family="'Source Serif 4',serif" font-style="italic" font-size="11.5" fill="currentColor">a</text>
+    <text x="10" y="14.6" text-anchor="middle" font-family="'Lora',serif" font-style="italic" font-size="11.5" fill="currentColor">a</text>
   </g>
 </defs>
 </svg>"""
@@ -272,7 +272,7 @@ def navbar(active=""):
     return f"""<div class="navbar" id="navbar">
   <div class="wrap"><div class="nav-inner">
     <button class="menu-btn" onclick="ccMenu(true)" aria-label="Open menu"><span class="bars"><i></i><i></i><i></i></span>Menu</button>
-    <a class="nav-brand" href="index.html">Carat<span class="caret">^</span>Capital</a>
+    <a class="nav-brand" href="index.html"><img class="nav-mark" src="assets/logo-mark.svg" alt="Carat Capital medal">Carat<span class="caret">^</span>Capital</a>
     <div class="nav-links">{links}</div>
     <a class="nav-sub" href="index.html#rates"><span>Subscribe — $12/mo</span></a>
   </div></div>
@@ -714,9 +714,9 @@ def about_page():
     <div class="art-body rv in">
       <p>The jewelry trade runs from the mines of Botswana to the ateliers of Place Vendôme, through the bourses of Antwerp, the polishing wheels of Surat, the auction rooms of Geneva and the livestream studios of Shenzhen. It employs millions, turns over hundreds of billions of dollars, and until now has had no single, modern, daily paper of record. That is the job we hired ourselves to do.</p>
       <p>We publish six desks — Diamonds, Gold &amp; Metals, Colored Gemstones, Watches, Auctions &amp; Estates, and Retail &amp; Technology — plus a daily price tape and the Morning Brief, a five-minute email filed before the market opens. Reading is free at the counter; depth is for members.</p>
-      <h2 id="standards" style="font-family:var(--disp);font-weight:800;font-size:28px;letter-spacing:-.02em;margin:34px 0 16px;scroll-margin-top:90px">Editorial standards</h2>
+      <h2 id="standards" style="font-family:var(--disp);font-weight:700;font-size:28px;letter-spacing:-.02em;margin:34px 0 16px;scroll-margin-top:90px">Editorial standards</h2>
       <p>Everything we publish is original writing. We research widely and credit sources by name and link at the foot of every article. We never reproduce another publication's text or images. Prices are verified the morning of publication or marked unchanged. We do not accept payment for coverage; sponsored content, when it exists, will say so in the headline. When we are wrong, we correct in place and note it. Every claim is priced, sourced, or cut.</p>
-      <h2 id="contact" style="font-family:var(--disp);font-weight:800;font-size:28px;letter-spacing:-.02em;margin:34px 0 16px;scroll-margin-top:90px">Write to the desk</h2>
+      <h2 id="contact" style="font-family:var(--disp);font-weight:700;font-size:28px;letter-spacing:-.02em;margin:34px 0 16px;scroll-margin-top:90px">Write to the desk</h2>
       <p>Tips, corrections, interview subjects and partnership inquiries: <b>connect@roomysjewelery.store</b>. We read everything; the good tips make the wire.</p>
     </div>
   </div>
@@ -730,7 +730,48 @@ def about_page():
 {colophon()}
 {SCRIPT}"""
 
-FAVICON = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><rect width="32" height="32" fill="#F2EDE3"/><path d="M16 4 L29 12.5 L16 21 L3 12.5 Z" fill="none" stroke="#16130E" stroke-width="1.6"/><text x="16" y="15.6" text-anchor="middle" font-family="monospace" font-size="7.5" font-weight="700" fill="#16130E">CC</text><path d="M12 27 L16 21.5 L20 27" fill="none" stroke="#BE3319" stroke-width="2" stroke-linecap="round"/></svg>"""
+FAVICON = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><circle cx="16" cy="16" r="15.2" fill="#F2EDE3" stroke="#16130E" stroke-width="1.3"/><circle cx="16" cy="16" r="12.9" fill="none" stroke="#16130E" stroke-width=".7"/><path d="M9.4 14.6 L16 8.6 L22.6 14.6" fill="none" stroke="#BE3319" stroke-width="3.4"/><path d="M10.2 19.1 L16 13.9 L21.8 19.1 M10.2 24.2 L16 19 L21.8 24.2" fill="none" stroke="#16130E" stroke-width="1.4"/></svg>"""
+
+# ---- the minted mark, nav-scale (engine-turned medal, reduced density) ----
+import math as _m
+def _ring(base, amp, k, ph, steps=200):
+    pts = []
+    for s_ in range(steps + 1):
+        th = 2 * _m.pi * s_ / steps
+        r = base + amp * _m.sin(k * th + ph)
+        pts.append(f"{500 + r*_m.cos(th):.0f} {500 + r*_m.sin(th):.0f}")
+    return "M " + " L ".join(pts) + " Z"
+
+def _chev(apex, half=188, drop=148):
+    return f"M {500-half} {apex+drop} L 500 {apex} L {500+half} {apex+drop}"
+
+def logo_mark_svg():
+    rings = []
+    n = 26
+    for i in range(n):
+        base = 118 + (382 - 118) * i / (n - 1)
+        amp = 10.0 * min(1.0, (base - 66) / 170.0)
+        ph = 2 * _m.pi * 2 * i / n
+        rings.append(f'<path d="{_ring(base, amp, 12, ph)}" stroke="#16130E" stroke-width="1.9" fill="none" opacity=".85"/>')
+    ticks = []
+    a = 0.0
+    while a < 360:
+        th = _m.radians(a)
+        ticks.append(f"M {500+458*_m.cos(th):.0f} {500+458*_m.sin(th):.0f} L {500+479*_m.cos(th):.0f} {500+479*_m.sin(th):.0f}")
+        a += 3.6
+    CH, CW = [330, 466, 602], 56
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+<defs><mask id="cm"><rect width="1000" height="1000" fill="white"/>
+<g stroke="black" stroke-width="{CW+30}" fill="none"><path d="{_chev(CH[0])}"/><path d="{_chev(CH[1])}"/><path d="{_chev(CH[2])}"/></g></mask></defs>
+<circle cx="500" cy="500" r="480" stroke="#16130E" stroke-width="7" fill="none"/>
+<path d="{" ".join(ticks)}" stroke="#16130E" stroke-width="3" fill="none" opacity=".9"/>
+<circle cx="500" cy="500" r="446" stroke="#16130E" stroke-width="4" fill="none"/>
+<g transform="translate(500,500) scale(1.06) translate(-500,-500)">
+<g mask="url(#cm)">{"".join(rings)}</g>
+<path d="{_chev(CH[0])}" stroke="#BE3319" stroke-width="{CW}" fill="none"/>
+<g stroke="#16130E" stroke-width="5" fill="none" opacity=".9">
+<path d="{_chev(CH[1]-CW/2)}"/><path d="{_chev(CH[1]+CW/2)}"/>
+<path d="{_chev(CH[2]-CW/2)}"/><path d="{_chev(CH[2]+CW/2)}"/></g></g></svg>'''
 
 def sitemap(pages):
     urls = "".join(f"<url><loc>{BASE_URL}/{p}</loc></url>" for p in pages)
@@ -745,6 +786,7 @@ for a in ARTICLES:
 (out/"field-guide.html").write_text(field_guide())
 (out/"about.html").write_text(about_page())
 (out/"assets"/"favicon.svg").write_text(FAVICON)
+(out/"assets"/"logo-mark.svg").write_text(logo_mark_svg())
 pages = ["index.html", "field-guide.html", "about.html"] + [f"{d['slug']}.html" for d in DESKS] + [f"a-{a['slug']}.html" for a in ARTICLES]
 (out/"sitemap.xml").write_text(sitemap(pages))
 (out/"robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {BASE_URL}/sitemap.xml\n")
