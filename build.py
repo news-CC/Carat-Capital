@@ -639,24 +639,6 @@ def index_page():
       <div class="freq">{d['tag']}</div><div class="go">-&gt;</div></a>""" for d in DESKS)
     return f"""{head("CARAT CAPITAL — The Trade Paper of the Jewelry World",
       "Carat Capital is the trade paper of the global jewelry industry. Prices, intelligence and reporting from every desk of the stone trade.")}
-<style>
-.mast2{{background:linear-gradient(180deg,var(--paper-hi,#F8F4EB),var(--bone,#F2EDE3));border-bottom:1px solid rgba(22,19,14,.28)}}
-.mast2 .m2-grid{{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:28px;padding:26px 0 22px}}
-.mast2 .m2-side{{font-family:var(--mono);font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-2);display:flex;flex-direction:column;gap:7px}}
-.mast2 .m2-side b{{color:var(--seal);font-weight:600}}
-.mast2 .m2-right{{text-align:right;align-items:flex-end}}
-.mast2 .m2-center{{display:flex;align-items:center;gap:22px}}
-.mast2 .m2-rule{{display:block;width:min(11vw,150px);height:1px;background:linear-gradient(90deg,transparent,rgba(22,19,14,.5));position:relative}}
-.mast2 .m2-rule.r{{background:linear-gradient(90deg,rgba(22,19,14,.5),transparent)}}
-.mast2 .m2-rule::after{{content:"";position:absolute;top:-2.5px;width:6px;height:6px;transform:rotate(45deg);background:var(--seal)}}
-.mast2 .m2-rule.l::after{{right:0}}
-.mast2 .m2-rule.r::after{{left:0}}
-.mast2 .m2-medal{{width:104px;height:104px;display:block;transition:transform 1.2s cubic-bezier(.19,1,.22,1)}}
-.mast2 a:hover .m2-medal{{transform:rotate(8deg)}}
-.mast2 .m2-halls{{display:flex;gap:9px;align-items:center;color:var(--gilt)}}
-.mast2 .m2-clock b{{font-weight:600;color:var(--ink)}}
-@media(max-width:860px){{.mast2 .m2-side{{display:none}}.mast2 .m2-grid{{grid-template-columns:1fr;justify-items:center;padding:20px 0 16px}}.mast2 .m2-rule{{width:18vw}}}}
-</style>
 <div class="mast2"><div class="wrap"><div class="m2-grid">
   <div class="m2-side">
     <span>{WIRE.get("edition","")}</span>
@@ -915,7 +897,7 @@ def about_page():
 {colophon()}
 {SCRIPT}"""
 
-FAVICON = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><circle cx="16" cy="16" r="15.2" fill="#F2EDE3" stroke="#16130E" stroke-width="1.3"/><circle cx="16" cy="16" r="12.9" fill="none" stroke="#16130E" stroke-width=".7"/><path d="M9.4 14.6 L16 8.6 L22.6 14.6" fill="none" stroke="#BE3319" stroke-width="3.4"/><path d="M10.2 19.1 L16 13.9 L21.8 19.1 M10.2 24.2 L16 19 L21.8 24.2" fill="none" stroke="#16130E" stroke-width="1.4"/></svg>"""
+FAVICON = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><circle cx="16" cy="16" r="15.2" fill="#F2EDE3" stroke="#16130E" stroke-width="1.3"/><circle cx="16" cy="16" r="12.9" fill="none" stroke="#16130E" stroke-width=".7"/><path d="M10.2 10.6 L21.8 10.6 L24.8 15 L7.2 15 Z" fill="#BE3319"/><path d="M10.2 10.6 L21.8 10.6 L24.8 15 L16 25.8 L7.2 15 Z" fill="none" stroke="#16130E" stroke-width="1.5" stroke-linejoin="miter"/></svg>"""
 
 # ---- the minted mark, nav-scale (engine-turned medal, reduced density) ----
 import math as _m
@@ -944,19 +926,21 @@ def logo_mark_svg():
         th = _m.radians(a)
         ticks.append(f"M {500+458*_m.cos(th):.0f} {500+458*_m.sin(th):.0f} L {500+479*_m.cos(th):.0f} {500+479*_m.sin(th):.0f}")
         a += 3.6
-    CH, CW = [330, 466, 602], 56
+    DIA = "M 385 340 L 615 340 L 690 450 L 500 700 L 310 450 Z"
+    CRN = "M 385 340 L 615 340 L 690 450 L 310 450 Z"
     return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
 <defs><mask id="cm"><rect width="1000" height="1000" fill="white"/>
-<g stroke="black" stroke-width="{CW+30}" fill="none"><path d="{_chev(CH[0])}"/><path d="{_chev(CH[1])}"/><path d="{_chev(CH[2])}"/></g></mask></defs>
+<path d="{DIA}" fill="black" stroke="black" stroke-width="58" stroke-linejoin="miter"/></mask></defs>
 <circle cx="500" cy="500" r="480" stroke="#16130E" stroke-width="7" fill="none"/>
 <path d="{" ".join(ticks)}" stroke="#16130E" stroke-width="3" fill="none" opacity=".9"/>
 <circle cx="500" cy="500" r="446" stroke="#16130E" stroke-width="4" fill="none"/>
 <g transform="translate(500,500) scale(1.06) translate(-500,-500)">
 <g mask="url(#cm)">{"".join(rings)}</g>
-<path d="{_chev(CH[0])}" stroke="#BE3319" stroke-width="{CW}" fill="none"/>
-<g stroke="#16130E" stroke-width="5" fill="none" opacity=".9">
-<path d="{_chev(CH[1]-CW/2)}"/><path d="{_chev(CH[1]+CW/2)}"/>
-<path d="{_chev(CH[2]-CW/2)}"/><path d="{_chev(CH[2]+CW/2)}"/></g></g></svg>'''
+<path d="{CRN}" fill="#BE3319"/>
+<path d="{DIA}" stroke="#16130E" stroke-width="9" fill="none" stroke-linejoin="miter"/>
+<g stroke="#16130E" stroke-width="4.5" fill="none">
+<path d="M 393 452 L 500 695 M 607 452 L 500 695"/>
+<path d="M 500 452 L 500 558"/></g></g></svg>'''
 
 def sitemap(pages):
     urls = "".join(f"<url><loc>{BASE_URL}/{p}</loc></url>" for p in pages)
