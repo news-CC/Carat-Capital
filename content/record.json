@@ -1,10 +1,34 @@
 {
- "updated": "14 Jul 2026",
+ "updated": "15 Jul 2026",
  "intro": "Eight weeks of the trade, kept the way a ledger should be kept — dated, sourced, and in one place. New entries are added at the top each week; the quarter's running numbers live in the Almanac below.",
  "weeks": [
   {
    "label": "This week — July 13",
    "entries": [
+    {
+     "d": "diamonds",
+     "h": "De Beers cuts the book — and pauses Venetia for two years",
+     "t": "First sale under the new contract brings official rough prices down from 5–50% above market to near-market levels, sold to a roster cut from ~70 to 45–50 sightholders. Days later De Beers announces a two-year production pause at Venetia — 4,400 jobs at risk, >40% of South Africa's output.",
+     "s": "Bloomberg / Rapaport"
+    },
+    {
+     "d": "gold-metals",
+     "h": "Silver's air pocket: −10.9% in a month",
+     "t": "US–Iran escalation and Fed nerves knock silver to ~$57–58 (from $70+ in late June), platinum to $1,595 (−45% from January's record), and push gold as low as $3,985.70 intraday before it steadies near $4,000.",
+     "s": "Kitco / Yahoo Finance"
+    },
+    {
+     "d": "watches",
+     "h": "Watches of Switzerland rebuffs takeover interest",
+     "t": "Reuters: private equity and strategic buyers held talks in recent months; no formal offer. Shares +55% YTD to £7.50 (£1.75B market cap); management wants significantly more. FY26 revenue +11% to £1.8B.",
+     "s": "Reuters / WatchPro"
+    },
+    {
+     "d": "auctions",
+     "h": "Joopiter staffs up like a major house",
+     "t": "Pharrell Williams' auction platform launches a standalone watch division under Nate Borgelt, ex-head of watches for Bonhams Americas and a specialist in the $24M Graves Supercomplication sale.",
+     "s": "National Jeweler / WWD"
+    },
     {
      "d": "diamonds",
      "h": "De Beers opens the July sight ready to realign rough prices",
