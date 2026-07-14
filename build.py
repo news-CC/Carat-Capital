@@ -897,7 +897,7 @@ def about_page():
 {colophon()}
 {SCRIPT}"""
 
-FAVICON = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><circle cx="16" cy="16" r="15.2" fill="#F2EDE3" stroke="#16130E" stroke-width="1.3"/><circle cx="16" cy="16" r="12.9" fill="none" stroke="#16130E" stroke-width=".7"/><path d="M10.2 10.6 L21.8 10.6 L24.8 15 L7.2 15 Z" fill="#BE3319"/><path d="M10.2 10.6 L21.8 10.6 L24.8 15 L16 25.8 L7.2 15 Z" fill="none" stroke="#16130E" stroke-width="1.5" stroke-linejoin="miter"/></svg>"""
+FAVICON = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><circle cx="16" cy="16" r="15.2" fill="#F2EDE3" stroke="#16130E" stroke-width="1.3"/><circle cx="16" cy="16" r="12.9" fill="none" stroke="#16130E" stroke-width=".7"/><path d="M 16 26.4 L 11.7 18.3 C 10.4 14.4 10.6 11 12.6 8.6 C 13.7 7.2 14.7 6.6 16 6.4 C 17.3 6.6 18.3 7.2 19.4 8.6 C 21.4 11 21.6 14.4 20.3 18.3 Z" fill="none" stroke="#16130E" stroke-width="1.5" stroke-linejoin="miter"/><path d="M 16 25.2 L 16 16.6" stroke="#16130E" stroke-width=".9"/><path d="M 16 10.2 L 18.7 13.6 L 16 17 L 13.3 13.6 Z" fill="#BE3319"/></svg>"""
 
 # ---- the minted mark, nav-scale (engine-turned medal, reduced density) ----
 import math as _m
@@ -926,21 +926,19 @@ def logo_mark_svg():
         th = _m.radians(a)
         ticks.append(f"M {500+458*_m.cos(th):.0f} {500+458*_m.sin(th):.0f} L {500+479*_m.cos(th):.0f} {500+479*_m.sin(th):.0f}")
         a += 3.6
-    DIA = "M 385 340 L 615 340 L 690 450 L 500 700 L 310 450 Z"
-    CRN = "M 385 340 L 615 340 L 690 450 L 310 450 Z"
+    NIB = "M 500 722 L 413 556 C 386 478 390 408 430 358 C 452 330 474 318 500 314 C 526 318 548 330 570 358 C 610 408 614 478 587 556 Z"
     return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
 <defs><mask id="cm"><rect width="1000" height="1000" fill="white"/>
-<path d="{DIA}" fill="black" stroke="black" stroke-width="58" stroke-linejoin="miter"/></mask></defs>
+<path d="{NIB}" fill="black" stroke="black" stroke-width="54" stroke-linejoin="miter"/></mask></defs>
 <circle cx="500" cy="500" r="480" stroke="#16130E" stroke-width="7" fill="none"/>
 <path d="{" ".join(ticks)}" stroke="#16130E" stroke-width="3" fill="none" opacity=".9"/>
 <circle cx="500" cy="500" r="446" stroke="#16130E" stroke-width="4" fill="none"/>
 <g transform="translate(500,500) scale(1.06) translate(-500,-500)">
 <g mask="url(#cm)">{"".join(rings)}</g>
-<path d="{CRN}" fill="#BE3319"/>
-<path d="{DIA}" stroke="#16130E" stroke-width="9" fill="none" stroke-linejoin="miter"/>
-<g stroke="#16130E" stroke-width="4.5" fill="none">
-<path d="M 393 452 L 500 695 M 607 452 L 500 695"/>
-<path d="M 500 452 L 500 558"/></g></g></svg>'''
+<path d="{NIB}" stroke="#16130E" stroke-width="11" fill="none" stroke-linejoin="miter"/>
+<path d="M 500 700 L 500 512" stroke="#16130E" stroke-width="7"/>
+<path d="M 443 574 C 424 500 430 432 462 386 M 557 574 C 576 500 570 432 538 386" stroke="#16130E" stroke-width="4.5" fill="none" opacity=".85"/>
+<path d="M 500 396 L 552 462 L 500 528 L 448 462 Z" fill="#BE3319"/></g></svg>'''
 
 def sitemap(pages):
     urls = "".join(f"<url><loc>{BASE_URL}/{p}</loc></url>" for p in pages)
