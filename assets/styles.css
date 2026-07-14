@@ -482,3 +482,36 @@ body.menu-open{overflow:hidden}
   font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--term-dim);
 }
 @media(max-width:820px){.colophon .top{grid-template-columns:1fr 1fr}}
+
+
+/* ==========================================================================
+   MOBILE POLISH
+   ========================================================================== */
+html,body{overflow-x:hidden}
+@media(max-width:640px){
+  /* masthead band — medal fits, rules retire */
+  .mast2 .m2-grid{padding:16px 0 12px}
+  .mast2 .m2-center{gap:12px}
+  .mast2 .m2-rule{display:none}
+  .mast2 .m2-medal{width:82px;height:82px}
+  /* nav — icon menu, compact brand, compact subscribe */
+  .menu-btn{font-size:0;gap:0;padding:0 15px}
+  .nav-brand{font-size:15.5px;gap:8px}
+  .nav-mark{height:27px;width:27px}
+  .nav-sub{font-size:9.5px;padding:0 12px;letter-spacing:.06em}
+  /* price tape breathes */
+  .tape .cell{padding:14px 10px 16px 0;margin-right:10px}
+  .tape .sym{font-size:8.5px;letter-spacing:.1em}
+  /* data tables (Almanac) — one column, wrapping cells */
+  [style*="columns:2"]{columns:1!important}
+  td,th{font-size:12.5px!important;padding-right:10px!important;white-space:normal!important}
+  /* footer stacks */
+  .colophon .top{grid-template-columns:1fr 1fr;gap:26px}
+  /* generous tap targets on desk stories */
+  .dstory{padding:16px 0}
+}
+@media(max-width:420px){
+  .colophon .top{grid-template-columns:1fr}
+  .mast2 .m2-halls{gap:6px}
+  .mast2 .m2-halls svg{transform:scale(.9)}
+}
