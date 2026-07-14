@@ -1,24 +1,131 @@
 {
-  "date_line": "Monday, July 14, 2026",
-  "edition": "Vol. I — No. 002 · Fourth Edition",
-  "items": [
-    {"b": "GOLD 4,102.30 ▲0.4%", "t": " — steadies near the H2 base case after June's $4,001 test"},
-    {"b": "DE BEERS", "t": " opens July sight in Gaborone poised to realign rough prices with the market"},
-    {"b": "PHILLIPS", "t": " closes a $235M spring — the biggest watch-auction season ever recorded"},
-    {"b": "AZURE BLUE", "t": " — 31.62ct fancy blue makes $8.4M as Christie's New York sells 100%"},
-    {"b": "CHOW TAI FOOK", "t": " books record HK$9.08B profit, up 52%, on fixed-price gold"},
-    {"b": "TARIFFS", "t": " — US–India deal to cut Indian-cut natural diamonds to zero duty"},
-    {"b": "RUSSIA", "t": " orders 'synthetic' labeling on lab-grown jewelry tags from Sept 1"},
-    {"b": "SSEF", "t": " trade alert: emeralds re-filled after lab testing — check report dates"},
-    {"b": "PLATINUM", "t": " holds near $1,900 after January's all-time $2,923 print"},
-    {"b": "LONDON", "t": " — Charlotte Rose elected first female president of the Diamond Bourse in 86 years"}
-  ],
-  "tape_ts": "14 Jul 2026",
-  "tape": [
-    {"name": "Gold / oz", "code": "XAU", "px": "4,102.30", "chg": "▲ +16.40 (+0.40%)", "dir": "up", "pts": [4, 7, 10, 14, 18, 20, 16, 13, 12]},
-    {"name": "Natural 1ct RBC", "code": "NAT1", "px": "5,236.00", "chg": "▼ -4.00 (-0.08%)", "dir": "down", "pts": [16, 15, 14, 15, 13, 13, 14]},
-    {"name": "Lab-Grown 1ct", "code": "LGD1", "px": "727.00", "chg": "▲ +7.00 (+0.97%)", "dir": "up", "pts": [20, 19, 18, 17, 16, 15, 13]},
-    {"name": "Platinum / oz", "code": "XPT", "px": "1,896.00", "chg": "▼ -8.30 (-0.44%)", "dir": "down", "pts": [22, 16, 10, 6, 4, 8, 9]},
-    {"name": "Silver / oz", "code": "XAG", "px": "71.40", "chg": "▲ +0.62 (+0.88%)", "dir": "up", "pts": [20, 18, 15, 13, 10, 8, 6]}
-  ]
+ "date_line": "Tuesday, July 15, 2026",
+ "edition": "Vol. I — No. 003 · Fifth Edition",
+ "items": [
+  {
+   "b": "DE BEERS",
+   "t": " cuts official rough prices to near-market — and trims the sightholder club by a third"
+  },
+  {
+   "b": "VENETIA",
+   "t": " — South Africa's largest diamond mine paused for two years; 4,400 jobs at risk"
+  },
+  {
+   "b": "GOLD 3,997.40 ▼",
+   "t": " pierced $4,000 intraday Monday before steadying — the June floor holds"
+  },
+  {
+   "b": "SILVER 57.41 ▼10.9%",
+   "t": " on the month as US–Iran escalation sends traders to cash"
+  },
+  {
+   "b": "WATCHES OF SWITZERLAND",
+   "t": " rebuffs takeover approaches at a £1.75B valuation"
+  },
+  {
+   "b": "RAPI 0.30CT +4.2%",
+   "t": " — small stones lead the diamond recovery; Antwerp H1 trade +9%"
+  },
+  {
+   "b": "LALIQUE",
+   "t": " — 27 Art Nouveau jewels worth €4.5M taken in a ten-minute museum raid"
+  },
+  {
+   "b": "JOOPITER",
+   "t": " hires ex-Bonhams watch head Nate Borgelt to build a standing department"
+  },
+  {
+   "b": "BRILLIANT EARTH",
+   "t": " enters watches: 100 numbered Swiss pieces with Louis Erard"
+  },
+  {
+   "b": "GOTTLIEB",
+   "t": " goes lab-grown for fashion — 'natural is forever, lab-grown is for right now'"
+  }
+ ],
+ "tape_ts": "13 Jul 2026 close",
+ "tape": [
+  {
+   "name": "Gold / oz",
+   "code": "XAU",
+   "px": "3,997.40",
+   "chg": "▼ -3.0% (month)",
+   "dir": "down",
+   "pts": [
+    6,
+    5,
+    8,
+    10,
+    13,
+    16,
+    19,
+    21,
+    20
+   ]
+  },
+  {
+   "name": "Natural 1ct RBC",
+   "code": "NAT1",
+   "px": "5,232.00",
+   "chg": "▼ -0.7% (June)",
+   "dir": "down",
+   "pts": [
+    14,
+    14,
+    15,
+    15,
+    16,
+    16,
+    15
+   ]
+  },
+  {
+   "name": "Lab-Grown 1ct",
+   "code": "LGD1",
+   "px": "727.00",
+   "chg": "▲ +1.0% (Q2)",
+   "dir": "up",
+   "pts": [
+    20,
+    19,
+    18,
+    17,
+    16,
+    15,
+    13
+   ]
+  },
+  {
+   "name": "Platinum / oz",
+   "code": "XPT",
+   "px": "1,595.00",
+   "chg": "▼ -45% from record",
+   "dir": "down",
+   "pts": [
+    3,
+    6,
+    10,
+    13,
+    16,
+    20,
+    23
+   ]
+  },
+  {
+   "name": "Silver / oz",
+   "code": "XAG",
+   "px": "57.41",
+   "chg": "▼ -10.9% (month)",
+   "dir": "down",
+   "pts": [
+    5,
+    4,
+    6,
+    9,
+    13,
+    17,
+    22
+   ]
+  }
+ ]
 }
