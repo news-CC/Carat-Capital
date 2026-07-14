@@ -63,7 +63,7 @@ DESKS = [
  dict(no="01", slug="diamonds", nav="Diamonds", title="Diamonds",
    tag="the stone that runs on trust",
    dek="Rough and polished, natural and mined, priced sight by sight. The diamond desk follows the pipeline end to end — producer sales in Gaborone, tenders in Antwerp and Dubai, manufacturing in Surat, memo programs in New York — and publishes the prices the trade actually deals at.",
-   stats=[("$5,240","1ct RBC · D/IF, today"),("−22%","Rough supply vs 2020"),("6","Borders per stone, avg.")],
+   stats=[("$5,232","1ct RBC · natural, this week"),("+4.2%","RAPI 0.30ct, June"),("6","Borders per stone, avg.")],
    motif="diamond",
    briefing=[
      ("B-01","Producers hold the line on rough","De Beers-style supply discipline is back: allocations trimmed, prices defended. Polished has stabilized after two brutal years — the question is whether midstream margins recover before credit patience runs out.","Supply · Gaborone"),
@@ -86,10 +86,10 @@ DESKS = [
  dict(no="02", slug="gold-metals", nav="Gold", title="Gold & Metals",
    tag="the metal beneath every margin",
    dek="Bullion is the jewelry industry's weather. The metals desk files the morning note on gold, silver, platinum and palladium — then follows the price into the workshop: hallmarking policy, recycling flows, hollow-chain engineering and what $4,000-plus gold does to every counter in the world.",
-   stats=[("$4,115","Gold/oz · this morning"),("+31%","Gold, trailing 12 months"),("~50%","Of demand is jewelry")],
+   stats=[("$3,997","Gold/oz · Jul 13 close"),("−10.9%","Silver, on the month"),("~50%","Of gold demand is jewelry")],
    motif="ingot",
    briefing=[
-     ("B-01","$4,135 at the open — the new normal hardens","Another higher open Friday. Central-bank buying and haven flows keep the floor rising, and manufacturers have stopped waiting for a retreat: product architecture is being redesigned around the price.","Bullion · New York"),
+     ("B-01","$4,000 is the floor — tested three times, held three times","Gold stabbed below $4,000 on war nerves and snapped back within a day. Manufacturers have stopped waiting for a retreat: product architecture is being redesigned around a $4,000-plus planning price.","Bullion · New York"),
      ("B-02","The lightweighting revolution","Hollow forms, electroforming, 9k and 10k revivals, silver-gilt hybrids — the craft of making less metal look like more is the decade's quiet growth industry. Vicenza and Shenzhen lead.","Manufacturing · Vicenza"),
      ("B-03","Recycling becomes a supply line","At these prices, the scrap drawer is a mine. Old-gold buybacks are now a strategic sourcing channel for refiners and brands alike — with its own pricing, logistics and fraud problems.","Supply · Global"),
    ],
@@ -178,7 +178,7 @@ DESKS = [
  dict(no="06", slug="retail-tech", nav="Retail", title="Retail & Technology",
    tag="the counter, rebuilt for the next generation",
    dek="Where the industry meets its customer — and its future. The retail desk covers lab-grown economics, e-commerce and live-selling, traceability tech, AI in the showroom, and the store formats winning buyers who are 24, online at midnight, and allergic to velvet ropes.",
-   stats=[("$720","Lab-grown 1ct, retail"),("~20%","Of sales now online"),("24","Median first-buyer age")],
+   stats=[("$727","Lab-grown 1ct, wholesale"),("~20%","Of sales now online"),("24","Median first-buyer age")],
    motif="store",
    briefing=[
      ("B-01","Lab-grown settles into its true business model","At an 86% discount to natural, LGD is no longer a diamond substitute — it's a fashion-jewelry category with diamond optics. Margins migrate from the stone to the brand and the volume.","Economics · Global"),
@@ -276,7 +276,7 @@ def navbar(active=""):
     <button class="menu-btn" onclick="ccMenu(true)" aria-label="Open menu"><span class="bars"><i></i><i></i><i></i></span>Menu</button>
     <a class="nav-brand" href="index.html"><img class="nav-mark" src="assets/logo-mark.svg" alt="Carat Capital medal">Carat<span class="caret">^</span>Capital</a>
     <div class="nav-links">{links}</div>
-    <a class="nav-sub" href="index.html#rates"><span>Subscribe — $12/mo</span></a>
+    <a class="nav-sub" href="the-record.html"><span>The Record — catch up fast</span></a>
   </div></div>
 </div>"""
 
@@ -301,15 +301,12 @@ def omenu():
         <a href="the-record.html">The Record — Eight Weeks of the Trade</a>
         <a href="almanac.html">The Almanac — The Quarter in Numbers</a>
         <a href="index.html#tape-a">The Price Tape</a>
-        <a href="index.html#voices">Voices — Interviews</a>
-        <a href="index.html#coupon">The Morning Brief — Free</a>
-        <a href="index.html#rates">Rate Card — Subscribe</a>
         <a href="about.html">About the Paper</a>
         <a href="about.html#standards">Editorial Standards</a>
         <a href="about.html#contact">Write to the Desk</a>
       </div>
     </div>
-    <div class="o-foot">Carat Capital · The trade paper of the jewelry world · Read in 120+ countries</div>
+    <div class="o-foot">Carat Capital · The trade paper of the jewelry world · Est. MMXXVI · Free to read</div>
   </div>
 </div>"""
 
@@ -333,16 +330,16 @@ def colophon():
         <a class="fl" href="about.html">About the paper</a><a class="fl" href="about.html#standards">Editorial standards</a>
         <a class="fl" href="field-guide.html">The Field Guide</a><a class="fl" href="the-record.html">The Record</a><a class="fl" href="almanac.html">The Almanac</a><a class="fl" href="about.html#contact">Write to the desk</a>
       </div>
-      <div><h4>Subscribe</h4>
-        <a class="fl" href="index.html#coupon">Morning Brief — free</a>
-        <a class="fl" href="index.html#rates">Desk — $12/mo</a>
-        <a class="fl" href="index.html#rates">House — $49/mo</a>
-        <a class="fl" href="#">Gift a subscription</a>
+      <div><h4>The Paper</h4>
+        <a class="fl" href="index.html">Front page</a>
+        <a class="fl" href="index.html#tape-a">The price tape</a>
+        <a class="fl" href="feed.xml">RSS feed</a>
+        <a class="fl" href="https://caratcapital.beehiiv.com">The Morning Brief — free</a>
       </div>
     </div>
     <div class="base">
       <div>© MMXXVI Carat Capital · Printed daily on the internet</div>
-      <div>ISSN pending · caratcapital.com</div>
+      <div>Free to read, cover to cover · caratcapital.org</div>
     </div>
   </div>
 </footer>"""
@@ -360,7 +357,6 @@ document.querySelectorAll('.rv').forEach(el=>io.observe(el));
 requestAnimationFrame(()=>document.querySelectorAll('.rv').forEach(el=>{const r=el.getBoundingClientRect();if(r.top<innerHeight&&r.bottom>0)el.classList.add('in')}));
 const sio=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('go');sio.unobserve(e.target)}}),{threshold:.4});
 document.querySelectorAll('.spark').forEach(el=>sio.observe(el));
-function ccJoin(e){e.preventDefault();window.open('https://caratcapital.beehiiv.com/subscribe?email='+encodeURIComponent(e.target.querySelector('input').value),'_blank');const f=document.getElementById('cp-fine');e.target.querySelector('input').value='';if(f){f.textContent='/// RECEIVED — your first Morning Brief prints tomorrow, 06:30 ET ///';f.style.color='var(--seal)'}return false}
 </script>
 </body>
 </html>"""
@@ -437,15 +433,15 @@ def record_page():
 {omenu()}
 <section class="deskhero"><div class="wrap">
   <div class="dh-no">The Paper · Updated {RECORD.get("updated","")}</div>
-  <h1 class="art-h" style="font-size:clamp(40px,6vw,86px);text-transform:uppercase">The Record<em style="font-family:var(--text);font-style:italic;font-weight:400;color:var(--seal);text-transform:none;font-size:.5em;display:block;margin-top:12px">eight weeks of the trade, kept properly</em></h1>
+  <h1 class="art-h" style="font-size:clamp(40px,6vw,86px);text-transform:uppercase">The Record<em style="font-family:var(--disp);font-style:normal;font-weight:400;color:var(--seal);text-transform:none;font-size:.5em;display:block;margin-top:12px;letter-spacing:-.01em">Eight weeks of the trade, kept properly</em></h1>
   <p class="dh-dek" style="max-width:760px">{RECORD.get("intro","")}</p>
 </div></section>
 <section class="burin"><div class="wrap">{weeks}
   <div style="padding:40px 0"><a class="big" href="almanac.html" style="font-family:var(--mono);font-size:12px;letter-spacing:.22em;text-transform:uppercase;border-bottom:2px solid var(--seal);padding-bottom:4px">The Almanac — the quarter in numbers →</a></div>
 </div></section>
 <section class="ctastrip"><div class="wrap"><div class="inner">
-  <h2>The Record, delivered — <em>every morning at 06:30.</em></h2>
-  <a class="big" href="index.html#coupon">Get the Morning Brief →</a>
+  <h2>Prefer the numbers? — <em>the Almanac tables the quarter.</em></h2>
+  <a class="big" href="almanac.html">Open the Almanac →</a>
 </div></div></section>
 {colophon()}
 {SCRIPT}"""
@@ -472,13 +468,13 @@ def almanac_page():
 {omenu()}
 <section class="deskhero"><div class="wrap">
   <div class="dh-no">The Paper · Updated {RECORD.get("updated","")}</div>
-  <h1 class="art-h" style="font-size:clamp(40px,6vw,86px);text-transform:uppercase">The Almanac<em style="font-family:var(--text);font-style:italic;font-weight:400;color:var(--seal);text-transform:none;font-size:.5em;display:block;margin-top:12px">the quarter, in numbers a desk can use</em></h1>
+  <h1 class="art-h" style="font-size:clamp(40px,6vw,86px);text-transform:uppercase">The Almanac<em style="font-family:var(--disp);font-style:normal;font-weight:400;color:var(--seal);text-transform:none;font-size:.5em;display:block;margin-top:12px;letter-spacing:-.01em">The quarter, in numbers a desk can use</em></h1>
   <p class="dh-dek" style="max-width:760px">Every figure below is sourced and dated. Read it with The Record for the narrative; bring it to your Monday meeting for the argument.</p>
 </div></section>
 <section class="burin"><div class="wrap" style="columns:2;column-gap:64px;padding-top:30px">{tables}</div></section>
 <section class="ctastrip"><div class="wrap"><div class="inner">
-  <h2>Numbers, every morning — <em>before the market opens.</em></h2>
-  <a class="big" href="index.html#coupon">Get the Morning Brief →</a>
+  <h2>Want the stories behind these numbers? — <em>read the Record.</em></h2>
+  <a class="big" href="the-record.html">Open the Record →</a>
 </div></div></section>
 {colophon()}
 {SCRIPT}"""
@@ -491,7 +487,6 @@ def desk_page(d):
       <div class="term">{g[0]}<i>{g[1]}</i></div><p>{g[2]}</p></div>""" for g in d["glossary"])
     # published articles for this desk first, then house stubs to fill the list
     rows = [(f"a-{a['slug']}.html", a["title"], a["dek"], f"{a['date']} · {a['minutes']} min") for a in desk_articles(d["slug"])]
-    rows += [("#", s[0], s[1], s[2]) for s in d["stories"] if s[0] not in {r[1] for r in rows}]
     stories = "".join(f"""<a class="dstory rv" href="{href}">
       <div class="n">S—{i+1:02d}</div><h3>{t}</h3><div class="d">{dk}</div><div class="m">{m}</div></a>""" for i,(href,t,dk,m) in enumerate(rows[:6]))
     stats = "".join(f"<div><b>{v}</b><span>{l}</span></div>" for v,l in d["stats"])
@@ -529,7 +524,7 @@ def desk_page(d):
 </section>
 <section class="glossary burin">
   <div class="wrap">
-    <div class="sec-mast rv"><h2>Understand the segment — <em>the working vocabulary</em></h2><div class="mono-note">The trade's terms, plainly told</div></div>
+    <div class="sec-mast rv"><h2>Talk like the trade — <em>the working vocabulary</em></h2><div class="mono-note">The trade's terms, plainly told</div></div>
     <div class="glo-grid">{glos}</div>
   </div>
 </section>
@@ -542,8 +537,8 @@ def desk_page(d):
 {recsec}
 <section class="ctastrip">
   <div class="wrap"><div class="inner">
-    <h2>Never miss this desk — <em>it's in the Morning Brief.</em></h2>
-    <a class="big" href="index.html#coupon">Get it free →</a>
+    <h2>Go deeper — <em>eight weeks of this trade, on one page.</em></h2>
+    <a class="big" href="the-record.html">Open the Record →</a>
   </div></div>
 </section>
 {colophon()}
@@ -576,12 +571,6 @@ def wire_block():
   <div class="tag"><span class="blink"></span>The Wire</div>
   <div class="belt"><div class="belt-track" id="belt">{items}</div></div>
 </div>"""
-
-DEX_STUBS = [
-    ("gemstones.html", "Boucheron rewrites its own icon — and resets the bar for Place Vendôme", "High Jewelry · Paris · 5 min"),
-    ("gemstones.html", "The Odyssey effect — ancient-world jewelry is about to have its moment", "Trends · London · 6 min"),
-    ("retail-tech.html", "America 250: heritage houses mint an anniversary economy", "Retail · New York · 4 min"),
-]
 
 DESK_NAMES = {d["slug"]: d["title"] for d in DESKS}
 
@@ -619,8 +608,8 @@ def article_page(a):
 </article>
 <section class="ctastrip">
   <div class="wrap"><div class="inner">
-    <h2>More from the {desk_name} desk — <em>every morning, free.</em></h2>
-    <a class="big" href="index.html#coupon">Get the Morning Brief →</a>
+    <h2>More from the {desk_name} desk — <em>the story so far.</em></h2>
+    <a class="big" href="{a['desk']}.html">Open the desk →</a>
   </div></div>
 </section>
 {colophon()}
@@ -631,7 +620,6 @@ def index_page():
     LEAD = lead_article()
     lead_href = f"a-{LEAD['slug']}.html" if LEAD else "#"
     dex_rows = [(f"a-{a['slug']}.html", a["title"], f"{DESK_NAMES.get(a['desk'],'')} · {a['minutes']} min") for a in ARTICLES if not a.get("lead")]
-    dex_rows += [s for s in DEX_STUBS if s[1] not in {r[1] for r in dex_rows}]
     dex = "".join(f"""<a class="story" href="{href}"><div class="n">{i+2:02d}</div><div><h3>{t}</h3><div class="m">{m}</div></div></a>""" for i,(href,t,m) in enumerate(dex_rows[:5]))
     ledger = "".join(f"""<a class="rowd" href="{d['slug']}.html">
       <div class="no">D—{d['no']}</div><h3>{d['title']}</h3>
@@ -643,7 +631,7 @@ def index_page():
   <div class="m2-side">
     <span>{WIRE.get("edition","")}</span>
     <span>{WIRE.get("date_line","")}</span>
-    <span><b>Est. MMXXVI</b> · Read in 120+ countries</span>
+    <span><b>Est. MMXXVI</b> · Independent &amp; free to read</span>
   </div>
   <div class="m2-center">
     <span class="m2-rule l"></span>
@@ -696,7 +684,7 @@ def index_page():
             <circle cx="450" cy="148" r="3.4" fill="#BE3319" stroke="none"/>
           </g>
           <g font-family="'IBM Plex Mono',monospace" fill="#16130E">
-            <text x="618" y="152" font-size="11" letter-spacing="1.5">GIRDLE — $4,135/OZ</text>
+            <text x="618" y="152" font-size="11" letter-spacing="1.5">GIRDLE — ${WIRE.get("tape",[{}])[0].get("px","—")}/OZ</text>
             <line x1="594" y1="148" x2="612" y2="148" stroke="#BE3319" stroke-width="1"/>
             <text x="240" y="70" font-size="11" letter-spacing="1.5" text-anchor="end">CROWN</text>
             <line x1="248" y1="66" x2="330" y2="90" stroke="#16130E" stroke-width=".6"/>
@@ -716,19 +704,19 @@ def index_page():
       <svg class="stamp" width="30" height="19" viewBox="0 0 32 20" style="color:var(--gilt)"><use href="#hm-maker"/></svg>
       <div class="kick">The Dispatch · Opinion</div>
       <h3>A price list you can believe is worth more than a high one.</h3>
-      <p>De Beers spent two years defending a book that traded thirty percent above reality, and the market simply routed around it. This week it moves to close the gap. The lesson prices in everywhere: in rough, in retail tickets, in lab-grown tags — the trade pays a premium for honest numbers and discounts everything else.</p>
-      <div class="sig">— The Editor's Desk, No. 002</div>
+      <p>De Beers spent two years defending a book that traded up to half above reality, and the market routed around it. At the July sight it closed the gap — quieter prices, a smaller club. The lesson reads everywhere: in rough, in retail tickets, in lab-grown tags, the trade pays a premium for honest numbers and discounts everything else.</p>
+      <div class="sig">— The Editor's Desk, No. 003</div>
     </aside>
   </div></div>
 </section>
 <section class="desks" id="desks">
   <div class="wrap">
-    <div class="sec-mast rv"><h2>Six desks. <em>The whole trade.</em></h2><div class="mono-note">Open a desk to learn its segment</div></div>
+    <div class="sec-mast rv"><h2>Six desks. <em>Pick yours.</em></h2><div class="mono-note">Each desk teaches its whole segment</div></div>
     <div class="ledger rv">{ledger}</div>
   </div>
 </section>
 <section class="burin"><div class="wrap" style="padding:64px 0 58px">
-  <div class="sec-mast rv"><h2>The paper keeps a ledger. <em>Two of them.</em></h2><div class="mono-note">Updated weekly</div></div>
+  <div class="sec-mast rv"><h2>Behind on the quarter? <em>Two pages fix that.</em></h2><div class="mono-note">Updated weekly</div></div>
   <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:26px;margin-top:26px">
     <a class="rv" href="the-record.html" style="border:1.5px solid var(--ink);padding:30px 28px;display:block">
       <div style="font-family:var(--mono);font-size:10px;letter-spacing:.24em;text-transform:uppercase;color:var(--seal)">The Record</div>
@@ -755,65 +743,12 @@ def index_page():
     </svg>
   </div>
   <div class="wrap">
-    <blockquote class="rv">A diamond crosses <b>six borders</b> before it reaches a ring finger. We file from every one of them.</blockquote>
-    <div class="attr rv rv-d1">Carat Capital · Correspondents in 120 countries</div>
+    <blockquote class="rv">A diamond crosses <b>six borders</b> before it reaches a ring finger. We follow it across every one.</blockquote>
+    <div class="attr rv rv-d1">Carat Capital · Filed daily from the desk</div>
   </div>
 </section>
-<section class="voices" id="voices">
-  <div class="wrap">
-    <div class="sec-mast rv"><h2>Voices <em>of the trade</em></h2><div class="mono-note">Interview series · Wednesdays</div></div>
-    <div class="vcols">
-      <div class="vcol rv"><div class="series">The Maison Interview</div>
-        <blockquote>The houses that survive the next decade will be the ones that treat traceability as romance, not compliance.</blockquote>
-        <div class="who"><svg width="26" height="16" viewBox="0 0 32 20" style="color:var(--seal)"><use href="#hm-maker"/></svg>Creative directors on craft &amp; provenance</div></div>
-      <div class="vcol rv rv-d1"><div class="series">The Dealmaker Series</div>
-        <blockquote>Lab-grown didn't kill the diamond dream. It made the natural stone tell a better story — or lose.</blockquote>
-        <div class="who"><svg width="22" height="17" viewBox="0 0 26 20" style="color:var(--seal)"><use href="#hm-assay"/></svg>Traders, sightholders &amp; financiers</div></div>
-      <div class="vcol rv rv-d2"><div class="series">The New Retail Diaries</div>
-        <blockquote>My customers are 24 and buying emeralds on their phones at midnight. Meet them there, or meet nobody.</blockquote>
-        <div class="who"><svg width="22" height="17" viewBox="0 0 26 20" style="color:var(--seal)"><use href="#hm-fine"/></svg>Founders building tomorrow's counters</div></div>
-    </div>
-  </div>
-</section>
-<section class="couponband burin" id="coupon">
-  <div class="wrap"><div class="coupon rv">
-    <div class="scissors"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="6" cy="6" r="2.6"/><circle cx="6" cy="18" r="2.6"/><path d="M8.2 7.6 L20 18 M8.2 16.4 L20 6" stroke-linecap="round"/></svg></div>
-    <div class="nocharge">No Charge · Ever</div>
-    <h2>The Morning Brief — read it <em>before the market opens.</em></h2>
-    <p>One five-minute dispatch every trading day: overnight prices, the three stories that matter, and one line sharp enough to repeat in your first meeting. Filed 06:30 ET / before Antwerp lunch.</p>
-    <form class="cp-form" onsubmit="return ccJoin(event)">
-      <input type="email" required placeholder="you@yourhouse.com" aria-label="Email">
-      <button type="submit"><span>File Me In</span></button>
-    </form>
-    <div class="cp-fine" id="cp-fine">/// Read in 120+ countries · Unsubscribe anytime ///</div>
-  </div></div>
-</section>
-<section class="rates" id="rates">
-  <div class="wrap">
-    <div class="sec-mast rv"><h2>The <em>rate card</em></h2><div class="mono-note">Tariff of subscription · 2026</div></div>
-    <div class="ratetable rv">
-      <div class="rt-head">
-        <div>Entitlement</div>
-        <div class="tier"><span>Reader</span><span class="p">$0</span></div>
-        <div class="tier mark"><span style="color:var(--gilt)">Desk — most taken</span><span class="p"><sup>$</sup>12<em>/mo</em></span></div>
-        <div class="tier"><span>House · ×5 seats</span><span class="p"><sup>$</sup>49<span style="font-size:13px">/mo</span></span></div>
-      </div>
-      <div class="rt-row"><div>The Morning Brief, daily</div><div class="y">✓</div><div class="y mk">✓</div><div class="y">✓</div></div>
-      <div class="rt-row"><div>Stories per month</div><div>3</div><div class="mk y">∞</div><div class="y">∞</div></div>
-      <div class="rt-row"><div>Price desk — gold, polished, lab-grown</div><div>Weekly</div><div class="mk y">Daily</div><div class="y">Daily + history</div></div>
-      <div class="rt-row"><div>Auction previews &amp; results wire</div><div class="n">—</div><div class="mk y">✓</div><div class="y">✓</div></div>
-      <div class="rt-row"><div>Voices interview archive</div><div class="n">—</div><div class="mk y">✓</div><div class="y">✓</div></div>
-      <div class="rt-row"><div>Quarterly State of the Trade report</div><div class="n">—</div><div class="n mk">—</div><div class="y">✓</div></div>
-      <div class="rt-row"><div>Data downloads &amp; survey early access</div><div class="n">—</div><div class="n mk">—</div><div class="y">✓</div></div>
-      <div class="rt-cta">
-        <div style="text-align:left;font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3);display:flex;align-items:center">Billed annually · cancel anytime</div>
-        <div><a href="#coupon">Start Free</a></div>
-        <div class="mk"><a class="sealed" href="#">Take a Desk</a></div>
-        <div><a href="#">Equip a House</a></div>
-      </div>
-    </div>
-  </div>
-</section>
+
+
 {colophon()}
 {SCRIPT}"""
 
@@ -844,7 +779,7 @@ def field_guide():
 <section class="deskhero">
   <div class="wrap">
     <div class="dh-no">The Field Guide · Education Desk</div>
-    <h1 class="art-h" style="font-size:clamp(40px,6.4vw,92px);text-transform:uppercase">Learn the trade<em style="font-family:var(--text);font-style:italic;font-weight:400;color:var(--seal);text-transform:none;font-size:.55em;display:block;margin-top:14px">the working vocabulary, desk by desk</em></h1>
+    <h1 class="art-h" style="font-size:clamp(40px,6.4vw,92px);text-transform:uppercase">Learn the trade<em style="font-family:var(--disp);font-style:normal;font-weight:400;color:var(--seal);text-transform:none;font-size:.55em;display:block;margin-top:14px;letter-spacing:-.01em">The working vocabulary, desk by desk</em></h1>
     <p class="dh-dek" style="max-width:66ch">Every industry has a language, and jewelry's is older than most. This guide collects the terms the trade actually uses — the sight and the memo, hallmarks and making charges, pigeon's blood and provenance — written plainly enough for a newcomer and precisely enough for a dealer. It is free, it always will be, and it grows with every edition we publish.</p>
   </div>
 </section>
@@ -857,8 +792,8 @@ def field_guide():
 {sections}
 <section class="ctastrip">
   <div class="wrap"><div class="inner">
-    <h2>Fluent yet? — <em>the Morning Brief keeps you that way.</em></h2>
-    <a class="big" href="index.html#coupon">Get it free →</a>
+    <h2>Fluent yet? — <em>test it on today's front page.</em></h2>
+    <a class="big" href="index.html">Read today's edition →</a>
   </div></div>
 </section>
 {colophon()}
@@ -880,7 +815,7 @@ def about_page():
     </div>
     <div class="art-body rv in">
       <p>The jewelry trade runs from the mines of Botswana to the ateliers of Place Vendôme, through the bourses of Antwerp, the polishing wheels of Surat, the auction rooms of Geneva and the livestream studios of Shenzhen. It employs millions, turns over hundreds of billions of dollars, and until now has had no single, modern, daily paper of record. That is the job we hired ourselves to do.</p>
-      <p>We publish six desks — Diamonds, Gold &amp; Metals, Colored Gemstones, Watches, Auctions &amp; Estates, and Retail &amp; Technology — plus a daily price tape and the Morning Brief, a five-minute email filed before the market opens. Reading is free at the counter; depth is for members.</p>
+      <p>We publish six desks — Diamonds, Gold &amp; Metals, Colored Gemstones, Watches, Auctions &amp; Estates, and Retail &amp; Technology — plus a daily price tape and the Morning Brief, a five-minute email filed before the market opens. Everything on this site is free to read, cover to cover.</p>
       <h2 id="standards" style="font-family:var(--disp);font-weight:700;font-size:28px;letter-spacing:-.02em;margin:34px 0 16px;scroll-margin-top:90px">Editorial standards</h2>
       <p>Everything we publish is original writing. We research widely and credit sources by name and link at the foot of every article. We never reproduce another publication's text or images. Prices are verified the morning of publication or marked unchanged. We do not accept payment for coverage; sponsored content, when it exists, will say so in the headline. When we are wrong, we correct in place and note it. Every claim is priced, sourced, or cut.</p>
       <h2 id="contact" style="font-family:var(--disp);font-weight:700;font-size:28px;letter-spacing:-.02em;margin:34px 0 16px;scroll-margin-top:90px">Write to the desk</h2>
@@ -890,8 +825,8 @@ def about_page():
 </article>
 <section class="ctastrip">
   <div class="wrap"><div class="inner">
-    <h2>Judge us by the work — <em>it's free every morning.</em></h2>
-    <a class="big" href="index.html#coupon">Get the Morning Brief →</a>
+    <h2>Judge us by the work — <em>start with today's front page.</em></h2>
+    <a class="big" href="index.html">Read the paper →</a>
   </div></div>
 </section>
 {colophon()}
