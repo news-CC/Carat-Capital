@@ -1,10 +1,71 @@
 {
- "updated": "14 Jul 2026",
+ "updated": "15 Jul 2026",
  "intro": "Eight weeks of the trade, kept the way a ledger should be kept — dated, sourced, and in one place. New entries are added at the top each week; the quarter's running numbers live in the Almanac below.",
  "weeks": [
   {
    "label": "This week — July 13",
    "entries": [
+    {
+     "d": "diamonds",
+     "h": "Karowe's tenth thousand-carat stone",
+     "t": "July 13: Lucara recovers a 1,305.4ct white gem diamond, unbroken, via XRT sorting — the tenth 1,000ct-plus stone in the mine's history (Motswedi 2,488ct, Lesedi La Rona 1,109ct). No other mine has produced one.",
+     "s": "Lucara / Rapaport"
+    },
+    {
+     "d": "diamonds",
+     "h": "Dubai posts a record $41.7B trade",
+     "t": "2025 diamond trade up 16% to $41.7B on 359.5M carats (+43%) — first simultaneous value and volume records; polished +25% to $18.7B; colored gemstones +48% to a record $1.1B.",
+     "s": "Rapaport / DMCC"
+    },
+    {
+     "d": "diamonds",
+     "h": "Mumbai takes the WFDB gavel",
+     "t": "Bharat Diamond Bourse VP Mehul Shah wins the World Federation of Diamond Bourses presidency in a three-way Singapore vote over Dubai's Ahmed Bin Sulayem and Shanghai's Lin Qiang, succeeding Yoram Dvash.",
+     "s": "Rapaport"
+    },
+    {
+     "d": "watches",
+     "h": "WoS is majority-American for the first time",
+     "t": "FY26 revenue +11% to $2.44B; US sales +18% to $1.24B — over half of group revenue and profit. Guidance: +5–10% for FY27. Results land a day after news of rebuffed takeover approaches.",
+     "s": "Rapaport / JCK"
+    },
+    {
+     "d": "gemstones",
+     "h": "Couture week's monumental tape",
+     "t": "Boucheron shows a 1,500ct-plus morganite necklace (~3,200 workshop hours); Messika sets the 20.46ct Okavango Blue on a 500-diamond rivière; Chanel debuts 85 pieces; Graff's 12 butterfly brooches convert to pendants.",
+     "s": "Natural Diamond Council"
+    },
+    {
+     "d": "gold-metals",
+     "h": "One soft CPI print turns the tape",
+     "t": "July 14: gold +1.8% to $4,072.60, silver +2.4% to $58.88, platinum +2.4% to $1,636, palladium +4.1% — the whole board rallies on cooler June inflation a day after gold's $3,985.70 intraday stab.",
+     "s": "Kitco / Yahoo Finance"
+    },
+    {
+     "d": "diamonds",
+     "h": "Guyana's diggers switch to gold",
+     "t": "H1 diamond exports fall 70–80% YoY as alluvial miners re-rig for bullion; 85% of Guyana's rough value sits in stones of 0.50ct and under — supply leaving the exact category leading the recovery.",
+     "s": "IDEX Online"
+    },
+    {
+     "d": "auctions",
+     "h": "Pearls run the table at Bonhams London",
+     "t": "All top-10 lots beat high estimates July 8; David Morris pearl-and-diamond necklace makes $54,894, a natural pearl strand roughly 4× its estimate, a three-stone ring 3.5×.",
+     "s": "Rapaport"
+    },
+    {
+     "d": "gemstones",
+     "h": "A 21-year first at the Halstead Grant",
+     "t": "Navajo silversmith Enoch Platero (Enoch Michael) becomes the first traditional Native American jewelry artist to win the emerging-jeweler award — $7,500 cash plus supplies, judged on a full business plan.",
+     "s": "PRWeb / JCK"
+    },
+    {
+     "d": "retail-tech",
+     "h": "Watch liquidity goes instant",
+     "t": "Arena Club launches mystery 'Time Boxes' (published odds, 90% instant buy-back; Rolex, Patek, AP, Cartier) while The Heritage Club adds AI photo-to-offer valuations with 30–60-day repurchase in the UAE.",
+     "s": "WatchPro"
+    },
+    
     {
      "d": "diamonds",
      "h": "De Beers cuts the book — and pauses Venetia for two years",
