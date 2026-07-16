@@ -575,7 +575,160 @@ def wire_block():
 DESK_NAMES = {d["slug"]: d["title"] for d in DESKS}
 
 # ---------------- ARTICLE PAGE ----------------
+# ---------------- ARTICLE EDITORIAL v2 ----------------
+EDITORIAL = json.loads((CONTENT / "editorial.json").read_text()) if (CONTENT / "editorial.json").exists() else {}
+for _a in ARTICLES:
+    if _a["slug"] in EDITORIAL and "ed" not in _a:
+        _a["ed"] = EDITORIAL[_a["slug"]]
+
+def _fig_bars(f):
+    rows = f["rows"]; W, LX, RX = 620, 150, 596
+    bh, gap, top = 34, 22, 44
+    H = top + len(rows) * (bh + gap) + 34
+    mx = max(r["v"] for r in rows) or 1
+    out = [f'<svg viewBox="0 0 {W} {H}" role="img" aria-label="{f.get("title","")}">',
+           f'<text x="20" y="24" font-family="\'IBM Plex Mono\',monospace" font-size="11" letter-spacing="1" fill="#7A7263">{f.get("title","").upper()}</text>']
+    y = top
+    for r in rows:
+        w = max(10, int((RX - LX - 76) * r["v"] / mx))
+        col = "#BE3319" if r.get("hi") else "#16130E"
+        fw = ' font-weight="600"' if r.get("hi") else ""
+        out.append(f'<text x="{LX-8}" y="{y+bh-12}" font-family="\'IBM Plex Mono\',monospace" font-size="11.5" text-anchor="end" fill="{col}"{fw}>{r["l"]}</text>')
+        if r.get("hi"):
+            out.append(f'<rect x="{LX}" y="{y}" width="{w}" height="{bh}" fill="#BE3319" opacity=".08"/>')
+        out.append(f'<rect x="{LX}" y="{y}" width="{w}" height="{bh}" fill="none" stroke="{col}" stroke-width="{1.5 if r.get("hi") else 1.2}"/>')
+        for i, ly in enumerate(range(y + 9, y + bh - 5, 9)):
+            out.append(f'<line x1="{LX+7}" y1="{ly}" x2="{LX+w-7}" y2="{ly}" stroke="{col}" stroke-width=".45" opacity=".55"/>')
+        out.append(f'<text x="{LX+w+10}" y="{y+bh-12}" font-family="\'IBM Plex Mono\',monospace" font-size="12" font-weight="600" fill="{col}">{r["d"]}</text>')
+        y += bh + gap
+    if f.get("note"):
+        nfs = 10 if len(f["note"]) <= 80 else (9 if len(f["note"]) <= 100 else 8)
+        nls = 1 if len(f["note"]) <= 80 else 0
+        out.append(f'<text x="20" y="{H-8}" font-family="\'IBM Plex Mono\',monospace" font-size="{nfs}" letter-spacing="{nls}" fill="#7A7263">{f["note"].upper()}</text>')
+    out.append('</svg>')
+    return "".join(out)
+
+def _fig_svg(f):
+    return f["svg"] if "svg" in f else _fig_bars(f)
+
+def _amap():
+    return {x["slug"]: x for x in ARTICLES}
+
+def _p_split(p, at):
+    i = p.find(at) if at else -1
+    if i > 0:
+        return [p[:i].rstrip(), p[i:]]
+    return [p]
+
+def _v2_strip(s):
+    cells = ""
+    for c in s["cells"]:
+        d = f'<span class="{c.get("dir","up")}">{c.get("delta","")}</span> · ' if c.get("delta") else ""
+        cells += f'<div class="cell"><div class="fig">{c["fig"]}</div><div class="lab">{d}{c["lab"]}</div></div>'
+    return f'<div class="art-strip rv in"><div class="cap">{s["cap"]}</div><div class="grid">{cells}</div></div>'
+
+def _v2_spec(s):
+    rows = "".join(f'<div class="row"><div class="l">{r["l"]}</div><div class="v">{r["v"]}</div></div>' for r in s["rows"])
+    return f'<div class="art-spec rv in"><div class="cap">{s["cap"]}</div>{rows}</div>'
+
+def _v2_fig(f, num):
+    no = f.get("no", ["Plate I", "Fig. II", "Fig. III"][num])
+    return f'<figure class="art-fig rv in"><div class="frame">{_fig_svg(f)}</div><figcaption><b>{no}</b> — {f["cap"]}</figcaption></figure>'
+
+def _v2_next(nx, desk, desk_name):
+    am = _amap()
+    la = am[nx["lead"]["slug"]]
+    lead = (f'<a class="leadcard" href="a-{la["slug"]}.html"><div class="t">{nx["lead"]["tag"]} · {la["minutes"]} min</div>'
+            f'<h4>{la["title"]}</h4><p>{nx["lead"]["blurb"]}</p></a>')
+    minis = ""
+    for m in nx["minis"]:
+        ma = am[m["slug"]]
+        minis += f'<a href="a-{ma["slug"]}.html"><div class="t">{m["tag"]} · {ma["minutes"]} min</div><h5>{ma["title"]}</h5></a>'
+    return (f'<div class="art-next rv in"><div class="k"><span>Keep reading · The {desk_name} Desk</span>'
+            f'<a href="{desk}.html">Open the desk →</a></div>{lead}<div class="minis">{minis}</div></div>')
+
+def _v2_body(a, ed):
+    body = a["body"]
+    desk_para = body[-1] if body[-1].startswith("The desk's view:") else None
+    out, first = "", True
+    for it in ed["flow"]:
+        if "sub" in it:
+            out += f'<h2 class="art-sub"><span class="n">{it["n"]}</span>{it["sub"]}</h2>'
+        elif "p" in it:
+            for seg in _p_split(body[it["p"]], it.get("split")):
+                cls = ' class="drop"' if first else ""
+                out += f"<p{cls}>{seg}</p>"
+                first = False
+        elif "fig" in it:
+            if it["fig"] > 0:
+                out += _v2_fig(ed["figs"][it["fig"]], it["fig"])
+        elif "pull" in it:
+            out += f'<div class="art-pull"><q>{it["pull"]["q"]}</q><div class="attr">— {it["pull"]["attr"]}</div></div>'
+        elif "also" in it:
+            out += f'<div class="art-also"><span class="k">See also</span><a href="{it["also"]["href"]}">{it["also"]["t"]} →</a></div>'
+    if desk_para:
+        txt = desk_para[len("The desk's view:"):].strip()
+        txt = txt[0].upper() + txt[1:]
+        segs = _p_split(txt, ed.get("desk", {}).get("split"))
+        dv = f"<p>{segs[0]}</p>"
+        if len(segs) > 1:
+            dv += f'<p class="kick2">{segs[1]}</p>'
+        desk_name = DESK_NAMES.get(a["desk"], a["desk"])
+        out += (f'<div class="art-desk rv in"><div class="lab"><span>The Desk&rsquo;s View</span><span>{desk_name}</span></div>'
+                f'<div class="in">{dv}</div></div>')
+    return out
+
+def article_page_v2(a):
+    ed = a["ed"]
+    srcs = "".join(f'<a href="{s["url"]}" target="_blank" rel="noopener">{s["title"]} ↗</a>' for s in a.get("sources", []))
+    desk_name = DESK_NAMES.get(a["desk"], a["desk"])
+    jsonld = json.dumps({
+        "@context": "https://schema.org", "@type": "NewsArticle",
+        "headline": a["title"], "description": a["dek"], "datePublished": a["date"],
+        "author": {"@type": "Organization", "name": f"Carat Capital — {a['byline']}"},
+        "publisher": {"@type": "Organization", "name": "Carat Capital", "url": BASE_URL},
+        "articleSection": desk_name, "mainEntityOfPage": f"{BASE_URL}/a-{a['slug']}.html"
+    })
+    extra = f'<scr' + f'ipt type="application/ld+json">{jsonld}</scr' + f'ipt>'
+    opener = _v2_strip(ed["strip"]) if "strip" in ed else _v2_spec(ed["spec"])
+    lead_fig = _v2_fig(ed["figs"][0], 0) if ed.get("figs") else ""
+    prog = ('<div id="artprog"></div><scr' + 'ipt>addEventListener("scroll",function(){var h=document.documentElement;'
+            'document.getElementById("artprog").style.width=h.scrollTop/(h.scrollHeight-h.clientHeight)*100+"%"})</scr' + 'ipt>')
+    return f"""{head(f"{a['title']} — Carat Capital", a['dek'][:150], f"a-{a['slug']}.html", extra)}
+{prog}
+{folio(f"{a['date']} · {desk_name}")}
+{navbar(a['desk'])}
+{omenu()}
+<article class="artpage">
+  <div class="wrap">
+    <div class="art-head rv in">
+      <div class="kick">{a['kicker']}</div>
+      <h1 class="art-h">{a['title']}</h1>
+      <p class="lead-dek">{a['dek']}</p>
+      <div class="byline">By <b>{a['byline']}</b> · {a['date']} · {a['minutes']} min read</div>
+    </div>
+    {opener}
+    {lead_fig}
+    <div class="art-body rv in">{_v2_body(a, ed)}</div>
+    <div class="art-sources rv in">
+      <div class="kick">Sources &amp; further reading</div>
+      {srcs}
+    </div>
+    <div class="art-brief rv in">
+      <div class="k">The Morning Brief · free</div>
+      <h3>The trade, filed to your inbox before the New York open.</h3>
+      <p>Prices, tenders and the one story that moved the industry overnight — read in ninety seconds.</p>
+      <a class="btn" href="https://caratcapital.beehiiv.com" target="_blank" rel="noopener">Subscribe free →</a>
+    </div>
+    {_v2_next(ed["next"], a["desk"], desk_name)}
+  </div>
+</article>
+{colophon()}
+{SCRIPT}"""
+
 def article_page(a):
+    if a.get("ed"):
+        return article_page_v2(a)
     paras = "".join(f"<p>{p}</p>" for p in a["body"])
     srcs = "".join(f'<a href="{s["url"]}" target="_blank" rel="noopener">{s["title"]} ↗</a>' for s in a.get("sources", []))
     desk_name = DESK_NAMES.get(a["desk"], a["desk"])

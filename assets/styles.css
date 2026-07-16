@@ -539,3 +539,67 @@ html,body{overflow-x:hidden}
   .mast2 .m2-halls{gap:6px}
   .mast2 .m2-halls svg{transform:scale(.9)}
 }
+
+/* ---------------- ARTICLE EDITORIAL v2 ---------------- */
+#artprog{position:fixed;top:0;left:0;height:3px;width:0;background:linear-gradient(90deg,var(--gilt),var(--seal));z-index:90}
+.art-strip,.art-spec{max-width:720px;margin:30px 0 8px;border:1px solid var(--rule);background:var(--paper-hi)}
+.art-strip .cap,.art-spec .cap{font-family:var(--mono);font-size:10px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-2);padding:9px 14px;border-bottom:1px solid var(--rule-soft);background:var(--paper-lo)}
+.art-strip .grid{display:grid;grid-template-columns:repeat(5,1fr)}
+.art-strip .cell{padding:15px 13px 14px;border-right:1px solid var(--rule-soft)}
+.art-strip .cell:last-child{border-right:0}
+.art-strip .fig{font-family:var(--disp);font-weight:700;font-size:24px;line-height:1;letter-spacing:-.02em}
+.art-strip .lab{font-family:var(--mono);font-size:9.5px;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-3);margin-top:8px;line-height:1.45}
+.art-strip .up{color:var(--seal)}.art-strip .dn{color:var(--gilt)}
+.art-spec .row{display:flex;gap:16px;padding:10px 16px;border-bottom:1px solid var(--rule-hair)}
+.art-spec .row:last-child{border-bottom:0}
+.art-spec .l{font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);flex:none;width:36%;padding-top:4px}
+.art-spec .v{font-size:15.5px;color:var(--ink-2)}
+.art-spec .v b{font-family:var(--disp);font-weight:700;color:var(--ink);letter-spacing:-.01em}
+.art-fig{max-width:720px;margin:36px 0}
+.art-fig .frame{border:1px solid var(--rule);background:var(--paper-hi);padding:22px 18px 16px}
+.art-fig svg{display:block;width:100%;height:auto}
+.art-fig figcaption{font-family:var(--mono);font-size:11px;letter-spacing:.04em;color:var(--ink-3);margin-top:11px;line-height:1.5}
+.art-fig figcaption b{color:var(--ink-2);font-weight:600;text-transform:uppercase;letter-spacing:.12em;font-size:10px}
+.art-sub{font-family:var(--disp);font-weight:700;font-size:clamp(21px,2.2vw,26px);line-height:1.12;letter-spacing:-.02em;margin:36px 0 14px;display:flex;gap:12px;align-items:baseline;max-width:720px}
+.art-sub .n{font-family:var(--mono);font-size:11px;font-weight:600;color:var(--gilt);letter-spacing:.1em;flex:none}
+.art-pull{max-width:720px;margin:42px 0;padding:4px 0 4px 24px;border-left:3px solid var(--seal)}
+.art-pull q{font-family:var(--text);font-style:italic;font-weight:400;font-size:clamp(21px,2.4vw,27px);line-height:1.3;letter-spacing:-.01em;color:var(--ink);quotes:none}
+.art-pull .attr{font-family:var(--mono);font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-3);margin-top:12px}
+.art-also{max-width:720px;margin:30px 0;padding:13px 18px;background:var(--paper-hi);border:1px solid var(--rule-soft);display:flex;gap:14px;align-items:baseline}
+.art-also .k{font-family:var(--mono);font-size:9.5px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--seal);flex:none;padding-top:3px}
+.art-also a{font-family:var(--disp);font-weight:600;font-size:16.5px;color:var(--ink);line-height:1.25;letter-spacing:-.01em}
+.art-also a:hover{color:var(--seal)}
+.art-desk{max-width:720px;margin:44px 0 18px;border:1px solid var(--rule);background:var(--paper-hi)}
+.art-desk .lab{font-family:var(--mono);font-size:10.5px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--paper);background:var(--seal);padding:9px 16px;display:flex;justify-content:space-between}
+.art-desk .in{padding:20px 20px 16px}
+.art-desk p{font-size:17px;font-weight:300;line-height:1.7;color:var(--ink-2);margin-bottom:14px}
+.art-desk p:last-child{margin-bottom:0}
+.art-desk .kick2{font-style:italic;color:var(--ink)}
+.art-next{max-width:720px;margin:40px 0 8px}
+.art-next .k{font-family:var(--mono);font-size:10.5px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-2);margin-bottom:16px;padding-bottom:10px;border-bottom:1px solid var(--rule);display:flex;justify-content:space-between}
+.art-next .k a{color:var(--seal)}
+.art-next .leadcard{display:block;color:var(--ink);border:1px solid var(--rule);background:var(--paper-hi);padding:18px 20px;margin-bottom:14px}
+.art-next .leadcard .t{font-family:var(--mono);font-size:9.5px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--seal);margin-bottom:9px}
+.art-next .leadcard h4{font-family:var(--disp);font-weight:700;font-size:22px;line-height:1.08;letter-spacing:-.02em;margin-bottom:8px}
+.art-next .leadcard p{margin:0;color:var(--ink-2);font-size:14.5px;font-weight:300}
+.art-next .leadcard:hover h4{color:var(--seal)}
+.art-next .minis{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.art-next .minis a{color:var(--ink);border-top:2px solid var(--rule);padding-top:10px}
+.art-next .minis .t{font-family:var(--mono);font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3);margin-bottom:6px}
+.art-next .minis h5{font-family:var(--disp);font-weight:600;font-size:15.5px;line-height:1.18;letter-spacing:-.01em;margin:0}
+.art-next .minis a:hover h5{color:var(--seal)}
+@media(max-width:700px){
+  .art-strip .grid{grid-template-columns:1fr 1fr}
+  .art-strip .cell{border-bottom:1px solid var(--rule-hair)}
+  .art-strip .cell:nth-child(2n){border-right:0}
+  .art-next .minis{grid-template-columns:1fr}
+  .art-spec .l{width:42%}
+}
+.art-body p.drop::first-letter{font-family:var(--disp);font-weight:700;font-size:52px;float:left;line-height:.85;padding:5px 10px 0 0;color:var(--seal)}
+.art-desk .in p::first-letter{font:inherit;float:none;padding:0;color:inherit}
+.art-brief{max-width:720px;margin:40px 0;border:1px solid var(--rule);background:var(--carbon);color:var(--paper);padding:26px 22px;text-align:center}
+.art-brief .k{font-family:var(--mono);font-size:10px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--gilt);margin-bottom:11px}
+.art-brief h3{font-family:var(--disp);font-weight:700;font-size:clamp(20px,2.2vw,25px);letter-spacing:-.02em;margin:0 0 9px;line-height:1.12}
+.art-brief p{color:rgba(242,237,227,.72);margin:0 auto 18px;max-width:34rem;font-size:14.5px;font-weight:300;font-style:italic}
+.art-brief .btn{display:inline-block;font-family:var(--mono);font-size:11px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;background:var(--seal);color:var(--paper);padding:12px 24px;transition:background .25s}
+.art-brief .btn:hover{background:var(--seal-deep)}
