@@ -1,10 +1,40 @@
 {
- "updated": "15 Jul 2026",
+ "updated": "16 Jul 2026",
  "intro": "Eight weeks of the trade, kept the way a ledger should be kept — dated, sourced, and in one place. New entries are added at the top each week; the quarter's running numbers live in the Almanac below.",
  "weeks": [
   {
    "label": "This week — July 13",
    "entries": [
+    {
+     "d": "watches",
+     "h": "Richemont prints a 20 percent quarter",
+     "t": "Q1 to June 30: group sales €6.3B, +20% constant currency (+17% actual); Americas +27% to €1.7B; direct retail +24%; specialist watchmakers return to growth at +8% to €873M after a -4% FY26.",
+     "s": "WatchPro / Richemont"
+    },
+    {
+     "d": "diamonds",
+     "h": "Vietnam's certificate scandal goes global",
+     "t": "P-Lab ex-director Dang Ngoc Thao among 22 charged over a ring that smuggled 28,000+ diamonds ($10.65M, 141 shipments since 2024) into Vietnam — allegedly swapping GIA inscriptions for P-Lab certificates. PNJ offers free re-certification.",
+     "s": "Tuoi Tre / Bloomberg / SCMP"
+    },
+    {
+     "d": "auctions",
+     "h": "An $8.9 billion auction half",
+     "t": "H1 2026: Christie's $4.5B total (public auctions +71%, 91% sell-through, luxury $539M +15%); Sotheby's $4.4B with a record $826M in private sales (+58%). Younger buyers' average watch spend +60% YoY to $129,000.",
+     "s": "The Art Newspaper"
+    },
+    {
+     "d": "watches",
+     "h": "Cartier leads the pre-owned turn",
+     "t": "June ChronoPulse: Cartier's secondary-market heat builds 3.5× faster than any tracked brand (+5.9% MoM, ~+10% over six months); 10 of 13 brands up in June, all 13 positive over the half; pre-owned Cartier still ~28.1% under retail.",
+     "s": "Chrono24 / WatchPro"
+    },
+    {
+     "d": "gemstones",
+     "h": "Pomellato's Stile Libero tape",
+     "t": "65-piece high jewelry collection: Mandala Chromia necklace with 99 fancy-cut sapphires (~45ct), Drops of Paraíba choker (21 pear Paraíbas, 20.15ct), Ipnotica earrings with 540 diamonds, openwork with gold-lace artisan Sara Bran.",
+     "s": "National Jeweler"
+    },
     {
      "d": "diamonds",
      "h": "Karowe's tenth thousand-carat stone",
@@ -65,7 +95,6 @@
      "t": "Arena Club launches mystery 'Time Boxes' (published odds, 90% instant buy-back; Rolex, Patek, AP, Cartier) while The Heritage Club adds AI photo-to-offer valuations with 30–60-day repurchase in the UAE.",
      "s": "WatchPro"
     },
-    
     {
      "d": "diamonds",
      "h": "De Beers cuts the book — and pauses Venetia for two years",
