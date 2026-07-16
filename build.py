@@ -772,12 +772,28 @@ def article_page(a):
 def index_page():
     LEAD = lead_article()
     lead_href = f"a-{LEAD['slug']}.html" if LEAD else "#"
-    dex_rows = [(f"a-{a['slug']}.html", a["title"], f"{DESK_NAMES.get(a['desk'],'')} · {a['minutes']} min") for a in ARTICLES if not a.get("lead")]
-    dex = "".join(f"""<a class="story" href="{href}"><div class="n">{i+2:02d}</div><div><h3>{t}</h3><div class="m">{m}</div></div></a>""" for i,(href,t,m) in enumerate(dex_rows[:5]))
-    ledger = "".join(f"""<a class="rowd" href="{d['slug']}.html">
-      <div class="no">D—{d['no']}</div><h3>{d['title']}</h3>
-      <div class="desc">{d['glossary'][0][2][:0]}{d['dek'].split('. ')[1][:140] if '. ' in d['dek'] else d['dek'][:140]}…</div>
-      <div class="freq">{d['tag']}</div><div class="go">-&gt;</div></a>""" for d in DESKS)
+    latest_date = max(a["date"] for a in ARTICLES)
+    # price rail (compact tape)
+    chips = ""
+    for t in WIRE.get("tape", [])[:5]:
+        chips += f"""<a class="chip" href="almanac.html"><span class="nm">{t['name']}</span><span class="px">{t['px']}</span><span class="d {t['dir']}">{t['chg']}</span></a>"""
+    # desk navigator: latest story per desk + count
+    cards = ""
+    for d in DESKS:
+        da = [a for a in ARTICLES if a.get("desk") == d["slug"]]
+        top = da[0] if da else None
+        fresh = '<span class="new">NEW TODAY</span>' if top and top["date"] == latest_date else (f'<span class="dt">{top["date"]}</span>' if top else "")
+        cards += f"""<a class="dcard rv" href="{d['slug']}.html">
+      <div class="row1"><span class="no">D—{d['no']}</span><span class="ct">{len(da)} stories</span></div>
+      <h3>{d['title']}</h3>
+      <div class="tagl">{d['tag']}</div>
+      <div class="latest">{fresh}<span class="lt">{top['title'] if top else ''}</span></div>
+      <div class="go">Open the desk →</div>
+    </a>"""
+    # today's edition: 4 newest non-lead headlines
+    rows = ""
+    for i, a in enumerate([a for a in ARTICLES if not a.get("lead")][:4], 2):
+        rows += f"""<a class="trow" href="a-{a['slug']}.html"><span class="n">{i:02d}</span><span class="t">{a['title']}</span><span class="m">{DESK_NAMES.get(a['desk'],'')} · {a['minutes']} min</span></a>"""
     return f"""{head("CARAT CAPITAL — The Trade Paper of the Jewelry World",
       "Carat Capital is the trade paper of the global jewelry industry. Prices, intelligence and reporting from every desk of the stone trade.")}
 <div class="mast2"><div class="wrap"><div class="m2-grid">
@@ -808,100 +824,43 @@ def index_page():
 {navbar()}
 {omenu()}
 {wire_block()}
-{tape_block()}
-<section class="front" id="front">
-  <div class="wrap"><div class="front-grid">
+<section class="heroF" id="front">
+  <div class="wrap"><div class="hf-grid">
     <article class="rv">
       <div class="kick">{LEAD['kicker'] if LEAD else 'Lead Story'}</div>
       <h2 class="lead-h"><a href="{lead_href}">{LEAD['title'] if LEAD else ''}</a></h2>
       <p class="lead-dek">{LEAD['dek'] if LEAD else ''}</p>
-      <div class="byline">By <b>{LEAD['byline'] if LEAD else ''}</b> · Fig. plate I · {LEAD['minutes'] if LEAD else 0} min read</div>
-      <figure class="lead-fig">
-        <svg class="plate" viewBox="0 0 900 430" role="img" aria-label="Engraved plate of a brilliant-cut stone">
-          <rect width="900" height="430" fill="#F8F4EB"/>
-          <g stroke="#16130E" stroke-width=".5" fill="none" opacity=".33">
-            <path d="M0 26 Q225 16 450 26 T900 26"/><path d="M0 44 Q225 34 450 44 T900 44"/><path d="M0 62 Q225 52 450 62 T900 62"/><path d="M0 80 Q225 70 450 80 T900 80"/><path d="M0 98 Q225 88 450 98 T900 98"/><path d="M0 116 Q225 106 450 116 T900 116"/><path d="M0 134 Q225 124 450 134 T900 134"/><path d="M0 152 Q225 142 450 152 T900 152"/>
-          </g>
-          <g stroke="#16130E" stroke-width=".5" fill="none" opacity=".22">
-            <path d="M0 300 Q225 310 450 300 T900 300"/><path d="M0 318 Q225 328 450 318 T900 318"/><path d="M0 336 Q225 346 450 336 T900 336"/><path d="M0 354 Q225 364 450 354 T900 354"/><path d="M0 372 Q225 382 450 372 T900 372"/><path d="M0 390 Q225 400 450 390 T900 390"/><path d="M0 408 Q225 418 450 408 T900 408"/>
-          </g>
-          <line x1="60" y1="282" x2="840" y2="282" stroke="#16130E" stroke-width="1"/>
-          <g stroke="#16130E" fill="none">
-            <path d="M450 60 L590 148 L450 282 L310 148 Z" stroke-width="1.8" stroke-linejoin="round" fill="#F8F4EB"/>
-            <path d="M310 148 H590" stroke-width="1.1"/>
-            <path d="M450 60 L385 148 L450 282 L515 148 Z" stroke-width=".9"/>
-            <path d="M450 60 L340 122 M450 60 L560 122 M310 148 L385 148 M590 148 L515 148" stroke-width=".7"/>
-            <g stroke-width=".45" opacity=".65"><path d="M334 132 L368 92 M346 140 L392 86 M420 70 L364 140"/><path d="M566 132 L532 92 M554 140 L508 86 M480 70 L536 140"/></g>
-            <g stroke-width=".45" opacity=".5"><path d="M330 162 L438 262 M348 178 L430 254 M366 194 L422 246"/><path d="M570 162 L462 262 M552 178 L470 254 M534 194 L478 246"/></g>
-            <path d="M450 60 L450 10" stroke-width=".8" stroke-dasharray="1 4"/>
-            <circle cx="450" cy="148" r="3.4" fill="#BE3319" stroke="none"/>
-          </g>
-          <g font-family="'IBM Plex Mono',monospace" fill="#16130E">
-            <text x="618" y="152" font-size="11" letter-spacing="1.5">GIRDLE — ${WIRE.get("tape",[{}])[0].get("px","—")}/OZ</text>
-            <line x1="594" y1="148" x2="612" y2="148" stroke="#BE3319" stroke-width="1"/>
-            <text x="240" y="70" font-size="11" letter-spacing="1.5" text-anchor="end">CROWN</text>
-            <line x1="248" y1="66" x2="330" y2="90" stroke="#16130E" stroke-width=".6"/>
-            <text x="240" y="240" font-size="11" letter-spacing="1.5" text-anchor="end">PAVILION</text>
-            <line x1="248" y1="236" x2="360" y2="210" stroke="#16130E" stroke-width=".6"/>
-            <text x="60" y="316" font-size="10" letter-spacing="2" fill="#7A7263">FIG. I — THE STONE, RE-CUT BY THE METAL BENEATH IT</text>
-          </g>
-        </svg>
-        <figcaption class="cap"><span>Plate I — Engraving by the Carat Capital graphics desk</span><span>CC/2026/001</span></figcaption>
-      </figure>
+      <div class="byline">By <b>{LEAD['byline'] if LEAD else ''}</b> · {LEAD['minutes'] if LEAD else 0} min read</div>
+      <a class="hf-cta" href="{lead_href}">Read this morning&rsquo;s lead →</a>
     </article>
-    <div class="dex rv rv-d1">
-      <div class="kick">The Index</div>
-      {dex}
-    </div>
-    <aside class="dispatch rv rv-d2">
-      <svg class="stamp" width="30" height="19" viewBox="0 0 32 20" style="color:var(--gilt)"><use href="#hm-maker"/></svg>
-      <div class="kick">The Dispatch · Opinion</div>
-      <h3>A price list you can believe is worth more than a high one.</h3>
-      <p>De Beers spent two years defending a book that traded up to half above reality, and the market routed around it. At the July sight it closed the gap — quieter prices, a smaller club. The lesson reads everywhere: in rough, in retail tickets, in lab-grown tags, the trade pays a premium for honest numbers and discounts everything else.</p>
-      <div class="sig">— The Editor's Desk, No. 003</div>
+    <aside class="pricerail rv rv-d1">
+      <div class="pr-head"><span>The Price Desk</span><span class="live">● {WIRE.get("tape_ts","")}</span></div>
+      {chips}
+      <a class="pr-more" href="almanac.html">Full tape &amp; tables →</a>
     </aside>
   </div></div>
 </section>
-<section class="desks" id="desks">
+<section class="desknav" id="desks">
   <div class="wrap">
-    <div class="sec-mast rv"><h2>Six desks. <em>Pick yours.</em></h2><div class="mono-note">Each desk teaches its whole segment</div></div>
-    <div class="ledger rv">{ledger}</div>
+    <div class="sec-mast rv"><h2>Find <em>your</em> desk.</h2><div class="mono-note">Six industries · one paper · updated daily</div></div>
+    <div class="dn-grid">{cards}</div>
   </div>
 </section>
-<section class="burin"><div class="wrap" style="padding:64px 0 58px">
-  <div class="sec-mast rv"><h2>Behind on the quarter? <em>Two pages fix that.</em></h2><div class="mono-note">Updated weekly</div></div>
-  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:26px;margin-top:26px">
-    <a class="rv" href="the-record.html" style="border:1.5px solid var(--ink);padding:30px 28px;display:block">
-      <div style="font-family:var(--mono);font-size:10px;letter-spacing:.24em;text-transform:uppercase;color:var(--seal)">The Record</div>
-      <div style="font-family:var(--disp);font-weight:700;font-size:clamp(22px,2.4vw,32px);letter-spacing:-.02em;margin:10px 0 8px">Eight weeks of the trade, kept properly</div>
-      <p style="color:var(--ink-2);font-size:14.5px;line-height:1.6">Every story that moved the industry since mid-May — dated, sourced, one page. The fastest way to catch up on the quarter.</p>
-      <div style="font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;margin-top:14px;border-bottom:2px solid var(--seal);display:inline-block;padding-bottom:3px">Read the chronicle →</div>
-    </a>
-    <a class="rv rv-d1" href="almanac.html" style="border:1.5px solid var(--ink);padding:30px 28px;display:block">
-      <div style="font-family:var(--mono);font-size:10px;letter-spacing:.24em;text-transform:uppercase;color:var(--seal)">The Almanac</div>
-      <div style="font-family:var(--disp);font-weight:700;font-size:clamp(22px,2.4vw,32px);letter-spacing:-.02em;margin:10px 0 8px">The quarter in numbers a desk can use</div>
-      <p style="color:var(--ink-2);font-size:14.5px;line-height:1.6">Metals prints, Swiss exports by market, lab-grown price curves, the saleroom league table, the retail scorecard — tabled and sourced.</p>
-      <div style="font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;margin-top:14px;border-bottom:2px solid var(--seal);display:inline-block;padding-bottom:3px">Open the tables →</div>
-    </a>
-  </div>
-</div></section>
-<section class="plateband">
-  <div class="rosette">
-    <svg width="640" height="640" viewBox="0 0 640 640" fill="none" stroke="#96762E" stroke-width=".6">
-      <g transform="translate(320 320)">
-        {"".join(f'<ellipse rx="300" ry="104" transform="rotate({a})"/>' for a in range(0,180,15))}
-        {"".join(f'<ellipse rx="190" ry="60" transform="rotate({a})"/>' for a in range(0,180,22))}
-        <circle r="300" opacity=".5"/><circle r="104" opacity=".5"/>
-      </g>
-    </svg>
-  </div>
+<section class="todayed">
   <div class="wrap">
-    <blockquote class="rv">A diamond crosses <b>six borders</b> before it reaches a ring finger. We follow it across every one.</blockquote>
-    <div class="attr rv rv-d1">Carat Capital · Filed daily from the desk</div>
+    <div class="sec-mast rv"><h2>Also in today&rsquo;s paper<em>.</em></h2><div class="mono-note">{WIRE.get("edition","")}</div></div>
+    <div class="te-list rv">{rows}</div>
+    <div class="te-links rv"><a href="the-record.html">Eight weeks of the trade → The Record</a><a href="almanac.html">The quarter in numbers → The Almanac</a><a href="field-guide.html">New to the trade? → The Field Guide</a></div>
   </div>
 </section>
-
-
+<section class="homebrief">
+  <div class="wrap"><div class="hb-in rv">
+    <div class="k">The Morning Brief · free</div>
+    <h3>The trade, filed to your inbox before the New York open.</h3>
+    <p>Prices, tenders and the one story that moved the industry overnight — read in ninety seconds.</p>
+    <a class="btn" href="https://caratcapital.beehiiv.com" target="_blank" rel="noopener">Subscribe free →</a>
+  </div></div>
+</section>
 {colophon()}
 {SCRIPT}"""
 
