@@ -254,18 +254,8 @@ def head(title, desc, path="", extra=""):
 {DEFS}"""
 
 def folio(right):
-    edition = WIRE.get("edition", "Vol. I — No. 001 · Third Edition")
-    return f"""<div class="wrap"><div class="folio">
-  <div class="ed">{edition}</div>
-  <div class="clocks">
-    <span class="clock">NYC <b data-tz="America/New_York">--:--</b></span>
-    <span class="clock">ANR <b data-tz="Europe/Brussels">--:--</b></span>
-    <span class="clock">BOM <b data-tz="Asia/Kolkata">--:--</b></span>
-    <span class="clock">HKG <b data-tz="Asia/Hong_Kong">--:--</b></span>
-    <span class="clock">GVA <b data-tz="Europe/Zurich">--:--</b></span>
-  </div>
-  <div>{right}</div>
-</div></div>"""
+    return ""
+
 
 def navbar(active=""):
     here = ' class="here"'
@@ -797,31 +787,6 @@ def index_page():
         rows += f"""<a class="trow" href="a-{a['slug']}.html"><span class="n">{i:02d}</span><span class="t">{a['title']}</span><span class="m">{DESK_NAMES.get(a['desk'],'')} · {a['minutes']} min</span></a>"""
     return f"""{head("CARAT CAPITAL — The Trade Paper of the Jewelry World",
       "Carat Capital is the trade paper of the global jewelry industry. Prices, intelligence and reporting from every desk of the stone trade.")}
-<div class="mast2"><div class="wrap"><div class="m2-grid">
-  <div class="m2-side">
-    <span>{WIRE.get("edition","")}</span>
-    <span>{WIRE.get("date_line","")}</span>
-    <span><b>Est. MMXXVI</b> · Independent &amp; free to read</span>
-  </div>
-  <div class="m2-center">
-    <span class="m2-rule l"></span>
-    <div class="m2-halls">
-      <svg width="30" height="19" viewBox="0 0 32 20"><use href="#hm-maker"/></svg>
-      <svg width="25" height="19" viewBox="0 0 26 20"><use href="#hm-fine"/></svg>
-    </div>
-    <a href="index.html" aria-label="Carat Capital"><img class="m2-medal" src="assets/logo-mark.svg" alt="Carat Capital — the minted mark"></a>
-    <div class="m2-halls">
-      <svg width="25" height="19" viewBox="0 0 26 20"><use href="#hm-assay"/></svg>
-      <svg width="19" height="19" viewBox="0 0 20 20"><use href="#hm-date"/></svg>
-    </div>
-    <span class="m2-rule r"></span>
-  </div>
-  <div class="m2-side m2-right">
-    <span class="m2-clock">NYC <b data-tz="America/New_York">--:--</b> · ANR <b data-tz="Europe/Brussels">--:--</b></span>
-    <span class="m2-clock">BOM <b data-tz="Asia/Kolkata">--:--</b> · HKG <b data-tz="Asia/Hong_Kong">--:--</b></span>
-    <span>The trade paper of the jewelry world</span>
-  </div>
-</div></div></div>
 {navbar()}
 {omenu()}
 {wire_block()}

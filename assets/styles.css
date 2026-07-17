@@ -657,3 +657,11 @@ html,body{overflow-x:hidden}
   .heroF .lead-h{font-size:clamp(30px,8.6vw,40px)}
   .hf-cta{display:block;text-align:center}
 }
+/* full-bleed header (owner request 2026-07-17) */
+.navbar .wrap{max-width:none;padding:0 clamp(12px,1.6vw,24px)}
+@media(max-width:560px){
+  .navbar .nav-sub span{font-size:0}
+  .navbar .nav-sub span::before{content:"The Record →";font-size:9.5px;letter-spacing:.08em}
+  .navbar .nav-sub{padding:0 10px;flex:none}
+  .navbar .nav-brand{font-size:14px}
+}
