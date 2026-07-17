@@ -223,6 +223,9 @@ def plate(motif, label, code):
 
 BASE_URL = "https://caratcapital.org"  # swap when the real domain is connected
 
+import hashlib as _hl
+CSS_V = _hl.md5((ROOT / "assets" / "styles.css").read_bytes()).hexdigest()[:8] if (ROOT / "assets" / "styles.css").exists() else "0"
+
 def head(title, desc, path="", extra=""):
     canonical = f"{BASE_URL}/{path}" if path else BASE_URL
     return f"""<!DOCTYPE html>
@@ -246,7 +249,7 @@ def head(title, desc, path="", extra=""):
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="{FONTS}" rel="stylesheet">
-<link rel="stylesheet" href="assets/styles.css">
+<link rel="stylesheet" href="assets/styles.css?v={CSS_V}">
 {extra}
 </head>
 <body>
