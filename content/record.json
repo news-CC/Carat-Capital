@@ -1,10 +1,40 @@
 {
- "updated": "16 Jul 2026",
+ "updated": "17 Jul 2026",
  "intro": "Eight weeks of the trade, kept the way a ledger should be kept — dated, sourced, and in one place. New entries are added at the top each week; the quarter's running numbers live in the Almanac below.",
  "weeks": [
   {
    "label": "This week — July 13",
    "entries": [
+    {
+     "d": "diamonds",
+     "h": "Ekati goes to receivership; Canada's first diamond mine will close",
+     "t": "B.C. court order 14 July at the NWT government's request; PwC receiver; production stops mid-August after an eight-week sale found no buyer. ~340 workers remain (2024: 700 + 542 contractors); C$326M reclamation security shielded; last sale C$27.4M, C$2M short.",
+     "s": "Cabin Radio / Rapaport / CBC"
+    },
+    {
+     "d": "diamonds",
+     "h": "Angola's Endiama bids for all of Anglo's 85% of De Beers",
+     "t": "Confirmed by CEO Ganga Júnior; De Beers carried at $4.9B after $3.5B of impairments, 17 months into Anglo's exit. Botswana (15%) holds the right to match; President Boko calls it a matter of economic sovereignty; ex-De Beers executive groups also bidding.",
+     "s": "Bloomberg / Mining Technology"
+    },
+    {
+     "d": "diamonds",
+     "h": "Lab-grown Q2 wholesale: −13% overall, +1% at one carat",
+     "t": "Edahn Golan's Q2 price list: 2ct rounds −20%, squares −21% (some VVS ranges −25%+), fancies −17%, 1.50–1.99ct −11%; one-carat rounds the only riser at +1%. Rough LGD prices rising — pass-through to polished is the next-quarter question.",
+     "s": "INSTORE / Edahn Golan"
+    },
+    {
+     "d": "gold-metals",
+     "h": "War week on the metals tape",
+     "t": "Fifth straight day of US strikes on Iranian sites with the Strait of Hormuz closed: gold fades from a 4,068.90 open to 4,041.10 Thursday (+21.8% YTD); silver 57.07, −16.8% on the month, +53.1% on the year; platinum 1,634.90.",
+     "s": "Yahoo Finance / Trading Economics"
+    },
+    {
+     "d": "retail-tech",
+     "h": "June US retail: +0.2% to $768.6B, below forecast",
+     "t": "Census advance estimate; tax-refund tailwinds faded, online led category gains. Jewelry's H2 setup: a deliberate consumer, gold's 21.8% YTD climb as the value script.",
+     "s": "Census / Rapaport / AP"
+    },
     {
      "d": "watches",
      "h": "Richemont prints a 20 percent quarter",

@@ -1,0 +1,37 @@
+# Carat Capital
+
+> The trade paper of the jewelry world — original, sourced daily reporting on diamonds, gold and precious metals, colored gemstones, watches, jewelry auctions, and jewelry retail and technology. Published at https://caratcapital.org. All articles are original writing with named, linked sources; prices are dated and indicative.
+
+## The paper
+- [Front page](https://caratcapital.org/): today's edition, the wire, and the live price tape
+- [The Record](https://caratcapital.org/the-record.html): a dated, sourced week-by-week chronicle of the industry
+- [The Almanac](https://caratcapital.org/almanac.html): the quarter's key numbers in sourced tables (metals, exports, prices, auctions, retail)
+- [The Field Guide](https://caratcapital.org/field-guide.html): plain-language introduction to how the jewelry trade works
+- [About & editorial standards](https://caratcapital.org/about.html)
+- [RSS feed](https://caratcapital.org/feed.xml)
+- [Morning Brief newsletter](https://caratcapital.beehiiv.com): free daily email, 06:30 ET
+
+## The six desks
+- [Diamonds](https://caratcapital.org/diamonds.html): the stone that runs on trust
+- [Gold & Metals](https://caratcapital.org/gold-metals.html): the metal beneath every margin
+- [Colored Gemstones](https://caratcapital.org/gemstones.html): supply lines drawn in emerald, ruby and sapphire
+- [Watches](https://caratcapital.org/watches.html): haute horlogerie, priced by the second
+- [Auctions & Estates](https://caratcapital.org/auctions.html): where the trade marks itself to market
+- [Retail & Technology](https://caratcapital.org/retail-tech.html): the counter, rebuilt for the next generation
+
+## Recent articles
+- [Ekati goes dark: Canada's first diamond mine finds no buyer](https://caratcapital.org/a-ekati-goes-dark.html): A British Columbia court has placed the Northwest Territories mine in receivership after an eight-week sale process drew no viable bid. Prod
+- [Angola raises its hand: not a slice of De Beers, all of it](https://caratcapital.org/a-angola-bids-for-the-house.html): State miner Endiama has proposed buying Anglo American's entire 85 percent of De Beers, valued at $4.9 billion after $3.5 billion in write-d
+- [Minus 13, plus one: lab-grown finds its one-carat floor](https://caratcapital.org/a-lab-grown-finds-its-floor.html): Lab-grown wholesale prices fell 13 percent year on year in the second quarter, with two-carat rounds down 20 percent and squares down 21. On
+- [Five days of airstrikes and gold still can't hold $4,050](https://caratcapital.org/a-gold-wears-the-war-premium.html): Gold futures faded from a $4,068.90 open to $4,041 on Thursday as US strikes on Iranian sites entered a fifth day. Silver slipped to $57.07,
+- [Eighteen parts become one: Breitling puts the Chronomat on a diet](https://caratcapital.org/a-chronomat-on-a-diet.html): Breitling's remade Chronomat cuts case thickness from 15.1 to 13.77 millimeters, fuses an 18-component bezel into a single piece, and introd
+- [The Odyssey docks at the jewelry counter, pearls first](https://caratcapital.org/a-odyssey-at-the-counter.html): New York's Roseate has built a collection around Christopher Nolan's Odyssey: Tahitian and akoya pearls, engraved medallions from $275 to $3
+- [Ten years from Kyiv to Wooster Street: Guzema opens in SoHo](https://caratcapital.org/a-guzema-lands-on-wooster.html): Ukrainian fine jeweler Guzema opened its first US boutique on July 15 at 112 Wooster Street, an 1,100-square-foot space by architect Victori
+- [$768.6 billion and a shrug: June retail grows 0.2 percent](https://caratcapital.org/a-june-retail-thin-cushion.html): US retail sales rose 0.2 percent in June to $768.6 billion, below expectations, as tax-refund tailwinds faded and tariff-era caution set in.
+- [Eleven lots, zero premium: Sotheby's quiet monthly experiment](https://caratcapital.org/a-eleven-lots-no-premium.html): The Gem Drop July closed in New York on July 16: eleven white-diamond jewels sold online with no buyer's premium, the sixth monthly installm
+- [Twenty percent: Richemont's quarter calls the luxury turn](https://caratcapital.org/a-richemont-twenty-percent-quarter.html): Sales at the Cartier and Van Cleef & Arpels owner rose 20 percent at constant currency to 6.3 billion euros in the quarter to June 30, with 
+- [28,000 diamonds, one lab: Vietnam's certificate scandal](https://caratcapital.org/a-vietnam-certificate-scandal.html): The former director of P-Lab, the PNJ subsidiary controlling about 70 percent of Vietnam's diamond certification market, is among 22 people 
+- [$8.9 billion half: the auction market buys its way back](https://caratcapital.org/a-trophy-lots-carry-the-half.html): Christie's posted $4.5 billion in first-half sales with public auctions up 71 percent; Sotheby's ran $4.4 billion including a record $826 mi
+- [Four days of airstrikes, one flat tape: gold stalls at $4,045](https://caratcapital.org/a-gold-stalls-on-day-four.html): Wednesday's session gave back a sliver of Tuesday's CPI rally — gold off 0.2 percent near $4,045 after an early run to $4,075, silver down 1
+- [65 pieces of freestyle: Pomellato's Paraíba-and-sapphire argument](https://caratcapital.org/a-pomellato-stile-libero.html): Stile Libero, the Milanese house's new high jewelry collection, runs 65 pieces across three chapters — a 99-sapphire mandala carrying about 
+- [Through the wall, onto the list: the $1 million heist the FBI wants solved](https://caratcapital.org/a-through-the-wall-heist.html): Robbers broke through the wall of a vacant unit next to Tio Jewelers in Cape Coral, Florida, held the manager at gunpoint and emptied the sa

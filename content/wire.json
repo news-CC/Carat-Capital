@@ -1,54 +1,53 @@
 {
- "date_line": "Thursday, July 16, 2026",
- "edition": "Vol. I — No. 006",
+ "date_line": "Friday, July 17, 2026",
+ "edition": "Vol. I — No. 007",
  "items": [
   {
-   "b": "RICHEMONT €6.3B ▲20%",
-   "t": " — the Cartier owner's quarter to June 30; Americas +27%, the watch division back to growth at +8%"
+   "b": "EKATI GOES DARK",
+   "t": " — Canada's first diamond mine enters receivership; production stops mid-August, ~340 jobs wind down, C$326M cleanup fund shielded"
   },
   {
-   "b": "VIETNAM / P-LAB",
-   "t": " — 22 charged in a $10.65M smuggling ring; PNJ's ex-lab chief accused of re-papering smuggled stones with the lab's own certificates"
+   "b": "ANGOLA BIDS FOR DE BEERS",
+   "t": " — Endiama tables an offer for Anglo American's full 85%, valued at $4.9B after write-downs; Botswana holds the right to match"
   },
   {
-   "b": "CHRISTIE'S $4.5B · SOTHEBY'S $4.4B",
-   "t": " — first-half sales; public auctions +71%, private sales a record $826M, younger buyers' watch spend +60% to $129,000"
+   "b": "GOLD 4,041 ▼",
+   "t": " — the CPI pop fades on day five of US strikes on Iranian sites; silver slips to 57.07, platinum eases to 1,634.90"
   },
   {
-   "b": "GOLD 4,045 ▼0.2%",
-   "t": " — the CPI rally pauses on day four of US airstrikes on Iranian sites; silver eases to 57.61"
+   "b": "LAB-GROWN Q2",
+   "t": " — wholesale prices −13% y/y but one-carat rounds rise 1%, the category's only gainer, per Edahn Golan's price list"
   },
   {
-   "b": "CARTIER",
-   "t": " — pre-owned heat builds 3.5× faster than any tracked brand in June per Chrono24; all 13 brands now positive over six months"
+   "b": "BREITLING",
+   "t": " — the Chronomat slims to 13.77mm with a one-piece bezel and new 78-hour B31 calibre from £5,250; Watches & Wonders debut set for 2027"
   },
   {
-   "b": "POMELLATO",
-   "t": " — Stile Libero lands: 65 pieces, a 99-sapphire mandala, 20.15 carats of pear Paraíbas on one choker"
+   "b": "GUZEMA",
+   "t": " — the Kyiv-founded jeweler opens its first US boutique at 112 Wooster Street, SoHo, in its tenth-anniversary year"
   },
   {
-   "b": "FBI",
-   "t": " — the Cape Coral through-the-wall suspect joins the wanted list; three co-defendants in custody over the $1M Tio Jewelers heist"
+   "b": "US RETAIL +0.2%",
+   "t": " — June sales reach $768.6B, below forecast, as tax-refund tailwinds fade and tariff caution sets in"
   },
   {
-   "b": "FOUNDRAE",
-   "t": " — the New York symbol-jewelry house opens its first store abroad on Mount Street, Mayfair"
+   "b": "THE ODYSSEY",
+   "t": " — Nolan's epic reaches the counter: Roseate's pearl medallions from $275 land at Nordstrom; intaglio revival builds"
   },
   {
    "b": "SOTHEBY'S GEM DROP",
-   "t": " — the no-buyer's-premium online sale closes today, July 16"
+   "t": " — the no-buyer's-premium monthly closes its sixth edition in New York: eleven white-diamond lots, hammer price is the price"
   }
  ],
- "tape_ts": "15 Jul 2026, 11:18 a.m. N.Y.",
+ "tape_ts": "16 Jul 2026, N.Y.",
  "tape": [
   {
    "name": "Gold / oz",
    "code": "XAU",
-   "px": "4,044.70",
-   "chg": "▼ -0.2% (day)",
+   "px": "4,041.10",
+   "chg": "▼ -0.3% (day)",
    "dir": "down",
    "pts": [
-    8,
     9,
     12,
     15,
@@ -56,7 +55,8 @@
     14,
     17,
     16,
-    15
+    15,
+    14
    ]
   },
   {
@@ -67,11 +67,11 @@
    "dir": "down",
    "pts": [
     14,
-    14,
     15,
     15,
     16,
     16,
+    15,
     15
    ]
   },
@@ -82,45 +82,45 @@
    "chg": "▲ +1.0% (Q2)",
    "dir": "up",
    "pts": [
-    20,
     19,
     18,
     17,
     16,
     15,
+    13,
     13
    ]
   },
   {
    "name": "Platinum / oz",
    "code": "XPT",
-   "px": "1,631.00",
-   "chg": "▲ +0.3% (day)",
-   "dir": "up",
+   "px": "1,634.90",
+   "chg": "▼ -0.7% (day)",
+   "dir": "down",
    "pts": [
-    4,
     7,
     10,
     14,
     17,
     19,
+    20,
     18
    ]
   },
   {
    "name": "Silver / oz",
    "code": "XAG",
-   "px": "57.61",
-   "chg": "▼ -1.7% (day)",
+   "px": "57.07",
+   "chg": "▼ -0.6% (day)",
    "dir": "down",
    "pts": [
-    6,
     7,
     10,
     13,
     16,
     15,
-    14
+    14,
+    13
    ]
   }
  ]

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://caratcapital.org/sitemap.xml

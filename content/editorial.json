@@ -5500,5 +5500,1045 @@
     }
    ]
   }
+ },
+ "ekati-goes-dark": {
+  "spec": {
+   "cap": "The wind-down · as ordered",
+   "rows": [
+    {
+     "l": "Order",
+     "v": "Receivership · <b>14 July 2026</b> · B.C. court"
+    },
+    {
+     "l": "Receiver",
+     "v": "PricewaterhouseCoopers"
+    },
+    {
+     "l": "Production ends",
+     "v": "Mid-August, then a five-week wind-down"
+    },
+    {
+     "l": "Workforce",
+     "v": "<b>~340</b> now · 700 + 542 contractors in 2024"
+    },
+    {
+     "l": "Cash, 10 July",
+     "v": "C$14M — days from empty"
+    },
+    {
+     "l": "Cleanup security",
+     "v": "C$326M, shielded from creditors"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Ekati's final ledger · C$ millions",
+    "rows": [
+     {
+      "l": "RECLAMATION SECURITY",
+      "v": 326,
+      "d": "326",
+      "hi": true
+     },
+     {
+      "l": "FEDERAL LOANS EXTENDED",
+      "v": 185,
+      "d": "185"
+     },
+     {
+      "l": "MAY FACILITY, NEVER DRAWN",
+      "v": 50,
+      "d": "50"
+     },
+     {
+      "l": "LAST DIAMOND SALE",
+      "v": 27.4,
+      "d": "27.4"
+     },
+     {
+      "l": "CASH ON HAND, 10 JULY",
+      "v": 14,
+      "d": "14"
+     }
+    ],
+    "note": "Only the reclamation money is protected from creditor claims",
+    "cap": "What was left when the door closed: the mine's last balances. Carat Capital graphics desk. &nbsp;CC/2026/045"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "No buyer came, so the court did.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1,
+    "split": "By July 10 the mine held"
+   },
+   {
+    "sub": "Three hundred and forty people, last in line.",
+    "n": "§2"
+   },
+   {
+    "p": 2,
+    "split": "One protection did survive"
+   },
+   {
+    "pull": {
+     "q": "When the money and the bidders both failed to appear, receivership was the only door left.",
+     "attr": "The Mines Desk"
+    }
+   },
+   {
+    "sub": "The safest supply just got a closing date.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "p": 4
+   },
+   {
+    "also": {
+     "t": "Venetia's two-year pause: De Beers idles a giant",
+     "href": "a-venetia-two-year-pause.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "When the turn finally comes"
+  },
+  "next": {
+   "lead": {
+    "slug": "lucara-tenth-thousand-carat",
+    "tag": "Diamonds",
+    "blurb": "The other side of supply: Karowe keeps producing thousand-carat giants."
+   },
+   "minis": [
+    {
+     "slug": "venetia-two-year-pause",
+     "tag": "Diamonds"
+    },
+    {
+     "slug": "guyana-diggers-choose-gold",
+     "tag": "Diamonds"
+    }
+   ]
+  }
+ },
+ "angola-bids-for-the-house": {
+  "spec": {
+   "cap": "The bid · as tabled",
+   "rows": [
+    {
+     "l": "Bidder",
+     "v": "Endiama — Angola's state diamond company"
+    },
+    {
+     "l": "Target",
+     "v": "Anglo American's <b>85%</b> of De Beers"
+    },
+    {
+     "l": "Carrying value",
+     "v": "<b>$4.9B</b> after $3.5B in write-downs"
+    },
+    {
+     "l": "The incumbent",
+     "v": "Botswana — 15%, with the right to match"
+    },
+    {
+     "l": "Process",
+     "v": "17 months since Anglo began its exit"
+    },
+    {
+     "l": "Also circling",
+     "v": "Groups led by former De Beers executives"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Who holds De Beers · percent",
+    "rows": [
+     {
+      "l": "ANGLO AMERICAN — FOR SALE",
+      "v": 85,
+      "d": "85%",
+      "hi": true
+     },
+     {
+      "l": "BOTSWANA",
+      "v": 15,
+      "d": "15%"
+     }
+    ],
+    "note": "Endiama has bid for the entire 85% block",
+    "cap": "The whole table is in play for the first time in 138 years. Carat Capital graphics desk. &nbsp;CC/2026/046"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "The bid moved from a slice to the whole.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "sub": "Two years of write-downs put control in reach.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "pull": {
+     "q": "Angola has stopped asking for a seat at the table and started bidding for the table itself.",
+     "attr": "The Policy Desk"
+    }
+   },
+   {
+    "sub": "Botswana holds the veto card.",
+    "n": "§3"
+   },
+   {
+    "p": 2
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "De Beers cuts the book: the July sight that blinked first",
+     "href": "a-de-beers-cuts-the-book.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "Watch whether Luanda and Gaborone merge their bids"
+  },
+  "next": {
+   "lead": {
+    "slug": "de-beers-cuts-the-book",
+    "tag": "Diamonds",
+    "blurb": "How the seller got here: De Beers trims supply to defend the price."
+   },
+   "minis": [
+    {
+     "slug": "mehul-shah-takes-the-gavel",
+     "tag": "Diamonds"
+    },
+    {
+     "slug": "dubai-41-billion-year",
+     "tag": "Diamonds"
+    }
+   ]
+  }
+ },
+ "lab-grown-finds-its-floor": {
+  "strip": {
+   "cap": "By the numbers · Q2 2026 lab-grown wholesale, year on year",
+   "cells": [
+    {
+     "fig": "−13%",
+     "dir": "dn",
+     "lab": "the category, overall"
+    },
+    {
+     "fig": "−21%",
+     "dir": "dn",
+     "lab": "square shapes"
+    },
+    {
+     "fig": "−20%",
+     "dir": "dn",
+     "lab": "two-carat rounds"
+    },
+    {
+     "fig": "−17%",
+     "dir": "dn",
+     "lab": "fancy shapes, average"
+    },
+    {
+     "fig": "+1%",
+     "delta": "▲ the only riser",
+     "dir": "up",
+     "lab": "one-carat rounds"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Q2 wholesale price change · percent, y/y",
+    "rows": [
+     {
+      "l": "SQUARE SHAPES",
+      "v": 21,
+      "d": "−21"
+     },
+     {
+      "l": "2 CT ROUNDS",
+      "v": 20,
+      "d": "−20"
+     },
+     {
+      "l": "FANCY SHAPES",
+      "v": 17,
+      "d": "−17"
+     },
+     {
+      "l": "1.50–1.99 CT",
+      "v": 11,
+      "d": "−11"
+     },
+     {
+      "l": "1 CT ROUNDS",
+      "v": 1,
+      "d": "+1",
+      "hi": true
+     }
+    ],
+    "note": "Bar length shows magnitude; every category fell except one",
+    "cap": "The crash, sorted: the engagement-ring size is the lone survivor. Carat Capital graphics desk. &nbsp;CC/2026/047"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "The crash kept crashing, except where it mattered.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "sub": "Margins fell where they were fattest.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "When a price has been cut to the bone, the first sign of health is not a rally; it is that the cutting stops.",
+     "attr": "The Grown Desk"
+    }
+   },
+   {
+    "sub": "Rising rough asks a question retail must answer.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "96 percent down, and firming: the strange bottom of the lab-grown market",
+     "href": "a-lab-grown-96-down-and-firming.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "The number to watch is not either price alone"
+  },
+  "next": {
+   "lead": {
+    "slug": "lab-grown-96-down-and-firming",
+    "tag": "Diamonds",
+    "blurb": "The longer arc: how far grown prices fell before they found buyers."
+   },
+   "minis": [
+    {
+     "slug": "power-diamond-triples",
+     "tag": "Retail & Tech"
+    },
+    {
+     "slug": "who-buys-diamonds-now",
+     "tag": "Diamonds"
+    }
+   ]
+  }
+ },
+ "gold-wears-the-war-premium": {
+  "strip": {
+   "cap": "By the numbers · Thursday's tape, 16 July",
+   "cells": [
+    {
+     "fig": "$4,041.10",
+     "delta": "▼ from a 4,068.90 open",
+     "dir": "dn",
+     "lab": "gold futures, 8 a.m. N.Y."
+    },
+    {
+     "fig": "+21.8%",
+     "dir": "up",
+     "lab": "gold, year to date"
+    },
+    {
+     "fig": "$57.07",
+     "delta": "▼ −16.8% on the month",
+     "dir": "dn",
+     "lab": "silver, Thursday morning"
+    },
+    {
+     "fig": "$1,634.90",
+     "delta": "▼ −0.7% (day)",
+     "dir": "dn",
+     "lab": "platinum close"
+    },
+    {
+     "fig": "5",
+     "lab": "days of US strikes on Iran"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Platinum, three sessions · US$/oz",
+    "rows": [
+     {
+      "l": "14 JULY",
+      "v": 1630.65,
+      "d": "1,630.65"
+     },
+     {
+      "l": "15 JULY",
+      "v": 1646.1,
+      "d": "1,646.10"
+     },
+     {
+      "l": "16 JULY",
+      "v": 1634.9,
+      "d": "1,634.90",
+      "hi": true
+     }
+    ],
+    "note": "Gold faded from a 4,068.90 open to 4,041.10 through Thursday morning",
+    "cap": "The quiet metal holds its band while gold fights for $4,050. Carat Capital graphics desk. &nbsp;CC/2026/048"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "The war bid pays a rates tax.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "pull": {
+     "q": "The war premium is real; it is simply being taxed.",
+     "attr": "The Bullion Desk"
+    }
+   },
+   {
+    "p": 1,
+    "split": "Thursday took half of it back"
+   },
+   {
+    "sub": "Silver's month erased, its year intact.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "sub": "The bench plans around the tape now.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Gold stalls on day four: the rally meets the airstrikes",
+     "href": "a-gold-stalls-on-day-four.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "Reprice weekly, hedge the book"
+  },
+  "next": {
+   "lead": {
+    "slug": "gold-stalls-on-day-four",
+    "tag": "Gold & Metals",
+    "blurb": "How the week began: the CPI rally runs into the fourth day of strikes."
+   },
+   "minis": [
+    {
+     "slug": "palladium-steals-the-close",
+     "tag": "Gold & Metals"
+    },
+    {
+     "slug": "silver-air-pocket",
+     "tag": "Gold & Metals"
+    }
+   ]
+  }
+ },
+ "chronomat-on-a-diet": {
+  "spec": {
+   "cap": "The redesign · as released",
+   "rows": [
+    {
+     "l": "Case",
+     "v": "<b>13.77 mm</b> — was 15.1"
+    },
+    {
+     "l": "Bezel",
+     "v": "18 components → <b>one</b>"
+    },
+    {
+     "l": "Calibres",
+     "v": "B01 chrono · new B31 (78 h) · Calibre 10"
+    },
+    {
+     "l": "Sizes",
+     "v": "42 · 40 · 36 mm"
+    },
+    {
+     "l": "Prices",
+     "v": "From <b>£5,250</b> · B01 £7,850 · gold to £44,000"
+    },
+    {
+     "l": "Next stage",
+     "v": "Watches & Wonders Geneva, 2027 — a first"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Power reserves · hours",
+    "rows": [
+     {
+      "l": "B31 — NEW",
+      "v": 78,
+      "d": "78",
+      "hi": true
+     },
+     {
+      "l": "B01 CHRONOGRAPH",
+      "v": 70,
+      "d": "70"
+     },
+     {
+      "l": "CALIBRE 10",
+      "v": 42,
+      "d": "42"
+     }
+    ],
+    "note": "All three COSC-certified",
+    "cap": "The new engine outlasts the old flagship by a full workday. Carat Capital graphics desk. &nbsp;CC/2026/049"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "The loud watch learned restraint.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "pull": {
+     "q": "The engineering is more interesting than the slimming.",
+     "attr": "The Movement Desk"
+    }
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "A new engine under a quieter case.",
+    "n": "§2"
+   },
+   {
+    "p": 2,
+    "split": "Chief executive Georges Kern's framing"
+   },
+   {
+    "sub": "Geneva 2027 says the outsider era is over.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Cartier leads the pre-owned turn: June's ChronoPulse reading",
+     "href": "a-cartier-secondhand-heat.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "At £5,250 with a 78-hour manufacture movement"
+  },
+  "next": {
+   "lead": {
+    "slug": "richemont-twenty-percent-quarter",
+    "tag": "Watches",
+    "blurb": "The demand backdrop: a twenty percent quarter calls the luxury turn."
+   },
+   "minis": [
+    {
+     "slug": "cartier-secondhand-heat",
+     "tag": "Watches"
+    },
+    {
+     "slug": "wos-majority-american",
+     "tag": "Watches"
+    }
+   ]
+  }
+ },
+ "odyssey-at-the-counter": {
+  "spec": {
+   "cap": "The collection · as released",
+   "rows": [
+    {
+     "l": "House",
+     "v": "Roseate, New York — Pam Cloud"
+    },
+    {
+     "l": "Muse",
+     "v": "Christopher Nolan's <b>The Odyssey</b>"
+    },
+    {
+     "l": "Materials",
+     "v": "Tahitian · white & blue akoya · mother-of-pearl"
+    },
+    {
+     "l": "Prices",
+     "v": "Medallions <b>$275–$325</b>"
+    },
+    {
+     "l": "Retail",
+     "v": "Roseate.com · select Nordstrom, from 16 July"
+    },
+    {
+     "l": "Causes",
+     "v": "Billion Oyster Project · Water.org · Conservation Intl"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "The price ladder · US$",
+    "rows": [
+     {
+      "l": "LION MEDALLION",
+      "v": 325,
+      "d": "325",
+      "hi": true
+     },
+     {
+      "l": "HEART — PENELOPE",
+      "v": 300,
+      "d": "300"
+     },
+     {
+      "l": "DAGGER — PENELOPE",
+      "v": 275,
+      "d": "275"
+     }
+    ],
+    "note": "TreasureLock engraved medallions and the Strength line",
+    "cap": "An epic priced for the counter, not the vault. Carat Capital graphics desk. &nbsp;CC/2026/050"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "The epic sells what the red carpet cannot.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "sub": "Penelope outsells Odysseus.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "pull": {
+     "q": "The sharpest merchandising sits in the Strength line, built not around the wanderer but around the one who waited.",
+     "attr": "The Color Desk"
+    }
+   },
+   {
+    "sub": "Antiquity is a license nobody owns.",
+    "n": "§3"
+   },
+   {
+    "p": 2
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Pearls run the table: Bonhams' all-natural top ten",
+     "href": "a-pearls-run-the-table.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "Watch the intaglio revival closely"
+  },
+  "next": {
+   "lead": {
+    "slug": "couture-week-goes-monumental",
+    "tag": "Gemstones",
+    "blurb": "The other end of the counter: Paris goes monumental with color."
+   },
+   "minis": [
+    {
+     "slug": "pearls-run-the-table",
+     "tag": "Auctions"
+    },
+    {
+     "slug": "color-takes-the-counter",
+     "tag": "Gemstones"
+    }
+   ]
+  }
+ },
+ "guzema-lands-on-wooster": {
+  "spec": {
+   "cap": "The door · as opened",
+   "rows": [
+    {
+     "l": "Address",
+     "v": "112 Wooster Street, SoHo"
+    },
+    {
+     "l": "Opened",
+     "v": "<b>15 July 2026</b>"
+    },
+    {
+     "l": "Space",
+     "v": "1,100 sq ft — Victoria Yakusha"
+    },
+    {
+     "l": "Founded",
+     "v": "Kyiv, 2016 — Valeriya Guzema"
+    },
+    {
+     "l": "Milestone",
+     "v": "Tenth anniversary · HQ moves to New York"
+    },
+    {
+     "l": "Signatures",
+     "v": "Flats · Orbs"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Guzema's footprint · boutiques",
+    "rows": [
+     {
+      "l": "KYIV AND AROUND",
+      "v": 3,
+      "d": "3"
+     },
+     {
+      "l": "NEW YORK",
+      "v": 1,
+      "d": "1",
+      "hi": true
+     }
+    ],
+    "note": "The first door outside Ukraine, in the brand's tenth year",
+    "cap": "Four doors, two cities at war and peace. Carat Capital graphics desk. &nbsp;CC/2026/051"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "From wartime Kyiv to Wooster Street.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "pull": {
+     "q": "A jewelry house that kept its ateliers working through wartime Kyiv has planted its first flag in America.",
+     "attr": "The Design Desk"
+    }
+   },
+   {
+    "sub": "A gallery, not a counter.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Independents keep choosing doors.",
+    "n": "§3"
+   },
+   {
+    "p": 2
+   },
+   {
+    "also": {
+     "t": "Foundrae takes Mount Street: symbol jewelry goes to Mayfair",
+     "href": "a-foundrae-takes-mount-street.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "The risk is the usual one for quiet design"
+  },
+  "next": {
+   "lead": {
+    "slug": "foundrae-takes-mount-street",
+    "tag": "Retail & Tech",
+    "blurb": "Last week's version of the same conviction: Foundrae lands in Mayfair."
+   },
+   "minis": [
+    {
+     "slug": "gottlieb-changes-her-mind",
+     "tag": "Retail & Tech"
+    },
+    {
+     "slug": "fancy-color-gets-a-tape",
+     "tag": "Retail & Tech"
+    }
+   ]
+  }
+ },
+ "june-retail-thin-cushion": {
+  "strip": {
+   "cap": "By the numbers · June US retail, advance estimate",
+   "cells": [
+    {
+     "fig": "$768.6B",
+     "lab": "retail & food sales"
+    },
+    {
+     "fig": "+0.2%",
+     "delta": "▲ below forecast",
+     "dir": "up",
+     "lab": "vs May"
+    },
+    {
+     "fig": "online",
+     "lab": "led the category gains"
+    },
+    {
+     "fig": "+21.8%",
+     "dir": "up",
+     "lab": "gold YTD — the value script"
+    },
+    {
+     "fig": "Q3",
+     "lab": "where the question moves"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "US retail sales · monthly change, percent",
+    "rows": [
+     {
+      "l": "MARCH",
+      "v": 1.6,
+      "d": "+1.6"
+     },
+     {
+      "l": "APRIL",
+      "v": 0.5,
+      "d": "+0.5"
+     },
+     {
+      "l": "JUNE",
+      "v": 0.2,
+      "d": "+0.2",
+      "hi": true
+     }
+    ],
+    "note": "Census advance estimates; March revised down",
+    "cap": "The spring tailwind spends itself by summer. Carat Capital graphics desk. &nbsp;CC/2026/052"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "The refund tailwind is gone.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "pull": {
+     "q": "The American consumer did not stop in June; she slowed to a walk.",
+     "attr": "The Counter Desk"
+    }
+   },
+   {
+    "sub": "Deliberate is not broke.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Jewelry's script writes itself at $4,000.",
+    "n": "§3"
+   },
+   {
+    "p": 2
+   },
+   {
+    "also": {
+     "t": "Who buys diamonds now? The demand question, answered with data",
+     "href": "a-who-buys-diamonds-now.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "Gold at $4,000 has handed every jeweler"
+  },
+  "next": {
+   "lead": {
+    "slug": "asia-ledger-record-year",
+    "tag": "Retail & Tech",
+    "blurb": "The other consumer: Asia's jewelry ledger keeps setting records."
+   },
+   "minis": [
+    {
+     "slug": "tariff-arithmetic-zero-and-eighteen",
+     "tag": "Retail & Tech"
+    },
+    {
+     "slug": "who-buys-diamonds-now",
+     "tag": "Diamonds"
+    }
+   ]
+  }
+ },
+ "eleven-lots-no-premium": {
+  "strip": {
+   "cap": "By the numbers · The Gem Drop July",
+   "cells": [
+    {
+     "fig": "11",
+     "lab": "lots, all white diamonds"
+    },
+    {
+     "fig": "0%",
+     "lab": "buyer's premium"
+    },
+    {
+     "fig": "6th",
+     "lab": "monthly installment"
+    },
+    {
+     "fig": "$4.4B",
+     "lab": "Sotheby's H1 sales"
+    },
+    {
+     "fig": "$826M",
+     "delta": "▲ a record",
+     "dir": "up",
+     "lab": "H1 private sales"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "The half-year, by house · US$ billions",
+    "rows": [
+     {
+      "l": "CHRISTIE'S",
+      "v": 4.5,
+      "d": "4.5"
+     },
+     {
+      "l": "SOTHEBY'S",
+      "v": 4.4,
+      "d": "4.4",
+      "hi": true
+     }
+    ],
+    "note": "Sotheby's private sales hit a record $826M in H1",
+    "cap": "The giants' rebound funds the appetite to experiment. Carat Capital graphics desk. &nbsp;CC/2026/053"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Zero premium is a product, not a promo.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "pull": {
+     "q": "The hammer price is the price.",
+     "attr": "The Saleroom Desk"
+    }
+   },
+   {
+    "sub": "Monthly cadence borrows retail's clock.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "New buyers shop the sticker.",
+    "n": "§3"
+   },
+   {
+    "p": 2
+   },
+   {
+    "also": {
+     "t": "Trophy lots carry the half: an $8.9 billion auction season",
+     "href": "a-trophy-lots-carry-the-half.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "If the answer is yes"
+  },
+  "next": {
+   "lead": {
+    "slug": "trophy-lots-carry-the-half",
+    "tag": "Auctions",
+    "blurb": "The big-ticket context: records at the top while formats change below."
+   },
+   "minis": [
+    {
+     "slug": "seventy-carats-fifty-grand",
+     "tag": "Auctions"
+    },
+    {
+     "slug": "joopiter-24-million-resume",
+     "tag": "Auctions"
+    }
+   ]
+  }
  }
 }
