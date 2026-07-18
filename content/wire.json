@@ -1,54 +1,57 @@
 {
- "date_line": "Friday, July 17, 2026",
- "edition": "Vol. I — No. 007",
+ "date_line": "Saturday, July 18, 2026",
+ "edition": "Vol. I — No. 008",
  "items": [
   {
-   "b": "EKATI GOES DARK",
-   "t": " — Canada's first diamond mine enters receivership; production stops mid-August, ~340 jobs wind down, C$326M cleanup fund shielded"
+   "b": "PENNY GETS THE NOD",
+   "t": " — Anglo names the Global Diamond Consortium, led by ex-De Beers chief Gareth Penny, preferred bidder for its 85%; Botswana weighs its right to match; close eyed Q4"
   },
   {
-   "b": "ANGOLA BIDS FOR DE BEERS",
-   "t": " — Endiama tables an offer for Anglo American's full 85%, valued at $4.9B after write-downs; Botswana holds the right to match"
+   "b": "GOLD 4,031 ▲",
+   "t": " — the $4,000 line is tested on day six of the Iran strikes and defended by the close, +1.2%; silver 56.63, platinum sheds 25.10 to 1,604.50"
   },
   {
-   "b": "GOLD 4,041 ▼",
-   "t": " — the CPI pop fades on day five of US strikes on Iranian sites; silver slips to 57.07, platinum eases to 1,634.90"
+   "b": "ZERO DUTY",
+   "t": " — the India–UK pact takes force; first duty-free gold, silver and diamond jewelry consignments ship within a day; UK scraps 96.8% of tariff lines"
   },
   {
-   "b": "LAB-GROWN Q2",
-   "t": " — wholesale prices −13% y/y but one-carat rounds rise 1%, the category's only gainer, per Edahn Golan's price list"
+   "b": "ROLEX CPO",
+   "t": " — the official pre-owned premium narrows to a 22.6% median over the open market; Q2 program sales $186M across 157 of 712 retailers"
   },
   {
-   "b": "BREITLING",
-   "t": " — the Chronomat slims to 13.77mm with a one-piece bezel and new 78-hour B31 calibre from £5,250; Watches & Wonders debut set for 2027"
+   "b": "SOTHEBY'S 90%",
+   "t": " — watch sell-through hits 90% as H1 sales run +64%; 45% of lots beat high estimates; the million-dollar shelf already near last year's full count"
   },
   {
-   "b": "GUZEMA",
-   "t": " — the Kyiv-founded jeweler opens its first US boutique at 112 Wooster Street, SoHo, in its tenth-anniversary year"
+   "b": "CHINA 4.3%",
+   "t": " — Q2 growth undershoots Beijing's own floor; Swiss exports to the mainland fell 12.1% in 2025 and a third over two years"
   },
   {
-   "b": "US RETAIL +0.2%",
-   "t": " — June sales reach $768.6B, below forecast, as tax-refund tailwinds fade and tariff caution sets in"
+   "b": "ONE CARAT",
+   "t": " — Rapaport: demand picking up, supply falling, prices unchanged; long cushions carry a 20–25% premium over squares; Belgium H1 exports +18%"
   },
   {
-   "b": "THE ODYSSEY",
-   "t": " — Nolan's epic reaches the counter: Roseate's pearl medallions from $275 land at Nordstrom; intaglio revival builds"
+   "b": "£5 RING",
+   "t": " — a car-boot find appraises at £15,000 in Oxfordshire: a 3.02ct natural diamond in 18k gold, bought as costume"
   },
   {
-   "b": "SOTHEBY'S GEM DROP",
-   "t": " — the no-buyer's-premium monthly closes its sixth edition in New York: eleven white-diamond lots, hammer price is the price"
+   "b": "RICHLINE",
+   "t": " — Berkshire's jewelry arm promotes Arien Gessner to chief revenue officer, Moss Makhoulian to senior vice president"
+  },
+  {
+   "b": "ALROSA",
+   "t": " — the Russian miner claims carbon-neutral certification for its operations for a second consecutive year"
   }
  ],
- "tape_ts": "16 Jul 2026, N.Y.",
+ "tape_ts": "17 Jul 2026, N.Y. close",
  "tape": [
   {
    "name": "Gold / oz",
    "code": "XAU",
-   "px": "4,041.10",
-   "chg": "▼ -0.3% (day)",
-   "dir": "down",
+   "px": "4,031.02",
+   "chg": "▲ +1.2% (day)",
+   "dir": "up",
    "pts": [
-    9,
     12,
     15,
     18,
@@ -56,6 +59,8 @@
     17,
     16,
     15,
+    14,
+    13,
     14
    ]
   },
@@ -64,13 +69,13 @@
    "code": "NAT1",
    "px": "5,232.00",
    "chg": "— unch.",
-   "dir": "down",
+   "dir": "flat",
    "pts": [
-    14,
     15,
     15,
     16,
     16,
+    15,
     15,
     15
    ]
@@ -79,14 +84,14 @@
    "name": "Lab-Grown 1ct",
    "code": "LGD1",
    "px": "727.00",
-   "chg": "▲ +1.0% (Q2)",
-   "dir": "up",
+   "chg": "— unch. (▲ +1.0% Q2)",
+   "dir": "flat",
    "pts": [
-    19,
     18,
     17,
     16,
     15,
+    13,
     13,
     13
    ]
@@ -94,33 +99,33 @@
   {
    "name": "Platinum / oz",
    "code": "XPT",
-   "px": "1,634.90",
-   "chg": "▼ -0.7% (day)",
-   "dir": "down",
+   "px": "1,604.50",
+   "chg": "▼ -1.5% (day)",
+   "dir": "dn",
    "pts": [
-    7,
     10,
     14,
     17,
     19,
     20,
-    18
+    18,
+    16
    ]
   },
   {
    "name": "Silver / oz",
    "code": "XAG",
-   "px": "57.07",
-   "chg": "▼ -0.6% (day)",
-   "dir": "down",
+   "px": "56.63",
+   "chg": "▲ +1.3% (day)",
+   "dir": "up",
    "pts": [
-    7,
     10,
     13,
     16,
     15,
     14,
-    13
+    13,
+    14
    ]
   }
  ]

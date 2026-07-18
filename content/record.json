@@ -1,10 +1,34 @@
 {
- "updated": "17 Jul 2026",
+ "updated": "18 Jul 2026",
  "intro": "Eight weeks of the trade, kept the way a ledger should be kept — dated, sourced, and in one place. New entries are added at the top each week; the quarter's running numbers live in the Almanac below.",
  "weeks": [
   {
    "label": "This week — July 13",
    "entries": [
+    {
+     "d": "diamonds",
+     "h": "Anglo names Penny's Global Diamond Consortium preferred bidder for De Beers",
+     "t": "Announced to Botswana's parliament 17 July by minister Moeti Mohwasa; three shortlisted bidders; consortium plans Angola and Namibia as partners; Botswana (15%) weighs matching rights; close eyed Q4 2026. De Beers carried at $4.9B after $3.5B impairments.",
+     "s": "Rapaport / Bloomberg / Miningmx"
+    },
+    {
+     "d": "retail-tech",
+     "h": "India–UK trade pact enters force; jewelry goes duty-free both ways",
+     "t": "CETA effective 15 July; UK scraps duties on 96.8% of tariff lines (97.7% of trade value); first zero-duty gold, silver and diamond jewelry consignments shipped 16 July. India→UK goods exports $13.44B in FY25–26; 900+ jewelry firms expected to benefit.",
+     "s": "Al Jazeera / AajTak / Outlook Business"
+    },
+    {
+     "d": "watches",
+     "h": "Rolex CPO premium compresses to 22.6% median as program scales",
+     "t": "Morgan Stanley × WatchCharts: launch-era ~40% premium now 22.6% median; Q2 program sales $186M; 157 of 712 retailers enrolled; top-three inventory share down from 63% to 48%; median participating retailer's H1 CPO revenue $899k, from $578k.",
+     "s": "WatchPro / Morgan Stanley–WatchCharts"
+    },
+    {
+     "d": "auctions",
+     "h": "Sotheby's watch sales run 64% ahead at the half; 90% sell-through",
+     "t": "Latest sale: 1,850 bidders from 60 countries; 45% of lots beat high estimates (double y/y); sales at 200%+ of combined low estimates. Recent prints: Paul Newman 6263 $1.14M, Journe Vagabondage II 'Brady' $1.02M, Brette Artisans Rose $512k.",
+     "s": "WatchPro (Geoff Hess interview)"
+    },
     {
      "d": "diamonds",
      "h": "Ekati goes to receivership; Canada's first diamond mine will close",
