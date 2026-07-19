@@ -1,46 +1,46 @@
 {
- "date_line": "Saturday, July 18, 2026",
- "edition": "Vol. I — No. 008",
+ "date_line": "Sunday, July 19, 2026",
+ "edition": "Vol. I — No. 009",
  "items": [
   {
-   "b": "PENNY GETS THE NOD",
-   "t": " — Anglo names the Global Diamond Consortium, led by ex-De Beers chief Gareth Penny, preferred bidder for its 85%; Botswana weighs its right to match; close eyed Q4"
+   "b": "GOLD 3,986 ▼",
+   "t": " — the worst week in six arrives mid-war; December hike odds hit 73% and the haven bid loses to the rate bet"
   },
   {
-   "b": "GOLD 4,031 ▲",
-   "t": " — the $4,000 line is tested on day six of the Iran strikes and defended by the close, +1.2%; silver 56.63, platinum sheds 25.10 to 1,604.50"
+   "b": "RÉSONANCE 022",
+   "t": " — the first F.P. Journe Résonance ever delivered heads to Phillips Geneva in November, est. CHF 0.5–1M after a $23M year for the model"
   },
   {
-   "b": "ZERO DUTY",
-   "t": " — the India–UK pact takes force; first duty-free gold, silver and diamond jewelry consignments ship within a day; UK scraps 96.8% of tariff lines"
+   "b": "AP £105M",
+   "t": " — Audemars Piguet's UK sales jump 29% while operating profit slips 3%; the Manchester AP House lost £738,000 finding its feet"
   },
   {
-   "b": "ROLEX CPO",
-   "t": " — the official pre-owned premium narrows to a 22.6% median over the open market; Q2 program sales $186M across 157 of 712 retailers"
+   "b": "BEZEL 38%",
+   "t": " — nearly two in five Rolexes submitted to the marketplace fail authentication; Omega runs at 13%, Tudor 6%"
   },
   {
-   "b": "SOTHEBY'S 90%",
-   "t": " — watch sell-through hits 90% as H1 sales run +64%; 45% of lots beat high estimates; the million-dollar shelf already near last year's full count"
+   "b": "HAMPTONS $70",
+   "t": " — the jewelry show returns to Southampton July 23–26 with Italian and studio-artist pavilions; VIP preview $200"
   },
   {
-   "b": "CHINA 4.3%",
-   "t": " — Q2 growth undershoots Beijing's own floor; Swiss exports to the mainland fell 12.1% in 2025 and a third over two years"
+   "b": "ICA",
+   "t": " — Brandee Dallow, ex-De Beers and Rio Tinto, takes over as CEO of the colored-stone association's 700 members in 47 countries"
   },
   {
-   "b": "ONE CARAT",
-   "t": " — Rapaport: demand picking up, supply falling, prices unchanged; long cushions carry a 20–25% premium over squares; Belgium H1 exports +18%"
+   "b": "AI VENIX",
+   "t": " — Guess ships a $250, 200-piece watch with an AI-drawn print; WatchPro says it could pass for a Richard Mille across a room"
   },
   {
-   "b": "£5 RING",
-   "t": " — a car-boot find appraises at £15,000 in Oxfordshire: a 3.02ct natural diamond in 18k gold, bought as costume"
+   "b": "PANCIS",
+   "t": " — five decades on 47th Street become a memoir: 'Unveiling Rarities' recounts 1976 to now, including the 1999 robbery"
   },
   {
-   "b": "RICHLINE",
-   "t": " — Berkshire's jewelry arm promotes Arien Gessner to chief revenue officer, Moss Makhoulian to senior vice president"
+   "b": "SILVER 55.20",
+   "t": " — the gold-silver ratio stretches to 72 as rate anxiety hits the white metal hardest; down nearly 15% on the month"
   },
   {
-   "b": "ALROSA",
-   "t": " — the Russian miner claims carbon-neutral certification for its operations for a second consecutive year"
+   "b": "FED JULY 28–29",
+   "t": " — Logan calls publicly for a hike, Jefferson signals openness; the meeting is now the metals trade's main event"
   }
  ],
  "tape_ts": "17 Jul 2026, N.Y. close",
@@ -48,11 +48,10 @@
   {
    "name": "Gold / oz",
    "code": "XAU",
-   "px": "4,031.02",
-   "chg": "▲ +1.2% (day)",
-   "dir": "up",
+   "px": "3,985.80",
+   "chg": "▼ −3.4% (wk)",
+   "dir": "dn",
    "pts": [
-    12,
     15,
     18,
     14,
@@ -61,7 +60,8 @@
     15,
     14,
     13,
-    14
+    14,
+    12
    ]
   },
   {
@@ -72,9 +72,9 @@
    "dir": "flat",
    "pts": [
     15,
+    16,
+    16,
     15,
-    16,
-    16,
     15,
     15,
     15
@@ -84,13 +84,13 @@
    "name": "Lab-Grown 1ct",
    "code": "LGD1",
    "px": "727.00",
-   "chg": "— unch. (▲ +1.0% Q2)",
+   "chg": "— unch.",
    "dir": "flat",
    "pts": [
-    18,
     17,
     16,
     15,
+    13,
     13,
     13,
     13
@@ -99,33 +99,33 @@
   {
    "name": "Platinum / oz",
    "code": "XPT",
-   "px": "1,604.50",
-   "chg": "▼ -1.5% (day)",
+   "px": "1,599.20",
+   "chg": "▼ −1.1% (day)",
    "dir": "dn",
    "pts": [
-    10,
     14,
     17,
     19,
     20,
     18,
-    16
+    16,
+    14
    ]
   },
   {
    "name": "Silver / oz",
    "code": "XAG",
-   "px": "56.63",
-   "chg": "▲ +1.3% (day)",
-   "dir": "up",
+   "px": "55.20",
+   "chg": "▼ −0.6% (day)",
+   "dir": "dn",
    "pts": [
-    10,
     13,
     16,
     15,
     14,
     13,
-    14
+    14,
+    12
    ]
   }
  ]

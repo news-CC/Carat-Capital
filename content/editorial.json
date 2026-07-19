@@ -7599,5 +7599,953 @@
     }
    ]
   }
+ },
+ "war-premium-inverts": {
+  "strip": {
+   "cap": "By the numbers · The week gold sold a war",
+   "cells": [
+    {
+     "fig": "$3,985.80",
+     "delta": "▼ −3.4% wk",
+     "dir": "dn",
+     "lab": "SPOT GOLD, FRI CLOSE"
+    },
+    {
+     "fig": "73%",
+     "delta": "▲ DEC",
+     "dir": "up",
+     "lab": "CME HIKE ODDS"
+    },
+    {
+     "fig": "$55.20",
+     "delta": "▼ −0.6%",
+     "dir": "dn",
+     "lab": "SILVER, FRIDAY"
+    },
+    {
+     "fig": "$1,599",
+     "delta": "▼ −1.1%",
+     "dir": "dn",
+     "lab": "PLATINUM, FRIDAY"
+    },
+    {
+     "fig": "+19.9%",
+     "delta": "▲ 1 YR",
+     "dir": "up",
+     "lab": "GOLD, YEAR ON YEAR"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "The inversion, in percent",
+    "rows": [
+     {
+      "l": "DECEMBER HIKE ODDS, CME",
+      "v": 73,
+      "d": "73",
+      "hi": true
+     },
+     {
+      "l": "GOLD, 1 YEAR",
+      "v": 19.9,
+      "d": "+19.9"
+     },
+     {
+      "l": "SILVER, 1 MONTH",
+      "v": 14.9,
+      "d": "−14.9"
+     },
+     {
+      "l": "GOLD, 1 MONTH",
+      "v": 4.6,
+      "d": "−4.6"
+     },
+     {
+      "l": "GOLD, THIS WEEK",
+      "v": 3.4,
+      "d": "−3.4"
+     }
+    ],
+    "note": "The rate bet now outweighs the war bid",
+    "cap": "The forces on the Friday tape, in percent. Carat Capital graphics desk. &nbsp;CC/2026/063"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "The tape read the missiles and sold.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "pull": {
+     "q": "The war premium has not disappeared; it has inverted.",
+     "attr": "The Metals Desk"
+    }
+   },
+   {
+    "sub": "The bench gets a $100 discount.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "p": 3
+   },
+   {
+    "sub": "The rule didn't die; it flipped.",
+    "n": "§3"
+   },
+   {
+    "p": 4
+   },
+   {
+    "also": {
+     "t": "Gold wears the war premium — the same conflict, priced the other way",
+     "href": "a-gold-wears-the-war-premium.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "Until December's odds break decisively one way"
+  },
+  "next": {
+   "lead": {
+    "slug": "gold-touches-four-thousand",
+    "tag": "Gold & Metals",
+    "blurb": "The day the $4,000 line broke — and who met it there."
+   },
+   "minis": [
+    {
+     "slug": "gold-wears-the-war-premium",
+     "tag": "Gold & Metals"
+    },
+    {
+     "slug": "silver-air-pocket",
+     "tag": "Gold & Metals"
+    }
+   ]
+  }
+ },
+ "ap-105-million-paradox": {
+  "strip": {
+   "cap": "By the numbers · AP in Britain, 2025",
+   "cells": [
+    {
+     "fig": "£105M",
+     "delta": "▲ +29%",
+     "dir": "up",
+     "lab": "UK SALES"
+    },
+    {
+     "fig": "£7.8M",
+     "delta": "▼ −3%",
+     "dir": "dn",
+     "lab": "OPERATING PROFIT"
+    },
+    {
+     "fig": "£738K",
+     "delta": "▼ LOSS",
+     "dir": "dn",
+     "lab": "MANCHESTER HOUSE"
+    },
+    {
+     "fig": "£17.6M",
+     "delta": "▲ FROM £2.8M",
+     "dir": "up",
+     "lab": "PROPERTY & FITTINGS"
+    },
+    {
+     "fig": "FEB '26",
+     "lab": "CLIFTON ST HOUSE OPENS"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "The British ledger · £ millions",
+    "rows": [
+     {
+      "l": "UK SALES, 2025",
+      "v": 105,
+      "d": "105",
+      "hi": true
+     },
+     {
+      "l": "PROPERTY & FITTINGS, 2025",
+      "v": 17.6,
+      "d": "17.6"
+     },
+     {
+      "l": "OPERATING PROFIT",
+      "v": 7.8,
+      "d": "7.8"
+     },
+     {
+      "l": "MANCHESTER HOUSE SALES",
+      "v": 7.4,
+      "d": "7.4"
+     },
+     {
+      "l": "MANCHESTER HOUSE LOSS",
+      "v": 0.74,
+      "d": "0.74"
+     }
+    ],
+    "note": "Sales grew 29%; the cost of selling grew faster",
+    "cap": "Audemars Piguet (UK) Ltd, 2025 accounts via WatchPro. Carat Capital graphics desk. &nbsp;CC/2026/064"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Sales doubled; profit stood still.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "pull": {
+     "q": "Britain's appetite for Royal Oaks has never been stronger, and the business of feeding it has rarely been more expensive.",
+     "attr": "The Watches Desk"
+    }
+   },
+   {
+    "sub": "Six times the fixtures in one year.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "p": 2
+   },
+   {
+    "sub": "Allocation is demand's best alibi.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Richemont's 20% quarter — the other side of the British boom",
+     "href": "a-richemont-twenty-percent-quarter.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "Watch the Manchester line in next year's accounts"
+  },
+  "next": {
+   "lead": {
+    "slug": "crown-premium-shrinks",
+    "tag": "Watches",
+    "blurb": "Rolex's official pre-owned premium compresses to a 22.6% median."
+   },
+   "minis": [
+    {
+     "slug": "richemont-twenty-percent-quarter",
+     "tag": "Watches"
+    },
+    {
+     "slug": "wos-majority-american",
+     "tag": "Watches"
+    }
+   ]
+  }
+ },
+ "serial-022-comes-to-market": {
+  "spec": {
+   "cap": "The lot · as catalogued",
+   "rows": [
+    {
+     "l": "Lot",
+     "v": "F.P. Journe Chronomètre à Résonance · <b>no. 022/99R</b>"
+    },
+    {
+     "l": "Case",
+     "v": "38mm platinum · shiny pink-gold dial"
+    },
+    {
+     "l": "Estimate",
+     "v": "<b>CHF 500,000–1,000,000</b>"
+    },
+    {
+     "l": "Sale",
+     "v": "Phillips Geneva Watch Auction: XXIV · 7–8 Nov"
+    },
+    {
+     "l": "Provenance",
+     "v": "One owner since <b>1999</b> · 27 years"
+    },
+    {
+     "l": "Context",
+     "v": "2026 Résonance sales at Phillips: <b>$23M+</b>"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "The Résonance market · $ millions",
+    "rows": [
+     {
+      "l": "SOUSCRIPTION NO. 007, MAY",
+      "v": 13.9,
+      "d": "13.9",
+      "hi": true
+     },
+     {
+      "l": "THREE HISTORIC LOTS, 2026",
+      "v": 23,
+      "d": "23+"
+     },
+     {
+      "l": "022/99R EST. HIGH (CHF)",
+      "v": 1.0,
+      "d": "1.0"
+     },
+     {
+      "l": "022/99R EST. LOW (CHF)",
+      "v": 0.5,
+      "d": "0.5"
+     }
+    ],
+    "note": "Estimates on early Journes have been formalities this year",
+    "cap": "Résonance results and the new lot's estimate range. Carat Capital graphics desk. &nbsp;CC/2026/065"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Serial numbers are provenance now.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "pull": {
+     "q": "The number on the caseback is the story.",
+     "attr": "The Auctions Desk"
+    }
+   },
+   {
+    "sub": "Twenty-three million reasons this spring.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "sub": "The safes are opening on schedule.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Trophy lots carry the half — the market this watch walks into",
+     "href": "a-trophy-lots-carry-the-half.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "Either answer prices the next dozen consignments"
+  },
+  "next": {
+   "lead": {
+    "slug": "ninety-percent-sold",
+    "tag": "Auctions",
+    "blurb": "Sotheby's watch sell-through hits 90% in a +64% half."
+   },
+   "minis": [
+    {
+     "slug": "trophy-lots-carry-the-half",
+     "tag": "Auctions"
+    },
+    {
+     "slug": "seventy-carats-fifty-grand",
+     "tag": "Auctions"
+    }
+   ]
+  }
+ },
+ "the-thirty-eight-percent-problem": {
+  "strip": {
+   "cap": "By the numbers · The reject pile",
+   "cells": [
+    {
+     "fig": "38%",
+     "delta": "▲ HIGHEST",
+     "dir": "dn",
+     "lab": "ROLEX REJECTION RATE"
+    },
+    {
+     "fig": "13%",
+     "lab": "OMEGA REJECTED"
+    },
+    {
+     "fig": "43%",
+     "dir": "dn",
+     "lab": "OF REFUSED VALUE = ROLEX"
+    },
+    {
+     "fig": "28%",
+     "dir": "up",
+     "lab": "OF BEZEL SALES = ROLEX"
+    },
+    {
+     "fig": "34%",
+     "dir": "up",
+     "lab": "OF WISH LISTS = ROLEX"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Authentication failures by brand · %",
+    "rows": [
+     {
+      "l": "ROLEX",
+      "v": 38,
+      "d": "38",
+      "hi": true
+     },
+     {
+      "l": "OMEGA",
+      "v": 13,
+      "d": "13"
+     },
+     {
+      "l": "TUDOR",
+      "v": 6,
+      "d": "6"
+     },
+     {
+      "l": "CARTIER",
+      "v": 5,
+      "d": "5"
+     },
+     {
+      "l": "PATEK–IWC GROUP",
+      "v": 3,
+      "d": "2–3"
+     }
+    ],
+    "note": "Share of submissions refused by Bezel's authenticators",
+    "cap": "Bezel platform data via WatchPro, July 2026. Carat Capital graphics desk. &nbsp;CC/2026/066"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "The crown draws the forgers first.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Authentication became the product.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "The premium for authenticated channels, once framed as convenience, is starting to look like insurance priced honestly.",
+     "attr": "The Retail Desk"
+    }
+   },
+   {
+    "sub": "Private deals carry the real risk.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "The crown premium shrinks — official pre-owned meets the open market",
+     "href": "a-crown-premium-shrinks.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "The 38% is not a Rolex problem"
+  },
+  "next": {
+   "lead": {
+    "slug": "watch-pawn-goes-algorithmic",
+    "tag": "Retail & Tech",
+    "blurb": "Photo-to-offer AI valuations reach the pawn counter."
+   },
+   "minis": [
+    {
+     "slug": "cartier-secondhand-heat",
+     "tag": "Watches"
+    },
+    {
+     "slug": "crown-premium-shrinks",
+     "tag": "Watches"
+    }
+   ]
+  }
+ },
+ "seventy-dollars-to-southampton": {
+  "spec": {
+   "cap": "The show · at a glance",
+   "rows": [
+    {
+     "l": "Dates",
+     "v": "<b>July 23–26, 2026</b> · second annual"
+    },
+    {
+     "l": "Venue",
+     "v": "Southampton Fairgrounds · 36,000 sq ft"
+    },
+    {
+     "l": "Tickets",
+     "v": "<b>$200</b> VIP preview · <b>$70</b> day pass"
+    },
+    {
+     "l": "New for '26",
+     "v": "Piazza Italia pavilion · Studio Artists Galleria"
+    },
+    {
+     "l": "Curator",
+     "v": "Hilary Joy Diaz · Hamptons Fine Art Fair team"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "The ticket ledger · $",
+    "rows": [
+     {
+      "l": "VIP OPENING PREVIEW, JULY 23",
+      "v": 200,
+      "d": "200",
+      "hi": true
+     },
+     {
+      "l": "DAY PASS, JULY 24–26",
+      "v": 70,
+      "d": "70"
+     }
+    ],
+    "note": "Admission priced as a filter for intent",
+    "cap": "Hamptons Jewelry Show 2026 admission. Carat Capital graphics desk. &nbsp;CC/2026/067"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Price the ticket like the zip code.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "An art fair, not a trade floor.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "It is closer to an art fair than to Vegas — which is precisely the comparison its producers, who run one, intend.",
+     "attr": "The Retail Desk"
+    }
+   },
+   {
+    "sub": "The marginal dollar summers out east.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Guzema lands on Wooster — retail follows the customer, downtown edition",
+     "href": "a-guzema-lands-on-wooster.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "If a curated retail fair can hold margins in the Hamptons for a second summer"
+  },
+  "next": {
+   "lead": {
+    "slug": "foundrae-takes-mount-street",
+    "tag": "Retail & Tech",
+    "blurb": "New York symbolism sets up shop in Mayfair."
+   },
+   "minis": [
+    {
+     "slug": "guzema-lands-on-wooster",
+     "tag": "Retail & Tech"
+    },
+    {
+     "slug": "couture-week-goes-monumental",
+     "tag": "Gemstones"
+    }
+   ]
+  }
+ },
+ "fifty-years-on-forty-seventh": {
+  "spec": {
+   "cap": "The book · on the record",
+   "rows": [
+    {
+     "l": "Title",
+     "v": "<b>'Unveiling Rarities'</b>"
+    },
+    {
+     "l": "Author",
+     "v": "Jeff Pancis · founder, Pancis Gems"
+    },
+    {
+     "l": "District entry",
+     "v": "<b>1976</b> · 47th Street, New York"
+    },
+    {
+     "l": "The wound",
+     "v": "1999 robbery · nearly ended the firm"
+    },
+    {
+     "l": "Formats",
+     "v": "Hardcover · paperback · Kindle"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "A dealer's clock · years",
+    "rows": [
+     {
+      "l": "YEARS IN THE DISTRICT",
+      "v": 50,
+      "d": "≈50",
+      "hi": true
+     },
+     {
+      "l": "YEARS SINCE THE ROBBERY",
+      "v": 27,
+      "d": "27"
+     },
+     {
+      "l": "YEARS BEFORE THE ROBBERY",
+      "v": 23,
+      "d": "23"
+     }
+    ],
+    "note": "1976 to 2026, with one near-ending in the middle",
+    "cap": "The spans behind 'Unveiling Rarities'. Carat Capital graphics desk. &nbsp;CC/2026/068"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "A handshake was the ledger.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "pull": {
+     "q": "What was once vouched for by a family name on 47th Street is increasingly vouched for by a database.",
+     "attr": "The Diamonds Desk"
+    }
+   },
+   {
+    "sub": "The wound every dealer fears.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Memory, just before the database.",
+    "n": "§3"
+   },
+   {
+    "p": 2
+   },
+   {
+    "also": {
+     "t": "Who buys diamonds now? The demand question under every headline",
+     "href": "a-who-buys-diamonds-now.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "the shelf of honest diamond books is short"
+  },
+  "next": {
+   "lead": {
+    "slug": "who-buys-diamonds-now",
+    "tag": "Diamonds",
+    "blurb": "The demand question underneath every headline this year."
+   },
+   "minis": [
+    {
+     "slug": "small-stones-lead-the-turn",
+     "tag": "Diamonds"
+    },
+    {
+     "slug": "mehul-shah-takes-the-gavel",
+     "tag": "Diamonds"
+    }
+   ]
+  }
+ },
+ "color-gets-a-chief": {
+  "spec": {
+   "cap": "The appointment · on the record",
+   "rows": [
+    {
+     "l": "New CEO",
+     "v": "<b>Brandee Dallow</b>"
+    },
+    {
+     "l": "Start",
+     "v": "6 July 2026"
+    },
+    {
+     "l": "Body",
+     "v": "International Colored Gemstone Association · f. 1984"
+    },
+    {
+     "l": "Reach",
+     "v": "<b>≈700 members</b> · 47 countries"
+    },
+    {
+     "l": "Résumé",
+     "v": "De Beers · Rio Tinto · RJC · Grandview Klein"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "The association, counted",
+    "rows": [
+     {
+      "l": "MEMBERS WORLDWIDE",
+      "v": 700,
+      "d": "≈700",
+      "hi": true
+     },
+     {
+      "l": "COUNTRIES REPRESENTED",
+      "v": 47,
+      "d": "47"
+     },
+     {
+      "l": "YEARS SINCE FOUNDING",
+      "v": 42,
+      "d": "42"
+     }
+    ],
+    "note": "A lean body taking on a full-time chief executive",
+    "cap": "ICA by the numbers, July 2026. Carat Capital graphics desk. &nbsp;CC/2026/069"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "A diamond résumé for a color job.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "sub": "Engagement is the stated brief.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "pull": {
+     "q": "That moment is measurable at the counter.",
+     "attr": "The Gemstones Desk"
+    }
+   },
+   {
+    "sub": "Demand outran the infrastructure.",
+    "n": "§3"
+   },
+   {
+    "p": 2
+   },
+   {
+    "also": {
+     "t": "Color takes the counter — the season that made this job matter",
+     "href": "a-color-takes-the-counter.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "The members will judge her on one thing"
+  },
+  "next": {
+   "lead": {
+    "slug": "color-takes-the-counter",
+    "tag": "Gemstones",
+    "blurb": "The season color moved from accent to asset at retail."
+   },
+   "minis": [
+    {
+     "slug": "pomellato-stile-libero",
+     "tag": "Gemstones"
+    },
+    {
+     "slug": "odyssey-at-the-counter",
+     "tag": "Gemstones"
+    }
+   ]
+  }
+ },
+ "guess-lets-the-machine-draw": {
+  "spec": {
+   "cap": "The watch · as shipped",
+   "rows": [
+    {
+     "l": "Watch",
+     "v": "Guess <b>AI Venix</b>"
+    },
+    {
+     "l": "Price",
+     "v": "<b>$250</b> · limited to 200 pieces"
+    },
+    {
+     "l": "Case",
+     "v": "42×45mm tonneau · plastic, AI-printed"
+    },
+    {
+     "l": "Movement",
+     "v": "Quartz · 50m water resistance"
+    },
+    {
+     "l": "Channel",
+     "v": "guesswatches.com only · from 15 July"
+    },
+    {
+     "l": "Licensee",
+     "v": "Sequel · a Timex Group division"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "The price of the drawing",
+    "rows": [
+     {
+      "l": "AI VENIX, $",
+      "v": 250,
+      "d": "250",
+      "hi": true
+     },
+     {
+      "l": "PIECES MADE",
+      "v": 200,
+      "d": "200"
+     },
+     {
+      "l": "WATER RESISTANCE, M",
+      "v": 50,
+      "d": "50"
+     },
+     {
+      "l": "CASE WIDTH, MM",
+      "v": 42,
+      "d": "42"
+     }
+    ],
+    "note": "Six-figure design language at a fashion-watch price",
+    "cap": "Guess AI Venix specification. Carat Capital graphics desk. &nbsp;CC/2026/070"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "The print is the product.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "pull": {
+     "q": "That comparison is the entire product.",
+     "attr": "The Watches Desk"
+    }
+   },
+   {
+    "sub": "A licensing giant runs the test.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Design was the last moat.",
+    "n": "§3"
+   },
+   {
+    "p": 2
+   },
+   {
+    "also": {
+     "t": "Watch pawn goes algorithmic — the machine's other job in watches",
+     "href": "a-watch-pawn-goes-algorithmic.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "The houses will never say they are watching."
+  },
+  "next": {
+   "lead": {
+    "slug": "watch-pawn-goes-algorithmic",
+    "tag": "Retail & Tech",
+    "blurb": "AI photo-to-offer valuations reach the pawn counter."
+   },
+   "minis": [
+    {
+     "slug": "brilliant-earth-100-watches",
+     "tag": "Watches"
+    },
+    {
+     "slug": "cartier-secondhand-heat",
+     "tag": "Watches"
+    }
+   ]
+  }
  }
 }

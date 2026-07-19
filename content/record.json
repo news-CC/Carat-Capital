@@ -1,10 +1,40 @@
 {
- "updated": "18 Jul 2026",
+ "updated": "19 Jul 2026",
  "intro": "Eight weeks of the trade, kept the way a ledger should be kept — dated, sourced, and in one place. New entries are added at the top each week; the quarter's running numbers live in the Almanac below.",
  "weeks": [
   {
    "label": "This week — July 13",
    "entries": [
+    {
+     "d": "gold-metals",
+     "h": "Gold logs its worst week in six — during a war",
+     "t": "Spot closed 17 July at $3,985.80, down ~3.4% on the week as a sixth day of strikes on Iran drove oil to one-month highs and CME December hike odds to 73%; Dallas Fed's Logan called for a hike. Silver $55.20; platinum $1,599; palladium $1,244.",
+     "s": "USAGOLD / CNBC / Yahoo Finance"
+    },
+    {
+     "d": "auctions",
+     "h": "First-ever delivered F.P. Journe Résonance consigned to Phillips Geneva XXIV",
+     "t": "No. 022/99R — 38mm platinum, one owner since 1999, serial chosen to match his birth date — estimated CHF 500,000–1M for 7–8 Nov. Phillips' three historic Résonance sales in 2026 total $23M+, incl. Souscription No. 007 at $13.9M.",
+     "s": "WatchPro"
+    },
+    {
+     "d": "watches",
+     "h": "Audemars Piguet UK: sales +29% to £105M, profit down 3%",
+     "t": "2025 accounts show £7.8M operating profit on £105M sales; Manchester AP House booked £7.4M sales and a £738K loss in year one; UK property and fittings rose from £2.8M to £17.6M. Clifton Street AP House opened Feb 2026.",
+     "s": "WatchPro"
+    },
+    {
+     "d": "retail-tech",
+     "h": "Bezel rejects 38% of submitted Rolexes at authentication",
+     "t": "Counterfeits, Frankenwatches, misdescriptions and stolen goods; Omega 13%, Tudor 6%, Cartier 5%, most others 2–3%. Rejected Rolexes are 43% of refused value; Patek 22%. Rolex is 28% of Bezel sales and 34% of wish lists.",
+     "s": "WatchPro USA"
+    },
+    {
+     "d": "gemstones",
+     "h": "Brandee Dallow starts as ICA chief executive",
+     "t": "Effective 6 July; the 1984-founded International Colored Gemstone Association counts ~700 members in 47 countries. Dallow arrives via De Beers, Rio Tinto Diamonds, RJC, Grandview Klein and the Women's Jewelry Association.",
+     "s": "The Centurion / IDEX"
+    },
     {
      "d": "diamonds",
      "h": "Anglo names Penny's Global Diamond Consortium preferred bidder for De Beers",
