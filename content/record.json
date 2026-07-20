@@ -1,9 +1,44 @@
 {
- "updated": "19 Jul 2026",
+ "updated": "20 Jul 2026",
  "intro": "Eight weeks of the trade, kept the way a ledger should be kept — dated, sourced, and in one place. New entries are added at the top each week; the quarter's running numbers live in the Almanac below.",
  "weeks": [
   {
-   "label": "This week — July 13",
+   "label": "This week — July 20",
+   "entries": [
+    {
+     "d": "gold-metals",
+     "h": "The $4,000 floor survives its third test",
+     "t": "Spot gold closed Friday 17 July at $4,017.30, up $42.10 on the day, after touching $3,959.30 — within five dollars of the triple bottom at $3,964. Monday opened at $4,018.20 with December hike odds near 82%, Brent at $90.40 and the Fed's July 28–29 meeting ahead. Silver led the complex at $56.76, +1.67%.",
+     "s": "Kitco / FX Leaders"
+    },
+    {
+     "d": "diamonds",
+     "h": "India's June exports jump 26.5% — the factory restarts",
+     "t": "Gross gems and jewellery exports reached $2,212.6M in June per GJEPC data: gold jewellery +54.5% to $1,087.7M, cut-and-polished diamonds +8.7% to $846.7M. The quarter stayed flat (+0.04% at $6,612.2M) with polished value −4.1% on volume +8.9% — $681.70 a carat; rough imports −32.4% by value.",
+     "s": "GJEPC / IANS"
+    },
+    {
+     "d": "diamonds",
+     "h": "Botswana keeps all three doors open on the De Beers sale",
+     "t": "Minister Moeti Mohwasa told parliament on 17 July that the state's 15% carries 'complete freedom': partner with Anglo's preferred bidder — the Gareth Penny-led Global Diamond Consortium, with a Qatari fund and Nir Livnat — pre-empt alone, or bid with a third party. Two bidders remain from six; close eyed by Q4.",
+     "s": "Reuters / Mining Weekly"
+    },
+    {
+     "d": "gemstones",
+     "h": "Gemfields prices the ruby middle market at $66.30",
+     "t": "The miner's first 'Trade Select' auction — a broader mix of Mozambique ruby qualities plus debut sapphire categories — sold 348,409 of 374,008 carats (93.2%) for $23.1M, 82 of 89 lots. May's higher-quality emerald sale made $26.8M at $146.08/ct with buyers cautious and the rupee ~10% weaker since September.",
+     "s": "Gemfields / Sharecast"
+    },
+    {
+     "d": "diamonds",
+     "h": "Alrosa certifies 29.8M carats carbon-neutral — for the second year",
+     "t": "TÜV Austria verified the Russian miner's operations and full 2025 production as carbon-neutral: footprint −1.18 kg CO2e per carat (60% better), facilities absorbing 126,000 tonnes more CO2 than emitted, 76% renewable electricity. G7 import restrictions still bar the goods from Western markets.",
+     "s": "Rapaport"
+    }
+   ]
+  },
+  {
+   "label": "Week of July 13",
    "entries": [
     {
      "d": "gold-metals",

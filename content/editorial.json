@@ -8547,5 +8547,968 @@
     }
    ]
   }
+ },
+ "four-thousand-defended": {
+  "strip": {
+   "cap": "By the numbers · The floor goes to trial",
+   "cells": [
+    {
+     "fig": "$4,018.20",
+     "delta": "▲ MON 5:45 ET",
+     "dir": "up",
+     "lab": "GOLD, SPOT"
+    },
+    {
+     "fig": "82%",
+     "delta": "▲ DEC",
+     "dir": "up",
+     "lab": "CME HIKE ODDS"
+    },
+    {
+     "fig": "$3,959.30",
+     "delta": "▼ FRI LOW",
+     "dir": "dn",
+     "lab": "FIVE OFF THE TRIPLE BOTTOM"
+    },
+    {
+     "fig": "$90.40",
+     "delta": "▲ BRENT",
+     "dir": "up",
+     "lab": "OIL, MONDAY"
+    },
+    {
+     "fig": "$56.76",
+     "delta": "▲ +1.67%",
+     "dir": "up",
+     "lab": "SILVER, MONDAY"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "The map around $4,000 · dollars an ounce",
+    "rows": [
+     {
+      "l": "50-PERIOD AVERAGE, RESISTANCE",
+      "v": 4045,
+      "d": "4,045"
+     },
+     {
+      "l": "DESCENDING TRENDLINE",
+      "v": 4025,
+      "d": "4,025"
+     },
+     {
+      "l": "SPOT, MONDAY MORNING",
+      "v": 4018,
+      "d": "4,018",
+      "hi": true
+     },
+     {
+      "l": "TRIPLE BOTTOM, THE FLOOR",
+      "v": 3964,
+      "d": "3,964"
+     },
+     {
+      "l": "NEXT SUPPORT BELOW",
+      "v": 3886,
+      "d": "3,886"
+     }
+    ],
+    "note": "Three hits on the floor, three holds — the fourth comes with a Fed meeting attached",
+    "cap": "The levels the metals trade is watching into July 28–29. Carat Capital graphics desk. &nbsp;CC/2026/071"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "The save at $3,959.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "pull": {
+     "q": "The tug-of-war that produced Friday's whipsaw has not gone anywhere.",
+     "attr": "The Metals Desk"
+    }
+   },
+   {
+    "sub": "Oil argues with the Fed.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "p": 2
+   },
+   {
+    "sub": "Silver does the work.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Down 3.4% in a war week: gold's oldest rule just broke",
+     "href": "a-war-premium-inverts.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "Cost this week's work off $4,000"
+  },
+  "next": {
+   "lead": {
+    "slug": "war-premium-inverts",
+    "tag": "Gold & Metals",
+    "blurb": "The week the haven bid lost to the rate bet, on one tape"
+   },
+   "minis": [
+    {
+     "slug": "silver-air-pocket",
+     "tag": "Gold & Metals"
+    },
+    {
+     "slug": "palladium-steals-the-close",
+     "tag": "Gold & Metals"
+    }
+   ]
+  }
+ },
+ "india-ships-the-turn": {
+  "strip": {
+   "cap": "By the numbers · June, out of India",
+   "cells": [
+    {
+     "fig": "$2.21B",
+     "delta": "▲ +26.5%",
+     "dir": "up",
+     "lab": "GROSS EXPORTS, JUNE"
+    },
+    {
+     "fig": "+54.5%",
+     "delta": "▲ GOLD",
+     "dir": "up",
+     "lab": "GOLD JEWELLERY, Y/Y"
+    },
+    {
+     "fig": "$846.7M",
+     "delta": "▲ +8.7%",
+     "dir": "up",
+     "lab": "POLISHED DIAMONDS"
+    },
+    {
+     "fig": "$681.70",
+     "delta": "▼ MIX",
+     "dir": "dn",
+     "lab": "AVG EXPORT PRICE / CT"
+    },
+    {
+     "fig": "−32.4%",
+     "delta": "▼ Q1",
+     "dir": "dn",
+     "lab": "ROUGH IMPORTS, VALUE"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "June, by category · $ millions",
+    "rows": [
+     {
+      "l": "GOLD JEWELLERY, EXPORTS",
+      "v": 1087.7,
+      "d": "1,087.7",
+      "hi": true
+     },
+     {
+      "l": "POLISHED DIAMONDS, EXPORTS",
+      "v": 846.7,
+      "d": "846.7"
+     },
+     {
+      "l": "ROUGH DIAMONDS, IMPORTS",
+      "v": 700.3,
+      "d": "700.3"
+     }
+    ],
+    "note": "Gold carries the month; polished posts its first clean rise; rough restocking only begins",
+    "cap": "GJEPC June trade data, exports and imports as labelled. Carat Capital graphics desk. &nbsp;CC/2026/072"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "The factory moves again.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "sub": "Gold carries, diamonds turn.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "Surat is still working down inventory rather than restocking on faith.",
+     "attr": "The Rough Desk"
+    }
+   },
+   {
+    "sub": "The quarter keeps it honest.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Small stones lead the turn: the recovery starts at the cheap end",
+     "href": "a-small-stones-lead-the-turn.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "but every diamond recovery in memory"
+  },
+  "next": {
+   "lead": {
+    "slug": "small-stones-lead-the-turn",
+    "tag": "Diamonds",
+    "blurb": "The melee-first recovery this data just confirmed"
+   },
+   "minis": [
+    {
+     "slug": "one-carat-wakes-up",
+     "tag": "Diamonds"
+    },
+    {
+     "slug": "dubai-41-billion-year",
+     "tag": "Diamonds"
+    }
+   ]
+  }
+ },
+ "gaborone-answers-penny": {
+  "spec": {
+   "cap": "The statement · Gaborone, 17 July",
+   "rows": [
+    {
+     "l": "Speaker",
+     "v": "<b>Moeti Mohwasa</b> · minister for state president"
+    },
+    {
+     "l": "The stake",
+     "v": "<b>15%</b> of De Beers · right of first refusal"
+    },
+    {
+     "l": "The options",
+     "v": "partner · pre-empt alone · bring a third party"
+    },
+    {
+     "l": "Preferred bidder",
+     "v": "Global Diamond Consortium · Gareth Penny"
+    },
+    {
+     "l": "Alongside",
+     "v": "Qatari fund · Nir Livnat · Angola, Namibia eyed"
+    },
+    {
+     "l": "Close eyed",
+     "v": "<b>Q4 2026</b> · Botswana approval required"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "What rides on the answer · percent",
+    "rows": [
+     {
+      "l": "ANGLO'S STAKE, FOR SALE",
+      "v": 85,
+      "d": "85"
+     },
+     {
+      "l": "DIAMONDS' SHARE OF BOTSWANA EXPORTS",
+      "v": 80,
+      "d": "~80",
+      "hi": true
+     },
+     {
+      "l": "SHARE OF STATE REVENUE",
+      "v": 33,
+      "d": "~33"
+     },
+     {
+      "l": "BOTSWANA'S STAKE TODAY",
+      "v": 15,
+      "d": "15"
+     }
+    ],
+    "note": "A corporate sale on one line; a national budget on the next",
+    "cap": "The arithmetic beneath the De Beers sale. Carat Capital graphics desk. &nbsp;CC/2026/073"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Gaborone holds the cards.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "pull": {
+     "q": "Nothing, in other words, has been decided except the identity of the party Botswana will be negotiating with — or against.",
+     "attr": "The Policy Desk"
+    }
+   },
+   {
+    "sub": "A reunion at the table.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "sub": "A nation, not a company.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Penny gets the nod: De Beers' old boss becomes its likeliest buyer",
+     "href": "a-penny-gets-the-nod.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "and Gaborone has now said"
+  },
+  "next": {
+   "lead": {
+    "slug": "penny-gets-the-nod",
+    "tag": "Diamonds",
+    "blurb": "How the old boss became the preferred bidder"
+   },
+   "minis": [
+    {
+     "slug": "angola-bids-for-the-house",
+     "tag": "Diamonds"
+    },
+    {
+     "slug": "de-beers-cuts-the-book",
+     "tag": "Diamonds"
+    }
+   ]
+  }
+ },
+ "greenest-stones-locked-out": {
+  "spec": {
+   "cap": "The certificate · as issued",
+   "rows": [
+    {
+     "l": "Certifier",
+     "v": "TÜV Austria Standards & Compliance"
+    },
+    {
+     "l": "Scope",
+     "v": "operations + <b>29.8M carats</b> of 2025 output"
+    },
+    {
+     "l": "Footprint",
+     "v": "<b>−1.18 kg</b> CO2e per carat · 60% better"
+    },
+    {
+     "l": "Net absorption",
+     "v": "126,000 t CO2 · vs 37,000 t in 2024"
+    },
+    {
+     "l": "Electricity",
+     "v": "76% renewable"
+    },
+    {
+     "l": "Locked out of",
+     "v": "G7 markets · import bans since 2024"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Net CO2 absorbed · thousand tonnes",
+    "rows": [
+     {
+      "l": "2024",
+      "v": 37,
+      "d": "37"
+     },
+     {
+      "l": "2025",
+      "v": 126,
+      "d": "126",
+      "hi": true
+     }
+    ],
+    "note": "Kimberlite weathers, gas replaces oil, and the ledger flips further negative",
+    "cap": "Alrosa's stated net carbon absorption, per TÜV Austria verification. Carat Capital graphics desk. &nbsp;CC/2026/074"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "A certificate with an asterisk.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "pull": {
+     "q": "The greenest certificate in diamond mining now belongs to a company half the market is forbidden to buy from.",
+     "attr": "The Mines Desk"
+    }
+   },
+   {
+    "sub": "The engineering is real.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "The audience is selective.",
+    "n": "§3"
+   },
+   {
+    "p": 2
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Vietnam's certificate scandal: who checks the lab that checks the stone?",
+     "href": "a-vietnam-certificate-scandal.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "Alrosa's certificate will not move a single stone"
+  },
+  "next": {
+   "lead": {
+    "slug": "ekati-goes-dark",
+    "tag": "Diamonds",
+    "blurb": "The other end of supply: Canada's first mine goes to reclamation"
+   },
+   "minis": [
+    {
+     "slug": "guyana-diggers-choose-gold",
+     "tag": "Diamonds"
+    },
+    {
+     "slug": "lab-grown-finds-its-floor",
+     "tag": "Diamonds"
+    }
+   ]
+  }
+ },
+ "oris-counts-in-tonnes": {
+  "spec": {
+   "cap": "The Oris ledger · per Studer",
+   "rows": [
+    {
+     "l": "The brand",
+     "v": "Oris · independent, no parent group"
+    },
+    {
+     "l": "The metal",
+     "v": "<b>15 tonnes</b> of steel a year · ten cars' worth"
+    },
+    {
+     "l": "Real footprint",
+     "v": "executive travel + logistics"
+    },
+    {
+     "l": "Packaging",
+     "v": "emissions <b>−50%</b> after redesign"
+    },
+    {
+     "l": "The causes",
+     "v": "oysters · reef · porpoises · firefighting · ALS"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Small numbers, kept honestly",
+    "rows": [
+     {
+      "l": "PACKAGING EMISSIONS CUT, PERCENT",
+      "v": 50,
+      "d": "−50",
+      "hi": true
+     },
+     {
+      "l": "STEEL MILLED A YEAR, TONNES",
+      "v": 15,
+      "d": "15"
+     },
+     {
+      "l": "STUDENTS, BILLION OYSTER PROJECT, THOUSANDS",
+      "v": 15,
+      "d": "15"
+     }
+    ],
+    "note": "The footprint of a watch brand is not where the marketing looks",
+    "cap": "Figures as given in Studer's WatchPro interview. Carat Capital graphics desk. &nbsp;CC/2026/075"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Start with an admission.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "sub": "The unglamorous fixes.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "A brand that discovers the environment only when the topic trends, he suggested, is telling on itself",
+     "attr": "The Movement Desk"
+    }
+   },
+   {
+    "sub": "Consistency needs independence.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Two hundred pieces, $250: Guess lets a machine draw its watch",
+     "href": "a-guess-lets-the-machine-draw.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "Oris's version of virtue"
+  },
+  "next": {
+   "lead": {
+    "slug": "richemont-twenty-percent-quarter",
+    "tag": "Watches",
+    "blurb": "The group-owned counterpoint: scale, and a 20% quarter"
+   },
+   "minis": [
+    {
+     "slug": "chronomat-on-a-diet",
+     "tag": "Watches"
+    },
+    {
+     "slug": "crown-premium-shrinks",
+     "tag": "Watches"
+    }
+   ]
+  }
+ },
+ "richline-splits-the-till": {
+  "spec": {
+   "cap": "The reshuffle · Richline Group",
+   "rows": [
+    {
+     "l": "Owner",
+     "v": "Berkshire Hathaway"
+    },
+    {
+     "l": "Revenue",
+     "v": "<b>Arien Gessner</b> · CRO, 13 years, ex-Rio Grande"
+    },
+    {
+     "l": "Supply chain",
+     "v": "<b>Moss Makhoulian</b> · SVP, 30+ years, Honora, Yurman"
+    },
+    {
+     "l": "His remit",
+     "v": "procurement · DR + China plants · logistics · diamonds"
+    },
+    {
+     "l": "Divisions",
+     "v": "Rio Grande · LeachGarner · Nordt · Silpada"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "The squeeze, in metal · spot, July 20",
+    "rows": [
+     {
+      "l": "GOLD, $/OZ",
+      "v": 4018,
+      "d": "4,018",
+      "hi": true
+     },
+     {
+      "l": "PLATINUM, $/OZ",
+      "v": 1596,
+      "d": "1,596"
+     },
+     {
+      "l": "PALLADIUM, $/OZ",
+      "v": 1248,
+      "d": "1,248"
+     },
+     {
+      "l": "SILVER, $/OZ",
+      "v": 57,
+      "d": "56.76"
+     }
+    ],
+    "note": "The input costs a manufacturer's margin now lives inside",
+    "cap": "Spot prices, Kitco, morning of July 20. Carat Capital graphics desk. &nbsp;CC/2026/076"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "One owner per side.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "sub": "The résumés.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "pull": {
+     "q": "a jewelry manufacturer's margin is decided less at the sales desk than in metal purchasing, factory loading and freight",
+     "attr": "The Retail Desk"
+    }
+   },
+   {
+    "sub": "Why now.",
+    "n": "§3"
+   },
+   {
+    "p": 2
+   },
+   {
+    "also": {
+     "t": "Foundrae takes Mount Street: the American charmed offensive",
+     "href": "a-foundrae-takes-mount-street.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "Richline giving each its own executive"
+  },
+  "next": {
+   "lead": {
+    "slug": "june-retail-thin-cushion",
+    "tag": "Retail & Tech",
+    "blurb": "The demand side of the same squeeze, in June's retail print"
+   },
+   "minis": [
+    {
+     "slug": "guzema-lands-on-wooster",
+     "tag": "Retail & Tech"
+    },
+    {
+     "slug": "tariff-arithmetic-zero-and-eighteen",
+     "tag": "Retail & Tech"
+    }
+   ]
+  }
+ },
+ "only-thirty-percent-havent": {
+  "strip": {
+   "cap": "By the numbers · ONS business survey, UK retail",
+   "cells": [
+    {
+     "fig": "30%",
+     "delta": "▼ ONLY",
+     "dir": "dn",
+     "lab": "HAVEN'T TRIED AI"
+    },
+    {
+     "fig": "46%",
+     "delta": "▲ USERS",
+     "dir": "up",
+     "lab": "RUN IT ON OPERATIONS"
+    },
+    {
+     "fig": "25.4%",
+     "delta": "▲ USERS",
+     "dir": "up",
+     "lab": "PERSONALISATION"
+    },
+    {
+     "fig": "53.6%",
+     "delta": "— FREE",
+     "dir": "flat",
+     "lab": "ADOPTERS ON FREE TOOLS"
+    },
+    {
+     "fig": "10.8%",
+     "delta": "▼ ROLES",
+     "dir": "dn",
+     "lab": "AUTOMATING JOBS"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "What adopters use it for · percent",
+    "rows": [
+     {
+      "l": "IMPROVE OPERATIONS",
+      "v": 46,
+      "d": "46",
+      "hi": true
+     },
+     {
+      "l": "PERSONALISE PRODUCT OR SERVICE",
+      "v": 25.4,
+      "d": "25.4"
+     },
+     {
+      "l": "EXPLORE NEW MARKETS",
+      "v": 15.1,
+      "d": "15.1"
+     },
+     {
+      "l": "DEVELOP NEW PRODUCTS",
+      "v": 12,
+      "d": "12"
+     }
+    ],
+    "note": "The back office first; the counter, so far, last",
+    "cap": "ONS Business Insights data via Professional Jeweller. Carat Capital graphics desk. &nbsp;CC/2026/077"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Behind the counter already.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "sub": "Renting, not building.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "pull": {
+     "q": "Retail, in other words, is renting the technology by the month, not building moats",
+     "attr": "The Data Desk"
+    }
+   },
+   {
+    "p": 2
+   },
+   {
+    "sub": "The handshake question.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Watch pawn goes algorithmic: photo in, offer out",
+     "href": "a-watch-pawn-goes-algorithmic.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "The counter's product was never information"
+  },
+  "next": {
+   "lead": {
+    "slug": "guess-lets-the-machine-draw",
+    "tag": "Retail & Tech",
+    "blurb": "What happens when the machine moves from back office to bench"
+   },
+   "minis": [
+    {
+     "slug": "fancy-color-gets-a-tape",
+     "tag": "Retail & Tech"
+    },
+    {
+     "slug": "power-diamond-triples",
+     "tag": "Retail & Tech"
+    }
+   ]
+  }
+ },
+ "sixty-six-dollars-a-carat": {
+  "strip": {
+   "cap": "By the numbers · Trade Select, first outing",
+   "cells": [
+    {
+     "fig": "$23.1M",
+     "delta": "▲ NEW",
+     "dir": "up",
+     "lab": "AUCTION REVENUE"
+    },
+    {
+     "fig": "$66.30",
+     "delta": "— AVG",
+     "dir": "flat",
+     "lab": "PER CARAT"
+    },
+    {
+     "fig": "93.2%",
+     "delta": "▲ WEIGHT",
+     "dir": "up",
+     "lab": "SOLD BY WEIGHT"
+    },
+    {
+     "fig": "82/89",
+     "delta": "▲ 92.1%",
+     "dir": "up",
+     "lab": "LOTS SOLD"
+    },
+    {
+     "fig": "$146.08",
+     "delta": "▼ CAUTION",
+     "dir": "dn",
+     "lab": "MAY EMERALDS, PER CT"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Gemfields auctions, recent · $ millions",
+    "rows": [
+     {
+      "l": "EMERALDS, JUNE 2023",
+      "v": 43.7,
+      "d": "43.7"
+     },
+     {
+      "l": "EMERALDS, MAY 2024",
+      "v": 35.0,
+      "d": "35.0"
+     },
+     {
+      "l": "EMERALDS, SEPT 2025",
+      "v": 32.0,
+      "d": "32.0"
+     },
+     {
+      "l": "EMERALDS, MAY 2026",
+      "v": 26.8,
+      "d": "26.8"
+     },
+     {
+      "l": "RUBY TRADE SELECT, JUNE 2026",
+      "v": 23.1,
+      "d": "23.1",
+      "hi": true
+     }
+    ],
+    "note": "Mixes vary and totals are not directly comparable — the company's own caveat, worth keeping",
+    "cap": "Reported auction revenues, Gemfields announcements. Carat Capital graphics desk. &nbsp;CC/2026/078"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "A printed price for color.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "pull": {
+     "q": "The colored-stone trade has always envied one thing about diamonds: a printed price.",
+     "attr": "The Color Desk"
+    }
+   },
+   {
+    "sub": "What Trade Select is.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "p": 2
+   },
+   {
+    "sub": "Why the middle, why now.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Color takes the counter: the case for the $1,500 sapphire",
+     "href": "a-color-takes-the-counter.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "If Trade Select holds as a fixture"
+  },
+  "next": {
+   "lead": {
+    "slug": "color-gets-a-chief",
+    "tag": "Gemstones",
+    "blurb": "The association now speaking for the trade this tape prices"
+   },
+   "minis": [
+    {
+     "slug": "odyssey-at-the-counter",
+     "tag": "Gemstones"
+    },
+    {
+     "slug": "couture-week-goes-monumental",
+     "tag": "Gemstones"
+    }
+   ]
+  }
  }
 }

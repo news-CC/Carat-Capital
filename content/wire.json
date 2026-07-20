@@ -1,67 +1,67 @@
 {
- "date_line": "Sunday, July 19, 2026",
- "edition": "Vol. I — No. 009",
+ "date_line": "Monday, July 20, 2026",
+ "edition": "Vol. I — No. 010",
  "items": [
   {
-   "b": "GOLD 3,986 ▼",
-   "t": " — the worst week in six arrives mid-war; December hike odds hit 73% and the haven bid loses to the rate bet"
+   "b": "GOLD 4,018 ▲",
+   "t": " — Friday's late save at $3,959 held; the floor at $4,000 now goes to trial in Fed week, December hike odds near 82%"
   },
   {
-   "b": "RÉSONANCE 022",
-   "t": " — the first F.P. Journe Résonance ever delivered heads to Phillips Geneva in November, est. CHF 0.5–1M after a $23M year for the model"
+   "b": "INDIA +26.5%",
+   "t": " — June gems and jewellery exports hit $2.21B; gold jewellery +54.5%, polished diamonds +8.7% in the category's first clean rise"
   },
   {
-   "b": "AP £105M",
-   "t": " — Audemars Piguet's UK sales jump 29% while operating profit slips 3%; the Manchester AP House lost £738,000 finding its feet"
+   "b": "GABORONE",
+   "t": " — Botswana says its 15% of De Beers carries 'complete freedom': join the Penny consortium, pre-empt alone, or bring a third party"
   },
   {
-   "b": "BEZEL 38%",
-   "t": " — nearly two in five Rolexes submitted to the marketplace fail authentication; Omega runs at 13%, Tudor 6%"
+   "b": "ALROSA −1.18kg",
+   "t": " — TÜV Austria certifies all 29.8M carats of 2025 output carbon-neutral, a second straight year; G7 sanctions still apply"
   },
   {
-   "b": "HAMPTONS $70",
-   "t": " — the jewelry show returns to Southampton July 23–26 with Italian and studio-artist pavilions; VIP preview $200"
+   "b": "RUBY $66.30",
+   "t": " — Gemfields' first Trade Select auction clears 348,409 carats at 93.2% sold for $23.1M; sapphire categories debut"
   },
   {
-   "b": "ICA",
-   "t": " — Brandee Dallow, ex-De Beers and Rio Tinto, takes over as CEO of the colored-stone association's 700 members in 47 countries"
+   "b": "SILVER 56.76",
+   "t": " — the white metal leads Monday's tape, +1.67% before New York opens; palladium +1.46% to $1,248"
   },
   {
-   "b": "AI VENIX",
-   "t": " — Guess ships a $250, 200-piece watch with an AI-drawn print; WatchPro says it could pass for a Richard Mille across a room"
+   "b": "RICHLINE",
+   "t": " — Berkshire's jewelry arm gives revenue to Arien Gessner and the supply chain to Moss Makhoulian; one owner per side of the squeeze"
   },
   {
-   "b": "PANCIS",
-   "t": " — five decades on 47th Street become a memoir: 'Unveiling Rarities' recounts 1976 to now, including the 1999 robbery"
+   "b": "ORIS 15t",
+   "t": " — Studer counts the footprint in travel and freight, not steel; new packaging cut emissions 50%"
   },
   {
-   "b": "SILVER 55.20",
-   "t": " — the gold-silver ratio stretches to 72 as rate anxiety hits the white metal hardest; down nearly 15% on the month"
+   "b": "AI 70%",
+   "t": " — only 30% of UK retailers haven't tried AI, per ONS data; 53.6% of adopters run it on free tools"
   },
   {
-   "b": "FED JULY 28–29",
-   "t": " — Logan calls publicly for a hike, Jefferson signals openness; the meeting is now the metals trade's main event"
+   "b": "AHEAD",
+   "t": " — Swiss watch export figures for June are due from the FH on Tuesday; the trade watches whether America's run offsets Asia"
   }
  ],
- "tape_ts": "17 Jul 2026, N.Y. close",
+ "tape_ts": "20 Jul 2026, 05:45 a.m. ET",
  "tape": [
   {
    "name": "Gold / oz",
    "code": "XAU",
-   "px": "3,985.80",
-   "chg": "▼ −3.4% (wk)",
-   "dir": "dn",
+   "px": "4,018.20",
+   "chg": "▲ +0.8%",
+   "dir": "up",
    "pts": [
-    15,
-    18,
-    14,
-    17,
-    16,
-    15,
     14,
     13,
     14,
-    12
+    12,
+    13,
+    12,
+    14,
+    15,
+    16,
+    16
    ]
   },
   {
@@ -90,42 +90,48 @@
     17,
     16,
     15,
-    13,
-    13,
-    13,
-    13
+    15,
+    15,
+    15,
+    15
    ]
   },
   {
    "name": "Platinum / oz",
    "code": "XPT",
-   "px": "1,599.20",
-   "chg": "▼ −1.1% (day)",
+   "px": "1,596.00",
+   "chg": "▼ −0.2%",
    "dir": "dn",
    "pts": [
-    14,
     17,
-    19,
-    20,
     18,
+    17,
     16,
-    14
+    16,
+    15,
+    15,
+    16,
+    15,
+    15
    ]
   },
   {
    "name": "Silver / oz",
    "code": "XAG",
-   "px": "55.20",
-   "chg": "▼ −0.6% (day)",
-   "dir": "dn",
+   "px": "56.76",
+   "chg": "▲ +2.8%",
+   "dir": "up",
    "pts": [
-    13,
+    18,
     16,
     15,
     14,
     13,
+    12,
+    13,
     14,
-    12
+    15,
+    16
    ]
   }
  ]
