@@ -9510,5 +9510,958 @@
     }
    ]
   }
+ },
+ "plus-eleven-two-in-june": {
+  "strip": {
+   "cap": "By the numbers · Switzerland's June",
+   "cells": [
+    {
+     "fig": "CHF 2.4B",
+     "delta": "▲ +11.2%",
+     "dir": "up",
+     "lab": "JUNE EXPORTS"
+    },
+    {
+     "fig": "1.3M",
+     "delta": "▲ +11.7%",
+     "dir": "up",
+     "lab": "PIECES SHIPPED"
+    },
+    {
+     "fig": "+103.5%",
+     "delta": "▲ FRANCE",
+     "dir": "up",
+     "lab": "CHF 250M, 2ND MARKET"
+    },
+    {
+     "fig": "+54.1%",
+     "delta": "▲ CHF 200–500",
+     "dir": "up",
+     "lab": "THE HOT BAND"
+    },
+    {
+     "fig": "−0.7%",
+     "delta": "▼ H1",
+     "dir": "dn",
+     "lab": "CHF 12.8B, THE HALF"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "June by market · CHF millions",
+    "rows": [
+     {
+      "l": "UNITED STATES, +12.7%",
+      "v": 349,
+      "d": "349",
+      "hi": true
+     },
+     {
+      "l": "FRANCE, +103.5%",
+      "v": 250,
+      "d": "250"
+     },
+     {
+      "l": "BRITAIN, +12.2%",
+      "v": 175,
+      "d": "175"
+     },
+     {
+      "l": "JAPAN, +8.8%",
+      "v": 169,
+      "d": "169"
+     },
+     {
+      "l": "HONG KONG, +6.9%",
+      "v": 158,
+      "d": "158"
+     }
+    ],
+    "note": "The top six markets took 53% of everything Switzerland shipped in June",
+    "cap": "The federation's June table, largest markets. Carat Capital graphics desk. &nbsp;CC/2026/079"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "The month arrives.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "sub": "France doubles; America compounds.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "pull": {
+     "q": "One month does not repair a half.",
+     "attr": "The Movement Desk"
+    }
+   },
+   {
+    "sub": "The barbell is official.",
+    "n": "§3"
+   },
+   {
+    "p": 2
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Richemont's jewelry-led quarter: +20% at constant currency",
+     "href": "a-richemont-twenty-percent-quarter.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "One good month is a data point. Two would be a direction."
+  },
+  "next": {
+   "lead": {
+    "slug": "wos-133-million-answer",
+    "tag": "Watches",
+    "blurb": "The retailer on the right side of the barbell prints +76%"
+   },
+   "minis": [
+    {
+     "slug": "richemont-twenty-percent-quarter",
+     "tag": "Watches"
+    },
+    {
+     "slug": "cartier-secondhand-heat",
+     "tag": "Watches"
+    }
+   ]
+  }
+ },
+ "wos-133-million-answer": {
+  "spec": {
+   "cap": "The ledger · Watches of Switzerland",
+   "rows": [
+    {
+     "l": "STATUTORY PRE-TAX PROFIT",
+     "v": "<b>£133M</b> — up 76% on the year"
+    },
+    {
+     "l": "APPROACH DECLINED, JULY",
+     "v": "reported <b>£1.75B</b> valuation"
+    },
+    {
+     "l": "REVENUE BASE",
+     "v": "majority <b>United States</b>"
+    },
+    {
+     "l": "EXPORT BAND > CHF 3,000",
+     "v": "<b>+14.2%</b> in June, per the FH"
+    },
+    {
+     "l": "MIDDLE BAND, CHF 500–3,000",
+     "v": "<b>−4.7%</b> — the side it doesn't live on"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "The barbell, per the FH · June export growth by band",
+    "rows": [
+     {
+      "l": "CHF 200–500",
+      "v": 54.1,
+      "d": "+54.1%",
+      "hi": true
+     },
+     {
+      "l": "ABOVE CHF 3,000",
+      "v": 14.2,
+      "d": "+14.2%"
+     },
+     {
+      "l": "UNDER CHF 200",
+      "v": 9.9,
+      "d": "+9.9%"
+     },
+     {
+      "l": "CHF 500–3,000, DECLINE",
+      "v": 4.7,
+      "d": "−4.7%"
+     }
+    ],
+    "note": "Growth lives at the poles; Watches of Switzerland sells the heavy end",
+    "cap": "June export growth by price band, FH data. Carat Capital graphics desk. &nbsp;CC/2026/080"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "The number lands.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "pull": {
+     "q": "A profit line up three-quarters is the kind of answer a board hopes to give after saying no.",
+     "attr": "The Movement Desk"
+    }
+   },
+   {
+    "sub": "The circling resumes.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "p": 2
+   },
+   {
+    "sub": "Arithmetic, then appetite.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "£1.75 billion, declined: the day WoS said no",
+     "href": "a-watches-of-switzerland-says-no.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "The next bid, if it comes, starts from a higher number."
+  },
+  "next": {
+   "lead": {
+    "slug": "plus-eleven-two-in-june",
+    "tag": "Watches",
+    "blurb": "June's export table explains the profit line: the barbell pays"
+   },
+   "minis": [
+    {
+     "slug": "wos-majority-american",
+     "tag": "Watches"
+    },
+    {
+     "slug": "watches-of-switzerland-says-no",
+     "tag": "Watches"
+    }
+   ]
+  }
+ },
+ "last-carats-at-diavik": {
+  "spec": {
+   "cap": "The ledger · Diavik's wind-down",
+   "rows": [
+    {
+     "l": "Q2 RECOVERED",
+     "v": "<b>33,000 carats</b> from remnant ore — −97%"
+    },
+    {
+     "l": "H1 OUTPUT",
+     "v": "<b>1.1M carats</b>, down 51%"
+    },
+    {
+     "l": "MINE CLOSED",
+     "v": "<b>March 2026</b>, end of life"
+    },
+    {
+     "l": "FINAL SALES",
+     "v": "run through <b>December 2026</b>"
+    },
+    {
+     "l": "THE ARC",
+     "v": "Argyle 2020 · Fort à la Corne 2023 · <b>Diavik 2026</b>"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Rio Tinto's diamond wind-down · carats, millions",
+    "rows": [
+     {
+      "l": "H1 2025, DIAVIK",
+      "v": 2.2,
+      "d": "≈2.2"
+     },
+     {
+      "l": "H1 2026, −51%",
+      "v": 1.1,
+      "d": "1.1",
+      "hi": true
+     },
+     {
+      "l": "Q2 2026, REMNANT ORE",
+      "v": 0.033,
+      "d": "0.03"
+     }
+    ],
+    "note": "From a producing mine to a closing entry in three reporting periods",
+    "cap": "Diavik output, Rio Tinto Q2 operations review. Carat Capital graphics desk. &nbsp;CC/2026/081"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Leftovers, by the ton.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "pull": {
+     "q": "Diavik was the last diamond asset on the books of a company that has decided its future is copper, iron ore and lithium.",
+     "attr": "The Mines Desk"
+    }
+   },
+   {
+    "sub": "An arc closes.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "sub": "Three names subtract at once.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Ekati goes dark: Burgundy halts the other Canadian giant",
+     "href": "a-ekati-goes-dark.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "The industry should read the 33,000 carats accordingly: an ending, with a bookmark in it."
+  },
+  "next": {
+   "lead": {
+    "slug": "ekati-goes-dark",
+    "tag": "Diamonds",
+    "blurb": "The other Canadian mine that stopped, and what it stranded"
+   },
+   "minis": [
+    {
+     "slug": "twelve-hundred-at-venetia",
+     "tag": "Diamonds"
+    },
+    {
+     "slug": "venetia-two-year-pause",
+     "tag": "Diamonds"
+    }
+   ]
+  }
+ },
+ "twelve-hundred-at-venetia": {
+  "spec": {
+   "cap": "The ledger · Section 189A at Venetia",
+   "rows": [
+    {
+     "l": "POSITIONS AFFECTED",
+     "v": "<b>1,214</b> in total"
+    },
+    {
+     "l": "AT THE MINE",
+     "v": "<b>1,134</b> permanent workers"
+    },
+    {
+     "l": "AT DBSSSA, KIMBERLEY",
+     "v": "<b>80</b> sales staff"
+    },
+    {
+     "l": "THE PROCESS",
+     "v": "<b>Section 189A</b>, Labour Relations Act"
+    },
+    {
+     "l": "THE PAUSE",
+     "v": "<b>two years</b>, announced July 13"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Who the pause touches · positions in consultation",
+    "rows": [
+     {
+      "l": "VENETIA MINE, PERMANENT",
+      "v": 1134,
+      "d": "1,134",
+      "hi": true
+     },
+     {
+      "l": "DE BEERS SIGHTHOLDER SALES SA",
+      "v": 80,
+      "d": "80"
+     }
+    ],
+    "note": "South Africa's flagship diamond asset, idled while its owner is sold",
+    "cap": "NUM figures for the Section 189A consultation. Carat Capital graphics desk. &nbsp;CC/2026/082"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "The payroll gets a number.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "sub": "The union's terms.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "Whoever ends up owning the company inherits the outcome of the Section 189A process — and the labor relationships it either preserves or burns.",
+     "attr": "The Mines Desk"
+    }
+   },
+   {
+    "sub": "A sale in the background.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Botswana's 'complete freedom': three ways to play its 15%",
+     "href": "a-gaborone-answers-penny.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "If the union extracts real alternatives to dismissal, the new owners will be glad someone did the fighting before they arrived."
+  },
+  "next": {
+   "lead": {
+    "slug": "venetia-two-year-pause",
+    "tag": "Diamonds",
+    "blurb": "The pause itself: $2 billion underground, idled to save cash"
+   },
+   "minis": [
+    {
+     "slug": "gaborone-answers-penny",
+     "tag": "Diamonds"
+    },
+    {
+     "slug": "penny-gets-the-nod",
+     "tag": "Diamonds"
+    }
+   ]
+  }
+ },
+ "quiet-week-at-four-thousand": {
+  "strip": {
+   "cap": "By the numbers · The waiting room",
+   "cells": [
+    {
+     "fig": "$4,008",
+     "delta": "— TUE 6:00 ET",
+     "dir": "flat",
+     "lab": "GOLD, SPOT"
+    },
+    {
+     "fig": "$4,000.30",
+     "delta": "▼ −0.42%",
+     "dir": "dn",
+     "lab": "MONDAY'S CLOSE"
+    },
+    {
+     "fig": "$56.36",
+     "delta": "▲ SILVER",
+     "dir": "up",
+     "lab": "HOLDS MONDAY'S GAIN"
+    },
+    {
+     "fig": "82%",
+     "delta": "▲ DEC",
+     "dir": "up",
+     "lab": "CME HIKE ODDS"
+    },
+    {
+     "fig": "JUL 28–29",
+     "delta": "— FOMC",
+     "dir": "flat",
+     "lab": "THE CATALYST"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "The week's fixed points · gold, dollars an ounce",
+    "rows": [
+     {
+      "l": "50-PERIOD AVERAGE, ABOVE",
+      "v": 4045,
+      "d": "4,045"
+     },
+     {
+      "l": "SPOT, TUESDAY MORNING",
+      "v": 4008,
+      "d": "4,008",
+      "hi": true
+     },
+     {
+      "l": "MONDAY'S KITCO CLOSE",
+      "v": 4000,
+      "d": "4,000.30"
+     },
+     {
+      "l": "TRIPLE BOTTOM, THE FLOOR",
+      "v": 3964,
+      "d": "3,964"
+     }
+    ],
+    "note": "A $250 range since the last Fed meeting; the next one is dated",
+    "cap": "The map into July 28–29, unchanged from Monday. Carat Capital graphics desk. &nbsp;CC/2026/083"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Held breath at $4,000.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "sub": "Silver does the work.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "pull": {
+     "q": "The result is a market where fear and arithmetic cancel to a rounding error.",
+     "attr": "The Metals Desk"
+    }
+   },
+   {
+    "p": 2
+   },
+   {
+    "sub": "The calendar decides.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Four thousand, defended: how the floor survived its third test",
+     "href": "a-four-thousand-defended.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "The range breaks on the 29th, one way or the other."
+  },
+  "next": {
+   "lead": {
+    "slug": "four-thousand-defended",
+    "tag": "Gold & Metals",
+    "blurb": "Monday's save at $3,959, and the map around the floor"
+   },
+   "minis": [
+    {
+     "slug": "war-premium-inverts",
+     "tag": "Gold & Metals"
+    },
+    {
+     "slug": "silver-air-pocket",
+     "tag": "Gold & Metals"
+    }
+   ]
+  }
+ },
+ "more-dollars-fewer-boxes": {
+  "strip": {
+   "cap": "By the numbers · America's half, per Tenoris",
+   "cells": [
+    {
+     "fig": "+8.6%",
+     "delta": "▲ H1",
+     "dir": "up",
+     "lab": "JEWELRY REVENUE"
+    },
+    {
+     "fig": "+13%",
+     "delta": "▲ JUNE",
+     "dir": "up",
+     "lab": "ACCELERATING"
+    },
+    {
+     "fig": "+19%",
+     "delta": "▲ TICKET",
+     "dir": "up",
+     "lab": "AVG PURCHASE, H1"
+    },
+    {
+     "fig": "+14%",
+     "delta": "▲ BRACELETS",
+     "dir": "up",
+     "lab": "BEST CATEGORY"
+    },
+    {
+     "fig": "<$1,500",
+     "delta": "▼ UNITS",
+     "dir": "dn",
+     "lab": "STILL SHRINKING"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Growth, by engine · percent, H1 2026",
+    "rows": [
+     {
+      "l": "AVERAGE TICKET",
+      "v": 19,
+      "d": "+19%",
+      "hi": true
+     },
+     {
+      "l": "BRACELETS, REVENUE",
+      "v": 14,
+      "d": "+14%"
+     },
+     {
+      "l": "JUNE REVENUE",
+      "v": 13,
+      "d": "+13%"
+     },
+     {
+      "l": "H1 REVENUE, ALL",
+      "v": 8.6,
+      "d": "+8.6%"
+     }
+    ],
+    "note": "Price is growing more than twice as fast as revenue — units make up the difference, downward",
+    "cap": "Tenoris retail panel, H1 2026. Carat Capital graphics desk. &nbsp;CC/2026/084"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "A strong half, narrowly built.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "sub": "Where the units went.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "pull": {
+     "q": "Same showcase, two different businesses.",
+     "attr": "The Counter Desk"
+    }
+   },
+   {
+    "p": 2
+   },
+   {
+    "sub": "Two diamond machines.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "June retail's thin cushion: the spending behind the smile",
+     "href": "a-june-retail-thin-cushion.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "The number to watch into the holidays is the one nobody prints in a headline: how many boxes actually leave the store."
+  },
+  "next": {
+   "lead": {
+    "slug": "gold-counters-run-hot",
+    "tag": "Retail & Tech",
+    "blurb": "The same story in Cantonese: price-led counters, gold doing the selling"
+   },
+   "minis": [
+    {
+     "slug": "june-retail-thin-cushion",
+     "tag": "Retail & Tech"
+    },
+    {
+     "slug": "the-thirty-eight-percent-problem",
+     "tag": "Retail & Tech"
+    }
+   ]
+  }
+ },
+ "gold-counters-run-hot": {
+  "strip": {
+   "cap": "By the numbers · The June quarter in Greater China",
+   "cells": [
+    {
+     "fig": "+39%",
+     "delta": "▲ LUK FOOK",
+     "dir": "up",
+     "lab": "GROUP SAME-STORE"
+    },
+    {
+     "fig": "+50%",
+     "delta": "▲ GOLD",
+     "dir": "up",
+     "lab": "SSS, GOLD PRODUCT"
+    },
+    {
+     "fig": "−17%",
+     "delta": "▼ DIAMONDS",
+     "dir": "dn",
+     "lab": "SSS, GROUP"
+    },
+    {
+     "fig": "−58%",
+     "delta": "▼ MAINLAND",
+     "dir": "dn",
+     "lab": "DIAMOND SSS, CHINA"
+    },
+    {
+     "fig": "+16%",
+     "delta": "▲ CSS",
+     "dir": "up",
+     "lab": "CHOW SANG SANG RETAIL"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Same-store sales, June quarter · Luk Fook, percent",
+    "rows": [
+     {
+      "l": "GOLD, HONG KONG & MACAU",
+      "v": 55,
+      "d": "+55%",
+      "hi": true
+     },
+     {
+      "l": "GOLD, GROUP",
+      "v": 50,
+      "d": "+50%"
+     },
+     {
+      "l": "ALL PRODUCTS, GROUP",
+      "v": 39,
+      "d": "+39%"
+     },
+     {
+      "l": "ALL PRODUCTS, MAINLAND",
+      "v": 16,
+      "d": "+16%"
+     }
+    ],
+    "note": "Diamonds ran the other way: −17% group, −58% on the mainland",
+    "cap": "Luk Fook quarterly update, per Rapaport. Carat Capital graphics desk. &nbsp;CC/2026/085"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Two chains, one quarter.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "sub": "Gold 50, diamonds minus 17.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "pull": {
+     "q": "More sales through fewer doors is the strategy on both sides — the physical network consolidating around the customers who still show up, checkbook in hand, for gold.",
+     "attr": "The Counter Desk"
+    }
+   },
+   {
+    "p": 2
+   },
+   {
+    "sub": "Fewer doors, more sales.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "India ships the turn: June exports +26.5%",
+     "href": "a-india-ships-the-turn.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "Until the diamond case earns back its investment story, the region's jewelers will keep being gold dealers with very good lighting."
+  },
+  "next": {
+   "lead": {
+    "slug": "more-dollars-fewer-boxes",
+    "tag": "Retail & Tech",
+    "blurb": "America's version: +8.6% revenue on a 19% higher ticket"
+   },
+   "minis": [
+    {
+     "slug": "zero-duty-day-one",
+     "tag": "Retail & Tech"
+    },
+    {
+     "slug": "june-retail-thin-cushion",
+     "tag": "Retail & Tech"
+    }
+   ]
+  }
+ },
+ "pearls-print-a-quiet-win": {
+  "spec": {
+   "cap": "The ledger · The pearl's month",
+   "rows": [
+    {
+     "l": "BONHAMS, 8 JULY",
+     "v": "natural two-row strand, <b>£39,680</b>"
+    },
+    {
+     "l": "THE ESTIMATE",
+     "v": "<b>£10,000</b> — four times over"
+    },
+    {
+     "l": "DAVID MORRIS LOT",
+     "v": "<b>£40,960</b>, above a £25–35k estimate"
+    },
+    {
+     "l": "US RETAIL, H1",
+     "v": "a <b>standout category</b>, per Tenoris"
+    },
+    {
+     "l": "DESIGN SIGNAL",
+     "v": "Roseate's <b>'Odyssey'</b> pearl collection"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "The pearl ladder at Bonhams · pounds sterling",
+    "rows": [
+     {
+      "l": "DAVID MORRIS, CULTURED + DIAMONDS",
+      "v": 40960,
+      "d": "40,960"
+     },
+     {
+      "l": "NATURAL TWO-ROW STRAND",
+      "v": 39680,
+      "d": "39,680",
+      "hi": true
+     },
+     {
+      "l": "THE STRAND'S ESTIMATE",
+      "v": 10000,
+      "d": "10,000"
+     }
+    ],
+    "note": "The distance between estimate and hammer is the market repricing scarcity",
+    "cap": "Bonhams London jewels sale, July 8, per JCK. Carat Capital graphics desk. &nbsp;CC/2026/086"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Two ledgers agree.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "pull": {
+     "q": "Days earlier, the auction market had said the same thing with a hammer.",
+     "attr": "The Color Desk"
+    }
+   },
+   {
+    "sub": "The hammer confirms.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "A ladder customers can climb.",
+    "n": "§3"
+   },
+   {
+    "p": 2
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Pearls run the table: the Bonhams sale, lot by lot",
+     "href": "a-pearls-run-the-table.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "The trade spent a decade calling pearls your grandmother's gem; the numbers now say the grandmother was early."
+  },
+  "next": {
+   "lead": {
+    "slug": "pearls-run-the-table",
+    "tag": "Auctions",
+    "blurb": "The July 8 sale where every top-ten lot beat its estimate"
+   },
+   "minis": [
+    {
+     "slug": "odyssey-at-the-counter",
+     "tag": "Gemstones"
+    },
+    {
+     "slug": "sixty-six-dollars-a-carat",
+     "tag": "Gemstones"
+    }
+   ]
+  }
  }
 }

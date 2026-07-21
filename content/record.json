@@ -1,10 +1,34 @@
 {
- "updated": "20 Jul 2026",
+ "updated": "21 Jul 2026",
  "intro": "Eight weeks of the trade, kept the way a ledger should be kept — dated, sourced, and in one place. New entries are added at the top each week; the quarter's running numbers live in the Almanac below.",
  "weeks": [
   {
    "label": "This week — July 20",
    "entries": [
+    {
+     "d": "watches",
+     "h": "Swiss exports snap back 11.2% in June",
+     "t": "The FH reported June exports of CHF 2.4 billion on 1.3 million pieces (+11.7% volume) — the strongest month of 2026 after April's −16.6% and May's +0.4%. The US took CHF 349M (+12.7%), France doubled to CHF 250M (+103.5%), and the CHF 200–500 band grew 54.1% while CHF 500–3,000 fell 4.7%. H1 stands at CHF 12.8B, −0.7%.",
+     "s": "FH / swissinfo"
+    },
+    {
+     "d": "diamonds",
+     "h": "Rio Tinto's last carats: Diavik processes its remnants",
+     "t": "With the Northwest Territories mine closed since March, Q2 yielded 33,000 carats from remaining surface ore, down 97%. H1 output fell 51% to 1.1 million carats; final sales run through end-2026, completing Rio Tinto's exit from diamond mining after Argyle (2020) and Fort à la Corne (2023). Angola exploration continues.",
+     "s": "Rapaport"
+    },
+    {
+     "d": "diamonds",
+     "h": "Venetia pause enters Section 189A: 1,214 positions",
+     "t": "The NUM said De Beers' two-year production halt places 1,134 permanent Venetia workers and 80 DBSSSA staff into large-scale retrenchment consultation, demanding reviews of executive costs, retraining, and alternatives to dismissal. The pause was announced July 13 as a cash-preservation measure.",
+     "s": "Rapaport / Bloomberg"
+    },
+    {
+     "d": "retail-tech",
+     "h": "US jewelry H1: revenue +8.6% on a 19% higher ticket",
+     "t": "Tenoris data shows first-half revenue up 8.6% and June up 13%, driven by average purchase prices rising 19–20% while unit sales fell, especially under $1,500. Bracelets led categories at +14%; lab-grown grew double-digit on units while natural diamonds grew single-digit on price.",
+     "s": "Tenoris"
+    },
     {
      "d": "gold-metals",
      "h": "The $4,000 floor survives its third test",
