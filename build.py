@@ -226,6 +226,42 @@ BASE_URL = "https://caratcapital.org"  # swap when the real domain is connected
 import hashlib as _hl
 CSS_V = _hl.md5((ROOT / "assets" / "styles.css").read_bytes()).hexdigest()[:8] if (ROOT / "assets" / "styles.css").exists() else "0"
 
+# ---------------- REDESIGN v3: photo plates, glyphs, accents ----------------
+import re as _re
+PH = json.loads((ROOT / "assets" / "ph" / "manifest.json").read_text()) if (ROOT / "assets" / "ph" / "manifest.json").exists() else {}
+
+DESK_ACCENTS = {"diamonds":"#BE3319","gold-metals":"#96762E","gemstones":"#2E6E5E","watches":"#16130E","auctions":"#8A5A2E","retail-tech":"#4A5A6E"}
+
+_GLYPHS = {
+ "diamonds": '<path d="M16 7 H32 L41 17 L24 42 L7 17 Z"/><path d="M7 17 H41 M16 7 L24 17 L32 7 M24 17 V42 M16 7 L12 17 M32 7 L36 17"/>',
+ "gold-metals": '<path d="M5 37 L11 27 H26 L32 37 Z"/><path d="M18 26 L24 16 H39 L45 26 Z"/><path d="M11 27 L15 20 M32 37 L36 30"/>',
+ "gemstones": '<path d="M15 7 H33 L42 16 V32 L33 41 H15 L6 32 V16 Z"/><path d="M18 12 H30 L37 18 V30 L30 36 H18 L11 30 V18 Z"/>',
+ "watches": '<circle cx="24" cy="25" r="13.5"/><path d="M24 25 V16 M24 25 L30.5 28.5 M17 13 L20 7 H28 L31 13 M17 37 L20 43 H28 L31 37"/><circle cx="24" cy="25" r="1.6" fill="currentColor"/>',
+ "auctions": '<path d="M10 16 L20 6 L30 16 L20 26 Z"/><path d="M25 21 L42 38 M40 36 L36 40 M6 42 H26"/>',
+ "retail-tech": '<path d="M8 8 H24 L42 26 L26 42 L8 24 Z"/><circle cx="16.5" cy="16.5" r="3.2"/>',
+}
+def desk_glyph(slug, size=54):
+    return (f'<svg class="dglyph" width="{size}" height="{size}" viewBox="0 0 48 48" fill="none" '
+            f'stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" aria-hidden="true">{_GLYPHS.get(slug, _GLYPHS["diamonds"])}</svg>')
+
+def photo_plate(slug, cls="", eager=False, label="Plate"):
+    m = PH.get(slug)
+    if not m:
+        return ""
+    load = 'fetchpriority="high" decoding="async"' if eager else 'loading="lazy" decoding="async"'
+    return (f'<figure class="lead-fig pfig{(" " + cls) if cls else ""}"><div class="plate-img">'
+            f'<img src="assets/ph/{slug}.jpg" alt="" width="{m["w"]}" height="{m["h"]}" {load}></div>'
+            f'<div class="cap"><span>{label} — {m["credit"]} · Wikimedia Commons</span><span>CC</span></div></figure>')
+
+def motif_plate(desk_slug, code=""):
+    return (f'<figure class="lead-fig pfig mfig"><div class="mplate">{desk_glyph(desk_slug, 130)}</div>'
+            f'<div class="cap"><span>Engraving — CC graphics desk</span><span>{code or desk_slug.upper()}</span></div></figure>')
+
+_FIG_RE = _re.compile(r'^((?:Plus |Minus |Up |Down )?[$\u00a3\u20ac]?\d[\d,.]*(?:%| percent| million| billion| carats)?)')
+def figwrap(title):
+    return _FIG_RE.sub(r'<span class="fign">\1</span>', title, count=1)
+
+
 def head(title, desc, path="", extra=""):
     canonical = f"{BASE_URL}/{path}" if path else BASE_URL
     return f"""<!DOCTYPE html>
@@ -351,6 +387,7 @@ document.querySelectorAll('.rv').forEach(el=>io.observe(el));
 requestAnimationFrame(()=>document.querySelectorAll('.rv').forEach(el=>{const r=el.getBoundingClientRect();if(r.top<innerHeight&&r.bottom>0)el.classList.add('in')}));
 const sio=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('go');sio.unobserve(e.target)}}),{threshold:.4});
 document.querySelectorAll('.spark').forEach(el=>sio.observe(el));
+if(innerWidth>860)document.querySelectorAll('details.mob-collapse').forEach(d=>d.open=true);
 </script>
 </body>
 </html>"""
@@ -481,16 +518,27 @@ def desk_page(d):
       <div class="term">{g[0]}<i>{g[1]}</i></div><p>{g[2]}</p></div>""" for g in d["glossary"])
     # published articles for this desk first, then house stubs to fill the list
     rows = [(f"a-{a['slug']}.html", a["title"], a["dek"], f"{a['date']} · {a['minutes']} min") for a in desk_articles(d["slug"])]
-    stories = "".join(f"""<a class="dstory rv" href="{href}">
-      <div class="n">S—{i+1:02d}</div><h3>{t}</h3><div class="d">{dk}</div><div class="m">{m}</div></a>""" for i,(href,t,dk,m) in enumerate(rows[:6]))
+    stories = ""
+    for i,(href,t,dk,m) in enumerate(rows[:6]):
+        lead_cls = " dstory--lead" if i == 0 else ""
+        stories += f"""<a class="dstory{lead_cls} rv" href="{href}">
+      <div class="n">S—{i+1:02d}</div><h3>{figwrap(t) if i==0 else t}</h3><div class="d">{dk}</div><div class="m">{m}</div></a>"""
     stats = "".join(f"<div><b>{v}</b><span>{l}</span></div>" for v,l in d["stats"])
+    _dphoto = ""
+    for _a2 in desk_articles(d["slug"], 8):
+        if _a2["slug"] in PH:
+            _dphoto = photo_plate(_a2["slug"], cls="dh-photo", eager=True, label=f"Plate D-{d['no']}"); break
+    dh_fig = _dphoto or f"""<figure class="dh-plate">
+      {plate(d['motif'], f"Plate D-{d['no']} — the {d['title'].lower()} desk", f"CC/2026/D{d['no']}")}
+      <div class="cap"><span>Engraving — CC graphics desk</span><span>D—{d['no']}</span></div>
+    </figure>"""
     recs = [(w["label"], e) for w in RECORD.get("weeks", []) for e in w.get("entries", []) if e.get("d") == d["slug"]][:5]
     recsec = ""
     if recs:
         rec_html = "".join(record_entry(e, wl) for wl, e in recs)
         recsec = f"""<section class="burin"><div class="wrap">
     <div class="sec-mast rv"><h2>This desk, on the record — <em>the last eight weeks</em></h2><div class="mono-note"><a href="the-record.html">Full chronicle →</a></div></div>
-    {rec_html}
+    <details class="mob-collapse"><summary>Show the chronicle</summary>{rec_html}</details>
   </div></section>"""
     body = f"""{head(f"{d['title']} — Carat Capital", d['dek'][:150])}
 {folio(f"Desk D—{d['no']} · {d['title']}")}
@@ -504,10 +552,7 @@ def desk_page(d):
       <p class="dh-dek">{d['dek']}</p>
       <div class="dh-stats">{stats}</div>
     </div>
-    <figure class="dh-plate">
-      {plate(d['motif'], f"Plate D-{d['no']} — the {d['title'].lower()} desk", f"CC/2026/D{d['no']}")}
-      <div class="cap"><span>Engraving — CC graphics desk</span><span>D—{d['no']}</span></div>
-    </figure>
+    {dh_fig}
   </div></div>
 </section>
 <section class="briefing">
@@ -560,7 +605,18 @@ def tape_block():
 </div>"""
 
 def wire_block():
-    items = "".join(f'<span class="item"><b>{i["b"]}</b>{i["t"]}</span>' for i in WIRE.get("items", []))
+    def _wire_href(it):
+        blob = ((it.get("b") or "") + " " + (it.get("t") or "")).lower()
+        for a in ARTICLES[:24]:
+            words = [w for w in _re.findall(r"[a-z]{5,}", a["title"].lower())[:4]]
+            if words and sum(1 for w in words if w in blob) >= 2:
+                return f"a-{a['slug']}.html"
+        return None
+    items = ""
+    for i in WIRE.get("items", []):
+        h = _wire_href(i)
+        inner = f'<b>{i["b"]}</b>{i["t"]}'
+        items += (f'<a class="item" href="{h}">{inner}</a>' if h else f'<span class="item">{inner}</span>')
     return f"""<div class="wire">
   <div class="tag"><span class="blink"></span>The Wire</div>
   <div class="belt"><div class="belt-track" id="belt">{items}</div></div>
@@ -587,7 +643,8 @@ def _fig_bars(f):
         w = max(10, int((RX - LX - 76) * r["v"] / mx))
         col = "#BE3319" if r.get("hi") else "#16130E"
         fw = ' font-weight="600"' if r.get("hi") else ""
-        out.append(f'<text x="{LX-8}" y="{y+bh-12}" font-family="\'IBM Plex Mono\',monospace" font-size="11.5" text-anchor="end" fill="{col}"{fw}>{r["l"]}</text>')
+        lfs = 11.5 if len(r["l"]) <= 19 else (9.5 if len(r["l"]) <= 24 else 8)
+        out.append(f'<text x="{LX-8}" y="{y+bh-12}" font-family="\'IBM Plex Mono\',monospace" font-size="{lfs}" text-anchor="end" fill="{col}"{fw}>{r["l"]}</text>')
         if r.get("hi"):
             out.append(f'<rect x="{LX}" y="{y}" width="{w}" height="{bh}" fill="#BE3319" opacity=".08"/>')
         out.append(f'<rect x="{LX}" y="{y}" width="{w}" height="{bh}" fill="none" stroke="{col}" stroke-width="{1.5 if r.get("hi") else 1.2}"/>')
@@ -686,6 +743,7 @@ def article_page_v2(a):
     extra = f'<scr' + f'ipt type="application/ld+json">{jsonld}</scr' + f'ipt>'
     opener = _v2_strip(ed["strip"]) if "strip" in ed else _v2_spec(ed["spec"])
     lead_fig = _v2_fig(ed["figs"][0], 0) if ed.get("figs") else ""
+    art_photo = photo_plate(a["slug"], cls="art-photo", eager=True, label="Plate") or motif_plate(a.get("desk","diamonds"), f"CC/{a['date'][-5:]}")
     prog = ('<div id="artprog"></div><scr' + 'ipt>addEventListener("scroll",function(){var h=document.documentElement;'
             'document.getElementById("artprog").style.width=h.scrollTop/(h.scrollHeight-h.clientHeight)*100+"%"})</scr' + 'ipt>')
     return f"""{head(f"{a['title']} — Carat Capital", a['dek'][:150], f"a-{a['slug']}.html", extra)}
@@ -697,10 +755,11 @@ def article_page_v2(a):
   <div class="wrap">
     <div class="art-head rv in">
       <div class="kick">{a['kicker']}</div>
-      <h1 class="art-h">{a['title']}</h1>
+      <h1 class="art-h">{figwrap(a['title'])}</h1>
       <p class="lead-dek">{a['dek']}</p>
-      <div class="byline">By <b>{a['byline']}</b> · {a['date']} · {a['minutes']} min read</div>
+      <div class="byline meta-serif">By <b>{a['byline']}</b> · {a['date']} · {a['minutes']} min read</div>
     </div>
+    {art_photo}
     {opener}
     {lead_fig}
     <div class="art-body rv in">{_v2_body(a, ed)}</div>
@@ -742,10 +801,11 @@ def article_page(a):
   <div class="wrap">
     <div class="art-head rv in">
       <div class="kick">{a['kicker']}</div>
-      <h1 class="art-h">{a['title']}</h1>
+      <h1 class="art-h">{figwrap(a['title'])}</h1>
       <p class="lead-dek">{a['dek']}</p>
-      <div class="byline">By <b>{a['byline']}</b> · {a['date']} · {a['minutes']} min read</div>
+      <div class="byline meta-serif">By <b>{a['byline']}</b> · {a['date']} · {a['minutes']} min read</div>
     </div>
+    {photo_plate(a["slug"], cls="art-photo", label="Plate") or motif_plate(a.get("desk","diamonds"), f"CC/{a['date'][-5:]}")}
     <div class="art-body rv in">{paras}</div>
     <div class="art-sources rv in">
       <div class="kick">Sources &amp; further reading</div>
@@ -767,18 +827,72 @@ def index_page():
     LEAD = lead_article()
     lead_href = f"a-{LEAD['slug']}.html" if LEAD else "#"
     latest_date = max(a["date"] for a in ARTICLES)
+    lead_photo = photo_plate(LEAD["slug"], cls="plate-hero", eager=True, label="Plate I") if LEAD else ""
+    if not lead_photo and LEAD:
+        lead_photo = motif_plate(LEAD.get("desk","diamonds"), "PLATE I")
+    # stat band from the lead's editorial numbers strip
+    statband = ""
+    ed = (LEAD or {}).get("ed") or {}
+    cells = (ed.get("strip") or {}).get("cells", [])[:3]
+    if cells:
+        tiles = "".join(f'<a class="sb-tile" href="{lead_href}"><div class="v">{c["fig"]}</div><div class="l">{c["lab"]}</div></a>' for c in cells)
+        statband = (f'<section class="statband sec--tint"><div class="wrap"><div class="sb-grid rv">{tiles}'
+                    f'<a class="sb-tile sb-more" href="almanac.html"><div class="v">→</div><div class="l">The quarter in numbers</div></a></div></div></section>')
+    # pull-quote band from the lead's flow
+    quote, attr = "", ""
+    for it in ed.get("flow", []):
+        if "pull" in it:
+            quote, attr = it["pull"]["q"], it["pull"].get("attr",""); break
+    if not quote:
+        quote, attr = "Every stone has a price. The story is who pays it.", "The masthead"
+    plateband = (f'<section class="plateband"><div class="wrap"><blockquote class="rv">&ldquo;{quote}&rdquo;</blockquote>'
+                 f'<div class="attr rv">— {attr}</div></div></section>')
+    railmini = '<div class="rm-k">Also filed today</div>' + "".join(
+        f'<a href="a-{x["slug"]}.html"><span class="rm-d">{DESK_NAMES.get(x.get("desk"),"")[:14]}</span>{x["title"]}</a>'
+        for x in [a for a in ARTICLES if not a.get("lead")][:3])
     # price rail (compact tape)
     chips = ""
     for t in WIRE.get("tape", [])[:5]:
         chips += f"""<a class="chip" href="almanac.html"><span class="nm">{t['name']}</span><span class="px">{t['px']}</span><span class="d {t['dir']}">{t['chg']}</span></a>"""
     # desk navigator: latest story per desk + count
+    # desk of the day = most stories filed today; runner-up gets the second wide card
+    fresh_counts = {d["slug"]: sum(1 for a in ARTICLES if a.get("desk") == d["slug"] and a["date"] == latest_date) for d in DESKS}
+    ranked = sorted(DESKS, key=lambda d: (-fresh_counts[d["slug"]], int(d["no"])))
+    lead_desk = ranked[0]["slug"]
+    wide_desk = ranked[1]["slug"] if len(ranked) > 1 else None
     cards = ""
     for d in DESKS:
         da = [a for a in ARTICLES if a.get("desk") == d["slug"]]
         top = da[0] if da else None
+        if top and LEAD and top["slug"] == LEAD["slug"] and len(da) > 1:
+            top = da[1]
         fresh = '<span class="new">NEW TODAY</span>' if top and top["date"] == latest_date else (f'<span class="dt">{top["date"]}</span>' if top else "")
-        cards += f"""<a class="dcard rv" href="{d['slug']}.html">
-      <div class="row1"><span class="no">D—{d['no']}</span><span class="ct">{len(da)} stories</span></div>
+        acc = DESK_ACCENTS.get(d["slug"], "#96762E")
+        if d["slug"] == lead_desk and top:
+            thumb = photo_plate(top["slug"], cls="dc-thumb", label=f"D—{d['no']}") or f'<div class="dc-glyphbig">{desk_glyph(d["slug"], 96)}</div>'
+            cards += f"""<a class="dcard dcard--lead rv" href="{d['slug']}.html" style="--da:{acc}">
+      <div class="row1"><span class="no">D—{d['no']}</span><span class="deskled">Desk of the day</span><span class="ct">{len(da)} stories</span></div>
+      <div class="dc-cols"><div>
+      <h3>{d['title']}</h3>
+      <div class="tagl">{d['tag']}</div>
+      <div class="latest">{fresh}<span class="lt">{top['title'] if top else ''}</span></div>
+      <div class="go">Open the desk →</div>
+      </div>{thumb}</div>
+    </a>"""
+        elif d["slug"] == wide_desk and top:
+            wthumb = photo_plate(top["slug"], cls="dc-thumb", label=f"D—{d['no']}") or f'<div class="dc-glyphbig">{desk_glyph(d["slug"], 84)}</div>'
+            cards += f"""<a class="dcard dcard--wide rv" href="{d['slug']}.html" style="--da:{acc}">
+      <div class="row1"><span class="no">D—{d['no']}</span><span class="glyph">{desk_glyph(d["slug"], 40)}</span><span class="ct">{len(da)} stories</span></div>
+      <div class="dc-cols"><div>
+      <h3>{d['title']}</h3>
+      <div class="tagl">{d['tag']}</div>
+      <div class="latest">{fresh}<span class="lt">{top['title'] if top else ''}</span></div>
+      <div class="go">Open the desk →</div>
+      </div>{wthumb}</div>
+    </a>"""
+        else:
+            cards += f"""<a class="dcard rv" href="{d['slug']}.html" style="--da:{acc}">
+      <div class="row1"><span class="no">D—{d['no']}</span><span class="glyph">{desk_glyph(d["slug"], 44)}</span><span class="ct">{len(da)} stories</span></div>
       <h3>{d['title']}</h3>
       <div class="tagl">{d['tag']}</div>
       <div class="latest">{fresh}<span class="lt">{top['title'] if top else ''}</span></div>
@@ -786,26 +900,48 @@ def index_page():
     </a>"""
     # today's edition: 4 newest non-lead headlines
     rows = ""
-    for i, a in enumerate([a for a in ARTICLES if not a.get("lead")][:4], 2):
-        rows += f"""<a class="trow" href="a-{a['slug']}.html"><span class="n">{i:02d}</span><span class="t">{a['title']}</span><span class="m">{DESK_NAMES.get(a['desk'],'')} · {a['minutes']} min</span></a>"""
+    others = [a for a in ARTICLES if not a.get("lead")][:5]
+    for i, a in enumerate(others, 2):
+        cell = f'<span class="th"><img src="assets/ph/{a["slug"]}.jpg" alt="" width="112" height="112" loading="lazy" decoding="async"></span>' if a["slug"] in PH else f'<span class="th thg" style="--da:{DESK_ACCENTS.get(a.get("desk"),"#96762E")}">{desk_glyph(a.get("desk","diamonds"), 34)}</span>'
+        if i == 2:
+            rows += f"""<a class="trow trow--lead" href="a-{a['slug']}.html">{cell}<span class="tx"><span class="t">{figwrap(a['title'])}</span><span class="dk">{(a['dek'] if len(a['dek'])<=150 else a['dek'][:150].rsplit(' ',1)[0].rstrip(',;— ') + ' …')}</span><span class="m meta-serif">{DESK_NAMES.get(a['desk'],'')} · {a['minutes']} min</span></span></a>"""
+        else:
+            rows += f"""<a class="trow" href="a-{a['slug']}.html"><span class="n">{i:02d}</span>{cell}<span class="t">{a['title']}</span><span class="m">{DESK_NAMES.get(a['desk'],'')} · {a['minutes']} min</span></a>"""
     return f"""{head("CARAT CAPITAL — The Trade Paper of the Jewelry World",
       "Carat Capital is the trade paper of the global jewelry industry. Prices, intelligence and reporting from every desk of the stone trade.")}
 {navbar()}
 {omenu()}
 {wire_block()}
+<header class="nameplate home-plate rv in">
+  {HALLROW}
+  <div class="h1">CARAT<span class="caret">^</span>CAPITAL</div>
+  <div class="plate-sub">The Trade Paper of the Jewelry World</div>
+</header>
 <section class="heroF" id="front">
   <div class="wrap"><div class="hf-grid">
     <article class="rv">
       <div class="kick">{LEAD['kicker'] if LEAD else 'Lead Story'}</div>
-      <h2 class="lead-h"><a href="{lead_href}">{LEAD['title'] if LEAD else ''}</a></h2>
+      <h2 class="lead-h"><a href="{lead_href}">{figwrap(LEAD['title']) if LEAD else ''}</a></h2>
       <p class="lead-dek">{LEAD['dek'] if LEAD else ''}</p>
-      <div class="byline">By <b>{LEAD['byline'] if LEAD else ''}</b> · {LEAD['minutes'] if LEAD else 0} min read</div>
+      <div class="byline meta-serif">By <b>{LEAD['byline'] if LEAD else ''}</b> · {LEAD['minutes'] if LEAD else 0} min read</div>
+      {lead_photo}
       <a class="hf-cta" href="{lead_href}">Read this morning&rsquo;s lead →</a>
     </article>
     <aside class="pricerail rv rv-d1">
       <div class="pr-head"><span>The Price Desk</span><span class="live">● {WIRE.get("tape_ts","")}</span></div>
-      {chips}
+      <div class="chips">{chips}</div>
       <a class="pr-more" href="almanac.html">Full tape &amp; tables →</a>
+      <div class="rail-foot">
+        <div class="ed-line">{WIRE.get('date_line','')} · {WIRE.get('edition','')}</div>
+        <div class="rail-sub">
+          <div class="k">The Morning Brief · free</div>
+          <div class="row"><input id="rs-em" type="email" placeholder="you@thetrade.com" aria-label="Email">
+          <a class="go" href="https://caratcapital.beehiiv.com" target="_blank" rel="noopener" onclick="var v=document.getElementById('rs-em').value;if(v)this.href='https://caratcapital.beehiiv.com/subscribe?email='+encodeURIComponent(v)">Join →</a></div>
+          <div class="n">The trade, before the New York open.</div>
+        </div>
+        <div class="rail-mini">{railmini}</div>
+        <a class="fg-card" href="field-guide.html"><span class="fk">New here?</span><span>Start with the Field Guide →</span></a>
+      </div>
     </aside>
   </div></div>
 </section>
@@ -815,13 +951,15 @@ def index_page():
     <div class="dn-grid">{cards}</div>
   </div>
 </section>
-<section class="todayed">
+{statband}
+<section class="todayed sec--rule-gilt">
   <div class="wrap">
     <div class="sec-mast rv"><h2>Also in today&rsquo;s paper<em>.</em></h2><div class="mono-note">{WIRE.get("edition","")}</div></div>
     <div class="te-list rv">{rows}</div>
     <div class="te-links rv"><a href="the-record.html">Eight weeks of the trade → The Record</a><a href="almanac.html">The quarter in numbers → The Almanac</a><a href="field-guide.html">New to the trade? → The Field Guide</a></div>
   </div>
 </section>
+{plateband}
 <section class="homebrief">
   <div class="wrap"><div class="hb-in rv">
     <div class="k">The Morning Brief · free</div>
@@ -830,6 +968,7 @@ def index_page():
     <a class="btn" href="https://caratcapital.beehiiv.com" target="_blank" rel="noopener">Subscribe free →</a>
   </div></div>
 </section>
+<div class="subbar"><span>The Morning Brief — free, before the NY open</span><a href="https://caratcapital.beehiiv.com" target="_blank" rel="noopener">Subscribe →</a></div>
 {colophon()}
 {SCRIPT}"""
 

@@ -19,7 +19,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/styles.css?v=7b8f296e">
+<link rel="stylesheet" href="assets/styles.css?v=92fda84b">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "3,200 hours, 1,500 carats: couture week goes monumental", "description": "Paris high jewelry week's tape: Boucheron's morganite necklace carrying over 1,500 carats and some 3,200 workshop hours, Messika's 20.46-carat Okavango Blue on a 500-diamond rivi\u00e8re, Chanel's 85-piece Signes & Symboles, and Graff butterflies that convert to pendants.", "datePublished": "2026-07-15", "author": {"@type": "Organization", "name": "Carat Capital \u2014 The Design Desk"}, "publisher": {"@type": "Organization", "name": "Carat Capital", "url": "https://caratcapital.org"}, "articleSection": "Colored Gemstones", "mainEntityOfPage": "https://caratcapital.org/a-couture-week-goes-monumental.html"}</script>
 </head>
 <body>
@@ -99,10 +99,11 @@
   <div class="wrap">
     <div class="art-head rv in">
       <div class="kick">Gemstones Desk · Paris</div>
-      <h1 class="art-h">3,200 hours, 1,500 carats: couture week goes monumental</h1>
+      <h1 class="art-h"><span class="fign">3,200</span> hours, 1,500 carats: couture week goes monumental</h1>
       <p class="lead-dek">Paris high jewelry week's tape: Boucheron's morganite necklace carrying over 1,500 carats and some 3,200 workshop hours, Messika's 20.46-carat Okavango Blue on a 500-diamond rivière, Chanel's 85-piece Signes & Symboles, and Graff butterflies that convert to pendants.</p>
-      <div class="byline">By <b>The Design Desk</b> · 2026-07-15 · 6 min read</div>
+      <div class="byline meta-serif">By <b>The Design Desk</b> · 2026-07-15 · 6 min read</div>
     </div>
+    <figure class="lead-fig pfig mfig"><div class="mplate"><svg class="dglyph" width="130" height="130" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" aria-hidden="true"><path d="M15 7 H33 L42 16 V32 L33 41 H15 L6 32 V16 Z"/><path d="M18 12 H30 L37 18 V30 L30 36 H18 L11 30 V18 Z"/></svg></div><div class="cap"><span>Engraving — CC graphics desk</span><span>CC/07-15</span></div></figure>
     <div class="art-spec rv in"><div class="cap">The tape · house by house</div><div class="row"><div class="l">Boucheron</div><div class="v"><b>Carte Blanche, &ldquo;Human Being&rdquo;</b> — morganite necklace, 1,500+ ct, ~3,200 workshop hours</div></div><div class="row"><div class="l">Messika</div><div class="v">&ldquo;Terres de Contrastes&rdquo; — 20.46-ct Okavango Blue on a 500-diamond rivière</div></div><div class="row"><div class="l">Chanel</div><div class="v">&ldquo;Signes &amp; Symboles&rdquo; — 85 pieces reworking the house codes</div></div><div class="row"><div class="l">Graff</div><div class="v">Twelve unique butterfly brooches that convert to pendants</div></div><div class="row"><div class="l">Nikos Koulis</div><div class="v">&ldquo;77&rdquo; — white diamonds with plant-based acetate</div></div></div>
     <figure class="art-fig rv in"><div class="frame"><svg viewBox="0 0 620 210" role="img" aria-label="The season's two arguments: scale and movement">
 <text x="310" y="26" font-family="'IBM Plex Mono',monospace" font-size="11" letter-spacing="2" fill="#7A7263" text-anchor="middle">THE SEASON&#8217;S TWO ARGUMENTS</text>
@@ -179,6 +180,7 @@ document.querySelectorAll('.rv').forEach(el=>io.observe(el));
 requestAnimationFrame(()=>document.querySelectorAll('.rv').forEach(el=>{const r=el.getBoundingClientRect();if(r.top<innerHeight&&r.bottom>0)el.classList.add('in')}));
 const sio=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('go');sio.unobserve(e.target)}}),{threshold:.4});
 document.querySelectorAll('.spark').forEach(el=>sio.observe(el));
+if(innerWidth>860)document.querySelectorAll('details.mob-collapse').forEach(d=>d.open=true);
 </script>
 </body>
 </html>

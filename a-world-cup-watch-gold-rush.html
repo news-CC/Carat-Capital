@@ -19,7 +19,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/styles.css?v=7b8f296e">
+<link rel="stylesheet" href="assets/styles.css?v=92fda84b">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "World Cup gold rush: watchmakers bet the summer on football", "description": "Diamond-set footballs, athlete ambassadors and tournament-timed limited editions \u2014 the industry is spending the summer converting football fever into waiting lists.", "datePublished": "2026-07-10", "author": {"@type": "Organization", "name": "Carat Capital \u2014 The Watches Desk"}, "publisher": {"@type": "Organization", "name": "Carat Capital", "url": "https://caratcapital.org"}, "articleSection": "Watches", "mainEntityOfPage": "https://caratcapital.org/a-world-cup-watch-gold-rush.html"}</script>
 </head>
 <body>
@@ -101,8 +101,9 @@
       <div class="kick">Watches Desk · Geneva</div>
       <h1 class="art-h">World Cup gold rush: watchmakers bet the summer on football</h1>
       <p class="lead-dek">Diamond-set footballs, athlete ambassadors and tournament-timed limited editions — the industry is spending the summer converting football fever into waiting lists.</p>
-      <div class="byline">By <b>The Watches Desk</b> · 2026-07-10 · 4 min read</div>
+      <div class="byline meta-serif">By <b>The Watches Desk</b> · 2026-07-10 · 4 min read</div>
     </div>
+    <figure class="lead-fig pfig mfig"><div class="mplate"><svg class="dglyph" width="130" height="130" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" aria-hidden="true"><circle cx="24" cy="25" r="13.5"/><path d="M24 25 V16 M24 25 L30.5 28.5 M17 13 L20 7 H28 L31 13 M17 37 L20 43 H28 L31 37"/><circle cx="24" cy="25" r="1.6" fill="currentColor"/></svg></div><div class="cap"><span>Engraving — CC graphics desk</span><span>CC/07-10</span></div></figure>
     <div class="art-spec rv in"><div class="cap">The campaign · summer 2026</div><div class="row"><div class="l">Occasion</div><div class="v"><b>2026 World Cup</b> — a single, synchronized marketing calendar</div></div><div class="row"><div class="l">Product</div><div class="v">Diamond-encrusted footballs, limited references timed to kickoff dates</div></div><div class="row"><div class="l">Faces</div><div class="v">Athlete ambassadors — signings that went to actors a decade ago</div></div><div class="row"><div class="l">Territory</div><div class="v">North American retail is the primary target; Geneva supplies the prestige</div></div><div class="row"><div class="l">Precedent</div><div class="v">Horology's long romance with motorsport — at new scale</div></div></div>
     
     <div class="art-body rv in"><h2 class="art-sub"><span class="n">§1</span>Football did what Baselworld never managed.</h2><p class="drop">The 2026 World Cup has done something Baselworld never managed: it has given the entire watch and jewelry industry a single, synchronized marketing calendar. Across the trade, houses are shipping tournament-adjacent product — from diamond-encrusted footballs built as showcase pieces to limited references timed to kickoff dates — betting that a summer of global attention converts into autumn sales.</p><h2 class="art-sub"><span class="n">§2</span>The motorsport playbook, at World Cup scale.</h2><p>The playbook is familiar from horology's long romance with motorsport, but the scale is new. North American retail, hosting much of the tournament, is the primary target; Geneva supplies the prestige, Miami and New York supply the foot traffic.</p><h2 class="art-sub"><span class="n">§3</span>Every price tier gets a sport story.</h2><p>Industry coverage this week highlights sport-inspired collections landing at every price tier — the trade press notes diamond-set footballs among the season's showcase items, alongside athlete ambassador signings that would have gone to actors a decade ago.</p><div class="art-pull"><q>Geneva supplies the prestige, Miami and New York supply the foot traffic.</q><div class="attr">— The Watches Desk</div></div><div class="art-also"><span class="k">See also</span><a href="a-time-boxes-mystery-watch.html">A mystery Rolex in every box: Derek Jeter gamifies the watch case →</a></div><div class="art-desk rv in"><div class="lab"><span>The Desk&rsquo;s View</span><span>Watches</span></div><div class="in"><p>Sport partnerships are the rare marketing spend that reaches men aged 25 to 45 — the demographic luxury watches need and jewelry historically ignores.</p><p class="kick2">Expect the winners of this summer to make the arrangement permanent.</p></div></div></div>
@@ -163,6 +164,7 @@ document.querySelectorAll('.rv').forEach(el=>io.observe(el));
 requestAnimationFrame(()=>document.querySelectorAll('.rv').forEach(el=>{const r=el.getBoundingClientRect();if(r.top<innerHeight&&r.bottom>0)el.classList.add('in')}));
 const sio=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('go');sio.unobserve(e.target)}}),{threshold:.4});
 document.querySelectorAll('.spark').forEach(el=>sio.observe(el));
+if(innerWidth>860)document.querySelectorAll('details.mob-collapse').forEach(d=>d.open=true);
 </script>
 </body>
 </html>

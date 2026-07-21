@@ -19,7 +19,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/styles.css?v=7b8f296e">
+<link rel="stylesheet" href="assets/styles.css?v=92fda84b">
 
 </head>
 <body>
@@ -485,6 +485,7 @@ document.querySelectorAll('.rv').forEach(el=>io.observe(el));
 requestAnimationFrame(()=>document.querySelectorAll('.rv').forEach(el=>{const r=el.getBoundingClientRect();if(r.top<innerHeight&&r.bottom>0)el.classList.add('in')}));
 const sio=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('go');sio.unobserve(e.target)}}),{threshold:.4});
 document.querySelectorAll('.spark').forEach(el=>sio.observe(el));
+if(innerWidth>860)document.querySelectorAll('details.mob-collapse').forEach(d=>d.open=true);
 </script>
 </body>
 </html>

@@ -19,7 +19,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/styles.css?v=7b8f296e">
+<link rel="stylesheet" href="assets/styles.css?v=92fda84b">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Dubai's $41.7 billion year: the trade's center of gravity moves", "description": "The emirate's diamond trade rose 16 percent in 2025 to a record $41.7 billion on 359.5 million carats, up 43 percent \u2014 the first time its value and volume records fell in the same year. Antwerp's entire first half of 2026, for scale: $10.6 billion.", "datePublished": "2026-07-15", "author": {"@type": "Organization", "name": "Carat Capital \u2014 The Data Desk"}, "publisher": {"@type": "Organization", "name": "Carat Capital", "url": "https://caratcapital.org"}, "articleSection": "Diamonds", "mainEntityOfPage": "https://caratcapital.org/a-dubai-41-billion-year.html"}</script>
 </head>
 <body>
@@ -101,8 +101,9 @@
       <div class="kick">Diamonds Desk · Dubai</div>
       <h1 class="art-h">Dubai's $41.7 billion year: the trade's center of gravity moves</h1>
       <p class="lead-dek">The emirate's diamond trade rose 16 percent in 2025 to a record $41.7 billion on 359.5 million carats, up 43 percent — the first time its value and volume records fell in the same year. Antwerp's entire first half of 2026, for scale: $10.6 billion.</p>
-      <div class="byline">By <b>The Data Desk</b> · 2026-07-15 · 6 min read</div>
+      <div class="byline meta-serif">By <b>The Data Desk</b> · 2026-07-15 · 6 min read</div>
     </div>
+    <figure class="lead-fig pfig mfig"><div class="mplate"><svg class="dglyph" width="130" height="130" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" aria-hidden="true"><path d="M16 7 H32 L41 17 L24 42 L7 17 Z"/><path d="M7 17 H41 M16 7 L24 17 L32 7 M24 17 V42 M16 7 L12 17 M32 7 L36 17"/></svg></div><div class="cap"><span>Engraving — CC graphics desk</span><span>CC/07-15</span></div></figure>
     <div class="art-strip rv in"><div class="cap">By the numbers · DMCC 2025 ledger</div><div class="grid"><div class="cell"><div class="fig">$41.7B</div><div class="lab"><span class="up">▲ +16%</span> · 2025 trade, a record</div></div><div class="cell"><div class="fig">359.5M</div><div class="lab"><span class="up">▲ +43%</span> · carats, volume record</div></div><div class="cell"><div class="fig">96%</div><div class="lab">of value still natural</div></div><div class="cell"><div class="fig">+246%</div><div class="lab">polished value since 2020</div></div><div class="cell"><div class="fig">$10.6B</div><div class="lab">Antwerp · all of H1 2026</div></div></div></div>
     <figure class="art-fig rv in"><div class="frame"><svg viewBox="0 0 620 300" role="img" aria-label="Balance weighing Dubai against Antwerp">
 <g stroke="#16130E" fill="none"><line x1="310" y1="70" x2="310" y2="250" stroke-width="1.4"/>
@@ -193,6 +194,7 @@ document.querySelectorAll('.rv').forEach(el=>io.observe(el));
 requestAnimationFrame(()=>document.querySelectorAll('.rv').forEach(el=>{const r=el.getBoundingClientRect();if(r.top<innerHeight&&r.bottom>0)el.classList.add('in')}));
 const sio=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('go');sio.unobserve(e.target)}}),{threshold:.4});
 document.querySelectorAll('.spark').forEach(el=>sio.observe(el));
+if(innerWidth>860)document.querySelectorAll('details.mob-collapse').forEach(d=>d.open=true);
 </script>
 </body>
 </html>
