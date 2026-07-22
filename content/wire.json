@@ -1,67 +1,67 @@
 {
- "date_line": "Tuesday, July 21, 2026",
- "edition": "Vol. I — No. 011",
+ "date_line": "Wednesday, July 22, 2026",
+ "edition": "Vol. I — No. 012",
  "items": [
   {
-   "b": "SWISS +11.2%",
-   "t": " — June exports hit CHF 2.4B on 1.3M pieces, the year's first double-digit month; France doubles to CHF 250M, the CHF 200–500 band grows 54.1%"
+   "b": "GOLD 4,131",
+   "t": " — the quiet week breaks a session early: +1.33% late Tuesday on a $3,998.80–$4,142.70 run, short covering and haven demand doing the lifting"
   },
   {
-   "b": "GOLD 4,008",
-   "t": " — the tape idles on the floor with one quiet week left before the July 28–29 Fed meeting; Monday's Kitco board closed $4,000.30"
+   "b": "SILVER 60.11",
+   "t": " — the high of the day knocks on sixty for the first time since the June selloff; the board settles 59.64, +1.67%"
   },
   {
    "b": "VENETIA 1,214",
-   "t": " — the NUM says De Beers' two-year pause puts 1,134 mine jobs and 80 sales staff into Section 189A consultation"
+   "t": " — the NUM condemns De Beers' two-year pause, counters with executive cost reviews and retraining, and pledges every legal channel"
   },
   {
-   "b": "DIAVIK 33,000 ct",
-   "t": " — Rio Tinto processes the leftovers of a mine that closed in March; H1 output −51%, sales end with 2026, and a major exits diamonds"
+   "b": "BRAZIL 35%",
+   "t": " — a 25% Section 301 tariff stacks on the existing 10% at 12:01 a.m. July 23; rough gems and unwrought metals exempt, polished and finished jewelry pay"
   },
   {
-   "b": "WOS £133M",
-   "t": " — Watches of Switzerland's statutory pre-tax profit jumps 76%, six weeks after rebuffing a reported £1.75B approach; IDEX says buyers are circling again"
+   "b": "LUK FOOK +32%",
+   "t": " — April–June retail sales up 32%, gold same-store +50%; diamond same-store −17% group and −58% on the mainland; 148 net stores closed"
   },
   {
-   "b": "US RETAIL +8.6%",
-   "t": " — H1 jewelry revenue grows on a 19% higher average ticket while unit sales fall, per Tenoris; June alone +13%"
+   "b": "CHOW SANG SANG +16%",
+   "t": " — retail value up 16% for the quarter, same-store +17% in China and +30% in Hong Kong & Macau; 776 doors after 49 net closures"
   },
   {
-   "b": "LUK FOOK +39%",
-   "t": " — same-store sales surge on gold (+50%) as diamonds fall 17%; mainland China diamond sales −58% while a VAT change pushes buyers to Hong Kong"
+   "b": "THE KNOT 61%",
+   "t": " — the 2026 Real Weddings study says 61% of couples married in 2025 chose lab-grown center stones; premium 1ct labs retail $800–1,200"
   },
   {
-   "b": "SILVER 56.36",
-   "t": " — the white metal holds Monday's 1.22% gain and keeps leading the complex; platinum 1,573, palladium 1,240"
+   "b": "PANDORA ×8",
+   "t": " — lab-grown collections reach Spain and Italy via Barcelona and Milan flagships, the eighth market for the line; the NDC disputes its carbon math"
   },
   {
-   "b": "PEARLS 4×",
-   "t": " — a natural two-row strand makes £39,680 on a £10,000 estimate at Bonhams as Tenoris counts pearls among the half's retail surprises"
+   "b": "BONHAMS 114,800",
+   "t": " — a 1970s Cartier Bamboo Coussin leads a record spring as Piaget doubles and triples; a 1930s Rolex Prince manages $2,176"
   },
   {
-   "b": "AHEAD",
-   "t": " — the FOMC meets July 28–29 with December hike odds near 82%; the De Beers sale process moves with Penny's consortium preferred and Botswana deciding"
+   "b": "BEAVERBROOKS IV",
+   "t": " — a fourth Rolex-anchored Loupe boutique takes over Sheffield's 165-year-old H. L. Brown showroom at 2 Barker's Pool"
   }
  ],
- "tape_ts": "21 Jul 2026, 06:00 a.m. ET",
+ "tape_ts": "21 Jul 2026, 11:52 p.m. ET",
  "tape": [
   {
    "name": "Gold / oz",
    "code": "XAU",
-   "px": "4,008.00",
-   "chg": "▼ −0.3%",
-   "dir": "dn",
+   "px": "4,131.00",
+   "chg": "▲ +1.33%",
+   "dir": "up",
    "pts": [
     13,
-    14,
     12,
     13,
     12,
+    13,
+    12,
+    13,
     14,
-    15,
     16,
-    16,
-    15
+    17
    ]
   },
   {
@@ -105,39 +105,39 @@
   {
    "name": "Platinum / oz",
    "code": "XPT",
-   "px": "1,573.00",
-   "chg": "▼ −1.4%",
-   "dir": "dn",
+   "px": "1,660.00",
+   "chg": "▲ +2.28%",
+   "dir": "up",
    "pts": [
-    12,
     13,
     13,
     14,
+    14,
+    13,
+    12,
+    12,
+    13,
     15,
-    15,
-    16,
-    15,
-    15,
-    14
+    16
    ]
   },
   {
    "name": "Silver / oz",
    "code": "XAG",
-   "px": "56.36",
-   "chg": "▼ −0.7%",
-   "dir": "dn",
+   "px": "59.64",
+   "chg": "▲ +1.67%",
+   "dir": "up",
    "pts": [
     12,
     11,
+    12,
     12,
     13,
     13,
     14,
     15,
     16,
-    16,
-    15
+    16
    ]
   }
  ]

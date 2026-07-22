@@ -1,10 +1,40 @@
 {
- "updated": "21 Jul 2026",
+ "updated": "22 Jul 2026",
  "intro": "Eight weeks of the trade, kept the way a ledger should be kept — dated, sourced, and in one place. New entries are added at the top each week; the quarter's running numbers live in the Almanac below.",
  "weeks": [
   {
    "label": "This week — July 20",
    "entries": [
+    {
+     "d": "gold-metals",
+     "h": "Gold's $144 Tuesday ends the quiet week early",
+     "t": "Kitco's late-Tuesday board read $4,131 (+1.33%) after a $3,998.80–$4,142.70 session — nearly $144 low to high and roughly $130 above Monday's $4,000.30 close. Silver touched $60.11 (settling 59.64, +1.67%), platinum added 2.28% to $1,660, palladium 2.85% to $1,297. Kitco credited short covering and renewed haven demand tied to the US-Iran conflict, through a firmer dollar and rising yields.",
+     "s": "Kitco"
+    },
+    {
+     "d": "retail-tech",
+     "h": "Luk Fook: gold same-store +50%, mainland diamonds −58%",
+     "t": "April–June retail sales rose 32% y/y (group SSS +39%; HK/Macau +41%, mainland +22%). Gold SSS gained 50% (HK/Macau +55%) while diamond SSS fell 17% group-wide and 58% on the mainland. Net 148 stores closed, leaving 2,857. Chow Sang Sang's retail value rose 16% (SSS +17% China, +30% HK/Macau), with 776 doors after 49 net H1 closures.",
+     "s": "Rapaport"
+    },
+    {
+     "d": "gemstones",
+     "h": "US stacks a 35% tariff on Brazilian polished; rough rides free",
+     "t": "A 25% Section 301 tariff effective 12:01 a.m. July 23 layers on the existing 10% for 35% total on cut/polished stones and finished jewelry from Brazil; rough (HTS 7103.10.20/.40) and unwrought precious metals are exempt. A pending 12.5% forced-labor duty would take the stack to 37.5%. JVC's Sara Yood called the metals carve-out broad; polished gets no relief.",
+     "s": "National Jeweler"
+    },
+    {
+     "d": "diamonds",
+     "h": "The Knot: 61% of 2025's couples chose lab-grown centers",
+     "t": "The 2026 Real Weddings study found 61% of engagement rings for couples married in 2025 carried lab-grown center stones. Lab-grown wholesale fell 14–15% y/y in Q1 2026; a premium 1ct retails $800–1,200. Analyst Sherry Smith argues the market is bifurcated — value versus luxury — rather than either/or.",
+     "s": "National Jeweler / The Knot"
+    },
+    {
+     "d": "diamonds",
+     "h": "NUM condemns Venetia pause: 1,214 jobs in consultation",
+     "t": "The National Union of Mineworkers formally condemned De Beers' two-year Venetia halt — 1,134 mine employees plus 80 DBSSSA staff in Section 189A consultation — accusing the company of presenting a predetermined decision and proposing executive cost reviews, retraining and top-down cuts instead. Chief negotiator Masibulele Naki: workers are not disposable tools.",
+     "s": "Rapaport"
+    },
     {
      "d": "watches",
      "h": "Swiss exports snap back 11.2% in June",

@@ -1,9 +1,262 @@
 [
  {
+  "slug": "gold-goes-144-in-a-day",
+  "desk": "gold-metals",
+  "date": "2026-07-22",
+  "lead": true,
+  "kicker": "Lead Story · Gold & Metals Desk",
+  "title": "The $144 day: gold breaks its quiet week early",
+  "dek": "Kitco's late-Tuesday board read $4,131, up 1.33%, after a stretch that ran from $3,998.80 at the low to $4,142.70 at the high. Silver traded to $60.11, platinum added 2.28%, and the Fed is still six days out.",
+  "byline": "The Metals Desk",
+  "minutes": 5,
+  "tags": [
+   "NUM",
+   "STAKES"
+  ],
+  "body": [
+   "The quiet week lasted one session. On Monday gold closed at $4,000.30 and this desk wrote that the tape had nothing to do but wait for the July 28-29 Fed meeting. On Tuesday the market disagreed. By late evening in New York, Kitco's board showed spot gold at $4,131.00, up $54.30 on the session, or 1.33%, after a run that touched $3,998.80 at the low and $4,142.70 at the high. Between those two prints, gold traveled nearly $144 inside a day, and finished roughly $130 above Monday's close.",
+   "The push came from the usual two hands working together. Kitco's Tuesday market report credited \"short covering and renewed haven demand\" for the move, with the US-Iran conflict lifting crude oil for another session and money returning to metal even as Treasury yields rose and the dollar firmed. That last part is the notable piece of the arithmetic: gold rallying through a firmer dollar is a sign of demand that is not waiting for the currency math to cooperate.",
+   "The white metals ran harder than the yellow one. Silver settled at $59.64, up 1.67%, after touching $60.11 at the high, a level it last saw before the June selloff carved the price back to the mid-fifties. Platinum added 2.28% to $1,660 and traded as high as $1,676. Palladium rose 2.85% to $1,297, with a $1,347 print at the top of its range. Whatever the complex was waiting for last week, all four metals decided on Tuesday that it had arrived early.",
+   "For the jewelry trade, the move re-prices the counter again, and it does so a week before the Fed provides any cover for it. A bench buying gold at $4,131 on Wednesday is working $130 above Monday's cost, and the retailers who report next week will be asked, again, whether the customer keeps absorbing it. The early evidence from Asia, in Luk Fook's quarter published this week, is that she does. The July 28-29 meeting now arrives with the tape hot rather than flat, which changes the stakes of a hold: a Fed that does nothing into a rising gold market is, for this trade, a Fed that did something.",
+   "The desk's view: A $144 range in one day is not a trend, and Tuesday's short-covering can unwind as fast as it arrived. But the floor at $3,964 has now been tested three times and bought three times, and the first big move off it went up, not down. The waiting room emptied early. The meeting will tell us whether it refills."
+  ],
+  "sources": [
+   {
+    "title": "Kitco — Precious Metals Spot Prices (July 21, 2026 board)",
+    "url": "https://www.kitco.com/price/precious-metals"
+   },
+   {
+    "title": "Fortune — Current price of gold, July 20, 2026",
+    "url": "https://fortune.com/article/current-price-of-gold-07-20-202/"
+   }
+  ]
+ },
+ {
+  "slug": "india-pays-in-old-gold",
+  "desk": "gold-metals",
+  "date": "2026-07-22",
+  "kicker": "Gold & Metals Desk · Mumbai",
+  "title": "Seventy percent old gold: India's counter learns to recycle",
+  "dek": "The World Gold Council's July update shows imports down 42% in June to $1.97 billion, the lowest since June 2025, while some retailers report old-gold exchanges at up to 70% of jewelry sales and April-June revenue up 30-60%.",
+  "byline": "The Bullion Desk",
+  "minutes": 4,
+  "tags": [
+   "NUM",
+   "GAP",
+   "HOWTO"
+  ],
+  "body": [
+   "The most striking number in the World Gold Council's July update on India is not a price. It is a proportion: at some retailers, old-gold exchanges now make up as much as 70% of jewelry sales. The customer walks in with her grandmother's bangles and walks out with a new set, and the till records a sale that required almost no new metal at all. Kavita Chacko's market report, published July 17, describes a market that has responded to four-thousand-dollar gold not by leaving the counter but by feeding it from the household vault.",
+   "The price backdrop explains the behavior. International gold fell more than 11% in June to around $4,000 an ounce before stabilizing in July, and domestic prices declined roughly 10% to near 141,000 rupees per ten grams. The year-to-date split is stranger: international prices are down 7% in 2026, but Indian domestic prices have gained 6%, propped up by a May import-duty increase and a softer rupee. Indian households, in other words, have watched local gold get more expensive even through a global correction, and the rational response has been to monetize the metal already in the cupboard.",
+   "Demand did not disappear; it changed shape. Retailers reported April-June revenue growth of 30-60% year over year as the June price dip pulled buyers in. Gold ETFs took in 34.4 billion rupees in June, the strongest month since February, and digital gold purchases reached a three-month high of 25.5 billion rupees in transaction value. Bars and coins, the classic price-chasing trade, cooled as softer prices made the momentum case harder to tell.",
+   "The recycling wave shows up in the trade accounts. Gold imports fell 42% month over month to $1.97 billion in June, the lowest reading since June 2025, with estimated volumes of just 16-22 tonnes. With scrap supplying the counters, the domestic discount to international prices narrowed from a peak of $150 an ounce in May to about $40 by mid-July. A market that once imported its demand is, for now, circulating it.",
+   "The desk's view: India is often described as the world's price-taker in gold. This summer it looks more like a closed loop, selling itself its own metal at a narrowing discount. For the global market the message is subtle but real: when the world's second-largest consumer meets a rally with recycled supply rather than fresh imports, the marginal ounce has to find its buyer somewhere else."
+  ],
+  "sources": [
+   {
+    "title": "World Gold Council — India gold market update: mixed demand signals (Kavita Chacko, July 17, 2026)",
+    "url": "https://www.gold.org/goldhub/gold-focus/2026/07/india-gold-market-update-mixed-demand-signals"
+   }
+  ]
+ },
+ {
+  "slug": "gold-up-fifty-diamonds-down",
+  "desk": "retail-tech",
+  "date": "2026-07-22",
+  "kicker": "Retail & Tech Desk · Hong Kong",
+  "title": "Gold up fifty, diamonds down fifty-eight: Luk Fook's split quarter",
+  "dek": "Retail sales rose 32% in April-June and gold same-store sales gained 50%, but diamond same-store sales fell 17% group-wide and 58% on the mainland. Chow Sang Sang grew 16%. Both chains kept closing stores.",
+  "byline": "The Counter Desk",
+  "minutes": 5,
+  "tags": [
+   "NUM",
+   "VS"
+  ],
+  "body": [
+   "Luk Fook's first fiscal quarter reads like two companies filing one report. For the three months to June 30, the Hong Kong jeweler's retail sales rose 32% year over year and group same-store sales gained 39%, with Hong Kong and Macau up 41% and the mainland up 22%. Strip out the shine, though, and the quarter splits cleanly along product lines: gold same-store sales surged 50%, while diamond same-store sales fell 17%. On the mainland, the diamond number was a startling minus 58%.",
+   "The gold side of the ledger no longer even blames the price. Same-store gold sales rose 55% in Hong Kong and Macau and 21% on the mainland, and the company observed that \"consumers have gradually adapted to the high gold price environment\". That is the quiet capitulation the trade has been waiting three years to hear: the customer has stopped treating four-thousand-dollar gold as a reason to wait, and started treating it as the reason to buy.",
+   "Across town, Chow Sang Sang told the same story at a lower amplitude. Retail sales value rose 16% for the June quarter, with same-store sales up 17% in China and 30% in Hong Kong and Macau, driven by steady local demand and returning tourist traffic. Gold jewelry held its bid throughout; the company credited its signature collections for keeping customers at the counter through the price swings.",
+   "What neither company is doing is opening stores. Luk Fook closed a net 148 locations in the quarter, taking its global count to 2,857, even as it opened a self-operated store in Singapore, launched a licensed shop in Vietnam, and penciled in 30 net new overseas stores across two more countries for the fiscal year. Chow Sang Sang closed a net 49 shops in the first half, ending June at 776. The playbook on both sides is identical: fewer, better doors, and a counter that sells metal first.",
+   "The desk's view: Yesterday this desk wrote that Hong Kong's gold counters were running hot; today the ledgers confirm it, and put a number on the cost. A 50% gold quarter and a minus-58% mainland diamond quarter are the same fact seen from two sides. The wedding stone has lost the argument for the mainland customer's wallet, and the bullion counter has won it. Retailers everywhere should read those two numbers together before planning next year's showcase."
+  ],
+  "sources": [
+   {
+    "title": "Rapaport — Gold Spike Bumps Up First-Quarter Sales at Luk Fook",
+    "url": "https://rapaport.com/news/gold-spike-bumps-up-first-quarter-sales-at-luk-fook/"
+   },
+   {
+    "title": "Rapaport — Chow Sang Sang Revenue Rises as Gold Jewelry Demand Holds Steady",
+    "url": "https://rapaport.com/news/chow-sang-sang-revenue-rises-as-gold-jewelry-demand-holds-steady/"
+   }
+  ]
+ },
+ {
+  "slug": "disposable-tools-at-venetia",
+  "desk": "diamonds",
+  "date": "2026-07-22",
+  "kicker": "Diamonds Desk · Limpopo",
+  "title": "‘Disposable tools’: the miners’ union answers De Beers",
+  "dek": "The National Union of Mineworkers has condemned the two-year Venetia pause that puts 1,134 mine employees and 80 sales staff into consultation, accusing De Beers of presenting a predetermined decision and proposing cuts that start in the executive suite.",
+  "byline": "The Mines Desk",
+  "minutes": 4,
+  "tags": [
+   "ACTOR",
+   "STAKES"
+  ],
+  "body": [
+   "The response to Venetia arrived within days, and it was not conciliatory. The National Union of Mineworkers, South Africa's largest mining union, has formally condemned De Beers' plan to halt production at the Venetia mine for two years, a move that places 1,214 workers into retrenchment consultation: 1,134 permanent mine employees and a further 80 at De Beers Sightholder Sales South Africa. NUM's diamond-sector chief negotiator, Masibulele Naki, put the union's position in one line: \"Workers cannot be treated as disposable tools\".",
+   "The union's sharpest charge is about timing, not economics. De Beers, NUM argues, has known about the challenges confronting the diamond market for a long time, and yet presented the pause to the workforce as a sudden necessity, with dismissal notices issued before any meaningful engagement. In the union's telling, the consultation now underway is theater around a decision already taken, and the company's communication before the announcement was close to nonexistent.",
+   "NUM is not arguing that the diamond market's troubles are imaginary. Its counterproposal accepts the pressure and redirects it: executive cost reviews before worker retrenchments, retraining programs for underground staff, and spending cuts that do not start at the bottom of the pay scale. The union has pledged to use all available organizational, legal and collective bargaining channels to protect its members, which in South African labor practice can stretch a Section 189A process considerably.",
+   "The fight lands at an awkward hour for the company. De Beers is being sold; Anglo American has named Gareth Penny's consortium as preferred bidder, Botswana has negotiated its own stake upward, and the Venetia pause is part of the cost discipline that makes the asset presentable. Venetia is South Africa's largest diamond mine and the country's principal remaining stake in an industry it once defined. A two-year pause with 1,214 jobs attached is, for the Limpopo towns around the pit, indistinguishable from a closure with a promise stapled to it.",
+   "The desk's view: Every diamond-market downturn eventually stops being a price chart and becomes a payroll. The union's argument that the company saw this coming is hard to dismiss: this page has been charting the rough market's slide for months, and De Beers' own sight cuts told the same story. The question for the new owners is whether Venetia's two years dark end in a restart or a eulogy. The workers have noticed that nobody will put the restart in writing."
+  ],
+  "sources": [
+   {
+    "title": "Rapaport — Mining Union Condemns Potential De Beers Layoffs at Venetia (Suzanne Watkin)",
+    "url": "https://rapaport.com/news/mining-union-condemns-potential-de-beers-layoffs-at-venetia/"
+   }
+  ]
+ },
+ {
+  "slug": "sixty-one-percent-said-lab",
+  "desk": "diamonds",
+  "date": "2026-07-22",
+  "kicker": "Diamonds Desk · The Aisle",
+  "title": "Sixty-one percent: the aisle has already voted",
+  "dek": "The Knot's 2026 Real Weddings study finds 61% of couples who married in 2025 chose lab-grown center stones. Wholesale prices fell 14-15% in the first quarter; a premium one-carat lab stone now retails for $800-$1,200.",
+  "byline": "The Demand Desk",
+  "minutes": 4,
+  "tags": [
+   "NUM",
+   "QWHO"
+  ],
+  "body": [
+   "The lab-grown debate has an official scoreboard now, and it is not close. According to The Knot's 2026 Real Weddings study, 61% of engagement rings bought by couples who married in 2025 carried lab-grown center stones. Whatever position a jeweler holds on the natural-versus-grown question, the American aisle has already voted, and it voted for the machine by a margin that would end most arguments.",
+   "The economics underneath the number are brutal in one direction and liberating in the other. Lab-grown wholesale prices fell another 14-15% year over year in the first quarter of 2026. A premium one-carat lab-grown stone now retails between $800 and $1,200, with entry-level goods available for a few hundred dollars. For a generation, as the analyst Sherry Smith writes in National Jeweler, that is balancing a ring against homeownership, inflation and student debt, the choice stops feeling like a compromise and starts feeling like arithmetic.",
+   "Smith's larger argument is that the trade has framed the question wrong. The market is not either/or, she contends, but bifurcated: lab-grown owns value and accessibility, natural diamonds own luxury and rarity, and a retailer's job is building an environment where both can thrive rather than treating one as the other's obituary. She also names the uncomfortable truth behind the natural side's slide: the industry stopped telling its story, and today's engagement customer did not grow up with the campaigns that made the diamond a requirement in the first place.",
+   "The scoreboard does not settle where prices go next. This desk reported last week that lab-grown wholesale has been finding a floor, with some categories firming for the first time in two years, even as retail prices keep drifting down. And the natural market's own data offered a countercurrent: one-carat natural prices have stirred, and De Beers' Gen Z research, whatever its methodology, claims record American interest in diamonds generally. A 61% share of a growing category is not the same as a 61% share of a fixed pie.",
+   "The desk's view: The number that matters is not 61; it is whichever number comes next. If lab-grown's share plateaus here, the trade settles into Smith's bifurcation and both counters make money. If it keeps climbing, the natural engagement stone becomes what the mechanical watch became: a luxury object justified by meaning rather than convention. The watch industry, it is worth noting, eventually found that trade rather profitable."
+  ],
+  "sources": [
+   {
+    "title": "National Jeweler — Sherry Smith: Shattering the Illusion of the 'Either/Or' Diamond Market",
+    "url": "https://nationaljeweler.com/articles/15153-sherry-smith-shattering-the-illusion-of-the-either-or-diamond-market"
+   }
+  ]
+ },
+ {
+  "slug": "brazil-rough-rides-free",
+  "desk": "gemstones",
+  "date": "2026-07-22",
+  "kicker": "Gemstones Desk · Trade Policy",
+  "title": "Thirty-five percent at midnight: Brazil's rough rides free",
+  "dek": "A 25% Section 301 tariff on Brazilian goods takes effect July 23, stacking to 35% on polished stones and finished jewelry. Rough gemstones and unwrought precious metals are exempt, and the math may soon read 37.5%.",
+  "byline": "The Color Desk",
+  "minutes": 4,
+  "tags": [
+   "NUM",
+   "VS",
+   "STAKES"
+  ],
+  "body": [
+   "At 12:01 a.m. Eastern time on July 23, Brazilian goods entering the United States pick up a new 25% tariff under Section 301 of the Trade Act, the result of a year-long administration investigation that found Brazilian policies unreasonable burdens on US commerce. Layered on the existing 10% Section 122 duty, the effective rate on most Brazilian jewelry goods becomes 35% overnight. For a trade that prices in single percentage points, it is the largest single repricing of a major gem source since the 2025 tariff rounds.",
+   "The carve-outs are where the strategy lives. Rough gemstones under HTS codes 7103.10.20 and 7103.10.40 are exempt, as are precious metals in unwrought and semi-manufactured form: silver, gold, platinum, palladium and rhodium all pass free. What pays is everything Brazil adds value to at home: cut and polished stones, and finished jewelry. Sara Yood of the Jewelers Vigilance Committee noted the metals exemptions are \"pretty broad\" and consistent with prior policy, while confirming the polished and finished categories enjoy no such relief.",
+   "The arithmetic has a second act. The current 10% Section 122 tariff expires July 24, and a separate 12.5% duty tied to the administration's forced-labor investigation, which surveyed 60 countries and found Brazil among 54 falling short on enforcement, is waiting in the wings. When that activates, the combined rate lands at 37.5%. Importers are effectively being asked to plan around three different totals inside a single season.",
+   "What this means at the counter depends on the stone. Brazil is the world's dominant source of fine tourmaline, including Paraíba, and a major supplier of aquamarine, topaz, amethyst and citrine, with a cutting industry centered on Minas Gerais that has spent decades moving up the value chain. The exemption structure now pushes directly against that: rough leaving Brazil for cutting in the US or Asia travels duty-free, while a stone finished by a Brazilian lapidary pays 35% at the American border. The tariff, whatever its intent, is a subsidy for cutting Brazilian stones anywhere except Brazil.",
+   "The desk's view: Dealers holding polished Brazilian inventory stateside just watched its replacement cost jump by a third, and Paraíba, already the most supply-starved stone in the colored market, now has a customs multiplier on top of its scarcity one. Expect landed prices to move within weeks, and expect the phrase 'pre-tariff goods' to start appearing in dealer offers. It will occasionally even be true."
+  ],
+  "sources": [
+   {
+    "title": "National Jeweler — Tariffs on Brazil to Increase But Rough Gemstones Exempt",
+    "url": "https://nationaljeweler.com/articles/15149-tariffs-on-brazil-to-increase-but-rough-gemstones-exempt"
+   }
+  ]
+ },
+ {
+  "slug": "graff-pins-the-butterfly",
+  "desk": "gemstones",
+  "date": "2026-07-22",
+  "kicker": "Gemstones Desk · High Jewelry",
+  "title": "Graff pins the butterfly: twelve brooches built to tremble",
+  "dek": "A new high-jewelry capsule revives the 17th-century jabot pin with en tremblant wings, Paraíba tourmalines, invisibly set pink sapphires and a house motif dating to 1975. Every piece converts to a pendant. Prices on request.",
+  "byline": "The Design Desk",
+  "minutes": 4,
+  "tags": [
+   "ACTOR",
+   "GAP"
+  ],
+  "body": [
+   "Graff has taken the butterfly, its house motif since 1975, and pinned it to one of jewelry's oldest formats. The London house's new high-jewelry capsule comprises twelve brooches designed as jabot pins, the double-ended fasteners of the seventeenth century, each one convertible into a pendant. The wings are mounted en tremblant, on tiny sprung mechanisms, so the butterflies flutter with the wearer's movement rather than sitting still under glass.",
+   "The stone work runs the house's full register. Tamara sets a marquise-cut emerald at the center of an Art Deco sunburst in white gold and diamonds. Freya borrows an archival dragonfly design and paves its wings in fancy-cut and pear-shaped yellow diamonds. Eva, the painterly one, arcs a gradient of sapphires, emeralds, Paraíba tourmalines and diamonds across its span, an effect the house traces to Monet's garden canvases, with miniature butterflies scattered around the principal one for extra motion. Lina works square-cut pink sapphires into an invisible setting, finishing the jabot tip with a marquise pink sapphire and a pavé butterfly.",
+   "Design director Anne-Eva Geffroy framed the collection simply: \"there is something deeply poetic about the form of a butterfly\". The poetry has structure under it. The jabot format solves the brooch's oldest commercial problem, which is that modern wardrobes give it nowhere to sit; a pin that becomes a pendant is two objects for one price, and the tip ornament, a single butterfly, emblem or jewel at the pin's opposite end, lets the piece read differently on a lapel, a knit or a gown.",
+   "The capsule lands in a brooch market that is quietly reviving. Auction bidders have spent two seasons paying attention to convertible and mechanical jewels, the couture houses put monumental brooches on half the fall runways, and en tremblant work, a nineteenth-century specialty, has become shorthand for the kind of handwork machine settings cannot fake. All twelve pieces are priced on request, which at Graff's level of stone sourcing is less coyness than honesty: no two Paraíba gradients cost the same.",
+   "The desk's view: The brooch has been declared dead more often than the mechanical watch, and it keeps returning for the same reason: it is the only jewel that does not need a body part to justify it. Graff betting twelve high-jewelry pieces on jabot pins is a statement that the top of the market wants objects with mechanics, history and a second life. The trade should note which of the twelve sells first: if it is Eva, the Paraíba gradient, the color market's fever has officially reached the brooch tray."
+  ],
+  "sources": [
+   {
+    "title": "National Jeweler — Graff's New Butterfly High Jewelry Brooches Metamorphosize",
+    "url": "https://nationaljeweler.com/articles/15152-graff-s-new-butterfly-high-jewelry-brooches-metamorphosize"
+   }
+  ]
+ },
+ {
+  "slug": "piaget-doubles-at-bonhams",
+  "desk": "auctions",
+  "date": "2026-07-22",
+  "kicker": "Auctions Desk · The Middle Market",
+  "title": "Piaget doubles at Bonhams, and the trophy era loosens",
+  "dek": "Record spring sales saw Piaget models double and triple in value, a 1970s Cartier Bamboo Coussin bring $114,800 and a gold Polo Jumbo $33,280 — while a 1930s Rolex Prince went for $2,176. The market is widening, not just rising.",
+  "byline": "The Saleroom Desk",
+  "minutes": 4,
+  "tags": [
+   "ACTOR",
+   "NUM"
+  ],
+  "body": [
+   "The auction market's most interesting move this season is happening below the trophy line. Bonhams reports record results from its spring watch sales, and the names doing the work are not the usual two. Piaget models doubled and in some cases tripled in value, and Cartier posted similarly steep gains from lower starting prices. The evidence lots tell the story compactly: an 18-carat gold Cartier 'Bamboo' Coussin from the 1970s brought $114,800 in New York in April, and a gold Piaget Polo Jumbo from around 1980 made $33,280 in an online sale.",
+   "Jonathan Darracott, Bonhams' global head of watches, reads the results as a structural change rather than a hot streak: \"demand extends far beyond a handful of trophy watches\". The bidder pool has broadened past the Rolex-and-Patek axis that defined the last decade, with younger and more diverse collectors driving the growth, and dress watches, the category the sports-watch era left for dead, are selling alongside the steel classics. Neo-vintage, the house believes, stays strong from here.",
+   "The counter-evidence lot is as instructive as the records. A gold-plated Rolex Prince from around 1930, a genuine piece of the crown's history, sold online for $2,176. The market is not paying for age or even for the name in isolation; it is paying for design language it currently wants, and right-now taste favors the shaped gold watch, the integrated seventies silhouette, the piece that photographs like jewelry. A Prince, for all its history, looks like a museum's idea of a watch.",
+   "The pattern matches what the wider tape has shown all month. Rolex, Patek Philippe and Audemars Piguet still tighten their grip on secondary-market value retention, certified pre-owned premiums are compressing, and the seven-figure trophy segment keeps setting records at Sotheby's and Phillips. What Bonhams' spring adds is the middle of the pyramid: five-figure money moving into names that cost four figures three years ago. That is how collecting categories mature, from a leaderboard into a landscape.",
+   "The desk's view: Piaget doubling at auction while a 1930s Rolex sells for the price of a new Tissot is the same lesson twice: the market has stopped buying brands and started buying eras. The seventies gold shaped watch is this cycle's winner, and the houses with deep archives there, Piaget and Cartier above all, are effectively sitting on unpriced inventory. Dealers should check their safes for bamboo lugs before Bonhams checks them first."
+  ],
+  "sources": [
+   {
+    "title": "WatchPro — Bonhams sees prices rocket for Cartier and Piaget watches",
+    "url": "https://www.watchpro.com/bonhams-sees-prices-rocket-for-cartier-piaget/"
+   }
+  ]
+ },
+ {
+  "slug": "bennahmias-wanted-de-bethune",
+  "desk": "watches",
+  "date": "2026-07-22",
+  "kicker": "Watches Desk · Independents",
+  "title": "‘The rumours were true’: Bennahmias tried to buy De Bethune",
+  "dek": "The former Audemars Piguet chief confirms a failed run at the 500-piece independent now owned by The 1916 Company, just as DB25 Starry Varius results run $42,000 to $135,500 at auction, consistently over estimate.",
+  "byline": "The Movement Desk",
+  "minutes": 4,
+  "tags": [
+   "ACTOR",
+   "GAP"
+  ],
+  "body": [
+   "François-Henri Bennahmias, the man who ran Audemars Piguet through its Royal Oak supercycle, has confirmed what the trade whispered for two years. \"The rumours were true - I was trying to buy De Bethune\", he told WatchPro, adding that the negotiations failed for several reasons and consumed a great deal of time. The admission settles one of independent watchmaking's favorite parlor questions and opens a better one: why does everyone with money keep circling this particular 500-piece brand?",
+   "De Bethune is the connoisseur's independent almost by design. Founded in 2002 by master watchmaker Denis Flageollet and partners, the Sainte-Croix house produces fewer than 500 pieces a year and manufactures its own hairsprings in-house, a capability perhaps a half-dozen companies on earth share. Its titanium bridges, blued-steel starry dials and floating lugs are among the most recognizable design signatures in modern horology, and the Grand Prix d'Horlogerie de Genève has decorated it repeatedly, from the Aiguille d'Or in 2011 to the Men's Complication prize in 2024.",
+   "The brand Bennahmias could not buy belongs to The 1916 Company, which inherited it through WatchBox's 2021 investment. The current structure gives it executive chairman Justin Reis and, as of this year, chief executive Antoine Pin, the former TAG Heuer and Bulgari watch boss who replaced long-serving CEO Pierre Jacques. It is a heavyweight management bench for a company whose annual output would fit in one modest shipping crate, which tells you what the owners believe the name is worth.",
+   "The secondary market is making the same argument in numbers. Recent auction results for the DB25 Starry Varius have ranged from roughly $42,000 to $135,500, consistently above estimate, and the brand's auction record stands at $190,500 for a 2018 DB28 Kind of Blue Tourbillon, set in 2023. For a maker with barely two decades of history and microscopic production, that is the profile of a future blue chip, and investors who watched F.P. Journe values multiply tenfold have learned to move early.",
+   "The desk's view: The most bullish fact in this story is the failed deal itself. When the executive who scaled AP to four billion francs tries to buy your 500-piece atelier and cannot close, the asset is either overpriced or underloved by no one, and in watchmaking those are the same thing. De Bethune's owners are holding, its auction results are climbing, and the last Résonance-era independent with this much in-house credibility that came properly to market rewrote the price book. Watch the starry dials; the smart money already is."
+  ],
+  "sources": [
+   {
+    "title": "WatchPro — François-Henri Bennahmias wanted to buy De Bethune, and why you should too",
+    "url": "https://www.watchpro.com/why-you-should-be-buying-de-bethune/"
+   }
+  ]
+ },
+ {
   "slug": "plus-eleven-two-in-june",
   "desk": "watches",
   "date": "2026-07-21",
-  "lead": true,
   "kicker": "Lead Story · Watches Desk",
   "title": "Plus 11.2%: June hands Swiss watchmaking its month back",
   "dek": "Exports reached CHF 2.4 billion in June on 1.3 million pieces — the strongest month of the year. America added 12.7%, France more than doubled, and the CHF 200–500 segment grew 54.1%. The half still reads −0.7%.",

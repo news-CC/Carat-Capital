@@ -10463,5 +10463,1092 @@
     }
    ]
   }
+ },
+ "gold-goes-144-in-a-day": {
+  "strip": {
+   "cap": "By the numbers · Tuesday's board, Kitco, late New York",
+   "cells": [
+    {
+     "fig": "$4,131",
+     "delta": "▲ +1.33%",
+     "dir": "up",
+     "lab": "GOLD, SPOT"
+    },
+    {
+     "fig": "$4,142.70",
+     "delta": "▲ HIGH",
+     "dir": "up",
+     "lab": "TOP OF THE RANGE"
+    },
+    {
+     "fig": "$3,998.80",
+     "delta": "▼ LOW",
+     "dir": "dn",
+     "lab": "BOTTOM OF THE RANGE"
+    },
+    {
+     "fig": "$60.11",
+     "delta": "▲ SILVER",
+     "dir": "up",
+     "lab": "HIGH OF THE DAY"
+    },
+    {
+     "fig": "+2.85%",
+     "delta": "▲ PALLADIUM",
+     "dir": "up",
+     "lab": "BEST OF THE COMPLEX"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "One Tuesday, dollars an ounce · gold",
+    "rows": [
+     {
+      "l": "HIGH OF THE SESSION",
+      "v": 4143,
+      "d": "4,142.70"
+     },
+     {
+      "l": "LATE BOARD, 11:52 P.M. ET",
+      "v": 4131,
+      "d": "4,131.00",
+      "hi": true
+     },
+     {
+      "l": "MONDAY'S CLOSE",
+      "v": 4000,
+      "d": "4,000.30"
+     },
+     {
+      "l": "LOW OF THE SESSION",
+      "v": 3999,
+      "d": "3,998.80"
+     },
+     {
+      "l": "THE FLOOR, TESTED THRICE",
+      "v": 3964,
+      "d": "3,964"
+     }
+    ],
+    "note": "Nearly $144 between the session's low and high prints",
+    "cap": "The quiet week, cancelled. Carat Capital graphics desk. &nbsp;CC/2026/087"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "One session of quiet.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "The white metals run harder.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "Between those two prints, gold traveled nearly $144 inside a day, and finished roughly $130 above Monday's close.",
+     "attr": "The Metals Desk"
+    }
+   },
+   {
+    "sub": "A hot tape into a hold.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Quiet week at four thousand: the tape waits for the Fed",
+     "href": "a-quiet-week-at-four-thousand.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "The waiting room emptied early. The meeting will tell us whether it refills."
+  },
+  "next": {
+   "lead": {
+    "slug": "quiet-week-at-four-thousand",
+    "tag": "Gold & Metals",
+    "blurb": "The setup this move broke: the floor, the range, the Fed date"
+   },
+   "minis": [
+    {
+     "slug": "four-thousand-defended",
+     "tag": "Gold & Metals"
+    },
+    {
+     "slug": "war-premium-inverts",
+     "tag": "Gold & Metals"
+    }
+   ]
+  }
+ },
+ "india-pays-in-old-gold": {
+  "strip": {
+   "cap": "By the numbers · WGC India update, July 17",
+   "cells": [
+    {
+     "fig": "70%",
+     "delta": "▲ PEAK",
+     "dir": "up",
+     "lab": "OLD-GOLD SHARE OF SALES"
+    },
+    {
+     "fig": "−42%",
+     "delta": "▼ M/M",
+     "dir": "dn",
+     "lab": "JUNE IMPORTS, $1.97B"
+    },
+    {
+     "fig": "16–22t",
+     "delta": "▼ VOLUME",
+     "dir": "dn",
+     "lab": "LOWEST SINCE JUN 2025"
+    },
+    {
+     "fig": "+30–60%",
+     "delta": "▲ Y/Y",
+     "dir": "up",
+     "lab": "APR–JUN JEWELRY REVENUE"
+    },
+    {
+     "fig": "$40",
+     "delta": "▼ FROM $150",
+     "dir": "dn",
+     "lab": "DOMESTIC DISCOUNT / OZ"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Where the rupee went · June flows, billions of rupees",
+    "rows": [
+     {
+      "l": "GOLD ETF INFLOWS, BEST SINCE FEB",
+      "v": 34.4,
+      "d": "₹34.4B",
+      "hi": true
+     },
+     {
+      "l": "DIGITAL GOLD, 3-MONTH HIGH",
+      "v": 25.5,
+      "d": "₹25.5B"
+     }
+    ],
+    "note": "Bars and coins cooled as the June dip took the momentum case away",
+    "cap": "Investment demand moved to paper and pixels. Carat Capital graphics desk. &nbsp;CC/2026/088"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "The cupboard is the mine.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "sub": "A correction that felt like a rally.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "pull": {
+     "q": "A market that once imported its demand is, for now, circulating it.",
+     "attr": "The Bullion Desk"
+    }
+   },
+   {
+    "p": 2
+   },
+   {
+    "sub": "The loop closes.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "India ships the turn: polished exports rise for the first time in months",
+     "href": "a-india-ships-the-turn.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "the marginal ounce has to find its buyer somewhere else."
+  },
+  "next": {
+   "lead": {
+    "slug": "gold-goes-144-in-a-day",
+    "tag": "Gold & Metals",
+    "blurb": "The $144 Tuesday that broke the quiet week"
+   },
+   "minis": [
+    {
+     "slug": "gold-counters-run-hot",
+     "tag": "Retail & Tech"
+    },
+    {
+     "slug": "india-ships-the-turn",
+     "tag": "Diamonds"
+    }
+   ]
+  }
+ },
+ "gold-up-fifty-diamonds-down": {
+  "strip": {
+   "cap": "By the numbers · Luk Fook, three months to June 30",
+   "cells": [
+    {
+     "fig": "+32%",
+     "delta": "▲ Y/Y",
+     "dir": "up",
+     "lab": "RETAIL SALES, GROUP"
+    },
+    {
+     "fig": "+50%",
+     "delta": "▲ SSS",
+     "dir": "up",
+     "lab": "GOLD, SAME-STORE"
+    },
+    {
+     "fig": "−58%",
+     "delta": "▼ SSS",
+     "dir": "dn",
+     "lab": "DIAMONDS, MAINLAND"
+    },
+    {
+     "fig": "−148",
+     "delta": "▼ NET",
+     "dir": "dn",
+     "lab": "STORES CLOSED, Q1"
+    },
+    {
+     "fig": "2,857",
+     "delta": "— COUNT",
+     "dir": "flat",
+     "lab": "DOORS AT JUNE 30"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Same-store sales, April–June · percent change, year on year",
+    "rows": [
+     {
+      "l": "GOLD, HK & MACAU",
+      "v": 55,
+      "d": "+55%"
+     },
+     {
+      "l": "GOLD, GROUP",
+      "v": 50,
+      "d": "+50%",
+      "hi": true
+     },
+     {
+      "l": "GOLD, MAINLAND",
+      "v": 21,
+      "d": "+21%"
+     },
+     {
+      "l": "DIAMONDS, GROUP",
+      "v": 17,
+      "d": "−17%"
+     },
+     {
+      "l": "DIAMONDS, MAINLAND",
+      "v": 58,
+      "d": "−58%"
+     }
+    ],
+    "note": "Bars show magnitude; diamonds moved down, gold moved up",
+    "cap": "One report, two businesses. Carat Capital graphics desk. &nbsp;CC/2026/089"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Two companies, one filing.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "sub": "The customer stopped waiting.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "A 50% gold quarter and a minus-58% mainland diamond quarter are the same fact seen from two sides.",
+     "attr": "The Counter Desk"
+    }
+   },
+   {
+    "sub": "Fewer, better doors.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Gold counters run hot: Chow Tai Fook's quarter and the bullion window",
+     "href": "a-gold-counters-run-hot.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "Retailers everywhere should read those two numbers together before planning next year's showcase."
+  },
+  "next": {
+   "lead": {
+    "slug": "gold-counters-run-hot",
+    "tag": "Retail & Tech",
+    "blurb": "Chow Tai Fook's version of the same quarter, one day earlier"
+   },
+   "minis": [
+    {
+     "slug": "more-dollars-fewer-boxes",
+     "tag": "Retail & Tech"
+    },
+    {
+     "slug": "asia-ledger-record-year",
+     "tag": "Retail & Tech"
+    }
+   ]
+  }
+ },
+ "disposable-tools-at-venetia": {
+  "spec": {
+   "cap": "The consultation · who and what is on the table",
+   "rows": [
+    {
+     "l": "MINE",
+     "v": "<b>Venetia</b>, Limpopo — South Africa's largest diamond mine"
+    },
+    {
+     "l": "PLAN",
+     "v": "Two-year production pause"
+    },
+    {
+     "l": "JOBS IN CONSULTATION",
+     "v": "<b>1,214</b> — 1,134 mine employees + 80 sales staff"
+    },
+    {
+     "l": "UNION",
+     "v": "National Union of Mineworkers, diamond sector"
+    },
+    {
+     "l": "COUNTERPROPOSAL",
+     "v": "Executive cost reviews, retraining, cuts from the top"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "The pause, in people · positions in Section 189A consultation",
+    "rows": [
+     {
+      "l": "VENETIA MINE EMPLOYEES",
+      "v": 1134,
+      "d": "1,134",
+      "hi": true
+     },
+     {
+      "l": "DE BEERS SIGHTHOLDER SALES SA",
+      "v": 80,
+      "d": "80"
+     }
+    ],
+    "note": "Two years dark, with no restart in writing",
+    "cap": "The payroll behind the price chart. Carat Capital graphics desk. &nbsp;CC/2026/090"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Not conciliatory.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "sub": "The charge is timing.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "Every diamond-market downturn eventually stops being a price chart and becomes a payroll.",
+     "attr": "The Mines Desk"
+    }
+   },
+   {
+    "sub": "An awkward hour to be sold.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Twelve hundred at Venetia: the two-year pause, by the numbers",
+     "href": "a-twelve-hundred-at-venetia.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "The workers have noticed that nobody will put the restart in writing."
+  },
+  "next": {
+   "lead": {
+    "slug": "twelve-hundred-at-venetia",
+    "tag": "Diamonds",
+    "blurb": "The announcement this fight answers, filed yesterday"
+   },
+   "minis": [
+    {
+     "slug": "gaborone-answers-penny",
+     "tag": "Diamonds"
+    },
+    {
+     "slug": "venetia-two-year-pause",
+     "tag": "Diamonds"
+    }
+   ]
+  }
+ },
+ "sixty-one-percent-said-lab": {
+  "strip": {
+   "cap": "By the numbers · The Knot 2026 Real Weddings study and Q1 pricing",
+   "cells": [
+    {
+     "fig": "61%",
+     "delta": "▲ 2025",
+     "dir": "up",
+     "lab": "LAB-GROWN CENTER STONES"
+    },
+    {
+     "fig": "−14–15%",
+     "delta": "▼ Y/Y",
+     "dir": "dn",
+     "lab": "LG WHOLESALE, Q1 2026"
+    },
+    {
+     "fig": "$800–1,200",
+     "delta": "— RETAIL",
+     "dir": "flat",
+     "lab": "PREMIUM 1CT LAB-GROWN"
+    },
+    {
+     "fig": "$5,232",
+     "delta": "— NAT1",
+     "dir": "flat",
+     "lab": "NATURAL 1CT, OUR TAPE"
+    },
+    {
+     "fig": "×4.4",
+     "delta": "— GAP",
+     "dir": "flat",
+     "lab": "NATURAL PREMIUM, ROUGHLY"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "The one-carat question · indicative dollars per stone",
+    "rows": [
+     {
+      "l": "NATURAL 1CT (TAPE PROXY)",
+      "v": 5232,
+      "d": "5,232",
+      "hi": true
+     },
+     {
+      "l": "PREMIUM LAB-GROWN 1CT, TOP",
+      "v": 1200,
+      "d": "1,200"
+     },
+     {
+      "l": "PREMIUM LAB-GROWN 1CT, LOW",
+      "v": 800,
+      "d": "800"
+     }
+    ],
+    "note": "The gap is the luxury argument; the gap is also the value argument",
+    "cap": "Two products wearing one name. Carat Capital graphics desk. &nbsp;CC/2026/091"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "The scoreboard reads 61.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "sub": "Arithmetic, not compromise.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "A 61% share of a growing category is not the same as a 61% share of a fixed pie.",
+     "attr": "The Demand Desk"
+    }
+   },
+   {
+    "sub": "What comes after the vote.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Lab-grown finds its floor: the strange bottom of the market",
+     "href": "a-lab-grown-finds-its-floor.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "The watch industry, it is worth noting, eventually found that trade rather profitable."
+  },
+  "next": {
+   "lead": {
+    "slug": "lab-grown-finds-its-floor",
+    "tag": "Diamonds",
+    "blurb": "Wholesale stops falling: what firmed first and why"
+   },
+   "minis": [
+    {
+     "slug": "one-carat-wakes-up",
+     "tag": "Diamonds"
+    },
+    {
+     "slug": "who-buys-diamonds-now",
+     "tag": "Diamonds"
+    }
+   ]
+  }
+ },
+ "brazil-rough-rides-free": {
+  "strip": {
+   "cap": "By the numbers · The stack, effective July 23",
+   "cells": [
+    {
+     "fig": "25%",
+     "delta": "▲ NEW",
+     "dir": "up",
+     "lab": "SECTION 301 TARIFF"
+    },
+    {
+     "fig": "35%",
+     "delta": "▲ TOTAL",
+     "dir": "up",
+     "lab": "WITH EXISTING 10%"
+    },
+    {
+     "fig": "37.5%",
+     "delta": "▲ NEXT",
+     "dir": "up",
+     "lab": "IF FORCED-LABOR 12.5% LANDS"
+    },
+    {
+     "fig": "0%",
+     "delta": "— EXEMPT",
+     "dir": "flat",
+     "lab": "ROUGH, HTS 7103.10"
+    },
+    {
+     "fig": "JUL 24",
+     "delta": "— EXPIRY",
+     "dir": "flat",
+     "lab": "OLD 10% SECTION 122"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "What a Brazilian stone pays at the border · percent duty",
+    "rows": [
+     {
+      "l": "FINISHED JEWELRY",
+      "v": 35,
+      "d": "35%",
+      "hi": true
+     },
+     {
+      "l": "CUT & POLISHED GEMS",
+      "v": 35,
+      "d": "35%"
+     },
+     {
+      "l": "UNWROUGHT PRECIOUS METAL",
+      "v": 0.5,
+      "d": "0%"
+     },
+     {
+      "l": "ROUGH GEMSTONES",
+      "v": 0.5,
+      "d": "0%"
+     }
+    ],
+    "note": "Value added in Brazil is what the tariff taxes",
+    "cap": "The border prices the lapidary, not the stone. Carat Capital graphics desk. &nbsp;CC/2026/092"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Midnight, July 23.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "sub": "The carve-outs are the strategy.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "The tariff, whatever its intent, is a subsidy for cutting Brazilian stones anywhere except Brazil.",
+     "attr": "The Color Desk"
+    }
+   },
+   {
+    "sub": "Paraíba gets a multiplier.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Tariff arithmetic: zero for natural, eighteen for grown",
+     "href": "a-tariff-arithmetic-zero-and-eighteen.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "It will occasionally even be true."
+  },
+  "next": {
+   "lead": {
+    "slug": "tariff-arithmetic-zero-and-eighteen",
+    "tag": "Retail & Tech",
+    "blurb": "The last time customs redrew the gem map, and who paid"
+   },
+   "minis": [
+    {
+     "slug": "color-takes-the-counter",
+     "tag": "Gemstones"
+    },
+    {
+     "slug": "zero-duty-day-one",
+     "tag": "Retail & Tech"
+    }
+   ]
+  }
+ },
+ "graff-pins-the-butterfly": {
+  "spec": {
+   "cap": "The capsule · what Graff built",
+   "rows": [
+    {
+     "l": "PIECES",
+     "v": "<b>12</b> brooches, each convertible to a pendant"
+    },
+    {
+     "l": "FORMAT",
+     "v": "Jabot pin — the 17th-century double-ended fastener"
+    },
+    {
+     "l": "MECHANICS",
+     "v": "En tremblant wings that move with the wearer"
+    },
+    {
+     "l": "STONES",
+     "v": "Paraíba tourmaline, emerald, yellow diamond, invisible-set pink sapphire"
+    },
+    {
+     "l": "MOTIF SINCE",
+     "v": "<b>1975</b> — the house butterfly, symbol of transformation"
+    },
+    {
+     "l": "PRICE",
+     "v": "On request"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Four of the twelve · principal stones",
+    "rows": [
+     {
+      "l": "TAMARA — MARQUISE EMERALD, SUNBURST",
+      "v": 4,
+      "d": "DECO"
+     },
+     {
+      "l": "FREYA — YELLOW DIAMONDS, DRAGONFLY",
+      "v": 3,
+      "d": "ARCHIVE"
+     },
+     {
+      "l": "EVA — PARAÍBA GRADIENT, MONET",
+      "v": 5,
+      "d": "COLOR",
+      "hi": true
+     },
+     {
+      "l": "LINA — INVISIBLE-SET PINK SAPPHIRE",
+      "v": 3,
+      "d": "SETTING"
+     }
+    ],
+    "note": "Bars indicate the desk's read of stone-work complexity, not price",
+    "cap": "The named butterflies, under the loupe. Carat Capital graphics desk. &nbsp;CC/2026/093"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "A 1975 motif, re-pinned.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "sub": "The full register of stones.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "All twelve pieces are priced on request, which at Graff's level of stone sourcing is less coyness than honesty: no two Paraíba gradients cost the same.",
+     "attr": "The Design Desk"
+    }
+   },
+   {
+    "sub": "The brooch revival has numbers.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Couture week goes monumental: the season of the enormous jewel",
+     "href": "a-couture-week-goes-monumental.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "The trade should note which of the twelve sells first: if it is Eva, the Paraíba gradient, the color market's fever has officially reached the brooch tray."
+  },
+  "next": {
+   "lead": {
+    "slug": "couture-week-goes-monumental",
+    "tag": "Gemstones",
+    "blurb": "The runway season that put the brooch back on the shoulder"
+   },
+   "minis": [
+    {
+     "slug": "pomellato-stile-libero",
+     "tag": "Gemstones"
+    },
+    {
+     "slug": "color-takes-the-counter",
+     "tag": "Gemstones"
+    }
+   ]
+  }
+ },
+ "piaget-doubles-at-bonhams": {
+  "strip": {
+   "cap": "By the numbers · Bonhams spring watch sales",
+   "cells": [
+    {
+     "fig": "×2–3",
+     "delta": "▲ VALUE",
+     "dir": "up",
+     "lab": "PIAGET MODELS"
+    },
+    {
+     "fig": "$114,800",
+     "delta": "▲ APRIL, NY",
+     "dir": "up",
+     "lab": "CARTIER BAMBOO COUSSIN"
+    },
+    {
+     "fig": "$33,280",
+     "delta": "▲ ONLINE",
+     "dir": "up",
+     "lab": "PIAGET POLO JUMBO, C.1980"
+    },
+    {
+     "fig": "$2,176",
+     "delta": "▼ ONLINE",
+     "dir": "dn",
+     "lab": "ROLEX PRINCE, C.1930"
+    },
+    {
+     "fig": "RECORD",
+     "delta": "▲ SEASON",
+     "dir": "up",
+     "lab": "SPRING SALES OVERALL"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Three lots, one lesson · hammer results, dollars",
+    "rows": [
+     {
+      "l": "CARTIER BAMBOO COUSSIN, 1970S",
+      "v": 114800,
+      "d": "114,800",
+      "hi": true
+     },
+     {
+      "l": "PIAGET POLO JUMBO, C.1980",
+      "v": 33280,
+      "d": "33,280"
+     },
+     {
+      "l": "ROLEX PRINCE, C.1930",
+      "v": 2176,
+      "d": "2,176"
+     }
+    ],
+    "note": "The market buys eras, not age; seventies gold beats thirties history",
+    "cap": "The shape of current taste. Carat Capital graphics desk. &nbsp;CC/2026/094"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Below the trophy line.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "sub": "A structural change.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "pull": {
+     "q": "A Prince, for all its history, looks like a museum's idea of a watch.",
+     "attr": "The Saleroom Desk"
+    }
+   },
+   {
+    "p": 2
+   },
+   {
+    "sub": "The middle of the pyramid.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Crown premium shrinks: Rolex CPO's margin compresses",
+     "href": "a-crown-premium-shrinks.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "Dealers should check their safes for bamboo lugs before Bonhams checks them first."
+  },
+  "next": {
+   "lead": {
+    "slug": "serial-022-comes-to-market",
+    "tag": "Auctions",
+    "blurb": "The other end of the market: the earliest Résonance at Phillips"
+   },
+   "minis": [
+    {
+     "slug": "cartier-secondhand-heat",
+     "tag": "Watches"
+    },
+    {
+     "slug": "ninety-percent-sold",
+     "tag": "Auctions"
+    }
+   ]
+  }
+ },
+ "bennahmias-wanted-de-bethune": {
+  "spec": {
+   "cap": "The object of pursuit · De Bethune",
+   "rows": [
+    {
+     "l": "FOUNDED",
+     "v": "2002, Sainte-Croix — Denis Flageollet, master watchmaker"
+    },
+    {
+     "l": "OUTPUT",
+     "v": "Under <b>500</b> pieces a year, in-house hairsprings"
+    },
+    {
+     "l": "OWNER",
+     "v": "The 1916 Company, via WatchBox (2021)"
+    },
+    {
+     "l": "BENCH",
+     "v": "Justin Reis, chairman; Antoine Pin, CEO (2026)"
+    },
+    {
+     "l": "SUITOR",
+     "v": "<b>François-Henri Bennahmias</b>, ex-Audemars Piguet — deal failed"
+    },
+    {
+     "l": "AUCTION RECORD",
+     "v": "$190,500 — DB28 Kind of Blue Tourbillon (2023)"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "The starry tape · DB25 Starry Varius results, dollars",
+    "rows": [
+     {
+      "l": "AUCTION RECORD, DB28 KIND OF BLUE",
+      "v": 190500,
+      "d": "190,500",
+      "hi": true
+     },
+     {
+      "l": "DB25 STARRY VARIUS, TOP RESULT",
+      "v": 135500,
+      "d": "135,500"
+     },
+     {
+      "l": "DB25 STARRY VARIUS, ENTRY",
+      "v": 42000,
+      "d": "42,000"
+     }
+    ],
+    "note": "Results consistently above estimate through 2026",
+    "cap": "A 500-piece brand priced like a future blue chip. Carat Capital graphics desk. &nbsp;CC/2026/095"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "The parlor question, settled.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "sub": "Why everyone circles it.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "The most bullish fact in this story is the failed deal itself.",
+     "attr": "The Movement Desk"
+    }
+   },
+   {
+    "sub": "The tape agrees.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Serial 022 comes to market: the earliest known Résonance",
+     "href": "a-serial-022-comes-to-market.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "Watch the starry dials; the smart money already is."
+  },
+  "next": {
+   "lead": {
+    "slug": "serial-022-comes-to-market",
+    "tag": "Auctions",
+    "blurb": "What happens when a founding independent's earliest work surfaces"
+   },
+   "minis": [
+    {
+     "slug": "ap-105-million-paradox",
+     "tag": "Watches"
+    },
+    {
+     "slug": "crown-premium-shrinks",
+     "tag": "Watches"
+    }
+   ]
+  }
  }
 }
