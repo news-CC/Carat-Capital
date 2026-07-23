@@ -11169,8 +11169,8 @@
    },
    {
     "also": {
-     "t": "Tariff arithmetic: zero for natural, eighteen for grown",
-     "href": "a-tariff-arithmetic-zero-and-eighteen.html"
+     "t": "Twelve and a half for color: Washington prices the rainbow",
+     "href": "a-twelve-point-five-for-color.html"
     }
    }
   ],
@@ -11546,6 +11546,848 @@
     },
     {
      "slug": "crown-premium-shrinks",
+     "tag": "Watches"
+    }
+   ]
+  }
+ },
+ "fifty-percent-for-canada": {
+  "strip": {
+   "cap": "By the numbers · the Canadian tariff order",
+   "cells": [
+    {
+     "fig": "50%",
+     "delta": "▲ NEW",
+     "dir": "up",
+     "lab": "DUTY, AUG 19"
+    },
+    {
+     "fig": "6",
+     "lab": "HTS CODES NAMED"
+    },
+    {
+     "fig": "0%",
+     "delta": "▼ EXEMPT",
+     "dir": "dn",
+     "lab": "CANADIAN ROUGH"
+    },
+    {
+     "fig": "1930",
+     "lab": "SECTION 338, TARIFF ACT"
+    },
+    {
+     "fig": "30",
+     "lab": "DAYS FROM SIGNING"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "The jewelry tariff wall, points of duty",
+    "rows": [
+     {
+      "l": "CANADA — POLISHED DIAMONDS & JEWELRY, AUG 19",
+      "v": 50,
+      "d": "50",
+      "hi": true
+     },
+     {
+      "l": "BRAZIL — LOOSE POLISHED COLOR, IN FORCE",
+      "v": 25,
+      "d": "25"
+     },
+     {
+      "l": "PROPOSED — COLOR & PEARLS, ~46 COUNTRIES",
+      "v": 12.5,
+      "d": "12.5"
+     },
+     {
+      "l": "GLOBAL SURCHARGE — EXPIRES JULY 24",
+      "v": 10,
+      "d": "10"
+     },
+     {
+      "l": "CANADIAN ROUGH — EXEMPT",
+      "v": 0.6,
+      "d": "0"
+     }
+    ],
+    "note": "Rough rides free; the cutting wheel pays",
+    "cap": "The wall, section by section. Carat Capital graphics desk. &nbsp;CC/2026/096"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Six codes, thirty days.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "sub": "No shelter in the USMCA.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "pull": {
+     "q": "The order effectively taxes the value Canada adds and waves through the value it exports raw.",
+     "attr": "The Trade Desk"
+    }
+   },
+   {
+    "p": 2
+   },
+   {
+    "sub": "From repeal to carve-outs.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Thirty-five percent at midnight: Brazil's rough rides free",
+     "href": "a-brazil-rough-rides-free.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "The counters have four weeks to land goods, and the desk expects August's import data to show one of the strangest pull-forwards on record."
+  },
+  "next": {
+   "lead": {
+    "slug": "brazil-rough-rides-free",
+    "tag": "Gemstones",
+    "blurb": "The template order: polished pays, rough rides free, jewelers absorb"
+   },
+   "minis": [
+    {
+     "slug": "zero-duty-day-one",
+     "tag": "Retail & Trade"
+    },
+    {
+     "slug": "gold-up-fifty-diamonds-down",
+     "tag": "Retail & Trade"
+    }
+   ]
+  }
+ },
+ "twelve-point-five-for-color": {
+  "strip": {
+   "cap": "By the numbers · Washington and the color trade",
+   "cells": [
+    {
+     "fig": "12.5%",
+     "delta": "▲ PROPOSED",
+     "dir": "up",
+     "lab": "COLORED STONES & PEARLS"
+    },
+    {
+     "fig": "46",
+     "lab": "COUNTRIES, ROUGHLY"
+    },
+    {
+     "fig": "25%",
+     "delta": "▲ IN FORCE",
+     "dir": "up",
+     "lab": "BRAZIL, POLISHED COLOR"
+    },
+    {
+     "fig": "10%",
+     "delta": "▼ JUL 24",
+     "dir": "dn",
+     "lab": "SURCHARGE EXPIRES"
+    },
+    {
+     "fig": "3",
+     "lab": "SECTION 301 TRACKS"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Three tracks, one month · the 301 docket",
+    "rows": [
+     {
+      "l": "BRAZIL — CONCLUDED, 25 POINTS ON POLISHED",
+      "v": 25,
+      "d": "25"
+     },
+     {
+      "l": "EXPEDITED — ~46 COUNTRIES, DUE END-JULY",
+      "v": 12.5,
+      "d": "12.5",
+      "hi": true
+     },
+     {
+      "l": "SUBSIDIES REVIEW — 16 PARTNERS, LATE JULY",
+      "v": 8,
+      "d": "TBD"
+     },
+     {
+      "l": "GLOBAL SURCHARGE — DIES JULY 24",
+      "v": 10,
+      "d": "10"
+     }
+    ],
+    "note": "Bar for the subsidies review indicates an open question, not a rate",
+    "cap": "The color trade's month of rulings. Carat Capital graphics desk. &nbsp;CC/2026/097"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "A number and a date.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "One deadline runs the other way.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "A Section 301 remedy with no domestic industry behind it functions as a straightforward consumption tax on sapphire engagement rings and pearl strands, paid at American counters.",
+     "attr": "The Gem Desk"
+    }
+   },
+   {
+    "sub": "Nothing domestic to protect.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Fifty percent for Canada: the wall reaches the diamond counter",
+     "href": "a-fifty-percent-for-canada.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "Watch July 24: if the 10% surcharge dies quietly and 12.5% arrives loudly, the net change is small and the headlines will be wrong in both directions."
+  },
+  "next": {
+   "lead": {
+    "slug": "fifty-percent-for-canada",
+    "tag": "Diamonds",
+    "blurb": "The northern section of the same wall: 50 points, six codes"
+   },
+   "minis": [
+    {
+     "slug": "brazil-rough-rides-free",
+     "tag": "Gemstones"
+    },
+    {
+     "slug": "graff-pins-the-butterfly",
+     "tag": "Gemstones"
+    }
+   ]
+  }
+ },
+ "oil-talks-gold-listens": {
+  "strip": {
+   "cap": "By the numbers · Thursday, 0713 GMT",
+   "cells": [
+    {
+     "fig": "$4,103.39",
+     "delta": "▼ −0.6%",
+     "dir": "dn",
+     "lab": "GOLD, SPOT"
+    },
+    {
+     "fig": "$4,165.87",
+     "delta": "▲ WED PEAK",
+     "dir": "up",
+     "lab": "TWO-WEEK HIGH"
+    },
+    {
+     "fig": "77%",
+     "delta": "▲ SEPT",
+     "dir": "up",
+     "lab": "HIKE ODDS, CME"
+    },
+    {
+     "fig": "$58.90",
+     "delta": "▼ −1.3%",
+     "dir": "dn",
+     "lab": "SILVER"
+    },
+    {
+     "fig": "17-mo",
+     "delta": "▲ HIGH",
+     "dir": "up",
+     "lab": "TWO-YEAR YIELD"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "The week's gold prints, dollars an ounce",
+    "rows": [
+     {
+      "l": "WEDNESDAY'S PEAK",
+      "v": 4166,
+      "d": "4,165.87"
+     },
+     {
+      "l": "THURSDAY, 0713 GMT",
+      "v": 4103,
+      "d": "4,103.39",
+      "hi": true
+     },
+     {
+      "l": "TUESDAY'S LATE BOARD",
+      "v": 4131,
+      "d": "4,131.00"
+     },
+     {
+      "l": "MONDAY'S CLOSE",
+      "v": 4000,
+      "d": "4,000.30"
+     }
+    ],
+    "note": "Roughly $166 separated Monday's close from Wednesday's peak",
+    "cap": "The peak, tested and declined. Carat Capital graphics desk. &nbsp;CC/2026/098"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "The counterparty is crude.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "The complex steps down together.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "The same Middle East risk that buys gold its haven bid is now selling it back through the oil market: crude strength feeds inflation, inflation feeds hike odds, and hike odds raise the cost of holding an asset that pays nothing.",
+     "attr": "The Metals Desk"
+    }
+   },
+   {
+    "sub": "The loop, named.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "The $144 day: gold breaks its quiet week early",
+     "href": "a-gold-goes-144-in-a-day.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "Respect the odds; remember their record."
+  },
+  "next": {
+   "lead": {
+    "slug": "gold-goes-144-in-a-day",
+    "tag": "Gold & Metals",
+    "blurb": "The run this pullback is digesting: $144 low to high in a day"
+   },
+   "minis": [
+    {
+     "slug": "quiet-week-at-four-thousand",
+     "tag": "Gold & Metals"
+    },
+    {
+     "slug": "war-premium-inverts",
+     "tag": "Gold & Metals"
+    }
+   ]
+  }
+ },
+ "swatch-nine-up-six-down": {
+  "strip": {
+   "cap": "By the numbers · Swatch Group, H1 2026",
+   "cells": [
+    {
+     "fig": "CHF 3.12B",
+     "delta": "▲ +2%",
+     "dir": "up",
+     "lab": "REVENUE, REPORTED"
+    },
+    {
+     "fig": "+9%",
+     "delta": "▲ CC",
+     "dir": "up",
+     "lab": "CONSTANT CURRENCY"
+    },
+    {
+     "fig": "+27%",
+     "delta": "▲ US",
+     "dir": "up",
+     "lab": "BEST BIG MARKET"
+    },
+    {
+     "fig": "CHF 16M",
+     "delta": "▼ −6%",
+     "dir": "dn",
+     "lab": "NET PROFIT"
+    },
+    {
+     "fig": "+9%",
+     "delta": "▲ CHINA",
+     "dir": "up",
+     "lab": "INCL. HK & MACAU"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Where the half grew · reported gains, percent",
+    "rows": [
+     {
+      "l": "SPAIN",
+      "v": 28,
+      "d": "+28"
+     },
+     {
+      "l": "UNITED STATES",
+      "v": 27,
+      "d": "+27",
+      "hi": true
+     },
+     {
+      "l": "JAPAN",
+      "v": 20,
+      "d": "+20"
+     },
+     {
+      "l": "ITALY",
+      "v": 12,
+      "d": "+12"
+     },
+     {
+      "l": "CHINA INCL. HK & MACAU",
+      "v": 9,
+      "d": "+9"
+     }
+    ],
+    "note": "South Korea +12, Australia +5; India, Mexico and Saudi Arabia cited for strong gains",
+    "cap": "The recovery map. Carat Capital graphics desk. &nbsp;CC/2026/099"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "The top line recovers.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "sub": "The bottom line hasn't.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "pull": {
+     "q": "Net profit fell 6% to CHF 16 million ($19.7 million), which against CHF 3.12 billion of sales works out to a net margin of roughly half a percent.",
+     "attr": "The Watch Desk"
+    }
+   },
+   {
+    "p": 2
+   },
+   {
+    "sub": "The export tape agrees.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Plus 11.2%: June hands Swiss watchmaking its month back",
+     "href": "a-plus-eleven-two-in-june.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "The China number is the one to keep: if 9% growth there holds through the second half, the margin will follow. If it doesn't, the franc will still be Swiss."
+  },
+  "next": {
+   "lead": {
+    "slug": "plus-eleven-two-in-june",
+    "tag": "Watches",
+    "blurb": "The industry tape behind Swatch's half: exports up 11.2% in June"
+   },
+   "minis": [
+    {
+     "slug": "richemont-twenty-percent-quarter",
+     "tag": "Watches"
+    },
+    {
+     "slug": "wos-133-million-answer",
+     "tag": "Watches"
+    }
+   ]
+  }
+ },
+ "birks-narrows-by-73": {
+  "strip": {
+   "cap": "By the numbers · Birks Group, FY to March 28",
+   "cells": [
+    {
+     "fig": "CAD 3.4M",
+     "delta": "▼ LOSS",
+     "dir": "dn",
+     "lab": "FY2026 NET"
+    },
+    {
+     "fig": "CAD 12.8M",
+     "delta": "▼ PRIOR",
+     "dir": "dn",
+     "lab": "FY2025 NET LOSS"
+    },
+    {
+     "fig": "+15.5%",
+     "delta": "▲ SALES",
+     "dir": "up",
+     "lab": "TO CAD 205.4M"
+    },
+    {
+     "fig": "+2.6%",
+     "delta": "▲ COMPS",
+     "dir": "up",
+     "lab": "SAME-STORE"
+    },
+    {
+     "fig": "FALL '26",
+     "lab": "OAKRIDGE MONO-BRAND"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "The deficit, shrinking · CAD millions",
+    "rows": [
+     {
+      "l": "FY2025 NET LOSS",
+      "v": 12.8,
+      "d": "12.8"
+     },
+     {
+      "l": "FY2026 NET LOSS",
+      "v": 3.4,
+      "d": "3.4",
+      "hi": true
+     }
+    ],
+    "note": "A 73% reduction in the annual deficit, on sales up 15.5%",
+    "cap": "The repair year, charted. Carat Capital graphics desk. &nbsp;CC/2026/100"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Red, but three-quarters less.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "sub": "One engine bought, one built.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "pull": {
+     "q": "For a 147-year-old company that has spent recent years as a multi-brand showcase, putting fresh capital into a store that sells only Birks is a quiet statement about where management believes the margin lives.",
+     "attr": "The Retail Desk"
+    }
+   },
+   {
+    "p": 2
+   },
+   {
+    "sub": "The backdrop cuts both ways.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Fifty percent for Canada: the wall reaches the diamond counter",
+     "href": "a-fifty-percent-for-canada.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "The Oakridge store is the bet to watch: house-brand mono-retail is where the margin is, and Birks has the name to try it."
+  },
+  "next": {
+   "lead": {
+    "slug": "more-dollars-fewer-boxes",
+    "tag": "Retail & Trade",
+    "blurb": "The American half-year Birks is selling into: more dollars, fewer boxes"
+   },
+   "minis": [
+    {
+     "slug": "gold-counters-run-hot",
+     "tag": "Retail & Trade"
+    },
+    {
+     "slug": "gold-up-fifty-diamonds-down",
+     "tag": "Retail & Trade"
+    }
+   ]
+  }
+ },
+ "fruit-that-opens": {
+  "spec": {
+   "cap": "The capsule · Enchanted Garden",
+   "rows": [
+    {
+     "l": "PIECES",
+     "v": "<b>3</b> pendants — cherry, pear, lemon"
+    },
+    {
+     "l": "MECHANIC",
+     "v": "Hinged lockets; every fruit opens"
+    },
+    {
+     "l": "CHERRY",
+     "v": "<b>$10,985</b> — 2.65 ct ruby pavé, garnet inside"
+    },
+    {
+     "l": "PEAR",
+     "v": "<b>$14,500</b> — five hidden garnets, 1.72 ct total"
+    },
+    {
+     "l": "LEMON",
+     "v": "<b>$21,650</b> — diamond seeds, special order only"
+    },
+    {
+     "l": "DEBUT",
+     "v": "Couture; sold via the house's own site"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "The orchard's price ladder, dollars",
+    "rows": [
+     {
+      "l": "LEMON — YELLOW DIAMONDS, SPECIAL ORDER",
+      "v": 21650,
+      "d": "21,650",
+      "hi": true
+     },
+     {
+      "l": "PEAR — SAPPHIRE, PERIDOT, TSAVORITE",
+      "v": 14500,
+      "d": "14,500"
+     },
+     {
+      "l": "CHERRY — RUBY PAVÉ, GARNET WITHIN",
+      "v": 10985,
+      "d": "10,985"
+     }
+    ],
+    "note": "Each pendant opens to a hidden stone or diamond 'seeds'",
+    "cap": "Fruit, priced under the loupe. Carat Capital graphics desk. &nbsp;CC/2026/101"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "A lemon, by special order.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "sub": "The cheaper branches.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "pull": {
+     "q": "Graff's twelve butterfly jabot pins, Pomellato's mandala capsule and the general brooch-and-objet revival this page has tracked all season point the same direction: at the top of the market, jewelry is drifting from adornment toward miniature sculpture, and houses are competing on mechanics, hinges, tremblant wings, hidden compartments, as much as on carats.",
+     "attr": "The Design Desk"
+    }
+   },
+   {
+    "sub": "Sculpture is the season.",
+    "n": "§3"
+   },
+   {
+    "p": 2
+   },
+   {
+    "also": {
+     "t": "Graff pins the butterfly: twelve brooches built to tremble",
+     "href": "a-graff-pins-the-butterfly.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "The desk's only quibble is arithmetic; at $21,650, the seeds had better be the sweetest part."
+  },
+  "next": {
+   "lead": {
+    "slug": "graff-pins-the-butterfly",
+    "tag": "Gemstones",
+    "blurb": "The season's other moving objects: twelve butterflies, en tremblant"
+   },
+   "minis": [
+    {
+     "slug": "couture-week-goes-monumental",
+     "tag": "Gemstones"
+    },
+    {
+     "slug": "pomellato-stile-libero",
+     "tag": "Gemstones"
+    }
+   ]
+  }
+ },
+ "rolex-on-the-main-corridor": {
+  "spec": {
+   "cap": "The capsule · the Tysons boutique",
+   "rows": [
+    {
+     "l": "SIZE",
+     "v": "<b>2,800</b> square feet, main corridor"
+    },
+    {
+     "l": "OPENED",
+     "v": "July 22, 2026 — Tysons Galleria, McLean, Va."
+    },
+    {
+     "l": "OPERATOR",
+     "v": "Liljenquist & Beckstead, family-owned since <b>1978</b>"
+    },
+    {
+     "l": "DOORS",
+     "v": "Fourth location across Maryland and Virginia"
+    },
+    {
+     "l": "MATERIALS",
+     "v": "Bronze-brass façade, American walnut, travertine"
+    },
+    {
+     "l": "CENTERPIECE",
+     "v": "Rolex-trained workshop, visible from the dry bar"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "The crown's partner doors · counts",
+    "rows": [
+     {
+      "l": "L&B LOCATIONS AFTER TYSONS",
+      "v": 4,
+      "d": "4",
+      "hi": true
+     },
+     {
+      "l": "BEAVERBROOKS ROLEX-ANCHORED BOUTIQUES",
+      "v": 4,
+      "d": "4"
+     },
+     {
+      "l": "DEDICATED ROLEX BOUTIQUES AT L&B",
+      "v": 1,
+      "d": "1"
+     }
+    ],
+    "note": "The pattern: partners consolidating into fewer, grander crown doors",
+    "cap": "The authorized map, counted. Carat Capital graphics desk. &nbsp;CC/2026/102"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "An address to match the bracket.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "pull": {
+     "q": "Service, the least glamorous half of the watch business, has been promoted to the shop window.",
+     "attr": "The Watch Desk"
+    }
+   },
+   {
+    "sub": "The build is the point.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Fewer doors, grander ones.",
+    "n": "§3"
+   },
+   {
+    "p": 2
+   },
+   {
+    "also": {
+     "t": "22.6 percent: the shrinking price of Rolex's blessing",
+     "href": "a-crown-premium-shrinks.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "The desk notes the address, a renovated luxury mall rather than a Manhattan avenue, and reads it as the American watch market's actual center of gravity: the affluent suburb, not the flagship district."
+  },
+  "next": {
+   "lead": {
+    "slug": "crown-premium-shrinks",
+    "tag": "Watches",
+    "blurb": "What the crown's blessing costs on the secondary market now"
+   },
+   "minis": [
+    {
+     "slug": "cartier-secondhand-heat",
+     "tag": "Watches"
+    },
+    {
+     "slug": "china-slows-to-four-three",
      "tag": "Watches"
     }
    ]

@@ -1,10 +1,40 @@
 {
- "updated": "22 Jul 2026",
+ "updated": "23 Jul 2026",
  "intro": "Eight weeks of the trade, kept the way a ledger should be kept — dated, sourced, and in one place. New entries are added at the top each week; the quarter's running numbers live in the Almanac below.",
  "weeks": [
   {
    "label": "This week — July 20",
    "entries": [
+    {
+     "d": "diamonds",
+     "h": "A 50% tariff on Canadian goods names the diamond counter",
+     "t": "Effective August 19 under Section 338 of the Tariff Act of 1930, the 50% duty covers six jewelry HTS codes including loose polished diamonds (7102.39.00), stacks on existing tariffs and overrides USMCA duty-free treatment, per the JVC. Rough diamonds are exempt — Canadian rough cut abroad enters under the cutting country's rate.",
+     "s": "National Jeweler"
+    },
+    {
+     "d": "gemstones",
+     "h": "USTR proposes 12.5% on colored stones and pearls from ~46 countries",
+     "t": "The expedited Section 301 investigation's preliminary findings cover India, Thailand, Sri Lanka and Australia among others, with resolution expected by end-July. A second review spans 16 partners; Brazil's definitive 25% on loose polished color is in force. The temporary 10% global surcharge expires July 24.",
+     "s": "Rapaport"
+    },
+    {
+     "d": "watches",
+     "h": "Swatch Group grows 9% at constant currency, earns half a percent",
+     "t": "H1 revenue CHF 3.12B (+2% reported), watches and jewelry CHF 2.95B; US +27%, Japan +20%, Spain +28%, China incl. HK/Macau +9%. Net profit fell 6% to CHF 16M. The group expects a stronger second half on May–July momentum.",
+     "s": "Rapaport"
+    },
+    {
+     "d": "gold-metals",
+     "h": "Gold rejects the two-week peak as oil reprices the Fed",
+     "t": "Spot slipped 0.6% to $4,103.39 Thursday morning from Wednesday's $4,165.87 high; oil hit a six-week high, two-year yields a 17-month high, and CME FedWatch put 77% odds on a September hike. Silver $58.90 (−1.3%), platinum $1,628.63, palladium $1,274.96.",
+     "s": "Reuters"
+    },
+    {
+     "d": "retail-tech",
+     "h": "Birks narrows its annual loss 73% on sales up 15.5%",
+     "t": "FY2026 (ended March 28): net loss CAD 3.4M vs. CAD 12.8M, sales CAD 205.4M, comparable stores +2.6%, lifted by the European Boutique acquisition and Birks-branded jewelry. A mono-brand store opens at Vancouver's Oakridge in fall 2026.",
+     "s": "Rapaport"
+    },
     {
      "d": "gold-metals",
      "h": "Gold's $144 Tuesday ends the quiet week early",

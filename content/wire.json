@@ -1,67 +1,67 @@
 {
- "date_line": "Wednesday, July 22, 2026",
- "edition": "Vol. I — No. 012",
+ "date_line": "Thursday, July 23, 2026",
+ "edition": "Vol. I — No. 013",
  "items": [
   {
-   "b": "GOLD 4,131",
-   "t": " — the quiet week breaks a session early: +1.33% late Tuesday on a $3,998.80–$4,142.70 run, short covering and haven demand doing the lifting"
+   "b": "GOLD 4,103",
+   "t": " — off Wednesday's two-week peak of $4,165.87 as oil prints a six-week high and two-year yields a 17-month one; September hike odds hit 77%"
   },
   {
-   "b": "SILVER 60.11",
-   "t": " — the high of the day knocks on sixty for the first time since the June selloff; the board settles 59.64, +1.67%"
+   "b": "CANADA 50%",
+   "t": " — six jewelry HTS codes named, loose polished diamonds included, effective August 19 under Section 338; rough exempt, USMCA overridden"
   },
   {
-   "b": "VENETIA 1,214",
-   "t": " — the NUM condemns De Beers' two-year pause, counters with executive cost reviews and retraining, and pledges every legal channel"
+   "b": "COLOR 12.5%",
+   "t": " — USTR's expedited 301 proposes the rate on colored stones and cultured pearls from ~46 countries; resolution due by month-end"
   },
   {
-   "b": "BRAZIL 35%",
-   "t": " — a 25% Section 301 tariff stacks on the existing 10% at 12:01 a.m. July 23; rough gems and unwrought metals exempt, polished and finished jewelry pay"
+   "b": "SURCHARGE 0",
+   "t": " — the temporary 10% global import surcharge expires July 24; importers with goods in transit get a rare clean window"
   },
   {
-   "b": "LUK FOOK +32%",
-   "t": " — April–June retail sales up 32%, gold same-store +50%; diamond same-store −17% group and −58% on the mainland; 148 net stores closed"
+   "b": "SWATCH +9%",
+   "t": " — constant-currency H1 growth on CHF 3.12B revenue, US +27%, China +9%; net profit CHF 16M — half a percent of sales"
   },
   {
-   "b": "CHOW SANG SANG +16%",
-   "t": " — retail value up 16% for the quarter, same-store +17% in China and +30% in Hong Kong & Macau; 776 doors after 49 net closures"
+   "b": "BIRKS −73%",
+   "t": " — the annual loss narrows to CAD 3.4M on sales up 15.5% to CAD 205.4M; a Birks mono-brand store lands at Vancouver's Oakridge this fall"
   },
   {
-   "b": "THE KNOT 61%",
-   "t": " — the 2026 Real Weddings study says 61% of couples married in 2025 chose lab-grown center stones; premium 1ct labs retail $800–1,200"
+   "b": "LEMON 21,650",
+   "t": " — Monica Rich Kosann's Enchanted Garden tops out at a special-order lemon with white-diamond seeds; the cherry starts at $10,985"
   },
   {
-   "b": "PANDORA ×8",
-   "t": " — lab-grown collections reach Spain and Italy via Barcelona and Milan flagships, the eighth market for the line; the NDC disputes its carbon math"
+   "b": "TYSONS 2,800",
+   "t": " — Liljenquist & Beckstead opens a Rolex boutique on the Galleria's main corridor, Rolex-trained workshop set behind glass"
   },
   {
-   "b": "BONHAMS 114,800",
-   "t": " — a 1970s Cartier Bamboo Coussin leads a record spring as Piaget doubles and triples; a 1930s Rolex Prince manages $2,176"
+   "b": "JOURNE 1M",
+   "t": " — the 1999 Résonance 022/99R heads to Phillips Geneva Nov 7–8 with a CHF 1M high estimate, its first public appearance in 27 years"
   },
   {
-   "b": "BEAVERBROOKS IV",
-   "t": " — a fourth Rolex-anchored Loupe boutique takes over Sheffield's 165-year-old H. L. Brown showroom at 2 Barker's Pool"
+   "b": "SILVER 58.90",
+   "t": " — the white metals hand back a slice of Tuesday: silver −1.3%, platinum −1.0% to $1,628.63, palladium −1.2% to $1,274.96"
   }
  ],
- "tape_ts": "21 Jul 2026, 11:52 p.m. ET",
+ "tape_ts": "23 Jul 2026, 3:13 a.m. ET",
  "tape": [
   {
    "name": "Gold / oz",
    "code": "XAU",
-   "px": "4,131.00",
-   "chg": "▲ +1.33%",
-   "dir": "up",
+   "px": "4,103.39",
+   "chg": "▼ −0.60%",
+   "dir": "dn",
    "pts": [
-    13,
-    12,
-    13,
-    12,
-    13,
     12,
     13,
     14,
+    15,
     16,
-    17
+    17,
+    18,
+    17,
+    16,
+    15
    ]
   },
   {
@@ -71,11 +71,11 @@
    "chg": "— unch.",
    "dir": "flat",
    "pts": [
-    15,
-    15,
-    14,
-    14,
-    14,
+    13,
+    13,
+    13,
+    13,
+    13,
     13,
     13,
     13,
@@ -90,54 +90,54 @@
    "chg": "— unch.",
    "dir": "flat",
    "pts": [
-    14,
-    14,
     13,
     13,
     13,
     13,
-    12,
-    12,
-    12,
-    12
+    13,
+    13,
+    13,
+    13,
+    13,
+    13
    ]
   },
   {
    "name": "Platinum / oz",
    "code": "XPT",
-   "px": "1,660.00",
-   "chg": "▲ +2.28%",
-   "dir": "up",
+   "px": "1,628.63",
+   "chg": "▼ −1.00%",
+   "dir": "dn",
    "pts": [
-    13,
-    13,
-    14,
-    14,
-    13,
-    12,
     12,
     13,
+    14,
     15,
-    16
+    16,
+    17,
+    17,
+    16,
+    15,
+    15
    ]
   },
   {
    "name": "Silver / oz",
    "code": "XAG",
-   "px": "59.64",
-   "chg": "▲ +1.67%",
-   "dir": "up",
+   "px": "58.90",
+   "chg": "▼ −1.30%",
+   "dir": "dn",
    "pts": [
     12,
-    11,
-    12,
-    12,
-    13,
     13,
     14,
-    15,
     16,
-    16
+    17,
+    18,
+    17,
+    16,
+    15,
+    14
    ]
   }
  ]

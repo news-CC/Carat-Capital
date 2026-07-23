@@ -1,9 +1,204 @@
 [
  {
+  "slug": "fifty-percent-for-canada",
+  "desk": "diamonds",
+  "date": "2026-07-23",
+  "lead": true,
+  "kicker": "Diamonds Desk · Washington",
+  "title": "Fifty percent for Canada: the wall reaches the diamond counter",
+  "dek": "A 50% tariff on Canadian goods takes effect August 19 and names six jewelry HTS codes, loose polished diamonds among them. Rough is exempt, USMCA offers no shelter, and the duty stacks on top of everything already in force.",
+  "byline": "The Trade Desk",
+  "minutes": 4,
+  "tags": [
+   "NUM",
+   "STAKES"
+  ],
+  "body": [
+   "The tariff wall that has been rising around American jewelry counters all summer just gained its most surprising section: the northern one. A 50% tariff on Canadian imports, enacted under Section 338 of the Tariff Act of 1930, takes effect August 19, thirty days after signing. The order names six Harmonized Tariff Schedule codes that land squarely on the trade: loose polished diamonds (7102.39.00), semi-manufactured .995 silver including gold- and platinum-plated forms (7106.92.10), silver jewelry valued over $18 per dozen pieces (7113.11.50), gold necklaces and neck chains excluding rope and mixed-link (7113.19.29), precious-metal jewelry including plated goods (7113.19.50), and base-metal jewelry (7117.19.90).",
+   "Two details make the order harsher than its headline. First, the Jewelers Vigilance Committee notes the tariffs apply to the listed products even where they would qualify for duty-free treatment under the USMCA, the free-trade agreement Washington itself negotiated with Ottawa in the first Trump term. Second, the new duty applies on top of existing tariffs rather than replacing them. A category that already carried a rate now carries that rate plus fifty points.",
+   "The exemption is as pointed as the inclusion. Rough diamonds are excluded, which means Canadian rough that leaves the Northwest Territories for cutting elsewhere enters the United States under the cutting country's rate, not Canada's. What pays the 50% is the small, premium trade in stones actually polished in Canada, the traceable, mine-to-market goods sold for two decades under a maple-leaf promise. The order effectively taxes the value Canada adds and waves through the value it exports raw.",
+   "The industry's response has settled into weary procedure. Jewelers of America president David Bonaparte, who has spent the season filing exemption requests for diamond, gemstone and pearl codes, framed the situation plainly: \"President Trump has stated that tariffs are here to stay\". The lobbying goal has shrunk accordingly, from repeal to carve-outs, code by code. Canada joins Brazil, whose 25% duty on loose polished colored stones is now in force, and the roughly 46 countries facing a proposed 12.5% rate on colored gemstones and pearls by month-end.",
+   "The desk's view: The maple-leaf premium just became a maple-leaf surcharge. Canadian-cut stones were the ethical-sourcing story American retail told its most careful customers, and at plus-fifty they will be nearly unsellable against identical goods cut in Surat from the same Canadian rough. A tariff that exempts the ore and taxes the craftsmanship does not protect anyone; it simply moves the cutting wheel offshore. The counters have four weeks to land goods, and the desk expects August's import data to show one of the strangest pull-forwards on record."
+  ],
+  "sources": [
+   {
+    "title": "National Jeweler — Trump to Put 50% Tariff on Canadian Goods",
+    "url": "https://nationaljeweler.com/articles/15157-trump-to-put-50-tariff-on-canadian-goods"
+   }
+  ]
+ },
+ {
+  "slug": "twelve-point-five-for-color",
+  "desk": "gemstones",
+  "date": "2026-07-23",
+  "kicker": "Gemstones Desk · Washington",
+  "title": "Twelve and a half for color: Washington prices the rainbow",
+  "dek": "USTR's expedited Section 301 investigation proposes 12.5% tariffs on colored gemstones and cultured pearls from roughly 46 countries, with resolution expected by end of July. Brazil's 25% is already in force, and the temporary 10% global surcharge expires July 24.",
+  "byline": "The Gem Desk",
+  "minutes": 4,
+  "tags": [
+   "NUM",
+   "STAKES"
+  ],
+  "body": [
+   "The colored-stone trade now has a number to dread and a date to watch. The US Trade Representative's expedited Section 301 investigation into colored gemstones and cultured pearls has produced preliminary findings proposing a 12.5% tariff on imports from roughly 46 countries, a list that includes every sourcing capital that matters: India, Thailand, Sri Lanka and Australia among them. Final resolution is expected by the end of July, which gives the trade roughly a week of certainty about its uncertainty.",
+   "It is one of three tracks running at once. A second review covering subsidies and industrial policies spans 16 trading partners, including Thailand, Cambodia, India, Japan and the European Union, and is due to resolve later in July. The third, aimed at Brazil, has already concluded: a definitive 25% tariff on loose polished colored gemstones from the country that supplies much of the world's tourmaline, aquamarine and emerald, which this page covered as it took effect this week. Rough Brazilian stones stay exempt, in the same rough-in, polished-pays logic that now governs the Canadian diamond order.",
+   "One deadline cuts the other way. The temporary 10% global import surcharge, the blanket duty that has sat over nearly everything since spring, expires July 24. If it lapses as scheduled while the 12.5% proposal is still pending, the color trade will briefly enjoy something close to its historic footing, a window importers with goods in transit will not need to be told twice about.",
+   "The American Gem Trade Association's argument against the whole exercise is that a protective tariff needs something to protect. The United States has effectively no commercial colored-stone mining or cutting industry; AGTA argues loose colored gemstones should keep their historic duty-free status because there is \"no meaningful domestic production\". A Section 301 remedy with no domestic industry behind it functions as a straightforward consumption tax on sapphire engagement rings and pearl strands, paid at American counters.",
+   "The desk's view: Color spent two decades as the affordable, story-rich alternative to the diamond counter, and its supply chain, artisanal, multi-country, thinly capitalized, is the least equipped in the industry to absorb a demand shock at the border. Twelve and a half points will not close Thailand's cutting houses, but it will quietly reprice every American jeweler's fall reorder. Watch July 24: if the 10% surcharge dies quietly and 12.5% arrives loudly, the net change is small and the headlines will be wrong in both directions."
+  ],
+  "sources": [
+   {
+    "title": "Rapaport — Fresh US Import Tariffs Could Affect Colored Gemstones and Pearls",
+    "url": "https://rapaport.com/news/fresh-us-import-tariffs-could-affect-colored-gemstones-and-pearls/"
+   }
+  ]
+ },
+ {
+  "slug": "oil-talks-gold-listens",
+  "desk": "gold-metals",
+  "date": "2026-07-23",
+  "kicker": "Gold & Metals · The Tape",
+  "title": "Oil talks, gold listens: $4,165 was the top, for now",
+  "dek": "Gold backed off Wednesday's two-week peak of $4,165.87 to trade $4,103.39 Thursday morning, down 0.6%, as oil hit a six-week high, two-year yields touched a 17-month peak and futures put 77% odds on a September rate hike.",
+  "byline": "The Metals Desk",
+  "minutes": 4,
+  "tags": [
+   "VS",
+   "NUM"
+  ],
+  "body": [
+   "The rally that started with Tuesday's $144 run met its counterparty on Thursday, and the counterparty was a barrel of crude. Spot gold traded at $4,103.39 an ounce by 0713 GMT, down 0.6% on the session and roughly $60 below Wednesday's two-week peak of $4,165.87. August futures sat at $4,106.40, off 1.1%. The proximate cause was not the dollar, which actually eased 0.1%, but oil, which climbed to its highest level in more than six weeks and dragged inflation expectations up with it.",
+   "The transmission mechanism ran through the rates market. Two-year Treasury yields climbed to a 17-month high, and the CME FedWatch tool now assigns a 77% probability to a rate hike in September, with futures broadly positioned for at least one increase by year-end. Next week's meeting, July 28 and 29, is expected to produce no change; it is the meetings after that the tape is repricing. Jigar Trivedi of IndusInd Securities captured the bind: \"Oil continues to be up, adding to pressures of inflation\".",
+   "The white metals followed gold down the stairs. Silver traded $58.90, off 1.3% from a week that had touched $60.11; platinum eased 1.0% to $1,628.63 and palladium 1.2% to $1,274.96, both giving back a slice of Tuesday's outsized gains. Nothing in the complex broke anything that matters: gold remains more than $100 above Monday's $4,000.30 close, and every metal on the board is still carrying most of the week's advance.",
+   "The strange loop in the setup deserves naming. The same Middle East risk that buys gold its haven bid is now selling it back through the oil market: crude strength feeds inflation, inflation feeds hike odds, and hike odds raise the cost of holding an asset that pays nothing. Tuesday's move was the war premium arriving; Thursday's is the second-order consequence of the same war, routed through the Fed. Until one of those channels dominates, the tape will keep doing this.",
+   "The desk's view: A 0.6% pullback after a $144 two-day run is consolidation, not verdict. The number that matters is 77, the September hike probability, because gold at $4,100 has never coexisted with a genuine tightening cycle and one of them eventually has to give. The desk notes that 'at least one hike by year-end' was also the consensus in three previous episodes this cycle, and the hikes never came. Respect the odds; remember their record."
+  ],
+  "sources": [
+   {
+    "title": "Reuters via The Star — Gold slips from two-week peak as oil advances; Fed meeting in focus",
+    "url": "https://www.thestar.com.my/business/business-news/2026/07/23/gold-slips-from-two-week-peak-as-oil-advances-fed-meeting-in-focus"
+   },
+   {
+    "title": "Kitco — Precious metals spot board",
+    "url": "https://www.kitco.com/price/precious-metals"
+   }
+  ]
+ },
+ {
+  "slug": "swatch-nine-up-six-down",
+  "desk": "watches",
+  "date": "2026-07-23",
+  "kicker": "Watches Desk · Biel",
+  "title": "Swatch's split screen: nine percent growth, sixteen million profit",
+  "dek": "Swatch Group's first half: revenue CHF 3.12 billion, up 2% reported and 9% at constant currency, with the US up 27%, Japan up 20% and Spain up 28%. Net profit fell 6% to CHF 16 million — a margin of half a percent.",
+  "byline": "The Watch Desk",
+  "minutes": 4,
+  "tags": [
+   "NUM",
+   "VS"
+  ],
+  "body": [
+   "Swatch Group's half-year report reads like two different companies stapled together. The top line belongs to a business in recovery: revenue of CHF 3.12 billion ($3.84 billion), up 2% as reported and 9% at constant exchange rates, with watches and jewelry contributing CHF 2.95 billion. The regional detail is better still. The United States gained 27%, Japan 20%, Spain 28%, Italy 12%, South Korea 12%, and China including Hong Kong and Macau, the market whose collapse has defined the group's last three years, turned in growth of 9%.",
+   "The bottom line belongs to a company still on the operating table. Net profit fell 6% to CHF 16 million ($19.7 million), which against CHF 3.12 billion of sales works out to a net margin of roughly half a percent. The seven-point gap between reported and constant-currency growth names the culprit: the Swiss franc, which converts foreign revenue into fewer francs while the group's cost base, factories, watchmakers, headquarters, stays resolutely Swiss and resolutely franc-denominated.",
+   "The group, which owns Omega, Tissot, Longines and Harry Winston among seventeen brands, chose to lead its outlook with momentum rather than margin. It anticipates stronger growth in the second half, citing \"stronger sales in May and June, which continued into the first weeks of July\". New product launches and improved retail efficiency get credit for the positive results; high-potential markets, India, Mexico, Saudi Arabia, are singled out for particularly strong gains.",
+   "The report lands three days after the federation's June export data showed Swiss shipments up 11.2%, with the US and UK both up double digits, and confirms what that tape implied: the demand turn is real, broad and accelerating into July. What the export numbers could not show, and Swatch's accounts do, is how little of that demand survives the journey from Geneva showroom to Biel income statement when the franc is this strong.",
+   "The desk's view: Nine percent constant-currency growth is a genuine recovery; sixteen million francs of profit is a rounding error wearing a suit. The group is effectively running the world's most prestigious watch factories at break-even and calling it a turnaround, which it is, but only in the way that a patient sitting up in bed is a recovery. The China number is the one to keep: if 9% growth there holds through the second half, the margin will follow. If it doesn't, the franc will still be Swiss."
+  ],
+  "sources": [
+   {
+    "title": "Rapaport — Swatch Group Records Strong Sales Across All Continents",
+    "url": "https://rapaport.com/news/swatch-group-records-strong-sales-across-all-continents/"
+   }
+  ]
+ },
+ {
+  "slug": "birks-narrows-by-73",
+  "desk": "retail-tech",
+  "date": "2026-07-23",
+  "kicker": "Retail & Trade · Montreal",
+  "title": "Birks trims the loss by 73 percent: a repair year in Montreal",
+  "dek": "Canada's jeweler of record cut its annual net loss to CAD 3.4 million from CAD 12.8 million, on sales of CAD 205.4 million, up 15.5%, with comparable-store sales up 2.6%. A new mono-brand store lands in Vancouver this fall.",
+  "byline": "The Retail Desk",
+  "minutes": 4,
+  "tags": [
+   "ACTOR",
+   "NUM"
+  ],
+  "body": [
+   "Birks Group's fiscal 2026 is what a repair year looks like when it works: still red, but three-quarters less of it. The Montreal jeweler posted a net loss of CAD 3.4 million ($2.4 million) for the year ended March 28, against CAD 12.8 million ($9.1 million) a year earlier, a 73% reduction. Sales rose 15.5% to CAD 205.4 million ($145.7 million), and comparable-store sales, the number that strips out acquisitions and flatters no one, gained 2.6%.",
+   "The growth has two engines, one bought and one built. The acquisition of European Boutique added scale, while Birks-branded jewelry, the house's own gold-and-diamond lines, grew organically alongside third-party jewelry sales. Interim CEO Niccolò Rossi di Montelera said retail performance \"outperformed over the prior year due to the strategic acquisition of European Boutique\", crediting organic growth in the house brand alongside it. The offset was third-party watches, which declined after a brand exited one of the company's stores, a reminder of how much Canadian luxury retail rides on distribution agreements it does not control.",
+   "The next move is expansion of the house's own name: a Birks mono-brand store opens this fall in Vancouver's Oakridge mall. For a 147-year-old company that has spent recent years as a multi-brand showcase, putting fresh capital into a store that sells only Birks is a quiet statement about where management believes the margin lives.",
+   "The macro backdrop cuts both ways. Gold jewelry, a growing share of what Birks sells under its own name, has been the category of the year everywhere bullion has run. But the company reports in a country that just became the target of a 50% American tariff on jewelry and polished diamonds; Birks' retail is domestic, so the direct exposure is limited, yet the trade war now reshaping its home market's currency and cross-border shopping patterns is nobody's friend.",
+   "The desk's view: A 73% smaller loss is direction, not destination; CAD 3.4 million of red ink on CAD 205 million of sales means the model is one strong quarter from working and one weak one from doubling the deficit again. The comp number is the honest one, and 2.6% in this gold market is modest. The Oakridge store is the bet to watch: house-brand mono-retail is where the margin is, and Birks has the name to try it."
+  ],
+  "sources": [
+   {
+    "title": "Rapaport — Birks's Full-Year Loss Narrows",
+    "url": "https://rapaport.com/news/birks-full-year-loss-narrows/"
+   },
+   {
+    "title": "JCK — Birks Group Narrows Annual Loss in Fiscal 2026 as Sales Rise",
+    "url": "https://www.jckonline.com/editorial-article/birks-narrows-annual-loss/"
+   }
+  ]
+ },
+ {
+  "slug": "fruit-that-opens",
+  "desk": "gemstones",
+  "date": "2026-07-23",
+  "kicker": "Design Desk · New York",
+  "title": "The $21,650 lemon: Monica Rich Kosann's fruit that opens",
+  "dek": "Three pendants in the Enchanted Garden series — a cherry at $10,985, a pear at $14,500 and a lemon at $21,650 — each a hinged locket concealing garnets or diamond ‘seeds’ inside 18-karat gold and pavé.",
+  "byline": "The Design Desk",
+  "minutes": 3,
+  "tags": [
+   "NUM",
+   "GAP"
+  ],
+  "body": [
+   "The most talked-about lemon in American jewelry costs $21,650 and is available by special order only. It is the top of Monica Rich Kosann's three-piece Enchanted Garden fruit series, pendants that debuted at Couture and carry the designer's signature mechanic: they open. The lemon wears 0.46 carats of yellow diamonds and 0.48 carats of yellow sapphires over 18-karat yellow gold, with tsavorite leaves and a white-diamond stem, and splits on its hinge to reveal white-diamond seeds.",
+   "The cherry, at $10,985, is the entry point: 2.65 carats of ruby pavé with diamond accents, opening to a 0.75-carat cabochon garnet, a stone-in-fruit conceit executed with a straight face. The pear, at $14,500, is the colorist's piece, layering a 3.50-carat yellow sapphire with orange sapphire, peridot and 1.36 carats of tsavorite, and concealing five pear-shaped garnets totaling 1.72 carats. Kosann, a house built on lockets and the things people hide in them, calls the series an exercise in surprise, \"a piece of fine jewelry that's a tad bit cheeky\".",
+   "The fruits arrive into a market that has been rewarding exactly this kind of object. Graff's twelve butterfly jabot pins, Pomellato's mandala capsule and the general brooch-and-objet revival this page has tracked all season point the same direction: at the top of the market, jewelry is drifting from adornment toward miniature sculpture, and houses are competing on mechanics, hinges, tremblant wings, hidden compartments, as much as on carats.",
+   "The desk's view: Whimsy holds its value when the engineering is real, and a locket house doing trompe-l'oeil fruit is playing squarely to its own strength rather than chasing a trend. The lemon's special-order status is the tell: this is couture logic applied to the pendant case, made when wanted, never stocked. The desk's only quibble is arithmetic; at $21,650, the seeds had better be the sweetest part."
+  ],
+  "sources": [
+   {
+    "title": "National Jeweler — Monica Rich Kosann's High Jewelry Is Fruitful",
+    "url": "https://nationaljeweler.com/articles/15154-monica-rich-kosann-s-high-jewelry-is-fruitful"
+   }
+  ]
+ },
+ {
+  "slug": "rolex-on-the-main-corridor",
+  "desk": "watches",
+  "date": "2026-07-23",
+  "kicker": "Watches Desk · Tysons",
+  "title": "2,800 square feet for the crown: Tysons gets its Rolex",
+  "dek": "Liljenquist & Beckstead, family jewelers since 1978, opened a 2,800-square-foot Rolex boutique in Tysons Galleria on July 22 — bronze-brass façade, walnut walls, and a Rolex-trained watchmaking workshop built to be watched.",
+  "byline": "The Watch Desk",
+  "minutes": 3,
+  "tags": [
+   "NUM",
+   "ACTOR"
+  ],
+  "body": [
+   "The Washington suburbs now have a Rolex address to match their tax bracket. Liljenquist & Beckstead opened a 2,800-square-foot Rolex boutique on July 22 along the main corridor of the recently renovated Tysons Galleria in McLean, Virginia, the fourth location for a family firm that has sold jewelry in the capital's orbit since 1978. Lisa Colen, the company's director of operations, called it \"a distinguished home for Rolex in the Mid-Atlantic\".",
+   "The build is the point. A sawtooth storefront in bronze and brass gives way to American walnut ceilings and walls, travertine-framed display windows and a lounge with private and semi-private consultation rooms. The theatrical centerpiece is a Rolex-trained watchmaking workshop set behind glass, with a dry bar positioned so customers can watch a movement being serviced while they wait. Service, the least glamorous half of the watch business, has been promoted to the shop window.",
+   "The opening extends a pattern this page has been logging all year: the crown's retail footprint is consolidating into fewer, grander doors operated by its most trusted partners. Beaverbrooks just converted a 165-year-old Sheffield showroom into its fourth Rolex-anchored boutique; the brand's certified pre-owned program keeps pulling secondary-market demand into the same authorized rooms. For independent jewelers, a dedicated Rolex boutique is simultaneously the best franchise in retail and a deepening dependency on a single Geneva landlord.",
+   "The desk's view: A visible workshop is the smartest square footage in watch retail; it converts a waiting-room chore into proof of competence, and proof of competence into the thing Rolex actually rations, trust. The dependency question is real but academic: no family jeweler has ever gotten smaller by building the crown a nicer room. The desk notes the address, a renovated luxury mall rather than a Manhattan avenue, and reads it as the American watch market's actual center of gravity: the affluent suburb, not the flagship district."
+  ],
+  "sources": [
+   {
+    "title": "National Jeweler — Liljenquist & Beckstead Opens New Rolex Boutique",
+    "url": "https://nationaljeweler.com/articles/15156-liljenquist-beckstead-opens-rolex-new-boutique"
+   }
+  ]
+ },
+ {
   "slug": "gold-goes-144-in-a-day",
   "desk": "gold-metals",
   "date": "2026-07-22",
-  "lead": true,
   "kicker": "Lead Story · Gold & Metals Desk",
   "title": "The $144 day: gold breaks its quiet week early",
   "dek": "Kitco's late-Tuesday board read $4,131, up 1.33%, after a stretch that ran from $3,998.80 at the low to $4,142.70 at the high. Silver traded to $60.11, platinum added 2.28%, and the Fed is still six days out.",
