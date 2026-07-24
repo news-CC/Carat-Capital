@@ -1,10 +1,40 @@
 {
- "updated": "23 Jul 2026",
+ "updated": "24 Jul 2026",
  "intro": "Eight weeks of the trade, kept the way a ledger should be kept — dated, sourced, and in one place. New entries are added at the top each week; the quarter's running numbers live in the Almanac below.",
  "weeks": [
   {
    "label": "This week — July 20",
    "entries": [
+    {
+     "d": "diamonds",
+     "h": "De Beers Q2 output jumps 88% as the realised price falls 32%",
+     "t": "Second-quarter rough production reached 7.8M ct (H1 14.91M, +46%), led by Botswana +107% to 5.5M ct, but the average price fell 32% to $105/ct and the rough index 16%. Q2 revenue fell 44% to $665M. Full-year guidance holds at 21–26M ct with a Venetia pause in H2; Anglo American is progressing a sale, with a Gareth Penny consortium reported as front-runner.",
+     "s": "Mining Weekly / JCK"
+    },
+    {
+     "d": "gold-metals",
+     "h": "Gold defends $4,000 as Brent tops $100 and hike odds hit 80%",
+     "t": "Spot gold held near $4,028 on July 24, just above the $4,000 floor, after sliding from a two-week peak above $4,160. Brent crude cleared $100 and the 10-year yield reached 4.70%; Fed-funds futures now imply an 80% chance of a September rate rise, up from 68% a week earlier. Roughly 45% of surveyed central banks plan to add gold.",
+     "s": "FXLeaders / Yahoo Finance"
+    },
+    {
+     "d": "retail-tech",
+     "h": "Louvre reopens the Apollo Gallery, minus the crown jewels",
+     "t": "The gallery reopened July 22, nine months after the October 2025 heist in which a crew took more than $100M in French royal jewels in about seven minutes. The Louvre will no longer display royal jewellery there, moving surviving pieces to a secure location. Four suspects are in custody; no stones have been recovered, and France has announced a national museum-security plan.",
+     "s": "Deseret News"
+    },
+    {
+     "d": "gemstones",
+     "h": "Gemfields' higher-quality emerald auction takes $26.8M",
+     "t": "The London sale (4–21 May, reported this week) cleared 36 of 37 lots — 97% by number, 99% by weight — at an average $146.08/ct. Managing director Adrian Banks called demand stable but cautious; a ~10% rupee slide since September 2025 pressured Indian cutters. The company, which posted a $51M loss for 2025, is pacing its ruby offering.",
+     "s": "National Jeweler"
+    },
+    {
+     "d": "auctions",
+     "h": "Sotheby's New York High Jewelry makes $31.4M, 95% sold",
+     "t": "The June 13 sale was led by a Graff 35-ct D-colour diamond ring at $3.2M, a Marcus & Co. sautoir with a 9.6-ct Burmese ruby and a 2.02-ct fancy vivid blue diamond at $1.8M each, and an 8.62-ct Colombian emerald JAR ring at $1.6M. Phillips withdrew a 3.03-ct fancy intense pink (est. $1.2–1.6M) after bids missed the reserve.",
+     "s": "JCK"
+    },
     {
      "d": "diamonds",
      "h": "A 50% tariff on Canadian goods names the diamond counter",

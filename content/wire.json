@@ -1,67 +1,67 @@
 {
- "date_line": "Thursday, July 23, 2026",
- "edition": "Vol. I — No. 013",
+ "date_line": "Friday, July 24, 2026",
+ "edition": "Vol. I — No. 014",
  "items": [
   {
-   "b": "GOLD 4,103",
-   "t": " — off Wednesday's two-week peak of $4,165.87 as oil prints a six-week high and two-year yields a 17-month one; September hike odds hit 77%"
+   "b": "DE BEERS +88%",
+   "t": " — Q2 rough output jumped to 7.8M ct even as the realised price fell 32% to $105/ct and the rough index dropped 16%; Q2 revenue −44% to $665M. Full-year guidance 21–26M ct, with Venetia paused in H2"
   },
   {
-   "b": "CANADA 50%",
-   "t": " — six jewelry HTS codes named, loose polished diamonds included, effective August 19 under Section 338; rough exempt, USMCA overridden"
+   "b": "GOLD 4,028",
+   "t": " — bullion defends $4,000 as Brent tops $100 and the 10-year yield reaches 4.70%; September rate-hike odds jump to 80% from 68% a week ago"
   },
   {
-   "b": "COLOR 12.5%",
-   "t": " — USTR's expedited 301 proposes the rate on colored stones and cultured pearls from ~46 countries; resolution due by month-end"
+   "b": "APOLLO REOPENS",
+   "t": " — the Louvre's Apollo Gallery reopened July 22, nine months after the $100M royal-jewel heist; the jewels move to a secure vault and will no longer be shown. Four arrested, stones still missing"
   },
   {
-   "b": "SURCHARGE 0",
-   "t": " — the temporary 10% global import surcharge expires July 24; importers with goods in transit get a rare clean window"
+   "b": "GEMFIELDS 26.8M",
+   "t": " — the higher-quality emerald auction took $26.8M, selling 36 of 37 lots at $146.08/ct, 99% by weight; a 10% rupee slide since September is a headwind and the ruby sale is being held back"
   },
   {
-   "b": "SWATCH +9%",
-   "t": " — constant-currency H1 growth on CHF 3.12B revenue, US +27%, China +9%; net profit CHF 16M — half a percent of sales"
+   "b": "RAPI SMALLS",
+   "t": " — June's RapNet index rose 4.2% for 0.30-ct and 1.3% for half-carat goods, and 0.4% at 3-ct, while the one-carat benchmark slipped 0.7%; inventory cuts, not demand, drive the small end"
   },
   {
-   "b": "BIRKS −73%",
-   "t": " — the annual loss narrows to CAD 3.4M on sales up 15.5% to CAD 205.4M; a Birks mono-brand store lands at Vancouver's Oakridge this fall"
+   "b": "LAB-GROWN −73%",
+   "t": " — BriteCo appraisal data puts lab-grown 73% below natural, up from 27% in 2019; as the discount widened, natural stones reclaimed 57.3% of US engagement rings"
   },
   {
-   "b": "LEMON 21,650",
-   "t": " — Monica Rich Kosann's Enchanted Garden tops out at a special-order lemon with white-diamond seeds; the cherry starts at $10,985"
+   "b": "SOTHEBY'S 31.4M",
+   "t": " — New York High Jewelry made $31.4M, 95% sold, led by a $3.2M Graff 35-ct D ring; Phillips withdrew a 3.03-ct fancy pink after bids missed the reserve"
   },
   {
-   "b": "TYSONS 2,800",
-   "t": " — Liljenquist & Beckstead opens a Rolex boutique on the Galleria's main corridor, Rolex-trained workshop set behind glass"
+   "b": "SWISS +11.2%",
+   "t": " — June exports rebounded 11.2% (FHS) and Swatch shares jumped, yet the group's H1 net profit was CHF 16M on CHF 3.12B of sales, half a percent"
   },
   {
-   "b": "JOURNE 1M",
-   "t": " — the 1999 Résonance 022/99R heads to Phillips Geneva Nov 7–8 with a CHF 1M high estimate, its first public appearance in 27 years"
+   "b": "ANGLO / DE BEERS",
+   "t": " — Anglo American flags a negative H1 underlying result at De Beers as it presses the sale; reports name a Gareth Penny consortium as front-runner for the 85% stake"
   },
   {
    "b": "SILVER 58.90",
-   "t": " — the white metals hand back a slice of Tuesday: silver −1.3%, platinum −1.0% to $1,628.63, palladium −1.2% to $1,274.96"
+   "t": " — the white metals sit quiet as gold slips: platinum near $1,628.63 and palladium near $1,274.96, little changed on the session"
   }
  ],
- "tape_ts": "23 Jul 2026, 3:13 a.m. ET",
+ "tape_ts": "24 Jul 2026, 8:10 a.m. ET",
  "tape": [
   {
    "name": "Gold / oz",
    "code": "XAU",
-   "px": "4,103.39",
-   "chg": "▼ −0.60%",
+   "px": "4,028.40",
+   "chg": "▼ −1.00%",
    "dir": "dn",
    "pts": [
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
     18,
     17,
     16,
-    15
+    15,
+    14,
+    15,
+    14,
+    13,
+    12,
+    11
    ]
   },
   {
@@ -106,17 +106,17 @@
    "name": "Platinum / oz",
    "code": "XPT",
    "px": "1,628.63",
-   "chg": "▼ −1.00%",
-   "dir": "dn",
+   "chg": "— unch.",
+   "dir": "flat",
    "pts": [
-    12,
-    13,
-    14,
     15,
     16,
     17,
     17,
     16,
+    15,
+    15,
+    15,
     15,
     15
    ]
@@ -125,19 +125,19 @@
    "name": "Silver / oz",
    "code": "XAG",
    "px": "58.90",
-   "chg": "▼ −1.30%",
-   "dir": "dn",
+   "chg": "— unch.",
+   "dir": "flat",
    "pts": [
-    12,
-    13,
     14,
+    15,
     16,
-    17,
-    18,
     17,
     16,
     15,
-    14
+    15,
+    15,
+    15,
+    15
    ]
   }
  ]

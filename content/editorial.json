@@ -12392,5 +12392,930 @@
     }
    ]
   }
+ },
+ "de-beers-eighty-eight-up": {
+  "strip": {
+   "cap": "By the numbers · De Beers Q2 2026",
+   "cells": [
+    {
+     "fig": "7.8M",
+     "delta": "▲ +88%",
+     "dir": "up",
+     "lab": "carats mined, Q2"
+    },
+    {
+     "fig": "$105",
+     "delta": "▼ −32%",
+     "dir": "dn",
+     "lab": "average price / carat"
+    },
+    {
+     "fig": "−16%",
+     "lab": "rough price index, YoY"
+    },
+    {
+     "fig": "$665M",
+     "delta": "▼ −44%",
+     "dir": "dn",
+     "lab": "Q2 rough revenue"
+    },
+    {
+     "fig": "21–26M",
+     "lab": "carats · full-year guidance"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Q2 output by mine · million carats",
+    "rows": [
+     {
+      "l": "BOTSWANA",
+      "v": 5.5,
+      "d": "5.5M",
+      "hi": true
+     },
+     {
+      "l": "GAHCHO KUÉ (CANADA)",
+      "v": 1.0,
+      "d": "1.0M"
+     },
+     {
+      "l": "VENETIA (S. AFRICA)",
+      "v": 0.7,
+      "d": "0.7M"
+     },
+     {
+      "l": "NAMIBIA",
+      "v": 0.5,
+      "d": "0.5M"
+     }
+    ],
+    "note": "Q2 2026 rough output by source · total 7.8M ct",
+    "cap": "Where the carats came from: De Beers Q2 output by mine. Carat Capital graphics desk. &nbsp;CC/2026/103"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Eighty-eight percent more carats is the flattering number.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "The price line is the honest one.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "Producing more into a market that pays less is the arithmetic of a company that has decided inventory on the balance sheet is worse than stones sold cheaply.",
+     "attr": "The Mines Desk"
+    }
+   },
+   {
+    "sub": "The real story is a business dressed for sale.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Twelve hundred jobs at Venetia: the pause becomes a plan",
+     "href": "a-twelve-hundred-at-venetia.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "For the trade, the signal is simpler: rough is cheap and getting cheaper, and the company that sets the price has stopped pretending otherwise."
+  },
+  "next": {
+   "lead": {
+    "slug": "twelve-hundred-at-venetia",
+    "tag": "Diamonds",
+    "blurb": "The mine that just grew is the one scheduled to pause."
+   },
+   "minis": [
+    {
+     "slug": "disposable-tools-at-venetia",
+     "tag": "Diamonds"
+    },
+    {
+     "slug": "sixty-one-percent-said-lab",
+     "tag": "Diamonds"
+    }
+   ]
+  }
+ },
+ "gold-defends-four-thousand-again": {
+  "strip": {
+   "cap": "By the numbers · the tape, 24 July",
+   "cells": [
+    {
+     "fig": "$4,028",
+     "delta": "▼ −1.0%",
+     "dir": "dn",
+     "lab": "gold / oz"
+    },
+    {
+     "fig": "$100",
+     "delta": "▲ 6-wk high",
+     "dir": "up",
+     "lab": "Brent crude / bbl"
+    },
+    {
+     "fig": "4.70%",
+     "lab": "US 10-year yield"
+    },
+    {
+     "fig": "80%",
+     "delta": "▲ from 68%",
+     "dir": "up",
+     "lab": "Sept hike odds"
+    },
+    {
+     "fig": "45%",
+     "lab": "central banks buying gold"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "September hike odds · market-implied",
+    "rows": [
+     {
+      "l": "ONE WEEK AGO",
+      "v": 68,
+      "d": "68%"
+     },
+     {
+      "l": "TODAY",
+      "v": 80,
+      "d": "80%",
+      "hi": true
+     }
+    ],
+    "note": "Fed-funds futures probability of a September rate rise",
+    "cap": "The repricing that pins gold: September hike odds. Carat Capital graphics desk. &nbsp;CC/2026/104"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Gold is not falling, and it is not running.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Two forces, pulling in opposite directions.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "Higher yields raise the opportunity cost of gold, and that is the weight currently pinning it just above $4,000 rather than letting it run.",
+     "attr": "The Metals Desk"
+    }
+   },
+   {
+    "sub": "September is the hinge.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "A quiet week at four thousand: gold's month of refusing to move",
+     "href": "a-quiet-week-at-four-thousand.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "For the bench, plan around $4,000 as the floor it has earned, not the ceiling it once was."
+  },
+  "next": {
+   "lead": {
+    "slug": "quiet-week-at-four-thousand",
+    "tag": "Gold & Metals",
+    "blurb": "Gold's month of holding a line, in one chart."
+   },
+   "minis": [
+    {
+     "slug": "oil-talks-gold-listens",
+     "tag": "Gold & Metals"
+    },
+    {
+     "slug": "gold-goes-144-in-a-day",
+     "tag": "Gold & Metals"
+    }
+   ]
+  }
+ },
+ "apollo-gallery-goes-dark": {
+  "spec": {
+   "cap": "The raid · as recorded",
+   "rows": [
+    {
+     "l": "Where",
+     "v": "<b>Apollo Gallery</b>, Musée du Louvre, Paris"
+    },
+    {
+     "l": "When",
+     "v": "October 2025 · reopened 22 July 2026"
+    },
+    {
+     "l": "Taken",
+     "v": "French royal jewels, <b>$100M+</b>"
+    },
+    {
+     "l": "Method",
+     "v": "Basket lift · angle grinder · ~7 minutes"
+    },
+    {
+     "l": "Arrests",
+     "v": "Four in custody; commissioner unnamed"
+    },
+    {
+     "l": "Recovered",
+     "v": "None"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Nine months on · US$ millions",
+    "rows": [
+     {
+      "l": "VALUE TAKEN",
+      "v": 100,
+      "d": "$100M+",
+      "hi": true
+     },
+     {
+      "l": "VALUE RECOVERED",
+      "v": 0,
+      "d": "$0"
+     }
+    ],
+    "note": "French royal jewels, October 2025 heist",
+    "cap": "The ledger of a heist: taken against recovered. Carat Capital graphics desk. &nbsp;CC/2026/105"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "The room reopened; the jewels did not.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Seven minutes against a national museum.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "It was less a burglary than a logistics exercise, executed against a national museum in daylight.",
+     "attr": "The Security Desk"
+    }
+   },
+   {
+    "sub": "The bill lands on everyone who lends a stone.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Through the wall: the ten-minute heist that took a jeweller's safe",
+     "href": "a-through-the-wall-heist.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "Prestige, it turns out, has a security deposit."
+  },
+  "next": {
+   "lead": {
+    "slug": "through-the-wall-heist",
+    "tag": "Retail & Tech",
+    "blurb": "A different crew, the same seven-minute playbook."
+   },
+   "minis": [
+    {
+     "slug": "lalique-ten-minute-heist",
+     "tag": "Gemstones"
+    },
+    {
+     "slug": "foundrae-takes-mount-street",
+     "tag": "Retail & Tech"
+    }
+   ]
+  }
+ },
+ "emeralds-hold-at-146": {
+  "strip": {
+   "cap": "By the numbers · Gemfields emerald auction",
+   "cells": [
+    {
+     "fig": "$26.8M",
+     "lab": "auction total"
+    },
+    {
+     "fig": "$146.08",
+     "lab": "average / carat"
+    },
+    {
+     "fig": "36/37",
+     "lab": "lots sold · 99% by weight"
+    },
+    {
+     "fig": "−10%",
+     "delta": "▼",
+     "dir": "dn",
+     "lab": "rupee vs $ since Sept"
+    },
+    {
+     "fig": "−$51M",
+     "delta": "▼",
+     "dir": "dn",
+     "lab": "Gemfields 2025 result"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Clearance · percent of book sold",
+    "rows": [
+     {
+      "l": "BY WEIGHT",
+      "v": 99,
+      "d": "99%",
+      "hi": true
+     },
+     {
+      "l": "BY LOT",
+      "v": 97,
+      "d": "97%"
+     }
+    ],
+    "note": "Kagem higher-quality emerald auction, London",
+    "cap": "A near-total clearance: the emerald book sold through. Carat Capital graphics desk. &nbsp;CC/2026/106"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "The ceiling of the colour market is holding.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "What Gemfields is not selling matters too.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "That is a producer managing scarcity deliberately, the colour-market equivalent of De Beers keeping rough in the vault, except that Gemfields is doing it from a position of financial strain rather than strength.",
+     "attr": "The Colour Desk"
+    }
+   },
+   {
+    "sub": "A good auction does not erase a bad year.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Twelve and a half percent for colour: the tariff comes for gemstones",
+     "href": "a-twelve-point-five-for-color.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "Whether rubies get the same disciplined treatment, or get pushed to market to plug a hole, is the number the desk will be watching next."
+  },
+  "next": {
+   "lead": {
+    "slug": "twelve-point-five-for-color",
+    "tag": "Gemstones",
+    "blurb": "A proposed 12.5% duty lands on the same colour trade."
+   },
+   "minis": [
+    {
+     "slug": "graff-pins-the-butterfly",
+     "tag": "Gemstones"
+    },
+    {
+     "slug": "brazil-rough-rides-free",
+     "tag": "Gemstones"
+    }
+   ]
+  }
+ },
+ "small-stones-lead-again": {
+  "strip": {
+   "cap": "By the numbers · RapNet index, June",
+   "cells": [
+    {
+     "fig": "+4.2%",
+     "delta": "▲",
+     "dir": "up",
+     "lab": "0.30-ct, June"
+    },
+    {
+     "fig": "+1.3%",
+     "delta": "▲",
+     "dir": "up",
+     "lab": "0.50-ct"
+    },
+    {
+     "fig": "−0.7%",
+     "delta": "▼",
+     "dir": "dn",
+     "lab": "1.00-ct benchmark"
+    },
+    {
+     "fig": "+0.4%",
+     "delta": "▲",
+     "dir": "up",
+     "lab": "3.00-ct"
+    },
+    {
+     "fig": "2ct+",
+     "lab": "strongest in US sales"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "RapNet June move by size · percent",
+    "rows": [
+     {
+      "l": "0.30 CT",
+      "v": 4.2,
+      "d": "+4.2%",
+      "hi": true
+     },
+     {
+      "l": "0.50 CT",
+      "v": 1.3,
+      "d": "+1.3%"
+     },
+     {
+      "l": "3.00 CT",
+      "v": 0.4,
+      "d": "+0.4%"
+     }
+    ],
+    "note": "June RapNet move by size · 1.00-ct fell 0.7%",
+    "cap": "The recovery arrives from the small end: RapNet, June. Carat Capital graphics desk. &nbsp;CC/2026/107"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "The gains keep coming from the smallest goods.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Thin shelves, not fresh demand.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "Prices rise because there is less to sell, not because more people are buying.",
+     "attr": "The Polished Desk"
+    }
+   },
+   {
+    "sub": "The one-carat line is the one that pays the rent.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Small stones lead the turn: where the polished market first firmed",
+     "href": "a-small-stones-lead-the-turn.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "Until the one-carat line turns on real demand rather than the small end turning on thin inventory, the desk reads this as stabilisation, not recovery, the diamond market holding its breath, not catching it."
+  },
+  "next": {
+   "lead": {
+    "slug": "small-stones-lead-the-turn",
+    "tag": "Diamonds",
+    "blurb": "The first month the small end firmed, in full."
+   },
+   "minis": [
+    {
+     "slug": "one-carat-wakes-up",
+     "tag": "Diamonds"
+    },
+    {
+     "slug": "lab-grown-finds-its-floor",
+     "tag": "Diamonds"
+    }
+   ]
+  }
+ },
+ "seventy-three-percent-cheaper": {
+  "strip": {
+   "cap": "By the numbers · natural vs lab-grown",
+   "cells": [
+    {
+     "fig": "73%",
+     "delta": "▼",
+     "dir": "dn",
+     "lab": "lab-grown discount, 2025"
+    },
+    {
+     "fig": "27%",
+     "lab": "the same gap in 2019"
+    },
+    {
+     "fig": "$4,200",
+     "lab": "natural 1-ct average"
+    },
+    {
+     "fig": "~$1,000",
+     "lab": "lab-grown 1-ct"
+    },
+    {
+     "fig": "57.3%",
+     "delta": "▲",
+     "dir": "up",
+     "lab": "rings now natural"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Lab-grown discount to natural · percent",
+    "rows": [
+     {
+      "l": "2019",
+      "v": 27,
+      "d": "27%"
+     },
+     {
+      "l": "2025",
+      "v": 73,
+      "d": "73%",
+      "hi": true
+     }
+    ],
+    "note": "Lab-grown price discount to natural · BriteCo appraisal data",
+    "cap": "Six years, a canyon: the lab-grown discount. Carat Capital graphics desk. &nbsp;CC/2026/108"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "The discount is now a canyon.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Cheaper did not mean winning.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "The cheaper the grown stone became, the more it read to some shoppers as a fashion purchase rather than an heirloom, and an engagement ring is the last place many buyers want to feel they economised.",
+     "attr": "The Data Desk"
+    }
+   },
+   {
+    "sub": "Price was never the whole game.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Sixty-one percent said lab: the survey the trade argues about",
+     "href": "a-sixty-one-percent-said-lab.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "The number to watch is not the discount. It is the share."
+  },
+  "next": {
+   "lead": {
+    "slug": "sixty-one-percent-said-lab",
+    "tag": "Retail & Tech",
+    "blurb": "The survey that says the shift may not be over."
+   },
+   "minis": [
+    {
+     "slug": "lab-grown-finds-its-floor",
+     "tag": "Diamonds"
+    },
+    {
+     "slug": "gold-up-fifty-diamonds-down",
+     "tag": "Retail & Tech"
+    }
+   ]
+  }
+ },
+ "sothebys-thirty-one-million": {
+  "spec": {
+   "cap": "The board · top lots",
+   "rows": [
+    {
+     "l": "Sale total",
+     "v": "<b>$31.4M</b> · 95% sold"
+    },
+    {
+     "l": "Graff ring",
+     "v": "35-ct D diamond — <b>$3.2M</b>"
+    },
+    {
+     "l": "Marcus & Co. sautoir",
+     "v": "9.6-ct Burmese ruby — $1.8M"
+    },
+    {
+     "l": "Fancy vivid blue",
+     "v": "2.02-ct VS2 — $1.8M"
+    },
+    {
+     "l": "JAR emerald ring",
+     "v": "8.62-ct Colombian — $1.6M"
+    },
+    {
+     "l": "Withdrawn (Phillips)",
+     "v": "3.03-ct fancy pink, below reserve"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "The night's top lots · US$ millions",
+    "rows": [
+     {
+      "l": "GRAFF 35-CT D",
+      "v": 3.2,
+      "d": "$3.2M",
+      "hi": true
+     },
+     {
+      "l": "MARCUS RUBY",
+      "v": 1.8,
+      "d": "$1.8M"
+     },
+     {
+      "l": "VIVID BLUE",
+      "v": 1.8,
+      "d": "$1.8M"
+     },
+     {
+      "l": "JAR EMERALD",
+      "v": 1.6,
+      "d": "$1.6M"
+     },
+     {
+      "l": "KASHMIR SAPPHIRE",
+      "v": 1.4,
+      "d": "$1.4M"
+     }
+    ],
+    "note": "Sotheby's New York High Jewelry · 13 June",
+    "cap": "What money still chases: the night's top five. Carat Capital graphics desk. &nbsp;CC/2026/109"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "The very top is a different economy.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Colour, provenance, signature.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "Colour, provenance and signature, the three things a factory cannot print, carried the night.",
+     "attr": "The Rostrum Desk"
+    }
+   },
+   {
+    "sub": "But a too-high estimate still walks.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Piaget doubles at Bonhams: another signed name outruns the market",
+     "href": "a-piaget-doubles-at-bonhams.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "They no longer forgive a reserve set in last year's mood."
+  },
+  "next": {
+   "lead": {
+    "slug": "piaget-doubles-at-bonhams",
+    "tag": "Auctions",
+    "blurb": "Another signed maker beats its estimate as the middle sags."
+   },
+   "minis": [
+    {
+     "slug": "pearls-print-a-quiet-win",
+     "tag": "Gemstones"
+    },
+    {
+     "slug": "serial-022-comes-to-market",
+     "tag": "Auctions"
+    }
+   ]
+  }
+ },
+ "exports-up-resale-flat": {
+  "strip": {
+   "cap": "By the numbers · Swiss watches, H1",
+   "cells": [
+    {
+     "fig": "+11.2%",
+     "delta": "▲",
+     "dir": "up",
+     "lab": "June exports, YoY"
+    },
+    {
+     "fig": "CHF 3.12B",
+     "lab": "Swatch H1 revenue"
+    },
+    {
+     "fig": "CHF 16M",
+     "delta": "▼",
+     "dir": "dn",
+     "lab": "H1 net profit"
+    },
+    {
+     "fig": "0.5%",
+     "lab": "profit as share of sales"
+    },
+    {
+     "fig": "+27%",
+     "delta": "▲",
+     "dir": "up",
+     "lab": "US · Swatch H1"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Growth is back · percent",
+    "rows": [
+     {
+      "l": "UNITED STATES (SWATCH)",
+      "v": 27,
+      "d": "+27%",
+      "hi": true
+     },
+     {
+      "l": "JUNE EXPORTS (INDUSTRY)",
+      "v": 11.2,
+      "d": "+11.2%"
+     },
+     {
+      "l": "CHINA + HK/MACAU",
+      "v": 9,
+      "d": "+9%"
+     }
+    ],
+    "note": "Top line up, profit flat — Swatch H1, FHS June",
+    "cap": "The rebound that skips the bottom line. Carat Capital graphics desk. &nbsp;CC/2026/110"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "The best watch headline in a year.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "The profit line refuses to celebrate.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "A company can grow its top line smartly and still hand almost none of it to the bottom, and that is precisely what a mass-and-mid-market watchmaker does when it is discounting to move stock and carrying the cost of a bloated inventory.",
+     "attr": "The Watches Desk"
+    }
+   },
+   {
+    "sub": "Shipments are not sell-through.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Swatch: nine markets up, six down, and a wafer-thin profit",
+     "href": "a-swatch-nine-up-six-down.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "The exports came back first. The margin, and the resale tape, will say whether they meant it."
+  },
+  "next": {
+   "lead": {
+    "slug": "swatch-nine-up-six-down",
+    "tag": "Watches",
+    "blurb": "The earnings behind the export rebound, in detail."
+   },
+   "minis": [
+    {
+     "slug": "plus-eleven-two-in-june",
+     "tag": "Watches"
+    },
+    {
+     "slug": "wos-133-million-answer",
+     "tag": "Watches"
+    }
+   ]
+  }
  }
 }
