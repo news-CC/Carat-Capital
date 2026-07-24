@@ -243,7 +243,7 @@ DESK_ACCENTS = {"diamonds":"#BE3319","gold-metals":"#96762E","gemstones":"#2E6E5
 
 # A representative openly-licensed photo per desk (from assets/ph), used so photoless
 # stories still get a real, tinted image instead of a bare engraving glyph.
-DESK_HERO = {"diamonds":"last-carats-at-diavik","gold-metals":"gold-goes-144-in-a-day","gemstones":"pearls-run-the-table","watches":"time-boxes-mystery-watch","auctions":"ap-105-million-paradox","retail-tech":"more-dollars-fewer-boxes"}
+DESK_HERO = {"diamonds":"last-carats-at-diavik","gold-metals":"gold-goes-144-in-a-day","gemstones":"gemstones-hero","watches":"time-boxes-mystery-watch","auctions":"ap-105-million-paradox","retail-tech":"more-dollars-fewer-boxes"}
 
 def best_img(slug, desk):
     """Article's own photo if it has one, else its desk's representative photo."""
@@ -276,9 +276,10 @@ def photo_plate(slug, cls="", eager=False, label="Plate"):
     if not m:
         return ""
     load = 'fetchpriority="high" decoding="async"' if eager else 'loading="lazy" decoding="async"'
+    _cred = m["credit"] if "Carat Capital" in m.get("credit","") else f'{m["credit"]} · Wikimedia Commons'
     return (f'<figure class="lead-fig pfig{(" " + cls) if cls else ""}"><div class="plate-img">'
             f'<img src="assets/ph/{slug}.jpg" alt="" width="{m["w"]}" height="{m["h"]}" {load}></div>'
-            f'<div class="cap"><span>{label} — {m["credit"]} · Wikimedia Commons</span><span>CC</span></div></figure>')
+            f'<div class="cap"><span>{label} — {_cred}</span><span>CC</span></div></figure>')
 
 def motif_plate(desk_slug, code=""):
     return (f'<figure class="lead-fig pfig mfig"><div class="mplate">{desk_glyph(desk_slug, 130)}</div>'
