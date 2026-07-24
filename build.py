@@ -241,6 +241,24 @@ PH = json.loads((ROOT / "assets" / "ph" / "manifest.json").read_text()) if (ROOT
 
 DESK_ACCENTS = {"diamonds":"#BE3319","gold-metals":"#96762E","gemstones":"#2E6E5E","watches":"#16130E","auctions":"#8A5A2E","retail-tech":"#4A5A6E"}
 
+# A representative openly-licensed photo per desk (from assets/ph), used so photoless
+# stories still get a real, tinted image instead of a bare engraving glyph.
+DESK_HERO = {"diamonds":"last-carats-at-diavik","gold-metals":"gold-goes-144-in-a-day","gemstones":"pearls-run-the-table","watches":"time-boxes-mystery-watch","auctions":"ap-105-million-paradox","retail-tech":"more-dollars-fewer-boxes"}
+
+def best_img(slug, desk):
+    """Article's own photo if it has one, else its desk's representative photo."""
+    if slug in PH:
+        return ("assets/ph/%s.jpg" % slug, True)
+    h = DESK_HERO.get(desk)
+    return ("assets/ph/%s.jpg" % h, False) if (h and h in PH) else ("", False)
+
+def desk_hero_plate(desk, label="Plate I"):
+    """Hero figure fallback: the desk's representative photo (tinted) instead of a glyph."""
+    h = DESK_HERO.get(desk)
+    if h and h in PH:
+        return photo_plate(h, cls="plate-hero", eager=True, label=label)
+    return motif_plate(desk, label)
+
 _GLYPHS = {
  "diamonds": '<path d="M16 7 H32 L41 17 L24 42 L7 17 Z"/><path d="M7 17 H41 M16 7 L24 17 L32 7 M24 17 V42 M16 7 L12 17 M32 7 L36 17"/>',
  "gold-metals": '<path d="M5 37 L11 27 H26 L32 37 Z"/><path d="M18 26 L24 16 H39 L45 26 Z"/><path d="M11 27 L15 20 M32 37 L36 30"/>',
@@ -838,7 +856,7 @@ def index_page():
     latest_date = max(a["date"] for a in ARTICLES)
     lead_photo = photo_plate(LEAD["slug"], cls="plate-hero", eager=True, label="Plate I") if LEAD else ""
     if not lead_photo and LEAD:
-        lead_photo = motif_plate(LEAD.get("desk","diamonds"), "PLATE I")
+        lead_photo = desk_hero_plate(LEAD.get("desk","diamonds"), "PLATE I")
     # stat band from the lead's editorial numbers strip
     statband = ""
     ed = (LEAD or {}).get("ed") or {}
@@ -877,31 +895,16 @@ def index_page():
             top = da[1]
         fresh = '<span class="new">NEW TODAY</span>' if top and top["date"] == latest_date else (f'<span class="dt">{top["date"]}</span>' if top else "")
         acc = DESK_ACCENTS.get(d["slug"], "#96762E")
+        _hero = DESK_HERO.get(d["slug"])
+        bg = f'<div class="dc-bg"><img src="assets/ph/{_hero}.jpg" alt="" loading="lazy" decoding="async"></div>' if (_hero and _hero in PH) else ""
         if d["slug"] == lead_desk and top:
-            thumb = photo_plate(top["slug"], cls="dc-thumb", label=f"D—{d['no']}") or f'<div class="dc-glyphbig">{desk_glyph(d["slug"], 96)}</div>'
-            cards += f"""<a class="dcard dcard--lead rv" href="{d['slug']}.html" style="--da:{acc}">
-      <div class="row1"><span class="no">D—{d['no']}</span><span class="deskled">Desk of the day</span><span class="ct">{len(da)} stories</span></div>
-      <div class="dc-cols"><div>
-      <h3>{d['title']}</h3>
-      <div class="tagl">{d['tag']}</div>
-      <div class="latest">{fresh}<span class="lt">{top['title'] if top else ''}</span></div>
-      <div class="go">Open the desk →</div>
-      </div>{thumb}</div>
-    </a>"""
+            xcls, badge = "dcard--lead", '<span class="deskled">Desk of the day</span>'
         elif d["slug"] == wide_desk and top:
-            wthumb = photo_plate(top["slug"], cls="dc-thumb", label=f"D—{d['no']}") or f'<div class="dc-glyphbig">{desk_glyph(d["slug"], 84)}</div>'
-            cards += f"""<a class="dcard dcard--wide rv" href="{d['slug']}.html" style="--da:{acc}">
-      <div class="row1"><span class="no">D—{d['no']}</span><span class="glyph">{desk_glyph(d["slug"], 40)}</span><span class="ct">{len(da)} stories</span></div>
-      <div class="dc-cols"><div>
-      <h3>{d['title']}</h3>
-      <div class="tagl">{d['tag']}</div>
-      <div class="latest">{fresh}<span class="lt">{top['title'] if top else ''}</span></div>
-      <div class="go">Open the desk →</div>
-      </div>{wthumb}</div>
-    </a>"""
+            xcls, badge = "dcard--wide", f'<span class="glyph">{desk_glyph(d["slug"], 34)}</span>'
         else:
-            cards += f"""<a class="dcard rv" href="{d['slug']}.html" style="--da:{acc}">
-      <div class="row1"><span class="no">D—{d['no']}</span><span class="glyph">{desk_glyph(d["slug"], 44)}</span><span class="ct">{len(da)} stories</span></div>
+            xcls, badge = "", f'<span class="glyph">{desk_glyph(d["slug"], 34)}</span>'
+        cards += f"""<a class="dcard {xcls} rv" href="{d['slug']}.html" style="--da:{acc}">{bg}
+      <div class="row1"><span class="no">D—{d['no']}</span>{badge}<span class="ct">{len(da)} stories</span></div>
       <h3>{d['title']}</h3>
       <div class="tagl">{d['tag']}</div>
       <div class="latest">{fresh}<span class="lt">{top['title'] if top else ''}</span></div>
@@ -910,8 +913,17 @@ def index_page():
     # today's edition: 4 newest non-lead headlines
     rows = ""
     others = [a for a in ARTICLES if not a.get("lead")][:5]
+    _used_imgs = set()
     for i, a in enumerate(others, 2):
-        cell = f'<span class="th"><img src="assets/ph/{a["slug"]}.jpg" alt="" width="112" height="112" loading="lazy" decoding="async"></span>' if a["slug"] in PH else f'<span class="th thg" style="--da:{DESK_ACCENTS.get(a.get("desk"),"#96762E")}">{desk_glyph(a.get("desk","diamonds"), 34)}</span>'
+        _img, _own = best_img(a["slug"], a.get("desk"))
+        if _img and not _own and _img in _used_imgs:
+            _img = ""  # don't repeat the same category photo twice; fall back to a glyph
+        if _img:
+            _used_imgs.add(_img)
+        if _img:
+            cell = f'<span class="th{"" if _own else " th--desk"}" style="--da:{DESK_ACCENTS.get(a.get("desk"),"#96762E")}"><img src="{_img}" alt="" loading="lazy" decoding="async"></span>'
+        else:
+            cell = f'<span class="th thg" style="--da:{DESK_ACCENTS.get(a.get("desk"),"#96762E")}">{desk_glyph(a.get("desk","diamonds"), 34)}</span>'
         if i == 2:
             rows += f"""<a class="trow trow--lead" href="a-{a['slug']}.html">{cell}<span class="tx"><span class="t">{figwrap(a['title'])}</span><span class="dk">{(a['dek'] if len(a['dek'])<=150 else a['dek'][:150].rsplit(' ',1)[0].rstrip(',;— ') + ' …')}</span><span class="m meta-serif">{DESK_NAMES.get(a['desk'],'')} · {a['minutes']} min</span></span></a>"""
         else:
