@@ -222,6 +222,15 @@ def plate(motif, label, code):
 </svg>"""
 
 BASE_URL = "https://caratcapital.org"  # swap when the real domain is connected
+import re as _re2
+def cu(u):
+    # clean an emitted URL string: drop a trailing .html (before end, # or ?)
+    return _re2.sub(r'\.html(?=$|#|\?)', '', u)
+def _clean_links(html):
+    # rewrite in-page links to extensionless; index -> site root
+    html = _re2.sub(r'href="index\.html(#[\w-]+)?"', lambda m: 'href="/' + (m.group(1) or '') + '"', html)
+    html = _re2.sub(r'href="([a-z0-9][a-z0-9-]*)\.html(#[\w-]+)?"', r'href="\1\2"', html)
+    return html
 
 import hashlib as _hl
 CSS_V = _hl.md5((ROOT / "assets" / "styles.css").read_bytes()).hexdigest()[:8] if (ROOT / "assets" / "styles.css").exists() else "0"
@@ -263,7 +272,7 @@ def figwrap(title):
 
 
 def head(title, desc, path="", extra=""):
-    canonical = f"{BASE_URL}/{path}" if path else BASE_URL
+    canonical = cu(f"{BASE_URL}/{path}") if path else BASE_URL
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -400,7 +409,7 @@ def rss_feed():
         d = _dt.datetime.strptime(a["date"], "%Y-%m-%d").strftime("%a, %d %b %Y 06:30:00 GMT")
         items += f"""<item>
 <title>{H.escape(a["title"])}</title>
-<link>{BASE_URL}/a-{a["slug"]}.html</link>
+<link>{BASE_URL}/a-{a["slug"]}</link>
 <guid isPermaLink="true">{BASE_URL}/a-{a["slug"]}.html</guid>
 <pubDate>{d}</pubDate>
 <category>{H.escape(DESK_NAMES.get(a["desk"], a["desk"]))}</category>
@@ -416,16 +425,16 @@ def rss_feed():
 </channel></rss>"""
 
 def llms_txt():
-    desks = "\n".join(f"- [{d['title']}]({BASE_URL}/{d['slug']}.html): {d['tag']}" for d in DESKS)
-    arts = "\n".join(f"- [{a['title']}]({BASE_URL}/a-{a['slug']}.html): {a['dek'][:140]}" for a in ARTICLES[:15])
+    desks = "\n".join(f"- [{d['title']}]({BASE_URL}/{d['slug']}): {d['tag']}" for d in DESKS)
+    arts = "\n".join(f"- [{a['title']}]({BASE_URL}/a-{a['slug']}): {a['dek'][:140]}" for a in ARTICLES[:15])
     return f"""# Carat Capital
 
 > The trade paper of the jewelry world — original, sourced daily reporting on diamonds, gold and precious metals, colored gemstones, watches, jewelry auctions, and jewelry retail and technology. Published at {BASE_URL}. All articles are original writing with named, linked sources; prices are dated and indicative.
 
 ## The paper
 - [Front page]({BASE_URL}/): today's edition, the wire, and the live price tape
-- [The Record]({BASE_URL}/the-record.html): a dated, sourced week-by-week chronicle of the industry
-- [The Almanac]({BASE_URL}/almanac.html): the quarter's key numbers in sourced tables (metals, exports, prices, auctions, retail)
+- [The Record]({BASE_URL}/the-record): a dated, sourced week-by-week chronicle of the industry
+- [The Almanac]({BASE_URL}/almanac): the quarter's key numbers in sourced tables (metals, exports, prices, auctions, retail)
 - [The Field Guide]({BASE_URL}/field-guide.html): plain-language introduction to how the jewelry trade works
 - [About & editorial standards]({BASE_URL}/about.html)
 - [RSS feed]({BASE_URL}/feed.xml)
@@ -738,7 +747,7 @@ def article_page_v2(a):
         "headline": a["title"], "description": a["dek"], "datePublished": a["date"],
         "author": {"@type": "Organization", "name": f"Carat Capital — {a['byline']}"},
         "publisher": {"@type": "Organization", "name": "Carat Capital", "url": BASE_URL},
-        "articleSection": desk_name, "mainEntityOfPage": f"{BASE_URL}/a-{a['slug']}.html"
+        "articleSection": desk_name, "mainEntityOfPage": f"{BASE_URL}/a-{a['slug']}"
     })
     extra = f'<scr' + f'ipt type="application/ld+json">{jsonld}</scr' + f'ipt>'
     opener = _v2_strip(ed["strip"]) if "strip" in ed else _v2_spec(ed["spec"])
@@ -790,7 +799,7 @@ def article_page(a):
         "headline": a["title"], "description": a["dek"], "datePublished": a["date"],
         "author": {"@type": "Organization", "name": f"Carat Capital — {a['byline']}"},
         "publisher": {"@type": "Organization", "name": "Carat Capital", "url": BASE_URL},
-        "articleSection": desk_name, "mainEntityOfPage": f"{BASE_URL}/a-{a['slug']}.html"
+        "articleSection": desk_name, "mainEntityOfPage": f"{BASE_URL}/a-{a['slug']}"
     })
     extra = f'<scr' + f'ipt type="application/ld+json">{jsonld}</scr' + f'ipt>'
     return f"""{head(f"{a['title']} — Carat Capital", a['dek'][:150], f"a-{a['slug']}.html", extra)}
@@ -1096,7 +1105,8 @@ def logo_mark_svg():
 <path d="M 500 396 L 552 462 L 500 528 L 448 462 Z" fill="#BE3319"/></g></svg>'''
 
 def sitemap(pages):
-    urls = "".join(f"<url><loc>{BASE_URL}/{p}</loc></url>" for p in pages)
+    def _loc(p): return BASE_URL if p == "index.html" else cu(f"{BASE_URL}/{p}")
+    urls = "".join(f"<url><loc>{_loc(p)}</loc></url>" for p in pages)
     return f'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{urls}</urlset>'
 
 out = ROOT
@@ -1109,6 +1119,8 @@ for a in ARTICLES:
 (out/"the-record.html").write_text(record_page())
 (out/"almanac.html").write_text(almanac_page())
 (out/"about.html").write_text(about_page())
+for _f in out.glob("*.html"):
+    _f.write_text(_clean_links(_f.read_text()))
 (out/"assets"/"favicon.svg").write_text(FAVICON)
 (out/"assets"/"logo-mark.svg").write_text(logo_mark_svg())
 (out/"feed.xml").write_text(rss_feed())
