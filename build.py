@@ -243,7 +243,7 @@ DESK_ACCENTS = {"diamonds":"#BE3319","gold-metals":"#96762E","gemstones":"#2E6E5
 
 # A representative openly-licensed photo per desk (from assets/ph), used so photoless
 # stories still get a real, tinted image instead of a bare engraving glyph.
-DESK_HERO = {"diamonds":"last-carats-at-diavik","gold-metals":"gold-goes-144-in-a-day","gemstones":"gemstones-hero","watches":"time-boxes-mystery-watch","auctions":"ap-105-million-paradox","retail-tech":"more-dollars-fewer-boxes"}
+DESK_HERO = {"diamonds":"last-carats-at-diavik","gold-metals":"gold-goes-144-in-a-day","gemstones":"gemstones-hero","watches":"time-boxes-mystery-watch","auctions":"auctions-hero","retail-tech":"retail-hero"}
 
 def best_img(slug, desk):
     """Article's own photo if it has one, else its desk's representative photo."""
