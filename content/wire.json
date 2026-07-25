@@ -1,67 +1,63 @@
 {
- "date_line": "Friday, July 24, 2026",
- "edition": "Vol. I — No. 014",
+ "date_line": "Saturday, July 25, 2026",
+ "edition": "Vol. I — No. 015",
  "items": [
   {
-   "b": "DE BEERS +88%",
-   "t": " — Q2 rough output jumped to 7.8M ct even as the realised price fell 32% to $105/ct and the rough index dropped 16%; Q2 revenue −44% to $665M. Full-year guidance 21–26M ct, with Venetia paused in H2"
+   "b": "TARIFF WALL RETURNS",
+   "t": " — A new Section 301 regime sets 10% duties on jewelry from India, Canada and the UK and 12.5% on China, Thailand, Turkey and the UAE, live July 24; EU-polished diamonds keep their exemption, goods in transit are spared"
   },
   {
-   "b": "GOLD 4,028",
-   "t": " — bullion defends $4,000 as Brent tops $100 and the 10-year yield reaches 4.70%; September rate-hike odds jump to 80% from 68% a week ago"
+   "b": "SURAT'S 10%",
+   "t": " — India, which polishes ~90% of the world's diamonds by piece, faces a 10% US duty on polished goods as rough prices sit a third lower YoY; the EU carve-out quietly steers volume toward Antwerp"
   },
   {
-   "b": "APOLLO REOPENS",
-   "t": " — the Louvre's Apollo Gallery reopened July 22, nine months after the $100M royal-jewel heist; the jewels move to a secure vault and will no longer be shown. Four arrested, stones still missing"
+   "b": "GOLD $4,061",
+   "t": " — Gold ended the week near $4,061/oz, +2% on the week but short of $4,100, as traders positioned for a Fed widely expected to hold on July 29; jobless claims 187k vs 212k forecast"
   },
   {
-   "b": "GEMFIELDS 26.8M",
-   "t": " — the higher-quality emerald auction took $26.8M, selling 36 of 37 lots at $146.08/ct, 99% by weight; a 10% rupee slide since September is a headwind and the ruby sale is being held back"
+   "b": "PLATINUM SHORT A 4TH YEAR",
+   "t": " — WPIC forecasts a 297koz platinum deficit for 2026, a fourth straight shortfall, even as spot fell ~1% to $1,574; jewelry demand −12%, bar & coin +27% to 718koz"
   },
   {
-   "b": "RAPI SMALLS",
-   "t": " — June's RapNet index rose 4.2% for 0.30-ct and 1.3% for half-carat goods, and 0.4% at 3-ct, while the one-carat benchmark slipped 0.7%; inventory cuts, not demand, drive the small end"
+   "b": "INDIA BUYS THE DIP",
+   "t": " — Domestic gold fell ~10% in June to a six-month low near ₹141k/10g; listed jewellers logged 30–60% revenue growth, though old-gold trade-ins funded 43–55% of counter sales (WGC)"
   },
   {
-   "b": "LAB-GROWN −73%",
-   "t": " — BriteCo appraisal data puts lab-grown 73% below natural, up from 27% in 2019; as the discount widened, natural stones reclaimed 57.3% of US engagement rings"
+   "b": "WATCHES: LIST UP, RESALE DOWN",
+   "t": " — Swiss brands raised US list prices ~7% for 2026 while the secondary market slid ~8% to two-year lows for Rolex and Patek, compressing the grey-market premium toward zero"
   },
   {
-   "b": "SOTHEBY'S 31.4M",
-   "t": " — New York High Jewelry made $31.4M, 95% sold, led by a $3.2M Graff 35-ct D ring; Phillips withdrew a 3.03-ct fancy pink after bids missed the reserve"
+   "b": "FURMANOVICH CUTS DECO",
+   "t": " — The São Paulo marquetry house turned straw inlay, Shibayama, abalone and beetle-wing on 1920s geometry — a couture-level Art Deco collection arguing craft, not carat, is the luxury"
   },
   {
-   "b": "SWISS +11.2%",
-   "t": " — June exports rebounded 11.2% (FHS) and Swatch shares jumped, yet the group's H1 net profit was CHF 16M on CHF 3.12B of sales, half a percent"
+   "b": "DE BEERS H1 LOSS FLAGGED",
+   "t": " — Anglo American says De Beers' underlying EBITDA will be negative in H1; consolidated rough revenue −23% to $1.31bn as the sale process to a reported Gareth Penny consortium continues"
   },
   {
-   "b": "ANGLO / DE BEERS",
-   "t": " — Anglo American flags a negative H1 underlying result at De Beers as it presses the sale; reports name a Gareth Penny consortium as front-runner for the 85% stake"
-  },
-  {
-   "b": "SILVER 58.90",
-   "t": " — the white metals sit quiet as gold slips: platinum near $1,628.63 and palladium near $1,274.96, little changed on the session"
+   "b": "WHITE METALS SPLIT",
+   "t": " — Friday's tape divided the precious complex: silver +1.2% to $58.22 while platinum −1.1% to $1,574 and palladium eased to ~$1,225, leaving platinum above palladium into a quiet weekend"
   }
  ],
- "tape_ts": "24 Jul 2026, 8:10 a.m. ET",
+ "tape_ts": "24 Jul 2026, 4:00 p.m. ET (Fri close)",
  "tape": [
   {
    "name": "Gold / oz",
    "code": "XAU",
-   "px": "4,028.40",
-   "chg": "▼ −1.00%",
-   "dir": "dn",
+   "px": "4,061.20",
+   "chg": "▲ +0.31%",
+   "dir": "up",
    "pts": [
-    18,
-    17,
-    16,
-    15,
-    14,
-    15,
-    14,
-    13,
+    11,
     12,
-    11
+    12,
+    13,
+    14,
+    15,
+    16,
+    16,
+    17,
+    18
    ]
   },
   {
@@ -105,39 +101,39 @@
   {
    "name": "Platinum / oz",
    "code": "XPT",
-   "px": "1,628.63",
-   "chg": "— unch.",
-   "dir": "flat",
+   "px": "1,574.00",
+   "chg": "▼ −1.07%",
+   "dir": "dn",
    "pts": [
-    15,
-    16,
     17,
     17,
     16,
+    16,
     15,
     15,
-    15,
-    15,
-    15
+    14,
+    14,
+    13,
+    13
    ]
   },
   {
    "name": "Silver / oz",
    "code": "XAG",
-   "px": "58.90",
-   "chg": "— unch.",
-   "dir": "flat",
+   "px": "58.22",
+   "chg": "▲ +1.21%",
+   "dir": "up",
    "pts": [
     14,
+    14,
     15,
+    15,
+    16,
+    16,
     16,
     17,
-    16,
-    15,
-    15,
-    15,
-    15,
-    15
+    17,
+    17
    ]
   }
  ]

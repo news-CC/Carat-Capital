@@ -13317,5 +13317,776 @@
     }
    ]
   }
+ },
+ "tariff-wall-returns": {
+  "strip": {
+   "cap": "By the numbers · Section 301 jewelry tariffs",
+   "cells": [
+    {
+     "fig": "10%",
+     "lab": "duty · India, Canada, UK"
+    },
+    {
+     "fig": "12.5%",
+     "lab": "duty · China, Thailand, UAE"
+    },
+    {
+     "fig": "~60",
+     "lab": "countries covered"
+    },
+    {
+     "fig": "Jul 24",
+     "lab": "effective date"
+    },
+    {
+     "fig": "EU",
+     "lab": "polished-diamond exemption held"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Where the wall stands · indicative rate by center",
+    "rows": [
+     {
+      "l": "CHINA / THAILAND / UAE",
+      "v": 12.5,
+      "d": "12.5%",
+      "hi": true
+     },
+     {
+      "l": "INDIA / UK / CANADA*",
+      "v": 10,
+      "d": "10%"
+     },
+     {
+      "l": "EU-POLISHED DIAMONDS",
+      "v": 0.4,
+      "d": "exempt"
+     }
+    ],
+    "note": "*Canada's 50% country measure stacks separately. Section 301 bands, 24 Jul 2026.",
+    "cap": "The two-band tariff wall on jewelry imports. Carat Capital graphics desk. &nbsp;CC/2026/111"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "A new legal footing, an old kind of wall.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "The exemptions are the whole game.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "Diamonds and gemstones polished in the European Union keep the exemption they already held, an advantage that quietly rewards Antwerp and Idar-Oberstein against Surat and Bangkok.",
+     "attr": "The Trade Desk"
+    }
+   },
+   {
+    "sub": "The trade reads it as a beginning.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Surat does the math on ten percent",
+     "href": "a-surat-eats-the-ten.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "Expect the near-term response to be the oldest one in the book: pull inventory forward, sit on the goods in transit, and pass what cannot be absorbed to the counter."
+  },
+  "next": {
+   "lead": {
+    "slug": "surat-eats-the-ten",
+    "tag": "Diamonds",
+    "blurb": "India cuts nine in ten stones. The duty lands there."
+   },
+   "minis": [
+    {
+     "slug": "fifty-percent-for-canada",
+     "tag": "Diamonds"
+    },
+    {
+     "slug": "seventy-three-percent-cheaper",
+     "tag": "Retail-Tech"
+    }
+   ]
+  }
+ },
+ "surat-eats-the-ten": {
+  "strip": {
+   "cap": "By the numbers · India polished & the 10% duty",
+   "cells": [
+    {
+     "fig": "~90%",
+     "lab": "world polished by piece · India"
+    },
+    {
+     "fig": "10%",
+     "lab": "new US duty · Indian polished"
+    },
+    {
+     "fig": "−32%",
+     "delta": "▼",
+     "dir": "dn",
+     "lab": "De Beers rough price, YoY"
+    },
+    {
+     "fig": "EU",
+     "lab": "polished route exempt"
+    },
+    {
+     "fig": "Jul 24",
+     "lab": "effective"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "The seam · duty by finishing center",
+    "rows": [
+     {
+      "l": "INDIA-POLISHED",
+      "v": 10,
+      "d": "10%",
+      "hi": true
+     },
+     {
+      "l": "EU-POLISHED",
+      "v": 0.4,
+      "d": "exempt"
+     }
+    ],
+    "note": "Same rough, different finish, different border. Section 301, 24 Jul 2026.",
+    "cap": "Why the wall points away from Surat. Carat Capital graphics desk. &nbsp;CC/2026/112"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "The busiest lane takes the hit.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "The exemption draws a map around India.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "A diamond that leaves India as rough, travels to Antwerp to be polished and enters the United States as EU goods can, on paper, sidestep the duty that the same stone would carry if finished in Gujarat.",
+     "attr": "The Cutting Desk"
+    }
+   },
+   {
+    "sub": "Someone along the chain holds the difference.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Ten and twelve-and-a-half: the tariff wall comes back",
+     "href": "a-tariff-wall-returns.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "For Surat, the danger is not this quarter's duty but the precedent that finishing a stone at home has become the expensive option."
+  },
+  "next": {
+   "lead": {
+    "slug": "tariff-wall-returns",
+    "tag": "Retail-Tech",
+    "blurb": "The two-band schedule, and what it exempts."
+   },
+   "minis": [
+    {
+     "slug": "fifty-percent-for-canada",
+     "tag": "Diamonds"
+    },
+    {
+     "slug": "small-stones-lead-again",
+     "tag": "Diamonds"
+    }
+   ]
+  }
+ },
+ "gold-waits-on-the-fed": {
+  "strip": {
+   "cap": "By the numbers · gold into Fed week",
+   "cells": [
+    {
+     "fig": "$4,061",
+     "lab": "gold / oz · Fri"
+    },
+    {
+     "fig": "+2%",
+     "delta": "▲",
+     "dir": "up",
+     "lab": "on the week"
+    },
+    {
+     "fig": "$4,100",
+     "lab": "the line unbroken"
+    },
+    {
+     "fig": "Jul 29",
+     "lab": "Fed decision"
+    },
+    {
+     "fig": "187k",
+     "lab": "jobless claims vs 212k f'cast"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "The white metals on Friday · magnitude of day move",
+    "rows": [
+     {
+      "l": "SILVER  ($58.22)",
+      "v": 1.2,
+      "d": "+1.2%",
+      "hi": true
+     },
+     {
+      "l": "PLATINUM  ($1,574)",
+      "v": 1.07,
+      "d": "−1.1%"
+     },
+     {
+      "l": "GOLD  ($4,061)",
+      "v": 0.31,
+      "d": "+0.3%"
+     }
+    ],
+    "note": "Spot moves, 24 Jul 2026 (Kitco). Bars show size, not sign.",
+    "cap": "Metals on the day gold parked. Carat Capital graphics desk. &nbsp;CC/2026/113"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "A market parked, not frightened.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "The whole game is the rate.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "Higher interest rates raise the opportunity cost of holding an asset that pays no coupon, so a hawkish surprise on Wednesday would give the metal a reason to slip back toward $4,000, while any dovish tilt would hand it the excuse to test $4,100 again.",
+     "attr": "The Metals Desk"
+    }
+   },
+   {
+    "sub": "The bench prices a floor and a ceiling.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Gold defends $4,000 again",
+     "href": "a-gold-defends-four-thousand-again.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "The risk is asymmetric for the counter, because another leg higher squeezes margins that record metal has already stretched thin, while a pullback toward $4,000 would be the first good news the gold bench has had in a month."
+  },
+  "next": {
+   "lead": {
+    "slug": "platinum-short-a-fourth-year",
+    "tag": "Gold & Metals",
+    "blurb": "A fourth deficit, and a price that won't celebrate."
+   },
+   "minis": [
+    {
+     "slug": "gold-defends-four-thousand-again",
+     "tag": "Gold & Metals"
+    },
+    {
+     "slug": "oil-talks-gold-listens",
+     "tag": "Gold & Metals"
+    }
+   ]
+  }
+ },
+ "platinum-short-a-fourth-year": {
+  "strip": {
+   "cap": "By the numbers · platinum 2026",
+   "cells": [
+    {
+     "fig": "−297koz",
+     "delta": "▼",
+     "dir": "dn",
+     "lab": "forecast market deficit"
+    },
+    {
+     "fig": "7,674koz",
+     "delta": "▼ −9%",
+     "dir": "dn",
+     "lab": "total demand"
+    },
+    {
+     "fig": "−12%",
+     "delta": "▼",
+     "dir": "dn",
+     "lab": "jewelry demand"
+    },
+    {
+     "fig": "+27%",
+     "delta": "▲",
+     "dir": "up",
+     "lab": "bar & coin, to 718koz"
+    },
+    {
+     "fig": "$1,574",
+     "lab": "spot / oz · Fri"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Platinum demand · thousand ounces, 2026 f'cast",
+    "rows": [
+     {
+      "l": "TOTAL DEMAND",
+      "v": 7674,
+      "d": "7,674",
+      "hi": true
+     },
+     {
+      "l": "INDUSTRIAL",
+      "v": 2238,
+      "d": "2,238"
+     },
+     {
+      "l": "BAR & COIN",
+      "v": 718,
+      "d": "718"
+     }
+    ],
+    "note": "WPIC 2026 forecast, thousand ounces. Deficit 297koz.",
+    "cap": "A market undersupplied on paper. Carat Capital graphics desk. &nbsp;CC/2026/114"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Short on paper, soft on the screen.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Supply barely moves; stocks thin.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "High gold has not sent buyers to platinum in the numbers the metal's backers hoped; instead it has thinned the whole precious-jewelry category, and platinum, always the connoisseur's choice, feels it first.",
+     "attr": "The Metals Desk"
+    }
+   },
+   {
+    "sub": "A demand problem wearing a supply story.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Gold near $4,061 waits on the Fed",
+     "href": "a-gold-waits-on-the-fed.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "The investment thesis is sound and early, which on a trading desk is another word for wrong, until it isn't."
+  },
+  "next": {
+   "lead": {
+    "slug": "gold-waits-on-the-fed",
+    "tag": "Gold & Metals",
+    "blurb": "$4,061 and waiting on Wednesday's Fed."
+   },
+   "minis": [
+    {
+     "slug": "gold-defends-four-thousand-again",
+     "tag": "Gold & Metals"
+    },
+    {
+     "slug": "quiet-week-at-four-thousand",
+     "tag": "Gold & Metals"
+    }
+   ]
+  }
+ },
+ "india-buys-the-dip": {
+  "strip": {
+   "cap": "By the numbers · India gold, June",
+   "cells": [
+    {
+     "fig": "−10%",
+     "delta": "▼",
+     "dir": "dn",
+     "lab": "domestic price · to ₹141k/10g"
+    },
+    {
+     "fig": "30–60%",
+     "delta": "▲",
+     "dir": "up",
+     "lab": "listed jeweller revenue, YoY"
+    },
+    {
+     "fig": "43–55%",
+     "lab": "sales funded by old gold"
+    },
+    {
+     "fig": "₹34.4bn",
+     "delta": "▲",
+     "dir": "up",
+     "lab": "gold-ETF inflows, June"
+    },
+    {
+     "fig": "−42%",
+     "delta": "▼",
+     "dir": "dn",
+     "lab": "gold imports MoM · $1.97bn"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "How the counter was funded · share of jewelry sales",
+    "rows": [
+     {
+      "l": "OLD-GOLD EXCHANGE",
+      "v": 55,
+      "d": "up to 55%",
+      "hi": true
+     },
+     {
+      "l": "FRESH PURCHASE",
+      "v": 45,
+      "d": "~45%"
+     }
+    ],
+    "note": "WGC July 2026 read on India, Apr–Jun quarter.",
+    "cap": "More than half the counter ran on yesterday's gold. Carat Capital graphics desk. &nbsp;CC/2026/115"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "When the price blinked, India bought.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Screens take share from the safe at home.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "As much as 43% to 55% of jewelry sales were funded not by fresh money but by old gold traded back across the counter, with exchange volumes rising a further 10% to 20% after a duty change nudged households to recycle rather than import.",
+     "attr": "The Retail Desk"
+    }
+   },
+   {
+    "sub": "The froth comes off the import bill.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "India pays in old gold",
+     "href": "a-india-pays-in-old-gold.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "India will buy every dip in gold; the open question is whether it will still buy the metal at a new high, or only the story of a bargain."
+  },
+  "next": {
+   "lead": {
+    "slug": "india-pays-in-old-gold",
+    "tag": "Gold & Metals",
+    "blurb": "Recycling, not imports, is funding the counter."
+   },
+   "minis": [
+    {
+     "slug": "gold-up-fifty-diamonds-down",
+     "tag": "Retail-Tech"
+    },
+    {
+     "slug": "more-dollars-fewer-boxes",
+     "tag": "Retail-Tech"
+    }
+   ]
+  }
+ },
+ "list-up-resale-down": {
+  "strip": {
+   "cap": "By the numbers · watch market 2026",
+   "cells": [
+    {
+     "fig": "+7%",
+     "delta": "▲",
+     "dir": "up",
+     "lab": "US list prices · 2026"
+    },
+    {
+     "fig": "−8%",
+     "delta": "▼",
+     "dir": "dn",
+     "lab": "secondary market · YTD"
+    },
+    {
+     "fig": "2-yr",
+     "lab": "low · Rolex & Patek resale"
+    },
+    {
+     "fig": "→0",
+     "lab": "grey-market premium"
+    },
+    {
+     "fig": "Rolex",
+     "lab": "steadiest of the majors"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Two lines pulling apart · 2026",
+    "rows": [
+     {
+      "l": "US LIST PRICE",
+      "v": 7,
+      "d": "+7%",
+      "hi": true
+     },
+     {
+      "l": "SECONDARY MARKET",
+      "v": 8,
+      "d": "−8%"
+     }
+    ],
+    "note": "Retail increases vs secondary-index decline, 2026 to date. Bars show size.",
+    "cap": "The premium compresses. Carat Capital graphics desk. &nbsp;CC/2026/116"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Two lines that used to move together.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "The market sorts the rare from the merely wanted.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "The market, in other words, is sorting: the truly rare still appreciates, the merely desirable is repricing toward what a watch is actually worth to someone who wants to own it.",
+     "attr": "The Watch Desk"
+    }
+   },
+   {
+    "sub": "A mixed blessing at the counter.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Exports up, resale flat",
+     "href": "a-exports-up-resale-flat.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "On the evidence of the rarest Pateks, they may be right."
+  },
+  "next": {
+   "lead": {
+    "slug": "exports-up-resale-flat",
+    "tag": "Watches",
+    "blurb": "Swiss exports climb while resale sits flat."
+   },
+   "minis": [
+    {
+     "slug": "swatch-nine-up-six-down",
+     "tag": "Watches"
+    },
+    {
+     "slug": "ap-105-million-paradox",
+     "tag": "Watches"
+    }
+   ]
+  }
+ },
+ "furmanovich-cuts-deco": {
+  "spec": {
+   "cap": "On the record · the collection",
+   "rows": [
+    {
+     "l": "House",
+     "v": "Silvia Furmanovich, <b>São Paulo</b>"
+    },
+    {
+     "l": "Collection",
+     "v": "Art Deco, on the <b>1925 Paris Exposition</b> centenary"
+    },
+    {
+     "l": "Signature",
+     "v": "straw marquetry (<b>enchapado de tamo</b>)"
+    },
+    {
+     "l": "Also worked",
+     "v": "Shibayama, abalone, <b>beetle-wing</b>, coral, black palm"
+    },
+    {
+     "l": "Debut",
+     "v": "Couture, Las Vegas, <b>spring 2026</b>"
+    },
+    {
+     "l": "Argument",
+     "v": "<b>craft over carat</b>"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "svg": "<svg viewBox=\"0 0 620 240\" role=\"img\" aria-label=\"Deco geometry, house palette\"><line x1=\"310\" y1=\"210\" x2=\"120.0\" y2=\"210.0\" stroke=\"#BE3319\" stroke-width=\"1.5\"/><line x1=\"310\" y1=\"210\" x2=\"122.9\" y2=\"184.0\" stroke=\"#16130E\" stroke-width=\"0.9\"/><line x1=\"310\" y1=\"210\" x2=\"131.5\" y2=\"158.7\" stroke=\"#16130E\" stroke-width=\"0.9\"/><line x1=\"310\" y1=\"210\" x2=\"145.5\" y2=\"135.0\" stroke=\"#16130E\" stroke-width=\"0.9\"/><line x1=\"310\" y1=\"210\" x2=\"164.5\" y2=\"113.6\" stroke=\"#16130E\" stroke-width=\"0.9\"/><line x1=\"310\" y1=\"210\" x2=\"187.9\" y2=\"95.1\" stroke=\"#16130E\" stroke-width=\"0.9\"/><line x1=\"310\" y1=\"210\" x2=\"215.0\" y2=\"80.1\" stroke=\"#BE3319\" stroke-width=\"1.5\"/><line x1=\"310\" y1=\"210\" x2=\"245.0\" y2=\"69.0\" stroke=\"#16130E\" stroke-width=\"0.9\"/><line x1=\"310\" y1=\"210\" x2=\"277.0\" y2=\"62.3\" stroke=\"#16130E\" stroke-width=\"0.9\"/><line x1=\"310\" y1=\"210\" x2=\"310.0\" y2=\"60.0\" stroke=\"#16130E\" stroke-width=\"0.9\"/><line x1=\"310\" y1=\"210\" x2=\"343.0\" y2=\"62.3\" stroke=\"#16130E\" stroke-width=\"0.9\"/><line x1=\"310\" y1=\"210\" x2=\"375.0\" y2=\"69.0\" stroke=\"#16130E\" stroke-width=\"0.9\"/><line x1=\"310\" y1=\"210\" x2=\"405.0\" y2=\"80.1\" stroke=\"#BE3319\" stroke-width=\"1.5\"/><line x1=\"310\" y1=\"210\" x2=\"432.1\" y2=\"95.1\" stroke=\"#16130E\" stroke-width=\"0.9\"/><line x1=\"310\" y1=\"210\" x2=\"455.5\" y2=\"113.6\" stroke=\"#16130E\" stroke-width=\"0.9\"/><line x1=\"310\" y1=\"210\" x2=\"474.5\" y2=\"135.0\" stroke=\"#16130E\" stroke-width=\"0.9\"/><line x1=\"310\" y1=\"210\" x2=\"488.5\" y2=\"158.7\" stroke=\"#16130E\" stroke-width=\"0.9\"/><line x1=\"310\" y1=\"210\" x2=\"497.1\" y2=\"184.0\" stroke=\"#16130E\" stroke-width=\"0.9\"/><line x1=\"310\" y1=\"210\" x2=\"500.0\" y2=\"210.0\" stroke=\"#BE3319\" stroke-width=\"1.5\"/><path d=\"M 160 210 A 150 150 0 0 1 460 210\" fill=\"none\" stroke=\"#16130E\" stroke-width=\"1.2\"/><path d=\"M 190 210 A 120 120 0 0 1 430 210\" fill=\"none\" stroke=\"#96762E\" stroke-width=\"1.2\"/><path d=\"M 220 210 A 90 90 0 0 1 400 210\" fill=\"none\" stroke=\"#16130E\" stroke-width=\"1.2\"/><path d=\"M 250 210 A 60 60 0 0 1 370 210\" fill=\"none\" stroke=\"#BE3319\" stroke-width=\"1.2\"/><path d=\"M 40 232 l 14 -14 l 14 14\" fill=\"none\" stroke=\"#16130E\" stroke-width=\"1.3\"/><path d=\"M 96 232 l 14 -14 l 14 14\" fill=\"none\" stroke=\"#96762E\" stroke-width=\"1.3\"/><path d=\"M 152 232 l 14 -14 l 14 14\" fill=\"none\" stroke=\"#16130E\" stroke-width=\"1.3\"/><path d=\"M 208 232 l 14 -14 l 14 14\" fill=\"none\" stroke=\"#96762E\" stroke-width=\"1.3\"/><path d=\"M 264 232 l 14 -14 l 14 14\" fill=\"none\" stroke=\"#16130E\" stroke-width=\"1.3\"/><path d=\"M 320 232 l 14 -14 l 14 14\" fill=\"none\" stroke=\"#96762E\" stroke-width=\"1.3\"/><path d=\"M 376 232 l 14 -14 l 14 14\" fill=\"none\" stroke=\"#16130E\" stroke-width=\"1.3\"/><path d=\"M 432 232 l 14 -14 l 14 14\" fill=\"none\" stroke=\"#96762E\" stroke-width=\"1.3\"/><path d=\"M 488 232 l 14 -14 l 14 14\" fill=\"none\" stroke=\"#16130E\" stroke-width=\"1.3\"/><path d=\"M 544 232 l 14 -14 l 14 14\" fill=\"none\" stroke=\"#96762E\" stroke-width=\"1.3\"/><path d=\"M 30 40 h 14 v 14 h 14 v 14 h 14\" fill=\"none\" stroke=\"#16130E\" stroke-width=\"1.1\"/><path d=\"M 590 40 h -14 v 14 h -14 v 14 h -14\" fill=\"none\" stroke=\"#16130E\" stroke-width=\"1.1\"/></svg>",
+    "cap": "Chevron, fan and ziggurat, after 1925. Carat Capital graphics desk. &nbsp;CC/2026/117"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Marquetry meets the most geometric decade.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "An argument about where value sits.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "In a season when the natural-diamond price is falling and the lab-grown stone has made carat weight cheap, a collection that asks to be judged on the difficulty of its making rather than the size of its stones is making a case for craft as the last defensible luxury.",
+     "attr": "The Design Desk"
+    }
+   },
+   {
+    "sub": "Priced like commissions, not SKUs.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Emeralds hold at $146 a carat",
+     "href": "a-emeralds-hold-at-146.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "Furmanovich is betting that when the diamond stops being rare, the labor around it becomes the thing worth paying for."
+  },
+  "next": {
+   "lead": {
+    "slug": "emeralds-hold-at-146",
+    "tag": "Gemstones",
+    "blurb": "Top-tier color holds while the market turns cautious."
+   },
+   "minis": [
+    {
+     "slug": "graff-pins-the-butterfly",
+     "tag": "Gemstones"
+    },
+    {
+     "slug": "fruit-that-opens",
+     "tag": "Gemstones"
+    }
+   ]
+  }
  }
 }

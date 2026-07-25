@@ -1,9 +1,240 @@
 [
  {
+  "slug": "tariff-wall-returns",
+  "desk": "retail-tech",
+  "date": "2026-07-25",
+  "lead": true,
+  "kicker": "Retail-Tech Desk · Washington",
+  "title": "Ten and twelve-and-a-half: the tariff wall comes back",
+  "dek": "A new Section 301 regime puts 10% duties on jewelry from India, Canada and Britain and 12.5% on China, Thailand, Turkey and the UAE, effective July 24. Diamonds polished in the EU keep their exemption.",
+  "byline": "The Trade Desk",
+  "minutes": 4,
+  "tags": [
+   "NUM",
+   "STAKES",
+   "VS"
+  ],
+  "body": [
+   "The Trump administration reset its tariff machinery on July 24, imposing fresh duties on imported jewelry, diamonds, gemstones and precious metals from roughly sixty countries. The legal footing is new: with earlier levies struck down when the Supreme Court invalidated the administration's use of emergency economic powers, the White House reached instead for Section 301 of the 1974 Trade Act, framing the action as a response to countries said to under-enforce prohibitions on forced labor. The practical effect is a two-band wall across the trade's supply map.",
+   "The higher band, 12.5%, falls on China, Hong Kong, Israel, Thailand, Turkey and the United Arab Emirates, the cutting floors, manufacturing centers and trading hubs that move a large share of the world's finished goods. The 10% band covers a longer list that includes India, Canada, Mexico, Indonesia, Malaysia, Pakistan, Sri Lanka and the United Kingdom. For a business that sources across a dozen borders before a stone reaches a display case, almost every common route now carries a number it did not carry a week ago.",
+   "The exemptions are where the detail lives. Diamonds and gemstones polished in the European Union keep the exemption they already held, an advantage that quietly rewards Antwerp and Idar-Oberstein against Surat and Bangkok. The EU and Taiwan face a net-of-most-favored-nation approach that tops combined rates up to a 10% floor; Japan, South Korea and Switzerland are handled the same way under a 12.5% cap. Goods already in transit on July 24 are spared, a narrow window that importers spent the week trying to widen.",
+   "The trade's compliance voices read the move as a beginning rather than an end. \"The story is not over; people need to continue to pay attention,\" said Sara Yood of the Jewelers Vigilance Committee, noting that additional Section 301 inquiries into manufacturing capacity could add further duties later. The new bands also stack onto country-specific measures already in force, including the 50% rate on Canadian goods and the separate action against Brazil, so a single shipment can now carry more than one layer.",
+   "The desk's view: a 10% floor is survivable; the uncertainty around it is not. The EU carve-out is the tell, quietly steering polished volume toward Antwerp and away from Surat, and the promise of further inquiries means no importer can price a spring order with confidence. Expect the near-term response to be the oldest one in the book: pull inventory forward, sit on the goods in transit, and pass what cannot be absorbed to the counter."
+  ],
+  "sources": [
+   {
+    "title": "New Round of Trump Tariffs Hits Key Jewelry-Sourcing Countries — JCK",
+    "url": "https://www.jckonline.com/editorial-article/new-trump-tariffs/"
+   },
+   {
+    "title": "Trump's New Tariffs on Over 80 Countries, Explained — TIME",
+    "url": "https://time.com/article/2026/07/24/trump-tariffs-forced-labor-explainer/"
+   },
+   {
+    "title": "US imposes new tariffs on 60 trading partners over forced labour — Caliber",
+    "url": "https://caliber.az/en/post/us-imposes-new-tariffs-on-60-trading-partners-over-forced-labour"
+   }
+  ]
+ },
+ {
+  "slug": "surat-eats-the-ten",
+  "desk": "diamonds",
+  "date": "2026-07-25",
+  "kicker": "Diamonds Desk · Surat",
+  "title": "Surat does the math on ten percent",
+  "dek": "India polishes roughly nine in ten of the world's diamonds by volume, and the United States is its largest customer. A 10% duty on Indian polished, live July 24, lands on a trade already thinned by cheap rough and soft margins.",
+  "byline": "The Cutting Desk",
+  "minutes": 4,
+  "tags": [
+   "STAKES",
+   "NUM",
+   "VS"
+  ],
+  "body": [
+   "No country has more exposed to the new tariff schedule than India, which cuts and polishes somewhere around ninety percent of the world's diamonds by piece count and sends a large slice of that output to American buyers. The 10% duty that took effect on July 24 is not the highest rate on the board, but it lands on the single busiest lane in the polished trade, and it lands at a moment when the men who own the wheels in Surat have the least room to give.",
+   "That thin room is the second story inside the first. Rough is cheap, with De Beers' realised price down about a third year on year, but cheap rough has not rescued cutters, because polished prices have fallen alongside it and the spread that pays a factory's wages has stayed narrow. Surat spent the past year trimming shifts and idling benches; a fresh 10% at the border is a cost that has to be split three ways, among the exporter who books the sale, the American importer who takes the goods, and the shopper who eventually pays the ticket.",
+   "The exemption for European-polished stones sharpens the choice. A diamond that leaves India as rough, travels to Antwerp to be polished and enters the United States as EU goods can, on paper, sidestep the duty that the same stone would carry if finished in Gujarat. Re-routing at scale is neither quick nor free, and rules of origin will be argued over for months, but the incentive now points away from the world's largest cutting center, which is precisely the outcome its exporters feared.",
+   "India's trade bodies have spent the season lobbying against exactly this, arguing that duties on polished goods punish a labor-intensive industry that competes on cost. The near-term arithmetic is unforgiving: at a 10% rate on a category already running on single-digit margins, some orders simply do not clear, and the ones that do move slower. The question the trade will spend August answering is who, along that chain from bench to counter, is left holding the difference.",
+   "The desk's view: the tariff does not fall on India so much as on the seam between India and America, and seams are where trades tear. A 10% wall around the cheapest labor in the pipeline invites the goods to route around it, and the EU carve-out draws the map. For Surat, the danger is not this quarter's duty but the precedent that finishing a stone at home has become the expensive option."
+  ],
+  "sources": [
+   {
+    "title": "New Round of Trump Tariffs Hits Key Jewelry-Sourcing Countries — JCK",
+    "url": "https://www.jckonline.com/editorial-article/new-trump-tariffs/"
+   },
+   {
+    "title": "Anglo American Flags First-Half Loss at De Beers — Rapaport",
+    "url": "https://rapaport.com/news/anglo-american-flags-first-half-loss-at-de-beers/"
+   },
+   {
+    "title": "Small-Diamond Recovery Accelerates in June — Rapaport / BusinessWire",
+    "url": "https://www.businesswire.com/news/home/20260712762140/en/Rapaport-Press-Release-Small-Diamond-Recovery-Accelerates-in-June"
+   }
+  ]
+ },
+ {
+  "slug": "gold-waits-on-the-fed",
+  "desk": "gold-metals",
+  "date": "2026-07-25",
+  "kicker": "Metals Desk · New York",
+  "title": "Gold near $4,061 waits on the Fed",
+  "dek": "Gold ended the week around $4,061 an ounce, up roughly 2% on the week but still short of $4,100, as traders positioned for a Federal Reserve widely expected to hold rates when it meets July 28 and 29.",
+  "byline": "The Metals Desk",
+  "minutes": 3,
+  "tags": [
+   "NUM",
+   "STAKES"
+  ],
+  "body": [
+   "Gold closed the week near $4,061 an ounce, a gain of about 0.3% on Friday and roughly 2% across the five sessions, but still on the wrong side of the $4,100 line it has been probing for a fortnight. The metal is holding a high plateau rather than breaking out, which is the posture of a market waiting for someone else to move first. This week, that someone is the Federal Reserve.",
+   "The policy committee meets July 28 and 29, and the consensus expects it to leave rates where they are, echoing the European Central Bank's hold on Thursday. The case for standing still got firmer late in the week when jobless claims came in at 187,000 against a forecast of 212,000, a labor market stronger than the models penciled in. A stronger jobs picture cuts both ways for gold: it eases recession fear, but it keeps alive the prospect of higher rates later in the year if inflation stays above target.",
+   "That rate-and-gold relationship is the whole game at these levels. Higher interest rates raise the opportunity cost of holding an asset that pays no coupon, so a hawkish surprise on Wednesday would give the metal a reason to slip back toward $4,000, while any dovish tilt would hand it the excuse to test $4,100 again. The white metals told their own story on Friday: silver added about 1.2% to $58.22, while platinum slipped 1.1% to $1,574.",
+   "For the jewelry trade, the number that matters is less the daily print than the shelf it sits on. Gold has spent July defending $4,000 rather than charging past it, and a market that merely holds a record is easier to design around than one that lurches. Manufacturers pricing autumn collections are treating $4,000 as the floor and $4,100 as the ceiling until the Fed says otherwise.",
+   "The desk's view: this is a coiled-spring week, and the spring is wound by Wednesday's statement, not by the tape itself. Gold at $4,061 is neither cheap nor frightened; it is parked. The risk is asymmetric for the counter, because another leg higher squeezes margins that record metal has already stretched thin, while a pullback toward $4,000 would be the first good news the gold bench has had in a month."
+  ],
+  "sources": [
+   {
+    "title": "Gold prices today, Friday, July 24, 2026 — Yahoo Finance",
+    "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-friday-july-24-2026-gold-price-remains-below-4100-ahead-of-next-weeks-rate-decision-152726975.html"
+   },
+   {
+    "title": "Gold Spot Prices | Silver | Platinum & Palladium — Kitco",
+    "url": "https://www.kitco.com/price/precious-metals"
+   }
+  ]
+ },
+ {
+  "slug": "platinum-short-a-fourth-year",
+  "desk": "gold-metals",
+  "date": "2026-07-25",
+  "kicker": "Metals Desk · London",
+  "title": "Platinum runs short a fourth year, and still slips",
+  "dek": "The World Platinum Investment Council sees a 297,000-ounce supply deficit in 2026, a fourth straight shortfall, even as spot platinum fell about 1% Friday to $1,574 and jewelry demand for the metal drops 12%.",
+  "byline": "The Metals Desk",
+  "minutes": 3,
+  "tags": [
+   "NUM",
+   "VS"
+  ],
+  "body": [
+   "Platinum is that rare thing in commodities, a metal the world keeps running short of while its price refuses to celebrate. The World Platinum Investment Council now forecasts a 297,000-ounce deficit for 2026, the fourth consecutive year in which supply falls short of demand, and yet spot platinum slipped about 1% on Friday to $1,574 an ounce. Scarcity on paper and softness on the screen are, for now, coexisting.",
+   "The demand mix explains the tension. Total platinum demand is set to fall about 9% to 7,674,000 ounces, dragged by a 12% drop in jewelry use and a 2% dip in automotive, where the metal's traditional home in catalytic converters keeps shrinking. What holds the market in deficit is elsewhere: industrial demand climbs 9% to 2,238,000 ounces on new glass-making capacity, and bar-and-coin investment jumps 27% to 718,000 ounces as buyers treat platinum as the cheap cousin of gold.",
+   "Supply, meanwhile, is barely moving. Mine output is projected flat while recycling grows about 9%, lifting total supply only 2% and leaving the shortfall to be filled from above-ground stocks that the council expects to cover less than three months of global demand by the end of the year. \"The market continues to be undersupplied, and platinum demand is well insulated,\" said the council's chief executive, Trevor Raymond, pressing the investment case that price alone has yet to make.",
+   "For the jewelry bench, the 12% fall in platinum demand is the line that stings, and it is a demand problem, not a supply one. High gold has not sent buyers to platinum in the numbers the metal's backers hoped; instead it has thinned the whole precious-jewelry category, and platinum, always the connoisseur's choice, feels it first. The deficit is real, but a deficit driven by collapsing jewelry offtake is a strange kind of bull case.",
+   "The desk's view: platinum's shortage is a supply story wearing a demand problem, and markets pay for the problem before they pay for the story. Four straight deficits should have lit a fire under the price; instead the metal sits at $1,574 because the buyers who would bid it up, jewelers and carmakers, are both stepping back. The investment thesis is sound and early, which on a trading desk is another word for wrong, until it isn't."
+  ],
+  "sources": [
+   {
+    "title": "Fourth consecutive platinum market deficit forecast for 2026 — WPIC / PR Newswire",
+    "url": "https://www.prnewswire.com/news-releases/fourth-consecutive-platinum-market-deficit-forecast-for-2026---supply-to-fall-short-of-demand-by-297-koz-302774250.html"
+   },
+   {
+    "title": "Platinum shines brightest in bullish 2026 PGM outlook — Metals Focus / Kitco",
+    "url": "https://www.kitco.com/news/article/2026-05-18/platinum-shines-brightest-bullish-2026-pgm-outlook-metals-focus"
+   },
+   {
+    "title": "Gold Spot Prices | Silver | Platinum & Palladium — Kitco",
+    "url": "https://www.kitco.com/price/precious-metals"
+   }
+  ]
+ },
+ {
+  "slug": "india-buys-the-dip",
+  "desk": "retail-tech",
+  "date": "2026-07-25",
+  "kicker": "Retail-Tech Desk · Mumbai",
+  "title": "India buys the dip as gold falls ten percent",
+  "dek": "Indian gold fell about 10% in June to a six-month low near 141,000 rupees per 10 grams, and buyers came back: listed jewellers logged 30-60% revenue growth, though old-gold trade-ins now fund up to 55% of counter sales.",
+  "byline": "The Retail Desk",
+  "minutes": 4,
+  "tags": [
+   "NUM",
+   "QWHO"
+  ],
+  "body": [
+   "When the gold price finally blinked, India bought. The World Gold Council's July read on the market records a roughly 10% fall in the domestic price during June, to about 141,000 rupees per 10 grams, its lowest in six months, tracking an 11% slide in the international price to near $4,000. Overall consumer demand stayed subdued, the council notes, but the drop was enough to pull jewelry buyers off the sidelines they had occupied through the spring's records.",
+   "The listed chains felt it first. Major organized jewellers reported revenue growth of 30% to 60% year on year for the April-to-June quarter, a number that looks heroic until the composition is examined. As much as 43% to 55% of jewelry sales were funded not by fresh money but by old gold traded back across the counter, with exchange volumes rising a further 10% to 20% after a duty change nudged households to recycle rather than import.",
+   "Investment demand told a divided story. Gold exchange-traded funds took in 34.4 billion rupees of net inflows in June, the most since February, lifting holdings 2.2 tonnes to 119 tonnes, and digital-gold transaction values rose to 25.5 billion rupees. Bars and coins, the traditional hoard, cooled at the same time, a sign that the newer, screen-based ways of owning gold are quietly taking share from the safe at home.",
+   "The import line shows how much the froth has come off. June gold imports fell 42% from May to $1.97 billion, with volume down to somewhere between 16 and 22 tonnes from 29 tonnes, and gold's share of the country's merchandise import bill dropped to 3% from 17% in January. The domestic market even swung to a discount averaging about $20 an ounce in early July, a world away from the $150 premium of May.",
+   "The desk's view: this is a recycling recovery, not a demand boom, and the two are easy to confuse on a quarterly slide. When more than half of what crosses the counter is yesterday's gold coming back, revenue can grow while fresh appetite stays flat, and imports can fall while shops look busy. India will buy every dip in gold; the open question is whether it will still buy the metal at a new high, or only the story of a bargain."
+  ],
+  "sources": [
+   {
+    "title": "India gold market update: Mixed demand signals — World Gold Council",
+    "url": "https://www.gold.org/goldhub/gold-focus/2026/07/india-gold-market-update-mixed-demand-signals"
+   }
+  ]
+ },
+ {
+  "slug": "list-up-resale-down",
+  "desk": "watches",
+  "date": "2026-07-25",
+  "kicker": "Watch Desk · Geneva",
+  "title": "List prices up, resale down: the watch gap narrows",
+  "dek": "Swiss brands raised US retail prices about 7% for 2026 while the secondary market slid roughly 8% to two-year lows, squeezing the premium that once made a steel sports watch behave like an investment.",
+  "byline": "The Watch Desk",
+  "minutes": 3,
+  "tags": [
+   "VS",
+   "NUM"
+  ],
+  "body": [
+   "Two lines that used to move together are now moving apart. Swiss brands opened 2026 with US retail increases of about 7%, led by Rolex, Tudor and Audemars Piguet, while the secondary market spent the year sliding, with index trackers putting the broad decline near 8% and both Rolex and Patek Philippe touching two-year lows. The list price went up; the street price went down; the gap between them is the whole subject.",
+   "That gap is where the last cycle's speculation lived. At the 2022 peak, a steel sports Rolex or a Nautilus traded far above its boutique price, and the premium was the reason people queued for waitlists they never intended to wear. As the secondary market has cooled through 2026, that premium has compressed toward zero and, on many references, below it, which turns a flip into a loss and a waitlist into a formality rather than a lottery ticket.",
+   "The decline is not uniform, and the exceptions are instructive. Rolex's secondary prices have held comparatively steady, the blue-chip behaving like a blue-chip, while Patek Philippe's broader range has been the weaker performer even as its scarcest complications keep setting gains. The market, in other words, is sorting: the truly rare still appreciates, the merely desirable is repricing toward what a watch is actually worth to someone who wants to own it.",
+   "For retailers, the narrowing gap is a mixed blessing. A secondary market that no longer trades at a fat premium removes the grey-market temptation that pulled buyers away from authorized doors, but it also strips the resale-value story that justified the primary purchase. Selling a $15,000 sports watch is harder when last year's model can be had for less than list on a screen, and the January price increase only widens that spread.",
+   "The desk's view: the era of the watch as a liquid asset is closing, and the counter should be glad of it. When the flip stops paying, the buyer who remains is the one who wanted the object rather than the arbitrage, and that is a healthier customer to build a business on. The brands raising list prices into a falling secondary market are betting that desire outlives speculation. On the evidence of the rarest Pateks, they may be right."
+  ],
+  "sources": [
+   {
+    "title": "July 2026 Watch Market Update — WatchCharts",
+    "url": "https://watchcharts.com/articles/p/9418/july-2026-watch-market-update"
+   },
+   {
+    "title": "Rolex and Patek Philippe Prices Hit a Two-Year Low on the Secondary Watch Market — Robb Report",
+    "url": "https://robbreport.com/style/watch-collector/rolex-patek-prices-two-year-low-1235415317/"
+   },
+   {
+    "title": "Rolex USA Prices to Rise 7% in 2026 — WatchPro",
+    "url": "https://www.watchpro.com/rolex-usa-prices-to-rise-7-in-2026/"
+   }
+  ]
+ },
+ {
+  "slug": "furmanovich-cuts-deco",
+  "desk": "gemstones",
+  "date": "2026-07-25",
+  "kicker": "Gemstones Desk · São Paulo",
+  "title": "Furmanovich cuts Art Deco from straw and beetle-wing",
+  "dek": "The Brazilian marquetry house has translated 1920s geometry into straw inlay, Shibayama, abalone and iridescent beetle-wing, a couture-level collection arguing that craft, not carat weight, is the luxury on offer.",
+  "byline": "The Design Desk",
+  "minutes": 3,
+  "tags": [
+   "GAP",
+   "ACTOR"
+  ],
+  "body": [
+   "Silvia Furmanovich, the São Paulo designer who built a house on the humble craft of marquetry, has turned her wood-and-straw technique on the most geometric decade in decorative history. Her new Art Deco collection, drawn up around the centenary of the 1925 Paris Exposition that gave the style its name, reads the 1920s not through diamonds and platinum but through texture, arranging chevrons, mosaics and spirals in materials most fine jewelers never touch.",
+   "The material list is the statement. Straw marquetry, the enchapado de tamo that is the house signature, sits alongside Japanese Shibayama inlay, mother-of-pearl and abalone, iridescent beetle-wing, black palm wood, coral and mirrored surfaces. Egyptomania and Japonisme, the two exotic currents that fed original Deco, return here as surface and pattern rather than as motif, filtered through the hands of Brazilian and Asian artisans the studio has spent years training.",
+   "It is a deliberate argument about where value sits. In a season when the natural-diamond price is falling and the lab-grown stone has made carat weight cheap, a collection that asks to be judged on the difficulty of its making rather than the size of its stones is making a case for craft as the last defensible luxury. The pieces debuted at Couture in Las Vegas in the spring and have been circulating through the trade press since.",
+   "\"Jewelry has always been a form of cultural exploration,\" Furmanovich has said, and the collection wears that thesis openly, treating a brooch as a small piece of cabinetry and a cuff as a field for inlay. The approach does not scale the way a diamond line does, which is precisely the point; each piece is closer to a commissioned object than a stocked SKU, and priced accordingly.",
+   "The desk's view: this is the counter-programming the high end needs right now. As stones lose their scarcity, the houses that will hold their margins are the ones selling something a factory cannot copy overnight, and a beetle-wing mosaic set by hand is about as hard to copy as jewelry gets. Furmanovich is betting that when the diamond stops being rare, the labor around it becomes the thing worth paying for."
+  ],
+  "sources": [
+   {
+    "title": "Silvia Furmanovich Reimagines Art Deco — INSTORE",
+    "url": "https://instoremag.com/silvia-furmanovich-reimagines-art-deco/"
+   },
+   {
+    "title": "Silvia Furmanovich's New Collection Travels Back to the 1920s — National Jeweler",
+    "url": "https://nationaljeweler.com/"
+   }
+  ]
+ },
+ {
   "slug": "de-beers-eighty-eight-up",
   "desk": "diamonds",
   "date": "2026-07-24",
-  "lead": true,
   "kicker": "Diamonds Desk · London",
   "title": "De Beers digs 88% more, banks 44% less",
   "dek": "Second-quarter rough output jumped 88% to 7.8 million carats even as the average price fell 32% to $105 a carat. Revenue slid 44% to $665 million. Production is rising into the weakest market in a generation.",

@@ -1,10 +1,40 @@
 {
- "updated": "24 Jul 2026",
+ "updated": "25 Jul 2026",
  "intro": "Eight weeks of the trade, kept the way a ledger should be kept — dated, sourced, and in one place. New entries are added at the top each week; the quarter's running numbers live in the Almanac below.",
  "weeks": [
   {
    "label": "This week — July 20",
    "entries": [
+    {
+     "d": "retail-tech",
+     "h": "US revives tariffs on jewelry imports from ~60 countries under Section 301",
+     "t": "Effective July 24, new duties of 10% (India, Canada, UK, Mexico and others) and 12.5% (China, Hong Kong, Israel, Thailand, Turkey, UAE) apply to jewelry, diamonds, gemstones and precious metals, after the Supreme Court struck the earlier IEEPA tariffs. Diamonds and gemstones polished in the EU keep their exemption; goods in transit are spared. The bands stack onto country measures already in force, including 50% on Canada.",
+     "s": "JCK / TIME"
+    },
+    {
+     "d": "diamonds",
+     "h": "India's polished trade absorbs a 10% US duty as rough prices stay depressed",
+     "t": "India, which cuts and polishes roughly 90% of the world's diamonds by piece, faces a 10% tariff on polished goods entering its largest market just as De Beers' realised rough price sits about a third below a year ago. The EU-polished exemption creates an incentive to route finishing through Antwerp rather than Surat.",
+     "s": "JCK / Rapaport"
+    },
+    {
+     "d": "gold-metals",
+     "h": "Gold ends the week near $4,061, up 2%, waiting on the Fed",
+     "t": "Gold held a high plateau below $4,100 into a Federal Reserve meeting (July 28–29) widely expected to leave rates unchanged, echoing the ECB's Thursday hold. Jobless claims of 187,000 undercut the 212,000 forecast. Silver rose 1.2% to $58.22; platinum fell 1.1% to $1,574.",
+     "s": "Yahoo Finance / Kitco"
+    },
+    {
+     "d": "gold-metals",
+     "h": "WPIC forecasts a fourth straight platinum deficit of 297koz for 2026",
+     "t": "Total platinum demand is seen falling 9% to 7,674koz, with jewelry demand down 12% and automotive off 2%, while industrial rises 9% to 2,238koz and bar-and-coin investment jumps 27% to 718koz. Above-ground stocks would cover under three months of demand by year-end, yet spot sits at $1,574.",
+     "s": "WPIC / PR Newswire"
+    },
+    {
+     "d": "gemstones",
+     "h": "Silvia Furmanovich reimagines Art Deco in straw, Shibayama and beetle-wing",
+     "t": "Marking the centenary of the 1925 Paris Exposition, the São Paulo house translated 1920s geometry into straw marquetry, Japanese inlay, abalone, coral and iridescent beetle-wing rather than diamonds and platinum. The couture-level collection, debuted at Couture in Las Vegas, argues craft over carat weight as stones lose their scarcity.",
+     "s": "INSTORE / National Jeweler"
+    },
     {
      "d": "diamonds",
      "h": "De Beers Q2 output jumps 88% as the realised price falls 32%",
