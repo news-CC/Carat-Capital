@@ -14088,5 +14088,802 @@
     }
    ]
   }
+ },
+ "average-ticket-carries-the-half": {
+  "strip": {
+   "cap": "By the numbers · US jewelry, first half",
+   "cells": [
+    {
+     "fig": "+8.6%",
+     "delta": "▲",
+     "dir": "up",
+     "lab": "H1 revenue"
+    },
+    {
+     "fig": "+13%",
+     "delta": "▲",
+     "dir": "up",
+     "lab": "June revenue"
+    },
+    {
+     "fig": "+19%",
+     "delta": "▲",
+     "dir": "up",
+     "lab": "avg ticket, H1"
+    },
+    {
+     "fig": "+14%",
+     "delta": "▲",
+     "dir": "up",
+     "lab": "bracelets"
+    },
+    {
+     "fig": "+0.2%",
+     "lab": "all US retail, June"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Where the half's growth sat · by category signal",
+    "rows": [
+     {
+      "l": "BRACELETS (tennis-led)",
+      "v": 14,
+      "d": "+14% rev",
+      "hi": true
+     },
+     {
+      "l": "AVG TICKET (all jewelry)",
+      "v": 19,
+      "d": "+19%"
+     },
+     {
+      "l": "JUNE REVENUE",
+      "v": 13,
+      "d": "+13%"
+     },
+     {
+      "l": "H1 REVENUE",
+      "v": 8.6,
+      "d": "+8.6%"
+     }
+    ],
+    "note": "US point-of-sale, H1 2026 (Tenoris). Bars show size, not sign.",
+    "cap": "The half the ticket carried. Carat Capital graphics desk. &nbsp;CC/2026/118"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Bigger tickets, a thinner crowd.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Two diamonds, two engines.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "The store is ringing up bigger tickets from a thinner crowd, a pattern that flatters the top line and hides a narrowing base.",
+     "attr": "The Retail Desk"
+    }
+   },
+   {
+    "sub": "Jewelry outran the mall.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "India buys the dip as gold falls ten percent",
+     "href": "a-india-buys-the-dip.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "Sell the bracelet and the strand of pearls while the appetite for a real purchase is there, because a market held up by price is only ever one nervous quarter from finding out how many buyers it actually has."
+  },
+  "next": {
+   "lead": {
+    "slug": "china-weighs-in-on-gold",
+    "tag": "Retail-Tech",
+    "blurb": "Greater China's counters run hot on cheaper gold."
+   },
+   "minis": [
+    {
+     "slug": "seventy-three-percent-cheaper",
+     "tag": "Retail-Tech"
+    },
+    {
+     "slug": "birks-narrows-by-73",
+     "tag": "Retail-Tech"
+    }
+   ]
+  }
+ },
+ "china-weighs-in-on-gold": {
+  "spec": {
+   "cap": "The record · Greater China counters, quarter to June",
+   "rows": [
+    {
+     "l": "Chow Tai Fook, retail sales value",
+     "v": "<b>+15.1%</b> YoY"
+    },
+    {
+     "l": "Hong Kong & Macau",
+     "v": "<b>+44.8%</b>"
+    },
+    {
+     "l": "Weight-based gold, same-store (HK/Macau)",
+     "v": "<b>+63.7%</b>"
+    },
+    {
+     "l": "Fixed-price jewelry, mainland same-store",
+     "v": "−1%"
+    },
+    {
+     "l": "Luk Fook / Chow Sang Sang",
+     "v": "+32% / +16%"
+    },
+    {
+     "l": "Net mainland stores closed",
+     "v": "258 (to 5,434)"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Same-store gold vs design · Chow Tai Fook, quarter to June",
+    "rows": [
+     {
+      "l": "GOLD BY WEIGHT — HK/Macau",
+      "v": 63.7,
+      "d": "+63.7%",
+      "hi": true
+     },
+     {
+      "l": "GOLD BY WEIGHT — mainland",
+      "v": 38,
+      "d": "+38%"
+     },
+     {
+      "l": "FIXED-PRICE / DESIGN — mainland",
+      "v": 1,
+      "d": "−1%"
+     }
+    ],
+    "note": "Same-store sales, quarter to June 2026 (company). Bars show size, not sign.",
+    "cap": "Grams beat design when gold is cheap. Carat Capital graphics desk. &nbsp;CC/2026/119"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Fifteen up, and it isn't design.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "The whole region, one trade.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "When gold reads as value, shoppers buy the metal and skip the markup.",
+     "attr": "The Retail Desk"
+    }
+   },
+   {
+    "sub": "Rising sales, fewer doors.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "India buys the dip as gold falls ten percent",
+     "href": "a-india-buys-the-dip.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "the test is whether the same shoppers come back for a diamond or a design once the bullion trade cools, or whether the counter has simply become a savings account with a clasp."
+  },
+  "next": {
+   "lead": {
+    "slug": "average-ticket-carries-the-half",
+    "tag": "Retail-Tech",
+    "blurb": "America's jewelry gain rode the average ticket, not the crowd."
+   },
+   "minis": [
+    {
+     "slug": "india-buys-the-dip",
+     "tag": "Retail-Tech"
+    },
+    {
+     "slug": "india-pays-in-old-gold",
+     "tag": "Gold & Metals"
+    }
+   ]
+  }
+ },
+ "silver-narrows-the-ratio": {
+  "strip": {
+   "cap": "By the numbers · metals into Fed week",
+   "cells": [
+    {
+     "fig": "$58",
+     "delta": "▲",
+     "dir": "up",
+     "lab": "silver / oz · +2% Fri"
+    },
+    {
+     "fig": "$4,061",
+     "lab": "gold / oz · little changed"
+    },
+    {
+     "fig": "69.5",
+     "delta": "▼",
+     "dir": "dn",
+     "lab": "gold-silver ratio"
+    },
+    {
+     "fig": "Jul 29",
+     "lab": "Fed decision"
+    },
+    {
+     "fig": "6-wk",
+     "delta": "▲",
+     "dir": "up",
+     "lab": "crude high, Iran risk"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "The gold-silver ratio, tightening · index points",
+    "rows": [
+     {
+      "l": "THURSDAY",
+      "v": 70.7,
+      "d": "70.7"
+     },
+     {
+      "l": "FRIDAY",
+      "v": 69.5,
+      "d": "69.5",
+      "hi": true
+     }
+    ],
+    "note": "Gold-silver ratio, 23–24 Jul 2026 (USAGOLD). Lower = silver gaining.",
+    "cap": "Silver closing the gap. Carat Capital graphics desk. &nbsp;CC/2026/120"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Silver keeps the bid.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "The tape waits on the room.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "coin and bar premiums are holding firm as physical buyers treat anything under $4,100 as a level to accumulate rather than a top to sell.",
+     "attr": "The Metals Desk"
+    }
+   },
+   {
+    "sub": "Why the cheaper metal leads.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Gold near $4,061 waits on the Fed",
+     "href": "a-gold-waits-on-the-fed.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "for anyone trading the metals into Wednesday the signal is the same one it has been all month, that the next real move is the Fed's to give."
+  },
+  "next": {
+   "lead": {
+    "slug": "gold-waits-on-the-fed",
+    "tag": "Gold & Metals",
+    "blurb": "Gold parked under $4,100, waiting on Wednesday."
+   },
+   "minis": [
+    {
+     "slug": "gold-defends-four-thousand-again",
+     "tag": "Gold & Metals"
+    },
+    {
+     "slug": "oil-talks-gold-listens",
+     "tag": "Gold & Metals"
+    }
+   ]
+  }
+ },
+ "antwerp-thins-india-loads": {
+  "spec": {
+   "cap": "The record · the trade into August",
+   "rows": [
+    {
+     "l": "Antwerp",
+     "v": "short of polished goods; buyers turn to India"
+    },
+    {
+     "l": "RapNet Index, 0.30ct",
+     "v": "<b>+0.79%</b> wk · <b>+4.25%</b> mo"
+    },
+    {
+     "l": "RapNet Index, 1.00ct",
+     "v": "−0.11% wk"
+    },
+    {
+     "l": "IIJS Premiere, Mumbai",
+     "v": "<b>Aug 6–10</b>"
+    },
+    {
+     "l": "US Section 301 duty on India",
+     "v": "10%, live Jul 24"
+    },
+    {
+     "l": "EU-polished diamonds",
+     "v": "exemption retained"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Small stones lead the turn · RapNet index, monthly",
+    "rows": [
+     {
+      "l": "0.30 ct",
+      "v": 4.25,
+      "d": "+4.25%",
+      "hi": true
+     },
+     {
+      "l": "0.30 ct, weekly",
+      "v": 0.79,
+      "d": "+0.79%"
+     },
+     {
+      "l": "1.00 ct, weekly",
+      "v": 0.11,
+      "d": "−0.11%"
+     }
+    ],
+    "note": "RapNet Diamond Index, to 23 Jul 2026 (Rapaport). Bars show size, not sign.",
+    "cap": "The bottom of the range firms first. Carat Capital graphics desk. &nbsp;CC/2026/121"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "One hub empties, another fills.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Mumbai reads an opening.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "the trade walks into August holding two things at once, a genuine recovery in the goods India makes and a fresh tax on selling them to its largest customer.",
+     "attr": "The Trade Desk"
+    }
+   },
+   {
+    "sub": "The tariff picks the lane.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Surat does the math on ten percent",
+     "href": "a-surat-eats-the-ten.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "the winners in Mumbai will be the houses that already know which stones go to New York through Antwerp and which stay home for everyone else."
+  },
+  "next": {
+   "lead": {
+    "slug": "small-stones-lead-again",
+    "tag": "Diamonds",
+    "blurb": "Small stones lead again as one-carat goods slip."
+   },
+   "minis": [
+    {
+     "slug": "surat-eats-the-ten",
+     "tag": "Diamonds"
+    },
+    {
+     "slug": "fifty-percent-for-canada",
+     "tag": "Diamonds"
+    }
+   ]
+  }
+ },
+ "diavik-sells-the-last-ore": {
+  "strip": {
+   "cap": "By the numbers · Diavik winds down",
+   "cells": [
+    {
+     "fig": "33,000",
+     "lab": "carats from remaining ore, Q2"
+    },
+    {
+     "fig": "−97%",
+     "delta": "▼",
+     "dir": "dn",
+     "lab": "Q2 output, YoY"
+    },
+    {
+     "fig": "1.1M",
+     "lab": "carats, H1"
+    },
+    {
+     "fig": "−51%",
+     "delta": "▼",
+     "dir": "dn",
+     "lab": "H1 vs 2025"
+    },
+    {
+     "fig": "2026",
+     "lab": "final sales through year-end"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "The end of a mine · Rio Tinto diamond output",
+    "rows": [
+     {
+      "l": "H1 2025",
+      "v": 100,
+      "d": "~2.2M ct (base)"
+     },
+     {
+      "l": "H1 2026",
+      "v": 49,
+      "d": "1.1M ct  −51%",
+      "hi": true
+     }
+    ],
+    "note": "Rio Tinto diamond production, first half (company). Bars indexed to H1 2025.",
+    "cap": "A last half from a closed mine. Carat Capital graphics desk. &nbsp;CC/2026/122"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "A dark mine still gives.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "The exit is complete.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "a diamond mine does not go dark the day the last truck leaves the pit.",
+     "attr": "The Diamonds Desk"
+    }
+   },
+   {
+    "sub": "Scarcity gets the last word.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "The last carats at Diavik",
+     "href": "a-last-carats-at-diavik.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "in a trade learning to sell scarcity, the mines that shut this decade will do more for prices than any marketing budget the industry could buy."
+  },
+  "next": {
+   "lead": {
+    "slug": "last-carats-at-diavik",
+    "tag": "Diamonds",
+    "blurb": "The final season at a marquee Canadian mine."
+   },
+   "minis": [
+    {
+     "slug": "twelve-hundred-at-venetia",
+     "tag": "Diamonds"
+    },
+    {
+     "slug": "de-beers-sale-gets-a-clock",
+     "tag": "Diamonds"
+    }
+   ]
+  }
+ },
+ "de-beers-sale-gets-a-clock": {
+  "spec": {
+   "cap": "The record · De Beers at the point of sale",
+   "rows": [
+    {
+     "l": "Leading bidder",
+     "v": "<b>Gareth Penny</b>-led consortium"
+    },
+    {
+     "l": "Expected close",
+     "v": "<b>end of 2026</b>"
+    },
+    {
+     "l": "Q2 rough sales",
+     "v": "$665M, <b>−44%</b> YoY"
+    },
+    {
+     "l": "Average realized price, H1",
+     "v": "$105/ct, <b>−32%</b>"
+    },
+    {
+     "l": "Q2 production",
+     "v": "+88% YoY"
+    },
+    {
+     "l": "Venetia",
+     "v": "two-year production pause planned"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "More stones, less money · De Beers, second quarter",
+    "rows": [
+     {
+      "l": "PRODUCTION",
+      "v": 88,
+      "d": "+88%",
+      "hi": true
+     },
+     {
+      "l": "SALES REVENUE",
+      "v": 44,
+      "d": "−44%"
+     },
+     {
+      "l": "AVG PRICE / CARAT (H1)",
+      "v": 32,
+      "d": "−32%"
+     }
+    ],
+    "note": "De Beers Q2/H1 2026, year on year (company). Bars show size, not sign.",
+    "cap": "The gap the buyer inherits. Carat Capital graphics desk. &nbsp;CC/2026/123"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "A name and a deadline.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Cutting supply to fit.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "take control at the bottom, when the seller is cutting output because prices will not carry it.",
+     "attr": "The Diamonds Desk"
+    }
+   },
+   {
+    "sub": "The wager on the cycle.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "De Beers digs 88% more, banks 44% less",
+     "href": "a-de-beers-eighty-eight-up.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "Whoever signs by December gets the name, the pipeline and the problem all at once, and the first quarter of ownership will tell everyone whether they bought a floor or a trapdoor."
+  },
+  "next": {
+   "lead": {
+    "slug": "de-beers-eighty-eight-up",
+    "tag": "Diamonds",
+    "blurb": "More rough, far less revenue at the July sight."
+   },
+   "minis": [
+    {
+     "slug": "penny-gets-the-nod",
+     "tag": "Diamonds"
+    },
+    {
+     "slug": "twelve-hundred-at-venetia",
+     "tag": "Diamonds"
+    }
+   ]
+  }
+ },
+ "pearls-keep-a-lane": {
+  "spec": {
+   "cap": "The record · color against the gold tide",
+   "rows": [
+    {
+     "l": "US pearl jewelry, H1",
+     "v": "<b>surprisingly strong</b>"
+    },
+    {
+     "l": "US bracelets (tennis-led)",
+     "v": "<b>+14%</b>"
+    },
+    {
+     "l": "Chow Tai Fook fixed-price, mainland SSS",
+     "v": "−1%"
+    },
+    {
+     "l": "Chow Tai Fook gold by weight, mainland SSS",
+     "v": "<b>+38%</b>"
+    },
+    {
+     "l": "The dividing line",
+     "v": "scarcity vs. weight"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Gold vs. design at one counter · Chow Tai Fook mainland SSS",
+    "rows": [
+     {
+      "l": "GOLD BY WEIGHT",
+      "v": 38,
+      "d": "+38%",
+      "hi": true
+     },
+     {
+      "l": "FIXED-PRICE / GEM-SET",
+      "v": 1,
+      "d": "−1%"
+     }
+    ],
+    "note": "Same-store sales, quarter to June 2026 (company). Bars show size, not sign.",
+    "cap": "When metal wins, design must argue. Carat Capital graphics desk. &nbsp;CC/2026/124"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Pearls hold their own.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "The middle gives way.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "When a gold chain reads as savings, a gem-set pendant has to justify itself on feeling, not value, and this year feeling lost the argument at the Chinese counter.",
+     "attr": "The Gemstones Desk"
+    }
+   },
+   {
+    "sub": "Sell the thing gold is not.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Furmanovich cuts Art Deco from straw and beetle-wing",
+     "href": "a-furmanovich-cuts-deco.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "the shopper who wants value already bought the chain, and the one standing at the color case is there for something the metal counter cannot sell them."
+  },
+  "next": {
+   "lead": {
+    "slug": "furmanovich-cuts-deco",
+    "tag": "Gemstones",
+    "blurb": "Craft over carat, cut from straw and beetle-wing."
+   },
+   "minis": [
+    {
+     "slug": "emeralds-hold-at-146",
+     "tag": "Gemstones"
+    },
+    {
+     "slug": "twelve-point-five-for-color",
+     "tag": "Gemstones"
+    }
+   ]
+  }
  }
 }

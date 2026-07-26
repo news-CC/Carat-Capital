@@ -1,9 +1,228 @@
 [
  {
+  "slug": "average-ticket-carries-the-half",
+  "desk": "retail-tech",
+  "date": "2026-07-26",
+  "lead": true,
+  "kicker": "Retail-Tech Desk · New York",
+  "title": "Up nine percent, and the average ticket did the lifting",
+  "dek": "US jewelry revenue rose 8.6% in the first half and 13% in June, but the average purchase price climbed about 19 to 20 percent. Fewer buyers, spending more: bracelets, pearls and higher-priced pieces carried the gain.",
+  "byline": "The Retail Desk",
+  "minutes": 4,
+  "tags": [
+   "NUM",
+   "VS",
+   "QWHO"
+  ],
+  "body": [
+   "American jewelry sales grew through the first half of 2026, but the growth was priced, not counted. Retail revenue rose 8.6% over the six months and 13% year on year in June, according to point-of-sale figures compiled by Tenoris, while the average purchase price climbed roughly 19% for the half and 20% in June. The store is ringing up bigger tickets from a thinner crowd, a pattern that flatters the top line and hides a narrowing base.",
+   "The gain concentrated at the higher-priced end. Bracelets, tennis styles in particular, led with a 14% revenue increase and double-digit growth in what shoppers were willing to spend on them. Pearl jewelry had what analysts called a surprisingly strong first half. Pendants and earrings held their own but trailed the leaders. The through-line is that the pieces carrying the market are the ones with a higher entry price, not the impulse buys near the register.",
+   "The two diamond categories tell different stories. Natural-diamond jewelry grew revenue at a single-digit rate, with unit sales down but higher average selling prices making up the difference and gross margins holding firm. Lab-grown moved the opposite way: revenue rose almost entirely on more units sold, while the average amount spent stayed essentially flat. One engine runs on price discipline, the other on volume, and rising rough costs could yet press on the cheaper of the two.",
+   "Set against the wider economy, jewelry outran the mall. US retail sales overall rose just 0.2% in June as tax-refund tailwinds faded and shoppers turned cautious. Against that backdrop a double-digit jewelry month looks strong, but the composition matters: a market that grows by selling dearer goods to fewer hands rewards the specialist counter and squeezes the value end, where a shopper who used to trade up now often trades out.",
+   "The desk's view: nine percent is a headline a jeweler can live with, but the honest number underneath it is the one on the tag, not the till. Sell the bracelet and the strand of pearls while the appetite for a real purchase is there, because a market held up by price is only ever one nervous quarter from finding out how many buyers it actually has."
+  ],
+  "sources": [
+   {
+    "title": "US Jewelry Sales Continue to Grow in H1 2026 — Tenoris",
+    "url": "https://www.tenoris.bi/us-jewelry-sales-continue-to-grow-in-h1-2026/"
+   },
+   {
+    "title": "US retail sales rose 0.2% in June — CNN Business",
+    "url": "https://us.cnn.com/2026/07/16/economy/us-retail-sales-june"
+   }
+  ]
+ },
+ {
+  "slug": "china-weighs-in-on-gold",
+  "desk": "retail-tech",
+  "date": "2026-07-26",
+  "kicker": "Retail-Tech Desk · Hong Kong",
+  "title": "Chow Tai Fook up fifteen, and gold by the gram did it",
+  "dek": "Chow Tai Fook's quarterly retail sales rose 15.1%, with Hong Kong and Macau up 44.8% and weight-based gold jewelry up 64% there as softer gold revived demand. Luk Fook gained 32%, Chow Sang Sang 16%.",
+  "byline": "The Retail Desk",
+  "minutes": 4,
+  "tags": [
+   "NUM",
+   "VS",
+   "ACTOR"
+  ],
+  "body": [
+   "Chow Tai Fook, Greater China's largest jewelry chain, reported retail sales value up 15.1% year on year for the quarter to June, its fiscal first quarter. Mainland China supplied 83.6% of the total and grew 10.7%; Hong Kong, Macau and other markets, a sixth of the business, jumped 44.8%. On a same-store basis the mainland's self-operated shops rose 19.6% and franchises 15.7%, while Hong Kong and Macau together climbed 41.7%, Hong Kong up 35% and Macau up 64.6%.",
+   "One product line did the work. Weight-based gold jewelry, sold by the gram rather than by design, saw same-store sales leap 38% in the mainland and 63.7% in Hong Kong and Macau, as a softer gold price after June's pullback pulled buyers back to the counter. Fixed-price, design-led jewelry told the opposite story, slipping about 1% in the mainland. When gold reads as value, shoppers buy the metal and skip the markup.",
+   "The pattern is regional, not a single company's. Luk Fook posted quarterly retail sales up 32% and Chow Sang Sang up 16% over the same window, according to Rapaport's trade wire. Across the big Hong Kong-listed names, the story is the same: gold-as-savings is doing the selling, and the strength runs deepest where local buyers treat a chain necklace as a store of wealth rather than an accessory.",
+   "Yet the footprint is shrinking even as sales rise. Chow Tai Fook closed a net 258 mainland locations in the quarter, ending June with 5,434 points of sale, part of a multi-year rationalization of a once-sprawling network. Its April-launched Dawn Collection cleared more than HK$870 million, and the group leaned on brand upgrades to lift average prices. Investors stayed cool: the shares traded down about 2% and are off roughly 13% over six months.",
+   "The desk's view: a 64% surge in gold jewelry is a metal story wearing a retail costume, and metal stories turn. The chains booking these numbers are selling grams while gold sits just off a record; the test is whether the same shoppers come back for a diamond or a design once the bullion trade cools, or whether the counter has simply become a savings account with a clasp."
+  ],
+  "sources": [
+   {
+    "title": "Chow Tai Fook Q1 FY2027 retail sales value up 15.1% — Bamboo Works",
+    "url": "https://thebambooworks.com/chow-tai-fooks-quarterly-retail-sales-value-up-15-1/"
+   },
+   {
+    "title": "Rapaport TradeWire, July 23, 2026",
+    "url": "https://rapaport.com/newsletter/rapaport-tradewire-july-23-2026/"
+   }
+  ]
+ },
+ {
+  "slug": "silver-narrows-the-ratio",
+  "desk": "gold-metals",
+  "date": "2026-07-26",
+  "kicker": "Gold & Metals Desk · New York",
+  "title": "Silver up two percent, and the gold ratio tightens to 69",
+  "dek": "Silver added about 2% on Friday to roughly $58 while gold held near $4,061, compressing the gold-silver ratio to about 69.5 from 70.7 at midweek. Both metals mark time before the Fed's July 29 decision.",
+  "byline": "The Metals Desk",
+  "minutes": 3,
+  "tags": [
+   "NUM",
+   "VS",
+   "STAKES"
+  ],
+  "body": [
+   "Silver did the moving as the week closed. The white metal rose about 2% on Friday to roughly $58 an ounce while gold sat little changed near $4,061, tightening the gold-silver ratio to about 69.5 from 70.7 at midweek. It is a small compression, but a telling one: when both metals stall, the one that keeps a bid is usually the one carrying an industrial story as well as a monetary one.",
+   "Everything now waits on Washington. The Federal Reserve meets July 28 and 29, and a hold is widely expected; futures put the odds of a hike next week near a third and closer to four-in-five by September. Gold has largely priced the pause, which is why the tape has gone quiet. The move, when it comes, will be about tone rather than the decision itself, and a hawkish surprise would give the metal a reason to slip toward $4,000.",
+   "The cross-currents are unusually loud for a quiet tape. Crude has pushed to six-week highs on renewed US strikes on Iran and Houthi attacks in the Red Sea, lifting inflation expectations, and two-year Treasury yields have reached a seventeen-month high. Higher yields raise the cost of holding metal that pays no coupon, a headwind for gold, yet coin and bar premiums are holding firm as physical buyers treat anything under $4,100 as a level to accumulate rather than a top to sell.",
+   "Silver's edge in that standoff is its second job. Roughly half its demand is industrial, from solar cells to electronics, and that leg draws incremental buying when the rate path is uncertain and the monetary trade is stuck. A ratio near 69 is still historically wide, which is the bullish case the silver desk keeps making: if gold cannot break higher, the cheaper metal has the room to close the gap.",
+   "The desk's view: a compressing ratio in a parked market is the sound of money looking for the exit that still moves. For the counter it barely registers, because a chain sold by the gram tracks gold, not silver, but for anyone trading the metals into Wednesday the signal is the same one it has been all month, that the next real move is the Fed's to give."
+  ],
+  "sources": [
+   {
+    "title": "Daily Precious Metals Market Report, July 24, 2026 — USAGOLD",
+    "url": "https://www.usagold.com/daily-precious-metals-market-report-july-24-2026/"
+   }
+  ]
+ },
+ {
+  "slug": "antwerp-thins-india-loads",
+  "desk": "diamonds",
+  "date": "2026-07-26",
+  "kicker": "Diamonds Desk · Antwerp",
+  "title": "Antwerp runs short of goods, and the buyers turn to India",
+  "dek": "A summer shortage of polished goods in Antwerp is steering buyers toward India, where small-stone prices are recovering and the IIJS show opens August 6. A new 10% US duty hangs over the whole trade.",
+  "byline": "The Trade Desk",
+  "minutes": 3,
+  "tags": [
+   "STAKES",
+   "GAP",
+   "VS"
+  ],
+  "body": [
+   "The diamond trade is thinning into its summer lull, but not evenly. Rapaport's trade wire reports Antwerp running short of goods, a shortage that is pushing buyers toward India even as the calendar empties out. US wholesale is described as steady despite the seasonal slowdown, and the hubs that normally cycle stock among themselves are instead watching demand drift east to the source.",
+   "Underneath the quiet is a recovery that has legs at the small end. The RapNet Diamond Index for 0.30-carat goods rose 0.79% on the week and 4.25% over the month, while one-carat commercial stones firmed and the benchmark one-carat category slipped a marginal 0.11% on the week. Small and commercial goods are leading the turn again, the same shape the market showed in the spring, and that is precisely the segment India cuts best.",
+   "India is reading the moment as an opening. The trade heads into IIJS Premiere in Mumbai, which opens August 6 and runs to the tenth, with unusual optimism for a summer show, and a goods shortage in Antwerp only sharpens the pull toward a country that polishes roughly nine in ten of the world's diamonds by piece. If the recovery is real, the August floor in Mumbai is where it gets confirmed or denied.",
+   "The complication arrived last week in Washington. A new 10% US Section 301 duty on Indian goods went live July 24, landing on the exact trade now flowing India's way, while diamonds polished in the European Union keep their exemption, a quiet incentive to route US-bound finishing back through Antwerp. So the trade walks into August holding two things at once, a genuine recovery in the goods India makes and a fresh tax on selling them to its largest customer.",
+   "The desk's view: a shortage in one hub and a tax on another is the market telling cutters to pick a lane before the show opens. India has the goods the recovery wants and the tariff it does not, and the winners in Mumbai will be the houses that already know which stones go to New York through Antwerp and which stay home for everyone else."
+  ],
+  "sources": [
+   {
+    "title": "Rapaport TradeWire, July 23, 2026",
+    "url": "https://rapaport.com/newsletter/rapaport-tradewire-july-23-2026/"
+   },
+   {
+    "title": "IIJS Premiere 2026 (Aug 6–10, Mumbai) — GJEPC",
+    "url": "https://gjepc.org/iijs-premiere/"
+   }
+  ]
+ },
+ {
+  "slug": "diavik-sells-the-last-ore",
+  "desk": "diamonds",
+  "date": "2026-07-26",
+  "kicker": "Diamonds Desk · Yellowknife",
+  "title": "Diavik is closed, and Rio Tinto still pulled 33,000 carats from it",
+  "dek": "Rio Tinto recovered 33,000 carats from Diavik's remaining ore in the second quarter, months after the Canadian mine closed. Output fell 97% from a year earlier; the company will sell its final diamonds through year-end.",
+  "byline": "The Diamonds Desk",
+  "minutes": 3,
+  "tags": [
+   "RECORD",
+   "GAP",
+   "NUM"
+  ],
+  "body": [
+   "A mine that stopped digging is still producing diamonds. Rio Tinto recovered 33,000 carats from Diavik's remaining ore in the second quarter, months after the flagship Canadian operation closed in March, working through residual and stockpiled material rather than mining anything new. It is a coda, not a comeback, but it is a reminder that a diamond mine does not go dark the day the last truck leaves the pit.",
+   "The scale of the wind-down is stark in the numbers. Second-quarter diamond output plunged 97% both from the prior quarter and year on year, and first-half production came to 1.1 million carats, down 51% from the same period in 2025. Those are the arithmetic of closure: once the ore body is exhausted, volume collapses to whatever the plant can still recover from what remains above ground.",
+   "Diavik was Rio Tinto's last diamond asset, and its closure completes a deliberate exit from the business. The major shut the famous pink-producing Argyle mine in Western Australia in 2020 and walked away from the Fort a la Corne project in Canada in 2023, choosing to concentrate on metals and minerals. Rio has said it will continue to manufacture and sell its final diamond production at least through the end of 2026.",
+   "The timing gives those last carats an odd tailwind. Certified Canadian goods carry a provenance premium, and they enter a market where a 50% US tariff now sits on Canadian goods and the natural-diamond scarcity argument is building on the back of mine closures worldwide. The final run from a marquee Canadian mine reaches buyers who are short of exactly that story, even as the tariff complicates the route to the largest market for it.",
+   "The desk's view: the interesting number is not the 33,000 carats but the zero that follows them. Diavik's close removes a reliable source of large, well-documented Canadian rough for good, and in a trade learning to sell scarcity, the mines that shut this decade will do more for prices than any marketing budget the industry could buy."
+  ],
+  "sources": [
+   {
+    "title": "Rio Tinto Processes Diamonds from Shuttered Diavik — Rapaport",
+    "url": "https://rapaport.com/news/rio-tinto-processes-diamonds-from-shuttered-diavik/"
+   },
+   {
+    "title": "Rio Tinto releases second quarter 2026 production results",
+    "url": "https://www.riotinto.com/en/news/releases/2026/rio-tinto-releases-second-quarter-2026-production-results"
+   }
+  ]
+ },
+ {
+  "slug": "de-beers-sale-gets-a-clock",
+  "desk": "diamonds",
+  "date": "2026-07-26",
+  "kicker": "Diamonds Desk · London",
+  "title": "Anglo picks the Penny group for De Beers, and starts a year-end clock",
+  "dek": "Anglo American has named the Gareth Penny-led consortium its leading bidder for De Beers and expects to finalize the sale by the end of 2026, even as a two-year production pause looms at the Venetia mine.",
+  "byline": "The Diamonds Desk",
+  "minutes": 3,
+  "tags": [
+   "ACTOR",
+   "STAKES",
+   "NUM"
+  ],
+  "body": [
+   "Anglo American has put a name and a deadline on its exit from diamonds. The mining group has selected the consortium led by former De Beers chief Gareth Penny as its leading bidder for the company, and expects to finalize the sale by the end of 2026, according to Rapaport's trade wire. It is the clearest signal yet that the separation Anglo set in motion last year will actually close, and close this year.",
+   "The house being sold is priced at a cyclical low. De Beers reported an estimated first-half loss, with second-quarter rough sales down 44% year on year to $665 million and the average realized price down 32% to $105 a carat, even as production rose 88% in the quarter to leave first-half output up 46%. More stones for far less money is the shape of a market where rough sells about a third below where it stood a year ago.",
+   "Supply is being trimmed to fit. De Beers is planning a two-year production pause at Venetia, its flagship South African mine, a decision that pulls future carats out of a market already carrying too many. For a buyer, that is both the risk and the logic of the deal: take control at the bottom, when the seller is cutting output because prices will not carry it.",
+   "The stakes run beyond one transaction. The Penny consortium would inherit a brand still synonymous with natural diamonds at the moment lab-grown stones have hollowed out the low end and fresh US tariffs cross the trade routes. A year-end close would end Anglo's long diamond era and hand the industry's most storied name to owners betting that scarcity, not marketing, is what turns the cycle back up.",
+   "The desk's view: buying De Beers in this market is a wager that the worst is in the price, and the two-year Venetia pause says the sellers half-believe it too. Whoever signs by December gets the name, the pipeline and the problem all at once, and the first quarter of ownership will tell everyone whether they bought a floor or a trapdoor."
+  ],
+  "sources": [
+   {
+    "title": "Rapaport TradeWire, July 23, 2026",
+    "url": "https://rapaport.com/newsletter/rapaport-tradewire-july-23-2026/"
+   },
+   {
+    "title": "De Beers rough production increases, but prices, demand remain under pressure — Mining Weekly",
+    "url": "https://www.miningweekly.com/article/de-beers-rough-diamond-production-increases-but-prices-demand-remain-under-pressure-2026-07-23"
+   }
+  ]
+ },
+ {
+  "slug": "pearls-keep-a-lane",
+  "desk": "gemstones",
+  "date": "2026-07-26",
+  "kicker": "Gemstones Desk · New York",
+  "title": "Gold takes the counter; pearls and gem-set keep a quieter lane",
+  "dek": "As gold jewelry dominates counters worldwide, the color side splits: pearls had a surprisingly strong first half in the US, while fixed-price gem-set pieces slipped about 1% in mainland China.",
+  "byline": "The Gemstones Desk",
+  "minutes": 3,
+  "tags": [
+   "VS",
+   "GAP"
+  ],
+  "body": [
+   "While bullion writes the headlines and gold jewelry drives counters from Mumbai to Hong Kong, the color side of the trade is quietly sorting itself into winners and casualties. In the United States, pearl jewelry posted what analysts called a surprisingly strong first half, one of the standout categories in a market that grew 8.6% overall. Pearls, priced on nacre, luster and match rather than on metal weight, held their own in a year when weight was everything.",
+   "The other end of the color trade gave ground. In mainland China, Chow Tai Fook's fixed-price jewelry, the design-led, gem-set pieces that carry a maker's markup, slipped about 1% on a same-store basis in the quarter to June, even as the chain's weight-based gold jewelry leapt 38%. When a gold chain reads as savings, a gem-set pendant has to justify itself on feeling, not value, and this year feeling lost the argument at the Chinese counter.",
+   "The split is really one question asked twice. When gold is cheap enough to buy as a store of wealth, design and color compete on emotion alone, and the categories that win are the ones with their own scarcity to sell. Tennis bracelets, up 14% in the US, show that diamonds still move when the format is right; pearls show that a stone with no substitute keeps its lane. The losers are the middle pieces bought as gifts and priced as commodities.",
+   "That is the argument high summer usually settles. The season's high-jewellery launches lean hard on craft, heritage and rare stones precisely because those are the things a gram of gold cannot offer, and in a year of record metal the maisons selling rarity have the cleaner story. The color desk that thrives now is the one that stops competing with bullion on price and starts competing with it on the one thing gold does not have, which is a face.",
+   "The desk's view: pearls and fine color are not losing to gold so much as being asked to prove they are not gold, and the good ones can. Sell the strand and the signed piece on rarity and hand, not on carat weight, because the shopper who wants value already bought the chain, and the one standing at the color case is there for something the metal counter cannot sell them."
+  ],
+  "sources": [
+   {
+    "title": "US Jewelry Sales Continue to Grow in H1 2026 — Tenoris",
+    "url": "https://www.tenoris.bi/us-jewelry-sales-continue-to-grow-in-h1-2026/"
+   },
+   {
+    "title": "Chow Tai Fook Q1 FY2027 retail sales value up 15.1% — Bamboo Works",
+    "url": "https://thebambooworks.com/chow-tai-fooks-quarterly-retail-sales-value-up-15-1/"
+   }
+  ]
+ },
+ {
   "slug": "tariff-wall-returns",
   "desk": "retail-tech",
   "date": "2026-07-25",
-  "lead": true,
   "kicker": "Retail-Tech Desk · Washington",
   "title": "Ten and twelve-and-a-half: the tariff wall comes back",
   "dek": "A new Section 301 regime puts 10% duties on jewelry from India, Canada and Britain and 12.5% on China, Thailand, Turkey and the UAE, effective July 24. Diamonds polished in the EU keep their exemption.",
@@ -275,7 +494,6 @@
   "slug": "gold-defends-four-thousand-again",
   "desk": "gold-metals",
   "date": "2026-07-24",
-  "lead": false,
   "kicker": "Gold & Metals Desk · New York",
   "title": "Gold defends $4,000 as oil clears $100",
   "dek": "Bullion held $4,028 on Friday, a whisker above the $4,000 line, as Brent crude topped $100 and the ten-year yield reached 4.70%. Traders now price an 80% chance of a September rate rise, up from 68%.",
@@ -307,7 +525,6 @@
   "slug": "apollo-gallery-goes-dark",
   "desk": "retail-tech",
   "date": "2026-07-24",
-  "lead": false,
   "kicker": "Retail & Tech Desk · Paris",
   "title": "The Apollo Gallery reopens, minus the crown jewels",
   "dek": "Nine months after thieves took over $100 million in French royal jewels in a seven-minute raid, the Louvre's Apollo Gallery reopened July 22. The jewels will not return to it. Four suspects are in custody; the stones are still gone.",
@@ -339,7 +556,6 @@
   "slug": "emeralds-hold-at-146",
   "desk": "gemstones",
   "date": "2026-07-24",
-  "lead": false,
   "kicker": "Gemstones Desk · London",
   "title": "Emeralds hold at $146 a carat; rubies wait their turn",
   "dek": "Gemfields' higher-quality emerald auction took $26.8 million, selling 36 of 37 lots at an average $146.08 a carat. A 10% slide in the rupee weighed on Indian buyers, and the miner is treading carefully on rubies after a $51 million loss.",
@@ -371,7 +587,6 @@
   "slug": "small-stones-lead-again",
   "desk": "diamonds",
   "date": "2026-07-24",
-  "lead": false,
   "kicker": "Diamonds Desk · Ramat Gan",
   "title": "Small stones lead again as one-carat goods slip",
   "dek": "RapNet's June index rose 4.2% for 0.30-carat diamonds and 1.3% for half-carats, while the one-carat benchmark fell 0.7%. Inventory cuts, not fresh demand, are doing the lifting at the small end.",
@@ -403,7 +618,6 @@
   "slug": "seventy-three-percent-cheaper",
   "desk": "retail-tech",
   "date": "2026-07-24",
-  "lead": false,
   "kicker": "Retail & Tech Desk · Chicago",
   "title": "Lab-grown now costs 73% less; naturals win the ring back",
   "dek": "A study of appraisal data finds lab-grown diamonds priced 73% below naturals, up from a 27% gap in 2019. As the discount widened, natural stones reclaimed 57% of engagement rings, the reversal grown diamonds were supposed to prevent.",
@@ -435,7 +649,6 @@
   "slug": "sothebys-thirty-one-million",
   "desk": "auctions",
   "date": "2026-07-24",
-  "lead": false,
   "kicker": "Auctions Desk · New York",
   "title": "Trophies carry Sotheby's to $31.4 million; a pink walks",
   "dek": "Sotheby's New York High Jewelry sale made $31.4 million with 95% sold, led by a $3.2 million Graff diamond ring. Down the street, Phillips withdrew a 3.03-carat fancy pink when bids missed its reserve.",
@@ -467,7 +680,6 @@
   "slug": "exports-up-resale-flat",
   "desk": "watches",
   "date": "2026-07-24",
-  "lead": false,
   "kicker": "Watches Desk · Biel",
   "title": "Swiss watch exports jump 11.2%, but the profit doesn't follow",
   "dek": "June's 11.2% export rebound was the strongest reading in a year and sent Swatch shares higher. Yet the group's half-year profit was CHF 16 million on CHF 3.12 billion of sales, half a percent. The volume is back; the margin is not.",
@@ -503,7 +715,6 @@
   "slug": "fifty-percent-for-canada",
   "desk": "diamonds",
   "date": "2026-07-23",
-  "lead": false,
   "kicker": "Diamonds Desk · Washington",
   "title": "Fifty percent for Canada: the wall reaches the diamond counter",
   "dek": "A 50% tariff on Canadian goods takes effect August 19 and names six jewelry HTS codes, loose polished diamonds among them. Rough is exempt, USMCA offers no shelter, and the duty stacks on top of everything already in force.",

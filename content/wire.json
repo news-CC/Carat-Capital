@@ -1,45 +1,45 @@
 {
- "date_line": "Saturday, July 25, 2026",
- "edition": "Vol. I — No. 015",
+ "date_line": "Sunday, July 26, 2026",
+ "edition": "Vol. I — No. 016",
  "items": [
   {
-   "b": "TARIFF WALL RETURNS",
-   "t": " — A new Section 301 regime sets 10% duties on jewelry from India, Canada and the UK and 12.5% on China, Thailand, Turkey and the UAE, live July 24; EU-polished diamonds keep their exemption, goods in transit are spared"
+   "b": "US JEWELRY +8.6% IN H1",
+   "t": " — American jewelry revenue rose 8.6% over the first half and 13% in June, but the average purchase price climbed about 19–20%; tennis bracelets (+14%) and pearls led, natural-diamond units fell as prices held (Tenoris)"
   },
   {
-   "b": "SURAT'S 10%",
-   "t": " — India, which polishes ~90% of the world's diamonds by piece, faces a 10% US duty on polished goods as rough prices sit a third lower YoY; the EU carve-out quietly steers volume toward Antwerp"
+   "b": "CHINA COUNTERS RUN ON GOLD",
+   "t": " — Chow Tai Fook's quarterly retail sales rose 15.1%, Hong Kong and Macau up 44.8%, with weight-based gold jewelry up 63.7% there on softer prices; Luk Fook +32%, Chow Sang Sang +16%"
   },
   {
-   "b": "GOLD $4,061",
-   "t": " — Gold ended the week near $4,061/oz, +2% on the week but short of $4,100, as traders positioned for a Fed widely expected to hold on July 29; jobless claims 187k vs 212k forecast"
+   "b": "SILVER NARROWS THE RATIO",
+   "t": " — Silver added about 2% Friday to roughly $58 while gold held near $4,061, tightening the gold-silver ratio to about 69.5 from 70.7; the Fed meets July 28–29 with a hold widely expected"
   },
   {
-   "b": "PLATINUM SHORT A 4TH YEAR",
-   "t": " — WPIC forecasts a 297koz platinum deficit for 2026, a fourth straight shortfall, even as spot fell ~1% to $1,574; jewelry demand −12%, bar & coin +27% to 718koz"
+   "b": "ANTWERP SHORT ON GOODS",
+   "t": " — A summer shortage of polished goods in Antwerp is steering buyers toward India ahead of IIJS Premiere (Aug 6–10, Mumbai); the RapNet 0.30ct index is up 4.25% on the month as small stones lead the turn"
   },
   {
-   "b": "INDIA BUYS THE DIP",
-   "t": " — Domestic gold fell ~10% in June to a six-month low near ₹141k/10g; listed jewellers logged 30–60% revenue growth, though old-gold trade-ins funded 43–55% of counter sales (WGC)"
+   "b": "DIAVIK'S LAST CARATS",
+   "t": " — Rio Tinto recovered 33,000 carats from the shuttered Diavik mine's remaining ore in Q2; diamond output fell 97% year on year, H1 production 1.1M carats (−51%), with final sales running through year-end"
   },
   {
-   "b": "WATCHES: LIST UP, RESALE DOWN",
-   "t": " — Swiss brands raised US list prices ~7% for 2026 while the secondary market slid ~8% to two-year lows for Rolex and Patek, compressing the grey-market premium toward zero"
+   "b": "DE BEERS SALE GETS A CLOCK",
+   "t": " — Anglo American selected the Gareth Penny-led consortium as its leading bidder for De Beers and expects to finalize the sale by end-2026; a two-year production pause is planned at Venetia"
   },
   {
-   "b": "FURMANOVICH CUTS DECO",
-   "t": " — The São Paulo marquetry house turned straw inlay, Shibayama, abalone and beetle-wing on 1920s geometry — a couture-level Art Deco collection arguing craft, not carat, is the luxury"
+   "b": "MORE ROUGH, LESS MONEY",
+   "t": " — De Beers' Q2 rough sales fell 44% year on year to $665 million and the average realized price dropped 32% to $105 a carat, even as production rose 88%; the house reported an estimated first-half loss"
   },
   {
-   "b": "DE BEERS H1 LOSS FLAGGED",
-   "t": " — Anglo American says De Beers' underlying EBITDA will be negative in H1; consolidated rough revenue −23% to $1.31bn as the sale process to a reported Gareth Penny consortium continues"
+   "b": "SWATCH HOLDS THE LINE",
+   "t": " — Swatch Group's first-half jewelry and watch sales edged up 2% to about $3.6 billion, per trade figures, as Greater China gold demand offset a soft Swiss watch secondary market"
   },
   {
-   "b": "WHITE METALS SPLIT",
-   "t": " — Friday's tape divided the precious complex: silver +1.2% to $58.22 while platinum −1.1% to $1,574 and palladium eased to ~$1,225, leaving platinum above palladium into a quiet weekend"
+   "b": "OIL LIFTS THE RISK TAPE",
+   "t": " — Crude reached six-week highs on renewed US strikes on Iran and Houthi Red Sea attacks, lifting inflation expectations; two-year Treasury yields touched a 17-month high ahead of the Fed"
   }
  ],
- "tape_ts": "24 Jul 2026, 4:00 p.m. ET (Fri close)",
+ "tape_ts": "24 Jul 2026, 4:00 p.m. ET (Fri close) · markets closed for the weekend",
  "tape": [
   {
    "name": "Gold / oz",

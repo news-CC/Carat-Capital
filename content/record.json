@@ -1,10 +1,40 @@
 {
- "updated": "25 Jul 2026",
+ "updated": "26 Jul 2026",
  "intro": "Eight weeks of the trade, kept the way a ledger should be kept — dated, sourced, and in one place. New entries are added at the top each week; the quarter's running numbers live in the Almanac below.",
  "weeks": [
   {
    "label": "This week — July 20",
    "entries": [
+    {
+     "d": "retail-tech",
+     "h": "US jewelry sales rise 8.6% in H1 as the average ticket climbs ~19%",
+     "t": "US retail jewelry revenue rose 8.6% over the first half of 2026 and 13% year on year in June, with the average purchase price up about 19% for the half and 20% in June (Tenoris). Bracelets (+14%) and pearls led; natural-diamond unit sales fell while higher average prices held margins; lab-grown revenue grew on volume with flat average spend. Broader US retail sales rose just 0.2% in June.",
+     "s": "Tenoris / CNN"
+    },
+    {
+     "d": "retail-tech",
+     "h": "Chow Tai Fook quarterly retail sales up 15.1% on weight-based gold",
+     "t": "For the quarter to June, Chow Tai Fook's retail sales value rose 15.1% year on year; Hong Kong and Macau jumped 44.8% and the mainland 10.7%. Same-store weight-based gold jewelry rose 38% in the mainland and 63.7% in HK/Macau as softer gold revived demand, while fixed-price jewelry slipped ~1%. The group closed a net 258 mainland stores to 5,434 points of sale. Luk Fook +32%, Chow Sang Sang +16%.",
+     "s": "Chow Tai Fook / Rapaport"
+    },
+    {
+     "d": "diamonds",
+     "h": "Rio Tinto recovers 33,000 carats from the shuttered Diavik mine",
+     "t": "Rio Tinto processed 33,000 carats from Diavik's remaining ore in Q2, months after the Canadian mine closed in March 2026. Diamond output fell 97% year on year; first-half production was 1.1 million carats, down 51%. Diavik was Rio's last diamond asset, following the closure of Argyle (2020) and exit from Fort a la Corne (2023); final production and sales continue through end-2026.",
+     "s": "Rapaport / Rio Tinto"
+    },
+    {
+     "d": "diamonds",
+     "h": "Anglo names Penny consortium leading bidder for De Beers, close due by end-2026",
+     "t": "Anglo American selected the Gareth Penny-led consortium as its leading bidder for De Beers, with the sale expected to finalize by end-2026. De Beers reported an estimated first-half loss; Q2 rough sales fell 44% to $665M and the average realized price dropped 32% to $105/ct, even as production rose 88%. A two-year production pause is planned at the Venetia mine.",
+     "s": "Rapaport / Mining Weekly"
+    },
+    {
+     "d": "gold-metals",
+     "h": "Silver gains ~2% as the gold-silver ratio tightens to about 69.5 into Fed week",
+     "t": "Silver rose about 2% on Friday July 24 to roughly $58 an ounce while gold held near $4,061, compressing the gold-silver ratio to about 69.5 from 70.7 at midweek. The Federal Reserve meets July 28–29 with a hold widely expected; crude hit six-week highs on Iran and Red Sea risk, and two-year Treasury yields reached a 17-month high. Coin and bar premiums held firm.",
+     "s": "USAGOLD"
+    },
     {
      "d": "retail-tech",
      "h": "US revives tariffs on jewelry imports from ~60 countries under Section 301",
