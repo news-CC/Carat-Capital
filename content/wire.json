@@ -1,63 +1,63 @@
 {
- "date_line": "Sunday, July 26, 2026",
- "edition": "Vol. I — No. 016",
+ "date_line": "Monday, July 27, 2026",
+ "edition": "Vol. I — No. 017",
  "items": [
   {
-   "b": "US JEWELRY +8.6% IN H1",
-   "t": " — American jewelry revenue rose 8.6% over the first half and 13% in June, but the average purchase price climbed about 19–20%; tennis bracelets (+14%) and pearls led, natural-diamond units fell as prices held (Tenoris)"
+   "b": "ISRAEL'S DIAMOND CHIEF RESIGNS",
+   "t": " — Nissim Zuaretz stepped down as Israel Diamond Exchange president as first-half exports fell to $2.4 billion, the lowest on record and down from roughly $7 billion in 2015; he blamed Dubai, lab-grown and a new 10% US tariff, with an election expected in November"
   },
   {
-   "b": "CHINA COUNTERS RUN ON GOLD",
-   "t": " — Chow Tai Fook's quarterly retail sales rose 15.1%, Hong Kong and Macau up 44.8%, with weight-based gold jewelry up 63.7% there on softer prices; Luk Fook +32%, Chow Sang Sang +16%"
+   "b": "CIBJO MOVES TO SAY 'SYNTHETIC'",
+   "t": " — The world jewelry confederation expects to strike 'laboratory-grown' and 'laboratory-created' from its Blue Book and mandate 'synthetic' at its September 4 congress, joining Russia, India's BIS, the African producers and the GIA"
   },
   {
-   "b": "SILVER NARROWS THE RATIO",
-   "t": " — Silver added about 2% Friday to roughly $58 while gold held near $4,061, tightening the gold-silver ratio to about 69.5 from 70.7; the Fed meets July 28–29 with a hold widely expected"
+   "b": "SMALL STONES ACCELERATE",
+   "t": " — The RapNet 0.30ct index rose 4.2% in June, up from 2.1% in May, and 0.50ct added 1.3% while the one-carat slipped 0.7%; inventory cuts and steady US demand drive the recovery ahead of IIJS and wedding season"
   },
   {
-   "b": "ANTWERP SHORT ON GOODS",
-   "t": " — A summer shortage of polished goods in Antwerp is steering buyers toward India ahead of IIJS Premiere (Aug 6–10, Mumbai); the RapNet 0.30ct index is up 4.25% on the month as small stones lead the turn"
+   "b": "GOLD COILS FOR THE FED",
+   "t": " — Spot held the low $4,000s below $4,100 resistance into a heavy week: the FOMC decides July 28–29 with a hold at 3.50–3.75% expected, alongside second-quarter GDP and core PCE seen near 3.3%"
   },
   {
-   "b": "DIAVIK'S LAST CARATS",
-   "t": " — Rio Tinto recovered 33,000 carats from the shuttered Diavik mine's remaining ore in Q2; diamond output fell 97% year on year, H1 production 1.1M carats (−51%), with final sales running through year-end"
+   "b": "CHINA TAKES 173 TONNES",
+   "t": " — China imported about 173 tonnes of gold in June, its strongest month since March 2024, lifting first-half imports toward 820 tonnes as softer prices revived Eastern demand"
   },
   {
-   "b": "DE BEERS SALE GETS A CLOCK",
-   "t": " — Anglo American selected the Gareth Penny-led consortium as its leading bidder for De Beers and expects to finalize the sale by end-2026; a two-year production pause is planned at Venetia"
+   "b": "THE BIG THREE PULL AWAY",
+   "t": " — Morgan Stanley's Q2 read put value retention at 15.4% above retail for Patek Philippe, 9.8% for Rolex and 3.0% for Audemars Piguet; every other tracked brand sat below list, Cartier at −27.4%, Omega −32.3%"
   },
   {
-   "b": "MORE ROUGH, LESS MONEY",
-   "t": " — De Beers' Q2 rough sales fell 44% year on year to $665 million and the average realized price dropped 32% to $105 a carat, even as production rose 88%; the house reported an estimated first-half loss"
+   "b": "SEVENTY CARATS, NO RESERVE",
+   "t": " — Bonhams sells more than 300 California jewels on July 28, led by a 70-carat diamond necklace estimated to $50,000 without reserve, with pieces by Van Cleef & Arpels, Graff and Boucheron"
   },
   {
-   "b": "SWATCH HOLDS THE LINE",
-   "t": " — Swatch Group's first-half jewelry and watch sales edged up 2% to about $3.6 billion, per trade figures, as Greater China gold demand offset a soft Swiss watch secondary market"
+   "b": "GIA LIGHTS UP FLUORESCENCE",
+   "t": " — From the fourth quarter the GIA will add language separating fluorescence that changes a diamond's look from fluorescence that does not; 25–35% of diamonds fluoresce, a trait discounted since the 1990s"
   },
   {
-   "b": "OIL LIFTS THE RISK TAPE",
-   "t": " — Crude reached six-week highs on renewed US strikes on Iran and Houthi Red Sea attacks, lifting inflation expectations; two-year Treasury yields touched a 17-month high ahead of the Fed"
+   "b": "SILVER PRESSES $60",
+   "t": " — Silver held near $58 with $60 in view while platinum steadied around $1,585 after a soft week; oil and Fed nerves keep the risk tape live into Wednesday's decision"
   }
  ],
- "tape_ts": "24 Jul 2026, 4:00 p.m. ET (Fri close) · markets closed for the weekend",
+ "tape_ts": "27 Jul 2026, into the London open · Fed decides Wed. (July 28–29)",
  "tape": [
   {
    "name": "Gold / oz",
    "code": "XAU",
-   "px": "4,061.20",
-   "chg": "▲ +0.31%",
-   "dir": "up",
+   "px": "4,060.00",
+   "chg": "— little changed",
+   "dir": "flat",
    "pts": [
-    11,
-    12,
-    12,
     13,
     14,
+    14,
+    15,
+    15,
+    16,
     15,
     16,
     16,
-    17,
-    18
+    17
    ]
   },
   {
@@ -101,39 +101,39 @@
   {
    "name": "Platinum / oz",
    "code": "XPT",
-   "px": "1,574.00",
-   "chg": "▼ −1.07%",
-   "dir": "dn",
+   "px": "1,585.00",
+   "chg": "▲ +0.70%",
+   "dir": "up",
    "pts": [
-    17,
-    17,
-    16,
-    16,
-    15,
-    15,
-    14,
-    14,
     13,
-    13
+    13,
+    14,
+    14,
+    15,
+    15,
+    16,
+    16,
+    16,
+    17
    ]
   },
   {
    "name": "Silver / oz",
    "code": "XAG",
-   "px": "58.22",
-   "chg": "▲ +1.21%",
+   "px": "58.20",
+   "chg": "▲ +0.30%",
    "dir": "up",
    "pts": [
-    14,
-    14,
-    15,
-    15,
     16,
     16,
     16,
     17,
     17,
-    17
+    17,
+    17,
+    18,
+    18,
+    18
    ]
   }
  ]

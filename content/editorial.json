@@ -14885,5 +14885,942 @@
     }
    ]
   }
+ },
+ "israel-exchange-loses-its-chief": {
+  "spec": {
+   "cap": "On the record · Ramat Gan",
+   "rows": [
+    {
+     "l": "Who resigned",
+     "v": "<b>Nissim Zuaretz</b>, president, after two years"
+    },
+    {
+     "l": "H1 2026 exports",
+     "v": "<b>$2.4 billion</b> — lowest on record"
+    },
+    {
+     "l": "2015 peak",
+     "v": "roughly <b>$7 billion</b>"
+    },
+    {
+     "l": "New US tariff",
+     "v": "<b>10%</b> on diamond imports, from July 24"
+    },
+    {
+     "l": "Successor vote",
+     "v": "expected <b>November 2026</b>"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Israeli diamond exports · the long slide",
+    "rows": [
+     {
+      "l": "2015 PEAK",
+      "v": 7.0,
+      "d": "~$7.0B"
+     },
+     {
+      "l": "H1 2026",
+      "v": 2.4,
+      "d": "$2.4B",
+      "hi": true
+     }
+    ],
+    "note": "Polished diamond export value. Half-year 2026 vs. 2015 full-year peak.",
+    "cap": "The floor that took a president with it. Carat Capital graphics desk. &nbsp;CC/2026/125"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "A record-low half.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Where the trade went.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "A trade that once ran through Ramat Gan is running somewhere else.",
+     "attr": "The Diamonds Desk"
+    }
+   },
+   {
+    "sub": "The cut that compounds.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Surat eats the ten as India loads the polished",
+     "href": "a-surat-eats-the-ten.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "give the floor a reason to stay that is larger than a tax bill, or preside over the goodbye Zuaretz already named."
+  },
+  "next": {
+   "lead": {
+    "slug": "de-beers-sale-gets-a-clock",
+    "tag": "Diamonds",
+    "blurb": "Anglo's sale of De Beers gets a year-end clock."
+   },
+   "minis": [
+    {
+     "slug": "antwerp-thins-india-loads",
+     "tag": "Diamonds"
+    },
+    {
+     "slug": "surat-eats-the-ten",
+     "tag": "Diamonds"
+    }
+   ]
+  }
+ },
+ "say-synthetic-not-lab-grown": {
+  "spec": {
+   "cap": "On the record · the terminology turn",
+   "rows": [
+    {
+     "l": "Body",
+     "v": "<b>CIBJO</b> (world jewelry confederation)"
+    },
+    {
+     "l": "The change",
+     "v": "strike \"laboratory-grown\" / \"laboratory-created\""
+    },
+    {
+     "l": "New rule",
+     "v": "one term: <b>synthetic</b>"
+    },
+    {
+     "l": "Formal decision",
+     "v": "congress, <b>September 4</b>"
+    },
+    {
+     "l": "Also moved",
+     "v": "Russia, India BIS, ADPA, GIA (2025)"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Who has hardened the language",
+    "rows": [
+     {
+      "l": "RUSSIA (from Sept 1)",
+      "v": 3,
+      "d": "'synthetic', grams only"
+     },
+     {
+      "l": "ADPA (May)",
+      "v": 2,
+      "d": "same call"
+     },
+     {
+      "l": "INDIA (BIS)",
+      "v": 2,
+      "d": "standard terms"
+     },
+     {
+      "l": "GIA (2025)",
+      "v": 2,
+      "d": "updated terms"
+     },
+     {
+      "l": "CIBJO (Sept)",
+      "v": 3,
+      "d": "Blue Book",
+      "hi": true
+     }
+    ],
+    "note": "Bars mark relative reach of each rule, not a measured quantity.",
+    "cap": "The dictionary as a price list. Carat Capital graphics desk. &nbsp;CC/2026/126"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "One word, by decree.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "A coordinated push.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "That is precisely the claim lab-grown marketers have leaned on, now recast in a word the trade has historically used to mean cheaper.",
+     "attr": "The Diamonds Desk"
+    }
+   },
+   {
+    "sub": "What it costs the counter.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Sixty-one percent said lab, and meant it",
+     "href": "a-sixty-one-percent-said-lab.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "and that argument, not the carat price, is the one that has always been worth winning."
+  },
+  "next": {
+   "lead": {
+    "slug": "sixty-one-percent-said-lab",
+    "tag": "Diamonds",
+    "blurb": "Most 2025 couples chose a lab-grown center stone."
+   },
+   "minis": [
+    {
+     "slug": "lab-grown-finds-its-floor",
+     "tag": "Diamonds"
+    },
+    {
+     "slug": "surat-eats-the-ten",
+     "tag": "Diamonds"
+    }
+   ]
+  }
+ },
+ "thirties-outrun-the-ones": {
+  "strip": {
+   "cap": "By the numbers · RapNet index, June",
+   "cells": [
+    {
+     "fig": "+4.2%",
+     "delta": "▲",
+     "dir": "up",
+     "lab": "0.30ct"
+    },
+    {
+     "fig": "+1.3%",
+     "delta": "▲",
+     "dir": "up",
+     "lab": "0.50ct"
+    },
+    {
+     "fig": "−0.7%",
+     "delta": "▼",
+     "dir": "dn",
+     "lab": "1.00ct"
+    },
+    {
+     "fig": "+0.4%",
+     "delta": "▲",
+     "dir": "up",
+     "lab": "3.00ct"
+    },
+    {
+     "fig": "98.8M",
+     "lab": "ct rough, 2025 (−8%)"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "June price move by size · smalls lead",
+    "rows": [
+     {
+      "l": "0.30ct",
+      "v": 4.2,
+      "d": "+4.2%",
+      "hi": true
+     },
+     {
+      "l": "0.50ct",
+      "v": 1.3,
+      "d": "+1.3%"
+     },
+     {
+      "l": "3.00ct",
+      "v": 0.4,
+      "d": "+0.4%"
+     },
+     {
+      "l": "1.00ct",
+      "v": 0.7,
+      "d": "−0.7%"
+     }
+    ],
+    "note": "RapNet Diamond Index, month-on-month, June 2026. Bars show size, not sign.",
+    "cap": "The recovery starts small. Carat Capital graphics desk. &nbsp;CC/2026/127"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Small stones, real gains.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Scarcity, not exuberance.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "The turn is genuine, but it is running from the bottom of the scale upward, not the top down.",
+     "attr": "The Diamonds Desk"
+    }
+   },
+   {
+    "sub": "The divergence to watch.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Small stones lead the turn, again",
+     "href": "a-small-stones-lead-again.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "because if the smalls hold their gains through a restocked August, the middle of the book is next, and the middle is where the money is."
+  },
+  "next": {
+   "lead": {
+    "slug": "small-stones-lead-again",
+    "tag": "Diamonds",
+    "blurb": "The sub-carat book leads the diamond turn."
+   },
+   "minis": [
+    {
+     "slug": "antwerp-thins-india-loads",
+     "tag": "Diamonds"
+    },
+    {
+     "slug": "de-beers-sale-gets-a-clock",
+     "tag": "Diamonds"
+    }
+   ]
+  }
+ },
+ "gold-coils-for-the-fed": {
+  "strip": {
+   "cap": "By the numbers · gold into Fed week",
+   "cells": [
+    {
+     "fig": "$4,100",
+     "lab": "resistance"
+    },
+    {
+     "fig": "$4,022",
+     "lab": "first support"
+    },
+    {
+     "fig": "$3,964",
+     "lab": "triple-bottom floor"
+    },
+    {
+     "fig": "3.50–3.75%",
+     "lab": "Fed rate (hold seen)"
+    },
+    {
+     "fig": "~3.3%",
+     "lab": "core PCE, expected"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "The levels that box gold in",
+    "rows": [
+     {
+      "l": "RESISTANCE 2",
+      "v": 4173,
+      "d": "$4,173"
+     },
+     {
+      "l": "RESISTANCE 1",
+      "v": 4132,
+      "d": "$4,132"
+     },
+     {
+      "l": "THE LINE",
+      "v": 4100,
+      "d": "$4,100",
+      "hi": true
+     },
+     {
+      "l": "SUPPORT 1",
+      "v": 4022,
+      "d": "$4,022"
+     },
+     {
+      "l": "FLOOR",
+      "v": 3964,
+      "d": "$3,964"
+     }
+    ],
+    "note": "USD/oz. Technical markers into the July 28–29 FOMC.",
+    "cap": "A triangle waiting on the Fed. Carat Capital graphics desk. &nbsp;CC/2026/128"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Wound tight under $4,100.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Three prints, one week.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "Chart readers call the shape a symmetrical triangle, the kind that resolves into a decisive move rather than a drift, and this week hands it three reasons to break.",
+     "attr": "The Metals Desk"
+    }
+   },
+   {
+    "sub": "A patient physical bid.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Gold waits on the Fed",
+     "href": "a-gold-waits-on-the-fed.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "as long as $3,964 holds, gold stays the value story a nervous shopper is already buying."
+  },
+  "next": {
+   "lead": {
+    "slug": "gold-waits-on-the-fed",
+    "tag": "Gold & Metals",
+    "blurb": "Gold holds a high plateau into the July meeting."
+   },
+   "minis": [
+    {
+     "slug": "silver-narrows-the-ratio",
+     "tag": "Gold & Metals"
+    },
+    {
+     "slug": "gold-defends-four-thousand-again",
+     "tag": "Gold & Metals"
+    }
+   ]
+  }
+ },
+ "china-takes-173-tonnes": {
+  "strip": {
+   "cap": "By the numbers · China's June gold",
+   "cells": [
+    {
+     "fig": "173t",
+     "delta": "▲",
+     "dir": "up",
+     "lab": "June imports"
+    },
+    {
+     "fig": "~820t",
+     "lab": "H1 imports"
+    },
+    {
+     "fig": "Mar '24",
+     "lab": "last month this heavy"
+    },
+    {
+     "fig": "+63.7%",
+     "delta": "▲",
+     "dir": "up",
+     "lab": "CTF gold by weight, HK/Macau"
+    },
+    {
+     "fig": "+38%",
+     "delta": "▲",
+     "dir": "up",
+     "lab": "CTF gold by weight, mainland"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "East vs. West · who is buying the dip",
+    "rows": [
+     {
+      "l": "CHINA IMPORTS, JUNE",
+      "v": 173,
+      "d": "173 tonnes",
+      "hi": true
+     },
+     {
+      "l": "CHINA IMPORTS, H1 (avg/mo)",
+      "v": 137,
+      "d": "~137 t/mo"
+     }
+    ],
+    "note": "Bullion imports, tonnes. H1 monthly average implied from ~820t half.",
+    "cap": "The floor the East is pouring. Carat Capital graphics desk. &nbsp;CC/2026/129"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "A 173-tonne month.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "A split market.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "When the price sags, the East restocks.",
+     "attr": "The Metals Desk"
+    }
+   },
+   {
+    "sub": "The floor it builds.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "China weighs in on gold",
+     "href": "a-china-weighs-in-on-gold.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "the world's largest gold-buying public treats every dip as a discount, and that habit is worth more to the price than any single Fed sentence."
+  },
+  "next": {
+   "lead": {
+    "slug": "silver-narrows-the-ratio",
+    "tag": "Gold & Metals",
+    "blurb": "Silver's gain tightens the gold-silver ratio."
+   },
+   "minis": [
+    {
+     "slug": "gold-waits-on-the-fed",
+     "tag": "Gold & Metals"
+    },
+    {
+     "slug": "oil-talks-gold-listens",
+     "tag": "Gold & Metals"
+    }
+   ]
+  }
+ },
+ "the-big-three-pull-away": {
+  "strip": {
+   "cap": "By the numbers · value retention, Q2",
+   "cells": [
+    {
+     "fig": "+15.4%",
+     "delta": "▲",
+     "dir": "up",
+     "lab": "Patek Philippe"
+    },
+    {
+     "fig": "+9.8%",
+     "delta": "▲",
+     "dir": "up",
+     "lab": "Rolex"
+    },
+    {
+     "fig": "+3.0%",
+     "delta": "▲",
+     "dir": "up",
+     "lab": "Audemars Piguet"
+    },
+    {
+     "fig": "−27.4%",
+     "delta": "▼",
+     "dir": "dn",
+     "lab": "Cartier"
+    },
+    {
+     "fig": "−32.3%",
+     "delta": "▼",
+     "dir": "dn",
+     "lab": "Omega"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Above retail, below retail · the resale board",
+    "rows": [
+     {
+      "l": "PATEK PHILIPPE",
+      "v": 15.4,
+      "d": "+15.4%",
+      "hi": true
+     },
+     {
+      "l": "ROLEX",
+      "v": 9.8,
+      "d": "+9.8%"
+     },
+     {
+      "l": "AUDEMARS PIGUET",
+      "v": 3.0,
+      "d": "+3.0%"
+     },
+     {
+      "l": "CARTIER",
+      "v": 27.4,
+      "d": "−27.4%"
+     },
+     {
+      "l": "OMEGA",
+      "v": 32.3,
+      "d": "−32.3%"
+     }
+    ],
+    "note": "Value retention vs. retail, Q2 2026 (Morgan Stanley × WatchCharts). Bars show size, not sign.",
+    "cap": "Three names hold the line. Carat Capital graphics desk. &nbsp;CC/2026/130"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Three names, everyone else.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "The gap is widening.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "The premium is not to a maker so much as to a specific steel sports reference the waiting list never satisfied.",
+     "attr": "The Watches Desk"
+    }
+   },
+   {
+    "sub": "A barbell for buyers.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "List up, resale down",
+     "href": "a-list-up-resale-down.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "the badge and the reference matter more than the movement, and the resale board has been saying so for three straight quarters."
+  },
+  "next": {
+   "lead": {
+    "slug": "list-up-resale-down",
+    "tag": "Watches",
+    "blurb": "US list prices rise as the secondary market slips."
+   },
+   "minis": [
+    {
+     "slug": "swatch-nine-up-six-down",
+     "tag": "Watches"
+    },
+    {
+     "slug": "rolex-on-the-main-corridor",
+     "tag": "Watches"
+    }
+   ]
+  }
+ },
+ "seventy-carats-no-reserve": {
+  "spec": {
+   "cap": "On the block · Bonhams California, July 28",
+   "rows": [
+    {
+     "l": "Marquee lot",
+     "v": "<b>70ct</b> diamond necklace, pear/oval/marquise"
+    },
+    {
+     "l": "Estimate",
+     "v": "up to <b>$50,000</b>, no reserve"
+    },
+    {
+     "l": "1920s necklace",
+     "v": "<b>7.10ct</b> diamond, to $35,000"
+    },
+    {
+     "l": "Sapphire necklace",
+     "v": "<b>34.95ct</b> color + 4.20ct diamond, $28,000"
+    },
+    {
+     "l": "Catalogue",
+     "v": "<b>300+</b> lots; Van Cleef, Graff, Boucheron"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Top California estimates · high end",
+    "rows": [
+     {
+      "l": "70ct DIAMOND NECKLACE",
+      "v": 50,
+      "d": "$50k",
+      "hi": true
+     },
+     {
+      "l": "UNMOUNTED DIAMONDS (to)",
+      "v": 50,
+      "d": "$50k"
+     },
+     {
+      "l": "1920s 7.10ct NECKLACE",
+      "v": 35,
+      "d": "$35k"
+     },
+     {
+      "l": "SAPPHIRE + DIAMOND NECKLACE",
+      "v": 28,
+      "d": "$28k"
+     }
+    ],
+    "note": "High estimates, USD thousands. Bonhams California Jewels, July 28.",
+    "cap": "The room, not the book, sets the price. Carat Capital graphics desk. &nbsp;CC/2026/131"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "The dare in the catalogue.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Estate logic.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "Seventy carats of graded diamond for the price of a single fine solitaire is not a market on the diamonds; it is a market on the setting, the certification and the story.",
+     "attr": "The Auctions Desk"
+    }
+   },
+   {
+    "sub": "What the day sale measures.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Piaget doubles at Bonhams",
+     "href": "a-piaget-doubles-at-bonhams.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "in a no-reserve room the honest signal is not what the trophy makes but what the ordinary lots hold."
+  },
+  "next": {
+   "lead": {
+    "slug": "sothebys-thirty-one-million",
+    "tag": "Auctions",
+    "blurb": "A New York high-jewelry sale makes $31.4 million."
+   },
+   "minis": [
+    {
+     "slug": "piaget-doubles-at-bonhams",
+     "tag": "Auctions"
+    },
+    {
+     "slug": "ninety-percent-sold",
+     "tag": "Auctions"
+    }
+   ]
+  }
+ },
+ "gia-lights-up-fluorescence": {
+  "spec": {
+   "cap": "On the record · the report change",
+   "rows": [
+    {
+     "l": "Laboratory",
+     "v": "<b>GIA</b>"
+    },
+    {
+     "l": "The change",
+     "v": "language separating fluorescence that shows from fluorescence that doesn't"
+    },
+    {
+     "l": "Effective",
+     "v": "<b>Q4 2026</b>"
+    },
+    {
+     "l": "Stones affected",
+     "v": "<b>25–35%</b> fluoresce to some degree"
+    },
+    {
+     "l": "Discount tracked since",
+     "v": "<b>1993</b> (Rapaport)"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "How common is fluorescence",
+    "rows": [
+     {
+      "l": "SHOW SOME FLUORESCENCE",
+      "v": 30,
+      "d": "25–35%",
+      "hi": true
+     },
+     {
+      "l": "NONE",
+      "v": 70,
+      "d": "~65–75%"
+     }
+    ],
+    "note": "Share of diamonds exhibiting fluorescence, per GIA. Midpoint shown.",
+    "cap": "A quarter of the case, finally explained. Carat Capital graphics desk. &nbsp;CC/2026/132"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "A footnote on a discount.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Priced as a defect.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "The market long ago collapsed those two very different cases into a single penalty.",
+     "attr": "The Retail Desk"
+    }
+   },
+   {
+    "sub": "Information, not chemistry.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Seventy-three percent cheaper, and reclaiming the ring",
+     "href": "a-seventy-three-percent-cheaper.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "a diamond that glows and shows nothing for it may be the best-value stone in the case."
+  },
+  "next": {
+   "lead": {
+    "slug": "seventy-three-percent-cheaper",
+    "tag": "Retail-Tech",
+    "blurb": "Lab-grown's discount reshapes the engagement counter."
+   },
+   "minis": [
+    {
+     "slug": "china-weighs-in-on-gold",
+     "tag": "Retail-Tech"
+    },
+    {
+     "slug": "average-ticket-carries-the-half",
+     "tag": "Retail-Tech"
+    }
+   ]
+  }
  }
 }

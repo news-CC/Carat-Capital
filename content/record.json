@@ -1,9 +1,44 @@
 {
- "updated": "26 Jul 2026",
+ "updated": "27 Jul 2026",
  "intro": "Eight weeks of the trade, kept the way a ledger should be kept — dated, sourced, and in one place. New entries are added at the top each week; the quarter's running numbers live in the Almanac below.",
  "weeks": [
   {
-   "label": "This week — July 20",
+   "label": "This week — July 27",
+   "entries": [
+    {
+     "d": "diamonds",
+     "h": "Israel Diamond Exchange president resigns as exports hit a record low",
+     "t": "Nissim Zuaretz stepped down after two years as first-half 2026 diamond exports fell to $2.4 billion, the lowest on record and a fraction of the roughly $7 billion shipped at the 2015 peak. He cited dealers and goods relocating to Dubai, lab-grown competition, weak demand and a new 10% US tariff effective July 24, warning that without change the exchange could disappear. A successor election is expected in November.",
+     "s": "Ynetnews / Rapaport"
+    },
+    {
+     "d": "diamonds",
+     "h": "CIBJO expects to replace 'lab-grown' with 'synthetic'",
+     "t": "The world jewelry confederation expects to strike 'laboratory-grown' and 'laboratory-created' from its Blue Book and require 'synthetic' for man-made stones, with a formal decision at its September 4 congress. Charles Abouchar of the colored-stone commission framed the goal as protecting consumer confidence through clearer language. The move follows Russia (from September 1), the African producers (May), India's BIS and the GIA's 2025 update.",
+     "s": "Rapaport / JCK"
+    },
+    {
+     "d": "diamonds",
+     "h": "Small-diamond recovery accelerates — 0.30ct index up 4.2% in June",
+     "t": "The RapNet Diamond Index for 0.30-carat stones rose 4.2% in June, up from 2.1% in May, and half-carat goods added 1.3%, while the one-carat slipped 0.7% and three-carat edged up 0.4%. Inventory reductions, steady US retail demand and firm Hong Kong counters drove the correction; De Beers cut rough under 0.75 carats, and 2025 global rough production fell 8% to 98.8 million carats.",
+     "s": "Rapaport"
+    },
+    {
+     "d": "watches",
+     "h": "Morgan Stanley: only Patek, Rolex and AP hold value above retail",
+     "t": "The bank's Q2 read (WatchCharts, June 29) put value retention at 15.4% above retail for Patek Philippe, 9.8% for Rolex and 3.0% for Audemars Piguet, with every other tracked brand below list — Cartier −27.4%, Omega −32.3%, IWC −37.9%. Patek's Aquanaut trades ~90% over retail and the Nautilus 74%; Rolex's Oyster Perpetual 35% over. Gains remain modest outside the big three.",
+     "s": "Morgan Stanley × WatchCharts / WatchPro"
+    },
+    {
+     "d": "gold-metals",
+     "h": "China imports about 173 tonnes of gold in June",
+     "t": "China's June bullion imports reached roughly 173 tonnes, the strongest monthly inflow since March 2024, lifting first-half imports toward 820 tonnes as softer prices revived demand. The buying helped gold defend the low $4,000s into the Federal Reserve's July 28–29 meeting, which sits alongside second-quarter GDP and core PCE inflation seen near 3.3%.",
+     "s": "FX Leaders"
+    }
+   ]
+  },
+  {
+   "label": "Week of July 20",
    "entries": [
     {
      "d": "retail-tech",
