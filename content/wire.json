@@ -1,63 +1,63 @@
 {
- "date_line": "Monday, July 27, 2026",
- "edition": "Vol. I — No. 017",
+ "date_line": "Tuesday, July 28, 2026",
+ "edition": "Vol. I — No. 018",
  "items": [
   {
-   "b": "ISRAEL'S DIAMOND CHIEF RESIGNS",
-   "t": " — Nissim Zuaretz stepped down as Israel Diamond Exchange president as first-half exports fell to $2.4 billion, the lowest on record and down from roughly $7 billion in 2015; he blamed Dubai, lab-grown and a new 10% US tariff, with an election expected in November"
+   "b": "GOLD IDLES BEFORE THE FED",
+   "t": " — Spot held near $4,046 an ounce in a tight $4,021–$4,080 triangle on the eve of the decision; CME FedWatch shows a 62% chance of a hold at 3.50–3.75% and 38% of a hike, with GDP and core PCE (near 3.3%) due Thursday"
   },
   {
-   "b": "CIBJO MOVES TO SAY 'SYNTHETIC'",
-   "t": " — The world jewelry confederation expects to strike 'laboratory-grown' and 'laboratory-created' from its Blue Book and mandate 'synthetic' at its September 4 congress, joining Russia, India's BIS, the African producers and the GIA"
+   "b": "TITAN MAKES IT THREE",
+   "t": " — Titan Company's June quarter revenue rose about 41%, a third straight quarter above 40%; the Tanishq-led jewellery arm gained 39%, watches 23%, eyewear 23% and the small international business 128%"
   },
   {
-   "b": "SMALL STONES ACCELERATE",
-   "t": " — The RapNet 0.30ct index rose 4.2% in June, up from 2.1% in May, and 0.50ct added 1.3% while the one-carat slipped 0.7%; inventory cuts and steady US demand drive the recovery ahead of IIJS and wedding season"
+   "b": "WATCH TRADE SUES OVER TARIFFS",
+   "t": " — California retailer Collective Horology, with Burlap & Barrel and the Liberty Justice Center, challenged the Section 301 duties at the US Court of International Trade; Swiss watches have run at least 12.5% dearer since April 2025 and it is owed $164,000 in vacated IEEPA refunds"
   },
   {
-   "b": "GOLD COILS FOR THE FED",
-   "t": " — Spot held the low $4,000s below $4,100 resistance into a heavy week: the FOMC decides July 28–29 with a hold at 3.50–3.75% expected, alongside second-quarter GDP and core PCE seen near 3.3%"
+   "b": "QATAR OPENS A DIAMOND EXCHANGE",
+   "t": " — The Qatar Free Zones Authority launched the Qatar Diamond Exchange at Ras Bufontas, a Kimberley-compliant hub offering sorting, independent valuation, vaulting and rough and polished tenders, and a Gulf rival to Dubai"
   },
   {
-   "b": "CHINA TAKES 173 TONNES",
-   "t": " — China imported about 173 tonnes of gold in June, its strongest month since March 2024, lifting first-half imports toward 820 tonnes as softer prices revived Eastern demand"
+   "b": "THREE FANCIES, NO RESERVE",
+   "t": " — Bonhams' 300-lot California sale on July 28 offers unmounted fancy pink-purple, deep-pink and blue diamonds estimated near $35,000–$50,000, and a 70-carat diamond necklace with no reserve; Van Cleef & Arpels, Graff and Boucheron feature"
   },
   {
-   "b": "THE BIG THREE PULL AWAY",
-   "t": " — Morgan Stanley's Q2 read put value retention at 15.4% above retail for Patek Philippe, 9.8% for Rolex and 3.0% for Audemars Piguet; every other tracked brand sat below list, Cartier at −27.4%, Omega −32.3%"
+   "b": "THE BOOK BENDS TO RUBY",
+   "t": " — GemGuide raised Mozambique ruby prices sharply on demand for untreated goods and scrapped its 1–10 scale for Burma stones, pricing only four grades as fine Mogok material grows too scarce to chart"
   },
   {
-   "b": "SEVENTY CARATS, NO RESERVE",
-   "t": " — Bonhams sells more than 300 California jewels on July 28, led by a 70-carat diamond necklace estimated to $50,000 without reserve, with pieces by Van Cleef & Arpels, Graff and Boucheron"
+   "b": "IIJS FILLS EARLY",
+   "t": " — GJEPC's IIJS Premiere returns to Mumbai on August 6–10 with pre-registration past 25,000 and the first deadline extended, landing as June gems-and-jewellery exports jumped 26.5% to about $2.21 billion"
   },
   {
-   "b": "GIA LIGHTS UP FLUORESCENCE",
-   "t": " — From the fourth quarter the GIA will add language separating fluorescence that changes a diamond's look from fluorescence that does not; 25–35% of diamonds fluoresce, a trait discounted since the 1990s"
+   "b": "WHITE METALS RUN",
+   "t": " — Palladium jumped about 3.3% to roughly $1,268 and platinum 1.7% to about $1,612 on Monday, while silver held near $58.50 with $60 back in view after an intraday $60.11 earlier in the month"
   },
   {
-   "b": "SILVER PRESSES $60",
-   "t": " — Silver held near $58 with $60 in view while platinum steadied around $1,585 after a soft week; oil and Fed nerves keep the risk tape live into Wednesday's decision"
+   "b": "SMALL STONES STILL FIRM",
+   "t": " — The recovery in 0.30–0.69ct rounds continued in Rapaport's latest market comment, with steady US demand and trimmed inventories supporting prices into IIJS and the wedding season"
   }
  ],
- "tape_ts": "27 Jul 2026, into the London open · Fed decides Wed. (July 28–29)",
+ "tape_ts": "28 Jul 2026, into the New York open · Fed decides Wed. (July 29)",
  "tape": [
   {
    "name": "Gold / oz",
    "code": "XAU",
-   "px": "4,060.00",
-   "chg": "— little changed",
+   "px": "4,046.00",
+   "chg": "— easing before the Fed",
    "dir": "flat",
    "pts": [
-    13,
+    16,
+    16,
+    15,
+    15,
+    16,
+    15,
+    15,
     14,
     14,
-    15,
-    15,
-    16,
-    15,
-    16,
-    16,
-    17
+    14
    ]
   },
   {
@@ -101,8 +101,8 @@
   {
    "name": "Platinum / oz",
    "code": "XPT",
-   "px": "1,585.00",
-   "chg": "▲ +0.70%",
+   "px": "1,610.00",
+   "chg": "▲ +1.70%",
    "dir": "up",
    "pts": [
     13,
@@ -113,23 +113,23 @@
     15,
     16,
     16,
-    16,
+    17,
     17
    ]
   },
   {
    "name": "Silver / oz",
    "code": "XAG",
-   "px": "58.20",
-   "chg": "▲ +0.30%",
-   "dir": "up",
+   "px": "58.40",
+   "chg": "— $60 in view",
+   "dir": "flat",
    "pts": [
-    16,
-    16,
-    16,
     17,
     17,
     17,
+    18,
+    18,
+    18,
     17,
     18,
     18,

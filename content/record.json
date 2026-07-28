@@ -1,10 +1,40 @@
 {
- "updated": "27 Jul 2026",
+ "updated": "28 Jul 2026",
  "intro": "Eight weeks of the trade, kept the way a ledger should be kept — dated, sourced, and in one place. New entries are added at the top each week; the quarter's running numbers live in the Almanac below.",
  "weeks": [
   {
    "label": "This week — July 27",
    "entries": [
+    {
+     "d": "gold-metals",
+     "h": "Gold idles near $4,046 on the eve of the Fed decision",
+     "t": "Spot gold traded in a tight $4,021–$4,080 range into the July 28–29 FOMC, with CME FedWatch pricing a 62% chance of a hold at 3.50–3.75% and 38% of a quarter-point hike, and roughly 81% odds of a September move. Second-quarter GDP, personal income and spending, and core PCE near 3.3% follow on Thursday. Palladium jumped ~3.3% and platinum ~1.7% on Monday; silver held near $58.50 with $60 in view.",
+     "s": "FX Leaders / Kitco"
+    },
+    {
+     "d": "retail-tech",
+     "h": "Titan's June quarter revenue rises about 41% — a third straight 40%-plus",
+     "t": "Titan Company reported roughly 41% revenue growth for the quarter to June 2026, its third consecutive quarter above 40%. The jewellery division (Tanishq, Mia, CaratLane) grew about 39% with plain and studded each up in the mid-thirties and strong coin demand; watches rose 23% (analogue high-twenties, smart watches down low-teens), eyewear 23%, emerging businesses 19% and the international business 128%. Buyer growth was in the early double digits while average ticket sizes rose in the high double digits amid stable gold prices.",
+     "s": "Goodreturns / Indian Retailer"
+    },
+    {
+     "d": "watches",
+     "h": "Collective Horology takes the US tariffs to the Court of International Trade",
+     "t": "The California watch retailer, joined by spice importer Burlap & Barrel and backed by the Liberty Justice Center, sued to challenge the Section 301 duties, arguing the US Trade Representative applied a near-uniform tariff across dozens of countries without the country-by-country analysis the 1974 Trade Act requires. Swiss watch imports have run at least 12.5% more expensive since April 2025; Collective says it is owed more than $164,000 in refunds from the vacated IEEPA tariffs, on top of Section 122 and 301 duties paid.",
+     "s": "WatchPro"
+    },
+    {
+     "d": "diamonds",
+     "h": "Qatar launches its first diamond exchange at Ras Bufontas",
+     "t": "The Qatar Free Zones Authority launched the Qatar Diamond Exchange, a Kimberley Process-compliant hub near Doha offering trading licences, on-site sorting and independent valuation, secure vaulting, specialist insurance and participation in rough and polished tenders. Qatar became a full KP member in 2021 and in 2025 named the free-zone authority the sole authorized entry and exit point for rough. CEO Sheikh Mohammed Bin Hamad Bin Faisal Al-Thani framed it as bringing the full value chain into one regulated ecosystem — a Gulf rival to Dubai's record $41.7 billion 2025 trade.",
+     "s": "Rapaport / Euronews"
+    },
+    {
+     "d": "gemstones",
+     "h": "GemGuide lifts Mozambique ruby prices and regrades Burma stones",
+     "t": "The colored-stone pricing service raised Mozambique ruby prices sharply on strong demand for unenhanced, untreated material sold by tender, and abandoned its traditional one-to-ten scale for unenhanced Burmese ruby, pricing only four grades — Middle Commercial, Lower Good, Upper Fine and Upper Extra Fine. Research director Stuart Robertson said fine Mogok material is now so scarce that availability matters more than price. The revisions are live in the app and appear in the July–August issue.",
+     "s": "National Jeweler"
+    },
     {
      "d": "diamonds",
      "h": "Israel Diamond Exchange president resigns as exports hit a record low",

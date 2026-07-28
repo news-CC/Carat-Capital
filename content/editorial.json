@@ -15822,5 +15822,932 @@
     }
    ]
   }
+ },
+ "gold-idles-into-the-fed": {
+  "strip": {
+   "cap": "By the numbers · gold on Fed eve",
+   "cells": [
+    {
+     "fig": "$4,046",
+     "lab": "spot, Tuesday"
+    },
+    {
+     "fig": "$4,021",
+     "lab": "triangle support"
+    },
+    {
+     "fig": "$4,080",
+     "lab": "triangle resistance"
+    },
+    {
+     "fig": "62%",
+     "lab": "odds of a hold"
+    },
+    {
+     "fig": "38%",
+     "lab": "odds of a hike"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "The rails that box gold in",
+    "rows": [
+     {
+      "l": "RESISTANCE",
+      "v": 4133,
+      "d": "$4,133"
+     },
+     {
+      "l": "CEILING",
+      "v": 4080,
+      "d": "$4,080",
+      "hi": true
+     },
+     {
+      "l": "SPOT",
+      "v": 4046,
+      "d": "$4,046"
+     },
+     {
+      "l": "SUPPORT",
+      "v": 4021,
+      "d": "$4,021"
+     },
+     {
+      "l": "FLOOR",
+      "v": 3964,
+      "d": "$3,964"
+     }
+    ],
+    "note": "USD/oz. Technical markers into the July 28–29 FOMC.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/133"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Wound tight, going nowhere.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "A genuinely two-sided meeting.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "A hold is still the base case; it is no longer the only case.",
+     "attr": "The Bullion Desk"
+    }
+   },
+   {
+    "sub": "The floor is the story.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "China takes 173 tonnes",
+     "href": "a-china-takes-173-tonnes.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "The level to watch is not the ceiling but the floor — hold $3,964 and gold stays the value story a cautious buyer is already choosing; lose it and the summer's calm ends in a hurry."
+  },
+  "next": {
+   "lead": {
+    "slug": "silver-eyes-sixty",
+    "tag": "White metals",
+    "blurb": "Palladium jumps, platinum firms, silver eyes $60."
+   },
+   "minis": [
+    {
+     "slug": "china-takes-173-tonnes",
+     "tag": "Demand"
+    },
+    {
+     "slug": "gold-coils-for-the-fed",
+     "tag": "Setup"
+    }
+   ]
+  }
+ },
+ "silver-eyes-sixty": {
+  "strip": {
+   "cap": "By the numbers · the white metals",
+   "cells": [
+    {
+     "fig": "~$58.5",
+     "lab": "silver / oz"
+    },
+    {
+     "fig": "$60",
+     "delta": "in view",
+     "dir": "up",
+     "lab": "silver's next line"
+    },
+    {
+     "fig": "+3.3%",
+     "dir": "up",
+     "lab": "palladium, Monday"
+    },
+    {
+     "fig": "$1,612",
+     "lab": "platinum / oz"
+    },
+    {
+     "fig": "+51%",
+     "dir": "up",
+     "lab": "silver, year on year"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "A year in the white metals",
+    "rows": [
+     {
+      "l": "SILVER",
+      "v": 51,
+      "d": "+51%",
+      "hi": true
+     },
+     {
+      "l": "PLATINUM",
+      "v": 14,
+      "d": "+14%"
+     }
+    ],
+    "note": "Approximate change, year on year.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/134"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Gold idles; the whites move.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Firm metal, soft showroom.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "Gold gets the headlines this week, but the money in motion is in the white metals.",
+     "attr": "The Metals Desk"
+    }
+   },
+   {
+    "sub": "The Fed sets the whole board.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Platinum, short a fourth year",
+     "href": "a-platinum-short-a-fourth-year.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "It is the metal with the least room to hide, the most industrial leverage, and the round number — $60 — that a nervous market will treat as a verdict."
+  },
+  "next": {
+   "lead": {
+    "slug": "gold-idles-into-the-fed",
+    "tag": "The decision",
+    "blurb": "Gold coils under $4,050 as the Fed splits the room."
+   },
+   "minis": [
+    {
+     "slug": "platinum-short-a-fourth-year",
+     "tag": "Deficit"
+    },
+    {
+     "slug": "silver-narrows-the-ratio",
+     "tag": "Ratio"
+    }
+   ]
+  }
+ },
+ "titan-makes-it-three": {
+  "strip": {
+   "cap": "By the numbers · Titan Q1 FY27",
+   "cells": [
+    {
+     "fig": "+41%",
+     "dir": "up",
+     "lab": "group revenue"
+    },
+    {
+     "fig": "+39%",
+     "dir": "up",
+     "lab": "jewellery"
+    },
+    {
+     "fig": "+23%",
+     "dir": "up",
+     "lab": "watches"
+    },
+    {
+     "fig": "+23%",
+     "dir": "up",
+     "lab": "eyewear"
+    },
+    {
+     "fig": "3rd",
+     "lab": "quarter above 40%"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Where Titan grew",
+    "rows": [
+     {
+      "l": "INTERNATIONAL",
+      "v": 128,
+      "d": "+128%"
+     },
+     {
+      "l": "JEWELLERY",
+      "v": 39,
+      "d": "+39%",
+      "hi": true
+     },
+     {
+      "l": "WATCHES",
+      "v": 23,
+      "d": "+23%"
+     },
+     {
+      "l": "EYEWEAR",
+      "v": 23,
+      "d": "+23%"
+     },
+     {
+      "l": "EMERGING",
+      "v": 19,
+      "d": "+19%"
+     }
+    ],
+    "note": "Segment revenue growth, year on year, June quarter.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/135"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "A third 40-percent quarter.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Fewer buyers, dearer tickets.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "It is the fewer-but-dearer pattern that has defined jewelry from New York to Hong Kong this year, stated in the numbers of a company that sells to the Indian middle class at scale.",
+     "attr": "The Retail Desk"
+    }
+   },
+   {
+    "sub": "The gold it all rests on.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "India buys the dip",
+     "href": "a-india-buys-the-dip.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "Volume is grinding, price is soaring, and the business that wins is the one big enough to sell coins to savers and solitaires to brides in the same quarter."
+  },
+  "next": {
+   "lead": {
+    "slug": "average-ticket-carries-the-half",
+    "tag": "The pattern",
+    "blurb": "Fewer buyers, dearer tickets — the year in one line."
+   },
+   "minis": [
+    {
+     "slug": "india-buys-the-dip",
+     "tag": "India"
+    },
+    {
+     "slug": "china-weighs-in-on-gold",
+     "tag": "Asia"
+    }
+   ]
+  }
+ },
+ "the-watch-trade-sues": {
+  "spec": {
+   "cap": "The case, in brief",
+   "rows": [
+    {
+     "l": "Plaintiffs",
+     "v": "Collective Horology, with Burlap & Barrel"
+    },
+    {
+     "l": "Backer",
+     "v": "Liberty Justice Center"
+    },
+    {
+     "l": "Court",
+     "v": "US Court of International Trade"
+    },
+    {
+     "l": "Target",
+     "v": "Section 301 duties, <b>1974 Trade Act</b>"
+    },
+    {
+     "l": "Swiss impact",
+     "v": "imports <b>&ge;12.5%</b> dearer since Apr 2025"
+    },
+    {
+     "l": "Refunds owed",
+     "v": "<b>$164,000+</b> in vacated IEEPA duties"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "US import-duty bands in force",
+    "rows": [
+     {
+      "l": "CANADA (goods)",
+      "v": 50,
+      "d": "50%"
+     },
+     {
+      "l": "CHINA / UAE band",
+      "v": 12.5,
+      "d": "12.5%",
+      "hi": true
+     },
+     {
+      "l": "INDIA / UK band",
+      "v": 10,
+      "d": "10%"
+     }
+    ],
+    "note": "Selected 2026 duty bands the complaint sits against.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/136"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "From the invoice to the court.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "A procedural argument.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "It is the first time a watch retailer has tried to overturn the tariff regime rather than simply pay it.",
+     "attr": "The Watches Desk"
+    }
+   },
+   {
+    "sub": "Nowhere to reroute.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "The tariff wall returns",
+     "href": "a-tariff-wall-returns.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "the tariff wall that has quietly repriced the American watch counter starts to look less permanent than the trade has been forced to assume."
+  },
+  "next": {
+   "lead": {
+    "slug": "tariff-wall-returns",
+    "tag": "The duties",
+    "blurb": "The Section 301 bands that reset the counter."
+   },
+   "minis": [
+    {
+     "slug": "list-up-resale-down",
+     "tag": "Prices"
+    },
+    {
+     "slug": "the-big-three-pull-away",
+     "tag": "Value"
+    }
+   ]
+  }
+ },
+ "three-fancies-no-reserve": {
+  "strip": {
+   "cap": "By the numbers · the California sale",
+   "cells": [
+    {
+     "fig": "300+",
+     "lab": "lots, Tuesday"
+    },
+    {
+     "fig": "1.01ct",
+     "lab": "fancy pink-purple"
+    },
+    {
+     "fig": "$50k",
+     "lab": "top color estimate"
+    },
+    {
+     "fig": "70ct",
+     "lab": "necklace, no reserve"
+    },
+    {
+     "fig": "$28k",
+     "lab": "sapphire necklace est."
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "The lots, by high estimate",
+    "rows": [
+     {
+      "l": "PINK-PURPLE 1.01ct",
+      "v": 50,
+      "d": "$50k",
+      "hi": true
+     },
+     {
+      "l": "DEEP PINK 1.64ct",
+      "v": 35,
+      "d": "$35k"
+     },
+     {
+      "l": "HEART BLUE 0.53ct",
+      "v": 35,
+      "d": "$35k"
+     },
+     {
+      "l": "1920s NECKLACE",
+      "v": 35,
+      "d": "$35k"
+     },
+     {
+      "l": "SAPPHIRE NECKLACE",
+      "v": 28,
+      "d": "$28k"
+     }
+    ],
+    "note": "Upper estimates, USD thousands. Bonhams California, July 28.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/137"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "The smallest lots say the most.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "A necklace with no floor.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "No-reserve lots and conservative valuations are how a house generates competition and clears estate material in a cautious market: set the bar low, let the room find the price.",
+     "attr": "The Auctions Desk"
+    }
+   },
+   {
+    "sub": "Paying for the unmanufacturable.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Seventy carats, no reserve",
+     "href": "a-seventy-carats-no-reserve.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "a lot with no floor prints whatever the market truly thinks a 70-carat necklace is worth on a Tuesday in July — and that figure will say more about the mid-market than any record would."
+  },
+  "next": {
+   "lead": {
+    "slug": "seventy-carats-no-reserve",
+    "tag": "The preview",
+    "blurb": "The 70-carat necklace, before the hammer."
+   },
+   "minis": [
+    {
+     "slug": "sothebys-thirty-one-million",
+     "tag": "June"
+    },
+    {
+     "slug": "piaget-doubles-at-bonhams",
+     "tag": "Bonhams"
+    }
+   ]
+  }
+ },
+ "doha-opens-a-diamond-door": {
+  "spec": {
+   "cap": "The exchange, in brief",
+   "rows": [
+    {
+     "l": "Operator",
+     "v": "Qatar Free Zones Authority (QFZ)"
+    },
+    {
+     "l": "Home",
+     "v": "Ras Bufontas free zone, Doha"
+    },
+    {
+     "l": "Compliance",
+     "v": "Kimberley Process, member since <b>2021</b>"
+    },
+    {
+     "l": "For members",
+     "v": "licences, sorting, valuation, vaulting, tenders"
+    },
+    {
+     "l": "The rival",
+     "v": "Dubai — <b>$41.7B</b> traded in 2025"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "A giant and a newborn",
+    "rows": [
+     {
+      "l": "DUBAI (2025)",
+      "v": 41.7,
+      "d": "$41.7B",
+      "hi": true
+     },
+     {
+      "l": "DOHA (day one)",
+      "v": 0.2,
+      "d": "opens"
+     }
+    ],
+    "note": "Annual diamond trade. Doha starts from zero.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/138"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "A hub with ambition.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "The plumbing is real.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "A new exchange can offer better terms, but volume follows trust, and trust in this trade is measured in decades, not incentives.",
+     "attr": "The Diamonds Desk"
+    }
+   },
+   {
+    "sub": "Liquidity follows trust.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Antwerp thins, India loads",
+     "href": "a-antwerp-thins-india-loads.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "Qatar has built the room and written the rules; now it has to give the trade a reason to walk in rather than fly on to Dubai."
+  },
+  "next": {
+   "lead": {
+    "slug": "antwerp-thins-india-loads",
+    "tag": "The routes",
+    "blurb": "Where the tariff map sends the stones now."
+   },
+   "minis": [
+    {
+     "slug": "india-ships-the-turn",
+     "tag": "India"
+    },
+    {
+     "slug": "de-beers-sale-gets-a-clock",
+     "tag": "Supply"
+    }
+   ]
+  }
+ },
+ "the-guide-marks-ruby-up": {
+  "spec": {
+   "cap": "What changed in the book",
+   "rows": [
+    {
+     "l": "Source",
+     "v": "GemGuide, the trade's pricing service"
+    },
+    {
+     "l": "Mozambique",
+     "v": "prices raised <b>sharply</b> on untreated demand"
+    },
+    {
+     "l": "Burma",
+     "v": "10-point scale cut to <b>4 grades</b>"
+    },
+    {
+     "l": "The grades",
+     "v": "Middle Commercial · Lower Good · Upper Fine · Upper Extra Fine"
+    },
+    {
+     "l": "Live",
+     "v": "app now; print in the <b>Jul–Aug</b> issue"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Burma ruby, regraded",
+    "rows": [
+     {
+      "l": "UPPER EXTRA FINE",
+      "v": 10,
+      "d": "Grade 10",
+      "hi": true
+     },
+     {
+      "l": "UPPER FINE",
+      "v": 8,
+      "d": "Grade 8"
+     },
+     {
+      "l": "LOWER GOOD",
+      "v": 5,
+      "d": "Grade 5"
+     },
+     {
+      "l": "MIDDLE COMMERCIAL",
+      "v": 3,
+      "d": "Grade 3"
+     }
+    ],
+    "note": "The only four grades GemGuide now prices for unenhanced Burma ruby.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/139"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "The book changes shape.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Too scarce to grade.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "When the reference book changes shape, the market has already moved.",
+     "attr": "The Color Desk"
+    }
+   },
+   {
+    "sub": "Origin over size.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Emeralds hold at $146",
+     "href": "a-emeralds-hold-at-146.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "When the guide stops grading a stone the old way, it is telling you the supply, not the demand, is the thing that broke."
+  },
+  "next": {
+   "lead": {
+    "slug": "emeralds-hold-at-146",
+    "tag": "Color",
+    "blurb": "Gemfields' emeralds hold their price."
+   },
+   "minis": [
+    {
+     "slug": "sixty-six-dollars-a-carat",
+     "tag": "Ruby"
+    },
+    {
+     "slug": "twelve-point-five-for-color",
+     "tag": "Tariff"
+    }
+   ]
+  }
+ },
+ "india-fills-the-hall": {
+  "strip": {
+   "cap": "By the numbers · IIJS Premiere",
+   "cells": [
+    {
+     "fig": "Aug 6–10",
+     "lab": "Mumbai show"
+    },
+    {
+     "fig": "25,000+",
+     "lab": "pre-registered"
+    },
+    {
+     "fig": "+26.5%",
+     "dir": "up",
+     "lab": "June exports, y/y"
+    },
+    {
+     "fig": "+54.5%",
+     "dir": "up",
+     "lab": "gold jewellery exports"
+    },
+    {
+     "fig": "10%",
+     "lab": "new US duty, Jul 24"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "India's June export tape",
+    "rows": [
+     {
+      "l": "GOLD JEWELLERY",
+      "v": 54.5,
+      "d": "+54.5%",
+      "hi": true
+     },
+     {
+      "l": "TOTAL EXPORTS",
+      "v": 26.5,
+      "d": "+26.5%"
+     },
+     {
+      "l": "CUT & POLISHED",
+      "v": 8.7,
+      "d": "+8.7%"
+     }
+    ],
+    "note": "Year-on-year change, June 2026. GJEPC.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/140"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Voting with their badges.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "A restart, not a boom.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "For a domestic industry that spent the spring absorbing tariff shocks, an early sell-out of visitor slots is its own kind of forecast.",
+     "attr": "The Diamonds Desk"
+    }
+   },
+   {
+    "sub": "A hedge against the duty.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Surat eats the ten",
+     "href": "a-surat-eats-the-ten.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "the tickets written between August 6 and 10, against a live US tariff and a soft rough market, will show whether India's recovery is broad enough to survive the loss of a little American duty-free room."
+  },
+  "next": {
+   "lead": {
+    "slug": "surat-eats-the-ten",
+    "tag": "The duty",
+    "blurb": "India's cutters absorb a 10% US tariff."
+   },
+   "minis": [
+    {
+     "slug": "doha-opens-a-diamond-door",
+     "tag": "Gulf"
+    },
+    {
+     "slug": "thirties-outrun-the-ones",
+     "tag": "Prices"
+    }
+   ]
+  }
  }
 }

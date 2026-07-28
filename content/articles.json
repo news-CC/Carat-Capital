@@ -1,9 +1,266 @@
 [
  {
+  "slug": "gold-idles-into-the-fed",
+  "desk": "gold-metals",
+  "date": "2026-07-28",
+  "lead": true,
+  "kicker": "Gold & Metals Desk · New York",
+  "minutes": 4,
+  "byline": "The Bullion Desk",
+  "tags": [
+   "STAKES",
+   "NUM"
+  ],
+  "title": "Gold idles at $4,046 as the Fed splits the room",
+  "dek": "Spot sits in a $4,021–$4,080 triangle on the eve of the July 29 decision. Futures price a 62% hold at 3.50–3.75% but a 38% hike, and 81% odds of a September move.",
+  "body": [
+   "Gold spent the eve of the Federal Reserve's decision going almost nowhere, and that stillness is the story. Spot traded near $4,046 an ounce on Tuesday, boxed inside a symmetrical triangle between roughly $4,021 in support and $4,080 in resistance, with the market unwilling to commit a dollar in either direction until Wednesday afternoon. Beneath the near-term floor sit the familiar markers at $3,964 and $3,914; above the ceiling, $4,133, $4,173 and $4,220.",
+   "What makes this meeting different from the last several is that the outcome is genuinely in doubt. CME FedWatch put the odds of a hold at the current 3.50–3.75% at about 62 percent, leaving a full 38 percent chance of a quarter-point hike — an unusually two-sided read for a decision day. Further out, futures assign roughly 81 percent odds to a move by September. A hold is still the base case; it is no longer the only case.",
+   "The data does not stop at the rate. Second-quarter GDP, personal income and spending, and core PCE — the Fed's preferred inflation gauge, seen near 3.3 percent — all land on Thursday, which means the decision and the numbers that justify or undercut it arrive within forty-eight hours of each other. Softer oil, as tension around Iran eased, has taken some heat out of the inflation argument and let Treasury yields drift lower into the print.",
+   "For the jewelry trade the mechanics matter more than the drama. A hold paired with cautious language keeps gold in its plateau and lets manufacturers hold the $4,000-plus planning price they have already redesigned mountings around. A surprise hike, or a hold read as hawkish, would lift yields and press bullion toward the lower rails of the triangle — testing whether the physical bid from Asia and central banks is deep enough to catch it.",
+   "The desk's view: a coil this tight into three top-tier prints does not resolve gently, so the counter should plan for a move, not a drift. The level to watch is not the ceiling but the floor — hold $3,964 and gold stays the value story a cautious buyer is already choosing; lose it and the summer's calm ends in a hurry."
+  ],
+  "sources": [
+   {
+    "title": "Gold Price Forecast Today: XAU/USD Tests $4,020 Support Ahead of Fed Decision — FX Leaders",
+    "url": "https://www.fxleaders.com/news/2026/07/28/gold-price-forecast-today-xauusd-tests-dollar4020-support-ahead-of-fed-decision-july-28/"
+   },
+   {
+    "title": "Gold Spot Prices — Kitco",
+    "url": "https://www.kitco.com/price/precious-metals"
+   }
+  ]
+ },
+ {
+  "slug": "silver-eyes-sixty",
+  "desk": "gold-metals",
+  "date": "2026-07-28",
+  "lead": false,
+  "kicker": "Gold & Metals Desk · New York",
+  "minutes": 3,
+  "byline": "The Metals Desk",
+  "tags": [
+   "VS",
+   "NUM"
+  ],
+  "title": "Silver eyes $60 as palladium jumps and platinum firms",
+  "dek": "While gold idles, the white metals move: palladium added 3.3% and platinum 1.7% on Monday to about $1,268 and $1,612, and silver near $58 keeps $60 in view — up more than 50% on the year.",
+  "body": [
+   "Gold gets the headlines this week, but the money in motion is in the white metals. On Monday palladium jumped about 3.3 percent to roughly $1,268 an ounce and platinum added 1.7 percent to about $1,612, while silver held near $58.50 with $60 back in sight after touching $60.11 intraday earlier in the month. Silver now sits more than 50 percent above where it traded a year ago; platinum is up about 14 percent on the same basis.",
+   "The moves cut against the metals' own fundamentals in interesting ways. The World Platinum Investment Council still forecasts a fourth straight platinum deficit for 2026, but it also sees jewelry demand for the metal falling 12 percent on the year — so the firmness is coming from industrial use and bar-and-coin investment, not from the counter. Platinum jewelry is cheap against gold; the metal is expensive against its own showroom.",
+   "Silver is the one the workshop feels directly. A push toward $60 lifts the cost of every silver finding, chain and fashion piece at exactly the moment gold's price has driven shoppers toward lighter, lower-karat and silver alternatives. The gold-silver ratio has compressed toward the high 60s from above 70, the market's way of saying silver has been the stronger horse this summer.",
+   "None of it happens in isolation. The same Fed meeting that pins gold will set the tone for the whole complex on Wednesday, and the white metals — thinner, more volatile, more exposed to industrial sentiment — tend to move further on the news than bullion does. The tape into the decision is quiet at the top and restless underneath.",
+   "The desk's view: watch silver, not gold, for the first real tell after the Fed. It is the metal with the least room to hide, the most industrial leverage, and the round number — $60 — that a nervous market will treat as a verdict."
+  ],
+  "sources": [
+   {
+    "title": "Gold, Silver, Platinum, Palladium spot prices — Kitco",
+    "url": "https://www.kitco.com/price/precious-metals"
+   },
+   {
+    "title": "Platinum — Price, Chart, Historical Data — Trading Economics",
+    "url": "https://tradingeconomics.com/commodity/platinum"
+   },
+   {
+    "title": "WPIC Platinum Quarterly — fourth straight deficit for 2026",
+    "url": "https://platinuminvestment.com/supply-and-demand/platinum-quarterly"
+   }
+  ]
+ },
+ {
+  "slug": "titan-makes-it-three",
+  "desk": "retail-tech",
+  "date": "2026-07-28",
+  "lead": false,
+  "kicker": "Retail-Tech Desk · Bengaluru",
+  "minutes": 4,
+  "byline": "The Retail Desk",
+  "tags": [
+   "ACTOR",
+   "NUM"
+  ],
+  "title": "Titan makes it three: revenue up 41% on India's gold counter",
+  "dek": "The Tanishq owner's June quarter grew 41 percent — a third straight quarter above 40 — with jewellery up 39, watches 23 and eyewear 23. Buyers rose in the early double digits; the average ticket rose far faster.",
+  "body": [
+   "India's largest branded jeweller keeps printing the same remarkable number. Titan Company reported roughly 41 percent revenue growth for the June quarter, its third consecutive quarter above 40 percent, powered by a jewellery division — Tanishq, Mia and CaratLane — that grew about 39 percent. Plain and studded pieces each rose in the mid-thirties, and gold coins sold strongly on investment demand as buyers treated the metal as savings as much as adornment.",
+   "The texture beneath the headline is the story the whole trade is living. Titan said buyer growth came in at early double digits while average ticket sizes rose in the high double digits — more customers, yes, but each spending markedly more, against a backdrop of relatively stable gold prices through April to June. It is the fewer-but-dearer pattern that has defined jewelry from New York to Hong Kong this year, stated in the numbers of a company that sells to the Indian middle class at scale.",
+   "The other divisions kept pace. Watches and wearables grew about 23 percent, with analogue watches up in the high twenties on premiumisation even as smart watches slipped in the low teens. Eyewear rose 23 percent, and the emerging businesses — fragrances and women's bags among them — grew 19 percent together. The international business, still small, expanded 128 percent as Tanishq pushed into North America and the Gulf.",
+   "Stable gold did the heavy lifting. Festive buying around Akshaya Tritiya, the spring gold-buying festival, arrived into a metal that was not lurching day to day, and Indian shoppers who postpone when prices spike showed up when they did not. That is the quiet dependency in every one of these results: the counter needs gold expensive enough to feel like value and calm enough to feel safe.",
+   "The desk's view: Titan is the cleanest read on the Indian consumer the trade has, and it is saying the same thing as the West in a different accent. Volume is grinding, price is soaring, and the business that wins is the one big enough to sell coins to savers and solitaires to brides in the same quarter."
+  ],
+  "sources": [
+   {
+    "title": "Titan Co Ltd Q1 FY27 revenue rises 41% on jewellery, watches, eyewear — Goodreturns",
+    "url": "https://www.goodreturns.in/news/titan-co-ltd-q1-fy27-revenue-up-41-percent-jewellery-watches-eyewear-011-1520381.html"
+   },
+   {
+    "title": "Titan Q1 FY27 Revenue Rises 41 Pc on Strong Jewellery Demand — Indian Retailer",
+    "url": "https://www.indianretailer.com/news/titan-q1-fy27-revenue-rises-41-pc-strong-jewellery-demand"
+   }
+  ]
+ },
+ {
+  "slug": "the-watch-trade-sues",
+  "desk": "watches",
+  "date": "2026-07-28",
+  "lead": false,
+  "kicker": "Watches Desk · Los Angeles",
+  "minutes": 4,
+  "byline": "The Watches Desk",
+  "tags": [
+   "ACTOR",
+   "STAKES",
+   "VS"
+  ],
+  "title": "A watch retailer takes the tariffs to court",
+  "dek": "California's Collective Horology sued the US over the Section 301 duties that have made Swiss watches at least 12.5 percent dearer since April 2025, arguing Washington skipped the country-by-country analysis the law requires.",
+  "body": [
+   "The watch trade has taken its tariff fight from the invoice to the courtroom. Collective Horology, a California independent that sells and makes watches, filed suit at the US Court of International Trade challenging the Section 301 duties layered onto imports this year, joined by the spice importer Burlap & Barrel and backed by the Liberty Justice Center. It is the first time a watch retailer has tried to overturn the tariff regime rather than simply pay it.",
+   "The legal argument is procedural, and pointed. The complaint says the US Trade Representative applied a near-uniform tariff across dozens of countries without the country-by-country investigation the Trade Act of 1974 requires. USTR applied a uniform tariff to nearly every country, co-founder Asher Rapkin said, arguing the government skipped the work the statute demands. The relief sought is a block on enforcement and the preservation of importers' right to claw duties back if the measures are struck down.",
+   "The dollars behind the principle are real. Collective says Swiss watch imports have run at least 12.5 percent more expensive since April 2025, and that it is owed more than $164,000 in refunds from the earlier IEEPA tariffs the Supreme Court has already vacated — money still not returned — on top of what it has paid under Section 122 and now Section 301. For a small importer, that is not an accounting footnote; it is working capital.",
+   "The case lands into a trade already doing the tariff arithmetic daily. New duties of 10 and 12.5 percent took effect on jewelry, stones and metals from some sixty countries on July 24, stacking onto country measures that reach 50 percent on Canada. Swiss watches, sourced from a single high-cost country, have nowhere to reroute — which is precisely why a Swiss-heavy retailer is the one testing the policy in court.",
+   "The desk's view: the outcome matters far beyond one California showroom. If the court agrees the process was defective, the refund door reopens for every importer who kept its receipts — and the tariff wall that has quietly repriced the American watch counter starts to look less permanent than the trade has been forced to assume."
+  ],
+  "sources": [
+   {
+    "title": "Collective Horology Takes Trump Tariff Fight To Court Over Soaring Watch Costs — WatchPro",
+    "url": "https://www.watchpro.com/collective-horology-takes-trump-tariff-fight-to-court-over-soaring-watch-costs/"
+   },
+   {
+    "title": "New US tariffs on jewelry, diamonds and gemstones — National Jeweler",
+    "url": "https://nationaljeweler.com/articles/industry"
+   }
+  ]
+ },
+ {
+  "slug": "three-fancies-no-reserve",
+  "desk": "auctions",
+  "date": "2026-07-28",
+  "lead": false,
+  "kicker": "Auctions Desk · Los Angeles",
+  "minutes": 4,
+  "byline": "The Auctions Desk",
+  "tags": [
+   "GAP",
+   "NUM"
+  ],
+  "title": "Three fancy-color diamonds go up with no reserve",
+  "dek": "Bonhams' 300-lot California sale on Tuesday sets modest estimates on serious color — a pink-purple oval, a deep pink and a heart-shaped blue, each topping near $35,000–$50,000 — and lets a 70-carat necklace sell with no floor at all.",
+  "body": [
+   "Bonhams brings more than three hundred jewels to the block in California on Tuesday, and the most telling lots are the smallest. Three unmounted fancy-color diamonds anchor the sale: a 1.01-carat oval fancy pink-purple estimated to about $50,000, a 1.64-carat fancy deep pink to roughly $35,000, and a 0.53-carat heart-shaped fancy blue also near $35,000. In a category where top color can command seven figures, these are deliberately accessible numbers.",
+   "Above them sits the sale's marquee curiosity: a 70-carat diamond necklace of pear, oval and marquise stones carrying an upper estimate of just $50,000 — and offered with no reserve, meaning it will sell to the highest bid however low. A 1920s necklace built around a 7.10-carat center stone is estimated near $35,000, and a multicolored sapphire-and-diamond necklace, 34.95 carats of sapphires to 4.20 of diamonds, at about $28,000. Van Cleef & Arpels, Graff and Boucheron appear throughout.",
+   "The strategy is legible in the estimates. No-reserve lots and conservative valuations are how a house generates competition and clears estate material in a cautious market: set the bar low, let the room find the price. It is the opposite of the trophy-lot playbook that carried the spring's headline sales, and a useful barometer of where mid-market demand actually sits when the eight-figure stones are not in the room.",
+   "It also reads against the week's other diamond story. Natural stones are competing on rarity and provenance as lab-grown collapses the price of size; fancy color — genuinely scarce, impossible to grow to order at scale — is where that argument is strongest. A room bidding up small pinks and blues is a room still paying for what cannot be manufactured.",
+   "The desk's view: watch the no-reserve necklace as the sale's honest number. Estimates are a house's opinion; a lot with no floor prints whatever the market truly thinks a 70-carat necklace is worth on a Tuesday in July — and that figure will say more about the mid-market than any record would."
+  ],
+  "sources": [
+   {
+    "title": "70ct. Diamond Necklace to Hit Auction Block at Bonhams — Rapaport",
+    "url": "https://rapaport.com/news/70ct-diamond-necklace-to-hit-auction-block-at-bonhams/"
+   },
+   {
+    "title": "Van Cleef & Arpels, Cartier, and Boucheron Highlight Bonhams' Fine Jewelry Sale — JCK",
+    "url": "https://www.jckonline.com/editorial-article/bonhams-california-fine-jewels/"
+   }
+  ]
+ },
+ {
+  "slug": "doha-opens-a-diamond-door",
+  "desk": "diamonds",
+  "date": "2026-07-28",
+  "lead": false,
+  "kicker": "Diamonds Desk · Doha",
+  "minutes": 4,
+  "byline": "The Diamonds Desk",
+  "tags": [
+   "ACTOR",
+   "GAP"
+  ],
+  "title": "Doha opens a diamond exchange, and eyes Dubai's lane",
+  "dek": "The Qatar Free Zones Authority launched the Qatar Diamond Exchange this week — a Kimberley-compliant hub at Ras Bufontas with sorting, vaulting and tenders under one roof, and the Gulf's newest bid to sit alongside Dubai.",
+  "body": [
+   "Qatar has opened its first diamond exchange, and its ambition is not subtle. The Qatar Free Zones Authority launched the Qatar Diamond Exchange this week at the Ras Bufontas free zone near Doha, describing it as a regulated hub that gathers the full diamond and precious-stones value chain within a single regulated ecosystem, in the words of chief executive Sheikh Mohammed Bin Hamad Bin Faisal Al-Thani. Its natural rival sits an hour's flight away in Dubai.",
+   "The plumbing is built for the trade's real needs. Members — traders, manufacturers, cutters, polishers and service firms — get trading licences, on-site sorting and independent valuation, secure vaulting, specialist insurance, and the right to take part in rough and polished tenders. Free-zone terms in Qatar typically allow full foreign ownership and favorable tax treatment, the incentives every aspiring hub uses to pull goods and dealers off established routes.",
+   "Qatar has been laying the groundwork quietly. It joined the Kimberley Process as a full member in 2021 and, in 2025, designated the free-zone authority as the country's sole authorized entry and exit point for rough diamonds — the regulatory spine an exchange needs before it can credibly host tenders. The launch turns that framework into a marketplace.",
+   "Whether it draws real liquidity is the harder question. Dubai posted a record $41.7 billion in diamond trade in 2025 and has spent two decades building the relationships that route stones through it; Antwerp and Mumbai are older still. A new exchange can offer better terms, but volume follows trust, and trust in this trade is measured in decades, not incentives.",
+   "The desk's view: the Gulf is not short of diamond capacity, so Doha's real target is not Antwerp or Surat but the dealer deciding where to clear the next parcel. Qatar has built the room and written the rules; now it has to give the trade a reason to walk in rather than fly on to Dubai."
+  ],
+  "sources": [
+   {
+    "title": "Qatar Launches First Diamond Exchange — Rapaport",
+    "url": "https://rapaport.com/news/qatar-launches-first-diamond-exchange/"
+   },
+   {
+    "title": "Qatar launches exchange to expand its role in global diamond trade — Euronews",
+    "url": "https://www.euronews.com/business/2026/07/28/qatar-launches-exchange-to-expand-its-role-in-global-diamond-trade"
+   }
+  ]
+ },
+ {
+  "slug": "the-guide-marks-ruby-up",
+  "desk": "gemstones",
+  "date": "2026-07-28",
+  "lead": false,
+  "kicker": "Gemstones Desk · Glenview",
+  "minutes": 3,
+  "byline": "The Color Desk",
+  "tags": [
+   "GAP",
+   "ACTOR"
+  ],
+  "title": "The trade's price book bends to ruby",
+  "dek": "GemGuide pushed Mozambique ruby prices sharply higher and scrapped its ten-point scale for Burma stones, pricing only four grades — an admission that fine ruby is now too scarce to chart the usual way.",
+  "body": [
+   "When the reference book changes shape, the market has already moved. GemGuide, the pricing service the American colored-stone trade leans on, has revised its ruby charts: Mozambique prices raised sharply on strong demand for unenhanced, untreated material, and the Burma section rebuilt from the ground up. Research director Stuart Robertson said Mozambique prices have, in effect, skyrocketed as tender buyers chase clean goods.",
+   "The Burma change is the more striking admission. GemGuide abandoned its traditional one-to-ten quality scale for unenhanced Burmese ruby and now publishes just four grades — Middle Commercial, Lower Good, Upper Fine and Upper Extra Fine — leaving users to interpolate the rest. The reason is scarcity: fine Mogok material has become so hard to source that availability now matters more than price. You cannot chart a stone that does not come to market.",
+   "Mozambique has carried the category for over a decade, and its tenders — Gemfields' chief among them — now set the global reference for gem and near-gem ruby. That is where the price pressure is coming from: a single dominant source, buyers competing for untreated goods, and a treatment-disclosure culture that has taught the trade to pay a real premium for stones that have not seen the furnace.",
+   "The revisions go live in the service's app immediately and reach print in the July–August issue. For appraisers and retailers that means the number under a ruby changed this week whether or not the stone did — the kind of quiet repricing that ripples through insurance values and estate valuations long after the tender room empties.",
+   "The desk's view: ruby is quietly running the colored-stone story diamonds used to own — a scarce natural material getting scarcer, priced by origin and honesty rather than size. When the guide stops grading a stone the old way, it is telling you the supply, not the demand, is the thing that broke."
+  ],
+  "sources": [
+   {
+    "title": "GemGuide Updates Ruby Prices — National Jeweler",
+    "url": "https://nationaljeweler.com/articles/15051-gemguide-updates-ruby-prices"
+   }
+  ]
+ },
+ {
+  "slug": "india-fills-the-hall",
+  "desk": "diamonds",
+  "date": "2026-07-28",
+  "lead": false,
+  "kicker": "Diamonds Desk · Mumbai",
+  "minutes": 3,
+  "byline": "The Diamonds Desk",
+  "tags": [
+   "GAP",
+   "HOWTO"
+  ],
+  "title": "India's big August show fills up early",
+  "dek": "GJEPC's IIJS Premiere returns to Mumbai on August 6–10 with pre-registration past 25,000, landing just as June gems-and-jewellery exports jumped 26.5 percent — a confident sourcing season into an uncertain tariff year.",
+  "body": [
+   "The Indian trade is voting with its badges. GJEPC's IIJS Premiere, the country's flagship gem-and-jewellery show, returns to Mumbai on August 6–10, and pre-registration has already crossed 25,000 with the first deadline extended to absorb demand. For a domestic industry that spent the spring absorbing tariff shocks, an early sell-out of visitor slots is its own kind of forecast.",
+   "The confidence has a number behind it. India's gross gems-and-jewellery exports rose 26.5 percent in June to about $2.21 billion, led by gold jewellery up 54.5 percent and cut-and-polished diamonds up 8.7 percent. The quarter as a whole was flat, and rough imports fell by roughly a third, so the June jump is a restart rather than a boom — but a restart is what the show floor is built to convert into orders.",
+   "The backdrop is anything but settled. A new 10 percent US duty on Indian goods took effect on July 24, landing on the single largest market for Surat's polished output, and the European exemption for stones finished in Antwerp gives buyers a reason to route work away from India. A strong domestic show is partly a hedge: if the American door narrows, the Indian counter and Gulf buyers have to carry more of the weight.",
+   "That is why GJEPC has spent the summer courting retailers well beyond Mumbai, from Lucknow to Abu Dhabi, ahead of the doors opening. The show is no longer only an export shop window; it is where India's own fast-growing jewellery retail — the demand behind Titan's 39 percent quarter — meets its supply base under one roof.",
+   "The desk's view: watch the order books, not the footfall. Registrations measure hope; the tickets written between August 6 and 10, against a live US tariff and a soft rough market, will show whether India's recovery is broad enough to survive the loss of a little American duty-free room."
+  ],
+  "sources": [
+   {
+    "title": "IIJS Bharat Premiere 2026 Crosses 25,000 Registrations — Indian Jeweller",
+    "url": "https://www.indianjeweller.in/Indian-Jewellery-News/16302/iijs-bharat-premiere-2026-crosses-25000-registrations-phase-1-deadline-extended"
+   },
+   {
+    "title": "India June gems & jewellery exports +26.5% — GJEPC / IANS",
+    "url": "https://gjepc.org/"
+   }
+  ]
+ },
+ {
   "slug": "israel-exchange-loses-its-chief",
   "desk": "diamonds",
   "date": "2026-07-27",
-  "lead": true,
+  "lead": false,
   "kicker": "Diamonds Desk · Ramat Gan",
   "minutes": 4,
   "byline": "The Diamonds Desk",
