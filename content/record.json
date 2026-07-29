@@ -1,10 +1,40 @@
 {
- "updated": "28 Jul 2026",
+ "updated": "29 Jul 2026",
  "intro": "Eight weeks of the trade, kept the way a ledger should be kept — dated, sourced, and in one place. New entries are added at the top each week; the quarter's running numbers live in the Almanac below.",
  "weeks": [
   {
    "label": "This week — July 27",
    "entries": [
+    {
+     "d": "gold-metals",
+     "h": "Fed holds at 3.50–3.75% in a 9–3 vote; gold eases to $4,029",
+     "t": "The FOMC held rates on July 29 with three presidents — Hammack, Kashkari and Logan — dissenting for a quarter-point hike, and Chair Kevin Warsh's statement again omitted forward guidance. Gold slipped from about $4,046 to near $4,029, cushioned by central-bank buying of 244 tonnes in Q1 and 41 tonnes in May. Silver eased to ~$57.90, platinum to ~$1,597 and palladium to ~$1,248.",
+     "s": "CNBC / Federal Reserve / FX Leaders / Fortune"
+    },
+    {
+     "d": "watches",
+     "h": "LVMH Watches & Jewellery is the group's best division at €5.23B, +9% organic",
+     "t": "LVMH's Watches & Jewellery arm posted €5.23 billion in first-half sales, up about 9% organically with an 11% second quarter and recurring operating profit up 9% to €831 million, led by Tiffany and Bulgari across the US, Asia and Japan. Overall group revenue fell 3% to €38.6 billion, making jewelry the standout as fashion, leather, beauty and spirits softened.",
+     "s": "Rapaport / LVMH / Monochrome"
+    },
+    {
+     "d": "retail-tech",
+     "h": "Kering's jewelry houses grow 14% to €521M as the group slips 3%",
+     "t": "Kering's jewelry division (Boucheron, Pomellato, Qeelin, DoDo) lifted first-half revenue 14% to €521 million, up 20% on a comparable basis, with operating income doubling to €32 million and directly operated retail up 28% comparable. Boucheron reached record levels on Japan and the Quatre XS launch. Group revenue fell 3% to €7.22 billion.",
+     "s": "Rapaport / Kering"
+    },
+    {
+     "d": "diamonds",
+     "h": "Petra's Q4 revenue caves 44% to $38M; Finsch enters business rescue",
+     "t": "Petra Diamonds reported fourth-quarter FY2026 revenue of $38 million, down 44% from $68 million, on weak tender prices and a small-goods mix. Consolidated net debt rose to $322 million from $298 million; a R300 million facility runs to early 2028 and $6 million of July interest was deferred to January 2027. The Finsch mine was suspended and placed in business rescue in June.",
+     "s": "Rapaport / Mining Weekly"
+    },
+    {
+     "d": "diamonds",
+     "h": "Gem Diamonds' big stones lift average price ~17% to ~$1,501/ct",
+     "t": "Gem Diamonds' Letšeng mine kept producing high-value stones as the broader market stayed soft, lifting the average price about 17% to roughly $1,501 a carat. Recoveries included a 191.82-carat Type IIa white and a 100.71-carat faint yellow; a parcel of ten stones over 10.8 carats brought $7 million and one 52.24-carat white sold at $32,908 a carat — the mirror image of Petra's quarter.",
+     "s": "Rapaport / MINING.COM"
+    },
     {
      "d": "gold-metals",
      "h": "Gold idles near $4,046 on the eve of the Fed decision",

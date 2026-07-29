@@ -16749,5 +16749,867 @@
     }
    ]
   }
+ },
+ "fed-holds-gold-exhales": {
+  "strip": {
+   "cap": "By the numbers · the July FOMC",
+   "cells": [
+    {
+     "fig": "3.50–3.75%",
+     "lab": "range, held"
+    },
+    {
+     "fig": "9–3",
+     "lab": "the vote"
+    },
+    {
+     "fig": "3",
+     "lab": "dissents, for a hike"
+    },
+    {
+     "fig": "$4,029",
+     "lab": "gold, NY close"
+    },
+    {
+     "fig": "$3,964",
+     "lab": "the floor to watch"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "A hold nobody agreed on",
+    "rows": [
+     {
+      "l": "HELD (9)",
+      "v": 9,
+      "d": "9 votes",
+      "hi": true
+     },
+     {
+      "l": "DISSENT — HIKE (3)",
+      "v": 3,
+      "d": "3 votes"
+     }
+    ],
+    "note": "FOMC vote, July 29 2026. Hammack, Kashkari and Logan dissented for a quarter-point rise.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/141"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "A hold that three voters resisted.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Gold lets a little air out.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "A hold that three voters actively resist is not the placid pause the market had penciled in.",
+     "attr": "The Bullion Desk"
+    }
+   },
+   {
+    "sub": "The official bid under the tape.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Silver backs off $60",
+     "href": "a-white-metals-lose-their-heat.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "For the counter the number that matters is still $3,964 — hold it and gold stays the calm value story a cautious buyer is choosing; lose it and the summer's quiet is over."
+  },
+  "next": {
+   "lead": {
+    "slug": "white-metals-lose-their-heat",
+    "tag": "White metals",
+    "blurb": "Silver, platinum and palladium give back a slice of July's run."
+   },
+   "minis": [
+    {
+     "slug": "gold-idles-into-the-fed",
+     "tag": "Setup"
+    },
+    {
+     "slug": "china-takes-173-tonnes",
+     "tag": "Demand"
+    }
+   ]
+  }
+ },
+ "white-metals-lose-their-heat": {
+  "strip": {
+   "cap": "By the numbers · the white metals",
+   "cells": [
+    {
+     "fig": "$57.90",
+     "lab": "silver / oz"
+    },
+    {
+     "fig": "$60.11",
+     "lab": "silver's July high"
+    },
+    {
+     "fig": "$1,597",
+     "lab": "platinum / oz"
+    },
+    {
+     "fig": "$1,248",
+     "lab": "palladium / oz"
+    },
+    {
+     "fig": "+51%",
+     "lab": "silver, 12 months"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Off the highs, still up on the year",
+    "rows": [
+     {
+      "l": "SILVER / OZ",
+      "v": 58,
+      "d": "$57.90",
+      "hi": true
+     },
+     {
+      "l": "PALLADIUM (÷21)",
+      "v": 59,
+      "d": "$1,248"
+     },
+     {
+      "l": "PLATINUM (÷27)",
+      "v": 59,
+      "d": "$1,597"
+     }
+    ],
+    "note": "Spot, July 29 2026. Palladium and platinum scaled to silver for comparison.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/142"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "The $60 that slipped away.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "A deficit that isn't a jewelry story.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "The $60 that looked inevitable a week ago is back to being a target rather than a floor.",
+     "attr": "The Bullion Desk"
+    }
+   },
+   {
+    "sub": "Priced for a season, built to lurch.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Silver eyes sixty",
+     "href": "a-silver-eyes-sixty.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "The white metals have decoupled from the jewelry counter this cycle, and a maker who prices them like gold — steady, slow, demand-led — will be wrong-footed by how quickly they can turn."
+  },
+  "next": {
+   "lead": {
+    "slug": "fed-holds-gold-exhales",
+    "tag": "Rates",
+    "blurb": "The Fed holds 9–3 and gold eases to $4,029."
+   },
+   "minis": [
+    {
+     "slug": "silver-eyes-sixty",
+     "tag": "The run"
+    },
+    {
+     "slug": "platinum-short-a-fourth-year",
+     "tag": "Deficit"
+    }
+   ]
+  }
+ },
+ "tiffany-carries-lvmh": {
+  "strip": {
+   "cap": "By the numbers · LVMH Watches & Jewellery, H1",
+   "cells": [
+    {
+     "fig": "€5.23B",
+     "lab": "division sales"
+    },
+    {
+     "fig": "+9%",
+     "lab": "organic, H1"
+    },
+    {
+     "fig": "+11%",
+     "lab": "organic, Q2"
+    },
+    {
+     "fig": "€831M",
+     "lab": "operating profit"
+    },
+    {
+     "fig": "-3%",
+     "lab": "group revenue"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "One division up, the group down",
+    "rows": [
+     {
+      "l": "WATCHES & JEWELLERY",
+      "v": 9,
+      "d": "+9%",
+      "hi": true
+     },
+     {
+      "l": "LVMH GROUP",
+      "v": -3,
+      "d": "-3%"
+     }
+    ],
+    "note": "H1 2026, LVMH. Division organic growth vs reported group revenue.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/143"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "The vault does the lifting.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Watches stop being the drag.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "The one division selling the highest-ticket, most discretionary objects in the house is the one growing",
+     "attr": "The Luxury Desk"
+    }
+   },
+   {
+    "sub": "A necklace is not a handbag.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Boucheron hits a record at Kering",
+     "href": "a-boucheron-carries-kering.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "The question for the second half is whether that floor is demand or comparison math, and only a soft Christmas would tell them apart."
+  },
+  "next": {
+   "lead": {
+    "slug": "boucheron-carries-kering",
+    "tag": "Kering",
+    "blurb": "Kering's jewelry houses run 14% ahead as the group slips."
+   },
+   "minis": [
+    {
+     "slug": "titan-makes-it-three",
+     "tag": "India"
+    },
+    {
+     "slug": "richemont-twenty-percent-quarter",
+     "tag": "Jewels"
+    }
+   ]
+  }
+ },
+ "boucheron-carries-kering": {
+  "strip": {
+   "cap": "By the numbers · Kering jewelry, H1",
+   "cells": [
+    {
+     "fig": "€521M",
+     "lab": "jewelry sales"
+    },
+    {
+     "fig": "+14%",
+     "lab": "reported"
+    },
+    {
+     "fig": "+20%",
+     "lab": "comparable"
+    },
+    {
+     "fig": "€32M",
+     "lab": "operating income"
+    },
+    {
+     "fig": "+28%",
+     "lab": "owned retail"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Jewelry climbs while the group falls",
+    "rows": [
+     {
+      "l": "JEWELRY (comparable)",
+      "v": 20,
+      "d": "+20%",
+      "hi": true
+     },
+     {
+      "l": "OWNED RETAIL",
+      "v": 28,
+      "d": "+28%"
+     },
+     {
+      "l": "GROUP REVENUE",
+      "v": -3,
+      "d": "-3%"
+     }
+    ],
+    "note": "H1 2026, Kering. Jewelry houses: Boucheron, Pomellato, Qeelin, DoDo.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/144"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "The division that grew.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Two houses, one lesson.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "Two of the three biggest names in European luxury are being carried by the same product category.",
+     "attr": "The Retail Desk"
+    }
+   },
+   {
+    "sub": "A bright footnote, for now.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Tiffany and Bulgari carry LVMH",
+     "href": "a-tiffany-carries-lvmh.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "The test is whether Kering feeds that winner with the capital and the store count it deserves, or lets it stay a bright footnote while the fashion houses absorb all the attention."
+  },
+  "next": {
+   "lead": {
+    "slug": "tiffany-carries-lvmh",
+    "tag": "LVMH",
+    "blurb": "Tiffany and Bulgari make jewelry LVMH's best division."
+   },
+   "minis": [
+    {
+     "slug": "titan-makes-it-three",
+     "tag": "India"
+    },
+    {
+     "slug": "china-weighs-in-on-gold",
+     "tag": "China"
+    }
+   ]
+  }
+ },
+ "petra-caves-at-the-bottom": {
+  "spec": {
+   "cap": "The file · Petra Diamonds, Q4 FY2026",
+   "rows": [
+    {
+     "l": "Q4 revenue",
+     "v": "<b>$38M</b>, down 44% on the quarter"
+    },
+    {
+     "l": "Q3 revenue",
+     "v": "$68M"
+    },
+    {
+     "l": "Net debt",
+     "v": "<b>$322M</b> at June 30 (from $298M)"
+    },
+    {
+     "l": "Lifeline",
+     "v": "R300M facility to early 2028; $6M interest deferred"
+    },
+    {
+     "l": "Finsch",
+     "v": "suspended; business rescue since June"
+    },
+    {
+     "l": "CEO",
+     "v": "Vivek Gadodia"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "A quarter that halved",
+    "rows": [
+     {
+      "l": "Q3 REVENUE",
+      "v": 68,
+      "d": "$68M"
+     },
+     {
+      "l": "Q4 REVENUE",
+      "v": 38,
+      "d": "$38M",
+      "hi": true
+     }
+    ],
+    "note": "Petra Diamonds, FY2026. Quarterly revenue, US$ millions.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/145"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "A number for the squeeze.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Buying time, not spending strength.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "For a producer already restructuring, a quarter that light is less a stumble than a squeeze.",
+     "attr": "The Rough Desk"
+    }
+   },
+   {
+    "sub": "Weather you can't wait out.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "De Beers sale gets a clock",
+     "href": "a-de-beers-sale-gets-a-clock.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "The recovery in small stones that Rapaport keeps flagging is real, but it has to arrive at the mine gate as price, not just as sentiment — and for Petra the clock and the covenant are both running."
+  },
+  "next": {
+   "lead": {
+    "slug": "gem-diamonds-rides-the-big-ones",
+    "tag": "Contrast",
+    "blurb": "Gem Diamonds leans on the giants while the market stays soft."
+   },
+   "minis": [
+    {
+     "slug": "de-beers-sale-gets-a-clock",
+     "tag": "De Beers"
+    },
+    {
+     "slug": "rio-diamond-unit-fades",
+     "tag": "Rio"
+    }
+   ]
+  }
+ },
+ "gem-diamonds-rides-the-big-ones": {
+  "strip": {
+   "cap": "By the numbers · Gem Diamonds, Letšeng",
+   "cells": [
+    {
+     "fig": "~$1,501",
+     "lab": "avg price / carat"
+    },
+    {
+     "fig": "+17%",
+     "lab": "on the quarter"
+    },
+    {
+     "fig": "191.82ct",
+     "lab": "Type IIa white"
+    },
+    {
+     "fig": "$32,908",
+     "lab": "per ct, 52.24ct sale"
+    },
+    {
+     "fig": "4",
+     "lab": "stones over $1M"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Where value defends itself",
+    "rows": [
+     {
+      "l": "LARGE / EXCEPTIONAL",
+      "v": 17,
+      "d": "+17% / ct",
+      "hi": true
+     },
+     {
+      "l": "COMMERCIAL GOODS",
+      "v": -6,
+      "d": "soft"
+     }
+    ],
+    "note": "Gem Diamonds, 2026. Large-stone realizations vs the commercial market.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/146"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "A different strategy, a different result.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "The barbell in natural stones.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "Two African miners reported into the same soft tape and posted opposite results, and the difference was the size of the stones in the bucket.",
+     "attr": "The Rough Desk"
+    }
+   },
+   {
+    "sub": "Scarcity you can weigh.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Petra's revenue caves",
+     "href": "a-petra-caves-at-the-bottom.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "The risk is concentration, because a quarter that depends on a few exceptional recoveries also depends on the mine cooperating, and geology keeps its own calendar."
+  },
+  "next": {
+   "lead": {
+    "slug": "petra-caves-at-the-bottom",
+    "tag": "Contrast",
+    "blurb": "At the small end of the market, Petra's revenue halves."
+   },
+   "minis": [
+    {
+     "slug": "rio-diamond-unit-fades",
+     "tag": "Rio"
+    },
+    {
+     "slug": "de-beers-eighty-eight-up",
+     "tag": "De Beers"
+    }
+   ]
+  }
+ },
+ "rio-diamond-unit-fades": {
+  "strip": {
+   "cap": "By the numbers · Rio Tinto diamonds, H1",
+   "cells": [
+    {
+     "fig": "$118M",
+     "lab": "H1 sales"
+    },
+    {
+     "fig": "-27%",
+     "lab": "year on year"
+    },
+    {
+     "fig": "1.1M ct",
+     "lab": "output, -51%"
+    },
+    {
+     "fig": "-$72M",
+     "lab": "EBITDA"
+    },
+    {
+     "fig": "~$1B",
+     "lab": "closure & rehab"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "A mine being emptied",
+    "rows": [
+     {
+      "l": "H1 2025 SALES",
+      "v": 162,
+      "d": "$162M"
+     },
+     {
+      "l": "H1 2026 SALES",
+      "v": 118,
+      "d": "$118M",
+      "hi": true
+     }
+    ],
+    "note": "Rio Tinto diamond unit. H1 sales, US$ millions (2026 down 27%).",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/147"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "A wind-down with a revenue line.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "The expensive tail.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "These are the numbers of a mine being emptied, not run.",
+     "attr": "The Rough Desk"
+    }
+   },
+   {
+    "sub": "A supply cliff, previewed.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Diavik sells the last ore",
+     "href": "a-diavik-sells-the-last-ore.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "That is bullish for scarcity and bruising for anyone who needs steady rough today, and the gap between those two truths is where the next few years of pricing get decided."
+  },
+  "next": {
+   "lead": {
+    "slug": "last-carats-at-diavik",
+    "tag": "Diavik",
+    "blurb": "The last carats come up from a closing Canadian mine."
+   },
+   "minis": [
+    {
+     "slug": "petra-caves-at-the-bottom",
+     "tag": "Petra"
+    },
+    {
+     "slug": "gem-diamonds-rides-the-big-ones",
+     "tag": "Gem"
+    }
+   ]
+  }
+ },
+ "india-gold-signals-mixed": {
+  "spec": {
+   "cap": "The file · India gold demand, July 2026",
+   "rows": [
+    {
+     "l": "The read",
+     "v": "WGC: <b>mixed</b> demand signals at record rupee prices"
+    },
+    {
+     "l": "Jewelry",
+     "v": "cautious; trade-down to lighter, lower-carat pieces"
+    },
+    {
+     "l": "Funding",
+     "v": "old-gold <b>exchange</b> covers much of new buying"
+    },
+    {
+     "l": "Investment",
+     "v": "bars, coins and funds stay firmer"
+    },
+    {
+     "l": "For retailers",
+     "v": "busy stores, thin margins, wrong-weight risk"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "One roof, two buyers",
+    "rows": [
+     {
+      "l": "INVESTMENT (bar & coin)",
+      "v": 8,
+      "d": "firmer",
+      "hi": true
+     },
+     {
+      "l": "JEWELLERY (by weight)",
+      "v": -6,
+      "d": "cautious"
+     }
+    ],
+    "note": "India, July 2026 (World Gold Council). Directional, not to scale.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/148"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "The question that matters.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "The vault holds its nerve.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "When a metal is both the thing you wear and the thing you save in, high prices repel one buyer and reassure the other",
+     "attr": "The Retail Desk"
+    }
+   },
+   {
+    "sub": "Merchandising for the budget buyer.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "India buys the dip",
+     "href": "a-india-buys-the-dip.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "Read India as the template: the counter and the vault are drifting apart, and the retailer who plans for one buyer and gets the other will finish the season with the wrong inventory."
+  },
+  "next": {
+   "lead": {
+    "slug": "fed-holds-gold-exhales",
+    "tag": "Rates",
+    "blurb": "The Fed holds and gold eases to $4,029."
+   },
+   "minis": [
+    {
+     "slug": "india-buys-the-dip",
+     "tag": "India"
+    },
+    {
+     "slug": "titan-makes-it-three",
+     "tag": "Titan"
+    }
+   ]
+  }
  }
 }
