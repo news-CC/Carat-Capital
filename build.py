@@ -10,6 +10,17 @@ ARTICLES = json.loads((CONTENT / "articles.json").read_text()) if (CONTENT / "ar
 ARTICLES.sort(key=lambda a: a.get("date", ""), reverse=True)
 WIRE = json.loads((CONTENT / "wire.json").read_text()) if (CONTENT / "wire.json").exists() else {}
 RECORD = json.loads((CONTENT / "record.json").read_text()) if (CONTENT / "record.json").exists() else {}
+PRICES = json.loads((CONTENT / "prices.json").read_text()) if (CONTENT / "prices.json").exists() else {}
+
+# The natural 1ct tape mark is the RAPI level published on the price list.
+# Overridden here so the chip and the page it opens can never drift apart,
+# whatever the daily wire writes.
+if PRICES.get("headline"):
+    for _t in WIRE.get("tape", []):
+        if _t.get("code") == "NAT1":
+            _t["px"] = f'{PRICES["headline"]["rapi_ct"]:,.2f}'
+            _t["chg"] = "\u22126.4% YTD"
+            _t["dir"] = "down"
 
 def lead_article():
     for a in ARTICLES:
@@ -358,6 +369,7 @@ def omenu():
         <a href="field-guide.html">The Field Guide — Learn the Trade</a>
         <a href="the-record.html">The Record — Eight Weeks of the Trade</a>
         <a href="almanac.html">The Almanac — The Quarter in Numbers</a>
+        <a href="natural-diamond-prices.html">The Natural Diamond Price List — Every Shape, Every Weight</a>
         <a href="index.html#tape-a">The Price Tape</a>
         <a href="about.html">About the Paper</a>
         <a href="about.html#standards">Editorial Standards</a>
@@ -386,11 +398,12 @@ def colophon():
       <div><h4>Desks</h4>{desk_links}</div>
       <div><h4>Masthead</h4>
         <a class="fl" href="about.html">About the paper</a><a class="fl" href="about.html#standards">Editorial standards</a>
-        <a class="fl" href="field-guide.html">The Field Guide</a><a class="fl" href="the-record.html">The Record</a><a class="fl" href="almanac.html">The Almanac</a><a class="fl" href="about.html#contact">Write to the desk</a>
+        <a class="fl" href="field-guide.html">The Field Guide</a><a class="fl" href="the-record.html">The Record</a><a class="fl" href="almanac.html">The Almanac</a><a class="fl" href="natural-diamond-prices.html">Natural diamond prices</a><a class="fl" href="about.html#contact">Write to the desk</a>
       </div>
       <div><h4>The Paper</h4>
         <a class="fl" href="index.html">Front page</a>
         <a class="fl" href="index.html#tape-a">The price tape</a>
+        <a class="fl" href="natural-diamond-prices.html">The natural diamond price list</a>
         <a class="fl" href="feed.xml">RSS feed</a>
         <a class="fl" href="https://caratcapital.beehiiv.com">The Morning Brief — free</a>
       </div>
@@ -454,6 +467,7 @@ def llms_txt():
 - [Front page]({BASE_URL}/): today's edition, the wire, and the live price tape
 - [The Record]({BASE_URL}/the-record): a dated, sourced week-by-week chronicle of the industry
 - [The Almanac]({BASE_URL}/almanac): the quarter's key numbers in sourced tables (metals, exports, prices, auctions, retail)
+- [The Natural Diamond Price List]({BASE_URL}/natural-diamond-prices): natural diamond prices by shape, weight, colour and clarity — wholesale trade benchmark and retail asking price side by side, with stated method and named sources
 - [The Field Guide]({BASE_URL}/field-guide.html): plain-language introduction to how the jewelry trade works
 - [About & editorial standards]({BASE_URL}/about.html)
 - [RSS feed]({BASE_URL}/feed.xml)
@@ -537,6 +551,426 @@ def almanac_page():
 </div></div></section>
 {colophon()}
 {SCRIPT}"""
+
+# ---------------- THE PRICE LIST (natural diamonds) ----------------
+import math as _pm
+
+PX_INK, PX_SEAL, PX_GILT, PX_DIM = "#16130E", "#BE3319", "#96762E", "#7A7263"
+PX_SOFT, PX_HAIR = "rgba(22,19,14,.16)", "rgba(22,19,14,.07)"
+
+
+def _usd(n, dp=0):
+    return "$" + f"{n:,.{dp}f}"
+
+
+def px_fig(svg, plate_no, caption, sub=""):
+    """House figure wrapper — plate number, rule, caption."""
+    return f"""<figure class="rv" style="margin:0 0 52px;break-inside:avoid">
+  <figcaption style="display:flex;justify-content:space-between;align-items:baseline;gap:18px;border-bottom:2px solid var(--ink);padding-bottom:9px;margin-bottom:20px">
+    <span style="font-family:var(--disp);font-weight:700;font-size:clamp(17px,2vw,22px);letter-spacing:-.02em">{caption}</span>
+    <span style="font-family:var(--mono);font-size:9.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--gilt);white-space:nowrap">CC/2026/{plate_no}</span>
+  </figcaption>
+  {f'<div style="font-family:var(--mono);font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--seal);margin:-10px 0 18px">{sub}</div>' if sub else ''}
+  <div style="width:100%;overflow:hidden">{svg}</div>
+</figure>"""
+
+
+def px_table(cols, rows, note="", src="", numeric_from=1):
+    headr = ""
+    for i, c in enumerate(cols):
+        ta = "left" if i < numeric_from else "right"
+        headr += (f'<th style="text-align:{ta};font-family:var(--mono);font-size:9px;letter-spacing:.18em;'
+                  f'text-transform:uppercase;color:var(--ink-3);padding:0 0 10px 14px;border-bottom:2px solid var(--ink);'
+                  f'white-space:nowrap">{c}</th>')
+    body = ""
+    for r in rows:
+        muted = r[0].startswith("\x00")
+        cells = ""
+        for i, c in enumerate(r):
+            c = c.lstrip("\x00")
+            ta = "left" if i < numeric_from else "right"
+            fam = "var(--text)" if i < numeric_from else "var(--mono)"
+            fs = "14.5px" if i < numeric_from else "13px"
+            op = ";opacity:.55" if muted else ""
+            cells += (f'<td style="text-align:{ta};font-family:{fam};font-size:{fs};padding:9px 0 9px 14px;'
+                      f'border-bottom:1px solid {PX_SOFT};white-space:nowrap{op}">{c}</td>')
+        body += f"<tr>{cells}</tr>"
+    out = (f'<div style="width:100%;overflow-x:auto"><table style="width:100%;min-width:520px;border-collapse:collapse">'
+           f"<thead><tr>{headr}</tr></thead><tbody>{body}</tbody></table></div>")
+    if note:
+        out += (f'<p style="font-family:var(--text);font-size:14.5px;line-height:1.62;color:var(--ink-2);'
+                f'margin:16px 0 0;max-width:70ch">{note}</p>')
+    if src:
+        out += (f'<div style="font-family:var(--mono);font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;'
+                f'color:var(--gilt);margin-top:12px">Source — {src}</div>')
+    return out
+
+
+# ---- chart primitives -------------------------------------------------------
+
+def px_curve(rows):
+    """Log-scale per-carat curve: trade against retail, across the weight ladder."""
+    W, Hh = 1040, 452
+    L, R, T, B = 84, 96, 30, 62
+    pw, ph = W - L - R, Hh - T - B
+    lo, hi = _pm.log10(800), _pm.log10(45000)
+
+    def y(v):
+        return T + ph - (_pm.log10(v) - lo) / (hi - lo) * ph
+
+    n = len(rows) - 1
+    xs = [L + i * pw / n for i in range(len(rows))]
+
+    grid, ylab = "", ""
+    for g in (1000, 2000, 5000, 10000, 20000, 40000):
+        gy = y(g)
+        grid += f'<line x1="{L}" y1="{gy:.1f}" x2="{L+pw}" y2="{gy:.1f}" stroke="{PX_SOFT}" stroke-width="1"/>'
+        lab = f"{g//1000}k" if g >= 1000 else str(g)
+        ylab += (f'<text x="{L-12}" y="{gy+3.6:.1f}" text-anchor="end" font-family="IBM Plex Mono,monospace" '
+                 f'font-size="10.5" fill="{PX_DIM}">${lab}</text>')
+
+    xlab = ""
+    for i, r in enumerate(rows):
+        col = PX_SEAL if r["basis"] == "withheld" else PX_DIM
+        xlab += (f'<text x="{xs[i]:.1f}" y="{T+ph+24}" text-anchor="middle" font-family="IBM Plex Mono,monospace" '
+                 f'font-size="10.5" fill="{col}">{r["wt"]:g}</text>')
+    xlab += (f'<text x="{L+pw/2:.1f}" y="{T+ph+46}" text-anchor="middle" font-family="IBM Plex Mono,monospace" '
+             f'font-size="9" letter-spacing="2.4" fill="{PX_DIM}">CARATS</text>')
+
+    def series(key, colour, dash):
+        # kept = the weights this series actually prices. A break caused only by a
+        # withheld band is bridged with a hairline so the eye follows the curve; a
+        # break caused by a figure nobody publishes is left open on purpose.
+        kept = [(i, xs[i], y(r[key])) for i, r in enumerate(rows) if r[key]]
+        out, seg = "", []
+        for i, px, py in kept:
+            if seg and i - seg[-1][0] > 1:
+                skipped = rows[seg[-1][0] + 1:i]
+                if len(seg) > 1:
+                    out += _poly([(a, b) for _, a, b in seg], colour, dash)
+                if all(s["basis"] == "withheld" for s in skipped):
+                    out += (f'<path d="M{seg[-1][1]:.1f} {seg[-1][2]:.1f} L{px:.1f} {py:.1f}" fill="none" '
+                            f'stroke="{colour}" stroke-width="1.2" stroke-dasharray="1 4" opacity=".5"/>')
+                seg = []
+            seg.append((i, px, py))
+        if len(seg) > 1:
+            out += _poly([(a, b) for _, a, b in seg], colour, dash)
+        for _, px, py in kept:
+            out += (f'<circle cx="{px:.1f}" cy="{py:.1f}" r="3.6" fill="var(--paper)" stroke="{colour}" '
+                    f'stroke-width="2.2"/>')
+        return out
+
+    def _poly(seg, colour, dash):
+        d = "M" + " L".join(f"{a:.1f} {b:.1f}" for a, b in seg)
+        return f'<path d="{d}" fill="none" stroke="{colour}" stroke-width="2.4" stroke-linejoin="round" {dash}/>'
+
+    body = series("retail_ct", PX_SEAL, "") + series("trade_ct", PX_GILT, 'stroke-dasharray="7 4"')
+
+    # gap marker over the withheld band
+    gap = ""
+    for i, r in enumerate(rows):
+        if r["basis"] == "withheld":
+            gap = (f'<line x1="{xs[i]:.1f}" y1="{T}" x2="{xs[i]:.1f}" y2="{T+ph}" stroke="{PX_SEAL}" '
+                   f'stroke-width="1" stroke-dasharray="2 5" opacity=".65"/>'
+                   f'<text x="{xs[i]:.1f}" y="{T-10}" text-anchor="middle" font-family="IBM Plex Mono,monospace" '
+                   f'font-size="9" letter-spacing="1.6" fill="{PX_SEAL}">WITHHELD</text>')
+
+    # keyed top-left: the curves rise to the right, so this corner is always empty
+    key = (f'<g transform="translate({L+18},{T+26})">'
+           f'<line x1="0" y1="0" x2="28" y2="0" stroke="{PX_SEAL}" stroke-width="2.4"/>'
+           f'<text x="37" y="3.6" font-family="IBM Plex Mono,monospace" font-size="10" fill="{PX_INK}">Retail asking</text>'
+           f'<line x1="0" y1="19" x2="28" y2="19" stroke="{PX_GILT}" stroke-width="2.4" stroke-dasharray="7 4"/>'
+           f'<text x="37" y="22.6" font-family="IBM Plex Mono,monospace" font-size="10" fill="{PX_INK}">Trade benchmark</text>'
+           f'<text x="0" y="41" font-family="IBM Plex Mono,monospace" font-size="8.5" letter-spacing="1.1" '
+           f'fill="{PX_DIM}">DOTTED BRIDGE = WITHHELD BAND</text></g>')
+
+    return (f'<svg viewBox="0 0 {W} {Hh}" width="100%" role="img" aria-label="Per-carat price by weight, '
+            f'trade against retail" style="display:block">'
+            f'{grid}{ylab}'
+            f'<line x1="{L}" y1="{T+ph}" x2="{L+pw}" y2="{T+ph}" stroke="{PX_INK}" stroke-width="1.6"/>'
+            f'{gap}{body}{xlab}{key}</svg>')
+
+
+def px_bars(rows, colour=PX_SEAL, unit="$", show=None, tint=None):
+    """Horizontal bars. rows = [{label, value, right, flag}]"""
+    rowh, gap, lw, vw = 30, 8, 176, 108
+    W = 1040
+    bw = W - lw - vw - 26
+    Hh = len(rows) * (rowh + gap) + 16
+    out = ""
+    mx = max(r["value"] for r in rows) or 1
+    for i, r in enumerate(rows):
+        yy = i * (rowh + gap) + 6
+        w = max(r["value"] / mx * bw, 2)
+        col = tint(r) if tint else colour
+        flag = r.get("flag")
+        out += (f'<text x="{lw-14}" y="{yy+rowh/2+4.6:.1f}" text-anchor="end" font-family="Instrument Sans,sans-serif" '
+                f'font-size="13.5" fill="{PX_INK}">{r["label"]}</text>')
+        out += f'<rect x="{lw}" y="{yy}" width="{bw}" height="{rowh}" fill="{PX_HAIR}"/>'
+        out += f'<rect x="{lw}" y="{yy}" width="{w:.1f}" height="{rowh}" fill="{col}"/>'
+        if flag:
+            out += (f'<rect x="{lw}" y="{yy}" width="{w:.1f}" height="{rowh}" fill="url(#pxHatch)" opacity=".5"/>')
+        out += (f'<text x="{W-26}" y="{yy+rowh/2+4.6:.1f}" text-anchor="end" font-family="IBM Plex Mono,monospace" '
+                f'font-size="12.5" fill="{PX_INK}">{r["right"]}</text>')
+    hatch = ('<defs><pattern id="pxHatch" width="6" height="6" patternUnits="userSpaceOnUse" '
+             'patternTransform="rotate(45)"><rect width="6" height="6" fill="none"/>'
+             '<line x1="0" y1="0" x2="0" y2="6" stroke="#F2EDE3" stroke-width="2"/></pattern></defs>')
+    return (f'<svg viewBox="0 0 {W} {Hh}" width="100%" role="img" style="display:block">{hatch}{out}</svg>')
+
+
+def px_spread(rows):
+    """Markup-decay curve."""
+    W, Hh = 1040, 300
+    L, R, T, B = 74, 30, 26, 56
+    pw, ph = W - L - R, Hh - T - B
+    n = len(rows) - 1
+    mx = 120
+    xs = [L + i * pw / n for i in range(len(rows))]
+    ys = [T + ph - r["pct"] / mx * ph for r in rows]
+    grid, ylab = "", ""
+    for g in (0, 30, 60, 90, 120):
+        gy = T + ph - g / mx * ph
+        grid += f'<line x1="{L}" y1="{gy:.1f}" x2="{L+pw}" y2="{gy:.1f}" stroke="{PX_SOFT}" stroke-width="1"/>'
+        ylab += (f'<text x="{L-12}" y="{gy+3.6:.1f}" text-anchor="end" font-family="IBM Plex Mono,monospace" '
+                 f'font-size="10.5" fill="{PX_DIM}">+{g}%</text>')
+    line = "M" + " L".join(f"{a:.1f} {b:.1f}" for a, b in zip(xs, ys))
+    area = line + f" L{xs[-1]:.1f} {T+ph:.1f} L{xs[0]:.1f} {T+ph:.1f} Z"
+    dots, xlab = "", ""
+    for i, r in enumerate(rows):
+        dots += (f'<circle cx="{xs[i]:.1f}" cy="{ys[i]:.1f}" r="3.6" fill="var(--paper)" stroke="{PX_SEAL}" '
+                 f'stroke-width="2.2"/>')
+        dots += (f'<text x="{xs[i]:.1f}" y="{ys[i]-13:.1f}" text-anchor="middle" font-family="IBM Plex Mono,monospace" '
+                 f'font-size="10.5" fill="{PX_SEAL}">{r["pct"]}</text>')
+        xlab += (f'<text x="{xs[i]:.1f}" y="{T+ph+24}" text-anchor="middle" font-family="IBM Plex Mono,monospace" '
+                 f'font-size="10.5" fill="{PX_DIM}">{r["w"].split()[0]}</text>')
+    xlab += (f'<text x="{L+pw/2:.1f}" y="{T+ph+44}" text-anchor="middle" font-family="IBM Plex Mono,monospace" '
+             f'font-size="9" letter-spacing="2.4" fill="{PX_DIM}">CARATS</text>')
+    return (f'<svg viewBox="0 0 {W} {Hh}" width="100%" role="img" aria-label="Retail markup over the trade '
+            f'benchmark, by weight" style="display:block">{grid}{ylab}'
+            f'<path d="{area}" fill="{PX_SEAL}" opacity=".10"/>'
+            f'<path d="{line}" fill="none" stroke="{PX_SEAL}" stroke-width="2.4" stroke-linejoin="round"/>'
+            f'<line x1="{L}" y1="{T+ph}" x2="{L+pw}" y2="{T+ph}" stroke="{PX_INK}" stroke-width="1.6"/>'
+            f'{dots}{xlab}</svg>')
+
+
+# ---- page section helpers ---------------------------------------------------
+
+def px_sec(title, em, note=""):
+    return (f'<div class="sec-mast rv"><h2>{title} — <em>{em}</em></h2>'
+            f'<div class="mono-note">{note}</div></div>')
+
+
+def px_lede(text):
+    return (f'<p class="rv" style="font-family:var(--text);font-size:clamp(16px,1.5vw,18.5px);line-height:1.66;'
+            f'color:var(--ink-2);max-width:74ch;margin:0 0 30px">{text}</p>')
+
+
+def px_flag(text):
+    return (f'<div class="rv" style="border-left:3px solid var(--seal);padding:2px 0 2px 18px;margin:26px 0 0;'
+            f'max-width:74ch"><div style="font-family:var(--mono);font-size:9px;letter-spacing:.22em;'
+            f'text-transform:uppercase;color:var(--seal);margin-bottom:7px">A note on this figure</div>'
+            f'<p style="font-family:var(--text);font-size:14.5px;line-height:1.62;color:var(--ink-2)">{text}</p></div>')
+
+
+def prices_page():
+    P = PRICES
+    hd = P["headline"]
+
+    # -- headline block
+    stat = lambda v, l, c: (
+        f'<div><b style="display:block;font-family:var(--mono);font-size:clamp(26px,4vw,44px);font-weight:500;'
+        f'letter-spacing:-.03em;color:{c};line-height:1">{v}</b>'
+        f'<span style="display:block;font-family:var(--mono);font-size:9px;letter-spacing:.2em;text-transform:uppercase;'
+        f'color:var(--ink-3);margin-top:10px">{l}</span></div>')
+    headline = f"""<div class="rv" style="border-top:3px solid var(--ink);border-bottom:1px solid {PX_SOFT};padding:26px 0 28px;margin:0 0 12px">
+  <div style="font-family:var(--mono);font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--seal);margin-bottom:20px">The benchmark stone — {hd['spec']}</div>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:30px 26px">
+    {stat(_usd(hd['trade_ct']), 'Trade / ct', 'var(--gilt)')}
+    {stat(_usd(hd['retail_ct']), 'Retail asking / ct', 'var(--seal)')}
+    {stat('+' + str(hd['spread_pct']) + '%', 'The spread', 'var(--ink)')}
+    {stat(str(hd['vs_list_pct']) + '%', 'vs Rapaport list', 'var(--ink-3)')}
+  </div>
+  <p style="font-family:var(--text);font-size:15.5px;line-height:1.64;color:var(--ink-2);max-width:70ch;margin:26px 0 0">{hd['note']}</p>
+</div>"""
+
+    # -- weight table + curve
+    wt = P["weights"]
+    wrows = []
+    for r in wt["rows"]:
+        if r["basis"] == "withheld":
+            wrows.append(["\x00" + r["w"], "—", "—", "—", "—", "—", "Withheld"])
+        else:
+            b = {"observed": "Observed", "modelled": "Modelled", "retail-only": "Retail only"}[r["basis"]]
+            wrows.append([
+                r["w"],
+                _usd(r["trade_ct"]) if r["trade_ct"] else "—",
+                _usd(r["trade_stone"]) if r["trade_stone"] else "—",
+                _usd(r["retail_ct"]),
+                _usd(r["retail_stone"]),
+                f"+{r['spread']}%" if r["spread"] else "—",
+                b])
+    weight_tbl = px_table(
+        ["Weight", "Trade / ct", "Trade, stone", "Retail / ct", "Retail, stone", "Spread", "Basis"],
+        wrows,
+        src="IDEX price drivers 30 July 2026 · RAPI 1 July 2026 · six-retailer median 30 July 2026")
+
+    dual = P["dual_basis"]
+    dual_tbl = px_table(
+        ["Weight", "RAPI · D–H / IF–VS2", "IDEX · market average", "Gap"],
+        [[r["w"], _usd(r["rapi"]), _usd(r["idex"]) if r["idex"] else "no driver", r["gap"] or "—"] for r in dual["rows"]],
+        note=dual["note"])
+
+    # -- shapes
+    sh = P["shapes"]
+    sh_bars = px_bars(
+        [{"label": r["s"], "value": r["usd"], "right": _usd(r["usd"]) + ("  ·  " + (f"{r['d']:+.1f}%" if r["d"] else "base")),
+          "flag": r["conf"] == "conflicted"} for r in sh["rows"]],
+        tint=lambda r: PX_GILT if r["flag"] else PX_SEAL)
+    sh_tbl = px_table(
+        ["Shape", "Asking / ct", "Against round", "Cross-source range", "Family"],
+        [[r["s"], _usd(r["usd"]), (f"{r['d']:+.1f}%" if r["d"] else "baseline"), r["band"],
+          {"brilliant": "Round", "elongated": "Elongated brilliant", "step": "Step / square"}[r["tier"]]]
+         for r in sh["rows"]],
+        src="StoneAlgo live asking-price sample, n=169,324, 30 July 2026")
+    tiers = "".join(
+        f"""<div class="glo rv"><div class="term">{t['name']}<i>{t['range']}</i></div><p>{t['why']}</p></div>"""
+        for t in sh["tiers"])
+
+    # -- colour + clarity
+    col, cla = P["colour"], P["clarity"]
+    col_bars = px_bars([{"label": r["g"], "value": r["usd"], "right": f'{_usd(r["usd"])}  ·  {r["idx"]}'} for r in col["rows"]])
+    cla_bars = px_bars([{"label": r["g"], "value": r["usd"], "right": f'{_usd(r["usd"])}  ·  {r["idx"]}'} for r in cla["rows"]],
+                       colour=PX_GILT)
+    col_tbl = px_table(["Colour", "Index", "Applied / ct", ""],
+                       [[r["g"], str(r["idx"]), _usd(r["usd"]), r["note"]] for r in col["rows"]], numeric_from=1)
+    cla_tbl = px_table(["Clarity", "Index", "Applied / ct", ""],
+                       [[r["g"], str(r["idx"]), _usd(r["usd"]), r["note"]] for r in cla["rows"]], numeric_from=1)
+
+    # -- retailers, magic, lab
+    rt = P["retailers"]
+    rt_tbl = px_table(["Counter", "Asking / ct", "Tier"],
+                      [[r["n"], _usd(r["usd"]), r["t"]] for r in rt["rows"]], note=rt["note"])
+    mg_tbl = px_table(["Step", "Per carat", "Reading"],
+                      [[r["step"], r["pct"], r["note"]] for r in P["magic"]["rows"]])
+    lb = P["lab"]
+    lb_tbl = px_table(["Measure", "Figure"], [[r["k"], r["v"]] for r in lb["rows"]])
+
+    ctx = "".join(f"""<div class="brf rv"><div class="bn">M—{i+1:02d}</div><h3>{c['h']}</h3><p>{c['b']}</p></div>"""
+                  for i, c in enumerate(P["context"]["rows"]))
+    meth = "".join(f"""<div class="glo rv"><div class="term">{m['h']}</div><p>{m['b']}</p></div>"""
+                   for m in P["method"]["rows"])
+    srcs = "".join(
+        f'<tr><td style="font-family:var(--text);font-size:14px;padding:8px 14px 8px 0;border-bottom:1px solid {PX_HAIR}">{s["n"]}</td>'
+        f'<td style="font-family:var(--mono);font-size:11.5px;padding:8px 14px 8px 0;border-bottom:1px solid {PX_HAIR};'
+        f'white-space:nowrap;color:var(--ink-3)">{s["d"]}</td>'
+        f'<td style="font-family:var(--mono);font-size:11.5px;padding:8px 0;border-bottom:1px solid {PX_HAIR};'
+        f'color:var(--gilt)">{s["u"]}</td></tr>' for s in P["sources"])
+    excl = "".join(f'<li style="margin-bottom:9px"><b style="font-family:var(--mono);font-size:12.5px">{e["n"]}</b> — {e["why"]}</li>'
+                   for e in P["excluded"])
+
+    return f"""{head("The Natural Diamond Price List — every shape, every weight — Carat Capital",
+                     "Natural diamond prices for 2026: wholesale trade benchmark and retail asking price side by side, across ten shapes and eleven weight bands, with colour and clarity ladders, sources and method.",
+                     "natural-diamond-prices.html")}
+{folio("The Price Desk · Natural diamonds")}
+{navbar()}
+{omenu()}
+
+<section class="deskhero"><div class="wrap">
+  <div class="dh-no">The Price Desk · Natural · Updated {P['as_of']}</div>
+  <h1 class="art-h" style="font-size:clamp(38px,5.6vw,80px);text-transform:uppercase;max-width:16ch">The Natural Diamond Price List<em style="font-family:var(--disp);font-style:normal;font-weight:400;color:var(--seal);text-transform:none;font-size:.34em;display:block;margin-top:16px;letter-spacing:-.01em">{P['kicker']}</em></h1>
+  <p class="dh-dek" style="max-width:78ch">{P['standfirst']}</p>
+</div></section>
+
+<section class="burin"><div class="wrap" style="padding-top:34px">
+  {headline}
+</div></section>
+
+<section class="burin"><div class="wrap">
+  {px_sec("Weight", "what a carat costs, all the way up", "Figure CC/2026/149")}
+  {px_lede(wt['sub'])}
+  {px_fig(px_curve(wt['rows']), '149', 'Per carat, by weight', 'Log scale · trade against retail asking · USD')}
+  {weight_tbl}
+  {px_flag(wt['withheld_note'])}
+  {px_flag(wt['ten_note'])}
+</div></section>
+
+<section class="burin"><div class="wrap">
+  {px_sec("The spread", "how much the counter adds", "Figure CC/2026/150")}
+  {px_lede(P['spread']['note'])}
+  {px_fig(px_spread(P['spread']['rows']), '150', 'Retail markup over the trade benchmark', 'Percentage added, by weight')}
+  {px_table(["Evidence", "Reading"], [[e["k"], e["v"]] for e in P['spread']['evidence']])}
+</div></section>
+
+<section class="burin"><div class="wrap">
+  {px_sec("Two benchmarks", "why the trade quotes two numbers")}
+  {dual_tbl}
+</div></section>
+
+<section class="burin"><div class="wrap">
+  {px_sec("Shape", "ten cuts, one carat, one grading standard", "Figure CC/2026/151")}
+  {px_lede(sh['sub'])}
+  {px_fig(sh_bars, '151', 'Asking price per carat, by shape', 'Hatched bars carry conflicting sources')}
+  {sh_tbl}
+  {px_flag(sh['conflict_note'])}
+  <div class="glo-grid" style="margin-top:38px">{tiers}</div>
+</div></section>
+
+<section class="burin"><div class="wrap">
+  {px_sec("Colour and clarity", "the two ladders that set the price", "Figures CC/2026/152–153")}
+  {px_lede("Weight tells you how big. Shape tells you what it looks like. Colour and clarity tell you what it costs — and between them they move the price of a one-carat round by more than a factor of two in each direction.")}
+  {px_fig(col_bars, '152', col['caption'] + ' — ' + col['sub'], 'H = 100 · applied to the observed one-carat retail median')}
+  {col_tbl}
+  {px_flag(col['note'])}
+  <div style="height:56px"></div>
+  {px_fig(cla_bars, '153', cla['caption'] + ' — ' + cla['sub'], 'VS2 = 100 · applied to the observed one-carat retail median')}
+  {cla_tbl}
+  {px_flag(cla['note'])}
+  {px_flag(P['matrix_note'])}
+</div></section>
+
+<section class="burin"><div class="wrap">
+  {px_sec("Six counters", "the same certificate, six prices")}
+  {rt_tbl}
+</div></section>
+
+<section class="burin"><div class="wrap">
+  {px_sec("The magic weights", "what crossing a round number costs")}
+  {mg_tbl}
+  {px_flag(P['magic']['band_caveat'])}
+  {px_lede(P['magic']['note'])}
+</div></section>
+
+<section class="burin"><div class="wrap">
+  {px_sec("Against lab-grown", "where the two markets now sit")}
+  {lb_tbl}
+  {px_flag(lb['inversion'])}
+</div></section>
+
+<section class="briefing"><div class="wrap">
+  {px_sec("What moved the numbers", "the market behind the table")}
+  <div class="brf-grid">{ctx}</div>
+</div></section>
+
+<section class="glossary burin"><div class="wrap">
+  {px_sec("Method", "observed, modelled, withheld")}
+  <div class="glo-grid">{meth}</div>
+  <div class="rv" style="margin-top:52px">
+    <h3 style="font-family:var(--disp);font-weight:700;font-size:21px;letter-spacing:-.02em;border-bottom:2px solid var(--ink);padding-bottom:9px;margin-bottom:6px">Sources</h3>
+    <table style="width:100%;border-collapse:collapse"><tbody>{srcs}</tbody></table>
+  </div>
+  <div class="rv" style="margin-top:38px;max-width:74ch">
+    <h3 style="font-family:var(--disp);font-weight:700;font-size:17px;letter-spacing:-.02em;margin-bottom:12px">What we left out, and why</h3>
+    <ul style="font-family:var(--text);font-size:14.5px;line-height:1.6;color:var(--ink-2);padding-left:20px">{excl}</ul>
+  </div>
+</div></section>
+
+<section class="ctastrip"><div class="wrap"><div class="inner">
+  <h2>The quarter's other numbers — <em>metals, exports, salerooms, retail.</em></h2>
+  <a class="big" href="almanac.html">Open the Almanac →</a>
+</div></div></section>
+{colophon()}
+{SCRIPT}"""
+
 
 # ---------------- DESK PAGES ----------------
 def desk_page(d):
@@ -623,7 +1057,11 @@ def tape_block():
     cells = ""
     for t in WIRE.get("tape", []):
         color = "#69D08A" if t["dir"] == "up" else "#E8705F"
-        cells += f"""<div class="cell"><div class="sym"><span>{t['name']}</span><span class="code">{t['code']}</span></div><div class="px">{t['px']}</div><div class="d {t['dir']}">{t['chg']}</div>{spark(t['pts'], color)}</div>"""
+        inner = f"""<div class="sym"><span>{t['name']}</span><span class="code">{t['code']}</span></div><div class="px">{t['px']}</div><div class="d {t['dir']}">{t['chg']}</div>{spark(t['pts'], color)}"""
+        if t["code"] == "NAT1":
+            cells += f"""<a class="cell cell--cta" href="natural-diamond-prices.html">{inner}<span class="cell-cta">See all natural prices →</span></a>"""
+        else:
+            cells += f"""<div class="cell">{inner}</div>"""
     ts = WIRE.get("tape_ts", "")
     return f"""<div class="tape" id="tape-a">
   <div class="wrap">
@@ -881,7 +1319,10 @@ def index_page():
     # price rail (compact tape)
     chips = ""
     for t in WIRE.get("tape", [])[:5]:
-        chips += f"""<a class="chip" href="almanac.html"><span class="nm">{t['name']}</span><span class="px">{t['px']}</span><span class="d {t['dir']}">{t['chg']}</span></a>"""
+        if t["code"] == "NAT1":
+            chips += f"""<a class="chip chip--cta" href="natural-diamond-prices.html"><span class="nm">{t['name']}</span><span class="px">{t['px']}</span><span class="d {t['dir']}">{t['chg']}</span><span class="cta">See all natural prices →</span></a>"""
+        else:
+            chips += f"""<a class="chip" href="almanac.html"><span class="nm">{t['name']}</span><span class="px">{t['px']}</span><span class="d {t['dir']}">{t['chg']}</span></a>"""
     # desk navigator: latest story per desk + count
     # desk of the day = most stories filed today; runner-up gets the second wide card
     fresh_counts = {d["slug"]: sum(1 for a in ARTICLES if a.get("desk") == d["slug"] and a["date"] == latest_date) for d in DESKS}
@@ -1132,13 +1573,14 @@ for a in ARTICLES:
 (out/"the-record.html").write_text(record_page())
 (out/"almanac.html").write_text(almanac_page())
 (out/"about.html").write_text(about_page())
+(out/"natural-diamond-prices.html").write_text(prices_page())
 for _f in out.glob("*.html"):
     _f.write_text(_clean_links(_f.read_text()))
 (out/"assets"/"favicon.svg").write_text(FAVICON)
 (out/"assets"/"logo-mark.svg").write_text(logo_mark_svg())
 (out/"feed.xml").write_text(rss_feed())
 (out/"llms.txt").write_text(llms_txt())
-pages = ["index.html", "field-guide.html", "about.html", "the-record.html", "almanac.html"] + [f"{d['slug']}.html" for d in DESKS] + [f"a-{a['slug']}.html" for a in ARTICLES]
+pages = ["index.html", "field-guide.html", "about.html", "the-record.html", "almanac.html", "natural-diamond-prices.html"] + [f"{d['slug']}.html" for d in DESKS] + [f"a-{a['slug']}.html" for a in ARTICLES]
 (out/"sitemap.xml").write_text(sitemap(pages))
 (out/"robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {BASE_URL}/sitemap.xml\n")
 print("built:", ", ".join(pages), "+ sitemap, robots, favicon")

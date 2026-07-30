@@ -864,3 +864,21 @@ a.item:hover b{color:var(--seal)}
 .dc-bg::after{content:"";position:absolute;inset:0;background:linear-gradient(150deg,rgba(248,244,235,.55),rgba(248,244,235,.8) 60%,rgba(248,244,235,.9))}
 .dcard:hover .dc-bg img{transform:scale(1.045)}
 .dcard:hover .dc-bg::after{background:linear-gradient(150deg,rgba(248,244,235,.42),rgba(248,244,235,.72) 60%,rgba(248,244,235,.86))}
+
+/* ── The Price Desk → the natural price list ──────────────────────────── */
+.tape a.cell{display:block;color:inherit;transition:background .28s var(--ease)}
+.tape a.cell:hover{background:rgba(190,51,25,.08)}
+.tape .cell-cta{display:flex;align-items:center;gap:9px;font-family:var(--mono);font-size:9.5px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#E8A08C;margin-top:13px;transition:color .28s var(--ease)}
+.tape .cell-cta:after{content:"";flex:1;height:1px;background:linear-gradient(90deg,rgba(232,160,140,.55),transparent)}
+.tape a.cell:hover .cell-cta{color:#F6CDBF}
+.pricerail .chip--cta{flex-wrap:wrap;border-left:3px solid var(--seal);padding-left:11px;background:linear-gradient(180deg,rgba(190,51,25,.05),transparent)}
+.pricerail .chip--cta .cta{flex:0 0 100%;display:flex;align-items:center;gap:8px;font-family:var(--mono);font-size:9.5px;font-weight:600;letter-spacing:.13em;text-transform:uppercase;color:var(--seal);margin-top:9px;transition:color .28s var(--ease)}
+.pricerail .chip--cta .cta:after{content:"";flex:1;height:1px;background:linear-gradient(90deg,rgba(190,51,25,.5),transparent)}
+.pricerail .chip--cta:hover{background:var(--paper-lo)}
+.pricerail .chip--cta:hover .cta{color:var(--seal-deep)}
+
+/* price-list page: tables breathe, figures never clip */
+.burin figure svg{max-width:100%;height:auto}
+@media(max-width:720px){
+  .tape .cell-cta{font-size:9px;letter-spacing:.1em}
+}

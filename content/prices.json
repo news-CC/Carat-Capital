@@ -1,0 +1,241 @@
+{
+  "stone": "natural",
+  "title": "The Natural Diamond Price List",
+  "kicker": "Every shape, every weight, trade and retail side by side",
+  "standfirst": "What a natural diamond actually costs — the wholesale benchmark the trade pays, the asking price the counter shows, and the spread between them, across ten shapes and eleven weight bands. Every figure is dated, every source is named, and every number we modelled rather than observed says so.",
+  "as_of": "2026-07-30",
+  "currency": "USD",
+  "plate_series": "CC/2026",
+
+  "headline": {
+    "spec": "1.00 ct round brilliant, G colour, VS1 clarity, GIA",
+    "trade_ct": 3033,
+    "trade_label": "IDEX price-driver average",
+    "trade_date": "2026-07-30",
+    "rapi_ct": 3880,
+    "rapi_label": "RAPI, D–H / IF–VS2",
+    "rapi_date": "2026-07-01",
+    "retail_ct": 5580,
+    "retail_label": "median of six online retailers",
+    "retail_low": 3472,
+    "retail_high": 7600,
+    "spread_pct": 84,
+    "rap_list_ct": 8600,
+    "vs_list_pct": -35,
+    "note": "The counter price is 84% above the trade benchmark and still about 35% below Rapaport list. Both things are true at once: the retail margin is real, and the list itself has stopped being the price anyone pays."
+  },
+
+  "weights": {
+    "caption": "Trade against retail, per carat and per stone",
+    "sub": "Trade column is the IDEX price-driver average where a driver exists, RAPI where it does not. Retail is the observed six-retailer median at one carat and a declining multiple of the trade benchmark elsewhere — stated, not hidden.",
+    "rows": [
+      {"w": "0.30 ct", "wt": 0.30, "trade_ct": 899,   "trade_stone": 270,    "retail_ct": 1888,  "retail_stone": 566,    "spread": 110, "basis": "modelled", "src": "RAPI 2026-07-01"},
+      {"w": "0.50 ct", "wt": 0.50, "trade_ct": 1315,  "trade_stone": 658,    "retail_ct": 2630,  "retail_stone": 1315,   "spread": 100, "basis": "modelled", "src": "IDEX 0.50–0.69"},
+      {"w": "0.70 ct", "wt": 0.70, "trade_ct": 1523,  "trade_stone": 1066,   "retail_ct": 2924,  "retail_stone": 2047,   "spread": 92,  "basis": "modelled", "src": "IDEX 0.70–0.89"},
+      {"w": "0.90 ct", "wt": 0.90, "trade_ct": 1892,  "trade_stone": 1703,   "retail_ct": 3557,  "retail_stone": 3201,   "spread": 88,  "basis": "modelled", "src": "IDEX 0.90–0.99"},
+      {"w": "1.00 ct", "wt": 1.00, "trade_ct": 3033,  "trade_stone": 3033,   "retail_ct": 5580,  "retail_stone": 5580,   "spread": 84,  "basis": "observed", "src": "IDEX 1.00–1.49 · six-retailer median"},
+      {"w": "1.50 ct", "wt": 1.50, "trade_ct": 4566,  "trade_stone": 6849,   "retail_ct": 7854,  "retail_stone": 11781,  "spread": 72,  "basis": "modelled", "src": "IDEX 1.50–1.99"},
+      {"w": "2.00 ct", "wt": 2.00, "trade_ct": 8885,  "trade_stone": 17770,  "retail_ct": 14216, "retail_stone": 28432,  "spread": 60,  "basis": "modelled", "src": "IDEX 2.00–2.49"},
+      {"w": "3.00 ct", "wt": 3.00, "trade_ct": 16375, "trade_stone": 49125,  "retail_ct": 23744, "retail_stone": 71232,  "spread": 45,  "basis": "modelled", "src": "IDEX 3.00–3.49"},
+      {"w": "4.00 ct", "wt": 4.00, "trade_ct": 0,     "trade_stone": 0,      "retail_ct": 0,     "retail_stone": 0,      "spread": 0,   "basis": "withheld", "src": "sample too thin to publish"},
+      {"w": "5.00 ct", "wt": 5.00, "trade_ct": 21099, "trade_stone": 105495, "retail_ct": 28484, "retail_stone": 142420, "spread": 35,  "basis": "modelled", "src": "IDEX 5.00–5.99"},
+      {"w": "10.00 ct","wt": 10.0, "trade_ct": 0,     "trade_stone": 0,      "retail_ct": 37474, "retail_stone": 374740, "spread": 0,   "basis": "retail-only", "src": "StoneAlgo live retail"}
+    ],
+    "withheld_note": "The 4.00–4.99 ct band is the one figure on this page we decline to print. IDEX carries it at $32,660 a carat — above the five-carat band at $21,099 — on 0.32% of the market. A four-carat stone does not cost more per carat than a five-carat stone. The band is too thin to mean anything, so it stays blank rather than being smoothed into something that looks like a price.",
+    "ten_note": "No public source publishes a wholesale per-carat figure for ten carats. IDEX carries no driver at that weight, RAPI publishes no level, and the independent Antwerp grids stop at six. The ten-carat line is a live retail asking average and is marked as such."
+  },
+
+  "dual_basis": {
+    "caption": "Why there are two trade numbers",
+    "sub": "RAPI reads the top of the market; IDEX reads the middle of it. Where both exist they disagree, and the gap is the point.",
+    "rows": [
+      {"w": "0.30 ct", "rapi": 899,   "idex": 0,        "gap": ""},
+      {"w": "0.50 ct", "rapi": 1231,  "idex": 1315,     "gap": "+6.8%"},
+      {"w": "1.00 ct", "rapi": 3880,  "idex": 3033,     "gap": "−21.8%"},
+      {"w": "3.00 ct", "rapi": 17879, "idex": 16375,    "gap": "−8.4%"}
+    ],
+    "note": "RAPI is the average asking price of the ten per cent lowest-priced D–H, IF–VS2, GIA-graded stones on RapNet. It is a floor for a narrow top specification, not a market mean. IDEX price drivers average a far broader spread of colour and clarity. At one carat the broad market sits 22% below the narrow top spec, which is what you would expect — and a useful reminder that a single 'diamond price' does not exist."
+  },
+
+  "colour": {
+    "caption": "Colour",
+    "sub": "D to K, one carat round, VS1 — index and applied retail asking",
+    "base_index": 100,
+    "base_grade": "H",
+    "rows": [
+      {"g": "D", "idx": 176, "usd": 8323, "note": "Colourless"},
+      {"g": "E", "idx": 154, "usd": 7282, "note": "Colourless"},
+      {"g": "F", "idx": 139, "usd": 6573, "note": "Colourless"},
+      {"g": "G", "idx": 118, "usd": 5580, "note": "Near colourless"},
+      {"g": "H", "idx": 100, "usd": 4729, "note": "Near colourless · index base"},
+      {"g": "I", "idx": 87,  "usd": 4114, "note": "Near colourless"},
+      {"g": "J", "idx": 74,  "usd": 3499, "note": "Near colourless"},
+      {"g": "K", "idx": 66,  "usd": 3121, "note": "Faint"}
+    ],
+    "swing": "−62.5%",
+    "note": "A K costs 62.5% less per carat than a D at the same weight, shape and clarity. An independent Antwerp grid puts the same swing at 61.6% — close enough, from a different desk, to trust the shape of the curve."
+  },
+
+  "clarity": {
+    "caption": "Clarity",
+    "sub": "IF to SI2, one carat round, G colour — index and applied retail asking",
+    "base_index": 100,
+    "base_grade": "VS2",
+    "rows": [
+      {"g": "IF",   "idx": 171, "usd": 8370, "note": "Internally flawless"},
+      {"g": "VVS1", "idx": 150, "usd": 7342, "note": "Very very slightly included"},
+      {"g": "VVS2", "idx": 129, "usd": 6314, "note": "Very very slightly included"},
+      {"g": "VS1",  "idx": 114, "usd": 5580, "note": "Very slightly included"},
+      {"g": "VS2",  "idx": 100, "usd": 4895, "note": "Very slightly included · index base"},
+      {"g": "SI1",  "idx": 83,  "usd": 4063, "note": "Slightly included · often eye-clean"},
+      {"g": "SI2",  "idx": 69,  "usd": 3377, "note": "Slightly included"}
+    ],
+    "swing": "−59.6%",
+    "note": "SI2 costs 59.6% less than IF. The two grades that matter most to a buyer's wallet are the ones nobody can see: the step from VS2 to SI1 costs 17% and is invisible to the eye in most stones."
+  },
+
+  "matrix_note": "We publish colour and clarity as two separate ladders, never crossed into a grid. Multiplying one by the other would reconstruct a proprietary price list cell by cell, and that list is somebody else's copyrighted product. The ladders are drawn from published index aggregates; the grid is not ours to print.",
+
+  "shapes": {
+    "caption": "Shape",
+    "sub": "Ten cuts, one carat, against the round brilliant — live asking prices, 169,324 stones",
+    "base": 4581,
+    "base_shape": "Round brilliant",
+    "rows": [
+      {"s": "Round brilliant", "d": 0.0,   "usd": 4581, "band": "baseline",        "tier": "brilliant", "conf": "high"},
+      {"s": "Pear",            "d": -17.1, "usd": 3798, "band": "conflicted",      "tier": "elongated", "conf": "conflicted"},
+      {"s": "Marquise",        "d": -20.6, "usd": 3637, "band": "conflicted",      "tier": "elongated", "conf": "conflicted"},
+      {"s": "Oval",            "d": -22.6, "usd": 3546, "band": "−20 to −24%", "tier": "elongated", "conf": "high"},
+      {"s": "Emerald",         "d": -38.4, "usd": 2822, "band": "−35 to −38%", "tier": "step",      "conf": "high"},
+      {"s": "Radiant",         "d": -39.2, "usd": 2785, "band": "−33 to −39%", "tier": "step",      "conf": "high"},
+      {"s": "Princess",        "d": -39.4, "usd": 2776, "band": "−32 to −39%", "tier": "step",      "conf": "high"},
+      {"s": "Cushion",         "d": -39.9, "usd": 2753, "band": "−40%",           "tier": "step",      "conf": "high"},
+      {"s": "Asscher",         "d": -41.2, "usd": 2694, "band": "−35 to −41%", "tier": "step",      "conf": "high"},
+      {"s": "Heart",           "d": -42.9, "usd": 2616, "band": "−30 to −43%", "tier": "step",      "conf": "high"}
+    ],
+    "tiers": [
+      {"name": "The round", "range": "baseline", "why": "Roughly a third of rough is lost cutting one. You pay for the waste."},
+      {"name": "Elongated brilliants", "range": "−17 to −23%", "why": "Oval, pear, marquise. Cut with the grain of the rough, so less is thrown away — and they look larger face-up than their weight."},
+      {"name": "Step cuts and squares", "range": "−33 to −43%", "why": "Emerald, asscher, radiant, princess, cushion, heart. Cheapest per carat, and the least forgiving: an open table shows every inclusion the round would have hidden."}
+    ],
+    "conflict_note": "Pear and marquise are the two shapes we will not price to a single number. Live inventory at one house puts pear 44% below its own round; another retailer's published differential puts it 18.7% above. That is not rounding — it is two different books. Read the shape tier, not the decimal."
+  },
+
+  "spread": {
+    "caption": "The spread",
+    "sub": "How much the counter adds, by weight",
+    "rows": [
+      {"w": "0.30 ct", "pct": 110},
+      {"w": "0.50 ct", "pct": 100},
+      {"w": "0.70 ct", "pct": 92},
+      {"w": "0.90 ct", "pct": 88},
+      {"w": "1.00 ct", "pct": 84},
+      {"w": "1.50 ct", "pct": 72},
+      {"w": "2.00 ct", "pct": 60},
+      {"w": "3.00 ct", "pct": 45},
+      {"w": "5.00 ct", "pct": 35}
+    ],
+    "note": "Markup falls as the stone grows. A third of a carat carries roughly double the trade price; a five-carat carries about a third on top. The small stone pays for the shop.",
+    "evidence": [
+      {"k": "Rapaport's own guidance", "v": "most diamonds trade 10–30% below list"},
+      {"k": "Signet gross margin", "v": "39.5% · FY2026 · implies 1.65×"},
+      {"k": "Brilliant Earth gross margin", "v": "57.5% · FY2025 · implies 2.35×"},
+      {"k": "Blue Nile gross margin", "v": "19.2% · last disclosed · implies 1.24×"}
+    ]
+  },
+
+  "retailers": {
+    "caption": "The same stone, six counters",
+    "sub": "1.00 ct round, G, VS1 — asking price per carat, observed 2026-07-30",
+    "rows": [
+      {"n": "Ritani",       "usd": 3472, "t": "value cut tier"},
+      {"n": "Rare Carat",   "usd": 4420, "t": "marketplace aggregate"},
+      {"n": "Blue Nile",    "usd": 5454, "t": "mainstream"},
+      {"n": "James Allen",  "usd": 5706, "t": "mainstream"},
+      {"n": "PriceScope",   "usd": 6884, "t": "published index"},
+      {"n": "Whiteflash",   "usd": 7600, "t": "super-ideal cut"}
+    ],
+    "note": "A 2.19× spread on an identical grading report. This is not error and it is not all margin — most of it is cut. The bottom of the range is a stone graded G VS1 and cut to a commercial standard; the top is the same paper cut to a super-ideal tolerance. The certificate does not price the diamond. The cut does."
+  },
+
+  "magic": {
+    "caption": "The magic weights",
+    "sub": "What crossing a round number costs",
+    "rows": [
+      {"step": "0.90 → 1.00 ct", "pct": "+23 to +24%", "note": "Like for like, same colour and clarity. Four independent methods converge inside a single point."},
+      {"step": "0.30 → 0.50 ct", "pct": "+37%",        "note": "Per carat, RAPI against RAPI."},
+      {"step": "1.00 → 2.00 ct", "pct": "+193%",       "note": "Per carat, on the IDEX drivers. Double the weight, nearly triple the rate."}
+    ],
+    "note": "Buy 0.90 and nobody at the table can tell. That is the single cheapest piece of advice on this page.",
+    "band_caveat": "Divide the 1.00 ct row of the main table by the 0.90 ct row and you get +60%, not +24%. Both are right and they measure different things. The main table averages every stone inside a weight band, and the specification mix changes as the bands rise — more of the better colours sit above a carat. The +23 to +24% here is the same colour and the same clarity on both sides of the line. That figure is the one to plan a purchase around."
+  },
+
+  "lab": {
+    "caption": "Against lab-grown",
+    "sub": "Where the two markets now sit",
+    "nat_ct": 4581,
+    "lab_ct": 550,
+    "multiple": "8.3×",
+    "lab_date": "2026-07-25",
+    "rows": [
+      {"k": "1 ct round, natural, live retail average", "v": "$4,581 / ct"},
+      {"k": "1 ct round, lab-grown, live retail average", "v": "$550 / ct"},
+      {"k": "Natural to lab multiple", "v": "8.3×"},
+      {"k": "Lab-grown wholesale since July 2018", "v": "−96%"},
+      {"k": "Lab-grown Q2 2026, overall", "v": "−13% year on year"},
+      {"k": "Lab-grown Q2 2026, 1 ct rounds", "v": "+1% — the only riser"}
+    ],
+    "inversion": "The fancy-shape discount has inverted in lab-grown. Where a natural oval costs 23% less than a natural round, a lab oval costs 11% more than a lab round — and a lab princess costs 23% more. In a market with no scarcity, price follows growing time and cutting loss rather than rarity, and the ranking flips. It is the cleanest single illustration of what the two markets actually are.",
+    "followup": "A full lab-grown list follows this one."
+  },
+
+  "context": {
+    "caption": "What moved the numbers",
+    "rows": [
+      {"h": "Rough is still falling", "b": "De Beers realised $110 a carat in the second quarter of 2026, down 37% year on year; $105 across the half, down 32%. Its half-year price index reads 69, off 16%. The full-year 2025 average was $142."},
+      {"h": "Polished has stopped falling at the bottom", "b": "RAPI at 0.30 ct is up 7.7% so far this year even as it sits 23.3% below last July. The small-stone recovery is the first sustained upward move in the index in two years."},
+      {"h": "The middle is still soft", "b": "One carat is down 6.4% year to date and 15.3% year on year. Three carat is close to flat: −1.8% and −0.8%."},
+      {"h": "Tariffs arrived in July", "b": "US duty effective 24 July 2026: India 10%, EU zero, Hong Kong and China 12.5% plus Section 301. Canada goes to 50% from 19 August."},
+      {"h": "Sanctions bite at half a carat", "b": "The G7 threshold on Russian-origin stones has stood at 0.50 ct since 1 September 2024, and a due-diligence statement has been required on polished imports since 1 January 2026."},
+      {"h": "Fancy colour is flat, not falling", "b": "The Fancy Colour Research Foundation index was −0.2% on the quarter and −0.9% on the year in Q1 2026. Blue is best read as unchanged: two houses reported the same release as +0.3% and −0.3%."},
+      {"h": "The top of the market is fine", "b": "Gem Diamonds averaged $1,395 a carat in the first half, up 38%, with a 52.24 ct white at $32,908 a carat. At auction the Ocean Dream, 5.5 ct vivid blue-green, made $17.3m — about $3.15m a carat."},
+      {"h": "And De Beers is changing hands", "b": "The Gareth Penny consortium is reported at about $1bn for Anglo American's 85%, against a book value near $2.3bn earlier this year."}
+    ]
+  },
+
+  "method": {
+    "caption": "Method",
+    "rows": [
+      {"h": "What is observed", "b": "The trade per-carat column at 0.50, 0.70, 0.90, 1.00, 1.50, 2.00, 3.00 and 5.00 carats is read directly from IDEX price drivers on 30 July 2026. The 0.30 ct figure is RAPI at 1 July 2026. The one-carat retail figure is the median of six retailers priced on 30 July 2026. The shape table is a live sample of 169,324 asking prices. The colour and clarity indices are published aggregates at 31 December 2025."},
+      {"h": "What is modelled", "b": "Retail per carat at every weight other than one carat. It is the trade benchmark multiplied by a factor that falls from 2.10 at 0.30 ct to 1.35 at 5.00 ct, calibrated on the observed 1.84 at one carat and cross-checked against the disclosed gross margins of three listed retailers. Rows carrying modelled figures say so in the table."},
+      {"h": "What is withheld", "b": "The 4.00–4.99 ct band, because its published per-carat average exceeds the band above it on a sample of 0.32%. And the colour × clarity grid, because building one from published premiums would reconstruct a copyrighted price list."},
+      {"h": "Units", "b": "All figures are US dollars per carat unless a whole-stone column says otherwise. Rapaport's index documentation describes its levels in hundreds of dollars per carat; at that reading a one-carat stone would price near $388,000. The levels are only coherent as plain dollars per carat and are printed here as such."},
+      {"h": "What this is not", "b": "This is a market reference, not a valuation and not an offer. Every stone prices on its own certificate, its own cut and its own day."}
+    ]
+  },
+
+  "sources": [
+    {"n": "Rapaport — RAPI monthly levels and commentary", "d": "2026-07-01", "u": "rapaport.com"},
+    {"n": "Rapaport — annual statistics, colour and clarity aggregates", "d": "2025-12-31", "u": "rapaport.com"},
+    {"n": "Rapaport — price list guidance on trade discounts", "d": "2026-07-29", "u": "rapaport.com/diamond-price-list"},
+    {"n": "IDEX Online — polished price drivers by weight band", "d": "2026-07-30", "u": "idexonline.com"},
+    {"n": "IDEX Online — composite polished index", "d": "2026-07-12", "u": "idexonline.com"},
+    {"n": "StoneAlgo — live shape and weight asking-price sample, n=169,324", "d": "2026-07-30", "u": "stonealgo.com"},
+    {"n": "Blue Nile, James Allen, Ritani, Whiteflash, Rare Carat — live inventory", "d": "2026-07-30", "u": "retailer sites"},
+    {"n": "PriceScope — published diamond price index", "d": "2026-07", "u": "pricescope.com"},
+    {"n": "Ajediam — independent Antwerp grid, used for ratios only", "d": "2025-04", "u": "ajediam.com"},
+    {"n": "Anglo American — De Beers production and realised price report", "d": "2026-07", "u": "angloamerican.com"},
+    {"n": "Gem Diamonds — half-year trading statement", "d": "2026-07", "u": "gemdiamonds.com"},
+    {"n": "Fancy Colour Research Foundation — FCRF index Q1 2026", "d": "2026-04", "u": "fcresearch.org"},
+    {"n": "Edahn Golan — lab-grown wholesale series", "d": "2026-07", "u": "edahngolan.com"},
+    {"n": "Signet Jewelers, Brilliant Earth — reported gross margin", "d": "FY2026 / FY2025", "u": "SEC filings"},
+    {"n": "US Federal Register — reciprocal tariff schedule effective 24 July 2026", "d": "2026-07-24", "u": "federalregister.gov"}
+  ],
+
+  "excluded": [
+    {"n": "diamondse.info", "why": "last updated March 2024"},
+    {"n": "Diamond Registry price tables", "why": "self-contradicting and derivative of a copyrighted list"},
+    {"n": "PriceScope G-colour clarity row", "why": "inverted — IF prints below VS1; used for the VS1 colour point only"},
+    {"n": "Zimnisky rough index absolute level", "why": "percentage changes are public, the index level is not"}
+  ]
+}

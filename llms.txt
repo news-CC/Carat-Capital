@@ -6,6 +6,7 @@
 - [Front page](https://caratcapital.org/): today's edition, the wire, and the live price tape
 - [The Record](https://caratcapital.org/the-record): a dated, sourced week-by-week chronicle of the industry
 - [The Almanac](https://caratcapital.org/almanac): the quarter's key numbers in sourced tables (metals, exports, prices, auctions, retail)
+- [The Natural Diamond Price List](https://caratcapital.org/natural-diamond-prices): natural diamond prices by shape, weight, colour and clarity — wholesale trade benchmark and retail asking price side by side, with stated method and named sources
 - [The Field Guide](https://caratcapital.org/field-guide.html): plain-language introduction to how the jewelry trade works
 - [About & editorial standards](https://caratcapital.org/about.html)
 - [RSS feed](https://caratcapital.org/feed.xml)
