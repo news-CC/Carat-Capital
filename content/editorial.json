@@ -17611,5 +17611,918 @@
     }
    ]
   }
+ },
+ "one-billion-for-de-beers": {
+  "strip": {
+   "cap": "By the numbers · the De Beers price",
+   "cells": [
+    {
+     "fig": "$1B",
+     "lab": "reported total"
+    },
+    {
+     "fig": "$750M",
+     "lab": "paid on closing"
+    },
+    {
+     "fig": "$250M",
+     "lab": "deferred"
+    },
+    {
+     "fig": "$500M",
+     "dir": "up",
+     "lab": "working capital in"
+    },
+    {
+     "fig": "$2.3B",
+     "lab": "book value, earlier 2026"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "What De Beers has been worth",
+    "rows": [
+     {
+      "l": "2001 TAKE-PRIVATE",
+      "v": 17600,
+      "d": "$17.6B"
+     },
+     {
+      "l": "BOOK, EARLY 2026",
+      "v": 2300,
+      "d": "$2.3B"
+     },
+     {
+      "l": "REPORTED PRICE",
+      "v": 1000,
+      "d": "$1.0B",
+      "hi": true
+     }
+    ],
+    "note": "USD. Take-private valuation vs. carrying value vs. reported bid.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/141"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "A number, at last.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Producing into the trough.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "A price of $1 billion is therefore not a discount to a peak so much as an admission that the peak belonged to a different industry.",
+     "attr": "The Diamonds Desk"
+    }
+   },
+   {
+    "sub": "Three governments at one table.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Anglo picks the Penny group",
+     "href": "a-de-beers-sale-gets-a-clock.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "The number that matters is not the $1 billion but the $500 million going in behind it, because the price of the asset is now smaller than the cost of carrying it through another soft year."
+  },
+  "next": {
+   "lead": {
+    "slug": "de-beers-eighty-eight-up",
+    "tag": "The quarter",
+    "blurb": "De Beers digs 88% more and banks 44% less."
+   },
+   "minis": [
+    {
+     "slug": "gaborone-answers-penny",
+     "tag": "Botswana"
+    },
+    {
+     "slug": "angolas-rough-clears",
+     "tag": "Rough"
+    }
+   ]
+  }
+ },
+ "angolas-rough-clears": {
+  "strip": {
+   "cap": "By the numbers · Luanda",
+   "cells": [
+    {
+     "fig": "95%",
+     "dir": "up",
+     "lab": "TAGS sell-through"
+    },
+    {
+     "fig": "10.8ct+",
+     "lab": "goods on offer"
+    },
+    {
+     "fig": "$21.7M",
+     "lab": "Sodiam 17th auction"
+    },
+    {
+     "fig": "6,586.89ct",
+     "lab": "carats sold"
+    },
+    {
+     "fig": "+23.46%",
+     "dir": "up",
+     "lab": "above expected value"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Average price per carat, by seller",
+    "rows": [
+     {
+      "l": "GEM DIAMONDS (LETSENG)",
+      "v": 1501,
+      "d": "$1,501",
+      "hi": true
+     },
+     {
+      "l": "DE BEERS Q2",
+      "v": 105,
+      "d": "$105"
+     }
+    ],
+    "note": "USD per carat. Large-stone producers vs. the mainstream rough book.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/142"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Ninety-five out of a hundred.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Size, not geography.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "An auction that lands nearly a quarter above the reserve book is not the behaviour of a market in retreat.",
+     "attr": "The Rough Desk"
+    }
+   },
+   {
+    "sub": "Both sides of the table.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Petra caves at the bottom",
+     "href": "a-petra-caves-at-the-bottom.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "the scarcity premium is real above ten carats and still absent below one"
+  },
+  "next": {
+   "lead": {
+    "slug": "one-billion-for-de-beers",
+    "tag": "The sale",
+    "blurb": "Anglo's price for De Beers comes in at about $1 billion."
+   },
+   "minis": [
+    {
+     "slug": "gem-diamonds-rides-the-big-ones",
+     "tag": "Large stones"
+    },
+    {
+     "slug": "angola-bids-for-the-house",
+     "tag": "Angola"
+    }
+   ]
+  }
+ },
+ "gold-unwinds-the-hold": {
+  "strip": {
+   "cap": "By the numbers · gold after the Fed",
+   "cells": [
+    {
+     "fig": "$4,074.98",
+     "dir": "up",
+     "lab": "spot, Thursday"
+    },
+    {
+     "fig": "+0.22%",
+     "dir": "up",
+     "lab": "on the day"
+    },
+    {
+     "fig": "+23.84%",
+     "dir": "up",
+     "lab": "year on year"
+    },
+    {
+     "fig": "$57.79",
+     "dir": "down",
+     "lab": "silver / oz"
+    },
+    {
+     "fig": "70.37",
+     "lab": "gold-silver ratio"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Three days around the decision",
+    "rows": [
+     {
+      "l": "THU 30 JUL",
+      "v": 4075,
+      "d": "$4,075",
+      "hi": true
+     },
+     {
+      "l": "TUE 28 JUL",
+      "v": 4046,
+      "d": "$4,046"
+     },
+     {
+      "l": "WED 29 JUL (CLOSE)",
+      "v": 4029,
+      "d": "$4,029"
+     }
+    ],
+    "note": "USD/oz spot. The FOMC held at 3.50–3.75% on 29 July.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/143"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Undone in a session.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Silver stays behind.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "Official buying is indifferent to a quarter-point, which is why every dip since spring has found a floor before it found a seller of consequence.",
+     "attr": "The Bullion Desk"
+    }
+   },
+   {
+    "sub": "The tag, not the screen.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "The Fed holds, gold exhales",
+     "href": "a-fed-holds-gold-exhales.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "the trade should plan for a $4,000 handle as the operating assumption rather than the exception"
+  },
+  "next": {
+   "lead": {
+    "slug": "platinum-loses-its-teacher",
+    "tag": "White metals",
+    "blurb": "Platinum jumps to $1,628 as PGI's US educator retires."
+   },
+   "minis": [
+    {
+     "slug": "fed-holds-gold-exhales",
+     "tag": "The decision"
+    },
+    {
+     "slug": "india-gold-signals-mixed",
+     "tag": "Demand"
+    }
+   ]
+  }
+ },
+ "platinum-loses-its-teacher": {
+  "strip": {
+   "cap": "By the numbers · platinum",
+   "cells": [
+    {
+     "fig": "$1,628.20",
+     "dir": "up",
+     "lab": "platinum / oz"
+    },
+    {
+     "fig": "+1.62%",
+     "dir": "up",
+     "lab": "on the day"
+    },
+    {
+     "fig": "+26.13%",
+     "dir": "up",
+     "lab": "year on year"
+    },
+    {
+     "fig": "−6%",
+     "dir": "down",
+     "lab": "2026 jewellery demand"
+    },
+    {
+     "fig": "39 yrs",
+     "lab": "Reilly in the trade"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "The metal and the counter",
+    "rows": [
+     {
+      "l": "PLATINUM, Y/Y",
+      "v": 26,
+      "d": "+26.13%",
+      "hi": true
+     },
+     {
+      "l": "PALLADIUM, Y/Y",
+      "v": 7,
+      "d": "+6.64%"
+     },
+     {
+      "l": "PT JEWELLERY DEMAND, 2026F",
+      "v": -6,
+      "d": "−6%"
+     }
+    ],
+    "note": "Percent change. Metal price vs. forecast jewellery offtake.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/144"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "A good day, a bad forecast.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "The bench nobody sees.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "That is the awkward shape of this market: a metal whose investment and industrial case keeps strengthening while the counter that carries its name sells less of it.",
+     "attr": "The Metals Desk"
+    }
+   },
+   {
+    "sub": "Forty-eight parades.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Platinum, short a fourth year",
+     "href": "a-platinum-short-a-fourth-year.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "The opportunity is the discount to gold, which at these levels buys a bridal ring in a rarer metal for less money per gram of finished weight."
+  },
+  "next": {
+   "lead": {
+    "slug": "gold-unwinds-the-hold",
+    "tag": "Gold",
+    "blurb": "Gold takes back $4,075 the morning after the hold."
+   },
+   "minis": [
+    {
+     "slug": "white-metals-lose-their-heat",
+     "tag": "Reversal"
+    },
+    {
+     "slug": "platinum-short-a-fourth-year",
+     "tag": "Deficit"
+    }
+   ]
+  }
+ },
+ "four-groups-in-the-black": {
+  "strip": {
+   "cap": "By the numbers · Swiss resale, Q2",
+   "cells": [
+    {
+     "fig": "+1.5%",
+     "dir": "up",
+     "lab": "Morgan Stanley index"
+    },
+    {
+     "fig": "+5.4%",
+     "dir": "up",
+     "lab": "Swatch Group, y/y"
+    },
+    {
+     "fig": "+4.2%",
+     "dir": "up",
+     "lab": "Richemont, y/y"
+    },
+    {
+     "fig": "+2.5%",
+     "dir": "up",
+     "lab": "April, best since Mar 2022"
+    },
+    {
+     "fig": "4 of 4",
+     "lab": "groups positive y/y"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Secondary prices, year on year",
+    "rows": [
+     {
+      "l": "SWATCH GROUP",
+      "v": 5.4,
+      "d": "+5.4%",
+      "hi": true
+     },
+     {
+      "l": "RICHEMONT",
+      "v": 4.2,
+      "d": "+4.2%"
+     },
+     {
+      "l": "MS INDEX, Q2 Q/Q",
+      "v": 1.5,
+      "d": "+1.5%"
+     }
+    ],
+    "note": "Percent change. Morgan Stanley Q2 2026 Swiss watch report.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/145"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Three years, undone.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "April did the lifting.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "After three years in which the resale tape only told bad news, the bad news has stopped.",
+     "attr": "The Movement Desk"
+    }
+   },
+   {
+    "sub": "Why a floor matters.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Plus 11.2% in June",
+     "href": "a-plus-eleven-two-in-june.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "The direction of the secondary market has flipped from headwind to mild tailwind, and that changes the arithmetic on every trade-in, every financing conversation and every pre-owned case in the window."
+  },
+  "next": {
+   "lead": {
+    "slug": "plus-eleven-two-in-june",
+    "tag": "Exports",
+    "blurb": "Swiss exports rise 11.2% in June."
+   },
+   "minis": [
+    {
+     "slug": "cartier-secondhand-heat",
+     "tag": "Resale"
+    },
+    {
+     "slug": "list-up-resale-down",
+     "tag": "Spread"
+    }
+   ]
+  }
+ },
+ "heritage-books-a-record-half": {
+  "strip": {
+   "cap": "By the numbers · Heritage H1",
+   "cells": [
+    {
+     "fig": "$1.41B",
+     "dir": "up",
+     "lab": "first-half sales"
+    },
+    {
+     "fig": "+47%",
+     "dir": "up",
+     "lab": "year on year"
+    },
+    {
+     "fig": "$9,713,640",
+     "lab": "May 4 jewelry sale"
+    },
+    {
+     "fig": "$906,250",
+     "lab": "6.59ct Kashmir sapphire"
+    },
+    {
+     "fig": "50 yrs",
+     "lab": "highest midyear ever"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Heritage's jewelry record",
+    "rows": [
+     {
+      "l": "MAY 2026 SIGNATURE",
+      "v": 9.71,
+      "d": "$9.71M",
+      "hi": true
+     },
+     {
+      "l": "SEPT 2025 (PREVIOUS)",
+      "v": 9.2,
+      "d": "$9.2M"
+     }
+    ],
+    "note": "USD millions. Highest-grossing jewelry auctions in the firm's history.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/146"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "A record from Dallas.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "One stone, 9% of the room.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "One stone accounted for roughly 9% of the sale, which is the shape of every strong jewelry auction this year.",
+     "attr": "The Saleroom Desk"
+    }
+   },
+   {
+    "sub": "Comparables, not trophies.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Trophy lots carry the half",
+     "href": "a-trophy-lots-carry-the-half.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "The house that learns to write a condition report like an auction cataloguer will win those clients; the one still selling on carat weight alone will not."
+  },
+  "next": {
+   "lead": {
+    "slug": "color-runs-two-speeds",
+    "tag": "Color",
+    "blurb": "The sapphire that beat its estimate by $300,000."
+   },
+   "minis": [
+    {
+     "slug": "trophy-lots-carry-the-half",
+     "tag": "The half"
+    },
+    {
+     "slug": "three-fancies-no-reserve",
+     "tag": "No reserve"
+    }
+   ]
+  }
+ },
+ "the-storefront-that-isnt": {
+  "strip": {
+   "cap": "By the numbers · the fake shop",
+   "cells": [
+    {
+     "fig": "80–90%",
+     "lab": "advertised discount"
+    },
+    {
+     "fig": "33 yrs",
+     "lab": "fabricated trading history"
+    },
+    {
+     "fig": "£100s",
+     "lab": "reported losses per buyer"
+    },
+    {
+     "fig": "4+",
+     "lab": "named storefronts"
+    },
+    {
+     "fig": "$0",
+     "lab": "cost of a synthetic founder"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "The template, in four sites",
+    "rows": [
+     {
+      "l": "MAYA AND HENRY",
+      "v": 90,
+      "d": "up to 90% off",
+      "hi": true
+     },
+     {
+      "l": "C'EST LA VIE",
+      "v": 80,
+      "d": "80% off"
+     },
+     {
+      "l": "AISHA JEWELRY",
+      "v": 80,
+      "d": "up to 80% off"
+     },
+     {
+      "l": "SEREN CARDIFF",
+      "v": 0,
+      "d": "goods never sent"
+     }
+    ],
+    "note": "Advertised discount on fabricated closing-down sales.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/147"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "A retailer with no bench.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "The template.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "What has changed is the cost of looking legitimate.",
+     "attr": "The Counter Desk"
+    }
+   },
+   {
+    "sub": "Two bills for real jewellers.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Guess lets the machine draw",
+     "href": "a-guess-lets-the-machine-draw.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "The retailer's job now is to make the boring evidence of being real as visible as the discount."
+  },
+  "next": {
+   "lead": {
+    "slug": "heritage-books-a-record-half",
+    "tag": "Salerooms",
+    "blurb": "Heritage books $1.41 billion and a jewelry record."
+   },
+   "minis": [
+    {
+     "slug": "vietnam-certificate-scandal",
+     "tag": "Paper"
+    },
+    {
+     "slug": "guess-lets-the-machine-draw",
+     "tag": "AI"
+    }
+   ]
+  }
+ },
+ "color-runs-two-speeds": {
+  "strip": {
+   "cap": "By the numbers · colored stones",
+   "cells": [
+    {
+     "fig": "$906,250",
+     "lab": "6.59ct Kashmir sapphire"
+    },
+    {
+     "fig": "−30%",
+     "dir": "down",
+     "lab": "demand vs. 2022"
+    },
+    {
+     "fig": "+150%",
+     "dir": "up",
+     "lab": "Mahenge spinel, since 2020"
+    },
+    {
+     "fig": "$10–12k",
+     "lab": "Paraiba per carat"
+    },
+    {
+     "fig": "−15–20%",
+     "dir": "down",
+     "lab": "tsavorite, 12 months"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Since the pandemic, by stone",
+    "rows": [
+     {
+      "l": "MAHENGE SPINEL",
+      "v": 150,
+      "d": "+150%",
+      "hi": true
+     },
+     {
+      "l": "BLUE SAPPHIRE 3ct+",
+      "v": 50,
+      "d": "+50%"
+     },
+     {
+      "l": "ZAMBIAN EMERALD",
+      "v": 28,
+      "d": "+25–30%"
+     },
+     {
+      "l": "COLOMBIAN EMERALD",
+      "v": 20,
+      "d": "+20% (FX)"
+     },
+     {
+      "l": "TSAVORITE, LAST 12M",
+      "v": -18,
+      "d": "−15–20%"
+     }
+    ],
+    "note": "Percent change. Rapaport trade survey, January 2026.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/148"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Two numbers, opposite ways.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "A size and quality gap.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "The gap is a size and quality gap, not a confusion.",
+     "attr": "The Color Desk"
+    }
+   },
+   {
+    "sub": "Bridal says otherwise.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "The guide marks ruby up",
+     "href": "a-the-guide-marks-ruby-up.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "that argues for buying fewer stones with better reports rather than more stones at better prices, and for treating the lab document as the product"
+  },
+  "next": {
+   "lead": {
+    "slug": "heritage-books-a-record-half",
+    "tag": "Salerooms",
+    "blurb": "The room where the Kashmir sapphire cleared $906,250."
+   },
+   "minis": [
+    {
+     "slug": "the-guide-marks-ruby-up",
+     "tag": "Ruby"
+    },
+    {
+     "slug": "emeralds-hold-at-146",
+     "tag": "Emerald"
+    }
+   ]
+  }
  }
 }

@@ -1,63 +1,63 @@
 {
- "date_line": "Wednesday, July 29, 2026",
- "edition": "Vol. I — No. 019",
+ "date_line": "Thursday, July 30, 2026",
+ "edition": "Vol. I — No. 020",
  "items": [
   {
-   "b": "THE FED HOLDS, THREE DISSENT",
-   "t": " — The FOMC kept its target range at 3.50–3.75% in a 9–3 vote, with Beth Hammack, Neel Kashkari and Lorie Logan pressing for a quarter-point hike; Chair Kevin Warsh's second meeting again shipped without forward guidance, and gold eased from about $4,046 to near $4,029"
+   "b": "ONE BILLION FOR DE BEERS",
+   "t": " — Bloomberg puts the Gareth Penny consortium's price for Anglo American's 85% stake at about $1 billion: roughly $750 million on closing and $250 million deferred, with some $500 million of working capital going in behind it, against a book value of about $2.3 billion earlier this year"
   },
   {
-   "b": "TIFFANY AND BULGARI CARRY LVMH",
-   "t": " — LVMH's Watches & Jewellery arm booked €5.23 billion in first-half sales, up about 9% organically with an 11% second quarter and profit up 9% to €831 million — the group's best division even as overall revenue fell 3% to €38.6 billion"
+   "b": "GOLD TAKES BACK $4,075",
+   "t": " — Spot recovered to about $4,074.98 an ounce, up 0.22% on the day and 23.84% on the year, erasing Wednesday's post-FOMC slip to $4,029; the market unwound a hawkish hold with three dissents in a single session"
   },
   {
-   "b": "BOUCHERON HITS A RECORD",
-   "t": " — Kering's jewelry houses lifted first-half revenue 14% to €521 million (up 20% comparable) with operating income doubling to €32 million; Boucheron reached record levels on Japan and the Quatre XS launch as group revenue slipped 3%"
+   "b": "PLATINUM JUMPS 1.62%",
+   "t": " — Platinum rose to $1,628.20 an ounce and palladium 2.51% to $1,284.00, reversing Wednesday's cooling; platinum is 26.13% higher year on year with a fourth straight annual supply deficit still forecast"
   },
   {
-   "b": "PETRA REVENUE CAVES",
-   "t": " — Petra Diamonds' fourth-quarter revenue fell 44% to $38 million on weak tender prices and small goods; net debt rose to $322 million, the Finsch mine entered a business-rescue process and July interest was deferred to 2027"
+   "b": "NINETY-FIVE PERCENT IN LUANDA",
+   "t": " — TAGS cleared 95% of a Luanda tender of rough above 10.8 carats and called it a return to near normal trading, while Sodiam's seventeenth auction took about $21.7 million net from 6,586.89 carats, 23.46% above expected value"
   },
   {
-   "b": "GEM DIAMONDS LEANS ON GIANTS",
-   "t": " — Letšeng's high-value output pushed Gem Diamonds' average price up about 17% to roughly $1,501 a carat, led by a 191.82-carat Type IIa white and four stones over $1 million — the opposite result to Petra in the same soft market"
+   "b": "HERITAGE BOOKS $1.41 BILLION",
+   "t": " — First-half sales rose 47% to more than $1.41 billion, the highest midyear total in the firm's fifty years; its May 4 jewelry auction made $9,713,640, led by a 6.59-carat Kashmir sapphire at $906,250"
   },
   {
-   "b": "RIO'S DIAMONDS WIND DOWN",
-   "t": " — Rio Tinto's diamond unit posted first-half sales down 27% to $118 million and output down 51% to 1.1 million carats after Diavik's March closure, swinging to a $72 million EBITDA loss with roughly $1 billion of closure costs ahead"
+   "b": "FOUR SWISS GROUPS IN THE BLACK",
+   "t": " — Morgan Stanley's second-quarter secondary index rose 1.5% and all four groups it tracks are positive year on year for the first time since early 2022, Swatch Group up 5.4% and Richemont 4.2%"
   },
   {
-   "b": "WHITE METALS COOL",
-   "t": " — Silver eased to about $57.90 from above $59 on Monday, platinum slipped to roughly $1,597 and palladium to about $1,248, the month's white-metal rally pausing into the Fed even as silver holds a 51% year-on-year gain"
+   "b": "PLATINUM LOSES ITS TEACHER",
+   "t": " — Platinum Guild International USA announced that senior vice president Kevin Reilly retired at the end of June after twenty years there and thirty-nine in the trade; global platinum jewellery demand is forecast to contract 6% in 2026"
   },
   {
-   "b": "INDIA'S GOLD SIGNAL SPLITS",
-   "t": " — The World Gold Council's July read on India shows record prices dividing the market: jewelry buyers trade down and fund purchases with old-gold exchange while bar, coin and fund investment demand stays firmer"
+   "b": "THE SHOP THAT WAS NEVER THERE",
+   "t": " — AI-built jewellery storefronts are running fabricated closing-down and bereavement sales at 80% to 90% off with scraped product photography and synthetic voiceovers; buyers report receiving resin, plastic and plated metal, or nothing"
   },
   {
-   "b": "SMALL STONES STILL FIRM",
-   "t": " — Rapaport's latest comment kept the recovery in 0.30–0.69ct rounds intact on steady US demand and trimmed inventories, a rare bright line for the near-commercial goods ahead of IIJS Premiere in Mumbai next week"
+   "b": "COLOR RUNS TWO SPEEDS",
+   "t": " — ICA members report colored-stone demand roughly 30% below 2022 even as Mahenge spinel holds a 150% post-pandemic gain and Mozambican Paraiba trades at $10,000 to $12,000 a carat; tsavorite has given back 15% to 20% in a year"
   }
  ],
- "tape_ts": "29 Jul 2026, after the FOMC hold · New York close",
+ "tape_ts": "30 Jul 2026, European session · gold recovers the Fed",
  "tape": [
   {
    "name": "Gold / oz",
    "code": "XAU",
-   "px": "4,029.00",
-   "chg": "▼ eased after the hold",
-   "dir": "down",
+   "px": "4,074.98",
+   "chg": "▲ +0.22%",
+   "dir": "up",
    "pts": [
     16,
     16,
     15,
     15,
     15,
-    15,
-    15,
-    15,
     14,
-    14
+    14,
+    15,
+    16,
+    16
    ]
   },
   {
@@ -101,37 +101,37 @@
   {
    "name": "Platinum / oz",
    "code": "XPT",
-   "px": "1,597.00",
-   "chg": "▼ −0.8%",
-   "dir": "down",
+   "px": "1,628.20",
+   "chg": "▲ +1.62%",
+   "dir": "up",
    "pts": [
     17,
     17,
-    17,
     16,
     16,
     16,
     15,
     15,
     15,
-    15
+    16,
+    17
    ]
   },
   {
    "name": "Silver / oz",
    "code": "XAG",
-   "px": "57.90",
-   "chg": "▼ off the $60 run",
+   "px": "57.79",
+   "chg": "▼ −0.25%",
    "dir": "down",
    "pts": [
     18,
     18,
     18,
-    18,
     17,
     17,
     17,
     17,
+    16,
     16,
     16
    ]
