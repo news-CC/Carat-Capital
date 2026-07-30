@@ -11,6 +11,7 @@ ARTICLES.sort(key=lambda a: a.get("date", ""), reverse=True)
 WIRE = json.loads((CONTENT / "wire.json").read_text()) if (CONTENT / "wire.json").exists() else {}
 RECORD = json.loads((CONTENT / "record.json").read_text()) if (CONTENT / "record.json").exists() else {}
 PRICES = json.loads((CONTENT / "prices.json").read_text()) if (CONTENT / "prices.json").exists() else {}
+LAB = json.loads((CONTENT / "lab-prices.json").read_text()) if (CONTENT / "lab-prices.json").exists() else {}
 
 # The natural 1ct tape mark is the RAPI level published on the price list.
 # Overridden here so the chip and the page it opens can never drift apart,
@@ -20,6 +21,16 @@ if PRICES.get("headline"):
         if _t.get("code") == "NAT1":
             _t["px"] = f'{PRICES["headline"]["rapi_ct"]:,.2f}'
             _t["chg"] = "\u22126.4% YTD"
+            _t["dir"] = "down"
+
+# The lab-grown mark is the midpoint of the published CVD wholesale band for a
+# one-carat D-F/VS stone. Same lock, same reason: the chip and the list it opens
+# must never quote two different numbers.
+if LAB.get("headline"):
+    for _t in WIRE.get("tape", []):
+        if _t.get("code") == "LGD1":
+            _t["px"] = f'{LAB["headline"]["trade_mid"]:,.2f}'
+            _t["chg"] = "\u221213% YoY"
             _t["dir"] = "down"
 
 def lead_article():
@@ -370,6 +381,7 @@ def omenu():
         <a href="the-record.html">The Record — Eight Weeks of the Trade</a>
         <a href="almanac.html">The Almanac — The Quarter in Numbers</a>
         <a href="natural-diamond-prices.html">The Natural Diamond Price List — Every Shape, Every Weight</a>
+        <a href="lab-grown-diamond-prices.html">The Lab-Grown Diamond Price List — What a Made Diamond Costs</a>
         <a href="index.html#tape-a">The Price Tape</a>
         <a href="about.html">About the Paper</a>
         <a href="about.html#standards">Editorial Standards</a>
@@ -398,12 +410,13 @@ def colophon():
       <div><h4>Desks</h4>{desk_links}</div>
       <div><h4>Masthead</h4>
         <a class="fl" href="about.html">About the paper</a><a class="fl" href="about.html#standards">Editorial standards</a>
-        <a class="fl" href="field-guide.html">The Field Guide</a><a class="fl" href="the-record.html">The Record</a><a class="fl" href="almanac.html">The Almanac</a><a class="fl" href="natural-diamond-prices.html">Natural diamond prices</a><a class="fl" href="about.html#contact">Write to the desk</a>
+        <a class="fl" href="field-guide.html">The Field Guide</a><a class="fl" href="the-record.html">The Record</a><a class="fl" href="almanac.html">The Almanac</a><a class="fl" href="natural-diamond-prices.html">Natural diamond prices</a><a class="fl" href="lab-grown-diamond-prices.html">Lab-grown diamond prices</a><a class="fl" href="about.html#contact">Write to the desk</a>
       </div>
       <div><h4>The Paper</h4>
         <a class="fl" href="index.html">Front page</a>
         <a class="fl" href="index.html#tape-a">The price tape</a>
         <a class="fl" href="natural-diamond-prices.html">The natural diamond price list</a>
+        <a class="fl" href="lab-grown-diamond-prices.html">The lab-grown diamond price list</a>
         <a class="fl" href="feed.xml">RSS feed</a>
         <a class="fl" href="https://caratcapital.beehiiv.com">The Morning Brief — free</a>
       </div>
@@ -468,6 +481,7 @@ def llms_txt():
 - [The Record]({BASE_URL}/the-record): a dated, sourced week-by-week chronicle of the industry
 - [The Almanac]({BASE_URL}/almanac): the quarter's key numbers in sourced tables (metals, exports, prices, auctions, retail)
 - [The Natural Diamond Price List]({BASE_URL}/natural-diamond-prices): natural diamond prices by shape, weight, colour and clarity — wholesale trade benchmark and retail asking price side by side, with stated method and named sources
+- [The Lab-Grown Diamond Price List]({BASE_URL}/lab-grown-diamond-prices): lab-grown diamond prices by shape and weight — retail asking prices against the published CVD and HPHT wholesale bands, the wholesale index, resale, and what was deliberately left out
 - [The Field Guide]({BASE_URL}/field-guide.html): plain-language introduction to how the jewelry trade works
 - [About & editorial standards]({BASE_URL}/about.html)
 - [RSS feed]({BASE_URL}/feed.xml)
@@ -972,6 +986,440 @@ def prices_page():
 {SCRIPT}"""
 
 
+
+# ---------------- THE LAB-GROWN PRICE LIST ----------------
+# Same reporting as the natural list, half the height. Everything that runs
+# down the page there runs across it here: paired columns, dumbbells instead
+# of two bar charts, one apparatus row instead of three stacked blocks.
+
+def lx_table(cols, rows, numeric_from=1, min_w=320):
+    """Tighter cousin of px_table, sized to sit inside a half-width column."""
+    headr = ""
+    for i, c in enumerate(cols):
+        ta = "left" if i < numeric_from else "right"
+        headr += (f'<th style="text-align:{ta};font-family:var(--mono);font-size:8.5px;letter-spacing:.15em;'
+                  f'text-transform:uppercase;color:var(--ink-3);padding:0 0 8px 10px;border-bottom:2px solid var(--ink);'
+                  f'white-space:nowrap">{c}</th>')
+    body = ""
+    for r in rows:
+        mark = r[0][:1]
+        muted, strong = mark == "\x00", mark == "\x01"
+        cells = ""
+        for i, c in enumerate(r):
+            c = c.lstrip("\x00\x01")
+            ta = "left" if i < numeric_from else "right"
+            fam = "var(--text)" if i < numeric_from else "var(--mono)"
+            fs = "13.4px" if i < numeric_from else "12px"
+            sty = ";opacity:.5" if muted else (";color:var(--seal)" if strong else "")
+            cells += (f'<td style="text-align:{ta};font-family:{fam};font-size:{fs};padding:7px 0 7px 10px;'
+                      f'border-bottom:1px solid {PX_HAIR};white-space:nowrap{sty}">{c}</td>')
+        body += f"<tr>{cells}</tr>"
+    return (f'<div style="width:100%;overflow-x:auto"><table style="width:100%;min-width:{min_w}px;'
+            f'border-collapse:collapse"><thead><tr>{headr}</tr></thead>'
+            f"<tbody>{body}</tbody></table></div>")
+
+
+def lx_head(n, title, em, plate=""):
+    pl = f'<div class="pl">{plate}</div>' if plate else ""
+    return (f'<div class="lx-h rv"><div class="lx-n">{n}</div>'
+            f"<h2>{title} <em>{em}</em></h2>{pl}</div>")
+
+
+def lx_lede(t):
+    return f'<p class="lx-lede rv">{t}</p>'
+
+
+def lx_note(t, label="A note on this figure", gilt=False):
+    cls = "lx-note lx-note--gilt" if gilt else "lx-note"
+    return f'<div class="{cls} rv"><span class="lb">{label}</span><p>{t}</p></div>'
+
+
+def lx_src(t):
+    return f'<div class="lx-src">Source — {t}</div>'
+
+
+def _lxpoly(pts, colour, dash="", w=2.2):
+    d = "M" + " L".join(f"{a:.1f} {b:.1f}" for a, b in pts)
+    return f'<path d="{d}" fill="none" stroke="{colour}" stroke-width="{w}" stroke-linejoin="round" {dash}/>'
+
+
+def lx_flat(rows):
+    """The whole page in one figure: lab per-carat flat, natural per-carat climbing."""
+    W, Hh = 640, 396
+    L, R, T, B = 54, 72, 30, 52
+    pw, ph = W - L - R, Hh - T - B
+    lo, hi = _pm.log10(400), _pm.log10(40000)
+
+    def y(v):
+        return T + ph - (_pm.log10(v) - lo) / (hi - lo) * ph
+
+    n = len(rows) - 1
+    xs = [L + i * pw / n for i in range(len(rows))]
+
+    grid = ylab = ""
+    for g, lb in ((500, "$500"), (1000, "$1k"), (2500, "$2.5k"), (5000, "$5k"),
+                  (10000, "$10k"), (25000, "$25k")):
+        gy = y(g)
+        grid += f'<line x1="{L}" y1="{gy:.1f}" x2="{L+pw}" y2="{gy:.1f}" stroke="{PX_SOFT}" stroke-width="1"/>'
+        ylab += (f'<text x="{L-10}" y="{gy+3.4:.1f}" text-anchor="end" font-family="IBM Plex Mono,monospace" '
+                 f'font-size="9.5" fill="{PX_DIM}">{lb}</text>')
+
+    # the widening gap, tinted. the 4 ct step has no natural mark, so the band
+    # cuts straight across it and the natural line is dashed there.
+    kept = [i for i, r in enumerate(rows) if r["nat_ct"]]
+    top = " L".join(f'{xs[i]:.1f} {y(rows[i]["nat_ct"]):.1f}' for i in kept)
+    bot = " L".join(f'{xs[i]:.1f} {y(rows[i]["lab_ct"]):.1f}' for i in reversed(kept))
+    band = f'<path d="M{top} L{bot} Z" fill="{PX_GILT}" opacity=".11"/>'
+
+    natp, brid, run = "", "", []
+    for i, r in enumerate(rows):
+        if not r["nat_ct"]:
+            continue
+        if run and i - run[-1] > 1:
+            brid += (f'<path d="M{xs[run[-1]]:.1f} {y(rows[run[-1]]["nat_ct"]):.1f} '
+                     f'L{xs[i]:.1f} {y(r["nat_ct"]):.1f}" fill="none" stroke="{PX_GILT}" '
+                     f'stroke-width="1.4" stroke-dasharray="2 4" opacity=".8"/>')
+            if len(run) > 1:
+                natp += _lxpoly([(xs[k], y(rows[k]["nat_ct"])) for k in run], PX_GILT)
+            run = []
+        run.append(i)
+    if len(run) > 1:
+        natp += _lxpoly([(xs[k], y(rows[k]["nat_ct"])) for k in run], PX_GILT)
+
+    labp = _lxpoly([(xs[i], y(r["lab_ct"])) for i, r in enumerate(rows)], PX_SEAL, w=2.6)
+
+    dots = ratios = xlab = ""
+    for i, r in enumerate(rows):
+        dots += (f'<circle cx="{xs[i]:.1f}" cy="{y(r["lab_ct"]):.1f}" r="3.4" fill="var(--paper)" '
+                 f'stroke="{PX_SEAL}" stroke-width="2.2"/>')
+        if r["nat_ct"]:
+            dots += (f'<circle cx="{xs[i]:.1f}" cy="{y(r["nat_ct"]):.1f}" r="3.4" fill="var(--paper)" '
+                     f'stroke="{PX_GILT}" stroke-width="2.2"/>')
+            my = (y(r["nat_ct"]) + y(r["lab_ct"])) / 2
+            ratios += (f'<text x="{xs[i]:.1f}" y="{my+3.6:.1f}" text-anchor="middle" paint-order="stroke" '
+                       f'stroke="#F2EDE3" stroke-width="3.4" font-family="IBM Plex Mono,monospace" '
+                       f'font-size="11" fill="{PX_GILT}">{r["ratio"]:g}×</text>')
+        col = PX_SEAL if not r["nat_ct"] else PX_DIM
+        xlab += (f'<text x="{xs[i]:.1f}" y="{T+ph+22}" text-anchor="middle" font-family="IBM Plex Mono,monospace" '
+                 f'font-size="10" fill="{col}">{r["wt"]:g}</text>')
+    xlab += (f'<text x="{L+pw/2:.1f}" y="{T+ph+42}" text-anchor="middle" font-family="IBM Plex Mono,monospace" '
+             f'font-size="8.5" letter-spacing="2.2" fill="{PX_DIM}">CARATS</text>')
+
+    tags = (f'<text x="{L+pw+9}" y="{y(rows[-1]["nat_ct"])+3.4:.1f}" font-family="IBM Plex Mono,monospace" '
+            f'font-size="8.5" letter-spacing="1.1" fill="{PX_GILT}">NATURAL</text>'
+            f'<text x="{L+pw+9}" y="{y(rows[-1]["lab_ct"])+3.4:.1f}" font-family="IBM Plex Mono,monospace" '
+            f'font-size="8.5" letter-spacing="1.1" fill="{PX_SEAL}">LAB</text>')
+
+    return (f'<svg viewBox="0 0 {W} {Hh}" width="100%" role="img" aria-label="Price per carat by weight, '
+            f'lab-grown against natural, log scale" style="display:block">{grid}{ylab}{band}{brid}{natp}'
+            f'{labp}<line x1="{L}" y1="{T+ph}" x2="{L+pw}" y2="{T+ph}" stroke="{PX_INK}" stroke-width="1.5"/>'
+            f"{ratios}{dots}{xlab}{tags}</svg>")
+
+
+def lx_swing(rows):
+    """Dumbbell: where each shape sits against a round, natural and lab, on one axis."""
+    W = 640
+    L, R, T = 84, 78, 62
+    rowh, gapy = 26, 6
+    pw = W - L - R
+    Hh = T + len(rows) * (rowh + gapy) + 12
+    lo, hi = -48.0, 30.0
+
+    def x(v):
+        return L + (v - lo) / (hi - lo) * pw
+
+    grid = glab = ""
+    for g in (-40, -20, 0, 20):
+        gx = x(g)
+        wid = "1.6" if g == 0 else "1"
+        colr = PX_INK if g == 0 else PX_SOFT
+        gl = "0" if g == 0 else f"{g:+g}".replace("-", "\u2212")
+        grid += f'<line x1="{gx:.1f}" y1="{T-10}" x2="{gx:.1f}" y2="{Hh-8}" stroke="{colr}" stroke-width="{wid}"/>'
+        glab += (f'<text x="{gx:.1f}" y="{T-16}" text-anchor="middle" font-family="IBM Plex Mono,monospace" '
+                 f'font-size="9.5" fill="{PX_DIM}">{gl}%</text>')
+    glab += (f'<text x="{x(0):.1f}" y="{T-32}" text-anchor="middle" font-family="IBM Plex Mono,monospace" '
+             f'font-size="8.5" letter-spacing="1.4" fill="{PX_INK}">THE ROUND</text>')
+
+    body = ""
+    for i, r in enumerate(rows):
+        yy = T + i * (rowh + gapy) + rowh / 2
+        xa, xb = x(r["nat_d"]), x(r["d"])
+        body += (f'<text x="{L-14}" y="{yy+4.4:.1f}" text-anchor="end" font-family="Instrument Sans,sans-serif" '
+                 f'font-size="12.5" fill="{PX_INK}">{r["s"]}</text>')
+        if abs(xb - xa) > 1:
+            body += (f'<line x1="{xa:.1f}" y1="{yy:.1f}" x2="{xb:.1f}" y2="{yy:.1f}" stroke="{PX_SOFT}" '
+                     f'stroke-width="5" stroke-linecap="round"/>')
+        body += (f'<circle cx="{xa:.1f}" cy="{yy:.1f}" r="4.4" fill="var(--paper)" stroke="{PX_GILT}" '
+                 f'stroke-width="2.2"/>')
+        fill = PX_SEAL if r["inv"] else "var(--paper)"
+        body += (f'<circle cx="{xb:.1f}" cy="{yy:.1f}" r="4.4" fill="{fill}" stroke="{PX_SEAL}" '
+                 f'stroke-width="2.2"/>')
+        sw = "—" if not r["swing"] else f'{r["swing"]:+.1f}'
+        body += (f'<text x="{W-8}" y="{yy+4.2:.1f}" text-anchor="end" font-family="IBM Plex Mono,monospace" '
+                 f'font-size="11" fill="{PX_DIM}">{sw}</text>')
+
+    key = (f'<text x="{W-8}" y="{T-16}" text-anchor="end" font-family="IBM Plex Mono,monospace" '
+           f'font-size="8.5" letter-spacing="1.1" fill="{PX_DIM}">SWING, PTS</text>'
+           f'<circle cx="{L+4}" cy="{T-52}" r="4.4" fill="var(--paper)" stroke="{PX_GILT}" stroke-width="2.2"/>'
+           f'<text x="{L+15}" y="{T-48.4}" font-family="IBM Plex Mono,monospace" font-size="9" '
+           f'fill="{PX_INK}">Natural</text>'
+           f'<circle cx="{L+78}" cy="{T-52}" r="4.4" fill="{PX_SEAL}" stroke="{PX_SEAL}" stroke-width="2.2"/>'
+           f'<text x="{L+89}" y="{T-48.4}" font-family="IBM Plex Mono,monospace" font-size="9" '
+           f'fill="{PX_INK}">Lab · filled = dearer than round</text>')
+
+    return (f'<svg viewBox="0 0 {W} {Hh}" width="100%" role="img" aria-label="Each shape against a round '
+            f'brilliant, natural and lab-grown" style="display:block">{grid}{glab}{key}{body}</svg>')
+
+
+def lx_range(rows):
+    """Four counters, one specification, three weights — the asking-price range."""
+    W = 640
+    L, R, T = 62, 58, 44
+    rowh, gapy = 50, 16
+    pw = W - L - R
+    Hh = T + len(rows) * (rowh + gapy) + 6
+    mx = 3400.0
+    keys = [("ritani", "Ritani"), ("clean", "Clean Origin"), ("clarity", "Clarity"), ("be", "Brilliant Earth")]
+
+    def x(v):
+        return L + v / mx * pw
+
+    grid = glab = ""
+    for g in (0, 1000, 2000, 3000):
+        gx = x(g)
+        grid += f'<line x1="{gx:.1f}" y1="{T-14}" x2="{gx:.1f}" y2="{Hh-14}" stroke="{PX_SOFT}" stroke-width="1"/>'
+        lbl = "$0" if not g else f"${g//1000}k"
+        glab += (f'<text x="{gx:.1f}" y="{T-22}" text-anchor="middle" font-family="IBM Plex Mono,monospace" '
+                 f'font-size="9.5" fill="{PX_DIM}">{lbl}</text>')
+    glab += (f'<text x="{L}" y="{T-38}" font-family="IBM Plex Mono,monospace" font-size="8.5" '
+             f'letter-spacing="1.4" fill="{PX_INK}">ASKING PRICE PER CARAT</text>')
+
+    body = ""
+    for i, r in enumerate(rows):
+        yy = T + i * (rowh + gapy) + 20
+        vals = [r[k] for k, _ in keys]
+        a, b = min(vals), max(vals)
+        body += (f'<text x="{L-12}" y="{yy+4.2:.1f}" text-anchor="end" font-family="Instrument Sans,sans-serif" '
+                 f'font-size="12.5" fill="{PX_INK}">{r["w"].split()[0]}</text>')
+        body += (f'<line x1="{x(a):.1f}" y1="{yy:.1f}" x2="{x(b):.1f}" y2="{yy:.1f}" stroke="{PX_SEAL}" '
+                 f'stroke-width="5" opacity=".22" stroke-linecap="round"/>')
+        for k, _ in keys:
+            body += (f'<circle cx="{x(r[k]):.1f}" cy="{yy:.1f}" r="3.6" fill="var(--paper)" stroke="{PX_SEAL}" '
+                     f'stroke-width="2"/>')
+        body += (f'<text x="{x(a):.1f}" y="{yy-11:.1f}" text-anchor="middle" font-family="IBM Plex Mono,monospace" '
+                 f'font-size="10" fill="{PX_DIM}">${a:,}</text>')
+        body += (f'<text x="{x(b):.1f}" y="{yy-11:.1f}" text-anchor="middle" font-family="IBM Plex Mono,monospace" '
+                 f'font-size="10" fill="{PX_SEAL}">${b:,}</text>')
+        body += (f'<text x="{L}" y="{yy+21:.1f}" font-family="IBM Plex Mono,monospace" font-size="9.5" '
+                 f'fill="{PX_DIM}">{r["x"]:g}× cheapest to dearest</text>')
+
+    return (f'<svg viewBox="0 0 {W} {Hh}" width="100%" role="img" aria-label="Retail asking price range '
+            f'across four counters, by weight" style="display:block">{grid}{glab}{body}</svg>')
+
+
+def lab_prices_page():
+    P = LAB
+    hd = P["headline"]
+    wt, sh, ld = P["weights"], P["shapes"], P["ladder"]
+    ms, dp, ix = P["method_split"], P["dispersion"], P["divergence"]
+
+    # -- headline band: six figures, one rail
+    def bstat(v, l, c="var(--ink)"):
+        return (f'<div><b style="color:{c}">{v}</b><span>{l}</span></div>')
+    vsn = f"{hd['vs_nat_pct']:g}".replace("-", "\u2212") + "%"
+    band = f"""<div class="lx-band rv">
+  <div class="spec">The benchmark stone — {hd['spec']}</div>
+  <div class="row">
+    {bstat(_usd(hd['retail_ct']), 'Retail asking / ct', 'var(--seal)')}
+    {bstat('$' + str(hd['trade_lo']) + '–' + str(hd['trade_hi']), 'Wholesale band, CVD', 'var(--gilt)')}
+    {bstat(vsn, 'Against natural')}
+    {bstat(hd['spread_x'], 'Cheapest to dearest')}
+    {bstat(P['index']['rows'][0]['v'], 'Wholesale, year on year')}
+    {bstat(P['index']['rows'][1]['v'], 'Since July 2018', 'var(--ink-3)')}
+  </div>
+  <p>{hd['note']}</p>
+</div>"""
+
+    # -- 01 weight
+    wrows = []
+    for r in wt["rows"]:
+        has = bool(r["nat_ct"])
+        wrows.append([
+            r["w"],
+            _usd(r["stone"]),
+            _usd(r["lab_ct"]),
+            _usd(r["nat_ct"]) if has else "—",
+            f'{r["ratio"]:g}×' if has else "—",
+            f'−{r["disc"]:g}%' if has else "no natural mark"])
+    wtbl = lx_table(["Weight", "Lab, stone", "Lab / ct", "Natural / ct", "Multiple", "Discount"], wrows, min_w=400)
+
+    # -- 02 shape
+    chips = "".join(
+        f'<div class="{"up" if r["d"] > 0 else "dn"}"><i>{r["s"]}</i><b>{_usd(r["usd"])}</b></div>'
+        for r in sh["rows"])
+    stab = lx_table(
+        ["Shape", "1.00 ct", "2.00 ct", "3.00 ct"],
+        [[("\x01" if r["all3"] else "") + r["s"], r["one"].replace("-", "−"),
+          r["two"].replace("-", "−"), r["three"].replace("-", "−")] for r in sh["stability"]],
+        min_w=300)
+
+    # -- 03 the ladder we will not model
+    ldtbl = lx_table(["Measure", "Figure", "Basis"],
+                     [[r["k"], r["v"], r["b"].title()] for r in ld["rows"]], min_w=330)
+
+    # -- 04 how it was grown
+    mstbl = lx_table(["Band", "CVD / ct", "HPHT / ct", "HPHT"],
+                     [[r["band"], r["cvd"], r["hpht"], r["prem"]] for r in ms["rows"]], min_w=340)
+
+    # -- 06 the wholesale index
+    ixtbl = lx_table(["Measure", "Change", "Period"],
+                     [[("\x01" if r["v"].startswith("+") else "") + r["k"], r["v"], r["d"]]
+                      for r in P["index"]["rows"]], min_w=330)
+
+    # -- 07 divergence
+    dvtbl = lx_table(["Measure"] + ix["cols"],
+                     [[r["k"], r["a"], r["b"], r["c"]] for r in ix["rows"]], min_w=380)
+
+    # -- 08 resale
+    rs = P["resale"]
+    rstbl = lx_table(["Measure", "Figure"], [[r["k"], r["v"]] for r in rs["rows"]], min_w=260)
+
+    tiles = "".join(
+        f"""<div class="rv"><div class="n">M—{i+1:02d}</div><h3>{c['h']}</h3><p>{c['b']}</p></div>"""
+        for i, c in enumerate(P["context"]["rows"]))
+    meth = "".join(f"""<div class="m"><b>{m['h']}</b><p>{m['b']}</p></div>""" for m in P["method"]["rows"])
+    srcs = "".join(
+        f'<tr><td class="s-n">{s["n"]}</td><td class="s-d">{s["d"]}</td><td class="s-u">{s["u"]}</td></tr>'
+        for s in P["sources"])
+    excl = "".join(f'<li><b>{e["n"]}</b>{e["why"]}</li>' for e in P["excluded"])
+
+    return f"""{head("The Lab-Grown Diamond Price List — every shape, every weight — Carat Capital",
+                     "Lab-grown diamond prices for 2026: retail asking prices and the published wholesale band side by side, across seven shapes and six weights, with the CVD-against-HPHT split, the wholesale index, resale, sources and method.",
+                     "lab-grown-diamond-prices.html")}
+{folio("The Price Desk · Lab-grown")}
+{navbar()}
+{omenu()}
+
+<section class="deskhero"><div class="wrap">
+  <div class="dh-no">The Price Desk · Lab-grown · Updated {P['as_of']}</div>
+  <h1 class="art-h" style="font-size:clamp(36px,5.2vw,74px);text-transform:uppercase;max-width:17ch">The Lab-Grown Diamond Price List<em style="font-family:var(--disp);font-style:normal;font-weight:400;color:var(--seal);text-transform:none;font-size:.32em;display:block;margin-top:14px;letter-spacing:-.01em">{P['kicker']}</em></h1>
+  <p class="dh-dek" style="max-width:82ch">{P['standfirst']}</p>
+</div></section>
+
+<section class="lgd burin"><div class="wrap" style="padding-top:30px">
+  {band}
+</div></section>
+
+<section class="lgd burin"><div class="wrap">
+  {lx_head("01", "Weight —", "the line that does not rise", "Figure CC/2026/154")}
+  {lx_lede(wt['sub'])}
+  <div class="lx-split">
+    <figure class="rv">{lx_flat(wt['rows'])}
+      <figcaption style="font-family:var(--mono);font-size:9px;letter-spacing:.15em;text-transform:uppercase;color:var(--ink-3);margin-top:12px;border-top:1px solid {PX_SOFT};padding-top:9px">Per carat, by weight · log scale · tinted band = the gap · 4 ct carries no natural mark</figcaption>
+    </figure>
+    <div class="rv">{wtbl}{lx_src(wt['src'])}
+      {lx_note(wt['flat_note'], "Why the line is flat")}
+      {lx_note(wt['floor_note'], "The blank row", gilt=True)}
+    </div>
+  </div>
+</div></section>
+
+<section class="lgd burin"><div class="wrap">
+  {lx_head("02", "Shape —", "the ranking flips", "Figure CC/2026/155")}
+  {lx_lede(sh['inversion'])}
+  <div class="lx-split">
+    <div class="rv">
+      <figure>{lx_swing(sh['rows'])}</figure>
+      <div class="lx-chips">{chips}</div>
+      <div class="lx-src">Asking price per carat, one carat · StoneAlgo, n={sh['n']}, {sh['date']}</div>
+    </div>
+    <div class="rv">{stab}
+      <div class="lx-src">Percentage against a round of the same weight · vermillion = premium at all three</div>
+      {lx_note(sh['unstable'], "Read this before quoting a premium")}
+      {lx_note(sh['guides'], "Conflict on the record", gilt=True)}
+    </div>
+  </div>
+</div></section>
+
+<section class="lgd burin"><div class="wrap">
+  <div class="lx-duo">
+    <div>
+      {lx_head("03", "Colour and clarity —", "the ladder nobody publishes")}
+      {lx_lede(ld['withheld'])}
+      {ldtbl}
+      {lx_src(ld['src'])}
+      {lx_note(ld['modal'], "What the gap still tells you")}
+    </div>
+    <div>
+      {lx_head("04", "How it was grown —", "CVD against HPHT")}
+      {lx_lede(ms['note'])}
+      {mstbl}
+      {lx_src(ms['src'])}
+      {lx_note(ms['melee'], "Below the table", gilt=True)}
+    </div>
+  </div>
+</div></section>
+
+<section class="lgd burin"><div class="wrap">
+  <div class="lx-duo">
+    <div>
+      {lx_head("05", "The counters —", "same stone, four prices", "Fig. CC/2026/156")}
+      {lx_lede(dp['note'])}
+      <figure class="rv">{lx_range(dp['rows'])}</figure>
+      <div class="lx-src">Held constant — {dp['spec']}</div>
+      {lx_note(dp['floor'], "The floor is below wholesale")}
+      {lx_src(dp['src'])}
+    </div>
+    <div>
+      {lx_head("06", "The wholesale index —", "ninety-six per cent off")}
+      {lx_lede(P['index']['note'])}
+      {ixtbl}
+      {lx_src(P['index']['src'])}
+      {lx_note(P['index']['rough'], "Rough turns first", gilt=True)}
+    </div>
+  </div>
+</div></section>
+
+<section class="lgd burin"><div class="wrap">
+  <div class="lx-duo">
+    <div>
+      {lx_head("07", "The divergence —", "2019, 2025, now")}
+      {dvtbl}
+      {lx_note(ix['note'], "Where the saving went")}
+      {lx_src(ix['src'])}
+    </div>
+    <div>
+      {lx_head("08", "Resale —", "the number that started at zero")}
+      {rstbl}
+      {lx_note(rs['note'], "What a jeweller will pay you")}
+      {lx_note(rs['conflict'], "Excluded", gilt=True)}
+      {lx_src(rs['src'])}
+    </div>
+  </div>
+</div></section>
+
+<section class="lgd briefing"><div class="wrap">
+  {lx_head("09", "What moved the numbers —", "the market behind the table")}
+  <div class="lx-tiles">{tiles}</div>
+</div></section>
+
+<section class="lgd glossary"><div class="wrap">
+  {lx_head("10", "The apparatus —", "method, sources, exclusions")}
+  <div class="lx-app rv">
+    <div><h3>Method</h3>{meth}</div>
+    <div><h3>Sources</h3><table><tbody>{srcs}</tbody></table></div>
+    <div><h3>What we left out</h3><ul>{excl}</ul></div>
+  </div>
+</div></section>
+
+<section class="ctastrip"><div class="wrap"><div class="inner">
+  <h2>The other half of the market — <em>natural, every shape and weight.</em></h2>
+  <a class="big" href="natural-diamond-prices.html">Open the natural list →</a>
+</div></div></section>
+{colophon()}
+{SCRIPT}"""
+
+
 # ---------------- DESK PAGES ----------------
 def desk_page(d):
     briefs = "".join(f"""<div class="brf rv">
@@ -1060,6 +1508,8 @@ def tape_block():
         inner = f"""<div class="sym"><span>{t['name']}</span><span class="code">{t['code']}</span></div><div class="px">{t['px']}</div><div class="d {t['dir']}">{t['chg']}</div>{spark(t['pts'], color)}"""
         if t["code"] == "NAT1":
             cells += f"""<a class="cell cell--cta" href="natural-diamond-prices.html">{inner}<span class="cell-cta">See all natural prices →</span></a>"""
+        elif t["code"] == "LGD1":
+            cells += f"""<a class="cell cell--cta" href="lab-grown-diamond-prices.html">{inner}<span class="cell-cta">See all lab-grown prices →</span></a>"""
         else:
             cells += f"""<div class="cell">{inner}</div>"""
     ts = WIRE.get("tape_ts", "")
@@ -1321,6 +1771,8 @@ def index_page():
     for t in WIRE.get("tape", [])[:5]:
         if t["code"] == "NAT1":
             chips += f"""<a class="chip chip--cta" href="natural-diamond-prices.html"><span class="nm">{t['name']}</span><span class="px">{t['px']}</span><span class="d {t['dir']}">{t['chg']}</span><span class="cta">See all natural prices →</span></a>"""
+        elif t["code"] == "LGD1":
+            chips += f"""<a class="chip chip--cta" href="lab-grown-diamond-prices.html"><span class="nm">{t['name']}</span><span class="px">{t['px']}</span><span class="d {t['dir']}">{t['chg']}</span><span class="cta">See all lab-grown prices →</span></a>"""
         else:
             chips += f"""<a class="chip" href="almanac.html"><span class="nm">{t['name']}</span><span class="px">{t['px']}</span><span class="d {t['dir']}">{t['chg']}</span></a>"""
     # desk navigator: latest story per desk + count
@@ -1574,13 +2026,14 @@ for a in ARTICLES:
 (out/"almanac.html").write_text(almanac_page())
 (out/"about.html").write_text(about_page())
 (out/"natural-diamond-prices.html").write_text(prices_page())
+(out/"lab-grown-diamond-prices.html").write_text(lab_prices_page())
 for _f in out.glob("*.html"):
     _f.write_text(_clean_links(_f.read_text()))
 (out/"assets"/"favicon.svg").write_text(FAVICON)
 (out/"assets"/"logo-mark.svg").write_text(logo_mark_svg())
 (out/"feed.xml").write_text(rss_feed())
 (out/"llms.txt").write_text(llms_txt())
-pages = ["index.html", "field-guide.html", "about.html", "the-record.html", "almanac.html", "natural-diamond-prices.html"] + [f"{d['slug']}.html" for d in DESKS] + [f"a-{a['slug']}.html" for a in ARTICLES]
+pages = ["index.html", "field-guide.html", "about.html", "the-record.html", "almanac.html", "natural-diamond-prices.html", "lab-grown-diamond-prices.html"] + [f"{d['slug']}.html" for d in DESKS] + [f"a-{a['slug']}.html" for a in ARTICLES]
 (out/"sitemap.xml").write_text(sitemap(pages))
 (out/"robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {BASE_URL}/sitemap.xml\n")
 print("built:", ", ".join(pages), "+ sitemap, robots, favicon")

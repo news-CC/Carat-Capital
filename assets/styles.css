@@ -882,3 +882,81 @@ a.item:hover b{color:var(--seal)}
 @media(max-width:720px){
   .tape .cell-cta{font-size:9px;letter-spacing:.1em}
 }
+
+/* ── The Price Desk → the lab-grown list ──────────────────────────────── */
+.lgd{padding:clamp(30px,3.6vw,50px) 0}
+.lgd+.lgd{border-top:1px solid var(--rule-soft)}
+.lgd figure{margin:0}
+.lgd figure svg{max-width:100%;height:auto;display:block}
+
+.lx-h{display:flex;align-items:baseline;gap:14px;margin-bottom:15px;border-bottom:2px solid var(--ink);padding-bottom:10px}
+.lx-h .lx-n{font-family:var(--mono);font-size:10px;font-weight:600;letter-spacing:.2em;color:var(--seal);flex:0 0 auto}
+.lx-h h2{font-family:var(--disp);font-weight:700;font-size:clamp(21px,2.5vw,33px);letter-spacing:-.03em;line-height:1;flex:1 1 auto}
+.lx-h h2 em{font-family:var(--disp);font-style:normal;font-weight:400;color:var(--seal)}
+.lx-h .pl{font-family:var(--mono);font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:var(--gilt);white-space:nowrap;flex:0 0 auto}
+
+.lx-lede{font-family:var(--text);font-size:14.8px;line-height:1.6;color:var(--ink-2);max-width:96ch;margin:0 0 20px}
+.lx-split{display:grid;grid-template-columns:minmax(0,1.02fr) minmax(0,.98fr);gap:clamp(22px,3vw,44px);align-items:start}
+.lx-duo{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:0}
+.lx-duo>*{padding-right:clamp(18px,2.4vw,38px);border-right:1px solid var(--rule-soft);min-width:0}
+.lx-duo>*+*{padding-right:0;padding-left:clamp(18px,2.4vw,38px);border-right:none}
+
+.lx-band{border-top:3px solid var(--ink);border-bottom:1px solid var(--rule-soft);padding:22px 0 24px}
+.lx-band .spec{font-family:var(--mono);font-size:9.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--seal);margin-bottom:18px}
+.lx-band .row{display:grid;grid-template-columns:repeat(6,1fr)}
+.lx-band .row>div{padding:0 14px;border-left:1px solid var(--rule-soft);min-width:0}
+.lx-band .row>div:first-child{padding-left:0;border-left:none}
+.lx-band b{display:block;font-family:var(--mono);font-size:clamp(18px,2.4vw,29px);font-weight:500;letter-spacing:-.03em;line-height:1}
+.lx-band span{display:block;font-family:var(--mono);font-size:8.5px;letter-spacing:.15em;text-transform:uppercase;color:var(--ink-3);margin-top:9px;line-height:1.55}
+.lx-band p{font-family:var(--text);font-size:14.5px;line-height:1.6;color:var(--ink-2);max-width:80ch;margin:20px 0 0}
+
+.lx-note{border-left:2px solid var(--seal);padding:1px 0 1px 14px;margin:16px 0 0;max-width:76ch}
+.lx-note .lb{display:block;font-family:var(--mono);font-size:8.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--seal);margin-bottom:6px}
+.lx-note p{font-family:var(--text);font-size:13.4px;line-height:1.58;color:var(--ink-2)}
+.lx-note--gilt{border-left-color:var(--gilt)}
+.lx-note--gilt .lb{color:var(--gilt)}
+.lx-src{font-family:var(--mono);font-size:9px;letter-spacing:.15em;text-transform:uppercase;color:var(--gilt);margin-top:11px;line-height:1.6}
+
+.lx-chips{display:flex;flex-wrap:wrap;margin-top:16px;border-top:1px solid var(--rule-soft);border-bottom:1px solid var(--rule-soft)}
+.lx-chips>div{flex:1 1 0;min-width:72px;padding:10px 8px;border-left:1px solid var(--rule-hair);text-align:center}
+.lx-chips>div:first-child{border-left:none}
+.lx-chips i{display:block;font-family:var(--mono);font-size:8.5px;font-style:normal;letter-spacing:.13em;text-transform:uppercase;color:var(--ink-3)}
+.lx-chips b{display:block;font-family:var(--mono);font-size:15px;font-weight:500;margin-top:6px;letter-spacing:-.02em}
+.lx-chips .up b{color:var(--seal)}
+.lx-chips .dn b{color:var(--ink-3)}
+
+.lx-tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--rule-soft);border:1px solid var(--rule-soft)}
+.lx-tiles>div{background:var(--paper-hi);padding:19px clamp(15px,1.8vw,24px) 21px}
+.lx-tiles .n{font-family:var(--mono);font-size:9.5px;font-weight:600;color:var(--seal);margin-bottom:8px}
+.lx-tiles h3{font-family:var(--disp);font-weight:700;font-size:17.5px;letter-spacing:-.02em;line-height:1.06;margin-bottom:9px}
+.lx-tiles p{font-size:12.9px;font-weight:300;color:var(--ink-2);line-height:1.56}
+
+.lx-app{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.18fr) minmax(0,1fr);gap:clamp(20px,2.6vw,42px);align-items:start}
+.lx-app h3{font-family:var(--disp);font-weight:700;font-size:17px;letter-spacing:-.02em;border-bottom:2px solid var(--ink);padding-bottom:8px;margin-bottom:14px}
+.lx-app .m{margin-bottom:14px}
+.lx-app .m b{display:block;font-family:var(--disp);font-weight:700;font-size:14.5px;letter-spacing:-.01em;margin-bottom:4px}
+.lx-app .m p{font-size:12.7px;font-weight:300;color:var(--ink-2);line-height:1.55}
+.lx-app table{width:100%;border-collapse:collapse}
+.lx-app td{padding:6px 8px 6px 0;border-bottom:1px solid var(--rule-hair);vertical-align:top}
+.lx-app td:last-child{padding-right:0}
+.lx-app .s-n{font-family:var(--text);font-size:12.5px;line-height:1.42}
+.lx-app .s-d{font-family:var(--mono);font-size:9.6px;color:var(--ink-3);white-space:nowrap}
+.lx-app .s-u{font-family:var(--mono);font-size:9.6px;color:var(--gilt);white-space:nowrap}
+.lx-app ul{list-style:none;padding:0;margin:0}
+.lx-app li{font-size:12.7px;font-weight:300;color:var(--ink-2);line-height:1.55;margin-bottom:10px;padding-left:12px;border-left:1px solid var(--rule-soft)}
+.lx-app li b{font-family:var(--mono);font-size:11px;font-weight:600;letter-spacing:.04em;color:var(--ink);display:block;margin-bottom:2px}
+
+@media(max-width:1000px){
+  .lx-split,.lx-app{grid-template-columns:minmax(0,1fr);gap:32px}
+  .lx-duo{grid-template-columns:minmax(0,1fr)}
+  .lx-duo>*{padding-right:0;border-right:none;padding-bottom:28px;border-bottom:1px solid var(--rule-soft)}
+  .lx-duo>*+*{padding-left:0;padding-top:28px}
+  .lx-duo>:last-child{border-bottom:none;padding-bottom:0}
+  .lx-tiles{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:660px){
+  .lx-band .row{grid-template-columns:repeat(2,1fr);row-gap:22px}
+  .lx-band .row>div:nth-child(2n+1){padding-left:0;border-left:none}
+  .lx-tiles{grid-template-columns:minmax(0,1fr)}
+  .lx-chips>div{flex:1 1 33%;min-width:0}
+}

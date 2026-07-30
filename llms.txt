@@ -7,6 +7,7 @@
 - [The Record](https://caratcapital.org/the-record): a dated, sourced week-by-week chronicle of the industry
 - [The Almanac](https://caratcapital.org/almanac): the quarter's key numbers in sourced tables (metals, exports, prices, auctions, retail)
 - [The Natural Diamond Price List](https://caratcapital.org/natural-diamond-prices): natural diamond prices by shape, weight, colour and clarity — wholesale trade benchmark and retail asking price side by side, with stated method and named sources
+- [The Lab-Grown Diamond Price List](https://caratcapital.org/lab-grown-diamond-prices): lab-grown diamond prices by shape and weight — retail asking prices against the published CVD and HPHT wholesale bands, the wholesale index, resale, and what was deliberately left out
 - [The Field Guide](https://caratcapital.org/field-guide.html): plain-language introduction to how the jewelry trade works
 - [About & editorial standards](https://caratcapital.org/about.html)
 - [RSS feed](https://caratcapital.org/feed.xml)

@@ -1,0 +1,626 @@
+{
+ "stone": "lab",
+ "plate_series": "CC/2026",
+ "title": "The Lab-Grown Diamond Price List",
+ "kicker": "What a made diamond costs when nothing about it is scarce",
+ "standfirst": "Lab-grown prices do not behave like natural ones. The per-carat line is flat, the fancy-shape discount has inverted, and the retail spread is wider than anything on the natural counter. Every figure below is dated, sourced, and marked with the basis it stands on.",
+ "as_of": "30 July 2026",
+ "currency": "USD",
+ "headline": {
+  "spec": "1.00 ct round brilliant, E colour, VS1 clarity, IGI",
+  "retail_ct": 545,
+  "market_ct": 581,
+  "trade_lo": 350,
+  "trade_hi": 600,
+  "trade_mid": 475,
+  "retail_low": 295,
+  "retail_high": 899,
+  "spread_x": "3.05×",
+  "nat_ct": 4581,
+  "vs_nat_pct": -88.1,
+  "multiple": "8.4×",
+  "note": "A one-carat round lab-grown diamond asks $545 per carat against $4,581 for its natural counterpart — 88.1% less, a multiple of 8.4. The published wholesale band for the same stone runs $350 to $600 for CVD material. The cheapest tracked retail asking price, $295 at Ritani, sits below the middle of that band. The most expensive, $899 at Brilliant Earth, is three times the cheapest for an identical specification."
+ },
+ "weights": {
+  "sub": "Natural diamonds get more expensive per carat as they get bigger, because big rough is rare. Lab-grown diamonds do not: the per-carat price is flat from half a carat to five, moving between $514 and $631 across the whole ladder. Everything that follows is a consequence of that one line.",
+  "rows": [
+   {
+    "w": "0.50 ct",
+    "wt": 0.5,
+    "stone": 293,
+    "lab_ct": 586,
+    "m1": -4.87,
+    "nat_ct": 2630,
+    "ratio": 4.5,
+    "disc": 77.7,
+    "basis": "observed"
+   },
+   {
+    "w": "1.00 ct",
+    "wt": 1.0,
+    "stone": 581,
+    "lab_ct": 581,
+    "m1": 2.65,
+    "nat_ct": 5580,
+    "ratio": 9.6,
+    "disc": 89.6,
+    "basis": "observed"
+   },
+   {
+    "w": "2.00 ct",
+    "wt": 2.0,
+    "stone": 1213,
+    "lab_ct": 606,
+    "m1": -6.4,
+    "nat_ct": 14216,
+    "ratio": 23.5,
+    "disc": 95.7,
+    "basis": "observed"
+   },
+   {
+    "w": "3.00 ct",
+    "wt": 3.0,
+    "stone": 1894,
+    "lab_ct": 631,
+    "m1": 2.99,
+    "nat_ct": 23744,
+    "ratio": 37.6,
+    "disc": 97.3,
+    "basis": "observed"
+   },
+   {
+    "w": "4.00 ct",
+    "wt": 4.0,
+    "stone": 2315,
+    "lab_ct": 579,
+    "m1": 4.09,
+    "nat_ct": 0,
+    "ratio": 0,
+    "disc": 0,
+    "basis": "no natural mark"
+   },
+   {
+    "w": "5.00 ct",
+    "wt": 5.0,
+    "stone": 2568,
+    "lab_ct": 514,
+    "m1": 1.74,
+    "nat_ct": 28484,
+    "ratio": 55.4,
+    "disc": 98.2,
+    "basis": "observed"
+   }
+  ],
+  "flat_note": "Across a tenfold range of weight the lab-grown per-carat price moves 23%. Across the same range the natural price moves 983%. The gap between the two is therefore not a constant discount but a widening one: 4.5× at half a carat, 9.6× at one, 55.4× at five. Buying big is where the saving actually lives.",
+  "floor_note": "The 4.00 ct row carries no natural comparison because the natural sample at that weight was too thin to publish and stays blank on the natural list. The lab figure stands alone rather than against a number we would not print.",
+  "src": "StoneAlgo lab-grown price index, 25 July 2026, n>750,000 · natural retail asking from the Carat Capital natural list, 30 July 2026"
+ },
+ "shapes": {
+  "base": 545,
+  "n": "417,607",
+  "date": "25 July 2026",
+  "rows": [
+   {
+    "s": "Round",
+    "usd": 545,
+    "d": 0.0,
+    "m1": 2.44,
+    "nat_d": 0.0,
+    "swing": 0.0,
+    "inv": false
+   },
+   {
+    "s": "Pear",
+    "usd": 524,
+    "d": -3.9,
+    "m1": 7.09,
+    "nat_d": -17.1,
+    "swing": 13.2,
+    "inv": false
+   },
+   {
+    "s": "Heart",
+    "usd": 532,
+    "d": -2.4,
+    "m1": -6.5,
+    "nat_d": -42.9,
+    "swing": 40.5,
+    "inv": false
+   },
+   {
+    "s": "Oval",
+    "usd": 606,
+    "d": 11.2,
+    "m1": 0.66,
+    "nat_d": -22.6,
+    "swing": 33.8,
+    "inv": true
+   },
+   {
+    "s": "Cushion",
+    "usd": 623,
+    "d": 14.3,
+    "m1": -0.95,
+    "nat_d": -39.9,
+    "swing": 54.2,
+    "inv": true
+   },
+   {
+    "s": "Emerald",
+    "usd": 662,
+    "d": 21.5,
+    "m1": 2.16,
+    "nat_d": -38.4,
+    "swing": 59.9,
+    "inv": true
+   },
+   {
+    "s": "Princess",
+    "usd": 673,
+    "d": 23.5,
+    "m1": 0.75,
+    "nat_d": -39.4,
+    "swing": 62.9,
+    "inv": true
+   }
+  ],
+  "stability": [
+   {
+    "s": "Oval",
+    "one": "+11.2%",
+    "two": "+11.3%",
+    "three": "+11.9%",
+    "all3": true
+   },
+   {
+    "s": "Pear",
+    "one": "-3.9%",
+    "two": "-3.3%",
+    "three": "+9.1%",
+    "all3": false
+   },
+   {
+    "s": "Emerald",
+    "one": "+21.5%",
+    "two": "+1.8%",
+    "three": "-13.3%",
+    "all3": false
+   },
+   {
+    "s": "Princess",
+    "one": "+23.5%",
+    "two": "-7.4%",
+    "three": "-9.0%",
+    "all3": false
+   },
+   {
+    "s": "Cushion",
+    "one": "+14.3%",
+    "two": "-8.1%",
+    "three": "-19.3%",
+    "all3": false
+   },
+   {
+    "s": "Heart",
+    "one": "-2.4%",
+    "two": "+0.1%",
+    "three": "-7.6%",
+    "all3": false
+   },
+   {
+    "s": "Marquise",
+    "one": "—",
+    "two": "+29.6%",
+    "three": "-15.5%",
+    "all3": false
+   },
+   {
+    "s": "Asscher",
+    "one": "—",
+    "two": "-0.8%",
+    "three": "+5.1%",
+    "all3": false
+   },
+   {
+    "s": "Radiant",
+    "one": "—",
+    "two": "+4.5%",
+    "three": "-10.3%",
+    "all3": false
+   }
+  ],
+  "inversion": "In natural diamonds every fancy shape is cheaper than a round, because rounds waste the most rough and rough is the cost. In lab-grown there is no rough to waste: the cost is growing time and cutting loss on a crystal that can be grown to order. At one carat the ranking flips. A lab princess asks 23.5% more than a lab round; a natural princess asks 39.4% less. That is a 62.9-point swing on the same two shapes.",
+  "unstable": "The inversion is a one-carat phenomenon, and we will not pretend otherwise. At two carats princess and cushion fall back below round; at three carats six of nine shapes do. Only oval carries a premium at all three weights we track. Anyone quoting a single lab-grown shape premium across all sizes is quoting something that does not exist.",
+  "guides": "Three consumer guides published this year state the opposite of the live data. Liori (27 March) puts emerald cuts at “30–35% savings compared to rounds” and ovals at 20–25% less. Beyond Carat (15 June) prints oval 15–25% less, cushion 20–30% less, emerald 20–30% less, princess 10–20% less. The live one-carat sample has emerald 21.5% above round, cushion 14.3% above, princess 23.5% above. The guidance is the natural-market ordering, copied across to a market that does not work that way."
+ },
+ "ladder": {
+  "withheld": "No source we track publishes a dollar-denominated colour or clarity ladder for lab-grown diamonds from live inventory. We are not going to model one. On the natural list those two ladders are the backbone of the page; here the honest answer is that the market has not produced them, and a modelled ladder printed next to observed figures would be indistinguishable from data.",
+  "rows": [
+   {
+    "k": "PriceScope lab matrix, 0.30–0.39 ct, D / IF",
+    "v": "$1,227 / ct",
+    "b": "published"
+   },
+   {
+    "k": "PriceScope lab matrix, 0.30–0.39 ct, D / VVS2",
+    "v": "$759 / ct",
+    "b": "published"
+   },
+   {
+    "k": "Implied IF premium over VVS2 at that weight",
+    "v": "+61.7%",
+    "b": "derived"
+   },
+   {
+    "k": "PriceScope lab matrix, 0.40–0.49 ct, D / IF",
+    "v": "$1,259 / ct",
+    "b": "published"
+   },
+   {
+    "k": "Most-bought colour at 1.00 ct, lab",
+    "v": "D",
+    "b": "observed"
+   },
+   {
+    "k": "Most-bought clarity at 1.00 ct, lab",
+    "v": "VVS1",
+    "b": "observed"
+   },
+   {
+    "k": "Most-bought grades at 1.00 ct, natural",
+    "v": "G / VS",
+    "b": "observed"
+   }
+  ],
+  "modal": "The modal lab-grown buyer takes D colour and VVS1 clarity. The modal natural buyer takes G and VS. Nobody trades down in a market where the top grade costs almost nothing extra — which is the clearest thing anyone has published about the lab colour and clarity ladder, even though it is not a price.",
+  "src": "PriceScope lab diamond price chart, n>400,000 · StoneAlgo 1 ct lab index, 25 July 2026"
+ },
+ "method_split": {
+  "rows": [
+   {
+    "band": "0.50 ct · F–G · VS1–VS2",
+    "cvd": "$90–160",
+    "hpht": "$110–200",
+    "prem": "+24.0%",
+    "cvd_mid": 125.0,
+    "hpht_mid": 155.0
+   },
+   {
+    "band": "1.00 ct · D–F · VS1–VS2",
+    "cvd": "$350–600",
+    "hpht": "$400–750",
+    "prem": "+21.1%",
+    "cvd_mid": 475.0,
+    "hpht_mid": 575.0
+   },
+   {
+    "band": "1.50 ct · F–G · VS1–SI1",
+    "cvd": "$280–480",
+    "hpht": "$320–550",
+    "prem": "+14.5%",
+    "cvd_mid": 380.0,
+    "hpht_mid": 435.0
+   },
+   {
+    "band": "2.00 ct · G–H · VS2–SI1",
+    "cvd": "$220–420",
+    "hpht": "$260–500",
+    "prem": "+18.8%",
+    "cvd_mid": 320.0,
+    "hpht_mid": 380.0
+   },
+   {
+    "band": "3.00 ct · G–H · VS2–SI1",
+    "cvd": "$180–350",
+    "hpht": "$210–400",
+    "prem": "+15.1%",
+    "cvd_mid": 265.0,
+    "hpht_mid": 305.0
+   }
+  ],
+  "melee": "Melee under 0.30 ct trades at $50–180 per carat with no method split published.",
+  "note": "HPHT material carries a premium over CVD at every band published — between 14.5% and 24.0% on band midpoints. The premium is a production fact, not a quality claim: HPHT rigs cost more to run per carat and the two methods yield different colour distributions before treatment. This is the one price structure in lab-grown that has no analogue on the natural counter at all.",
+  "src": "Lepdo wholesale price guide, published 26 June 2026, updated 24 July 2026"
+ },
+ "dispersion": {
+  "rows": [
+   {
+    "w": "1.00 ct",
+    "ritani": 295,
+    "clean": 342,
+    "clarity": 620,
+    "be": 899,
+    "median": null,
+    "x": 3.05
+   },
+   {
+    "w": "1.50 ct",
+    "ritani": 387,
+    "clean": 542,
+    "clarity": 1047,
+    "be": 1818,
+    "median": 1011,
+    "x": 4.7
+   },
+   {
+    "w": "2.00 ct",
+    "ritani": 532,
+    "clean": 842,
+    "clarity": 1456,
+    "be": 3284,
+    "median": 1388,
+    "x": 6.17
+   }
+  ],
+  "spec": "E colour, VS1 clarity, round brilliant, Excellent cut, IGI-certified — held constant across all seven counters",
+  "note": "Same stone, same paper, four counters. At one carat the most expensive asking price is 3.05 times the cheapest. At two carats it is 6.17 times. On the natural counter the equivalent one-carat spread is 2.19 times. There is no published benchmark list for lab-grown, so there is nothing anchoring the top of the range — the spread is what a market looks like when nobody agrees what the thing is worth.",
+  "floor": "The cheapest tracked asking price at one carat, $295, sits below the midpoint of the published CVD wholesale band for the same specification ($350–600). Either the wholesale guide is stale, or that counter is selling at or below trade. We print both figures and let the gap stand.",
+  "src": "Rings.com lab-grown price index, 23 July 2026, n=208,903 listings across seven retailers"
+ },
+ "index": {
+  "rows": [
+   {
+    "k": "LGD Wholesale Price Index, year on year",
+    "v": "−13%",
+    "d": "Q2 2026"
+   },
+   {
+    "k": "Since tracking began, July 2018",
+    "v": "−96%",
+    "d": "Q2 2026"
+   },
+   {
+    "k": "Since 2020",
+    "v": "−74%",
+    "d": "Jun 2026"
+   },
+   {
+    "k": "Q1 2026, quarter on quarter",
+    "v": "−14%",
+    "d": "Q1 2026"
+   },
+   {
+    "k": "1.00 ct rounds, year on year",
+    "v": "+1%",
+    "d": "the only riser"
+   },
+   {
+    "k": "1.50–1.99 ct, year on year",
+    "v": "−11%",
+    "d": "Q2 2026"
+   },
+   {
+    "k": "2.00 ct, year on year",
+    "v": "−20%",
+    "d": "Q2 2026"
+   },
+   {
+    "k": "Fancy shapes — heart, marquise, oval, pear",
+    "v": "−17%",
+    "d": "average"
+   },
+   {
+    "k": "Square shapes",
+    "v": "−21%",
+    "d": "some VVS below −25%"
+   }
+  ],
+  "note": "Ninety-six per cent off since July 2018, and the fall is decelerating rather than stopping. The single riser in the entire Q2 list is the one-carat round — the most-traded item in the category, up 1% against an index down 13%.",
+  "rough": "Rough is moving the other way. Chinese producers raised prices at least 30% in recent weeks and Diamond Foundry by about 25%. Polished has not followed yet. If it does, the one-carat round will not be the only riser for long.",
+  "src": "Edahn Golan Q2 2026 LGD Wholesale Price List, 7 July 2026 · InStore, 8 July 2026 · AIDI, 8 June 2026"
+ },
+ "divergence": {
+  "rows": [
+   {
+    "k": "Lab discount to natural, per carat",
+    "a": "26.6%",
+    "b": "72.8%",
+    "c": "88.1%"
+   },
+   {
+    "k": "Lab share of engagement rings",
+    "a": "6.3%",
+    "b": "47.7%",
+    "c": "—"
+   },
+   {
+    "k": "Average lab centre stone",
+    "a": "1.31 ct",
+    "b": "2.45 ct",
+    "c": "—"
+   },
+   {
+    "k": "1.00 ct lab, typical",
+    "a": "—",
+    "b": "$1,000 or less",
+    "c": "$545"
+   },
+   {
+    "k": "1.00 ct natural, typical",
+    "a": "—",
+    "b": "$4,200",
+    "c": "$4,581"
+   }
+  ],
+  "cols": [
+   "2019",
+   "2025",
+   "Carat Capital, July 2026"
+  ],
+  "note": "The discount has not widened because natural got dearer. Natural is roughly where it was. Lab fell out from under it — and buyers spent the difference on size, taking the average lab centre stone from 1.31 ct to 2.45 ct, up 87.0% in six years. The flat per-carat line makes that trade almost free.",
+  "src": "BriteCo lab-grown vs natural report, data 1 March 2019 to 31 May 2025 · 2026 column, Carat Capital"
+ },
+ "resale": {
+  "rows": [
+   {
+    "k": "Trade buyback, lab-grown",
+    "v": "$0"
+   },
+   {
+    "k": "Secondary platforms — eBay, consignment",
+    "v": "20–30% of price paid"
+   },
+   {
+    "k": "Natural, typical retention",
+    "v": "~50%"
+   },
+   {
+    "k": "Pawn, lab-grown",
+    "v": "metal weight only"
+   }
+  ],
+  "note": "A jeweller will not buy a lab-grown diamond back at any price, because they can order a new one at wholesale tomorrow. The absolute loss is still smaller than on a natural stone — losing all of $2,000 beats losing half of $20,000 — but the retention rate is the one number in this category that has not fallen, because it started at zero.",
+  "conflict": "Labrilliante publishes 30–40% retention for lab-grown. It contradicts every trade buyback account we could source and we have not used it.",
+  "src": "TheCaratCut resale guide, 12 February 2026"
+ },
+ "context": {
+  "rows": [
+   {
+    "h": "Henan makes the market",
+    "b": "China produces roughly half the world's synthetic diamond output and about 80% of the Chinese total comes out of Henan province, predominantly by HPHT. India is the largest CVD producer at close to a quarter of global output. The newest comparable production breakdown we could source dates to December 2023 and we flag it as such."
+   },
+   {
+    "h": "Rough turns first",
+    "b": "Chinese producers raised rough prices by at least 30% in recent weeks; Diamond Foundry by about 25%. Polished has not followed. Every previous turn in this market started at the reactor, not the counter."
+   },
+   {
+    "h": "A cost signal, not a demand signal",
+    "b": "The trade reads the fall as capacity scaling rather than weakening demand — the compression is happening at the producer and migrating down the chain. Lab-grown still took 47.7% of the engagement-ring market in 2024."
+   },
+   {
+    "h": "The one-carat round holds",
+    "b": "Up 1% year on year against an index down 13%. It is the most liquid item in the category and the only line in the Q2 wholesale list that rose."
+   },
+   {
+    "h": "Size absorbs the saving",
+    "b": "The average lab centre stone went from 1.31 ct in 2019 to 2.45 ct in 2025, up 87.0%. A flat per-carat curve means going bigger costs almost nothing, so buyers go bigger."
+   },
+   {
+    "h": "No list to withhold",
+    "b": "Rapaport publishes no lab-grown price list. On the natural page we declined to reconstruct a copyrighted matrix; here there is no matrix to reconstruct, and no benchmark holding the retail range together either."
+   }
+  ]
+ },
+ "method": {
+  "rows": [
+   {
+    "h": "Two bases, never merged",
+    "b": "Retail asking prices come from live inventory indices. Wholesale comes from a published trade guide quoting bands. They are printed as separate figures and never averaged into a single number."
+   },
+   {
+    "h": "Bands, not midpoints",
+    "b": "We show wholesale as the band the source published. Midpoints appear only where we compare CVD against HPHT, because that comparison is internal to one table and one source."
+   },
+   {
+    "h": "No ladder we cannot source",
+    "b": "Colour and clarity stay unpriced. A modelled ladder set beside observed figures reads as data, and we would rather print the gap."
+   },
+   {
+    "h": "One spec, many counters",
+    "b": "The dispersion table holds colour, clarity, shape, cut and lab constant across every retailer, so the range is a pricing difference and not a specification difference."
+   }
+  ]
+ },
+ "sources": [
+  {
+   "n": "StoneAlgo lab-grown price index, all shapes",
+   "d": "25 Jul 2026",
+   "u": "stonealgo.com"
+  },
+  {
+   "n": "StoneAlgo 1 ct lab index, n=417,607",
+   "d": "25 Jul 2026",
+   "u": "stonealgo.com"
+  },
+  {
+   "n": "StoneAlgo 2 ct lab index, n=453,915",
+   "d": "25 Jul 2026",
+   "u": "stonealgo.com"
+  },
+  {
+   "n": "StoneAlgo 3 ct lab index, n=317,509",
+   "d": "25 Jul 2026",
+   "u": "stonealgo.com"
+  },
+  {
+   "n": "Rings.com lab-grown price index, n=208,903",
+   "d": "23 Jul 2026",
+   "u": "rings.com"
+  },
+  {
+   "n": "Lepdo wholesale price guide",
+   "d": "24 Jul 2026",
+   "u": "lepdodiamonds.com"
+  },
+  {
+   "n": "Edahn Golan, Q2 2026 LGD Wholesale Price List",
+   "d": "7 Jul 2026",
+   "u": "edahngolan.com"
+  },
+  {
+   "n": "InStore, Q2 2026 LGD wholesale report",
+   "d": "8 Jul 2026",
+   "u": "instoremag.com"
+  },
+  {
+   "n": "AIDI, lab-grown wholesale and margin migration",
+   "d": "8 Jun 2026",
+   "u": "aidi.org"
+  },
+  {
+   "n": "PriceScope lab diamond price chart, n>400,000",
+   "d": "Jul 2026",
+   "u": "pricescope.com"
+  },
+  {
+   "n": "TheCaratCut, lab-grown resale value",
+   "d": "12 Feb 2026",
+   "u": "thecaratcut.com"
+  },
+  {
+   "n": "BriteCo lab-grown vs natural report",
+   "d": "data to 31 May 2025",
+   "u": "brite.co"
+  },
+  {
+   "n": "Rough&Polished, China and India LGD production",
+   "d": "4 Dec 2023",
+   "u": "rough-polished.expert"
+  },
+  {
+   "n": "Carat Capital natural diamond price list",
+   "d": "30 Jul 2026",
+   "u": "caratcapital.org"
+  }
+ ],
+ "excluded": [
+  {
+   "n": "Draco 2020–2026 series",
+   "why": "mixes direct-to-consumer tennis-bracelet rates with per-carat averages, so the years are not comparable. Read for direction only, not printed as prices."
+  },
+  {
+   "n": "Washington Diamond price chart",
+   "why": "quotes one carat at $759–1,500, above every live index we track, and runs a 2025 chart title over a March 2026 date."
+  },
+  {
+   "n": "Labrilliante resale retention",
+   "why": "30–40% retention contradicts every trade buyback account we could source."
+  },
+  {
+   "n": "Liori and Beyond Carat shape guidance",
+   "why": "both print the natural-market ordering for lab-grown shapes. Shown on this page as a conflict, never used as prices."
+  },
+  {
+   "n": "StoneAlgo 3 ct disagreement",
+   "why": "the dedicated 3 ct index page read $1,805 in the same week the summary table read $1,894. Both are shown where relevant; neither is averaged."
+  },
+  {
+   "n": "Any colour or clarity ladder",
+   "why": "nobody publishes one for lab-grown from live inventory. Not modelled, not printed."
+  },
+  {
+   "n": "Rapaport",
+   "why": "publishes no lab-grown list. Nothing to cite and, unlike the natural page, nothing to withhold."
+  }
+ ]
+}
