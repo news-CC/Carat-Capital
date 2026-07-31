@@ -18524,5 +18524,913 @@
     }
    ]
   }
+ },
+ "de-beers-narrows-the-loss": {
+  "strip": {
+   "cap": "By the numbers · De Beers, first half",
+   "cells": [
+    {
+     "fig": "$1.58B",
+     "dir": "down",
+     "lab": "revenue, H1"
+    },
+    {
+     "fig": "−19%",
+     "dir": "down",
+     "lab": "year on year"
+    },
+    {
+     "fig": "$188M",
+     "lab": "underlying loss"
+    },
+    {
+     "fig": "$105",
+     "dir": "down",
+     "lab": "realised, per carat"
+    },
+    {
+     "fig": "$64",
+     "dir": "down",
+     "lab": "unit cost, per carat"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Per carat, De Beers first half",
+    "rows": [
+     {
+      "l": "REALISED PRICE",
+      "v": 105,
+      "d": "$105",
+      "hi": true
+     },
+     {
+      "l": "UNIT COST",
+      "v": 64,
+      "d": "$64"
+     }
+    ],
+    "note": "USD per carat, H1 2026. Realised price fell 32%; unit cost fell 26%.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/149"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Losing money more slowly.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Costs did the work.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "De Beers has been arguing since its July sight that prices have found their level, and these accounts are the first set of numbers that support the claim rather than the intention.",
+     "attr": "The Diamonds Desk"
+    }
+   },
+   {
+    "sub": "The owner question.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "One billion for De Beers",
+     "href": "a-one-billion-for-de-beers.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "A rough price index that holds flat across two quarters is the precondition for everything else the trade wants"
+  },
+  "next": {
+   "lead": {
+    "slug": "de-beers-eighty-eight-up",
+    "tag": "The quarter",
+    "blurb": "De Beers digs 88% more and banks 44% less."
+   },
+   "minis": [
+    {
+     "slug": "one-billion-for-de-beers",
+     "tag": "The sale"
+    },
+    {
+     "slug": "petra-caves-at-the-bottom",
+     "tag": "Producers"
+    }
+   ]
+  }
+ },
+ "gold-gives-back-thursday": {
+  "strip": {
+   "cap": "By the numbers · gold, 31 July",
+   "cells": [
+    {
+     "fig": "$4,054.68",
+     "dir": "down",
+     "lab": "spot, Friday"
+    },
+    {
+     "fig": "−1.19%",
+     "dir": "down",
+     "lab": "on the day"
+    },
+    {
+     "fig": "+20.57%",
+     "dir": "up",
+     "lab": "year on year"
+    },
+    {
+     "fig": "+1.4%",
+     "dir": "up",
+     "lab": "on the month"
+    },
+    {
+     "fig": "$130",
+     "lab": "per gram, fine"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Two prints, one session",
+    "rows": [
+     {
+      "l": "FRI 31 JUL, EARLY",
+      "v": 4086,
+      "d": "$4,086"
+     },
+     {
+      "l": "FRI 31 JUL, LATE",
+      "v": 4055,
+      "d": "$4,055",
+      "hi": true
+     },
+     {
+      "l": "THU 30 JUL",
+      "v": 4075,
+      "d": "$4,075"
+     }
+    ],
+    "note": "USD/oz spot. Trading Economics prints through the final session of July.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/150"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "A day's work, returned.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Traders, not holders.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "The move was positioning, not information, and positioning unwinds faster than it builds.",
+     "attr": "The Bullion Desk"
+    }
+   },
+   {
+    "sub": "The bench arithmetic.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Gold takes back $4,075",
+     "href": "a-gold-unwinds-the-hold.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "start pricing inventory, insurance and trade-in policy off a $4,000 handle"
+  },
+  "next": {
+   "lead": {
+    "slug": "three-metals-one-direction",
+    "tag": "White metals",
+    "blurb": "Silver, platinum and palladium all close July lower."
+   },
+   "minis": [
+    {
+     "slug": "gold-unwinds-the-hold",
+     "tag": "Thursday"
+    },
+    {
+     "slug": "two-seventy-eight-tonnes",
+     "tag": "Demand"
+    }
+   ]
+  }
+ },
+ "three-metals-one-direction": {
+  "strip": {
+   "cap": "By the numbers · the white metals",
+   "cells": [
+    {
+     "fig": "$57.99",
+     "dir": "down",
+     "lab": "silver / oz"
+    },
+    {
+     "fig": "$1,636",
+     "dir": "down",
+     "lab": "platinum / oz"
+    },
+    {
+     "fig": "$1,288.50",
+     "dir": "down",
+     "lab": "palladium / oz"
+    },
+    {
+     "fig": "69.9",
+     "lab": "gold-silver ratio"
+    },
+    {
+     "fig": "−6%",
+     "dir": "down",
+     "lab": "2026 Pt jewellery demand"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Year on year, the white metals",
+    "rows": [
+     {
+      "l": "SILVER",
+      "v": 56.44,
+      "d": "+56.44%",
+      "hi": true
+     },
+     {
+      "l": "PLATINUM",
+      "v": 24.28,
+      "d": "+24.28%"
+     },
+     {
+      "l": "PALLADIUM",
+      "v": 6.8,
+      "d": "+6.80%"
+     }
+    ],
+    "note": "Percent change over twelve months, at 31 July 2026.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/151"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Three metals, one afternoon.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Platinum's month beat its day.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "Three metals with three different demand stories moved the same way on the same afternoon, which usually means the dollar did the moving rather than anything in their own supply and demand.",
+     "attr": "The Metals Desk"
+    }
+   },
+   {
+    "sub": "The gap that matters.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "White metals lose their heat",
+     "href": "a-white-metals-lose-their-heat.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "Silver has spent the year outrunning gold and has now stalled just under $60"
+  },
+  "next": {
+   "lead": {
+    "slug": "gold-gives-back-thursday",
+    "tag": "Gold",
+    "blurb": "Gold gives back Thursday's rally on a dollar bounce."
+   },
+   "minis": [
+    {
+     "slug": "platinum-loses-its-teacher",
+     "tag": "Platinum"
+    },
+    {
+     "slug": "silver-eyes-sixty",
+     "tag": "Silver"
+    }
+   ]
+  }
+ },
+ "two-seventy-eight-tonnes": {
+  "strip": {
+   "cap": "By the numbers · gold demand, Q2",
+   "cells": [
+    {
+     "fig": "278t",
+     "dir": "down",
+     "lab": "jewellery demand"
+    },
+    {
+     "fig": "−17%",
+     "dir": "down",
+     "lab": "year on year"
+    },
+    {
+     "fig": "$40B",
+     "dir": "up",
+     "lab": "jewellery, by value"
+    },
+    {
+     "fig": "1,269t",
+     "lab": "total demand, flat"
+    },
+    {
+     "fig": "$4,506.29",
+     "lab": "average price, Q2"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Second quarter, by category",
+    "rows": [
+     {
+      "l": "BAR AND COIN",
+      "v": 307,
+      "d": "307t"
+     },
+     {
+      "l": "JEWELLERY",
+      "v": 278,
+      "d": "278t",
+      "hi": true
+     },
+     {
+      "l": "CENTRAL BANKS",
+      "v": 289,
+      "d": "289t"
+     },
+     {
+      "l": "ETF FLOWS",
+      "v": -45,
+      "d": "−45t"
+     }
+    ],
+    "note": "Tonnes, Q2 2026. World Gold Council Gold Demand Trends.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/152"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "The lightest quarter since the pandemic.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Investment stayed, jewellery left.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "Jewellery is the only demand category in the accounts that has to be paid for out of a household budget rather than a balance sheet.",
+     "attr": "The Bullion Desk"
+    }
+   },
+   {
+    "sub": "A price the market has left behind.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "China takes 173 tonnes",
+     "href": "a-china-takes-173-tonnes.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "278 tonnes is the clearest measurement yet of what $4,500 gold does to a counter, and it is not a demand collapse but a substitution"
+  },
+  "next": {
+   "lead": {
+    "slug": "india-buys-fifteen-percent-less",
+    "tag": "India",
+    "blurb": "India's jewellery tonnage falls 15% as the bill hits a record."
+   },
+   "minis": [
+    {
+     "slug": "gold-gives-back-thursday",
+     "tag": "Gold"
+    },
+    {
+     "slug": "more-dollars-fewer-boxes",
+     "tag": "Retail"
+    }
+   ]
+  }
+ },
+ "india-buys-fifteen-percent-less": {
+  "strip": {
+   "cap": "By the numbers · India, Q2",
+   "cells": [
+    {
+     "fig": "75.1t",
+     "dir": "down",
+     "lab": "jewellery demand"
+    },
+    {
+     "fig": "88.8t",
+     "lab": "a year earlier"
+    },
+    {
+     "fig": "−15%",
+     "dir": "down",
+     "lab": "jewellery, by weight"
+    },
+    {
+     "fig": "−6%",
+     "dir": "down",
+     "lab": "total gold demand"
+    },
+    {
+     "fig": "+50%",
+     "dir": "up",
+     "lab": "demand, by value"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Indian jewellery demand, second quarter",
+    "rows": [
+     {
+      "l": "Q2 2025",
+      "v": 88.8,
+      "d": "88.8t"
+     },
+     {
+      "l": "Q2 2026",
+      "v": 75.1,
+      "d": "75.1t",
+      "hi": true
+     }
+    ],
+    "note": "Tonnes. World Gold Council quarterly data for India.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/153"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Seventy-five tonnes.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "From the showcase to the locker.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "In a market where gold is simultaneously the savings product and the adornment, price stress does not reduce the allocation.",
+     "attr": "The Counter Desk"
+    }
+   },
+   {
+    "sub": "Recycled metal, priced revenue.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "India buys the dip",
+     "href": "a-india-buys-the-dip.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "the third quarter matters far more, because it carries the festive build into Dhanteras and Diwali"
+  },
+  "next": {
+   "lead": {
+    "slug": "two-seventy-eight-tonnes",
+    "tag": "Global",
+    "blurb": "Jewellery demand falls to 278 tonnes worldwide."
+   },
+   "minis": [
+    {
+     "slug": "india-pays-in-old-gold",
+     "tag": "Trade-ins"
+    },
+    {
+     "slug": "india-ships-the-turn",
+     "tag": "Exports"
+    }
+   ]
+  }
+ },
+ "confidence-slips-to-ninety": {
+  "strip": {
+   "cap": "By the numbers · confidence, July",
+   "cells": [
+    {
+     "fig": "90.8",
+     "dir": "down",
+     "lab": "headline index"
+    },
+    {
+     "fig": "−1.4",
+     "dir": "down",
+     "lab": "points on the month"
+    },
+    {
+     "fig": "114.9",
+     "dir": "down",
+     "lab": "present situation"
+    },
+    {
+     "fig": "74.7",
+     "lab": "expectations, unchanged"
+    },
+    {
+     "fig": "92.3",
+     "lab": "consensus"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "The two halves of the index",
+    "rows": [
+     {
+      "l": "PRESENT SITUATION",
+      "v": 114.9,
+      "d": "114.9",
+      "hi": true
+     },
+     {
+      "l": "HEADLINE",
+      "v": 90.8,
+      "d": "90.8"
+     },
+     {
+      "l": "EXPECTATIONS",
+      "v": 74.7,
+      "d": "74.7"
+     }
+    ],
+    "note": "Index level, July 2026. The Conference Board.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/154"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Down 1.4 points.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "An unusual shape.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "Confidence surveys are weak predictors of jewellery sales and useful predictors of jewellery discounting.",
+     "attr": "The Counter Desk"
+    }
+   },
+   {
+    "sub": "What it does to margin.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "June retail, a thin cushion",
+     "href": "a-june-retail-thin-cushion.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "buy the holiday book narrower, weight it toward proven price points, and hold the fine goods rather than the middle"
+  },
+  "next": {
+   "lead": {
+    "slug": "the-ask-is-exclusion",
+    "tag": "Policy",
+    "blurb": "Jewelers of America returns to Washington with one ask."
+   },
+   "minis": [
+    {
+     "slug": "average-ticket-carries-the-half",
+     "tag": "Tickets"
+    },
+    {
+     "slug": "more-dollars-fewer-boxes",
+     "tag": "Units"
+    }
+   ]
+  }
+ },
+ "the-ask-is-exclusion": {
+  "strip": {
+   "cap": "By the numbers · the tariff wall",
+   "cells": [
+    {
+     "fig": "10–12.5%",
+     "lab": "current round"
+    },
+    {
+     "fig": "~60",
+     "lab": "countries covered"
+    },
+    {
+     "fig": "7",
+     "lab": "African producers exempt"
+    },
+    {
+     "fig": "10%",
+     "lab": "India, polished"
+    },
+    {
+     "fig": "5",
+     "lab": "states in the second case"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Where the duty lands",
+    "rows": [
+     {
+      "l": "CHINA, THAILAND, UAE",
+      "v": 12.5,
+      "d": "12.5%",
+      "hi": true
+     },
+     {
+      "l": "INDIA, CANADA, BRITAIN",
+      "v": 10,
+      "d": "10%"
+     },
+     {
+      "l": "EU POLISHED",
+      "v": 0,
+      "d": "exempt"
+     },
+     {
+      "l": "SEVEN AFRICAN PRODUCERS",
+      "v": 0,
+      "d": "exempt"
+     }
+    ],
+    "note": "Import duty on jewellery, diamonds and gemstones, from late July 2026.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/155"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "One sentence, repeated.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "A second front.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "The lobbying position is no longer about rates. It is about category.",
+     "attr": "The Policy Desk"
+    }
+   },
+   {
+    "sub": "Why exclusion is the cheap concession.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "The tariff wall comes back",
+     "href": "a-tariff-wall-returns.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "The working assumption for the autumn buy should remain 10% on Indian polished"
+  },
+  "next": {
+   "lead": {
+    "slug": "confidence-slips-to-ninety",
+    "tag": "Demand",
+    "blurb": "Consumer confidence slips to 90.8 in July."
+   },
+   "minis": [
+    {
+     "slug": "the-watch-trade-sues",
+     "tag": "Litigation"
+    },
+    {
+     "slug": "zero-duty-day-one",
+     "tag": "Exemptions"
+    }
+   ]
+  }
+ },
+ "gemfields-covers-the-ruby": {
+  "strip": {
+   "cap": "By the numbers · Gemfields H1",
+   "cells": [
+    {
+     "fig": "$102.9M",
+     "dir": "up",
+     "lab": "auction revenue"
+    },
+    {
+     "fig": "+72%",
+     "dir": "up",
+     "lab": "year on year"
+    },
+    {
+     "fig": "$26.8M",
+     "lab": "May emerald sale"
+    },
+    {
+     "fig": "0.025ct/t",
+     "dir": "down",
+     "lab": "premium ruby grade"
+    },
+    {
+     "fig": "$44.2M",
+     "lab": "net debt, 30 June"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Two sales inside the half",
+    "rows": [
+     {
+      "l": "FEBRUARY RUBY",
+      "v": 53,
+      "d": "$53.0M",
+      "hi": true
+     },
+     {
+      "l": "MAY EMERALD",
+      "v": 26.8,
+      "d": "$26.8M"
+     }
+    ],
+    "note": "USD millions. Auction revenue by sale, first half 2026.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/156"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Seventy-two percent more.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Montepuez is the problem.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "The response has been to schedule ruby auctions cautiously rather than push weak material into a thin market.",
+     "attr": "The Color Desk"
+    }
+   },
+   {
+    "sub": "The auction calendar is the financing calendar.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Emeralds hold at $146",
+     "href": "a-emeralds-hold-at-146.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "supply discipline is now the pricing mechanism in colour, and Gemfields is exercising it openly"
+  },
+  "next": {
+   "lead": {
+    "slug": "color-runs-two-speeds",
+    "tag": "Colour",
+    "blurb": "Two speeds in colour: a record sapphire, demand 30% down."
+   },
+   "minis": [
+    {
+     "slug": "sixty-six-dollars-a-carat",
+     "tag": "Ruby"
+    },
+    {
+     "slug": "the-guide-marks-ruby-up",
+     "tag": "Prices"
+    }
+   ]
+  }
  }
 }
