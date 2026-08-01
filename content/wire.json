@@ -1,51 +1,51 @@
 {
- "date_line": "Friday, July 31, 2026",
- "edition": "Vol. I — No. 021",
+ "date_line": "Saturday, August 1, 2026",
+ "edition": "Vol. I — No. 022",
  "items": [
   {
-   "b": "DE BEERS NARROWS THE LOSS",
-   "t": " — Anglo American's half-year accounts put De Beers revenue at $1.58 billion, down 19%, with an underlying loss of $188 million, 23% narrower, and an underlying EBITDA loss of $113 million; the realised price fell 32% to $105 a carat while unit costs fell 26% to $64"
+   "b": "RUSSIA BANS THE WORD",
+   "t": " — Government Resolution No. 657, signed May 30 and in force September 1, prohibits the word diamond and its derivatives for synthetic stones sold in Russia; tags must read synthetic or Synth., and weight must be shown in grams because carat weight is banned outright"
   },
   {
-   "b": "THE INDEX HOLDS AT 68 AND 69",
-   "t": " — De Beers' rough price index sat 16% below last year but moved barely at all inside the half, 68 in the first quarter and 69 in the second, the first quantitative support for the argument that rough has found its level"
+   "b": "NATURAL, REAL, ECO-FRIENDLY STRUCK",
+   "t": " — The same resolution removes precious, real, genuine, natural, mined, mineral and eco-friendly from all consumer-facing description of man-made stones, in store and online, along with the colour and clarity descriptors borrowed from natural grading"
   },
   {
-   "b": "GOLD GIVES BACK $4,086",
-   "t": " — Spot fell 1.19% to $4,054.68 an ounce on the last trading day of July as the dollar rebounded from a six-week trough and traders booked Thursday's post-Fed rally; gold is still 20.57% higher on the year and about 1.4% up on the month"
+   "b": "GOLD CLOSES JULY HIGHER",
+   "t": " — Kitco's 5pm close put spot at $4,041.70, down $60.90 or 1.48% on the session, but July finished about 0.5% up, gold's first monthly gain since February and the end of a four-month losing run; the metal is 20.22% higher year on year"
   },
   {
-   "b": "WHITE METALS ALL LOWER",
-   "t": " — Silver fell 1.72% to $57.99, platinum 1.46% to $1,636 and palladium 1.53% to $1,288.50, putting the gold-silver ratio near 69.9; on the year silver is up 56.44%, platinum 24.28% and palladium 6.80%"
+   "b": "PALLADIUM DOWN 3.38%",
+   "t": " — The white metals fell harder than gold on the last session of July: palladium $1,256.00, silver $57.44 and platinum $1,644.00, putting the gold-silver ratio near 70.4 and platinum at roughly 41% of the gold price"
   },
   {
-   "b": "278 TONNES OF JEWELLERY",
-   "t": " — World Gold Council data put second-quarter jewellery demand at 278 tonnes, down 17% and the lowest quarterly volume since the pandemic, though its value rose 14% to $40 billion against a quarterly average price of $4,506.29"
+   "b": "DUBAI BOOKS OCTOBER 26",
+   "t": " — DMCC will hold the second Dubai Diamond Week from October 26 to 29 with the Italian Exhibition Group co-hosting a sourcing show, after the emirate traded a record $41.7 billion and 359.5 million carats in 2025, 95.8% of the value in natural stones"
   },
   {
-   "b": "INDIA BUYS 15% LESS",
-   "t": " — Indian jewellery demand fell to 75.1 tonnes in the second quarter from 88.8 tonnes, with total Indian gold demand down 6% and the value of that demand up about 50% as prices set records"
+   "b": "HERMÈS HOLDS WATCHES FLAT",
+   "t": " — First-half watch revenue was €269 million, down 4.2% as published but up 0.2% at constant rates, with the second quarter up 4.4%; jewellery and home took €1.065 billion, up 5.4%, on group revenue of €8.2 billion and a 41.0% operating margin"
   },
   {
-   "b": "CONFIDENCE SLIPS TO 90.8",
-   "t": " — The Conference Board's index fell 1.4 points in July against a 92.3 consensus; the present situation index dropped 3.6 points to 114.9, a third consecutive decline, while expectations held at 74.7"
+   "b": "BUCHERER GETS FIFTH AVENUE",
+   "t": " — Rolex's own retailer confirmed it will operate the Manhattan flagship, reported by WatchPro at 43,000 square feet over four floors in a David Chipperfield building, more than four times the size of the current largest Rolex showroom in Dubai"
   },
   {
-   "b": "THE ASK IS EXCLUSION",
-   "t": " — Jewelers of America met administration officials as a 10% to 12.5% duty round covering roughly sixty countries took effect, seeking to remove diamonds, gemstones and pearls from the schedule; seven African producers and EU-polished goods are exempt, India stays at 10%"
+   "b": "SIXTY DOORS FOR FRIENDSHIP DAY",
+   "t": " — De Beers India is running the second edition of Love, from Bestie today and tomorrow across 60 retail partner stores in nine cities, built on four paired natural diamond bracelets, against Indian jewellery demand that fell 15% by weight in the second quarter"
   },
   {
-   "b": "GEMFIELDS TAKES $102.9 MILLION",
-   "t": " — First-half auction revenue rose 72%, carried by emerald, while premium-grade ruby recovery at Montepuez ran at 0.025 carats a tonne; net debt stood at $44.2 million on June 30 before $33.3 million of auction receivables"
+   "b": "A DOLLAR IN, FIFTEEN OUT",
+   "t": " — Sy Kessler launched a watch battery starter kit listing from $235 on the arithmetic that the average cell costs about $1 and the job sells for more than $15, one of the few counter lines priced on skill rather than on spot"
   }
  ],
- "tape_ts": "31 Jul 2026, late session · the complex closes July lower",
+ "tape_ts": "31 Jul 2026, 5pm New York close · Kitco · markets shut for the weekend",
  "tape": [
   {
    "name": "Gold / oz",
    "code": "XAU",
-   "px": "4,054.68",
-   "chg": "▼ −1.19%",
+   "px": "4,041.70",
+   "chg": "▼ −1.48%",
    "dir": "down",
    "pts": [
     16,
@@ -54,10 +54,10 @@
     15,
     15,
     14,
-    14,
     15,
     16,
-    15
+    15,
+    14
    ]
   },
   {
@@ -101,8 +101,8 @@
   {
    "name": "Platinum / oz",
    "code": "XPT",
-   "px": "1,636.00",
-   "chg": "▼ −1.46%",
+   "px": "1,644.00",
+   "chg": "▼ −0.60%",
    "dir": "down",
    "pts": [
     17,
@@ -112,16 +112,16 @@
     16,
     15,
     15,
-    15,
     17,
+    16,
     16
    ]
   },
   {
    "name": "Silver / oz",
    "code": "XAG",
-   "px": "57.99",
-   "chg": "▼ −1.72%",
+   "px": "57.44",
+   "chg": "▼ −2.45%",
    "dir": "down",
    "pts": [
     18,
@@ -130,10 +130,10 @@
     17,
     17,
     17,
-    17,
     16,
     16,
-    15
+    15,
+    14
    ]
   }
  ]

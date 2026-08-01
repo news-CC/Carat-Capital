@@ -19432,5 +19432,908 @@
     }
    ]
   }
+ },
+ "russia-bans-the-word": {
+  "strip": {
+   "cap": "By the numbers · Resolution No. 657",
+   "cells": [
+    {
+     "fig": "Sept 1",
+     "lab": "in force"
+    },
+    {
+     "fig": "May 30",
+     "lab": "signed"
+    },
+    {
+     "fig": "grams",
+     "lab": "weight unit allowed"
+    },
+    {
+     "fig": "0 carats",
+     "dir": "down",
+     "lab": "permitted for synthetics"
+    },
+    {
+     "fig": "Sept 4",
+     "lab": "CIBJO congress"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "What a synthetic stone may be called in Russia",
+    "rows": [
+     {
+      "l": "SYNTHETIC / SYNTH.",
+      "v": 100,
+      "d": "required",
+      "hi": true
+     },
+     {
+      "l": "DIAMOND, AND DERIVATIVES",
+      "v": 0,
+      "d": "banned"
+     },
+     {
+      "l": "NATURAL, REAL, PRECIOUS",
+      "v": 0,
+      "d": "banned"
+     },
+     {
+      "l": "ECO-FRIENDLY, MINED",
+      "v": 0,
+      "d": "banned"
+     },
+     {
+      "l": "CARAT WEIGHT",
+      "v": 0,
+      "d": "banned"
+     }
+    ],
+    "note": "Consumer-facing description rules, in force September 1, 2026.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/157"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Thirty-one days to relabel.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Grams, not carats.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "A one-carat lab-grown stone sold in Russia after September 1 is a 0.2 gram stone.",
+     "attr": "The Diamonds Desk"
+    }
+   },
+   {
+    "sub": "A template, not an outlier.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Not lab-grown, synthetic",
+     "href": "a-say-synthetic-not-lab-grown.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "the carat rule is the one that travels, because a unit of measure is harder to lobby away than an adjective"
+  },
+  "next": {
+   "lead": {
+    "slug": "sixty-one-percent-said-lab",
+    "tag": "Demand",
+    "blurb": "Sixty-one percent of American buyers chose a grown stone."
+   },
+   "minis": [
+    {
+     "slug": "say-synthetic-not-lab-grown",
+     "tag": "Language"
+    },
+    {
+     "slug": "lab-grown-finds-its-floor",
+     "tag": "Prices"
+    }
+   ]
+  }
+ },
+ "dubai-diamond-week-returns": {
+  "strip": {
+   "cap": "By the numbers · Dubai, 2025 trade",
+   "cells": [
+    {
+     "fig": "$41.7B",
+     "dir": "up",
+     "lab": "diamond trade, record"
+    },
+    {
+     "fig": "359.5M ct",
+     "dir": "up",
+     "lab": "volume traded"
+    },
+    {
+     "fig": "95.8%",
+     "lab": "of value, natural"
+    },
+    {
+     "fig": "~1,400",
+     "lab": "companies in the ecosystem"
+    },
+    {
+     "fig": "Oct 26-29",
+     "lab": "second edition"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Dubai's 2025 diamond trade, by type",
+    "rows": [
+     {
+      "l": "NATURAL",
+      "v": 95.8,
+      "d": "95.8%",
+      "hi": true
+     },
+     {
+      "l": "ALL OTHER",
+      "v": 4.2,
+      "d": "4.2%"
+     }
+    ],
+    "note": "Share of $41.7 billion traded value. DMCC.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/158"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "A date on the diary.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Volume is not governance.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "A city that clears that volume does not need a conference to prove it matters",
+     "attr": "The Diamonds Desk"
+    }
+   },
+   {
+    "sub": "October is the point of decision.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Dubai's $41 billion year",
+     "href": "a-dubai-41-billion-year.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "the useful measure of Dubai Diamond Week will not be attendance"
+  },
+  "next": {
+   "lead": {
+    "slug": "doha-opens-a-diamond-door",
+    "tag": "Gulf",
+    "blurb": "Qatar's new bourse joins the world federation."
+   },
+   "minis": [
+    {
+     "slug": "greenest-stones-locked-out",
+     "tag": "Trade"
+    },
+    {
+     "slug": "angolas-rough-clears",
+     "tag": "Tenders"
+    }
+   ]
+  }
+ },
+ "gold-ends-july-higher": {
+  "strip": {
+   "cap": "By the numbers · gold, July close",
+   "cells": [
+    {
+     "fig": "$4,041.70",
+     "dir": "down",
+     "lab": "Kitco close, July 31"
+    },
+    {
+     "fig": "−$60.90",
+     "dir": "down",
+     "lab": "on the day"
+    },
+    {
+     "fig": "−1.48%",
+     "dir": "down",
+     "lab": "session change"
+    },
+    {
+     "fig": "+0.5%",
+     "dir": "up",
+     "lab": "on the month"
+    },
+    {
+     "fig": "+20.22%",
+     "dir": "up",
+     "lab": "year on year"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Gold's monthly run, five months to July",
+    "rows": [
+     {
+      "l": "MARCH TO JUNE",
+      "v": 0,
+      "d": "four months lower"
+     },
+     {
+      "l": "JULY",
+      "v": 0.5,
+      "d": "+0.5%",
+      "hi": true
+     }
+    ],
+    "note": "Percent change, month on month. First monthly gain since February.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/159"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "The day and the month.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "One dollar bounce.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "Markets are shut until Monday, so this is the number the trade opens August against.",
+     "attr": "The Bullion Desk"
+    }
+   },
+   {
+    "sub": "A correction, and a new standard.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Gold gives back $4,086",
+     "href": "a-gold-gives-back-thursday.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "five months of falling prices ended without a catalyst, which is the most informative thing about them"
+  },
+  "next": {
+   "lead": {
+    "slug": "white-metals-close-the-month",
+    "tag": "Metals",
+    "blurb": "Palladium down 3.38%, silver 2.45%, platinum 0.60%."
+   },
+   "minis": [
+    {
+     "slug": "two-seventy-eight-tonnes",
+     "tag": "Demand"
+    },
+    {
+     "slug": "gold-unwinds-the-hold",
+     "tag": "The Fed"
+    }
+   ]
+  }
+ },
+ "white-metals-close-the-month": {
+  "strip": {
+   "cap": "By the numbers · Kitco close, July 31",
+   "cells": [
+    {
+     "fig": "$57.44",
+     "dir": "down",
+     "lab": "silver, −2.45%"
+    },
+    {
+     "fig": "$1,644.00",
+     "dir": "down",
+     "lab": "platinum, −0.60%"
+    },
+    {
+     "fig": "$1,256.00",
+     "dir": "down",
+     "lab": "palladium, −3.38%"
+    },
+    {
+     "fig": "70.4",
+     "lab": "gold-silver ratio"
+    },
+    {
+     "fig": "41%",
+     "lab": "platinum as share of gold"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Friday's session, by metal",
+    "rows": [
+     {
+      "l": "PALLADIUM",
+      "v": 3.38,
+      "d": "−3.38%",
+      "hi": true
+     },
+     {
+      "l": "SILVER",
+      "v": 2.45,
+      "d": "−2.45%"
+     },
+     {
+      "l": "GOLD",
+      "v": 1.48,
+      "d": "−1.48%"
+     },
+     {
+      "l": "PLATINUM",
+      "v": 0.6,
+      "d": "−0.60%"
+     }
+    ],
+    "note": "Percent fall, July 31, 2026, Kitco 5pm New York close.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/160"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "All three, one direction.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Silver stalls under $60.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "The two readings cannot both be right, and neither can be reconciled without a settlement series this desk can verify.",
+     "attr": "The Metals Desk"
+    }
+   },
+   {
+    "sub": "What we will not print.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Three metals, one direction",
+     "href": "a-three-metals-one-direction.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "the ratio near 70.4, because a ratio that widens while silver sits under $60 is telling silver houses that their input cost has stopped rising without falling either"
+  },
+  "next": {
+   "lead": {
+    "slug": "gold-ends-july-higher",
+    "tag": "Gold",
+    "blurb": "Gold closes July higher for the first time since February."
+   },
+   "minis": [
+    {
+     "slug": "platinum-loses-its-teacher",
+     "tag": "Platinum"
+    },
+    {
+     "slug": "silver-eyes-sixty",
+     "tag": "Silver"
+    }
+   ]
+  }
+ },
+ "hermes-watches-flat": {
+  "strip": {
+   "cap": "By the numbers · Hermès H1 2026",
+   "cells": [
+    {
+     "fig": "€269M",
+     "lab": "watches, first half"
+    },
+    {
+     "fig": "+0.2%",
+     "lab": "watches, constant rates"
+    },
+    {
+     "fig": "€1.065B",
+     "dir": "up",
+     "lab": "jewellery and home"
+    },
+    {
+     "fig": "€8.2B",
+     "dir": "up",
+     "lab": "group revenue"
+    },
+    {
+     "fig": "41.0%",
+     "lab": "operating margin"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Hermès first half, by growth at constant rates",
+    "rows": [
+     {
+      "l": "AMERICAS",
+      "v": 15.3,
+      "d": "+15.3%",
+      "hi": true
+     },
+     {
+      "l": "JAPAN",
+      "v": 11.0,
+      "d": "+11.0%"
+     },
+     {
+      "l": "EUROPE EX-FRANCE",
+      "v": 8.8,
+      "d": "+8.8%"
+     },
+     {
+      "l": "JEWELLERY AND HOME",
+      "v": 5.4,
+      "d": "+5.4%"
+     },
+     {
+      "l": "WATCHES",
+      "v": 0.2,
+      "d": "+0.2%"
+     }
+    ],
+    "note": "Percent change year on year, first half 2026, constant exchange rates.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/161"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Flat is a result.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Jewellery does the growing.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "That segment is now roughly four times the size of watches at Hermès and is growing where watches are holding.",
+     "attr": "The Watch Desk"
+    }
+   },
+   {
+    "sub": "Geography, not product.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Tiffany carries LVMH",
+     "href": "a-tiffany-carries-lvmh.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "the difference between a watch business and a watch investment market"
+  },
+  "next": {
+   "lead": {
+    "slug": "four-groups-in-the-black",
+    "tag": "Resale",
+    "blurb": "All four Swiss groups turn positive year on year."
+   },
+   "minis": [
+    {
+     "slug": "boucheron-carries-kering",
+     "tag": "Kering"
+    },
+    {
+     "slug": "richemont-twenty-percent-quarter",
+     "tag": "Richemont"
+    }
+   ]
+  }
+ },
+ "bucherer-gets-fifth-avenue": {
+  "strip": {
+   "cap": "By the numbers · Fifth Avenue",
+   "cells": [
+    {
+     "fig": "43,000 sq ft",
+     "lab": "showroom, per WatchPro"
+    },
+    {
+     "fig": "4",
+     "lab": "floors"
+    },
+    {
+     "fig": "4×",
+     "lab": "the current largest, in Dubai"
+    },
+    {
+     "fig": "$186M",
+     "dir": "up",
+     "lab": "Rolex CPO, Q2"
+    },
+    {
+     "fig": "~$6B",
+     "lab": "all secondhand Rolex sales"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Rolex's secondary market, second quarter",
+    "rows": [
+     {
+      "l": "ALL SELLERS, ANNUAL",
+      "v": 6000,
+      "d": "~$6.0B",
+      "hi": true
+     },
+     {
+      "l": "ROLEX CPO, QUARTER",
+      "v": 186,
+      "d": "$186M"
+     }
+    ],
+    "note": "USD. Certified pre-owned turnover against the total secondhand market.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/162"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "The largest, run in-house.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "A tower, not a fit-out.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "That is more than four times the size of the current record holder in Dubai.",
+     "attr": "The Watch Desk"
+    }
+   },
+   {
+    "sub": "Scale against a soft market.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "The crown premium shrinks",
+     "href": "a-crown-premium-shrinks.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "the store that controls both the waiting list and the certified pre-owned counter controls the price of every Rolex in the city"
+  },
+  "next": {
+   "lead": {
+    "slug": "hermes-watches-flat",
+    "tag": "Paris",
+    "blurb": "Hermès holds its watch division flat at €269 million."
+   },
+   "minis": [
+    {
+     "slug": "rolex-on-the-main-corridor",
+     "tag": "Retail"
+    },
+    {
+     "slug": "the-big-three-pull-away",
+     "tag": "Resale"
+    }
+   ]
+  }
+ },
+ "sixty-stores-for-friendship-day": {
+  "strip": {
+   "cap": "By the numbers · Love, from Bestie",
+   "cells": [
+    {
+     "fig": "60",
+     "lab": "retail partner stores"
+    },
+    {
+     "fig": "9",
+     "lab": "cities"
+    },
+    {
+     "fig": "2",
+     "lab": "days, August 1 and 2"
+    },
+    {
+     "fig": "4",
+     "lab": "paired bracelet designs"
+    },
+    {
+     "fig": "2nd",
+     "lab": "edition of the campaign"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Indian jewellery demand, second quarter",
+    "rows": [
+     {
+      "l": "Q2 2025",
+      "v": 88.8,
+      "d": "88.8t"
+     },
+     {
+      "l": "Q2 2026",
+      "v": 75.1,
+      "d": "75.1t",
+      "hi": true
+     }
+    ],
+    "note": "Tonnes. The demand backdrop the campaign is selling into.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/163"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Two days, sixty doors.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Buying one is buying two.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "A counter selling fewer, dearer pieces needs occasions",
+     "attr": "The Counter Desk"
+    }
+   },
+   {
+    "sub": "An occasion, manufactured.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "India buys 15% less",
+     "href": "a-india-buys-fifteen-percent-less.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "the number that matters is whether it runs again in a third year"
+  },
+  "next": {
+   "lead": {
+    "slug": "russia-bans-the-word",
+    "tag": "Language",
+    "blurb": "Russia strips synthetics of the word diamond."
+   },
+   "minis": [
+    {
+     "slug": "india-buys-the-dip",
+     "tag": "India"
+    },
+    {
+     "slug": "china-weighs-in-on-gold",
+     "tag": "China"
+    }
+   ]
+  }
+ },
+ "dollar-battery-fifteen-dollar-job": {
+  "strip": {
+   "cap": "By the numbers · the battery counter",
+   "cells": [
+    {
+     "fig": "~$1",
+     "lab": "average battery cost"
+    },
+    {
+     "fig": "$15+",
+     "dir": "up",
+     "lab": "average job price"
+    },
+    {
+     "fig": "$18.79",
+     "lab": "one trade estimate"
+    },
+    {
+     "fig": "$235",
+     "lab": "starter kit, from"
+    },
+    {
+     "fig": "~20",
+     "lab": "batteries to repay the kit"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "One battery change, cost against price",
+    "rows": [
+     {
+      "l": "PRICE TO CUSTOMER",
+      "v": 15,
+      "d": "$15+",
+      "hi": true
+     },
+     {
+      "l": "COST OF THE CELL",
+      "v": 1,
+      "d": "~$1"
+     }
+    ],
+    "note": "USD per job. Supplier and trade-press estimates.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/164"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "A dollar in, fifteen out.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "The traffic is the point.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "The customer is not comparison shopping a five-minute job, which makes it one of the last lines in the store where the retailer sets the number.",
+     "attr": "The Counter Desk"
+    }
+   },
+   {
+    "sub": "Where it goes wrong.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "The average ticket carries the half",
+     "href": "a-average-ticket-carries-the-half.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "the service counter still prices on skill rather than on spot"
+  },
+  "next": {
+   "lead": {
+    "slug": "sixty-stores-for-friendship-day",
+    "tag": "India",
+    "blurb": "De Beers takes Friendship Day into 60 stores."
+   },
+   "minis": [
+    {
+     "slug": "more-dollars-fewer-boxes",
+     "tag": "Units"
+    },
+    {
+     "slug": "richline-splits-the-till",
+     "tag": "Supply"
+    }
+   ]
+  }
  }
 }
