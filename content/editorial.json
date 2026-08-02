@@ -20335,5 +20335,943 @@
     }
    ]
   }
+ },
+ "nobody-has-de-beers-yet": {
+  "strip": {
+   "cap": "By the numbers · the De Beers sale",
+   "cells": [
+    {
+     "fig": "H2 2026",
+     "lab": "completion targeted"
+    },
+    {
+     "fig": "~1 year",
+     "lab": "approvals after signing"
+    },
+    {
+     "fig": "0",
+     "dir": "down",
+     "lab": "exclusive bidders"
+    },
+    {
+     "fig": "$1.6B",
+     "dir": "down",
+     "lab": "H1 revenue, −19%"
+    },
+    {
+     "fig": "−$113M",
+     "dir": "up",
+     "lab": "H1 EBITDA loss"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "De Beers underlying EBITDA loss, first half",
+    "rows": [
+     {
+      "l": "H1 2025",
+      "v": 100,
+      "d": "−$189M"
+     },
+     {
+      "l": "H1 2026",
+      "v": 60,
+      "d": "−$113M",
+      "hi": true
+     }
+    ],
+    "note": "Loss narrowed on cost cuts rather than recovered demand. Anglo American.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/165"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "A stage, and a sequence.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "The pick was not right.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "a named front-runner and a live auction produce very different prices for the same asset",
+     "attr": "The Diamonds Desk"
+    }
+   },
+   {
+    "sub": "No listing, no disclosure.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Anglo picks the Penny group",
+     "href": "a-de-beers-sale-gets-a-clock.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "the exclusivity denial is the part to trade on, not the timetable"
+  },
+  "next": {
+   "lead": {
+    "slug": "one-billion-for-de-beers",
+    "tag": "Valuation",
+    "blurb": "A consortium would pay $750 million up front."
+   },
+   "minis": [
+    {
+     "slug": "de-beers-narrows-the-loss",
+     "tag": "Results"
+    },
+    {
+     "slug": "gaborone-answers-penny",
+     "tag": "Botswana"
+    }
+   ]
+  }
+ },
+ "zero-for-antwerp": {
+  "strip": {
+   "cap": "By the numbers · the July 24 schedule",
+   "cells": [
+    {
+     "fig": "0%",
+     "dir": "down",
+     "lab": "EU loose natural diamonds"
+    },
+    {
+     "fig": "10–12.5%",
+     "dir": "up",
+     "lab": "across 60 countries"
+    },
+    {
+     "fig": "0",
+     "lab": "exemptions for lab-grown"
+    },
+    {
+     "fig": "$2.1B",
+     "lab": "Belgian polished to US, 2024"
+    },
+    {
+     "fig": "50%",
+     "dir": "up",
+     "lab": "Canada, from Aug 19"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "What a stone pays entering the United States",
+    "rows": [
+     {
+      "l": "NATURAL, CUT IN THE EU",
+      "v": 0,
+      "d": "0%",
+      "hi": true
+     },
+     {
+      "l": "INDIA, CANADA, UK",
+      "v": 10,
+      "d": "10%"
+     },
+     {
+      "l": "UAE, ISRAEL, SOUTH AFRICA",
+      "v": 12.5,
+      "d": "12.5%"
+     },
+     {
+      "l": "BRAZIL",
+      "v": 37.5,
+      "d": "37.5%"
+     },
+     {
+      "l": "CANADA POLISHED, AUG 19",
+      "v": 50,
+      "d": "50%"
+     }
+    ],
+    "note": "Section 301 schedule in force July 24, 2026. Lab-grown exempt nowhere.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/166"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "A line between two kinds of stone.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "No industry to protect.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "Lab-grown diamonds received no exemption from any country on the list.",
+     "attr": "The Diamonds Desk"
+    }
+   },
+   {
+    "sub": "An uneven schedule.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "The tariff wall comes back",
+     "href": "a-tariff-wall-returns.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "no amount of marketing closes a gap that arrives before either stone reaches a display case"
+  },
+  "next": {
+   "lead": {
+    "slug": "antwerp-thins-india-loads",
+    "tag": "Antwerp",
+    "blurb": "Antwerp runs short of goods and buyers turn to India."
+   },
+   "minis": [
+    {
+     "slug": "surat-eats-the-ten",
+     "tag": "India"
+    },
+    {
+     "slug": "russia-bans-the-word",
+     "tag": "Language"
+    }
+   ]
+  }
+ },
+ "the-tender-ladder": {
+  "strip": {
+   "cap": "By the numbers · TAGS, summer tenders",
+   "cells": [
+    {
+     "fig": "100%",
+     "dir": "up",
+     "lab": "Zimbabwe, Dubai"
+    },
+    {
+     "fig": "95%",
+     "dir": "up",
+     "lab": "Angola, $21.7M"
+    },
+    {
+     "fig": ">80%",
+     "lab": "South Africa, Dubai"
+    },
+    {
+     "fig": "~75%",
+     "dir": "down",
+     "lab": "South Africa, Johannesburg"
+    },
+    {
+     "fig": "$15.2M",
+     "lab": "latest Dubai sale"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Sell-through by tender, June and July",
+    "rows": [
+     {
+      "l": "ZIMBABWE / DUBAI",
+      "v": 100,
+      "d": "100%",
+      "hi": true
+     },
+     {
+      "l": "ANGOLA / 10.8CT+",
+      "v": 95,
+      "d": "95%"
+     },
+     {
+      "l": "SOUTH AFRICA / DUBAI",
+      "v": 80,
+      "d": ">80%"
+     },
+     {
+      "l": "SOUTH AFRICA / J'BURG",
+      "v": 75,
+      "d": "~75%"
+     }
+    ],
+    "note": "Four TAGS tenders, one quarter. Percentage of lots sold.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/167"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Four rates, one house.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Size decided it.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "The tender house did not change its method between June and July.",
+     "attr": "The Diamonds Desk"
+    }
+   },
+   {
+    "sub": "Attendance up, clearance down.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Ninety-five percent sold in Luanda",
+     "href": "a-angolas-rough-clears.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "the useful number in this set is not the 100% or the 95%"
+  },
+  "next": {
+   "lead": {
+    "slug": "small-stones-lead-again",
+    "tag": "Prices",
+    "blurb": "Small stones lead again as one-carat goods slip."
+   },
+   "minis": [
+    {
+     "slug": "thirties-outrun-the-ones",
+     "tag": "Polished"
+    },
+    {
+     "slug": "de-beers-narrows-the-loss",
+     "tag": "De Beers"
+    }
+   ]
+  }
+ },
+ "record-quarter-weakest-half": {
+  "strip": {
+   "cap": "By the numbers · central banks, Q2 2026",
+   "cells": [
+    {
+     "fig": "289 t",
+     "dir": "up",
+     "lab": "net purchases, Q2"
+    },
+    {
+     "fig": "+62%",
+     "dir": "up",
+     "lab": "year on year"
+    },
+    {
+     "fig": "57 t",
+     "dir": "down",
+     "lab": "Q1, revised"
+    },
+    {
+     "fig": "345 t",
+     "dir": "down",
+     "lab": "first half, smallest since 2022"
+    },
+    {
+     "fig": "−22 t",
+     "dir": "down",
+     "lab": "Russia, largest seller"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Largest official buyers, Q2 2026",
+    "rows": [
+     {
+      "l": "POLAND",
+      "v": 51,
+      "d": "51 t",
+      "hi": true
+     },
+     {
+      "l": "CHINA",
+      "v": 33,
+      "d": "33 t"
+     },
+     {
+      "l": "UZBEKISTAN",
+      "v": 16,
+      "d": "16 t"
+     },
+     {
+      "l": "KAZAKHSTAN",
+      "v": 15,
+      "d": "15 t"
+     },
+     {
+      "l": "RUSSIA (SOLD)",
+      "v": 22,
+      "d": "−22 t"
+     }
+    ],
+    "note": "Net tonnes. World Gold Council, Gold Demand Trends, 30 July 2026.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/168"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Two true statements.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Poland did the lifting.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "Add the two together and the first half comes to 345 tonnes, the smallest first half since 2022.",
+     "attr": "The Bullion Desk"
+    }
+   },
+   {
+    "sub": "The sellers the rate conceals.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "China pulls in 173 tonnes",
+     "href": "a-china-takes-173-tonnes.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "a record second quarter and the weakest first half since 2022 are the same data set read at two different lengths"
+  },
+  "next": {
+   "lead": {
+    "slug": "two-seventy-eight-tonnes",
+    "tag": "Jewellery",
+    "blurb": "The smallest jewellery quarter since the pandemic."
+   },
+   "minis": [
+    {
+     "slug": "three-hundred-eighty-billion",
+     "tag": "Value"
+    },
+    {
+     "slug": "gold-ends-july-higher",
+     "tag": "Prices"
+    }
+   ]
+  }
+ },
+ "three-hundred-eighty-billion": {
+  "strip": {
+   "cap": "By the numbers · gold demand, H1 2026",
+   "cells": [
+    {
+     "fig": "1,269 t",
+     "lab": "Q2 demand, flat"
+    },
+    {
+     "fig": "2,522 t",
+     "dir": "up",
+     "lab": "first half, +2%"
+    },
+    {
+     "fig": "$380B",
+     "dir": "up",
+     "lab": "first-half value, record"
+    },
+    {
+     "fig": "278 t",
+     "dir": "down",
+     "lab": "jewellery, Q2"
+    },
+    {
+     "fig": "75.1 t",
+     "dir": "down",
+     "lab": "India jewellery, −15%"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Where the second quarter's gold went",
+    "rows": [
+     {
+      "l": "CENTRAL BANKS",
+      "v": 289,
+      "d": "289 t, +62%",
+      "hi": true
+     },
+     {
+      "l": "JEWELLERY",
+      "v": 278,
+      "d": "278 t, post-pandemic low"
+     },
+     {
+      "l": "OF WHICH INDIA",
+      "v": 75,
+      "d": "75.1 t, −15%"
+     }
+    ],
+    "note": "Tonnes, Q2 2026. World Gold Council.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/169"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Flat metal, record money.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "The cost base is the record.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "Institutions bought weight. Consumers bought less weight and paid more for it.",
+     "attr": "The Bullion Desk"
+    }
+   },
+   {
+    "sub": "A straight substitution.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "278 tonnes, the smallest jewellery quarter",
+     "href": "a-two-seventy-eight-tonnes.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "report the tonnage to understand demand and the value to understand your own accounts"
+  },
+  "next": {
+   "lead": {
+    "slug": "record-quarter-weakest-half",
+    "tag": "Official sector",
+    "blurb": "Central banks bought 289 tonnes, up 62%."
+   },
+   "minis": [
+    {
+     "slug": "india-buys-fifteen-percent-less",
+     "tag": "India"
+    },
+    {
+     "slug": "gold-ends-july-higher",
+     "tag": "Prices"
+    }
+   ]
+  }
+ },
+ "gold-waits-on-payrolls": {
+  "strip": {
+   "cap": "By the numbers · the week ahead",
+   "cells": [
+    {
+     "fig": "$4,041.70",
+     "lab": "Friday close, carried"
+    },
+    {
+     "fig": "$57.44",
+     "dir": "down",
+     "lab": "silver"
+    },
+    {
+     "fig": "$1,644.00",
+     "dir": "down",
+     "lab": "platinum"
+    },
+    {
+     "fig": "Friday",
+     "lab": "non-farm payrolls"
+    },
+    {
+     "fig": "6 weeks",
+     "lab": "of consolidation"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "The range analysts are watching",
+    "rows": [
+     {
+      "l": "RESISTANCE, YEARLY OPEN",
+      "v": 4319,
+      "d": "$4,312–4,319"
+     },
+     {
+      "l": "NEAR RESISTANCE",
+      "v": 4070,
+      "d": "$4,070"
+     },
+     {
+      "l": "LAST SETTLEMENT",
+      "v": 4042,
+      "d": "$4,041.70",
+      "hi": true
+     },
+     {
+      "l": "NEAR SUPPORT",
+      "v": 4020,
+      "d": "$4,020"
+     }
+    ],
+    "note": "Analyst levels, not facts about the metal. City Index and FX Leaders.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/170"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "No new price.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Two labour prints.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "There is no new price.",
+     "attr": "The Bullion Desk"
+    }
+   },
+   {
+    "sub": "A range, not a trend.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Gold's first monthly gain since February",
+     "href": "a-gold-ends-july-higher.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "treat Friday as a binary and price accordingly, which mostly means not repricing anything before it"
+  },
+  "next": {
+   "lead": {
+    "slug": "gold-ends-july-higher",
+    "tag": "The month",
+    "blurb": "Gold's first monthly gain since February."
+   },
+   "minis": [
+    {
+     "slug": "white-metals-close-the-month",
+     "tag": "Metals"
+    },
+    {
+     "slug": "fed-holds-gold-exhales",
+     "tag": "The Fed"
+    }
+   ]
+  }
+ },
+ "ny-now-opens-today": {
+  "strip": {
+   "cap": "By the numbers · NY Now, summer market",
+   "cells": [
+    {
+     "fig": "Aug 2–4",
+     "lab": "Javits Center"
+    },
+    {
+     "fig": "70+",
+     "dir": "up",
+     "lab": "new or returning exhibitors"
+    },
+    {
+     "fig": "90+",
+     "lab": "brands exhibiting"
+    },
+    {
+     "fig": "19",
+     "lab": "countries represented"
+    },
+    {
+     "fig": "90.8",
+     "dir": "down",
+     "lab": "US consumer confidence, July"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "NY Now's fine jewellery floor",
+    "rows": [
+     {
+      "l": "LUXURY LIFESTYLE",
+      "v": 100,
+      "d": "established brands",
+      "hi": true
+     },
+     {
+      "l": "CURATED",
+      "v": 60,
+      "d": "emerging designers"
+     },
+     {
+      "l": "NEW OR RETURNING",
+      "v": 70,
+      "d": "70+ exhibitors"
+     }
+    ],
+    "note": "First summer market under Rockview Management Group ownership.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/171"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "A new owner's first floor.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Two named sections.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "More than 70 exhibitors are either new or returning after a hiatus",
+     "attr": "The Retail Desk"
+    }
+   },
+   {
+    "sub": "The number that carries information.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Confidence slips to 90.8",
+     "href": "a-confidence-slips-to-ninety.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "the trade show is quietly the most exposed format in this industry"
+  },
+  "next": {
+   "lead": {
+    "slug": "india-fills-the-hall",
+    "tag": "Shows",
+    "blurb": "India's big August show fills up early."
+   },
+   "minis": [
+    {
+     "slug": "confidence-slips-to-ninety",
+     "tag": "Consumer"
+    },
+    {
+     "slug": "the-storefront-that-isnt",
+     "tag": "Retail"
+    }
+   ]
+  }
+ },
+ "jewellery-tops-a-flat-market": {
+  "strip": {
+   "cap": "By the numbers · Bain and Altagamma",
+   "cells": [
+    {
+     "fig": "€358B",
+     "dir": "down",
+     "lab": "personal luxury, 2025"
+    },
+    {
+     "fig": "€365–373B",
+     "dir": "up",
+     "lab": "2026 forecast"
+    },
+    {
+     "fig": "+2–4%",
+     "dir": "up",
+     "lab": "category growth"
+    },
+    {
+     "fig": "€1.44–1.47T",
+     "lab": "total luxury spending"
+    },
+    {
+     "fig": "0–2%",
+     "lab": "total market growth"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Personal luxury goods, in billions of euros",
+    "rows": [
+     {
+      "l": "2024",
+      "v": 364,
+      "d": "€364B"
+     },
+     {
+      "l": "2025",
+      "v": 358,
+      "d": "€358B, −2%"
+     },
+     {
+      "l": "2026 FORECAST",
+      "v": 369,
+      "d": "€365–373B",
+      "hi": true
+     }
+    ],
+    "note": "Bain and Altagamma Luxury Goods Worldwide Market Study, spring 2026.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/172"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Best in a market barely moving.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Four groups, one shape.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "Four separate groups have now reported the same shape: jewellery up, the rest of the portfolio flat or down",
+     "attr": "The Retail Desk"
+    }
+   },
+   {
+    "sub": "Where the growth is found.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Boucheron carries Kering",
+     "href": "a-boucheron-carries-kering.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "being the strongest category in a market growing between zero and 2% is a smaller distinction than the press release implies"
+  },
+  "next": {
+   "lead": {
+    "slug": "tiffany-carries-lvmh",
+    "tag": "LVMH",
+    "blurb": "Tiffany and Bulgari carry a group that slipped 3%."
+   },
+   "minis": [
+    {
+     "slug": "boucheron-carries-kering",
+     "tag": "Kering"
+    },
+    {
+     "slug": "richemont-twenty-percent-quarter",
+     "tag": "Richemont"
+    }
+   ]
+  }
  }
 }

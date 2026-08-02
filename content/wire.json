@@ -1,52 +1,52 @@
 {
- "date_line": "Saturday, August 1, 2026",
- "edition": "Vol. I — No. 022",
+ "date_line": "Sunday, August 2, 2026",
+ "edition": "Vol. I — No. 023",
  "items": [
   {
-   "b": "RUSSIA BANS THE WORD",
-   "t": " — Government Resolution No. 657, signed May 30 and in force September 1, prohibits the word diamond and its derivatives for synthetic stones sold in Russia; tags must read synthetic or Synth., and weight must be shown in grams because carat weight is banned outright"
+   "b": "NOBODY HAS DE BEERS YET",
+   "t": " — Anglo American chief executive Duncan Wanblad said the sale is in its final and most challenging phase, that the group is not exclusive with any consortium and still holds multiple active bidders, and that completion is targeted for the second half with regulatory approval about a year after signature"
   },
   {
-   "b": "NATURAL, REAL, ECO-FRIENDLY STRUCK",
-   "t": " — The same resolution removes precious, real, genuine, natural, mined, mineral and eco-friendly from all consumer-facing description of man-made stones, in store and online, along with the colour and clarity descriptors borrowed from natural grading"
+   "b": "NO LISTING FOR DE BEERS",
+   "t": " — Wanblad ruled out a flotation on the view that the market lacks the capacity to absorb one, confirming a private sale; De Beers turned over $1.6 billion in the first half, down 19%, with an underlying EBITDA loss of $113 million narrowed from $189 million"
   },
   {
-   "b": "GOLD CLOSES JULY HIGHER",
-   "t": " — Kitco's 5pm close put spot at $4,041.70, down $60.90 or 1.48% on the session, but July finished about 0.5% up, gold's first monthly gain since February and the end of a four-month losing run; the metal is 20.22% higher year on year"
+   "b": "ZERO PERCENT FOR ANTWERP",
+   "t": " — The Section 301 schedule in force since July 24 exempts loose natural diamonds cut in the European Union at 0%, along with rough and polished coloured stones and natural pearls, while lab-grown diamonds received no exemption from any of the roughly 60 countries listed"
   },
   {
-   "b": "PALLADIUM DOWN 3.38%",
-   "t": " — The white metals fell harder than gold on the last session of July: palladium $1,256.00, silver $57.44 and platinum $1,644.00, putting the gold-silver ratio near 70.4 and platinum at roughly 41% of the gold price"
+   "b": "CENTRAL BANKS TAKE 289 TONNES",
+   "t": " — Official sector buying rose 62% year on year to 289 tonnes in the second quarter, a record for any second quarter, led by Poland at 51 tonnes and China at 33; the first half still totalled only 345 tonnes, the smallest since 2022, after a first quarter revised to 57"
   },
   {
-   "b": "DUBAI BOOKS OCTOBER 26",
-   "t": " — DMCC will hold the second Dubai Diamond Week from October 26 to 29 with the Italian Exhibition Group co-hosting a sourcing show, after the emirate traded a record $41.7 billion and 359.5 million carats in 2025, 95.8% of the value in natural stones"
+   "b": "A $380 BILLION HALF-YEAR",
+   "t": " — Total gold demand was flat at 1,269 tonnes in the second quarter and up 2% at 2,522 tonnes across the half, but measured by value the first half set a record near $380 billion, with jewellery fabrication at a post-pandemic low of 278 tonnes"
   },
   {
-   "b": "HERMÈS HOLDS WATCHES FLAT",
-   "t": " — First-half watch revenue was €269 million, down 4.2% as published but up 0.2% at constant rates, with the second quarter up 4.4%; jewellery and home took €1.065 billion, up 5.4%, on group revenue of €8.2 billion and a 41.0% operating margin"
+   "b": "THE TENDER LADDER SPLITS",
+   "t": " — TAGS cleared 100% of a Zimbabwean parcel in Dubai and 95% of an Angolan sale worth $21.7 million, but only about 75% per tender on South African run-of-mine goods in Johannesburg, where participant attendance set a record; its latest Dubai sale of large South African stones took $15.2 million above 80%"
   },
   {
-   "b": "BUCHERER GETS FIFTH AVENUE",
-   "t": " — Rolex's own retailer confirmed it will operate the Manhattan flagship, reported by WatchPro at 43,000 square feet over four floors in a David Chipperfield building, more than four times the size of the current largest Rolex showroom in Dubai"
+   "b": "NY NOW OPENS AT THE JAVITS",
+   "t": " — The summer market runs today to August 4, the first edition since Rockview Management Group bought the show from Emerald, with more than 70 new or returning exhibitors and over 90 brands from 19 countries across the Luxury Lifestyle and Curated sections"
   },
   {
-   "b": "SIXTY DOORS FOR FRIENDSHIP DAY",
-   "t": " — De Beers India is running the second edition of Love, from Bestie today and tomorrow across 60 retail partner stores in nine cities, built on four paired natural diamond bracelets, against Indian jewellery demand that fell 15% by weight in the second quarter"
+   "b": "JEWELLERY TOPS A FLAT MARKET",
+   "t": " — Bain and Altagamma put personal luxury goods at €358 billion in 2025, down from €364 billion, and forecast €365 billion to €373 billion this year, growth of 2% to 4%, with jewellery named the strongest category in a total luxury market growing between nothing and 2%"
   },
   {
-   "b": "A DOLLAR IN, FIFTEEN OUT",
-   "t": " — Sy Kessler launched a watch battery starter kit listing from $235 on the arithmetic that the average cell costs about $1 and the job sells for more than $15, one of the few counter lines priced on skill rather than on spot"
+   "b": "GOLD WAITS ON PAYROLLS",
+   "t": " — No session since Friday's $4,041.70 close, so the tape carries unchanged into a week holding the ADP employment report midweek and non-farm payrolls on Friday; analysts mark the metal six weeks into a range, with near support at $4,020 and resistance at $4,070"
   }
  ],
- "tape_ts": "31 Jul 2026, 5pm New York close · Kitco · markets shut for the weekend",
+ "tape_ts": "31 Jul 2026, 5pm New York close · Kitco · no session since; New York reopens Monday",
  "tape": [
   {
    "name": "Gold / oz",
    "code": "XAU",
    "px": "4,041.70",
-   "chg": "▼ −1.48%",
-   "dir": "down",
+   "chg": "— unch.",
+   "dir": "flat",
    "pts": [
     16,
     16,
@@ -102,8 +102,8 @@
    "name": "Platinum / oz",
    "code": "XPT",
    "px": "1,644.00",
-   "chg": "▼ −0.60%",
-   "dir": "down",
+   "chg": "— unch.",
+   "dir": "flat",
    "pts": [
     17,
     17,
@@ -121,8 +121,8 @@
    "name": "Silver / oz",
    "code": "XAG",
    "px": "57.44",
-   "chg": "▼ −2.45%",
-   "dir": "down",
+   "chg": "— unch.",
+   "dir": "flat",
    "pts": [
     18,
     18,
