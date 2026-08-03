@@ -21273,5 +21273,605 @@
     }
    ]
   }
+ },
+ "seventy-three-million-in-shoes": {
+  "strip": {
+   "cap": "The case · restated",
+   "cells": [
+    {
+     "fig": "$73M",
+     "dir": "up",
+     "lab": "value of the ring"
+    },
+    {
+     "fig": "28,000+",
+     "lab": "stones, 141 trips"
+    },
+    {
+     "fig": "30+",
+     "dir": "up",
+     "lab": "arrested or detained"
+    },
+    {
+     "fig": "3,400",
+     "lab": "stones bought by SJC"
+    },
+    {
+     "fig": "−33%",
+     "dir": "down",
+     "lab": "typical discount to market"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "What the case was said to be worth",
+    "rows": [
+     {
+      "l": "CHARGE SHEET, 16 JULY",
+      "v": 10.65,
+      "d": "$10.65M"
+     },
+     {
+      "l": "STONES IDENTIFIED",
+      "v": 57,
+      "d": "$57M"
+     },
+     {
+      "l": "NETWORK, 30 JULY",
+      "v": 73,
+      "d": "$73M",
+      "hi": true
+     }
+    ],
+    "note": "US dollars. The stone count of 28,000 has not changed. Vietnamese police via IDEX.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/173"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Seven times the old arithmetic.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "A code that leaves no record.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "the serial numbers from US dollar bills as a secret authentication code",
+     "attr": "The Diamonds Desk"
+    }
+   },
+   {
+    "sub": "One lab, one point of failure.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "28,000 diamonds, one lab",
+     "href": "a-vietnam-certificate-scandal.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "the failure was not at the airport but at the counter"
+  },
+  "next": {
+   "lead": {
+    "slug": "vietnam-certificate-scandal",
+    "tag": "The case",
+    "blurb": "The former head of P-Lab is among those charged."
+   },
+   "minis": [
+    {
+     "slug": "gia-lights-up-fluorescence",
+     "tag": "Grading"
+    },
+    {
+     "slug": "zero-for-antwerp",
+     "tag": "Tariffs"
+    }
+   ]
+  }
+ },
+ "china-lowest-since-2004": {
+  "strip": {
+   "cap": "By the numbers · gold jewellery, Q2 2026",
+   "cells": [
+    {
+     "fig": "50.0 t",
+     "dir": "down",
+     "lab": "China, −28%"
+    },
+    {
+     "fig": "2004",
+     "lab": "last weaker Chinese quarter"
+    },
+    {
+     "fig": "136 t",
+     "dir": "down",
+     "lab": "China, first half, −30%"
+    },
+    {
+     "fig": "22.2 t",
+     "dir": "down",
+     "lab": "United States, −25%"
+    },
+    {
+     "fig": "$21B",
+     "dir": "up",
+     "lab": "Chinese H1 value, +11%"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Second-quarter jewellery demand, by market",
+    "rows": [
+     {
+      "l": "INDIA",
+      "v": 75.1,
+      "d": "75.1 t, −15%"
+     },
+     {
+      "l": "CHINA",
+      "v": 50.0,
+      "d": "50.0 t, −28%",
+      "hi": true
+     },
+     {
+      "l": "MIDDLE EAST",
+      "v": 32.2,
+      "d": "32.2 t, −19%"
+     },
+     {
+      "l": "UNITED STATES",
+      "v": 22.2,
+      "d": "22.2 t, −25%"
+     }
+    ],
+    "note": "Tonnes, Q2 2026. World Gold Council, Gold Demand Trends, 30 July 2026.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/174"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "The weakest quarter of the modern era.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Thirty percent less metal, eleven percent more money.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "Consumers in the world's largest gold jewellery market bought roughly 30% less metal and paid roughly 11% more for it.",
+     "attr": "The Bullion Desk"
+    }
+   },
+   {
+    "sub": "The American line nobody quoted.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "278 tonnes, the smallest jewellery quarter",
+     "href": "a-two-seventy-eight-tonnes.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "the tonnage series is now the only honest measure of jewellery demand"
+  },
+  "next": {
+   "lead": {
+    "slug": "two-seventy-eight-tonnes",
+    "tag": "Jewellery",
+    "blurb": "The smallest jewellery quarter since the pandemic."
+   },
+   "minis": [
+    {
+     "slug": "india-buys-fifteen-percent-less",
+     "tag": "India"
+    },
+    {
+     "slug": "china-takes-173-tonnes",
+     "tag": "Imports"
+    }
+   ]
+  }
+ },
+ "silver-leads-the-reopen": {
+  "strip": {
+   "cap": "The tape · 3 August, 6:01am New York",
+   "cells": [
+    {
+     "fig": "$4,053.30",
+     "dir": "up",
+     "lab": "gold, +0.29%"
+    },
+    {
+     "fig": "$58.05",
+     "dir": "up",
+     "lab": "silver, +1.06%"
+    },
+    {
+     "fig": "$1,647.00",
+     "dir": "up",
+     "lab": "platinum, +0.18%"
+    },
+    {
+     "fig": "69.8",
+     "lab": "gold to silver ratio"
+    },
+    {
+     "fig": "Friday",
+     "lab": "non-farm payrolls"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Change against Friday's 5pm close, in percent",
+    "rows": [
+     {
+      "l": "SILVER",
+      "v": 1.06,
+      "d": "+1.06%",
+      "hi": true
+     },
+     {
+      "l": "GOLD",
+      "v": 0.29,
+      "d": "+0.29%"
+     },
+     {
+      "l": "PALLADIUM",
+      "v": 0.24,
+      "d": "+0.24%"
+     },
+     {
+      "l": "PLATINUM",
+      "v": 0.18,
+      "d": "+0.18%"
+     }
+    ],
+    "note": "Kitco spot bids at 6:01am New York, 3 August 2026, against the 31 July close.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/175"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Higher, and silver did the work.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Two wide ranges, thin liquidity.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "All four are higher, none by much",
+     "attr": "The Bullion Desk"
+    }
+   },
+   {
+    "sub": "The bench number barely moved.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Gold opens August and waits on payrolls",
+     "href": "a-gold-waits-on-payrolls.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "quote off the settlement, not off the screen"
+  },
+  "next": {
+   "lead": {
+    "slug": "gold-waits-on-payrolls",
+    "tag": "Week ahead",
+    "blurb": "Six weeks into a range, with payrolls on Friday."
+   },
+   "minis": [
+    {
+     "slug": "gold-ends-july-higher",
+     "tag": "The month"
+    },
+    {
+     "slug": "white-metals-close-the-month",
+     "tag": "Metals"
+    }
+   ]
+  }
+ },
+ "michael-hill-adds-two": {
+  "strip": {
+   "cap": "By the numbers · Michael Hill, year to 28 June",
+   "cells": [
+    {
+     "fig": "A$654.7M",
+     "dir": "up",
+     "lab": "group revenue, +2%"
+    },
+    {
+     "fig": "+3%",
+     "dir": "up",
+     "lab": "same-store sales, group"
+    },
+    {
+     "fig": "+7%",
+     "dir": "up",
+     "lab": "Canada, a record"
+    },
+    {
+     "fig": "281",
+     "dir": "down",
+     "lab": "stores, from 287"
+    },
+    {
+     "fig": "8",
+     "dir": "down",
+     "lab": "closures against 2 openings"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Same-store sales growth, by market",
+    "rows": [
+     {
+      "l": "CANADA",
+      "v": 7.0,
+      "d": "+7.0%",
+      "hi": true
+     },
+     {
+      "l": "AUSTRALIA",
+      "v": 4.8,
+      "d": "+4.8%"
+     },
+     {
+      "l": "NEW ZEALAND",
+      "v": 3.6,
+      "d": "+3.6%"
+     },
+     {
+      "l": "GROUP",
+      "v": 3.0,
+      "d": "+3.0%"
+     }
+    ],
+    "note": "Financial year to 28 June 2026. Michael Hill via Rapaport.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/176"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Sales up, footprint down.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Canada is the number that stands out.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "A chain that removes 2% of its doors while adding 3% on a like-for-like basis is converting store count into store productivity",
+     "attr": "The Retail Desk"
+    }
+   },
+   {
+    "sub": "The closures are the strategy.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "The average ticket did the lifting",
+     "href": "a-average-ticket-carries-the-half.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "judge this one again when the profit line lands"
+  },
+  "next": {
+   "lead": {
+    "slug": "average-ticket-carries-the-half",
+    "tag": "US retail",
+    "blurb": "Fewer buyers, spending more, carried the half."
+   },
+   "minis": [
+    {
+     "slug": "titan-makes-it-three",
+     "tag": "India"
+    },
+    {
+     "slug": "the-storefront-that-isnt",
+     "tag": "Retail"
+    }
+   ]
+  }
+ },
+ "shoplifting-down-fraud-up": {
+  "strip": {
+   "cap": "By the numbers · retail crime, 2025",
+   "cells": [
+    {
+     "fig": "−12.4%",
+     "dir": "down",
+     "lab": "shoplifting incidents"
+    },
+    {
+     "fig": "1,233",
+     "dir": "down",
+     "lab": "crimes against jewellers, −13%"
+    },
+    {
+     "fig": "$144.7M",
+     "dir": "up",
+     "lab": "jewellery losses, from $142.5M"
+    },
+    {
+     "fig": "27%",
+     "dir": "up",
+     "lab": "robberies with a weapon, from 17%"
+    },
+    {
+     "fig": "13",
+     "dir": "up",
+     "lab": "vehicle ram-raids, from 0"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Retailers reporting an increase, by crime type",
+    "rows": [
+     {
+      "l": "PHONE SCAMS",
+      "v": 69,
+      "d": "69%",
+      "hi": true
+     },
+     {
+      "l": "REPEAT OFFENDERS",
+      "v": 50,
+      "d": "50%"
+     },
+     {
+      "l": "GIFT-CARD FRAUD",
+      "v": 42,
+      "d": "42%"
+     },
+     {
+      "l": "ORGANISED SHOPLIFTING",
+      "v": 40,
+      "d": "40%"
+     },
+     {
+      "l": "CARGO THEFT",
+      "v": 36,
+      "d": "36%"
+     }
+    ],
+    "note": "National Retail Federation, Impact of Retail Theft and Violence, 2026.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/177"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Theft down, losses up.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Fewer incidents, each more expensive.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "Fewer incidents, each one more expensive",
+     "attr": "The Retail Desk"
+    }
+   },
+   {
+    "sub": "The exposure left the display case.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Consumer confidence slips to 90.8",
+     "href": "a-confidence-slips-to-ninety.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "the declining headline is the dangerous part of this data set"
+  },
+  "next": {
+   "lead": {
+    "slug": "the-storefront-that-isnt",
+    "tag": "Retail",
+    "blurb": "The storefront that is not a storefront."
+   },
+   "minis": [
+    {
+     "slug": "confidence-slips-to-ninety",
+     "tag": "Consumer"
+    },
+    {
+     "slug": "gia-lights-up-fluorescence",
+     "tag": "Grading"
+    }
+   ]
+  }
  }
 }

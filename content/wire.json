@@ -1,52 +1,48 @@
 {
- "date_line": "Sunday, August 2, 2026",
- "edition": "Vol. I — No. 023",
+ "date_line": "Monday, August 3, 2026",
+ "edition": "Vol. I — No. 024",
  "items": [
   {
-   "b": "NOBODY HAS DE BEERS YET",
-   "t": " — Anglo American chief executive Duncan Wanblad said the sale is in its final and most challenging phase, that the group is not exclusive with any consortium and still holds multiple active bidders, and that completion is targeted for the second half with regulatory approval about a year after signature"
+   "b": "SEVENTY-THREE MILLION IN SHOES",
+   "t": " — Vietnamese police have re-scaled the diamond-smuggling case to $73 million of stones moved into the country, about $57 million of them identified, with more than 30 people arrested or detained; the stone count is unchanged at 28,000-plus across 141 trips since 2024, against the $10.65 million in the July charge sheet"
   },
   {
-   "b": "NO LISTING FOR DE BEERS",
-   "t": " — Wanblad ruled out a flotation on the view that the market lacks the capacity to absorb one, confirming a private sale; De Beers turned over $1.6 billion in the first half, down 19%, with an underlying EBITDA loss of $113 million narrowed from $189 million"
+   "b": "A SERIAL NUMBER TO COLLECT IT",
+   "t": " — Couriers carried stones in luggage, shoes and clothing on commercial flights from Hong Kong, arranged prices over WhatsApp, and released goods only to a recipient holding a US dollar bill whose eleven-character serial number matched one agreed in advance; state-owned Saigon Jewelry Company bought more than 3,400 stones for about $19 million"
   },
   {
-   "b": "ZERO PERCENT FOR ANTWERP",
-   "t": " — The Section 301 schedule in force since July 24 exempts loose natural diamonds cut in the European Union at 0%, along with rough and polished coloured stones and natural pearls, while lab-grown diamonds received no exemption from any of the roughly 60 countries listed"
+   "b": "CHINA'S LOWEST SINCE 2004",
+   "t": " — Mainland Chinese gold jewellery demand fell 28% to 50.0 tonnes in the second quarter, the weakest second quarter since 2004, and 30% across the half to 136 tonnes, while the value of that half-year demand rose 11% to about $21 billion"
   },
   {
-   "b": "CENTRAL BANKS TAKE 289 TONNES",
-   "t": " — Official sector buying rose 62% year on year to 289 tonnes in the second quarter, a record for any second quarter, led by Poland at 51 tonnes and China at 33; the first half still totalled only 345 tonnes, the smallest since 2022, after a first quarter revised to 57"
+   "b": "THE UNITED STATES DOWN TWENTY-FIVE",
+   "t": " — American gold jewellery fabrication fell 25% to 22.2 tonnes in the second quarter, the sharpest percentage decline among the major markets, with India down 15% to 75.1 tonnes and the Middle East down 19% to 32.2 tonnes on a global figure of 278.2 tonnes"
   },
   {
-   "b": "A $380 BILLION HALF-YEAR",
-   "t": " — Total gold demand was flat at 1,269 tonnes in the second quarter and up 2% at 2,522 tonnes across the half, but measured by value the first half set a record near $380 billion, with jewellery fabrication at a post-pandemic low of 278 tonnes"
+   "b": "SILVER LEADS THE REOPEN",
+   "t": " — At 6:01am New York, gold bid $4,053.30, up $11.60 or 0.29% against Friday's close, silver $58.05, up 1.06%, platinum $1,647.00 and palladium $1,259.00; the ADP employment report lands midweek and non-farm payrolls on Friday"
   },
   {
-   "b": "THE TENDER LADDER SPLITS",
-   "t": " — TAGS cleared 100% of a Zimbabwean parcel in Dubai and 95% of an Angolan sale worth $21.7 million, but only about 75% per tender on South African run-of-mine goods in Johannesburg, where participant attendance set a record; its latest Dubai sale of large South African stones took $15.2 million above 80%"
+   "b": "MICHAEL HILL ADDS TWO PERCENT",
+   "t": " — Group revenue rose 2% to A$654.7 million in the year to June 28, with same-store sales up 3% overall, Canada a record 7%, Australia 4.8% and New Zealand 3.6%; the chain closed eight stores and opened two, ending with 281"
   },
   {
-   "b": "NY NOW OPENS AT THE JAVITS",
-   "t": " — The summer market runs today to August 4, the first edition since Rockview Management Group bought the show from Emerald, with more than 70 new or returning exhibitors and over 90 brands from 19 countries across the Luxury Lifestyle and Curated sections"
+   "b": "SHOPLIFTING DOWN, FRAUD UP",
+   "t": " — The National Retail Federation's 2026 study has shoplifting incidents down 12.4% and merchandise theft down 8.1%, while 69% of retailers report rising phone scams, 42% gift-card fraud and 40% organised retail crime; jewellery, gold and watches rank among the highest dollar-loss categories"
   },
   {
-   "b": "JEWELLERY TOPS A FLAT MARKET",
-   "t": " — Bain and Altagamma put personal luxury goods at €358 billion in 2025, down from €364 billion, and forecast €365 billion to €373 billion this year, growth of 2% to 4%, with jewellery named the strongest category in a total luxury market growing between nothing and 2%"
-  },
-  {
-   "b": "GOLD WAITS ON PAYROLLS",
-   "t": " — No session since Friday's $4,041.70 close, so the tape carries unchanged into a week holding the ADP employment report midweek and non-farm payrolls on Friday; analysts mark the metal six weeks into a range, with near support at $4,020 and resistance at $4,070"
+   "b": "FEWER CRIMES, COSTLIER ONES",
+   "t": " — The Jewelers' Security Alliance counted 1,233 crimes against US jewellery firms in 2025, down 13%, on losses that rose to $144.7 million; robberies involving guns, mace or vehicles went from 17% to 27% of the total and vehicle ram-raids from none reported to 13"
   }
  ],
- "tape_ts": "31 Jul 2026, 5pm New York close · Kitco · no session since; New York reopens Monday",
+ "tape_ts": "3 Aug 2026, 6:01am New York · Kitco spot · change against Friday's 5pm close",
  "tape": [
   {
    "name": "Gold / oz",
    "code": "XAU",
-   "px": "4,041.70",
-   "chg": "— unch.",
-   "dir": "flat",
+   "px": "4,053.30",
+   "chg": "▲ +0.29%",
+   "dir": "up",
    "pts": [
     16,
     16,
@@ -57,7 +53,7 @@
     15,
     16,
     15,
-    14
+    16
    ]
   },
   {
@@ -101,9 +97,9 @@
   {
    "name": "Platinum / oz",
    "code": "XPT",
-   "px": "1,644.00",
-   "chg": "— unch.",
-   "dir": "flat",
+   "px": "1,647.00",
+   "chg": "▲ +0.18%",
+   "dir": "up",
    "pts": [
     17,
     17,
@@ -114,15 +110,15 @@
     15,
     17,
     16,
-    16
+    17
    ]
   },
   {
    "name": "Silver / oz",
    "code": "XAG",
-   "px": "57.44",
-   "chg": "— unch.",
-   "dir": "flat",
+   "px": "58.05",
+   "chg": "▲ +1.06%",
+   "dir": "up",
    "pts": [
     18,
     18,
@@ -133,7 +129,7 @@
     16,
     16,
     15,
-    14
+    16
    ]
   }
  ]
