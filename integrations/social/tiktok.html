@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex,nofollow">
+<title>Carat Capital — completing sign-in</title>
+<style>body{font-family:ui-monospace,Menlo,monospace;background:#F8F4EB;color:#16130E;display:grid;place-items:center;min-height:100vh;margin:0}div{max-width:34rem;padding:2rem;text-align:center;line-height:1.6}</style>
+</head>
+<body>
+<div>
+  <p><b>CARAT CAPITAL</b></p>
+  <p id="msg">Completing sign-in…</p>
+  <noscript>Enable JavaScript to complete sign-in.</noscript>
+</div>
+<script>
+/* Hands the OAuth callback to the newsroom's local Postiz. Only meaningful in
+   a browser on the newsroom Mac; everywhere else it simply explains itself. */
+if (location.search) {
+  location.replace('http://localhost:4007/integrations/social/tiktok' + location.search);
+  setTimeout(function(){document.getElementById('msg').textContent='This link completes a private integration handshake for the Carat Capital newsroom and only works on the newsroom computer.';},2500);
+} else {
+  document.getElementById('msg').textContent='This link completes a private integration handshake for the Carat Capital newsroom. Nothing to see here.';
+}
+</script>
+</body>
+</html>
