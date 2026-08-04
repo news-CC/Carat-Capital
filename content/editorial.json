@@ -21873,5 +21873,826 @@
     }
    ]
   }
+ },
+ "the-one-carat-stops-falling": {
+  "strip": {
+   "cap": "By the numbers · RapNet Diamond Index, July 2026",
+   "cells": [
+    {
+     "fig": "0.0%",
+     "lab": "1-carat, ends 13 months down"
+    },
+    {
+     "fig": "+1.8%",
+     "dir": "up",
+     "lab": "0.50-carat, best since Mar 2025"
+    },
+    {
+     "fig": "+1.6%",
+     "dir": "up",
+     "lab": "0.30-carat"
+    },
+    {
+     "fig": "+0.2%",
+     "dir": "up",
+     "lab": "3-carat"
+    },
+    {
+     "fig": "Mar 2025",
+     "lab": "last month none fell"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "RAPI monthly change, by size",
+    "rows": [
+     {
+      "l": "0.50 CARAT",
+      "v": 1.8,
+      "d": "+1.8%",
+      "hi": true
+     },
+     {
+      "l": "0.30 CARAT",
+      "v": 1.6,
+      "d": "+1.6%"
+     },
+     {
+      "l": "3 CARAT",
+      "v": 0.2,
+      "d": "+0.2%"
+     },
+     {
+      "l": "1 CARAT",
+      "v": 0.0,
+      "d": "flat"
+     }
+    ],
+    "note": "July 2026, per cent. Rapaport, published 4 August 2026.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/178"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Thirteen months, ended level.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Some of it is a duty line.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "It is the first month since March 2025 in which none of the four fell",
+     "attr": "The Diamonds Desk"
+    }
+   },
+   {
+    "sub": "What is still not repaired.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Small stones lead again",
+     "href": "a-small-stones-lead-again.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "a flat month is not a recovery, it is the end of a decline"
+  },
+  "next": {
+   "lead": {
+    "slug": "thirties-outrun-the-ones",
+    "tag": "Polished",
+    "blurb": "The 0.30-carat band turned first, and turned hardest."
+   },
+   "minis": [
+    {
+     "slug": "zero-for-antwerp",
+     "tag": "Tariffs"
+    },
+    {
+     "slug": "lab-grown-finds-its-floor",
+     "tag": "Lab-grown"
+    }
+   ]
+  }
+ },
+ "minus-point-one-for-color": {
+  "strip": {
+   "cap": "By the numbers · FCRF index, Q2 2026",
+   "cells": [
+    {
+     "fig": "−0.1%",
+     "dir": "down",
+     "lab": "overall index"
+    },
+    {
+     "fig": "+0.1%",
+     "dir": "up",
+     "lab": "pink, from −0.3%"
+    },
+    {
+     "fig": "−0.4%",
+     "dir": "down",
+     "lab": "blue"
+    },
+    {
+     "fig": "−0.3%",
+     "dir": "down",
+     "lab": "yellow, second quarter running"
+    },
+    {
+     "fig": "−1.3%",
+     "dir": "down",
+     "lab": "2-carat blue, widest move"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Second-quarter change, by colour",
+    "rows": [
+     {
+      "l": "PINK",
+      "v": 0.1,
+      "d": "+0.1%",
+      "hi": true
+     },
+     {
+      "l": "OVERALL",
+      "v": -0.1,
+      "d": "−0.1%"
+     },
+     {
+      "l": "YELLOW",
+      "v": -0.3,
+      "d": "−0.3%"
+     },
+     {
+      "l": "BLUE",
+      "v": -0.4,
+      "d": "−0.4%"
+     }
+    ],
+    "note": "Per cent, Q2 2026. Fancy Color Research Foundation via Rapaport, 3 August 2026.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/179"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "A quarter in which nothing happened.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Blue is where the dispersion sits.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "Pink rose 0.1%, blue fell 0.4%, yellow fell 0.3%, and the index moved one tenth of one percent.",
+     "attr": "The Gemstones Desk"
+    }
+   },
+   {
+    "sub": "Category against category.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Two speeds in colour",
+     "href": "a-color-runs-two-speeds.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "stability at this level is a statement about liquidity, not about value"
+  },
+  "next": {
+   "lead": {
+    "slug": "fancy-color-gets-a-tape",
+    "tag": "Pricing",
+    "blurb": "FCRF prices now sit inside the planning software."
+   },
+   "minis": [
+    {
+     "slug": "color-runs-two-speeds",
+     "tag": "Colour"
+    },
+    {
+     "slug": "twelve-point-five-for-color",
+     "tag": "Demand"
+    }
+   ]
+  }
+ },
+ "independents-pass-lvmh": {
+  "strip": {
+   "cap": "By the numbers · secondary market, H1 2026",
+   "cells": [
+    {
+     "fig": "$10.5B",
+     "dir": "up",
+     "lab": "total, +37.2%"
+    },
+    {
+     "fig": "$633.8M",
+     "dir": "up",
+     "lab": "independents, +89%"
+    },
+    {
+     "fig": "$617M",
+     "lab": "LVMH watch portfolio"
+    },
+    {
+     "fig": "$201.6M",
+     "dir": "up",
+     "lab": "F.P. Journe, 7th overall"
+    },
+    {
+     "fig": "$215,000",
+     "dir": "up",
+     "lab": "Journe median, +82%"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Secondary-market value, H1 2026",
+    "rows": [
+     {
+      "l": "ROLEX",
+      "v": 4290,
+      "d": "$4.29B, 41%",
+      "hi": true
+     },
+     {
+      "l": "PATEK PHILIPPE",
+      "v": 1510,
+      "d": "$1.51B"
+     },
+     {
+      "l": "AUDEMARS PIGUET",
+      "v": 983,
+      "d": "$983M"
+     },
+     {
+      "l": "INDEPENDENTS",
+      "v": 634,
+      "d": "$633.8M, +89%"
+     },
+     {
+      "l": "LVMH WATCHES",
+      "v": 617,
+      "d": "$617M"
+     }
+    ],
+    "note": "US dollars, millions. EveryWatch H1 2026 report via JCK.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/180"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "The door is open.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "One name, almost all the growth.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "Independent watchmakers sold $633.8 million on the secondary market in the first half, up 89%, and that is more than the entire LVMH watch portfolio",
+     "attr": "The Watches Desk"
+    }
+   },
+   {
+    "sub": "Scale still belongs where it was.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "List up, resale down",
+     "href": "a-list-up-resale-down.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "scarcity that was never manufactured is the only kind the secondary market still pays for"
+  },
+  "next": {
+   "lead": {
+    "slug": "cartier-secondhand-heat",
+    "tag": "Pre-owned",
+    "blurb": "Cartier's heat built 3.5 times faster than any rival."
+   },
+   "minis": [
+    {
+     "slug": "list-up-resale-down",
+     "tag": "Prices"
+    },
+    {
+     "slug": "crown-premium-shrinks",
+     "tag": "Rolex"
+    }
+   ]
+  }
+ },
+ "one-point-two-million-apply": {
+  "strip": {
+   "cap": "By the numbers · MoonSwatch 1969",
+   "cells": [
+    {
+     "fig": "1.2M+",
+     "dir": "up",
+     "lab": "completed applications"
+    },
+    {
+     "fig": "1,969",
+     "lab": "pieces worldwide"
+    },
+    {
+     "fig": "600:1",
+     "lab": "applicants per watch"
+    },
+    {
+     "fig": "$570",
+     "lab": "retail, priced off July 1969"
+    },
+    {
+     "fig": "~$1,074",
+     "dir": "up",
+     "lab": "fine gold content at spot"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "The 1969 ticket against its metal",
+    "rows": [
+     {
+      "l": "FINE GOLD CONTENT",
+      "v": 1074,
+      "d": "~$1,074",
+      "hi": true
+     },
+     {
+      "l": "RETAIL PRICE",
+      "v": 570,
+      "d": "$570"
+     }
+    ],
+    "note": "8.25g fine from 11g of 18-karat, at Kitco spot $4,048.80/oz, 4 August 2026.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/181"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "A questionnaire instead of a queue.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Three months ago, the sidewalk.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "About six hundred people applied for every watch available.",
+     "attr": "The Watches Desk"
+    }
+   },
+   {
+    "sub": "What the form actually collects.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Swatch's split screen",
+     "href": "a-swatch-nine-up-six-down.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "the quiz is not a lottery, it is a customer database with a watch attached"
+  },
+  "next": {
+   "lead": {
+    "slug": "swatch-nine-up-six-down",
+    "tag": "Results",
+    "blurb": "Nine percent growth, sixteen million of profit."
+   },
+   "minis": [
+    {
+     "slug": "ap-105-million-paradox",
+     "tag": "Audemars"
+    },
+    {
+     "slug": "guess-lets-the-machine-draw",
+     "tag": "Retail"
+    }
+   ]
+  }
+ },
+ "seventy-three-lots-over-a-million": {
+  "strip": {
+   "cap": "By the numbers · watch auctions, H1 2026",
+   "cells": [
+    {
+     "fig": "$680M",
+     "dir": "up",
+     "lab": "auction sales, +45%"
+    },
+    {
+     "fig": "73",
+     "dir": "up",
+     "lab": "lots over $1 million"
+    },
+    {
+     "fig": "3",
+     "dir": "up",
+     "lab": "lots over $10 million"
+    },
+    {
+     "fig": "$5,900",
+     "dir": "up",
+     "lab": "median watch, +19%"
+    },
+    {
+     "fig": "43 days",
+     "dir": "up",
+     "lab": "average time to sell, from 39"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Where the top of the book cleared",
+    "rows": [
+     {
+      "l": "JOURNE RESONANCE 007",
+      "v": 13.92,
+      "d": "$13.92M",
+      "hi": true
+     },
+     {
+      "l": "RESONANCE No. 18",
+      "v": 6.3,
+      "d": "$6.3M"
+     },
+     {
+      "l": "RESONANCE PISA",
+      "v": 3.0,
+      "d": "$3.0M"
+     }
+    ],
+    "note": "US dollars, millions. Phillips spring season 2026, via Robb Report.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/182"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Best six months since the boom.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Underneath the trophies.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "Seventy-three lots cleared a million dollars in six months, close to three times last year's count.",
+     "attr": "The Auctions Desk"
+    }
+   },
+   {
+    "sub": "Where the estimate should sit.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Phillips takes $235 million",
+     "href": "a-phillips-235-million-spring.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "the auction room is not recovering broadly, it is recovering at the top"
+  },
+  "next": {
+   "lead": {
+    "slug": "phillips-235-million-spring",
+    "tag": "Season",
+    "blurb": "A $235 million spring, and the record that came with it."
+   },
+   "minis": [
+    {
+     "slug": "heritage-books-a-record-half",
+     "tag": "Heritage"
+    },
+    {
+     "slug": "trophy-lots-carry-the-half",
+     "tag": "Trophies"
+    }
+   ]
+  }
+ },
+ "platinum-adds-one-seven": {
+  "strip": {
+   "cap": "The tape · 4 August, 5:59am New York",
+   "cells": [
+    {
+     "fig": "$4,048.80",
+     "dir": "down",
+     "lab": "gold, −0.14%"
+    },
+    {
+     "fig": "$1,655.00",
+     "dir": "up",
+     "lab": "platinum, +1.72%"
+    },
+    {
+     "fig": "$1,266.00",
+     "dir": "up",
+     "lab": "palladium, +1.77%"
+    },
+    {
+     "fig": "$58.63",
+     "dir": "up",
+     "lab": "silver, +0.97%"
+    },
+    {
+     "fig": "69.0",
+     "dir": "down",
+     "lab": "gold to silver ratio"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Day change, 4 August",
+    "rows": [
+     {
+      "l": "PALLADIUM",
+      "v": 1.77,
+      "d": "+1.77%",
+      "hi": true
+     },
+     {
+      "l": "PLATINUM",
+      "v": 1.72,
+      "d": "+1.72%"
+     },
+     {
+      "l": "SILVER",
+      "v": 0.97,
+      "d": "+0.97%"
+     },
+     {
+      "l": "GOLD",
+      "v": -0.14,
+      "d": "−0.14%"
+     }
+    ],
+    "note": "Per cent against Monday's close. Kitco spot, 5:59am New York, 4 August 2026.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/183"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Three up, and not the one that matters.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "The week is labour data.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "Gold is the only one of the four that is lower, and it is lower by fourteen hundredths of a percent",
+     "attr": "The Bullion Desk"
+    }
+   },
+   {
+    "sub": "What it costs at the bench.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Silver leads the reopen",
+     "href": "a-silver-leads-the-reopen.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "deriving one by arithmetic from a change field would be inventing a number"
+  },
+  "next": {
+   "lead": {
+    "slug": "silver-leads-the-reopen",
+    "tag": "The tape",
+    "blurb": "Monday's reopen, with silver in front."
+   },
+   "minis": [
+    {
+     "slug": "gold-waits-on-payrolls",
+     "tag": "Payrolls"
+    },
+    {
+     "slug": "white-metals-close-the-month",
+     "tag": "White metals"
+    }
+   ]
+  }
+ },
+ "thirteen-hundred-brands-and-a-centenary": {
+  "strip": {
+   "cap": "By the numbers · Vicenzaoro September",
+   "cells": [
+    {
+     "fig": "4-8 Sept",
+     "lab": "Fiera di Vicenza"
+    },
+    {
+     "fig": "~1,300",
+     "lab": "brands, 38 countries"
+    },
+    {
+     "fig": "130+",
+     "lab": "buyer countries expected"
+    },
+    {
+     "fig": "Hall 2",
+     "lab": "in full use for the first time"
+    },
+    {
+     "fig": "100",
+     "lab": "years of CIBJO, founded 1926"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "The September floor",
+    "rows": [
+     {
+      "l": "BRANDS EXHIBITING",
+      "v": 1300,
+      "d": "~1,300",
+      "hi": true
+     },
+     {
+      "l": "BUYER COUNTRIES",
+      "v": 130,
+      "d": "130+"
+     },
+     {
+      "l": "EXHIBITOR COUNTRIES",
+      "v": 38,
+      "d": "38"
+     }
+    ],
+    "note": "Italian Exhibition Group figures via JCK, 13 July 2026.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/184"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "A date and a floor plan.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "A hundredth birthday with a rulebook.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "The congress that writes the Blue Books turns one hundred in the hall next door.",
+     "attr": "The Retail Desk"
+    }
+   },
+   {
+    "sub": "Not ceremonial this year.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Say synthetic, not lab-grown",
+     "href": "a-say-synthetic-not-lab-grown.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "a standards congress is where the lab-grown naming fight gets settled, and Russia has already moved"
+  },
+  "next": {
+   "lead": {
+    "slug": "russia-bans-the-word",
+    "tag": "Nomenclature",
+    "blurb": "Moscow strikes the word diamond from synthetic labels."
+   },
+   "minis": [
+    {
+     "slug": "say-synthetic-not-lab-grown",
+     "tag": "CIBJO"
+    },
+    {
+     "slug": "dubai-diamond-week-returns",
+     "tag": "Calendar"
+    }
+   ]
+  }
  }
 }
