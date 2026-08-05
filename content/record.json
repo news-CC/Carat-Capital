@@ -1,10 +1,52 @@
 {
- "updated": "4 Aug 2026",
+ "updated": "5 Aug 2026",
  "intro": "Eight weeks of the trade, kept the way a ledger should be kept — dated, sourced, and in one place. New entries are added at the top each week; the quarter's running numbers live in the Almanac below.",
  "weeks": [
   {
    "label": "This week — August 3",
    "entries": [
+    {
+     "d": "gold-metals",
+     "h": "Every precious metal rises for a third session as gold adds $109 an ounce in a day",
+     "t": "At 5:58am New York time on 5 August, Kitco's spot page had gold bid at $4,157.80 an ounce, up $81.20 or 1.99% against Tuesday's close; silver $61.35, up $1.94 or 3.27%; platinum $1,747.00, up $19.00 or 1.10%; and palladium $1,355.00, up $26.00 or 1.96%. It was the third consecutive session in which all four rose. Against the $4,048.80 print this paper carried on 4 August, gold added about $109 an ounce in twenty-four hours. The gold to silver ratio tightened to 67.8 from about 69.0 and platinum stood at 42.0% of the gold price; fine gold at $4,157.80 an ounce is $133.68 a gram against $130.17 the previous session. The move followed reports that the United States, Iran and Oman were closing on an interim agreement to reopen the Strait of Hormuz, with an announcement targeted for Wednesday; lower oil cut the inflation path and traders trimmed the odds of a September Federal Reserve increase to about 57% from about 67% a day earlier. Intraday prints were materially higher than the mark carried here, at $4,170.90 at 3:08am and $4,174.70 at 2:44am. Trading Economics printed platinum at $1,760.10 and palladium at $1,372.00, spreads of $13.10 and $17.00 against Kitco, which remains this paper's designated source. NAT1 and LGD1 both carried unchanged; the lab-grown reference was not printed because two trackers stood 28% apart, at $709 and $552, on the same week.",
+     "s": "Kitco / FXStreet / GoldSilver"
+    },
+    {
+     "d": "gold-metals",
+     "h": "Indian futures rise with the global bid rather than behind it",
+     "t": "October 2026 gold futures on India's Multi Commodity Exchange traded at ₹1,45,359 per 10 grams on 5 August, up ₹1,060 or 0.73%, and September 2026 silver at ₹2,24,109 a kilogram, up ₹2,494 or 1.13%. The same gold contract held above ₹1,43,500 in the previous session. ₹1,45,359 per 10 grams is ₹14,536 a gram of futures-grade metal, a duty-inclusive domestic price that cannot be compared directly with the $133.68 a gram international spot mark. Context: Indian jewellery demand fell 19% in the first quarter and to 75.1 tonnes in the second from 88.8 tonnes, a 15% fall, on World Gold Council figures filed by this paper on 31 July, with the council reporting demand beginning to recover in late June after a month-long lull. Chinese gold jewellery demand fell 28% in the same quarter to 50 tonnes, the weakest since 2004. Third-quarter Indian tonnage will not be published for months; the futures print is a price expectation, not an offtake figure.",
+     "s": "NewsX / Business Today / Goodreturns"
+    },
+    {
+     "d": "retail-tech",
+     "h": "Hong Kong hard luxury grows four times faster than the city's retail market in June",
+     "t": "Hong Kong sales of jewellery, watches, clocks and valuable gifts reached HK$5.49 billion, about $699.9 million, in June 2026, up 20% year on year, on Census and Statistics Department figures published 4 August. Total retail sales across all categories were HK$31.49 billion, about $4.02 billion, up 5%, making hard luxury 17.4% of the city's retail spend and marking a fourteenth consecutive month of overall retail growth. Across the first half, jewellery, watches and clocks took HK$31.07 billion, about $3.96 billion, up 25%, against HK$203 billion, about $25.88 billion, up 10%, for all retail categories. The government attributed the run to continued economic expansion, rising local incomes and a steady increase in inbound visitors. The value line is flattered by a record gold price in a market that sells substantial volumes of gold by weight; Luk Fook's June quarter, filed by this paper on 21 July, showed retail value up 32% and gold same-store sales up 50% while diamond same-store sales fell 17% group-wide and 58% on the mainland.",
+     "s": "Census and Statistics Department via Rapaport / Xinhua / SCMP"
+    },
+    {
+     "d": "retail-tech",
+     "h": "Pandora fills a six-month North American vacancy with a beauty executive",
+     "t": "Pandora appointed André Branch president of its North America cluster, effective 15 August 2026, succeeding Luciano Rodembusch, who left in February, leaving the seat vacant roughly six months. Branch joins from the chief executive's role at R.E.M. Beauty and previously held senior positions at Estée Lauder, L'Oréal, Diageo and Kraft Heinz across two decades in consumer brands; he has no jewellery background. Pandora describes North America as one of its largest and most important growth markets and states the brief as strengthening customer engagement, expanding reach and unlocking growth. The appointment follows a wider set of executive changes at Pandora North America reported earlier in the year. The American fourth quarter is already substantially bought by the time he starts.",
+     "s": "JCK / Jewellery Focus / Rapaport"
+    },
+    {
+     "d": "retail-tech",
+     "h": "Luk Fook's record year was built on fixed-price jewellery, not on the gold price alone",
+     "t": "Luk Fook Holdings reported net profit up 88.7% to HK$2.015 billion for the year to 31 March 2026, its highest on record, on revenue up 29% to HK$17.21 billion, with gross profit up 42.9% to HK$6.31 billion and a gross margin of 36.7%. The results were disclosed in late June. The driver, stated in the Chinese-language financial press and largely absent from English pickups, is the pricing mix: sales of fixed-price jewellery, priced by the piece, rose 50.5%, while sales of gold and platinum products priced by weight rose 22%. Weight-priced goods pass the metal cost to the customer and earn the retailer a labour charge; fixed-price goods carry the margin inside the ticket, which protects gross margin when gold is at a record but caps revenue upside when volume returns and moves the price exposure onto the buying and hedging desk. This paper filed the same company's June quarter on 21 July, retail value up 32% and gold same-store sales up 50%, and its split on 22 July, diamond same-store sales down 58% on the mainland.",
+     "s": "pedaily.cn / TipRanks / Rapaport"
+    },
+    {
+     "d": "diamonds",
+     "h": "The Natural Diamond Council puts 80% of its advertising behind consumers and inscribes a trust mark",
+     "t": "Natural Diamond Council chief executive Amber Pepper, speaking at a Gem and Jewellery Export Promotion Council meeting in Mumbai on Monday 3 August, said at least 80% of the council's advertising spend will be directed at consumers rather than the trade, and that the council's budget is significantly larger than the prior year, without giving a figure. She set out a Diamond Desire Index tracking consideration, purchase intent, sentiment and recommendation in India, China and the United States, with a baseline due September 2026, and a Natural Diamond Mark to be inscribed on natural diamonds and jewellery globally as a consumer trust device. Six transformational pillars were named: industry unity, category marketing, organisation evolution, consumer design, cultural relevance and category protection. The council is working with the agency Artefact on large language model optimisation. Pepper said the trade must stop talking about the crisis and start promoting the desirability of natural diamonds. Context: the RapNet Diamond Index for 1-carat polished was flat in July after thirteen months of decline, and De Beers' consolidated average realised price fell 32% to $105 a carat across the first half.",
+     "s": "JCK / Heera Zhaveraat"
+    },
+    {
+     "d": "auctions",
+     "h": "Joopiter opens a standalone watch department with a rolling online sale closing 11 August",
+     "t": "Joopiter, the digital auction house founded by Pharrell Williams, opened Keeping Measure: Watches and Timepieces, the first sale from the standalone watch department it announced in July under Nate Borgelt, formerly of Bonhams. Lots close on a rolling basis through 11 August. The top lot is an Omega Speedmaster engraved for Alan Bean, the fourth man to walk on the moon, one of thirty examples of the reference produced after the first moon landing and distributed to President Nixon, Vice President Agnew and astronauts of the period; this is number 26, engraved for Bean's command of the 1973 Skylab mission, estimated at $250,000 to $350,000 with bidding at $230,000. Other lots include an HYT Moon Runner Red Magma from 2022 at $50,000 to $70,000 and a Ulysse Nardin with a Gay Frères bracelet from around 1960 at $15,000 to $25,000, alongside Patek Philippe, Audemars Piguet, Piaget, Cartier, Ressence, Speake-Marin and Ōtsuka Lotēc. The sale runs against an empty summer calendar; the next priced offering of note is Sotheby's Gem Drop in New York, 10 to 13 August. Watch auction sales reached $680 million in the first half, up 45%, with 73 lots clearing $1 million.",
+     "s": "JCK / stupidDOPE / Joopiter"
+    },
     {
      "d": "diamonds",
      "h": "The 1-carat polished index stops falling after thirteen months, and July prints the best month since the tariffs",

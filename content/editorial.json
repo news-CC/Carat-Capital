@@ -22694,5 +22694,723 @@
     }
    ]
   }
+ },
+ "four-metals-third-session": {
+  "strip": {
+   "cap": "By the numbers · Kitco spot, 5:58am New York",
+   "cells": [
+    {
+     "fig": "$4,157.80",
+     "delta": "▲ +1.99%",
+     "dir": "up",
+     "lab": "gold, third session up"
+    },
+    {
+     "fig": "$61.35",
+     "delta": "▲ +3.27%",
+     "dir": "up",
+     "lab": "silver, leads again"
+    },
+    {
+     "fig": "$1,747.00",
+     "delta": "▲ +1.10%",
+     "dir": "up",
+     "lab": "platinum"
+    },
+    {
+     "fig": "$1,355.00",
+     "delta": "▲ +1.96%",
+     "dir": "up",
+     "lab": "palladium"
+    },
+    {
+     "fig": "67.8",
+     "lab": "gold to silver ratio, from 69.0"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Session change by metal · 5 August 2026",
+    "rows": [
+     {
+      "l": "SILVER",
+      "v": 3.27,
+      "d": "+3.27%",
+      "hi": true
+     },
+     {
+      "l": "PALLADIUM",
+      "v": 1.96,
+      "d": "+1.96%"
+     },
+     {
+      "l": "GOLD",
+      "v": 1.99,
+      "d": "+1.99%"
+     },
+     {
+      "l": "PLATINUM",
+      "v": 1.1,
+      "d": "+1.10%"
+     }
+    ],
+    "note": "Per cent against Tuesday's close. Kitco spot, 5:58am New York, 5 August 2026.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/181"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Every metal on the board, a third day running.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "The gram, not the ounce.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "Gold rose because the war premium is coming out, not because it is going in.",
+     "attr": "The Gold & Metals Desk"
+    }
+   },
+   {
+    "sub": "Two cautions for the record.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Gold's oldest rule broke in a war week",
+     "href": "a-war-premium-inverts.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "a metals rally built on peace talk is a rate trade wearing a geopolitics costume"
+  },
+  "next": {
+   "lead": {
+    "slug": "india-confirms-the-turn",
+    "tag": "India",
+    "blurb": "The domestic futures curve rose with the global bid, not behind it."
+   },
+   "minis": [
+    {
+     "slug": "platinum-adds-one-seven",
+     "tag": "Metals"
+    },
+    {
+     "slug": "gold-waits-on-payrolls",
+     "tag": "The Fed"
+    }
+   ]
+  }
+ },
+ "india-confirms-the-turn": {
+  "strip": {
+   "cap": "By the numbers · MCX, 5 August 2026",
+   "cells": [
+    {
+     "fig": "₹1,45,359",
+     "delta": "▲ +0.73%",
+     "dir": "up",
+     "lab": "October gold, per 10g"
+    },
+    {
+     "fig": "₹2,24,109",
+     "delta": "▲ +1.13%",
+     "dir": "up",
+     "lab": "September silver, per kg"
+    },
+    {
+     "fig": "₹14,536",
+     "lab": "gold, per gram"
+    },
+    {
+     "fig": "−15%",
+     "dir": "down",
+     "lab": "Q2 jewellery demand"
+    },
+    {
+     "fig": "75.1t",
+     "lab": "Q2 jewellery, from 88.8t"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Indian jewellery demand, quarterly change",
+    "rows": [
+     {
+      "l": "Q2 2026",
+      "v": -15,
+      "d": "−15%",
+      "hi": true
+     },
+     {
+      "l": "Q1 2026",
+      "v": -19,
+      "d": "−19%"
+     }
+    ],
+    "note": "Per cent year on year. World Gold Council, filed 31 July 2026.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/182"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "The global bid reaches the counter.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Two bad quarters behind it.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "A domestic contract that rises with global spot rather than lagging it is telling you the rupee is not absorbing the move for the buyer.",
+     "attr": "The Gold & Metals Desk"
+    }
+   },
+   {
+    "sub": "A screen price is not an offtake number.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "India's quarter: 75.1 tonnes, down 15%",
+     "href": "a-india-buys-fifteen-percent-less.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "India is now carrying Asian demand on its own, and that is a thin plank to stand a recovery on"
+  },
+  "next": {
+   "lead": {
+    "slug": "four-metals-third-session",
+    "tag": "Metals",
+    "blurb": "Every precious metal on the board rose for a third session."
+   },
+   "minis": [
+    {
+     "slug": "china-lowest-since-2004",
+     "tag": "China"
+    },
+    {
+     "slug": "india-buys-fifteen-percent-less",
+     "tag": "Demand"
+    }
+   ]
+  }
+ },
+ "hong-kong-fourteen-months": {
+  "strip": {
+   "cap": "By the numbers · Hong Kong retail, June 2026",
+   "cells": [
+    {
+     "fig": "HK$5.49B",
+     "delta": "▲ +20%",
+     "dir": "up",
+     "lab": "jewellery, watches, clocks"
+    },
+    {
+     "fig": "HK$31.49B",
+     "delta": "▲ +5%",
+     "dir": "up",
+     "lab": "all retail, June"
+    },
+    {
+     "fig": "17.4%",
+     "lab": "hard luxury share of retail"
+    },
+    {
+     "fig": "HK$31.07B",
+     "delta": "▲ +25%",
+     "dir": "up",
+     "lab": "hard luxury, first half"
+    },
+    {
+     "fig": "14",
+     "lab": "consecutive months of growth"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "First-half growth, Hong Kong retail",
+    "rows": [
+     {
+      "l": "JEWELLERY, WATCHES, CLOCKS",
+      "v": 25,
+      "d": "+25%",
+      "hi": true
+     },
+     {
+      "l": "ALL RETAIL CATEGORIES",
+      "v": 10,
+      "d": "+10%"
+     }
+    ],
+    "note": "Per cent year on year, January to June 2026. Census and Statistics Department via Rapaport.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/183"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Four times the pace of the shops around it.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "The gold price does part of the arithmetic.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "A category growing at two and a half times the pace of the whole market for six months is not a seasonal effect.",
+     "attr": "The Retail Desk"
+    }
+   },
+   {
+    "sub": "A Hong Kong number, not a China number.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Hong Kong's gold counters run hot",
+     "href": "a-gold-counters-run-hot.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "Hong Kong's recovery is real and it is narrow"
+  },
+  "next": {
+   "lead": {
+    "slug": "luk-fook-fixed-price",
+    "tag": "Greater China",
+    "blurb": "The mix, not the metal, made Luk Fook's record year."
+   },
+   "minis": [
+    {
+     "slug": "china-lowest-since-2004",
+     "tag": "China"
+    },
+    {
+     "slug": "gold-up-fifty-diamonds-down",
+     "tag": "Luk Fook"
+    }
+   ]
+  }
+ },
+ "pandora-fills-the-seat": {
+  "strip": {
+   "cap": "The appointment · Pandora North America",
+   "cells": [
+    {
+     "fig": "15 Aug",
+     "lab": "Branch starts"
+    },
+    {
+     "fig": "~6 mo",
+     "lab": "seat empty since February"
+    },
+    {
+     "fig": "20 yrs",
+     "lab": "consumer brands, none in jewellery"
+    },
+    {
+     "fig": "R.E.M.",
+     "lab": "arrives from the beauty chair"
+    },
+    {
+     "fig": "Q4",
+     "lab": "American season already bought"
+    }
+   ]
+  },
+  "flow": [
+   {
+    "sub": "The biggest open job in mass-market jewellery.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "A consumer-marketing career, not a jewellery one.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "Pandora's competition for a $70 gift is not a diamond house; it is a fragrance, a handbag and a concert ticket.",
+     "attr": "The Retail Desk"
+    }
+   },
+   {
+    "sub": "What the brief actually is.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Who buys diamonds now",
+     "href": "a-who-buys-diamonds-now.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "hiring a beauty executive to run jewellery in America is the most interesting appointment of the summer"
+  },
+  "next": {
+   "lead": {
+    "slug": "hong-kong-fourteen-months",
+    "tag": "Retail",
+    "blurb": "Hong Kong's hard luxury grew four times faster than the shops around it."
+   },
+   "minis": [
+    {
+     "slug": "sixty-one-percent-said-lab",
+     "tag": "Lab-grown"
+    },
+    {
+     "slug": "average-ticket-carries-the-half",
+     "tag": "Counters"
+    }
+   ]
+  }
+ },
+ "luk-fook-fixed-price": {
+  "strip": {
+   "cap": "By the numbers · Luk Fook, year to 31 March 2026",
+   "cells": [
+    {
+     "fig": "HK$2.015B",
+     "delta": "▲ +88.7%",
+     "dir": "up",
+     "lab": "net profit, a record"
+    },
+    {
+     "fig": "HK$17.21B",
+     "delta": "▲ +29%",
+     "dir": "up",
+     "lab": "revenue"
+    },
+    {
+     "fig": "+50.5%",
+     "dir": "up",
+     "lab": "fixed-price jewellery sales"
+    },
+    {
+     "fig": "+22%",
+     "dir": "up",
+     "lab": "gold and platinum, by weight"
+    },
+    {
+     "fig": "36.7%",
+     "lab": "gross margin"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Sales growth by pricing model · FY2026",
+    "rows": [
+     {
+      "l": "FIXED-PRICE JEWELLERY",
+      "v": 50.5,
+      "d": "+50.5%",
+      "hi": true
+     },
+     {
+      "l": "GOLD & PLATINUM, BY WEIGHT",
+      "v": 22,
+      "d": "+22%"
+     }
+    ],
+    "note": "Per cent year on year, twelve months to 31 March 2026. Company results via Chinese-language financial press.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/184"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "The number that did not travel.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "The mix, not the metal.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "When gold is at a record and rising, the weight-priced case is where sticker shock lands and the fixed-price case is where the margin survives.",
+     "attr": "The Retail Desk"
+    }
+   },
+   {
+    "sub": "What the strategy costs.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Luk Fook's split quarter",
+     "href": "a-gold-up-fifty-diamonds-down.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "this is the most transferable idea in Asian retail jewellery this year"
+  },
+  "next": {
+   "lead": {
+    "slug": "hong-kong-fourteen-months",
+    "tag": "Hong Kong",
+    "blurb": "Hard luxury took HK$5.49 billion in June, up 20%."
+   },
+   "minis": [
+    {
+     "slug": "gold-counters-run-hot",
+     "tag": "Counters"
+    },
+    {
+     "slug": "china-lowest-since-2004",
+     "tag": "China"
+    }
+   ]
+  }
+ },
+ "eighty-percent-to-the-consumer": {
+  "strip": {
+   "cap": "The plan · Natural Diamond Council",
+   "cells": [
+    {
+     "fig": "80%",
+     "lab": "of advertising, to consumers"
+    },
+    {
+     "fig": "Sept",
+     "lab": "desire index baseline due"
+    },
+    {
+     "fig": "3",
+     "lab": "markets tracked: India, China, US"
+    },
+    {
+     "fig": "6",
+     "lab": "transformational pillars"
+    },
+    {
+     "fig": "$105",
+     "delta": "▼ −32%",
+     "dir": "down",
+     "lab": "De Beers realised price, H1"
+    }
+   ]
+  },
+  "flow": [
+   {
+    "sub": "A number on where the money goes.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Three instruments, separated.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "The Natural Diamond Mark is a trust device, a mark to be inscribed on natural stones and jewellery globally, aimed at a shopper who can no longer tell the two products apart across a counter.",
+     "attr": "The Diamonds Desk"
+    }
+   },
+   {
+    "sub": "The arithmetic it is aimed at.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "The 1-carat stops falling",
+     "href": "a-the-one-carat-stops-falling.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "an 80% consumer split is the right allocation about three years late"
+  },
+  "next": {
+   "lead": {
+    "slug": "the-one-carat-stops-falling",
+    "tag": "Polished",
+    "blurb": "July ended thirteen months of decline at flat."
+   },
+   "minis": [
+    {
+     "slug": "who-buys-diamonds-now",
+     "tag": "Demand"
+    },
+    {
+     "slug": "lab-grown-finds-its-floor",
+     "tag": "Lab-grown"
+    }
+   ]
+  }
+ },
+ "joopiter-keeping-measure": {
+  "strip": {
+   "cap": "The sale · Keeping Measure, closes 11 August",
+   "cells": [
+    {
+     "fig": "$230,000",
+     "lab": "standing bid, top lot"
+    },
+    {
+     "fig": "$250–350K",
+     "lab": "estimate, Bean Speedmaster"
+    },
+    {
+     "fig": "30",
+     "lab": "examples made after Apollo 11"
+    },
+    {
+     "fig": "$680M",
+     "delta": "▲ +45%",
+     "dir": "up",
+     "lab": "H1 watch auction sales"
+    },
+    {
+     "fig": "73",
+     "lab": "H1 lots over $1 million"
+    }
+   ]
+  },
+  "flow": [
+   {
+    "sub": "One priced watch offering, and it is not a saleroom.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Provenance is the thing that cannot be manufactured.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "Provenance of that specificity is the one thing a new auction room cannot manufacture, and it is what the estimate is priced on.",
+     "attr": "The Auctions Desk"
+    }
+   },
+   {
+    "sub": "The timing is the strategy.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "73 lots over a million",
+     "href": "a-seventy-three-lots-over-a-million.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "an online-native house with rolling closes and a celebrity founder is not a novelty any more"
+  },
+  "next": {
+   "lead": {
+    "slug": "seventy-three-lots-over-a-million",
+    "tag": "Auctions",
+    "blurb": "Watch auction sales rose 45% to $680 million in the half."
+   },
+   "minis": [
+    {
+     "slug": "joopiter-24-million-resume",
+     "tag": "Joopiter"
+    },
+    {
+     "slug": "independents-pass-lvmh",
+     "tag": "Secondary"
+    }
+   ]
+  }
  }
 }
