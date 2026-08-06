@@ -23412,5 +23412,681 @@
     }
    ]
   }
+ },
+ "silver-alone-in-the-red": {
+  "strip": {
+   "cap": "By the numbers · Kitco spot, 6:03am New York",
+   "cells": [
+    {
+     "fig": "$4,270.90",
+     "delta": "▲ +0.58%",
+     "dir": "up",
+     "lab": "gold, fourth session up"
+    },
+    {
+     "fig": "$61.67",
+     "delta": "▼ −0.41%",
+     "dir": "down",
+     "lab": "silver, alone in the red"
+    },
+    {
+     "fig": "$1,753.00",
+     "delta": "▲ +1.33%",
+     "dir": "up",
+     "lab": "platinum"
+    },
+    {
+     "fig": "$1,367.00",
+     "delta": "▲ +1.48%",
+     "dir": "up",
+     "lab": "palladium"
+    },
+    {
+     "fig": "69.3",
+     "lab": "gold to silver ratio, from 67.8"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Session change by metal · 6 August 2026",
+    "rows": [
+     {
+      "l": "PALLADIUM",
+      "v": 1.48,
+      "d": "+1.48%"
+     },
+     {
+      "l": "PLATINUM",
+      "v": 1.33,
+      "d": "+1.33%"
+     },
+     {
+      "l": "GOLD",
+      "v": 0.58,
+      "d": "+0.58%"
+     },
+     {
+      "l": "SILVER",
+      "v": -0.41,
+      "d": "−0.41%",
+      "hi": true
+     }
+    ],
+    "note": "Per cent against Wednesday's close. Kitco spot, 6:03am New York, 6 August 2026.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/184"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "A seven-week high, and the leader turns.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "The gram, and the platinum ratio.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "Silver has been the engine of this rally all week, and on Thursday it was the only metal in the red.",
+     "attr": "The Gold & Metals Desk"
+    }
+   },
+   {
+    "sub": "Two marks, and one release.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Four metals, third session: gold $4,157.80",
+     "href": "a-four-metals-third-session.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "a rally that loses its fastest metal first is a rally in its late innings"
+  },
+  "next": {
+   "lead": {
+    "slug": "alrosa-books-the-loss",
+    "tag": "Diamonds",
+    "blurb": "The largest rough producer by volume swung to a half-year loss."
+   },
+   "minis": [
+    {
+     "slug": "four-metals-third-session",
+     "tag": "Metals"
+    },
+    {
+     "slug": "gold-waits-on-payrolls",
+     "tag": "The Fed"
+    }
+   ]
+  }
+ },
+ "alrosa-books-the-loss": {
+  "strip": {
+   "cap": "By the numbers · Alrosa, first half 2026",
+   "cells": [
+    {
+     "fig": "$932.5M",
+     "delta": "▼ −36%",
+     "dir": "down",
+     "lab": "revenue, half year"
+    },
+    {
+     "fig": "−$134.1M",
+     "dir": "down",
+     "lab": "net loss, from +$490.1M"
+    },
+    {
+     "fig": "$873.4M",
+     "delta": "▼ −20%",
+     "dir": "down",
+     "lab": "cost of sales"
+    },
+    {
+     "fig": "25–26Mct",
+     "delta": "▼ −14%",
+     "dir": "down",
+     "lab": "2026 guidance, set Dec 2025"
+    },
+    {
+     "fig": "~10%",
+     "lab": "Russian output at Severalmaz, suspended"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Alrosa first half, year-on-year change",
+    "rows": [
+     {
+      "l": "REVENUE",
+      "v": -36,
+      "d": "−36%",
+      "hi": true
+     },
+     {
+      "l": "COST OF SALES",
+      "v": -20,
+      "d": "−20%"
+     },
+     {
+      "l": "2026 OUTPUT GUIDANCE",
+      "v": -14,
+      "d": "−14%"
+     }
+    ],
+    "note": "Per cent year on year. Half-year accounts as reported; guidance set December 2025.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/185"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Revenue fell twice as fast as cost.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "A disposal flattered the base.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "Care and maintenance is not a closure and it is not a pause in the Venetia sense.",
+     "attr": "The Diamonds Desk"
+    }
+   },
+   {
+    "sub": "Care and maintenance, not closure.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "De Beers narrows the loss, and the price",
+     "href": "a-de-beers-narrows-the-loss.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "the two largest rough producers in the world are both shrinking on purpose"
+  },
+  "next": {
+   "lead": {
+    "slug": "silver-alone-in-the-red",
+    "tag": "Metals",
+    "blurb": "Gold made a seven-week high and silver turned red beneath it."
+   },
+   "minis": [
+    {
+     "slug": "de-beers-narrows-the-loss",
+     "tag": "De Beers"
+    },
+    {
+     "slug": "the-one-carat-stops-falling",
+     "tag": "Polished"
+    }
+   ]
+  }
+ },
+ "tiffany-goes-to-blue-nile": {
+  "strip": {
+   "cap": "By the numbers · Blue Nile",
+   "cells": [
+    {
+     "fig": "10 Aug",
+     "lab": "Cloud starts as president"
+    },
+    {
+     "fig": "25+ yrs",
+     "lab": "at Tiffany and Co."
+    },
+    {
+     "fig": "30+ yrs",
+     "lab": "in luxury retail"
+    },
+    {
+     "fig": "$360M",
+     "lab": "Signet's 2022 purchase price"
+    },
+    {
+     "fig": "15 Aug",
+     "lab": "Pandora's new president starts"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Two senior seats filled in one week",
+    "rows": [
+     {
+      "l": "BLUE NILE · MERCHANT HIRE",
+      "v": 25,
+      "d": "25+ yrs in jewellery",
+      "hi": true
+     },
+     {
+      "l": "PANDORA NA · MARKETER HIRE",
+      "v": 0,
+      "d": "none in jewellery"
+     }
+    ],
+    "note": "Years of category experience in the appointee's background. Company statements, 4–5 August 2026.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/186"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "A merchant, not a marketer.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "The instinct that won.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "A merchant's instinct is to edit the offer down; a marketplace's instinct is to widen it.",
+     "attr": "The Retail Desk"
+    }
+   },
+   {
+    "sub": "The opposite bet, one week apart.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Six months empty: Pandora hands North America to a beauty CEO",
+     "href": "a-pandora-fills-the-seat.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "two of the largest jewellery groups in the West have just made opposite bets on what the job now requires"
+  },
+  "next": {
+   "lead": {
+    "slug": "sixty-seven-percent-asked-a-chatbot",
+    "tag": "Consumer",
+    "blurb": "Two thirds of American shoppers now consult a model before buying."
+   },
+   "minis": [
+    {
+     "slug": "pandora-fills-the-seat",
+     "tag": "Pandora"
+    },
+    {
+     "slug": "eighty-percent-to-the-consumer",
+     "tag": "Marketing"
+    }
+   ]
+  }
+ },
+ "bnpl-inside-the-perimeter": {
+  "strip": {
+   "cap": "By the numbers · UK deferred payment credit",
+   "cells": [
+    {
+     "fig": "15 July",
+     "lab": "regulation day"
+    },
+    {
+     "fig": "£13B+",
+     "lab": "transaction value, 2024"
+    },
+    {
+     "fig": "£60M",
+     "lab": "transaction value, 2017"
+    },
+    {
+     "fig": "~11M",
+     "lab": "British users"
+    },
+    {
+     "fig": "6 months",
+     "lab": "to apply for full authorisation"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "UK buy-now-pay-later transaction value",
+    "rows": [
+     {
+      "l": "2024",
+      "v": 13000,
+      "d": "£13bn+",
+      "hi": true
+     },
+     {
+      "l": "2017",
+      "v": 60,
+      "d": "£60m"
+     }
+    ],
+    "note": "Millions of pounds of transaction value. Financial Conduct Authority.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/187"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Three weeks old, and not yet noticed.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Why the regulator moved.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "That is a consumer credit market the size of a mid-tier bank that grew for seven years with no affordability rules, no disclosure standard and no route of complaint.",
+     "attr": "The Retail Desk"
+    }
+   },
+   {
+    "sub": "What the rules actually require.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "A dollar battery and a fifteen dollar job",
+     "href": "a-dollar-battery-fifteen-dollar-job.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "the useful question is not compliance but conversion"
+  },
+  "next": {
+   "lead": {
+    "slug": "nine-thirty-four-for-one-seventeen",
+    "tag": "Property",
+    "blurb": "117 mall anchors are changing hands at $59 a square foot."
+   },
+   "minis": [
+    {
+     "slug": "shoplifting-down-fraud-up",
+     "tag": "Loss"
+    },
+    {
+     "slug": "the-storefront-that-isnt",
+     "tag": "Retail"
+    }
+   ]
+  }
+ },
+ "nine-thirty-four-for-one-seventeen": {
+  "strip": {
+   "cap": "By the numbers · Onyx Partners bid",
+   "cells": [
+    {
+     "fig": "$934M",
+     "lab": "offer for 117 stores"
+    },
+    {
+     "fig": "$947M",
+     "lab": "December bid, rejected"
+    },
+    {
+     "fig": "15.7M",
+     "lab": "square feet, 35 states"
+    },
+    {
+     "fig": "~$8M",
+     "lab": "implied price a store"
+    },
+    {
+     "fig": "25 Sept",
+     "lab": "target close"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "J.C. Penney portfolio bids",
+    "rows": [
+     {
+      "l": "DECEMBER 2025 · REJECTED",
+      "v": 947,
+      "d": "$947m"
+     },
+     {
+      "l": "AUGUST 2026 · PENDING",
+      "v": 934,
+      "d": "$934m",
+      "hi": true
+     }
+    ],
+    "note": "Millions of dollars offered for 117 stores. Copper Property CTL Pass Through Trust process.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/188"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "A second run at the estate.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "A seller with a clock.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "A trust with a liquidation mandate is a seller with a clock.",
+     "attr": "The Retail Desk"
+    }
+   },
+   {
+    "sub": "Land pricing, not retail pricing.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "The storefront that isn't",
+     "href": "a-the-storefront-that-isnt.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "the mall jewellery counter's economics were never set by the jeweller"
+  },
+  "next": {
+   "lead": {
+    "slug": "tiffany-goes-to-blue-nile",
+    "tag": "People",
+    "blurb": "Signet hands Blue Nile to a Tiffany merchandising veteran."
+   },
+   "minis": [
+    {
+     "slug": "michael-hill-adds-two",
+     "tag": "Stores"
+    },
+    {
+     "slug": "the-storefront-that-isnt",
+     "tag": "Retail"
+    }
+   ]
+  }
+ },
+ "sixty-seven-percent-asked-a-chatbot": {
+  "strip": {
+   "cap": "By the numbers · Attentive, 600 US adults",
+   "cells": [
+    {
+     "fig": "67%",
+     "lab": "used an AI chatbot to shop"
+    },
+    {
+     "fig": "80%",
+     "lab": "of Gen Z respondents"
+    },
+    {
+     "fig": "51%",
+     "lab": "used it to compare brands"
+    },
+    {
+     "fig": "71%",
+     "lab": "start buying before Black Friday"
+    },
+    {
+     "fig": "62%",
+     "lab": "plan purchases before November"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Where the holiday season now starts",
+    "rows": [
+     {
+      "l": "START BUYING BEFORE BLACK FRIDAY",
+      "v": 71,
+      "d": "71%",
+      "hi": true
+     },
+     {
+      "l": "USED AN AI CHATBOT TO SHOP",
+      "v": 67,
+      "d": "67%"
+     },
+     {
+      "l": "PLAN PURCHASES BEFORE NOVEMBER",
+      "v": 62,
+      "d": "62%"
+     },
+     {
+      "l": "BEGIN SHOPPING BEFORE NOVEMBER",
+      "v": 46,
+      "d": "46%"
+     }
+    ],
+    "note": "Per cent of 600 US adults surveyed online. Attentive holiday research, August 2026.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/189"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Two thirds asked a machine.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "The calendar moves to October.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "A jewellery business that treats the season as a five-week sprint from the last Friday in November is now planning for a window in which most of the intent has already formed and a substantial share of the money has already been committed.",
+     "attr": "The Retail Desk"
+    }
+   },
+   {
+    "sub": "Consultation is not conversion.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Eighty percent to the consumer: the NDC changes the subject",
+     "href": "a-eighty-percent-to-the-consumer.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "the gift search has left the search box"
+  },
+  "next": {
+   "lead": {
+    "slug": "bnpl-inside-the-perimeter",
+    "tag": "Finance",
+    "blurb": "Britain's instalment-credit market came under FCA supervision on 15 July."
+   },
+   "minis": [
+    {
+     "slug": "eighty-percent-to-the-consumer",
+     "tag": "Marketing"
+    },
+    {
+     "slug": "tiffany-goes-to-blue-nile",
+     "tag": "People"
+    }
+   ]
+  }
  }
 }
