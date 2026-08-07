@@ -24088,5 +24088,696 @@
     }
    ]
   }
+ },
+ "fifteen-years-no-tax": {
+  "strip": {
+   "cap": "By the numbers · Taxation and Other Laws (Amendment) Bill, 2026",
+   "cells": [
+    {
+     "fig": "15 yrs",
+     "lab": "proposed income-tax exemption"
+    },
+    {
+     "fig": "1 Oct 2026",
+     "lab": "start, to 31 Mar 2041"
+    },
+    {
+     "fig": "1.25%",
+     "lab": "current safe harbour, of gross revenue"
+    },
+    {
+     "fig": "~33%",
+     "lab": "corporate rate if safe harbour not elected"
+    },
+    {
+     "fig": "2",
+     "lab": "Special Notified Zones: Mumbai, Surat"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "What a foreign rough seller pays in an Indian notified zone",
+    "rows": [
+     {
+      "l": "CORPORATE RATE, ON PROFIT",
+      "v": 33,
+      "d": "up to ~33%"
+     },
+     {
+      "l": "SAFE HARBOUR, ON REVENUE",
+      "v": 1.25,
+      "d": "1.25%"
+     },
+     {
+      "l": "PROPOSED, FROM 1 OCT 2026",
+      "v": 0,
+      "d": "nil",
+      "hi": true
+     }
+    ],
+    "note": "Per cent. Existing regime against the exemption proposed in the Bill passed by the Lok Sabha, 6 August 2026.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/188"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Fifteen years, two bourses.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "The arithmetic it removes.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "Zero for fifteen years removes the calculation rather than lowering it.",
+     "attr": "The Diamonds Desk"
+    }
+   },
+   {
+    "sub": "Cleared one house of two.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Zero for Antwerp: the tariff line that moved",
+     "href": "a-zero-for-antwerp.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "the cheapest thing a government can give a diamond trade is certainty about where the paperwork happens"
+  },
+  "next": {
+   "lead": {
+    "slug": "every-metal-runs-before-payrolls",
+    "tag": "Metals",
+    "blurb": "Gold $4,314.50 and silver up 4.71% into an 8:30am payrolls print."
+   },
+   "minis": [
+    {
+     "slug": "the-tender-ladder",
+     "tag": "Rough"
+    },
+    {
+     "slug": "dubai-41-billion-year",
+     "tag": "Dubai"
+    }
+   ]
+  }
+ },
+ "every-metal-runs-before-payrolls": {
+  "strip": {
+   "cap": "By the numbers · Kitco spot, 5:58am New York",
+   "cells": [
+    {
+     "fig": "$4,314.50",
+     "delta": "▲ +1.77%",
+     "dir": "up",
+     "lab": "gold, fifth session up"
+    },
+    {
+     "fig": "$64.29",
+     "delta": "▲ +4.71%",
+     "dir": "up",
+     "lab": "silver, largest move"
+    },
+    {
+     "fig": "$1,772.00",
+     "delta": "▲ +3.14%",
+     "dir": "up",
+     "lab": "platinum"
+    },
+    {
+     "fig": "$1,382.00",
+     "delta": "▲ +2.14%",
+     "dir": "up",
+     "lab": "palladium"
+    },
+    {
+     "fig": "67.1",
+     "lab": "gold to silver ratio, from 69.3"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Session change by metal · 7 August 2026",
+    "rows": [
+     {
+      "l": "SILVER",
+      "v": 4.71,
+      "d": "+4.71%",
+      "hi": true
+     },
+     {
+      "l": "PLATINUM",
+      "v": 3.14,
+      "d": "+3.14%"
+     },
+     {
+      "l": "PALLADIUM",
+      "v": 2.14,
+      "d": "+2.14%"
+     },
+     {
+      "l": "GOLD",
+      "v": 1.77,
+      "d": "+1.77%"
+     }
+    ],
+    "note": "Per cent against Thursday's close. Kitco spot, 5:58am New York, 7 August 2026.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/189"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Five sessions up, and the leader returns.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "A route and a jobs number.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "The honest reading is that one red session in silver was noise rather than a turn.",
+     "attr": "The Gold & Metals Desk"
+    }
+   },
+   {
+    "sub": "Two marks, and a retail spread.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "$4,270.90, a seven-week high, and silver alone in the red",
+     "href": "a-silver-alone-in-the-red.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "a rally where the leader comes back after one down session is a rally with money still arriving"
+  },
+  "next": {
+   "lead": {
+    "slug": "fifteen-years-no-tax",
+    "tag": "Diamonds",
+    "blurb": "India offers foreign rough sellers fifteen years without income tax."
+   },
+   "minis": [
+    {
+     "slug": "silver-alone-in-the-red",
+     "tag": "Metals"
+    },
+    {
+     "slug": "the-fourteen-percent-that-isnt",
+     "tag": "Platinum"
+    }
+   ]
+  }
+ },
+ "one-thirty-two-against-three-thirty-nine": {
+  "strip": {
+   "cap": "By the numbers · China Gold Association, first half 2026",
+   "cells": [
+    {
+     "fig": "132.13t",
+     "delta": "▼ −33.88%",
+     "dir": "down",
+     "lab": "gold jewellery"
+    },
+    {
+     "fig": "339.34t",
+     "delta": "▲ +28.42%",
+     "dir": "up",
+     "lab": "bars and coins"
+    },
+    {
+     "fig": "511.41t",
+     "delta": "▲ +1.23%",
+     "dir": "up",
+     "lab": "total consumption"
+    },
+    {
+     "fig": "~136t",
+     "lab": "same half, World Gold Council"
+    },
+    {
+     "fig": "2.6×",
+     "lab": "bars and coins over jewellery"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "China, first half 2026 · year-on-year change",
+    "rows": [
+     {
+      "l": "BARS AND COINS",
+      "v": 28.42,
+      "d": "+28.42%"
+     },
+     {
+      "l": "TOTAL CONSUMPTION",
+      "v": 1.23,
+      "d": "+1.23%"
+     },
+     {
+      "l": "GOLD JEWELLERY",
+      "v": -33.88,
+      "d": "−33.88%",
+      "hi": true
+     }
+    ],
+    "note": "Per cent year on year. China Gold Association half-year figures, published 6-7 August 2026.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/190"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "More gold, far less jewellery.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Two authorities, four tonnes apart.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "Investment metal is now two and a half times the jewellery figure in the world's largest jewellery market.",
+     "attr": "The Gold & Metals Desk"
+    }
+   },
+   {
+    "sub": "Why the value line hides it.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "China's gold counter falls to its lowest since 2004",
+     "href": "a-china-lowest-since-2004.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "Gold is winning and jewellery is losing, in the same market, at the same time"
+  },
+  "next": {
+   "lead": {
+    "slug": "every-metal-runs-before-payrolls",
+    "tag": "Metals",
+    "blurb": "Gold $4,314.50 and silver up 4.71% into an 8:30am payrolls print."
+   },
+   "minis": [
+    {
+     "slug": "china-lowest-since-2004",
+     "tag": "China"
+    },
+    {
+     "slug": "india-buys-fifteen-percent-less",
+     "tag": "India"
+    }
+   ]
+  }
+ },
+ "twenty-two-thirty-eight-an-order": {
+  "strip": {
+   "cap": "By the numbers · Brilliant Earth, second quarter 2026",
+   "cells": [
+    {
+     "fig": "$115.1M",
+     "delta": "▲ +6%",
+     "dir": "up",
+     "lab": "revenue"
+    },
+    {
+     "fig": "$2,238",
+     "delta": "▲ +8%",
+     "dir": "up",
+     "lab": "average order value"
+    },
+    {
+     "fig": "−2.1%",
+     "dir": "down",
+     "lab": "total orders"
+    },
+    {
+     "fig": "57.9%",
+     "delta": "▲ +360bps",
+     "dir": "up",
+     "lab": "gross margin, sequential"
+    },
+    {
+     "fig": "$459–462M",
+     "lab": "full-year guidance, raised"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Brilliant Earth Q2 2026 · year-on-year change",
+    "rows": [
+     {
+      "l": "FINE JEWELLERY BOOKINGS",
+      "v": 32,
+      "d": "+32%",
+      "hi": true
+     },
+     {
+      "l": "AVERAGE ORDER VALUE",
+      "v": 8,
+      "d": "+8%"
+     },
+     {
+      "l": "REVENUE",
+      "v": 6,
+      "d": "+6%"
+     },
+     {
+      "l": "TOTAL ORDERS",
+      "v": -2.1,
+      "d": "−2.1%"
+     }
+    ],
+    "note": "Per cent year on year. Company results, 6 August 2026.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/191"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Fewer orders, higher tickets.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "A negative order count, examined.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "An eight percent rise in ticket against a two percent fall in orders is a business trading down its unit count deliberately and being paid for it.",
+     "attr": "The Retail Desk"
+    }
+   },
+   {
+    "sub": "The same trade, made online.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "100 watches for 20 years: Brilliant Earth walks into horology",
+     "href": "a-brilliant-earth-100-watches.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "raising annual guidance on a quarter with fewer orders is a bet that the high-ticket customer stays"
+  },
+  "next": {
+   "lead": {
+    "slug": "twenty-nine-ninety-nine-at-the-counter",
+    "tag": "Retail",
+    "blurb": "Lab-grown studs arrive at a $29.99 mall piercing counter."
+   },
+   "minis": [
+    {
+     "slug": "tiffany-goes-to-blue-nile",
+     "tag": "People"
+    },
+    {
+     "slug": "eighty-percent-to-the-consumer",
+     "tag": "Marketing"
+    }
+   ]
+  }
+ },
+ "the-fourteen-percent-that-isnt": {
+  "strip": {
+   "cap": "By the numbers · WPIC platinum jewellery outlook",
+   "cells": [
+    {
+     "fig": "−14%",
+     "dir": "down",
+     "lab": "China 2026, as published"
+    },
+    {
+     "fig": "−6%",
+     "dir": "down",
+     "lab": "global platinum jewellery 2026"
+    },
+    {
+     "fig": "297koz",
+     "lab": "forecast 2026 market deficit"
+    },
+    {
+     "fig": "$1,772.00",
+     "delta": "▲ +3.14%",
+     "dir": "up",
+     "lab": "platinum spot, 7 August"
+    },
+    {
+     "fig": "41.1%",
+     "lab": "platinum as share of gold"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Platinum jewellery 2026 forecast against the spot session",
+    "rows": [
+     {
+      "l": "SPOT, 7 AUGUST SESSION",
+      "v": 3.14,
+      "d": "+3.14%"
+     },
+     {
+      "l": "GLOBAL JEWELLERY, 2026",
+      "v": -6,
+      "d": "−6%"
+     },
+     {
+      "l": "CHINA JEWELLERY, 2026",
+      "v": -14,
+      "d": "−14%",
+      "hi": true
+     }
+    ],
+    "note": "Per cent. WPIC forecasts against Kitco spot change, 5:58am New York, 7 August 2026.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/192"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "A base effect, not a fall.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "What the distinction decides.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "The underlying trend in China is growth. The published headline is a base effect.",
+     "attr": "The Gold & Metals Desk"
+    }
+   },
+   {
+    "sub": "A deficit the price is watching.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Platinum adds 1.7%, gold slips: the white metals lead again",
+     "href": "a-platinum-adds-one-seven.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "read WPIC's own footnote before quoting WPIC's own headline"
+  },
+  "next": {
+   "lead": {
+    "slug": "every-metal-runs-before-payrolls",
+    "tag": "Metals",
+    "blurb": "Gold $4,314.50 and silver up 4.71% into an 8:30am payrolls print."
+   },
+   "minis": [
+    {
+     "slug": "platinum-loses-its-teacher",
+     "tag": "Platinum"
+    },
+    {
+     "slug": "one-thirty-two-against-three-thirty-nine",
+     "tag": "China"
+    }
+   ]
+  }
+ },
+ "twenty-nine-ninety-nine-at-the-counter": {
+  "strip": {
+   "cap": "By the numbers · Claire's piercing relaunch",
+   "cells": [
+    {
+     "fig": "$29.99",
+     "lab": "kits start, piercing free"
+    },
+    {
+     "fig": "0.10ct",
+     "lab": "total weight, lab-grown studs"
+    },
+    {
+     "fig": "14kt",
+     "lab": "white gold setting"
+    },
+    {
+     "fig": "2nd",
+     "lab": "piercing overhaul in three years"
+    },
+    {
+     "fig": "US + CA",
+     "lab": "rollout from August 2026"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Where the starter stud sits",
+    "rows": [
+     {
+      "l": "CLAIRE'S LAB-GROWN KIT",
+      "v": 29.99,
+      "d": "$29.99 with piercing",
+      "hi": true
+     }
+    ],
+    "note": "Advertised entry price for a piercing kit, Claire's United States, August 2026.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/193"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "A mall chair, and a grown stone.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Why the price point is the story.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "Nobody buying at $29.99 is comparing certificates.",
+     "attr": "The Retail Desk"
+    }
+   },
+   {
+    "sub": "The tier-down, from the other end.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Lab-grown finds its floor",
+     "href": "a-lab-grown-finds-its-floor.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "the trade should stop treating each new lab-grown price floor as a natural diamond story"
+  },
+  "next": {
+   "lead": {
+    "slug": "twenty-two-thirty-eight-an-order",
+    "tag": "Retail",
+    "blurb": "Brilliant Earth turns a profit on fewer orders and a bigger ticket."
+   },
+   "minis": [
+    {
+     "slug": "sixty-one-percent-said-lab",
+     "tag": "Lab-grown"
+    },
+    {
+     "slug": "seventy-three-percent-cheaper",
+     "tag": "Price"
+    }
+   ]
+  }
  }
 }
