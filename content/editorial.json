@@ -24779,5 +24779,712 @@
     }
    ]
   }
+ },
+ "the-hundred-six-thousand-miss": {
+  "strip": {
+   "cap": "By the numbers · US July employment and the Friday close",
+   "cells": [
+    {
+     "fig": "−23,000",
+     "delta": "▼",
+     "dir": "down",
+     "lab": "July payrolls, against ~+83,000 expected"
+    },
+    {
+     "fig": "61.4%",
+     "delta": "▼",
+     "dir": "down",
+     "lab": "participation, five-year low"
+    },
+    {
+     "fig": "$4,341.30",
+     "delta": "▲ +2.41%",
+     "dir": "up",
+     "lab": "gold, Kitco 5pm close"
+    },
+    {
+     "fig": "46%",
+     "delta": "▼ from 55%",
+     "dir": "down",
+     "lab": "September hike odds, CME FedWatch"
+    },
+    {
+     "fig": "$139.58",
+     "lab": "fine gold, a gram"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "US non-farm payrolls · thousands of jobs",
+    "rows": [
+     {
+      "l": "JULY, CONSENSUS",
+      "v": 83,
+      "d": "+83,000"
+     },
+     {
+      "l": "JUNE, REVISED",
+      "v": -20,
+      "d": "−20,000"
+     },
+     {
+      "l": "JULY, ACTUAL",
+      "v": -23,
+      "d": "−23,000",
+      "hi": true
+     }
+    ],
+    "note": "Thousands of jobs. Bureau of Labor Statistics release, 7 August 2026, as reported; the BLS release page returned 403 to this desk.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/194"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "A negative month, and a five-year low.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "What it did to the rate path.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "A miss of 106,000 jobs is not a soft month; it is a different labour market.",
+     "attr": "The Gold & Metals Desk"
+    }
+   },
+   {
+    "sub": "The cost, priced by the gram.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "$4,314.50 and silver up 4.71%: every metal runs before payrolls",
+     "href": "a-every-metal-runs-before-payrolls.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "a jeweller cannot hedge a payrolls print, but can hedge a gram"
+  },
+  "next": {
+   "lead": {
+    "slug": "gold-kept-it-the-rest-gave-it-back",
+    "tag": "Metals",
+    "blurb": "Gold added $26.80 after the morning mark; platinum gave back $29.00."
+   },
+   "minis": [
+    {
+     "slug": "every-metal-runs-before-payrolls",
+     "tag": "Metals"
+    },
+    {
+     "slug": "silver-alone-in-the-red",
+     "tag": "Silver"
+    }
+   ]
+  }
+ },
+ "gold-kept-it-the-rest-gave-it-back": {
+  "strip": {
+   "cap": "By the numbers · 5:58am mark against the 5:00pm close, 7 August",
+   "cells": [
+    {
+     "fig": "+$26.80",
+     "delta": "▲",
+     "dir": "up",
+     "lab": "gold, added after the mark"
+    },
+    {
+     "fig": "−$29.00",
+     "delta": "▼",
+     "dir": "down",
+     "lab": "platinum, given back"
+    },
+    {
+     "fig": "−$25.00",
+     "delta": "▼",
+     "dir": "down",
+     "lab": "palladium, given back"
+    },
+    {
+     "fig": "−$0.83",
+     "delta": "▼",
+     "dir": "down",
+     "lab": "silver, given back"
+    },
+    {
+     "fig": "68.41",
+     "lab": "gold to silver at the close, from 67.11"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Change between the morning mark and the close · percentage points",
+    "rows": [
+     {
+      "l": "GOLD",
+      "v": 0.64,
+      "d": "+0.64 pts"
+     },
+     {
+      "l": "SILVER",
+      "v": -1.35,
+      "d": "−1.35 pts"
+     },
+     {
+      "l": "PLATINUM",
+      "v": -1.68,
+      "d": "−1.68 pts"
+     },
+     {
+      "l": "PALLADIUM",
+      "v": -1.84,
+      "d": "−1.84 pts",
+      "hi": true
+     }
+    ],
+    "note": "Session percentage change at 5:58am against session percentage change at the 5:00pm close. Kitco spot, 7 August 2026.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/195"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Two marks, eleven hours apart.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "The split, in percentage points.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "One number was bought in gold and sold in the white metals, in the same session",
+     "attr": "The Gold & Metals Desk"
+    }
+   },
+   {
+    "sub": "Three sessions, one metal.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Silver alone in the red",
+     "href": "a-silver-alone-in-the-red.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "a rally the industrial metals will not follow is a monetary rally"
+  },
+  "next": {
+   "lead": {
+    "slug": "the-hundred-six-thousand-miss",
+    "tag": "Metals",
+    "blurb": "Payrolls fell 23,000 against a consensus of 83,000, and gold closed at $4,341.30."
+   },
+   "minis": [
+    {
+     "slug": "platinum-adds-one-seven",
+     "tag": "Platinum"
+    },
+    {
+     "slug": "three-metals-one-direction",
+     "tag": "Tape"
+    }
+   ]
+  }
+ },
+ "thirteen-thousand-for-costume": {
+  "strip": {
+   "cap": "By the numbers · Bonhams Chanel series, September 2026",
+   "cells": [
+    {
+     "fig": "3",
+     "lab": "sales: New York, Paris, London"
+    },
+    {
+     "fig": "~400",
+     "lab": "lots, Paris edition"
+    },
+    {
+     "fig": "$13–20k",
+     "lab": "Goossens bangle, circa 1960"
+    },
+    {
+     "fig": "£2–3k",
+     "lab": "18kt and diamond Comète earrings, 2024"
+    },
+    {
+     "fig": "17 Aug",
+     "lab": "New York highlights on view"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "High estimate by lot · Bonhams Chanel series (USD)",
+    "rows": [
+     {
+      "l": "MINAUDIÈRE, NEW YORK",
+      "v": 30000,
+      "d": "$30,000"
+     },
+     {
+      "l": "GOOSSENS BANGLE, LONDON",
+      "v": 20000,
+      "d": "$20,000",
+      "hi": true
+     },
+     {
+      "l": "COMÈTE GÉODE EARRINGS, LONDON",
+      "v": 4040,
+      "d": "~$4,040"
+     },
+     {
+      "l": "TWEED JACKET, PARIS",
+      "v": 3460,
+      "d": "~$3,460"
+     },
+     {
+      "l": "LAGERFELD BROOCH, PARIS",
+      "v": 1040,
+      "d": "~$1,040"
+     }
+    ],
+    "note": "Upper estimate as published, euro and sterling converted at the rates given by the house. JCK, 7 August 2026.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/196"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Three cities, one name.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Where the jewellery sits.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "A signed 1960 costume bangle carries roughly five times the estimate of 2024 gold and diamonds.",
+     "attr": "The Auctions Desk"
+    }
+   },
+   {
+    "sub": "Priced as volume, not trophy.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Piaget doubles at Bonhams",
+     "href": "a-piaget-doubles-at-bonhams.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "the signature is the material"
+  },
+  "next": {
+   "lead": {
+    "slug": "twenty-nine-said-diamond",
+    "tag": "Retail",
+    "blurb": "1,507 buyers in Hong Kong put diamond first and fashion jewellery ahead of it."
+   },
+   "minis": [
+    {
+     "slug": "seventy-three-lots-over-a-million",
+     "tag": "Auctions"
+    },
+    {
+     "slug": "joopiter-keeping-measure",
+     "tag": "Auctions"
+    }
+   ]
+  }
+ },
+ "twenty-nine-said-diamond": {
+  "strip": {
+   "cap": "By the numbers · HKTDC survey, 1,507 buyers and exhibitors",
+   "cells": [
+    {
+     "fig": "29%",
+     "lab": "diamond, most in demand"
+    },
+    {
+     "fig": "25%",
+     "lab": "ruby"
+    },
+    {
+     "fig": "20%",
+     "lab": "pearl"
+    },
+    {
+     "fig": "57%",
+     "lab": "trendy fashion jewellery, growth potential"
+    },
+    {
+     "fig": "40%",
+     "lab": "yellow gold, preferred metal"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Most in-demand stone · HKTDC survey, twin Hong Kong shows",
+    "rows": [
+     {
+      "l": "DIAMOND",
+      "v": 29,
+      "d": "29%",
+      "hi": true
+     },
+     {
+      "l": "RUBY",
+      "v": 25,
+      "d": "25%"
+     },
+     {
+      "l": "PEARL",
+      "v": 20,
+      "d": "20%"
+     }
+    ],
+    "note": "Per cent of 1,507 buyers and exhibitors surveyed at the two shows, 29 July to 2 August 2026. HKTDC via Rapaport.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/197"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "The demand question.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "The growth question.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "The stone they are asked about and the product they expect to sell are not the same thing",
+     "attr": "The Retail Desk"
+    }
+   },
+   {
+    "sub": "The metal, and the horizon.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Hong Kong jewellery posts a fourteen-month high",
+     "href": "a-hong-kong-fourteen-months.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "demand surveys measure what a buyer admires; order books measure what a buyer risks"
+  },
+  "next": {
+   "lead": {
+    "slug": "the-fifteen-hundred-line",
+    "tag": "Retail",
+    "blurb": "US jewellery value rose 8.6% on a unit count that fell about 9%."
+   },
+   "minis": [
+    {
+     "slug": "hong-kong-fourteen-months",
+     "tag": "Hong Kong"
+    },
+    {
+     "slug": "one-thirty-two-against-three-thirty-nine",
+     "tag": "China"
+    }
+   ]
+  }
+ },
+ "the-fifteen-hundred-line": {
+  "strip": {
+   "cap": "By the numbers · US jewellery, first half 2026 (Tenoris)",
+   "cells": [
+    {
+     "fig": "+8.6%",
+     "delta": "▲",
+     "dir": "up",
+     "lab": "sales value, first half"
+    },
+    {
+     "fig": "+19%",
+     "delta": "▲",
+     "dir": "up",
+     "lab": "average purchase price"
+    },
+    {
+     "fig": "≈ −9%",
+     "delta": "▼",
+     "dir": "down",
+     "lab": "units, derived"
+    },
+    {
+     "fig": "+13%",
+     "delta": "▲",
+     "dir": "up",
+     "lab": "June sales, year on year"
+    },
+    {
+     "fig": "$1,500",
+     "lab": "the line below which sales kept falling"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "US jewellery, first half 2026 · per cent year on year",
+    "rows": [
+     {
+      "l": "AVERAGE PURCHASE PRICE",
+      "v": 19,
+      "d": "+19%"
+     },
+     {
+      "l": "SALES VALUE",
+      "v": 8.6,
+      "d": "+8.6%"
+     },
+     {
+      "l": "UNITS (DERIVED)",
+      "v": -9,
+      "d": "≈ −9%",
+      "hi": true
+     }
+    ],
+    "note": "Tenoris figures via JCK, 5 August 2026. The unit change is derived by this desk from the published value and average-price figures, not published as such.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/198"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Dollars up, pieces down.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "The third number nobody printed.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "An eight percent gain in dollars sitting on a nine percent fall in units is not growth",
+     "attr": "The Retail Desk"
+    }
+   },
+   {
+    "sub": "One mechanism, four companies.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "$2,238 an order: Brilliant Earth turns a profit on fewer orders",
+     "href": "a-twenty-two-thirty-eight-an-order.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "the growth is in the ticket, and a ticket can be withdrawn faster than a customer"
+  },
+  "next": {
+   "lead": {
+    "slug": "ninety-six-percent-rebooked",
+    "tag": "Retail",
+    "blurb": "NY Now closed its first edition under new ownership with buyers up 5%."
+   },
+   "minis": [
+    {
+     "slug": "twenty-two-thirty-eight-an-order",
+     "tag": "Retail"
+    },
+    {
+     "slug": "average-ticket-carries-the-half",
+     "tag": "Demand"
+    }
+   ]
+  }
+ },
+ "ninety-six-percent-rebooked": {
+  "strip": {
+   "cap": "By the numbers · NY Now summer market, 2 to 4 August",
+   "cells": [
+    {
+     "fig": "460",
+     "lab": "exhibitors, Javits Center"
+    },
+    {
+     "fig": "+5%",
+     "delta": "▲",
+     "dir": "up",
+     "lab": "buyer attendance, year on year"
+    },
+    {
+     "fig": "96%",
+     "lab": "renewal rate, winter 2027"
+    },
+    {
+     "fig": "107",
+     "lab": "prospective exhibitors walking the floor"
+    },
+    {
+     "fig": "31 Jan",
+     "lab": "winter 2027 market opens"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "NY Now summer 2026 · exhibitors and prospects",
+    "rows": [
+     {
+      "l": "EXHIBITORS ON THE FLOOR",
+      "v": 460,
+      "d": "460",
+      "hi": true
+     },
+     {
+      "l": "PROSPECTIVE EXHIBITORS VISITING",
+      "v": 107,
+      "d": "107"
+     },
+     {
+      "l": "NEW OR RETURNING",
+      "v": 70,
+      "d": "70+"
+     }
+    ],
+    "note": "Counts as reported by the organisers. Gifts & Decorative Accessories, 5 August 2026.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/199"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "A show that finished ahead.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "The number that carries cash.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "A 96% renewal is a harder number than an attendance figure, because it is paid.",
+     "attr": "The Retail Desk"
+    }
+   },
+   {
+    "sub": "New owner, first disclosure.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "NY Now opens today",
+     "href": "a-ny-now-opens-today.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "a renewal rate is the only trade-show statistic a buyer should trust"
+  },
+  "next": {
+   "lead": {
+    "slug": "the-hundred-six-thousand-miss",
+    "tag": "Metals",
+    "blurb": "Payrolls fell 23,000 and gold closed the week at $4,341.30."
+   },
+   "minis": [
+    {
+     "slug": "ny-now-opens-today",
+     "tag": "Trade Shows"
+    },
+    {
+     "slug": "thirteen-hundred-brands-and-a-centenary",
+     "tag": "Trade Shows"
+    }
+   ]
+  }
  }
 }
