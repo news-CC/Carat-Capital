@@ -25489,5 +25489,723 @@
     }
    ]
   }
+ },
+ "four-times-melt": {
+  "strip": {
+   "cap": "By the numbers · Cuckoo Cuckoo egg, Batemans, 1 August",
+   "cells": [
+    {
+     "fig": "£123,500",
+     "lab": "hammer, a world record for the type"
+    },
+    {
+     "fig": "$166,600",
+     "lab": "in dollars"
+    },
+    {
+     "fig": "≈6×",
+     "delta": "▲",
+     "dir": "up",
+     "lab": "pre-sale estimate"
+    },
+    {
+     "fig": "323.6 g",
+     "lab": "22-carat gold, per the catalogue"
+    },
+    {
+     "fig": "≈$41,400",
+     "lab": "metal value, derived by this desk"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "The Cuckoo Cuckoo egg · price against metal, US dollars",
+    "rows": [
+     {
+      "l": "SALE PRICE",
+      "v": 166600,
+      "d": "$166,600",
+      "hi": true
+     },
+     {
+      "l": "METAL VALUE (DERIVED)",
+      "v": 41404,
+      "d": "≈$41,400"
+     }
+    ],
+    "note": "Sale price per Forbes, 8 August 2026. Metal value derived by this desk from the catalogued 323.6 grams at 22 carat and gold at $4,341.30 an ounce; not published by any source.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/200"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "A promotional egg sets a jewellery record.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "The maker's name against the melt figure.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "The record is four times the metal. The rest is signature and story",
+     "attr": "The Auctions Desk"
+    }
+   },
+   {
+    "sub": "A desk with almost nothing to price.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "$13,000 for costume, £2,000 for gold: Bonhams runs Chanel in three cities",
+     "href": "a-thirteen-thousand-for-costume.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "the premium here is documentation, not carat weight"
+  },
+  "next": {
+   "lead": {
+    "slug": "six-forty-thousand-ounces",
+    "tag": "Metals",
+    "blurb": "The PBoC added 640,000 ounces in July, its biggest month since 2023."
+   },
+   "minis": [
+    {
+     "slug": "thirteen-thousand-for-costume",
+     "tag": "Auctions"
+    },
+    {
+     "slug": "the-hundred-six-thousand-miss",
+     "tag": "Metals"
+    }
+   ]
+  }
+ },
+ "six-forty-thousand-ounces": {
+  "strip": {
+   "cap": "By the numbers · PBoC gold reserves, July 2026",
+   "cells": [
+    {
+     "fig": "640,000 oz",
+     "delta": "▲",
+     "dir": "up",
+     "lab": "added in July, about 19.9 tonnes"
+    },
+    {
+     "fig": "76.08M oz",
+     "lab": "holdings, roughly 2,366 tonnes"
+    },
+    {
+     "fig": "21",
+     "lab": "consecutive months of buying"
+    },
+    {
+     "fig": "$306.35B",
+     "lab": "value of the gold reserve"
+    },
+    {
+     "fig": "≈8%",
+     "lab": "gold's share of $3.419tn reserves"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Chinese official gold holdings · million troy ounces",
+    "rows": [
+     {
+      "l": "END JULY 2026",
+      "v": 76.08,
+      "d": "76.08M",
+      "hi": true
+     },
+     {
+      "l": "END JUNE 2026",
+      "v": 75.44,
+      "d": "75.44M"
+     }
+    ],
+    "note": "People's Bank of China monthly reserve data, published 7 August 2026. Tonnage conversions are approximate.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/201"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "The biggest month since October 2023.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "A pace that doubled inside a flat market.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "Twenty-one months of buying says the policy is the point, not the price",
+     "attr": "The Gold & Metals Desk"
+    }
+   },
+   {
+    "sub": "The least price-sensitive buyer in the market.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "A record quarter inside the weakest half: central banks took 289 tonnes",
+     "href": "a-record-quarter-weakest-half.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "a central bank that buys every month is not trading, it is provisioning"
+  },
+  "next": {
+   "lead": {
+    "slug": "nine-thirty-eight-and-twelve-eighty-six",
+    "tag": "Metals",
+    "blurb": "The Chinese brand counter is now running ahead of the exchange benchmark."
+   },
+   "minis": [
+    {
+     "slug": "three-hundred-eighty-billion",
+     "tag": "Metals"
+    },
+    {
+     "slug": "record-quarter-weakest-half",
+     "tag": "Central Banks"
+    }
+   ]
+  }
+ },
+ "nine-thirty-eight-and-twelve-eighty-six": {
+  "strip": {
+   "cap": "By the numbers · Chinese gold, 8 August",
+   "cells": [
+    {
+     "fig": "938",
+     "delta": "▲ +7.53",
+     "dir": "up",
+     "lab": "SGE Au99.99, yuan a gram"
+    },
+    {
+     "fig": "1,286",
+     "lab": "Chow Tai Fook 24-carat counter"
+    },
+    {
+     "fig": "348",
+     "lab": "the spread, yuan a gram"
+    },
+    {
+     "fig": "≈37%",
+     "lab": "counter over benchmark"
+    },
+    {
+     "fig": "170",
+     "lab": "Shuibei wholesale to top brand counter"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Gold in China, 8 August 2026 · yuan a gram",
+    "rows": [
+     {
+      "l": "CHOW TAI FOOK 24K",
+      "v": 1286,
+      "d": "1,286",
+      "hi": true
+     },
+     {
+      "l": "CHOW SANG SANG 24K",
+      "v": 1285,
+      "d": "1,285"
+     },
+     {
+      "l": "LAO FENG XIANG 24K",
+      "v": 1283,
+      "d": "1,283"
+     },
+     {
+      "l": "ZHOU LIU FU 24K",
+      "v": 1281,
+      "d": "1,281"
+     },
+     {
+      "l": "SGE Au99.99 BENCHMARK",
+      "v": 938,
+      "d": "938"
+     }
+    ],
+    "note": "Mandarin financial press table, Tencent News, 8 August 2026, cross-checked against two independent brand-price trackers.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/202"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "A 348 yuan gap on the same metal.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "The counter stops lagging the benchmark.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "The counter is no longer following the benchmark. It is running ahead of it",
+     "attr": "The Gold & Metals Desk"
+    }
+   },
+   {
+    "sub": "A margin held into a third less volume.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "132 tonnes of jewellery, 339 tonnes of bars: China picks a side",
+     "href": "a-one-thirty-two-against-three-thirty-nine.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "a 348 yuan spread is a making charge with a market of its own"
+  },
+  "next": {
+   "lead": {
+    "slug": "forty-six-percent-came-back",
+    "tag": "Retail",
+    "blurb": "More than 46% of Kalyan's revenue came in as recycled gold."
+   },
+   "minis": [
+    {
+     "slug": "one-thirty-two-against-three-thirty-nine",
+     "tag": "Metals"
+    },
+    {
+     "slug": "china-lowest-since-2004",
+     "tag": "Demand"
+    }
+   ]
+  }
+ },
+ "turkey-up-america-down": {
+  "strip": {
+   "cap": "By the numbers · Swiss watch exports, first half 2026",
+   "cells": [
+    {
+     "fig": "165.2M",
+     "delta": "▲ +6.9%",
+     "dir": "up",
+     "lab": "francs to Turkey, 17th market"
+    },
+    {
+     "fig": "−14.8%",
+     "delta": "▼",
+     "dir": "down",
+     "lab": "United States, the largest market"
+    },
+    {
+     "fig": "+31.5%",
+     "delta": "▲",
+     "dir": "up",
+     "lab": "India, the biggest gainer"
+    },
+    {
+     "fig": "12.8B",
+     "delta": "▼ −0.7%",
+     "dir": "down",
+     "lab": "francs, worldwide"
+    },
+    {
+     "fig": "+2.3%",
+     "delta": "▲",
+     "dir": "up",
+     "lab": "wristwatch units, seven million"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Swiss watch exports by market · first half 2026, % year on year",
+    "rows": [
+     {
+      "l": "INDIA",
+      "v": 31.5,
+      "d": "+31.5%",
+      "hi": true
+     },
+     {
+      "l": "MEXICO",
+      "v": 14.9,
+      "d": "+14.9%"
+     },
+     {
+      "l": "TURKEY",
+      "v": 6.9,
+      "d": "+6.9%"
+     },
+     {
+      "l": "UNITED KINGDOM",
+      "v": 5.8,
+      "d": "+5.8%"
+     },
+     {
+      "l": "HONG KONG",
+      "v": 3.3,
+      "d": "+3.3%"
+     },
+     {
+      "l": "CHINA",
+      "v": -5.0,
+      "d": "−5.0%"
+     },
+     {
+      "l": "GERMANY",
+      "v": -10.5,
+      "d": "−10.5%"
+     },
+     {
+      "l": "UNITED STATES",
+      "v": -14.8,
+      "d": "−14.8%"
+     }
+    ],
+    "note": "Federation of the Swiss Watch Industry, published 21 July 2026. France, up 63.4%, is excluded as a logistics reclassification.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/203"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "The half's best market is the seventeenth.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "A country table that points away from the core.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "The growth in this half sits outside the markets Switzerland built its book on",
+     "attr": "The Watches Desk"
+    }
+   },
+   {
+    "sub": "Growth on a small base, decline on a large one.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Plus 11.2%: June hands Swiss watchmaking its month back",
+     "href": "a-plus-eleven-two-in-june.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "a 1.3% market growing is not a substitute for a 14.8% market falling"
+  },
+  "next": {
+   "lead": {
+    "slug": "four-times-melt",
+    "tag": "Auctions",
+    "blurb": "A 1983 Garrard egg made £123,500, four times the value of its gold."
+   },
+   "minis": [
+    {
+     "slug": "plus-eleven-two-in-june",
+     "tag": "Watches"
+    },
+    {
+     "slug": "independents-pass-lvmh",
+     "tag": "Watches"
+    }
+   ]
+  }
+ },
+ "forty-six-percent-came-back": {
+  "strip": {
+   "cap": "By the numbers · Kalyan Jewellers, quarter to 30 June",
+   "cells": [
+    {
+     "fig": "₹10,589cr",
+     "delta": "▲ +46%",
+     "dir": "up",
+     "lab": "consolidated revenue"
+    },
+    {
+     "fig": "₹349cr",
+     "delta": "▲ +32%",
+     "dir": "up",
+     "lab": "consolidated net profit"
+    },
+    {
+     "fig": ">46%",
+     "lab": "of revenue from recycled gold"
+    },
+    {
+     "fig": ">55%",
+     "lab": "recycled share in June alone"
+    },
+    {
+     "fig": "524",
+     "lab": "showrooms worldwide, 354 in India"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Kalyan Jewellers, Q1 FY27 · per cent year on year",
+    "rows": [
+     {
+      "l": "CANDERE, DIGITAL",
+      "v": 112,
+      "d": "+112%"
+     },
+     {
+      "l": "REVENUE",
+      "v": 46,
+      "d": "+46%",
+      "hi": true
+     },
+     {
+      "l": "INTERNATIONAL REVENUE",
+      "v": 35,
+      "d": "+35%"
+     },
+     {
+      "l": "NET PROFIT",
+      "v": 32,
+      "d": "+32%"
+     },
+     {
+      "l": "INDIA SAME-STORE SALES",
+      "v": 28,
+      "d": "≈+28%"
+     }
+    ],
+    "note": "Company results announced 4 August 2026, as reported by Business Standard's Capital Market service and Indian Television.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/204"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "A quarter carried by a price and a programme.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "The line that is not on the profit statement.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "More than 46% of Kalyan's revenue came in as somebody's old gold",
+     "attr": "The Retail Desk"
+    }
+   },
+   {
+    "sub": "Value up 46%, national tonnage down 15%.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "India buys fifteen percent less",
+     "href": "a-india-buys-fifteen-percent-less.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "an exchange programme is a supply chain, and Kalyan is now running one"
+  },
+  "next": {
+   "lead": {
+    "slug": "png-retires-litestyle",
+    "tag": "Retail",
+    "blurb": "P N Gadgil replaced Litestyle with YOOU and set a 100-store target."
+   },
+   "minis": [
+    {
+     "slug": "india-buys-fifteen-percent-less",
+     "tag": "Demand"
+    },
+    {
+     "slug": "luk-fook-fixed-price",
+     "tag": "Retail"
+    }
+   ]
+  }
+ },
+ "png-retires-litestyle": {
+  "strip": {
+   "cap": "By the numbers · YOOU by PNG, launched 8 August",
+   "cells": [
+    {
+     "fig": "13",
+     "lab": "exclusive outlets, Maharashtra and Goa"
+    },
+    {
+     "fig": "5",
+     "lab": "states with shop-in-shop counters"
+    },
+    {
+     "fig": "100",
+     "lab": "store target by 2030"
+    },
+    {
+     "fig": "9–22kt",
+     "lab": "gold range offered"
+    },
+    {
+     "fig": "₹2,413cr",
+     "delta": "▲ +41%",
+     "dir": "up",
+     "lab": "parent Q1 revenue"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "YOOU by PNG · outlets today against the 2030 target",
+    "rows": [
+     {
+      "l": "TARGET BY 2030",
+      "v": 100,
+      "d": "100",
+      "hi": true
+     },
+     {
+      "l": "EXCLUSIVE OUTLETS TODAY",
+      "v": 13,
+      "d": "13"
+     }
+    ],
+    "note": "Company announcement, 8 August 2026, as reported by ScanX and InvestyWise.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/205"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "A brand retired and replaced in a day.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Everyday wear is a commercial claim, not a slogan.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "Thirteen stores becoming a hundred is a bet on frequency, not on ticket",
+     "attr": "The Retail Desk"
+    }
+   },
+   {
+    "sub": "The most contested segment in Indian retail.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "$29.99 at the counter: America's cheapest lab-grown diamond",
+     "href": "a-twenty-nine-ninety-nine-at-the-counter.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "a hundred outlets that each sell less than thirteen did is an expensive way to lose"
+  },
+  "next": {
+   "lead": {
+    "slug": "turkey-up-america-down",
+    "tag": "Watches",
+    "blurb": "Turkey grew 6.9% while America fell 14.8% in the Swiss half."
+   },
+   "minis": [
+    {
+     "slug": "twenty-nine-ninety-nine-at-the-counter",
+     "tag": "Retail"
+    },
+    {
+     "slug": "forty-six-percent-came-back",
+     "tag": "Retail"
+    }
+   ]
+  }
  }
 }
