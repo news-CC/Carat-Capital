@@ -275,7 +275,10 @@ section{position:relative;z-index:1}
   justify-content:center;text-align:center;padding:clamp(14px,3vh,40px) 20px}
 @keyframes pulse{50%{opacity:.25}}
 h1.mast{font-family:var(--disp);font-weight:700;letter-spacing:-.02em;line-height:.95;
-  font-size:clamp(38px,8.8vw,126px);text-transform:uppercase;text-wrap:balance}
+  font-size:clamp(38px,8.8vw,126px);text-transform:uppercase;text-wrap:balance;
+  /* the clockline that used to sit here is gone, its air is not: this is
+     that line's top margin, its own height and its bottom margin */
+  margin-top:calc(clamp(18px,3.4vh,32px) + 12px + clamp(12px,2.4vh,20px))}
 h1.mast .caret{color:var(--verm);font-weight:700}
 h1.mast .l{display:inline-block;opacity:0;transform:translateY(.36em) rotate(3deg);
   animation:mstrike .85s var(--glide) forwards}
