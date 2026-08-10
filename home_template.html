@@ -1663,17 +1663,64 @@ addEventListener('resize',paint); paint();
   const gl=cv.getContext('webgl',{alpha:true,antialias:false,premultipliedAlpha:false});
   if(!gl){cv.style.display='none';return;}
   const VS=`attribute vec2 p;void main(){gl_Position=vec4(p,0.,1.);}`;
+  /* ── the stone itself ──────────────────────────────────────────────
+     A standard round brilliant, built from its own proportions rather
+     than sketched: 58 facets — table, 8 kites, 8 stars, 16 upper girdle
+     halves, 16 lower girdle halves, 8 pavilion mains and a culet — on a
+     sixteen-sided girdle. 74 planes in all.
+     Crown 34.5°, pavilion 40.75°, table 53%: Tolkowsky's numbers.
+     The star facets are not given an angle. They are derived from the
+     table edge and the ridge where two kites meet, which is what fixes
+     them in a real cut; guessing the angle is what collapses the table.
+     Because the solid is convex, a ray meets it exactly — max of the
+     entering planes, min of the leaving ones. No marching, no surface
+     normal estimated from samples: every facet edge is analytically
+     sharp, and it costs less than the eight-sided approximation did. */
+  const NPL=74;
+  const GEM=(function(){
+    const R=Math.PI/180, P=[], S=0.86;          // S: fit to the old silhouette
+    const TAB=0.53, CA=34.5*R, PA=40.75*R, UG=42.5*R, LG=42.4*R;
+    const STAR=0.55, GIR=0.020;
+    const CH=(1-TAB)*Math.tan(CA), PD=Math.tan(PA);
+    const add=(x,y,z,h)=>{const L=Math.hypot(x,y,z);P.push(x/L,y/L,z/L,h*S/L);};
+    const up=(t,a,y0)=>{const e=Math.PI/2-t,c=Math.cos(e),s=Math.sin(e);
+      add(c*Math.cos(a), s,c*Math.sin(a), c+s*y0);};
+    const dn=(t,a,y0)=>{const e=Math.PI/2-t,c=Math.cos(e),s=Math.sin(e);
+      add(c*Math.cos(a),-s,c*Math.sin(a), c+s*y0);};
+    add(0,1,0,GIR+CH);                                    // table
+    add(0,-1,0,(GIR+PD)*0.988);                           // culet
+    for(let i=0;i<16;i++){const a=2*Math.PI*i/16;         // girdle
+      add(Math.cos(a),0,Math.sin(a),1);}
+    for(let i=0;i<8;i++){const a=2*Math.PI*i/8;           // kites + pavilion mains
+      up(CA,a,GIR); dn(PA,a,GIR);}
+    for(let i=0;i<16;i++){const a=2*Math.PI*(i+0.5)/16;   // girdle halves
+      up(UG,a,GIR); dn(LG,a,GIR);}
+    const C=Math.cos(Math.PI/8), eC=Math.PI/2-CA;
+    const hC=Math.cos(eC)+Math.sin(eC)*GIR, ys=GIR+CH*(1-STAR);
+    const rs=(hC-Math.sin(eC)*ys)/(Math.cos(eC)*C);       // the kite ridge
+    const Ar=TAB*C, Ay=GIR+CH, dr=rs-Ar, dy=ys-Ay, L=Math.hypot(dr,dy);
+    let nr=-dy/L, ny=dr/L; if(ny<0){nr=-nr;ny=-ny;}
+    const hS=nr*Ar+ny*Ay;
+    for(let i=0;i<8;i++){const a=2*Math.PI*(i+0.5)/8;     // stars
+      add(nr*Math.cos(a),ny,nr*Math.sin(a),hS);}
+    return new Float32Array(P);
+  })();
+
   const FS=`precision highp float;uniform vec2 uRes;uniform float uT,uSpin;
-float sdGem(vec3 p){float d=-1e9;d=max(d,p.y-0.36);d=max(d,-p.y-0.98);
- for(int i=0;i<12;i++){float a=6.2831853*float(i)/12.0;d=max(d,dot(p.xz,vec2(cos(a),sin(a)))-0.82);}
- for(int i=0;i<8;i++){float a=6.2831853*float(i)/8.0;vec3 n=normalize(vec3(cos(a)*0.62,0.79,sin(a)*0.62));d=max(d,dot(p,n)-0.60);}
- for(int i=0;i<8;i++){float a=6.2831853*(float(i)+0.5)/8.0;vec3 n=normalize(vec3(cos(a)*0.74,-0.66,sin(a)*0.74));d=max(d,dot(p,n)-0.56);}
- return d;}
-vec3 nrm(vec3 p){vec2 e=vec2(0.0007,0.);return normalize(vec3(sdGem(p+e.xyy)-sdGem(p-e.xyy),sdGem(p+e.yxy)-sdGem(p-e.yxy),sdGem(p+e.yyx)-sdGem(p-e.yyx)));}
-bool hit(vec3 ro,vec3 rd,out vec3 pos){float t=0.;for(int i=0;i<64;i++){vec3 p=ro+rd*t;float d=sdGem(p);
- if(d<0.0005){pos=p;return true;}t+=max(d*0.9,0.0011);if(t>8.)break;}return false;}
-vec3 ins(vec3 ro,vec3 rd){float t=0.0022;for(int i=0;i<64;i++){vec3 p=ro+rd*t;float d=sdGem(p);
- if(d>-0.0005)return p;t+=max(-d*0.9,0.0011);if(t>8.)break;}return ro+rd*t;}
+uniform vec4 uPl[${NPL}];
+bool enter(vec3 ro,vec3 rd,out float tE,out vec3 nE){
+ float ti=-1e20,to=1e20;vec3 ni=vec3(0.,1.,0.);
+ for(int i=0;i<${NPL};i++){vec3 n=uPl[i].xyz;float dn=dot(rd,n),d0=uPl[i].w-dot(ro,n);
+  if(abs(dn)<1e-7){if(d0<0.)return false;continue;}
+  float t=d0/dn;
+  if(dn<0.){if(t>ti){ti=t;ni=n;}}else{if(t<to)to=t;}}
+ if(ti>to||to<0.)return false;tE=ti;nE=ni;return true;}
+void leave(vec3 ro,vec3 rd,out float tX,out vec3 nX){
+ float to=1e20;vec3 no=vec3(0.,-1.,0.);
+ for(int i=0;i<${NPL};i++){vec3 n=uPl[i].xyz;float dn=dot(rd,n);
+  if(dn<=1e-7)continue;float t=(uPl[i].w-dot(ro,n))/dn;
+  if(t>2e-5&&t<to){to=t;no=n;}}
+ tX=to;nX=no;}
 vec3 env(vec3 d){float up=clamp(d.y*.5+.5,0.,1.);vec3 s=mix(vec3(.020,.030,.048),vec3(.10,.17,.26),up);
  vec3 kd=normalize(vec3(.55,.72,-.42));float k=max(dot(d,kd),0.);
  s+=vec3(1.,.82,.46)*pow(k,30.)*26.;s+=vec3(.70,.55,.28)*pow(k,4.)*1.30;
@@ -1683,12 +1730,17 @@ vec3 env(vec3 d){float up=clamp(d.y*.5+.5,0.,1.);vec3 s=mix(vec3(.020,.030,.048)
  vec3 sd=normalize(vec3(-.45,.62,-.65));s+=vec3(1.,.90,.62)*pow(max(dot(d,sd),0.),60.)*10.;
  vec3 vd=normalize(vec3(.42,-.46,.74));s+=vec3(1.,.22,.09)*pow(max(dot(d,vd),0.),80.)*7.;
  return s;}
-vec3 trace(vec3 ro,vec3 rd,float ior){vec3 pos;if(!hit(ro,rd,pos))return vec3(-1.);
- vec3 n=nrm(pos);float f0=pow((1.-ior)/(1.+ior),2.);
+vec3 trace(vec3 ro,vec3 rd,float ior){
+ float t;vec3 n;if(!enter(ro,rd,t,n))return vec3(-1.);
+ vec3 pos=ro+rd*t;float f0=pow((1.-ior)/(1.+ior),2.);
  float fr=f0+(1.-f0)*pow(1.-max(dot(-rd,n),0.),5.);vec3 refl=env(reflect(rd,n))*fr;
  vec3 rr=refract(rd,n,1./ior);vec3 p=pos;vec3 th=vec3(0.);float at=1.;
- for(int b=0;b<4;b++){p=ins(p,rr);vec3 nn=-nrm(p);vec3 ex=refract(rr,nn,ior);
-  if(dot(ex,ex)<0.0001){rr=reflect(rr,nn);at*=.985;continue;}th=env(ex)*at;break;}
+ /* seven bounces: a brilliant is cut so light caught by the pavilion
+    bounces twice before it leaves through the crown, and the long paths
+    are where the fire comes from */
+ for(int b=0;b<7;b++){float tx;vec3 nx;leave(p,rr,tx,nx);p+=rr*tx;
+  vec3 ex=refract(rr,nx,ior);
+  if(dot(ex,ex)<1e-7){rr=reflect(rr,nx);at*=.988;continue;}th=env(ex)*at;break;}
  return refl+th*(1.-fr);}
 void main(){vec2 uv=(gl_FragCoord.xy-0.5*uRes)/uRes.y;
  vec3 ro=vec3(0.,0.20,3.15);vec3 rd=normalize(vec3(uv,-1.55));
@@ -1712,18 +1764,30 @@ void main(){vec2 uv=(gl_FragCoord.xy-0.5*uRes)/uRes.y;
   gl.vertexAttribPointer(lo,2,gl.FLOAT,false,0,0);
   const uRes=gl.getUniformLocation(pr,'uRes'),uT=gl.getUniformLocation(pr,'uT'),
         uSpin=gl.getUniformLocation(pr,'uSpin');
+  gl.uniform4fv(gl.getUniformLocation(pr,'uPl[0]'),GEM);   // the cut, uploaded once
   // render well above display size and let the browser downsample:
   // that is what removes the stair-stepping on the facet edges.
-  function size(){
-    const r=cv.getBoundingClientRect(); if(!r.width) return;
+  /* An exact intersection costs a fraction of the old march, so the
+     budget goes into resolution instead: render far above display size
+     and let the browser downsample. That is what makes 58 facet edges
+     read as edges rather than as stairs. */
+  const SS=2.6, MAX=2560;              // supersample factor, hard ceiling
+  let quality=1;                       // lowered only by the frame-time probe
+  function sizeAt(q){
+    /* offsetWidth, not the client rect: the stone is scaled by a transform
+       as it leaves the hero, and measuring the transformed box would shrink
+       the backing store permanently on the way past */
+    const bw=cv.offsetWidth, bh=cv.offsetHeight; if(!bw) return;
     const dpr=Math.min(devicePixelRatio||1,2);
-    const SS=1.4, MAX=1500;                       // supersample factor, hard ceiling
-    let w=Math.round(r.width*dpr*SS), h=Math.round(r.height*dpr*SS);
-    const k=Math.min(1, MAX/Math.max(w,h));
+    let w=Math.round(bw*dpr*SS*q), h=Math.round(bh*dpr*SS*q);
+    const k=Math.min(1,(MAX*q)/Math.max(w,h));
     w=Math.max(1,Math.round(w*k)); h=Math.max(1,Math.round(h*k));
     if(cv.width===w && cv.height===h) return;
     cv.width=w; cv.height=h; gl.viewport(0,0,w,h);
   }
+  /* every resize path goes through the measured quality, so rotating the
+     phone or opening the keyboard cannot silently restore full resolution */
+  const size=()=>sizeAt(quality);
   addEventListener('resize',size);size();
   new ResizeObserver(size).observe(cv);
   let vis=true;
@@ -1731,7 +1795,8 @@ void main(){vec2 uv=(gl_FragCoord.xy-0.5*uRes)/uRes.y;
   const t0=performance.now();let spin=0,last=t0;
   // auto-degrade: if the machine cannot hold a smooth frame, drop the
   // supersample rather than let the stone crawl. Quality is negotiable, motion is not.
-  let probe=0, acc=0, quality=1;
+  const RUNGS=[1,0.74,0.54,0.40,0.30];  // a ladder, not a single step down
+  let rung=0, probe=0, acc=0, warm=0;
   function frame(now){requestAnimationFrame(frame);
     if(!vis){last=now;return;}
     const dt=Math.min((now-last)/1000,.05);last=now;const t=(now-t0)/1000;
@@ -1739,24 +1804,19 @@ void main(){vec2 uv=(gl_FragCoord.xy-0.5*uRes)/uRes.y;
     gl.uniform2f(uRes,cv.width,cv.height);gl.uniform1f(uT,RM?0:t);gl.uniform1f(uSpin,RM?.6:spin);
     gl.drawArrays(gl.TRIANGLES,0,3);
     if(RM) return;
-    if(probe<40){                       // first 40 drawn frames decide the budget
-      probe++; acc+=dt*1000;
-      if(probe===40){
-        const avg=acc/40;
-        if(avg>26 && quality>0.5){       // slower than ~38fps
-          quality=0.62; sizeAt(quality); probe=0; acc=0;
-        }
-      }
+    /* Measure, step, measure again — in both directions. One rung down was
+       not enough for a slow phone; and judging on the first frames punished
+       every machine for the jank of its own page load, which is why this
+       waits for the stone to settle and can climb back up. */
+    if(warm<45){ warm++; return; }
+    probe++; acc+=dt*1000;
+    if(probe<45) return;
+    const avg=acc/45; probe=0; acc=0;
+    if(avg>26 && rung<RUNGS.length-1){        // slower than ~38fps: give up pixels
+      rung++; quality=RUNGS[rung]; sizeAt(quality);
+    } else if(avg<13.5 && rung>0){            // comfortably fast: take them back
+      rung--; quality=RUNGS[rung]; sizeAt(quality);
     }
-  }
-  function sizeAt(q){
-    const r=cv.getBoundingClientRect(); if(!r.width) return;
-    const dpr=Math.min(devicePixelRatio||1,2), SS=1.4, MAX=1500;
-    let w=Math.round(r.width*dpr*SS*q), h=Math.round(r.height*dpr*SS*q);
-    const k=Math.min(1, MAX/Math.max(w,h));
-    w=Math.max(1,Math.round(w*k)); h=Math.max(1,Math.round(h*k));
-    if(cv.width===w && cv.height===h) return;
-    cv.width=w; cv.height=h; gl.viewport(0,0,w,h);
   }
   requestAnimationFrame(frame);
 })();
