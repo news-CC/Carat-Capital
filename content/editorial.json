@@ -25509,11 +25509,11 @@
      "lab": "pre-sale estimate"
     },
     {
-     "fig": "323.6 g",
-     "lab": "22-carat gold, per the catalogue"
+     "fig": "≈9 oz",
+     "lab": "22-carat gold, per Forbes"
     },
     {
-     "fig": "≈$41,400",
+     "fig": "≈$33k–$36k",
      "lab": "metal value, derived by this desk"
     }
    ]
@@ -25531,11 +25531,11 @@
      },
      {
       "l": "METAL VALUE (DERIVED)",
-      "v": 41404,
-      "d": "≈$41,400"
+      "v": 34200,
+      "d": "≈$33k–$36k"
      }
     ],
-    "note": "Sale price per Forbes, 8 August 2026. Metal value derived by this desk from the catalogued 323.6 grams at 22 carat and gold at $4,341.30 an ounce; not published by any source.",
+    "note": "Sale price per Forbes, 8 August 2026. Metal value derived by this desk from the nine ounces Forbes reports, at 22 carat and gold at $4,341.30 an ounce, spanning the troy and avoirdupois readings; not published by any source. Corrected 10 August 2026 — see the article.",
     "cap": "Carat Capital graphics desk. &nbsp;CC/2026/200"
    }
   ],
@@ -25559,7 +25559,7 @@
    },
    {
     "pull": {
-     "q": "The record is four times the metal. The rest is signature and story",
+     "q": "The record is about five times the metal, not four",
      "attr": "The Auctions Desk"
     }
    },
@@ -25569,6 +25569,9 @@
    },
    {
     "p": 3
+   },
+   {
+    "p": 4
    },
    {
     "also": {
@@ -26179,6 +26182,9 @@
    },
    {
     "p": 3
+   },
+   {
+    "p": 4
    },
    {
     "also": {
