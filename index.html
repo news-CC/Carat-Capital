@@ -106,12 +106,6 @@ html:not(.js) #boot{display:none}
   backdrop-filter:blur(16px) saturate(1.2);border-color:var(--line)}
 /* visibility, not just opacity: an invisible link that keeps its place in the
    tab order sends keyboard focus somewhere the eye cannot follow */
-#top .bm,#top nav{opacity:0;visibility:hidden;pointer-events:none;
-  transition:opacity .5s var(--glide),transform .5s var(--glide),visibility 0s .5s}
-#top.on .bm,#top.on nav{opacity:1;visibility:visible;pointer-events:auto;
-  transition:opacity .5s var(--glide),transform .5s var(--glide),visibility 0s 0s}
-#top .bm{transform:translateY(-4px)}
-#top.on .bm{transform:none}
 
 /* ── the corner chrome ── */
 .mbtn,.spill{display:inline-flex;align-items:center;gap:9px;font-family:var(--mono);
@@ -131,12 +125,18 @@ html:not(.js) #boot{display:none}
 .mbtn .bars i:nth-child(3){width:82%}
 .mbtn:hover .bars i,.mbtn:focus-visible .bars i{width:100%}
 .spill{margin-left:14px}
+/* the mark sits dead centre of the bar, independent of how wide the menu
+   or the metal happen to be, so it stays centred on the page rather than
+   between whatever is beside it */
+.tmark{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);
+  width:30px;height:30px;color:var(--acc);
+  transition:color .3s,transform .35s var(--glide)}
+.tmark svg{width:100%;height:100%;display:block}
+.tmark:hover,.tmark:focus-visible{color:var(--gilt-l);
+  transform:translate(-50%,-50%) scale(1.07);outline:0}
 .spill .k{color:var(--acc)}
 .spill .v{font-variant-numeric:tabular-nums;letter-spacing:.06em;color:var(--fg)}
-@media(max-width:900px){
-  #top nav{display:none}
-  .spill .k{display:none}
-}
+@media(max-width:900px){.spill .k{display:none}}
 @media(max-width:420px){.mbtn span.lab{display:none}.mbtn{padding:9px 11px}}
 
 /* ══ THE MENU — the six desks and the paper ══ */
@@ -205,15 +205,10 @@ body.menu-open{overflow:hidden}
   .omx-panel,.omx-desk,.omx-side a,.omx-scrim{transition-duration:.01ms!important;
     transition-delay:0ms!important;transform:none!important}
 }
-#top .in{display:flex;align-items:center;gap:18px;width:100%}
-#top .bm{display:flex;align-items:center;gap:10px;font-family:var(--disp);font-weight:700;
-  font-size:12.5px;letter-spacing:.2em;text-transform:uppercase}
-#top .bm svg{width:26px;height:26px;color:var(--acc)}
-#top nav{margin-left:auto;display:flex;gap:1px;overflow-x:auto;scrollbar-width:none}
-#top nav::-webkit-scrollbar{display:none}
-#top nav a{font-family:var(--mono);font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;
-  color:var(--fg3);padding:7px 10px;border-radius:6px;white-space:nowrap;transition:color .2s,background .2s}
-#top nav a:hover{color:var(--fg);background:rgba(198,162,74,.12)}
+/* space-between keeps the metal on the right edge when the desk links are
+   hidden — they used to be the thing pushing it there, so below 900px the
+   pill drifted back to the middle and sat under the mark */
+#top .in{display:flex;align-items:center;justify-content:space-between;gap:18px;width:100%}
 .caret{color:var(--verm)}
 
 /* ══════ CUSTOM BUTTONS ══════ */
@@ -845,13 +840,8 @@ footer{border-top:1px solid var(--line);padding:56px 0 76px;margin-top:clamp(50p
   <div class="wrap in">
     <button class="mbtn" id="mbtn" aria-expanded="false" aria-controls="omenu">
       <span class="bars" aria-hidden="true"><i></i><i></i><i></i></span><span class="lab">Menu</span></button>
-    <a class="bm" href="/"><svg viewBox="0 0 100 100"><use href="#medal"/></svg>
-      Carat<span class="caret">^</span>Capital</a>
-    <nav>
-      <a href="diamonds">Diamonds</a><a href="gold-metals">Gold</a><a href="gemstones">Gems</a>
-      <a href="watches">Watches</a><a href="auctions">Auctions</a><a href="retail-tech">Retail</a>
-      <a href="almanac">The Tape</a><a href="the-record">The Record</a>
-    </nav>
+    <a class="tmark" href="/" aria-label="Carat Capital — front page">
+      <svg viewBox="0 0 100 100" aria-hidden="true"><use href="#medal"/></svg></a>
     <a class="spill" href="#prices"><span class="k">Gold</span><span class="v">4,341.40</span></a>
   </div>
 </header>
