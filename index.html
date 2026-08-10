@@ -1515,7 +1515,7 @@ const ACC=[[0,[198,162,74]],[.68,[232,182,96]],[1,[150,118,46]]];
 const ramp=(st,k)=>{for(let i=0;i<st.length-1;i++){const[a,ca]=st[i],[b,cb]=st[i+1];
   if(k<=b||i===st.length-2){const t=Math.max(0,Math.min(1,(k-a)/(b-a)));
     return ca.map((v,j)=>Math.round(v+(cb[j]-v)*t));}}return st[st.length-1][1];};
-const sm=x=>x*x*(3-2*x), rgb=a=>`rgb(${a[0]},${a[1]},${a[2]})`,
+const rgb=a=>`rgb(${a[0]},${a[1]},${a[2]})`,
       rgba=(a,l)=>`rgba(${a[0]},${a[1]},${a[2]},${l})`;
 /* WCAG relative luminance, so the ink can be chosen by measurement rather
    than by a curve that happened to look right */
@@ -1527,11 +1527,14 @@ const NF=[220,234,245], DF=[22,19,14], root=document.documentElement,
       gemwrap=document.getElementById('gemwrap');
 function paint(){
   const h=document.documentElement, sc=h.scrollTop, vh=innerHeight;
-  /* the sky starts turning the moment you leave the hero and is full
-     bone by a little over one screen — it used to wait until the third
-     section before it began */
-  const k=Math.max(0,Math.min(1,(sc-vh*0.14)/(vh*0.95)));
-  const ks=sm(k), bg=ramp(SKY,ks), acc=ramp(ACC,ks);
+  /* The sky turns on the first pixel of scroll and is fully bone by
+     seven tenths of a screen — before the bench takes the view. The
+     hero itself stays obsidian, because at rest sc is 0. */
+  const k=Math.max(0,Math.min(1,sc/(vh*0.70)));
+  /* ease out, not smoothstep: smoothstep is almost flat for the first
+     tenth, so the sky sat dark through the opening scroll and the change
+     read as late. This moves on the first pixel. */
+  const ks=k*(2.0-k), bg=ramp(SKY,ks), acc=ramp(ACC,ks);
   /* The ink never blends through grey. It is whichever of the two house
      inks reads better on the sky behind it, chosen outright — blending
      between them walks the text straight through the background's own
