@@ -1857,7 +1857,16 @@ def index_page():
     lead_plate = "Plate I — %s" % DESK_NAMES.get((LEAD or {}).get("desk"), "Carat Capital")
 
     html = HOME_TPL.read_text()
+    # ── the menu's six desks, straight from DESKS so they cannot drift ──
+    menu_desks = "".join(
+        f'<a class="omx-desk" style="--i:{i}" href="{d["slug"]}.html">'
+        f'<span class="n">D&mdash;{d["no"]}</span>'
+        f'<span class="t">{d["title"]}</span>'
+        f'<span class="d">{d["tag"]}</span></a>'
+        for i, d in enumerate(DESKS))
+
     for k, v in {
+      "__MENU_DESKS__": menu_desks,
       "__TAPE_JSON__": _json.dumps(tape_rows),
       "__PX_JSON__": _json.dumps(px_rows),
       "__PX0_K__": px_rows[0]["k"], "__PX0_V__": px_rows[0]["v"], "__PX0_D__": px_rows[0]["d"],
