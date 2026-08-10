@@ -26207,5 +26207,572 @@
     }
    ]
   }
+ },
+ "neither-one-is-wrong": {
+  "strip": {
+   "cap": "By the numbers · Dubai 24-carat gold, 10 August",
+   "cells": [
+    {
+     "fig": "AED 523.25",
+     "lab": "Goodreturns, 24-carat, a gram"
+    },
+    {
+     "fig": "AED 512.45",
+     "lab": "LivePriceOfGold, same day, same carat"
+    },
+    {
+     "fig": "2.11%",
+     "delta": "▲",
+     "dir": "up",
+     "lab": "the gap, derived by this desk"
+    },
+    {
+     "fig": "AED 512.59",
+     "lab": "peg arithmetic on spot, derived"
+    },
+    {
+     "fig": "$4,341.40",
+     "lab": "gold spot, Kitco 5:57am EST"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Dubai 24-carat gold, 10 August 2026 · dirhams a gram",
+    "rows": [
+     {
+      "l": "GOODRETURNS",
+      "v": 523.25,
+      "d": "523.25",
+      "hi": true
+     },
+     {
+      "l": "PEG ARITHMETIC ON SPOT",
+      "v": 512.59,
+      "d": "512.59"
+     },
+     {
+      "l": "LIVEPRICEOFGOLD",
+      "v": 512.45,
+      "d": "512.45"
+     }
+    ],
+    "note": "Both pages read 10 August 2026. The peg line is this desk's arithmetic on Kitco spot at the dirham's fixed 3.6725 rate, published by nobody.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/206"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Two pages, one label, AED 10.80 between them.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "The peg arithmetic says which is which.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "Neither page is wrong. They are not publishing the same quantity",
+     "attr": "The Gold & Metals Desk"
+    }
+   },
+   {
+    "sub": "A step of AED 13 against a metal move of AED 3.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Every metal runs before payrolls",
+     "href": "a-every-metal-runs-before-payrolls.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "the number you quote is only as good as the lane it came from"
+  },
+  "next": {
+   "lead": {
+    "slug": "five-point-nine-million-pieces",
+    "tag": "Metals",
+    "blurb": "India hallmarked 5.9 million silver articles, nearly double the year before."
+   },
+   "minis": [
+    {
+     "slug": "nine-thirty-eight-and-twelve-eighty-six",
+     "tag": "Metals"
+    },
+    {
+     "slug": "six-forty-thousand-ounces",
+     "tag": "Central Banks"
+    }
+   ]
+  }
+ },
+ "five-point-nine-million-pieces": {
+  "strip": {
+   "cap": "By the numbers · Indian silver hallmarking",
+   "cells": [
+    {
+     "fig": "5.9M",
+     "delta": "▲ +84%",
+     "dir": "up",
+     "lab": "articles hallmarked, FY2025-26"
+    },
+    {
+     "fig": "3.2M",
+     "lab": "the year before"
+    },
+    {
+     "fig": "230",
+     "lab": "recognised assay and hallmarking centres"
+    },
+    {
+     "fig": "440",
+     "lab": "recognised laboratories, from 147 in 2014"
+    },
+    {
+     "fig": "Sept 2025",
+     "lab": "silver unique identification introduced"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Silver articles hallmarked in India · millions of pieces",
+    "rows": [
+     {
+      "l": "FY 2025-26",
+      "v": 5.9,
+      "d": "5.9M",
+      "hi": true
+     },
+     {
+      "l": "FY 2024-25",
+      "v": 3.2,
+      "d": "3.2M"
+     }
+    ],
+    "note": "Bureau of Indian Standards figures disclosed 9 August 2026. The 84% increase is derived by this desk from the two published counts.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/207"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Nearly double in a single financial year.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "230 centres, and a two-year build behind them.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "The assay office is where a substitution stops being anecdote and becomes volume",
+     "attr": "The Gold & Metals Desk"
+    }
+   },
+   {
+    "sub": "A count of finished articles, not of intent.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "India buys fifteen percent less",
+     "href": "a-india-buys-fifteen-percent-less.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "hallmarking capacity is the least glamorous leading indicator in the metals trade"
+  },
+  "next": {
+   "lead": {
+    "slug": "etsy-calls-it-speed",
+    "tag": "Retail",
+    "blurb": "Etsy is cutting 220 jobs from product and engineering in a quarter it beat."
+   },
+   "minis": [
+    {
+     "slug": "forty-six-percent-came-back",
+     "tag": "Retail"
+    },
+    {
+     "slug": "india-buys-fifteen-percent-less",
+     "tag": "Demand"
+    }
+   ]
+  }
+ },
+ "etsy-calls-it-speed": {
+  "strip": {
+   "cap": "By the numbers · Etsy, quarter to 30 June",
+   "cells": [
+    {
+     "fig": "220",
+     "delta": "▼ −12%",
+     "dir": "down",
+     "lab": "roles cut, marketplace workforce"
+    },
+    {
+     "fig": "$35M",
+     "lab": "restructuring charge, third quarter"
+    },
+    {
+     "fig": "$668.3M",
+     "delta": "▲ +6.2%",
+     "dir": "up",
+     "lab": "revenue"
+    },
+    {
+     "fig": "$2.58B",
+     "lab": "GMS, continuing operations"
+    },
+    {
+     "fig": "5.7M",
+     "delta": "▲ +5.9%",
+     "dir": "up",
+     "lab": "active sellers"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Etsy, second quarter 2026 · per cent year on year",
+    "rows": [
+     {
+      "l": "ETSY-ONLY GMS",
+      "v": 7.5,
+      "d": "+7.5%",
+      "hi": true
+     },
+     {
+      "l": "REVENUE",
+      "v": 6.2,
+      "d": "+6.2%"
+     },
+     {
+      "l": "ACTIVE SELLERS",
+      "v": 5.9,
+      "d": "+5.9%"
+     },
+     {
+      "l": "ACTIVE BUYERS",
+      "v": -0.4,
+      "d": "−0.4%"
+     }
+    ],
+    "note": "Etsy's Q2 2026 quarterly report, quarter ended 30 June 2026. Take rate 25.9%; restructuring charge booked in the third quarter.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/208"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "220 roles out of product and engineering.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "A beat, and a cut announced the same day.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "Etsy cut its product and engineering bench in a quarter it beat",
+     "attr": "The Retail Desk"
+    }
+   },
+   {
+    "sub": "5.7 million sellers on one company's decisions.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Sixty-seven percent asked a chatbot",
+     "href": "a-sixty-seven-percent-asked-a-chatbot.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "a flatter org chart is a bet that coordination, not headcount, was the constraint"
+  },
+  "next": {
+   "lead": {
+    "slug": "five-billion-in-one-thirteen",
+    "tag": "Retail",
+    "blurb": "QVC left Chapter 11 in 113 days, having cut more than $5 billion of debt."
+   },
+   "minis": [
+    {
+     "slug": "sixty-seven-percent-asked-a-chatbot",
+     "tag": "Retail"
+    },
+    {
+     "slug": "the-storefront-that-isnt",
+     "tag": "Retail"
+    }
+   ]
+  }
+ },
+ "five-billion-in-one-thirteen": {
+  "strip": {
+   "cap": "By the numbers · QVC Group's Chapter 11 exit",
+   "cells": [
+    {
+     "fig": "113",
+     "lab": "days from filing to exit, derived"
+    },
+    {
+     "fig": ">$5B",
+     "delta": "▼",
+     "dir": "down",
+     "lab": "debt removed"
+    },
+    {
+     "fig": "$1.2B",
+     "lab": "take-back notes issued, due 2032"
+    },
+    {
+     "fig": "10%",
+     "lab": "coupon on the new paper"
+    },
+    {
+     "fig": "$600M",
+     "lab": "asset-based lending facility"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "QVC Group · the exit in numbers, dollars billion",
+    "rows": [
+     {
+      "l": "DEBT REMOVED",
+      "v": 5.0,
+      "d": ">$5.0B",
+      "hi": true
+     },
+     {
+      "l": "TAKE-BACK NOTES ISSUED",
+      "v": 1.2,
+      "d": "$1.2B"
+     },
+     {
+      "l": "ASSET-BASED FACILITY",
+      "v": 0.6,
+      "d": "$0.6B"
+     }
+    ],
+    "note": "Filed 16 April 2026, exited 7 August 2026. The 113-day count is derived by this desk from the two dates.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/209"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "113 days from filing to exit.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Five billion out, 1.2 billion back in at 10%.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "Five billion dollars of debt left the business in 113 days",
+     "attr": "The Retail Desk"
+    }
+   },
+   {
+    "sub": "The channel the jewellery suppliers sell through.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "$934 for 117: the mall anchors change hands",
+     "href": "a-nine-thirty-four-for-one-seventeen.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "a balance sheet can be fixed in four months; a viewing habit cannot"
+  },
+  "next": {
+   "lead": {
+    "slug": "pandoras-third-seat",
+    "tag": "Retail",
+    "blurb": "Pandora's incoming finance chief arrives from Walmart's Mexican business."
+   },
+   "minis": [
+    {
+     "slug": "nine-thirty-four-for-one-seventeen",
+     "tag": "Retail"
+    },
+    {
+     "slug": "bnpl-inside-the-perimeter",
+     "tag": "Retail"
+    }
+   ]
+  }
+ },
+ "pandoras-third-seat": {
+  "strip": {
+   "cap": "By the numbers · Pandora's executive bench",
+   "cells": [
+    {
+     "fig": "1 Dec",
+     "lab": "Paulo Garcia becomes chief financial officer"
+    },
+    {
+     "fig": "14 yrs",
+     "lab": "Anders Boyer's tenure, retiring 30 November"
+    },
+    {
+     "fig": "$50B",
+     "lab": "revenue at Garcia's last employer, Walmex"
+    },
+    {
+     "fig": "3",
+     "lab": "top seats turning over in twelve months"
+    },
+    {
+     "fig": "≈7,000",
+     "lab": "Pandora points of sale worldwide"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Pandora's three incoming seats · month the role begins, 2026-27",
+    "rows": [
+     {
+      "l": "NORTH AMERICA PRESIDENT",
+      "v": 8,
+      "d": "Aug 2026"
+     },
+     {
+      "l": "CHIEF FINANCIAL OFFICER",
+      "v": 12,
+      "d": "Dec 2026"
+     },
+     {
+      "l": "CHIEF EXECUTIVE",
+      "v": 13,
+      "d": "Jan 2027",
+      "hi": true
+     }
+    ],
+    "note": "Company announcements of 5 and 6 August 2026 and the previously announced chief executive transition. Bar length marks the month the role begins.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/210"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "A long handover, deliberately built.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Grocery, discount retail and consumer goods.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "Three of the top seats turn over inside twelve months",
+     "attr": "The Retail Desk"
+    }
+   },
+   {
+    "sub": "Three seats, none of them from jewellery.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Pandora fills the seat",
+     "href": "a-pandora-fills-the-seat.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "Pandora is being rebuilt by people who sell volume, not by people who sell jewellery"
+  },
+  "next": {
+   "lead": {
+    "slug": "neither-one-is-wrong",
+    "tag": "Metals",
+    "blurb": "Two Dubai gold pages read 2% apart this morning, and neither is wrong."
+   },
+   "minis": [
+    {
+     "slug": "pandora-fills-the-seat",
+     "tag": "Retail"
+    },
+    {
+     "slug": "luk-fook-fixed-price",
+     "tag": "Retail"
+    }
+   ]
+  }
  }
 }

@@ -1,9 +1,218 @@
 [
  {
+  "slug": "neither-one-is-wrong",
+  "desk": "gold-metals",
+  "date": "2026-08-10",
+  "lead": true,
+  "kicker": "Lead Story · Gold & Metals Desk",
+  "minutes": 5,
+  "byline": "The Gold & Metals Desk",
+  "tags": [
+   "REVERSAL",
+   "VS",
+   "NUM"
+  ],
+  "title": "Two Dubai gold rates, 2% apart. Neither one is wrong",
+  "dek": "Two widely quoted Dubai gold pages read AED 512.45 and AED 523.25 a gram for 24-carat this morning, a gap of AED 10.80 or 2.11%. One is publishing the metal, the other the counter.",
+  "body": [
+   "Two of the most widely quoted Dubai gold pages disagree this morning by AED 10.80 a gram. LivePriceOfGold's Dubai board, timestamped 10 August at 10:07 UTC, reads AED 512.45 a gram for 24-carat gold and AED 470.43 for 22-carat. Goodreturns' Dubai page, dated the same day, reads AED 523.25 and AED 484.50. That is a gap of 2.11% on the 24-carat line and 2.99% on the 22-carat line, both percentages derived by this desk from the two published figures. A jeweller quoting a customer off one page and buying off the other is out by a meaningful part of a making charge before anyone has cut anything.",
+   "The arithmetic says which is which. Kitco's live board at 5:57am New York time on 10 August, the reading this paper's tape now carries, puts gold at $4,341.40 an ounce. At 31.1035 grams to the troy ounce that is $139.58 a gram, and at the dirham's fixed peg of 3.6725 to the dollar it is AED 512.59 a gram. Both conversions are this desk's arithmetic and are published by nobody. LivePriceOfGold's 512.45 sits AED 0.14 from that figure, three hundredths of one per cent, and the page states that it prints a raw gold rate to which commission and labour charges are added. Goodreturns' 523.25 sits AED 10.66 above it. Neither page is wrong. They are not publishing the same quantity.",
+   "The series makes the point harder than a single morning can. Goodreturns' own ten-day table for Dubai runs AED 485.25 on 1 August, 487.25 on the 2nd and 3rd, 485.50 on the 4th, 492.25 on the 5th, 510.25 on the 6th, 510.50 on the 7th, 523.75 on the 8th, and 523.25 on the 9th and again today, the page reporting no change at all against yesterday. Between 7 and 8 August that page stepped up AED 13.25 a gram. Spot gold across the same span moved from $4,314.50 to $4,341.30 an ounce, which is AED 3.13 a gram at the peg. Roughly AED 10 of that step was not the metal, and the page has held the new level flat for three days while spot has kept moving.",
+   "This resolves a question this paper left open. On 7 August the edition printed three UAE retail readings for the same session and declined to choose between them: Khaleej Times at AED 517.50 a gram, one bureau desk at AED 510.25 and another at AED 514.00. Read against today's finding, those are not three attempts at one number. The peg arithmetic for 7 August gives AED 509.42, so the 510.25 sits on the raw-metal lane and the 517.50 sits on the counter lane. The spread this desk carried as an unresolved divergence across three editions was a category error rather than a data error, because it had not yet been established that two different quantities circulate under one name.",
+   "The desk's view: the number you quote is only as good as the lane it came from, and the Gulf gold trade currently runs two lanes under one label. There is nothing improper about either page. A raw-metal converter is the right instrument for hedging and for costing scrap; a counter rate is the right instrument for pricing a retail window. The failure is that neither is labelled clearly enough for a buyer to tell them apart, and the distance between them was 0.21% on 7 August against 2.11% today, so the error is not even stable enough to correct for by habit. The practical instruction for anyone dealing into the UAE this month is to stop quoting the Dubai gold rate as a single figure and to state the peg arithmetic beside it. At $4,341.40 an ounce the metal is AED 512.59 a gram, and everything above that line is somebody's margin rather than the metal."
+  ],
+  "sources": [
+   {
+    "title": "Gold, Silver, Platinum & Palladium Spot Prices — Kitco (10 August 2026, 5:57am EST live board)",
+    "url": "https://www.kitco.com/price/precious-metals"
+   },
+   {
+    "title": "Dubai Gold Price Live, 24-hour, in United Arab Emirates dirhams — LivePriceOfGold (10 August 2026, 10:07 UTC)",
+    "url": "https://www.livepriceofgold.com/dubai-gold-price.html"
+   },
+   {
+    "title": "Today's Gold Rate in Dubai, 18, 22 & 24 Carat — Goodreturns (10 August 2026, with ten-day table)",
+    "url": "https://www.goodreturns.in/gold-rates/dubai.html"
+   },
+   {
+    "title": "Every metal runs before payrolls — Carat Capital (7 August 2026)",
+    "url": "https://caratcapital.org/a-every-metal-runs-before-payrolls.html"
+   }
+  ]
+ },
+ {
+  "slug": "five-point-nine-million-pieces",
+  "desk": "gold-metals",
+  "date": "2026-08-10",
+  "lead": false,
+  "kicker": "Gold & Metals Desk · India",
+  "minutes": 5,
+  "byline": "The Gold & Metals Desk",
+  "tags": [
+   "NUM",
+   "VS",
+   "STAKES"
+  ],
+  "title": "5.9 million pieces: India's silver rush reaches the assay office",
+  "dek": "Hallmarked silver articles in India nearly doubled to 5.9 million in the 2025-26 financial year from 3.2 million. About 230 centres handle the testing, and the standards bureau says its own labs cover roughly two more years.",
+  "body": [
+   "India hallmarked 5.9 million silver articles in the 2025-26 financial year, against 3.2 million the year before, an increase of about 84% that this desk derives from the two published counts. The Bureau of Indian Standards disclosed the figures on 9 August alongside a plan to scale up testing and certification capacity, and named the cause plainly: consumers moving into silver because gold has become unaffordable. Silver hallmarking in India has been voluntary since 2005, and the bureau has set no timeline for making it mandatory.",
+   "The infrastructure numbers give the scale of the build. About 230 bureau-recognised assaying and hallmarking centres currently handle silver testing across the country. The bureau's recognised laboratory network has gone from 147 in 2014 to 440 today, and government-empanelled laboratories from 24 to 350, against ten standalone bureau laboratories and roughly 270,000 product samples tested. Nishat S Haque, the bureau's deputy director general for laboratories, said the expansion runs over the next two years: \"Within that period, we will be expanding referral and assay laboratories across the country.\" Gold surveillance stays in-house; silver testing is being pushed out to the recognised centres while capacity catches up.",
+   "The substitution behind the number is one this paper has been tracking in pieces all year without a volume measure attached to it. Indian gold jewellery demand fell 15% by weight in the second quarter to 75.1 tonnes, its lowest second quarter since the pandemic, while the value of that demand rose about 50%. Kalyan Jewellers took more than 46% of its June-quarter revenue in recycled metal and more than 55% in the month of June alone. Those are demand-side and sourcing-side readings of the same pressure. A hallmarking count is neither: it is a physical count of finished articles passing through a testing centre. The assay office is where a substitution stops being anecdote and becomes volume.",
+   "What is missing from the announcement is the thing the trade would most like to know. There is no mandatory-hallmarking date for silver, which means the 5.9 million figure is a count of articles voluntarily submitted rather than a census of what India actually made. Gold's own mandatory regime, phased in from 2021, roughly tripled the certified count in its first three years, so the silver series is measuring the leading edge of a market rather than its size. The bureau introduced a hallmark unique identification number for silver in September 2025, which is the piece of plumbing a mandatory regime would need, and it is already in place.",
+   "The desk's view: hallmarking capacity is the least glamorous leading indicator in the metals trade, and this week it is the clearest one. Consumer surveys record intent, retailers report revenue that gold's price inflates on its own, and both can move without a single extra piece being made. An assay count cannot: every article in it physically exists and physically passed a test. Silver bid $63.99 an ounce on this paper's tape this morning, up 0.83% while gold sat flat, and the gold-to-silver ratio narrowed to 67.84 from 68.41. For a manufacturer weighing a silver line for the Indian festival season, the number to plan against is not the ratio, it is 230 testing centres against a submission count that has nearly doubled in a year. That is where the queue will form."
+  ],
+  "sources": [
+   {
+    "title": "Gold price surge drives silver rush: BIS ramps up hallmarking labs across India — Business Today (9 August 2026)",
+    "url": "https://www.businesstoday.in/india/story/gold-price-surge-drives-silver-rush-bis-ramps-up-hallmarking-labs-across-india-548176-2026-08-09"
+   },
+   {
+    "title": "BIS to scale up silver hallmarking testing as buyers shift from costly gold — Business Standard (9 August 2026)",
+    "url": "https://www.business-standard.com/industry/news/bis-to-scale-up-silver-hallmarking-testing-as-buyers-shift-from-costly-gold-126080900171_1.html"
+   },
+   {
+    "title": "BIS to Scale Up Silver Jewellery Testing as Hallmarking Demand Rises — The Daily Pioneer (9 August 2026)",
+    "url": "https://dailypioneer.com/news/bis-to-scales-up-silver-testing-as-buyers-shift-from-gold"
+   },
+   {
+    "title": "India buys fifteen percent less — Carat Capital (31 July 2026)",
+    "url": "https://caratcapital.org/a-india-buys-fifteen-percent-less.html"
+   },
+   {
+    "title": "Gold, Silver, Platinum & Palladium Spot Prices — Kitco (10 August 2026, 5:57am EST live board)",
+    "url": "https://www.kitco.com/price/precious-metals"
+   }
+  ]
+ },
+ {
+  "slug": "etsy-calls-it-speed",
+  "desk": "retail-tech",
+  "date": "2026-08-10",
+  "lead": false,
+  "kicker": "Retail & Technology Desk · Marketplaces",
+  "minutes": 5,
+  "byline": "The Retail Desk",
+  "tags": [
+   "ACTOR",
+   "NUM",
+   "GAP"
+  ],
+  "title": "Etsy cuts 12% of staff, and calls it speed",
+  "dek": "Etsy is cutting about 220 jobs, roughly 12% of the marketplace workforce, at a $35 million charge, leaving about 1,600 staff. It announced the cut alongside revenue up 6.2% to $668.3 million.",
+  "body": [
+   "Etsy is removing about 220 roles, roughly 12% of its marketplace workforce, in a restructuring that falls mainly on the product and engineering organisation. The company put the estimated charge at about $35 million, primarily severance and benefits, booked in the third quarter and completed before the quarter closes. About 1,600 employees remain. The plan was disclosed on 6 August alongside second-quarter results, and the company said explicitly that the cuts are not a cost-reduction exercise and are not related to artificial intelligence.",
+   "The results it was announced against were not weak ones. Revenue for the quarter was $668.3 million, up 6.2% year on year, against a FactSet consensus of $646.1 million. Gross merchandise sales from continuing operations were $2.58 billion, with Etsy-only gross merchandise sales up 7.5%. The take rate improved to 25.9%. Active sellers grew 5.9% to 5.7 million while active buyers slipped 0.4% to 87.0 million. The reported net loss of $46.7 million is a discontinued-operations figure, carrying $161 million of losses on Depop rather than anything from the core marketplace. Etsy cut its product and engineering bench in a quarter it beat.",
+   "The reason this belongs on a jewellery desk rather than a technology one is the seller count. Jewellery and personal accessories is one of the six largest categories by gross merchandise sales in Etsy's own filings, and third-party estimates put it near 30% of the platform total, a figure this desk carries as an outside estimate rather than as an Etsy number because Etsy does not publish a category split. Against 5.7 million active sellers, a large share of the world's independent jewellery makers reach their customers through this one company's search ranking, fee schedule and product decisions. Those decisions are now being made by a product and engineering organisation that is materially smaller than it was a week ago.",
+   "The company's framing is that structure, not headcount, was the problem. Leadership described the goal as \"flatter teams with wider remits, fewer handoffs, and quicker decisions\", and the chief executive, Kruti Patel Goyal, who took the role earlier this year, put it to staff as building an organisation that can move faster. Wedbush read the reduction as supportive of the gross merchandise sales trend rather than a signal of trouble with it. Whether that holds is a question about execution speed on a marketplace where sellers feel every ranking change directly, and it will be visible in the seller count long before it is visible in revenue.",
+   "The desk's view: a flatter org chart is a bet that coordination, not headcount, was the constraint, and it is a bet a company only makes from a position of some confidence. The figures support the confidence. Gross merchandise sales are growing, the take rate is rising and sellers are still joining. The risk sits on the other side of the ledger and it is specific to makers: 220 people leaving product and engineering means fewer hands on the mechanisms an independent jeweller depends on, and the buyer count has already gone slightly backwards while the seller count climbs. More sellers competing for fewer buyers is a ranking problem before it is anything else. For any maker with meaningful revenue on the platform, the useful action this quarter is to price the risk of a single channel rather than to react to the headline: 5.7 million sellers is the number to hold, not 220."
+  ],
+  "sources": [
+   {
+    "title": "Etsy, Inc. Q2 2026 quarterly report (Form 10-Q), quarter ended 30 June 2026 — via StockTitan",
+    "url": "https://www.stocktitan.net/sec-filings/ETSY/10-q-etsy-inc-quarterly-earnings-report-775df6d362ca.html"
+   },
+   {
+    "title": "Etsy lays off 220 employees, about 12% of its workforce, in a restructuring that mainly hits product and engineering teams — Shopifreaks (6 August 2026)",
+    "url": "https://www.shopifreaks.com/etsy-lays-off-220-employees-about-12-of-its-workforce-in-a-restructuring-that-mainly-hits-product-and-engineering-teams/"
+   },
+   {
+    "title": "Etsy lays off 12% of workforce as part of restructuring plan — Reuters via Yahoo Finance (5 August 2026)",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/etsy-lays-off-12-worker-200744617.html"
+   },
+   {
+    "title": "Etsy's Workforce Reduction May Help Sustain Gross Merchandise Sales Uptrend, Wedbush Says — MarketScreener",
+    "url": "https://www.marketscreener.com/news/etsy-s-workforce-reduction-may-help-sustain-gross-merchandise-sales-uptrend-wedbush-says-ce7f50d2d180f12d"
+   }
+  ]
+ },
+ {
+  "slug": "five-billion-in-one-thirteen",
+  "desk": "retail-tech",
+  "date": "2026-08-10",
+  "lead": false,
+  "kicker": "Retail & Technology Desk · Restructuring",
+  "minutes": 5,
+  "byline": "The Retail Desk",
+  "tags": [
+   "NUM",
+   "RECORD",
+   "ACTOR"
+  ],
+  "title": "$5 billion of debt, gone in 113 days: QVC exits",
+  "dek": "QVC Group left Chapter 11 on 7 August, 113 days after filing, having cut more than $5 billion of debt. It issued $1.2 billion of 10% notes due 2032 and secured a $600 million facility.",
+  "body": [
+   "QVC Group formally emerged from Chapter 11 protection on 7 August, having filed on 16 April. That is 113 days from filing to exit, a count derived by this desk from the two dates, and an unusually fast passage for a company of this size. The restructuring removed more than $5 billion of debt from the balance sheet. The parent of QVC and HSN went into court with a pre-negotiated plan specifically to compress the timetable, and the plan was approved in July before the exit closed last week.",
+   "The financing that came out the other side is the part worth reading closely. Five billion dollars of debt left the business in 113 days, and $1.2 billion of new paper walked back in at 10%. Those take-back notes, disclosed in a regulatory filing, run to 2032 and carry a 10% coupon, which is what the credit market charges a television retailer emerging from bankruptcy this year. Alongside them sits a $600 million asset-based lending facility, secured against inventory and receivables rather than against the business's prospects. The equity has been approved for trading on Nasdaq under the ticker QVCG.",
+   "The board and the corner office turned over with the capital structure. David Rawlinson, chief executive since 2021, stepped down at the exit. Mike George, who ran QVC for more than a decade before Rawlinson, returns as interim chief executive and board chair with immediate effect, alongside a new eight-member board appointed by the incoming owners. A company that has just handed control to its creditors bringing back the executive who ran it through its strongest years is a specific statement about which period it intends to imitate.",
+   "For the jewellery trade the exposure is direct rather than theoretical. Fine and fashion jewellery has been among the top-selling categories on the QVC platform, and for a set of suppliers the network has functioned as a volume channel that no other retail format replicates: long-form demonstration, repeat scheduling and a house diamond-simulant brand with three decades of customer recognition behind it. Alex Hennick, president and chief executive of A.D. Hennick & Associates, said of the exit that \"QVC still has tremendous brand recognition, loyal customers, and strong vendor relationships\". Vendor relationships are the ones that survived the filing; the audience is the one that has been shrinking for years and is the reason for it.",
+   "The desk's view: a balance sheet can be fixed in four months; a viewing habit cannot. The court process did exactly what it was designed to do, and it did it fast, but nothing in 113 days addresses the structural problem, which is that live television shopping is losing the audience it monetises and the fix requires building a digital business against platforms that started there. The 10% coupon is the honest verdict on the odds, because that is the price of money for this company after the debt was cut by more than $5 billion, and it is the number a supplier should weigh rather than the headline reduction. For anyone with jewellery inventory committed to the channel, the practical read is that the counterparty risk is materially lower than it was in April and the demand risk is exactly where it was."
+  ],
+  "sources": [
+   {
+    "title": "QVC Exits Chapter 11 With Focus on 'Innovative Shopping Experiences' — JCK (7 August 2026)",
+    "url": "https://www.jckonline.com/editorial-article/qvc-cuts-debt-exits-chapter-11/"
+   },
+   {
+    "title": "QVC Group exits Chapter 11, CEO steps down — Retail Dive (August 2026)",
+    "url": "https://www.retaildive.com/news/qvc-exits-chapter-11-ceo-steps-down/827314/"
+   },
+   {
+    "title": "QVC Issues $1.2 Billion of 10% Yield Debt as It Exits Bankruptcy — Bloomberg (7 August 2026)",
+    "url": "https://www.bloomberg.com/news/articles/2026-08-07/qvc-issues-1-2-billion-of-10-yield-debt-as-it-exits-bankruptcy"
+   },
+   {
+    "title": "QVC Group Emerges From Bankruptcy With $600 Million Asset-Backed Facility — PYMNTS (August 2026)",
+    "url": "https://www.pymnts.com/news/retail/2026/qvc-group-emerges-from-bankruptcy-with-600-million-dollar-asset-backed-facility/"
+   }
+  ]
+ },
+ {
+  "slug": "pandoras-third-seat",
+  "desk": "retail-tech",
+  "date": "2026-08-10",
+  "lead": false,
+  "kicker": "Retail & Technology Desk · Brands",
+  "minutes": 4,
+  "byline": "The Retail Desk",
+  "tags": [
+   "ACTOR",
+   "GAP",
+   "STAKES"
+  ],
+  "title": "Pandora's third seat in a year comes from Walmart",
+  "dek": "Paulo Garcia joins Pandora on 1 October and becomes chief financial officer on 1 December, succeeding Anders Boyer after more than 14 years. He arrives from Walmart's $50 billion Mexican and Central American business.",
+  "body": [
+   "Pandora named Paulo Garcia as chief financial officer on 6 August. He joins the company on 1 October and takes the role on 1 December, succeeding Anders Boyer, who retires on 30 November after more than fourteen years and stays on until 31 March 2027 to hand over. A two-month overlap before the title changes and a four-month tail afterwards is a long handover by the standards of a listed company, and it is the shape a board uses when it wants continuity rather than a break.",
+   "The curriculum vitae is the announcement. Garcia is a Portuguese national with twenty-five years of international executive experience and arrives from the chief financial officer's seat at Walmart de Mexico y Centroamerica, a separately listed subsidiary with about $50 billion of revenue and 240,000 employees. Before that he was chief financial officer for Europe and Indonesia at Ahold Delhaize, and before that he was at Unilever. Grocery, discount retail and fast-moving consumer goods, at very large scale, three times over. There is no jewellery on it.",
+   "That is now a pattern rather than a hire. Three of the top seats turn over inside twelve months at the largest jewellery company in the world by units. Berta de Pablos-Barbier takes office as chief executive on 1 January, arriving from beauty, a move this paper noted on 5 August when the company also named Andre Branch president of its North America cluster. The finance seat completes the set. A jewellery company with about 7,000 points of sale, more than 2,800 concept stores and roughly 39,000 employees on its own published figures is being handed to executives whose track record is in moving volume through large distribution networks.",
+   "There is a coherent argument for it. Pandora has never really been a jeweller in the trade's sense; it is a charm and silver business that sells enormous quantities at accessible prices, and it now sells lab-grown diamonds in eight markets, having added Spain and Italy in June with flagships in Barcelona and Milan. Read that way, the binding constraints are supply chain, store productivity and price architecture, which is precisely what a Walmart or an Ahold finance chief spends a career on. Read the other way, the company is about to make a series of judgements about materials, provenance and what a diamond is worth, and nobody at the top of it has made those judgements before.",
+   "The desk's view: Pandora is being rebuilt by people who sell volume, not by people who sell jewellery, and the trade should treat that as information about where the category is going rather than as a comment on the individuals. This is the largest jewellery company in the world deciding that its next problems are retail-operations problems. If it is right, the competitive pressure on independents shifts further away from design and further towards price, availability and store economics, which is the terrain a $50 billion grocery operator knows and a bench jeweller does not. The date to mark is 1 January rather than 1 December. A chief financial officer arriving eight weeks before a new chief executive takes office means the first full budget this company writes will be written by two people who both arrived from somewhere else."
+  ],
+  "sources": [
+   {
+    "title": "Pandora appoints Paulo Garcia as new CFO as Anders Boyer will retire — Pandora Group (6 August 2026)",
+    "url": "https://www.pandoragroup.com/news/27941"
+   },
+   {
+    "title": "Pandora Taps Paulo Garcia as CFO, with Anders Boyer Set to Retire — WWD (6 August 2026)",
+    "url": "https://wwd.com/business-news/human-resources/pandora-chief-financial-officer-paulo-garcia-1239095598/"
+   },
+   {
+    "title": "Pandora names Paulo Garcia as new CFO, Anders Boyer to retire — FashionUnited (6 August 2026)",
+    "url": "https://fashionunited.uk/news/people/pandora-names-paulo-garcia-as-new-cfo-anders-boyer-to-retire/2026080689651"
+   },
+   {
+    "title": "Pandora fills the seat — Carat Capital (5 August 2026)",
+    "url": "https://caratcapital.org/a-pandora-fills-the-seat.html"
+   }
+  ]
+ },
+ {
   "slug": "four-times-melt",
   "desk": "auctions",
   "date": "2026-08-09",
-  "lead": true,
+  "lead": false,
   "kicker": "Lead Story · Auctions Desk",
   "minutes": 5,
   "byline": "The Auctions Desk",
