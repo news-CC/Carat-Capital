@@ -1739,155 +1739,146 @@ def article_page(a):
 {SCRIPT}"""
 
 # ---------------- INDEX ----------------
-def index_page():
-    LEAD = lead_article()
-    lead_href = f"a-{LEAD['slug']}.html" if LEAD else "#"
-    latest_date = max(a["date"] for a in ARTICLES)
-    lead_photo = photo_plate(LEAD["slug"], cls="plate-hero", eager=True, label="Plate I") if LEAD else ""
-    if not lead_photo and LEAD:
-        lead_photo = desk_hero_plate(LEAD.get("desk","diamonds"), "PLATE I")
-    # stat band from the lead's editorial numbers strip
-    statband = ""
-    ed = (LEAD or {}).get("ed") or {}
-    cells = (ed.get("strip") or {}).get("cells", [])[:3]
-    if cells:
-        tiles = "".join(f'<a class="sb-tile" href="{lead_href}"><div class="v">{c["fig"]}</div><div class="l">{c["lab"]}</div></a>' for c in cells)
-        statband = (f'<section class="statband sec--tint"><div class="wrap"><div class="sb-grid rv">{tiles}'
-                    f'<a class="sb-tile sb-more" href="almanac.html"><div class="v">→</div><div class="l">The quarter in numbers</div></a></div></div></section>')
-    # pull-quote band from the lead's flow
-    quote, attr = "", ""
-    for it in ed.get("flow", []):
-        if "pull" in it:
-            quote, attr = it["pull"]["q"], it["pull"].get("attr",""); break
-    if not quote:
-        quote, attr = "Every stone has a price. The story is who pays it.", "The masthead"
-    plateband = (f'<section class="plateband"><div class="wrap"><blockquote class="rv">&ldquo;{quote}&rdquo;</blockquote>'
-                 f'<div class="attr rv">— {attr}</div></div></section>')
-    railmini = '<div class="rm-k">Also filed today</div>' + "".join(
-        f'<a href="a-{x["slug"]}.html"><span class="rm-d">{DESK_NAMES.get(x.get("desk"),"")[:14]}</span>{x["title"]}</a>'
-        for x in [a for a in ARTICLES if not a.get("lead")][:3])
-    # price rail (compact tape)
-    chips = ""
-    for t in WIRE.get("tape", [])[:5]:
-        if t["code"] == "NAT1":
-            chips += f"""<a class="chip chip--cta" href="natural-diamond-prices.html"><span class="nm">{t['name']}</span><span class="px">{t['px']}</span><span class="d {t['dir']}">{t['chg']}</span><span class="cta">See all natural prices →</span></a>"""
-        elif t["code"] == "LGD1":
-            chips += f"""<a class="chip chip--cta" href="lab-grown-diamond-prices.html"><span class="nm">{t['name']}</span><span class="px">{t['px']}</span><span class="d {t['dir']}">{t['chg']}</span><span class="cta">See all lab-grown prices →</span></a>"""
-        else:
-            chips += f"""<a class="chip" href="almanac.html"><span class="nm">{t['name']}</span><span class="px">{t['px']}</span><span class="d {t['dir']}">{t['chg']}</span></a>"""
-    # desk navigator: latest story per desk + count
-    # desk of the day = most stories filed today; runner-up gets the second wide card
-    fresh_counts = {d["slug"]: sum(1 for a in ARTICLES if a.get("desk") == d["slug"] and a["date"] == latest_date) for d in DESKS}
-    ranked = sorted(DESKS, key=lambda d: (-fresh_counts[d["slug"]], int(d["no"])))
-    lead_desk = ranked[0]["slug"]
-    wide_desk = ranked[1]["slug"] if len(ranked) > 1 else None
-    cards = ""
-    for d in DESKS:
-        da = [a for a in ARTICLES if a.get("desk") == d["slug"]]
-        top = da[0] if da else None
-        if top and LEAD and top["slug"] == LEAD["slug"] and len(da) > 1:
-            top = da[1]
-        fresh = '<span class="new">NEW TODAY</span>' if top and top["date"] == latest_date else (f'<span class="dt">{top["date"]}</span>' if top else "")
-        acc = DESK_ACCENTS.get(d["slug"], "#96762E")
-        _hero = DESK_HERO.get(d["slug"])
-        bg = f'<div class="dc-bg"><img src="assets/ph/{_hero}.jpg" alt="" loading="lazy" decoding="async"></div>' if (_hero and _hero in PH) else ""
-        if d["slug"] == lead_desk and top:
-            xcls, badge = "dcard--lead", '<span class="deskled">Desk of the day</span>'
-        elif d["slug"] == wide_desk and top:
-            xcls, badge = "dcard--wide", f'<span class="glyph">{desk_glyph(d["slug"], 34)}</span>'
-        else:
-            xcls, badge = "", f'<span class="glyph">{desk_glyph(d["slug"], 34)}</span>'
-        cards += f"""<a class="dcard {xcls} rv" href="{d['slug']}.html" style="--da:{acc}">{bg}
-      <div class="row1"><span class="no">D—{d['no']}</span>{badge}<span class="ct">{len(da)} stories</span></div>
-      <h3>{d['title']}</h3>
-      <div class="tagl">{d['tag']}</div>
-      <div class="latest">{fresh}<span class="lt">{top['title'] if top else ''}</span></div>
-      <div class="go">Open the desk →</div>
-    </a>"""
-    # today's edition: 4 newest non-lead headlines
-    rows = ""
-    others = [a for a in ARTICLES if not a.get("lead")][:5]
-    _used_imgs = set()
-    for i, a in enumerate(others, 2):
-        _img, _own = best_img(a["slug"], a.get("desk"))
-        if _img and not _own and _img in _used_imgs:
-            _img = ""  # don't repeat the same category photo twice; fall back to a glyph
-        if _img:
-            _used_imgs.add(_img)
-        if _img:
-            cell = f'<span class="th{"" if _own else " th--desk"}" style="--da:{DESK_ACCENTS.get(a.get("desk"),"#96762E")}"><img src="{_img}" alt="" loading="lazy" decoding="async"></span>'
-        else:
-            cell = f'<span class="th thg" style="--da:{DESK_ACCENTS.get(a.get("desk"),"#96762E")}">{desk_glyph(a.get("desk","diamonds"), 34)}</span>'
-        if i == 2:
-            rows += f"""<a class="trow trow--lead" href="a-{a['slug']}.html">{cell}<span class="tx"><span class="t">{figwrap(a['title'])}</span><span class="dk">{(a['dek'] if len(a['dek'])<=150 else a['dek'][:150].rsplit(' ',1)[0].rstrip(',;— ') + ' …')}</span><span class="m meta-serif">{DESK_NAMES.get(a['desk'],'')} · {a['minutes']} min</span></span></a>"""
-        else:
-            rows += f"""<a class="trow" href="a-{a['slug']}.html"><span class="n">{i:02d}</span>{cell}<span class="t">{a['title']}</span><span class="m">{DESK_NAMES.get(a['desk'],'')} · {a['minutes']} min</span></a>"""
-    return f"""{head("CARAT CAPITAL — The Trade Paper of the Jewelry World",
-      "Carat Capital is the trade paper of the global jewelry industry. Prices, intelligence and reporting from every desk of the stone trade.")}
-{navbar()}
-{omenu()}
-{wire_block()}
-<header class="nameplate home-plate rv in">
-  {HALLROW}
-  <div class="h1">CARAT<span class="caret">^</span>CAPITAL</div>
-  <div class="plate-sub">The Trade Paper of the Jewelry World</div>
-</header>
-<section class="heroF" id="front">
-  <div class="wrap"><div class="hf-grid">
-    <article class="rv">
-      <div class="kick">{LEAD['kicker'] if LEAD else 'Lead Story'}</div>
-      <h2 class="lead-h"><a href="{lead_href}">{figwrap(LEAD['title']) if LEAD else ''}</a></h2>
-      <p class="lead-dek">{LEAD['dek'] if LEAD else ''}</p>
-      <div class="byline meta-serif">By <b>{LEAD['byline'] if LEAD else ''}</b> · {LEAD['minutes'] if LEAD else 0} min read</div>
-      {lead_photo}
-      <a class="hf-cta" href="{lead_href}">Read this morning&rsquo;s lead →</a>
-    </article>
-    <aside class="pricerail rv rv-d1">
-      <div class="pr-head"><span>The Price Desk</span><span class="live">● {WIRE.get("tape_ts","")}</span></div>
-      <div class="chips">{chips}</div>
-      <a class="pr-more" href="almanac.html">Full tape &amp; tables →</a>
-      <div class="rail-foot">
-        <div class="ed-line">{WIRE.get('date_line','')} · {WIRE.get('edition','')}</div>
-        <div class="rail-sub">
-          <div class="k">The Morning Brief · free</div>
-          <div class="row"><input id="rs-em" type="email" placeholder="you@thetrade.com" aria-label="Email">
-          <a class="go" href="https://caratcapital.beehiiv.com" target="_blank" rel="noopener" onclick="var v=document.getElementById('rs-em').value;if(v)this.href='https://caratcapital.beehiiv.com/subscribe?email='+encodeURIComponent(v)">Join →</a></div>
-          <div class="n">The trade, before the New York open.</div>
-        </div>
-        <div class="rail-mini">{railmini}</div>
-        <a class="fg-card" href="field-guide.html"><span class="fk">New here?</span><span>Start with the Field Guide →</span></a>
-      </div>
-    </aside>
-  </div></div>
-</section>
-<section class="desknav" id="desks">
-  <div class="wrap">
-    <div class="sec-mast rv"><h2>Find <em>your</em> desk.</h2><div class="mono-note">Six industries · one paper · updated daily</div></div>
-    <div class="dn-grid">{cards}</div>
-  </div>
-</section>
-{statband}
-<section class="todayed sec--rule-gilt">
-  <div class="wrap">
-    <div class="sec-mast rv"><h2>Also in today&rsquo;s paper<em>.</em></h2><div class="mono-note">{WIRE.get("edition","")}</div></div>
-    <div class="te-list rv">{rows}</div>
-    <div class="te-links rv"><a href="the-record.html">Eight weeks of the trade → The Record</a><a href="almanac.html">The quarter in numbers → The Almanac</a><a href="field-guide.html">New to the trade? → The Field Guide</a></div>
-  </div>
-</section>
-{plateband}
-<section class="homebrief">
-  <div class="wrap"><div class="hb-in rv">
-    <div class="k">The Morning Brief · free</div>
-    <h3>The trade, filed to your inbox before the New York open.</h3>
-    <p>Prices, tenders and the one story that moved the industry overnight — read in ninety seconds.</p>
-    <a class="btn" href="https://caratcapital.beehiiv.com" target="_blank" rel="noopener">Subscribe free →</a>
-  </div></div>
-</section>
-<div class="subbar"><span>The Morning Brief — free, before the NY open</span><a href="https://caratcapital.beehiiv.com" target="_blank" rel="noopener">Subscribe →</a></div>
-{colophon()}
-{SCRIPT}"""
+# ---------------- FRONT PAGE (the Dawn Edition homepage) ----------------
+# The design lives in home_template.html; everything dated or priced is
+# injected here so the page re-dresses itself on every build.
+HOME_TPL = (ROOT / "home_template.html")
 
-# ---------------- FIELD GUIDE (education hub) ----------------
+def _num(px):
+    """'4,341.40' -> 4341.40 ; returns None if it is not a number."""
+    try: return float(str(px).replace(",", "").replace("$", "").strip())
+    except Exception: return None
+
+def _tape_code(code):
+    for t in WIRE.get("tape", []):
+        if t.get("code") == code: return t
+    return None
+
+def _short_date(dl):
+    """'Monday, August 10, 2026' -> '10 Aug'"""
+    import re as _re
+    m = _re.search(r"([A-Z][a-z]+)\s+(\d{1,2})", dl or "")
+    return "%s %s" % (m.group(2), m.group(1)[:3]) if m else (dl or "")
+
+def _dircls(d):
+    return {"up":"up","down":"dn","flat":"fl"}.get(d, "fl")
+
+def index_page():
+    import json as _json
+    LEAD = lead_article()
+    tape = WIRE.get("tape", [])
+    xau, nat, lgd = _tape_code("XAU"), _tape_code("NAT1"), _tape_code("LGD1")
+    xag = _tape_code("XAG")
+    spot_ag = _num((xag or {}).get("px")) or 63.99
+    spot_ag_txt = (xag or {}).get("px", "63.99")
+    spot = _num(xau["px"]) if xau else 4341.30
+    spot_txt = (xau or {}).get("px", "4,341.30")
+    asof = WIRE.get("tape_ts") or WIRE.get("date_line") or ""
+    dateline = WIRE.get("date_line", "")
+    edition = WIRE.get("edition", "")
+    ed_short = edition.split("—")[-1].strip() if "—" in edition else edition
+
+    # ── the running tape ──
+    tape_rows = [[t["name"].upper(), t["px"], _dircls(t.get("dir")), t.get("chg","")] for t in tape[:6]]
+    tape_rows.append(["EDITION", ed_short or "—", "up", "● PRINTED 06:00 ET"])
+    tape_rows.append(["SPECIMEN TAPE", "illustrative", "fl", "not quoted"])
+
+    # ── the price desk tabs ──
+    px_rows = []
+    for i, t in enumerate(tape[:5]):
+        px_rows.append({"k": t["name"], "v": t["px"], "d": t.get("chg",""),
+                        "cls": _dircls(t.get("dir")), "seed": 3 + i*7,
+                        "trend": 1 if t.get("dir")=="up" else (-1 if t.get("dir")=="down" else 1),
+                        "ft": "as carried on the tape"})
+    if not px_rows:
+        px_rows = [{"k":"Gold / oz","v":spot_txt,"d":"— unch.","cls":"fl","seed":9,"trend":1,"ft":"Kitco spot basis"}]
+
+    # ── the counter sheet: arithmetic on the tape, never invented ──
+    perg = spot / 31.1035
+    natv, lgdv = _num((nat or {}).get("px")), _num((lgd or {}).get("px"))
+    ledger = [{
+      "num": "$%s" % f"{perg:,.2f}", "lab": "per gram, fine", "dk": "#E8C06A", "desk": "D—02 Gold",
+      "move": "Gold sits at %s the ounce%s." % (spot_txt, (", " + xau["chg"].replace("—","").strip()) if xau and xau.get("chg") else ""),
+      "ctr": "A 5&nbsp;g 18ct band carries about $%s of metal before you have made a thing on it." % f"{perg*0.75*5:,.0f}",
+      "viz": {"t":"spark","seed":9,"trend":1,"lo":"the tape","hi":spot_txt},
+      "work": ["%s &divide; 31.1035 g = %s per gram fine" % (spot_txt, f"{perg:,.2f}"),
+               "%s &times; 0.750 (18ct) = %s per gram at 18ct" % (f"{perg:,.2f}", f"{perg*0.75:,.2f}"),
+               "%s &times; 5 g = %s" % (f"{perg*0.75:,.2f}", f"{perg*0.75*5:,.2f}")],
+      "src": ["Full tape &amp; tables", "almanac.html"]}]
+    if natv and lgdv:
+        ledger.append({
+          "num": "%.1f&times;" % (natv/lgdv), "lab": "natural : lab", "dk": "#8CC5FF", "desk": "D—01 Diamonds",
+          "move": "Natural one-carat at %s against lab-grown at %s." % (nat["px"], lgd["px"]),
+          "ctr": "The same look at a fraction of the ticket. Your case has to answer for the difference, out loud.",
+          "viz": {"t":"ratio","a":["Natural",natv,"#8CC5FF"],"b":["Lab",lgdv,"rgba(220,234,245,.30)"]},
+          "work": ["%s &divide; %s = %.2f&times;" % (nat["px"], lgd["px"], natv/lgdv),
+                   "both figures as carried on this morning&rsquo;s tape"],
+          "src": ["The lab-grown price list", "lab-grown-diamond-prices.html"]})
+    # two editorial lines, taken from whatever the desks actually filed
+    _seen = {LEAD["slug"]} if LEAD else set()
+    for a in ARTICLES:
+        if len(ledger) >= 4: break
+        if a.get("lead") or a["slug"] in _seen: continue
+        _seen.add(a["slug"])
+        ledger.append({
+          "num": "&rarr;", "lab": DESK_NAMES.get(a.get("desk"), "the desks"),
+          "dk": "#6FE3E3", "desk": "D—%s" % next((d["no"] for d in DESKS if d["slug"]==a.get("desk")), "06"),
+          "move": a["title"],
+          "ctr": (a.get("dek") or "")[:150],
+          "viz": {"t":"split","a":["Filed today",100,"#6FE3E3"],"b":["",0,"rgba(220,234,245,.22)"]},
+          "work": ["filed by %s" % a.get("byline","the desk"), "%s minutes" % a.get("minutes",5)],
+          "src": [a["title"], "a-%s.html" % a["slug"]]})
+
+    # ── today's paper: the six behind the lead ──
+    arts = []
+    for a in [x for x in ARTICLES if not x.get("lead")][:6]:
+        arts.append({"h": a["title"], "p": (a.get("dek") or "")[:120],
+                     "img": a["slug"] if a["slug"] in PH else "",
+                     "s": DESK_NAMES.get(a.get("desk"), "Desk"),
+                     "t": "%s min" % a.get("minutes", 5),
+                     "href": "a-%s.html" % a["slug"]})
+
+    # ── the desk board: what each desk actually filed ──
+    HUE = {"diamonds":"#8CC5FF","gold-metals":"#E8C06A","gemstones":"#4FD08A",
+           "watches":"#B79BFF","auctions":"#FF8FA8","retail-tech":"#6FE3E3"}
+    board = []
+    for d in DESKS:
+        da = desk_articles(d["slug"], 3)
+        if not da: continue
+        st = (d.get("stats") or [("—","")])[0]
+        board.append({"n": "D—%s" % d["no"], "t": d["title"], "c": HUE.get(d["slug"], "#C6A24A"),
+                      "seed": 3 + int(d["no"])*6, "trend": 1, "href": "%s.html" % d["slug"],
+                      "st": {"k": st[1], "v": st[0], "d": d.get("tag",""), "cls": "fl"},
+                      "a": [[x["title"], "a-%s.html" % x["slug"], "%s min" % x.get("minutes",5)] for x in da]})
+
+    lead_href = "a-%s.html" % LEAD["slug"] if LEAD else "#"
+    lead_img = "assets/ph/%s.jpg" % LEAD["slug"] if LEAD and LEAD["slug"] in PH else \
+               ("assets/ph/%s.jpg" % DESK_HERO.get((LEAD or {}).get("desk",""), "diamonds-hero"))
+    lead_plate = "Plate I — %s" % DESK_NAMES.get((LEAD or {}).get("desk"), "Carat Capital")
+
+    html = HOME_TPL.read_text()
+    for k, v in {
+      "__TAPE_JSON__": _json.dumps(tape_rows),
+      "__PX_JSON__": _json.dumps(px_rows),
+      "__PX0_K__": px_rows[0]["k"], "__PX0_V__": px_rows[0]["v"], "__PX0_D__": px_rows[0]["d"],
+      "__LEDGER_JSON__": _json.dumps(ledger),
+      "__ARTS_JSON__": _json.dumps(arts),
+      "__BOARD_JSON__": _json.dumps(board),
+      "__SPOT__": "%.2f" % spot, "__SPOT_TXT__": spot_txt,
+      "__SPOT_AG__": "%.2f" % spot_ag, "__SPOT_AG_TXT__": spot_ag_txt,
+      "__SPOT_AG_LINE__": "SILVER %s / OZ &middot; %s" % (spot_ag_txt, str((xag or {}).get("chg","")).upper()),
+      "__SPOT_LINE__": "GOLD %s / OZ &middot; %s" % (spot_txt, str((xau or {}).get("chg","")).upper()),
+      "__ASOF__": asof, "__DATELINE__": dateline, "__EDITION__": edition,
+      "__EDITION_SHORT__": ed_short, "__DATE_SHORT__": _short_date(dateline),
+      "__LEAD_KICKER__": (LEAD or {}).get("kicker","Lead story"),
+      "__LEAD_TITLE__": (LEAD or {}).get("title",""),
+      "__LEAD_DEK__": (LEAD or {}).get("dek",""),
+      "__LEAD_BY__": "%s · %s min read" % ((LEAD or {}).get("byline","The desk"), (LEAD or {}).get("minutes",5)),
+      "__LEAD_HREF__": lead_href, "__LEAD_IMG__": lead_img, "__LEAD_PLATE__": lead_plate,
+    }.items():
+        html = html.replace(k, str(v))
+    return html
+
 def field_guide():
     sections = ""
     for d in DESKS:

@@ -774,7 +774,7 @@ footer{border-top:1px solid var(--line);padding:56px 0 76px;margin-top:clamp(50p
           <button role="radio" aria-checked="true" data-m="0" class="on">Gold</button>
           <button role="radio" aria-checked="false" data-m="1">Silver</button>
         </span>
-        <span class="spot"><i></i><span id="spotline">GOLD 4,341.40 / OZ &middot; — +0.00%</span></span>
+        <span class="spot"><i></i><span id="spotline">__SPOT_LINE__</span></span>
       </div>
 
       <div class="bgrid">
@@ -810,7 +810,7 @@ footer{border-top:1px solid var(--line);padding:56px 0 76px;margin-top:clamp(50p
     </div>
 
     <div class="bfoot">
-      <span id="benchfoot">Derived from gold spot 4,341.40, 10 Aug 2026, 5:57am New York · Kitco live board · Editor's press-time read, written back to the tape &middot; specimen &mdash; verify before you quote</span>
+      <span id="benchfoot">Derived from gold spot __SPOT_TXT__, __ASOF__ &middot; specimen &mdash; verify before you quote</span>
       <a href="almanac" data-loupe="The tape">Full tape &amp; tables <span>&rarr;</span></a>
     </div>
   </div>
@@ -823,7 +823,7 @@ footer{border-top:1px solid var(--line);padding:56px 0 76px;margin-top:clamp(50p
     <div class="shead rv">
       <span class="n"><svg viewBox="0 0 40 40" aria-hidden="true"><use href="#m-scale"/></svg></span>
       <h2>Those are the prices.<br>This is what they cost you.</h2>
-      <span class="r">the counter sheet<br>No. 031 &middot; 10 Aug</span>
+      <span class="r">the counter sheet<br>__EDITION_SHORT__ &middot; __DATE_SHORT__</span>
     </div>
     <p class="lede rv rv-1" style="margin-bottom:clamp(22px,3.6vh,40px)">The bench tells you what the metal is worth.
       This tells you what the rest of the market is doing to your margin. Four lines, each one a figure
@@ -832,7 +832,7 @@ footer{border-top:1px solid var(--line);padding:56px 0 76px;margin-top:clamp(50p
 
     <div class="sheet rv rv-2">
       <div class="shbar">
-        <span>The counter sheet &middot; <b>No. 031</b> &middot; four lines &middot; struck 06:00 ET</span>
+        <span>The counter sheet &middot; <b>__EDITION_SHORT__</b> &middot; four lines &middot; struck 06:00 ET</span>
         <span>Tap any line for the working</span>
       </div>
       <div class="shhead">
@@ -857,20 +857,20 @@ footer{border-top:1px solid var(--line);padding:56px 0 76px;margin-top:clamp(50p
     <div class="shead rv">
       <span class="n"><svg viewBox="0 0 40 40" aria-hidden="true"><use href="#m-nib"/></svg></span>
       <h2>06:00. The edition prints.</h2>
-      <span class="r">Monday, August 10, 2026<br>Vol. I — No. 031</span>
+      <span class="r">__DATELINE__<br>__EDITION__</span>
     </div>
     <div class="lead">
       <article class="rv rv-1">
-        <span class="kick"><i></i>Lead Story · Gold & Metals Desk</span>
-        <h3><a href="a-neither-one-is-wrong">Two Dubai gold rates, 2% apart. Neither one is wrong</a></h3>
-        <p class="dek">Two widely quoted Dubai gold pages read AED 512.45 and AED 523.25 a gram for 24-carat this morning, a gap of AED 10.80 or 2.11%. One is publishing the metal, the other the counter.</p>
-        <div class="by">The Gold & Metals Desk · 5 min read</div>
-        <div style="margin-top:26px"><a class="btn" href="a-neither-one-is-wrong" data-loupe="Read">
+        <span class="kick"><i></i>__LEAD_KICKER__</span>
+        <h3><a href="__LEAD_HREF__">__LEAD_TITLE__</a></h3>
+        <p class="dek">__LEAD_DEK__</p>
+        <div class="by">__LEAD_BY__</div>
+        <div style="margin-top:26px"><a class="btn" href="__LEAD_HREF__" data-loupe="Read">
           <span class="d"></span>Read this morning's lead</a></div>
       </article>
       <figure class="plate spot wipe rv rv-2">
-        <div class="im"><img class="prx" src="assets/ph/gold-hero.jpg" alt="" loading="lazy" onerror="this.closest('.plate').style.display='none'"></div>
-        <figcaption class="cap"><span>Plate I — Gold & Metals</span><span>CC</span></figcaption>
+        <div class="im"><img class="prx" src="__LEAD_IMG__" alt="" loading="lazy" onerror="this.closest('.plate').style.display='none'"></div>
+        <figcaption class="cap"><span>__LEAD_PLATE__</span><span>CC</span></figcaption>
       </figure>
     </div>
     <div class="hook rv"><span>Also filed</span><span class="ln"></span><b>Five more this morning</b><span class="ar">→</span></div>
@@ -926,9 +926,9 @@ footer{border-top:1px solid var(--line);padding:56px 0 76px;margin-top:clamp(50p
     <div class="pwrap">
       <div class="chartbox rv rv-2 spot">
         <div class="hd">
-          <div><div class="nm" id="cnm">Gold / oz</div>
-               <div class="v" id="cv">4,341.40</div></div>
-          <div class="dl" id="cd">— +0.00%</div>
+          <div><div class="nm" id="cnm">__PX0_K__</div>
+               <div class="v" id="cv">__PX0_V__</div></div>
+          <div class="dl" id="cd">__PX0_D__</div>
         </div>
         <canvas id="chart"></canvas>
         <div class="ft" id="cft">Specimen series · illustrative, not quoted · Kitco spot basis</div>
@@ -1027,7 +1027,7 @@ const RM = matchMedia('(prefers-reduced-motion: reduce)').matches;
 })();
 
 /* ══ tape ══ */
-(function(){const rows=[["GOLD / OZ", "4,341.40", "fl", "\u2014 +0.00%"], ["NATURAL 1CT (RAPI PROXY)", "3,880.00", "dn", "\u22126.4% YTD"], ["LAB-GROWN 1CT WHOLESALE", "475.00", "dn", "\u221213% YoY"], ["PLATINUM / OZ", "1,737.00", "dn", "\u25bc \u22120.34%"], ["SILVER / OZ", "63.99", "up", "\u25b2 +0.83%"], ["EDITION", "No. 031", "up", "\u25cf PRINTED 06:00 ET"], ["SPECIMEN TAPE", "illustrative", "fl", "not quoted"]];
+(function(){const rows=__TAPE_JSON__;
  const mk=()=>rows.map(r=>`<span class="tk"><span class="d"></span><b>${r[0]}</b> ${r[1]} <span class="${r[2]}">${r[3]}</span></span>`).join('');
  document.getElementById('tkrun').innerHTML=mk()+mk();})();
 
@@ -1036,9 +1036,9 @@ const RM = matchMedia('(prefers-reduced-motion: reduce)').matches;
    units, so the chips and the label change with the metal. ══ */
 const OZT=31.1035;
 const METALS=[
- {name:'Gold',   spot:4341.40,    txt:'4,341.40',    line:'GOLD 4,341.40 / OZ &middot; — +0.00%',    unitLab:'Karat',
+ {name:'Gold',   spot:__SPOT__,    txt:'__SPOT_TXT__',    line:'__SPOT_LINE__',    unitLab:'Karat',
   pur:[['9kt',.375],['10kt',.4167],['14kt',.5833],['18kt',.750],['22kt',.9167],['24kt',.999]], def:3},
- {name:'Silver', spot:63.99, txt:'63.99', line:'SILVER 63.99 / OZ &middot; ▲ +0.83%', unitLab:'Fineness',
+ {name:'Silver', spot:__SPOT_AG__, txt:'__SPOT_AG_TXT__', line:'__SPOT_AG_LINE__', unitLab:'Fineness',
   pur:[['800',.800],['925',.925],['958',.958],['999',.999]], def:1}];
 let mIdx=0, kIdx=METALS[0].def;
 const fmt=(n,d=2)=>n.toLocaleString('en-US',{minimumFractionDigits:d,maximumFractionDigits:d});
@@ -1059,7 +1059,7 @@ function paintChips(){
   const bc=document.getElementById('benchcap');
   if(bc) bc.innerHTML=`${m.name} at the bench &mdash; derived from spot ${m.txt}`;
   const ft=document.getElementById('benchfoot');
-  if(ft) ft.innerHTML=`Derived from ${m.name.toLowerCase()} spot ${m.txt}, 10 Aug 2026, 5:57am New York · Kitco live board · Editor's press-time read, written back to the tape &middot; specimen &mdash; verify before you quote`;
+  if(ft) ft.innerHTML=`Derived from ${m.name.toLowerCase()} spot ${m.txt}, __ASOF__ &middot; specimen &mdash; verify before you quote`;
 }
 function bench(){
   const g=grams(), m=M(), [nm,pur]=m.pur[kIdx], pg=perGram();
@@ -1127,7 +1127,7 @@ paintChips(); bench();
   io.observe(cv);
 })();
 
-const LEDGER=[{"num": "$139.58", "lab": "per gram, fine", "dk": "#E8C06A", "desk": "D\u201402 Gold", "move": "Gold sits at 4,341.40 the ounce, +0.00%.", "ctr": "A 5&nbsp;g 18ct band carries about $523 of metal before you have made a thing on it.", "viz": {"t": "spark", "seed": 9, "trend": 1, "lo": "the tape", "hi": "4,341.40"}, "work": ["4,341.40 &divide; 31.1035 g = 139.58 per gram fine", "139.58 &times; 0.750 (18ct) = 104.68 per gram at 18ct", "104.68 &times; 5 g = 523.42"], "src": ["Full tape &amp; tables", "almanac.html"]}, {"num": "8.2&times;", "lab": "natural : lab", "dk": "#8CC5FF", "desk": "D\u201401 Diamonds", "move": "Natural one-carat at 3,880.00 against lab-grown at 475.00.", "ctr": "The same look at a fraction of the ticket. Your case has to answer for the difference, out loud.", "viz": {"t": "ratio", "a": ["Natural", 3880.0, "#8CC5FF"], "b": ["Lab", 475.0, "rgba(220,234,245,.30)"]}, "work": ["3,880.00 &divide; 475.00 = 8.17&times;", "both figures as carried on this morning&rsquo;s tape"], "src": ["The lab-grown price list", "lab-grown-diamond-prices.html"]}, {"num": "&rarr;", "lab": "Gold & Metals", "dk": "#6FE3E3", "desk": "D\u201402", "move": "5.9 million pieces: India's silver rush reaches the assay office", "ctr": "Hallmarked silver articles in India nearly doubled to 5.9 million in the 2025-26 financial year from 3.2 million. About 230 centres handle the testing", "viz": {"t": "split", "a": ["Filed today", 100, "#6FE3E3"], "b": ["", 0, "rgba(220,234,245,.22)"]}, "work": ["filed by The Gold & Metals Desk", "5 minutes"], "src": ["5.9 million pieces: India's silver rush reaches the assay office", "a-five-point-nine-million-pieces.html"]}, {"num": "&rarr;", "lab": "Retail & Technology", "dk": "#6FE3E3", "desk": "D\u201406", "move": "Etsy cuts 12% of staff, and calls it speed", "ctr": "Etsy is cutting about 220 jobs, roughly 12% of the marketplace workforce, at a $35 million charge, leaving about 1,600 staff. It announced the cut alo", "viz": {"t": "split", "a": ["Filed today", 100, "#6FE3E3"], "b": ["", 0, "rgba(220,234,245,.22)"]}, "work": ["filed by The Retail Desk", "5 minutes"], "src": ["Etsy cuts 12% of staff, and calls it speed", "a-etsy-calls-it-speed.html"]}];
+const LEDGER=__LEDGER_JSON__;
 
 function vizHTML(v){
   if(v.t==='spark') return `<div class="viz"><canvas class="spk" data-seed="${v.seed}" data-trend="${v.trend}" data-c="#C6A24A"></canvas>
@@ -1182,7 +1182,7 @@ document.getElementById('ledger').addEventListener('click',e=>{
 });
 
 /* ══ TODAY'S PAPER — article grid from the real archive ══ */
-const ARTS=[{"h": "5.9 million pieces: India's silver rush reaches the assay office", "p": "Hallmarked silver articles in India nearly doubled to 5.9 million in the 2025-26 financial year from 3.2 million. About ", "img": "", "s": "Gold & Metals", "t": "5 min", "href": "a-five-point-nine-million-pieces.html"}, {"h": "Etsy cuts 12% of staff, and calls it speed", "p": "Etsy is cutting about 220 jobs, roughly 12% of the marketplace workforce, at a $35 million charge, leaving about 1,600 s", "img": "", "s": "Retail & Technology", "t": "5 min", "href": "a-etsy-calls-it-speed.html"}, {"h": "$5 billion of debt, gone in 113 days: QVC exits", "p": "QVC Group left Chapter 11 on 7 August, 113 days after filing, having cut more than $5 billion of debt. It issued $1.2 bi", "img": "", "s": "Retail & Technology", "t": "5 min", "href": "a-five-billion-in-one-thirteen.html"}, {"h": "Pandora's third seat in a year comes from Walmart", "p": "Paulo Garcia joins Pandora on 1 October and becomes chief financial officer on 1 December, succeeding Anders Boyer after", "img": "", "s": "Retail & Technology", "t": "4 min", "href": "a-pandoras-third-seat.html"}, {"h": "Five times its metal: a Garrard egg makes \u00a3123,500", "p": "A 22-carat gold Cadbury 'Conundrum' egg by Garrard sold for \u00a3123,500, about $166,600, at Batemans on 1 August. That is c", "img": "", "s": "Auctions & Estates", "t": "5 min", "href": "a-four-times-melt.html"}, {"h": "640,000 ounces: China's biggest gold month since 2023", "p": "The People's Bank of China added 640,000 troy ounces in July, about 19.9 tonnes and the largest single month since Octob", "img": "", "s": "Gold & Metals", "t": "5 min", "href": "a-six-forty-thousand-ounces.html"}];
+const ARTS=__ARTS_JSON__;
 document.getElementById('agrid').innerHTML=ARTS.map((a,i)=>`
  <a class="acard wipe" href="#" data-loupe="Read">
    <div class="im"><span class="desk">${a.s}</span>
@@ -1191,7 +1191,7 @@ document.getElementById('agrid').innerHTML=ARTS.map((a,i)=>`
      <div class="mt"><span>${a.s} desk</span><span>${a.t}</span></div></div></a>`).join('');
 
 /* ══ THE DESK BOARD — real headlines, real numbers ══ */
-const BOARD=[{"n": "D\u201401", "t": "Diamonds", "c": "#8CC5FF", "seed": 9, "trend": 1, "href": "diamonds.html", "st": {"k": "1ct RBC \u00b7 natural, this week", "v": "$5,232", "d": "the stone that runs on trust", "cls": "fl"}, "a": [["Fifteen years, no tax: what Mumbai just offered to take from Dubai", "a-fifteen-years-no-tax.html", "5 min"], ["Alrosa books a $134 million loss and starts idling the pits", "a-alrosa-books-the-loss.html", "5 min"], ["Eighty percent to the consumer: the NDC changes the subject", "a-eighty-percent-to-the-consumer.html", "5 min"]]}, {"n": "D\u201402", "t": "Gold & Metals", "c": "#E8C06A", "seed": 15, "trend": 1, "href": "gold-metals.html", "st": {"k": "Gold/oz \u00b7 Jul 13 close", "v": "$3,997", "d": "the metal beneath every margin", "cls": "fl"}, "a": [["Two Dubai gold rates, 2% apart. Neither one is wrong", "a-neither-one-is-wrong.html", "5 min"], ["5.9 million pieces: India's silver rush reaches the assay office", "a-five-point-nine-million-pieces.html", "5 min"], ["640,000 ounces: China's biggest gold month since 2023", "a-six-forty-thousand-ounces.html", "5 min"]]}, {"n": "D\u201403", "t": "Colored Gemstones", "c": "#4FD08A", "seed": 21, "trend": 1, "href": "gemstones.html", "st": {"k": "Fine sapphire, YoY", "v": "+12%", "d": "supply lines drawn in emerald, ruby and sapphire", "cls": "fl"}, "a": [["Minus 0.1% for color: pinks rise, blues and yellows slip", "a-minus-point-one-for-color.html", "4 min"], ["$102.9 million, up 72%: Gemfields' emeralds cover for its rubies", "a-gemfields-covers-the-ruby.html", "4 min"], ["Two speeds in color: $906,250 for one sapphire, demand still 30% down", "a-color-runs-two-speeds.html", "4 min"]]}, {"n": "D\u201404", "t": "Watches", "c": "#B79BFF", "seed": 27, "trend": 1, "href": "watches.html", "st": {"k": "Swiss exports, annualized", "v": "CHF 26B", "d": "haute horlogerie, priced by the second", "cls": "fl"}, "a": [["Turkey +6.9%, America \u221214.8%: where Swiss watches went", "a-turkey-up-america-down.html", "5 min"], ["$633.8 million for the independents, more than LVMH's watches", "a-independents-pass-lvmh.html", "5 min"], ["1.2 million apply for 1,969 watches, and nobody queued", "a-one-point-two-million-apply.html", "4 min"]]}, {"n": "D\u201405", "t": "Auctions & Estates", "c": "#FF8FA8", "seed": 33, "trend": 1, "href": "auctions.html", "st": {"k": "Annual jewelry hammer, est.", "v": "$1.1B", "d": "where the trade marks itself to market", "cls": "fl"}, "a": [["Five times its metal: a Garrard egg makes \u00a3123,500", "a-four-times-melt.html", "5 min"], ["$13,000 for costume, \u00a32,000 for gold: Bonhams runs Chanel in three cities", "a-thirteen-thousand-for-costume.html", "4 min"], ["$230,000 bid on a moonwalker's Omega: Joopiter opens its watch room", "a-joopiter-keeping-measure.html", "4 min"]]}, {"n": "D\u201406", "t": "Retail & Technology", "c": "#6FE3E3", "seed": 39, "trend": 1, "href": "retail-tech.html", "st": {"k": "Lab-grown 1ct, wholesale", "v": "$727", "d": "the counter, rebuilt for the next generation", "cls": "fl"}, "a": [["Etsy cuts 12% of staff, and calls it speed", "a-etsy-calls-it-speed.html", "5 min"], ["$5 billion of debt, gone in 113 days: QVC exits", "a-five-billion-in-one-thirteen.html", "5 min"], ["Pandora's third seat in a year comes from Walmart", "a-pandoras-third-seat.html", "4 min"]]}];
+const BOARD=__BOARD_JSON__;
 document.getElementById('bnav').innerHTML=BOARD.map((d,i)=>
  `<button data-i="${i}" class="${i?'':'on'}" style="--dk:${d.c}" data-loupe="${d.t}">
     <span class="bd"></span><span class="bt">${d.t}</span><span class="bn">${d.n}</span></button>`).join('');
@@ -1250,7 +1250,7 @@ function drawSpark(cv){
 paintDesk(0);
 
 /* ══ PRICE DESK — tabs + canvas chart ══ */
-const PX=[{"k": "Gold / oz", "v": "4,341.40", "d": "\u2014 +0.00%", "cls": "fl", "seed": 3, "trend": 1, "ft": "as carried on the tape"}, {"k": "Natural 1ct (RAPI proxy)", "v": "3,880.00", "d": "\u22126.4% YTD", "cls": "dn", "seed": 10, "trend": -1, "ft": "as carried on the tape"}, {"k": "Lab-grown 1ct wholesale", "v": "475.00", "d": "\u221213% YoY", "cls": "dn", "seed": 17, "trend": -1, "ft": "as carried on the tape"}, {"k": "Platinum / oz", "v": "1,737.00", "d": "\u25bc \u22120.34%", "cls": "dn", "seed": 24, "trend": -1, "ft": "as carried on the tape"}, {"k": "Silver / oz", "v": "63.99", "d": "\u25b2 +0.83%", "cls": "up", "seed": 31, "trend": 1, "ft": "as carried on the tape"}];
+const PX=__PX_JSON__;
 document.getElementById('ptabs').innerHTML=PX.map((p,i)=>
  `<button class="ptab${i?'':' on'}" data-i="${i}">${p.k.split(' ·')[0]}</button>`).join('');
 document.getElementById('ptable').innerHTML=PX.map(p=>
