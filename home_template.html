@@ -1679,7 +1679,10 @@ addEventListener('resize',paint); paint();
   const NPL=74;
   const GEM=(function(){
     const R=Math.PI/180, P=[], S=0.86;          // S: fit to the old silhouette
-    const TAB=0.53, CA=34.5*R, PA=40.75*R, UG=42.5*R, LG=42.4*R;
+    /* Pavilion runs deeper than Tolkowsky's 40.75°. At the ideal angle the
+       stone is correct and reads stubby here, because the hero looks down
+       on it and foreshortens the depth; 44.5° puts the point back. */
+    const TAB=0.53, CA=34.5*R, PA=44.5*R, UG=42.5*R, LG=46.2*R;
     const STAR=0.55, GIR=0.020;
     const CH=(1-TAB)*Math.tan(CA), PD=Math.tan(PA);
     const add=(x,y,z,h)=>{const L=Math.hypot(x,y,z);P.push(x/L,y/L,z/L,h*S/L);};
@@ -1745,7 +1748,7 @@ vec3 trace(vec3 ro,vec3 rd,float ior){
 void main(){vec2 uv=(gl_FragCoord.xy-0.5*uRes)/uRes.y;
  vec3 ro=vec3(0.,0.20,3.15);vec3 rd=normalize(vec3(uv,-1.55));
  float a=uSpin;float ca=cos(a),sa=sin(a);mat3 ry=mat3(ca,0.,-sa,0.,1.,0.,sa,0.,ca);
- float ti=-0.30+sin(uT*0.23)*0.05;float ct=cos(ti),st=sin(ti);
+ float ti=-0.18+sin(uT*0.23)*0.05;float ct=cos(ti),st=sin(ti);
  mat3 rx=mat3(1.,0.,0.,0.,ct,-st,0.,st,ct);mat3 M=ry*rx;
  mat3 Mi=mat3(M[0][0],M[1][0],M[2][0],M[0][1],M[1][1],M[2][1],M[0][2],M[1][2],M[2][2]);
  ro=Mi*ro;rd=Mi*rd;
