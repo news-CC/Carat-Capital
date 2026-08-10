@@ -1760,6 +1760,15 @@ def _short_date(dl):
     m = _re.search(r"([A-Z][a-z]+)\s+(\d{1,2})", dl or "")
     return "%s %s" % (m.group(2), m.group(1)[:3]) if m else (dl or "")
 
+def _iso_date(s):
+    """'2026-07-01' -> '1 Jul 2026'. Anything else is passed through."""
+    import datetime as _dt
+    try:
+        d = _dt.date.fromisoformat((s or "").strip())
+    except ValueError:
+        return s or ""
+    return "%d %s %d" % (d.day, d.strftime("%b"), d.year)
+
 def _dircls(d):
     return {"up":"up","down":"dn","flat":"fl"}.get(d, "fl")
 
@@ -1784,12 +1793,23 @@ def index_page():
     tape_rows.append(["SPECIMEN TAPE", "illustrative", "fl", "not quoted"])
 
     # ── the price desk tabs ──
+    # The metals are this morning's tape. The two diamond marks are locked to
+    # the published price lists above, which carry their own, older dates —
+    # so each row states where it actually came from rather than all five
+    # claiming the tape.
+    _ph, _lh = PRICES.get("headline", {}), LAB.get("headline", {})
+    _px_src = {}
+    if _lh:
+        _px_src["LGD1"] = "CVD wholesale band midpoint · %s" % (LAB.get("as_of") or "published list")
+    if _ph:
+        _px_src["NAT1"] = "%s · %s price list" % (
+            _ph.get("rapi_label", "RAPI"), _iso_date(_ph.get("rapi_date", "")))
     px_rows = []
     for i, t in enumerate(tape[:5]):
         px_rows.append({"k": t["name"], "v": t["px"], "d": t.get("chg",""),
                         "cls": _dircls(t.get("dir")), "seed": 3 + i*7,
                         "trend": 1 if t.get("dir")=="up" else (-1 if t.get("dir")=="down" else 1),
-                        "ft": "as carried on the tape"})
+                        "ft": _px_src.get(t.get("code"), "as carried on the tape")})
     if not px_rows:
         px_rows = [{"k":"Gold / oz","v":spot_txt,"d":"— unch.","cls":"fl","seed":9,"trend":1,"ft":"Kitco spot basis"}]
 
@@ -1829,9 +1849,21 @@ def index_page():
           "work": ["filed by %s" % a.get("byline","the desk"), "%s minutes" % a.get("minutes",5)],
           "src": [a["title"], "a-%s.html" % a["slug"]]})
 
-    # ── today's paper: the six behind the lead ──
+    # ── today's paper: what this edition actually filed behind the lead ──
+    # A fixed slice of six silently borrowed from yesterday and then printed
+    # a hardcoded count over it. The section now shows this morning's own
+    # stories and says how many there are; a thin day prints a short grid.
+    _WORDS = {0:"No", 1:"One", 2:"Two", 3:"Three", 4:"Four", 5:"Five", 6:"Six"}
+    _today = (LEAD or {}).get("date")
+    _todays = [x for x in ARTICLES if not x.get("lead") and x.get("date") == _today]
+    if len(_todays) >= 2:
+        _pick = _todays[:6]
+        _hook = "%s more this morning" % _WORDS.get(len(_pick), len(_pick))
+    else:
+        _pick = [x for x in ARTICLES if not x.get("lead")][:6]
+        _hook = "%s more, recently filed" % _WORDS.get(len(_pick), len(_pick))
     arts = []
-    for a in [x for x in ARTICLES if not x.get("lead")][:6]:
+    for a in _pick:
         arts.append({"h": a["title"], "p": (a.get("dek") or "")[:120],
                      "img": a["slug"] if a["slug"] in PH else "",
                      "s": DESK_NAMES.get(a.get("desk"), "Desk"),
@@ -1877,6 +1909,9 @@ def index_page():
       "__SPOT_AG__": "%.2f" % spot_ag, "__SPOT_AG_TXT__": spot_ag_txt,
       "__SPOT_AG_LINE__": "SILVER %s / OZ &middot; %s" % (spot_ag_txt, str((xag or {}).get("chg","")).upper()),
       "__SPOT_LINE__": "GOLD %s / OZ &middot; %s" % (spot_txt, str((xau or {}).get("chg","")).upper()),
+      # the price desk's stamp: the tape's own as-of, never a frozen date
+      "__PX_ASOF__": "Metals " + (" · ".join((asof or "").split(" · ")[:2]) or dateline),
+      "__ALSO_HOOK__": _hook, "__ALSO_LINE__": _hook[:1].lower() + _hook[1:],
       "__ASOF__": asof, "__DATELINE__": dateline, "__EDITION__": edition,
       "__EDITION_SHORT__": ed_short, "__DATE_SHORT__": _short_date(dateline),
       "__LEAD_KICKER__": (LEAD or {}).get("kicker","Lead story"),

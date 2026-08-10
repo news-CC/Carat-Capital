@@ -30,7 +30,8 @@
 :root{
   --verm:#BE3319; --gilt:#C6A24A; --gilt-d:#96762E; --gilt-l:#E8CB7C;
   --ok:#2BFF95; --dn:#FF6B4A;
-  --bg:#04060B; --fg:#DCEAF5; --fg2:rgba(220,234,245,.66); --fg3:rgba(220,234,245,.40);
+  /* resting values are what a no-JS reader gets, so they carry AA too */
+  --bg:#04060B; --fg:#DCEAF5; --fg2:rgba(220,234,245,.78); --fg3:rgba(220,234,245,.72);
   --line:rgba(198,162,74,.28); --acc:#C6A24A; --plate:rgba(255,255,255,.03);
   --disp:'Instrument Sans',-apple-system,BlinkMacSystemFont,sans-serif;
   --serif:'Lora',Georgia,serif;
@@ -474,10 +475,13 @@ h1.mast .l{display:inline-block;opacity:0;transform:translateY(.36em) rotate(3de
   font-variant-numeric:tabular-nums;margin-top:8px}
 .work a{font-family:var(--serif);font-size:14px;color:var(--acc);display:inline-block;margin-top:10px}
 /* the dark line — the house rule, made visible */
+/* The dashed rule says this figure is unverified. The opacity that used to
+   say it as well compounded with --fg3 and made the one line that states
+   the house price rule the least readable text on the page. */
 .csdark{display:grid;grid-template-columns:150px 1fr;gap:clamp(12px,2vw,26px);
-  padding:16px clamp(14px,2vw,20px);opacity:.45;border-top:1px dashed var(--line)}
-.csdark .num{font-family:var(--mono);font-size:21px;color:var(--fg3);font-variant-numeric:tabular-nums}
-.csdark .move{font-family:var(--serif);font-size:14px;line-height:1.5;color:var(--fg3)}
+  padding:16px clamp(14px,2vw,20px);border-top:1px dashed var(--line)}
+.csdark .num{font-family:var(--mono);font-size:21px;color:var(--fg2);font-variant-numeric:tabular-nums}
+.csdark .move{font-family:var(--serif);font-size:14px;line-height:1.5;color:var(--fg2)}
 @media(max-width:900px){
   .csrow{grid-template-columns:1fr;gap:10px;padding:16px}
   .csrow .csend{justify-content:flex-start}
@@ -723,11 +727,11 @@ footer{border-top:1px solid var(--line);padding:56px 0 76px;margin-top:clamp(50p
 <div id="loupe" aria-hidden="true"><span class="lb"></span></div>
 <nav id="rail" aria-label="Chapters">
   <a href="#hero"><span class="tk"></span><span class="nm">The strike</span></a>
-  <a href="#counter"><span class="tk"></span><span class="nm">The counter sheet</span></a>
   <a href="#edition"><span class="tk"></span><span class="nm">The edition</span></a>
   <a href="#paper"><span class="tk"></span><span class="nm">Today's paper</span></a>
   <a href="#desks"><span class="tk"></span><span class="nm">The desks</span></a>
   <a href="#prices"><span class="tk"></span><span class="nm">The tape</span></a>
+  <a href="#counter"><span class="tk"></span><span class="nm">The counter sheet</span></a>
   <a href="#brief"><span class="tk"></span><span class="nm">The brief</span></a>
 </nav>
 
@@ -956,39 +960,6 @@ footer{border-top:1px solid var(--line);padding:56px 0 76px;margin-top:clamp(50p
   </div>
 </section>
 
-<!-- ═══════ 02 · THE COUNTER SHEET ═══════ -->
-<section class="band" id="counter" style="padding-top:0">
-  <div class="wrap">
-    <div class="erule" aria-hidden="true"></div>
-    <div class="shead rv">
-      <span class="n"><svg viewBox="0 0 40 40" aria-hidden="true"><use href="#m-scale"/></svg></span>
-      <h2>Those are the prices.<br>This is what they cost you.</h2>
-      <span class="r">the counter sheet<br>No. 031 &middot; 10 Aug</span>
-    </div>
-    <p class="lede rv rv-1" style="margin-bottom:clamp(22px,3.6vh,40px)">The bench tells you what the metal is worth.
-      This tells you what the rest of the market is doing to your margin. Four lines, each one a figure
-      from this morning&rsquo;s tape divided down into the thing it actually changes on your counter. The
-      working sits one tap behind every line.</p>
-
-    <div class="sheet rv rv-2">
-      <div class="shbar">
-        <span>The counter sheet &middot; <b>No. 031</b> &middot; four lines &middot; struck 06:00 ET</span>
-        <span>Tap any line for the working</span>
-      </div>
-      <div class="shhead">
-        <span>The figure</span><span>What moved</span><span>At your counter</span>
-        <span style="text-align:right">Desk</span>
-      </div>
-      <ol class="ledger" id="ledger"></ol>
-    </div>
-
-    <div class="csfoot rv rv-2">
-      <span>Arithmetic on the prices printed above &middot; specimen figures, illustrative &mdash; verify before you quote</span>
-      <a class="bp-more" href="almanac" data-loupe="The tape">Full tape &amp; tables &rarr;</a>
-    </div>
-    <div class="hook rv"><span>All of it, priced by</span><span class="ln"></span><b>06:00 ET</b><span class="ar">&rarr;</span></div>
-  </div>
-</section>
 
 <!-- ═══════ 03 · LEAD ═══════ -->
 <section class="band" id="edition">
@@ -1013,7 +984,7 @@ footer{border-top:1px solid var(--line);padding:56px 0 76px;margin-top:clamp(50p
         <figcaption class="cap"><span>Plate I — Gold & Metals</span><span>CC</span></figcaption>
       </figure>
     </div>
-    <div class="hook rv"><span>Also filed</span><span class="ln"></span><b>Five more this morning</b><span class="ar">→</span></div>
+    <div class="hook rv"><span>Also filed</span><span class="ln"></span><b>Four more this morning</b><span class="ar">→</span></div>
   </div>
 </section>
 
@@ -1024,7 +995,7 @@ footer{border-top:1px solid var(--line);padding:56px 0 76px;margin-top:clamp(50p
     <div class="shead rv">
       <span class="n"><svg viewBox="0 0 40 40" aria-hidden="true"><use href="#m-folio"/></svg></span>
       <h2>Also in today's paper.</h2>
-      <span class="r">five more this morning</span>
+      <span class="r">four more this morning</span>
     </div>
     <div class="agrid stg rv" id="agrid"></div>
     <div style="margin-top:34px" class="rv rv-3">
@@ -1057,7 +1028,7 @@ footer{border-top:1px solid var(--line);padding:56px 0 76px;margin-top:clamp(50p
     <div class="erule" aria-hidden="true" style="margin-top:0"></div>
     <div class="shead rv">
       <span class="n"><svg viewBox="0 0 40 40" aria-hidden="true"><use href="#m-tape"/></svg></span><h2>Never fabricate a price.</h2>
-      <span class="r">7 Aug 2026 · 5:00pm NY close</span>
+      <span class="r">Metals 10 Aug 2026, 5:57am New York · Kitco live board</span>
     </div>
     <p class="lede rv rv-1" style="margin-bottom:26px">Verify it, or carry it with &ldquo;unch.&rdquo;
       Unverified is a state we publish, not a gap we fill.</p>
@@ -1071,10 +1042,44 @@ footer{border-top:1px solid var(--line);padding:56px 0 76px;margin-top:clamp(50p
           <div class="dl" id="cd">— +0.00%</div>
         </div>
         <canvas id="chart"></canvas>
-        <div class="ft" id="cft">Specimen series · illustrative, not quoted · Kitco spot basis</div>
+        <div class="ft" id="cft">Series shape illustrative, not quoted &middot; Mark: as carried on the tape</div>
       </div>
       <div class="ptable rv rv-3" id="ptable"></div>
     </div>
+  </div>
+</section>
+
+<!-- ═══════ 07 · THE COUNTER SHEET ═══════ -->
+<section class="band" id="counter" style="padding-top:0">
+  <div class="wrap">
+    <div class="erule" aria-hidden="true"></div>
+    <div class="shead rv">
+      <span class="n"><svg viewBox="0 0 40 40" aria-hidden="true"><use href="#m-scale"/></svg></span>
+      <h2>Those are the prices.<br>This is what they cost you.</h2>
+      <span class="r">the counter sheet<br>No. 031 &middot; 10 Aug</span>
+    </div>
+    <p class="lede rv rv-1" style="margin-bottom:clamp(22px,3.6vh,40px)">Every price above is a number.
+      This is what the rest of the market is doing to your margin. Four lines, each one a figure
+      from this morning&rsquo;s tape divided down into the thing it actually changes on your counter. The
+      working sits one tap behind every line.</p>
+
+    <div class="sheet rv rv-2">
+      <div class="shbar">
+        <span>The counter sheet &middot; <b>No. 031</b> &middot; four lines &middot; struck 06:00 ET</span>
+        <span>Tap any line for the working</span>
+      </div>
+      <div class="shhead">
+        <span>The figure</span><span>What moved</span><span>At your counter</span>
+        <span style="text-align:right">Desk</span>
+      </div>
+      <ol class="ledger" id="ledger"></ol>
+    </div>
+
+    <div class="csfoot rv rv-2">
+      <span>Arithmetic on the prices printed above &middot; specimen figures, illustrative &mdash; verify before you quote</span>
+      <a class="bp-more" href="almanac" data-loupe="The tape">Full tape &amp; tables &rarr;</a>
+    </div>
+    <div class="hook rv"><span>All of it, priced by</span><span class="ln"></span><b>06:00 ET</b><span class="ar">&rarr;</span></div>
   </div>
 </section>
 
@@ -1097,11 +1102,11 @@ footer{border-top:1px solid var(--line);padding:56px 0 76px;margin-top:clamp(50p
       <h2>Five minutes, before Antwerp takes lunch.</h2>
       <p>The Morning Brief: overnight prices, three stories that matter, one sharp quotable insight.
         Free, daily, and it never pads.</p>
-      <form class="form" onsubmit="return false">
-        <span class="fld"><input type="email" placeholder="you@thetrade.com" aria-label="Email address"></span>
+      <form class="form" id="briefform" novalidate>
+        <span class="fld"><input id="briefmail" type="email" placeholder="you@thetrade.com" aria-label="Email address" required></span>
         <button class="btn" type="submit" data-loupe="Send"><span class="d"></span>Subscribe</button>
       </form>
-      <div class="trust">No hype words · no exclamation marks · unsubscribe in one click</div>
+      <div class="trust" id="briefsay" role="status" aria-live="polite">No hype words &middot; no exclamation marks &middot; unsubscribe in one click</div>
     </div>
   </div>
 </section>
@@ -1322,7 +1327,7 @@ document.getElementById('ledger').addEventListener('click',e=>{
 });
 
 /* ══ TODAY'S PAPER — article grid from the real archive ══ */
-const ARTS=[{"h": "5.9 million pieces: India's silver rush reaches the assay office", "p": "Hallmarked silver articles in India nearly doubled to 5.9 million in the 2025-26 financial year from 3.2 million. About ", "img": "", "s": "Gold & Metals", "t": "5 min", "href": "a-five-point-nine-million-pieces.html"}, {"h": "Etsy cuts 12% of staff, and calls it speed", "p": "Etsy is cutting about 220 jobs, roughly 12% of the marketplace workforce, at a $35 million charge, leaving about 1,600 s", "img": "", "s": "Retail & Technology", "t": "5 min", "href": "a-etsy-calls-it-speed.html"}, {"h": "$5 billion of debt, gone in 113 days: QVC exits", "p": "QVC Group left Chapter 11 on 7 August, 113 days after filing, having cut more than $5 billion of debt. It issued $1.2 bi", "img": "", "s": "Retail & Technology", "t": "5 min", "href": "a-five-billion-in-one-thirteen.html"}, {"h": "Pandora's third seat in a year comes from Walmart", "p": "Paulo Garcia joins Pandora on 1 October and becomes chief financial officer on 1 December, succeeding Anders Boyer after", "img": "", "s": "Retail & Technology", "t": "4 min", "href": "a-pandoras-third-seat.html"}, {"h": "Five times its metal: a Garrard egg makes \u00a3123,500", "p": "A 22-carat gold Cadbury 'Conundrum' egg by Garrard sold for \u00a3123,500, about $166,600, at Batemans on 1 August. That is c", "img": "", "s": "Auctions & Estates", "t": "5 min", "href": "a-four-times-melt.html"}, {"h": "640,000 ounces: China's biggest gold month since 2023", "p": "The People's Bank of China added 640,000 troy ounces in July, about 19.9 tonnes and the largest single month since Octob", "img": "", "s": "Gold & Metals", "t": "5 min", "href": "a-six-forty-thousand-ounces.html"}];
+const ARTS=[{"h": "5.9 million pieces: India's silver rush reaches the assay office", "p": "Hallmarked silver articles in India nearly doubled to 5.9 million in the 2025-26 financial year from 3.2 million. About ", "img": "", "s": "Gold & Metals", "t": "5 min", "href": "a-five-point-nine-million-pieces.html"}, {"h": "Etsy cuts 12% of staff, and calls it speed", "p": "Etsy is cutting about 220 jobs, roughly 12% of the marketplace workforce, at a $35 million charge, leaving about 1,600 s", "img": "", "s": "Retail & Technology", "t": "5 min", "href": "a-etsy-calls-it-speed.html"}, {"h": "$5 billion of debt, gone in 113 days: QVC exits", "p": "QVC Group left Chapter 11 on 7 August, 113 days after filing, having cut more than $5 billion of debt. It issued $1.2 bi", "img": "", "s": "Retail & Technology", "t": "5 min", "href": "a-five-billion-in-one-thirteen.html"}, {"h": "Pandora's third seat in a year comes from Walmart", "p": "Paulo Garcia joins Pandora on 1 October and becomes chief financial officer on 1 December, succeeding Anders Boyer after", "img": "", "s": "Retail & Technology", "t": "4 min", "href": "a-pandoras-third-seat.html"}];
 document.getElementById('agrid').innerHTML=ARTS.map((a,i)=>`
  <a class="acard wipe" href="${a.href}" data-loupe="Read">
    <div class="im${a.img?'':' noimg'}"><span class="desk">${a.s}</span>${a.img?`
@@ -1390,7 +1395,7 @@ function drawSpark(cv){
 paintDesk(0);
 
 /* ══ PRICE DESK — tabs + canvas chart ══ */
-const PX=[{"k": "Gold / oz", "v": "4,341.40", "d": "\u2014 +0.00%", "cls": "fl", "seed": 3, "trend": 1, "ft": "as carried on the tape"}, {"k": "Natural 1ct (RAPI proxy)", "v": "3,880.00", "d": "\u22126.4% YTD", "cls": "dn", "seed": 10, "trend": -1, "ft": "as carried on the tape"}, {"k": "Lab-grown 1ct wholesale", "v": "475.00", "d": "\u221213% YoY", "cls": "dn", "seed": 17, "trend": -1, "ft": "as carried on the tape"}, {"k": "Platinum / oz", "v": "1,737.00", "d": "\u25bc \u22120.34%", "cls": "dn", "seed": 24, "trend": -1, "ft": "as carried on the tape"}, {"k": "Silver / oz", "v": "63.99", "d": "\u25b2 +0.83%", "cls": "up", "seed": 31, "trend": 1, "ft": "as carried on the tape"}];
+const PX=[{"k": "Gold / oz", "v": "4,341.40", "d": "\u2014 +0.00%", "cls": "fl", "seed": 3, "trend": 1, "ft": "as carried on the tape"}, {"k": "Natural 1ct (RAPI proxy)", "v": "3,880.00", "d": "\u22126.4% YTD", "cls": "dn", "seed": 10, "trend": -1, "ft": "RAPI, D\u2013H / IF\u2013VS2 \u00b7 1 Jul 2026 price list"}, {"k": "Lab-grown 1ct wholesale", "v": "475.00", "d": "\u221213% YoY", "cls": "dn", "seed": 17, "trend": -1, "ft": "CVD wholesale band midpoint \u00b7 30 July 2026"}, {"k": "Platinum / oz", "v": "1,737.00", "d": "\u25bc \u22120.34%", "cls": "dn", "seed": 24, "trend": -1, "ft": "as carried on the tape"}, {"k": "Silver / oz", "v": "63.99", "d": "\u25b2 +0.83%", "cls": "up", "seed": 31, "trend": 1, "ft": "as carried on the tape"}];
 document.getElementById('ptabs').innerHTML=PX.map((p,i)=>
  `<button class="ptab${i?'':' on'}" data-i="${i}">${p.k.split(' ·')[0]}</button>`).join('');
 document.getElementById('ptable').innerHTML=PX.map(p=>
@@ -1426,7 +1431,8 @@ document.getElementById('ptabs').addEventListener('click',e=>{
   document.getElementById('cnm').textContent=p.k;
   document.getElementById('cv').textContent=p.v;
   const cd=document.getElementById('cd'); cd.textContent=p.d; cd.className='dl d '+p.cls;
-  document.getElementById('cft').textContent='Specimen series · illustrative, not quoted · '+p.ft;
+  /* two separate claims: the drawn series is a shape, the mark is sourced */
+  document.getElementById('cft').textContent='Series shape illustrative, not quoted · Mark: '+p.ft;
   drawChart();
 });
 
@@ -1513,21 +1519,42 @@ const ramp=(st,k)=>{for(let i=0;i<st.length-1;i++){const[a,ca]=st[i],[b,cb]=st[i
     return ca.map((v,j)=>Math.round(v+(cb[j]-v)*t));}}return st[st.length-1][1];};
 const sm=x=>x*x*(3-2*x), rgb=a=>`rgb(${a[0]},${a[1]},${a[2]})`,
       rgba=(a,l)=>`rgba(${a[0]},${a[1]},${a[2]},${l})`;
+/* WCAG relative luminance, so the ink can be chosen by measurement rather
+   than by a curve that happened to look right */
+const lum=c=>{const s=c.map(v=>{v/=255;return v<=.03928?v/12.92:Math.pow((v+.055)/1.055,2.4);});
+  return .2126*s[0]+.7152*s[1]+.0722*s[2];};
+const cratio=(a,b)=>{const x=lum(a),y=lum(b);
+  return (Math.max(x,y)+.05)/(Math.min(x,y)+.05);};
 const NF=[220,234,245], DF=[22,19,14], root=document.documentElement,
       gemwrap=document.getElementById('gemwrap');
 function paint(){
   const h=document.documentElement, sc=h.scrollTop, vh=innerHeight;
-  const k=Math.max(0,Math.min(1,(sc-vh*0.78)/(vh*1.5)));
+  /* the sky starts turning the moment you leave the hero and is full
+     bone by a little over one screen — it used to wait until the third
+     section before it began */
+  const k=Math.max(0,Math.min(1,(sc-vh*0.14)/(vh*0.95)));
   const ks=sm(k), bg=ramp(SKY,ks), acc=ramp(ACC,ks);
-  const kf=sm(Math.max(0,Math.min(1,(k-0.58)/0.22)));
-  const fg=NF.map((v,i)=>Math.round(v+(DF[i]-v)*kf));
+  /* The ink never blends through grey. It is whichever of the two house
+     inks reads better on the sky behind it, chosen outright — blending
+     between them walks the text straight through the background's own
+     luminance, and there the page goes legibly blank.
+     There is one sky luminance (0.179) where light and dark ink are
+     equally hard to read; the house inks top out at 3.9:1 against it.
+     So as the sky approaches that value the ink is driven to its pure
+     extreme, where the worst case is 4.58:1 and the page still passes.
+     Everywhere else it relaxes back to the house colours. */
+  const L=lum(bg), dark=L>.179, base=dark?DF:NF;
+  const d=Math.abs(L-.179), risk=d<=.05?1:Math.max(0,1-(d-.05)/.18);
+  const pure=dark?0:255;
+  const fg=base.map(v=>Math.round(v+(pure-v)*risk));
+  const a2=.78+.22*risk, a3=.72+.28*risk;
   root.style.setProperty('--bg',rgb(bg));
   root.style.setProperty('--fg',rgb(fg));
-  root.style.setProperty('--fg2',rgba(fg,.68));
-  root.style.setProperty('--fg3',rgba(fg,kf>.5?.50:.42));
+  root.style.setProperty('--fg2',rgba(fg,a2.toFixed(3)));
+  root.style.setProperty('--fg3',rgba(fg,a3.toFixed(3)));
   root.style.setProperty('--acc',rgb(acc));
   root.style.setProperty('--line',rgba(acc,.30));
-  root.style.setProperty('--plate',kf>.5?'rgba(22,19,14,.035)':'rgba(255,255,255,.03)');
+  root.style.setProperty('--plate',dark?'rgba(22,19,14,.035)':'rgba(255,255,255,.03)');
   document.getElementById('vig').style.opacity=(1-ks*.9).toFixed(3);
   if(gemwrap){const g=Math.max(0,Math.min(1,(sc-vh*.16)/(vh*.9)));
     gemwrap.style.opacity=(1-g).toFixed(3);
@@ -1539,6 +1566,32 @@ function paint(){
   if(c) c.textContent = k<.34?'03:00 ET · THE BUREAU IS READING'
       : k<.72?'04:30 ET · THE SLATE IS RANKED':'06:00 ET · THE EDITION PRINTS';
 }
+/* ── the Morning Brief sign-up ──
+   The list is kept by hand off the desk mailbox: there is no subscribe
+   endpoint to post to. So the button composes the message the reader
+   would have had to write, rather than accepting an address and
+   silently dropping it. */
+(function(){
+  const f=document.getElementById('briefform'); if(!f) return;
+  const em=document.getElementById('briefmail'), say=document.getElementById('briefsay');
+  if(!em||!say) return;
+  const REST=say.textContent;
+  let t=null;
+  f.addEventListener('submit',e=>{
+    e.preventDefault();
+    const v=(em.value||'').trim();
+    if(!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v)){
+      say.textContent='That address does not look right. Check it and send again.';
+      em.focus(); return;
+    }
+    location.href='mailto:connect@roomysjewelery.store'
+      +'?subject='+encodeURIComponent('Morning Brief — sign me up')
+      +'&body='+encodeURIComponent('Please add '+v+' to the Morning Brief.');
+    say.textContent='Opening your mail app. Send that message and the desk adds you.';
+    clearTimeout(t); t=setTimeout(()=>{say.textContent=REST;},9000);
+  });
+})();
+
 /* ── the menu: the six desks and the paper ── */
 (function(){
   const om=document.getElementById('omenu'), btn=document.getElementById('mbtn');
