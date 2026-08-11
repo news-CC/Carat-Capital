@@ -26780,5 +26780,341 @@
     }
    ]
   }
+ },
+ "three-prices-one-carat": {
+  "strip": {
+   "cap": "By the numbers · One-carat lab-grown, 11 August",
+   "cells": [
+    {
+     "fig": "$711",
+     "lab": "CaratRadar, asking-price average"
+    },
+    {
+     "fig": "$650",
+     "lab": "TheDiamondPrice, fair market"
+    },
+    {
+     "fig": "9.4%",
+     "delta": "▲",
+     "dir": "up",
+     "lab": "the gap, derived by this desk"
+    },
+    {
+     "fig": "$590-760",
+     "lab": "the range the second page states"
+    },
+    {
+     "fig": "61%",
+     "lab": "US engagement centre stones grown, 2025"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "One-carat lab-grown diamond, published references · dollars",
+    "rows": [
+     {
+      "l": "CARATRADAR, ASKING AVERAGE (11 AUG)",
+      "v": 711,
+      "d": "$711",
+      "hi": true
+     },
+     {
+      "l": "THEDIAMONDPRICE, FAIR MARKET (AUG)",
+      "v": 650,
+      "d": "$650"
+     },
+     {
+      "l": "STONEALGO (7 AUG, NOT RE-READ TODAY)",
+      "v": 511,
+      "d": "$511"
+     }
+    ],
+    "note": "Two pages read live on 11 August 2026; the third is the figure this paper carried in its wire on 9 August, dated 7 August, and not re-read today. The three describe different quantities.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/211"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Two pages, one stone, sixty-one dollars apart.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "An offer is not a sale.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "One is what sellers ask. The other is what stones fetch",
+     "attr": "The Diamonds Desk"
+    }
+   },
+   {
+    "sub": "The tape carries the number the article prints.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Lab-grown finds its floor",
+     "href": "a-lab-grown-finds-its-floor.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "the most-bought stone in America does not have a price, it has a range"
+  },
+  "next": {
+   "lead": {
+    "slug": "ten-forty-four-and-holding",
+    "tag": "Metals",
+    "blurb": "Two Dubai gold pages moved together overnight and stayed AED 10.44 apart."
+   },
+   "minis": [
+    {
+     "slug": "lab-grown-finds-its-floor",
+     "tag": "Diamonds"
+    },
+    {
+     "slug": "sixty-one-percent-said-lab",
+     "tag": "Retail"
+    }
+   ]
+  }
+ },
+ "ten-forty-four-and-holding": {
+  "strip": {
+   "cap": "By the numbers · Dubai 24-carat gold, 11 August",
+   "cells": [
+    {
+     "fig": "AED 526.75",
+     "delta": "▲ +3.50",
+     "dir": "up",
+     "lab": "Goodreturns, 24-carat, a gram"
+    },
+    {
+     "fig": "AED 516.31",
+     "lab": "peg arithmetic on spot, derived"
+    },
+    {
+     "fig": "AED 516.26",
+     "delta": "▲ +3.81",
+     "dir": "up",
+     "lab": "LivePriceOfGold, same carat"
+    },
+    {
+     "fig": "AED 10.44",
+     "lab": "the wedge, third session at the level"
+    },
+    {
+     "fig": "$4,372.80",
+     "lab": "gold spot, Kitco 06:00 EST"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "The Dubai wedge · Goodreturns less peg arithmetic, dirhams a gram",
+    "rows": [
+     {
+      "l": "11 AUGUST",
+      "v": 10.44,
+      "d": "AED 10.44",
+      "hi": true
+     },
+     {
+      "l": "10 AUGUST",
+      "v": 10.66,
+      "d": "AED 10.66"
+     },
+     {
+      "l": "7 AUGUST",
+      "v": 1.08,
+      "d": "AED 1.08"
+     }
+    ],
+    "note": "Peg arithmetic is this desk's conversion of Kitco spot at the dirham's fixed 3.6725 rate. The step between 7 and 10 August was taken in one move on 8 August and has held since.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/212"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Five fils from the arithmetic, ten dirhams from the counter.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Three readings, one overnight move.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "The gap is a level, not a drift",
+     "attr": "The Gold & Metals Desk"
+    }
+   },
+   {
+    "sub": "The wedge, dated.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Two Dubai gold rates, 2% apart",
+     "href": "a-neither-one-is-wrong.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "a step you can name is a cost you can price"
+  },
+  "next": {
+   "lead": {
+    "slug": "one-state-one-banner",
+    "tag": "Retail",
+    "blurb": "Kalyan is opening a Tamil Nadu-only banner in Chennai on 21 August."
+   },
+   "minis": [
+    {
+     "slug": "neither-one-is-wrong",
+     "tag": "Metals"
+    },
+    {
+     "slug": "the-fourteen-percent-that-isnt",
+     "tag": "Metals"
+    }
+   ]
+  }
+ },
+ "one-state-one-banner": {
+  "strip": {
+   "cap": "By the numbers · Kalyan's Tamil Nadu banner",
+   "cells": [
+    {
+     "fig": "21 Aug",
+     "lab": "first Akshaya Thanga Maligai opens, Chennai"
+    },
+    {
+     "fig": "400+",
+     "lab": "Kalyan showrooms, seven countries"
+    },
+    {
+     "fig": "1",
+     "lab": "state the new brand will trade in"
+    },
+    {
+     "fig": "46%",
+     "lab": "June-quarter revenue taken in recycled metal"
+    },
+    {
+     "fig": "75.1t",
+     "delta": "▼ −15%",
+     "dir": "down",
+     "lab": "Indian Q2 jewellery demand by weight"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Kalyan Jewellers · recycled metal as a share of revenue, per cent",
+    "rows": [
+     {
+      "l": "JUNE 2026, THE MONTH",
+      "v": 55,
+      "d": ">55%",
+      "hi": true
+     },
+     {
+      "l": "JUNE QUARTER 2026",
+      "v": 46,
+      "d": ">46%"
+     }
+    ],
+    "note": "Company figures previously filed by this paper on 9 August 2026. Customers exchanging old gold rather than buying new is the demand backdrop the new banner opens into.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/213"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "A second sign, one state.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "What a separate banner concedes.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "A national chain does not build a second sign for one state casually",
+     "attr": "The Retail Desk"
+    }
+   },
+   {
+    "sub": "Franchise capital carries the gold.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Forty-six percent came back",
+     "href": "a-forty-six-percent-came-back.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "the growth left in Indian jewellery is local, and it is being bought one state at a time"
+  },
+  "next": {
+   "lead": {
+    "slug": "three-prices-one-carat",
+    "tag": "Diamonds",
+    "blurb": "Two reference pages priced the same lab-grown carat $61 apart this morning."
+   },
+   "minis": [
+    {
+     "slug": "forty-six-percent-came-back",
+     "tag": "Retail"
+    },
+    {
+     "slug": "india-buys-fifteen-percent-less",
+     "tag": "Demand"
+    }
+   ]
+  }
  }
 }
