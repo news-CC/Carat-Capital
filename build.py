@@ -200,7 +200,7 @@ DESKS = [
  dict(no="06", slug="retail-tech", nav="Retail", title="Retail & Technology",
    tag="the counter, rebuilt for the next generation",
    dek="Where the industry meets its customer — and its future. The retail desk covers lab-grown economics, e-commerce and live-selling, traceability tech, AI in the showroom, and the store formats winning buyers who are 24, online at midnight, and allergic to velvet ropes.",
-   stats=[("$727","Lab-grown 1ct, wholesale"),("~20%","Of sales now online"),("24","Median first-buyer age")],
+   stats=[("$475","Lab-grown 1ct, wholesale midpoint"),("~20%","Of sales now online"),("24","Median first-buyer age")],
    motif="store",
    briefing=[
      ("B-01","Lab-grown settles into its true business model","At an 86% discount to natural, LGD is no longer a diamond substitute — it's a fashion-jewelry category with diamond optics. Margins migrate from the stone to the brand and the volume.","Economics · Global"),

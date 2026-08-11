@@ -7,8 +7,8 @@
    "t": " — Two public reference pages for a one-carat lab-grown diamond were read live this morning and returned different numbers. CaratRadar, republished 11 August, puts the one-carat average at $711 and states that its figures are asking-price averages drawn from active certified listings across major online retailers, refreshed daily. TheDiamondPrice, carrying an August 2026 date, puts the fair market price of a one-carat round at $650 on an E-to-F, VVS benchmark and says most comparable stones sit between $590 and $760. The gap is $61, or 9.4% on the lower figure, derived by this desk. The two are not in conflict: $711 sits inside the second page's own band, above its $675 midpoint, which is where an offer should sit against an estimate of what stones fetch. This paper carried a third reference, StoneAlgo at $511 dated 7 August, in its wire on 9 August; that page has not been re-read today. The published span for the same stone runs about 39%"
   },
   {
-   "b": "THE TAPE REBASES LAB-GROWN",
-   "t": " — This paper's wire tape has carried a lab-grown one-carat line at $727 marked unchanged for several sessions with no source attached to the level. From this edition the line reads $711, the CaratRadar figure republished today, with the source and the date named, so the number on the tape is the number in the article and both can be checked against the page they came from. The line is marked rebased rather than unchanged, because the move is a change of instrument and not a price move. The two natural-diamond indices this tape also tries to carry, the RapNet Diamond Index and the Zimnisky rough index, returned no numeric reading again this morning, the seventh consecutive session, and both print unreachable rather than a figure this desk cannot stand behind"
+   "b": "FOUR NUMBERS FOR ONE LAB-GROWN CARAT, TWO OF THEM OURS",
+   "t": " — This paper carries two lab-grown one-carat marks and they are not the same number. The newsroom tape carries $711, the CaratRadar asking-price average read live this morning. The site's tape chip carries $475, the midpoint of the published CVD wholesale band dated 30 July, locked by the build to the lab-grown price list it links to so the chip and the list can never quote two different figures. Both are correct on their own basis and each is footnoted on the page with its quantity and its date. A third figure, $727, was printed on the retail desk panel under the label \"Lab-grown 1ct, wholesale\" with no source and no date attached and disagreed with our own wholesale midpoint under nearly the same label; it has been taken off the page today and replaced with the sourced $475. Read with the two outside references above, the same stone carries $475, $511, $650, $711 and $727 across five published surfaces, and the only one this desk could not stand behind was its own"
   },
   {
    "b": "TEN DIRHAMS AND HOLDING",
@@ -82,8 +82,8 @@
   {
    "name": "Lab-grown 1ct reference",
    "code": "LGD1",
-   "px": "711.00",
-   "chg": "— rebased",
+   "px": "475.00",
+   "chg": "— see note",
    "dir": "flat",
    "pts": [
     13,
