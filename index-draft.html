@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CARAT CAPITAL — The Trade Paper of the Jewelry World</title>
+<meta name="description" content="Prices, intelligence and reporting from every desk of the stone trade. Clarity, daily.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+/* ═══════════════════════════════════════════════════════════════════
+   CARAT CAPITAL — THE DAWN EDITION
+   The page is one working night. You enter at 03:00 with the Bureau,
+   under the lamp, in obsidian. You leave at 06:00 with the edition
+   printed on paper. The scroll is the clock.
+   ═══════════════════════════════════════════════════════════════════ */
+:root{
+  /* the two faces, lerped live by --dawn (0 = night, 1 = morning) */
+  --obs:#04060B; --ink2:#0C1421; --tbone:#DCEAF5;
+  --bone:#F2EDE3; --paper:#F8F4EB; --ink:#16130E; --dry:#4A443A;
+  --verm:#BE3319; --gilt:#C6A24A; --gilt-d:#96762E;
+  --cy:#00E5FF; --ok:#2BFF95; --warn:#FFB627;
+  /* live-mixed */
+  --bg:#04060B; --fg:#DCEAF5; --fg2:rgba(220,234,245,.62); --fg3:rgba(220,234,245,.34);
+  --line:rgba(198,162,74,.26); --acc:#C6A24A;
+  --disp:'Instrument Sans',-apple-system,BlinkMacSystemFont,sans-serif;
+  --serif:'Lora',Georgia,serif;
+  --mono:'IBM Plex Mono',ui-monospace,Menlo,monospace;
+  --glide:cubic-bezier(.16,.9,.24,1);
+  --wrap:1240px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{background:var(--bg);color:var(--fg);font-family:var(--serif);line-height:1.65;
+  -webkit-font-smoothing:antialiased;overflow-x:hidden;transition:background .25s linear}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 clamp(18px,4vw,44px)}
+.mono{font-family:var(--mono);font-variant-numeric:tabular-nums}
+.lab{font-family:var(--mono);font-size:10px;letter-spacing:.26em;text-transform:uppercase;color:var(--acc)}
+.dim{color:var(--fg3)}
+
+/* ═══ fixed atmosphere ═══ */
+#grain{position:fixed;inset:0;z-index:3;pointer-events:none;opacity:.05;mix-blend-mode:overlay;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+#vig{position:fixed;inset:0;z-index:2;pointer-events:none;transition:opacity .4s linear;
+  background:radial-gradient(130% 95% at 50% 0%,rgba(198,162,74,.07),transparent 55%),
+             radial-gradient(150% 130% at 50% 118%,rgba(0,0,0,.75),transparent 58%)}
+#prog{position:fixed;left:0;top:0;height:2px;width:0;z-index:60;
+  background:linear-gradient(90deg,var(--gilt-d),var(--gilt));box-shadow:0 0 12px rgba(198,162,74,.6)}
+
+/* ═══ top bar ═══ */
+#top{position:fixed;left:0;right:0;top:0;z-index:50;height:62px;display:flex;align-items:center;
+  border-bottom:1px solid transparent;transform:translateY(-100%);
+  transition:transform .6s var(--glide),background .3s,border-color .3s,backdrop-filter .3s}
+#top.on{transform:none;background:color-mix(in srgb,var(--bg) 88%,transparent);
+  backdrop-filter:blur(14px) saturate(1.2);border-color:var(--line)}
+#top .inner{display:flex;align-items:center;gap:20px;width:100%}
+#top .bm{display:flex;align-items:center;gap:10px;font-family:var(--disp);font-weight:700;
+  font-size:13px;letter-spacing:.2em;text-transform:uppercase}
+#top .bm svg{width:26px;height:26px;color:var(--acc)}
+#top nav{margin-left:auto;display:flex;gap:2px;overflow-x:auto;scrollbar-width:none}
+#top nav::-webkit-scrollbar{display:none}
+#top nav a{font-family:var(--mono);font-size:10px;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--fg3);padding:7px 11px;border-radius:7px;white-space:nowrap;transition:color .2s,background .2s}
+#top nav a:hover{color:var(--fg);background:color-mix(in srgb,var(--acc) 12%,transparent)}
+.caret{color:var(--verm)}
+
+/* ═══ 00 · THE STRIKE — hero, night ═══ */
+#strike{position:relative;min-height:100svh;display:grid;grid-template-rows:1fr auto;
+  padding-top:64px;overflow:hidden}
+#gemwrap{position:relative;width:min(42vmin,380px);height:min(42vmin,380px);margin:0 auto;
+  z-index:1;pointer-events:none;filter:drop-shadow(0 34px 80px rgba(0,0,0,.85));
+  animation:gemin 1.6s var(--glide) both}
+@keyframes gemin{from{opacity:0;transform:scale(.62) translateY(26px)}to{opacity:1;transform:none}}
+/* a quiet pool of light under the stone so the type below always reads */
+#gemwrap::after{content:"";position:absolute;left:50%;top:52%;transform:translate(-50%,-50%);
+  width:190%;height:150%;z-index:-1;pointer-events:none;
+  background:radial-gradient(closest-side,rgba(198,162,74,.13),transparent 72%)}
+#gem{width:100%;height:100%;display:block}
+.hero-in{position:relative;z-index:2;display:flex;flex-direction:column;align-items:center;
+  justify-content:center;text-align:center;padding:clamp(20px,5vh,60px) 20px}
+.clockline{display:flex;align-items:center;gap:14px;font-family:var(--mono);font-size:10px;
+  letter-spacing:.3em;text-transform:uppercase;color:var(--acc);
+  margin:clamp(20px,4vh,38px) 0 clamp(14px,3vh,26px)}
+.clockline i{width:6px;height:6px;background:var(--verm);transform:rotate(45deg);display:block;
+  box-shadow:0 0 12px rgba(190,51,25,.8);animation:pulse 2.6s ease-in-out infinite}
+@keyframes pulse{50%{opacity:.25}}
+h1.mast{font-family:var(--disp);font-weight:700;letter-spacing:-.045em;line-height:.9;
+  font-size:clamp(44px,10.5vw,150px);color:var(--fg);text-wrap:balance}
+h1.mast .l{display:inline-block;opacity:0;transform:translateY(.34em) rotate(3deg);
+  animation:strike .9s var(--glide) forwards}
+@keyframes strike{to{opacity:1;transform:none}}
+.slogan{margin-top:clamp(16px,3vh,26px);font-family:var(--mono);font-size:clamp(10px,1.5vw,13px);
+  letter-spacing:.44em;text-transform:uppercase;color:var(--acc);opacity:0;animation:fadein .9s .95s var(--glide) forwards}
+.sub{margin-top:14px;font-size:clamp(14px,1.7vw,18px);color:var(--fg2);max-width:38ch;
+  opacity:0;animation:fadein .9s 1.15s var(--glide) forwards}
+@keyframes fadein{to{opacity:1}}
+.cue{position:absolute;left:50%;bottom:74px;transform:translateX(-50%);z-index:2;
+  display:flex;flex-direction:column;align-items:center;gap:8px;opacity:0;
+  animation:fadein .8s 1.6s forwards}
+.cue i{width:7px;height:7px;background:var(--acc);transform:rotate(45deg);animation:drop 2.2s var(--glide) infinite}
+@keyframes drop{0%,100%{transform:rotate(45deg) translate(0,0);opacity:1}50%{transform:rotate(45deg) translate(5px,5px);opacity:.25}}
+.cue span{font-family:var(--mono);font-size:9px;letter-spacing:.3em;color:var(--fg3);text-transform:uppercase}
+@media(max-height:760px){.cue{display:none}}
+
+/* the tape */
+.tape{position:relative;border-top:1px solid var(--line);border-bottom:1px solid var(--line);
+  height:44px;display:flex;align-items:center;overflow:hidden;z-index:2;
+  background:color-mix(in srgb,var(--bg) 70%,transparent);backdrop-filter:blur(8px)}
+.tape::before,.tape::after{content:"";position:absolute;top:0;bottom:0;width:90px;z-index:2;pointer-events:none}
+.tape::before{left:0;background:linear-gradient(90deg,var(--bg),transparent)}
+.tape::after{right:0;background:linear-gradient(270deg,var(--bg),transparent)}
+.tape .run{display:flex;white-space:nowrap;animation:tk 52s linear infinite;will-change:transform}
+.tape:hover .run{animation-play-state:paused}
+@keyframes tk{to{transform:translateX(-50%)}}
+.tk{display:inline-flex;align-items:center;gap:9px;font-family:var(--mono);font-size:11px;
+  letter-spacing:.1em;color:var(--fg2);padding:0 22px;border-right:1px solid var(--line);
+  font-variant-numeric:tabular-nums}
+.tk b{color:var(--acc);font-weight:500}
+.tk .up{color:var(--ok)}.tk .dn{color:#FF6B4A}.tk .fl{color:var(--fg3)}
+.tk .d{width:5px;height:5px;background:var(--acc);transform:rotate(45deg);opacity:.7}
+
+/* ═══ shared section furniture ═══ */
+section{position:relative;z-index:1}
+.band{padding:clamp(72px,13vh,150px) 0}
+.shead{display:flex;align-items:baseline;gap:16px;margin-bottom:clamp(26px,5vh,52px);flex-wrap:wrap}
+.shead .n{font-family:var(--mono);font-size:11px;letter-spacing:.3em;color:var(--acc)}
+.shead h2{font-family:var(--disp);font-weight:700;letter-spacing:-.03em;line-height:1.02;
+  font-size:clamp(30px,5vw,62px);color:var(--fg);text-wrap:balance}
+.shead .r{margin-left:auto;font-family:var(--mono);font-size:10px;letter-spacing:.2em;
+  text-transform:uppercase;color:var(--fg3)}
+.lede{font-size:clamp(16px,1.9vw,20px);color:var(--fg2);max-width:62ch}
+
+/* line-by-line reveal */
+.rv{opacity:0;transform:translateY(26px);transition:opacity .9s var(--glide),transform .9s var(--glide)}
+.rv.in{opacity:1;transform:none}
+.rv-1{transition-delay:.08s}.rv-2{transition-delay:.16s}.rv-3{transition-delay:.24s}
+.rv-4{transition-delay:.32s}.rv-5{transition-delay:.40s}
+
+/* ═══ 01 · THE NIGHT DESK ═══ */
+.bureau{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;
+  background:var(--line);border:1px solid var(--line);border-radius:16px;overflow:hidden}
+.bureau .watch:last-child{grid-column:1 / -1;display:flex;align-items:baseline;gap:18px;flex-wrap:wrap}
+.bureau .watch:last-child .bt{margin-top:0}
+.bureau .watch:last-child .bar{flex:1;min-width:120px;margin-top:0}
+@media(max-width:820px){.bureau{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:520px){.bureau{grid-template-columns:1fr}}
+.watch{background:var(--bg);padding:22px 20px 24px;position:relative;transition:background .4s}
+.watch:hover{background:color-mix(in srgb,var(--acc) 7%,var(--bg))}
+.watch .t{font-family:var(--mono);font-size:11px;letter-spacing:.16em;color:var(--acc)}
+.watch .nm{font-family:var(--disp);font-weight:700;font-size:16px;margin-top:10px;color:var(--fg)}
+.watch .bt{font-size:13px;color:var(--fg2);margin-top:5px;line-height:1.5}
+.watch .bar{height:2px;background:color-mix(in srgb,var(--acc) 18%,transparent);margin-top:16px;overflow:hidden}
+.watch .bar i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--gilt-d),var(--gilt));
+  transition:width 1.2s var(--glide)}
+.watch.in .bar i{width:var(--w,70%)}
+.statrow{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:clamp(16px,3vw,40px);
+  margin-top:clamp(30px,6vh,64px)}
+.stat .v{font-family:var(--disp);font-weight:700;font-size:clamp(34px,5vw,62px);letter-spacing:-.03em;
+  color:var(--fg);font-variant-numeric:tabular-nums;line-height:1}
+.stat .k{font-family:var(--mono);font-size:10px;letter-spacing:.22em;text-transform:uppercase;
+  color:var(--fg3);margin-top:10px}
+
+/* ═══ 02 · THE EDITION (paper) ═══ */
+.lead{display:grid;grid-template-columns:1.35fr .85fr;gap:clamp(24px,4vw,60px);align-items:start}
+@media(max-width:900px){.lead{grid-template-columns:1fr}}
+.kick{font-family:var(--mono);font-size:10px;letter-spacing:.24em;text-transform:uppercase;color:var(--verm)}
+.lead h3{font-family:var(--disp);font-weight:700;letter-spacing:-.03em;line-height:1.03;
+  font-size:clamp(28px,4.4vw,56px);margin:14px 0 18px;color:var(--fg);text-wrap:balance}
+.lead .dek{font-size:clamp(15px,1.7vw,18.5px);color:var(--fg2);max-width:56ch}
+.lead .by{font-family:var(--mono);font-size:10px;letter-spacing:.18em;text-transform:uppercase;
+  color:var(--fg3);margin-top:20px}
+.plate{position:relative;border:1px solid var(--line);border-radius:14px;overflow:hidden;
+  aspect-ratio:4/3;background:color-mix(in srgb,var(--acc) 6%,transparent)}
+.plate .ph{position:absolute;inset:0;display:grid;place-items:center;
+  background:repeating-linear-gradient(-42deg,color-mix(in srgb,var(--acc) 22%,transparent) 0 1px,transparent 1px 7px)}
+.plate .cap{position:absolute;left:0;right:0;bottom:0;display:flex;justify-content:space-between;
+  padding:9px 13px;font-family:var(--mono);font-size:9px;letter-spacing:.18em;text-transform:uppercase;
+  color:var(--fg2);background:color-mix(in srgb,var(--bg) 78%,transparent);backdrop-filter:blur(6px);
+  border-top:1px solid var(--line)}
+.cta{display:inline-flex;align-items:center;gap:10px;margin-top:26px;padding:13px 24px;
+  border-radius:999px;border:1px solid var(--line);font-family:var(--mono);font-size:11px;
+  letter-spacing:.2em;text-transform:uppercase;color:var(--acc);position:relative;overflow:hidden;
+  transition:border-color .35s,color .25s,transform .45s var(--glide)}
+.cta::after{content:"";position:absolute;top:0;bottom:0;width:44%;left:-60%;transform:skewX(-18deg);
+  background:linear-gradient(90deg,transparent,color-mix(in srgb,var(--acc) 26%,transparent),transparent);
+  transition:left .65s var(--glide)}
+.cta:hover{border-color:var(--acc);transform:translateY(-2px)}
+.cta:hover::after{left:120%}
+
+/* ═══ 03 · THE SIX DESKS — sticky stack ═══ */
+#desks{padding-bottom:0}
+.stack{position:relative}
+.card{position:sticky;top:92px;margin-bottom:20px;border-radius:20px;overflow:hidden;
+  border:1px solid var(--line);padding:clamp(26px,4vw,52px);min-height:clamp(260px,34vh,330px);
+  background:var(--bg);
+  box-shadow:0 26px 60px -34px rgba(0,0,0,.45);
+  transition:transform .6s var(--glide),box-shadow .5s}
+/* the desk's own hue, laid over the opaque card */
+.card::before{content:"";position:absolute;inset:0;z-index:0;pointer-events:none;
+  background:linear-gradient(155deg,color-mix(in srgb,var(--dk) 20%,transparent),transparent 62%)}
+.card>*{position:relative;z-index:1}
+.card:hover{box-shadow:0 34px 74px -30px rgba(0,0,0,.5)}
+.card .cn{font-family:var(--mono);font-size:11px;letter-spacing:.26em;color:var(--dk)}
+.card h3{font-family:var(--disp);font-weight:700;letter-spacing:-.03em;line-height:1.02;
+  font-size:clamp(26px,4.2vw,52px);margin:12px 0 12px;color:var(--fg)}
+.card p{font-size:clamp(14px,1.6vw,17px);color:var(--fg2);max-width:52ch}
+.card .row{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+.card .pill{font-family:var(--mono);font-size:10px;letter-spacing:.16em;text-transform:uppercase;
+  padding:7px 13px;border-radius:999px;border:1px solid color-mix(in srgb,var(--dk) 40%,transparent);
+  color:var(--dk)}
+.card .dd{position:absolute;right:clamp(20px,4vw,48px);top:clamp(20px,4vw,44px);width:12px;height:12px;
+  transform:rotate(45deg);background:var(--dk);box-shadow:0 0 22px color-mix(in srgb,var(--dk) 70%,transparent)}
+
+/* ═══ 04 · THE PRICE DESK ═══ */
+.pricegrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:1px;
+  background:var(--line);border:1px solid var(--line);border-radius:16px;overflow:hidden}
+.px{background:var(--bg);padding:24px 22px 26px;transition:background .35s}
+.px:hover{background:color-mix(in srgb,var(--acc) 8%,var(--bg))}
+.px .nm{font-family:var(--mono);font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--fg3)}
+.px .v{font-family:var(--disp);font-weight:700;font-size:clamp(26px,3.2vw,40px);letter-spacing:-.02em;
+  margin-top:12px;color:var(--fg);font-variant-numeric:tabular-nums}
+.px .d{font-family:var(--mono);font-size:11px;letter-spacing:.1em;margin-top:8px}
+.px .d.up{color:var(--ok)}.px .d.dn{color:#D2452A}.px .d.fl{color:var(--fg3)}
+
+/* ═══ 05 · THE BRIEF ═══ */
+.brief{border:1px solid var(--line);border-radius:22px;padding:clamp(30px,5vw,64px);text-align:center;
+  background:linear-gradient(160deg,color-mix(in srgb,var(--acc) 8%,transparent),transparent 70%)}
+.brief h2{font-family:var(--disp);font-weight:700;letter-spacing:-.03em;line-height:1.03;
+  font-size:clamp(28px,4.6vw,56px);color:var(--fg);text-wrap:balance}
+.brief p{margin:18px auto 0;max-width:52ch;color:var(--fg2);font-size:clamp(15px,1.7vw,18px)}
+.form{display:flex;gap:10px;max-width:480px;margin:30px auto 0;flex-wrap:wrap}
+.form input{flex:1;min-width:210px;background:transparent;border:1px solid var(--line);border-radius:999px;
+  padding:14px 20px;color:var(--fg);font-family:var(--mono);font-size:12px;letter-spacing:.06em}
+.form input::placeholder{color:var(--fg3)}
+.form input:focus{outline:none;border-color:var(--acc)}
+.form button{padding:14px 26px;border-radius:999px;border:1px solid var(--acc);cursor:pointer;
+  background:var(--acc);color:#0B0A06;font-family:var(--mono);font-size:11px;letter-spacing:.2em;
+  text-transform:uppercase;transition:transform .35s var(--glide),filter .25s}
+.form button:hover{transform:translateY(-2px);filter:brightness(1.08)}
+.trust{margin-top:18px;font-family:var(--mono);font-size:10px;letter-spacing:.18em;
+  text-transform:uppercase;color:var(--fg3)}
+
+footer{border-top:1px solid var(--line);padding:44px 0 70px;margin-top:clamp(60px,10vh,120px)}
+.fgrid{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap;align-items:center}
+.fgrid .wm{font-family:var(--disp);font-weight:700;letter-spacing:.22em;font-size:13px;text-transform:uppercase}
+.fgrid .m{font-family:var(--mono);font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--fg3);line-height:2}
+
+/* spotlight on panels */
+.spot{position:relative;isolation:isolate}
+.spot::after{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;opacity:0;
+  transition:opacity .4s;z-index:0;
+  background:radial-gradient(330px circle at var(--mx,50%) var(--my,50%),color-mix(in srgb,var(--acc) 13%,transparent),transparent 62%)}
+.spot:hover::after{opacity:1}
+.spot>*{position:relative;z-index:1}
+
+@media(max-width:760px){
+  #gemwrap{width:min(58vmin,300px);height:min(58vmin,300px)}
+  .card{top:78px}
+  .cue{bottom:78px}
+}
+@media (prefers-reduced-motion: reduce){
+  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;
+    transition-duration:.01ms!important}
+  html{scroll-behavior:auto}
+  .rv{opacity:1;transform:none}
+  h1.mast .l{opacity:1;transform:none}
+  .slogan,.sub,.cue{opacity:1}
+  .tape .run{animation:none}
+}
+</style>
+</head>
+<body>
+
+<div id="vig" aria-hidden="true"></div>
+<div id="grain" aria-hidden="true"></div>
+<div id="prog" aria-hidden="true"></div>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<symbol id="medal" viewBox="0 0 100 100">
+  <circle cx="50" cy="50" r="47" fill="none" stroke="currentColor" stroke-width="1.6"/>
+  <circle cx="50" cy="50" r="41" fill="none" stroke="currentColor" stroke-width=".7" opacity=".55"/>
+  <g stroke="currentColor" stroke-width=".8" opacity=".5">
+    <circle cx="50" cy="50" r="34" fill="none"/><circle cx="50" cy="50" r="27" fill="none"/>
+    <circle cx="50" cy="50" r="20" fill="none"/></g>
+  <path d="M50 74 L44 58 C41 50 42 43 45 39 C46.5 37 48 36.2 50 35.8 C52 36.2 53.5 37 55 39 C58 43 59 50 56 58 Z"
+        fill="none" stroke="currentColor" stroke-width="2.1"/>
+  <path d="M50 74 L50 46" stroke="currentColor" stroke-width="1.1"/>
+  <path d="M50 41 L54 46 L50 51 L46 46 Z" fill="#BE3319"/>
+</symbol>
+</defs></svg>
+
+<header id="top">
+  <div class="wrap inner">
+    <a class="bm" href="/"><svg viewBox="0 0 100 100"><use href="#medal"/></svg>
+      Carat<span class="caret">^</span>Capital</a>
+    <nav>
+      <a href="diamonds">Diamonds</a><a href="gold-metals">Gold</a><a href="gemstones">Gems</a>
+      <a href="watches">Watches</a><a href="auctions">Auctions</a><a href="retail-tech">Retail</a>
+      <a href="almanac">The Tape</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<!-- ══════════ 00 · THE STRIKE ══════════ -->
+<section id="strike">
+  <div class="hero-in">
+    <div id="gemwrap"><canvas id="gem"></canvas></div>
+    <div class="clockline"><i></i><span id="clk">03:00 ET · THE BUREAU IS READING</span></div>
+    <h1 class="mast" id="mast">CARAT CAPITAL</h1>
+    <div class="slogan">Clarity, daily.</div>
+    <p class="sub">The trade paper of the jewelry world. Every claim priced, sourced, or cut.</p>
+  </div>
+
+  <div class="cue" aria-hidden="true"><i></i><span>The night desk</span></div>
+
+  <div class="tape" aria-label="Price tape">
+    <div class="run" id="tkrun"></div>
+  </div>
+</section>
+
+<!-- ══════════ 01 · THE NIGHT DESK ══════════ -->
+<section class="band" id="night">
+  <div class="wrap">
+    <div class="shead rv">
+      <span class="n">01</span>
+      <h2>While the West sleeps,<br>seven desks are reading.</h2>
+      <span class="r">03:00 – 03:50 ET · nightly</span>
+    </div>
+    <p class="lede rv rv-1">The Bureau reads each beat's own trade press in its own languages and files
+      before New York wakes. That lead time is the sharpest edge this company owns.</p>
+
+    <div class="bureau rv rv-2" style="margin-top:clamp(28px,5vh,52px)">
+      <div class="watch spot" data-w="86"><div class="t">03:00</div><div class="nm">Rough &amp; Diamonds</div>
+        <div class="bt">Sights, tenders, Antwerp and Surat traffic.</div><div class="bar"><i></i></div></div>
+      <div class="watch spot" data-w="72"><div class="t">03:10</div><div class="nm">Gold &amp; Metals</div>
+        <div class="bt">Spot, refinery flow, central-bank buying.</div><div class="bar"><i></i></div></div>
+      <div class="watch spot" data-w="54"><div class="t">03:20</div><div class="nm">Coloured Gems</div>
+        <div class="bt">Emerald, ruby, sapphire supply lines.</div><div class="bar"><i></i></div></div>
+      <div class="watch spot" data-w="79"><div class="t">03:30</div><div class="nm">Watches</div>
+        <div class="bt">Maisons, secondhand indices, production.</div><div class="bar"><i></i></div></div>
+      <div class="watch spot" data-w="91"><div class="t">03:40</div><div class="nm">Auctions</div>
+        <div class="bt">Results, withdrawals, estimate spreads.</div><div class="bar"><i></i></div></div>
+      <div class="watch spot" data-w="68"><div class="t">03:50</div><div class="nm">Retail &amp; Tech</div>
+        <div class="bt">Footfall, e-commerce, traceability.</div><div class="bar"><i></i></div></div>
+      <div class="watch spot" data-w="83"><div class="t">20:00</div><div class="nm">Global Overnight</div>
+        <div class="bt">Asia, the Gulf, Europe before the open.</div><div class="bar"><i></i></div></div>
+    </div>
+
+    <div class="statrow">
+      <div class="stat rv rv-1"><div class="v" data-count="227">0</div><div class="k">Articles published</div></div>
+      <div class="stat rv rv-2"><div class="v" data-count="30">0</div><div class="k">Editions printed</div></div>
+      <div class="stat rv rv-3"><div class="v" data-count="6">0</div><div class="k">Desks reporting</div></div>
+      <div class="stat rv rv-4"><div class="v" data-count="23">0</div><div class="k">On the masthead</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ 02 · THE EDITION ══════════ -->
+<section class="band" id="edition">
+  <div class="wrap">
+    <div class="shead rv">
+      <span class="n">02</span>
+      <h2>06:00. The edition prints.</h2>
+      <span class="r">Sunday, 9 August 2026 · Vol. I — No. 030</span>
+    </div>
+
+    <div class="lead">
+      <article class="rv rv-1">
+        <div class="kick">Lead story · Auctions desk</div>
+        <h3><a href="a-four-times-melt">Four times its metal: a Garrard egg makes £123,500</a></h3>
+        <p class="dek">A 22-carat gold Cadbury &lsquo;Conundrum&rsquo; egg by Garrard sold for £123,500,
+          about $166,600, at Batemans on 1 August. That is close to six times its estimate and roughly
+          four times the melt value of its 323.6 grams.</p>
+        <div class="by">By the Auctions Desk · 5 min read</div>
+        <a class="cta" href="a-four-times-melt">Read this morning's lead →</a>
+      </article>
+      <figure class="plate rv rv-2 spot">
+        <div class="ph"></div>
+        <figcaption class="cap"><span>Plate I — Carat Capital</span><span>CC</span></figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ 03 · THE SIX DESKS ══════════ -->
+<section class="band" id="desks">
+  <div class="wrap">
+    <div class="shead rv">
+      <span class="n">03</span>
+      <h2>Six desks. One paper.</h2>
+      <span class="r">every piece belongs to a desk</span>
+    </div>
+
+    <div class="stack">
+      <a class="card spot" href="diamonds" style="--dk:#8CC5FF">
+        <span class="dd"></span><div class="cn">D—01</div>
+        <h3>Diamonds &amp; Rough</h3>
+        <p>The stone that runs on trust. Sight-holder economics, rough tenders, polished indices and the
+          widening gap between natural and lab-grown.</p>
+        <div class="row"><span class="pill">RAPI proxy</span><span class="pill">Sights</span><span class="pill">Antwerp · Surat</span></div>
+      </a>
+      <a class="card spot" href="gold-metals" style="--dk:#E8C06A">
+        <span class="dd"></span><div class="cn">D—02</div>
+        <h3>Gold &amp; Metals</h3>
+        <p>The metal beneath every margin. Spot, refinery throughput, central-bank buying and what a
+          moving ounce does to a retailer's case.</p>
+        <div class="row"><span class="pill">XAU · XAG</span><span class="pill">Platinum</span><span class="pill">Refining</span></div>
+      </a>
+      <a class="card spot" href="gemstones" style="--dk:#4FD08A">
+        <span class="dd"></span><div class="cn">D—03</div>
+        <h3>Coloured Gemstones</h3>
+        <p>Supply lines drawn in emerald, ruby and sapphire. Auction clearing, origin disclosure and the
+          treatment questions buyers keep asking.</p>
+        <div class="row"><span class="pill">Gemfields</span><span class="pill">Origin</span><span class="pill">Treatment</span></div>
+      </a>
+      <a class="card spot" href="watches" style="--dk:#B79BFF">
+        <span class="dd"></span><div class="cn">D—04</div>
+        <h3>Watches</h3>
+        <p>Maisons, movements and the secondhand tape. Production numbers, waiting lists and where the
+          grey market actually clears.</p>
+        <div class="row"><span class="pill">Secondhand</span><span class="pill">Production</span><span class="pill">Maisons</span></div>
+      </a>
+      <a class="card spot" href="auctions" style="--dk:#FF8FA8">
+        <span class="dd"></span><div class="cn">D—05</div>
+        <h3>Auctions &amp; Estates</h3>
+        <p>Results the trade can price against. Hammer versus estimate, withdrawal rates and the
+          provenance that moves a lot.</p>
+        <div class="row"><span class="pill">Hammer</span><span class="pill">Estimates</span><span class="pill">Provenance</span></div>
+      </a>
+      <a class="card spot" href="retail-tech" style="--dk:#6FE3E3">
+        <span class="dd"></span><div class="cn">D—06</div>
+        <h3>Retail &amp; Technology</h3>
+        <p>Where the trade meets the counter. Footfall, e-commerce, traceability and the software the
+          independents actually run.</p>
+        <div class="row"><span class="pill">Footfall</span><span class="pill">Traceability</span><span class="pill">BNPL</span></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ 04 · THE PRICE DESK ══════════ -->
+<section class="band" id="prices">
+  <div class="wrap">
+    <div class="shead rv">
+      <span class="n">04</span>
+      <h2>Never fabricate a price.</h2>
+      <span class="r">7 Aug 2026, 5:00pm NY close · carried unch.</span>
+    </div>
+    <p class="lede rv rv-1">Verify it, or carry it with &ldquo;unch.&rdquo; Unverified is a state we
+      publish, not a gap we fill.</p>
+
+    <div class="pricegrid rv rv-2" style="margin-top:clamp(26px,5vh,48px)">
+      <div class="px spot"><div class="nm">Gold / oz</div><div class="v" data-count="4341.30" data-dec="2">0</div><div class="d fl">— unch.</div></div>
+      <div class="px spot"><div class="nm">Natural 1ct · RAPI proxy</div><div class="v" data-count="3880.00" data-dec="2">0</div><div class="d dn">−6.4% YTD</div></div>
+      <div class="px spot"><div class="nm">Lab-grown 1ct wholesale</div><div class="v" data-count="475.00" data-dec="2">0</div><div class="d dn">−13% YoY</div></div>
+      <div class="px spot"><div class="nm">Platinum / oz</div><div class="v" data-count="1743.00" data-dec="2">0</div><div class="d fl">— unch.</div></div>
+      <div class="px spot"><div class="nm">Silver / oz</div><div class="v" data-count="63.46" data-dec="2">0</div><div class="d fl">— unch.</div></div>
+    </div>
+    <a class="cta rv rv-3" href="almanac">Full tape &amp; tables →</a>
+  </div>
+</section>
+
+<!-- ══════════ 05 · THE BRIEF ══════════ -->
+<section class="band" id="brief">
+  <div class="wrap">
+    <div class="brief spot rv">
+      <h2>Five minutes, before Antwerp takes lunch.</h2>
+      <p>The Morning Brief: overnight prices, three stories that matter, one sharp quotable insight.
+        Free, daily, and it never pads.</p>
+      <form class="form" onsubmit="return false">
+        <input type="email" placeholder="you@thetrade.com" aria-label="Email address">
+        <button type="submit">Subscribe</button>
+      </form>
+      <div class="trust">No hype words · no exclamation marks · unsubscribe in one click</div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap fgrid">
+    <div class="wm">Carat<span class="caret">^</span>Capital</div>
+    <div class="m">The trade paper of the jewelry world<br>caratcapital.org · struck MMXXVI</div>
+    <div class="m">Clarity, daily.</div>
+  </div>
+</footer>
+
+<script>
+const RM = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+/* ── masthead strike ── */
+(function(){
+  const el=document.getElementById('mast'), t=el.textContent; el.textContent='';
+  [...t].forEach((c,i)=>{
+    const s=document.createElement('span'); s.className='l';
+    s.textContent = c===' ' ? ' ' : c;
+    s.style.animationDelay = (0.20 + i*0.045)+'s';
+    el.appendChild(s);
+  });
+})();
+
+/* ── the tape ── */
+(function(){
+  const rows=[
+    ['XAU / oz','4,341.30','fl','— unch.'],['NATURAL 1CT','3,880.00','dn','−6.4% YTD'],
+    ['LAB-GROWN 1CT','475.00','dn','−13% YoY'],['XPT / oz','1,743.00','fl','— unch.'],
+    ['XAG / oz','63.46','fl','— unch.'],['EDITION','No. 030','up','● PRINTED 06:00 ET'],
+    ['DESKS REPORTING','6 / 6','up','▲'],['SPECIMEN TAPE','illustrative','fl','not quoted']
+  ];
+  const mk=()=>rows.map(r=>`<span class="tk"><span class="d"></span><b>${r[0]}</b> ${r[1]} <span class="${r[2]}">${r[3]}</span></span>`).join('');
+  document.getElementById('tkrun').innerHTML = mk()+mk();
+})();
+
+/* ── reveals ── */
+const io=new IntersectionObserver(es=>es.forEach(e=>{
+  if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); }
+}),{threshold:0,rootMargin:'0px 0px -12% 0px'});
+document.querySelectorAll('.rv').forEach(el=>io.observe(el));
+
+/* ── bureau bars ── */
+const bio=new IntersectionObserver(es=>es.forEach(e=>{
+  if(e.isIntersecting){ e.target.style.setProperty('--w', e.target.dataset.w+'%');
+    e.target.classList.add('in'); bio.unobserve(e.target); }
+}),{threshold:.3});
+document.querySelectorAll('.watch').forEach(el=>bio.observe(el));
+
+/* ── count-ups ── */
+const cio=new IntersectionObserver(es=>es.forEach(e=>{
+  if(!e.isIntersecting) return;
+  const el=e.target, end=parseFloat(el.dataset.count), dec=+(el.dataset.dec||0), t0=performance.now(), D=1400;
+  (function step(now){
+    const k=Math.min(1,(now-t0)/D), e2=1-Math.pow(1-k,3), v=end*e2;
+    el.textContent = v.toLocaleString('en-US',{minimumFractionDigits:dec,maximumFractionDigits:dec});
+    if(k<1) requestAnimationFrame(step);
+  })(t0);
+  cio.unobserve(el);
+}),{threshold:.4});
+document.querySelectorAll('[data-count]').forEach(el=>cio.observe(el));
+
+/* ── spotlight ── */
+document.querySelectorAll('.spot').forEach(p=>{
+  p.addEventListener('pointermove',e=>{
+    const r=p.getBoundingClientRect();
+    p.style.setProperty('--mx',((e.clientX-r.left)/r.width*100)+'%');
+    p.style.setProperty('--my',((e.clientY-r.top)/r.height*100)+'%');
+  });
+});
+
+/* ── DAWN: the page turns from night terminal to morning paper ── */
+/* ── DAWN: the page turns from night terminal to morning paper ──
+   A real dawn does not pass through grey. It passes through warmth:
+   obsidian -> deep plum -> ember -> bone. Text crossfades on a later,
+   steeper curve so contrast never dips through the middle. */
+const SKY=[
+  [0.00,[  4,  6, 11]],   // 03:00 obsidian
+  [0.42,[ 26, 18, 34]],   // deep plum
+  [0.68,[ 92, 48, 34]],   // ember on the horizon
+  [0.86,[196,150,102]],   // first light
+  [1.00,[242,237,227]]    // 06:00 bone, the paper
+];
+const ACC=[
+  [0.00,[198,162,74]],
+  [0.68,[232,182, 96]],
+  [1.00,[150,118, 46]]
+];
+function ramp(stops,k){
+  for(let i=0;i<stops.length-1;i++){
+    const [a,ca]=stops[i], [b,cb]=stops[i+1];
+    if(k<=b||i===stops.length-2){
+      const t=Math.max(0,Math.min(1,(k-a)/(b-a)));
+      return ca.map((v,j)=>Math.round(v+(cb[j]-v)*t));
+    }
+  }
+  return stops[stops.length-1][1];
+}
+const smooth=x=>x*x*(3-2*x);
+const rgb=a=>`rgb(${a[0]},${a[1]},${a[2]})`;
+const rgba=(a,al)=>`rgba(${a[0]},${a[1]},${a[2]},${al})`;
+const NIGHT_FG=[220,234,245], DAY_FG=[22,19,14];
+const root=document.documentElement, gemwrap=document.getElementById('gemwrap');
+let dawn=0;
+function paint(){
+  const h=document.documentElement, sc=h.scrollTop, vh=innerHeight;
+  const start=vh*0.72, end=vh*2.25;
+  const k=Math.max(0,Math.min(1,(sc-start)/(end-start)));
+  dawn=k;
+  const ks=smooth(k);
+  const bg=ramp(SKY,ks), acc=ramp(ACC,ks);
+  // text flips late and fast, so it is never low-contrast against the ember
+  const kf=smooth(Math.max(0,Math.min(1,(k-0.60)/0.22)));
+  const fg=NIGHT_FG.map((v,i)=>Math.round(v+(DAY_FG[i]-v)*kf));
+  root.style.setProperty('--bg',rgb(bg));
+  root.style.setProperty('--fg',rgb(fg));
+  root.style.setProperty('--fg2',rgba(fg,kf>.5?.70:.66));
+  root.style.setProperty('--fg3',rgba(fg,kf>.5?.48:.40));
+  root.style.setProperty('--acc',rgb(acc));
+  root.style.setProperty('--line',rgba(acc,.28));
+  document.getElementById('vig').style.opacity=(1-ks*0.9).toFixed(3);
+  if(gemwrap){
+    const g=Math.max(0,Math.min(1,(sc-vh*0.15)/(vh*0.95)));
+    gemwrap.style.opacity=(1-g).toFixed(3);
+    if(g>0.001){ gemwrap.style.animation='none';
+      gemwrap.style.transform=`translateY(${g*14}vh) scale(${1-g*0.30})`; }
+  }
+  document.getElementById('prog').style.width=(sc/(h.scrollHeight-h.clientHeight)*100)+'%';
+  document.getElementById('top').classList.toggle('on', sc>vh*0.72);
+  const clk=document.getElementById('clk');
+  if(clk) clk.textContent = k<0.34 ? '03:00 ET · THE BUREAU IS READING'
+        : k<0.72 ? '04:30 ET · THE SLATE IS RANKED' : '06:00 ET · THE EDITION PRINTS';
+}
+addEventListener('scroll',()=>requestAnimationFrame(paint),{passive:true});
+addEventListener('resize',paint); paint();
+
+/* ══════════ THE STONE — a ray-traced brilliant cut ══════════ */
+(function(){
+  const cv=document.getElementById('gem'); if(!cv) return;
+  const gl=cv.getContext('webgl',{alpha:true,antialias:false,premultipliedAlpha:false});
+  if(!gl){ cv.style.display='none'; return; }
+  const VS=`attribute vec2 p;void main(){gl_Position=vec4(p,0.,1.);}`;
+  const FS=`precision highp float;uniform vec2 uRes;uniform float uT,uSpin,uFade;
+float sdGem(vec3 p){float d=-1e9;d=max(d,p.y-0.36);d=max(d,-p.y-0.98);
+ for(int i=0;i<16;i++){float a=6.2831853*float(i)/16.0;d=max(d,dot(p.xz,vec2(cos(a),sin(a)))-0.82);}
+ for(int i=0;i<16;i++){float a=6.2831853*float(i)/16.0;vec3 n=normalize(vec3(cos(a)*0.62,0.79,sin(a)*0.62));d=max(d,dot(p,n)-0.60);}
+ for(int i=0;i<16;i++){float a=6.2831853*(float(i)+0.5)/16.0;vec3 n=normalize(vec3(cos(a)*0.74,-0.66,sin(a)*0.74));d=max(d,dot(p,n)-0.56);}
+ return d;}
+vec3 nrm(vec3 p){vec2 e=vec2(0.0012,0.);return normalize(vec3(sdGem(p+e.xyy)-sdGem(p-e.xyy),sdGem(p+e.yxy)-sdGem(p-e.yxy),sdGem(p+e.yyx)-sdGem(p-e.yyx)));}
+bool hit(vec3 ro,vec3 rd,out vec3 pos){float t=0.;for(int i=0;i<80;i++){vec3 p=ro+rd*t;float d=sdGem(p);
+ if(d<0.0008){pos=p;return true;}t+=max(d*0.85,0.0016);if(t>8.)break;}return false;}
+vec3 inside(vec3 ro,vec3 rd){float t=0.004;for(int i=0;i<80;i++){vec3 p=ro+rd*t;float d=sdGem(p);
+ if(d>-0.0008)return p;t+=max(-d*0.85,0.0016);if(t>8.)break;}return ro+rd*t;}
+vec3 env(vec3 d){float up=clamp(d.y*.5+.5,0.,1.);vec3 s=mix(vec3(.020,.030,.048),vec3(.10,.17,.26),up);
+ vec3 kd=normalize(vec3(.55,.72,-.42));float k=max(dot(d,kd),0.);
+ s+=vec3(1.,.82,.46)*pow(k,30.)*26.; s+=vec3(.70,.55,.28)*pow(k,4.)*1.30;
+ vec3 cd=normalize(vec3(-.75,.16,.60));float c=max(dot(d,cd),0.);
+ s+=vec3(.10,.72,.95)*pow(c,13.)*5.; s+=vec3(.05,.30,.45)*pow(c,3.)*.55;
+ vec3 bd=normalize(vec3(-.10,-.90,.30)); s+=vec3(.36,.40,.50)*pow(max(dot(d,bd),0.),6.)*.85;
+ vec3 sd=normalize(vec3(-.45,.62,-.65)); s+=vec3(1.,.90,.62)*pow(max(dot(d,sd),0.),60.)*10.;
+ vec3 vd=normalize(vec3(.42,-.46,.74)); s+=vec3(1.,.22,.09)*pow(max(dot(d,vd),0.),80.)*7.;
+ return s;}
+vec3 trace(vec3 ro,vec3 rd,float ior){vec3 pos;if(!hit(ro,rd,pos))return vec3(-1.);
+ vec3 n=nrm(pos);float f0=pow((1.-ior)/(1.+ior),2.);
+ float fr=f0+(1.-f0)*pow(1.-max(dot(-rd,n),0.),5.);vec3 refl=env(reflect(rd,n))*fr;
+ vec3 rr=refract(rd,n,1./ior);vec3 p=pos;vec3 th=vec3(0.);float at=1.;
+ for(int b=0;b<5;b++){p=inside(p,rr);vec3 nn=-nrm(p);vec3 ex=refract(rr,nn,ior);
+  if(dot(ex,ex)<0.0001){rr=reflect(rr,nn);at*=.985;continue;} th=env(ex)*at;break;}
+ return refl+th*(1.-fr);}
+void main(){vec2 uv=(gl_FragCoord.xy-0.5*uRes)/uRes.y;
+ vec3 ro=vec3(0.,0.20,3.15);vec3 rd=normalize(vec3(uv,-1.55));
+ float a=uSpin;float ca=cos(a),sa=sin(a);mat3 ry=mat3(ca,0.,-sa,0.,1.,0.,sa,0.,ca);
+ float ti=-0.30+sin(uT*0.23)*0.05;float ct=cos(ti),st=sin(ti);
+ mat3 rx=mat3(1.,0.,0.,0.,ct,-st,0.,st,ct);mat3 M=ry*rx;
+ mat3 Mi=mat3(M[0][0],M[1][0],M[2][0],M[0][1],M[1][1],M[2][1],M[0][2],M[1][2],M[2][2]);
+ ro=Mi*ro;rd=Mi*rd;
+ vec3 col;col.r=trace(ro,rd,2.407).r;col.g=trace(ro,rd,2.426).g;col.b=trace(ro,rd,2.451).b;
+ if(col.r<0.&&col.g<0.&&col.b<0.){gl_FragColor=vec4(0.);return;}
+ col=max(col,vec3(0.));col*=1.28;col=col/(col+vec3(0.58));col=pow(col,vec3(0.4545));
+ float al=clamp(max(col.r,max(col.g,col.b))*3.2,0.,1.)*uFade;
+ gl_FragColor=vec4(col,al);}`;
+  function sh(t,s){const o=gl.createShader(t);gl.shaderSource(o,s);gl.compileShader(o);
+    if(!gl.getShaderParameter(o,gl.COMPILE_STATUS))console.error(gl.getShaderInfoLog(o));return o;}
+  const pr=gl.createProgram();
+  gl.attachShader(pr,sh(gl.VERTEX_SHADER,VS));gl.attachShader(pr,sh(gl.FRAGMENT_SHADER,FS));
+  gl.linkProgram(pr);gl.useProgram(pr);
+  const b=gl.createBuffer();gl.bindBuffer(gl.ARRAY_BUFFER,b);
+  gl.bufferData(gl.ARRAY_BUFFER,new Float32Array([-1,-1,3,-1,-1,3]),gl.STATIC_DRAW);
+  const lo=gl.getAttribLocation(pr,'p');gl.enableVertexAttribArray(lo);
+  gl.vertexAttribPointer(lo,2,gl.FLOAT,false,0,0);
+  const uRes=gl.getUniformLocation(pr,'uRes'),uT=gl.getUniformLocation(pr,'uT'),
+        uSpin=gl.getUniformLocation(pr,'uSpin'),uFade=gl.getUniformLocation(pr,'uFade');
+  function size(){const dpr=Math.min(devicePixelRatio||1,1.75),r=cv.getBoundingClientRect();
+    cv.width=Math.max(1,Math.round(r.width*dpr));cv.height=Math.max(1,Math.round(r.height*dpr));
+    gl.viewport(0,0,cv.width,cv.height);}
+  addEventListener('resize',size);size();
+  let vis=true;
+  new IntersectionObserver(e=>{vis=e[0].isIntersecting;},{threshold:0}).observe(cv);
+  const t0=performance.now(); let spin=0, last=t0;
+  (function loop(now){
+    requestAnimationFrame(loop);
+    if(!vis) { last=now; return; }
+    const dt=Math.min((now-last)/1000,0.05); last=now;
+    const t=(now-t0)/1000;
+    spin += dt*(RM?0:0.34);
+    gl.uniform2f(uRes,cv.width,cv.height);
+    gl.uniform1f(uT,RM?0:t); gl.uniform1f(uSpin,RM?0.6:spin); gl.uniform1f(uFade,1.0);
+    gl.drawArrays(gl.TRIANGLES,0,3);
+  })(t0);
+})();
+</script>
+</body></html>
