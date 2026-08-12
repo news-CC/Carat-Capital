@@ -27116,5 +27116,484 @@
     }
    ]
   }
+ },
+ "the-mix-did-the-work": {
+  "strip": {
+   "cap": "By the numbers · Lucara, second quarter 2026",
+   "cells": [
+    {
+     "fig": "$700.22",
+     "delta": "▲ +23.7%",
+     "dir": "up",
+     "lab": "realised a carat, derived by this desk"
+    },
+    {
+     "fig": "58,553",
+     "delta": "▼ −24%",
+     "dir": "down",
+     "lab": "carats sold in the quarter"
+    },
+    {
+     "fig": "$41.0m",
+     "delta": "▼ −6%",
+     "dir": "down",
+     "lab": "quarterly revenue"
+    },
+    {
+     "fig": "−5% / −17%",
+     "lab": "tender and Clara prices, company figures"
+    },
+    {
+     "fig": "$1.0m",
+     "delta": "▼ −92%",
+     "dir": "down",
+     "lab": "first-half net income"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Lucara · realised price a carat, revenue divided by carats sold · dollars",
+    "rows": [
+     {
+      "l": "Q2 2026",
+      "v": 700.22,
+      "d": "$700.22",
+      "hi": true
+     },
+     {
+      "l": "Q2 2025",
+      "v": 566.3,
+      "d": "$566.30"
+     },
+     {
+      "l": "H1 2026",
+      "v": 454.1,
+      "d": "$454.10"
+     },
+     {
+      "l": "H1 2025",
+      "v": 493.21,
+      "d": "$493.21"
+     }
+    ],
+    "note": "This desk's division of the company's published revenue by its published carats sold; Lucara does not publish these four figures. The quarter's realisation rose 23.7% while the half's fell 7.9%.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/214"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Twenty-four per cent fewer stones, six per cent less money.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "A quarter that repaired a quarter.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "All of the gain came from the mix, none of it from price",
+     "attr": "The Diamonds Desk"
+    }
+   },
+   {
+    "sub": "What the second half has to carry.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Karowe finds its tenth thousand-carat diamond",
+     "href": "a-lucara-tenth-thousand-carat.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "the mix is doing work the price cannot"
+  },
+  "next": {
+   "lead": {
+    "slug": "sixty-six-fifty-nine",
+    "tag": "Metals",
+    "blurb": "The gold-to-silver ratio has narrowed on four consecutive sessions, to 66.59."
+   },
+   "minis": [
+    {
+     "slug": "what-the-flat-month-hid",
+     "tag": "Diamonds"
+    },
+    {
+     "slug": "thirties-outrun-the-ones",
+     "tag": "Polished"
+    }
+   ]
+  }
+ },
+ "sixty-six-fifty-nine": {
+  "strip": {
+   "cap": "By the numbers · The tape, 12 August",
+   "cells": [
+    {
+     "fig": "$4,415.20",
+     "delta": "▲ +0.97%",
+     "dir": "up",
+     "lab": "gold, Kitco 05:59 EST, written back"
+    },
+    {
+     "fig": "$66.30",
+     "delta": "▲ +2.33%",
+     "dir": "up",
+     "lab": "silver, same board, same read"
+    },
+    {
+     "fig": "66.59",
+     "delta": "▼ −0.90",
+     "dir": "down",
+     "lab": "gold-to-silver ratio, derived"
+    },
+    {
+     "fig": "$1,747.00",
+     "lab": "platinum, the 04:59 mark, not rewritten"
+    },
+    {
+     "fig": "1.94%",
+     "lab": "spread across three platinum pages"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Gold-to-silver ratio on this paper's own marks · ounces of silver to one of gold",
+    "rows": [
+     {
+      "l": "12 AUGUST",
+      "v": 66.59,
+      "d": "66.59",
+      "hi": true
+     },
+     {
+      "l": "11 AUGUST",
+      "v": 67.49,
+      "d": "67.49"
+     },
+     {
+      "l": "10 AUGUST",
+      "v": 67.84,
+      "d": "67.84"
+     },
+     {
+      "l": "9 AUGUST",
+      "v": 68.41,
+      "d": "68.41"
+     }
+    ],
+    "note": "Each figure is this desk's division of its own published gold mark by its own published silver mark on the same tape at the same hour. Down 1.82 points, or 2.66%, in three sessions.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/215"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Two marks, checked twice, written back.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Four sessions of the same direction.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "Silver has taken something out of gold on each of four sessions",
+     "attr": "The Gold & Metals Desk"
+    }
+   },
+   {
+    "sub": "The mark this desk would not take.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "AED 10.44 between two Dubai gold pages",
+     "href": "a-ten-forty-four-and-holding.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "silver is repricing against gold and the tape has the series to prove it"
+  },
+  "next": {
+   "lead": {
+    "slug": "zales-goes-to-mattel",
+    "tag": "Retail",
+    "blurb": "Signet has given its style and trend brands to a Mattel executive."
+   },
+   "minis": [
+    {
+     "slug": "ten-forty-four-and-holding",
+     "tag": "Metals"
+    },
+    {
+     "slug": "neither-one-is-wrong",
+     "tag": "Metals"
+    }
+   ]
+  }
+ },
+ "zales-goes-to-mattel": {
+  "strip": {
+   "cap": "By the numbers · Signet's two new presidents",
+   "cells": [
+    {
+     "fig": "24 Aug",
+     "lab": "Cygielman starts at Zales and Banter"
+    },
+    {
+     "fig": "10 Aug",
+     "lab": "Cloud started at Blue Nile"
+    },
+    {
+     "fig": "2 of 4",
+     "lab": "brand families with a new president"
+    },
+    {
+     "fig": "8 days",
+     "lab": "between the two starts"
+    },
+    {
+     "fig": "Mar 2025",
+     "lab": "Grow Brand Love launched"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Signet's four customer families under Grow Brand Love · brands in each",
+    "rows": [
+     {
+      "l": "CORE MILESTONE - KAY, PEOPLES",
+      "v": 2,
+      "d": "2"
+     },
+     {
+      "l": "STYLE AND TREND - ZALES, BANTER",
+      "v": 2,
+      "d": "2 · new president",
+      "hi": true
+     },
+     {
+      "l": "INSPIRED LUXURY - JARED",
+      "v": 1,
+      "d": "1"
+     },
+     {
+      "l": "LUXURY - BLUE NILE",
+      "v": 1,
+      "d": "1 · new president"
+     }
+    ],
+    "note": "The four-family structure is Signet's own, set out under the Grow Brand Love strategy launched by J.K. Symancyk in March 2025. Two of the four changed president between 10 and 24 August 2026.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/216"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "A doll portfolio takes a jewellery chain.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Two seats, two different crafts.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "Style and trend went to somebody who has never sold jewellery",
+     "attr": "The Retail Desk"
+    }
+   },
+   {
+    "sub": "Where the bet meets the metal.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Signet puts 25 years of Tiffany into Blue Nile",
+     "href": "a-tiffany-goes-to-blue-nile.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "the brand job and the merchant job are not the same job"
+  },
+  "next": {
+   "lead": {
+    "slug": "the-mix-did-the-work",
+    "tag": "Diamonds",
+    "blurb": "Lucara's realised price a carat rose 24% while both its sales channels cut prices."
+   },
+   "minis": [
+    {
+     "slug": "tiffany-goes-to-blue-nile",
+     "tag": "Retail"
+    },
+    {
+     "slug": "one-state-one-banner",
+     "tag": "Retail"
+    }
+   ]
+  }
+ },
+ "what-the-flat-month-hid": {
+  "strip": {
+   "cap": "By the numbers · One-carat polished, July",
+   "cells": [
+    {
+     "fig": "1.7%",
+     "delta": "▲",
+     "dir": "up",
+     "lab": "K to M colours, monthly average"
+    },
+    {
+     "fig": "0.1%",
+     "delta": "▲",
+     "dir": "up",
+     "lab": "D to F and G to J, IF-VVS and VS"
+    },
+    {
+     "fig": "2.8%",
+     "delta": "▲",
+     "dir": "up",
+     "lab": "K to M in VS, from a 0.1% loss"
+    },
+    {
+     "fig": "flat",
+     "lab": "the one-carat index this paper led on"
+    },
+    {
+     "fig": "17x",
+     "lab": "the ratio between the bands, derived"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "One-carat polished, July 2026 · monthly move by colour band, per cent",
+    "rows": [
+     {
+      "l": "K TO M, VS",
+      "v": 2.8,
+      "d": "+2.8%",
+      "hi": true
+     },
+     {
+      "l": "K TO M, AVERAGE",
+      "v": 1.7,
+      "d": "+1.7%"
+     },
+     {
+      "l": "D-F AND G-J, IF-VVS AND VS",
+      "v": 0.1,
+      "d": "+0.1%"
+     }
+    ],
+    "note": "Figures from Rapaport's Diamond Pulse, August 2026, describing July moves. The headline one-carat index was unchanged for the month; these are its components.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/217"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "The shape inside a flat month.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Bottom-up in two dimensions now.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "A flat index is an average, and averages hide the thing that moved",
+     "attr": "The Diamonds Desk"
+    }
+   },
+   {
+    "sub": "One source, and it owns the index.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "The 1-carat stops falling",
+     "href": "a-the-one-carat-stops-falling.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "the recovery is starting at the cheap end of the colour scale too"
+  },
+  "next": {
+   "lead": {
+    "slug": "the-mix-did-the-work",
+    "tag": "Diamonds",
+    "blurb": "Lucara sold 24% fewer carats and realised 24% more for each of them."
+   },
+   "minis": [
+    {
+     "slug": "the-one-carat-stops-falling",
+     "tag": "Polished"
+    },
+    {
+     "slug": "small-stones-lead-the-turn",
+     "tag": "Polished"
+    }
+   ]
+  }
  }
 }
