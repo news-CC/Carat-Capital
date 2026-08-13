@@ -104,8 +104,11 @@ html:not(.js) #boot{display:none}
 /* The bar is always present now: at rest it carries only the two corners —
    the menu at the left, the metal at the right. Brand and desk links fade
    in once you leave the hero. */
-#top{position:fixed;left:0;right:0;top:6px;z-index:55;height:76px;display:flex;align-items:center;
-  border-bottom:1px solid transparent;
+/* flush to the top edge — the bar used to hang 6px down, below the reeded
+   strip, and the sliver of page scrolling past in that gap made the whole
+   bar read as loose. The strip now mills the bar's own top edge. */
+#top{position:fixed;left:0;right:0;top:0;z-index:55;height:82px;padding-top:6px;
+  display:flex;align-items:center;border-bottom:1px solid transparent;
   transition:background .35s,border-color .35s}
 #top.on{background:color-mix(in srgb,var(--bg) 86%,transparent);
   backdrop-filter:blur(16px) saturate(1.2);border-color:var(--line)}
