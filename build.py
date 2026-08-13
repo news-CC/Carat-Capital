@@ -2083,7 +2083,10 @@ def index_page():
     # as such. If the index desk has not filed, the metals return as specimen
     # tabs with the old honest disclaimer.
     px_rows = []
+    px_dates = []
     if IDX:
+        _cons = {c["sym"]: c for c in IDX["constituents"]}
+        px_dates = [d for d, _ in IDX["indices"]["CC20"]["series"]]
         for code in ("CC20", "CC-M", "CC-C", "CC-P", "CC-W"):
             x = IDX["indices"][code]
             d1 = x["d1p"]
@@ -2093,9 +2096,15 @@ def index_page():
                 "d": f"{arrow} {d1:+.2f}%",
                 "cls": "up" if d1 > 0 else ("dn" if d1 < 0 else "fl"),
                 "ser": [round(v, 2) for _, v in x["series"]],
+                # the analyst's row: enough to read the index without leaving
+                "st": {"w1": x["w1p"], "m1": x["m1p"], "ytd": x["ytdp"],
+                       "hi": x["hi"], "lo": x["lo"], "dd": x["mddp"]},
+                # the basket, as chips — every name, its own year
+                "mem": [{"n": _cons[m]["name"], "y": _cons[m]["ytdp"]}
+                        for m in x["members"] if m in _cons],
+                "dek": x["dek"],
                 "ft": ("Drawn from exchange closes · equal weight, base 100 = "
-                       "first trading day of the year · YTD %+.1f%% · as of %s"
-                       % (x["ytdp"], IDX["as_of"]))})
+                       "first trading day of the year · as of %s" % IDX["as_of"])})
     else:
         _ph, _lh = PRICES.get("headline", {}), LAB.get("headline", {})
         _px_src = {}
@@ -2220,6 +2229,7 @@ def index_page():
       "__PX_JSON__": _json.dumps(px_rows),
       "__PX0_K__": px_rows[0]["k"], "__PX0_V__": px_rows[0]["v"], "__PX0_D__": px_rows[0]["d"],
       "__PX0_FT__": px_rows[0]["ft"],
+      "__PXD_JSON__": _json.dumps(px_dates),
       "__LEDGER_JSON__": _json.dumps(ledger),
       "__ARTS_JSON__": _json.dumps(arts),
       "__BOARD_JSON__": _json.dumps(board),
