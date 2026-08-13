@@ -1883,7 +1883,9 @@ def index_page():
         da = desk_articles(d["slug"], 3)
         if not da: continue
         st = (d.get("stats") or [("—","")])[0]
+        _hero = DESK_HERO.get(d["slug"], "")
         board.append({"n": "D—%s" % d["no"], "t": d["title"], "c": HUE.get(d["slug"], "#C6A24A"),
+                      "img": _hero if _hero in PH else "",
                       "seed": 3 + int(d["no"])*6, "trend": 1, "href": "%s.html" % d["slug"],
                       "st": {"k": st[1], "v": st[0], "d": d.get("tag",""), "cls": "fl"},
                       "a": [[x["title"], "a-%s.html" % x["slug"], "%s min" % x.get("minutes",5)] for x in da]})
