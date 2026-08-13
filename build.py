@@ -1864,8 +1864,13 @@ def index_page():
         _hook = "%s more, recently filed" % _WORDS.get(len(_pick), len(_pick))
     arts = []
     for a in _pick:
+        # the story's own photograph if it has one, its desk's hero if not —
+        # every card carries a plate, and every plate carries its credit
+        img = a["slug"] if a["slug"] in PH else DESK_HERO.get(a.get("desk", ""), "")
+        if img not in PH:
+            img = ""
         arts.append({"h": a["title"], "p": (a.get("dek") or "")[:120],
-                     "img": a["slug"] if a["slug"] in PH else "",
+                     "img": img, "cr": PH.get(img, {}).get("credit", ""),
                      "s": DESK_NAMES.get(a.get("desk"), "Desk"),
                      "t": "%s min" % a.get("minutes", 5),
                      "href": "a-%s.html" % a["slug"]})

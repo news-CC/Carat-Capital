@@ -99,7 +99,7 @@ html:not(.js) #boot{display:none}
 /* The bar is always present now: at rest it carries only the two corners —
    the menu at the left, the metal at the right. Brand and desk links fade
    in once you leave the hero. */
-#top{position:fixed;left:0;right:0;top:6px;z-index:55;height:60px;display:flex;align-items:center;
+#top{position:fixed;left:0;right:0;top:6px;z-index:55;height:76px;display:flex;align-items:center;
   border-bottom:1px solid transparent;
   transition:background .35s,border-color .35s}
 #top.on{background:color-mix(in srgb,var(--bg) 86%,transparent);
@@ -129,11 +129,19 @@ html:not(.js) #boot{display:none}
    or the metal happen to be, so it stays centred on the page rather than
    between whatever is beside it */
 .tmark{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);
-  width:30px;height:30px;color:var(--acc);
+  display:flex;align-items:center;gap:0;color:var(--acc);
   transition:color .3s,transform .35s var(--glide)}
-.tmark svg{width:100%;height:100%;display:block}
+.tmark svg{width:32px;height:32px;display:block;flex:none}
+/* the wordmark rides with the medal once the reader has scrolled past the
+   masthead — the name leaves the hero and takes its seat in the bar */
+.tmark .wm{font-family:var(--disp);font-weight:700;font-size:12.5px;letter-spacing:.18em;
+  text-transform:uppercase;white-space:nowrap;color:var(--fg);
+  max-width:0;overflow:hidden;opacity:0;
+  transition:max-width .65s var(--glide),opacity .45s var(--glide),padding .65s var(--glide)}
+.tmark .wm .caret{color:var(--verm)}
+#top.on .tmark .wm{max-width:240px;opacity:1;padding-left:11px}
 .tmark:hover,.tmark:focus-visible{color:var(--gilt-l);
-  transform:translate(-50%,-50%) scale(1.07);outline:0}
+  transform:translate(-50%,-50%) scale(1.05);outline:0}
 .spill .k{color:var(--acc)}
 .spill .v{font-variant-numeric:tabular-nums;letter-spacing:.06em;color:var(--fg)}
 @media(max-width:900px){.spill .k{display:none}}
@@ -263,8 +271,12 @@ section{position:relative;z-index:1}
   z-index:1;pointer-events:none;filter:drop-shadow(0 30px 76px rgba(0,0,0,.85));
   animation:gemin 1.5s var(--glide) both .45s}
 @keyframes gemin{from{opacity:0;transform:scale(.6) translateY(24px)}to{opacity:1;transform:none}}
-#gemwrap::after{content:"";position:absolute;left:50%;top:54%;transform:translate(-50%,-50%);
-  width:200%;height:155%;z-index:-1;background:radial-gradient(closest-side,rgba(198,162,74,.15),transparent 72%)}
+/* the backlight: a warm gilt core with a wider cool falloff, so the stone
+   sits in its own pool of light instead of floating on flat black */
+#gemwrap::after{content:"";position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);
+  width:230%;height:185%;z-index:-1;
+  background:radial-gradient(closest-side,rgba(232,203,124,.20),rgba(198,162,74,.10) 46%,transparent 74%),
+             radial-gradient(closest-side,rgba(140,197,255,.05),transparent 62%)}
 #gem{width:100%;height:100%;display:block}
 .hero-in{position:relative;z-index:2;display:flex;flex-direction:column;align-items:center;
   justify-content:center;text-align:center;padding:clamp(14px,3vh,40px) 20px}
@@ -311,11 +323,16 @@ h1.mast .l{display:inline-block;opacity:0;transform:translateY(.36em) rotate(3de
   border:1px solid var(--acc);opacity:.5;z-index:2}
 .bench::before{top:10px;left:10px;border-right:0;border-bottom:0}
 .bench::after{bottom:10px;right:10px;border-left:0;border-top:0}
+/* the section's only headline is a small kicker above the card — the
+   calculator is the section, it does not need a sentence explaining it */
+.skick{display:flex;align-items:center;gap:12px;margin-bottom:14px;
+  font-family:var(--mono);font-size:10px;letter-spacing:.3em;text-transform:uppercase}
+.skick svg{width:20px;height:20px;color:var(--acc);flex:none}
+.skick span{color:var(--acc);font-weight:600}
+.skick i{flex:1;height:1px;background:linear-gradient(90deg,var(--line),transparent)}
+.skick em{font-style:normal;color:var(--fg3);letter-spacing:.18em;font-size:9px;white-space:nowrap}
 .bhead{position:relative;z-index:1;display:flex;justify-content:space-between;align-items:center;
   gap:14px;flex-wrap:wrap;padding:11px clamp(16px,2.2vw,22px);border-bottom:1px solid var(--line)}
-.bhead .ttl{display:flex;align-items:center;gap:11px;font-family:var(--mono);font-size:10px;
-  letter-spacing:.24em;text-transform:uppercase;color:var(--acc)}
-.bhead .ttl svg{width:19px;height:19px}
 .bhead .spot{font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;color:var(--fg2);
   font-variant-numeric:tabular-nums;display:flex;align-items:center;gap:9px}
 .bhead .spot i{width:6px;height:6px;background:var(--ok);border-radius:50%;
@@ -519,19 +536,35 @@ h1.mast .l{display:inline-block;opacity:0;transform:translateY(.36em) rotate(3de
 .agrid{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(14px,2vw,24px)}
 @media(max-width:940px){.agrid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:600px){.agrid{grid-template-columns:1fr}}
-.acard{border:1px solid var(--line);border-radius:var(--r);overflow:hidden;background:var(--plate);
+/* The plate is the card. The photograph runs edge to edge behind
+   everything; it is fully visible in the upper window and sinks to a
+   murmur behind the type, the scrim converging on the page's own
+   background so the text keeps its contrast at every hour of the dawn. */
+.acard{position:relative;border:1px solid var(--line);border-radius:var(--r);overflow:hidden;
+  background:var(--plate);isolation:isolate;
   display:flex;flex-direction:column;transition:transform .55s var(--glide),border-color .4s,box-shadow .5s}
 .acard:hover{transform:translateY(-5px);border-color:rgba(198,162,74,.55);
   box-shadow:0 28px 60px -40px rgba(0,0,0,.85)}
-.acard .im{position:relative;aspect-ratio:16/10;overflow:hidden}
-.acard .im.noimg{background:linear-gradient(160deg,rgba(198,162,74,.18),transparent)}
-.acard img{width:100%;height:100%;object-fit:cover;filter:saturate(.7) contrast(1.05);
-  transform:scale(1.03);transition:transform 1s var(--glide),filter .6s}
-.acard:hover img{transform:scale(1.09);filter:saturate(.95)}
+.acard .ph{position:absolute;inset:0;z-index:0;width:100%;height:100%;object-fit:cover;
+  filter:saturate(.72) contrast(1.05);transform:scale(1.03);
+  transition:transform 1.1s var(--glide),filter .6s}
+.acard:hover .ph{transform:scale(1.08);filter:saturate(.95)}
+.acard .scrim{position:absolute;inset:0;z-index:1;pointer-events:none;background:
+  linear-gradient(180deg,
+    color-mix(in srgb,var(--bg) 4%,transparent) 0%,
+    color-mix(in srgb,var(--bg) 30%,transparent) 34%,
+    color-mix(in srgb,var(--bg) 82%,transparent) 55%,
+    color-mix(in srgb,var(--bg) 95%,transparent) 74%,
+    var(--bg) 100%)}
+.acard .crd{position:absolute;right:11px;top:11px;z-index:2;font-family:var(--mono);
+  font-size:6.5px;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.66);
+  text-shadow:0 1px 5px rgba(0,0,0,.65)}
+.acard.noimg{background:linear-gradient(160deg,rgba(198,162,74,.14),var(--plate) 55%)}
+.acard .im{position:relative;z-index:2;aspect-ratio:16/9}
 .acard .desk{position:absolute;left:11px;top:11px;font-family:var(--mono);font-size:8px;
-  letter-spacing:.2em;text-transform:uppercase;padding:5px 9px;color:var(--bg);
+  letter-spacing:.2em;text-transform:uppercase;padding:5px 9px;color:#0B0E14;
   background:var(--acc);clip-path:polygon(5px 0,100% 0,100% calc(100% - 5px),calc(100% - 5px) 100%,0 100%,0 5px)}
-.acard .bd{padding:17px 18px 20px;display:flex;flex-direction:column;gap:9px;flex:1}
+.acard .bd{position:relative;z-index:2;padding:17px 18px 20px;display:flex;flex-direction:column;gap:9px;flex:1}
 .acard h4{font-family:var(--disp);font-weight:700;font-size:17px;line-height:1.24;letter-spacing:-.015em}
 .acard p{font-size:13.5px;color:var(--fg3);line-height:1.55}
 .acard .mt{margin-top:auto;font-family:var(--mono);font-size:8.5px;letter-spacing:.16em;
@@ -539,23 +572,31 @@ h1.mast .l{display:inline-block;opacity:0;transform:translateY(.36em) rotate(3de
   border-top:1px solid var(--line);padding-top:11px}
 
 /* ══════ 05 · THE DESK BOARD — real headlines, real numbers ══════ */
-.board{display:grid;grid-template-columns:minmax(230px,300px) 1fr;gap:1px;background:var(--line);
+/* All six desks on the table at once — a rack of tiles above the panel,
+   never a strip that scrolls off the side of the page. Pick one and its
+   filing appears below. */
+.board{display:grid;grid-template-columns:1fr;gap:1px;background:var(--line);
   border:1px solid var(--line);border-radius:var(--r);overflow:hidden}
-@media(max-width:860px){.board{grid-template-columns:1fr}}
-.bnav{background:var(--bg);display:flex;flex-direction:column}
-@media(max-width:860px){.bnav{flex-direction:row;overflow-x:auto;scrollbar-width:none}}
-.bnav button{position:relative;display:flex;align-items:center;gap:12px;padding:17px 20px;text-align:left;
-  border-bottom:1px solid var(--line);transition:background .3s,padding-left .35s var(--glide);white-space:nowrap}
-@media(max-width:860px){.bnav button{border-bottom:0;border-right:1px solid var(--line)}}
-.bnav button:last-child{border-bottom:0}
-.bnav button .bn{font-family:var(--mono);font-size:9px;letter-spacing:.2em;color:var(--fg3);transition:color .3s}
-.bnav button .bt{font-family:var(--disp);font-weight:700;font-size:14.5px;letter-spacing:-.01em;flex:1}
-.bnav button .bd{width:8px;height:8px;transform:rotate(45deg);background:transparent;
-  box-shadow:inset 0 0 0 1px var(--line);transition:background .3s,box-shadow .3s}
-.bnav button:hover{background:rgba(198,162,74,.06);padding-left:26px}
-.bnav button.on{background:color-mix(in srgb,var(--dk) 12%,transparent);padding-left:26px}
+.bnav{display:grid;grid-template-columns:repeat(6,1fr);gap:1px;background:var(--line)}
+.bnav button{position:relative;display:grid;grid-template-columns:auto 1fr;gap:7px 9px;
+  align-content:start;text-align:left;padding:14px 14px 15px;background:var(--bg);
+  transition:background .3s;min-height:76px}
+.bnav button .bd{grid-area:1/1;align-self:center;width:8px;height:8px;transform:rotate(45deg);
+  background:transparent;box-shadow:inset 0 0 0 1px var(--line);transition:background .3s,box-shadow .3s}
+.bnav button .bn{grid-area:1/2;justify-self:start;align-self:center;font-family:var(--mono);
+  font-size:8.5px;letter-spacing:.2em;color:var(--fg3);transition:color .3s}
+.bnav button .bt{grid-area:2/1/3/3;font-family:var(--disp);font-weight:700;font-size:13.5px;
+  line-height:1.22;letter-spacing:-.01em}
+.bnav button::after{content:"";position:absolute;left:0;right:0;bottom:0;height:2px;
+  background:var(--dk);transform:scaleX(0);transform-origin:left;transition:transform .4s var(--glide)}
+.bnav button:hover{background:color-mix(in srgb,var(--dk) 6%,var(--bg))}
+.bnav button.on{background:color-mix(in srgb,var(--dk) 11%,var(--bg))}
+.bnav button.on::after{transform:scaleX(1)}
 .bnav button.on .bd{background:var(--dk);box-shadow:0 0 14px color-mix(in srgb,var(--dk) 70%,transparent)}
 .bnav button.on .bn{color:var(--dk)}
+@media(max-width:900px){.bnav{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:430px){.bnav{grid-template-columns:repeat(2,1fr)}
+  .bnav button{min-height:64px;padding:12px}}
 .bpanel{background:var(--bg);padding:clamp(22px,3.2vw,38px);position:relative;min-height:380px;
   display:flex;flex-direction:column;gap:20px}
 .bpanel::before{content:"";position:absolute;inset:0;pointer-events:none;
@@ -841,7 +882,8 @@ footer{border-top:1px solid var(--line);padding:56px 0 76px;margin-top:clamp(50p
     <button class="mbtn" id="mbtn" aria-expanded="false" aria-controls="omenu">
       <span class="bars" aria-hidden="true"><i></i><i></i><i></i></span><span class="lab">Menu</span></button>
     <a class="tmark" href="/" aria-label="Carat Capital — front page">
-      <svg viewBox="0 0 100 100" aria-hidden="true"><use href="#medal"/></svg></a>
+      <svg viewBox="0 0 100 100" aria-hidden="true"><use href="#medal"/></svg>
+      <span class="wm">Carat<span class="caret">^</span>Capital</span></a>
     <a class="spill" href="#prices"><span class="k">Gold</span><span class="v">__SPOT_TXT__</span></a>
   </div>
 </header>
@@ -897,11 +939,11 @@ footer{border-top:1px solid var(--line);padding:56px 0 76px;margin-top:clamp(50p
 <!-- ═══════ 01 · THE BENCH ═══════ -->
 <section class="band" id="marks" style="padding-top:clamp(38px,6vh,74px);padding-bottom:0">
   <div class="wrap">
+    <div class="skick rv"><svg viewBox="0 0 40 40" aria-hidden="true"><use href="#m-scale"/></svg>
+      <span>The Bench</span><i></i><em>melt value, on the live tape</em></div>
     <div class="bench rv spot">
       <canvas class="guil" id="bguil" aria-hidden="true"></canvas>
       <div class="bhead">
-        <span class="ttl"><svg viewBox="0 0 40 40" aria-hidden="true"><use href="#m-scale"/></svg>
-          The bench &mdash; what the metal is worth today</span>
         <span class="metals" id="metals" role="radiogroup" aria-label="Metal">
           <button role="radio" aria-checked="true" data-m="0" class="on">Gold</button>
           <button role="radio" aria-checked="false" data-m="1">Silver</button>
@@ -953,11 +995,10 @@ footer{border-top:1px solid var(--line);padding:56px 0 76px;margin-top:clamp(50p
 <section class="band" id="edition">
   <div class="wrap">
     <div class="erule" aria-hidden="true" style="margin-top:0"></div>
-    <div class="shead rv">
-      <span class="n"><svg viewBox="0 0 40 40" aria-hidden="true"><use href="#m-nib"/></svg></span>
-      <h2>06:00. The edition prints.</h2>
-      <span class="r">__DATELINE__<br>__EDITION__</span>
-    </div>
+    <!-- no clock here: the readership spans time zones, the paper does not
+         tell them what hour it is somewhere else -->
+    <div class="skick rv"><svg viewBox="0 0 40 40" aria-hidden="true"><use href="#m-nib"/></svg>
+      <span>The Edition</span><i></i><em>__DATELINE__ &middot; __EDITION__</em></div>
     <div class="lead">
       <article class="rv rv-1">
         <span class="kick"><i></i>__LEAD_KICKER__</span>
@@ -1317,9 +1358,11 @@ document.getElementById('ledger').addEventListener('click',e=>{
 /* ══ TODAY'S PAPER — article grid from the real archive ══ */
 const ARTS=__ARTS_JSON__;
 document.getElementById('agrid').innerHTML=ARTS.map((a,i)=>`
- <a class="acard wipe" href="${a.href}" data-loupe="Read">
-   <div class="im${a.img?'':' noimg'}"><span class="desk">${a.s}</span>${a.img?`
-     <img src="assets/ph/${a.img}.jpg" alt="" loading="lazy" onerror="this.closest('.im').classList.add('noimg');this.remove()">`:''}</div>
+ <a class="acard wipe${a.img?'':' noimg'}" href="${a.href}" data-loupe="Read">${a.img?`
+   <img class="ph" src="assets/ph/${a.img}.jpg" alt="" loading="lazy" onerror="this.closest('.acard').classList.add('noimg');this.remove()">
+   <span class="scrim" aria-hidden="true"></span>${a.cr?`
+   <span class="crd">${a.cr}</span>`:''}`:''}
+   <div class="im"><span class="desk">${a.s}</span></div>
    <div class="bd"><h4>${a.h}</h4><p>${a.p}</p>
      <div class="mt"><span>${a.s} desk</span><span>${a.t}</span></div></div></a>`).join('');
 
@@ -1328,7 +1371,10 @@ const BOARD=__BOARD_JSON__;
 document.getElementById('bnav').innerHTML=BOARD.map((d,i)=>
  `<button data-i="${i}" class="${i?'':'on'}" style="--dk:${d.c}" data-loupe="${d.t}">
     <span class="bd"></span><span class="bt">${d.t}</span><span class="bn">${d.n}</span></button>`).join('');
+let curDesk=-1;
 function paintDesk(i){
+  if(i===curDesk) return;            // same desk: leave the panel alone
+  curDesk=i;
   const d=BOARD[i], P=document.getElementById('bpanel');
   P.style.setProperty('--dk',d.c);
   P.innerHTML=`
@@ -1349,9 +1395,9 @@ function paintDesk(i){
   drawSpark(P.querySelector('.bp-spark'));
   document.querySelectorAll('#bnav button').forEach((b,j)=>b.classList.toggle('on',j===i));
 }
+/* click, not hover: hover used to rebuild the panel two to four times on
+   every pass of the mouse and restart its entrance each time */
 document.getElementById('bnav').addEventListener('click',e=>{
-  const b=e.target.closest('button'); if(b) paintDesk(+b.dataset.i);});
-document.getElementById('bnav').addEventListener('pointerover',e=>{
   const b=e.target.closest('button'); if(b) paintDesk(+b.dataset.i);});
 
 /* deterministic specimen series */
@@ -1679,7 +1725,10 @@ addEventListener('resize',paint); paint();
     const dn=(t,a,y0)=>{const e=Math.PI/2-t,c=Math.cos(e),s=Math.sin(e);
       add(c*Math.cos(a),-s,c*Math.sin(a), c+s*y0);};
     add(0,1,0,GIR+CH);                                    // table
-    add(0,-1,0,(GIR+PD)*0.988);                           // culet
+    /* the culet is a pinprick, not a floor: at 98.8% of depth it left a
+       flat facet that faced straight down, lit by nothing, and read as
+       a black notch where the point should be */
+    add(0,-1,0,(GIR+PD)*0.9985);                          // culet
     for(let i=0;i<16;i++){const a=2*Math.PI*i/16;         // girdle
       add(Math.cos(a),0,Math.sin(a),1);}
     for(let i=0;i<8;i++){const a=2*Math.PI*i/8;           // kites + pavilion mains
@@ -1694,6 +1743,11 @@ addEventListener('resize',paint); paint();
     const hS=nr*Ar+ny*Ay;
     for(let i=0;i<8;i++){const a=2*Math.PI*(i+0.5)/8;     // stars
       add(nr*Math.cos(a),ny,nr*Math.sin(a),hS);}
+    /* centre the solid on the origin: the pavilion runs three times as
+       deep as the crown, so a camera aimed at the girdle pushed the tip
+       to the bottom edge of the canvas and it clipped */
+    const yc=S*((GIR+PD)*0.9985-(GIR+CH))/2;
+    for(let i=0;i<P.length;i+=4) P[i+3]+=P[i+1]*yc;
     return new Float32Array(P);
   })();
 
