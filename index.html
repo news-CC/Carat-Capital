@@ -111,6 +111,7 @@ html:not(.js) #boot{display:none}
   display:flex;align-items:center;border-bottom:1px solid transparent;
   transition:background .35s,border-color .35s}
 #top.on{background:color-mix(in srgb,var(--bg) 86%,transparent);
+  -webkit-backdrop-filter:blur(16px) saturate(1.2);
   backdrop-filter:blur(16px) saturate(1.2);border-color:var(--line)}
 /* visibility, not just opacity: an invisible link that keeps its place in the
    tab order sends keyboard focus somewhere the eye cannot follow */
@@ -320,7 +321,7 @@ h1.mast .l{display:inline-block;opacity:0;transform:translateY(.36em) rotate(3de
 /* the tape */
 .tape{position:relative;border-top:1px solid var(--line);border-bottom:1px solid var(--line);
   height:42px;display:flex;align-items:center;overflow:hidden;z-index:2;
-  background:color-mix(in srgb,var(--bg) 72%,transparent);backdrop-filter:blur(8px)}
+  background:color-mix(in srgb,var(--bg) 72%,transparent);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}
 .tape::before,.tape::after{content:"";position:absolute;top:0;bottom:0;width:80px;z-index:2;pointer-events:none}
 .tape::before{left:0;background:linear-gradient(90deg,var(--bg),transparent)}
 .tape::after{right:0;background:linear-gradient(270deg,var(--bg),transparent)}
