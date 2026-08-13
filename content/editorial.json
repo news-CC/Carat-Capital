@@ -27595,5 +27595,490 @@
     }
    ]
   }
+ },
+ "the-loss-that-wasnt-revenue": {
+  "strip": {
+   "cap": "By the numbers · Sarine Technologies, first half 2026",
+   "cells": [
+    {
+     "fig": "$3.5m",
+     "delta": "▼ 21.1x",
+     "dir": "down",
+     "lab": "net loss, against $166,000"
+    },
+    {
+     "fig": "$14.4m",
+     "delta": "▼ −6%",
+     "dir": "down",
+     "lab": "revenue for the half"
+    },
+    {
+     "fig": "$0.9m",
+     "lab": "the revenue decline, derived here"
+    },
+    {
+     "fig": "+50%",
+     "delta": "▲",
+     "dir": "up",
+     "lab": "GCAL grading revenue"
+    },
+    {
+     "fig": "$1.5m",
+     "lab": "Kitov.ai revenue, 33% held"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Sarine · what moved in the first half of 2026 · millions of dollars",
+    "rows": [
+     {
+      "l": "THE LOSS WIDENED BY",
+      "v": 3.334,
+      "d": "$3.334m",
+      "hi": true
+     },
+     {
+      "l": "REVENUE FELL BY",
+      "v": 0.919,
+      "d": "$0.919m"
+     }
+    ],
+    "note": "This desk's subtraction on the company's published figures: the loss went from $166,000 to $3.5 million, while revenue of $14.4 million was 6% below an implied $15.3 million. The deficit widened by about three and a half times the revenue decline.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/218"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "A frightening multiple off a tiny base.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Where the money actually went.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "The loss did not come from the top line",
+     "attr": "The Diamonds Desk"
+    }
+   },
+   {
+    "sub": "An instrument, not a company.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Lucara's price a carat rose 24% as its prices fell",
+     "href": "a-the-mix-did-the-work.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "the loss did not come from the top line"
+  },
+  "next": {
+   "lead": {
+    "slug": "three-sessions-undone",
+    "tag": "Metals",
+    "blurb": "Silver gave back in one session three-quarters of a four-session run on gold."
+   },
+   "minis": [
+    {
+     "slug": "titan-calls-the-price-stable",
+     "tag": "Retail"
+    },
+    {
+     "slug": "the-mix-did-the-work",
+     "tag": "Diamonds"
+    }
+   ]
+  }
+ },
+ "three-sessions-undone": {
+  "strip": {
+   "cap": "By the numbers · The tape, 13 August",
+   "cells": [
+    {
+     "fig": "$4,384.10",
+     "delta": "▼ −0.70%",
+     "dir": "down",
+     "lab": "gold, Kitco 06:00 EST, written back"
+    },
+    {
+     "fig": "$64.52",
+     "delta": "▼ −2.68%",
+     "dir": "down",
+     "lab": "silver, same board, same read"
+    },
+    {
+     "fig": "67.95",
+     "delta": "▲ +1.36",
+     "dir": "up",
+     "lab": "gold-to-silver ratio, derived"
+    },
+    {
+     "fig": "$1,710.00",
+     "lab": "platinum, the 04:59 mark, not rewritten"
+    },
+    {
+     "fig": "0.85%",
+     "lab": "gap between three platinum pages"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Gold-to-silver ratio on this paper's own marks · ounces of silver to one of gold",
+    "rows": [
+     {
+      "l": "13 AUGUST",
+      "v": 67.95,
+      "d": "67.95",
+      "hi": true
+     },
+     {
+      "l": "12 AUGUST",
+      "v": 66.59,
+      "d": "66.59"
+     },
+     {
+      "l": "11 AUGUST",
+      "v": 67.49,
+      "d": "67.49"
+     },
+     {
+      "l": "10 AUGUST",
+      "v": 67.84,
+      "d": "67.84"
+     },
+     {
+      "l": "9 AUGUST",
+      "v": 68.41,
+      "d": "68.41"
+     }
+    ],
+    "note": "Each figure is this desk's division of its own published gold mark by its own published silver mark on the same tape at the same hour. The four-session narrowing to 12 August was worth 1.82 points; 1.36 of them came back in one session.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/219"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Two marks written back, two refused.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "One session against four.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "Silver gave back in one session what it took in three",
+     "attr": "The Gold & Metals Desk"
+    }
+   },
+   {
+    "sub": "The mark this desk would not take, again.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "66.59: silver takes a fourth session out of gold",
+     "href": "a-sixty-six-fifty-nine.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "a four-session series is a description, not a direction"
+  },
+  "next": {
+   "lead": {
+    "slug": "the-loss-that-wasnt-revenue",
+    "tag": "Diamonds",
+    "blurb": "Sarine's deficit widened 21-fold on a revenue decline of about $0.9 million."
+   },
+   "minis": [
+    {
+     "slug": "sixty-six-fifty-nine",
+     "tag": "Metals"
+    },
+    {
+     "slug": "neither-one-is-wrong",
+     "tag": "Metals"
+    }
+   ]
+  }
+ },
+ "titan-calls-the-price-stable": {
+  "strip": {
+   "cap": "By the numbers · Titan, quarter to 30 June 2026",
+   "cells": [
+    {
+     "fig": "Rs 18,253cr",
+     "delta": "▲ +43%",
+     "dir": "up",
+     "lab": "jewellery, excluding bullion"
+    },
+    {
+     "fig": "Rs 20,753cr",
+     "delta": "▲ +40%",
+     "dir": "up",
+     "lab": "consolidated income"
+    },
+    {
+     "fig": "Rs 2,429cr",
+     "delta": "▲ +64%",
+     "dir": "up",
+     "lab": "profit before tax"
+    },
+    {
+     "fig": "Rs 1,543cr",
+     "delta": "▲ +21%",
+     "dir": "up",
+     "lab": "watches and wearables"
+    },
+    {
+     "fig": "3,680",
+     "delta": "▲ +77",
+     "dir": "up",
+     "lab": "stores, net additions in the quarter"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Titan · June quarter 2026 growth by line · per cent on the year",
+    "rows": [
+     {
+      "l": "PROFIT BEFORE TAX",
+      "v": 64,
+      "d": "+64%"
+     },
+     {
+      "l": "JEWELLERY, EX-BULLION",
+      "v": 43,
+      "d": "+43%",
+      "hi": true
+     },
+     {
+      "l": "CONSOLIDATED INCOME",
+      "v": 40,
+      "d": "+40%"
+     },
+     {
+      "l": "WATCHES AND WEARABLES",
+      "v": 21,
+      "d": "+21%"
+     }
+    ],
+    "note": "Company segment disclosure for the quarter to 30 June 2026. The jewellery figure excludes bullion and digital gold, a different basis to the 39% this paper published from the July business update. Secondary coverage carries a third basis at 29.25%, disclosed in the article.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/220"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "The counter puts a view on the record.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "The quarter behind the statement.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "The counter is telling the mine that the price stopped falling",
+     "attr": "The Retail Desk"
+    }
+   },
+   {
+    "sub": "Which side of the trade is talking.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Titan makes it three: revenue up 41%",
+     "href": "a-titan-makes-it-three.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "the counter is telling the mine that the price stopped falling"
+  },
+  "next": {
+   "lead": {
+    "slug": "priced-like-1999",
+    "tag": "Diamonds",
+    "blurb": "Kiran Gems USA says the 0.30 to 0.70-carat stone is selling at 1990s money."
+   },
+   "minis": [
+    {
+     "slug": "titan-makes-it-three",
+     "tag": "Retail"
+    },
+    {
+     "slug": "what-the-flat-month-hid",
+     "tag": "Diamonds"
+    }
+   ]
+  }
+ },
+ "priced-like-1999": {
+  "strip": {
+   "cap": "By the numbers · The bread-and-butter stone",
+   "cells": [
+    {
+     "fig": "0.30–0.70ct",
+     "lab": "the sizes Lakhani calls America's core"
+    },
+    {
+     "fig": "$1,000–$5,000",
+     "lab": "where he places the money"
+    },
+    {
+     "fig": "+1.6%",
+     "delta": "▲",
+     "dir": "up",
+     "lab": "0.30ct goods, July, RapNet"
+    },
+    {
+     "fig": "+1.8%",
+     "delta": "▲",
+     "dir": "up",
+     "lab": "0.50ct goods, July, RapNet"
+    },
+    {
+     "fig": "5 min",
+     "lab": "to source a traceable Botswana stone"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "July 2026 moves on the goods in question · per cent for the month",
+    "rows": [
+     {
+      "l": "0.50-CARAT",
+      "v": 1.8,
+      "d": "+1.8%",
+      "hi": true
+     },
+     {
+      "l": "K TO M COLOURS, 1CT",
+      "v": 1.7,
+      "d": "+1.7%"
+     },
+     {
+      "l": "0.30-CARAT",
+      "v": 1.6,
+      "d": "+1.6%"
+     },
+     {
+      "l": "1-CARAT INDEX",
+      "v": 0.0,
+      "d": "flat"
+     }
+    ],
+    "note": "RapNet monthly moves published by Rapaport and reported by this paper on 4 and 12 August. These are directions for one month; the 1990s price level described on the panel is a level, and no index this desk can reach publishes that comparison.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/221"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "A manufacturer prices the shelf.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Level and direction are not the same fact.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "The bread-and-butter stone is priced where it sat in 1999",
+     "attr": "The Diamonds Desk"
+    }
+   },
+   {
+    "sub": "Origin, in five minutes.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "1.7% in the cheap colours: what July's flat month hid",
+     "href": "a-what-the-flat-month-hid.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "the interesting number in this market is no longer the monthly percentage, it is the level"
+  },
+  "next": {
+   "lead": {
+    "slug": "the-loss-that-wasnt-revenue",
+    "tag": "Diamonds",
+    "blurb": "Sarine's loss widened 21-fold while its revenue fell about $0.9 million."
+   },
+   "minis": [
+    {
+     "slug": "the-one-carat-stops-falling",
+     "tag": "Polished"
+    },
+    {
+     "slug": "small-stones-lead-the-turn",
+     "tag": "Polished"
+    }
+   ]
+  }
  }
 }
