@@ -2,6 +2,7 @@
 # Carat Capital — static site builder (Third Edition, content-driven)
 # Content lives in content/articles.json + content/wire.json — edit those, re-run this.
 import html as H
+import datetime
 import json, pathlib
 
 ROOT = pathlib.Path(__file__).parent
@@ -382,6 +383,7 @@ def omenu():
         <a href="almanac.html">The Almanac — The Quarter in Numbers</a>
         <a href="natural-diamond-prices.html">The Natural Diamond Price List — Every Shape, Every Weight</a>
         <a href="lab-grown-diamond-prices.html">The Lab-Grown Diamond Price List — What a Made Diamond Costs</a>
+        <a href="indices.html">The Carat Indices — The Trade, Marked to Market</a>
         <a href="index.html#tape-a">The Price Tape</a>
         <a href="about.html">About the Paper</a>
         <a href="about.html#standards">Editorial Standards</a>
@@ -1420,6 +1422,288 @@ def lab_prices_page():
 {SCRIPT}"""
 
 
+# ---------------- THE CARAT INDICES ----------------
+IDX = json.loads((CONTENT / "indices.json").read_text()) if (CONTENT / "indices.json").exists() else {}
+
+# index hues chosen for ink-on-paper legibility, echoing the desk hues
+IDX_HUE = {"CC20": "#96762E", "CC-M": "#7C5CD6", "CC-C": "#0E7C7B",
+           "CC-P": "#2563A8", "CC-W": "#1E7D46"}
+SEG_NAME = {"M": "Maison", "C": "Counter", "P": "Pit", "W": "Movement"}
+
+
+def _idx_chart(lines, W=960, Hh=420, pad_l=46, pad_r=118, pad_t=18, pad_b=30,
+               baseline=100.0):
+    """A build-time SVG line chart of real [date, value] series.
+
+    lines: list of (label, hue, series, dash) — series is [[iso_date, v], ...].
+    Every path is drawn from the data; nothing decorative, nothing seeded."""
+    allv = [v for _, _, s, _ in lines for _, v in s]
+    lo, hi = min(allv + [baseline]), max(allv + [baseline])
+    sp = (hi - lo) * 0.08 or 1
+    lo, hi = lo - sp, hi + sp
+    days = sorted({d for _, _, s, _ in lines for d, _ in s})
+    X = {d: pad_l + (W - pad_l - pad_r) * i / max(1, len(days) - 1)
+         for i, d in enumerate(days)}
+    Y = lambda v: pad_t + (Hh - pad_t - pad_b) * (hi - v) / (hi - lo)
+    out = [f'<svg viewBox="0 0 {W} {Hh}" width="100%" role="img" '
+           f'aria-label="The Carat indices, rebased to 100 at the start of the year" '
+           f'style="display:block;font-family:var(--mono)">']
+    # horizontal grid at round steps
+    step = max(5, round((hi - lo) / 5 / 5) * 5)
+    g = (int(lo) // step) * step + step
+    while g < hi:
+        y = Y(g)
+        em = abs(g - baseline) < 1e-9
+        out.append(f'<line x1="{pad_l}" y1="{y:.1f}" x2="{W-pad_r}" y2="{y:.1f}" '
+                   f'stroke="{"#3B362C" if em else "#3B362C22"}" stroke-width="{1.2 if em else 1}"/>')
+        out.append(f'<text x="{pad_l-8}" y="{y+3:.1f}" text-anchor="end" font-size="10" '
+                   f'fill="#3B362C88">{g}</text>')
+        g += step
+    # month ticks
+    seen = set()
+    for d in days:
+        mo = d[:7]
+        if mo in seen: continue
+        seen.add(mo)
+        if d == days[0]: continue
+        x = X[d]
+        out.append(f'<line x1="{x:.1f}" y1="{pad_t}" x2="{x:.1f}" y2="{Hh-pad_b}" stroke="#3B362C14"/>')
+        lab = datetime.date.fromisoformat(d).strftime("%b").upper()
+        out.append(f'<text x="{x:.1f}" y="{Hh-10}" text-anchor="middle" font-size="9" '
+                   f'letter-spacing="1" fill="#3B362C88">{lab}</text>')
+    # the lines
+    ends = []
+    for lab, hue, s, dash in lines:
+        pts = " ".join(f"{X[d]:.1f},{Y(v):.1f}" for d, v in s)
+        da = ' stroke-dasharray="5 4"' if dash else ""
+        out.append(f'<polyline points="{pts}" fill="none" stroke="{hue}" '
+                   f'stroke-width="{1.6 if dash else 2.2}"{da} stroke-linejoin="round"/>')
+        d_end, v_end = s[-1]
+        ends.append((Y(v_end), lab, hue, v_end, X[d_end]))
+    # end labels, nudged apart so they never overlap
+    ends.sort()
+    prev = -1e9
+    for y, lab, hue, v, x in ends:
+        y = max(y, prev + 13)
+        prev = y
+        out.append(f'<circle cx="{x:.1f}" cy="{Y(v):.1f}" r="3" fill="{hue}"/>')
+        out.append(f'<text x="{x+8:.1f}" y="{y+3:.1f}" font-size="10.5" font-weight="600" '
+                   f'fill="{hue}">{lab} {v:,.1f}</text>')
+    out.append("</svg>")
+    return "".join(out)
+
+
+def _spread_chart(a, b, W=960, Hh=230, pad_l=46, pad_r=20, pad_t=14, pad_b=28):
+    """Area of (a − b) around zero — who is winning, by how much, since January."""
+    A, B = dict(a), dict(b)
+    days = [d for d in sorted(A) if d in B]
+    sp = [(d, A[d] - B[d]) for d in days]
+    vals = [v for _, v in sp]
+    lo, hi = min(vals + [0]), max(vals + [0])
+    m = (hi - lo) * 0.1 or 1
+    lo, hi = lo - m, hi + m
+    X = {d: pad_l + (W - pad_l - pad_r) * i / max(1, len(days) - 1) for i, d in enumerate(days)}
+    Y = lambda v: pad_t + (Hh - pad_t - pad_b) * (hi - v) / (hi - lo)
+    z = Y(0)
+    pts = " ".join(f"{X[d]:.1f},{Y(v):.1f}" for d, v in sp)
+    area = f"{pad_l},{z:.1f} " + pts + f" {X[days[-1]]:.1f},{z:.1f}"
+    out = [f'<svg viewBox="0 0 {W} {Hh}" width="100%" role="img" aria-label="Spread" '
+           f'style="display:block;font-family:var(--mono)">',
+           f'<line x1="{pad_l}" y1="{z:.1f}" x2="{W-pad_r}" y2="{z:.1f}" stroke="#3B362C" stroke-width="1.2"/>',
+           f'<polygon points="{area}" fill="#96762E1E"/>',
+           f'<polyline points="{pts}" fill="none" stroke="#96762E" stroke-width="2"/>']
+    for gv in (lo + (hi - lo) * .25, hi - (hi - lo) * .25):
+        out.append(f'<text x="{pad_l-8}" y="{Y(gv)+3:.1f}" text-anchor="end" font-size="10" '
+                   f'fill="#3B362C88">{gv:+.0f}</text>')
+    d_end, v_end = sp[-1]
+    out.append(f'<circle cx="{X[d_end]:.1f}" cy="{Y(v_end):.1f}" r="3" fill="#96762E"/>')
+    out.append(f'<text x="{X[d_end]-8:.1f}" y="{Y(v_end)-8:.1f}" text-anchor="end" font-size="11" '
+               f'font-weight="600" fill="#96762E">{v_end:+.1f} pts</text>')
+    out.append("</svg>")
+    return "".join(out)
+
+
+def indices_page():
+    if not IDX:
+        return f"""{head("The Carat Indices — Carat Capital",
+        "Five indices of the listed jewelry world, computed daily by Carat Capital.", "indices.html")}
+{navbar()}{omenu()}
+<section class="deskhero"><div class="wrap">
+  <div class="dh-no">The Index Desk</div>
+  <h1 class="art-h" style="text-transform:uppercase">The Carat Indices</h1>
+  <p class="dh-dek">The index desk has not filed today. The indices print with the next edition.</p>
+</div></section>{colophon()}{SCRIPT}"""
+
+    ix = IDX["indices"]
+    hue = IDX_HUE
+    ser = {k: v["series"] for k, v in ix.items()}
+    hero = _idx_chart(
+        [(k, hue[k], ser[k], False) for k in ("CC20", "CC-M", "CC-C", "CC-P", "CC-W")] +
+        [("GOLD", "#B8860B", IDX["gold"]["series"], True)])
+    chain = _spread_chart(ser["CC-C"], ser["CC-P"])
+    maison = _spread_chart(ser["CC-M"], ser["CC-C"])
+
+    pill = lambda v: (f'<span style="color:#1E7D46">▲ {v:+.2f}%</span>' if v > 0 else
+                      (f'<span style="color:#A33B25">▼ {v:+.2f}%</span>' if v < 0 else
+                       f'<span style="color:var(--ink-3)">— {v:+.2f}%</span>'))
+
+    # ── the five index cards ──
+    cards = []
+    cons_by = {c["sym"]: c for c in IDX["constituents"]}
+    for code in ("CC20", "CC-M", "CC-C", "CC-P", "CC-W"):
+        x = ix[code]
+        mem = [cons_by[m] for m in x["members"] if m in cons_by]
+        best = max(mem, key=lambda c: c["ytdp"])
+        worst = min(mem, key=lambda c: c["ytdp"])
+        mini = _idx_chart([(code, hue[code], x["series"], False)],
+                          W=430, Hh=150, pad_l=38, pad_r=16, pad_t=10, pad_b=22)
+        cards.append(f"""<div class="rv" style="border:1px solid {PX_SOFT};background:var(--paper-2,#fff0);padding:22px 22px 18px">
+  <div style="display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap">
+    <div><span style="font-family:var(--mono);font-size:10px;letter-spacing:.22em;color:{hue[code]};font-weight:600">{code}</span>
+      <span style="font-family:var(--disp);font-weight:700;font-size:21px;letter-spacing:-.02em;margin-left:9px">{x['name']}</span></div>
+    <div style="font-family:var(--mono);font-size:22px;font-weight:500;letter-spacing:-.02em">{x['level']:,.2f}</div>
+  </div>
+  <div style="font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;color:var(--ink-2);margin:7px 0 12px;display:flex;gap:18px;flex-wrap:wrap">
+    <span>1D {pill(x['d1p'])}</span><span>1W {pill(x['w1p'])}</span>
+    <span>1M {pill(x['m1p'])}</span><span>YTD {pill(x['ytdp'])}</span>
+  </div>
+  {mini}
+  <div style="font-family:var(--mono);font-size:9.5px;letter-spacing:.08em;color:var(--ink-3);margin-top:12px;line-height:1.8">
+    {len(mem)} names · {x['dek']}<br>
+    best {best['name']} {best['ytdp']:+.1f}% · worst {worst['name']} {worst['ytdp']:+.1f}% ·
+    range {x['lo']:,.1f}–{x['hi']:,.1f} · max drawdown {x['mddp']:.1f}%
+  </div>
+</div>""")
+
+    # ── constituents table ──
+    seg_chip = lambda s: (f'<span style="font-family:var(--mono);font-size:8.5px;letter-spacing:.14em;'
+                          f'text-transform:uppercase;padding:3px 8px;border:1px solid {PX_SOFT};'
+                          f'color:var(--ink-2)">{SEG_NAME[s]}</span>')
+    rows = []
+    for c in sorted(IDX["constituents"], key=lambda c: -(c["ytdp"] if c["ytdp"] is not None else -999)):
+        rows.append(f"""<tr>
+  <td style="padding:11px 14px;border-top:1px solid {PX_SOFT}"><b style="font-family:var(--disp);font-weight:600">{c['name']}</b>
+    <span style="font-family:var(--mono);font-size:9.5px;color:var(--ink-3);margin-left:8px">{c['sym']}</span></td>
+  <td style="padding:11px 14px;border-top:1px solid {PX_SOFT};font-family:var(--mono);font-size:11px;color:var(--ink-2)">{c['ex']}</td>
+  <td style="padding:11px 14px;border-top:1px solid {PX_SOFT}">{seg_chip(c['seg'])}</td>
+  <td style="padding:11px 14px;border-top:1px solid {PX_SOFT};font-family:var(--mono);font-size:12px;text-align:right">{c['last']:,} {c['cur']}</td>
+  <td style="padding:11px 14px;border-top:1px solid {PX_SOFT};font-family:var(--mono);font-size:11.5px;text-align:right">{pill(c['m1p'])}</td>
+  <td style="padding:11px 14px;border-top:1px solid {PX_SOFT};font-family:var(--mono);font-size:11.5px;text-align:right">{pill(c['ytdp'])}</td>
+  <td style="padding:11px 14px;border-top:1px solid {PX_SOFT};text-align:center;font-family:var(--mono);font-size:11px;color:{'#1E7D46' if c['above50'] else '#A33B25'}">{'●' if c['above50'] else '○'}</td>
+</tr>""")
+
+    g = IDX["gold"]
+    mg = IDX["metal_gap"]
+    cc20 = ix["CC20"]
+    mg_line = (f"the makers lead the metal by {abs(mg):.1f} points" if mg < 0 else
+               f"the metal leads the makers by {abs(mg):.1f} points")
+
+    tile = lambda v, l, c="var(--ink)": (
+        f'<div><b style="display:block;font-family:var(--mono);font-size:clamp(24px,3.6vw,40px);font-weight:500;'
+        f'letter-spacing:-.03em;color:{c};line-height:1">{v}</b>'
+        f'<span style="display:block;font-family:var(--mono);font-size:9px;letter-spacing:.2em;text-transform:uppercase;'
+        f'color:var(--ink-3);margin-top:10px;line-height:1.7">{l}</span></div>')
+
+    return f"""{head("The Carat Indices — the listed jewelry world, marked to market — Carat Capital",
+      "Five proprietary indices computed daily from exchange closes: the Jewelry Twenty, the Maisons, the Counter, the Pit and the Movement.",
+      "indices.html")}
+{navbar()}{omenu()}
+
+<section class="deskhero"><div class="wrap">
+  <div class="dh-no">The Index Desk · computed {IDX['as_of']} · base {IDX['base_day']}</div>
+  <h1 class="art-h" style="font-size:clamp(38px,5.6vw,80px);text-transform:uppercase;max-width:16ch">The Carat Indices<em style="font-family:var(--disp);font-style:normal;font-weight:400;color:var(--seal);text-transform:none;font-size:.34em;display:block;margin-top:16px;letter-spacing:-.01em">The listed jewelry world, marked to market. Computed by this desk, quoted from no one.</em></h1>
+  <p class="dh-dek" style="max-width:78ch">Twenty listed companies across nine exchanges — the maisons, the jewelers' counters, the diamond pits and the watchmakers — folded into five equal-weight indices and rebased to 100 at the first trading day of the year. Every close is an exchange print. Nothing here is estimated, and nothing is anyone else's number.</p>
+</div></section>
+
+<section class="burin"><div class="wrap" style="padding-top:34px">
+  <div class="rv" style="border-top:3px solid var(--ink);border-bottom:1px solid {PX_SOFT};padding:26px 0 28px;margin-bottom:12px">
+    <div style="font-family:var(--mono);font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--seal);margin-bottom:20px">The state of the trade — {IDX['as_of']}</div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:30px 26px">
+      {tile(f"{cc20['level']:,.1f}", "CC20 · the Jewelry Twenty", "var(--gilt)")}
+      {tile(f"{mg:+.1f} pts", f"The metal gap · gold {g['ytdp']:+.1f}% YTD vs CC20 {cc20['ytdp']:+.1f}%", "var(--seal)")}
+      {tile(f"{IDX['breadth50']}%", "Breadth · CC20 names above their 50-day mean")}
+      {tile(f"{IDX['corr63']:+.2f}", "63-day correlation · CC20 daily moves vs gold", "var(--ink-3)")}
+    </div>
+    <p style="font-family:var(--text);font-size:15.5px;line-height:1.64;color:var(--ink-2);max-width:74ch;margin:26px 0 0">
+      Gold is having a historic year and the old rule says jewelry equities should suffer for it —
+      the metal is their input cost. The tape says otherwise: {mg_line}. The divergence is not the
+      houses; it is the watchmakers, and the table below names them.</p>
+  </div>
+</div></section>
+
+<section class="burin"><div class="wrap">
+  <h2 class="rv" style="font-family:var(--disp);font-weight:700;font-size:clamp(24px,3vw,34px);letter-spacing:-.02em;margin:26px 0 6px">Five lines, one trade</h2>
+  <p class="rv" style="font-family:var(--text);font-size:14.5px;color:var(--ink-2);max-width:72ch;margin:0 0 20px">Every index rebased to 100 at {IDX['base_day']}. Gold, dashed, on the same footing — {g['label']}.</p>
+  <div class="rv" style="border:1px solid {PX_SOFT};padding:18px 14px 8px;overflow-x:auto">{hero}</div>
+</div></section>
+
+<section class="burin"><div class="wrap">
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(430px,100%),1fr));gap:18px;margin-top:26px">
+    {''.join(cards)}
+  </div>
+</div></section>
+
+<section class="burin"><div class="wrap">
+  <h2 class="rv" style="font-family:var(--disp);font-weight:700;font-size:clamp(24px,3vw,34px);letter-spacing:-.02em;margin:40px 0 6px">The spreads</h2>
+  <p class="rv" style="font-family:var(--text);font-size:14.5px;color:var(--ink-2);max-width:74ch;margin:0 0 20px">Two numbers this desk watches that nobody else prints: who in the chain is capturing the year, and what the market pays for a name over a counter.</p>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(440px,100%),1fr));gap:18px">
+    <div class="rv" style="border:1px solid {PX_SOFT};padding:18px">
+      <div style="font-family:var(--mono);font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--gilt);margin-bottom:6px">The chain spread · Counter − Pit</div>
+      <p style="font-family:var(--text);font-size:13.5px;color:var(--ink-2);margin:0 0 12px;line-height:1.6">Above zero, the shops are beating the mines for the year; below it, the rough end of the chain is winning.</p>
+      {chain}
+    </div>
+    <div class="rv" style="border:1px solid {PX_SOFT};padding:18px">
+      <div style="font-family:var(--mono);font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--gilt);margin-bottom:6px">The maison premium · Maisons − Counter</div>
+      <p style="font-family:var(--text);font-size:13.5px;color:var(--ink-2);margin:0 0 12px;line-height:1.6">What the market pays for a house over a counter. Negative all year: luxury's crown has slipped to the trade.</p>
+      {maison}
+    </div>
+  </div>
+</div></section>
+
+<section class="burin"><div class="wrap">
+  <h2 class="rv" style="font-family:var(--disp);font-weight:700;font-size:clamp(24px,3vw,34px);letter-spacing:-.02em;margin:40px 0 6px">The twenty</h2>
+  <p class="rv" style="font-family:var(--text);font-size:14.5px;color:var(--ink-2);max-width:74ch;margin:0 0 18px">Sorted by the year. Prices in each stock's home currency; the dot is its own 50-day mean, held or lost.</p>
+  <div class="rv" style="border:1px solid {PX_SOFT};overflow-x:auto">
+  <table style="width:100%;border-collapse:collapse;min-width:720px">
+    <thead><tr style="font-family:var(--mono);font-size:8.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-3);text-align:left">
+      <th style="padding:12px 14px">Company</th><th style="padding:12px 14px">Market</th>
+      <th style="padding:12px 14px">Book</th><th style="padding:12px 14px;text-align:right">Last close</th>
+      <th style="padding:12px 14px;text-align:right">1M</th><th style="padding:12px 14px;text-align:right">YTD</th>
+      <th style="padding:12px 14px;text-align:center">50D</th></tr></thead>
+    <tbody>{''.join(rows)}</tbody>
+  </table></div>
+</div></section>
+
+<section class="burin"><div class="wrap">
+  <div class="rv" style="border-top:1px solid {PX_SOFT};margin-top:44px;padding:26px 0 10px;max-width:78ch">
+    <div style="font-family:var(--mono);font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--seal);margin-bottom:14px">Methodology — read before quoting</div>
+    <p style="font-family:var(--text);font-size:14px;line-height:1.7;color:var(--ink-2)">
+      Each constituent is measured in its home currency and rebased to 100 at its last close on or
+      before {IDX['base_day']}; an index is the equal-weight mean of those relatives, so no exchange
+      rate and no giant market cap can speak for the group. Constituents were chosen for listed,
+      liquid exposure to jewelry, diamonds or watches; conglomerates carry their whole business
+      (Anglo American is in for De Beers, and carries the rest of Anglo with it). The Pit holds
+      only three names because that is how many investable diamond miners remain — that fact is
+      itself a finding of this desk. Closes are exchange prints retrieved from Yahoo Finance's
+      public chart interface at computation time and spot-checked against independent sources;
+      gold is {g['label']}. Exchanges close at different hours, so the latest session differs by
+      market; each series carries its own last print. The indices are computed with each edition,
+      not live. They are editorial instruments of Carat Capital, not investment advice and not a
+      tradeable benchmark — quote them with attribution: “Carat Capital indices, {IDX['as_of']}.”</p>
+    <p style="font-family:var(--mono);font-size:9.5px;letter-spacing:.1em;color:var(--ink-3);margin-top:14px">
+      {IDX['base_note']} · computed {IDX['built'][:16].replace('T',' ')} · CC20 twenty names ·
+      Maisons five · Counter eight · Pit three · Movement seven</p>
+  </div>
+</div></section>
+
+<section class="ctastrip"><div class="wrap"><div class="inner">
+  <h2>The stones themselves are priced too — <em>every shape, every weight.</em></h2>
+  <a class="big" href="natural-diamond-prices.html">Open the price lists →</a>
+</div></div></section>
+{colophon()}
+{SCRIPT}"""
+
+
 # ---------------- DESK PAGES ----------------
 def desk_page(d):
     briefs = "".join(f"""<div class="brf rv">
@@ -1904,7 +2188,25 @@ def index_page():
         f'<span class="d">{d["tag"]}</span></a>'
         for i, d in enumerate(DESKS))
 
+    # ── the Carat indices strip: the desk's own numbers, linking to the page ──
+    idx_strip = ""
+    if IDX:
+        chips = []
+        for code in ("CC20", "CC-M", "CC-C", "CC-P", "CC-W"):
+            x = IDX["indices"][code]
+            cls = "up" if x["ytdp"] > 0 else ("dn" if x["ytdp"] < 0 else "fl")
+            chips.append(f'<a class="ixc" href="indices.html">'
+                         f'<span class="c">{code}</span><span class="v">{x["level"]:,.1f}</span>'
+                         f'<span class="d {cls}">{x["ytdp"]:+.1f}% YTD</span></a>')
+        idx_strip = f"""<div class="ixstrip rv rv-3">
+  <div class="ixhead"><span>The Carat indices &mdash; computed by this desk, quoted from no one</span>
+    <a href="indices.html">Open the Index Desk &rarr;</a></div>
+  <div class="ixrow">{''.join(chips)}</div>
+  <div class="ixfoot">Equal-weight, each stock in its home currency, 100 = first trading day of the year &middot; as of {IDX['as_of']}</div>
+</div>"""
+
     for k, v in {
+      "__IDX_STRIP__": idx_strip,
       "__MENU_DESKS__": menu_desks,
       "__TAPE_JSON__": _json.dumps(tape_rows),
       "__PX_JSON__": _json.dumps(px_rows),
@@ -2069,13 +2371,14 @@ for a in ARTICLES:
 (out/"about.html").write_text(about_page())
 (out/"natural-diamond-prices.html").write_text(prices_page())
 (out/"lab-grown-diamond-prices.html").write_text(lab_prices_page())
+(out/"indices.html").write_text(indices_page())
 for _f in out.glob("*.html"):
     _f.write_text(_clean_links(_f.read_text()))
 (out/"assets"/"favicon.svg").write_text(FAVICON)
 (out/"assets"/"logo-mark.svg").write_text(logo_mark_svg())
 (out/"feed.xml").write_text(rss_feed())
 (out/"llms.txt").write_text(llms_txt())
-pages = ["index.html", "field-guide.html", "about.html", "the-record.html", "almanac.html", "natural-diamond-prices.html", "lab-grown-diamond-prices.html"] + [f"{d['slug']}.html" for d in DESKS] + [f"a-{a['slug']}.html" for a in ARTICLES]
+pages = ["index.html", "field-guide.html", "about.html", "the-record.html", "almanac.html", "natural-diamond-prices.html", "lab-grown-diamond-prices.html", "indices.html"] + [f"{d['slug']}.html" for d in DESKS] + [f"a-{a['slug']}.html" for a in ARTICLES]
 (out/"sitemap.xml").write_text(sitemap(pages))
 (out/"robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {BASE_URL}/sitemap.xml\n")
 print("built:", ", ".join(pages), "+ sitemap, robots, favicon")
