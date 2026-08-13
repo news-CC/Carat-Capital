@@ -41,9 +41,14 @@
   --wrap:1280px; --r:18px;
 }
 *{box-sizing:border-box;margin:0;padding:0}
-html{-webkit-text-size-adjust:100%}
+/* Safari scrolls the viewport by the html element, not body — clipping body
+   alone left the ticker's 4,300px run and the gem's oversized glow free to
+   stretch the document, and zooming out exposed them as blank space on the
+   right. Clip at the root, and paint the root the page colour so anything
+   Safari reveals at odd zoom levels is still the paper, not white canvas. */
+html{-webkit-text-size-adjust:100%;overflow-x:hidden;overflow-x:clip;background:var(--bg)}
 body{background:var(--bg);color:var(--fg);font-family:var(--serif);line-height:1.65;
-  -webkit-font-smoothing:antialiased;overflow-x:hidden}
+  -webkit-font-smoothing:antialiased;overflow-x:hidden;overflow-x:clip}
 img{max-width:100%;display:block}
 a{color:inherit;text-decoration:none}
 button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
@@ -131,15 +136,26 @@ html:not(.js) #boot{display:none}
 .tmark{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);
   display:flex;align-items:center;gap:0;color:var(--acc);
   transition:color .3s,transform .35s var(--glide)}
-.tmark svg{width:32px;height:32px;display:block;flex:none}
+.tmark svg{width:42px;height:42px;display:block;flex:none}
 /* the wordmark rides with the medal once the reader has scrolled past the
    masthead — the name leaves the hero and takes its seat in the bar */
-.tmark .wm{font-family:var(--disp);font-weight:700;font-size:12.5px;letter-spacing:.18em;
+.tmark .wm{font-family:var(--disp);font-weight:700;font-size:16px;letter-spacing:.17em;
   text-transform:uppercase;white-space:nowrap;color:var(--fg);
   max-width:0;overflow:hidden;opacity:0;
   transition:max-width .65s var(--glide),opacity .45s var(--glide),padding .65s var(--glide)}
 .tmark .wm .caret{color:var(--verm)}
-#top.on .tmark .wm{max-width:240px;opacity:1;padding-left:11px}
+#top.on .tmark .wm{max-width:280px;opacity:1;padding-left:12px}
+/* narrow screens: the lockup steps down so it never reaches the metal pill;
+   the max-width caps are hard ceilings, so a wide-rendering font clips into
+   the fade instead of colliding */
+@media(max-width:520px){
+  .tmark svg{width:34px;height:34px}
+  .tmark .wm{font-size:12.5px;letter-spacing:.15em}
+  #top.on .tmark .wm{max-width:160px;padding-left:9px}}
+@media(max-width:430px){
+  .tmark svg{width:30px;height:30px}
+  .tmark .wm{font-size:11.5px;letter-spacing:.12em}
+  #top.on .tmark .wm{max-width:130px;padding-left:8px}}
 .tmark:hover,.tmark:focus-visible{color:var(--gilt-l);
   transform:translate(-50%,-50%) scale(1.05);outline:0}
 .spill .k{color:var(--acc)}
