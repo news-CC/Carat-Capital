@@ -2076,24 +2076,40 @@ def index_page():
     tape_rows.append(["EDITION", ed_short or "—", "up", "● PRINTED 06:00 ET"])
     tape_rows.append(["SPECIMEN TAPE", "illustrative", "fl", "not quoted"])
 
-    # ── the price desk tabs ──
-    # The metals are this morning's tape. The two diamond marks are locked to
-    # the published price lists above, which carry their own, older dates —
-    # so each row states where it actually came from rather than all five
-    # claiming the tape.
-    _ph, _lh = PRICES.get("headline", {}), LAB.get("headline", {})
-    _px_src = {}
-    if _lh:
-        _px_src["LGD1"] = "CVD wholesale band midpoint · %s" % (LAB.get("as_of") or "published list")
-    if _ph:
-        _px_src["NAT1"] = "%s · %s price list" % (
-            _ph.get("rapi_label", "RAPI"), _iso_date(_ph.get("rapi_date", "")))
+    # ── the price desk tabs: the Carat indices, drawn from their real series ──
+    # The metals live on the running tape and the bench; this desk charts the
+    # paper's own five indices. Every curve is the actual daily series from
+    # content/indices.json — the first real chart on the page, and footnoted
+    # as such. If the index desk has not filed, the metals return as specimen
+    # tabs with the old honest disclaimer.
     px_rows = []
-    for i, t in enumerate(tape[:5]):
-        px_rows.append({"k": t["name"], "v": t["px"], "d": t.get("chg",""),
-                        "cls": _dircls(t.get("dir")), "seed": 3 + i*7,
-                        "trend": 1 if t.get("dir")=="up" else (-1 if t.get("dir")=="down" else 1),
-                        "ft": _px_src.get(t.get("code"), "as carried on the tape")})
+    if IDX:
+        for code in ("CC20", "CC-M", "CC-C", "CC-P", "CC-W"):
+            x = IDX["indices"][code]
+            d1 = x["d1p"]
+            arrow = "▲" if d1 > 0 else ("▼" if d1 < 0 else "—")
+            px_rows.append({
+                "k": f"{code} · {x['name']}", "v": f"{x['level']:,.2f}",
+                "d": f"{arrow} {d1:+.2f}%",
+                "cls": "up" if d1 > 0 else ("dn" if d1 < 0 else "fl"),
+                "ser": [round(v, 2) for _, v in x["series"]],
+                "ft": ("Drawn from exchange closes · equal weight, base 100 = "
+                       "first trading day of the year · YTD %+.1f%% · as of %s"
+                       % (x["ytdp"], IDX["as_of"]))})
+    else:
+        _ph, _lh = PRICES.get("headline", {}), LAB.get("headline", {})
+        _px_src = {}
+        if _lh:
+            _px_src["LGD1"] = "CVD wholesale band midpoint · %s" % (LAB.get("as_of") or "published list")
+        if _ph:
+            _px_src["NAT1"] = "%s · %s price list" % (
+                _ph.get("rapi_label", "RAPI"), _iso_date(_ph.get("rapi_date", "")))
+        for i, t in enumerate(tape[:5]):
+            px_rows.append({"k": t["name"], "v": t["px"], "d": t.get("chg",""),
+                            "cls": _dircls(t.get("dir")), "seed": 3 + i*7,
+                            "trend": 1 if t.get("dir")=="up" else (-1 if t.get("dir")=="down" else 1),
+                            "ft": "Series shape illustrative, not quoted · Mark: "
+                                  + _px_src.get(t.get("code"), "as carried on the tape")})
     if not px_rows:
         px_rows = [{"k":"Gold / oz","v":spot_txt,"d":"— unch.","cls":"fl","seed":9,"trend":1,"ft":"Kitco spot basis"}]
 
@@ -2188,21 +2204,13 @@ def index_page():
         f'<span class="d">{d["tag"]}</span></a>'
         for i, d in enumerate(DESKS))
 
-    # ── the Carat indices strip: the desk's own numbers, linking to the page ──
+    # ── one line under the charts: the door to the full Index Desk ──
+    # (the five indices themselves are the tabs above, so no chip row here)
     idx_strip = ""
     if IDX:
-        chips = []
-        for code in ("CC20", "CC-M", "CC-C", "CC-P", "CC-W"):
-            x = IDX["indices"][code]
-            cls = "up" if x["ytdp"] > 0 else ("dn" if x["ytdp"] < 0 else "fl")
-            chips.append(f'<a class="ixc" href="indices.html">'
-                         f'<span class="c">{code}</span><span class="v">{x["level"]:,.1f}</span>'
-                         f'<span class="d {cls}">{x["ytdp"]:+.1f}% YTD</span></a>')
         idx_strip = f"""<div class="ixstrip rv rv-3">
-  <div class="ixhead"><span>The Carat indices &mdash; computed by this desk, quoted from no one</span>
+  <div class="ixhead"><span>Computed by this desk, quoted from no one &mdash; the spreads, the twenty and the method</span>
     <a href="indices.html">Open the Index Desk &rarr;</a></div>
-  <div class="ixrow">{''.join(chips)}</div>
-  <div class="ixfoot">Equal-weight, each stock in its home currency, 100 = first trading day of the year &middot; as of {IDX['as_of']}</div>
 </div>"""
 
     for k, v in {
@@ -2211,6 +2219,7 @@ def index_page():
       "__TAPE_JSON__": _json.dumps(tape_rows),
       "__PX_JSON__": _json.dumps(px_rows),
       "__PX0_K__": px_rows[0]["k"], "__PX0_V__": px_rows[0]["v"], "__PX0_D__": px_rows[0]["d"],
+      "__PX0_FT__": px_rows[0]["ft"],
       "__LEDGER_JSON__": _json.dumps(ledger),
       "__ARTS_JSON__": _json.dumps(arts),
       "__BOARD_JSON__": _json.dumps(board),
@@ -2219,7 +2228,8 @@ def index_page():
       "__SPOT_AG_LINE__": "SILVER %s / OZ &middot; %s" % (spot_ag_txt, str((xag or {}).get("chg","")).upper()),
       "__SPOT_LINE__": "GOLD %s / OZ &middot; %s" % (spot_txt, str((xau or {}).get("chg","")).upper()),
       # the price desk's stamp: the tape's own as-of, never a frozen date
-      "__PX_ASOF__": "Metals " + (" · ".join((asof or "").split(" · ")[:2]) or dateline),
+      "__PX_ASOF__": (("The Carat indices · computed %s · exchange closes" % IDX["as_of"]) if IDX
+                      else "Metals " + (" · ".join((asof or "").split(" · ")[:2]) or dateline)),
       "__ALSO_HOOK__": _hook, "__ALSO_LINE__": _hook[:1].lower() + _hook[1:],
       "__ASOF__": asof, "__DATELINE__": dateline, "__EDITION__": edition,
       "__EDITION_SHORT__": ed_short, "__DATE_SHORT__": _short_date(dateline),

@@ -1096,7 +1096,7 @@ footer{border-top:1px solid var(--line);padding:56px 0 76px;margin-top:clamp(50p
     <div class="erule" aria-hidden="true" style="margin-top:0"></div>
     <div class="shead rv">
       <span class="n"><svg viewBox="0 0 40 40" aria-hidden="true"><use href="#m-tape"/></svg></span><h2>Never fabricate a price.</h2>
-      <span class="r">Metals 12 Aug 2026, 5:59am New York · Kitco live board</span>
+      <span class="r">The Carat indices · computed 2026-08-12 · exchange closes</span>
     </div>
     <p class="lede rv rv-1" style="margin-bottom:26px">Verify it, or carry it with &ldquo;unch.&rdquo;
       Unverified is a state we publish, not a gap we fill.</p>
@@ -1105,20 +1105,18 @@ footer{border-top:1px solid var(--line);padding:56px 0 76px;margin-top:clamp(50p
     <div class="pwrap">
       <div class="chartbox rv rv-2 spot">
         <div class="hd">
-          <div><div class="nm" id="cnm">Gold / oz</div>
-               <div class="v" id="cv">4,415.20</div></div>
-          <div class="dl" id="cd">▲ +0.97%</div>
+          <div><div class="nm" id="cnm">CC20 · The Jewelry Twenty</div>
+               <div class="v" id="cv">128.85</div></div>
+          <div class="dl" id="cd">▼ -0.20%</div>
         </div>
         <canvas id="chart"></canvas>
-        <div class="ft" id="cft">Series shape illustrative, not quoted &middot; Mark: as carried on the tape</div>
+        <div class="ft" id="cft">Drawn from exchange closes · equal weight, base 100 = first trading day of the year · YTD +28.9% · as of 2026-08-12</div>
       </div>
       <div class="ptable rv rv-3" id="ptable"></div>
     </div>
     <div class="ixstrip rv rv-3">
-  <div class="ixhead"><span>The Carat indices &mdash; computed by this desk, quoted from no one</span>
+  <div class="ixhead"><span>Computed by this desk, quoted from no one &mdash; the spreads, the twenty and the method</span>
     <a href="indices">Open the Index Desk &rarr;</a></div>
-  <div class="ixrow"><a class="ixc" href="indices"><span class="c">CC20</span><span class="v">128.8</span><span class="d up">+28.9% YTD</span></a><a class="ixc" href="indices"><span class="c">CC-M</span><span class="v">94.7</span><span class="d dn">-5.3% YTD</span></a><a class="ixc" href="indices"><span class="c">CC-C</span><span class="v">110.1</span><span class="d up">+10.1% YTD</span></a><a class="ixc" href="indices"><span class="c">CC-P</span><span class="v">113.3</span><span class="d up">+13.3% YTD</span></a><a class="ixc" href="indices"><span class="c">CC-W</span><span class="v">181.8</span><span class="d up">+81.8% YTD</span></a></div>
-  <div class="ixfoot">Equal-weight, each stock in its home currency, 100 = first trading day of the year &middot; as of 2026-08-12</div>
 </div>
   </div>
 </section>
@@ -1476,7 +1474,7 @@ function drawSpark(cv){
 paintDesk(0);
 
 /* ══ PRICE DESK — tabs + canvas chart ══ */
-const PX=[{"k": "Gold / oz", "v": "4,415.20", "d": "\u25b2 +0.97%", "cls": "up", "seed": 3, "trend": 1, "ft": "as carried on the tape"}, {"k": "Natural 1ct (RAPI proxy)", "v": "3,880.00", "d": "\u22126.4% YTD", "cls": "dn", "seed": 10, "trend": -1, "ft": "RAPI, D\u2013H / IF\u2013VS2 \u00b7 1 Jul 2026 price list"}, {"k": "Lab-grown 1ct reference", "v": "475.00", "d": "\u221213% YoY", "cls": "dn", "seed": 17, "trend": -1, "ft": "CVD wholesale band midpoint \u00b7 30 July 2026"}, {"k": "Platinum / oz", "v": "1,747.00", "d": "\u25bc \u22120.96%", "cls": "dn", "seed": 24, "trend": -1, "ft": "as carried on the tape"}, {"k": "Silver / oz", "v": "66.30", "d": "\u25b2 +2.33%", "cls": "up", "seed": 31, "trend": 1, "ft": "as carried on the tape"}];
+const PX=[{"k": "CC20 \u00b7 The Jewelry Twenty", "v": "128.85", "d": "\u25bc -0.20%", "cls": "dn", "ser": [100.0, 100.57, 100.86, 101.91, 100.39, 100.83, 100.95, 101.47, 101.68, 102.16, 102.63, 105.04, 103.61, 103.78, 102.97, 101.64, 104.06, 103.62, 103.7, 103.69, 103.84, 104.19, 102.93, 103.18, 104.02, 103.43, 104.88, 105.15, 107.56, 105.31, 106.23, 107.37, 107.36, 108.16, 110.19, 110.69, 110.12, 110.13, 110.6, 110.75, 112.19, 111.97, 113.84, 114.28, 113.8, 115.2, 113.6, 115.06, 114.22, 114.54, 111.06, 107.58, 109.73, 107.68, 106.53, 105.21, 104.9, 106.98, 105.86, 104.66, 103.23, 103.18, 104.52, 105.11, 102.18, 101.49, 100.72, 98.57, 101.06, 102.21, 101.39, 100.76, 100.47, 99.76, 99.1, 100.86, 102.54, 103.06, 103.6, 104.32, 105.7, 108.0, 107.67, 109.17, 108.77, 108.55, 109.4, 108.61, 108.92, 110.1, 109.9, 109.49, 108.58, 106.64, 106.37, 105.71, 105.23, 105.39, 104.15, 103.12, 103.88, 104.34, 104.42, 103.43, 103.85, 107.76, 108.68, 109.31, 109.0, 107.6, 106.9, 106.91, 109.64, 108.73, 107.86, 107.19, 106.38, 107.58, 108.97, 109.44, 110.64, 110.28, 111.07, 113.07, 114.6, 115.09, 115.9, 114.47, 114.88, 112.8, 113.61, 112.6, 111.77, 112.55, 110.93, 110.6, 114.15, 114.8, 116.07, 116.04, 116.79, 115.79, 116.83, 117.24, 117.62, 115.71, 113.97, 116.05, 115.79, 116.98, 116.84, 116.1, 115.51, 114.62, 116.07, 116.58, 116.49, 114.09, 114.26, 112.96, 114.95, 115.24, 114.37, 115.02, 115.92, 117.14, 116.73, 116.08, 116.32, 117.19, 116.63, 116.22, 113.18, 113.57, 115.04, 114.55, 114.58, 114.83, 117.24, 116.64, 119.85, 121.53, 124.36, 124.81, 123.07, 124.6, 128.86, 128.62, 129.11, 128.85], "ft": "Drawn from exchange closes \u00b7 equal weight, base 100 = first trading day of the year \u00b7 YTD +28.9% \u00b7 as of 2026-08-12"}, {"k": "CC-M \u00b7 The Maisons", "v": "94.71", "d": "\u25bc -0.77%", "cls": "dn", "ser": [100.0, 100.0, 100.69, 102.38, 99.84, 101.33, 103.72, 103.72, 103.02, 102.93, 103.43, 101.11, 97.83, 97.83, 94.72, 93.04, 94.35, 95.48, 94.44, 94.44, 94.02, 94.21, 91.16, 89.78, 92.81, 92.81, 92.21, 91.97, 93.63, 93.66, 94.29, 94.29, 94.69, 98.08, 97.2, 97.46, 96.9, 96.9, 95.35, 95.97, 96.76, 95.73, 98.0, 98.0, 98.82, 99.02, 98.0, 98.56, 96.88, 96.88, 91.84, 88.11, 89.12, 88.16, 87.57, 87.57, 86.53, 88.48, 87.92, 87.14, 85.16, 85.16, 85.83, 85.21, 84.0, 80.96, 80.51, 80.51, 82.57, 82.77, 83.86, 83.28, 82.25, 82.25, 82.92, 83.3, 85.48, 85.53, 85.53, 85.53, 84.16, 90.13, 89.2, 90.04, 90.04, 89.32, 90.69, 86.39, 86.52, 89.91, 89.91, 88.0, 87.24, 85.48, 85.6, 85.18, 85.18, 85.7, 83.99, 82.82, 83.52, 83.52, 83.52, 82.11, 82.78, 87.4, 89.71, 90.11, 90.11, 86.95, 87.44, 87.13, 87.75, 86.72, 86.72, 86.94, 87.42, 89.04, 88.28, 87.72, 87.72, 88.66, 88.36, 91.5, 91.69, 92.24, 92.24, 91.11, 92.26, 89.66, 90.18, 90.0, 90.0, 90.23, 91.35, 90.92, 92.2, 95.34, 95.34, 95.8, 96.51, 95.86, 97.27, 96.17, 96.17, 93.82, 92.6, 93.95, 94.51, 94.24, 94.24, 94.23, 91.69, 91.1, 92.21, 92.19, 92.19, 91.8, 92.74, 90.58, 92.47, 92.5, 92.5, 93.34, 92.16, 95.76, 96.32, 95.07, 95.07, 94.75, 92.49, 90.92, 88.0, 88.55, 88.55, 88.61, 89.93, 90.87, 91.84, 91.65, 91.65, 93.09, 93.19, 93.24, 94.69, 94.52, 94.52, 95.76, 95.44, 94.71], "ft": "Drawn from exchange closes \u00b7 equal weight, base 100 = first trading day of the year \u00b7 YTD -5.3% \u00b7 as of 2026-08-12"}, {"k": "CC-C \u00b7 The Counter", "v": "110.09", "d": "\u25bc -0.58%", "cls": "dn", "ser": [100.0, 100.68, 101.18, 101.72, 101.07, 101.18, 98.51, 99.82, 99.62, 100.75, 101.71, 102.33, 102.9, 103.63, 104.15, 104.19, 105.42, 105.42, 105.23, 106.33, 107.32, 108.06, 108.23, 105.93, 106.06, 104.08, 106.35, 105.63, 105.37, 104.75, 105.96, 107.35, 107.28, 106.87, 105.96, 103.86, 103.95, 105.12, 105.27, 106.02, 105.83, 105.83, 107.77, 108.86, 105.92, 106.13, 103.23, 104.82, 103.81, 103.75, 101.44, 98.89, 100.17, 99.1, 97.76, 97.06, 96.06, 96.28, 95.0, 92.84, 92.28, 92.45, 93.91, 94.42, 91.48, 92.32, 92.4, 89.36, 90.8, 92.73, 90.61, 91.22, 90.16, 90.28, 89.52, 92.53, 93.55, 93.1, 93.56, 94.24, 96.36, 95.98, 97.05, 97.73, 96.73, 95.87, 96.71, 96.74, 96.58, 97.77, 97.99, 97.7, 96.86, 95.07, 94.73, 94.14, 94.03, 93.48, 93.97, 92.37, 93.67, 93.85, 94.03, 92.41, 92.92, 96.91, 97.99, 98.01, 96.41, 94.12, 92.72, 91.69, 94.42, 94.04, 92.96, 92.56, 92.67, 94.32, 95.03, 95.26, 95.5, 95.81, 96.15, 96.13, 97.14, 97.63, 98.41, 97.6, 97.48, 96.82, 97.36, 96.2, 94.99, 96.09, 95.95, 96.3, 100.9, 100.54, 101.65, 101.05, 100.56, 99.33, 99.91, 100.27, 99.86, 97.97, 96.4, 96.77, 97.71, 98.39, 98.32, 98.94, 99.1, 99.94, 101.64, 101.94, 102.32, 101.25, 101.74, 100.48, 102.12, 101.62, 101.7, 103.49, 104.2, 105.53, 106.52, 105.7, 106.32, 106.71, 107.1, 107.04, 104.47, 105.18, 106.34, 106.71, 107.32, 107.23, 108.35, 107.54, 108.42, 108.28, 108.68, 109.94, 109.91, 110.83, 113.49, 111.98, 110.73, 110.09], "ft": "Drawn from exchange closes \u00b7 equal weight, base 100 = first trading day of the year \u00b7 YTD +10.1% \u00b7 as of 2026-08-12"}, {"k": "CC-P \u00b7 The Pit", "v": "113.30", "d": "\u25bc -1.38%", "cls": "dn", "ser": [100.0, 100.0, 100.58, 102.11, 97.73, 96.76, 100.31, 100.31, 101.56, 99.9, 100.49, 116.87, 110.96, 110.96, 109.73, 105.63, 113.31, 109.12, 111.91, 111.91, 111.09, 111.12, 108.2, 109.0, 109.35, 109.35, 110.03, 112.78, 125.91, 114.54, 115.77, 115.77, 113.68, 114.32, 123.12, 123.42, 119.79, 119.79, 123.93, 120.31, 125.02, 125.37, 127.54, 127.54, 128.51, 128.6, 130.95, 131.04, 131.71, 131.71, 130.46, 128.4, 132.92, 127.6, 125.47, 125.47, 124.33, 132.01, 132.14, 130.06, 125.81, 125.81, 129.14, 128.76, 123.47, 118.21, 115.55, 115.55, 121.47, 119.78, 116.82, 112.01, 114.81, 114.81, 114.86, 112.04, 117.61, 117.44, 117.44, 119.03, 119.04, 125.0, 120.0, 126.62, 126.62, 124.09, 125.77, 124.18, 127.34, 124.22, 124.22, 124.86, 121.85, 122.75, 122.86, 121.74, 121.74, 123.58, 116.36, 117.79, 119.22, 121.47, 121.47, 123.06, 122.5, 121.53, 120.08, 122.86, 122.86, 119.61, 118.49, 119.45, 126.38, 123.86, 123.86, 123.28, 121.92, 122.52, 126.08, 128.07, 128.07, 124.89, 125.62, 123.01, 123.48, 120.3, 120.3, 118.07, 116.16, 114.85, 119.14, 116.17, 116.17, 115.18, 107.97, 106.97, 110.54, 110.04, 110.04, 109.31, 109.41, 108.2, 107.9, 111.52, 111.52, 112.23, 104.45, 106.85, 103.6, 107.8, 107.8, 103.17, 103.44, 102.62, 103.83, 106.49, 106.49, 104.35, 101.9, 100.25, 100.83, 103.1, 103.1, 101.61, 101.97, 100.62, 98.35, 100.09, 100.09, 101.88, 99.58, 102.6, 103.2, 102.03, 102.03, 102.34, 105.83, 102.35, 104.21, 102.7, 102.7, 102.39, 109.33, 110.58, 105.37, 113.31, 113.31, 115.39, 114.89, 113.3], "ft": "Drawn from exchange closes \u00b7 equal weight, base 100 = first trading day of the year \u00b7 YTD +13.3% \u00b7 as of 2026-08-12"}, {"k": "CC-W \u00b7 The Movement", "v": "181.85", "d": "\u25b2 +0.37%", "cls": "up", "ser": [100.0, 100.85, 100.81, 101.89, 101.55, 102.67, 102.95, 102.95, 103.39, 104.34, 104.52, 104.53, 103.97, 103.64, 102.56, 101.33, 103.14, 103.91, 103.98, 102.69, 102.34, 102.4, 101.77, 104.47, 106.74, 107.32, 109.26, 109.7, 110.23, 109.1, 109.76, 111.4, 112.36, 113.2, 116.61, 119.75, 119.91, 118.61, 119.0, 120.24, 122.36, 122.01, 123.28, 123.28, 124.47, 128.65, 126.28, 128.94, 127.55, 128.52, 122.93, 117.57, 120.57, 118.29, 117.43, 114.47, 115.09, 117.21, 115.58, 115.65, 114.72, 114.36, 114.73, 116.73, 114.18, 114.64, 113.97, 111.29, 113.77, 115.65, 116.69, 116.45, 115.72, 113.55, 111.67, 114.81, 115.55, 117.62, 118.66, 119.24, 121.34, 124.34, 124.78, 125.76, 125.76, 127.18, 128.01, 128.36, 128.52, 131.08, 130.26, 129.78, 130.25, 126.72, 126.06, 124.95, 123.72, 123.86, 123.94, 122.34, 122.44, 122.59, 122.59, 121.57, 122.16, 128.18, 130.33, 131.38, 132.34, 133.21, 132.79, 133.72, 138.12, 138.01, 136.76, 135.67, 132.97, 134.86, 136.79, 137.22, 140.36, 139.65, 142.25, 148.79, 151.82, 154.41, 155.83, 153.97, 155.95, 152.01, 151.36, 150.19, 149.21, 150.65, 148.12, 147.71, 150.84, 152.4, 154.74, 155.88, 158.04, 157.15, 159.46, 159.62, 161.17, 158.48, 158.35, 162.46, 162.01, 162.74, 162.42, 161.66, 161.03, 158.68, 159.52, 160.27, 159.56, 154.48, 154.77, 154.15, 157.44, 157.36, 154.79, 155.91, 158.1, 160.54, 159.5, 157.67, 157.67, 158.78, 157.65, 154.5, 148.96, 149.56, 152.43, 150.52, 147.58, 149.25, 154.67, 154.47, 162.63, 166.97, 172.34, 171.98, 168.34, 168.7, 177.81, 178.29, 181.18, 181.85], "ft": "Drawn from exchange closes \u00b7 equal weight, base 100 = first trading day of the year \u00b7 YTD +81.8% \u00b7 as of 2026-08-12"}];
 document.getElementById('ptabs').innerHTML=PX.map((p,i)=>
  `<button class="ptab${i?'':' on'}" data-i="${i}">${p.k.split(' ·')[0]}</button>`).join('');
 document.getElementById('ptable').innerHTML=PX.map(p=>
@@ -1488,11 +1486,15 @@ function drawChart(){
   const dpr=Math.min(devicePixelRatio||1,2), r=cv.getBoundingClientRect(); if(!r.width) return;
   cv.width=r.width*dpr; cv.height=190*dpr; c.scale(dpr,dpr);
   const W=r.width,H=190,p=PX[curPX],col='#C6A24A';
-  const d=series(p.seed,64,p.trend);
+  /* an index row carries its real daily series; only the metals fallback
+     still draws a seeded specimen shape (and says so in the footnote) */
+  const d=p.ser||series(p.seed,64,p.trend);
   c.clearRect(0,0,W,H);
   c.strokeStyle='rgba(198,162,74,.13)'; c.lineWidth=1;
   for(let i=0;i<=4;i++){const yy=10+i*(H-24)/4;c.beginPath();c.moveTo(0,yy);c.lineTo(W,yy);c.stroke();}
-  const x=i=>i/(d.length-1)*W, y=v=>H-14-(v/100)*(H-28);
+  const lo0=Math.min.apply(null,d), hi0=Math.max.apply(null,d),
+        sp=(hi0-lo0)*0.09||1, lo=lo0-sp, hi=hi0+sp;
+  const x=i=>i/(d.length-1)*W, y=v=>H-14-((v-lo)/(hi-lo))*(H-28);
   const g=c.createLinearGradient(0,0,0,H);
   g.addColorStop(0,'rgba(198,162,74,.30)'); g.addColorStop(1,'rgba(198,162,74,0)');
   c.beginPath(); c.moveTo(0,H); d.forEach((v,i)=>c.lineTo(x(i),y(v))); c.lineTo(W,H); c.closePath();
@@ -1512,8 +1514,8 @@ document.getElementById('ptabs').addEventListener('click',e=>{
   document.getElementById('cnm').textContent=p.k;
   document.getElementById('cv').textContent=p.v;
   const cd=document.getElementById('cd'); cd.textContent=p.d; cd.className='dl d '+p.cls;
-  /* two separate claims: the drawn series is a shape, the mark is sourced */
-  document.getElementById('cft').textContent='Series shape illustrative, not quoted · Mark: '+p.ft;
+  /* the row carries its own full footnote: real series say so, specimens say so */
+  document.getElementById('cft').textContent=p.ft;
   drawChart();
 });
 

@@ -1110,7 +1110,7 @@ footer{border-top:1px solid var(--line);padding:56px 0 76px;margin-top:clamp(50p
           <div class="dl" id="cd">__PX0_D__</div>
         </div>
         <canvas id="chart"></canvas>
-        <div class="ft" id="cft">Series shape illustrative, not quoted &middot; Mark: as carried on the tape</div>
+        <div class="ft" id="cft">__PX0_FT__</div>
       </div>
       <div class="ptable rv rv-3" id="ptable"></div>
     </div>
@@ -1483,11 +1483,15 @@ function drawChart(){
   const dpr=Math.min(devicePixelRatio||1,2), r=cv.getBoundingClientRect(); if(!r.width) return;
   cv.width=r.width*dpr; cv.height=190*dpr; c.scale(dpr,dpr);
   const W=r.width,H=190,p=PX[curPX],col='#C6A24A';
-  const d=series(p.seed,64,p.trend);
+  /* an index row carries its real daily series; only the metals fallback
+     still draws a seeded specimen shape (and says so in the footnote) */
+  const d=p.ser||series(p.seed,64,p.trend);
   c.clearRect(0,0,W,H);
   c.strokeStyle='rgba(198,162,74,.13)'; c.lineWidth=1;
   for(let i=0;i<=4;i++){const yy=10+i*(H-24)/4;c.beginPath();c.moveTo(0,yy);c.lineTo(W,yy);c.stroke();}
-  const x=i=>i/(d.length-1)*W, y=v=>H-14-(v/100)*(H-28);
+  const lo0=Math.min.apply(null,d), hi0=Math.max.apply(null,d),
+        sp=(hi0-lo0)*0.09||1, lo=lo0-sp, hi=hi0+sp;
+  const x=i=>i/(d.length-1)*W, y=v=>H-14-((v-lo)/(hi-lo))*(H-28);
   const g=c.createLinearGradient(0,0,0,H);
   g.addColorStop(0,'rgba(198,162,74,.30)'); g.addColorStop(1,'rgba(198,162,74,0)');
   c.beginPath(); c.moveTo(0,H); d.forEach((v,i)=>c.lineTo(x(i),y(v))); c.lineTo(W,H); c.closePath();
@@ -1507,8 +1511,8 @@ document.getElementById('ptabs').addEventListener('click',e=>{
   document.getElementById('cnm').textContent=p.k;
   document.getElementById('cv').textContent=p.v;
   const cd=document.getElementById('cd'); cd.textContent=p.d; cd.className='dl d '+p.cls;
-  /* two separate claims: the drawn series is a shape, the mark is sourced */
-  document.getElementById('cft').textContent='Series shape illustrative, not quoted · Mark: '+p.ft;
+  /* the row carries its own full footnote: real series say so, specimens say so */
+  document.getElementById('cft').textContent=p.ft;
   drawChart();
 });
 
