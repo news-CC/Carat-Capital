@@ -1707,7 +1707,7 @@ def indices_page():
 
 # ---------------- THE FOLIO — the week, bound ----------------
 def _folio_issue():
-    """Compose this week's pages from the real archive. Returns (meta, pages) —
+    """Compose this week's leaves from the real archive. Returns (meta, pages) —
     each page is a full HTML string designed for a 5:7 leaf."""
     import datetime as _dt
     today = max((a.get("date", "") for a in ARTICLES), default="")
@@ -1724,8 +1724,7 @@ def _folio_issue():
         return (s, PH.get(s, {}).get("credit", "")) if s in PH else ("", "")
 
     def folio(n, head_r):
-        return (f'<div class="folio"><span>{head_r}</span>'
-                f'<span>{n:02d}</span></div>')
+        return (f'<div class="folio"><span>{head_r}</span><span>{n:02d}</span></div>')
 
     def plate(img, credit, h="46%"):
         if not img: return ""
@@ -1735,16 +1734,23 @@ def _folio_issue():
 
     P = []
 
-    # 00 · cover
+    # 00 · cover — the plate runs the full leaf, the masthead prints over it
     ci, ccr = ph_of(lead) if lead else ("", "")
+    others = [a for a in week if a is not lead][:2]
+    covlines = "".join(f'<div class="cvl"><i></i>{H.escape(a["title"])}</div>' for a in others)
     P.append(f"""<div class="pg pg-cover">
-  <div class="cov-top"><svg viewBox="0 0 100 100" class="cmedal"><use href="#medal"/></svg>
-    <div class="cbrand">Carat<span>^</span>Capital</div></div>
-  <div class="cov-mast">The<br>Folio</div>
-  <div class="cov-iss">Issue {issue_no} &middot; {rng} &middot; the week, bound</div>
-  {plate(ci, ccr, "34%")}
-  <div class="cov-line">{H.escape(lead['title']) if lead else ''}</div>
-  <div class="cov-foot">The trade paper of the jewelry world &middot; caratcapital.org</div>
+  <div class="cov-bleed">{f'<img src="assets/ph/{ci}.jpg" alt="">' if ci else ''}</div>
+  <div class="cov-scrim"></div>
+  <div class="cov-in">
+    <div class="cov-top"><svg viewBox="0 0 100 100" class="cmedal"><use href="#medal"/></svg>
+      <div class="cbrand">Carat<span>^</span>Capital</div>
+      <div class="cov-iss">Issue {issue_no}</div></div>
+    <div class="cov-mast">The<br>Folio</div>
+    <div class="cov-sub">{rng} &middot; the week, bound</div>
+    <div class="cov-line">{H.escape(lead['title']) if lead else ''}</div>
+    {covlines}
+    <div class="cov-foot">The trade paper of the jewelry world &middot; caratcapital.org{f' &middot; plate: {ccr}' if ccr else ''}</div>
+  </div>
 </div>""")
 
     # 01 · masthead + contents
@@ -1759,7 +1765,8 @@ def _folio_issue():
   <div class="toc"><span class="tn">03</span><b>The week's lead</b><i></i><em>{H.escape((lead or {}).get('kicker',''))[:34]}</em></div>
   <div class="toc"><span class="tn">05</span><b>The tape</b><i></i><em>the Carat indices</em></div>
   {toc}
-  <div class="toc"><span class="tn">13</span><b>By the numbers</b><i></i><em>the week's marks</em></div>
+  <div class="toc"><span class="tn">13</span><b>The wire, distilled</b><i></i><em>the week in one page</em></div>
+  <div class="toc"><span class="tn">14</span><b>By the numbers</b><i></i><em>the week's marks</em></div>
   <div class="mast-note">Bound weekly from the daily editions of Carat Capital.
     Every claim in these pages was priced, sourced, or cut before it ran.
     {edition and 'This issue closes with ' + H.escape(edition) + '.'}</div>
@@ -1777,22 +1784,22 @@ def _folio_issue():
   {folio(2, 'The house')}
 </div>""")
 
-    # 03-04 · the lead spread
+    # 03-04 · the lead spread: plate at full bleed, story facing it
     li, lcr = ph_of(lead) if lead else ("", "")
-    P.append(f"""<div class="pg pg-plate">
-  {plate(li, lcr, "100%")}
-</div>""")
+    P.append(f"""<div class="pg pg-plate">{plate(li, lcr, "100%")}</div>""")
+    body0 = ((lead or {}).get('body') or [''])[0]
+    pull = (lead or {}).get('dek', '')
     P.append(f"""<div class="pg">
   <div class="mk">{H.escape((lead or {}).get('kicker', 'The lead'))}</div>
   <h2 class="ph1">{H.escape((lead or {}).get('title', ''))}</h2>
-  <p class="pdek">{H.escape((lead or {}).get('dek', ''))}</p>
-  <p class="pbody">{H.escape(((lead or {}).get('body') or [''])[0][:420])}&hellip;</p>
+  <div class="pull">{H.escape(pull[:160])}</div>
+  <p class="pbody drop">{H.escape(body0[:520])}&hellip;</p>
   <div class="pby">{H.escape((lead or {}).get('byline', 'The desk'))} &middot; {(lead or {}).get('minutes', 5)} min &middot;
     <a href="a-{(lead or {}).get('slug', '')}.html">read the story in full &rarr;</a></div>
   {folio(4, 'The lead')}
 </div>""")
 
-    # 05-06 · the tape spread: the Carat indices
+    # 05-06 · the tape spread
     if IDX:
         chart = _idx_chart(
             [(k, IDX_HUE[k], IDX["indices"][k]["series"], False) for k in
@@ -1804,7 +1811,7 @@ def _folio_issue():
   <p class="pdek" style="margin-bottom:12px">Five indices this paper computes itself —
     the listed jewelry world rebased to 100 at the year's first trading day.</p>
   <div style="border:1px solid var(--pline);padding:8px 4px">{chart}</div>
-  {folio(6, 'The tape')}
+  {folio(5, 'The tape')}
 </div>""")
         rows = "".join(
             f'<div class="ixr"><span class="c" style="color:{IDX_HUE[k]}">{k}</span>'
@@ -1840,7 +1847,7 @@ def _folio_issue():
         else:
             body = ('<div class="dark-desk">The desk filed nothing this week. Its sources '
                     'went quiet, and this paper does not fill quiet weeks — '
-                    'the next print carries the desk’s return.</div>')
+                    'the next print carries the desk&rsquo;s return.</div>')
         P.append(f"""<div class="pg">
   <div class="mk">D&mdash;{d['no']} &middot; {H.escape(d['tag'])}</div>
   <h2 class="ph2">{H.escape(d['title'])}</h2>
@@ -1849,7 +1856,19 @@ def _folio_issue():
   {folio(7+i, d['title'])}
 </div>""")
 
-    # 13 · by the numbers
+    # 13 · the wire, distilled
+    wire_items = [a for a in week if a is not lead][:9]
+    wl = "".join(
+        f'<div class="wl"><span class="wk">{H.escape((a.get("kicker") or DESK_NAMES.get(a.get("desk"),"Desk"))[:26])}</span>'
+        f'<a href="a-{a["slug"]}.html">{H.escape(a["title"])}</a></div>' for a in wire_items)
+    P.append(f"""<div class="pg">
+  <div class="mk">The wire, distilled</div>
+  <h2 class="ph2">The week in one page</h2>
+  {wl}
+  {folio(13, 'The wire')}
+</div>""")
+
+    # 14 · by the numbers
     nums = []
     for d in DESKS:
         st = (d.get("stats") or [])
@@ -1862,24 +1881,34 @@ def _folio_issue():
   <div class="bngrid">{nums}</div>
   <div class="pnote">Each figure carries its desk's sourcing on the site — nothing here
     is estimated, and what could not be verified was carried &ldquo;unch.&rdquo;</div>
-  {folio(13, 'The marks')}
+  {folio(14, 'The marks')}
 </div>""")
 
-    # 14 · the trade's plate (open seat) — the open seat
+    # 15 · a full-bleed plate to breathe
+    pimg = "gemstones-hero" if "gemstones-hero" in PH else next(iter(PH), "")
+    pcr = PH.get(pimg, {}).get("credit", "")
+    P.append(f"""<div class="pg pg-plate">{plate(pimg, pcr, "100%")}
+  <div class="plate-cap">Plate II &middot; the colour the week went without</div>
+</div>""")
+
+    # 16 · the open seat
     P.append(f"""<div class="pg pg-ad">
   <div class="adk">The open seat</div>
   <div class="adbig">Your maison,<br>on this page.</div>
   <div class="adcta" style="max-width:30ch">The Folio binds the week for the people who
     price it. One plate an issue is kept for a house the desk would stand behind.</div>
   <div class="adfoot"><a href="about.html#contact">Write to the desk &rarr;</a></div>
-  {folio(14, 'The open seat')}
+  {folio(16, 'The open seat')}
 </div>""")
 
-    # 15 · back cover
+    # 17 · back cover
     P.append(f"""<div class="pg pg-cover pg-back">
+  <div class="cov-scrim" style="background:linear-gradient(165deg,#191612,#0E0C09)"></div>
+  <div class="cov-in" style="text-align:center;justify-content:center">
   <svg viewBox="0 0 100 100" class="cmedal big"><use href="#medal"/></svg>
   <div class="cov-mast" style="font-size:34px">Clarity, daily.</div>
-  <div class="cov-foot">Carat Capital &middot; est. MMXXVI &middot; free to read &middot; caratcapital.org</div>
+  <div class="cov-foot" style="margin-top:22px">Carat Capital &middot; est. MMXXVI &middot; free to read &middot; caratcapital.org</div>
+  </div>
 </div>""")
 
     return dict(no=issue_no, rng=rng, pages=len(P)), P
@@ -1888,6 +1917,7 @@ def _folio_issue():
 def magazine_page():
     meta, pages = _folio_issue()
     leaves = "".join(f'<div class="pg-slot">{p}</div>' for p in pages)
+    npages = len(pages)
     return f"""{head("The Folio — the week, bound — Carat Capital",
       "Carat Capital's weekly digital magazine: the week's editions bound into a page-turning issue.",
       "magazine.html")}
@@ -1905,26 +1935,51 @@ body{{margin:0;color:var(--pink);font-family:var(--pt)}}
 .mgbar a:hover{{color:#F6F1E6}}
 .mgbar .t{{color:#E8CB7C;letter-spacing:.3em}}
 .stage{{min-height:100dvh;display:flex;flex-direction:column;align-items:center;justify-content:center;
-  padding:calc(env(safe-area-inset-top,0px) + 58px) 16px 74px}}
-#book{{position:relative;perspective:2800px}}
+  padding:calc(env(safe-area-inset-top,0px) + 56px) 16px 96px}}
+#bookwrap{{position:relative;transition:transform .85s cubic-bezier(.16,.9,.24,1)}}
+#book{{position:relative;perspective:2900px;transform-style:preserve-3d}}
+/* the block of unturned pages, visible at the fore-edges */
+.edge{{position:absolute;top:1.5%;height:97%;width:0;z-index:0;
+  background:repeating-linear-gradient(90deg,#E9E2D2 0 1px,#CFC5AC 1px 2px);
+  box-shadow:0 14px 40px -18px rgba(0,0,0,.85);transition:width .5s}}
+.edge.l{{right:100%;border-radius:2px 0 0 2px}}
+.edge.r{{left:100%;border-radius:0 2px 2px 0}}
 .sheet{{position:absolute;top:0;right:0;width:50%;height:100%;transform-origin:left center;
-  transform-style:preserve-3d;transition:transform .95s cubic-bezier(.16,.9,.24,1)}}
+  transform-style:preserve-3d;transition:transform .9s cubic-bezier(.22,.85,.3,1)}}
 .sheet.flip{{transform:rotateY(-180deg)}}
+.sheet.drag{{transition:none}}
 .face{{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;
-  overflow:hidden;background:var(--paper)}}
-.face.pb{{transform:rotateY(180deg)}}
-.face.pf::before{{content:"";position:absolute;inset:0;z-index:5;pointer-events:none;
-  background:linear-gradient(90deg,rgba(59,54,44,.18),transparent 7%)}}
-.face.pb::before{{content:"";position:absolute;inset:0;z-index:5;pointer-events:none;
-  background:linear-gradient(-90deg,rgba(59,54,44,.18),transparent 7%)}}
+  overflow:hidden;background:var(--paper);transform:translateZ(0)}}
+.face.pb{{transform:rotateY(180deg) translateZ(1px)}}
+/* spine shading printed into every leaf */
+.face.pf::before{{content:"";position:absolute;inset:0;z-index:6;pointer-events:none;
+  background:linear-gradient(90deg,rgba(59,54,44,.20),transparent 6%,transparent 97%,rgba(59,54,44,.06))}}
+.face.pb::before{{content:"";position:absolute;inset:0;z-index:6;pointer-events:none;
+  background:linear-gradient(-90deg,rgba(59,54,44,.20),transparent 6%,transparent 97%,rgba(59,54,44,.06))}}
+/* the moving light of the turn — opacity driven by the engine */
+.face .sh{{position:absolute;inset:0;z-index:7;pointer-events:none;opacity:0}}
+.face.pf .sh{{background:linear-gradient(100deg,transparent 40%,rgba(20,16,8,.38) 96%)}}
+.face.pb .sh{{background:linear-gradient(-100deg,rgba(255,252,240,.28) 2%,transparent 30%,rgba(20,16,8,.30) 96%)}}
+/* the shadow a turning page casts on the spread beneath */
+#cast{{position:absolute;top:0;bottom:0;left:0;width:50%;z-index:30;pointer-events:none;opacity:0;
+  background:linear-gradient(90deg,transparent 30%,rgba(10,8,4,.38) 96%)}}
+#cast.r{{left:50%;background:linear-gradient(-90deg,transparent 30%,rgba(10,8,4,.38) 96%)}}
+/* corner affordance */
+.sheet::after{{content:"";position:absolute;right:0;bottom:0;width:54px;height:54px;z-index:8;
+  background:linear-gradient(315deg,rgba(59,54,44,.16) 0%,transparent 52%);opacity:0;transition:opacity .3s}}
+#book:hover .sheet:not(.flip)::after{{opacity:1}}
 .pg{{position:absolute;inset:0;padding:7.2% 8%;display:flex;flex-direction:column;font-size:13px;line-height:1.55}}
 .pg-slot{{display:contents}}
 .mk{{font-family:var(--pm);font-size:8px;letter-spacing:.26em;text-transform:uppercase;
   color:var(--pgilt);margin-bottom:10px}}
-.ph1{{font-family:var(--pd);font-weight:700;font-size:24px;line-height:1.12;letter-spacing:-.02em;margin:0 0 10px}}
+.ph1{{font-family:var(--pd);font-weight:700;font-size:23px;line-height:1.1;letter-spacing:-.02em;margin:0 0 10px}}
 .ph2{{font-family:var(--pd);font-weight:700;font-size:21px;line-height:1.1;letter-spacing:-.02em;margin:0 0 12px}}
 .pdek{{font-size:13.5px;color:var(--pink2);margin:0 0 10px}}
+.pull{{font-family:var(--pt);font-style:italic;font-size:15px;line-height:1.5;color:var(--pink2);
+  border-left:2px solid var(--pgilt);padding:2px 0 2px 12px;margin:0 0 12px}}
 .pbody{{font-size:12.5px;color:var(--pink2);margin:0}}
+.pbody.drop::first-letter{{font-family:var(--pd);font-weight:700;font-size:40px;line-height:.82;
+  float:left;padding:4px 7px 0 0;color:var(--pink)}}
 .pby{{font-family:var(--pm);font-size:8.5px;letter-spacing:.14em;text-transform:uppercase;
   color:var(--pink3);margin-top:auto;padding-top:12px}}
 .pby a,.pnote a{{color:var(--pseal);text-decoration:none}}
@@ -1935,15 +1990,18 @@ body{{margin:0;color:var(--pink);font-family:var(--pt)}}
   text-shadow:0 1px 3px rgba(0,0,0,.6)}}
 .pg-plate{{padding:0}}
 .pg-plate .plate{{margin:0;height:100%!important}}
+.plate-cap{{position:absolute;left:8%;bottom:6%;z-index:3;font-family:var(--pm);font-size:7px;
+  letter-spacing:.24em;text-transform:uppercase;color:rgba(255,252,240,.85);
+  text-shadow:0 1px 6px rgba(0,0,0,.7)}}
 .folio{{margin-top:auto;padding-top:10px;display:flex;justify-content:space-between;
   font-family:var(--pm);font-size:7.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--pink3)}}
 .toc{{display:flex;align-items:baseline;gap:9px;padding:7px 0;border-bottom:1px solid var(--pline)}}
 .toc .tn{{font-family:var(--pm);font-size:8.5px;color:var(--pgilt)}}
-.toc b{{font-family:var(--pd);font-weight:600;font-size:13px}}
+.toc b{{font-family:var(--pd);font-weight:600;font-size:12.5px}}
 .toc i{{flex:1;border-bottom:1px dotted var(--pline)}}
-.toc em{{font-style:normal;font-family:var(--pm);font-size:7.5px;letter-spacing:.1em;
+.toc em{{font-style:normal;font-family:var(--pm);font-size:7px;letter-spacing:.1em;
   text-transform:uppercase;color:var(--pink3)}}
-.mast-note{{margin-top:16px;font-size:11px;color:var(--pink3);line-height:1.6}}
+.mast-note{{margin-top:14px;font-size:10.5px;color:var(--pink3);line-height:1.6}}
 .ixr{{display:flex;align-items:baseline;gap:9px;padding:8px 0;border-bottom:1px solid var(--pline);
   font-family:var(--pm)}}
 .ixr .c{{font-size:8.5px;letter-spacing:.16em}}
@@ -1956,59 +2014,87 @@ body{{margin:0;color:var(--pink);font-family:var(--pt)}}
 .bignum span{{font-family:var(--pm);font-size:7.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--pink3)}}
 .pnote{{font-size:11px;color:var(--pink3);line-height:1.6;margin-top:10px}}
 .dst{{padding:9px 0;border-bottom:1px solid var(--pline)}}
-.dst h3{{font-family:var(--pd);font-weight:700;font-size:14px;line-height:1.2;margin:0 0 4px}}
+.dst h3{{font-family:var(--pd);font-weight:700;font-size:13.5px;line-height:1.2;margin:0 0 4px}}
 .dst h3 a{{color:var(--pink);text-decoration:none}}
-.dst p{{font-size:11.5px;color:var(--pink2);margin:0}}
+.dst p{{font-size:11px;color:var(--pink2);margin:0}}
 .dark-desk{{margin:auto 0;font-size:13px;color:var(--pink3);font-style:italic;line-height:1.7;
   border-left:2px solid var(--pline);padding-left:14px}}
+.wl{{padding:8px 0;border-bottom:1px solid var(--pline)}}
+.wl .wk{{display:block;font-family:var(--pm);font-size:6.5px;letter-spacing:.2em;
+  text-transform:uppercase;color:var(--pgilt);margin-bottom:3px}}
+.wl a{{font-family:var(--pd);font-weight:600;font-size:12.5px;line-height:1.3;
+  color:var(--pink);text-decoration:none}}
 .bngrid{{display:grid;grid-template-columns:1fr 1fr;gap:14px 12px;margin-top:6px}}
-.bn b{{display:block;font-family:var(--pm);font-size:19px;font-weight:500;letter-spacing:-.02em}}
+.bn b{{display:block;font-family:var(--pm);font-size:18px;font-weight:500;letter-spacing:-.02em}}
 .bn span{{font-family:var(--pm);font-size:6.5px;letter-spacing:.14em;text-transform:uppercase;
   color:var(--pink3);line-height:1.6;display:block;margin-top:3px}}
-.pg-cover{{background:linear-gradient(165deg,#191612,#0E0C09);color:#F0E8D6;justify-content:flex-start}}
+.pg-cover{{padding:0;color:#F0E8D6}}
+.cov-bleed{{position:absolute;inset:0}}
+.cov-bleed img{{width:100%;height:100%;object-fit:cover;filter:saturate(.7) brightness(.9)}}
+.cov-scrim{{position:absolute;inset:0;background:linear-gradient(178deg,rgba(10,8,5,.72) 0%,rgba(10,8,5,.35) 38%,rgba(10,8,5,.82) 78%,rgba(10,8,5,.94) 100%)}}
+.cov-in{{position:relative;z-index:2;display:flex;flex-direction:column;height:100%;padding:7.2% 8%}}
 .cov-top{{display:flex;align-items:center;gap:9px}}
-.cmedal{{width:26px;height:26px;color:#C6A24A}}
-.cmedal.big{{width:64px;height:64px;margin:auto auto 18px}}
+.cov-top .cov-iss{{margin-left:auto;font-family:var(--pm);font-size:7px;letter-spacing:.26em;
+  text-transform:uppercase;color:#C6A24A}}
+.cmedal{{width:26px;height:26px;color:#C6A24A;flex:none}}
+.cmedal.big{{width:64px;height:64px;margin:0 auto 18px}}
 .cbrand{{font-family:var(--pd);font-weight:700;font-size:10.5px;letter-spacing:.24em;text-transform:uppercase}}
 .cbrand span{{color:#BE3319}}
-.cov-mast{{font-family:var(--pd);font-weight:700;font-size:64px;line-height:.92;letter-spacing:-.03em;
-  margin:26px 0 8px}}
-.cov-iss{{font-family:var(--pm);font-size:7.5px;letter-spacing:.26em;text-transform:uppercase;
-  color:#C6A24A;margin-bottom:16px}}
-.cov-line{{font-family:var(--pd);font-weight:700;font-size:17px;line-height:1.25;letter-spacing:-.01em;
-  margin-top:14px}}
-.cov-foot{{margin-top:auto;font-family:var(--pm);font-size:7px;letter-spacing:.22em;
-  text-transform:uppercase;color:#8A8272}}
-.pg-back{{text-align:center;justify-content:center}}
+.cov-mast{{font-family:var(--pd);font-weight:700;font-size:64px;line-height:.92;letter-spacing:-.03em;margin:24px 0 8px}}
+.cov-sub{{font-family:var(--pm);font-size:7.5px;letter-spacing:.26em;text-transform:uppercase;color:#C6A24A}}
+.cov-line{{font-family:var(--pd);font-weight:700;font-size:17px;line-height:1.25;letter-spacing:-.01em;margin-top:auto}}
+.cvl{{display:flex;gap:8px;align-items:baseline;font-family:var(--pd);font-weight:600;font-size:11px;
+  line-height:1.35;margin-top:9px;color:rgba(240,232,214,.86)}}
+.cvl i{{flex:none;width:14px;border-top:1px solid #C6A24A;transform:translateY(-3px)}}
+.cov-foot{{margin-top:14px;font-family:var(--pm);font-size:6.5px;letter-spacing:.2em;
+  text-transform:uppercase;color:rgba(240,232,214,.55)}}
 .pg-ad{{background:var(--paper2);justify-content:center;text-align:center}}
 .adk{{font-family:var(--pm);font-size:7.5px;letter-spacing:.3em;text-transform:uppercase;color:var(--pgilt);margin-bottom:18px}}
-.adbig{{font-family:var(--pd);font-weight:700;font-size:24px;line-height:1.2;letter-spacing:-.02em}}
+.adbig{{font-family:var(--pd);font-weight:700;font-size:23px;line-height:1.2;letter-spacing:-.02em}}
 .adbig em{{font-style:italic;font-family:var(--pt);font-weight:400}}
 .adcta{{margin:18px auto 0;font-size:12.5px;color:var(--pink2)}}
 .adcta a,.adfoot a{{color:var(--pseal);text-decoration:none}}
 .adfoot{{margin-top:14px;font-family:var(--pm);font-size:7px;letter-spacing:.18em;
   text-transform:uppercase;color:var(--pink3)}}
-.mgnav{{position:fixed;left:0;right:0;bottom:0;z-index:40;display:flex;justify-content:center;
-  align-items:center;gap:18px;padding:12px 16px calc(env(safe-area-inset-bottom,0px) + 12px);
-  font-family:var(--pm);font-size:9px;letter-spacing:.2em;text-transform:uppercase;color:#B9AE96;
-  background:linear-gradient(0deg,#141310 55%,transparent)}}
-.mgnav button{{font:inherit;color:#E8CB7C;background:none;border:1px solid rgba(198,162,74,.35);
-  border-radius:999px;padding:8px 16px;cursor:pointer;letter-spacing:.2em;text-transform:uppercase}}
-.mgnav button:hover{{background:rgba(198,162,74,.14)}}
-.mgnav button[disabled]{{opacity:.3;cursor:default}}
-/* phone: the same leaves as a swipe deck */
+/* ── the desk under the book ── */
+.mgnav{{position:fixed;left:0;right:0;bottom:0;z-index:40;display:flex;flex-direction:column;gap:8px;
+  padding:10px 18px calc(env(safe-area-inset-bottom,0px) + 12px);
+  background:linear-gradient(0deg,#141310 62%,transparent)}}
+.mgrow{{display:flex;justify-content:center;align-items:center;gap:14px;
+  font-family:var(--pm);font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:#B9AE96}}
+.mgrow button{{font:inherit;color:#E8CB7C;background:none;border:1px solid rgba(198,162,74,.35);
+  border-radius:999px;padding:7px 14px;cursor:pointer;letter-spacing:.18em;text-transform:uppercase}}
+.mgrow button:hover{{background:rgba(198,162,74,.14)}}
+.mgrow button[disabled]{{opacity:.3;cursor:default}}
+#scrub{{-webkit-appearance:none;appearance:none;width:min(520px,64vw);height:2px;border-radius:2px;
+  background:rgba(198,162,74,.28);outline:none}}
+#scrub::-webkit-slider-thumb{{-webkit-appearance:none;width:13px;height:13px;border-radius:50%;
+  background:#E8CB7C;border:1px solid #96762E;cursor:pointer}}
+#scrub::-moz-range-thumb{{width:13px;height:13px;border-radius:50%;background:#E8CB7C;
+  border:1px solid #96762E;cursor:pointer}}
+#thumbs{{position:fixed;left:0;right:0;bottom:0;z-index:50;transform:translateY(102%);
+  transition:transform .5s cubic-bezier(.16,.9,.24,1);background:#0F0E0B;
+  border-top:1px solid rgba(198,162,74,.3);padding:14px 16px calc(env(safe-area-inset-bottom,0px) + 14px);
+  display:flex;gap:10px;overflow-x:auto}}
+#thumbs.open{{transform:none}}
+.th{{flex:none;width:76px;height:106px;position:relative;overflow:hidden;background:var(--paper);
+  border:1px solid rgba(198,162,74,.25);cursor:pointer}}
+.th:hover{{border-color:#C6A24A}}
+.th .pg{{transform:scale(.19);transform-origin:top left;width:400px;height:560px;position:absolute}}
+.th b{{position:absolute;right:3px;bottom:2px;z-index:9;font-family:var(--pm);font-weight:500;
+  font-size:7px;color:#96762E;background:rgba(246,241,230,.85);padding:1px 4px;border-radius:3px}}
+/* ── the phone: the same leaves as a swipe deck, with real proportions ── */
 @media(max-width:700px){{
   #book{{perspective:none;display:flex;overflow-x:auto;scroll-snap-type:x mandatory;
-    scrollbar-width:none;gap:12px}}
+    scrollbar-width:none;gap:12px;width:min(92vw,440px)}}
   #book::-webkit-scrollbar{{display:none}}
-  .pg-slot{{display:block;flex:none;width:100%;scroll-snap-align:center;position:relative;
-    background:var(--paper);box-shadow:0 18px 50px -28px rgba(0,0,0,.9)}}
-  .pg{{position:relative}}
+  .edge{{display:none}}
+  .pg-slot{{display:block;flex:none;width:100%;aspect-ratio:5/7;scroll-snap-align:center;
+    position:relative;background:var(--paper);box-shadow:0 18px 50px -28px rgba(0,0,0,.9)}}
 }}
-@media(prefers-reduced-motion:reduce){{.sheet{{transition:none}}}}
-html:not(.js) #book{{display:flex;flex-direction:column;gap:16px}}
-html:not(.js) .pg-slot{{position:relative;background:var(--paper)}}
-html:not(.js) .pg{{position:relative}}
+@media(prefers-reduced-motion:reduce){{.sheet,#bookwrap,.edge{{transition:none!important}}}}
+html:not(.js) #book{{display:flex;flex-direction:column;gap:16px;width:min(92vw,480px)}}
+html:not(.js) .pg-slot{{display:block;position:relative;aspect-ratio:5/7;background:var(--paper)}}
 </style>
 <script>document.documentElement.classList.add('js')</script>
 
@@ -2018,44 +2104,51 @@ html:not(.js) .pg{{position:relative}}
   <span id="pgno">&nbsp;</span>
 </div>
 
-<div class="stage"><div id="book">{leaves}</div></div>
+<div class="stage"><div id="bookwrap"><div id="book">{leaves}<div id="cast"></div>
+  <div class="edge l"></div><div class="edge r"></div></div></div></div>
 
 <div class="mgnav">
-  <button id="mprev" aria-label="Previous page">&larr; Prev</button>
-  <span id="mhint">tap a page edge, swipe, or use arrow keys</span>
-  <button id="mnext" aria-label="Next page">Next &rarr;</button>
+  <div class="mgrow"><input id="scrub" type="range" min="0" max="1" value="0" step="1"
+    aria-label="Go to page"></div>
+  <div class="mgrow">
+    <button id="mprev" aria-label="Previous page">&larr;</button>
+    <button id="mthumbs">Pages</button>
+    <button id="mfull">Fullscreen</button>
+    <button id="mnext" aria-label="Next page">&rarr;</button>
+  </div>
 </div>
+<div id="thumbs" aria-label="Page thumbnails"></div>
 
 <script>
 (function(){{
-  const book=document.getElementById('book');
+  const book=document.getElementById('book'), wrap=document.getElementById('bookwrap');
   const slots=[...book.querySelectorAll('.pg-slot')];
-  const pgno=document.getElementById('pgno');
+  const pgno=document.getElementById('pgno'), scrub=document.getElementById('scrub');
   const bp=document.getElementById('mprev'), bn=document.getElementById('mnext');
+  const cast=document.getElementById('cast'), thumbs=document.getElementById('thumbs');
   const isPhone=matchMedia('(max-width:700px)');
-  let mode='', cur=0, sheets=[];
+  const NP={npages};
+  let mode='', cur=0, sheets=[], BW=0;
 
   function sizeBook(){{
-    const vw=Math.min(innerWidth-32,1180), vh=innerHeight-150;
+    const vw=Math.min(innerWidth-36,1180), vh=innerHeight-176;
     let pw=Math.min(vw/2, vh/1.4);
-    const ph=pw*1.4;
-    book.style.width=(pw*2)+'px'; book.style.height=ph+'px';
+    const ph=pw*1.4; BW=pw*2;
+    book.style.width=BW+'px'; book.style.height=ph+'px';
   }}
   function buildBook(){{
-    // pair the leaves into sheets: front = recto, back = the following verso
-    book.classList.add('bound');
-    sheets=[];
-    slots.forEach(s=>{{s.style.display='none';}});
+    sheets=[]; slots.forEach(s=>{{s.style.display='none';}});
     const N=Math.ceil(slots.length/2);
     for(let k=0;k<N;k++){{
       const sh=document.createElement('div'); sh.className='sheet';
       const f=document.createElement('div'); f.className='face pf';
       f.appendChild(slots[2*k].firstElementChild.cloneNode(true));
+      const fs=document.createElement('div'); fs.className='sh'; f.appendChild(fs);
       sh.appendChild(f);
       const b=document.createElement('div'); b.className='face pb';
       if(slots[2*k+1]) b.appendChild(slots[2*k+1].firstElementChild.cloneNode(true));
+      const bs=document.createElement('div'); bs.className='sh'; b.appendChild(bs);
       sh.appendChild(b);
-      sh.addEventListener('click',e=>{{if(!e.target.closest('a')) (sh.classList.contains('flip')?prev:next)();}});
       book.appendChild(sh); sheets.push(sh);
     }}
     paint();
@@ -2063,46 +2156,115 @@ html:not(.js) .pg{{position:relative}}
   function unbuild(){{
     sheets.forEach(s=>s.remove()); sheets=[];
     slots.forEach(s=>{{s.style.display='';}});
-    book.style.width='';book.style.height='';
-    book.classList.remove('bound');
+    book.style.width='';book.style.height='';wrap.style.transform='';
+  }}
+  function shades(sh,p){{
+    sh.querySelector('.pf .sh').style.opacity=(p*.75).toFixed(3);
+    sh.querySelector('.pb .sh').style.opacity=((1-p)*.75).toFixed(3);
   }}
   function paint(){{
     const N=sheets.length;
     sheets.forEach((s,i)=>{{
+      s.classList.remove('drag');
+      s.style.transform='';
       s.classList.toggle('flip',i<cur);
-      s.style.zIndex=i<cur? i+1 : N-i+N;
+      s.style.zIndex=i<cur? i+1 : 2*N-i;
+      shades(s, i<cur?1:0);
     }});
-    pgno.textContent=(cur===0?'cover':(cur===N?'back':(2*cur)+'–'+(2*cur+1)))+' / {len(pages)}';
+    cast.style.opacity=0;
+    wrap.style.transform=cur===0?'translateX('+(BW/4)+'px)':
+                         cur===N?'translateX(-'+(BW/4)+'px)':'';
+    document.querySelector('.edge.l').style.width=Math.min(12,cur*1.5)+'px';
+    document.querySelector('.edge.r').style.width=Math.min(12,(N-cur)*1.5)+'px';
+    pgno.textContent=(cur===0?'cover':(cur===N?'back':(2*cur)+'\\u2013'+(2*cur+1)))+' / '+NP;
     bp.disabled=cur===0; bn.disabled=cur===N;
+    scrub.max=N; scrub.value=cur;
   }}
-  function next(){{if(mode==='book'&&cur<sheets.length){{cur++;paint();}}
-    else if(mode==='deck')book.scrollBy({{left:book.clientWidth,behavior:'smooth'}});}}
-  function prev(){{if(mode==='book'&&cur>0){{cur--;paint();}}
-    else if(mode==='deck')book.scrollBy({{left:-book.clientWidth,behavior:'smooth'}});}}
+  function go(n){{
+    if(mode==='book'){{cur=Math.max(0,Math.min(sheets.length,n));paint();}}
+    else book.scrollTo({{left:n*book.clientWidth,behavior:'smooth'}});
+  }}
+  const next=()=>mode==='book'?go(cur+1):book.scrollBy({{left:book.clientWidth,behavior:'smooth'}});
+  const prev=()=>mode==='book'?go(cur-1):book.scrollBy({{left:-book.clientWidth,behavior:'smooth'}});
+
+  /* the turn that follows the finger */
+  let D=null;
+  book.addEventListener('pointerdown',e=>{{
+    if(mode!=='book'||e.target.closest('a')) return;
+    const r=book.getBoundingClientRect();
+    const x=e.clientX-r.left, fwd=x>r.width/2;
+    const idx=fwd?cur:cur-1;
+    if(idx<0||idx>=sheets.length) return;
+    D={{sh:sheets[idx],fwd,r,x0:e.clientX,t0:performance.now(),moved:false,p:fwd?0:1}};
+    D.sh.classList.add('drag');
+    D.sh.style.zIndex=99;
+    cast.className=fwd?'':'r'; 
+    e.preventDefault();
+  }});
+  addEventListener('pointermove',e=>{{
+    if(!D) return;
+    const x=e.clientX-D.r.left;
+    let p=1-(x/D.r.width);            /* 0 = flat right, 1 = flat left */
+    p=Math.max(0,Math.min(1,p*1.15));
+    if(Math.abs(e.clientX-D.x0)>4) D.moved=true;
+    D.p=p;
+    D.sh.style.transform='rotateY('+(-180*p)+'deg)';
+    shades(D.sh,p);
+    cast.style.opacity=(Math.sin(p*Math.PI)*.55).toFixed(3);
+  }});
+  addEventListener('pointerup',e=>{{
+    if(!D) return;
+    const {{sh,fwd,moved,p,t0,x0}}=D; D=null;
+    sh.classList.remove('drag');
+    const dx=e.clientX-x0, dt=Math.max(1,performance.now()-t0), v=dx/dt;
+    let turn;
+    if(!moved) turn=true;                       /* a clean click turns the page */
+    else if(fwd) turn=p>0.5||(v<-0.45&&dx<-60);  /* past half, or a real flick left */
+    else turn=p<0.5||(v>0.45&&dx>60);           /* back past half, or a real flick right */
+    if(fwd&&turn) cur=Math.min(sheets.length,cur+1);
+    if(!fwd&&turn) cur=Math.max(0,cur-1);
+    paint();
+  }});
+
+  function buildThumbs(){{
+    thumbs.innerHTML='';
+    slots.forEach((s,i)=>{{
+      const t=document.createElement('div'); t.className='th';
+      t.appendChild(s.firstElementChild.cloneNode(true));
+      const b=document.createElement('b'); b.textContent=i===0?'cover':i; t.appendChild(b);
+      t.addEventListener('click',()=>{{
+        thumbs.classList.remove('open');
+        mode==='book'?go(Math.ceil(i/2)):go(i);
+      }});
+      thumbs.appendChild(t);
+    }});
+  }}
+  document.getElementById('mthumbs').addEventListener('click',()=>thumbs.classList.toggle('open'));
+  document.addEventListener('click',e=>{{
+    if(!e.target.closest('#thumbs')&&!e.target.closest('#mthumbs')) thumbs.classList.remove('open');}});
+  document.getElementById('mfull').addEventListener('click',()=>{{
+    const el=document.documentElement;
+    if(document.fullscreenElement) (document.exitFullscreen||document.webkitExitFullscreen).call(document);
+    else (el.requestFullscreen||el.webkitRequestFullscreen||function(){{}}).call(el);
+  }});
+  scrub.addEventListener('input',()=>go(+scrub.value));
   function setMode(){{
     const want=isPhone.matches?'deck':'book';
     if(want===mode) return; mode=want;
     if(want==='book'){{sizeBook();buildBook();}}
-    else{{unbuild();pgno.textContent='swipe';}}
+    else{{unbuild();scrub.max=slots.length-1;pgno.textContent='1 / '+NP;}}
   }}
-  setMode();
+  setMode(); buildThumbs();
   isPhone.addEventListener?isPhone.addEventListener('change',setMode):isPhone.addListener(setMode);
-  addEventListener('resize',()=>{{if(mode==='book')sizeBook();}});
+  addEventListener('resize',()=>{{if(mode==='book'){{sizeBook();paint();}}}});
   bp.addEventListener('click',prev); bn.addEventListener('click',next);
   addEventListener('keydown',e=>{{
     if(e.key==='ArrowRight'||e.key==='PageDown')next();
     if(e.key==='ArrowLeft'||e.key==='PageUp')prev();}});
-  let sx=null;
-  book.addEventListener('pointerdown',e=>{{if(mode==='book')sx=e.clientX;}});
-  addEventListener('pointerup',e=>{{
-    if(mode!=='book'||sx===null)return;
-    const dx=e.clientX-sx; sx=null;
-    if(dx<-40)next(); else if(dx>40)prev();}});
-  if(mode==='deck'){{
-    book.addEventListener('scroll',()=>{{
-      const i=Math.round(book.scrollLeft/book.clientWidth);
-      pgno.textContent=(i+1)+' / {len(pages)}';}},{{passive:true}});
-  }}
+  book.addEventListener('scroll',()=>{{
+    if(mode!=='deck')return;
+    const i=Math.round(book.scrollLeft/book.clientWidth);
+    pgno.textContent=(i+1)+' / '+NP; scrub.value=i;}},{{passive:true}});
 }})();
 </script>
 </body></html>"""
