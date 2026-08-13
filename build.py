@@ -384,6 +384,7 @@ def omenu():
         <a href="natural-diamond-prices.html">The Natural Diamond Price List — Every Shape, Every Weight</a>
         <a href="lab-grown-diamond-prices.html">The Lab-Grown Diamond Price List — What a Made Diamond Costs</a>
         <a href="indices.html">The Carat Indices — The Trade, Marked to Market</a>
+        <a href="magazine.html">The Folio — The Week, Bound</a>
         <a href="index.html#tape-a">The Price Tape</a>
         <a href="about.html">About the Paper</a>
         <a href="about.html#standards">Editorial Standards</a>
@@ -1704,6 +1705,409 @@ def indices_page():
 {SCRIPT}"""
 
 
+# ---------------- THE FOLIO — the week, bound ----------------
+def _folio_issue():
+    """Compose this week's pages from the real archive. Returns (meta, pages) —
+    each page is a full HTML string designed for a 5:7 leaf."""
+    import datetime as _dt
+    today = max((a.get("date", "") for a in ARTICLES), default="")
+    t = _dt.date.fromisoformat(today)
+    wk_start = t - _dt.timedelta(days=6)
+    week = [a for a in ARTICLES if a.get("date", "") >= wk_start.isoformat()]
+    lead = next((a for a in week if a.get("lead")), week[0] if week else None)
+    rng = f"{wk_start.day} {wk_start.strftime('%b')} – {t.day} {t.strftime('%b %Y')}"
+    issue_no = "I"
+    edition = WIRE.get("edition", "")
+
+    def ph_of(a):
+        s = a["slug"] if a["slug"] in PH else DESK_HERO.get(a.get("desk", ""), "")
+        return (s, PH.get(s, {}).get("credit", "")) if s in PH else ("", "")
+
+    def folio(n, head_r):
+        return (f'<div class="folio"><span>{head_r}</span>'
+                f'<span>{n:02d}</span></div>')
+
+    def plate(img, credit, h="46%"):
+        if not img: return ""
+        cr = f'<span class="pcr">{credit}</span>' if credit else ""
+        return (f'<div class="plate" style="height:{h}">'
+                f'<img src="assets/ph/{img}.jpg" alt="" loading="lazy">{cr}</div>')
+
+    P = []
+
+    # 00 · cover
+    ci, ccr = ph_of(lead) if lead else ("", "")
+    P.append(f"""<div class="pg pg-cover">
+  <div class="cov-top"><svg viewBox="0 0 100 100" class="cmedal"><use href="#medal"/></svg>
+    <div class="cbrand">Carat<span>^</span>Capital</div></div>
+  <div class="cov-mast">The<br>Folio</div>
+  <div class="cov-iss">Issue {issue_no} &middot; {rng} &middot; the week, bound</div>
+  {plate(ci, ccr, "34%")}
+  <div class="cov-line">{H.escape(lead['title']) if lead else ''}</div>
+  <div class="cov-foot">The trade paper of the jewelry world &middot; caratcapital.org</div>
+</div>""")
+
+    # 01 · masthead + contents
+    desks_live = [(d, [a for a in week if a.get("desk") == d["slug"]]) for d in DESKS]
+    toc = "".join(
+        f'<div class="toc"><span class="tn">{7+i:02d}</span><b>{d["title"]}</b>'
+        f'<i></i><em>{(str(len(arts)) + " filed") if arts else "dark this week"}</em></div>'
+        for i, (d, arts) in enumerate(desks_live))
+    P.append(f"""<div class="pg">
+  <div class="mk">The Folio &middot; Issue {issue_no}</div>
+  <h2 class="ph2">In this issue</h2>
+  <div class="toc"><span class="tn">03</span><b>The week's lead</b><i></i><em>{H.escape((lead or {}).get('kicker',''))[:34]}</em></div>
+  <div class="toc"><span class="tn">05</span><b>The tape</b><i></i><em>the Carat indices</em></div>
+  {toc}
+  <div class="toc"><span class="tn">13</span><b>By the numbers</b><i></i><em>the week's marks</em></div>
+  <div class="mast-note">Bound weekly from the daily editions of Carat Capital.
+    Every claim in these pages was priced, sourced, or cut before it ran.
+    {edition and 'This issue closes with ' + H.escape(edition) + '.'}</div>
+  {folio(1, 'The Folio')}
+</div>""")
+
+    # 02 · house plate — the Morning Brief
+    P.append(f"""<div class="pg pg-ad">
+  <div class="adk">A word from the house</div>
+  <div class="adbig">Six desks read the trade press in nine languages<br>
+    <em>so you can read one page.</em></div>
+  <div class="adcta">The Morning Brief &middot; free &middot;
+    <a href="/#brief">sign on at caratcapital.org</a></div>
+  <div class="adfoot">No hype words &middot; no exclamation marks &middot; unsubscribe in one click</div>
+  {folio(2, 'The house')}
+</div>""")
+
+    # 03-04 · the lead spread
+    li, lcr = ph_of(lead) if lead else ("", "")
+    P.append(f"""<div class="pg pg-plate">
+  {plate(li, lcr, "100%")}
+</div>""")
+    P.append(f"""<div class="pg">
+  <div class="mk">{H.escape((lead or {}).get('kicker', 'The lead'))}</div>
+  <h2 class="ph1">{H.escape((lead or {}).get('title', ''))}</h2>
+  <p class="pdek">{H.escape((lead or {}).get('dek', ''))}</p>
+  <p class="pbody">{H.escape(((lead or {}).get('body') or [''])[0][:420])}&hellip;</p>
+  <div class="pby">{H.escape((lead or {}).get('byline', 'The desk'))} &middot; {(lead or {}).get('minutes', 5)} min &middot;
+    <a href="a-{(lead or {}).get('slug', '')}.html">read the story in full &rarr;</a></div>
+  {folio(4, 'The lead')}
+</div>""")
+
+    # 05-06 · the tape spread: the Carat indices
+    if IDX:
+        chart = _idx_chart(
+            [(k, IDX_HUE[k], IDX["indices"][k]["series"], False) for k in
+             ("CC20", "CC-M", "CC-C", "CC-P", "CC-W")],
+            W=560, Hh=560, pad_l=40, pad_r=86, pad_t=14, pad_b=26)
+        P.append(f"""<div class="pg">
+  <div class="mk">The tape</div>
+  <h2 class="ph2">The Carat indices</h2>
+  <p class="pdek" style="margin-bottom:12px">Five indices this paper computes itself —
+    the listed jewelry world rebased to 100 at the year's first trading day.</p>
+  <div style="border:1px solid var(--pline);padding:8px 4px">{chart}</div>
+  {folio(6, 'The tape')}
+</div>""")
+        rows = "".join(
+            f'<div class="ixr"><span class="c" style="color:{IDX_HUE[k]}">{k}</span>'
+            f'<b>{IDX["indices"][k]["name"]}</b>'
+            f'<span class="v">{IDX["indices"][k]["level"]:,.1f}</span>'
+            f'<span class="y {"up" if IDX["indices"][k]["ytdp"]>0 else "dn"}">{IDX["indices"][k]["ytdp"]:+.1f}%</span></div>'
+            for k in ("CC20", "CC-M", "CC-C", "CC-P", "CC-W"))
+        cons = sorted(IDX["constituents"], key=lambda c: -(c["ytdp"] or -999))
+        hi, lo = cons[0], cons[-1]
+        P.append(f"""<div class="pg">
+  <div class="mk">Marked to market &middot; {IDX['as_of']}</div>
+  <h2 class="ph2">The year so far</h2>
+  {rows}
+  <div class="bignum"><b>{IDX['metal_gap']:+.1f} pts</b><span>the metal gap — gold against the makers, YTD</span></div>
+  <div class="pnote">Best name of the year: {H.escape(hi['name'])} {hi['ytdp']:+.1f}%.
+    Hardest fall: {H.escape(lo['name'])} {lo['ytdp']:+.1f}%. Breadth: {IDX['breadth50']}% of the
+    Twenty above their 50-day mean. Full charts, spreads and method at
+    <a href="indices.html">the Index Desk</a>.</div>
+  {folio(6, 'The tape')}
+</div>""")
+
+    # 07-12 · six desk leaves
+    for i, (d, arts) in enumerate(desks_live):
+        img = DESK_HERO.get(d["slug"], "")
+        cr = PH.get(img, {}).get("credit", "") if img in PH else ""
+        if arts:
+            top = arts[:3]
+            items = "".join(
+                f'<div class="dst"><h3><a href="a-{a["slug"]}.html">{H.escape(a["title"])}</a></h3>'
+                f'<p>{H.escape((a.get("dek") or "")[:150])}</p></div>' for a in top)
+            body = items + (f'<div class="pnote">{len(arts)} stories filed this week &middot; '
+                            f'<a href="{d["slug"]}.html">open the desk &rarr;</a></div>')
+        else:
+            body = ('<div class="dark-desk">The desk filed nothing this week. Its sources '
+                    'went quiet, and this paper does not fill quiet weeks — '
+                    'the next print carries the desk’s return.</div>')
+        P.append(f"""<div class="pg">
+  <div class="mk">D&mdash;{d['no']} &middot; {H.escape(d['tag'])}</div>
+  <h2 class="ph2">{H.escape(d['title'])}</h2>
+  {plate(img, cr, "24%")}
+  {body}
+  {folio(7+i, d['title'])}
+</div>""")
+
+    # 13 · by the numbers
+    nums = []
+    for d in DESKS:
+        st = (d.get("stats") or [])
+        if st: nums.append((st[0][0], f"{d['title']} — {st[0][1]}"))
+    nums = "".join(f'<div class="bn"><b>{H.escape(v)}</b><span>{H.escape(k)}</span></div>'
+                   for v, k in nums[:6])
+    P.append(f"""<div class="pg">
+  <div class="mk">The week's marks</div>
+  <h2 class="ph2">By the numbers</h2>
+  <div class="bngrid">{nums}</div>
+  <div class="pnote">Each figure carries its desk's sourcing on the site — nothing here
+    is estimated, and what could not be verified was carried &ldquo;unch.&rdquo;</div>
+  {folio(13, 'The marks')}
+</div>""")
+
+    # 14 · the trade's plate (open seat) — the open seat
+    P.append(f"""<div class="pg pg-ad">
+  <div class="adk">The open seat</div>
+  <div class="adbig">Your maison,<br>on this page.</div>
+  <div class="adcta" style="max-width:30ch">The Folio binds the week for the people who
+    price it. One plate an issue is kept for a house the desk would stand behind.</div>
+  <div class="adfoot"><a href="about.html#contact">Write to the desk &rarr;</a></div>
+  {folio(14, 'The open seat')}
+</div>""")
+
+    # 15 · back cover
+    P.append(f"""<div class="pg pg-cover pg-back">
+  <svg viewBox="0 0 100 100" class="cmedal big"><use href="#medal"/></svg>
+  <div class="cov-mast" style="font-size:34px">Clarity, daily.</div>
+  <div class="cov-foot">Carat Capital &middot; est. MMXXVI &middot; free to read &middot; caratcapital.org</div>
+</div>""")
+
+    return dict(no=issue_no, rng=rng, pages=len(P)), P
+
+
+def magazine_page():
+    meta, pages = _folio_issue()
+    leaves = "".join(f'<div class="pg-slot">{p}</div>' for p in pages)
+    return f"""{head("The Folio — the week, bound — Carat Capital",
+      "Carat Capital's weekly digital magazine: the week's editions bound into a page-turning issue.",
+      "magazine.html")}
+<style>
+:root{{--pink:#16130E;--pink2:#3B362C;--pink3:#8A8272;--pgilt:#96762E;--pseal:#BE3319;
+  --paper:#F6F1E6;--paper2:#EFE8D8;--pline:rgba(59,54,44,.22);
+  --pd:'Instrument Sans',sans-serif;--pt:'Lora',Georgia,serif;--pm:'IBM Plex Mono',monospace}}
+html,body{{background:#141310;overflow-x:clip}}
+body{{margin:0;color:var(--pink);font-family:var(--pt)}}
+.mgbar{{position:fixed;left:0;right:0;top:0;z-index:40;display:flex;justify-content:space-between;
+  align-items:center;gap:14px;padding:calc(env(safe-area-inset-top,0px) + 12px) 18px 12px;
+  font-family:var(--pm);font-size:9.5px;letter-spacing:.2em;text-transform:uppercase;color:#B9AE96;
+  background:linear-gradient(180deg,#141310 60%,transparent)}}
+.mgbar a{{color:#B9AE96;text-decoration:none}}
+.mgbar a:hover{{color:#F6F1E6}}
+.mgbar .t{{color:#E8CB7C;letter-spacing:.3em}}
+.stage{{min-height:100dvh;display:flex;flex-direction:column;align-items:center;justify-content:center;
+  padding:calc(env(safe-area-inset-top,0px) + 58px) 16px 74px}}
+#book{{position:relative;perspective:2800px}}
+.sheet{{position:absolute;top:0;right:0;width:50%;height:100%;transform-origin:left center;
+  transform-style:preserve-3d;transition:transform .95s cubic-bezier(.16,.9,.24,1)}}
+.sheet.flip{{transform:rotateY(-180deg)}}
+.face{{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;
+  overflow:hidden;background:var(--paper)}}
+.face.pb{{transform:rotateY(180deg)}}
+.face.pf::before{{content:"";position:absolute;inset:0;z-index:5;pointer-events:none;
+  background:linear-gradient(90deg,rgba(59,54,44,.18),transparent 7%)}}
+.face.pb::before{{content:"";position:absolute;inset:0;z-index:5;pointer-events:none;
+  background:linear-gradient(-90deg,rgba(59,54,44,.18),transparent 7%)}}
+.pg{{position:absolute;inset:0;padding:7.2% 8%;display:flex;flex-direction:column;font-size:13px;line-height:1.55}}
+.pg-slot{{display:contents}}
+.mk{{font-family:var(--pm);font-size:8px;letter-spacing:.26em;text-transform:uppercase;
+  color:var(--pgilt);margin-bottom:10px}}
+.ph1{{font-family:var(--pd);font-weight:700;font-size:24px;line-height:1.12;letter-spacing:-.02em;margin:0 0 10px}}
+.ph2{{font-family:var(--pd);font-weight:700;font-size:21px;line-height:1.1;letter-spacing:-.02em;margin:0 0 12px}}
+.pdek{{font-size:13.5px;color:var(--pink2);margin:0 0 10px}}
+.pbody{{font-size:12.5px;color:var(--pink2);margin:0}}
+.pby{{font-family:var(--pm);font-size:8.5px;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--pink3);margin-top:auto;padding-top:12px}}
+.pby a,.pnote a{{color:var(--pseal);text-decoration:none}}
+.plate{{position:relative;margin:0 0 12px;overflow:hidden;background:var(--paper2)}}
+.plate img{{width:100%;height:100%;object-fit:cover;display:block;filter:saturate(.8)}}
+.pcr{{position:absolute;right:6px;bottom:5px;font-family:var(--pm);font-size:5.5px;
+  letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.75);
+  text-shadow:0 1px 3px rgba(0,0,0,.6)}}
+.pg-plate{{padding:0}}
+.pg-plate .plate{{margin:0;height:100%!important}}
+.folio{{margin-top:auto;padding-top:10px;display:flex;justify-content:space-between;
+  font-family:var(--pm);font-size:7.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--pink3)}}
+.toc{{display:flex;align-items:baseline;gap:9px;padding:7px 0;border-bottom:1px solid var(--pline)}}
+.toc .tn{{font-family:var(--pm);font-size:8.5px;color:var(--pgilt)}}
+.toc b{{font-family:var(--pd);font-weight:600;font-size:13px}}
+.toc i{{flex:1;border-bottom:1px dotted var(--pline)}}
+.toc em{{font-style:normal;font-family:var(--pm);font-size:7.5px;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--pink3)}}
+.mast-note{{margin-top:16px;font-size:11px;color:var(--pink3);line-height:1.6}}
+.ixr{{display:flex;align-items:baseline;gap:9px;padding:8px 0;border-bottom:1px solid var(--pline);
+  font-family:var(--pm)}}
+.ixr .c{{font-size:8.5px;letter-spacing:.16em}}
+.ixr b{{font-family:var(--pd);font-size:13px;flex:1}}
+.ixr .v{{font-size:12px}}
+.ixr .y{{font-size:10px;width:56px;text-align:right}}
+.ixr .up{{color:#1E7D46}}.ixr .dn{{color:#A33B25}}
+.bignum{{margin:16px 0 10px}}
+.bignum b{{display:block;font-family:var(--pm);font-size:30px;font-weight:500;letter-spacing:-.02em;color:var(--pseal)}}
+.bignum span{{font-family:var(--pm);font-size:7.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--pink3)}}
+.pnote{{font-size:11px;color:var(--pink3);line-height:1.6;margin-top:10px}}
+.dst{{padding:9px 0;border-bottom:1px solid var(--pline)}}
+.dst h3{{font-family:var(--pd);font-weight:700;font-size:14px;line-height:1.2;margin:0 0 4px}}
+.dst h3 a{{color:var(--pink);text-decoration:none}}
+.dst p{{font-size:11.5px;color:var(--pink2);margin:0}}
+.dark-desk{{margin:auto 0;font-size:13px;color:var(--pink3);font-style:italic;line-height:1.7;
+  border-left:2px solid var(--pline);padding-left:14px}}
+.bngrid{{display:grid;grid-template-columns:1fr 1fr;gap:14px 12px;margin-top:6px}}
+.bn b{{display:block;font-family:var(--pm);font-size:19px;font-weight:500;letter-spacing:-.02em}}
+.bn span{{font-family:var(--pm);font-size:6.5px;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--pink3);line-height:1.6;display:block;margin-top:3px}}
+.pg-cover{{background:linear-gradient(165deg,#191612,#0E0C09);color:#F0E8D6;justify-content:flex-start}}
+.cov-top{{display:flex;align-items:center;gap:9px}}
+.cmedal{{width:26px;height:26px;color:#C6A24A}}
+.cmedal.big{{width:64px;height:64px;margin:auto auto 18px}}
+.cbrand{{font-family:var(--pd);font-weight:700;font-size:10.5px;letter-spacing:.24em;text-transform:uppercase}}
+.cbrand span{{color:#BE3319}}
+.cov-mast{{font-family:var(--pd);font-weight:700;font-size:64px;line-height:.92;letter-spacing:-.03em;
+  margin:26px 0 8px}}
+.cov-iss{{font-family:var(--pm);font-size:7.5px;letter-spacing:.26em;text-transform:uppercase;
+  color:#C6A24A;margin-bottom:16px}}
+.cov-line{{font-family:var(--pd);font-weight:700;font-size:17px;line-height:1.25;letter-spacing:-.01em;
+  margin-top:14px}}
+.cov-foot{{margin-top:auto;font-family:var(--pm);font-size:7px;letter-spacing:.22em;
+  text-transform:uppercase;color:#8A8272}}
+.pg-back{{text-align:center;justify-content:center}}
+.pg-ad{{background:var(--paper2);justify-content:center;text-align:center}}
+.adk{{font-family:var(--pm);font-size:7.5px;letter-spacing:.3em;text-transform:uppercase;color:var(--pgilt);margin-bottom:18px}}
+.adbig{{font-family:var(--pd);font-weight:700;font-size:24px;line-height:1.2;letter-spacing:-.02em}}
+.adbig em{{font-style:italic;font-family:var(--pt);font-weight:400}}
+.adcta{{margin:18px auto 0;font-size:12.5px;color:var(--pink2)}}
+.adcta a,.adfoot a{{color:var(--pseal);text-decoration:none}}
+.adfoot{{margin-top:14px;font-family:var(--pm);font-size:7px;letter-spacing:.18em;
+  text-transform:uppercase;color:var(--pink3)}}
+.mgnav{{position:fixed;left:0;right:0;bottom:0;z-index:40;display:flex;justify-content:center;
+  align-items:center;gap:18px;padding:12px 16px calc(env(safe-area-inset-bottom,0px) + 12px);
+  font-family:var(--pm);font-size:9px;letter-spacing:.2em;text-transform:uppercase;color:#B9AE96;
+  background:linear-gradient(0deg,#141310 55%,transparent)}}
+.mgnav button{{font:inherit;color:#E8CB7C;background:none;border:1px solid rgba(198,162,74,.35);
+  border-radius:999px;padding:8px 16px;cursor:pointer;letter-spacing:.2em;text-transform:uppercase}}
+.mgnav button:hover{{background:rgba(198,162,74,.14)}}
+.mgnav button[disabled]{{opacity:.3;cursor:default}}
+/* phone: the same leaves as a swipe deck */
+@media(max-width:700px){{
+  #book{{perspective:none;display:flex;overflow-x:auto;scroll-snap-type:x mandatory;
+    scrollbar-width:none;gap:12px}}
+  #book::-webkit-scrollbar{{display:none}}
+  .pg-slot{{display:block;flex:none;width:100%;scroll-snap-align:center;position:relative;
+    background:var(--paper);box-shadow:0 18px 50px -28px rgba(0,0,0,.9)}}
+  .pg{{position:relative}}
+}}
+@media(prefers-reduced-motion:reduce){{.sheet{{transition:none}}}}
+html:not(.js) #book{{display:flex;flex-direction:column;gap:16px}}
+html:not(.js) .pg-slot{{position:relative;background:var(--paper)}}
+html:not(.js) .pg{{position:relative}}
+</style>
+<script>document.documentElement.classList.add('js')</script>
+
+<div class="mgbar">
+  <a href="index.html">&larr; The paper</a>
+  <span class="t">The Folio &middot; Issue {meta['no']}</span>
+  <span id="pgno">&nbsp;</span>
+</div>
+
+<div class="stage"><div id="book">{leaves}</div></div>
+
+<div class="mgnav">
+  <button id="mprev" aria-label="Previous page">&larr; Prev</button>
+  <span id="mhint">tap a page edge, swipe, or use arrow keys</span>
+  <button id="mnext" aria-label="Next page">Next &rarr;</button>
+</div>
+
+<script>
+(function(){{
+  const book=document.getElementById('book');
+  const slots=[...book.querySelectorAll('.pg-slot')];
+  const pgno=document.getElementById('pgno');
+  const bp=document.getElementById('mprev'), bn=document.getElementById('mnext');
+  const isPhone=matchMedia('(max-width:700px)');
+  let mode='', cur=0, sheets=[];
+
+  function sizeBook(){{
+    const vw=Math.min(innerWidth-32,1180), vh=innerHeight-150;
+    let pw=Math.min(vw/2, vh/1.4);
+    const ph=pw*1.4;
+    book.style.width=(pw*2)+'px'; book.style.height=ph+'px';
+  }}
+  function buildBook(){{
+    // pair the leaves into sheets: front = recto, back = the following verso
+    book.classList.add('bound');
+    sheets=[];
+    slots.forEach(s=>{{s.style.display='none';}});
+    const N=Math.ceil(slots.length/2);
+    for(let k=0;k<N;k++){{
+      const sh=document.createElement('div'); sh.className='sheet';
+      const f=document.createElement('div'); f.className='face pf';
+      f.appendChild(slots[2*k].firstElementChild.cloneNode(true));
+      sh.appendChild(f);
+      const b=document.createElement('div'); b.className='face pb';
+      if(slots[2*k+1]) b.appendChild(slots[2*k+1].firstElementChild.cloneNode(true));
+      sh.appendChild(b);
+      sh.addEventListener('click',e=>{{if(!e.target.closest('a')) (sh.classList.contains('flip')?prev:next)();}});
+      book.appendChild(sh); sheets.push(sh);
+    }}
+    paint();
+  }}
+  function unbuild(){{
+    sheets.forEach(s=>s.remove()); sheets=[];
+    slots.forEach(s=>{{s.style.display='';}});
+    book.style.width='';book.style.height='';
+    book.classList.remove('bound');
+  }}
+  function paint(){{
+    const N=sheets.length;
+    sheets.forEach((s,i)=>{{
+      s.classList.toggle('flip',i<cur);
+      s.style.zIndex=i<cur? i+1 : N-i+N;
+    }});
+    pgno.textContent=(cur===0?'cover':(cur===N?'back':(2*cur)+'–'+(2*cur+1)))+' / {len(pages)}';
+    bp.disabled=cur===0; bn.disabled=cur===N;
+  }}
+  function next(){{if(mode==='book'&&cur<sheets.length){{cur++;paint();}}
+    else if(mode==='deck')book.scrollBy({{left:book.clientWidth,behavior:'smooth'}});}}
+  function prev(){{if(mode==='book'&&cur>0){{cur--;paint();}}
+    else if(mode==='deck')book.scrollBy({{left:-book.clientWidth,behavior:'smooth'}});}}
+  function setMode(){{
+    const want=isPhone.matches?'deck':'book';
+    if(want===mode) return; mode=want;
+    if(want==='book'){{sizeBook();buildBook();}}
+    else{{unbuild();pgno.textContent='swipe';}}
+  }}
+  setMode();
+  isPhone.addEventListener?isPhone.addEventListener('change',setMode):isPhone.addListener(setMode);
+  addEventListener('resize',()=>{{if(mode==='book')sizeBook();}});
+  bp.addEventListener('click',prev); bn.addEventListener('click',next);
+  addEventListener('keydown',e=>{{
+    if(e.key==='ArrowRight'||e.key==='PageDown')next();
+    if(e.key==='ArrowLeft'||e.key==='PageUp')prev();}});
+  let sx=null;
+  book.addEventListener('pointerdown',e=>{{if(mode==='book')sx=e.clientX;}});
+  addEventListener('pointerup',e=>{{
+    if(mode!=='book'||sx===null)return;
+    const dx=e.clientX-sx; sx=null;
+    if(dx<-40)next(); else if(dx>40)prev();}});
+  if(mode==='deck'){{
+    book.addEventListener('scroll',()=>{{
+      const i=Math.round(book.scrollLeft/book.clientWidth);
+      pgno.textContent=(i+1)+' / {len(pages)}';}},{{passive:true}});
+  }}
+}})();
+</script>
+</body></html>"""
+
+
 # ---------------- DESK PAGES ----------------
 def desk_page(d):
     briefs = "".join(f"""<div class="brf rv">
@@ -2392,13 +2796,14 @@ for a in ARTICLES:
 (out/"natural-diamond-prices.html").write_text(prices_page())
 (out/"lab-grown-diamond-prices.html").write_text(lab_prices_page())
 (out/"indices.html").write_text(indices_page())
+(out/"magazine.html").write_text(magazine_page())
 for _f in out.glob("*.html"):
     _f.write_text(_clean_links(_f.read_text()))
 (out/"assets"/"favicon.svg").write_text(FAVICON)
 (out/"assets"/"logo-mark.svg").write_text(logo_mark_svg())
 (out/"feed.xml").write_text(rss_feed())
 (out/"llms.txt").write_text(llms_txt())
-pages = ["index.html", "field-guide.html", "about.html", "the-record.html", "almanac.html", "natural-diamond-prices.html", "lab-grown-diamond-prices.html", "indices.html"] + [f"{d['slug']}.html" for d in DESKS] + [f"a-{a['slug']}.html" for a in ARTICLES]
+pages = ["index.html", "field-guide.html", "about.html", "the-record.html", "almanac.html", "natural-diamond-prices.html", "lab-grown-diamond-prices.html", "indices.html", "magazine.html"] + [f"{d['slug']}.html" for d in DESKS] + [f"a-{a['slug']}.html" for a in ARTICLES]
 (out/"sitemap.xml").write_text(sitemap(pages))
 (out/"robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {BASE_URL}/sitemap.xml\n")
 print("built:", ", ".join(pages), "+ sitemap, robots, favicon")
