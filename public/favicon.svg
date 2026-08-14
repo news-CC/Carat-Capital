@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Salon Malone">
+  <rect width="32" height="32" rx="7" fill="#17150F"/>
+  <!-- serif M drawn as paths so the mark never depends on a system font -->
+  <path d="M6.5 23V9h3.6l5.9 9.1L21.9 9h3.6v14h-3V14.2L16.8 23h-2.6L9.5 14.2V23z" fill="#B0803C"/>
+  <rect x="6.5" y="25" width="19" height="1" fill="#F6EEE1"/>
+</svg>

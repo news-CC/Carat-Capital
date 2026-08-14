@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Salon Malone — Your dead client list is buried money.">
+  <defs>
+    <linearGradient id="wash" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FAF7F1"/>
+      <stop offset="1" stop-color="#F1EBE1"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#wash)"/>
+  <rect x="40" y="40" width="1120" height="550" fill="none" stroke="#E4DCCF" stroke-width="1"/>
+
+  <g font-family="Inter, Helvetica, Arial, sans-serif">
+    <text x="88" y="122" fill="#8A6229" font-size="19" font-weight="600" letter-spacing="3.4">
+      STARTUP25.COM
+    </text>
+  </g>
+
+  <g font-family="Fraunces, Georgia, 'Times New Roman', serif" fill="#17150F" font-size="94" font-weight="500" letter-spacing="-2">
+    <text x="88" y="286">Your dead client list</text>
+    <text x="88" y="386">is buried money.</text>
+  </g>
+
+  <rect x="88" y="436" width="96" height="2" fill="#B0803C"/>
+
+  <g font-family="Inter, Helvetica, Arial, sans-serif" fill="#57503F" font-size="27">
+    <text x="88" y="494">Salon Malone calls the clients who stopped coming, books them</text>
+    <text x="88" y="532">back into empty chairs, and emails you the moment one lands.</text>
+  </g>
+
+  <g font-family="Inter, Helvetica, Arial, sans-serif" fill="#8A8172" font-size="19" letter-spacing="1.2">
+    <text x="88" y="576">Consent-gated · one call per person · opt-out honoured instantly</text>
+  </g>
+
+  <g transform="translate(1010 88)">
+    <rect width="102" height="102" rx="22" fill="#17150F"/>
+    <path d="M20.7 73.2V28.7h11.5l18.8 29 18.8-29h11.5v44.5h-9.6V45.3L53.6 73.2h-8.3L26.8 45.3v27.9z" fill="#B0803C"/>
+  </g>
+</svg>

@@ -1,0 +1,251 @@
+name,phone,email,consent,last_visit,lifetime_value
+Winston Thibodeaux,+1 617 555 0172,winston.thibodeaux@example.com,Y,2024/08/08,$916
+Ozzie Sandoval,+1 212 555 0128,ozzie.sandoval59@example.com,yes,2025-10-18,"$3,207"
+Sloane Brightwater,1-312-555-0196,sloane.brightwater@example.com,1,2025-09-24,"$3,284.76"
+Nadia Farrow,2125550131,nadia.farrow83@example.com,TRUE,2024-07-28,$251
+Silas Dupree,1-786-555-0106,silas.dupree@example.com,yes,,553.1
+Lucinda Kirkbride,1-305-555-0129,lucinda.kirkbride@example.com,1,21 Aug 2024,"1,784"
+Marguerite Bellweather,(512) 555-0158,marguerite.bellweather@example.com,1,05/26/25,"$1,059"
+Devon Ashgrove,+1 702 555 0168,devon.ashgrove82@example.com,Y,2024/06/07,2557.5
+Reggie Okonjo,1-617-555-0191,reggie.okonjo83@example.com,Yes,2024-05-29,
+Cleo Beaumont,213-555-0128,cleo.beaumont@example.com,granted,2025-02-19,281.9
+Hollis A. Rosenblum,415.555.0136,,yes,2025/09/06,2321.4
+Rashida Kirkbride,6175550185,rashida.kirkbride6@example.com,Y,2025/05/20,"1,697"
+Junie Solano,(305) 555-0137,junie.solano@example.com,true,18 Oct 2024,0
+Reggie Abernathy,1-617-555-0134,reggie.abernathy23@example.com,opt_in,12/04/2024,$142
+Ozzie Fontaine,213-555-0133,,0,05/01/24,"$3,156.00"
+Ezra Thibodeaux,  (305) 555-0184 ,ezra.thibodeaux@example.com,1,2024/06/26,0
+Bo Dupree,1-512-555-0187,bo.dupree@example.com,opt_in,,"1,417"
+Marcus Yildirim,  (617) 555-0112 ,marcus.yildirim@example.com,TRUE,05/13/25,"$2,489.24"
+Trey Fairweather,415-555-0181,trey.fairweather@example.com,y,2024/10/18,0
+Isadora Prewitt,555-0142,isadora.prewitt95@example.com,Yes,2025/01/14,3937.1
+Malachi Larkspur,(212) 555-0174,malachi.larkspur53@example.com,N,,"1,421"
+Hollis Rosenblum,4155550136,hollis.rosenblum@example.com,granted,26 Jul 2024,
+Amara Larkspur,(213) 555-0172,amara.larkspur@example.com,opted_in,2025-10-10,129.7
+Bo Fontaine,404-555-0164,bo.fontaine@example.com,granted,03/01/2024,"$3,086"
+Neveah Kirkbride,212.555.0115,neveah.kirkbride6@example.com,t,,985.9
+Marisol Ravensworth,2135550110,marisol.ravensworth@example.com,consented,,3227.9
+Bo Cavanaugh,  (312) 555-0104 ,bo.cavanaugh@example.com,unknown,4 May 2024,"3,969"
+Kwame Mwangi,+1 415 555 0146,vaughn.colefax90@example.com,yes,10/09/2025,"$2,740"
+Sloane Okonjo,+1 213 555 0107,sloane.okonjo@example.com,y,25 Dec 2024,"$2,417"
+Elias Haverford,(312) 555-0168,elias.haverford38@example.com,Yes,2025/04/03,"2,729"
+Ezra Ashgrove,213.555.0141,ezra.ashgrove@example.com,t,"Dec 4, 2024",$307.85
+Omar Zamora,7865550160,omar.zamora36@example.com,t,,0
+Wendell Nakamura,+1 305 555 0168,wendell.nakamura@example.com,yes,2025-05-27,"$2,801.18"
+Priya Delacroix,  (617) 555-0190 ,,Y,16 Sep 2024,"3,167"
+Rosalind Bergström,  (702) 555-0143 ,rosalind.bergstrom@example.com,yes,2025/07/22,
+Fitz Nwachukwu,+1 312 555 0197,,t,,3310.2
+Dana Boateng,(617) 555-0140,,Yes,21 Feb 2025,2566.7
+Wendell Cavanaugh,(512) 555-0147,wendell.cavanaugh@example.com,No,03/07/2024,2590.2
+Verity Ivanković,  (212) 555-0119 ,verity.ivankovic@example.com,opted_in,"Feb 14, 2024","$2,617.43"
+Delphine Ravensworth,  (404) 555-0152 ,delphine.ravensworth@example.com,no,"Jun 10, 2025","$3,610.86"
+Otis Brightwater,(305) 555-0161,otis.brightwater31@example.com,1,06/24/2024,"1,684"
+Winston Rosenblum,212-555-0121,winston.rosenblum@example.com,consented,"Mar 30, 2024","$4,157.42"
+Dana Prewitt,512-555-0108,dana.prewitt@example.com,unknown,06/14/25,95.7
+Malachi Haverford,305-555-0131,malachi.haverford@example.com,no,,"3,397"
+Verity Kirkbride,3125550123,,opt_in,,545.1
+Ignacio Farrow,213-555-0145,ignacio.farrow@example.com,N,09/07/2025,0
+Fitz Marchetti,1-212-555-0129,fitz.marchetti@example.com,1,06/17/24,
+Perpetua Delacroix,786-555-0130,perpetua.delacroix@example.com,TRUE,10/23/2025,141
+Marisol Mendelsohn,(015) 555-0133,marisol.mendelsohn40@example.com,opt_in,6 Jul 2025,
+Cyrus Nwachukwu,213-555-0178,cyrus.nwachukwu@example.com,granted,2024/05/29,"$1,616"
+Sloane Bellweather,404-555-0150,sloane.bellweather@example.com,Yes,,$154
+Perpetua Cavanaugh,  (512) 555-0153 ,,opted_in,"Nov 18, 2024",
+Kwame Okafor,213.555.0101,kwame.okafor@example.com,Yes,30 Jul 2025,0
+Dana Petrakis,512-555-0190,dana.petrakis@example.com,Yes,11/19/25,0
+Ozzie Whitlock,+1 786 555 0199,ozzie.whitlock@example.com,,5 Apr 2024,
+Ozzie Osei,404.555.0131,ozzie.osei@example.com,1,01/14/25,"$2,529"
+Sloane Solano,404.555.0102,sloane.solano@example.com,true,21 Mar 2025,"$3,575.91"
+Winston Larkspur,(415) 555-0131,winston.larkspur93@example.com,TRUE,2024/02/13,0
+Tessa Beaumont,1-786-555-0131,tessa.beaumont@example.com,consented,2025-10-14,
+Malachi Cavanaugh,1-212-555-0103,malachi.cavanaugh@example.com,TRUE,1 Sep 2024,"$2,247.33"
+Ezra Delacroix,(512) 555-0194,ezra.delacroix53@example.com,FALSE,,0
+Camille Ashgrove,7025550112,camille.ashgrove@example.com,TRUE,06/13/25,0
+Ignacio Winterbourne,415-555-0170,ignacio.winterbourne@example.com,1,04/20/25,$321.25
+Cleo Okafor,  (404) 555-0146 ,cleo.okafor@example.com,t,2024-08-04,2781.3
+Odette Okafor,+1 512 555 0142,odette.okafor33@example.com,Yes,2025-04-22,660
+Simone Haverford,2135550191,simone.haverford@example.com,unknown,,$861.04
+Curtis Zamora,415-555-0129,curtis.zamora20@example.com,1,12/10/24,$104
+Ezra Quillen,  (213) 555-0176 ,ezra.quillen@example.com,Yes,"Nov 12, 2025",$927
+Sunniva Ivanković,212.555.0177,,opt_in,11 Jan 2025,0
+Vaughn Brightwater,3125550152,vaughn.brightwater@example.com,y,2025/10/16,"3,193"
+Cyrus Mendelsohn,305.555.0143,cyrus.mendelsohn@example.com,N,2024/08/10,"4,049"
+Thandiwe Delacroix,+1 786 555 0193,thandiwe.delacroix50@example.com,Y,,
+Zelda Okonjo,1-212-555-0155,zelda.okonjo@example.com,,11/06/25,3659.3
+Lark Winterbourne,  (617) 555-0153 ,lark.winterbourne@example.com,yes,,"$3,529.02"
+Neveah Dupree,1-786-555-0108,neveah.dupree@example.com,TRUE,2024-10-29,4100.9
+Reggie Fairweather,1-702-555-0150,reggie.fairweather89@example.com,consented,,509
+Gil Farrow,3055550142,gil.farrow@example.com,t,05/20/25,0
+Cleo Ferrante,+1 305 555 0178,cleo.ferrante@example.com,Y,02/26/25,
+Reggie Bergström,(512) 555-0106,reggie.bergstrom@example.com,TRUE,2025-08-03,$46.16
+Malachi Prewitt,+1 312 555 0108,malachi.prewitt@example.com,granted,2024-08-10,886
+Rosalind Delacroix,212.555.0133,rosalind.delacroix@example.com,granted,03/23/25,2259.0
+Lucinda Sandoval,+1 212 555 0149,lucinda.sandoval@example.com,Yes,"Feb 10, 2025","$1,941"
+Roscoe Vandermeer,+1 786 555 0129,roscoe.vandermeer@example.com,opted_in,2024-06-25,"3,373"
+Yolanda Prewitt,(617) 555-0126,yolanda.prewitt84@example.com,Yes,01/22/25,
+Zelda Brightwater,  (212) 555-0188 ,zelda.brightwater@example.com,opted_in,2024-05-17,3535.0
+Tessa Kowalczyk,512-555-0126,tessa.kowalczyk@example.com,y,2025/02/12,"3,036"
+Camille Ravensworth,404-555-0188,camille.ravensworth@example.com,No,07/31/25,0
+Elias Sandoval,1-512-555-0173,elias.sandoval@example.com,t,25 Apr 2024,2104.3
+Vaughn Boateng,786.555.0197,vaughn.boateng@example.com,yes,2024-04-20,"$3,420"
+Delphine Dupree,1-512-555-0184,delphine.dupree@example.com,Y,,"$2,187"
+Ozzie Fontaine,6175550138,ozzie.fontaine@example.com,t,2025/04/04,972
+Hollis Whitlock,+1 312 555 0120,hollis.whitlock38@example.com,yes,10/18/25,"$4,081"
+Yolanda Santamaria,6175550120,yolanda.santamaria@example.com,true,12 Apr 2025,"$4,178.80"
+Paloma Castellano,1155550117,paloma.castellano@example.com,yes,23 Sep 2025,3237.7
+Dana Haverford,(212) 555-0178,dana.haverford@example.com,Yes,22 Jun 2025,"$1,278"
+Hollis Quillen,4155550156,hollis.quillen@example.com,consented,23 Nov 2025,0
+Sterling Mendelsohn,1-213-555-0122,sterling.mendelsohn82@example.com,Y,2025/08/28,"2,978"
+Isadora Petrakis,305-555-0132,isadora.petrakis@example.com,yes,16 Feb 2025,
+Thandiwe Beaumont,(617) 555-0150,thandiwe.beaumont@example.com,granted,10/20/24,0
+Neveah Prewitt,0000000000,,t,07/26/2024,"$1,347"
+Cyrus Delacroix,3125550154,cyrus.delacroix85@example.com,t,2024/10/13,"$3,592"
+Roscoe Achebe,  (312) 555-0130 ,,y,10/14/24,"$1,760.16"
+Camille Winterbourne,+1 213 555 0109,camille.winterbourne@example.com,,03/23/2024,3176.5
+Cleo Lindqvist,(702) 555-0157,cleo.lindqvist@example.com,Y,07/09/25,0
+Junie Ivanković,2125550195,junie.ivankovic86@example.com,yes,,"$3,988.38"
+Imani Prewitt,212-555-0104,imani.prewitt92@example.com,opted_in,09/27/2025,"3,657"
+Marisol Adebayo,(786) 555-0195,marisol.adebayo@example.com,Yes,2024/04/10,0
+Ignacio Kirkbride,+1 312 555 0199,ignacio.kirkbride@example.com,TRUE,2024-08-24,"$3,228"
+Ezra Sarkissian,  (702) 555-0163 ,ezra.sarkissian@example.com,yes,"Jun 11, 2024",869
+Isadora Colefax,7025550194,,Y,30 Apr 2024,4174.6
+Curtis Osei,(213) 555-0112,curtis.osei78@example.com,yes,10/28/2024,0
+Noelle Dupree,+1 786 555 0154,noelle.dupree88@example.com,opted_in,2024-07-28,"$3,692"
+Reggie Thibodeaux,  (404) 555-0124 ,reggie.thibodeaux7@example.com,granted,2024/06/29,3809.2
+Thandiwe Ashgrove,  (305) 555-0164 ,thandiwe.ashgrove69@example.com,granted,6 Jul 2024,0
+Winston Whitlock,7865550117,winston.whitlock@example.com,t,2025/04/08,0
+Omar Whitlock,415.555.0102,omar.whitlock18@example.com,opt_in,03/11/2025,"$3,341.38"
+Roscoe Yildirim,  (617) 555-0146 ,roscoe.yildirim79@example.com,true,2025-01-14,3953.6
+Isadora Colefax,617-555-0197,isadora.colefax@example.com,y,12/10/24,3068.4
+Delphine Trevino,(415) 555-0182,delphine.trevino@example.com,yes,2024/10/18,1200.3
+Birdie Farrow,2135550104,birdie.farrow@example.com,1,05/18/2025,0
+Omar Castellano,2135550180,omar.castellano@example.com,1,"Jul 22, 2024","3,014"
+Amara Lindqvist,415-555-0144,amara.lindqvist97@example.com,granted,2024/08/02,"$1,109.42"
+Imani Nwachukwu,  (512) 555-0117 ,imani.nwachukwu@example.com,yes,"Sep 16, 2025",
+Marcus Sarkissian,  (305) 555-0194 ,marcus.sarkissian@example.com,yes,08/05/25,0
+Isadora Bellweather,404.555.0135,isadora.bellweather@example.com,yes,15 Feb 2025,652
+Sterling Achebe,4045550132,sterling.achebe@example.com,y,2024/09/18,"1,408"
+Paloma Farrow,2135550152,paloma.farrow@example.com,1,2025-07-18,3200.3
+Bo Farrow,2135550159,bo.farrow40@example.com,false,2024/08/23,$315
+Hollis Ashgrove,305.555.0195,hollis.ashgrove58@example.com,y,2025/06/13,"$3,040"
+Ignacio Quillen,212.555.0183,ignacio.quillen@example.com,yes,"Jun 10, 2024","1,421"
+Otis Prewitt,404-555-0198,otis.prewitt@example.com,t,3 Mar 2025,"3,873"
+Isadora Yildirim,512.555.0143,isadora.yildirim@example.com,yes,8 Mar 2024,1747.1
+Curtis Ravensworth,(702) 555-0116,,TRUE,22 May 2024,"$1,735"
+Wendell Okonjo,+1 512 555 0125,wendell.okonjo54@example.com,1,05/09/2025,
+Fitz Whitlock,  (415) 555-0122 ,fitz.whitlock@example.com,y,02/06/25,
+Delphine Colefax,786-555-0172,delphine.colefax@example.com,Yes,,"$2,483.27"
+Arturo Bellweather,  (305) 555-0149 ,arturo.bellweather@example.com,N,2024/04/02,0
+Rosalind Rosenblum,786.555.0150,rosalind.rosenblum62@example.com,1,"Nov 2, 2024",0
+Marisol Winterbourne,702-555-0197,marisol.winterbourne28@example.com,Yes,,"$2,901.35"
+Ignacio Kowalczyk,1-512-555-0172,ignacio.kowalczyk@example.com,pending,2025-07-13,"1,197"
+Lark Adebayo,(212) 555-0105,lark.adebayo@example.com,0,"Jul 16, 2025",234.5
+Priya Grayling,+1 404 555 0151,priya.grayling@example.com,y,17 Mar 2025,"$1,911"
+Malachi Kirkbride,1-305-555-0140,malachi.kirkbride@example.com,opted_in,10/11/24,"$3,830"
+Odette Kowalczyk,+1 212 555 0127,odette.kowalczyk71@example.com,yes,02/19/2025,"$3,165"
+Neveah Ferrante,  (404) 555-0179 ,neveah.ferrante@example.com,true,2024-12-20,"$4,043.34"
+Omar Castellano,213.555.0182,omar.castellano@example.com,t,05/06/2024,"2,997"
+Bianca Nwachukwu,  (213) 555-0103 ,bianca.nwachukwu37@example.com,,11/11/2024,"$2,991"
+Amara Nwachukwu,  (305) 555-0141 ,amara.nwachukwu57@example.com,y,2025/03/24,0
+Curtis Petrakis,512.555.0198,curtis.petrakis@example.com,t,2024/06/29,1183.6
+Hollis Okonjo,  (512) 555-0169 ,hollis.okonjo99@example.com,TRUE,2025/03/27,0
+Marisol Cavanaugh,+1 305 555 0177,marisol.cavanaugh77@example.com,yes,08/31/2025,
+Lark Nwachukwu,(312) 555-0129,lark.nwachukwu@example.com,consented,07/31/2024,$503
+Delphine Osei,7025550123,delphine.osei@example.com,1,"Jul 23, 2025",3666.1
+Imani Quillen,  (312) 555-0135 ,,No,06/20/24,"1,907"
+Ezra Adebayo,(415) 555-0128,ezra.adebayo@example.com,t,24 Mar 2024,0
+Paloma Fontaine,305-555-0154,paloma.fontaine@example.com,Yes,2025/01/03,0
+Curtis Whitlock,  (617) 555-0154 ,curtis.whitlock@example.com,granted,2025-09-23,924
+Sunniva Santamaria,312.555.0179,sunniva.santamaria@example.com,TRUE,08/09/2024,"$2,968.68"
+Rufus Mwangi,415-555-0146,rufus.mwangi@example.com,TRUE,01/08/25,"1,267"
+Cyrus Adebayo,(617) 555-0113,cyrus.adebayo@example.com,1,11 Jul 2025,"$1,976"
+Amara Osei,  (415) 555-0197 ,amara.osei@example.com,opted_in,"Oct 15, 2025","$2,088.94"
+Sterling Delacroix,212-555-0156,sterling.delacroix@example.com,opted_in,2024-02-18,"$1,857"
+Ignacio Okafor,+1 212 555 0151,ignacio.okafor@example.com,granted,04/14/24,1550.6
+Cyrus Sarkissian,212.555.0101,cyrus.sarkissian18@example.com,t,2025-05-31,"$1,450"
+Neveah Halloran,1-786-555-0162,,y,,115.8
+Marcus Thibodeaux,702-555-0183,marcus.thibodeaux@example.com,1,07/26/24,0
+Verity Nakamura,1-404-555-0158,verity.nakamura98@example.com,t,2024/06/07,"$4,097"
+Lucinda Colefax,305-555-0197,lucinda.colefax83@example.com,opt_in,"Sep 9, 2024",0
+Bianca Santamaria,213.555.0190,bianca.santamaria@example.com,1,09/09/2024,"3,648"
+Delia Kowalczyk,+1 786 555 0148,,opted_in,"Nov 19, 2024",2201.5
+Malachi Whitlock,2135550184,malachi.whitlock@example.com,no,03/22/24,776.3
+Reggie Solano,1-212-555-0146,,opt_in,06/05/25,544
+Roscoe Achebe,no phone on file,roscoe.achebe@example.com,1,29 Nov 2025,0
+Hollis Mwangi,  (786) 555-0112 ,hollis.mwangi89@example.com,y,04/02/24,"$3,032.59"
+Odette Grayling,5125550110,odette.grayling@example.com,FALSE,2024-08-28,"3,991"
+Bianca Kirkbride,212-555-0169,bianca.kirkbride@example.com,y,04/05/2024,683.3
+Malachi Larkspur,(305) 555-0135,malachi.larkspur@example.com,consented,,0
+Verity Osei,7025550130,verity.osei@example.com,Y,20 Sep 2024,"1,456"
+Silas Farrow,415-555-01,silas.farrow@example.com,Yes,05/13/2025,"$2,998.61"
+Otis Dupree,  (213) 555-0185 ,otis.dupree95@example.com,TRUE,,"1,718"
+Kwame Okonjo,305.555.0148,kwame.okonjo@example.com,TRUE,"Oct 15, 2024","$1,783"
+Isadora Kowalczyk,  (305) 555-0189 ,isadora.kowalczyk@example.com,1,,"1,953"
+Priya Ravensworth,786-555-0178,priya.ravensworth@example.com,yes,15 Oct 2025,$595
+Marcus Achebe,512-555-0195,marcus.achebe@example.com,yes,2025/06/09,370.2
+Nadia Ferrante,  (212) 555-0147 ,nadia.ferrante@example.com,No,08/01/25,310.0
+Gil Lindqvist,(702) 555-0161,gil.lindqvist48@example.com,,1 Jul 2025,"1,416"
+Marcus Halloran,  (702) 555-0152 ,marcus.halloran50@example.com,yes,17 Dec 2024,
+Nadia Cavanaugh,617.555.0192,nadia.cavanaugh@example.com,1,,647
+Paloma Zamora,305-555-0193,paloma.zamora@example.com,TRUE,2024/09/23,"2,138"
+Rosalind Thibodeaux,  (702) 555-0148 ,rosalind.thibodeaux@example.com,Yes,2024/02/20,"$1,686"
+Delphine Solano,(512) 555-0178,delphine.solano@example.com,TRUE,12/01/25,942
+Dana Yildirim,(213) 555-0156,dana.yildirim@example.com,1,16 Feb 2024,0
+Bo Whitlock,702-555-0138,bo.whitlock22@example.com,yes,"Dec 24, 2024","$3,978.24"
+Marguerite Lindqvist,  (617) 555-0181 ,marguerite.lindqvist68@example.com,true,"May 20, 2025","$3,083"
+Roscoe Colefax,  (512) 555-0155 ,roscoe.colefax@example.com,opt_in,9 Oct 2024,"$1,791.73"
+Sloane Mwangi,+1 213 555 0179,sloane.mwangi@example.com,Yes,,$397.53
+Silas Solano,1-312-555-0138,silas.solano74@example.com,consented,"Sep 28, 2025",0
+Isadora Okafor,1-512-555-0149,isadora.okafor@example.com,1,05/21/25,"$1,236"
+Elias Grayling,415.555.0158,elias.grayling@example.com,FALSE,02/09/2025,0
+Elias Solano,6175550168,elias.solano19@example.com,TRUE,2024-06-17,"1,821"
+Paloma Trevino,+1 617 555 0176,paloma.trevino@example.com,opted_in,09/20/25,"$3,381.03"
+Noelle Petrakis,404-555-0175,noelle.petrakis89@example.com,y,2024-02-16,"3,329"
+Priya Bellweather,(786) 555-0113,priya.bellweather@example.com,pending,2025-03-16,"$2,386"
+Winston Halloran,  (617) 555-0128 ,winston.halloran27@example.com,yes,02/22/24,$827
+Curtis Marchetti,212-555-0107,curtis.marchetti@example.com,Y,2025/10/11,"$1,938.36"
+Verity Rosenblum,  (415) 555-0195 ,verity.rosenblum49@example.com,consented,5 May 2025,$445
+Isadora Trevino,+1 702 555 0120,isadora.trevino35@example.com,TRUE,2024/03/13,0
+Rashida Ravensworth,,rashida.ravensworth@example.com,Y,"Sep 19, 2025","$2,216.21"
+Winston Yildirim,(702) 555-0139,winston.yildirim49@example.com,,06/09/2025,$397.58
+Camille Marchetti,+1 617 555 0196,camille.marchetti@example.com,consented,"Jul 17, 2024",
+Ignacio Whitlock,2135550124,ignacio.whitlock@example.com,yes,2025-11-09,
+Devon Winterbourne,6175550173,devon.winterbourne@example.com,Y,09/22/24,0
+Dex Mwangi,  (404) 555-0190 ,,true,2024-03-13,0
+Elias Bellweather,(213) 555-0171,elias.bellweather25@example.com,consented,01/21/25,"$2,348.58"
+Perpetua Fontaine,2125550120,perpetua.fontaine14@example.com,TRUE,"Mar 19, 2024",
+Curtis Sarkissian,+1 512 555 0112,,TRUE,10/10/2025,
+Junie Winterbourne,7865550134,junie.winterbourne@example.com,opt_in,12 Oct 2025,"2,115"
+Otis Fontaine,  (415) 555-0172 ,otis.fontaine7@example.com,,12/02/2025,"$2,581"
+Cleo Yildirim,786-555-0191,,,08/02/24,795
+Curtis Delacroix,1-404-555-0115,curtis.delacroix@example.com,,11/10/25,52
+Tessa Sandoval,4155550153,tessa.sandoval@example.com,Yes,"Feb 29, 2024","$4,009"
+Bianca Whitlock,+1 617 555 0106,bianca.whitlock@example.com,y,07/18/24,"$3,134"
+Birdie Mendelsohn,+1 305 555 0163,birdie.mendelsohn@example.com,Y,23 Nov 2025,"1,273"
+Sterling Rosenblum,312.555.0192,sterling.rosenblum@example.com,TRUE,2024-08-27,0
+Kwame Rosenblum,415) 5550,kwame.rosenblum@example.com,yes,2025-02-17,"1,672"
+Cyrus Haverford,617-555-0175,cyrus.haverford@example.com,1,07/20/2024,$361
+Otis Larkspur,  (212) 555-0160 ,otis.larkspur@example.com,opt_in,2024/07/17,"$1,063"
+Tessa Haverford,7865550111,tessa.haverford41@example.com,y,,
+Ozzie Sarkissian,404-555-0180,ozzie.sarkissian87@example.com,TRUE,2025-05-29,"$1,275.00"
+Lark Whitlock,404.555.0107,lark.whitlock@example.com,TRUE,03/05/2024,"$1,709.17"
+Birdie Castellano,512.555.0199,,y,2024/03/15,"$2,601.08"
+Trey Sandoval,+1 312 555 0172,trey.sandoval@example.com,no,2024/11/20,$449
+Kwame Beaumont,786.555.0180,kwame.beaumont@example.com,y,2024/05/05,$812.60
+Nadia Santamaria,+1 212 555 0152,,opted_in,2024/03/28,
+Zelda Okonjo,  (617) 555-0149 ,zelda.okonjo3@example.com,opt_in,1 Nov 2025,4118.0
+Bianca Adebayo,+1 305 555 0100,bianca.adebayo@example.com,1,,3441.0
+Isadora Mwangi,4045550183,isadora.mwangi68@example.com,pending,2025-06-13,
+Isadora Yildirim,4155550180,isadora.yildirim88@example.com,Y,2025-11-04,
+Omar Fontaine,305.555.0162,omar.fontaine63@example.com,y,2025/06/30,"$3,900.61"
+Hollis Halloran,213-555-0153,hollis.halloran68@example.com,TRUE,1 Oct 2025,
+Gil Achebe,5125550161,gil.achebe@example.com,Y,"Feb 9, 2025",
+Odette Whitlock,  (512) 555-0188 ,odette.whitlock@example.com,consented,04/15/25,0
+Bianca Okonjo,3055550136,bianca.okonjo37@example.com,opt_in,"Dec 27, 2024","3,573"
+Dex Sandoval,1-305-555-0173,dex.sandoval@example.com,Y,,
+Devon Ashgrove,7865550137,devon.ashgrove@example.com,opt_in,05/24/2025,"1,795"
+Trey Halloran,617.555.0151,trey.halloran@example.com,TRUE,2025-10-18,"$3,430"
+Odette Bergström,(512) 555-0185,,true,2024-02-22,2283.5
+Elias Winterbourne,1-404-555-0186,elias.winterbourne54@example.com,Y,01/12/25,
+Bianca Lindqvist,+1 312 555 0114,bianca.lindqvist74@example.com,N,,
+Cleo Farrow,4155550157,cleo.farrow@example.com,granted,"Apr 1, 2024",
