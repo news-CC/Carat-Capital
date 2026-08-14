@@ -233,26 +233,57 @@ With nothing queued this returns a claimed count of zero, which is a successful 
 
 ---
 
-## Cron, and the Vercel plan caveat
+## Cron: two schedulers, and why
 
-`vercel.json` registers two jobs:
+| Path | Runs on | Schedule | Does |
+|---|---|---|---|
+| `/api/cron/dial` | **Supabase pg_cron** | `*/5 * * * *` | Expires rows stuck in `calling`, claims pending contacts inside their window, dials up to the concurrency cap. |
+| `/api/cron/report` | Vercel Cron (`vercel.json`) | `0 20 * * 5` | Friday, the weekly report per **billable** client (`trialing`, `active`, `past_due`). Deliberately not `clients.active`: that is the campaign on/off switch, and a salon dialled Monday to Wednesday still earned its wrap-up if you paused it on Thursday. `canceled` gets nothing, and a client with no calls in the period is skipped. |
 
-| Path | Schedule | Does |
-|---|---|---|
-| `/api/cron/dial` | `*/5 * * * *` | Expires rows stuck in `calling`, claims pending contacts inside their window, dials up to the concurrency cap. |
-| `/api/cron/report` | `0 20 * * 5` | Friday, the weekly report per **billable** client (`trialing`, `active`, `past_due`). Deliberately not `clients.active`: that is the campaign on/off switch, and a salon dialled Monday to Wednesday still earned its wrap-up if you paused it on Thursday. `canceled` gets nothing, and a client with no calls in the period is skipped. |
+**Why the dialer is not on Vercel Cron.** Hobby plans reject any schedule more frequent than daily —
+not silently, the deployment fails outright. And a daily dial run is not a dialer: one run claims at
+most `MAX_CONCURRENT_CALLS` contacts, so a 500-person list would take two months. The schedule
+therefore lives in Postgres, in `supabase/migrations/0002_dial_scheduler.sql`.
 
-**A five-minute schedule needs a Vercel Pro plan.** Hobby projects are limited to a small number of
-cron jobs that run at most once a day, and Vercel will either reject the schedule or quietly run it
-daily. On Hobby, `*/5 * * * *` is not a working dialer. Either upgrade to Pro, or drive the endpoint
-from an external scheduler with the `CRON_SECRET` bearer token:
+Set it up:
 
 ```bash
-curl -s -H "Authorization: Bearer $CRON_SECRET" https://your-domain.com/api/cron/dial
+npm run setup:scheduler -- --out /tmp/scheduler.sql   # fills in CRON_SECRET + your app URL
+# paste /tmp/scheduler.sql into the Supabase SQL Editor, then delete it
 ```
 
-Cron schedules are UTC. `0 20 * * 5` is 4pm Eastern in summer and 3pm Eastern in winter — if the Friday
-report must land at a specific local hour year-round, adjust it at the daylight-saving boundary.
+The committed `.sql` keeps a `__CRON_SECRET__` placeholder on purpose — that token authorizes real
+outbound calls and must never reach git. In the database it lives in Supabase Vault, not inline in
+`cron.job.command`, which is readable by anyone who can query the `cron` schema.
+
+**The job ticks every five minutes around the clock, and that is safe.** The call-window gate is in
+`claim_contacts_for_dialing`, evaluated per client in that client's own timezone, so a 03:00 tick
+claims nothing and dials nobody. The scheduler has no say in who gets called — it only asks the app
+to look. Ticking constantly is what makes a contact get dialed early in *their* morning rather than
+whenever a single daily run happened to fire.
+
+Check on it:
+
+```sql
+select jobname, schedule, active from cron.job;
+select start_time, status, return_message from cron.job_run_details
+ where jobname = 'salon-malone-dial' order by start_time desc limit 10;
+select created, status_code, content from net._http_response order by created desc limit 10;
+```
+
+**If you move to Vercel Pro**, `select cron.unschedule('salon-malone-dial');` and put the
+`*/5 * * * *` dial entry back in `vercel.json`. Nothing in the application changes. Do not run both:
+it is harmless (the claim query's `attempts = 0` filter and `skip locked` make a double dial
+impossible) but two schedulers for one job is a debugging tax.
+
+Trigger a run by hand any time — useful mid-demo:
+
+```bash
+curl -s -H "Authorization: Bearer $CRON_SECRET" https://www.startup25.com/api/cron/dial
+```
+
+Vercel cron schedules are UTC. `0 20 * * 5` is 4pm Eastern in summer and 3pm Eastern in winter — if the
+Friday report must land at a specific local hour year-round, adjust it at the daylight-saving boundary.
 
 ---
 

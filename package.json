@@ -2,7 +2,7 @@
   "name": "salon-man",
   "version": "1.0.0",
   "private": true,
-  "description": "Salon Malone — paid win-back campaigns for salons and med spas",
+  "description": "Salon Malone \u2014 paid win-back campaigns for salons and med spas",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -13,7 +13,8 @@
     "test:watch": "vitest",
     "setup:stripe": "node --env-file=.env.local scripts/setup-stripe.mjs",
     "setup:vapi": "node --env-file=.env.local scripts/setup-vapi.mjs",
-    "demo:clientele": "node scripts/generate-demo-clientele.mjs"
+    "demo:clientele": "node scripts/generate-demo-clientele.mjs",
+    "setup:scheduler": "node --env-file=.env.local scripts/setup-scheduler.mjs"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.58.0",
