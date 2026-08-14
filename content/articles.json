@@ -1,9 +1,137 @@
 [
  {
+  "slug": "nine-forty-and-thirteen-twelve",
+  "desk": "gold-metals",
+  "date": "2026-08-14",
+  "lead": true,
+  "kicker": "Lead Story · Gold & Metals Desk",
+  "minutes": 5,
+  "byline": "The Gold & Metals Desk",
+  "tags": [
+   "PLAIN",
+   "NUM"
+  ],
+  "title": "China's jewellery counter charges 39.5% over the exchange price",
+  "dek": "The Shanghai Gold Exchange closed Au99.99 at 940.72 yuan a gram on 14 August. Chow Tai Fook's counter reads 1,312. The gap is 371.28 yuan, and it is wider than it was six days ago.",
+  "body": [
+   "The Shanghai Gold Exchange closed its Au99.99 contract at 940.72 yuan a gram today, from an opening of 955.00 and a session low of 933.01, on 3,886.14 kilogrammes of volume. The exchange's deferred contract, Au(T+D), closed at 940.44 on 41,646 kilogrammes. Those are the exchange's own published daily quotations rather than an aggregator's copy of them. On the same day Chow Tai Fook listed 24-carat jewellery at 1,312 yuan a gram, a figure carried identically by two independent Chinese price aggregators, jinjia.com.cn and cngold, which is the strongest agreement available on a counter price. Dividing one by the other, this desk's arithmetic, puts the counter 39.47% above the exchange, a gap of 371.28 yuan on every gram sold.",
+   "That gap is not closing. This paper published the same pair on 9 August at 938 yuan on the exchange and 1,286 at the counter, a spread of 348 yuan and a markup of 37.10%. Six days later the exchange has moved 2.72 yuan, or 0.29%, and the counter has moved 26 yuan, or 2.02%. The gap did not close; it widened by 23.28 yuan a gram. Two disclosures belong with that sentence. One aggregator's series carries 1,286 against 7 August rather than 8 August, and the same two aggregators disagree about 13 August by 11 yuan, one reading 1,340 and the other 1,329. This desk cannot establish which board hour either page is reading and does not resolve it here. The 14 August figure is the one both of them agree on, which is why the comparison is anchored there.",
+   "Today's session moved both legs down and moved them at very different speeds. The exchange closed 8.52 yuan lower than its 13 August close of 949.24, a fall of 0.90%. The counter came off 28 yuan from 1,340, a fall of 2.09%, cutting about two and a third times as fast as the metal it is made of. The premium therefore narrowed today, from 41.17% on one aggregator's 13 August counter price or 40.01% on the other's, to 39.47%. The counter moves in steps and the exchange moves in fractions: across the sessions the aggregator series records this month, the Chow Tai Fook price went 1,231, then 1,240, then 1,297, then 1,286, then 1,308, held at 1,308, then 1,336, 1,329, 1,340 and 1,312. Almost every one of those is a round jump of tens of yuan against an exchange that rarely moves one per cent in a day.",
+   "For anyone pricing against China, the useful figure is the band rather than the day. On the readings this desk can verify, the Chinese jewellery markup has run between 37.10% and 41.17% this month, and it is currently near the top half of that range while the metal itself is falling. This paper reported on 3 August that China's gold jewellery consumption fell to its lowest since 2004, and on 9 August that the country's bullion buying was its heaviest month since 2023. A widening retail markup against a shrinking jewellery volume and a rising bar-and-coin volume is the same story told three ways. The limit on all of it should be stated plainly: a listed counter price is an asking price, not a transacted one, and workmanship charges, store discounts and buy-back terms sit outside both numbers here.",
+   "The desk's view: the counter is not a gold price, it is a retail price that happens to be quoted in grams, and the last six days are the clearest demonstration of it this paper has had. The exchange has barely moved since 8 August and the shop window has moved eight times as far, in both directions, in round steps that no metal market produced. That is a merchant setting a margin, not a market clearing. The number worth watching is not 1,312 and not 940.72 but the 39.47% between them, because that is the only one of the three that describes a decision somebody made. Watch whether the markup settles below 39% now that the counter has started cutting faster than the exchange. If it does not, the Chinese shopper is paying a wider margin into a falling market, which is the opposite of what a falling market is supposed to do to margins."
+  ],
+  "sources": [
+   {
+    "title": "Daily quotations, Au99.99 and Au(T+D), 14 August 2026 — Shanghai Gold Exchange",
+    "url": "https://www.sge.com.cn/sjzx/quotation_daily_new"
+   },
+   {
+    "title": "周大福今日金价 — Chow Tai Fook daily counter price series, read 14 August 2026 — 金价网",
+    "url": "https://www.jinjia.com.cn/chowtaifook/"
+   },
+   {
+    "title": "周大福黄金价格查询 — Chow Tai Fook quotation page, read 14 August 2026 — 金投网",
+    "url": "https://m.cngold.org/quote/gjs/swhj_zdf.html"
+   },
+   {
+    "title": "938 at the exchange, 1,286 at the counter — Carat Capital (9 August 2026)",
+    "url": "https://caratcapital.org/a-nine-thirty-eight-and-twelve-eighty-six.html"
+   },
+   {
+    "title": "China's gold counter falls to its lowest since 2004 — Carat Capital (3 August 2026)",
+    "url": "https://caratcapital.org/a-china-lowest-since-2004.html"
+   }
+  ]
+ },
+ {
+  "slug": "the-platinum-hold-ends",
+  "desk": "gold-metals",
+  "date": "2026-08-14",
+  "lead": false,
+  "kicker": "Gold & Metals Desk · The Tape",
+  "minutes": 5,
+  "byline": "The Gold & Metals Desk",
+  "tags": [
+   "NUM",
+   "REVERSAL"
+  ],
+  "title": "The platinum hold ends at $1,725 after three mornings",
+  "dek": "Kitco's board read gold $4,356.20, silver $64.77, platinum $1,725.00 and palladium $1,297.00 at 06:00 New York time. All four are written back to this paper's tape. Two of them had been held for days.",
+  "body": [
+   "Kitco's live board at 06:00 New York time read gold at $4,356.20 an ounce, silver at $64.77, platinum at $1,725.00 and palladium at $1,297.00, and all four readings are now this paper's marks of record, written back over caratwire's 04:59 marks with the source named and the timestamp new. Measured against this paper's own marks 24 hours earlier, gold is down $27.90 or 0.64%, silver is up $0.25 or 0.39%, platinum is up $15.00 or 0.88% and palladium is down $22.00 or 1.67%. The gold-to-silver ratio, this desk's division of its own gold mark by its own silver mark on the same board at the same minute, narrowed to 67.26 from 67.95. Gold and silver were each checked against TradingEconomics the same morning, at $4,356.79 and $64.89, differences of 0.01% and 0.19%.",
+   "The change worth explaining is platinum, which this paper has now refused twice and is taking today. On 12 August Kitco's platinum cell was stale and the mark was held. On 13 August the cell was live but sat $14.60 below TradingEconomics and JM Bullion, which agreed with each other to within 50 cents, so the mark was held again. At 04:59 this morning the tape desk found the same shape a third time, Kitco $13.30 below TradingEconomics, and held once more. At 06:00 the gap is $12.70 against TradingEconomics at $1,737.70 and $14.90 against JM Bullion at $1,739.90, and those two pages again agree with each other, this time to $2.20 or 0.13%. Three mornings of the same gap in the same direction is a basis difference between outside pages rather than a market nobody can read, and treating it as the second thing had a cost: the held mark of $1,710.00 was two sessions old and 1.62% below where two other pages put the metal.",
+   "So platinum is written back on Kitco, the board that carries every other mark on this tape, and palladium with it at Kitco's $1,297.00 bid. JM Bullion read palladium at $1,336.71 at 06:01 New York time, $39.71 or 3.06% higher, which on a metal this thin reads as the other side of a spread rather than a disagreement about the price. The alternative was to leave one Kitco mark frozen and three Kitco marks fresh, taken from the same board at the same minute, which is precisely the two-numbers problem the one-price rule was written to remove. The divergence between the outside pages is disclosed here rather than reconciled, because that rule is untouched and it is the more important one: a jeweller quoting platinum off a single public board this morning is choosing between $1,725.00 and $1,739.90 without being told there is a choice.",
+   "At the bench the four marks work out at $140.05 a gram of fine gold, $2.08 a gram of fine silver, $55.46 a gram of fine platinum and $41.70 a gram of fine palladium, at 31.1035 grams to the troy ounce and all four this desk's arithmetic. Palladium's 1.67% fall is the largest single-day move on the tape today and it comes off a mark that had itself been held for two sessions, so a workshop repricing palladium stock is absorbing two days of movement in one step rather than one day's. Silver has now recovered $0.25 of the $1.78 it lost yesterday, and gold has given back $27.90 of a week in which it has still gained ground. The ratio at 67.26 sits between Monday's 67.49 and Wednesday's 66.59 and has told nobody anything for five sessions.",
+   "The desk's view: a rule that stops a paper printing a number it cannot stand behind is not the same as a rule that stops it printing numbers, and the difference showed up here as a mark going quietly stale under the protection of good procedure. Holding platinum on 12 and 13 August was right on the evidence available on those mornings. Holding it a third time would have been the habit rather than the judgement, because by the third morning the evidence had changed shape: a gap that recurs at the same size and sign is information about how two pages are quoting, not about whether a price exists. The tape is better for taking the mark and disclosing the spread than it was for holding a two-day-old figure and calling it caution. The test for tomorrow is simple. If Kitco is still $13 light on platinum, this paper says so again in print and keeps its own basis consistent."
+  ],
+  "sources": [
+   {
+    "title": "Gold, Silver, Platinum & Palladium Spot Prices — Kitco (14 August 2026, 06:00 EST live board)",
+    "url": "https://www.kitco.com/price/precious-metals"
+   },
+   {
+    "title": "Gold — price, chart, historical data (read 14 August 2026)",
+    "url": "https://tradingeconomics.com/commodity/gold"
+   },
+   {
+    "title": "Platinum Prices Today Per Ounce, 24hr spot chart — JM Bullion (14 August 2026, 06:01 EST)",
+    "url": "https://www.jmbullion.com/charts/platinum-price/"
+   },
+   {
+    "title": "Three sessions of silver's gain undone in one — Carat Capital (13 August 2026)",
+    "url": "https://caratcapital.org/a-three-sessions-undone.html"
+   }
+  ]
+ },
+ {
+  "slug": "seventy-one-million-from-america",
+  "desk": "gold-metals",
+  "date": "2026-08-14",
+  "lead": false,
+  "kicker": "Gold & Metals Desk · Investment Demand",
+  "minutes": 5,
+  "byline": "The Gold & Metals Desk",
+  "tags": [
+   "NUM",
+   "VS"
+  ],
+  "title": "$71 million from America in a $3 billion gold month",
+  "dek": "Gold ETFs took in $3bn in July, the World Gold Council reported on 6 August. Europe supplied $2bn of it and North America $71mn. Collective holdings rose 23 tonnes to 4,068.",
+  "body": [
+   "Global gold-backed exchange-traded funds took in $3 billion in July, reversing two consecutive months of outflows, in figures the World Gold Council published on 6 August under the title Europe's golden heatwave. Collective holdings rose 23 tonnes to 4,068 tonnes and assets under management rose 1% to $530 billion. This paper has cited the World Gold Council fifteen times and has never once covered its monthly flows series, which is a gap on this desk rather than a scoop, and the figures are eight days old as they print here. They are reported now because this paper has spent August printing a gold mark every morning and reporting the physical buyer, and has never said who was on the other side of the trade.",
+   "The regional split is the finding. Europe took $2 billion of the month's inflow, with the United Kingdom alone at $875 million and Switzerland at $657 million. Asia took $616 million, with China the strongest contributor and Japan in outflow. North America took $71 million. Other regions, chiefly Australia and South Africa, took $140 million. Two European countries raised nearly twice what the rest of the world did: $1,532 million from Britain and Switzerland against $827 million from Asia, North America and everywhere else combined, a ratio of 1.85 to one and this desk's arithmetic. North America, the largest gold ETF market in the world by assets, supplied 2.5% of the named regional total. The named regions sum to $2,827 million against a headline of $3 billion, because every component is rounded, and that difference is this desk's subtraction rather than a discrepancy in the source.",
+   "Set that against what this paper has already published about the physical buyer and the year stops looking contradictory. Global jewellery demand fell to 278 tonnes in the second quarter, the smallest since the pandemic, reported here on 31 July. India took 75.1 tonnes, down 15% by weight, reported the same day. China's gold jewellery consumption fell to its lowest since 2004, reported here on 3 August. Through all of that the gold price rose, and the question this desk kept leaving open was who was buying what the bride was not. Part of the answer is a European investor putting $2 billion into a fund in a single month while the American investor sat out with $71 million, and the rest is central banks and the Chinese bar buyer this paper covered on 9 August.",
+   "Three limits belong on this. The series is monthly and it is eight days old, so it describes July and says nothing about the $27.90 gold gave back this morning. Holdings at 4,068 tonnes remain 108 tonnes, or 2.59%, below the record of 4,176 tonnes set on 27 February, so a month of inflow has not undone the year's withdrawal. And the 1% rise in assets under management against a 23-tonne rise in holdings means most of the gain in the dollar figure is the gold price rather than new money arriving. Activity thinned in the same month: average daily trading volumes across the gold market fell 3.5% to $356 billion and over-the-counter volumes fell 3.4% to $205 billion. Money came in through a quieter door than usual.",
+   "The desk's view: the marginal buyer of gold in July was European, and a trade paper that prints a dollar-an-ounce number every morning without ever naming that buyer has been reporting half the market. The useful correction is to stop reading gold demand as one number. The jewellery counter is shrinking in India and China, the bar buyer is heavy in China, the fund buyer is British and Swiss, and the American fund buyer is barely present at all. Those four move on different reasons and they can point in opposite directions for months at a time, which is exactly what they did in July. The number to watch next month is North America's $71 million, because that is a market of a size that could reverse the whole global figure by itself if the American investor came back, and the only thing keeping it small is that so far he has not."
+  ],
+  "sources": [
+   {
+    "title": "Gold ETF Flows: July 2026, Europe's golden heatwave — World Gold Council (6 August 2026)",
+    "url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/08"
+   },
+   {
+    "title": "278 tonnes: the smallest jewellery quarter since the pandemic — Carat Capital (31 July 2026)",
+    "url": "https://caratcapital.org/a-two-seventy-eight-tonnes.html"
+   },
+   {
+    "title": "India's quarter: 75.1 tonnes of jewellery, down 15% — Carat Capital (31 July 2026)",
+    "url": "https://caratcapital.org/a-india-buys-fifteen-percent-less.html"
+   },
+   {
+    "title": "China's gold counter falls to its lowest since 2004 — Carat Capital (3 August 2026)",
+    "url": "https://caratcapital.org/a-china-lowest-since-2004.html"
+   },
+   {
+    "title": "640,000 ounces: China's biggest gold month since 2023 — Carat Capital (9 August 2026)",
+    "url": "https://caratcapital.org/a-six-forty-thousand-ounces.html"
+   }
+  ]
+ },
+ {
   "slug": "the-loss-that-wasnt-revenue",
   "desk": "diamonds",
   "date": "2026-08-13",
-  "lead": true,
+  "lead": false,
   "kicker": "Lead Story · Diamonds Desk",
   "minutes": 5,
   "byline": "The Diamonds Desk",

@@ -28080,5 +28080,373 @@
     }
    ]
   }
+ },
+ "nine-forty-and-thirteen-twelve": {
+  "strip": {
+   "cap": "By the numbers · China's gold counter, 14 August",
+   "cells": [
+    {
+     "fig": "940.72",
+     "delta": "▼ −0.90%",
+     "dir": "down",
+     "lab": "Au99.99 close, yuan a gram"
+    },
+    {
+     "fig": "1,312",
+     "delta": "▼ −2.09%",
+     "dir": "down",
+     "lab": "Chow Tai Fook counter, same day"
+    },
+    {
+     "fig": "371.28",
+     "lab": "the gap in yuan, derived here"
+    },
+    {
+     "fig": "39.47%",
+     "lab": "the markup, derived here"
+    },
+    {
+     "fig": "+23.28",
+     "delta": "▲",
+     "dir": "up",
+     "lab": "yuan added to the gap since 8 August"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "China's counter against China's exchange · yuan a gram",
+    "rows": [
+     {
+      "l": "COUNTER, 14 AUGUST",
+      "v": 1312,
+      "d": "1,312",
+      "hi": true
+     },
+     {
+      "l": "COUNTER, 8 AUGUST",
+      "v": 1286,
+      "d": "1,286"
+     },
+     {
+      "l": "EXCHANGE, 14 AUGUST",
+      "v": 940.72,
+      "d": "940.72"
+     },
+     {
+      "l": "EXCHANGE, 8 AUGUST",
+      "v": 938,
+      "d": "938.00"
+     }
+    ],
+    "note": "Exchange figures are the Shanghai Gold Exchange's own published Au99.99 quotations. The 8 August pair is as this paper published it on 9 August. In six days the exchange moved 0.29% and the counter moved 2.02%, widening the markup from 37.10% to 39.47%, this desk's arithmetic.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/222"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Two prices for the same gram.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Six sessions, and the gap is wider.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "The gap did not close; it widened by 23.28 yuan a gram",
+     "attr": "The Gold & Metals Desk"
+    }
+   },
+   {
+    "sub": "A stepped price against a traded one.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "938 at the exchange, 1,286 at the counter",
+     "href": "a-nine-thirty-eight-and-twelve-eighty-six.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "the counter is not a gold price, it is a retail price that happens to be quoted in grams"
+  },
+  "next": {
+   "lead": {
+    "slug": "the-platinum-hold-ends",
+    "tag": "Metals",
+    "blurb": "Kitco's board carried all four metals back onto the tape at 06:00 New York time."
+   },
+   "minis": [
+    {
+     "slug": "seventy-one-million-from-america",
+     "tag": "Metals"
+    },
+    {
+     "slug": "nine-thirty-eight-and-twelve-eighty-six",
+     "tag": "Metals"
+    }
+   ]
+  }
+ },
+ "the-platinum-hold-ends": {
+  "strip": {
+   "cap": "By the numbers · The tape, 14 August",
+   "cells": [
+    {
+     "fig": "$4,356.20",
+     "delta": "▼ −0.64%",
+     "dir": "down",
+     "lab": "gold, Kitco 06:00 EST, written back"
+    },
+    {
+     "fig": "$64.77",
+     "delta": "▲ +0.39%",
+     "dir": "up",
+     "lab": "silver, same board, same read"
+    },
+    {
+     "fig": "$1,725.00",
+     "delta": "▲ +0.88%",
+     "dir": "up",
+     "lab": "platinum, the two-day hold ends"
+    },
+    {
+     "fig": "$1,297.00",
+     "delta": "▼ −1.67%",
+     "dir": "down",
+     "lab": "palladium, written back with it"
+    },
+    {
+     "fig": "67.26",
+     "delta": "▼ −0.69",
+     "dir": "down",
+     "lab": "gold-to-silver ratio, derived"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Platinum on three pages, 14 August · dollars an ounce",
+    "rows": [
+     {
+      "l": "JM BULLION, 06:01 EST",
+      "v": 1739.9,
+      "d": "$1,739.90"
+     },
+     {
+      "l": "TRADINGECONOMICS",
+      "v": 1737.7,
+      "d": "$1,737.70"
+     },
+     {
+      "l": "KITCO, 06:00 EST",
+      "v": 1725.0,
+      "d": "$1,725.00",
+      "hi": true
+     },
+     {
+      "l": "THE HELD MARK, 13 AUG",
+      "v": 1710.0,
+      "d": "$1,710.00"
+     }
+    ],
+    "note": "The two pages this paper does not carry as its mark of record agree to $2.20, or 0.13%, and sit $12.70 to $14.90 above Kitco for a third consecutive morning. The mark this paper had been holding sat 1.62% below both of them. Divergence between outside sources, disclosed rather than resolved.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/223"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Four marks, one board, one minute.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Why the hold ended.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "Three mornings of the same gap in the same direction is a basis difference",
+     "attr": "The Gold & Metals Desk"
+    }
+   },
+   {
+    "sub": "What it costs at the bench.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Three sessions of silver's gain undone in one",
+     "href": "a-three-sessions-undone.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "a mark going quietly stale under the protection of good procedure"
+  },
+  "next": {
+   "lead": {
+    "slug": "seventy-one-million-from-america",
+    "tag": "Metals",
+    "blurb": "Europe put $2bn into gold funds in July. North America put in $71mn."
+   },
+   "minis": [
+    {
+     "slug": "three-sessions-undone",
+     "tag": "Metals"
+    },
+    {
+     "slug": "sixty-six-fifty-nine",
+     "tag": "Metals"
+    }
+   ]
+  }
+ },
+ "seventy-one-million-from-america": {
+  "strip": {
+   "cap": "By the numbers · Gold ETF flows, July 2026",
+   "cells": [
+    {
+     "fig": "$3bn",
+     "delta": "▲",
+     "dir": "up",
+     "lab": "global inflow, two outflow months reversed"
+    },
+    {
+     "fig": "$2bn",
+     "lab": "Europe, of which UK $875mn"
+    },
+    {
+     "fig": "$71mn",
+     "lab": "North America, the whole month"
+    },
+    {
+     "fig": "4,068t",
+     "delta": "▲ +23t",
+     "dir": "up",
+     "lab": "collective holdings"
+    },
+    {
+     "fig": "−108t",
+     "lab": "still below the 27 February record"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Where July's gold ETF money came from · millions of dollars",
+    "rows": [
+     {
+      "l": "EUROPE",
+      "v": 2000,
+      "d": "$2,000m",
+      "hi": true
+     },
+     {
+      "l": "ASIA",
+      "v": 616,
+      "d": "$616m"
+     },
+     {
+      "l": "OTHER REGIONS",
+      "v": 140,
+      "d": "$140m"
+     },
+     {
+      "l": "NORTH AMERICA",
+      "v": 71,
+      "d": "$71m"
+     }
+    ],
+    "note": "World Gold Council figures published 6 August 2026. The named regions sum to $2,827m against a rounded headline of $3bn because every component is rounded; that subtraction is this desk's. Britain and Switzerland alone contributed $1,532m, 1.85 times everything raised outside Europe.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/224"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "A reversal, and where it came from.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Two countries against the world.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "Two European countries raised nearly twice what the rest of the world did",
+     "attr": "The Gold & Metals Desk"
+    }
+   },
+   {
+    "sub": "The buyer this paper had not named.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "278 tonnes: the smallest jewellery quarter since the pandemic",
+     "href": "a-two-seventy-eight-tonnes.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "the marginal buyer of gold in July was European"
+  },
+  "next": {
+   "lead": {
+    "slug": "nine-forty-and-thirteen-twelve",
+    "tag": "Metals",
+    "blurb": "China's jewellery counter is charging 39.47% over the Shanghai exchange price."
+   },
+   "minis": [
+    {
+     "slug": "two-seventy-eight-tonnes",
+     "tag": "Metals"
+    },
+    {
+     "slug": "six-forty-thousand-ounces",
+     "tag": "Metals"
+    }
+   ]
+  }
  }
 }
