@@ -121,20 +121,15 @@ export function maloneAssistantPayload(serverUrl: string, serverSecret: string):
       language: 'en',
       smartFormat: true,
     },
-    // Streaming turbo voice tuned for latency, not for showing off.
-    voice: {
-      provider: '11labs',
-      voiceId: 'rachel',
-      model: 'eleven_turbo_v2_5',
-      optimizeStreamingLatency: 3,
-      stability: 0.5,
-      similarityBoost: 0.75,
-      useSpeakerBoost: true,
-    },
+    // Vapi's own streaming voices, not ElevenLabs. ARCHITECTURE.md §2 asks for "a low-latency
+    // voice in Vapi, not the fanciest one": these are first-party, so there is no extra provider
+    // hop in the TTS leg of the turn budget and no second vendor subscription to keep alive.
+    voice: { provider: 'vapi', voiceId: 'Savannah' },
     backchannelingEnabled: true,
-    fillerInjectionEnabled: true,
     backgroundDenoisingEnabled: true,
-    startSpeakingPlan: { waitSeconds: 0.4, smartEndpointingEnabled: true },
+    // 'livekit' endpointing predicts turn-ends from semantics instead of waiting out a fixed
+    // silence, which is where most of the perceived latency in a voice agent hides.
+    startSpeakingPlan: { waitSeconds: 0.3, smartEndpointingEnabled: 'livekit' },
     stopSpeakingPlan: { numWords: 2, voiceSeconds: 0.2, backoffSeconds: 1 },
     endCallFunctionEnabled: true,
     endCallMessage: "All love — the chair's here when you're ready. Take care.",

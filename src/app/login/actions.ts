@@ -3,6 +3,7 @@
 import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
 import { SESSION_COOKIE, sessionCookieOptions, signSession, verifyAdminCredentials } from "@/lib/auth";
+import { safeNextPath } from "@/lib/next-path";
 
 // Only async functions may be exported from a "use server" module — types are erased, so this is fine.
 export type LoginState = { error: string | null };
@@ -14,7 +15,8 @@ const FAILURE_DELAY_MS = 400;
 export async function login(_prev: LoginState, formData: FormData): Promise<LoginState> {
   const email = String(formData.get("email") ?? "").trim();
   const password = String(formData.get("password") ?? "");
-  const next = safeNext(formData.get("next"));
+  // The hidden field is attacker-controllable, so it is re-validated here and never trusted.
+  const next = safeNextPath(formData.get("next"));
 
   if (!email || !password || !credentialsOk(email, password)) {
     // Crude brake on password guessing: every failure costs the caller 400ms.
@@ -35,13 +37,6 @@ function credentialsOk(email: string, password: string): boolean {
     // Missing ADMIN_EMAIL / ADMIN_PASSWORD_HASH must read as a failed login, not a 500.
     return false;
   }
-}
-
-/** Open-redirect gate: only same-origin absolute paths survive. */
-function safeNext(raw: unknown): string {
-  const value = typeof raw === "string" ? raw.trim() : "";
-  if (!value.startsWith("/") || value.startsWith("//")) return "/admin";
-  return value;
 }
 
 function delay(ms: number): Promise<void> {

@@ -98,3 +98,38 @@ describe('isFictionalPhone', () => {
     expect(isFictionalPhone('+442071838750')).toBe(false);
   });
 });
+
+describe('a written country code is never reinterpreted as NANP', () => {
+  // Regression: normalizePhone used to take the 10-digit NANP branch without consulting the
+  // leading '+', turning a Norwegian mobile into a real Arkansas number and dialing a stranger.
+  it.each([
+    ['+47 941 23 456', 'Norway'],
+    ['+4794123456', 'Norway, unspaced'],
+    ['+45 26 45 67 89', 'Denmark'],
+    ['+65 8234 5678', 'Singapore'],
+  ])('drops %s (%s) rather than inventing a +1 number', (input) => {
+    const out = normalizePhone(input);
+    expect(out).toBeNull();
+    // The specific catastrophe: silently becoming a dialable NANP number.
+    expect(out === null || !out.startsWith('+1')).toBe(true);
+  });
+
+  it('still normalizes the same numbers correctly in 00 trunk form', () => {
+    expect(normalizePhone('0047 94123456')).toBe('+4794123456');
+    expect(normalizePhone('0045 26456789')).toBe('+4526456789');
+  });
+
+  it('does not regress plain NANP or +1 NANP', () => {
+    expect(normalizePhone('(415) 555-0142')).toBe('+14155550142');
+    expect(normalizePhone('415-555-0142')).toBe('+14155550142');
+    expect(normalizePhone('+1 (415) 555-0142')).toBe('+14155550142');
+    expect(normalizePhone('+14155550142')).toBe('+14155550142');
+    expect(normalizePhone('1-415-555-0142')).toBe('+14155550142');
+  });
+
+  it('still accepts genuine longer international numbers', () => {
+    expect(normalizePhone('+44 20 7183 8750')).toBe('+442071838750');
+    expect(normalizePhone('+33 6 12 34 56 78')).toBe('+33612345678');
+    expect(normalizePhone('+61 2 9374 4000')).toBe('+61293744000');
+  });
+});

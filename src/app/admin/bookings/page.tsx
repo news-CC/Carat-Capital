@@ -7,8 +7,13 @@ import { BookingsTable, type BookingRowView } from '@/components/admin/BookingsT
 export const dynamic = 'force-dynamic';
 
 const PAGE_SIZE = 200;
+/** PostgREST's own response cap, so a full page means "there is probably more". */
+const VALUE_PAGE = 1_000;
+const VALUE_SCAN_CAP = 100_000;
 
 const n = (r: { count: number | null }): number => r.count ?? 0;
+
+type Db = ReturnType<typeof supabaseAdmin>;
 
 export default async function BookingsPage({
   searchParams,
@@ -33,15 +38,13 @@ export default async function BookingsPage({
     .limit(PAGE_SIZE);
   if (clientId) query = query.eq('client_id', clientId);
 
-  const [bookingsRes, confirmedRes, weekRes] = await Promise.all([
+  const [bookingsRes, confirmedRes, weekValue] = await Promise.all([
     query,
     db.from('bookings').select('*', { count: 'exact', head: true }).eq('confirmed', true),
-    db.from('bookings').select('estimated_value_cents').gte('created_at', since),
+    weekValueCents(db, since),
   ]);
 
   const bookings = bookingsRes.data ?? [];
-  const week = weekRes.data ?? [];
-  const weekCents = week.reduce((sum, row) => sum + (row.estimated_value_cents ?? 0), 0);
 
   const contactIds = bookings.map((b) => b.contact_id).filter((id): id is string => Boolean(id));
   const contactsRes =
@@ -94,7 +97,9 @@ export default async function BookingsPage({
           <p className="stat-label">Confirmed by the salon</p>
         </div>
         <div className="stat">
-          <p className="stat-num tabular-nums text-brass-deep">{usd(weekCents)}</p>
+          <p className="stat-num tabular-nums text-brass-deep">
+            {weekValue.cents === null ? '—' : usd(weekValue.cents)}
+          </p>
           <p className="stat-label">Est. value · 7d, all clients</p>
         </div>
       </section>
@@ -127,6 +132,10 @@ export default async function BookingsPage({
         <p className="error-text">Could not load bookings: {bookingsRes.error.message}</p>
       )}
 
+      {weekValue.error && (
+        <p className="error-text">Could not total this week&rsquo;s value: {weekValue.error}</p>
+      )}
+
       <div className="card">
         <BookingsTable rows={rows} />
       </div>
@@ -137,4 +146,39 @@ export default async function BookingsPage({
       </p>
     </div>
   );
+}
+
+/**
+ * The week's booked value, summed page by page. One plain select would be capped at 1000 rows by
+ * PostgREST, so the tile would quietly stop growing while the count tiles beside it kept rising.
+ * Ascending created_at is what makes the paging safe: a booking written mid-scan lands on the last
+ * page, never shifting a page already read into counting a row twice.
+ */
+async function weekValueCents(
+  db: Db,
+  since: string,
+): Promise<{ cents: number | null; error: string | null }> {
+  let cents = 0;
+  for (let from = 0; from < VALUE_SCAN_CAP; from += VALUE_PAGE) {
+    const { data, error } = await db
+      .from('bookings')
+      .select('estimated_value_cents')
+      .gte('created_at', since)
+      .order('created_at', { ascending: true })
+      .order('id', { ascending: true })
+      .range(from, from + VALUE_PAGE - 1);
+    // A partial sum shown as a dollar figure is a wrong number, so the tile shows nothing instead.
+    if (error) return { cents: null, error: error.message };
+
+    const rows = data ?? [];
+    for (const row of rows) cents += row.estimated_value_cents ?? 0;
+    if (rows.length < VALUE_PAGE) return { cents, error: null };
+  }
+
+  // Out of scan budget, so the real total is higher than what we summed — and a money tile that
+  // reads low is worse than one that reads nothing.
+  return {
+    cents: null,
+    error: `over ${VALUE_SCAN_CAP.toLocaleString('en-US')} bookings in the window — total not shown`,
+  };
 }

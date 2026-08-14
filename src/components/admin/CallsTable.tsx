@@ -54,9 +54,12 @@ export function CallsTable({
   rows: CallRowView[];
   showClient?: boolean;
 }) {
+  // Every caller drops this into a bare `.card`, which has no padding of its own, so the inset lives
+  // here: without it the empty line sits in the card's corner and `.table th` (zero top padding) touches
+  // the card's top border. Vertical only — the cells keep the horizontal inset so hover rows stay full-bleed.
   if (rows.length === 0) {
     return (
-      <p className="help">
+      <p className="card-pad help">
         No calls yet — the cron dials only inside the call window, so an empty table before 9am local is
         normal.
       </p>
@@ -64,7 +67,7 @@ export function CallsTable({
   }
 
   return (
-    <div className="overflow-x-auto">
+    <div className="overflow-x-auto py-4">
       <table className="table">
         <thead>
           <tr>

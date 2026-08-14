@@ -9,6 +9,7 @@ import { MAX_UPLOAD_ROWS } from '@/lib/parse-sheet';
 import { err, ok, type Result } from '@/lib/result';
 import { scrubRows, type RawRow, type ScrubStats } from '@/lib/scrub';
 import { supabaseAdmin } from '@/lib/supabase/admin';
+import { loadSuppressionPhones } from '@/lib/suppression';
 
 /** What the wizard shows on the receipt screen. The server's numbers are the real ones. */
 export type UploadOutcome = {
@@ -18,11 +19,14 @@ export type UploadOutcome = {
   already_on_campaign: number;
   suppression_list_size: number;
   consent_required: boolean;
+  /**
+   * Rows kept on the operator's flag with a blank consent cell, stored with consent = false. They sit
+   * in the table and can never be claimed for dialing; counted so the receipt says so out loud.
+   */
+  stored_without_consent: number;
 };
 
 const CHUNK_SIZE = 500;
-const SUPPRESSION_PAGE = 1_000;
-const SUPPRESSION_CAP = 200_000;
 
 const UploadSchema = z.object({
   clientId: z.uuid('That client link is malformed.'),
@@ -36,6 +40,16 @@ const UploadSchema = z.object({
 });
 
 export type UploadInput = z.input<typeof UploadSchema>;
+
+/**
+ * What the server's scrub is about to do, so the wizard's dry run can model it instead of assuming
+ * it. REQUIRE_CONSENT_FLAG is server-side only; a preview that guessed it would show the operator a
+ * count that is not the one being written.
+ */
+export async function uploadPolicy(): Promise<{ consent_required: boolean }> {
+  await requireAdmin(); // GATE: admin session, or redirect to /login.
+  return { consent_required: requireConsent() };
+}
 
 export async function uploadContacts(input: UploadInput): Promise<Result<UploadOutcome>> {
   await requireAdmin(); // GATE: admin session, or redirect to /login.
@@ -65,13 +79,9 @@ export async function uploadContacts(input: UploadInput): Promise<Result<UploadO
 
   // GATE: the live do-not-contact list. If we cannot read it we fail closed and write nothing —
   // an upload that skipped the suppression check would be worse than a failed upload.
-  let suppressed: Set<string>;
-  try {
-    suppressed = await loadSuppressionPhones(sb);
-  } catch (cause) {
-    const detail = cause instanceof Error ? cause.message : 'unknown error';
-    return err(`Nothing was written: the do-not-contact list could not be read (${detail}).`);
-  }
+  const suppression = await loadSuppressionPhones(sb);
+  if (!suppression.ok) return err(`Nothing was written: ${suppression.error}.`);
+  const suppressed = suppression.data;
 
   // GATE: consent, phone validity, suppression and in-file duplicates, re-run server-side. The
   // browser preview the operator just looked at is advisory only; this run is the authority.
@@ -87,7 +97,9 @@ export async function uploadContacts(input: UploadInput): Promise<Result<UploadO
       phone: row.phone,
       phone_raw: row.phone_raw,
       email: row.email,
-      consent: true,
+      // GATE: the sheet's own answer, never an upgrade of it. `claim_contacts_for_dialing` reads this
+      // column as its hard consent gate, so a false here is a row that never dials.
+      consent: row.consent,
       last_visit: row.last_visit,
       lifetime_value_cents: row.lifetime_value_cents,
       status: 'pending' as const,
@@ -115,25 +127,6 @@ export async function uploadContacts(input: UploadInput): Promise<Result<UploadO
     already_on_campaign: scrub.stats.kept - inserted,
     suppression_list_size: suppressed.size,
     consent_required: requireConsent(),
+    stored_without_consent: scrub.kept.filter((row) => !row.consent).length,
   });
-}
-
-/**
- * The whole suppression list, paged because PostgREST caps a response at 1000 rows. Small table by
- * design: one row per person who ever said no.
- */
-async function loadSuppressionPhones(sb: ReturnType<typeof supabaseAdmin>): Promise<Set<string>> {
-  const phones = new Set<string>();
-  for (let from = 0; from < SUPPRESSION_CAP; from += SUPPRESSION_PAGE) {
-    const { data, error } = await sb
-      .from('suppression')
-      .select('phone')
-      .order('phone')
-      .range(from, from + SUPPRESSION_PAGE - 1);
-    if (error) throw new Error(error.message);
-    if (!data || data.length === 0) break;
-    for (const row of data) if (row.phone) phones.add(row.phone);
-    if (data.length < SUPPRESSION_PAGE) break;
-  }
-  return phones;
 }

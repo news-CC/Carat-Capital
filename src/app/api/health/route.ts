@@ -1,5 +1,7 @@
 import { NextResponse } from 'next/server';
 
+import { getSession } from '@/lib/auth';
+import { authorizeCron } from '@/lib/cron-auth';
 import { optionalEnv } from '@/lib/env';
 import { supabaseAdmin } from '@/lib/supabase/admin';
 
@@ -33,13 +35,23 @@ const CRITICAL: readonly string[] = [
   'NEXT_PUBLIC_SUPABASE_URL',
 ];
 
-export async function GET() {
+export async function GET(req: Request) {
   const env: Record<string, boolean> = {};
   for (const key of ENV_KEYS) env[key] = Boolean(optionalEnv(key));
 
   const database = await checkDatabase();
   const missing = CRITICAL.filter((key) => !env[key]);
   const ok = database.reachable && missing.length === 0;
+
+  // Anonymous callers get liveness only. Which-secret-is-set is a map of the deployment's
+  // attack surface, and the raw database error is free fingerprinting — an uptime check needs
+  // neither. The detail view is for the operator: the cron bearer, or an admin session.
+  if (!authorizeCron(req) && !(await getSession())) {
+    return NextResponse.json(
+      { ok, service: 'salon-malone', time: new Date().toISOString() },
+      { status: ok ? 200 : 503 },
+    );
+  }
 
   return NextResponse.json(
     { ok, service: 'salon-malone', time: new Date().toISOString(), env, missing, database },
@@ -53,8 +65,12 @@ async function checkDatabase(): Promise<{ reachable: boolean; error: string | nu
       .from('clients')
       .select('id', { head: true, count: 'exact' })
       .abortSignal(AbortSignal.timeout(5_000));
+    // Logged, not returned to an unauthenticated caller: the message is only useful to us.
+    if (error) console.error('[health] database unreachable', error.message);
     return { reachable: !error, error: error?.message ?? null };
   } catch (e) {
-    return { reachable: false, error: e instanceof Error ? e.message : 'supabase unreachable' };
+    const message = e instanceof Error ? e.message : 'supabase unreachable';
+    console.error('[health] database unreachable', message);
+    return { reachable: false, error: message };
   }
 }

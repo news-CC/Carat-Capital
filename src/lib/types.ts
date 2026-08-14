@@ -312,7 +312,10 @@ export type Database = {
         Args: { p_limit: number; p_window_start: string; p_window_end: string };
         Returns: Database['public']['Tables']['contacts']['Row'][];
       };
-      /** Sweeps rows stranded in 'calling' to 'failed'. Returns the row count. */
+      /**
+       * Sweeps contacts stranded in 'calling' and calls stranded in 'dialing' to
+       * 'failed'. Returns the total rows swept (contacts + calls).
+       */
       expire_stuck_calling: {
         Args: { p_older_than_minutes: number };
         Returns: number;

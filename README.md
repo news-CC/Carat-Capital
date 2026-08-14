@@ -38,11 +38,11 @@ failure is not "the gate was missing", it is "the gate was bypassed by a code pa
 
 | Gate | Where it is enforced |
 |---|---|
-| **Consent must be `true`** | `src/lib/scrub.ts` at upload (first gate, before anything else) · `claim_contacts_for_dialing` in `0001_init.sql` (`c2.consent = true`) · re-checked in app code in `src/app/api/cron/dial/route.ts` |
-| **Never dial a suppressed number** | `src/lib/scrub.ts` against the live `suppression` table · `not exists` clause in the claim SQL · re-checked again in `dial/route.ts` before the call is placed |
+| **Consent must be `true`** | `src/lib/scrub.ts` at upload (first gate, before anything else) · `claim_contacts_for_dialing` in `0001_init.sql` (`c2.consent = true`) · re-checked unconditionally in app code in `src/app/api/cron/dial/route.ts`. `contacts.consent` stores what the uploaded sheet said and nothing else — a row kept under `REQUIRE_CONSENT_FLAG=false` is stored `consent = false`, so it can never be claimed. A cell that says **no** out loud (`no`, `false`, `opt_out`, `dnc`, …) is dropped whatever the flag says: the flag may cover a blank cell, never a written refusal |
+| **Never dial a suppressed number** | `src/lib/scrub.ts` against the live `suppression` table · `not exists` clause in the claim SQL · re-checked again in `dial/route.ts` before the call is placed. One implementation of the write in `src/lib/suppression.ts`, shared by the webhook and both admin paths |
 | **Never dial outside the calling window** | `src/lib/call-window.ts` · the claim SQL compares `now() at time zone cl.timezone` against the window · re-checked in `dial/route.ts`. The window is in the **client's** timezone, not yours or the server's. An unparseable timezone returns `false` — it fails closed and does not dial |
 | **One attempt per contact, ever** | `c2.attempts = 0` in the claim SQL. Not application memory, not a retry counter. A window miss is reverted rather than counted, so it is not spent as an attempt |
-| **Opt-out is instant and global** | `src/app/api/vapi/webhook/route.ts`: inserts into `suppression`, sets the contact to `opted_out` and the call to `opted_out` before returning. Detected from the end-of-call structured data and, as a backstop, a regex over the transcript |
+| **Opt-out is instant and global** | `src/app/api/vapi/webhook/route.ts`: writes `suppression`, pulls the number out of every client's pending queue, sets the contact to `opted_out` and the call to `opted_out` before returning — and answers **500** if the suppression row could not be written, so Vapi re-delivers rather than the opt-out being lost. Detected from the end-of-call structured data and, as a backstop, the phrase list in `src/lib/opt-out.ts` (`tests/opt-out.test.ts`), matched against the **caller's** turns only |
 | **Malone always discloses it is not human** | `MALONE_SYSTEM_PROMPT` in `src/lib/malone.ts`. Mandatory in the opening line and again whenever asked. Mirrored in `scripts/setup-vapi.mjs`, which is what actually configures the assistant |
 
 The browser-side scrub preview in the upload wizard is advisory only. The server action re-runs
@@ -127,6 +127,13 @@ Creates or updates the "Salon Malone" assistant (looked up by name, so it update
 provisions a free Vapi phone number if the account has none. Prints `VAPI_ASSISTANT_ID`,
 `VAPI_PHONE_NUMBER_ID`, and a generated `VAPI_WEBHOOK_SECRET` if you had not set one.
 
+The prompt, voice config and analysis plan are **not** duplicated in the script — it imports
+`maloneAssistantPayload()` from `src/lib/malone.ts`, which is the only place the persona is defined.
+Edit `malone.ts`, re-run this, done. That import needs a Node that strips TypeScript types: **Node
+≥ 22.18** (no flag). On Node 22.6–22.17 add `--experimental-strip-types`; the script says so if the
+import fails. The dry run also reports when the *deployed* assistant's prompt or webhook URL has
+drifted from the repo, which is the state to check before any demo call.
+
 If it generated the secret, **save it immediately** — the assistant was configured with it and it is
 stored nowhere else. Lose it and every webhook delivery is rejected with a 401, which looks exactly like
 "calls happen but nothing is ever recorded".
@@ -172,8 +179,16 @@ no call, booking or opt-out is ever written.
 curl -s https://your-domain.com/api/health | jq
 ```
 
-Returns 200 with `ok: true` when the database is reachable and no required variable is missing; 503 and
-a `missing` array otherwise. Then log in at `/login` and confirm `/admin` renders.
+Returns 200 with `ok: true` when the database is reachable and no required variable is missing, 503
+otherwise. Anonymous callers get liveness only (`ok`, `service`, `time`) — which secrets are set is a
+map of the deployment, so the detail is for the operator. Add the cron bearer (or call it with an
+admin session in the browser) to see the `env` map, the `missing` array and the database error:
+
+```bash
+curl -s -H "Authorization: Bearer $CRON_SECRET" https://your-domain.com/api/health | jq
+```
+
+Then log in at `/login` and confirm `/admin` renders.
 
 Trigger a cron by hand:
 
@@ -208,8 +223,9 @@ With nothing queued this returns a claimed count of zero, which is a successful 
 | `NEXT_PUBLIC_STRIPE_LINK_SALON_399` · `_MEDSPA_999` · `_GROUP_2499` · `_PILOT_299` | yes | Same URLs. The pricing buttons read these in the browser. |
 | `CRON_SECRET` | yes | Bearer token for the cron routes. Vercel's own `x-vercel-cron` header is also accepted. |
 | `CALL_WINDOW_START` / `CALL_WINDOW_END` | no | `HH:MM`, 24h, in each client's local time. Defaults `09:00` / `19:00`. |
-| `REQUIRE_CONSENT_FLAG` | no | Only the exact string `false` disables the consent gate. Do not. |
+| `REQUIRE_CONSENT_FLAG` | no | Only the exact string `false` relaxes the upload gate, and only for a **blank** consent cell — a cell that says no is still dropped, and rows kept this way are stored `consent = false`, which the dialer's hard gate never claims. Do not set it. |
 | `MAX_CONCURRENT_CALLS` | no | Default 8. The standard plan has 10 lines; leave headroom. |
+| `DIAL_FICTIONAL_NUMBERS` | no | Only the exact string `true` lets the dialer place calls to the 555-01XX reserved-for-fiction range. Off by default; the demo list is built entirely from that range, so turning it on buys billed failures and burns those contacts' one attempt. |
 | `SUPABASE_DB_URL` | no | Scripts only, never read by the app. Lets `apply-migration.mjs` offer a `psql` command. |
 
 `src/lib/env.ts` is the only module permitted to read `process.env`. Add new variables to its
@@ -224,7 +240,7 @@ With nothing queued this returns a claimed count of zero, which is a successful 
 | Path | Schedule | Does |
 |---|---|---|
 | `/api/cron/dial` | `*/5 * * * *` | Expires rows stuck in `calling`, claims pending contacts inside their window, dials up to the concurrency cap. |
-| `/api/cron/report` | `0 20 * * 5` | Friday, the weekly report per active client. |
+| `/api/cron/report` | `0 20 * * 5` | Friday, the weekly report per **billable** client (`trialing`, `active`, `past_due`). Deliberately not `clients.active`: that is the campaign on/off switch, and a salon dialled Monday to Wednesday still earned its wrap-up if you paused it on Thursday. `canceled` gets nothing, and a client with no calls in the period is skipped. |
 
 **A five-minute schedule needs a Vercel Pro plan.** Hobby projects are limited to a small number of
 cron jobs that run at most once a day, and Vercel will either reject the schedule or quietly run it
@@ -263,8 +279,13 @@ Full walkthrough, expected numbers, and why you should not start a campaign on t
 - Recordings and transcripts are not copied anywhere. Only Vapi's URLs are stored.
 - Every dial attempt writes a `calls` row, including failures. A call that happened without a row is a
   bug worth chasing.
-- The Vapi webhook always returns 200, even on internal errors, so a poison payload is not retried
-  forever. Errors go to the Vercel logs. The one exception is a bad secret, which is a 401.
+- The Vapi webhook answers 200 for anything it cannot use — malformed JSON, an unexpected shape, an
+  event type we ignore — so a poison payload is never retried forever. It answers **500** only when a
+  write a re-delivery could repair was lost (above all the suppression row, but also the `calls` row,
+  the booking and the contact status), because Vapi re-delivering the report is the only second chance
+  those writes get. A bad secret is a 401. Everything else goes to the Vercel logs; the line worth
+  alerting on is `[vapi-webhook] SUPPRESSION WRITE FAILED`, which after Vapi exhausts its retries is
+  the only trace that someone asked to be left alone and was not recorded.
 - v1 observability is the Supabase tables plus Vercel logs. That is the whole plan.
 
 ---
@@ -291,7 +312,8 @@ Not oversights. If you want one of these, it is a decision to make on purpose, w
 ## Layout
 
 ```
-src/lib/            env, types, phone, scrub, call-window, money, revenue, auth, result
+src/lib/            env, types, phone, scrub, opt-out, suppression, calls, call-window,
+                    next-path, money, revenue, auth, result
 src/lib/email/      Resend wrapper + the booking alert and Friday report templates
 src/lib/malone.ts   the voice persona — source of truth for the prompt
 src/app/api/        cron/dial, cron/report, vapi/webhook, stripe/webhook, health
@@ -299,7 +321,7 @@ src/app/admin/      the admin app (server components + server actions)
 scripts/            setup-stripe, setup-vapi, apply-migration, hash-password, demo clientele
 supabase/migrations 0001_init.sql — five tables, indexes, RLS, the claim RPC
 demo/               synthetic clientele and the demo walkthrough
-tests/              the scrub, phone and call-window gates
+tests/              the scrub, phone, call-window, opt-out and next-path gates
 ```
 
 ```bash

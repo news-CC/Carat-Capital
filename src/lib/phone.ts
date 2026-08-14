@@ -22,7 +22,13 @@ export function normalizePhone(raw: unknown): string | null {
   if (digits.length < 10 || digits.length > 15) return null;
   if (/^(\d)\1+$/.test(digits)) return null; // 0000000000, 5555555555 — placeholder junk
 
-  if (digits.length === 10) return nanp(digits);
+  // A bare 10-digit string is NANP. A 10-digit string the operator wrote a country code on is
+  // NOT: '+47 941 23 456' is Norwegian, and reading it as NANP silently yields +1 479 412 3456 —
+  // a real Arkansas subscriber who never consented, is not on anyone's list, and whose opt-out
+  // could never match because we stored a different number than the sheet contained. Any 2-digit
+  // country code with an 8-digit national number lands here (+47, +45, +65, and several
+  // BE/SE/HU landline forms), so this branch must never run on a '+'-prefixed value.
+  if (digits.length === 10) return hadPlus ? null : nanp(digits);
   if (digits.length === 11 && digits.startsWith('1')) return nanp(digits.slice(1));
 
   // International: only trust it when the caller actually wrote a country code.

@@ -11,6 +11,9 @@ type BillingStatus = 'trialing' | 'active' | 'past_due' | 'canceled';
 
 type Change = { status: BillingStatus; customerId: string | null; email: string | null };
 
+/** 'ambiguous' = the email matched more than one client, so nothing was written. */
+type Matched = 'customer_id' | 'email' | 'ambiguous' | 'none';
+
 export async function POST(req: Request) {
   const signature = req.headers.get('stripe-signature');
   if (!signature) {
@@ -86,7 +89,7 @@ async function resolveChange(stripe: Stripe, event: Stripe.Event): Promise<Chang
 }
 
 /** Match on stripe_customer_id first, then fall back to the contact email. */
-async function applyStatus(change: Change): Promise<'customer_id' | 'email' | 'none'> {
+async function applyStatus(change: Change): Promise<Matched> {
   const db = supabaseAdmin();
 
   if (change.customerId) {
@@ -100,17 +103,35 @@ async function applyStatus(change: Change): Promise<'customer_id' | 'email' | 'n
   }
 
   if (change.email) {
-    // Backfill the customer id so every later event matches on the fast path.
-    const { data, error } = await db
-      .from('clients')
-      .update({
-        stripe_status: change.status,
-        ...(change.customerId ? { stripe_customer_id: change.customerId } : {}),
-      })
-      .ilike('contact_email', change.email)
-      .select('id');
+    // Exact equality, not `ilike`: the email is whatever the payer typed into Stripe, and a
+    // pattern operator turns `%`, `_` or PostgREST's `*` in that string into a wildcard that
+    // rewrites every client's billing status. contact_email is stored lowercased (the admin
+    // form is the only writer — src/app/admin/clients/actions.ts), so lowercasing here is all
+    // the case-insensitivity this lookup ever needed.
+    const email = change.email.toLowerCase();
+    const { data, error } = await db.from('clients').select('id').eq('contact_email', email);
     if (error) throw new Error(error.message);
-    if ((data ?? []).length > 0) return 'email';
+
+    const ids = (data ?? []).map((row) => row.id);
+    // contact_email has no unique constraint (one owner, two locations, one email is a normal
+    // shape here), and a guess would set the WRONG salon to past_due and cross-wire its
+    // stripe_customer_id onto the fast path forever. Ambiguous means write nothing.
+    if (ids.length > 1) {
+      console.warn('[stripe-webhook] contact_email matches', ids.length, 'clients — not guessing', email);
+      return 'ambiguous';
+    }
+    if (ids.length === 1) {
+      const { error: updateError } = await db
+        .from('clients')
+        .update({
+          stripe_status: change.status,
+          // Backfill the customer id so every later event matches on the fast path.
+          ...(change.customerId ? { stripe_customer_id: change.customerId } : {}),
+        })
+        .eq('id', ids[0]);
+      if (updateError) throw new Error(updateError.message);
+      return 'email';
+    }
   }
 
   return 'none';

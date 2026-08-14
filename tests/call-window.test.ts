@@ -1,5 +1,10 @@
 import { describe, expect, it } from 'vitest';
-import { isInsideCallWindow, localTimeInZone, nextWindowOpenLabel } from '@/lib/call-window';
+import {
+  isInsideCallWindow,
+  localTimeInZone,
+  localTimeLabel,
+  nextWindowOpenLabel,
+} from '@/lib/call-window';
 
 // 18:30 UTC on a summer Saturday: 14:30 in New York (EDT), 00:00 in Kolkata.
 const SUMMER = new Date('2026-08-15T18:30:00Z');
@@ -24,6 +29,26 @@ describe('localTimeInZone', () => {
 
   it('throws on a timezone that does not exist', () => {
     expect(() => localTimeInZone('Mars/Phobos', SUMMER)).toThrow(RangeError);
+  });
+});
+
+describe('localTimeLabel', () => {
+  it('reads the same clock as localTimeInZone for a real zone', () => {
+    expect(localTimeLabel('America/New_York', SUMMER)).toBe('14:30');
+  });
+
+  // clients.timezone is free text in the database. One junk row must not 500 an admin page,
+  // which is the whole reason this wrapper exists.
+  it('never throws on a junk timezone', () => {
+    expect(localTimeLabel('Mars/Phobos', SUMMER)).toBe('--:--');
+    expect(localTimeLabel('', SUMMER)).toBe('--:--');
+    expect(localTimeLabel('Eastern Standard Time', SUMMER)).toBe('--:--');
+  });
+
+  it('does not make a junk timezone look dialable', () => {
+    // The label degrades; the gate stays shut.
+    expect(localTimeLabel('Mars/Phobos', SUMMER)).toBe('--:--');
+    expect(isInsideCallWindow('Mars/Phobos', '00:00', '23:59', SUMMER)).toBe(false);
   });
 });
 

@@ -7,6 +7,7 @@ import { z } from 'zod';
 import { requireAdmin } from '@/lib/auth';
 import { publicEnv, serverEnv } from '@/lib/env';
 import { normalizePhone } from '@/lib/phone';
+import { err, ok, type Result } from '@/lib/result';
 import { supabaseAdmin } from '@/lib/supabase/admin';
 
 /** Only types and async functions may leave a `'use server'` module. */
@@ -183,30 +184,96 @@ async function selfOrigin(): Promise<string> {
   return `${proto}://${host}`;
 }
 
+/** What /api/cron/report answers with. It returns HTTP 200 for "nothing was sent" as well. */
+type ReportRunResult = { salonName: string; sent: boolean; reason?: string };
+type ReportRunBody = { ok?: boolean; error?: string; results?: ReportRunResult[] };
+
+/** Enough names to be useful, few enough to fit in a redirect URL. */
+const NAME_LIMIT = 3;
+
 export async function sendWeeklyReportNowAction(formData: FormData): Promise<void> {
   await requireAdmin();
   const id = field(formData, 'id');
   const url = new URL('/api/cron/report', await selfOrigin());
   if (id) url.searchParams.set('client_id', id);
 
-  // Same door the Friday cron uses, so a manual send exercises the real code path.
-  let status = 0;
+  const run = await runReportJob(url);
+
+  // Same ?notice / ?error convention the campaign actions use.
+  const query = new URLSearchParams(
+    run.ok ? { notice: run.data } : { error: run.error },
+  ).toString();
+  redirect(id ? `/admin/clients/${id}?${query}` : `/admin/clients?${query}`);
+}
+
+/**
+ * Same door the Friday cron uses, so a manual send exercises the real code path — which means the
+ * verdict has to come out of the body, not the status code. A quiet week, a client the billing gate
+ * excludes and a dead Resend key all answer HTTP 200, and a green "job ran" notice for an email
+ * that never left is how the operator finds out a week late.
+ */
+async function runReportJob(url: URL): Promise<Result<string>> {
+  let res: Response;
   try {
-    const res = await fetch(url, {
+    res = await fetch(url, {
       headers: { Authorization: `Bearer ${serverEnv('CRON_SECRET')}` },
       cache: 'no-store',
     });
-    status = res.status;
-  } catch {
-    status = 0;
+  } catch (e) {
+    const detail = e instanceof Error ? e.message : 'no response';
+    return err(`The report job did not run (${detail}). Check the logs.`);
   }
 
-  // Same ?notice / ?error convention the campaign actions use.
-  const params: Record<string, string> =
-    status >= 200 && status < 300
-      ? { notice: 'Report job ran. Clients with no dials this week are skipped.' }
-      : { error: `The report job did not run (HTTP ${status || 'no response'}). Check the logs.` };
+  const body = await readReportBody(res);
+  if (!res.ok || body === null || body.ok === false) {
+    return err(
+      `The report job failed (HTTP ${res.status}: ${body?.error ?? 'unreadable response'}). Check the logs.`,
+    );
+  }
 
-  const query = new URLSearchParams(params).toString();
-  redirect(id ? `/admin/clients/${id}?${query}` : `/admin/clients?${query}`);
+  const results = body.results ?? [];
+  const sent = results.filter((r) => r.sent);
+  const skipped = results.filter((r) => !r.sent);
+
+  if (sent.length === 0) {
+    return err(
+      results.length === 0
+        ? 'No report was sent: the job matched no client. Check the client still exists.'
+        : `No report was sent — ${skipSummary(skipped)}.`,
+    );
+  }
+
+  const names =
+    sent.length <= NAME_LIMIT ? sent.map((r) => r.salonName).join(', ') : `${sent.length} clients`;
+  return ok(
+    skipped.length === 0
+      ? `Report emailed to ${names}.`
+      : `Report emailed to ${names}. Skipped — ${skipSummary(skipped)}.`,
+  );
+}
+
+async function readReportBody(res: Response): Promise<ReportRunBody | null> {
+  try {
+    return (await res.json()) as ReportRunBody;
+  } catch {
+    // Null is a distinct outcome, not a swallowed error: the caller reports it with the status.
+    return null;
+  }
+}
+
+function skipSummary(skipped: ReportRunResult[]): string {
+  if (skipped.length > NAME_LIMIT) return `${skipped.length} clients skipped, reasons in the logs`;
+  return skipped.map((r) => `${r.salonName}: ${skipPhrase(r.reason)}`).join('; ');
+}
+
+/** Plain English for the route's reasons, which are a bare token or `<token>: <detail>`. */
+function skipPhrase(reason: string | undefined): string {
+  if (!reason) return 'skipped, no reason given';
+  if (reason === 'no_activity') return 'no calls in the last 7 days';
+  if (reason.startsWith('not_reportable: ')) return reason.slice('not_reportable: '.length);
+  // One of the five count queries behind the email (four on calls, one on bookings) errored.
+  if (reason.startsWith('counts_query_failed: ')) {
+    return `the week's numbers could not be counted — ${reason.slice('counts_query_failed: '.length)}`;
+  }
+  return reason; // A Resend failure comes back as its own message, already readable.
 }

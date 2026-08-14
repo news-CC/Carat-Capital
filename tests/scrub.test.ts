@@ -1,5 +1,12 @@
 import { describe, expect, it } from 'vitest';
-import { firstNameOf, parseConsent, scrubRows, type RawRow, type ScrubResult } from '@/lib/scrub';
+import {
+  firstNameOf,
+  isConsentRefused,
+  parseConsent,
+  scrubRows,
+  type RawRow,
+  type ScrubResult,
+} from '@/lib/scrub';
 
 /** A row that passes every gate, so each test can break exactly one thing. */
 function goodRow(overrides: RawRow = {}): RawRow {
@@ -84,6 +91,55 @@ describe('parseConsent', () => {
   });
 });
 
+describe('isConsentRefused', () => {
+  it('recognizes a cell that says no out loud', () => {
+    for (const value of [
+      false,
+      0,
+      '0',
+      'no',
+      'No',
+      'NO',
+      'N',
+      'false',
+      'FALSE',
+      'f',
+      'opted_out',
+      'Opted Out',
+      'opt-out',
+      'unsubscribed',
+      'revoked',
+      'stop',
+      'STOP',
+      'do not call',
+      'do_not_call',
+      'DNC',
+    ]) {
+      expect(isConsentRefused(value), `expected ${String(value)} to be a refusal`).toBe(true);
+    }
+  });
+
+  it('does not read a blank or unreadable cell as a refusal — that is what the flag may cover', () => {
+    for (const value of [
+      true,
+      1,
+      2,
+      'yes',
+      'maybe',
+      'pending',
+      '',
+      '   ',
+      null,
+      undefined,
+      {},
+      [],
+      Number.NaN,
+    ]) {
+      expect(isConsentRefused(value), `expected ${String(value)} not to be a refusal`).toBe(false);
+    }
+  });
+});
+
 describe('firstNameOf', () => {
   it('takes the given name out of the shapes exports produce', () => {
     expect(firstNameOf('Jane Doe')).toBe('Jane');
@@ -138,16 +194,59 @@ describe('scrubRows — GATE 1: consent', () => {
 
   it('honours requireConsent: false without loosening any other gate', () => {
     const rows = [
-      goodRow({ 'SMS Consent': 'no' }),
-      goodRow({ 'Phone Number': 'nope', 'SMS Consent': 'no' }),
-      goodRow({ 'Phone Number': '415-555-0143', 'SMS Consent': 'no' }),
+      goodRow({ 'SMS Consent': '' }),
+      goodRow({ 'Phone Number': 'nope', 'SMS Consent': '' }),
+      goodRow({ 'Phone Number': '415-555-0143', 'SMS Consent': '' }),
     ];
     const result = scrubRows(rows, ['+14155550143'], { requireConsent: false });
     expect(result.stats.dropped_no_consent).toBe(0);
     expect(result.stats.dropped_invalid_phone).toBe(1);
     expect(result.stats.dropped_suppressed).toBe(1);
     expect(result.kept).toHaveLength(1);
-    expect(result.kept[0].consent).toBe(true);
+    // Kept, but never relabelled: the sheet did not say yes, so the record does not either.
+    expect(result.kept[0].consent).toBe(false);
+    expectStatsBalance(result);
+  });
+
+  it('drops a written refusal even with requireConsent: false — the flag cannot override a no', () => {
+    for (const written of [
+      '0',
+      'no',
+      'No',
+      'N',
+      'false',
+      'f',
+      'opted_out',
+      'Opted Out',
+      'opt-out',
+      'unsubscribed',
+      'revoked',
+      'stop',
+      'do not call',
+      'DNC',
+      false,
+      0,
+    ]) {
+      const result = scrubRows([goodRow({ 'SMS Consent': written })], [], { requireConsent: false });
+      expect(result.stats.dropped_no_consent, `written ${String(written)}`).toBe(1);
+      expect(result.kept, `written ${String(written)}`).toHaveLength(0);
+      expectStatsBalance(result);
+    }
+  });
+
+  it('lets the flag cover a blank or absent cell, and only that', () => {
+    const result = scrubRows(
+      [
+        goodRow({ 'SMS Consent': '' }),
+        goodRow({ 'Phone Number': '415-555-0143', 'SMS Consent': null }),
+        { Name: 'No consent column at all', Phone: '415-555-0144' },
+        goodRow({ 'Phone Number': '415-555-0145', 'SMS Consent': 'yes' }),
+      ],
+      [],
+      { requireConsent: false },
+    );
+    expect(result.stats.dropped_no_consent).toBe(0);
+    expect(result.kept.map((row) => row.consent)).toEqual([false, false, false, true]);
     expectStatsBalance(result);
   });
 });
@@ -373,6 +472,46 @@ describe('scrubRows — field parsing', () => {
       ['-50', null],
       ['(50.00)', null],
       ['1.2.3', null],
+      ['1,234,567', 123456700],
+      ['1 234 567', 123456700],
+    ];
+    for (const [input, expected] of cases) {
+      const result = scrubRows([goodRow({ LTV: input })], []);
+      expect(result.kept[0].lifetime_value_cents, `input ${String(input)}`).toBe(expected);
+    }
+  });
+
+  it('reads a European decimal comma instead of scaling it by a hundred', () => {
+    const cases: [unknown, number | null][] = [
+      ['1.234,50', 123450],
+      ['1 234,50', 123450],
+      ['€1.234,50', 123450],
+      ['1234,5', 123450],
+      ['1,50', 150],
+      ['1.234.567,89', 123456789],
+      ['1,234,567.89', 123456789],
+      // Grouping that holds up nowhere is refused rather than guessed at: a wrong lifetime value is
+      // worse than an empty one, because a client reads it in the contacts table.
+      ['1,234,56', null],
+      ['1,23.45', null],
+      ['1.234,567.89', null],
+      // Genuinely ambiguous, read US-style, same as '$12.345' above: one dot is a decimal point.
+      ['1.234', 123],
+    ];
+    for (const [input, expected] of cases) {
+      const result = scrubRows([goodRow({ LTV: input })], []);
+      expect(result.kept[0].lifetime_value_cents, `input ${String(input)}`).toBe(expected);
+    }
+  });
+
+  it('refuses a value past int4 instead of failing the insert chunk it lands in', () => {
+    const cases: [unknown, number | null][] = [
+      ['21474836.47', 2147483647], // exactly int4 max, in cents
+      ['21474836.48', null],
+      ['$21,474,836.48', null],
+      ['8005551234', null], // a loyalty number mapped onto Lifetime value
+      [21474836.47, 2147483647],
+      [21474836.48, null],
     ];
     for (const [input, expected] of cases) {
       const result = scrubRows([goodRow({ LTV: input })], []);

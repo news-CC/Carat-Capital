@@ -1,19 +1,16 @@
 import Link from 'next/link';
 import { requireAdmin } from '@/lib/auth';
+import { countLiveCalls, REACHED_OUTCOMES } from '@/lib/calls';
 import { callWindow, maxConcurrentCalls } from '@/lib/env';
-import { isInsideCallWindow, localTimeInZone, nextWindowOpenLabel } from '@/lib/call-window';
+import { isInsideCallWindow, localTimeLabel, nextWindowOpenLabel } from '@/lib/call-window';
 import { usd } from '@/lib/money';
 import { estimatedRecoveredCents, reachRate } from '@/lib/revenue';
 import { supabaseAdmin } from '@/lib/supabase/admin';
-import type { CallOutcome } from '@/lib/types';
 import { CallsTable, type CallRowView } from '@/components/admin/CallsTable';
 import { ClientCard, type ClientCardData } from '@/components/admin/ClientCard';
 import { QueueMeter } from '@/components/admin/QueueMeter';
 
 export const dynamic = 'force-dynamic';
-
-/** A human answered. Voicemail and busy are dials, not conversations. */
-const REACHED_OUTCOMES: CallOutcome[] = ['answered', 'booked', 'declined', 'opted_out'];
 
 const n = (r: { count: number | null }): number => r.count ?? 0;
 
@@ -34,7 +31,9 @@ export default async function DashboardPage() {
       .in('outcome', REACHED_OUTCOMES),
     db.from('bookings').select('*', { count: 'exact', head: true }).gte('created_at', since),
     db.from('suppression').select('*', { count: 'exact', head: true }).eq('reason', 'opt_out'),
-    db.from('calls').select('*', { count: 'exact', head: true }).eq('outcome', 'dialing'),
+    // The same predicate /api/cron/dial computes its headroom from: a tile that read
+    // outcome='dialing' would show fewer live calls than the dialer is counting against the cap.
+    countLiveCalls(db),
     db
       .from('clients')
       .select('id, name, vertical, timezone, stripe_status, active, avg_ticket_cents')
@@ -82,7 +81,8 @@ export default async function DashboardPage() {
       timezone: client.timezone,
       stripeStatus: client.stripe_status,
       active: client.active,
-      localTime: localTimeInZone(client.timezone),
+      // localTimeLabel, not localTimeInZone: a junk timezone must not 500 the dashboard.
+      localTime: localTimeLabel(client.timezone),
       // Window state and paused state are separate facts — the card shows both.
       windowOpen: isInsideCallWindow(client.timezone, start, end),
       windowHint: nextWindowOpenLabel(client.timezone, start, end),
@@ -160,7 +160,7 @@ export default async function DashboardPage() {
       </section>
 
       <QueueMeter
-        inFlight={n(inFlight)}
+        inFlight={inFlight}
         cap={cap}
         pending={n(pending)}
         windowLabel={`${start}–${end}`}

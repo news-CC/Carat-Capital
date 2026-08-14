@@ -7,17 +7,22 @@
  * is pinned so Gmail's dark mode does not invert the cream.
  */
 
-/** Palette mirrors the app's @theme tokens. Literal hex only — email clients have no variables. */
+/**
+ * Palette mirrors the app's @theme tokens in src/app/globals.css. Literal hex only — email clients
+ * have no variables — so the two have to be kept in step by hand: when a token there changes, change
+ * it here. inkMute and sage carry 10-13px text on the cream card in both templates, so they are the
+ * two that have to clear WCAG AA 4.5:1 (5.56:1 and 5.60:1 on cream at these values).
+ */
 export const PALETTE = {
   ink: '#17150F',
   inkSoft: '#57503F',
-  inkMute: '#8A8172',
+  inkMute: '#6B6353',
   cream: '#FAF7F1',
   shell: '#F1EBE1',
   brass: '#B0803C',
   brassDeep: '#8A6229',
   brassWash: '#F6EEE1',
-  sage: '#5F7A5C',
+  sage: '#506A4D',
   line: '#E4DCCF',
 } as const;
 

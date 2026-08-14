@@ -1,9 +1,13 @@
 'use client';
 
 import Link from 'next/link';
-import { useMemo, useState, useTransition } from 'react';
+import { useEffect, useMemo, useState, useTransition } from 'react';
 
-import { uploadContacts, type UploadOutcome } from '@/app/admin/clients/[id]/upload/actions';
+import {
+  uploadContacts,
+  uploadPolicy,
+  type UploadOutcome,
+} from '@/app/admin/clients/[id]/upload/actions';
 import {
   applyMapping,
   detectMapping,
@@ -34,7 +38,11 @@ type Step = 1 | 2 | 3 | 4;
 
 const STEP_LABELS = ['Choose the file', 'Confirm the columns', 'Dry run', 'Written'];
 
-/** Next caps a server action body at 1 MB by default; we stop short of it with a real message. */
+/**
+ * Next caps a server action body at 1 MB by default; we stop short of it with a real message. Bytes
+ * are the limit that actually binds a real export — well before MAX_UPLOAD_ROWS — so step 1 measures
+ * them there and then, where splitting the file is still the only work lost.
+ */
 const MAX_PAYLOAD_BYTES = 900_000;
 
 const DROP_LINES: {
@@ -102,16 +110,41 @@ export function UploadWizard({
   const [serverError, setServerError] = useState<string | null>(null);
   const [confirmed, setConfirmed] = useState<ScrubStats | null>(null);
   const [outcome, setOutcome] = useState<UploadOutcome | null>(null);
+  const [consentRequired, setConsentRequired] = useState<boolean | null>(null);
+  const [policyError, setPolicyError] = useState<string | null>(null);
   const [pending, startTransition] = useTransition();
 
   /**
-   * Advisory dry run. The browser passes an empty suppression list because it has none, and assumes
-   * consent is required — the server decides both for real.
+   * REQUIRE_CONSENT_FLAG lives on the server, so the wizard asks for it rather than assuming: a dry
+   * run that applied a gate the server does not would show a count that is not the one written. Until
+   * the answer arrives there is no preview at all — guessing the stricter value would still be a
+   * guess, and this is the screen the operator reads before real phones get dialed.
+   */
+  useEffect(() => {
+    let live = true;
+    void uploadPolicy().then(
+      (policy) => {
+        if (live) setConsentRequired(policy.consent_required);
+      },
+      () => {
+        if (live) {
+          setPolicyError('Could not read this environment’s consent setting. Reload the page.');
+        }
+      },
+    );
+    return () => {
+      live = false;
+    };
+  }, []);
+
+  /**
+   * Advisory dry run. The browser passes an empty suppression list because it has none — that gate is
+   * the server's alone. Consent is scrubbed exactly as the server will scrub it.
    */
   const preview = useMemo<ScrubResult | null>(() => {
-    if (!sheet || !mapping || step < 3) return null;
-    return scrubRows(applyMapping(sheet.rows, mapping), [], { requireConsent: true });
-  }, [sheet, mapping, step]);
+    if (!sheet || !mapping || consentRequired === null || step < 3) return null;
+    return scrubRows(applyMapping(sheet.rows, mapping), [], { requireConsent: consentRequired });
+  }, [sheet, mapping, consentRequired, step]);
 
   const missing = mapping ? missingRequiredFields(mapping) : [];
 
@@ -134,12 +167,19 @@ export function UploadWizard({
     setOutcome(null);
     try {
       const parsed = await parseSheetFile(file);
+      const detected = detectMapping(parsed.headers);
+      // Measured on the columns we just detected, so the size limit lands here instead of after the
+      // operator has mapped columns and read a dry run. They can map more at step 2, so submit()
+      // measures the real payload again before it sends.
+      const bytes = payloadBytes(applyMapping(parsed.rows, detected).map(toPayloadRow));
+      if (bytes > MAX_PAYLOAD_BYTES) {
+        throw new Error(tooLargeMessage(parsed.fileName, parsed.rows.length, bytes));
+      }
       if (parsed.rows.length > MAX_UPLOAD_ROWS) {
         throw new Error(
           `${parsed.fileName} has ${count(parsed.rows.length)} rows. One upload takes ${count(MAX_UPLOAD_ROWS)} — split the file and do it in parts.`,
         );
       }
-      const detected = detectMapping(parsed.headers);
       setSheet(parsed);
       setAutoMapping(detected);
       setMapping(detected);
@@ -158,10 +198,9 @@ export function UploadWizard({
     // Every mapped row goes up, including the ones this preview would drop: the server has to reach
     // its own verdict on the full list rather than trust a filtered one.
     const rows = applyMapping(sheet.rows, mapping).map(toPayloadRow);
-    if (JSON.stringify(rows).length > MAX_PAYLOAD_BYTES) {
-      setServerError(
-        'This list is too large to send in one request. Split the file in half and upload each part.',
-      );
+    const bytes = payloadBytes(rows);
+    if (bytes > MAX_PAYLOAD_BYTES) {
+      setServerError(tooLargeMessage(sheet.fileName, rows.length, bytes));
       return;
     }
     setServerError(null);
@@ -235,14 +274,19 @@ export function UploadWizard({
               setDragging(false);
               void readFile(event.dataTransfer.files?.[0]);
             }}
-            className={`flex cursor-pointer flex-col items-center justify-center gap-2 rounded-[14px] border border-dashed px-6 py-14 text-center transition-opacity duration-150 ${
+            className={`relative flex cursor-pointer flex-col items-center justify-center gap-2 rounded-[14px] border border-dashed px-6 py-14 text-center transition-opacity duration-150 focus-within:border-brass focus-within:ring-2 focus-within:ring-brass ${
               dragging ? 'border-brass bg-brass-wash' : 'border-line bg-cream hover:opacity-90'
             }`}
           >
+            {/*
+              sr-only, not hidden: display:none takes the input out of the tab order, and picking the
+              file is the only way into the app. Clipped to a pixel it still takes focus and still
+              opens the picker on Enter, and focus-within puts the ring on the drop zone.
+            */}
             <input
               type="file"
               accept=".csv,.xls,.xlsx"
-              className="hidden"
+              className="sr-only"
               onChange={(event) => void readFile(event.target.files?.[0])}
             />
             <span className="font-display text-lg text-ink">
@@ -349,6 +393,8 @@ export function UploadWizard({
             </table>
           </div>
 
+          {policyError && <p className="error-text">{policyError}</p>}
+
           <div className="flex flex-wrap items-center justify-between gap-3">
             <p className="help">
               Columns you leave unmapped are ignored — they are not sent and not stored.
@@ -356,10 +402,12 @@ export function UploadWizard({
             <button
               type="button"
               className="btn btn-primary"
-              disabled={missing.length > 0}
+              disabled={missing.length > 0 || consentRequired === null}
               onClick={() => setStep(3)}
             >
-              Dry run {count(sheet.rows.length)} rows
+              {consentRequired === null
+                ? 'Checking the server’s consent setting…'
+                : `Dry run ${count(sheet.rows.length)} rows`}
             </button>
           </div>
         </div>
@@ -509,6 +557,16 @@ export function UploadWizard({
               <strong className="text-ink">The server’s numbers are the ones that count.</strong>
             </p>
 
+            {consentRequired === false && (
+              <p className="rounded-[14px] border border-amber/40 bg-brass-wash px-4 py-3 text-sm text-ink">
+                REQUIRE_CONSENT_FLAG is off in this environment, so “No recorded consent” above counts
+                only the rows whose consent cell says no out loud — those are dropped whatever the flag
+                says. Rows with a blank consent cell are kept instead of dropped, and stored with
+                consent = no: they land on {clientName}’s list and Malone can never dial them. Turn the
+                flag back on and they are dropped rather than stored.
+              </p>
+            )}
+
             {preview.stats.kept === 0 && (
               <p className="rounded-[14px] border border-rose/30 bg-rose/5 px-4 py-3 text-sm text-ink">
                 Not one row in this file passes the gates, so there is nothing to write. Check the
@@ -565,8 +623,12 @@ export function UploadWizard({
 
             {!outcome.consent_required && (
               <p className="rounded-[14px] border border-amber/40 bg-brass-wash px-4 py-3 text-sm text-ink">
-                REQUIRE_CONSENT_FLAG is off in this environment, so rows without a recorded yes were
-                kept. Turn it back on before dialing anyone real.
+                REQUIRE_CONSENT_FLAG is off in this environment, so{' '}
+                {count(outcome.stored_without_consent)}{' '}
+                {outcome.stored_without_consent === 1 ? 'row' : 'rows'} with a blank consent cell{' '}
+                {outcome.stored_without_consent === 1 ? 'was' : 'were'} kept and stored with consent =
+                no. They will never be dialed — consent = yes is the dialer’s hard gate — and turning
+                the flag back on does not change what was already written. Turn it back on.
               </p>
             )}
 
@@ -649,6 +711,21 @@ function toPayloadRow(row: Record<string, unknown>): Record<string, unknown> {
     payload[key] = value;
   }
   return payload;
+}
+
+/** Next measures the request body in bytes, so we do too — an accented name is more than one. */
+function payloadBytes(rows: Record<string, unknown>[]): number {
+  return new TextEncoder().encode(JSON.stringify(rows)).length;
+}
+
+/** Says how many parts, and how big, so the operator never has to find the limit by trial. */
+function tooLargeMessage(fileName: string, rows: number, bytes: number): string {
+  const parts = Math.ceil(bytes / MAX_PAYLOAD_BYTES);
+  return `${fileName} has ${count(rows)} rows, which is ${megabytes(bytes)} MB to send — one upload takes ${megabytes(MAX_PAYLOAD_BYTES)} MB. Split it into ${count(parts)} files of about ${count(Math.ceil(rows / parts))} rows and upload them one after another.`;
+}
+
+function megabytes(bytes: number): string {
+  return (bytes / 1_000_000).toFixed(1);
 }
 
 function count(value: number): string {

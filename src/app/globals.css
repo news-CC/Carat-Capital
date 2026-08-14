@@ -6,7 +6,10 @@
 @theme {
   --color-ink: #17150f;
   --color-ink-soft: #57503f;
-  --color-ink-mute: #8a8172;
+  /* Every secondary layer in the app (.stat-label, .help, .table th, the muted data cells) runs at
+     11-14px, so this has to clear WCAG AA 4.5:1 on all three grounds: 5.56 on cream, 5.94 on paper,
+     5.01 on shell. Warm taupe, just darker — do not lighten it back. */
+  --color-ink-mute: #6b6353;
 
   --color-cream: #faf7f1;
   --color-paper: #ffffff;
@@ -16,9 +19,11 @@
   --color-brass-deep: #8a6229;
   --color-brass-wash: #f6eee1;
 
-  --color-sage: #5f7a5c;
+  /* Badge tones carry 11px uppercase text on their own tint, so each one is dark enough for AA there:
+     sage 5.37:1 on the .badge-ok wash, rose 5.11:1, amber 4.93:1 on the .badge-warn wash. */
+  --color-sage: #506a4d;
   --color-rose: #a8474a;
-  --color-amber: #b5811f;
+  --color-amber: #8c5e0a;
 
   --color-line: #e4dccf;
 

@@ -147,7 +147,7 @@ export default async function SuppressionPage({
                 : 'Empty list. Opt-outs land here automatically the moment a caller asks to be removed.'}
             </p>
           ) : (
-            <div className="overflow-x-auto">
+            <div className="overflow-x-auto py-4">
               <table className="table">
                 <thead>
                   <tr>

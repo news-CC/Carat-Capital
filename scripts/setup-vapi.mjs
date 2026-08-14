@@ -7,11 +7,13 @@
  * in place rather than filling the dashboard with copies of Malone.
  *
  * ─────────────────────────────────────────────────────────────────────────────────────────────────
- * src/lib/malone.ts IS THE SOURCE OF TRUTH for the prompt, the voice config and the analysis plan.
- * The payload below is a hand-kept mirror of maloneAssistantPayload() from that file, duplicated
- * here only because this is a plain .mjs script and cannot import TypeScript.
- * If you edit src/lib/malone.ts, re-sync the block below and re-run `npm run setup:vapi`.
- * The script reports when the deployed prompt no longer matches this file, so drift is at least loud.
+ * src/lib/malone.ts IS THE SOURCE OF TRUTH for the prompt, the voice config and the analysis plan,
+ * and this script imports it directly rather than mirroring it. The persona used to be duplicated
+ * here as literals; it drifted, which is exactly why it is imported now. Edit malone.ts, re-run
+ * this script, done — there is nothing here to keep in sync.
+ *
+ * That import needs a Node that strips TypeScript types on the fly (>= 22.18, or >= 22.6 with
+ * --experimental-strip-types). Checked below with a message that says what to do.
  * ─────────────────────────────────────────────────────────────────────────────────────────────────
  *
  * Usage:
@@ -20,12 +22,14 @@
  *   npm run setup:vapi -- --url=https://x.com   # override the webhook base URL
  */
 import { randomBytes } from 'node:crypto';
+import { fileURLToPath } from 'node:url';
+// Not named `path`: the vapi() helper below takes a `path` argument.
+import nodePath from 'node:path';
 
 const DRY_RUN = process.argv.includes('--dry-run');
 const urlFlag = process.argv.find((a) => a.startsWith('--url='))?.slice('--url='.length);
 
 const API = 'https://api.vapi.ai';
-const ASSISTANT_NAME = 'Salon Malone';
 const NUMBER_NAME = 'Salon Malone outbound';
 
 const apiKey = process.env.VAPI_API_KEY;
@@ -48,119 +52,35 @@ const existingSecret = process.env.VAPI_WEBHOOK_SECRET;
 const serverSecret = existingSecret || randomBytes(32).toString('hex');
 const secretWasGenerated = !existingSecret;
 
-// ── mirror of maloneAssistantPayload() — see the sync note above ──────────────
-const MALONE_SYSTEM_PROMPT = `You are Salon Malone, {{salon_name}}'s virtual concierge, calling a client who hasn't been in for a while. Smooth, warm, quick. Pizazz, not pressure. The coolest front-desk person alive.
+// ── the persona, imported from the one place it is defined ───────────────────
+const MALONE = await importMalone();
+const { MALONE_SYSTEM_PROMPT, maloneAssistantPayload } = MALONE;
 
-DISCLOSURE (mandatory): say you are {{salon_name}}'s virtual concierge in your opening line. If asked whether you're a real person, a bot, or a recording, answer at once: "I'm a virtual assistant for {{salon_name}} — a real human takes care of you in the chair." Never claim to be human. Never dodge it.
+// The lookup key for the idempotent upsert. Taken from the payload so the name cannot drift either.
+const ASSISTANT_NAME = maloneAssistantPayload('', '').name;
 
-ONE GOAL: book a specific time using this offer — {{offer_text}}.
-Offer exactly two concrete times: "Thursday at two, or Saturday morning at ten — which is easier?" If neither works, ask which day does. When they pick, repeat the day and time back in full, then close.
-
-FLOW
-- Short lines. One idea per turn. Never pitch twice. Never argue. Never oversell.
-- One beat of small talk, max. Only the visit and the offer.
-- You can't see the calendar or take payment. You note the time down; the salon confirms.
-- Off-topic, prices, or anything medical: "Best person for that is the front desk — {{booking_phone}}." Then back to the time, or close.
-
-EXITS
-- Warm no: "All love — the chair's here when you're ready." End the call.
-- Stop calling / take me off the list / do not call: "Done — you're off the list. Be good." End the call at once. Never pitch again.
-- Wrong person, wrong number, or an upset caller: apologise once, end the call.
-
-PACE: 90 seconds is the target, 3 minutes the hard ceiling. Near it, close or exit.`;
-
-const MALONE_FIRST_MESSAGE =
-  "Hey {{first_name}} — Salon Malone here, {{salon_name}}'s virtual concierge. Ninety seconds, I promise. We miss you.";
-
-const MALONE_VOICEMAIL_MESSAGE =
-  "Hey {{first_name}}, Salon Malone here — {{salon_name}}'s virtual concierge. We miss you, and we saved you something: {{offer_text}}. Call {{booking_phone}} and we'll get you back in the chair. Take care.";
-
-const STRUCTURED_DATA_INSTRUCTIONS = `You are reading a transcript of an outbound win-back call made by a salon's virtual concierge. Extract only what was actually said.
-- outcome: "booked" only if the client agreed to a specific day/time. "declined" if they said no or not now. "opted_out" if they asked not to be called again. "voicemail" if only a machine was reached. "no_answer" if nobody spoke. Otherwise "answered".
-- slot_text: the agreed day and time in the client's own words, e.g. "Thursday at 2pm". Empty string if nothing was agreed.
-- opt_out: true only if the client asked to be removed, to stop calls, or said do not call.
-- notes: one short sentence a salon owner would care about. No speculation.`;
-
-const MALONE_ANALYSIS_PLAN = {
-  minMessagesThreshold: 1,
-  summaryPlan: {
-    enabled: true,
-    timeoutSeconds: 20,
-    messages: [
-      {
-        role: 'system',
-        content:
-          'Summarise this win-back call for the salon owner in two sentences: what the client said, and what happens next. Plain language, no preamble.',
-      },
-      { role: 'user', content: 'Transcript:\n\n{{transcript}}' },
-    ],
-  },
-  structuredDataPlan: {
-    enabled: true,
-    timeoutSeconds: 20,
-    messages: [
-      { role: 'system', content: STRUCTURED_DATA_INSTRUCTIONS },
-      { role: 'user', content: 'Transcript:\n\n{{transcript}}' },
-    ],
-    schema: {
-      type: 'object',
-      properties: {
-        outcome: {
-          type: 'string',
-          enum: ['booked', 'declined', 'opted_out', 'voicemail', 'no_answer', 'answered'],
-          description: 'How the call resolved.',
-        },
-        slot_text: { type: 'string', description: "Agreed day and time in the client's words, or an empty string." },
-        opt_out: { type: 'boolean', description: 'True only if the client asked never to be called again.' },
-        notes: { type: 'string', description: 'One short sentence for the salon owner.' },
-      },
-      required: ['outcome', 'opt_out'],
-    },
-  },
-  successEvaluationPlan: { enabled: false },
-};
-
-function maloneAssistantPayload() {
-  return {
-    name: ASSISTANT_NAME,
-    firstMessage: MALONE_FIRST_MESSAGE,
-    firstMessageMode: 'assistant-speaks-first',
-    model: {
-      provider: 'openai',
-      model: 'gpt-4o-mini',
-      temperature: 0.4,
-      maxTokens: 120,
-      messages: [{ role: 'system', content: MALONE_SYSTEM_PROMPT }],
-    },
-    transcriber: { provider: 'deepgram', model: 'nova-2-phonecall', language: 'en', smartFormat: true },
-    voice: {
-      provider: '11labs',
-      voiceId: 'rachel',
-      model: 'eleven_turbo_v2_5',
-      optimizeStreamingLatency: 3,
-      stability: 0.5,
-      similarityBoost: 0.75,
-      useSpeakerBoost: true,
-    },
-    backchannelingEnabled: true,
-    fillerInjectionEnabled: true,
-    backgroundDenoisingEnabled: true,
-    startSpeakingPlan: { waitSeconds: 0.4, smartEndpointingEnabled: true },
-    stopSpeakingPlan: { numWords: 2, voiceSeconds: 0.2, backoffSeconds: 1 },
-    endCallFunctionEnabled: true,
-    endCallMessage: "All love — the chair's here when you're ready. Take care.",
-    endCallPhrases: ['goodbye', 'good bye', 'be good', 'see you then'],
-    silenceTimeoutSeconds: 20,
-    maxDurationSeconds: 180,
-    voicemailDetection: { provider: 'vapi' },
-    voicemailMessage: MALONE_VOICEMAIL_MESSAGE,
-    serverUrl,
-    serverUrlSecret: serverSecret,
-    serverMessages: ['status-update', 'end-of-call-report'],
-    artifactPlan: { recordingEnabled: true, transcriptPlan: { enabled: true } },
-    analysisPlan: MALONE_ANALYSIS_PLAN,
-    metadata: { app: 'salon-malone' },
-  };
+/**
+ * src/lib/malone.ts is TypeScript. Node >= 22.18 strips the types on import with no flag; older
+ * runtimes throw ERR_UNKNOWN_FILE_EXTENSION (or a syntax error) and get told what to do instead of
+ * a stack trace.
+ */
+async function importMalone() {
+  const here = nodePath.dirname(fileURLToPath(import.meta.url));
+  const target = nodePath.join(here, '..', 'src', 'lib', 'malone.ts');
+  try {
+    return await import(`file://${target}`);
+  } catch (e) {
+    console.error('');
+    console.error('Could not load src/lib/malone.ts — the assistant persona lives there.');
+    console.error(`  ${e instanceof Error ? e.message : e}`);
+    console.error('');
+    console.error(`This script needs a Node that can strip TypeScript types. You are on ${process.version}.`);
+    console.error('  · Node >= 22.18: works with no flag.');
+    console.error('  · Node 22.6-22.17: node --experimental-strip-types --env-file=.env.local scripts/setup-vapi.mjs');
+    console.error('  · Node 20: upgrade, or run the setup from the Vapi dashboard by hand.');
+    console.error('');
+    process.exit(1);
+  }
 }
 
 // ── API helper ────────────────────────────────────────────────────────────────
@@ -202,7 +122,7 @@ function isFreeNumberExhausted(e) {
 // ── steps ─────────────────────────────────────────────────────────────────────
 async function upsertAssistant() {
   const existing = asList(await vapi('/assistant?limit=100')).find((a) => a.name === ASSISTANT_NAME);
-  const payload = maloneAssistantPayload();
+  const payload = maloneAssistantPayload(serverUrl, serverSecret);
 
   if (!existing) {
     if (DRY_RUN) {
@@ -222,7 +142,7 @@ async function upsertAssistant() {
   );
 
   if (DRY_RUN) {
-    console.log('            would PATCH it with the payload in this script');
+    console.log('            would PATCH it with the payload from src/lib/malone.ts');
     return existing.id;
   }
   await vapi(`/assistant/${existing.id}`, { method: 'PATCH', body: JSON.stringify(payload) });

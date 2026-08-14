@@ -38,6 +38,10 @@ function detailRow(label: string, value: string): string {
 
 export function bookingAlertEmail(a: BookingAlert): { subject: string; html: string } {
   const who = a.firstName.trim() || 'A lapsed client';
+  // No pronoun for the booked client anywhere in this email — nothing in the pipeline knows a client's
+  // gender and a name is never evidence of it. `who` is capitalised for the headline, so mid-sentence
+  // copy uses this form instead.
+  const whoInline = a.firstName.trim() || 'this client';
   const slot = a.slotText.trim();
   const value = typeof a.estimatedValueCents === 'number' && a.estimatedValueCents > 0 ? a.estimatedValueCents : null;
   const transcript = safeUrl(a.transcriptUrl);
@@ -59,14 +63,14 @@ export function bookingAlertEmail(a: BookingAlert): { subject: string; html: str
     <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
       <td style="padding:16px 20px;background-color:${PALETTE.brassWash};border-left:3px solid ${PALETTE.brass};font-family:${SERIF};font-size:20px;line-height:28px;font-style:italic;color:${PALETTE.ink};">&ldquo;${escapeHtml(slot)}&rdquo;</td>
     </tr></table>
-    <div style="font-family:${SANS};font-size:11px;line-height:16px;color:${PALETTE.inkMute};padding-top:7px;">Her words, as Malone heard them. Put it in your book the way it reads.</div>
+    <div style="font-family:${SANS};font-size:11px;line-height:16px;color:${PALETTE.inkMute};padding-top:7px;">${escapeHtml(who)}&rsquo;s words, as Malone heard them. Put it in your book the way it reads.</div>
   </td></tr>`
       : ''
   }
   <tr><td style="padding:24px 32px 4px 32px;">
     <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
       ${detailRow(
-        'Call her back',
+        'Call back',
         `<a href="tel:${escapeHtml(dial)}" style="color:${PALETTE.brassDeep};text-decoration:none;font-weight:600;">${escapeHtml(formatPhone(a.phone))}</a>`,
       )}
       ${value ? detailRow('Estimated value', escapeHtml(usd(value))) : ''}
@@ -86,7 +90,7 @@ export function bookingAlertEmail(a: BookingAlert): { subject: string; html: str
   </td></tr>
 ${emailRule()}
   <tr><td style="padding:16px 32px 28px 32px;font-family:${SANS};font-size:13px;line-height:20px;color:${PALETTE.inkSoft};">
-    Malone told her the chair was hers and that someone from ${escapeHtml(a.salonName)} would confirm. One quick text or call closes it.
+    Malone held the chair for ${escapeHtml(whoInline)} and said someone from ${escapeHtml(a.salonName)} would confirm. One quick text or call closes it.
   </td></tr>`;
 
   return { subject, html: emailShell({ preheader, title: 'New booking', body }) };

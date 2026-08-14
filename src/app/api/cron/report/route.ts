@@ -1,18 +1,27 @@
-import { timingSafeEqual } from 'node:crypto';
-
 import { NextResponse } from 'next/server';
 
+import { REACHED_OUTCOMES } from '@/lib/calls';
+import { authorizeCron } from '@/lib/cron-auth';
 import { sendWeeklyReport } from '@/lib/email/weekly-report';
-import { optionalEnv } from '@/lib/env';
 import { estimatedRecoveredCents } from '@/lib/revenue';
 import { supabaseAdmin } from '@/lib/supabase/admin';
+import type { CallOutcome } from '@/lib/types';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
 export const maxDuration = 60;
 
-const REACHED: ReadonlySet<string> = new Set(['answered', 'booked', 'declined', 'opted_out']);
 const PERIOD_DAYS = 7;
+
+/**
+ * Billing state, not `clients.active`: `active` is the campaign on/off switch that pauseCampaign
+ * flips, and a salon we dialed Monday to Wednesday still earned Friday's wrap-up if the operator
+ * paused it on Thursday. Wider than the dialer's BILLABLE set on purpose — a past_due salon is
+ * exactly who needs to see the revenue we recovered — because this email spends nothing on their
+ * behalf. Canceled means the relationship is over, so no email. Dormant clients need no filter:
+ * the `dialed === 0` skip below already keeps them out of the send.
+ */
+const REPORTABLE_STATUSES: ReadonlySet<string> = new Set(['trialing', 'active', 'past_due']);
 
 type ClientRow = {
   id: string;
@@ -20,6 +29,7 @@ type ClientRow = {
   contact_email: string;
   timezone: string;
   avg_ticket_cents: number;
+  stripe_status: string;
 };
 
 type ReportResult = {
@@ -43,9 +53,12 @@ export async function GET(req: Request) {
 
     let query = db
       .from('clients')
-      .select('id, name, contact_email, timezone, avg_ticket_cents')
-      .eq('active', true);
+      .select('id, name, contact_email, timezone, avg_ticket_cents, stripe_status');
+    // A single-client send skips the SQL filter so the operator gets a real reason back instead of
+    // an empty result set. The same gate still runs in the loop below, so it cannot email anyone
+    // the Friday run would not.
     if (only) query = query.eq('id', only);
+    else query = query.in('stripe_status', [...REPORTABLE_STATUSES]);
 
     const { data: clients, error } = await query;
     if (error) return NextResponse.json({ ok: false, error: error.message }, { status: 500 });
@@ -54,6 +67,19 @@ export async function GET(req: Request) {
     const results: ReportResult[] = [];
 
     for (const client of clients ?? []) {
+      // GATE: the billing check the Friday query applies in SQL, re-run here so a single-client
+      // send names the reason instead of quietly emailing a client the cron would skip.
+      if (!REPORTABLE_STATUSES.has(client.stripe_status)) {
+        results.push({
+          clientId: client.id,
+          salonName: client.name,
+          sent: false,
+          reason: `not_reportable: billing is ${client.stripe_status}`,
+          dialed: 0,
+          booked: 0,
+        });
+        continue;
+      }
       results.push(await reportFor(db, client, since));
     }
 
@@ -73,33 +99,52 @@ export async function GET(req: Request) {
 }
 
 type Db = ReturnType<typeof supabaseAdmin>;
+type Count = { value: number; error: string | null };
 
 async function reportFor(db: Db, client: ClientRow, since: Date): Promise<ReportResult> {
   const base = { clientId: client.id, salonName: client.name };
 
   // One broken client must not stop the rest of the Friday send.
   try {
-    const { data: calls } = await db
-      .from('calls')
-      .select('outcome')
-      .eq('client_id', client.id)
-      .gte('created_at', since.toISOString());
+    const [dialedCount, reached, booked, declined, optedOut] = await Promise.all([
+      countCalls(db, client.id, since),
+      countCalls(db, client.id, since, REACHED_OUTCOMES),
+      // Booked comes from the bookings TABLE, not from calls.outcome — the same source
+      // /admin/bookings and the dashboard tile read. A call can both book a slot and opt out (the
+      // webhook writes the booking and stores outcome='opted_out', because the opt-out is the
+      // compliance fact), so counting outcome='booked' would leave an appointment that is sitting
+      // in the owner's inbox and in /admin/bookings missing from the Friday tally, and understate
+      // the recovered-revenue figure computed from it.
+      countBookings(db, client.id, since),
+      countCalls(db, client.id, since, ['declined']),
+      countCalls(db, client.id, since, ['opted_out']),
+    ]);
 
-    const rows = calls ?? [];
-    const dialed = rows.length;
+    // A failed count must never read as a quiet week: 'no_activity' drops the retention email and
+    // tells the operator there was nothing to send, which a broken query would make a lie.
+    const failed = [dialedCount, reached, booked, declined, optedOut].find((c) => c.error !== null);
+    if (failed?.error) {
+      return {
+        ...base,
+        sent: false,
+        reason: `counts_query_failed: ${failed.error}`,
+        dialed: 0,
+        booked: 0,
+      };
+    }
+
+    const dialed = dialedCount.value;
     if (dialed === 0) return { ...base, sent: false, reason: 'no_activity', dialed: 0, booked: 0 };
 
-    const tally = (o: string) => rows.filter((r) => r.outcome === o).length;
-    const booked = tally('booked');
     const stats = {
       dialed,
-      reached: rows.filter((r) => REACHED.has(r.outcome)).length,
-      booked,
-      declined: tally('declined'),
-      optedOut: tally('opted_out'),
+      reached: reached.value,
+      booked: booked.value,
+      declined: declined.value,
+      optedOut: optedOut.value,
     };
 
-    const { data: bookings } = await db
+    const { data: bookings, error: bookingsError } = await db
       .from('bookings')
       .select('slot_text, contact_id')
       .eq('client_id', client.id)
@@ -107,19 +152,25 @@ async function reportFor(db: Db, client: ClientRow, since: Date): Promise<Report
       .order('created_at', { ascending: false })
       .limit(5);
 
+    if (bookingsError) {
+      // The counts above are the numbers the client reads; the highlights are a nicety. Send the
+      // report without them rather than not at all, but say so in the log.
+      console.error('[cron-report] booking highlights unavailable', client.id, bookingsError.message);
+    }
+
     const sent = await sendWeeklyReport({
       to: client.contact_email,
       salonName: client.name,
       periodLabel: periodLabel(since, client.timezone),
       ...stats,
-      estimatedRecoveredCents: estimatedRecoveredCents(booked, client.avg_ticket_cents),
+      estimatedRecoveredCents: estimatedRecoveredCents(stats.booked, client.avg_ticket_cents),
       avgTicketCents: client.avg_ticket_cents,
       topBookings: await namedBookings(db, bookings ?? []),
     });
 
     return sent.ok
-      ? { ...base, sent: true, dialed, booked }
-      : { ...base, sent: false, reason: sent.error, dialed, booked };
+      ? { ...base, sent: true, dialed, booked: stats.booked }
+      : { ...base, sent: false, reason: sent.error, dialed, booked: stats.booked };
   } catch (e) {
     return {
       ...base,
@@ -129,6 +180,38 @@ async function reportFor(db: Db, client: ClientRow, since: Date): Promise<Report
       booked: 0,
     };
   }
+}
+
+/**
+ * Counted in the database, never tallied from fetched rows: PostgREST caps a response at 1000 rows,
+ * so `rows.length` would silently understate dialed, booked and recovered revenue for exactly the
+ * busy clients the Friday email has to keep.
+ */
+async function countCalls(
+  db: Db,
+  clientId: string,
+  since: Date,
+  outcomes?: CallOutcome[],
+): Promise<Count> {
+  let query = db
+    .from('calls')
+    .select('*', { count: 'exact', head: true })
+    .eq('client_id', clientId)
+    .gte('created_at', since.toISOString());
+  if (outcomes) query = query.in('outcome', outcomes);
+
+  const { count, error } = await query;
+  return { value: count ?? 0, error: error?.message ?? null };
+}
+
+/** Bookings written in the period. One row per appointment, whatever the call's outcome was. */
+async function countBookings(db: Db, clientId: string, since: Date): Promise<Count> {
+  const { count, error } = await db
+    .from('bookings')
+    .select('*', { count: 'exact', head: true })
+    .eq('client_id', clientId)
+    .gte('created_at', since.toISOString());
+  return { value: count ?? 0, error: error?.message ?? null };
 }
 
 /** Two small queries instead of a join — keeps us off relational typing. */
@@ -156,15 +239,4 @@ function periodLabel(since: Date, timeZone: string): string {
   } catch {
     return `${day(since, 'UTC')} – ${day(new Date(), 'UTC')}`;
   }
-}
-
-function authorizeCron(req: Request): boolean {
-  if (req.headers.get('x-vercel-cron')) return true;
-  const secret = optionalEnv('CRON_SECRET');
-  if (!secret) return false;
-  const header = req.headers.get('authorization') ?? '';
-  const expected = `Bearer ${secret}`;
-  const a = Buffer.from(header, 'utf8');
-  const b = Buffer.from(expected, 'utf8');
-  return a.length === b.length && timingSafeEqual(a, b);
 }

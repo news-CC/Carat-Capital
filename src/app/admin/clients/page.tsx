@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { requireAdmin } from '@/lib/auth';
-import { isInsideCallWindow, localTimeInZone } from '@/lib/call-window';
+import { isInsideCallWindow, localTimeLabel } from '@/lib/call-window';
 import { callWindow } from '@/lib/env';
 import { usd } from '@/lib/money';
 import { estimatedRecoveredCents } from '@/lib/revenue';
@@ -69,7 +69,7 @@ export default async function ClientsPage({
             No clients yet — fill in the form below and you can upload a list a minute later.
           </p>
         ) : (
-          <div className="overflow-x-auto">
+          <div className="overflow-x-auto py-4">
             <table className="table">
               <thead>
                 <tr>
@@ -101,7 +101,7 @@ export default async function ClientsPage({
                       </td>
                       <td className="whitespace-nowrap">
                         <span className="tabular-nums text-ink">
-                          {localTimeInZone(client.timezone)}
+                          {localTimeLabel(client.timezone)}
                         </span>
                         <span className="mt-1 block">
                           <WindowPill open={isInsideCallWindow(client.timezone, start, end)} />

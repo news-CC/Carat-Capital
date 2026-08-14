@@ -79,6 +79,20 @@ export function maxConcurrentCalls(): number {
 }
 
 /**
+ * Off by default, and it should stay off.
+ *
+ * The demo list in demo/ is 250 synthetic rows whose numbers all sit in the 555-01XX
+ * reserved-for-fiction range. Those numbers do not route anywhere, so dialing them buys 250
+ * billed Vapi failures and burns 250 contacts' one-and-only attempt. The scrub deliberately
+ * KEEPS them — the demo needs rows in the table — so the dialer is where they get stopped.
+ *
+ * Turn this on only to prove the skip itself is what is happening.
+ */
+export function dialFictionalNumbers(): boolean {
+  return optionalEnv('DIAL_FICTIONAL_NUMBERS')?.toLowerCase() === 'true';
+}
+
+/**
  * Read with literal keys — Next.js only inlines NEXT_PUBLIC_* for the browser
  * bundle when the access is statically analysable.
  */

@@ -5,32 +5,26 @@ import { redirect } from 'next/navigation';
 import { requireAdmin } from '@/lib/auth';
 import { normalizePhone } from '@/lib/phone';
 import { supabaseAdmin } from '@/lib/supabase/admin';
-
-const REASONS = ['opt_out', 'dnc', 'complaint', 'invalid', 'manual'] as const;
+import { asSuppressionReason, suppressPhoneGlobally } from '@/lib/suppression';
 
 export async function addSuppressionAction(formData: FormData): Promise<void> {
   await requireAdmin(); // gate
   const phone = normalizePhone(formData.get('phone'));
-  const reason = REASONS.find((r) => r === formData.get('reason')) ?? 'manual';
+  const reason = asSuppressionReason(formData.get('reason'));
 
   // Store E.164 only: the dial query joins on an exact phone match, so an unparseable
   // number would silently protect nobody.
   if (!phone) redirect('/admin/suppression?error=phone');
 
+  // Gate: suppression is global and instant — the shared helper writes the durable row and takes
+  // the number out of every client's queue in one step (src/lib/suppression.ts).
   const db = supabaseAdmin();
-  const { error } = await db
-    .from('suppression')
-    .upsert({ phone, reason }, { onConflict: 'phone', ignoreDuplicates: true });
-
-  if (error) redirect('/admin/suppression?error=save');
-
-  // Gate: suppression is global and instant — take the number out of any queue now
-  // rather than relying on the claim query to skip it later.
-  await db
-    .from('contacts')
-    .update({ status: 'suppressed', scrub_reason: `suppression:${reason}` })
-    .eq('phone', phone)
-    .eq('status', 'pending');
+  const suppressed = await suppressPhoneGlobally(db, {
+    phone,
+    reason,
+    tag: '[suppression-form]',
+  });
+  if (suppressed.error) redirect('/admin/suppression?error=save');
 
   revalidatePath('/admin/suppression');
   revalidatePath('/admin');

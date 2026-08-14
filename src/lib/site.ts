@@ -8,10 +8,13 @@ export const SITE = {
   domain: "startup25.com",
   tagline: "Win back the clients who stopped coming.",
   headline: "Your dead client list is buried money.",
+  // Every claim here has to be one the shipped product delivers: the Friday email counts booked
+  // visits at the average ticket and says so, and the money is a $299 one-time pilot plus flat
+  // monthly tiers. No pay-per-show claim — nothing in the product records a show.
   subhead:
-    "Salon Malone is the virtual concierge that phones the clients who quietly stopped booking, offers them a specific time, and emails you the moment one says yes. One flat monthly price — no per-minute billing, no per-lead invoices — priced so a few recovered visits cover the month. Shows are the only thing we count.",
+    "Salon Malone is the virtual concierge that phones the clients who quietly stopped booking, offers them a specific time, and emails you the moment one says yes. Start on a $299 pilot or a flat monthly plan — no per-minute billing, no per-lead invoices. Friday's number is the visits Malone booked at your average ticket, no-shows included, so your own book has the last word.",
   description:
-    "Salon Malone calls your lapsed salon or med spa clients as your virtual concierge, books them back into empty chairs, emails you the instant a booking lands, and sends a Friday report showing recovered revenue. Consent-gated, opt-out instant. Voice and email only.",
+    "Salon Malone calls your lapsed salon or med spa clients as your virtual concierge, books them back into empty chairs, emails you the instant a booking lands, and sends a Friday report with estimated recovered revenue from the visits it booked. Consent-gated, opt-out instant. Voice and email only.",
   contactEmail: "hello@startup25.com",
   complianceLine:
     "We only call contacts you have marked as consented, one attempt each, inside local business hours. Malone says it is a virtual assistant on every call. Anyone who asks to be removed is added to a global do-not-call list before the call ends.",
@@ -159,8 +162,10 @@ export const MATH_EXAMPLE = {
     { label: "Actually sit in the chair", value: "25", note: "80% show rate" },
     { label: "Recovered revenue, month one", value: "$3,000", note: "25 shows × $120" },
   ],
+  // The shipped Friday email reports booked × ticket (31 × $120 = $3,720), so the page names that
+  // number too instead of showing only the smaller show-based one the buyer would never be sent.
   footnote:
-    "Against $399 for the month. Your list, your offer and your show rate will move every one of these numbers — up or down. We report the real ones every Friday.",
+    "Against $399 for the month. Two numbers on purpose: our Friday email counts booked visits at your ticket — 31 × $120 is $3,720 — and the $3,000 above is that same month if only 25 of them show. No-shows count in ours, so your book is the last word. Your list, your offer and your show rate will move every line — up or down. We report the real ones every Friday.",
 } as const;
 
 export const FAQ: { q: string; a: string }[] = [

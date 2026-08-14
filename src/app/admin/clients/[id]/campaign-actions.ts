@@ -6,6 +6,7 @@ import { redirect } from 'next/navigation';
 import { requireAdmin } from '@/lib/auth';
 import { err, ok, type Result } from '@/lib/result';
 import { supabaseAdmin } from '@/lib/supabase/admin';
+import { asSuppressionReason, loadSuppressionPhones, suppressPhoneGlobally } from '@/lib/suppression';
 import type { ContactStatus } from '@/lib/types';
 
 /**
@@ -44,12 +45,9 @@ const CONTACT_STATUSES: ContactStatus[] = [
   'failed',
 ];
 
-const SUPPRESSION_REASONS = ['opt_out', 'dnc', 'complaint', 'invalid', 'manual'];
 const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
 const CONTACT_PAGE = 1_000;
 const CONTACT_SCAN_CAP = 60_000;
-const SUPPRESSION_PAGE = 1_000;
-const SUPPRESSION_CAP = 200_000;
 
 type Sb = ReturnType<typeof supabaseAdmin>;
 type ClientRow = { id: string; name: string; active: boolean; stripe_status: string };
@@ -171,8 +169,7 @@ export async function suppressContact(input: string | FormData): Promise<void> {
   const contactId = formField(input, 'contactId') ?? bareString(input);
   if (!contactId || !UUID_RE.test(contactId)) return;
 
-  const requested = formField(input, 'reason');
-  const reason = requested && SUPPRESSION_REASONS.includes(requested) ? requested : 'manual';
+  const reason = asSuppressionReason(formField(input, 'reason'));
 
   const sb = supabaseAdmin();
   const { data: contact, error: loadError } = await sb
@@ -186,28 +183,23 @@ export async function suppressContact(input: string | FormData): Promise<void> {
   }
 
   if (contact.phone) {
-    // GATE: suppression is global. One row here stops every client's campaign from dialing it.
-    const { error: insertError } = await sb
-      .from('suppression')
-      .upsert(
-        { phone: contact.phone, reason, source_contact_id: contact.id },
-        { onConflict: 'phone', ignoreDuplicates: true },
-      );
-    if (insertError) {
-      console.error('suppressContact: suppression insert failed', insertError.message);
-      return;
-    }
-    const { error: fanoutError } = await sb
-      .from('contacts')
-      .update({ status: 'suppressed', scrub_reason: reason })
-      .eq('phone', contact.phone)
-      .eq('status', 'pending');
-    if (fanoutError) console.error('suppressContact: fan-out failed', fanoutError.message);
+    // GATE: suppression is global. One row stops every client's campaign from dialing this number,
+    // and the shared helper is what the opt-out webhook and the suppression form use too, so all
+    // three write the same row and the same fan-out (src/lib/suppression.ts).
+    const suppressed = await suppressPhoneGlobally(sb, {
+      phone: contact.phone,
+      reason,
+      sourceContactId: contact.id,
+      tag: '[suppress-contact]',
+    });
+    if (suppressed.error) return;
   }
 
+  // The fan-out above only moves rows still 'pending'; this contact may be any status, and it is
+  // the one the operator clicked, so it is marked explicitly.
   const { error: markError } = await sb
     .from('contacts')
-    .update({ status: 'suppressed', scrub_reason: reason })
+    .update({ status: 'suppressed', scrub_reason: `suppression:${reason}` })
     .eq('id', contact.id);
   if (markError) console.error('suppressContact: mark failed', markError.message);
 
@@ -221,6 +213,7 @@ async function computeReport(
   client: ClientRow,
   campaign: string | null,
 ): Promise<Result<CampaignScrubReport>> {
+  // The same read the upload path and the dialer use — one implementation, one paging rule.
   const suppression = await loadSuppressionPhones(sb);
   if (!suppression.ok) return suppression;
   const suppressed = suppression.data;
@@ -274,26 +267,6 @@ async function computeReport(
 
   report.truncated = true;
   return ok(report);
-}
-
-/**
- * Duplicated from `upload/actions.ts` deliberately: every export from a `"use server"` module
- * becomes a callable endpoint, so these two files cannot share a private helper.
- */
-async function loadSuppressionPhones(sb: Sb): Promise<Result<Set<string>>> {
-  const phones = new Set<string>();
-  for (let from = 0; from < SUPPRESSION_CAP; from += SUPPRESSION_PAGE) {
-    const { data, error } = await sb
-      .from('suppression')
-      .select('phone')
-      .order('phone')
-      .range(from, from + SUPPRESSION_PAGE - 1);
-    if (error) return err(`the do-not-contact list could not be read (${error.message})`);
-    if (!data || data.length === 0) break;
-    for (const row of data) if (row.phone) phones.add(row.phone);
-    if (data.length < SUPPRESSION_PAGE) break;
-  }
-  return ok(phones);
 }
 
 async function loadClient(sb: Sb, clientId: string): Promise<Result<ClientRow | null>> {

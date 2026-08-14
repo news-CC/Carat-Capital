@@ -2,7 +2,8 @@
 -- Salon Malone — schema v1
 --
 -- HOW TO APPLY: paste this whole file into the Supabase SQL Editor and run it.
--- (Or: npm run db:migrate -> scripts/apply-migration.mjs.)
+-- (Or: `node --env-file=.env.local scripts/apply-migration.mjs`, which prints this file
+--  plus the psql command. There is no npm script for it — see README.)
 --
 -- It is idempotent: every statement is `if not exists` / `create or replace` /
 -- drop-then-create, so re-running it is safe and never drops data.
@@ -157,6 +158,45 @@ create index if not exists calls_vapi_call_id_idx       on public.calls (vapi_ca
 create index if not exists bookings_client_created_idx  on public.bookings (client_id, created_at desc);
 create index if not exists suppression_phone_idx        on public.suppression (phone);
 
+-- One booking per contact, enforced by Postgres.
+--
+-- One dial attempt per contact ever means one booking per contact, and contact_id
+-- is the only key that is the same on every delivery of an end-of-call report
+-- (call_id is not: an early delivery can write the booking before its calls row
+-- exists). Vapi retries those reports, and two overlapping deliveries can both
+-- pass an application-level select-then-insert without ever seeing each other's
+-- uncommitted row — which is two bookings and two owner emails for one
+-- appointment. Only the database can settle that, so this is where it is settled;
+-- the webhook treats the resulting unique violation as "another delivery won".
+--
+-- Guarded rather than a bare `create unique index if not exists`: a database that
+-- already collected duplicates from that race would abort this whole migration,
+-- and this file must stay re-runnable on any existing database. If it skips, the
+-- notice names the work — merge the duplicates, re-run, and the constraint lands.
+do $$
+declare
+  v_dupes int;
+begin
+  if exists (select 1 from pg_class where relname = 'bookings_contact_id_key') then
+    return;
+  end if;
+
+  select count(*) into v_dupes
+    from (select contact_id
+            from public.bookings
+           where contact_id is not null
+          group by contact_id
+          having count(*) > 1) d;
+
+  if v_dupes = 0 then
+    create unique index bookings_contact_id_key
+      on public.bookings (contact_id)
+      where contact_id is not null;
+  else
+    raise notice 'bookings_contact_id_key NOT created: % contact_id(s) already have more than one booking. Merge them and re-run this file.', v_dupes;
+  end if;
+end $$;
+
 -- ----------------------------------------------------------------------------
 -- ROW LEVEL SECURITY
 --
@@ -266,7 +306,30 @@ end $$;
 -- ----------------------------------------------------------------------------
 -- expire_stuck_calling — a contact left in 'calling' means we dialed and never
 -- got a webhook. One attempt per contact means it goes to 'failed', NEVER back
--- to 'pending'. Returns the number of rows swept.
+-- to 'pending'.
+--
+-- It ALSO stamps ended_at on the matching calls rows. That half is not cosmetic:
+-- /api/cron/dial computes its concurrency headroom as
+-- count(calls where ended_at is null), so a calls row that never ends consumes
+-- one of MAX_CONCURRENT_CALLS. Eight of them and the dialer answers
+-- 'at_capacity' forever. Rows are kept (every attempt keeps its calls row) and
+-- closed out rather than deleted.
+--
+-- Two kinds of unfinished call, and they get different treatment because the
+-- difference is a fact about the customer:
+--   outcome='dialing'  — nobody ever picked up as far as we know: 'failed'.
+--   outcome='answered' — the status webhook told us a human was on the line and
+--                        the end-of-call report never came. The conversation
+--                        happened, so the outcome STAYS 'answered' (it is what
+--                        the Friday report counts as reached) and only the
+--                        ended_at / ended_reason are filled in. Overwriting it
+--                        with 'failed' would under-report reach for a call that
+--                        was genuinely answered.
+-- Both are bounded by the same cutoff, which /api/cron/dial imports as
+-- STUCK_CALL_MINUTES (src/lib/calls.ts) so the sweeper and the count can never
+-- disagree about which calls are still up.
+--
+-- Returns the total number of rows swept, contacts plus calls.
 -- ----------------------------------------------------------------------------
 create or replace function public.expire_stuck_calling(p_older_than_minutes int)
 returns int
@@ -275,17 +338,43 @@ security definer
 set search_path = public
 as $$
 declare
-  v_rows int;
+  v_contacts int;
+  v_calls    int;
+  v_answered int;
+  v_cutoff   timestamptz := now() - make_interval(mins => greatest(coalesce(p_older_than_minutes, 15), 1));
 begin
   update public.contacts
      set status       = 'failed',
          scrub_reason = coalesce(scrub_reason, 'stuck_in_calling')
    where status = 'calling'
-     and (claimed_at is null
-          or claimed_at < now() - make_interval(mins => greatest(coalesce(p_older_than_minutes, 15), 1)));
+     and (claimed_at is null or claimed_at < v_cutoff);
+  get diagnostics v_contacts = row_count;
 
-  get diagnostics v_rows = row_count;
-  return v_rows;
+  -- Never answered as far as we know. Frees the concurrency slot. created_at is
+  -- the right clock here: the row is written the moment we hand the number to Vapi.
+  update public.calls
+     set outcome      = 'failed',
+         ended_reason = coalesce(ended_reason, 'no_webhook_received'),
+         ended_at     = coalesce(ended_at, now())
+   where outcome = 'dialing'
+     and ended_at is null
+     and created_at < v_cutoff;
+  get diagnostics v_calls = row_count;
+
+  -- Answered, then the end-of-call report never arrived. The call is long over —
+  -- Malone's hard ceiling is 3 minutes and this cutoff is 15 — so close it out,
+  -- but keep outcome='answered': a human did pick up, and that is what 'reached'
+  -- means. Without this the row holds a line forever, because the sweep above
+  -- only matches 'dialing'.
+  update public.calls
+     set ended_reason = coalesce(ended_reason, 'no_webhook_received'),
+         ended_at     = now()
+   where outcome = 'answered'
+     and ended_at is null
+     and created_at < v_cutoff;
+  get diagnostics v_answered = row_count;
+
+  return v_contacts + v_calls + v_answered;
 end $$;
 
 -- ----------------------------------------------------------------------------
@@ -293,7 +382,38 @@ end $$;
 -- key must never be able to call them. Postgres grants EXECUTE to PUBLIC by
 -- default; revoke it and hand execution to the service role only.
 -- ----------------------------------------------------------------------------
+-- The revoke is the half that protects the RPCs, so it always runs.
 revoke all on function public.claim_contacts_for_dialing(int, time, time) from public;
 revoke all on function public.expire_stuck_calling(int) from public;
-grant execute on function public.claim_contacts_for_dialing(int, time, time) to service_role;
-grant execute on function public.expire_stuck_calling(int) to service_role;
+
+-- Revoking from PUBLIC is NOT sufficient on Supabase. A Supabase project ships with
+-- `alter default privileges in schema public grant all on functions to postgres, anon,
+-- authenticated, service_role`, so both functions are born with an *explicit* execute
+-- grant to anon and authenticated — and a revoke from the PUBLIC pseudo-role does not
+-- touch a per-role grant. The anon key is published by design, so leaving those grants
+-- would hand any anonymous caller a SECURITY DEFINER RPC that bypasses RLS: claiming
+-- every contact (burning the one attempt each is allowed) and then failing them.
+-- Guarded like the service_role grants below, so plain Postgres still applies cleanly.
+do $$
+begin
+  if exists (select 1 from pg_roles where rolname = 'anon') then
+    revoke all on function public.claim_contacts_for_dialing(int, time, time) from anon;
+    revoke all on function public.expire_stuck_calling(int) from anon;
+  end if;
+  if exists (select 1 from pg_roles where rolname = 'authenticated') then
+    revoke all on function public.claim_contacts_for_dialing(int, time, time) from authenticated;
+    revoke all on function public.expire_stuck_calling(int) from authenticated;
+  end if;
+end $$;
+
+-- service_role is a Supabase-managed role. Guarded so this file also applies cleanly to a
+-- plain Postgres (local dev, a throwaway container) instead of aborting on the last statement.
+do $$
+begin
+  if exists (select 1 from pg_roles where rolname = 'service_role') then
+    grant execute on function public.claim_contacts_for_dialing(int, time, time) to service_role;
+    grant execute on function public.expire_stuck_calling(int) to service_role;
+  else
+    raise notice 'role service_role not found — skipping grants (expected outside Supabase)';
+  end if;
+end $$;

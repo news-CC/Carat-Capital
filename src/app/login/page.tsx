@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { LoginForm } from "@/components/ui/LoginForm";
+import { safeNextPath } from "@/lib/next-path";
 import { SITE } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -14,8 +15,9 @@ export default async function LoginPage({
   searchParams: Promise<{ next?: string }>;
 }) {
   const { next } = await searchParams;
-  // The server action re-validates this; a hidden field is never trusted.
-  const target = next && next.startsWith("/") && !next.startsWith("//") ? next : "/admin";
+  // The same gate the server action applies to the field this seeds — one helper, so a `/\evil.com`
+  // that the action would reject can never be planted in the markup either.
+  const target = safeNextPath(next);
 
   return (
     <main className="flex min-h-dvh flex-col items-center justify-center bg-[linear-gradient(180deg,var(--color-cream)_0%,var(--color-shell)_100%)] px-6 py-16">

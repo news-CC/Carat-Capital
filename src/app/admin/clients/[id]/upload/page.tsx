@@ -50,8 +50,11 @@ export default async function UploadPage({ params }: { params: Promise<{ id: str
         <h2 className="eyebrow">What happens to these rows</h2>
         <ul className="prose-tight space-y-2 text-sm text-ink-soft">
           <li>
-            <span className="text-ink">Consent is required.</span> A row whose consent column does not
-            read as a yes is dropped and never stored as dialable.
+            <span className="text-ink">Consent is required.</span> A consent column that says no is
+            always dropped — no operator setting overrides a written refusal. A blank cell is dropped
+            too, unless this environment has the consent flag off, and then the row is stored with
+            consent = no. Either way nothing without consent = yes is ever dialed: that is the
+            dialer&rsquo;s hard gate, in SQL.
           </li>
           <li>
             <span className="text-ink">The do-not-contact list wins.</span> Every number is checked

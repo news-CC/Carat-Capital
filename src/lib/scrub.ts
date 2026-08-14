@@ -27,7 +27,12 @@ export type ScrubbedRow = {
   phone: string;
   phone_raw: string | null;
   email: string | null;
-  consent: true;
+  /**
+   * What the sheet actually justified — never a claim the source did not make. False only when
+   * requireConsent is off and the consent cell was blank, and such a row can never dial: the SQL
+   * gate is `c2.consent = true`.
+   */
+  consent: boolean;
   last_visit: string | null;
   lifetime_value_cents: number | null;
 };
@@ -143,6 +148,38 @@ export function parseConsent(v: unknown): boolean {
   return TRUTHY_CONSENT.has(normalizeKey(v));
 }
 
+/**
+ * A written refusal, as opposed to a blank cell. 'f' mirrors the truthy 't' and 'dnc' is
+ * unambiguous; both are refusals by any reading of the cell.
+ */
+const REFUSED_CONSENT = new Set([
+  '0',
+  'false',
+  'f',
+  'no',
+  'n',
+  'opted_out',
+  'opt_out',
+  'unsubscribed',
+  'revoked',
+  'stop',
+  'do_not_call',
+  'dnc',
+]);
+
+/**
+ * Whether the consent cell says no out loud. Distinct from `!parseConsent(v)`, which is also true
+ * for a blank cell or a value nobody can read — a refusal is the only one the operator flag may
+ * never override.
+ */
+export function isConsentRefused(v: unknown): boolean {
+  if (typeof v === 'boolean') return !v;
+  if (typeof v === 'number') return v === 0;
+  if (typeof v !== 'string') return false;
+  // 'Opted Out', 'opt-out', 'DO NOT CALL' all land on a canonical token.
+  return REFUSED_CONSENT.has(normalizeKey(v));
+}
+
 export function firstNameOf(full: string | null | undefined): string | null {
   if (!full) return null;
   let text = full.trim();
@@ -214,19 +251,75 @@ function isoOrNull(date: Date): string | null {
   return date.toISOString().slice(0, 10);
 }
 
-/** '$1,234.50' -> 123450. Dollars in, cents out. */
+/**
+ * contacts.lifetime_value_cents is int4. A cell past that is a mis-mapped column (an account or
+ * loyalty number), not money, so it drops one optional field instead of failing an insert chunk
+ * whose earlier siblings have already committed.
+ */
+const MAX_MONEY_CENTS = 2_147_483_647;
+
+/** '$1,234.50' -> 123450. Dollars in, cents out, or null. */
 function parseMoneyCents(value: unknown): number | null {
   if (isBlank(value)) return null;
   if (typeof value === 'number') {
-    return Number.isFinite(value) && value >= 0 ? Math.round(value * 100) : null;
+    return Number.isFinite(value) && value >= 0 ? boundedCents(value) : null;
   }
   const text = asText(value);
   if (!text) return null;
-  const cleaned = text.replace(/[^0-9.]/g, '');
-  if (cleaned === '' || (cleaned.match(/\./g)?.length ?? 0) > 1) return null;
   if (/^[(-]/.test(text.trim())) return null; // negative or accounting-negative
-  const dollars = Number(cleaned);
-  return Number.isFinite(dollars) ? Math.round(dollars * 100) : null;
+
+  // Currency symbols, letters and thin/normal spaces go; both separators stay, because which one is
+  // the decimal point is the whole question. Spaces are only ever grouping ('1 234,50').
+  const cleaned = text.replace(/[^0-9.,]/g, '');
+  if (cleaned === '') return null;
+
+  const dollars = parseDollars(cleaned);
+  return dollars === null ? null : boundedCents(dollars);
+}
+
+/**
+ * Reads a cleaned number under either convention: the LAST separator present is the decimal point
+ * ('1,234.50' and '1.234,50' both mean 1234.50), and a separator that repeats can only be grouping.
+ * A single '.' stays the decimal point on the US reading — '12.345' is $12.35, not $12,345 — and so
+ * does a single ',' unless it groups three digits, where the US reading wins ('1,234' -> 1234).
+ * Anything whose grouping does not hold up returns null: a wrong lifetime value is worse than none,
+ * because it is what a client sees in the contacts table.
+ */
+function parseDollars(cleaned: string): number | null {
+  const lastComma = cleaned.lastIndexOf(',');
+  const lastDot = cleaned.lastIndexOf('.');
+  const commas = (cleaned.match(/,/g) ?? []).length;
+  const dots = (cleaned.match(/\./g) ?? []).length;
+
+  let decimal: ',' | '.' | null = null;
+  if (lastComma >= 0 && lastDot >= 0) decimal = lastComma > lastDot ? ',' : '.';
+  else if (lastComma >= 0) decimal = commas === 1 && !/,\d{3}$/.test(cleaned) ? ',' : null;
+  else if (lastDot >= 0) decimal = dots === 1 ? '.' : null;
+
+  const cut = decimal === null ? cleaned.length : cleaned.lastIndexOf(decimal);
+  const whole = cleaned.slice(0, cut);
+  const fraction = cleaned.slice(cut + 1);
+  if (fraction.includes(',') || fraction.includes('.')) return null;
+  if (!isGrouped(whole)) return null;
+
+  const digits = whole.replace(/[.,]/g, '');
+  if (digits === '' && fraction === '') return null;
+  const dollars = Number(`${digits === '' ? '0' : digits}.${fraction === '' ? '0' : fraction}`);
+  return Number.isFinite(dollars) ? dollars : null;
+}
+
+/** '1234', '1,234', '1.234.567' yes; '1,23', '1.2.3', '12,34,567' no. */
+function isGrouped(whole: string): boolean {
+  if (!/[.,]/.test(whole)) return /^\d*$/.test(whole);
+  const separator = whole.includes(',') ? ',' : '.';
+  if (whole.includes(separator === ',' ? '.' : ',')) return false; // two grouping characters
+  const groups = whole.split(separator);
+  return /^\d{1,3}$/.test(groups[0]) && groups.slice(1).every((group) => /^\d{3}$/.test(group));
+}
+
+function boundedCents(dollars: number): number | null {
+  const cents = Math.round(dollars * 100);
+  return cents >= 0 && cents <= MAX_MONEY_CENTS ? cents : null;
 }
 
 /** Suppression list may arrive in any format; we compare on E.164. */
@@ -276,9 +369,12 @@ export function scrubRows(
     const index = indexRow(row);
     const rawPhone = pick(index, 'phone');
 
-    // GATE 1 — consent. TCPA: no consent, no dial, no exceptions. The flag only
-    // exists for lists where consent is evidenced outside the spreadsheet.
-    if (consentRequired && !parseConsent(pick(index, 'consent'))) {
+    // GATE 1 — consent. TCPA: no consent, no dial, no exceptions. The flag only exists for lists
+    // where consent is evidenced outside the spreadsheet, so it may cover a BLANK or absent cell and
+    // nothing else: a cell that says no is a written refusal and no operator setting overrides it.
+    const consentCell = pick(index, 'consent');
+    const consented = parseConsent(consentCell);
+    if (!consented && (consentRequired || isConsentRefused(consentCell))) {
       drop(row, 'no_consent');
       continue;
     }
@@ -317,9 +413,10 @@ export function scrubRows(
       phone,
       phone_raw: phoneRaw,
       email: parseEmail(pick(index, 'email')),
-      // Always true on a kept row: either the sheet said so, or the operator
-      // turned the flag off and took responsibility for the list.
-      consent: true,
+      // The sheet's own answer, stored as given. A row kept on the operator's flag with a blank cell
+      // is stored as false rather than relabelled true: the compliance record has to say what the
+      // source said, and `c2.consent = true` at claim time keeps such a row from ever dialing.
+      consent: consented,
       last_visit: parseDate(pick(index, 'last_visit')),
       lifetime_value_cents: parseMoneyCents(pick(index, 'lifetime_value')),
     });

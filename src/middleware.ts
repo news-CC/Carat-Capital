@@ -16,7 +16,9 @@ export function middleware(req: NextRequest) {
   if (token) return NextResponse.next();
 
   const login = new URL('/login', req.nextUrl.origin);
-  login.searchParams.set('next', req.nextUrl.pathname);
+  // Path AND query, so a filtered view survives the round trip through login.
+  // Always same-origin and relative; the login action re-validates it anyway.
+  login.searchParams.set('next', `${req.nextUrl.pathname}${req.nextUrl.search}`);
   return NextResponse.redirect(login);
 }
 

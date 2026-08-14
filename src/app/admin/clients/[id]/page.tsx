@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { requireAdmin } from '@/lib/auth';
-import { isInsideCallWindow, localTimeInZone, nextWindowOpenLabel } from '@/lib/call-window';
+import { isInsideCallWindow, localTimeLabel, nextWindowOpenLabel } from '@/lib/call-window';
 import { callWindow } from '@/lib/env';
 import { usd } from '@/lib/money';
 import { formatPhone } from '@/lib/phone';
@@ -13,7 +13,12 @@ import { CallsTable, type CallRowView } from '@/components/admin/CallsTable';
 import { ClientForm } from '@/components/admin/ClientForm';
 import { StatusPill, WindowPill } from '@/components/admin/StatusPill';
 import { sendWeeklyReportNowAction } from '@/app/admin/clients/actions';
-import { pauseCampaign, startCampaign } from '@/app/admin/clients/[id]/campaign-actions';
+import {
+  pauseCampaign,
+  scrubReport,
+  startCampaign,
+  type CampaignScrubReport,
+} from '@/app/admin/clients/[id]/campaign-actions';
 
 export const dynamic = 'force-dynamic';
 
@@ -35,15 +40,28 @@ const AUDIT_STATUSES: ContactStatus[] = [
 
 const n = (r: { count: number | null }): number => r.count ?? 0;
 
+/** The five figures from a dry-run gate check, in the order an operator reads them. */
+function gateFigures(
+  report: CampaignScrubReport,
+): { label: string; count: number; highlight: boolean }[] {
+  return [
+    { label: 'dialable now', count: report.dialable_now, highlight: true },
+    { label: 'no consent', count: report.blocked_no_consent, highlight: false },
+    { label: 'no usable number', count: report.blocked_missing_phone, highlight: false },
+    { label: 'suppressed', count: report.blocked_suppressed, highlight: false },
+    { label: 'already attempted', count: report.already_attempted, highlight: false },
+  ];
+}
+
 export default async function ClientDetailPage({
   params,
   searchParams,
 }: {
   params: Promise<{ id: string }>;
-  searchParams: Promise<{ notice?: string; error?: string }>;
+  searchParams: Promise<{ notice?: string; error?: string; scrub?: string }>;
 }) {
   await requireAdmin(); // gate
-  const [{ id }, { notice, error }] = await Promise.all([params, searchParams]);
+  const [{ id }, { notice, error, scrub }] = await Promise.all([params, searchParams]);
   const db = supabaseAdmin();
   const { start, end } = callWindow();
 
@@ -100,6 +118,10 @@ export default async function ClientDetailPage({
 
   const audit = AUDIT_STATUSES.map((status, i) => ({ status, count: n(statusCounts[i]) }));
   const bookedCount = audit.find((a) => a.status === 'booked')?.count ?? 0;
+
+  // The dry-run gate check re-derives every gate against the live suppression table, so it scans
+  // the contact rows. Opt-in via ?scrub=1 rather than on every page view.
+  const gateCheck = scrub === '1' ? await scrubReport(id) : null;
   // Two independent facts: is the window open, and is the campaign live. Both are shown.
   const windowOpen = isInsideCallWindow(client.timezone, start, end);
 
@@ -156,7 +178,7 @@ export default async function ClientDetailPage({
           </div>
           <div className="text-right">
             <p className="font-display text-3xl leading-none text-ink tabular-nums">
-              {localTimeInZone(client.timezone)}
+              {localTimeLabel(client.timezone)}
             </p>
             <p className="eyebrow mt-1">{client.timezone.replace('_', ' ')}</p>
           </div>
@@ -227,12 +249,52 @@ export default async function ClientDetailPage({
       </section>
 
       <section className="card card-pad">
-        <h2 className="h-display text-xl">Scrub audit</h2>
+        <div className="flex flex-wrap items-baseline justify-between gap-3">
+          <h2 className="h-display text-xl">Scrub audit</h2>
+          <Link
+            className="btn btn-ghost btn-sm"
+            href={`/admin/clients/${client.id}${scrub === '1' ? '' : '?scrub=1'}`}
+          >
+            {scrub === '1' ? 'Hide gate check' : 'Run gate check'}
+          </Link>
+        </div>
         <p className="help mt-1">
           Every contact this client has, by what the gates decided. Anything but{' '}
           <span className="font-mono">pending</span> or <span className="font-mono">calling</span> will
           never be dialed again — one attempt per contact, ever.
         </p>
+
+        {gateCheck && !gateCheck.ok && (
+          <p className="error-text mt-5">Gate check failed: {gateCheck.error}</p>
+        )}
+        {gateCheck?.ok && (
+          <div className="mt-6 border-t border-line pt-5">
+            <p className="stat-label">
+              Dry run against the live do-not-contact list ({gateCheck.data.suppression_list_size.toLocaleString('en-US')}{' '}
+              numbers)
+            </p>
+            <dl className="mt-4 grid grid-cols-2 gap-x-6 gap-y-5 sm:grid-cols-5">
+              {gateFigures(gateCheck.data).map(({ label, count, highlight }) => (
+                <div key={label}>
+                  <dd
+                    className={`font-display text-xl tabular-nums ${
+                      highlight ? 'text-brass-deep' : count === 0 ? 'text-ink-mute' : 'text-ink'
+                    }`}
+                  >
+                    {count.toLocaleString('en-US')}
+                  </dd>
+                  <dt className="stat-label">{label}</dt>
+                </div>
+              ))}
+            </dl>
+            <p className="help mt-4">
+              This is what <span className="font-mono">claim_contacts_for_dialing</span> would find right
+              now, recomputed in application code — not a cached number.
+              {gateCheck.data.truncated && ' Scan hit its row cap, so the counts are partial.'}
+              {!gateCheck.data.client_active && ' The campaign is paused, so nothing will be claimed.'}
+            </p>
+          </div>
+        )}
         <dl className="mt-6 grid grid-cols-3 gap-x-6 gap-y-5 sm:grid-cols-5">
           {audit.map(({ status, count }) => (
             <div key={status}>
@@ -285,7 +347,7 @@ export default async function ClientDetailPage({
               takes.
             </p>
           ) : (
-            <div className="overflow-x-auto">
+            <div className="overflow-x-auto py-4">
               <table className="table">
                 <thead>
                   <tr>

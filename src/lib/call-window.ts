@@ -21,6 +21,19 @@ export function localTimeInZone(timeZone: string, at: Date = new Date()): string
   return `${hour === '24' ? '00' : hour.padStart(2, '0')}:${minute.padStart(2, '0')}`;
 }
 
+/**
+ * Display-safe wrapper. `localTimeInZone` throws on a bad IANA zone by design, but
+ * `clients.timezone` is free text in the database — a single junk value must never
+ * 500 an admin page. Render this, dial with `isInsideCallWindow`.
+ */
+export function localTimeLabel(timeZone: string, at: Date = new Date()): string {
+  try {
+    return localTimeInZone(timeZone, at);
+  } catch {
+    return '--:--';
+  }
+}
+
 function toMinutes(clock: string): number | null {
   const m = /^(\d{1,2}):(\d{2})$/.exec(clock.trim());
   if (!m) return null;

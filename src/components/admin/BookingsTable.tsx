@@ -38,16 +38,20 @@ export function BookingsTable({
   rows: BookingRowView[];
   showClient?: boolean;
 }) {
+  // Every caller drops this into a bare `.card`, which has no padding of its own, so the inset lives
+  // here — same fix as CallsTable: without it the empty line sits in the card's corner and `.table th`
+  // (zero top padding) touches the card's top border. Vertical only, so the cells keep supplying the
+  // horizontal inset and hover rows stay full-bleed like every other admin table.
   if (rows.length === 0) {
     return (
-      <p className="help">
+      <p className="card-pad help">
         No bookings yet — Malone writes one the moment a caller commits to a specific time.
       </p>
     );
   }
 
   return (
-    <div className="overflow-x-auto">
+    <div className="overflow-x-auto py-4">
       <table className="table">
         <thead>
           <tr>
