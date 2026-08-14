@@ -18,3 +18,5 @@ next-env.d.ts
 npm-debug.log*
 yarn-error.log*
 coverage/
+.env*
+!.env.example
