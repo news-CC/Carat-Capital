@@ -67,39 +67,41 @@ body{margin:0;color:var(--pink);font-family:var(--pt)}
 .mgbar a:hover{color:#F6F1E6}
 .mgbar .t{color:#E8CB7C;letter-spacing:.3em}
 .stage{min-height:100dvh;display:flex;flex-direction:column;align-items:center;justify-content:center;
-  padding:calc(env(safe-area-inset-top,0px) + 56px) 16px 96px}
+  padding:calc(env(safe-area-inset-top,0px) + 56px) 16px 100px;overflow:hidden}
 #bookwrap{position:relative;transition:transform .85s cubic-bezier(.16,.9,.24,1)}
-#book{position:relative;perspective:2900px;transform-style:preserve-3d}
-/* the block of unturned pages, visible at the fore-edges */
-.edge{position:absolute;top:1.5%;height:97%;width:0;z-index:0;
+#zoomer{transition:transform .55s cubic-bezier(.16,.9,.24,1);transform-origin:center center}
+body.zoomed #zoomer{cursor:grab}
+body.zoomed.panning #zoomer{cursor:grabbing;transition:none}
+#book{position:relative;background:#0E0C09;
+  box-shadow:0 40px 110px -38px rgba(0,0,0,.95),0 4px 18px rgba(0,0,0,.5)}
+/* the block of pages at the fore-edges */
+.edge{position:absolute;top:1.2%;height:97.6%;width:0;z-index:0;
   background:repeating-linear-gradient(90deg,#E9E2D2 0 1px,#CFC5AC 1px 2px);
-  box-shadow:0 14px 40px -18px rgba(0,0,0,.85);transition:width .5s}
+  transition:width .5s}
 .edge.l{right:100%;border-radius:2px 0 0 2px}
 .edge.r{left:100%;border-radius:0 2px 2px 0}
-.sheet{position:absolute;top:0;right:0;width:50%;height:100%;transform-origin:left center;
-  transform-style:preserve-3d;transition:transform .9s cubic-bezier(.22,.85,.3,1)}
-.sheet.flip{transform:rotateY(-180deg)}
-.sheet.drag{transition:none}
-.face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;
-  overflow:hidden;background:var(--paper);transform:translateZ(0)}
-.face.pb{transform:rotateY(180deg) translateZ(1px)}
-/* spine shading printed into every leaf */
-.face.pf::before{content:"";position:absolute;inset:0;z-index:6;pointer-events:none;
-  background:linear-gradient(90deg,rgba(59,54,44,.20),transparent 6%,transparent 97%,rgba(59,54,44,.06))}
-.face.pb::before{content:"";position:absolute;inset:0;z-index:6;pointer-events:none;
-  background:linear-gradient(-90deg,rgba(59,54,44,.20),transparent 6%,transparent 97%,rgba(59,54,44,.06))}
-/* the moving light of the turn — opacity driven by the engine */
-.face .sh{position:absolute;inset:0;z-index:7;pointer-events:none;opacity:0}
-.face.pf .sh{background:linear-gradient(100deg,transparent 40%,rgba(20,16,8,.38) 96%)}
-.face.pb .sh{background:linear-gradient(-100deg,rgba(255,252,240,.28) 2%,transparent 30%,rgba(20,16,8,.30) 96%)}
-/* the shadow a turning page casts on the spread beneath */
-#cast{position:absolute;top:0;bottom:0;left:0;width:50%;z-index:30;pointer-events:none;opacity:0;
-  background:linear-gradient(90deg,transparent 30%,rgba(10,8,4,.38) 96%)}
-#cast.r{left:50%;background:linear-gradient(-90deg,transparent 30%,rgba(10,8,4,.38) 96%)}
-/* corner affordance */
-.sheet::after{content:"";position:absolute;right:0;bottom:0;width:54px;height:54px;z-index:8;
-  background:linear-gradient(315deg,rgba(59,54,44,.16) 0%,transparent 52%);opacity:0;transition:opacity .3s}
-#book:hover .sheet:not(.flip)::after{opacity:1}
+/* the two lying pages */
+.lp{position:absolute;top:0;bottom:0;width:50%;overflow:hidden;background:var(--paper);z-index:2}
+#pgL{left:0} #pgR{left:50%}
+#pgL::after{content:"";position:absolute;inset:0;z-index:6;pointer-events:none;
+  background:linear-gradient(-90deg,rgba(59,54,44,.22),transparent 7%)}
+#pgR::after{content:"";position:absolute;inset:0;z-index:6;pointer-events:none;
+  background:linear-gradient(90deg,rgba(59,54,44,.22),transparent 7%)}
+/* the fold machinery: the page being peeled + what it reveals */
+#under{position:absolute;top:0;bottom:0;width:50%;overflow:hidden;background:var(--paper);
+  display:none;z-index:1}
+#peelC{position:absolute;top:0;bottom:0;overflow:hidden;display:none;z-index:10}
+#peel{position:absolute;top:0;bottom:0;width:0;overflow:hidden;background:var(--paper);
+  box-shadow:0 0 34px rgba(10,8,4,.42)}
+#peel .inner{position:absolute;top:0;bottom:0}
+#peel .curl{position:absolute;inset:0;pointer-events:none}
+#foldsh{position:absolute;top:0;bottom:0;width:70px;display:none;z-index:9;pointer-events:none}
+#cornhint{position:absolute;right:0;bottom:0;width:46px;height:46px;z-index:12;pointer-events:none;
+  background:linear-gradient(315deg,rgba(59,54,44,.20) 6%,rgba(255,252,244,.4) 12%,transparent 46%);
+  opacity:0;transition:opacity .4s;border-radius:0 0 2px 0}
+#book:hover #cornhint{opacity:1;animation:breathe 2.6s ease-in-out infinite}
+@keyframes breathe{50%{transform:scale(1.22);opacity:.75}}
+/* leaves */
 .pg{position:absolute;inset:0;padding:7.2% 8%;display:flex;flex-direction:column;font-size:13px;line-height:1.55}
 .pg-slot{display:contents}
 .mk{font-family:var(--pm);font-size:8px;letter-spacing:.26em;text-transform:uppercase;
@@ -109,7 +111,7 @@ body{margin:0;color:var(--pink);font-family:var(--pt)}
 .pdek{font-size:13.5px;color:var(--pink2);margin:0 0 10px}
 .pull{font-family:var(--pt);font-style:italic;font-size:15px;line-height:1.5;color:var(--pink2);
   border-left:2px solid var(--pgilt);padding:2px 0 2px 12px;margin:0 0 12px}
-.pbody{font-size:12.5px;color:var(--pink2);margin:0}
+.pbody{font-size:12.5px;color:var(--pink2);margin:0;text-align:justify;hyphens:auto;-webkit-hyphens:auto}
 .pbody.drop::first-letter{font-family:var(--pd);font-weight:700;font-size:40px;line-height:.82;
   float:left;padding:4px 7px 0 0;color:var(--pink)}
 .pby{font-family:var(--pm);font-size:8.5px;letter-spacing:.14em;text-transform:uppercase;
@@ -164,7 +166,8 @@ body{margin:0;color:var(--pink);font-family:var(--pt)}
 .cov-bleed{position:absolute;inset:0}
 .cov-bleed img{width:100%;height:100%;object-fit:cover;filter:saturate(.7) brightness(.9)}
 .cov-scrim{position:absolute;inset:0;background:linear-gradient(178deg,rgba(10,8,5,.72) 0%,rgba(10,8,5,.35) 38%,rgba(10,8,5,.82) 78%,rgba(10,8,5,.94) 100%)}
-.cov-in{position:relative;z-index:2;display:flex;flex-direction:column;height:100%;padding:7.2% 8%}
+.cov-in{position:relative;z-index:2;display:flex;flex-direction:column;height:100%;padding:7.2% 8%;
+  outline:1px solid rgba(198,162,74,.34);outline-offset:-11px}
 .cov-top{display:flex;align-items:center;gap:9px}
 .cov-top .cov-iss{margin-left:auto;font-family:var(--pm);font-size:7px;letter-spacing:.26em;
   text-transform:uppercase;color:#C6A24A}
@@ -192,10 +195,10 @@ body{margin:0;color:var(--pink);font-family:var(--pt)}
 .mgnav{position:fixed;left:0;right:0;bottom:0;z-index:40;display:flex;flex-direction:column;gap:8px;
   padding:10px 18px calc(env(safe-area-inset-bottom,0px) + 12px);
   background:linear-gradient(0deg,#141310 62%,transparent)}
-.mgrow{display:flex;justify-content:center;align-items:center;gap:14px;
+.mgrow{display:flex;justify-content:center;align-items:center;gap:12px;
   font-family:var(--pm);font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:#B9AE96}
 .mgrow button{font:inherit;color:#E8CB7C;background:none;border:1px solid rgba(198,162,74,.35);
-  border-radius:999px;padding:7px 14px;cursor:pointer;letter-spacing:.18em;text-transform:uppercase}
+  border-radius:999px;padding:7px 13px;cursor:pointer;letter-spacing:.18em;text-transform:uppercase}
 .mgrow button:hover{background:rgba(198,162,74,.14)}
 .mgrow button[disabled]{opacity:.3;cursor:default}
 #scrub{-webkit-appearance:none;appearance:none;width:min(520px,64vw);height:2px;border-radius:2px;
@@ -204,29 +207,35 @@ body{margin:0;color:var(--pink);font-family:var(--pt)}
   background:#E8CB7C;border:1px solid #96762E;cursor:pointer}
 #scrub::-moz-range-thumb{width:13px;height:13px;border-radius:50%;background:#E8CB7C;
   border:1px solid #96762E;cursor:pointer}
-#thumbs{position:fixed;left:0;right:0;bottom:0;z-index:50;transform:translateY(102%);
+.drawer{position:fixed;left:0;right:0;bottom:0;z-index:50;transform:translateY(102%);
   transition:transform .5s cubic-bezier(.16,.9,.24,1);background:#0F0E0B;
-  border-top:1px solid rgba(198,162,74,.3);padding:14px 16px calc(env(safe-area-inset-bottom,0px) + 14px);
-  display:flex;gap:10px;overflow-x:auto}
-#thumbs.open{transform:none}
+  border-top:1px solid rgba(198,162,74,.3);padding:14px 16px calc(env(safe-area-inset-bottom,0px) + 14px)}
+.drawer.open{transform:none}
+#thumbs{display:flex;gap:10px;overflow-x:auto}
 .th{flex:none;width:76px;height:106px;position:relative;overflow:hidden;background:var(--paper);
   border:1px solid rgba(198,162,74,.25);cursor:pointer}
 .th:hover{border-color:#C6A24A}
 .th .pg{transform:scale(.19);transform-origin:top left;width:400px;height:560px;position:absolute}
 .th b{position:absolute;right:3px;bottom:2px;z-index:9;font-family:var(--pm);font-weight:500;
   font-size:7px;color:#96762E;background:rgba(246,241,230,.85);padding:1px 4px;border-radius:3px}
-/* ── the phone: the same leaves as a swipe deck, with real proportions ── */
+#tocp{display:flex;flex-direction:column;gap:2px;max-height:44vh;overflow-y:auto}
+#tocp button{font-family:var(--pm);font-size:10px;letter-spacing:.14em;text-transform:uppercase;
+  text-align:left;color:#CFC5AC;background:none;border:0;border-bottom:1px solid rgba(198,162,74,.14);
+  padding:10px 6px;cursor:pointer}
+#tocp button:hover{color:#E8CB7C;background:rgba(198,162,74,.07)}
+/* ── the phone: the same leaves as a swipe deck ── */
 @media(max-width:700px){
-  #book{perspective:none;display:flex;overflow-x:auto;scroll-snap-type:x mandatory;
-    scrollbar-width:none;gap:12px;width:min(92vw,440px)}
+  #book{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;gap:12px;
+    width:min(92vw,440px);background:none;box-shadow:none}
   #book::-webkit-scrollbar{display:none}
-  .edge{display:none}
+  .edge,#cornhint,#under,#peelC,#foldsh{display:none!important}
   .pg-slot{display:block;flex:none;width:100%;aspect-ratio:5/7;scroll-snap-align:center;
     position:relative;background:var(--paper);box-shadow:0 18px 50px -28px rgba(0,0,0,.9)}
 }
-@media(prefers-reduced-motion:reduce){.sheet,#bookwrap,.edge{transition:none!important}}
-html:not(.js) #book{display:flex;flex-direction:column;gap:16px;width:min(92vw,480px)}
+@media(prefers-reduced-motion:reduce){#bookwrap,#zoomer,.edge{transition:none!important}}
+html:not(.js) #book{display:flex;flex-direction:column;gap:16px;width:min(92vw,480px);background:none}
 html:not(.js) .pg-slot{display:block;position:relative;aspect-ratio:5/7;background:var(--paper)}
+html:not(.js) .lp,html:not(.js) #under,html:not(.js) #peelC,html:not(.js) #foldsh{display:none}
 </style>
 <script>document.documentElement.classList.add('js')</script>
 
@@ -236,7 +245,7 @@ html:not(.js) .pg-slot{display:block;position:relative;aspect-ratio:5/7;backgrou
   <span id="pgno">&nbsp;</span>
 </div>
 
-<div class="stage"><div id="bookwrap"><div id="book"><div class="pg-slot"><div class="pg pg-cover">
+<div class="stage"><div id="bookwrap"><div id="zoomer"><div id="book"><div class="pg-slot"><div class="pg pg-cover">
   <div class="cov-bleed"><img src="assets/ph/diamonds-hero.jpg" alt=""></div>
   <div class="cov-scrim"></div>
   <div class="cov-in">
@@ -358,159 +367,252 @@ html:not(.js) .pg-slot{display:block;position:relative;aspect-ratio:5/7;backgrou
   <div class="cov-mast" style="font-size:34px">Clarity, daily.</div>
   <div class="cov-foot" style="margin-top:22px">Carat Capital &middot; est. MMXXVI &middot; free to read &middot; caratcapital.org</div>
   </div>
-</div></div><div id="cast"></div>
-  <div class="edge l"></div><div class="edge r"></div></div></div></div>
+</div></div>
+  <div class="lp" id="pgL"></div><div class="lp" id="pgR"></div>
+  <div id="under"></div>
+  <div id="foldsh"></div>
+  <div id="peelC"><div id="peel"><div class="inner"></div><div class="curl"></div></div></div>
+  <div id="cornhint"></div>
+  <div class="edge l"></div><div class="edge r"></div>
+</div></div></div></div>
 
 <div class="mgnav">
   <div class="mgrow"><input id="scrub" type="range" min="0" max="1" value="0" step="1"
     aria-label="Go to page"></div>
   <div class="mgrow">
     <button id="mprev" aria-label="Previous page">&larr;</button>
+    <button id="mtoc">Contents</button>
     <button id="mthumbs">Pages</button>
+    <button id="mzoom">Zoom</button>
     <button id="mfull">Fullscreen</button>
     <button id="mnext" aria-label="Next page">&rarr;</button>
   </div>
 </div>
-<div id="thumbs" aria-label="Page thumbnails"></div>
+<div id="thumbsD" class="drawer"><div id="thumbs" aria-label="Page thumbnails"></div></div>
+<div id="tocD" class="drawer"><div id="tocp" aria-label="Contents"><button data-s="0">Cover</button><button data-s="1">In this issue</button><button data-s="2">The week&#x27;s lead</button><button data-s="3">The tape — the Carat indices</button><button data-s="4">Diamonds</button><button data-s="4">Gold &amp; Metals</button><button data-s="5">Colored Gemstones</button><button data-s="5">Watches</button><button data-s="6">Auctions &amp; Estates</button><button data-s="6">Retail &amp; Technology</button><button data-s="7">The wire, distilled</button><button data-s="7">By the numbers</button><button data-s="8">The open seat</button><button data-s="9">Back cover</button></div></div>
 
 <script>
 (function(){
-  const book=document.getElementById('book'), wrap=document.getElementById('bookwrap');
+  const book=document.getElementById('book'), wrap=document.getElementById('bookwrap'),
+        zoomer=document.getElementById('zoomer');
   const slots=[...book.querySelectorAll('.pg-slot')];
+  const pgL=document.getElementById('pgL'), pgR=document.getElementById('pgR');
+  const under=document.getElementById('under'), peelC=document.getElementById('peelC'),
+        peel=document.getElementById('peel'), peelIn=peel.querySelector('.inner'),
+        curl=peel.querySelector('.curl'), foldsh=document.getElementById('foldsh');
   const pgno=document.getElementById('pgno'), scrub=document.getElementById('scrub');
   const bp=document.getElementById('mprev'), bn=document.getElementById('mnext');
-  const cast=document.getElementById('cast'), thumbs=document.getElementById('thumbs');
   const isPhone=matchMedia('(max-width:700px)');
-  const NP=18;
-  let mode='', cur=0, sheets=[], BW=0;
+  const NP=18, NS=Math.ceil(18/2);
+  let mode='', cur=0, BW=0, BH=0, anim=null;
+
+  const leaf=i=>slots[i]?slots[i].firstElementChild:null;
+  function put(el,i){ el.innerHTML=''; const l=leaf(i); if(l) el.appendChild(l.cloneNode(true)); }
 
   function sizeBook(){
-    const vw=Math.min(innerWidth-36,1180), vh=innerHeight-176;
+    const vw=Math.min(innerWidth-36,1180), vh=innerHeight-186;
     let pw=Math.min(vw/2, vh/1.4);
-    const ph=pw*1.4; BW=pw*2;
-    book.style.width=BW+'px'; book.style.height=ph+'px';
+    BH=pw*1.4; BW=pw*2;
+    book.style.width=BW+'px'; book.style.height=BH+'px';
   }
-  function buildBook(){
-    sheets=[]; slots.forEach(s=>{s.style.display='none';});
-    const N=Math.ceil(slots.length/2);
-    for(let k=0;k<N;k++){
-      const sh=document.createElement('div'); sh.className='sheet';
-      const f=document.createElement('div'); f.className='face pf';
-      f.appendChild(slots[2*k].firstElementChild.cloneNode(true));
-      const fs=document.createElement('div'); fs.className='sh'; f.appendChild(fs);
-      sh.appendChild(f);
-      const b=document.createElement('div'); b.className='face pb';
-      if(slots[2*k+1]) b.appendChild(slots[2*k+1].firstElementChild.cloneNode(true));
-      const bs=document.createElement('div'); bs.className='sh'; b.appendChild(bs);
-      sh.appendChild(b);
-      book.appendChild(sh); sheets.push(sh);
-    }
-    paint();
-  }
-  function unbuild(){
-    sheets.forEach(s=>s.remove()); sheets=[];
-    slots.forEach(s=>{s.style.display='';});
-    book.style.width='';book.style.height='';wrap.style.transform='';
-  }
-  function shades(sh,p){
-    sh.querySelector('.pf .sh').style.opacity=(p*.75).toFixed(3);
-    sh.querySelector('.pb .sh').style.opacity=((1-p)*.75).toFixed(3);
-  }
-  function paint(){
-    const N=sheets.length;
-    sheets.forEach((s,i)=>{
-      s.classList.remove('drag');
-      s.style.transform='';
-      s.classList.toggle('flip',i<cur);
-      s.style.zIndex=i<cur? i+1 : 2*N-i;
-      shades(s, i<cur?1:0);
-    });
-    cast.style.opacity=0;
+  function settle(){
+    /* static spread for the current position: verso of the sheet before, recto of this one */
+    put(pgL, 2*cur-1); put(pgR, 2*cur);
+    pgL.style.visibility=cur===0?'hidden':'';
+    pgR.style.visibility=cur===NS?'hidden':'';
+    under.style.display=peelC.style.display=foldsh.style.display='none';
     wrap.style.transform=cur===0?'translateX('+(BW/4)+'px)':
-                         cur===N?'translateX(-'+(BW/4)+'px)':'';
-    document.querySelector('.edge.l').style.width=Math.min(12,cur*1.5)+'px';
-    document.querySelector('.edge.r').style.width=Math.min(12,(N-cur)*1.5)+'px';
-    pgno.textContent=(cur===0?'cover':(cur===N?'back':(2*cur)+'\u2013'+(2*cur+1)))+' / '+NP;
-    bp.disabled=cur===0; bn.disabled=cur===N;
-    scrub.max=N; scrub.value=cur;
+                         cur===NS?'translateX(-'+(BW/4)+'px)':'';
+    document.querySelector('.edge.l').style.width=Math.min(12,cur*1.4)+'px';
+    document.querySelector('.edge.r').style.width=Math.min(12,(NS-cur)*1.4)+'px';
+    pgno.textContent=(cur===0?'cover':(cur===NS?'back':(2*cur)+'\u2013'+(2*cur+1)))+' / '+NP;
+    bp.disabled=cur===0; bn.disabled=cur===NS;
+    scrub.max=NS; scrub.value=cur;
+    if(history.replaceState) history.replaceState(null,'','#s'+cur);
+  }
+  /* ── the fold, laid out at progress p ∈ (0,1) ──
+     Forward peels sheet `cur` right-to-left; backward peels sheet `cur-1` back.
+     The paper does not stretch: with the free edge at e, the fold sits midway
+     between e and the page's resting edge, and the strip beyond the fold shows
+     the sheet's other face, free edge leading. */
+  function fold(dir,p){
+    p=Math.max(0.001,Math.min(0.999,p));
+    const W=BW, P=W/2;
+    if(dir>0){
+      const e=W*(1-p), l=(e+W)/2;
+      put(under, 2*(cur+1)); under.style.display='block';
+      under.style.left=P+'px'; under.style.width=P+'px';
+      under.style.visibility=(cur+1===NS)?'hidden':'';
+      pgR.style.visibility='';
+      pgR.style.clipPath='inset(0 '+(W-l)+'px 0 0)';
+      peelC.style.display='block'; peelC.style.left='0'; peelC.style.width=W+'px';
+      peel.style.left=e+'px'; peel.style.width=Math.max(0,l-e)+'px';
+      peelIn.style.left='0'; peelIn.style.width=P+'px';
+      if(!peel.dataset.face||peel.dataset.face!=='b'+(2*cur+1)){
+        peelIn.innerHTML=''; const lf=leaf(2*cur+1);
+        if(lf) peelIn.appendChild(lf.cloneNode(true));
+        peel.dataset.face='b'+(2*cur+1);
+      }
+      curl.style.background='linear-gradient(90deg,transparent 55%,rgba(59,54,44,.14) 88%,rgba(20,16,8,.30) 99%),'+
+        'linear-gradient(90deg,rgba(255,252,240,.5) 0%,transparent 8%)';
+      foldsh.style.display='block';
+      foldsh.style.left=l+'px';
+      foldsh.style.background='linear-gradient(90deg,rgba(10,8,4,'+(0.36*Math.sin(p*Math.PI)).toFixed(3)+'),transparent)';
+    } else {
+      const e=W*p, l=e/2;
+      put(under, 2*(cur-1)-1); under.style.display='block';
+      under.style.left='0'; under.style.width=P+'px';
+      under.style.visibility=(cur-1===0)?'hidden':'';
+      pgL.style.visibility='';
+      pgL.style.clipPath='inset(0 0 0 '+l+'px)';
+      peelC.style.display='block'; peelC.style.left='0'; peelC.style.width=W+'px';
+      peel.style.left=l+'px'; peel.style.width=Math.max(0,e-l)+'px';
+      peelIn.style.width=P+'px';
+      peelIn.style.left=(Math.max(0,e-l)-P)+'px';
+      if(!peel.dataset.face||peel.dataset.face!=='f'+(2*(cur-1))){
+        peelIn.innerHTML=''; const lf=leaf(2*(cur-1));
+        if(lf) peelIn.appendChild(lf.cloneNode(true));
+        peel.dataset.face='f'+(2*(cur-1));
+      }
+      curl.style.background='linear-gradient(-90deg,transparent 55%,rgba(59,54,44,.14) 88%,rgba(20,16,8,.30) 99%),'+
+        'linear-gradient(-90deg,rgba(255,252,240,.5) 0%,transparent 8%)';
+      foldsh.style.display='block';
+      foldsh.style.left=(l-70)+'px';
+      foldsh.style.background='linear-gradient(-90deg,rgba(10,8,4,'+(0.36*Math.sin(p*Math.PI)).toFixed(3)+'),transparent)';
+    }
+  }
+  function unfoldStatics(dir){
+    pgR.style.clipPath=''; pgL.style.clipPath=''; peel.dataset.face='';
+  }
+  function spring(dir,fromP,toP,done){
+    if(anim) cancelAnimationFrame(anim.raf);
+    const dur=matchMedia('(prefers-reduced-motion: reduce)').matches?1:420;
+    const t0=performance.now();
+    const tick=now=>{
+      let t=Math.min(1,(now-t0)/dur);
+      const ease=1-Math.pow(1-t,3);
+      fold(dir, fromP+(toP-fromP)*ease);
+      if(t<1) anim={raf:requestAnimationFrame(tick)};
+      else { anim=null; done&&done(); }
+    };
+    anim={raf:requestAnimationFrame(tick)};
+  }
+  function turn(dir){
+    if(mode!=='book'||anim) return;
+    if(dir>0&&cur>=NS||dir<0&&cur<=0) return;
+    wrap.style.transform='';
+    spring(dir,0.02,1,()=>{ cur+=dir; unfoldStatics(dir); settle(); });
   }
   function go(n){
-    if(mode==='book'){cur=Math.max(0,Math.min(sheets.length,n));paint();}
+    if(mode==='book'){ if(anim){cancelAnimationFrame(anim.raf);anim=null;unfoldStatics(1);}
+      cur=Math.max(0,Math.min(NS,n)); settle(); }
     else book.scrollTo({left:n*book.clientWidth,behavior:'smooth'});
   }
-  const next=()=>mode==='book'?go(cur+1):book.scrollBy({left:book.clientWidth,behavior:'smooth'});
-  const prev=()=>mode==='book'?go(cur-1):book.scrollBy({left:-book.clientWidth,behavior:'smooth'});
+  const next=()=>mode==='book'?turn(1):book.scrollBy({left:book.clientWidth,behavior:'smooth'});
+  const prev=()=>mode==='book'?turn(-1):book.scrollBy({left:-book.clientWidth,behavior:'smooth'});
 
-  /* the turn that follows the finger */
+  /* the drag: the fold follows the finger */
   let D=null;
   book.addEventListener('pointerdown',e=>{
-    if(mode!=='book'||e.target.closest('a')) return;
+    if(mode!=='book'||anim||document.body.classList.contains('zoomed')) return;
+    if(e.target.closest('a')) return;
     const r=book.getBoundingClientRect();
-    const x=e.clientX-r.left, fwd=x>r.width/2;
-    const idx=fwd?cur:cur-1;
-    if(idx<0||idx>=sheets.length) return;
-    D={sh:sheets[idx],fwd,r,x0:e.clientX,t0:performance.now(),moved:false,p:fwd?0:1};
-    D.sh.classList.add('drag');
-    D.sh.style.zIndex=99;
-    cast.className=fwd?'':'r'; 
+    const x=e.clientX-r.left, fwd=x>r.width/2?1:-1;
+    if(fwd>0&&cur>=NS||fwd<0&&cur<=0) return;
+    D={dir:fwd,r,x0:e.clientX,t0:performance.now(),moved:false,p:0.02};
+    wrap.style.transform='';
+    fold(D.dir,D.p);
     e.preventDefault();
   });
   addEventListener('pointermove',e=>{
     if(!D) return;
     const x=e.clientX-D.r.left;
-    let p=1-(x/D.r.width);            /* 0 = flat right, 1 = flat left */
-    p=Math.max(0,Math.min(1,p*1.15));
+    let p=D.dir>0? 1-(x/D.r.width) : (x/D.r.width);
+    p=Math.max(0,Math.min(1,p*1.12));
     if(Math.abs(e.clientX-D.x0)>4) D.moved=true;
-    D.p=p;
-    D.sh.style.transform='rotateY('+(-180*p)+'deg)';
-    shades(D.sh,p);
-    cast.style.opacity=(Math.sin(p*Math.PI)*.55).toFixed(3);
+    D.p=p; fold(D.dir,p);
   });
   addEventListener('pointerup',e=>{
     if(!D) return;
-    const {sh,fwd,moved,p,t0,x0}=D; D=null;
-    sh.classList.remove('drag');
+    const {dir,moved,p,t0,x0}=D; D=null;
     const dx=e.clientX-x0, dt=Math.max(1,performance.now()-t0), v=dx/dt;
-    let turn;
-    if(!moved) turn=true;                       /* a clean click turns the page */
-    else if(fwd) turn=p>0.5||(v<-0.45&&dx<-60);  /* past half, or a real flick left */
-    else turn=p<0.5||(v>0.45&&dx>60);           /* back past half, or a real flick right */
-    if(fwd&&turn) cur=Math.min(sheets.length,cur+1);
-    if(!fwd&&turn) cur=Math.max(0,cur-1);
-    paint();
+    let turnIt;
+    if(!moved) turnIt=true;
+    else if(dir>0) turnIt=p>0.5||(v<-0.45&&dx<-60);
+    else turnIt=p>0.5||(v>0.45&&dx>60);
+    if(turnIt) spring(dir,p,1,()=>{cur+=dir;unfoldStatics(dir);settle();});
+    else spring(dir,p,0,()=>{unfoldStatics(dir);settle();});
   });
 
+  /* zoom: double-click or the button; drag to pan while zoomed */
+  let Z=false, pan=null, px=0, py=0;
+  function setZoom(on,cx,cy){
+    Z=on; document.body.classList.toggle('zoomed',Z);
+    if(Z){ px=0;py=0;
+      zoomer.style.transformOrigin=(cx||50)+'% '+(cy||50)+'%';
+      zoomer.style.transform='scale(1.8)'; }
+    else zoomer.style.transform='';
+  }
+  document.getElementById('mzoom').addEventListener('click',()=>setZoom(!Z));
+  book.addEventListener('dblclick',e=>{
+    const r=book.getBoundingClientRect();
+    setZoom(!Z, (e.clientX-r.left)/r.width*100, (e.clientY-r.top)/r.height*100);
+  });
+  zoomer.addEventListener('pointerdown',e=>{ if(!Z)return;
+    pan={x:e.clientX-px,y:e.clientY-py}; document.body.classList.add('panning'); e.preventDefault(); });
+  addEventListener('pointermove',e=>{ if(!pan)return;
+    px=e.clientX-pan.x; py=e.clientY-pan.y;
+    zoomer.style.transform='scale(1.8) translate('+(px/1.8)+'px,'+(py/1.8)+'px)'; });
+  addEventListener('pointerup',()=>{pan=null;document.body.classList.remove('panning');});
+
+  /* drawers */
+  const thumbsD=document.getElementById('thumbsD'), tocD=document.getElementById('tocD');
   function buildThumbs(){
-    thumbs.innerHTML='';
+    const t=document.getElementById('thumbs'); t.innerHTML='';
     slots.forEach((s,i)=>{
-      const t=document.createElement('div'); t.className='th';
-      t.appendChild(s.firstElementChild.cloneNode(true));
-      const b=document.createElement('b'); b.textContent=i===0?'cover':i; t.appendChild(b);
-      t.addEventListener('click',()=>{
-        thumbs.classList.remove('open');
-        mode==='book'?go(Math.ceil(i/2)):go(i);
-      });
-      thumbs.appendChild(t);
+      const d=document.createElement('div'); d.className='th';
+      d.appendChild(s.firstElementChild.cloneNode(true));
+      const b=document.createElement('b'); b.textContent=i===0?'cover':i; d.appendChild(b);
+      d.addEventListener('click',()=>{thumbsD.classList.remove('open');
+        mode==='book'?go(Math.ceil(i/2)):go(i);});
+      t.appendChild(d);
     });
   }
-  document.getElementById('mthumbs').addEventListener('click',()=>thumbs.classList.toggle('open'));
+  document.getElementById('mthumbs').addEventListener('click',()=>{
+    tocD.classList.remove('open'); thumbsD.classList.toggle('open');});
+  document.getElementById('mtoc').addEventListener('click',()=>{
+    thumbsD.classList.remove('open'); tocD.classList.toggle('open');});
+  document.getElementById('tocp').addEventListener('click',e=>{
+    const b=e.target.closest('button'); if(!b) return;
+    tocD.classList.remove('open');
+    mode==='book'?go(+b.dataset.s):go(Math.max(0,2*(+b.dataset.s)-1));});
   document.addEventListener('click',e=>{
-    if(!e.target.closest('#thumbs')&&!e.target.closest('#mthumbs')) thumbs.classList.remove('open');});
+    if(!e.target.closest('.drawer')&&!e.target.closest('#mthumbs')&&!e.target.closest('#mtoc')){
+      thumbsD.classList.remove('open'); tocD.classList.remove('open');}});
   document.getElementById('mfull').addEventListener('click',()=>{
     const el=document.documentElement;
     if(document.fullscreenElement) (document.exitFullscreen||document.webkitExitFullscreen).call(document);
     else (el.requestFullscreen||el.webkitRequestFullscreen||function(){}).call(el);
   });
   scrub.addEventListener('input',()=>go(+scrub.value));
+
   function setMode(){
     const want=isPhone.matches?'deck':'book';
     if(want===mode) return; mode=want;
-    if(want==='book'){sizeBook();buildBook();}
-    else{unbuild();scrub.max=slots.length-1;pgno.textContent='1 / '+NP;}
+    if(want==='book'){
+      slots.forEach(s=>{s.style.display='none';});
+      sizeBook(); settle();
+    } else {
+      slots.forEach(s=>{s.style.display='';});
+      book.style.width='';book.style.height='';wrap.style.transform='';
+      scrub.max=slots.length-1; pgno.textContent='1 / '+NP;
+    }
   }
+  const h=location.hash.match(/^#s(\d+)$/);
+  if(h) cur=Math.max(0,Math.min(NS,+h[1]));
   setMode(); buildThumbs();
   isPhone.addEventListener?isPhone.addEventListener('change',setMode):isPhone.addListener(setMode);
-  addEventListener('resize',()=>{if(mode==='book'){sizeBook();paint();}});
+  addEventListener('resize',()=>{if(mode==='book'){sizeBook();settle();}});
   bp.addEventListener('click',prev); bn.addEventListener('click',next);
   addEventListener('keydown',e=>{
     if(e.key==='ArrowRight'||e.key==='PageDown')next();
