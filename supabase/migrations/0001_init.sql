@@ -11,7 +11,7 @@
 -- Five tables. No more. If a feature needs a sixth, it is not in v1.
 -- ============================================================================
 
-create extension if not exists pgcrypto;
+create extension if not exists pgcrypto; 
 
 -- ----------------------------------------------------------------------------
 -- clients — the salon or med spa paying us
