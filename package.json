@@ -14,7 +14,8 @@
     "setup:stripe": "node --env-file=.env.local scripts/setup-stripe.mjs",
     "setup:vapi": "node --env-file=.env.local scripts/setup-vapi.mjs",
     "demo:clientele": "node scripts/generate-demo-clientele.mjs",
-    "setup:scheduler": "node --env-file=.env.local scripts/setup-scheduler.mjs"
+    "setup:scheduler": "node --env-file=.env.local scripts/setup-scheduler.mjs",
+    "test:call": "node --env-file=.env.local scripts/test-call.mjs"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.58.0",
