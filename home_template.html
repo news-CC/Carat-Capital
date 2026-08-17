@@ -299,7 +299,7 @@ section{position:relative;z-index:1}
   width:230%;height:185%;z-index:-1;
   background:radial-gradient(closest-side,rgba(232,203,124,.20),rgba(198,162,74,.10) 46%,transparent 74%),
              radial-gradient(closest-side,rgba(140,197,255,.05),transparent 62%)}
-#gem{width:100%;height:100%;display:block;pointer-events:auto;cursor:grab;touch-action:pan-y}
+#gem{width:100%;height:100%;display:block;pointer-events:auto;cursor:grab;touch-action:none}
 #gem.dragging{cursor:grabbing}
 .hero-in{position:relative;z-index:2;display:flex;flex-direction:column;align-items:center;
   justify-content:center;text-align:center;padding:clamp(14px,3vh,40px) 20px}
@@ -1955,7 +1955,7 @@ addEventListener('resize',paint); paint();
     return new Float32Array(P);
   })();
 
-  const FS=`precision highp float;uniform vec2 uRes;uniform float uT,uSpin;
+  const FS=`precision highp float;uniform vec2 uRes;uniform float uT,uSpin,uTilt;
 uniform vec4 uPl[${NPL}];
 bool enter(vec3 ro,vec3 rd,out float tE,out vec3 nE){
  float ti=-1e20,to=1e20;vec3 ni=vec3(0.,1.,0.);
@@ -1994,7 +1994,7 @@ vec3 trace(vec3 ro,vec3 rd,float ior){
 void main(){vec2 uv=(gl_FragCoord.xy-0.5*uRes)/uRes.y;
  vec3 ro=vec3(0.,0.20,3.15);vec3 rd=normalize(vec3(uv,-1.55));
  float a=uSpin;float ca=cos(a),sa=sin(a);mat3 ry=mat3(ca,0.,-sa,0.,1.,0.,sa,0.,ca);
- float ti=-0.18+sin(uT*0.23)*0.05;float ct=cos(ti),st=sin(ti);
+ float ti=uTilt+sin(uT*0.23)*0.05;float ct=cos(ti),st=sin(ti);
  mat3 rx=mat3(1.,0.,0.,0.,ct,-st,0.,st,ct);mat3 M=ry*rx;
  mat3 Mi=mat3(M[0][0],M[1][0],M[2][0],M[0][1],M[1][1],M[2][1],M[0][2],M[1][2],M[2][2]);
  ro=Mi*ro;rd=Mi*rd;
@@ -2012,7 +2012,8 @@ void main(){vec2 uv=(gl_FragCoord.xy-0.5*uRes)/uRes.y;
   const lo=gl.getAttribLocation(pr,'p');gl.enableVertexAttribArray(lo);
   gl.vertexAttribPointer(lo,2,gl.FLOAT,false,0,0);
   const uRes=gl.getUniformLocation(pr,'uRes'),uT=gl.getUniformLocation(pr,'uT'),
-        uSpin=gl.getUniformLocation(pr,'uSpin');
+        uSpin=gl.getUniformLocation(pr,'uSpin'),
+        uTilt=gl.getUniformLocation(pr,'uTilt');
   gl.uniform4fv(gl.getUniformLocation(pr,'uPl[0]'),GEM);   // the cut, uploaded once
   // render well above display size and let the browser downsample:
   // that is what removes the stair-stepping on the facet edges.
@@ -2020,7 +2021,7 @@ void main(){vec2 uv=(gl_FragCoord.xy-0.5*uRes)/uRes.y;
      budget goes into resolution instead: render far above display size
      and let the browser downsample. That is what makes 58 facet edges
      read as edges rather than as stairs. */
-  const SS=2.6, MAX=2560;              // supersample factor, hard ceiling
+  const SS=3.2, MAX=4096;              // supersample factor, hard ceiling
   let quality=1;                       // lowered only by the frame-time probe
   function sizeAt(q){
     /* offsetWidth, not the client rect: the stone is scaled by a transform
@@ -2044,25 +2045,31 @@ void main(){vec2 uv=(gl_FragCoord.xy-0.5*uRes)/uRes.y;
   const t0=performance.now();let spin=RM?.6:0,last=t0;
   /* drag-to-inspect: the stone follows the finger while held, and on
      release the fling bleeds back into the idle .32 rad/s house spin */
-  const BASE=.32, K=.012;
-  let drag=false, vel=RM?0:BASE, px=0, pt=0, mv=0;
-  cv.addEventListener('pointerdown',e=>{drag=true;mv=0;px=e.clientX;pt=e.timeStamp;
+  const BASE=.32, K=.016, TILT0=-.18, TAU=Math.PI*2;
+  let drag=false, vel=RM?0:BASE, px=0, py=0, pt=0, mv=0, tilt=TILT0, ttgt=TILT0;
+  cv.addEventListener('pointerdown',e=>{drag=true;mv=0;px=e.clientX;py=e.clientY;pt=e.timeStamp;
     cv.classList.add('dragging');cv.setPointerCapture(e.pointerId);e.preventDefault();});
   cv.addEventListener('pointermove',e=>{if(!drag)return;
-    const dx=e.clientX-px,ms=Math.max(e.timeStamp-pt,1);px=e.clientX;pt=e.timeStamp;
-    spin+=dx*K; mv=dx*K*1000/ms;});
+    const dx=e.clientX-px,dy=e.clientY-py,ms=Math.max(e.timeStamp-pt,1);
+    px=e.clientX;py=e.clientY;pt=e.timeStamp;
+    spin+=dx*K; tilt+=dy*K; mv=dx*K*1000/ms;});
   const drop=()=>{if(!drag)return;drag=false;cv.classList.remove('dragging');
-    vel=Math.max(-6,Math.min(6,mv));};
+    vel=Math.max(-6,Math.min(6,mv));
+    /* come home the short way round: settle to the nearest full turn of
+       the resting tilt so a flipped stone rights itself without rewinding */
+    ttgt=TILT0+TAU*Math.round((tilt-TILT0)/TAU);};
   cv.addEventListener('pointerup',drop);cv.addEventListener('pointercancel',drop);
   // auto-degrade: if the machine cannot hold a smooth frame, drop the
   // supersample rather than let the stone crawl. Quality is negotiable, motion is not.
-  const RUNGS=[1,0.74,0.54,0.40,0.30];  // a ladder, not a single step down
+  const RUNGS=[1,0.85,0.70,0.55];       // a ladder, floored where it still reads sharp
   let rung=0, probe=0, acc=0, warm=0;
   function frame(now){requestAnimationFrame(frame);
     if(!vis){last=now;return;}
     const dt=Math.min((now-last)/1000,.05);last=now;const t=(now-t0)/1000;
-    if(!drag){vel+=((RM?0:BASE)-vel)*Math.min(1,dt*2.2);spin+=dt*vel;}
+    if(!drag){vel+=((RM?0:BASE)-vel)*Math.min(1,dt*2.2);spin+=dt*vel;
+      tilt+=(ttgt-tilt)*Math.min(1,dt*2.5);}
     gl.uniform2f(uRes,cv.width,cv.height);gl.uniform1f(uT,RM?0:t);gl.uniform1f(uSpin,spin);
+    gl.uniform1f(uTilt,tilt);
     gl.drawArrays(gl.TRIANGLES,0,3);
     if(RM) return;
     /* Measure, step, measure again — in both directions. One rung down was
