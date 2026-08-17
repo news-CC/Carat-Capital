@@ -32,7 +32,7 @@
   --ok:#2BFF95; --dn:#FF6B4A;
   /* resting values are what a no-JS reader gets, so they carry AA too */
   --bg:#04060B; --fg:#DCEAF5; --fg2:rgba(220,234,245,.78); --fg3:rgba(220,234,245,.72);
-  --line:rgba(198,162,74,.28); --acc:#C6A24A; --plate:rgba(255,255,255,.03);
+  --line:rgba(142,146,152,.30); --line-hi:rgba(142,146,152,.62); --acc:#C6A24A; --plate:rgba(255,255,255,.03);
   --disp:'Instrument Sans',-apple-system,BlinkMacSystemFont,sans-serif;
   --serif:'Lora',Georgia,serif;
   --mono:'IBM Plex Mono',ui-monospace,Menlo,monospace;
@@ -127,7 +127,7 @@ html:not(.js) #boot{display:none}
   transition:color .3s,border-color .3s,background .3s}
 .mbtn{margin-right:14px}
 .mbtn:hover,.mbtn:focus-visible,.spill:hover,.spill:focus-visible{
-  color:var(--fg);border-color:rgba(198,162,74,.62);background:rgba(198,162,74,.13)}
+  color:var(--fg);border-color:var(--line-hi);background:rgba(142,146,152,.13)}
 .mbtn .bars{display:grid;gap:3px;width:13px}
 .mbtn .bars i{display:block;height:1.5px;background:currentColor;border-radius:1px;
   transition:width .35s var(--glide)}
@@ -187,22 +187,22 @@ body.menu-open{overflow:hidden}
   transition:transform .55s var(--glide),opacity .4s var(--glide)}
 .omx.open .omx-panel{transform:none;opacity:1}
 .omx-head{display:flex;align-items:center;justify-content:space-between;gap:16px;
-  padding-bottom:clamp(14px,2.4vh,22px);border-bottom:1px solid rgba(198,162,74,.2)}
+  padding-bottom:clamp(14px,2.4vh,22px);border-bottom:1px solid rgba(142,146,152,.24)}
 .omx-brand{font-family:var(--disp);font-weight:700;font-size:12.5px;letter-spacing:.2em;
   text-transform:uppercase}
 .omx-brand .caret{color:var(--verm)}
 .omx-close{font-family:var(--mono);font-size:9.5px;letter-spacing:.2em;text-transform:uppercase;
   color:var(--fg2);padding:8px 13px;border:1px solid var(--line);border-radius:999px;
   transition:color .3s,border-color .3s,background .3s}
-.omx-close:hover,.omx-close:focus-visible{color:var(--fg);border-color:rgba(198,162,74,.62);
-  background:rgba(198,162,74,.13)}
+.omx-close:hover,.omx-close:focus-visible{color:var(--fg);border-color:var(--line-hi);
+  background:rgba(142,146,152,.13)}
 .omx-grid{display:grid;grid-template-columns:1.35fr .95fr;gap:clamp(24px,5vw,72px);
   padding-top:clamp(16px,2.6vh,26px)}
 .omx-label{font-family:var(--mono);font-size:8.5px;letter-spacing:.28em;text-transform:uppercase;
   color:var(--acc);padding-bottom:10px}
 .omx-desk{display:grid;grid-template-columns:auto 1fr;gap:1px 15px;align-items:baseline;
   padding:clamp(11px,1.5vh,15px) 10px clamp(11px,1.5vh,15px) 0;
-  border-top:1px solid rgba(198,162,74,.15);border-radius:8px;
+  border-top:1px solid rgba(142,146,152,.18);border-radius:8px;
   opacity:0;transform:translateY(9px);
   transition:opacity .5s var(--glide) calc(var(--i,0)*52ms),
              transform .5s var(--glide) calc(var(--i,0)*52ms),
@@ -216,14 +216,14 @@ body.menu-open{overflow:hidden}
 .omx-desk .d{grid-column:2;font-size:12.5px;color:var(--fg3);line-height:1.5}
 .omx-side{display:flex;flex-direction:column}
 .omx-side a{font-size:13.5px;color:var(--fg2);padding:8px 10px 8px 0;line-height:1.45;
-  border-top:1px solid rgba(198,162,74,.11);
+  border-top:1px solid rgba(142,146,152,.14);
   opacity:0;transform:translateY(9px);
   transition:opacity .5s var(--glide) calc(var(--i,0)*38ms + .12s),
              transform .5s var(--glide) calc(var(--i,0)*38ms + .12s),
              color .26s,padding-left .26s var(--glide)}
 .omx.open .omx-side a{opacity:1;transform:none}
 .omx-side a:hover,.omx-side a:focus-visible{color:var(--fg);padding-left:9px;outline:0}
-.omx-foot{margin-top:clamp(18px,3vh,30px);padding-top:14px;border-top:1px solid rgba(198,162,74,.2);
+.omx-foot{margin-top:clamp(18px,3vh,30px);padding-top:14px;border-top:1px solid rgba(142,146,152,.24);
   font-family:var(--mono);font-size:8.5px;letter-spacing:.18em;text-transform:uppercase;
   color:var(--fg3)}
 @media(max-width:820px){
@@ -299,7 +299,8 @@ section{position:relative;z-index:1}
   width:230%;height:185%;z-index:-1;
   background:radial-gradient(closest-side,rgba(232,203,124,.20),rgba(198,162,74,.10) 46%,transparent 74%),
              radial-gradient(closest-side,rgba(140,197,255,.05),transparent 62%)}
-#gem{width:100%;height:100%;display:block}
+#gem{width:100%;height:100%;display:block;pointer-events:auto;cursor:grab;touch-action:pan-y}
+#gem.dragging{cursor:grabbing}
 .hero-in{position:relative;z-index:2;display:flex;flex-direction:column;align-items:center;
   justify-content:center;text-align:center;padding:clamp(14px,3vh,40px) 20px}
 @keyframes pulse{50%{opacity:.25}}
@@ -342,7 +343,7 @@ h1.mast .l{display:inline-block;opacity:0;transform:translateY(.36em) rotate(3de
   background:var(--plate)}
 .bench canvas.guil{position:absolute;right:-8%;top:-30%;width:58%;height:190%;opacity:.10;pointer-events:none}
 .bench::before,.bench::after{content:"";position:absolute;width:13px;height:13px;
-  border:1px solid var(--acc);opacity:.5;z-index:2}
+  border:1px solid var(--line-hi);opacity:.5;z-index:2}
 .bench::before{top:10px;left:10px;border-right:0;border-bottom:0}
 .bench::after{bottom:10px;right:10px;border-left:0;border-top:0}
 /* the section's only headline is a small kicker above the card — the
@@ -404,17 +405,17 @@ h1.mast .l{display:inline-block;opacity:0;transform:translateY(.36em) rotate(3de
   color:var(--acc);border:1px solid var(--line);background:transparent;
   clip-path:polygon(6px 0,100% 0,100% calc(100% - 6px),calc(100% - 6px) 100%,0 100%,0 6px);
   transition:background .18s var(--mech),color .18s var(--mech),border-color .25s}
-.karats button:hover{border-color:var(--acc)}
-.karats button.on{background:rgba(198,162,74,.20);border-color:var(--gilt-l);color:var(--gilt-l)}
+.karats button:hover{border-color:var(--line-hi)}
+.karats button.on{background:rgba(198,162,74,.20);border-color:var(--line-hi);color:var(--gilt-l)}
 .grow{display:flex;align-items:flex-end;gap:11px;margin-top:7px;flex-wrap:wrap}
 .grow input{font-family:var(--mono);font-size:18px;font-variant-numeric:tabular-nums;width:82px;
   background:transparent;border:0;border-bottom:1px solid var(--line);color:var(--fg);padding:3px 0}
-.grow input:focus{outline:none;border-bottom-color:var(--gilt-l)}
+.grow input:focus{outline:none;border-bottom-color:var(--line-hi)}
 .presets{display:flex;gap:6px;flex-wrap:wrap}
 .presets button{font-family:var(--mono);font-size:8px;letter-spacing:.12em;text-transform:uppercase;
   color:var(--fg3);border:1px solid var(--line);border-radius:999px;padding:5px 9px;
   transition:color .25s,border-color .25s}
-.presets button:hover{color:var(--acc);border-color:var(--acc)}
+.presets button:hover{color:var(--acc);border-color:var(--line-hi)}
 /* the readout */
 .bout{display:flex;flex-direction:column;justify-content:center;align-items:flex-end;text-align:right}
 @media(max-width:900px){.bout{align-items:flex-start;text-align:left}}
@@ -471,7 +472,7 @@ h1.mast .l{display:inline-block;opacity:0;transform:translateY(.36em) rotate(3de
   color:var(--fg3);margin-top:7px;display:block;line-height:1.5}
 .csrow .move{font-family:var(--serif);font-size:14.5px;line-height:1.5;color:var(--fg2)}
 .csrow .ctr{font-family:var(--serif);font-size:14.5px;line-height:1.5;color:var(--fg);
-  padding:10px 13px;border-left:2px solid var(--dk,var(--acc));background:rgba(198,162,74,.06)}
+  padding:10px 13px;border-left:2px solid var(--dk,var(--line-hi));background:rgba(198,162,74,.06)}
 .csrow:hover .ctr{background:rgba(198,162,74,.09)}
 .csend{display:flex;align-items:center;justify-content:flex-end;gap:11px}
 .deskchip{font-family:var(--mono);font-size:8px;letter-spacing:.16em;text-transform:uppercase;
@@ -565,7 +566,7 @@ h1.mast .l{display:inline-block;opacity:0;transform:translateY(.36em) rotate(3de
 .acard{position:relative;border:1px solid var(--line);border-radius:var(--r);overflow:hidden;
   background:var(--plate);isolation:isolate;
   display:flex;flex-direction:column;transition:transform .55s var(--glide),border-color .4s,box-shadow .5s}
-.acard:hover{transform:translateY(-5px);border-color:rgba(198,162,74,.55);
+.acard:hover{transform:translateY(-5px);border-color:var(--line-hi);
   box-shadow:0 28px 60px -40px rgba(0,0,0,.85)}
 .acard .ph{position:absolute;inset:0;z-index:0;width:100%;height:100%;object-fit:cover;
   filter:saturate(.72) contrast(1.05);transform:scale(1.03);
@@ -768,7 +769,7 @@ h1.mast .l{display:inline-block;opacity:0;transform:translateY(.36em) rotate(3de
 .cmem a{display:inline-flex;align-items:center;gap:6px;font-family:var(--mono);font-size:8.5px;
   letter-spacing:.08em;padding:5px 9px;border:1px solid var(--line);border-radius:999px;
   color:var(--fg2);transition:border-color .25s,color .25s,background .25s}
-.cmem a:hover{color:var(--fg);border-color:rgba(198,162,74,.6);background:rgba(198,162,74,.09)}
+.cmem a:hover{color:var(--fg);border-color:var(--line-hi);background:rgba(142,146,152,.09)}
 .cmem a i{width:5px;height:5px;border-radius:50%;flex:none}
 .cmem a i.up{background:var(--ok)}.cmem a i.dn{background:var(--dn)}
 .cmem a em{font-style:normal;color:var(--fg3)}
@@ -807,7 +808,7 @@ h1.mast .l{display:inline-block;opacity:0;transform:translateY(.36em) rotate(3de
   padding:15px 22px;color:var(--fg);font-family:var(--mono);font-size:12px;letter-spacing:.05em;
   transition:border-color .3s,box-shadow .3s}
 .fld input::placeholder{color:var(--fg3)}
-.fld input:focus{outline:none;border-color:var(--acc);box-shadow:0 0 0 3px rgba(198,162,74,.14)}
+.fld input:focus{outline:none;border-color:var(--line-hi);box-shadow:0 0 0 3px rgba(142,146,152,.16)}
 .brief .btn{border-radius:0}
 .trust{margin-top:17px;font-family:var(--mono);font-size:9px;letter-spacing:.18em;
   text-transform:uppercase;color:var(--fg3)}
@@ -1728,6 +1729,11 @@ document.querySelectorAll('.spot').forEach(p=>p.addEventListener('pointermove',e
 /* ══ DAWN — obsidian to paper, through ember, never through grey ══ */
 const SKY=[[0,[4,6,11]],[.42,[26,18,34]],[.68,[92,48,34]],[.86,[196,150,102]],[1,[242,237,227]]];
 const ACC=[[0,[198,162,74]],[.68,[232,182,96]],[1,[150,118,46]]];
+/* Rules and borders run their own neutral ramp, decoupled from the
+   gold accent: mid grey over the obsidian hero, dark grey once the
+   sky is bone. Grey at .30 over obsidian lands within a shade of the
+   gold it replaces, so the hairlines keep their old weight. */
+const LINE=[[0,[142,146,152]],[1,[63,63,63]]];
 const ramp=(st,k)=>{for(let i=0;i<st.length-1;i++){const[a,ca]=st[i],[b,cb]=st[i+1];
   if(k<=b||i===st.length-2){const t=Math.max(0,Math.min(1,(k-a)/(b-a)));
     return ca.map((v,j)=>Math.round(v+(cb[j]-v)*t));}}return st[st.length-1][1];};
@@ -1741,6 +1747,7 @@ const cratio=(a,b)=>{const x=lum(a),y=lum(b);
   return (Math.max(x,y)+.05)/(Math.min(x,y)+.05);};
 const NF=[220,234,245], DF=[22,19,14], root=document.documentElement,
       gemwrap=document.getElementById('gemwrap');
+let _pk=-1,_pg=-1;
 function paint(){
   const h=document.documentElement, sc=h.scrollTop, vh=innerHeight;
   /* The sky turns on the first pixel of scroll and is fully bone by
@@ -1750,7 +1757,15 @@ function paint(){
   /* ease out, not smoothstep: smoothstep is almost flat for the first
      tenth, so the sky sat dark through the opening scroll and the change
      read as late. This moves on the first pixel. */
-  const ks=k*(2.0-k), bg=ramp(SKY,ks), acc=ramp(ACC,ks);
+  const ks=k*(2.0-k);
+  /* The dawn only repaints while it is dawning. Rewriting eight root
+     custom properties restyles the whole document; past seven tenths of
+     a screen the ramp is finished and every one of those writes was a
+     no-op with the cost of a full style pass. Key the palette on the
+     eased fraction, quantised past float noise, and skip when still. */
+  const _k=Math.round(ks*1e4);
+  if(_k!==_pk){_pk=_k;
+  const bg=ramp(SKY,ks), acc=ramp(ACC,ks);
   /* The ink never blends through grey. It is whichever of the two house
      inks reads better on the sky behind it, chosen outright — blending
      between them walks the text straight through the background's own
@@ -1770,13 +1785,18 @@ function paint(){
   root.style.setProperty('--fg2',rgba(fg,a2.toFixed(3)));
   root.style.setProperty('--fg3',rgba(fg,a3.toFixed(3)));
   root.style.setProperty('--acc',rgb(acc));
-  root.style.setProperty('--line',rgba(acc,.30));
+  const ln=ramp(LINE,ks);
+  root.style.setProperty('--line',rgba(ln,.30));
+  root.style.setProperty('--line-hi',rgba(ln,.62));
   root.style.setProperty('--plate',dark?'rgba(22,19,14,.035)':'rgba(255,255,255,.03)');
   document.getElementById('vig').style.opacity=(1-ks*.9).toFixed(3);
+  }
   if(gemwrap){const g=Math.max(0,Math.min(1,(sc-vh*.16)/(vh*.9)));
+    const _g=Math.round(g*1e4);
+    if(_g!==_pg){_pg=_g;
     gemwrap.style.opacity=(1-g).toFixed(3);
     if(g>.001){gemwrap.style.animation='none';
-      gemwrap.style.transform=`translateY(${g*13}vh) scale(${1-g*.3})`;}}
+      gemwrap.style.transform=`translateY(${g*13}vh) scale(${1-g*.3})`;}}}
   document.getElementById('prog').style.width=(sc/(h.scrollHeight-h.clientHeight)*100)+'%';
   document.getElementById('top').classList.toggle('on',sc>vh*.7);
 }
@@ -1866,9 +1886,13 @@ function parallax(){
     const k=(r.top+r.height/2-vh/2)/vh;          // -1 .. 1 across the viewport
     im.style.transform=`scale(1.12) translateY(${(-k*22).toFixed(2)}px)`;});
 }
-addEventListener('scroll',()=>requestAnimationFrame(parallax),{passive:true}); parallax();
-
-addEventListener('scroll',()=>requestAnimationFrame(paint),{passive:true});
+/* One frame, one paint: every scroll event used to queue its own
+   requestAnimationFrame for each handler, so a fast flick ran the pair
+   two to four times inside a single frame. Coalesce; original order. */
+let _sq=false;
+addEventListener('scroll',()=>{if(_sq)return;_sq=true;
+  requestAnimationFrame(()=>{_sq=false;parallax();paint();});},{passive:true});
+parallax();
 addEventListener('resize',paint); paint();
 
 /* ══════ THE STONE — ray-traced brilliant ══════ */
@@ -2017,7 +2041,19 @@ void main(){vec2 uv=(gl_FragCoord.xy-0.5*uRes)/uRes.y;
   new ResizeObserver(size).observe(cv);
   let vis=true;
   new IntersectionObserver(e=>{vis=e[0].isIntersecting;},{threshold:0}).observe(cv);
-  const t0=performance.now();let spin=0,last=t0;
+  const t0=performance.now();let spin=RM?.6:0,last=t0;
+  /* drag-to-inspect: the stone follows the finger while held, and on
+     release the fling bleeds back into the idle .32 rad/s house spin */
+  const BASE=.32, K=.012;
+  let drag=false, vel=RM?0:BASE, px=0, pt=0, mv=0;
+  cv.addEventListener('pointerdown',e=>{drag=true;mv=0;px=e.clientX;pt=e.timeStamp;
+    cv.classList.add('dragging');cv.setPointerCapture(e.pointerId);e.preventDefault();});
+  cv.addEventListener('pointermove',e=>{if(!drag)return;
+    const dx=e.clientX-px,ms=Math.max(e.timeStamp-pt,1);px=e.clientX;pt=e.timeStamp;
+    spin+=dx*K; mv=dx*K*1000/ms;});
+  const drop=()=>{if(!drag)return;drag=false;cv.classList.remove('dragging');
+    vel=Math.max(-6,Math.min(6,mv));};
+  cv.addEventListener('pointerup',drop);cv.addEventListener('pointercancel',drop);
   // auto-degrade: if the machine cannot hold a smooth frame, drop the
   // supersample rather than let the stone crawl. Quality is negotiable, motion is not.
   const RUNGS=[1,0.74,0.54,0.40,0.30];  // a ladder, not a single step down
@@ -2025,8 +2061,8 @@ void main(){vec2 uv=(gl_FragCoord.xy-0.5*uRes)/uRes.y;
   function frame(now){requestAnimationFrame(frame);
     if(!vis){last=now;return;}
     const dt=Math.min((now-last)/1000,.05);last=now;const t=(now-t0)/1000;
-    spin+=dt*(RM?0:.32);
-    gl.uniform2f(uRes,cv.width,cv.height);gl.uniform1f(uT,RM?0:t);gl.uniform1f(uSpin,RM?.6:spin);
+    if(!drag){vel+=((RM?0:BASE)-vel)*Math.min(1,dt*2.2);spin+=dt*vel;}
+    gl.uniform2f(uRes,cv.width,cv.height);gl.uniform1f(uT,RM?0:t);gl.uniform1f(uSpin,spin);
     gl.drawArrays(gl.TRIANGLES,0,3);
     if(RM) return;
     /* Measure, step, measure again — in both directions. One rung down was
