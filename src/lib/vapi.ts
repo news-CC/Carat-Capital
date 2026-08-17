@@ -1,6 +1,7 @@
 import { timingSafeEqual } from 'node:crypto';
 
 import { optionalEnv, serverEnv } from '@/lib/env';
+import { MALONE_MODEL } from '@/lib/malone';
 import { err, ok, type Result } from '@/lib/result';
 
 const VAPI_BASE = 'https://api.vapi.ai';
@@ -30,6 +31,46 @@ export type StartCallArgs = {
   voiceId?: string;
 };
 
+/**
+ * Build the assistantOverrides block.
+ *
+ * `model` must be COMPLETE whenever it is present. Sending only `messages` gets the entire call
+ * rejected with "assistantOverrides.model.provider must be one of the following values: ..." — a
+ * live demo died on exactly that. provider/model come from MALONE_MODEL so they cannot drift from
+ * the assistant's own definition.
+ */
+function buildOverrides(a: StartCallArgs): Record<string, unknown> {
+  return {
+    variableValues: a.variables,
+    ...(a.systemPrompt
+      ? { model: { ...MALONE_MODEL, messages: [{ role: 'system', content: a.systemPrompt }] } }
+      : {}),
+    ...(a.firstMessage ? { firstMessage: a.firstMessage } : {}),
+    ...(a.voiceId ? { voice: { provider: 'vapi', voiceId: a.voiceId } } : {}),
+  };
+}
+
+async function postCall(
+  apiKey: string,
+  a: StartCallArgs,
+  overrides: Record<string, unknown>,
+): Promise<{ status: number; body: string }> {
+  const res = await fetch(`${VAPI_BASE}/call`, {
+    method: 'POST',
+    headers: { Authorization: `Bearer ${apiKey}`, 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phoneNumberId: a.phoneNumberId,
+      assistantId: a.assistantId,
+      assistantOverrides: overrides,
+      customer: { number: a.phone },
+      metadata: a.metadata,
+    }),
+    signal: AbortSignal.timeout(DIAL_TIMEOUT_MS),
+    cache: 'no-store',
+  });
+  return { status: res.status, body: await res.text() };
+}
+
 export async function startOutboundCall(a: StartCallArgs): Promise<Result<{ vapiCallId: string }>> {
   let apiKey: string;
   try {
@@ -39,35 +80,27 @@ export async function startOutboundCall(a: StartCallArgs): Promise<Result<{ vapi
   }
 
   try {
-    const res = await fetch(`${VAPI_BASE}/call`, {
-      method: 'POST',
-      headers: { Authorization: `Bearer ${apiKey}`, 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        phoneNumberId: a.phoneNumberId,
-        assistantId: a.assistantId,
-        // Per-customer personalisation only — no assistant/model overrides, so Vapi keeps
-        // the warm prompt cache and time-to-first-token stays inside the latency budget.
-        // The prompt override below is the one exception, and only demo calls set it.
-        assistantOverrides: {
-          variableValues: a.variables,
-          ...(a.systemPrompt
-            ? { model: { messages: [{ role: 'system', content: a.systemPrompt }] } }
-            : {}),
-          ...(a.firstMessage ? { firstMessage: a.firstMessage } : {}),
-          ...(a.voiceId ? { voice: { provider: 'vapi', voiceId: a.voiceId } } : {}),
-        },
-        customer: { number: a.phone },
-        metadata: a.metadata,
-      }),
-      signal: AbortSignal.timeout(DIAL_TIMEOUT_MS),
-      cache: 'no-store',
-    });
+    let res = await postCall(apiKey, a, buildOverrides(a));
 
-    const body = await res.text();
-    if (!res.ok) return err(`vapi ${res.status}: ${body.slice(0, 300)}`);
+    // A rejected CUSTOMISATION must not kill the call.
+    //
+    // These overrides only exist on demo calls, and a demo call is placed with a salon owner
+    // watching the phone. "The call didn't happen" loses the sale; "the call happened with the
+    // standard script" does not. So on a 400 we retry once with variables only — the assistant's
+    // own prompt, voice and first message are already correct — and let the operator hear a working
+    // call. The failure is logged loudly because a silently-degraded demo is its own problem.
+    const customised = Boolean(a.systemPrompt || a.firstMessage || a.voiceId);
+    if (res.status === 400 && customised) {
+      console.error('[vapi] OVERRIDES REJECTED, retrying with the default assistant', res.body.slice(0, 400));
+      res = await postCall(apiKey, a, { variableValues: a.variables });
+    }
 
-    const id = readCallId(body);
-    return id ? ok({ vapiCallId: id }) : err(`vapi 200 without call id: ${body.slice(0, 200)}`);
+    if (res.status < 200 || res.status >= 300) {
+      return err(`vapi ${res.status}: ${res.body.slice(0, 300)}`);
+    }
+
+    const id = readCallId(res.body);
+    return id ? ok({ vapiCallId: id }) : err(`vapi 200 without call id: ${res.body.slice(0, 200)}`);
   } catch (e) {
     return err(e instanceof Error ? e.message : 'vapi request failed');
   }

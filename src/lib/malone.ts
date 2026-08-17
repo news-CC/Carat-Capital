@@ -151,6 +151,23 @@ export function maloneVariables(args: {
   };
 }
 
+/**
+ * The model block, exported so the assistant definition and any per-call override share ONE
+ * source.
+ *
+ * This exists because of a live failure. A demo call overriding the system prompt sent only
+ * `model.messages`, and Vapi rejected the whole call with "assistantOverrides.model.provider must
+ * be one of the following values: ...". A partial model object is invalid: provider and model are
+ * required whenever the block is present at all. Duplicating the values at the override site would
+ * have fixed that call and then drifted the moment the model changed here.
+ */
+export const MALONE_MODEL = {
+  provider: 'openai',
+  model: 'gpt-4o-mini',
+  temperature: 0.4,
+  maxTokens: 120,
+} as const;
+
 /** Complete Vapi assistant create body. Consumed by scripts/setup-vapi.mjs (LANE F). */
 export function maloneAssistantPayload(serverUrl: string, serverSecret: string): object {
   return {
@@ -159,10 +176,7 @@ export function maloneAssistantPayload(serverUrl: string, serverSecret: string):
     firstMessageMode: 'assistant-speaks-first',
     // Small fast model, short replies: the whole latency strategy in one object. No `tools`.
     model: {
-      provider: 'openai',
-      model: 'gpt-4o-mini',
-      temperature: 0.4,
-      maxTokens: 120,
+      ...MALONE_MODEL,
       messages: [{ role: 'system', content: MALONE_SYSTEM_PROMPT }],
     },
     transcriber: {
