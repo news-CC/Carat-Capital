@@ -16,6 +16,16 @@ export type StartCallArgs = {
   phoneNumberId: string;
   variables: Record<string, string>;
   metadata: Record<string, string>;
+  /**
+   * Per-call prompt override. Demo calls only — see src/lib/demo.ts.
+   *
+   * Campaign dials must NOT pass this: overriding the model block costs Vapi's warm prompt cache
+   * and pushes time-to-first-token out of the sub-second budget in ARCHITECTURE.md §2. One demo
+   * call to a salon owner who is expecting it can afford the extra latency; three hundred calls to
+   * lapsed clients cannot.
+   */
+  systemPrompt?: string;
+  firstMessage?: string;
 };
 
 export async function startOutboundCall(a: StartCallArgs): Promise<Result<{ vapiCallId: string }>> {
@@ -35,7 +45,14 @@ export async function startOutboundCall(a: StartCallArgs): Promise<Result<{ vapi
         assistantId: a.assistantId,
         // Per-customer personalisation only — no assistant/model overrides, so Vapi keeps
         // the warm prompt cache and time-to-first-token stays inside the latency budget.
-        assistantOverrides: { variableValues: a.variables },
+        // The prompt override below is the one exception, and only demo calls set it.
+        assistantOverrides: {
+          variableValues: a.variables,
+          ...(a.systemPrompt
+            ? { model: { messages: [{ role: 'system', content: a.systemPrompt }] } }
+            : {}),
+          ...(a.firstMessage ? { firstMessage: a.firstMessage } : {}),
+        },
         customer: { number: a.phone },
         metadata: a.metadata,
       }),
