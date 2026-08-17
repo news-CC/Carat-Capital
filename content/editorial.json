@@ -28448,5 +28448,732 @@
     }
    ]
   }
+ },
+ "no-total-for-the-gem-drop": {
+  "strip": {
+   "cap": "By the numbers · Sotheby's unreported jewel sales",
+   "cells": [
+    {
+     "fig": "4",
+     "lab": "days since the Gem Drop August closed"
+    },
+    {
+     "fig": "11",
+     "lab": "days since the Arcade Sale closed"
+    },
+    {
+     "fig": "32",
+     "lab": "days since the Gem Drop July closed"
+    },
+    {
+     "fig": "0",
+     "lab": "totals published for any of the three"
+    },
+    {
+     "fig": "$31.4m",
+     "lab": "published within weeks for the June trophy night"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Days closed without a published result · Sotheby's jewel sales, at 17 August",
+    "rows": [
+     {
+      "l": "GEM DROP JULY, CLOSED 16 JUL",
+      "v": 32,
+      "d": "32 days",
+      "hi": true
+     },
+     {
+      "l": "ARCADE SALE HK, CLOSED 6 AUG",
+      "v": 11,
+      "d": "11 days"
+     },
+     {
+      "l": "GEM DROP AUGUST, CLOSED 13 AUG",
+      "v": 4,
+      "d": "4 days"
+     },
+     {
+      "l": "HIGH JEWELRY NY, 13 JUN",
+      "v": 0,
+      "d": "total published"
+     }
+    ],
+    "note": "Counted by this desk from each sale's closing date to 17 August 2026 against Sotheby's own results index, read the same day. The High Jewelry row is shown at zero because its total, $31.4m at 95% sold, was public and in the trade press well before this paper printed it on 24 July.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/225"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Three sales, no numbers.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "The same house, counting elsewhere.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "Three closed jewellery sales, no published number on any of them",
+     "attr": "The Auctions Desk"
+    }
+   },
+   {
+    "sub": "What the silence costs the trade.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Eleven lots, zero premium: Sotheby's quiet monthly experiment",
+     "href": "a-eleven-lots-no-premium.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "an auction is a price discovery mechanism, and a price discovery mechanism that does not publish its prices is a shop"
+  },
+  "next": {
+   "lead": {
+    "slug": "four-metals-four-write-backs",
+    "tag": "Metals",
+    "blurb": "All four metals higher, and the palladium mark comes off after three sessions."
+   },
+   "minis": [
+    {
+     "slug": "eleven-lots-no-premium",
+     "tag": "Auctions"
+    },
+    {
+     "slug": "sothebys-thirty-one-million",
+     "tag": "Auctions"
+    }
+   ]
+  }
+ },
+ "four-metals-four-write-backs": {
+  "strip": {
+   "cap": "By the numbers · The tape, 17 August",
+   "cells": [
+    {
+     "fig": "$4,394.60",
+     "delta": "▲ +0.88%",
+     "dir": "up",
+     "lab": "gold, vs this paper's 14 Aug mark"
+    },
+    {
+     "fig": "$65.38",
+     "delta": "▲ +0.94%",
+     "dir": "up",
+     "lab": "silver, same basis"
+    },
+    {
+     "fig": "$1,749.00",
+     "delta": "▲ +1.39%",
+     "dir": "up",
+     "lab": "platinum, same basis"
+    },
+    {
+     "fig": "$1,311.00",
+     "delta": "▲ +1.08%",
+     "dir": "up",
+     "lab": "palladium, a three-session hold ends"
+    },
+    {
+     "fig": "67.22",
+     "delta": "▼ −0.04",
+     "dir": "down",
+     "lab": "gold-to-silver ratio, derived"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Palladium on four pages, 17 August · dollars an ounce",
+    "rows": [
+     {
+      "l": "JM BULLION, 06:01 EDT",
+      "v": 1351.0,
+      "d": "$1,351.00"
+     },
+     {
+      "l": "TRADINGECONOMICS",
+      "v": 1331.0,
+      "d": "$1,331.00"
+     },
+     {
+      "l": "FXEMPIRE, PER THE TAPE DESK",
+      "v": 1320.55,
+      "d": "$1,320.55"
+     },
+     {
+      "l": "KITCO, 05:59 EDT",
+      "v": 1311.0,
+      "d": "$1,311.00",
+      "hi": true
+     },
+     {
+      "l": "THE HELD MARK, 14 AUG",
+      "v": 1297.0,
+      "d": "$1,297.00"
+     }
+    ],
+    "note": "Four live readings taken this morning span $40.00, or 3.05%, and disagree about palladium in a way this desk discloses rather than resolves. The mark being retired is not one of the four and sits below all of them. Kitco is taken because it carries the other three marks on this tape.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/226"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Four marks, one board, two bases.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "The mark that sat below everybody.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "Four live readings, spanning $40.00 or 3.05% from low to high",
+     "attr": "The Gold & Metals Desk"
+    }
+   },
+   {
+    "sub": "What it works out to at the bench.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "The platinum hold ends at $1,725 after three mornings",
+     "href": "a-the-platinum-hold-ends.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "the three-day gap in this tape is the paper's, not the market's"
+  },
+  "next": {
+   "lead": {
+    "slug": "thirty-nine-point-six",
+    "tag": "Metals",
+    "blurb": "Shanghai rose 1.41% and Chow Tai Fook's counter kept its markup to within fifteen hundredths of a point."
+   },
+   "minis": [
+    {
+     "slug": "the-platinum-hold-ends",
+     "tag": "Metals"
+    },
+    {
+     "slug": "nine-forty-and-thirteen-twelve",
+     "tag": "Metals"
+    }
+   ]
+  }
+ },
+ "thirty-nine-point-six": {
+  "strip": {
+   "cap": "By the numbers · China's gold counter, 17 August",
+   "cells": [
+    {
+     "fig": "954.01",
+     "delta": "▲ +1.41%",
+     "dir": "up",
+     "lab": "Au99.99, yuan a gram"
+    },
+    {
+     "fig": "1,332",
+     "delta": "▲ +1.52%",
+     "dir": "up",
+     "lab": "Chow Tai Fook counter, same day"
+    },
+    {
+     "fig": "377.99",
+     "lab": "the gap in yuan, derived here"
+    },
+    {
+     "fig": "39.62%",
+     "lab": "the markup, derived here"
+    },
+    {
+     "fig": "+0.15",
+     "lab": "points added to the markup since 14 August"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Three sessions of the Chinese pair · yuan a gram",
+    "rows": [
+     {
+      "l": "COUNTER, 17 AUGUST",
+      "v": 1332,
+      "d": "1,332",
+      "hi": true
+     },
+     {
+      "l": "COUNTER, 14 AUGUST",
+      "v": 1312,
+      "d": "1,312"
+     },
+     {
+      "l": "EXCHANGE, 17 AUGUST",
+      "v": 954.01,
+      "d": "954.01"
+     },
+     {
+      "l": "EXCHANGE, 14 AUGUST",
+      "v": 940.72,
+      "d": "940.72"
+     }
+    ],
+    "note": "The 14 August pair is as this paper published it that morning from the exchange's own quotations. Over three days the exchange rose 1.41% and the counter 1.52%, moving the markup from 39.47% to 39.62%, this desk's arithmetic. The Bureau's gold desk read the same session at 952.98, on which the markup would be 39.77%.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/227"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Two prices for the same gram.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "The margin, not the price.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "The margin held to within fifteen hundredths of a point",
+     "attr": "The Gold & Metals Desk"
+    }
+   },
+   {
+    "sub": "One cross-check and one limit.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "China's jewellery counter charges 39.5% over the exchange price",
+     "href": "a-nine-forty-and-thirteen-twelve.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "the counter is priced as a percentage, not as a price"
+  },
+  "next": {
+   "lead": {
+    "slug": "eight-oh-six-out-six-sixty-five-in",
+    "tag": "Retail",
+    "blurb": "Four filers hold 27.38% of Signet, and the two that moved went opposite ways."
+   },
+   "minis": [
+    {
+     "slug": "nine-forty-and-thirteen-twelve",
+     "tag": "Metals"
+    },
+    {
+     "slug": "china-lowest-since-2004",
+     "tag": "Metals"
+    }
+   ]
+  }
+ },
+ "eight-oh-six-out-six-sixty-five-in": {
+  "strip": {
+   "cap": "By the numbers · Signet's register at 30 June",
+   "cells": [
+    {
+     "fig": "27.38%",
+     "lab": "held by four 13G filers, derived here"
+    },
+    {
+     "fig": "−806,676",
+     "delta": "▼ −24.87%",
+     "dir": "down",
+     "lab": "Select Equity, shares cut"
+    },
+    {
+     "fig": "+665,182",
+     "delta": "▲ +22.84%",
+     "dir": "up",
+     "lab": "Vanguard Portfolio Management, added"
+    },
+    {
+     "fig": "9.09%",
+     "lab": "the largest disclosed holding"
+    },
+    {
+     "fig": "39.3m",
+     "lab": "shares outstanding, 29 May"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Signet: disclosed 13G holdings at 30 June 2026 · shares",
+    "rows": [
+     {
+      "l": "VANGUARD PORTFOLIO MGMT",
+      "v": 3577704,
+      "d": "3,577,704 · 9.09%",
+      "hi": true
+     },
+     {
+      "l": "DIMENSIONAL FUND ADVISORS",
+      "v": 2584443,
+      "d": "2,584,443 · 6.6%"
+     },
+     {
+      "l": "SELECT EQUITY GROUP",
+      "v": 2436873,
+      "d": "2,436,873 · 6.2%"
+     },
+     {
+      "l": "FMR LLC",
+      "v": 2168433,
+      "d": "2,168,433 · 5.5%"
+     }
+    ],
+    "note": "Read directly from each filer's Schedule 13G/A on SEC EDGAR. Percentages are the filers' own; the 27.38% total is this desk's sum against the 39,329,783 shares Signet disclosed outstanding on 29 May 2026. Holders below the 5% threshold never appear, so this is not a complete register.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/228"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Four filers, one quarter.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "The two that moved.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "Active money sold a quarter of its stake; index money bought",
+     "attr": "The Retail & Technology Desk"
+    }
+   },
+   {
+    "sub": "What a 13G does not tell you.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Zales goes to Mattel",
+     "href": "a-zales-goes-to-mattel.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "a 13G is a photograph of a quarter that ended seven weeks ago"
+  },
+  "next": {
+   "lead": {
+    "slug": "four-eighty-six-thousand-ounces",
+    "tag": "Metals",
+    "blurb": "The Perth Mint's silver sales rose 65% in a month; its gold fund rose 0.26%."
+   },
+   "minis": [
+    {
+     "slug": "zales-goes-to-mattel",
+     "tag": "Retail"
+    },
+    {
+     "slug": "the-loss-that-wasnt-revenue",
+     "tag": "Retail"
+    }
+   ]
+  }
+ },
+ "four-eighty-six-thousand-ounces": {
+  "strip": {
+   "cap": "By the numbers · Perth Mint, July 2026",
+   "cells": [
+    {
+     "fig": "486,043",
+     "delta": "▲ +65%",
+     "dir": "up",
+     "lab": "ounces of silver, month on month"
+    },
+    {
+     "fig": "30,871",
+     "delta": "▲ +4%",
+     "dir": "up",
+     "lab": "ounces of gold"
+    },
+    {
+     "fig": "1,915",
+     "delta": "▲ +59%",
+     "dir": "up",
+     "lab": "ounces of platinum"
+    },
+    {
+     "fig": "15.7",
+     "lab": "ounces of silver per ounce of gold, derived"
+    },
+    {
+     "fig": "+0.26%",
+     "lab": "PMGOLD holdings, the same month"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Perth Mint July sales, month-on-month change · per cent",
+    "rows": [
+     {
+      "l": "SILVER",
+      "v": 65,
+      "d": "+65%",
+      "hi": true
+     },
+     {
+      "l": "PLATINUM",
+      "v": 59,
+      "d": "+59%"
+     },
+     {
+      "l": "GOLD",
+      "v": 4,
+      "d": "+4%"
+     },
+     {
+      "l": "PMGOLD ETF HOLDINGS",
+      "v": 0.26,
+      "d": "+0.26%"
+     }
+    ],
+    "note": "Published by the Perth Mint on 10 August 2026 and seven days old as this prints. Year-on-year the same three metals read +41%, +46% and +8% for gold, platinum and silver. PMGOLD holdings rose 1,011 ounces to 382,735, or 11.90 tonnes, this desk's conversion at 31.1035 grams to the troy ounce.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/229"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "A month at the coin counter.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Silver carries the release.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "Fifteen point seven ounces of silver for every ounce of gold",
+     "attr": "The Gold & Metals Desk"
+    }
+   },
+   {
+    "sub": "The price the ledger was written at.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "$71 million from America in a $3 billion gold month",
+     "href": "a-seventy-one-million-from-america.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "the coin counter and the fund moved in different directions"
+  },
+  "next": {
+   "lead": {
+    "slug": "seven-oh-five-across-seventeen-times",
+    "tag": "Diamonds",
+    "blurb": "The lab-grown one-carat reference reads $705, inside a range that runs 17.6 times."
+   },
+   "minis": [
+    {
+     "slug": "seventy-one-million-from-america",
+     "tag": "Metals"
+    },
+    {
+     "slug": "four-metals-four-write-backs",
+     "tag": "Metals"
+    }
+   ]
+  }
+ },
+ "seven-oh-five-across-seventeen-times": {
+  "strip": {
+   "cap": "By the numbers · Lab-grown, 17 August",
+   "cells": [
+    {
+     "fig": "$705",
+     "delta": "▼ −0.84%",
+     "dir": "down",
+     "lab": "one-carat round average, six days"
+    },
+    {
+     "fig": "$185",
+     "lab": "cheapest one-carat offered on the same page"
+    },
+    {
+     "fig": "$3,247",
+     "lab": "dearest one-carat on the same page"
+    },
+    {
+     "fig": "17.6×",
+     "lab": "the spread, derived here"
+    },
+    {
+     "fig": "$550",
+     "lab": "a second source, three weeks ago"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "One nominal carat, lab-grown · dollars per carat, asking",
+    "rows": [
+     {
+      "l": "DEAREST OFFER ON THE PAGE",
+      "v": 3247,
+      "d": "$3,247"
+     },
+     {
+      "l": "THE AVERAGE QUOTED",
+      "v": 705,
+      "d": "$705",
+      "hi": true
+     },
+     {
+      "l": "CARAT CAPITAL LIST, 25 JULY",
+      "v": 550,
+      "d": "$550"
+     },
+     {
+      "l": "CHEAPEST OFFER ON THE PAGE",
+      "v": 185,
+      "d": "$185"
+     }
+    ],
+    "note": "All four describe a one-carat round lab-grown diamond. The top and bottom are the ends of the range the $705 average is drawn from, read 17 August 2026. The $550 is this paper's own price list of 25 July from a six-retailer sample; CaratRadar's average is 28.2% above it, this desk's arithmetic, and the divergence is disclosed rather than resolved.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/230"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Four readings in a fortnight.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "The range under the average.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "An average sitting inside a seventeen-fold range is doing an enormous amount of work",
+     "attr": "The Diamonds Desk"
+    }
+   },
+   {
+    "sub": "What the trade body says instead.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "The one-carat stops falling",
+     "href": "a-the-one-carat-stops-falling.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "a single average across a seventeen-fold range is not a price"
+  },
+  "next": {
+   "lead": {
+    "slug": "no-total-for-the-gem-drop",
+    "tag": "Auctions",
+    "blurb": "Three closed Sotheby's jewel sales, and not one published result between them."
+   },
+   "minis": [
+    {
+     "slug": "the-one-carat-stops-falling",
+     "tag": "Diamonds"
+    },
+    {
+     "slug": "lab-grown-finds-its-floor",
+     "tag": "Diamonds"
+    }
+   ]
+  }
  }
 }
