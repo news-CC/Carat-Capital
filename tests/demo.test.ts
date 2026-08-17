@@ -126,6 +126,9 @@ describe('voice selection', () => {
     const { MALONE_VOICES, DEFAULT_MALONE_VOICE, isMaloneVoice } = await import('@/lib/malone');
     // Probed against the real API: everything else is "part of a legacy voice set being phased out".
     expect(MALONE_VOICES.map((v) => v.id).sort()).toEqual(['Elliot', 'Rohan', 'Savannah']);
+    // Elliot is the default and is listed first, so it is the pre-selected radio on the form.
+    expect(MALONE_VOICES[0].id).toBe('Elliot');
+    expect(DEFAULT_MALONE_VOICE).toBe('Elliot');
     expect(isMaloneVoice(DEFAULT_MALONE_VOICE)).toBe(true);
     for (const dead of ['Lily', 'Hana', 'Neha', 'Cole', 'Harry', 'Paige', 'Spencer', 'Kylie', 'Mark']) {
       expect(isMaloneVoice(dead)).toBe(false);
@@ -141,10 +144,12 @@ describe('voice selection', () => {
 
   it('defaults the voice when the form omits it, and rejects an unknown one', () => {
     const ok = demoSchema.safeParse(valid);
-    expect(ok.success && ok.data.voice).toBe('Savannah');
+    expect(ok.success && ok.data.voice).toBe('Elliot');
     expect(demoSchema.safeParse({ ...valid, voice: 'Lily' }).success).toBe(false);
     const rohan = demoSchema.safeParse({ ...valid, voice: 'Rohan' });
     expect(rohan.success && rohan.data.voice).toBe('Rohan');
+    const sav = demoSchema.safeParse({ ...valid, voice: 'Savannah' });
+    expect(sav.success && sav.data.voice).toBe('Savannah');
   });
 });
 

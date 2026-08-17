@@ -62,14 +62,14 @@ export const MALONE_VOICEMAIL_MESSAGE =
  */
 export const MALONE_VOICES = [
   {
-    id: 'Savannah',
-    label: 'Savannah — warm, feminine',
-    hint: 'The default. Reads as an assured front-desk manager.',
-  },
-  {
     id: 'Elliot',
     label: 'Elliot — even, masculine',
-    hint: 'Calm and unhurried. Good for med spas and higher-ticket work.',
+    hint: 'The default. Calm and unhurried; does not sound like it is selling.',
+  },
+  {
+    id: 'Savannah',
+    label: 'Savannah — warm, feminine',
+    hint: 'Reads as an assured front-desk manager.',
   },
   {
     id: 'Rohan',
@@ -79,7 +79,7 @@ export const MALONE_VOICES = [
 ] as const;
 
 export type MaloneVoiceId = (typeof MALONE_VOICES)[number]['id'];
-export const DEFAULT_MALONE_VOICE: MaloneVoiceId = 'Savannah';
+export const DEFAULT_MALONE_VOICE: MaloneVoiceId = 'Elliot';
 
 export function isMaloneVoice(v: unknown): v is MaloneVoiceId {
   return typeof v === 'string' && MALONE_VOICES.some((x) => x.id === v);
