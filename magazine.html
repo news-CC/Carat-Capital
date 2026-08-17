@@ -57,7 +57,7 @@
 :root{--pink:#16130E;--pink2:#3B362C;--pink3:#8A8272;--pgilt:#96762E;--pseal:#BE3319;
   --paper:#F6F1E6;--paper2:#EFE8D8;--pline:rgba(59,54,44,.22);
   --pd:'Instrument Sans',sans-serif;--pt:'Lora',Georgia,serif;--pm:'IBM Plex Mono',monospace}
-html,body{background:#100E0B;overflow-x:clip}
+html,body{background:#100E0B;overflow-x:clip;overscroll-behavior:none}
 body{margin:0;color:var(--pink);font-family:var(--pt);
   background:
     radial-gradient(120% 90% at 50% -20%,rgba(198,162,74,.10),transparent 55%),
@@ -82,7 +82,8 @@ body::after{content:"";position:fixed;inset:0;pointer-events:none;z-index:1;
 #zoomer{transition:transform .55s cubic-bezier(.16,.9,.24,1);transform-origin:center center}
 body.zoomed #zoomer{cursor:grab}
 body.zoomed.panning #zoomer{cursor:grabbing;transition:none}
-#book{position:relative}
+#book{position:relative;touch-action:none;-webkit-user-select:none;user-select:none;
+  -webkit-touch-callout:none;cursor:grab}
 /* the book lies on the desk: one wide soft shadow, one tight contact line */
 #book::before{content:"";position:absolute;left:2%;right:2%;bottom:-4.5%;height:9%;z-index:0;
   background:radial-gradient(50% 100% at 50% 0%,rgba(0,0,0,.65),transparent 75%);
@@ -559,21 +560,29 @@ html:not(.js) .lp,html:not(.js) #under,html:not(.js) #peelC,html:not(.js) #folds
   function unfoldStatics(dir){
     pgR.style.clipPath=''; pgL.style.clipPath=''; peel.dataset.face='';
   }
+  function snapAnim(){
+    /* finish the running turn instantly so the next gesture is never eaten */
+    if(!anim) return;
+    cancelAnimationFrame(anim.raf);
+    const a=anim; anim=null;
+    fold(a.dir,a.toP); a.done&&a.done();
+  }
   function spring(dir,fromP,toP,done){
-    if(anim) cancelAnimationFrame(anim.raf);
+    snapAnim();
     const dur=matchMedia('(prefers-reduced-motion: reduce)').matches?1:480;
     const t0=performance.now();
     const tick=now=>{
       let t=Math.min(1,(now-t0)/dur);
       const ease=1-Math.pow(1-t,2.6);
       fold(dir, fromP+(toP-fromP)*ease);
-      if(t<1) anim={raf:requestAnimationFrame(tick)};
+      if(t<1) anim={raf:requestAnimationFrame(tick),dir,toP,done};
       else { anim=null; done&&done(); }
     };
-    anim={raf:requestAnimationFrame(tick)};
+    anim={raf:requestAnimationFrame(tick),dir,toP,done};
   }
   function turn(dir){
-    if(anim||mode==='') return;
+    if(mode==='') return;
+    snapAnim();
     const top=mode==='single'?NP-1:NS;
     if(dir>0&&cur>=top||dir<0&&cur<=0) return;
     wrap.style.transform='';
@@ -594,8 +603,11 @@ html:not(.js) .lp,html:not(.js) #under,html:not(.js) #peelC,html:not(.js) #folds
   /* the drag: the fold follows the finger, in both modes */
   let D=null;
   book.addEventListener('pointerdown',e=>{
-    if(mode===''||anim||document.body.classList.contains('zoomed')) return;
+    if(mode===''||document.body.classList.contains('zoomed')) return;
     if(e.target.closest('a')) return;
+    snapAnim();
+    if(book.setPointerCapture&&e.pointerId!=null)
+      try{book.setPointerCapture(e.pointerId)}catch(_){}
     const r=book.getBoundingClientRect();
     const x=e.clientX-r.left;
     if(mode==='single'){
@@ -627,6 +639,14 @@ html:not(.js) .lp,html:not(.js) #under,html:not(.js) #peelC,html:not(.js) #folds
     if(Math.abs(e.clientX-D.x0)>4) D.moved=true;
     D.p=p; fold(D.dir,p);
   });
+  addEventListener('pointercancel',()=>{
+    if(!D) return;
+    const {dir,p,single}=D; D=null;
+    /* Safari took the gesture back: lay the page where it was going */
+    const d=single?1:dir;
+    if(p>0.5) spring(d,p,1,()=>{cur+=d;unfoldStatics(d);settle();});
+    else spring(d,p,0,()=>{unfoldStatics(d);settle();});
+  });
   addEventListener('pointerup',e=>{
     if(!D) return;
     const {dir,moved,p,t0,x0,single,canFwd,canBack}=D; D=null;
@@ -636,8 +656,8 @@ html:not(.js) .lp,html:not(.js) #under,html:not(.js) #peelC,html:not(.js) #folds
         /* a tap: the right third turns forward, the left third turns back */
         const r=book.getBoundingClientRect(), x=e.clientX-r.left;
         unfoldStatics(1); settle();
-        if(x>r.width*0.6&&canFwd) turn(1);
-        else if(x<r.width*0.4&&canBack) turn(-1);
+        if(x<r.width*0.33&&canBack) turn(-1);
+        else if(canFwd) turn(1);
         return;
       }
       if(dx>60&&v>0.35&&canBack){ unfoldStatics(1); settle(); turn(-1); return; }
