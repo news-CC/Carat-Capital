@@ -1,6 +1,6 @@
 import { z } from 'zod';
 
-import { MALONE_SYSTEM_PROMPT } from '@/lib/malone';
+import { DEFAULT_MALONE_VOICE, MALONE_VOICES, MALONE_SYSTEM_PROMPT } from '@/lib/malone';
 
 /**
  * Live demo calls.
@@ -51,6 +51,9 @@ export const demoSchema = z.object({
     .optional()
     .transform((v) => (v && v.length > 0 ? v : undefined)),
   timezone: z.string().trim().min(1).max(64).default('America/New_York'),
+  voice: z
+    .enum(MALONE_VOICES.map((v) => v.id) as [string, ...string[]])
+    .default(DEFAULT_MALONE_VOICE),
   consent_attested: z
     .literal('on', { message: 'Confirm the person asked for this call.' })
     .transform(() => true),
@@ -66,6 +69,7 @@ export type DemoState =
       status: 'success';
       phone: string;
       salonName: string;
+      voice: string;
       vapiCallId: string;
       promoCode?: string;
       outsideWindow: boolean;
@@ -106,8 +110,14 @@ export function buildDemoSystemPrompt(a: {
   return blocks.join('\n\n');
 }
 
-/** Malone opens the call. Kept in step with MALONE_FIRST_MESSAGE, with the demo's own names. */
+/**
+ * Malone opens the call. Kept in step with MALONE_FIRST_MESSAGE.
+ *
+ * Leads with the SALON, not with Malone. On the first real call the old wording stacked both names
+ * on someone who had no idea why their phone was ringing, and the recorded reply was "What are you
+ * talking about?". The salon's name is the only one that means anything to them.
+ */
 export function buildDemoFirstMessage(a: { firstName?: string; salonName: string }): string {
   const who = a.firstName && a.firstName.length > 0 ? a.firstName : 'there';
-  return `Hey ${who} — Salon Malone here, ${a.salonName}'s virtual concierge. Ninety seconds, I promise. We miss you.`;
+  return `Hi ${who}, this is the virtual concierge calling from ${a.salonName}. It's been a while since your last visit, so they asked me to reach out with something. Have you got twenty seconds?`;
 }

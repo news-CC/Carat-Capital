@@ -12,11 +12,14 @@ export const MALONE_SYSTEM_PROMPT = `You are Salon Malone, {{salon_name}}'s virt
 
 DISCLOSURE (mandatory): say you are {{salon_name}}'s virtual concierge in your opening line. If asked whether you're a real person, a bot, or a recording, answer at once: "I'm a virtual assistant for {{salon_name}} — a real human takes care of you in the chair." Never claim to be human. Never dodge it.
 
+IF THEY ARE CONFUSED (this happens on nearly every first call — "what?", "who is this?", "hello?", or silence): they were not expecting a call. Do NOT repeat your opening line. Re-introduce in DIFFERENT, plainer words, in one breath: who you are, which salon, and why you rang. Then go straight to the offer and the two times. Example shape: "Sorry — no one likes a surprise call. I'm the virtual concierge at {{salon_name}}. You haven't been in for a while, so they asked me to ring with something." Never say the same sentence twice in a call.
+
 ONE GOAL: book a specific time using this offer — {{offer_text}}.
 Offer exactly two concrete times: "Thursday at two, or Saturday morning at ten — which is easier?" If neither works, ask which day does. When they pick, repeat the day and time back in full, then close.
 
 FLOW
 - Short lines. One idea per turn. Never pitch twice. Never argue. Never oversell.
+- Say the salon's name naturally. If it already contains the word "Salon", do not stack another one in front of it — "the concierge at Bella Salon", never "Salon Malone here, Bella Salon's".
 - One beat of small talk, max. Only the visit and the offer.
 - You can't see the calendar or take payment. You note the time down; the salon confirms.
 - Off-topic, prices, or anything medical: "Best person for that is the front desk — {{booking_phone}}." Then back to the time, or close.
@@ -28,12 +31,59 @@ EXITS
 
 PACE: 90 seconds is the target, 3 minutes the hard ceiling. Near it, close or exit.`;
 
+/**
+ * The opening line, rewritten after a real call.
+ *
+ * The first version was "Hey {{first_name}} — Salon Malone here, {{salon_name}}'s virtual
+ * concierge." Two faults showed up the moment a human heard it. The em-dash reads as an odd
+ * clipped pause in TTS. And naming Malone AND the salon in one breath stacks two names on a
+ * stranger who is still working out why their phone rang — the answer was, verbatim, "What are
+ * you talking about?"
+ *
+ * This version leads with the salon (the only name that means anything to them), states the
+ * reason before anything is asked of them, and keeps Malone's own name for later if it comes up.
+ */
 export const MALONE_FIRST_MESSAGE =
-  "Hey {{first_name}} — Salon Malone here, {{salon_name}}'s virtual concierge. Ninety seconds, I promise. We miss you.";
+  "Hi {{first_name}}, this is the virtual concierge calling from {{salon_name}}. It's been a while since your last visit, so they asked me to reach out with something. Have you got twenty seconds?";
 
 /** ~15 seconds read aloud. Offer plus the salon's real number, nothing else. */
 export const MALONE_VOICEMAIL_MESSAGE =
-  "Hey {{first_name}}, Salon Malone here — {{salon_name}}'s virtual concierge. We miss you, and we saved you something: {{offer_text}}. Call {{booking_phone}} and we'll get you back in the chair. Take care.";
+  "Hi {{first_name}}, this is the virtual concierge at {{salon_name}}. It's been a while, and they saved you something: {{offer_text}}. Give the salon a ring on {{booking_phone}} and we'll get you back in the chair. Take care.";
+
+/**
+ * The voice set, verified by probing the live Vapi API rather than read off a docs page.
+ *
+ * Only these three are current — Lily, Hana, Neha, Cole, Harry, Paige, Spencer and Kylie are all
+ * rejected as "part of a legacy voice set that is being phased out". Building a picker from the
+ * docs would have shipped six dead options.
+ *
+ * All are Vapi first-party, which is the cheapest and lowest-latency option available: no second
+ * TTS vendor in the turn, no extra subscription, no extra network hop (ARCHITECTURE.md §2).
+ */
+export const MALONE_VOICES = [
+  {
+    id: 'Savannah',
+    label: 'Savannah — warm, feminine',
+    hint: 'The default. Reads as an assured front-desk manager.',
+  },
+  {
+    id: 'Elliot',
+    label: 'Elliot — even, masculine',
+    hint: 'Calm and unhurried. Good for med spas and higher-ticket work.',
+  },
+  {
+    id: 'Rohan',
+    label: 'Rohan — bright, masculine',
+    hint: 'A touch more energy. Suits barbershops and men\'s grooming.',
+  },
+] as const;
+
+export type MaloneVoiceId = (typeof MALONE_VOICES)[number]['id'];
+export const DEFAULT_MALONE_VOICE: MaloneVoiceId = 'Savannah';
+
+export function isMaloneVoice(v: unknown): v is MaloneVoiceId {
+  return typeof v === 'string' && MALONE_VOICES.some((x) => x.id === v);
+}
 
 const STRUCTURED_DATA_INSTRUCTIONS = `You are reading a transcript of an outbound win-back call made by a salon's virtual concierge. Extract only what was actually said.
 - outcome: "booked" only if the client agreed to a specific day/time. "declined" if they said no or not now. "opted_out" if they asked not to be called again. "voicemail" if only a machine was reached. "no_answer" if nobody spoke. Otherwise "answered".
@@ -124,7 +174,7 @@ export function maloneAssistantPayload(serverUrl: string, serverSecret: string):
     // Vapi's own streaming voices, not ElevenLabs. ARCHITECTURE.md §2 asks for "a low-latency
     // voice in Vapi, not the fanciest one": these are first-party, so there is no extra provider
     // hop in the TTS leg of the turn budget and no second vendor subscription to keep alive.
-    voice: { provider: 'vapi', voiceId: 'Savannah' },
+    voice: { provider: 'vapi', voiceId: DEFAULT_MALONE_VOICE },
     backchannelingEnabled: true,
     backgroundDenoisingEnabled: true,
     // 'livekit' endpointing predicts turn-ends from semantics instead of waiting out a fixed

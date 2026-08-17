@@ -158,6 +158,7 @@ export async function placeDemoCall(_prev: DemoState, formData: FormData): Promi
       campaign,
       demo: 'true',
     },
+    voiceId: input.voice,
     systemPrompt: buildDemoSystemPrompt({ promoCode: input.promo_code, instructions: input.instructions }),
     firstMessage: buildDemoFirstMessage({ firstName: input.first_name, salonName: input.salon_name }),
   });
@@ -195,6 +196,7 @@ export async function placeDemoCall(_prev: DemoState, formData: FormData): Promi
     status: 'success',
     phone,
     salonName: input.salon_name,
+    voice: input.voice,
     vapiCallId: started.data.vapiCallId,
     promoCode: input.promo_code,
     outsideWindow: !inside,

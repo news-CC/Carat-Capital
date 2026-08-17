@@ -26,6 +26,8 @@ export type StartCallArgs = {
    */
   systemPrompt?: string;
   firstMessage?: string;
+  /** A Vapi first-party voiceId. Demo calls only, same latency caveat as systemPrompt. */
+  voiceId?: string;
 };
 
 export async function startOutboundCall(a: StartCallArgs): Promise<Result<{ vapiCallId: string }>> {
@@ -52,6 +54,7 @@ export async function startOutboundCall(a: StartCallArgs): Promise<Result<{ vapi
             ? { model: { messages: [{ role: 'system', content: a.systemPrompt }] } }
             : {}),
           ...(a.firstMessage ? { firstMessage: a.firstMessage } : {}),
+          ...(a.voiceId ? { voice: { provider: 'vapi', voiceId: a.voiceId } } : {}),
         },
         customer: { number: a.phone },
         metadata: a.metadata,

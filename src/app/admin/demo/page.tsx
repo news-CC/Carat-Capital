@@ -5,6 +5,7 @@ import DemoCallForm from '@/components/admin/DemoCallForm';
 import { requireAdmin } from '@/lib/auth';
 import { isInsideCallWindow, localTimeInZone } from '@/lib/call-window';
 import { callWindow } from '@/lib/env';
+import { DEFAULT_MALONE_VOICE, MALONE_VOICES } from '@/lib/malone';
 import { formatPhone } from '@/lib/phone';
 import { supabaseAdmin } from '@/lib/supabase/admin';
 
@@ -82,7 +83,11 @@ export default async function DemoPage() {
 
       <div className="rule my-8" />
 
-      <DemoCallForm defaultTimezone="America/New_York" />
+      <DemoCallForm
+        defaultTimezone={EASTERN}
+        voices={MALONE_VOICES}
+        defaultVoice={DEFAULT_MALONE_VOICE}
+      />
 
       <div className="rule my-10" />
 

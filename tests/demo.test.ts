@@ -54,13 +54,14 @@ describe('buildDemoSystemPrompt', () => {
 
 describe('buildDemoFirstMessage', () => {
   it('uses the name when given', () => {
-    expect(buildDemoFirstMessage({ firstName: 'Dana', salonName: 'Cutler' })).toContain('Hey Dana');
+    expect(buildDemoFirstMessage({ firstName: 'Dana', salonName: 'Cutler' })).toContain('Hi Dana');
   });
 
   it('falls back to "there" rather than an empty gap', () => {
     const msg = buildDemoFirstMessage({ salonName: 'Cutler' });
-    expect(msg).toContain('Hey there');
-    expect(msg).not.toMatch(/Hey\s+—/);
+    expect(msg).toContain('Hi there');
+    // no dangling greeting where a name should have been
+    expect(msg).not.toMatch(/Hi\s*,/);
   });
 
   it('always discloses the virtual concierge role in the opening line', () => {
@@ -117,5 +118,60 @@ describe('demoSchema', () => {
     const off = demoSchema.safeParse(valid);
     expect(on.success && on.data.window_override).toBe(true);
     expect(off.success && off.data.window_override).toBe(false);
+  });
+});
+
+describe('voice selection', () => {
+  it('offers only voices the live Vapi API actually accepts', async () => {
+    const { MALONE_VOICES, DEFAULT_MALONE_VOICE, isMaloneVoice } = await import('@/lib/malone');
+    // Probed against the real API: everything else is "part of a legacy voice set being phased out".
+    expect(MALONE_VOICES.map((v) => v.id).sort()).toEqual(['Elliot', 'Rohan', 'Savannah']);
+    expect(isMaloneVoice(DEFAULT_MALONE_VOICE)).toBe(true);
+    for (const dead of ['Lily', 'Hana', 'Neha', 'Cole', 'Harry', 'Paige', 'Spencer', 'Kylie', 'Mark']) {
+      expect(isMaloneVoice(dead)).toBe(false);
+    }
+  });
+
+  it('gives a masculine and a feminine option', async () => {
+    const { MALONE_VOICES } = await import('@/lib/malone');
+    const labels = MALONE_VOICES.map((v) => v.label.toLowerCase()).join(' ');
+    expect(labels).toContain('feminine');
+    expect(labels).toContain('masculine');
+  });
+
+  it('defaults the voice when the form omits it, and rejects an unknown one', () => {
+    const ok = demoSchema.safeParse(valid);
+    expect(ok.success && ok.data.voice).toBe('Savannah');
+    expect(demoSchema.safeParse({ ...valid, voice: 'Lily' }).success).toBe(false);
+    const rohan = demoSchema.safeParse({ ...valid, voice: 'Rohan' });
+    expect(rohan.success && rohan.data.voice).toBe('Rohan');
+  });
+});
+
+describe('the opener, after the first real call', () => {
+  it('leads with the salon and never stacks Malone in front of it', () => {
+    const msg = buildDemoFirstMessage({ firstName: 'Dana', salonName: 'Butterfly Studio Salon' });
+    // "Salon Malone here, Butterfly Studio Salon's..." is what produced "What are you talking about?"
+    expect(msg).not.toMatch(/Salon Malone here/i);
+    expect(msg.indexOf('Butterfly Studio Salon')).toBeGreaterThan(-1);
+    expect(msg).toMatch(/virtual concierge/i);
+    // No em-dash: TTS reads it as an odd clipped pause.
+    expect(msg).not.toContain('—');
+  });
+
+  it('states the reason before it asks for anything', () => {
+    const msg = buildDemoFirstMessage({ salonName: 'Cutler' });
+    expect(msg.toLowerCase().indexOf('been a while')).toBeLessThan(msg.indexOf('?'));
+  });
+});
+
+describe('confusion recovery is in the persona', () => {
+  it('forbids repeating the opening line and requires a plainer re-introduction', async () => {
+    const { MALONE_SYSTEM_PROMPT } = await import('@/lib/malone');
+    expect(MALONE_SYSTEM_PROMPT).toMatch(/IF THEY ARE CONFUSED/);
+    expect(MALONE_SYSTEM_PROMPT).toMatch(/Do NOT repeat your opening line/i);
+    expect(MALONE_SYSTEM_PROMPT).toMatch(/Never say the same sentence twice/i);
+    // and the fix for the name stutter
+    expect(MALONE_SYSTEM_PROMPT).toMatch(/do not stack another one in front/i);
   });
 });
