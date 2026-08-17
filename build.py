@@ -1857,7 +1857,7 @@ def _folio_issue():
 </div>""")
 
     # 13 · the wire, distilled
-    wire_items = [a for a in week if a is not lead][:9]
+    wire_items = [a for a in week if a is not lead][:8]
     wl = "".join(
         f'<div class="wl"><span class="wk">{H.escape((a.get("kicker") or DESK_NAMES.get(a.get("desk"),"Desk"))[:26])}</span>'
         f'<a href="a-{a["slug"]}.html">{H.escape(a["title"])}</a></div>' for a in wire_items)
@@ -2052,7 +2052,9 @@ body.zoomed.panning #zoomer{{cursor:grabbing;transition:none}}
 .wl .wk{{display:block;font-family:var(--pm);font-size:1.7cqw;letter-spacing:.2em;
   text-transform:uppercase;color:var(--pgilt);margin-bottom:3px}}
 .wl a{{font-family:var(--pd);font-weight:600;font-size:3.25cqw;line-height:1.3;
-  color:var(--pink);text-decoration:none}}
+  color:var(--pink);text-decoration:none;display:block;white-space:nowrap;
+  overflow:hidden;text-overflow:ellipsis}}
+.wl{{padding:1.9cqw 0}}
 .bngrid{{display:grid;grid-template-columns:1fr 1fr;gap:14px 12px;margin-top:6px}}
 .bn b{{display:block;font-family:var(--pm);font-size:4.7cqw;font-weight:500;letter-spacing:-.02em}}
 .bn span{{font-family:var(--pm);font-size:1.7cqw;letter-spacing:.14em;text-transform:uppercase;
