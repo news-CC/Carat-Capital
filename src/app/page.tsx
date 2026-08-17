@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { SiteFooter } from "@/components/SiteFooter";
+import SalonPlate from "@/components/SalonPlate";
 import { SiteHeader } from "@/components/SiteHeader";
 import { callWindow, publicEnv } from "@/lib/env";
 import {
@@ -75,26 +76,33 @@ export default function HomePage() {
       {/* the one gradient in the product: cream settling into shell */}
       <section className="bg-[linear-gradient(180deg,var(--color-cream)_0%,var(--color-shell)_100%)]">
         <div className="mx-auto max-w-6xl px-6 pt-16 pb-24 sm:pt-24">
-          <p className="eyebrow">Win-back campaigns for salons &amp; med spas</p>
-          <h1 className="h-display mt-6 max-w-4xl text-[clamp(2.6rem,7.5vw,5.25rem)]">
-            {SITE.headline}
-          </h1>
-          <p className="prose-tight mt-8 text-[1.0625rem] sm:text-lg">{SITE.subhead}</p>
+          <div className="grid items-center gap-12 lg:grid-cols-[minmax(0,1.15fr)_minmax(0,0.85fr)] lg:gap-16">
+            <div>
+              <p className="eyebrow">Win-back campaigns for salons &amp; med spas</p>
+              <h1 className="h-display mt-6 text-[clamp(2.6rem,6.5vw,4.75rem)]">{SITE.headline}</h1>
+              <p className="prose-tight mt-8 text-[1.0625rem] sm:text-lg">{SITE.subhead}</p>
 
-          <div className="mt-10 flex flex-wrap items-center gap-3">
-            <Link className="btn btn-primary" href={CTA.startHref}>
-              {CTA.startLabel}
-            </Link>
-            <a className="btn btn-ghost" href={callUrl}>
-              {CTA.callLabel}
-            </a>
+              <div className="mt-10 flex flex-wrap items-center gap-3">
+                <Link className="btn btn-primary" href={CTA.startHref}>
+                  {CTA.startLabel}
+                </Link>
+                <a className="btn btn-ghost" href={callUrl}>
+                  {CTA.callLabel}
+                </a>
+              </div>
+              <p className="help mt-4">
+                Two minutes, no card.{" "}
+                <a className="link" href="#pricing">
+                  Already know what you want? Prices and checkout are below.
+                </a>
+              </p>
+            </div>
+
+            {/* Decorative: the headline already says this, so it carries no information a
+                screen-reader user would miss. Hidden below lg — on a phone it would push the
+                offer and the button below the fold, which is the one thing that must not happen. */}
+            <SalonPlate className="hidden lg:block" />
           </div>
-          <p className="help mt-4">
-            Two minutes, no card.{" "}
-            <a className="link" href="#pricing">
-              Already know what you want? Prices and checkout are below.
-            </a>
-          </p>
 
           <ul className="mt-14 grid gap-px border-y border-line bg-line sm:grid-cols-3">
             {[
