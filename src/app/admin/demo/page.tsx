@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 import DemoCallForm from '@/components/admin/DemoCallForm';
 import { requireAdmin } from '@/lib/auth';
-import { localTimeInZone } from '@/lib/call-window';
+import { isInsideCallWindow, localTimeInZone } from '@/lib/call-window';
 import { callWindow } from '@/lib/env';
 import { formatPhone } from '@/lib/phone';
 import { supabaseAdmin } from '@/lib/supabase/admin';
@@ -12,6 +12,16 @@ export const metadata: Metadata = { title: 'Demo call' };
 export const dynamic = 'force-dynamic';
 
 const DEMO_CLIENT_NAME = 'Salon Malone — live demos';
+const EASTERN = 'America/New_York';
+
+/** 'EDT' or 'EST' depending on the date — so the header is right in November too. */
+function easternAbbrev(): string {
+  const parts = new Intl.DateTimeFormat('en-US', {
+    timeZone: EASTERN,
+    timeZoneName: 'short',
+  }).formatToParts(new Date());
+  return parts.find((p) => p.type === 'timeZoneName')?.value ?? 'ET';
+}
 
 type DemoCall = {
   id: string;
@@ -64,8 +74,10 @@ export default async function DemoPage() {
         this one dials immediately instead of waiting for the queue.
       </p>
       <p className="help mt-3">
-        Calling hours are {window.start}–{window.end} in their local time. It is currently{' '}
-        {localTimeInZone('America/New_York')} in New York.
+        Calling hours are {window.start}–{window.end} in the prospect&apos;s local time. It is{' '}
+        <span className="text-ink tabular-nums">{localTimeInZone(EASTERN)}</span> {easternAbbrev()} in New
+        York right now — {isInsideCallWindow(EASTERN, window.start, window.end) ? 'inside' : 'outside'} the
+        window. Eastern is the default on every form.
       </p>
 
       <div className="rule my-8" />

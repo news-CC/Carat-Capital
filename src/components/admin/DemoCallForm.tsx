@@ -6,17 +6,22 @@ import { useFormStatus } from 'react-dom';
 import { placeDemoCall } from '@/app/admin/demo/actions';
 import type { DemoState } from '@/lib/demo';
 
-const TIMEZONES = [
-  'America/New_York',
-  'America/Chicago',
-  'America/Denver',
-  'America/Phoenix',
-  'America/Los_Angeles',
-  'America/Anchorage',
-  'Pacific/Honolulu',
-  'America/Toronto',
-  'America/Vancouver',
-] as const;
+/**
+ * Eastern first and labelled as the default: the whole prospect list is NYC-metro, so anything
+ * else is the exception. The bare IANA id ("New York") does not read as a timezone at a glance,
+ * which is how an operator ends up demoing against the wrong calling window.
+ */
+const TIMEZONES: [string, string][] = [
+  ['America/New_York', 'New York — Eastern (default)'],
+  ['America/Chicago', 'Chicago — Central'],
+  ['America/Denver', 'Denver — Mountain'],
+  ['America/Phoenix', 'Phoenix — Arizona, no DST'],
+  ['America/Los_Angeles', 'Los Angeles — Pacific'],
+  ['America/Anchorage', 'Anchorage — Alaska'],
+  ['Pacific/Honolulu', 'Honolulu — Hawaii'],
+  ['America/Toronto', 'Toronto — Eastern'],
+  ['America/Vancouver', 'Vancouver — Pacific'],
+];
 
 const PRESETS = [
   {
@@ -189,13 +194,15 @@ export default function DemoCallForm({ defaultTimezone }: { defaultTimezone: str
               Their timezone
             </label>
             <select className="select" id="timezone" name="timezone" defaultValue={defaultTimezone}>
-              {TIMEZONES.map((tz) => (
-                <option key={tz} value={tz}>
-                  {tz.replace('America/', '').replace('Pacific/', '').replace(/_/g, ' ')}
+              {TIMEZONES.map(([zone, label]) => (
+                <option key={zone} value={zone}>
+                  {label}
                 </option>
               ))}
             </select>
-            <p className="help">Used for the calling-hours check.</p>
+            <p className="help">
+              Used for the calling-hours check. Leave it on Eastern for anyone in the NYC metro.
+            </p>
           </div>
         </div>
 
