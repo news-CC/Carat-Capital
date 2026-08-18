@@ -1,10 +1,34 @@
 {
- "updated": "17 Aug 2026",
+ "updated": "18 Aug 2026",
  "intro": "Eight weeks of the trade, kept the way a ledger should be kept — dated, sourced, and in one place. New entries are added at the top each week; the quarter's running numbers live in the Almanac below.",
  "weeks": [
   {
    "label": "This week — August 17",
    "entries": [
+    {
+     "d": "diamonds",
+     "h": "Mountain Province sells 111% more carats at 44% less per carat",
+     "t": "In the three months to 30 June 2026 Mountain Province Diamonds sold 869,520 carats from the Gahcho Kue mine against 411,114 in the same quarter of 2025, an increase of 111%, at an average realised price of CAD 50 a carat against CAD 90, a fall of 44%. Revenue rose 18% to CAD 43.5 million from CAD 36.8 million; 869,520 carats at CAD 50 is CAD 43.48 million, so the reported revenue and the reported volume and price are internally consistent. Carats recovered were 2,014,563 against 708,072, up 185% and the second consecutive quarter above two million carats. Cash cost of production fell to CAD 108 a tonne treated from CAD 167 and to CAD 48 a carat recovered from CAD 209. Adjusted EBITDA was CAD 8.4 million against negative CAD 2.2 million. The net loss was CAD 120.6 million, or 57 cents a share, against CAD 37.7 million and 18 cents, which is 2.8 times the quarter's revenue and about CAD 129 million below the positive adjusted EBITDA line; disclosed foreign-exchange losses account for CAD 11.3 million of that distance and this paper does not attribute the remainder. Chief executive Jonathan Comerford said the diamond market continues to face significant challenges. Two outside sources differ on the dollar conversion of revenue: the company's release gives $31.2 million and Rapaport $31.3 million against the same CAD 43.5 million. Release dated 13 August 2026, Rapaport report 16 August 2026.",
+     "s": "Mountain Province Diamonds Q2 2026 release (13 August 2026) / PR Newswire / Rapaport (16 August 2026)"
+    },
+    {
+     "d": "diamonds",
+     "h": "Asian Star's loose-diamond sales fall 22% as its jewellery line rises 17%",
+     "t": "For the quarter to 30 June 2026 Asian Star reported consolidated revenue of INR 6.47 billion, about $67.7 million, down 11% year on year and 13% against the preceding quarter. Loose-diamond sales fell 22% to INR 4.26 billion, about $44.6 million, and 11% sequentially. Jewellery revenue rose 17% to INR 2.35 billion, about $24.1 million. Net profit fell 38% to INR 120.6 million, about $1.3 million, a net margin of 1.86% against about 2.68% a year earlier on figures derived from the reported percentages. Working those percentages backwards implies about INR 5.46 billion of loose-diamond sales and about INR 2.01 billion of jewellery a year ago, so loose stones fell from about 73% to about 64% of the two segments taken together. The two segment lines sum to INR 6.61 billion against consolidated revenue of INR 6.47 billion, a gap of INR 140 million before eliminations, and the shares above are shares of the segment sum rather than of the group. Reported by Rapaport 17 August 2026; board approval of the results dated 13 August 2026.",
+     "s": "Rapaport (17 August 2026) / ScanX"
+    },
+    {
+     "d": "gold-metals",
+     "h": "Gold and silver clear the two-page rule; platinum and palladium hold a second session",
+     "t": "At 06:04 New York time on 18 August 2026 Kitco's board read gold $4,393.10 an ounce, silver $65.00, platinum $1,744.00 and palladium $1,303.00. A second reading on TradingEconomics the same morning gave gold $4,394.27, silver $65.124, platinum $1,755.50 and palladium $1,322.00. Gold's two pages are 0.027% apart and silver's 0.19%, both within rounding, so both are written back to this paper's tape as the marks of record: gold $4,393.10, down $1.50 or 0.03% on the $4,394.60 marked 17 August, and silver $65.00, down $0.38 or 0.58% on $65.38. Platinum's pages are 0.66% apart and palladium's 1.46%, so neither is written and both hold their 17 August Kitco marks of $1,749.00 and $1,311.00, now two sessions old. At 04:58 the same morning this paper's tape desk had recorded platinum 0.68% apart (Kitco $1,738.00, TradingEconomics $1,749.90) and palladium 0.69% apart (Kitco $1,297.00, FXEmpire $1,305.92); over the sixty-six minutes between the two readings Kitco's platinum rose to $1,744.00 and its palladium to $1,303.00 while the palladium gap roughly doubled, so both sides of the disagreement are live. Platinum's implied range of $1,744.00 to $1,755.50 puts it at 39.7% to 40.0% of gold; the held mark of $1,749.00 sits at 39.8%.",
+     "s": "Kitco, TradingEconomics and FXEmpire, all read 18 August 2026 / Carat Capital tape"
+    },
+    {
+     "d": "retail-tech",
+     "h": "IIJS Bharat Premiere closes with attendance published and no business value",
+     "t": "GJEPC's IIJS Bharat Premiere, the 42nd edition, ran across two Mumbai venues, the Jio World Convention Centre at BKC from 5 to 9 August 2026 and the Bombay Exhibition Centre at NESCO from 6 to 10 August 2026. IDEX reported on 10 August that the show drew more than 50,000 trade visitors, 2,100 exhibitors and 2,700 international buyers from more than 80 countries. As at 18 August 2026, eight days after the close, a search by this desk across GJEPC's own channels and the trade press returned no aggregate business or turnover value for the edition; the absence is recorded as this desk's finding on the sources it reached, not as proof that no figure exists. This paper previewed the show on 28 July 2026 as india-fills-the-hall, writing that registrations measure hope and recommending readers watch the order books rather than the footfall, and recording Indian gross gems-and-jewellery exports up 26.5% in June to about $2.21 billion against a flat quarter and rough imports down roughly a third.",
+     "s": "IDEX Online (10 August 2026) / The Retail Jeweller / GJEPC / Carat Capital archive"
+    },
     {
      "d": "auctions",
      "h": "Three closed Sotheby's jewel sales carry no published result between them",

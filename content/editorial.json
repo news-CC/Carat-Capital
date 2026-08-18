@@ -29181,5 +29181,475 @@
     }
    ]
   }
+ },
+ "one-eleven-up-forty-four-down": {
+  "strip": {
+   "cap": "By the numbers · Mountain Province, quarter to 30 June",
+   "cells": [
+    {
+     "fig": "869,520",
+     "delta": "▲ +111%",
+     "dir": "up",
+     "lab": "carats sold"
+    },
+    {
+     "fig": "CAD 50",
+     "delta": "▼ −44%",
+     "dir": "down",
+     "lab": "per carat realised"
+    },
+    {
+     "fig": "2.01M",
+     "delta": "▲ +185%",
+     "dir": "up",
+     "lab": "carats recovered"
+    },
+    {
+     "fig": "CAD 43.5M",
+     "delta": "▲ +18%",
+     "dir": "up",
+     "lab": "revenue"
+    },
+    {
+     "fig": "CAD 120.6M",
+     "delta": "▼ loss",
+     "dir": "down",
+     "lab": "net loss, from CAD 37.7M"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Volume against price · Q2 2026 vs Q2 2025, indexed to 100",
+    "rows": [
+     {
+      "l": "CARATS RECOVERED",
+      "v": 285,
+      "d": "+185%",
+      "hi": true
+     },
+     {
+      "l": "CARATS SOLD",
+      "v": 211,
+      "d": "+111%"
+     },
+     {
+      "l": "REVENUE",
+      "v": 118,
+      "d": "+18%"
+     },
+     {
+      "l": "PRICE PER CARAT",
+      "v": 56,
+      "d": "−44%"
+     }
+    ],
+    "note": "Indexed by this desk from the company's own reported figures, with Q2 2025 set at 100. Revenue grew 18% because an 111% volume gain met a 44% price fall.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/226"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Volume answered price, almost exactly.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "pull": {
+     "q": "Volume more than doubled to lift the top line by less than a fifth.",
+     "attr": "The Diamonds Desk"
+    }
+   },
+   {
+    "sub": "The operating quarter and the reported quarter.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "p": 3
+   },
+   {
+    "p": 4
+   },
+   {
+    "also": {
+     "t": "Asian Star's small stones fell 22%. Its jewellery rose 17%",
+     "href": "a-twenty-two-down-seventeen-up.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "the volume that defends one producer's cash line is the same volume arriving at everyone else's"
+  },
+  "next": {
+   "lead": {
+    "slug": "twenty-two-down-seventeen-up",
+    "tag": "Diamonds",
+    "blurb": "The other end of the same pipe: an Indian polisher's loose-diamond line falls 22%."
+   },
+   "minis": [
+    {
+     "slug": "two-cleared-two-held",
+     "tag": "Metals"
+    },
+    {
+     "slug": "fifty-thousand-and-no-number",
+     "tag": "Retail"
+    }
+   ]
+  }
+ },
+ "twenty-two-down-seventeen-up": {
+  "strip": {
+   "cap": "By the numbers · Asian Star, quarter to 30 June",
+   "cells": [
+    {
+     "fig": "INR 4.26B",
+     "delta": "▼ −22%",
+     "dir": "down",
+     "lab": "loose-diamond sales"
+    },
+    {
+     "fig": "INR 2.35B",
+     "delta": "▲ +17%",
+     "dir": "up",
+     "lab": "jewellery revenue"
+    },
+    {
+     "fig": "INR 6.47B",
+     "delta": "▼ −11%",
+     "dir": "down",
+     "lab": "consolidated revenue"
+    },
+    {
+     "fig": "INR 120.6M",
+     "delta": "▼ −38%",
+     "dir": "down",
+     "lab": "net profit"
+    },
+    {
+     "fig": "1.86%",
+     "lab": "net margin, from 2.68%"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Where the mix went · loose diamonds as a share of the two segments",
+    "rows": [
+     {
+      "l": "A YEAR AGO",
+      "v": 73,
+      "d": "73%",
+      "hi": true
+     },
+     {
+      "l": "THIS QUARTER",
+      "v": 64,
+      "d": "64%"
+     }
+    ],
+    "note": "Derived by this desk from the reported year-on-year percentages: a 22% fall implies about INR 5.46bn of loose-diamond sales a year ago, a 17% rise about INR 2.01bn of jewellery. Shares are of the two segment lines summed, which exceed consolidated revenue by INR 140m before eliminations.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/227"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Two halves, opposite ways.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "pull": {
+     "q": "It did not merely sell less; it kept less of what it sold.",
+     "attr": "The Diamonds Desk"
+    }
+   },
+   {
+    "sub": "Still falling quarter on quarter.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "p": 3
+   },
+   {
+    "p": 4
+   },
+   {
+    "also": {
+     "t": "111% more carats, 44% less per carat: Mountain Province's quarter",
+     "href": "a-one-eleven-up-forty-four-down.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "at 1.86% there is not much room to absorb another 22%"
+  },
+  "next": {
+   "lead": {
+    "slug": "two-cleared-two-held",
+    "tag": "Metals",
+    "blurb": "Two metals could be marked this morning and two could not."
+   },
+   "minis": [
+    {
+     "slug": "one-eleven-up-forty-four-down",
+     "tag": "Diamonds"
+    },
+    {
+     "slug": "fifty-thousand-and-no-number",
+     "tag": "Retail"
+    }
+   ]
+  }
+ },
+ "two-cleared-two-held": {
+  "strip": {
+   "cap": "By the numbers · the tape at 06:04 New York",
+   "cells": [
+    {
+     "fig": "$4,393.10",
+     "delta": "▼ −0.03%",
+     "dir": "down",
+     "lab": "gold, written back"
+    },
+    {
+     "fig": "$65.00",
+     "delta": "▼ −0.58%",
+     "dir": "down",
+     "lab": "silver, written back"
+    },
+    {
+     "fig": "$1,749.00",
+     "delta": "— held",
+     "dir": "flat",
+     "lab": "platinum, 17 Aug mark"
+    },
+    {
+     "fig": "$1,311.00",
+     "delta": "— held",
+     "dir": "flat",
+     "lab": "palladium, 17 Aug mark"
+    },
+    {
+     "fig": "1.46%",
+     "lab": "palladium's two-page gap"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Distance between two pages · same morning, same metal, %",
+    "rows": [
+     {
+      "l": "PALLADIUM",
+      "v": 146,
+      "d": "1.46%",
+      "hi": true
+     },
+     {
+      "l": "PLATINUM",
+      "v": 66,
+      "d": "0.66%"
+     },
+     {
+      "l": "SILVER",
+      "v": 19,
+      "d": "0.19%"
+     },
+     {
+      "l": "GOLD",
+      "v": 3,
+      "d": "0.027%"
+     }
+    ],
+    "note": "Kitco against TradingEconomics, both read by this desk at 06:04 New York on 18 August 2026. Gold and silver clear the two-page rule and are written to the tape; platinum and palladium do not and hold their 17 August marks.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/228"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Two written, two held.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "pull": {
+     "q": "Both sides are live and both sides still disagree.",
+     "attr": "The Gold & Metals Desk"
+    }
+   },
+   {
+    "sub": "A pattern, not a morning.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Four metals up, and a palladium mark three sessions old retired",
+     "href": "a-four-metals-four-write-backs.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "the discipline that produces the awkward answer is the same one that makes the clean answer worth anything"
+  },
+  "next": {
+   "lead": {
+    "slug": "fifty-thousand-and-no-number",
+    "tag": "Retail",
+    "blurb": "India's biggest show published its gate and not its till."
+   },
+   "minis": [
+    {
+     "slug": "one-eleven-up-forty-four-down",
+     "tag": "Diamonds"
+    },
+    {
+     "slug": "twenty-two-down-seventeen-up",
+     "tag": "Diamonds"
+    }
+   ]
+  }
+ },
+ "fifty-thousand-and-no-number": {
+  "strip": {
+   "cap": "By the numbers · IIJS Bharat Premiere, 5–10 August",
+   "cells": [
+    {
+     "fig": "50,000+",
+     "lab": "trade visitors"
+    },
+    {
+     "fig": "2,100",
+     "lab": "exhibitors"
+    },
+    {
+     "fig": "2,700",
+     "lab": "international buyers"
+    },
+    {
+     "fig": "80+",
+     "lab": "countries represented"
+    },
+    {
+     "fig": "0",
+     "lab": "business value published, 8 days on"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "What the show published · counts of people against counts of money",
+    "rows": [
+     {
+      "l": "TRADE VISITORS",
+      "v": 100,
+      "d": "50,000+",
+      "hi": true
+     },
+     {
+      "l": "EXHIBITORS",
+      "v": 100,
+      "d": "2,100"
+     },
+     {
+      "l": "INTERNATIONAL BUYERS",
+      "v": 100,
+      "d": "2,700"
+     },
+     {
+      "l": "BUSINESS VALUE",
+      "v": 0,
+      "d": "not published"
+     }
+    ],
+    "note": "Attendance figures as reported by IDEX on 10 August 2026. The final row records this desk's own search on 18 August across GJEPC channels and the trade press, which returned no aggregate turnover figure for the 42nd edition.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/229"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Every figure counts people.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "pull": {
+     "q": "The footfall is public and the order book is not.",
+     "attr": "The Retail & Technology Desk"
+    }
+   },
+   {
+    "sub": "The absence is the finding.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "India's big August show fills up early",
+     "href": "a-india-fills-the-hall.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "a trade show that reports its gate and not its till is publishing a marketing number"
+  },
+  "next": {
+   "lead": {
+    "slug": "one-eleven-up-forty-four-down",
+    "tag": "Diamonds",
+    "blurb": "Gahcho Kue sold 111% more carats for 44% less each."
+   },
+   "minis": [
+    {
+     "slug": "two-cleared-two-held",
+     "tag": "Metals"
+    },
+    {
+     "slug": "twenty-two-down-seventeen-up",
+     "tag": "Diamonds"
+    }
+   ]
+  }
  }
 }
