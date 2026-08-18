@@ -292,7 +292,7 @@ export default function LandingEngine() {
       const bars = [0.16, 0.28, 0.44, 0.62, 0.84];
       const bw = 0.075;
       const cx = isMobile ? 0 : 0.58;
-      const base = -0.92;
+      const base = isMobile ? -1.08 : -0.92;
       for (let i = 0; i < N; i++) {
         const b = i % bars.length;
         out[i * 2] = cx + ((b - 2) * (bw * 2.3)) / aspect + ((Math.random() - 0.5) * (bw * 1.1)) / aspect;
@@ -327,12 +327,12 @@ export default function LandingEngine() {
       shapes.safe = mistTargets();
       shapes.pricing = waveTargets();
       shapes.faq = mistTargets();
-      shapes.closing = chairShape(0, isMobile ? -0.05 : 0.12, isMobile ? 0.34 : 0.46);
+      shapes.closing = chairShape(0, isMobile ? 0.2 : 0.12, isMobile ? 0.3 : 0.46);
     }
     buildShapes();
 
     /* per-scene glow so the entity never fights the reading layer */
-    const DIMS: Record<string, number> = { hero: 1, call: 0.95, vow: 1, how: 0.8, math: 0.55, safe: 0.32, pricing: 0.5, faq: 0.3, closing: 1 };
+    const DIMS: Record<string, number> = { hero: 1, call: 0.95, vow: 1, how: 0.8, math: isMobile ? 0.32 : 0.55, safe: 0.32, pricing: 0.5, faq: 0.3, closing: 1 };
     let dimNow = 1;
     let dimTarget = 1;
 
