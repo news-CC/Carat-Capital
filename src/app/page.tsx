@@ -1,12 +1,10 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { SiteFooter } from "@/components/SiteFooter";
-import SalonPlate from "@/components/SalonPlate";
-import { SiteHeader } from "@/components/SiteHeader";
+import localFont from "next/font/local";
+import LandingEngine from "@/components/landing/LandingEngine";
 import { callWindow, publicEnv } from "@/lib/env";
 import {
   COMPANY,
-  COUNSEL_NOTE,
   CTA,
   FAQ,
   MATH_EXAMPLE,
@@ -20,6 +18,23 @@ import {
   planLink,
   type Plan,
 } from "@/lib/site";
+import "./landing.css";
+
+/* Self-hosted so the build never depends on a font CDN. */
+const archivo = localFont({
+  src: [
+    { path: "../fonts/Archivo-400-normal.woff2", weight: "400", style: "normal" },
+    { path: "../fonts/Archivo-500-normal.woff2", weight: "500", style: "normal" },
+    { path: "../fonts/Archivo-600-normal.woff2", weight: "600", style: "normal" },
+  ],
+  variable: "--font-archivo",
+  display: "swap",
+});
+const instrument = localFont({
+  src: [{ path: "../fonts/InstrumentSerif-400-italic.woff2", weight: "400", style: "italic" }],
+  variable: "--font-instrument",
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   // absolute: the root layout's "%s · Salon Malone" template must not double the name
@@ -35,6 +50,8 @@ const monthly = PLANS.slice(1);
 /** The real configured window, printed rather than claimed. */
 const CALL_HOURS = callWindow();
 const WINDOW_LABEL = `${formatClock(CALL_HOURS.start)} to ${formatClock(CALL_HOURS.end)}`;
+/** "9:00 AM" → "9AM" for the hero stat cell. */
+const shortClock = (hhmm: string) => formatClock(hhmm).replace(":00", "").replace(" ", "");
 
 const ORG_JSONLD = {
   "@context": "https://schema.org",
@@ -62,479 +79,497 @@ const ORG_JSONLD = {
   ],
 };
 
+/** Enforcement point for each safeguard, in SAFEGUARDS order. */
+const SAFE_TAGS = ["Gate at import", "Mid-call write", "In the claim query", "Fails closed", "Opening line", "Nothing else exists"];
+
+/** Funnel rows: the count rows of the worked example, widths relative to the first. */
+const FUNNEL_ROWS = MATH_EXAMPLE.rows.slice(0, 5).map((r, i, all) => {
+  const count = parseInt(r.value.replace(/[^0-9]/g, ""), 10);
+  const first = parseInt(all[0].value.replace(/[^0-9]/g, ""), 10);
+  return { label: `${r.label} — ${r.note}`, value: r.value, count, width: Math.max((count / first) * 100, 1.8), delay: i * 0.12 };
+});
+
 export default function HomePage() {
   return (
-    <div className="font-sans">
+    <div className={`landing-root ${archivo.variable} ${instrument.variable}`}>
       <script
         type="application/ld+json"
         // Static, hand-written object — no user input reaches this string.
         dangerouslySetInnerHTML={{ __html: JSON.stringify(ORG_JSONLD) }}
       />
 
-      <SiteHeader />
+      <LandingEngine />
 
-      {/* the one gradient in the product: cream settling into shell */}
-      <section className="bg-[linear-gradient(180deg,var(--color-cream)_0%,var(--color-shell)_100%)]">
-        <div className="mx-auto max-w-6xl px-6 pt-16 pb-24 sm:pt-24">
-          <div className="grid items-center gap-12 lg:grid-cols-[minmax(0,1.15fr)_minmax(0,0.85fr)] lg:gap-16">
-            <div>
-              <p className="eyebrow">Win-back campaigns for salons &amp; med spas</p>
-              <h1 className="h-display mt-6 text-[clamp(2.6rem,6.5vw,4.75rem)]">{SITE.headline}</h1>
-              <p className="prose-tight mt-8 text-[1.0625rem] sm:text-lg">{SITE.subhead}</p>
+      <nav className="lnav" aria-label="Main">
+        <div className="lnav-l">
+          <a className="lnav-link" href="#call">The call</a>
+          <a className="lnav-link" href="#how">How it runs</a>
+          <a className="lnav-link" href="#math">The math</a>
+        </div>
+        <a className="lbrand" href="#top">{SITE.name}</a>
+        <div className="lnav-r">
+          <a className="lnav-link" href="#pricing">Pricing</a>
+          <a className="lnav-link" href="#faq">FAQ</a>
+          <Link className="lnav-cta" href={CTA.startHref}>Start a campaign</Link>
+        </div>
+      </nav>
 
-              <div className="mt-10 flex flex-wrap items-center gap-3">
-                <Link className="btn btn-primary" href={CTA.startHref}>
-                  {CTA.startLabel}
-                </Link>
-                <a className="btn btn-ghost" href={callUrl}>
-                  {CTA.callLabel}
-                </a>
+      <main id="top">
+        {/* ================= HERO ================= */}
+        <section className="scene" id="hero" data-scene="hero">
+          <div className="scene-inner">
+            <div className="hero-stage lon">
+              <div className="hero-tl">
+                <h1 className="lcaps h-mega">
+                  <span className="rise"><span style={{ ["--d" as string]: ".15s" }}>Your dead</span></span>
+                  <span className="rise"><span style={{ ["--d" as string]: ".27s" }}>client list</span></span>
+                </h1>
               </div>
-              <p className="help mt-4">
-                Two minutes, no card.{" "}
-                <a className="link" href="#pricing">
-                  Already know what you want? Prices and checkout are below.
-                </a>
+              <div className="hero-br">
+                <p className="lcaps h-mega">
+                  <span className="rise"><span style={{ ["--d" as string]: ".42s" }}>is buried</span></span>
+                  <span className="rise"><span style={{ ["--d" as string]: ".54s" }}>money.</span></span>
+                </p>
+                <Link className="hero-cta lfade" style={{ ["--d" as string]: ".9s" }} href={CTA.startHref}>
+                  {CTA.startLabel} &nbsp;&rarr;
+                </Link>
+              </div>
+              <div className="hero-bl">
+                <p className="lmicro lfade" style={{ ["--d" as string]: ".75s" }}>
+                  A virtual concierge that phones the clients who quietly stopped booking — and says so out
+                  loud. You approve the offer before anything dials.
+                </p>
+                <div className="stats-strip lfade" style={{ ["--d" as string]: ".9s" }}>
+                  <div className="cell"><p className="num">90 sec</p><p className="lbl">Target call</p></div>
+                  <div className="cell"><p className="num">1</p><p className="lbl">Attempt, ever</p></div>
+                  <div className="cell">
+                    <p className="num">{shortClock(CALL_HOURS.start)}–{shortClock(CALL_HOURS.end)}</p>
+                    <p className="lbl">Local hours</p>
+                  </div>
+                </div>
+              </div>
+              <div className="scroll-cue lfade" style={{ ["--d" as string]: "1.3s" }}>
+                <span className="lmicro" style={{ letterSpacing: ".28em" }}>Scroll</span>
+                <span className="stem" />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* ================= THE CALL ================= */}
+        <section className="scene" id="call" data-scene="call">
+          <div className="scene-inner">
+            <div className="sec-right" data-reveal>
+              <p className="lmicro kick lfade"><span>The call</span><span className="tick" /></p>
+              <h2 className="lcaps h-big">
+                <span className="rise"><span>What Malone</span></span>
+                <span className="rise"><span style={{ ["--d" as string]: ".12s" }}>actually says</span></span>
+              </h2>
+              <p className="body-s sec-para lfade" style={{ ["--d" as string]: ".25s" }}>
+                It opens honest, makes one offer, names two concrete times, and takes the first yes. Ninety
+                seconds is the target — a warm no ends the call with no rebuttal.
               </p>
             </div>
 
-            {/* Decorative: the headline already says this, so it carries no information a
-                screen-reader user would miss. Hidden below lg — on a phone it would push the
-                offer and the button below the fold, which is the one thing that must not happen. */}
-            <SalonPlate className="hidden lg:block" />
+            <div className="call-grid">
+              <div className="transcript lglass" id="transcript" data-reveal>
+                <div className="tr-top">
+                  <div className="tr-id">
+                    <span className="tr-avatar lglass">m</span>
+                    <div>
+                      <p className="tr-name">{SITE.name}</p>
+                      <p className="tr-sub"><span className="live-dot" /> calling for {SAMPLE_CALL.salon}</p>
+                    </div>
+                  </div>
+                  <span className="tr-timer" id="call-timer">0:00</span>
+                </div>
+                <div className="chat" id="chat" aria-label="Example call script" />
+                <div className="tr-note">
+                  <span>Example script — not a recording. Salon, client and offer invented for this page.</span>
+                  <button className="replay lglass" id="replay" type="button" aria-label="Replay the example call">
+                    Replay
+                  </button>
+                </div>
+              </div>
+
+              <div className="branches" data-reveal>
+                {SAMPLE_CALL.branches.map((b, i) => (
+                  <div className="branch" key={b.when}>
+                    <p className="bw lfade">{b.when}</p>
+                    <p className="bq lfade" style={{ ["--d" as string]: ".1s" }}>&ldquo;{b.line}&rdquo;</p>
+                    <p className="body-s bt lfade" style={{ ["--d" as string]: ".18s" }}>{b.then}</p>
+                    <div className="ltags lfade" style={{ ["--d" as string]: ".26s" }}>
+                      {i === 0 && (<><span className="ltag lglass">No rebuttal</span><span className="ltag lglass">Never re-dialled</span></>)}
+                      {i === 1 && (<><span className="ltag lglass">Global do-not-call</span><span className="ltag lglass">Before the call ends</span></>)}
+                      {i === 2 && (<><span className="ltag lglass">15 seconds</span><span className="ltag lglass">No call back</span></>)}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
           </div>
+        </section>
 
-          <ul className="mt-14 grid gap-px border-y border-line bg-line sm:grid-cols-3">
-            {[
-              ["Consent-gated", "No consent flag on the row, no call. Enforced in code at import."],
-              ["One attempt, ever", "No retry queue, no drip, no second pass next month."],
-              [
-                "Opt-out is instant",
-                "“Stop calling” writes to a global do-not-call list before the call ends.",
-              ],
-            ].map(([title, body]) => (
-              <li key={title} className="bg-cream px-5 py-6">
-                <h2 className="font-display text-base">{title}</h2>
-                <p className="help mt-1.5">{body}</p>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </section>
-
-      {/* ---------- what it is ---------- */}
-      <Section id="what" eyebrow="What this is" title="A concierge for the chairs nobody booked.">
-        <div className="mt-8 grid gap-10 md:grid-cols-[1.15fr_1fr] md:items-start">
-          <div className="prose-tight">
-            <p>
-              Every salon has the same quiet asset: a few hundred people who used to come in and
-              then, with no argument and no goodbye, stopped. They are not leads. They know your
-              name, they liked the work, and life simply got in the way. Nobody calls them, because
-              calling them is a day of somebody&rsquo;s life.
-            </p>
-            <p>
-              <strong>Salon Malone makes those calls.</strong> It rings as your salon&rsquo;s virtual
-              concierge, says so out loud, makes the one offer you chose, and puts a specific day and
-              time on it. You get an email the second someone says yes, and a report every Friday
-              with what the week actually recovered.
-            </p>
-            <p>
-              It is one job done properly. There is no dashboard to learn, no chatbot on your
-              website, no texting product, and nothing for your clients to install.
-            </p>
+        {/* ================= INTERLUDE ================= */}
+        <section className="scene inter" id="vow" data-scene="vow">
+          <div className="scene-inner">
+            <div className="inter-stage" data-reveal>
+              <div className="inter-word wl"><p className="lcaps h-mega"><span className="rise"><span>Lapsed</span></span></p></div>
+              <div className="inter-word wr"><p className="lcaps h-mega"><span className="rise"><span style={{ ["--d" as string]: ".15s" }}>Rebooked</span></span></p></div>
+              <div className="inter-chips lfade" style={{ ["--d" as string]: ".3s" }}>
+                <span className="ltag lglass">Consent-gated</span>
+                <span className="ltag lglass">One attempt, ever</span>
+                <span className="ltag lglass">Local hours only</span>
+                <span className="ltag lglass">Opt-out instant</span>
+              </div>
+              <p className="lmicro inter-note lfade" style={{ ["--d" as string]: ".45s" }}>
+                Built so it cannot become a nuisance — the part that decides whether it is welcome is the
+                offer, and you write that with us.
+              </p>
+            </div>
           </div>
+        </section>
 
-          <div className="card card-pad">
-            <p className="eyebrow">What you actually get</p>
-            <ul className="mt-4 grid gap-2.5">
-              <FeatureItem>A written offer, agreed with you before anything dials</FeatureItem>
-              <FeatureItem>A scrub report: who was dropped, and why, per row</FeatureItem>
-              <FeatureItem>Calls inside your hours, in your salon&rsquo;s local time</FeatureItem>
-              <FeatureItem>A booking email the moment a slot is agreed</FeatureItem>
-              <FeatureItem>A Friday report: dialled, reached, booked, opted out</FeatureItem>
-              <FeatureItem>A global do-not-call list, managed for you</FeatureItem>
-            </ul>
-            <hr className="rule my-5" />
-            <p className="help">
-              Zero customers so far — this is a new product from {COMPANY.legalName}, and you would
-              be early. Everything on this page is either what the software does or arithmetic
-              labelled as an example.
-            </p>
-          </div>
-        </div>
-      </Section>
-
-      {/* ---------- how it works ---------- */}
-      <Section id="how" eyebrow="How it runs" title="Six steps, then it is quiet.">
-        <ol className="mt-12 grid gap-x-12 gap-y-10 sm:grid-cols-2">
-          {STEPS.map((s) => (
-            <li key={s.n} className="border-t border-line pt-5">
-              <span className="font-display text-2xl text-brass">{s.n}</span>
-              <h3 className="mt-2 text-xl">{s.title}</h3>
-              <p className="prose-tight mt-2 text-[0.9375rem]">{s.body}</p>
-            </li>
-          ))}
-        </ol>
-
-        <div className="mt-12 flex flex-wrap items-center gap-3">
-          <Link className="btn btn-primary" href={CTA.startHref}>
-            {CTA.startLabel}
-          </Link>
-          <a className="btn btn-ghost" href="#call">
-            First, hear what it says
-          </a>
-        </div>
-      </Section>
-
-      {/* ---------- what the call sounds like ---------- */}
-      <Section
-        id="call"
-        eyebrow="The call"
-        title="What Malone actually says."
-        lead="Ninety seconds is the target and three minutes is a hard ceiling. It opens honest, makes one offer, names two concrete times, and takes the first yes."
-      >
-        <div className="mt-10 grid gap-8 lg:grid-cols-[1.25fr_1fr] lg:items-start">
-          <div className="card overflow-hidden">
-            <div className="flex flex-wrap items-center justify-between gap-3 border-b border-line px-6 py-4">
-              <h3 className="text-lg">Example script</h3>
-              <span className="badge badge-mute">Example — not a recording</span>
+        {/* ================= HOW IT RUNS ================= */}
+        <section className="scene" id="how" data-scene="how">
+          <div className="scene-inner">
+            <div className="sec-right" data-reveal>
+              <p className="lmicro kick lfade"><span>How it runs</span><span className="tick" /></p>
+              <h2 className="lcaps h-big">
+                <span className="rise"><span>Six steps,</span></span>
+                <span className="rise"><span style={{ ["--d" as string]: ".12s" }}>then it is quiet</span></span>
+              </h2>
+              <p className="body-s sec-para lfade" style={{ ["--d" as string]: ".25s" }}>
+                Upload, scrub, dial, book, report. There is no dashboard to learn and nothing for your
+                clients to install.
+              </p>
             </div>
 
-            <div className="px-6 py-7">
-              {SAMPLE_CALL.lines.map((line, i) => (
-                <div key={i} className={line.agent ? "say say-agent" : "say"}>
-                  <p className="say-who">{line.who}</p>
-                  <p className="say-line">{line.text}</p>
+            <div className="lsteps" data-reveal>
+              {STEPS.map((s, i) => (
+                <div className="lstep lfade" style={{ ["--d" as string]: `${i * 0.08}s` }} key={s.n}>
+                  <p className="n">{s.n}</p>
+                  <h3>{s.title}</h3>
+                  <p>{s.body}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* ================= THE MATH ================= */}
+        <section className="scene" id="math" data-scene="math">
+          <div className="scene-inner">
+            <div className="sec-left" data-reveal>
+              <p className="lmicro kick lfade"><span>The arithmetic</span><span className="tick" /></p>
+              <h2 className="lcaps h-big">
+                <span className="rise"><span>Empty chairs,</span></span>
+                <span className="rise"><span style={{ ["--d" as string]: ".12s" }}>priced honestly</span></span>
+              </h2>
+              <p className="body-s sec-para lfade" style={{ ["--d" as string]: ".25s" }}>{MATH_EXAMPLE.premise}</p>
+            </div>
+
+            <div className="funnel" id="funnel" data-reveal>
+              {FUNNEL_ROWS.map((r) => (
+                <div className="frow" key={r.label}>
+                  <p className="fl">{r.label}</p>
+                  <div className="track">
+                    <div className="bar" data-w={r.width.toFixed(1)} style={{ ["--d" as string]: `${r.delay}s` }} />
+                  </div>
+                  <p className="fn" data-count={r.count}>{r.value}</p>
                 </div>
               ))}
             </div>
 
-            <p className="help border-t border-line bg-cream px-6 py-4">{SAMPLE_CALL.disclaimer}</p>
-          </div>
-
-          <div className="grid gap-4">
-            {SAMPLE_CALL.branches.map((b) => (
-              <div key={b.when} className="card card-pad">
-                <p className="eyebrow">{b.when}</p>
-                <p className="mt-3 font-display text-[1.0625rem] leading-snug text-ink">
-                  &ldquo;{b.line}&rdquo;
+            <div className="math-results" data-reveal>
+              <div className="result lglass lfade">
+                <p className="rn">$3,720</p>
+                <p className="body-s rl">
+                  Booked visits at your ticket — 31&nbsp;&times;&nbsp;$120. This is the number our Friday
+                  email reports; $3,000 is the same month if only 25 of them show.
                 </p>
-                <p className="help mt-2.5">{b.then}</p>
               </div>
-            ))}
-          </div>
-        </div>
-      </Section>
-
-      {/* ---------- mid-page conversion band ---------- */}
-      <section className="border-t border-line bg-shell">
-        <div className="mx-auto flex max-w-6xl flex-col gap-8 px-6 py-16 md:flex-row md:items-center md:justify-between">
-          <div className="max-w-xl">
-            <p className="eyebrow">Before your clients hear it</p>
-            <h2 className="h-display mt-4 text-[clamp(1.7rem,4vw,2.5rem)]">
-              The first call any account makes is to you.
-            </h2>
-            <p className="prose-tight mt-4 text-[0.9375rem]">
-              One row, your own mobile, your salon name, your offer. Pick up and hear exactly what
-              your clients would hear, then read the booking email it sends you. Nothing else is
-              dialled until you say go.
-            </p>
-          </div>
-          <div className="flex shrink-0 flex-wrap gap-3">
-            <Link className="btn btn-primary" href={CTA.startHref}>
-              {CTA.startLabel}
-            </Link>
-            <a className="btn btn-ghost" href={callUrl}>
-              {CTA.callLabel}
-            </a>
-          </div>
-        </div>
-      </section>
-
-      {/* ---------- the arithmetic ---------- */}
-      <Section
-        id="math"
-        eyebrow="The arithmetic"
-        title="Empty chairs, priced honestly."
-        lead={MATH_EXAMPLE.premise}
-      >
-        <div className="card mt-10 overflow-hidden">
-          <div className="flex items-center justify-between gap-4 border-b border-line px-6 py-4">
-            <h3 className="text-lg">Worked example</h3>
-            <span className="badge badge-mute">Illustrative — not a customer result</span>
-          </div>
-          <div className="overflow-x-auto px-3 py-4 sm:px-6">
-            <table className="table">
-              <thead>
-                <tr>
-                  <th>Step</th>
-                  <th className="text-right">Count</th>
-                  <th>Assumption</th>
-                </tr>
-              </thead>
-              <tbody>
-                {MATH_EXAMPLE.rows.map((r, i) => {
-                  const last = i === MATH_EXAMPLE.rows.length - 1;
-                  return (
-                    <tr key={r.label}>
-                      <td className={last ? "text-ink" : undefined}>{r.label}</td>
-                      <td
-                        className={`text-right font-display text-lg tabular-nums ${
-                          last ? "text-brass-deep" : "text-ink"
-                        }`}
-                      >
-                        {r.value}
-                      </td>
-                      <td className="text-ink-mute">{r.note}</td>
-                    </tr>
-                  );
-                })}
-              </tbody>
-            </table>
-          </div>
-          <p className="help border-t border-line bg-cream px-6 py-4">{MATH_EXAMPLE.footnote}</p>
-        </div>
-
-        <div className="mt-10 grid gap-6 sm:grid-cols-2">
-          <div className="card card-pad">
-            <p className="eyebrow">The moment it happens</p>
-            <h3 className="mt-3 text-xl">A booking email</h3>
-            <p className="prose-tight mt-2 text-[0.9375rem]">
-              Name, number, the exact slot they asked for, and a two-line summary of the call. Sent
-              the second the booking is captured, so the front desk can confirm it while the chair is
-              still open.
-            </p>
-          </div>
-          <div className="card card-pad">
-            <p className="eyebrow">Every Friday</p>
-            <h3 className="mt-3 text-xl">The recovered-revenue report</h3>
-            <p className="prose-tight mt-2 text-[0.9375rem]">
-              Dialled, reached, booked, declined, opted out, and recovered revenue at your average
-              ticket. One page. No dashboard to log into, no chart to interpret.
-            </p>
-          </div>
-        </div>
-      </Section>
-
-      {/* ---------- pricing ---------- */}
-      <Section id="pricing" eyebrow="Pricing" title="Start small. The list will tell you the rest.">
-        <div className="callout callout-tint mt-8 max-w-3xl">
-          <span className="callout-title">Not sure which one yet?</span>
-          <p>
-            You do not have to guess.{" "}
-            <Link className="link" href={CTA.startHref}>
-              Start your campaign
-            </Link>{" "}
-            and the form reads your list size and your ticket back to you with the plan that fits
-            and why it fits — no card, and the other three stay one click away. Checkout below is
-            the shortcut for people who already know.
-          </p>
-        </div>
-
-        <div className="card mt-8 flex flex-col gap-8 border-brass/40 p-6 sm:p-8 md:flex-row md:items-center">
-          <div className="md:flex-1">
-            <div className="flex flex-wrap items-baseline gap-3">
-              <h3 className="font-display text-2xl">{pilot.name}</h3>
-              <span className="badge badge-warn">Start here</span>
+              <div className="result lglass lfade" style={{ ["--d" as string]: ".12s" }}>
+                <p className="rn">$399</p>
+                <p className="body-s rl">
+                  The month of the Salon plan that made the calls. Your list, your offer and your show rate
+                  move every line — up or down.
+                </p>
+              </div>
             </div>
-            <p className="prose-tight mt-3 text-[0.9375rem]">{pilot.blurb}</p>
-            <ul className="mt-4 grid gap-1.5 sm:grid-cols-2">
-              {pilot.features.map((f) => (
-                <FeatureItem key={f}>{f}</FeatureItem>
+
+            <div data-reveal>
+              <span className="ltag lglass badge-line lfade">Illustrative — not a customer result</span>
+              <p className="lfootnote lfade" style={{ ["--d" as string]: ".1s" }}>
+                Two numbers on purpose: no-shows count in ours, so your book is the last word. We report the
+                real figures every Friday — dialled, reached, booked, opted out — not this example.
+              </p>
+            </div>
+
+            <div className="after" data-reveal>
+              <div className="after-item lfade">
+                <p className="aw">The moment it happens</p>
+                <h3 className="lcaps">A booking email</h3>
+                <p className="body-s">
+                  Name, number, the exact slot they asked for, and a two-line summary of the call — sent the
+                  second the booking is captured.
+                </p>
+              </div>
+              <div className="after-item lfade" style={{ ["--d" as string]: ".12s" }}>
+                <p className="aw">Every Friday</p>
+                <h3 className="lcaps">The recovered-revenue report</h3>
+                <p className="body-s">
+                  One page: dialled, reached, booked, declined, opted out, and recovered revenue at your
+                  average ticket. No dashboard to log into.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* ================= SAFEGUARDS ================= */}
+        <section className="scene" id="safe" data-scene="safe">
+          <div className="scene-inner">
+            <div className="sec-left" data-reveal>
+              <p className="lmicro kick lfade"><span>Legal &amp; safe</span><span className="tick" /></p>
+              <h2 className="lcaps h-big">
+                <span className="rise"><span>The rules are</span></span>
+                <span className="rise"><span style={{ ["--d" as string]: ".12s" }}>in the code</span></span>
+              </h2>
+              <p className="body-s sec-para lfade" style={{ ["--d" as string]: ".25s" }}>
+                Six things the system will not do — each one enforced where the call is actually placed. The
+                calling window running today is {WINDOW_LABEL}, read in your salon&rsquo;s own timezone — and
+                it is yours to narrow.
+              </p>
+            </div>
+
+            <div className="safes" data-reveal>
+              {SAFEGUARDS.map((s, i) => (
+                <div className="safe lfade" style={{ ["--d" as string]: `${i * 0.08}s` }} key={s.title}>
+                  <div className="s-top">
+                    <h3>{s.title}</h3>
+                    <span className="ltag lglass">{SAFE_TAGS[i]}</span>
+                  </div>
+                  <p className="body-s">{s.body}</p>
+                </div>
               ))}
-            </ul>
-          </div>
-          <div className="shrink-0 md:w-56 md:border-l md:border-line md:pl-8">
-            <p className="font-display text-4xl leading-none">{pilot.priceLabel}</p>
-            <p className="stat-label mt-2">{pilot.cadence}</p>
-            <div className="mt-5">
-              <PlanCta plan={pilot} />
+            </div>
+
+            <div className="counsel lglass" data-reveal>
+              <p className="ct lfade">Read this part twice</p>
+              <p className="body-s lfade" style={{ ["--d" as string]: ".1s" }}>
+                We are engineers, not your lawyers. Outbound calling is regulated — TCPA in the US and its
+                state analogues — and what counts as valid consent for a voice call is not obvious from a
+                spreadsheet column named &ldquo;consent&rdquo;. The gates above are how we built the system;
+                they are not legal advice. Have your own counsel review the consent language your clients
+                agreed to before the first list is dialled.
+              </p>
+              <p className="body-s lfade" style={{ ["--d" as string]: ".18s" }}>
+                <Link href="/terms">Terms of service</Link> &nbsp;&middot;&nbsp;{" "}
+                <Link href="/privacy">What we do with your list</Link>
+              </p>
             </div>
           </div>
-        </div>
+        </section>
 
-        <div className="mt-6 grid gap-6 md:grid-cols-3">
-          {monthly.map((p) => (
-            <div
-              key={p.id}
-              className={`card card-pad flex flex-col ${p.highlight ? "border-brass/50" : ""}`}
-            >
-              <div className="flex items-baseline justify-between gap-3">
-                <h3 className="font-display text-xl">{p.name}</h3>
-                {/* honest recommendation, not a popularity statistic — no invented social proof */}
-                {p.highlight ? <span className="badge badge-ok">Our default</span> : null}
+        {/* ================= PRICING ================= */}
+        <section className="scene" id="pricing" data-scene="pricing">
+          <div className="scene-inner">
+            <div className="sec-right" data-reveal>
+              <p className="lmicro kick lfade"><span>Pricing</span><span className="tick" /></p>
+              <h2 className="lcaps h-big">
+                <span className="rise"><span>Start small.</span></span>
+                <span className="rise"><span style={{ ["--d" as string]: ".12s" }}>The list decides</span></span>
+              </h2>
+              <p className="body-s sec-para lfade" style={{ ["--d" as string]: ".25s" }}>
+                Flat prices, no per-minute billing, no per-lead invoices. Monthly plans are month to month —
+                cancel and the calling stops that day.
+              </p>
+            </div>
+
+            <div className="pilot" data-reveal>
+              <div className="pilot-main lfade">
+                <p className="pk">Start here — {pilot.cadence}</p>
+                <h3>{pilot.name}</h3>
+                <p className="pb">{pilot.blurb}</p>
+                <ul>
+                  {pilot.features.map((f) => (
+                    <li key={f}>{f}</li>
+                  ))}
+                </ul>
               </div>
-              <p className="mt-4 font-display text-3xl leading-none">{p.priceLabel}</p>
-              <p className="stat-label mt-2">{p.cadence}</p>
-              <p className="help mt-4">{p.blurb}</p>
-              <ul className="mt-5 grid flex-1 gap-1.5">
-                {p.features.map((f) => (
-                  <FeatureItem key={f}>{f}</FeatureItem>
-                ))}
-              </ul>
-              <div className="mt-6">
-                <PlanCta plan={p} />
+              <div className="pilot-side lfade" style={{ ["--d" as string]: ".12s" }}>
+                <p className="price">{pilot.priceLabel}</p>
+                <p className="cad">{pilot.cadence}</p>
+                <PilotCta plan={pilot} />
               </div>
             </div>
-          ))}
-        </div>
 
-        <p className="help mt-6 max-w-3xl">
-          Monthly plans are month to month — cancel and the calling stops that day. The pilot is one
-          payment with no auto-renew. Voice and email only; there is no SMS product to buy. Prefer to
-          talk it through first?{" "}
-          <a className="link" href={callUrl}>
-            Book a 15-minute call
-          </a>
-          .
-        </p>
-      </Section>
-
-      {/* ---------- legal / safe ---------- */}
-      <Section
-        id="safe"
-        eyebrow={"Legal & safe"}
-        title="The rules are in the code, not in a policy document."
-        lead={`Six things the system will not do, each enforced where the call is actually placed. The calling window running today is ${WINDOW_LABEL}, read in your salon’s own timezone — and it is yours to narrow.`}
-      >
-        <ul className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-          {SAFEGUARDS.map((s) => (
-            <li key={s.title} className="card card-pad">
-              <h3 className="text-lg">{s.title}</h3>
-              <p className="help mt-2.5">{s.body}</p>
-            </li>
-          ))}
-        </ul>
-
-        <div className="callout mt-8 max-w-3xl">
-          <span className="callout-title">Read this part twice</span>
-          <p>{COUNSEL_NOTE}</p>
-          <p>
-            <Link className="link" href="/terms">
-              Terms of service
-            </Link>{" "}
-            ·{" "}
-            <Link className="link" href="/privacy">
-              What we do with your list
-            </Link>
-          </p>
-        </div>
-      </Section>
-
-      {/* ---------- objections ---------- */}
-      <Section id="faq" eyebrow="Straight answers" title="The questions that actually decide it.">
-        <dl className="mt-10 max-w-3xl">
-          {FAQ.map((item) => (
-            <div key={item.q} className="border-t border-line py-6">
-              <dt className="font-display text-xl">{item.q}</dt>
-              <dd className="prose-tight mt-2 text-[0.9375rem]">{item.a}</dd>
+            <div className="lplans" data-reveal>
+              {monthly.map((p, i) => (
+                <div className="lplan lglass lfade" style={{ ["--d" as string]: `${i * 0.1}s` }} key={p.id}>
+                  <div className="p-top">
+                    <h3 className="lcaps">{p.name}</h3>
+                    {p.highlight ? <span className="chip-flag lglass">Our default</span> : null}
+                  </div>
+                  <p className="price">{p.priceLabel}</p>
+                  <p className="cad">{p.cadence}</p>
+                  <p className="body-s pb">{p.blurb}</p>
+                  <ul>
+                    {p.features.map((f) => (
+                      <li key={f}>{f}</li>
+                    ))}
+                  </ul>
+                  <PlanCta plan={p} />
+                </div>
+              ))}
             </div>
-          ))}
-        </dl>
-        <p className="help mt-8 max-w-3xl">
-          Something not answered here? Write to{" "}
-          <a className="link" href={`mailto:${COMPANY.supportEmail}`}>
-            {COMPANY.supportEmail}
-          </a>{" "}
-          and a person replies.
-        </p>
-      </Section>
 
-      {/* ---------- closing band ---------- */}
-      <section className="border-t border-line bg-shell">
-        <div className="mx-auto flex max-w-6xl flex-col gap-8 px-6 py-20 md:flex-row md:items-end md:justify-between">
-          <div>
-            <p className="eyebrow">What happens next</p>
-            <h2 className="h-display mt-4 max-w-xl text-[clamp(1.9rem,4.5vw,3rem)]">
-              Bring the list. We&rsquo;ll tell you what is in it.
-            </h2>
-            <p className="prose-tight mt-4 max-w-md text-[0.9375rem]">
-              Answer a few questions about your salon, the clients who drifted, and the offer you
-              want Malone to make. The plan that fits comes back straight away; we come back on the
-              offer itself, and on whether a win-back campaign is worth running for your chairs.
+            <p className="body-s pricing-note" data-reveal>
+              <span className="lfade">
+                Not sure which one? <Link href={CTA.startHref}>Start with the questions</Link> — the form
+                reads your list size and your ticket back to you with the plan that fits, no card required.
+                Or <a href={callUrl}>book a 15-minute call</a> and talk it through first.
+              </span>
             </p>
           </div>
-          <div className="flex shrink-0 flex-col items-start gap-3">
-            <Link className="btn btn-primary" href={CTA.startHref}>
-              {CTA.startLabel}
-            </Link>
-            <a className="btn btn-ghost" href={callUrl}>
-              {CTA.callLabel}
-            </a>
-            <a className="help link" href={`mailto:${COMPANY.supportEmail}`}>
-              Or just email us: {COMPANY.supportEmail}
-            </a>
+        </section>
+
+        {/* ================= FAQ ================= */}
+        <section className="scene" id="faq" data-scene="faq">
+          <div className="scene-inner">
+            <div className="sec-left" data-reveal>
+              <p className="lmicro kick lfade"><span>Straight answers</span><span className="tick" /></p>
+              <h2 className="lcaps h-big">
+                <span className="rise"><span>The questions that</span></span>
+                <span className="rise"><span style={{ ["--d" as string]: ".12s" }}>actually decide it</span></span>
+              </h2>
+            </div>
+
+            <div className="lfaq" data-reveal>
+              {FAQ.map((item, i) => (
+                <details className="lfade" style={{ ["--d" as string]: `${i * 0.05}s` }} key={item.q}>
+                  <summary>
+                    {item.q} <span className="plus">+</span>
+                  </summary>
+                  <p className="ans body-s">{item.a}</p>
+                </details>
+              ))}
+            </div>
+            <p className="body-s faq-more" data-reveal>
+              <span className="lfade">
+                Something not answered here? Write to{" "}
+                <a href={`mailto:${SITE.contactEmail}`}>{SITE.contactEmail}</a> and a person replies.
+              </span>
+            </p>
+          </div>
+        </section>
+
+        {/* ================= CLOSING ================= */}
+        <section className="scene lclosing" id="start" data-scene="closing">
+          <div className="scene-inner">
+            <div className="closing-stage" data-reveal>
+              <p className="lmicro lfade">What happens next</p>
+              <h2 className="lcaps h-mega blurcaps" id="closing-title" style={{ marginTop: "1.1rem" }}>
+                Bring the list
+              </h2>
+              <div className="closing-cols">
+                <p className="body-s lfade" style={{ ["--d" as string]: ".35s" }}>
+                  Answer a few questions about your salon, the clients who drifted, and the offer you want
+                  Malone to make. The plan that fits comes back straight away.
+                </p>
+                <p className="body-s col-r lfade" style={{ ["--d" as string]: ".45s" }}>
+                  We come back on the offer itself — and on whether a win-back campaign is worth running for
+                  your chairs at all.
+                </p>
+              </div>
+              <form className="contact lglass lfade" style={{ ["--d" as string]: ".6s" }} id="contact-form" aria-label="Start a campaign">
+                <input type="text" name="name" id="cf-name" placeholder="Name" autoComplete="name" aria-label="Your name" />
+                <span className="divider" />
+                <input type="email" name="email" id="cf-email" placeholder="Email" autoComplete="email" aria-label="Your email" />
+                <button className="btn-white" type="submit">Start a campaign &nbsp;&rarr;</button>
+              </form>
+              <p className="body-s closing-alt lfade" style={{ ["--d" as string]: ".75s" }}>
+                Prefer to talk first? <a href={callUrl}>Book a 15-minute call</a> &nbsp;&middot;&nbsp;{" "}
+                <a href={`mailto:${SITE.contactEmail}`}>Or just email us</a>
+              </p>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer className="lfooter">
+        <div className="foot-wrap">
+          <div>
+            <p className="foot-brand">{SITE.name}</p>
+            <p style={{ marginTop: ".7rem", maxWidth: "36ch" }}>
+              Win-back campaigns for salons and med spas. A new product from {COMPANY.legalName} — zero
+              customers so far, and you would be early. Everything on this page is what the software does,
+              or arithmetic labelled as an example.
+            </p>
+          </div>
+          <div>
+            <p className="foot-h">The promise</p>
+            <p style={{ maxWidth: "38ch" }}>{SITE.complianceLine}</p>
+          </div>
+          <div>
+            <p className="foot-h">{COMPANY.legalName}</p>
+            <p>
+              {COMPANY.addressStreet}
+              <br />
+              {COMPANY.addressLocality}, {COMPANY.addressRegion} {COMPANY.postalCode}, {COMPANY.addressCountry}
+            </p>
+            <p style={{ marginTop: ".55rem" }}>
+              Malone calls from <a href={COMPANY.outboundPhoneHref}>{COMPANY.outboundPhone}</a> — printed
+              here so anyone who gets a call can check it.
+            </p>
           </div>
         </div>
-      </section>
-
-      <SiteFooter />
+        <div className="foot-legal">
+          <span>
+            &copy; {new Date().getFullYear()} {COMPANY.legalName} &middot; {SITE.domain}
+          </span>
+          <span>
+            <Link href="/terms">Terms</Link> &nbsp;&middot;&nbsp; <Link href="/privacy">Privacy</Link>
+          </span>
+        </div>
+      </footer>
     </div>
-  );
-}
-
-function Section({
-  id,
-  eyebrow,
-  title,
-  lead,
-  children,
-}: {
-  id: string;
-  eyebrow: string;
-  title: string;
-  lead?: string;
-  children: React.ReactNode;
-}) {
-  return (
-    <section id={id} className="anchor-target border-t border-line">
-      <div className="mx-auto max-w-6xl px-6 py-20 sm:py-24">
-        <p className="eyebrow">{eyebrow}</p>
-        <h2 className="h-display mt-4 max-w-2xl text-[clamp(1.9rem,4.5vw,3rem)]">{title}</h2>
-        {lead ? <p className="prose-tight mt-5">{lead}</p> : null}
-        {children}
-      </div>
-    </section>
-  );
-}
-
-function FeatureItem({ children }: { children: React.ReactNode }) {
-  return (
-    <li className="flex gap-2.5 text-[0.875rem] leading-relaxed text-ink-soft">
-      <span aria-hidden className="mt-2 h-px w-3 shrink-0 bg-brass" />
-      <span>{children}</span>
-    </li>
   );
 }
 
 /**
- * Checkout is the express lane, so it is the button. A plan whose payment link is not live
- * falls back to /start rather than a dead '#': the conversion path must never end in nothing.
+ * Checkout is the express lane. A plan whose payment link is not live falls back
+ * to /start rather than a dead '#': the conversion path must never end in nothing.
  */
 function PlanCta({ plan }: { plan: Plan }) {
   const href = planLink(plan);
-
   if (href === "#") {
     return (
-      <div className="grid gap-2">
-        <Link className="btn btn-primary w-full" href={CTA.startHref}>
-          {CTA.startLabelShort}
-        </Link>
-        <span className="help">Checkout for this plan opens shortly — we send the link.</span>
-      </div>
+      <Link className="choose" href={CTA.startHref}>
+        Choose {plan.name} &rarr;
+      </Link>
     );
   }
-
-  const label = plan.id === "pilot" ? `Start the ${plan.priceLabel} pilot` : `Choose ${plan.name}`;
-
   return (
-    <div className="grid gap-2">
-      <a className="btn btn-primary w-full" href={href}>
-        {label}
-      </a>
-      <Link className="help link text-center" href={CTA.startHref}>
-        or start with the questions
+    <a className="choose" href={href}>
+      Choose {plan.name} &rarr;
+    </a>
+  );
+}
+
+function PilotCta({ plan }: { plan: Plan }) {
+  const href = planLink(plan);
+  if (href === "#") {
+    return (
+      <Link className="btn-ink" href={CTA.startHref}>
+        Start the pilot &nbsp;&rarr;
       </Link>
-    </div>
+    );
+  }
+  return (
+    <a className="btn-ink" href={href}>
+      Start the {plan.priceLabel} pilot &nbsp;&rarr;
+    </a>
   );
 }
