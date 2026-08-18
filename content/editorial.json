@@ -13078,11 +13078,11 @@
  },
  "sothebys-thirty-one-million": {
   "spec": {
-   "cap": "The board · top lots",
+   "cap": "The board · top lots, 13 June 2025",
    "rows": [
     {
      "l": "Sale total",
-     "v": "<b>$31.4M</b> · 95% sold"
+     "v": "<b>$31.4M</b> · 95% sold · 13 Jun 2025"
     },
     {
      "l": "Graff ring",
@@ -13109,7 +13109,7 @@
   "figs": [
    {
     "no": "Plate I",
-    "title": "The night's top lots · US$ millions",
+    "title": "The night's top lots · US$ millions · 13 June 2025",
     "rows": [
      {
       "l": "GRAFF 35-CT D",
@@ -13138,7 +13138,7 @@
       "d": "$1.4M"
      }
     ],
-    "note": "Sotheby's New York High Jewelry · 13 June",
+    "note": "Sotheby's New York High Jewelry · 13 June 2025",
     "cap": "What money still chases: the night's top five. Carat Capital graphics desk. &nbsp;CC/2026/109"
    }
   ],
@@ -13178,6 +13178,9 @@
      "t": "Piaget doubles at Bonhams: another signed name outruns the market",
      "href": "a-piaget-doubles-at-bonhams.html"
     }
+   },
+   {
+    "p": 4
    }
   ],
   "desk": {
@@ -28470,8 +28473,8 @@
      "lab": "totals published for any of the three"
     },
     {
-     "fig": "$31.4m",
-     "lab": "published within weeks for the June trophy night"
+     "fig": "$43.4m",
+     "lab": "published next day for the June trophy night"
     }
    ]
   },
@@ -28497,12 +28500,12 @@
       "d": "4 days"
      },
      {
-      "l": "HIGH JEWELRY NY, 13 JUN",
+      "l": "HIGH JEWELRY NY, 16 JUN 2026",
       "v": 0,
       "d": "total published"
      }
     ],
-    "note": "Counted by this desk from each sale's closing date to 17 August 2026 against Sotheby's own results index, read the same day. The High Jewelry row is shown at zero because its total, $31.4m at 95% sold, was public and in the trade press well before this paper printed it on 24 July.",
+    "note": "Counted by this desk from each sale's closing date to 17 August 2026 against Sotheby's own results index, read the same day. The High Jewelry row is shown at zero because its total, $43.4m at 98% sold, was public and in the trade press on 17 June 2026, the day after the sale.",
     "cap": "Carat Capital graphics desk. &nbsp;CC/2026/225"
    }
   ],
@@ -28542,6 +28545,9 @@
      "t": "Eleven lots, zero premium: Sotheby's quiet monthly experiment",
      "href": "a-eleven-lots-no-premium.html"
     }
+   },
+   {
+    "p": 4
    }
   ],
   "desk": {
