@@ -265,8 +265,8 @@ body.menu-open{overflow:hidden}
 
 /* ══════ SECTION FURNITURE ══════ */
 section{position:relative;z-index:1}
-.band{padding:clamp(64px,11vh,132px) 0}
-.shead{display:flex;align-items:flex-end;gap:18px;margin-bottom:clamp(26px,5vh,54px);flex-wrap:wrap}
+.band{padding:clamp(38px,6vh,72px) 0}
+.shead{display:flex;align-items:flex-end;gap:18px;margin-bottom:clamp(16px,2.8vh,32px);flex-wrap:wrap}
 .shead .n{flex:none;padding-bottom:4px;line-height:0}
 .shead .n svg{width:34px;height:34px;color:var(--acc);opacity:.9;
   animation:markdraw .9s var(--glide) both}
@@ -277,7 +277,7 @@ section{position:relative;z-index:1}
   color:var(--fg3);padding-bottom:8px;text-align:right}
 .lede{font-size:clamp(16px,1.9vw,20px);color:var(--fg2);max-width:62ch}
 /* engraved rule — a guilloche hairline */
-.erule{height:14px;margin:clamp(40px,7vh,80px) 0;opacity:.8;
+.erule{height:14px;margin:clamp(16px,2.6vh,30px) 0;opacity:.8;
   background:repeating-linear-gradient(90deg,var(--acc) 0 1px,transparent 1px 9px);
   -webkit-mask:linear-gradient(90deg,transparent,#000 12%,#000 88%,transparent);
           mask:linear-gradient(90deg,transparent,#000 12%,#000 88%,transparent);opacity:.35}
@@ -288,7 +288,7 @@ section{position:relative;z-index:1}
 .rv-4{transition-delay:.28s}.rv-5{transition-delay:.35s}.rv-6{transition-delay:.42s}
 
 /* ══════ 00 · HERO ══════ */
-#hero{position:relative;min-height:100svh;display:grid;grid-template-rows:1fr auto;padding-top:66px;overflow:hidden}
+#hero{position:relative;min-height:94svh;display:grid;grid-template-rows:1fr auto;padding-top:66px;overflow:hidden}
 #gemwrap{position:relative;width:min(38vmin,340px);height:min(38vmin,340px);margin:0 auto;
   z-index:1;pointer-events:none;filter:drop-shadow(0 30px 76px rgba(0,0,0,.85));
   animation:gemin 1.5s var(--glide) both .45s}
@@ -396,17 +396,16 @@ h1.mast .l{display:inline-block;opacity:0;transform:translateY(.36em) rotate(3de
 .blab{font-family:var(--mono);font-size:9px;letter-spacing:.22em;text-transform:uppercase;color:var(--fg3)}
 .metals{display:flex;gap:4px}
 .metals button{font-family:var(--mono);font-size:9px;letter-spacing:.16em;text-transform:uppercase;
-  padding:6px 13px;color:var(--fg3);border:1px solid var(--line);background:transparent;
-  clip-path:polygon(6px 0,100% 0,100% calc(100% - 6px),calc(100% - 6px) 100%,0 100%,0 6px);
+  padding:6px 14px;color:var(--fg3);border:1px solid var(--line);background:transparent;
+  border-radius:999px;
   transition:background .18s var(--mech),color .18s var(--mech)}
-.metals button.on{background:var(--acc);color:#07080C}
+.metals button.on{background:var(--acc);color:#0B0E14;border-color:var(--acc)}
 .karats{display:flex;gap:5px;margin-top:7px;flex-wrap:wrap}
-.karats button{font-family:var(--mono);font-size:9px;letter-spacing:.12em;padding:6px 10px;
-  color:var(--acc);border:1px solid var(--line);background:transparent;
-  clip-path:polygon(6px 0,100% 0,100% calc(100% - 6px),calc(100% - 6px) 100%,0 100%,0 6px);
+.karats button{font-family:var(--mono);font-size:9px;letter-spacing:.12em;padding:6px 11px;
+  color:var(--acc);border:1px solid var(--line);background:transparent;border-radius:9px;
   transition:background .18s var(--mech),color .18s var(--mech),border-color .25s}
 .karats button:hover{border-color:var(--line-hi)}
-.karats button.on{background:rgba(198,162,74,.20);border-color:var(--line-hi);color:var(--gilt-l)}
+.karats button.on{background:var(--acc);border-color:var(--acc);color:#0B0E14}
 .grow{display:flex;align-items:flex-end;gap:11px;margin-top:7px;flex-wrap:wrap}
 .grow input{font-family:var(--mono);font-size:18px;font-variant-numeric:tabular-nums;width:82px;
   background:transparent;border:0;border-bottom:1px solid var(--line);color:var(--fg);padding:3px 0}
@@ -763,16 +762,6 @@ h1.mast .l{display:inline-block;opacity:0;transform:translateY(.36em) rotate(3de
 .cstats .sk{font-family:var(--mono);font-size:7px;letter-spacing:.18em;text-transform:uppercase;
   color:var(--fg3);margin-top:4px}
 @media(max-width:560px){.cstats{grid-template-columns:repeat(3,1fr)}}
-.cmem{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px}
-.cmem .lbl{flex-basis:100%;font-family:var(--mono);font-size:8px;letter-spacing:.22em;
-  text-transform:uppercase;color:var(--acc);margin-bottom:1px}
-.cmem a{display:inline-flex;align-items:center;gap:6px;font-family:var(--mono);font-size:8.5px;
-  letter-spacing:.08em;padding:5px 9px;border:1px solid var(--line);border-radius:999px;
-  color:var(--fg2);transition:border-color .25s,color .25s,background .25s}
-.cmem a:hover{color:var(--fg);border-color:var(--line-hi);background:rgba(142,146,152,.09)}
-.cmem a i{width:5px;height:5px;border-radius:50%;flex:none}
-.cmem a i.up{background:var(--ok)}.cmem a i.dn{background:var(--dn)}
-.cmem a em{font-style:normal;color:var(--fg3)}
 .ptable{border:1px solid var(--line);border-radius:var(--r);overflow:hidden;background:var(--plate)}
 .ptable .r{display:flex;align-items:center;gap:12px;padding:14px 18px;border-bottom:1px solid var(--line);
   transition:background .3s,padding-left .35s var(--glide)}
@@ -1110,7 +1099,6 @@ footer{border-top:1px solid var(--line);padding:56px 0 76px;margin-top:clamp(50p
         <figcaption class="cap"><span>__LEAD_PLATE__</span><span>CC</span></figcaption>
       </figure>
     </div>
-    <div class="hook rv"><span>Also filed</span><span class="ln"></span><b>__ALSO_HOOK__</b><span class="ar">→</span></div>
   </div>
 </section>
 
@@ -1171,7 +1159,6 @@ footer{border-top:1px solid var(--line);padding:56px 0 76px;margin-top:clamp(50p
         </div>
         <div class="cwrap"><canvas id="chart"></canvas><div class="xhair" id="xhair" aria-hidden="true"></div></div>
         <div class="cstats" id="cstats"></div>
-        <div class="cmem" id="cmem"></div>
         <div class="ft" id="cft">__PX0_FT__</div>
       </div>
       <div class="ptable rv rv-3" id="ptable"></div>
@@ -1603,15 +1590,6 @@ function paintStats(){
   el.innerHTML=cell(p.st.w1,'1 week',1)+cell(p.st.m1,'1 month',1)+cell(p.st.ytd,'YTD',1)
     +cell(p.st.hi,'year high',0)+cell(p.st.lo,'year low',0)+cell(p.st.dd,'max drawdown',1);
 }
-function paintMem(){
-  const p=PX[curPX], el=document.getElementById('cmem');
-  if(!el) return;
-  if(!p.mem){el.innerHTML='';el.style.display='none';return;}
-  el.style.display='';
-  el.innerHTML='<span class="lbl">The basket · '+p.mem.length+' names · tap any for the full table</span>'
-    +p.mem.map(m=>'<a href="indices"><i class="'+(m.y>0?'up':'dn')+'"></i>'+m.n
-      +'<em>'+(m.y>0?'+':'')+m.y.toFixed(1)+'%</em></a>').join('');
-}
 function paintPX(){
   const p=PX[curPX];
   document.getElementById('cnm').textContent=p.k;
@@ -1619,7 +1597,7 @@ function paintPX(){
   const cd=document.getElementById('cd'); cd.textContent=p.d; cd.className='dl d '+p.cls;
   /* the row carries its own full footnote: real series say so, specimens say so */
   document.getElementById('cft').textContent=p.ft;
-  paintStats(); paintMem(); rgl(); drawChart();
+  paintStats(); rgl(); drawChart();
 }
 document.getElementById('ptabs').addEventListener('click',e=>{
   const b=e.target.closest('.ptab'); if(!b) return;
@@ -1649,7 +1627,7 @@ document.getElementById('crange').addEventListener('click',e=>{
   });
   wrap.addEventListener('pointerleave',()=>{tip.style.display='none';drawChart();});
 })();
-paintStats(); paintMem(); rgl();
+paintStats(); rgl();
 
 /* ══ guilloche behind the promise ══ */
 function drawGuil(){

@@ -2910,9 +2910,6 @@ def index_page():
                 # the analyst's row: enough to read the index without leaving
                 "st": {"w1": x["w1p"], "m1": x["m1p"], "ytd": x["ytdp"],
                        "hi": x["hi"], "lo": x["lo"], "dd": x["mddp"]},
-                # the basket, as chips — every name, its own year
-                "mem": [{"n": _cons[m]["name"], "y": _cons[m]["ytdp"]}
-                        for m in x["members"] if m in _cons],
                 "dek": x["dek"],
                 "ft": ("Drawn from exchange closes · equal weight, base 100 = "
                        "first trading day of the year · as of %s" % IDX["as_of"])})

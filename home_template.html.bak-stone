@@ -265,8 +265,8 @@ body.menu-open{overflow:hidden}
 
 /* ══════ SECTION FURNITURE ══════ */
 section{position:relative;z-index:1}
-.band{padding:clamp(38px,6vh,72px) 0}
-.shead{display:flex;align-items:flex-end;gap:18px;margin-bottom:clamp(16px,2.8vh,32px);flex-wrap:wrap}
+.band{padding:clamp(64px,11vh,132px) 0}
+.shead{display:flex;align-items:flex-end;gap:18px;margin-bottom:clamp(26px,5vh,54px);flex-wrap:wrap}
 .shead .n{flex:none;padding-bottom:4px;line-height:0}
 .shead .n svg{width:34px;height:34px;color:var(--acc);opacity:.9;
   animation:markdraw .9s var(--glide) both}
@@ -277,7 +277,7 @@ section{position:relative;z-index:1}
   color:var(--fg3);padding-bottom:8px;text-align:right}
 .lede{font-size:clamp(16px,1.9vw,20px);color:var(--fg2);max-width:62ch}
 /* engraved rule — a guilloche hairline */
-.erule{height:14px;margin:clamp(16px,2.6vh,30px) 0;opacity:.8;
+.erule{height:14px;margin:clamp(40px,7vh,80px) 0;opacity:.8;
   background:repeating-linear-gradient(90deg,var(--acc) 0 1px,transparent 1px 9px);
   -webkit-mask:linear-gradient(90deg,transparent,#000 12%,#000 88%,transparent);
           mask:linear-gradient(90deg,transparent,#000 12%,#000 88%,transparent);opacity:.35}
@@ -288,7 +288,7 @@ section{position:relative;z-index:1}
 .rv-4{transition-delay:.28s}.rv-5{transition-delay:.35s}.rv-6{transition-delay:.42s}
 
 /* ══════ 00 · HERO ══════ */
-#hero{position:relative;min-height:94svh;display:grid;grid-template-rows:1fr auto;padding-top:66px;overflow:hidden}
+#hero{position:relative;min-height:100svh;display:grid;grid-template-rows:1fr auto;padding-top:66px;overflow:hidden}
 #gemwrap{position:relative;width:min(38vmin,340px);height:min(38vmin,340px);margin:0 auto;
   z-index:1;pointer-events:none;filter:drop-shadow(0 30px 76px rgba(0,0,0,.85));
   animation:gemin 1.5s var(--glide) both .45s}
@@ -396,16 +396,17 @@ h1.mast .l{display:inline-block;opacity:0;transform:translateY(.36em) rotate(3de
 .blab{font-family:var(--mono);font-size:9px;letter-spacing:.22em;text-transform:uppercase;color:var(--fg3)}
 .metals{display:flex;gap:4px}
 .metals button{font-family:var(--mono);font-size:9px;letter-spacing:.16em;text-transform:uppercase;
-  padding:6px 14px;color:var(--fg3);border:1px solid var(--line);background:transparent;
-  border-radius:999px;
+  padding:6px 13px;color:var(--fg3);border:1px solid var(--line);background:transparent;
+  clip-path:polygon(6px 0,100% 0,100% calc(100% - 6px),calc(100% - 6px) 100%,0 100%,0 6px);
   transition:background .18s var(--mech),color .18s var(--mech)}
-.metals button.on{background:var(--acc);color:#0B0E14;border-color:var(--acc)}
+.metals button.on{background:var(--acc);color:#07080C}
 .karats{display:flex;gap:5px;margin-top:7px;flex-wrap:wrap}
-.karats button{font-family:var(--mono);font-size:9px;letter-spacing:.12em;padding:6px 11px;
-  color:var(--acc);border:1px solid var(--line);background:transparent;border-radius:9px;
+.karats button{font-family:var(--mono);font-size:9px;letter-spacing:.12em;padding:6px 10px;
+  color:var(--acc);border:1px solid var(--line);background:transparent;
+  clip-path:polygon(6px 0,100% 0,100% calc(100% - 6px),calc(100% - 6px) 100%,0 100%,0 6px);
   transition:background .18s var(--mech),color .18s var(--mech),border-color .25s}
 .karats button:hover{border-color:var(--line-hi)}
-.karats button.on{background:var(--acc);border-color:var(--acc);color:#0B0E14}
+.karats button.on{background:rgba(198,162,74,.20);border-color:var(--line-hi);color:var(--gilt-l)}
 .grow{display:flex;align-items:flex-end;gap:11px;margin-top:7px;flex-wrap:wrap}
 .grow input{font-family:var(--mono);font-size:18px;font-variant-numeric:tabular-nums;width:82px;
   background:transparent;border:0;border-bottom:1px solid var(--line);color:var(--fg);padding:3px 0}
@@ -762,6 +763,16 @@ h1.mast .l{display:inline-block;opacity:0;transform:translateY(.36em) rotate(3de
 .cstats .sk{font-family:var(--mono);font-size:7px;letter-spacing:.18em;text-transform:uppercase;
   color:var(--fg3);margin-top:4px}
 @media(max-width:560px){.cstats{grid-template-columns:repeat(3,1fr)}}
+.cmem{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px}
+.cmem .lbl{flex-basis:100%;font-family:var(--mono);font-size:8px;letter-spacing:.22em;
+  text-transform:uppercase;color:var(--acc);margin-bottom:1px}
+.cmem a{display:inline-flex;align-items:center;gap:6px;font-family:var(--mono);font-size:8.5px;
+  letter-spacing:.08em;padding:5px 9px;border:1px solid var(--line);border-radius:999px;
+  color:var(--fg2);transition:border-color .25s,color .25s,background .25s}
+.cmem a:hover{color:var(--fg);border-color:var(--line-hi);background:rgba(142,146,152,.09)}
+.cmem a i{width:5px;height:5px;border-radius:50%;flex:none}
+.cmem a i.up{background:var(--ok)}.cmem a i.dn{background:var(--dn)}
+.cmem a em{font-style:normal;color:var(--fg3)}
 .ptable{border:1px solid var(--line);border-radius:var(--r);overflow:hidden;background:var(--plate)}
 .ptable .r{display:flex;align-items:center;gap:12px;padding:14px 18px;border-bottom:1px solid var(--line);
   transition:background .3s,padding-left .35s var(--glide)}
@@ -983,7 +994,7 @@ footer{border-top:1px solid var(--line);padding:56px 0 76px;margin-top:clamp(50p
       <div class="omx-grid">
         <div>
           <div class="omx-label">The Six Desks</div>
-          <a class="omx-desk" style="--i:0" href="diamonds"><span class="n">D&mdash;01</span><span class="t">Diamonds</span><span class="d">the stone that runs on trust</span></a><a class="omx-desk" style="--i:1" href="gold-metals"><span class="n">D&mdash;02</span><span class="t">Gold & Metals</span><span class="d">the metal beneath every margin</span></a><a class="omx-desk" style="--i:2" href="gemstones"><span class="n">D&mdash;03</span><span class="t">Colored Gemstones</span><span class="d">supply lines drawn in emerald, ruby and sapphire</span></a><a class="omx-desk" style="--i:3" href="watches"><span class="n">D&mdash;04</span><span class="t">Watches</span><span class="d">haute horlogerie, priced by the second</span></a><a class="omx-desk" style="--i:4" href="auctions"><span class="n">D&mdash;05</span><span class="t">Auctions & Estates</span><span class="d">where the trade marks itself to market</span></a><a class="omx-desk" style="--i:5" href="retail-tech"><span class="n">D&mdash;06</span><span class="t">Retail & Technology</span><span class="d">the counter, rebuilt for the next generation</span></a>
+          __MENU_DESKS__
         </div>
         <div class="omx-side">
           <div class="omx-label">The Paper</div>
@@ -1034,7 +1045,7 @@ footer{border-top:1px solid var(--line);padding:56px 0 76px;margin-top:clamp(50p
           <button role="radio" aria-checked="true" data-m="0" class="on">Gold</button>
           <button role="radio" aria-checked="false" data-m="1">Silver</button>
         </span>
-        <span class="spot"><i></i><span id="spotline">GOLD 4,360.00 / OZ &middot; ▼ −0.75%</span></span>
+        <span class="spot"><i></i><span id="spotline">__SPOT_LINE__</span></span>
       </div>
 
       <div class="bgrid">
@@ -1070,7 +1081,7 @@ footer{border-top:1px solid var(--line);padding:56px 0 76px;margin-top:clamp(50p
     </div>
 
     <div class="bfoot">
-      <span id="benchfoot">Derived from gold spot 4,360.00, 19 Aug 2026, 5:58am New York · Kitco, corroborated on TradingEconomics · Editor's press-time read; all four metals written back, platinum and palladium off a three-session hold &middot; specimen &mdash; verify before you quote</span>
+      <span id="benchfoot">Derived from gold spot __SPOT_TXT__, __ASOF__ &middot; specimen &mdash; verify before you quote</span>
       <a href="almanac" data-loupe="The tape">Full tape &amp; tables <span>&rarr;</span></a>
     </div>
   </div>
@@ -1084,21 +1095,22 @@ footer{border-top:1px solid var(--line);padding:56px 0 76px;margin-top:clamp(50p
     <!-- no clock here: the readership spans time zones, the paper does not
          tell them what hour it is somewhere else -->
     <div class="skick rv"><svg viewBox="0 0 40 40" aria-hidden="true"><use href="#m-nib"/></svg>
-      <span>The Edition</span><i></i><em>Wednesday, August 19, 2026 &middot; Vol. I — No. 038</em></div>
+      <span>The Edition</span><i></i><em>__DATELINE__ &middot; __EDITION__</em></div>
     <div class="lead">
       <article class="rv rv-1">
-        <span class="kick"><i></i>Lead Story · Gold & Metals Desk</span>
-        <h3><a href="a-silver-down-two-eight-nine">Silver down 2.89%: all four metals lower, and a three-session hold ends</a></h3>
-        <p class="dek">Against this paper's own marks of record, silver fell $1.88 to $63.12 and gold $33.10 to $4,360.00. Platinum and palladium come off a three-session hold at $1,726.00 and $1,274.00, both written back at press time.</p>
-        <div class="by">The Gold & Metals Desk · 5 min read</div>
-        <div style="margin-top:26px"><a class="btn" href="a-silver-down-two-eight-nine" data-loupe="Read">
+        <span class="kick"><i></i>__LEAD_KICKER__</span>
+        <h3><a href="__LEAD_HREF__">__LEAD_TITLE__</a></h3>
+        <p class="dek">__LEAD_DEK__</p>
+        <div class="by">__LEAD_BY__</div>
+        <div style="margin-top:26px"><a class="btn" href="__LEAD_HREF__" data-loupe="Read">
           <span class="d"></span>Read this morning's lead</a></div>
       </article>
       <figure class="plate spot wipe rv rv-2">
-        <div class="im"><img class="prx" src="assets/ph/gold-hero.jpg" alt="" loading="lazy" onerror="this.closest('.plate').style.display='none'"></div>
-        <figcaption class="cap"><span>Plate I — Gold & Metals</span><span>CC</span></figcaption>
+        <div class="im"><img class="prx" src="__LEAD_IMG__" alt="" loading="lazy" onerror="this.closest('.plate').style.display='none'"></div>
+        <figcaption class="cap"><span>__LEAD_PLATE__</span><span>CC</span></figcaption>
       </figure>
     </div>
+    <div class="hook rv"><span>Also filed</span><span class="ln"></span><b>__ALSO_HOOK__</b><span class="ar">→</span></div>
   </div>
 </section>
 
@@ -1109,7 +1121,7 @@ footer{border-top:1px solid var(--line);padding:56px 0 76px;margin-top:clamp(50p
     <div class="shead rv">
       <span class="n"><svg viewBox="0 0 40 40" aria-hidden="true"><use href="#m-folio"/></svg></span>
       <h2>Also in today's paper.</h2>
-      <span class="r">two more this morning</span>
+      <span class="r">__ALSO_LINE__</span>
     </div>
     <div class="agrid stg rv" id="agrid"></div>
   </div>
@@ -1138,7 +1150,7 @@ footer{border-top:1px solid var(--line);padding:56px 0 76px;margin-top:clamp(50p
     <div class="erule" aria-hidden="true" style="margin-top:0"></div>
     <div class="shead rv">
       <span class="n"><svg viewBox="0 0 40 40" aria-hidden="true"><use href="#m-tape"/></svg></span><h2>Never fabricate a price.</h2>
-      <span class="r">The Carat indices · computed 2026-08-12 · exchange closes</span>
+      <span class="r">__PX_ASOF__</span>
     </div>
     <p class="lede rv rv-1" style="margin-bottom:26px">Verify it, or carry it with &ldquo;unch.&rdquo;
       Unverified is a state we publish, not a gap we fill.</p>
@@ -1147,9 +1159,9 @@ footer{border-top:1px solid var(--line);padding:56px 0 76px;margin-top:clamp(50p
     <div class="pwrap">
       <div class="chartbox rv rv-2 spot">
         <div class="hd">
-          <div><div class="nm" id="cnm">CC20 · The Jewelry Twenty</div>
-               <div class="v" id="cv">128.85</div></div>
-          <div class="dl" id="cd">▼ -0.20%</div>
+          <div><div class="nm" id="cnm">__PX0_K__</div>
+               <div class="v" id="cv">__PX0_V__</div></div>
+          <div class="dl" id="cd">__PX0_D__</div>
         </div>
         <div class="crange" id="crange" role="tablist" aria-label="Chart range">
           <span class="rgl" id="crgl"></span>
@@ -1159,14 +1171,12 @@ footer{border-top:1px solid var(--line);padding:56px 0 76px;margin-top:clamp(50p
         </div>
         <div class="cwrap"><canvas id="chart"></canvas><div class="xhair" id="xhair" aria-hidden="true"></div></div>
         <div class="cstats" id="cstats"></div>
-        <div class="ft" id="cft">Drawn from exchange closes · equal weight, base 100 = first trading day of the year · as of 2026-08-12</div>
+        <div class="cmem" id="cmem"></div>
+        <div class="ft" id="cft">__PX0_FT__</div>
       </div>
       <div class="ptable rv rv-3" id="ptable"></div>
     </div>
-    <div class="ixstrip rv rv-3">
-  <div class="ixhead"><span>Computed by this desk, quoted from no one &mdash; the spreads, the twenty and the method</span>
-    <a href="indices">Open the Index Desk &rarr;</a></div>
-</div>
+    __IDX_STRIP__
   </div>
 </section>
 
@@ -1177,7 +1187,7 @@ footer{border-top:1px solid var(--line);padding:56px 0 76px;margin-top:clamp(50p
     <div class="shead rv">
       <span class="n"><svg viewBox="0 0 40 40" aria-hidden="true"><use href="#m-scale"/></svg></span>
       <h2>Those are the prices.<br>This is what they cost you.</h2>
-      <span class="r">the counter sheet<br>No. 038 &middot; 19 Aug</span>
+      <span class="r">the counter sheet<br>__EDITION_SHORT__ &middot; __DATE_SHORT__</span>
     </div>
     <p class="lede rv rv-1" style="margin-bottom:clamp(22px,3.6vh,40px)">Every price above is a number.
       This is what the rest of the market is doing to your margin. Four lines, each one a figure
@@ -1186,7 +1196,7 @@ footer{border-top:1px solid var(--line);padding:56px 0 76px;margin-top:clamp(50p
 
     <div class="sheet rv rv-2">
       <div class="shbar">
-        <span>The counter sheet &middot; <b>No. 038</b> &middot; four lines &middot; struck 06:00 ET</span>
+        <span>The counter sheet &middot; <b>__EDITION_SHORT__</b> &middot; four lines &middot; struck 06:00 ET</span>
         <span>Tap any line for the working</span>
       </div>
       <div class="shhead">
@@ -1293,7 +1303,7 @@ const RM = matchMedia('(prefers-reduced-motion: reduce)').matches;
 })();
 
 /* ══ tape ══ */
-(function(){const rows=[["GOLD / OZ", "4,360.00", "dn", "\u25bc \u22120.75%"], ["NATURAL 1CT (RAPI PROXY)", "3,880.00", "dn", "\u22126.4% YTD"], ["LAB-GROWN 1CT REFERENCE", "475.00", "dn", "\u221213% YoY"], ["PLATINUM / OZ", "1,726.00", "dn", "\u25bc \u22121.32%"], ["SILVER / OZ", "63.12", "dn", "\u25bc \u22122.89%"], ["EDITION", "No. 038", "up", "\u25cf PRINTED 06:00 ET"], ["SPECIMEN TAPE", "illustrative", "fl", "not quoted"]];
+(function(){const rows=__TAPE_JSON__;
  const mk=()=>rows.map(r=>`<span class="tk"><span class="d"></span><b>${r[0]}</b> ${r[1]} <span class="${r[2]}">${r[3]}</span></span>`).join('');
  document.getElementById('tkrun').innerHTML=mk()+mk();})();
 
@@ -1302,9 +1312,9 @@ const RM = matchMedia('(prefers-reduced-motion: reduce)').matches;
    units, so the chips and the label change with the metal. ══ */
 const OZT=31.1035;
 const METALS=[
- {name:'Gold',   spot:4360.00,    txt:'4,360.00',    line:'GOLD 4,360.00 / OZ &middot; ▼ −0.75%',    unitLab:'Karat',
+ {name:'Gold',   spot:__SPOT__,    txt:'__SPOT_TXT__',    line:'__SPOT_LINE__',    unitLab:'Karat',
   pur:[['9kt',.375],['10kt',.4167],['14kt',.5833],['18kt',.750],['22kt',.9167],['24kt',.999]], def:3},
- {name:'Silver', spot:63.12, txt:'63.12', line:'SILVER 63.12 / OZ &middot; ▼ −2.89%', unitLab:'Fineness',
+ {name:'Silver', spot:__SPOT_AG__, txt:'__SPOT_AG_TXT__', line:'__SPOT_AG_LINE__', unitLab:'Fineness',
   pur:[['800',.800],['925',.925],['958',.958],['999',.999]], def:1}];
 let mIdx=0, kIdx=METALS[0].def;
 const fmt=(n,d=2)=>n.toLocaleString('en-US',{minimumFractionDigits:d,maximumFractionDigits:d});
@@ -1325,7 +1335,7 @@ function paintChips(){
   const bc=document.getElementById('benchcap');
   if(bc) bc.innerHTML=`${m.name} at the bench &mdash; derived from spot ${m.txt}`;
   const ft=document.getElementById('benchfoot');
-  if(ft) ft.innerHTML=`Derived from ${m.name.toLowerCase()} spot ${m.txt}, 19 Aug 2026, 5:58am New York · Kitco, corroborated on TradingEconomics · Editor's press-time read; all four metals written back, platinum and palladium off a three-session hold &middot; specimen &mdash; verify before you quote`;
+  if(ft) ft.innerHTML=`Derived from ${m.name.toLowerCase()} spot ${m.txt}, __ASOF__ &middot; specimen &mdash; verify before you quote`;
 }
 function bench(){
   const g=grams(), m=M(), [nm,pur]=m.pur[kIdx], pg=perGram();
@@ -1393,7 +1403,7 @@ paintChips(); bench();
   io.observe(cv);
 })();
 
-const LEDGER=[{"num": "$140.18", "lab": "per gram, fine", "dk": "#E8C06A", "desk": "D\u201402 Gold", "move": "Gold sits at 4,360.00 the ounce, \u25bc \u22120.75%.", "ctr": "A 5&nbsp;g 18ct band carries about $526 of metal before you have made a thing on it.", "viz": {"t": "spark", "seed": 9, "trend": 1, "lo": "the tape", "hi": "4,360.00"}, "work": ["4,360.00 &divide; 31.1035 g = 140.18 per gram fine", "140.18 &times; 0.750 (18ct) = 105.13 per gram at 18ct", "105.13 &times; 5 g = 525.66"], "src": ["Full tape &amp; tables", "almanac.html"]}, {"num": "8.2&times;", "lab": "natural : lab", "dk": "#8CC5FF", "desk": "D\u201401 Diamonds", "move": "Natural one-carat at 3,880.00 against lab-grown at 475.00.", "ctr": "The same look at a fraction of the ticket. Your case has to answer for the difference, out loud.", "viz": {"t": "ratio", "a": ["Natural", 3880.0, "#8CC5FF"], "b": ["Lab", 475.0, "rgba(220,234,245,.30)"]}, "work": ["3,880.00 &divide; 475.00 = 8.17&times;", "both figures as carried on this morning&rsquo;s tape"], "src": ["The lab-grown price list", "lab-grown-diamond-prices.html"]}, {"num": "&rarr;", "lab": "Watches", "dk": "#6FE3E3", "desk": "D\u201404", "move": "Rolex made Drake a one-off. The only verified price is $500,000", "ctr": "A gem-set Daytona described as a Rolex piece unique reached Drake on 16 August. Rolex has published nothing. The one hard figure is the $500,000 a Dra", "viz": {"t": "split", "a": ["Filed today", 100, "#6FE3E3"], "b": ["", 0, "rgba(220,234,245,.22)"]}, "work": ["filed by The Watches Desk", "5 minutes"], "src": ["Rolex made Drake a one-off. The only verified price is $500,000", "a-the-only-verified-price.html"]}, {"num": "&rarr;", "lab": "Diamonds", "dk": "#6FE3E3", "desk": "D\u201401", "move": "Wholesale lab-grown fell 96%. The retail markup moved 1 to 2 points", "ctr": "The lab-grown wholesale index is down 96% since 2018 and 13% in the year to the second quarter. Retail markups still run above 80% over wholesale, and", "viz": {"t": "split", "a": ["Filed today", 100, "#6FE3E3"], "b": ["", 0, "rgba(220,234,245,.22)"]}, "work": ["filed by The Diamonds Desk", "5 minutes"], "src": ["Wholesale lab-grown fell 96%. The retail markup moved 1 to 2 points", "a-ninety-six-down-eighty-up.html"]}];
+const LEDGER=__LEDGER_JSON__;
 
 function vizHTML(v){
   if(v.t==='spark') return `<div class="viz"><canvas class="spk" data-seed="${v.seed}" data-trend="${v.trend}" data-c="#C6A24A"></canvas>
@@ -1448,7 +1458,7 @@ document.getElementById('ledger').addEventListener('click',e=>{
 });
 
 /* ══ TODAY'S PAPER — article grid from the real archive ══ */
-const ARTS=[{"h": "Rolex made Drake a one-off. The only verified price is $500,000", "p": "A gem-set Daytona described as a Rolex piece unique reached Drake on 16 August. Rolex has published nothing. The one har", "img": "watches-hero", "cr": "GUY SIE \u00b7 CC BY-SA 2.0", "s": "Watches", "t": "5 min", "href": "a-the-only-verified-price.html"}, {"h": "Wholesale lab-grown fell 96%. The retail markup moved 1 to 2 points", "p": "The lab-grown wholesale index is down 96% since 2018 and 13% in the year to the second quarter. Retail markups still run", "img": "diamonds-hero", "cr": "Carat Capital", "s": "Diamonds", "t": "5 min", "href": "a-ninety-six-down-eighty-up.html"}];
+const ARTS=__ARTS_JSON__;
 document.getElementById('agrid').innerHTML=ARTS.map((a,i)=>`
  <a class="acard wipe${a.img?'':' noimg'}" href="${a.href}" data-loupe="Read">${a.img?`
    <img class="ph" src="assets/ph/${a.img}.jpg" alt="" loading="lazy" onerror="this.closest('.acard').classList.add('noimg');this.remove()">
@@ -1459,7 +1469,7 @@ document.getElementById('agrid').innerHTML=ARTS.map((a,i)=>`
      <div class="mt"><span>${a.s} desk</span><span>${a.t}</span></div></div></a>`).join('');
 
 /* ══ THE DESK BOARD — real headlines, real numbers ══ */
-const BOARD=[{"n": "D\u201401", "t": "Diamonds", "c": "#8CC5FF", "img": "diamonds-hero", "seed": 9, "trend": 1, "href": "diamonds.html", "st": {"k": "1ct RBC \u00b7 natural, this week", "v": "$5,232", "d": "the stone that runs on trust", "cls": "fl"}, "a": [["Wholesale lab-grown fell 96%. The retail markup moved 1 to 2 points", "a-ninety-six-down-eighty-up.html", "5 min"], ["111% more carats, 44% less per carat: Mountain Province's quarter", "a-one-eleven-up-forty-four-down.html", "5 min"], ["Asian Star's small stones fell 22%. Its jewellery rose 17%", "a-twenty-two-down-seventeen-up.html", "5 min"]]}, {"n": "D\u201402", "t": "Gold & Metals", "c": "#E8C06A", "img": "gold-hero", "seed": 15, "trend": 1, "href": "gold-metals.html", "st": {"k": "Gold/oz \u00b7 Jul 13 close", "v": "$3,997", "d": "the metal beneath every margin", "cls": "fl"}, "a": [["Silver down 2.89%: all four metals lower, and a three-session hold ends", "a-silver-down-two-eight-nine.html", "5 min"], ["Gold and silver cleared two pages. Platinum and palladium did not", "a-two-cleared-two-held.html", "5 min"], ["Four metals up, and a palladium mark three sessions old retired", "a-four-metals-four-write-backs.html", "5 min"]]}, {"n": "D\u201403", "t": "Colored Gemstones", "c": "#4FD08A", "img": "gemstones-hero", "seed": 21, "trend": 1, "href": "gemstones.html", "st": {"k": "Fine sapphire, YoY", "v": "+12%", "d": "supply lines drawn in emerald, ruby and sapphire", "cls": "fl"}, "a": [["Minus 0.1% for color: pinks rise, blues and yellows slip", "a-minus-point-one-for-color.html", "4 min"], ["$102.9 million, up 72%: Gemfields' emeralds cover for its rubies", "a-gemfields-covers-the-ruby.html", "4 min"], ["Two speeds in color: $906,250 for one sapphire, demand still 30% down", "a-color-runs-two-speeds.html", "4 min"]]}, {"n": "D\u201404", "t": "Watches", "c": "#B79BFF", "img": "watches-hero", "seed": 27, "trend": 1, "href": "watches.html", "st": {"k": "Swiss exports, annualized", "v": "CHF 26B", "d": "haute horlogerie, priced by the second", "cls": "fl"}, "a": [["Rolex made Drake a one-off. The only verified price is $500,000", "a-the-only-verified-price.html", "5 min"], ["Turkey +6.9%, America \u221214.8%: where Swiss watches went", "a-turkey-up-america-down.html", "5 min"], ["$633.8 million for the independents, more than LVMH's watches", "a-independents-pass-lvmh.html", "5 min"]]}, {"n": "D\u201405", "t": "Auctions & Estates", "c": "#FF8FA8", "img": "auctions-hero", "seed": 33, "trend": 1, "href": "auctions.html", "st": {"k": "Annual jewelry hammer, est.", "v": "$1.1B", "d": "where the trade marks itself to market", "cls": "fl"}, "a": [["Two Sotheby's jewel sales closed. Neither has published a number", "a-no-total-for-the-gem-drop.html", "5 min"], ["Five times its metal: a Garrard egg makes \u00a3123,500", "a-four-times-melt.html", "5 min"], ["$13,000 for costume, \u00a32,000 for gold: Bonhams runs Chanel in three cities", "a-thirteen-thousand-for-costume.html", "4 min"]]}, {"n": "D\u201406", "t": "Retail & Technology", "c": "#6FE3E3", "img": "retail-hero", "seed": 39, "trend": 1, "href": "retail-tech.html", "st": {"k": "Lab-grown 1ct, wholesale midpoint", "v": "$475", "d": "the counter, rebuilt for the next generation", "cls": "fl"}, "a": [["IIJS published 50,000 visitors and no order book", "a-fifty-thousand-and-no-number.html", "5 min"], ["One fund cut 806,676 Signet shares. An index fund bought 665,182", "a-eight-oh-six-out-six-sixty-five-in.html", "5 min"], ["Titan's jewellery arm grew 43% and says diamond prices settled", "a-titan-calls-the-price-stable.html", "4 min"]]}];
+const BOARD=__BOARD_JSON__;
 document.getElementById('bnav').innerHTML=BOARD.map((d,i)=>
  `<button data-i="${i}" class="${i?'':'on'}" style="--dk:${d.c}" data-loupe="${d.t}">${d.img?`
     <img class="bg" src="assets/ph/${d.img}.jpg" alt="" loading="lazy" onerror="this.remove()">
@@ -1523,13 +1533,13 @@ function drawSpark(cv){
 paintDesk(0);
 
 /* ══ PRICE DESK — tabs + canvas chart ══ */
-const PX=[{"k": "CC20 \u00b7 The Jewelry Twenty", "v": "128.85", "d": "\u25bc -0.20%", "cls": "dn", "ser": [100.0, 100.57, 100.86, 101.91, 100.39, 100.83, 100.95, 101.47, 101.68, 102.16, 102.63, 105.04, 103.61, 103.78, 102.97, 101.64, 104.06, 103.62, 103.7, 103.69, 103.84, 104.19, 102.93, 103.18, 104.02, 103.43, 104.88, 105.15, 107.56, 105.31, 106.23, 107.37, 107.36, 108.16, 110.19, 110.69, 110.12, 110.13, 110.6, 110.75, 112.19, 111.97, 113.84, 114.28, 113.8, 115.2, 113.6, 115.06, 114.22, 114.54, 111.06, 107.58, 109.73, 107.68, 106.53, 105.21, 104.9, 106.98, 105.86, 104.66, 103.23, 103.18, 104.52, 105.11, 102.18, 101.49, 100.72, 98.57, 101.06, 102.21, 101.39, 100.76, 100.47, 99.76, 99.1, 100.86, 102.54, 103.06, 103.6, 104.32, 105.7, 108.0, 107.67, 109.17, 108.77, 108.55, 109.4, 108.61, 108.92, 110.1, 109.9, 109.49, 108.58, 106.64, 106.37, 105.71, 105.23, 105.39, 104.15, 103.12, 103.88, 104.34, 104.42, 103.43, 103.85, 107.76, 108.68, 109.31, 109.0, 107.6, 106.9, 106.91, 109.64, 108.73, 107.86, 107.19, 106.38, 107.58, 108.97, 109.44, 110.64, 110.28, 111.07, 113.07, 114.6, 115.09, 115.9, 114.47, 114.88, 112.8, 113.61, 112.6, 111.77, 112.55, 110.93, 110.6, 114.15, 114.8, 116.07, 116.04, 116.79, 115.79, 116.83, 117.24, 117.62, 115.71, 113.97, 116.05, 115.79, 116.98, 116.84, 116.1, 115.51, 114.62, 116.07, 116.58, 116.49, 114.09, 114.26, 112.96, 114.95, 115.24, 114.37, 115.02, 115.92, 117.14, 116.73, 116.08, 116.32, 117.19, 116.63, 116.22, 113.18, 113.57, 115.04, 114.55, 114.58, 114.83, 117.24, 116.64, 119.85, 121.53, 124.36, 124.81, 123.07, 124.6, 128.86, 128.62, 129.11, 128.85], "st": {"w1": 4.7, "m1": 10.77, "ytd": 28.85, "hi": 129.11, "lo": 98.57, "dd": -14.44}, "dek": "twenty listed names, the whole trade in one line", "ft": "Drawn from exchange closes \u00b7 equal weight, base 100 = first trading day of the year \u00b7 as of 2026-08-12"}, {"k": "CC-M \u00b7 The Maisons", "v": "94.71", "d": "\u25bc -0.77%", "cls": "dn", "ser": [100.0, 100.0, 100.69, 102.38, 99.84, 101.33, 103.72, 103.72, 103.02, 102.93, 103.43, 101.11, 97.83, 97.83, 94.72, 93.04, 94.35, 95.48, 94.44, 94.44, 94.02, 94.21, 91.16, 89.78, 92.81, 92.81, 92.21, 91.97, 93.63, 93.66, 94.29, 94.29, 94.69, 98.08, 97.2, 97.46, 96.9, 96.9, 95.35, 95.97, 96.76, 95.73, 98.0, 98.0, 98.82, 99.02, 98.0, 98.56, 96.88, 96.88, 91.84, 88.11, 89.12, 88.16, 87.57, 87.57, 86.53, 88.48, 87.92, 87.14, 85.16, 85.16, 85.83, 85.21, 84.0, 80.96, 80.51, 80.51, 82.57, 82.77, 83.86, 83.28, 82.25, 82.25, 82.92, 83.3, 85.48, 85.53, 85.53, 85.53, 84.16, 90.13, 89.2, 90.04, 90.04, 89.32, 90.69, 86.39, 86.52, 89.91, 89.91, 88.0, 87.24, 85.48, 85.6, 85.18, 85.18, 85.7, 83.99, 82.82, 83.52, 83.52, 83.52, 82.11, 82.78, 87.4, 89.71, 90.11, 90.11, 86.95, 87.44, 87.13, 87.75, 86.72, 86.72, 86.94, 87.42, 89.04, 88.28, 87.72, 87.72, 88.66, 88.36, 91.5, 91.69, 92.24, 92.24, 91.11, 92.26, 89.66, 90.18, 90.0, 90.0, 90.23, 91.35, 90.92, 92.2, 95.34, 95.34, 95.8, 96.51, 95.86, 97.27, 96.17, 96.17, 93.82, 92.6, 93.95, 94.51, 94.24, 94.24, 94.23, 91.69, 91.1, 92.21, 92.19, 92.19, 91.8, 92.74, 90.58, 92.47, 92.5, 92.5, 93.34, 92.16, 95.76, 96.32, 95.07, 95.07, 94.75, 92.49, 90.92, 88.0, 88.55, 88.55, 88.61, 89.93, 90.87, 91.84, 91.65, 91.65, 93.09, 93.19, 93.24, 94.69, 94.52, 94.52, 95.76, 95.44, 94.71], "st": {"w1": 0.02, "m1": -0.38, "ytd": -5.29, "hi": 103.72, "lo": 80.51, "dd": -22.38}, "dek": "the luxury houses", "ft": "Drawn from exchange closes \u00b7 equal weight, base 100 = first trading day of the year \u00b7 as of 2026-08-12"}, {"k": "CC-C \u00b7 The Counter", "v": "110.09", "d": "\u25bc -0.58%", "cls": "dn", "ser": [100.0, 100.68, 101.18, 101.72, 101.07, 101.18, 98.51, 99.82, 99.62, 100.75, 101.71, 102.33, 102.9, 103.63, 104.15, 104.19, 105.42, 105.42, 105.23, 106.33, 107.32, 108.06, 108.23, 105.93, 106.06, 104.08, 106.35, 105.63, 105.37, 104.75, 105.96, 107.35, 107.28, 106.87, 105.96, 103.86, 103.95, 105.12, 105.27, 106.02, 105.83, 105.83, 107.77, 108.86, 105.92, 106.13, 103.23, 104.82, 103.81, 103.75, 101.44, 98.89, 100.17, 99.1, 97.76, 97.06, 96.06, 96.28, 95.0, 92.84, 92.28, 92.45, 93.91, 94.42, 91.48, 92.32, 92.4, 89.36, 90.8, 92.73, 90.61, 91.22, 90.16, 90.28, 89.52, 92.53, 93.55, 93.1, 93.56, 94.24, 96.36, 95.98, 97.05, 97.73, 96.73, 95.87, 96.71, 96.74, 96.58, 97.77, 97.99, 97.7, 96.86, 95.07, 94.73, 94.14, 94.03, 93.48, 93.97, 92.37, 93.67, 93.85, 94.03, 92.41, 92.92, 96.91, 97.99, 98.01, 96.41, 94.12, 92.72, 91.69, 94.42, 94.04, 92.96, 92.56, 92.67, 94.32, 95.03, 95.26, 95.5, 95.81, 96.15, 96.13, 97.14, 97.63, 98.41, 97.6, 97.48, 96.82, 97.36, 96.2, 94.99, 96.09, 95.95, 96.3, 100.9, 100.54, 101.65, 101.05, 100.56, 99.33, 99.91, 100.27, 99.86, 97.97, 96.4, 96.77, 97.71, 98.39, 98.32, 98.94, 99.1, 99.94, 101.64, 101.94, 102.32, 101.25, 101.74, 100.48, 102.12, 101.62, 101.7, 103.49, 104.2, 105.53, 106.52, 105.7, 106.32, 106.71, 107.1, 107.04, 104.47, 105.18, 106.34, 106.71, 107.32, 107.23, 108.35, 107.54, 108.42, 108.28, 108.68, 109.94, 109.91, 110.83, 113.49, 111.98, 110.73, 110.09], "st": {"w1": 0.16, "m1": 3.55, "ytd": 10.09, "hi": 113.49, "lo": 89.36, "dd": -17.91}, "dek": "jewelry retail, five markets", "ft": "Drawn from exchange closes \u00b7 equal weight, base 100 = first trading day of the year \u00b7 as of 2026-08-12"}, {"k": "CC-P \u00b7 The Pit", "v": "113.30", "d": "\u25bc -1.38%", "cls": "dn", "ser": [100.0, 100.0, 100.58, 102.11, 97.73, 96.76, 100.31, 100.31, 101.56, 99.9, 100.49, 116.87, 110.96, 110.96, 109.73, 105.63, 113.31, 109.12, 111.91, 111.91, 111.09, 111.12, 108.2, 109.0, 109.35, 109.35, 110.03, 112.78, 125.91, 114.54, 115.77, 115.77, 113.68, 114.32, 123.12, 123.42, 119.79, 119.79, 123.93, 120.31, 125.02, 125.37, 127.54, 127.54, 128.51, 128.6, 130.95, 131.04, 131.71, 131.71, 130.46, 128.4, 132.92, 127.6, 125.47, 125.47, 124.33, 132.01, 132.14, 130.06, 125.81, 125.81, 129.14, 128.76, 123.47, 118.21, 115.55, 115.55, 121.47, 119.78, 116.82, 112.01, 114.81, 114.81, 114.86, 112.04, 117.61, 117.44, 117.44, 119.03, 119.04, 125.0, 120.0, 126.62, 126.62, 124.09, 125.77, 124.18, 127.34, 124.22, 124.22, 124.86, 121.85, 122.75, 122.86, 121.74, 121.74, 123.58, 116.36, 117.79, 119.22, 121.47, 121.47, 123.06, 122.5, 121.53, 120.08, 122.86, 122.86, 119.61, 118.49, 119.45, 126.38, 123.86, 123.86, 123.28, 121.92, 122.52, 126.08, 128.07, 128.07, 124.89, 125.62, 123.01, 123.48, 120.3, 120.3, 118.07, 116.16, 114.85, 119.14, 116.17, 116.17, 115.18, 107.97, 106.97, 110.54, 110.04, 110.04, 109.31, 109.41, 108.2, 107.9, 111.52, 111.52, 112.23, 104.45, 106.85, 103.6, 107.8, 107.8, 103.17, 103.44, 102.62, 103.83, 106.49, 106.49, 104.35, 101.9, 100.25, 100.83, 103.1, 103.1, 101.61, 101.97, 100.62, 98.35, 100.09, 100.09, 101.88, 99.58, 102.6, 103.2, 102.03, 102.03, 102.34, 105.83, 102.35, 104.21, 102.7, 102.7, 102.39, 109.33, 110.58, 105.37, 113.31, 113.31, 115.39, 114.89, 113.3], "st": {"w1": 7.53, "m1": 13.19, "ytd": 13.3, "hi": 132.92, "lo": 96.76, "dd": -26.01}, "dek": "the miners left standing, and De Beers' parent", "ft": "Drawn from exchange closes \u00b7 equal weight, base 100 = first trading day of the year \u00b7 as of 2026-08-12"}, {"k": "CC-W \u00b7 The Movement", "v": "181.85", "d": "\u25b2 +0.37%", "cls": "up", "ser": [100.0, 100.85, 100.81, 101.89, 101.55, 102.67, 102.95, 102.95, 103.39, 104.34, 104.52, 104.53, 103.97, 103.64, 102.56, 101.33, 103.14, 103.91, 103.98, 102.69, 102.34, 102.4, 101.77, 104.47, 106.74, 107.32, 109.26, 109.7, 110.23, 109.1, 109.76, 111.4, 112.36, 113.2, 116.61, 119.75, 119.91, 118.61, 119.0, 120.24, 122.36, 122.01, 123.28, 123.28, 124.47, 128.65, 126.28, 128.94, 127.55, 128.52, 122.93, 117.57, 120.57, 118.29, 117.43, 114.47, 115.09, 117.21, 115.58, 115.65, 114.72, 114.36, 114.73, 116.73, 114.18, 114.64, 113.97, 111.29, 113.77, 115.65, 116.69, 116.45, 115.72, 113.55, 111.67, 114.81, 115.55, 117.62, 118.66, 119.24, 121.34, 124.34, 124.78, 125.76, 125.76, 127.18, 128.01, 128.36, 128.52, 131.08, 130.26, 129.78, 130.25, 126.72, 126.06, 124.95, 123.72, 123.86, 123.94, 122.34, 122.44, 122.59, 122.59, 121.57, 122.16, 128.18, 130.33, 131.38, 132.34, 133.21, 132.79, 133.72, 138.12, 138.01, 136.76, 135.67, 132.97, 134.86, 136.79, 137.22, 140.36, 139.65, 142.25, 148.79, 151.82, 154.41, 155.83, 153.97, 155.95, 152.01, 151.36, 150.19, 149.21, 150.65, 148.12, 147.71, 150.84, 152.4, 154.74, 155.88, 158.04, 157.15, 159.46, 159.62, 161.17, 158.48, 158.35, 162.46, 162.01, 162.74, 162.42, 161.66, 161.03, 158.68, 159.52, 160.27, 159.56, 154.48, 154.77, 154.15, 157.44, 157.36, 154.79, 155.91, 158.1, 160.54, 159.5, 157.67, 157.67, 158.78, 157.65, 154.5, 148.96, 149.56, 152.43, 150.52, 147.58, 149.25, 154.67, 154.47, 162.63, 166.97, 172.34, 171.98, 168.34, 168.7, 177.81, 178.29, 181.18, 181.85], "st": {"w1": 8.03, "m1": 15.33, "ytd": 81.85, "hi": 181.85, "lo": 100.0, "dd": -13.69}, "dek": "the watchmakers, Swiss and Japanese", "ft": "Drawn from exchange closes \u00b7 equal weight, base 100 = first trading day of the year \u00b7 as of 2026-08-12"}];
+const PX=__PX_JSON__;
 document.getElementById('ptabs').innerHTML=PX.map((p,i)=>
  `<button class="ptab${i?'':' on'}" data-i="${i}">${p.k.split(' ·')[0]}</button>`).join('');
 document.getElementById('ptable').innerHTML=PX.map(p=>
  `<div class="r"><span class="k">${p.k}</span><span class="v">${p.v}</span>
    <span class="d ${p.cls}">${p.d}</span></div>`).join('');
-const PXD=["2026-01-02", "2026-01-04", "2026-01-05", "2026-01-06", "2026-01-07", "2026-01-08", "2026-01-09", "2026-01-11", "2026-01-12", "2026-01-13", "2026-01-14", "2026-01-15", "2026-01-16", "2026-01-18", "2026-01-19", "2026-01-20", "2026-01-21", "2026-01-22", "2026-01-23", "2026-01-25", "2026-01-26", "2026-01-27", "2026-01-28", "2026-01-29", "2026-01-30", "2026-02-01", "2026-02-02", "2026-02-03", "2026-02-04", "2026-02-05", "2026-02-06", "2026-02-08", "2026-02-09", "2026-02-10", "2026-02-11", "2026-02-12", "2026-02-13", "2026-02-15", "2026-02-16", "2026-02-17", "2026-02-18", "2026-02-19", "2026-02-20", "2026-02-22", "2026-02-23", "2026-02-24", "2026-02-25", "2026-02-26", "2026-02-27", "2026-03-01", "2026-03-02", "2026-03-03", "2026-03-04", "2026-03-05", "2026-03-06", "2026-03-08", "2026-03-09", "2026-03-10", "2026-03-11", "2026-03-12", "2026-03-13", "2026-03-15", "2026-03-16", "2026-03-17", "2026-03-18", "2026-03-19", "2026-03-20", "2026-03-22", "2026-03-23", "2026-03-24", "2026-03-25", "2026-03-26", "2026-03-27", "2026-03-29", "2026-03-30", "2026-03-31", "2026-04-01", "2026-04-02", "2026-04-05", "2026-04-06", "2026-04-07", "2026-04-08", "2026-04-09", "2026-04-10", "2026-04-12", "2026-04-13", "2026-04-14", "2026-04-15", "2026-04-16", "2026-04-17", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-24", "2026-05-25", "2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29", "2026-05-31", "2026-06-01", "2026-06-02", "2026-06-03", "2026-06-04", "2026-06-05", "2026-06-07", "2026-06-08", "2026-06-09", "2026-06-10", "2026-06-11", "2026-06-12", "2026-06-14", "2026-06-15", "2026-06-16", "2026-06-17", "2026-06-18", "2026-06-19", "2026-06-21", "2026-06-22", "2026-06-23", "2026-06-24", "2026-06-25", "2026-06-26", "2026-06-28", "2026-06-29", "2026-06-30", "2026-07-01", "2026-07-02", "2026-07-03", "2026-07-05", "2026-07-06", "2026-07-07", "2026-07-08", "2026-07-09", "2026-07-10", "2026-07-12", "2026-07-13", "2026-07-14", "2026-07-15", "2026-07-16", "2026-07-17", "2026-07-19", "2026-07-20", "2026-07-21", "2026-07-22", "2026-07-23", "2026-07-24", "2026-07-26", "2026-07-27", "2026-07-28", "2026-07-29", "2026-07-30", "2026-07-31", "2026-08-02", "2026-08-03", "2026-08-04", "2026-08-05", "2026-08-06", "2026-08-07", "2026-08-09", "2026-08-10", "2026-08-11", "2026-08-12"];              // the shared trading-day calendar
+const PXD=__PXD_JSON__;              // the shared trading-day calendar
 let curPX=0, curRange=0;             // 0 = the whole year
 const fmtD=iso=>{const d=new Date(iso+'T12:00:00');
   return d.getDate()+' '+['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][d.getMonth()];};
@@ -1593,6 +1603,15 @@ function paintStats(){
   el.innerHTML=cell(p.st.w1,'1 week',1)+cell(p.st.m1,'1 month',1)+cell(p.st.ytd,'YTD',1)
     +cell(p.st.hi,'year high',0)+cell(p.st.lo,'year low',0)+cell(p.st.dd,'max drawdown',1);
 }
+function paintMem(){
+  const p=PX[curPX], el=document.getElementById('cmem');
+  if(!el) return;
+  if(!p.mem){el.innerHTML='';el.style.display='none';return;}
+  el.style.display='';
+  el.innerHTML='<span class="lbl">The basket · '+p.mem.length+' names · tap any for the full table</span>'
+    +p.mem.map(m=>'<a href="indices"><i class="'+(m.y>0?'up':'dn')+'"></i>'+m.n
+      +'<em>'+(m.y>0?'+':'')+m.y.toFixed(1)+'%</em></a>').join('');
+}
 function paintPX(){
   const p=PX[curPX];
   document.getElementById('cnm').textContent=p.k;
@@ -1600,7 +1619,7 @@ function paintPX(){
   const cd=document.getElementById('cd'); cd.textContent=p.d; cd.className='dl d '+p.cls;
   /* the row carries its own full footnote: real series say so, specimens say so */
   document.getElementById('cft').textContent=p.ft;
-  paintStats(); rgl(); drawChart();
+  paintStats(); paintMem(); rgl(); drawChart();
 }
 document.getElementById('ptabs').addEventListener('click',e=>{
   const b=e.target.closest('.ptab'); if(!b) return;
@@ -1630,7 +1649,7 @@ document.getElementById('crange').addEventListener('click',e=>{
   });
   wrap.addEventListener('pointerleave',()=>{tip.style.display='none';drawChart();});
 })();
-paintStats(); rgl();
+paintStats(); paintMem(); rgl();
 
 /* ══ guilloche behind the promise ══ */
 function drawGuil(){
@@ -1898,12 +1917,10 @@ addEventListener('resize',paint); paint();
   const NPL=74;
   const GEM=(function(){
     const R=Math.PI/180, P=[], S=0.86;          // S: fit to the old silhouette
-    /* Tolkowsky's pavilion, exactly. It was run at 44.5° for a while to
-       fake depth against the hero's downlook, but a deep pavilion leaks
-       the face-on view: rays entering the table exit the floor instead
-       of double-bouncing back up, and the table reads as a glass window.
-       At 40.75° the mains retro-reflect and the arrows draw themselves. */
-    const TAB=0.53, CA=34.5*R, PA=40.75*R, UG=42.5*R, LG=42.45*R;
+    /* Pavilion runs deeper than Tolkowsky's 40.75°. At the ideal angle the
+       stone is correct and reads stubby here, because the hero looks down
+       on it and foreshortens the depth; 44.5° puts the point back. */
+    const TAB=0.53, CA=34.5*R, PA=44.5*R, UG=42.5*R, LG=46.2*R;
     const STAR=0.55, GIR=0.020;
     const CH=(1-TAB)*Math.tan(CA), PD=Math.tan(PA);
     const add=(x,y,z,h)=>{const L=Math.hypot(x,y,z);P.push(x/L,y/L,z/L,h*S/L);};
@@ -1954,26 +1971,6 @@ void leave(vec3 ro,vec3 rd,out float tX,out vec3 nX){
   if(t>2e-5&&t<to){to=t;no=n;}}
  tX=to;nX=no;}
 vec3 env(vec3 d){float up=clamp(d.y*.5+.5,0.,1.);vec3 s=mix(vec3(.020,.030,.048),vec3(.10,.17,.26),up);
- /* hearts and arrows. Face-up, every visible path ends in this dim base
-    band, and each facet family collapses to one sample of it — so the
-    band IS the face-up image. Sculpt it like the reference photo: a white
-    field, and dark arms only where the pavilion-main family lands
-    (azimuth selects the family; the elevation slices deepen shaft and
-    arrowhead). Azimuth edges sit in empty direction-space so they never
-    fringe; elevation edges stay gentle for the same reason.
-    The white dome belongs to the H&A viewer, and it exists ONLY as the
-    table comes round to face you. A profile is shot dark-field — black
-    room, pinpoint lamps; leaving the dome lit from the side is exactly
-    what made the stone read milky. So the dome fades on the same curve
-    that collimates the channels, and the profile keeps its studio. */
- float az=atan(d.z,d.x), lo=1.-smoothstep(.30,.60,d.y);
- float dome=smoothstep(.55,1.,abs(sin(uTilt)));
- float fam=smoothstep(.40,.70,cos(8.*az));
- float shaft=smoothstep(-.17,-.04,d.y)*(1.-smoothstep(.0,.13,d.y));
- float head=1.-smoothstep(-.24,-.12,d.y);
- float dk=fam*(.45+.55*max(shaft,head));
- vec3 haw=mix(vec3(1.01,1.,.97)*1.60, vec3(.03,.032,.038), dk);
- s=mix(s,haw,lo*.985*dome);
  vec3 kd=normalize(vec3(.55,.72,-.42));float k=max(dot(d,kd),0.);
  s+=vec3(1.,.82,.46)*pow(k,30.)*26.;s+=vec3(.70,.55,.28)*pow(k,4.)*1.30;
  vec3 cd=normalize(vec3(-.75,.16,.60));float c=max(dot(d,cd),0.);
@@ -1982,42 +1979,26 @@ vec3 env(vec3 d){float up=clamp(d.y*.5+.5,0.,1.);vec3 s=mix(vec3(.020,.030,.048)
  vec3 sd=normalize(vec3(-.45,.62,-.65));s+=vec3(1.,.90,.62)*pow(max(dot(d,sd),0.),60.)*10.;
  vec3 vd=normalize(vec3(.42,-.46,.74));s+=vec3(1.,.22,.09)*pow(max(dot(d,vd),0.),80.)*7.;
  return s;}
-/* the viewer's own shadow: light that would reach the eye along a
-   retro-reflected path is light the viewer's head has already blocked.
-   The dark arrows in every hearts-and-arrows photograph ARE the camera;
-   without this no cut, however true, will draw them. */
-float obsc(vec3 d,vec3 v){return 1.-.86*smoothstep(.984,.9975,dot(d,-v));}
 vec3 trace(vec3 ro,vec3 rd,float ior){
  float t;vec3 n;if(!enter(ro,rd,t,n))return vec3(-1.);
  vec3 pos=ro+rd*t;float f0=pow((1.-ior)/(1.+ior),2.);
- vec3 R=reflect(rd,n);
- float fr=f0+(1.-f0)*pow(1.-max(dot(-rd,n),0.),5.);vec3 refl=env(R)*fr*obsc(R,rd);
+ float fr=f0+(1.-f0)*pow(1.-max(dot(-rd,n),0.),5.);vec3 refl=env(reflect(rd,n))*fr;
  vec3 rr=refract(rd,n,1./ior);vec3 p=pos;vec3 th=vec3(0.);float at=1.;
  /* seven bounces: a brilliant is cut so light caught by the pavilion
     bounces twice before it leaves through the crown, and the long paths
     are where the fire comes from */
  for(int b=0;b<7;b++){float tx;vec3 nx;leave(p,rr,tx,nx);p+=rr*tx;
   vec3 ex=refract(rr,nx,ior);
-  if(dot(ex,ex)<1e-7){rr=reflect(rr,nx);at*=.988;continue;}
-  th=env(ex)*at*obsc(ex,rd);break;}
+  if(dot(ex,ex)<1e-7){rr=reflect(rr,nx);at*=.988;continue;}th=env(ex)*at;break;}
  return refl+th*(1.-fr);}
 void main(){vec2 uv=(gl_FragCoord.xy-0.5*uRes)/uRes.y;
- /* a long lens, aimed at the stone. The camera rides 0.20 high for the
-    three-quarter flavour; the unaimed axis used to draw the stone a
-    tenth low, so face-on the girdle clipped the frame's bottom. And the
-    lens is long because arrows demand it: hearts-and-arrows viewers are
-    near-collimated, and a wide lens breaks the retro-reflection off-axis */
- vec3 ro=vec3(0.,0.20,6.0);vec3 rd=normalize(vec3(uv.x,uv.y-0.0983,-2.95));
+ vec3 ro=vec3(0.,0.20,3.15);vec3 rd=normalize(vec3(uv,-1.55));
  float a=uSpin;float ca=cos(a),sa=sin(a);mat3 ry=mat3(ca,0.,-sa,0.,1.,0.,sa,0.,ca);
  float ti=uTilt+sin(uT*0.23)*0.05;float ct=cos(ti),st=sin(ti);
  mat3 rx=mat3(1.,0.,0.,0.,ct,-st,0.,st,ct);mat3 M=ry*rx;
  mat3 Mi=mat3(M[0][0],M[1][0],M[2][0],M[0][1],M[1][1],M[2][1],M[0][2],M[1][2],M[2][2]);
  ro=Mi*ro;rd=Mi*rd;
- /* face-up the stone is read through a hearts-and-arrows viewer, and a
-    viewer is monochrome optics: the channels converge so the arrows draw
-    ink-on-white instead of smearing into rainbow. Fire returns with tilt. */
- float fu=smoothstep(.55,1.05,abs(sin(uTilt)));
- vec3 col;col.r=trace(ro,rd,mix(2.407,2.426,fu)).r;col.g=trace(ro,rd,2.426).g;col.b=trace(ro,rd,mix(2.451,2.426,fu)).b;
+ vec3 col;col.r=trace(ro,rd,2.407).r;col.g=trace(ro,rd,2.426).g;col.b=trace(ro,rd,2.451).b;
  if(col.r<0.&&col.g<0.&&col.b<0.){gl_FragColor=vec4(0.);return;}
  col=max(col,vec3(0.));col*=1.28;col=col/(col+vec3(0.58));col=pow(col,vec3(0.4545));
  float al=clamp(max(col.r,max(col.g,col.b))*3.2,0.,1.);
