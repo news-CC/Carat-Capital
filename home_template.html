@@ -277,10 +277,17 @@ section{position:relative;z-index:1}
   color:var(--fg3);padding-bottom:8px;text-align:right}
 .lede{font-size:clamp(16px,1.9vw,20px);color:var(--fg2);max-width:62ch}
 /* engraved rule — a guilloche hairline */
-.erule{height:14px;margin:clamp(16px,2.6vh,30px) 0;opacity:.8;
-  background:repeating-linear-gradient(90deg,var(--acc) 0 1px,transparent 1px 9px);
-  -webkit-mask:linear-gradient(90deg,transparent,#000 12%,#000 88%,transparent);
-          mask:linear-gradient(90deg,transparent,#000 12%,#000 88%,transparent);opacity:.35}
+.erule{height:14px;margin:clamp(16px,2.6vh,30px) 0;
+  /* ink-black at the centre, stepping to lighter and lighter gray toward
+     the ends — the ticks take the page's own ink, so they stay correct
+     on both sides of the dawn */
+  background:repeating-linear-gradient(90deg,var(--fg) 0 1px,transparent 1px 9px);
+  -webkit-mask:linear-gradient(90deg,transparent 0%,rgba(0,0,0,.14) 7%,rgba(0,0,0,.32) 15%,
+    rgba(0,0,0,.58) 26%,#000 40%,#000 60%,rgba(0,0,0,.58) 74%,rgba(0,0,0,.32) 85%,
+    rgba(0,0,0,.14) 93%,transparent 100%);
+          mask:linear-gradient(90deg,transparent 0%,rgba(0,0,0,.14) 7%,rgba(0,0,0,.32) 15%,
+    rgba(0,0,0,.58) 26%,#000 40%,#000 60%,rgba(0,0,0,.58) 74%,rgba(0,0,0,.32) 85%,
+    rgba(0,0,0,.14) 93%,transparent 100%);opacity:.88}
 
 .js .rv{opacity:0;transform:translateY(24px);transition:opacity .85s var(--glide),transform .85s var(--glide)}
 .rv.in{opacity:1;transform:none}
