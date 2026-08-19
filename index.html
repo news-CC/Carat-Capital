@@ -1976,6 +1976,14 @@ void leave(vec3 ro,vec3 rd,out float tX,out vec3 nX){
   if(t>2e-5&&t<to){to=t;no=n;}}
  tX=to;nX=no;}
 vec3 env(vec3 d){float up=clamp(d.y*.5+.5,0.,1.);vec3 s=mix(vec3(.020,.030,.048),vec3(.10,.17,.26),up);
+ /* the room has walls: face-up, every visible path ends in this dim base
+    sky, and a smooth gradient hands the table a soft pinwheel of nothing.
+    Hard-edged panels with dark gaps — twisted so they never sit as a
+    bullseye — give each facet one flat value and a hard step to its
+    neighbour, which is what "faceted" looks like. The big lights below
+    drown this out everywhere the profile and tip views actually sample. */
+ float cells=smoothstep(-.06,.06,cos(8.*atan(d.z,d.x)+4.*d.y)*cos(11.*acos(clamp(d.y,-1.,1.))+.9));
+ s*=.22+2.1*cells;
  vec3 kd=normalize(vec3(.55,.72,-.42));float k=max(dot(d,kd),0.);
  s+=vec3(1.,.82,.46)*pow(k,30.)*26.;s+=vec3(.70,.55,.28)*pow(k,4.)*1.30;
  vec3 cd=normalize(vec3(-.75,.16,.60));float c=max(dot(d,cd),0.);
