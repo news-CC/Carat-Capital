@@ -1,0 +1,1458 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Salon Malone</title>
+<meta name="description" content="Salon Malone phones the clients who quietly stopped booking — as your salon's virtual concierge — offers them a specific time, and emails you the moment one says yes. Consent-gated, one attempt ever, instant opt-out.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600&family=Instrument+Serif:ital@1&display=swap">
+<style>
+/* ============================================================
+   SALON MALONE — "the list becomes light"
+   A silver salon-at-night world: god rays through haze, one
+   particle entity that morphs through the product's story
+   (mist → empty chair → handset → waveform → ✕ → wave → bars),
+   Swiss caps typography, white card counterpoint.
+   Single-theme committed design; every color painted explicitly.
+   Copy adapted from the salon-man draft — every claim is one
+   the shipped product delivers.
+   ============================================================ */
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --ink-bg: #0b0e13;
+  --white: #ffffff;
+  --w92: rgba(255,255,255,0.92);
+  --w75: rgba(255,255,255,0.75);
+  --w55: rgba(255,255,255,0.55);
+  --w38: rgba(255,255,255,0.38);
+  --hair: rgba(255,255,255,0.16);
+  --hair-soft: rgba(255,255,255,0.09);
+  --card-light: #f4f2ee;
+  --card-ink: #14161a;
+  --card-ink-soft: #4a4d54;
+  --accent: #e9c79b;      /* champagne — used sparingly */
+  --rose: #d9a0b4;
+  --font-caps: 'Archivo', ui-sans-serif, system-ui, sans-serif;
+  --font-serif: 'Instrument Serif', Georgia, serif;
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-io: cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+body {
+  background: var(--ink-bg);
+  color: var(--white);
+  font-family: var(--font-caps);
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+::selection { background: rgba(233,199,155,0.3); color: #fff; }
+:focus-visible { outline: 2px solid rgba(255,255,255,0.75); outline-offset: 3px; }
+a { color: inherit; text-decoration: none; }
+button { font: inherit; color: inherit; background: none; border: none; cursor: pointer; }
+input { font: inherit; }
+
+/* ---------------- atmosphere stack ---------------- */
+#gl { position: fixed; inset: 0; width: 100%; height: 100%; z-index: 2; pointer-events: none; }
+#deco { position: fixed; inset: 0; width: 100%; height: 100%; z-index: 1; pointer-events: none; }
+
+.atmos { position: fixed; inset: 0; z-index: 0; pointer-events: none; overflow: hidden; background:
+  radial-gradient(120% 90% at 50% 118%, #37404f 0%, rgba(55,64,79,0) 55%),
+  radial-gradient(140% 100% at 50% -20%, #515c70 0%, rgba(81,92,112,0) 62%),
+  radial-gradient(90% 70% at 50% 32%, rgba(126,138,162,0.22) 0%, rgba(126,138,162,0) 70%),
+  linear-gradient(180deg, #171c26 0%, #0f131b 55%, #0b0e14 100%); }
+.beam { position: absolute; top: -22%; height: 135%; filter: blur(22px); opacity: 0.7;
+  background: linear-gradient(180deg, rgba(240,245,253,0.62) 0%, rgba(240,245,253,0.16) 48%, rgba(240,245,253,0) 84%); }
+.beam-a { left: 12%; width: 13vw; transform: rotate(13deg); animation: beam-a 11s ease-in-out infinite alternate; }
+.beam-b { left: 44%; width: 8vw; transform: rotate(8deg); opacity: 0.45; animation: beam-b 13s ease-in-out infinite alternate; }
+.beam-c { right: 6%; width: 17vw; transform: rotate(-14deg); opacity: 0.58; animation: beam-c 15s ease-in-out infinite alternate; }
+.beam-d { left: 66%; width: 5vw; transform: rotate(-4deg); opacity: 0.3; animation: beam-b 17s ease-in-out infinite alternate; }
+@keyframes beam-a { from { opacity: 0.42; transform: rotate(12deg) translateX(-1.5vw); } to { opacity: 0.75; transform: rotate(14deg) translateX(1vw); } }
+@keyframes beam-b { from { opacity: 0.26; } to { opacity: 0.52; } }
+@keyframes beam-c { from { opacity: 0.36; transform: rotate(-15deg); } to { opacity: 0.66; transform: rotate(-12.5deg); } }
+
+#grain { position: fixed; inset: -110px; z-index: 3; pointer-events: none; opacity: 0.08; }
+#vignette { position: fixed; inset: 0; z-index: 3; pointer-events: none; background:
+  radial-gradient(115% 85% at 50% 40%, transparent 62%, rgba(5,6,9,0.34) 100%),
+  linear-gradient(180deg, rgba(5,6,9,0.3) 0%, transparent 12%, transparent 90%, rgba(5,6,9,0.38) 100%); }
+
+/* the page-transition wipe: a glossy dark plane that sweeps the viewport */
+#wipe { position: fixed; inset: -20%; z-index: 40; pointer-events: none;
+  background: linear-gradient(115deg, #05070b 0%, #0d1119 46%, #1b2230 50%, #0d1119 54%, #05070b 100%);
+  box-shadow: 0 0 120px rgba(0,0,0,0.8);
+  transform: translate3d(-135%, 135%, 0) rotate(-16deg) scale(1.6);
+  will-change: transform; }
+#wipe.sweep { animation: sweep 0.8s var(--ease-io) forwards; }
+@keyframes sweep {
+  0%   { transform: translate3d(-135%, 135%, 0) rotate(-16deg) scale(1.6); }
+  100% { transform: translate3d(135%, -135%, 0) rotate(-16deg) scale(1.6); }
+}
+
+main { position: relative; z-index: 4; }
+
+/* ---------------- liquid glass ---------------- */
+.glass {
+  background: rgba(255,255,255,0.012);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: none;
+  box-shadow: inset 0 1px 1px rgba(255,255,255,0.1);
+  position: relative; overflow: hidden;
+}
+.glass::before {
+  content: ""; position: absolute; inset: 0; border-radius: inherit; padding: 1px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.4) 0%, rgba(255,255,255,0.12) 22%, rgba(255,255,255,0) 42%, rgba(255,255,255,0) 62%, rgba(255,255,255,0.12) 82%, rgba(255,255,255,0.4) 100%);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
+/* ---------------- type ---------------- */
+.caps {
+  font-family: var(--font-caps);
+  font-weight: 500;
+  text-transform: uppercase;
+  color: var(--white);
+  line-height: 1.02;
+  letter-spacing: 0.01em;
+  text-wrap: balance;
+}
+.h-mega  { font-size: clamp(2.5rem, 6.2vw, 5.1rem); }
+.h-big   { font-size: clamp(2rem, 4.6vw, 3.8rem); }
+.micro {
+  font-size: 0.6563rem; font-weight: 500;
+  text-transform: uppercase; letter-spacing: 0.22em;
+  color: var(--w55); line-height: 1.7;
+}
+.body-s { font-size: 0.8438rem; line-height: 1.55; color: var(--w75); font-weight: 400; }
+.serif-i { font-family: var(--font-serif); font-style: italic; font-weight: 400; }
+
+/* headline line reveal: each .line rises out of a clipping mask */
+.rise { overflow: hidden; display: block; }
+.rise > span { display: block; transform: translateY(112%); transition: transform 0.9s var(--ease); transition-delay: var(--d, 0s); will-change: transform; }
+.on .rise > span, .rise.on > span { transform: translateY(0); }
+
+.fade { opacity: 0; transform: translateY(14px); filter: blur(6px);
+  transition: opacity 0.8s var(--ease), transform 0.8s var(--ease), filter 0.8s var(--ease);
+  transition-delay: var(--d, 0s); will-change: opacity, transform, filter; }
+.on .fade, .fade.on { opacity: 1; transform: none; filter: none; }
+
+/* per-letter blur reveal (the ENVISION move) for the closing title */
+.blurcaps span { display: inline-block; opacity: 0; filter: blur(14px); transform: translateY(0.12em);
+  transition: opacity 0.7s var(--ease), filter 0.7s var(--ease), transform 0.7s var(--ease);
+  transition-delay: var(--ld, 0s); }
+.blurcaps.on span { opacity: 1; filter: blur(0); transform: none; }
+
+/* ---------------- nav ---------------- */
+nav { position: fixed; top: 0; left: 0; right: 0; z-index: 50;
+  display: grid; grid-template-columns: 1fr auto 1fr; align-items: center;
+  padding: 1.1rem 2rem 0.9rem;
+  font-size: 0.7188rem; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase;
+  background: linear-gradient(180deg, rgba(8,10,14,0.72) 0%, rgba(8,10,14,0) 100%); }
+@media (min-width: 1024px) { nav { padding-left: 3rem; padding-right: 3rem; } }
+.nav-l { display: flex; gap: 1.9rem; }
+.nav-r { display: flex; gap: 1.9rem; justify-content: flex-end; align-items: center; }
+.nav-link { color: var(--w75); transition: color 160ms ease; white-space: nowrap; }
+.nav-link:hover { color: #fff; }
+.nav-cta { color: #fff; text-decoration: underline; text-underline-offset: 5px; text-decoration-thickness: 1px; white-space: nowrap; }
+.brand { display: flex; align-items: center; gap: 0.9rem; color: var(--w92); letter-spacing: 0.32em; font-weight: 500; white-space: nowrap; }
+.brand::before, .brand::after { content: ""; width: 2.6rem; height: 1px; background: var(--hair); }
+@media (max-width: 900px) { .nav-l { display: none; } .nav-r > .nav-link { display: none; } nav { grid-template-columns: auto 1fr; } .nav-r { justify-self: end; } .brand { justify-self: start; } .brand::before { display: none; } }
+
+/* ---------------- scenes ---------------- */
+.scene { position: relative; min-height: 100svh; display: flex; flex-direction: column; padding: 6.5rem 2rem 3rem; }
+@media (min-width: 1024px) { .scene { padding: 7rem 3rem 3.25rem; } }
+.scene-inner { position: relative; width: 100%; max-width: 90rem; margin: 0 auto; flex: 1; display: flex; flex-direction: column; }
+
+/* HERO */
+.hero-stage { flex: 1; position: relative; min-height: 62svh; }
+.hero-tl { position: absolute; top: 1.2rem; left: 0; }
+.hero-br { position: absolute; bottom: 0; right: 0; text-align: right; }
+.hero-cta { display: inline-block; margin-top: 1.4rem; font-size: 0.7188rem; font-weight: 500; letter-spacing: 0.2em; text-transform: uppercase; color: #fff;
+  text-decoration: underline; text-underline-offset: 6px; text-decoration-thickness: 1px; }
+.hero-cta:hover { color: var(--accent); }
+.hero-bl { position: absolute; bottom: 0; left: 0; max-width: 21rem; }
+@media (max-width: 760px) {
+  .hero-stage { min-height: 70svh; }
+  .hero-bl { position: static; margin-top: auto; max-width: 100%; }
+  .hero-br { position: static; text-align: left; margin-top: 2rem; }
+  .hero-tl { position: static; }
+  .hero-stage { display: flex; flex-direction: column; }
+}
+.stats-strip { display: flex; align-items: stretch; margin-top: 1.1rem; }
+.stats-strip .cell { padding-right: 1.1rem; margin-right: 1.1rem; border-right: 1px solid var(--hair); }
+.stats-strip .cell:last-child { border-right: 0; margin-right: 0; padding-right: 0; }
+.stats-strip .num { font-weight: 600; font-size: 1.05rem; color: #fff; letter-spacing: 0.02em; white-space: nowrap; }
+.stats-strip .lbl { font-size: 0.5938rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--w55); margin-top: 0.3rem; line-height: 1.5; }
+
+.scroll-cue { position: absolute; left: 50%; bottom: 0.4rem; transform: translateX(-50%);
+  display: flex; flex-direction: column; align-items: center; gap: 0.5rem; color: var(--w38); }
+.scroll-cue .stem { width: 1px; height: 2.6rem; background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.5) 100%); overflow: hidden; position: relative; }
+.scroll-cue .stem::after { content: ""; position: absolute; left: 0; top: -50%; width: 1px; height: 50%; background: #fff; animation: drip 2.2s var(--ease-io) infinite; }
+@keyframes drip { 0% { top: -50%; } 70%, 100% { top: 110%; } }
+@media (max-width: 760px) { .scroll-cue { display: none; } }
+
+/* section header pattern */
+.sec-right { text-align: right; margin-left: auto; max-width: 46rem; }
+.sec-left  { max-width: 46rem; }
+.sec-para { margin-top: 1.3rem; max-width: 30rem; }
+.sec-right .sec-para { margin-left: auto; }
+.kick { display: inline-flex; align-items: center; gap: 0.7rem; margin-bottom: 1.2rem; }
+.kick .tick { width: 2rem; height: 1px; background: var(--accent); opacity: 0.7; }
+
+/* THE CALL */
+.call-grid { display: grid; gap: 2.5rem; margin-top: 3rem; grid-template-columns: 1fr; align-items: start; }
+@media (min-width: 1024px) { .call-grid { grid-template-columns: minmax(0, 30rem) minmax(0, 1fr); gap: 4rem; } }
+.transcript { border-radius: 1.1rem; padding: 1.35rem; background: rgba(10,13,18,0.55); }
+.tr-top { display: flex; align-items: center; justify-content: space-between; padding: 0.1rem 0.3rem 1.05rem; }
+.tr-id { display: flex; align-items: center; gap: 0.7rem; }
+.tr-avatar { width: 32px; height: 32px; border-radius: 999px; display: flex; align-items: center; justify-content: center;
+  font-family: var(--font-serif); font-style: italic; font-size: 1.05rem; color: #fff; }
+.tr-name { font-size: 0.7188rem; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #fff; }
+.tr-sub { display: flex; align-items: center; gap: 0.4rem; font-size: 0.5938rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--w55); margin-top: 0.25rem; }
+.live-dot { width: 5px; height: 5px; border-radius: 999px; background: var(--accent); animation: pulse 2s ease-in-out infinite; }
+@keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.25; } }
+.tr-timer { font-size: 0.6563rem; letter-spacing: 0.12em; color: var(--w55); font-variant-numeric: tabular-nums; }
+.chat { display: flex; flex-direction: column; gap: 0.55rem; height: 20rem; overflow-y: auto;
+  scrollbar-width: none; -ms-overflow-style: none;
+  mask-image: linear-gradient(180deg, transparent 0, #000 1.2rem, #000 100%);
+  -webkit-mask-image: linear-gradient(180deg, transparent 0, #000 1.2rem, #000 100%); }
+.chat::-webkit-scrollbar { display: none; }
+.msg { max-width: 90%; border-radius: 0.85rem; padding: 0.6rem 0.8rem; font-size: 0.8125rem; line-height: 1.45; color: var(--w92);
+  opacity: 0; transform: translateY(10px); filter: blur(5px);
+  transition: opacity 0.45s var(--ease), transform 0.45s var(--ease), filter 0.45s var(--ease); }
+.msg.show { opacity: 1; transform: none; filter: none; }
+.msg .who { display: block; font-size: 0.5313rem; font-weight: 600; letter-spacing: 0.2em; text-transform: uppercase; color: var(--w38); margin-bottom: 0.3rem; }
+.msg-agent { align-self: flex-start; background: rgba(255,255,255,0.055); border-bottom-left-radius: 0.25rem; }
+.msg-human { align-self: flex-end; background: rgba(255,255,255,0.12); border-bottom-right-radius: 0.25rem; }
+.typing { align-self: flex-start; display: none; gap: 0.26rem; border-radius: 0.85rem; border-bottom-left-radius: 0.25rem; background: rgba(255,255,255,0.055); padding: 0.7rem 0.85rem; }
+.typing.show { display: inline-flex; }
+.typing i { width: 4px; height: 4px; border-radius: 999px; background: rgba(255,255,255,0.6); animation: tdots 1s ease-in-out infinite; }
+.typing i:nth-child(2) { animation-delay: 0.15s; }
+.typing i:nth-child(3) { animation-delay: 0.3s; }
+@keyframes tdots { 0%, 100% { transform: translateY(0); opacity: 0.35; } 50% { transform: translateY(-3px); opacity: 1; } }
+.tr-note { margin-top: 1rem; padding-top: 0.85rem; border-top: 1px solid var(--hair-soft);
+  display: flex; align-items: center; justify-content: space-between; gap: 0.8rem;
+  font-size: 0.5938rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--w38); line-height: 1.7; }
+.replay { display: inline-flex; align-items: center; gap: 0.35rem; font-size: 0.5938rem; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase;
+  color: var(--w75); border-radius: 999px; padding: 0.35rem 0.8rem; flex-shrink: 0; }
+.replay:hover { color: #fff; background: rgba(255,255,255,0.07); }
+
+.branches { display: grid; gap: 0; margin-top: 0.4rem; }
+.branch { padding: 1.4rem 0.2rem 1.5rem; border-top: 1px solid var(--hair-soft); }
+.branch:first-child { border-top: 0; padding-top: 0.2rem; }
+.branch .bw { font-size: 0.5938rem; font-weight: 600; letter-spacing: 0.22em; text-transform: uppercase; color: var(--w38); }
+.branch .bq { font-family: var(--font-serif); font-style: italic; font-size: 1.35rem; line-height: 1.3; color: #fff; margin-top: 0.6rem; }
+.branch .bt { margin-top: 0.5rem; max-width: 30rem; }
+.branch .tags { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.8rem; }
+.tag { border-radius: 999px; padding: 0.28rem 0.75rem; font-size: 0.5938rem; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; color: var(--w75); white-space: nowrap; }
+
+/* INTERLUDE */
+.inter { justify-content: center; }
+.inter-stage { position: relative; flex: 1; display: flex; align-items: center; min-height: 66svh; }
+.inter-word { position: absolute; top: 50%; transform: translateY(-50%); }
+.inter-word.l { left: 0; }
+.inter-word.r { right: 0; text-align: right; }
+.inter-chips { position: absolute; left: 0; bottom: 0; display: grid; grid-template-columns: auto auto; gap: 0.45rem; justify-items: start; }
+.inter-note { position: absolute; right: 0; bottom: 0.2rem; max-width: 15rem; text-align: right; }
+@media (max-width: 760px) {
+  .inter-stage { flex-direction: column; justify-content: center; gap: 42vw; min-height: 76svh; }
+  .inter-word { position: static; transform: none; }
+  .inter-word.r { text-align: right; align-self: flex-end; }
+  .inter-chips { position: static; margin-top: 2rem; }
+  .inter-note { display: none; }
+}
+
+/* HOW — white cards */
+.steps { display: grid; gap: 0.9rem; margin-top: 3rem; grid-template-columns: 1fr; }
+@media (min-width: 700px) { .steps { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 1100px) { .steps { grid-template-columns: repeat(3, 1fr); } }
+.step { background: var(--card-light); color: var(--card-ink); border-radius: 4px; padding: 1.15rem 1.2rem 1.3rem; min-height: 17rem;
+  display: flex; flex-direction: column; box-shadow: 0 30px 60px -30px rgba(0,0,0,0.55);
+  transition: transform 0.45s var(--ease); }
+.step:hover { transform: translateY(-4px); }
+.step .n { font-size: 0.7188rem; font-weight: 600; letter-spacing: 0.16em; }
+.step h3 { margin-top: auto; padding-top: 3rem; font-family: var(--font-caps); font-weight: 600; text-transform: uppercase;
+  font-size: 0.9063rem; letter-spacing: 0.06em; line-height: 1.35; color: var(--card-ink); }
+.step p { margin-top: 0.55rem; font-size: 0.7813rem; line-height: 1.5; color: var(--card-ink-soft); }
+
+/* MATH */
+.funnel { margin-top: 3rem; border-top: 1px solid var(--hair); }
+.frow { display: grid; grid-template-columns: minmax(9rem, 17rem) 1fr auto; align-items: center; gap: 1.4rem;
+  padding: 0.95rem 0; border-bottom: 1px solid var(--hair-soft); }
+.frow .fl { font-size: 0.625rem; font-weight: 500; letter-spacing: 0.18em; text-transform: uppercase; color: var(--w55); line-height: 1.6; }
+.frow .track { position: relative; height: 3px; background: rgba(255,255,255,0.06); border-radius: 999px; }
+.frow .bar { position: absolute; left: 0; top: 0; bottom: 0; width: 0; border-radius: 999px;
+  background: linear-gradient(90deg, #fff 0%, rgba(255,255,255,0.35) 100%);
+  box-shadow: 0 0 12px rgba(255,255,255,0.35);
+  transition: width 1.2s var(--ease); transition-delay: var(--d, 0s); min-width: 3px; }
+.frow .fn { font-weight: 600; font-size: 1.5rem; letter-spacing: 0.01em; color: #fff; font-variant-numeric: tabular-nums; text-align: right; min-width: 4.6rem; }
+@media (max-width: 620px) { .frow { grid-template-columns: 1fr auto; } .frow .track { grid-column: 1 / -1; order: 3; } }
+
+.math-results { display: grid; gap: 0.9rem; margin-top: 2.6rem; grid-template-columns: 1fr; }
+@media (min-width: 760px) { .math-results { grid-template-columns: 1fr 1fr; } }
+.result { border-radius: 1.1rem; padding: 1.7rem 1.6rem 1.6rem; }
+.result .rn { font-weight: 600; font-size: clamp(2.4rem, 4.6vw, 3.4rem); letter-spacing: -0.01em; line-height: 1; color: #fff; font-variant-numeric: tabular-nums; }
+.result .rn em { font-style: normal; color: var(--accent); }
+.result .rl { margin-top: 0.8rem; max-width: 34ch; }
+.badge-line { display: inline-flex; margin-top: 2.4rem; }
+.footnote { margin-top: 1rem; max-width: 52rem; font-size: 0.7188rem; line-height: 1.65; color: var(--w38); }
+
+.after { display: grid; gap: 0.9rem; margin-top: 2.6rem; grid-template-columns: 1fr; }
+@media (min-width: 760px) { .after { grid-template-columns: 1fr 1fr; } }
+.after-item { border-top: 1px solid var(--hair); padding-top: 1.1rem; }
+.after-item .aw { font-size: 0.5938rem; font-weight: 600; letter-spacing: 0.22em; text-transform: uppercase; color: var(--accent); }
+.after-item h3 { margin-top: 0.6rem; font-weight: 600; text-transform: uppercase; font-size: 0.9375rem; letter-spacing: 0.06em; }
+.after-item p { margin-top: 0.5rem; max-width: 40ch; }
+
+/* SAFEGUARDS */
+.safes { display: grid; gap: 2.2rem 2.5rem; margin-top: 3rem; grid-template-columns: 1fr; }
+@media (min-width: 700px) { .safes { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 1100px) { .safes { grid-template-columns: repeat(3, 1fr); } }
+.safe { border-top: 1px solid var(--hair); padding-top: 1.1rem; }
+.safe .s-top { display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+.safe h3 { font-weight: 600; text-transform: uppercase; font-size: 0.9063rem; letter-spacing: 0.06em; line-height: 1.4; }
+.safe p { margin-top: 0.6rem; max-width: 42ch; }
+.counsel { border-radius: 1.1rem; padding: 1.6rem 1.7rem; margin-top: 3rem; max-width: 54rem; }
+.counsel .ct { font-family: var(--font-serif); font-style: italic; font-size: 1.4rem; color: #fff; }
+.counsel p { margin-top: 0.7rem; }
+.counsel a { color: var(--w92); border-bottom: 1px solid rgba(255,255,255,0.35); }
+.counsel a:hover { border-bottom-color: #fff; }
+
+/* PRICING */
+.pilot { background: var(--card-light); color: var(--card-ink); border-radius: 4px; margin-top: 3rem;
+  padding: 1.6rem 1.5rem; display: flex; flex-direction: column; gap: 1.6rem;
+  box-shadow: 0 40px 80px -40px rgba(0,0,0,0.6); }
+@media (min-width: 900px) { .pilot { flex-direction: row; align-items: center; padding: 2.1rem 2.2rem; } }
+.pilot-main { flex: 1; }
+.pilot .pk { font-size: 0.625rem; font-weight: 600; letter-spacing: 0.22em; text-transform: uppercase; color: #8a6f4d; }
+.pilot h3 { margin-top: 0.6rem; font-weight: 600; text-transform: uppercase; font-size: 1.25rem; letter-spacing: 0.05em; color: var(--card-ink); }
+.pilot .pb { margin-top: 0.6rem; font-size: 0.8125rem; line-height: 1.55; color: var(--card-ink-soft); max-width: 46ch; }
+.pilot ul { list-style: none; margin-top: 1rem; display: grid; gap: 0.4rem; }
+@media (min-width: 700px) { .pilot ul { grid-template-columns: 1fr 1fr; } }
+.pilot li { display: flex; gap: 0.6rem; font-size: 0.75rem; line-height: 1.45; color: var(--card-ink-soft); }
+.pilot li::before { content: ""; margin-top: 0.6em; width: 11px; height: 1px; background: #9a9285; flex-shrink: 0; }
+.pilot-side { flex-shrink: 0; }
+@media (min-width: 900px) { .pilot-side { width: 15rem; border-left: 1px solid rgba(20,22,26,0.14); padding-left: 2.2rem; } }
+.pilot .price { font-weight: 600; font-size: 2.9rem; line-height: 1; letter-spacing: -0.01em; color: var(--card-ink); }
+.pilot .cad { font-size: 0.5938rem; font-weight: 600; letter-spacing: 0.22em; text-transform: uppercase; color: #8a8478; margin-top: 0.5rem; }
+.btn-ink { display: inline-flex; align-items: center; gap: 0.5rem; margin-top: 1.2rem; background: var(--card-ink); color: #fff;
+  border-radius: 999px; padding: 0.65rem 1.2rem; font-size: 0.6563rem; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase;
+  transition: opacity 160ms ease, transform 160ms ease; }
+.btn-ink:hover { opacity: 0.88; }
+.btn-ink:active { transform: translateY(1px); }
+
+.plans { display: grid; gap: 0.9rem; margin-top: 0.9rem; grid-template-columns: 1fr; }
+@media (min-width: 900px) { .plans { grid-template-columns: repeat(3, 1fr); } }
+.plan { border-radius: 1.1rem; padding: 1.5rem 1.4rem; display: flex; flex-direction: column; }
+.plan .p-top { display: flex; align-items: baseline; justify-content: space-between; gap: 0.7rem; }
+.plan h3 { font-weight: 600; text-transform: uppercase; font-size: 0.9375rem; letter-spacing: 0.1em; }
+.plan .price { font-weight: 600; font-size: 2.3rem; line-height: 1; margin-top: 1.1rem; font-variant-numeric: tabular-nums; }
+.plan .cad { font-size: 0.5625rem; font-weight: 600; letter-spacing: 0.22em; text-transform: uppercase; color: var(--w38); margin-top: 0.45rem; }
+.plan .pb { margin-top: 0.8rem; }
+.plan ul { list-style: none; margin-top: 1rem; display: grid; gap: 0; flex: 1; align-content: start; }
+.plan li { padding: 0.5rem 0; border-top: 1px solid var(--hair-soft); font-size: 0.7188rem; line-height: 1.45; color: var(--w55); }
+.plan .choose { display: inline-flex; align-items: center; gap: 0.5rem; margin-top: 1.2rem;
+  font-size: 0.6563rem; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: #fff;
+  text-decoration: underline; text-underline-offset: 5px; text-decoration-thickness: 1px; }
+.plan .choose:hover { color: var(--accent); }
+.chip-flag { border-radius: 999px; padding: 0.24rem 0.65rem; font-size: 0.5313rem; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: var(--w75); white-space: nowrap; }
+.pricing-note { margin-top: 2rem; max-width: 46rem; }
+.pricing-note a { color: var(--w92); border-bottom: 1px solid rgba(255,255,255,0.35); }
+.pricing-note a:hover { border-bottom-color: #fff; }
+
+/* FAQ */
+.faq { margin-top: 2.8rem; max-width: 52rem; border-top: 1px solid var(--hair); }
+.faq details { border-bottom: 1px solid var(--hair-soft); }
+.faq summary { list-style: none; cursor: pointer; display: flex; align-items: baseline; justify-content: space-between; gap: 1.2rem;
+  padding: 1.15rem 0.1rem; font-weight: 600; text-transform: uppercase; font-size: 0.8438rem; letter-spacing: 0.08em; color: var(--w92); }
+.faq summary:hover { color: #fff; }
+.faq summary::-webkit-details-marker { display: none; }
+.faq .plus { font-weight: 400; font-size: 1rem; color: var(--w38); transition: transform 0.35s var(--ease); flex-shrink: 0; }
+.faq details[open] .plus { transform: rotate(45deg); }
+.faq .ans { padding: 0 0.1rem 1.3rem; max-width: 60ch; }
+.faq-more { margin-top: 1.6rem; }
+.faq-more a { color: var(--w92); border-bottom: 1px solid rgba(255,255,255,0.35); }
+
+/* CLOSING */
+.closing { text-align: center; justify-content: center; }
+.closing-stage { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: flex-start; min-height: 80svh; position: relative; padding-top: 1.2rem; }
+.closing-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; width: 100%; max-width: 64rem; margin-top: min(34svh, 22rem); text-align: left; }
+@media (max-width: 760px) { .closing-cols { margin-top: min(30svh, 17rem); } }
+.closing-cols .col-r { text-align: right; justify-self: end; }
+@media (max-width: 760px) { .closing-cols { grid-template-columns: 1fr; } .closing-cols .col-r { text-align: left; justify-self: start; } }
+.contact { width: 100%; max-width: 46rem; margin: 3rem auto 0; border-radius: 999px; padding: 0.4rem;
+  display: flex; align-items: center; gap: 0.4rem; }
+.contact input { flex: 1; min-width: 0; background: transparent; border: 0; color: #fff; padding: 0.65rem 1.1rem;
+  font-size: 0.8125rem; letter-spacing: 0.04em; }
+.contact input::placeholder { color: var(--w38); text-transform: uppercase; font-size: 0.6563rem; letter-spacing: 0.18em; }
+.contact input:focus { outline: none; }
+.contact .divider { width: 1px; height: 1.4rem; background: var(--hair-soft); flex-shrink: 0; }
+.btn-white { display: inline-flex; align-items: center; gap: 0.5rem; background: #fff; color: #0b0e13; border-radius: 999px;
+  padding: 0.68rem 1.25rem; font-size: 0.6563rem; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; white-space: nowrap;
+  transition: opacity 160ms ease, transform 160ms ease; flex-shrink: 0; }
+.btn-white:hover { opacity: 0.88; }
+.btn-white:active { transform: translateY(1px); }
+@media (max-width: 620px) {
+  .contact { flex-direction: column; border-radius: 1.2rem; padding: 0.8rem; align-items: stretch; }
+  .contact .divider { display: none; }
+  .contact input { border-bottom: 1px solid var(--hair-soft); border-radius: 0; padding: 0.7rem 0.4rem; }
+}
+.closing-alt { margin-top: 1.4rem; }
+.closing-alt a { color: var(--w75); border-bottom: 1px solid rgba(255,255,255,0.3); }
+.closing-alt a:hover { color: #fff; }
+
+/* FOOTER */
+footer { position: relative; z-index: 4; border-top: 1px solid var(--hair-soft); padding: 2.6rem 2rem 3rem;
+  font-size: 0.7188rem; line-height: 1.7; color: var(--w38); }
+.foot-wrap { max-width: 90rem; margin: 0 auto; display: grid; gap: 2rem; grid-template-columns: 1fr; }
+@media (min-width: 900px) { .foot-wrap { grid-template-columns: 1.1fr 1fr 1fr; gap: 3rem; } }
+.foot-brand { font-family: var(--font-serif); font-style: italic; font-size: 1.5rem; color: #fff; }
+.foot-h { font-size: 0.5625rem; font-weight: 600; letter-spacing: 0.24em; text-transform: uppercase; color: var(--w55); margin-bottom: 0.6rem; }
+footer a { color: var(--w55); }
+footer a:hover { color: #fff; }
+.foot-legal { max-width: 90rem; margin: 2.4rem auto 0; padding-top: 1.4rem; border-top: 1px solid var(--hair-soft);
+  display: flex; flex-wrap: wrap; gap: 0.7rem 2rem; justify-content: space-between; }
+
+/* ---------------- reduced motion ---------------- */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; }
+  .rise > span, .fade, .blurcaps span, .msg { opacity: 1 !important; transform: none !important; filter: none !important; }
+  #wipe { display: none; }
+}
+</style>
+</head>
+<body>
+
+<div class="atmos" aria-hidden="true"><div class="beam beam-a"></div><div class="beam beam-b"></div><div class="beam beam-c"></div><div class="beam beam-d"></div></div>
+<canvas id="deco" aria-hidden="true"></canvas>
+<canvas id="gl" aria-hidden="true"></canvas>
+<div id="grain" aria-hidden="true"></div>
+<div id="vignette" aria-hidden="true"></div>
+<div id="wipe" aria-hidden="true"></div>
+
+<nav aria-label="Main">
+  <div class="nav-l">
+    <a class="nav-link" href="#call">The call</a>
+    <a class="nav-link" href="#how">How it runs</a>
+    <a class="nav-link" href="#math">The math</a>
+  </div>
+  <a class="brand" href="#top">Salon Malone</a>
+  <div class="nav-r">
+    <a class="nav-link" href="#pricing">Pricing</a>
+    <a class="nav-link" href="#faq">FAQ</a>
+    <a class="nav-cta" href="https://www.startup25.com/start">Start a campaign</a>
+  </div>
+</nav>
+
+<main id="top">
+
+  <!-- ================= HERO ================= -->
+  <section class="scene" id="hero" data-scene="hero">
+    <div class="scene-inner">
+      <div class="hero-stage on">
+        <div class="hero-tl">
+          <h1 class="caps h-mega">
+            <span class="rise"><span style="--d:.15s">Your dead</span></span>
+            <span class="rise"><span style="--d:.27s">client list</span></span>
+          </h1>
+        </div>
+        <div class="hero-br">
+          <p class="caps h-mega" aria-hidden="false">
+            <span class="rise"><span style="--d:.42s">is buried</span></span>
+            <span class="rise"><span style="--d:.54s">money.</span></span>
+          </p>
+          <a class="hero-cta fade" style="--d:.9s" href="https://www.startup25.com/start">Start my win-back campaign &nbsp;&rarr;</a>
+        </div>
+        <div class="hero-bl">
+          <p class="micro fade" style="--d:.75s">A virtual concierge that phones the clients who quietly stopped booking — and says so out loud. You approve the offer before anything dials.</p>
+          <div class="stats-strip fade" style="--d:.9s">
+            <div class="cell"><p class="num">90 sec</p><p class="lbl">Target call</p></div>
+            <div class="cell"><p class="num">1</p><p class="lbl">Attempt, ever</p></div>
+            <div class="cell"><p class="num">9–7</p><p class="lbl">Local hours</p></div>
+          </div>
+        </div>
+        <div class="scroll-cue fade" style="--d:1.3s"><span class="micro" style="letter-spacing:.28em">Scroll</span><span class="stem"></span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= THE CALL ================= -->
+  <section class="scene" id="call" data-scene="call">
+    <div class="scene-inner">
+      <div class="sec-right" data-reveal>
+        <p class="micro kick fade"><span>The call</span><span class="tick"></span></p>
+        <h2 class="caps h-big">
+          <span class="rise"><span>What Malone</span></span>
+          <span class="rise"><span style="--d:.12s">actually says</span></span>
+        </h2>
+        <p class="body-s sec-para fade" style="--d:.25s">It opens honest, makes one offer, names two concrete times, and takes the first yes. Ninety seconds is the target — a warm no ends the call with no rebuttal.</p>
+      </div>
+
+      <div class="call-grid">
+        <div class="transcript glass" id="transcript" data-reveal>
+          <div class="tr-top">
+            <div class="tr-id">
+              <span class="tr-avatar glass">m</span>
+              <div>
+                <p class="tr-name">Salon Malone</p>
+                <p class="tr-sub"><span class="live-dot"></span> calling for Ridgeline Hair</p>
+              </div>
+            </div>
+            <span class="tr-timer" id="call-timer">0:00</span>
+          </div>
+          <div class="chat" id="chat" aria-label="Example call script"></div>
+          <div class="tr-note">
+            <span>Example script — not a recording. Salon, client and offer invented for this page.</span>
+            <button class="replay glass" id="replay" type="button" aria-label="Replay the example call">Replay</button>
+          </div>
+        </div>
+
+        <div class="branches" data-reveal>
+          <div class="branch">
+            <p class="bw fade">If it&rsquo;s a no</p>
+            <p class="bq fade" style="--d:.1s">&ldquo;All love — the chair&rsquo;s here when you&rsquo;re ready.&rdquo;</p>
+            <p class="body-s bt fade" style="--d:.18s">The call ends there. No rebuttal, no second attempt — not next month either.</p>
+            <div class="tags fade" style="--d:.26s"><span class="tag glass">No rebuttal</span><span class="tag glass">Never re-dialled</span></div>
+          </div>
+          <div class="branch">
+            <p class="bw fade">If they say stop calling</p>
+            <p class="bq fade" style="--d:.1s">&ldquo;Done — you&rsquo;re off the list. Be good.&rdquo;</p>
+            <p class="body-s bt fade" style="--d:.18s">The number joins a global do-not-call list before the call report is even accepted, and is pulled from every queue we run.</p>
+            <div class="tags fade" style="--d:.26s"><span class="tag glass">Global do-not-call</span><span class="tag glass">Before the call ends</span></div>
+          </div>
+          <div class="branch">
+            <p class="bw fade">If a machine picks up</p>
+            <p class="bq fade" style="--d:.1s">&ldquo;We saved you something — call the salon and we&rsquo;ll get you back in the chair.&rdquo;</p>
+            <p class="body-s bt fade" style="--d:.18s">One breezy fifteen-second message with your real front-desk number. Malone does not call back.</p>
+            <div class="tags fade" style="--d:.26s"><span class="tag glass">15 seconds</span><span class="tag glass">No call back</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= INTERLUDE ================= -->
+  <section class="scene inter" id="vow" data-scene="vow">
+    <div class="scene-inner">
+      <div class="inter-stage" data-reveal>
+        <div class="inter-word l"><p class="caps h-mega"><span class="rise"><span>Lapsed</span></span></p></div>
+        <div class="inter-word r"><p class="caps h-mega"><span class="rise"><span style="--d:.15s">Rebooked</span></span></p></div>
+        <div class="inter-chips fade" style="--d:.3s">
+          <span class="tag glass">Consent-gated</span>
+          <span class="tag glass">One attempt, ever</span>
+          <span class="tag glass">Local hours only</span>
+          <span class="tag glass">Opt-out instant</span>
+        </div>
+        <p class="micro inter-note fade" style="--d:.45s">Built so it cannot become a nuisance — the part that decides whether it is welcome is the offer, and you write that with us.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= HOW IT RUNS ================= -->
+  <section class="scene" id="how" data-scene="how">
+    <div class="scene-inner">
+      <div class="sec-right" data-reveal>
+        <p class="micro kick fade"><span>How it runs</span><span class="tick"></span></p>
+        <h2 class="caps h-big">
+          <span class="rise"><span>Six steps,</span></span>
+          <span class="rise"><span style="--d:.12s">then it is quiet</span></span>
+        </h2>
+        <p class="body-s sec-para fade" style="--d:.25s">Upload, scrub, dial, book, report. There is no dashboard to learn and nothing for your clients to install.</p>
+      </div>
+
+      <div class="steps" data-reveal>
+        <div class="step fade">
+          <p class="n">01</p>
+          <h3>Tell us about the salon</h3>
+          <p>Two minutes on the start form: your timezone, your average ticket, the offer you want Malone to make. It tells you which plan fits before you pay anything.</p>
+        </div>
+        <div class="step fade" style="--d:.08s">
+          <p class="n">02</p>
+          <h3>Send the list</h3>
+          <p>Export the clients who haven&rsquo;t booked in six months — CSV or XLSX, whatever your software spits out. We map the columns for you.</p>
+        </div>
+        <div class="step fade" style="--d:.16s">
+          <p class="n">03</p>
+          <h3>We scrub it first</h3>
+          <p>No consent, dropped. Bad number, dropped. On the do-not-call list, dropped. You see the count for every reason before a single call goes out.</p>
+        </div>
+        <div class="step fade" style="--d:.24s">
+          <p class="n">04</p>
+          <h3>Malone calls, your hours</h3>
+          <p>One attempt per person, ever, inside your salon&rsquo;s local time. It opens by saying it is a virtual concierge, offers two times, and takes the first yes.</p>
+        </div>
+        <div class="step fade" style="--d:.32s">
+          <p class="n">05</p>
+          <h3>The email lands instantly</h3>
+          <p>Name, phone, the exact slot they asked for, and what was said — while the chair is still open, so your front desk can confirm it the same hour.</p>
+        </div>
+        <div class="step fade" style="--d:.4s">
+          <p class="n">06</p>
+          <h3>Friday, the arithmetic</h3>
+          <p>One email: dialled, reached, booked, opted out, and recovered revenue at your average ticket. If the number is bad, you see it Friday — not in six months.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= THE MATH ================= -->
+  <section class="scene" id="math" data-scene="math">
+    <div class="scene-inner">
+      <div class="sec-left" data-reveal>
+        <p class="micro kick fade"><span>The arithmetic</span><span class="tick"></span></p>
+        <h2 class="caps h-big">
+          <span class="rise"><span>Empty chairs,</span></span>
+          <span class="rise"><span style="--d:.12s">priced honestly</span></span>
+        </h2>
+        <p class="body-s sec-para fade" style="--d:.25s">A two-chair salon, $120 average ticket, eighteen months of clients who drifted off. Every number below is an assumption we picked to show the shape of the arithmetic.</p>
+      </div>
+
+      <div class="funnel" id="funnel" data-reveal>
+        <div class="frow"><p class="fl">Names exported from the booking system</p><div class="track"><div class="bar" data-w="100" style="--d:0s"></div></div><p class="fn" data-count="1200">1,200</p></div>
+        <div class="frow"><p class="fl">Survive the scrub — consent + valid phone</p><div class="track"><div class="bar" data-w="61.7" style="--d:.12s"></div></div><p class="fn" data-count="740">740</p></div>
+        <div class="frow"><p class="fl">Answer the phone — 35% of dials</p><div class="track"><div class="bar" data-w="21.7" style="--d:.24s"></div></div><p class="fn" data-count="260">260</p></div>
+        <div class="frow"><p class="fl">Book a specific time — 12% of conversations</p><div class="track"><div class="bar" data-w="2.6" style="--d:.36s"></div></div><p class="fn" data-count="31">31</p></div>
+        <div class="frow"><p class="fl">Actually sit in the chair — 80% show rate</p><div class="track"><div class="bar" data-w="2.1" style="--d:.48s"></div></div><p class="fn" data-count="25">25</p></div>
+      </div>
+
+      <div class="math-results" data-reveal>
+        <div class="result glass fade">
+          <p class="rn">$3,720</p>
+          <p class="body-s rl">Booked visits at your ticket — 31&nbsp;&times;&nbsp;$120. This is the number our Friday email reports; $3,000 is the same month if only 25 of them show.</p>
+        </div>
+        <div class="result glass fade" style="--d:.12s">
+          <p class="rn">$399</p>
+          <p class="body-s rl">The month of the Salon plan that made the calls. Your list, your offer and your show rate move every line — up or down.</p>
+        </div>
+      </div>
+
+      <div data-reveal>
+        <span class="tag glass badge-line fade">Illustrative — not a customer result</span>
+        <p class="footnote fade" style="--d:.1s">Two numbers on purpose: no-shows count in ours, so your book is the last word. We report the real figures every Friday — dialled, reached, booked, opted out — not this example.</p>
+      </div>
+
+      <div class="after" data-reveal>
+        <div class="after-item fade">
+          <p class="aw">The moment it happens</p>
+          <h3 class="caps">A booking email</h3>
+          <p class="body-s">Name, number, the exact slot they asked for, and a two-line summary of the call — sent the second the booking is captured.</p>
+        </div>
+        <div class="after-item fade" style="--d:.12s">
+          <p class="aw">Every Friday</p>
+          <h3 class="caps">The recovered-revenue report</h3>
+          <p class="body-s">One page: dialled, reached, booked, declined, opted out, and recovered revenue at your average ticket. No dashboard to log into.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SAFEGUARDS ================= -->
+  <section class="scene" id="safe" data-scene="safe">
+    <div class="scene-inner">
+      <div class="sec-left" data-reveal>
+        <p class="micro kick fade"><span>Legal &amp; safe</span><span class="tick"></span></p>
+        <h2 class="caps h-big">
+          <span class="rise"><span>The rules are</span></span>
+          <span class="rise"><span style="--d:.12s">in the code</span></span>
+        </h2>
+        <p class="body-s sec-para fade" style="--d:.25s">Six things the system will not do — each one enforced where the call is actually placed, and each one checked in more than one place.</p>
+      </div>
+
+      <div class="safes" data-reveal>
+        <div class="safe fade">
+          <div class="s-top"><h3>No consent, no call</h3><span class="tag glass">Gate at import</span></div>
+          <p class="body-s">A row not marked consented is dropped before it can enter the dial queue — and you see the dropped count, with a reason, for every row.</p>
+        </div>
+        <div class="safe fade" style="--d:.08s">
+          <div class="s-top"><h3>Opt-out is instant, global</h3><span class="tag glass">Mid-call write</span></div>
+          <p class="body-s">&ldquo;Take me off the list&rdquo; writes to a do-not-call list shared across every salon we run — before the call report is accepted. Never dialled again, by us, for anyone.</p>
+        </div>
+        <div class="safe fade" style="--d:.16s">
+          <div class="s-top"><h3>One attempt, ever</h3><span class="tag glass">In the claim query</span></div>
+          <p class="body-s">Not a retry policy — a condition in the query that picks who to call. If the calling window closes first, the attempt is given back, not spent.</p>
+        </div>
+        <div class="safe fade" style="--d:.24s">
+          <div class="s-top"><h3>Your hours, not ours</h3><span class="tag glass">Fails closed</span></div>
+          <p class="body-s">The window is evaluated in each salon&rsquo;s own timezone — 9:00&nbsp;AM to 7:00&nbsp;PM by default, yours to narrow. A timezone we cannot read means no call at all.</p>
+        </div>
+        <div class="safe fade" style="--d:.32s">
+          <div class="s-top"><h3>Says what it is</h3><span class="tag glass">Opening line</span></div>
+          <p class="body-s">The disclosure is in the first sentence and repeated whenever anyone asks. It never claims to be human, never argues, and hands anything off-topic to your front desk.</p>
+        </div>
+        <div class="safe fade" style="--d:.4s">
+          <div class="s-top"><h3>Voice and email only</h3><span class="tag glass">Nothing else exists</span></div>
+          <p class="body-s">No SMS, no chatbot, no app for your clients to install. The only two things that ever happen: a phone call to them, an email to you.</p>
+        </div>
+      </div>
+
+      <div class="counsel glass" data-reveal>
+        <p class="ct fade">Read this part twice</p>
+        <p class="body-s fade" style="--d:.1s">We are engineers, not your lawyers. Outbound calling is regulated — TCPA in the US and its state analogues — and what counts as valid consent for a voice call is not obvious from a spreadsheet column named &ldquo;consent&rdquo;. The gates above are how we built the system; they are not legal advice. Have your own counsel review the consent language your clients agreed to before the first list is dialled.</p>
+        <p class="body-s fade" style="--d:.18s"><a href="https://www.startup25.com/terms">Terms of service</a> &nbsp;&middot;&nbsp; <a href="https://www.startup25.com/privacy">What we do with your list</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PRICING ================= -->
+  <section class="scene" id="pricing" data-scene="pricing">
+    <div class="scene-inner">
+      <div class="sec-right" data-reveal>
+        <p class="micro kick fade"><span>Pricing</span><span class="tick"></span></p>
+        <h2 class="caps h-big">
+          <span class="rise"><span>Start small.</span></span>
+          <span class="rise"><span style="--d:.12s">The list decides</span></span>
+        </h2>
+        <p class="body-s sec-para fade" style="--d:.25s">Flat prices, no per-minute billing, no per-lead invoices. Monthly plans are month to month — cancel and the calling stops that day.</p>
+      </div>
+
+      <div class="pilot" data-reveal>
+        <div class="pilot-main fade">
+          <p class="pk">Start here — one time</p>
+          <h3>Win-Back Pilot</h3>
+          <p class="pb">One list, one campaign, one week. The cheapest honest way to find out what your lapsed clients are actually worth.</p>
+          <ul>
+            <li>Up to 400 consented contacts dialled</li>
+            <li>Offer written with you before we call</li>
+            <li>Booking emails as they land</li>
+            <li>One closing report with the real numbers</li>
+            <li>No subscription, no auto-renew</li>
+          </ul>
+        </div>
+        <div class="pilot-side fade" style="--d:.12s">
+          <p class="price">$299</p>
+          <p class="cad">One time</p>
+          <a class="btn-ink" href="https://www.startup25.com/start">Start the pilot &nbsp;&rarr;</a>
+        </div>
+      </div>
+
+      <div class="plans" data-reveal>
+        <div class="plan glass fade">
+          <div class="p-top"><h3 class="caps">Salon</h3><span class="chip-flag glass">Our default</span></div>
+          <p class="price">$399</p>
+          <p class="cad">Per month</p>
+          <p class="body-s pb">One location, one chair-filling campaign running quietly in the background.</p>
+          <ul>
+            <li>Up to 1,500 contacts dialled per month</li>
+            <li>Rolling win-back campaign</li>
+            <li>Instant booking emails</li>
+            <li>Friday recovered-revenue report</li>
+            <li>Global opt-out list managed for you</li>
+          </ul>
+          <a class="choose" href="https://www.startup25.com/start">Choose Salon &rarr;</a>
+        </div>
+        <div class="plan glass fade" style="--d:.1s">
+          <div class="p-top"><h3 class="caps">Med Spa</h3></div>
+          <p class="price">$999</p>
+          <p class="cad">Per month</p>
+          <p class="body-s pb">Higher ticket, longer memory. Built for injectables, laser and membership recall.</p>
+          <ul>
+            <li>Up to 5,000 contacts dialled per month</li>
+            <li>Treatment-aware offer scripting</li>
+            <li>Lapsed-membership recall passes</li>
+            <li>Instant booking emails</li>
+            <li>Friday recovered-revenue report</li>
+          </ul>
+          <a class="choose" href="https://www.startup25.com/start">Choose Med Spa &rarr;</a>
+        </div>
+        <div class="plan glass fade" style="--d:.2s">
+          <div class="p-top"><h3 class="caps">Multi-Location</h3></div>
+          <p class="price">$2,499</p>
+          <p class="cad">Per month</p>
+          <p class="body-s pb">Up to ten locations, each with its own offer, own hours and own inbox.</p>
+          <ul>
+            <li>Up to 25,000 contacts dialled per month</li>
+            <li>Per-location offers and calling hours</li>
+            <li>Per-location booking alerts</li>
+            <li>One rolled-up Friday report</li>
+            <li>Shared suppression list across the group</li>
+          </ul>
+          <a class="choose" href="https://www.startup25.com/start">Choose Multi-Location &rarr;</a>
+        </div>
+      </div>
+
+      <p class="body-s pricing-note" data-reveal><span class="fade">Not sure which one? <a href="https://www.startup25.com/start">Start with the questions</a> — the form reads your list size and your ticket back to you with the plan that fits, no card required. Or <a href="https://cal.com/startup25">book a 15-minute call</a> and talk it through first.</span></p>
+    </div>
+  </section>
+
+  <!-- ================= FAQ ================= -->
+  <section class="scene" id="faq" data-scene="faq">
+    <div class="scene-inner">
+      <div class="sec-left" data-reveal>
+        <p class="micro kick fade"><span>Straight answers</span><span class="tick"></span></p>
+        <h2 class="caps h-big">
+          <span class="rise"><span>The questions that</span></span>
+          <span class="rise"><span style="--d:.12s">actually decide it</span></span>
+        </h2>
+      </div>
+
+      <div class="faq" data-reveal>
+        <details class="fade">
+          <summary>Will this annoy my clients? <span class="plus">+</span></summary>
+          <p class="ans body-s">It is built so it cannot become a nuisance: one call per person ever, ninety seconds target, three minutes hard stop, a warm no ends the call immediately, and it only dials inside your salon&rsquo;s local hours. The part that decides whether it is welcome is the offer — and we write that with you before anything dials.</p>
+        </details>
+        <details class="fade" style="--d:.06s">
+          <summary>Do I need their consent? <span class="plus">+</span></summary>
+          <p class="ans body-s">Yes, and we enforce it rather than trusting it. Your export needs a consent column; rows that do not say yes are dropped at import and never enter the dial queue. We cannot manufacture consent — it has to be consent your clients actually gave your salon. Have your counsel look at the language before the first campaign.</p>
+        </details>
+        <details class="fade" style="--d:.12s">
+          <summary>Can I hear it before it calls anyone? <span class="plus">+</span></summary>
+          <p class="ans body-s">Yes — that is how every account starts. The first campaign is a one-row list: your own mobile, your salon name, your offer. You pick up, hear exactly what your clients would hear, and the booking email lands in your inbox. Nothing else is dialled until you say go.</p>
+        </details>
+        <details class="fade" style="--d:.18s">
+          <summary>What if nobody books? <span class="plus">+</span></summary>
+          <p class="ans body-s">You will know by Friday, in writing, with the dial and answer counts behind it. Usually the offer is the problem rather than the list, so we rewrite it and run the remainder. The pilot is $299 once with no auto-renew; monthly plans cancel any day and the calling stops that day.</p>
+        </details>
+        <details class="fade" style="--d:.24s">
+          <summary>Will they know it is not a person? <span class="plus">+</span></summary>
+          <p class="ans body-s">Yes. Malone says it is the salon&rsquo;s virtual concierge in its opening line and answers straight away if anyone asks. It never claims to be human and never dodges the question. Anything it cannot handle goes to your front desk number.</p>
+        </details>
+        <details class="fade" style="--d:.3s">
+          <summary>What happens to my client list? <span class="plus">+</span></summary>
+          <p class="ans body-s">It runs your campaigns and nothing else. We never sell it, share it, or dial it for another salon. Recordings and transcripts stay with our telephony provider — we store the link, not a copy. Ask us and we delete your list.</p>
+        </details>
+      </div>
+      <p class="body-s faq-more" data-reveal><span class="fade">Something not answered here? Write to <a href="mailto:salon925malon@proton.me">salon925malon@proton.me</a> and a person replies.</span></p>
+    </div>
+  </section>
+
+  <!-- ================= CLOSING ================= -->
+  <section class="scene closing" id="start" data-scene="closing">
+    <div class="scene-inner">
+      <div class="closing-stage" data-reveal>
+        <p class="micro fade">What happens next</p>
+        <h2 class="caps h-mega blurcaps" id="closing-title" style="margin-top:1.1rem">Bring the list</h2>
+        <div class="closing-cols">
+          <p class="body-s fade" style="--d:.35s">Answer a few questions about your salon, the clients who drifted, and the offer you want Malone to make. The plan that fits comes back straight away.</p>
+          <p class="body-s col-r fade" style="--d:.45s">We come back on the offer itself — and on whether a win-back campaign is worth running for your chairs at all.</p>
+        </div>
+        <form class="contact glass fade" style="--d:.6s" id="contact-form" aria-label="Start a campaign">
+          <input type="text" name="name" id="cf-name" placeholder="Name" autocomplete="name" aria-label="Your name">
+          <span class="divider"></span>
+          <input type="email" name="email" id="cf-email" placeholder="Email" autocomplete="email" aria-label="Your email">
+          <button class="btn-white" type="submit">Start a campaign &nbsp;&rarr;</button>
+        </form>
+        <p class="body-s closing-alt fade" style="--d:.75s">Prefer to talk first? <a href="https://cal.com/startup25">Book a 15-minute call</a> &nbsp;&middot;&nbsp; <a href="https://www.startup25.com/start">Or answer the questions online</a></p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="foot-wrap">
+    <div>
+      <p class="foot-brand">Salon Malone</p>
+      <p style="margin-top:.7rem;max-width:36ch">Win-back campaigns for salons and med spas. A new product from Easecase,&nbsp;Inc. — zero customers so far, and you would be early. Everything on this page is what the software does, or arithmetic labelled as an example.</p>
+    </div>
+    <div>
+      <p class="foot-h">The promise</p>
+      <p style="max-width:38ch">We only call contacts you have marked as consented, one attempt each, inside local business hours. Malone says it is a virtual assistant on every call. Anyone who asks to be removed joins a global do-not-call list before the call ends.</p>
+    </div>
+    <div>
+      <p class="foot-h">Easecase, Inc.</p>
+      <p>1111b South Governors Avenue<br>Dover, DE 19904, United States</p>
+      <p style="margin-top:.55rem">Malone calls from <a href="tel:+18634966101">+1 (863) 496-6101</a> — printed here so anyone who gets a call can check it.</p>
+    </div>
+  </div>
+  <div class="foot-legal">
+    <span>&copy; 2026 Easecase, Inc. &middot; <a href="https://www.startup25.com">startup25.com</a></span>
+    <span><a href="https://www.startup25.com/terms">Terms</a> &nbsp;&middot;&nbsp; <a href="https://www.startup25.com/privacy">Privacy</a> &nbsp;&middot;&nbsp; <a href="https://www.startup25.com/unsubscribe">Unsubscribe</a></span>
+  </div>
+</footer>
+
+<script>
+"use strict";
+(function () {
+  var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  var isMobile = window.matchMedia("(max-width: 760px)").matches;
+
+  /* ==========================================================
+     PARTICLE ENTITY — hand-rolled WebGL point sprites.
+     One swarm morphs through the product's story:
+     mist → chair → handset → waveform → ✕ → wave → bars → chair.
+     CPU-eased positions, additive glow, champagne/rose accents.
+     ========================================================== */
+  var glCanvas = document.getElementById("gl");
+  var N = isMobile ? 4200 : 9000;
+  var gl = glCanvas.getContext("webgl", { alpha: true, antialias: false, premultipliedAlpha: true });
+  var W = 0, H = 0, DPR = 1;
+
+  function resizeGL() {
+    DPR = Math.min(window.devicePixelRatio || 1, 2);
+    W = window.innerWidth; H = window.innerHeight;
+    glCanvas.width = Math.round(W * DPR);
+    glCanvas.height = Math.round(H * DPR);
+    if (gl) gl.viewport(0, 0, glCanvas.width, glCanvas.height);
+  }
+  resizeGL();
+
+  var prog = null, aPos, aTint, uPoint, uDim;
+  if (gl) {
+    var vs = "attribute vec2 p; attribute vec2 t; uniform float dpr; varying vec2 vt;" +
+      "void main(){ vt=t; gl_Position=vec4(p,0.,1.); gl_PointSize=t.x*dpr; }";
+    var fs = "precision mediump float; varying vec2 vt; uniform float dim;" +
+      "void main(){ vec2 c=gl_PointCoord-0.5; float d=length(c);" +
+      " float a=smoothstep(0.5,0.06,d); a*=a;" +
+      " vec3 cold=vec3(0.96,0.97,1.0); vec3 warm=vec3(0.985,0.87,0.72); vec3 rose=vec3(0.94,0.74,0.82);" +
+      " float k=vt.y; vec3 col= k<0.5 ? mix(cold,warm,k*2.0) : mix(warm,rose,(k-0.5)*2.0);" +
+      " float core=smoothstep(0.16,0.0,d);" +
+      " gl_FragColor=vec4(col*(a+core)*dim, a*dim); }";
+    function sh(type, src) { var s = gl.createShader(type); gl.shaderSource(s, src); gl.compileShader(s); return s; }
+    prog = gl.createProgram();
+    gl.attachShader(prog, sh(gl.VERTEX_SHADER, vs));
+    gl.attachShader(prog, sh(gl.FRAGMENT_SHADER, fs));
+    gl.linkProgram(prog);
+    gl.useProgram(prog);
+    gl.enable(gl.BLEND);
+    gl.blendFunc(gl.ONE, gl.ONE_MINUS_SRC_ALPHA);
+    aPos = gl.getAttribLocation(prog, "p");
+    aTint = gl.getAttribLocation(prog, "t");
+    uPoint = gl.getUniformLocation(prog, "dpr");
+    uDim = gl.getUniformLocation(prog, "dim");
+  }
+
+  var pos = new Float32Array(N * 2);       // current xy (clip space)
+  var tgt = new Float32Array(N * 2);       // shape target xy
+  var tint = new Float32Array(N * 2);      // x: size px, y: hue mix 0..1
+  var seed = new Float32Array(N * 4);      // wander phases + speeds
+  var barIdx = new Int16Array(N);          // waveform bar assignment
+  for (var i = 0; i < N; i++) {
+    pos[i * 2] = (Math.random() * 2 - 1) * 1.4;
+    pos[i * 2 + 1] = (Math.random() * 2 - 1) * 1.4;
+    seed[i * 4] = Math.random() * Math.PI * 2;
+    seed[i * 4 + 1] = Math.random() * Math.PI * 2;
+    seed[i * 4 + 2] = 0.4 + Math.random() * 1.1;
+    seed[i * 4 + 3] = Math.random();
+    tint[i * 2] = (1.9 + Math.pow(Math.random(), 3.2) * 4.4);
+    tint[i * 2 + 1] = Math.random() < 0.72 ? Math.random() * 0.3 : (Math.random() < 0.75 ? 0.45 + Math.random() * 0.2 : 0.72 + Math.random() * 0.28);
+  }
+
+  var posBuf, tintBuf;
+  if (gl) {
+    posBuf = gl.createBuffer();
+    tintBuf = gl.createBuffer();
+    gl.bindBuffer(gl.ARRAY_BUFFER, tintBuf);
+    gl.bufferData(gl.ARRAY_BUFFER, tint, gl.STATIC_DRAW);
+  }
+
+  /* ---------- shape samplers ---------- */
+  var SS = 400; // raster size
+  var raster = document.createElement("canvas");
+  raster.width = SS; raster.height = SS;
+  var rc = raster.getContext("2d", { willReadFrequently: true });
+
+  function samplesFromRaster(draw) {
+    rc.clearRect(0, 0, SS, SS);
+    rc.fillStyle = "#fff"; rc.strokeStyle = "#fff";
+    draw(rc);
+    var img = rc.getImageData(0, 0, SS, SS).data;
+    var pts = [];
+    for (var y = 0; y < SS; y += 2) {
+      for (var x = 0; x < SS; x += 2) {
+        var a = img[(y * SS + x) * 4 + 3];
+        if (a > 90 && Math.random() < a / 300) pts.push([(x / SS) * 2 - 1, 1 - (y / SS) * 2]);
+      }
+    }
+    return pts;
+  }
+
+  function fillTargets(pts, cx, cy, s, jitter) {
+    var aspect = W / H, out = new Float32Array(N * 2);
+    var j = jitter === undefined ? 0.012 : jitter;
+    for (var i = 0; i < N; i++) {
+      var p = pts[(i * 7919) % pts.length];
+      out[i * 2] = cx + (p[0] * s) / aspect + (Math.random() - 0.5) * j;
+      out[i * 2 + 1] = cy + p[1] * s + (Math.random() - 0.5) * j;
+    }
+    return out;
+  }
+
+  /* the empty salon chair — seat, back, stem, star base */
+  function chairShape(cx, cy, s) {
+    return fillTargets(samplesFromRaster(function (c) {
+      c.lineWidth = 13; c.lineCap = "round"; c.lineJoin = "round";
+      // backrest
+      c.beginPath(); c.moveTo(150, 78);
+      c.quadraticCurveTo(200, 62, 250, 78);
+      c.lineTo(258, 170); c.quadraticCurveTo(200, 186, 142, 170); c.closePath();
+      c.globalAlpha = 0.85; c.fill(); c.globalAlpha = 1; c.stroke();
+      // armrests
+      c.beginPath(); c.moveTo(118, 176); c.quadraticCurveTo(118, 152, 142, 152); c.stroke();
+      c.beginPath(); c.moveTo(282, 176); c.quadraticCurveTo(282, 152, 258, 152); c.stroke();
+      // seat
+      c.beginPath(); c.moveTo(112, 188);
+      c.quadraticCurveTo(200, 214, 288, 188);
+      c.lineTo(280, 222); c.quadraticCurveTo(200, 244, 120, 222); c.closePath();
+      c.globalAlpha = 0.9; c.fill(); c.globalAlpha = 1; c.stroke();
+      // hydraulic stem
+      c.beginPath(); c.moveTo(200, 244); c.lineTo(200, 306); c.stroke();
+      c.lineWidth = 8;
+      // star base
+      c.beginPath(); c.moveTo(200, 306); c.lineTo(122, 344); c.stroke();
+      c.beginPath(); c.moveTo(200, 306); c.lineTo(278, 344); c.stroke();
+      c.beginPath(); c.moveTo(200, 306); c.lineTo(166, 352); c.stroke();
+      c.beginPath(); c.moveTo(200, 306); c.lineTo(234, 352); c.stroke();
+      // castors
+      [[122,344],[278,344],[166,352],[234,352]].forEach(function (w) {
+        c.beginPath(); c.arc(w[0], w[1] + 8, 7, 0, Math.PI * 2); c.fill();
+      });
+    }), cx, cy, s, 0.016);
+  }
+
+  /* classic handset, tilted */
+  function handsetShape(cx, cy, s) {
+    return fillTargets(samplesFromRaster(function (c) {
+      c.save(); c.translate(SS / 2, SS / 2); c.rotate(-0.62); c.translate(-SS / 2, -SS / 2);
+      c.lineWidth = 30; c.lineCap = "round";
+      c.beginPath(); c.arc(200, 235, 108, Math.PI * 1.02, Math.PI * 1.98); c.stroke();
+      c.beginPath(); c.ellipse(92, 240, 40, 52, -0.35, 0, Math.PI * 2); c.fill();
+      c.beginPath(); c.ellipse(308, 240, 40, 52, 0.35, 0, Math.PI * 2); c.fill();
+      c.restore();
+    }), cx, cy, s, 0.014);
+  }
+
+  function xShape(cx, cy, s) {
+    return fillTargets(samplesFromRaster(function (c) {
+      c.lineWidth = 44; c.lineCap = "round";
+      c.beginPath(); c.moveTo(96, 96); c.lineTo(304, 304); c.stroke();
+      c.beginPath(); c.moveTo(304, 96); c.lineTo(96, 304); c.stroke();
+    }), cx, cy, s, 0.02);
+  }
+
+  function mistTargets() {
+    var out = new Float32Array(N * 2);
+    for (var i = 0; i < N; i++) {
+      var a = Math.random() * Math.PI * 2, r = Math.pow(Math.random(), 0.5);
+      out[i * 2] = Math.cos(a) * r * 0.55;
+      out[i * 2 + 1] = Math.sin(a) * r * 0.42 + 0.05;
+    }
+    return out;
+  }
+
+  function waveTargets() {
+    var out = new Float32Array(N * 2), aspect = W / H;
+    for (var i = 0; i < N; i++) {
+      var x = Math.random() * 2.4 - 1.2;
+      var crest = Math.sin(x * 2.1 + 0.8) * 0.22 + Math.sin(x * 4.7) * 0.08;
+      var depth = Math.pow(Math.random(), 2.2);
+      out[i * 2] = x;
+      out[i * 2 + 1] = -0.28 + crest - depth * 0.5 + Math.random() * 0.05;
+    }
+    return out;
+  }
+
+  function barsTargets() {
+    var out = new Float32Array(N * 2), aspect = W / H;
+    var bars = [0.16, 0.28, 0.44, 0.62, 0.84], bw = 0.075;
+    var cx = isMobile ? 0 : 0.58, base = isMobile ? -1.08 : -0.92;
+    for (var i = 0; i < N; i++) {
+      var b = i % bars.length;
+      var x = cx + (b - 2) * (bw * 2.3) / aspect + (Math.random() - 0.5) * (bw * 1.1) / aspect;
+      out[i * 2] = x;
+      out[i * 2 + 1] = base + Math.pow(Math.random(), 1.3) * bars[b];
+    }
+    return out;
+  }
+
+  var WAVE_BARS = 42;
+  function waveformTargets() {
+    var out = new Float32Array(N * 2), aspect = W / H;
+    var cx = isMobile ? 0 : -0.4, cy = isMobile ? -0.05 : 0.42, span = isMobile ? 0.8 : 0.5;
+    for (var i = 0; i < N; i++) {
+      var b = i % WAVE_BARS;
+      barIdx[i] = b;
+      var x = cx + ((b / (WAVE_BARS - 1)) * 2 - 1) * span / aspect;
+      out[i * 2] = x + (Math.random() - 0.5) * 0.008;
+      out[i * 2 + 1] = cy + (Math.random() * 2 - 1) * 0.02;
+    }
+    return out;
+  }
+
+  /* scene configs — where the entity sits per section */
+  var shapes = {};
+  function buildShapes() {
+    shapes.hero = chairShape(0, isMobile ? -0.2 : -0.02, isMobile ? 0.42 : 0.62);
+    shapes.call = handsetShape(isMobile ? 0 : -0.42, isMobile ? -0.05 : 0.34, isMobile ? 0.38 : 0.44);
+    shapes.vow = xShape(0, 0.04, isMobile ? 0.5 : 0.55);
+    shapes.how = waveTargets();
+    shapes.math = barsTargets();
+    shapes.safe = mistTargets();
+    shapes.pricing = waveTargets();
+    shapes.faq = mistTargets();
+    shapes.closing = chairShape(0, isMobile ? 0.2 : 0.12, isMobile ? 0.3 : 0.46);
+  }
+  buildShapes();
+
+  /* per-scene glow so the entity never fights the reading layer */
+  var DIMS = { hero: 1, call: 0.95, vow: 1, how: 0.8, math: isMobile ? 0.32 : 0.55, safe: 0.32, pricing: 0.5, faq: 0.3, closing: 1 };
+  var dimNow = 1, dimTarget = 1;
+
+  var current = "hero", waveformOn = false, wavePulse = 0;
+  tgt.set(shapes.hero);
+
+  var burst = 0; // 0..1 — explosion energy during transitions
+  function setScene(name) {
+    if (name === current || !shapes[name]) return;
+    current = name;
+    waveformOn = name === "call";
+    if (waveformOn) { shapes.call = waveformTargets(); }
+    burst = 1;
+    dimTarget = DIMS[name] !== undefined ? DIMS[name] : 1;
+    tgt.set(shapes[name]);
+  }
+
+  /* mouse: gentle attraction ribbon + repulse */
+  var mx = 0, my = 0, mvx = 0, mvy = 0, mOn = false;
+  window.addEventListener("pointermove", function (e) {
+    var nx = (e.clientX / W) * 2 - 1, ny = 1 - (e.clientY / H) * 2;
+    mvx = nx - mx; mvy = ny - my; mx = nx; my = ny; mOn = true;
+  }, { passive: true });
+
+  var scrollV = 0, lastY = window.scrollY;
+  window.addEventListener("scroll", function () {
+    var y = window.scrollY;
+    scrollV += Math.min(Math.abs(y - lastY) / 900, 0.5);
+    lastY = y;
+  }, { passive: true });
+
+  var start = performance.now();
+  function frame(now) {
+    var t = (now - start) / 1000;
+    scrollV *= 0.9;
+    burst *= 0.94;
+    if (waveformOn) wavePulse *= 0.95;
+    var aspect = W / H;
+
+    for (var i = 0; i < N; i++) {
+      var ix = i * 2, iy = ix + 1;
+      var tx = tgt[ix], ty = tgt[iy];
+
+      // idle wander — layered trig noise
+      var s0 = seed[i * 4], s1 = seed[i * 4 + 1], sp = seed[i * 4 + 2], rv = seed[i * 4 + 3];
+      var wan = 0.012 + burst * 0.5 + scrollV * 0.1;
+      tx += Math.sin(t * sp + s0) * wan + Math.sin(t * 0.31 + s1 * 3.1) * 0.008;
+      ty += Math.cos(t * sp * 0.9 + s1) * wan + Math.cos(t * 0.27 + s0 * 2.3) * 0.008;
+
+      // waveform: bars breathe with the call
+      if (waveformOn) {
+        var b = barIdx[i];
+        var amp = 0.06 + 0.05 * Math.sin(t * 2.2 + b * 0.55) + wavePulse * 0.22 * Math.sin(b * 0.9 + t * 9);
+        ty += (rv * 2 - 1) * Math.max(amp, 0.015);
+      }
+
+      // burst: radial kick
+      if (burst > 0.02) {
+        var dx0 = pos[ix], dy0 = pos[iy];
+        var dd = Math.sqrt(dx0 * dx0 + dy0 * dy0) + 0.001;
+        tx += (dx0 / dd) * burst * 0.5 * rv;
+        ty += (dy0 / dd) * burst * 0.5 * rv;
+      }
+
+      // mouse repulse (subtle)
+      if (mOn) {
+        var dxm = pos[ix] - mx, dym = pos[iy] - my;
+        var d2 = dxm * dxm * aspect * aspect + dym * dym;
+        if (d2 < 0.03) {
+          var f = (0.03 - d2) * 2.4;
+          tx += dxm * f; ty += dym * f;
+        }
+      }
+
+      var k = 0.045 + rv * 0.035;
+      pos[ix] += (tx - pos[ix]) * k;
+      pos[iy] += (ty - pos[iy]) * k;
+    }
+
+    if (gl) {
+      gl.clearColor(0, 0, 0, 0);
+      gl.clear(gl.COLOR_BUFFER_BIT);
+      gl.bindBuffer(gl.ARRAY_BUFFER, posBuf);
+      gl.bufferData(gl.ARRAY_BUFFER, pos, gl.DYNAMIC_DRAW);
+      gl.enableVertexAttribArray(aPos);
+      gl.vertexAttribPointer(aPos, 2, gl.FLOAT, false, 0, 0);
+      gl.bindBuffer(gl.ARRAY_BUFFER, tintBuf);
+      gl.enableVertexAttribArray(aTint);
+      gl.vertexAttribPointer(aTint, 2, gl.FLOAT, false, 0, 0);
+      dimNow += (dimTarget - dimNow) * 0.03;
+      gl.uniform1f(uPoint, DPR);
+      gl.uniform1f(uDim, dimNow);
+      gl.drawArrays(gl.POINTS, 0, N);
+    }
+
+    drawDeco(t);
+    if (!document.hidden && !reduceMotion) requestAnimationFrame(frame);
+  }
+
+  /* ==========================================================
+     DECO layer — wireframe grid box + dust, canvas 2D
+     ========================================================== */
+  var deco = document.getElementById("deco");
+  var dc = deco.getContext("2d");
+  var boxAlphaTarget = 1, boxAlpha = 0;
+  function resizeDeco() { deco.width = Math.round(W * DPR); deco.height = Math.round(H * DPR); dc.setTransform(DPR, 0, 0, DPR, 0, 0); }
+  resizeDeco();
+
+  var dust = [];
+  for (var d = 0; d < (isMobile ? 26 : 60); d++) {
+    dust.push({ x: Math.random(), y: Math.random(), r: 0.6 + Math.random() * 1.6, s: 0.004 + Math.random() * 0.012, ph: Math.random() * Math.PI * 2 });
+  }
+
+  function drawDeco(t) {
+    dc.clearRect(0, 0, W, H);
+    boxAlpha += (boxAlphaTarget - boxAlpha) * 0.04;
+
+    // wireframe box behind the entity (hero + closing)
+    if (boxAlpha > 0.01) {
+      var bw = Math.min(W * 0.34, 430), bh = Math.min(H * 0.62, 520);
+      var bx = W / 2 - bw / 2 + Math.sin(t * 0.24) * 6, by = H / 2 - bh / 2 + Math.cos(t * 0.2) * 5;
+      dc.save();
+      dc.globalAlpha = 0.16 * boxAlpha;
+      dc.strokeStyle = "#cdd6e4";
+      dc.lineWidth = 1;
+      var cols = 7, rows = 9;
+      for (var cxi = 0; cxi <= cols; cxi++) {
+        var gx = bx + (bw / cols) * cxi;
+        dc.beginPath(); dc.moveTo(gx, by); dc.lineTo(gx, by + bh); dc.stroke();
+      }
+      for (var ryi = 0; ryi <= rows; ryi++) {
+        var gy = by + (bh / rows) * ryi;
+        dc.beginPath(); dc.moveTo(bx, gy); dc.lineTo(bx + bw, gy); dc.stroke();
+      }
+      // violet crown band
+      var grad = dc.createLinearGradient(0, by, 0, by + 46);
+      grad.addColorStop(0, "rgba(178,150,220,0.5)");
+      grad.addColorStop(1, "rgba(178,150,220,0)");
+      dc.globalAlpha = 0.5 * boxAlpha;
+      dc.fillStyle = grad;
+      dc.fillRect(bx, by, bw, 46);
+      dc.restore();
+    }
+
+    // floating dust
+    dc.save();
+    for (var di = 0; di < dust.length; di++) {
+      var p = dust[di];
+      var px = (p.x + Math.sin(t * p.s * 8 + p.ph) * 0.012) * W;
+      var py = ((p.y - t * p.s * 0.6) % 1 + 1) % 1 * H;
+      dc.globalAlpha = 0.12 + 0.1 * Math.sin(t * 1.4 + p.ph);
+      dc.fillStyle = "#e8edf6";
+      dc.beginPath(); dc.arc(px, py, p.r, 0, Math.PI * 2); dc.fill();
+    }
+    dc.restore();
+  }
+
+  window.addEventListener("resize", function () { resizeGL(); resizeDeco(); buildShapes(); if (shapes[current]) tgt.set(shapes[current]); });
+
+  if (reduceMotion) {
+    // one static, settled frame
+    for (var r = 0; r < 220; r++) { for (var i2 = 0; i2 < N * 2; i2++) pos[i2] += (tgt[i2] - pos[i2]) * 0.08; }
+    frame(performance.now());
+  } else {
+    requestAnimationFrame(frame);
+  }
+  document.addEventListener("visibilitychange", function () { if (!document.hidden && !reduceMotion) requestAnimationFrame(frame); });
+
+  /* ---------- film grain ---------- */
+  (function grain() {
+    var g = document.createElement("canvas"); g.width = 160; g.height = 160;
+    var gc = g.getContext("2d");
+    var img = gc.createImageData(160, 160);
+    for (var i = 0; i < img.data.length; i += 4) {
+      var v = (Math.random() * 255) | 0;
+      img.data[i] = v; img.data[i + 1] = v; img.data[i + 2] = v; img.data[i + 3] = 30;
+    }
+    gc.putImageData(img, 0, 0);
+    var el = document.getElementById("grain");
+    el.style.background = "url(" + g.toDataURL() + ")";
+    if (reduceMotion) return;
+    var step = 0;
+    setInterval(function () { step = (step + 1) % 3; el.style.transform = "translate(" + step * 37 + "px," + ((step * 53) % 100) + "px)"; }, 130);
+  })();
+
+  /* ==========================================================
+     SCROLL ORCHESTRATION — scene switching + the wipe
+     ========================================================== */
+  var wipeEl = document.getElementById("wipe");
+  var lastWipe = 0;
+  var WIPE_SCENES = { how: 1, closing: 1 };
+  var sceneObserver = new IntersectionObserver(function (entries) {
+    entries.forEach(function (en) {
+      if (!en.isIntersecting) return;
+      var name = en.target.getAttribute("data-scene");
+      if (name && name !== current) {
+        var nowT = performance.now();
+        if (!reduceMotion && WIPE_SCENES[name] && nowT - lastWipe > 2600) {
+          lastWipe = nowT;
+          wipeEl.classList.remove("sweep");
+          void wipeEl.offsetWidth;
+          wipeEl.classList.add("sweep");
+          setTimeout(function () { setScene(name); }, 240);
+        } else {
+          setScene(name);
+        }
+      }
+      // box visibility per scene
+      boxAlphaTarget = (name === "hero" || name === "closing") ? 1 : 0;
+    });
+  }, { threshold: 0.42 });
+  document.querySelectorAll("[data-scene]").forEach(function (s) { sceneObserver.observe(s); });
+
+  /* reveal groups */
+  var revealObserver = new IntersectionObserver(function (entries) {
+    entries.forEach(function (en) {
+      if (en.isIntersecting) { en.target.classList.add("on"); revealObserver.unobserve(en.target); }
+    });
+  }, { threshold: 0.16 });
+  document.querySelectorAll("[data-reveal]").forEach(function (el) { revealObserver.observe(el); });
+
+  /* closing title: per-letter blur reveal */
+  (function () {
+    var el = document.getElementById("closing-title");
+    var text = el.textContent;
+    el.textContent = "";
+    var idx = 0;
+    text.split("").forEach(function (ch) {
+      var sp = document.createElement("span");
+      if (ch === " ") { sp.innerHTML = "&nbsp;"; } else { sp.textContent = ch; }
+      sp.style.setProperty("--ld", (idx * 0.045) + "s");
+      el.appendChild(sp); idx++;
+    });
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) { if (en.isIntersecting) { el.classList.add("on"); io.unobserve(el); } });
+    }, { threshold: 0.4 });
+    io.observe(el);
+  })();
+
+  /* ==========================================================
+     THE CALL — transcript playback (+ pulses the waveform)
+     ========================================================== */
+  var SCRIPT = [
+    { who: "Malone", agent: true,  text: "Hey Dana — Salon Malone here, Ridgeline Hair’s virtual concierge. Ninety seconds, I promise. We miss you." },
+    { who: "Dana",   agent: false, text: "Oh — hi. Hang on, is this a real person?" },
+    { who: "Malone", agent: true,  text: "I’m a virtual assistant for Ridgeline Hair — a real human takes care of you in the chair." },
+    { who: "Dana",   agent: false, text: "Ha. Okay. What’s up?" },
+    { who: "Malone", agent: true,  text: "It’s been a while, so we saved you something: a complimentary gloss with your next cut. Thursday at two, or Saturday morning at ten — which is easier?" },
+    { who: "Dana",   agent: false, text: "Saturday could work, I think." },
+    { who: "Malone", agent: true,  text: "Saturday at ten it is. I’ll note it down and the desk will confirm with you. Take care, Dana." }
+  ];
+  var chat = document.getElementById("chat");
+  var timerEl = document.getElementById("call-timer");
+  var playToken = 0;
+
+  function renderAll() {
+    chat.innerHTML = "";
+    SCRIPT.forEach(function (line) {
+      var d = document.createElement("div");
+      d.className = "msg show " + (line.agent ? "msg-agent" : "msg-human");
+      d.innerHTML = "<span class='who'>" + line.who + "</span>" + line.text;
+      chat.appendChild(d);
+    });
+    chat.scrollTop = chat.scrollHeight;
+    timerEl.textContent = "1:30";
+  }
+
+  function playScript() {
+    var token = ++playToken;
+    chat.innerHTML = "";
+    var typing = document.createElement("div");
+    typing.className = "typing";
+    typing.innerHTML = "<i></i><i></i><i></i>";
+    chat.appendChild(typing);
+    var t0 = null;
+    (function tick() {
+      if (token !== playToken) return;
+      if (t0 === null) t0 = Date.now();
+      var s = Math.floor((Date.now() - t0) / 1000);
+      timerEl.textContent = Math.floor(s / 60) + ":" + ("0" + (s % 60)).slice(-2);
+      if (s < 95) setTimeout(tick, 1000);
+    })();
+    var i = 0;
+    (function next() {
+      if (token !== playToken) return;
+      if (i >= SCRIPT.length) { typing.remove(); return; }
+      var line = SCRIPT[i++];
+      typing.classList.toggle("show", line.agent);
+      chat.appendChild(typing);
+      chat.scrollTop = chat.scrollHeight;
+      setTimeout(function () {
+        if (token !== playToken) return;
+        typing.classList.remove("show");
+        var d = document.createElement("div");
+        d.className = "msg " + (line.agent ? "msg-agent" : "msg-human");
+        d.innerHTML = "<span class='who'>" + line.who + "</span>" + line.text;
+        chat.insertBefore(d, typing);
+        chat.scrollTop = chat.scrollHeight;
+        requestAnimationFrame(function () { requestAnimationFrame(function () { d.classList.add("show"); }); });
+        setTimeout(function () { chat.scrollTo({ top: chat.scrollHeight, behavior: "smooth" }); }, 60);
+        if (line.agent) wavePulse = 1;      // the waveform speaks
+        setTimeout(next, 650 + Math.min(line.text.length * 14, 1500));
+      }, line.agent ? 950 : 700);
+    })();
+  }
+
+  if (reduceMotion || !("IntersectionObserver" in window)) {
+    renderAll();
+  } else {
+    var trIO = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) { if (en.isIntersecting) { playScript(); trIO.unobserve(en.target); } });
+    }, { threshold: 0.35 });
+    trIO.observe(document.getElementById("transcript"));
+  }
+  document.getElementById("replay").addEventListener("click", function () {
+    if (reduceMotion) { renderAll(); return; }
+    playScript();
+  });
+
+  /* ---------- funnel bars + count-up ---------- */
+  var funnel = document.getElementById("funnel");
+  function fmt(n) { return n.toLocaleString("en-US"); }
+  function runFunnel() {
+    funnel.querySelectorAll(".bar").forEach(function (bar) { bar.style.width = bar.getAttribute("data-w") + "%"; });
+    if (reduceMotion) return;
+    funnel.querySelectorAll(".fn").forEach(function (el, idx) {
+      var target = parseInt(el.getAttribute("data-count"), 10);
+      var t0 = null, dur = 1100 + idx * 120;
+      function stepCount(ts) {
+        if (t0 === null) t0 = ts;
+        var p = Math.min((ts - t0) / dur, 1);
+        var e = 1 - Math.pow(1 - p, 3);
+        el.textContent = fmt(Math.round(target * e));
+        if (p < 1) requestAnimationFrame(stepCount);
+      }
+      requestAnimationFrame(stepCount);
+    });
+  }
+  if (reduceMotion) {
+    runFunnel();
+  } else {
+    var fIO = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) { if (en.isIntersecting) { runFunnel(); fIO.unobserve(funnel); } });
+    }, { threshold: 0.3 });
+    fIO.observe(funnel);
+  }
+
+  /* ---------- contact strip → mail compose ---------- */
+  document.getElementById("contact-form").addEventListener("submit", function (e) {
+    e.preventDefault();
+    var name = document.getElementById("cf-name").value.trim();
+    var email = document.getElementById("cf-email").value.trim();
+    var body = "Name: " + (name || "—") + "%0D%0AEmail: " + (email || "—") +
+      "%0D%0A%0D%0AI want to run a win-back campaign. My salon:%0D%0A";
+    window.location.href = "mailto:salon925malon@proton.me?subject=" +
+      encodeURIComponent("Win-back campaign — " + (name || "new salon")) + "&body=" + body;
+  });
+})();
+</script>
+
+</body>
+</html>
