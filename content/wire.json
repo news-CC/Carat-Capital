@@ -1,54 +1,53 @@
 {
- "date_line": "Tuesday, August 18, 2026",
- "edition": "Vol. I — No. 037",
+ "date_line": "Wednesday, August 19, 2026",
+ "edition": "Vol. I — No. 038",
  "items": [
   {
-   "b": "GAHCHO KUE SOLD 111% MORE CARATS AND TOOK 44% LESS FOR EACH",
-   "t": "Mountain Province sold 869,520 carats in the quarter to 30 June against 411,114 a year earlier, at CAD 50 a carat against CAD 90. Revenue rose 18% to CAD 43.5 million."
+   "b": "SILVER FELL 2.89% AND LED ALL FOUR METALS LOWER",
+   "t": "Against this paper's 18 August marks of record, silver is down $1.88 to $63.12 and gold down $33.10 to $4,360.00, on Kitco at 05:58 New York and corroborated on TradingEconomics within 0.21%."
   },
   {
-   "b": "A RECORD RECOVERY QUARTER UNDERNEATH IT",
-   "t": "Carats recovered reached 2,014,563, up 185% and the second consecutive quarter above two million. Cash cost fell to CAD 48 a carat recovered from CAD 209."
+   "b": "PLATINUM AND PALLADIUM COME OFF A THREE-SESSION HOLD",
+   "t": "Both held marks, $1,749.00 and $1,311.00 from 17 August, sat above every live reading this morning. Both are retired and written at Kitco's $1,726.00 and $1,274.00, down 1.32% and 2.82%."
   },
   {
-   "b": "AND A NET LOSS 2.8 TIMES THE QUARTER'S REVENUE",
-   "t": "The loss was CAD 120.6 million, or 57 cents a share, against CAD 37.7 million a year ago, while adjusted EBITDA turned positive at CAD 8.4 million. Disclosed FX losses account for CAD 11.3 million of the gap."
+   "b": "PALLADIUM'S TWO PAGES ARE 1.45% APART AND PLATINUM'S GAP IS A SETTLED BASIS",
+   "t": "Kitco read palladium $1,274.00 against TradingEconomics at $1,292.50. Platinum's $11.90 gap is the sixth consecutive session of the same Kitco-low basis between 0.59% and 0.69%."
   },
   {
-   "b": "ASIAN STAR'S LOOSE DIAMONDS FELL 22% AND ITS JEWELLERY ROSE 17%",
-   "t": "Consolidated revenue fell 11% to INR 6.47 billion in the June quarter and 13% against the March quarter. Net profit fell 38% to INR 120.6 million, a net margin of 1.86%."
+   "b": "THE 30-YEAR TREASURY YIELD HIT ITS HIGHEST SINCE JUNE 2007",
+   "t": "The long bond reached 5.31% and Japan's 10-year neared 3%, a three-decade high. Both second-page sources name the bond market rather than metals demand as the driver."
   },
   {
-   "b": "TWO METALS COULD BE MARKED THIS MORNING AND TWO COULD NOT",
-   "t": "Kitco at 06:04 New York read gold $4,393.10 and silver $65.00, both corroborated on TradingEconomics within 0.2%. Both are written back to the tape."
+   "b": "TWO PRICE BASES, PRINTED SEPARATELY",
+   "t": "TradingEconomics has gold up 0.60% on the previous close, after a fall of nearly 2% during the 18 August session. This paper's 18 August mark was taken before that fall, so gold is $33.10 lower against it."
   },
   {
-   "b": "PALLADIUM'S TWO PAGES ARE NOW 1.46% APART",
-   "t": "Kitco read $1,303.00 against TradingEconomics at $1,322.00. Platinum's gap is 0.66%. Both metals hold their 17 August marks, $1,311.00 and $1,749.00, for a second session."
+   "b": "ROLEX IS SAID TO HAVE MADE DRAKE A PIECE UNIQUE, AND HAS PUBLISHED NOTHING",
+   "t": "A gem-set Daytona announced on 16 August carries no reference, no stone count and no price. This desk found no statement from Rolex, and a claimed 2024 one-off undercuts the first-ever framing."
   },
   {
-   "b": "IIJS PUBLISHED ITS GATE AND NOT ITS TILL",
-   "t": "India's flagship show closed on 10 August with more than 50,000 trade visitors, 2,100 exhibitors and 2,700 international buyers. Eight days on, this desk can find no published business value."
+   "b": "THE ONE PRICED WATCH IN THAT STORY MADE $500,000",
+   "t": "A Drake-owned GMT-Master II, reference 116758SANR, sold through Wind Vintage earlier this year at the full ask after four offers, roughly five times average dealer value on EveryWatch data."
   },
   {
-   "b": "A CORRECTION RAN THIS MORNING ON TWO PAGES",
-   "t": "The $31.4 million Sotheby's High Jewelry figures this paper printed on 24 July and again in yesterday's lead describe the sale of 13 June 2025. The 2026 sale ran on 16 June and made $43.4 million."
+   "b": "LAB-GROWN WHOLESALE IS DOWN 96% AND THE RETAIL MARKUP HAS NOT MOVED",
+   "t": "The wholesale index fell 13% in the year to the second quarter and 26% across 2025. Retail markups still run above 80% over wholesale, one to two points from last year."
   },
   {
    "b": "WHAT DID NOT PRINT TODAY, AND WHICH DESKS ARE DARK",
-   "t": "Gemstones is dark a seventh consecutive edition and watches a sixth, both counted from the raw per-edition mix. The Federation's July Swiss export print is scheduled for 20 August. Sotheby's still carries no total for the Gem Drop August or the Arcade Sale Hong Kong, re-checked today."
+   "t": "Gemstones is dark an eighth consecutive edition, correctly, on its Tuesday and Friday cadence, with its next file due 21 August. Auctions is dark a second. Retail-tech is dark for the first time since 14 August. The Federation's July Swiss export print is due 20 August. The UAE gold intraday item was declined a sixth time."
   }
  ],
- "tape_ts": "18 Aug 2026, 6:04am New York · Kitco, corroborated on TradingEconomics · Editor's press-time read; gold and silver written back, platinum and palladium held",
+ "tape_ts": "19 Aug 2026, 5:58am New York · Kitco, corroborated on TradingEconomics · Editor's press-time read; all four metals written back, platinum and palladium off a three-session hold",
  "tape": [
   {
    "name": "Gold / oz",
    "code": "XAU",
-   "px": "4,393.10",
-   "chg": "▼ −0.03%",
+   "px": "4,360.00",
+   "chg": "▼ −0.75%",
    "dir": "down",
    "pts": [
-    19,
     21,
     23,
     23,
@@ -57,7 +56,8 @@
     24,
     22,
     26,
-    25
+    25,
+    23
    ]
   },
   {
@@ -101,11 +101,10 @@
   {
    "name": "Platinum / oz",
    "code": "XPT",
-   "px": "1,749.00",
-   "chg": "— unch.",
-   "dir": "flat",
+   "px": "1,726.00",
+   "chg": "▼ −1.32%",
+   "dir": "down",
    "pts": [
-    20,
     22,
     21,
     21,
@@ -114,17 +113,17 @@
     18,
     20,
     23,
-    22
+    22,
+    19
    ]
   },
   {
    "name": "Silver / oz",
    "code": "XAG",
-   "px": "65.00",
-   "chg": "▼ −0.58%",
+   "px": "63.12",
+   "chg": "▼ −2.89%",
    "dir": "down",
    "pts": [
-    18,
     22,
     21,
     22,
@@ -133,7 +132,8 @@
     22,
     23,
     26,
-    25
+    25,
+    19
    ]
   }
  ]

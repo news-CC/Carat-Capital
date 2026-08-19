@@ -29651,5 +29651,370 @@
     }
    ]
   }
+ },
+ "silver-down-two-eight-nine": {
+  "strip": {
+   "cap": "By the numbers · the tape at 05:58 New York, against this paper's 18 August marks",
+   "cells": [
+    {
+     "fig": "$63.12",
+     "delta": "▼ −2.89%",
+     "dir": "down",
+     "lab": "silver, written back"
+    },
+    {
+     "fig": "$4,360.00",
+     "delta": "▼ −0.75%",
+     "dir": "down",
+     "lab": "gold, written back"
+    },
+    {
+     "fig": "$1,726.00",
+     "delta": "▼ −1.32%",
+     "dir": "down",
+     "lab": "platinum, hold ended"
+    },
+    {
+     "fig": "$1,274.00",
+     "delta": "▼ −2.82%",
+     "dir": "down",
+     "lab": "palladium, hold ended"
+    },
+    {
+     "fig": "5.31%",
+     "lab": "30-year US Treasury, a 19-year high"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "The held mark against the live range · 19 August, $ an ounce",
+    "rows": [
+     {
+      "l": "PLATINUM, HELD MARK 17 AUG",
+      "v": 100,
+      "d": "$1,749.00",
+      "hi": true
+     },
+     {
+      "l": "PLATINUM, TRADINGECONOMICS",
+      "v": 99,
+      "d": "$1,737.90"
+     },
+     {
+      "l": "PLATINUM, KITCO",
+      "v": 99,
+      "d": "$1,726.00"
+     },
+     {
+      "l": "PALLADIUM, HELD MARK 17 AUG",
+      "v": 100,
+      "d": "$1,311.00",
+      "hi": true
+     },
+     {
+      "l": "PALLADIUM, TRADINGECONOMICS",
+      "v": 99,
+      "d": "$1,292.50"
+     },
+     {
+      "l": "PALLADIUM, KITCO",
+      "v": 97,
+      "d": "$1,274.00"
+     }
+    ],
+    "note": "Bars are indexed by this desk to each metal's held mark at 100 to make the position visible; the dollar figures beside them are the readings themselves. Both held marks sit above every live reading available at press time, which is why both were retired and written at Kitco's number.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/230"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Four written back, none higher.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "pull": {
+     "q": "A mark above the whole range is not a mark.",
+     "attr": "The Gold & Metals Desk"
+    }
+   },
+   {
+    "sub": "Two bases, and the bond market underneath.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "p": 3
+   },
+   {
+    "p": 4
+   },
+   {
+    "also": {
+     "t": "Rolex made Drake a one-off. The only verified price is $500,000",
+     "href": "a-the-only-verified-price.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "a rule that only writes when two pages agree will hold the last agreement indefinitely while the market walks away from it"
+  },
+  "next": {
+   "lead": {
+    "slug": "the-only-verified-price",
+    "tag": "Watches",
+    "blurb": "A gem-set Daytona with no price, and a GMT-Master II with one."
+   },
+   "minis": [
+    {
+     "slug": "ninety-six-down-eighty-up",
+     "tag": "Diamonds"
+    }
+   ]
+  }
+ },
+ "the-only-verified-price": {
+  "strip": {
+   "cap": "By the numbers · what is established and what is not",
+   "cells": [
+    {
+     "fig": "$500,000",
+     "lab": "Drake GMT-Master II, sold 2026"
+    },
+    {
+     "fig": "~5x",
+     "lab": "average dealer value, ref 116758SANR"
+    },
+    {
+     "fig": "4",
+     "lab": "offers received after listing"
+    },
+    {
+     "fig": "$0",
+     "lab": "price published for the Daytona"
+    },
+    {
+     "fig": "0",
+     "lab": "statements from Rolex, this desk's search"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "What the story rests on · claims by strength of evidence",
+    "rows": [
+     {
+      "l": "GMT-MASTER II SOLD AT $500,000",
+      "v": 100,
+      "d": "transacted",
+      "hi": true
+     },
+     {
+      "l": "WATCH EXISTS, GEM-SET, ENGRAVED",
+      "v": 85,
+      "d": "photographed"
+     },
+     {
+      "l": "MADE BY ROLEX AS A PIECE UNIQUE",
+      "v": 45,
+      "d": "owner's post, trade press"
+     },
+     {
+      "l": "FIRST SUCH PIECE ROLEX HAS MADE",
+      "v": 20,
+      "d": "contradicted by a 2024 claim"
+     },
+     {
+      "l": "WORTH $2M TO $5M",
+      "v": 10,
+      "d": "one writer's ballpark"
+     }
+    ],
+    "note": "Ranked by this desk on the sources it reached on 19 August 2026, not by any external scale. Rolex has published no statement on the Ice Gradient Daytona that this desk could find, so every claim above the first rests on the owner's announcement and on reporting of it.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/231"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "One priced watch, and one that is not.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "pull": {
+     "q": "The only number anyone can stand behind here is five hundred thousand dollars.",
+     "attr": "The Watches Desk"
+    }
+   },
+   {
+    "sub": "The same stones, two different values.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "p": 3
+   },
+   {
+    "p": 4
+   },
+   {
+    "also": {
+     "t": "Silver down 2.89%: all four metals lower, and a three-session hold ends",
+     "href": "a-silver-down-two-eight-nine.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "Rolex has made the same physical act worth a fortune in-house and worth a write-down everywhere else"
+  },
+  "next": {
+   "lead": {
+    "slug": "ninety-six-down-eighty-up",
+    "tag": "Diamonds",
+    "blurb": "The lab-grown wholesale series fell 96%. The markup on top of it did not."
+   },
+   "minis": [
+    {
+     "slug": "silver-down-two-eight-nine",
+     "tag": "Metals"
+    }
+   ]
+  }
+ },
+ "ninety-six-down-eighty-up": {
+  "strip": {
+   "cap": "By the numbers · lab-grown wholesale, Q2 2026",
+   "cells": [
+    {
+     "fig": "−96%",
+     "delta": "since 2018",
+     "dir": "down",
+     "lab": "wholesale index"
+    },
+    {
+     "fig": "−13%",
+     "delta": "year on year",
+     "dir": "down",
+     "lab": "Q2 2026"
+    },
+    {
+     "fig": "80%+",
+     "delta": "— 1-2 pts",
+     "dir": "flat",
+     "lab": "retail markup over wholesale"
+    },
+    {
+     "fig": "~50%",
+     "delta": "▲ from single digits",
+     "dir": "up",
+     "lab": "inventory-to-sales, US retail"
+    },
+    {
+     "fig": "$126",
+     "lab": "a carat, 3ct VVS D round"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Where the decline landed · wholesale change, year to Q2 2026",
+    "rows": [
+     {
+      "l": "1.00 CARAT ROUNDS",
+      "v": 1,
+      "d": "+1%",
+      "hi": true
+     },
+     {
+      "l": "1.50 TO 1.99 CARATS",
+      "v": 11,
+      "d": "−11%"
+     },
+     {
+      "l": "INDEX, ALL SIZES",
+      "v": 13,
+      "d": "−13%"
+     },
+     {
+      "l": "2.00 CARATS",
+      "v": 20,
+      "d": "−20%"
+     }
+    ],
+    "note": "Bars show the absolute size of each move; the one-carat round is the only line that rose. Figures from Edahn Golan's Q2 2026 wholesale price list of 7 July 2026, reported by JCK on 10 August 2026. The size this paper marks daily on its tape is the one that stopped falling.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/232"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "The cost fell. The markup did not.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "pull": {
+     "q": "The wholesale price collapsed and the counter price did not follow it down.",
+     "attr": "The Diamonds Desk"
+    }
+   },
+   {
+    "sub": "Half a year of sales on the shelf.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "p": 3
+   },
+   {
+    "p": 4
+   },
+   {
+    "also": {
+     "t": "$705 for a one-carat lab-grown, on asking prices spanning 17.6 times",
+     "href": "a-seven-oh-five-across-seventeen-times.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "the only thing holding the retail price up is that no competitor has yet decided to pass the decline on"
+  },
+  "next": {
+   "lead": {
+    "slug": "silver-down-two-eight-nine",
+    "tag": "Metals",
+    "blurb": "All four metals lower, and two held marks retired at press time."
+   },
+   "minis": [
+    {
+     "slug": "the-only-verified-price",
+     "tag": "Watches"
+    }
+   ]
+  }
  }
 }
