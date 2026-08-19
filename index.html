@@ -1976,14 +1976,21 @@ void leave(vec3 ro,vec3 rd,out float tX,out vec3 nX){
   if(t>2e-5&&t<to){to=t;no=n;}}
  tX=to;nX=no;}
 vec3 env(vec3 d){float up=clamp(d.y*.5+.5,0.,1.);vec3 s=mix(vec3(.020,.030,.048),vec3(.10,.17,.26),up);
- /* the room has walls: face-up, every visible path ends in this dim base
-    sky, and a smooth gradient hands the table a soft pinwheel of nothing.
-    Hard-edged panels with dark gaps — twisted so they never sit as a
-    bullseye — give each facet one flat value and a hard step to its
-    neighbour, which is what "faceted" looks like. The big lights below
-    drown this out everywhere the profile and tip views actually sample. */
- float cells=smoothstep(-.06,.06,cos(8.*atan(d.z,d.x)+4.*d.y)*cos(11.*acos(clamp(d.y,-1.,1.))+.9));
- s*=.22+2.1*cells;
+ /* hearts and arrows. Face-up, every visible path ends in this dim base
+    band, and each facet family collapses to one sample of it — so the
+    band IS the face-up image. Sculpt it like the reference photo: a white
+    field, and dark arms only where the pavilion-main family lands
+    (azimuth selects the family; the elevation slices deepen shaft and
+    arrowhead). Azimuth edges sit in empty direction-space so they never
+    fringe; elevation edges stay gentle for the same reason. The strong
+    lights below drown all of this out for the profile and tip views. */
+ float az=atan(d.z,d.x), lo=1.-smoothstep(.30,.60,d.y);
+ float fam=smoothstep(.40,.70,cos(8.*az));
+ float shaft=smoothstep(-.17,-.04,d.y)*(1.-smoothstep(.0,.13,d.y));
+ float head=1.-smoothstep(-.24,-.12,d.y);
+ float dk=fam*(.45+.55*max(shaft,head));
+ vec3 haw=mix(vec3(1.01,1.,.97)*1.60, vec3(.03,.032,.038), dk);
+ s=mix(s,haw,lo*.985);
  vec3 kd=normalize(vec3(.55,.72,-.42));float k=max(dot(d,kd),0.);
  s+=vec3(1.,.82,.46)*pow(k,30.)*26.;s+=vec3(.70,.55,.28)*pow(k,4.)*1.30;
  vec3 cd=normalize(vec3(-.75,.16,.60));float c=max(dot(d,cd),0.);
@@ -2023,7 +2030,11 @@ void main(){vec2 uv=(gl_FragCoord.xy-0.5*uRes)/uRes.y;
  mat3 rx=mat3(1.,0.,0.,0.,ct,-st,0.,st,ct);mat3 M=ry*rx;
  mat3 Mi=mat3(M[0][0],M[1][0],M[2][0],M[0][1],M[1][1],M[2][1],M[0][2],M[1][2],M[2][2]);
  ro=Mi*ro;rd=Mi*rd;
- vec3 col;col.r=trace(ro,rd,2.407).r;col.g=trace(ro,rd,2.426).g;col.b=trace(ro,rd,2.451).b;
+ /* face-up the stone is read through a hearts-and-arrows viewer, and a
+    viewer is monochrome optics: the channels converge so the arrows draw
+    ink-on-white instead of smearing into rainbow. Fire returns with tilt. */
+ float fu=smoothstep(.55,1.05,abs(sin(uTilt)));
+ vec3 col;col.r=trace(ro,rd,mix(2.407,2.426,fu)).r;col.g=trace(ro,rd,2.426).g;col.b=trace(ro,rd,mix(2.451,2.426,fu)).b;
  if(col.r<0.&&col.g<0.&&col.b<0.){gl_FragColor=vec4(0.);return;}
  col=max(col,vec3(0.));col*=1.28;col=col/(col+vec3(0.58));col=pow(col,vec3(0.4545));
  float al=clamp(max(col.r,max(col.g,col.b))*3.2,0.,1.);
