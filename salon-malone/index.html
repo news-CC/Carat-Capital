@@ -193,6 +193,14 @@ nav { position: fixed; top: 0; left: 0; right: 0; z-index: 50;
   font-size: 0.7188rem; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase;
   background: linear-gradient(180deg, rgba(8,10,14,0.72) 0%, rgba(8,10,14,0) 100%); }
 @media (min-width: 1024px) { nav { padding-left: 3rem; padding-right: 3rem; } }
+.nav-badge { display: inline-flex; align-items: center; gap: 0.45rem; margin-left: 1rem;
+  border-radius: 999px; padding: 0.25rem 0.7rem;
+  font-size: 0.5313rem; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase;
+  color: var(--w75); white-space: nowrap; }
+.nav-badge .dot { width: 3px; height: 3px; border-radius: 999px; background: var(--accent); flex-shrink: 0; }
+@media (max-width: 900px) { .nav-badge { margin-left: 0.6rem; font-size: 0.5rem; padding: 0.22rem 0.6rem; letter-spacing: 0.12em; } }
+@media (max-width: 460px) { .nav-badge { display: none; } }
+
 .nav-l { display: flex; gap: 1.9rem; }
 .nav-r { display: flex; gap: 1.9rem; justify-content: flex-end; align-items: center; }
 .nav-link { color: var(--w75); transition: color 160ms ease; white-space: nowrap; }
@@ -486,7 +494,10 @@ footer a:hover { color: #fff; }
     <a class="nav-link" href="#how">How it runs</a>
     <a class="nav-link" href="#math">The math</a>
   </div>
-  <a class="brand" href="#top">Salon Malone</a>
+  <div style="display:flex;align-items:center;justify-content:center">
+    <a class="brand" href="#top">Salon Malone</a>
+    <span class="nav-badge glass"><span class="dot"></span>NYU Students</span>
+  </div>
   <div class="nav-r">
     <a class="nav-link" href="#pricing">Pricing</a>
     <a class="nav-link" href="#faq">FAQ</a>
