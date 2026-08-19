@@ -1982,15 +1982,20 @@ vec3 env(vec3 d){float up=clamp(d.y*.5+.5,0.,1.);vec3 s=mix(vec3(.020,.030,.048)
     field, and dark arms only where the pavilion-main family lands
     (azimuth selects the family; the elevation slices deepen shaft and
     arrowhead). Azimuth edges sit in empty direction-space so they never
-    fringe; elevation edges stay gentle for the same reason. The strong
-    lights below drown all of this out for the profile and tip views. */
+    fringe; elevation edges stay gentle for the same reason.
+    The white dome belongs to the H&A viewer, and it exists ONLY as the
+    table comes round to face you. A profile is shot dark-field — black
+    room, pinpoint lamps; leaving the dome lit from the side is exactly
+    what made the stone read milky. So the dome fades on the same curve
+    that collimates the channels, and the profile keeps its studio. */
  float az=atan(d.z,d.x), lo=1.-smoothstep(.30,.60,d.y);
+ float dome=smoothstep(.55,1.,abs(sin(uTilt)));
  float fam=smoothstep(.40,.70,cos(8.*az));
  float shaft=smoothstep(-.17,-.04,d.y)*(1.-smoothstep(.0,.13,d.y));
  float head=1.-smoothstep(-.24,-.12,d.y);
  float dk=fam*(.45+.55*max(shaft,head));
  vec3 haw=mix(vec3(1.01,1.,.97)*1.60, vec3(.03,.032,.038), dk);
- s=mix(s,haw,lo*.985);
+ s=mix(s,haw,lo*.985*dome);
  vec3 kd=normalize(vec3(.55,.72,-.42));float k=max(dot(d,kd),0.);
  s+=vec3(1.,.82,.46)*pow(k,30.)*26.;s+=vec3(.70,.55,.28)*pow(k,4.)*1.30;
  vec3 cd=normalize(vec3(-.75,.16,.60));float c=max(dot(d,cd),0.);
