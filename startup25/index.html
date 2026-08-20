@@ -1109,7 +1109,7 @@ footer a:hover { color: #fff; }
   var WAVE_BARS = 42;
   function waveformTargets() {
     var out = new Float32Array(N * 2), aspect = W / H;
-    var cx = isMobile ? 0 : -0.4, cy = isMobile ? -0.05 : 0.42, span = isMobile ? 0.8 : 0.5;
+    var cx = isMobile ? -0.3 : -0.4, cy = isMobile ? 0.2 : 0.42, span = isMobile ? 0.5 : 0.5;
     for (var i = 0; i < N; i++) {
       var b = i % WAVE_BARS;
       barIdx[i] = b;
@@ -1124,7 +1124,7 @@ footer a:hover { color: #fff; }
   var shapes = {};
   function buildShapes() {
     shapes.hero = chairShape(0, isMobile ? -0.2 : -0.02, isMobile ? 0.42 : 0.62);
-    shapes.call = handsetShape(isMobile ? 0 : -0.42, isMobile ? -0.05 : 0.34, isMobile ? 0.38 : 0.44);
+    shapes.call = handsetShape(isMobile ? -0.3 : -0.42, isMobile ? 0.2 : 0.34, isMobile ? 0.36 : 0.44);
     shapes.vow = xShape(0, 0.04, isMobile ? 0.5 : 0.55);
     shapes.how = waveTargets();
     shapes.math = barsTargets();
