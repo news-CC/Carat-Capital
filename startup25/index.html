@@ -1,0 +1,513 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Startup25 — the company behind Malone</title>
+<meta name="description" content="Startup25 builds Malone, the AI concierge that phones the clients who quietly stopped booking — consent-gated, one attempt ever — and books them back.">
+<link rel="icon" href="../assets/startup25-mark.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+  :root{
+    --bg:#0A0C11; --bg2:#141822;
+    --ink:#F3F5FA; --dim:#9AA3B5; --faint:#5C6577;
+    --pink:#FF4FA8; --pink-soft:#FF9AD5; --pink-pale:#FFC6E6;
+    --line:rgba(180,195,220,.14);
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  @media (prefers-reduced-motion:reduce){ html{scroll-behavior:auto} }
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family:"Outfit",system-ui,-apple-system,"Segoe UI",sans-serif;
+    font-weight:300; line-height:1.6; overflow-x:hidden;
+    -webkit-font-smoothing:antialiased;
+  }
+  .mono{font-family:"IBM Plex Mono",ui-monospace,Menlo,monospace}
+  a{color:inherit}
+
+  /* ---- fixed stage ---- */
+  #stage{position:fixed; inset:0; z-index:0; display:block; width:100%; height:100%;
+    background:radial-gradient(120% 90% at 50% 30%, var(--bg2) 0%, var(--bg) 62%, #07080C 100%);}
+  .ray{position:fixed; pointer-events:none; z-index:1; mix-blend-mode:screen; filter:blur(26px); opacity:.5}
+  .ray.r1{top:-30%; right:-12%; width:68vw; height:150vh; transform:rotate(24deg);
+    background:linear-gradient(100deg, transparent 30%, rgba(215,228,255,.16) 47%, rgba(255,190,225,.10) 55%, transparent 72%);
+    animation:rayDrift 11s ease-in-out infinite alternate}
+  .ray.r2{top:-20%; left:-18%; width:55vw; height:140vh; transform:rotate(-18deg);
+    background:linear-gradient(80deg, transparent 32%, rgba(200,215,245,.10) 50%, transparent 70%);
+    animation:rayDrift 14s ease-in-out infinite alternate-reverse}
+  .ray.r3{bottom:-40%; left:22%; width:50vw; height:120vh; transform:rotate(30deg);
+    background:linear-gradient(95deg, transparent 35%, rgba(255,160,210,.08) 52%, transparent 68%);
+    animation:rayDrift 17s ease-in-out infinite alternate}
+  @keyframes rayDrift{from{opacity:.32}to{opacity:.62}}
+  @media (prefers-reduced-motion:reduce){ .ray{animation:none} }
+  #vignette{position:fixed; inset:0; z-index:2; pointer-events:none;
+    background:radial-gradient(115% 100% at 50% 45%, transparent 55%, rgba(4,5,8,.55) 100%);}
+
+  /* ---- nav ---- */
+  nav{
+    position:fixed; top:0; left:0; right:0; z-index:20;
+    display:flex; align-items:center; gap:28px;
+    padding:16px clamp(18px,4vw,44px);
+    background:linear-gradient(rgba(8,10,15,.55), rgba(8,10,15,0));
+    -webkit-backdrop-filter:blur(9px); backdrop-filter:blur(9px);
+  }
+  .brand{display:flex; align-items:center; gap:11px; text-decoration:none; margin-right:auto}
+  .brand svg{width:32px; height:32px; display:block; filter:drop-shadow(0 0 7px rgba(255,120,195,.75))}
+  .brand .wm{font-weight:300; letter-spacing:.30em; font-size:.86rem; text-transform:uppercase}
+  .brand .wm b{font-weight:600; color:var(--pink-soft); letter-spacing:.30em}
+  nav .links{display:flex; gap:26px; align-items:center; font-size:.86rem; letter-spacing:.06em}
+  nav .links a{text-decoration:none; color:var(--dim); transition:color .25s}
+  nav .links a:hover{color:var(--ink)}
+  .cta{
+    display:inline-block; text-decoration:none; color:#12060D !important; white-space:nowrap;
+    background:linear-gradient(120deg, var(--pink) 0%, var(--pink-soft) 100%);
+    font-weight:600; letter-spacing:.05em; font-size:.84rem;
+    padding:10px 20px; border-radius:999px;
+    box-shadow:0 0 24px rgba(255,79,168,.35);
+    transition:transform .25s, box-shadow .25s;
+  }
+  .cta:hover{transform:translateY(-1px); box-shadow:0 0 34px rgba(255,79,168,.55)}
+  a:focus-visible{outline:2px solid var(--pink-soft); outline-offset:3px; border-radius:4px}
+  @media (max-width:760px){
+    nav .links a.hideS{display:none}
+    .side{display:none}
+    .cta{padding:9px 16px; font-size:.8rem}
+  }
+  @media (max-width:480px){
+    nav{gap:12px; padding:14px 16px}
+    nav .links{gap:12px}
+    nav .links a:not(.cta){display:none}
+    .brand .wm{font-size:.78rem}
+  }
+
+  /* ---- content flow ---- */
+  main{position:relative; z-index:5}
+  section{position:relative}
+
+  /* hero */
+  #hero{min-height:172svh}
+  .hero-fix{position:sticky; top:0; min-height:100svh; display:flex; flex-direction:column;
+    align-items:center; justify-content:center; text-align:center; padding:96px 20px 40px}
+  .eyebrow{font-family:"IBM Plex Mono",monospace; font-size:.72rem; letter-spacing:.34em; color:var(--dim); text-transform:uppercase; margin:0 0 18px}
+  .hero-word{
+    font-size:clamp(3rem, 10.5vw, 8.6rem); font-weight:200; letter-spacing:.115em;
+    line-height:1; margin:0 0 0 .115em; text-transform:uppercase; text-wrap:balance;
+    background:linear-gradient(180deg, #FFFFFF 20%, #C9D2E4 55%, #8E9AB3 100%);
+    -webkit-background-clip:text; background-clip:text; color:transparent;
+    text-shadow:0 0 80px rgba(255,120,195,.18);
+  }
+  .hero-word b{font-weight:600;
+    background:linear-gradient(120deg, var(--pink) 10%, var(--pink-pale) 90%);
+    -webkit-background-clip:text; background-clip:text; color:transparent}
+  .hero-sub{max-width:52ch; color:var(--dim); font-size:clamp(.98rem,1.5vw,1.12rem); font-weight:300; margin:22px 0 30px;
+    text-shadow:0 2px 16px rgba(5,6,10,.95), 0 0 30px rgba(5,6,10,.75)}
+  .hero-sub em{color:var(--ink); font-style:normal; font-weight:400}
+  .tagrow{display:flex; flex-wrap:wrap; gap:10px; justify-content:center; margin-top:6px}
+  .tag{font-family:"IBM Plex Mono",monospace; font-size:.66rem; letter-spacing:.16em; text-transform:uppercase;
+    color:var(--dim); border:1px solid var(--line); padding:7px 13px; border-radius:3px; background:rgba(10,12,18,.35)}
+  .side{position:absolute; top:50%; transform:translateY(-50%); z-index:6; pointer-events:none;
+    font-weight:200; letter-spacing:.14em; text-transform:uppercase;
+    font-size:clamp(1.5rem,4.4vw,3.6rem); color:rgba(235,240,250,.9)}
+  .side.l{left:clamp(10px,5vw,70px)} .side.r{right:clamp(10px,5vw,70px)}
+  .scroll-hint{position:absolute; bottom:26px; left:50%; transform:translateX(-50%);
+    font-family:"IBM Plex Mono",monospace; font-size:.66rem; letter-spacing:.3em; color:var(--faint); text-transform:uppercase}
+
+  /* particle scenes */
+  .scene{min-height:135svh; display:flex; align-items:center; justify-content:center}
+  .scene-label{position:sticky; top:0; min-height:100svh; width:100%;
+    display:flex; flex-direction:column; align-items:center; justify-content:center;
+    text-align:center; padding:0 20px; will-change:opacity,transform}
+  .scene-label .big{
+    font-size:clamp(2.6rem, 8.4vw, 6.8rem); font-weight:200; letter-spacing:.3em;
+    margin:0 0 0 .3em; text-transform:uppercase; line-height:1.05;
+    color:#EDF1F8; text-shadow:0 0 60px rgba(255,140,205,.22);
+  }
+  .scene-label .small{max-width:46ch; color:var(--dim); font-size:clamp(.95rem,1.4vw,1.08rem); margin:16px 0 0;
+    text-shadow:0 2px 16px rgba(5,6,10,.95), 0 0 30px rgba(5,6,10,.75)}
+  .scene-label .small em{color:var(--pink-pale); font-style:normal}
+  .scene-label .footnote{font-family:"IBM Plex Mono",monospace; font-size:.64rem; letter-spacing:.14em;
+    text-transform:uppercase; color:var(--faint); margin-top:14px}
+
+  /* finale */
+  #about{min-height:150svh}
+  .fin{position:sticky; top:0; min-height:100svh; display:flex; flex-direction:column;
+    align-items:center; justify-content:center; text-align:center; padding:110px 20px 60px}
+  .fin h2{font-size:clamp(1.6rem,3.6vw,2.6rem); font-weight:300; letter-spacing:.06em; margin:0 0 10px; text-wrap:balance}
+  .fin h2 b{font-weight:600; color:var(--pink-soft)}
+  .fin p.sub{max-width:56ch; color:var(--dim); margin:0 0 34px;
+    text-shadow:0 2px 16px rgba(5,6,10,.95), 0 0 30px rgba(5,6,10,.75)}
+  .stats{display:flex; flex-wrap:wrap; gap:0; border:1px solid var(--line); border-radius:6px; overflow:hidden; margin:0 0 36px;
+    background:rgba(10,12,18,.45); -webkit-backdrop-filter:blur(6px); backdrop-filter:blur(6px)}
+  .stat{padding:18px 26px; border-right:1px solid var(--line); min-width:130px}
+  .stat:last-child{border-right:none}
+  .stat .v{font-family:"IBM Plex Mono",monospace; font-weight:600; font-size:1.3rem; color:var(--pink-pale); font-variant-numeric:tabular-nums}
+  .stat .k{font-family:"IBM Plex Mono",monospace; font-size:.62rem; letter-spacing:.18em; text-transform:uppercase; color:var(--faint); margin-top:4px}
+  .fin .actions{display:flex; gap:16px; flex-wrap:wrap; justify-content:center; align-items:center}
+  .ghost{font-size:.9rem; letter-spacing:.05em; color:var(--dim); text-decoration:none; border-bottom:1px solid var(--line); padding-bottom:2px}
+  .ghost:hover{color:var(--ink); border-color:var(--pink-soft)}
+
+  footer{position:relative; z-index:5; border-top:1px solid var(--line);
+    background:linear-gradient(rgba(7,8,12,.2), rgba(5,6,9,.85));
+    padding:38px clamp(18px,4vw,44px) 46px; color:var(--dim); font-size:.85rem}
+  .foot-row{display:flex; flex-wrap:wrap; gap:18px 40px; align-items:center; justify-content:space-between; max-width:1200px; margin:0 auto}
+  .foot-brand{display:flex; gap:10px; align-items:center}
+  .foot-brand svg{width:20px;height:20px}
+  .promise{max-width:1200px; margin:16px auto 0; color:var(--faint); font-size:.78rem; line-height:1.6}
+  footer a{color:var(--dim)}
+  footer a:hover{color:var(--ink)}
+</style>
+</head>
+<body>
+
+<canvas id="stage" aria-hidden="true"></canvas>
+<div class="ray r1" aria-hidden="true"></div>
+<div class="ray r2" aria-hidden="true"></div>
+<div class="ray r3" aria-hidden="true"></div>
+<div id="vignette" aria-hidden="true"></div>
+
+<nav>
+  <a class="brand" href="#top" aria-label="Startup25 home">
+    <svg viewBox="0 0 100 100" aria-hidden="true"><defs><linearGradient id="pgn" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF4FA8"/><stop offset="1" stop-color="#FFC1E3"/></linearGradient></defs><g fill="url(#pgn)"><circle cx="78" cy="16" r="1.6"/><circle cx="69.9" cy="11.7" r="1.9"/><circle cx="61.2" cy="8.9" r="2.2"/><circle cx="52.4" cy="7.6" r="2.5"/><circle cx="43.9" cy="7.9" r="2.7"/><circle cx="36.4" cy="9.9" r="3.0"/><circle cx="30.5" cy="13.7" r="3.2"/><circle cx="26.9" cy="19.5" r="3.4"/><circle cx="26" cy="27.4" r="3.6"/><circle cx="27.6" cy="35.3" r="3.8"/><circle cx="31.8" cy="40.7" r="4.0"/><circle cx="37.9" cy="44.2" r="4.1"/><circle cx="45.1" cy="46.4" r="4.2"/><circle cx="52.6" cy="48.1" r="4.2"/><circle cx="59.8" cy="50.3" r="4.2"/><circle cx="65.9" cy="53.7" r="4.1"/><circle cx="70.1" cy="59" r="4.0"/><circle cx="71.9" cy="66.6" r="3.8"/><circle cx="70.9" cy="74.6" r="3.6"/><circle cx="67.1" cy="80.9" r="3.4"/><circle cx="61.1" cy="85.4" r="3.2"/><circle cx="53.6" cy="88.3" r="3.0"/><circle cx="45.4" cy="89.7" r="2.7"/><circle cx="37.2" cy="89.4" r="2.5"/><circle cx="29.8" cy="87.2" r="2.2"/><circle cx="24" cy="82.9" r="1.9"/><circle cx="20" cy="80" r="1.6"/></g><g fill="#FF9AD5"><circle cx="88" cy="10" r="1.4" opacity=".85"/><circle cx="94" cy="17" r="1.1" opacity=".65"/><circle cx="90" cy="26" r=".9" opacity=".5"/><circle cx="97" cy="8" r=".8" opacity=".4"/><circle cx="85" cy="3" r="1" opacity=".55"/></g></svg>
+    <span class="wm">STARTUP<b>25</b></span>
+  </a>
+  <div class="links">
+    <a href="#recall" class="hideS">How it runs</a>
+    <a href="#recover" class="hideS">The arithmetic</a>
+    <a href="#about">About</a>
+    <a class="cta" href="/salon-malone/">Start a campaign</a>
+  </div>
+</nav>
+
+<main id="top">
+
+  <section id="hero">
+    <div class="hero-fix">
+      <div class="side l" aria-hidden="true">Lapsed</div>
+      <div class="side r" aria-hidden="true">Rebooked</div>
+      <p class="eyebrow">The company behind Malone</p>
+      <h1 class="hero-word">Startup<b>25</b></h1>
+      <p class="hero-sub">Every appointment business is sitting on a client list that quietly went dark. <em>Malone phones it back to life</em> — one honest offer, two concrete times, the first yes taken. Consent-gated, one attempt ever.</p>
+      <div class="tagrow" aria-label="What we build">
+        <span class="tag">Voice AI</span><span class="tag">Win-Back Campaigns</span><span class="tag">Consent-Gated</span><span class="tag">One Attempt, Ever</span>
+      </div>
+      <div class="scroll-hint">Scroll</div>
+    </div>
+  </section>
+
+  <section id="recall" class="scene">
+    <div class="scene-label">
+      <h2 class="big">Recall</h2>
+      <p class="small">Malone phones the clients who quietly stopped booking — <em>says what it is in the first sentence</em>, keeps it to ninety seconds, and never argues with a no.</p>
+    </div>
+  </section>
+
+  <section id="rebook" class="scene">
+    <div class="scene-label">
+      <h2 class="big">Rebook</h2>
+      <p class="small">One offer you approved, two concrete times, the first yes taken — and the booking email lands at your front desk <em>while the chair is still open</em>.</p>
+    </div>
+  </section>
+
+  <section id="recover" class="scene">
+    <div class="scene-label">
+      <h2 class="big">Recover</h2>
+      <p class="small">Friday, the arithmetic: dialled, reached, booked, opted out — and recovered revenue at your ticket. <em>$3,720 booked against a $399 month</em> in our worked example.</p>
+      <p class="footnote">Illustrative — your list, your offer and your show rate move every line</p>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="fin">
+      <h2>The company is <b>Startup25</b>. The concierge is <b>Malone</b>.</h2>
+      <p class="sub">Built by students at New York University. Malone makes real end-to-end calls today — consent enforced at import, a global do-not-call list written mid-call, disclosed as a virtual concierge on every dial. The machine dials; the manners stay human; the math stays Friday-honest.</p>
+      <div class="stats" role="list" aria-label="How Malone runs">
+        <div class="stat" role="listitem"><div class="v">90 sec</div><div class="k">Target call</div></div>
+        <div class="stat" role="listitem"><div class="v">1</div><div class="k">Attempt, ever</div></div>
+        <div class="stat" role="listitem"><div class="v">9–7</div><div class="k">Local hours</div></div>
+        <div class="stat" role="listitem"><div class="v">Instant</div><div class="k">Opt-out</div></div>
+      </div>
+      <div class="actions">
+        <a class="cta" href="/salon-malone/">Start a campaign&nbsp;&nbsp;→</a>
+        <a class="ghost" href="/salon-malone/">Read how it runs</a>
+        <a class="ghost" href="mailto:salon925malon@proton.me">Say hello</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="foot-row">
+    <div class="foot-brand">
+      <svg viewBox="0 0 100 100" aria-hidden="true"><g fill="#FF9AD5"><circle cx="78" cy="16" r="1.6"/><circle cx="61.2" cy="8.9" r="2.2"/><circle cx="43.9" cy="7.9" r="2.7"/><circle cx="30.5" cy="13.7" r="3.2"/><circle cx="26" cy="27.4" r="3.6"/><circle cx="31.8" cy="40.7" r="4"/><circle cx="45.1" cy="46.4" r="4.2"/><circle cx="59.8" cy="50.3" r="4.2"/><circle cx="70.1" cy="59" r="4"/><circle cx="71.9" cy="66.6" r="3.8"/><circle cx="67.1" cy="80.9" r="3.4"/><circle cx="53.6" cy="88.3" r="3"/><circle cx="37.2" cy="89.4" r="2.5"/><circle cx="24" cy="82.9" r="1.9"/></g></svg>
+      <span class="mono" style="font-size:.78rem; letter-spacing:.22em">© 2026 STARTUP25 · A PRODUCT LINE OF EASECASE, INC.</span>
+    </div>
+    <div>
+      <a href="/salon-malone/">Salon Malone</a> &nbsp;·&nbsp; <a href="mailto:salon925malon@proton.me">salon925malon@proton.me</a> &nbsp;·&nbsp; <span>Dover, Delaware</span>
+    </div>
+  </div>
+  <p class="promise">The promise, unchanged: we only call contacts marked as consented, one attempt each, inside local business hours. Malone says it is a virtual concierge on every call. Anyone who asks to be removed joins a global do-not-call list before the call ends. Client lists are never sold, shared, or dialled for another business.</p>
+</footer>
+
+<script>
+(() => {
+  const canvas = document.getElementById('stage');
+  const ctx = canvas.getContext('2d');
+  const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  let W=0,H=0,DPR=1,S=0,CX=0,CY=0;
+  function resize(){
+    DPR = Math.min(window.devicePixelRatio||1, 1.75);
+    W = innerWidth; H = innerHeight;
+    canvas.width = W*DPR; canvas.height = H*DPR;
+    canvas.style.width = W+'px'; canvas.style.height = H+'px';
+    ctx.setTransform(DPR,0,0,DPR,0,0);
+    S = Math.min(W,H); CX = W/2; CY = H*0.52;
+  }
+  resize(); addEventListener('resize', () => { resize(); });
+
+  /* ---------- shape sampling ---------- */
+  const SIDE = 560;
+  function sample(draw, step){
+    const oc = document.createElement('canvas'); oc.width = oc.height = SIDE;
+    const o = oc.getContext('2d');
+    o.fillStyle = '#fff'; o.strokeStyle = '#fff'; o.lineCap = o.lineJoin = 'round';
+    draw(o);
+    const img = o.getImageData(0,0,SIDE,SIDE).data;
+    const pts = [];
+    for(let y=0; y<SIDE; y+=step){
+      for(let x=0; x<SIDE; x+=step){
+        if(img[(y*SIDE+x)*4+3] > 110){
+          pts.push({x:(x/SIDE-.5)+(Math.random()-.5)*0.008, y:(y/SIDE-.5)+(Math.random()-.5)*0.008});
+        }
+      }
+    }
+    // shuffle so morphs swarm instead of sweep
+    for(let i=pts.length-1;i>0;i--){ const j=(Math.random()*(i+1))|0; const t=pts[i]; pts[i]=pts[j]; pts[j]=t; }
+    return pts;
+  }
+
+  const shapes = [
+    // 0 · X — imagine ✕ manifest
+    o => { o.lineWidth = 56;
+      o.beginPath(); o.moveTo(120,120); o.lineTo(440,440); o.stroke();
+      o.beginPath(); o.moveTo(440,120); o.lineTo(120,440); o.stroke(); },
+    // 1 · phone handset
+    o => { o.lineWidth = 78;
+      o.beginPath(); o.arc(280,300,150, Math.PI*1.12, Math.PI*1.88); o.stroke();
+      o.beginPath(); o.arc(146,236,62,0,7); o.fill();
+      o.beginPath(); o.arc(414,236,62,0,7); o.fill(); },
+    // 2 · calendar with one booked slot
+    o => { o.lineWidth = 26;
+      if(!o.roundRect){ o.roundRect = function(x,y,w,h){ this.rect(x,y,w,h); }; }
+      const r=(x,y,w,h)=>{o.beginPath(); o.roundRect(x,y,w,h,18); o.stroke();};
+      r(110,140,340,310);
+      o.fillRect(110,140,340,64);
+      o.fillRect(170,86,26,74); o.fillRect(364,86,26,74);
+      for(let row=0;row<3;row++) for(let col=0;col<4;col++){
+        const x=158+col*82, y=248+row*66;
+        if(row===1&&col===2){ o.beginPath(); o.roundRect(x-25,y-21,58,48,10); o.fill(); }
+        else { o.beginPath(); o.arc(x,y,11,0,7); o.fill(); }
+      } },
+    // 3 · dollar
+    o => { o.font='900 470px "Outfit", Arial, sans-serif'; o.textAlign='center'; o.textBaseline='middle';
+      o.fillText('$', 280, 295); },
+    // 4 · 25
+    o => { o.font='800 300px "Outfit", Arial, sans-serif'; o.textAlign='center'; o.textBaseline='middle';
+      o.fillText('25', 280, 290); }
+  ];
+  let targets = [];
+  function buildTargets(){ targets = shapes.map(f => sample(f, 5)); }
+
+  /* ---------- particles ---------- */
+  const isMobile = Math.min(innerWidth,innerHeight) < 620;
+  const COUNT = reduced ? 1600 : (isMobile ? 1800 : 3600);
+  const PINKS = ['#FF4FA8','#FF6FBE','#FF9AD5','#FFB3DF','#FFC6E6'];
+  function sprite(color, r){
+    const c = document.createElement('canvas'); c.width = c.height = r*2;
+    const g = c.getContext('2d');
+    const gr = g.createRadialGradient(r,r,0,r,r,r);
+    gr.addColorStop(0,'rgba(255,255,255,.95)');
+    gr.addColorStop(.25,color);
+    gr.addColorStop(1,'rgba(255,79,168,0)');
+    g.fillStyle = gr; g.fillRect(0,0,r*2,r*2);
+    return c;
+  }
+  const SPRITES = PINKS.map(c => sprite(c, 26));
+  const CORE = sprite('#FFFFFF', 22);
+
+  const P = [];
+  for(let i=0;i<COUNT;i++){
+    P.push({
+      x: (Math.random()-.5)*innerWidth, y:(Math.random()-.5)*innerHeight,
+      ph: Math.random()*7, tw: 1.5+Math.random()*3.5,
+      sz: .35 + Math.random()*.95,
+      sp: SPRITES[(Math.random()*SPRITES.length)|0],
+      core: Math.random() < .07,
+      k: .045 + Math.random()*.045,
+      wob: .5 + Math.random()
+    });
+  }
+
+  /* ---------- scroll → scene ---------- */
+  let sceneFloat = 0, sceneGoal = 0;
+  const ease = t => t*t*(3-2*t);
+  function readScroll(){
+    const doc = document.documentElement;
+    const max = doc.scrollHeight - innerHeight;
+    const pr = max>0 ? Math.min(1, Math.max(0, scrollY/max)) : 0;
+    sceneGoal = pr * (shapes.length-1);
+  }
+  addEventListener('scroll', readScroll, {passive:true});
+
+  /* ---------- label opacity ---------- */
+  const labels = [...document.querySelectorAll('.scene-label')];
+  const heroFix = document.querySelector('.hero-fix');
+  const sides = [...document.querySelectorAll('.side')];
+  function fadeUI(){
+    for(const el of labels){
+      const sec = el.parentElement.getBoundingClientRect();
+      const c = sec.top + sec.height/2 - innerHeight/2;
+      const op = Math.max(0, 1 - Math.abs(c)/(innerHeight*.55));
+      el.style.opacity = op.toFixed(3);
+    }
+    const h = heroFix.getBoundingClientRect();
+    const hop = Math.max(0, 1 - Math.max(0, -h.top*1.4)/innerHeight);
+    heroFix.style.opacity = hop.toFixed(3);
+    for(const s of sides) s.style.opacity = (hop*.9).toFixed(3);
+  }
+
+  /* ---------- cylinder ---------- */
+  const COLS = 26, ROWS = 13;
+  function drawCylinder(t){
+    const R = S*.38, HH = S*.72, F = S*2.3, TILT = .17;
+    const rot = t*.10 + sceneFloat*.9;
+    const cy0 = CY - HH/2;
+    ctx.lineWidth = 1;
+    const pt = (a, row) => {
+      const x3 = Math.cos(a)*R, z3 = Math.sin(a)*R;
+      const sc = F/(F + z3);
+      return {x: CX + x3*sc, y: cy0 + row*(HH/ROWS) + z3*TILT, z: z3, sc};
+    };
+    // rings
+    for(let row=0; row<=ROWS; row++){
+      const band = (row>=5 && row<=7);
+      for(let i=0;i<COLS;i++){
+        const a1 = rot + i/COLS*Math.PI*2, a2 = rot + (i+1)/COLS*Math.PI*2;
+        const p1 = pt(a1,row), p2 = pt(a2,row);
+        const front = (p1.z+p2.z)/2 < 0;
+        let al = front ? .16 : .06;
+        if(band) al *= 1.9;
+        ctx.strokeStyle = band ? `rgba(255,110,190,${al})` : `rgba(168,182,208,${al})`;
+        ctx.beginPath(); ctx.moveTo(p1.x,p1.y); ctx.lineTo(p2.x,p2.y); ctx.stroke();
+      }
+    }
+    // columns
+    for(let i=0;i<COLS;i++){
+      const a = rot + i/COLS*Math.PI*2;
+      const top = pt(a,0), bot = pt(a,ROWS);
+      const al = top.z < 0 ? .13 : .05;
+      ctx.strokeStyle = `rgba(168,182,208,${al})`;
+      ctx.beginPath(); ctx.moveTo(top.x,top.y); ctx.lineTo(bot.x,bot.y); ctx.stroke();
+    }
+  }
+
+  /* ---------- comet streams (hero) ---------- */
+  const streams = [
+    {p0:[-.1,.30],p1:[.45,.55],p2:[1.12,.10], hue:'#FF6FBE', n:130, sp:.05},
+    {p0:[-.12,.42],p1:[.5,.62],p2:[1.14,.22], hue:'#FF9AD5', n:110, sp:.04}
+  ];
+  function drawStreams(t, fade){
+    if(fade<=0.01) return;
+    for(const s of streams){
+      for(let i=0;i<s.n;i++){
+        const u = (i/s.n + t*s.sp) % 1;
+        const v = 1-u;
+        const x = (v*v*s.p0[0] + 2*v*u*s.p1[0] + u*u*s.p2[0]) * W;
+        const y = (v*v*s.p0[1] + 2*v*u*s.p1[1] + u*u*s.p2[1]) * H
+                  + Math.sin(u*40 + t*2)*6;
+        const sz = (1-u)*2.2 + .4;
+        ctx.globalAlpha = fade * (.12 + .55*(1-u)) * (0.6+0.4*Math.sin(i*3+t*5));
+        ctx.drawImage(CORE, x-sz*3, y-sz*3, sz*6, sz*6);
+      }
+    }
+    ctx.globalAlpha = 1;
+  }
+
+  /* ---------- main loop ---------- */
+  let t0 = performance.now();
+  function frame(now){
+    const t = (now - t0)/1000;
+    sceneFloat += (sceneGoal - sceneFloat) * .07;
+
+    ctx.clearRect(0,0,W,H);
+    drawCylinder(t);
+
+    const heroFade = Math.max(0, 1 - sceneFloat*1.6);
+    drawStreams(t, heroFade);
+
+    const nS = shapes.length;
+    let idx = Math.floor(sceneFloat); if(idx > nS-2) idx = nS-2;
+    const f = ease(Math.min(1, Math.max(0, sceneFloat - idx)));
+    const A = targets[idx], B = targets[idx+1];
+    // per-scene framing: keep shapes clear of the copy (finale "25" sits small, high)
+    const SCN = [{s:1,dy:-.02},{s:.95,dy:-.05},{s:.9,dy:-.08},{s:.85,dy:-.09},{s:.55,dy:.16}];
+    const fs = SCN[idx].s + (SCN[idx+1].s - SCN[idx].s)*f;
+    const fdy = (SCN[idx].dy + (SCN[idx+1].dy - SCN[idx].dy)*f) * H;
+    const scale = S*.55*fs;
+    const settle = 1 - Math.abs(f-.5)*2;   // 0 when settled, 1 mid-morph
+
+    ctx.globalCompositeOperation = 'lighter';
+    for(let i=0;i<COUNT;i++){
+      const p = P[i];
+      const a = A[i % A.length], b = B[i % B.length];
+      const gx = CX + (a.x + (b.x-a.x)*f) * scale;
+      const gy = CY + fdy + (a.y + (b.y-a.y)*f) * scale;
+      const wob = p.wob * (1.2 + settle*22);
+      const wx = Math.sin(t*p.tw + p.ph) * wob;
+      const wy = Math.cos(t*p.tw*.85 + p.ph*1.7) * wob;
+      p.x += (gx + wx - p.x) * p.k;
+      p.y += (gy + wy - p.y) * p.k;
+      const tw = .55 + .45*Math.sin(t*p.tw*2 + p.ph);
+      const sz = p.sz * (4.8 + settle*2.6);
+      ctx.globalAlpha = tw * (p.core ? .95 : .72);
+      ctx.drawImage(p.core ? CORE : p.sp, p.x - sz/2, p.y - sz/2, sz, sz);
+    }
+    ctx.globalAlpha = 1;
+    ctx.globalCompositeOperation = 'source-over';
+
+    fadeUI();
+    if(!reduced) requestAnimationFrame(frame);
+  }
+
+  function start(){
+    buildTargets(); readScroll();
+    if(reduced){
+      // settle synchronously, render one still frame
+      sceneFloat = sceneGoal;
+      for(let s=0;s<160;s++){
+        const A = targets[Math.min(Math.floor(sceneFloat), shapes.length-2)];
+        for(let i=0;i<COUNT;i++){
+          const p=P[i]; const a=A[i%A.length];
+          p.x += (CX + a.x*S*.55 - p.x)*.3; p.y += (CY + a.y*S*.55 - p.y)*.3;
+        }
+      }
+      frame(performance.now());
+      addEventListener('scroll', () => { sceneFloat = sceneGoal; frame(performance.now()); }, {passive:true});
+    } else {
+      requestAnimationFrame(frame);
+    }
+  }
+  // let fonts land first so text-based shapes ($, 25) sample the right glyphs
+  let booted = false;
+  function boot(){ if(booted) return; booted = true; start(); }
+  if(document.fonts && document.fonts.ready){
+    document.fonts.ready.then(boot);
+    setTimeout(boot, 1600);   // fallback if fonts never resolve
+  } else { boot(); }
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Startup25 mark">
+  <defs>
+    <linearGradient id="pg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FF4FA8"/>
+      <stop offset="1" stop-color="#FFC1E3"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <circle cx="78.0" cy="16.0" r="1.6" fill="url(#pg)"/>
+    <circle cx="69.9" cy="11.7" r="1.94" fill="url(#pg)"/>
+    <circle cx="61.2" cy="9.2" r="2.27" fill="url(#pg)"/>
+    <circle cx="52.2" cy="8.5" r="2.59" fill="url(#pg)"/>
+    <circle cx="43.8" cy="9.5" r="2.9" fill="url(#pg)"/>
+    <circle cx="36.3" cy="12.2" r="3.18" fill="url(#pg)"/>
+    <circle cx="30.5" cy="16.6" r="3.44" fill="url(#pg)"/>
+    <circle cx="26.8" cy="22.5" r="3.66" fill="url(#pg)"/>
+    <circle cx="26.0" cy="30.0" r="3.85" fill="url(#pg)"/>
+    <circle cx="28.6" cy="37.0" r="4.0" fill="url(#pg)"/>
+    <circle cx="34.3" cy="42.1" r="4.11" fill="url(#pg)"/>
+    <circle cx="42.1" cy="45.9" r="4.18" fill="url(#pg)"/>
+    <circle cx="50.8" cy="49.0" r="4.2" fill="url(#pg)"/>
+    <circle cx="59.3" cy="52.1" r="4.18" fill="url(#pg)"/>
+    <circle cx="66.8" cy="55.9" r="4.11" fill="url(#pg)"/>
+    <circle cx="72.0" cy="61.0" r="4.0" fill="url(#pg)"/>
+    <circle cx="74.0" cy="68.0" r="3.85" fill="url(#pg)"/>
+    <circle cx="72.3" cy="75.5" r="3.66" fill="url(#pg)"/>
+    <circle cx="67.8" cy="81.4" r="3.44" fill="url(#pg)"/>
+    <circle cx="61.1" cy="85.7" r="3.18" fill="url(#pg)"/>
+    <circle cx="53.0" cy="88.2" r="2.9" fill="url(#pg)"/>
+    <circle cx="44.1" cy="89.0" r="2.59" fill="url(#pg)"/>
+    <circle cx="35.2" cy="88.0" r="2.27" fill="url(#pg)"/>
+    <circle cx="26.9" cy="85.0" r="1.94" fill="url(#pg)"/>
+    <circle cx="20.0" cy="80.0" r="1.6" fill="url(#pg)"/>
+    <circle cx="88" cy="10" r="1.4" fill="#FF9AD5" opacity="0.85"/>
+    <circle cx="94" cy="17" r="1.1" fill="#FF9AD5" opacity="0.65"/>
+    <circle cx="90" cy="26" r="0.9" fill="#FF9AD5" opacity="0.5"/>
+    <circle cx="97" cy="8" r="0.8" fill="#FF9AD5" opacity="0.4"/>
+    <circle cx="85" cy="3" r="1.0" fill="#FF9AD5" opacity="0.55"/>
+  </g>
+</svg>
