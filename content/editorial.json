@@ -30019,5 +30019,419 @@
     }
    ]
   }
+ },
+ "two-point-four-for-thirty-six": {
+  "strip": {
+   "cap": "By the numbers · Swiss watch exports, July 2026",
+   "cells": [
+    {
+     "fig": "CHF 2,628.3M",
+     "delta": "▲ +9.6%",
+     "dir": "up",
+     "lab": "total exports, July"
+    },
+    {
+     "fig": "+0.9%",
+     "delta": "▲",
+     "dir": "up",
+     "lab": "seven months, from −0.7% at the half"
+    },
+    {
+     "fig": "36.2%",
+     "lab": "of wristwatch value, precious metal"
+    },
+    {
+     "fig": "2.4%",
+     "lab": "of wristwatch units, precious metal"
+    },
+    {
+     "fig": "CHF 701.3M",
+     "delta": "▲ +26.5%",
+     "dir": "up",
+     "lab": "United States, 26.7% share"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Wristwatches by material · July 2026, % change on July 2025",
+    "rows": [
+     {
+      "l": "GOLD-STEEL, VALUE",
+      "v": 24,
+      "d": "+23.8%",
+      "hi": true
+     },
+     {
+      "l": "GOLD-STEEL, UNITS",
+      "v": -4,
+      "d": "−4.4%"
+     },
+     {
+      "l": "OTHER MATERIALS, VALUE",
+      "v": 11,
+      "d": "+11.1%"
+     },
+     {
+      "l": "OTHER METALS, VALUE",
+      "v": 10,
+      "d": "+9.8%"
+     },
+     {
+      "l": "STEEL, VALUE",
+      "v": 9,
+      "d": "+9.0%"
+     },
+     {
+      "l": "PRECIOUS METAL, VALUE",
+      "v": 4,
+      "d": "+3.7%",
+      "hi": true
+     },
+     {
+      "l": "PRECIOUS METAL, UNITS",
+      "v": 1,
+      "d": "+0.9%"
+     }
+    ],
+    "note": "Precious metal is the slowest-growing material by value in a month when wristwatch value rose 9.8%, and its unit growth is close to flat. Gold-steel moved the other way: fewer watches at a far higher price per watch.",
+    "cap": "Federation of the Swiss Watch Industry, July 2026 release. Carat Capital graphics desk. &nbsp;CC/2026/231"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "A month turns the year.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "pull": {
+     "q": "Precious metal was 2.4% of the units and 36.2% of the value",
+     "attr": "The Movement Desk"
+    }
+   },
+   {
+    "sub": "The material split, and the metal underneath it.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "fig": 0
+   },
+   {
+    "p": 3
+   },
+   {
+    "sub": "Top and bottom, with the middle giving ground.",
+    "n": "§3"
+   },
+   {
+    "p": 4
+   },
+   {
+    "also": {
+     "t": "Two held marks come off the tape. Gold $4,482.20, platinum $1,799.00",
+     "href": "a-both-holds-end-at-once.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "What the counter does stock, the precious-metal piece, grew 0.9% by unit"
+  },
+  "next": {
+   "lead": {
+    "slug": "both-holds-end-at-once",
+    "tag": "Gold & Metals",
+    "blurb": "Gold above $4,480 and two held marks retired for sitting below the live range."
+   },
+   "minis": [
+    {
+     "slug": "hundred-billion-on-two-point-four",
+     "tag": "Diamonds"
+    }
+   ]
+  }
+ },
+ "both-holds-end-at-once": {
+  "strip": {
+   "cap": "By the numbers · the tape at 06:02 New York, against this paper's 19 August marks",
+   "cells": [
+    {
+     "fig": "$4,482.20",
+     "delta": "▲ +2.80%",
+     "dir": "up",
+     "lab": "gold, written back"
+    },
+    {
+     "fig": "$66.59",
+     "delta": "▲ +5.50%",
+     "dir": "up",
+     "lab": "silver, written back"
+    },
+    {
+     "fig": "$1,799.00",
+     "delta": "▲ +4.23%",
+     "dir": "up",
+     "lab": "platinum, hold ended"
+    },
+    {
+     "fig": "$1,308.00",
+     "delta": "▲ +2.67%",
+     "dir": "up",
+     "lab": "palladium, hold ended"
+    },
+    {
+     "fig": "5.18%",
+     "lab": "30-year US Treasury, down 10bp"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "The held mark against the live range · 20 August, $ an ounce",
+    "rows": [
+     {
+      "l": "PLATINUM, TRADINGECONOMICS",
+      "v": 105,
+      "d": "$1,813.80"
+     },
+     {
+      "l": "PLATINUM, KITCO",
+      "v": 104,
+      "d": "$1,799.00"
+     },
+     {
+      "l": "PLATINUM, HELD MARK 19 AUG",
+      "v": 100,
+      "d": "$1,726.00",
+      "hi": true
+     },
+     {
+      "l": "PALLADIUM, TRADINGECONOMICS",
+      "v": 104,
+      "d": "$1,328.50"
+     },
+     {
+      "l": "PALLADIUM, KITCO",
+      "v": 103,
+      "d": "$1,308.00"
+     },
+     {
+      "l": "PALLADIUM, HELD MARK 19 AUG",
+      "v": 100,
+      "d": "$1,274.00",
+      "hi": true
+     }
+    ],
+    "note": "Bars are indexed by this desk to each metal's held mark at 100 to make the position visible; the dollar figures beside them are the readings themselves. Both held marks sit below every live reading available at press time, which is why both were retired and written at Kitco's number. On 19 August this paper retired two marks for sitting above the whole range.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/232"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Four written back, none lower.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "pull": {
+     "q": "A mark below the whole range is not a mark either.",
+     "attr": "The Gold & Metals Desk"
+    }
+   },
+   {
+    "fig": 0
+   },
+   {
+    "sub": "Yesterday's session, and two bases that point opposite ways.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "p": 3
+   },
+   {
+    "p": 4
+   },
+   {
+    "p": 5
+   },
+   {
+    "also": {
+     "t": "2.4% of units, 36.2% of value: the gold watch inside a 9.6% July",
+     "href": "a-two-point-four-for-thirty-six.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "a rule that writes only when two pages agree can only be right"
+  },
+  "next": {
+   "lead": {
+    "slug": "hundred-billion-on-two-point-four",
+    "tag": "Diamonds",
+    "blurb": "A fifteen-year export target, and the growth rate it would actually take."
+   },
+   "minis": [
+    {
+     "slug": "two-point-four-for-thirty-six",
+     "tag": "Watches"
+    }
+   ]
+  }
+ },
+ "hundred-billion-on-two-point-four": {
+  "spec": {
+   "cap": "The roadmap · Chintan Shivir, New Delhi, 19 August 2026",
+   "rows": [
+    {
+     "l": "Target",
+     "v": "<b>$100 billion</b> gems and jewellery exports by 2040"
+    },
+    {
+     "l": "From",
+     "v": "about <b>$28 billion</b> in 2025-26"
+    },
+    {
+     "l": "Implied growth",
+     "v": "<b>9.5% a year</b> to FY2039-40, or 8.9% to the year after (this desk's arithmetic)"
+    },
+    {
+     "l": "Current run-rate",
+     "v": "<b>+2.44%</b> in dollars, April-July 2026; +13.58% in rupees"
+    },
+    {
+     "l": "By 2040",
+     "v": "1.2% of GDP · 14% of merchandise exports · manufacturing output about 15 lakh crore rupees"
+    },
+    {
+     "l": "Five missions",
+     "v": "Global market access · MSME scale-up · Export-import fast track · Crafted by India · Next-generation talent and design"
+    },
+    {
+     "l": "Interim milestone",
+     "v": "<b>None published</b>"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "April-July 2026 exports by line · % change on the year",
+    "rows": [
+     {
+      "l": "SILVER JEWELLERY",
+      "v": 72,
+      "d": "+72.19%",
+      "hi": true
+     },
+     {
+      "l": "STUDDED GOLD JEWELLERY",
+      "v": 21,
+      "d": "+21.09%"
+     },
+     {
+      "l": "PLATINUM JEWELLERY",
+      "v": 17,
+      "d": "+17.20%"
+     },
+     {
+      "l": "POLISHED LAB-GROWN",
+      "v": 7,
+      "d": "+7.47%"
+     },
+     {
+      "l": "GROSS EXPORTS",
+      "v": 2,
+      "d": "+2.44%"
+     },
+     {
+      "l": "CUT & POLISHED DIAMONDS",
+      "v": -8,
+      "d": "−8.00%",
+      "hi": true
+     },
+     {
+      "l": "PLAIN GOLD JEWELLERY",
+      "v": -8,
+      "d": "−8.46%"
+     }
+    ],
+    "note": "The three fastest-growing lines came to $994.50 million across the four months, under 11% of the $9.17 billion total. Cut and polished diamonds, at $3.60 billion, are 39.3% of it and falling. Share arithmetic is this desk's, on the Council's figures.",
+    "cap": "Gem & Jewellery Export Promotion Council, April-July 2026. Carat Capital graphics desk. &nbsp;CC/2026/233"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "A target, with projections attached.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "sub": "What the number actually asks for.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "The target is denominated in the currency that grew 2.44%.",
+     "attr": "The Diamonds Desk"
+    }
+   },
+   {
+    "fig": 0
+   },
+   {
+    "p": 3
+   },
+   {
+    "p": 4
+   },
+   {
+    "also": {
+     "t": "Two held marks come off the tape. Gold $4,482.20, platinum $1,799.00",
+     "href": "a-both-holds-end-at-once.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "a target nobody can miss until 2040 is not a target"
+  },
+  "next": {
+   "lead": {
+    "slug": "two-point-four-for-thirty-six",
+    "tag": "Watches",
+    "blurb": "Swiss exports turn positive on the year, and the gold watch barely moves."
+   },
+   "minis": [
+    {
+     "slug": "both-holds-end-at-once",
+     "tag": "Gold & Metals"
+    }
+   ]
+  }
  }
 }
