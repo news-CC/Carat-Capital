@@ -313,6 +313,29 @@ def figwrap(title):
     return _FIG_RE.sub(r'<span class="fign">\1</span>', title, count=1)
 
 
+def metadesc(text, limit=155):
+    """Cut a dek for the search-result summary without breaking a word.
+
+    Every dek on this site is longer than the meta-description slot (271 of 271,
+    median 216 characters), so every page is cut. Slicing at a fixed 150 cut 160
+    of them mid-word -- 'platinum and pa' -- which is what a reader saw in Google
+    for seventeen days. Cut on a space instead and mark the cut.
+
+    Applied to .site-repo/build.py on 2026-08-21. The same repair was made on
+    2026-08-20 to website/build.py, which is a MIRROR: the publish run rsyncs this
+    file over it, so that edit was erased and never reached a page. This copy is
+    the one that ships.
+    """
+    text = (text or "").strip()
+    if len(text) <= limit:
+        return text
+    cut = text[:limit]
+    sp = cut.rfind(" ")
+    if sp > limit * 0.6:
+        cut = cut[:sp]
+    return cut.rstrip(" ,;:.\u2014-") + "\u2026"
+
+
 def head(title, desc, path="", extra=""):
     canonical = cu(f"{BASE_URL}/{path}") if path else BASE_URL
     return f"""<!DOCTYPE html>
@@ -2545,7 +2568,7 @@ def desk_page(d):
     <div class="sec-mast rv"><h2>This desk, on the record — <em>the last eight weeks</em></h2><div class="mono-note"><a href="the-record.html">Full chronicle →</a></div></div>
     <details class="mob-collapse"><summary>Show the chronicle</summary>{rec_html}</details>
   </div></section>"""
-    body = f"""{head(f"{d['title']} — Carat Capital", d['dek'][:150])}
+    body = f"""{head(f"{d['title']} — Carat Capital", metadesc(d['dek']))}
 {folio(f"Desk D—{d['no']} · {d['title']}")}
 {navbar(d['slug'])}
 {omenu()}
@@ -2757,7 +2780,7 @@ def article_page_v2(a):
     art_photo = photo_plate(a["slug"], cls="art-photo", eager=True, label="Plate") or motif_plate(a.get("desk","diamonds"), f"CC/{a['date'][-5:]}")
     prog = ('<div id="artprog"></div><scr' + 'ipt>addEventListener("scroll",function(){var h=document.documentElement;'
             'document.getElementById("artprog").style.width=h.scrollTop/(h.scrollHeight-h.clientHeight)*100+"%"})</scr' + 'ipt>')
-    return f"""{head(f"{a['title']} — Carat Capital", a['dek'][:150], f"a-{a['slug']}.html", extra)}
+    return f"""{head(f"{a['title']} — Carat Capital", metadesc(a['dek']), f"a-{a['slug']}.html", extra)}
 {prog}
 {folio(f"{a['date']} · {desk_name}")}
 {navbar(a['desk'])}
@@ -2804,7 +2827,7 @@ def article_page(a):
         "articleSection": desk_name, "mainEntityOfPage": f"{BASE_URL}/a-{a['slug']}"
     })
     extra = f'<scr' + f'ipt type="application/ld+json">{jsonld}</scr' + f'ipt>'
-    return f"""{head(f"{a['title']} — Carat Capital", a['dek'][:150], f"a-{a['slug']}.html", extra)}
+    return f"""{head(f"{a['title']} — Carat Capital", metadesc(a['dek']), f"a-{a['slug']}.html", extra)}
 {folio(f"{a['date']} · {desk_name}")}
 {navbar(a['desk'])}
 {omenu()}
