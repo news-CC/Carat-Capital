@@ -4,2115 +4,695 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>CARAT CAPITAL — The Trade Paper of the Jewelry World</title>
-<meta name="description" content="Carat Capital is the trade paper of the global jewelry industry. Prices, intelligence and reporting from every desk of the stone trade.">
+<meta name="description" content="Carat Capital is the trade paper of the global jewelry industry. Prices, intelligence and reporting from every desk of the stone trade — priced, sourced, or cut.">
+<meta name="theme-color" content="#04060B">
 <link rel="canonical" href="https://caratcapital.org">
-<meta property="og:site_name" content="Carat Capital">
-<meta property="og:title" content="CARAT CAPITAL — The Trade Paper of the Jewelry World">
-<meta property="og:description" content="Carat Capital is the trade paper of the global jewelry industry. Prices, intelligence and reporting from every desk of the stone trade.">
+<meta property="og:title" content="Carat Capital — The Trade Paper of the Jewelry World">
+<meta property="og:description" content="Clarity, daily. Overnight prices, three stories that matter, one sharp read — printed 06:00 ET.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://caratcapital.org">
-<meta property="og:image" content="https://caratcapital.org/assets/og-card.png">
-<meta name="twitter:card" content="summary_large_image">
 <link rel="alternate" type="application/rss+xml" title="Carat Capital — all desks" href="https://caratcapital.org/feed.xml">
-<script data-goatcounter="https://caratcapital.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
-
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..600&family=Lora:ital,wght@0,400..600;1,400..500&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<script data-goatcounter="https://caratcapital.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 <style>
-/* ═══════════════════════════════════════════════════════════════════════
-   CARAT CAPITAL — THE DAWN EDITION
-   One working night. 03:00 obsidian with the Bureau · 06:00 the paper.
-   Every component is drawn, not borrowed: the loupe, the punches, the
-   engraved rules, the dial, the plates, the tape.
-   ═══════════════════════════════════════════════════════════════════════ */
 :root{
-  --verm:#BE3319; --gilt:#C6A24A; --gilt-d:#96762E; --gilt-l:#E8CB7C;
-  --ok:#2BFF95; --dn:#FF6B4A;
-  /* resting values are what a no-JS reader gets, so they carry AA too */
-  --bg:#04060B; --fg:#DCEAF5; --fg2:rgba(220,234,245,.78); --fg3:rgba(220,234,245,.72);
-  --line:rgba(142,146,152,.30); --line-hi:rgba(142,146,152,.62); --acc:#C6A24A; --plate:rgba(255,255,255,.03);
+  --bg:#04060B; --bg2:#070A12;
+  --ink:#DCEAF5; --ink2:rgba(220,234,245,.66); --ink3:rgba(220,234,245,.40);
+  --gilt:#C6A24A; --giltL:#E8CB7C; --gilt-d:#96762E;
+  --verm:#BE3319; --ok:#2BFF95; --dn:#FF7A57;
+  --line:rgba(220,234,245,.13); --line2:rgba(220,234,245,.28);
+  --paper:#EDE7DA; --paper2:#F5F1E8; --pink:#1B1710; --pink2:rgba(27,23,16,.62);
   --disp:'Instrument Sans',-apple-system,BlinkMacSystemFont,sans-serif;
   --serif:'Lora',Georgia,serif;
   --mono:'IBM Plex Mono',ui-monospace,Menlo,monospace;
-  --glide:cubic-bezier(.16,.9,.24,1);
-  --mech:steps(3,end);
-  --wrap:1280px; --r:18px;
+  --wrap:1220px; --ease:cubic-bezier(.16,.9,.24,1);
 }
 *{box-sizing:border-box;margin:0;padding:0}
-/* Safari scrolls the viewport by the html element, not body — clipping body
-   alone left the ticker's 4,300px run and the gem's oversized glow free to
-   stretch the document, and zooming out exposed them as blank space on the
-   right. Clip at the root, and paint the root the page colour so anything
-   Safari reveals at odd zoom levels is still the paper, not white canvas. */
-html{-webkit-text-size-adjust:100%;overflow-x:hidden;overflow-x:clip;background:var(--bg)}
-body{background:var(--bg);color:var(--fg);font-family:var(--serif);line-height:1.65;
-  -webkit-font-smoothing:antialiased;overflow-x:hidden;overflow-x:clip;
-  padding-bottom:env(safe-area-inset-bottom,0px)}
-img{max-width:100%;display:block}
-a{color:inherit;text-decoration:none}
-button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
-.wrap{max-width:var(--wrap);margin:0 auto;padding:0 clamp(18px,4vw,48px)}
-.mono{font-family:var(--mono);font-variant-numeric:tabular-nums}
-.tnum{font-variant-numeric:tabular-nums}
-
-/* ══════ ATMOSPHERE ══════ */
-#grain{position:fixed;inset:0;z-index:4;pointer-events:none;opacity:.055;mix-blend-mode:overlay;
-  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
-#vig{position:fixed;inset:0;z-index:3;pointer-events:none;transition:opacity .4s linear;
-  background:radial-gradient(130% 95% at 50% 0%,rgba(198,162,74,.08),transparent 55%),
-             radial-gradient(150% 130% at 50% 118%,rgba(0,0,0,.78),transparent 58%)}
-#prog{position:fixed;left:0;top:env(safe-area-inset-top,0px);height:2px;width:0;z-index:61;
-  background:linear-gradient(90deg,var(--gilt-d),var(--gilt-l));box-shadow:0 0 12px rgba(198,162,74,.7)}
-
-/* ══════ THE LOUPE — custom cursor ══════ */
-#loupe{position:fixed;z-index:70;pointer-events:none;width:34px;height:34px;margin:-17px 0 0 -17px;
-  left:-99px;top:-99px;border:1px solid rgba(198,162,74,.55);border-radius:50%;opacity:0;
-  transition:opacity .35s,width .3s var(--glide),height .3s var(--glide),
-             margin .3s var(--glide),border-color .3s,background .3s}
-#loupe.on{opacity:1}
-#loupe.hot{width:74px;height:74px;margin:-37px 0 0 -37px;border-color:var(--gilt-l);
-  background:rgba(198,162,74,.07)}
-#loupe::before,#loupe::after{content:"";position:absolute;background:rgba(198,162,74,.7)}
-#loupe::before{left:50%;top:-6px;width:1px;height:5px;margin-left:-.5px}
-#loupe::after{left:50%;bottom:-6px;width:1px;height:5px;margin-left:-.5px}
-#loupe .lb{position:absolute;left:50%;top:calc(100% + 9px);transform:translateX(-50%);
-  font-family:var(--mono);font-size:8px;letter-spacing:.24em;text-transform:uppercase;
-  color:var(--gilt-l);white-space:nowrap;opacity:0;transition:opacity .25s}
-#loupe.hot .lb{opacity:1}
-@media(hover:none){#loupe{display:none}}
-
-/* ══════ BOOT ══════ */
-html:not(.js) #boot{display:none}
-#boot{position:fixed;inset:0;z-index:90;display:grid;place-items:center;background:#04060B;
-  transition:opacity .8s var(--glide),visibility .8s}
-#boot.out{opacity:0;visibility:hidden}
-#boot .in{display:flex;flex-direction:column;align-items:center;gap:20px}
-#boot svg{width:78px;height:78px;color:var(--gilt);animation:bstrike 1.1s var(--glide) both}
-@keyframes bstrike{0%{transform:scale(.4) rotate(-16deg);opacity:0;filter:brightness(3)}
-  60%{transform:scale(1.07) rotate(2deg);opacity:1}100%{transform:none;opacity:1}}
-#boot .bar{width:180px;height:2px;background:rgba(198,162,74,.18);overflow:hidden}
-#boot .bar i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--gilt-d),var(--gilt-l));
-  animation:bfill 1.25s var(--glide) .15s forwards}
-@keyframes bfill{to{width:100%}}
-#boot .t{font-family:var(--mono);font-size:9px;letter-spacing:.34em;text-transform:uppercase;color:var(--fg3)}
-
-/* ══════ TOP BAR ══════ */
-/* The bar is always present now: at rest it carries only the two corners —
-   the menu at the left, the metal at the right. Brand and desk links fade
-   in once you leave the hero. */
-/* Flush to the top edge, and safe-area aware: iPhone Safari slides the page
-   underneath the status bar once you scroll down, which used to swallow the
-   top of the bar — it looked half its height one way and grew a gap the
-   other. The inset padding absorbs exactly what the status bar covers, so
-   the visible bar is the same 76px in both of Safari's moods. */
-#top{position:fixed;left:0;right:0;top:0;z-index:55;
-  height:calc(76px + env(safe-area-inset-top,0px));
-  padding-top:env(safe-area-inset-top,0px);
-  display:flex;align-items:center;border-bottom:1px solid transparent;
-  transition:background .35s,border-color .35s}
-#top.on{background:color-mix(in srgb,var(--bg) 86%,transparent);
-  -webkit-backdrop-filter:blur(16px) saturate(1.2);
-  backdrop-filter:blur(16px) saturate(1.2);border-color:var(--line)}
-/* visibility, not just opacity: an invisible link that keeps its place in the
-   tab order sends keyboard focus somewhere the eye cannot follow */
-
-/* ── the corner chrome ── */
-.mbtn,.spill{display:inline-flex;align-items:center;gap:9px;font-family:var(--mono);
-  font-size:9.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--fg2);
-  padding:8px 13px;border:1px solid var(--line);border-radius:999px;white-space:nowrap;
-  background:color-mix(in srgb,var(--bg) 55%,transparent);
-  -webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);
-  transition:color .3s,border-color .3s,background .3s}
-.mbtn{margin-right:14px}
-.mbtn:hover,.mbtn:focus-visible,.spill:hover,.spill:focus-visible{
-  color:var(--fg);border-color:var(--line-hi);background:rgba(142,146,152,.13)}
-.mbtn .bars{display:grid;gap:3px;width:13px}
-.mbtn .bars i{display:block;height:1.5px;background:currentColor;border-radius:1px;
-  transition:width .35s var(--glide)}
-.mbtn .bars i:nth-child(1){width:100%}
-.mbtn .bars i:nth-child(2){width:64%}
-.mbtn .bars i:nth-child(3){width:82%}
-.mbtn:hover .bars i,.mbtn:focus-visible .bars i{width:100%}
-.spill{margin-left:14px}
-/* the mark sits dead centre of the bar, independent of how wide the menu
-   or the metal happen to be, so it stays centred on the page rather than
-   between whatever is beside it */
-.tmark{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);
-  display:flex;align-items:center;gap:0;color:var(--acc);
-  transition:color .3s,transform .35s var(--glide)}
-.tmark svg{width:42px;height:42px;display:block;flex:none}
-/* the wordmark rides with the medal once the reader has scrolled past the
-   masthead — the name leaves the hero and takes its seat in the bar */
-.tmark .wm{font-family:var(--disp);font-weight:700;font-size:16px;letter-spacing:.17em;
-  text-transform:uppercase;white-space:nowrap;color:var(--fg);
-  max-width:0;overflow:hidden;opacity:0;
-  transition:max-width .65s var(--glide),opacity .45s var(--glide),padding .65s var(--glide)}
-.tmark .wm .caret{color:var(--verm)}
-#top.on .tmark .wm{max-width:280px;opacity:1;padding-left:12px}
-/* narrow screens: the lockup steps down so it never reaches the metal pill;
-   the max-width caps are hard ceilings, so a wide-rendering font clips into
-   the fade instead of colliding */
-@media(max-width:520px){
-  .tmark svg{width:34px;height:34px}
-  .tmark .wm{font-size:12.5px;letter-spacing:.15em}
-  #top.on .tmark .wm{max-width:160px;padding-left:9px}}
-@media(max-width:430px){
-  .tmark svg{width:30px;height:30px}
-  .tmark .wm{font-size:11.5px;letter-spacing:.12em}
-  #top.on .tmark .wm{max-width:130px;padding-left:8px}}
-.tmark:hover,.tmark:focus-visible{color:var(--gilt-l);
-  transform:translate(-50%,-50%) scale(1.05);outline:0}
-.spill .k{color:var(--acc)}
-.spill .v{font-variant-numeric:tabular-nums;letter-spacing:.06em;color:var(--fg)}
-@media(max-width:900px){.spill .k{display:none}}
-@media(max-width:420px){.mbtn span.lab{display:none}.mbtn{padding:9px 11px}}
-
-/* ══ THE MENU — the six desks and the paper ══ */
-.omx{position:fixed;inset:0;z-index:120;visibility:hidden;pointer-events:none}
-.omx.open{visibility:visible;pointer-events:auto}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+  background:var(--bg); color:var(--ink); font-family:var(--serif);
+  line-height:1.7; -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility;
+  overflow-x:hidden;
+}
 body.menu-open{overflow:hidden}
-.omx-scrim{position:absolute;inset:0;width:100%;height:100%;border:0;padding:0;cursor:pointer;
-  background:rgba(2,4,8,.72);-webkit-backdrop-filter:blur(4px);backdrop-filter:blur(4px);
-  opacity:0;transition:opacity .5s var(--glide)}
-.omx.open .omx-scrim{opacity:1}
-.omx-panel{position:absolute;left:0;right:0;top:0;max-height:100dvh;overflow-y:auto;
-  padding:calc(clamp(18px,3.4vh,30px) + env(safe-area-inset-top,0px)) 0 clamp(22px,4vh,38px);
-  background:radial-gradient(120% 90% at 10% -10%,rgba(198,162,74,.13),transparent 62%),
-             linear-gradient(180deg,#080B12 0%,#04060B 100%);
-  border-bottom:1px solid var(--line);
-  box-shadow:0 40px 90px -30px rgba(0,0,0,.9);
-  transform:translateY(-16px);opacity:0;
-  transition:transform .55s var(--glide),opacity .4s var(--glide)}
-.omx.open .omx-panel{transform:none;opacity:1}
-.omx-head{display:flex;align-items:center;justify-content:space-between;gap:16px;
-  padding-bottom:clamp(14px,2.4vh,22px);border-bottom:1px solid rgba(142,146,152,.24)}
-.omx-brand{font-family:var(--disp);font-weight:700;font-size:12.5px;letter-spacing:.2em;
-  text-transform:uppercase}
-.omx-brand .caret{color:var(--verm)}
-.omx-close{font-family:var(--mono);font-size:9.5px;letter-spacing:.2em;text-transform:uppercase;
-  color:var(--fg2);padding:8px 13px;border:1px solid var(--line);border-radius:999px;
-  transition:color .3s,border-color .3s,background .3s}
-.omx-close:hover,.omx-close:focus-visible{color:var(--fg);border-color:var(--line-hi);
-  background:rgba(142,146,152,.13)}
-.omx-grid{display:grid;grid-template-columns:1.35fr .95fr;gap:clamp(24px,5vw,72px);
-  padding-top:clamp(16px,2.6vh,26px)}
-.omx-label{font-family:var(--mono);font-size:8.5px;letter-spacing:.28em;text-transform:uppercase;
-  color:var(--acc);padding-bottom:10px}
-.omx-desk{display:grid;grid-template-columns:auto 1fr;gap:1px 15px;align-items:baseline;
-  padding:clamp(11px,1.5vh,15px) 10px clamp(11px,1.5vh,15px) 0;
-  border-top:1px solid rgba(142,146,152,.18);border-radius:8px;
-  opacity:0;transform:translateY(9px);
-  transition:opacity .5s var(--glide) calc(var(--i,0)*52ms),
-             transform .5s var(--glide) calc(var(--i,0)*52ms),
-             background .28s,padding-left .28s var(--glide)}
-.omx.open .omx-desk{opacity:1;transform:none}
-.omx-desk:hover,.omx-desk:focus-visible{background:rgba(198,162,74,.07);padding-left:10px;outline:0}
-.omx-desk .n{font-family:var(--mono);font-size:8.5px;letter-spacing:.2em;color:var(--acc)}
-.omx-desk .t{font-family:var(--disp);font-weight:700;letter-spacing:-.02em;
-  font-size:clamp(18px,2.3vw,26px);line-height:1.15;transition:color .28s}
-.omx-desk:hover .t,.omx-desk:focus-visible .t{color:var(--gilt-l)}
-.omx-desk .d{grid-column:2;font-size:12.5px;color:var(--fg3);line-height:1.5}
-.omx-side{display:flex;flex-direction:column}
-.omx-side a{font-size:13.5px;color:var(--fg2);padding:8px 10px 8px 0;line-height:1.45;
-  border-top:1px solid rgba(142,146,152,.14);
-  opacity:0;transform:translateY(9px);
-  transition:opacity .5s var(--glide) calc(var(--i,0)*38ms + .12s),
-             transform .5s var(--glide) calc(var(--i,0)*38ms + .12s),
-             color .26s,padding-left .26s var(--glide)}
-.omx.open .omx-side a{opacity:1;transform:none}
-.omx-side a:hover,.omx-side a:focus-visible{color:var(--fg);padding-left:9px;outline:0}
-.omx-foot{margin-top:clamp(18px,3vh,30px);padding-top:14px;border-top:1px solid rgba(142,146,152,.24);
-  font-family:var(--mono);font-size:8.5px;letter-spacing:.18em;text-transform:uppercase;
-  color:var(--fg3)}
-@media(max-width:820px){
-  .omx-grid{grid-template-columns:1fr;gap:26px}
-  .omx-desk .d{display:none}
-  .omx-desk{padding-top:11px;padding-bottom:11px}
-}
-@media(prefers-reduced-motion:reduce){
-  .omx-panel,.omx-desk,.omx-side a,.omx-scrim{transition-duration:.01ms!important;
-    transition-delay:0ms!important;transform:none!important}
-}
-/* space-between keeps the metal on the right edge when the desk links are
-   hidden — they used to be the thing pushing it there, so below 900px the
-   pill drifted back to the middle and sat under the mark */
-#top .in{display:flex;align-items:center;justify-content:space-between;gap:18px;width:100%}
-.caret{color:var(--verm)}
+a{color:inherit; text-decoration:none}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+img{max-width:100%;display:block}
+::selection{background:rgba(198,162,74,.28)}
+.mono{font-family:var(--mono);font-variant-numeric:tabular-nums;letter-spacing:.02em}
+.tnum{font-variant-numeric:tabular-nums}
+.caret{color:var(--verm);font-family:var(--disp);font-weight:600}
 
-/* ══════ CUSTOM BUTTONS ══════ */
-.btn{position:relative;display:inline-flex;align-items:center;gap:11px;padding:14px 26px;
-  font-family:var(--mono);font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;
-  color:var(--acc);isolation:isolate;overflow:hidden;
-  clip-path:polygon(9px 0,100% 0,100% calc(100% - 9px),calc(100% - 9px) 100%,0 100%,0 9px);
-  transition:color .18s var(--mech),transform .4s var(--glide)}
-.btn::before{content:"";position:absolute;inset:0;z-index:-2;background:rgba(198,162,74,.42)}
-.btn::after{content:"";position:absolute;inset:1px;z-index:-1;
-  background:linear-gradient(90deg,var(--acc) 0 50%,var(--bg) 50% 100%);
-  background-size:200% 100%;background-position:100% 0;
-  clip-path:polygon(8px 0,100% 0,100% calc(100% - 8px),calc(100% - 8px) 100%,0 100%,0 8px);
-  transition:background-position .2s var(--mech)}
-.btn:hover{color:#07080C}
-.btn:hover::after{background-position:0 0}
-.btn:active{transform:translateY(1px)}
-.btn .d{width:6px;height:6px;background:currentColor;transform:rotate(45deg);flex:none}
-.btn--ghost{color:var(--fg2)}
-.btn--ghost::before{background:rgba(220,234,245,.20)}
-.btn--ghost:hover{color:#07080C}
-.btn--ghost::after{background:linear-gradient(90deg,var(--fg) 0 50%,var(--bg) 50% 100%);
-  background-size:200% 100%;background-position:100% 0}
+/* ---------- fixed particle stage + overlays ---------- */
+#stage{position:fixed;inset:0;width:100%;height:100%;z-index:0;pointer-events:none}
+#veil{position:fixed;inset:0;z-index:1;pointer-events:none;
+  background:
+    radial-gradient(120% 90% at 50% 34%, transparent 40%, rgba(4,6,11,.55) 88%, rgba(4,6,11,.9) 100%),
+    radial-gradient(70% 50% at 50% 20%, rgba(198,162,74,.05), transparent 60%);
+  mix-blend-mode:normal;}
+#grain{position:fixed;inset:0;z-index:1;pointer-events:none;opacity:.05;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");}
 
-/* ══════ SECTION FURNITURE ══════ */
-section{position:relative;z-index:1}
-.band{padding:clamp(38px,6vh,72px) 0}
-.shead{display:flex;align-items:flex-end;gap:18px;margin-bottom:clamp(16px,2.8vh,32px);flex-wrap:wrap}
-.shead .n{flex:none;padding-bottom:4px;line-height:0}
-.shead .n svg{width:34px;height:34px;color:var(--acc);opacity:.9;
-  animation:markdraw .9s var(--glide) both}
-@keyframes markdraw{from{opacity:0;transform:translateY(6px) rotate(-8deg)}to{opacity:.9;transform:none}}
-.shead h2{font-family:var(--disp);font-weight:700;letter-spacing:-.032em;line-height:1.0;
-  font-size:clamp(30px,5.2vw,64px);text-wrap:balance;flex:1;min-width:min(100%,320px)}
-.shead .r{font-family:var(--mono);font-size:9.5px;letter-spacing:.2em;text-transform:uppercase;
-  color:var(--fg3);padding-bottom:8px;text-align:right}
-.lede{font-size:clamp(16px,1.9vw,20px);color:var(--fg2);max-width:62ch}
-/* engraved rule — a guilloche hairline */
-.erule{height:14px;margin:clamp(16px,2.6vh,30px) 0;
-  /* ink-black at the centre, stepping to lighter and lighter gray toward
-     the ends — the ticks take the page's own ink, so they stay correct
-     on both sides of the dawn */
-  background:repeating-linear-gradient(90deg,var(--fg) 0 1px,transparent 1px 9px);
-  -webkit-mask:linear-gradient(90deg,transparent 0%,rgba(0,0,0,.14) 7%,rgba(0,0,0,.32) 15%,
-    rgba(0,0,0,.58) 26%,#000 40%,#000 60%,rgba(0,0,0,.58) 74%,rgba(0,0,0,.32) 85%,
-    rgba(0,0,0,.14) 93%,transparent 100%);
-          mask:linear-gradient(90deg,transparent 0%,rgba(0,0,0,.14) 7%,rgba(0,0,0,.32) 15%,
-    rgba(0,0,0,.58) 26%,#000 40%,#000 60%,rgba(0,0,0,.58) 74%,rgba(0,0,0,.32) 85%,
-    rgba(0,0,0,.14) 93%,transparent 100%);opacity:.88}
-
-.js .rv{opacity:0;transform:translateY(24px);transition:opacity .85s var(--glide),transform .85s var(--glide)}
-.rv.in{opacity:1;transform:none}
-.rv-1{transition-delay:.07s}.rv-2{transition-delay:.14s}.rv-3{transition-delay:.21s}
-.rv-4{transition-delay:.28s}.rv-5{transition-delay:.35s}.rv-6{transition-delay:.42s}
-
-/* ══════ 00 · HERO ══════ */
-#hero{position:relative;min-height:94svh;display:grid;grid-template-rows:1fr auto;padding-top:66px;overflow:hidden}
-#gemwrap{position:relative;width:min(38vmin,340px);height:min(38vmin,340px);margin:0 auto;
-  z-index:1;pointer-events:none;filter:drop-shadow(0 30px 76px rgba(0,0,0,.85));
-  animation:gemin 1.5s var(--glide) both .45s}
-@keyframes gemin{from{opacity:0;transform:scale(.6) translateY(24px)}to{opacity:1;transform:none}}
-/* the backlight: a warm gilt core with a wider cool falloff, so the stone
-   sits in its own pool of light instead of floating on flat black */
-#gemwrap::after{content:"";position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);
-  width:230%;height:185%;z-index:-1;
-  background:radial-gradient(closest-side,rgba(232,203,124,.20),rgba(198,162,74,.10) 46%,transparent 74%),
-             radial-gradient(closest-side,rgba(140,197,255,.05),transparent 62%)}
-#gem{width:100%;height:100%;display:block;pointer-events:auto;cursor:grab;touch-action:none}
-#gem.dragging{cursor:grabbing}
-.hero-in{position:relative;z-index:2;display:flex;flex-direction:column;align-items:center;
-  justify-content:center;text-align:center;padding:clamp(14px,3vh,40px) 20px}
-@keyframes pulse{50%{opacity:.25}}
-h1.mast{font-family:var(--disp);font-weight:700;letter-spacing:-.02em;line-height:.95;
-  font-size:clamp(38px,8.8vw,126px);text-transform:uppercase;text-wrap:balance;
-  /* the clockline that used to sit here is gone, its air is not: this is
-     that line's top margin, its own height and its bottom margin */
-  margin-top:calc(clamp(18px,3.4vh,32px) + 12px + clamp(12px,2.4vh,20px))}
-h1.mast .caret{color:var(--verm);font-weight:700}
-h1.mast .l{display:inline-block;opacity:0;transform:translateY(.36em) rotate(3deg);
-  animation:mstrike .85s var(--glide) forwards}
-@keyframes mstrike{to{opacity:1;transform:none}}
-.slogan{margin-top:clamp(14px,2.6vh,22px);font-family:var(--mono);font-size:clamp(9.5px,1.4vw,12.5px);
-  letter-spacing:.46em;text-transform:uppercase;color:var(--acc);opacity:0;animation:fin .9s 1.05s var(--glide) forwards}
-.sub{margin-top:13px;font-size:clamp(14px,1.65vw,17.5px);color:var(--fg2);max-width:44ch;
-  opacity:0;animation:fin .9s 1.2s var(--glide) forwards}
-.hero-cta{display:flex;gap:12px;margin-top:clamp(20px,3.4vh,32px);flex-wrap:wrap;justify-content:center;
-  opacity:0;animation:fin .9s 1.35s var(--glide) forwards}
-@keyframes fin{to{opacity:1}}
-
-/* the tape */
-.tape{position:relative;border-top:1px solid var(--line);border-bottom:1px solid var(--line);
-  height:42px;display:flex;align-items:center;overflow:hidden;z-index:2;
-  background:color-mix(in srgb,var(--bg) 72%,transparent);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}
-.tape::before,.tape::after{content:"";position:absolute;top:0;bottom:0;width:80px;z-index:2;pointer-events:none}
-.tape::before{left:0;background:linear-gradient(90deg,var(--bg),transparent)}
-.tape::after{right:0;background:linear-gradient(270deg,var(--bg),transparent)}
-.tape .run{display:flex;white-space:nowrap;animation:tk 56s linear infinite;will-change:transform}
-.tape:hover .run{animation-play-state:paused}
-@keyframes tk{to{transform:translateX(-50%)}}
-.tk{display:inline-flex;align-items:center;gap:9px;font-family:var(--mono);font-size:10.5px;
-  letter-spacing:.1em;color:var(--fg2);padding:0 20px;border-right:1px solid var(--line);
-  font-variant-numeric:tabular-nums}
-.tk b{color:var(--acc);font-weight:500}
-.tk .up{color:var(--ok)}.tk .dn{color:var(--dn)}.tk .fl{color:var(--fg3)}
-.tk .d{width:5px;height:5px;background:var(--acc);transform:rotate(45deg);opacity:.7}
-
-/* ══════ 01 · THE BENCH — the instrument, in the first useful slot ══════ */
-.bench{position:relative;border:1px solid var(--line);border-radius:var(--r);overflow:hidden;
-  background:var(--plate)}
-.bench canvas.guil{position:absolute;right:-8%;top:-30%;width:58%;height:190%;opacity:.10;pointer-events:none}
-.bench::before,.bench::after{content:"";position:absolute;width:13px;height:13px;
-  border:1px solid var(--line-hi);opacity:.5;z-index:2}
-.bench::before{top:10px;left:10px;border-right:0;border-bottom:0}
-.bench::after{bottom:10px;right:10px;border-left:0;border-top:0}
-/* the section's only headline is a small kicker above the card — the
-   calculator is the section, it does not need a sentence explaining it */
-.skick{display:flex;align-items:center;gap:12px;margin-bottom:14px;
-  font-family:var(--mono);font-size:10px;letter-spacing:.3em;text-transform:uppercase}
-.skick svg{width:20px;height:20px;color:var(--acc);flex:none}
-.skick span{color:var(--acc);font-weight:600}
-.skick i{flex:1;height:1px;background:linear-gradient(90deg,var(--line),transparent)}
-.skick em{font-style:normal;color:var(--fg3);letter-spacing:.18em;font-size:9px;white-space:nowrap}
-.bhead{position:relative;z-index:1;display:flex;justify-content:space-between;align-items:center;
-  gap:14px;flex-wrap:wrap;padding:11px clamp(16px,2.2vw,22px);border-bottom:1px solid var(--line)}
-.bhead .spot{font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;color:var(--fg2);
-  font-variant-numeric:tabular-nums;display:flex;align-items:center;gap:9px}
-.bhead .spot i{width:6px;height:6px;background:var(--ok);border-radius:50%;
-  box-shadow:0 0 9px rgba(43,255,149,.7);animation:pulse 2.6s ease-in-out infinite}
-.bgrid{position:relative;z-index:1;display:grid;
-  grid-template-columns:minmax(0,auto) minmax(0,auto) minmax(0,1fr);
-  gap:clamp(14px,2.2vw,30px);padding:clamp(13px,1.6vw,17px) clamp(16px,2.2vw,22px);align-items:center}
-@media(max-width:900px){
-  .bgrid{grid-template-columns:1fr auto;row-gap:12px;column-gap:14px;align-items:end}
-  .bgrid .bfield:first-child{grid-column:1 / -1}
-  .bgrid .bout{grid-column:2;justify-self:end}
-}
+/* ---------- top bar ---------- */
+#bar{position:fixed;top:0;left:0;right:0;z-index:40;display:flex;align-items:center;
+  justify-content:space-between;gap:16px;padding:18px clamp(16px,4vw,42px);
+  transition:background .5s var(--ease), backdrop-filter .5s;}
+#bar.solid{background:linear-gradient(180deg,rgba(4,6,11,.82),rgba(4,6,11,0));backdrop-filter:blur(2px)}
+#bar.light .brandmark,#bar.light .menubtn,#bar.light .folio{color:#1B1710;border-color:rgba(27,23,16,.26)}
+#bar.light .folio b{color:var(--gilt-d)}
+#bar.light.solid{background:linear-gradient(180deg,rgba(237,231,218,.9),rgba(237,231,218,0))}
+.brandmark{display:flex;align-items:center;gap:12px;font-family:var(--disp);font-weight:600;
+  letter-spacing:.01em;font-size:15px}
+.brandmark svg{width:26px;height:26px;flex:0 0 auto;opacity:.95}
+.b-mid{display:flex;align-items:center;gap:10px}
+.b-dot{width:7px;height:7px;border-radius:50%;background:var(--ok);box-shadow:0 0 10px var(--ok);
+  animation:pulse 2.6s var(--ease) infinite}
+@keyframes pulse{0%,100%{opacity:.5}50%{opacity:1}}
+.b-live{font-family:var(--mono);font-size:11px;letter-spacing:.24em;color:var(--ink2);text-transform:uppercase}
+.menubtn,.folio{font-family:var(--mono);font-size:12px;letter-spacing:.18em;text-transform:uppercase;
+  display:inline-flex;align-items:center;gap:9px;padding:11px 16px;border:1px solid var(--line2);
+  border-radius:100px;color:var(--ink);transition:.3s var(--ease);white-space:nowrap}
+.menubtn:hover,.folio:hover{border-color:var(--gilt);color:var(--giltL);background:rgba(198,162,74,.06)}
+.menubtn .lines{display:inline-flex;flex-direction:column;gap:3px}
+.menubtn .lines i{width:15px;height:1.5px;background:currentColor;display:block}
+.folio b{color:var(--gilt);font-weight:600}
+@media(max-width:720px){.b-mid{display:none}.folio .lbl{display:none}}
 @media(max-width:560px){
-  .bench{border-radius:14px}
-  .bhead{padding:10px 14px;gap:8px}
-  .bhead .ttl{font-size:9px;letter-spacing:.18em}
-  .bhead .ttl svg{width:16px;height:16px}
-  .bhead .spot{font-size:9px;letter-spacing:.1em}
-  .bgrid{padding:12px 14px;row-gap:11px}
-  /* six chips, one tidy row, never wrapping into a block */
-  .karats{display:grid;grid-template-columns:repeat(6,1fr);gap:4px}
-  .karats button{padding:7px 0;text-align:center;font-size:8.5px;letter-spacing:.04em}
-  .grow{gap:9px;align-items:center}
-  .grow input{font-size:16px;width:62px}
-  .presets button{font-size:7.5px;padding:4px 8px}
-  .bout .v{font-size:26px}
-  .bout .der{font-size:9px;margin-top:5px;line-height:1.5}
-  .pstrip{padding:0 14px 11px}
-  .pkey{font-size:7.5px;letter-spacing:.1em}
-  .lad{padding:8px 4px}
-  .lad .k{font-size:7.5px;letter-spacing:.08em}
-  .lad .v{font-size:11px;margin-top:3px}
-  .bfoot{font-size:8px;letter-spacing:.1em}
+  #bar{padding:14px 16px}
+  .folio{display:none}
+  .brandmark{position:absolute;left:50%;transform:translateX(-50%);font-size:14px}
 }
-/* the ladder: six rungs where there is room, 3x2 on phones so the figures stay legible */
-@media(max-width:560px){.ladder{grid-template-columns:repeat(3,1fr)}}
-.bfield+.bfield{margin-top:0}
-.blab{font-family:var(--mono);font-size:9px;letter-spacing:.22em;text-transform:uppercase;color:var(--fg3)}
-.metals{display:flex;gap:4px}
-.metals button{font-family:var(--mono);font-size:9px;letter-spacing:.16em;text-transform:uppercase;
-  padding:6px 14px;color:var(--fg3);border:1px solid var(--line);background:transparent;
-  border-radius:999px;
-  transition:background .18s var(--mech),color .18s var(--mech)}
-.metals button.on{background:var(--acc);color:#0B0E14;border-color:var(--acc)}
-.karats{display:flex;gap:5px;margin-top:7px;flex-wrap:wrap}
-.karats button{font-family:var(--mono);font-size:9px;letter-spacing:.12em;padding:6px 11px;
-  color:var(--acc);border:1px solid var(--line);background:transparent;border-radius:9px;
-  transition:background .18s var(--mech),color .18s var(--mech),border-color .25s}
-.karats button:hover{border-color:var(--line-hi)}
-.karats button.on{background:var(--acc);border-color:var(--acc);color:#0B0E14}
-.grow{display:flex;align-items:flex-end;gap:11px;margin-top:7px;flex-wrap:wrap}
-.grow input{font-family:var(--mono);font-size:18px;font-variant-numeric:tabular-nums;width:82px;
-  background:transparent;border:0;border-bottom:1px solid var(--line);color:var(--fg);padding:3px 0}
-.grow input:focus{outline:none;border-bottom-color:var(--line-hi)}
-.presets{display:flex;gap:6px;flex-wrap:wrap}
-.presets button{font-family:var(--mono);font-size:8px;letter-spacing:.12em;text-transform:uppercase;
-  color:var(--fg3);border:1px solid var(--line);border-radius:999px;padding:5px 9px;
-  transition:color .25s,border-color .25s}
-.presets button:hover{color:var(--acc);border-color:var(--line-hi)}
-/* the readout */
-.bout{display:flex;flex-direction:column;justify-content:center;align-items:flex-end;text-align:right}
-@media(max-width:900px){.bout{align-items:flex-start;text-align:left}}
-.bout .v{font-family:var(--mono);font-weight:500;font-size:clamp(27px,3.5vw,40px);
-  font-variant-numeric:tabular-nums;letter-spacing:-.03em;color:var(--acc);line-height:1}
-.bout .vl{font-family:var(--mono);font-size:8.5px;letter-spacing:.22em;text-transform:uppercase;
-  color:var(--fg3);margin-top:6px}
-.bout .der{font-family:var(--mono);font-size:10.5px;color:var(--fg2);margin-top:9px;
-  font-variant-numeric:tabular-nums;line-height:1.6}
-/* purity: what is actually gold in the piece */
-.pstrip{position:relative;z-index:1;padding:0 clamp(16px,2.2vw,22px) 13px}
-.pbar{display:flex;height:6px;border-radius:999px;overflow:hidden;border:1px solid var(--line)}
-.pbar i{display:block;transition:width .5s var(--glide)}
-.pbar .fine{background:linear-gradient(90deg,var(--gilt-d),var(--gilt-l))}
-.pbar .alloy{background:rgba(220,234,245,.14)}
-.pkey{display:flex;justify-content:space-between;gap:12px;margin-top:6px;
-  font-family:var(--mono);font-size:8.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--fg3)}
-.pkey .pv{margin-left:auto;color:var(--fg3)}
-@media(max-width:620px){.pkey .pv{display:none}}
-/* the ladder: the same weight across every karat */
-.ladder{position:relative;z-index:1;display:grid;grid-template-columns:repeat(6,1fr);gap:1px;
-  background:var(--line);border-top:1px solid var(--line)}
 
-.lad{background:var(--bg);padding:9px 10px;text-align:center;transition:background .3s}
-.lad.on{background:rgba(198,162,74,.12)}
-.lad .k{font-family:var(--mono);font-size:8.5px;letter-spacing:.16em;color:var(--fg3)}
-.lad .v{font-family:var(--mono);font-size:12.5px;font-variant-numeric:tabular-nums;color:var(--acc);margin-top:4px}
-.lad.on .v{color:var(--gilt-l)}
-.bfoot{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;margin-top:13px;
-  font-family:var(--mono);font-size:9px;letter-spacing:.16em;text-transform:uppercase;color:var(--fg3)}
-.bfoot a{color:var(--acc);display:inline-flex;align-items:center;gap:8px;transition:gap .3s var(--glide)}
-.bfoot a:hover{gap:14px}
+/* scroll progress hairline */
+#prog{position:fixed;top:0;left:0;height:2px;width:0;z-index:50;
+  background:linear-gradient(90deg,var(--gilt-d),var(--giltL));box-shadow:0 0 12px rgba(198,162,74,.5)}
 
-/* ══════ 02 · THE COUNTER SHEET — prices, divided down to what they cost you ══════ */
-/* the sheet */
-.sheet{border:1px solid var(--line);border-radius:var(--r);overflow:hidden;background:var(--plate)}
-.shbar{display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap;
-  padding:11px clamp(14px,2vw,20px);border-bottom:1px solid var(--line);
-  font-family:var(--mono);font-size:9px;letter-spacing:.2em;text-transform:uppercase;color:var(--fg3)}
-.shbar b{color:var(--acc);font-weight:500}
-.shhead{display:grid;grid-template-columns:150px minmax(0,1.15fr) minmax(0,1.05fr) 104px;
-  gap:clamp(12px,2vw,26px);padding:9px clamp(14px,2vw,20px);border-bottom:1px solid var(--line);
-  font-family:var(--mono);font-size:8.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--fg3)}
-@media(max-width:900px){.shhead{display:none}}
-.ledger{display:flex;flex-direction:column;gap:1px;background:var(--line);list-style:none}
-.ledger li{background:var(--bg)}
-.csrow{display:grid;grid-template-columns:150px minmax(0,1.15fr) minmax(0,1.05fr) 104px;
-  gap:clamp(12px,2vw,26px);align-items:center;padding:16px clamp(14px,2vw,20px);width:100%;
-  text-align:left;transition:background .3s}
-.csrow:hover{background:rgba(198,162,74,.05)}
-.csrow .num{font-family:var(--mono);font-weight:500;font-size:clamp(21px,2.4vw,29px);
-  font-variant-numeric:tabular-nums;letter-spacing:-.02em;color:var(--acc);line-height:1;display:block}
-.csrow .nlab{font-family:var(--mono);font-size:8.5px;letter-spacing:.2em;text-transform:uppercase;
-  color:var(--fg3);margin-top:7px;display:block;line-height:1.5}
-.csrow .move{font-family:var(--serif);font-size:14.5px;line-height:1.5;color:var(--fg2)}
-.csrow .ctr{font-family:var(--serif);font-size:14.5px;line-height:1.5;color:var(--fg);
-  padding:10px 13px;border-left:2px solid var(--dk,var(--line-hi));background:rgba(198,162,74,.06)}
-.csrow:hover .ctr{background:rgba(198,162,74,.09)}
-.csend{display:flex;align-items:center;justify-content:flex-end;gap:11px}
-.deskchip{font-family:var(--mono);font-size:8px;letter-spacing:.16em;text-transform:uppercase;
-  padding:5px 9px;color:var(--dk);border:1px solid color-mix(in srgb,var(--dk) 42%,transparent);
-  clip-path:polygon(5px 0,100% 0,100% calc(100% - 5px),calc(100% - 5px) 100%,0 100%,0 5px);white-space:nowrap}
-.csrow .chev{font-family:var(--mono);color:var(--acc);opacity:.5;
-  transition:transform .3s var(--glide),opacity .3s}
-.csrow[aria-expanded="true"] .chev{transform:rotate(180deg);opacity:1}
-/* the visual column — each figure gets the encoding that suits it */
-.viz{margin-top:9px}
-.viz .vlab{display:flex;justify-content:space-between;gap:8px;font-family:var(--mono);font-size:8px;
-  letter-spacing:.12em;text-transform:uppercase;color:var(--fg3);margin-top:5px}
-.bar2{display:flex;flex-direction:column;gap:5px}
-.bar2 .b{display:flex;align-items:center;gap:8px;font-family:var(--mono);font-size:9px;color:var(--fg3)}
-.bar2 .b span{width:52px;flex:none;letter-spacing:.1em}
-.bar2 .b i{height:7px;border-radius:2px;display:block;transition:width .7s var(--glide)}
-.bar2 .b b{font-variant-numeric:tabular-nums;color:var(--fg2);font-weight:400}
-.split{display:flex;height:8px;border-radius:999px;overflow:hidden;border:1px solid var(--line)}
-.split i{display:block;transition:width .7s var(--glide)}
-.axis{position:relative;height:26px}
-.axis .zero{position:absolute;left:50%;top:0;bottom:0;width:1px;background:var(--line)}
-.axis .fill{position:absolute;top:7px;height:8px;border-radius:2px;transition:width .7s var(--glide)}
-.axis .zl{position:absolute;top:0;font-family:var(--mono);font-size:8px;letter-spacing:.12em;color:var(--fg3)}
-.spk{width:100%;height:34px;display:block}
-/* the working drawer */
-.work{display:grid;grid-template-rows:0fr;transition:grid-template-rows .45s var(--glide)}
-.work.open{grid-template-rows:1fr}
-.work>div{overflow:hidden}
-.work .inner{padding:15px clamp(14px,2vw,20px) 20px;padding-left:calc(150px + clamp(12px,2vw,26px));
-  background:var(--plate);border-top:1px dashed var(--line)}
-@media(max-width:900px){.work .inner{padding-left:clamp(14px,2vw,20px)}}
-.work .wl{font-family:var(--mono);font-size:8.5px;letter-spacing:.24em;text-transform:uppercase;color:var(--fg3)}
-.work .ar{font-family:var(--mono);font-size:12px;line-height:1.85;color:var(--fg2);
-  font-variant-numeric:tabular-nums;margin-top:8px}
-.work a{font-family:var(--serif);font-size:14px;color:var(--acc);display:inline-block;margin-top:10px}
-/* the dark line — the house rule, made visible */
-/* The dashed rule says this figure is unverified. The opacity that used to
-   say it as well compounded with --fg3 and made the one line that states
-   the house price rule the least readable text on the page. */
-.csdark{display:grid;grid-template-columns:150px 1fr;gap:clamp(12px,2vw,26px);
-  padding:16px clamp(14px,2vw,20px);border-top:1px dashed var(--line)}
-.csdark .num{font-family:var(--mono);font-size:21px;color:var(--fg2);font-variant-numeric:tabular-nums}
-.csdark .move{font-family:var(--serif);font-size:14px;line-height:1.5;color:var(--fg2)}
-@media(max-width:900px){
-  .csrow{grid-template-columns:1fr;gap:10px;padding:16px}
-  .csrow .csend{justify-content:flex-start}
-  .csdark{grid-template-columns:1fr;gap:7px;padding:16px}
-}
-.csfoot{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;margin-top:14px;
-  font-family:var(--mono);font-size:9px;letter-spacing:.16em;color:var(--fg3);line-height:1.7}
+/* ---------- layout ---------- */
+main{position:relative;z-index:2}
+.scene{position:relative;min-height:100vh;display:flex;flex-direction:column;justify-content:center;
+  padding:120px clamp(20px,5vw,64px) 110px}
+.wrap{width:100%;max-width:var(--wrap);margin:0 auto}
+.kicker{font-family:var(--mono);font-size:clamp(10px,1.1vw,12px);letter-spacing:.30em;text-transform:uppercase;
+  color:var(--gilt);display:flex;align-items:center;gap:14px;margin-bottom:26px}
+.kicker::before{content:"";width:26px;height:1px;background:var(--gilt);opacity:.7}
+h1,h2,h3{font-family:var(--disp);font-weight:400;line-height:1.03;letter-spacing:-.02em}
 
-/* ══════ 03 · LEAD STORY ══════ */
-.lead{display:grid;grid-template-columns:1.12fr .88fr;gap:clamp(24px,4vw,58px);align-items:center}
-@media(max-width:940px){.lead{grid-template-columns:1fr}}
-.kick{display:inline-flex;align-items:center;gap:9px;font-family:var(--mono);font-size:9.5px;
-  letter-spacing:.24em;text-transform:uppercase;color:var(--verm)}
-.kick i{width:6px;height:6px;background:var(--verm);transform:rotate(45deg)}
-.lead h3{font-family:var(--disp);font-weight:700;letter-spacing:-.032em;line-height:1.03;
-  font-size:clamp(28px,4.3vw,54px);margin:15px 0 17px;text-wrap:balance}
-.lead h3 a{background-image:linear-gradient(var(--acc),var(--acc));background-size:0% 2px;
-  background-repeat:no-repeat;background-position:0 100%;transition:background-size .55s var(--glide)}
-.lead h3 a:hover{background-size:100% 2px}
-.lead .dek{font-size:clamp(15px,1.7vw,18.5px);color:var(--fg2);max-width:54ch}
-.lead .by{font-family:var(--mono);font-size:9.5px;letter-spacing:.18em;text-transform:uppercase;
-  color:var(--fg3);margin-top:20px}
-/* the plate — a photographic plate with an engraved caption bar */
-.plate{position:relative;border:1px solid var(--line);border-radius:var(--r);overflow:hidden;
-  background:var(--plate)}
-.plate .im{position:relative;overflow:hidden;aspect-ratio:4/3}
-.plate img{width:100%;height:100%;object-fit:cover;transform:scale(1.04);
-  transition:transform 1.1s var(--glide),filter .6s;filter:saturate(.72) contrast(1.06)}
-.plate:hover img{filter:saturate(.95) contrast(1.06)}
-.plate img.prx{transform:scale(1.12)}
-.plate .im::after{content:"";position:absolute;inset:0;pointer-events:none;
-  background:linear-gradient(180deg,transparent 40%,rgba(4,6,11,.42))}
-.plate .cap{display:flex;justify-content:space-between;gap:12px;padding:10px 14px;
-  font-family:var(--mono);font-size:8.5px;letter-spacing:.16em;text-transform:uppercase;
-  color:var(--fg3);border-top:1px solid var(--line)}
-/* wipe reveal */
-.js .wipe{clip-path:inset(0 0 100% 0);transition:clip-path 1.05s var(--glide)}
-.wipe.in{clip-path:inset(0 0 0 0)}
+/* reveal */
+.rv{opacity:0;transform:translateY(26px);filter:blur(6px);
+  transition:opacity 1.1s var(--ease), transform 1.1s var(--ease), filter 1.1s var(--ease)}
+.rv.in{opacity:1;transform:none;filter:none}
+.rv.d1{transition-delay:.10s}.rv.d2{transition-delay:.20s}.rv.d3{transition-delay:.30s}
+.rv.d4{transition-delay:.40s}.rv.d5{transition-delay:.50s}
+@media(prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;filter:none;transition:none}}
 
-/* ══════ 04 · TODAY'S PAPER — article grid ══════ */
-.agrid{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(14px,2vw,24px)}
-@media(max-width:940px){.agrid{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:600px){.agrid{grid-template-columns:1fr}}
-/* The plate is the card. The photograph runs edge to edge behind
-   everything; it is fully visible in the upper window and sinks to a
-   murmur behind the type, the scrim converging on the page's own
-   background so the text keeps its contrast at every hour of the dawn. */
-.acard{position:relative;border:1px solid var(--line);border-radius:var(--r);overflow:hidden;
-  background:var(--plate);isolation:isolate;
-  display:flex;flex-direction:column;transition:transform .55s var(--glide),border-color .4s,box-shadow .5s}
-.acard:hover{transform:translateY(-5px);border-color:var(--line-hi);
-  box-shadow:0 28px 60px -40px rgba(0,0,0,.85)}
-.acard .ph{position:absolute;inset:0;z-index:0;width:100%;height:100%;object-fit:cover;
-  filter:saturate(.72) contrast(1.05);transform:scale(1.03);
-  transition:transform 1.1s var(--glide),filter .6s}
-.acard:hover .ph{transform:scale(1.08);filter:saturate(.95)}
-.acard .scrim{position:absolute;inset:0;z-index:1;pointer-events:none;background:
-  linear-gradient(180deg,
-    color-mix(in srgb,var(--bg) 4%,transparent) 0%,
-    color-mix(in srgb,var(--bg) 30%,transparent) 34%,
-    color-mix(in srgb,var(--bg) 82%,transparent) 55%,
-    color-mix(in srgb,var(--bg) 95%,transparent) 74%,
-    var(--bg) 100%)}
-.acard .crd{position:absolute;right:11px;top:11px;z-index:2;font-family:var(--mono);
-  font-size:6.5px;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.66);
-  text-shadow:0 1px 5px rgba(0,0,0,.65)}
-.acard.noimg{background:linear-gradient(160deg,rgba(198,162,74,.14),var(--plate) 55%)}
-.acard .im{position:relative;z-index:2;aspect-ratio:16/9}
-.acard .desk{position:absolute;left:11px;top:11px;font-family:var(--mono);font-size:8px;
-  letter-spacing:.2em;text-transform:uppercase;padding:5px 9px;color:#0B0E14;
-  background:var(--acc);clip-path:polygon(5px 0,100% 0,100% calc(100% - 5px),calc(100% - 5px) 100%,0 100%,0 5px)}
-.acard .bd{position:relative;z-index:2;padding:17px 18px 20px;display:flex;flex-direction:column;gap:9px;flex:1}
-.acard h4{font-family:var(--disp);font-weight:700;font-size:17px;line-height:1.24;letter-spacing:-.015em}
-.acard p{font-size:13.5px;color:var(--fg3);line-height:1.55}
-.acard .mt{margin-top:auto;font-family:var(--mono);font-size:8.5px;letter-spacing:.16em;
-  text-transform:uppercase;color:var(--fg3);display:flex;justify-content:space-between;gap:10px;
-  border-top:1px solid var(--line);padding-top:11px}
+/* ---------- HERO ---------- */
+.hero{min-height:100vh;text-align:center;align-items:center;justify-content:flex-end;
+  padding-bottom:clamp(92px,15vh,150px)}
+.hero .wrap{display:flex;flex-direction:column;align-items:center}
+.hero-eyebrow{position:absolute;top:clamp(92px,13vh,132px);left:0;right:0;text-align:center;
+  font-family:var(--mono);font-size:clamp(10px,1.1vw,12px);letter-spacing:.34em;text-transform:uppercase;color:var(--gilt)}
+.mast{font-family:var(--disp);font-weight:500;font-size:clamp(2.7rem,8.7vw,7.6rem);
+  letter-spacing:-.035em;line-height:.9;margin:6px 0 4px;
+  background:linear-gradient(180deg,#F4F8FC,#AEBCCB 78%);-webkit-background-clip:text;background-clip:text;
+  color:transparent;filter:drop-shadow(0 6px 40px rgba(0,0,0,.4))}
+.slogan{font-family:var(--mono);letter-spacing:.42em;text-transform:uppercase;color:var(--gilt);
+  font-size:clamp(11px,1.5vw,15px);margin:16px 0 22px}
+.sub{font-family:var(--serif);color:var(--ink2);font-size:clamp(1.02rem,1.5vw,1.22rem);
+  max-width:640px;line-height:1.65}
+.cta{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;margin-top:38px}
+.btn{font-family:var(--mono);font-size:12.5px;letter-spacing:.16em;text-transform:uppercase;
+  display:inline-flex;align-items:center;gap:11px;padding:16px 26px;border-radius:100px;
+  border:1px solid var(--line2);color:var(--ink);transition:.35s var(--ease);position:relative}
+.btn .dot{width:6px;height:6px;border-radius:50%;background:var(--gilt);transition:.35s}
+.btn:hover{border-color:var(--gilt);color:#fff;background:rgba(198,162,74,.08);transform:translateY(-2px)}
+.btn:hover .dot{box-shadow:0 0 12px var(--gilt)}
+.btn--solid{background:linear-gradient(180deg,#E7CE86,#C6A24A);color:#1a1305;border-color:transparent;font-weight:600}
+.btn--solid .dot{background:#1a1305}
+.btn--solid:hover{color:#0a0700;background:linear-gradient(180deg,#F0DCA0,#D2AE56)}
+.scrollcue{position:absolute;left:50%;bottom:96px;transform:translateX(-50%);z-index:5;
+  font-family:var(--mono);font-size:10px;letter-spacing:.28em;text-transform:uppercase;color:var(--ink3);
+  display:flex;flex-direction:column;align-items:center;gap:10px}
+.scrollcue .track{width:1px;height:44px;background:linear-gradient(var(--gilt),transparent);position:relative;overflow:hidden}
+.scrollcue .track::after{content:"";position:absolute;top:-40%;left:0;width:100%;height:40%;background:var(--giltL);
+  animation:drop 2.2s var(--ease) infinite}
+@keyframes drop{0%{top:-40%}70%,100%{top:100%}}
 
-/* ══════ 05 · THE DESK BOARD — real headlines, real numbers ══════ */
-/* All six desks on the table at once — a rack of tiles above the panel,
-   never a strip that scrolls off the side of the page. Pick one and its
-   filing appears below. */
-.board{display:grid;grid-template-columns:1fr;gap:1px;background:var(--line);
-  border:1px solid var(--line);border-radius:var(--r);overflow:hidden}
-.bnav{display:grid;grid-template-columns:repeat(6,1fr);gap:1px;background:var(--line)}
-.bnav button{position:relative;display:grid;grid-template-columns:auto 1fr;gap:7px 9px;
-  align-content:start;text-align:left;padding:14px 14px 15px;background:var(--bg);
-  transition:background .3s;min-height:76px;overflow:hidden;isolation:isolate}
-/* each desk's own plate sits low in the tile — a murmur behind the name,
-   waking slightly when the desk is chosen. The tile's size never moves. */
-.bnav button .bg{position:absolute;inset:0;z-index:-2;width:100%;height:100%;object-fit:cover;
-  opacity:.38;filter:saturate(.65) contrast(1.04);transform:scale(1.02);
-  transition:opacity .45s,transform .8s var(--glide),filter .45s}
-.bnav button .bsc{position:absolute;inset:0;z-index:-1;pointer-events:none;background:
-  linear-gradient(180deg,
-    color-mix(in srgb,var(--bg) 55%,transparent) 0%,
-    color-mix(in srgb,var(--bg) 76%,transparent) 55%,
-    color-mix(in srgb,var(--bg) 92%,transparent) 100%)}
-/* a breath of the page colour behind the type, so the label never loses
-   the photograph fight in either half of the dawn */
-.bnav button .bn,.bnav button .bt{text-shadow:0 1px 9px color-mix(in srgb,var(--bg) 88%,transparent),
-  0 0 3px color-mix(in srgb,var(--bg) 70%,transparent)}
-.bnav button:hover .bg{opacity:.52;transform:scale(1.06)}
-.bnav button.on .bg{opacity:.60;filter:saturate(.85) contrast(1.05)}
-.bnav button .bd{grid-area:1/1;align-self:center;width:8px;height:8px;transform:rotate(45deg);
-  background:transparent;box-shadow:inset 0 0 0 1px var(--line);transition:background .3s,box-shadow .3s}
-.bnav button .bn{grid-area:1/2;justify-self:start;align-self:center;font-family:var(--mono);
-  font-size:8.5px;letter-spacing:.2em;color:var(--fg3);transition:color .3s}
-.bnav button .bt{grid-area:2/1/3/3;font-family:var(--disp);font-weight:700;font-size:13.5px;
-  line-height:1.22;letter-spacing:-.01em}
-.bnav button::after{content:"";position:absolute;left:0;right:0;bottom:0;height:2px;
-  background:var(--dk);transform:scaleX(0);transform-origin:left;transition:transform .4s var(--glide)}
-.bnav button:hover{background:color-mix(in srgb,var(--dk) 6%,var(--bg))}
-.bnav button.on{background:color-mix(in srgb,var(--dk) 11%,var(--bg))}
-.bnav button.on::after{transform:scaleX(1)}
-.bnav button.on .bd{background:var(--dk);box-shadow:0 0 14px color-mix(in srgb,var(--dk) 70%,transparent)}
-.bnav button.on .bn{color:var(--dk)}
-@media(max-width:900px){.bnav{grid-template-columns:repeat(3,1fr)}}
-@media(max-width:430px){.bnav{grid-template-columns:repeat(2,1fr)}
-  .bnav button{min-height:64px;padding:12px}}
-.bpanel{background:var(--bg);padding:clamp(22px,3.2vw,38px);position:relative;min-height:380px;
-  display:flex;flex-direction:column;gap:20px}
-.bpanel::before{content:"";position:absolute;inset:0;pointer-events:none;
-  background:linear-gradient(150deg,color-mix(in srgb,var(--dk) 14%,transparent),transparent 58%);
-  transition:background .5s}
-.bpanel>*{position:relative;z-index:1}
-.bp-top{display:flex;justify-content:space-between;align-items:flex-start;gap:20px;flex-wrap:wrap}
-.bp-stat .k{font-family:var(--mono);font-size:9px;letter-spacing:.2em;text-transform:uppercase;color:var(--fg3)}
-.bp-stat .v{font-family:var(--disp);font-weight:700;font-size:clamp(28px,3.6vw,44px);letter-spacing:-.025em;
-  margin-top:7px;font-variant-numeric:tabular-nums;line-height:1}
-.bp-stat .d{font-family:var(--mono);font-size:11px;letter-spacing:.1em;margin-top:8px}
-.bp-spark{width:190px;height:66px;display:block;flex:none}
-@media(max-width:520px){.bp-spark{width:100%}}
-.bp-arts{display:flex;flex-direction:column;border-top:1px solid var(--line)}
-.bp-art{display:flex;align-items:baseline;gap:14px;padding:14px 0;border-bottom:1px solid var(--line);
-  transition:padding-left .35s var(--glide)}
-.bp-art:last-child{border-bottom:0}
-.bp-art:hover{padding-left:8px}
-.bp-art .i{font-family:var(--mono);font-size:9px;color:var(--dk);flex:none;width:22px}
-.bp-art .h{font-family:var(--disp);font-weight:600;font-size:15.5px;line-height:1.35;letter-spacing:-.012em;flex:1;
-  background-image:linear-gradient(var(--dk),var(--dk));background-size:0% 1.5px;background-repeat:no-repeat;
-  background-position:0 100%;transition:background-size .5s var(--glide)}
-.bp-art:hover .h{background-size:100% 1.5px}
-.bp-art .m{font-family:var(--mono);font-size:9px;letter-spacing:.14em;color:var(--fg3);flex:none}
-.bp-foot{margin-top:auto;display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
-.bp-more{font-family:var(--mono);font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--dk);
-  display:inline-flex;align-items:center;gap:9px;transition:gap .3s var(--glide)}
-.bp-more:hover{gap:15px}
-.swapin{animation:swapin .5s var(--glide) both}
-@keyframes swapin{from{opacity:0;transform:translateY(9px)}to{opacity:1;transform:none}}
+/* ---------- price tape ---------- */
+#tape{position:fixed;left:0;right:0;bottom:0;z-index:35;height:44px;overflow:hidden;
+  border-top:1px solid var(--line);background:linear-gradient(0deg,rgba(4,6,11,.92),rgba(4,6,11,.55));
+  backdrop-filter:blur(6px);display:flex;align-items:center;transition:opacity .6s var(--ease),transform .6s var(--ease)}
+#tape.hide{opacity:0;transform:translateY(100%)}
+.tape-run{display:inline-flex;align-items:center;white-space:nowrap;animation:march 44s linear infinite;flex:0 0 auto}
+#tape:hover .tape-run{animation-play-state:paused}
+@keyframes march{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.tk{display:inline-flex;align-items:center;gap:10px;padding:0 26px;font-family:var(--mono);font-size:12px;letter-spacing:.03em;
+  border-right:1px solid var(--line)}
+.tk .lab{color:var(--ink3);text-transform:uppercase;letter-spacing:.14em;font-size:10.5px}
+.tk .val{color:var(--ink)}
+.tk .up{color:var(--ok)}.tk .dn{color:var(--dn)}.tk .fl{color:var(--ink3)}
 
-/* ══════ THE EDITION RAIL — where am I, how much is left ══════ */
-#rail{position:fixed;left:22px;top:50%;transform:translateY(-50%);z-index:45;display:none;
-  flex-direction:column;gap:3px}
-@media(min-width:1180px){#rail{display:flex}}
-#rail a{display:flex;align-items:center;gap:10px;padding:5px 8px;border-radius:7px;
-  font-family:var(--mono);font-size:8.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--fg3);
-  transition:color .3s,background .3s}
-#rail a .tk{width:16px;height:1px;background:currentColor;opacity:.5;transition:width .4s var(--glide),opacity .3s}
-#rail a .nm{max-width:0;overflow:hidden;white-space:nowrap;opacity:0;
-  transition:max-width .45s var(--glide),opacity .3s}
-#rail:hover a .nm{max-width:150px;opacity:1}
-#rail a:hover{color:var(--fg2)}
-#rail a.on{color:var(--acc)}
-#rail a.on .tk{width:30px;opacity:1}
+/* ---------- MOTION / stats (headline top · galaxy centre · stat strip bottom) ---------- */
+.motion{justify-content:space-between;padding-top:clamp(96px,14vh,150px);padding-bottom:clamp(72px,10vh,110px)}
+.motion .mtop{max-width:var(--wrap);margin:0 auto;width:100%}
+.motion h2{font-size:clamp(1.9rem,5vw,3.7rem);max-width:16ch}
+.motion h2 em{font-style:italic;font-family:var(--serif);color:var(--giltL);font-weight:400}
+.motion .mtop .foot{margin-top:20px;font-family:var(--mono);font-size:11px;color:var(--ink3);letter-spacing:.04em;max-width:64ch}
+.mstrip{max-width:var(--wrap);margin:0 auto;width:100%;display:flex;flex-wrap:wrap;gap:1px;
+  background:var(--line);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.mstat{flex:1 1 0;min-width:150px;background:rgba(6,9,15,.74);backdrop-filter:blur(6px);
+  padding:16px 20px;display:flex;flex-direction:column;gap:5px}
+.mstat .k{font-family:var(--mono);font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink3);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.mstat .v{font-family:var(--disp);font-size:clamp(1.35rem,2.4vw,1.9rem);font-weight:500;letter-spacing:-.02em}
+.mstat .c{font-family:var(--mono);font-size:11px}
+.mstat .c.up{color:var(--ok)}.mstat .c.dn{color:var(--dn)}.mstat .c.fl{color:var(--ink3)}
+@media(max-width:760px){.mstat{flex:1 1 40%}}
 
-/* staggered children */
-.js .stg>*{opacity:0;transform:translateY(22px);
-  transition:opacity .75s var(--glide),transform .75s var(--glide)}
-.stg.in>*{opacity:1;transform:none}
-.stg.in>*:nth-child(1){transition-delay:.04s}.stg.in>*:nth-child(2){transition-delay:.12s}
-.stg.in>*:nth-child(3){transition-delay:.20s}.stg.in>*:nth-child(4){transition-delay:.28s}
-.stg.in>*:nth-child(5){transition-delay:.36s}.stg.in>*:nth-child(6){transition-delay:.44s}
+/* ---------- EDITION lead ---------- */
+.edition .wrap{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(28px,5vw,68px);align-items:center}
+.lead-label{font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--giltL);
+  display:inline-flex;align-items:center;gap:9px;margin-bottom:20px}
+.lead-label i{width:7px;height:7px;border-radius:50%;background:var(--verm)}
+.edition h2{font-size:clamp(1.9rem,4vw,3.2rem);line-height:1.06;letter-spacing:-.02em}
+.edition h2 a{background:linear-gradient(var(--ink),var(--ink));background-size:0 1px;background-position:0 100%;
+  background-repeat:no-repeat;transition:background-size .5s var(--ease)}
+.edition h2 a:hover{background-size:100% 1px}
+.dek{font-family:var(--serif);color:var(--ink2);font-size:1.12rem;line-height:1.72;margin-top:22px;max-width:52ch}
+.byline{font-family:var(--mono);font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink3);margin-top:22px}
+.plate{position:relative;border-radius:16px;overflow:hidden;border:1px solid var(--line2);
+  box-shadow:0 30px 80px rgba(0,0,0,.55)}
+.plate .im{aspect-ratio:5/4;overflow:hidden;background:#0b0e15}
+.plate img{width:100%;height:100%;object-fit:cover;filter:saturate(.92) contrast(1.03);
+  transform:scale(1.02);transition:transform 1.4s var(--ease)}
+.plate:hover img{transform:scale(1.07)}
+.plate::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 45%,rgba(4,6,11,.5));pointer-events:none}
+.plate .cap{position:absolute;left:0;right:0;bottom:0;display:flex;justify-content:space-between;
+  padding:14px 16px;font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink2);z-index:2}
+@media(max-width:820px){.edition .wrap{grid-template-columns:1fr}.plate{order:-1}}
 
-/* the hook that pulls you to the next chapter */
-.hook{display:flex;align-items:center;gap:14px;margin-top:clamp(30px,5vh,56px);
-  font-family:var(--mono);font-size:9.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--fg3)}
-.hook .ln{flex:1;height:1px;background:linear-gradient(90deg,var(--line),transparent)}
-.hook b{color:var(--acc);font-weight:500}
-.hook .ar{animation:nudge 2.4s var(--glide) infinite}
-@keyframes nudge{0%,100%{transform:translateX(0)}50%{transform:translateX(5px)}}
+/* ---------- DESKS ---------- */
+.desks .head{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;margin-bottom:44px;flex-wrap:wrap}
+.desks h2{font-size:clamp(2rem,5vw,4rem)}
+.desks .r{font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink3)}
+.board{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.desk{position:relative;border:1px solid var(--line);border-radius:16px;padding:24px 22px 22px;
+  background:linear-gradient(180deg,rgba(10,13,21,.86),rgba(7,9,15,.72));backdrop-filter:blur(8px);
+  overflow:hidden;transition:.4s var(--ease);min-height:236px;display:flex;flex-direction:column}
+.desk::before{content:"";position:absolute;left:0;top:0;height:100%;width:2px;background:var(--dc,#8CC5FF);opacity:.7;transition:.4s;z-index:3}
+.desk:hover{transform:translateY(-4px);border-color:var(--line2);background:linear-gradient(180deg,rgba(12,16,26,.86),rgba(8,10,18,.6))}
+.desk:hover::before{width:3px;box-shadow:0 0 18px var(--dc)}
+.deskmain{display:flex;flex-direction:column;flex:1;color:inherit}
+.deskmain::after{content:"";position:absolute;inset:0;z-index:1}
+.desk .fl{position:relative;z-index:2}
+.desk .no{font-family:var(--mono);font-size:11px;letter-spacing:.14em;color:var(--dc,#8CC5FF)}
+.desk .nm{font-family:var(--disp);font-size:1.42rem;font-weight:500;letter-spacing:-.01em;margin:10px 0 4px}
+.desk .ds{font-family:var(--serif);font-style:italic;color:var(--ink3);font-size:.98rem;line-height:1.5}
+.desk .stat{background:none;padding:0;min-height:0;margin:16px 0 0;flex-direction:row;align-items:baseline;gap:10px;justify-content:flex-start}
+.desk .stat .sv{font-family:var(--disp);font-size:1.3rem;font-weight:500;color:var(--ink)}
+.desk .stat .sk{font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink3)}
+.desk .filed{margin-top:auto;padding-top:16px;border-top:1px solid var(--line);
+  font-family:var(--serif);font-size:.96rem;line-height:1.5;color:var(--ink2)}
+.desk .filed b{display:block;font-family:var(--mono);font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink3);margin-bottom:7px}
+.desk .filed .fl{color:var(--ink2);background:linear-gradient(var(--gilt),var(--gilt));background-size:0 1px;background-position:0 100%;background-repeat:no-repeat;transition:background-size .45s var(--ease),color .3s}
+.desk:hover .filed .fl{background-size:100% 1px;color:var(--ink)}
+@media(max-width:900px){.board{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:600px){.board{grid-template-columns:1fr}}
 
-/* ══════ 06 · PRICE DESK ══════ */
-.ptabs{display:flex;gap:1px;background:var(--line);border:1px solid var(--line);
-  border-radius:11px;overflow:hidden;width:fit-content;margin-bottom:22px;flex-wrap:wrap}
-.ptab{background:var(--bg);padding:10px 18px;font-family:var(--mono);font-size:9.5px;
-  letter-spacing:.18em;text-transform:uppercase;color:var(--fg3);transition:color .18s var(--mech),background .18s var(--mech)}
-.ptab.on{background:var(--acc);color:#07080C}
-.ptab:hover:not(.on){color:var(--fg)}
-.pwrap{display:grid;grid-template-columns:1.25fr .75fr;gap:clamp(18px,3vw,34px);align-items:stretch}
-@media(max-width:880px){.pwrap{grid-template-columns:1fr}}
-.chartbox{border:1px solid var(--line);border-radius:var(--r);padding:20px;background:var(--plate);position:relative}
-.chartbox .hd{display:flex;justify-content:space-between;align-items:baseline;gap:12px;margin-bottom:6px}
-.chartbox .nm{font-family:var(--mono);font-size:9.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--fg3)}
-.chartbox .v{font-family:var(--disp);font-weight:700;font-size:clamp(26px,3.4vw,40px);letter-spacing:-.02em;
-  font-variant-numeric:tabular-nums}
-.chartbox .dl{font-family:var(--mono);font-size:11px;letter-spacing:.1em}
-.chartbox canvas{width:100%;height:190px;display:block;margin-top:10px}
-.chartbox .ft{font-family:var(--mono);font-size:8.5px;letter-spacing:.16em;text-transform:uppercase;
-  color:var(--fg3);margin-top:10px}
-/* ── the Carat indices strip: five house numbers under the price desk ── */
-.ixstrip{margin-top:clamp(18px,3vh,30px);border:1px solid var(--line);border-radius:var(--r);
-  overflow:hidden;background:var(--plate)}
-.ixhead{display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap;
-  padding:12px 18px;border-bottom:1px solid var(--line);
-  font-family:var(--mono);font-size:9.5px;letter-spacing:.2em;text-transform:uppercase}
-.ixhead span{color:var(--acc)}
-.ixhead a{color:var(--fg2);transition:color .25s}
-.ixhead a:hover{color:var(--fg)}
-.ixrow{display:grid;grid-template-columns:repeat(5,1fr);gap:1px;background:var(--line)}
-.ixc{display:flex;flex-direction:column;gap:5px;padding:15px 17px;background:var(--bg);
-  transition:background .3s}
-.ixc:hover{background:rgba(198,162,74,.08)}
-.ixc .c{font-family:var(--mono);font-size:8.5px;letter-spacing:.22em;color:var(--acc)}
-.ixc .v{font-family:var(--mono);font-size:clamp(17px,1.9vw,23px);font-weight:500;
-  letter-spacing:-.02em;font-variant-numeric:tabular-nums}
-.ixc .d{font-family:var(--mono);font-size:9.5px;letter-spacing:.08em}
-.ixc .d.up{color:var(--ok)}.ixc .d.dn{color:var(--dn)}.ixc .d.fl{color:var(--fg3)}
-.ixfoot{padding:9px 18px;border-top:1px solid var(--line);font-family:var(--mono);
-  font-size:8.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--fg3)}
-@media(max-width:880px){.ixrow{grid-template-columns:repeat(2,1fr)}
-  .ixrow .ixc:last-child{grid-column:1/-1}}
-/* ── the analyst's chrome inside the chart card ── */
-.crange{display:flex;justify-content:space-between;align-items:center;gap:12px;margin:2px 0 8px}
-.crange .rgl{font-family:var(--mono);font-size:9.5px;letter-spacing:.1em;color:var(--fg2);
-  font-variant-numeric:tabular-nums}
-.crange .rgs{display:flex;gap:1px;border:1px solid var(--line);border-radius:8px;overflow:hidden;
-  background:var(--line)}
-.crange button{font-family:var(--mono);font-size:8.5px;letter-spacing:.16em;padding:6px 11px;
-  background:var(--bg);color:var(--fg3);transition:color .2s var(--mech),background .2s var(--mech)}
-.crange button:hover:not(.on){color:var(--fg)}
-.crange button.on{background:var(--acc);color:#0B0E14}
-.cwrap{position:relative}
-.xhair{position:absolute;display:none;pointer-events:none;z-index:3;
-  padding:5px 9px;border:1px solid var(--line);border-radius:7px;
-  background:color-mix(in srgb,var(--bg) 92%,transparent);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);
-  font-family:var(--mono);font-size:9.5px;letter-spacing:.06em;color:var(--fg);
-  font-variant-numeric:tabular-nums;white-space:nowrap;transform:translate(-50%,0)}
-.xhair b{color:var(--acc);font-weight:600;margin-left:7px}
-.cstats{display:grid;grid-template-columns:repeat(6,1fr);gap:1px;background:var(--line);
-  border:1px solid var(--line);border-radius:9px;overflow:hidden;margin-top:12px}
-.cstats>div{background:var(--bg);padding:8px 6px 7px;text-align:center}
-.cstats .sv{font-family:var(--mono);font-size:11px;font-variant-numeric:tabular-nums}
-.cstats .sv.up{color:var(--ok)}.cstats .sv.dn{color:var(--dn)}
-.cstats .sk{font-family:var(--mono);font-size:7px;letter-spacing:.18em;text-transform:uppercase;
-  color:var(--fg3);margin-top:4px}
-@media(max-width:560px){.cstats{grid-template-columns:repeat(3,1fr)}}
-.ptable{border:1px solid var(--line);border-radius:var(--r);overflow:hidden;background:var(--plate)}
-.ptable .r{display:flex;align-items:center;gap:12px;padding:14px 18px;border-bottom:1px solid var(--line);
-  transition:background .3s,padding-left .35s var(--glide)}
-.ptable .r:last-child{border-bottom:0}
-.ptable .r:hover{background:rgba(198,162,74,.07);padding-left:24px}
-.ptable .k{font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;
-  color:var(--fg3);flex:1}
-.ptable .v{font-family:var(--mono);font-size:14px;color:var(--acc);font-variant-numeric:tabular-nums}
-.ptable .d{font-family:var(--mono);font-size:10px;width:74px;text-align:right}
-.d.up{color:var(--ok)}.d.dn{color:var(--dn)}.d.fl{color:var(--fg3)}
+/* ---------- PRICES / indices ---------- */
+.prices h2{font-size:clamp(2rem,5vw,4rem)}
+.prices .lede{font-family:var(--serif);color:var(--ink2);font-size:1.14rem;line-height:1.72;max-width:62ch;margin:22px 0 46px}
+.ix{display:grid;grid-template-columns:1.15fr .85fr;gap:20px;align-items:stretch}
+.ixcard{border:1px solid var(--line2);border-radius:18px;padding:28px;background:linear-gradient(180deg,rgba(10,13,21,.88),rgba(7,9,15,.74));backdrop-filter:blur(8px)}
+.ixcard .top{display:flex;justify-content:space-between;align-items:flex-start;gap:16px}
+.ixcard .nm{font-family:var(--mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink2)}
+.ixcard .big{font-family:var(--disp);font-size:clamp(2.6rem,6vw,4rem);font-weight:500;letter-spacing:-.02em;margin-top:10px}
+.ixcard .chg{font-family:var(--mono);font-size:14px;color:var(--dn);text-align:right}
+.ixcard .chg small{display:block;color:var(--ink3);font-size:10.5px;letter-spacing:.14em;margin-top:6px}
+.spark{width:100%;height:120px;margin:20px 0 8px;display:block}
+.ixcard .ft{font-family:var(--mono);font-size:10.5px;color:var(--ink3);letter-spacing:.03em;line-height:1.6}
+.ixside{border:1px solid var(--line);border-radius:18px;padding:8px 0;background:linear-gradient(180deg,rgba(10,13,21,.82),rgba(7,9,15,.66));backdrop-filter:blur(8px);display:flex;flex-direction:column;justify-content:center}
+.ixrow{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:15px 24px;border-bottom:1px solid var(--line)}
+.ixrow:last-child{border-bottom:0}
+.ixrow .l{font-family:var(--serif);font-size:1rem;color:var(--ink)}
+.ixrow .l small{display:block;font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink3);margin-top:3px}
+.ixrow .n{font-family:var(--mono);font-size:14px;text-align:right}
+.ixrow .n span{display:block;font-size:11px;margin-top:3px}
+.method{margin-top:26px;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;
+  font-family:var(--mono);font-size:11px;letter-spacing:.04em;color:var(--ink3)}
+.method a{color:var(--giltL);border-bottom:1px solid transparent;transition:.3s}
+.method a:hover{border-color:var(--giltL)}
+@media(max-width:820px){.ix{grid-template-columns:1fr}}
 
-/* ══════ 07 · THE PROMISE — pull quote ══════ */
-.promise{position:relative;border:1px solid var(--line);border-radius:26px;overflow:hidden;
-  padding:clamp(36px,7vw,86px) clamp(24px,5vw,70px);text-align:center}
-.promise canvas{position:absolute;inset:0;width:100%;height:100%;opacity:.16;pointer-events:none}
-.promise .d{width:11px;height:11px;background:var(--verm);transform:rotate(45deg);margin:0 auto 24px;
-  box-shadow:0 0 18px rgba(190,51,25,.6);position:relative}
-.promise blockquote{position:relative;font-family:var(--serif);font-style:italic;
-  font-size:clamp(22px,3.7vw,44px);line-height:1.32;max-width:20ch;margin:0 auto;text-wrap:balance}
-.promise .att{position:relative;font-family:var(--mono);font-size:9.5px;letter-spacing:.26em;
-  text-transform:uppercase;color:var(--fg3);margin-top:22px}
+/* ---------- COUNTER (light panel) ---------- */
+.counter{background:linear-gradient(180deg,var(--paper2),var(--paper));color:var(--pink);
+  border-radius:34px;margin:0 clamp(10px,2vw,26px);position:relative;z-index:3;
+  box-shadow:0 -40px 120px rgba(0,0,0,.5), 0 40px 120px rgba(0,0,0,.5)}
+.counter .kicker{color:var(--gilt-d)}
+.counter .kicker::before{background:var(--gilt-d)}
+.counter h2{color:var(--pink);font-size:clamp(1.9rem,4.6vw,3.4rem);line-height:1.05;max-width:20ch}
+.counter .intro{font-family:var(--serif);color:var(--pink2);font-size:1.12rem;line-height:1.7;max-width:60ch;margin:22px 0 40px}
+.ledger{border-top:1px solid rgba(27,23,16,.16)}
+.lrow{display:grid;grid-template-columns:180px 1fr 150px;gap:24px;align-items:center;
+  padding:26px 6px;border-bottom:1px solid rgba(27,23,16,.13);transition:.3s var(--ease)}
+.lrow:hover{background:rgba(27,23,16,.03)}
+.lrow .fig{font-family:var(--disp);font-size:clamp(1.9rem,3.4vw,2.7rem);font-weight:500;letter-spacing:-.02em;color:var(--pink)}
+.lrow .fig small{display:block;font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--pink2);margin-top:4px;font-weight:400}
+.lrow .mv{font-family:var(--serif);color:var(--pink2);font-size:1.02rem;line-height:1.55}
+.lrow .mv b{color:var(--pink);font-weight:600}
+.lrow .dk{justify-self:end;text-align:right;font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--pink2)}
+.lrow .dk i{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--ldk,#C6A24A);margin-left:8px;vertical-align:middle}
+.counter .csfoot{margin-top:28px;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;
+  font-family:var(--mono);font-size:11px;letter-spacing:.03em;color:var(--pink2)}
+.counter .csfoot a{color:var(--gilt-d);font-weight:500;border-bottom:1px solid transparent;transition:.3s}
+.counter .csfoot a:hover{border-color:var(--gilt-d)}
+@media(max-width:760px){.lrow{grid-template-columns:1fr;gap:8px}.lrow .dk{justify-self:start;text-align:left}}
 
-/* ══════ 08 · THE BRIEF ══════ */
-.brief{position:relative;border:1px solid var(--line);border-radius:26px;overflow:hidden;
-  padding:clamp(32px,6vw,72px);text-align:center;
-  background:radial-gradient(120% 100% at 50% 0%,rgba(198,162,74,.10),transparent 62%)}
-.brief h2{font-family:var(--disp);font-weight:700;letter-spacing:-.03em;line-height:1.03;
-  font-size:clamp(27px,4.4vw,54px);text-wrap:balance}
-.brief p{margin:17px auto 0;max-width:54ch;color:var(--fg2);font-size:clamp(15px,1.7vw,18px)}
-.form{display:flex;gap:10px;max-width:500px;margin:30px auto 0;flex-wrap:wrap}
-.fld{flex:1;min-width:220px;position:relative}
-.fld input{width:100%;background:transparent;border:1px solid var(--line);border-radius:999px;
-  padding:15px 22px;color:var(--fg);font-family:var(--mono);font-size:12px;letter-spacing:.05em;
-  transition:border-color .3s,box-shadow .3s}
-.fld input::placeholder{color:var(--fg3)}
-.fld input:focus{outline:none;border-color:var(--line-hi);box-shadow:0 0 0 3px rgba(142,146,152,.16)}
-.brief .btn{border-radius:0}
-.trust{margin-top:17px;font-family:var(--mono);font-size:9px;letter-spacing:.18em;
-  text-transform:uppercase;color:var(--fg3)}
+/* ---------- PROMISE ---------- */
+.promise{text-align:center;min-height:82vh}
+.promise .wrap{max-width:960px}
+.promise blockquote{font-family:var(--disp);font-weight:400;font-size:clamp(1.9rem,5vw,3.6rem);
+  line-height:1.16;letter-spacing:-.02em;color:var(--ink)}
+.promise blockquote span{color:var(--giltL)}
+.promise .att{font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink3);margin-top:30px}
+.promise .rule{width:60px;height:1px;background:var(--gilt);margin:0 auto 34px;opacity:.7}
 
-/* ══════ FOOTER ══════ */
-footer{border-top:1px solid var(--line);padding:56px 0 76px;margin-top:clamp(50px,9vh,110px)}
-.fgrid{display:grid;grid-template-columns:1.3fr 1fr 1fr 1fr;gap:32px}
-@media(max-width:820px){.fgrid{grid-template-columns:1fr 1fr}}
-@media(max-width:520px){.fgrid{grid-template-columns:1fr}}
-.fcol h5{font-family:var(--mono);font-size:9px;letter-spacing:.24em;text-transform:uppercase;
-  color:var(--acc);margin-bottom:14px}
-.fcol a{display:block;font-size:13.5px;color:var(--fg3);padding:5px 0;transition:color .25s,padding-left .3s var(--glide)}
-.fcol a:hover{color:var(--fg);padding-left:6px}
-.fbrand{display:flex;align-items:center;gap:12px;font-family:var(--disp);font-weight:700;
-  letter-spacing:.2em;font-size:13px;text-transform:uppercase;margin-bottom:14px}
-.fbrand svg{width:38px;height:38px;color:var(--acc);animation:slow 90s linear infinite}
-@keyframes slow{to{transform:rotate(360deg)}}
-.fnote{font-family:var(--mono);font-size:9px;letter-spacing:.18em;text-transform:uppercase;
-  color:var(--fg3);line-height:2.1}
-.fbar{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap;margin-top:44px;
-  padding-top:22px;border-top:1px solid var(--line);
-  font-family:var(--mono);font-size:9px;letter-spacing:.2em;text-transform:uppercase;color:var(--fg3)}
+/* ---------- BRIEF ---------- */
+.brief{text-align:center}
+.brief .wrap{max-width:760px}
+.brief h2{font-size:clamp(2.1rem,5.5vw,4.2rem);line-height:1.05}
+.brief p{font-family:var(--serif);color:var(--ink2);font-size:1.14rem;line-height:1.7;margin:22px auto 34px;max-width:52ch}
+.bform{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-bottom:16px}
+.bform input{font-family:var(--mono);font-size:14px;letter-spacing:.02em;color:var(--ink);
+  background:rgba(9,12,20,.6);border:1px solid var(--line2);border-radius:100px;padding:16px 22px;min-width:300px;outline:none;transition:.3s}
+.bform input::placeholder{color:var(--ink3)}
+.bform input:focus{border-color:var(--gilt);background:rgba(198,162,74,.05)}
+.trust{font-family:var(--mono);font-size:11px;letter-spacing:.06em;color:var(--ink3)}
+.trust.ok{color:var(--ok)}
 
-.spot{position:relative;isolation:isolate}
-.spot::after{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;opacity:0;
-  transition:opacity .4s;z-index:0;
-  background:radial-gradient(300px circle at var(--mx,50%) var(--my,50%),rgba(198,162,74,.13),transparent 62%)}
-.spot:hover::after{opacity:1}
+/* ---------- FOOTER ---------- */
+footer{position:relative;z-index:2;border-top:1px solid var(--line);padding:64px clamp(20px,5vw,64px) 120px;background:linear-gradient(180deg,transparent,rgba(7,10,18,.6))}
+.fgrid{max-width:var(--wrap);margin:0 auto;display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:32px}
+.fbrand{display:flex;align-items:center;gap:12px;font-family:var(--disp);font-weight:600;font-size:18px}
+.fbrand svg{width:32px;height:32px}
+.fnote{font-family:var(--mono);font-size:11px;letter-spacing:.06em;color:var(--ink3);line-height:1.8;margin-top:16px}
+.fcol h5{font-family:var(--mono);font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--gilt);margin-bottom:16px}
+.fcol a{display:block;font-family:var(--serif);font-size:1rem;color:var(--ink2);padding:6px 0;transition:.25s;border-bottom:1px solid transparent;width:fit-content}
+.fcol a:hover{color:var(--ink)}
+.fbar{max-width:var(--wrap);margin:48px auto 0;padding-top:24px;border-top:1px solid var(--line);
+  display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
+  font-family:var(--mono);font-size:11px;letter-spacing:.06em;color:var(--ink3)}
+.fbar .slg{color:var(--gilt)}
+@media(max-width:760px){.fgrid{grid-template-columns:1fr 1fr}}
 
-@media (prefers-reduced-motion: reduce){
-  *,*::before,*::after{animation-duration:1ms!important;animation-iteration-count:1!important;
-    transition-duration:1ms!important}
-  .rv{opacity:1!important;transform:none!important}
-  .wipe{clip-path:none!important}
-  h1.mast .l,.slogan,.sub,.hero-cta{opacity:1!important;transform:none!important}
-  .tape .run{animation:none}
-  #loupe{display:none}
-}
+/* ---------- MENU DRAWER ---------- */
+#drawer{position:fixed;inset:0;z-index:60;background:rgba(4,6,11,.86);backdrop-filter:blur(14px);
+  opacity:0;visibility:hidden;transition:opacity .5s var(--ease),visibility .5s;
+  display:flex;flex-direction:column;padding:clamp(22px,5vw,54px)}
+#drawer.open{opacity:1;visibility:visible}
+.dtop{display:flex;justify-content:space-between;align-items:center}
+.dclose{font-family:var(--mono);font-size:12px;letter-spacing:.18em;text-transform:uppercase;
+  border:1px solid var(--line2);border-radius:100px;padding:11px 18px;transition:.3s}
+.dclose:hover{border-color:var(--gilt);color:var(--giltL)}
+.dnav{margin:auto 0;display:grid;grid-template-columns:repeat(2,1fr);gap:8px 60px;max-width:1000px}
+.dnav a{font-family:var(--disp);font-size:clamp(1.4rem,3.4vw,2.3rem);font-weight:400;letter-spacing:-.01em;
+  color:var(--ink2);padding:12px 0;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;
+  transition:.3s var(--ease);opacity:0;transform:translateY(14px)}
+#drawer.open .dnav a{opacity:1;transform:none}
+.dnav a span{font-family:var(--mono);font-size:11px;letter-spacing:.12em;color:var(--ink3);opacity:0;transition:.3s}
+.dnav a:hover{color:var(--ink);padding-left:12px}
+.dnav a:hover span{opacity:1;color:var(--gilt)}
+.dfoot{font-family:var(--mono);font-size:11px;letter-spacing:.1em;color:var(--ink3);margin-top:20px}
+@media(max-width:680px){.dnav{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
 
-<div id="vig" aria-hidden="true"></div>
+<canvas id="stage" aria-hidden="true"></canvas>
+<div id="veil" aria-hidden="true"></div>
 <div id="grain" aria-hidden="true"></div>
 <div id="prog" aria-hidden="true"></div>
-<div id="loupe" aria-hidden="true"><span class="lb"></span></div>
-<nav id="rail" aria-label="Chapters">
-  <a href="#hero"><span class="tk"></span><span class="nm">The strike</span></a>
-  <a href="#edition"><span class="tk"></span><span class="nm">The edition</span></a>
-  <a href="#paper"><span class="tk"></span><span class="nm">Today's paper</span></a>
-  <a href="#desks"><span class="tk"></span><span class="nm">The desks</span></a>
-  <a href="#prices"><span class="tk"></span><span class="nm">The tape</span></a>
-  <a href="#counter"><span class="tk"></span><span class="nm">The counter sheet</span></a>
-  <a href="#brief"><span class="tk"></span><span class="nm">The brief</span></a>
-</nav>
 
-<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
-<symbol id="medal" viewBox="0 0 100 100">
-  <circle cx="50" cy="50" r="47" fill="none" stroke="currentColor" stroke-width="1.5"/>
-  <circle cx="50" cy="50" r="42.5" fill="none" stroke="currentColor" stroke-width=".6" opacity=".6"/>
-  <g stroke="currentColor" stroke-width=".55" opacity=".45" fill="none">
-    <circle cx="50" cy="50" r="35"/><circle cx="50" cy="50" r="28"/><circle cx="50" cy="50" r="21"/></g>
-  <g stroke="currentColor" stroke-width=".9" opacity=".85">
-    <path d="M50 3 v5"/><path d="M50 92 v5"/><path d="M3 50 h5"/><path d="M92 50 h5"/></g>
-  <path d="M50 76 L43.5 58 C40 49 41.5 41.5 45 37.5 C46.8 35.4 48.4 34.6 50 34.3
-           C51.6 34.6 53.2 35.4 55 37.5 C58.5 41.5 60 49 56.5 58 Z"
-        fill="none" stroke="currentColor" stroke-width="2"/>
-  <path d="M50 76 L50 45" stroke="currentColor" stroke-width="1"/>
-  <path d="M50 40 L54 45 L50 50 L46 45 Z" fill="#BE3319"/>
-</symbol>
-<symbol id="m-scale" viewBox="0 0 40 40">
-  <path d="M20 6 V32" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
-  <path d="M11 32 H29" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
-  <path d="M8 12 H32" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
-  <circle cx="20" cy="8.6" r="2.1" fill="currentColor"/>
-  <path d="M8 12 L4 21 A5.2 5.2 0 0 0 12 21 Z" fill="none" stroke="currentColor" stroke-width="1.15" stroke-linejoin="round"/>
-  <path d="M32 12 L28 21 A5.2 5.2 0 0 0 36 21 Z" fill="none" stroke="currentColor" stroke-width="1.15" stroke-linejoin="round"/>
-</symbol>
-<symbol id="m-globe" viewBox="0 0 40 40">
-  <circle cx="20" cy="20" r="13" fill="none" stroke="currentColor" stroke-width="1.3"/>
-  <ellipse cx="20" cy="20" rx="5.6" ry="13" fill="none" stroke="currentColor" stroke-width=".9"/>
-  <path d="M7.6 15.6 H32.4 M7.6 24.4 H32.4" stroke="currentColor" stroke-width=".9"/>
-  <path d="M20 1.6 v3.4 M20 35 v3.4 M1.6 20 h3.4 M35 20 h3.4" stroke="currentColor" stroke-width="1.1"/>
-  <path d="M26.5 8.5 a13 13 0 0 1 0 23" fill="none" stroke="currentColor" stroke-width="1.6" opacity=".55"/>
-</symbol>
-<symbol id="m-nib" viewBox="0 0 40 40">
-  <path d="M20 35 L14 20 C11 12.5 12.5 6.8 15.6 4 C17.2 2.4 18.6 1.9 20 1.7
-           C21.4 1.9 22.8 2.4 24.4 4 C27.5 6.8 29 12.5 26 20 Z"
-        fill="none" stroke="currentColor" stroke-width="1.4"/>
-  <path d="M20 35 V13" stroke="currentColor" stroke-width="1"/>
-  <path d="M20 9 L23 13 L20 17 L17 13 Z" fill="currentColor"/>
-</symbol>
-<symbol id="m-folio" viewBox="0 0 40 40">
-  <rect x="5" y="9" width="22" height="26" rx="1.6" fill="none" stroke="currentColor" stroke-width="1.3"/>
-  <rect x="10" y="5" width="22" height="26" rx="1.6" fill="none" stroke="currentColor" stroke-width="1.1" opacity=".55"/>
-  <path d="M9.5 16 H22 M9.5 21 H22 M9.5 26 H17" stroke="currentColor" stroke-width="1"/>
-</symbol>
-<symbol id="m-loupe" viewBox="0 0 40 40">
-  <circle cx="16.5" cy="16.5" r="10.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
-  <circle cx="16.5" cy="16.5" r="6" fill="none" stroke="currentColor" stroke-width=".8" opacity=".55"/>
-  <path d="M24.4 24.4 L35 35" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-</symbol>
-<symbol id="m-tape" viewBox="0 0 40 40">
-  <path d="M3 26 L11 18 L17 23 L26 11 L31 16 L37 8" fill="none" stroke="currentColor"
-        stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
-  <path d="M3 33 H37" stroke="currentColor" stroke-width="1" opacity=".5"/>
-  <circle cx="26" cy="11" r="2.4" fill="currentColor"/>
-</symbol>
-<symbol id="m-seal" viewBox="0 0 40 40">
-  <path d="M5 11 L20 21 L35 11" fill="none" stroke="currentColor" stroke-width="1.2"/>
-  <rect x="5" y="9" width="30" height="22" rx="2" fill="none" stroke="currentColor" stroke-width="1.3"/>
-  <circle cx="30" cy="28" r="6.4" fill="none" stroke="currentColor" stroke-width="1.3"/>
-  <path d="M27.6 28 L29.4 30 L32.6 26" fill="none" stroke="currentColor" stroke-width="1.4"
-        stroke-linecap="round" stroke-linejoin="round"/>
-</symbol>
-<symbol id="m-ingot" viewBox="0 0 40 40">
-  <path d="M7 26 L11 15 H29 L33 26 Z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/>
-  <path d="M11 15 L13.5 11 H26.5 L29 15" fill="none" stroke="currentColor" stroke-width="1.1" stroke-linejoin="round"/>
-  <path d="M12.5 21 H27.5" stroke="currentColor" stroke-width=".9" opacity=".6"/>
-</symbol>
-<symbol id="m-brilliant" viewBox="0 0 40 40">
-  <path d="M8 16 H32 L20 32 Z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/>
-  <path d="M8 16 L12.5 9 H27.5 L32 16" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/>
-  <path d="M12.5 9 L15.5 16 L20 32 M27.5 9 L24.5 16 L20 32 M15.5 16 H24.5" fill="none"
-        stroke="currentColor" stroke-width=".85" opacity=".65"/>
-</symbol>
-<symbol id="m-lab" viewBox="0 0 40 40">
-  <path d="M16 6 V16 L9 30 A2.4 2.4 0 0 0 11 33 H29 A2.4 2.4 0 0 0 31 30 L24 16 V6" fill="none"
-        stroke="currentColor" stroke-width="1.35" stroke-linejoin="round"/>
-  <path d="M13.5 6 H26.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
-  <path d="M20 21 L23 25 L20 29 L17 25 Z" fill="currentColor" opacity=".85"/>
-</symbol>
-<symbol id="m-gap" viewBox="0 0 40 40">
-  <path d="M9 8 V32 M31 8 V32" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-  <path d="M13 20 H18 M22 20 H27" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
-  <path d="M18 20 L15.6 17.6 M18 20 L15.6 22.4 M22 20 L24.4 17.6 M22 20 L24.4 22.4"
-        stroke="currentColor" stroke-width="1.1" stroke-linecap="round"/>
-</symbol>
-<!-- hallmark punches -->
-<symbol id="hm-maker" viewBox="0 0 34 24">
-  <path d="M17 1.5 L32.5 12 L17 22.5 L1.5 12 Z" fill="none" stroke="currentColor" stroke-width="1.3"/>
-  <text x="17" y="15.6" text-anchor="middle" font-family="IBM Plex Mono,monospace" font-size="8.5"
-        font-weight="600" letter-spacing="1" fill="currentColor">CC</text></symbol>
-<symbol id="hm-fine" viewBox="0 0 30 24">
-  <path d="M7 1.5 h16 l5.5 5.5 v10 l-5.5 5.5 H7 l-5.5-5.5 V7 Z" fill="none" stroke="currentColor" stroke-width="1.3"/>
-  <text x="15" y="15.8" text-anchor="middle" font-family="IBM Plex Mono,monospace" font-size="8"
-        font-weight="600" fill="currentColor">750</text></symbol>
-<symbol id="hm-assay" viewBox="0 0 30 24">
-  <ellipse cx="15" cy="12" rx="13.2" ry="10.2" fill="none" stroke="currentColor" stroke-width="1.3"/>
-  <path d="M9.5 15.5 L15 7.4 L20.5 15.5" fill="none" stroke="currentColor" stroke-width="1.7"
-        stroke-linecap="round" stroke-linejoin="round"/></symbol>
-<symbol id="hm-date" viewBox="0 0 24 24">
-  <rect x="1.5" y="1.5" width="21" height="21" rx="5" fill="none" stroke="currentColor" stroke-width="1.3"/>
-  <text x="12" y="16.6" text-anchor="middle" font-family="Lora,serif" font-style="italic"
-        font-size="12.5" fill="currentColor">a</text></symbol>
-</defs></svg>
-
-<div id="boot"><div class="in">
-  <svg viewBox="0 0 100 100"><use href="#medal"/></svg>
-  <div class="bar"><i></i></div>
-  <div class="t">Striking the edition</div>
-</div></div>
-
-<header id="top">
-  <div class="wrap in">
-    <button class="mbtn" id="mbtn" aria-expanded="false" aria-controls="omenu">
-      <span class="bars" aria-hidden="true"><i></i><i></i><i></i></span><span class="lab">Menu</span></button>
-    <a class="tmark" href="/" aria-label="Carat Capital — front page">
-      <svg viewBox="0 0 100 100" aria-hidden="true"><use href="#medal"/></svg>
-      <span class="wm">Carat<span class="caret">^</span>Capital</span></a>
-    <a class="spill" href="magazine"><span class="k">Read</span><span class="v">The Folio</span></a>
-  </div>
+<!-- ══════════ TOP BAR ══════════ -->
+<header id="bar">
+  <button class="menubtn" id="menubtn" aria-label="Open menu"><span class="lines"><i></i><i></i><i></i></span>Menu</button>
+  <a class="brandmark" href="#top" aria-label="Carat Capital">
+    <svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="15" fill="none" stroke="#C6A24A" stroke-width="1.1"/><circle cx="16" cy="16" r="12" fill="none" stroke="rgba(198,162,74,.5)" stroke-width=".7"/><path d="M16 26 L11.7 18 C10.4 14.4 10.6 11 12.6 8.6 C13.7 7.2 14.7 6.6 16 6.4 C17.3 6.6 18.3 7.2 19.4 8.6 C21.4 11 21.6 14.4 20.3 18 Z" fill="none" stroke="#E8CB7C" stroke-width="1.1"/></svg>
+    Carat<span class="caret">^</span>Capital
+  </a>
+  <a class="folio" href="magazine"><span class="lbl">Read</span><b>The Folio</b></a>
 </header>
 
-<div class="omx" id="omenu" role="dialog" aria-modal="true" aria-label="Menu" aria-hidden="true">
-  <button class="omx-scrim" id="omxScrim" tabindex="-1" aria-hidden="true"></button>
-  <div class="omx-panel">
+<main id="top">
+
+  <!-- ══════════ HERO ══════════ -->
+  <section class="scene hero" id="hero" data-phase="0.05">
+    <div class="hero-eyebrow rv in">The Trade Paper of the Jewelry World</div>
     <div class="wrap">
-      <div class="omx-head">
-        <span class="omx-brand">Carat<span class="caret">^</span>Capital</span>
-        <button class="omx-close" id="omxClose">Close &times;</button>
+      <h1 class="mast rv in d1">CARAT<span class="caret">^</span>CAPITAL</h1>
+      <div class="slogan rv in d2">Clarity, daily.</div>
+      <p class="sub rv in d3">Every claim priced, sourced, or cut. Overnight prices, three stories that
+        matter, and one sharp read — struck at 06:00 New York and carried across every desk of the stone trade.</p>
+      <div class="cta rv in d4">
+        <a class="btn btn--solid" href="#brief"><span class="dot"></span>Read the Morning Brief</a>
+        <a class="btn" href="#edition"><span class="dot"></span>Today's edition</a>
       </div>
-      <div class="omx-grid">
-        <div>
-          <div class="omx-label">The Six Desks</div>
-          <a class="omx-desk" style="--i:0" href="diamonds"><span class="n">D&mdash;01</span><span class="t">Diamonds</span><span class="d">the stone that runs on trust</span></a><a class="omx-desk" style="--i:1" href="gold-metals"><span class="n">D&mdash;02</span><span class="t">Gold & Metals</span><span class="d">the metal beneath every margin</span></a><a class="omx-desk" style="--i:2" href="gemstones"><span class="n">D&mdash;03</span><span class="t">Colored Gemstones</span><span class="d">supply lines drawn in emerald, ruby and sapphire</span></a><a class="omx-desk" style="--i:3" href="watches"><span class="n">D&mdash;04</span><span class="t">Watches</span><span class="d">haute horlogerie, priced by the second</span></a><a class="omx-desk" style="--i:4" href="auctions"><span class="n">D&mdash;05</span><span class="t">Auctions & Estates</span><span class="d">where the trade marks itself to market</span></a><a class="omx-desk" style="--i:5" href="retail-tech"><span class="n">D&mdash;06</span><span class="t">Retail & Technology</span><span class="d">the counter, rebuilt for the next generation</span></a>
-        </div>
-        <div class="omx-side">
-          <div class="omx-label">The Paper</div>
-          <a style="--i:0" href="/">Front Page</a>
-          <a style="--i:1" href="field-guide">The Field Guide &mdash; Learn the Trade</a>
-          <a style="--i:2" href="the-record">The Record &mdash; Eight Weeks of the Trade</a>
-          <a style="--i:3" href="almanac">The Almanac &mdash; The Quarter in Numbers</a>
-          <a style="--i:4" href="natural-diamond-prices">The Natural Diamond Price List</a>
-          <a style="--i:5" href="lab-grown-diamond-prices">The Lab-Grown Diamond Price List</a>
-          <a style="--i:6" href="indices">The Carat Indices &mdash; the Trade, Marked to Market</a>
-          <a style="--i:7" href="magazine">The Folio &mdash; the Week, Bound</a>
-          <a style="--i:8" href="#prices">The Price Tape</a>
-          <a style="--i:9" href="about">About the Paper</a>
-          <a style="--i:10" href="about#standards">Editorial Standards</a>
-          <a style="--i:11" href="about#contact">Write to the Desk</a>
-        </div>
-      </div>
-      <div class="omx-foot">Carat Capital &middot; The trade paper of the jewelry world &middot; Est. MMXXVI &middot; Free to read</div>
     </div>
-  </div>
-</div>
+    <div class="scrollcue" aria-hidden="true"><span>Scroll</span><span class="track"></span></div>
+  </section>
 
-<main>
-<!-- ═══════ 00 · HERO ═══════ -->
-<section id="hero">
-  <div class="hero-in">
-    <div id="gemwrap"><canvas id="gem"></canvas></div>
-    <h1 class="mast" id="mast">CARAT<span class="caret">^</span>CAPITAL</h1>
-    <div class="slogan">Clarity, daily.</div>
-    <p class="sub">The trade paper of the jewelry world. Every claim priced, sourced, or cut.</p>
-    <div class="hero-cta">
-      <a class="btn" href="#brief" data-loupe="Subscribe"><span class="d"></span>Read the Morning Brief</a>
-      <a class="btn btn--ghost" href="#edition" data-loupe="Today"><span class="d"></span>Today's edition</a>
+  <!-- ══════════ THE MARKET, IN MOTION ══════════ -->
+  <section class="scene motion" id="motion" data-phase="0.28">
+    <div class="mtop">
+      <div class="kicker rv">The Tape · Live · Printed 06:00 ET</div>
+      <h2 class="rv d1">Reads the market,<br><em>in motion.</em></h2>
+      <p class="foot rv d2">Every figure carried on this morning's tape — verified, or held with “unch.”</p>
     </div>
-  </div>
-  <div class="tape" aria-label="Price tape"><div class="run" id="tkrun"></div></div>
-</section>
+    <div class="mstrip rv d3" id="stats"></div>
+  </section>
 
-<!-- ═══════ 01 · THE BENCH ═══════ -->
-<section class="band" id="marks" style="padding-top:clamp(38px,6vh,74px);padding-bottom:0">
-  <div class="wrap">
-    <div class="skick rv"><svg viewBox="0 0 40 40" aria-hidden="true"><use href="#m-scale"/></svg>
-      <span>The Bench</span><i></i><em>melt value, on the live tape</em></div>
-    <div class="bench rv spot">
-      <canvas class="guil" id="bguil" aria-hidden="true"></canvas>
-      <div class="bhead">
-        <span class="metals" id="metals" role="radiogroup" aria-label="Metal">
-          <button role="radio" aria-checked="true" data-m="0" class="on">Gold</button>
-          <button role="radio" aria-checked="false" data-m="1">Silver</button>
-        </span>
-        <span class="spot"><i></i><span id="spotline">GOLD 4,482.20 / OZ &middot; ▲ +2.80%</span></span>
+  <!-- ══════════ THE EDITION — LEAD ══════════ -->
+  <section class="scene edition" id="edition" data-phase="0.44">
+    <div class="wrap">
+      <div class="col">
+        <div class="lead-label rv"><i></i>Lead Story · Watches Desk · Vol. I — No. 039</div>
+        <h2 class="rv d1"><a href="a-two-point-four-for-thirty-six">2.4% of units, 36.2% of value: the gold watch inside a 9.6% July</a></h2>
+        <p class="dek rv d2">Swiss watch exports rose 9.6% in July to CHF 2,628.3 million and the seven-month
+          cumulative crossed into positive territory at 0.9%. Precious-metal watches grew 3.7% by value on
+          0.9% more units — the gold case doing the quiet work inside the headline.</p>
+        <div class="byline rv d3">The Movement Desk · 5 min read · Thursday, August 20, 2026</div>
+        <div class="rv d4" style="margin-top:28px"><a class="btn" href="a-two-point-four-for-thirty-six"><span class="dot"></span>Read this morning's lead</a></div>
       </div>
-
-      <div class="bgrid">
-        <div class="bfield">
-          <div class="blab"><span id="purlab">Karat</span></div>
-          <div class="karats" id="karats" role="radiogroup" aria-label="Purity"></div>
-        </div>
-        <div class="bfield">
-          <div class="blab">Weight in grams</div>
-          <div class="grow">
-            <label><input id="grams" inputmode="decimal" value="1" aria-label="Grams"></label>
-            <div class="presets" id="presets">
-              <button data-g="1">1 g</button>
-              <button data-g="5">band</button>
-              <button data-g="20">chain</button>
-                <button data-g="250">scrap lot</button>
-            </div>
-          </div>
-        </div>
-        <div class="bout">
-          <div class="v" id="melt">$523.44</div>
-          <div class="der" id="meltder">5 g &times; 18ct (75.0%) &times; $139.58/g fine</div>
-        </div>
-      </div>
-
-      <div class="pstrip">
-        <div class="pbar"><i class="fine" id="pfine" style="width:75%"></i><i class="alloy" id="palloy" style="width:25%"></i></div>
-        <div class="pkey"><span id="pf">75.0% fine gold</span><span id="pa">25.0% alloy</span>
-          <span class="pv">Melt value &middot; metal only</span></div>
-      </div>
-
-      <div class="ladder" id="ladder"></div>
-    </div>
-
-    <div class="bfoot">
-      <span id="benchfoot">Derived from gold spot 4,482.20, 20 Aug 2026, 6:02am New York · Kitco, corroborated on TradingEconomics · Editor's press-time read; all four metals written back, platinum and palladium off a one-session hold &middot; specimen &mdash; verify before you quote</span>
-      <a href="almanac" data-loupe="The tape">Full tape &amp; tables <span>&rarr;</span></a>
-    </div>
-  </div>
-</section>
-
-
-<!-- ═══════ 03 · LEAD ═══════ -->
-<section class="band" id="edition">
-  <div class="wrap">
-    <div class="erule" aria-hidden="true" style="margin-top:0"></div>
-    <!-- no clock here: the readership spans time zones, the paper does not
-         tell them what hour it is somewhere else -->
-    <div class="skick rv"><svg viewBox="0 0 40 40" aria-hidden="true"><use href="#m-nib"/></svg>
-      <span>The Edition</span><i></i><em>Thursday, August 20, 2026 &middot; Vol. I — No. 039</em></div>
-    <div class="lead">
-      <article class="rv rv-1">
-        <span class="kick"><i></i>Lead Story · Watches Desk</span>
-        <h3><a href="a-two-point-four-for-thirty-six">2.4% of units, 36.2% of value: the gold watch inside a 9.6% July</a></h3>
-        <p class="dek">Swiss watch exports rose 9.6% in July to CHF 2,628.3 million and the seven-month cumulative crossed into positive territory at 0.9%. Precious-metal watches grew 3.7% by value on 0.9% more units.</p>
-        <div class="by">The Movement Desk · 5 min read</div>
-        <div style="margin-top:26px"><a class="btn" href="a-two-point-four-for-thirty-six" data-loupe="Read">
-          <span class="d"></span>Read this morning's lead</a></div>
-      </article>
-      <figure class="plate spot wipe rv rv-2">
-        <div class="im"><img class="prx" src="assets/ph/watches-hero.jpg" alt="" loading="lazy" onerror="this.closest('.plate').style.display='none'"></div>
-        <figcaption class="cap"><span>Plate I — Watches</span><span>CC</span></figcaption>
+      <figure class="plate rv d2">
+        <div class="im"><img src="assets/ph/watches-hero.jpg" alt="A haute-horlogerie tourbillon movement" loading="lazy" onerror="this.closest('.plate').style.display='none'"></div>
+        <figcaption class="cap"><span>Plate I — Watches</span><span>Carat Capital</span></figcaption>
       </figure>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- ═══════ 04 · TODAY'S PAPER ═══════ -->
-<section class="band" id="paper" style="padding-top:0">
-  <div class="wrap">
-    <div class="erule" aria-hidden="true"></div>
-    <div class="shead rv">
-      <span class="n"><svg viewBox="0 0 40 40" aria-hidden="true"><use href="#m-folio"/></svg></span>
-      <h2>Also in today's paper.</h2>
-      <span class="r">two more this morning</span>
-    </div>
-    <div class="agrid stg rv" id="agrid"></div>
-  </div>
-</section>
-
-<!-- ═══════ 05 · THE DESK BOARD ═══════ -->
-<section class="band" id="desks" style="padding-top:0">
-  <div class="wrap">
-    <div class="erule" aria-hidden="true"></div>
-    <div class="shead rv">
-      <span class="n"><svg viewBox="0 0 40 40" aria-hidden="true"><use href="#m-loupe"/></svg></span><h2>Six desks. What each one filed.</h2>
-      <span class="r">pick a desk</span>
-    </div>
-    <div class="board rv rv-1" id="board">
-      <div class="bnav" id="bnav"></div>
-      <div class="bpanel" id="bpanel"></div>
-    </div>
-    <div class="hook rv rv-2"><span>Next</span><span class="ln"></span>
-      <b>The price desk</b><span class="ar">→</span></div>
-  </div>
-</section>
-
-<!-- ═══════ 06 · PRICE DESK ═══════ -->
-<section class="band" id="prices">
-  <div class="wrap">
-    <div class="erule" aria-hidden="true" style="margin-top:0"></div>
-    <div class="shead rv">
-      <span class="n"><svg viewBox="0 0 40 40" aria-hidden="true"><use href="#m-tape"/></svg></span><h2>Never fabricate a price.</h2>
-      <span class="r">The Carat indices · computed 2026-08-12 · exchange closes</span>
-    </div>
-    <p class="lede rv rv-1" style="margin-bottom:26px">Verify it, or carry it with &ldquo;unch.&rdquo;
-      Unverified is a state we publish, not a gap we fill.</p>
-
-    <div class="ptabs rv rv-2" id="ptabs"></div>
-    <div class="pwrap">
-      <div class="chartbox rv rv-2 spot">
-        <div class="hd">
-          <div><div class="nm" id="cnm">CC20 · The Jewelry Twenty</div>
-               <div class="v" id="cv">128.85</div></div>
-          <div class="dl" id="cd">▼ -0.20%</div>
+  <!-- ══════════ SIX DESKS ══════════ -->
+  <section class="scene desks" id="desks" data-phase="0.56">
+    <div class="wrap">
+      <div class="head">
+        <div>
+          <div class="kicker rv">Six Desks · What Each One Filed</div>
+          <h2 class="rv d1">Six desks.<br>One tape.</h2>
         </div>
-        <div class="crange" id="crange" role="tablist" aria-label="Chart range">
-          <span class="rgl" id="crgl"></span>
-          <span class="rgs">
-            <button data-r="22" role="tab">1M</button><button data-r="66" role="tab">3M</button><button
-              data-r="132" role="tab">6M</button><button data-r="0" role="tab" class="on">YTD</button></span>
+        <div class="r rv d2">Pick a desk →</div>
+      </div>
+      <div class="board rv d2" id="board"></div>
+    </div>
+  </section>
+
+  <!-- ══════════ THE CARAT INDICES ══════════ -->
+  <section class="scene prices" id="prices" data-phase="0.66">
+    <div class="wrap">
+      <div class="kicker rv">The Carat Indices · computed 2026-08-12 · exchange closes</div>
+      <h2 class="rv d1">Never fabricate a price.</h2>
+      <p class="lede rv d2">Verify it, or carry it with “unch.” Unverified is a state we publish, not a gap we
+        fill. The spreads, the twenty and the method — computed by this desk, quoted from no one.</p>
+      <div class="ix rv d2">
+        <div class="ixcard">
+          <div class="top">
+            <div><div class="nm">CC20 · The Jewelry Twenty</div>
+              <div class="big tnum" id="cc20">128.85</div></div>
+            <div class="chg">▼ −0.20%<small>YTD · base 100</small></div>
+          </div>
+          <canvas class="spark" id="spark" width="640" height="240"></canvas>
+          <div class="ft">Drawn from exchange closes · equal weight, base 100 = first trading day of the year · as of 2026-08-12.
+            Specimen series — verify before you quote.</div>
         </div>
-        <div class="cwrap"><canvas id="chart"></canvas><div class="xhair" id="xhair" aria-hidden="true"></div></div>
-        <div class="cstats" id="cstats"></div>
-        <div class="ft" id="cft">Drawn from exchange closes · equal weight, base 100 = first trading day of the year · as of 2026-08-12</div>
+        <div class="ixside">
+          <div class="ixrow"><div class="l">Gold <small>/oz · live tape</small></div><div class="n">4,482.20<span class="up">▲ +2.80%</span></div></div>
+          <div class="ixrow"><div class="l">Silver <small>/oz · live tape</small></div><div class="n">66.59<span class="up">▲ +5.50%</span></div></div>
+          <div class="ixrow"><div class="l">Natural 1ct <small>RAPI proxy</small></div><div class="n">3,880.00<span class="dn">▼ −6.4% YTD</span></div></div>
+          <div class="ixrow"><div class="l">Lab-grown 1ct <small>wholesale ref</small></div><div class="n">475.00<span class="dn">▼ −13% YoY</span></div></div>
+        </div>
       </div>
-      <div class="ptable rv rv-3" id="ptable"></div>
-    </div>
-    <div class="ixstrip rv rv-3">
-  <div class="ixhead"><span>Computed by this desk, quoted from no one &mdash; the spreads, the twenty and the method</span>
-    <a href="indices">Open the Index Desk &rarr;</a></div>
-</div>
-  </div>
-</section>
-
-<!-- ═══════ 07 · THE COUNTER SHEET ═══════ -->
-<section class="band" id="counter" style="padding-top:0">
-  <div class="wrap">
-    <div class="erule" aria-hidden="true"></div>
-    <div class="shead rv">
-      <span class="n"><svg viewBox="0 0 40 40" aria-hidden="true"><use href="#m-scale"/></svg></span>
-      <h2>Those are the prices.<br>This is what they cost you.</h2>
-      <span class="r">the counter sheet<br>No. 039 &middot; 20 Aug</span>
-    </div>
-    <p class="lede rv rv-1" style="margin-bottom:clamp(22px,3.6vh,40px)">Every price above is a number.
-      This is what the rest of the market is doing to your margin. Four lines, each one a figure
-      from this morning&rsquo;s tape divided down into the thing it actually changes on your counter. The
-      working sits one tap behind every line.</p>
-
-    <div class="sheet rv rv-2">
-      <div class="shbar">
-        <span>The counter sheet &middot; <b>No. 039</b> &middot; four lines &middot; struck 06:00 ET</span>
-        <span>Tap any line for the working</span>
+      <div class="method rv d3">
+        <span>Computed by this desk, quoted from no one — the spreads, the twenty and the method.</span>
+        <a href="indices">Open the Index Desk →</a>
       </div>
-      <div class="shhead">
-        <span>The figure</span><span>What moved</span><span>At your counter</span>
-        <span style="text-align:right">Desk</span>
+    </div>
+  </section>
+
+  <!-- ══════════ THE COUNTER SHEET (light) ══════════ -->
+  <section class="scene counter" id="counter" data-phase="0.74">
+    <div class="wrap">
+      <div class="kicker rv">The Counter Sheet · No. 039 · 20 Aug · struck 06:00 ET</div>
+      <h2 class="rv d1">Those are the prices.<br>This is what they cost you.</h2>
+      <p class="intro rv d2">Every price above is a number. This is what the rest of the market is doing to your
+        margin — four lines, each one a figure from this morning's tape divided down into the thing it actually
+        changes on your counter.</p>
+      <div class="ledger rv d2">
+        <div class="lrow">
+          <div class="fig">$144.11<small>per gram, fine</small></div>
+          <div class="mv">Gold sits at <b>4,482.20</b> the ounce, ▲ +2.80%. A 5 g 18ct band carries about <b>$540</b> of metal before you have made a thing on it.</div>
+          <div class="dk">D—02 Gold<i style="--ldk:#E8C06A"></i></div>
+        </div>
+        <div class="lrow">
+          <div class="fig">8.2×<small>natural : lab</small></div>
+          <div class="mv">Natural one-carat at <b>3,880.00</b> against lab-grown at <b>475.00</b>. The same look at a fraction of the ticket — your case has to answer for the difference, out loud.</div>
+          <div class="dk">D—01 Diamonds<i style="--ldk:#8CC5FF"></i></div>
+        </div>
+        <div class="lrow">
+          <div class="fig">36.2%<small>of value, 2.4% of units</small></div>
+          <div class="mv">The gold watch inside a <b>9.6%</b> July. Precious-metal pieces grew 3.7% by value on 0.9% more units — mix, not volume, carried the month.</div>
+          <div class="dk">D—04 Watches<i style="--ldk:#B79BFF"></i></div>
+        </div>
+        <div class="lrow">
+          <div class="fig">+5.50%<small>silver, one session</small></div>
+          <div class="mv">Two held marks come off the tape. Gold up 2.80% and silver 5.50% against this paper's 19 August marks; platinum <b>1,799.00</b> and palladium written back.</div>
+          <div class="dk">D—02 Metals<i style="--ldk:#6FE3E3"></i></div>
+        </div>
       </div>
-      <ol class="ledger" id="ledger"></ol>
+      <div class="csfoot rv d2">
+        <span>Arithmetic on the prices printed above · specimen figures, illustrative — verify before you quote.</span>
+        <a href="almanac">Full tape &amp; tables →</a>
+      </div>
     </div>
+  </section>
 
-    <div class="csfoot rv rv-2">
-      <span>Arithmetic on the prices printed above &middot; specimen figures, illustrative &mdash; verify before you quote</span>
-      <a class="bp-more" href="almanac" data-loupe="The tape">Full tape &amp; tables &rarr;</a>
+  <!-- ══════════ THE PROMISE ══════════ -->
+  <section class="scene promise" id="promise" data-phase="0.90">
+    <div class="wrap">
+      <div class="rule rv"></div>
+      <blockquote class="rv d1">The headline is a promise<br>the article must <span>keep.</span></blockquote>
+      <div class="att rv d2">The Attention Doctrine · binding on every headline this company prints</div>
     </div>
-    <div class="hook rv"><span>All of it, priced by</span><span class="ln"></span><b>06:00 ET</b><span class="ar">&rarr;</span></div>
-  </div>
-</section>
+  </section>
 
-<!-- ═══════ 07 · THE PROMISE ═══════ -->
-<section class="band" id="promise" style="padding-top:0">
-  <div class="wrap">
-    <div class="promise rv spot">
-      <canvas id="guil"></canvas>
-      <span class="d"></span>
-      <blockquote>The headline is a promise the article must keep.</blockquote>
-      <div class="att">The Attention Doctrine · binding on every headline this company prints</div>
-    </div>
-  </div>
-</section>
-
-<!-- ═══════ 08 · THE BRIEF ═══════ -->
-<section class="band" id="brief" style="padding-top:0">
-  <div class="wrap">
-    <div class="brief rv spot">
-      <h2>Five minutes, before Antwerp takes lunch.</h2>
-      <p>The Morning Brief: overnight prices, three stories that matter, one sharp quotable insight.
-        Free, daily, and it never pads.</p>
-      <form class="form" id="briefform" novalidate>
-        <span class="fld"><input id="briefmail" type="email" placeholder="you@thetrade.com" aria-label="Email address" required></span>
-        <button class="btn" type="submit" data-loupe="Send"><span class="d"></span>Subscribe</button>
+  <!-- ══════════ THE BRIEF ══════════ -->
+  <section class="scene brief" id="brief" data-phase="0.99">
+    <div class="wrap">
+      <div class="kicker rv" style="justify-content:center">The Morning Brief</div>
+      <h2 class="rv d1">Five minutes, before<br>Antwerp takes lunch.</h2>
+      <p class="rv d2">Overnight prices, three stories that matter, one sharp quotable insight. Free, daily, and it never pads.</p>
+      <form class="bform rv d3" id="bform" novalidate>
+        <input id="bmail" type="email" placeholder="you@thetrade.com" aria-label="Email address" required>
+        <button class="btn btn--solid" type="submit"><span class="dot"></span>Subscribe</button>
       </form>
-      <div class="trust" id="briefsay" role="status" aria-live="polite">No hype words &middot; no exclamation marks &middot; unsubscribe in one click</div>
+      <div class="trust rv d3" id="btrust" role="status" aria-live="polite">No hype words · no exclamation marks · unsubscribe in one click</div>
     </div>
-  </div>
-</section>
+  </section>
 </main>
 
 <footer>
-  <div class="wrap">
-    <div class="fgrid">
-      <div class="fcol">
-        <div class="fbrand"><svg viewBox="0 0 100 100"><use href="#medal"/></svg>
-          Carat<span class="caret">^</span>Capital</div>
-        <div class="fnote">The trade paper of the<br>jewelry world<br>caratcapital.org</div>
-      </div>
-      <div class="fcol"><h5>The Desks</h5>
-        <a href="diamonds">Diamonds &amp; Rough</a><a href="gold-metals">Gold &amp; Metals</a>
-        <a href="gemstones">Coloured Gemstones</a></div>
-      <div class="fcol"><h5>&nbsp;</h5>
-        <a href="watches">Watches</a><a href="auctions">Auctions &amp; Estates</a>
-        <a href="retail-tech">Retail &amp; Technology</a></div>
-      <div class="fcol"><h5>The Paper</h5>
-        <a href="almanac">The Tape &amp; Almanac</a><a href="the-record">The Record</a>
-        <a href="about">About &amp; Standards</a></div>
+  <div class="fgrid">
+    <div class="fcol">
+      <div class="fbrand"><svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="15" fill="none" stroke="#C6A24A" stroke-width="1.1"/><path d="M16 26 L11.7 18 C10.4 14.4 10.6 11 12.6 8.6 C13.7 7.2 14.7 6.6 16 6.4 C17.3 6.6 18.3 7.2 19.4 8.6 C21.4 11 21.6 14.4 20.3 18 Z" fill="none" stroke="#E8CB7C" stroke-width="1.1"/></svg>Carat<span class="caret">^</span>Capital</div>
+      <div class="fnote">The trade paper of the<br>jewelry world<br>caratcapital.org</div>
     </div>
-    <div class="fbar">
-      <span>Clarity, daily.</span>
-      <span>Struck MMXXVI · Vol. I</span>
-      <span>Photography openly licensed · credited on the plate</span>
-    </div>
+    <div class="fcol"><h5>The Desks</h5>
+      <a href="diamonds">Diamonds &amp; Rough</a><a href="gold-metals">Gold &amp; Metals</a><a href="gemstones">Coloured Gemstones</a></div>
+    <div class="fcol"><h5>&nbsp;</h5>
+      <a href="watches">Watches</a><a href="auctions">Auctions &amp; Estates</a><a href="retail-tech">Retail &amp; Technology</a></div>
+    <div class="fcol"><h5>The Paper</h5>
+      <a href="almanac">The Tape &amp; Almanac</a><a href="indices">The Carat Indices</a><a href="the-record">The Record</a><a href="about">About &amp; Standards</a></div>
+  </div>
+  <div class="fbar">
+    <span class="slg">Clarity, daily.</span>
+    <span>© 2026 Carat Capital · Specimen figures, illustrative — verify before you quote.</span>
   </div>
 </footer>
 
-<script>
-document.documentElement.classList.add('js');
-const RM = matchMedia('(prefers-reduced-motion: reduce)').matches;
+<!-- ══════════ PRICE TAPE ══════════ -->
+<div id="tape" aria-label="Live price tape"><div class="tape-run" id="taperun"></div></div>
 
-/* ══ boot ══ */
-(function(){
-  const b=document.getElementById('boot');
-  const kill=()=>b&&b.classList.add('out');
-  // whichever comes first: DOM ready + a beat, window load, or a hard 1.6s ceiling.
-  if(document.readyState!=='loading') setTimeout(kill, RM?0:700);
-  else document.addEventListener('DOMContentLoaded',()=>setTimeout(kill, RM?0:700));
-  addEventListener('load',kill);
-  setTimeout(kill,1600);
-})();
+<!-- ══════════ MENU DRAWER ══════════ -->
+<nav id="drawer" aria-hidden="true">
+  <div class="dtop">
+    <a class="brandmark" href="#top"><svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="15" fill="none" stroke="#C6A24A" stroke-width="1.1"/><path d="M16 26 L11.7 18 C10.4 14.4 10.6 11 12.6 8.6 C13.7 7.2 14.7 6.6 16 6.4 C17.3 6.6 18.3 7.2 19.4 8.6 C21.4 11 21.6 14.4 20.3 18 Z" fill="none" stroke="#E8CB7C" stroke-width="1.1"/></svg>Carat<span class="caret">^</span>Capital</a>
+    <button class="dclose" id="dclose">Close ✕</button>
+  </div>
+  <div class="dnav" id="dnav"></div>
+  <div class="dfoot">Six desks · one tape · printed 06:00 ET</div>
+</nav>
 
-/* ══ masthead strike ══ */
-(function(){
-  const el=document.getElementById('mast');
-  const parts=[]; // keep the caret as its own element so it stays vermillion
-  el.childNodes.forEach(n=>{
-    if(n.nodeType===3) [...n.textContent].forEach(c=>parts.push({c}));
-    else parts.push({el:n});
-  });
-  el.textContent='';
-  parts.forEach((p,i)=>{
-    const s=document.createElement('span'); s.className='l';
-    if(p.el) s.appendChild(p.el.cloneNode(true));
-    else s.textContent = p.c===' ' ? '\u00A0' : p.c;
-    s.style.animationDelay=(0.95+i*0.042)+'s';
-    el.appendChild(s);
-  });
-})();
+<script type="importmap">{"imports":{"three":"./assets/vendor/three.module.min.js"}}</script>
+<script type="module">
+import { initCinema } from './assets/cinema.js';
 
-/* ══ tape ══ */
-(function(){const rows=[["GOLD / OZ", "4,482.20", "up", "\u25b2 +2.80%"], ["NATURAL 1CT (RAPI PROXY)", "3,880.00", "dn", "\u22126.4% YTD"], ["LAB-GROWN 1CT REFERENCE", "475.00", "dn", "\u221213% YoY"], ["PLATINUM / OZ", "1,799.00", "up", "\u25b2 +4.23%"], ["SILVER / OZ", "66.59", "up", "\u25b2 +5.50%"], ["EDITION", "No. 039", "up", "\u25cf PRINTED 06:00 ET"], ["SPECIMEN TAPE", "illustrative", "fl", "not quoted"]];
- const mk=()=>rows.map(r=>`<span class="tk"><span class="d"></span><b>${r[0]}</b> ${r[1]} <span class="${r[2]}">${r[3]}</span></span>`).join('');
- document.getElementById('tkrun').innerHTML=mk()+mk();})();
+/* ---------- data ---------- */
+const TICK = [
+  ["Natural 1ct (RAPI proxy)","3,880.00","dn","▼ −6.4% YTD"],
+  ["Lab-grown 1ct reference","475.00","dn","▼ −13% YoY"],
+  ["Gold / oz","4,482.20","up","▲ +2.80%"],
+  ["Silver / oz","66.59","up","▲ +5.50%"],
+  ["Platinum / oz","1,799.00","up","▲ +4.23%"],
+  ["CC20 · Jewelry Twenty","128.85","dn","▼ −0.20%"],
+  ["Edition","No. 039","fl","● Printed 06:00 ET"],
+];
+const STATS = [
+  ["Gold / oz","4,482.20","up","▲ +2.80%"],
+  ["Silver / oz","66.59","up","▲ +5.50%"],
+  ["Platinum / oz","1,799.00","up","▲ +4.23%"],
+  ["Natural 1ct · RAPI proxy","3,880.00","dn","▼ −6.4% YTD"],
+  ["Lab-grown 1ct · ref","475.00","dn","▼ −13% YoY"],
+  ["CC20 · Jewelry Twenty","128.85","dn","▼ −0.20%"],
+];
+const BOARD = [
+  {no:"D—01",nm:"Diamonds & Rough",c:"#8CC5FF",href:"diamonds",ds:"the stone that runs on trust",sk:"1ct RBC · natural",sv:"$5,232",
+   fa:["India sets $100 billion by 2040, growing at 2.44%","a-hundred-billion-on-two-point-four"]},
+  {no:"D—02",nm:"Gold & Metals",c:"#E8C06A",href:"gold-metals",ds:"the metal beneath every margin",sk:"Gold / oz",sv:"$4,482",
+   fa:["Two held marks come off the tape. Gold $4,482.20","a-both-holds-end-at-once"]},
+  {no:"D—03",nm:"Coloured Gemstones",c:"#4FD08A",href:"gemstones",ds:"supply lines in emerald, ruby and sapphire",sk:"Fine sapphire, YoY",sv:"+12%",
+   fa:["Minus 0.1% for color: pinks rise, blues and yellows slip","a-minus-point-one-for-color"]},
+  {no:"D—04",nm:"Watches",c:"#B79BFF",href:"watches",ds:"haute horlogerie, priced by the second",sk:"Swiss exports, ann.",sv:"CHF 26B",
+   fa:["2.4% of units, 36.2% of value: the gold watch in a 9.6% July","a-two-point-four-for-thirty-six"]},
+  {no:"D—05",nm:"Auctions & Estates",c:"#FF8FA8",href:"auctions",ds:"where the trade marks itself to market",sk:"Annual hammer, est.",sv:"$1.1B",
+   fa:["Two Sotheby's jewel sales closed. Neither published a number","a-no-total-for-the-gem-drop"]},
+  {no:"D—06",nm:"Retail & Technology",c:"#6FE3E3",href:"retail-tech",ds:"the counter, rebuilt for the next generation",sk:"Lab-grown 1ct, w'sale",sv:"$475",
+   fa:["Titan's jewellery arm grew 43% and says diamond prices settled","a-titan-calls-the-price-stable"]},
+];
+const DNAV = [
+  ["Front Page","index"],["Diamonds & Rough","diamonds"],["Gold & Metals","gold-metals"],
+  ["Coloured Gemstones","gemstones"],["Watches","watches"],["Auctions & Estates","auctions"],
+  ["Retail & Technology","retail-tech"],["The Carat Indices","indices"],["The Tape & Almanac","almanac"],
+  ["The Record","the-record"],["The Field Guide","field-guide"],["The Folio","magazine"],["About & Standards","about"],
+];
 
-/* ══ THE BENCH — melt value at your own purity and weight ══
-   Gold fineness is karat (kt). Silver is millesimal fineness. Two different
-   units, so the chips and the label change with the metal. ══ */
-const OZT=31.1035;
-const METALS=[
- {name:'Gold',   spot:4482.20,    txt:'4,482.20',    line:'GOLD 4,482.20 / OZ &middot; ▲ +2.80%',    unitLab:'Karat',
-  pur:[['9kt',.375],['10kt',.4167],['14kt',.5833],['18kt',.750],['22kt',.9167],['24kt',.999]], def:3},
- {name:'Silver', spot:66.59, txt:'66.59', line:'SILVER 66.59 / OZ &middot; ▲ +5.50%', unitLab:'Fineness',
-  pur:[['800',.800],['925',.925],['958',.958],['999',.999]], def:1}];
-let mIdx=0, kIdx=METALS[0].def;
-const fmt=(n,d=2)=>n.toLocaleString('en-US',{minimumFractionDigits:d,maximumFractionDigits:d});
-const grams=()=>Math.max(0,parseFloat(document.getElementById('grams').value)||0);
-const M=()=>METALS[mIdx];
-const perGram=()=>M().spot/OZT;
+/* ---------- render lists ---------- */
+const esc=s=>s.replace(/&/g,'&amp;');
+document.getElementById('taperun').innerHTML = [...TICK,...TICK].map(([l,v,c,d])=>
+  `<span class="tk"><span class="lab">${l}</span><span class="val">${v}</span><span class="${c}">${d}</span></span>`).join('');
+document.getElementById('stats').innerHTML = STATS.map(([k,v,c,d])=>
+  `<div class="mstat"><div class="k">${k}</div><div class="v tnum" data-v="${v}">${v}</div><div class="c ${c}">${d}</div></div>`).join('');
+document.getElementById('board').innerHTML = BOARD.map(d=>`
+  <div class="desk" style="--dc:${d.c}">
+    <a class="deskmain" href="${d.href}" aria-label="${d.nm} desk">
+      <div class="no">${d.no}</div>
+      <div class="nm">${d.nm}</div>
+      <div class="ds">${d.ds}</div>
+      <div class="stat"><span class="sv">${d.sv}</span><span class="sk">${d.sk}</span></div>
+    </a>
+    <div class="filed"><b>Filed this morning</b><a class="fl" href="${d.fa[1]}">${d.fa[0]} →</a></div>
+  </div>`).join('');
+document.getElementById('dnav').innerHTML = DNAV.map(([t,h],i)=>
+  `<a href="${h}" style="transition-delay:${0.06+i*0.035}s">${t}<span>→</span></a>`).join('');
 
-function paintChips(){
-  const m=M();
-  document.getElementById('purlab').textContent=m.unitLab;
-  document.getElementById('karats').innerHTML=m.pur.map((k,i)=>
-    `<button role="radio" aria-checked="${i===kIdx}" data-i="${i}" class="${i===kIdx?'on':''}">${k[0]}</button>`).join('');
-  document.getElementById('ladder').innerHTML=m.pur.map((k,i)=>
-    `<div class="lad${i===kIdx?' on':''}" data-i="${i}"><div class="k">${k[0]}</div>
-       <div class="v" data-lad="${i}">—</div></div>`).join('');
-  document.getElementById('ladder').style.gridTemplateColumns=`repeat(${m.pur.length},1fr)`;
-  const sl=document.getElementById('spotline'); if(sl) sl.innerHTML=m.line;
-  const bc=document.getElementById('benchcap');
-  if(bc) bc.innerHTML=`${m.name} at the bench &mdash; derived from spot ${m.txt}`;
-  const ft=document.getElementById('benchfoot');
-  if(ft) ft.innerHTML=`Derived from ${m.name.toLowerCase()} spot ${m.txt}, 20 Aug 2026, 6:02am New York · Kitco, corroborated on TradingEconomics · Editor's press-time read; all four metals written back, platinum and palladium off a one-session hold &middot; specimen &mdash; verify before you quote`;
-}
-function bench(){
-  const g=grams(), m=M(), [nm,pur]=m.pur[kIdx], pg=perGram();
-  document.getElementById('melt').textContent='$'+fmt(g*pg*pur);
-  const short=matchMedia('(max-width:560px)').matches;
-  document.getElementById('meltder').innerHTML = short
-    ? `${g}g &times; ${nm} &times; $${fmt(pg)}/g`
-    : `${g} g &times; ${nm} (${(pur*100).toFixed(1)}%) &times; $${fmt(pg)}/g fine`;
-  const pct=pur*100;
-  document.getElementById('pfine').style.width=pct.toFixed(1)+'%';
-  document.getElementById('palloy').style.width=(100-pct).toFixed(1)+'%';
-  document.getElementById('pf').textContent=pct.toFixed(1)+'% fine '+m.name.toLowerCase();
-  document.getElementById('pa').textContent=(100-pct).toFixed(1)+'% alloy';
-  m.pur.forEach((k,i)=>{
-    const el=document.querySelector(`[data-lad="${i}"]`);
-    if(el) el.textContent='$'+fmt(g*pg*k[1], g*pg*k[1] < 100 ? 2 : 0);
-    const d=document.querySelectorAll('.lad')[i]; if(d) d.classList.toggle('on',i===kIdx);
-  });
-}
-function selPur(i){
-  kIdx=i;
-  document.querySelectorAll('#karats button').forEach((x,j)=>{
-    x.classList.toggle('on',j===kIdx); x.setAttribute('aria-checked',j===kIdx);});
-  bench();
-}
-document.getElementById('metals').addEventListener('click',e=>{
-  const b=e.target.closest('button'); if(!b) return;
-  mIdx=+b.dataset.m; kIdx=METALS[mIdx].def;
-  document.querySelectorAll('#metals button').forEach((x,j)=>{
-    x.classList.toggle('on',j===mIdx); x.setAttribute('aria-checked',j===mIdx);});
-  paintChips(); bench();
-});
-document.getElementById('karats').addEventListener('click',e=>{
-  const b=e.target.closest('button'); if(b) selPur(+b.dataset.i);});
-document.getElementById('ladder').addEventListener('click',e=>{
-  const d=e.target.closest('.lad'); if(d) selPur(+d.dataset.i);});
-document.getElementById('grams').addEventListener('input',bench);
-document.getElementById('presets').addEventListener('click',e=>{
-  const b=e.target.closest('button'); if(!b) return;
-  document.getElementById('grams').value=b.dataset.g; bench();
-});
-paintChips(); bench();
-
-/* the guilloche watermark inside the bench panel */
-(function(){
-  const cv=document.getElementById('bguil'); if(!cv) return;
-  const io=new IntersectionObserver(es=>{ if(!es[0].isIntersecting) return; io.disconnect();
-    const r=cv.getBoundingClientRect(); if(!r.width) return;
-    const dpr=Math.min(devicePixelRatio||1,1.5);
-    cv.width=r.width*dpr; cv.height=r.height*dpr;
-    const c=cv.getContext('2d'); c.scale(dpr,dpr);
-    const W=r.width,H=r.height,cx=W*.5,cy=H*.5;
-    c.strokeStyle='#C6A24A'; c.lineWidth=.6;
-    for(let k=0;k<22;k++){
-      const R=Math.min(W,H)*(0.13+k*0.032);
-      c.beginPath();
-      for(let a2=0;a2<=Math.PI*2+.03;a2+=.03){
-        const rr=R+9*Math.sin(9*a2+k*.34);
-        const x=cx+rr*Math.cos(a2), y=cy+rr*Math.sin(a2);
-        a2?c.lineTo(x,y):c.moveTo(x,y);
-      }
-      c.stroke();
-    }
-  },{threshold:.05});
-  io.observe(cv);
-})();
-
-const LEDGER=[{"num": "$144.11", "lab": "per gram, fine", "dk": "#E8C06A", "desk": "D\u201402 Gold", "move": "Gold sits at 4,482.20 the ounce, \u25b2 +2.80%.", "ctr": "A 5&nbsp;g 18ct band carries about $540 of metal before you have made a thing on it.", "viz": {"t": "spark", "seed": 9, "trend": 1, "lo": "the tape", "hi": "4,482.20"}, "work": ["4,482.20 &divide; 31.1035 g = 144.11 per gram fine", "144.11 &times; 0.750 (18ct) = 108.08 per gram at 18ct", "108.08 &times; 5 g = 540.40"], "src": ["Full tape &amp; tables", "almanac.html"]}, {"num": "8.2&times;", "lab": "natural : lab", "dk": "#8CC5FF", "desk": "D\u201401 Diamonds", "move": "Natural one-carat at 3,880.00 against lab-grown at 475.00.", "ctr": "The same look at a fraction of the ticket. Your case has to answer for the difference, out loud.", "viz": {"t": "ratio", "a": ["Natural", 3880.0, "#8CC5FF"], "b": ["Lab", 475.0, "rgba(220,234,245,.30)"]}, "work": ["3,880.00 &divide; 475.00 = 8.17&times;", "both figures as carried on this morning&rsquo;s tape"], "src": ["The lab-grown price list", "lab-grown-diamond-prices.html"]}, {"num": "&rarr;", "lab": "Gold & Metals", "dk": "#6FE3E3", "desk": "D\u201402", "move": "Two held marks come off the tape. Gold $4,482.20, platinum $1,799.00", "ctr": "Gold is up 2.80% and silver 5.50% against this paper's 19 August marks. Platinum and palladium, held at marks now below the whole live range, are writ", "viz": {"t": "split", "a": ["Filed today", 100, "#6FE3E3"], "b": ["", 0, "rgba(220,234,245,.22)"]}, "work": ["filed by The Gold & Metals Desk", "5 minutes"], "src": ["Two held marks come off the tape. Gold $4,482.20, platinum $1,799.00", "a-both-holds-end-at-once.html"]}, {"num": "&rarr;", "lab": "Diamonds", "dk": "#6FE3E3", "desk": "D\u201401", "move": "India sets $100 billion by 2040 and is growing at 2.44%", "ctr": "The Commerce Ministry's Chintan Shivir roadmap lifts gems and jewellery exports from $28 billion in 2025-26 to $100 billion by 2040. Exports grew 2.44", "viz": {"t": "split", "a": ["Filed today", 100, "#6FE3E3"], "b": ["", 0, "rgba(220,234,245,.22)"]}, "work": ["filed by The Diamonds Desk", "5 minutes"], "src": ["India sets $100 billion by 2040 and is growing at 2.44%", "a-hundred-billion-on-two-point-four.html"]}];
-
-function vizHTML(v){
-  if(v.t==='spark') return `<div class="viz"><canvas class="spk" data-seed="${v.seed}" data-trend="${v.trend}" data-c="#C6A24A"></canvas>
-    <div class="vlab"><span>${v.lo}</span><span>${v.hi}</span></div></div>`;
-  if(v.t==='ratio'){
-    const m=Math.max(v.a[1],v.b[1]);
-    return `<div class="viz bar2">
-      <div class="b"><span>${v.a[0]}</span><i style="width:${(v.a[1]/m*100).toFixed(1)}%;background:${v.a[2]}"></i><b>${v.a[1].toLocaleString()}</b></div>
-      <div class="b"><span>${v.b[0]}</span><i style="width:${(v.b[1]/m*100).toFixed(1)}%;background:${v.b[2]}"></i><b>${v.b[1].toLocaleString()}</b></div>
-    </div>`;
-  }
-  if(v.t==='split') return `<div class="viz">
-      <div class="split"><i style="width:${v.a[1]}%;background:${v.a[2]}"></i><i style="width:${v.b[1]}%;background:${v.b[2]}"></i></div>
-      <div class="vlab"><span>${v.a[0]} ${v.a[1]}%</span><span>${v.b[0]} ${v.b[1]}%</span></div></div>`;
-  if(v.t==='axis'){
-    const half=Math.abs(v.v)/v.max*50, neg=v.v<0;
-    return `<div class="viz"><div class="axis"><div class="zero"></div>
-      <div class="fill" style="${neg?'right:50%':'left:50%'};width:${half}%;background:${neg?'#FF6B4A':'#2BFF95'}"></div>
-      <div class="zl" style="left:0">${v.lo}</div>
-      <div class="zl" style="left:50%;transform:translateX(-50%)">${v.mid}</div>
-      <div class="zl" style="right:0">${v.hi}</div></div></div>`;
-  }
-  return '';
-}
-
-document.getElementById('ledger').innerHTML = LEDGER.map((r,i)=>`
- <li style="--dk:${r.dk}">
-   <button class="csrow" aria-expanded="false" data-i="${i}" data-loupe="The working">
-     <span><span class="num">${r.num}</span><span class="nlab">${r.lab}</span></span>
-     <span><span class="move">${r.move}</span>${vizHTML(r.viz)}</span>
-     <span class="ctr">${r.ctr}</span>
-     <span class="csend"><span class="deskchip">${r.desk}</span><span class="chev">&#9662;</span></span>
-   </button>
-   <div class="work"><div><div class="inner">
-     <div class="wl">Show the working</div>
-     <div class="ar">${r.work.join('<br>')}</div>
-     <a href="${r.src[1]}">${r.src[0]} &rarr;</a>
-   </div></div></div>
- </li>`).join('') + `
- <li><div class="csdark">
-   <span><span class="num">unch.</span>
-     <span class="nlab" style="display:block;font-family:var(--mono);font-size:8.5px;
-       letter-spacing:.2em;text-transform:uppercase;color:var(--fg3);margin-top:7px">polished 1ct &middot; RAPI</span></span>
-   <span class="move">We could not verify a print for this today, so we carry it unchanged rather than
-     guess. Verified, or &ldquo;unch.&rdquo; &mdash; never invented.</span>
- </div></li>`;
-
-document.getElementById('ledger').addEventListener('click',e=>{
-  const b=e.target.closest('.csrow'); if(!b||b.classList.contains('dark')) return;
-  const w=b.parentElement.querySelector('.work'), open=b.getAttribute('aria-expanded')==='true';
-  b.setAttribute('aria-expanded',String(!open)); w.classList.toggle('open',!open);
-});
-
-/* ══ TODAY'S PAPER — article grid from the real archive ══ */
-const ARTS=[{"h": "Two held marks come off the tape. Gold $4,482.20, platinum $1,799.00", "p": "Gold is up 2.80% and silver 5.50% against this paper's 19 August marks. Platinum and palladium, held at marks now below ", "img": "gold-hero", "cr": "Carat Capital", "s": "Gold & Metals", "t": "5 min", "href": "a-both-holds-end-at-once.html"}, {"h": "India sets $100 billion by 2040 and is growing at 2.44%", "p": "The Commerce Ministry's Chintan Shivir roadmap lifts gems and jewellery exports from $28 billion in 2025-26 to $100 bill", "img": "diamonds-hero", "cr": "Carat Capital", "s": "Diamonds", "t": "5 min", "href": "a-hundred-billion-on-two-point-four.html"}];
-document.getElementById('agrid').innerHTML=ARTS.map((a,i)=>`
- <a class="acard wipe${a.img?'':' noimg'}" href="${a.href}" data-loupe="Read">${a.img?`
-   <img class="ph" src="assets/ph/${a.img}.jpg" alt="" loading="lazy" onerror="this.closest('.acard').classList.add('noimg');this.remove()">
-   <span class="scrim" aria-hidden="true"></span>${a.cr?`
-   <span class="crd">${a.cr}</span>`:''}`:''}
-   <div class="im"><span class="desk">${a.s}</span></div>
-   <div class="bd"><h4>${a.h}</h4><p>${a.p}</p>
-     <div class="mt"><span>${a.s} desk</span><span>${a.t}</span></div></div></a>`).join('');
-
-/* ══ THE DESK BOARD — real headlines, real numbers ══ */
-const BOARD=[{"n": "D\u201401", "t": "Diamonds", "c": "#8CC5FF", "img": "diamonds-hero", "seed": 9, "trend": 1, "href": "diamonds.html", "st": {"k": "1ct RBC \u00b7 natural, this week", "v": "$5,232", "d": "the stone that runs on trust", "cls": "fl"}, "a": [["India sets $100 billion by 2040 and is growing at 2.44%", "a-hundred-billion-on-two-point-four.html", "5 min"], ["Wholesale lab-grown fell 96%. The retail markup moved 1 to 2 points", "a-ninety-six-down-eighty-up.html", "5 min"], ["111% more carats, 44% less per carat: Mountain Province's quarter", "a-one-eleven-up-forty-four-down.html", "5 min"]]}, {"n": "D\u201402", "t": "Gold & Metals", "c": "#E8C06A", "img": "gold-hero", "seed": 15, "trend": 1, "href": "gold-metals.html", "st": {"k": "Gold/oz \u00b7 Jul 13 close", "v": "$3,997", "d": "the metal beneath every margin", "cls": "fl"}, "a": [["Two held marks come off the tape. Gold $4,482.20, platinum $1,799.00", "a-both-holds-end-at-once.html", "5 min"], ["Silver down 2.89%: all four metals lower, and a three-session hold ends", "a-silver-down-two-eight-nine.html", "5 min"], ["Gold and silver cleared two pages. Platinum and palladium did not", "a-two-cleared-two-held.html", "5 min"]]}, {"n": "D\u201403", "t": "Colored Gemstones", "c": "#4FD08A", "img": "gemstones-hero", "seed": 21, "trend": 1, "href": "gemstones.html", "st": {"k": "Fine sapphire, YoY", "v": "+12%", "d": "supply lines drawn in emerald, ruby and sapphire", "cls": "fl"}, "a": [["Minus 0.1% for color: pinks rise, blues and yellows slip", "a-minus-point-one-for-color.html", "4 min"], ["$102.9 million, up 72%: Gemfields' emeralds cover for its rubies", "a-gemfields-covers-the-ruby.html", "4 min"], ["Two speeds in color: $906,250 for one sapphire, demand still 30% down", "a-color-runs-two-speeds.html", "4 min"]]}, {"n": "D\u201404", "t": "Watches", "c": "#B79BFF", "img": "watches-hero", "seed": 27, "trend": 1, "href": "watches.html", "st": {"k": "Swiss exports, annualized", "v": "CHF 26B", "d": "haute horlogerie, priced by the second", "cls": "fl"}, "a": [["2.4% of units, 36.2% of value: the gold watch inside a 9.6% July", "a-two-point-four-for-thirty-six.html", "5 min"], ["Rolex made Drake a one-off. The only verified price is $500,000", "a-the-only-verified-price.html", "5 min"], ["Turkey +6.9%, America \u221214.8%: where Swiss watches went", "a-turkey-up-america-down.html", "5 min"]]}, {"n": "D\u201405", "t": "Auctions & Estates", "c": "#FF8FA8", "img": "auctions-hero", "seed": 33, "trend": 1, "href": "auctions.html", "st": {"k": "Annual jewelry hammer, est.", "v": "$1.1B", "d": "where the trade marks itself to market", "cls": "fl"}, "a": [["Two Sotheby's jewel sales closed. Neither has published a number", "a-no-total-for-the-gem-drop.html", "5 min"], ["Five times its metal: a Garrard egg makes \u00a3123,500", "a-four-times-melt.html", "5 min"], ["$13,000 for costume, \u00a32,000 for gold: Bonhams runs Chanel in three cities", "a-thirteen-thousand-for-costume.html", "4 min"]]}, {"n": "D\u201406", "t": "Retail & Technology", "c": "#6FE3E3", "img": "retail-hero", "seed": 39, "trend": 1, "href": "retail-tech.html", "st": {"k": "Lab-grown 1ct, wholesale midpoint", "v": "$475", "d": "the counter, rebuilt for the next generation", "cls": "fl"}, "a": [["IIJS published 50,000 visitors and no order book", "a-fifty-thousand-and-no-number.html", "5 min"], ["One fund cut 806,676 Signet shares. An index fund bought 665,182", "a-eight-oh-six-out-six-sixty-five-in.html", "5 min"], ["Titan's jewellery arm grew 43% and says diamond prices settled", "a-titan-calls-the-price-stable.html", "4 min"]]}];
-document.getElementById('bnav').innerHTML=BOARD.map((d,i)=>
- `<button data-i="${i}" class="${i?'':'on'}" style="--dk:${d.c}" data-loupe="${d.t}">${d.img?`
-    <img class="bg" src="assets/ph/${d.img}.jpg" alt="" loading="lazy" onerror="this.remove()">
-    <span class="bsc" aria-hidden="true"></span>`:''}
-    <span class="bd"></span><span class="bt">${d.t}</span><span class="bn">${d.n}</span></button>`).join('');
-let curDesk=-1;
-function paintDesk(i){
-  if(i===curDesk) return;            // same desk: leave the panel alone
-  curDesk=i;
-  const d=BOARD[i], P=document.getElementById('bpanel');
-  P.style.setProperty('--dk',d.c);
-  P.innerHTML=`
-   <div class="bp-top swapin">
-     <div class="bp-stat"><div class="k">${d.st.k}</div><div class="v">${d.st.v}</div>
-       <div class="d ${d.st.cls}">${d.st.d}</div></div>
-     <canvas class="bp-spark" data-seed="${d.seed}" data-trend="${d.trend}" data-c="${d.c}"></canvas>
-   </div>
-   <div class="bp-arts swapin">
-     ${d.a.map((a,j)=>`<a class="bp-art" href="${a[1]}" data-loupe="Read">
-        <span class="i">0${j+1}</span><span class="h">${a[0]}</span><span class="m">${a[2]}</span></a>`).join('')}
-   </div>
-   <div class="bp-foot swapin">
-     <a class="bp-more" href="${d.href}" data-loupe="Open desk">Open the ${d.t} desk →</a>
-     <span style="font-family:var(--mono);font-size:9px;letter-spacing:.16em;color:var(--fg3)">
-       ${d.n} · specimen figure, illustrative</span>
-   </div>`;
-  drawSpark(P.querySelector('.bp-spark'));
-  document.querySelectorAll('#bnav button').forEach((b,j)=>b.classList.toggle('on',j===i));
-}
-/* click, not hover: hover used to rebuild the panel two to four times on
-   every pass of the mouse and restart its entrance each time */
-document.getElementById('bnav').addEventListener('click',e=>{
-  const b=e.target.closest('button'); if(b) paintDesk(+b.dataset.i);});
-
-/* deterministic specimen series */
-function series(seed,n,trend){
-  let s=seed*9301+49297, out=[], v=50;
-  for(let i=0;i<n;i++){ s=(s*9301+49297)%233280; const r=s/233280;
-    v += (r-0.5)*9 + trend*0.85; v=Math.max(8,Math.min(92,v)); out.push(v); }
-  return out;
-}
-function drawSpark(cv){
-  const c=cv.getContext('2d'), dpr=Math.min(devicePixelRatio||1,2);
-  const r=cv.getBoundingClientRect(); if(!r.width) return;
-  cv.width=r.width*dpr; cv.height=r.height*dpr; c.scale(dpr,dpr);
-  const W=r.width,H=r.height,col=cv.dataset.c;
-  const d=series(+cv.dataset.seed,40,+cv.dataset.trend);
-  const x=i=>i/(d.length-1)*W, y=v=>H-8-(v/100)*(H-16);
-  c.clearRect(0,0,W,H);
-  const g=c.createLinearGradient(0,0,0,H);
-  g.addColorStop(0,col+'44'); g.addColorStop(1,col+'00');
-  c.beginPath(); c.moveTo(0,H);
-  d.forEach((v,i)=>c.lineTo(x(i),y(v))); c.lineTo(W,H); c.closePath();
-  c.fillStyle=g; c.fill();
-  c.beginPath(); d.forEach((v,i)=>i?c.lineTo(x(i),y(v)):c.moveTo(x(i),y(v)));
-  c.strokeStyle=col; c.lineWidth=1.6; c.lineJoin='round'; c.stroke();
-  const lv=d[d.length-1];
-  c.beginPath(); c.arc(W-1.5,y(lv),3,0,7); c.fillStyle=col; c.fill();
-}
-
-paintDesk(0);
-
-/* ══ PRICE DESK — tabs + canvas chart ══ */
-const PX=[{"k": "CC20 \u00b7 The Jewelry Twenty", "v": "128.85", "d": "\u25bc -0.20%", "cls": "dn", "ser": [100.0, 100.57, 100.86, 101.91, 100.39, 100.83, 100.95, 101.47, 101.68, 102.16, 102.63, 105.04, 103.61, 103.78, 102.97, 101.64, 104.06, 103.62, 103.7, 103.69, 103.84, 104.19, 102.93, 103.18, 104.02, 103.43, 104.88, 105.15, 107.56, 105.31, 106.23, 107.37, 107.36, 108.16, 110.19, 110.69, 110.12, 110.13, 110.6, 110.75, 112.19, 111.97, 113.84, 114.28, 113.8, 115.2, 113.6, 115.06, 114.22, 114.54, 111.06, 107.58, 109.73, 107.68, 106.53, 105.21, 104.9, 106.98, 105.86, 104.66, 103.23, 103.18, 104.52, 105.11, 102.18, 101.49, 100.72, 98.57, 101.06, 102.21, 101.39, 100.76, 100.47, 99.76, 99.1, 100.86, 102.54, 103.06, 103.6, 104.32, 105.7, 108.0, 107.67, 109.17, 108.77, 108.55, 109.4, 108.61, 108.92, 110.1, 109.9, 109.49, 108.58, 106.64, 106.37, 105.71, 105.23, 105.39, 104.15, 103.12, 103.88, 104.34, 104.42, 103.43, 103.85, 107.76, 108.68, 109.31, 109.0, 107.6, 106.9, 106.91, 109.64, 108.73, 107.86, 107.19, 106.38, 107.58, 108.97, 109.44, 110.64, 110.28, 111.07, 113.07, 114.6, 115.09, 115.9, 114.47, 114.88, 112.8, 113.61, 112.6, 111.77, 112.55, 110.93, 110.6, 114.15, 114.8, 116.07, 116.04, 116.79, 115.79, 116.83, 117.24, 117.62, 115.71, 113.97, 116.05, 115.79, 116.98, 116.84, 116.1, 115.51, 114.62, 116.07, 116.58, 116.49, 114.09, 114.26, 112.96, 114.95, 115.24, 114.37, 115.02, 115.92, 117.14, 116.73, 116.08, 116.32, 117.19, 116.63, 116.22, 113.18, 113.57, 115.04, 114.55, 114.58, 114.83, 117.24, 116.64, 119.85, 121.53, 124.36, 124.81, 123.07, 124.6, 128.86, 128.62, 129.11, 128.85], "st": {"w1": 4.7, "m1": 10.77, "ytd": 28.85, "hi": 129.11, "lo": 98.57, "dd": -14.44}, "dek": "twenty listed names, the whole trade in one line", "ft": "Drawn from exchange closes \u00b7 equal weight, base 100 = first trading day of the year \u00b7 as of 2026-08-12"}, {"k": "CC-M \u00b7 The Maisons", "v": "94.71", "d": "\u25bc -0.77%", "cls": "dn", "ser": [100.0, 100.0, 100.69, 102.38, 99.84, 101.33, 103.72, 103.72, 103.02, 102.93, 103.43, 101.11, 97.83, 97.83, 94.72, 93.04, 94.35, 95.48, 94.44, 94.44, 94.02, 94.21, 91.16, 89.78, 92.81, 92.81, 92.21, 91.97, 93.63, 93.66, 94.29, 94.29, 94.69, 98.08, 97.2, 97.46, 96.9, 96.9, 95.35, 95.97, 96.76, 95.73, 98.0, 98.0, 98.82, 99.02, 98.0, 98.56, 96.88, 96.88, 91.84, 88.11, 89.12, 88.16, 87.57, 87.57, 86.53, 88.48, 87.92, 87.14, 85.16, 85.16, 85.83, 85.21, 84.0, 80.96, 80.51, 80.51, 82.57, 82.77, 83.86, 83.28, 82.25, 82.25, 82.92, 83.3, 85.48, 85.53, 85.53, 85.53, 84.16, 90.13, 89.2, 90.04, 90.04, 89.32, 90.69, 86.39, 86.52, 89.91, 89.91, 88.0, 87.24, 85.48, 85.6, 85.18, 85.18, 85.7, 83.99, 82.82, 83.52, 83.52, 83.52, 82.11, 82.78, 87.4, 89.71, 90.11, 90.11, 86.95, 87.44, 87.13, 87.75, 86.72, 86.72, 86.94, 87.42, 89.04, 88.28, 87.72, 87.72, 88.66, 88.36, 91.5, 91.69, 92.24, 92.24, 91.11, 92.26, 89.66, 90.18, 90.0, 90.0, 90.23, 91.35, 90.92, 92.2, 95.34, 95.34, 95.8, 96.51, 95.86, 97.27, 96.17, 96.17, 93.82, 92.6, 93.95, 94.51, 94.24, 94.24, 94.23, 91.69, 91.1, 92.21, 92.19, 92.19, 91.8, 92.74, 90.58, 92.47, 92.5, 92.5, 93.34, 92.16, 95.76, 96.32, 95.07, 95.07, 94.75, 92.49, 90.92, 88.0, 88.55, 88.55, 88.61, 89.93, 90.87, 91.84, 91.65, 91.65, 93.09, 93.19, 93.24, 94.69, 94.52, 94.52, 95.76, 95.44, 94.71], "st": {"w1": 0.02, "m1": -0.38, "ytd": -5.29, "hi": 103.72, "lo": 80.51, "dd": -22.38}, "dek": "the luxury houses", "ft": "Drawn from exchange closes \u00b7 equal weight, base 100 = first trading day of the year \u00b7 as of 2026-08-12"}, {"k": "CC-C \u00b7 The Counter", "v": "110.09", "d": "\u25bc -0.58%", "cls": "dn", "ser": [100.0, 100.68, 101.18, 101.72, 101.07, 101.18, 98.51, 99.82, 99.62, 100.75, 101.71, 102.33, 102.9, 103.63, 104.15, 104.19, 105.42, 105.42, 105.23, 106.33, 107.32, 108.06, 108.23, 105.93, 106.06, 104.08, 106.35, 105.63, 105.37, 104.75, 105.96, 107.35, 107.28, 106.87, 105.96, 103.86, 103.95, 105.12, 105.27, 106.02, 105.83, 105.83, 107.77, 108.86, 105.92, 106.13, 103.23, 104.82, 103.81, 103.75, 101.44, 98.89, 100.17, 99.1, 97.76, 97.06, 96.06, 96.28, 95.0, 92.84, 92.28, 92.45, 93.91, 94.42, 91.48, 92.32, 92.4, 89.36, 90.8, 92.73, 90.61, 91.22, 90.16, 90.28, 89.52, 92.53, 93.55, 93.1, 93.56, 94.24, 96.36, 95.98, 97.05, 97.73, 96.73, 95.87, 96.71, 96.74, 96.58, 97.77, 97.99, 97.7, 96.86, 95.07, 94.73, 94.14, 94.03, 93.48, 93.97, 92.37, 93.67, 93.85, 94.03, 92.41, 92.92, 96.91, 97.99, 98.01, 96.41, 94.12, 92.72, 91.69, 94.42, 94.04, 92.96, 92.56, 92.67, 94.32, 95.03, 95.26, 95.5, 95.81, 96.15, 96.13, 97.14, 97.63, 98.41, 97.6, 97.48, 96.82, 97.36, 96.2, 94.99, 96.09, 95.95, 96.3, 100.9, 100.54, 101.65, 101.05, 100.56, 99.33, 99.91, 100.27, 99.86, 97.97, 96.4, 96.77, 97.71, 98.39, 98.32, 98.94, 99.1, 99.94, 101.64, 101.94, 102.32, 101.25, 101.74, 100.48, 102.12, 101.62, 101.7, 103.49, 104.2, 105.53, 106.52, 105.7, 106.32, 106.71, 107.1, 107.04, 104.47, 105.18, 106.34, 106.71, 107.32, 107.23, 108.35, 107.54, 108.42, 108.28, 108.68, 109.94, 109.91, 110.83, 113.49, 111.98, 110.73, 110.09], "st": {"w1": 0.16, "m1": 3.55, "ytd": 10.09, "hi": 113.49, "lo": 89.36, "dd": -17.91}, "dek": "jewelry retail, five markets", "ft": "Drawn from exchange closes \u00b7 equal weight, base 100 = first trading day of the year \u00b7 as of 2026-08-12"}, {"k": "CC-P \u00b7 The Pit", "v": "113.30", "d": "\u25bc -1.38%", "cls": "dn", "ser": [100.0, 100.0, 100.58, 102.11, 97.73, 96.76, 100.31, 100.31, 101.56, 99.9, 100.49, 116.87, 110.96, 110.96, 109.73, 105.63, 113.31, 109.12, 111.91, 111.91, 111.09, 111.12, 108.2, 109.0, 109.35, 109.35, 110.03, 112.78, 125.91, 114.54, 115.77, 115.77, 113.68, 114.32, 123.12, 123.42, 119.79, 119.79, 123.93, 120.31, 125.02, 125.37, 127.54, 127.54, 128.51, 128.6, 130.95, 131.04, 131.71, 131.71, 130.46, 128.4, 132.92, 127.6, 125.47, 125.47, 124.33, 132.01, 132.14, 130.06, 125.81, 125.81, 129.14, 128.76, 123.47, 118.21, 115.55, 115.55, 121.47, 119.78, 116.82, 112.01, 114.81, 114.81, 114.86, 112.04, 117.61, 117.44, 117.44, 119.03, 119.04, 125.0, 120.0, 126.62, 126.62, 124.09, 125.77, 124.18, 127.34, 124.22, 124.22, 124.86, 121.85, 122.75, 122.86, 121.74, 121.74, 123.58, 116.36, 117.79, 119.22, 121.47, 121.47, 123.06, 122.5, 121.53, 120.08, 122.86, 122.86, 119.61, 118.49, 119.45, 126.38, 123.86, 123.86, 123.28, 121.92, 122.52, 126.08, 128.07, 128.07, 124.89, 125.62, 123.01, 123.48, 120.3, 120.3, 118.07, 116.16, 114.85, 119.14, 116.17, 116.17, 115.18, 107.97, 106.97, 110.54, 110.04, 110.04, 109.31, 109.41, 108.2, 107.9, 111.52, 111.52, 112.23, 104.45, 106.85, 103.6, 107.8, 107.8, 103.17, 103.44, 102.62, 103.83, 106.49, 106.49, 104.35, 101.9, 100.25, 100.83, 103.1, 103.1, 101.61, 101.97, 100.62, 98.35, 100.09, 100.09, 101.88, 99.58, 102.6, 103.2, 102.03, 102.03, 102.34, 105.83, 102.35, 104.21, 102.7, 102.7, 102.39, 109.33, 110.58, 105.37, 113.31, 113.31, 115.39, 114.89, 113.3], "st": {"w1": 7.53, "m1": 13.19, "ytd": 13.3, "hi": 132.92, "lo": 96.76, "dd": -26.01}, "dek": "the miners left standing, and De Beers' parent", "ft": "Drawn from exchange closes \u00b7 equal weight, base 100 = first trading day of the year \u00b7 as of 2026-08-12"}, {"k": "CC-W \u00b7 The Movement", "v": "181.85", "d": "\u25b2 +0.37%", "cls": "up", "ser": [100.0, 100.85, 100.81, 101.89, 101.55, 102.67, 102.95, 102.95, 103.39, 104.34, 104.52, 104.53, 103.97, 103.64, 102.56, 101.33, 103.14, 103.91, 103.98, 102.69, 102.34, 102.4, 101.77, 104.47, 106.74, 107.32, 109.26, 109.7, 110.23, 109.1, 109.76, 111.4, 112.36, 113.2, 116.61, 119.75, 119.91, 118.61, 119.0, 120.24, 122.36, 122.01, 123.28, 123.28, 124.47, 128.65, 126.28, 128.94, 127.55, 128.52, 122.93, 117.57, 120.57, 118.29, 117.43, 114.47, 115.09, 117.21, 115.58, 115.65, 114.72, 114.36, 114.73, 116.73, 114.18, 114.64, 113.97, 111.29, 113.77, 115.65, 116.69, 116.45, 115.72, 113.55, 111.67, 114.81, 115.55, 117.62, 118.66, 119.24, 121.34, 124.34, 124.78, 125.76, 125.76, 127.18, 128.01, 128.36, 128.52, 131.08, 130.26, 129.78, 130.25, 126.72, 126.06, 124.95, 123.72, 123.86, 123.94, 122.34, 122.44, 122.59, 122.59, 121.57, 122.16, 128.18, 130.33, 131.38, 132.34, 133.21, 132.79, 133.72, 138.12, 138.01, 136.76, 135.67, 132.97, 134.86, 136.79, 137.22, 140.36, 139.65, 142.25, 148.79, 151.82, 154.41, 155.83, 153.97, 155.95, 152.01, 151.36, 150.19, 149.21, 150.65, 148.12, 147.71, 150.84, 152.4, 154.74, 155.88, 158.04, 157.15, 159.46, 159.62, 161.17, 158.48, 158.35, 162.46, 162.01, 162.74, 162.42, 161.66, 161.03, 158.68, 159.52, 160.27, 159.56, 154.48, 154.77, 154.15, 157.44, 157.36, 154.79, 155.91, 158.1, 160.54, 159.5, 157.67, 157.67, 158.78, 157.65, 154.5, 148.96, 149.56, 152.43, 150.52, 147.58, 149.25, 154.67, 154.47, 162.63, 166.97, 172.34, 171.98, 168.34, 168.7, 177.81, 178.29, 181.18, 181.85], "st": {"w1": 8.03, "m1": 15.33, "ytd": 81.85, "hi": 181.85, "lo": 100.0, "dd": -13.69}, "dek": "the watchmakers, Swiss and Japanese", "ft": "Drawn from exchange closes \u00b7 equal weight, base 100 = first trading day of the year \u00b7 as of 2026-08-12"}];
-document.getElementById('ptabs').innerHTML=PX.map((p,i)=>
- `<button class="ptab${i?'':' on'}" data-i="${i}">${p.k.split(' ·')[0]}</button>`).join('');
-document.getElementById('ptable').innerHTML=PX.map(p=>
- `<div class="r"><span class="k">${p.k}</span><span class="v">${p.v}</span>
-   <span class="d ${p.cls}">${p.d}</span></div>`).join('');
-const PXD=["2026-01-02", "2026-01-04", "2026-01-05", "2026-01-06", "2026-01-07", "2026-01-08", "2026-01-09", "2026-01-11", "2026-01-12", "2026-01-13", "2026-01-14", "2026-01-15", "2026-01-16", "2026-01-18", "2026-01-19", "2026-01-20", "2026-01-21", "2026-01-22", "2026-01-23", "2026-01-25", "2026-01-26", "2026-01-27", "2026-01-28", "2026-01-29", "2026-01-30", "2026-02-01", "2026-02-02", "2026-02-03", "2026-02-04", "2026-02-05", "2026-02-06", "2026-02-08", "2026-02-09", "2026-02-10", "2026-02-11", "2026-02-12", "2026-02-13", "2026-02-15", "2026-02-16", "2026-02-17", "2026-02-18", "2026-02-19", "2026-02-20", "2026-02-22", "2026-02-23", "2026-02-24", "2026-02-25", "2026-02-26", "2026-02-27", "2026-03-01", "2026-03-02", "2026-03-03", "2026-03-04", "2026-03-05", "2026-03-06", "2026-03-08", "2026-03-09", "2026-03-10", "2026-03-11", "2026-03-12", "2026-03-13", "2026-03-15", "2026-03-16", "2026-03-17", "2026-03-18", "2026-03-19", "2026-03-20", "2026-03-22", "2026-03-23", "2026-03-24", "2026-03-25", "2026-03-26", "2026-03-27", "2026-03-29", "2026-03-30", "2026-03-31", "2026-04-01", "2026-04-02", "2026-04-05", "2026-04-06", "2026-04-07", "2026-04-08", "2026-04-09", "2026-04-10", "2026-04-12", "2026-04-13", "2026-04-14", "2026-04-15", "2026-04-16", "2026-04-17", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-24", "2026-05-25", "2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29", "2026-05-31", "2026-06-01", "2026-06-02", "2026-06-03", "2026-06-04", "2026-06-05", "2026-06-07", "2026-06-08", "2026-06-09", "2026-06-10", "2026-06-11", "2026-06-12", "2026-06-14", "2026-06-15", "2026-06-16", "2026-06-17", "2026-06-18", "2026-06-19", "2026-06-21", "2026-06-22", "2026-06-23", "2026-06-24", "2026-06-25", "2026-06-26", "2026-06-28", "2026-06-29", "2026-06-30", "2026-07-01", "2026-07-02", "2026-07-03", "2026-07-05", "2026-07-06", "2026-07-07", "2026-07-08", "2026-07-09", "2026-07-10", "2026-07-12", "2026-07-13", "2026-07-14", "2026-07-15", "2026-07-16", "2026-07-17", "2026-07-19", "2026-07-20", "2026-07-21", "2026-07-22", "2026-07-23", "2026-07-24", "2026-07-26", "2026-07-27", "2026-07-28", "2026-07-29", "2026-07-30", "2026-07-31", "2026-08-02", "2026-08-03", "2026-08-04", "2026-08-05", "2026-08-06", "2026-08-07", "2026-08-09", "2026-08-10", "2026-08-11", "2026-08-12"];              // the shared trading-day calendar
-let curPX=0, curRange=0;             // 0 = the whole year
-const fmtD=iso=>{const d=new Date(iso+'T12:00:00');
-  return d.getDate()+' '+['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][d.getMonth()];};
-function cut(p){
-  /* an index row carries its real daily series; only the metals fallback
-     still draws a seeded specimen shape (and says so in the footnote) */
-  const full=p.ser||series(p.seed,64,p.trend);
-  const dts=p.ser?PXD:null;
-  if(!curRange||!p.ser) return {d:full,dt:dts};
-  const n=Math.min(curRange+1,full.length);
-  return {d:full.slice(-n), dt:dts?dts.slice(-n):null};
-}
-let LC=null;                          // last chart geometry, for the crosshair
-function drawChart(hov){
-  const cv=document.getElementById('chart'), c=cv.getContext('2d');
-  const dpr=Math.min(devicePixelRatio||1,2), r=cv.getBoundingClientRect(); if(!r.width) return;
-  cv.width=r.width*dpr; cv.height=190*dpr; c.scale(dpr,dpr);
-  const W=r.width,H=190,p=PX[curPX],col='#C6A24A';
-  const {d,dt}=cut(p);
-  c.clearRect(0,0,W,H);
-  c.strokeStyle='rgba(198,162,74,.13)'; c.lineWidth=1;
-  for(let i=0;i<=4;i++){const yy=10+i*(H-24)/4;c.beginPath();c.moveTo(0,yy);c.lineTo(W,yy);c.stroke();}
-  const lo0=Math.min.apply(null,d), hi0=Math.max.apply(null,d),
-        sp=(hi0-lo0)*0.09||1, lo=lo0-sp, hi=hi0+sp;
-  const x=i=>i/(d.length-1)*W, y=v=>H-14-((v-lo)/(hi-lo))*(H-28);
-  LC={d,dt,W,H,x,y};
-  const g=c.createLinearGradient(0,0,0,H);
-  g.addColorStop(0,'rgba(198,162,74,.30)'); g.addColorStop(1,'rgba(198,162,74,0)');
-  c.beginPath(); c.moveTo(0,H); d.forEach((v,i)=>c.lineTo(x(i),y(v))); c.lineTo(W,H); c.closePath();
-  c.fillStyle=g; c.fill();
-  c.beginPath(); d.forEach((v,i)=>i?c.lineTo(x(i),y(v)):c.moveTo(x(i),y(v)));
-  c.strokeStyle=col; c.lineWidth=1.8; c.lineJoin='round'; c.stroke();
-  const lv=d[d.length-1];
-  c.beginPath(); c.arc(W-2,y(lv),3.6,0,7); c.fillStyle=col; c.fill();
-  c.strokeStyle='rgba(198,162,74,.35)'; c.setLineDash([3,4]); c.beginPath();
-  c.moveTo(0,y(lv)); c.lineTo(W,y(lv)); c.stroke(); c.setLineDash([]);
-  if(hov!=null&&hov>=0&&hov<d.length){        // the crosshair, drawn into the frame
-    c.strokeStyle='rgba(220,234,245,.34)'; c.lineWidth=1; c.beginPath();
-    c.moveTo(x(hov),8); c.lineTo(x(hov),H-12); c.stroke();
-    c.beginPath(); c.arc(x(hov),y(d[hov]),4,0,7); c.fillStyle='#E8CB7C'; c.fill();
-    c.beginPath(); c.arc(x(hov),y(d[hov]),7,0,7); c.strokeStyle='rgba(232,203,124,.4)'; c.stroke();
-  }
-}
-function rgl(){
-  const p=PX[curPX], {d}=cut(p), el=document.getElementById('crgl');
-  if(!el) return;
-  const chg=(d[d.length-1]/d[0]-1)*100;
-  const lab=curRange?({22:'1M',66:'3M',132:'6M'})[curRange]:'YTD';
-  el.innerHTML=(chg>=0?'<span style="color:var(--ok)">':'<span style="color:var(--dn)">')
-    +(chg>=0?'+':'')+chg.toFixed(2)+'%</span> over '+lab
-    +(p.ser?' · '+d.length+' sessions':'');
-}
-function paintStats(){
-  const p=PX[curPX], el=document.getElementById('cstats');
-  if(!el) return;
-  if(!p.st){el.innerHTML='';el.style.display='none';return;}
-  el.style.display='';
-  const cell=(v,k,pc)=>'<div><div class="sv'+(pc?(v>0?' up':v<0?' dn':''):'')+'">'
-    +(pc?(v>0?'+':'')+v.toFixed(1)+'%':v.toLocaleString('en-US',{minimumFractionDigits:1,maximumFractionDigits:1}))
-    +'</div><div class="sk">'+k+'</div></div>';
-  el.innerHTML=cell(p.st.w1,'1 week',1)+cell(p.st.m1,'1 month',1)+cell(p.st.ytd,'YTD',1)
-    +cell(p.st.hi,'year high',0)+cell(p.st.lo,'year low',0)+cell(p.st.dd,'max drawdown',1);
-}
-function paintPX(){
-  const p=PX[curPX];
-  document.getElementById('cnm').textContent=p.k;
-  document.getElementById('cv').textContent=p.v;
-  const cd=document.getElementById('cd'); cd.textContent=p.d; cd.className='dl d '+p.cls;
-  /* the row carries its own full footnote: real series say so, specimens say so */
-  document.getElementById('cft').textContent=p.ft;
-  paintStats(); rgl(); drawChart();
-}
-document.getElementById('ptabs').addEventListener('click',e=>{
-  const b=e.target.closest('.ptab'); if(!b) return;
-  curPX=+b.dataset.i;
-  document.querySelectorAll('.ptab').forEach(t=>t.classList.toggle('on',t===b));
-  paintPX();
-});
-document.getElementById('crange').addEventListener('click',e=>{
-  const b=e.target.closest('button'); if(!b) return;
-  curRange=+b.dataset.r;
-  document.querySelectorAll('#crange button').forEach(t=>t.classList.toggle('on',t===b));
-  rgl(); drawChart();
-});
-/* the crosshair: date and level under the finger, on mouse or touch */
-(function(){
-  const wrap=document.querySelector('.cwrap'), tip=document.getElementById('xhair');
-  if(!wrap||!tip) return;
-  wrap.addEventListener('pointermove',e=>{
-    if(!LC||!LC.dt) return;
-    const r=wrap.getBoundingClientRect();
-    const i=Math.max(0,Math.min(LC.d.length-1,Math.round((e.clientX-r.left)/r.width*(LC.d.length-1))));
-    drawChart(i);
-    tip.style.display='block';
-    tip.style.left=Math.max(52,Math.min(r.width-52,LC.x(i)))+'px';
-    tip.style.top=Math.max(0,LC.y(LC.d[i])-38)+'px';
-    tip.innerHTML=fmtD(LC.dt[i])+'<b>'+LC.d[i].toFixed(2)+'</b>';
-  });
-  wrap.addEventListener('pointerleave',()=>{tip.style.display='none';drawChart();});
-})();
-paintStats(); rgl();
-
-/* ══ guilloche behind the promise ══ */
-function drawGuil(){
-  const cv=document.getElementById('guil'); if(!cv) return;
-  const c=cv.getContext('2d'), r=cv.getBoundingClientRect(); if(!r.width) return;
-  const dpr=Math.min(devicePixelRatio||1,1.5);
-  cv.width=r.width*dpr; cv.height=r.height*dpr; c.scale(dpr,dpr);
-  const W=r.width,H=r.height,cx=W/2,cy=H/2;
-  c.clearRect(0,0,W,H); c.strokeStyle='#C6A24A'; c.lineWidth=.55;
-  const base=Math.min(W,H)*0.46;
-  for(let k=0;k<26;k++){
-    const R=base*(0.30+k*0.030);
-    c.beginPath();
-    for(let a=0;a<=Math.PI*2+.02;a+=.02){
-      const rr=R+14*Math.sin(11*a+k*0.30);
-      const x=cx+rr*Math.cos(a)*1.9, y=cy+rr*Math.sin(a);
-      a?c.lineTo(x,y):c.moveTo(x,y);
-    }
-    c.stroke();
-  }
-}
-
-/* ══ reveals ══ */
-const io=new IntersectionObserver(es=>es.forEach(e=>{
-  if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}
-}),{threshold:0,rootMargin:'0px 0px -10% 0px'});
-document.querySelectorAll('.rv,.wipe').forEach(el=>io.observe(el));
-
-/* ══ count-ups ══ */
-const cio=new IntersectionObserver(es=>es.forEach(e=>{
-  if(!e.isIntersecting) return; const el=e.target, end=parseFloat(el.dataset.count);
-  const dec=+(el.dataset.dec||0), t0=performance.now(), D=1300;
-  (function s(now){const k=Math.min(1,(now-t0)/D),v=end*(1-Math.pow(1-k,3));
-    el.textContent=v.toLocaleString('en-US',{minimumFractionDigits:dec,maximumFractionDigits:dec});
-    if(k<1)requestAnimationFrame(s);})(t0);
-  cio.unobserve(el);
-}),{threshold:.5});
-document.querySelectorAll('[data-count]').forEach(el=>cio.observe(el));
-
-/* ══ sparklines when visible ══ */
-const sio=new IntersectionObserver(es=>es.forEach(e=>{
-  if(e.isIntersecting){drawSpark(e.target);sio.unobserve(e.target);}
-}),{threshold:.2});
-document.querySelectorAll('.spark,.ms,.spk').forEach(el=>sio.observe(el));
-const gio=new IntersectionObserver(es=>es.forEach(e=>{
-  if(e.isIntersecting){drawChart();gio.unobserve(e.target);}
-}),{threshold:.2});
-gio.observe(document.getElementById('chart'));
-const qio=new IntersectionObserver(es=>es.forEach(e=>{
-  if(e.isIntersecting){drawGuil();qio.unobserve(e.target);}
-}),{threshold:.1});
-qio.observe(document.getElementById('guil'));
-addEventListener('resize',()=>{drawChart();drawGuil();
-  document.querySelectorAll('.spark,.ms,.spk').forEach(drawSpark);});
-
-/* ══ spotlight ══ */
-document.querySelectorAll('.spot').forEach(p=>p.addEventListener('pointermove',e=>{
-  const r=p.getBoundingClientRect();
-  p.style.setProperty('--mx',((e.clientX-r.left)/r.width*100)+'%');
-  p.style.setProperty('--my',((e.clientY-r.top)/r.height*100)+'%');}));
-
-/* ══ THE LOUPE ══ */
-(function(){
-  if(RM || matchMedia('(hover:none)').matches) return;
-  const L=document.getElementById('loupe'), lb=L.querySelector('.lb');
-  let x=0,y=0,tx=0,ty=0;
-  addEventListener('pointermove',e=>{tx=e.clientX;ty=e.clientY;L.classList.add('on');});
-  addEventListener('pointerleave',()=>L.classList.remove('on'));
-  document.addEventListener('pointerover',e=>{
-    const t=e.target.closest('a,button,[data-loupe],.node,.dr');
-    if(t){L.classList.add('hot');lb.textContent=t.dataset.loupe||'';}
-    else{L.classList.remove('hot');lb.textContent='';}
-  });
-  (function f(){x+=(tx-x)*.22;y+=(ty-y)*.22;L.style.left=x+'px';L.style.top=y+'px';requestAnimationFrame(f);})();
-})();
-
-/* ══ DAWN — obsidian to paper, through ember, never through grey ══ */
-const SKY=[[0,[4,6,11]],[.42,[26,18,34]],[.68,[92,48,34]],[.86,[196,150,102]],[1,[242,237,227]]];
-const ACC=[[0,[198,162,74]],[.68,[232,182,96]],[1,[150,118,46]]];
-/* Rules and borders run their own neutral ramp, decoupled from the
-   gold accent: mid grey over the obsidian hero, dark grey once the
-   sky is bone. Grey at .30 over obsidian lands within a shade of the
-   gold it replaces, so the hairlines keep their old weight. */
-const LINE=[[0,[142,146,152]],[1,[63,63,63]]];
-const ramp=(st,k)=>{for(let i=0;i<st.length-1;i++){const[a,ca]=st[i],[b,cb]=st[i+1];
-  if(k<=b||i===st.length-2){const t=Math.max(0,Math.min(1,(k-a)/(b-a)));
-    return ca.map((v,j)=>Math.round(v+(cb[j]-v)*t));}}return st[st.length-1][1];};
-const rgb=a=>`rgb(${a[0]},${a[1]},${a[2]})`,
-      rgba=(a,l)=>`rgba(${a[0]},${a[1]},${a[2]},${l})`;
-/* WCAG relative luminance, so the ink can be chosen by measurement rather
-   than by a curve that happened to look right */
-const lum=c=>{const s=c.map(v=>{v/=255;return v<=.03928?v/12.92:Math.pow((v+.055)/1.055,2.4);});
-  return .2126*s[0]+.7152*s[1]+.0722*s[2];};
-const cratio=(a,b)=>{const x=lum(a),y=lum(b);
-  return (Math.max(x,y)+.05)/(Math.min(x,y)+.05);};
-const NF=[220,234,245], DF=[22,19,14], root=document.documentElement,
-      gemwrap=document.getElementById('gemwrap');
-let _pk=-1,_pg=-1;
-function paint(){
-  const h=document.documentElement, sc=h.scrollTop, vh=innerHeight;
-  /* The sky turns on the first pixel of scroll and is fully bone by
-     seven tenths of a screen — before the bench takes the view. The
-     hero itself stays obsidian, because at rest sc is 0. */
-  const k=Math.max(0,Math.min(1,sc/(vh*0.70)));
-  /* ease out, not smoothstep: smoothstep is almost flat for the first
-     tenth, so the sky sat dark through the opening scroll and the change
-     read as late. This moves on the first pixel. */
-  const ks=k*(2.0-k);
-  /* The dawn only repaints while it is dawning. Rewriting eight root
-     custom properties restyles the whole document; past seven tenths of
-     a screen the ramp is finished and every one of those writes was a
-     no-op with the cost of a full style pass. Key the palette on the
-     eased fraction, quantised past float noise, and skip when still. */
-  const _k=Math.round(ks*1e4);
-  if(_k!==_pk){_pk=_k;
-  const bg=ramp(SKY,ks), acc=ramp(ACC,ks);
-  /* The ink never blends through grey. It is whichever of the two house
-     inks reads better on the sky behind it, chosen outright — blending
-     between them walks the text straight through the background's own
-     luminance, and there the page goes legibly blank.
-     There is one sky luminance (0.179) where light and dark ink are
-     equally hard to read; the house inks top out at 3.9:1 against it.
-     So as the sky approaches that value the ink is driven to its pure
-     extreme, where the worst case is 4.58:1 and the page still passes.
-     Everywhere else it relaxes back to the house colours. */
-  const L=lum(bg), dark=L>.179, base=dark?DF:NF;
-  const d=Math.abs(L-.179), risk=d<=.05?1:Math.max(0,1-(d-.05)/.18);
-  const pure=dark?0:255;
-  const fg=base.map(v=>Math.round(v+(pure-v)*risk));
-  const a2=.78+.22*risk, a3=.72+.28*risk;
-  root.style.setProperty('--bg',rgb(bg));
-  root.style.setProperty('--fg',rgb(fg));
-  root.style.setProperty('--fg2',rgba(fg,a2.toFixed(3)));
-  root.style.setProperty('--fg3',rgba(fg,a3.toFixed(3)));
-  root.style.setProperty('--acc',rgb(acc));
-  const ln=ramp(LINE,ks);
-  root.style.setProperty('--line',rgba(ln,.30));
-  root.style.setProperty('--line-hi',rgba(ln,.62));
-  root.style.setProperty('--plate',dark?'rgba(22,19,14,.035)':'rgba(255,255,255,.03)');
-  document.getElementById('vig').style.opacity=(1-ks*.9).toFixed(3);
-  }
-  if(gemwrap){const g=Math.max(0,Math.min(1,(sc-vh*.16)/(vh*.9)));
-    const _g=Math.round(g*1e4);
-    if(_g!==_pg){_pg=_g;
-    gemwrap.style.opacity=(1-g).toFixed(3);
-    if(g>.001){gemwrap.style.animation='none';
-      gemwrap.style.transform=`translateY(${g*13}vh) scale(${1-g*.3})`;}}}
-  document.getElementById('prog').style.width=(sc/(h.scrollHeight-h.clientHeight)*100)+'%';
-  document.getElementById('top').classList.toggle('on',sc>vh*.7);
-}
-/* ── the Morning Brief sign-up ──
-   The list is kept by hand off the desk mailbox: there is no subscribe
-   endpoint to post to. So the button composes the message the reader
-   would have had to write, rather than accepting an address and
-   silently dropping it. */
-(function(){
-  const f=document.getElementById('briefform'); if(!f) return;
-  const em=document.getElementById('briefmail'), say=document.getElementById('briefsay');
-  if(!em||!say) return;
-  const REST=say.textContent;
-  let t=null;
-  f.addEventListener('submit',e=>{
-    e.preventDefault();
-    const v=(em.value||'').trim();
-    if(!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v)){
-      say.textContent='That address does not look right. Check it and send again.';
-      em.focus(); return;
-    }
-    location.href='mailto:connect@roomysjewelery.store'
-      +'?subject='+encodeURIComponent('Morning Brief — sign me up')
-      +'&body='+encodeURIComponent('Please add '+v+' to the Morning Brief.');
-    say.textContent='Opening your mail app. Send that message and the desk adds you.';
-    clearTimeout(t); t=setTimeout(()=>{say.textContent=REST;},9000);
-  });
-})();
-
-/* ── the menu: the six desks and the paper ── */
-(function(){
-  const om=document.getElementById('omenu'), btn=document.getElementById('mbtn');
-  if(!om||!btn) return;
-  const cl=document.getElementById('omxClose'), sc=document.getElementById('omxScrim');
-  let restore=null;
-  const tabbable=()=>[...om.querySelectorAll('a[href],button')]
-    .filter(e=>e.tabIndex>=0 && e.getBoundingClientRect().width>0);
-  function open(){
-    /* close() hands focus back to whatever opened the menu; if that was not a
-       real control (a programmatic click, say) fall back to the button itself,
-       so focus is never dropped on the body */
-    const a=document.activeElement;
-    restore=(a && a!==document.body && a.focus) ? a : btn;
-    om.classList.add('open'); om.setAttribute('aria-hidden','false');
-    document.body.classList.add('menu-open');
-    btn.setAttribute('aria-expanded','true');
-    const f=tabbable(); if(f.length) f[0].focus();
-  }
-  function close(){
-    om.classList.remove('open'); om.setAttribute('aria-hidden','true');
-    document.body.classList.remove('menu-open');
-    btn.setAttribute('aria-expanded','false');
-    if(restore && restore.focus) restore.focus();
-  }
-  btn.addEventListener('click',open);
-  if(cl) cl.addEventListener('click',close);
-  if(sc) sc.addEventListener('click',close);
-  /* a link inside the menu closes it — same-page anchors would otherwise
-     leave the panel sitting over the section you just asked for */
-  om.querySelectorAll('a[href]').forEach(a=>a.addEventListener('click',close));
-  addEventListener('keydown',e=>{
-    if(!om.classList.contains('open')) return;
-    if(e.key==='Escape'){ e.preventDefault(); close(); return; }
-    if(e.key!=='Tab') return;
-    const f=tabbable(); if(!f.length) return;
-    const first=f[0], last=f[f.length-1];
-    if(e.shiftKey && document.activeElement===first){ e.preventDefault(); last.focus(); }
-    else if(!e.shiftKey && document.activeElement===last){ e.preventDefault(); first.focus(); }
-  });
-})();
-
-/* ── the edition rail follows the chapter you are in ── */
-const railLinks=[...document.querySelectorAll('#rail a')];
-const chapters=railLinks.map(a=>document.querySelector(a.getAttribute('href'))).filter(Boolean);
-const railIO=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;
-  railLinks.forEach(a=>a.classList.toggle('on',a.getAttribute('href')==='#'+e.target.id));}),
-  {rootMargin:'-42% 0px -52% 0px'});
-chapters.forEach(c=>railIO.observe(c));
-
-/* ── plates drift as you pass them: continuous motion, not a one-shot ── */
-const prx=[...document.querySelectorAll('.prx')];
-function parallax(){
-  if(RM) return;
-  const vh=innerHeight;
-  prx.forEach(im=>{const r=im.parentElement.getBoundingClientRect();
-    if(r.bottom<-100||r.top>vh+100) return;
-    const k=(r.top+r.height/2-vh/2)/vh;          // -1 .. 1 across the viewport
-    im.style.transform=`scale(1.12) translateY(${(-k*22).toFixed(2)}px)`;});
-}
-/* One frame, one paint: every scroll event used to queue its own
-   requestAnimationFrame for each handler, so a fast flick ran the pair
-   two to four times inside a single frame. Coalesce; original order. */
-let _sq=false;
-addEventListener('scroll',()=>{if(_sq)return;_sq=true;
-  requestAnimationFrame(()=>{_sq=false;parallax();paint();});},{passive:true});
-parallax();
-addEventListener('resize',paint); paint();
-
-/* ══════ THE STONE — ray-traced brilliant ══════ */
-(function(){
-  const cv=document.getElementById('gem'); if(!cv) return;
-  const gl=cv.getContext('webgl',{alpha:true,antialias:false,premultipliedAlpha:false});
-  if(!gl){cv.style.display='none';return;}
-  const VS=`attribute vec2 p;void main(){gl_Position=vec4(p,0.,1.);}`;
-  /* ── the stone itself ──────────────────────────────────────────────
-     A standard round brilliant, built from its own proportions rather
-     than sketched: 58 facets — table, 8 kites, 8 stars, 16 upper girdle
-     halves, 16 lower girdle halves, 8 pavilion mains and a culet — on a
-     sixteen-sided girdle. 74 planes in all.
-     Crown 34.5°, pavilion 40.75°, table 53%: Tolkowsky's numbers.
-     The star facets are not given an angle. They are derived from the
-     table edge and the ridge where two kites meet, which is what fixes
-     them in a real cut; guessing the angle is what collapses the table.
-     Because the solid is convex, a ray meets it exactly — max of the
-     entering planes, min of the leaving ones. No marching, no surface
-     normal estimated from samples: every facet edge is analytically
-     sharp, and it costs less than the eight-sided approximation did. */
-  const NPL=74;
-  const GEM=(function(){
-    const R=Math.PI/180, P=[], S=0.86;          // S: fit to the old silhouette
-    /* Tolkowsky's pavilion, exactly. It was run at 44.5° for a while to
-       fake depth against the hero's downlook, but a deep pavilion leaks
-       the face-on view: rays entering the table exit the floor instead
-       of double-bouncing back up, and the table reads as a glass window.
-       At 40.75° the mains retro-reflect and the arrows draw themselves. */
-    const TAB=0.53, CA=34.5*R, PA=40.75*R, UG=42.5*R, LG=42.45*R;
-    const STAR=0.55, GIR=0.020;
-    const CH=(1-TAB)*Math.tan(CA), PD=Math.tan(PA);
-    const add=(x,y,z,h)=>{const L=Math.hypot(x,y,z);P.push(x/L,y/L,z/L,h*S/L);};
-    const up=(t,a,y0)=>{const e=Math.PI/2-t,c=Math.cos(e),s=Math.sin(e);
-      add(c*Math.cos(a), s,c*Math.sin(a), c+s*y0);};
-    const dn=(t,a,y0)=>{const e=Math.PI/2-t,c=Math.cos(e),s=Math.sin(e);
-      add(c*Math.cos(a),-s,c*Math.sin(a), c+s*y0);};
-    add(0,1,0,GIR+CH);                                    // table
-    /* the culet is a pinprick, not a floor: at 98.8% of depth it left a
-       flat facet that faced straight down, lit by nothing, and read as
-       a black notch where the point should be */
-    add(0,-1,0,(GIR+PD)*0.9985);                          // culet
-    for(let i=0;i<16;i++){const a=2*Math.PI*i/16;         // girdle
-      add(Math.cos(a),0,Math.sin(a),1);}
-    for(let i=0;i<8;i++){const a=2*Math.PI*i/8;           // kites + pavilion mains
-      up(CA,a,GIR); dn(PA,a,GIR);}
-    for(let i=0;i<16;i++){const a=2*Math.PI*(i+0.5)/16;   // girdle halves
-      up(UG,a,GIR); dn(LG,a,GIR);}
-    const C=Math.cos(Math.PI/8), eC=Math.PI/2-CA;
-    const hC=Math.cos(eC)+Math.sin(eC)*GIR, ys=GIR+CH*(1-STAR);
-    const rs=(hC-Math.sin(eC)*ys)/(Math.cos(eC)*C);       // the kite ridge
-    const Ar=TAB*C, Ay=GIR+CH, dr=rs-Ar, dy=ys-Ay, L=Math.hypot(dr,dy);
-    let nr=-dy/L, ny=dr/L; if(ny<0){nr=-nr;ny=-ny;}
-    const hS=nr*Ar+ny*Ay;
-    for(let i=0;i<8;i++){const a=2*Math.PI*(i+0.5)/8;     // stars
-      add(nr*Math.cos(a),ny,nr*Math.sin(a),hS);}
-    /* centre the solid on the origin: the pavilion runs three times as
-       deep as the crown, so a camera aimed at the girdle pushed the tip
-       to the bottom edge of the canvas and it clipped */
-    const yc=S*((GIR+PD)*0.9985-(GIR+CH))/2;
-    for(let i=0;i<P.length;i+=4) P[i+3]+=P[i+1]*yc;
-    return new Float32Array(P);
-  })();
-
-  const FS=`precision highp float;uniform vec2 uRes;uniform float uT,uSpin,uTilt;
-uniform vec4 uPl[${NPL}];
-bool enter(vec3 ro,vec3 rd,out float tE,out vec3 nE){
- float ti=-1e20,to=1e20;vec3 ni=vec3(0.,1.,0.);
- for(int i=0;i<${NPL};i++){vec3 n=uPl[i].xyz;float dn=dot(rd,n),d0=uPl[i].w-dot(ro,n);
-  if(abs(dn)<1e-7){if(d0<0.)return false;continue;}
-  float t=d0/dn;
-  if(dn<0.){if(t>ti){ti=t;ni=n;}}else{if(t<to)to=t;}}
- if(ti>to||to<0.)return false;tE=ti;nE=ni;return true;}
-void leave(vec3 ro,vec3 rd,out float tX,out vec3 nX){
- float to=1e20;vec3 no=vec3(0.,-1.,0.);
- for(int i=0;i<${NPL};i++){vec3 n=uPl[i].xyz;float dn=dot(rd,n);
-  if(dn<=1e-7)continue;float t=(uPl[i].w-dot(ro,n))/dn;
-  if(t>2e-5&&t<to){to=t;no=n;}}
- tX=to;nX=no;}
-vec3 env(vec3 d){float up=clamp(d.y*.5+.5,0.,1.);vec3 s=mix(vec3(.020,.030,.048),vec3(.10,.17,.26),up);
- /* hearts and arrows. Face-up, every visible path ends in this dim base
-    band, and each facet family collapses to one sample of it — so the
-    band IS the face-up image. Sculpt it like the reference photo: a white
-    field, and dark arms only where the pavilion-main family lands
-    (azimuth selects the family; the elevation slices deepen shaft and
-    arrowhead). Azimuth edges sit in empty direction-space so they never
-    fringe; elevation edges stay gentle for the same reason.
-    The white dome belongs to the H&A viewer, and it exists ONLY as the
-    table comes round to face you. A profile is shot dark-field — black
-    room, pinpoint lamps; leaving the dome lit from the side is exactly
-    what made the stone read milky. So the dome fades on the same curve
-    that collimates the channels, and the profile keeps its studio. */
- float az=atan(d.z,d.x), lo=1.-smoothstep(.30,.60,d.y);
- float dome=smoothstep(.55,1.,abs(sin(uTilt)));
- float fam=smoothstep(.40,.70,cos(8.*az));
- float shaft=smoothstep(-.17,-.04,d.y)*(1.-smoothstep(.0,.13,d.y));
- float head=1.-smoothstep(-.24,-.12,d.y);
- float dk=fam*(.45+.55*max(shaft,head));
- vec3 haw=mix(vec3(1.01,1.,.97)*1.60, vec3(.03,.032,.038), dk);
- s=mix(s,haw,lo*.985*dome);
- vec3 kd=normalize(vec3(.55,.72,-.42));float k=max(dot(d,kd),0.);
- s+=vec3(1.,.82,.46)*pow(k,30.)*26.;s+=vec3(.70,.55,.28)*pow(k,4.)*1.30;
- vec3 cd=normalize(vec3(-.75,.16,.60));float c=max(dot(d,cd),0.);
- s+=vec3(.10,.72,.95)*pow(c,13.)*5.;s+=vec3(.05,.30,.45)*pow(c,3.)*.55;
- vec3 bd=normalize(vec3(-.10,-.90,.30));s+=vec3(.36,.40,.50)*pow(max(dot(d,bd),0.),6.)*.85;
- vec3 sd=normalize(vec3(-.45,.62,-.65));s+=vec3(1.,.90,.62)*pow(max(dot(d,sd),0.),60.)*10.;
- vec3 vd=normalize(vec3(.42,-.46,.74));s+=vec3(1.,.22,.09)*pow(max(dot(d,vd),0.),80.)*7.;
- return s;}
-/* the viewer's own shadow: light that would reach the eye along a
-   retro-reflected path is light the viewer's head has already blocked.
-   The dark arrows in every hearts-and-arrows photograph ARE the camera;
-   without this no cut, however true, will draw them. */
-float obsc(vec3 d,vec3 v){return 1.-.86*smoothstep(.984,.9975,dot(d,-v));}
-vec3 trace(vec3 ro,vec3 rd,float ior){
- float t;vec3 n;if(!enter(ro,rd,t,n))return vec3(-1.);
- vec3 pos=ro+rd*t;float f0=pow((1.-ior)/(1.+ior),2.);
- vec3 R=reflect(rd,n);
- float fr=f0+(1.-f0)*pow(1.-max(dot(-rd,n),0.),5.);vec3 refl=env(R)*fr*obsc(R,rd);
- vec3 rr=refract(rd,n,1./ior);vec3 p=pos;vec3 th=vec3(0.);float at=1.;
- /* seven bounces: a brilliant is cut so light caught by the pavilion
-    bounces twice before it leaves through the crown, and the long paths
-    are where the fire comes from */
- for(int b=0;b<7;b++){float tx;vec3 nx;leave(p,rr,tx,nx);p+=rr*tx;
-  vec3 ex=refract(rr,nx,ior);
-  if(dot(ex,ex)<1e-7){rr=reflect(rr,nx);at*=.988;continue;}
-  th=env(ex)*at*obsc(ex,rd);break;}
- return refl+th*(1.-fr);}
-void main(){vec2 uv=(gl_FragCoord.xy-0.5*uRes)/uRes.y;
- /* a long lens, aimed at the stone. The camera rides 0.20 high for the
-    three-quarter flavour; the unaimed axis used to draw the stone a
-    tenth low, so face-on the girdle clipped the frame's bottom. And the
-    lens is long because arrows demand it: hearts-and-arrows viewers are
-    near-collimated, and a wide lens breaks the retro-reflection off-axis */
- vec3 ro=vec3(0.,0.20,6.0);vec3 rd=normalize(vec3(uv.x,uv.y-0.0983,-2.95));
- float a=uSpin;float ca=cos(a),sa=sin(a);mat3 ry=mat3(ca,0.,-sa,0.,1.,0.,sa,0.,ca);
- float ti=uTilt+sin(uT*0.23)*0.05;float ct=cos(ti),st=sin(ti);
- mat3 rx=mat3(1.,0.,0.,0.,ct,-st,0.,st,ct);mat3 M=ry*rx;
- mat3 Mi=mat3(M[0][0],M[1][0],M[2][0],M[0][1],M[1][1],M[2][1],M[0][2],M[1][2],M[2][2]);
- ro=Mi*ro;rd=Mi*rd;
- /* face-up the stone is read through a hearts-and-arrows viewer, and a
-    viewer is monochrome optics: the channels converge so the arrows draw
-    ink-on-white instead of smearing into rainbow. Fire returns with tilt. */
- float fu=smoothstep(.55,1.05,abs(sin(uTilt)));
- vec3 col;col.r=trace(ro,rd,mix(2.407,2.426,fu)).r;col.g=trace(ro,rd,2.426).g;col.b=trace(ro,rd,mix(2.451,2.426,fu)).b;
- if(col.r<0.&&col.g<0.&&col.b<0.){gl_FragColor=vec4(0.);return;}
- col=max(col,vec3(0.));col*=1.28;col=col/(col+vec3(0.58));col=pow(col,vec3(0.4545));
- float al=clamp(max(col.r,max(col.g,col.b))*3.2,0.,1.);
- gl_FragColor=vec4(col,al);}`;
-  function sh(t,s){const o=gl.createShader(t);gl.shaderSource(o,s);gl.compileShader(o);
-    if(!gl.getShaderParameter(o,gl.COMPILE_STATUS))console.error(gl.getShaderInfoLog(o));return o;}
-  const pr=gl.createProgram();gl.attachShader(pr,sh(gl.VERTEX_SHADER,VS));
-  gl.attachShader(pr,sh(gl.FRAGMENT_SHADER,FS));gl.linkProgram(pr);gl.useProgram(pr);
-  const b=gl.createBuffer();gl.bindBuffer(gl.ARRAY_BUFFER,b);
-  gl.bufferData(gl.ARRAY_BUFFER,new Float32Array([-1,-1,3,-1,-1,3]),gl.STATIC_DRAW);
-  const lo=gl.getAttribLocation(pr,'p');gl.enableVertexAttribArray(lo);
-  gl.vertexAttribPointer(lo,2,gl.FLOAT,false,0,0);
-  const uRes=gl.getUniformLocation(pr,'uRes'),uT=gl.getUniformLocation(pr,'uT'),
-        uSpin=gl.getUniformLocation(pr,'uSpin'),
-        uTilt=gl.getUniformLocation(pr,'uTilt');
-  gl.uniform4fv(gl.getUniformLocation(pr,'uPl[0]'),GEM);   // the cut, uploaded once
-  // render well above display size and let the browser downsample:
-  // that is what removes the stair-stepping on the facet edges.
-  /* An exact intersection costs a fraction of the old march, so the
-     budget goes into resolution instead: render far above display size
-     and let the browser downsample. That is what makes 58 facet edges
-     read as edges rather than as stairs. */
-  const SS=3.2, MAX=4096;              // supersample factor, hard ceiling
-  let quality=1;                       // lowered only by the frame-time probe
-  function sizeAt(q){
-    /* offsetWidth, not the client rect: the stone is scaled by a transform
-       as it leaves the hero, and measuring the transformed box would shrink
-       the backing store permanently on the way past */
-    const bw=cv.offsetWidth, bh=cv.offsetHeight; if(!bw) return;
-    const dpr=Math.min(devicePixelRatio||1,2);
-    let w=Math.round(bw*dpr*SS*q), h=Math.round(bh*dpr*SS*q);
-    const k=Math.min(1,(MAX*q)/Math.max(w,h));
-    w=Math.max(1,Math.round(w*k)); h=Math.max(1,Math.round(h*k));
-    if(cv.width===w && cv.height===h) return;
-    cv.width=w; cv.height=h; gl.viewport(0,0,w,h);
-  }
-  /* every resize path goes through the measured quality, so rotating the
-     phone or opening the keyboard cannot silently restore full resolution */
-  const size=()=>sizeAt(quality);
-  addEventListener('resize',size);size();
-  new ResizeObserver(size).observe(cv);
-  let vis=true;
-  new IntersectionObserver(e=>{vis=e[0].isIntersecting;},{threshold:0}).observe(cv);
-  const t0=performance.now();let spin=RM?.6:0,last=t0;
-  /* drag-to-inspect: the stone follows the finger while held, and on
-     release the fling bleeds back into the idle .32 rad/s house spin */
-  const BASE=.32, K=.016, TILT0=-.18, TAU=Math.PI*2;
-  let drag=false, vel=RM?0:BASE, px=0, py=0, pt=0, mv=0, tilt=TILT0, ttgt=TILT0;
-  cv.addEventListener('pointerdown',e=>{drag=true;mv=0;px=e.clientX;py=e.clientY;pt=e.timeStamp;
-    cv.classList.add('dragging');cv.setPointerCapture(e.pointerId);e.preventDefault();});
-  cv.addEventListener('pointermove',e=>{if(!drag)return;
-    const dx=e.clientX-px,dy=e.clientY-py,ms=Math.max(e.timeStamp-pt,1);
-    px=e.clientX;py=e.clientY;pt=e.timeStamp;
-    spin+=dx*K; tilt+=dy*K; mv=dx*K*1000/ms;});
-  const drop=()=>{if(!drag)return;drag=false;cv.classList.remove('dragging');
-    vel=Math.max(-6,Math.min(6,mv));
-    /* come home the short way round: settle to the nearest full turn of
-       the resting tilt so a flipped stone rights itself without rewinding */
-    ttgt=TILT0+TAU*Math.round((tilt-TILT0)/TAU);};
-  cv.addEventListener('pointerup',drop);cv.addEventListener('pointercancel',drop);
-  // auto-degrade: if the machine cannot hold a smooth frame, drop the
-  // supersample rather than let the stone crawl. Quality is negotiable, motion is not.
-  const RUNGS=[1,0.85,0.70,0.55];       // a ladder, floored where it still reads sharp
-  let rung=0, probe=0, acc=0, warm=0;
-  function frame(now){requestAnimationFrame(frame);
-    if(!vis){last=now;return;}
-    const dt=Math.min((now-last)/1000,.05);last=now;const t=(now-t0)/1000;
-    if(!drag){vel+=((RM?0:BASE)-vel)*Math.min(1,dt*2.2);spin+=dt*vel;
-      tilt+=(ttgt-tilt)*Math.min(1,dt*2.5);}
-    gl.uniform2f(uRes,cv.width,cv.height);gl.uniform1f(uT,RM?0:t);gl.uniform1f(uSpin,spin);
-    gl.uniform1f(uTilt,tilt);
-    gl.drawArrays(gl.TRIANGLES,0,3);
-    if(RM) return;
-    /* Measure, step, measure again — in both directions. One rung down was
-       not enough for a slow phone; and judging on the first frames punished
-       every machine for the jank of its own page load, which is why this
-       waits for the stone to settle and can climb back up. */
-    if(warm<45){ warm++; return; }
-    probe++; acc+=dt*1000;
-    if(probe<45) return;
-    const avg=acc/45; probe=0; acc=0;
-    if(avg>26 && rung<RUNGS.length-1){        // slower than ~38fps: give up pixels
-      rung++; quality=RUNGS[rung]; sizeAt(quality);
-    } else if(avg<13.5 && rung>0){            // comfortably fast: take them back
-      rung--; quality=RUNGS[rung]; sizeAt(quality);
+/* ---------- particle cinema ---------- */
+const engine = initCinema(document.getElementById('stage'));
+const smooth=t=>t*t*(3-2*t);
+const scenes=[...document.querySelectorAll('.scene[data-phase]')]
+  .map(el=>({el, p:parseFloat(el.dataset.phase)}));
+function phaseAt(){
+  const mid = scrollY + innerHeight/2;
+  const arr = scenes.map(s=>({p:s.p, c:s.el.offsetTop + s.el.offsetHeight/2}));
+  if(mid <= arr[0].c) return arr[0].p;
+  const last = arr[arr.length-1]; if(mid >= last.c) return last.p;
+  for(let i=0;i<arr.length-1;i++){
+    if(mid>=arr[i].c && mid<=arr[i+1].c){
+      const t=(mid-arr[i].c)/((arr[i+1].c-arr[i].c)||1);
+      return arr[i].p + (arr[i+1].p-arr[i].p)*smooth(t);
     }
   }
-  requestAnimationFrame(frame);
+  return last.p;
+}
+let ticking=false;
+function onScroll(){
+  if(ticking) return; ticking=true;
+  requestAnimationFrame(()=>{
+    const max=document.documentElement.scrollHeight-innerHeight;
+    engine.setProgress(phaseAt());
+    document.getElementById('prog').style.width=((max>0?scrollY/max:0)*100)+'%';
+    document.getElementById('bar').classList.toggle('solid', scrollY>40);
+    const cr=document.getElementById('counter').getBoundingClientRect();
+    const over = cr.top < innerHeight*0.55 && cr.bottom > innerHeight*0.35;
+    document.getElementById('tape').classList.toggle('hide', over);
+    document.getElementById('bar').classList.toggle('light', cr.top < 66 && cr.bottom > 66);
+    ticking=false;
+  });
+}
+addEventListener('scroll',onScroll,{passive:true}); onScroll();
+
+addEventListener('pointermove',e=>{
+  engine.setPointer((e.clientX/innerWidth-0.5)*2, (e.clientY/innerHeight-0.5)*2);
+},{passive:true});
+addEventListener('resize',()=>engine.resize());
+
+/* ---------- reveals + stat count-up ---------- */
+const io=new IntersectionObserver((es)=>{
+  es.forEach(en=>{ if(en.isIntersecting){ en.target.classList.add('in');
+    if(en.target.id==='stats') countUp(); io.unobserve(en.target);} });
+},{threshold:.18, rootMargin:'0px 0px -8% 0px'});
+document.querySelectorAll('.rv:not(.in)').forEach(el=>io.observe(el));
+document.querySelectorAll('#stats').forEach(el=>io.observe(el));
+
+function countUp(){
+  document.querySelectorAll('#stats .v').forEach(el=>{
+    const raw=el.dataset.v, m=raw.replace(/,/g,''), num=parseFloat(m);
+    if(isNaN(num)){return;}
+    const dec=(raw.split('.')[1]||'').length;
+    const t0=performance.now(), dur=1100;
+    const fmt=n=>n.toLocaleString('en-US',{minimumFractionDigits:dec,maximumFractionDigits:dec});
+    function step(now){const p=Math.min(1,(now-t0)/dur);const e=1-Math.pow(1-p,3);
+      el.textContent=fmt(num*e); if(p<1)requestAnimationFrame(step); else el.textContent=raw;}
+    requestAnimationFrame(step);
+  });
+}
+
+/* ---------- CC20 sparkline ---------- */
+(function(){
+  const cv=document.getElementById('spark'); if(!cv)return;
+  const ctx=cv.getContext('2d'), W=cv.width, H=cv.height;
+  // deterministic gentle series ending near 128.85, base 100
+  const n=132, pts=[]; let v=118;
+  for(let i=0;i<n;i++){ const s=Math.sin(i*0.21)*3.4+Math.sin(i*0.06)*6; v=118+s+ (i/n)*14 - (i>100?(i-100)*0.5:0); pts.push(v); }
+  pts[n-1]=128.85;
+  const lo=Math.min(...pts)-3, hi=Math.max(...pts)+3;
+  const X=i=>i/(n-1)*W, Y=val=>H-8-((val-lo)/(hi-lo))*(H-24);
+  ctx.clearRect(0,0,W,H);
+  // area
+  const grad=ctx.createLinearGradient(0,0,0,H);
+  grad.addColorStop(0,'rgba(198,162,74,.28)'); grad.addColorStop(1,'rgba(198,162,74,0)');
+  ctx.beginPath(); ctx.moveTo(0,H);
+  pts.forEach((p,i)=>ctx.lineTo(X(i),Y(p))); ctx.lineTo(W,H); ctx.closePath(); ctx.fillStyle=grad; ctx.fill();
+  // line
+  ctx.beginPath(); pts.forEach((p,i)=>i?ctx.lineTo(X(i),Y(p)):ctx.moveTo(X(i),Y(p)));
+  ctx.strokeStyle='#E8CB7C'; ctx.lineWidth=2; ctx.lineJoin='round'; ctx.shadowColor='rgba(232,203,124,.6)'; ctx.shadowBlur=10; ctx.stroke();
+  ctx.shadowBlur=0;
+  // end dot
+  ctx.beginPath(); ctx.arc(X(n-1),Y(pts[n-1]),3.4,0,7); ctx.fillStyle='#fff'; ctx.fill();
 })();
+
+/* ---------- menu drawer ---------- */
+const drawer=document.getElementById('drawer');
+const openM=()=>{drawer.classList.add('open');drawer.setAttribute('aria-hidden','false');document.body.classList.add('menu-open');};
+const closeM=()=>{drawer.classList.remove('open');drawer.setAttribute('aria-hidden','true');document.body.classList.remove('menu-open');};
+document.getElementById('menubtn').addEventListener('click',openM);
+document.getElementById('dclose').addEventListener('click',closeM);
+drawer.querySelectorAll('.dnav a').forEach(a=>a.addEventListener('click',closeM));
+addEventListener('keydown',e=>{if(e.key==='Escape')closeM();});
+
+/* ---------- brief form ---------- */
+document.getElementById('bform').addEventListener('submit',e=>{
+  e.preventDefault();
+  const mail=document.getElementById('bmail'), t=document.getElementById('btrust');
+  if(!mail.value || !/.+@.+\..+/.test(mail.value)){ t.textContent='A working email, please — that’s all we ask.'; t.className='trust rv in'; return; }
+  t.textContent='On the list. Your first brief lands tomorrow, 06:00 ET.'; t.className='trust ok rv in';
+  mail.value='';
+});
 </script>
-</body></html>
+</body>
+</html>
