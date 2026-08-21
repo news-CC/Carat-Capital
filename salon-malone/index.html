@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>Salon Malone — Win back the clients who stopped coming.</title>
 <meta name="description" content="Salon Malone calls your lapsed salon or med spa clients as your virtual concierge, books them back into empty chairs, emails you the instant a booking lands, and sends a Friday report with estimated recovered revenue from the visits it booked. Consent-gated, opt-out instant. Voice and email only.">
-<meta name="theme-color" content="#0b0e13">
+<meta name="theme-color" content="#0B0E15">
 <meta property="og:title" content="Salon Malone — Win back the clients who stopped coming.">
 <meta property="og:description" content="A virtual concierge that phones the clients who quietly stopped booking, offers them a specific time, and emails you the moment one says yes. Consent-gated, one attempt ever, instant opt-out.">
 <meta property="og:type" content="website">
@@ -13,411 +13,482 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
+/* ═══════════════ tokens ═══════════════ */
 :root{
-  --ink:#0b0e13; --ink2:#10141b;
-  --w:#ffffff; --w92:rgba(255,255,255,.92); --w75:rgba(255,255,255,.75);
-  --w55:rgba(255,255,255,.55); --w38:rgba(255,255,255,.38);
-  --hair:rgba(255,255,255,.16); --hair2:rgba(255,255,255,.09);
-  --sand:#e9c79b; --sand-d:#c9a271; --rose:#d9a0b4;
-  --cream:#f4f2ee; --card-ink:#14161a; --card-soft:#4a4d54;
-  --ok:#7fd6a8;
+  --cream:#F5F3EF; --cream2:#EDEAE2; --card:#FFFFFF;
+  --ink:#12141A; --ink2:#43474F; --ink3:rgba(18,20,26,.52); --ink4:rgba(18,20,26,.34);
+  --hair-i:rgba(18,20,26,.14); --hair-i2:rgba(18,20,26,.08);
+  --panel:#0B0E15; --panel2:#0E1119;
+  --w:#FFFFFF; --w92:rgba(255,255,255,.92); --w70:rgba(255,255,255,.70);
+  --w50:rgba(255,255,255,.50); --w34:rgba(255,255,255,.34);
+  --hair-w:rgba(255,255,255,.15); --hair-w2:rgba(255,255,255,.08);
+  --sand:#E9C79B; --sand-deep:#B08749; --rose:#D9A0B4; --rose-deep:#B3728B;
+  --ok:#4EC98F; --ok-deep:#2E8F63;
   --caps:'Archivo',ui-sans-serif,system-ui,sans-serif;
   --serif:'Instrument Serif',Georgia,serif;
   --mono:'IBM Plex Mono',ui-monospace,Menlo,monospace;
-  --ease:cubic-bezier(.22,1,.36,1);
-  --wrap:1180px;
+  --ez:cubic-bezier(.22,1,.36,1);
+  --wrap:1160px; --inset:clamp(10px,1.4vw,16px); --r:26px;
 }
 *{box-sizing:border-box;margin:0;padding:0}
 html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
-body{background:var(--ink);color:var(--w92);font-family:var(--caps);
-  font-size:16px;line-height:1.62;-webkit-font-smoothing:antialiased;overflow-x:hidden}
-body.locked{overflow:hidden}
+body{background:var(--cream);color:var(--ink);font-family:var(--caps);
+  font-size:16px;line-height:1.62;-webkit-font-smoothing:antialiased;overflow-x:clip}
 a{color:inherit;text-decoration:none}
 button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
-img,canvas{display:block;max-width:100%}
-::selection{background:rgba(233,199,155,.3);color:#fff}
-em{font-family:var(--serif);font-style:italic;font-weight:400}
+img,canvas,svg{display:block;max-width:100%}
+::selection{background:rgba(233,199,155,.45);color:#12141A}
+em{font-family:var(--serif);font-style:italic;font-weight:400;letter-spacing:0}
 .mono{font-family:var(--mono);font-variant-numeric:tabular-nums}
+:focus-visible{outline:2px solid var(--sand-deep);outline-offset:3px;border-radius:4px}
 
-/* ── particle stage ─────────────────────────────────── */
-#stage{position:fixed;inset:0;width:100%;height:100%;z-index:0;pointer-events:none}
-#veil{position:fixed;inset:0;z-index:1;pointer-events:none;
-  background:radial-gradient(125% 92% at 50% 42%,transparent 30%,rgba(11,14,19,.70) 82%,rgba(11,14,19,.96) 100%)}
-#grain{position:fixed;inset:0;z-index:1;pointer-events:none;opacity:.045;
+#grain{position:fixed;inset:0;z-index:80;pointer-events:none;opacity:.05;
   background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
-#prog{position:fixed;top:0;left:0;height:2px;width:0;z-index:60;
-  background:linear-gradient(90deg,var(--sand-d),var(--sand));box-shadow:0 0 12px rgba(233,199,155,.55)}
+#prog{position:fixed;top:0;left:0;height:2px;width:0;z-index:90;
+  background:linear-gradient(90deg,var(--sand-deep),var(--sand))}
 
-/* ── nav ────────────────────────────────────────────── */
-#nav{position:fixed;top:0;left:0;right:0;z-index:50;display:flex;align-items:center;
-  justify-content:space-between;gap:18px;padding:16px clamp(16px,4vw,40px);
-  transition:background .5s var(--ease),backdrop-filter .5s}
-#nav.solid{background:linear-gradient(180deg,rgba(11,14,19,.88),rgba(11,14,19,0));backdrop-filter:blur(3px)}
-#nav.light .brand{color:var(--card-ink)}
-#nav.light .brand .mk circle{stroke:#8a6a3d}
-#nav.light .nlinks{color:rgba(20,22,26,.55)}
-#nav.light .nlinks a:hover{color:var(--card-ink)}
-#nav.light .ncta{background:var(--card-ink);color:#fff}
-#nav.light .ncta:hover{background:#2a2e36}
-#nav.light.solid{background:linear-gradient(180deg,rgba(244,242,238,.92),rgba(244,242,238,0))}
-.brand{display:flex;align-items:center;gap:11px;font-weight:600;font-size:13px;
-  letter-spacing:.2em;text-transform:uppercase}
-.brand .mk{width:22px;height:22px;flex:0 0 auto}
-.nlinks{display:flex;align-items:center;gap:28px;font-size:11.5px;letter-spacing:.18em;
-  text-transform:uppercase;color:var(--w55)}
-.nlinks a{transition:color .3s;position:relative}
-.nlinks a:hover{color:var(--w)}
-.nbadge{display:inline-flex;align-items:center;gap:7px;font-family:var(--mono);font-size:10px;
-  letter-spacing:.14em;text-transform:uppercase;color:var(--w55);
-  border:1px solid var(--hair);border-radius:100px;padding:5px 11px}
-.nbadge i{width:5px;height:5px;border-radius:50%;background:var(--ok);box-shadow:0 0 8px var(--ok)}
-.ncta{font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;font-weight:600;
-  padding:11px 18px;border-radius:100px;background:var(--sand);color:#221a10;
-  transition:.32s var(--ease);white-space:nowrap}
-.ncta:hover{background:#f3d7b3;transform:translateY(-1px)}
+/* ═══════════════ nav ═══════════════ */
+#nav{position:fixed;top:0;left:0;right:0;z-index:70;display:flex;align-items:center;
+  justify-content:space-between;gap:16px;padding:14px clamp(14px,3.5vw,34px);
+  color:var(--w92);transition:color .4s}
+#nav .pillbg{position:absolute;inset:8px clamp(8px,2vw,20px);border-radius:100px;
+  background:rgba(245,243,239,.86);backdrop-filter:blur(14px);
+  border:1px solid var(--hair-i2);box-shadow:0 10px 34px rgba(18,20,26,.10);
+  opacity:0;transform:translateY(-6px);transition:.45s var(--ez);pointer-events:none}
+#nav.paper{color:var(--ink)}
+#nav.paper .pillbg{opacity:1;transform:none}
+#nav>*{position:relative}
+.brand{display:flex;align-items:center;gap:10px;font-weight:600;font-size:13px;
+  letter-spacing:.18em;text-transform:uppercase}
+.brand .mk{width:21px;height:21px}
+.nlinks{display:flex;align-items:center;gap:26px;font-size:11px;letter-spacing:.16em;
+  text-transform:uppercase;opacity:.72}
+.nlinks a{transition:opacity .3s}
+.nlinks a:hover{opacity:1}
+.ncta{font-size:11px;letter-spacing:.14em;text-transform:uppercase;font-weight:600;
+  padding:11px 18px;border-radius:100px;background:var(--sand);color:#221A10;
+  transition:.3s var(--ez);white-space:nowrap}
+#nav.paper .ncta{background:var(--ink);color:#fff}
+.ncta:hover{transform:translateY(-1px)}
 @media(max-width:900px){.nlinks{display:none}}
-@media(max-width:520px){.brand span.t{display:none}.ncta{padding:10px 14px;font-size:10.5px}}
+@media(max-width:520px){.brand span{display:none}}
 
-/* ── layout ─────────────────────────────────────────── */
-main{position:relative;z-index:2}
-section{position:relative;padding:clamp(88px,13vh,150px) clamp(20px,5vw,56px)}
-.wrap{width:100%;max-width:var(--wrap);margin:0 auto}
-.narrow{max-width:840px}
-.eyebrow{font-family:var(--mono);font-size:10.5px;letter-spacing:.28em;text-transform:uppercase;
-  color:var(--sand);display:flex;align-items:center;gap:12px;margin-bottom:22px}
-.eyebrow::before{content:"";width:22px;height:1px;background:var(--sand);opacity:.65}
-h1,h2,h3{font-weight:500;line-height:1.04;letter-spacing:-.025em}
-h2{font-size:clamp(2rem,5.2vw,3.9rem);max-width:19ch}
-h3{font-size:1.12rem;font-weight:600;letter-spacing:-.01em;line-height:1.3}
-.lede{color:var(--w75);font-size:clamp(1.02rem,1.5vw,1.16rem);line-height:1.68;max-width:60ch;margin-top:20px}
-.caption{font-family:var(--mono);font-size:11px;line-height:1.75;color:var(--w38);
-  max-width:74ch;margin-top:26px}
+/* ═══════════════ shared ═══════════════ */
+.wrap{width:100%;max-width:var(--wrap);margin:0 auto;padding:0 clamp(20px,4.5vw,48px)}
+.chapter{padding:clamp(84px,11vh,130px) 0 clamp(30px,4vh,52px)}
+.eyebrow{font-family:var(--mono);font-size:10.5px;letter-spacing:.26em;text-transform:uppercase;
+  color:var(--sand-deep);display:flex;align-items:center;gap:13px;margin-bottom:22px}
+.eyebrow b{font-weight:500;color:var(--ink3)}
+.eyebrow i{font-style:normal;flex:0 0 auto;width:26px;height:1px;background:var(--sand-deep);
+  transform:scaleX(0);transform-origin:left;transition:transform .9s var(--ez) .15s}
+.rv.in .eyebrow i{transform:none}
+h1,h2,h3{font-weight:500;line-height:1.05;letter-spacing:-.025em}
+h2{font-size:clamp(2rem,4.9vw,3.7rem);max-width:20ch;text-wrap:balance}
+h3{font-size:1.1rem;font-weight:600;letter-spacing:-.01em;line-height:1.3}
+.lede{color:var(--ink2);font-size:clamp(1rem,1.45vw,1.14rem);line-height:1.68;max-width:58ch;margin-top:18px}
+.caption{font-family:var(--mono);font-size:11px;line-height:1.75;color:var(--ink3);max-width:74ch;margin-top:24px}
 
+/* word-rise */
+.w{display:inline-block;overflow:hidden;vertical-align:bottom}
+.w>span{display:inline-block;transform:translateY(118%);
+  transition:transform .85s var(--ez);transition-delay:calc(var(--wi)*.055s)}
+.risen .w>span{transform:none}
 /* reveal */
-.rv{opacity:0;transform:translateY(24px);filter:blur(5px);
-  transition:opacity 1s var(--ease),transform 1s var(--ease),filter 1s var(--ease)}
-.rv.in{opacity:1;transform:none;filter:none}
-.d1{transition-delay:.08s}.d2{transition-delay:.16s}.d3{transition-delay:.24s}
-.d4{transition-delay:.32s}.d5{transition-delay:.4s}
-@media(prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;filter:none;transition:none}}
+.rv{opacity:0;transform:translateY(22px);transition:opacity .9s var(--ez),transform .9s var(--ez)}
+.rv.in{opacity:1;transform:none}
+.d1{transition-delay:.08s}.d2{transition-delay:.16s}.d3{transition-delay:.24s}.d4{transition-delay:.32s}
+@media(prefers-reduced-motion:reduce){
+  .rv{opacity:1;transform:none;transition:none}
+  .w>span{transform:none;transition:none}
+}
 
-/* ── hero ───────────────────────────────────────────── */
-#hero{min-height:100svh;display:flex;flex-direction:column;justify-content:center;
-  padding-top:120px;padding-bottom:clamp(70px,12vh,120px);text-align:center}
-#hero .wrap{display:flex;flex-direction:column;align-items:center;position:relative}
-#hero .wrap::before{content:"";position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);
-  width:min(1180px,116%);height:min(880px,124%);pointer-events:none;z-index:-1;
-  background:radial-gradient(closest-side,rgba(11,14,19,.74),rgba(11,14,19,.34) 52%,transparent 80%)}
-.h1{font-size:clamp(2.5rem,7.6vw,6.2rem);font-weight:500;letter-spacing:-.035em;line-height:.98;
-  max-width:15ch}
+/* dark stage panels */
+.stagep{position:relative;border-radius:var(--r);overflow:hidden;background:
+  radial-gradient(120% 100% at 50% 0%,var(--panel2),var(--panel) 62%);
+  color:var(--w92);box-shadow:0 40px 90px rgba(18,20,26,.28)}
+.stagep::after{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.07), inset 0 0 0 1px rgba(255,255,255,.03)}
+.aur{position:absolute;border-radius:50%;filter:blur(70px);pointer-events:none;opacity:.5}
+.aur.sand{background:radial-gradient(circle,rgba(233,199,155,.16),transparent 65%)}
+.aur.rose{background:radial-gradient(circle,rgba(217,160,180,.11),transparent 65%)}
+
+/* pinned scenes */
+.pin{position:relative;height:var(--pinh,300vh)}
+.pin .hold{position:sticky;top:0;height:100svh;padding:var(--inset);display:flex}
+.pin .stagep{flex:1;display:flex;flex-direction:column}
+body.flat .pin{height:auto}
+body.flat .pin .hold{position:static;height:auto}
+body.flat .pin .stagep{min-height:0}
+
+/* CTAs */
+.cta{position:relative;display:inline-flex;align-items:center;gap:10px;font-size:12px;
+  letter-spacing:.13em;text-transform:uppercase;font-weight:600;padding:17px 28px;
+  border-radius:100px;background:var(--sand);color:#221A10;overflow:hidden;
+  transition:.3s var(--ez)}
+.cta::after{content:"";position:absolute;top:0;bottom:0;width:44%;left:-60%;
+  background:linear-gradient(105deg,transparent,rgba(255,255,255,.5),transparent);
+  transform:skewX(-18deg);transition:left .7s var(--ez)}
+.cta:hover{transform:translateY(-2px);box-shadow:0 14px 34px rgba(176,135,73,.3)}
+.cta:hover::after{left:120%}
+.cta.ghost{background:none;border:1px solid var(--hair-w);color:var(--w92);font-weight:500}
+.cta.ghost::after{display:none}
+.cta.ghost:hover{border-color:var(--sand);color:var(--sand);box-shadow:none}
+.cta.ink{background:var(--ink);color:#fff}
+.cta.ink:hover{box-shadow:0 14px 34px rgba(18,20,26,.24)}
+
+/* ═══════════════ hero ═══════════════ */
+#hero{padding:var(--inset)}
+#hero .stagep{min-height:calc(100svh - var(--inset)*2);display:flex;flex-direction:column;
+  justify-content:center;text-align:center;padding:clamp(90px,12vh,130px) clamp(20px,4vw,56px) clamp(40px,5vh,64px)}
+#hero .hi{position:relative;display:flex;flex-direction:column;align-items:center;width:100%}
+.orb-wrap{position:relative;width:min(560px,86vw);height:clamp(210px,30vh,300px);margin-top:22px;
+  opacity:0;animation:fade 1.2s var(--ez) .9s forwards}
+#orb{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);
+  width:150%;height:150%;pointer-events:none}
+.orb-ui{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;
+  justify-content:center;gap:11px}
+.h1{font-size:clamp(2.6rem,7.4vw,6rem);font-weight:500;letter-spacing:-.035em;line-height:.98;max-width:15ch}
 .h1 em{color:var(--sand)}
-.hw{display:inline-block;overflow:hidden;vertical-align:bottom}
-.hw>span{display:inline-block;transform:translateY(112%);
-  animation:rise .95s var(--ease) forwards;animation-delay:calc(var(--w)*.075s + .12s)}
-@keyframes rise{to{transform:none}}
-@media(prefers-reduced-motion:reduce){.hw>span{transform:none;animation:none}}
-.hero-sub{color:var(--w55);font-size:clamp(.98rem,1.5vw,1.1rem);margin-top:26px;max-width:46ch;
-  opacity:0;animation:fade 1s var(--ease) .8s forwards}
+.hero-sub{color:var(--w70);font-size:clamp(.98rem,1.5vw,1.12rem);margin-top:24px;max-width:46ch;
+  opacity:0;animation:fade 1s var(--ez) .8s forwards}
 @keyframes fade{to{opacity:1}}
-.hero-ctas{display:flex;gap:13px;flex-wrap:wrap;justify-content:center;margin-top:38px;
-  opacity:0;animation:fade 1s var(--ease) 1s forwards}
-.cta{display:inline-flex;align-items:center;gap:10px;font-size:12px;letter-spacing:.14em;
-  text-transform:uppercase;font-weight:600;padding:17px 28px;border-radius:100px;
-  background:var(--sand);color:#221a10;transition:.32s var(--ease)}
-.cta:hover{background:#f3d7b3;transform:translateY(-2px);box-shadow:0 12px 34px rgba(233,199,155,.2)}
-.cta.ghost{background:none;color:var(--w92);border:1px solid var(--hair);font-weight:500}
-.cta.ghost:hover{border-color:var(--sand);color:var(--sand);box-shadow:none;background:rgba(233,199,155,.05)}
-.hear{margin-top:34px;opacity:0;animation:fade 1s var(--ease) 1.15s forwards;
-  display:flex;flex-direction:column;align-items:center;gap:11px}
+.hero-ctas{display:flex;gap:12px;flex-wrap:wrap;justify-content:center;margin-top:36px;
+  opacity:0;animation:fade 1s var(--ez) 1s forwards}
 .hear-btn{display:inline-flex;align-items:center;gap:10px;font-family:var(--mono);font-size:11px;
-  letter-spacing:.18em;text-transform:uppercase;color:var(--w75);
-  border:1px solid var(--hair);border-radius:100px;padding:11px 20px;transition:.3s var(--ease)}
-.hear-btn:hover{border-color:var(--sand);color:var(--sand);background:rgba(233,199,155,.06)}
+  letter-spacing:.17em;text-transform:uppercase;color:var(--w92);
+  border:1px solid rgba(255,255,255,.28);border-radius:100px;padding:11px 20px;
+  background:rgba(11,14,19,.55);backdrop-filter:blur(6px);transition:.3s var(--ez)}
+.hear-btn:hover{border-color:var(--sand);color:var(--sand)}
 .hear-btn .eq{display:inline-flex;align-items:flex-end;gap:2px;height:11px}
-.hear-btn .eq i{width:2px;background:var(--sand);height:3px;border-radius:1px;transition:height .2s}
-.hear-btn.on .eq i{animation:eq .75s ease-in-out infinite}
-.hear-btn.on .eq i:nth-child(2){animation-delay:.14s}
-.hear-btn.on .eq i:nth-child(3){animation-delay:.28s}
-.hear-btn.on .eq i:nth-child(4){animation-delay:.1s}
+.hear-btn .eq i{width:2px;background:var(--sand);height:3px;border-radius:1px}
+.hear-btn.on .eq i{animation:eq .7s ease-in-out infinite}
+.hear-btn.on .eq i:nth-child(2){animation-delay:.13s}
+.hear-btn.on .eq i:nth-child(3){animation-delay:.26s}
+.hear-btn.on .eq i:nth-child(4){animation-delay:.09s}
 @keyframes eq{0%,100%{height:3px}50%{height:11px}}
-.hear-line{font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;color:var(--w38)}
-.hero-note{font-family:var(--mono);font-size:10.5px;line-height:1.7;color:var(--w38);
-  max-width:60ch;margin-top:30px;opacity:0;animation:fade 1s var(--ease) 1.3s forwards}
-.hstats{display:flex;gap:0;margin-top:44px;border-top:1px solid var(--hair2);
-  opacity:0;animation:fade 1s var(--ease) 1.2s forwards}
-.hstat{padding:16px 26px;border-right:1px solid var(--hair2);text-align:left}
+.orb-line{font-family:var(--mono);font-size:11px;letter-spacing:.05em;color:var(--w70);
+  max-width:52ch;min-height:2.6em;line-height:1.6;text-align:center;padding:0 14px;
+  text-shadow:0 1px 10px rgba(0,0,0,.85)}
+.orb-line b{color:var(--sand);font-weight:500}
+.hstats{display:flex;margin-top:26px;border-top:1px solid var(--hair-w2);
+  opacity:0;animation:fade 1s var(--ez) 1.25s forwards}
+.hstat{padding:15px 24px;border-right:1px solid var(--hair-w2);text-align:left}
 .hstat:last-child{border-right:0}
-.hstat b{display:block;font-size:1.24rem;font-weight:600;letter-spacing:-.02em}
-.hstat span{font-family:var(--mono);font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--w38)}
-@media(max-width:560px){.hstat{padding:14px 16px}.hstat b{font-size:1.05rem}}
+.hstat b{display:block;font-size:1.2rem;font-weight:600;letter-spacing:-.02em}
+.hstat span{font-family:var(--mono);font-size:9px;letter-spacing:.15em;text-transform:uppercase;color:var(--w34)}
+.hero-note{font-family:var(--mono);font-size:10px;line-height:1.7;color:var(--w34);
+  max-width:62ch;margin-top:26px;opacity:0;animation:fade 1s var(--ez) 1.4s forwards}
+.scue{position:absolute;left:50%;bottom:18px;transform:translateX(-50%);
+  font-family:var(--mono);font-size:9px;letter-spacing:.26em;text-transform:uppercase;color:var(--w34);
+  display:flex;flex-direction:column;align-items:center;gap:8px}
+.scue i{width:1px;height:34px;background:linear-gradient(var(--sand),transparent);overflow:hidden;position:relative}
+.scue i::after{content:"";position:absolute;top:-40%;left:0;width:100%;height:40%;background:#fff;
+  animation:drop 2.1s var(--ez) infinite}
+@keyframes drop{0%{top:-40%}70%,100%{top:110%}}
+@media(max-width:560px){.hstat{padding:12px 14px}.hstat b{font-size:1rem}}
 
-/* ── the call · phone ───────────────────────────────── */
-.phone{max-width:560px;margin:44px auto 0;border:1px solid var(--hair);border-radius:20px;
-  background:linear-gradient(180deg,rgba(20,24,32,.9),rgba(13,16,22,.78));backdrop-filter:blur(14px);
-  overflow:hidden;box-shadow:0 34px 90px rgba(0,0,0,.55)}
-.phone-h{display:flex;align-items:center;gap:11px;padding:15px 20px;border-bottom:1px solid var(--hair2);
-  font-size:12.5px;font-weight:600;letter-spacing:.04em}
+/* ═══════════════ 01 · the call ═══════════════ */
+.callstage{align-items:center;justify-content:center;padding:clamp(56px,7vh,84px) clamp(16px,4vw,56px)}
+#rings{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+.phone{position:relative;width:min(560px,100%);border:1px solid var(--hair-w);border-radius:20px;
+  background:linear-gradient(180deg,rgba(22,26,35,.92),rgba(13,16,23,.82));backdrop-filter:blur(12px);
+  overflow:hidden;box-shadow:0 34px 80px rgba(0,0,0,.5)}
+.phone-h{display:flex;align-items:center;gap:11px;padding:14px 20px;border-bottom:1px solid var(--hair-w2);
+  font-size:12.5px;font-weight:600}
 .phone-h .dot{width:7px;height:7px;border-radius:50%;background:var(--ok);box-shadow:0 0 9px var(--ok)}
-.phone-h .t{margin-left:auto;font-size:11px;color:var(--w38);font-weight:400}
-.chat{padding:20px;display:flex;flex-direction:column;gap:13px;max-height:520px;overflow:hidden}
-.msg{max-width:84%;padding:13px 16px;border-radius:15px;font-size:14px;line-height:1.55;
-  opacity:0;transform:translateY(12px);transition:opacity .55s var(--ease),transform .55s var(--ease)}
+.phone-h .t{margin-left:auto;font-size:11px;color:var(--w50);font-weight:400}
+.chat{padding:18px 18px 22px;display:flex;flex-direction:column;gap:12px;min-height:340px;justify-content:flex-end}
+.msg{max-width:86%;padding:12px 15px;border-radius:14px;font-size:13.8px;line-height:1.5;
+  opacity:0;transform:translateY(14px) scale(.97);
+  transition:opacity .5s var(--ez),transform .5s var(--ez)}
 .msg.show{opacity:1;transform:none}
-.msg .who{display:block;font-family:var(--mono);font-size:9px;letter-spacing:.2em;text-transform:uppercase;
-  margin-bottom:6px;opacity:.6}
-.m-a{align-self:flex-start;background:rgba(233,199,155,.11);border:1px solid rgba(233,199,155,.22);color:var(--w92)}
+.msg .who{display:block;font-family:var(--mono);font-size:8.5px;letter-spacing:.2em;text-transform:uppercase;
+  margin-bottom:5px;opacity:.6}
+.m-a{align-self:flex-start;background:rgba(233,199,155,.12);border:1px solid rgba(233,199,155,.24);color:var(--w92)}
 .m-a .who{color:var(--sand)}
-.m-h{align-self:flex-end;background:rgba(255,255,255,.06);border:1px solid var(--hair2);color:var(--w75)}
-.oc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:40px}
-.oc{border:1px solid var(--hair2);border-radius:16px;padding:24px 22px;
-  background:linear-gradient(180deg,rgba(18,22,30,.72),rgba(12,15,21,.5));backdrop-filter:blur(8px);
-  transition:.36s var(--ease)}
-.oc:hover{border-color:var(--hair);transform:translateY(-3px)}
-.oc h3{color:var(--w);margin-bottom:12px}
-.oc .said{font-family:var(--serif);font-style:italic;font-size:1.14rem;line-height:1.45;color:var(--sand);margin-bottom:12px}
-.oc .note{font-size:13.5px;line-height:1.6;color:var(--w55)}
+.m-h{align-self:flex-end;background:rgba(255,255,255,.06);border:1px solid var(--hair-w2);color:var(--w70)}
+.booked{position:absolute;left:50%;bottom:26px;transform:translate(-50%,14px);opacity:0;
+  display:inline-flex;align-items:center;gap:9px;font-family:var(--mono);font-size:10.5px;
+  letter-spacing:.16em;text-transform:uppercase;color:var(--ok);
+  border:1px solid rgba(78,201,143,.4);background:rgba(78,201,143,.08);border-radius:100px;
+  padding:9px 18px;transition:.6s var(--ez);white-space:nowrap}
+.booked.on{opacity:1;transform:translate(-50%,0)}
+.scrollhint{position:absolute;right:clamp(18px,3vw,40px);top:50%;transform:translateY(-50%) rotate(90deg);
+  font-family:var(--mono);font-size:9px;letter-spacing:.3em;text-transform:uppercase;
+  color:var(--w34);transition:opacity .5s}
+.scrollhint.off{opacity:0}
+.oc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:14px}
+.oc{border:1px solid var(--hair-i);border-radius:18px;padding:24px 22px;background:var(--card);
+  transition:.35s var(--ez)}
+.oc:hover{transform:translateY(-3px);box-shadow:0 18px 44px rgba(18,20,26,.09)}
+.oc h3{margin-bottom:11px}
+.oc .said{font-family:var(--serif);font-style:italic;font-size:1.18rem;line-height:1.42;
+  color:var(--sand-deep);margin-bottom:11px}
+.oc .note{font-size:13.4px;line-height:1.6;color:var(--ink2)}
 @media(max-width:820px){.oc-grid{grid-template-columns:1fr}}
 
-/* ── science · nuggets + specs ──────────────────────── */
-.nugs{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;margin-top:44px}
-.nug{border:1px solid var(--hair2);border-radius:14px;padding:20px 18px;
-  background:linear-gradient(180deg,rgba(18,22,30,.76),rgba(12,15,21,.55));backdrop-filter:blur(8px);
-  transition:.36s var(--ease);display:flex;flex-direction:column}
-.nug:hover{border-color:rgba(233,199,155,.34);transform:translateY(-3px)}
-.n-val{font-size:1.34rem;font-weight:600;letter-spacing:-.02em;color:var(--sand);line-height:1.15;
-  word-break:break-word}
-.n-key{font-family:var(--mono);font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;
-  color:var(--w38);margin:7px 0 12px}
-.n-why{font-size:12.8px;line-height:1.58;color:var(--w55)}
-@media(max-width:1080px){.nugs{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:560px){.nugs{grid-template-columns:1fr}}
-.specs{margin-top:34px;border:1px solid var(--hair2);border-radius:16px;overflow:hidden;
-  background:rgba(12,15,21,.6);backdrop-filter:blur(8px)}
-.specs div{display:flex;justify-content:space-between;gap:20px;padding:13px 22px;
-  border-bottom:1px solid var(--hair2);font-size:13.5px}
-.specs div:last-child{border-bottom:0}
-.specs div:nth-child(odd){background:rgba(255,255,255,.015)}
-.s-k{color:var(--w55)}
-.s-v{font-family:var(--mono);color:var(--sand);font-size:12.5px}
+/* ═══════════════ 02 · science ═══════════════ */
+.scistage{padding:clamp(46px,6vh,72px) clamp(18px,4vw,56px);gap:clamp(16px,2.5vh,26px)}
+.sci-top{display:flex;align-items:baseline;justify-content:space-between;gap:18px;flex-wrap:wrap}
+.sci-top .tt{font-size:clamp(1.3rem,2.6vw,2rem);letter-spacing:-.02em;font-weight:500}
+.sci-top .tt em{color:var(--sand)}
+.sci-top .mono{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--w34)}
+.spectro-box{position:relative;flex:1;min-height:180px;max-height:44vh;border:1px solid var(--hair-w2);
+  border-radius:16px;overflow:hidden;background:rgba(0,0,0,.3)}
+#spectro{position:absolute;inset:0;width:100%;height:100%}
+.spectro-cap{position:absolute;left:14px;bottom:12px;right:14px;font-family:var(--mono);
+  font-size:9.5px;line-height:1.6;color:var(--w34);text-shadow:0 1px 8px rgba(0,0,0,.8)}
+.nug-rail{display:flex;gap:8px}
+.nug-rail button{flex:1;height:3px;border-radius:2px;background:var(--hair-w2);
+  transition:background .4s;padding:0;cursor:default}
+.nug-rail button.on{background:var(--sand)}
+.nug-deck{position:relative;height:172px}
+.nug{position:absolute;inset:0;border:1px solid var(--hair-w2);border-radius:16px;
+  background:rgba(255,255,255,.03);padding:22px 24px;display:flex;flex-direction:column;
+  opacity:0;transform:translateY(16px);transition:.55s var(--ez);pointer-events:none}
+.nug.on{opacity:1;transform:none}
+.n-val{font-size:clamp(1.5rem,3vw,2.1rem);font-weight:600;letter-spacing:-.02em;color:var(--sand)}
+.n-key{font-family:var(--mono);font-size:9.5px;letter-spacing:.17em;text-transform:uppercase;color:var(--w50);margin:5px 0 10px}
+.n-why{font-size:13.2px;line-height:1.58;color:var(--w70);max-width:70ch}
+@media(max-width:700px){.nug-deck{height:230px}}
+.specs{margin-top:38px;border:1px solid var(--hair-i);border-radius:18px;overflow:hidden;background:var(--card)}
+.specs>div{display:flex;justify-content:space-between;gap:20px;padding:13px 22px;
+  border-bottom:1px solid var(--hair-i2);font-size:13.5px}
+.specs>div:last-child{border-bottom:0}
+.s-k{color:var(--ink2)}
+.s-v{font-family:var(--mono);color:var(--sand-deep);font-size:12.5px;text-align:right}
 
-/* ── steps ──────────────────────────────────────────── */
-.steps{list-style:none;display:grid;grid-template-columns:repeat(3,1fr);gap:1px;margin-top:44px;
-  background:var(--hair2);border:1px solid var(--hair2);border-radius:16px;overflow:hidden}
-.steps li{background:rgba(12,15,21,.72);backdrop-filter:blur(8px);padding:26px 24px;transition:.36s var(--ease)}
-.steps li:hover{background:rgba(20,24,32,.86)}
-.steps .n{display:block;font-family:var(--mono);font-size:11px;letter-spacing:.18em;color:var(--sand);margin-bottom:14px}
-.steps h3{color:var(--w);margin-bottom:10px}
-.steps p{font-size:13.6px;line-height:1.62;color:var(--w55)}
+/* ═══════════════ 03 · steps ═══════════════ */
+.steps{list-style:none;position:relative;margin-top:44px;display:grid;
+  grid-template-columns:repeat(3,1fr);gap:40px 28px}
+.steps::before{content:"";position:absolute;top:-20px;left:0;right:0;height:1px;
+  background:linear-gradient(90deg,var(--sand-deep),var(--hair-i));transform:scaleX(0);
+  transform-origin:left;transition:transform 1.6s var(--ez)}
+.steps.in::before{transform:none}
+.steps li{position:relative}
+.steps .n{display:inline-flex;align-items:center;justify-content:center;width:38px;height:38px;
+  border-radius:50%;border:1px solid var(--hair-i);font-family:var(--mono);font-size:11px;
+  color:var(--sand-deep);margin-bottom:16px;background:var(--card);transition:.35s var(--ez)}
+.steps li:hover .n{border-color:var(--sand-deep);box-shadow:0 6px 18px rgba(176,135,73,.2)}
+.steps h3{margin-bottom:9px}
+.steps p{font-size:13.6px;line-height:1.62;color:var(--ink2)}
 @media(max-width:900px){.steps{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:600px){.steps{grid-template-columns:1fr}}
+@media(max-width:600px){.steps{grid-template-columns:1fr;gap:30px}}
 
-/* ── formats + pipe ─────────────────────────────────── */
-.formats{display:flex;gap:14px;flex-wrap:wrap;margin-top:38px}
-.fmt{display:flex;align-items:center;gap:13px;border:1px solid var(--hair2);border-radius:13px;
-  padding:16px 22px;background:rgba(14,18,25,.6);backdrop-filter:blur(8px)}
-.fmt b{font-family:var(--mono);font-size:15px;color:var(--sand)}
-.fmt span{font-size:13px;color:var(--w55)}
-.fmt i{font-family:var(--mono);font-style:normal;font-size:9px;letter-spacing:.15em;text-transform:uppercase;
-  color:var(--ink);background:var(--sand);border-radius:100px;padding:3px 9px;margin-left:4px}
-.pipe{list-style:none;display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:26px;counter-reset:p}
-.pipe li{border-top:1px solid var(--hair);padding-top:18px;counter-increment:p;position:relative}
-.pipe li::before{content:counter(p,decimal-leading-zero);position:absolute;top:-11px;left:0;
-  font-family:var(--mono);font-size:9.5px;letter-spacing:.16em;color:var(--sand);
-  background:var(--ink);padding-right:9px}
-.pipe h3{color:var(--w);margin-bottom:9px;font-size:1rem}
-.pipe p{font-size:13px;line-height:1.6;color:var(--w55)}
+/* ═══════════════ 04 · two files ═══════════════ */
+.formats{display:flex;gap:13px;flex-wrap:wrap;margin-top:36px}
+.fmt{display:flex;align-items:center;gap:13px;border:1px solid var(--hair-i);border-radius:14px;
+  padding:16px 22px;background:var(--card);transition:.3s var(--ez)}
+.fmt:hover{transform:translateY(-2px);box-shadow:0 12px 30px rgba(18,20,26,.08)}
+.fmt b{font-family:var(--mono);font-size:15px;color:var(--sand-deep)}
+.fmt span{font-size:13px;color:var(--ink2)}
+.fmt i{font-style:normal;font-family:var(--mono);font-size:8.5px;letter-spacing:.15em;text-transform:uppercase;
+  color:#fff;background:var(--ink);border-radius:100px;padding:4px 10px;margin-left:4px}
+.pipe{list-style:none;display:grid;grid-template-columns:repeat(4,1fr);gap:22px;margin-top:30px}
+.pipe li{border-top:1px solid var(--hair-i);padding-top:16px;position:relative}
+.pipe li::before{content:"";position:absolute;top:-3px;left:0;width:34px;height:5px;
+  border-radius:3px;background:var(--sand);transform:scaleX(0);transform-origin:left;
+  transition:transform .8s var(--ez) calc(var(--pi)*.12s)}
+.pipe li.in::before{transform:none}
+.pipe h3{margin-bottom:8px;font-size:1rem}
+.pipe p{font-size:13px;line-height:1.6;color:var(--ink2)}
 @media(max-width:900px){.pipe{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:520px){.pipe{grid-template-columns:1fr}}
 
-/* ── statement scene ────────────────────────────────── */
-.scene{text-align:center;min-height:88vh;display:flex;flex-direction:column;justify-content:center}
-.statement{font-size:clamp(1.85rem,5vw,3.7rem);font-weight:500;letter-spacing:-.028em;line-height:1.1;
-  max-width:19ch;margin:0 auto}
+/* ═══════════════ statement scene ═══════════════ */
+.scene-wrap{padding:clamp(40px,6vh,72px) var(--inset)}
+.scene{min-height:78vh;display:flex;flex-direction:column;justify-content:center;
+  text-align:center;padding:clamp(70px,9vh,110px) clamp(20px,4vw,56px)}
+#dust1{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+.statement{position:relative;font-size:clamp(1.85rem,4.6vw,3.4rem);font-weight:500;letter-spacing:-.028em;
+  line-height:1.1;max-width:20ch;margin:0 auto;text-wrap:balance}
 .statement em{color:var(--sand)}
-.statement-sub{color:var(--w55);font-size:clamp(.98rem,1.4vw,1.1rem);line-height:1.65;max-width:56ch;margin:26px auto 0}
-.claims{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:52px;text-align:left}
-.claims>div{border-top:1px solid var(--hair);padding-top:18px}
-.claims b{display:block;font-size:13px;font-weight:600;letter-spacing:.02em;color:var(--sand);margin-bottom:8px}
-.claims span{font-size:13px;line-height:1.6;color:var(--w55)}
+.statement-sub{position:relative;color:var(--w70);font-size:clamp(.96rem,1.4vw,1.08rem);
+  line-height:1.65;max-width:56ch;margin:24px auto 0}
+.claims{position:relative;display:grid;grid-template-columns:repeat(3,1fr);gap:15px;
+  margin:48px auto 0;max-width:960px;text-align:left}
+.claims>div{border-top:1px solid var(--hair-w2);padding-top:16px}
+.claims b{display:block;font-size:12.5px;font-weight:600;letter-spacing:.02em;color:var(--sand);margin-bottom:7px}
+.claims span{font-size:12.8px;line-height:1.6;color:var(--w70)}
 @media(max-width:760px){.claims{grid-template-columns:1fr}}
 
-/* ── funnel · the arithmetic ────────────────────────── */
-.funnel{list-style:none;margin-top:44px;border-top:1px solid var(--hair)}
-#math .wrap{max-width:1180px}
-#math .eyebrow,#math h2,#math .lede,#math .funnel,#math .caption{max-width:760px}
-@media(max-width:1100px){#math .eyebrow,#math h2,#math .lede,#math .funnel,#math .caption{max-width:none}}
-.funnel li{display:grid;grid-template-columns:1fr auto 150px;gap:18px;align-items:center;
-  padding:20px 4px;border-bottom:1px solid var(--hair2);position:relative;overflow:hidden}
-.funnel li::after{content:"";position:absolute;left:0;bottom:0;height:1px;width:var(--fw,0%);
-  background:linear-gradient(90deg,var(--sand),transparent);transition:width 1.3s var(--ease) .1s}
-.funnel li.in::after{width:var(--fw)}
-.funnel .fl{font-size:14.5px;color:var(--w75)}
-.funnel .fn{font-size:clamp(1.35rem,3vw,2.05rem);font-weight:600;letter-spacing:-.025em;
-  font-variant-numeric:tabular-nums;color:var(--w)}
-.funnel .fr{font-family:var(--mono);font-size:10.5px;letter-spacing:.13em;text-transform:uppercase;
-  color:var(--w38);text-align:right}
-.funnel li.last{border-bottom:0;margin-top:6px}
-.funnel li.last .fn{color:var(--sand);font-size:clamp(1.7rem,4vw,2.7rem)}
+/* ═══════════════ 05 · funnel ═══════════════ */
+.mathstage{padding:clamp(46px,6vh,76px) clamp(18px,4vw,56px);flex-direction:row;align-items:center;gap:30px}
+#cone{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+.math-left{position:relative;flex:1 1 58%;max-width:700px}
+.funnel{list-style:none;border-top:1px solid var(--hair-w2)}
+.funnel li{display:grid;grid-template-columns:1fr auto;gap:2px 18px;align-items:baseline;
+  padding:13px 2px;border-bottom:1px solid var(--hair-w2);position:relative;
+  opacity:.28;transition:opacity .6s var(--ez)}
+.funnel li.on{opacity:1}
+.funnel li::after{content:"";position:absolute;left:0;bottom:-1px;height:1px;width:0;
+  background:linear-gradient(90deg,var(--sand),transparent);transition:width 1.1s var(--ez)}
+.funnel li.on::after{width:var(--fw)}
+.funnel .fl{font-size:13.5px;color:var(--w70);text-shadow:0 1px 10px rgba(0,0,0,.7)}
+.funnel .fn{font-size:clamp(1.25rem,2.4vw,1.8rem);font-weight:600;letter-spacing:-.02em;
+  font-variant-numeric:tabular-nums;color:var(--w);text-shadow:0 1px 12px rgba(0,0,0,.8)}
+.funnel .fr{grid-column:1/-1;font-family:var(--mono);font-size:9.5px;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--w34)}
+.funnel li.last{border-bottom:0;margin-top:4px}
+.funnel li.last .fn{color:var(--sand);font-size:clamp(1.6rem,3.2vw,2.4rem)}
 .funnel li.last .fl{color:var(--w92);font-weight:600}
-@media(max-width:720px){.funnel li{grid-template-columns:1fr auto;gap:6px 16px}
-  .funnel .fr{grid-column:1/-1;text-align:left}}
+.math-right{flex:1 1 42%;min-height:200px}
+@media(max-width:1100px){.mathstage{flex-direction:column;align-items:stretch}.math-right{display:none}}
 
-/* ── guardrails ─────────────────────────────────────── */
-.guards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:44px}
-.guard{border:1px solid var(--hair2);border-radius:16px;padding:24px 22px;
-  background:linear-gradient(180deg,rgba(18,22,30,.72),rgba(12,15,21,.5));backdrop-filter:blur(8px);
-  transition:.36s var(--ease);position:relative;overflow:hidden}
-.guard::before{content:"";position:absolute;left:0;top:0;width:2px;height:100%;background:var(--sand);
-  opacity:.55;transition:.36s}
-.guard:hover{transform:translateY(-3px);border-color:var(--hair)}
-.guard:hover::before{opacity:1;box-shadow:0 0 16px var(--sand)}
-.guard h3{color:var(--w);margin-bottom:11px}
-.guard p{font-size:13.4px;line-height:1.62;color:var(--w55)}
+/* ═══════════════ 06 · rules ═══════════════ */
+.guards{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;margin-top:42px}
+.guard{position:relative;border:1px solid var(--hair-i);border-radius:18px;padding:24px 22px;
+  background:var(--card);overflow:hidden;transition:.35s var(--ez)}
+.guard::before{content:"";position:absolute;left:0;top:0;width:3px;height:100%;
+  background:var(--sand);opacity:.75;transition:.35s}
+.guard:hover{transform:translateY(-3px);box-shadow:0 18px 44px rgba(18,20,26,.09)}
+.guard h3{margin-bottom:10px}
+.guard p{font-size:13.3px;line-height:1.62;color:var(--ink2)}
 @media(max-width:900px){.guards{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:600px){.guards{grid-template-columns:1fr}}
-.legal{margin-top:32px;border:1px solid rgba(217,160,180,.3);border-radius:16px;padding:24px 26px;
-  background:rgba(217,160,180,.05)}
-.legal b{display:block;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--rose);margin-bottom:11px}
-.legal p{font-size:13.4px;line-height:1.68;color:var(--w55)}
+.legal{margin-top:26px;border:1px solid rgba(179,114,139,.35);border-radius:18px;
+  padding:24px 26px;background:rgba(217,160,180,.09)}
+.legal b{display:block;font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--rose-deep);margin-bottom:10px}
+.legal p{font-size:13.3px;line-height:1.68;color:var(--ink2)}
 
-/* ── thesis ─────────────────────────────────────────── */
-.note-card{margin-top:44px;border:1px solid var(--hair);border-radius:20px;overflow:hidden;
-  background:linear-gradient(180deg,rgba(20,24,32,.86),rgba(12,15,21,.66));backdrop-filter:blur(12px)}
-.note-h{display:flex;align-items:center;gap:12px;padding:16px 24px;border-bottom:1px solid var(--hair2);
-  font-family:var(--mono);font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--w55)}
-.note-h .wave{display:inline-flex;align-items:center;gap:2px;height:14px;margin-left:auto}
-.note-h .wave i{width:2px;background:var(--sand);border-radius:1px;opacity:.75;
-  animation:wv 1.5s ease-in-out infinite}
-@keyframes wv{0%,100%{height:3px}50%{height:14px}}
-.note-body{padding:28px 30px;font-family:var(--serif);font-size:clamp(1.08rem,1.9vw,1.42rem);
-  line-height:1.62;color:var(--w75)}
-.note-body .um{color:var(--w38)}
+/* ═══════════════ 07 · thesis ═══════════════ */
+.thesis-stage{padding:clamp(64px,9vh,100px) clamp(20px,4vw,56px)}
+.note-card{max-width:820px;margin:0 auto;border:1px solid var(--hair-w);border-radius:20px;
+  overflow:hidden;background:linear-gradient(180deg,rgba(22,26,35,.9),rgba(13,16,23,.7))}
+.note-h{display:flex;align-items:center;gap:12px;padding:15px 24px;border-bottom:1px solid var(--hair-w2);
+  font-family:var(--mono);font-size:10px;letter-spacing:.17em;text-transform:uppercase;color:var(--w50)}
+.wave{display:inline-flex;align-items:center;gap:2px;height:16px;margin-left:auto}
+.wave i{width:2px;background:var(--sand);border-radius:1px;height:3px;opacity:.8}
+.note-card.live .wave i{animation:wv 1.4s ease-in-out infinite;animation-delay:calc(var(--i)*.09s)}
+@keyframes wv{0%,100%{height:3px}50%{height:15px}}
+.note-body{padding:28px 30px 30px;font-family:var(--serif);font-size:clamp(1.1rem,2vw,1.45rem);
+  line-height:1.6;color:var(--w92)}
+.note-body .um{color:var(--w34)}
+.thesis-stage .eyebrow{color:var(--sand)}
+.thesis-stage .eyebrow b{color:var(--w50)}
+.thesis-stage .eyebrow i{background:var(--sand)}
+.thesis-stage h2{color:var(--w)}
+.thesis-stage .lede{color:var(--w70)}
+.thesis-head{max-width:820px;margin:0 auto 30px}
 
-/* ── roadmap ────────────────────────────────────────── */
-.road{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:44px}
-.rc{border:1px solid var(--hair2);border-radius:16px;padding:24px 22px;
-  background:linear-gradient(180deg,rgba(18,22,30,.7),rgba(12,15,21,.48));backdrop-filter:blur(8px);
-  display:flex;flex-direction:column;transition:.36s var(--ease)}
-.rc:hover{transform:translateY(-3px);border-color:var(--hair)}
-.rc.live{border-color:rgba(127,214,168,.34);background:linear-gradient(180deg,rgba(20,30,26,.72),rgba(12,18,16,.5))}
+/* ═══════════════ 08 · roadmap ═══════════════ */
+.road{display:grid;grid-template-columns:repeat(4,1fr);gap:15px;margin-top:42px}
+.rc{border:1px solid var(--hair-i);border-radius:18px;padding:24px 22px;background:var(--card);
+  display:flex;flex-direction:column;transition:.35s var(--ez)}
+.rc:hover{transform:translateY(-3px);box-shadow:0 18px 44px rgba(18,20,26,.09)}
+.rc.live{border-color:rgba(46,143,99,.4);background:linear-gradient(180deg,#F2FAF6,var(--card))}
 .rc-tag{display:inline-flex;align-items:center;gap:7px;align-self:flex-start;font-family:var(--mono);
-  font-size:9px;letter-spacing:.18em;text-transform:uppercase;border:1px solid var(--hair);
-  border-radius:100px;padding:4px 10px;color:var(--w38);margin-bottom:16px}
-.rc.live .rc-tag{border-color:rgba(127,214,168,.4);color:var(--ok)}
+  font-size:8.5px;letter-spacing:.17em;text-transform:uppercase;border:1px solid var(--hair-i);
+  border-radius:100px;padding:4px 10px;color:var(--ink3);margin-bottom:15px}
+.rc.live .rc-tag{border-color:rgba(46,143,99,.45);color:var(--ok-deep)}
 .rc.live .rc-tag i{width:5px;height:5px;border-radius:50%;background:var(--ok);box-shadow:0 0 8px var(--ok)}
-.rc h3{color:var(--w);margin-bottom:10px}
-.rc>p{font-size:13.2px;line-height:1.6;color:var(--w55);margin-bottom:16px}
-.rc ul{list-style:none;margin-top:auto;display:flex;flex-direction:column;gap:9px}
-.rc li{font-size:12.4px;line-height:1.5;color:var(--w55);padding-left:16px;position:relative}
+.rc h3{margin-bottom:9px}
+.rc>p{font-size:13px;line-height:1.6;color:var(--ink2);margin-bottom:15px}
+.rc ul{list-style:none;margin-top:auto;display:flex;flex-direction:column;gap:8px}
+.rc li{font-size:12.3px;line-height:1.5;color:var(--ink2);padding-left:15px;position:relative}
 .rc li::before{content:"";position:absolute;left:0;top:7px;width:5px;height:5px;border-radius:50%;
-  background:var(--sand);opacity:.6}
-.rc.live li::before{background:var(--ok)}
+  background:var(--sand-deep);opacity:.7}
+.rc.live li::before{background:var(--ok-deep)}
 @media(max-width:1000px){.road{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:560px){.road{grid-template-columns:1fr}}
 
-/* ── pricing (light panel) ──────────────────────────── */
-#pricing{background:linear-gradient(180deg,#f7f5f1,var(--cream));color:var(--card-ink);
-  border-radius:36px;margin:0 clamp(10px,2vw,24px);z-index:3;
-  box-shadow:0 -40px 120px rgba(0,0,0,.5),0 40px 120px rgba(0,0,0,.5)}
-#pricing .eyebrow{color:var(--sand-d)}
-#pricing .eyebrow::before{background:var(--sand-d)}
-#pricing h2{color:var(--card-ink)}
-#pricing .lede{color:var(--card-soft)}
-.pilot{margin-top:44px;border:1px solid rgba(20,22,26,.16);border-radius:22px;background:#fff;
+/* ═══════════════ 09 · pricing ═══════════════ */
+.pilot{margin-top:42px;border:1px solid var(--hair-i);border-radius:22px;background:var(--card);
   padding:clamp(26px,4vw,40px);display:grid;grid-template-columns:1fr auto;gap:30px;align-items:center;
-  box-shadow:0 20px 50px rgba(20,22,26,.07)}
-.pilot .tag{display:inline-block;font-family:var(--mono);font-size:9.5px;letter-spacing:.18em;
-  text-transform:uppercase;color:var(--sand-d);border:1px solid rgba(201,162,113,.45);
-  border-radius:100px;padding:4px 11px;margin-bottom:16px}
-.pilot h3{font-size:clamp(1.5rem,3vw,2.1rem);font-weight:600;letter-spacing:-.025em;margin-bottom:8px}
-.pilot .pr{font-size:clamp(2rem,4.4vw,3rem);font-weight:600;letter-spacing:-.03em;line-height:1}
-.pilot .pr small{display:block;font-family:var(--mono);font-size:10.5px;letter-spacing:.13em;
-  text-transform:uppercase;color:var(--card-soft);margin-top:8px;font-weight:400}
-.pilot>p{color:var(--card-soft);font-size:14.5px;line-height:1.62;margin:14px 0 18px;max-width:52ch}
-.pilot ul{list-style:none;display:flex;flex-direction:column;gap:8px}
-.pilot li{font-size:13.4px;color:var(--card-soft);padding-left:20px;position:relative}
-.pilot li::before{content:"✓";position:absolute;left:0;color:var(--sand-d);font-weight:700;font-size:12px}
+  box-shadow:0 24px 60px rgba(18,20,26,.08);position:relative;overflow:hidden}
+.pilot::before{content:"";position:absolute;top:0;left:0;right:0;height:3px;
+  background:linear-gradient(90deg,var(--sand-deep),var(--sand),var(--rose))}
+.pilot .tag{display:inline-block;font-family:var(--mono);font-size:9px;letter-spacing:.17em;
+  text-transform:uppercase;color:var(--sand-deep);border:1px solid rgba(176,135,73,.4);
+  border-radius:100px;padding:4px 11px;margin-bottom:15px}
+.pilot h3{font-size:clamp(1.5rem,3vw,2rem);font-weight:600;letter-spacing:-.025em;margin-bottom:8px}
+.pilot .pr{font-size:clamp(2rem,4.2vw,2.9rem);font-weight:600;letter-spacing:-.03em;line-height:1}
+.pilot .pr small{display:block;font-family:var(--mono);font-size:10px;letter-spacing:.13em;
+  text-transform:uppercase;color:var(--ink3);margin-top:8px;font-weight:400}
+.pilot>div>p{color:var(--ink2);font-size:14.4px;line-height:1.62;margin:12px 0 16px;max-width:52ch}
+.pilot ul{list-style:none;display:flex;flex-direction:column;gap:7px}
+.pilot li{font-size:13.3px;color:var(--ink2);padding-left:20px;position:relative}
+.pilot li::before{content:"\2713";position:absolute;left:0;color:var(--sand-deep);font-weight:700;font-size:12px}
 .pilot .buy{text-align:center}
-.btn-ink{display:inline-flex;align-items:center;justify-content:center;gap:9px;font-size:12px;
-  letter-spacing:.14em;text-transform:uppercase;font-weight:600;padding:17px 30px;border-radius:100px;
-  background:var(--card-ink);color:#fff;transition:.32s var(--ease);white-space:nowrap}
-.btn-ink:hover{background:#2a2e36;transform:translateY(-2px);box-shadow:0 14px 34px rgba(20,22,26,.24)}
 @media(max-width:800px){.pilot{grid-template-columns:1fr}.pilot .buy{text-align:left}}
-.plans{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:20px}
-.plan{border:1px solid rgba(20,22,26,.14);border-radius:20px;background:rgba(255,255,255,.62);
-  padding:28px 26px;display:flex;flex-direction:column;transition:.36s var(--ease)}
-.plan:hover{background:#fff;transform:translateY(-3px);box-shadow:0 18px 44px rgba(20,22,26,.09)}
-.plan h3{font-size:1.16rem;font-weight:600;margin-bottom:6px}
-.plan .pr{font-size:2rem;font-weight:600;letter-spacing:-.03em;line-height:1.1}
-.plan .pr span{font-family:var(--mono);font-size:12px;font-weight:400;color:var(--card-soft);letter-spacing:.06em}
-.plan>p{color:var(--card-soft);font-size:13.6px;line-height:1.6;margin:14px 0 22px;flex:1}
-.choose{display:inline-flex;align-items:center;gap:8px;font-family:var(--mono);font-size:11px;
-  letter-spacing:.15em;text-transform:uppercase;color:var(--card-ink);font-weight:500;
-  border-bottom:1px solid rgba(20,22,26,.25);padding-bottom:5px;align-self:flex-start;transition:.3s}
-.choose:hover{border-color:var(--sand-d);color:var(--sand-d);gap:12px}
+.plans{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;margin-top:16px}
+.plan{border:1px solid var(--hair-i);border-radius:20px;background:var(--card);
+  padding:28px 26px;display:flex;flex-direction:column;transition:.35s var(--ez)}
+.plan:hover{transform:translateY(-3px);box-shadow:0 20px 48px rgba(18,20,26,.1)}
+.plan h3{font-size:1.14rem;margin-bottom:5px}
+.plan .pr{font-size:1.9rem;font-weight:600;letter-spacing:-.03em;line-height:1.1}
+.plan .pr span{font-family:var(--mono);font-size:12px;font-weight:400;color:var(--ink3)}
+.plan>p{color:var(--ink2);font-size:13.4px;line-height:1.6;margin:13px 0 20px;flex:1}
+.choose{display:inline-flex;align-items:center;gap:8px;font-family:var(--mono);font-size:10.5px;
+  letter-spacing:.15em;text-transform:uppercase;color:var(--ink);font-weight:500;
+  border-bottom:1px solid var(--hair-i);padding-bottom:5px;align-self:flex-start;transition:.3s}
+.choose:hover{border-color:var(--sand-deep);color:var(--sand-deep);gap:12px}
 @media(max-width:860px){.plans{grid-template-columns:1fr}}
-.pnote{margin-top:26px;font-size:13.6px;line-height:1.68;color:var(--card-soft);max-width:74ch}
-.pnote a{color:var(--card-ink);font-weight:600;border-bottom:1px solid rgba(20,22,26,.28)}
-.pnote a:hover{color:var(--sand-d);border-color:var(--sand-d)}
+.pnote{margin-top:24px;font-size:13.4px;line-height:1.68;color:var(--ink2);max-width:74ch}
+.pnote a{color:var(--ink);font-weight:600;border-bottom:1px solid var(--hair-i)}
+.pnote a:hover{color:var(--sand-deep);border-color:var(--sand-deep)}
 
-/* ── faq ────────────────────────────────────────────── */
-.faq{margin-top:44px;border-top:1px solid var(--hair)}
-.qa{border-bottom:1px solid var(--hair2)}
-.qa summary{list-style:none;cursor:pointer;padding:22px 44px 22px 0;position:relative;
-  font-size:clamp(1rem,1.8vw,1.22rem);font-weight:500;letter-spacing:-.012em;color:var(--w92);
-  transition:color .3s}
+/* ═══════════════ 10 · faq ═══════════════ */
+.faq{margin-top:40px;border-top:1px solid var(--hair-i)}
+.qa{border-bottom:1px solid var(--hair-i2)}
+.qa summary{list-style:none;cursor:pointer;padding:21px 44px 21px 0;position:relative;
+  font-size:clamp(1rem,1.7vw,1.18rem);font-weight:500;letter-spacing:-.012em;transition:color .3s}
 .qa summary::-webkit-details-marker{display:none}
-.qa summary:hover{color:var(--sand)}
-.qa summary::after{content:"";position:absolute;right:6px;top:50%;width:11px;height:11px;
+.qa summary:hover{color:var(--sand-deep)}
+.qa summary::after{content:"";position:absolute;right:6px;top:50%;width:10px;height:10px;
   border-right:1.5px solid currentColor;border-bottom:1.5px solid currentColor;
-  transform:translateY(-70%) rotate(45deg);transition:transform .34s var(--ease);opacity:.6}
+  transform:translateY(-70%) rotate(45deg);transition:transform .34s var(--ez);opacity:.55}
 .qa[open] summary::after{transform:translateY(-30%) rotate(225deg)}
-.qa .a{padding:0 60px 26px 0;font-size:14.5px;line-height:1.72;color:var(--w55);
-  animation:qopen .45s var(--ease)}
+.qa .a{padding:0 60px 24px 0;font-size:14.3px;line-height:1.72;color:var(--ink2);
+  animation:qopen .4s var(--ez)}
 @keyframes qopen{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:none}}
 
-/* ── closing + footer ───────────────────────────────── */
-.closing{text-align:center;min-height:80vh;display:flex;flex-direction:column;justify-content:center}
-.closing h2{font-size:clamp(2rem,5.6vw,4.2rem);max-width:16ch;margin:0 auto}
+/* ═══════════════ closing + footer ═══════════════ */
+.close-wrap{padding:clamp(40px,6vh,72px) var(--inset) var(--inset)}
+.closing{min-height:74vh;display:flex;flex-direction:column;justify-content:center;
+  text-align:center;padding:clamp(70px,9vh,110px) clamp(20px,4vw,56px)}
+#gal{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+.closing h2{position:relative;color:var(--w);font-size:clamp(2rem,5.2vw,4rem);max-width:16ch;margin:0 auto}
 .closing h2 em{color:var(--sand)}
-.closing .ctas{display:flex;gap:13px;justify-content:center;flex-wrap:wrap;margin-top:36px}
-.closing .alt{font-family:var(--mono);font-size:11.5px;letter-spacing:.06em;color:var(--w38);margin-top:24px}
+.closing .ctas{position:relative;display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:34px}
+.closing .alt{position:relative;font-family:var(--mono);font-size:11px;letter-spacing:.05em;
+  color:var(--w50);margin-top:22px;text-shadow:0 1px 10px rgba(0,0,0,.8)}
 .closing .alt a{color:var(--sand);border-bottom:1px solid transparent;transition:.3s}
 .closing .alt a:hover{border-color:var(--sand)}
-footer{position:relative;z-index:2;border-top:1px solid var(--hair2);
-  padding:56px clamp(20px,5vw,56px) 64px;background:linear-gradient(180deg,transparent,rgba(8,10,14,.7))}
+footer{background:var(--ink);color:rgba(255,255,255,.6);
+  padding:56px clamp(20px,4.5vw,48px) 60px}
 .fgrid{max-width:var(--wrap);margin:0 auto;display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:36px}
-.fbrand{font-family:var(--serif);font-size:1.6rem;letter-spacing:-.01em;color:var(--w92)}
-.fgrid p,.fgrid a{font-size:13.2px;line-height:1.72;color:var(--w38)}
-.fgrid h5{font-family:var(--mono);font-size:9.5px;letter-spacing:.2em;text-transform:uppercase;
+.fbrand{font-family:var(--serif);font-size:1.6rem;color:#fff}
+.fgrid p,.fgrid a{font-size:13px;line-height:1.72;color:rgba(255,255,255,.44)}
+.fgrid h5{font-family:var(--mono);font-size:9px;letter-spacing:.2em;text-transform:uppercase;
   color:var(--sand);margin-bottom:14px}
 .fgrid a{display:block;transition:color .3s;width:fit-content}
-.fgrid a:hover{color:var(--w92)}
-.fbar{max-width:var(--wrap);margin:40px auto 0;padding-top:22px;border-top:1px solid var(--hair2);
+.fgrid a:hover{color:#fff}
+.fbar{max-width:var(--wrap);margin:40px auto 0;padding-top:22px;border-top:1px solid rgba(255,255,255,.1);
   display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
-  font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;color:var(--w38)}
-.fbar a{color:var(--w38)}.fbar a:hover{color:var(--sand)}
+  font-family:var(--mono);font-size:10px;letter-spacing:.06em;color:rgba(255,255,255,.36)}
+.fbar a{color:rgba(255,255,255,.36)}
+.fbar a:hover{color:var(--sand)}
 @media(max-width:760px){.fgrid{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
-
-<canvas id="stage" aria-hidden="true"></canvas>
-<div id="veil" aria-hidden="true"></div>
 <div id="grain" aria-hidden="true"></div>
 <div id="prog" aria-hidden="true"></div>
 
-<!-- ══════ NAV ══════ -->
+<!-- ══════ nav ══════ -->
 <header id="nav">
+  <span class="pillbg" aria-hidden="true"></span>
   <a class="brand" href="#top">
     <svg class="mk" viewBox="0 0 32 32" aria-hidden="true">
-      <circle cx="16" cy="16" r="14.6" fill="none" stroke="#E9C79B" stroke-width="1.1"/>
-      <circle cx="16" cy="16" r="4.4" fill="none" stroke="#E9C79B" stroke-width="1.1" opacity=".85"/>
-      <circle cx="16" cy="16" r="9.4" fill="none" stroke="#E9C79B" stroke-width=".8" opacity=".5"/>
+      <circle cx="16" cy="16" r="14.6" fill="none" stroke="currentColor" stroke-width="1.2" opacity=".9"/>
+      <circle cx="16" cy="16" r="9.2" fill="none" stroke="currentColor" stroke-width=".8" opacity=".45"/>
+      <circle cx="16" cy="16" r="4.2" fill="none" stroke="currentColor" stroke-width="1.2" opacity=".9"/>
     </svg>
-    <span class="t">Salon Malone</span>
+    <span>Salon Malone</span>
   </a>
-  <nav class="nlinks">
+  <nav class="nlinks" aria-label="Sections">
     <a href="#call">The call</a>
     <a href="#how">How it works</a>
     <a href="#math">The math</a>
@@ -429,68 +500,74 @@ footer{position:relative;z-index:2;border-top:1px solid var(--hair2);
 
 <main id="top">
 
-<!-- ══════ HERO ══════ -->
+<!-- ══════ hero ══════ -->
 <section id="hero">
-  <div class="wrap">
-    <h1 class="h1">
-      <span class="hw" style="--w:0"><span>Your</span></span>
-      <span class="hw" style="--w:1"><span>dead</span></span>
-      <span class="hw" style="--w:2"><span>client</span></span>
-      <span class="hw" style="--w:3"><span>list</span></span>
-      <span class="hw" style="--w:4"><span>is</span></span>
-      <span class="hw" style="--w:5"><span><em>buried</em></span></span>
-      <span class="hw" style="--w:6"><span><em>money.</em></span></span>
-    </h1>
-    <p class="hero-sub">Voice agents you can actually manage — with human guardrails, in plain sight.</p>
-
-    <div class="hero-ctas">
-      <a class="cta" href="https://buy.stripe.com/dRm8wPcludxHfPZ7PFebu42">Start the pilot — $299</a>
-      <a class="cta ghost" href="https://www.startup25.com/start">Size it first →</a>
+  <div class="stagep">
+    <div class="aur sand" style="width:640px;height:640px;top:-200px;left:-140px"></div>
+    <div class="aur rose" style="width:520px;height:520px;bottom:-180px;right:-120px"></div>
+    <div class="hi">
+      <h1 class="h1" data-rise>Your dead client list is <em>buried money.</em></h1>
+      <p class="hero-sub">Voice agents you can actually manage — with human guardrails, in plain sight.</p>
+      <div class="orb-wrap">
+        <canvas id="orb" aria-hidden="true"></canvas>
+        <div class="orb-ui">
+          <button class="hear-btn" id="hearbtn">
+            <span class="eq" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+            <span id="hearlabel">Hear a turn</span>
+          </button>
+          <p class="orb-line" id="orbline" aria-live="polite">Tap to watch a booking happen.</p>
+        </div>
+      </div>
+      <div class="hero-ctas">
+        <a class="cta" href="https://buy.stripe.com/dRm8wPcludxHfPZ7PFebu42">Start the pilot — $299</a>
+        <a class="cta ghost" href="https://www.startup25.com/start">Size it first →</a>
+      </div>
+      <div class="hstats">
+        <div class="hstat"><b>90 sec</b><span>Target call</span></div>
+        <div class="hstat"><b>1</b><span>Attempt, ever</span></div>
+        <div class="hstat"><b>9–7</b><span>Local hours</span></div>
+      </div>
+      <p class="hero-note">A visualisation of a scripted turn, not a recording — there is no audio on this
+        page. The wording is what the concierge actually says.</p>
     </div>
-
-    <div class="hear">
-      <button class="hear-btn" id="hearbtn" aria-controls="chat">
-        <span class="eq" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
-        <span id="hearlabel">Hear a turn</span>
-      </button>
-      <span class="hear-line" id="hearline">Tap to watch a booking happen.</span>
-    </div>
-
-    <div class="hstats">
-      <div class="hstat"><b>90 sec</b><span>Target call</span></div>
-      <div class="hstat"><b>1</b><span>Attempt, ever</span></div>
-      <div class="hstat"><b>9–7</b><span>Local hours</span></div>
-    </div>
-
-    <p class="hero-note">A visualisation of a scripted turn, not a recording — there is no audio on this page.
-      The wording is what the concierge actually says.</p>
+    <div class="scue" aria-hidden="true"><span>Scroll</span><i></i></div>
   </div>
 </section>
 
-<!-- ══════ THE CALL ══════ -->
-<section id="call" data-phase="0.20">
-  <div class="wrap narrow">
-    <p class="eyebrow rv">The call</p>
-    <h2 class="rv d1">What Malone <em>actually says</em></h2>
-    <p class="lede rv d2">It opens honest, makes one offer, names two concrete times and takes the first yes.
-      A warm no ends the call with no rebuttal.</p>
-
-    <div class="phone rv d2">
-      <div class="phone-h"><span class="dot"></span><b>Ridgeline Hair</b><span class="t mono" id="calltime">0:00</span></div>
-      <div class="chat" id="chat">
-        <div class="msg m-a"><span class="who">Malone</span>Hi Dana, this is the virtual concierge calling from Ridgeline Hair. It's been a while since your last visit, so they asked me to reach out with something. Have you got twenty seconds?</div>
-        <div class="msg m-h"><span class="who">Dana</span>Oh — hi. Hang on, is this a real person?</div>
-        <div class="msg m-a"><span class="who">Malone</span>I'm a virtual assistant for Ridgeline Hair — a real human takes care of you in the chair.</div>
-        <div class="msg m-h"><span class="who">Dana</span>Ha. You're very polite for a robot.</div>
-        <div class="msg m-a"><span class="who">Malone</span>I've been practising. Here's the thing — they saved you a complimentary gloss with your next cut. Thursday at two, or Saturday morning at ten?</div>
-        <div class="msg m-h"><span class="who">Dana</span>Saturday could work, I think.</div>
-        <div class="msg m-a"><span class="who">Malone</span>Saturday at ten it is. I'll note it down and the desk will confirm with you. Take care, Dana.</div>
+<!-- ══════ 01 · the call ══════ -->
+<section id="call">
+  <div class="wrap chapter">
+    <div class="rv"><p class="eyebrow"><b>01</b><i></i>The call</p></div>
+    <h2 data-rise>What Malone <em>actually says</em></h2>
+    <p class="lede rv d1">It opens honest, makes one offer, names two concrete times and takes the first yes.
+      A warm no ends the call with no rebuttal. Keep scrolling — the call plays as you go.</p>
+  </div>
+  <div class="pin" id="pin-call" style="--pinh:320vh">
+    <div class="hold">
+      <div class="stagep callstage">
+        <canvas id="rings" aria-hidden="true"></canvas>
+        <div class="aur sand" style="width:560px;height:560px;top:-160px;right:-120px"></div>
+        <div class="phone">
+          <div class="phone-h"><span class="dot"></span><b>Ridgeline Hair</b><span class="t mono" id="calltime">0:00</span></div>
+          <div class="chat" id="chat">
+            <div class="msg m-a"><span class="who">Malone</span>Hi Dana, this is the virtual concierge calling from Ridgeline Hair. It's been a while since your last visit, so they asked me to reach out with something. Have you got twenty seconds?</div>
+            <div class="msg m-h"><span class="who">Dana</span>Oh — hi. Hang on, is this a real person?</div>
+            <div class="msg m-a"><span class="who">Malone</span>I'm a virtual assistant for Ridgeline Hair — a real human takes care of you in the chair.</div>
+            <div class="msg m-h"><span class="who">Dana</span>Ha. You're very polite for a robot.</div>
+            <div class="msg m-a"><span class="who">Malone</span>I've been practising. Here's the thing — they saved you a complimentary gloss with your next cut. Thursday at two, or Saturday morning at ten?</div>
+            <div class="msg m-h"><span class="who">Dana</span>Saturday could work, I think.</div>
+            <div class="msg m-a"><span class="who">Malone</span>Saturday at ten it is. I'll note it down and the desk will confirm with you. Take care, Dana.</div>
+          </div>
+        </div>
+        <span class="booked" id="booked">Saturday 10:00 — booked · email sent</span>
+        <span class="scrollhint" id="scrollhint">Scroll to play</span>
       </div>
     </div>
-    <p class="caption rv">An example script, not a recording. The lines are the ones Malone is built to say — the salon,
-      the client and the offer are invented for this page. Nothing here is a real call, and no client of ours
-      appears on this site.</p>
-
+  </div>
+  <div class="wrap" style="padding-top:16px">
+    <p class="caption rv">An example script, not a recording. The lines are the ones Malone is built to say —
+      the salon, the client and the offer are invented for this page. Nothing here is a real call, and no
+      client of ours appears on this site.</p>
     <div class="oc-grid">
       <article class="oc rv d1"><h3>If it is a no</h3>
         <p class="said">“All love — the chair's here when you're ready.”</p>
@@ -506,33 +583,52 @@ footer{position:relative;z-index:2;border-top:1px solid var(--hair2);
   </div>
 </section>
 
-<!-- ══════ UNDER THE CALL ══════ -->
-<section id="how" data-phase="0.32">
-  <div class="wrap">
-    <p class="eyebrow rv">Under the call</p>
-    <h2 class="rv d1">It listens on a <em>budget of milliseconds</em></h2>
-    <p class="lede rv d2">A turn has to land inside about nine hundred milliseconds or the pause sounds wrong to a
-      human ear. That single constraint picks every part of the stack.</p>
-
-    <div class="nugs">
-      <article class="nug rv d1"><span class="n-val">~900 ms</span><span class="n-key">Turn budget</span>
-        <p class="n-why">Past roughly this, a person hears the gap and knows what they are talking to. It is the
-          constraint every other number here was chosen to fit inside.</p></article>
-      <article class="nug rv d2"><span class="n-val">nova-2-phonecall</span><span class="n-key">Transcriber</span>
-        <p class="n-why">Trained on 8 kHz telephony rather than studio audio. A general-purpose speech model hears
-          a phone line as damage and spends its accuracy repairing it.</p></article>
-      <article class="nug rv d3"><span class="n-val">120</span><span class="n-key">Max reply tokens</span>
-        <p class="n-why">A hard cap, not a suggestion. Long answers are exactly what makes a voice agent sound like
-          it is reading to you, and the cap is cheaper than a prompt asking nicely.</p></article>
-      <article class="nug rv d4"><span class="n-val">0.3 s</span><span class="n-key">Endpointing wait</span>
-        <p class="n-why">Semantic, not silence-based: it predicts where your sentence ends instead of waiting out a
-          gap. Most of the perceived lag in a voice agent hides in that wait.</p></article>
-      <article class="nug rv d5"><span class="n-val">180 s</span><span class="n-key">Hard ceiling</span>
-        <p class="n-why">The call ends itself. Nobody is ever kept on the phone by a machine that will not stop, and
-          the agent has a hang-up tool so it does not have to wait to be released.</p></article>
+<!-- ══════ 02 · under the call ══════ -->
+<section id="how">
+  <div class="wrap chapter">
+    <div class="rv"><p class="eyebrow"><b>02</b><i></i>Under the call</p></div>
+    <h2 data-rise>It listens on a <em>budget of milliseconds</em></h2>
+    <p class="lede rv d1">A turn has to land inside about nine hundred milliseconds or the pause sounds wrong
+      to a human ear. That single constraint picks every part of the stack — scroll and it picks them one
+      at a time.</p>
+  </div>
+  <div class="pin" id="pin-sci" style="--pinh:340vh">
+    <div class="hold">
+      <div class="stagep scistage">
+        <div class="sci-top">
+          <span class="tt">The stack, chosen by <em>one number</em></span>
+          <span class="mono">live figure · synthesised</span>
+        </div>
+        <div class="spectro-box">
+          <canvas id="spectro" aria-hidden="true"></canvas>
+          <p class="spectro-cap">A synthesised voice signal, drawn for this figure — speech-shaped bursts and
+            pauses, nothing more. Not audio from a real call: no client of ours appears on this site.</p>
+        </div>
+        <div class="nug-deck" id="nugdeck">
+          <article class="nug"><span class="n-val">~900 ms</span><span class="n-key">Turn budget</span>
+            <p class="n-why">Past roughly this, a person hears the gap and knows what they are talking to.
+              It is the constraint every other number here was chosen to fit inside.</p></article>
+          <article class="nug"><span class="n-val">nova-2-phonecall</span><span class="n-key">Transcriber</span>
+            <p class="n-why">Trained on 8 kHz telephony rather than studio audio. A general-purpose speech
+              model hears a phone line as damage and spends its accuracy repairing it.</p></article>
+          <article class="nug"><span class="n-val">120</span><span class="n-key">Max reply tokens</span>
+            <p class="n-why">A hard cap, not a suggestion. Long answers are exactly what makes a voice agent
+              sound like it is reading to you, and the cap is cheaper than a prompt asking nicely.</p></article>
+          <article class="nug"><span class="n-val">0.3 s</span><span class="n-key">Endpointing wait</span>
+            <p class="n-why">Semantic, not silence-based: it predicts where your sentence ends instead of
+              waiting out a gap. Most of the perceived lag in a voice agent hides in that wait.</p></article>
+          <article class="nug"><span class="n-val">180 s</span><span class="n-key">Hard ceiling</span>
+            <p class="n-why">The call ends itself. Nobody is ever kept on the phone by a machine that will
+              not stop, and the agent has a hang-up tool so it does not have to wait to be released.</p></article>
+        </div>
+        <div class="nug-rail" id="nugrail" aria-hidden="true">
+          <button tabindex="-1"></button><button tabindex="-1"></button><button tabindex="-1"></button><button tabindex="-1"></button><button tabindex="-1"></button>
+        </div>
+      </div>
     </div>
-
-    <div class="specs rv d2">
+  </div>
+  <div class="wrap" style="padding-top:16px">
+    <div class="specs rv">
       <div><span class="s-k">Turn budget (target)</span><span class="s-v">~900 ms</span></div>
       <div><span class="s-k">Transcriber</span><span class="s-v">nova-2-phonecall</span></div>
       <div><span class="s-k">Reasoning model</span><span class="s-v">gpt-4o-mini</span></div>
@@ -544,224 +640,246 @@ footer{position:relative;z-index:2;border-top:1px solid var(--hair2);
       <div><span class="s-k">Concurrent lines</span><span class="s-v">8</span></div>
       <div><span class="s-k">Attempts per contact</span><span class="s-v">1, ever</span></div>
     </div>
-    <p class="caption rv">Every figure above is read out of the running configuration, not retyped for the website —
-      the assistant that places your calls is built from the same object.</p>
+    <p class="caption rv">Every figure above is read out of the running configuration, not retyped for the
+      website — the assistant that places your calls is built from the same object.</p>
   </div>
 </section>
 
-<!-- ══════ SIX STEPS ══════ -->
-<section id="runs" data-phase="0.44">
-  <div class="wrap">
-    <p class="eyebrow rv">How it runs</p>
-    <h2 class="rv d1">Six steps, <em>then it is quiet</em></h2>
-    <p class="lede rv d2">Upload, scrub, dial, book, report. There is no dashboard to learn and nothing for your
-      clients to install.</p>
-    <ol class="steps">
+<!-- ══════ 03 · six steps ══════ -->
+<section id="runs">
+  <div class="wrap chapter">
+    <div class="rv"><p class="eyebrow"><b>03</b><i></i>How it runs</p></div>
+    <h2 data-rise>Six steps, <em>then it is quiet</em></h2>
+    <p class="lede rv d1">Upload, scrub, dial, book, report. There is no dashboard to learn and nothing for
+      your clients to install.</p>
+    <ol class="steps" id="steps">
       <li class="rv d1"><span class="n">01</span><h3>Tell us about the salon</h3>
-        <p>Two minutes on the start form: the salon, your timezone, your average ticket, roughly how many clients
-          have drifted, and the offer you want Malone to make. The form tells you which plan fits before you pay
-          for anything.</p></li>
+        <p>Two minutes on the start form: the salon, your timezone, your average ticket, roughly how many
+          clients have drifted, and the offer you want Malone to make. The form tells you which plan fits
+          before you pay for anything.</p></li>
       <li class="rv d2"><span class="n">02</span><h3>Send the list</h3>
-        <p>Export the clients who have not booked in six months — a CSV from whatever your booking software is.
-          We find the columns ourselves: name, phone, last visit, consent. There is no template to fill in and no
-          mapping screen.</p></li>
+        <p>Export the clients who have not booked in six months — a CSV from whatever your booking software
+          is. We find the columns ourselves: name, phone, last visit, consent. There is no template to fill
+          in and no mapping screen.</p></li>
       <li class="rv d3"><span class="n">03</span><h3>We scrub it before anyone rings</h3>
-        <p>Rows without consent are dropped. Bad numbers are dropped. Anyone on the do-not-call list is dropped.
-          You see the counts for every reason before a single call goes out.</p></li>
+        <p>Rows without consent are dropped. Bad numbers are dropped. Anyone on the do-not-call list is
+          dropped. You see the counts for every reason before a single call goes out.</p></li>
       <li class="rv d1"><span class="n">04</span><h3>Malone calls, inside your hours</h3>
         <p>One attempt per person, ever, in your salon's local time. Malone opens by saying it is a virtual
           concierge, offers two concrete times, and takes the first yes.</p></li>
       <li class="rv d2"><span class="n">05</span><h3>You get the email immediately</h3>
-        <p>Name, phone, the slot they asked for, and what was said. It lands while the chair is still open, so your
-          front desk can confirm it the same hour.</p></li>
+        <p>Name, phone, the slot they asked for, and what was said. It lands while the chair is still open,
+          so your front desk can confirm it the same hour.</p></li>
       <li class="rv d3"><span class="n">06</span><h3>Friday, the arithmetic</h3>
-        <p>One email: dialled, reached, booked, opted out, and recovered revenue at your average ticket. If the
-          number is bad, you will see it on Friday, not in six months.</p></li>
+        <p>One email: dialled, reached, booked, opted out, and recovered revenue at your average ticket.
+          If the number is bad, you will see it on Friday, not in six months.</p></li>
     </ol>
   </div>
 </section>
 
-<!-- ══════ TWO FILES ══════ -->
-<section id="send" data-phase="0.50">
-  <div class="wrap">
-    <p class="eyebrow rv">What you send</p>
-    <h2 class="rv d1">Two files. <em>That is the whole list.</em></h2>
-    <p class="lede rv d2">No integration, no template, no mapping screen, nothing for your front desk to learn.
-      Export the clients who drifted and send the file.</p>
+<!-- ══════ 04 · two files ══════ -->
+<section id="send">
+  <div class="wrap chapter">
+    <div class="rv"><p class="eyebrow"><b>04</b><i></i>What you send</p></div>
+    <h2 data-rise>Two files. <em>That is the whole list.</em></h2>
+    <p class="lede rv d1">No integration, no template, no mapping screen, nothing for your front desk to
+      learn. Export the clients who drifted and send the file.</p>
     <div class="formats">
       <div class="fmt rv d1"><b>.csv</b><span>Any booking software export</span></div>
       <div class="fmt rv d2"><b>.pdf</b><span>Client lists as printed</span><i>Shipping next</i></div>
     </div>
     <ol class="pipe">
-      <li class="rv d1"><h3>We find the columns</h3><p>No template, no mapping screen. Name, phone, last visit and
-        consent get located in whatever your software called them.</p></li>
-      <li class="rv d2"><h3>We drop what we cannot call</h3><p>No consent, unusable number, already on the
-        do-not-call list, duplicate of a row above it. Every drop is counted with a reason.</p></li>
-      <li class="rv d3"><h3>You see the count first</h3><p>Before a single call goes out you get the scrub report:
-        how many survived, how many did not, and why.</p></li>
-      <li class="rv d4"><h3>Then we ship</h3><p>The campaign runs inside your hours. You get an email per
-        booking.</p></li>
+      <li style="--pi:0"><h3>We find the columns</h3><p>No template, no mapping screen. Name,
+        phone, last visit and consent get located in whatever your software called them.</p></li>
+      <li style="--pi:1"><h3>We drop what we cannot call</h3><p>No consent, unusable number,
+        already on the do-not-call list, duplicate of a row above it. Every drop is counted with a
+        reason.</p></li>
+      <li style="--pi:2"><h3>You see the count first</h3><p>Before a single call goes out you
+        get the scrub report: how many survived, how many did not, and why.</p></li>
+      <li style="--pi:3"><h3>Then we ship</h3><p>The campaign runs inside your hours. You get
+        an email per booking.</p></li>
     </ol>
   </div>
 </section>
 
-<!-- ══════ STATEMENT ══════ -->
-<section class="scene" id="guarantee" data-phase="0.56">
-  <div class="wrap narrow">
-    <p class="statement rv">Every guardrail is a line of code, <em>not a promise</em>.</p>
-    <p class="statement-sub rv d1">An agent that phones your clients is only worth having if it cannot become a
-      nuisance. So the limits are enforced where the call is placed — not written in a policy document.</p>
+<!-- ══════ statement scene ══════ -->
+<div class="scene-wrap">
+  <div class="stagep scene" data-morph="dust1">
+    <canvas id="dust1" aria-hidden="true"></canvas>
+    <p class="statement" data-rise>Every guardrail is a line of code, <em>not a promise</em>.</p>
+    <p class="statement-sub rv d1">An agent that phones your clients is only worth having if it cannot
+      become a nuisance. So the limits are enforced where the call is placed — not written in a policy
+      document.</p>
     <div class="claims">
-      <div class="rv d1"><b>One call, ever</b><span>A condition in the query that picks who to dial. There is no
-        retry queue.</span></div>
-      <div class="rv d2"><b>Consent or nothing</b><span>Unconsented rows are dropped at import and never reach the
-        queue.</span></div>
-      <div class="rv d3"><b>Stop means stop</b><span>Written to a global do-not-call list mid-call, before the
-        report is accepted.</span></div>
+      <div class="rv d1"><b>One call, ever</b><span>A condition in the query that picks who to dial.
+        There is no retry queue.</span></div>
+      <div class="rv d2"><b>Consent or nothing</b><span>Unconsented rows are dropped at import and never
+        reach the queue.</span></div>
+      <div class="rv d3"><b>Stop means stop</b><span>Written to a global do-not-call list mid-call, before
+        the report is accepted.</span></div>
     </div>
   </div>
-</section>
+</div>
 
-<!-- ══════ THE ARITHMETIC ══════ -->
-<section id="math" data-phase="0.68">
-  <div class="wrap">
-    <p class="eyebrow rv">The arithmetic</p>
-    <h2 class="rv d1">Empty chairs, <em>priced honestly</em></h2>
-    <p class="lede rv d2">A two-chair salon, $120 average ticket, eighteen months of clients who drifted off.
-      Every number below is an assumption we picked to show the shape of the arithmetic.</p>
-    <ol class="funnel" id="funnel">
-      <li style="--fw:100%"><span class="fl">Names exported from the booking system</span>
-        <span class="fn" data-to="1200">0</span><span class="fr">your list</span></li>
-      <li style="--fw:62%"><span class="fl">Survive the scrub (consent + valid phone)</span>
-        <span class="fn" data-to="740">0</span><span class="fr">we drop the rest</span></li>
-      <li style="--fw:22%"><span class="fl">Answer the phone</span>
-        <span class="fn" data-to="260">0</span><span class="fr">35% of dials</span></li>
-      <li style="--fw:9%"><span class="fl">Book a specific time</span>
-        <span class="fn" data-to="31">0</span><span class="fr">12% of conversations</span></li>
-      <li style="--fw:6%"><span class="fl">Actually sit in the chair</span>
-        <span class="fn" data-to="25">0</span><span class="fr">80% show rate</span></li>
-      <li class="last" style="--fw:100%"><span class="fl">Recovered revenue, month one</span>
-        <span class="fn" data-to="3000" data-prefix="$">$0</span><span class="fr">25 shows × $120</span></li>
-    </ol>
-    <p class="caption rv">Against $399 for the month. Two numbers on purpose: our Friday email counts booked visits
-      at your ticket — 31 × $120 is $3,720 — and the $3,000 above is that same month if only 25 of them show.
-      No-shows count in ours, so your book is the last word. Your list, your offer and your show rate will move
-      every line — up or down. We report the real ones every Friday.</p>
+<!-- ══════ 05 · the arithmetic ══════ -->
+<section id="math">
+  <div class="wrap chapter">
+    <div class="rv"><p class="eyebrow"><b>05</b><i></i>The arithmetic</p></div>
+    <h2 data-rise>Empty chairs, <em>priced honestly</em></h2>
+    <p class="lede rv d1">A two-chair salon, $120 average ticket, eighteen months of clients who drifted
+      off. Every number below is an assumption we picked to show the shape of the arithmetic — scroll,
+      and the list narrows to the chair.</p>
+  </div>
+  <div class="pin" id="pin-math" style="--pinh:300vh">
+    <div class="hold">
+      <div class="stagep mathstage">
+        <canvas id="cone" aria-hidden="true"></canvas>
+        <div class="math-left">
+          <ol class="funnel" id="funnel">
+            <li style="--fw:100%"><span class="fl">Names exported from the booking system</span>
+              <span class="fn" data-to="1200">0</span><span class="fr">your list</span></li>
+            <li style="--fw:62%"><span class="fl">Survive the scrub (consent + valid phone)</span>
+              <span class="fn" data-to="740">0</span><span class="fr">we drop the rest</span></li>
+            <li style="--fw:22%"><span class="fl">Answer the phone</span>
+              <span class="fn" data-to="260">0</span><span class="fr">35% of dials</span></li>
+            <li style="--fw:9%"><span class="fl">Book a specific time</span>
+              <span class="fn" data-to="31">0</span><span class="fr">12% of conversations</span></li>
+            <li style="--fw:6%"><span class="fl">Actually sit in the chair</span>
+              <span class="fn" data-to="25">0</span><span class="fr">80% show rate</span></li>
+            <li class="last" style="--fw:100%"><span class="fl">Recovered revenue, month one</span>
+              <span class="fn" data-to="3000" data-prefix="$">$0</span><span class="fr">25 shows × $120</span></li>
+          </ol>
+        </div>
+        <div class="math-right" aria-hidden="true"></div>
+      </div>
+    </div>
+  </div>
+  <div class="wrap" style="padding-top:16px">
+    <p class="caption rv">Against $399 for the month. Two numbers on purpose: our Friday email counts booked
+      visits at your ticket — 31 × $120 is $3,720 — and the $3,000 above is that same month if only 25 of
+      them show. No-shows count in ours, so your book is the last word. Your list, your offer and your show
+      rate will move every line — up or down. We report the real ones every Friday.</p>
   </div>
 </section>
 
-<!-- ══════ THE RULES ══════ -->
-<section id="safe" data-phase="0.72">
-  <div class="wrap">
-    <p class="eyebrow rv">Legal &amp; safe</p>
-    <h2 class="rv d1">The rules are <em>in the code</em></h2>
-    <p class="lede rv d2">Six things the system will not do — each enforced where the call is actually placed, and
-      each checked in more than one place.</p>
+<!-- ══════ 06 · rules ══════ -->
+<section id="safe">
+  <div class="wrap chapter">
+    <div class="rv"><p class="eyebrow"><b>06</b><i></i>Legal &amp; safe</p></div>
+    <h2 data-rise>The rules are <em>in the code</em></h2>
+    <p class="lede rv d1">Six things the system will not do — each enforced where the call is actually
+      placed, and each checked in more than one place.</p>
     <div class="guards">
-      <article class="guard rv d1"><h3>No consent, no call</h3><p>Consent is a gate at import, not a policy in a
-        document. A row that is not marked consented is dropped before it can enter the dial queue, and you see the
-        dropped count with a reason for every row.</p></article>
-      <article class="guard rv d2"><h3>Opt-out is instant and global</h3><p>“Take me off the list” writes to a
-        do-not-call list shared across every salon we run, before the call report is even accepted. That number is
-        never dialled again, by us, for anyone.</p></article>
-      <article class="guard rv d3"><h3>One attempt per person, ever</h3><p>Not a retry policy — a condition in the
-        query that picks who to call. There is no second pass, no drip, no next-month list. If the window closes
-        before we reach them, the attempt is given back, not spent.</p></article>
-      <article class="guard rv d1"><h3>Your hours, not ours</h3><p>The calling window is evaluated in each salon's
-        own timezone. A timezone we cannot read fails closed: no call goes out at all rather than one going out at
-        the wrong hour.</p></article>
-      <article class="guard rv d2"><h3>Malone says what it is</h3><p>The disclosure is in the opening line and
-        repeated whenever anyone asks. It never claims to be a person, never argues, and hands anything off-topic
-        back to your front desk number.</p></article>
-      <article class="guard rv d3"><h3>Voice and email only</h3><p>No SMS, no chatbot, no app for your clients to
-        install. The only two things that ever happen are a phone call to them and an email to you.</p></article>
+      <article class="guard rv d1"><h3>No consent, no call</h3><p>Consent is a gate at import, not a policy
+        in a document. A row that is not marked consented is dropped before it can enter the dial queue,
+        and you see the dropped count with a reason for every row.</p></article>
+      <article class="guard rv d2"><h3>Opt-out is instant and global</h3><p>“Take me off the list” writes to
+        a do-not-call list shared across every salon we run, before the call report is even accepted. That
+        number is never dialled again, by us, for anyone.</p></article>
+      <article class="guard rv d3"><h3>One attempt per person, ever</h3><p>Not a retry policy — a condition
+        in the query that picks who to call. There is no second pass, no drip, no next-month list. If the
+        window closes before we reach them, the attempt is given back, not spent.</p></article>
+      <article class="guard rv d1"><h3>Your hours, not ours</h3><p>The calling window is evaluated in each
+        salon's own timezone. A timezone we cannot read fails closed: no call goes out at all rather than
+        one going out at the wrong hour.</p></article>
+      <article class="guard rv d2"><h3>Malone says what it is</h3><p>The disclosure is in the opening line
+        and repeated whenever anyone asks. It never claims to be a person, never argues, and hands anything
+        off-topic back to your front desk number.</p></article>
+      <article class="guard rv d3"><h3>Voice and email only</h3><p>No SMS, no chatbot, no app for your
+        clients to install. The only two things that ever happen are a phone call to them and an email to
+        you.</p></article>
     </div>
     <div class="legal rv d2">
       <b>Read this part twice</b>
       <p>We are engineers, not your lawyers. Outbound calling is regulated — TCPA in the US and its state
-        analogues, with rules on consent, calling hours, disclosure and do-not-call handling — and what counts as
-        valid consent for a voice call is not obvious from a spreadsheet column named “consent”. The gates above are
-        how we built the system; they are not legal advice and they are not a compliance programme. Have your own
-        counsel review the consent language your clients agreed to before the first list is dialled.</p>
+        analogues, with rules on consent, calling hours, disclosure and do-not-call handling — and what
+        counts as valid consent for a voice call is not obvious from a spreadsheet column named “consent”.
+        The gates above are how we built the system; they are not legal advice and they are not a compliance
+        programme. Have your own counsel review the consent language your clients agreed to before the first
+        list is dialled.</p>
     </div>
   </div>
 </section>
 
-<!-- ══════ THE THESIS ══════ -->
-<section id="thesis" data-phase="0.78">
-  <div class="wrap narrow">
-    <p class="eyebrow rv">Why now</p>
-    <h2 class="rv d1">The thesis, <em>unedited</em></h2>
-    <p class="lede rv d2">Why this is a phone call and not another dashboard, in the founder's own words —
-      transcribed as spoken, corrections and all.</p>
-    <div class="note-card rv d2">
+<!-- ══════ 07 · thesis ══════ -->
+<div class="scene-wrap">
+  <div class="stagep thesis-stage">
+    <div class="aur rose" style="width:520px;height:520px;top:-160px;left:-120px"></div>
+    <div class="thesis-head">
+      <div class="rv"><p class="eyebrow"><b>07</b><i></i>Why now</p></div>
+      <h2 data-rise>The thesis, <em>unedited</em></h2>
+      <p class="lede rv d1">Why this is a phone call and not another dashboard, in the founder's own
+        words — transcribed as spoken, corrections and all.</p>
+    </div>
+    <div class="note-card rv d2" id="notecard">
       <div class="note-h"><span>Founder voice note</span><span>· Unedited</span>
-        <span class="wave" aria-hidden="true"><i style="animation-delay:0s"></i><i style="animation-delay:.15s"></i><i style="animation-delay:.3s"></i><i style="animation-delay:.45s"></i><i style="animation-delay:.2s"></i><i style="animation-delay:.35s"></i></span>
+        <span class="wave" aria-hidden="true"><i style="--i:0"></i><i style="--i:1"></i><i style="--i:2"></i><i style="--i:3"></i><i style="--i:4"></i><i style="--i:5"></i><i style="--i:6"></i><i style="--i:7"></i></span>
       </div>
-      <div class="note-body">Yo. So the narrative was start of twenty<span class="um">... no.</span> Start of twenty
-        five. Twenty twenty five is when <span class="um">is when</span> we — <span class="um">Oh, okay.</span>
-        Twenty twenty five is when we crossed AGI, and this agent we're building is for post AGI. It's a complete
-        marketing agent. It does only calls<span class="um">…</span> it actually reaches out to your customers with
-        discounts. And it's purely like a Twilio subscription, and we are building the entire environment around it.
-        That's the promise. Soon, it will have<span class="um">…</span> and this is — required because, like,
-        marketing in the AGI world is going to require a lot of reaching out to, like, humans to actually, like,
-        shell out the money to try out your products. That's how you — specified offers, which only data can
-        provide. Nice. That should be it.</div>
+      <div class="note-body">Yo. So the narrative was start of twenty<span class="um">... no.</span> Start
+        of twenty five. Twenty twenty five is when <span class="um">is when</span> we — <span class="um">Oh,
+        okay.</span> Twenty twenty five is when we crossed AGI, and this agent we're building is for post
+        AGI. It's a complete marketing agent. It does only calls<span class="um">…</span> it actually reaches
+        out to your customers with discounts. And it's purely like a Twilio subscription, and we are building
+        the entire environment around it. That's the promise. Soon, it will have<span class="um">…</span>
+        and this is — required because, like, marketing in the AGI world is going to require a lot of
+        reaching out to, like, humans to actually, like, shell out the money to try out your products.
+        That's how you — specified offers, which only data can provide. Nice. That should be it.</div>
     </div>
   </div>
-</section>
+</div>
 
-<!-- ══════ WHERE THIS GOES ══════ -->
-<section id="future" data-phase="0.82">
-  <div class="wrap">
-    <p class="eyebrow rv">Where this goes</p>
-    <h2 class="rv d1">The <em>marketing harness</em></h2>
-    <p class="lede rv d2">The end of this is a salon that stops running campaigns and starts approving them. One
-      button, one outcome. Below is what is true today and what is intended — the two are labelled, because a
-      roadmap that blurs them is worth nothing to you.</p>
+<!-- ══════ 08 · roadmap ══════ -->
+<section id="future">
+  <div class="wrap chapter">
+    <div class="rv"><p class="eyebrow"><b>08</b><i></i>Where this goes</p></div>
+    <h2 data-rise>The <em>marketing harness</em></h2>
+    <p class="lede rv d1">The end of this is a salon that stops running campaigns and starts approving
+      them. One button, one outcome. Below is what is true today and what is intended — the two are
+      labelled, because a roadmap that blurs them is worth nothing to you.</p>
     <div class="road">
       <article class="rc live rv d1"><span class="rc-tag"><i></i>Today · Live</span>
         <h3>The win-back campaign</h3>
-        <p>One list, scrubbed, called by a concierge that books into your chairs and emails you the moment it lands.</p>
+        <p>One list, scrubbed, called by a concierge that books into your chairs and emails you the moment
+          it lands.</p>
         <ul><li>Consent-gated calling, one attempt per person ever</li>
           <li>Booking email the second someone says yes</li>
           <li>Friday report with recovered revenue at your ticket</li></ul></article>
       <article class="rc rv d2"><span class="rc-tag">Next · Planned</span>
         <h3>Bring us anything</h3>
-        <p>PDFs, printouts, a screenshot of your book. If a human could read the contacts off it, so can we.</p>
+        <p>PDFs, printouts, a screenshot of your book. If a human could read the contacts off it, so can
+          we.</p>
         <ul><li>PDF and image ingest</li><li>The offer drafted for you from your own numbers</li>
           <li>Campaigns on a schedule, no upload at all</li></ul></article>
       <article class="rc rv d3"><span class="rc-tag">Then · Planned</span>
         <h3>The marketing harness</h3>
-        <p>Stop running campaigns. Pick an outcome and approve it. We choose who to call, write the offer, place the
-          calls and report what came back.</p>
+        <p>Stop running campaigns. Pick an outcome and approve it. We choose who to call, write the offer,
+          place the calls and report what came back.</p>
         <ul><li>One button per outcome: fill Tuesday, recover no-shows, recall lapsed memberships</li>
           <li>Birthday, anniversary and seasonal recall running quietly</li>
           <li>Every list you own, worked continuously instead of once</li></ul></article>
       <article class="rc rv d4"><span class="rc-tag">Where it goes · Planned</span>
         <h3>Marketing you approve, not marketing you run</h3>
-        <p>The salon does the thing it is good at. The harness does the reaching out, on every channel the concierge
-          can speak on, and asks permission before it spends anything.</p></article>
+        <p>The salon does the thing it is good at. The harness does the reaching out, on every channel the
+          concierge can speak on, and asks permission before it spends anything.</p></article>
     </div>
-    <p class="caption rv">Only the first block exists today. Everything under “Planned” is what we are building and
-      not what you are buying — the pilot below is priced on the first block alone.</p>
+    <p class="caption rv">Only the first block exists today. Everything under “Planned” is what we are
+      building and not what you are buying — the pilot below is priced on the first block alone.</p>
   </div>
 </section>
 
-<!-- ══════ PRICING (light) ══════ -->
-<section id="pricing" data-phase="0.88">
-  <div class="wrap">
-    <p class="eyebrow rv">Pricing</p>
-    <h2 class="rv d1">Start small. The list decides.</h2>
-    <p class="lede rv d2">Flat prices, no per-minute billing, no per-lead invoices. Monthly plans are month to
-      month — cancel and the calling stops that day.</p>
-
+<!-- ══════ 09 · pricing ══════ -->
+<section id="pricing">
+  <div class="wrap chapter">
+    <div class="rv"><p class="eyebrow"><b>09</b><i></i>Pricing</p></div>
+    <h2 data-rise>Start small. <em>The list decides.</em></h2>
+    <p class="lede rv d1">Flat prices, no per-minute billing, no per-lead invoices. Monthly plans are month
+      to month — cancel and the calling stops that day.</p>
     <div class="pilot rv d2">
       <div>
         <span class="tag">Start here — one time</span>
         <h3>Win-Back Pilot</h3>
-        <p>One list, one campaign, one week. The cheapest honest way to find out what your lapsed clients are
-          actually worth.</p>
+        <p>One list, one campaign, one week. The cheapest honest way to find out what your lapsed clients
+          are actually worth.</p>
         <ul>
           <li>Up to 400 consented contacts dialled</li>
           <li>Offer written with you before we call</li>
@@ -772,10 +890,9 @@ footer{position:relative;z-index:2;border-top:1px solid var(--hair2);
       </div>
       <div class="buy">
         <div class="pr">$299<small>one time, no auto-renew</small></div>
-        <a class="btn-ink" style="margin-top:22px" href="https://buy.stripe.com/dRm8wPcludxHfPZ7PFebu42">Start the pilot →</a>
+        <a class="cta ink" style="margin-top:22px" href="https://buy.stripe.com/dRm8wPcludxHfPZ7PFebu42">Start the pilot →</a>
       </div>
     </div>
-
     <div class="plans">
       <article class="plan rv d1"><h3>Salon</h3><div class="pr">$399<span>/mo</span></div>
         <p>One location, one chair-filling campaign running quietly in the background.</p>
@@ -787,67 +904,72 @@ footer{position:relative;z-index:2;border-top:1px solid var(--hair2);
         <p>Up to ten locations, each with its own offer, own hours and own inbox.</p>
         <a class="choose" href="https://buy.stripe.com/5kQ14n5X68dn1Z9fi7ebu41">Choose Multi-Location →</a></article>
     </div>
-
-    <p class="pnote rv d2">Not sure which? <a href="https://www.startup25.com/start">Start with the questions</a> —
-      the form reads your list size and your ticket back to you with the plan that fits, no card required. Or
-      <a href="https://cal.com/startup25">book a 15-minute call</a> and talk it through first. The pilot comes off
-      your first month of Salon.</p>
+    <p class="pnote rv d2">Not sure which? <a href="https://www.startup25.com/start">Start with the
+      questions</a> — the form reads your list size and your ticket back to you with the plan that fits,
+      no card required. Or <a href="https://cal.com/startup25">book a 15-minute call</a> and talk it
+      through first. The pilot comes off your first month of Salon.</p>
   </div>
 </section>
 
-<!-- ══════ FAQ ══════ -->
-<section id="faq" data-phase="0.96">
-  <div class="wrap narrow">
-    <p class="eyebrow rv">Straight answers</p>
-    <h2 class="rv d1">The questions that <em>actually decide it</em></h2>
-    <div class="faq rv d2">
+<!-- ══════ 10 · faq ══════ -->
+<section id="faq">
+  <div class="wrap chapter" style="max-width:900px">
+    <div class="rv"><p class="eyebrow"><b>10</b><i></i>Straight answers</p></div>
+    <h2 data-rise>The questions that <em>actually decide it</em></h2>
+    <div class="faq rv d1">
       <details class="qa"><summary>Will this annoy my clients?</summary>
-        <div class="a">It is built so it cannot become a nuisance. One call per person, ever — no retry queue, no
-          drip, no second pass next month. Ninety seconds is the target and three minutes is a hard stop. A warm no
-          ends the call immediately, with no rebuttal. It only dials inside the calling window, read in your salon's
-          own timezone — never at 7am, never late. The part that decides whether it is welcome is the offer, and we
-          write that with you before anything dials.</div></details>
+        <div class="a">It is built so it cannot become a nuisance. One call per person, ever — no retry
+          queue, no drip, no second pass next month. Ninety seconds is the target and three minutes is a
+          hard stop. A warm no ends the call immediately, with no rebuttal. It only dials inside the calling
+          window, read in your salon's own timezone — never at 7am, never late. The part that decides
+          whether it is welcome is the offer, and we write that with you before anything dials.</div></details>
       <details class="qa"><summary>Do I need their consent?</summary>
-        <div class="a">Yes, and we enforce it rather than trusting it. Your export needs a consent column; rows that
-          do not say yes are dropped at import and never enter the dial queue, and you get the dropped counts with a
-          reason per row. We cannot manufacture consent for you — it has to be consent your clients actually gave
-          your salon. Have your counsel look at the language they agreed to before the first campaign.</div></details>
+        <div class="a">Yes, and we enforce it rather than trusting it. Your export needs a consent column;
+          rows that do not say yes are dropped at import and never enter the dial queue, and you get the
+          dropped counts with a reason per row. We cannot manufacture consent for you — it has to be consent
+          your clients actually gave your salon. Have your counsel look at the language they agreed to
+          before the first campaign.</div></details>
       <details class="qa"><summary>What if someone asks to be removed?</summary>
-        <div class="a">Malone says “done — you're off the list, be good” and ends the call. That number is written to
-          a global do-not-call list before the call report is accepted, and pulled out of every pending queue we run.
-          If the write ever failed, the report is rejected so it is delivered again — the one thing we will not risk
-          losing is an opt-out. It can never be dialled again, by us, for anyone.</div></details>
+        <div class="a">Malone says “done — you're off the list, be good” and ends the call. That number is
+          written to a global do-not-call list before the call report is accepted, and pulled out of every
+          pending queue we run. If the write ever failed, the report is rejected so it is delivered again —
+          the one thing we will not risk losing is an opt-out. It can never be dialled again, by us, for
+          anyone.</div></details>
       <details class="qa"><summary>Can I hear it before it calls anyone?</summary>
-        <div class="a">Yes, and that is how every account starts. The first campaign we run for you is a one-row
-          list: your own mobile, your salon name, your offer. You pick up, you hear exactly what your clients would
-          hear, and the booking email lands in your inbox. Nothing else is dialled until you say go.</div></details>
+        <div class="a">Yes, and that is how every account starts. The first campaign we run for you is a
+          one-row list: your own mobile, your salon name, your offer. You pick up, you hear exactly what
+          your clients would hear, and the booking email lands in your inbox. Nothing else is dialled until
+          you say go.</div></details>
       <details class="qa"><summary>What if nobody books?</summary>
-        <div class="a">You will know by Friday, in writing, with the dial and answer counts behind it. Usually the
-          offer is the problem rather than the list, so we rewrite it and run the remainder. The pilot is $299 once
-          with no auto-renew, and the monthly plans are month to month — cancel and the calling stops that day. We
-          would rather lose a subscription than defend a bad number.</div></details>
+        <div class="a">You will know by Friday, in writing, with the dial and answer counts behind it.
+          Usually the offer is the problem rather than the list, so we rewrite it and run the remainder.
+          The pilot is $299 once with no auto-renew, and the monthly plans are month to month — cancel and
+          the calling stops that day. We would rather lose a subscription than defend a bad number.</div></details>
       <details class="qa"><summary>Will they know it is not a person?</summary>
-        <div class="a">Yes. Malone says it is the salon's virtual concierge in its opening line, and answers straight
-          away if anyone asks whether it is a bot or a recording. It never claims to be human and it never dodges the
-          question. Anything it cannot handle — prices, anything medical, anything off-topic — goes to your front
-          desk number.</div></details>
+        <div class="a">Yes. Malone says it is the salon's virtual concierge in its opening line, and answers
+          straight away if anyone asks whether it is a bot or a recording. It never claims to be human and
+          it never dodges the question. Anything it cannot handle — prices, anything medical, anything
+          off-topic — goes to your front desk number.</div></details>
       <details class="qa"><summary>How many times will you call one person?</summary>
-        <div class="a">Once. Ever. A win-back campaign that pesters people costs you more goodwill than it recovers,
-          so there is no mechanism in the product to call anyone twice.</div></details>
+        <div class="a">Once. Ever. A win-back campaign that pesters people costs you more goodwill than it
+          recovers, so there is no mechanism in the product to call anyone twice.</div></details>
       <details class="qa"><summary>What happens to my client list?</summary>
-        <div class="a">It is used to run your campaigns and nothing else. We never sell it, share it, or dial it for
-          another salon. Recordings and transcripts stay with our telephony provider — we store the link, not a copy.
-          Ask us and we delete your list. The full detail is in the privacy notice.</div></details>
+        <div class="a">It is used to run your campaigns and nothing else. We never sell it, share it, or
+          dial it for another salon. Recordings and transcripts stay with our telephony provider — we store
+          the link, not a copy. Ask us and we delete your list. The full detail is in the privacy
+          notice.</div></details>
       <details class="qa"><summary>Is there texting?</summary>
-        <div class="a">No. Voice calls and email only. No SMS, no chatbot, no app for your clients to install.</div></details>
+        <div class="a">No. Voice calls and email only. No SMS, no chatbot, no app for your clients to
+          install.</div></details>
     </div>
   </div>
 </section>
 
-<!-- ══════ CLOSING ══════ -->
-<section class="closing" id="start" data-phase="1.0">
-  <div class="wrap narrow">
-    <h2 class="rv">One list. One week. <em>Real numbers.</em></h2>
+<!-- ══════ closing ══════ -->
+<div class="close-wrap" id="start">
+  <div class="stagep closing" data-morph="gal">
+    <canvas id="gal" aria-hidden="true"></canvas>
+    <h2 data-rise>One list. One week. <em>Real numbers.</em></h2>
     <div class="ctas rv d1">
       <a class="cta" href="https://buy.stripe.com/dRm8wPcludxHfPZ7PFebu42">Start the pilot — $299</a>
       <a class="cta ghost" href="https://www.startup25.com/start">Size it first →</a>
@@ -855,15 +977,15 @@ footer{position:relative;z-index:2;border-top:1px solid var(--hair2);
     <p class="alt rv d2">Prefer to talk first? <a href="https://cal.com/startup25">Book a 15-minute call</a>
       &nbsp;·&nbsp; <a href="https://www.startup25.com/start">Or answer the questions online</a></p>
   </div>
-</section>
+</div>
 </main>
 
 <footer>
   <div class="fgrid">
     <div>
       <div class="fbrand">Salon Malone</div>
-      <p style="margin-top:14px">A virtual concierge that phones the clients who quietly stopped booking, offers
-        them a specific time, and emails you the moment one says yes.</p>
+      <p style="margin-top:14px">A virtual concierge that phones the clients who quietly stopped booking,
+        offers them a specific time, and emails you the moment one says yes.</p>
     </div>
     <div><h5>The product</h5>
       <a href="#call">The call</a><a href="#how">Under the call</a><a href="#math">The arithmetic</a>
@@ -883,137 +1005,263 @@ footer{position:relative;z-index:2;border-top:1px solid var(--hair2);
 
 <script type="importmap">{"imports":{"three":"./assets/vendor/three.module.min.js"}}</script>
 <script type="module">
-import { initMalone } from './assets/malone.js';
-const engine = initMalone(document.getElementById('stage'));
+import { createStage } from './assets/stage.js';
 
-/* ---- scroll → scene phase (per-section, so shapes land with their meaning) ---- */
-const smooth=t=>t*t*(3-2*t);
-const scenes=[...document.querySelectorAll('[data-phase]')].map(el=>({el,p:parseFloat(el.dataset.phase)}));
-function phaseAt(){
-  const mid=scrollY+innerHeight/2;
-  const pts=[{p:0.05,c:innerHeight*0.45}].concat(scenes.map(s=>({p:s.p,c:s.el.offsetTop+s.el.offsetHeight/2})));
-  pts.sort((a,b)=>a.c-b.c);
-  if(mid<=pts[0].c) return pts[0].p;
-  const last=pts[pts.length-1]; if(mid>=last.c) return last.p;
-  for(let i=0;i<pts.length-1;i++){
-    if(mid>=pts[i].c&&mid<=pts[i+1].c){
-      const t=(mid-pts[i].c)/((pts[i+1].c-pts[i].c)||1);
-      return pts[i].p+(pts[i+1].p-pts[i].p)*smooth(t);
-    }
-  }
-  return last.p;
+const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+const flat = reduce || innerWidth < 900;      // pins collapse on mobile / reduced motion
+if(flat) document.body.classList.add('flat');
+const clamp=(v,a,b)=>v<a?a:v>b?b:v;
+
+/* ---------- word-rise headings ---------- */
+function splitRise(el){
+  let wi=0;
+  const walk=node=>{
+    [...node.childNodes].forEach(ch=>{
+      if(ch.nodeType===3){
+        const frag=document.createDocumentFragment();
+        ch.textContent.split(/(\s+)/).forEach(tok=>{
+          if(!tok) return;
+          if(/^\s+$/.test(tok)){ frag.appendChild(document.createTextNode(tok)); return; }
+          const w=document.createElement('span'); w.className='w'; w.style.setProperty('--wi',wi++);
+          const s=document.createElement('span'); s.textContent=tok;
+          w.appendChild(s); frag.appendChild(w);
+        });
+        node.replaceChild(frag,ch);
+      } else if(ch.nodeType===1) walk(ch);
+    });
+  };
+  walk(el);
 }
+if(!reduce) document.querySelectorAll('[data-rise]').forEach(splitRise);
+
+/* ---------- reveals ---------- */
+const io=new IntersectionObserver(es=>{es.forEach(en=>{
+  if(!en.isIntersecting) return;
+  en.target.classList.add('in','risen');
+  io.unobserve(en.target);
+});},{threshold:.16,rootMargin:'0px 0px -6% 0px'});
+document.querySelectorAll('.rv,[data-rise],.steps').forEach(el=>io.observe(el));
+requestAnimationFrame(()=>document.querySelector('#hero .h1')?.classList.add('risen'));
+function sweepReveals(){
+  document.querySelectorAll('.rv:not(.in),[data-rise]:not(.risen),.steps:not(.in)').forEach(el=>{
+    if(el.getBoundingClientRect().top < innerHeight*0.94){ el.classList.add('in','risen'); io.unobserve(el); }
+  });
+}
+/* pipe accent bars */
+const pio=new IntersectionObserver(es=>{es.forEach(en=>{
+  if(en.isIntersecting){ en.target.classList.add('in'); pio.unobserve(en.target); }
+});},{threshold:.4});
+document.querySelectorAll('.pipe li').forEach(li=>pio.observe(li));
+
+/* ---------- particle stages ---------- */
+let stages={};
+try{
+  stages.orb  = createStage(document.getElementById('orb'),  {form:'orb',  pointer:true, camZ:6.2, camY:0.15, dim:0.5, halo:0.22, size:13, n:6500});
+  stages.rings= createStage(document.getElementById('rings'),{form:'rings',camZ:7.2, camY:1.1, dim:0.62, spin:0.16, halo:0.18, n:7000});
+  stages.dust = createStage(document.getElementById('dust1'),{form:'dust', camZ:7.2, camY:0.3, dim:0.6, spin:0.05, halo:0.14, n:7000});
+  stages.cone = createStage(document.getElementById('cone'), {form:'cone', from:'dust', camZ:6.4, camY:0.05, dim:innerWidth<1100?0.38:0.9, spin:0.1, halo:innerWidth<1100?0.08:0.16, offX:2.05, n:9000});
+  stages.gal  = createStage(document.getElementById('gal'),  {form:'galaxy', from:'dust', camZ:8.4, camY:2.2, lookY:0.85, dim:0.5, spin:0.2, halo:0.12, n:9000});
+}catch(e){ console.warn('stages off', e); stages={}; }
+
+/* visibility gating */
+const vio=new IntersectionObserver(es=>{es.forEach(en=>{
+  const k=en.target.dataset.stage; if(stages[k]) stages[k].setVisible(en.isIntersecting);
+});},{rootMargin:'12% 0px'});
+[['orb','#orb'],['rings','#rings'],['dust','#dust1'],['cone','#cone'],['gal','#gal']]
+  .forEach(([k,sel])=>{ const c=document.querySelector(sel); if(c){ c.dataset.stage=k; vio.observe(c); } });
+
+/* morph-on-enter panels (statement / closing) */
+const mio=new IntersectionObserver(es=>{es.forEach(en=>{
+  const k=en.target.dataset.morph;
+  if(stages[k]) stages[k].setProgress(en.intersectionRatio*1.5);
+});},{threshold:Array.from({length:21},(_,i)=>i/20)});
+document.querySelectorAll('[data-morph]').forEach(el=>mio.observe(el));
+
+/* ---------- scroll-scrubbed pinned scenes ---------- */
+const msgs=[...document.querySelectorAll('#chat .msg')];
+const clock=document.getElementById('calltime');
+const booked=document.getElementById('booked');
+const shint=document.getElementById('scrollhint');
+function driveCall(p){
+  const k=clamp(Math.floor(p*9.4)-1, 0, 7);          // beat of silence, then 7 lines
+  msgs.forEach((m,i)=>m.classList.toggle('show', i<k));
+  clock.textContent='0:'+String(Math.min(90,Math.round(p*95))).padStart(2,'0');
+  const active=k-1;
+  stages.rings?.setVoice(k>0 && active%2===0 && p<0.93);
+  booked.classList.toggle('on', p>0.9);
+  shint.classList.toggle('off', p>0.04);
+}
+const nugs=[...document.querySelectorAll('#nugdeck .nug')];
+const rail=[...document.querySelectorAll('#nugrail button')];
+function driveSci(p){
+  const a=clamp(Math.floor(p*5.6),0,4);
+  nugs.forEach((n,i)=>n.classList.toggle('on',i===a));
+  rail.forEach((b,i)=>b.classList.toggle('on',i<=a));
+}
+const frows=[...document.querySelectorAll('#funnel li')];
+function countUp(el,instant){
+  if(el.dataset.done) return; el.dataset.done='1';
+  const to=+el.dataset.to, pre=el.dataset.prefix||'';
+  if(instant||reduce){ el.textContent=pre+to.toLocaleString('en-US'); return; }
+  const t0=performance.now(), dur=1100;
+  (function step(now){ const q=Math.min(1,(now-t0)/dur), e=1-Math.pow(1-q,3);
+    el.textContent=pre+Math.round(to*e).toLocaleString('en-US');
+    if(q<1) requestAnimationFrame(step); })(t0);
+}
+function driveMath(p){
+  stages.cone?.setProgress(p*1.4);
+  frows.forEach((li,i)=>{
+    if(p > 0.1+i*0.135){ li.classList.add('on'); countUp(li.querySelector('.fn')); }
+  });
+}
+const PINS=[
+  {el:document.getElementById('pin-call'), fn:driveCall},
+  {el:document.getElementById('pin-sci'),  fn:driveSci},
+  {el:document.getElementById('pin-math'), fn:driveMath},
+];
+function drivePins(){
+  for(const p of PINS){
+    const r=p.el.getBoundingClientRect();
+    const span=p.el.offsetHeight-innerHeight;
+    if(span<=0) continue;
+    if(r.top<innerHeight && r.bottom>0) p.fn(clamp(-r.top/span,0,1));
+    else if(r.bottom<=0) p.fn(1);      // jumped past — settle the scene complete
+  }
+}
+/* flat mode: scenes complete themselves when seen */
+if(flat){
+  const fio=new IntersectionObserver(es=>{es.forEach(en=>{
+    if(!en.isIntersecting) return;
+    const id=en.target.id;
+    if(id==='pin-call'){ msgs.forEach(m=>m.classList.add('show')); clock.textContent='1:30';
+      booked.classList.add('on'); shint.classList.add('off'); }
+    if(id==='pin-sci'){ let i=0; nugs[0].classList.add('on'); rail[0].classList.add('on');
+      setInterval(()=>{ i=(i+1)%5; nugs.forEach((n,j)=>n.classList.toggle('on',j===i));
+        rail.forEach((b,j)=>b.classList.toggle('on',j<=i)); }, 3400); }
+    if(id==='pin-math'){ stages.cone?.setProgress(1);
+      frows.forEach((li,j)=>setTimeout(()=>{ li.classList.add('on'); countUp(li.querySelector('.fn')); }, j*260)); }
+    fio.unobserve(en.target);
+  });},{threshold:.25});
+  PINS.forEach(p=>fio.observe(p.el));
+}
+
+/* ---------- scroll driver ---------- */
+const nav=document.getElementById('nav');
+const hero=document.getElementById('hero');
 let tick=false;
 function onScroll(){
   if(tick) return; tick=true;
   requestAnimationFrame(()=>{
     const max=document.documentElement.scrollHeight-innerHeight;
-    engine.setProgress(phaseAt());
     document.getElementById('prog').style.width=((max>0?scrollY/max:0)*100)+'%';
-    document.getElementById('nav').classList.toggle('solid',scrollY>40);
-    const pr=document.getElementById('pricing').getBoundingClientRect();
-    document.getElementById('nav').classList.toggle('light', pr.top<64 && pr.bottom>64);
-    sweepReveals(); sweepFunnel();
+    nav.classList.toggle('paper', scrollY > hero.offsetHeight-90);
+    if(!flat) drivePins();
+    sweepReveals();
     tick=false;
   });
 }
 addEventListener('scroll',onScroll,{passive:true}); onScroll();
-addEventListener('resize',()=>{engine.resize();onScroll();});
-addEventListener('pointermove',e=>engine.setPointer((e.clientX/innerWidth-.5)*2,(e.clientY/innerHeight-.5)*2),{passive:true});
+addEventListener('resize',onScroll);
 
-/* ---- reveals ---- */
-const io=new IntersectionObserver(es=>{es.forEach(en=>{
-  if(en.isIntersecting){en.target.classList.add('in');io.unobserve(en.target);}
-});},{threshold:.16,rootMargin:'0px 0px -6% 0px'});
-document.querySelectorAll('.rv').forEach(el=>io.observe(el));
-/* anchor jumps and fast scrolls can skip an observer callback — catch anything
-   already at or above the fold so nothing is ever left invisible */
-function sweepReveals(){
-  document.querySelectorAll('.rv:not(.in)').forEach(el=>{
-    if(el.getBoundingClientRect().top < innerHeight*0.94){el.classList.add('in');io.unobserve(el);}
-  });
-}
-
-/* ---- funnel: count-up + bar ---- */
-function runCount(li,instant){
-  li.classList.add('in');
-  const el=li.querySelector('.fn'); if(!el||el.dataset.done) return;
-  el.dataset.done='1';
-  const to=+el.dataset.to, pre=el.dataset.prefix||'';
-  if(instant){ el.textContent=pre+to.toLocaleString('en-US'); return; }
-  const t0=performance.now(), dur=1250;
-  (function step(now){
-    const p=Math.min(1,(now-t0)/dur), e=1-Math.pow(1-p,3);
-    el.textContent=pre+Math.round(to*e).toLocaleString('en-US');
-    if(p<1) requestAnimationFrame(step);
-  })(t0);
-}
-const fio=new IntersectionObserver(es=>{es.forEach(en=>{
-  if(!en.isIntersecting) return;
-  runCount(en.target,false); fio.unobserve(en.target);
-});},{threshold:.35});
-document.querySelectorAll('#funnel li').forEach(li=>fio.observe(li));
-/* if the reader lands below the funnel, show the finished figures rather than zeros */
-function sweepFunnel(){
-  document.querySelectorAll('#funnel li').forEach(li=>{
-    const r=li.getBoundingClientRect();
-    if(r.bottom < 0 || (r.top < innerHeight*0.9 && r.bottom > 0)){
-      runCount(li, r.bottom < 0); fio.unobserve(li);
-    }
-  });
-}
-
-/* ---- "hear a turn": play the transcript, pulse the orb ---- */
-const msgs=[...document.querySelectorAll('#chat .msg')];
-const btn=document.getElementById('hearbtn');
-const label=document.getElementById('hearlabel');
-const line=document.getElementById('hearline');
-const clock=document.getElementById('calltime');
+/* ---------- hero: hear a turn ---------- */
+const LINES=[
+  ['Malone',"Hi Dana, this is the virtual concierge calling from Ridgeline Hair. It's been a while since your last visit — have you got twenty seconds?"],
+  ['Dana',"Oh — hi. Hang on, is this a real person?"],
+  ['Malone',"I'm a virtual assistant for Ridgeline Hair — a real human takes care of you in the chair."],
+  ['Dana',"Ha. You're very polite for a robot."],
+  ['Malone',"They saved you a complimentary gloss with your next cut. Thursday at two, or Saturday morning at ten?"],
+  ['Dana',"Saturday could work, I think."],
+  ['Malone',"Saturday at ten it is. The desk will confirm with you. Take care, Dana."],
+];
+const hbtn=document.getElementById('hearbtn');
+const hlabel=document.getElementById('hearlabel');
+const oline=document.getElementById('orbline');
 let playing=false, timers=[];
-const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
-
-function clearAll(){timers.forEach(clearTimeout);timers=[];}
-function reset(){
-  clearAll(); playing=false;
-  btn.classList.remove('on'); label.textContent='Hear a turn';
-  line.textContent='Tap to watch a booking happen.';
-  clock.textContent='0:00'; engine.speak(false);
-  msgs.forEach(m=>m.classList.remove('show'));
+function hearReset(){
+  timers.forEach(clearTimeout); timers=[]; playing=false;
+  hbtn.classList.remove('on'); hlabel.textContent='Hear a turn';
+  oline.innerHTML='Tap to watch a booking happen.'; stages.orb?.setVoice(false);
 }
-function play(){
-  clearAll(); playing=true;
-  btn.classList.add('on'); label.textContent='Playing…';
-  line.textContent='A scripted turn — no audio on this page.';
-  msgs.forEach(m=>m.classList.remove('show'));
-  engine.speak(true);
-  let t=260;
-  msgs.forEach((m,i)=>{
+function hearPlay(){
+  timers.forEach(clearTimeout); timers=[]; playing=true;
+  hbtn.classList.add('on'); hlabel.textContent='Playing…';
+  let t=200;
+  LINES.forEach(([who,line])=>{
     timers.push(setTimeout(()=>{
-      m.classList.add('show');
-      m.scrollIntoView({block:'nearest',behavior:reduce?'auto':'smooth'});
-      const s=8+i*11; clock.textContent='0:'+String(s).padStart(2,'0');
+      oline.innerHTML='<b>'+who+'</b> — '+line;
+      stages.orb?.setVoice(who==='Malone');
     },t));
-    t += 900 + m.textContent.length*11;
+    t += 1100 + line.length*34;
   });
   timers.push(setTimeout(()=>{
-    playing=false; btn.classList.remove('on');
-    label.textContent='Replay'; line.textContent='Saturday at ten. The desk gets the email now.';
-    clock.textContent='1:30'; engine.speak(false);
-  },t+400));
+    playing=false; hbtn.classList.remove('on'); hlabel.textContent='Replay';
+    oline.innerHTML='<b>Booked.</b> Saturday at ten — the email is already in the inbox.';
+    stages.orb?.setVoice(false);
+  },t+300));
 }
-btn.addEventListener('click',()=>playing?reset():play());
+hbtn.addEventListener('click',()=>playing?hearReset():hearPlay());
 
-/* reveal the transcript on scroll if the visitor never pressed play */
-const cio=new IntersectionObserver(es=>{es.forEach(en=>{
-  if(en.isIntersecting&&!playing){msgs.forEach(m=>m.classList.add('show'));cio.disconnect();}
-});},{threshold:.3});
-cio.observe(document.getElementById('chat'));
+/* ---------- voice analyzer ---------- */
+(function(){
+  const cv=document.getElementById('spectro'); if(!cv) return;
+  const g=cv.getContext('2d');
+  let W=0,H=0,run=false,last=0,t=0;
+  const NB=innerWidth<760?48:88;
+  const bars=Array.from({length:NB},(_,i)=>({v:0,cap:0,ph:Math.random()*6.28,sp:0.6+Math.random()*0.8}));
+  function size(){ const r=cv.getBoundingClientRect();
+    W=cv.width=Math.max(2,Math.round(r.width)); H=cv.height=Math.max(2,Math.round(r.height)); }
+  new ResizeObserver(size).observe(cv); size();
+  function draw(){
+    t+=0.035;
+    g.clearRect(0,0,W,H);
+    // speech envelope: phrases with pauses
+    const env=Math.max(0,(Math.sin(t*0.9)+Math.sin(t*0.31)*0.6))*0.72;
+    const bw=W/NB, base=H-26;
+    // baseline hairline
+    g.fillStyle='rgba(255,255,255,0.10)'; g.fillRect(0,base+1,W,1);
+    for(let i=0;i<NB;i++){
+      const b=bars[i];
+      const centre=1-Math.abs(i/(NB-1)-0.5)*1.5;             // energy concentrates mid-band
+      const target=env*Math.max(0.04,centre)*(0.35+0.65*Math.abs(Math.sin(t*b.sp+b.ph)));
+      b.v += (target-b.v)*0.18;
+      const h=Math.max(2,b.v*(base-18));
+      if(b.v>b.cap) b.cap=b.v; else b.cap=Math.max(0,b.cap-0.008);
+      const x=Math.round(i*bw)+Math.round(bw*0.28), w=Math.max(1,Math.round(bw*0.44));
+      // bar with vertical fade
+      const gr=g.createLinearGradient(0,base-h,0,base);
+      gr.addColorStop(0,'rgba(233,199,155,0.85)');
+      gr.addColorStop(0.55,'rgba(233,199,155,0.30)');
+      gr.addColorStop(1,'rgba(233,199,155,0.08)');
+      g.fillStyle=gr; g.fillRect(x,base-h,w,h);
+      // falling peak cap
+      const cy=base-Math.max(2,b.cap*(base-18));
+      g.fillStyle='rgba(255,255,255,0.55)'; g.fillRect(x,cy-1.5,w,1.5);
+    }
+    // readout: turn budget line at ~62% height
+    const ly=Math.round(H*0.30);
+    g.fillStyle='rgba(217,160,180,0.35)'; g.fillRect(0,ly,W,1);
+    g.font='10px IBM Plex Mono, monospace'; g.fillStyle='rgba(217,160,180,0.8)';
+    g.fillText('~900 ms turn budget', 12, ly-7);
+  }
+  function loop(now){
+    if(!run) return;
+    if(now-last>33){ last=now; draw(); }
+    requestAnimationFrame(loop);
+  }
+  new IntersectionObserver(es=>{es.forEach(en=>{
+    run=en.isIntersecting; if(run) requestAnimationFrame(loop);
+  });}).observe(cv);
+})();
 
-/* ---- one FAQ open at a time ---- */
+/* ---------- thesis waveform ---------- */
+const notecard=document.getElementById('notecard');
+if(notecard) new IntersectionObserver(es=>{es.forEach(en=>{
+  notecard.classList.toggle('live',en.isIntersecting);
+});},{threshold:.3}).observe(notecard);
+
+/* ---------- faq: one open ---------- */
 const qas=[...document.querySelectorAll('.qa')];
-qas.forEach(q=>q.addEventListener('toggle',()=>{
-  if(q.open) qas.forEach(o=>{if(o!==q)o.open=false;});
-}));
+qas.forEach(q=>q.addEventListener('toggle',()=>{ if(q.open) qas.forEach(o=>{ if(o!==q) o.open=false; }); }));
 </script>
 </body>
 </html>
