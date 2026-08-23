@@ -31602,7 +31602,7 @@
     },
     {
      "fig": "14.9t",
-     "lab": "MCX average daily turnover"
+     "lab": "MCX average daily volume, from 13.5t"
     },
     {
      "fig": "−55%",
@@ -31685,6 +31685,9 @@
      "t": "India buys fifteen percent less gold",
      "href": "a-india-buys-fifteen-percent-less.html"
     }
+   },
+   {
+    "p": 4
    }
   ],
   "desk": {
@@ -31907,6 +31910,9 @@
      "t": "Mehul Shah takes the gavel",
      "href": "a-mehul-shah-takes-the-gavel.html"
     }
+   },
+   {
+    "p": 4
    }
   ],
   "desk": {
@@ -32142,6 +32148,254 @@
     {
      "slug": "the-fifteen-hundred-line",
      "tag": "Retail"
+    }
+   ]
+  }
+ },
+ "nine-ninety-nine-forty-six": {
+  "strip": {
+   "cap": "By the numbers · Shanghai, 22 August",
+   "cells": [
+    {
+     "fig": "999.46",
+     "delta": "▲ +2.06%",
+     "dir": "up",
+     "lab": "Au(T+D), yuan a gram"
+    },
+    {
+     "fig": "0.54",
+     "lab": "yuan short of the 1,000 line"
+    },
+    {
+     "fig": "1,391",
+     "delta": "▲ +34",
+     "dir": "up",
+     "lab": "Lao Miao counter, yuan a gram"
+    },
+    {
+     "fig": "1,387",
+     "delta": "▲ +22",
+     "dir": "up",
+     "lab": "Chow Sang Sang counter, yuan a gram"
+    },
+    {
+     "fig": "38.77%",
+     "delta": "▼ −0.61pt",
+     "dir": "down",
+     "lab": "counter premium to the exchange"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "One night, four different answers · % added between 21 and 22 August",
+    "rows": [
+     {
+      "l": "LAO MIAO GOLD, COUNTER",
+      "v": 2.51,
+      "d": "+2.51%"
+     },
+     {
+      "l": "LAO FENG XIANG, COUNTER",
+      "v": 2.36,
+      "d": "+2.36%"
+     },
+     {
+      "l": "SHANGHAI GOLD EXCHANGE, Au(T+D)",
+      "v": 2.06,
+      "d": "+2.06%",
+      "hi": true
+     },
+     {
+      "l": "CHOW SANG SANG, COUNTER",
+      "v": 1.61,
+      "d": "+1.61%"
+     }
+    ],
+    "note": "Brand counter levels and their one-day changes are as reported by the 21st Century Business Herald and carried by Eastmoney; the percentages are this desk's arithmetic against each brand's own previous board. The exchange figure is the Shanghai Gold Exchange's Au(T+D) quotation, up 20.19 yuan from a close of 979.27. Two brands repriced by more than the exchange moved and one by less.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/246"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Fifty-four fen short.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Three boards, three decisions.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "The shop is not tracking the metal. It is deciding, brand by brand, overnight.",
+     "attr": "The Gold & Metals Desk"
+    }
+   },
+   {
+    "sub": "The trap in the Saturday tables.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "China's jewellery counter charges 39.5% over the exchange price",
+     "href": "a-nine-forty-and-thirteen-twelve.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "Watch the premium, not the round number"
+  },
+  "next": {
+   "lead": {
+    "slug": "israel-rough-down-thirty-five",
+    "tag": "Diamonds",
+    "blurb": "The half-year finally breaks into four legs, and rough fell twice as fast."
+   },
+   "minis": [
+    {
+     "slug": "four-five-five-four-in-beijing",
+     "tag": "Metals"
+    },
+    {
+     "slug": "nine-forty-and-thirteen-twelve",
+     "tag": "Metals"
+    }
+   ]
+  }
+ },
+ "israel-rough-down-thirty-five": {
+  "strip": {
+   "cap": "By the numbers · Israel, H1 2026",
+   "cells": [
+    {
+     "fig": "$625.7m",
+     "delta": "▼ −22.3%",
+     "dir": "down",
+     "lab": "net polished exports, on $804.5m"
+    },
+    {
+     "fig": "$531.3m",
+     "delta": "▼ −12.7%",
+     "dir": "down",
+     "lab": "net polished imports, on $609m"
+    },
+    {
+     "fig": "$191.2m",
+     "delta": "▼ −34.6%",
+     "dir": "down",
+     "lab": "net rough exports, on $292.6m"
+    },
+    {
+     "fig": "$208.3m",
+     "delta": "▼ −35.8%",
+     "dir": "down",
+     "lab": "net rough imports, on $324.6m"
+    },
+    {
+     "fig": "1.94×",
+     "lab": "rate at which rough fell against polished"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "The leg that moves first fell hardest · H1 2026 vs H1 2025, % change",
+    "rows": [
+     {
+      "l": "ROUGH IMPORTS",
+      "v": 35.8,
+      "d": "−35.8%",
+      "hi": true
+     },
+     {
+      "l": "ROUGH EXPORTS",
+      "v": 34.6,
+      "d": "−34.6%"
+     },
+     {
+      "l": "POLISHED EXPORTS",
+      "v": 22.3,
+      "d": "−22.3%"
+     },
+     {
+      "l": "POLISHED IMPORTS",
+      "v": 12.7,
+      "d": "−12.7%"
+     }
+    ],
+    "note": "All four are net figures for the first half of 2026 against the first half of 2025, published 16 August by Emess. Bars are plotted as the size of each decline, so a longer bar is a worse result. Grouped by category the two rough legs fell 35.3% and the two polished legs 18.1%, a ratio of 1.94 on this desk's arithmetic. These are net figures and are not the same series as the $2.4bn gross half-year export total this paper printed on 27 July.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/247"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "One number becomes four.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Against the aggregate already printed.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "Rough intake is an order book, and Israel's fell faster than its output.",
+     "attr": "The Diamonds Desk"
+    }
+   },
+   {
+    "sub": "What the release does not carry.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Israel's diamond chief resigns as exports hit a record low",
+     "href": "a-israel-exchange-loses-its-chief.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "Rough intake is the number to watch next"
+  },
+  "next": {
+   "lead": {
+    "slug": "nine-ninety-nine-forty-six",
+    "tag": "Metals",
+    "blurb": "Shanghai stops 0.54 yuan short of 1,000 and the counters split around it."
+   },
+   "minis": [
+    {
+     "slug": "israel-exchange-loses-its-chief",
+     "tag": "Diamonds"
+    },
+    {
+     "slug": "dvash-takes-the-odc-chair",
+     "tag": "Diamonds"
     }
    ]
   }

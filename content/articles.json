@@ -1,9 +1,97 @@
 [
  {
+  "slug": "nine-ninety-nine-forty-six",
+  "desk": "gold-metals",
+  "date": "2026-08-23",
+  "lead": true,
+  "kicker": "Lead Story · Gold & Metals Desk",
+  "minutes": 5,
+  "byline": "The Gold & Metals Desk",
+  "tags": [
+   "NUM",
+   "VS"
+  ],
+  "title": "999.46 in Shanghai: three counters priced the same night three different ways",
+  "dek": "Shanghai's Au(T+D) closed 0.54 yuan short of 1,000 a gram, up 2.06%. Lao Miao added 2.51% at the counter, Chow Sang Sang 1.61%. The Saturday price tables carry Friday's board.",
+  "body": [
+   "Shanghai's benchmark gold contract stopped 54 fen short of a round number. The Shanghai Gold Exchange's Au(T+D) was quoted at 999.46 yuan a gram on 22 August, up 20.19 yuan or 2.06% against a previous close of 979.27, which leaves it 0.54 yuan under 1,000. Eight days earlier this paper printed the same contract at 940.44 yuan, so the exchange leg has added 59.02 yuan, or 6.28%, inside eight sessions. The move behind it happened offshore and overnight. Chinese reports put international spot above $4,600 an ounce in Friday's night session with an intraday high near $4,630, which Eastmoney and Sina both describe as a three-month high, and Eastmoney puts August's cumulative gain near 13%. This paper's tape carries Friday's last New York print from Kitco at $4,602.40 an ounce, re-read at press time on Sunday and unchanged, because no session has opened since.",
+   "The counters did not follow in step. On the same day Lao Miao Gold moved its pure gold jewellery board to 1,391 yuan a gram, up 34; Lao Feng Xiang to 1,388, up 32; and Chow Sang Sang to 1,387, up 22, on figures reported by the 21st Century Business Herald and carried by Eastmoney. Measured against each brand's own previous board those are rises of 2.51%, 2.36% and 1.61% on this desk's arithmetic. Two of the three beat the exchange's 2.06% and one trailed it, which is the useful part: the retail board is not one price reacting to one input, it is three merchandising decisions taken overnight on the same metal. Chow Sang Sang held the highest of the three boards on Friday at 1,365 and holds the lowest of the three on Saturday.",
+   "The premium says it more precisely. Chow Sang Sang's counter stood 39.39% over the exchange price on Friday, on this desk's arithmetic against the 979.27 close, and 38.77% on Saturday against 999.46, a fall of 0.61 of a point. In yuan the gap widened over the same day, from 385.73 to 387.54, because a smaller percentage of a larger base is still a larger number. Both readings are correct and they answer different questions. The yuan gap is what a buyer pays over metal; the ratio is whether the shop is keeping pace with the metal, and it is not. This paper marked the same relationship at 39.5% on 14 August, on Chow Tai Fook against Au99.99 rather than Chow Sang Sang against Au(T+D), so that is a direction rather than a like-for-like step.",
+   "There is a dating trap in the Saturday tables, and it is worth naming because it would corrupt exactly this arithmetic. The Chinese price roundups datestamped 22 August at 07:00 carry the exchange's Saturday quotation beside a counter board reading 1,365 for Chow Sang Sang, 1,363 for Chow Tai Fook and 1,356 for Lao Feng Xiang. Those are Friday's counter figures. Lao Feng Xiang at 1,388 up 32 back-solves to 1,356, Chow Sang Sang at 1,387 up 22 back-solves to 1,365, and 1,365 is the number this paper itself printed on Friday. Sina, publishing on 23 August, dates the Chow Sang Sang and Chow Tai Fook figures to 21 August directly, though it puts Lao Feng Xiang four yuan lower at 1,352 than the back-solve does, a divergence this desk cannot resolve and does not rely on. Anyone reading a markup off a 07:00 table is measuring across two sessions and will print the premium too low.",
+   "The desk's view: 1,000 yuan a gram is the number the Chinese press will lead with when the exchange crosses it, and it is the less useful of the two on offer. The more useful is the 0.61 of a point Chow Sang Sang's counter gave up against the exchange in one session. A buyer in a Chinese shop pays the board, not the exchange, and the board is now being set brand by brand overnight rather than tracked to a benchmark: 34 yuan at one chain, 22 at another, on the same metal on the same morning. That spread is the merchandising decision, and it is the only part of this rally a retailer actually controls."
+  ],
+  "sources": [
+   {
+    "title": "2026年8月22日中国黄金最新价格，人民币黄金最新价一览 (22 August 2026, 07:00) - 腾讯新闻",
+    "url": "https://news.qq.com/rain/a/20260822A025PX00"
+   },
+   {
+    "title": "今日金价多少钱一克？2026年8月22日各大金店黄金现货和回收价明细 (22 August 2026, 07:36) - 腾讯新闻",
+    "url": "https://news.qq.com/rain/a/20260822A029O400"
+   },
+   {
+    "title": "一夜大涨！金饰克价逼近1400元 (22 August 2026; 21st Century Business Herald via Qingdao News Network)",
+    "url": "https://baijiahao.baidu.com/s?id=1874203776670128976"
+   },
+   {
+    "title": "金价突破4600美元创三个月新高，国内金饰1365元/克 (23 August 2026) - 新浪财经",
+    "url": "https://k.sina.cn/article_7879922977_1d5ae152106801il68.html"
+   },
+   {
+    "title": "黄金T+D 行业动态 (read 23 August 2026) - 东方财富",
+    "url": "https://gold.eastmoney.com/a/chjtd.html"
+   },
+   {
+    "title": "Gold, Silver, Platinum & Palladium spot prices - Kitco (re-read at press time 23 August 2026; source timestamp 21 August, Friday last print)",
+    "url": "https://www.kitco.com/price/precious-metals"
+   },
+   {
+    "title": "China's jewellery counter charges 39.5% over the exchange price - Carat Capital (14 August 2026)",
+    "url": "https://caratcapital.org/a-nine-forty-and-thirteen-twelve.html"
+   }
+  ]
+ },
+ {
+  "slug": "israel-rough-down-thirty-five",
+  "desk": "diamonds",
+  "date": "2026-08-23",
+  "kicker": "Diamonds Desk · Trade Data",
+  "minutes": 5,
+  "byline": "The Diamonds Desk",
+  "tags": [
+   "ACTOR",
+   "NUM",
+   "STAKES"
+  ],
+  "title": "Israel's rough trade fell 35%, its polished 18%: the leading leg fell hardest",
+  "dek": "First-half figures give the categorical split this paper has carried only in aggregate: polished exports $625.7m, down 22.3%; rough exports $191.2m, down 34.6%. The rough legs together fell 35.3% against 18.1%.",
+  "body": [
+   "Israel's diamond trade has been reported all year as one number, and it has now been broken into four. Figures published on 16 August by the Israeli financial broadcaster Emess, in a report by Gadi Fox, put net polished exports for the first half of 2026 at $625.7 million against $804.5 million a year earlier, a fall of 22.3%. Net polished imports came to $531.3 million against $609 million, down 12.7%. Net rough exports were $191.2 million against $292.6 million, down 34.6%, and net rough imports $208.3 million against $324.6 million, down 35.8%. Rapaport carried the polished export figure independently in its August trade newsletter, at the same $625.7 million.",
+   "Grouped by category rather than by direction, the split is the story. The two polished legs together came to $1.157 billion against $1.4135 billion, a fall of 18.1%. The two rough legs came to $399.5 million against $617.2 million, a fall of 35.3%. On this desk's arithmetic the rough trade contracted 1.94 times as fast as the polished trade, and rough is the leg that moves first. What a cutting centre buys as rough it ships as polished six to twelve months later, so a 35% fall in rough throughput across the first half is a statement about the second half and about 2027, not about the period in which it was measured.",
+   "The aggregate this paper has already printed does not contradict it, and the bases differ. On 27 July this desk reported Israeli diamond exports of $2.4 billion for the first half, the lowest half on record, against roughly $7 billion at the 2015 peak, on figures from the Diamond Controller's Office. Those are gross export figures across all categories. The four legs above are net, and they sum to $1.5565 billion against $2.0307 billion, a fall of 23.35%. The two series measure different things and should not be added together or compared like for like. They point the same way, and the categorical set is the first published data that says which part of the trade is falling fastest.",
+   "Two things the release does not carry are worth naming. It gives no monthly path, so nothing in it shows whether the second quarter was worse than the first or whether the decline flattened, and the 10% United States tariff on diamond imports that took effect in late July falls outside the period entirely. It also gives values without unit volumes, and in a half when natural polished prices have been falling, a decline in value overstates the decline in stones by a margin the data does not let anyone size. Emess attributes the fall to weaker natural demand at home and abroad, economic and geopolitical uncertainty, competition from laboratory-grown stones, flight cancellations and changes in United States tariff policy, and prices none of them.",
+   "The desk's view: the figure that should worry Ramat Gan is $208.3 million of rough imports, not $625.7 million of polished exports. A cutting centre's rough intake is its order book, and Israel's fell 35.8% while its polished output fell 22.3%. The gap between those two rates is the trade saying what it expects to sell next year. Rough imports were 40.3% of polished exports a year ago and are 33.3% now, on this desk's arithmetic. That is not the shape of a floor being found. It is the shape of a pipeline being run down, and this is the first published set that makes the distinction visible."
+  ],
+  "sources": [
+   {
+    "title": "ענף היהלומים ממשיך להיחלש: היצוא צנח ב־22.3% (16 August 2026, 18:50, by Gadi Fox) - אמס Emess",
+    "url": "https://www.emess.co.il/radio/1916092"
+   },
+   {
+    "title": "The Diamond Pulse, August 2026 - Rapaport",
+    "url": "https://rapaport.com/trade/newsletters/the-diamond-pulse-august-2026/"
+   },
+   {
+    "title": "Israel's diamond chief resigns as exports hit a record low - Carat Capital (27 July 2026)",
+    "url": "https://caratcapital.org/a-israel-exchange-loses-its-chief.html"
+   }
+  ]
+ },
+ {
   "slug": "four-five-five-four-in-beijing",
   "desk": "gold-metals",
   "date": "2026-08-22",
-  "lead": true,
+  "lead": false,
   "kicker": "Lead Story · Gold & Metals Desk",
   "minutes": 5,
   "byline": "The Gold & Metals Desk",
@@ -55,7 +143,6 @@
   "slug": "four-point-one-six-billion-in-july",
   "desk": "gold-metals",
   "date": "2026-08-22",
-  "lead": false,
   "kicker": "Gold & Metals Desk · Demand",
   "minutes": 5,
   "byline": "The Gold & Metals Desk",
@@ -66,10 +153,11 @@
   "title": "India's July gold imports more than double to $4.16 billion",
   "dek": "The World Gold Council puts July imports at $4.16 billion against $1.97 billion in June, with volumes at 40 to 45 tonnes against 20. The ETF leg went the other way, down 55% on the month.",
   "body": [
-   "India bought the correction. The World Gold Council's India market update, published 19 August 2026, puts July gold imports at $4.16 billion against $1.97 billion in June, a rise of 111% on this desk's arithmetic and more than a doubling on the council's own description. In tonnage the report estimates July volumes at 40 to 45 tonnes, up from 20 tonnes in June. The mechanism it describes is the ordinary one: June's price correction brought consumers back to the jewellery counter, and retailers restocked behind them ahead of the festival season that runs from September into October. MCX futures turned over an average 14.9 tonnes a day across the month, which is the hedging and speculative leg of the same rebound.",
+   "India bought the correction. The World Gold Council's India market update, published 19 August 2026, puts July gold imports at $4.16 billion against $1.97 billion in June, a rise of 111% on this desk's arithmetic and more than a doubling on the council's own description. In tonnage the report estimates July volumes at 40 to 45 tonnes, up from 20 tonnes in June. The mechanism it describes is the ordinary one: June's price correction brought consumers back to the jewellery counter, and retailers restocked behind them ahead of the festival season that runs from September into October. MCX futures traded an average 14.9 tonnes a day across the month, up from 13.5 tonnes over the previous three months, with turnover up 9% to 214 billion rupees or about $2.2 billion, which is the hedging and speculative leg of the same rebound.",
    "The window that produced those imports has already closed at a higher price. The council marks the international benchmark up 9% in the first two weeks of August to $4,391 an ounce, with Indian domestic prices up nearly 7% to 151,744 rupees per 10 grams over the same stretch. This paper's own mark of record for gold, Friday's last New York print, is $4,602.40, which is a further $211.40 or 4.81% above the level the council was writing about, this desk's arithmetic on the two figures. An importer who restocked in July at June's prices is holding metal that has appreciated. An importer who waited is buying a festival season at close to $4,600.",
    "The investment leg contradicts the demand leg and the report says so. Net inflows into Indian gold ETFs totalled 15.6 billion rupees, about $163 million, in July, which the council states plainly was 55% lower month on month, citing Association of Mutual Funds of India data. Holdings rose by one tonne to 120 tonnes and the accounts kept opening, 57,000 new folios taking the total to 12.53 million. The first two weeks of August added a further 11.79 billion rupees, about $124 million. So the household buying metal to wear came back hard while the household buying metal as a financial position slowed by more than half, in the same month, in the same country.",
    "That split is the part worth carrying. Import value and import tonnage are jewellery-and-restock signals; ETF flow is a price expectation. When they diverge this far in one month the honest reading is that Indian buyers treated June's dip as a chance to own the thing rather than a chance to own the trade. The folio count supports it: accounts are still being opened, so this is not investors leaving, it is investors adding less per head into a rising price. Anyone modelling Indian demand into the fourth quarter should note that the restock has already happened, at prices roughly 5% below where the metal now sits.",
+   "Correction, 23 August 2026: an earlier version of this article and its by-the-numbers panel described 14.9 tonnes a day as MCX average daily turnover. The World Gold Council reports 14.9 tonnes as average daily trading volume, up from 13.5 tonnes over the previous three months, and reports turnover separately in currency, at 214 billion rupees or about $2.2 billion, up 9% on the month. The tonnage was transcribed correctly; the label on it was wrong, and the turnover figure was never printed at all. Correct as published: the $4.16 billion import value, the 40 to 45 tonne volume estimate and every ETF figure.",
    "The desk's view: the $4.16 billion is a real number and it is a backward-looking one. It prices a window that existed in July and does not exist now, and the trade reading it as evidence that Indian demand is elastic should finish the sentence — elastic to a lower price, in a month when the lower price was available. What the same report shows about August is thinner and more cautionary: the benchmark up 9% in a fortnight, the domestic price up almost 7%, and the investment flow already halving before either of those had finished. The festival season will be bought at a level no part of this dataset covers. A jeweller planning October inventory off a July import figure is planning against the wrong price."
   ],
   "sources": [
@@ -91,7 +179,6 @@
   "slug": "one-in-two-out-at-the-lbma",
   "desk": "gold-metals",
   "date": "2026-08-22",
-  "lead": false,
   "kicker": "Gold & Metals Desk · Refining",
   "minutes": 4,
   "byline": "The Gold & Metals Desk",
@@ -135,7 +222,6 @@
   "slug": "dvash-takes-the-odc-chair",
   "desk": "diamonds",
   "date": "2026-08-22",
-  "lead": false,
   "kicker": "Diamonds Desk · Governance",
   "minutes": 4,
   "byline": "The Diamonds Desk",
@@ -146,10 +232,11 @@
   "title": "Yoram Dvash takes the chair at the company that sells 30% of Debswana",
   "dek": "Botswana's state rough trader has named the former World Federation of Diamond Bourses president as board chairman, two months after his term there ended. The seat he replaced had been empty since November.",
   "body": [
-   "Okavango Diamond Company has appointed Yoram Dvash chairman of its board, reported 20 August 2026. He succeeds Gape Kaboyakgosi, who left in November after five years, meaning Botswana's state-owned rough trading arm has run without a permanent board chairman for most of a year. Dvash stepped down as president of the World Federation of Diamond Bourses two months ago, having held the office since 2020, and he remains chairman of both the Israel Diamond Institute and the Israel Diamond Exchange. He said he looks forward to \"working with the board, management and the government of Botswana.\"",
+   "Okavango Diamond Company has appointed Yoram Dvash chairman of its board, reported 20 August 2026. He succeeds Gape Kaboyakgosi, who left in November after five years, meaning Botswana's state-owned rough trading arm has run without a permanent board chairman for most of a year. Dvash stepped down as president of the World Federation of Diamond Bourses two months ago, having held the office since 2020, and he was previously chairman of both the Israel Diamond Institute and the Israel Diamond Exchange. He said he looks forward to \"working with the board, management and the government of Botswana.\"",
    "The seat carries more rough than the announcement suggests. Under the sales agreement signed with De Beers in February 2025, Okavango receives 30% of Debswana's production for the first five years of the ten-year term, rising to 40% for the second five, with a possible further extension moving the split to 50-50. Debswana is the joint venture between De Beers and the government of Botswana that mines the country's diamonds, and Botswana is the largest producer of rough by value in the world. The chairman of Okavango's board therefore sits above the disposal of nearly a third of that output, sold outside the De Beers channel.",
    "This paper has covered Dvash twice before in different chairs. On 15 July it reported his succession at the World Federation of Diamond Bourses by Mehul Shah, after Dvash completed the maximum two consecutive three-year terms. On 1 August it reported that Okavango had signed a tender arrangement with the Dubai Diamond Exchange, part of that centre's year of buying the pieces it lacked. The appointment joins those two threads: the man who ran the bourse federation now chairs the state seller that has just opened a Dubai tender window.",
    "What the appointment does not come with is a number, and that is worth saying plainly. Okavango published no revenue figure, no tender calendar and no strategic target alongside the announcement, and the company does not report publicly on the cadence a listed miner would. The verifiable content of the news is the name, the date, the vacancy it fills and the tonnage the seat governs. Everything else being written about it this weekend is inference.",
+   "Correction, 23 August 2026: an earlier version of this article said Dvash remains chairman of both the Israel Diamond Institute and the Israel Diamond Exchange. He does not. The Rapaport report this article cites says he was previously chairman of both, and the record agrees: Arnon Juwal was elected to the institute's chair in 2021, and the exchange has had at least two presidents since. The error was this desk's paraphrase of a correctly cited source, not the source's. Correct as published: the appointment itself, the succession from Gape Kaboyakgosi, the World Federation of Diamond Bourses presidency from 2020, and the two months between his stepping down there and this seat.",
    "The desk's view: the interesting part is who Botswana hired rather than what he was hired to do. Okavango's problem is not that it lacks rough, it is that it has a rising share of a shrinking market and has to sell into it without De Beers' book. Appointing a chairman whose career is bourse politics, in Ramat Gan and then at the federation, is a decision to solve that through the trading centres rather than through the mining side. Watch where the tenders go next. A Dubai arrangement already exists, Israel is the chairman's own ground, and the 40% step in this contract arrives well before anyone expects the natural rough market to have recovered."
   ],
   "sources": [
@@ -175,7 +262,6 @@
   "slug": "vasant-mehta-dies-at-81",
   "desk": "diamonds",
   "date": "2026-08-22",
-  "lead": false,
   "kicker": "Diamonds Desk · Obituary",
   "minutes": 4,
   "byline": "The Diamonds Desk",
@@ -203,7 +289,6 @@
   "slug": "fifty-three-percent-at-the-top",
   "desk": "retail-tech",
   "date": "2026-08-22",
-  "lead": false,
   "kicker": "Retail & Technology Desk · Consumer",
   "minutes": 4,
   "byline": "The Retail & Technology Desk",
@@ -235,7 +320,6 @@
   "slug": "platinum-takes-the-biggest-move",
   "desk": "gold-metals",
   "date": "2026-08-21",
-  "lead": false,
   "kicker": "Lead Story · Gold & Metals Desk",
   "minutes": 5,
   "byline": "The Gold & Metals Desk",
@@ -283,7 +367,6 @@
   "slug": "fifty-nine-years-and-thirty-four-percent",
   "desk": "diamonds",
   "date": "2026-08-21",
-  "lead": false,
   "kicker": "Diamonds Desk · Supply",
   "minutes": 5,
   "byline": "The Diamonds Desk",
@@ -327,7 +410,6 @@
   "slug": "sixty-seven-percent-buy-it-for-themselves",
   "desk": "retail-tech",
   "date": "2026-08-21",
-  "lead": false,
   "kicker": "Retail & Technology Desk · Signet",
   "minutes": 5,
   "byline": "The Retail & Technology Desk",
@@ -363,7 +445,6 @@
   "slug": "sixty-five-percent-on-a-chip-substrate",
   "desk": "diamonds",
   "date": "2026-08-21",
-  "lead": false,
   "kicker": "Diamonds Desk · Lab-Grown",
   "minutes": 5,
   "byline": "The Diamonds Desk",
@@ -399,7 +480,6 @@
   "slug": "second-largest-and-no-price",
   "desk": "diamonds",
   "date": "2026-08-21",
-  "lead": false,
   "kicker": "Diamonds Desk · Rough",
   "minutes": 5,
   "byline": "The Diamonds Desk",
@@ -436,7 +516,6 @@
   "slug": "eight-percent-deferred-to-march",
   "desk": "diamonds",
   "date": "2026-08-21",
-  "lead": false,
   "kicker": "Diamonds Desk · Policy",
   "minutes": 5,
   "byline": "The Diamonds Desk",
@@ -477,7 +556,6 @@
   "slug": "one-january-and-two-million-customers",
   "desk": "retail-tech",
   "date": "2026-08-21",
-  "lead": false,
   "kicker": "Retail & Technology Desk · People",
   "minutes": 4,
   "byline": "The Retail & Technology Desk",
@@ -513,7 +591,6 @@
   "slug": "one-twelve-online-one-seventy-five-live",
   "desk": "auctions",
   "date": "2026-08-21",
-  "lead": false,
   "kicker": "Auctions Desk · Calendar",
   "minutes": 4,
   "byline": "The Auctions Desk",
@@ -548,7 +625,6 @@
   "slug": "a-third-door-for-lab-grown",
   "desk": "retail-tech",
   "date": "2026-08-21",
-  "lead": false,
   "kicker": "Retail & Technology Desk · Lab-Grown",
   "minutes": 4,
   "byline": "The Retail & Technology Desk",
@@ -584,7 +660,6 @@
   "slug": "two-point-four-for-thirty-six",
   "desk": "watches",
   "date": "2026-08-20",
-  "lead": false,
   "kicker": "Lead Story · Watches Desk",
   "minutes": 5,
   "byline": "The Movement Desk",
@@ -625,7 +700,6 @@
   "slug": "both-holds-end-at-once",
   "desk": "gold-metals",
   "date": "2026-08-20",
-  "lead": false,
   "kicker": "Gold & Metals Desk",
   "minutes": 5,
   "byline": "The Gold & Metals Desk",
@@ -671,7 +745,6 @@
   "slug": "hundred-billion-on-two-point-four",
   "desk": "diamonds",
   "date": "2026-08-20",
-  "lead": false,
   "kicker": "Diamonds Desk",
   "minutes": 5,
   "byline": "The Diamonds Desk",
@@ -757,7 +830,6 @@
   "slug": "the-only-verified-price",
   "desk": "watches",
   "date": "2026-08-19",
-  "lead": false,
   "kicker": "Watches Desk · The Trade",
   "minutes": 5,
   "byline": "The Watches Desk",
@@ -802,7 +874,6 @@
   "slug": "ninety-six-down-eighty-up",
   "desk": "diamonds",
   "date": "2026-08-19",
-  "lead": false,
   "kicker": "Diamonds Desk · Lab-Grown",
   "minutes": 5,
   "byline": "The Diamonds Desk",
@@ -848,7 +919,6 @@
   "slug": "one-eleven-up-forty-four-down",
   "desk": "diamonds",
   "date": "2026-08-18",
-  "lead": false,
   "kicker": "Lead Story · Diamonds Desk",
   "minutes": 5,
   "byline": "The Diamonds Desk",
@@ -885,7 +955,6 @@
   "slug": "twenty-two-down-seventeen-up",
   "desk": "diamonds",
   "date": "2026-08-18",
-  "lead": false,
   "kicker": "Diamonds Desk · Manufacturing",
   "minutes": 5,
   "byline": "The Diamonds Desk",
@@ -918,7 +987,6 @@
   "slug": "two-cleared-two-held",
   "desk": "gold-metals",
   "date": "2026-08-18",
-  "lead": false,
   "kicker": "Gold & Metals Desk · The Tape",
   "minutes": 5,
   "byline": "The Gold & Metals Desk",
@@ -958,7 +1026,6 @@
   "slug": "fifty-thousand-and-no-number",
   "desk": "retail-tech",
   "date": "2026-08-18",
-  "lead": false,
   "kicker": "Retail & Technology Desk · India",
   "minutes": 5,
   "byline": "The Retail & Technology Desk",
@@ -999,7 +1066,6 @@
   "slug": "no-total-for-the-gem-drop",
   "desk": "auctions",
   "date": "2026-08-17",
-  "lead": false,
   "kicker": "Lead Story · Auctions Desk",
   "minutes": 5,
   "byline": "The Auctions Desk",
@@ -1052,7 +1118,6 @@
   "slug": "four-metals-four-write-backs",
   "desk": "gold-metals",
   "date": "2026-08-17",
-  "lead": false,
   "kicker": "Gold & Metals Desk · The Tape",
   "minutes": 5,
   "byline": "The Gold & Metals Desk",
@@ -1092,7 +1157,6 @@
   "slug": "thirty-nine-point-six",
   "desk": "gold-metals",
   "date": "2026-08-17",
-  "lead": false,
   "kicker": "Gold & Metals Desk · China",
   "minutes": 5,
   "byline": "The Gold & Metals Desk",
@@ -1132,7 +1196,6 @@
   "slug": "eight-oh-six-out-six-sixty-five-in",
   "desk": "retail-tech",
   "date": "2026-08-17",
-  "lead": false,
   "kicker": "Retail & Technology Desk · Ownership",
   "minutes": 5,
   "byline": "The Retail & Technology Desk",
@@ -1176,7 +1239,6 @@
   "slug": "four-eighty-six-thousand-ounces",
   "desk": "gold-metals",
   "date": "2026-08-17",
-  "lead": false,
   "kicker": "Gold & Metals Desk · Physical Demand",
   "minutes": 5,
   "byline": "The Gold & Metals Desk",
@@ -1212,7 +1274,6 @@
   "slug": "seven-oh-five-across-seventeen-times",
   "desk": "diamonds",
   "date": "2026-08-17",
-  "lead": false,
   "kicker": "Diamonds Desk · Lab-Grown",
   "minutes": 5,
   "byline": "The Diamonds Desk",
@@ -1252,7 +1313,6 @@
   "slug": "nine-forty-and-thirteen-twelve",
   "desk": "gold-metals",
   "date": "2026-08-14",
-  "lead": false,
   "kicker": "Lead Story · Gold & Metals Desk",
   "minutes": 5,
   "byline": "The Gold & Metals Desk",
@@ -1296,7 +1356,6 @@
   "slug": "the-platinum-hold-ends",
   "desk": "gold-metals",
   "date": "2026-08-14",
-  "lead": false,
   "kicker": "Gold & Metals Desk · The Tape",
   "minutes": 5,
   "byline": "The Gold & Metals Desk",
@@ -1344,7 +1403,6 @@
   "slug": "seventy-one-million-from-america",
   "desk": "gold-metals",
   "date": "2026-08-14",
-  "lead": false,
   "kicker": "Gold & Metals Desk · Investment Demand",
   "minutes": 5,
   "byline": "The Gold & Metals Desk",
@@ -1388,7 +1446,6 @@
   "slug": "the-loss-that-wasnt-revenue",
   "desk": "diamonds",
   "date": "2026-08-13",
-  "lead": false,
   "kicker": "Lead Story · Diamonds Desk",
   "minutes": 5,
   "byline": "The Diamonds Desk",
@@ -1429,7 +1486,6 @@
   "slug": "three-sessions-undone",
   "desk": "gold-metals",
   "date": "2026-08-13",
-  "lead": false,
   "kicker": "Gold & Metals Desk · The Tape",
   "minutes": 5,
   "byline": "The Gold & Metals Desk",
@@ -1470,7 +1526,6 @@
   "slug": "titan-calls-the-price-stable",
   "desk": "retail-tech",
   "date": "2026-08-13",
-  "lead": false,
   "kicker": "Retail & Technology Desk · Demand",
   "minutes": 4,
   "byline": "The Retail Desk",
@@ -1515,7 +1570,6 @@
   "slug": "priced-like-1999",
   "desk": "diamonds",
   "date": "2026-08-13",
-  "lead": false,
   "kicker": "Diamonds Desk · Polished",
   "minutes": 4,
   "byline": "The Diamonds Desk",
@@ -1556,7 +1610,6 @@
   "slug": "the-mix-did-the-work",
   "desk": "diamonds",
   "date": "2026-08-12",
-  "lead": false,
   "kicker": "Lead Story · Diamonds Desk",
   "minutes": 5,
   "byline": "The Diamonds Desk",
@@ -1597,7 +1650,6 @@
   "slug": "sixty-six-fifty-nine",
   "desk": "gold-metals",
   "date": "2026-08-12",
-  "lead": false,
   "kicker": "Gold & Metals Desk · The Tape",
   "minutes": 5,
   "byline": "The Gold & Metals Desk",
@@ -1637,7 +1689,6 @@
   "slug": "zales-goes-to-mattel",
   "desk": "retail-tech",
   "date": "2026-08-12",
-  "lead": false,
   "kicker": "Retail & Technology Desk · People",
   "minutes": 4,
   "byline": "The Retail Desk",
@@ -1677,7 +1728,6 @@
   "slug": "what-the-flat-month-hid",
   "desk": "diamonds",
   "date": "2026-08-12",
-  "lead": false,
   "kicker": "Diamonds Desk · Polished",
   "minutes": 4,
   "byline": "The Diamonds Desk",
@@ -1717,7 +1767,6 @@
   "slug": "three-prices-one-carat",
   "desk": "diamonds",
   "date": "2026-08-11",
-  "lead": false,
   "kicker": "Lead Story · Diamonds Desk",
   "minutes": 5,
   "byline": "The Diamonds Desk",
@@ -1758,7 +1807,6 @@
   "slug": "ten-forty-four-and-holding",
   "desk": "gold-metals",
   "date": "2026-08-11",
-  "lead": false,
   "kicker": "Gold & Metals Desk · Gulf",
   "minutes": 5,
   "byline": "The Gold & Metals Desk",
@@ -1798,7 +1846,6 @@
   "slug": "one-state-one-banner",
   "desk": "retail-tech",
   "date": "2026-08-11",
-  "lead": false,
   "kicker": "Retail & Technology Desk · India",
   "minutes": 4,
   "byline": "The Retail Desk",
@@ -1838,7 +1885,6 @@
   "slug": "neither-one-is-wrong",
   "desk": "gold-metals",
   "date": "2026-08-10",
-  "lead": false,
   "kicker": "Lead Story · Gold & Metals Desk",
   "minutes": 5,
   "byline": "The Gold & Metals Desk",
@@ -1879,7 +1925,6 @@
   "slug": "five-point-nine-million-pieces",
   "desk": "gold-metals",
   "date": "2026-08-10",
-  "lead": false,
   "kicker": "Gold & Metals Desk · India",
   "minutes": 5,
   "byline": "The Gold & Metals Desk",
@@ -1924,7 +1969,6 @@
   "slug": "etsy-calls-it-speed",
   "desk": "retail-tech",
   "date": "2026-08-10",
-  "lead": false,
   "kicker": "Retail & Technology Desk · Marketplaces",
   "minutes": 5,
   "byline": "The Retail Desk",
@@ -1965,7 +2009,6 @@
   "slug": "five-billion-in-one-thirteen",
   "desk": "retail-tech",
   "date": "2026-08-10",
-  "lead": false,
   "kicker": "Retail & Technology Desk · Restructuring",
   "minutes": 5,
   "byline": "The Retail Desk",
@@ -2006,7 +2049,6 @@
   "slug": "pandoras-third-seat",
   "desk": "retail-tech",
   "date": "2026-08-10",
-  "lead": false,
   "kicker": "Retail & Technology Desk · Brands",
   "minutes": 4,
   "byline": "The Retail Desk",
@@ -2047,7 +2089,6 @@
   "slug": "four-times-melt",
   "desk": "auctions",
   "date": "2026-08-09",
-  "lead": false,
   "kicker": "Lead Story · Auctions Desk",
   "minutes": 5,
   "byline": "The Auctions Desk",
@@ -2089,7 +2130,6 @@
   "slug": "six-forty-thousand-ounces",
   "desk": "gold-metals",
   "date": "2026-08-09",
-  "lead": false,
   "kicker": "Gold & Metals Desk · Central Banks",
   "minutes": 5,
   "byline": "The Gold & Metals Desk",
@@ -2130,7 +2170,6 @@
   "slug": "nine-thirty-eight-and-twelve-eighty-six",
   "desk": "gold-metals",
   "date": "2026-08-09",
-  "lead": false,
   "kicker": "Gold & Metals Desk · China",
   "minutes": 5,
   "byline": "The Gold & Metals Desk",
@@ -2166,7 +2205,6 @@
   "slug": "turkey-up-america-down",
   "desk": "watches",
   "date": "2026-08-09",
-  "lead": false,
   "kicker": "Watches Desk · Exports",
   "minutes": 5,
   "byline": "The Watches Desk",
@@ -2206,7 +2244,6 @@
   "slug": "forty-six-percent-came-back",
   "desk": "retail-tech",
   "date": "2026-08-09",
-  "lead": false,
   "kicker": "Retail & Technology Desk · India",
   "minutes": 5,
   "byline": "The Retail Desk",
@@ -2246,7 +2283,6 @@
   "slug": "png-retires-litestyle",
   "desk": "retail-tech",
   "date": "2026-08-09",
-  "lead": false,
   "kicker": "Retail & Technology Desk · Brands",
   "minutes": 4,
   "byline": "The Retail Desk",
@@ -2283,7 +2319,6 @@
   "slug": "the-hundred-six-thousand-miss",
   "desk": "gold-metals",
   "date": "2026-08-08",
-  "lead": false,
   "kicker": "Lead Story · Gold & Metals Desk",
   "minutes": 5,
   "byline": "The Gold & Metals Desk",
@@ -2328,7 +2363,6 @@
   "slug": "gold-kept-it-the-rest-gave-it-back",
   "desk": "gold-metals",
   "date": "2026-08-08",
-  "lead": false,
   "kicker": "Gold & Metals Desk · The Tape",
   "minutes": 4,
   "byline": "The Gold & Metals Desk",
@@ -2364,7 +2398,6 @@
   "slug": "thirteen-thousand-for-costume",
   "desk": "auctions",
   "date": "2026-08-08",
-  "lead": false,
   "kicker": "Auctions Desk · Calendar",
   "minutes": 4,
   "byline": "The Auctions Desk",
@@ -2401,7 +2434,6 @@
   "slug": "twenty-nine-said-diamond",
   "desk": "retail-tech",
   "date": "2026-08-08",
-  "lead": false,
   "kicker": "Retail & Technology Desk · Trade Shows",
   "minutes": 4,
   "byline": "The Retail Desk",
@@ -2441,7 +2473,6 @@
   "slug": "the-fifteen-hundred-line",
   "desk": "retail-tech",
   "date": "2026-08-08",
-  "lead": false,
   "kicker": "Retail & Technology Desk · Demand",
   "minutes": 4,
   "byline": "The Retail Desk",
@@ -2478,7 +2509,6 @@
   "slug": "ninety-six-percent-rebooked",
   "desk": "retail-tech",
   "date": "2026-08-08",
-  "lead": false,
   "kicker": "Retail & Technology Desk · Trade Shows",
   "minutes": 4,
   "byline": "The Retail Desk",
@@ -2514,7 +2544,6 @@
   "slug": "fifteen-years-no-tax",
   "desk": "diamonds",
   "date": "2026-08-07",
-  "lead": false,
   "kicker": "Lead Story · Diamonds Desk",
   "minutes": 5,
   "byline": "The Diamonds Desk",
@@ -2555,7 +2584,6 @@
   "slug": "every-metal-runs-before-payrolls",
   "desk": "gold-metals",
   "date": "2026-08-07",
-  "lead": false,
   "kicker": "Gold & Metals Desk · The Tape",
   "minutes": 5,
   "byline": "The Gold & Metals Desk",
@@ -2595,7 +2623,6 @@
   "slug": "one-thirty-two-against-three-thirty-nine",
   "desk": "gold-metals",
   "date": "2026-08-07",
-  "lead": false,
   "kicker": "Gold & Metals Desk · China",
   "minutes": 5,
   "byline": "The Gold & Metals Desk",
@@ -2635,7 +2662,6 @@
   "slug": "twenty-two-thirty-eight-an-order",
   "desk": "retail-tech",
   "date": "2026-08-07",
-  "lead": false,
   "kicker": "Retail & Technology Desk · Earnings",
   "minutes": 5,
   "byline": "The Retail Desk",
@@ -2671,7 +2697,6 @@
   "slug": "the-fourteen-percent-that-isnt",
   "desk": "gold-metals",
   "date": "2026-08-07",
-  "lead": false,
   "kicker": "Gold & Metals Desk · Platinum",
   "minutes": 4,
   "byline": "The Gold & Metals Desk",
@@ -2708,7 +2733,6 @@
   "slug": "twenty-nine-ninety-nine-at-the-counter",
   "desk": "retail-tech",
   "date": "2026-08-07",
-  "lead": false,
   "kicker": "Retail & Technology Desk · Mass Market",
   "minutes": 4,
   "byline": "The Retail Desk",
@@ -2748,7 +2772,6 @@
   "slug": "silver-alone-in-the-red",
   "desk": "gold-metals",
   "date": "2026-08-06",
-  "lead": false,
   "kicker": "Lead Story · Gold & Metals Desk",
   "minutes": 5,
   "byline": "The Gold & Metals Desk",
@@ -2788,7 +2811,6 @@
   "slug": "alrosa-books-the-loss",
   "desk": "diamonds",
   "date": "2026-08-06",
-  "lead": false,
   "kicker": "Diamonds Desk · Russia",
   "minutes": 5,
   "byline": "The Diamonds Desk",
@@ -2825,7 +2847,6 @@
   "slug": "tiffany-goes-to-blue-nile",
   "desk": "retail-tech",
   "date": "2026-08-06",
-  "lead": false,
   "kicker": "Retail & Technology Desk · People",
   "minutes": 4,
   "byline": "The Retail Desk",
@@ -2861,7 +2882,6 @@
   "slug": "bnpl-inside-the-perimeter",
   "desk": "retail-tech",
   "date": "2026-08-06",
-  "lead": false,
   "kicker": "Retail & Technology Desk · Finance",
   "minutes": 5,
   "byline": "The Retail Desk",
@@ -2901,7 +2921,6 @@
   "slug": "nine-thirty-four-for-one-seventeen",
   "desk": "retail-tech",
   "date": "2026-08-06",
-  "lead": false,
   "kicker": "Retail & Technology Desk · Property",
   "minutes": 4,
   "byline": "The Retail Desk",
@@ -2937,7 +2956,6 @@
   "slug": "sixty-seven-percent-asked-a-chatbot",
   "desk": "retail-tech",
   "date": "2026-08-06",
-  "lead": false,
   "kicker": "Retail & Technology Desk · Consumer",
   "minutes": 4,
   "byline": "The Retail Desk",
@@ -2973,7 +2991,6 @@
   "slug": "four-metals-third-session",
   "desk": "gold-metals",
   "date": "2026-08-05",
-  "lead": false,
   "kicker": "Lead Story · Gold & Metals Desk",
   "minutes": 5,
   "byline": "The Gold & Metals Desk",
@@ -3014,7 +3031,6 @@
   "slug": "india-confirms-the-turn",
   "desk": "gold-metals",
   "date": "2026-08-05",
-  "lead": false,
   "kicker": "Gold & Metals Desk · India",
   "minutes": 4,
   "byline": "The Gold & Metals Desk",
@@ -3050,7 +3066,6 @@
   "slug": "hong-kong-fourteen-months",
   "desk": "retail-tech",
   "date": "2026-08-05",
-  "lead": false,
   "kicker": "Retail & Technology Desk · Hong Kong",
   "minutes": 4,
   "byline": "The Retail Desk",
@@ -3086,7 +3101,6 @@
   "slug": "pandora-fills-the-seat",
   "desk": "retail-tech",
   "date": "2026-08-05",
-  "lead": false,
   "kicker": "Retail & Technology Desk · People",
   "minutes": 4,
   "byline": "The Retail Desk",
@@ -3122,7 +3136,6 @@
   "slug": "luk-fook-fixed-price",
   "desk": "retail-tech",
   "date": "2026-08-05",
-  "lead": false,
   "kicker": "Retail & Technology Desk · Greater China",
   "minutes": 5,
   "byline": "The Retail Desk",
@@ -3158,7 +3171,6 @@
   "slug": "eighty-percent-to-the-consumer",
   "desk": "diamonds",
   "date": "2026-08-05",
-  "lead": false,
   "kicker": "Diamonds Desk · Marketing",
   "minutes": 5,
   "byline": "The Diamonds Desk",
@@ -3202,7 +3214,6 @@
   "slug": "joopiter-keeping-measure",
   "desk": "auctions",
   "date": "2026-08-05",
-  "lead": false,
   "kicker": "Auctions Desk · Watches",
   "minutes": 4,
   "byline": "The Auctions Desk",
@@ -3238,7 +3249,6 @@
   "slug": "the-one-carat-stops-falling",
   "desk": "diamonds",
   "date": "2026-08-04",
-  "lead": false,
   "kicker": "Lead Story · Diamonds Desk",
   "minutes": 5,
   "byline": "The Diamonds Desk",
@@ -3275,7 +3285,6 @@
   "slug": "minus-point-one-for-color",
   "desk": "gemstones",
   "date": "2026-08-04",
-  "lead": false,
   "kicker": "Gemstones Desk · Fancy color",
   "minutes": 4,
   "byline": "The Gemstones Desk",
@@ -3311,7 +3320,6 @@
   "slug": "independents-pass-lvmh",
   "desk": "watches",
   "date": "2026-08-04",
-  "lead": false,
   "kicker": "Watches Desk · Secondary market",
   "minutes": 5,
   "byline": "The Watches Desk",
@@ -3348,7 +3356,6 @@
   "slug": "one-point-two-million-apply",
   "desk": "watches",
   "date": "2026-08-04",
-  "lead": false,
   "kicker": "Watches Desk · Distribution",
   "minutes": 4,
   "byline": "The Watches Desk",
@@ -3385,7 +3392,6 @@
   "slug": "seventy-three-lots-over-a-million",
   "desk": "auctions",
   "date": "2026-08-04",
-  "lead": false,
   "kicker": "Auctions Desk · Watches",
   "minutes": 4,
   "byline": "The Auctions Desk",
@@ -3421,7 +3427,6 @@
   "slug": "platinum-adds-one-seven",
   "desk": "gold-metals",
   "date": "2026-08-04",
-  "lead": false,
   "kicker": "Gold & Metals Desk · The tape",
   "minutes": 4,
   "byline": "The Bullion Desk",
@@ -3461,7 +3466,6 @@
   "slug": "thirteen-hundred-brands-and-a-centenary",
   "desk": "retail-tech",
   "date": "2026-08-04",
-  "lead": false,
   "kicker": "Retail & Tech Desk · The calendar",
   "minutes": 4,
   "byline": "The Retail Desk",
@@ -3501,7 +3505,6 @@
   "slug": "seventy-three-million-in-shoes",
   "desk": "diamonds",
   "date": "2026-08-03",
-  "lead": false,
   "kicker": "Lead Story · Diamonds Desk",
   "minutes": 5,
   "byline": "The Diamonds Desk",
@@ -3542,7 +3545,6 @@
   "slug": "china-lowest-since-2004",
   "desk": "gold-metals",
   "date": "2026-08-03",
-  "lead": false,
   "kicker": "Gold & Metals Desk · Jewellery demand",
   "minutes": 4,
   "byline": "The Bullion Desk",
@@ -3579,7 +3581,6 @@
   "slug": "silver-leads-the-reopen",
   "desk": "gold-metals",
   "date": "2026-08-03",
-  "lead": false,
   "kicker": "Gold & Metals Desk · The tape",
   "minutes": 4,
   "byline": "The Bullion Desk",
@@ -3611,7 +3612,6 @@
   "slug": "michael-hill-adds-two",
   "desk": "retail-tech",
   "date": "2026-08-03",
-  "lead": false,
   "kicker": "Retail & Tech Desk · Results",
   "minutes": 4,
   "byline": "The Retail Desk",
@@ -3644,7 +3644,6 @@
   "slug": "shoplifting-down-fraud-up",
   "desk": "retail-tech",
   "date": "2026-08-03",
-  "lead": false,
   "kicker": "Retail & Tech Desk · Security",
   "minutes": 4,
   "byline": "The Retail Desk",
@@ -3684,7 +3683,6 @@
   "slug": "nobody-has-de-beers-yet",
   "desk": "diamonds",
   "date": "2026-08-02",
-  "lead": false,
   "kicker": "Lead Story · Diamonds Desk",
   "minutes": 5,
   "byline": "The Diamonds Desk",
@@ -3725,7 +3723,6 @@
   "slug": "zero-for-antwerp",
   "desk": "diamonds",
   "date": "2026-08-02",
-  "lead": false,
   "kicker": "Diamonds Desk · Tariffs",
   "minutes": 4,
   "byline": "The Diamonds Desk",
@@ -3765,7 +3762,6 @@
   "slug": "the-tender-ladder",
   "desk": "diamonds",
   "date": "2026-08-02",
-  "lead": false,
   "kicker": "Diamonds Desk · Tenders",
   "minutes": 4,
   "byline": "The Diamonds Desk",
@@ -3801,7 +3797,6 @@
   "slug": "record-quarter-weakest-half",
   "desk": "gold-metals",
   "date": "2026-08-02",
-  "lead": false,
   "kicker": "Gold & Metals Desk · Official sector",
   "minutes": 4,
   "byline": "The Bullion Desk",
@@ -3838,7 +3833,6 @@
   "slug": "three-hundred-eighty-billion",
   "desk": "gold-metals",
   "date": "2026-08-02",
-  "lead": false,
   "kicker": "Gold & Metals Desk · Demand",
   "minutes": 4,
   "byline": "The Bullion Desk",
@@ -3874,7 +3868,6 @@
   "slug": "gold-waits-on-payrolls",
   "desk": "gold-metals",
   "date": "2026-08-02",
-  "lead": false,
   "kicker": "Gold & Metals Desk · Week ahead",
   "minutes": 4,
   "byline": "The Bullion Desk",
@@ -3914,7 +3907,6 @@
   "slug": "ny-now-opens-today",
   "desk": "retail-tech",
   "date": "2026-08-02",
-  "lead": false,
   "kicker": "Retail & Tech Desk · New York",
   "minutes": 4,
   "byline": "The Retail Desk",
@@ -3954,7 +3946,6 @@
   "slug": "jewellery-tops-a-flat-market",
   "desk": "retail-tech",
   "date": "2026-08-02",
-  "lead": false,
   "kicker": "Retail & Tech Desk · Luxury",
   "minutes": 4,
   "byline": "The Retail Desk",
@@ -3994,7 +3985,6 @@
   "slug": "russia-bans-the-word",
   "desk": "diamonds",
   "date": "2026-08-01",
-  "lead": false,
   "kicker": "Lead Story · Diamonds Desk",
   "minutes": 5,
   "byline": "The Diamonds Desk",
@@ -4035,7 +4025,6 @@
   "slug": "dubai-diamond-week-returns",
   "desk": "diamonds",
   "date": "2026-08-01",
-  "lead": false,
   "kicker": "Diamonds Desk · Dubai",
   "minutes": 4,
   "byline": "The Diamonds Desk",
@@ -4075,7 +4064,6 @@
   "slug": "gold-ends-july-higher",
   "desk": "gold-metals",
   "date": "2026-08-01",
-  "lead": false,
   "kicker": "Gold & Metals Desk · New York",
   "minutes": 4,
   "byline": "The Bullion Desk",
@@ -4115,7 +4103,6 @@
   "slug": "white-metals-close-the-month",
   "desk": "gold-metals",
   "date": "2026-08-01",
-  "lead": false,
   "kicker": "Gold & Metals Desk · New York",
   "minutes": 4,
   "byline": "The Metals Desk",
@@ -4155,7 +4142,6 @@
   "slug": "hermes-watches-flat",
   "desk": "watches",
   "date": "2026-08-01",
-  "lead": false,
   "kicker": "Watches Desk · Paris",
   "minutes": 4,
   "byline": "The Watch Desk",
@@ -4196,7 +4182,6 @@
   "slug": "bucherer-gets-fifth-avenue",
   "desk": "watches",
   "date": "2026-08-01",
-  "lead": false,
   "kicker": "Watches Desk · New York",
   "minutes": 4,
   "byline": "The Watch Desk",
@@ -4237,7 +4222,6 @@
   "slug": "sixty-stores-for-friendship-day",
   "desk": "retail-tech",
   "date": "2026-08-01",
-  "lead": false,
   "kicker": "Retail & Tech Desk · Mumbai",
   "minutes": 4,
   "byline": "The Counter Desk",
@@ -4278,7 +4262,6 @@
   "slug": "dollar-battery-fifteen-dollar-job",
   "desk": "retail-tech",
   "date": "2026-08-01",
-  "lead": false,
   "kicker": "Retail & Tech Desk · Dallas",
   "minutes": 4,
   "byline": "The Counter Desk",
@@ -4318,7 +4301,6 @@
   "slug": "de-beers-narrows-the-loss",
   "desk": "diamonds",
   "date": "2026-07-31",
-  "lead": false,
   "kicker": "Lead Story · Diamonds Desk",
   "minutes": 5,
   "byline": "The Diamonds Desk",
@@ -4359,7 +4341,6 @@
   "slug": "gold-gives-back-thursday",
   "desk": "gold-metals",
   "date": "2026-07-31",
-  "lead": false,
   "kicker": "Gold & Metals Desk · New York",
   "minutes": 4,
   "byline": "The Bullion Desk",
@@ -4395,7 +4376,6 @@
   "slug": "three-metals-one-direction",
   "desk": "gold-metals",
   "date": "2026-07-31",
-  "lead": false,
   "kicker": "Gold & Metals Desk · New York",
   "minutes": 4,
   "byline": "The Metals Desk",
@@ -4431,7 +4411,6 @@
   "slug": "two-seventy-eight-tonnes",
   "desk": "gold-metals",
   "date": "2026-07-31",
-  "lead": false,
   "kicker": "Gold & Metals Desk · London",
   "minutes": 4,
   "byline": "The Bullion Desk",
@@ -4467,7 +4446,6 @@
   "slug": "india-buys-fifteen-percent-less",
   "desk": "retail-tech",
   "date": "2026-07-31",
-  "lead": false,
   "kicker": "Retail & Tech Desk · Mumbai",
   "minutes": 4,
   "byline": "The Counter Desk",
@@ -4507,7 +4485,6 @@
   "slug": "confidence-slips-to-ninety",
   "desk": "retail-tech",
   "date": "2026-07-31",
-  "lead": false,
   "kicker": "Retail & Tech Desk · New York",
   "minutes": 4,
   "byline": "The Counter Desk",
@@ -4547,7 +4524,6 @@
   "slug": "the-ask-is-exclusion",
   "desk": "retail-tech",
   "date": "2026-07-31",
-  "lead": false,
   "kicker": "Retail & Tech Desk · Washington",
   "minutes": 4,
   "byline": "The Policy Desk",
@@ -4583,7 +4559,6 @@
   "slug": "gemfields-covers-the-ruby",
   "desk": "gemstones",
   "date": "2026-07-31",
-  "lead": false,
   "kicker": "Gemstones Desk · London",
   "minutes": 4,
   "byline": "The Color Desk",
@@ -4623,7 +4598,6 @@
   "slug": "one-billion-for-de-beers",
   "desk": "diamonds",
   "date": "2026-07-30",
-  "lead": false,
   "kicker": "Lead Story · Diamonds Desk",
   "minutes": 5,
   "byline": "The Diamonds Desk",
@@ -4664,7 +4638,6 @@
   "slug": "angolas-rough-clears",
   "desk": "diamonds",
   "date": "2026-07-30",
-  "lead": false,
   "kicker": "Diamonds Desk · Luanda",
   "minutes": 4,
   "byline": "The Rough Desk",
@@ -4704,7 +4677,6 @@
   "slug": "gold-unwinds-the-hold",
   "desk": "gold-metals",
   "date": "2026-07-30",
-  "lead": false,
   "kicker": "Gold & Metals Desk · New York",
   "minutes": 4,
   "byline": "The Bullion Desk",
@@ -4740,7 +4712,6 @@
   "slug": "platinum-loses-its-teacher",
   "desk": "gold-metals",
   "date": "2026-07-30",
-  "lead": false,
   "kicker": "Gold & Metals Desk · New York",
   "minutes": 4,
   "byline": "The Metals Desk",
@@ -4781,7 +4752,6 @@
   "slug": "four-groups-in-the-black",
   "desk": "watches",
   "date": "2026-07-30",
-  "lead": false,
   "kicker": "Watches Desk · Zurich",
   "minutes": 4,
   "byline": "The Movement Desk",
@@ -4821,7 +4791,6 @@
   "slug": "heritage-books-a-record-half",
   "desk": "auctions",
   "date": "2026-07-30",
-  "lead": false,
   "kicker": "Auctions Desk · Dallas",
   "minutes": 4,
   "byline": "The Saleroom Desk",
@@ -4861,7 +4830,6 @@
   "slug": "the-storefront-that-isnt",
   "desk": "retail-tech",
   "date": "2026-07-30",
-  "lead": false,
   "kicker": "Retail & Tech Desk · London",
   "minutes": 4,
   "byline": "The Counter Desk",
@@ -4901,7 +4869,6 @@
   "slug": "color-runs-two-speeds",
   "desk": "gemstones",
   "date": "2026-07-30",
-  "lead": false,
   "kicker": "Gemstones Desk · New York",
   "minutes": 4,
   "byline": "The Color Desk",
@@ -4941,7 +4908,6 @@
   "slug": "fed-holds-gold-exhales",
   "desk": "gold-metals",
   "date": "2026-07-29",
-  "lead": false,
   "kicker": "Gold & Metals Desk · New York",
   "minutes": 4,
   "byline": "The Bullion Desk",
@@ -5006,8 +4972,7 @@
     "title": "Platinum & Palladium spot prices — Kitco",
     "url": "https://www.kitco.com/price/precious-metals"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "tiffany-carries-lvmh",
@@ -5042,8 +5007,7 @@
     "title": "LVMH Reports Accelerating Growth for the First Half of 2026, Incl. for the Watch Division — Monochrome",
     "url": "https://monochrome-watches.com/lvmh-reports-accelerating-growth-for-the-first-half-of-2026-incl-for-the-watch-division/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "boucheron-carries-kering",
@@ -5074,8 +5038,7 @@
     "title": "Kering — 2026 First-half results: back to growth — GlobeNewswire",
     "url": "https://www.globenewswire.com/news-release/2026/07/28/3334524/0/en/Kering-2026-First-half-results-back-to-growth-performance-improvement-strategy-execution-on-track.html"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "petra-caves-at-the-bottom",
@@ -5106,8 +5069,7 @@
     "title": "Petra notes constrained revenue generation as corporate restructuring continues — Mining Weekly",
     "url": "https://www.miningweekly.com/article/petra-notes-constrained-revenue-generation-as-corporate-restructuring-continues-2026-07-28"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "gem-diamonds-rides-the-big-ones",
@@ -5138,8 +5100,7 @@
     "title": "Gem Diamonds' large stones lift quarterly revenue — MINING.COM",
     "url": "https://www.mining.com/gem-diamonds-large-stones-lift-quarterly-revenue/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "rio-diamond-unit-fades",
@@ -5170,8 +5131,7 @@
     "title": "Rio Tinto half-year results 2026 — Rio Tinto",
     "url": "https://www.riotinto.com/en/invest/financial-news-performance"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "india-gold-signals-mixed",
@@ -5198,8 +5158,7 @@
     "title": "India gold market update: Mixed demand signals — World Gold Council",
     "url": "https://www.gold.org/goldhub/gold-focus/2026/07/india-gold-market-update-mixed-demand-signals"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "gold-idles-into-the-fed",
@@ -5230,14 +5189,12 @@
     "title": "Gold Spot Prices — Kitco",
     "url": "https://www.kitco.com/price/precious-metals"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "silver-eyes-sixty",
   "desk": "gold-metals",
   "date": "2026-07-28",
-  "lead": false,
   "kicker": "Gold & Metals Desk · New York",
   "minutes": 3,
   "byline": "The Metals Desk",
@@ -5273,7 +5230,6 @@
   "slug": "titan-makes-it-three",
   "desk": "retail-tech",
   "date": "2026-07-28",
-  "lead": false,
   "kicker": "Retail-Tech Desk · Bengaluru",
   "minutes": 4,
   "byline": "The Retail Desk",
@@ -5305,7 +5261,6 @@
   "slug": "the-watch-trade-sues",
   "desk": "watches",
   "date": "2026-07-28",
-  "lead": false,
   "kicker": "Watches Desk · Los Angeles",
   "minutes": 4,
   "byline": "The Watches Desk",
@@ -5338,7 +5293,6 @@
   "slug": "three-fancies-no-reserve",
   "desk": "auctions",
   "date": "2026-07-28",
-  "lead": false,
   "kicker": "Auctions Desk · Los Angeles",
   "minutes": 4,
   "byline": "The Auctions Desk",
@@ -5370,7 +5324,6 @@
   "slug": "doha-opens-a-diamond-door",
   "desk": "diamonds",
   "date": "2026-07-28",
-  "lead": false,
   "kicker": "Diamonds Desk · Doha",
   "minutes": 4,
   "byline": "The Diamonds Desk",
@@ -5402,7 +5355,6 @@
   "slug": "the-guide-marks-ruby-up",
   "desk": "gemstones",
   "date": "2026-07-28",
-  "lead": false,
   "kicker": "Gemstones Desk · Glenview",
   "minutes": 3,
   "byline": "The Color Desk",
@@ -5430,7 +5382,6 @@
   "slug": "india-fills-the-hall",
   "desk": "diamonds",
   "date": "2026-07-28",
-  "lead": false,
   "kicker": "Diamonds Desk · Mumbai",
   "minutes": 3,
   "byline": "The Diamonds Desk",
@@ -5462,7 +5413,6 @@
   "slug": "israel-exchange-loses-its-chief",
   "desk": "diamonds",
   "date": "2026-07-27",
-  "lead": false,
   "kicker": "Diamonds Desk · Ramat Gan",
   "minutes": 4,
   "byline": "The Diamonds Desk",
@@ -5521,8 +5471,7 @@
     "title": "CIBJO Mulls Whether to Call Lab-Grown Diamonds \"Synthetic\" — JCK",
     "url": "https://www.jckonline.com/editorial-article/cibjo-lab-growns-synthetic"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "thirties-outrun-the-ones",
@@ -5553,8 +5502,7 @@
     "title": "Rapaport Press Release: Small-Diamond Recovery Accelerates in June — BusinessWire",
     "url": "https://www.businesswire.com/news/home/20260712762140/en/Rapaport-Press-Release-Small-Diamond-Recovery-Accelerates-in-June"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "gold-coils-for-the-fed",
@@ -5585,8 +5533,7 @@
     "title": "Gold Forecast: XAU/USD Defends $4,000 ahead of Fed, GDP and PCE — FX Leaders",
     "url": "https://www.fxleaders.com/news/2026/07/26/gold-forecast-xau-usd-defends-4000-as-china-imports-soar-ahead-of-fed-gdp-and-pce-inflation/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "china-takes-173-tonnes",
@@ -5617,8 +5564,7 @@
     "title": "New Collection Boosts Chow Tai Fook's Revenue — Rapaport",
     "url": "https://rapaport.com/news/new-collection-boosts-chow-tai-fooks-revenue/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "the-big-three-pull-away",
@@ -5650,8 +5596,7 @@
     "title": "Morgan Stanley × WatchCharts Q2 2026 secondary-market report — WatchCharts",
     "url": "https://watchcharts.com/about/press"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "seventy-carats-no-reserve",
@@ -5682,8 +5627,7 @@
     "title": "Van Cleef & Arpels, Cartier, and Boucheron Highlight Bonhams' Fine Jewelry Sale — JCK",
     "url": "https://www.jckonline.com/editorial-article/bonhams-california-fine-jewels/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "gia-lights-up-fluorescence",
@@ -5714,8 +5658,7 @@
     "title": "GIA grading report updates — Gemological Institute of America",
     "url": "https://www.gia.edu/gia-news-research"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "average-ticket-carries-the-half",
@@ -5747,8 +5690,7 @@
     "title": "US retail sales rose 0.2% in June — CNN Business",
     "url": "https://us.cnn.com/2026/07/16/economy/us-retail-sales-june"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "china-weighs-in-on-gold",
@@ -5780,8 +5722,7 @@
     "title": "Rapaport TradeWire, July 23, 2026",
     "url": "https://rapaport.com/newsletter/rapaport-tradewire-july-23-2026/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "silver-narrows-the-ratio",
@@ -5809,8 +5750,7 @@
     "title": "Daily Precious Metals Market Report, July 24, 2026 — USAGOLD",
     "url": "https://www.usagold.com/daily-precious-metals-market-report-july-24-2026/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "antwerp-thins-india-loads",
@@ -5842,8 +5782,7 @@
     "title": "IIJS Premiere 2026 (Aug 6–10, Mumbai) — GJEPC",
     "url": "https://gjepc.org/iijs-premiere/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "diavik-sells-the-last-ore",
@@ -5875,8 +5814,7 @@
     "title": "Rio Tinto releases second quarter 2026 production results",
     "url": "https://www.riotinto.com/en/news/releases/2026/rio-tinto-releases-second-quarter-2026-production-results"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "de-beers-sale-gets-a-clock",
@@ -5908,8 +5846,7 @@
     "title": "De Beers rough production increases, but prices, demand remain under pressure — Mining Weekly",
     "url": "https://www.miningweekly.com/article/de-beers-rough-diamond-production-increases-but-prices-demand-remain-under-pressure-2026-07-23"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "pearls-keep-a-lane",
@@ -5940,8 +5877,7 @@
     "title": "Chow Tai Fook Q1 FY2027 retail sales value up 15.1% — Bamboo Works",
     "url": "https://thebambooworks.com/chow-tai-fooks-quarterly-retail-sales-value-up-15-1/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "tariff-wall-returns",
@@ -5977,8 +5913,7 @@
     "title": "US imposes new tariffs on 60 trading partners over forced labour — Caliber",
     "url": "https://caliber.az/en/post/us-imposes-new-tariffs-on-60-trading-partners-over-forced-labour"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "surat-eats-the-ten",
@@ -6014,8 +5949,7 @@
     "title": "Small-Diamond Recovery Accelerates in June — Rapaport / BusinessWire",
     "url": "https://www.businesswire.com/news/home/20260712762140/en/Rapaport-Press-Release-Small-Diamond-Recovery-Accelerates-in-June"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "gold-waits-on-the-fed",
@@ -6046,8 +5980,7 @@
     "title": "Gold Spot Prices | Silver | Platinum & Palladium — Kitco",
     "url": "https://www.kitco.com/price/precious-metals"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "platinum-short-a-fourth-year",
@@ -6082,8 +6015,7 @@
     "title": "Gold Spot Prices | Silver | Platinum & Palladium — Kitco",
     "url": "https://www.kitco.com/price/precious-metals"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "india-buys-the-dip",
@@ -6110,8 +6042,7 @@
     "title": "India gold market update: Mixed demand signals — World Gold Council",
     "url": "https://www.gold.org/goldhub/gold-focus/2026/07/india-gold-market-update-mixed-demand-signals"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "list-up-resale-down",
@@ -6146,8 +6077,7 @@
     "title": "Rolex USA Prices to Rise 7% in 2026 — WatchPro",
     "url": "https://www.watchpro.com/rolex-usa-prices-to-rise-7-in-2026/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "furmanovich-cuts-deco",
@@ -6178,8 +6108,7 @@
     "title": "Silvia Furmanovich's New Collection Travels Back to the 1920s — National Jeweler",
     "url": "https://nationaljeweler.com/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "de-beers-eighty-eight-up",
@@ -6219,8 +6148,7 @@
     "title": "Anglo American Flags First-Half Loss at De Beers — Rapaport",
     "url": "https://rapaport.com/news/anglo-american-flags-first-half-loss-at-de-beers/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "gold-defends-four-thousand-again",
@@ -6251,8 +6179,7 @@
     "title": "Gold prices today, Thursday, July 23, 2026 — Yahoo Finance",
     "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-thursday-july-23-2026-gold-price-opens-below-4100-as-inflation-worries-clash-with-safe-haven-demand-153539220.html"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "apollo-gallery-goes-dark",
@@ -6283,8 +6210,7 @@
     "title": "2025 Louvre heist — background",
     "url": "https://en.wikipedia.org/wiki/2025_Louvre_heist"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "emeralds-hold-at-146",
@@ -6315,8 +6241,7 @@
     "title": "Gemfields Emerald Auction Holds Firm as Ruby Outlook Prompts Cautious Auction Strategy — TipRanks",
     "url": "https://www.tipranks.com/news/company-announcements/gemfields-emerald-auction-holds-firm-as-ruby-outlook-prompts-cautious-auction-strategy"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "small-stones-lead-again",
@@ -6347,8 +6272,7 @@
     "title": "De Beers' Q2 Production Rose, but Prices at Sights Fell Sharply — JCK",
     "url": "https://www.jckonline.com/editorial-article/de-beers-second-quarter-2026/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "seventy-three-percent-cheaper",
@@ -6379,8 +6303,7 @@
     "title": "Lab Grown vs Natural Diamond Statistics 2026 — Draco Diamond",
     "url": "https://www.dracodiamond.com/blogs/news/lab-grown-diamond-statistics-2026"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "sothebys-thirty-one-million",
@@ -6420,8 +6343,7 @@
     "title": "Sotheby's New York High Jewelry Sale Led by 10-ct. Blue Diamond (17 June 2026) — JCK",
     "url": "https://www.jckonline.com/editorial-article/sothebys-ny-high-jewelry-sale/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "exports-up-resale-flat",
@@ -6456,8 +6378,7 @@
     "title": "July 2026 Watch Market Update — WatchCharts",
     "url": "https://watchcharts.com/articles/p/9418/july-2026-watch-market-update"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "fifty-percent-for-canada",
@@ -6484,8 +6405,7 @@
     "title": "National Jeweler — Trump to Put 50% Tariff on Canadian Goods",
     "url": "https://nationaljeweler.com/articles/15157-trump-to-put-50-tariff-on-canadian-goods"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "twelve-point-five-for-color",
@@ -6512,8 +6432,7 @@
     "title": "Rapaport — Fresh US Import Tariffs Could Affect Colored Gemstones and Pearls",
     "url": "https://rapaport.com/news/fresh-us-import-tariffs-could-affect-colored-gemstones-and-pearls/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "oil-talks-gold-listens",
@@ -6544,8 +6463,7 @@
     "title": "Kitco — Precious metals spot board",
     "url": "https://www.kitco.com/price/precious-metals"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "swatch-nine-up-six-down",
@@ -6572,8 +6490,7 @@
     "title": "Rapaport — Swatch Group Records Strong Sales Across All Continents",
     "url": "https://rapaport.com/news/swatch-group-records-strong-sales-across-all-continents/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "birks-narrows-by-73",
@@ -6604,8 +6521,7 @@
     "title": "JCK — Birks Group Narrows Annual Loss in Fiscal 2026 as Sales Rise",
     "url": "https://www.jckonline.com/editorial-article/birks-narrows-annual-loss/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "fruit-that-opens",
@@ -6631,8 +6547,7 @@
     "title": "National Jeweler — Monica Rich Kosann's High Jewelry Is Fruitful",
     "url": "https://nationaljeweler.com/articles/15154-monica-rich-kosann-s-high-jewelry-is-fruitful"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "rolex-on-the-main-corridor",
@@ -6658,8 +6573,7 @@
     "title": "National Jeweler — Liljenquist & Beckstead Opens New Rolex Boutique",
     "url": "https://nationaljeweler.com/articles/15156-liljenquist-beckstead-opens-rolex-new-boutique"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "gold-goes-144-in-a-day",
@@ -6690,8 +6604,7 @@
     "title": "Fortune — Current price of gold, July 20, 2026",
     "url": "https://fortune.com/article/current-price-of-gold-07-20-202/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "india-pays-in-old-gold",
@@ -6719,8 +6632,7 @@
     "title": "World Gold Council — India gold market update: mixed demand signals (Kavita Chacko, July 17, 2026)",
     "url": "https://www.gold.org/goldhub/gold-focus/2026/07/india-gold-market-update-mixed-demand-signals"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "gold-up-fifty-diamonds-down",
@@ -6751,8 +6663,7 @@
     "title": "Rapaport — Chow Sang Sang Revenue Rises as Gold Jewelry Demand Holds Steady",
     "url": "https://rapaport.com/news/chow-sang-sang-revenue-rises-as-gold-jewelry-demand-holds-steady/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "disposable-tools-at-venetia",
@@ -6779,8 +6690,7 @@
     "title": "Rapaport — Mining Union Condemns Potential De Beers Layoffs at Venetia (Suzanne Watkin)",
     "url": "https://rapaport.com/news/mining-union-condemns-potential-de-beers-layoffs-at-venetia/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "sixty-one-percent-said-lab",
@@ -6807,8 +6717,7 @@
     "title": "National Jeweler — Sherry Smith: Shattering the Illusion of the 'Either/Or' Diamond Market",
     "url": "https://nationaljeweler.com/articles/15153-sherry-smith-shattering-the-illusion-of-the-either-or-diamond-market"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "brazil-rough-rides-free",
@@ -6836,8 +6745,7 @@
     "title": "National Jeweler — Tariffs on Brazil to Increase But Rough Gemstones Exempt",
     "url": "https://nationaljeweler.com/articles/15149-tariffs-on-brazil-to-increase-but-rough-gemstones-exempt"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "graff-pins-the-butterfly",
@@ -6864,8 +6772,7 @@
     "title": "National Jeweler — Graff's New Butterfly High Jewelry Brooches Metamorphosize",
     "url": "https://nationaljeweler.com/articles/15152-graff-s-new-butterfly-high-jewelry-brooches-metamorphosize"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "piaget-doubles-at-bonhams",
@@ -6892,8 +6799,7 @@
     "title": "WatchPro — Bonhams sees prices rocket for Cartier and Piaget watches",
     "url": "https://www.watchpro.com/bonhams-sees-prices-rocket-for-cartier-piaget/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "bennahmias-wanted-de-bethune",
@@ -6920,8 +6826,7 @@
     "title": "WatchPro — François-Henri Bennahmias wanted to buy De Bethune, and why you should too",
     "url": "https://www.watchpro.com/why-you-should-be-buying-de-bethune/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "plus-eleven-two-in-june",
@@ -6952,8 +6857,7 @@
     "title": "Federation of the Swiss Watch Industry FH — Watch industry statistics",
     "url": "https://www.fhs.swiss/eng/statistics.html"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "wos-133-million-answer",
@@ -6989,8 +6893,7 @@
     "title": "Reuters (via US News) — Watches of Switzerland held talks over potential takeover offers",
     "url": "https://money.usnews.com/investing/news/articles/2026-07-13/exclusive-watches-of-switzerland-held-talks-over-potential-takeover-offers-sources-say"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "last-carats-at-diavik",
@@ -7022,8 +6925,7 @@
     "title": "Rio Tinto — Second quarter operations review",
     "url": "https://www.riotinto.com/en/news"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "twelve-hundred-at-venetia",
@@ -7055,8 +6957,7 @@
     "title": "Bloomberg — De Beers to Shutter South African Diamond Mine to Save Cash",
     "url": "https://www.bloomberg.com/news/articles/2026-07-13/de-beers-to-shutter-south-african-diamond-mine-to-save-cash"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "quiet-week-at-four-thousand",
@@ -7087,8 +6988,7 @@
     "title": "The Rio Times — Gold & Silver: The Precious-Metals Wrap, July 21, 2026",
     "url": "https://www.riotimesonline.com/gold-silver-precious-metals-tuesday-july-21-2026/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "more-dollars-fewer-boxes",
@@ -7116,8 +7016,7 @@
     "title": "Tenoris — US Jewelry Sales Continue to Grow in H1 2026",
     "url": "https://www.tenoris.bi/us-jewelry-sales-continue-to-grow-in-h1-2026/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "gold-counters-run-hot",
@@ -7148,8 +7047,7 @@
     "title": "Rapaport — Chow Sang Sang Revenue Rises as Gold Jewelry Demand Holds Steady",
     "url": "https://rapaport.com/news/chow-sang-sang-revenue-rises-as-gold-jewelry-demand-holds-steady/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "pearls-print-a-quiet-win",
@@ -7185,8 +7083,7 @@
     "title": "JCK — Roseate Evokes 'The Odyssey' With Luminous Pearls and Hope-Filled Motifs",
     "url": "https://www.jckonline.com/editorial-article/roseate-evokes-the-odyssey/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "four-thousand-defended",
@@ -7221,8 +7118,7 @@
     "title": "FX Leaders — XAU/USD Holds Above $4,000 Despite the Hawkish Fed (July 19, 2026)",
     "url": "https://www.fxleaders.com/news/2026/07/19/gold-price-forecast-positive-signals-as-xau-usd-holds-above-4000-despite-the-hawkish-fed-or-strait-of-hormuz-tensions/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "india-ships-the-turn",
@@ -7261,8 +7157,7 @@
     "title": "Rapaport — De Beers Poised to Ease Rough Pricing at July Sight",
     "url": "https://rapaport.com/news/de-beers-poised-to-ease-rough-pricing-at-july-sight/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "gaborone-answers-penny",
@@ -7297,8 +7192,7 @@
     "title": "US News — Botswana Says Anglo Picks De Beers Buyer",
     "url": "https://money.usnews.com/investing/news/articles/2026-07-17/botswana-says-anglo-picks-de-beers-buyer-weighs-options-for-optimal-structure"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "greenest-stones-locked-out",
@@ -7325,8 +7219,7 @@
     "title": "Rapaport — Alrosa Achieves Carbon-Neutral Status for Its Operations and Diamonds",
     "url": "https://rapaport.com/news/alrosa-achieves-carbon-neutral-status-for-its-operations-and-diamonds/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "oris-counts-in-tonnes",
@@ -7354,8 +7247,7 @@
     "title": "WatchPro USA — Why Oris CEO Rolf Studer won't stop talking about sustainability",
     "url": "https://usa.watchpro.com/oris-ceo-rolf-studer-sustainable-watches-interview/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "richline-splits-the-till",
@@ -7380,8 +7272,7 @@
     "title": "Rapaport — Richline Names Two Additions to Its Executive Team",
     "url": "https://rapaport.com/news/richline-names-two-additions-to-its-executive-team/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "only-thirty-percent-havent",
@@ -7412,8 +7303,7 @@
     "title": "ONS — Business Insights and Conditions Survey",
     "url": "https://www.ons.gov.uk/businessindustryandtrade/business/businessservices/bulletins/businessinsightsandimpactontheukeconomy/latest"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "sixty-six-dollars-a-carat",
@@ -7448,8 +7338,7 @@
     "title": "Mines to Market — Gemfields announces the results of an auction of mixed-quality rough ruby",
     "url": "https://minestomarket.news/gemfields-announces-the-results-of-an-auction-of-mixed-quality-rough-ruby/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "war-premium-inverts",
@@ -7490,8 +7379,7 @@
     "title": "Trading Economics — Gold",
     "url": "https://tradingeconomics.com/commodity/gold"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "ap-105-million-paradox",
@@ -7518,8 +7406,7 @@
     "title": "WatchPro — Audemars Piguet UK sales jump 29% to £105 million",
     "url": "https://www.watchpro.com/audemars-piguet-uk-sales-jump-29-to-105-million/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "serial-022-comes-to-market",
@@ -7550,8 +7437,7 @@
     "title": "WatchPro — The Big Interview: Geoff Hess on the million-dollar trophy watch market",
     "url": "https://www.watchpro.com/news/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "the-thirty-eight-percent-problem",
@@ -7579,8 +7465,7 @@
     "title": "WatchPro USA — Bezel marketplace rejects Rolex watches during authentication process",
     "url": "https://usa.watchpro.com/bezel-marketplace-rejects-one-in-four-rolexes/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "seventy-dollars-to-southampton",
@@ -7611,8 +7496,7 @@
     "title": "Hamptons Jewelry Show — official site",
     "url": "https://hamptonsjewelryshow.com/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "fifty-years-on-forty-seventh",
@@ -7642,8 +7526,7 @@
     "title": "National Jeweler — Diamond Dealer Jeff Pancis Pens Memoir",
     "url": "https://nationaljeweler.com/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "color-gets-a-chief",
@@ -7673,8 +7556,7 @@
     "title": "IDEX Online — ICA's New CEO Faces Industry Challenges",
     "url": "https://www.idexonline.com/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "guess-lets-the-machine-draw",
@@ -7700,8 +7582,7 @@
     "title": "WatchPro — Guess uses AI to design its latest fashion watch",
     "url": "https://www.watchpro.com/guess-uses-ai-to-design-its-latest-fashion-watch/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "penny-gets-the-nod",
@@ -7741,8 +7622,7 @@
     "title": "Mining Weekly — Botswana says Anglo picks De Beers buyer, weighs options for optimal structure",
     "url": "https://www.miningweekly.com/article/botswana-says-anglo-picks-de-beers-buyer-weighs-options-for-optimal-structure-2026-07-17"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "gold-touches-four-thousand",
@@ -7782,8 +7662,7 @@
     "title": "Kitco News — Gold steadies near $4,000 as chip selloff hits equities (PM Report)",
     "url": "https://www.kitco.com/news/article/2026-07-17/gold-steadies-near-4000-chip-selloff-hits-equities-kitco-pm-report"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "one-carat-wakes-up",
@@ -7814,8 +7693,7 @@
     "title": "Rapaport — Latest News",
     "url": "https://rapaport.com/all-news/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "china-slows-to-four-three",
@@ -7846,8 +7724,7 @@
     "title": "WatchPro — Richemont's watchmakers return to significant growth",
     "url": "https://www.watchpro.com/richemont-watchmakers-grow-8/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "crown-premium-shrinks",
@@ -7878,8 +7755,7 @@
     "title": "WatchPro — Rolex, Patek Philippe and Audemars Piguet tighten grip on secondary market",
     "url": "https://www.watchpro.com/rolex-patek-and-ap-tighten-secondary-market-grip/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "ninety-percent-sold",
@@ -7910,8 +7786,7 @@
     "title": "The Art Newspaper — Christie's and Sotheby's 2026 half year results",
     "url": "https://www.theartnewspaper.com/2026/07/15/trophy-lots-and-luxury-goods-fuel-rebound-for-christies-and-sothebys-2026-half-year-results"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "zero-duty-day-one",
@@ -7946,8 +7821,7 @@
     "title": "Outlook Business — Govt notifies customs tariff rules for India-UK trade pact",
     "url": "https://www.outlookbusiness.com/economy-and-policy/govt-notifies-customs-tariff-rules-for-india-uk-trade-pact-clears-way-for-july-15-rollout"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "the-five-pound-ring",
@@ -7974,8 +7848,7 @@
     "title": "National Jeweler — U.K. Woman Pays £5 for £15K Diamond Ring at Car Boot Sale",
     "url": "https://nationaljeweler.com/articles/15143-u-k-woman-pays-5-for-15k-diamond-ring-at-car-boot-sale"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "woodley-wears-the-frida",
@@ -8002,8 +7875,7 @@
     "title": "National Jeweler — HOWL Taps Shailene Woodley for 'Home Sweet Home' Campaign",
     "url": "https://nationaljeweler.com/articles/15144-howl-taps-shailene-woodley-for-home-sweet-home-campaign"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "ekati-goes-dark",
@@ -8044,8 +7916,7 @@
     "title": "CBC News — N.W.T.'s Ekati mine set to shut down as it enters receivership",
     "url": "https://www.cbc.ca/news/canada/north/n-w-t-s-ekati-mine-set-to-shut-down-as-it-enters-receivership-9.7270281"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "angola-bids-for-the-house",
@@ -8084,8 +7955,7 @@
     "title": "Ecofin Agency — Anglo American Takes Fresh $2.3 Billion Hit on De Beers Ahead of 2026 Sale",
     "url": "https://www.ecofinagency.com/news-industry/2302-53154-anglo-american-takes-fresh-2-3-billion-hit-on-de-beers-ahead-of-2026-sale"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "lab-grown-finds-its-floor",
@@ -8113,8 +7983,7 @@
     "title": "INSTORE — The Q2 2026 LGD Wholesale Price List: Not All Lab-Grown Diamond Prices Are Falling",
     "url": "https://instoremag.com/the-q2-2026-lgd-wholesale-price-list-not-all-lab-grown-diamond-prices-are-falling/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "gold-wears-the-war-premium",
@@ -8153,8 +8022,7 @@
     "title": "Daily Metal Price — Platinum",
     "url": "https://www.dailymetalprice.com/metalprices.php?c=pt&u=oz&d=20&x=USD"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "chronomat-on-a-diet",
@@ -8185,8 +8053,7 @@
     "title": "Wanted Online — Breitling rolls out a new 'fit' for the Chronomat",
     "url": "https://www.wantedonline.co.za/watches-and-jewels/2026-07-15-breitling-rolls-out-a-new-fit-for-the-chronomat/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "odyssey-at-the-counter",
@@ -8221,8 +8088,7 @@
     "title": "Roseate Jewelry",
     "url": "https://roseatejewelry.com/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "guzema-lands-on-wooster",
@@ -8256,8 +8122,7 @@
     "title": "JCK — Guzema Invests in Community at New SoHo Boutique",
     "url": "https://www.jckonline.com/editorial-article/guzema-new-soho-boutique/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "june-retail-thin-cushion",
@@ -8291,8 +8156,7 @@
     "title": "The Washington Times / AP — Retail sales up a modest 0.2% in June",
     "url": "https://www.washingtontimes.com/news/2026/jul/16/retail-sales-slight-02-june-amid-economic-uncertainty-fading-benefits/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "eleven-lots-no-premium",
@@ -8327,8 +8191,7 @@
     "title": "The Art Newspaper — Trophy lots and luxury goods fuel rebound for Christie's and Sotheby's 2026 half-year results",
     "url": "https://www.theartnewspaper.com/2026/07/15/trophy-lots-and-luxury-goods-fuel-rebound-for-christies-and-sothebys-2026-half-year-results"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "richemont-twenty-percent-quarter",
@@ -8359,8 +8222,7 @@
     "title": "Rapaport — Watches of Switzerland's Revenue Continues to Grow",
     "url": "https://rapaport.com/news/watches-of-switzerlands-revenue-continues-to-grow/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "vietnam-certificate-scandal",
@@ -8396,8 +8258,7 @@
     "title": "South China Morning Post — Vietnam jeweller rattled by ex-official's arrest over India-Hong Kong gem-smuggling ring",
     "url": "https://www.scmp.com/news/asia/southeast-asia/article/3360597/vietnam-jeweller-rattled-ex-officials-arrest-over-india-hong-kong-gem-smuggling-ring"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "trophy-lots-carry-the-half",
@@ -8428,8 +8289,7 @@
     "title": "WatchPro USA — Phillips achieves $235 million spring season",
     "url": "https://usa.watchpro.com/phillips-achieves-235-million-spring-season-watch-auction/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "gold-stalls-on-day-four",
@@ -8464,8 +8324,7 @@
     "title": "Fortune — Current price of gold, July 15, 2026",
     "url": "https://fortune.com/article/current-price-of-gold-07-15-2026/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "pomellato-stile-libero",
@@ -8496,8 +8355,7 @@
     "title": "Natural Diamond Council — 2026 Paris Couture Week: The Latest High Jewelry Collections",
     "url": "https://www.naturaldiamonds.com/culture-and-style/paris-couture-week-2026/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "through-the-wall-heist",
@@ -8529,8 +8387,7 @@
     "title": "FBI — Wanted: Alberto Perez-Elias",
     "url": "https://www.fbi.gov/wanted/additional/alberto-perez-elias"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "cartier-secondhand-heat",
@@ -8561,8 +8418,7 @@
     "title": "WatchPro — Richemont's watchmakers return to significant growth",
     "url": "https://www.watchpro.com/richemont-watchmakers-grow-8/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "foundrae-takes-mount-street",
@@ -8597,8 +8453,7 @@
     "title": "National Jeweler — Foundrae Opens First Standalone Store Outside US",
     "url": "https://nationaljeweler.com/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "lucara-tenth-thousand-carat",
@@ -8629,8 +8484,7 @@
     "title": "Rapaport — Lucara Digs Up Massive 1,305ct. Rough from Karowe",
     "url": "https://rapaport.com/news/lucara-digs-up-massive-1305ct-rough-from-karowe/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "dubai-41-billion-year",
@@ -8661,8 +8515,7 @@
     "title": "Rapaport — Antwerp's Diamond Trade Sees Positive Momentum",
     "url": "https://rapaport.com/news/antwerps-diamond-trade-sees-positive-momentum/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "mehul-shah-takes-the-gavel",
@@ -8693,8 +8546,7 @@
     "title": "Rapaport — Dubai Sees Record-High Diamond Trade in 2025",
     "url": "https://rapaport.com/news/dubai-sees-record-high-diamond-trade-in-2025/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "wos-majority-american",
@@ -8729,8 +8581,7 @@
     "title": "Reuters (via US News) — Watches of Switzerland held talks over potential takeover offers",
     "url": "https://money.usnews.com/investing/news/articles/2026-07-13/exclusive-watches-of-switzerland-held-talks-over-potential-takeover-offers-sources-say"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "couture-week-goes-monumental",
@@ -8757,8 +8608,7 @@
     "title": "Natural Diamond Council — 2026 Paris Couture Week: The Latest High Jewelry Collections",
     "url": "https://www.naturaldiamonds.com/culture-and-style/paris-couture-week-2026/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "power-diamond-triples",
@@ -8793,8 +8643,7 @@
     "title": "Edahn Golan — After a 96% Decline, What's Next for LGD Prices?",
     "url": "https://www.edahngolan.com/after-a-96-decline-whats-next-for-lgd-prices/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "seventy-carats-fifty-grand",
@@ -8825,8 +8674,7 @@
     "title": "The Diamond Press — June 2026 News Roundup (New York colored-diamond results)",
     "url": "https://www.thediamondpress.com/post/june-2026-news-roundup"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "palladium-steals-the-close",
@@ -8861,8 +8709,7 @@
     "title": "Trading Economics — Gold",
     "url": "https://tradingeconomics.com/commodity/gold"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "fancy-color-gets-a-tape",
@@ -8888,8 +8735,7 @@
     "title": "Rapaport — FCRF and Cutwise Unveil Pricing Tool for Colored Diamonds",
     "url": "https://rapaport.com/news/fcrf-and-cutwise-unveil-pricing-tool-for-colored-diamonds/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "gold-retakes-4072",
@@ -8924,8 +8770,7 @@
     "title": "Fortune — Current price of silver, July 14, 2026",
     "url": "https://fortune.com/article/current-price-of-silver-7-14-2026/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "guyana-diggers-choose-gold",
@@ -8961,8 +8806,7 @@
     "title": "Rapaport — Small-Diamond Recovery Accelerates in June",
     "url": "https://rapaport.com/news/small-diamond-recovery-accelerates-in-june/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "pearls-run-the-table",
@@ -8994,8 +8838,7 @@
     "title": "Sotheby's — The Gem Drop July (online, July 13–16, 2026)",
     "url": "https://www.sothebys.com/en/buy/auction/2026/the-gem-drop-july"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "platero-halstead-first",
@@ -9026,8 +8869,7 @@
     "title": "JCK — First Traditional Native American Jewelry Artist Wins Halstead Grant",
     "url": "https://www.jckonline.com/editorial-article/native-american-halstead-grant/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "time-boxes-mystery-watch",
@@ -9058,8 +8900,7 @@
     "title": "WatchPro USA — Phillips achieves $235 million spring season",
     "url": "https://usa.watchpro.com/phillips-achieves-235-million-spring-season-watch-auction/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "watch-pawn-goes-algorithmic",
@@ -9090,8 +8931,7 @@
     "title": "WatchPro USA — Arena Club is bringing the thrill of the unboxing to luxury watch collecting",
     "url": "https://usa.watchpro.com/arena-club-is-bringing-the-thrill-of-the-unboxing-to-luxury-watch-collecting/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "de-beers-cuts-the-book",
@@ -9127,8 +8967,7 @@
     "title": "Rapaport — Small-Diamond Recovery Accelerates in June",
     "url": "https://rapaport.com/news/small-diamond-recovery-accelerates-in-june/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "venetia-two-year-pause",
@@ -9164,8 +9003,7 @@
     "title": "National Jeweler — De Beers Announces Potential Layoffs, 2-Year Production Pause at Venetia",
     "url": "https://nationaljeweler.com/articles/15125-de-beers-announces-potential-layoffs-2-year-production-pause-at-venetia"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "small-stones-lead-the-turn",
@@ -9196,8 +9034,7 @@
     "title": "Rapaport — Antwerp's Diamond Trade Sees Positive Momentum",
     "url": "https://rapaport.com/news/antwerps-diamond-trade-sees-positive-momentum/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "silver-air-pocket",
@@ -9232,8 +9069,7 @@
     "title": "Fortune — Current price of gold: July 13, 2026",
     "url": "https://fortune.com/article/current-price-of-gold-07-13-2026/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "watches-of-switzerland-says-no",
@@ -9269,8 +9105,7 @@
     "title": "Bloomberg — Top UK Rolex seller surges after report of takeover offers",
     "url": "https://www.bloomberg.com/news/articles/2026-07-13/top-uk-rolex-seller-surges-after-report-of-takeover-offers"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "brilliant-earth-100-watches",
@@ -9306,8 +9141,7 @@
     "title": "WWD — Brilliant Earth Enters the Luxury Watch Market With the Solstice Watch Collection",
     "url": "https://wwd.com/pop-culture/new-fashion-releases/brilliant-earth-swiss-watch-solstice-collection-1239056776/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "baume-mercier-moves-to-valenza",
@@ -9342,8 +9176,7 @@
     "title": "WatchPro USA — Damiani Group seals Baume & Mercier acquisition",
     "url": "https://usa.watchpro.com/damiani-group-seals-baume-mercier-acquisition/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "joopiter-24-million-resume",
@@ -9375,8 +9208,7 @@
     "title": "WWD — Joopiter Expands Watch Business With Dedicated Division, Appoints Nate Borgelt",
     "url": "https://wwd.com/accessories-news/watches/joopiter-expands-watch-business-pharrell-williams-1239050070/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "lalique-ten-minute-heist",
@@ -9412,8 +9244,7 @@
     "title": "Smithsonian Magazine — Jewelry and artworks worth $5 million stolen from Lalique museum",
     "url": "https://www.smithsonianmag.com/smart-news/in-the-latest-brazen-heist-jewelry-and-artworks-worth-5-million-were-stolen-from-famed-french-designer-lalique-museum-180989105/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "gottlieb-changes-her-mind",
@@ -9445,8 +9276,7 @@
     "title": "National Jeweler — Stephanie Gottlieb Changes Her Mind on Lab-Grown Diamonds",
     "url": "https://nationaljeweler.com/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "gold-4100-redraws-jewelry-map",
@@ -9473,8 +9303,7 @@
     "title": "Forbes Advisor — Gold Price Today",
     "url": "https://www.forbes.com/advisor/investing/gold-price/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "world-cup-watch-gold-rush",
@@ -9496,8 +9325,7 @@
     "title": "JCK — jewelry industry news and trends",
     "url": "https://www.jckonline.com/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "lab-grown-86-percent-question",
@@ -9524,8 +9352,7 @@
     "title": "Branvas — 2026 jewelry industry statistics",
     "url": "https://branvas.com/blogs/news/jewelry-industry-statistics-2026"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "de-beers-blinks-july-sight",
@@ -9557,8 +9384,7 @@
     "title": "CNBC Africa — Botswana seeing soft recovery in diamond demand",
     "url": "https://www.cnbcafrica.com/2026/botswana-seeing-soft-recovery-in-diamond-demand-mines-minister-says"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "gold-half-time-report",
@@ -9585,8 +9411,7 @@
     "title": "CME Group — Precious Metals Outlook 2026",
     "url": "https://www.cmegroup.com/articles/2026/precious-metals-outlook-2026-market-dynamics-following-a-record-breaking-year.html"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "platinum-and-the-other-podium",
@@ -9617,8 +9442,7 @@
     "title": "The Diamond Press — June 2026 News Roundup",
     "url": "https://www.thediamondpress.com/post/june-2026-news-roundup"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "blue-is-the-color-of-money",
@@ -9649,8 +9473,7 @@
     "title": "Natural Diamond Council — The Azure Blue",
     "url": "https://www.naturaldiamonds.com/historic-diamonds/azure-blue-diamond/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "phillips-235-million-spring",
@@ -9681,8 +9504,7 @@
     "title": "Robb Report — Highest-Grossing Watch Auction in History",
     "url": "https://robbreport.com/style/watch-collector/phillips-highest-grossing-watch-auction-in-history-1238055072/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "swiss-exports-flat-may",
@@ -9713,8 +9535,7 @@
     "title": "FH — Watch industry statistics",
     "url": "https://www.fhs.swiss/eng/statistics.html"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "lab-grown-96-down-and-firming",
@@ -9745,8 +9566,7 @@
     "title": "The Diamond Press — June 2026 News Roundup (Russia labeling)",
     "url": "https://www.thediamondpress.com/post/june-2026-news-roundup"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "color-takes-the-counter",
@@ -9777,8 +9597,7 @@
     "title": "JCK — Marion Fasel on the 3 Trends of Vegas 2026",
     "url": "https://www.jckonline.com/editorial-article/marion-fasel-trends-vegas-2026/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "asia-ledger-record-year",
@@ -9805,8 +9624,7 @@
     "title": "Rapaport — Swiss Watch Exports See Revival in May (HK retail context)",
     "url": "https://rapaport.com/news/swiss-watch-exports-see-revival-in-may/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "tariff-arithmetic-zero-and-eighteen",
@@ -9837,8 +9655,7 @@
     "title": "The Diamond Press — June 2026 News Roundup (India trade data)",
     "url": "https://www.thediamondpress.com/post/june-2026-news-roundup"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "who-buys-diamonds-now",
@@ -9869,8 +9686,7 @@
     "title": "JCK — Marion Fasel on the 3 Trends of Vegas 2026",
     "url": "https://www.jckonline.com/editorial-article/marion-fasel-trends-vegas-2026/"
    }
-  ],
-  "lead": false
+  ]
  },
  {
   "slug": "vegas-2026-mechanicals-and-meaning",
@@ -9897,7 +9713,6 @@
     "title": "JCK — 2026 JCK Show Takeaways",
     "url": "https://www.jckonline.com/editorial-article/show-takeaways-podcast-2026/"
    }
-  ],
-  "lead": false
+  ]
  }
 ]
