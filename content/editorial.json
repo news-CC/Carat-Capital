@@ -17299,15 +17299,15 @@
  },
  "gem-diamonds-rides-the-big-ones": {
   "strip": {
-   "cap": "By the numbers · Gem Diamonds, Letšeng",
+   "cap": "By the numbers · Gem Diamonds, Letšeng, Q1 2026",
    "cells": [
     {
      "fig": "~$1,501",
-     "lab": "avg price / carat"
+     "lab": "Q1 2026 avg price / carat"
     },
     {
      "fig": "+17%",
-     "lab": "on the quarter"
+     "lab": "on the previous quarter, $1,288"
     },
     {
      "fig": "191.82ct",
@@ -17319,7 +17319,7 @@
     },
     {
      "fig": "4",
-     "lab": "stones over $1M"
+     "lab": "Q1 stones over $1M"
     }
    ]
   },
@@ -17340,7 +17340,7 @@
       "d": "soft"
      }
     ],
-    "note": "Gem Diamonds, 2026. Large-stone realizations vs the commercial market.",
+    "note": "Gem Diamonds, first quarter of 2026. Large-stone realizations against the commercial market. The +17% is the quarter-on-quarter move in average price per carat, $1,501 against $1,288. The company's first-half average, published 28 July, is $1,395 a carat on 42,624 carats, up 38% from $1,008.",
     "cap": "Carat Capital graphics desk. &nbsp;CC/2026/146"
    }
   ],
@@ -17374,6 +17374,9 @@
    },
    {
     "p": 3
+   },
+   {
+    "p": 4
    },
    {
     "also": {
@@ -17761,18 +17764,18 @@
     "title": "Average price per carat, by seller",
     "rows": [
      {
-      "l": "GEM DIAMONDS (LETSENG)",
+      "l": "GEM DIAMONDS, Q1 2026",
       "v": 1501,
       "d": "$1,501",
       "hi": true
      },
      {
-      "l": "DE BEERS Q2",
+      "l": "DE BEERS, Q2 2026",
       "v": 105,
       "d": "$105"
      }
     ],
-    "note": "USD per carat. Large-stone producers vs. the mainstream rough book.",
+    "note": "USD per carat. Large-stone producers against the mainstream rough book. The Gem Diamonds figure is its first quarter of 2026; the De Beers figure is its second quarter. The two are not the same period and are set side by side as orders of magnitude, not as a like-for-like comparison. Gem Diamonds' first-half average, published 28 July, is $1,395 a carat.",
     "cap": "Carat Capital graphics desk. &nbsp;CC/2026/142"
    }
   ],
@@ -17806,6 +17809,9 @@
    },
    {
     "p": 3
+   },
+   {
+    "p": 4
    },
    {
     "also": {
@@ -32373,6 +32379,9 @@
     "p": 3
    },
    {
+    "p": 4
+   },
+   {
     "also": {
      "t": "Israel's diamond chief resigns as exports hit a record low",
      "href": "a-israel-exchange-loses-its-chief.html"
@@ -32396,6 +32405,494 @@
     {
      "slug": "dvash-takes-the-odc-chair",
      "tag": "Diamonds"
+    }
+   ]
+  }
+ },
+ "forty-six-forty-three-ninety": {
+  "strip": {
+   "cap": "By the numbers · the tape, 24 August",
+   "cells": [
+    {
+     "fig": "$4,643.90",
+     "delta": "▲ +0.90%",
+     "dir": "up",
+     "lab": "gold, written back at press time"
+    },
+    {
+     "fig": "+$41.50",
+     "dir": "up",
+     "lab": "on Friday's $4,602.40"
+    },
+    {
+     "fig": "$68.74",
+     "delta": "▼ −0.17%",
+     "dir": "down",
+     "lab": "silver, written back"
+    },
+    {
+     "fig": "$1,881.00",
+     "lab": "platinum, held a third session"
+    },
+    {
+     "fig": "67.56",
+     "delta": "▲ +0.72pt",
+     "dir": "up",
+     "lab": "gold-to-silver ratio"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Every gold mark this tape has carried · USD an ounce",
+    "rows": [
+     {
+      "l": "5 AUGUST",
+      "v": 4158.3,
+      "d": "$4,158.30"
+     },
+     {
+      "l": "12 AUGUST",
+      "v": 4415.2,
+      "d": "$4,415.20"
+     },
+     {
+      "l": "20 AUGUST",
+      "v": 4482.2,
+      "d": "$4,482.20"
+     },
+     {
+      "l": "23 AUGUST",
+      "v": 4602.4,
+      "d": "$4,602.40"
+     },
+     {
+      "l": "24 AUGUST",
+      "v": 4643.9,
+      "d": "$4,643.90",
+      "hi": true
+     }
+    ],
+    "note": "Marks of record from this paper's own tape, five of the eighteen carried since the series opened on 5 August. The 24 August figure is Kitco's 05:58 ET reading, written back by the Editor at press time under the one-price rule and corroborated by TradingEconomics at $4,646.92, a gap of 0.065%. The gain from first mark to latest is $485.60, or 11.68%.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/248"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "The mark, and the second page.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Silver goes the other way.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "A 0.90% session on the screen is $1.33 a gram at the bench.",
+     "attr": "The Gold & Metals Desk"
+    }
+   },
+   {
+    "sub": "The two metals held.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Shanghai stops 0.54 yuan short of 1,000 a gram",
+     "href": "a-nine-ninety-nine-forty-six.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "Any counter that has not repriced since Friday is carrying the difference"
+  },
+  "next": {
+   "lead": {
+    "slug": "nine-ninety-nine-forty-six",
+    "tag": "Metals",
+    "blurb": "Shanghai stops 0.54 yuan short of 1,000 and the counters split around it."
+   },
+   "minis": [
+    {
+     "slug": "four-five-five-four-in-beijing",
+     "tag": "Metals"
+    },
+    {
+     "slug": "four-point-one-six-billion-in-july",
+     "tag": "India"
+    }
+   ]
+  }
+ },
+ "thirteen-ninety-five-a-carat": {
+  "strip": {
+   "cap": "By the numbers · Gem Diamonds, H1 2026",
+   "cells": [
+    {
+     "fig": "$1,395",
+     "delta": "▲ +38%",
+     "dir": "up",
+     "lab": "average per carat, on $1,008"
+    },
+    {
+     "fig": "$59.5m",
+     "lab": "revenue, 1 Jan to 30 June"
+    },
+    {
+     "fig": "42,624",
+     "lab": "carats sold"
+    },
+    {
+     "fig": "$16.1m",
+     "lab": "from eight stones over $1m"
+    },
+    {
+     "fig": "346.99ct",
+     "lab": "the Lesotho Jubilee, no price given"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Average price per carat, and where the half sits · USD",
+    "rows": [
+     {
+      "l": "GEM DIAMONDS, Q1 2026 BLENDED",
+      "v": 1878,
+      "d": "$1,878"
+     },
+     {
+      "l": "GEM DIAMONDS, H1 2026",
+      "v": 1395,
+      "d": "$1,395",
+      "hi": true
+     },
+     {
+      "l": "GEM DIAMONDS, Q2 2026 IMPLIED",
+      "v": 1073,
+      "d": "$1,073"
+     },
+     {
+      "l": "GEM DIAMONDS, H1 2025",
+      "v": 1008,
+      "d": "$1,008"
+     },
+     {
+      "l": "DE BEERS, H1 2026 REALISED",
+      "v": 105,
+      "d": "$105"
+     }
+    ],
+    "note": "The H1 2026, H1 2025 and De Beers figures are as published. The Q1 2026 blended rate is $32.1m over 17,090 carats, being the 16,727-carat export sale at $1,501 plus a 363-carat parcel at $7.0m, which reconcile to the stated quarterly revenue exactly. The Q2 implied rate is the half less the first quarter, $27.4m over 25,534 carats, and is this desk's arithmetic rather than a company figure.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/249"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "The half, as published.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Lumps, not a run rate.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "Twenty-seven percent of the half's revenue came from eight stones.",
+     "attr": "The Diamonds Desk"
+    }
+   },
+   {
+    "sub": "Both ends of the size curve.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Gem Diamonds leans on the giants while the market stays soft",
+     "href": "a-gem-diamonds-rides-the-big-ones.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "The 346.99-carat recovery is the next test"
+  },
+  "next": {
+   "lead": {
+    "slug": "doha-signs-three-asian-bourses",
+    "tag": "Doha",
+    "blurb": "Three Asian bourse agreements, signed in July and disclosed in August."
+   },
+   "minis": [
+    {
+     "slug": "gem-diamonds-rides-the-big-ones",
+     "tag": "Q1"
+    },
+    {
+     "slug": "israel-rough-down-thirty-five",
+     "tag": "Israel"
+    }
+   ]
+  }
+ },
+ "three-seventy-four-to-australia": {
+  "strip": {
+   "cap": "By the numbers · India to Australia, FY2025-26",
+   "cells": [
+    {
+     "fig": "$374m",
+     "delta": "▲ +16%",
+     "dir": "up",
+     "lab": "gem and jewellery exports"
+    },
+    {
+     "fig": "+28%",
+     "dir": "up",
+     "lab": "gold jewellery"
+    },
+    {
+     "fig": "+30%",
+     "dir": "up",
+     "lab": "silver jewellery"
+    },
+    {
+     "fig": "+36%",
+     "dir": "up",
+     "lab": "coloured gemstones"
+    },
+    {
+     "fig": "155",
+     "lab": "Showcase stores in Australia"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Growth by category, India's exports to Australia · FY2025-26, %",
+    "rows": [
+     {
+      "l": "COLOURED GEMSTONES",
+      "v": 36,
+      "d": "~+36%"
+     },
+     {
+      "l": "SILVER JEWELLERY",
+      "v": 30,
+      "d": "~+30%"
+     },
+     {
+      "l": "GOLD JEWELLERY",
+      "v": 28,
+      "d": "+28% or more"
+     },
+     {
+      "l": "ALL CATEGORIES",
+      "v": 16,
+      "d": "+16%",
+      "hi": true
+     }
+    ],
+    "note": "Figures as given by the Gem and Jewellery Export Promotion Council on 22 August, which states them as approximations rather than exact rates. Every named category grew faster than the 16% total, so the categories the council did not name grew more slowly or fell. Single source: the council's own release on its own export data, with no corroboration from Australian import statistics.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/250"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "The number, and its spread.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Nine carat, not eighteen.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "Market access removes a tariff. It does not change what shoppers wear.",
+     "attr": "The Retail Desk"
+    }
+   },
+   {
+    "sub": "What the release leaves out.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "India's July gold imports more than doubled to $4.16 billion",
+     "href": "a-four-point-one-six-billion-in-july.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "The week's work has been gathering the specification"
+  },
+  "next": {
+   "lead": {
+    "slug": "fifty-three-percent-at-the-top",
+    "tag": "Retail",
+    "blurb": "The top of the market takes an outsized share of the counter."
+   },
+   "minis": [
+    {
+     "slug": "one-january-and-two-million-customers",
+     "tag": "Retail"
+    },
+    {
+     "slug": "four-point-one-six-billion-in-july",
+     "tag": "India"
+    }
+   ]
+  }
+ },
+ "doha-signs-three-asian-bourses": {
+  "strip": {
+   "cap": "By the numbers · Qatar Diamond Exchange",
+   "cells": [
+    {
+     "fig": "3",
+     "lab": "Asian bourses signed"
+    },
+    {
+     "fig": "15 JUL",
+     "lab": "congress closes, Singapore"
+    },
+    {
+     "fig": "33",
+     "lab": "days to the announcement"
+    },
+    {
+     "fig": "$41.7bn",
+     "lab": "Dubai's 2025 diamond trade, for scale"
+    },
+    {
+     "fig": "2021",
+     "lab": "Qatar joins the Kimberley Process"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Days from the congress close to each step · 15 July as day zero",
+    "rows": [
+     {
+      "l": "CONGRESS CLOSES, SINGAPORE",
+      "v": 0,
+      "d": "day 0"
+     },
+     {
+      "l": "QDE LAUNCH REPORTED HERE",
+      "v": 13,
+      "d": "day 13"
+     },
+     {
+      "l": "QDE ANNOUNCES THE MoUs",
+      "v": 33,
+      "d": "day 33",
+      "hi": true
+     },
+     {
+      "l": "RAPAPORT CARRIES IT",
+      "v": 39,
+      "d": "day 39"
+     }
+    ],
+    "note": "The World Federation of Diamond Bourses held the 41st World Diamond Congress from 12 to 15 July, so 15 July is the latest possible signing date and every interval here is a minimum. The Gulf Times statement is dated Monday 17 August and Rapaport's report 23 August. This paper's own account of the exchange's launch ran on 28 July.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/251"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Three signatures, four names.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "What an MoU is worth.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "An agreement between bourses is worth the traffic it produces, and no more.",
+     "attr": "The Diamonds Desk"
+    }
+   },
+   {
+    "sub": "The argument that is not settled.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Doha opens a diamond exchange, and eyes Dubai's lane",
+     "href": "a-doha-opens-a-diamond-door.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "Until a tender total exists, these are intentions with four names on them"
+  },
+  "next": {
+   "lead": {
+    "slug": "thirteen-ninety-five-a-carat",
+    "tag": "Gem Diamonds",
+    "blurb": "The half averages $1,395 a carat, and the second quarter ran far below it."
+   },
+   "minis": [
+    {
+     "slug": "doha-opens-a-diamond-door",
+     "tag": "Doha"
+    },
+    {
+     "slug": "israel-rough-down-thirty-five",
+     "tag": "Israel"
     }
    ]
   }
