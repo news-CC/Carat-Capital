@@ -1,9 +1,215 @@
 [
  {
+  "slug": "ten-oh-four-twenty-one",
+  "desk": "gold-metals",
+  "date": "2026-08-25",
+  "lead": true,
+  "kicker": "Gold & Metals Desk · Shanghai",
+  "minutes": 5,
+  "byline": "The Metals Desk",
+  "tags": [
+   "NUM",
+   "VS"
+  ],
+  "title": "1,004.21 in Shanghai, and five bank counters spread 16.60 yuan apart",
+  "dek": "Shanghai's Au99.99 closed at 1,004.21 yuan a gram, up 2.10%, back above a level it has broken both ways before. Five bank savings-gold counters quoted between 1,005.69 and 1,022.29 the same morning.",
+  "body": [
+   "The Shanghai Gold Exchange's Au99.99 contract closed at 1,004.21 yuan a gram on Monday, up 20.65 yuan or 2.10% against a previous settlement of 983.56, which this desk back-solves from the exchange's own close and change. It opened at 990.00, ran to a high of 1,006.60 and a low of 985.00, and the weighted average came to 1,002.84 on 7,268.38 kilograms, a little over seven and a quarter tonnes in a single session. Turnover of 7.289 billion yuan divided by that volume returns 1,002.84 a gram exactly, so the table reconciles against itself, which is the first thing this desk now checks on a Chinese price board after the dating trap it printed on 23 August. Three gold contracts finished within 2.19 yuan of one another: Au99.99 at 1,004.21, Au99.95 at 1,004.00 on two kilograms of turnover, and Au100g at 1,006.19.",
+   "The round number is a return and not a first, and the Chinese press said so in its own headlines. The National Business Daily report, published 24 August at 14:13 Beijing time, is headed with the domestic gold price returning to 1,000 yuan, and the related items listed on that same page include three separate reports of the domestic price falling below 1,000 and one recording a risk warning the exchange issued when it did. This paper's 23 August edition named 1,000 yuan a gram as the number the Chinese press would lead with at the crossing, and the press has led with it. Neither the press nor this paper calls it a record. The exchange's own 42-stock gold concept board on the same session split 22 up, 19 down and one flat, and the biggest riser on it was a bicycle maker, Shenzhen Zhonghua A at 9.99%, while the largest miner on the list, Zijin, closed down 0.58%.",
+   "The counters that Chinese savers actually buy through did not agree with each other. At 10:15 Beijing time on Monday, five savings-gold products at four state banks quoted between 1,005.69 and 1,022.29 yuan a gram, a spread of 16.60 yuan, or 1.65% of the lowest, on this desk's arithmetic. Bank of China was dearest at 1,022.29. Agricultural Bank's Cunjintong read 1,018.00, Construction Bank 1,008.89, and Industrial and Commercial Bank of China 1,005.69. ICBC also quoted a second product, Ruyi savings gold, at 1,017.48, so one bank carried two prices for the same metal on the same morning, 11.79 yuan apart, a gap of 1.17%. All five quotes are one 10:15 snapshot and the exchange close came hours later, so a bank-to-exchange markup would cross two different hours and this desk does not calculate one. The bank-to-bank spread is the like-for-like reading.",
+   "This paper's own mark of record moved the other way. Gold was re-read at press time on Tuesday and written back to the tape at $4,634.20 an ounce, Kitco's bid at 06:05 New York time, with TradingEconomics reading $4,634.46 the same minute. That gap of $0.26, or 0.0056%, is the closest two-page agreement this tape has recorded on the metal. The new mark sits $9.70, or 0.21%, below Monday's $4,643.90. Silver was written back at $67.88 against a second page at $67.969, a gap of 0.13%. Platinum and palladium were not written back: Kitco bid $1,842.00 against $1,857.40 and $1,306.00 against $1,327.00, gaps of 0.83% and 1.61%, so the held marks of $1,881.00 and $1,336.00 stand a sixth consecutive session, both still inside Kitco's own press-time day ranges of $1,836.00 to $1,900.00 and $1,298.00 to $1,390.00. Outside-source divergence, disclosed: the National Business Daily carried international spot at $4,636.06 at its own Monday filing hour, a different day and a different hour from this tape's mark, and the two are not compared here.",
+   "The desk's view: a round number in yuan is a headline and the 16.60 yuan between five state bank counters is a price. A saver buying grams through a bank app is not buying at the exchange, they are buying at whichever counter their bank happens to run, and on Monday morning the dearest of the five charged 1.65% more than the cheapest for the identical metal at the identical minute. That is four-fifths of the entire 2.10% the exchange moved all day, earned by nothing but the choice of bank. The trade press will spend this week on whether 1,000 holds. The more answerable question is why the same gram costs 16.60 yuan more at one state bank than another, and no one on either side of that spread publishes the reason."
+  ],
+  "sources": [
+   {
+    "title": "国内现货黄金收盘上涨：Au9999报1004.21元/克，涨跌幅+2.10% (24 August 2026, 18:33) — 金融界",
+    "url": "https://finance.jrj.com.cn/2026/08/24183358218243.shtml"
+   },
+   {
+    "title": "国内金价，重回1000元 (24 August 2026, 14:13) — 每日经济新闻",
+    "url": "https://www.nbd.com.cn/articles/2026-08-24/4552362.html"
+   },
+   {
+    "title": "Gold, Silver, Platinum & Palladium spot prices — Kitco (re-read at press time, 25 August 2026, 06:05 ET)",
+    "url": "https://www.kitco.com/price/precious-metals"
+   },
+   {
+    "title": "Gold, Silver, Platinum and Palladium commodity pages — TradingEconomics (read 25 August 2026)",
+    "url": "https://tradingeconomics.com/commodity/gold"
+   },
+   {
+    "title": "999.46 in Shanghai: three counters priced the same night three different ways — Carat Capital (23 August 2026)",
+    "url": "https://caratcapital.org/a-nine-ninety-nine-forty-six.html"
+   }
+  ]
+ },
+ {
+  "slug": "five-ninety-four-from-china",
+  "desk": "diamonds",
+  "date": "2026-08-25",
+  "kicker": "Diamonds Desk · Chennai",
+  "minutes": 4,
+  "byline": "The Diamonds Desk",
+  "tags": [
+   "NUM",
+   "VS"
+  ],
+  "title": "$594 million from China, and a prototype press at IIT Madras",
+  "dek": "India imported about $594 million of rough lab-grown diamonds from China and Hong Kong in FY2025-26. A 242 crore rupee programme at IIT Madras has now run a prototype HPHT press. Single source.",
+  "body": [
+   "India has completed successful trials of a domestically designed high-pressure high-temperature diamond press, and grew HPHT rough on it, according to a report published on 24 August by Diamond City, the Gujarati fortnightly that serves the Surat trade. The machine is a prototype built by the India Centre for Lab-Grown Diamond, or InCent-LGD, under the 242 crore rupee research programme awarded to IIT Madras when the finance minister announced it in the 2023 union budget. This paper carries the item single-source and labels it so. The report rests on unnamed industry and technical sources, InCent has made no statement of its own, and this desk found no English-language trade coverage of it at press time. The figures below are the outlet's; the arithmetic on them is this desk's.",
+   "The money is the part that scales. India bought roughly $594 million of rough lab-grown diamonds from China and Hong Kong in FY2025-26 on the same report's figures, which it converts to more than 4,900 crore rupees. That implied rate of about 82.5 rupees to the dollar puts the 242 crore rupee programme at close to $29 million, or about 4.9% of a single year's import bill, on this desk's arithmetic and the outlet's own conversion rather than a market rate this desk has verified. A research grant equal to one twentieth of one year's purchases is not a substitution plan. It is a licence to stop paying a licence.",
+   "The next phase is already in motion and it has dates attached. Large components for a full-scale commercial press have been manufactured across units in north India and shipped to IIT Madras for integration, assembly and final testing, and the team is collecting feedstock from around the country to standardise raw material and process parameters. Sources at the Gem and Jewellery Export Promotion Council put the indigenous technology and the raw-material trials in their final stage, with an official announcement of the capability likely in November and the first full-scale press expected complete by December. Every one of those dates is an expectation reported through third parties, not a commitment anyone has published, and this desk prints them as such.",
+   "The gap it addresses is specific. India already holds a commanding share of world production by chemical vapour deposition, the other route to a grown stone, and Surat cuts and polishes more than 90% of the world's diamonds. What it has not held is HPHT press capacity, where China's equipment base and scale have made it the supplier of record, and HPHT rough carries a premium for clarity and colour that CVD material does not automatically match. A cutting industry that owns the polishing end of a supply chain and rents the growing end has one bill it cannot negotiate. That bill is the $594 million.",
+   "The desk's view: treat this as a machine that ran, not an industry that changed. A prototype press making good rough at a research institute is three separate distances from a Surat factory floor: a full-scale build, a yield anyone will underwrite, and a cost per carat that beats a Chinese press already amortised. November and December are the dates to hold this against, and if the announcement comes without a carat figure and a cost, it is a ribbon and not a result. The number worth watching is not the press. It is whether that $594 million import line is smaller in FY2026-27 than it is now."
+  ],
+  "sources": [
+   {
+    "title": "ભારતે લેબ-ગ્રોન ડાયમંડ ક્ષેત્રે રચ્યો ઈતિહાસ: સ્વદેશી HPHT ડાયમંડ પ્રેસનું ટ્રાયલ સફળ (24 August 2026) — Diamond City",
+    "url": "https://www.diamondcitynews.com/india-creates-history-in-the-field-of-lab-grown-diamonds/"
+   }
+  ]
+ },
+ {
+  "slug": "eleven-ninety-five-to-three-oh-seven",
+  "desk": "diamonds",
+  "date": "2026-08-25",
+  "kicker": "Diamonds Desk · Surat",
+  "minutes": 4,
+  "byline": "The Diamonds Desk",
+  "tags": [
+   "NUM",
+   "ACTOR"
+  ],
+  "title": "$1,195 million to $307 million: Surat shrugs at Russia's cutting cluster",
+  "dek": "India's rough imports from Russia fell from $1,195 million in FY2022-23 to $307 million in FY2025-26, a fall of 74.3%. Surat's manufacturers say a Yakutia cluster changes nothing.",
+  "body": [
+   "The number Surat is answering with is a collapse that already happened. Indian imports of Russian rough ran at $1,195 million in FY2022-23 and at $307 million in FY2025-26, a fall of $888 million or 74.3% on this desk's arithmetic, which is to say the trade shrank to just over a quarter of itself across three years of sanctions. Those figures come from Diamond City, the Surat trade paper, in a report published on 24 August. Russia once supplied roughly 30% of the world's rough. The question its report puts is whether a new Russian cutting cluster claws any of that back, and the answer from the men who own the wheels in Surat is that it does not.",
+   "The policy description belongs to the outlet, and this paper attributes it rather than confirming it. The report states that an executive order signed on 6 August sets up a diamond-cutting cluster between the Republic of Sakha, which is Yakutia, and the Smolensk region, where Alrosa's Kristall cutting works sits; that Russia is preparing an 8% export duty on its rough; and that miners will be obliged to offer rough and semi-polished goods to the cluster's domestic manufacturers before taking them to the open market. Diamond City carries its own secondary-research disclaimer on that material. This desk did not obtain the order and does not present the detail as its own verified reading of it.",
+   "The Surat case against it is an argument from arithmetic rather than sentiment. Dinesh Navadiya, chairman of the Indian Diamond Institute, and manufacturers quoted alongside him make the point that Botswana and Russia have both tried to build domestic cutting before and that neither matched Surat's scale or its cost, where more than 800,000 skilled workers process nine of every ten rough stones in the world. Dubai-based rough traders and large Surat importers add the timing objection: with demand slow and margins thin, nobody is funding new factories, shifting Indian cutters to Russia or training Russian ones. The United States takes about 30% of India's gem and jewellery exports and Russian goods remain under sanction, so an Indian firm setting up inside Russia would be trading its largest market for its smallest.",
+   "What the report does not settle is worth naming. It gives no capacity figure for the cluster, no timetable, no employment target and no volume the 8% duty is expected to redirect, so there is no quantity against which Surat's confidence can be tested. Nor does it reconcile the two halves of its own story: if Russian rough into India has already fallen 74.3% under sanctions, the cluster is not competing for a trade India currently has. It is competing for goods that are already going somewhere other than Surat, and the report does not say where.",
+   "The desk's view: the interesting number here is not the cluster, it is the $307 million. A supply line worth $1,195 million three years ago is now worth less than a third of that, and Surat absorbed the loss without losing its position, which is the strongest evidence available that a Russian cutting cluster is a second-order problem for it. The first-order problem is that world demand is slow and margins are thin, and both of those are true whether or not a press starts in Yakutia. Surat is right about Russia and it is answering the easier question."
+  ],
+  "sources": [
+   {
+    "title": "રશિયાની ડાયમંડ ક્લસ્ટર યોજનાથી સુરતના હીરા ઉદ્યોગને કોઈ જોખમ નહીં (24 August 2026) — Diamond City",
+    "url": "https://www.diamondcitynews.com/russias-diamond-cluster-plan-poses-no-threat-to-surats-diamond-industry/"
+   }
+  ]
+ },
+ {
+  "slug": "five-sixty-for-twenty-seven",
+  "desk": "watches",
+  "date": "2026-08-25",
+  "kicker": "Watches Desk · Chicago",
+  "minutes": 4,
+  "byline": "The Watches Desk",
+  "tags": [
+   "NUM",
+   "STAKES"
+  ],
+  "title": "560 applicants for 27 places: the watch trade's arithmetic problem",
+  "dek": "Rolex's Dallas school took 27 of more than 560 applicants in 2024. North Seattle College takes 10 to 12 a year. America had about 6,500 watchmakers in 2021, against 44,000 in 1953.",
+  "body": [
+   "Matthew Burdeen, chief executive of Burdeen's Jewelry in Chicago, told Watch Insider on 14 August that the shortage of qualified watchmakers is the industry's central structural problem, and the Centurion carried the account on 18 August. \"It is probably one of the biggest structural problems in the watch industry,\" he said. His firm's answer is a 7,000 square foot facility for watchmaking, service and operations, due in 2027. Burdeen's argument is that intake is barely replacing retirement while the installed base of watches needing service keeps growing, and that brands and retailers, not schools alone, have to fund the training and build the career path.",
+   "The training arithmetic is where the claim becomes checkable. Rolex's Watchmaking Training Center in Dallas took 27 students from more than 560 applicants in 2024, a figure Fortune reported and the Centurion cites, which is one place for every 20.7 applicants on this desk's arithmetic. North Seattle College's Watch Technology Institute accepts an average of 10 to 12 students a year on an eight-quarter certificate. Those two schools together admit fewer people in a year than a mid-sized jewellery chain employs at one store. The institute's own employment page returned a 403 to this desk today, so its outcome figures are carried from the trade press rather than verified at source, and the figures in circulation measure two different things: 87% employment for graduates over five years of cohorts, and a 91% completion rate. This desk prints neither as settled.",
+   "The population figures behind it are older and larger. Watch Insider's February 2026 study of the same shortage put roughly 44,000 qualified watchmakers in the United States in 1953, on Department of Labor and American Watchmakers-Clockmakers Institute records, against about 6,500 in 2021 on Bureau of Labor Statistics figures. That is a fall of 85.2% across 68 years, on this desk's arithmetic. Jason Champion of the AWCI put the current imbalance at a ratio of at least ten employers seeking a watchmaker for every watchmaker seeking work. Switzerland's own employers' convention has been working to a need for roughly 4,000 additional watchmakers. None of those three figures is dated 2026, and all three are the most recent this desk could source.",
+   "What nobody publishes is the number that would settle the argument: the service backlog. Alistair Audsley of the Alliance of British Watch and Clockmakers has described repair waits stretching into years at some facilities, and framed the consequence as service deserts across the physical scale of the United States. But a wait reported as hearsay is not a measured queue. No brand publishes median turnaround for a service centre, no trade body publishes an aggregate backlog, and until one does, the shortage is argued from intake numbers and job ratios rather than from the thing customers actually experience. That is why a retailer building a 7,000 square foot workshop is a more useful data point than any of the estimates above.",
+   "The desk's view: a trade that sells mechanical objects on the promise of permanence has quietly stopped funding the only people who can keep that promise, and the bill arrives as a wait rather than a price. Twenty-seven places in Dallas and a dozen in Seattle is not a pipeline, it is a rounding error against a population that has fallen 85% since 1953. The measure worth demanding is not more applicants, which the 560 figure shows already exist. It is a published median service turnaround from the brands that charge for it. Until that number exists, the shortage cannot be managed, only complained about."
+  ],
+  "sources": [
+   {
+    "title": "EXCLUSIVE: Burdeen's bemoans lack of watchmakers (14 August 2026, Daniel Malins) — Watch Insider",
+    "url": "https://watchinsider.com/exclusive-burdeens-bemoans-lack-of-watchmakers/"
+   },
+   {
+    "title": "Burdeen's Jewelry Calls Watchmaker Shortage a Major Industry Problem (18 August 2026) — the Centurion",
+    "url": "https://news.centurionjewelry.com/articles/detail/burdeens-jewelry-calls-watchmaker-shortage-a-major-industry-problem"
+   },
+   {
+    "title": "IN-DEPTH: The industry's chronic shortage of watchmakers (25 February 2026, Daniel Malins) — Watch Insider",
+    "url": "https://watchinsider.com/in-depth-the-industrys-chronic-shortage-of-watchmakers/"
+   },
+   {
+    "title": "Watch Technology Institute, Employment Information — North Seattle College (returned HTTP 403 to this desk, 25 August 2026)",
+    "url": "https://northseattle.edu/programs/watch-technology-institute/employment-information"
+   }
+  ]
+ },
+ {
+  "slug": "thirty-nine-of-forty-eight",
+  "desk": "auctions",
+  "date": "2026-08-25",
+  "kicker": "Auctions Desk · Sydney",
+  "minutes": 4,
+  "byline": "The Auctions Desk",
+  "tags": [
+   "NUM",
+   "VS"
+  ],
+  "title": "39 of 48 lots away in Sydney, and the diamond still waits",
+  "dek": "Bonhams' Fine Jewellery sale opened in Sydney at 18:00 AEST with 135 lots. At New York press time 39 of the first 48 had sold. The AU$120,000 to AU$180,000 diamond had not been reached.",
+  "body": [
+   "Bonhams began its Fine Jewellery sale in Sydney at 18:00 AEST on 25 August, which is 04:00 in New York, and this desk read the house's own live board two hours later. Of the first 48 lots, 39 carried a result. Lot 11, a Concord 18ct gold and diamond lady's bracelet watch estimated at AU$10,000 to AU$15,000, is marked withdrawn. The remaining eight showed their estimates and no price. This desk states that as what the board showed rather than as eight lots bought in, because a live page can lag the room. All prices below are as the house publishes them, inclusive of a buyer's premium it states at 23% on the hammer.",
+   "The headline lot had not been reached. The unmounted diamond leading the sale is a 4.74 carat round brilliant, D colour and internally flawless, and Bonhams' own catalogue carries it at AU$120,000 to AU$180,000. Rapaport reported the sale on 23 August with the upper estimate alone, at AU$180,000 or about $129,030, and this desk adds the lower figure from the house. It is the only lot in a 135-lot sale estimated above AU$100,000, and the house's own filter confirms the catalogue's range runs from AU$1,000 to AU$180,000. A single six-figure stone in a sale of that length is the shape of a volume auction with one trophy attached, not a trophy sale.",
+   "What sold in the first two hours priced like a retail floor rather than a saleroom. Two lots tied for the top of the run at AU$55,350, a Van Cleef & Arpels white gold and diamond Frivole necklace and an Alhambra necklace from the same maison, both estimated at AU$30,000 to AU$50,000 and both clearing above the high estimate. A Hardy Brothers emerald and diamond ring took AU$19,680, a Cerrone diamond ring AU$18,450 and a Chopard Les Chaines bracelet AU$15,990. Below that the sale ran in the low thousands: a Bulgari B.zero1 pendant necklace at AU$4,920, a Mouawad diamond pendant at AU$2,337, a cultured pearl necklace at AU$1,599.",
+   "The eight lots without a result do not sit in one price band, which is the finding. They run from a gem-set, cultured pearl and diamond bracelet estimated at AU$2,000 to AU$4,000 up to a diamond line bracelet at AU$40,000 to AU$60,000, and they include a sapphire and diamond cluster ring at AU$25,000 to AU$35,000, a colour-change sapphire pendant at AU$16,000 to AU$19,000 and an emerald and diamond ring at AU$15,000 to AU$20,000. So the run did not fail at the top and clear at the bottom. What is true is narrower and still useful: the three largest estimates anywhere in the first 48 lots are all among the eight without a price, and none of the eight carries a maison name. Bonhams does not publish estimates against lots once they have sold, so this desk cannot say what the 39 that cleared were expected to make, and does not.",
+   "The desk's view: this is a sale being decided by names rather than stones. The two lots that beat their high estimates were both Van Cleef, and the unsigned goods in the same price band went unsold. A branded quatrefoil necklace clearing AU$55,350 while a diamond line bracelet estimated at AU$40,000 finds no bidder is a market telling you it is buying a maison, not a carat weight. The 4.74 carat D internally flawless stone still to come is the test of that reading, because it has no name on it at all. This desk will carry the result when the house publishes it, and not before."
+  ],
+  "sources": [
+   {
+    "title": "Fine Jewellery, Sydney, 25 August 2026, 18:00 AEST — Bonhams (live board read 25 August 2026, 06:00 ET)",
+    "url": "https://www.bonhams.com/auction/32002/fine-jewellery-sydney/"
+   },
+   {
+    "title": "5ct. Diamond to Sparkle at Bonhams Sydney Auction (23 August 2026, Suzanne Watkin) — Rapaport",
+    "url": "https://rapaport.com/news/5ct-diamond-to-sparkle-at-bonhams-sydney-auction/"
+   },
+   {
+    "title": "બોન્હામ્સ સિડની ઓક્શનમાં ૫ કેરેટનો અલભ્ય હીરો (25 August 2026) — Diamond City",
+    "url": "https://www.diamondcitynews.com/rare-5-carat-diamond-to-be-the-main-attraction-at-bonhams-sydney-auction/"
+   }
+  ]
+ },
+ {
+  "slug": "dna-on-the-parcel",
+  "desk": "retail-tech",
+  "date": "2026-08-25",
+  "kicker": "Retail & Technology Desk · Lucerne",
+  "minutes": 4,
+  "byline": "The Retail Desk",
+  "tags": [
+   "ACTOR",
+   "VS"
+  ],
+  "title": "Gübelin sprays synthetic DNA onto melee, and rough still defeats it",
+  "dek": "Provenance Proof, Gübelin's subsidiary, is marking polished melee from KGK Suisse with synthetic-DNA nanoparticles carrying mine, period and country. Rough defeats it: deep boiling strips the coating.",
+  "body": [
+   "Provenance Proof, the independent subsidiary of the Gübelin Gem Lab, has begun marking polished melee diamonds with synthetic-DNA nanoparticles, using goods supplied by KGK Suisse, the Swiss sales and service arm of the KGK Group. Daniel Nyfeler, Gübelin's managing director, presented the work at the 41st World Diamond Congress in Singapore in July, the same congress at which the Qatar Diamond Exchange signed the three Asian bourse agreements this paper reported yesterday. IDEX carried the account on 20 August. Each particle carries a unique synthetic DNA sequence encoding the mine of origin, the mining period and the country of manufacture, and the tracer is invisible to the eye and to an optical microscope, readable only on laboratory equipment.",
+   "The choice of melee is the whole engineering argument, and it is an admission as much as a design. Rough resists the technique for two specific reasons the company states: rough is cleaned in hydrofluoric acid or deep-boiled before cutting, which damages the protective material around the DNA, and cutting and polishing removes particles applied too early. So the current model applies the marker after the stone is finished, to goods that are sorted and processed in large parcels. That is precisely the category where per-stone certification has never been economic, which is why melee has been the industry's provenance blind spot for as long as it has had one.",
+   "It is not a first outing for the chemistry. The same technology is already in commercial use on selected gemstones from Gemfields, and here the two accounts this desk has diverge and are not reconciled: IDEX reports it as running on Gemfields emeralds, while Diamond City's Gujarati report of 24 August describes it as sapphires. Gemfields mines emeralds in Zambia and rubies in Mozambique and does not mine sapphire, which points to emeralds, but this desk cannot settle it from the sources it holds and prints the divergence rather than choosing. What both agree on is that the diamond application is the extension and the coloured stone is the proving ground.",
+   "The measure this needs, and does not yet have, is a cost per carat and a detection rate. Nothing published states what marking a parcel adds to its price, what proportion of marked stones still read after a full cutting and setting cycle, how the tracer survives a retail repolish, or who pays for the reading equipment at the far end of the chain. A physical tracer that only a Gübelin laboratory can read moves the trust problem rather than solving it: the buyer stops trusting the seller's paperwork and starts trusting one laboratory's instrument. That is an improvement, and it is not the same thing as an open standard.",
+   "The desk's view: melee is where diamond provenance goes to die, and this is the first serious attempt to mark the stones that were always too small and too many to certify individually. But the industry does not need another proprietary claim, it needs a checkable one, and until Provenance Proof publishes a survival rate, a cost per carat, and a route for a laboratory that is not Gübelin to read the marker, a jeweller cannot price the assurance and therefore cannot sell it. The right question to put to KGK Suisse is not whether the DNA is on the parcel. It is what the parcel now costs, and who can read it besides the company that sprayed it."
+  ],
+  "sources": [
+   {
+    "title": "Swiss Lab Expands Spray-On DNA Tech to Diamonds (20 August 2026) — IDEX Online",
+    "url": "https://www.idexonline.com/FullArticle?Id=51353"
+   },
+   {
+    "title": "સ્વિસ લેબોરેટરી મિલી સાઇઝના પોલિશ્ડ હીરા માટે નવી ડીએનએ માર્કિંગ ટેકનોલોજી લાવશે (24 August 2026) — Diamond City",
+    "url": "https://www.diamondcitynews.com/swiss-laboratory-to-bring-new-dna-marking-technology-to-millet-sized-polished-diamonds/"
+   },
+   {
+    "title": "Doha signs three Asian bourses, thirty-three days after the ink — Carat Capital (24 August 2026)",
+    "url": "https://caratcapital.org/a-doha-signs-three-asian-bourses.html"
+   }
+  ]
+ },
+ {
   "slug": "forty-six-forty-three-ninety",
   "desk": "gold-metals",
   "date": "2026-08-24",
-  "lead": true,
   "kicker": "Gold & Metals Desk · New York",
   "minutes": 4,
   "byline": "The Metals Desk",
@@ -1935,7 +2141,8 @@
    "Two public reference pages for a one-carat lab-grown diamond were read at the same hour this morning and returned $711 and $650. CaratRadar, republished today, puts the one-carat average at $711 and states on the page that its figures are asking-price averages by shape, carat, colour and clarity, drawn from active certified listings across major online retailers and refreshed daily. TheDiamondPrice, carrying an August 2026 date, puts the fair market price of a one-carat round at $650 and says most comparable stones sit between $590 and $760, on a benchmark of E to F colour and VVS clarity. The gap is $61, or 9.4% on the lower figure, derived by this desk. One is what sellers ask. The other is what stones fetch.",
    "The two are not in conflict, and that is the more useful finding. CaratRadar's $711 sits inside TheDiamondPrice's own $590 to $760 band, above its $675 midpoint and above its $650 central mark. An asking-price average built from live listings should sit above a transaction estimate, because a listing is an offer and a sale is an agreement, and the distance between them is the discount a buyer negotiates. What neither page publishes is that distance as a number, so a jeweller reading one of them has no way to know which side of the trade it describes. This paper carried a third reference on 9 August, StoneAlgo at $511 dated 7 August, and that page has not been re-read today; taken with today's two, the published span for the same stone runs from $511 to $711, about 39%.",
    "The span matters because of what this stone now is. Lab-grown took 61% of United States engagement centre stones in 2025, a figure this desk published on 30 July, which makes the one-carat lab-grown round the single most-bought diamond in the American market. It is also the one with no settled price. Natural goods have the Rapaport list, published weekly on Thursdays, and the RapNet Diamond Index behind it. Grown goods have a set of independent aggregators, each computing a different quantity, none of them clearing a market, and none of them stating which side of the bid they stand on.",
-   "This paper's own instruments are inside the problem, and they do not agree with each other either. The newsroom tape carries a lab-grown one-carat reference of $711, the CaratRadar figure read today. The site's own tape chip carries $475, footnoted on the page as the midpoint of the published CVD wholesale band for a one-carat stone and dated 30 July, and it is locked to the lab-grown price list it links to so that the two can never drift apart. Those are not two versions of one number. One is a retail asking average read this morning and the other is a wholesale band midpoint published twelve days ago, and the distance between them, about 50%, is roughly what the trade takes between the two ends of this stone. Both are now labelled on the page with the quantity and the date, which is the only defensible way to carry either. The two natural-diamond indices this desk also tries to carry, RAPI and the Zimnisky rough index, returned no numeric reading again this morning, the seventh consecutive session, and both print unreachable rather than a figure this desk cannot stand behind.",
+   "This paper's own instruments are inside the problem, and they do not agree with each other either. The newsroom tape carries a lab-grown one-carat reference of $711, the CaratRadar figure read today. The site's own tape chip carries $475, footnoted on the page as the midpoint of the published CVD wholesale band for a one-carat stone and dated 30 July, and it is locked to the lab-grown price list it links to so that the two can never drift apart. Those are not two versions of one number. One is a retail asking average read this morning and the other is a wholesale band midpoint published twelve days ago, and the distance between them, about 50%, is roughly what the trade takes between the two ends of this stone. Both are now labelled on the page with the quantity and the date, which is the only defensible way to carry either. The two natural-diamond indices this desk also tries to carry are not in the same position, and this article originally said they were. The RapNet Diamond Index publishes its index levels as plain text on its own public page, above the members-only wall that covers the price list; the 1.00-carat series stands at 3,881.34 at the July 2026 point this paper's tape carries, a monthly reading the publisher revises after posting. The Zimnisky rough index returns no numeric reading at all, because its current level sits inside a chart image and is sold rather than printed, and the status word this paper carries against it is paywalled.",
+   "Correction, 25 August 2026: this article as published said that RAPI and the Zimnisky rough index had both returned no numeric reading and that both printed unreachable. That was right about Zimnisky and wrong about RAPI. Retested on 25 August with an ordinary unauthenticated request, rapaport.com/diamond-price-index/ returns HTTP 200 and publishes its index levels in the page's own inline data, 3,881.34 for the 1.00-carat series, with no login and no membership. The bad claim came from reading the members-only wall over the weekly price list as though it covered the whole page, when the index levels sit above that wall in plain text. What was right as published: the Zimnisky half, whose current level is embedded in a chart image with no extractable figure and whose correct status word is paywalled rather than unreachable, and the article's central finding about the one-carat lab-grown span, which nothing here touches. This paper cannot reconstruct what the Rapaport page returned on 11 August and does not claim the page changed; the claim is corrected on the evidence available today. Found by this paper's standards desk on 24 August 2026.",
    "The desk's view: the most-bought stone in America does not have a price, it has a range, and the trade has been quoting the middle of that range as though it were a fact. Nothing on either page read today is wrong. CaratRadar is measuring offers and says so; TheDiamondPrice is estimating transactions and says so. The failure is at the counter, where a single figure gets repeated without the qualifier that makes it meaningful, and a 9.4% error on a $650 stone is most of a retailer's margin on it. The practical instruction is to stop asking what a lab-grown carat costs and start asking which of the two questions the number answers. Until one of these pages publishes an ask-to-sale spread, a jeweller pricing a case should treat every published lab-grown reference as an upper bound and find the lower one in its own till receipts."
   ],
   "sources": [
@@ -5578,12 +5785,13 @@
    "NUM"
   ],
   "title": "Israel's diamond chief resigns as exports hit a record low",
-  "dek": "Nissim Zuaretz stepped down after two years with first-half exports at $2.4 billion, the lowest on record and down from roughly $7 billion at the 2015 peak. Dubai, lab-grown and a new 10% US tariff were all named.",
+  "dek": "Nissim Zuaretz stepped down after two years with first-half exports at $2.4 billion, the lowest on record and down from roughly $7 billion at the 2015 peak. Dubai, lab-grown and and a new US tariff were all named. The rate is 12.5%, corrected below.",
   "body": [
    "Nissim Zuaretz resigned as president of the Israel Diamond Exchange on July 26 after two years in the role, and the figure he left behind explained the exit more plainly than any statement could. Israeli diamond exports came to $2.4 billion in the first half of 2026, the lowest half on record and a fraction of the roughly $7 billion the country shipped at its 2015 peak. A trade that once ran through Ramat Gan is running somewhere else.",
-   "Zuaretz named the pressures without softening them: dealers and their goods relocating to Dubai for its tax treatment, lab-grown stones hollowing out the middle of the natural market, weakening global demand, and a new 10% United States tariff on diamond imports that took effect over the weekend. Without a change of course, he warned, \"we will be able to say goodbye to the Israel Diamond Exchange.\"",
+   "Zuaretz named the pressures without softening them: dealers and their goods relocating to Dubai for its tax treatment, lab-grown stones hollowing out the middle of the natural market, weakening global demand, and a new United States tariff on diamond imports that took effect over the weekend. That measure is the Section 301 forced-labour tariff of 24 July, under which Israel sits in the 12.5% tier; the 10% Section 122 surcharge it replaced was sunsetting the same day. Without a change of course, he warned, \"we will be able to say goodbye to the Israel Diamond Exchange.\"",
    "The exchange is not a small room. Its four-tower complex in Ramat Gan has for decades been one of the world's principal trading floors, a place where memo goods and sight boxes changed hands under one roof. The migration Zuaretz described is the quiet kind: not a closure but a slow draining of the firms, the workers and the inventory that gave the floor its liquidity, each one following a lower cost of doing business to the Gulf.",
-   "The tariff is the sharpest of the new cuts. The 10% American duty, part of the Section 301 bands that hit roughly sixty countries on July 24, lands on a trade already competing with a Dubai that charges little to nothing, and it compounds rather than replaces the structural drift. An election to replace Zuaretz, already expected in November, now carries the weight of deciding whether the exchange fights the drift or manages the decline.",
+   "The tariff is the sharpest of the new cuts. The 12.5% American duty, the upper of the two Section 301 bands that hit roughly sixty countries on July 24, lands on a trade already competing with a Dubai that charges little to nothing, and it compounds rather than replaces the structural drift. An election to replace Zuaretz, already expected in November, now carries the weight of deciding whether the exchange fights the drift or manages the decline.",
+   "Correction, 25 August 2026: this article as published said that a new 10% United States tariff on diamond imports took effect over the weekend of 24 July, and repeated the 10% figure in its third paragraph and in the panel. The rate is wrong and the measure was conflated with the one it replaced. The 10% duty was the Section 122 general import surcharge, which was sunsetting on or about 24 July; what took effect that day was a new Section 301 forced-labour tariff covering 60 economies at 10% or 12.5%, and Israel sits in the 12.5% tier. The bad figure was this paper's own framing and not the trade press it drew on: Rapaport's report of the resignation, re-fetched today, carries no tariff percentage at all, and no percentage was attributed to Zuaretz. What was right as published: that a new American duty struck Israeli goods in late July, that it lands on a trade already losing firms to Dubai, and every export figure in the piece. This is the same fault corrected on this paper's 23 August Israel filing on 24 August; that run fixed the page it was pointed at and did not check the rest of the archive for the same sentence. Found here on 25 August by grepping every article for the figure, which is what should have happened the first time.",
    "The desk's view: a bourse is only as strong as the reasons to trade inside it, and Ramat Gan is watching those reasons move to the Gulf one lease at a time. A record-low half is not a headline the next president inherits so much as a mandate, and the mandate is blunt: give the floor a reason to stay that is larger than a tax bill, or preside over the goodbye Zuaretz already named."
   ],
   "sources": [

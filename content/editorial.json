@@ -14907,7 +14907,7 @@
     },
     {
      "l": "New US tariff",
-     "v": "<b>10%</b> on diamond imports, from July 24"
+     "v": "<b>12.5%</b> Section 301, from July 24"
     },
     {
      "l": "Successor vote",
@@ -14966,6 +14966,9 @@
    },
    {
     "p": 3
+   },
+   {
+    "p": 4
    },
    {
     "also": {
@@ -26876,6 +26879,9 @@
     "p": 3
    },
    {
+    "p": 4
+   },
+   {
     "also": {
      "t": "Lab-grown finds its floor",
      "href": "a-lab-grown-finds-its-floor.html"
@@ -32893,6 +32899,677 @@
     {
      "slug": "israel-rough-down-thirty-five",
      "tag": "Israel"
+    }
+   ]
+  }
+ },
+ "ten-oh-four-twenty-one": {
+  "strip": {
+   "cap": "By the numbers · Shanghai, 24 August",
+   "cells": [
+    {
+     "fig": "1,004.21",
+     "lab": "Au99.99 close, yuan a gram"
+    },
+    {
+     "fig": "+2.10%",
+     "delta": "▲",
+     "dir": "up",
+     "lab": "on a 983.56 settlement"
+    },
+    {
+     "fig": "16.60",
+     "lab": "yuan between five bank counters"
+    },
+    {
+     "fig": "1.65%",
+     "lab": "the spread, derived by this desk"
+    },
+    {
+     "fig": "7.27t",
+     "lab": "gold traded in one session"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "One gram of gold, five bank counters and the exchange · yuan",
+    "rows": [
+     {
+      "l": "BANK OF CHINA, SAVINGS GOLD",
+      "v": 1022.29,
+      "d": "1,022.29",
+      "hi": true
+     },
+     {
+      "l": "AGRICULTURAL BANK, CUNJINTONG",
+      "v": 1018.0,
+      "d": "1,018.00"
+     },
+     {
+      "l": "ICBC, RUYI SAVINGS GOLD",
+      "v": 1017.48,
+      "d": "1,017.48"
+     },
+     {
+      "l": "CONSTRUCTION BANK",
+      "v": 1008.89,
+      "d": "1,008.89"
+     },
+     {
+      "l": "ICBC, SAVINGS GOLD",
+      "v": 1005.69,
+      "d": "1,005.69"
+     },
+     {
+      "l": "SGE Au99.99, CLOSE",
+      "v": 1004.21,
+      "d": "1,004.21"
+     }
+    ],
+    "note": "The five bank quotations are a single 10:15 Beijing snapshot on 24 August 2026, reported by the National Business Daily. The exchange close came hours later and is shown for scale only; this desk does not calculate a bank-to-exchange markup across two different hours. The like-for-like reading is the 16.60 yuan between the dearest and cheapest bank counter.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/252"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "The close, and a table that reconciles.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Five counters, one gram.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "The dearest state bank charged 1.65% more for the identical gram.",
+     "attr": "The Metals Desk"
+    }
+   },
+   {
+    "sub": "This paper's own mark.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "999.46 in Shanghai: three counters, three prices",
+     "href": "a-nine-ninety-nine-forty-six.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "a round number in yuan is a headline and 16.60 yuan is a price"
+  },
+  "next": {
+   "lead": {
+    "slug": "five-ninety-four-from-china",
+    "tag": "Diamonds",
+    "blurb": "A prototype HPHT press at IIT Madras against a $594 million import bill."
+   },
+   "minis": [
+    {
+     "slug": "five-sixty-for-twenty-seven",
+     "tag": "Watches"
+    },
+    {
+     "slug": "thirty-nine-of-forty-eight",
+     "tag": "Auctions"
+    }
+   ]
+  }
+ },
+ "five-ninety-four-from-china": {
+  "strip": {
+   "cap": "By the numbers · InCent-LGD, IIT Madras",
+   "cells": [
+    {
+     "fig": "$594m",
+     "lab": "rough LGD bought from China and HK, FY2025-26"
+    },
+    {
+     "fig": "₹242cr",
+     "lab": "the research programme, 2023 budget"
+    },
+    {
+     "fig": "~4.9%",
+     "lab": "programme as a share of one year's imports"
+    },
+    {
+     "fig": "3 yrs",
+     "lab": "budget announcement to prototype trial"
+    },
+    {
+     "fig": "90%+",
+     "lab": "of world diamonds cut in Surat"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "The import bill against the programme · US dollars, millions",
+    "rows": [
+     {
+      "l": "ROUGH LGD IMPORTS FROM CHINA AND HK, FY2025-26",
+      "v": 594,
+      "d": "$594m",
+      "hi": true
+     },
+     {
+      "l": "THE IIT MADRAS PROGRAMME, ₹242 CRORE",
+      "v": 29,
+      "d": "~$29m"
+     }
+    ],
+    "note": "Both figures are from Diamond City's report of 24 August 2026. The dollar value of the programme is this desk's arithmetic on the outlet's own implied rate of about 82.5 rupees to the dollar, taken from its conversion of $594 million to more than 4,900 crore rupees, and not a market rate this desk has verified. Single-source item.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/253"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "A press that ran.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "The bill it is aimed at.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "A grant worth one twentieth of a year's imports is not substitution.",
+     "attr": "The Diamonds Desk"
+    }
+   },
+   {
+    "sub": "What HPHT holds that CVD does not.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "A third door for lab-grown",
+     "href": "a-a-third-door-for-lab-grown.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "treat this as a machine that ran, not an industry that changed"
+  },
+  "next": {
+   "lead": {
+    "slug": "ten-oh-four-twenty-one",
+    "tag": "Metals",
+    "blurb": "Shanghai back above 1,000 yuan, and five bank counters 16.60 apart."
+   },
+   "minis": [
+    {
+     "slug": "eleven-ninety-five-to-three-oh-seven",
+     "tag": "Surat"
+    },
+    {
+     "slug": "dna-on-the-parcel",
+     "tag": "Technology"
+    }
+   ]
+  }
+ },
+ "eleven-ninety-five-to-three-oh-seven": {
+  "strip": {
+   "cap": "By the numbers · Russian rough into India",
+   "cells": [
+    {
+     "fig": "$1,195m",
+     "lab": "FY2022-23 imports"
+    },
+    {
+     "fig": "$307m",
+     "lab": "FY2025-26 imports"
+    },
+    {
+     "fig": "−74.3%",
+     "delta": "▼",
+     "dir": "down",
+     "lab": "the fall, derived by this desk"
+    },
+    {
+     "fig": "8%",
+     "lab": "export duty Russia is said to be preparing"
+    },
+    {
+     "fig": "800,000+",
+     "lab": "Surat cutting and polishing workers"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Indian imports of Russian rough · US dollars, millions",
+    "rows": [
+     {
+      "l": "FY2022-23",
+      "v": 1195,
+      "d": "$1,195m"
+     },
+     {
+      "l": "FY2025-26",
+      "v": 307,
+      "d": "$307m",
+      "hi": true
+     }
+    ],
+    "note": "Figures from Diamond City, 24 August 2026. The fall of $888 million, or 74.3%, is this desk's arithmetic. The Russian policy detail in this article carries the outlet's own secondary-research disclaimer and is attributed to it rather than confirmed here.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/254"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "A collapse that already happened.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "The argument from arithmetic.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "Surat lost $888 million of Russian rough and kept its position.",
+     "attr": "The Diamonds Desk"
+    }
+   },
+   {
+    "sub": "What the report does not settle.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Antwerp thins as India loads the polished",
+     "href": "a-antwerp-thins-india-loads.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "the interesting number is not the cluster, it is the $307 million"
+  },
+  "next": {
+   "lead": {
+    "slug": "ten-oh-four-twenty-one",
+    "tag": "Metals",
+    "blurb": "Shanghai back above 1,000 yuan, and five bank counters 16.60 apart."
+   },
+   "minis": [
+    {
+     "slug": "five-ninety-four-from-china",
+     "tag": "Lab-grown"
+    },
+    {
+     "slug": "thirty-nine-of-forty-eight",
+     "tag": "Auctions"
+    }
+   ]
+  }
+ },
+ "five-sixty-for-twenty-seven": {
+  "strip": {
+   "cap": "By the numbers · The watchmaker shortage",
+   "cells": [
+    {
+     "fig": "560+",
+     "lab": "applicants, Rolex Dallas, 2024"
+    },
+    {
+     "fig": "27",
+     "lab": "places offered"
+    },
+    {
+     "fig": "20.7",
+     "lab": "applicants per place, derived by this desk"
+    },
+    {
+     "fig": "10-12",
+     "lab": "North Seattle College intake a year"
+    },
+    {
+     "fig": "−85.2%",
+     "delta": "▼",
+     "dir": "down",
+     "lab": "US watchmakers, 1953 to 2021"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Qualified watchmakers in the United States",
+    "rows": [
+     {
+      "l": "1953 (DoL / AWCI RECORDS)",
+      "v": 44000,
+      "d": "~44,000"
+     },
+     {
+      "l": "2021 (BUREAU OF LABOR STATISTICS)",
+      "v": 6500,
+      "d": "~6,500",
+      "hi": true
+     }
+    ],
+    "note": "Both figures are as reported by Watch Insider on 25 February 2026. The fall of 85.2% across 68 years is this desk's arithmetic. Neither figure is dated 2026 and both are the most recent this desk could source. North Seattle College's own employment page returned HTTP 403 to this desk on 25 August 2026, so its outcome figures are not carried here.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/255"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "A retailer builds a workshop.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "The population behind the ratio.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "Twenty-seven places in Dallas is not a pipeline, it is a rounding error.",
+     "attr": "The Watches Desk"
+    }
+   },
+   {
+    "sub": "The number nobody publishes.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "1.2 million apply, and the trade still cannot staff a bench",
+     "href": "a-one-point-two-million-apply.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "the measure worth demanding is a published median service turnaround"
+  },
+  "next": {
+   "lead": {
+    "slug": "ten-oh-four-twenty-one",
+    "tag": "Metals",
+    "blurb": "Shanghai back above 1,000 yuan, and five bank counters 16.60 apart."
+   },
+   "minis": [
+    {
+     "slug": "thirty-nine-of-forty-eight",
+     "tag": "Auctions"
+    },
+    {
+     "slug": "dna-on-the-parcel",
+     "tag": "Technology"
+    }
+   ]
+  }
+ },
+ "thirty-nine-of-forty-eight": {
+  "strip": {
+   "cap": "By the numbers · Bonhams Sydney, mid-sale",
+   "cells": [
+    {
+     "fig": "135",
+     "lab": "lots in the sale"
+    },
+    {
+     "fig": "39 / 48",
+     "lab": "with a result at press time"
+    },
+    {
+     "fig": "AU$55,350",
+     "lab": "top price so far, twice"
+    },
+    {
+     "fig": "4.74ct",
+     "lab": "D, internally flawless, not yet reached"
+    },
+    {
+     "fig": "AU$120-180k",
+     "lab": "its estimate range"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Bonhams Sydney, first 48 lots at New York press time",
+    "rows": [
+     {
+      "l": "SOLD, RESULT ON THE BOARD",
+      "v": 39,
+      "d": "39 lots",
+      "hi": true
+     },
+     {
+      "l": "ESTIMATE SHOWING, NO PRICE",
+      "v": 8,
+      "d": "8 lots"
+     },
+     {
+      "l": "WITHDRAWN",
+      "v": 1,
+      "d": "1 lot"
+     }
+    ],
+    "note": "Read from Bonhams' own live sale board at 06:00 New York time on 25 August 2026, two hours after the 18:00 AEST start. Lots showing an estimate and no price are recorded as that and not as bought in, because a live page can lag the room. Prices are as the house publishes them, inclusive of a buyer's premium stated at 23% on the hammer. 87 lots were still to come.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/256"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "Reading the board mid-sale.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "What cleared in two hours.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "The market is buying a maison, not a carat weight.",
+     "attr": "The Auctions Desk"
+    }
+   },
+   {
+    "sub": "The eight without a price.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "112 online, 175 live",
+     "href": "a-one-twelve-online-one-seventy-five-live.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "this is a sale being decided by names rather than stones"
+  },
+  "next": {
+   "lead": {
+    "slug": "ten-oh-four-twenty-one",
+    "tag": "Metals",
+    "blurb": "Shanghai back above 1,000 yuan, and five bank counters 16.60 apart."
+   },
+   "minis": [
+    {
+     "slug": "five-sixty-for-twenty-seven",
+     "tag": "Watches"
+    },
+    {
+     "slug": "five-ninety-four-from-china",
+     "tag": "Lab-grown"
+    }
+   ]
+  }
+ },
+ "dna-on-the-parcel": {
+  "strip": {
+   "cap": "By the numbers · Provenance Proof",
+   "cells": [
+    {
+     "fig": "3",
+     "lab": "data points per particle: mine, period, country"
+    },
+    {
+     "fig": "41st",
+     "lab": "World Diamond Congress, Singapore, July"
+    },
+    {
+     "fig": "Melee",
+     "lab": "the only diamond category it works on"
+    },
+    {
+     "fig": "0",
+     "lab": "published cost per carat"
+    },
+    {
+     "fig": "0",
+     "lab": "published survival rate"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Where the marker survives, and where it does not",
+    "rows": [
+     {
+      "l": "POLISHED MELEE, MARKED AFTER CUTTING",
+      "v": 1,
+      "d": "works"
+     },
+     {
+      "l": "ROUGH, DEEP BOILED OR ACID CLEANED",
+      "v": 0,
+      "d": "coating damaged"
+     },
+     {
+      "l": "ROUGH, MARKED BEFORE POLISHING",
+      "v": 0,
+      "d": "particles removed"
+     }
+    ],
+    "note": "Limitations as stated by the company and reported by IDEX Online on 20 August 2026. The technology is already in commercial use on selected Gemfields gemstones; IDEX reports these as emeralds and Diamond City's report of 24 August 2026 as sapphires. Gemfields mines emeralds and rubies and not sapphire, which points to emeralds, but this desk cannot settle the divergence from the sources it holds and prints it rather than choosing.",
+    "cap": "Carat Capital graphics desk. &nbsp;CC/2026/257"
+   }
+  ],
+  "flow": [
+   {
+    "sub": "A tracer on the smallest stones.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Not the first outing.",
+    "n": "§2"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "A tracer only one laboratory can read moves the trust problem.",
+     "attr": "The Retail Desk"
+    }
+   },
+   {
+    "sub": "The figures nobody publishes.",
+    "n": "§3"
+   },
+   {
+    "p": 3
+   },
+   {
+    "also": {
+     "t": "Doha signs three Asian bourses",
+     "href": "a-doha-signs-three-asian-bourses.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "the industry does not need another proprietary claim, it needs a checkable one"
+  },
+  "next": {
+   "lead": {
+    "slug": "ten-oh-four-twenty-one",
+    "tag": "Metals",
+    "blurb": "Shanghai back above 1,000 yuan, and five bank counters 16.60 apart."
+   },
+   "minis": [
+    {
+     "slug": "five-ninety-four-from-china",
+     "tag": "Lab-grown"
+    },
+    {
+     "slug": "eleven-ninety-five-to-three-oh-seven",
+     "tag": "Surat"
     }
    ]
   }
