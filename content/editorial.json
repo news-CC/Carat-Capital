@@ -34278,5 +34278,683 @@
     "cap": "Kitco against TradingEconomics at press time. A mark moves only when the second page corroborates it; the white metals have not corroborated for six sessions. Carat Capital graphics desk. &nbsp;CC/2026/045"
    }
   ]
+ },
+ "eighty-eight-and-the-payout": {
+  "strip": {
+   "cap": "By the numbers - Laopu Gold, six months to 30 June",
+   "cells": [
+    {
+     "fig": "19.81B",
+     "delta": "+60.3%",
+     "dir": "up",
+     "lab": "yuan revenue, as the company defines it"
+    },
+    {
+     "fig": "4.267B",
+     "delta": "+88.18%",
+     "dir": "up",
+     "lab": "yuan profit attributable to owners"
+    },
+    {
+     "fig": "41.3%",
+     "delta": "+3.2pp",
+     "dir": "up",
+     "lab": "gross margin, from 38.1%"
+    },
+    {
+     "fig": "18.02",
+     "delta": "74.6% payout",
+     "dir": "up",
+     "lab": "yuan interim dividend a share"
+    },
+    {
+     "fig": "+171.9%",
+     "delta": "online",
+     "dir": "up",
+     "lab": "platform revenue, now 22.2% of sales"
+    }
+   ]
+  },
+  "flow": [
+   {
+    "sub": "The company reports two revenue lines, and the trade is quoting the wrong one.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "sub": "Profit grew faster than sales, and the adjustment made it slower.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "fig": 0
+   },
+   {
+    "pull": {
+     "q": "Thirteen percent of the sales figure never reaches the revenue line.",
+     "attr": "The Retail Desk"
+    }
+   },
+   {
+    "sub": "Margin did more work than volume.",
+    "n": "§3"
+   },
+   {
+    "p": 2,
+    "split": "A jeweller expanding gross margin"
+   },
+   {
+    "p": 3,
+    "split": "Channel mix moved too"
+   },
+   {
+    "also": {
+     "t": "Movado's sales rose 4.9%, the exact figure by which Fossil's fell",
+     "href": "a-the-same-figure-the-other-way.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "The number that matters more than either"
+  },
+  "next": {
+   "lead": {
+    "slug": "the-same-figure-the-other-way",
+    "tag": "Watches",
+    "blurb": "Two US-listed watch groups moved the same distance in opposite directions, twenty-seven days apart."
+   },
+   "minis": [
+    {
+     "slug": "the-mark-that-left-the-range",
+     "tag": "Gold & Metals"
+    },
+    {
+     "slug": "ten-counters-seven-yuan",
+     "tag": "Gold & Metals"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Laopu Gold, first half - growth by line, %",
+    "rows": [
+     {
+      "l": "ONLINE PLATFORM REVENUE",
+      "v": 172,
+      "d": "+171.9%",
+      "hi": true
+     },
+     {
+      "l": "REVENUE OUTSIDE THE MAINLAND",
+      "v": 108,
+      "d": "+107.8%"
+     },
+     {
+      "l": "PROFIT ATTRIBUTABLE",
+      "v": 88,
+      "d": "+88.18%"
+     },
+     {
+      "l": "ADJUSTED NET PROFIT",
+      "v": 84,
+      "d": "+83.6%"
+     },
+     {
+      "l": "SALES PERFORMANCE",
+      "v": 61,
+      "d": "+60.6%"
+     },
+     {
+      "l": "RECOGNISED REVENUE",
+      "v": 60,
+      "d": "+60.3%"
+     }
+    ],
+    "note": "The adjusted profit line grows slower than the reported one",
+    "cap": "Six growth rates from one release. The two at the bottom are the two revenue definitions, 13.04% apart in absolute terms. Carat Capital graphics desk, on the company's interim results. &nbsp;CC/2026/046"
+   }
+  ]
+ },
+ "the-same-figure-the-other-way": {
+  "strip": {
+   "cap": "By the numbers - Movado Group, quarter to 31 July",
+   "cells": [
+    {
+     "fig": "$169.8M",
+     "delta": "+4.9%",
+     "dir": "up",
+     "lab": "net sales, against $161.9M"
+    },
+    {
+     "fig": "$12.3M",
+     "delta": "4.10x",
+     "dir": "up",
+     "lab": "net income, against $3.0M"
+    },
+    {
+     "fig": "+530bp",
+     "delta": "gross margin",
+     "dir": "up",
+     "lab": "of which ~380bp is sales mix"
+    },
+    {
+     "fig": "$3.2M",
+     "lab": "IEEPA duty refunds in gross profit"
+    },
+    {
+     "fig": "9.0% vs 0.7%",
+     "delta": "licensed vs owned",
+     "lab": "growth inside the watch segment"
+    }
+   ]
+  },
+  "flow": [
+   {
+    "sub": "The same number, two companies, opposite signs.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "sub": "Licensed brands grew thirteen times faster than the company's own name.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "fig": 0
+   },
+   {
+    "pull": {
+     "q": "One number, two watch groups, opposite signs, twenty-seven days between the quarter ends.",
+     "attr": "The Watches Desk"
+    }
+   },
+   {
+    "sub": "A quarter of the profit is a tariff refund.",
+    "n": "§3"
+   },
+   {
+    "p": 2,
+    "split": "Gross profit rose $13.3 million"
+   },
+   {
+    "p": 3,
+    "split": "This paper covered a watch retailer"
+   },
+   {
+    "also": {
+     "t": "Fossil's sales fell 4.9% and the watch line fell 1.5%",
+     "href": "a-watches-were-the-line-that-held.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "Two filings a month apart"
+  },
+  "next": {
+   "lead": {
+    "slug": "a-chart-of-the-rough-trade",
+    "tag": "Diamonds",
+    "blurb": "India's rough trade put eight grievances to a customs chief and was asked to draw its own supply chain."
+   },
+   "minis": [
+    {
+     "slug": "watches-were-the-line-that-held",
+     "tag": "Watches"
+    },
+    {
+     "slug": "the-mark-that-left-the-range",
+     "tag": "Gold & Metals"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Movado, quarter to 31 July - growth by line, %",
+    "rows": [
+     {
+      "l": "LICENSED BRANDS",
+      "v": 90,
+      "d": "+9.0%",
+      "hi": true
+     },
+     {
+      "l": "UNITED STATES",
+      "v": 59,
+      "d": "+5.9%"
+     },
+     {
+      "l": "WATCH & ACCESSORY SEGMENT",
+      "v": 53,
+      "d": "+5.3%"
+     },
+     {
+      "l": "INTERNATIONAL",
+      "v": 50,
+      "d": "+5.0%"
+     },
+     {
+      "l": "COMPANY STORES",
+      "v": 28,
+      "d": "+2.8%"
+     },
+     {
+      "l": "OWNED BRANDS",
+      "v": 7,
+      "d": "+0.7%"
+     }
+    ],
+    "note": "Everything grew; the company's own brands grew least",
+    "cap": "Bars scaled at ten times the percentage. The spread between licensed and owned is the quarter's real story. Carat Capital graphics desk, on Movado's Form 10-Q. &nbsp;CC/2026/046"
+   }
+  ]
+ },
+ "a-chart-of-the-rough-trade": {
+  "strip": {
+   "cap": "By the numbers - GJEPC and Delhi Customs, 24 August",
+   "cells": [
+    {
+     "fig": "8",
+     "lab": "distinct grievances, this desk's count"
+    },
+    {
+     "fig": "100%",
+     "delta": "checking",
+     "dir": "down",
+     "lab": "consignment examination cited at Mumbai"
+    },
+    {
+     "fig": "6 + 2",
+     "lab": "council officers, plus two from the bourse"
+    },
+    {
+     "fig": "0",
+     "lab": "figures, reliefs or timelines published"
+    },
+    {
+     "fig": "1",
+     "lab": "flow chart requested in return"
+    }
+   ]
+  },
+  "flow": [
+   {
+    "sub": "The Delhi commissioner travelled to the Mumbai trade, and a minister sent him.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "sub": "Eight complaints, and rough valuation took the largest share.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "fig": 0
+   },
+   {
+    "pull": {
+     "q": "The industry asked for expertise; the department asked for a flow chart.",
+     "attr": "The Diamonds Desk"
+    }
+   },
+   {
+    "sub": "Nothing was conceded and nothing was priced.",
+    "n": "§3"
+   },
+   {
+    "p": 2,
+    "split": "The absence of specialised trade expertise"
+   },
+   {
+    "p": 3,
+    "split": "This paper attaches no value to the meeting"
+   },
+   {
+    "also": {
+     "t": "Kagem shows rough emeralds in Jaipur for nineteen days",
+     "href": "a-kagem-comes-to-jaipur.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "The tell will be whether anything binds"
+  },
+  "next": {
+   "lead": {
+    "slug": "ten-counters-seven-yuan",
+    "tag": "Gold & Metals",
+    "blurb": "Ten Chinese brand counters priced within seven yuan a gram of each other on a single named day."
+   },
+   "minis": [
+    {
+     "slug": "kagem-comes-to-jaipur",
+     "tag": "Gemstones"
+    },
+    {
+     "slug": "eighty-eight-and-the-payout",
+     "tag": "Retail & Tech"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "What the trade raised, and what came back",
+    "rows": [
+     {
+      "l": "GRIEVANCES TABLED",
+      "v": 80,
+      "d": "8",
+      "hi": true
+     },
+     {
+      "l": "EXAMINED WITH MUMBAI & SURAT",
+      "v": 80,
+      "d": "all 8"
+     },
+     {
+      "l": "COMMITMENTS WITH A DATE",
+      "v": 0,
+      "d": "0"
+     },
+     {
+      "l": "FIGURES PUBLISHED",
+      "v": 0,
+      "d": "0"
+     },
+     {
+      "l": "DOCUMENTS REQUESTED OF THE TRADE",
+      "v": 20,
+      "d": "2"
+     }
+    ],
+    "note": "No consignment count, detention figure or clearance time was published",
+    "cap": "The meeting produced a full agenda and no quantities. This desk does not estimate the ones nobody published. Carat Capital graphics desk, on GJEPC's own account. &nbsp;CC/2026/046"
+   }
+  ]
+ },
+ "ten-counters-seven-yuan": {
+  "strip": {
+   "cap": "By the numbers - Chinese brand gold counters, 25 August",
+   "cells": [
+    {
+     "fig": "1,410",
+     "lab": "yuan a gram, four brands at the high"
+    },
+    {
+     "fig": "1,403",
+     "lab": "yuan a gram, China Gold at the low"
+    },
+    {
+     "fig": "0.499%",
+     "lab": "spread across all ten boards"
+    },
+    {
+     "fig": "+18",
+     "delta": "+1.295%",
+     "dir": "up",
+     "lab": "yuan, Chow Sang Sang in one session"
+    },
+    {
+     "fig": "10",
+     "lab": "brands confirmed on the 25 August board"
+    }
+   ]
+  },
+  "flow": [
+   {
+    "sub": "Ten boards, seven yuan, one morning.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "sub": "The day's move was three times the distance across the field.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "fig": 0
+   },
+   {
+    "pull": {
+     "q": "Ten independent boards, one price, and half a percent of daylight between them.",
+     "attr": "The Metals Desk"
+    }
+   },
+   {
+    "sub": "What a counter price is, and what it is not.",
+    "n": "§3"
+   },
+   {
+    "p": 2,
+    "split": "Where brands genuinely differ"
+   },
+   {
+    "p": 3,
+    "split": "One half of this story is not printed here"
+   },
+   {
+    "also": {
+     "t": "Platinum's held mark broke after seven sessions",
+     "href": "a-the-mark-that-left-the-range.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "The tightness is the signal"
+  },
+  "next": {
+   "lead": {
+    "slug": "the-mark-that-left-the-range",
+    "tag": "Gold & Metals",
+    "blurb": "A carried platinum mark sat above the whole day range, so the tape was rewritten at press time."
+   },
+   "minis": [
+    {
+     "slug": "eighty-eight-and-the-payout",
+     "tag": "Retail & Tech"
+    },
+    {
+     "slug": "the-same-figure-the-other-way",
+     "tag": "Watches"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Brand gold counters, 25 August - yuan a gram",
+    "rows": [
+     {
+      "l": "CHOW TAI FOOK / TSE SUI LUEN",
+      "v": 1410,
+      "d": "1,410",
+      "hi": true
+     },
+     {
+      "l": "CHOW SANG SANG / LUK FOOK",
+      "v": 1408,
+      "d": "1,408"
+     },
+     {
+      "l": "LAO MIAO",
+      "v": 1407,
+      "d": "1,407"
+     },
+     {
+      "l": "LAO FENG XIANG",
+      "v": 1406,
+      "d": "1,406"
+     },
+     {
+      "l": "ZHOU LIU FU",
+      "v": 1405,
+      "d": "1,405"
+     },
+     {
+      "l": "CHINA GOLD",
+      "v": 1403,
+      "d": "1,403"
+     }
+    ],
+    "note": "Seven yuan separates the highest counter from the lowest",
+    "cap": "Retail counter prices for finished jewellery, each carrying its own workmanship charge above the metal. The 26 August board could not be confirmed and is not shown. Carat Capital graphics desk. &nbsp;CC/2026/046"
+   }
+  ]
+ },
+ "the-mark-that-left-the-range": {
+  "strip": {
+   "cap": "By the numbers - the tape, 06:01 ET, 27 August",
+   "cells": [
+    {
+     "fig": "$4,579.50",
+     "delta": "-0.926%",
+     "dir": "down",
+     "lab": "gold, from $4,622.30"
+    },
+    {
+     "fig": "$68.056",
+     "delta": "-0.721%",
+     "dir": "down",
+     "lab": "silver, from $68.55"
+    },
+    {
+     "fig": "$1,816.00",
+     "delta": "-3.456%",
+     "dir": "down",
+     "lab": "platinum, rewritten from $1,881.00"
+    },
+    {
+     "fig": "$1,336.00",
+     "delta": "unch",
+     "lab": "palladium, held an eighth session"
+    },
+    {
+     "fig": "67.29",
+     "lab": "gold to silver ratio"
+    }
+   ]
+  },
+  "flow": [
+   {
+    "sub": "Three pages inside thirteen thousandths of a percent on gold.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "sub": "A held mark that nothing observable supports.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "fig": 0
+   },
+   {
+    "pull": {
+     "q": "A mark no source supports today does not stay on the tape.",
+     "attr": "The Metals Desk"
+    }
+   },
+   {
+    "sub": "Rewritten on the two pages that agree, with the third disclosed.",
+    "n": "§3"
+   },
+   {
+    "p": 2,
+    "split": "TradingEconomics read $1,833.90"
+   },
+   {
+    "p": 3,
+    "split": "Palladium was held for an eighth session"
+   },
+   {
+    "also": {
+     "t": "Ten Chinese gold counters priced within seven yuan",
+     "href": "a-ten-counters-seven-yuan.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "Seven sessions was long enough"
+  },
+  "next": {
+   "lead": {
+    "slug": "eighty-eight-and-the-payout",
+    "tag": "Retail & Tech",
+    "blurb": "A Hong Kong jeweller grew profit 88.18% and handed back three-quarters of it."
+   },
+   "minis": [
+    {
+     "slug": "ten-counters-seven-yuan",
+     "tag": "Gold & Metals"
+    },
+    {
+     "slug": "a-chart-of-the-rough-trade",
+     "tag": "Diamonds"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Platinum, 27 August - every reading against the carried mark",
+    "rows": [
+     {
+      "l": "CARRIED MARK, HELD SINCE 21 AUG",
+      "v": 1881,
+      "d": "$1,881.00",
+      "hi": true
+     },
+     {
+      "l": "KITCO SESSION HIGH",
+      "v": 1862,
+      "d": "$1,862.00"
+     },
+     {
+      "l": "TRADINGECONOMICS",
+      "v": 1834,
+      "d": "$1,833.90"
+     },
+     {
+      "l": "CNBC XPT=",
+      "v": 1820,
+      "d": "$1,819.66"
+     },
+     {
+      "l": "KITCO BID, THE NEW MARK",
+      "v": 1816,
+      "d": "$1,816.00"
+     },
+     {
+      "l": "KITCO SESSION LOW",
+      "v": 1815,
+      "d": "$1,815.00"
+     }
+    ],
+    "note": "Every live reading sits below the mark this paper was carrying",
+    "cap": "The held figure was $19.00 above the session high. Kitco and CNBC agree within 0.202%; TradingEconomics diverges 0.986% and that divergence is disclosed. Carat Capital graphics desk. &nbsp;CC/2026/046"
+   }
+  ]
  }
 }
