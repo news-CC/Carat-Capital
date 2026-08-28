@@ -34503,7 +34503,7 @@
    "lead": {
     "slug": "a-chart-of-the-rough-trade",
     "tag": "Diamonds",
-    "blurb": "India's rough trade put eight grievances to a customs chief and was asked to draw its own supply chain."
+    "blurb": "India's rough trade put nine grievances to a customs chief and was asked to draw its own supply chain."
    },
    "minis": [
     {
@@ -34563,7 +34563,7 @@
    "cap": "By the numbers - GJEPC and Delhi Customs, 24 August",
    "cells": [
     {
-     "fig": "8",
+     "fig": "9",
      "lab": "distinct grievances, this desk's count"
     },
     {
@@ -34595,7 +34595,7 @@
     "p": 0
    },
    {
-    "sub": "Eight complaints, and rough valuation took the largest share.",
+    "sub": "Nine complaints, and rough valuation took the largest share.",
     "n": "§2"
    },
    {
@@ -34621,6 +34621,9 @@
    {
     "p": 3,
     "split": "This paper attaches no value to the meeting"
+   },
+   {
+    "p": 4
    },
    {
     "also": {
@@ -34657,13 +34660,13 @@
      {
       "l": "GRIEVANCES TABLED",
       "v": 80,
-      "d": "8",
+      "d": "9",
       "hi": true
      },
      {
       "l": "EXAMINED WITH MUMBAI & SURAT",
       "v": 80,
-      "d": "all 8"
+      "d": "all 9"
      },
      {
       "l": "COMMITMENTS WITH A DATE",
@@ -34954,6 +34957,766 @@
     ],
     "note": "Every live reading sits below the mark this paper was carrying",
     "cap": "The held figure was $19.00 above the session high. Kitco and CNBC agree within 0.202%; TradingEconomics diverges 0.986% and that divergence is disclosed. Carat Capital graphics desk. &nbsp;CC/2026/046"
+   }
+  ]
+ },
+ "one-fifty-one-sixty-a-carat": {
+  "strip": {
+   "cap": "By the numbers - AWDC rough imports, July 2026",
+   "cells": [
+    {
+     "fig": "1,590,026",
+     "delta": "▼ carats",
+     "dir": "down",
+     "lab": "rough imported, lowest of 55 months"
+    },
+    {
+     "fig": "$241.1M",
+     "lab": "paid for them"
+    },
+    {
+     "fig": "$151.60",
+     "delta": "▲ +71.05%",
+     "dir": "up",
+     "lab": "average a carat, on June's $88.63"
+    },
+    {
+     "fig": "$117.14",
+     "lab": "three-month average, May to July"
+    },
+    {
+     "fig": "1.73x",
+     "lab": "carats exported per carat imported"
+    }
+   ]
+  },
+  "flow": [
+   {
+    "sub": "A per-carat average jumped 71% and it is not a price.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "sub": "The three thinnest months in five years are the three just gone.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "fig": 0
+   },
+   {
+    "pull": {
+     "q": "The price a carat rose because the carats stopped coming.",
+     "attr": "The Diamonds Desk"
+    }
+   },
+   {
+    "sub": "Antwerp shipped out 1.73 carats for every carat it took in.",
+    "n": "§3"
+   },
+   {
+    "p": 2,
+    "split": "The three-month view damps it"
+   },
+   {
+    "p": 3
+   },
+   {
+    "p": 4
+   },
+   {
+    "also": {
+     "t": "India's exports to New Zealand rose 50.56% without the agreement in force",
+     "href": "a-twenty-five-forty-six-to-new-zealand.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "Watch the carat column through August"
+  },
+  "next": {
+   "lead": {
+    "slug": "thirteen-eighty-one-after-nine-sessions",
+    "tag": "Gold & Metals",
+    "blurb": "A nine-session hold on palladium ended when the divergence turned out to be a bid-ask spread."
+   },
+   "minis": [
+    {
+     "slug": "twenty-five-forty-six-to-new-zealand",
+     "tag": "Diamonds"
+    },
+    {
+     "slug": "point-two-nine-of-a-gram",
+     "tag": "Retail & Tech"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Antwerp rough imports, month by month, 2026",
+    "rows": [
+     {
+      "l": "MARCH",
+      "v": 100,
+      "d": "5.54M ct"
+     },
+     {
+      "l": "APRIL",
+      "v": 68,
+      "d": "3.75M ct"
+     },
+     {
+      "l": "MAY",
+      "v": 36,
+      "d": "1.99M ct"
+     },
+     {
+      "l": "JUNE",
+      "v": 33,
+      "d": "1.83M ct"
+     },
+     {
+      "l": "JULY",
+      "v": 29,
+      "d": "1.59M ct",
+      "hi": true
+     }
+    ],
+    "note": "July 2026 is the lowest of the 55 months AWDC publishes, back to January 2022",
+    "cap": "Bars are carats imported, scaled to March. The dollars-per-carat average rose as the carats fell. Carat Capital graphics desk, on AWDC's own published series. &nbsp;CC/2026/047"
+   }
+  ]
+ },
+ "twenty-five-forty-six-to-new-zealand": {
+  "strip": {
+   "cap": "By the numbers - India to New Zealand, FY2025-26",
+   "cells": [
+    {
+     "fig": "$25.46M",
+     "delta": "▲ +50.56%",
+     "dir": "up",
+     "lab": "gem and jewellery exports"
+    },
+    {
+     "fig": "$17.47M",
+     "delta": "▲ +84%",
+     "dir": "up",
+     "lab": "gold jewellery"
+    },
+    {
+     "fig": "93%",
+     "lab": "of the rise, from gold jewellery alone"
+    },
+    {
+     "fig": "$0.63M",
+     "delta": "▲ +2%",
+     "dir": "up",
+     "lab": "lab-grown diamonds"
+    },
+    {
+     "fig": "0",
+     "lab": "tariff relief, the agreement is not in force"
+    }
+   ]
+  },
+  "flow": [
+   {
+    "sub": "The council published its own New Zealand data on 27 August.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "sub": "One category did 93% of the increase.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "fig": 0
+   },
+   {
+    "pull": {
+     "q": "Gold jewellery carried ninety-three percent of the increase.",
+     "attr": "The Diamonds Desk"
+    }
+   },
+   {
+    "sub": "Grown stones added about twelve thousand dollars.",
+    "n": "§3"
+   },
+   {
+    "p": 2,
+    "split": "The five named categories sum"
+   },
+   {
+    "p": 3
+   }
+  ],
+  "desk": {
+   "split": "The test comes when the agreement enters into force"
+  },
+  "next": {
+   "lead": {
+    "slug": "one-fifty-one-sixty-a-carat",
+    "tag": "Diamonds",
+    "blurb": "Antwerp's rough imports fell to the lowest month in its own five-year series."
+   },
+   "minis": [
+    {
+     "slug": "ten-thousand-four-sixty-three-crore",
+     "tag": "Gold & Metals"
+    },
+    {
+     "slug": "point-two-nine-of-a-gram",
+     "tag": "Retail & Tech"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "What New Zealand bought from India",
+    "rows": [
+     {
+      "l": "GOLD JEWELLERY",
+      "v": 100,
+      "d": "$17.47M",
+      "hi": true
+     },
+     {
+      "l": "CUT & POLISHED DIAMONDS",
+      "v": 33,
+      "d": "$5.76M"
+     },
+     {
+      "l": "SILVER JEWELLERY",
+      "v": 5,
+      "d": "$0.91M"
+     },
+     {
+      "l": "LAB-GROWN DIAMONDS",
+      "v": 4,
+      "d": "$0.63M"
+     },
+     {
+      "l": "IMITATION JEWELLERY",
+      "v": 2,
+      "d": "$0.43M"
+     }
+    ],
+    "note": "Named categories sum to $25.20M of the $25.46M total, or 98.98%",
+    "cap": "Bars scaled to gold jewellery. Growth rates differ sharply from shares. Carat Capital graphics desk, on GJEPC's own release. &nbsp;CC/2026/047"
+   }
+  ]
+ },
+ "thirteen-eighty-one-after-nine-sessions": {
+  "strip": {
+   "cap": "By the numbers - palladium at press time, 05:59 ET",
+   "cells": [
+    {
+     "fig": "$1,381.00",
+     "delta": "▲ +3.37%",
+     "dir": "up",
+     "lab": "written back, on the held $1,336.00"
+    },
+    {
+     "fig": "$40.00",
+     "lab": "Kitco bid-ask spread, 2.896% of bid"
+    },
+    {
+     "fig": "$1,401.00",
+     "lab": "Kitco mid, 0.29% from TradingEconomics"
+    },
+    {
+     "fig": "55c",
+     "lab": "widest disagreement in an hour's move"
+    },
+    {
+     "fig": "9",
+     "lab": "sessions the mark was held"
+    }
+   ]
+  },
+  "flow": [
+   {
+    "sub": "The tape desk named the Editor and asked for a specific test.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "sub": "Three pages moved $22.00, $21.50 and $21.45 in the same hour.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "fig": 0
+   },
+   {
+    "pull": {
+     "q": "A forty-dollar spread is not a broken price feed.",
+     "attr": "The Metals Desk"
+    }
+   },
+   {
+    "sub": "Bid was being compared with mid.",
+    "n": "§3"
+   },
+   {
+    "p": 2,
+    "split": "The midpoint of that quote"
+   },
+   {
+    "p": 3,
+    "split": "The three other metals were re-read"
+   },
+   {
+    "p": 4
+   },
+   {
+    "also": {
+     "t": "Chow Tai Fook's counter fell a fourth session while platinum rose 3.69%",
+     "href": "a-thirteen-eighty-seven-at-the-counter.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "The lesson is cheap"
+  },
+  "next": {
+   "lead": {
+    "slug": "thirteen-eighty-seven-at-the-counter",
+    "tag": "Gold & Metals",
+    "blurb": "A Chinese brand counter fell for a fourth session on the morning platinum added 3.69%."
+   },
+   "minis": [
+    {
+     "slug": "ten-thousand-four-sixty-three-crore",
+     "tag": "Gold & Metals"
+    },
+    {
+     "slug": "one-fifty-one-sixty-a-carat",
+     "tag": "Diamonds"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Palladium, three pages, one hour",
+    "rows": [
+     {
+      "l": "KITCO BID 04:59 → 05:59",
+      "v": 55,
+      "d": "+$22.00"
+     },
+     {
+      "l": "TRADINGECONOMICS",
+      "v": 54,
+      "d": "+$21.50"
+     },
+     {
+      "l": "CNBC XPD=",
+      "v": 54,
+      "d": "+$21.45"
+     },
+     {
+      "l": "KITCO MID vs TE, GAP",
+      "v": 7,
+      "d": "0.2855%"
+     },
+     {
+      "l": "KITCO BID vs CNBC, GAP",
+      "v": 43,
+      "d": "1.7053%",
+      "hi": true
+     }
+    ],
+    "note": "The 1.71% gap is bid against mid. Like for like, the pages agree inside 0.29%",
+    "cap": "The last two rows are the same metal at the same instant, measured two ways. Carat Capital graphics desk. &nbsp;CC/2026/047"
+   }
+  ]
+ },
+ "thirteen-eighty-seven-at-the-counter": {
+  "strip": {
+   "cap": "By the numbers - Chow Tai Fook counter, 28 August",
+   "cells": [
+    {
+     "fig": "1,387",
+     "delta": "▼ -8",
+     "dir": "down",
+     "lab": "yuan a gram, pure gold jewellery"
+    },
+    {
+     "fig": "-1.63%",
+     "dir": "down",
+     "lab": "across four sessions, from 1,410"
+    },
+    {
+     "fig": "711",
+     "delta": "▼ -2.74%",
+     "dir": "down",
+     "lab": "yuan a gram, platinum jewellery"
+    },
+    {
+     "fig": "+3.69%",
+     "dir": "up",
+     "lab": "spot platinum over the same day"
+    },
+    {
+     "fig": "2",
+     "lab": "independent trackers carrying the figure"
+    }
+   ]
+  },
+  "flow": [
+   {
+    "sub": "Two trackers carry the same board, which yesterday they did not.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "sub": "The platinum counter is the sharper number.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "fig": 0
+   },
+   {
+    "pull": {
+     "q": "The board is set before the session it is meant to reflect.",
+     "attr": "The Metals Desk"
+    }
+   },
+   {
+    "sub": "Timing before anything else.",
+    "n": "§3"
+   },
+   {
+    "p": 2,
+    "split": "On the single day where both sets are dated"
+   },
+   {
+    "p": 3
+   }
+  ],
+  "desk": {
+   "split": "If the boards do not turn back up tomorrow"
+  },
+  "next": {
+   "lead": {
+    "slug": "ten-thousand-four-sixty-three-crore",
+    "tag": "Gold & Metals",
+    "blurb": "India's 15% gold duty raised ₹10,463 crore in 81 days and imports rose anyway."
+   },
+   "minis": [
+    {
+     "slug": "thirteen-eighty-one-after-nine-sessions",
+     "tag": "Gold & Metals"
+    },
+    {
+     "slug": "point-two-nine-of-a-gram",
+     "tag": "Retail & Tech"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Chow Tai Fook's boards, four sessions",
+    "rows": [
+     {
+      "l": "25 AUG GOLD",
+      "v": 100,
+      "d": "1,410"
+     },
+     {
+      "l": "26 AUG GOLD",
+      "v": 99,
+      "d": "1,399"
+     },
+     {
+      "l": "27 AUG GOLD",
+      "v": 99,
+      "d": "1,395"
+     },
+     {
+      "l": "28 AUG GOLD",
+      "v": 98,
+      "d": "1,387",
+      "hi": true
+     },
+     {
+      "l": "28 AUG PLATINUM",
+      "v": 50,
+      "d": "711, from 731"
+     }
+    ],
+    "note": "Boards are stamped 16:00 China time, four hours before this desk's press-time spot read",
+    "cap": "Gold bars scaled to 25 August; the platinum row is a separate board on the same dates. Carat Capital graphics desk. &nbsp;CC/2026/047"
+   }
+  ]
+ },
+ "ten-thousand-four-sixty-three-crore": {
+  "strip": {
+   "cap": "By the numbers - India's gold import duty since 13 May",
+   "cells": [
+    {
+     "fig": "₹10,463cr",
+     "lab": "duty collected, 13 May to 2 August"
+    },
+    {
+     "fig": "15%",
+     "delta": "▲ from 6%",
+     "dir": "up",
+     "lab": "the rate, since 13 May"
+    },
+    {
+     "fig": "+82%",
+     "dir": "up",
+     "lab": "April imports, the month before"
+    },
+    {
+     "fig": "$6.13B",
+     "delta": "▲ +5.51%",
+     "dir": "up",
+     "lab": "June and July, on $5.81B"
+    },
+    {
+     "fig": "0",
+     "lab": "notifications issued on the reported review"
+    }
+   ]
+  },
+  "flow": [
+   {
+    "sub": "Eighty-one days, ₹129 crore a day, and no fall in imports.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "sub": "April front-ran it. June and July did not.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "fig": 0
+   },
+   {
+    "pull": {
+     "q": "The duty was raised to slow imports. Imports rose.",
+     "attr": "The Metals Desk"
+    }
+   },
+   {
+    "sub": "A review reported on unnamed sources, and labelled as such.",
+    "n": "§3"
+   },
+   {
+    "p": 2,
+    "split": "Industry groups are asking"
+   },
+   {
+    "p": 3
+   }
+  ],
+  "desk": {
+   "split": "The figure to watch is not the rate"
+  },
+  "next": {
+   "lead": {
+    "slug": "point-two-nine-of-a-gram",
+    "tag": "Retail & Tech",
+    "blurb": "₹5,000 now buys 0.294 grams of gold, and Indian counters are reported busy anyway."
+   },
+   "minis": [
+    {
+     "slug": "thirteen-eighty-one-after-nine-sessions",
+     "tag": "Gold & Metals"
+    },
+    {
+     "slug": "one-fifty-one-sixty-a-carat",
+     "tag": "Diamonds"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "What the duty did, month by month",
+    "rows": [
+     {
+      "l": "APRIL, BEFORE THE HIKE",
+      "v": 100,
+      "d": "+82% y/y"
+     },
+     {
+      "l": "MAY, HIKE ON THE 13TH",
+      "v": 41,
+      "d": "+34% y/y"
+     },
+     {
+      "l": "JUNE-JULY, FULLY IN FORCE",
+      "v": 7,
+      "d": "+5.51% y/y",
+      "hi": true
+     },
+     {
+      "l": "DUTY COLLECTED, 81 DAYS",
+      "v": 0,
+      "d": "₹10,463cr"
+     },
+     {
+      "l": "MONTHS IMPORTS ACTUALLY FELL",
+      "v": 0,
+      "d": "0"
+     }
+    ],
+    "note": "Growth slowed sharply and never turned negative in any published month",
+    "cap": "Bars are year-on-year import growth, scaled to April. Carat Capital graphics desk. &nbsp;CC/2026/047"
+   }
+  ]
+ },
+ "point-two-nine-of-a-gram": {
+  "strip": {
+   "cap": "By the numbers - Ahmedabad counters, Raksha Bandhan",
+   "cells": [
+    {
+     "fig": "₹1.7L",
+     "delta": "▲ +66.7%",
+     "dir": "up",
+     "lab": "per 10 grams of gold, on ₹1.02L"
+    },
+    {
+     "fig": "₹2.45L",
+     "delta": "▲ +109.4%",
+     "dir": "up",
+     "lab": "per kilo of silver, on ₹1.17L"
+    },
+    {
+     "fig": "0.294g",
+     "lab": "what the ₹5,000 gift ceiling buys"
+    },
+    {
+     "fig": "40.9%",
+     "lab": "gold in 9-carat, against 22-carat"
+    },
+    {
+     "fig": "0",
+     "lab": "volume figures published, in grams"
+    }
+   ]
+  },
+  "flow": [
+   {
+    "sub": "A Gujarati trade fortnightly, with its own disclaimer attached.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "sub": "One claim does not survive its own figures.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "fig": 0
+   },
+   {
+    "pull": {
+     "q": "Five thousand rupees now buys under a third of a gram.",
+     "attr": "The Retail Desk"
+    }
+   },
+   {
+    "sub": "Lighter weights, lower karat, grown stones.",
+    "n": "§3"
+   },
+   {
+    "p": 2,
+    "split": "The lightweight chains, rings"
+   },
+   {
+    "p": 3
+   }
+  ],
+  "desk": {
+   "split": "The number nobody has published"
+  },
+  "next": {
+   "lead": {
+    "slug": "one-fifty-one-sixty-a-carat",
+    "tag": "Diamonds",
+    "blurb": "Antwerp's thinnest rough month in five years, and why the per-carat average rose anyway."
+   },
+   "minis": [
+    {
+     "slug": "ten-thousand-four-sixty-three-crore",
+     "tag": "Gold & Metals"
+    },
+    {
+     "slug": "twenty-five-forty-six-to-new-zealand",
+     "tag": "Diamonds"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "What ₹5,000 buys at the counter",
+    "rows": [
+     {
+      "l": "GOLD, PER GRAM",
+      "v": 100,
+      "d": "₹17,000"
+     },
+     {
+      "l": "THE GIFT CEILING",
+      "v": 29,
+      "d": "₹5,000 = 0.294g",
+      "hi": true
+     },
+     {
+      "l": "LIGHTWEIGHT PIECE, 1.5g",
+      "v": 150,
+      "d": "₹25,500 metal"
+     },
+     {
+      "l": "LIGHTWEIGHT PIECE, 2g",
+      "v": 200,
+      "d": "₹34,000 metal"
+     },
+     {
+      "l": "9-CARAT GOLD CONTENT",
+      "v": 41,
+      "d": "40.9% of 22ct"
+     }
+    ],
+    "note": "Metal cost only. Making charges sit on top of every figure here",
+    "cap": "Bars scaled to one gram of gold. Karat arithmetic is this desk's own. Carat Capital graphics desk. &nbsp;CC/2026/047"
    }
   ]
  }
