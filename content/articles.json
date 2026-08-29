@@ -1,9 +1,205 @@
 [
  {
+  "slug": "minus-one-fifty-on-gold",
+  "desk": "gold-metals",
+  "date": "2026-08-29",
+  "lead": true,
+  "kicker": "Lead Story - Gold & Metals Desk",
+  "minutes": 5,
+  "byline": "The Metals Desk",
+  "tags": [
+   "NUM",
+   "RECORD",
+   "VS"
+  ],
+  "title": "Gold lost $150.10 and silver 5.85%: the worst session this tape has recorded",
+  "dek": "Friday's close puts gold at $4,454.40 and silver at $66.253, down 3.26% and 5.85% on Thursday's marks. Both are the largest one-day falls in the 23 sessions this tape has run. Palladium rose 1.74%.",
+  "body": [
+   "This desk re-read all four metals on Kitco at press time this morning and wrote nothing back, because nothing had moved. Gold reads $4,454.40 the ounce, silver $66.253, platinum $1,819.00 and palladium $1,405.00, each identical to the 05:00 mark the tape desk filed. Today is Saturday, spot metal does not trade until Sunday evening, and Kitco's board carries an internal timestamp of 13:00 New York time on Friday across all four. These are Friday's last prints, read live today and confirmed unchanged, not a new session. The marks they replace are Thursday's: gold $4,604.50, silver $70.37, platinum $1,883.00 and palladium $1,381.00.",
+   "Measured against those, gold fell $150.10, or 3.2604%, and silver $4.117, or 5.8507%. This paper's tape has carried a daily mark of record for all four metals since 5 August, twenty-three sessions, and neither fall has a close rival in that record. The next-worst gold session on the tape is 27 August at 0.9259%, so Friday is 3.52 times worse than anything before it. The next-worst silver session is 19 August at 2.89%, and Friday is 2.02 times that. Silver set the tape's high-water mark of $70.37 on Thursday and gave 5.85% of it back on Friday, which is a record and its reversal on consecutive days. Gold's own high-water mark, $4,643.90 on 24 August, now sits $189.50 or 4.0806% above where the metal stopped.",
+   "The cause was named in Wyoming and is not in dispute. Federal Reserve chair Kevin Warsh used his first Jackson Hole keynote on Friday to say that better summer readings on the PCE and CPI indices did not tell him underlying inflation had improved. \"Otherwise, we have work to do.\" He said more than half of the items tracked in the PCE have risen above 3% over the past year, against 32% in the twenty years before the pandemic and a post-pandemic peak of 77%. The market read a rate rise back into September: CME Group's FedWatch tool moved from about 35.5% the day before to 57.5% after the speech, on the Motley Fool's reading of it. Gold pays no interest, and a metal that pays no interest is repriced by the expectation of a higher one. An outside report earlier that morning had gold steady near $4,650 and December futures opening at $4,656.",
+   "The width of the day is the part a bench should carry. On Kitco's own board Friday's range ran $4,444.80 to $4,629.10, which is $184.30, or 4.146% of the low, and the metal finished $9.60 above the bottom of it and $174.70 below the top. Silver ran $65.998 to $71.230, a range of 7.928% of the low, and stopped 25.5 cents off the bottom. Palladium is the exception in every direction: up $24.00 or 1.7378% on the day, in a range of $1,304.00 to $1,492.00, and carrying a $40.00 bid-ask spread that is 2.847% of its own bid against gold's 0.0449%, sixty-three times wider. One outside divergence is disclosed. On platinum, TradingEconomics read $1,833.60 against Kitco's mid of $1,824.00, a gap of 0.526%, while CNBC at $1,820.15 agreed with Kitco; the tape is written at Kitco's bid on the two pages that agree, and the odd reading is printed here rather than dropped.",
+   "The desk's view: a jeweller does not need a view on the Federal Reserve to be hurt by this, and that is the whole problem with treating bullion as a market rather than a raw material. A counter that quoted a customer on Thursday afternoon and settled the metal on Friday afternoon lost 3.26% of the gold and 5.85% of the silver in between, on nobody's mistake. The gold-to-silver ratio moved from 65.43 to 67.23 in one session, 2.75% wider, which changes the economics of every mixed-metal piece on the bench. The practical instruction is unglamorous and it is the same one this desk gave when the metal was running the other way in the third week of August: quote with a metal clause or quote for an hour, because a workshop that prices a commission on Thursday and buys the gold on Monday is running a position it was never paid to run."
+  ],
+  "sources": [
+   {
+    "title": "Gold, Silver, Platinum & Palladium spot prices - Kitco (read 29 August 2026; board carries Friday's 13:00 ET print)",
+    "url": "https://www.kitco.com/price/precious-metals"
+   },
+   {
+    "title": "\"We Have Work to Do\": Fed Chair Kevin Warsh Expresses Concern Over Inflation in Closely Watched Jackson Hole Speech (28 August 2026) - The Motley Fool",
+    "url": "https://www.fool.com/investing/2026/08/28/we-have-work-to-do-fed-chair-kevin-warsh-expresses-concern-over-inflation-in-closely-watched-jackson-hole-speech/"
+   },
+   {
+    "title": "Gold prices today, Friday, August 28, 2026: Gold steady as markets prepare for Warsh speech - Yahoo Finance",
+    "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-friday-august-28-2026-gold-steady-as-markets-prepare-for-warsh-speech-115654858.html"
+   },
+   {
+    "title": "Gold - price, chart, historical data - TradingEconomics",
+    "url": "https://tradingeconomics.com/commodity/gold"
+   },
+   {
+    "title": "Carat Capital daily tape, 5-29 August 2026 (23 sessions, this paper's own marks of record)",
+    "url": "https://caratcapital.org/the-record.html"
+   }
+  ]
+ },
+ {
+  "slug": "one-more-year-for-the-grandfathered",
+  "desk": "diamonds",
+  "date": "2026-08-29",
+  "lead": false,
+  "kicker": "Diamonds Desk - Sanctions",
+  "minutes": 4,
+  "byline": "The Diamonds Desk",
+  "tags": [
+   "ACTOR",
+   "NUM",
+   "STAKES"
+  ],
+  "title": "OFAC moves the grandfathered deadline a year, to 1 September 2027",
+  "dek": "General License No. 104B extends by one year the window for Russian-origin diamonds bought before sanctions. Stones over a carat must have left Russia before 1 March 2024; half to one carat before 1 September 2024.",
+  "body": [
+   "The United States Treasury's Office of Foreign Assets Control issued General License No. 104B on 27 August, moving to 1 September 2027 a deadline that had stood at 1 September 2026. The licence covers loose, nonindustrial Russian-origin diamonds that were bought before the sanctions took effect and that had not entered the American market by the cutoffs the licence names. Stones of one carat and above must have left Russia before 1 March 2024. Stones between half a carat and one carat must have left before 1 September 2024. General License No. 103, which governs imports of diamond jewellery, is unchanged. This desk could not extract the licence text from OFAC's own recent-actions listing, which renders its results dynamically and returned no diamond entry to a plain fetch, and carries the detail from Rapaport's report of the release, which the bureau independently confirmed against the page's own publication metadata.",
+   "The arithmetic of a grandfathering clause is the arithmetic of how long goods can sit. A one-carat stone that qualifies under this licence left Russia before 1 March 2024, so by the new deadline it will have been outside Russia for at least 1,279 days, three and a half years. A half-carat stone left before 1 September 2024 and will have been out at least 1,095 days, three years to the day. The extension itself is 365 days. What has been extended, in other words, is not a trading window on new goods but the shelf life of a specific and closed population of stones that was already fixed in size on two dates in 2024 and has been shrinking ever since, as parcels clear or are written down.",
+   "Nobody has published how many carats are in that population, and the absence is the story's limit. Neither the licence as reported nor any trade body this desk reached puts a weight, a value or a count on the goods still waiting. Without it, a one-year extension cannot be priced. It can be read directionally: an authority that thought the remaining volume was trivial would let the deadline pass, and an authority that thought the market could absorb it at once would not have extended it three times. The instrument's own history is the only quantity available. A licence numbered 104B is the second amendment to a licence, and each amendment has bought the same population more time rather than releasing it.",
+   "There is a second reading, and it is about where those stones are rather than when they may move. A parcel grandfathered under 104B is legal in the United States and, under the Group of Seven's separate traceability regime, is documented as pre-sanction goods rather than as ordinary rough. That documentation follows the stone, and it is expensive to maintain across three and a half years of storage, insurance and financing on inventory nobody has sold. This desk has reported through August on the cost of holding rough that cannot be moved, and on Antwerp's July imports falling to 1,590,026 carats, the thinnest month in the fifty-five that its own body publishes. A pipeline that thin is a pipeline in which parked goods are a larger share of everything.",
+   "The desk's view: an extension is being read in parts of the trade as a softening, and it is closer to the opposite. Nothing in 104B lets a single new Russian stone in. It lets a fixed and ageing pile of stones that were already bought, already shipped and already documented stay eligible for another year, and it does so for the third time. If those goods were saleable at a price the holders would accept, three years and six months is long enough for them to have gone. A dealer looking at this notice should read it as the regulator confirming the overhang still exists, on the regulator's own evidence, rather than as a door opening. The stones are not stuck because of the deadline. The deadline exists because the stones are stuck."
+  ],
+  "sources": [
+   {
+    "title": "US Postpones Deadline for 'Grandfathered' Russian Diamond Imports (27 August 2026) - Rapaport News",
+    "url": "https://rapaport.com/news/us-postpones-deadline-for-grandfathered-russian-diamond-imports/"
+   },
+   {
+    "title": "Recent Actions (fetched 29 August 2026; listing renders dynamically and returned no diamond entry to this desk) - OFAC, US Treasury",
+    "url": "https://ofac.treasury.gov/recent-actions"
+   },
+   {
+    "title": "$151.60 a carat: Antwerp's thinnest rough month in five years - Carat Capital (28 August 2026)",
+    "url": "https://caratcapital.org/a-one-fifty-one-sixty-a-carat.html"
+   }
+  ]
+ },
+ {
+  "slug": "a-fourth-source-for-paraiba",
+  "desk": "gemstones",
+  "date": "2026-08-29",
+  "lead": false,
+  "kicker": "Gemstones Desk - Origin",
+  "minutes": 5,
+  "byline": "The Gemstones Desk",
+  "tags": [
+   "NUM",
+   "RECORD",
+   "ACTOR"
+  ],
+  "title": "A fourth source for Paraíba: GIA and Gübelin both put Ethiopia on the map",
+  "dek": "Two laboratories said on 27 August that Ethiopian copper-bearing tourmaline meets the Paraíba definition. Gübelin first saw the material in May, GIA in June, and GIA studied a parcel of more than 100 rough and faceted stones.",
+  "body": [
+   "The Gemological Institute of America and the Gübelin Gem Lab announced jointly on 27 August that Ethiopia is a new source of copper-bearing tourmaline meeting the widely accepted definition of Paraíba tourmaline. Until this week that definition had three producing countries behind it: Brazil, where the material was found in the 1980s, and Nigeria and Mozambique, which followed. Ethiopia is the fourth. The two laboratories reached the conclusion independently and on separate material. Gübelin first encountered stones with an unfamiliar chemical signature in early May. GIA began examining goods represented as Ethiopian in June and later received a parcel of more than one hundred rough and faceted samples for study. Both describe elevated concentrations of vanadium, lead and gallium as the separating markers, and neither has yet published the thresholds; the detailed findings are going to Gems & Gemology.",
+   "What makes this more than a locality note is what the same trade was told three months ago. In June the Swiss Gemmological Institute SSEF reported credible accounts of an Ethiopian deposit and said its own preliminary trace-element work on submitted stones showed considerable overlap with material from previously known localities, particularly Brazil. SSEF called origin determination on some of those specimens difficult and in some cases inconclusive, and said research was continuing to refine the methods needed to tell the material apart. Two laboratories have now done that work on their own samples and got an answer. The June position and the August position are not a contradiction; they are the ordinary distance between a first look and a characterised reference set, which in this case took roughly three months.",
+   "Origin is not a curiosity in this stone, it is most of the price. This paper reported on 30 July, from Rapaport's January survey of the trade, that Mozambican Paraíba had moved from around $7,000 a carat to between $10,000 and $12,000, and Brazilian material has always carried a multiple of the African price for the same colour. A fourth source enters that structure at an unknown place on it. Nobody has published a price for an Ethiopian stone, no parcel value or carat weight has been made public, and the colours described run wide: blue to bluish green, violet, purple and colourless, many showing colour zoning and compositional variation within a single stone. A material that varies that much inside itself does not price as one thing.",
+   "The practical consequence lands on the laboratory report rather than on the mine. Every serious Paraíba trades on an origin call, and until this week a report reading Brazil, Nigeria or Mozambique exhausted the options. Two laboratories now say the chemistry separates Ethiopian material by vanadium, lead and gallium, and both describe those as measurable rather than exotic determinations. That is the difference between a discovery that unsettles the trade and one it can absorb: an origin that can be read on ordinary laboratory equipment does not create a permanent doubt over stones already certified. What it does create is a window, between the announcement and the reference data being published, in which no dealer can be certain which country a stone bought last year came from.",
+   "The desk's view: the useful thing here is not that Ethiopia has Paraíba, it is that two competing laboratories announced it together and neither claimed to have got there first. Origin determination is a commercial product, sold in competition, and the ordinary incentive is to publish alone and early. A joint statement, made on independent samples, with the underlying data going to a peer-reviewed journal rather than a press release, is the behaviour a trade should want from the institutions that price its stones. For a dealer the near-term instruction is narrow and dull. Do not pay a Brazilian premium on an unreported stone bought this year, do not assume an existing certificate is wrong, and wait for the Gems and Gemology paper before repricing anything. For this desk, the note is that its longest-running gap closed on a story about method rather than about money."
+  ],
+  "sources": [
+   {
+    "title": "Ethiopia New Source of Paraíba Tourmaline, GIA, Gübelin Confirm (27 August 2026) - JCK",
+    "url": "https://www.jckonline.com/editorial-article/ethiopia-paraiba-tourmaline/"
+   },
+   {
+    "title": "New source of Paraíba tourmalines reportedly discovered in Ethiopia (June 2026) - SSEF",
+    "url": "https://www.ssef.ch/new-source-of-paraiba-tourmalines-reportedly-discovered-in-ethiopia/"
+   },
+   {
+    "title": "New Paraíba Tourmaline Source Reportedly Discovered in Ethiopia (23 June 2026) - National Jeweler",
+    "url": "https://nationaljeweler.com/articles/15069-new-paraiba-tourmaline-source-reportedly-discovered-in-ethiopia"
+   },
+   {
+    "title": "Two speeds in colour: $906,250 for one sapphire, demand still 30% down - Carat Capital (30 July 2026)",
+    "url": "https://caratcapital.org/a-color-runs-two-speeds.html"
+   }
+  ]
+ },
+ {
+  "slug": "one-thirty-nine-on-seventeen",
+  "desk": "retail-tech",
+  "date": "2026-08-29",
+  "lead": false,
+  "kicker": "Retail & Technology Desk - Results",
+  "minutes": 4,
+  "byline": "The Retail Desk",
+  "tags": [
+   "NUM",
+   "VS"
+  ],
+  "title": "Profit up 139% on revenue up 17%, and 47 shops closed",
+  "dek": "Chow Sang Sang's half to 30 June took HK$12.88 billion, up 17%, and HK$2.15 billion of profit, up 139%. Same-store sales rose 38% in Hong Kong and Macau and 11% on the mainland.",
+  "body": [
+   "Chow Sang Sang reported on 27 August that revenue for the six months to 30 June 2026 was HK$12.88 billion, about $1.64 billion, up 17% on the same half a year earlier. Retail sales were HK$12.71 billion, or $1.62 billion, up 18%, which is 98.68% of the whole group figure. Profit was HK$2.15 billion, about $274.6 million, up 139%. Same-store sales grew 11% in mainland China, made of 7% in the first quarter and 17% in the second, and 38% in Hong Kong and Macau, made of 46% and then 30%. The group closed a net 47 shops, predominantly on the mainland. The company said that key collections, including Cultural Blessings and Noir, recorded strong growth.",
+   "The gap between the two headline percentages is the result. Revenue rose 17% and profit rose 139%, which means the margin did most of the work rather than the sales. Working back from the company's own figures, the comparable half produced roughly HK$11.01 billion of revenue and about HK$900 million of profit, a net margin near 8.17%. This half returns 16.69% on the same measure. The margin has roughly doubled in twelve months at a chain whose shop count fell. That is what a gold-led half looks like at a retailer holding metal inventory into a rising price: the goods on the shelf appreciate faster than the cost of running the shelf, and every point of that lands below the revenue line.",
+   "The two markets crossed over inside the half, and that is worth separating from the headline. Hong Kong and Macau decelerated hard, from 46% same-store growth in the first quarter to 30% in the second. The mainland accelerated, from 7% to 17%. A chain that was carried by its home market in the first three months was being carried by China in the second three, and the two lines are moving toward each other rather than apart. The mainland is also where the shops are being shut, so the same market is producing better sales per surviving store and fewer stores at once, which is the intended shape of a closure programme rather than a retreat.",
+   "One figure needs disclosing rather than smoothing. This paper reported on 22 July, from the company's earlier quarterly update, that Chow Sang Sang had closed a net 49 shops in the first half and ended June with 776. The interim results now put net closures at 47. The two numbers cover the same six months and this desk cannot reconcile them from the material it holds; the likeliest explanations are a scope difference between group and mainland, or a revision between an operational update and audited accounts, and neither is confirmed. Both are printed here. The desk also notes what the release does not carry: no split between gold and gem-set jewellery, which in a half this obviously driven by metal is the number that would settle how much of the margin is price and how much is mix.",
+   "The desk's view: a 139% profit rise at a jewellery chain in 2026 is a statement about bullion, not about jewellery, and the trade should resist reading it as a demand signal. Gold on this paper's own tape has since fallen 3.26% in a single session, the worst on our record, which is a reminder that inventory appreciation is a two-way line and that the same accounting which doubled this margin can halve it. The durable number in the release is not the profit, it is the mainland same-store figure going from 7% to 17% while the mainland store count fell. Fewer shops selling more each is a business getting better. A margin that doubled because the metal in the safe got dearer is a business getting lucky, and only one of those repeats."
+  ],
+  "sources": [
+   {
+    "title": "Chow Sang Sang Revenue Improves Amid Strong Gold Demand (27 August 2026) - Rapaport News",
+    "url": "https://rapaport.com/news/chow-sang-sang-revenue-improves-amid-strong-gold-demand/"
+   },
+   {
+    "title": "Gold up fifty, diamonds down fifty-eight: Luk Fook's split quarter - Carat Capital (22 July 2026)",
+    "url": "https://caratcapital.org/a-gold-up-fifty-diamonds-down.html"
+   },
+   {
+    "title": "Gold, Silver, Platinum & Palladium spot prices - Kitco (read 29 August 2026; board carries Friday's 13:00 ET print)",
+    "url": "https://www.kitco.com/price/precious-metals"
+   }
+  ]
+ },
+ {
+  "slug": "one-number-in-three-cities",
+  "desk": "retail-tech",
+  "date": "2026-08-29",
+  "lead": false,
+  "kicker": "Retail & Technology Desk - Price Boards",
+  "minutes": 4,
+  "byline": "The Retail Desk",
+  "tags": [
+   "NUM",
+   "HOWTO",
+   "GAP"
+  ],
+  "title": "₹1,63,790 in Ahmedabad, Surat and Rajkot alike: one number, three cities",
+  "dek": "A Gujarati price board carried the identical 24-carat rate in all three cities on 27 August. The 22-carat and 18-carat figures are that number times 22/24 and 18/24, to the rupee. The month's gain is ₹17,850.",
+  "body": [
+   "TV9 Gujarati published a gold and silver rate board on 27 August, bylined to Dhruval Shah and timestamped 9.45 in the morning, putting 24-carat gold at ₹1,63,790 for ten grams, 22-carat at ₹1,50,140 and 18-carat at ₹1,22,840. It gives those figures three times over, once each for Ahmedabad, Surat and Rajkot, and the three cities carry the identical number to the rupee. The page credits its data to Groww, an investment platform, and carries its own disclaimer that everything above it rests on media reports. This desk fetched the page directly and confirmed each figure and the date in the body text rather than in a listing.",
+   "Two of the three karat prices are not separate quotations. Multiply the 24-carat figure by 22/24 and the result is ₹1,50,140.83, which the board prints as ₹1,50,140. Multiply it by 18/24 and the result is ₹1,22,842.50, printed as ₹1,22,840. Both are the headline number divided by pure karat ratio and rounded to the nearest ten rupees, and neither carries the premium that a real 22-carat counter charges for alloy, wastage and making. A board that quotes three karats from one number is quoting one price, and a shopper comparing the 22-carat line against a jeweller's own 22-carat rate is comparing a division against a quotation.",
+   "The three cities behave the same way. Ahmedabad, Surat and Rajkot are separate markets with separate associations, separate local premiums and, on any given morning, different counters. A feed that returns the same rupee figure for all three is a national reference rate presented in a city-by-city format, not a survey of what any of the three actually charged. The board is not wrong about that; it says where its data comes from. It is the presentation that invites the wrong reading, and the wrong reading is the common one: that these are city prices and that the differences between them, or the absence of differences, mean something about local demand.",
+   "What the board does carry honestly is the trend, and the trend has a date attached that matters more today than it did on Thursday. The same page puts the ten-day high at ₹1,64,020 on 24 August and the ten-day low at ₹1,55,020 on 19 August, a range of ₹9,000 or 5.81% of the low, and puts 27 July at ₹1,45,940 against 27 August at ₹1,63,790, a gain of ₹17,850 or 12.23% in a month. The 24 August peak is the same day this paper's own tape recorded its high-water mark for gold, $4,643.90, from an entirely separate source. Two independent series topping out on the same date is the useful confirmation in all of this. It is also why the board is now stale: gold fell 3.26% on Friday, after this reading was taken.",
+   "The desk's view: price boards like this one are how most Indian buyers meet the gold price, and they are read as retail quotations when they are aggregated reference rates with karat arithmetic laid on top. The test any reader can run takes ten seconds. If the 22-carat figure is exactly 91.667% of the 24-carat figure, nobody has surveyed a counter. A real 22-carat retail price sits above pure ratio, because alloy and making are charged for and because a jeweller's margin is not a fraction of purity. None of this makes the board useless; ₹16,379 a gram on 27 August is a fair statement of where the national reference sat. It makes it a benchmark, and a benchmark two days old and a 3.26% session behind the market should be quoted as history, not as today's rate."
+  ],
+  "sources": [
+   {
+    "title": "Gold Silver Rate In Gujarat, 27 August 2026, Ahmedabad, Surat and Rajkot (Gujarati; fetched and figures confirmed in body text 29 August 2026) - TV9 Gujarati",
+    "url": "https://tv9gujarati.com/photo-gallery/gold-silver-rate-today-in-gujarat-on-27-august-2026-check-sona-chandi-price-ahmeadbad-surat-rajkot-1505573.html"
+   },
+   {
+    "title": "Gold, Silver, Platinum & Palladium spot prices - Kitco (read 29 August 2026; board carries Friday's 13:00 ET print)",
+    "url": "https://www.kitco.com/price/precious-metals"
+   },
+   {
+    "title": "Rs 5,000 now buys 0.294 grams of gold at an Ahmedabad counter - Carat Capital (28 August 2026)",
+    "url": "https://caratcapital.org/a-point-two-nine-of-a-gram.html"
+   }
+  ]
+ },
+ {
   "slug": "one-fifty-one-sixty-a-carat",
   "desk": "diamonds",
   "date": "2026-08-28",
-  "lead": true,
+  "lead": false,
   "kicker": "Diamonds Desk",
   "minutes": 5,
   "byline": "The Diamonds Desk",
