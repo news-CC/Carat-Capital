@@ -35792,6 +35792,9 @@
    },
    {
     "p": 3
+   },
+   {
+    "p": 4
    }
   ],
   "desk": {
@@ -36330,6 +36333,428 @@
     ],
     "note": "Per 10 grams, 27 August 2026. Pure karat ratio, rounded to the nearest ten rupees",
     "cap": "Carat Capital graphics desk, arithmetic on the board's own figures. &nbsp;CC/2026/048"
+   }
+  ]
+ },
+ "fifteen-hundred-for-ten-grams": {
+  "strip": {
+   "cap": "By the numbers - the base, the metal, and the duty between them",
+   "cells": [
+    {
+     "fig": "$1,500",
+     "lab": "the tariff value for gold, per 10 grams"
+    },
+    {
+     "fig": "$1,432.12",
+     "lab": "what 10 grams of gold is actually worth"
+    },
+    {
+     "fig": "4.7396%",
+     "delta": "▲ the gap",
+     "dir": "up",
+     "lab": "by which the base exceeds the metal"
+    },
+    {
+     "fig": "+$93",
+     "delta": "▲ +6.61%",
+     "dir": "up",
+     "lab": "the rise from $1,407, set eleven days earlier"
+    },
+    {
+     "fig": "$1,018.16",
+     "lab": "extra duty per kilogram while both numbers stand"
+    }
+   ]
+  },
+  "flow": [
+   {
+    "sub": "A notification, a number, and the date it took effect.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "sub": "What the base implies, against what the metal costs.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "fig": 0
+   },
+   {
+    "sub": "The gap was small on signing day. Friday opened it.",
+    "n": "§3"
+   },
+   {
+    "p": 2
+   },
+   {
+    "pull": {
+     "q": "Ten grams of gold is worth $1,432.12.",
+     "attr": "Carat Capital Metals Desk"
+    }
+   },
+   {
+    "sub": "Fifteen percent of a number that is not the price.",
+    "n": "§4"
+   },
+   {
+    "p": 3
+   }
+  ],
+  "desk": {
+   "split": "An importer who ships in the last days"
+  },
+  "next": {
+   "lead": {
+    "slug": "two-counters-one-friday",
+    "tag": "Gold & Metals",
+    "blurb": "The same Friday, priced at a Gulf counter and a Chinese one, 38 points apart."
+   },
+   "minis": [
+    {
+     "slug": "pigeon-blood-issued-in-jaipur",
+     "tag": "Gemstones"
+    },
+    {
+     "slug": "eight-seventy-five-out-of-hong-kong",
+     "tag": "Retail & Tech"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "India's gold tariff value, less what 10 grams is worth",
+    "rows": [
+     {
+      "l": "FRIDAY'S CLOSE",
+      "v": 6788,
+      "d": "$67.88",
+      "hi": true
+     },
+     {
+      "l": "27 AUGUST",
+      "v": 2766,
+      "d": "$27.66"
+     },
+     {
+      "l": "26 AUGUST, EFFECTIVE",
+      "v": 1390,
+      "d": "$13.90"
+     },
+     {
+      "l": "25 AUGUST, SIGNED",
+      "v": 1007,
+      "d": "$10.07"
+     }
+    ],
+    "note": "The base was set at $1,500 on 25 August and has not moved since. The metal has",
+    "cap": "Gap in US dollars per 10 grams, against this paper's own marks of record. Carat Capital graphics desk. &nbsp;CC/2026/049"
+   }
+  ]
+ },
+ "two-counters-one-friday": {
+  "strip": {
+   "cap": "By the numbers - one metal, two counters, one Friday",
+   "cells": [
+    {
+     "fig": "536.75",
+     "lab": "dirhams the gram, Dubai 24-carat, 29 August"
+    },
+    {
+     "fig": "1,348.00",
+     "delta": "▼ −2.81%",
+     "dir": "down",
+     "lab": "yuan the gram, Chow Tai Fook counter"
+    },
+    {
+     "fig": "2.0540%",
+     "lab": "Dubai's rate over the world price"
+    },
+    {
+     "fig": "39.8429%",
+     "lab": "Chow Tai Fook's counter over the world price"
+    },
+    {
+     "fig": "$143.2123",
+     "lab": "what a gram of gold is, at $4,454.40 the ounce"
+    }
+   ]
+  },
+  "flow": [
+   {
+    "sub": "Two counters, read this morning and yesterday.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "sub": "Two currencies, one metal, converted at named rates.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "fig": 0
+   },
+   {
+    "sub": "Two points over, and forty.",
+    "n": "§3"
+   },
+   {
+    "p": 2
+   },
+   {
+    "sub": "Why the spread is not what it looks like.",
+    "n": "§4"
+   },
+   {
+    "p": 3
+   },
+   {
+    "pull": {
+     "q": "They are not the same kind of price and they never were.",
+     "attr": "Carat Capital Metals Desk"
+    }
+   }
+  ],
+  "desk": {
+   "split": "A shopper weighing 536.75 in Dubai"
+  },
+  "next": {
+   "lead": {
+    "slug": "fifteen-hundred-for-ten-grams",
+    "tag": "Gold & Metals",
+    "blurb": "India's customs base for gold now sits 4.7396% above what the metal is worth."
+   },
+   "minis": [
+    {
+     "slug": "pigeon-blood-issued-in-jaipur",
+     "tag": "Gemstones"
+    },
+    {
+     "slug": "eight-seventy-five-out-of-hong-kong",
+     "tag": "Retail & Tech"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "A gram of gold, in dollars, at three places",
+    "rows": [
+     {
+      "l": "CHOW TAI FOOK COUNTER",
+      "v": 20027,
+      "d": "$200.27",
+      "hi": true
+     },
+     {
+      "l": "DUBAI 24-CARAT RATE",
+      "v": 14615,
+      "d": "$146.15"
+     },
+     {
+      "l": "GOLD ITSELF",
+      "v": 14321,
+      "d": "$143.21",
+      "hi": true
+     }
+    ],
+    "note": "Converted at 3.6725 dirhams and 6.73084 yuan to the dollar. One is bullion, one a metal rate, one a finished object",
+    "cap": "US dollars per gram. Carat Capital graphics desk. &nbsp;CC/2026/049"
+   }
+  ]
+ },
+ "pigeon-blood-issued-in-jaipur": {
+  "strip": {
+   "cap": "By the numbers - what GSI has begun issuing, and where",
+   "cells": [
+    {
+     "fig": "3",
+     "lab": "colour trade names: Pigeon Blood, Royal Blue, Padparadscha"
+    },
+    {
+     "fig": "4",
+     "lab": "laboratories issuing them: Jaipur, Mumbai, New York, Bangkok"
+    },
+    {
+     "fig": "19 Aug",
+     "lab": "the date the reports began, per Rapaport"
+    },
+    {
+     "fig": "0",
+     "lab": "treatments permitted; untreated stones only"
+    }
+   ]
+  },
+  "flow": [
+   {
+    "sub": "A name that had to be granted abroad, granted at home.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "sub": "Old language, real money.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "pull": {
+     "q": "That ends today.",
+     "attr": "Meenu Brijesh Vyas, GSI global head gemologist"
+    }
+   },
+   {
+    "sub": "Hue, tone, saturation, and one hard condition.",
+    "n": "§3"
+   },
+   {
+    "p": 2
+   },
+   {
+    "sub": "How it compares with what Switzerland publishes.",
+    "n": "§4"
+   },
+   {
+    "p": 3
+   }
+  ],
+  "desk": {
+   "split": "That is worth money in Jaipur"
+  },
+  "next": {
+   "lead": {
+    "slug": "fifteen-hundred-for-ten-grams",
+    "tag": "Gold & Metals",
+    "blurb": "India's customs base for gold now sits 4.7396% above what the metal is worth."
+   },
+   "minis": [
+    {
+     "slug": "two-counters-one-friday",
+     "tag": "Gold & Metals"
+    },
+    {
+     "slug": "eight-seventy-five-out-of-hong-kong",
+     "tag": "Retail & Tech"
+    }
+   ]
+  }
+ },
+ "eight-seventy-five-out-of-hong-kong": {
+  "strip": {
+   "cap": "By the numbers - one parcel, Indianapolis",
+   "cells": [
+    {
+     "fig": "875",
+     "lab": "counterfeit pieces of jewellery in a single parcel"
+    },
+    {
+     "fig": "$3.7m",
+     "lab": "retail value had every piece been genuine"
+    },
+    {
+     "fig": "$4,228.57",
+     "lab": "average per piece, at list"
+    },
+    {
+     "fig": "5",
+     "lab": "designer handbags in the same shipment"
+    },
+    {
+     "fig": "38%",
+     "lab": "of Rolexes one marketplace already turns away"
+    }
+   ]
+  },
+  "flow": [
+   {
+    "sub": "Hong Kong to a house in Georgia, stopped at Indianapolis.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "sub": "The usual marks, and who caught them.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "What $3.7 million is, and what it is not.",
+    "n": "§3"
+   },
+   {
+    "p": 2
+   },
+   {
+    "fig": 0
+   },
+   {
+    "sub": "The address is the story.",
+    "n": "§4"
+   },
+   {
+    "p": 3
+   },
+   {
+    "pull": {
+     "q": "Eight hundred and seventy-five pieces is not personal use.",
+     "attr": "Carat Capital Retail Desk"
+    }
+   }
+  ],
+  "desk": {
+   "split": "Customs caught this one because an officer"
+  },
+  "next": {
+   "lead": {
+    "slug": "fifteen-hundred-for-ten-grams",
+    "tag": "Gold & Metals",
+    "blurb": "India's customs base for gold now sits 4.7396% above what the metal is worth."
+   },
+   "minis": [
+    {
+     "slug": "two-counters-one-friday",
+     "tag": "Gold & Metals"
+    },
+    {
+     "slug": "pigeon-blood-issued-in-jaipur",
+     "tag": "Gemstones"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "One parcel, by the count",
+    "rows": [
+     {
+      "l": "JEWELLERY PIECES",
+      "v": 875,
+      "d": "875",
+      "hi": true
+     },
+     {
+      "l": "DESIGNER HANDBAGS",
+      "v": 5,
+      "d": "5"
+     }
+    ],
+    "note": "Retail value if genuine, $3.7 million, an average of $4,228.57 the piece",
+    "cap": "Items in a single Hong Kong shipment seized at Indianapolis. Carat Capital graphics desk. &nbsp;CC/2026/049"
    }
   ]
  }
