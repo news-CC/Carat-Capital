@@ -36757,5 +36757,588 @@
     "cap": "Items in a single Hong Kong shipment seized at Indianapolis. Carat Capital graphics desk. &nbsp;CC/2026/049"
    }
   ]
+ },
+ "polished-up-seventeen-rough-down-twenty-six": {
+  "strip": {
+   "cap": "By the numbers - Antwerp exports, January to July, 2026 against 2025",
+   "cells": [
+    {
+     "fig": "$2,666.92",
+     "delta": "▲ +17.34%",
+     "dir": "up",
+     "lab": "average polished carat exported"
+    },
+    {
+     "fig": "$82.66",
+     "delta": "▼ -25.82%",
+     "dir": "down",
+     "lab": "average rough carat exported"
+    },
+    {
+     "fig": "-1.15%",
+     "delta": "▼ carats",
+     "dir": "down",
+     "lab": "polished volume out, against +15.99% in dollars"
+    },
+    {
+     "fig": "+10.90%",
+     "delta": "▲ carats",
+     "dir": "up",
+     "lab": "rough volume out, against -17.73% in dollars"
+    },
+    {
+     "fig": "32.26x",
+     "lab": "polished carat against rough carat, from 20.40x"
+    }
+   ]
+  },
+  "flow": [
+   {
+    "sub": "Two books, seven months, opposite directions.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "sub": "Divide each side and the volume story disappears.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "fig": 0
+   },
+   {
+    "sub": "What comes in, against what goes out.",
+    "n": "§3"
+   },
+   {
+    "p": 2
+   },
+   {
+    "sub": "The caveat the July column supplies.",
+    "n": "§4"
+   },
+   {
+    "p": 3
+   }
+  ],
+  "desk": {
+   "split": "That is a good year to be a trader of polished"
+  },
+  "next": {
+   "lead": {
+    "slug": "seventy-six-nine-and-three-percent",
+    "tag": "Diamonds",
+    "blurb": "Dubai gives lab-grown its own trading desk, and publishes the price line underneath it."
+   },
+   "minis": [
+    {
+     "slug": "two-point-one-to-ten",
+     "tag": "Retail & Tech"
+    },
+    {
+     "slug": "spread-wider-than-the-fall",
+     "tag": "Gold & Metals"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Antwerp's average exported carat, January to July",
+    "rows": [
+     {
+      "l": "POLISHED, 2026",
+      "v": 266692,
+      "d": "$2,666.92",
+      "hi": true
+     },
+     {
+      "l": "POLISHED, 2025",
+      "v": 227276,
+      "d": "$2,272.76"
+     },
+     {
+      "l": "ROUGH, 2025",
+      "v": 11143,
+      "d": "$111.43"
+     },
+     {
+      "l": "ROUGH, 2026",
+      "v": 8266,
+      "d": "$82.66"
+     }
+    ],
+    "note": "Value divided by carats, from AWDC's own July workbook. The polished line rose 17.34% while the rough line fell 25.82%, widening the ratio between them from 20.40 times to 32.26 times.",
+    "cap": "US dollars per carat, computed by this desk from the AWDC General Statistics workbook, last saved 26 August 2026. Carat Capital graphics desk. &nbsp;CC/2026/050"
+   }
+  ]
+ },
+ "seventy-six-nine-and-three-percent": {
+  "strip": {
+   "cap": "By the numbers - DMCC's lab-grown book, calendar 2025",
+   "cells": [
+    {
+     "fig": "76.9m",
+     "delta": "▲ +91.5%",
+     "dir": "up",
+     "lab": "carats of lab-grown traded"
+    },
+    {
+     "fig": "$1.3bn",
+     "delta": "▲ +7.5%",
+     "dir": "up",
+     "lab": "value of that trade"
+    },
+    {
+     "fig": "$16.91",
+     "delta": "▼ -43.86%",
+     "dir": "down",
+     "lab": "implied value per carat, on DMCC's own two rates"
+    },
+    {
+     "fig": "21.39%",
+     "lab": "of Dubai's 2025 carats"
+    },
+    {
+     "fig": "3.12%",
+     "lab": "of Dubai's 2025 dollars"
+    }
+   ]
+  },
+  "flow": [
+   {
+    "sub": "A separate desk for a separate trade.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "sub": "Two growth rates twelve points apart.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "pull": {
+     "q": "they need dedicated market infrastructure",
+     "attr": "Ahmed Bin Sulayem, DMCC executive chairman"
+    }
+   },
+   {
+    "sub": "A fifth of the carats, a thirty-second of the value.",
+    "n": "§3"
+   },
+   {
+    "p": 2
+   },
+   {
+    "sub": "Why separation is the right call, and where the risk sits.",
+    "n": "§4"
+   },
+   {
+    "p": 3
+   }
+  ],
+  "desk": {
+   "split": "Volume nearly doubled and value barely moved"
+  },
+  "next": {
+   "lead": {
+    "slug": "polished-up-seventeen-rough-down-twenty-six",
+    "tag": "Diamonds",
+    "blurb": "Antwerp's polished book shrank and got dearer while its rough book grew and got cheaper."
+   },
+   "minis": [
+    {
+     "slug": "four-point-three-from-2015",
+     "tag": "Retail & Tech"
+    },
+    {
+     "slug": "three-ninety-two-districts",
+     "tag": "Gold & Metals"
+    }
+   ]
+  }
+ },
+ "two-point-one-to-ten": {
+  "strip": {
+   "cap": "By the numbers - Michael Hill, 52 weeks to 28 June 2026",
+   "cells": [
+    {
+     "fig": "A$10.0m",
+     "delta": "▲ 4.76x",
+     "dir": "up",
+     "lab": "net profit, from A$2.1m"
+    },
+    {
+     "fig": "A$5.5m",
+     "delta": "▼ -86.87%",
+     "dir": "down",
+     "lab": "net debt, from A$41.9m"
+    },
+    {
+     "fig": "A$654.7m",
+     "delta": "▲ +2.04%",
+     "dir": "up",
+     "lab": "group sales, from A$641.6m"
+    },
+    {
+     "fig": "1.53%",
+     "lab": "net margin, from 0.33%"
+    },
+    {
+     "fig": "281",
+     "lab": "stores, from 287"
+    }
+   ]
+  },
+  "flow": [
+   {
+    "sub": "The audited year carries the number July did not.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "sub": "The test this desk set on 3 August, and the answer.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "pull": {
+     "q": "simplified the business, and we've doubled down on quality jewelry",
+     "attr": "Jonathan Waecker, chief executive"
+    }
+   },
+   {
+    "sub": "One figure that needs disclosing rather than smoothing.",
+    "n": "§3"
+   },
+   {
+    "p": 2
+   },
+   {
+    "sub": "The store maths, and the chair.",
+    "n": "§4"
+   },
+   {
+    "p": 3
+   }
+  ],
+  "desk": {
+   "split": "The debt line is the one to keep"
+  },
+  "next": {
+   "lead": {
+    "slug": "polished-up-seventeen-rough-down-twenty-six",
+    "tag": "Diamonds",
+    "blurb": "Antwerp's average exported polished carat is now worth 32.26 times its average exported rough one."
+   },
+   "minis": [
+    {
+     "slug": "four-point-three-from-2015",
+     "tag": "Retail & Tech"
+    },
+    {
+     "slug": "spread-wider-than-the-fall",
+     "tag": "Gold & Metals"
+    }
+   ]
+  }
+ },
+ "four-point-three-from-2015": {
+  "spec": {
+   "cap": "The piece - MAK, Vienna, Thursday 29 August",
+   "rows": [
+    {
+     "l": "Maker and year",
+     "v": "Van Cleef & Arpels, 1939"
+    },
+    {
+     "l": "Diamonds",
+     "v": "more than 200 carats across more than 600 stones"
+    },
+    {
+     "l": "Centre stone",
+     "v": "articulated round, about 6 carats"
+    },
+    {
+     "l": "Provenance",
+     "v": "Queen Nazli of Egypt, then her daughter Fawzia"
+    },
+    {
+     "l": "Only public price",
+     "v": "$4.3m, Sotheby's New York, December 2015"
+    },
+    {
+     "l": "Age of that price",
+     "v": "10 years 8 months"
+    }
+   ]
+  },
+  "flow": [
+   {
+    "sub": "Two men, one case, one necklace.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "sub": "The valuation everyone is quoting was struck in 2015.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "The arithmetic inside the piece.",
+    "n": "§3"
+   },
+   {
+    "p": 2
+   },
+   {
+    "sub": "The third European collection hit this season.",
+    "n": "§4"
+   },
+   {
+    "p": 3
+   }
+  ],
+  "desk": {
+   "split": "The clock on this one is measured in days"
+  },
+  "next": {
+   "lead": {
+    "slug": "two-point-one-to-ten",
+    "tag": "Retail & Tech",
+    "blurb": "Michael Hill's audited year gives the profit line its July trading update left out."
+   },
+   "minis": [
+    {
+     "slug": "seventy-six-nine-and-three-percent",
+     "tag": "Diamonds"
+    },
+    {
+     "slug": "three-ninety-two-districts",
+     "tag": "Gold & Metals"
+    }
+   ]
+  }
+ },
+ "three-ninety-two-districts": {
+  "spec": {
+   "cap": "The order - Third Amendment, 3 August 2026",
+   "rows": [
+    {
+     "l": "Instrument",
+     "v": "Hallmarking of Gold Jewellery and Gold Artefacts (Third Amendment) Order, 2026"
+    },
+    {
+     "l": "Issued",
+     "v": "3 August 2026, Ministry of Consumer Affairs, on BIS advice"
+    },
+    {
+     "l": "Districts covered",
+     "v": "392, from 380"
+    },
+    {
+     "l": "Added",
+     "v": "12, across 9 states"
+    },
+    {
+     "l": "States and UTs",
+     "v": "26 of India's 36"
+    },
+    {
+     "l": "Parent order",
+     "v": "15 January 2020; previous amendment 28 April 2026"
+    }
+   ]
+  },
+  "flow": [
+   {
+    "sub": "Twelve districts, nine states, one order.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "sub": "Why a 28-day-old rule appears in today's paper.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "The coverage arithmetic, and the denominator this desk will not print.",
+    "n": "§3"
+   },
+   {
+    "p": 2
+   },
+   {
+    "sub": "The mechanism matters more than the map.",
+    "n": "§4"
+   },
+   {
+    "p": 3
+   }
+  ],
+  "desk": {
+   "split": "Read the list, not the total"
+  },
+  "next": {
+   "lead": {
+    "slug": "spread-wider-than-the-fall",
+    "tag": "Gold & Metals",
+    "blurb": "Palladium's bid-ask spread was wider than its fall, and the tariff gap widened again."
+   },
+   "minis": [
+    {
+     "slug": "polished-up-seventeen-rough-down-twenty-six",
+     "tag": "Diamonds"
+    },
+    {
+     "slug": "two-point-one-to-ten",
+     "tag": "Retail & Tech"
+    }
+   ]
+  }
+ },
+ "spread-wider-than-the-fall": {
+  "strip": {
+   "cap": "By the numbers - the board at press time, against Friday's close",
+   "cells": [
+    {
+     "fig": "$4,444.80",
+     "delta": "▼ -0.2155%",
+     "dir": "down",
+     "lab": "gold the ounce"
+    },
+    {
+     "fig": "$66.879",
+     "delta": "▲ +0.9449%",
+     "dir": "up",
+     "lab": "silver, the only one in the green"
+    },
+    {
+     "fig": "$1,797.00",
+     "delta": "▼ -1.2095%",
+     "dir": "down",
+     "lab": "platinum"
+    },
+    {
+     "fig": "$1,374.00",
+     "delta": "▼ -2.2064%",
+     "dir": "down",
+     "lab": "palladium, on a 2.9112% spread"
+    },
+    {
+     "fig": "66.46",
+     "lab": "gold-silver ratio, from 67.23"
+    }
+   ]
+  },
+  "flow": [
+   {
+    "sub": "Four metals re-read at press time, four written back.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "sub": "The spread was wider than the move.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "fig": 0
+   },
+   {
+    "sub": "Correcting the reading of yesterday's divergence.",
+    "n": "§3"
+   },
+   {
+    "p": 2
+   },
+   {
+    "sub": "What the ratios mean at the bench.",
+    "n": "§4"
+   },
+   {
+    "p": 3
+   }
+  ],
+  "desk": {
+   "split": "A 2.21% fall is not a signal when the spread is 2.91%"
+  },
+  "next": {
+   "lead": {
+    "slug": "polished-up-seventeen-rough-down-twenty-six",
+    "tag": "Diamonds",
+    "blurb": "Antwerp's two books split: polished fewer and dearer, rough more and cheaper."
+   },
+   "minis": [
+    {
+     "slug": "three-ninety-two-districts",
+     "tag": "Gold & Metals"
+    },
+    {
+     "slug": "two-point-one-to-ten",
+     "tag": "Retail & Tech"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Bid-ask spread as a share of the bid, against the day's move",
+    "rows": [
+     {
+      "l": "PALLADIUM SPREAD",
+      "v": 29112,
+      "d": "2.9112%",
+      "hi": true
+     },
+     {
+      "l": "PALLADIUM MOVE",
+      "v": 22064,
+      "d": "2.2064%"
+     },
+     {
+      "l": "PLATINUM SPREAD",
+      "v": 5565,
+      "d": "0.5565%"
+     },
+     {
+      "l": "SILVER SPREAD",
+      "v": 3738,
+      "d": "0.3738%"
+     },
+     {
+      "l": "GOLD SPREAD",
+      "v": 450,
+      "d": "0.0450%"
+     }
+    ],
+    "note": "Palladium is the only metal on the board whose quoted spread is wider than its own move on the day. Gold's spread is one sixty-fifth of palladium's.",
+    "cap": "Kitco bid and ask, read by the Editor at press time 31 August 2026. Carat Capital graphics desk. &nbsp;CC/2026/050"
+   }
+  ]
  }
 }
