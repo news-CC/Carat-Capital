@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-01",
+  "ig_integration": "cmro4ati80001qf7kr6px08x5",
+  "carousels": [
+    {
+      "slug": "back-at-nineteen-august",
+      "slides": [
+        "https://caratcapital.org/social/2026-09-01/p1-s01.jpg",
+        "https://caratcapital.org/social/2026-09-01/p1-s02.jpg",
+        "https://caratcapital.org/social/2026-09-01/p1-s03.jpg",
+        "https://caratcapital.org/social/2026-09-01/p1-s04.jpg",
+        "https://caratcapital.org/social/2026-09-01/p1-s05.jpg",
+        "https://caratcapital.org/social/2026-09-01/p1-s06.jpg",
+        "https://caratcapital.org/social/2026-09-01/p1-s07.jpg"
+      ],
+      "caption": "Gold fell 1.85% to $4,366.10 Tuesday morning, and the whole precious metals board went with it.\n\nSilver dropped 3.13% to $64.44, platinum 2.12% to $1,753.00 and palladium 3.84% to $1,304.00, erasing thirteen days of August's rally in one session. Measured against 19 August instead of the high, gold, silver and platinum are still within 2.1% of where they started.\n\nLink in bio.\n\n#GoldPrice #SilverPrice #PalladiumPrice #PreciousMetals #CaratCapital",
+      "target_utc": "2026-09-01T12:40:00Z"
+    },
+    {
+      "slug": "silver-led-the-selloff",
+      "slides": [
+        "https://caratcapital.org/social/2026-09-01/p2-s01.jpg",
+        "https://caratcapital.org/social/2026-09-01/p2-s02.jpg",
+        "https://caratcapital.org/social/2026-09-01/p2-s03.jpg",
+        "https://caratcapital.org/social/2026-09-01/p2-s04.jpg"
+      ],
+      "caption": "Silver fell 3.13% to $64.44 Tuesday morning, leading four metals lower at the reopen.\n\nGold slid 1.85% to $4,366.10, platinum 2.12% to $1,753.00 and palladium 3.84% to $1,304.00. The gold-silver ratio widened to 67.75 from 66.46 Monday, a sign the trade sold the whole complex rather than one metal.\n\nLink in bio.\n\n#GoldPrice #SilverPrice #PalladiumPrice #PreciousMetals #CaratCapital",
+      "target_utc": "2026-09-01T15:00:00Z"
+    }
+  ]
+}
