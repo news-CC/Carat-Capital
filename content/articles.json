@@ -1,9 +1,122 @@
 [
  {
+  "slug": "back-at-nineteen-august",
+  "desk": "gold-metals",
+  "date": "2026-09-01",
+  "lead": true,
+  "kicker": "The tape",
+  "title": "$4,366.10 gold and $1,753.00 platinum: the board is back at 19 August",
+  "dek": "Gold fell 1.85% at press time, silver 3.13%, platinum 2.12% and palladium 3.84%. Three of the four now sit within 2.1% of their 19 August marks, and August's rally is gone.",
+  "byline": "The Metals Desk",
+  "minutes": 4,
+  "body": [
+   "All four metals on this paper's board fell in Tuesday's early session, and all four were re-read at press time and written back to the tape. Gold is $4,366.10 the ounce, down $82.19 or 1.8476% on Monday's close of $4,448.286. Silver is $64.44, down $2.08 or 3.1272%. Platinum is $1,753.00, down $37.92 or 2.1173%. Palladium is $1,304.00, down $52.11 or 3.8429%. The readings are Kitco's bid at 06:00 ET, checked against CNBC's quote pages at 06:02 ET. Compared like with like, midpoint to midpoint rather than bid to last, the two pages sit 0.0337% apart on gold, 0.1033% on silver, 0.0142% on platinum and 0.1499% on palladium. Palladium's own quoted spread was $40.00, or 3.067% of the bid, and CNBC's last sits on the midpoint of it. That is the trap this desk has been caught by before, and it is a wide quote rather than a disagreement. No outside-source divergence is disclosed this session, because there is none.",
+   "The comparison that matters is not with Monday. It is with 19 August. On this tape gold read $4,360.00 that morning and reads $4,366.10 now, $6.10 or 0.14% above it. Silver read $63.12 and reads $64.44, up 2.09%. Platinum read $1,726.00 and reads $1,753.00, up 1.56%. Thirteen days of trading have left the three metals a jeweller actually buys within 2.1% of where they started. Measured from the top instead, the highest gold mark this tape recorded in August was $4,643.90 on 24 August, and today's reading is $277.80 or 5.98% below it. Silver's highest was $70.37 on 28 August, 8.43% above today. Platinum's was $1,883.00 on the same morning, 6.90% above. Palladium's was $1,405.00 on 29 August, 7.19% above. Those are marks on this tape, read at the same hour each morning, and they are not intraday highs; outside reporting has gold trading as high as $4,697 on 25 August, which is a different measure and not a contradiction of ours.",
+   "The cause is not new and this desk will not dress it as new. Gold's worst session on our record, $150.10 in a day, ran on 29 August after the Federal Reserve chair's Jackson Hole remarks, and this paper printed it then. Reporting on 31 August has markets moving further toward pricing a rate rise at the September meeting. The published probabilities differ between outlets by more than twenty points, from about a third to about two thirds, so this desk prints the direction and withholds the number until one of them can be stood behind. What the board itself says needs no outside help. The gold-silver ratio is 67.75, from 66.46 on Monday. Silver fell harder than gold, which is what happens when the trade sells the whole complex rather than forms a view on any one metal.",
+   "For the trade the accounting runs in both directions, and this is the week it turns. This paper reported on 29 August that Chow Sang Sang's profit for the half to 30 June rose 139% on revenue up 17%, and said at the time that a margin doubled by the metal in the safe getting dearer is a business getting lucky rather than getting better. Eight days from the 24 August high, the same line runs backwards. A retailer holding gold inventory bought against an ounce at $4,643.90 is carrying it this morning against $4,366.10. Nothing about the shop has changed and nothing about demand has been measured; the balance sheet moves anyway. The jewellers who will find this quarter hardest are the ones whose last strong number came from the metal rather than from the counter.",
+   "The desk's view: a board that gives back thirteen days in eight is not a verdict on jewellery demand and should not be read as one. It is a verdict on rates, and the next scheduled thing that can move it is the September Federal Reserve meeting rather than anything happening in a shop. The number to hold onto is the 19 August comparison rather than the fall from the high, because the high is where the trade wishes it had sold and 19 August is where the market actually was before a fortnight of noise. Price your inventory off the second number. One further note, on ourselves: the gold beat's file this morning stood its sweep down under the heading Labor Day, US markets closed. Labor Day 2026 falls on Monday 7 September. Today is Tuesday 1 September, the markets were open, and this is the story that sweep would have found."
+  ],
+  "sources": [
+   {
+    "title": "Gold, Silver, Platinum & Palladium spot prices - Kitco (bid, read by this desk 06:00 ET, 1 September 2026)",
+    "url": "https://www.kitco.com/price/precious-metals"
+   },
+   {
+    "title": "CNBC quote pages XAU=, XAG=, XPT=, XPD= (read by this desk 06:02 ET, 1 September 2026)",
+    "url": "https://www.cnbc.com/quotes/XAU="
+   },
+   {
+    "title": "Carat Capital, Gold lost $150.10 and silver 5.85%: the worst session this tape has recorded (29 August 2026)",
+    "url": "https://caratcapital.org/a-minus-one-fifty-on-gold.html"
+   },
+   {
+    "title": "Carat Capital, Profit up 139% on revenue up 17%, and 47 shops closed (29 August 2026)",
+    "url": "https://caratcapital.org/a-one-thirty-nine-on-seventeen.html"
+   },
+   {
+    "title": "Gold Prices Slip as Hawkish Fed Outlook Revives September Rate Hike Bets, 31 August 2026",
+    "url": "https://time.news/gold-prices-slip-as-hawkish-fed-outlook-revives-september-rate-hike-bets/"
+   },
+   {
+    "title": "Carat Capital price tape, newsroom/tape, daily marks 5 August to 1 September 2026",
+    "url": "https://caratcapital.org/indices.html"
+   }
+  ]
+ },
+ {
+  "slug": "six-eighty-seven-in-one-step",
+  "desk": "diamonds",
+  "date": "2026-09-01",
+  "kicker": "Lab-grown",
+  "title": "$687 a carat: lab-grown's one-dollar drift becomes a thirteen-dollar step",
+  "dek": "CaratRadar's one-carat average fell $13 to $687 on 1 September, down 1.86% in a session. Every other move on this tape since 5 August was three dollars or less.",
+  "byline": "The Diamond Desk",
+  "minutes": 4,
+  "body": [
+   "The one-carat lab-grown reference this paper carries fell to $687 on 1 September, from $700, a drop of $13 or 1.8571% in a single session. The figure is CaratRadar's average asking price for a one-carat lab-grown stone, read directly from the page by this desk, which carries its own dateline of 1 September and reports 1,204,718 active listings behind it. It is the lowest reading in this tape's record, and that record begins on 5 August 2026, so the claim is scoped to twenty-one sessions and no further. What makes it worth a page is not the level but the size of the step.",
+   "Until this morning the series had one shape and it was a drift. The mark peaked at $711 on 8 August and came down in ones and twos: $710, $707, $705, $704, $703, $701, $700. Across the whole of that run the largest single-day move was three dollars, on 14 August, which was 0.4225%. Today's move is $13, four and a third times the largest daily fall the series had previously produced, and it comes after two sessions at $700 in which nothing moved at all. Cumulatively the reference has lost $24, or 3.3755%, since the 8 August high. Most of that was accumulated a dollar at a time over three and a half weeks; more than half of the last week's loss arrived this morning.",
+   "The natural side is not moving with it, and the honest thing is to say that the two cannot be compared day to day. This paper's RapNet Diamond Index mark is a monthly figure and still carries its 24 July date, so there is no natural reading for 1 September to set against this one. The most recent natural data this desk can point to is Rapaport's Diamond Pulse newsletter published in early August, which reports July rather than August: one-carat prices staged a broad turnaround in July, reversing June's declines across nearly every category, with K-M VS stones moving from a 0.1% loss to a 2.8% gain, D-F SI declines narrowing to 0.2% from 2.1%, and G-J SI reversing to a 0.2% gain from a 0.3% decline. That is a month old and it is natural goods, not made ones. Set beside a lab-grown series that has not posted a single up day since this tape opened, it describes two markets that have stopped rhyming.",
+   "One caution for anyone pricing off this, because the trade routinely quotes three different numbers as though they were one. The $687 here is an average asking price for a finished one-carat stone in a retail-facing listings pool. The chip on this site's own tape reads $475, and that is a different thing again: the midpoint of the published CVD wholesale band for a one-carat D-F VS stone. This paper's lab-grown price list carries a third, $545 the carat as a retail ask. None of the three is wrong and none of them substitutes for another. A merchant reading a 1.86% fall in the listings average should not assume the same fall has reached the wholesale band, which moves on a slower clock and is republished rather than ticked.",
+   "The desk's view: a drift that becomes a step is usually a repricing rather than a trade, and the thing to watch this week is whether $687 holds or whether it was the first of several. The series has spent a month proving it can fall by a dollar without anyone noticing, which is precisely why a thirteen-dollar day is information. For retailers the practical consequence is narrow and immediate: lab-grown goods bought against a $700 average are carrying a 1.86% paper loss this morning, and unlike natural stones there is no scarcity argument that brings them back. The floor for a manufactured product is the cost of manufacturing it, and nothing in this series has yet found it."
+  ],
+  "sources": [
+   {
+    "title": "Lab-Grown Diamond Prices - CaratRadar (read by this desk 1 September 2026; page dateline 1 September 2026)",
+    "url": "https://caratradar.com/diamond-prices/lab-grown-diamonds/"
+   },
+   {
+    "title": "The Diamond Pulse, August 2026 - Rapaport (published early August 2026, reporting July movements)",
+    "url": "https://rapaport.com/trade/newsletters/the-diamond-pulse-august-2026/"
+   },
+   {
+    "title": "Carat Capital price tape, newsroom/tape, daily lab-grown marks 5 August to 1 September 2026",
+    "url": "https://caratcapital.org/lab-grown-diamond-prices.html"
+   },
+   {
+    "title": "Rapaport Diamond Price Index",
+    "url": "https://rapaport.com/diamond-price-index/"
+   }
+  ]
+ },
+ {
+  "slug": "three-six-four-one-and-thirty-six-ninety-five",
+  "desk": "retail-tech",
+  "date": "2026-09-01",
+  "kicker": "China retail",
+  "title": "RMB 3.641 billion, down 20.79%: Chow Tai Seng's margin rose anyway",
+  "dek": "Revenue fell 20.79% and net profit 24.24% in the six months to 30 June. Gross margin rose 6.61 points to 36.95%, and second-quarter profit fell 54.2%.",
+  "byline": "The Retail Desk",
+  "minutes": 4,
+  "body": [
+   "Chow Tai Seng, listed in Shenzhen as 002867, reported revenue of RMB 3.641 billion for the six months to 30 June 2026, down 20.79% on the same half a year earlier, and net profit attributable to shareholders of RMB 450 million, down 24.24%. Stripping out exceptional items the profit was RMB 436 million, down 24.95%. Gross margin went the other way, rising 6.61 percentage points to 36.95% from 30.34%. The company proposed an interim distribution of RMB 174 million. The results were released on the evening of 25 August and are carried consistently by Sina Finance, Eastmoney and several other Chinese financial outlets; the company's own stated reason for the fall is that violent swings in the global gold price put jewellery consumption under pressure.",
+   "The margin line is the one worth sitting with, because it looks like good news and is not. A jewellery retailer's gross margin is a percentage of a smaller number, and gold rising does two things at once: it lifts the value of goods already on the shelf, which widens the margin, and it raises the shelf price to a customer who then buys less, which shrinks the revenue those margins are taken on. Chow Tai Seng shows both effects in one set of accounts. Applying the reported margin to the reported revenue, gross profit is roughly RMB 1.345 billion this half against roughly RMB 1.394 billion on the larger revenue base of a year ago. The percentage improved by 6.61 points and the money still went down. A margin that widens while volume falls is a price effect, not a trading achievement.",
+   "The half also hides a worse quarter. Second-quarter revenue was RMB 1.69 billion, down 12.3%, and second-quarter net profit was RMB 156 million, down 54.2%. That profit fall is more than twice the rate recorded across the full six months, which means the first quarter must have been considerably better than the second and that the deterioration is accelerating rather than levelling. It also means the headline pair of figures, minus 20.79% and minus 24.24%, understates where the business was by June. Anyone modelling the second half off the half-year numbers is starting from a base the company had already fallen below.",
+   "Set against the other Hong Kong and mainland name this paper covered days ago, the same six months produced opposite results from the same metal. Chow Sang Sang's half to 30 June, reported here on 29 August, took HK$12.88 billion of revenue, up 17%, and HK$2.15 billion of profit, up 139%. Chow Tai Seng's revenue fell a fifth and its profit a quarter over the identical window. Both companies name gold as the reason. The difference is where each sits relative to the metal: Chow Sang Sang's release credits improved retail sales together with an unrealised gain on the revaluation of its bullion lending, against an unrealised loss the year before, while Chow Tai Seng is describing a consumer who stopped buying at the new price. One company was long the metal on its balance sheet and one was selling it across a counter, and in a rising-gold half those are not the same business.",
+   "The desk's view: this is the clearest paired evidence yet that 2026's Chinese jewellery results are being written by the gold price rather than by the jewellery, and the trade should stop reading either number as a demand signal. The instructive figure is the second-quarter profit fall of 54.2%, because it is the one furthest from the metal and closest to the customer. It should also be read against this morning's board, where gold has given back everything it gained since 19 August. The revaluation that flattered one set of accounts is reversing, and the consumer who balked at the high price has not yet been given a reason to come back. The next set of Chinese interims will be the first in a while where the metal helps nobody."
+  ],
+  "sources": [
+   {
+    "title": "Chow Tai Seng half-year results: net profit RMB 450 million, down 24.24% - Sina Finance, 25 August 2026",
+    "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-08-25/doc-inippvuq2265889.shtml"
+   },
+   {
+    "title": "Chow Tai Seng: revenue and profit both fall, gross margin up 6.61 points, interim distribution RMB 174 million - Eastmoney, 25 August 2026",
+    "url": "https://finance.eastmoney.com/a/202608253853147612.html"
+   },
+   {
+    "title": "Chow Tai Seng H1 revenue RMB 3.641 billion, down 20.79% - Guandian, 25 August 2026",
+    "url": "https://www.guandian.cn/article/20260825/590911.html"
+   },
+   {
+    "title": "Carat Capital, Profit up 139% on revenue up 17%, and 47 shops closed (29 August 2026)",
+    "url": "https://caratcapital.org/a-one-thirty-nine-on-seventeen.html"
+   }
+  ]
+ },
+ {
   "slug": "polished-up-seventeen-rough-down-twenty-six",
   "desk": "diamonds",
   "date": "2026-08-31",
-  "lead": true,
   "kicker": "Diamonds / trade statistics",
   "minutes": 5,
   "byline": "Carat Capital Diamond Desk",
@@ -122,7 +235,8 @@
    "Two men took a Van Cleef & Arpels diamond necklace from the MAK, Vienna's Museum of Applied Arts beside the Stadtpark, on Thursday 29 August, and an Austrian manhunt is under way. The piece dates from 1939 and carries more than 200 carats across more than 600 round and baguette-cut diamonds, in a graduated line supporting a flexible bib sunburst centred on an articulated round stone of roughly six carats. It was made for Queen Nazli of Egypt and later passed to her daughter Fawzia, who married Mohammad Reza Pahlavi.",
    "The valuation being reported everywhere is $4.3 million, and it should be read for what it is. That figure is the price the necklace made at Sotheby's in New York in December 2015. It is not an insurance value, not a current appraisal and not a 2026 estimate. It is a single auction result that is ten years and eight months old, and this desk could find no more recent published price on the piece. A museum theft is one of the few events in this trade where a number gets repeated in hundreds of outlets within a day without anyone asking when it was struck.",
    "The internal arithmetic is more durable than the headline figure and more useful to anyone who may be offered the goods. More than 200 carats across more than 600 stones puts the average stone below 0.334 carats. On the 2015 price, the necklace made about $21,500 a carat. Those are the proportions of a piece whose value sits in design, provenance and assembly rather than in any individual stone. Broken up, the constituent parts are small goods in a market where small goods are cheap, which is precisely the calculation a thief has to get wrong for the theft to be worth doing.",
-   "It is the third significant raid on a European collection this desk has recorded in recent months, after the Musee Lalique theft in July, put at 4 million euros or about $4.6 million, and the Louvre job at $102 million. What links them is not method but target selection: cultural institutions holding named, photographed, unsellable pieces. The Vienna necklace cannot be sold as itself to any legitimate buyer anywhere, and its recovery odds rest on whether it is still assembled.",
+   "It is the third significant raid on a European collection this desk has recorded in recent months, after the Musee Lalique theft in July, put at 4.5 million euros or about $5.1 million, and the Louvre job at $102 million. What links them is not method but target selection: cultural institutions holding named, photographed, unsellable pieces. The Vienna necklace cannot be sold as itself to any legitimate buyer anywhere, and its recovery odds rest on whether it is still assembled.",
+   "Correction, 1 September 2026. This article first gave the Musee Lalique theft of July 2026 as 4 million euros, or about $4.6 million. The correct figure is 4.5 million euros, or about $5.1 million. The lower number was the first estimate, carried by National Jeweler on 7 July from a source close to the investigation, when about 20 pieces were thought to have gone. National Jeweler revised it the next day, once the inventory was complete, to 27 pieces worth an estimated 4.5 million euros, or about $5.1 million, and Smithsonian Magazine put the loss at roughly $5 million on 10 July. What was correct as published: this paper's own report of 14 July carried the revised 4.5 million euro figure and remains right. The fault was in reaching back past it to the superseded first estimate. The Louvre figure in the same sentence was true but uncited when this ran, and is now sourced: 88 million euros, or $102 million, given by the Paris prosecutor Laure Beccuau on 21 October 2025. Nothing else in this article changes, including the $4.3 million Sotheby's result of December 2015.",
    "The desk's view: the clock on this one is measured in days, not months, because the only version of the necklace worth $4.3 million is the intact version, and the only version that is easy to move is the broken one. For jewellers reading it as a security story, note the specific lesson the number teaches rather than the drama: an item whose last public valuation is a decade old is an item nobody has properly repriced, and that is as true of the safe in the back room as it is of a museum case in Vienna."
   ],
   "sources": [
@@ -133,6 +247,14 @@
    {
     "title": "Carat Capital, A ten-minute job at the Musee Lalique, July 2026",
     "url": "https://caratcapital.org/a-lalique-ten-minute-heist"
+   },
+   {
+    "title": "Stolen Louvre jewels are worth estimated $102 million, prosecutor says - CBS News, 21 October 2025",
+    "url": "https://www.cbsnews.com/news/stolen-louvre-jewels-estimated-value-prosecutor/"
+   },
+   {
+    "title": "Here's What Thieves Stole From the Lalique Museum - National Jeweler, 8 July 2026",
+    "url": "https://nationaljeweler.com/articles/15112-here-s-what-thieves-stole-from-the-lalique-museum"
    }
   ]
  },

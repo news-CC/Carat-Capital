@@ -37113,6 +37113,13 @@
    },
    {
     "p": 3
+   },
+   {
+    "sub": "What was wrong here, and what is right.",
+    "n": "§5"
+   },
+   {
+    "p": 4
    }
   ],
   "desk": {
@@ -37338,6 +37345,376 @@
     ],
     "note": "Palladium is the only metal on the board whose quoted spread is wider than its own move on the day. Gold's spread is one sixty-fifth of palladium's.",
     "cap": "Kitco bid and ask, read by the Editor at press time 31 August 2026. Carat Capital graphics desk. &nbsp;CC/2026/050"
+   }
+  ]
+ },
+ "back-at-nineteen-august": {
+  "strip": {
+   "cap": "By the numbers - the board re-read at press time, against Monday's close",
+   "cells": [
+    {
+     "fig": "$4,366.10",
+     "delta": "▼ -1.8476%",
+     "dir": "down",
+     "lab": "gold the ounce"
+    },
+    {
+     "fig": "$64.44",
+     "delta": "▼ -3.1272%",
+     "dir": "down",
+     "lab": "silver, the hardest hit"
+    },
+    {
+     "fig": "$1,753.00",
+     "delta": "▼ -2.1173%",
+     "dir": "down",
+     "lab": "platinum"
+    },
+    {
+     "fig": "$1,304.00",
+     "delta": "▼ -3.8429%",
+     "dir": "down",
+     "lab": "palladium"
+    },
+    {
+     "fig": "67.75",
+     "lab": "gold-silver ratio, from 66.46"
+    }
+   ]
+  },
+  "flow": [
+   {
+    "sub": "Four metals down, four re-read, four written back.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "sub": "Thirteen days of trading, handed back.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "fig": 0
+   },
+   {
+    "sub": "Rates moved the board, not the counter.",
+    "n": "§3"
+   },
+   {
+    "p": 2
+   },
+   {
+    "sub": "The inventory line runs both ways.",
+    "n": "§4"
+   },
+   {
+    "p": 3,
+    "split": "A retailer holding gold inventory bought against an ounce"
+   },
+   {
+    "also": {
+     "t": "Profit up 139% on revenue up 17%, and 47 shops closed",
+     "href": "a-one-thirty-nine-on-seventeen.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "The number to hold onto is the 19 August comparison"
+  },
+  "next": {
+   "lead": {
+    "slug": "three-six-four-one-and-thirty-six-ninety-five",
+    "tag": "Retail & Tech",
+    "blurb": "The same six months and the same metal cut two Chinese jewellers in opposite directions."
+   },
+   "minis": [
+    {
+     "slug": "six-eighty-seven-in-one-step",
+     "tag": "Diamonds"
+    },
+    {
+     "slug": "one-thirty-nine-on-seventeen",
+     "tag": "Retail & Tech"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Distance from the August high on this tape, %",
+    "rows": [
+     {
+      "l": "SILVER",
+      "v": 8427,
+      "d": "-8.43%",
+      "hi": true
+     },
+     {
+      "l": "PALLADIUM",
+      "v": 7189,
+      "d": "-7.19%"
+     },
+     {
+      "l": "PLATINUM",
+      "v": 6904,
+      "d": "-6.90%"
+     },
+     {
+      "l": "GOLD",
+      "v": 5982,
+      "d": "-5.98%"
+     }
+    ],
+    "note": "Silver is furthest from its high and gold is nearest, which is the usual order when the trade sells the whole complex rather than one metal.",
+    "cap": "Highs are this tape's own morning marks, 24 to 29 August 2026, against press-time readings on 1 September. Carat Capital graphics desk. &nbsp;CC/2026/051"
+   }
+  ]
+ },
+ "six-eighty-seven-in-one-step": {
+  "strip": {
+   "cap": "By the numbers - the one-carat lab-grown reference",
+   "cells": [
+    {
+     "fig": "$687",
+     "delta": "▼ -1.8571%",
+     "dir": "down",
+     "lab": "per carat, 1 September"
+    },
+    {
+     "fig": "-$13",
+     "delta": "▼",
+     "dir": "down",
+     "lab": "in one session"
+    },
+    {
+     "fig": "$3",
+     "lab": "largest prior daily move, 14 August"
+    },
+    {
+     "fig": "-3.3755%",
+     "delta": "▼",
+     "dir": "down",
+     "lab": "since the 8 August high of $711"
+    },
+    {
+     "fig": "21",
+     "lab": "sessions on this tape's record"
+    }
+   ]
+  },
+  "flow": [
+   {
+    "sub": "The lowest reading this tape has carried.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "sub": "A month of ones and twos, then a thirteen.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "fig": 0
+   },
+   {
+    "sub": "The natural side is on a different clock.",
+    "n": "§3"
+   },
+   {
+    "p": 2
+   },
+   {
+    "sub": "Three numbers, none interchangeable.",
+    "n": "§4"
+   },
+   {
+    "p": 3,
+    "split": "A merchant reading a 1.86% fall in the listings average"
+   }
+  ],
+  "desk": {
+   "split": "A drift that becomes a step is usually a repricing"
+  },
+  "next": {
+   "lead": {
+    "slug": "back-at-nineteen-august",
+    "tag": "Gold & Metals",
+    "blurb": "Gold, silver and platinum are back within 2.1% of their 19 August marks."
+   },
+   "minis": [
+    {
+     "slug": "three-six-four-one-and-thirty-six-ninety-five",
+     "tag": "Retail & Tech"
+    },
+    {
+     "slug": "seventy-six-nine-and-three-percent",
+     "tag": "Diamonds"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "The one-carat lab-grown reference, $ per carat",
+    "rows": [
+     {
+      "l": "8 AUG (HIGH)",
+      "v": 711,
+      "d": "$711"
+     },
+     {
+      "l": "17 AUG",
+      "v": 705,
+      "d": "$705"
+     },
+     {
+      "l": "25 AUG",
+      "v": 701,
+      "d": "$701"
+     },
+     {
+      "l": "31 AUG",
+      "v": 700,
+      "d": "$700"
+     },
+     {
+      "l": "1 SEP",
+      "v": 687,
+      "d": "$687",
+      "hi": true
+     }
+    ],
+    "note": "Twenty-four dollars came off in twenty-one sessions, and thirteen of them came off this morning.",
+    "cap": "CaratRadar one-carat average, as carried on this paper's tape 5 August to 1 September 2026. Carat Capital graphics desk. &nbsp;CC/2026/051"
+   }
+  ]
+ },
+ "three-six-four-one-and-thirty-six-ninety-five": {
+  "strip": {
+   "cap": "By the numbers - Chow Tai Seng, six months to 30 June 2026",
+   "cells": [
+    {
+     "fig": "RMB 3.641B",
+     "delta": "▼ -20.79%",
+     "dir": "down",
+     "lab": "revenue"
+    },
+    {
+     "fig": "RMB 450M",
+     "delta": "▼ -24.24%",
+     "dir": "down",
+     "lab": "net profit"
+    },
+    {
+     "fig": "36.95%",
+     "delta": "▲ +6.61pp",
+     "dir": "up",
+     "lab": "gross margin"
+    },
+    {
+     "fig": "-54.2%",
+     "delta": "▼",
+     "dir": "down",
+     "lab": "second-quarter net profit"
+    },
+    {
+     "fig": "RMB 174M",
+     "lab": "proposed interim distribution"
+    }
+   ]
+  },
+  "flow": [
+   {
+    "sub": "Revenue down a fifth, profit down a quarter.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "sub": "The margin rose and the money still fell.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "fig": 0
+   },
+   {
+    "sub": "The second quarter was worse than the half.",
+    "n": "§3"
+   },
+   {
+    "p": 2
+   },
+   {
+    "sub": "Same six months, same metal, opposite results.",
+    "n": "§4"
+   },
+   {
+    "p": 3,
+    "split": "One company was long the metal on its balance sheet"
+   },
+   {
+    "also": {
+     "t": "Profit up 139% on revenue up 17%, and 47 shops closed",
+     "href": "a-one-thirty-nine-on-seventeen.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "The instructive figure is the second-quarter profit fall"
+  },
+  "next": {
+   "lead": {
+    "slug": "six-eighty-seven-in-one-step",
+    "tag": "Diamonds",
+    "blurb": "The lab-grown reference falls thirteen dollars after a month of ones and twos."
+   },
+   "minis": [
+    {
+     "slug": "back-at-nineteen-august",
+     "tag": "Gold & Metals"
+    },
+    {
+     "slug": "two-point-one-to-ten",
+     "tag": "Retail & Tech"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Two Chinese jewellers, the same half to 30 June 2026, % change in net profit",
+    "rows": [
+     {
+      "l": "CHOW SANG SANG",
+      "v": 139,
+      "d": "+139%",
+      "hi": true
+     },
+     {
+      "l": "CHOW TAI SENG (H1)",
+      "v": -24,
+      "d": "-24.24%"
+     },
+     {
+      "l": "CHOW TAI SENG (Q2)",
+      "v": -54,
+      "d": "-54.2%"
+     }
+    ],
+    "note": "Both companies name gold as the reason. One held it on the balance sheet and one sold it across a counter.",
+    "cap": "Company releases, 25 and 27 August 2026. Chow Sang Sang as reported by this paper 29 August. Carat Capital graphics desk. &nbsp;CC/2026/051"
    }
   ]
  }
