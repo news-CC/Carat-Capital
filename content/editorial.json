@@ -37717,5 +37717,690 @@
     "cap": "Company releases, 25 and 27 August 2026. Chow Sang Sang as reported by this paper 29 August. Carat Capital graphics desk. &nbsp;CC/2026/051"
    }
   ]
+ },
+ "two-ninety-seven-off-gold": {
+  "strip": {
+   "cap": "By the numbers - the board re-read at press time, against the prior close",
+   "cells": [
+    {
+     "fig": "$4,307.50",
+     "delta": "▼ -0.4668%",
+     "dir": "down",
+     "lab": "gold the ounce"
+    },
+    {
+     "fig": "$1,713.00",
+     "delta": "▼ -1.3817%",
+     "dir": "down",
+     "lab": "platinum, the day's largest fall"
+    },
+    {
+     "fig": "$63.56",
+     "delta": "▼ -0.6161%",
+     "dir": "down",
+     "lab": "silver"
+    },
+    {
+     "fig": "$1,286.00",
+     "delta": "▼ -0.0777%",
+     "dir": "down",
+     "lab": "palladium, effectively flat"
+    },
+    {
+     "fig": "67.77",
+     "lab": "gold-silver ratio, from 65.43 on 28 August"
+    }
+   ]
+  },
+  "flow": [
+   {
+    "sub": "Four metals re-read, four written back.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "sub": "Five marks, and every one lower.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "fig": 0
+   },
+   {
+    "sub": "Gold has lost the least of the four.",
+    "n": "§3"
+   },
+   {
+    "p": 2
+   },
+   {
+    "sub": "The direction, not the contested number.",
+    "n": "§4"
+   },
+   {
+    "p": 3,
+    "split": "A retailer who bought casting gold against the 28 August ounce"
+   },
+   {
+    "also": {
+     "t": "$675 for the one-carat while the index rises $12",
+     "href": "a-six-seventy-five-and-a-rising-index.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "When silver and platinum lose nine per cent while gold loses six"
+  },
+  "next": {
+   "lead": {
+    "slug": "fifty-nine-thousand-in-penzance",
+    "tag": "Auctions",
+    "blurb": "A £5,000 estimate on a steel Calatrava met a £59,000 bid from Hong Kong."
+   },
+   "minis": [
+    {
+     "slug": "two-ceos-and-a-president-at-kering",
+     "tag": "Retail & Tech"
+    },
+    {
+     "slug": "twenty-four-nine-hundred-in-rubber",
+     "tag": "Watches"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Lost since the 28 August mark, %",
+    "rows": [
+     {
+      "l": "SILVER",
+      "v": 9677,
+      "d": "-9.68%",
+      "hi": true
+     },
+     {
+      "l": "PLATINUM",
+      "v": 9028,
+      "d": "-9.03%"
+     },
+     {
+      "l": "PALLADIUM",
+      "v": 6879,
+      "d": "-6.88%"
+     },
+     {
+      "l": "GOLD",
+      "v": 6451,
+      "d": "-6.45%"
+     }
+    ],
+    "note": "Gold has lost the least of the four across the run, which is the order a board takes when the trade sells the whole complex rather than a view on one metal.",
+    "cap": "This tape's own morning marks of 28 August 2026 against press-time readings on 2 September 2026. Carat Capital graphics desk. &nbsp;CC/2026/052"
+   }
+  ]
+ },
+ "six-seventy-five-and-a-rising-index": {
+  "strip": {
+   "cap": "By the numbers - CaratRadar's lab-grown page, read at press time",
+   "cells": [
+    {
+     "fig": "$675",
+     "delta": "▼ -1.75%",
+     "dir": "down",
+     "lab": "one-carat average, from $687"
+    },
+    {
+     "fig": "$1,535",
+     "delta": "▲ +0.79%",
+     "dir": "up",
+     "lab": "market price index, from $1,523"
+    },
+    {
+     "fig": "1,211,846",
+     "delta": "▲ +7,128",
+     "dir": "up",
+     "lab": "active listings in a day"
+    },
+    {
+     "fig": "-3.57%",
+     "lab": "one-carat, across three readings from $700"
+    }
+   ]
+  },
+  "flow": [
+   {
+    "sub": "A $13 step, then a $12 step.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "sub": "The same twelve dollars, the other way.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "fig": 0
+   },
+   {
+    "sub": "Seven thousand more stones in a day.",
+    "n": "§3"
+   },
+   {
+    "p": 2
+   },
+   {
+    "sub": "Three prices that are not one price.",
+    "n": "§4"
+   },
+   {
+    "p": 3,
+    "split": "A listings average tells you what sellers are asking"
+   },
+   {
+    "also": {
+     "t": "$687 in one step: a one-dollar drift becomes a thirteen-dollar fall",
+     "href": "a-six-eighty-seven-in-one-step.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "a one-carat segment carrying more stock than it can clear"
+  },
+  "next": {
+   "lead": {
+    "slug": "two-ninety-seven-off-gold",
+    "tag": "Gold & Metals",
+    "blurb": "Gold and platinum have printed a lower mark at every reading since Friday."
+   },
+   "minis": [
+    {
+     "slug": "fifty-nine-thousand-in-penzance",
+     "tag": "Auctions"
+    },
+    {
+     "slug": "sixteen-hundred-feet-at-south-coast-plaza",
+     "tag": "Retail & Tech"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "CaratRadar one-carat lab-grown average, USD",
+    "rows": [
+     {
+      "l": "31 AUG",
+      "v": 700,
+      "d": "$700"
+     },
+     {
+      "l": "1 SEP",
+      "v": 687,
+      "d": "$687"
+     },
+     {
+      "l": "2 SEP",
+      "v": 675,
+      "d": "$675",
+      "hi": true
+     }
+    ],
+    "note": "Three readings, $25 or 3.57%. Every move on this reference before 1 September was three dollars or less.",
+    "cap": "CaratRadar page text, read directly by this desk on each date. Carat Capital graphics desk. &nbsp;CC/2026/052"
+   }
+  ]
+ },
+ "fifty-nine-thousand-in-penzance": {
+  "strip": {
+   "cap": "By the numbers - Hansons Cornwall, Penzance, 25 August 2026",
+   "cells": [
+    {
+     "fig": "£59,000",
+     "lab": "price reported for the Calatrava"
+    },
+    {
+     "fig": "£5,000",
+     "lab": "low estimate"
+    },
+    {
+     "fig": "11.8x",
+     "lab": "result against the low estimate"
+    },
+    {
+     "fig": "5.9x",
+     "lab": "result against the £10,000 high estimate"
+    },
+    {
+     "fig": "Ref. 448",
+     "lab": "stainless steel, 1930s"
+    }
+   ]
+  },
+  "flow": [
+   {
+    "sub": "A jewellery box in Camborne.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "sub": "Both bounds, and two dollar figures.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "fig": 0
+   },
+   {
+    "sub": "The scarcity argument is the auctioneer's.",
+    "n": "§3"
+   },
+   {
+    "p": 2
+   },
+   {
+    "sub": "An empty stretch of the calendar.",
+    "n": "§4"
+   },
+   {
+    "p": 3,
+    "split": "Sotheby's next jewellery sales are The Gem Drop in New York"
+   },
+   {
+    "also": {
+     "t": "Two CEOs and a president: Kering rewires Pomellato and DoDo",
+     "href": "a-two-ceos-and-a-president-at-kering.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "the number worth carrying out of Penzance is not £59,000"
+  },
+  "next": {
+   "lead": {
+    "slug": "two-ninety-seven-off-gold",
+    "tag": "Gold & Metals",
+    "blurb": "$297.00 off gold and $170.00 off platinum, every mark lower since Friday."
+   },
+   "minis": [
+    {
+     "slug": "six-seventy-five-and-a-rising-index",
+     "tag": "Diamonds"
+    },
+    {
+     "slug": "twenty-four-nine-hundred-in-rubber",
+     "tag": "Watches"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Estimate against result, £",
+    "rows": [
+     {
+      "l": "RESULT",
+      "v": 59000,
+      "d": "£59,000",
+      "hi": true
+     },
+     {
+      "l": "HIGH ESTIMATE",
+      "v": 10000,
+      "d": "£10,000"
+     },
+     {
+      "l": "LOW ESTIMATE",
+      "v": 5000,
+      "d": "£5,000"
+     }
+    ],
+    "note": "Reported dollar equivalents for the same £59,000 differ across outlets, $79,892 and $78,765, so this paper prints the pound.",
+    "cap": "Hansons Cornwall sale of 25 August 2026, as reported by the trade press 31 August and 1 September. Carat Capital graphics desk. &nbsp;CC/2026/052"
+   }
+  ]
+ },
+ "two-ceos-and-a-president-at-kering": {
+  "strip": {
+   "cap": "By the numbers - Kering, announced 1 September 2026",
+   "cells": [
+    {
+     "fig": "15 Sept",
+     "lab": "effective date, all three moves"
+    },
+    {
+     "fig": "€521m",
+     "lab": "jewellery-house revenue, H1 2026"
+    },
+    {
+     "fig": "+14%",
+     "lab": "as reported, +20% comparable"
+    },
+    {
+     "fig": "€32m",
+     "lab": "jewellery operating income, doubled"
+    },
+    {
+     "fig": "-3%",
+     "lab": "group revenue, to €7.22bn"
+    }
+   ]
+  },
+  "flow": [
+   {
+    "sub": "Three moves on one date.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "sub": "Fourteen years inside the group's houses.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Eleven years at Pomellato, then Italy.",
+    "n": "§3"
+   },
+   {
+    "p": 2
+   },
+   {
+    "fig": 0
+   },
+   {
+    "sub": "The part of the portfolio that grew.",
+    "n": "§4"
+   },
+   {
+    "p": 3,
+    "split": "The jewellery division was created in March of this year"
+   },
+   {
+    "also": {
+     "t": "Boucheron hits a record as Kering's jewelry runs 14% ahead",
+     "href": "a-boucheron-carries-kering.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "a 521 million euro business inside a 7.22 billion euro group that shrank"
+  },
+  "next": {
+   "lead": {
+    "slug": "two-ninety-seven-off-gold",
+    "tag": "Gold & Metals",
+    "blurb": "Five marks on this tape and every one of them lower."
+   },
+   "minis": [
+    {
+     "slug": "fifty-nine-thousand-in-penzance",
+     "tag": "Auctions"
+    },
+    {
+     "slug": "six-seventy-five-and-a-rising-index",
+     "tag": "Diamonds"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Kering, first half 2026, growth by line",
+    "rows": [
+     {
+      "l": "JEWELLERY, COMPARABLE",
+      "v": 2000,
+      "d": "+20%",
+      "hi": true
+     },
+     {
+      "l": "JEWELLERY, AS REPORTED",
+      "v": 1400,
+      "d": "+14%"
+     },
+     {
+      "l": "GROUP REVENUE",
+      "v": -300,
+      "d": "-3%"
+     }
+    ],
+    "note": "The division being staffed up is the one growing against a group that shrank, reported by this paper on 29 July 2026.",
+    "cap": "Kering first-half 2026 results as reported by Carat Capital, 29 July 2026. Carat Capital graphics desk. &nbsp;CC/2026/052"
+   }
+  ]
+ },
+ "twenty-four-nine-hundred-in-rubber": {
+  "strip": {
+   "cap": "By the numbers - Hublot Big Bang Original Soft Touch, 1 September 2026",
+   "cells": [
+    {
+     "fig": "$24,900",
+     "lab": "retail, both colourways"
+    },
+    {
+     "fig": "HUB1280",
+     "lab": "in-house column-wheel chronograph"
+    },
+    {
+     "fig": "2006",
+     "lab": "All Black, first shown"
+    },
+    {
+     "fig": "2018",
+     "lab": "red ceramic, introduced"
+    }
+   ]
+  },
+  "flow": [
+   {
+    "sub": "The surface is the selling point.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "sub": "Overmoulded, not coated.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "sub": "Two references to its own back catalogue.",
+    "n": "§3"
+   },
+   {
+    "p": 2
+   },
+   {
+    "fig": 0
+   },
+   {
+    "sub": "An export band is not a retail price.",
+    "n": "§4"
+   },
+   {
+    "p": 3,
+    "split": "That threshold is an export price, not a retail one"
+   },
+   {
+    "also": {
+     "t": "2.4% of units, 36.2% of value: the gold watch inside a 9.6% July",
+     "href": "a-two-point-four-for-thirty-six.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "materials stories are the ones that travel down the trade"
+  },
+  "next": {
+   "lead": {
+    "slug": "two-ninety-seven-off-gold",
+    "tag": "Gold & Metals",
+    "blurb": "Platinum at $1,713.00 took the largest percentage fall of the four."
+   },
+   "minis": [
+    {
+     "slug": "fifty-nine-thousand-in-penzance",
+     "tag": "Auctions"
+    },
+    {
+     "slug": "two-ceos-and-a-president-at-kering",
+     "tag": "Retail & Tech"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Swiss watch exports, July 2026, growth by measure",
+    "rows": [
+     {
+      "l": "ABOVE CHF 3,000, VALUE",
+      "v": 1200,
+      "d": "+12%",
+      "hi": true
+     },
+     {
+      "l": "TOTAL EXPORTS, VALUE",
+      "v": 960,
+      "d": "+9.6%"
+     },
+     {
+      "l": "PRECIOUS METAL, VALUE",
+      "v": 370,
+      "d": "+3.7%"
+     }
+    ],
+    "note": "The band this watch is priced into was July's growing segment. The CHF 3,000 threshold is an export price, not a retail one, so the comparison is directional.",
+    "cap": "Federation of the Swiss Watch Industry July 2026 figures, as reported by Carat Capital 20 August 2026. Carat Capital graphics desk. &nbsp;CC/2026/052"
+   }
+  ]
+ },
+ "sixteen-hundred-feet-at-south-coast-plaza": {
+  "strip": {
+   "cap": "By the numbers - South Coast Plaza, Costa Mesa, opened 28 August 2026",
+   "cells": [
+    {
+     "fig": "1,600",
+     "lab": "square feet"
+    },
+    {
+     "fig": "2nd",
+     "lab": "US store, after Madison Avenue"
+    },
+    {
+     "fig": "2025",
+     "lab": "New York opening"
+    },
+    {
+     "fig": "2027",
+     "lab": "Rodeo Drive planned"
+    }
+   ]
+  },
+  "flow": [
+   {
+    "sub": "The middle step of three.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "sub": "The address is the substance.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "fig": 0
+   },
+   {
+    "sub": "Small format, high-rent corridor.",
+    "n": "§3"
+   },
+   {
+    "p": 2
+   },
+   {
+    "sub": "What has not been published.",
+    "n": "§4"
+   },
+   {
+    "p": 3,
+    "split": "This desk has no revenue, unit-economics or lease figure"
+   },
+   {
+    "also": {
+     "t": "Two CEOs and a president: Kering rewires Pomellato and DoDo",
+     "href": "a-two-ceos-and-a-president-at-kering.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "the interesting thing about this opening is the corridor"
+  },
+  "next": {
+   "lead": {
+    "slug": "two-ninety-seven-off-gold",
+    "tag": "Gold & Metals",
+    "blurb": "$297.00 off gold across five marks, and silver has lost more."
+   },
+   "minis": [
+    {
+     "slug": "six-seventy-five-and-a-rising-index",
+     "tag": "Diamonds"
+    },
+    {
+     "slug": "twenty-four-nine-hundred-in-rubber",
+     "tag": "Watches"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Jessica McCormack, US store programme",
+    "rows": [
+     {
+      "l": "2027 RODEO DRIVE",
+      "v": 3,
+      "d": "planned"
+     },
+     {
+      "l": "2026 SOUTH COAST PLAZA",
+      "v": 2,
+      "d": "1,600 sq ft",
+      "hi": true
+     },
+     {
+      "l": "2025 MADISON AVENUE",
+      "v": 1,
+      "d": "opened"
+     }
+    ],
+    "note": "Three US addresses in three years, all in corridors where the rent is a marketing line as much as a cost line.",
+    "cap": "Company announcements and trade-press reporting, August and September 2026. Carat Capital graphics desk. &nbsp;CC/2026/052"
+   }
+  ]
  }
 }
