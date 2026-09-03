@@ -1,57 +1,317 @@
 {
  "half-a-percent-after-fifteen-months": {
   "v": 3,
-  "figures": {"asof": "RAPI, August 2026 · published 2 Sep 2026, 08:21 UTC", "cells": [
-   {"n": "+0.5%", "dir": "up", "label": "1-carat", "q": "first rise since May 2025"},
-   {"n": "+2.5%", "dir": "up", "label": "0.50-carat", "q": "the month's best size"},
-   {"n": "+2.0%", "dir": "up", "label": "0.30-carat", "q": "second month rising"},
-   {"n": "−0.4%", "dir": "dn", "label": "3-carat", "q": "first move in 18 months"}]},
-  "hero": {"n": "+0.5%", "dir": "up", "what": "1-carat RAPI, August 2026", "since": "First rise since May 2025 · asking prices",
+  "figures": {
+   "asof": "RAPI, August 2026 · published 2 Sep 2026, 08:21 UTC",
+   "cells": [
+    {
+     "n": "+0.5%",
+     "dir": "up",
+     "label": "1-carat",
+     "q": "first rise since May 2025"
+    },
+    {
+     "n": "+2.5%",
+     "dir": "up",
+     "label": "0.50-carat",
+     "q": "the month's best size"
+    },
+    {
+     "n": "+2.0%",
+     "dir": "up",
+     "label": "0.30-carat",
+     "q": "second month rising"
+    },
+    {
+     "n": "−0.4%",
+     "dir": "dn",
+     "label": "3-carat",
+     "q": "first move in 18 months"
+    }
+   ]
+  },
+  "hero": {
+   "n": "+0.5%",
+   "dir": "up",
+   "what": "1-carat RAPI, August 2026",
+   "since": "First rise since May 2025 · asking prices",
    "bars_cap": "August, by size · zero line at centre-left",
-   "bars": [{"l": "0.30 ct", "v": 2.0, "d": "+2.0%"}, {"l": "0.50 ct", "v": 2.5, "d": "+2.5%"}, {"l": "1 ct", "v": 0.5, "d": "+0.5%", "hi": true}, {"l": "3 ct", "v": -0.4, "d": "−0.4%"}],
-   "src": "Rapaport · 2 Sep 2026", "spec": "Round D–H IF–VS2"},
-  "series": {"title": "The drought · 1-carat RAPI, month by month", "asof": "May 2025 → Aug 2026 · Rapaport",
-   "months": [{"m": "M", "y": "2025", "mark": "gilt"}, {"m": "J"}, {"m": "J"}, {"m": "A"}, {"m": "S"}, {"m": "O"}, {"m": "N"}, {"m": "D"}, {"m": "J", "y": "2026"}, {"m": "F"}, {"m": "M"}, {"m": "A"}, {"m": "M"}, {"m": "J"}, {"m": "J"}, {"m": "A", "mark": "seal"}],
-   "band": [1, 14],
-   "legend": [{"k": "g", "t": "May 2025 · the last rise before this one"}, {"k": "b", "t": "Jun 2025 to Jul 2026 · flat or down every month, July flat"}, {"k": "s", "t": "Aug 2026 · +0.5%"}]},
-  "changed": {"lead": "The 1-carat rose.", "text": "Rapaport's asking-price index for 1-carat rounds gained 0.5% in August, its first increase since May 2025, after a flat July. Every size below one carat rose more. The 3-carat, unmoved for a year and a half, fell."},
+   "bars": [
+    {
+     "l": "0.30 ct",
+     "v": 2.0,
+     "d": "+2.0%"
+    },
+    {
+     "l": "0.50 ct",
+     "v": 2.5,
+     "d": "+2.5%"
+    },
+    {
+     "l": "1 ct",
+     "v": 0.5,
+     "d": "+0.5%",
+     "hi": true
+    },
+    {
+     "l": "3 ct",
+     "v": -0.4,
+     "d": "−0.4%"
+    }
+   ],
+   "src": "Rapaport · 2 Sep 2026",
+   "spec": "Round D–H IF–VS2"
+  },
+  "series": {
+   "title": "The drought · 1-carat RAPI, month by month",
+   "asof": "May 2025 → Aug 2026 · Rapaport",
+   "months": [
+    {
+     "m": "M",
+     "y": "2025",
+     "mark": "gilt"
+    },
+    {
+     "m": "J"
+    },
+    {
+     "m": "J"
+    },
+    {
+     "m": "A"
+    },
+    {
+     "m": "S"
+    },
+    {
+     "m": "O"
+    },
+    {
+     "m": "N"
+    },
+    {
+     "m": "D"
+    },
+    {
+     "m": "J",
+     "y": "2026"
+    },
+    {
+     "m": "F"
+    },
+    {
+     "m": "M"
+    },
+    {
+     "m": "A"
+    },
+    {
+     "m": "M"
+    },
+    {
+     "m": "J"
+    },
+    {
+     "m": "J"
+    },
+    {
+     "m": "A",
+     "mark": "seal"
+    }
+   ],
+   "band": [
+    1,
+    14
+   ],
+   "legend": [
+    {
+     "k": "g",
+     "t": "May 2025 · the last rise before this one"
+    },
+    {
+     "k": "b",
+     "t": "Jun 2025 to Jul 2026 · flat or down every month, July flat"
+    },
+    {
+     "k": "s",
+     "t": "Aug 2026 · +0.5%"
+    }
+   ]
+  },
+  "changed": {
+   "lead": "The 1-carat rose.",
+   "text": "Rapaport's asking-price index for 1-carat rounds gained 0.5% in August, its first increase in 15 months, after a flat July. Every size below one carat rose more. The 3-carat, unmoved for 18 months, fell."
+  },
   "means": [
-   {"who": "If you restock for the holidays:", "text": "the 0.30 to 0.69-carat band is genuinely firmer. Price replacement stock off this month's asking prices, not last spring's."},
-   {"who": "If you hold 3-carat goods:", "text": "check the estimate book. Eighteen months of one steady number ended this month."},
-   {"who": "What this is not:", "text": "a demand recovery. The rise came from supply cuts, and September's fairs are where it gets tested."}],
-  "photo": {"src": "assets/ph/diamonds-hero.jpg", "w": 1400, "h": 1050, "credit": "Carat Capital", "alt": "A field of small polished round diamonds under a bench light", "cap": "Small polished rounds. The sizes under one carat led August; the 3-carat did not."},
-  "visual": {"type": "table", "cap": "Table I · RAPI by size, monthly", "asof": "Round · D–H · IF–VS2",
-   "cols": ["Size", "July", "August", "Jul + Aug"],
-   "rows": [["0.30-carat", "+1.6%", "+2.0%", "+3.63%"], ["0.50-carat", "+1.8%", "+2.5%", "+4.35%"], ["1-carat", "0.0%", "+0.5%", "+0.50%"], ["3-carat", "+0.2%", "−0.4%", "−0.20%"]],
-   "hi": 2, "note": "<b>Source</b> Rapaport monthly releases, 4 Aug and 2 Sep 2026. <b>Jul + Aug</b> is Carat Capital's compounding of the two.", "plate": "CC/2026/053"},
+   {
+    "who": "If you restock for the holidays:",
+    "text": "the 0.30 to 0.69-carat band is genuinely firmer. Price replacement stock off this month's asking prices, not last spring's."
+   },
+   {
+    "who": "If you hold 3-carat goods:",
+    "text": "check the estimate book. Eighteen months of one steady number ended this month."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a demand recovery. Supply cuts made this rise, and September's fairs will test it."
+   }
+  ],
+  "photo": {
+   "src": "assets/ph/diamonds-hero.jpg",
+   "w": 1400,
+   "h": 1050,
+   "credit": "Carat Capital",
+   "alt": "A field of small polished round diamonds under a bench light",
+   "cap": "Small polished rounds. The sizes under one carat led August; the 3-carat did not."
+  },
+  "visual": {
+   "type": "table",
+   "cap": "Table I · RAPI by size, monthly",
+   "asof": "Round · D–H · IF–VS2",
+   "cols": [
+    "Size",
+    "July",
+    "August",
+    "Jul + Aug"
+   ],
+   "rows": [
+    [
+     "0.30-carat",
+     "+1.6%",
+     "+2.0%",
+     "+3.63%"
+    ],
+    [
+     "0.50-carat",
+     "+1.8%",
+     "+2.5%",
+     "+4.35%"
+    ],
+    [
+     "1-carat",
+     "0.0%",
+     "+0.5%",
+     "+0.50%"
+    ],
+    [
+     "3-carat",
+     "+0.2%",
+     "−0.4%",
+     "−0.20%"
+    ]
+   ],
+   "hi": 2,
+   "note": "<b>Source</b> Rapaport monthly releases, 4 Aug and 2 Sep 2026. <b>Jul + Aug</b> is Carat Capital's compounding of the two.",
+   "plate": "CC/2026/053"
+  },
   "sections": [
-   {"h": "Supply cuts, not buyers returning", "p": [
-    {"lead": "Rapaport credits supply.", "text": "Miners and manufacturers cut production, and the sizes that fell hardest in 2025 rebounded as the imbalance closed. Trading picked up after the summer slowdown, and rounds outperformed fancy shapes."},
-    {"lead": "Geography helped.", "text": "Indian manufacturers shipped to the United States once July's confirmation of a <a href=\"a-zero-for-antwerp.html\">10% US tariff on Indian goods</a> removed months of uncertainty, and business at the Mumbai show, <abbr class=\"t\" title=\"India International Jewellery Show, Mumbai\">IIJS</abbr>, was brisk. Antwerp and Israel were seasonally quiet. Chinese buyers stayed slow ahead of the Hong Kong fair in September."}]},
-   {"h": "The 3-carat turned the other way", "p": [
-    {"lead": "It slipped 0.4%", "text": "after what Rapaport calls a year and a half of steadiness. That ends the condition <a href=\"a-the-one-carat-stops-falling.html\">this desk reported on 4 August</a>: July was the first month since March 2025 in which none of the four headline sizes fell. It lasted one month."},
-    {"lead": "Small goods carry it.", "text": "Over July and August together the 0.50-carat is up 4.35% and the 0.30-carat 3.63%, on this desk's compounding of Rapaport's monthly figures. The spread between the best and worst size is 4.55 points."}]},
-   {"h": "Miners are still reporting declines", "p": [
-    {"lead": "The same release lists what has not repaired.", "text": "<a href=\"a-alrosa-books-the-loss.html\">Alrosa's first-half revenue fell 36%</a> year on year and it booked a loss. <a href=\"a-de-beers-narrows-the-loss.html\">De Beers' first-half revenue fell 19%</a> to $1.58 billion. Both were reported here when they were published."},
-    {"lead": "A monthly index is a monthly index.", "text": "Carat Capital's own price list still carries the 1-carat <abbr class=\"t\" title=\"Rapaport Trade Diamond Index: the average asking price of the cheapest tenth of listed round diamonds, by quality category\">RAPI</abbr> level as a July point. It will show August's move when the level is revised, not before."}]}],
+   {
+    "h": "Supply cuts, not buyers returning",
+    "p": [
+     {
+      "lead": "Rapaport credits supply.",
+      "text": "Miners and manufacturers cut production, and the sizes that fell hardest in 2025 rebounded as the imbalance closed. Trading picked up after the summer slowdown, and rounds outperformed fancy shapes."
+     },
+     {
+      "lead": "Geography helped.",
+      "text": "Indian manufacturers shipped to the United States once July's confirmation of a <a href=\"a-zero-for-antwerp.html\">10% US tariff on Indian goods</a> removed months of uncertainty. Business at the Mumbai show, <abbr class=\"t\" title=\"India International Jewellery Show, Mumbai\">IIJS</abbr>, was brisk. Antwerp and Israel were seasonally quiet. Chinese buyers stayed slow ahead of the Hong Kong fair in September."
+     }
+    ]
+   },
+   {
+    "h": "The 3-carat turned the other way",
+    "p": [
+     {
+      "lead": "It slipped 0.4%",
+      "text": "after what Rapaport calls a year and a half of steadiness. That ends the condition <a href=\"a-the-one-carat-stops-falling.html\">Carat Capital reported on 4 August</a>. July was the first month since March 2025 in which none of the four headline sizes fell. It lasted one month."
+     },
+     {
+      "lead": "Small goods carry it.",
+      "text": "Over July and August together the 0.50-carat is up 4.35% and the 0.30-carat 3.63%, on Carat Capital's compounding of Rapaport's monthly figures. The spread between the best and worst size is 4.55 points."
+     }
+    ]
+   },
+   {
+    "h": "Miners are still reporting declines",
+    "p": [
+     {
+      "lead": "The same release lists what has not repaired.",
+      "text": "<a href=\"a-alrosa-books-the-loss.html\">Alrosa's first-half revenue fell 36%</a> year on year and it booked a loss. <a href=\"a-de-beers-narrows-the-loss.html\">De Beers' first-half revenue fell 19%</a> to $1.58 billion. Both were reported here when they were published."
+     },
+     {
+      "lead": "A monthly index is a monthly index.",
+      "text": "Carat Capital's own price list still carries the 1-carat <abbr class=\"t\" title=\"Rapaport Trade Diamond Index: the average asking price of the cheapest tenth of listed round diamonds, by quality category\">RAPI</abbr> level as a July point. It will show August's move when the level is revised, not before."
+     }
+    ]
+   }
+  ],
   "watch": [
-   {"when": "4–8 Sep", "what": "Vicenzaoro, Vicenza. The first fair where August's asking prices meet order books."},
-   {"when": "Sep", "what": "Jewellery &amp; Gem World, Hong Kong. Rapaport reports Chinese demand slow ahead of it."},
-   {"when": "Early Oct", "what": "Rapaport's September reading. A second gain in the 1-carat makes August a floor, not a bounce."}],
+   {
+    "when": "4–8 Sep",
+    "what": "Vicenzaoro, Vicenza. The first fair where August's asking prices meet order books."
+   },
+   {
+    "when": "Sep",
+    "what": "Jewellery &amp; Gem World, Hong Kong. Rapaport reports Chinese demand slow ahead of it."
+   },
+   {
+    "when": "Early Oct",
+    "what": "Rapaport's September reading. A second gain in the 1-carat makes August a floor, not a bounce."
+   }
+  ],
   "depth": {
    "reverse": "A September reading in which the 0.30 and 0.50-carat gains reverse while Vicenzaoro and Hong Kong report thin order books. That would mean the rebound was inventory clearing, not a floor, and the holiday restocking advice above would be withdrawn.",
-   "built": {"title": "How RAPI is built", "text": "The Rapaport Trade Diamond Index tracks <b>asking prices, not settled trades</b>. For each of the top 25 quality categories of round diamonds listed on Rapaport Trade, the marketplace formerly called RapNet, it averages the asking prices of the cheapest tenth of stones. The headline series are D to H colour, IF to VS2 clarity, at 0.30, 0.50, 1 and 3 carats. It is published monthly."},
+   "built": {
+    "title": "How RAPI is built",
+    "text": "The Rapaport Trade Diamond Index tracks <b>asking prices, not settled trades</b>. For each of the top 25 quality categories of round diamonds listed on Rapaport Trade, the marketplace formerly called RapNet, it averages the asking prices of the cheapest tenth of stones. The headline series are D to H colour, IF to VS2 clarity, at 0.30, 0.50, 1 and 3 carats. It is published monthly."
+   },
    "method": "The “Jul + Aug” column compounds Rapaport's July and August figures: (1 + July) × (1 + August) − 1. For the 0.50-carat, 1.018 × 1.025 = 1.0435, so +4.35%. The 4.55-point spread is +4.35% less −0.20%. Carat Capital's price list carries the 1-carat RAPI level as a July 2026 point, marked provisional, and does not yet reflect August's 0.5%.",
    "prior": [
-    {"date": "4 Aug 2026", "slug": "the-one-carat-stops-falling", "title": "The 1-carat stops falling", "claim": "July flat, every other size up."},
-    {"date": "2 Aug 2026", "slug": "zero-for-antwerp", "title": "Zero for Antwerp", "claim": "10% on polished finished in India; zero on Belgian and Botswana cuts."},
-    {"date": "31 Jul 2026", "slug": "de-beers-narrows-the-loss", "title": "De Beers narrows the loss", "claim": "H1 revenue down 19%."},
-    {"date": "6 Aug 2026", "slug": "alrosa-books-the-loss", "title": "Alrosa books the loss", "claim": "H1 revenue down 36%."}],
+    {
+     "date": "4 Aug 2026",
+     "slug": "the-one-carat-stops-falling",
+     "title": "The 1-carat stops falling",
+     "claim": "July flat, every other size up."
+    },
+    {
+     "date": "2 Aug 2026",
+     "slug": "zero-for-antwerp",
+     "title": "Zero for Antwerp",
+     "claim": "10% on polished finished in India; zero on Belgian and Botswana cuts."
+    },
+    {
+     "date": "31 Jul 2026",
+     "slug": "de-beers-narrows-the-loss",
+     "title": "De Beers narrows the loss",
+     "claim": "H1 revenue down 19%."
+    },
+    {
+     "date": "6 Aug 2026",
+     "slug": "alrosa-books-the-loss",
+     "title": "Alrosa books the loss",
+     "claim": "H1 revenue down 36%."
+    }
+   ],
    "sources": [
-    {"title": "Diamond Price Recovery Broadens Further in August — Rapaport, 2 September 2026, 08:21 UTC", "url": "https://rapaport.com/news/diamond-price-recovery-broadens-further-in-august/"},
-    {"title": "Diamond Prices See Best Month Since Before Tariffs — Rapaport, 4 August 2026", "url": "https://rapaport.com/news/diamond-prices-see-best-month-since-before-tariffs/"},
-    {"title": "Rapaport Diamond Price Index — methodology page", "url": "https://rapaport.com/diamond-price-index/"}],
-   "corrections": []},
-  "next": {"slug": "the-one-carat-stops-falling", "why": "The July reading that set up today's. Read it to see what “a floor” would look like against “the end of a decline”."}
+    {
+     "title": "Diamond Price Recovery Broadens Further in August — Rapaport, 2 September 2026, 08:21 UTC",
+     "url": "https://rapaport.com/news/diamond-price-recovery-broadens-further-in-august/"
+    },
+    {
+     "title": "Diamond Prices See Best Month Since Before Tariffs — Rapaport, 4 August 2026",
+     "url": "https://rapaport.com/news/diamond-prices-see-best-month-since-before-tariffs/"
+    },
+    {
+     "title": "Rapaport Diamond Price Index — methodology page",
+     "url": "https://rapaport.com/diamond-price-index/"
+    }
+   ],
+   "corrections": []
+  },
+  "next": {
+   "slug": "the-one-carat-stops-falling",
+   "why": "The July reading that set up today's. Read it to see what “a floor” would look like against “the end of a decline”."
+  },
+  "migrated": ""
  }
 }

@@ -64,7 +64,7 @@
   },
   "changed": {
    "lead": "The 1-carat rose.",
-   "text": "Rapaport's asking-price index for 1-carat rounds gained 0.5% in August, its first increase since May 2025, after a flat July. Every size below one carat rose more. The 3-carat, unmoved for a year and a half, fell."
+   "text": "Rapaport's asking-price index for 1-carat rounds gained 0.5% in August, its first increase in 15 months, after a flat July. Every size below one carat rose more. The 3-carat, unmoved for 18 months, fell."
   },
   "means": [
    {
@@ -77,7 +77,7 @@
    },
    {
     "who": "What this is not:",
-    "text": "a demand recovery. The rise came from supply cuts, and September's fairs are where it gets tested."
+    "text": "a demand recovery. Supply cuts made this rise, and September's fairs will test it."
    }
   ],
   "visual": {
@@ -130,7 +130,7 @@
      },
      {
       "lead": "Geography helped.",
-      "text": "Indian manufacturers shipped to the United States once July's confirmation of a <a href=\"a-zero-for-antwerp.html\">10% US tariff on Indian goods</a> removed months of uncertainty, and business at the Mumbai show, <abbr class=\"t\" title=\"India International Jewellery Show, Mumbai\">IIJS</abbr>, was brisk. Antwerp and Israel were seasonally quiet. Chinese buyers stayed slow ahead of the Hong Kong fair in September."
+      "text": "Indian manufacturers shipped to the United States once July's confirmation of a <a href=\"a-zero-for-antwerp.html\">10% US tariff on Indian goods</a> removed months of uncertainty. Business at the Mumbai show, <abbr class=\"t\" title=\"India International Jewellery Show, Mumbai\">IIJS</abbr>, was brisk. Antwerp and Israel were seasonally quiet. Chinese buyers stayed slow ahead of the Hong Kong fair in September."
      }
     ]
    },
@@ -139,11 +139,11 @@
     "p": [
      {
       "lead": "It slipped 0.4%",
-      "text": "after what Rapaport calls a year and a half of steadiness. That ends the condition <a href=\"a-the-one-carat-stops-falling.html\">this desk reported on 4 August</a>: July was the first month since March 2025 in which none of the four headline sizes fell. It lasted one month."
+      "text": "after what Rapaport calls a year and a half of steadiness. That ends the condition <a href=\"a-the-one-carat-stops-falling.html\">Carat Capital reported on 4 August</a>. July was the first month since March 2025 in which none of the four headline sizes fell. It lasted one month."
      },
      {
       "lead": "Small goods carry it.",
-      "text": "Over July and August together the 0.50-carat is up 4.35% and the 0.30-carat 3.63%, on this desk's compounding of Rapaport's monthly figures. The spread between the best and worst size is 4.55 points."
+      "text": "Over July and August together the 0.50-carat is up 4.35% and the 0.30-carat 3.63%, on Carat Capital's compounding of Rapaport's monthly figures. The spread between the best and worst size is 4.55 points."
      }
     ]
    },
@@ -228,7 +228,7 @@
    "slug": "the-one-carat-stops-falling",
    "why": "The July reading that set up today's. Read it to see what “a floor” would look like against “the end of a decline”."
   },
-  "migrated": "2026-09-03",
+  "migrated": "",
   "v2": {
    "strip": {
     "cap": "By the numbers - RAPI, August 2026, monthly change by size",
