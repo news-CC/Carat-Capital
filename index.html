@@ -1077,7 +1077,7 @@ footer{border-top:1px solid var(--line);padding:56px 0 76px;margin-top:clamp(50p
     </div>
 
     <div class="bfoot">
-      <span id="benchfoot">Derived from gold spot 4,426.80, 3 Sep 2026 - Kitco, re-read by the Editor at press time and written back to the tape under the One-Price Rule. A metals story runs today, so all four were re-read off the board (its own timestamp 05:59 EST) and all four had moved off the 05:00 mark: gold $4,426.80 (up $39.80, 0.9072%), silver $65.58 (up $0.37, 0.5674%), platinum $1,762.00 (up $6.00, 0.3417%) and palladium $1,348.00 (up $13.00, 0.9738%), each against the prior close Kitco's own board implies, so value, prev and change stay one self-consistent series. All four figures are Kitco bids, the convention this tape uses for every metal. Second page: CNBC's quote service at 06:02 ET returned $4,426.78, $65.6287, $1,766.28 and $1,364.96, gaps of 0.0230%, 0.1161%, 0.0407% and 0.2222% against Kitco's midpoints, every one inside the agreement band, so no outside-source divergence is disclosed this session. Comparisons are midpoint against last price, like for like, because palladium's bid and ask are $40.00 apart. NAT1 and LGD1 on the chips below are rendered from prices.json and lab-prices.json by the build and are not this tape's marks. &middot; specimen &mdash; verify before you quote</span>
+      <span id="benchfoot">Derived from gold spot 4,426.80 &middot; 3 Sep 2026 - Kitco</span>
       <a href="almanac" data-loupe="The tape">Full tape &amp; tables <span>&rarr;</span></a>
     </div>
   </div>
@@ -1332,7 +1332,7 @@ function paintChips(){
   const bc=document.getElementById('benchcap');
   if(bc) bc.innerHTML=`${m.name} at the bench &mdash; derived from spot ${m.txt}`;
   const ft=document.getElementById('benchfoot');
-  if(ft) ft.innerHTML=`Derived from ${m.name.toLowerCase()} spot ${m.txt}, 3 Sep 2026 - Kitco, re-read by the Editor at press time and written back to the tape under the One-Price Rule. A metals story runs today, so all four were re-read off the board (its own timestamp 05:59 EST) and all four had moved off the 05:00 mark: gold $4,426.80 (up $39.80, 0.9072%), silver $65.58 (up $0.37, 0.5674%), platinum $1,762.00 (up $6.00, 0.3417%) and palladium $1,348.00 (up $13.00, 0.9738%), each against the prior close Kitco's own board implies, so value, prev and change stay one self-consistent series. All four figures are Kitco bids, the convention this tape uses for every metal. Second page: CNBC's quote service at 06:02 ET returned $4,426.78, $65.6287, $1,766.28 and $1,364.96, gaps of 0.0230%, 0.1161%, 0.0407% and 0.2222% against Kitco's midpoints, every one inside the agreement band, so no outside-source divergence is disclosed this session. Comparisons are midpoint against last price, like for like, because palladium's bid and ask are $40.00 apart. NAT1 and LGD1 on the chips below are rendered from prices.json and lab-prices.json by the build and are not this tape's marks. &middot; specimen &mdash; verify before you quote`;
+  if(ft) ft.innerHTML=`Derived from ${m.name.toLowerCase()} spot ${m.txt} &middot; 3 Sep 2026 - Kitco`;
 }
 function bench(){
   const g=grams(), m=M(), [nm,pur]=m.pur[kIdx], pg=perGram();

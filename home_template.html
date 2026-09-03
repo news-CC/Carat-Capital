@@ -1077,7 +1077,7 @@ footer{border-top:1px solid var(--line);padding:56px 0 76px;margin-top:clamp(50p
     </div>
 
     <div class="bfoot">
-      <span id="benchfoot">Derived from gold spot __SPOT_TXT__, __ASOF__ &middot; specimen &mdash; verify before you quote</span>
+      <span id="benchfoot">Derived from gold spot __SPOT_TXT__ &middot; __ASOF_SHORT__</span>
       <a href="almanac" data-loupe="The tape">Full tape &amp; tables <span>&rarr;</span></a>
     </div>
   </div>
@@ -1329,7 +1329,7 @@ function paintChips(){
   const bc=document.getElementById('benchcap');
   if(bc) bc.innerHTML=`${m.name} at the bench &mdash; derived from spot ${m.txt}`;
   const ft=document.getElementById('benchfoot');
-  if(ft) ft.innerHTML=`Derived from ${m.name.toLowerCase()} spot ${m.txt}, __ASOF__ &middot; specimen &mdash; verify before you quote`;
+  if(ft) ft.innerHTML=`Derived from ${m.name.toLowerCase()} spot ${m.txt} &middot; __ASOF_SHORT__`;
 }
 function bench(){
   const g=grams(), m=M(), [nm,pur]=m.pur[kIdx], pg=perGram();

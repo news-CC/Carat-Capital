@@ -2901,6 +2901,11 @@ def index_page():
     spot = _num(xau["px"]) if xau else 4341.30
     spot_txt = (xau or {}).get("px", "4,341.30")
     asof = WIRE.get("tape_ts") or WIRE.get("date_line") or ""
+    # The Bench carries a stamp, not the Editor's whole audit note: keep the
+    # date and the source, drop the prose that follows the first clause.
+    asof_short = _re.split(r"[,.;]| \u00b7 ", asof.strip(), 1)[0].strip() if asof else ""
+    if len(asof_short) > 44:
+        asof_short = asof_short[:44].rstrip()
     dateline = WIRE.get("date_line", "")
     edition = WIRE.get("edition", "")
     ed_short = edition.split("—")[-1].strip() if "—" in edition else edition
@@ -3072,7 +3077,8 @@ def index_page():
       "__PX_ASOF__": (("The Carat indices · computed %s · exchange closes" % IDX["as_of"]) if IDX
                       else "Metals " + (" · ".join((asof or "").split(" · ")[:2]) or dateline)),
       "__ALSO_HOOK__": _hook, "__ALSO_LINE__": _hook[:1].lower() + _hook[1:],
-      "__ASOF__": asof, "__DATELINE__": dateline, "__EDITION__": edition,
+      "__ASOF__": asof, "__ASOF_SHORT__": asof_short,
+      "__DATELINE__": dateline, "__EDITION__": edition,
       "__EDITION_SHORT__": ed_short, "__DATE_SHORT__": _short_date(dateline),
       "__LEAD_KICKER__": (LEAD or {}).get("kicker","Lead story"),
       "__LEAD_TITLE__": (LEAD or {}).get("title",""),
