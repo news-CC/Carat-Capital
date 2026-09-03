@@ -35042,7 +35042,7 @@
    "lead": {
     "slug": "thirteen-eighty-one-after-nine-sessions",
     "tag": "Gold & Metals",
-    "blurb": "A nine-session hold on palladium ended when the divergence turned out to be a bid-ask spread."
+    "blurb": "A seven-entry hold on palladium ended when the divergence turned out to be a bid-ask spread."
    },
    "minis": [
     {
@@ -35240,8 +35240,8 @@
      "lab": "widest disagreement in an hour's move"
     },
     {
-     "fig": "9",
-     "lab": "sessions the mark was held"
+     "fig": "7",
+     "lab": "tape entries the mark was held, two a weekend"
     }
    ]
   },
@@ -35289,6 +35289,9 @@
      "t": "Chow Tai Fook's counter fell a fourth session while platinum rose 3.69%",
      "href": "a-thirteen-eighty-seven-at-the-counter.html"
     }
+   },
+   {
+    "p": 5
    }
   ],
   "desk": {
@@ -38023,6 +38026,9 @@
      "t": "Two CEOs and a president: Kering rewires Pomellato and DoDo",
      "href": "a-two-ceos-and-a-president-at-kering.html"
     }
+   },
+   {
+    "p": 4
    }
   ],
   "desk": {
@@ -38400,6 +38406,384 @@
     ],
     "note": "Three US addresses in three years, all in corridors where the rent is a marketing line as much as a cost line.",
     "cap": "Company announcements and trade-press reporting, August and September 2026. Carat Capital graphics desk. &nbsp;CC/2026/052"
+   }
+  ]
+ },
+ "half-a-percent-after-fifteen-months": {
+  "strip": {
+   "cap": "By the numbers - RAPI, August 2026, monthly change by size",
+   "cells": [
+    {
+     "fig": "+0.5%",
+     "delta": "▲ 1-carat",
+     "dir": "up",
+     "lab": "first rise in fifteen months"
+    },
+    {
+     "fig": "+2.5%",
+     "lab": "0.50-carat, the month's best"
+    },
+    {
+     "fig": "+2.0%",
+     "lab": "0.30-carat"
+    },
+    {
+     "fig": "−0.4%",
+     "lab": "3-carat, after eighteen months steady"
+    },
+    {
+     "fig": "4.55pp",
+     "lab": "two-month spread, best size to worst"
+    }
+   ]
+  },
+  "flow": [
+   {
+    "sub": "Asking prices, not settled trades.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "sub": "The size that turned the other way.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "fig": 0
+   },
+   {
+    "pull": {
+     "q": "The three-carat had been steady eighteen months. In August it slipped.",
+     "attr": "The Diamond Desk"
+    }
+   },
+   {
+    "sub": "Supply cuts, not buyers arriving.",
+    "n": "§3"
+   },
+   {
+    "p": 2,
+    "split": "One further reason is given"
+   },
+   {
+    "sub": "What the release does not repair.",
+    "n": "§4"
+   },
+   {
+    "p": 3,
+    "split": "Our own tape carries the RAPI"
+   },
+   {
+    "also": {
+     "t": "IIGJ and IIT Madras split 90 hours, and 60 of them are physics",
+     "href": "a-sixty-of-the-ninety-hours.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "A jeweller restocking for the holidays"
+  },
+  "next": {
+   "lead": {
+    "slug": "one-nineteen-thirty-back-on-gold",
+    "tag": "Gold & Metals",
+    "blurb": "Four metals higher at 05:59 ET and gold's first up mark since 28 August."
+   },
+   "minis": [
+    {
+     "slug": "sixty-of-the-ninety-hours",
+     "tag": "Diamonds"
+    },
+    {
+     "slug": "two-ninety-seven-off-gold",
+     "tag": "Gold & Metals"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "RAPI, monthly change by size, August 2026",
+    "rows": [
+     {
+      "l": "0.50-CARAT",
+      "v": 25,
+      "d": "+2.5%"
+     },
+     {
+      "l": "0.30-CARAT",
+      "v": 20,
+      "d": "+2.0%"
+     },
+     {
+      "l": "1-CARAT",
+      "v": 5,
+      "d": "+0.5%",
+      "hi": true
+     },
+     {
+      "l": "3-CARAT",
+      "v": 4,
+      "d": "−0.4%"
+     }
+    ],
+    "note": "Bars are magnitudes. The 3-carat figure is a fall; the other three are gains",
+    "cap": "Rapaport, published 2 September 2026. Carat Capital graphics desk. &nbsp;CC/2026/053"
+   }
+  ]
+ },
+ "one-nineteen-thirty-back-on-gold": {
+  "strip": {
+   "cap": "By the numbers - Kitco bid, press-time re-read 05:59 ET",
+   "cells": [
+    {
+     "fig": "$4,426.80",
+     "delta": "▲ +2.77%",
+     "dir": "up",
+     "lab": "gold, on yesterday's mark of record"
+    },
+    {
+     "fig": "$65.58",
+     "delta": "▲ +3.18%",
+     "dir": "up",
+     "lab": "silver"
+    },
+    {
+     "fig": "$1,762.00",
+     "delta": "▲ +2.86%",
+     "dir": "up",
+     "lab": "platinum"
+    },
+    {
+     "fig": "$1,348.00",
+     "delta": "▲ +4.82%",
+     "dir": "up",
+     "lab": "palladium, the day's largest"
+    },
+    {
+     "fig": "40.17%",
+     "lab": "of the $297.00 fall recovered"
+    }
+   ]
+  },
+  "flow": [
+   {
+    "sub": "All four re-read, all four written back.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "sub": "Four lower marks across five entries.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "fig": 0
+   },
+   {
+    "pull": {
+     "q": "Palladium's bid and ask are forty dollars apart. It moved thirteen.",
+     "attr": "The Metals Desk"
+    }
+   },
+   {
+    "sub": "The second page agrees, midpoint to last.",
+    "n": "§3"
+   },
+   {
+    "p": 2
+   },
+   {
+    "sub": "A spread three times the day's move.",
+    "n": "§4"
+   },
+   {
+    "p": 3,
+    "split": "A correction printed elsewhere"
+   },
+   {
+    "also": {
+     "t": "0.5% on the one-carat: the first rise in fifteen months",
+     "href": "a-half-a-percent-after-fifteen-months.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "A retailer repricing off the board"
+  },
+  "next": {
+   "lead": {
+    "slug": "half-a-percent-after-fifteen-months",
+    "tag": "Diamonds",
+    "blurb": "The one-carat polished index rose 0.5% in August, its first gain in fifteen months."
+   },
+   "minis": [
+    {
+     "slug": "sixty-of-the-ninety-hours",
+     "tag": "Diamonds"
+    },
+    {
+     "slug": "thirteen-eighty-one-after-nine-sessions",
+     "tag": "Gold & Metals"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Change on yesterday's mark of record, %",
+    "rows": [
+     {
+      "l": "PALLADIUM",
+      "v": 48,
+      "d": "+4.82%",
+      "hi": true
+     },
+     {
+      "l": "SILVER",
+      "v": 32,
+      "d": "+3.18%"
+     },
+     {
+      "l": "PLATINUM",
+      "v": 29,
+      "d": "+2.86%"
+     },
+     {
+      "l": "GOLD",
+      "v": 28,
+      "d": "+2.77%"
+     }
+    ],
+    "note": "Measured against this paper's own 2 September marks, not against a session close",
+    "cap": "Kitco bid, board timestamp 05:59 EST 3 September 2026. Carat Capital graphics desk. &nbsp;CC/2026/053"
+   }
+  ]
+ },
+ "sixty-of-the-ninety-hours": {
+  "strip": {
+   "cap": "By the numbers - Certificate in Lab-Grown Diamond Technology",
+   "cells": [
+    {
+     "fig": "90 hrs",
+     "lab": "total programme, hybrid"
+    },
+    {
+     "fig": "60 hrs",
+     "lab": "delivered by IIT Madras"
+    },
+    {
+     "fig": "30 hrs",
+     "lab": "delivered by IIGJ, all online"
+    },
+    {
+     "fig": "12 hrs",
+     "lab": "on campus, 13.33% of the course"
+    },
+    {
+     "fig": "$676",
+     "lab": "one-carat lab-grown reference, this tape"
+    }
+   ]
+  },
+  "flow": [
+   {
+    "sub": "A single-source announcement, primary party.",
+    "n": "§1"
+   },
+   {
+    "p": 0
+   },
+   {
+    "sub": "Two thirds physics, one third trade.",
+    "n": "§2"
+   },
+   {
+    "p": 1
+   },
+   {
+    "fig": 0
+   },
+   {
+    "pull": {
+     "q": "Sixty of the ninety hours are physics. Thirty are the trade.",
+     "attr": "The Diamond Desk"
+    }
+   },
+   {
+    "sub": "What the announcement does not say.",
+    "n": "§3"
+   },
+   {
+    "p": 2
+   },
+   {
+    "sub": "The press in August, the people in September.",
+    "n": "§4"
+   },
+   {
+    "p": 3,
+    "split": "The price backdrop is less comfortable"
+   },
+   {
+    "also": {
+     "t": "0.5% on the one-carat: the first rise in fifteen months",
+     "href": "a-half-a-percent-after-fifteen-months.html"
+    }
+   }
+  ],
+  "desk": {
+   "split": "A jeweller reading this from the retail side"
+  },
+  "next": {
+   "lead": {
+    "slug": "half-a-percent-after-fifteen-months",
+    "tag": "Diamonds",
+    "blurb": "RAPI's one-carat index rose 0.5% in August while the three-carat slipped 0.4%."
+   },
+   "minis": [
+    {
+     "slug": "one-nineteen-thirty-back-on-gold",
+     "tag": "Gold & Metals"
+    },
+    {
+     "slug": "five-ninety-four-from-china",
+     "tag": "Diamonds"
+    }
+   ]
+  },
+  "figs": [
+   {
+    "no": "Plate I",
+    "title": "Where the ninety hours sit",
+    "rows": [
+     {
+      "l": "IIT MADRAS, ONLINE",
+      "v": 48,
+      "d": "48 hrs"
+     },
+     {
+      "l": "IIGJ, ONLINE",
+      "v": 30,
+      "d": "30 hrs"
+     },
+     {
+      "l": "IIT MADRAS, CAMPUS",
+      "v": 12,
+      "d": "12 hrs",
+      "hi": true
+     }
+    ],
+    "note": "Only the highlighted block is taught in person. 30 plus 48 plus 12 is 90",
+    "cap": "Solitaire, GJEPC, 2 September 2026. Carat Capital graphics desk. &nbsp;CC/2026/053"
    }
   ]
  }
