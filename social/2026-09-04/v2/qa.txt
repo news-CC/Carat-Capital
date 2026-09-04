@@ -1,0 +1,5 @@
+theme: emerald-platinum
+POST 1 movados-profit-jumped-sales-didnt: 6 slides, words/slide [21, 19, 21, 29, 28, 14] (total 132), largest 179,258 bytes
+   word law: clean
+POST 2 palladium-fell-eight-times-faster: 4 slides, words/slide [18, 33, 18, 15] (total 84), largest 182,005 bytes
+   word law: clean
