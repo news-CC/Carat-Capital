@@ -13104,7 +13104,7 @@
      },
      {
       "lead": "",
-      "text": "No parcel of 1.10 carats of small pear and brilliant cut goods approaches that figure anywhere in the trade, so nearly the whole price is the name and the countess, in a proportion this desk cannot split from a single result."
+      "text": "Guru Diam's published wholesale table for natural melee, dated August 2026, runs from $370 to $900 a carat across every size and grade it lists. The brooch's rate is 32.7 times the top of that table, so nearly the whole price is the name and the countess, in a proportion this desk cannot split from a single result."
      },
      {
       "lead": "",
@@ -13146,9 +13146,15 @@
     {
      "title": "Thirteen thousand for costume - Carat Capital (8 August 2026)",
      "url": "https://caratcapital.org/a-thirteen-thousand-for-costume.html"
+    },
+    {
+     "title": "Natural Melee Diamond Pricing: What Drives Cost Per Carat - Guru Diam, pricing table dated August 2026",
+     "url": "https://www.gurudiam.com/blog/natural-melee-diamond-pricing-guide"
     }
    ],
-   "corrections": []
+   "corrections": [
+    "Correction, 4 September 2026: an earlier version of this article said that no parcel of 1.10 carats of small pear and brilliant cut goods approaches $29,455 a carat anywhere in the trade. The sentence disclosed no check at all, and it is narrowed here to wholesale pricing this paper has now read: Guru Diam's published table for natural melee, dated August 2026, runs $370 to $900 a carat across every size and grade listed, which puts the brooch at 32.7 times that ceiling. This paper's standards desk searched the open market independently on 3 September and found no counter-example, so the claim was very likely true; the fault was that it asserted a scope it had not checked. Every figure in the piece, including the $29,455 a carat, was correct as published."
+   ]
   },
   "next": {
    "slug": "one-eighty-percent-on-the-sapphires",
@@ -13213,7 +13219,7 @@
     },
     {
      "p": 3,
-     "split": "No parcel of 1.10 carats"
+     "split": "Guru Diam's published wholesale table"
     },
     {
      "also": {
@@ -13273,7 +13279,8 @@
      "cap": "Four lots named in the sale report, ranked by hammer price. The royal brooch that led the coverage sold for less than a third of the top lot. Carat Capital graphics desk. &nbsp;CC/2026/045"
     }
    ]
-  }
+  },
+  "modified": "2026-09-04"
  },
  "kagem-comes-to-jaipur": {
   "v": 3,
@@ -104299,5 +104306,864 @@
     ]
    }
   }
+ },
+ "twenty-one-nine-million-at-movado": {
+  "v": 3,
+  "seo_title": "Movado H1 operating income rises 409% to $21.9 million",
+  "figures": {
+   "asof": "Movado Group Form 10-Q, six months to 31 July 2026 · filed 26 August 2026",
+   "cells": [
+    {
+     "n": "+409%",
+     "dir": "up",
+     "label": "Operating income",
+     "q": "to $21.9m from $4.3m"
+    },
+    {
+     "n": "58.4%",
+     "dir": "up",
+     "label": "Gross margin",
+     "q": "against 54.1% a year earlier"
+    },
+    {
+     "n": "$312.2m",
+     "dir": "up",
+     "label": "Net sales",
+     "q": "up 6.3% on the half"
+    },
+    {
+     "n": "$0.84",
+     "dir": "up",
+     "label": "Diluted EPS",
+     "q": "against $0.20 a year earlier"
+    }
+   ]
+  },
+  "hero": {
+   "n": "+409%",
+   "dir": "up",
+   "what": "Operating income, six months to 31 July 2026",
+   "since": "From $4.3 million to $21.9 million",
+   "bars_cap": "Six months to 31 July · $ millions",
+   "bars": [
+    {
+     "l": "Gross profit, 2026",
+     "v": 182.418,
+     "d": "$182.4m"
+    },
+    {
+     "l": "Gross profit, 2025",
+     "v": 158.915,
+     "d": "$158.9m"
+    },
+    {
+     "l": "Operating income, 2026",
+     "v": 21.893,
+     "d": "$21.9m",
+     "hi": true
+    },
+    {
+     "l": "Operating income, 2025",
+     "v": 4.298,
+     "d": "$4.3m"
+    }
+   ],
+   "src": "Movado Group Form 10-Q · filed 26 Aug 2026",
+   "spec": "Consolidated, unaudited"
+  },
+  "changed": {
+   "lead": "Operating income more than quintupled.",
+   "text": "Operating income for the six months to 31 July was $21.9 million against $4.3 million a year earlier. Net sales rose 6.3%."
+  },
+  "means": [
+   {
+    "who": "If you sell licensed watch brands:",
+    "text": "the margin came from mix, not volume. Sales rose 6.3% while gross profit rose 14.8%."
+   },
+   {
+    "who": "If you price against Movado:",
+    "text": "58.4% is the new comparison. Last year's 54.1% is 4.3 points behind."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a demand story. Net sales rose 6.3%. The profit swing is mostly margin."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · Movado Group, six months to 31 July",
+   "asof": "Consolidated, unaudited · $ millions",
+   "cols": [
+    "Measure",
+    "2026",
+    "2025",
+    "Change"
+   ],
+   "rows": [
+    [
+     "Net sales",
+     "$312.2m",
+     "$293.6m",
+     "+6.3%"
+    ],
+    [
+     "Gross profit",
+     "$182.4m",
+     "$158.9m",
+     "+14.8%"
+    ],
+    [
+     "Gross margin",
+     "58.4%",
+     "54.1%",
+     "+4.3pp"
+    ],
+    [
+     "Operating income",
+     "$21.9m",
+     "$4.3m",
+     "+409%"
+    ],
+    [
+     "Net income",
+     "$19.2m",
+     "$4.4m",
+     "+336%"
+    ],
+    [
+     "Diluted EPS",
+     "$0.84",
+     "$0.20",
+     "+320%"
+    ]
+   ],
+   "hi": 3,
+   "note": "<b>Source</b> Movado Group Form 10-Q, filed 26 August 2026. <b>Every percentage</b> is Carat Capital's division of the dollar figures in that filing.",
+   "plate": "CC/2026/054"
+  },
+  "sections": [
+   {
+    "h": "Margin did most of the work",
+    "p": [
+     {
+      "lead": "Gross margin expanded.",
+      "text": "Gross profit rose 14.8% on net sales up 6.3%. That gap is the whole shape of the half."
+     },
+     {
+      "lead": "The level matters.",
+      "text": "Margin reached 58.4% of net sales against 54.1% a year earlier, a gain of 4.3 points."
+     }
+    ]
+   },
+   {
+    "h": "The base was low",
+    "p": [
+     {
+      "lead": "Last year was weak.",
+      "text": "The prior half earned $4.3 million of operating income on $293.6 million of net sales. That is an operating margin of 1.5%."
+     },
+     {
+      "lead": "This year is different.",
+      "text": "The current half earned $21.9 million on $312.2 million, an operating margin of 7.0%."
+     }
+    ]
+   },
+   {
+    "h": "Costs rose with the profit",
+    "p": [
+     {
+      "lead": "Operating expenses grew.",
+      "text": "Gross profit gained $23.5 million while operating income gained $17.6 million. The difference, $5.9 million, went to operating costs."
+     },
+     {
+      "lead": "Earnings followed.",
+      "text": "Net income attributable to Movado Group reached $19.2 million against $4.4 million a year earlier."
+     },
+     {
+      "lead": "Per share, too.",
+      "text": "Diluted earnings were $0.84 a share against $0.20 a year earlier."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "9 Sep",
+    "what": "Signet Jewelers reports its second quarter. The same American consumer, read from the retail side."
+   },
+   {
+    "when": "17 Sep",
+    "what": "Swiss watch exports for August, from the Federation of the Swiss Watch Industry."
+   },
+   {
+    "when": "Late Nov",
+    "what": "Movado's third-quarter filing. Whether 58.4% survives the holiday quarter."
+   }
+  ],
+  "depth": {
+   "reverse": "A third quarter in which gross margin falls back toward 54% while net sales keep rising. That would make this half a pricing and mix window rather than a durable margin level, and the comparison advice above would be withdrawn.",
+   "built": {
+    "title": "How the margin is read",
+    "text": "Gross margin here is gross profit divided by net sales, both taken from the same consolidated statement of operations in Movado Group's Form 10-Q. It is not adjusted and it takes no account of operating expenses. Operating margin is operating income over net sales on the same basis."
+   },
+   "method": "Every percentage in this article is Carat Capital's own division of figures printed in Movado Group's Form 10-Q for the six months to 31 July 2026, which states them in thousands of dollars. Operating income: 21,893 divided by 4,298 is 5.094, so +409%. Gross margin: 182,418 divided by 312,154 is 58.44%, against 158,915 divided by 293,598 at 54.13%, a gain of 4.31 points. Net sales: +6.32%. Gross profit: +14.79%. Net income: +336.4%. Of the $23.5 million gross-profit gain, $13.2 million is margin, being the difference between this half's gross profit and what last year's 54.13% would have produced on this year's sales, and $5.3 million is the extra volume. The archive check follows the period test: Carat Capital's 27 August piece covers the quarter to 31 July alone, net sales $169.8 million; this filing covers the six months that contain it. Same company, different period, so the story is advanced rather than repeated.",
+   "prior": [
+    {
+     "date": "27 Aug 2026",
+     "slug": "the-same-figure-the-other-way",
+     "title": "Movado's sales rose 4.9%, the exact figure by which Fossil's fell",
+     "claim": "The quarter alone: net sales $169.8 million, net income $12.3 million."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Movado Group, Inc. Form 10-Q for the quarterly period ended 31 July 2026 - SEC EDGAR, filed 26 August 2026",
+     "url": "https://www.sec.gov/Archives/edgar/data/72573/000119312526366101/mov-20260731.htm"
+    }
+   ],
+   "corrections": []
+  },
+  "next": {
+   "slug": "seventeen-weeks-into-the-year",
+   "why": "The other watch retailer filing this week, and the one that sells what Movado makes."
+  },
+  "migrated": ""
+ },
+ "seventeen-weeks-into-the-year": {
+  "v": 3,
+  "seo_title": "Watches of Switzerland holds 5-10% FY27 guidance",
+  "figures": {
+   "asof": "Watches of Switzerland Group AGM trading update · RNS, 3 September 2026",
+   "cells": [
+    {
+     "n": "5-10%",
+     "dir": "",
+     "label": "FY27 revenue growth",
+     "q": "guided, constant currency"
+    },
+    {
+     "n": "+40-80bp",
+     "dir": "up",
+     "label": "Adjusted EBIT margin",
+     "q": "expansion guided from FY26"
+    },
+    {
+     "n": "17 weeks",
+     "dir": "",
+     "label": "Period reported",
+     "q": "to 30 August 2026"
+    },
+    {
+     "n": "£60-70m",
+     "dir": "",
+     "label": "Capital expenditure",
+     "q": "guided for the full year"
+    },
+    {
+     "n": "~70%",
+     "dir": "",
+     "label": "Cash conversion",
+     "q": "free cash flow, guided"
+    }
+   ]
+  },
+  "hero": {
+   "n": "5-10%",
+   "dir": "",
+   "what": "FY27 revenue growth, guided at constant currency",
+   "since": "Reiterated 17 weeks into the financial year",
+   "bars_cap": "Guidance ranges · low and high bound",
+   "bars": [
+    {
+     "l": "Revenue growth, low",
+     "v": 5,
+     "d": "5%"
+    },
+    {
+     "l": "Revenue growth, high",
+     "v": 10,
+     "d": "10%",
+     "hi": true
+    }
+   ],
+   "src": "WOSG AGM trading update · RNS, 3 Sep 2026",
+   "spec": "Organic, pre-IFRS 16"
+  },
+  "changed": {
+   "lead": "The guidance did not move.",
+   "text": "Watches of Switzerland Group reiterated 5% to 10% revenue growth at constant currency for the full year. It also held its guidance of 40 to 80 basis points of margin expansion."
+  },
+  "means": [
+   {
+    "who": "If you supply the group:",
+    "text": "the showroom pipeline is the order book. Four openings are named before Christmas and two refurbishments are already done."
+   },
+   {
+    "who": "If you track American luxury watch demand:",
+    "text": "the group calls US trading strong and UK improving. No segment numbers were given."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a results release. Guidance reiterated is a range held, not a figure delivered."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · What Watches of Switzerland reiterated",
+   "asof": "Organic, pre-IFRS 16",
+   "cols": [
+    "FY27 guidance",
+    "Range",
+    "Basis"
+   ],
+   "rows": [
+    [
+     "Revenue growth",
+     "5% to 10%",
+     "Constant currency, organic"
+    ],
+    [
+     "Adjusted EBIT margin",
+     "+40 to 80bp",
+     "Expansion from FY26"
+    ],
+    [
+     "Capital expenditure",
+     "£60m to £70m",
+     "Full year"
+    ],
+    [
+     "Free cash flow conversion",
+     "About 70%",
+     "Full year"
+    ],
+    [
+     "Trading period reported",
+     "17 weeks",
+     "To 30 August 2026"
+    ]
+   ],
+   "hi": 1,
+   "note": "<b>Source</b> Watches of Switzerland Group AGM trading update, RNS, 3 September 2026. <b>Every range</b> is the company's own, as reiterated.",
+   "plate": "CC/2026/054"
+  },
+  "sections": [
+   {
+    "h": "US strong, UK still improving",
+    "p": [
+     {
+      "lead": "Two markets named.",
+      "text": "Trading in the United States remained strong through the 17 weeks to 30 August. The United Kingdom showed further signs of market improvement."
+     },
+     {
+      "lead": "No segment split.",
+      "text": "The update gives no revenue figure for either region and no group revenue figure for the period. It gives the guidance ranges and the trading commentary."
+     }
+    ]
+   },
+   {
+    "h": "The showrooms are the plan",
+    "p": [
+     {
+      "lead": "Four openings before Christmas.",
+      "text": "Rolex Glasgow, Betteridge in Greenwich, Connecticut, and Watches of Switzerland and Mayors showrooms in Marlton, New Jersey are named for the period before Christmas."
+     },
+     {
+      "lead": "Two refurbishments are done.",
+      "text": "Goldsmiths Chelmsford and Goldsmiths Watford have reopened after refurbishment. A multi-brand showroom opened in Avalon, Georgia in July. The Mayors site there is converting to luxury jewellery."
+     }
+    ]
+   },
+   {
+    "h": "Guidance held is the news",
+    "p": [
+     {
+      "lead": "Reiterated, not raised.",
+      "text": "The same 5% to 10% range <a href=\"a-wos-majority-american.html\">ran with the group's full-year results in July</a>. Holding it 17 weeks in is the information at an annual meeting."
+     },
+     {
+      "lead": "Cash is guided too.",
+      "text": "Capital expenditure of £60 million to £70 million and free cash flow conversion near 70% sit alongside the revenue and margin ranges."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "9 Sep",
+    "what": "Signet Jewelers' second quarter. A second read on the same American jewellery consumer."
+   },
+   {
+    "when": "17 Sep",
+    "what": "Swiss watch exports for August. Whether supply matches this retailer's tone."
+   },
+   {
+    "when": "Before Christmas",
+    "what": "Rolex Glasgow and the two Marlton showrooms. The pipeline either opens or slips."
+   }
+  ],
+  "depth": {
+   "reverse": "A half-year statement in which revenue growth lands below 5% at constant currency, or adjusted EBIT margin fails to expand at all. Either would make this reiteration a range the group could not hold, and the pipeline reading above would be withdrawn.",
+   "built": {
+    "title": "How the guidance is framed",
+    "text": "The revenue range is organic growth at constant currency, which strips out acquisitions and currency movement. The margin range is adjusted EBIT expansion in basis points from the prior financial year, stated pre-IFRS 16, so lease accounting does not move it. One basis point is one hundredth of a percentage point."
+   },
+   "method": "No arithmetic was performed on this update. Every figure is the company's own, as printed in its AGM trading update released through the Regulatory News Service on 3 September 2026 and fetched directly by Carat Capital. The 17-week period running to 30 August 2026 is the company's own statement of what it reported on. The archive check follows the period test: this paper's July coverage reports the results for the financial year ended 3 May 2026, where the 5% to 10% range was first given; this update reports a trading period inside the following year. Same company, different period, so the story is advanced rather than repeated. The guidance figures themselves are not new, and that is the point of the item.",
+   "prior": [
+    {
+     "date": "21 Jul 2026",
+     "slug": "wos-133-million-answer",
+     "title": "£133 million, up 76%: Watches of Switzerland answers its doubters",
+     "claim": "FY26 statutory pre-tax profit rose 76% to £133 million."
+    },
+    {
+     "date": "15 Jul 2026",
+     "slug": "wos-majority-american",
+     "title": "Half the company is America now: Watches of Switzerland's year",
+     "claim": "FY26 revenue £2.44bn; America passed half of group revenue. The 5-10% range starts here."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Watches of Switzerland Group PLC - AGM Trading Update, RNS, 3 September 2026",
+     "url": "https://www.investegate.co.uk/announcement/rns/watches-of-switzerland-group--wosg/agm-trading-update/9752837"
+    }
+   ],
+   "corrections": []
+  },
+  "next": {
+   "slug": "twenty-one-nine-million-at-movado",
+   "why": "The maker's half against the retailer's 17 weeks, filed the same morning."
+  },
+  "migrated": ""
+ },
+ "thirty-nine-percent-at-christies": {
+  "v": 3,
+  "seo_title": "Christie's watch sales rise 39% in the first half",
+  "figures": {
+   "asof": "Christie's own figures, first half and May 2026 · release dated 3 September 2026",
+   "cells": [
+    {
+     "n": "+39%",
+     "dir": "up",
+     "label": "Worldwide watch sales",
+     "q": "first half, year on year"
+    },
+    {
+     "n": "$42.2m",
+     "dir": "up",
+     "label": "Geneva, May 2026",
+     "q": "house's highest various-owner sale"
+    },
+    {
+     "n": "$35.7m",
+     "dir": "up",
+     "label": "Hong Kong, May 2026",
+     "q": "up 40% on the year"
+    },
+    {
+     "n": ">$3m",
+     "dir": "up",
+     "label": "Richard Mille RM 56-02",
+     "q": "Christie's New York record"
+    }
+   ]
+  },
+  "hero": {
+   "n": "+39%",
+   "dir": "up",
+   "what": "Christie's worldwide watch sales, first half 2026",
+   "since": "Year on year, the house's own figure",
+   "bars_cap": "May 2026 watch sales · $ millions",
+   "bars": [
+    {
+     "l": "Geneva, rare watches",
+     "v": 42.2,
+     "d": "$42.2m",
+     "hi": true
+    },
+    {
+     "l": "Hong Kong, important watches",
+     "v": 35.7,
+     "d": "$35.7m"
+    }
+   ],
+   "src": "Christie's release · 3 Sep 2026",
+   "spec": "Hammer plus premium, house-reported"
+  },
+  "changed": {
+   "lead": "Christie's watch sales grew.",
+   "text": "Christie's worldwide watch sales rose 39% year on year in the first half of 2026. The house named Remi Guillemin global head of watches, based in Geneva."
+  },
+  "means": [
+   {
+    "who": "If you consign a watch this autumn:",
+    "text": "the Geneva and Hong Kong rooms both set the pace in May. The specialist teams now report to one head."
+   },
+   {
+    "who": "If you price vintage Audemars Piguet:",
+    "text": "a vintage piece passed $2.6 million at Christie's. A Cartier wristwatch passed $2 million."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a market total. These are one house's own figures, in its own release."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · The figures inside the appointment release",
+   "asof": "Christie's own figures, 2026",
+   "cols": [
+    "Sale or measure",
+    "Figure",
+    "What it is"
+   ],
+   "rows": [
+    [
+     "Worldwide watch sales, first half",
+     "+39%",
+     "Year on year, house figure"
+    ],
+    [
+     "Geneva rare watches, May",
+     "$42.2m",
+     "Highest various-owner watch sale, per Christie's"
+    ],
+    [
+     "Hong Kong important watches, May",
+     "$35.7m",
+     "Up 40% year on year"
+    ],
+    [
+     "Richard Mille RM 56-02",
+     "Over $3m",
+     "Highest-priced watch sold by Christie's New York"
+    ],
+    [
+     "Vintage Audemars Piguet",
+     "Over $2.6m",
+     "House record"
+    ],
+    [
+     "Cartier wristwatch",
+     "Over $2m",
+     "House record"
+    ]
+   ],
+   "hi": 0,
+   "note": "<b>Source</b> Christie's release naming Remi Guillemin global head of watches, 3 September 2026, read through Rapaport and Artdaily. <b>Every figure</b> is the house's own and none is independently audited.",
+   "plate": "CC/2026/054"
+  },
+  "sections": [
+   {
+    "h": "One head for two regions",
+    "p": [
+     {
+      "lead": "Guillemin moves up.",
+      "text": "Remi Guillemin becomes global head of watches at Christie's, based in Geneva. He was head of watches for the Americas and for Europe, the Middle East and Africa."
+     },
+     {
+      "lead": "He reports to luxury.",
+      "text": "Guillemin reports to Kimberly Miller, Christie's global managing director of luxury. He has spent more than a decade at the house."
+     }
+    ]
+   },
+   {
+    "h": "May carried the first half",
+    "p": [
+     {
+      "lead": "Geneva set the record.",
+      "text": "The Geneva rare watches sale in May made $42.2 million, which Christie's calls the highest various-owner watch auction result in its history."
+     },
+     {
+      "lead": "Hong Kong grew faster.",
+      "text": "Hong Kong's important watches sale in the same month made $35.7 million, up 40% year on year. Worldwide first-half watch sales rose 39%."
+     }
+    ]
+   },
+   {
+    "h": "Two house records in one release",
+    "p": [
+     {
+      "lead": "Records at the top.",
+      "text": "A vintage Audemars Piguet passed $2.6 million and a Cartier wristwatch passed $2 million. Christie's New York sold a Richard Mille RM 56-02 for more than $3 million."
+     },
+     {
+      "lead": "The frame matters.",
+      "text": "These figures reach the trade inside an appointment announcement rather than a results statement. Christie's is privately held and publishes no audited auction accounts."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "14-17 Sep",
+    "what": "Sotheby's Gem Drop, New York. The next dated jewellery total on the calendar."
+   },
+   {
+    "when": "24 Sep",
+    "what": "Morphy Auctions' 357-lot fine jewelry and watch sale, Denver, Pennsylvania."
+   },
+   {
+    "when": "Not yet dated",
+    "what": "Christie's next Geneva watch sale, the first under one global head."
+   }
+  ],
+  "depth": {
+   "reverse": "A second half in which Christie's watch total falls back and May's Geneva result reads as one exceptional sale. That would make 39% a single-season figure rather than a direction, and the consignment reading above would be withdrawn.",
+   "built": {
+    "title": "How these figures are made",
+    "text": "Auction totals here are hammer price plus buyer's premium as the house reports them, for sales it conducted itself. Various-owner means a sale drawn from many consignors rather than from one collection, which is why a various-owner record is a different claim from a single-collection record. Christie's is privately held and its auction figures are not independently audited."
+   },
+   "method": "No arithmetic was performed on these figures; each is Christie's own, as printed in its release of 3 September 2026. Carat Capital could not reach press.christies.com and read the release through two independent hosts carrying it: Rapaport News, dated 3 September, and Artdaily, dated 4 September. The two agree on the appointment, the Geneva base and Guillemin's prior roles; the auction figures appear in the Artdaily text and not in the shorter Rapaport report, so every figure in this article rests on one of the two, not on both. Archive checks on '$42.2', '$35.7' and 'Guillemin' across every published page returned no hit. On the period test this is the harder case: Carat Capital's 16 July piece already covers Christie's first half of 2026 at group level, $4.5 billion with public auctions up 71%. Same house, same period. It carries no watch-department figure, and +39% is not $4.5 billion, so this breaks out a category the earlier piece did not reach rather than repeating it.",
+   "prior": [
+    {
+     "date": "16 Jul 2026",
+     "slug": "trophy-lots-carry-the-half",
+     "title": "$8.9 billion half: the auction market buys its way back",
+     "claim": "Christie's $4.5bn first half, public auctions up 71%. Group level, no watch split."
+    },
+    {
+     "date": "2 Sep 2026",
+     "slug": "fifty-nine-thousand-in-penzance",
+     "title": "£59,000 in Penzance: a steel Patek beats its low estimate 11.8 times",
+     "claim": "A regional Cornish room made 11.8 times the low estimate on a steel Patek."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Christie's Promotes Remi Guillemin to Global Head of Watches - Rapaport News, 3 September 2026",
+     "url": "https://rapaport.com/news/christies-promotes-remi-guillemin-to-global-head-of-watches/"
+    },
+    {
+     "title": "Remi Guillemin appointed Global Head of Watches for Christie's - Artdaily, 4 September 2026, carrying the release in full",
+     "url": "https://artdaily.com/news/199867/Remi-Guillemin-appointed-Global-Head-of-Watches-for-Christie-s"
+    },
+    {
+     "title": "Christie's Names Remi Guillemin Global Head of Watches Following Strong Sales in U.S., Asia, Europe - WWD, 3 September 2026",
+     "url": "https://wwd.com/business-news/human-resources/christies-remi-guillemin-global-head-watches-strong-sales-1239196630/"
+    }
+   ],
+   "corrections": []
+  },
+  "next": {
+   "slug": "fifty-nine-thousand-in-penzance",
+   "why": "The last dated saleroom figure this paper could find, and how small the room was that produced it."
+  },
+  "migrated": ""
+ },
+ "forty-six-fifty-one-off-indian-gold": {
+  "v": 3,
+  "figures": {
+   "asof": "IBJA rates, 2 and 3 September 2026 · via Dainik Bhaskar, published 12:14 IST",
+   "cells": [
+    {
+     "n": "₹1.54 lakh",
+     "dir": "up",
+     "label": "Gold, 10g of 24-carat",
+     "q": "3 September, up ₹2,549"
+    },
+    {
+     "n": "₹2.33 lakh",
+     "dir": "up",
+     "label": "Silver, a kilogram",
+     "q": "3 September, up ₹4,420"
+    },
+    {
+     "n": "−₹4,651",
+     "dir": "dn",
+     "label": "Gold, two-day fall",
+     "q": "1 and 2 September combined"
+    },
+    {
+     "n": "+₹21,000",
+     "dir": "up",
+     "label": "Gold, year to date",
+     "q": "from ₹1.33 lakh on 31 December"
+    }
+   ]
+  },
+  "hero": {
+   "n": "+₹2,549",
+   "dir": "up",
+   "what": "IBJA gold, 10 grams of 24-carat, 3 September",
+   "since": "After ₹4,651 came off across two days",
+   "bars_cap": "IBJA gold, daily move · ₹ per 10 grams",
+   "bars": [
+    {
+     "l": "1 Sep",
+     "v": -2652,
+     "d": "−₹2,652"
+    },
+    {
+     "l": "2 Sep",
+     "v": -1999,
+     "d": "−₹1,999"
+    },
+    {
+     "l": "3 Sep",
+     "v": 2549,
+     "d": "+₹2,549",
+     "hi": true
+    }
+   ],
+   "src": "IBJA via Dainik Bhaskar · 2-3 Sep 2026",
+   "spec": "24-carat, before GST"
+  },
+  "changed": {
+   "lead": "Indian gold turned back up.",
+   "text": "Gold on the India Bullion and Jewellers Association's rates added ₹2,549 to ₹1.54 lakh for 10 grams on 3 September. Two falling days had taken ₹4,651 off it."
+  },
+  "means": [
+   {
+    "who": "If you buy gold in India:",
+    "text": "the reference rate moved ₹7,200 in three days. Quote against the day's IBJA rate, not the week's."
+   },
+   {
+    "who": "If you hold silver stock:",
+    "text": "silver swung harder. It lost ₹8,803 a kilogram in two days and took back ₹4,420."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a proven cause. A named analyst credits a prime ministerial appeal, and that is opinion."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · IBJA gold and silver, 2 and 3 September 2026",
+   "asof": "Rates as published by IBJA, reported by Dainik Bhaskar",
+   "cols": [
+    "IBJA rate",
+    "2 Sep",
+    "3 Sep",
+    "Two-day fall before"
+   ],
+   "rows": [
+    [
+     "Gold, 10g of 24-carat",
+     "₹1.51 lakh",
+     "₹1.54 lakh",
+     "−₹4,651"
+    ],
+    [
+     "Silver, a kilogram",
+     "₹2.28 lakh",
+     "₹2.33 lakh",
+     "−₹8,803"
+    ],
+    [
+     "Gold, the day's move",
+     "−₹1,999",
+     "+₹2,549",
+     "—"
+    ],
+    [
+     "Silver, the day's move",
+     "−₹2,023",
+     "+₹4,420",
+     "—"
+    ]
+   ],
+   "hi": 0,
+   "note": "<b>Source</b> Dainik Bhaskar, 2 September 2026 at 12:23 IST and 3 September 2026 at 12:14 IST, both citing IBJA. <b>The two-day fall</b> is the source's own tally; adding the daily moves it reports, ₹2,652 and ₹1,999, returns the same ₹4,651.",
+   "plate": "CC/2026/054"
+  },
+  "sections": [
+   {
+    "h": "Two days down, one day up",
+    "p": [
+     {
+      "lead": "The fall came first.",
+      "text": "Gold lost ₹2,652 for 10 grams on 1 September and ₹1,999 on 2 September, ending at ₹1.51 lakh."
+     },
+     {
+      "lead": "Silver fell harder.",
+      "text": "Silver lost ₹6,780 a kilogram on the first day and ₹2,023 on the second, ending at ₹2.28 lakh."
+     },
+     {
+      "lead": "Then both turned.",
+      "text": "On 3 September gold added ₹2,549 to ₹1.54 lakh and silver added ₹4,420."
+     }
+    ]
+   },
+   {
+    "h": "The cause is one analyst's",
+    "p": [
+     {
+      "lead": "A named appeal.",
+      "text": "Dainik Bhaskar reports that Prime Minister Narendra Modi has renewed a public appeal against buying gold people do not need."
+     },
+     {
+      "lead": "One voice credits it.",
+      "text": "The market analyst Anuj Gupta is reported attributing pressure on the gold price to that appeal. No mechanism is shown, and the rate rose the following day."
+     }
+    ]
+   },
+   {
+    "h": "The year is still up",
+    "p": [
+     {
+      "lead": "Gold gained in 2026.",
+      "text": "Gold has risen ₹21,000 for 10 grams since 31 December 2025, when it stood at ₹1.33 lakh."
+     },
+     {
+      "lead": "Both sit below January.",
+      "text": "Gold reached ₹1.76 lakh and silver ₹3.86 lakh on 29 January. Both remain below those levels."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "7 Sep",
+    "what": "IBJA's next weekday rate. Whether the ₹2,549 rebound holds or gives back."
+   },
+   {
+    "when": "4-8 Sep",
+    "what": "Vicenzaoro, Vicenza. Where fabricators price gold into finished product."
+   },
+   {
+    "when": "9 Sep",
+    "what": "Signet Jewelers' quarter. The same metal, read through an American counter."
+   }
+  ],
+  "depth": {
+   "reverse": "An IBJA print that gives back the ₹2,549 and takes the rate below ₹1.51 lakh. That would make 3 September a pause inside a fall rather than a turn, and the buying advice above would be withdrawn.",
+   "built": {
+    "title": "How the IBJA rate is set",
+    "text": "The India Bullion and Jewellers Association publishes reference rates for gold and silver on trading days, quoted for 10 grams of 24-carat gold and for one kilogram of silver. The rates exclude goods and services tax and jewellers' making charges, so the price on a retail counter sits above them. A lakh is 100,000 rupees."
+   },
+   "method": "Rupee figures are IBJA's, reported by Dainik Bhaskar on 2 September 2026 at 12:23 IST and 3 September 2026 at 12:14 IST. Carat Capital fetched both pages directly and read each publication time from the page's own datePublished field rather than from its position in a feed. One arithmetic check: Bhaskar's two-day tallies of ₹4,651 on gold and ₹8,803 on silver equal the sum of the daily moves it reports, ₹2,652 plus ₹1,999 and ₹6,780 plus ₹2,023. The ₹7,200 above is Carat Capital's addition of the ₹4,651 fall and the ₹2,549 rise. The two reports disagree on one figure: the 2 September piece puts silver at ₹2.28 lakh on 31 December 2025 and the 3 September piece at ₹2.30 lakh, so neither is used here as a base. Bhaskar also attributes part of the move to crude oil and to a reported military exchange near the Strait of Hormuz; Carat Capital could not verify that claim and does not carry it. This paper's 28 August piece put gold at ₹1.7 lakh on an Ahmedabad counter, which is a retail price including tax and making charges, not the association's reference rate, and the two are not comparable.",
+   "prior": [
+    {
+     "date": "28 Aug 2026",
+     "slug": "point-two-nine-of-a-gram",
+     "title": "₹5,000 buys 0.294 grams of gold in Ahmedabad, and the counters are busy",
+     "claim": "Counter prices, not reference rates: ₹1.7 lakh in Ahmedabad at the festival."
+    },
+    {
+     "date": "3 Sep 2026",
+     "slug": "one-nineteen-thirty-back-on-gold",
+     "title": "$119.30 back on gold: the first higher mark since 28 August",
+     "claim": "The dollar spot market on the same stretch of days."
+    }
+   ],
+   "sources": [
+    {
+     "title": "सोना ₹2,549 बढ़कर ₹1.54 लाख पर पहुंचा - Dainik Bhaskar, 3 September 2026, 12:14 IST, citing IBJA",
+     "url": "https://www.bhaskar.com/g/business/news/gold-silver-price-hike-india-bullion-market-update-3-september-2026-138916884.html"
+    },
+    {
+     "title": "चांदी 2 दिन में ₹8,803, सोना ₹4,651 सस्ता - Dainik Bhaskar, 2 September 2026, 12:23 IST, citing IBJA",
+     "url": "https://www.bhaskar.com/g/business/news/gold-silver-price-fall-india-pm-modi-appeal-market-update-138906693.html"
+    }
+   ],
+   "corrections": []
+  },
+  "next": {
+   "slug": "point-two-nine-of-a-gram",
+   "why": "What these rates do at an Indian counter, where ₹5,000 now buys 0.294 grams."
+  },
+  "migrated": ""
  }
 }

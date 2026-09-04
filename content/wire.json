@@ -1,42 +1,41 @@
 {
- "date_line": "Thursday, September 3, 2026",
- "edition": "Vol. I - No. 053",
+ "date_line": "Friday, September 4, 2026",
+ "edition": "Vol. I - No. 054",
  "items": [
   {
-   "b": "RAPI'S ONE-CARAT RISES 0.5% IN AUGUST, ITS FIRST INCREASE IN FIFTEEN MONTHS",
-   "t": "Rapaport's August release, published 2 September, has the 1-carat index up 0.5% after readings flat or negative back to May 2025. The 0.30-carat added 2% and the 0.50-carat 2.5%. Rapaport credits production cuts rather than a return of demand."
+   "b": "MOVADO'S HALF-YEAR OPERATING INCOME RISES 409% TO $21.9 MILLION",
+   "t": "The six months to 31 July put net sales at $312.2 million, up 6.3%, and gross profit at $182.4 million, up 14.8%. Gross margin reached 58.4% against 54.1%. Diluted earnings were $0.84 a share against $0.20. Source: Form 10-Q, filed 26 August."
   },
   {
-   "b": "THE THREE-CARAT SLIPS 0.4% AFTER EIGHTEEN MONTHS STEADY",
-   "t": "July was the first month since March 2025 in which none of the four headline sizes fell. That lasted one month. Across July and August compounded, the 0.30-carat is up 3.63% and the 3-carat down 0.20%, a spread of 4.55 percentage points."
+   "b": "WATCHES OF SWITZERLAND HOLDS 5-10% GUIDANCE 17 WEEKS INTO THE YEAR",
+   "t": "The AGM trading update of 3 September reiterates 5% to 10% revenue growth at constant currency and 40 to 80 basis points of adjusted EBIT margin expansion. Capital expenditure is guided at £60 million to £70 million, cash conversion near 70%. No regional revenue figure is given."
   },
   {
-   "b": "FOUR METALS HIGHER AT 05:59 ET AND GOLD'S FIRST UP MARK SINCE 28 AUGUST",
-   "t": "Gold $4,426.80, silver $65.58, platinum $1,762.00, palladium $1,348.00, all re-read at press time and written back to the tape. Gold recovers $119.30, or 40.17%, of the $297.00 it lost after 28 August, and stays $177.70 below that mark."
+   "b": "CHRISTIE'S WATCH SALES ROSE 39% IN THE FIRST HALF, ON THE HOUSE'S OWN FIGURES",
+   "t": "Geneva's May rare watches sale made $42.2 million, which Christie's calls its highest various-owner watch result. Hong Kong made $35.7 million the same month, up 40%. The figures reach the trade inside the release naming Remi Guillemin global head of watches."
   },
   {
-   "b": "PALLADIUM'S BID AND ASK ARE $40.00 APART AND IT MOVED $13.00",
-   "t": "Kitco quotes palladium $1,348.00 bid against a $1,388.00 ask, 2.9674% of the bid and a fourth consecutive session at that width. Crossing the spread costs just over three times the day's move. Palladium led the four on the day at +4.82%."
+   "b": "IBJA GOLD ADDS ₹2,549 AFTER ₹4,651 CAME OFF ACROSS TWO DAYS",
+   "t": "10 grams of 24-carat gold stood at ₹1.54 lakh on 3 September and silver at ₹2.33 lakh a kilogram, up ₹4,420 after an ₹8,803 two-day fall. A named analyst credits a prime ministerial appeal against unnecessary gold buying; no mechanism is shown and the rate rose the next day."
   },
   {
-   "b": "90 HOURS FOR A LAB-GROWN CERTIFICATE: IIGJ AND IIT MADRAS SPLIT IT 30-60",
-   "t": "The programme launched 2 September pairs GJEPC's training institute with IIT Madras's InCent-LGD centre. IIGJ teaches 30 hours of trade and regulation online; IIT Madras teaches 48 online and 12 on campus, covering HPHT, MPCVD and characterisation. No fee published."
+   "b": "FOUR METALS LOWER AT 06:02 ET, ALL FOUR STILL ABOVE 3 SEPTEMBER",
+   "t": "Gold $4,465.40, silver $66.57, platinum $1,802.00, palladium $1,384.00, re-read at press time and written back to the tape. Against 3 September's marks gold is up $38.60 or 0.8720% and palladium $36.00 or 2.6706%. Gold-silver ratio 67.08 against 67.50."
   },
   {
-   "b": "CORRECTED TODAY: PALLADIUM'S AUGUST HOLD WAS SEVEN TAPE ENTRIES, NOT NINE",
-   "t": "The tape's hold counter advanced twice on mornings the Editor re-read the mark, logging 25 August as both the fifth and the sixth session. The mark stood on seven entries, 21 to 27 August, two of them a weekend. Found by this paper's film desk, verified here."
+   "b": "A ROYAL BROOCH SUPERLATIVE IS NARROWED, AND THE PRICE STANDS",
+   "t": "The 26 August Elmwood's piece said no 1.10-carat parcel of small goods approaches $29,455 a carat anywhere in the trade, disclosing no check. It now cites Guru Diam's August 2026 wholesale melee table, $370 to $900 a carat, which puts the brooch at 32.7 times that ceiling. The $29,455 was correct as published."
   }
  ],
- "tape_ts": "3 Sep 2026 - Kitco, re-read by the Editor at press time and written back to the tape under the One-Price Rule. A metals story runs today, so all four were re-read off the board (its own timestamp 05:59 EST) and all four had moved off the 05:00 mark: gold $4,426.80 (up $39.80, 0.9072%), silver $65.58 (up $0.37, 0.5674%), platinum $1,762.00 (up $6.00, 0.3417%) and palladium $1,348.00 (up $13.00, 0.9738%), each against the prior close Kitco's own board implies, so value, prev and change stay one self-consistent series. All four figures are Kitco bids, the convention this tape uses for every metal. Second page: CNBC's quote service at 06:02 ET returned $4,426.78, $65.6287, $1,766.28 and $1,364.96, gaps of 0.0230%, 0.1161%, 0.0407% and 0.2222% against Kitco's midpoints, every one inside the agreement band, so no outside-source divergence is disclosed this session. Comparisons are midpoint against last price, like for like, because palladium's bid and ask are $40.00 apart. NAT1 and LGD1 on the chips below are rendered from prices.json and lab-prices.json by the build and are not this tape's marks.",
+ "tape_ts": "4 Sep 2026 - Kitco, re-read by the Editor at press time and written back to the tape under the One-Price Rule. All four metals had moved off the 05:00 mark, so the fresher reading is the mark of record: gold $4,465.40 (down $6.80, 0.1521%), silver $66.57 (down $0.274, 0.4099%), platinum $1,802.00 (down $15.00, 0.8255%) and palladium $1,384.00 (down $17.00, 1.2134%), each against the prior close Kitco's own board implies, so value, prev and change stay one self-consistent series. All four figures are Kitco bids, the convention this tape uses for every metal. Against 3 September's marks all four are higher: gold $38.60 or 0.8720%, silver $0.99 or 1.5096%, platinum $40.00 or 2.2701%, palladium $36.00 or 2.6706%. Second page: Business Insider's gold page returned 4468.66 against Kitco's 4466.40 midpoint, 0.0506% apart and inside the agreement band, so no outside-source divergence is disclosed this session. The board answered 200 and was moving; no closure or thin-session claim is made. NAT1 and LGD1 on the chips below are rendered from prices.json and lab-prices.json by the build and are not this tape's marks.",
  "tape": [
   {
    "name": "Gold / oz",
    "code": "XAU",
-   "px": "4,426.80",
-   "chg": "▲ +2.77%",
+   "px": "4,465.40",
+   "chg": "▲ +0.87%",
    "dir": "up",
    "pts": [
-    33,
     32,
     29,
     31,
@@ -45,7 +44,8 @@
     19,
     12,
     8,
-    17
+    17,
+    16
    ]
   },
   {
@@ -89,11 +89,10 @@
   {
    "name": "Platinum / oz",
    "code": "XPT",
-   "px": "1,762.00",
-   "chg": "▲ +2.86%",
+   "px": "1,802.00",
+   "chg": "▲ +2.27%",
    "dir": "up",
    "pts": [
-    33,
     33,
     23,
     33,
@@ -102,17 +101,17 @@
     20,
     14,
     8,
-    15
+    15,
+    12
    ]
   },
   {
    "name": "Silver / oz",
    "code": "XAG",
-   "px": "65.58",
-   "chg": "▲ +3.18%",
+   "px": "66.57",
+   "chg": "▲ +1.51%",
    "dir": "up",
    "pts": [
-    24,
     26,
     25,
     33,
@@ -121,7 +120,8 @@
     20,
     11,
     8,
-    15
+    15,
+    13
    ]
   }
  ]
