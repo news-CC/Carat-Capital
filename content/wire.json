@@ -1,42 +1,41 @@
 {
- "date_line": "Friday, September 4, 2026",
- "edition": "Vol. I - No. 054",
+ "date_line": "Saturday, September 5, 2026",
+ "edition": "Vol. I - No. 055",
  "items": [
   {
-   "b": "MOVADO'S HALF-YEAR OPERATING INCOME RISES 409% TO $21.9 MILLION",
-   "t": "The six months to 31 July put net sales at $312.2 million, up 6.3%, and gross profit at $182.4 million, up 14.8%. Gross margin reached 58.4% against 54.1%. Diluted earnings were $0.84 a share against $0.20. Source: Form 10-Q, filed 26 August."
+   "b": "SEC SUES LUGANO'S FORMER CHIEF OVER MORE THAN $1 BILLION OF FICTITIOUS REVENUE",
+   "t": "The complaint against Mordechai Ferder was filed 31 August in the Central District of California, case 8:26-cv-02492, and released 1 September as Litigation Release 26625. Compass Diversified restated Lugano's net identifiable assets at acquisition from $179 million to $5 million and erased over 85% of the revenue it had reported since. Ferder denies the allegations."
   },
   {
-   "b": "WATCHES OF SWITZERLAND HOLDS 5-10% GUIDANCE 17 WEEKS INTO THE YEAR",
-   "t": "The AGM trading update of 3 September reiterates 5% to 10% revenue growth at constant currency and 40 to 80 basis points of adjusted EBIT margin expansion. Capital expenditure is guided at £60 million to £70 million, cash conversion near 70%. No regional revenue figure is given."
+   "b": "CHOW TAI SENG'S HONG KONG SUBSIDIARY ADMITTED TO THE SHANGHAI GOLD EXCHANGE",
+   "t": "Board announcement 2026-043, dated 2 September, says the Shenzhen-listed chain learned on 31 August that its wholly-owned Hong Kong arm is an international member of the exchange. The filing states no purpose and no financial effect. First-half revenue fell 20.79% to RMB 3.641 billion and net profit 24.24% to RMB 450 million."
   },
   {
-   "b": "CHRISTIE'S WATCH SALES ROSE 39% IN THE FIRST HALF, ON THE HOUSE'S OWN FIGURES",
-   "t": "Geneva's May rare watches sale made $42.2 million, which Christie's calls its highest various-owner watch result. Hong Kong made $35.7 million the same month, up 40%. The figures reach the trade inside the release naming Remi Guillemin global head of watches."
+   "b": "PERTH MINT MINTED SALES FALL IN ALL THREE METALS AS PRICES ROSE",
+   "t": "August sales were 23,932 ounces of gold, 333,880 of silver and 1,060 of platinum, down 22%, 31% and 45% on July. Gold ran from about $4,050 to about $4,450 in the same month. Holdings in the mint's gold-backed product went the other way, up 13,137 ounces or 3.43% to 395,871."
   },
   {
-   "b": "IBJA GOLD ADDS ₹2,549 AFTER ₹4,651 CAME OFF ACROSS TWO DAYS",
-   "t": "10 grams of 24-carat gold stood at ₹1.54 lakh on 3 September and silver at ₹2.33 lakh a kilogram, up ₹4,420 after an ₹8,803 two-day fall. A named analyst credits a prime ministerial appeal against unnecessary gold buying; no mechanism is shown and the rate rose the next day."
+   "b": "ROLEX SENDS FOUR ONE-OFF DAYTONAS TO PHILLIPS LONDON ON 28 SEPTEMBER",
+   "t": "The Four Seasons set was conceived as a private sale to one buyer at about 4 million Swiss francs, roughly $4.9 million, and moved to auction after retailer feedback. Proceeds split evenly between the Federer Foundation and Re:wild. No estimate has been published and the lotting is not stated."
   },
   {
-   "b": "FOUR METALS LOWER AT 06:02 ET, ALL FOUR STILL ABOVE 3 SEPTEMBER",
-   "t": "Gold $4,465.40, silver $66.57, platinum $1,802.00, palladium $1,384.00, re-read at press time and written back to the tape. Against 3 September's marks gold is up $38.60 or 0.8720% and palladium $36.00 or 2.6706%. Gold-silver ratio 67.08 against 67.50."
+   "b": "FOUR METALS CLOSED LOWER ON FRIDAY AND THE BOARD IS FROZEN THROUGH THE WEEKEND",
+   "t": "Gold $4,429.10, down $43.10 or 0.9637%; silver $66.091, down $0.756; platinum $1,816.00, down $1.00; palladium $1,368.00, down $33.00 or 2.3555%. Kitco's board carries an identical 2026-09-04 17:00 timestamp on all four, which is what establishes the session as closed rather than the day of the week."
   },
   {
-   "b": "A ROYAL BROOCH SUPERLATIVE IS NARROWED, AND THE PRICE STANDS",
-   "t": "The 26 August Elmwood's piece said no 1.10-carat parcel of small goods approaches $29,455 a carat anywhere in the trade, disclosing no check. It now cites Guru Diam's August 2026 wholesale melee table, $370 to $900 a carat, which puts the brooch at 32.7 times that ceiling. The $29,455 was correct as published."
+   "b": "CIBJO'S VOTE ON DROPPING “LABORATORY-GROWN” IS SET FOR 7 SEPTEMBER, NOT YET TAKEN",
+   "t": "The centenary congress runs 4 to 7 September in Vicenza. Trade reports of the Blue Book change describe a scheduled vote, and no source read this morning records it as carried. Carat Capital reported the proposal on 27 July and is holding the outcome until the assembly has actually voted."
   }
  ],
- "tape_ts": "4 Sep 2026 - Kitco, re-read by the Editor at press time and written back to the tape under the One-Price Rule. All four metals had moved off the 05:00 mark, so the fresher reading is the mark of record: gold $4,465.40 (down $6.80, 0.1521%), silver $66.57 (down $0.274, 0.4099%), platinum $1,802.00 (down $15.00, 0.8255%) and palladium $1,384.00 (down $17.00, 1.2134%), each against the prior close Kitco's own board implies, so value, prev and change stay one self-consistent series. All four figures are Kitco bids, the convention this tape uses for every metal. Against 3 September's marks all four are higher: gold $38.60 or 0.8720%, silver $0.99 or 1.5096%, platinum $40.00 or 2.2701%, palladium $36.00 or 2.6706%. Second page: Business Insider's gold page returned 4468.66 against Kitco's 4466.40 midpoint, 0.0506% apart and inside the agreement band, so no outside-source divergence is disclosed this session. The board answered 200 and was moving; no closure or thin-session claim is made. NAT1 and LGD1 on the chips below are rendered from prices.json and lab-prices.json by the build and are not this tape's marks.",
+ "tape_ts": "5 Sep 2026 - Kitco, re-read by the Editor at press time. The board answered 200 and carried an originalTime of 2026-09-04 17:00 for all four metals, identical across the board and identical to the 05:00 mark, so Friday's close is frozen through the weekend and there was nothing to write back: the 05:00 tape stands as filed. The marks are Kitco bids, this tape's convention for every metal: gold $4,429.10 (down $43.10, 0.9637%), silver $66.091 (down $0.756, 1.1309%), platinum $1,816.00 (down $1.00, 0.055%) and palladium $1,368.00 (down $33.00, 2.3555%), each against the prior session. Palladium led the fall by a wide margin. The closure is read off the board's own frozen timestamp and Business Insider's matching currentValue-equals-previousClose signature, not off the calendar. No cause for the move was named by any source read this session and none is asserted. NAT1 and LGD1 on the chips below are rendered from prices.json and lab-prices.json by the build and are not this tape's marks.",
  "tape": [
   {
    "name": "Gold / oz",
    "code": "XAU",
-   "px": "4,465.40",
-   "chg": "▲ +0.87%",
-   "dir": "up",
+   "px": "4,429.10",
+   "chg": "▼ −0.96%",
+   "dir": "down",
    "pts": [
-    32,
     29,
     31,
     19,
@@ -45,7 +44,8 @@
     12,
     8,
     17,
-    16
+    16,
+    19
    ]
   },
   {
@@ -89,11 +89,10 @@
   {
    "name": "Platinum / oz",
    "code": "XPT",
-   "px": "1,802.00",
-   "chg": "▲ +2.27%",
-   "dir": "up",
+   "px": "1,816.00",
+   "chg": "▼ −0.06%",
+   "dir": "down",
    "pts": [
-    33,
     23,
     33,
     24,
@@ -102,17 +101,17 @@
     14,
     8,
     15,
+    12,
     12
    ]
   },
   {
    "name": "Silver / oz",
    "code": "XAG",
-   "px": "66.57",
-   "chg": "▲ +1.51%",
-   "dir": "up",
+   "px": "66.09",
+   "chg": "▼ −1.13%",
+   "dir": "down",
    "pts": [
-    26,
     25,
     33,
     18,
@@ -121,7 +120,8 @@
     11,
     8,
     15,
-    13
+    13,
+    16
    ]
   }
  ]

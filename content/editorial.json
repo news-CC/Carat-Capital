@@ -105165,5 +105165,703 @@
    "why": "What these rates do at an Indian counter, where ₹5,000 now buys 0.294 grams."
   },
   "migrated": ""
+ },
+ "over-a-billion-at-lugano": {
+  "v": 3,
+  "figures": {
+   "asof": "SEC Litigation Release 26625 - complaint filed 31 Aug 2026, released 1 Sep 2026",
+   "cells": [
+    {
+     "n": "$1bn+",
+     "dir": "dn",
+     "label": "Fictitious revenue",
+     "q": "booked by Lugano and CODI"
+    },
+    {
+     "n": "$5m",
+     "dir": "dn",
+     "label": "Net assets",
+     "q": "restated down from $179m"
+    },
+    {
+     "n": "85%",
+     "dir": "dn",
+     "label": "Revenue erased",
+     "q": "of Lugano's post-2021 sales"
+    },
+    {
+     "n": "$104m",
+     "dir": "dn",
+     "label": "CODI paid",
+     "q": "for 60% of Lugano, 2021"
+    }
+   ]
+  },
+  "changed": {
+   "lead": "The SEC filed.",
+   "text": "Its complaint says Mordechai Ferder ran a fraud from 2021 to 2025 that had Lugano Diamonds and its listed parent book more than $1 billion of fictitious revenue. He denies it."
+  },
+  "means": [
+   {
+    "who": "If you finance stones for clients:",
+    "text": "the complaint describes investment contracts on diamonds nobody bought. Get the stone identified and vaulted."
+   },
+   {
+    "who": "If you hold CODI paper:",
+    "text": "the restatement is the number, not the headline."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a verdict. These are allegations, untested in court."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I - Lugano, as stated and as restated",
+   "asof": "SEC complaint, 31 August 2026",
+   "cols": [
+    "Measure",
+    "Figure"
+   ],
+   "rows": [
+    [
+     "Fictitious revenue booked by Lugano and CODI",
+     "over $1 billion"
+    ],
+    [
+     "Net identifiable assets at acquisition, as first stated",
+     "$179 million"
+    ],
+    [
+     "The same assets, after Compass Diversified's restatement",
+     "$5 million"
+    ],
+    [
+     "Lugano revenue erased from post-acquisition accounts",
+     "over 85%"
+    ],
+    [
+     "Compass Diversified's 2021 payment for 60% of Lugano",
+     "$104 million"
+    ]
+   ],
+   "hi": 2,
+   "note": "<b>Source</b> SEC Litigation Release 26625 and the complaint in SEC v. Ferder, No. 8:26-cv-02492 (C.D. Cal.), 31 August 2026. <b>The $104 million</b> is JCK's figure, 4 September 2026, not the Commission's.",
+   "plate": "CC/2026/055"
+  },
+  "sections": [
+   {
+    "h": "The money was never diamonds",
+    "p": [
+     {
+      "lead": "Investors funded stones.",
+      "text": "The Commission says Ferder told individuals their money would buy specific diamonds, and that he would find a buyer or set the stone in jewellery. Neither happened. Repayments came from later investors."
+     },
+     {
+      "lead": "Then it became revenue.",
+      "text": "Those investor funds were recorded as sales, and the repayments were disguised as inventory purchases. That is how a private jewellery business inflated a listed parent's accounts."
+     }
+    ]
+   },
+   {
+    "h": "The restatement is the scale",
+    "p": [
+     {
+      "lead": "Assets restated down.",
+      "text": "Compass Diversified corrected Lugano's net identifiable assets at acquisition from $179 million to $5 million. That is a fall of 97%."
+     },
+     {
+      "lead": "Revenue went too.",
+      "text": "The parent erased more than 85% of the Lugano revenue reported after the acquisition. In June 2026 it said it would liquidate the business."
+     }
+    ]
+   },
+   {
+    "h": "What the Commission wants",
+    "p": [
+     {
+      "lead": "Bar and disgorgement.",
+      "text": "The complaint seeks permanent injunctions, disgorgement with interest, civil penalties, and an order barring Ferder from serving as an officer or director. Three family trusts are named as relief defendants."
+     },
+     {
+      "lead": "He denies it.",
+      "text": "Ferder's lawyer says he denies the allegations and will set out his defence in court. The investigation is open, and none of the claims has been tested."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "9 Sep",
+    "what": "Signet's second-quarter results, the next large listed jeweller to report."
+   },
+   {
+    "when": "No date set",
+    "what": "Ferder's answer in the Central District of California, case 8:26-cv-02492."
+   },
+   {
+    "when": "Open",
+    "what": "The Commission's investigation, which its release says is continuing."
+   }
+  ],
+  "depth": {
+   "reverse": "A court finding that Lugano did own the diamonds behind the investment contracts, or evidence that the restatement itself was wrong. Either would remove the central allegation, and the reading above would go with it.",
+   "built": {
+    "title": "How an investment contract in a diamond works",
+    "text": "Money is handed to a dealer to buy a named stone, with a promise to resell it or set it in jewellery and share the gain. That promise of profit from another's effort is what makes it a security, which is the Commission's route in. The complaint says the stones were never bought."
+   },
+   "method": "The 97% fall is Carat Capital's arithmetic on the Commission's own two figures: $5 million against $179 million is a decline of 97.2%, rounded down to 97%. The Commission states the revenue erasure as \"over 85%\" and no residual is computed from it here. The $104 million paid in 2021 for 60% of Lugano is JCK's figure, not the complaint's, and is marked as such in the table.",
+   "prior": [
+    {
+     "date": "17 Aug 2026",
+     "slug": "eight-oh-six-out-six-sixty-five-in",
+     "title": "One fund cut 806,676 Signet shares",
+     "claim": "Who owns the listed jewellers, and who sold."
+    },
+    {
+     "date": "3 Aug 2026",
+     "slug": "shoplifting-down-fraud-up",
+     "title": "Shoplifting falls 12.4%",
+     "claim": "Theft moves from the shop floor to the ledger."
+    },
+    {
+     "date": "30 Jul 2026",
+     "slug": "the-storefront-that-isnt",
+     "title": "The 80% closing-down sale that was never a shop",
+     "claim": "A jewellery storefront that did not exist."
+    }
+   ],
+   "sources": [
+    {
+     "title": "SEC Charges Former CEO of Lugano Diamonds in Alleged Massive Accounting and Offering Fraud - Litigation Release No. 26625, 1 September 2026",
+     "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26625"
+    },
+    {
+     "title": "SEC v. Ferder, et al., No. 8:26-cv-02492 (C.D. Cal., filed 31 August 2026)",
+     "url": "https://www.sec.gov/files/litigation/complaints/2026/comp26625.pdf"
+    },
+    {
+     "title": "SEC Suit Targets Former Lugano Diamonds Founder, CEO - JCK, 4 September 2026",
+     "url": "https://www.jckonline.com/editorial-article/sec-suit-lugano-diamonds-ceo/"
+    }
+   ]
+  },
+  "next": {
+   "slug": "the-storefront-that-isnt",
+   "why": "The other kind of jewellery fiction: a closing-down sale with no shop behind it."
+  }
+ },
+ "an-international-member-in-hong-kong": {
+  "v": 3,
+  "figures": {
+   "asof": "Chow Tai Seng interim results, six months to 30 June 2026 - released 25 August 2026",
+   "cells": [
+    {
+     "n": "RMB 3.641bn",
+     "dir": "dn",
+     "label": "H1 revenue",
+     "q": "down 20.79% on the year"
+    },
+    {
+     "n": "RMB 450m",
+     "dir": "dn",
+     "label": "H1 net profit",
+     "q": "down 24.24% on the year"
+    },
+    {
+     "n": "36.95%",
+     "dir": "up",
+     "label": "Gross margin",
+     "q": "up 6.61 points, on less"
+    },
+    {
+     "n": "−54.2%",
+     "dir": "dn",
+     "label": "Q2 net profit",
+     "q": "the half's worse quarter"
+    }
+   ]
+  },
+  "changed": {
+   "lead": "The exchange said yes.",
+   "text": "Chow Tai Seng's wholly-owned Hong Kong subsidiary has been admitted as an international member of the Shanghai Gold Exchange. The chain learned of it on 31 August and filed on 2 September."
+  },
+  "means": [
+   {
+    "who": "If you price against Shanghai:",
+    "text": "a retail chain now sits on the international board. Watch whether counter margins move."
+   },
+   {
+    "who": "If you hold 002867:",
+    "text": "no financial effect is disclosed. The filing states none."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a trade, a hedge or a volume. It is permission."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I - Chow Tai Seng's half to 30 June 2026",
+   "asof": "Results released 25 August 2026",
+   "cols": [
+    "Measure",
+    "H1 2026",
+    "Change"
+   ],
+   "rows": [
+    [
+     "Revenue",
+     "RMB 3.641 billion",
+     "−20.79%"
+    ],
+    [
+     "Net profit attributable",
+     "RMB 450 million",
+     "−24.24%"
+    ],
+    [
+     "Gross margin",
+     "36.95%",
+     "+6.61 points"
+    ],
+    [
+     "Second-quarter net profit",
+     "RMB 156 million",
+     "−54.2%"
+    ]
+   ],
+   "hi": 3,
+   "note": "<b>Source</b> Chow Tai Seng interim results, 25 August 2026, as reported by Sina Finance, Eastmoney and Guandian and carried by Carat Capital on 1 September. <b>The filing of 2 September</b> discloses no figures of its own.",
+   "plate": "CC/2026/055"
+  },
+  "sections": [
+   {
+    "h": "A one-page filing",
+    "p": [
+     {
+      "lead": "The board disclosed it.",
+      "text": "Announcement 2026-043 records that the exchange agreed to admit Zhou Dasheng Jewellery (Hong Kong) as an international member. The company says it read the decision on the exchange's website on 31 August."
+     },
+     {
+      "lead": "It claims nothing else.",
+      "text": "The filing gives no purpose, no timetable and no expected effect on earnings. It carries an undertaking to follow the exchange's business rules and stops there."
+     }
+    ]
+   },
+   {
+    "h": "Who normally holds this seat",
+    "p": [
+     {
+      "lead": "Banks and refiners.",
+      "text": "The international board prices contracts in yuan and settles them offshore, and its members are mostly bullion banks, refiners and trading houses. A retail jewellery chain is not the usual applicant."
+     },
+     {
+      "lead": "The metal writes the accounts.",
+      "text": "Revenue fell 20.79% in the half to 30 June while gross margin rose 6.61 points to 36.95%. That is a price effect, not a trading gain."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Late Oct",
+    "what": "Chow Tai Seng's third-quarter report. A hedging or trading disclosure would be new."
+   },
+   {
+    "when": "Monthly",
+    "what": "Shanghai Gold Exchange member lists, for other retail names following."
+   },
+   {
+    "when": "9 Sep",
+    "what": "Signet's second quarter, for the same gold-cost question in another market."
+   }
+  ],
+  "depth": {
+   "reverse": "A statement from the company that the membership is dormant or held only for a subsidiary's treasury convenience. That would make this a filing about paperwork, and the cost-line reading above would not hold.",
+   "built": {
+    "title": "What an international member may do",
+    "text": "The Shanghai Gold Exchange runs a main board for onshore participants and an international board on which offshore entities may trade yuan-denominated gold contracts settled outside the mainland. International membership is admission to that second venue. It is a permission to participate, and it carries no obligation to trade."
+   },
+   "method": "The filing was read in the original Chinese from the exchange-filing PDF, not from a news summary; announcement number, both dates and the subsidiary's full registered name are taken from it. The half-year figures are not in the filing and come from Carat Capital's report of 1 September, which sourced them to the company's interim results of 25 August via Sina Finance, Eastmoney and Guandian. The company is carried here as Chow Tai Seng, the English name used in this paper's archive; 周大生 is romanised elsewhere as Zhou Dasheng.",
+   "prior": [
+    {
+     "date": "1 Sep 2026",
+     "slug": "three-six-four-one-and-thirty-six-ninety-five",
+     "title": "Chow Tai Seng's margin rose anyway",
+     "claim": "Revenue down 20.79%, margin up 6.61 points."
+    },
+    {
+     "date": "25 Aug 2026",
+     "slug": "ten-oh-four-twenty-one",
+     "title": "1,004.21 in Shanghai",
+     "claim": "Five bank counters spread 16.60 yuan apart."
+    },
+    {
+     "date": "22 Aug 2026",
+     "slug": "one-in-two-out-at-the-lbma",
+     "title": "One Chinese refiner in, two out",
+     "claim": "Who the metal establishment lets through the door."
+    }
+   ],
+   "sources": [
+    {
+     "title": "周大生:关于境外子公司获得上海黄金交易所国际会员资格的公告, announcement 2026-043, 2 September 2026",
+     "url": "https://pdf.dfcfw.com/pdf/H2_AN202609011828882516_1.pdf"
+    },
+    {
+     "title": "Carat Capital, RMB 3.641 billion, down 20.79%: Chow Tai Seng's margin rose anyway, 1 September 2026",
+     "url": "https://caratcapital.org/a-three-six-four-one-and-thirty-six-ninety-five.html"
+    }
+   ]
+  },
+  "next": {
+   "slug": "three-six-four-one-and-thirty-six-ninety-five",
+   "why": "The half-year that explains why this chain wants to be closer to the metal."
+  }
+ },
+ "twenty-three-nine-three-two-ounces": {
+  "v": 3,
+  "figures": {
+   "asof": "The Perth Mint, August 2026 minted-product sales - published 4 September 2026",
+   "cells": [
+    {
+     "n": "23,932 oz",
+     "dir": "dn",
+     "label": "Gold sold",
+     "q": "down 22% on July"
+    },
+    {
+     "n": "333,880 oz",
+     "dir": "dn",
+     "label": "Silver sold",
+     "q": "down 31% on July"
+    },
+    {
+     "n": "1,060 oz",
+     "dir": "dn",
+     "label": "Platinum sold",
+     "q": "down 45% on July"
+    },
+    {
+     "n": "395,871 oz",
+     "dir": "up",
+     "label": "PMGOLD holdings",
+     "q": "up 3.43% in the month"
+    }
+   ]
+  },
+  "changed": {
+   "lead": "The counter stepped back.",
+   "text": "Minted sales of all three metals fell in August against July, by 22%, 31% and 45%, while gold gained about 10% on the month. The mint's gold-backed product went the other way."
+  },
+  "means": [
+   {
+    "who": "If you stock coins and bars:",
+    "text": "August's price rise did not carry demand with it. Order off the ledger, not the board."
+   },
+   {
+    "who": "If you read this as sentiment:",
+    "text": "the fund added 3.43% in the same month."
+   },
+   {
+    "who": "What this is not:",
+    "text": "national demand. It is one mint's minted product."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I - Perth Mint minted product, July against August 2026",
+   "asof": "Troy ounces - published 10 Aug and 4 Sep 2026",
+   "cols": [
+    "Minted product",
+    "July",
+    "August",
+    "Change"
+   ],
+   "rows": [
+    [
+     "Gold, oz",
+     "30,871",
+     "23,932",
+     "−22%"
+    ],
+    [
+     "Silver, oz",
+     "486,043",
+     "333,880",
+     "−31%"
+    ],
+    [
+     "Platinum, oz",
+     "1,915",
+     "1,060",
+     "−45%"
+    ],
+    [
+     "PMGOLD holdings, oz",
+     "382,735",
+     "395,871",
+     "+3.43%"
+    ]
+   ],
+   "hi": 3,
+   "note": "<b>Source</b> The Perth Mint's monthly sales updates, 10 August and 4 September 2026. <b>The change column</b> is the mint's own rounding; Carat Capital's division of the counts gives −22.48%, −31.31% and −44.65%.",
+   "plate": "CC/2026/055"
+  },
+  "sections": [
+   {
+    "h": "July reversed, not merely stopped",
+    "p": [
+     {
+      "lead": "Silver gave it back.",
+      "text": "July's silver ounces had risen 65% on June. August took 31% off that count, so the surge did not flatten. It turned."
+     },
+     {
+      "lead": "Platinum fell hardest.",
+      "text": "Minted platinum went from 1,915 ounces to 1,060, a fall of 45% and the steepest of the three metals in the month."
+     }
+    ]
+   },
+   {
+    "h": "The fund and the counter swapped",
+    "p": [
+     {
+      "lead": "Holdings rose 3.43%.",
+      "text": "The mint's gold-backed product added 13,137 ounces to reach 12.31 tonnes. In July it had added 1,011 ounces, a rise of 0.26%."
+     },
+     {
+      "lead": "Prices ran the other way.",
+      "text": "Gold opened near $4,050 and ended near $4,450 on the mint's note, and silver ended near $66.50 after ranging as high as $71.15."
+     }
+    ]
+   },
+   {
+    "h": "A weak month, mixed quarter",
+    "p": [
+     {
+      "lead": "Three months differ.",
+      "text": "Over three months gold sales are up 23% and platinum 28%, while silver is down 8%. August is the weak month, not the settled trend."
+     },
+     {
+      "lead": "The year is lower.",
+      "text": "Against the same month last year all three metals sit about a fifth down, at 21%, 21% and 19%."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Early Oct",
+    "what": "The mint's September update. A second weak month would make August a level, not a dip."
+   },
+   {
+    "when": "Mid Sep",
+    "what": "US Mint bullion sales, the other published counter series."
+   },
+   {
+    "when": "Late Sep",
+    "what": "Any move back under $4,400 in gold, the price the counter balked at."
+   }
+  ],
+  "depth": {
+   "reverse": "A September update in which minted gold and silver recover most of August's fall while the metal holds near $4,450. That would make August a supply or shipping artefact rather than a buyer stepping back, and the instruction above would be withdrawn.",
+   "built": {
+    "title": "What this series counts",
+    "text": "The Perth Mint publishes monthly sales of minted product, meaning coins and minted bars sold through its own channels, separately from holdings in its gold-backed exchange-traded product. Minted product is a retail measure. The mint is a refiner whose retail channel skews to Australian and Asian buyers, so the series is a counter reading rather than a national one."
+   },
+   "method": "The monthly falls are Carat Capital's division of the two months' counts: 23,932 over 30,871 is −22.48%, 333,880 over 486,043 is −31.31%, and 1,060 over 1,915 is −44.65%. These round to the mint's published −22%, −31% and −45%, which is the check that the two releases are being read on the same basis. July's counts are taken from Carat Capital's report of 17 August. The mint states 395,871 ounces after an addition of 13,137; adding that to July's 382,735 gives 395,872, a one-ounce difference left as the mint published it. Price levels are the mint's own approximations and are printed as such.",
+   "prior": [
+    {
+     "date": "17 Aug 2026",
+     "slug": "four-eighty-six-thousand-ounces",
+     "title": "The Perth Mint sold 486,043 ounces of silver in July",
+     "claim": "Silver ounces up 65%, the fund up 0.26%."
+    }
+   ],
+   "sources": [
+    {
+     "title": "August 2026 Sales Update - The Perth Mint, 4 September 2026",
+     "url": "https://www.perthmint.com/news/investor/market-research-and-analysis/august-2026-sales-update/"
+    },
+    {
+     "title": "Carat Capital, The Perth Mint sold 486,043 ounces of silver in July, 17 August 2026",
+     "url": "https://caratcapital.org/a-four-eighty-six-thousand-ounces.html"
+    }
+   ]
+  },
+  "next": {
+   "slug": "four-eighty-six-thousand-ounces",
+   "why": "July's release, which said the opposite, and which warned its own figures could not be read forward."
+  }
+ },
+ "four-one-offs-to-phillips": {
+  "v": 3,
+  "figures": {
+   "asof": "Rolex, via JCK and SJX Watches - reported 3 and 4 September 2026",
+   "cells": [
+    {
+     "n": "4",
+     "dir": "up",
+     "label": "Unique watches",
+     "q": "one for each season"
+    },
+    {
+     "n": "CHF 4m",
+     "dir": "up",
+     "label": "Original price",
+     "q": "for the set, one buyer"
+    },
+    {
+     "n": "28 Sep",
+     "dir": "up",
+     "label": "Sale date",
+     "q": "Phillips, London"
+    },
+    {
+     "n": "2",
+     "dir": "up",
+     "label": "Beneficiaries",
+     "q": "proceeds split evenly"
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Rolex chose the room.",
+   "text": "Four one-off gem-set Daytonas go to Phillips in London on 28 September, after being conceived as a private sale to one buyer at about 4 million Swiss francs. Two charities split the proceeds."
+  },
+  "means": [
+   {
+    "who": "If you estimate one-off Rolex:",
+    "text": "a public result is coming where there has never been one. Note it, then discount it."
+   },
+   {
+    "who": "If you are bidding:",
+    "text": "no estimate is published and the lotting is not stated."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a comparable. Charity rooms do not discover market prices."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I - The four lots",
+   "asof": "References and metals as published by JCK, 4 September 2026",
+   "cols": [
+    "Reference",
+    "Metal",
+    "Dial"
+   ],
+   "rows": [
+    [
+     "126599 SAVL",
+     "18ct white gold",
+     "Chrysoprase"
+    ],
+    [
+     "126595 SARO",
+     "18ct Everose gold",
+     "Turquoise"
+    ],
+    [
+     "126598 TML",
+     "18ct yellow gold",
+     "Mookaite"
+    ],
+    [
+     "126596 SABV",
+     "950 platinum",
+     "Blue opal"
+    ]
+   ],
+   "hi": 0,
+   "note": "<b>Source</b> References and metals from JCK, 4 September 2026; dial materials from SJX Watches, 3 September 2026. <b>Season names</b> are not matched to references here, because no source read for this article maps the two directly.",
+   "plate": "CC/2026/055"
+  },
+  "sections": [
+   {
+    "h": "A private sale that became public",
+    "p": [
+     {
+      "lead": "One buyer was planned.",
+      "text": "The set was conceived as a private sale at approximately 4 million Swiss francs, about $4.9 million. Retailer feedback pointed to many more than one interested buyer."
+     },
+     {
+      "lead": "Rolex rarely consigns.",
+      "text": "The brand makes almost no one-off watches and does not usually send them to a saleroom. The choice of a public room is the news."
+     }
+    ]
+   },
+   {
+    "h": "What is not on the record",
+    "p": [
+     {
+      "lead": "No estimate published.",
+      "text": "Phillips has not given an estimate for the four, and has not said whether they sell as one lot or separately. Both change what any result means."
+     },
+     {
+      "lead": "Charity distorts price.",
+      "text": "Bidders in a charity room are buying a cause as well as a watch, so the number that results travels further than it deserves."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "28 Sep",
+    "what": "The sale at Phillips, London. The first public price for a one-off Daytona of this kind."
+   },
+   {
+    "when": "Before 28 Sep",
+    "what": "Phillips' catalogue, for estimates and whether the four are lotted together."
+   },
+   {
+    "when": "Oct",
+    "what": "Any repricing of gem-set Daytonas in the secondary market against the result."
+   }
+  ],
+  "depth": {
+   "reverse": "Phillips publishing estimates close to the 4 million francs, and a result near them. That would make this ordinary price discovery rather than a charity premium, and the warning against using it as a comparable would soften.",
+   "built": {
+    "title": "Why a charity result is not a comparable",
+    "text": "In a benefit sale the buyer receives a watch and, in many jurisdictions, a deduction, and is seen to support the cause. Bidding therefore contains a donation the catalogue never prices. Results from such rooms routinely exceed open-market levels for the same reference, which is why estimators discount them rather than enter them in a price series."
+   },
+   "method": "The 4 million Swiss francs and its approximate dollar equivalent of $4.9 million are JCK's figures, reported 4 September 2026, and are attributed rather than converted by this desk. References and metals are from the same report; dial materials are from SJX Watches, 3 September 2026. No source read for this article maps the four season names to the four references, so that mapping is left out rather than inferred. No estimate has been published for the lots.",
+   "prior": [
+    {
+     "date": "2 Sep 2026",
+     "slug": "fifty-nine-thousand-in-penzance",
+     "title": "£59,000 in Penzance",
+     "claim": "A steel Patek beat its low estimate 11.8 times."
+    },
+    {
+     "date": "4 Aug 2026",
+     "slug": "seventy-three-lots-over-a-million",
+     "title": "73 lots over a million",
+     "claim": "The watch auction room reflates."
+    },
+    {
+     "date": "9 Jul 2026",
+     "slug": "phillips-235-million-spring",
+     "title": "$235 million in a season",
+     "claim": "Phillips rewrote the watch-auction record."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Rolex to Auction 4 One-of-a-Kind Daytona Watches for Charity - JCK, 4 September 2026",
+     "url": "https://www.jckonline.com/editorial-article/rolex-daytona-watches-charity/"
+    },
+    {
+     "title": "Rolex Unique Daytona Set 'Four Seasons' to be Sold for Charity - SJX Watches, 3 September 2026",
+     "url": "https://watchesbysjx.com/2026/09/rolex-daytona-four-seasons-charity-auction.html"
+    }
+   ]
+  },
+  "next": {
+   "slug": "phillips-235-million-spring",
+   "why": "The season that made Phillips the room a brand would choose, and the record it set."
+  }
  }
 }
