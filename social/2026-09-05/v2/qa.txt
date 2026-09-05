@@ -1,0 +1,5 @@
+theme: emerald-platinum
+POST 1 one-seventy-nine-became-five: 5 slides, words/slide [21, 17, 23, 40, 11] (total 112), largest 185,945 bytes
+   word law: clean
+POST 2 only-thursday-rose: 5 slides, words/slide [17, 23, 19, 39, 13] (total 111), largest 185,953 bytes
+   word law: clean
