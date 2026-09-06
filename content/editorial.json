@@ -105459,6 +105459,10 @@
      {
       "lead": "The metal writes the accounts.",
       "text": "Revenue fell 20.79% in the half to 30 June while gross margin rose 6.61 points to 36.95%. That is a price effect, not a trading gain."
+     },
+     {
+      "lead": "Profit fell harder.",
+      "text": "Net profit for the half was RMB 450 million, down 24.24%. The second quarter alone fell 54.2%, so the half's damage sits in its back three months."
      }
     ]
    }
@@ -105862,6 +105866,964 @@
   "next": {
    "slug": "phillips-235-million-spring",
    "why": "The season that made Phillips the room a brand would choose, and the record it set."
+  }
+ },
+ "twenty-million-on-two-rubies": {
+  "v": 3,
+  "kicker": "Sale preview",
+  "seo_title": "HK$20m rubies lead Sotheby's Hong Kong sale",
+  "figures": {
+   "asof": "Sotheby's Hong Kong High Jewellery, 17 September 2026 - lots and estimates as published by Rapaport, 3 September 2026",
+   "cells": [
+    {
+     "n": "HK$20m",
+     "dir": "up",
+     "label": "Top estimate",
+     "q": "the ruby and diamond earrings"
+    },
+    {
+     "n": "10.28 ct",
+     "dir": "up",
+     "label": "Two Burmese rubies",
+     "q": "5.08 and 5.20, pear-shaped"
+    },
+    {
+     "n": "200+",
+     "dir": "up",
+     "label": "Lots on offer",
+     "q": "Hong Kong, 17 September"
+    },
+    {
+     "n": "9 of 10",
+     "dir": "up",
+     "label": "Coloured-stone lots",
+     "q": "among the costliest ten"
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Colour leads the room.",
+   "text": "Sotheby's Hong Kong sells more than 200 lots on 17 September. Earrings set with two pear-shaped Burmese rubies, 10.28 carats together, carry the top estimate at HK$20 million."
+  },
+  "means": [
+   {
+    "who": "If you buy coloured stones:",
+    "text": "this sale is the September benchmark for Burmese ruby and Colombian emerald."
+   },
+   {
+    "who": "If you consign diamonds:",
+    "text": "no diamond-led lot reached the published top ten."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a price. Estimates are the house's opinion before the room votes."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I - The ten costliest lots",
+   "asof": "Estimates in Hong Kong dollars, as published by Rapaport",
+   "cols": [
+    "Lot",
+    "Principal stones",
+    "Estimate (HK$)"
+   ],
+   "rows": [
+    [
+     "Ruby and diamond earrings",
+     "5.08 and 5.20 ct Burmese rubies",
+     "20m"
+    ],
+    [
+     "Burmese ruby ring",
+     "5.06 ct oval",
+     "8.8-16m"
+    ],
+    [
+     "Paraiba tourmaline ring",
+     "7.52 ct Brazilian cushion",
+     "7.8-15.5m"
+    ],
+    [
+     "Harry Winston emerald set",
+     "25.09 ct Colombian emerald",
+     "8-15m"
+    ],
+    [
+     "Harry Winston emerald earrings",
+     "16.27 and 17.03 ct Colombian",
+     "7-15m"
+    ],
+    [
+     "Mauboussin necklace, circa 1930",
+     "Burmese rubies and ruby beads",
+     "9.5-11m"
+    ],
+    [
+     "Conch pearl necklace",
+     "6.4-12.45 mm drop pearls",
+     "6.5-9.5m"
+    ],
+    [
+     "Kashmir sapphire ring",
+     "20.84 ct sugarloaf cabochon",
+     "5.5-9.5m"
+    ],
+    [
+     "Burmese ruby ring",
+     "6.05 ct cushion",
+     "6.3-7.8m"
+    ],
+    [
+     "Van Cleef & Arpels necklace",
+     "72 carved emerald beads",
+     "4.6-6m"
+    ]
+   ],
+   "hi": 0,
+   "note": "<b>Source</b> Rapaport, 3 September 2026, reporting Sotheby's Hong Kong High Jewellery sale of 17 September 2026. <b>Order</b> is by the top of each estimate, computed by Carat Capital; Rapaport publishes no ranking. <b>The earrings</b> carry a single figure in the source rather than a range.",
+   "plate": "CC/2026/056"
+  },
+  "sections": [
+   {
+    "h": "Colour carries the ten costliest lots",
+    "p": [
+     {
+      "lead": "Diamonds lead nothing.",
+      "text": "9 of the 10 costliest lots are led by a coloured stone. The tenth is a conch pearl necklace. Diamonds appear as settings and frames."
+     },
+     {
+      "lead": "Burma supplies four.",
+      "text": "Four of the 10 are Burmese rubies: the earrings, two rings and a Mauboussin necklace of about 1930."
+     }
+    ]
+   },
+   {
+    "h": "The estimates leave gaps",
+    "p": [
+     {
+      "lead": "One figure, no range.",
+      "text": "Rapaport gives the earrings a single HK$20 million, where the other nine lots carry ranges. No low estimate for the top lot is published."
+     },
+     {
+      "lead": "No sale total.",
+      "text": "Neither the house nor Rapaport gives an aggregate estimate for the 200-plus lots. The published ten are a selection, not a whole."
+     }
+    ]
+   },
+   {
+    "h": "Hong Kong sets the September mark",
+    "p": [
+     {
+      "lead": "The room matters.",
+      "text": "Hong Kong is where Asian coloured-stone demand is priced each September. Entry to the published ten is a Van Cleef & Arpels emerald necklace at HK$4.6 million."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "17 Sep",
+    "what": "The sale in Hong Kong. The earrings against HK$20 million is the test of Burmese ruby demand."
+   },
+   {
+    "when": "Before 17 Sep",
+    "what": "Sotheby's catalogue, for a low estimate on the earrings and any aggregate for the sale."
+   },
+   {
+    "when": "After 17 Sep",
+    "what": "The Colombian emerald results against the Harry Winston pair's HK$7 million to HK$15 million."
+   }
+  ],
+  "depth": {
+   "reverse": "The earrings failing to sell, or clearing at the bottom of a range Sotheby's has not yet published. Either would show that Burmese ruby demand is narrower than a catalogue of nine coloured-stone lots implies.",
+   "built": {
+    "title": "Why a Burmese ruby prices apart",
+    "text": "Rubies from the Mogok and Mong Hsu deposits in Myanmar carry the colour the trade calls pigeon's blood, and United States import restrictions have limited their movement since 2008. Certified Burmese stones above five carats are scarce and are graded and priced as a separate class from Mozambican and Thai material, which is why origin appears in the lot description before the weight."
+   },
+   "method": "Estimates and carat weights are Rapaport's, published 3 September 2026, reporting Sotheby's Hong Kong High Jewellery sale of 17 September 2026. The South China Morning Post's report of the same sale confirms the lead lot, the estimate and the 200-lot count. The 10.28-carat figure is the sum of the two rubies, 5.08 and 5.20, computed by Carat Capital; the sources give them separately. The ranking in Table I is by the top of each estimate and is also computed here. Rapaport publishes one figure for the earrings rather than a range, no low estimate for that lot, and no aggregate estimate for the sale, so none is stated. The count of nine coloured-stone lots is of the ten lots Rapaport names and is not a count of the whole sale. Dollar equivalents in the source are Rapaport's conversion and are not repeated.",
+   "prior": [
+    {
+     "date": "5 Sep 2026",
+     "slug": "four-one-offs-to-phillips",
+     "title": "4 one-offs to Phillips",
+     "claim": "Rolex sends four unique Daytonas to a public room."
+    },
+    {
+     "date": "2 Sep 2026",
+     "slug": "fifty-nine-thousand-in-penzance",
+     "title": "£59,000 in Penzance",
+     "claim": "A steel Patek beat its low estimate 11.8 times."
+    },
+    {
+     "date": "24 Jul 2026",
+     "slug": "sothebys-thirty-one-million",
+     "title": "$31.4 million at Sotheby's",
+     "claim": "Trophy lots carried a high jewellery sale; a pink walked."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Ruby and Diamond Earrings to Headline Sotheby's Hong Kong Auction - Rapaport, 3 September 2026",
+     "url": "https://rapaport.com/news/ruby-and-diamond-earrings-to-headline-sothebys-hong-kong-auction/"
+    },
+    {
+     "title": "Hong Kong's jewellery auctions hold strong as the 2026 season builds - South China Morning Post",
+     "url": "https://www.scmp.com/magazines/style/luxury/jewellery/article/3354220/hong-kongs-jewellery-auctions-hold-strong-2026-season-builds"
+    }
+   ]
+  },
+  "next": {
+   "slug": "sothebys-thirty-one-million",
+   "why": "The last high jewellery sale Carat Capital priced, and the trophy lot that failed to sell."
+  }
+ },
+ "de-wever-goes-to-mumbai": {
+  "v": 3,
+  "kicker": "Trade flows",
+  "seo_title": "Antwerp's $19.1bn trade turns to India",
+  "figures": {
+   "asof": "AWDC via RTBF and GJEPC, both 4 September 2026 - Antwerp 2025, bilateral 2025-26",
+   "cells": [
+    {
+     "n": "$19.1bn",
+     "dir": "dn",
+     "label": "Antwerp trade",
+     "q": "imports and exports, 2025"
+    },
+    {
+     "n": "$3.5bn",
+     "dir": "up",
+     "label": "India-Belgium trade",
+     "q": "gems and jewellery, 2025-26"
+    },
+    {
+     "n": "−30%",
+     "dir": "dn",
+     "label": "Lost to the embargo",
+     "q": "volume and value, AWDC"
+    },
+    {
+     "n": "90-95%",
+     "dir": "up",
+     "label": "Rough cut in India",
+     "q": "University of Antwerp estimate"
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Antwerp came to Mumbai.",
+   "text": "Belgium's prime minister visited the Bharat Diamond Bourse, which GJEPC calls a first for the office. Antwerp traded $19.1 billion of diamonds in 2025 and has lost 30% of its volume to the Russian embargo."
+  },
+  "means": [
+   {
+    "who": "If you buy rough in Antwerp:",
+    "text": "the seller pool is smaller and Indian demand sets the clearing price."
+   },
+   {
+    "who": "If you cut in Surat:",
+    "text": "a Belgium-India agreement would cut duty on goods you already handle."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a signed deal. No instrument was concluded at the bourse."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I - The two ends of one pipeline",
+   "asof": "2025 for Antwerp, 2025-26 for the bilateral figures",
+   "cols": [
+    "Measure",
+    "Figure",
+    "Attributed to"
+   ],
+   "rows": [
+    [
+     "Antwerp diamond trade, 2025",
+     "$19.1bn",
+     "AWDC, via RTBF"
+    ],
+    [
+     "Of which natural rough and polished",
+     "$19bn",
+     "AWDC, via RTBF"
+    ],
+    [
+     "Volume and value lost to the Russian embargo",
+     "30%",
+     "Ine Tassignon, AWDC"
+    ],
+    [
+     "Rough cut in India",
+     "90-95%",
+     "Koen Vandenbempt, University of Antwerp"
+    ],
+    [
+     "Antwerp polished exported to the United States",
+     "over 55%",
+     "RTBF"
+    ],
+    [
+     "India-Belgium gem and jewellery trade, 2025-26",
+     "$3.5bn",
+     "GJEPC"
+    ],
+    [
+     "Bilateral target within three years",
+     "$10bn",
+     "GJEPC"
+    ]
+   ],
+   "hi": 2,
+   "note": "<b>Source</b> RTBF, 4 September 2026, in French, and GJEPC's release of 4 September 2026. <b>Attribution</b> is to the person or body RTBF names for each figure. <b>Translations</b> from the French are Carat Capital's.",
+   "plate": "CC/2026/056"
+  },
+  "sections": [
+   {
+    "h": "The embargo took the volume",
+    "p": [
+     {
+      "lead": "Thirty percent gone.",
+      "text": "\"We have lost 30% of the volume and value of goods traded in Antwerp,\" the AWDC's spokesperson Ine Tassignon told RTBF. Russian sanctions took it."
+     },
+     {
+      "lead": "The total still stands.",
+      "text": "Antwerp moved $19.1 billion of diamonds in and out in 2025, of which $19 billion was natural rough and polished."
+     }
+    ]
+   },
+   {
+    "h": "India holds the cutting wheels",
+    "p": [
+     {
+      "lead": "Surat does the work.",
+      "text": "Between 90% and 95% of the world's rough is cut in India, on the University of Antwerp's estimate. Antwerp trades the stone; India makes it."
+     },
+     {
+      "lead": "America takes the output.",
+      "text": "More than 55% of the polished leaving Antwerp goes to the United States, so American demand reaches Belgium through Indian factories."
+     }
+    ]
+   },
+   {
+    "h": "What the visit put on paper",
+    "p": [
+     {
+      "lead": "Trade at $3.5bn.",
+      "text": "GJEPC puts gem and jewellery trade between India and Belgium at $3.5 billion. It wants $10 billion within three years under an India-EU agreement."
+     },
+     {
+      "lead": "Nobody signed anything.",
+      "text": "The release records a visit and three speeches: De Wever, GJEPC chairman Kirit Bhansali and bourse president Anoop Mehta. No instrument was concluded."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Mid-Sep",
+    "what": "GJEPC's monthly trade data, for whether Indian imports from Belgium moved."
+   },
+   {
+    "when": "1 Oct",
+    "what": "India's fifteen-year tax exemption for foreign rough sellers takes effect."
+   },
+   {
+    "when": "Q4",
+    "what": "Any India-EU agreement text covering gem and jewellery tariff lines."
+   }
+  ],
+  "depth": {
+   "reverse": "An India-EU agreement that leaves gem and jewellery tariff lines out. The $10 billion target rests on the sector sitting inside the deal, and nothing published yet says it does.",
+   "built": {
+    "title": "How Antwerp counts its trade",
+    "text": "The AWDC's headline figure adds imports and exports together, so a stone that arrives in Antwerp and leaves again is counted twice. The double count is deliberate and consistent across years, which makes the series comparable with itself but not with a country's net trade balance. It covers rough, polished and laboratory-grown goods crossing the Belgian border through the Antwerp district."
+   },
+   "method": "Antwerp's figures are RTBF's report of 4 September 2026, which attributes the $19.1 billion and $19 billion totals for 2025 to the AWDC, the 30% embargo loss to AWDC spokesperson Ine Tassignon, and the 90% to 95% cutting share to Koen Vandenbempt of the University of Antwerp. Translations from the French are Carat Capital's; the quoted sentence reads in the original 'Nous avons perdu 30% du volume et de la valeur des biens qui etaient echanges a Anvers'. The bilateral $3.5 billion for 2025-26 and the $10 billion three-year target are GJEPC's, published 4 September 2026, as is the description of the visit as a first for a Belgian prime minister; no independent confirmation of that first was found and it is carried as GJEPC's claim. RTBF also reports Antwerp's first-half 2026 trade up 10%; Carat Capital's own reading of AWDC monthly data on 14 July put the comparable half-year gain at 9%, so that figure is left out rather than reconciled.",
+   "prior": [
+    {
+     "date": "31 Aug 2026",
+     "slug": "polished-up-seventeen-rough-down-twenty-six",
+     "title": "Antwerp's two books split",
+     "claim": "Polished per carat rose 17.34%, rough fell 26%."
+    },
+    {
+     "date": "7 Aug 2026",
+     "slug": "fifteen-years-no-tax",
+     "title": "Fifteen years, no tax",
+     "claim": "India exempts foreign rough sellers from 1 October 2026."
+    },
+    {
+     "date": "26 Jul 2026",
+     "slug": "antwerp-thins-india-loads",
+     "title": "Antwerp thins, India loads",
+     "claim": "A polished shortage in Antwerp steered buyers to India."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Anvers, capitale du diamant, resiste mais perd des plumes - RTBF, 4 September 2026",
+     "url": "https://www.rtbf.be/article/anvers-capitale-du-diamant-resiste-mais-perd-des-plumes-face-a-dubai-et-a-cause-des-diamants-synthetiques-et-de-l-embargo-sur-les-diamants-russes-11779347"
+    },
+    {
+     "title": "Belgian Prime Minister H.E. Bart De Wever Makes First Visit to Bharat Diamond Bourse - GJEPC, 4 September 2026",
+     "url": "https://www.gjepc.org/news_detail.php?news=belgian-prime-minister-h-e-bart-de-wever-makes-historic-first-visit-to-bharat-diamond-bourse-1"
+    }
+   ]
+  },
+  "next": {
+   "slug": "fifteen-years-no-tax",
+   "why": "The tax holiday India opens on 1 October, and what it was designed to take from Dubai."
+  }
+ },
+ "penny-gives-cibjo-eight-points": {
+  "v": 3,
+  "kicker": "Industry address",
+  "seo_title": "Penny gives CIBJO an 8-point diamond plan",
+  "figures": {
+   "asof": "CIBJO centenary congress, Vicenza, 4 September 2026 - as reported by JCK and CIBJO the same day",
+   "cells": [
+    {
+     "n": "8",
+     "dir": "up",
+     "label": "Points in the plan",
+     "q": "as JCK numbers them"
+    },
+    {
+     "n": "100",
+     "dir": "up",
+     "label": "Years of CIBJO",
+     "q": "the centenary congress"
+    },
+    {
+     "n": "5 of 8",
+     "dir": "up",
+     "label": "Points on messaging",
+     "q": "not on supply or price"
+    },
+    {
+     "n": "$1bn",
+     "dir": "dn",
+     "label": "Reported De Beers price",
+     "q": "Penny consortium, July"
+    }
+   ]
+  },
+  "changed": {
+   "lead": "The bidder named the crisis.",
+   "text": "Gareth Penny opened CIBJO's centenary congress in Vicenza on 4 September with an eight-point plan for natural diamonds. He leads the consortium bidding for De Beers."
+  },
+  "means": [
+   {
+    "who": "If you sell natural stones:",
+    "text": "the plan is a marketing brief, not a supply or pricing measure."
+   },
+   {
+    "who": "If you are watching the De Beers sale:",
+    "text": "the likely buyer has said publicly what he wants the asset to do."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a commitment. No spend, date or funder was given."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I - The eight points, as JCK numbers them",
+   "asof": "Vicenza, 4 September 2026",
+   "cols": [
+    "No.",
+    "The point"
+   ],
+   "rows": [
+    [
+     "1",
+     "Sell meaning, not minerals"
+    ],
+    [
+     "2",
+     "Prove natural diamonds change lives"
+    ],
+    [
+     "3",
+     "Make transparency an industry standard"
+    ],
+    [
+     "4",
+     "Make sustainability visible"
+    ],
+    [
+     "5",
+     "Create desire among Gen Y, Z and Alpha"
+    ],
+    [
+     "6",
+     "Make the value chain work as one"
+    ],
+    [
+     "7",
+     "Let innovation strengthen tradition"
+    ],
+    [
+     "8",
+     "De Beers must lead beyond its own business"
+    ]
+   ],
+   "hi": 7,
+   "note": "<b>Source</b> JCK, 4 September 2026, which numbers the plan at eight. <b>CIBJO's own release</b> on the same session presents the same material as a run of priorities and does not number them, so the count is JCK's. <b>Wording</b> is condensed from JCK's list.",
+   "plate": "CC/2026/056"
+  },
+  "sections": [
+   {
+    "h": "The diagnosis is demand",
+    "p": [
+     {
+      "lead": "Volume went synthetic.",
+      "text": "Penny told the congress that synthetic stones now take the majority by volume of US engagement rings. Consumer trust, he said, can no longer be assumed."
+     },
+     {
+      "lead": "The quote is short.",
+      "text": "\"Our industry is in the middle of a real crisis,\" Penny said. Five of the eight points are about what the trade says, not what it digs or cuts."
+     }
+    ]
+   },
+   {
+    "h": "The eighth point names De Beers",
+    "p": [
+     {
+      "lead": "He wants the seat.",
+      "text": "The last point asks De Beers to lead beyond its own business. Penny leads the group Anglo American picked in July to buy it."
+     },
+     {
+      "lead": "The price is public.",
+      "text": "Bloomberg put the consortium's price at about $1 billion, roughly $750 million on closing. Nothing in the plan says who funds the marketing it asks for."
+     }
+    ]
+   },
+   {
+    "h": "A congress is not a budget",
+    "p": [
+     {
+      "lead": "Intent, not instrument.",
+      "text": "A congress speech states what the trade wants. CIBJO's 100th year drew the sector's standards bodies to Vicenza from 4 to 7 September."
+     },
+     {
+      "lead": "The audience writes rules.",
+      "text": "CIBJO's members are national jewellery associations and laboratories, so the room Penny addressed writes the standards his transparency point relies on."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "7 Sep",
+    "what": "The close of the congress, and CIBJO's commission reports on the blue books."
+   },
+   {
+    "when": "Q4",
+    "what": "Anglo American's year-end clock on the De Beers sale, set in July."
+   },
+   {
+    "when": "Q4",
+    "what": "Any named funder or spend attached to a generic natural diamond campaign."
+   }
+  ],
+  "depth": {
+   "reverse": "A funded campaign with a named budget and a named payer, announced before the De Beers sale closes. That would move the plan from a statement of intent to an instrument, and would change what the eighth point is asking for.",
+   "built": {
+    "title": "What CIBJO is and what it can do",
+    "text": "CIBJO, the World Jewellery Confederation, was established in 1926 and is a federation of national trade associations, laboratories and sector bodies rather than a company or a regulator. It writes the Blue Books, the voluntary grading and disclosure standards that national associations adopt, and it holds consultative status at the United Nations Economic and Social Council. It has no power to levy, spend or enforce, which is why a plan addressed to its congress is a request to members rather than a decision."
+   },
+   "method": "The eight points, the count of eight and the wording condensed in Table I are JCK's, published 4 September 2026. CIBJO's own release on the same session presents the same material as an unnumbered run of priorities, so the count is disclosed as JCK's rather than stated as the speaker's. The reading that five of the eight concern messaging counts points one to five, which address what the trade says about its product; points six to eight address structure, product and leadership. Penny's titles are former group chief executive of De Beers and chairman of the board of Ninety One, the latter from CIBJO's release. The $1 billion and $750 million figures are Bloomberg's, reported 29 July 2026 and carried here on 30 July; they are not figures given at the congress. The claim about synthetic share of US engagement rings is Penny's, as reported, and is carried as his statement rather than as a measured figure.",
+   "prior": [
+    {
+     "date": "2 Aug 2026",
+     "slug": "nobody-has-de-beers-yet",
+     "title": "Nobody has De Beers yet",
+     "claim": "No buyer signed, and Anglo ruled out a listing."
+    },
+    {
+     "date": "30 Jul 2026",
+     "slug": "one-billion-for-de-beers",
+     "title": "One billion for De Beers",
+     "claim": "Bloomberg put the Penny consortium's price near $1 billion."
+    },
+    {
+     "date": "26 Jul 2026",
+     "slug": "de-beers-sale-gets-a-clock",
+     "title": "De Beers sale gets a clock",
+     "claim": "Anglo picked the Penny group and set a year-end deadline."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Gareth Penny: Natural Diamond Industry Faces 'Real Crisis,' Outlines 8-Point Plan - JCK, 4 September 2026",
+     "url": "https://www.jckonline.com/editorial-article/gareth-penny-diamond-crisis/"
+    },
+    {
+     "title": "Emotive campaigns will be key to recovery of natural diamond markets, Gareth Penny tells CIBJO Congress - CIBJO",
+     "url": "https://cibjo.org/emotive-campaigns-will-be-key-to-recovery-of-natural-diamond-markets-gareth-penny-tells-cibjo-congress/"
+    },
+    {
+     "title": "Anglo Said to Be in Talks to Sell De Beers for About $1 Billion - Bloomberg, 29 July 2026",
+     "url": "https://www.bloomberg.com/news/articles/2026-07-29/anglo-said-to-be-in-talks-to-sell-de-beers-for-about-1-billion"
+    }
+   ]
+  },
+  "next": {
+   "slug": "one-billion-for-de-beers",
+   "why": "What the consortium Penny leads is reported to be paying, and how the money is staged."
+  }
+ },
+ "five-up-eight-down-in-august": {
+  "v": 3,
+  "kicker": "Counter sales",
+  "seo_title": "Edge: August jewelry sales up 5%, units down 8%",
+  "figures": {
+   "asof": "Edge Retail Academy, August 2026 against August 2025 - reported by JCK, 3 September 2026",
+   "cells": [
+    {
+     "n": "+5%",
+     "dir": "up",
+     "label": "Gross sales",
+     "q": "August, year on year"
+    },
+    {
+     "n": "−8%",
+     "dir": "dn",
+     "label": "Units sold",
+     "q": "August, year on year"
+    },
+    {
+     "n": "+14%",
+     "dir": "up",
+     "label": "Average sale",
+     "q": "against August 2025"
+    },
+    {
+     "n": "−19%",
+     "dir": "dn",
+     "label": "Silver units",
+     "q": "the worst category"
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Fewer pieces, more money.",
+   "text": "Independent US jewellers took 5% more in August than a year earlier on 8% fewer units, so the average retail sale rose 14%. Every category sold fewer pieces."
+  },
+  "means": [
+   {
+    "who": "If you restock for the holidays:",
+    "text": "buy fewer, dearer pieces. The unit count is falling in every category."
+   },
+   {
+    "who": "If you sell silver:",
+    "text": "dollars fell 5% while units fell 19%. Price is carrying the line."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a national statistic. It is one aggregator's store panel."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I - August 2026 against August 2025",
+   "asof": "Edge Retail Academy panel of US independent jewellers",
+   "cols": [
+    "Category",
+    "Dollars",
+    "Units",
+    "Average sale"
+   ],
+   "rows": [
+    [
+     "All jewellery",
+     "+5%",
+     "−8%",
+     "+14%"
+    ],
+    [
+     "Diamond jewellery",
+     "+8%",
+     "−9%",
+     "+18%"
+    ],
+    [
+     "Coloured stones and pearls",
+     "+4%",
+     "−14%",
+     "+21%"
+    ],
+    [
+     "Sterling silver and alternative metals",
+     "−5%",
+     "−19%",
+     "+17%"
+    ]
+   ],
+   "hi": 3,
+   "note": "<b>Source</b> Edge Retail Academy, reported by JCK, 3 September 2026. <b>The panel</b> is described as thousands of independent US retailers; no store count is published. <b>Average sale</b> is Edge's own measure, not dollars divided by units.",
+   "plate": "CC/2026/056"
+  },
+  "sections": [
+   {
+    "h": "Price is doing all the work",
+    "p": [
+     {
+      "lead": "Every category shrank.",
+      "text": "Units fell in all three categories Edge reports, from 9% in diamonds to 19% in silver. Dollars rose in two of the three."
+     },
+     {
+      "lead": "The ticket did it.",
+      "text": "The average retail sale rose 14% across the counter, and by 18% in diamond jewellery. That gain is what turned an 8% unit fall into a 5% dollar gain."
+     }
+    ]
+   },
+   {
+    "h": "Silver is the tell",
+    "p": [
+     {
+      "lead": "One category fell.",
+      "text": "Sterling silver and alternative metals lost 5% of dollars on 19% fewer units, the only line where price could not cover the volume."
+     },
+     {
+      "lead": "The entry buyer left.",
+      "text": "Silver is where a first-time or gift buyer enters the store. A 19% unit fall there is a footfall signal, not a margin one."
+     }
+    ]
+   },
+   {
+    "h": "What the aggregate hides",
+    "p": [
+     {
+      "lead": "Coloured stones held.",
+      "text": "Coloured stones and pearls took 4% more money on 14% fewer units, the largest average-sale gain in the table at 21%."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Early Oct",
+    "what": "Edge's September figures, for whether the unit fall steepens before the quarter."
+   },
+   {
+    "when": "Mid-Oct",
+    "what": "US Census advance retail sales for jewellery, as an independent read on the same months."
+   },
+   {
+    "when": "Nov-Dec",
+    "what": "Whether a 14% ticket gain survives a holiday season of discounting."
+   }
+  ],
+  "depth": {
+   "reverse": "A September in which units stop falling while the average sale holds. That would show the ticket gain is mix and not substitution, and the reading that fewer customers are buying dearer goods would not hold.",
+   "built": {
+    "title": "What the Edge panel measures",
+    "text": "Edge Retail Academy aggregates point-of-sale data from independent United States jewellers running its store system, and reports month-on-month change against the same month a year earlier. It is a panel, not a census: it excludes chains, online-only sellers and any independent not on the system, and its composition can change between months as stores join or leave. Its average retail sale is reported directly from transaction records rather than derived by dividing reported dollars by reported units."
+   },
+   "method": "All percentages are Edge Retail Academy's as reported by JCK on 3 September 2026, comparing August 2026 with August 2025. No store count, panel size or dollar total is published in that report, so none is stated here. Carat Capital has not divided the reported dollar change by the reported unit change to derive the average sale, because Edge reports that measure separately and the two are not arithmetically consistent with each other in a panel whose composition can shift. Carat Capital's prior reading, published 26 July 2026, covered the first half of 2026 and the month of June; this covers August, a different period from the same source family.",
+   "prior": [
+    {
+     "date": "26 Jul 2026",
+     "slug": "average-ticket-carries-the-half",
+     "title": "Up nine percent",
+     "claim": "US jewellery revenue rose on a far larger ticket gain."
+    },
+    {
+     "date": "7 Aug 2026",
+     "slug": "twenty-two-thirty-eight-an-order",
+     "title": "$2,238 an order",
+     "claim": "Brilliant Earth bought profit back on 2.1% fewer orders."
+    }
+   ],
+   "sources": [
+    {
+     "title": "August Jewelry Sales Rise 5%, Driven by Higher Ticket Values - JCK, 3 September 2026",
+     "url": "https://www.jckonline.com/editorial-article/august-jewelry-sales-up-5-percent/"
+    }
+   ]
+  },
+  "next": {
+   "slug": "average-ticket-carries-the-half",
+   "why": "The same pattern at the half-year, when the ticket gain was nearly twice as large."
+  }
+ },
+ "fifty-five-thousand-in-california": {
+  "v": 3,
+  "kicker": "Sale preview",
+  "seo_title": "$55,000 sapphire necklace leads Bonhams California",
+  "figures": {
+   "asof": "Bonhams Fine Jewelry: California, 24 September 2026 - lots and estimates as published by Rapaport, 2 September 2026",
+   "cells": [
+    {
+     "n": "$55,000",
+     "dir": "up",
+     "label": "Top estimate",
+     "q": "sapphire and diamond necklace"
+    },
+    {
+     "n": "200+",
+     "dir": "up",
+     "label": "Lots on offer",
+     "q": "California, 24 September"
+    },
+    {
+     "n": "97.45 ct",
+     "dir": "up",
+     "label": "Gems in one suite",
+     "q": "emerald, ruby and sapphire"
+    },
+    {
+     "n": "37.70 ct",
+     "dir": "up",
+     "label": "Diamond line necklace",
+     "q": "estimate $25,000 to $35,000"
+    }
+   ]
+  },
+  "changed": {
+   "lead": "The estate end prices.",
+   "text": "Bonhams sells more than 200 lots in California on 24 September. A multicoloured sapphire and diamond necklace carries the top estimate at $55,000, with four sapphires between 3.25 and 5.65 carats."
+  },
+  "means": [
+   {
+    "who": "If you buy estate goods:",
+    "text": "this is the band a shop can actually restock from, not a trophy sale."
+   },
+   {
+    "who": "If you price signed pieces:",
+    "text": "a David Webb bangle at $25,000 to $35,000 is the comparable."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a market. Five lots do not set an estate price level."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I - The five leading lots",
+   "asof": "Estimates in US dollars, as published by Rapaport",
+   "cols": [
+    "Lot",
+    "Principal stones",
+    "Estimate"
+   ],
+   "rows": [
+    [
+     "Multicoloured sapphire and diamond necklace",
+     "Sapphires of 3.25, 3.32, 4.56 and 5.65 ct",
+     "$55,000"
+    ],
+    [
+     "Gem and diamond suite, three pieces",
+     "36.85 ct emerald, 33.75 ct ruby, 26.85 ct sapphire",
+     "$35,000-55,000"
+    ],
+    [
+     "Pearl and sapphire necklace and bracelet",
+     "4.90 ct sapphire, 7.50 ct diamond",
+     "$30,000-50,000"
+    ],
+    [
+     "Diamond line necklace",
+     "37.70 ct total",
+     "$25,000-35,000"
+    ],
+    [
+     "David Webb panther bangle",
+     "1.10 ct diamond",
+     "$25,000-35,000"
+    ]
+   ],
+   "hi": 0,
+   "note": "<b>Source</b> Rapaport, 2 September 2026, reporting Bonhams Fine Jewelry: California, 24 September 2026. <b>The 97.45 carats</b> is the sum of the suite's emerald, ruby and sapphire weights, computed by Carat Capital. <b>The top lot</b> carries a single figure in the source rather than a range.",
+   "plate": "CC/2026/056"
+  },
+  "sections": [
+   {
+    "h": "This is the restocking band",
+    "p": [
+     {
+      "lead": "Five figures, not seven.",
+      "text": "The whole published top five sits between $25,000 and $55,000. A shop buying estate goods can bid in that band; it cannot bid in Hong Kong's."
+     },
+     {
+      "lead": "Signed names carry it.",
+      "text": "Tiffany, Hermes and David Webb appear among the makers. A signature is what lifts an estate lot above the melt and stone value beneath it."
+     }
+    ]
+   },
+   {
+    "h": "Weight is where the value hides",
+    "p": [
+     {
+      "lead": "One suite, 97.45 carats.",
+      "text": "The three-piece gem suite holds 36.85 carats of emerald, 33.75 of ruby and 26.85 of sapphire, and is estimated at $35,000 to $55,000."
+     },
+     {
+      "lead": "Diamonds price lower.",
+      "text": "A line necklace of 37.70 carats carries $25,000 to $35,000, under $1,000 a carat at the top of the range."
+     }
+    ]
+   },
+   {
+    "h": "What the preview does not say",
+    "p": [
+     {
+      "lead": "No sale total.",
+      "text": "Bonhams publishes no aggregate estimate for the 200-plus lots, and the five named are a selection made for the trade press."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "24 Sep",
+    "what": "The sale in California. The $55,000 necklace against its hammer is the test."
+   },
+   {
+    "when": "Before 24 Sep",
+    "what": "Bonhams' catalogue, for a low estimate on the top lot and the full lot count."
+   },
+   {
+    "when": "17 Sep",
+    "what": "Sotheby's Hong Kong, the same month at forty times the top estimate."
+   }
+  ],
+  "depth": {
+   "reverse": "A hammer well above $55,000 on the top lot, with the suite following. That would make this a coloured-stone result rather than an estate-restocking sale, and the reading of it as a trade buying band would not hold.",
+   "built": {
+    "title": "How an estate lot is estimated",
+    "text": "A house estimating estate jewellery starts from the intrinsic value of the stones and metal, applies a discount for the cost of breaking the piece up, then adds a premium for the maker's signature, the period and the condition of the mount. Unsigned pieces tend to be estimated close to intrinsic value, which is why a signed bangle carrying little diamond weight can be estimated alongside a necklace holding thirty-seven carats."
+   },
+   "method": "Estimates, carat weights and the lot count are Rapaport's, published 2 September 2026, reporting Bonhams' Fine Jewelry: California sale of 24 September 2026. The 97.45-carat figure is the sum of the suite's 36.85 carats of emerald, 33.75 of ruby and 26.85 of sapphire, computed by Carat Capital; the source gives them separately and also lists 5.85 carats of diamonds in the same suite, which is excluded from that sum. The under-$1,000-a-carat reading on the line necklace divides $35,000 by 37.70 carats and is Carat Capital's arithmetic. Rapaport publishes a single figure for the top lot rather than a range, and no aggregate estimate for the sale, so neither a low estimate nor a sale total is stated.",
+   "prior": [
+    {
+     "date": "25 Aug 2026",
+     "slug": "thirty-nine-of-forty-eight",
+     "title": "39 of 48 in Sydney",
+     "claim": "A regional room cleared four fifths of its lots."
+    },
+    {
+     "date": "2 Sep 2026",
+     "slug": "fifty-nine-thousand-in-penzance",
+     "title": "£59,000 in Penzance",
+     "claim": "A steel Patek beat its low estimate 11.8 times."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Sapphire-and-Diamond Necklace to Sparkle at Bonhams Auction - Rapaport, 2 September 2026",
+     "url": "https://rapaport.com/news/sapphire-and-diamond-necklace-to-sparkle-at-bonhams-auction/"
+    }
+   ]
+  },
+  "next": {
+   "slug": "twenty-million-on-two-rubies",
+   "why": "The other September sale, in Hong Kong, where the top lot is estimated forty times higher."
   }
  }
 }
