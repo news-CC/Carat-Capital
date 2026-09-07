@@ -106168,11 +106168,6 @@
      "India-Belgium gem and jewellery trade, 2025-26",
      "$3.5bn",
      "GJEPC"
-    ],
-    [
-     "Bilateral target within three years",
-     "$10bn",
-     "GJEPC"
     ]
    ],
    "hi": 2,
@@ -106211,7 +106206,7 @@
     "p": [
      {
       "lead": "Trade at $3.5bn.",
-      "text": "GJEPC puts gem and jewellery trade between India and Belgium at $3.5 billion. It wants $10 billion within three years under an India-EU agreement."
+      "text": "GJEPC puts gem and jewellery trade between India and Belgium at $3.5 billion for 2025-26. The council published the figure alongside the visit."
      },
      {
       "lead": "Nobody signed anything.",
@@ -106235,12 +106230,12 @@
    }
   ],
   "depth": {
-   "reverse": "An India-EU agreement that leaves gem and jewellery tariff lines out. The $10 billion target rests on the sector sitting inside the deal, and nothing published yet says it does.",
+   "reverse": "An India-EU agreement that leaves gem and jewellery tariff lines out. The case made at the bourse rests on the sector sitting inside that deal, and nothing published yet says it does.",
    "built": {
     "title": "How Antwerp counts its trade",
     "text": "The AWDC's headline figure adds imports and exports together, so a stone that arrives in Antwerp and leaves again is counted twice. The double count is deliberate and consistent across years, which makes the series comparable with itself but not with a country's net trade balance. It covers rough, polished and laboratory-grown goods crossing the Belgian border through the Antwerp district."
    },
-   "method": "Antwerp's figures are RTBF's report of 4 September 2026, which attributes the $19.1 billion and $19 billion totals for 2025 to the AWDC, the 30% embargo loss to AWDC spokesperson Ine Tassignon, and the 90% to 95% cutting share to Koen Vandenbempt of the University of Antwerp. Translations from the French are Carat Capital's; the quoted sentence reads in the original 'Nous avons perdu 30% du volume et de la valeur des biens qui etaient echanges a Anvers'. The bilateral $3.5 billion for 2025-26 and the $10 billion three-year target are GJEPC's, published 4 September 2026, as is the description of the visit as a first for a Belgian prime minister; no independent confirmation of that first was found and it is carried as GJEPC's claim. RTBF also reports Antwerp's first-half 2026 trade up 10%; Carat Capital's own reading of AWDC monthly data on 14 July put the comparable half-year gain at 9%, so that figure is left out rather than reconciled.",
+   "method": "Antwerp's figures are RTBF's report of 4 September 2026, which attributes the $19.1 billion and $19 billion totals for 2025 to the AWDC, the 30% embargo loss to AWDC spokesperson Ine Tassignon, and the 90% to 95% cutting share to Koen Vandenbempt of the University of Antwerp. Translations from the French are Carat Capital's; the quoted sentence reads in the original 'Nous avons perdu 30% du volume et de la valeur des biens qui etaient echanges a Anvers'. The bilateral $3.5 billion for 2025-26 is GJEPC's, published 4 September 2026, as is the description of the visit as a first for a Belgian prime minister; no independent confirmation of that first was found and it is carried as GJEPC's claim. RTBF also reports Antwerp's first-half 2026 trade up 10%; Carat Capital's own reading of AWDC monthly data on 14 July put the comparable half-year gain at 9%, so that figure is left out rather than reconciled.",
    "prior": [
     {
      "date": "31 Aug 2026",
@@ -106270,12 +106265,16 @@
      "title": "Belgian Prime Minister H.E. Bart De Wever Makes First Visit to Bharat Diamond Bourse - GJEPC, 4 September 2026",
      "url": "https://www.gjepc.org/news_detail.php?news=belgian-prime-minister-h-e-bart-de-wever-makes-historic-first-visit-to-bharat-diamond-bourse-1"
     }
+   ],
+   "corrections": [
+    "<b>Corrected 7 September 2026.</b> The dek, Table I and the body carried a $10bn bilateral target within three years, attributed to GJEPC. The figure is in GJEPC's release of 4 September 2026, so it is not invented, but the release sets it against India-EU trade under the free trade agreement and never says which basket of goods it covers, and $3.5bn of gem and jewellery trade cannot double to $10bn. The claim has been removed from the dek, from Table I and from the body rather than carried with a caveat. Correct as published and unchanged: the $19.1bn Antwerp total for 2025, the $19bn natural share, the 30% embargo loss, the 90% to 95% Indian cutting share, the over-55% United States share of Antwerp polished, and the $3.5bn India-Belgium gem and jewellery figure for 2025-26."
    ]
   },
   "next": {
    "slug": "fifteen-years-no-tax",
    "why": "The tax holiday India opens on 1 October, and what it was designed to take from Dubai."
-  }
+  },
+  "modified": "2026-09-07"
  },
  "penny-gives-cibjo-eight-points": {
   "v": 3,
@@ -106824,6 +106823,794 @@
   "next": {
    "slug": "twenty-million-on-two-rubies",
    "why": "The other September sale, in Hong Kong, where the top lot is estimated forty times higher."
+  }
+ },
+ "a-trillion-and-the-jewelry-case": {
+  "v": 3,
+  "kicker": "Holiday demand",
+  "seo_title": "Bain: US holiday sales above $1 trillion, up 4.5%",
+  "figures": {
+   "asof": "Bain & Company, 3 September 2026, and McKinsey and PwC via Rapaport, 6 September 2026 · November-December 2026",
+   "cells": [
+    {
+     "n": "+4.5%",
+     "dir": "up",
+     "label": "Holiday sales",
+     "q": "November and December, Bain"
+    },
+    {
+     "n": "$1tn",
+     "dir": "up",
+     "label": "Season total",
+     "q": "first time above, Bain"
+    },
+    {
+     "n": "43%",
+     "dir": "dn",
+     "label": "Spending less",
+     "q": "on jewelry, McKinsey survey"
+    },
+    {
+     "n": "10%",
+     "dir": "dn",
+     "label": "Top category",
+     "q": "name jewelry or accessories"
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Retail grows, jewelry does not.",
+   "text": "Bain forecasts a 4.5% rise in United States holiday sales for November and December, taking the season above $1 trillion. McKinsey's survey of the same season finds 43% of shoppers planning to spend less on jewelry."
+  },
+  "means": [
+   {
+    "who": "If you buy for the holidays:",
+    "text": "plan volume on traffic, not on jewelry intent. Nine in ten shoppers name another category first."
+   },
+   {
+    "who": "If you price gift stock:",
+    "text": "PwC's $708 average gift budget is down 2%. Price the entry case to it."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a forecast of jewelry sales. These are stated intentions, not orders."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · Three forecasts of one season",
+   "asof": "November-December 2026 · United States",
+   "cols": [
+    "Measure",
+    "Figure",
+    "Source"
+   ],
+   "rows": [
+    [
+     "Holiday sales growth, November-December",
+     "+4.5%",
+     "Bain"
+    ],
+    [
+     "Growth recorded in the 2025 season",
+     "+3.5%",
+     "Bain"
+    ],
+    [
+     "Season total",
+     "above $1tn",
+     "Bain"
+    ],
+    [
+     "Nonstore retail growth",
+     "+9%",
+     "Bain"
+    ],
+    [
+     "Nonstore share of overall sales growth",
+     "60%",
+     "Bain"
+    ],
+    [
+     "Shoppers planning to spend less on jewelry",
+     "43%",
+     "McKinsey"
+    ],
+    [
+     "Planning to spend the same",
+     "39%",
+     "McKinsey"
+    ],
+    [
+     "Planning to spend more",
+     "18%",
+     "McKinsey"
+    ],
+    [
+     "Naming jewelry or accessories a top category",
+     "10%",
+     "McKinsey"
+    ],
+    [
+     "Average gift spend per consumer",
+     "$708",
+     "PwC"
+    ],
+    [
+     "Change in that gift spend",
+     "−2%",
+     "PwC"
+    ]
+   ],
+   "hi": 2,
+   "note": "<b>Source</b> Bain's release of 3 September 2026 for the first five rows; Rapaport's report of 6 September 2026 for the McKinsey and PwC rows, which it attributes to those firms. <b>Inflation</b> accounts for more than half of Bain's nominal growth.",
+   "plate": "CC/2026/057"
+  },
+  "sections": [
+   {
+    "h": "Inflation carries half the rise",
+    "p": [
+     {
+      "lead": "More dollars, not more goods.",
+      "text": "Bain expects nominal sales to rise 4.5%, against the 3.5% recorded in the 2025 season. More than half of that increase comes from higher inflation, not from extra goods sold."
+     },
+     {
+      "lead": "Online takes the growth.",
+      "text": "Nonstore retail sales are forecast to grow 9% and to generate 60% of overall sales growth, up from 50% a season earlier."
+     }
+    ]
+   },
+   {
+    "h": "Jewelry sits near the bottom",
+    "p": [
+     {
+      "lead": "Intent runs negative.",
+      "text": "McKinsey's survey finds 43% of consumers planning to spend less on jewelry, 39% expecting to spend the same and 18% intending to spend more."
+     },
+     {
+      "lead": "Ten percent name it.",
+      "text": "Asked where they intended to spend the most, only 10% of consumers selected jewelry and accessories, among the lowest-ranked categories in the survey."
+     },
+     {
+      "lead": "Gen Z picks it most.",
+      "text": "Gen Z selects jewelry at 18%, against 13% of Millennials, 8% of Gen X and 5% of Baby Boomers. That is a gap of 13 points, youngest to oldest."
+     }
+    ]
+   },
+   {
+    "h": "Two forecasts point apart",
+    "p": [
+     {
+      "lead": "PwC reads it lower.",
+      "text": "PwC's outlook has holiday spending slipping 2% year on year, with gift buying down 2% to an average of $708 a consumer. Bain and PwC are measuring different baskets."
+     },
+     {
+      "lead": "Surveys precede sales.",
+      "text": "All three readings were taken before the season. Edge Retail Academy's count of August jewelry sales, <a href=\"a-five-up-eight-down-in-august.html\">up 5% by value and down 8% by units</a>, measures the same market after the fact."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Early Oct",
+    "what": "Edge Retail Academy's September count, the first hard jewelry figure of the run-up."
+   },
+   {
+    "when": "27 Nov",
+    "what": "Black Friday, the first trading day that tests McKinsey's stated intent."
+   },
+   {
+    "when": "Mid-Jan",
+    "what": "Signet's holiday trading update, when the season is counted rather than surveyed."
+   }
+  ],
+  "depth": {
+   "reverse": "A November in which jewelry units rise while the survey said they would fall. Two consecutive months of rising units in Edge's count would retire the caution above and put jewelry back on the season's growth list.",
+   "built": {
+    "title": "How the three forecasts differ",
+    "text": "Bain forecasts nominal United States retail sales for November and December, so inflation lifts the total without a single extra unit being sold. McKinsey surveys stated spending intentions by category before the season begins. PwC surveys planned gift budgets per consumer. None of the three counts a transaction, and all three are published before the season they describe."
+   },
+   "method": "The 4.5% growth, the $1 trillion total, the 3.5% figure for the 2025 season, the inflation share and the 9% nonstore growth with its 60% share are Bain's own, published 3 September 2026 and read directly. The 43%, 39% and 18% jewelry intentions, the 10% top-category share and the generational shares are McKinsey's, and the 2% decline and $708 average gift spend are PwC's; all five are taken from Rapaport's report of 6 September 2026, which attributes them to those firms. Carat Capital did not obtain the McKinsey or PwC releases directly and neither firm's sample size or field dates were published with the report. The 13-point generational gap and the nine-in-ten restatement of the 10% figure are Carat Capital's arithmetic. Bain's own release does not mention jewelry.",
+   "prior": [
+    {
+     "date": "6 Sep 2026",
+     "slug": "five-up-eight-down-in-august",
+     "title": "Five up, eight down in August",
+     "claim": "Jewelry sales rose 5% by value, units fell 8%."
+    },
+    {
+     "date": "20 Aug 2026",
+     "slug": "who-buys-diamonds-now",
+     "title": "Who buys diamonds now",
+     "claim": "Bain-Altagamma put the spring luxury market flat."
+    }
+   ],
+   "sources": [
+    {
+     "title": "US holiday retail sales set to exceed $1 trillion for the first time — Bain & Company, 3 September 2026",
+     "url": "https://www.prnewswire.com/news-releases/us-holiday-retail-sales-set-to-outpace-last-years-seasonal-growth-performance-to-exceed-1-trillion-for-the-first-timebain--company-forecasts-302868926.html"
+    },
+    {
+     "title": "2026 Holiday Shopping Outlook — Bain & Company",
+     "url": "https://www.bain.com/insights/2026-holiday-shopping-outlook-infographic/"
+    },
+    {
+     "title": "US Holiday Spending Growth to Outpace Last Year's: Bain — Rapaport, 6 September 2026",
+     "url": "https://rapaport.com/news/us-holiday-spending-growth-to-outpace-last-years-bain/"
+    }
+   ]
+  },
+  "next": {
+   "slug": "five-up-eight-down-in-august",
+   "why": "The last hard count of jewelry sales before the season, and the measure these surveys will be graded against."
+  }
+ },
+ "two-thousand-stones-a-day": {
+  "v": 3,
+  "kicker": "Grading capacity",
+  "seo_title": "HRD Antwerp's Mumbai lab grades 2,000 stones a day",
+  "figures": {
+   "asof": "HRD Antwerp via Rapaport · Mumbai · published 6 September 2026, 14:15 UTC",
+   "cells": [
+    {
+     "n": "2,000",
+     "dir": "up",
+     "label": "Stones a day",
+     "q": "renovated Mumbai laboratory"
+    },
+    {
+     "n": "+30%",
+     "dir": "up",
+     "label": "Grading capacity",
+     "q": "against the previous lab"
+    },
+    {
+     "n": "59%",
+     "dir": "up",
+     "label": "India's share",
+     "q": "of HRD Antwerp group revenue"
+    },
+    {
+     "n": "+15%",
+     "dir": "up",
+     "label": "India forecast",
+     "q": "this year, group 13%"
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Antwerp's laboratory scales in India.",
+   "text": "HRD Antwerp reopened its Mumbai laboratory able to grade 2,000 diamonds a day, 30% more than before, and hired 40 full-time staff. The facility sits in the Bandra Kurla Complex."
+  },
+  "means": [
+   {
+    "who": "If you send goods to grade:",
+    "text": "ask Mumbai for its new turnaround before you book Antwerp. The queue moved."
+   },
+   {
+    "who": "If you cut in Surat:",
+    "text": "the nearest expanded lab is now a local one, not a Belgian one."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a price signal. Capacity is a stated maximum, and no volumes were published."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · What HRD Antwerp published",
+   "asof": "Mumbai laboratory · announced 6 September 2026",
+   "cols": [
+    "Measure",
+    "Figure",
+    "Basis"
+   ],
+   "rows": [
+    [
+     "Diamonds graded a day, renovated lab",
+     "2,000",
+     "stated capacity"
+    ],
+    [
+     "Increase on the previous capacity",
+     "30%",
+     "stated"
+    ],
+    [
+     "New full-time employees",
+     "40",
+     "recruited"
+    ],
+    [
+     "India's share of group revenue",
+     "59%",
+     "current"
+    ],
+    [
+     "Forecast growth, Indian branch",
+     "15%",
+     "this year"
+    ],
+    [
+     "Forecast growth, group",
+     "13%",
+     "this year"
+    ],
+    [
+     "Jewellery grading share of the revenue increase",
+     "47%",
+     "as much as"
+    ]
+   ],
+   "hi": 1,
+   "note": "<b>Source</b> Rapaport's report of 6 September 2026, 14:15 UTC, of HRD Antwerp's announcement. <b>Every figure</b> is the company's own. <b>No</b> investment total, floor area or graded volume was published.",
+   "plate": "CC/2026/057"
+  },
+  "sections": [
+   {
+    "h": "Capacity moves to Mumbai",
+    "p": [
+     {
+      "lead": "Two thousand a day.",
+      "text": "The renovated laboratory in the Bandra Kurla Complex can grade up to 2,000 diamonds daily, 30% above its previous capacity. HRD Antwerp has recruited 40 new full-time employees for it."
+     },
+     {
+      "lead": "A prime minister attended.",
+      "text": "Belgium's prime minister, Bart De Wever, toured the office during the <a href=\"a-de-wever-goes-to-mumbai.html\">Mumbai visit that took him to the Bharat Diamond Bourse</a>."
+     }
+    ]
+   },
+   {
+    "h": "India carries the group",
+    "p": [
+     {
+      "lead": "Fifty-nine percent of revenue.",
+      "text": "The Indian branch generates 59% of HRD Antwerp's total group revenue and is forecast to grow 15% this year, against 13% for the group overall."
+     },
+     {
+      "lead": "Jewellery grading drives it.",
+      "text": "The company attributes as much as 47% of its total revenue increase to jewellery grading rather than to loose stones."
+     }
+    ]
+   },
+   {
+    "h": "Laboratories follow the wheels",
+    "p": [
+     {
+      "lead": "Not the first move.",
+      "text": "Between 90% and 95% of the world's rough is cut in India on the University of Antwerp's estimate. <a href=\"a-pigeon-blood-issued-in-jaipur.html\">GSI began issuing pigeon-blood ruby calls from Jaipur</a> last month, and <a href=\"a-sixty-of-the-ninety-hours.html\">IIGJ opened a 90-hour course with IIT Madras</a>."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Mid-Sep",
+    "what": "GJEPC's monthly trade data, for polished volumes moving through Mumbai."
+   },
+   {
+    "when": "1 Oct",
+    "what": "India's fifteen-year tax exemption for foreign rough sellers takes effect."
+   },
+   {
+    "when": "Nov",
+    "what": "Whether HRD publishes graded volumes for the new lab, not only its capacity."
+   }
+  ],
+  "depth": {
+   "reverse": "A grading queue in Mumbai that lengthens rather than shortens over the autumn. That would mean the capacity was absorbed on the day it opened, and the turnaround advice above would be worthless to anyone shipping goods.",
+   "built": {
+    "title": "What a grading lab's capacity means",
+    "text": "Daily capacity is the number of stones a laboratory says it can take through its full sequence in a working day, from intake and weighing to instrument work, grading by more than one grader, laser inscription and report issue. It is a stated maximum at full staffing, not a count of stones graded, and it does not fix the turnaround a client is quoted, which depends on the queue in front of the stone."
+   },
+   "method": "Every figure here is HRD Antwerp's own, taken from Rapaport's report of 6 September 2026, 14:15 UTC: the 2,000 stones a day, the 30% capacity increase, the 40 new full-time employees, the 59% share of group revenue, the 15% and 13% growth forecasts and the 47% share of the revenue increase attributed to jewellery grading. Carat Capital did not obtain HRD Antwerp's own release and this is a single-source report. No investment figure, floor area or graded volume was published, so the capacity cannot be checked against throughput. The 90% to 95% Indian cutting share is the University of Antwerp's estimate, carried in Carat Capital's report of 6 September 2026.",
+   "prior": [
+    {
+     "date": "6 Sep 2026",
+     "slug": "de-wever-goes-to-mumbai",
+     "title": "De Wever goes to Mumbai",
+     "claim": "Antwerp traded $19.1bn of diamonds in 2025; India cuts 90-95%."
+    },
+    {
+     "date": "3 Sep 2026",
+     "slug": "sixty-of-the-ninety-hours",
+     "title": "Sixty of the ninety hours",
+     "claim": "IIGJ and IIT Madras split a 90-hour gemmology course."
+    },
+    {
+     "date": "30 Aug 2026",
+     "slug": "pigeon-blood-issued-in-jaipur",
+     "title": "Pigeon blood, issued in Jaipur",
+     "claim": "GSI brought the ruby trade names to India."
+    }
+   ],
+   "sources": [
+    {
+     "title": "HRD Antwerp Opens Expanded Lab in India — Rapaport, 6 September 2026, 14:15 UTC",
+     "url": "https://rapaport.com/news/hrd-antwerp-opens-expanded-lab-in-india/"
+    }
+   ]
+  },
+  "next": {
+   "slug": "de-wever-goes-to-mumbai",
+   "why": "The visit this lab opening sat inside, and the trade figures Belgium brought to Mumbai with it."
+  }
+ },
+ "the-index-turns-daily": {
+  "v": 3,
+  "kicker": "Polished prices",
+  "seo_title": "RAPI turns daily: 1-carat $3,901.76 at 6 September",
+  "figures": {
+   "asof": "Rapaport Trade Diamond Index · daily series, 8 August to 6 September 2026 · read 7 September 2026",
+   "cells": [
+    {
+     "n": "$3,901.76",
+     "dir": "up",
+     "label": "1-carat level",
+     "q": "dated 6 September"
+    },
+    {
+     "n": "+2.38%",
+     "dir": "up",
+     "label": "0.50-carat",
+     "q": "the window's best size"
+    },
+    {
+     "n": "+1.80%",
+     "dir": "up",
+     "label": "0.30-carat",
+     "q": "second over the window"
+    },
+    {
+     "n": "−0.25%",
+     "dir": "dn",
+     "label": "2-carat",
+     "q": "the only size lower"
+    }
+   ]
+  },
+  "changed": {
+   "lead": "The index turns daily.",
+   "text": "Rapaport's diamond index now carries a dated level for every day of a trailing 30-day window, where it published monthly points a week ago. The 1-carat reads $3,901.76 at 6 September."
+  },
+  "means": [
+   {
+    "who": "If you price off RAPI:",
+    "text": "date the mark to 6 September, not to a month. The level now moves daily."
+   },
+   {
+    "who": "If you hold 2-carat goods:",
+    "text": "yours is the only size lower over the window, by 0.25%."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a new price. The same asking prices are simply dated more often."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · RAPI by size, the 30-day window",
+   "asof": "Round · D–H · IF–VS2 · 8 August to 6 September 2026",
+   "cols": [
+    "Size",
+    "Level, 6 Sep",
+    "Window change",
+    "Day on day"
+   ],
+   "rows": [
+    [
+     "0.30-carat",
+     "$935.10",
+     "+1.80%",
+     "+$0.36"
+    ],
+    [
+     "0.50-carat",
+     "$1,287.73",
+     "+2.38%",
+     "+$0.76"
+    ],
+    [
+     "1-carat",
+     "$3,901.76",
+     "+0.59%",
+     "+$2.71"
+    ],
+    [
+     "2-carat",
+     "$10,630.33",
+     "−0.25%",
+     "+$3.20"
+    ],
+    [
+     "3-carat",
+     "$17,881.15",
+     "+0.14%",
+     "−$37.50"
+    ]
+   ],
+   "hi": 2,
+   "note": "<b>Source</b> Rapaport's index page, read 7 September 2026. <b>Window</b> is the page's own 30-day series, 8 August to 6 September. <b>Day on day</b> is Carat Capital's difference between the two newest daily points.",
+   "plate": "CC/2026/057"
+  },
+  "sections": [
+   {
+    "h": "The series is dated daily",
+    "p": [
+     {
+      "lead": "Thirty points, not one.",
+      "text": "The page carries a dated level for every day from 8 August to 6 September, for each of five sizes. A week ago it carried one point a month."
+     },
+     {
+      "lead": "The lag is a session.",
+      "text": "The newest point is dated 6 September and was read on 7 September. Rapaport's monthly series reported August's move in the first week of September."
+     }
+    ]
+   },
+   {
+    "h": "Small goods lead the window",
+    "p": [
+     {
+      "lead": "Half-carat best at 2.38%.",
+      "text": "The 0.50-carat gained 2.38% across the window and the 0.30-carat 1.80%, against 0.59% for the 1-carat."
+     },
+     {
+      "lead": "Only the 2-carat fell.",
+      "text": "The 2-carat is down 0.25% across the window at $10,630.33, although it has risen at each of its last three daily points."
+     }
+    ]
+   },
+   {
+    "h": "It agrees with August",
+    "p": [
+     {
+      "lead": "Same direction, finer grain.",
+      "text": "Rapaport's August monthly reading put <a href=\"a-half-a-percent-after-fifteen-months.html\">the 1-carat up 0.5%, its first rise in fifteen months</a>, with every smaller size up more. The daily window says the same thing one day at a time."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "8 Sep",
+    "what": "The next daily point, and whether the 3-carat takes back its $37.50."
+   },
+   {
+    "when": "Sep",
+    "what": "Jewellery & Gem World, Hong Kong, where asking prices meet order books."
+   },
+   {
+    "when": "Early Oct",
+    "what": "Rapaport's September summary, against this window's +0.59% on the 1-carat."
+   }
+  ],
+  "depth": {
+   "reverse": "A run of daily points in which the 0.30 and 0.50-carat give back the window's gains while the 1-carat holds. That would make the small-size lead a summer artifact and send pricing back to the monthly reading.",
+   "built": {
+    "title": "How RAPI is built",
+    "text": "The Rapaport Trade Diamond Index tracks asking prices, not settled trades. For each of the top 25 quality categories of round diamonds listed on Rapaport Trade, the marketplace formerly called RapNet, it averages the asking prices of the cheapest tenth of stones. The headline series are D to H colour, IF to VS2 clarity, at 0.30, 0.50, 1, 2 and 3 carats."
+   },
+   "method": "Rapaport's index page embeds its series as a JSON block carrying a from and to date and, for each size, a dated price for every day in the window. Read on 7 September 2026 the window runs 8 August to 6 September, thirty points a size. The window change printed above is the first-to-last move computed by Carat Capital: the 0.30-carat from $918.57 to $935.10 is +1.80%, the 0.50-carat from $1,257.79 to $1,287.73 is +2.38%, the 1-carat from $3,878.88 to $3,901.76 is +0.59%, the 2-carat from $10,656.97 to $10,630.33 is −0.25%, the 3-carat from $17,856.15 to $17,881.15 is +0.14%. Each reconciles to the page's own printed change for that size, which had not previously been reconciled and is now established as a window figure. Day-on-day differences subtract the 5 September point from the 6 September point. Carat Capital's natural diamond price list carries the 1-carat RAPI as a July 2026 point and does not yet reflect this series.",
+   "prior": [
+    {
+     "date": "3 Sep 2026",
+     "slug": "half-a-percent-after-fifteen-months",
+     "title": "Half a percent after fifteen months",
+     "claim": "August monthly RAPI put the 1-carat up 0.5%."
+    },
+    {
+     "date": "2 Sep 2026",
+     "slug": "six-seventy-five-and-a-rising-index",
+     "title": "Six seventy-five and a rising index",
+     "claim": "Lab-grown at $675 while the natural index rose."
+    },
+    {
+     "date": "4 Aug 2026",
+     "slug": "the-one-carat-stops-falling",
+     "title": "The 1-carat stops falling",
+     "claim": "July flat, every other size up."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Rapaport Diamond Price Index — daily series, read 7 September 2026",
+     "url": "https://rapaport.com/diamond-price-index/"
+    },
+    {
+     "title": "Diamond Price Recovery Broadens Further in August — Rapaport, 2 September 2026",
+     "url": "https://rapaport.com/news/diamond-price-recovery-broadens-further-in-august/"
+    }
+   ]
+  },
+  "next": {
+   "slug": "half-a-percent-after-fifteen-months",
+   "why": "The August reading this window covers, and the fifteen-month drought it ended."
+  }
+ },
+ "twenty-five-ten-off-gold": {
+  "v": 3,
+  "kicker": "The tape",
+  "seo_title": "Gold sheds $25.10 to $4,403.90 on the Labor Day board",
+  "figures": {
+   "asof": "Kitco bid · 7 September 2026, 10:04 UTC · prior mark 4 September close",
+   "cells": [
+    {
+     "n": "$4,403.90",
+     "dir": "dn",
+     "label": "Gold",
+     "q": "down $25.10 on the session"
+    },
+    {
+     "n": "$65.596",
+     "dir": "dn",
+     "label": "Silver",
+     "q": "down 0.75%, the widest fall"
+    },
+    {
+     "n": "$1,815.00",
+     "dir": "dn",
+     "label": "Platinum",
+     "q": "down $1.00, barely moved"
+    },
+    {
+     "n": "$1,377.00",
+     "dir": "up",
+     "label": "Palladium",
+     "q": "up $8.00, the only riser"
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Three metals lower, one higher.",
+   "text": "Gold fell $25.10 to $4,403.90 an ounce on Kitco's bid. Palladium was the only one of the four metals higher on a board that traded through the holiday."
+  },
+  "means": [
+   {
+    "who": "If you buy scrap over the counter:",
+    "text": "re-quote before you buy. Gold is $25.10 lower than Friday's mark."
+   },
+   {
+    "who": "If you cost platinum settings:",
+    "text": "leave the estimate alone. The metal moved a dollar, to $1,815.00."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a trend. One session, and no source read named a cause."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · The board at 10:04 UTC",
+   "asof": "Kitco bid · 7 September 2026 · change against the 4 September mark",
+   "cols": [
+    "Metal",
+    "Bid",
+    "Change",
+    "Session range"
+   ],
+   "rows": [
+    [
+     "Gold",
+     "$4,403.90",
+     "−$25.10, −0.57%",
+     "$4,384.70 – $4,436.20"
+    ],
+    [
+     "Silver",
+     "$65.596",
+     "−$0.498, −0.75%",
+     "$65.355 – $66.577"
+    ],
+    [
+     "Platinum",
+     "$1,815.00",
+     "−$1.00, −0.06%",
+     "$1,790.00 – $1,834.00"
+    ],
+    [
+     "Palladium",
+     "$1,377.00",
+     "+$8.00, +0.58%",
+     "$1,363.00 – $1,428.00"
+    ]
+   ],
+   "hi": 1,
+   "note": "<b>Source</b> Kitco, read at 10:04 UTC on 7 September 2026. <b>Marks</b> are Kitco's bid, the basis the Carat Capital price desk carries. <b>Change</b> is Kitco's own printed change against the 4 September mark.",
+   "plate": "CC/2026/057"
+  },
+  "sections": [
+   {
+    "h": "The board traded through Labor Day",
+    "p": [
+     {
+      "lead": "Live, not frozen.",
+      "text": "Kitco's quotes carried a moving tick on US Labor Day, 7 September, with a nonzero change on three of the four metals. Spot metal is an over-the-counter market that a United States bank holiday does not close."
+     }
+    ]
+   },
+   {
+    "h": "Silver fell furthest of four",
+    "p": [
+     {
+      "lead": "Widest fall, 0.75%.",
+      "text": "Silver lost $0.498 to $65.596, a 0.75% fall against gold's 0.57% and platinum's 0.06%."
+     },
+     {
+      "lead": "The ratio widened.",
+      "text": "It takes 67.1 ounces of silver to buy an ounce of gold, against 67.0 at the 4 September marks."
+     }
+    ]
+   },
+   {
+    "h": "Palladium held its spread",
+    "p": [
+     {
+      "lead": "Only riser, up $8.00.",
+      "text": "Palladium added $8.00 to $1,377.00 against $1,417.00 asked, <a href=\"a-spread-wider-than-the-fall.html\">the same $40.00 spread it has carried for a run of sessions</a>, 2.90% of the bid."
+     },
+     {
+      "lead": "Gold ranged $51.50.",
+      "text": "Gold traded between $4,384.70 and $4,436.20 on the session, so the day's fall was smaller than the distance the metal covered inside it."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "8 Sep",
+    "what": "The next session mark, and whether gold holds above $4,400."
+   },
+   {
+    "when": "Sep",
+    "what": "China's SAFE monthly reserves statement, for official gold buying in August."
+   },
+   {
+    "when": "Late Sep",
+    "what": "Indian festival demand, the counter test on a $4,400 handle."
+   }
+  ],
+  "depth": {
+   "reverse": "A move back above $4,429.00, the 4 September mark, on the next session. That would make this a thin holiday drift rather than a turn, and the scrap advice above would have cost a counter nothing to ignore.",
+   "built": {
+    "title": "What a spot mark is",
+    "text": "Spot gold is an over-the-counter quote for immediate delivery, not an exchange settlement. Kitco publishes a bid, an ask and a mid for each metal; the bid is what a dealer will pay you, and it is the mark the Carat Capital price desk carries. The market runs nearly around the clock through the trading week, which is why a United States bank holiday does not close it."
+   },
+   "method": "Marks are Kitco's bid, read at 10:04:00 UTC on 7 September 2026. Kitco prints two clocks that disagree by four hours: the numeric unix timestamp field, 1788775440, converts to 10:04:00 UTC, while the adjacent originalTime string reads 06:03:58 with a UTC suffix it does not carry. The numeric field is used. Prior marks are the 4 September levels and reconcile against Kitco's own printed change for all four metals: $4,403.90 plus $25.10 is $4,429.00; $65.596 plus $0.498 is $66.094; $1,815.00 plus $1.00 is $1,816.00; $1,377.00 less $8.00 is $1,369.00. A second board was read for the two metals that moved most: Business Insider quoted gold at $4,405.76 against Kitco's mid of $4,404.90, 0.0195% apart, and palladium at $1,399.00 against a mid of $1,397.00, 0.1432% apart, both inside the band this price desk treats as timing noise. The gold-silver ratio, the 2.90% palladium spread and the $51.50 gold range are Carat Capital's arithmetic on those quotes.",
+   "prior": [
+    {
+     "date": "3 Sep 2026",
+     "slug": "one-nineteen-thirty-back-on-gold",
+     "title": "$119.30 back on gold",
+     "claim": "Gold's first higher mark since 28 August."
+    },
+    {
+     "date": "1 Sep 2026",
+     "slug": "back-at-nineteen-august",
+     "title": "Back at 19 August",
+     "claim": "Gold $4,366.10 and platinum $1,753.00."
+    },
+    {
+     "date": "31 Aug 2026",
+     "slug": "spread-wider-than-the-fall",
+     "title": "Spread wider than the fall",
+     "claim": "Palladium's bid-ask spread was 2.9% of the bid."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Precious metals prices — Kitco, read 7 September 2026, 10:04 UTC",
+     "url": "https://www.kitco.com/price/precious-metals"
+    },
+    {
+     "title": "Gold price — Business Insider Markets, read 7 September 2026",
+     "url": "https://markets.businessinsider.com/commodities/gold-price"
+    }
+   ]
+  },
+  "next": {
+   "slug": "one-nineteen-thirty-back-on-gold",
+   "why": "The session that put $119.30 back on gold, and the mark this one gave away part of."
   }
  }
 }

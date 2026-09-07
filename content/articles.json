@@ -1,9 +1,131 @@
 [
  {
+  "slug": "a-trillion-and-the-jewelry-case",
+  "desk": "retail-tech",
+  "date": "2026-09-07",
+  "kicker": "Holiday demand",
+  "byline": "The Retail Desk",
+  "minutes": 2,
+  "lead": true,
+  "title": "Bain puts US holiday sales above $1 trillion, up 4.5%",
+  "dek": "McKinsey finds 43% of shoppers planning to spend less on jewelry and 18% planning to spend more. Only 10% name jewelry or accessories as a top category.",
+  "tags": [
+   "NUM",
+   "ACTOR"
+  ],
+  "body": [
+   "Bain & Company forecasts United States retail sales for November and December rising 4.5% year on year, taking the season above $1 trillion for the first time. The comparable rise recorded in the 2025 season was 3.5%. More than half of the nominal growth, Bain says, comes from higher inflation rather than from additional goods sold.",
+   "The jewelry reading inside the same season is weaker. McKinsey's consumer survey, reported by Rapaport on 6 September, finds 43% of consumers planning to spend less on jewelry, 39% expecting to spend the same and 18% intending to spend more. Only 10% named jewelry and accessories when asked where they intended to spend the most.",
+   "Age splits the intent. Gen Z selects jewelry at 18%, against 13% of Millennials, 8% of Gen X and 5% of Baby Boomers, a gap of 13 points between the youngest and oldest groups on Carat Capital's subtraction.",
+   "A third forecast points the other way from Bain's. PwC's outlook has holiday spending slipping 2% year on year, with gift buying down 2% to an average of $708 a consumer. The three readings measure different things: Bain forecasts nominal retail dollars, McKinsey surveys stated intent by category and PwC surveys planned gift budgets.",
+   "The desk's view: a retailer buying for the holidays should plan volume on traffic rather than on jewelry intent, because nine in ten shoppers name another category first, and should price the entry case against PwC's $708 gift budget rather than last season's. What this is not is a forecast of jewelry sales. All three readings are stated intentions taken before the season, and Edge Retail Academy's August count of actual sales, up 5% by value and down 8% by units, is a different measure of the same market."
+  ],
+  "sources": [
+   {
+    "title": "US holiday retail sales set to outpace last year's seasonal growth performance to exceed $1 trillion for the first time - Bain & Company, 3 September 2026",
+    "url": "https://www.prnewswire.com/news-releases/us-holiday-retail-sales-set-to-outpace-last-years-seasonal-growth-performance-to-exceed-1-trillion-for-the-first-timebain--company-forecasts-302868926.html"
+   },
+   {
+    "title": "2026 Holiday Shopping Outlook - Bain & Company",
+    "url": "https://www.bain.com/insights/2026-holiday-shopping-outlook-infographic/"
+   },
+   {
+    "title": "US Holiday Spending Growth to Outpace Last Year's: Bain - Rapaport, 6 September 2026",
+    "url": "https://rapaport.com/news/us-holiday-spending-growth-to-outpace-last-years-bain/"
+   }
+  ]
+ },
+ {
+  "slug": "two-thousand-stones-a-day",
+  "desk": "diamonds",
+  "date": "2026-09-07",
+  "kicker": "Grading capacity",
+  "byline": "The Diamonds Desk",
+  "minutes": 2,
+  "title": "HRD Antwerp opens Mumbai lab grading 2,000 diamonds a day",
+  "dek": "The renovated Bandra Kurla Complex laboratory raises capacity 30% and adds 40 full-time staff. India already provides 59% of HRD Antwerp's group revenue and is forecast to grow 15% this year.",
+  "tags": [
+   "ACTOR",
+   "NUM"
+  ],
+  "body": [
+   "HRD Antwerp has reopened its Mumbai laboratory with capacity to grade up to 2,000 diamonds a day, 30% more than the lab handled before the renovation, and has recruited 40 new full-time employees for it. The facility sits in the Bandra Kurla Complex.",
+   "The Indian branch is not a satellite. It generates 59% of HRD Antwerp's total group revenue and is forecast to grow 15% this year, against 13% for the group overall. The company attributes as much as 47% of its total revenue increase to jewellery grading rather than to loose stones.",
+   "Belgium's prime minister, Bart De Wever, toured the office during the Mumbai visit that also took him to the Bharat Diamond Bourse, where GJEPC put gem and jewellery trade between India and Belgium at $3.5 billion for 2025-26.",
+   "The move follows the direction of the work. Between 90% and 95% of the world's rough is cut in India on the University of Antwerp's estimate, GSI began issuing pigeon-blood ruby calls from Jaipur last month, and IIGJ opened a 90-hour gemmology course with IIT Madras. Laboratory capacity is following the cutting wheels.",
+   "The desk's view: a manufacturer sending goods to grade should ask Mumbai for its new turnaround before booking Antwerp, and a cutter in Surat should read the location, not the ribbon, because the queue moved closer. What this is not is a price signal. Capacity is a stated maximum, HRD published no graded volumes, no investment figure and no floor area, and a lab that can take 2,000 stones a day is not a lab that has them."
+  ],
+  "sources": [
+   {
+    "title": "HRD Antwerp Opens Expanded Lab in India - Rapaport, 6 September 2026, 14:15 UTC",
+    "url": "https://rapaport.com/news/hrd-antwerp-opens-expanded-lab-in-india/"
+   }
+  ]
+ },
+ {
+  "slug": "the-index-turns-daily",
+  "desk": "diamonds",
+  "date": "2026-09-07",
+  "kicker": "Polished prices",
+  "byline": "The Diamonds Desk",
+  "minutes": 2,
+  "title": "RAPI 1-carat adds 0.59% since 8 August, now published daily",
+  "dek": "Rapaport's index page now carries a dated level for every day of a 30-day window. The 0.50-carat leads at 2.38% and the 2-carat is the only faller, down 0.25%.",
+  "tags": [
+   "NUM"
+  ],
+  "body": [
+   "Rapaport's diamond price index now publishes a dated level for every day of a trailing 30-day window, for each of five sizes, where the page carried monthly points a week ago. The 1-carat reads $3,901.76 at 6 September, up 0.59% from $3,878.88 on 8 August.",
+   "The small sizes lead the window. The 0.50-carat gained 2.38% and the 0.30-carat 1.80%, against 0.59% for the 1-carat and 0.14% for the 3-carat. The 2-carat is the only size lower, down 0.25% at $10,630.33, although it has risen at each of its last three daily points.",
+   "The change is one of grain rather than of level. Rapaport's own headline change for each size matches the first-to-last move across that same window, on Carat Capital's arithmetic, so the daily series and the published change describe the same thing at different resolutions.",
+   "It agrees with the month it covers. Rapaport's August monthly reading put the 1-carat up 0.5%, its first rise in fifteen months, with every smaller size up more, and Carat Capital reported it on 3 September. The daily window says the same thing one day at a time, with the newest point dated one session behind the reading.",
+   "The desk's view: a dealer pricing off RAPI should date the mark to 6 September rather than to a month, because the level now moves every day, and a holder of 2-carat goods should note that theirs is the only size lower across the window. What this is not is a new price. The same asking prices are simply dated more often, and Carat Capital's own natural price list still carries the 1-carat RAPI as a July point."
+  ],
+  "sources": [
+   {
+    "title": "Rapaport Diamond Price Index - daily series, read 7 September 2026",
+    "url": "https://rapaport.com/diamond-price-index/"
+   },
+   {
+    "title": "Diamond Price Recovery Broadens Further in August - Rapaport, 2 September 2026",
+    "url": "https://rapaport.com/news/diamond-price-recovery-broadens-further-in-august/"
+   }
+  ]
+ },
+ {
+  "slug": "twenty-five-ten-off-gold",
+  "desk": "gold-metals",
+  "date": "2026-09-07",
+  "kicker": "The tape",
+  "byline": "The Metals Desk",
+  "minutes": 2,
+  "title": "Gold sheds $25.10 to $4,403.90 in the Labor Day session",
+  "dek": "Silver fell 0.75% to $65.596 and platinum a dollar to $1,815.00. Palladium alone rose, adding $8.00 to $1,377.00 on Kitco's bid at 10:04 UTC.",
+  "tags": [
+   "NUM"
+  ],
+  "body": [
+   "Gold fell $25.10 to $4,403.90 an ounce on Kitco's bid, read at 10:04 UTC on 7 September, against a Friday mark of $4,429.00. Silver lost $0.498 to $65.596, platinum $1.00 to $1,815.00 and palladium rose $8.00 to $1,377.00, the only one of the four metals higher.",
+   "Silver fell furthest in percentage terms, 0.75% against gold's 0.57%, platinum's 0.06% and palladium's gain of 0.58%. It now takes 67.1 ounces of silver to buy an ounce of gold, against 67.0 at Friday's marks, on Carat Capital's division.",
+   "The board was trading on US Labor Day, 7 September. Kitco's quotes carried a moving tick and a nonzero change on three of the four metals, and spot metal is an over-the-counter market that a United States bank holiday does not close.",
+   "Palladium held the spread it has carried for a run of sessions: $1,377.00 bid against $1,417.00 asked, $40.00 wide, or 2.90% of the bid on Carat Capital's division. Gold's own session range was $51.50, from $4,384.70 to $4,436.20.",
+   "The desk's view: a counter buying scrap should re-quote before it buys, because gold is $25.10 lower on the session, and a workshop costing platinum settings can leave the estimate alone, because the metal moved a dollar. What this is not is a trend. It is one session, no source read named a cause, and the mark to beat is Friday's $4,429.00."
+  ],
+  "sources": [
+   {
+    "title": "Precious metals prices - Kitco, read 7 September 2026, 10:04 UTC",
+    "url": "https://www.kitco.com/price/precious-metals"
+   },
+   {
+    "title": "Gold price - Business Insider Markets, read 7 September 2026",
+    "url": "https://markets.businessinsider.com/commodities/gold-price"
+   }
+  ]
+ },
+ {
   "slug": "twenty-million-on-two-rubies",
   "desk": "auctions",
   "date": "2026-09-06",
-  "lead": true,
   "kicker": "Sale preview",
   "byline": "The Saleroom Desk",
   "minutes": 2,
@@ -39,16 +161,16 @@
   "byline": "The Rough Desk",
   "minutes": 2,
   "title": "Antwerp's $19.1bn trade turns to India as De Wever visits Mumbai",
-  "dek": "Bart De Wever went to Mumbai's diamond bourse, a first for a Belgian prime minister on GJEPC's account. Trade between the two countries runs at $3.5bn, and both councils want $10bn within three years.",
+  "dek": "Bart De Wever went to Mumbai's diamond bourse, a first for a Belgian prime minister on GJEPC's account. Gem and jewellery trade between the two countries stood at $3.5bn in 2025-26.",
   "tags": [
    "NUM",
    "ACTOR"
   ],
   "body": [
-   "Belgium's prime minister, Bart De Wever, went to the Bharat Diamond Bourse in Mumbai, a visit GJEPC describes as the first by a holder of that office. The council puts gem and jewellery trade between India and Belgium at $3.5 billion in 2025-26 and wants $10 billion within three years under the agreement India has concluded with the European Union.",
+   "Belgium's prime minister, Bart De Wever, went to the Bharat Diamond Bourse in Mumbai, a visit GJEPC describes as the first by a holder of that office. The council puts gem and jewellery trade between India and Belgium at $3.5 billion in 2025-26.",
    "The visit reads differently from the Antwerp end. RTBF reported the same week that Antwerp moved $19.1 billion of diamonds in and out in 2025, of which $19 billion was natural rough and polished, and that the trade has lost 30% of both its volume and its value to the embargo on Russian goods. \"We have lost 30% of the volume and value of goods traded in Antwerp,\" the AWDC's spokesperson Ine Tassignon told the broadcaster.",
    "The dependence runs one way. Between 90% and 95% of the world's rough is cut in India, on the estimate of Koen Vandenbempt of the University of Antwerp, who argues that Antwerp must therefore strengthen its Indian ties. Antwerp trades the stone and India makes it, and more than 55% of the polished leaving Antwerp goes to the United States, so American demand reaches Belgium through Indian factories rather than directly.",
-   "Nothing was signed. The GJEPC release records a visit and three speeches, from De Wever, from GJEPC chairman Kirit Bhansali and from bourse president Anoop Mehta, and no instrument was concluded. The $10 billion target rests on gem and jewellery tariff lines sitting inside the India-EU agreement, and no published text yet confirms that they do.",
+   "Nothing was signed. The GJEPC release records a visit and three speeches, from De Wever, from GJEPC chairman Kirit Bhansali and from bourse president Anoop Mehta, and no instrument was concluded. What the visit does for the tariff lines rests on gem and jewellery sitting inside the India-EU agreement, and no published text yet confirms that it does.",
    "The desk's view: a dealer buying rough in Antwerp should read this as confirmation that the seller pool has thinned and that Indian demand now sets the clearing price, and a manufacturer cutting in Surat should watch the tariff schedule rather than the speeches, because a Belgium-India line would cut duty on goods already passing through the factory. What this is not is a deal. It is a visit, and the arithmetic behind it was already true before the plane landed."
   ],
   "sources": [

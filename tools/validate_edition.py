@@ -62,6 +62,48 @@ def check(a, e):
     head_nums = nums(a["title"]) | nums(a["dek"]) | {n for c in cells for n in nums(c.get("n", ""))}
     missing = sorted(n for n in head_nums if n not in have and n.strip("%$£€") not in have)
     gate("number · every headline/dek/figure number in the body or table", not missing, ", ".join(missing))
+    # PLATE FIGURES MUST BE CARRIED BY THE PROSE — caratchief, 2026-09-06.
+    # The gate above was passing a fault it was written to catch. Its corpus includes
+    # a["body"] (the legacy field, which a v3 page does not render), the Table I rows
+    # and the hero bars — all furniture. So a figure printed in Plate I and repeated in
+    # Table I satisfied it while appearing nowhere a reader actually reads. That is
+    # exactly how edition No. 055's Chow Tai Seng page shipped with two of Plate I's
+    # four key figures — RMB 450m half-year and RMB 156m / -54.2% quarterly net profit —
+    # absent from changed, means, sections, watch and depth. Standards caught it by
+    # reading the rendered page; this gate marked it PASS both before and after the fix.
+    # The doctrine's words: a number in a key-figure cell the body does not carry is the
+    # same fault as a number in the headline. This gate is that sentence.
+    prose = " ".join(
+        [ch.get("text", ""), ch.get("lead", "")]
+        + [m.get("text", "") + " " + m.get("who", "") for m in means]
+        + [p.get("text", "") + " " + p.get("lead", "") for s in secs for p in s.get("p", [])]
+        + [str(e.get("watch") or ""), str(e.get("next") or "")]
+        + [str(v) for k, v in ((e.get("depth") or {}).items()) if k != "sources"
+           for v in ([v] if isinstance(v, str) else [str(v)])]
+    )
+    # Two ways a figure is honestly carried that a naive token match calls missing, both
+    # found by running this gate against the 6 September edition before shipping it:
+    #   "eight-point plan" carries a cell reading 8, and "Five of the eight points" carries
+    #   a cell reading "5 of 8" — a paper is allowed to spell its small numbers.
+    #   "Between 90% and 95%" carries a cell reading "90-95%", whose leading token is a
+    #   bare 90 while the prose only ever writes 90%.
+    # Without these two the gate accused three good figures in three articles on its first
+    # run. An instrument that manufactures accusations is worse than no instrument.
+    WORDNUM = {"one": "1", "two": "2", "three": "3", "four": "4", "five": "5", "six": "6",
+               "seven": "7", "eight": "8", "nine": "9", "ten": "10", "eleven": "11",
+               "twelve": "12", "thirteen": "13", "fourteen": "14", "fifteen": "15",
+               "sixteen": "16", "seventeen": "17", "eighteen": "18", "nineteen": "19",
+               "twenty": "20", "thirty": "30", "forty": "40", "fifty": "50", "sixty": "60",
+               "seventy": "70", "eighty": "80", "ninety": "90", "hundred": "100"}
+    prose_nums = nums(prose)
+    prose_nums |= {v for w, v in WORDNUM.items() if re.search(r"\b" + w + r"\b", prose, re.I)}
+    def carried(n):
+        bare = n.strip("%$£€")
+        return any(x in prose_nums for x in (n, bare, bare + "%"))
+    cell_nums = sorted({n for c in cells for n in nums(c.get("n", ""))})
+    orphan = [n for n in cell_nums if not carried(n)]
+    gate("number · every plate figure carried by the prose, not just the table",
+         not orphan, ", ".join(orphan))
     t = a["title"]
     gate("headline · no ? ! ALL-CAPS, ≤75 chars", ("?" not in t and "!" not in t and len(t) <= 75 and not re.search(r"\b[A-Z]{4,}\b", re.sub(r"\b(RAPI|GIA|GJEPC|AWDC|DMCC|LBMA|OFAC|IIGJ|IIT|CEO|CFO|LVMH|BIS|CIBJO|IDEX|LGD|RNS|SEC|WOSG|HK|US|UK|USD|EUR|GBP)\b", "", t))), "%d chars" % len(t), hard=False)
     d1 = sentences(a["dek"])
