@@ -1,0 +1,5 @@
+theme: emerald-platinum
+POST 1 price-the-reserve-off-the-parts: 6 slides, words/slide [18, 18, 31, 28, 40, 10] (total 145), largest 169,943 bytes
+   word law: clean
+POST 2 only-platinum-rises-today: 4 slides, words/slide [14, 41, 23, 10] (total 88), largest 175,871 bytes
+   word law: clean
