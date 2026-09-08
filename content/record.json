@@ -1,10 +1,40 @@
 {
- "updated": "7 Sep 2026",
+ "updated": "8 Sep 2026",
  "intro": "Eight weeks of the trade, kept the way a ledger should be kept — dated, sourced, and in one place. New entries are added at the top each week; the quarter's running numbers live in the Almanac below.",
  "weeks": [
   {
-   "label": "This week - August 17 to September 7",
+   "label": "This week - August 18 to September 8",
    "entries": [
+    {
+     "d": "auctions",
+     "h": "Mouawad parure makes HKD 613,600 at Bonhams Hong Kong, 48.9% below its high estimate",
+     "t": "A Mouawad ruby, emerald and diamond parure led Bonhams' Online Jewellery, Hong Kong sale of 2 September 2026 at HKD 613,600, or $78,277, against a HKD 1.2 million high estimate of $153,085, a shortfall of HKD 586,400. The four-piece suite carries roughly 254 carats of gem material: 75 of rubies, 140 of emeralds and 39 of diamonds. Every other named lot cleared inside its estimate, including a Burmese jadeite ring with 2.90 carats of diamonds at HKD 281,600 and three separate lots that each made HKD 179,200. Bonhams published no sale total.",
+     "s": "Rapaport, 7 September 2026"
+    },
+    {
+     "d": "diamonds",
+     "h": "CIBJO backs 'synthetic' alone in its Blue Books while the FTC keeps three terms until 2028",
+     "t": "CIBJO's general assembly and board took up the switch to synthetic at the close of its centenary congress in Vicenza on 7 September 2026, putting the confederation alongside the London Diamond Bourse and the African Diamond Producers Association in recommending that term alone. Its diamond commission began studying the change in 2025 after the Paris congress, and its coloured stone commission voted the same way on 6 September. CIBJO's own Laboratory-Grown Diamond Steering Committee had asked to keep laboratory-grown as one alternative term, and a letter from senior industry participants sought a deferral. The US Federal Trade Commission still permits synthetic, lab-grown and lab-created under its 2018 Jewelry Guides, next revised in 2028. France and Russia allow synthetic only; the United States and India use lab-grown.",
+     "s": "JCK, 7 September 2026; CIBJO, 7 September 2026"
+    },
+    {
+     "d": "gold-metals",
+     "h": "Platinum adds $6.00 to $1,829.00, the only one of four metals higher",
+     "t": "On Kitco's bid, read at 10:04 UTC on 8 September 2026, platinum was the only one of the four metals higher, at $1,829.00 against $1,823.00 on 7 September. Gold shed $6.00 to $4,399.10, the same figure in the opposite direction; silver eased $0.101 to $65.946 and palladium $3.00 to $1,371.00. The gold-silver ratio narrowed to 66.7 ounces from 67.1. Gold covered $56.80 on the session and palladium $71.00, the widest range of the four, while palladium's bid-ask spread held at 2.9176% of the bid. No source read named a cause.",
+     "s": "Kitco and Business Insider, both read 8 September 2026"
+    },
+    {
+     "d": "gold-metals",
+     "h": "DMCC tokenises a 1,971kg silver bar, its first commodity asset under the VARA framework",
+     "t": "Tokinvest, regulated by Dubai's Virtual Assets Regulatory Authority, began issuing fractional digital interests in the bar on 7 September 2026 as an Asset-Referenced Virtual Asset deployed on BNB Chain. Brink's holds the physical metal and DMCC Tradeflow registers possession. SAM Precious Metals cast the bar in the UAE at 99.9% purity, sized to 1971, the year the United Arab Emirates was founded, and it was unveiled at DMCC's Dubai Precious Metals Conference in November 2025 after Guinness World Records recognised it. At 63,369 troy ounces and Kitco's $65.946 bid, the metal is worth about $4.18m, a figure DMCC does not publish. Regulated secondary trading opens after the initial issuance.",
+     "s": "DMCC, 7 September 2026; Kitco, 8 September 2026"
+    },
+    {
+     "d": "retail-tech",
+     "h": "CIBJO's first Blue List defines sustainable, responsible and ethical for supply chains",
+     "t": "CIBJO's Jewellery Supply Chain Committee presented the first edition of the Blue List on the final day of the Vicenza congress, 7 September 2026, naming the three words its lead Kele Mafole said confuse buyers most. Responsible is defined as meeting internationally recognised standards, a single external test. Ethical adds current best practice in social responsibilities on top of that, two tests. Sustainable names integrated socioeconomic benefit, environmental protection and longevity, and points at no outside standard to measure them against. CIBJO presents the document as guidance, not as a certification.",
+     "s": "CIBJO, 7 September 2026"
+    },
     {
      "d": "retail-tech",
      "h": "Bain forecasts US holiday sales above $1 trillion on 4.5% growth, while McKinsey finds 43% of shoppers planning to spend less on jewelry",

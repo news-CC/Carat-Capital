@@ -107612,5 +107612,979 @@
    "slug": "one-nineteen-thirty-back-on-gold",
    "why": "The session that put $119.30 back on gold, and the mark this one gave away part of."
   }
+ },
+ "three-words-three-tests": {
+  "v": 3,
+  "kicker": "Supply-chain claims",
+  "seo_title": "CIBJO's Blue List defines three trade claims",
+  "figures": {
+   "asof": "CIBJO Jewellery Supply Chain Committee · Blue List, first edition · release published 7 September 2026, 10:24 UTC",
+   "cells": [
+    {
+     "n": "3",
+     "dir": "up",
+     "label": "Terms defined",
+     "q": "sustainable, responsible, ethical"
+    },
+    {
+     "n": "1",
+     "dir": "dn",
+     "label": "Test for responsible",
+     "q": "meets recognised standards"
+    },
+    {
+     "n": "2",
+     "dir": "up",
+     "label": "Tests for ethical",
+     "q": "standards, plus best practice"
+    },
+    {
+     "n": "3",
+     "dir": "up",
+     "label": "Elements in sustainable",
+     "q": "social, environmental, longevity"
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Three claims now have definitions.",
+   "text": "CIBJO's jewellery supply chain committee presented the first edition of the Blue List in Vicenza on 7 September, defining sustainable, responsible and ethical for use in supply chain communication."
+  },
+  "means": [
+   {
+    "who": "If you write product copy:",
+    "text": "check the ladder. Ethical now carries two tests, responsible one."
+   },
+   {
+    "who": "If you audit a supplier:",
+    "text": "responsible asks only for recognised standards, so name which ones."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a certification. CIBJO calls the Blue List a guidance document."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · The three definitions",
+   "asof": "Blue List, first edition, as presented 7 September 2026",
+   "cols": [
+    "Term",
+    "CIBJO's definition, condensed",
+    "Tests it sets"
+   ],
+   "rows": [
+    [
+     "Sustainable",
+     "Integrated, enduring socioeconomic benefits, environmental protection and longevity",
+     "3 elements, no external benchmark"
+    ],
+    [
+     "Responsible",
+     "Meets internationally recognised standards",
+     "1, and external"
+    ],
+    [
+     "Ethical",
+     "Current best practice in social responsibilities, on top of meeting internationally recognised standards",
+     "2, external plus best practice"
+    ]
+   ],
+   "hi": 0,
+   "note": "<b>Source</b> CIBJO's release of 7 September 2026, 10:24 UTC, reporting the first edition of the Blue List as presented by Kele Mafole. <b>Definitions</b> are condensed from CIBJO's wording. <b>Tests it sets</b> is Carat Capital's reading of the structure of each definition, not CIBJO's own count.",
+   "plate": "CC/2026/058"
+  },
+  "sections": [
+   {
+    "h": "Three words, three different tests",
+    "p": [
+     {
+      "lead": "The ladder is uneven.",
+      "text": "Responsible asks one thing, that a practice meets internationally recognised standards. Ethical asks that, plus current best practice in social responsibilities."
+     },
+     {
+      "lead": "Sustainable has no benchmark.",
+      "text": "CIBJO's definition of sustainable names socioeconomic benefit, environmental protection and longevity, and points at no outside standard to measure them against."
+     }
+    ]
+   },
+   {
+    "h": "The committee chose confusing words",
+    "p": [
+     {
+      "lead": "A limited set.",
+      "text": "Kele Mafole leads CIBJO's jewellery supply chain committee. She said the group worked on a limited set of terms, and named these three as the most confused."
+     },
+     {
+      "lead": "The reason given.",
+      "text": "“The Blue List emerged from the recognition that we need a common reference point,” Mafole told the congress on 7 September."
+     }
+    ]
+   },
+   {
+    "h": "It binds nobody by itself",
+    "p": [
+     {
+      "lead": "Guidance, not a standard.",
+      "text": "CIBJO presented the Blue List as a reference guide to terminology that can be used, and alternatively not used, in responsible jewellery supply chains."
+     },
+     {
+      "lead": "First edition.",
+      "text": "It was presented on the congress's final day in Vicenza, alongside the confederation's decision on what to call a made stone.",
+      "links": {
+       "decision on what to call a made stone": "a-cibjo-backs-synthetic-alone.html"
+      }
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "10-13 Sep",
+    "what": "Hardrock Summit, Denver, the first US trade gathering after the congress."
+   },
+   {
+    "when": "By 2027",
+    "what": "A second edition of the Blue List, and whether the term list grows past three."
+   },
+   {
+    "when": "Not yet dated",
+    "what": "CIBJO's next congress, where the supply chain committee reports again."
+   }
+  ],
+  "depth": {
+   "reverse": "A national regulator adopting the Blue List's wording into an enforceable guide. That would turn a reference document into a compliance test, and the copy on a product page would carry legal weight.",
+   "built": {
+    "title": "What the Blue List is",
+    "text": "The Blue List is a reference guide from CIBJO's Jewellery Supply Chain Committee to terminology that can be used, and alternatively not used, in responsible jewellery supply chains. It sits alongside the Blue Books, CIBJO's grading and nomenclature standards, but covers supply chain claims rather than what a stone or a metal is. It is guidance for CIBJO's members, and it is not law in any market."
+   },
+   "method": "Definitions and attributions are taken from CIBJO's own release of 7 September 2026, timestamped 2026-09-07T10:24:27Z in its schema.org datePublished field and fetched at that URL. The definitions are reproduced in the table in condensed form. CIBJO's full wording for ethical is that it ensures current best practice in relation to social responsibilities, in addition to meeting internationally recognised standards; for sustainable, that it provides integrated, enduring socioeconomic benefits, environmental protection and longevity. The count of tests in each definition is Carat Capital's reading of their structure, not a figure CIBJO publishes. CIBJO's page prints a SEPTEMBER 7, 2025 dateline in its body while its own metadata and category, Congress 2026 News, give 2026; the metadata date is used.",
+   "prior": [
+    {
+     "date": "8 Sep 2026",
+     "slug": "cibjo-backs-synthetic-alone",
+     "title": "CIBJO backs synthetic alone",
+     "claim": "The confederation's Blue Books drop to one term for made stones."
+    },
+    {
+     "date": "6 Sep 2026",
+     "slug": "penny-gives-cibjo-eight-points",
+     "title": "Gareth Penny gives CIBJO an 8-point plan",
+     "claim": "Five of eight points concern what the trade says about its product."
+    }
+   ],
+   "sources": [
+    {
+     "title": "CIBJO Congress presents Blue List lexicon of responsible jewellery supply chain terms - CIBJO, 7 September 2026, 10:24 UTC",
+     "url": "https://cibjo.org/cibjo-congress-presents-blue-list-lexicon-of-responsible-jewellery-supply-chain-terms/"
+    },
+    {
+     "title": "CIBJO Congress concludes, General Assembly re-elects Gaetano Cavalieri as president - CIBJO, 7 September 2026, 21:00 UTC",
+     "url": "https://cibjo.org/cibjo-congress-concludes-general-assembly-re-elects-gaetano-cavalieri-as-president/"
+    }
+   ]
+  },
+  "next": {
+   "slug": "cibjo-backs-synthetic-alone",
+   "why": "The other decision of the same congress, on what a made stone may be called."
+  },
+  "corrections": []
+ },
+ "the-bar-and-the-token": {
+  "v": 3,
+  "kicker": "Tokenisation",
+  "seo_title": "DMCC launches a tokenised 1,971kg silver bar",
+  "figures": {
+   "asof": "DMCC release · 7 September 2026, 09:49 UTC · metal valued at Kitco's bid, 8 September 2026, 10:04 UTC",
+   "cells": [
+    {
+     "n": "$4.18m",
+     "dir": "up",
+     "label": "Metal value",
+     "q": "at the 8 September bid"
+    },
+    {
+     "n": "63,369 oz",
+     "dir": "up",
+     "label": "Troy ounces",
+     "q": "1,971kg of fine silver"
+    },
+    {
+     "n": "99.9%",
+     "dir": "up",
+     "label": "Purity",
+     "q": "cast in the UAE"
+    },
+    {
+     "n": "2025",
+     "dir": "dn",
+     "label": "Bar unveiled",
+     "q": "Dubai Precious Metals Conference"
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Dubai tokenised a silver bar.",
+   "text": "DMCC launched fractional digital interests in a 1,971kg silver bar on 7 September, the first commodity asset under its tokenisation framework with the emirate's virtual assets regulator."
+  },
+  "means": [
+   {
+    "who": "If you trade Dubai bullion:",
+    "text": "watch the venue, not the bar. Secondary trading opens after the issue."
+   },
+   {
+    "who": "If you price silver stock:",
+    "text": "nothing moves. One bar, 63,369 ounces, sits in a vault."
+   },
+   {
+    "who": "What this is not:",
+    "text": "new silver supply. The metal is locked in custody at Brink's."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · Who does what",
+   "asof": "DMCC release, 7 September 2026",
+   "cols": [
+    "Role",
+    "Party",
+    "What it does"
+   ],
+   "rows": [
+    [
+     "Issuer",
+     "Tokinvest",
+     "Issues the fractional digital interests"
+    ],
+    [
+     "Regulator",
+     "VARA, Dubai",
+     "Licenses the issuance as an Asset-Referenced Virtual Asset"
+    ],
+    [
+     "Custodian",
+     "Brink's",
+     "Holds and moves the physical bar"
+    ],
+    [
+     "Registry",
+     "DMCC Tradeflow",
+     "Registers possession and ownership of the metal"
+    ],
+    [
+     "Manufacturer",
+     "SAM Precious Metals",
+     "Cast the 1,971kg bar in the UAE at 99.9% purity"
+    ],
+    [
+     "Ledger",
+     "BNB Chain",
+     "Carries the deployed tokens"
+    ]
+   ],
+   "hi": 0,
+   "note": "<b>Source</b> DMCC's own release, published 7 September 2026 at 09:49:40 UTC. <b>The metal value</b> of about $4.18m is Carat Capital's arithmetic: 1,971kg is 63,369 troy ounces at 31.1035 grammes an ounce, priced at Kitco's bid of $65.946 on 8 September 2026.",
+   "plate": "CC/2026/058"
+  },
+  "sections": [
+   {
+    "h": "The bar is the collateral",
+    "p": [
+     {
+      "lead": "One bar, many holders.",
+      "text": "Tokinvest issues fractional digital interests in the single 1,971kg bar as an Asset-Referenced Virtual Asset, with the tokens deployed on BNB Chain."
+     },
+     {
+      "lead": "Brink's holds it.",
+      "text": "The physical bar is registered through DMCC Tradeflow, which records possession of commodities stored in UAE facilities, and held by Brink's."
+     }
+    ]
+   },
+   {
+    "h": "The metal is worth $4.18m",
+    "p": [
+     {
+      "lead": "Priced off the board.",
+      "text": "At 1,971kg the bar carries 63,369 troy ounces. At Kitco's bid of $65.946 on 8 September that is about $4.18m of silver."
+     },
+     {
+      "lead": "The name is the date.",
+      "text": "SAM Precious Metals cast the bar in the UAE at 99.9% purity, sized to 1971, the year the United Arab Emirates was founded."
+     }
+    ]
+   },
+   {
+    "h": "Secondary trading has not opened",
+    "p": [
+     {
+      "lead": "Issue first, market later.",
+      "text": "DMCC says regulated secondary-market trading is scheduled to open after the initial issuance, subject to regulatory and platform requirements."
+     },
+     {
+      "lead": "The bar predates the token.",
+      "text": "It was unveiled at DMCC's Dubai Precious Metals Conference in November 2025, after Guinness World Records recognised it. The token is the new part."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "After issuance",
+    "what": "The opening of regulated secondary trading, and the first printed clearing level for the interests."
+   },
+   {
+    "when": "9 Sep",
+    "what": "Silver's next mark, which reprices the bar's collateral."
+   },
+   {
+    "when": "Nov 2026",
+    "what": "DMCC's Dubai Precious Metals Conference, the venue where this bar was first unveiled."
+   }
+  ],
+  "depth": {
+   "reverse": "A second tokenised commodity under the same framework, or a printed secondary-market price for these interests. Either would make this a working venue rather than a single showcase asset.",
+   "built": {
+    "title": "What an Asset-Referenced Virtual Asset is",
+    "text": "Under the rulebook of Dubai's Virtual Assets Regulatory Authority, an Asset-Referenced Virtual Asset is a token whose value is referenced to one or more assets held outside the ledger. Here the reference asset is a single silver bar in a Brink's vault, registered through DMCC Tradeflow, and the tokens represent fractional interests in that bar."
+   },
+   "method": "The launch, the parties, the purity and the bar's mass are taken from DMCC's own release, published 7 September 2026 at 09:49:40 UTC in its schema.org datePublished field and fetched at that URL. DMCC publishes no value for the metal. Carat Capital's arithmetic: 1,971kg is 1,971,000 grammes, which at 31.1034768 grammes to the troy ounce is 63,369.1 ounces; at Kitco's bid of $65.946, read at 10:04 UTC on 8 September 2026 and carried on the Carat Capital tape, that is $4,178,940, rounded here to $4.18m. The figure moves with the silver price. It is a valuation of the metal, not of the tokens, which may trade at a premium or a discount to it.",
+   "prior": [
+    {
+     "date": "31 Aug 2026",
+     "slug": "seventy-six-nine-and-three-percent",
+     "title": "Dubai gives lab-grown its own desk",
+     "claim": "76.9 million carats and 3.1% of the value moved through Dubai."
+    },
+    {
+     "date": "7 Sep 2026",
+     "slug": "twenty-five-ten-off-gold",
+     "title": "Gold sheds $25.10 to $4,403.90",
+     "claim": "Silver at $65.596, the widest fall of four metals."
+    }
+   ],
+   "sources": [
+    {
+     "title": "First Tokenised Commodity Asset Launched Under DMCC-VARA Framework with World-Record Silver Bar - DMCC, 7 September 2026, 09:49 UTC",
+     "url": "https://dmcc.ae/latest-news/first-tokenised-commodity-asset-launched-under-dmcc-vara-framework-with-world-record-silver-bar"
+    },
+    {
+     "title": "Precious metals prices - Kitco, read 8 September 2026, 10:04 UTC",
+     "url": "https://www.kitco.com/price/precious-metals"
+    }
+   ]
+  },
+  "next": {
+   "slug": "seventy-six-nine-and-three-percent",
+   "why": "The last time Dubai built a market structure around a commodity it does not mine."
+  },
+  "corrections": []
+ },
+ "six-dollars-each-way": {
+  "v": 3,
+  "kicker": "The tape",
+  "figures": {
+   "asof": "Kitco bid · 8 September 2026, 10:04 UTC · change against the 7 September mark",
+   "cells": [
+    {
+     "n": "$1,829.00",
+     "dir": "up",
+     "label": "Platinum",
+     "q": "up $6.00, the only riser"
+    },
+    {
+     "n": "$4,399.10",
+     "dir": "dn",
+     "label": "Gold",
+     "q": "down $6.00 on the session"
+    },
+    {
+     "n": "$65.946",
+     "dir": "dn",
+     "label": "Silver",
+     "q": "down $0.101, or 0.1529%"
+    },
+    {
+     "n": "$1,371.00",
+     "dir": "dn",
+     "label": "Palladium",
+     "q": "down $3.00, widest spread"
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Platinum turned, three did not.",
+   "text": "Platinum added $6.00 to $1,829.00 an ounce on Kitco's bid, the only one of the four metals higher. Gold, silver and palladium all held below their 7 September marks."
+  },
+  "means": [
+   {
+    "who": "If you cost platinum settings:",
+    "text": "re-quote. The metal is $6.00 dearer than at the 7 September mark."
+   },
+   {
+    "who": "If you buy scrap over the counter:",
+    "text": "gold moved $6.00 the other way, to $4,399.10."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a rotation. One session, and no source read named a cause."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · The board at 10:04 UTC",
+   "asof": "Kitco bid · 8 September 2026 · change against the 7 September mark",
+   "cols": [
+    "Metal",
+    "Bid",
+    "Change",
+    "Session range"
+   ],
+   "rows": [
+    [
+     "Gold",
+     "$4,399.10",
+     "−$6.00, −0.1362%",
+     "$4,387.10 – $4,443.90"
+    ],
+    [
+     "Silver",
+     "$65.946",
+     "−$0.101, −0.1529%",
+     "$65.566 – $67.289"
+    ],
+    [
+     "Platinum",
+     "$1,829.00",
+     "+$6.00, +0.3291%",
+     "$1,813.00 – $1,853.00"
+    ],
+    [
+     "Palladium",
+     "$1,371.00",
+     "−$3.00, −0.2183%",
+     "$1,361.00 – $1,432.00"
+    ]
+   ],
+   "hi": 2,
+   "note": "<b>Source</b> Kitco, read at 10:04 UTC on 8 September 2026. <b>Marks</b> are Kitco's bid, the basis the Carat Capital price desk carries. <b>Change</b> is Kitco's own printed change against the 7 September mark.",
+   "plate": "CC/2026/058"
+  },
+  "sections": [
+   {
+    "h": "Platinum was the only riser",
+    "p": [
+     {
+      "lead": "Six dollars each way.",
+      "text": "Platinum added $6.00 to $1,829.00 while gold shed $6.00 to $4,399.10, the same figure in opposite directions on one board."
+     },
+     {
+      "lead": "The second board agreed.",
+      "text": "Business Insider quoted platinum at $1,829.50, 0.246% from Kitco's mid, and above the $1,823.00 mark of 7 September."
+     }
+    ]
+   },
+   {
+    "h": "The ratio narrowed to 66.7",
+    "p": [
+     {
+      "lead": "Silver gained on gold.",
+      "text": "It takes 66.7 ounces of silver to buy an ounce of gold, against 67.1 at the 7 September marks."
+     },
+     {
+      "lead": "Gold ranged $56.80.",
+      "text": "Gold covered $56.80 between $4,387.10 and $4,443.90 on the session, more than nine times the fall it printed."
+     }
+    ]
+   },
+   {
+    "h": "Palladium carries the widest spread",
+    "p": [
+     {
+      "lead": "Forty dollars asked.",
+      "text": "Palladium is bid $1,371.00 against $1,411.00 asked, a spread of 2.9176% of the bid, <a href=\"a-spread-wider-than-the-fall.html\">the pattern carried since 31 August</a>."
+     },
+     {
+      "lead": "Palladium ranged $71.00.",
+      "text": "The metal traded between $1,361.00 and $1,432.00, the widest range of the four in dollar terms."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "9 Sep",
+    "what": "The next session mark, and whether platinum holds above $1,823.00."
+   },
+   {
+    "when": "Sep",
+    "what": "China's SAFE monthly reserves statement, for official gold buying in August."
+   },
+   {
+    "when": "17 Sep",
+    "what": "FH Swiss August export figures, the demand read on precious-metal watch cases."
+   }
+  ],
+  "depth": {
+   "reverse": "Platinum back below $1,823.00 on the next session. That would make this a single tick rather than a turn, and the re-quote advice above would have cost a bench nothing to ignore.",
+   "built": {
+    "title": "What a spot mark is",
+    "text": "Spot platinum is an over-the-counter quote for immediate delivery, not an exchange settlement. Kitco publishes a bid, an ask and a mid for each metal. The bid is what a dealer will pay you, and it is the mark the Carat Capital price desk carries. The market runs nearly around the clock through the trading week."
+   },
+   "method": "Marks are Kitco's bid, read at 10:04:00 UTC on 8 September 2026 at press time, superseding the 05:00 EDT opening mark under the paper's one-price rule; both the dated tape file and the live tape file carry these values. Kitco prints two clocks that disagree by four hours: the numeric unix timestamp field, 1788861840, converts to 10:04:00 UTC, while the adjacent originalTime string reads 06:03:58 with a UTC suffix it does not carry. The numeric field is used. Prior marks are the 7 September levels and reconcile against Kitco's own printed change for all four metals: $4,399.10 plus $6.00 is $4,405.10; $65.946 plus $0.101 is $66.047; $1,829.00 less $6.00 is $1,823.00; $1,371.00 plus $3.00 is $1,374.00. A second board was read for all four. Business Insider quoted gold at $4,402.11 against Kitco's mid of $4,400.10, 0.0457% apart; silver $65.96 against $66.071, 0.168%; platinum $1,829.50 against $1,834.00, 0.246%; palladium $1,389.00 against $1,391.00, 0.144%. All four sit inside the band the price desk treats as timing noise. The gold-silver ratio, the 2.9176% palladium spread and the $56.80 and $71.00 session ranges are Carat Capital's arithmetic on those quotes.",
+   "prior": [
+    {
+     "date": "7 Sep 2026",
+     "slug": "twenty-five-ten-off-gold",
+     "title": "Gold sheds $25.10 to $4,403.90",
+     "claim": "Three metals lower on a board that traded through the holiday."
+    },
+    {
+     "date": "3 Sep 2026",
+     "slug": "one-nineteen-thirty-back-on-gold",
+     "title": "$119.30 back on gold",
+     "claim": "Gold's first higher mark since 28 August."
+    },
+    {
+     "date": "31 Aug 2026",
+     "slug": "spread-wider-than-the-fall",
+     "title": "Spread wider than the fall",
+     "claim": "Palladium's bid-ask spread was 2.91% of the bid."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Precious metals prices - Kitco, read 8 September 2026, 10:04 UTC",
+     "url": "https://www.kitco.com/price/precious-metals"
+    },
+    {
+     "title": "Platinum price - Business Insider Markets, read 8 September 2026",
+     "url": "https://markets.businessinsider.com/commodities/platinum-price"
+    },
+    {
+     "title": "Gold price - Business Insider Markets, read 8 September 2026",
+     "url": "https://markets.businessinsider.com/commodities/gold-price"
+    }
+   ]
+  },
+  "next": {
+   "slug": "twenty-five-ten-off-gold",
+   "why": "The session before this one, when platinum was the metal that barely moved."
+  },
+  "corrections": []
+ },
+ "cibjo-backs-synthetic-alone": {
+  "v": 3,
+  "kicker": "Nomenclature",
+  "seo_title": "CIBJO backs 'synthetic' alone in its Blue Books",
+  "figures": {
+   "asof": "CIBJO Centenary Congress, Vicenza, 4-7 September 2026 · JCK and CIBJO releases published 7 September 2026",
+   "cells": [
+    {
+     "n": "3",
+     "dir": "up",
+     "label": "Terms the FTC allows",
+     "q": "synthetic, lab-grown, lab-created"
+    },
+    {
+     "n": "2028",
+     "dir": "dn",
+     "label": "Next FTC revision",
+     "q": "the earliest US wording change"
+    },
+    {
+     "n": "2",
+     "dir": "dn",
+     "label": "Countries on synthetic only",
+     "q": "France and Russia"
+    },
+    {
+     "n": "2025",
+     "dir": "up",
+     "label": "Study began",
+     "q": "at CIBJO's Paris congress"
+    }
+   ]
+  },
+  "changed": {
+   "lead": "The Blue Books change word.",
+   "text": "CIBJO's general assembly and board took up the switch to synthetic on 7 September, putting the confederation alongside the London Diamond Bourse and the African Diamond Producers Association in recommending that term alone."
+  },
+  "means": [
+   {
+    "who": "If you print tags outside the US:",
+    "text": "check your supplier's wording. CIBJO now recommends synthetic alone."
+   },
+   {
+    "who": "If you sell in America:",
+    "text": "nothing changes. The FTC still allows three terms, and reopens its guides in 2028."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a ban. Cavalieri says each country follows its own terminology."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · What each body permits",
+   "asof": "CIBJO and JCK, both 7 September 2026",
+   "cols": [
+    "Body or market",
+    "Term permitted",
+    "Status"
+   ],
+   "rows": [
+    [
+     "CIBJO Blue Books",
+     "Synthetic",
+     "Recommended alone from 7 September 2026"
+    ],
+    [
+     "CIBJO commissions voting",
+     "Diamond and coloured stone",
+     "2 of 2, on 6 and 7 September"
+    ],
+    [
+     "United States, FTC",
+     "Synthetic, lab-grown, lab-created",
+     "2018 guides, next revision 2028"
+    ],
+    [
+     "France",
+     "Synthetic",
+     "The only term allowed"
+    ],
+    [
+     "Russia",
+     "Synthetic",
+     "The only term allowed"
+    ],
+    [
+     "United States and India, in trade use",
+     "Lab-grown, laboratory-grown",
+     "In use"
+    ],
+    [
+     "London Diamond Bourse",
+     "Synthetic",
+     "Recommended alone"
+    ],
+    [
+     "African Diamond Producers Association",
+     "Synthetic",
+     "Recommended alone"
+    ]
+   ],
+   "hi": 0,
+   "note": "<b>Source</b> CIBJO's release of 7 September 2026 for the France, Russia, United States and India rows; JCK of 7 September 2026 for the CIBJO, FTC, London Diamond Bourse and African Diamond Producers Association rows. <b>The FTC</b> position dates from its 2018 Jewelry Guides, and the next revision is slated for 2028.",
+   "plate": "CC/2026/058"
+  },
+  "sections": [
+   {
+    "h": "Two commissions voted the same way",
+    "p": [
+     {
+      "lead": "Diamond and coloured stone.",
+      "text": "CIBJO's diamond commission proposed the change, having begun studying it in 2025 after the Paris congress. Its coloured stone commission voted for synthetic on 6 September."
+     },
+     {
+      "lead": "The board decides.",
+      "text": "Under CIBJO's procedures a final nomenclature decision rests with the board, on guidance from Sector A and the general assembly. Both met on 7 September."
+     }
+    ]
+   },
+   {
+    "h": "One alternative term was requested",
+    "p": [
+     {
+      "lead": "The committee asked.",
+      "text": "CIBJO's Laboratory-Grown Diamond Steering Committee requested that one alternative term, laboratory-grown, be kept, its chair Wesley Hunt told the congress."
+     },
+     {
+      "lead": "A letter sought delay.",
+      "text": "Hunt said CIBJO had received a letter earlier in September from senior industry participants asking it to defer any final decision. Cavalieri said it would proceed."
+     },
+     {
+      "lead": "The reason given.",
+      "text": "Udi Sheintal, who heads CIBJO's diamond commission, told the room: “This is not about marketing. It is about telling the truth to the consumer.”"
+     }
+    ]
+   },
+   {
+    "h": "America keeps three terms",
+    "p": [
+     {
+      "lead": "Nothing moves before 2028.",
+      "text": "The Federal Trade Commission allows 3 terms: synthetic, lab-grown and lab-created, a position set in its 2018 Jewelry Guides. The next revision is slated for 2028."
+     },
+     {
+      "lead": "AGTA is lobbying.",
+      "text": "The American Gem Trade Association told the congress it will keep pressing the FTC to correct the 2018 decision, and is briefing members of Congress."
+     }
+    ]
+   },
+   {
+    "h": "The market splits by country",
+    "p": [
+     {
+      "lead": "Two words, two maps.",
+      "text": "France and Russia allow only synthetic, while the United States and India use lab-grown or laboratory-grown, CIBJO's release says.",
+      "links": {
+       "Russia": "a-russia-bans-the-word.html"
+      }
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "10-13 Sep",
+    "what": "Hardrock Summit, Denver, the first US trade gathering after the congress."
+   },
+   {
+    "when": "By end 2026",
+    "what": "CIBJO's next Blue Book editions, and whether laboratory-grown survives as an alternative."
+   },
+   {
+    "when": "2028",
+    "what": "The FTC's scheduled revision of its Jewelry Guides, the earliest date US wording can change."
+   }
+  ],
+  "depth": {
+   "reverse": "The CIBJO board reopening the Blue Book wording to admit laboratory-grown as a permitted alternative. Its own lab-grown committee asked for exactly that, and the Blue Books are revisable documents.",
+   "built": {
+    "title": "What the Blue Books are",
+    "text": "The Blue Books are CIBJO's grading and nomenclature standards for diamonds, coloured stones, pearls, precious metals and gemmological laboratories. They are guidance rather than law. They bind CIBJO's members and are widely cited by national trade bodies and laboratories, but a jurisdiction's own regulator sets what a tag must say in that market, which is why the FTC's three terms are unaffected."
+   },
+   "method": "The vote and its outcome are taken from JCK's report of 7 September 2026 by Karen Dybis, fetched at its own URL. The committee's request for one alternative term, the France, Russia, United States and India split, and CIBJO's decision procedure are taken from CIBJO's own release of the same day, timestamped 2026-09-07T10:29:24Z in its schema.org datePublished field. CIBJO's release was published before the board met and describes the decision as pending; JCK's report, published later the same day, describes the outcome. The two are a sequence, not a disagreement between sources. CIBJO's page prints a SEPTEMBER 7, 2025 dateline in its body while its own metadata and category, Congress 2026 News, give 2026; the metadata date is used. The congress ran 4 to 7 September 2026 and its general assembly re-elected Gaetano Cavalieri as president.",
+   "prior": [
+    {
+     "date": "6 Sep 2026",
+     "slug": "penny-gives-cibjo-eight-points",
+     "title": "Gareth Penny gives CIBJO an 8-point plan",
+     "claim": "Synthetics take the majority by volume of US engagement rings."
+    },
+    {
+     "date": "1 Aug 2026",
+     "slug": "russia-bans-the-word",
+     "title": "Russia bans the word",
+     "claim": "Resolution No. 657 requires synthetic from 1 September."
+    },
+    {
+     "date": "27 Jul 2026",
+     "slug": "say-synthetic-not-lab-grown",
+     "title": "Not lab-grown, synthetic",
+     "claim": "CIBJO expected to strike the terms at a September congress."
+    }
+   ],
+   "sources": [
+    {
+     "title": "CIBJO Pushes to Replace 'Laboratory-Grown' With 'Synthetic' - JCK, Karen Dybis, 7 September 2026",
+     "url": "https://www.jckonline.com/editorial-article/cibjo-votes-synthetic-vicenza/"
+    },
+    {
+     "title": "More than half of U.S. engagement rings feature laboratory-grown diamonds, CIBJO Congress hears - CIBJO, 7 September 2026, 10:29 UTC",
+     "url": "https://cibjo.org/more-than-half-of-u-s-engagement-rings-feature-laboratory-grown-diamonds-cibjo-congress-hears/"
+    },
+    {
+     "title": "CIBJO Congress concludes, General Assembly re-elects Gaetano Cavalieri as president - CIBJO, 7 September 2026, 21:00 UTC",
+     "url": "https://cibjo.org/cibjo-congress-concludes-general-assembly-re-elects-gaetano-cavalieri-as-president/"
+    }
+   ]
+  },
+  "next": {
+   "slug": "say-synthetic-not-lab-grown",
+   "why": "The July report that saw this coming, and what it expected the confederation to do."
+  },
+  "corrections": []
+ },
+ "seventy-eight-thousand-at-bonhams": {
+  "v": 3,
+  "kicker": "Auction result",
+  "seo_title": "Mouawad parure sells at 51% of its Bonhams estimate",
+  "figures": {
+   "asof": "Bonhams Online Jewellery, Hong Kong, 2 September 2026 · reported by Rapaport 7 September 2026, 10:17 UTC",
+   "cells": [
+    {
+     "n": "$78,277",
+     "dir": "dn",
+     "label": "Top lot",
+     "q": "51.1% of the high estimate"
+    },
+    {
+     "n": "HKD 586,400",
+     "dir": "dn",
+     "label": "Shortfall",
+     "q": "against the HKD 1.2m high"
+    },
+    {
+     "n": "HKD 281,600",
+     "dir": "up",
+     "label": "Jadeite ring",
+     "q": "sold inside its estimate"
+    },
+    {
+     "n": "254 ct",
+     "dir": "up",
+     "label": "In the parure",
+     "q": "rubies, emeralds and diamonds"
+    }
+   ]
+  },
+  "changed": {
+   "lead": "The top lot missed.",
+   "text": "A Mouawad ruby, emerald and diamond parure led Bonhams' Hong Kong online sale at HKD 613,600, or $78,277. That is HKD 586,400 below the high estimate the house set."
+  },
+  "means": [
+   {
+    "who": "If you consign a branded suite:",
+    "text": "price the reserve off the parts. The set made 51.1% of its high estimate."
+   },
+   {
+    "who": "If you buy at Hong Kong online sales:",
+    "text": "the band held. Three lots closed at HKD 179,200 each, all inside estimate."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a read on rubies or emeralds. One lot, one house, one online session."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · The named lots, Bonhams Hong Kong",
+   "asof": "Online Jewellery, Hong Kong · sale of 2 September 2026",
+   "cols": [
+    "Lot",
+    "Realized (HKD)",
+    "Realized (USD)",
+    "Against estimate"
+   ],
+   "rows": [
+    [
+     "Mouawad ruby, emerald and diamond parure",
+     "613,600",
+     "$78,277",
+     "48.9% below high"
+    ],
+    [
+     "Burmese jadeite ring, 2.90 ct diamonds",
+     "281,600",
+     "$35,924",
+     "Inside range"
+    ],
+    [
+     "Diamond necklace, detachable 1.66 ct stone",
+     "179,200",
+     "$22,860",
+     "Inside range"
+    ],
+    [
+     "46 lavender jadeite beads, gem-set clasp",
+     "179,200",
+     "$22,860",
+     "Inside range"
+    ],
+    [
+     "Flower pendant, 5.02 ct fancy light yellow",
+     "179,200",
+     "$22,860",
+     "Inside range"
+    ]
+   ],
+   "hi": 0,
+   "note": "<b>Source</b> Rapaport, 7 September 2026, on Bonhams' Online Jewellery, Hong Kong sale of 2 September 2026. <b>High estimate</b> on the parure was HKD 1.2 million, or $153,085. <b>The 48.9%</b>, the 51.1% share and the implied rate of 7.8388 Hong Kong dollars to the US dollar are Carat Capital's arithmetic on Rapaport's paired figures.",
+   "plate": "CC/2026/058"
+  },
+  "sections": [
+   {
+    "h": "The estimate missed by half",
+    "p": [
+     {
+      "lead": "Half the top.",
+      "text": "Bonhams put HKD 1.2 million, or $153,085, on the parure at the top of its range for its 2 September online sale. It made HKD 613,600, or 51.1% of that mark."
+     },
+     {
+      "lead": "The set is large.",
+      "text": "The suite runs to a necklace, a bracelet, earrings and a ring. It carries roughly 254 carats of gem material: 75 of rubies, 140 of emeralds and 39 of diamonds."
+     }
+    ]
+   },
+   {
+    "h": "Every other named lot held",
+    "p": [
+     {
+      "lead": "Inside the range.",
+      "text": "A Burmese jadeite ring set with 2.90 carats of diamonds made HKD 281,600. Rapaport reports it sold within its estimates, as did each of the three lots below it."
+     },
+     {
+      "lead": "Three lots tied.",
+      "text": "A diamond necklace with a detachable 1.66-carat stone, a necklace of 46 lavender jadeite beads and a fancy-light-yellow flower pendant each made HKD 179,200."
+     }
+    ]
+   },
+   {
+    "h": "Branded suites price on parts",
+    "p": [
+     {
+      "lead": "The room was firm.",
+      "text": "The weakness sat in one lot, not in the session. Bulgari, Hermes and Chopard pieces also found buyers, Rapaport reports."
+     },
+     {
+      "lead": "The rate implied.",
+      "text": "The paired Hong Kong dollar and US dollar figures imply a rate of 7.8388 to the dollar across both the result and the estimate."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "14-17 Sep",
+    "what": "Sotheby's and Phillips jewellery sales, the next dated totals on the calendar."
+   },
+   {
+    "when": "17 Sep",
+    "what": "Sotheby's Hong Kong jewellery sale, the next Asian test of the same buyer pool."
+   },
+   {
+    "when": "24 Sep",
+    "what": "Morphy Auctions' 357-lot Fine Jewelry and Watches sale, Denver, Pennsylvania."
+   }
+  ],
+  "depth": {
+   "reverse": "A second Asian sale in which a branded suite clears its high estimate. That would make this one consignment mispriced, not a signal about how the room values a maker's name.",
+   "built": {
+    "title": "What a parure is",
+    "text": "A parure is a matched suite of jewellery designed to be worn together, here a necklace, a bracelet, earrings and a ring in one gem palette. It is estimated and sold as a set, which is why a house's number on a parure is a bet on a buyer who wants all four pieces, not a sum of what the stones would fetch apart."
+   },
+   "method": "Figures are Rapaport's, published 7 September 2026 at 10:17:21 UTC and read from the article's own schema.org datePublished field. The sale is Bonhams' Online Jewellery, Hong Kong, held 2 September 2026. Rapaport carries the same result on a second page in rounded form, $78,200 against a $153,000 high estimate; the article body's $78,277 and $153,085 are used. The 48.9% shortfall, the 51.1% share of the high estimate, the HKD 586,400 difference, the 254 carats of gem material in the parure and the implied rate of 7.8388 Hong Kong dollars to the US dollar are Carat Capital's arithmetic on Rapaport's paired figures. Bonhams published no total for the session, so the parure's result cannot be set against a sale-wide figure.",
+   "prior": [
+    {
+     "date": "4 Sep 2026",
+     "slug": "thirty-nine-percent-at-christies",
+     "title": "Christie's watch sales rise 39%",
+     "claim": "Geneva's May rare watch sale made $42.2 million."
+    },
+    {
+     "date": "25 Aug 2026",
+     "slug": "thirty-nine-of-forty-eight",
+     "title": "39 of 48 lots away in Sydney",
+     "claim": "A Bonhams Australia sale sold 39 of 48 jewellery lots."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Gem and Diamond Parure Takes Top Spot at Bonhams - Rapaport, 7 September 2026, 10:17 UTC",
+     "url": "https://rapaport.com/news/gem-and-diamond-parure-takes-top-spot-at-bonhams/"
+    },
+    {
+     "title": "Gareth Penny Calls for Stronger Natural-Diamond Marketing - Rapaport, 7 September 2026 (carries the same sale in a related-story summary)",
+     "url": "https://rapaport.com/news/gareth-penny-calls-for-stronger-natural-diamond-marketing/"
+    }
+   ]
+  },
+  "next": {
+   "slug": "thirty-nine-of-forty-eight",
+   "why": "The last Bonhams jewellery sale measured lot by lot here, in Sydney."
+  },
+  "corrections": []
  }
 }
