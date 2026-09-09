@@ -5,7 +5,6 @@
   "date": "2026-09-08",
   "kicker": "Auction result",
   "byline": "The Auctions Desk",
-  "lead": true,
   "tags": [
    "PLAIN",
    "ACTOR"
@@ -76,8 +75,8 @@
   "tags": [
    "NUM"
   ],
-  "title": "Platinum adds $6.00 to $1,829.00, the only metal higher",
-  "dek": "Gold fell to $4,399.10 on Kitco's bid, silver to $65.946 and palladium to $1,371.00. The gold-silver ratio narrowed to 66.7 ounces from 67.1 at the 7 September mark.",
+  "title": "Platinum adds $6.00 to $1,829.00, Kitco's only riser",
+  "dek": "Kitco's bid put gold at $4,399.10, silver at $65.946 and palladium at $1,371.00, all three lower on the board's own session change. The gold-silver ratio narrowed to 66.7 ounces from 67.1 at the 7 September mark.",
   "sources": [
    {
     "title": "Precious metals prices - Kitco, read 8 September 2026, 10:04 UTC",
@@ -93,11 +92,11 @@
    }
   ],
   "body": [
-   "Platinum turned, three did not. Platinum added $6.00 to $1,829.00 an ounce on Kitco's bid, the only one of the four metals higher. Gold, silver and palladium all held below their 7 September marks.",
-   "Platinum was the only riser. Six dollars each way. Platinum added $6.00 to $1,829.00 while gold shed $6.00 to $4,399.10, the same figure in opposite directions on one board. The second board agreed. Business Insider quoted platinum at $1,829.50, 0.246% from Kitco's mid, and above the $1,823.00 mark of 7 September.",
+   "Platinum turned, three did not. Platinum added $6.00 to $1,829.00 an ounce on Kitco's bid, the only one of the four metals higher on the board's own session change. Gold and palladium sat below this paper's 7 September marks.",
+   "Platinum was Kitco's only riser. Six dollars each way. Platinum added $6.00 to $1,829.00 while gold shed $6.00 to $4,399.10, the same figure in opposite directions on one board. The second board agreed. Business Insider quoted platinum at $1,829.50, 0.246% from Kitco's mid, and above the $1,815.00 mark this paper printed on 7 September.",
    "The ratio narrowed to 66.7. Silver gained on gold. It takes 66.7 ounces of silver to buy an ounce of gold, against 67.1 at the 7 September marks. Gold ranged $56.80. Gold covered $56.80 between $4,387.10 and $4,443.90 on the session, more than nine times the fall it printed.",
    "Palladium carries the widest spread. Forty dollars asked. Palladium is bid $1,371.00 against $1,411.00 asked, a spread of 2.9176% of the bid, the pattern carried since 31 August. Palladium ranged $71.00. The metal traded between $1,361.00 and $1,432.00, the widest range of the four in dollar terms.",
-   "The desk's view: If you cost platinum settings: re-quote. The metal is $6.00 dearer than at the 7 September mark. If you buy scrap over the counter: gold moved $6.00 the other way, to $4,399.10. What this is not: a rotation. One session, and no source read named a cause."
+   "The desk's view: If you cost platinum settings: re-quote. The metal is $14.00 dearer than this paper's 7 September mark. If you buy scrap over the counter: gold moved the other way, to $4,399.10, $4.80 under the 7 September mark. What this is not: a rotation. One session, and no source read named a cause."
   ],
   "minutes": 2
  },
@@ -12365,5 +12364,126 @@
     "url": "https://www.jckonline.com/editorial-article/show-takeaways-podcast-2026/"
    }
   ]
+ },
+ {
+  "slug": "pudong-ends-retail-gold-trading",
+  "desk": "gold-metals",
+  "date": "2026-09-09",
+  "kicker": "China's counter",
+  "byline": "The Metals Desk",
+  "lead": true,
+  "tags": [
+   "PLAIN",
+   "ACTOR"
+  ],
+  "title": "Pudong Development Bank ends retail gold trading on 25 September",
+  "dek": "The bank closes agency access to Shanghai Gold Exchange personal precious-metals trading across mobile, online and counter channels. ICBC and China Construction Bank shut the same business on 24 July; three more banks went earlier in 2026.",
+  "sources": [
+   {
+    "title": "浦发银行：将自9月25日后择时停办代理上海黄金交易所个人贵金属业务 - Jiemian News, 8 September 2026",
+    "url": "https://www.jiemian.com/article/15068645.html"
+   },
+   {
+    "title": "上海黄金交易所决定整体关停个人客户交易业务 - 21st Century Business Herald, 27 June 2026",
+    "url": "https://m.21jingji.com/article/20260627/herald/56717320b6e251d8358e4c17bb54da8c.html"
+   }
+  ],
+  "body": [
+   "Six banks, one exit. Shanghai Pudong Development Bank will stop acting as agent for Shanghai Gold Exchange personal precious-metals trading at a time of its choosing after 25 September, and close the channels that carry it.",
+   "Nine contract codes go dark. The suspension covers 9 contract codes: Au99.99, Au100g, Au99.95, PGC30g, Au(T+D), mAu(T+D), Ag(T+D), Au(T+N1) and Au(T+N2), spanning spot bullion, deferred settlement and a platinum contract. SPD Bank told holders to sell, close out or take delivery before the date; after it, the capacity to do any of the three is limited.",
+   "The exchange closed the door. Bank staff told the 21st Century Business Herald that the Shanghai Gold Exchange had decided to shut individual-client trading altogether, citing market instability and policy requirements. That account is staff wording carried by a newspaper, not a release from the exchange itself, and no statement on the exchange's own site was located. What is documented is 6 banks leaving the channel in 2026.",
+   "Institutions are still joining. The exchange admitted Chow Tai Seng's Hong Kong arm as an international member, reported on 5 September. Membership is the institutional route into the exchange; the agency channels closing here are the retail route, run through commercial banks on behalf of individuals.",
+   "The desk's view: If you trade gold through a Chinese bank app: sell, close out or take delivery before 25 September. If you price Chinese retail demand: the exchange route is closing to individuals, and the counter and the shop are what remain. What this is not: a ban on owning gold. Bars and jewellery counters are untouched."
+  ],
+  "minutes": 1
+ },
+ {
+  "slug": "sothebys-two-million-without-reserve",
+  "desk": "auctions",
+  "date": "2026-09-09",
+  "kicker": "Auction preview",
+  "byline": "The Auctions Desk",
+  "tags": [
+   "ACTOR",
+   "NUM"
+  ],
+  "title": "Sotheby's offers HKD 2m colored-diamond earrings without reserve",
+  "dek": "The lot pairs a 2.08-carat light pink pear shape with a 2.21-carat very light pink VVS1 stone. More than 300 pieces sell in Hong Kong, including Graff, Tiffany and Hermès.",
+  "sources": [
+   {
+    "title": "Colored diamond earrings to headline Sotheby's auction - Rapaport, 8 September 2026",
+    "url": "https://rapaport.com/news/colored-diamond-earrings-to-headline-sothebys-auction/"
+   }
+  ],
+  "body": [
+   "No reserve on top. Sotheby's put a pair of colored-diamond earrings carrying a HKD 2 million high estimate, or $255,050, into its Hong Kong Fine Jewelry sale without a reserve.",
+   "Three top lots without reserve. The earrings, the ruby demi-parure and the Mozambique ruby ring are all offered without reserve, and each sells to the highest bid, whatever that bid is. Sixty Burmese rubies totalling 26.78 carats sit with 12.65 carats of diamonds in the parure, against a HKD 600,000 to 1,200,000 range.",
+   "Pink runs through the sale. The headline earrings pair a 2.08-carat light pink pear shape with a 2.21-carat very light pink VVS1, on surmounts of very faint and very light pink brilliants. A 0.88-carat fancy vivid purplish pink, I2 clarity, carries a HKD 800,000 to 1,500,000 estimate, or $102,022 to $191,292.",
+   "A second sale in eight days. Sotheby's runs this day sale of more than 300 pieces on 9 September, and a separate high jewellery sale of more than 200 lots follows on 17 September. That sale is led by ruby earrings at a HK$20 million estimate, roughly ten times the high on this lot.",
+   "The desk's view: If you bid in the room: no reserve means the lot sells at whatever it draws, not at a floor. If you value pink goods: three of the five largest named lots carry no reserve, so the day prints real clearing levels. What this is not: a result. Every figure here is an estimate set before the sale."
+  ],
+  "minutes": 1
+ },
+ {
+  "slug": "heritage-two-fifty-on-a-yellow",
+  "desk": "auctions",
+  "date": "2026-09-09",
+  "kicker": "Auction preview",
+  "byline": "The Auctions Desk",
+  "tags": [
+   "ACTOR",
+   "NUM"
+  ],
+  "title": "Heritage puts a $250,000 high estimate on a 22.09-carat yellow",
+  "dek": "The Internally Flawless stone, documented to South Africa's Kimberley mine, leads the 28 September Fall Fine Jewelry Signature Auction. Heritage calls it the Kimberley Sunshine and puts the low at $200,000.",
+  "sources": [
+   {
+    "title": "Heritage Kimberley mine diamond - JCK, 8 September 2026",
+    "url": "https://www.jckonline.com/editorial-article/heritage-kimberley-mine-diamond/"
+   }
+  ],
+  "body": [
+   "A yellow with papers. Heritage estimated a 22.09-carat fancy yellow diamond, Internally Flawless and documented to the Kimberley mine, at $200,000 to $250,000 for its 28 September sale.",
+   "Origin is the pricing story. Heritage names South Africa's Kimberley mine as the stone's source and Pragnell as the maker of the piece, both stated as documented rather than inferred. Weight above 22 carats, fancy yellow colour, Internally Flawless clarity and the mine record are the four things the house prices together.",
+   "The range implies eleven thousand. The $200,000 to $250,000 estimate is $9,054 to $11,317 a carat on 22.09 carats, before buyer's premium. The high sits $50,000 above the low, a spread of 25.0% of the low estimate.",
+   "Yellows have been soft. Fancy colour pricing fell 0.1% in an August survey, with pinks higher and yellows and blues lower. A single result on 28 September prices this stone, not the fancy yellow market; the survey and this lot measure different things.",
+   "The desk's view: If you buy fancy colour: the range works out at $9,054 to $11,317 a carat, before buyer's premium. If you sell yellows: documented mine origin and an Internally Flawless grade are what this estimate is priced on. What this is not: a result. The sale is three weeks out and the estimate is Heritage's."
+  ],
+  "minutes": 1
+ },
+ {
+  "slug": "thirty-six-off-palladium",
+  "desk": "gold-metals",
+  "date": "2026-09-09",
+  "kicker": "The tape",
+  "byline": "The Prices Desk",
+  "tags": [
+   "NUM",
+   "PLAIN"
+  ],
+  "title": "Palladium sheds $36.00 to $1,335.00 on the 8 September mark",
+  "dek": "Gold eased $9.80 to $4,389.30 on Kitco's bid, platinum added $12.00 to $1,841.00 and silver $0.184 to $66.13. Palladium's bid-ask spread widened to 2.9963%.",
+  "sources": [
+   {
+    "title": "Precious metals prices - Kitco, read 9 September 2026, 10:04 UTC",
+    "url": "https://www.kitco.com/price/precious-metals"
+   },
+   {
+    "title": "Live gold and silver prices - livepriceofgold.com, read 9 September 2026",
+    "url": "https://www.livepriceofgold.com/palladium-price.html"
+   },
+   {
+    "title": "Palladium - TradingEconomics, read 9 September 2026",
+    "url": "https://tradingeconomics.com/commodity/palladium"
+   }
+  ],
+  "body": [
+   "Palladium alone moved. Palladium fell $36.00 to $1,335.00 an ounce on Kitco's bid, a fall of 2.6258% and the only move of the four metals past one percent.",
+   "Palladium fell, three barely moved. Palladium is bid $1,335.00 against $1,371.00 on 8 September, a fall of $36.00, or 2.6258%. Gold eased to $4,389.30, platinum rose to $1,841.00 and silver to $66.13, and none of the three moved a full percent.",
+   "The spread is the wider story. Palladium is bid $1,335.00 against $1,375.00 asked, a spread of 2.9963% of the bid, up from 2.9176% on 8 September. TradingEconomics quoted palladium at $1,365.00, 0.738% from Kitco's mid of $1,355.00 but 2.247% from its bid, and most of that gap is the spread itself.",
+   "The ratio narrowed to 66.4. It takes 66.4 ounces of silver to buy an ounce of gold, against 66.7 at the 8 September marks. Gold covered $72.90 between $4,340.80 and $4,413.70 on the session, more than seven times the fall it printed.",
+   "The desk's view: If you cost palladium: re-quote down, the metal is $36.00 cheaper than at the 8 September mark. If you buy palladium scrap: bid and ask sit $40.00 apart, a spread of 2.9963% of the bid. What this is not: a trend. One session, and no source read named a cause."
+  ],
+  "minutes": 1
  }
 ]
