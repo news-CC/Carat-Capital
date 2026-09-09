@@ -1,0 +1,5 @@
+theme: emerald-platinum
+POST 1 six-banks-one-exit: 6 slides, words/slide [19, 12, 29, 30, 45, 13] (total 148), largest 229,856 bytes
+   word law: clean
+POST 2 only-palladium-moves: 4 slides, words/slide [16, 38, 19, 13] (total 86), largest 186,135 bytes
+   word law: clean
