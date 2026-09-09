@@ -12485,5 +12485,36 @@
    "The desk's view: If you cost palladium: re-quote down, the metal is $36.00 cheaper than at the 8 September mark. If you buy palladium scrap: bid and ask sit $40.00 apart, a spread of 2.9963% of the bid. What this is not: a trend. One session, and no source read named a cause."
   ],
   "minutes": 1
+ },
+ {
+  "slug": "signet-comps-up-sales-down",
+  "desk": "retail-tech",
+  "date": "2026-09-09",
+  "kicker": "Results",
+  "byline": "The Retail Desk",
+  "tags": [
+   "ACTOR",
+   "VS"
+  ],
+  "minutes": 1,
+  "title": "Signet comps rise 2.2% as total sales fall 0.5%",
+  "dek": "53 stores closed and 5 opened since year-end, leaving 2,534 open. Adjusted earnings guidance rises to $10.45 to $12.15 a share from $9.20 to $11.00.",
+  "sources": [
+   {
+    "title": "Signet Jewelers Reports Second Quarter Fiscal 2027 Results - Exhibit 99.1 to Form 8-K, 9 September 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/832988/000083298826000227/fy27ex99109x09x26pressrele.htm"
+   },
+   {
+    "title": "Signet Jewelers Limited Form 8-K, filed 9 September 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/832988/000083298826000227/"
+   }
+  ],
+  "body": [
+   "Comps up, sales down. Signet's same store sales rose 2.2% in the 13 weeks to 1 August while total sales fell 0.5% to $1,528.1 million, and the company raised its full-year earnings guidance.",
+   "Fifty-three stores came out. Signet closed 53 stores and opened 5 since year-end Fiscal 2026, leaving 2,534 open at 1 August, and same store sales rose 2.2% across the ones that stayed. Selling space fell 1.1% to 4.0 million square feet on the same comparison, and North America took 50 of the 53 closures.",
+   "The guidance moved, sales did not. Adjusted diluted EPS guidance rises to $10.45 to $12.15 from $9.20 to $11.00, while the full-year sales range is unchanged at $6.7 to $6.9 billion. The new midpoint of $11.30 sits 11.9% above the old $10.10, and the company intends a $125 million accelerated repurchase this month.",
+   "Tariff refunds carried the margin. Gross margin was 39.4% of sales, up 80 basis points, helped by about $15 million of refunds for tariffs previously paid. The company names higher gold costs as an offset inside that same margin, against lower inventory and distribution costs. Adjusted diluted EPS came to $2.19, from $1.61 a year earlier.",
+   "The desk's view: If you supply Signet: the chain is 48 stores smaller than at year-end, on comps that are growing. If you price bridal: average unit retail rose about 6%, in both bridal and fashion. What this is not: a sales recovery. The chain sold less in total than a year earlier."
+  ]
  }
 ]

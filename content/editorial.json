@@ -109308,5 +109308,199 @@
    "slug": "six-dollars-each-way",
    "why": "The 8 September board these changes are measured against, and its correction."
   }
+ },
+ "signet-comps-up-sales-down": {
+  "v": 3,
+  "kicker": "Results",
+  "figures": {
+   "asof": "Signet Jewelers, 13 weeks ended 1 August 2026 · Form 8-K filed 9 September 2026",
+   "cells": [
+    {
+     "n": "2.2%",
+     "dir": "up",
+     "label": "Same store sales",
+     "q": "against 2.4% a year earlier"
+    },
+    {
+     "n": "0.5%",
+     "dir": "dn",
+     "label": "Total sales",
+     "q": "down $7.0m to $1,528.1m"
+    },
+    {
+     "n": "48",
+     "dir": "dn",
+     "label": "Fewer stores",
+     "q": "53 closed, 5 opened since year-end"
+    },
+    {
+     "n": "$2.19",
+     "dir": "up",
+     "label": "Adjusted diluted EPS",
+     "q": "from $1.61 a year earlier"
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Comps up, sales down.",
+   "text": "Signet's same store sales rose 2.2% in the 13 weeks to 1 August while total sales fell 0.5% to $1,528.1 million, and the company raised its full-year earnings guidance."
+  },
+  "means": [
+   {
+    "who": "If you supply Signet:",
+    "text": "the chain is 48 stores smaller than at year-end, on comps that are growing."
+   },
+   {
+    "who": "If you price bridal:",
+    "text": "average unit retail rose about 6%, in both bridal and fashion."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a sales recovery. The chain sold less in total than a year earlier."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · The quarter against a year earlier",
+   "asof": "13 weeks ended 1 August 2026 against 13 weeks ended 2 August 2025",
+   "cols": [
+    "Measure",
+    "Q2 FY27",
+    "Q2 FY26",
+    "Change"
+   ],
+   "rows": [
+    [
+     "Sales",
+     "$1,528.1m",
+     "$1,535.1m",
+     "−$7.0m, −0.5%"
+    ],
+    [
+     "Same store sales",
+     "+2.2%",
+     "+2.4%",
+     "−0.2 points"
+    ],
+    [
+     "Operating income",
+     "$87.5m",
+     "$2.8m",
+     "+$84.7m"
+    ],
+    [
+     "Operating margin",
+     "5.7%",
+     "0.2%",
+     "+5.5 points"
+    ],
+    [
+     "Diluted EPS",
+     "$1.33",
+     "−$0.22",
+     "+$1.55"
+    ],
+    [
+     "Adjusted diluted EPS",
+     "$2.19",
+     "$1.61",
+     "+$0.58, +36.0%"
+    ]
+   ],
+   "hi": 0,
+   "note": "<b>Source</b> Signet Jewelers' second-quarter Fiscal 2027 release, Exhibit 99.1 to its Form 8-K filed 9 September 2026. <b>The quarter</b> is the 13 weeks ended 1 August 2026. <b>Changes</b> in the last column are Carat Capital's arithmetic on the company's own figures. <b>Adjusted</b> measures are the company's own non-GAAP presentation and exclude items it names, including asset impairments.",
+   "plate": "CC/2026/059"
+  },
+  "sections": [
+   {
+    "h": "Fifty-three stores came out",
+    "p": [
+     {
+      "lead": "Comps without the count.",
+      "text": "Signet closed 53 stores and opened 5 since year-end Fiscal 2026, leaving 2,534 open at 1 August. Same store sales rose 2.2% across the ones that stayed."
+     },
+     {
+      "lead": "Space shrank 1.1%.",
+      "text": "Selling space fell 1.1% to 4.0 million square feet on the same comparison. North America took 50 of the 53 closures."
+     }
+    ]
+   },
+   {
+    "h": "The guidance moved, sales did not",
+    "p": [
+     {
+      "lead": "Earnings up, revenue flat.",
+      "text": "Adjusted diluted EPS guidance rises to $10.45 to $12.15 from $9.20 to $11.00. The full-year sales range is unchanged at $6.7 to $6.9 billion."
+     },
+     {
+      "lead": "Eleven point nine percent.",
+      "text": "The new midpoint of $11.30 sits 11.9% above the old $10.10, and the company intends a $125 million accelerated repurchase this month."
+     }
+    ]
+   },
+   {
+    "h": "Tariff refunds carried the margin",
+    "p": [
+     {
+      "lead": "Fifteen million back.",
+      "text": "Gross margin was 39.4% of sales, up 80 basis points, helped by about $15 million of refunds for tariffs previously paid."
+     },
+     {
+      "lead": "Gold pushed back.",
+      "text": "The company names higher gold costs as an offset inside that same margin. Adjusted diluted EPS came to $2.19, from $1.61 a year earlier."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Q3",
+    "what": "Guidance of $1.37 to $1.41 billion in sales and same store sales of −1.0% to 2.0%."
+   },
+   {
+    "when": "Sep",
+    "what": "The $125 million accelerated share repurchase the company says it will start this month."
+   },
+   {
+    "when": "Nov",
+    "what": "Third-quarter results, and whether comps hold on a smaller store count."
+   }
+  ],
+  "depth": {
+   "reverse": "Third-quarter comps at the bottom of the range. Guidance allows −1.0%, and a negative comp on a store count already 48 lower would make this quarter's divergence a peak rather than a pattern.",
+   "built": {
+    "title": "What same store sales measure",
+    "text": "Same store sales compare only locations trading in both periods, so openings and closures drop out. Signet includes e-commerce in the measure. A chain can therefore report rising same store sales and falling total sales at once: the shops still open are selling more, and there are fewer of them."
+   },
+   "method": "Every figure is Signet Jewelers' own, taken from Exhibit 99.1 to the Form 8-K it filed on 9 September 2026, read at SEC EDGAR rather than through a wire summary. The quarter is the 13 weeks ended 1 August 2026, compared with the 13 weeks ended 2 August 2025. Store counts are the company's real-estate table: 2,582 at year-end Fiscal 2026, 5 openings, 53 closures, 2,534 at 1 August, of which North America moved 2,329 to 2,282. The 0.5% sales fall, the $84.7 million operating-income gain, the 36.0% rise in adjusted diluted EPS and the 11.9% guidance-midpoint increase are Carat Capital's arithmetic on those figures; the company itself describes the guidance raise as over 10%. Adjusted operating income, adjusted EBITDA and adjusted diluted EPS are non-GAAP measures as the company defines them. Two executives are quoted in the release; neither is quoted here.",
+   "prior": [
+    {
+     "date": "12 Aug 2026",
+     "slug": "zales-goes-to-mattel",
+     "claim": "Signet gives Zales and Banter to a Mattel executive"
+    },
+    {
+     "date": "6 Aug 2026",
+     "slug": "tiffany-goes-to-blue-nile",
+     "claim": "Signet puts 25 years of Tiffany into Blue Nile"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Signet Jewelers Reports Second Quarter Fiscal 2027 Results - Exhibit 99.1 to Form 8-K",
+     "url": "https://www.sec.gov/Archives/edgar/data/832988/000083298826000227/fy27ex99109x09x26pressrele.htm",
+     "published": "2026-09-09"
+    },
+    {
+     "title": "Signet Jewelers Limited Form 8-K, filed 9 September 2026",
+     "url": "https://www.sec.gov/Archives/edgar/data/832988/000083298826000227/",
+     "published": "2026-09-09"
+    }
+   ]
+  },
+  "next": {
+   "slug": "zales-goes-to-mattel",
+   "why": "Who Signet put in charge of the brands inside this comp number."
+  }
  }
 }
