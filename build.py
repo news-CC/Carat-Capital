@@ -1729,6 +1729,37 @@ def indices_page():
 
 
 # ---------------- THE FOLIO — the week, bound ----------------
+# The house mark, as a sprite the magazine can <use>. index.html carries its own
+# copy inside home_template.html; the folio is generated here and needs its own.
+MEDAL_SPRITE = """<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<symbol id="medal" viewBox="0 0 100 100">
+  <circle cx="50" cy="50" r="47" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <circle cx="50" cy="50" r="42.5" fill="none" stroke="currentColor" stroke-width=".6" opacity=".6"/>
+  <g stroke="currentColor" stroke-width=".55" opacity=".45" fill="none">
+    <circle cx="50" cy="50" r="35"/><circle cx="50" cy="50" r="28"/><circle cx="50" cy="50" r="21"/></g>
+  <g stroke="currentColor" stroke-width=".9" opacity=".85">
+    <path d="M50 3 v5"/><path d="M50 92 v5"/><path d="M3 50 h5"/><path d="M92 50 h5"/></g>
+  <path d="M50 76 L43.5 58 C40 49 41.5 41.5 45 37.5 C46.8 35.4 48.4 34.6 50 34.3
+           C51.6 34.6 53.2 35.4 55 37.5 C58.5 41.5 60 49 56.5 58 Z"
+        fill="none" stroke="currentColor" stroke-width="2"/>
+  <path d="M50 76 L50 45" stroke="currentColor" stroke-width="1"/>
+  <path d="M50 40 L54 45 L50 50 L46 45 Z" fill="#BE3319"/>
+</symbol></defs></svg>"""
+
+
+def _folio_no():
+    """The issue number, taken from the wire's edition line ('Vol. I - No. 054').
+    Falls back to the volume numeral, then to I, so a malformed line never breaks
+    the build."""
+    import re as _ren
+    ed = WIRE.get("edition", "") or ""
+    m = _ren.search(r"No\.?\s*(\d+)", ed)
+    if m:
+        return m.group(1)
+    m = _ren.search(r"Vol\.?\s*([IVXLC]+)", ed)
+    return m.group(1) if m else "I"
+
+
 def _folio_issue():
     """Compose this week's leaves from the real archive. Returns (meta, pages) —
     each page is a full HTML string designed for a 5:7 leaf."""
@@ -1739,7 +1770,7 @@ def _folio_issue():
     week = [a for a in ARTICLES if a.get("date", "") >= wk_start.isoformat()]
     lead = next((a for a in week if a.get("lead")), week[0] if week else None)
     rng = f"{wk_start.day} {wk_start.strftime('%b')} – {t.day} {t.strftime('%b %Y')}"
-    issue_no = "I"
+    issue_no = _folio_no()
     edition = WIRE.get("edition", "")
 
     def ph_of(a):
@@ -2169,7 +2200,7 @@ html:not(.js) .pg-slot{{display:block;position:relative;aspect-ratio:5/7;backgro
 html:not(.js) .lp,html:not(.js) #under,html:not(.js) #peelC,html:not(.js) #foldsh{{display:none}}
 </style>
 <script>document.documentElement.classList.add('js')</script>
-
+{MEDAL_SPRITE}
 <div class="mgbar">
   <a href="index.html">&larr; The paper</a>
   <span class="t">The Folio &middot; Issue {meta['no']}</span>
