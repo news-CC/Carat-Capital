@@ -109502,5 +109502,1066 @@
    "slug": "zales-goes-to-mattel",
    "why": "Who Signet put in charge of the brands inside this comp number."
   }
+ },
+ "gemfields-sells-all-forty-four": {
+  "v": 3,
+  "kicker": "Auction result",
+  "figures": {
+   "asof": "Gemfields Group Limited · auction held 24 August – 10 September 2026 · announcement published 11 September 2026",
+   "cells": [
+    {
+     "n": "$29.6m",
+     "dir": "up",
+     "label": "Auction revenue",
+     "q": "up 16.5% on Nov–Dec 2025",
+     "src": 0
+    },
+    {
+     "n": "$9.72",
+     "dir": "up",
+     "label": "Average per carat",
+     "q": "highest of the five shown",
+     "src": 0
+    },
+    {
+     "n": "44 of 44",
+     "dir": "up",
+     "label": "Lots sold",
+     "q": "100%, against 98% before",
+     "src": 0
+    },
+    {
+     "n": "−10.5%",
+     "dir": "dn",
+     "label": "Carats sold",
+     "q": "3,047,650, from 3,406,830",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Every lot sold.",
+   "text": "Gemfields' commercial-quality emerald auction took $29.6 million, with all 44 lots placed at an average $9.72 a carat. The goods came from Kagem in Zambia."
+  },
+  "means": [
+   {
+    "who": "If you cut commercial emerald:",
+    "text": "your rough cost base rose 30.3% since the last sale. Re-price finished goods against $9.72, not $7.46."
+   },
+   {
+    "who": "If you buy at auction:",
+    "text": "63 companies bid, against 55 last time. Expect a tighter room."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a read on fine emerald. That grade sells separately and last cleared at $146.08."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · Five commercial-quality Kagem auctions",
+   "asof": "All five sold in Jaipur, India, or online · commercial-quality rough emerald",
+   "cols": [
+    "Measure",
+    "Mar 2024",
+    "Aug–Sep 2024",
+    "Apr 2025",
+    "Nov–Dec 2025",
+    "Aug–Sep 2026"
+   ],
+   "rows": [
+    [
+     "Total revenue",
+     "$17.1m",
+     "$10.8m",
+     "$16.4m",
+     "$25.4m",
+     "$29.6m"
+    ],
+    [
+     "Average per carat",
+     "$4.45",
+     "$4.47",
+     "$6.87",
+     "$7.46",
+     "$9.72"
+    ],
+    [
+     "Lots offered",
+     "43",
+     "46",
+     "36",
+     "46",
+     "44"
+    ],
+    [
+     "Lots sold",
+     "40",
+     "28",
+     "32",
+     "45",
+     "44"
+    ],
+    [
+     "Lots sold, %",
+     "93%",
+     "61%",
+     "89%",
+     "98%",
+     "100%"
+    ],
+    [
+     "Carats sold",
+     "3,854,950",
+     "2,423,550",
+     "2,388,190",
+     "3,406,830",
+     "3,047,650"
+    ],
+    [
+     "Companies bidding",
+     "50",
+     "39",
+     "50",
+     "55",
+     "63"
+    ]
+   ],
+   "hi": 5,
+   "note": "<b>Source</b> Gemfields Group Limited, <i>Auction Results: Commercial-Quality Emeralds</i>, published 11 September 2026; the table is the five-auction comparison printed in that announcement. <b>Percentages</b> in the article are Carat Capital's arithmetic on these figures. <b>Internal check</b> 3,047,650 carats at $9.72 is $29.62 million, matching the stated revenue. <b>Gemfields cautions</b> that size, colour and clarity vary between auctions, so results are not always directly comparable.",
+   "plate": "CC/2026/060"
+  },
+  "sections": [
+   {
+    "h": "Price per carat did the work",
+    "p": [
+     {
+      "lead": "Revenue up, weight down.",
+      "text": "Revenue rose 16.5% while carats sold fell 10.5%. The gain came from price, not volume."
+     },
+     {
+      "lead": "Thirty percent more.",
+      "text": "The average realised price of $9.72 a carat sits 30.3% above the $7.46 of the November-December 2025 sale."
+     },
+     {
+      "lead": "Double, over five sales.",
+      "text": "Against the $4.45 of March 2024, the same grade now realises 118.4% more. The average has risen at each of the last four commercial auctions."
+     }
+    ]
+   },
+   {
+    "h": "Zambia takes the proceeds",
+    "p": [
+     {
+      "lead": "Fully repatriated to Kagem.",
+      "text": "The proceeds go to Kagem in Zambia, with royalties paid to the government on the full auction prices. Gemfields owns 75% of the mine; Zambia's Industrial Development Corporation holds 25%."
+     },
+     {
+      "lead": "Nine months between sales.",
+      "text": "Gemfields last sold commercial-quality emeralds in the auction that closed 4 December 2025. The company attributes this result to Kagem's production over the past year."
+     }
+    ]
+   },
+   {
+    "h": "Jaipur replaced the London room",
+    "p": [
+     {
+      "lead": "Viewing moved to India.",
+      "text": "Customers viewed the lots in person in Jaipur, then bid through a sealed-bid online platform. Gemfields has historically run its emerald auctions from London.",
+      "links": {
+       "rough emeralds to Jaipur": "a-kagem-comes-to-jaipur.html"
+      }
+     },
+     {
+      "lead": "Sixty-three companies bid.",
+      "text": "Bidding companies numbered 63, against 55 at the last commercial sale. That is the widest field of the five in the table above."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "11 Sep",
+    "what": "The India Rough Gemstones Sourcing Show in Jaipur closes its 19-day window."
+   },
+   {
+    "when": "Not yet dated",
+    "what": "Gemfields' next higher-quality emerald auction; that grade last cleared at $146.08 a carat."
+   },
+   {
+    "when": "Mar 2027",
+    "what": "Full-year results, where this $29.6 million lands in Gemfields' 2026 revenue."
+   }
+  ],
+  "depth": {
+   "reverse": "A commercial auction below $7.46 a carat next time. That would make this sale a mix effect rather than a price recovery, and the re-pricing instruction above would be wrong.",
+   "built": {
+    "title": "What commercial-quality means",
+    "text": "Gemfields sorts Kagem's rough emeralds into a higher-quality book and a commercial-quality book, and sells each at its own auction. Commercial goods are the higher-volume, lower-value material that feeds mass-market cutting. The two grades clear at prices an order of magnitude apart and are not compared against each other."
+   },
+   "method": "The announcement was read as the signed PDF on Gemfields' own document store, not as a wire summary: total revenue USD 29.6 million, 44 of 44 lots sold, average USD 9.72 per carat, auction held 24 August to 10 September 2026. The five-auction comparison in Table I is the table printed in that announcement. Every percentage in this article is Carat Capital's arithmetic on those figures: 9.72 against 7.46 is +30.29%, rounded to 30.3%; 29.6 against 25.4 is +16.54%; 3,047,650 carats against 3,406,830 is −10.54%; 9.72 against 4.45 is +118.43%. As an internal check, 3,047,650 carats at $9.72 gives $29.62 million, which matches the stated total. The $146.08 a carat named above is the May 2026 HIGHER-quality auction, reported here on 24 July; it is cited as a separate grade and is deliberately not compared with $9.72. Archive test, both periods named: Carat Capital's 26 August piece covers the India Rough Gemstones Sourcing Show, 24 August to 11 September 2026, and states that no result existed because the show had not closed; this item covers the commercial-quality auction held 24 August to 10 September 2026 and carries the result. Same entity, different document and different event, so ADVANCED rather than repeat. Carat Capital's 24 July piece covers the May 2026 higher-quality auction, a different grade and a different period.",
+   "prior": [
+    {
+     "date": "2026-08-26",
+     "slug": "kagem-comes-to-jaipur",
+     "claim": "Kagem showed rough emeralds in Jaipur; no result until 11 September"
+    },
+    {
+     "date": "2026-07-31",
+     "slug": "gemfields-covers-the-ruby",
+     "claim": "Emeralds took $102.9 million, up 72%, covering weak rubies"
+    },
+    {
+     "date": "2026-07-24",
+     "slug": "emeralds-hold-at-146",
+     "claim": "Higher-quality emeralds held at $146.08 a carat on $26.8 million"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Auction Results: Commercial-Quality Emeralds - Gemfields Group Limited",
+     "url": "https://www.gemfieldsgroup.com/auction-results-commercial-quality-emeralds-11-9-26/",
+     "published": "2026-09-11"
+    },
+    {
+     "title": "Gemfields Group Limited - auction announcements index",
+     "url": "https://www.gemfieldsgroup.com/category/new-and-announcements/auction-update/",
+     "published": "2026-09-11"
+    }
+   ],
+   "corrections": []
+  },
+  "next": {
+   "slug": "kagem-comes-to-jaipur",
+   "why": "The 26 August preview said the number would not exist until 11 September. This is it."
+  }
+ },
+ "silver-sheds-two-nineteen": {
+  "v": 3,
+  "kicker": "The tape",
+  "seo_title": "Silver sheds $2.19 to $63.94 since 9 September",
+  "figures": {
+   "asof": "Kitco bid, read 11 September 2026 at 06:01 ET at press time · changes measured against the 9 September marks in Carat Capital's record",
+   "cells": [
+    {
+     "n": "−$2.19",
+     "dir": "dn",
+     "label": "Silver",
+     "q": "to $63.94, −3.31%",
+     "src": 0
+    },
+    {
+     "n": "−$45.00",
+     "dir": "dn",
+     "label": "Palladium",
+     "q": "to $1,290.00, −3.37%",
+     "src": 0
+    },
+    {
+     "n": "−$44.00",
+     "dir": "dn",
+     "label": "Platinum",
+     "q": "to $1,797.00, −2.39%",
+     "src": 0
+    },
+    {
+     "n": "−$42.00",
+     "dir": "dn",
+     "label": "Gold",
+     "q": "to $4,347.30, −0.96%",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Silver led the fall.",
+   "text": "Silver is bid $63.94 an ounce against $66.13 on 9 September, a fall of $2.19. All four metals sit below their 9 September marks."
+  },
+  "means": [
+   {
+    "who": "If you buy silver for the bench:",
+    "text": "the metal is $2.19 an ounce cheaper than at the 9 September mark. Re-quote."
+   },
+   {
+    "who": "If you scrap palladium:",
+    "text": "bid and ask sit $40.00 apart, 3.10% of the bid."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a Friday sell-off. Kitco's own session runs higher on all four metals."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · Two changes, two reference points",
+   "asof": "Kitco bid · 11 September 2026, 06:01 ET",
+   "cols": [
+    "Metal",
+    "11 Sep",
+    "9 Sep",
+    "Against 9 Sep",
+    "Kitco session"
+   ],
+   "rows": [
+    [
+     "Gold",
+     "$4,347.30",
+     "$4,389.30",
+     "−$42.00, −0.96%",
+     "+$31.60"
+    ],
+    [
+     "Silver",
+     "$63.94",
+     "$66.13",
+     "−$2.19, −3.31%",
+     "+$0.49"
+    ],
+    [
+     "Platinum",
+     "$1,797.00",
+     "$1,841.00",
+     "−$44.00, −2.39%",
+     "+$23.00"
+    ],
+    [
+     "Palladium",
+     "$1,290.00",
+     "$1,335.00",
+     "−$45.00, −3.37%",
+     "+$27.00"
+    ]
+   ],
+   "hi": 3,
+   "note": "<b>Source</b> Kitco's precious-metals board, read at 06:01 ET on 11 September 2026. <b>Column four</b> measures against the 9 September marks in Carat Capital's own record and spans two sessions, because no mark was filed for 10 September. <b>Column five</b> is Kitco's own change field, which runs from Kitco's prior close. The two use different reference points and do not agree. <b>Changes and percentages</b> in column four are Carat Capital's arithmetic.",
+   "plate": "CC/2026/060"
+  },
+  "sections": [
+   {
+    "h": "The fall sits on 10 September",
+    "p": [
+     {
+      "lead": "No mark Thursday.",
+      "text": "No mark was filed for 10 September, so these changes span two sessions rather than one. The 9 September marks are the last in the record."
+     },
+     {
+      "lead": "Friday runs higher.",
+      "text": "Kitco's own session change prints all four metals higher on Friday. That field runs from Kitco's prior close, a different reference point from the marks above."
+     }
+    ]
+   },
+   {
+    "h": "Palladium's spread stays wide",
+    "p": [
+     {
+      "lead": "Forty dollars apart.",
+      "text": "Palladium is bid $1,290.00 against $1,330.00 asked, a spread of 3.10% of the bid. That is the widest of the four metals."
+     },
+     {
+      "lead": "Range covered the fall.",
+      "text": "Silver covered $1.549 between $62.912 and $64.461 on the session, about seven-tenths of the fall it printed."
+     }
+    ]
+   },
+   {
+    "h": "The ratio widened to 68.0",
+    "p": [
+     {
+      "lead": "Sixty-eight to one.",
+      "text": "It takes 68.0 ounces of silver to buy an ounce of gold, against 66.4 at the 9 September marks.",
+      "links": {
+       "66.4 at the 9 September marks": "a-thirty-six-off-palladium.html"
+      }
+     },
+     {
+      "lead": "Silver moved furthest.",
+      "text": "Silver fell further than gold in percentage terms, and palladium furthest of the four. No source read this run named a cause."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "12 Sep",
+    "what": "The next mark, and whether silver holds above $62.912, Friday's session low."
+   },
+   {
+    "when": "14 Sep",
+    "what": "The Monday refresh of the natural and lab-grown price lists, both still dated 30 July."
+   },
+   {
+    "when": "17 Sep",
+    "what": "FH Swiss August export figures, the demand read on precious-metal watch cases."
+   }
+  ],
+  "depth": {
+   "reverse": "Silver back above $66.13 on the next mark. That would make this two quiet sessions rather than a move, and a bench that re-quoted would have given away margin for nothing.",
+   "built": {
+    "title": "Which change you are reading",
+    "text": "A price board prints its own change field, measured from its prior close. A paper that reads the board once a day prints the change from its own last reading. The two use different reference points and will not agree on a metal that trades around the clock. Carat Capital carries the second and names the first wherever it differs."
+   },
+   "method": "Marks are Kitco's bid, re-read at press time at 06:01 ET on 11 September 2026, superseding the 05:00 ET opening mark under the one-price rule; the opening mark read $4,345.80, $63.98, $1,795.00 and $1,288.00, all four were re-read because a metals story runs, all four differed, and all four were written back. Both the dated tape file and the live tape file carry these values and were compared against each other after the write. Prior marks are the 9 September levels in Carat Capital's own record, $4,389.30, $66.13, $1,841.00 and $1,335.00, and every change and percentage here is computed against them: −0.957%, −3.312%, −2.390% and −3.371%. No mark exists for 10 September, so each change spans two sessions; that is stated rather than presented as a one-day move. Kitco's own change field prints all four metals higher on the session; that field runs from Kitco's prior close and is carried in the table as a separate column, never mixed with column four. Second board: livepriceofgold.com quoted gold at $4,347.19, 0.0025% from Kitco's bid, inside the band the price desk treats as timing noise; silver's second reading stands on the 05:00 check, 0.21% apart, and the press-time move on silver is four cents, too small to require it again. Spreads, the session ranges and the gold-silver ratio are Carat Capital's arithmetic on those quotes. One note on the source's clock: Kitco's originalTime field reads 06:01:57Z while its own epoch resolves to 10:02 UTC, so the field is Eastern time carrying a Z; the quote used here is identified by the epoch, not by that string.",
+   "prior": [
+    {
+     "date": "2026-09-09",
+     "slug": "thirty-six-off-palladium",
+     "claim": "Palladium shed $36.00 to $1,335.00 on the 8 September mark"
+    },
+    {
+     "date": "2026-09-08",
+     "slug": "six-dollars-each-way",
+     "claim": "Platinum added $6.00 to $1,829.00, Kitco's only riser"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Precious metals prices - Kitco, read 11 September 2026, 06:01 ET",
+     "url": "https://www.kitco.com/price/precious-metals",
+     "published": "2026-09-11"
+    },
+    {
+     "title": "Live gold price - livepriceofgold.com, read 11 September 2026",
+     "url": "https://www.livepriceofgold.com/",
+     "published": "2026-09-11"
+    }
+   ],
+   "corrections": []
+  },
+  "next": {
+   "slug": "thirty-six-off-palladium",
+   "why": "The 9 September board these changes are measured against, and the last one filed."
+  }
+ },
+ "bulgari-sapphire-nine-five-million": {
+  "v": 3,
+  "kicker": "Sale preview",
+  "figures": {
+   "asof": "Phillips Hong Kong Jewels Auction, 29 September 2026 · estimates as reported by Rapaport, 8 September 2026",
+   "cells": [
+    {
+     "n": "HKD 9.5m",
+     "dir": "fl",
+     "label": "High estimate",
+     "q": "about $1.2 million",
+     "src": 0
+    },
+    {
+     "n": "9.86 ct",
+     "dir": "fl",
+     "label": "Kashmir sapphire",
+     "q": "cushion cut, two shield diamonds",
+     "src": 0
+    },
+    {
+     "n": "95",
+     "dir": "fl",
+     "label": "Lots offered",
+     "q": "Hong Kong, 29 September",
+     "src": 0
+    },
+    {
+     "n": "HKD 963,500",
+     "dir": "fl",
+     "label": "Per carat",
+     "q": "at the high estimate",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Kashmir leads the book.",
+   "text": "A Bulgari ring centring a cushion-shaped 9.86-carat Kashmir sapphire carries a high estimate of HKD 9.5 million, the top lot of 95 at Phillips in Hong Kong on 29 September."
+  },
+  "means": [
+   {
+    "who": "If you estimate Kashmir sapphire:",
+    "text": "the reference to carry is HKD 963,500 a carat at the high, not the HKD 9.5 million headline."
+   },
+   {
+    "who": "If you consign colour to Hong Kong:",
+    "text": "coloured stones take seven of the ten top estimates in this book."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a result. These are catalogue estimates and the sale is 18 days out."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · The ten highest estimates",
+   "asof": "Phillips Hong Kong Jewels Auction, 29 September 2026 · USD as Rapaport gives them",
+   "cols": [
+    "Lot",
+    "Low (HKD)",
+    "High (HKD)",
+    "High (USD)"
+   ],
+   "rows": [
+    [
+     "Bulgari ring, 9.86ct Kashmir sapphire",
+     "not published",
+     "9,500,000",
+     "$1.2m"
+    ],
+    [
+     "Ring, 23.34ct fancy intense yellow VVS1 diamond",
+     "3,600,000",
+     "4,300,000",
+     "$551,000"
+    ],
+    [
+     "Earrings, 7.02ct E VVS2 and 7.04ct F VVS2 diamonds",
+     "3,300,000",
+     "4,300,000",
+     "$551,000"
+    ],
+    [
+     "Ring, 15.50ct Colombian emerald",
+     "2,800,000",
+     "4,000,000",
+     "$513,000"
+    ],
+    [
+     "Ring, 7.45ct Brazilian alexandrite chrysoberyl",
+     "2,300,000",
+     "3,200,000",
+     "$410,000"
+    ],
+    [
+     "Earrings, 12.55ct VS2 and 12.56ct VS1 brown-yellow diamonds",
+     "2,200,000",
+     "3,000,000",
+     "$385,000"
+    ],
+    [
+     "Ring, 13.82ct Burmese sapphire",
+     "2,000,000",
+     "3,000,000",
+     "$385,000"
+    ],
+    [
+     "Ring, Burmese jadeite",
+     "1,800,000",
+     "2,800,000",
+     "$360,000"
+    ],
+    [
+     "Ring, 6.06ct Mozambican ruby",
+     "1,800,000",
+     "2,800,000",
+     "$360,000"
+    ],
+    [
+     "Bracelet, 40 Burmese rubies",
+     "1,000,000",
+     "2,200,000",
+     "$282,000"
+    ]
+   ],
+   "hi": 0,
+   "note": "<b>Source</b> Rapaport, 8 September 2026, reporting the Phillips website. <b>High estimates</b> for the ten lots total HKD 39.1 million, of which the Bulgari ring is 24.3%; that total and share are Carat Capital's arithmetic. <b>USD figures</b> are Rapaport's own, not converted here. <b>The lead lot</b> is reported with a high estimate only; no low is published for it.",
+   "plate": "CC/2026/060"
+  },
+  "sections": [
+   {
+    "h": "Colour takes seven of ten",
+    "p": [
+     {
+      "lead": "Three diamond lots only.",
+      "text": "Coloured stones fill seven of the ten highest estimates. The other three are diamond lots."
+     },
+     {
+      "lead": "Two sapphires, one Kashmir.",
+      "text": "The 13.82-carat Burmese sapphire carries a HKD 2 million to HKD 3 million estimate, below the Kashmir stone on a larger weight."
+     }
+    ]
+   },
+   {
+    "h": "Kashmir origin beats weight here",
+    "p": [
+     {
+      "lead": "Four times per carat.",
+      "text": "At the high estimates the Kashmir stone is valued at HKD 963,500 a carat and the larger Burmese at HKD 217,100. That is a ratio of 4.4 to one."
+     },
+     {
+      "lead": "Origin does the work.",
+      "text": "The heavier stone is the cheaper one per carat in this catalogue. Size is not the variable Phillips has priced here.",
+      "links": {
+       "sapphire prices by origin": "a-one-eighty-percent-on-the-sapphires.html"
+      }
+     }
+    ]
+   },
+   {
+    "h": "No published low on the lead",
+    "p": [
+     {
+      "lead": "Only a ceiling.",
+      "text": "The Bulgari ring is reported with a high estimate and no published low, while the other nine top lots carry ranges."
+     },
+     {
+      "lead": "Fifty percent wide.",
+      "text": "Those nine ranges average 49.9% wider at the high than at the low, from 19.4% on the yellow diamond to 120.0% on the ruby bracelet."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "14–17 Sep",
+    "what": "Sotheby's Hong Kong jewellery sales open, the nearest read on the same room."
+   },
+   {
+    "when": "28 Sep",
+    "what": "Phillips London offers four one-off Rolex Daytonas, a separate sale in the same week."
+   },
+   {
+    "when": "29 Sep",
+    "what": "The Hong Kong Jewels Auction. The hammer against the HKD 9.5 million ceiling."
+   }
+  ],
+  "depth": {
+   "reverse": "A hammer under HKD 4 million. That would say the Kashmir premium is a catalogue claim rather than a market one, and the per-carat figures above would not survive the sale.",
+   "built": {
+    "title": "Why Kashmir carries a premium",
+    "text": "Kashmir sapphires come from a small Himalayan deposit worked out in the late nineteenth century. Supply is therefore fixed and entirely secondary, and the stones are prized for a velvety, evenly saturated blue that laboratories can attribute to origin. A Kashmir report from a recognised laboratory routinely multiplies the per-carat value of an otherwise comparable stone."
+   },
+   "method": "The source is Rapaport's 8 September report, read directly, which itself cites the Phillips website for the lot details and estimates. Phillips' own catalogue page for this sale was not reached: the address could not be found without guessing a sale code, which this desk does not do, so the estimates here rest on one secondary source and that is stated rather than dressed as a two-source check. All per-carat and percentage figures are Carat Capital's arithmetic on Rapaport's HKD figures: 9,500,000 over 9.86 carats is HKD 963,489, rounded to HKD 963,500; 3,000,000 over 13.82 carats is HKD 217,077, rounded to HKD 217,100; the ratio between them is 4.44 to one. The ten high estimates sum to HKD 39.1 million and the Bulgari ring is 24.3% of that total, a share of the total and not a change in it. The nine published ranges widen by 19.4, 30.3, 42.9, 39.1, 36.4, 50.0, 55.6, 55.6 and 120.0 percent from low to high, a mean of 49.9%. USD figures are Rapaport's own and are reproduced, not converted; no exchange rate is asserted here. Archive test, both periods named: Carat Capital's 5 September piece covers Phillips London on 28 September 2026, a watch sale of four Rolex Daytonas; this item covers Phillips Hong Kong on 29 September 2026, a jewellery sale of 95 lots. Different city, date, category and lots, so NEW. No article in the archive carries Bulgari and Kashmir together.",
+   "prior": [
+    {
+     "date": "2026-09-06",
+     "slug": "twenty-million-on-two-rubies",
+     "claim": "Two rubies carried $20 million of estimate in Hong Kong"
+    },
+    {
+     "date": "2026-09-05",
+     "slug": "four-one-offs-to-phillips",
+     "claim": "Rolex sent four one-off Daytonas to Phillips on 28 September"
+    },
+    {
+     "date": "2026-08-26",
+     "slug": "one-eighty-percent-on-the-sapphires",
+     "claim": "Sapphires cleared 180% over estimate on origin"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Bulgari 10ct. Sapphire Ring to Sparkle at Phillips - Rapaport",
+     "url": "https://rapaport.com/news/bulgari-10ct-sapphire-ring-to-sparkle-at-phillips/",
+     "published": "2026-09-08"
+    }
+   ],
+   "corrections": []
+  },
+  "next": {
+   "slug": "four-one-offs-to-phillips",
+   "why": "The same house, the same week, the other room: four one-off Daytonas in London."
+  }
+ },
+ "urwerk-gold-ur-150-twenty-five": {
+  "v": 3,
+  "kicker": "Model launch",
+  "figures": {
+   "asof": "Urwerk UR-150 Golden Scorpion, shown at Geneva Watch Days 2026 · prices as reported by JCK, 9 September 2026, and Monochrome Watches",
+   "cells": [
+    {
+     "n": "$140,000",
+     "dir": "fl",
+     "label": "US retail",
+     "q": "each, as reported by JCK",
+     "src": 0
+    },
+    {
+     "n": "CHF 105,000",
+     "dir": "fl",
+     "label": "Swiss list",
+     "q": "excluding taxes",
+     "src": 1
+    },
+    {
+     "n": "25",
+     "dir": "dn",
+     "label": "Pieces",
+     "q": "against 50 per 2024 variant",
+     "src": 1
+    },
+    {
+     "n": "+19.3%",
+     "dir": "up",
+     "label": "Over the Titan",
+     "q": "CHF 105,000 against CHF 88,000",
+     "src": 2
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Gold, and half the run.",
+   "text": "Urwerk has put the UR-150 in 18-carat yellow gold as the Golden Scorpion, limited to 25 pieces at $140,000 each in the United States."
+  },
+  "means": [
+   {
+    "who": "If you retail independents:",
+    "text": "the gold premium here is 19.3% over the titanium list, on half the production."
+   },
+   {
+    "who": "If you value a UR-150:",
+    "text": "the 2024 Titan at CHF 88,000 is the comparable, not the gold."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a US price verified at a dealer. It is a trade-press figure in a different currency from the Swiss list."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · The gold against the 2024 pair",
+   "asof": "Swiss list prices, excluding taxes · Monochrome Watches",
+   "cols": [
+    "",
+    "UR-150 Titan, 2024",
+    "UR-150 Dark, 2024",
+    "UR-150 Golden Scorpion, 2026"
+   ],
+   "rows": [
+    [
+     "Case",
+     "Titanium and steel",
+     "Titanium and steel",
+     "2N yellow gold, titanium back"
+    ],
+    [
+     "Swiss list, excl. tax",
+     "CHF 88,000",
+     "CHF 89,000",
+     "CHF 105,000"
+    ],
+    [
+     "Against the Titan",
+     "—",
+     "+CHF 1,000, +1.1%",
+     "+CHF 17,000, +19.3%"
+    ],
+    [
+     "Pieces",
+     "50",
+     "50",
+     "25"
+    ],
+    [
+     "Case width",
+     "42.49mm",
+     "42.49mm",
+     "42.5mm"
+    ]
+   ],
+   "hi": 3,
+   "note": "<b>Source</b> Monochrome Watches' specification panels for the 2024 UR-150 Scorpion and the 2026 Golden Scorpion, read directly. <b>Percentages</b> are Carat Capital's arithmetic on the Swiss francs, which share a basis. <b>The US figure</b> of $140,000 reported by JCK is not in this table, because it is a different currency on a different tax basis and no source publishes the rate between them.",
+   "plate": "CC/2026/060"
+  },
+  "sections": [
+   {
+    "h": "Gold costs 19.3% more",
+    "p": [
+     {
+      "lead": "Seventeen thousand francs.",
+      "text": "The gold Scorpion lists at CHF 105,000 before tax against CHF 88,000 for the titanium Titan, a difference of CHF 17,000."
+     },
+     {
+      "lead": "The run halved.",
+      "text": "Urwerk is making 25 Golden Scorpions. Each 2024 variant ran to 50 pieces."
+     }
+    ]
+   },
+   {
+    "h": "Two prices, two bases",
+    "p": [
+     {
+      "lead": "Dollars against francs.",
+      "text": "JCK reports $140,000 each in the United States. Monochrome reports CHF 105,000 excluding taxes. Neither source states the rate or the duty between them."
+     },
+     {
+      "lead": "Printed, not reconciled.",
+      "text": "Both figures stand as their sources give them. Converting one into the other would require an exchange rate and a tax treatment that neither publishes."
+     }
+    ]
+   },
+   {
+    "h": "The case is the story",
+    "p": [
+     {
+      "lead": "Grooves, not a movement.",
+      "text": "The 2N yellow gold case middle is satin-finished and microblasted, with concentric grooves, over a sandblasted Grade 5 titanium back. The satellite hour display is unchanged."
+     },
+     {
+      "lead": "Same size, new metal.",
+      "text": "At 42.5mm wide the Golden Scorpion matches the 2024 case within half a millimetre. The change is material and run size, not dimension.",
+      "links": {
+       "gold's share of Swiss export value": "a-two-point-four-for-thirty-six.html"
+      }
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "17 Sep",
+    "what": "FH Swiss August export figures, the volume read on gold-cased watches."
+   },
+   {
+    "when": "Not published",
+    "what": "Urwerk's delivery schedule for the 25 pieces; no date is given."
+   },
+   {
+    "when": "Q4",
+    "what": "Whether $140,000 holds at a US authorised dealer once duty is applied."
+   }
+  ],
+  "depth": {
+   "reverse": "A US list under $130,000 at an authorised dealer. That would make $140,000 a converted Swiss price rather than a set US one, and the two-bases reading above would collapse into one.",
+   "built": {
+    "title": "How a satellite hour display works",
+    "text": "Urwerk replaces hands with carriers that rotate three or four hour numerals around the dial. Each numeral travels along a printed minute track and then drops away as the next takes its place. The complication is read as a moving position rather than a pointer, and it is the house signature across the UR range."
+   },
+   "method": "Three pages were read directly rather than summarised: JCK's 9 September report, which gives $140,000 each and 25 pieces; Monochrome's specification panel for the Golden Scorpion, which gives CHF 105,000 excluding taxes, 25 pieces and a 42.5mm case; and Monochrome's 2024 panel for the original Scorpion, which gives CHF 88,000 for the Titan, CHF 89,000 for the Dark, 50 pieces per variant and a 42.49mm case. The percentages are Carat Capital's arithmetic on the Swiss francs only: 105,000 against 88,000 is +19.32%, rounded to 19.3%, and 89,000 against 88,000 is +1.14%. Outside sources disagree in effect on the price, and that disagreement is disclosed rather than resolved: $140,000 is a United States retail figure and CHF 105,000 is a Swiss list excluding taxes, and neither publisher gives a rate or a duty, so no conversion is attempted and neither figure is presented as the other. Archive test, both periods named: the archive holds no article mentioning Urwerk, the UR-150 or the Scorpion in any period, so there is nothing to advance on. This item was not filed by the watches beat; it was found in the same feed that desk had already fetched.",
+   "prior": [
+    {
+     "date": "2026-09-02",
+     "slug": "twenty-four-nine-hundred-in-rubber",
+     "claim": "Hublot priced rubber at $24,900 for a Big Bang"
+    },
+    {
+     "date": "2026-08-20",
+     "slug": "two-point-four-for-thirty-six",
+     "claim": "Gold was 2.4% of Swiss units and 36.2% of value in July"
+    },
+    {
+     "date": "2026-08-19",
+     "slug": "the-only-verified-price",
+     "claim": "A one-off Rolex, and $500,000 the only price anyone verified"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Classic Design Meets Contemporary Watchmaking in Urwerk's New Golden Scorpion - JCK",
+     "url": "https://www.jckonline.com/editorial-article/urwerks-new-golden-scorpion/",
+     "published": "2026-09-09"
+    },
+    {
+     "title": "Introducing: The Urwerk UR-150 Golden Scorpion - Monochrome Watches",
+     "url": "https://monochrome-watches.com/urwerk-ur-150-golden-scorpion-introducing-price/",
+     "published": "2026-09"
+    },
+    {
+     "title": "Introducing: The New Urwerk UR-150 Scorpion - Monochrome Watches",
+     "url": "https://monochrome-watches.com/introducing-urwerk-ur-150-scorpion-satellite-hour-complication-specs-price/",
+     "published": "2024"
+    }
+   ],
+   "corrections": []
+  },
+  "next": {
+   "slug": "two-point-four-for-thirty-six",
+   "why": "Gold was 2.4% of Swiss watch units and 36.2% of the value. This is one of them."
+  }
+ },
+ "kay-cuts-the-assortment": {
+  "v": 3,
+  "kicker": "Brand platform",
+  "figures": {
+   "asof": "Kay Jewelers · assortment and store figures as reported by WWD and JCK, 10 September 2026 · Signet totals from its Form 8-K of 9 September 2026, at 1 August 2026",
+   "cells": [
+    {
+     "n": "−20%",
+     "dir": "dn",
+     "label": "Assortment",
+     "q": "about, over the past year",
+     "src": 0
+    },
+    {
+     "n": "1,003",
+     "dir": "fl",
+     "label": "Kay locations",
+     "q": "882 stores, 121 outlets",
+     "src": 0
+    },
+    {
+     "n": "200",
+     "dir": "up",
+     "label": "Men's shops",
+     "q": "about, at 25 linear feet",
+     "src": 0
+    },
+    {
+     "n": "39.6%",
+     "dir": "fl",
+     "label": "Of Signet's estate",
+     "q": "1,003 of 2,534 at 1 August",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "A fifth of the range goes.",
+   "text": "Kay has reduced its assortment by about 20% over the past year, in every category, alongside a brand platform called Love All In. Custom pieces and men's jewellery take the space."
+  },
+  "means": [
+   {
+    "who": "If you supply Kay:",
+    "text": "a fifth of the range has already gone, and custom and men's jewellery are where the space went."
+   },
+   {
+    "who": "If you compete with Kay locally:",
+    "text": "the store refit is a 2027 event, not a this-quarter one."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a store-closing programme. Kay's 1,003 locations are unchanged in these reports."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · Kay inside Signet",
+   "asof": "Kay figures at 10 September 2026 · Signet figures at 1 August 2026",
+   "cols": [
+    "Measure",
+    "Kay",
+    "Signet total"
+   ],
+   "rows": [
+    [
+     "Locations",
+     "1,003",
+     "2,534"
+    ],
+    [
+     "Of which outlets",
+     "121",
+     "not stated"
+    ],
+    [
+     "Share of the chain",
+     "39.6%",
+     "100%"
+    ],
+    [
+     "Average store size",
+     "2,500 sq ft",
+     "not stated"
+    ],
+    [
+     "Men's shops planned",
+     "about 200",
+     "not stated"
+    ],
+    [
+     "Assortment change",
+     "about −20%",
+     "not stated"
+    ]
+   ],
+   "hi": 1,
+   "note": "<b>Source</b> WWD and JCK, both 10 September 2026, both reporting Kay president Julie Yoakum; Signet's total store count is from Exhibit 99.1 to its Form 8-K of 9 September 2026. <b>Two dates</b> Kay's figures are at 10 September and Signet's at 1 August; the two are not the same as-of. <b>The 39.6% share</b> is Carat Capital's arithmetic, 1,003 of 2,534, and is a share of the estate, not a change in it.",
+   "plate": "CC/2026/060"
+  },
+  "sections": [
+   {
+    "h": "A fifth of the range goes",
+    "p": [
+     {
+      "lead": "Too much product.",
+      "text": "Kay has reduced its assortment by about 20% over the past year, in every category. Julie Yoakum, the brand's president, said: “We had too much product, it was confusing.”"
+     },
+     {
+      "lead": "Custom and men's.",
+      "text": "Custom pieces and men's jewellery take the shelf space back. Men's shops of about 25 linear feet are going into roughly 200 stores."
+     }
+    ]
+   },
+   {
+    "h": "Kay is 39.6% of Signet",
+    "p": [
+     {
+      "lead": "Four in ten stores.",
+      "text": "Kay counts 1,003 locations against the 2,534 Signet had open at 1 August, or 39.6% of the chain."
+     },
+     {
+      "lead": "The estate is shrinking.",
+      "text": "Signet closed 53 stores and opened 5 since year-end, leaving selling space down 1.1%. The assortment cut lands on a smaller base.",
+      "links": {
+       "53 closed, 5 opened": "a-signet-comps-up-sales-down.html"
+      }
+     }
+    ]
+   },
+   {
+    "h": "Stores and packaging wait for 2027",
+    "p": [
+     {
+      "lead": "Website first.",
+      "text": "The campaign is live on the website, in advertising and on social from this week. Store redesign and packaging follow in 2027."
+     },
+     {
+      "lead": "Open sell, on trial.",
+      "text": "Kay is piloting open-sell display for Rocksbox pieces, which Signet bought in 2021. Rings, earrings and necklaces come out from under glass."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Q3",
+    "what": "Signet guides to $1.37 to $1.41 billion in sales and same store sales of −1.0% to 2.0%."
+   },
+   {
+    "when": "Nov",
+    "what": "Holiday trading, the first full season on the narrowed assortment."
+   },
+   {
+    "when": "2027",
+    "what": "Kay store redesign and new packaging, the part not yet in market."
+   }
+  ],
+  "depth": {
+   "reverse": "Signet reporting Kay same store sales down next quarter. A 20% narrower range that loses sales is a mis-edit rather than a simplification, and the reading above would be wrong.",
+   "built": {
+    "title": "What an assortment cut does",
+    "text": "A jeweller's assortment is the count of distinct items a store carries. Cutting it frees display space and working capital and makes each remaining line turn faster, at the risk of losing the sale a dropped item would have made. The test is not the cut itself but same store sales in the season after it."
+   },
+   "method": "Two independent reports were read directly, WWD and JCK, both published 10 September 2026 and both sourced to Kay president Julie Yoakum. Both carry the same figure, about a 20% reduction in assortment. WWD supplies the store detail used here: 1,003 Kay locations, of which 882 stores and 121 outlets, an average store of 2,500 square feet, men's shops of about 25 linear feet going into roughly 200 locations, and the Rocksbox open-sell pilot. A company announcement also went out over Business Wire at 13:00 GMT on 10 September; it is named here for completeness, and the figures above rest on the two trade reports actually read. Signet's total of 2,534 stores, the 53 closures and 5 openings and the 1.1% fall in selling space are from Exhibit 99.1 to its Form 8-K of 9 September 2026, at 1 August 2026, and were reported here on 9 September. The 39.6% is Carat Capital's arithmetic, 1,003 of 2,534; it is a share of Signet's estate and not a fall in it, and the two counts carry different as-of dates, which is stated on the table rather than smoothed over. The single quotation runs to eight words. Archive test, both periods named: the archive's only prior Kay mention is the 12 August piece on Signet handing Zales and Banter to a Mattel executive, a different banner and a different subject; the 9 September piece covers the 13 weeks ended 1 August 2026, a results period. This item covers a brand and assortment decision announced 10 September 2026. Same parent, different subject and period, so NEW.",
+   "prior": [
+    {
+     "date": "2026-09-09",
+     "slug": "signet-comps-up-sales-down",
+     "claim": "Comps rose 2.2% while total sales fell 0.5% to $1,528.1m"
+    },
+    {
+     "date": "2026-08-12",
+     "slug": "zales-goes-to-mattel",
+     "claim": "Signet gave Zales and Banter to a Mattel executive"
+    }
+   ],
+   "sources": [
+    {
+     "title": "After Over 100 Years in Business, Kay Embarks on Its Biggest Rebranding - WWD",
+     "url": "https://wwd.com/business-news/retail/kay-rebranding-1239200632/",
+     "published": "2026-09-10"
+    },
+    {
+     "title": "Kay Overhauls Website and Stores Under New “Love All In” Platform - JCK",
+     "url": "https://www.jckonline.com/editorial-article/kay-jewelers-love-all-in/",
+     "published": "2026-09-10"
+    },
+    {
+     "title": "Signet Jewelers second-quarter Fiscal 2027 release, Exhibit 99.1 to Form 8-K",
+     "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000832988&type=8-K",
+     "published": "2026-09-09"
+    }
+   ],
+   "corrections": []
+  },
+  "next": {
+   "slug": "signet-comps-up-sales-down",
+   "why": "The quarter underneath it: comps up 2.2%, sales down 0.5%, 53 stores gone."
+  }
  }
 }

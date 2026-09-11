@@ -1,10 +1,40 @@
 {
- "updated": "9 Sep 2026",
+ "updated": "11 Sep 2026",
  "intro": "Eight weeks of the trade, kept the way a ledger should be kept — dated, sourced, and in one place. New entries are added at the top each week; the quarter's running numbers live in the Almanac below.",
  "weeks": [
   {
-   "label": "This week - August 19 to September 9",
+   "label": "This week - August 19 to September 11",
    "entries": [
+    {
+     "d": "gemstones",
+     "h": "Gemfields sells all 44 emerald lots for $29.6 million",
+     "t": "Gemfields' commercial-quality emerald auction took $29.6 million, with all 44 lots placed at an average $9.72 a carat. The goods came from Kagem in Zambia.",
+     "s": "Gemfields Group Limited, Auction Results: Commercial-Quality Emeralds, 11 September 2026"
+    },
+    {
+     "d": "gold-metals",
+     "h": "Silver sheds $2.19 to $63.94 since the 9 September mark",
+     "t": "Silver is bid $63.94 an ounce against $66.13 on 9 September, a fall of $2.19. All four metals sit below their 9 September marks.",
+     "s": "Kitco precious-metals board, read 11 September 2026, 06:01 ET; livepriceofgold.com"
+    },
+    {
+     "d": "auctions",
+     "h": "Bulgari sapphire ring carries a HKD 9.5m high estimate",
+     "t": "A Bulgari ring centring a cushion-shaped 9.86-carat Kashmir sapphire carries a high estimate of HKD 9.5 million, the top lot of 95 at Phillips in Hong Kong on 29 September.",
+     "s": "Rapaport, 8 September 2026, reporting the Phillips website"
+    },
+    {
+     "d": "watches",
+     "h": "Urwerk launches a gold UR-150 at $140,000, 25 pieces",
+     "t": "Urwerk has put the UR-150 in 18-carat yellow gold as the Golden Scorpion, limited to 25 pieces at $140,000 each in the United States.",
+     "s": "JCK, 9 September 2026; Monochrome Watches, 2026 and 2024 specification panels"
+    },
+    {
+     "d": "retail-tech",
+     "h": "Kay cuts its assortment about 20% across 1,003 stores",
+     "t": "Kay has reduced its assortment by about 20% over the past year, in every category, alongside a brand platform called Love All In. Custom pieces and men's jewellery take the space.",
+     "s": "WWD and JCK, both 10 September 2026; Signet Form 8-K, Exhibit 99.1, 9 September 2026"
+    },
     {
      "d": "gold-metals",
      "h": "Pudong Development Bank ends retail Shanghai Gold Exchange trading after 25 September",
