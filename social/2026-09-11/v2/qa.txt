@@ -1,0 +1,5 @@
+theme: emerald-platinum
+POST 1 every-emerald-lot-sold: 6 slides, words/slide [19, 25, 23, 25, 39, 14] (total 145), largest 171,272 bytes
+   word law: clean
+POST 2 all-four-metals-fell-since-tuesday: 4 slides, words/slide [18, 31, 27, 13] (total 89), largest 231,923 bytes
+   word law: clean
