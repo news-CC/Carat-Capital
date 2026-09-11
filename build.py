@@ -2050,7 +2050,7 @@ body.zoomed.panning #zoomer{{cursor:grabbing;transition:none}}
 @keyframes breathe{{50%{{transform:scale(1.22);opacity:.75}}}}
 /* leaves */
 /* container units: type scales with the page like ink, not like a website */
-.lp,#under,#peel .inner,.pg-slot,.th{{container-type:size}}
+.lp,#under,#peel .inner,.pg-slot,.th,.th .pg{{container-type:size}}
 .pg{{position:absolute;inset:0;padding:7.2% 8%;display:flex;flex-direction:column;
   font-size:3.4cqw;line-height:1.55}}
 .pg-slot{{display:contents}}
