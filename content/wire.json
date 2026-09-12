@@ -1,36 +1,32 @@
 {
- "date_line": "Friday, September 11, 2026",
- "edition": "Vol. I - No. 060",
+ "date_line": "Saturday, September 12, 2026",
+ "edition": "Vol. I - No. 061",
  "items": [
   {
-   "b": "GEMFIELDS SELLS ALL 44 COMMERCIAL EMERALD LOTS FOR $29.6 MILLION AT $9.72 A CARAT",
-   "t": "Gemfields' commercial-quality rough emerald auction, held 24 August to 10 September 2026 and viewed in Jaipur, took total revenues of USD 29.6 million with all 44 lots offered sold, a 100% clearance by number and by weight. The average realised price of USD 9.72 a carat is 30.3% above the USD 7.46 of the November-December 2025 commercial sale and 118.4% above the USD 4.45 of March 2024, and the average has risen at each of the last four commercial auctions. Carats sold fell 10.5% to 3,047,650. Sixty-three companies placed bids, against 55 last time. Proceeds are repatriated in full to Kagem in Zambia, 75% owned by Gemfields and 25% by the Industrial Development Corporation of Zambia."
+   "b": "CHOW TAI FOOK FILES TO REGISTER UP TO RMB 10 BILLION OF PANDA BONDS",
+   "t": "Chow Tai Fook Jewellery Group has applied to register up to RMB 10 billion of debt financing instruments with China's interbank market dealers' association, to be issued in tranches within two years of acceptance."
   },
   {
-   "b": "SILVER SHEDS $2.19 TO $63.94 SINCE THE 9 SEPTEMBER MARK; ALL FOUR METALS LOWER",
-   "t": "On Kitco's bid at 06:01 ET, silver is $63.94 against $66.13 on 9 September, palladium $1,290.00 against $1,335.00, platinum $1,797.00 against $1,841.00 and gold $4,347.30 against $4,389.30, falls of 3.312%, 3.371%, 2.390% and 0.957%. No mark was filed for 10 September, so each change spans two sessions. Kitco's own session change prints all four metals higher on the Friday, from its prior close; the two reference points are different and both are carried. The gold-silver ratio widened to 68.0 from 66.4."
+   "b": "MORPHY ESTIMATES AN OSCAR HEYMAN NECKLACE AT 40.3% OF ITS 2014 INVOICE",
+   "t": "A $150,000 to $250,000 estimate against the $620,000 invoice in the lot's own box, in a 357-lot sale at Denver, Pennsylvania on 24 September."
   },
   {
-   "b": "BULGARI 9.86-CARAT KASHMIR SAPPHIRE RING CARRIES HKD 9.5M HIGH ESTIMATE AT PHILLIPS HONG KONG",
-   "t": "Phillips offers 95 lots at its Hong Kong Jewels Auction on 29 September, led by a Bulgari ring centring a cushion-shaped 9.86-carat Kashmir sapphire between two shield-shaped diamonds, reported at a high estimate of HKD 9.5 million, about USD 1.2 million. That works out to HKD 963,500 a carat. Coloured stones take seven of the ten highest estimates; a 13.82-carat Burmese sapphire is estimated at HKD 2 million to HKD 3 million, HKD 217,100 a carat, so the smaller Kashmir stone is valued at 4.4 times the larger Burmese per carat. Estimates as reported by Rapaport, 8 September, from the Phillips website."
+   "b": "ROLEX HOLDS ABOUT 31% OF CHRONO24 DOLLAR SALES, OMEGA ABOUT 11%",
+   "t": "Buyers under 30 have cut the share of their spending devoted to Rolex by about 30% since 2022, on the marketplace's own research."
   },
   {
-   "b": "URWERK PUTS THE UR-150 IN 18-CARAT GOLD AT $140,000, LIMITED TO 25 PIECES",
-   "t": "The UR-150 Golden Scorpion, shown at Geneva Watch Days, has a 2N yellow gold case middle with concentric grooves over a sandblasted Grade 5 titanium back, and is limited to 25 pieces at $140,000 each in the United States per JCK. The Swiss list is CHF 105,000 excluding taxes, 19.3% above the CHF 88,000 of the 2024 titanium Titan, which ran to 50 pieces per variant. The two published prices sit on different currencies and tax bases and neither source gives a rate, so both are carried as they stand."
-  },
-  {
-   "b": "KAY CUTS ITS ASSORTMENT ABOUT 20% AND ADDS MEN'S SHOPS IN ABOUT 200 STORES",
-   "t": "Signet's largest banner has reduced its assortment by about 20% over the past year in every category, under a brand platform called Love All In that is live on the website, in advertising and on social from this week. Men's shops of about 25 linear feet go into roughly 200 of Kay's 1,003 locations, which comprise 882 stores and 121 outlets, or 39.6% of the 2,534 Signet had open at 1 August. Store redesign and packaging follow in 2027, and an open-sell pilot takes Rocksbox pieces out from under glass. Kay president Julie Yoakum is the named source in both WWD and JCK."
+   "b": "PALLADIUM SHEDS $97 TO $1,280 SINCE THE 7 SEPTEMBER MARK",
+   "t": "Gold, silver and platinum each lost between 1.27% and 1.87% over the same four sessions on Kitco's bid."
   }
  ],
- "tape_ts": "11 Sep 2026 - Kitco, re-read by the Editor at press time, 06:01 ET. All four metals had moved off the 05:00 mark, so all four are carried here at Kitco's bid as the paper's one price for the morning: gold 4,347.30, silver 63.94, platinum 1,797.00, palladium 1,290.00. Changes are measured against the 9 September marks in this paper's own record and span two sessions, because no mark was filed for 10 September; they are not Kitco's change field, which runs from Kitco's prior close and prints all four higher. livepriceofgold.com quoted gold 0.0025% from Kitco's bid, inside the timing band.",
+ "tape_ts": "12 Sep 2026 - Kitco's bid, re-read by the Editor at press time and unchanged from the 05:00 tape, so the 05:00 marks stand and print here: gold 4,347.70, silver 64.372, platinum 1,792.00, palladium 1,280.00. The board carries its own 17:00 timestamp of 11 September on all four metals, which is the last print of the week; changes shown are against the 11 September morning mark in Carat Capital's own record, not Kitco's change field.",
  "tape": [
   {
    "name": "Gold / oz",
    "code": "XAU",
-   "px": "4,347.30",
-   "chg": "▼ −0.9569%",
-   "dir": "down",
+   "px": "4,347.70",
+   "chg": "▲ +0.0092%",
+   "dir": "up",
    "pts": [
     19,
     19,
@@ -85,8 +81,8 @@
   {
    "name": "Platinum / oz",
    "code": "XPT",
-   "px": "1,797.00",
-   "chg": "▼ −2.3900%",
+   "px": "1,792.00",
+   "chg": "▼ −0.2782%",
    "dir": "down",
    "pts": [
     24,
@@ -104,9 +100,9 @@
   {
    "name": "Silver / oz",
    "code": "XAG",
-   "px": "63.94",
-   "chg": "▼ −3.3117%",
-   "dir": "down",
+   "px": "64.372",
+   "chg": "▲ +0.6756%",
+   "dir": "up",
    "pts": [
     18,
     18,

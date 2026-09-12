@@ -110563,5 +110563,807 @@
    "slug": "signet-comps-up-sales-down",
    "why": "The quarter underneath it: comps up 2.2%, sales down 0.5%, 53 stores gone."
   }
+ },
+ "palladium-ninety-seven-off": {
+  "v": 3,
+  "kicker": "Metals tape",
+  "figures": {
+   "asof": "Kitco bid, the board's own 17:00 timestamp of 11 September 2026 · prior marks from Carat Capital's tape, 7 September, 10:04Z",
+   "cells": [
+    {
+     "n": "$1,280",
+     "dir": "dn",
+     "label": "Palladium",
+     "q": "Kitco bid, 11 September",
+     "src": 0
+    },
+    {
+     "n": "-$97",
+     "dir": "dn",
+     "label": "Since Monday",
+     "q": "against the 7 September mark",
+     "src": 0
+    },
+    {
+     "n": "-7.04%",
+     "dir": "dn",
+     "label": "Palladium, week",
+     "q": "3.8 times the next fall",
+     "src": 0
+    },
+    {
+     "n": "$4,347.70",
+     "dir": "dn",
+     "label": "Gold",
+     "q": "down 1.28% on the week",
+     "src": 0
+    },
+    {
+     "n": "$64.372",
+     "dir": "dn",
+     "label": "Silver",
+     "q": "down 1.87% on the week",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Palladium led the fall.",
+   "text": "Palladium ended the week at $1,280 on Kitco's bid, $97 below the 7 September mark. That is a fall of 7.04%, while the other three metals fell under 1.9%."
+  },
+  "means": [
+   {
+    "who": "If you price palladium settings:",
+    "text": "the week's reference is $1,280 on Kitco's bid, not the $1,377 of Monday."
+   },
+   {
+    "who": "If you hedge a metals book:",
+    "text": "palladium moved 3.8 times as far as silver, the next largest fall."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a Friday collapse. The fall accumulated across four sessions in the record."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · The week on Kitco's bid",
+   "asof": "7 September 10:04Z against 11 September 17:00Z, both Kitco bid",
+   "cols": [
+    "Metal",
+    "7 Sep",
+    "11 Sep",
+    "Change",
+    "%"
+   ],
+   "rows": [
+    [
+     "Gold",
+     "4,403.90",
+     "4,347.70",
+     "-56.20",
+     "-1.28%"
+    ],
+    [
+     "Silver",
+     "65.596",
+     "64.372",
+     "-1.224",
+     "-1.87%"
+    ],
+    [
+     "Platinum",
+     "1,815.00",
+     "1,792.00",
+     "-23.00",
+     "-1.27%"
+    ],
+    [
+     "Palladium",
+     "1,377.00",
+     "1,280.00",
+     "-97.00",
+     "-7.04%"
+    ]
+   ],
+   "hi": 3,
+   "note": "<b>Source</b> Kitco's bid on both readings, filed to Carat Capital's dated tape. <b>The two readings</b> sit at different hours of their sessions, 10:04Z on 7 September and the board's own 17:00Z stamp on 11 September. <b>Measured instead</b> from Friday's own 06:01Z mark, palladium is down 6.32% and still the largest fall of the four. <b>All percentages</b> are Carat Capital's arithmetic on the figures shown.",
+   "plate": "CC/2026/061"
+  },
+  "sections": [
+   {
+    "h": "Palladium fell alone in size",
+    "p": [
+     {
+      "lead": "Ninety-seven dollars off.",
+      "text": "Palladium fell $97 from $1,377 to $1,280 across four sessions in the record."
+     },
+     {
+      "lead": "The gap is the story.",
+      "text": "Silver's 1.87% was the next largest fall; palladium's 7.04% is 3.8 times it."
+     }
+    ]
+   },
+   {
+    "h": "Gold and platinum moved together",
+    "p": [
+     {
+      "lead": "Gold gave back $56.20.",
+      "text": "Gold closed the week at $4,347.70, a fall of 1.28% from Monday's mark."
+     },
+     {
+      "lead": "Platinum lost $23.",
+      "text": "Platinum printed $1,792 on the same board, down 1.27% on the week."
+     }
+    ]
+   },
+   {
+    "h": "The last print is Friday's",
+    "p": [
+     {
+      "lead": "Seventeen hundred hours.",
+      "text": "Kitco's board carries a 17:00 timestamp of 11 September on gold, silver, platinum and palladium alike."
+     },
+     {
+      "lead": "The spread is widest here.",
+      "text": "Kitco shows palladium bid at $1,280 and asked at $1,320, a spread of $40."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "14 Sep",
+    "what": "Monday's opening mark, the first print after the weekend."
+   },
+   {
+    "when": "17 Sep",
+    "what": "FH publishes August Swiss watch exports, a read on precious-metal case demand."
+   },
+   {
+    "when": "Each session",
+    "what": "Whether Kitco's palladium bid-ask spread stays near $40."
+   }
+  ],
+  "depth": {
+   "reverse": "A palladium print back above $1,377. That would make the week a round trip rather than a fall, and the 7.04% would read as a mid-week excursion.",
+   "built": {
+    "title": "How these marks are taken",
+    "text": "Each mark is Kitco's bid for one troy ounce, recorded once a session and filed to a dated file in Carat Capital's own record. The bid is used rather than the mid so that the same side of the market is compared from one day to the next. Prior marks are looked up in the dated files, never derived from a change field."
+   },
+   "method": "Kitco's board was fetched at press time on 12 September and returned gold bid 4,347.70, silver 64.37, platinum 1,792.00 and palladium 1,280.00 under its own timestamp of Sep 11, 2026 17:00, matching the tape filed at 05:00 to the decimal, so no press-time write-back was needed and the tape's figures print unchanged. Arithmetic, all Carat Capital's, on the two dated marks: gold 4,403.90 to 4,347.70 is -56.20, and 56.20 over 4,403.90 is 1.2761%, printed as -1.28%; silver 65.596 to 64.372 is -1.224, and 1.224 over 65.596 is 1.8660%, printed as -1.87%; platinum 1,815.00 to 1,792.00 is -23.00, and 23.00 over 1,815.00 is 1.2672%, printed as -1.27%; palladium 1,377.00 to 1,280.00 is -97.00, and 97.00 over 1,377.00 is 7.0443%, printed as -7.04%. The multiple is 7.0443 divided by 1.8660, which is 3.775, printed as 3.8 times. The 7 September mark was read at 10:04Z and the 11 September print carries the board's 17:00Z stamp, so the two are not read at the same hour; measured instead from Friday's own 06:01Z mark of 1,290.00, palladium is 1,290 over 1,377, or 93.68% of Monday's level and 6.32% below it, and it remains the largest fall of the four. Archive test, both periods named: Carat Capital's 11 September piece covers the move from the 9 September mark to the 11 September morning mark, two sessions, and leads on silver; this item covers 7 to 11 September, four sessions, and leads on palladium. Different period and different instrument, so ADVANCED, not a repeat.",
+   "prior": [
+    {
+     "date": "2026-09-11",
+     "slug": "silver-sheds-two-nineteen",
+     "claim": "Silver shed $2.19 to $63.94 since the 9 September mark"
+    },
+    {
+     "date": "2026-09-08",
+     "slug": "six-dollars-each-way",
+     "claim": "Platinum added $6.00 to $1,829.00, Kitco's only riser"
+    },
+    {
+     "date": "2026-09-07",
+     "slug": "twenty-five-ten-off-gold",
+     "claim": "Gold shed $25.10 to $4,403.90 in the Labor Day session"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Kitco precious metals board, bid, read 12 September 2026",
+     "url": "https://www.kitco.com/price/precious-metals",
+     "published": "2026-09-11T17:00:00Z"
+    },
+    {
+     "title": "Carat Capital tape, 7 September 2026",
+     "url": "https://caratcapital.org/the-record.html",
+     "published": "2026-09-07T10:04:00Z"
+    },
+    {
+     "title": "Carat Capital tape, 12 September 2026",
+     "url": "https://caratcapital.org/the-record.html",
+     "published": "2026-09-12T05:00:00Z"
+    }
+   ],
+   "corrections": []
+  },
+  "next": {
+   "slug": "silver-sheds-two-nineteen",
+   "why": "The two sessions inside this week that the desk measured first, when silver led the fall."
+  }
+ },
+ "rolex-thirty-one-percent-chrono24": {
+  "v": 3,
+  "kicker": "Secondary market",
+  "figures": {
+   "asof": "Chrono24 marketplace data as reported by JCK, 11 September 2026 · shares of dollar sales volume",
+   "cells": [
+    {
+     "n": "31%",
+     "dir": "fl",
+     "label": "Rolex share",
+     "q": "of Chrono24 dollar sales",
+     "src": 0
+    },
+    {
+     "n": "11%",
+     "dir": "fl",
+     "label": "Omega share",
+     "q": "second on the platform",
+     "src": 0
+    },
+    {
+     "n": "35%",
+     "dir": "up",
+     "label": "North America",
+     "q": "Rolex share of tracked sales",
+     "src": 0
+    },
+    {
+     "n": "28%",
+     "dir": "fl",
+     "label": "Datejust",
+     "q": "of Rolex sales on the platform",
+     "src": 0
+    },
+    {
+     "n": "-30%",
+     "dir": "dn",
+     "label": "Under-30 spend",
+     "q": "share devoted to Rolex since 2022",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Rolex still leads.",
+   "text": "Rolex accounts for about 31% of dollar sales volume on Chrono24, ahead of Omega at roughly 11% and Patek Philippe at about 6%, on the marketplace's own figures."
+  },
+  "means": [
+   {
+    "who": "If you buy secondary stock:",
+    "text": "one dollar in three on the platform is Rolex, and the Datejust is 28% of that."
+   },
+   {
+    "who": "If you stock for buyers under 30:",
+    "text": "the pullback is from Rolex, not from watches, and it runs to challenger brands."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a fall in Rolex sales. These are shares of one platform's volume."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · Share of dollar sales volume",
+   "asof": "Chrono24, as reported by JCK, 11 September 2026",
+   "cols": [
+    "Brand",
+    "Share of dollar sales volume"
+   ],
+   "rows": [
+    [
+     "Rolex",
+     "about 31%"
+    ],
+    [
+     "Omega",
+     "roughly 11%"
+    ],
+    [
+     "Patek Philippe",
+     "about 6%"
+    ],
+    [
+     "All other brands",
+     "about 52%"
+    ]
+   ],
+   "hi": 0,
+   "note": "<b>Source</b> Chrono24 data as reported by JCK, 11 September 2026. <b>The residual</b> of about 52% is Carat Capital's subtraction from the three published shares and inherits their rounding. <b>Dollar sales volume</b> is the platform's own measure and is not a count of units.",
+   "plate": "CC/2026/061"
+  },
+  "sections": [
+   {
+    "h": "North America leans harder on Rolex",
+    "p": [
+     {
+      "lead": "One sale in three.",
+      "text": "Chrono24 tracked 35% of North American watch sales as Rolex, against about 27% in 2018."
+     },
+     {
+      "lead": "Eight points, eight years.",
+      "text": "That is eight percentage points of share added over eight years on the platform's own tracking."
+     }
+    ]
+   },
+   {
+    "h": "The Datejust carries Rolex here",
+    "p": [
+     {
+      "lead": "Rolex's largest collection.",
+      "text": "The Datejust is the brand's largest revenue-generating collection on the platform at about 28% of its sales."
+     },
+     {
+      "lead": "Concentration cuts both ways.",
+      "text": "A single collection at that weight means the brand's platform share moves with one model's supply and price."
+     }
+    ]
+   },
+   {
+    "h": "Under-30 buyers move away",
+    "p": [
+     {
+      "lead": "Down about 30%.",
+      "text": "Buyers under 30 have reduced the share of their spending devoted to Rolex by about 30% since 2022, the research indicates."
+     },
+     {
+      "lead": "Dressier, and wider.",
+      "text": "The same research points them toward dressier models and a wider set of challenger brands."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "17 Sep",
+    "what": "FH publishes August Swiss watch exports, the supply side of the same demand."
+   },
+   {
+    "when": "28 Sep",
+    "what": "Phillips London offers four one-off Rolex Daytonas, an auction read on the same brand."
+   },
+   {
+    "when": "Not yet dated",
+    "what": "Chrono24's own publication of the underlying report, which JCK does not link."
+   }
+  ],
+  "depth": {
+   "reverse": "Chrono24 publishing unit shares beside dollar shares. If Rolex's unit share sits far below 31%, the lead is an average-price effect rather than a demand one.",
+   "built": {
+    "title": "How a platform share is measured",
+    "text": "Dollar sales volume is the value of completed transactions on one marketplace, divided by brand. It counts what changed hands there, not what a brand produced or what dealers hold. A brand with high average prices takes a larger dollar share than unit share, so the two measures can rank brands differently on the same data."
+   },
+   "method": "The figures are Chrono24's, reported by JCK on 11 September 2026 and read directly from the article, whose own structured data carries that date. No primary Chrono24 report is linked by JCK and none was found, so these are treated as one trade outlet's report of a named data provider rather than a two-source reading, and that is stated rather than implied. Arithmetic, all Carat Capital's: 100 less 31 less 11 less 6 leaves about 52% for every other brand, a residual that inherits the rounding of the three published shares; 35 less 27 is eight percentage points, and 2026 less 2018 is eight years. The under-30 figure is a proportional reduction in the share of spending, not a fall of 30 percentage points, and is written that way throughout. Archive test, both periods named: the archive's two Chrono24 pages are dated 16 July 2026 and cover the ChronoPulse price-heat index for Cartier's secondary market in that month; this item covers brand shares of platform-wide dollar sales volume reported on 11 September 2026. Same data provider, different instrument and different period, so ADVANCED, not a repeat.",
+   "prior": [
+    {
+     "date": "2026-09-11",
+     "slug": "urwerk-gold-ur-150-twenty-five",
+     "claim": "Urwerk put the UR-150 in gold at $140,000, 25 pieces"
+    },
+    {
+     "date": "2026-07-16",
+     "slug": "cartier-secondhand-heat",
+     "claim": "Cartier ran 3.5 times hotter on Chrono24's ChronoPulse index"
+    },
+    {
+     "date": "2026-07-16",
+     "slug": "richemont-twenty-percent-quarter",
+     "claim": "Richemont's quarter rose 20% and called the luxury turn"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Rolex Still Leads, but Watch Buyers Diversify — JCK",
+     "url": "https://www.jckonline.com/editorial-article/rolex-lead-watch-buyers-diversify/",
+     "published": "2026-09-11"
+    }
+   ],
+   "corrections": []
+  },
+  "next": {
+   "slug": "cartier-secondhand-heat",
+   "why": "The last read on this platform measured heat by brand, not share of the money."
+  }
+ },
+ "oscar-heyman-forty-point-three": {
+  "v": 3,
+  "kicker": "Sale preview",
+  "figures": {
+   "asof": "Morphy Auctions release, 1 September 2026 · Fine Jewelry & Watches, Denver, Pennsylvania, 24 September 2026",
+   "cells": [
+    {
+     "n": "$250,000",
+     "dir": "fl",
+     "label": "High estimate",
+     "q": "Oscar Heyman necklace",
+     "src": 0
+    },
+    {
+     "n": "$620,000",
+     "dir": "fl",
+     "label": "2014 invoice",
+     "q": "copy conveys to the buyer",
+     "src": 0
+    },
+    {
+     "n": "40.3%",
+     "dir": "dn",
+     "label": "Estimate of invoice",
+     "q": "high estimate against 2014",
+     "src": 0
+    },
+    {
+     "n": "850",
+     "dir": "fl",
+     "label": "Diamonds",
+     "q": "at least 180.15 carats",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "The invoice is in the box.",
+   "text": "A 2014 Oscar Heyman necklace returns at Morphy on 24 September, one of 357 lots, with a $150,000 to $250,000 estimate against the $620,000 invoice that travels with it."
+  },
+  "means": [
+   {
+    "who": "If you appraise signed American work:",
+    "text": "the ceiling here is 40.3% of the 2014 retail invoice, not a premium to it."
+   },
+   {
+    "who": "If you consign a boxed lot:",
+    "text": "the original invoice travels with the piece and sets the comparison a bidder makes."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a result. The hammer is 12 days out and estimates are not prices."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · The seven published estimates",
+   "asof": "Morphy Auctions, Fine Jewelry & Watches, 24 September 2026",
+   "cols": [
+    "Lot",
+    "Low",
+    "High"
+   ],
+   "rows": [
+    [
+     "Oscar Heyman fancy-colour diamond necklace",
+     "$150,000",
+     "$250,000"
+    ],
+    [
+     "Bvlgari Serpenti with Jaeger-LeCoultre secret watch",
+     "$150,000",
+     "$250,000"
+    ],
+    [
+     "1959 Rolex GMT-Master, ref. 6542, Bakelite bezel",
+     "$120,000",
+     "$180,000"
+    ],
+    [
+     "Platinum emerald and diamond necklace",
+     "$70,000",
+     "$100,000"
+    ],
+    [
+     "Platinum graduated diamond necklace, 57.58 ct",
+     "$60,000",
+     "$90,000"
+    ],
+    [
+     "7.87-carat light brown diamond solitaire ring",
+     "$50,000",
+     "$80,000"
+    ],
+    [
+     "Rolex Day-Date 40 in 18K yellow gold",
+     "$50,000",
+     "$75,000"
+    ]
+   ],
+   "hi": 0,
+   "note": "<b>Source</b> Morphy Auctions' release of 1 September 2026, corroborated lot by lot by JCK on 2 September. <b>The seven</b> total $650,000 at the low and $1,025,000 at the high, Carat Capital's arithmetic. <b>The GMT-Master</b> is published at $120,000 to $180,000 in the release; one secondary summary gave it the same band as the two lead lots, and the release is followed here.",
+   "plate": "CC/2026/061"
+  },
+  "sections": [
+   {
+    "h": "Three lots clear six figures",
+    "p": [
+     {
+      "lead": "Two share the top.",
+      "text": "The Oscar Heyman necklace and a Bvlgari Serpenti bracelet watch both carry $150,000 to $250,000."
+     },
+     {
+      "lead": "The Rolex follows.",
+      "text": "A 1959 GMT-Master with its original red and blue Bakelite bezel is published at $120,000 to $180,000."
+     }
+    ]
+   },
+   {
+    "h": "The invoice sets the comparison",
+    "p": [
+     {
+      "lead": "Forty percent of retail.",
+      "text": "The high estimate is 40.3% of the $620,000 the necklace sold for in 2014."
+     },
+     {
+      "lead": "Said the other way.",
+      "text": "The same estimate is 59.7% below the 2014 invoice, and the low estimate is 75.8% below it."
+     }
+    ]
+   },
+   {
+    "h": "The counts do not reconcile",
+    "p": [
+     {
+      "lead": "Two totals, one necklace.",
+      "text": "Morphy publishes 850 diamonds at a combined weight of at least 180.15 carats. The four itemised counts sum to 723."
+     },
+     {
+      "lead": "Colour carries the weight.",
+      "text": "The three colourless groups total 18.99 carats, leaving at least 161.16 for the 571 fancy-colour stones."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "14–17 Sep",
+    "what": "Sotheby's Gem Drop in New York, the next dated jewellery total on the calendar."
+   },
+   {
+    "when": "24 Sep",
+    "what": "Bonhams California's sapphire necklace sale, the same day in another room."
+   },
+   {
+    "when": "24 Sep",
+    "what": "Morphy's 357 lots at 9am ET in Denver, Pennsylvania."
+   }
+  ],
+  "depth": {
+   "reverse": "A hammer above $620,000. That would make the 2014 invoice a floor for signed Oscar Heyman work rather than a ceiling, and the 40.3% would read as a conservative estimate.",
+   "built": {
+    "title": "How an auction estimate is set",
+    "text": "An estimate is a range a specialist expects the hammer to fall inside, set before the sale on comparable results, condition, provenance and the reserve agreed with the consignor. It is not an appraisal and not a retail price. Retail invoices sit above estimates because they carry a maker's margin, a shop's margin and tax that the secondary market does not recover."
+   },
+   "method": "Estimates and lot descriptions come from Morphy Auctions' own release of 1 September 2026, read in full through AuctionDaily's reproduction, and were checked lot by lot against JCK's independent write-up of 2 September; the seven estimates agree in both. Arithmetic, all Carat Capital's: 250,000 divided by 620,000 is 40.32%, so the high estimate is 40.3% OF the 2014 invoice and 59.7% BELOW it; 150,000 divided by 620,000 is 24.19%, so the low estimate is 24.2% of the invoice and 75.8% below it. The seven low estimates sum to $650,000 and the seven high estimates to $1,025,000. On the release's own total weight, the high estimate is $1,388 a carat, the low $833, and the 2014 invoice $3,442. The stone counts do not reconcile in the release itself: 95 plus 21 plus 36 plus 571 is 723, while the release states a total of 850, a gap of 127 stones that is printed here rather than smoothed. The itemised colourless weights, 13.47 plus 2.60 plus 2.93, total 18.99 carats, which leaves at least 161.16 carats for the 571 fancy-colour stones against the stated minimum of 180.15. Archive test, both periods named: the archive's Morphy references are what-to-watch lines in the 4 and 8 September editions, both of which cover other houses' sales and name this one only as a forthcoming date; no article covers this sale, this consignment or Oscar Heyman. New, not a repeat.",
+   "prior": [
+    {
+     "date": "2026-09-08",
+     "slug": "seventy-eight-thousand-at-bonhams",
+     "claim": "A Mouawad parure sold at 51.1% of its high estimate"
+    },
+    {
+     "date": "2026-09-06",
+     "slug": "fifty-five-thousand-in-california",
+     "claim": "A $55,000 sapphire necklace led Bonhams California"
+    },
+    {
+     "date": "2026-09-04",
+     "slug": "thirty-nine-percent-at-christies",
+     "claim": "Christie's watch sales rose 39% under a new global head"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Morphy's Sept. 24 Fine Jewelry & Watches auction offers 357 superlative lots — Morphy Auctions release",
+     "url": "https://auctiondaily.com/news/morphys-fine-jewelry-watches-auction-offers-357-superlative-lots-that-would-please-even-the-most-discerning-bidders/",
+     "published": "2026-09-01"
+    },
+    {
+     "title": "Inside Morphy's September Sale: 571 Fancy Colored Diamonds — JCK",
+     "url": "https://www.jckonline.com/editorial-article/morphy-september-sale/",
+     "published": "2026-09-02"
+    },
+    {
+     "title": "Morphy Auctions, upcoming auctions",
+     "url": "https://www.morphyauctions.com/auctions/",
+     "published": "2026-09-12"
+    }
+   ],
+   "corrections": []
+  },
+  "next": {
+   "slug": "seventy-eight-thousand-at-bonhams",
+   "why": "The last hammer measured against its estimate here came in at 51.1% of the high."
+  }
+ },
+ "chow-tai-fook-panda-bond-ten-billion": {
+  "v": 3,
+  "kicker": "Corporate finance",
+  "figures": {
+   "asof": "Chow Tai Fook Jewellery Group (HK:1929) announcement of 11 September 2026 · reported by etnet 16:46 HKT and RTHK 19:23 HKT",
+   "cells": [
+    {
+     "n": "RMB 10bn",
+     "dir": "fl",
+     "label": "Registration cap",
+     "q": "not exceeding, in tranches",
+     "src": 0
+    },
+    {
+     "n": "RMB 5bn",
+     "dir": "fl",
+     "label": "CTF Services",
+     "q": "same body, January 2026",
+     "src": 2
+    },
+    {
+     "n": "2 years",
+     "dir": "fl",
+     "label": "Issue window",
+     "q": "from the acceptance notice",
+     "src": 0
+    },
+    {
+     "n": "2x",
+     "dir": "up",
+     "label": "Against the sibling",
+     "q": "RMB 10bn versus RMB 5bn",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "The cap is RMB 10 billion.",
+   "text": "Chow Tai Fook Jewellery Group has applied to register up to RMB 10 billion of debt financing instruments with China's interbank market dealers' association, to be issued in multiple tranches."
+  },
+  "means": [
+   {
+    "who": "If you finance jewellery inventory:",
+    "text": "the group is going onshore for renminbi rather than to the offshore dollar market."
+   },
+   {
+    "who": "If you hold Chow Tai Fook paper:",
+    "text": "the stated uses include repaying existing borrowings, so this is refinancing as well as growth."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a bond sale. The application is under processing and approval is not certain."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · The registration, as announced",
+   "asof": "Chow Tai Fook Jewellery Group announcement, 11 September 2026",
+   "cols": [
+    "Term",
+    "As announced"
+   ],
+   "rows": [
+    [
+     "Instrument",
+     "Debt financing instruments, panda bonds"
+    ],
+    [
+     "Cap",
+     "RMB 10 billion, not exceeding"
+    ],
+    [
+     "Registered with",
+     "China's interbank market dealers' association"
+    ],
+    [
+     "Issue window",
+     "Within 2 years of the acceptance notice"
+    ],
+    [
+     "Tranches",
+     "Multiple, at appropriate times"
+    ],
+    [
+     "Use of proceeds",
+     "Working capital, product development, store upgrades, market expansion, repaying borrowings"
+    ],
+    [
+     "Approval",
+     "Under processing; timing not determined"
+    ]
+   ],
+   "hi": 1,
+   "note": "<b>Source</b> the company's announcement of 11 September 2026 as carried by etnet at 16:46 HKT and RTHK at 19:23 HKT. <b>The two-times comparison</b> against Chow Tai Fook Services is Carat Capital's arithmetic on two renminbi figures, so no exchange rate is asserted. <b>No coupon, tenor or tranche size</b> is published.",
+   "plate": "CC/2026/061"
+  },
+  "sections": [
+   {
+    "h": "Twice the January registration",
+    "p": [
+     {
+      "lead": "Two listings, one door.",
+      "text": "Chow Tai Fook Services, a separate Hong Kong-listed company, registered up to RMB 5 billion with the same association in January. The jewellery group's cap is twice that."
+     },
+     {
+      "lead": "Same body, bigger ask.",
+      "text": "Both applications went to the National Association of Financial Market Institutional Investors, which registers renminbi debt sold onshore by issuers incorporated outside the mainland."
+     }
+    ]
+   },
+   {
+    "h": "Proceeds cover growth and debt",
+    "p": [
+     {
+      "lead": "Five stated uses.",
+      "text": "The proceeds are earmarked for working capital, jewellery product development, store upgrades, strategic market expansion and the repayment of existing borrowings."
+     },
+     {
+      "lead": "Upgrades, not openings.",
+      "text": "The group ended June with 5,434 points of sale after closing a net 258 mainland locations in its fiscal first quarter.",
+      "links": {
+       "closing a net 258 mainland locations": "a-china-weighs-in-on-gold.html"
+      }
+     }
+    ]
+   },
+   {
+    "h": "Approval is not yet given",
+    "p": [
+     {
+      "lead": "Processing, not priced.",
+      "text": "The announcement states the application is under processing and that whether or when approval comes is undetermined."
+     },
+     {
+      "lead": "Conditions decide the terms.",
+      "text": "Timing, tenor, scale and terms will depend on market conditions when each tranche is issued."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Not yet dated",
+    "what": "The association's acceptance notice, which starts the two-year issue window."
+   },
+   {
+    "when": "Nov–Dec 2026",
+    "what": "Interim results for the half to 30 September; the 2025/26 interim report was filed on 2 December."
+   },
+   {
+    "when": "Each tranche",
+    "what": "Coupon and tenor, which the group says depend on market conditions."
+   }
+  ],
+  "depth": {
+   "reverse": "The association declining or delaying the registration. The two-year window never starts, and the store upgrades are funded from cash flow instead.",
+   "built": {
+    "title": "What a panda bond is",
+    "text": "A panda bond is a renminbi-denominated bond sold inside mainland China by an issuer incorporated outside it. Hong Kong-listed companies use them to raise onshore currency for onshore spending without converting offshore dollars. Registration with the National Association of Financial Market Institutional Investors sets a ceiling; the issuer then sells in tranches inside a fixed window."
+   },
+   "method": "Two independent Hong Kong financial wires were read directly for this item: etnet, timestamped 11/09/2026 16:46 and naming stock code 01929, and RTHK, whose page carries 2026-09-11 HKT 19:23. Both give the same RMB 10 billion cap, the same registrant and the same two-year window. The company's own filing on HKEXnews was not reached: the document identifier could not be found without guessing an address, which this seat does not do, so the primary is named as unread rather than presented as a second check. The RMB 5 billion comparison is Chow Tai Fook Services (HK:0659), reported by The Standard on 14 January 2026 as an application to the same association. Arithmetic: 10 divided by 5 is 2.0, a multiple of one renminbi figure by another, with no currency conversion asserted anywhere in this article. The 5,434 points of sale and the net 258 closures are Carat Capital's own reporting of 26 July 2026 on the group's fiscal first-quarter update, and are dated to end-June, not to the announcement. Archive test, both periods named: 27 pages in the archive carry Chow Tai Fook, the newest being quarterly sales and gold-counter pricing through August 2026; none covers debt issuance or any bond. New entity-and-document, not a repeat.",
+   "prior": [
+    {
+     "date": "2026-07-26",
+     "slug": "china-weighs-in-on-gold",
+     "claim": "Retail sales value rose 15.1% in the quarter to June"
+    },
+    {
+     "date": "2026-07-09",
+     "slug": "asia-ledger-record-year",
+     "claim": "Record fiscal-year profit of HK$9.08 billion, up 52%"
+    },
+    {
+     "date": "2026-08-30",
+     "slug": "two-counters-one-friday",
+     "claim": "The Chow Tai Fook gold counter added 40% over the exchange"
+    }
+   ],
+   "sources": [
+    {
+     "title": "周大福珠寶計劃發行最多100億元人民幣熊貓債 — RTHK",
+     "url": "https://news.rthk.hk/rthk/ch/component/k2/1869711-20260911.htm",
+     "published": "2026-09-11T19:23:00+08:00"
+    },
+    {
+     "title": "周大福(01929)在內地申請發行不高於100億元人民幣熊貓債券 — etnet",
+     "url": "https://www.etnet.com.hk/www/tc/news/news-article.php?section=categorized&category=latest&newsid=ETN360911564",
+     "published": "2026-09-11T16:46:00+08:00"
+    },
+    {
+     "title": "CTF Service plans to issue up to 5 billion yuan of bonds — The Standard",
+     "url": "https://www.thestandard.com.hk/wealth-and-investment/article/321571/CTF-Service-plans-to-issue-up-to-5-billion-yuan-of-bonds",
+     "published": "2026-01-14"
+    }
+   ],
+   "corrections": []
+  },
+  "next": {
+   "slug": "china-weighs-in-on-gold",
+   "why": "The quarter this financing is meant to serve: sales up 15.1% and 258 mainland shops closed."
+  }
  }
 }
