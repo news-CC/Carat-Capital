@@ -111365,5 +111365,1191 @@
    "slug": "china-weighs-in-on-gold",
    "why": "The quarter this financing is meant to serve: sales up 15.1% and 258 mainland shops closed."
   }
+ },
+ "platinum-forty-four-off": {
+  "v": 3,
+  "kicker": "Metals tape",
+  "figures": {
+   "asof": "Kitco bid, the board's own timestamp Sep 15, 2026 05:59 New York · prior marks from Carat Capital's tape of 12 September, which carried the board's 11 September 17:00 print",
+   "cells": [
+    {
+     "n": "$1,748.00",
+     "dir": "dn",
+     "label": "Platinum",
+     "q": "Kitco bid, 15 September",
+     "src": 0
+    },
+    {
+     "n": "-2.46%",
+     "dir": "dn",
+     "label": "Platinum, since Friday",
+     "q": "largest of the four falls",
+     "src": 0
+    },
+    {
+     "n": "$4,267.30",
+     "dir": "dn",
+     "label": "Gold",
+     "q": "down $80.40, or 1.85%",
+     "src": 0
+    },
+    {
+     "n": "$62.93",
+     "dir": "dn",
+     "label": "Silver",
+     "q": "down 2.24% on the mark",
+     "src": 0
+    },
+    {
+     "n": "$1,266.00",
+     "dir": "dn",
+     "label": "Palladium",
+     "q": "down 1.09%, the smallest fall",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Platinum fell furthest.",
+   "text": "Platinum stands at $1,748.00 on Kitco's bid, $44 below Friday's final mark. That fall of 2.46% is the largest of the four."
+  },
+  "means": [
+   {
+    "who": "If you price platinum settings:",
+    "text": "the reference is $1,748 on Kitco's bid, not Friday's $1,792."
+   },
+   {
+    "who": "If you buy gold for stock:",
+    "text": "an ounce costs $80.40 less than it did at Friday's close."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a single session's move. It spans the weekend and Monday's full session."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · Friday's close against Tuesday's board",
+   "asof": "Kitco bid on both readings",
+   "cols": [
+    "Metal",
+    "11 Sep",
+    "15 Sep",
+    "Change",
+    "%"
+   ],
+   "rows": [
+    [
+     "Gold",
+     "4,347.70",
+     "4,267.30",
+     "-80.40",
+     "-1.85%"
+    ],
+    [
+     "Silver",
+     "64.372",
+     "62.93",
+     "-1.442",
+     "-2.24%"
+    ],
+    [
+     "Platinum",
+     "1,792.00",
+     "1,748.00",
+     "-44.00",
+     "-2.46%"
+    ],
+    [
+     "Palladium",
+     "1,280.00",
+     "1,266.00",
+     "-14.00",
+     "-1.09%"
+    ]
+   ],
+   "hi": 3,
+   "note": "<b>Source</b> Kitco's bid on both readings, filed to Carat Capital's dated tape. <b>The two readings</b> sit at different hours: the 11 September mark carries the board's own 17:00 stamp, the 15 September mark its 05:59 New York stamp. <b>The span</b> is three calendar days and covers the weekend plus Monday's full session. <b>All percentages</b> are Carat Capital's arithmetic on the figures shown.",
+   "plate": "CC/2026/062"
+  },
+  "sections": [
+   {
+    "h": "Platinum fell furthest of the four",
+    "p": [
+     {
+      "lead": "Forty-four dollars off.",
+      "text": "Platinum moved from $1,792.00 to $1,748.00 on Kitco's bid across three calendar days."
+     },
+     {
+      "lead": "The gap is narrow.",
+      "text": "Silver's 2.24% is the next largest fall, and platinum's 2.46% sits 0.22 points above it."
+     }
+    ]
+   },
+   {
+    "h": "Gold gave back the most dollars",
+    "p": [
+     {
+      "lead": "Eighty dollars off gold.",
+      "text": "Gold stands at $4,267.30, which is $80.40 below the $4,347.70 that closed last week."
+     },
+     {
+      "lead": "Palladium moved least.",
+      "text": "Palladium fell $14.00 to $1,266.00, a decline of 1.09% and the smallest of the four."
+     }
+    ]
+   },
+   {
+    "h": "The board's stamp is Tuesday",
+    "p": [
+     {
+      "lead": "Five fifty-nine, New York.",
+      "text": "Kitco's board carries its own timestamp of Sep 15, 2026 05:59 on all four metals."
+     },
+     {
+      "lead": "Palladium's spread is widest.",
+      "text": "Kitco shows palladium bid at $1,266.00 and asked at $1,306.00, a spread of $40.00."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "16 Sep",
+    "what": "Wednesday's opening mark, the first print after this reading."
+   },
+   {
+    "when": "17 Sep",
+    "what": "FH publishes August Swiss watch exports, a read on precious-metal case demand."
+   },
+   {
+    "when": "Each session",
+    "what": "Whether platinum holds under $1,792.00, Friday's final mark."
+   }
+  ],
+  "depth": {
+   "reverse": "A platinum print back above $1,792.00. That would make these three days a round trip rather than a fall, and the 2.46% would read as an excursion.",
+   "built": {
+    "title": "How these marks are taken",
+    "text": "Each mark is Kitco's bid for one troy ounce, recorded once a session and filed to a dated file in Carat Capital's own record. The bid is used rather than the mid so that the same side of the market is compared from one day to the next. Prior marks are looked up in the dated files, never derived from a change field."
+   },
+   "method": "Kitco's board was fetched at press time on 15 September and returned gold bid 4,267.30, silver 62.93, platinum 1,748.00 and palladium 1,266.00 under its own timestamp string Sep 15, 2026 05:59 New York. All four differed from the 05:00 tape (gold 4,261.50, silver 62.665, platinum 1,737.00, palladium 1,260.00), so under the One-Price Rule the fresher reading was written back to newsroom/tape/2026-09-15.json and to latest.json in the same step, and those are the figures printed here. Parity proved on one metal: the dated file reads gold_spot 4267.3 and latest.json reads gold_spot 4267.3, a match. Second board on the press-time reading: livepriceofgold.com XAUUSD 4,271.20 sits 0.0914% above the Kitco bid and XAGUSD 63.114 sits 0.2924% above it, inside Kitco's own silver bid-ask band of 62.93 to 63.18, so the gap is timing and spread and no divergence is flagged. Platinum and palladium were not re-read against a second board at press time; the last independent reading on those two is the 05:00 tape's Business Insider Markets check, platinum $1,747 against a Kitco ask of $1,747 and palladium $1,285.50 inside a Kitco bid-ask of 1,260 to 1,300. Arithmetic, all Carat Capital's, on the two dated marks: gold 4,347.70 to 4,267.30 is -80.40, and 80.40 over 4,347.70 is 1.8493%, printed as -1.85%; silver 64.372 to 62.93 is -1.442, and 1.442 over 64.372 is 2.2401%, printed as -2.24%; platinum 1,792.00 to 1,748.00 is -44.00, and 44.00 over 1,792.00 is 2.4554%, printed as -2.46%; palladium 1,280.00 to 1,266.00 is -14.00, and 14.00 over 1,280.00 is 1.0938%, printed as -1.09%. The gap between the two largest falls is 2.4554 minus 2.2401, which is 0.2153 points, printed as 0.22. Market state was read off the board and not off a calendar: Kitco's own JSON carried a live intraday tick, and no closure is claimed anywhere in this article. Archive test, both periods named: Carat Capital's 12 September piece covers 7 to 11 September, four sessions, and leads on palladium; this item covers 11 to 15 September and leads on platinum. Different period and different instrument, so ADVANCED, not a repeat. No prior mark was derived: all four came from the tape's own dated files via tools/prev-mark.py in caratwire's 05:00 run and were carried unchanged.",
+   "prior": [
+    {
+     "date": "2026-09-12",
+     "slug": "palladium-ninety-seven-off",
+     "claim": "Palladium shed $97 to $1,280 across four sessions to 11 September"
+    },
+    {
+     "date": "2026-09-11",
+     "slug": "silver-sheds-two-nineteen",
+     "claim": "Silver shed $2.19 to $63.94 since the 9 September mark"
+    },
+    {
+     "date": "2026-09-08",
+     "slug": "six-dollars-each-way",
+     "claim": "Platinum added $6.00 to $1,829.00, Kitco's only riser that day"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Kitco precious metals board, bid, read at press time 15 September 2026",
+     "url": "https://www.kitco.com/price/precious-metals",
+     "published": "2026-09-15T09:59:00Z"
+    },
+    {
+     "title": "livepriceofgold.com, XAUUSD and XAGUSD, read 15 September 2026",
+     "url": "https://www.livepriceofgold.com/",
+     "published": "2026-09-15T10:05:00Z"
+    },
+    {
+     "title": "Carat Capital tape, 12 September 2026",
+     "url": "https://caratcapital.org/the-record.html",
+     "published": "2026-09-12T05:00:00Z"
+    },
+    {
+     "title": "Carat Capital tape, 15 September 2026",
+     "url": "https://caratcapital.org/the-record.html",
+     "published": "2026-09-15T09:59:00Z"
+    }
+   ],
+   "corrections": []
+  },
+  "next": {
+   "slug": "palladium-ninety-seven-off",
+   "why": "The four sessions before this one, when palladium rather than platinum led the fall."
+  },
+  "corrections": []
+ },
+ "macys-one-twenty-five-at-the-midpoint": {
+  "v": 3,
+  "kicker": "Company results",
+  "figures": {
+   "asof": "Macy's second-quarter 2026 release, 10 September 2026 · compared against its first-quarter release of 3 June 2026",
+   "cells": [
+    {
+     "n": "+$125m",
+     "dir": "up",
+     "label": "Guidance midpoint",
+     "q": "from $21.625bn to $21.75bn",
+     "src": 0
+    },
+    {
+     "n": "+2.7%",
+     "dir": "up",
+     "label": "Q2 comparable sales",
+     "q": "owned, licensed and marketplace",
+     "src": 0
+    },
+    {
+     "n": "+11.3%",
+     "dir": "up",
+     "label": "Bloomingdale's comp",
+     "q": "its highest Q2 sales volume",
+     "src": 0
+    },
+    {
+     "n": "$2.15-$2.35",
+     "dir": "up",
+     "label": "Adjusted EPS range",
+     "q": "raised from $2.00-$2.20",
+     "src": 0
+    },
+    {
+     "n": "+1.1%",
+     "dir": "up",
+     "label": "Q2 net sales",
+     "q": "to $4.9bn, quarter to 1 August",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Macy's raised the range.",
+   "text": "Macy's lifted full-year net sales guidance by $125m at the midpoint and its comparable sales range to 1.0% to 1.5%, from 0.5% to 1.2% in June."
+  },
+  "means": [
+   {
+    "who": "If you sell fine jewelry to department stores:",
+    "text": "Macy's named the category among five second-quarter outperformers."
+   },
+   {
+    "who": "If you hold the stock:",
+    "text": "adjusted EPS guidance moved to $2.15 to $2.35, 15 cents up at each end."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a jewelry number. Macy's published no fine jewelry sales figure."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · What Macy's changed in three months",
+   "asof": "June guidance from the Q1 release, 3 June 2026 · September guidance from the Q2 release, 10 September 2026",
+   "cols": [
+    "Measure",
+    "June guidance",
+    "September guidance",
+    "Move at midpoint"
+   ],
+   "rows": [
+    [
+     "Net sales",
+     "$21.5bn-$21.75bn",
+     "$21.675bn-$21.825bn",
+     "+$125m"
+    ],
+    [
+     "Comparable sales",
+     "0.5%-1.2%",
+     "1.0%-1.5%",
+     "+0.4 points"
+    ],
+    [
+     "Adjusted diluted EPS",
+     "$2.00-$2.20",
+     "$2.15-$2.35",
+     "+15 cents"
+    ]
+   ],
+   "hi": 3,
+   "note": "<b>Source</b> Macy's own quarterly releases, both read at the SEC. <b>The basis</b> is the same on both comparable-sales lines, owned plus licensed plus marketplace, as Macy's states in each release. <b>Midpoint arithmetic</b> is Carat Capital's: 21.625 to 21.75 on sales, 0.85% to 1.25% on comps. <b>Rounding</b> is the source's own to three decimal places on the sales range.",
+   "plate": "CC/2026/062"
+  },
+  "sections": [
+   {
+    "h": "The quarter beat the June range",
+    "p": [
+     {
+      "lead": "Sales rose 1.1%.",
+      "text": "Net sales reached $4.9bn in the three months to 1 August, up 1.1% on last year."
+     },
+     {
+      "lead": "Comps rose faster.",
+      "text": "Comparable sales on the owned, licensed and marketplace basis rose 2.7%, with go-forward comparable sales up 2.8%."
+     }
+    ]
+   },
+   {
+    "h": "Bloomingdale's carried the group",
+    "p": [
+     {
+      "lead": "Eleven point three.",
+      "text": "Bloomingdale's comparable sales rose 11.3% and the chain recorded its highest second-quarter sales volume."
+     },
+     {
+      "lead": "Bluemercury added 6.2%.",
+      "text": "Bluemercury's comparable sales rose 6.2%, while Macy's owned comparable sales rose 1.1%."
+     }
+    ]
+   },
+   {
+    "h": "Fine jewelry is named, not counted",
+    "p": [
+     {
+      "lead": "Five categories named.",
+      "text": "Macy's named ready to wear, men's apparel, fine jewelry, fragrances and tabletop as the quarter's outperformers."
+     },
+     {
+      "lead": "The money is pointed.",
+      "text": "Chief operating officer Thomas Edwards said the value proposition supports “very selective and surgical areas, such as big ticket and fine jewelry.”"
+     },
+     {
+      "lead": "No figure published.",
+      "text": "The release itself carries no fine jewelry sales line, and Macy's has never published one."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Q3 results",
+    "what": "The first quarter measured against the raised $21.675bn floor."
+   },
+   {
+    "when": "Holiday quarter",
+    "what": "Whether fine jewelry stays among Macy's named outperformers."
+   },
+   {
+    "when": "Any 8-K",
+    "what": "Whether tariff-refund proceeds are ever quantified for fine jewelry."
+   }
+  ],
+  "depth": {
+   "reverse": "A third quarter below the raised floor of $21.675bn. That would make September's move a mid-year excursion rather than a trend, and the fine jewelry line would lose its best evidence.",
+   "built": {
+    "title": "How Macy's counts a comparable sale",
+    "text": "Macy's reports two comparable-sales bases. Owned comparable sales count only merchandise Macy's buys and owns. Owned plus licensed plus marketplace adds concession departments and third-party sellers on its website. The guidance range quoted here is stated on the owned plus licensed plus marketplace basis in both the June and the September release, so the two are compared like with like."
+   },
+   "method": "Both guidance ranges were read at the primary. The September figures come from Exhibit 99.1 to Macy's 8-K of 10 September 2026 and the June figures from Exhibit 99.1 to its 8-K of 3 June 2026, each fetched from SEC EDGAR rather than from a wire summary. Midpoint arithmetic is Carat Capital's: the June sales range midpoint is 21.625, the September midpoint 21.75, a rise of 0.125, printed as $125m; the June comps midpoint is 0.85% against September's 1.25%, a rise of 0.40 points; adjusted EPS rose 15 cents at each end of the range. Divergence between outside sources, disclosed: Rapaport's report of 14 September 2026 gives the new sales range as $21.68bn to $21.83bn, which is the primary's $21.675bn to $21.825bn rounded to two decimal places. This article prints the primary's figures. The fine jewelry material does not come from the release, which makes no mention of the category. It comes from Macy's results call as reported by Rapaport on 14 September 2026, including the Thomas Edwards quotation, which is 12 words and carried here as that outlet reports it. Carat Capital did not read the call transcript and says so rather than implying it did. Archive test, both periods named: Carat Capital has covered Macy's only as a passing mention inside a Signet comps piece, with no guidance figures and no stated quarter; this item covers Macy's second quarter of 2026 and its full-year guidance. New entity for this paper, so NEW. Age, from the event and not from the write-up: the results were published 10 September 2026 and this article is five days behind that date, not one day behind Rapaport's.",
+   "prior": [
+    {
+     "date": "2026-09-11",
+     "slug": "kay-cuts-the-assortment",
+     "claim": "Kay cut its assortment about 20% across 1,003 stores"
+    },
+    {
+     "date": "2026-09-07",
+     "slug": "a-trillion-and-the-jewelry-case",
+     "claim": "Bain put US holiday sales above $1 trillion, up 4.5%"
+    },
+    {
+     "date": "2026-09-06",
+     "slug": "five-up-eight-down-in-august",
+     "claim": "Edge counted August jewelry sales up 5%, units down 8%"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Macy's, Inc. Reports Second Quarter 2026 Results, Exhibit 99.1 to Form 8-K",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000794367/000162828026061217/m-20260910xexx991.htm",
+     "published": "2026-09-10T00:00:00Z"
+    },
+    {
+     "title": "Macy's, Inc. First Quarter 2026 Results, Exhibit 99.1 to Form 8-K",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000794367/000162828026040037/m-20260603xexx991.htm",
+     "published": "2026-06-03T00:00:00Z"
+    },
+    {
+     "title": "Macy's Boosts Full-Year Outlook as Jewelry Sales Show Strength, Rapaport",
+     "url": "https://rapaport.com/news/macys-boosts-full-year-outlook-as-jewelry-sales-show-strength/",
+     "published": "2026-09-14T14:20:20Z"
+    }
+   ],
+   "corrections": []
+  },
+  "next": {
+   "slug": "kay-cuts-the-assortment",
+   "why": "The other side of the American jewelry counter this month, where the assortment is being cut rather than pushed."
+  },
+  "corrections": []
+ },
+ "two-point-six-million-in-geneva": {
+  "v": 3,
+  "kicker": "Sale preview",
+  "figures": {
+   "asof": "Christie's announcement as reported by Rapaport, 14 September 2026 15:30 UTC · pre-sale estimates, nothing sold",
+   "cells": [
+    {
+     "n": "$2.6m",
+     "dir": "up",
+     "label": "Top estimate",
+     "q": "David Morris ring, high end",
+     "src": 0
+    },
+    {
+     "n": "14.63 ct",
+     "dir": "flat",
+     "label": "The stone",
+     "q": "fancy orangey-pink diamond",
+     "src": 0
+    },
+    {
+     "n": "300",
+     "dir": "flat",
+     "label": "Lots, about",
+     "q": "one private collection, two sales",
+     "src": 0
+    },
+    {
+     "n": "$1.5m",
+     "dir": "up",
+     "label": "Graff earrings",
+     "q": "high estimate, emeralds",
+     "src": 0
+    },
+    {
+     "n": "$1.2m",
+     "dir": "up",
+     "label": "Bulgari Trombino",
+     "q": "14.38 ct Burmese ruby",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Christie's set the range.",
+   "text": "A David Morris ring set with a 14.63-carat fancy orangey-pink diamond carries a high estimate of $2.6m at Christie's Geneva sale on 10 November."
+  },
+  "means": [
+   {
+    "who": "If you bid on coloured diamonds:",
+    "text": "the ring is the highest-estimated lot named out of about 300."
+   },
+   {
+    "who": "If you value pink goods for clients:",
+    "text": "seven named lots carry high estimates from $500,000 to $2.6m."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a result. These are pre-sale estimates and nothing has sold."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · The seven lots Christie's named",
+   "asof": "Pre-sale estimates in US dollars, as announced",
+   "cols": [
+    "Lot",
+    "Maker",
+    "Low estimate",
+    "High estimate"
+   ],
+   "rows": [
+    [
+     "14.63 ct orangey-pink diamond ring",
+     "David Morris",
+     "not published",
+     "$2.6m"
+    ],
+    [
+     "Emerald earrings",
+     "Graff",
+     "$900,000",
+     "$1.5m"
+    ],
+    [
+     "Trombino ring, 14.38 ct Burmese ruby",
+     "Bulgari",
+     "$700,000",
+     "$1.2m"
+    ],
+    [
+     "Oiseau Mysterieux brooch",
+     "Van Cleef & Arpels",
+     "$600,000",
+     "$1m"
+    ],
+    [
+     "Sapphire earrings, 18.99 and 20.60 ct",
+     "Van Cleef & Arpels",
+     "$600,000",
+     "$800,000"
+    ],
+    [
+     "Fuchsia brooch",
+     "Van Cleef & Arpels",
+     "$400,000",
+     "$600,000"
+    ],
+    [
+     "Cadix earrings",
+     "Van Cleef & Arpels",
+     "$300,000",
+     "$500,000"
+    ]
+   ],
+   "hi": 3,
+   "note": "<b>Source</b> Christie's announcement as reported by Rapaport, 14 September 2026. <b>The ring's low estimate</b> is not published in the source and is left blank rather than inferred. <b>The six banded lots</b> total $3.5m at the low end and $5.6m at the high end, Carat Capital's addition. <b>Estimates exclude</b> the buyer's premium every house adds to the hammer price.",
+   "plate": "CC/2026/062"
+  },
+  "sections": [
+   {
+    "h": "One collection fills two sales",
+    "p": [
+     {
+      "lead": "Nearly 300 lots.",
+      "text": "Christie's will offer close to 300 lots from a single unnamed private collection across the two sales."
+     },
+     {
+      "lead": "Two dates, two formats.",
+      "text": "The live sale runs on 10 November in Geneva and the online sale from 5 to 17 November."
+     }
+    ]
+   },
+   {
+    "h": "Four lots carry one maker",
+    "p": [
+     {
+      "lead": "Four named lots.",
+      "text": "Four of the seven lots named in the announcement are Van Cleef & Arpels, estimated between $300,000 and $1m."
+     },
+     {
+      "lead": "Graff and Bulgari follow.",
+      "text": "Graff emerald earrings carry $900,000 to $1.5m and a Bulgari Trombino ring $700,000 to $1.2m."
+     }
+    ]
+   },
+   {
+    "h": "The estimates are not results",
+    "p": [
+     {
+      "lead": "Six bands published.",
+      "text": "Six of the seven named lots carry both a low and a high estimate, totalling $3.5m and $5.6m."
+     },
+     {
+      "lead": "One is open-ended.",
+      "text": "Only the upper figure is published for the David Morris ring, so it sits outside both totals."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "5 Nov",
+    "what": "The online sale opens, the first bids on the collection."
+   },
+   {
+    "when": "10 Nov",
+    "what": "The live Geneva sale, the test of the $2.6m estimate."
+   },
+   {
+    "when": "17 Nov",
+    "what": "The online sale closes and the collection's total is set."
+   }
+  ],
+  "depth": {
+   "reverse": "A published low estimate for the David Morris ring. A band would place the stone against the rest of the collection, and a low near $1.5m would make it a different lot from one near $2.6m.",
+   "built": {
+    "title": "How an auction estimate is set",
+    "text": "A house publishes a low and a high estimate before the sale, based on comparable results and on the consignor's expectations. The reserve, the price below which the lot will not sell, is confidential and sits at or under the low estimate. A buyer pays the hammer price plus the house's buyer's premium, so the sum paid is always above the hammer figure a result reports."
+   },
+   "method": "The announcement was read through Rapaport's report of 14 September 2026, timestamped 15:30:48 UTC in its own structured data and fetched directly. Christie's own sale page was not reached: christies.com refused this desk's fetch, and no address was guessed in its place under the Address Rule. That is a disclosed gap, not a dressed-up citation. National Jeweler's headline about 300-plus coloured diamonds at Christie's was checked and not used, because it is not this sale. Arithmetic, Carat Capital's: the six lots with both figures published total 900,000 plus 700,000 plus 600,000 plus 600,000 plus 400,000 plus 300,000, which is $3.5m at the low end, and 1,500,000 plus 1,200,000 plus 1,000,000 plus 800,000 plus 600,000 plus 500,000, which is $5.6m at the high end. The David Morris ring is excluded from both totals because only its upper figure is published. Archive test, both periods named: Carat Capital's archive carries David Morris in six files, all covering a pearl-and-diamond necklace sold at Bonhams London on 8 July 2026 for GBP 40,960; this item covers a Christie's Geneva sale on 10 November 2026 and a different object. Same brand name, different house, different stone, different sale, so NEW.",
+   "prior": [
+    {
+     "date": "2026-09-12",
+     "slug": "oscar-heyman-forty-point-three",
+     "claim": "Morphy estimated an Oscar Heyman necklace at 40.3% of its 2014 invoice"
+    },
+    {
+     "date": "2026-09-11",
+     "slug": "bulgari-sapphire-nine-five-million",
+     "claim": "A Bulgari sapphire ring carried a HKD 9.5m high estimate"
+    },
+    {
+     "date": "2026-09-06",
+     "slug": "twenty-million-on-two-rubies",
+     "claim": "HK$20m ruby earrings led Sotheby's Hong Kong sale on 17 September"
+    }
+   ],
+   "sources": [
+    {
+     "title": "15ct. Orangey-Pink Diamond to Shine at Christie's Geneva Auction, Rapaport",
+     "url": "https://rapaport.com/news/15ct-orangey-pink-diamond-to-shine-at-christies-geneva-auction/",
+     "published": "2026-09-14T15:30:48Z"
+    }
+   ],
+   "corrections": []
+  },
+  "next": {
+   "slug": "bulgari-sapphire-nine-five-million",
+   "why": "The other maison estimate this desk measured this month, and the one that tests in Hong Kong first."
+  },
+  "corrections": []
+ },
+ "ninety-percent-and-the-machines": {
+  "v": 3,
+  "kicker": "Industry address",
+  "figures": {
+   "asof": "Amit Shah at the 52nd India Gems and Jewellery Awards, Mumbai, 13 September 2026 · every figure below is the speaker's, not this paper's audit",
+   "cells": [
+    {
+     "n": "90%",
+     "dir": "flat",
+     "label": "World's polishing",
+     "q": "India's share, his figure",
+     "src": 0
+    },
+    {
+     "n": "Rs 2.44 lakh crore",
+     "dir": "flat",
+     "label": "2025 exports",
+     "q": "gems and jewellery, his figure",
+     "src": 0
+    },
+    {
+     "n": "75 lakh",
+     "dir": "flat",
+     "label": "Jobs claimed",
+     "q": "direct and indirect",
+     "src": 0
+    },
+    {
+     "n": "50x",
+     "dir": "up",
+     "label": "His volume claim",
+     "q": "lab-grown against current volume",
+     "src": 1
+    },
+    {
+     "n": "5",
+     "dir": "flat",
+     "label": "Links named",
+     "q": "machines, output, jewellery, brands, shops",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Shah named the whole chain.",
+   "text": "India's home minister asked the trade to hold every link of the lab-grown diamond business, from building the machines to opening showrooms abroad. He put India's 2025 exports at Rs 2.44 lakh crore."
+  },
+  "means": [
+   {
+    "who": "If you make lab-grown in Surat:",
+    "text": "the minister's list runs past growing stones to machines and retail brands."
+   },
+   {
+    "who": "If you sell growers into India:",
+    "text": "domestic machine-building is now a stated federal aim, not a trade wish."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a policy. No scheme, budget or date was announced with the appeal."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · The links the minister named",
+   "asof": "As listed in the address, Mumbai, 13 September 2026",
+   "cols": [
+    "Link",
+    "What India does now",
+    "Source of the claim"
+   ],
+   "rows": [
+    [
+     "Growing machines",
+     "not stated",
+     "the address"
+    ],
+    [
+     "Growing the stones",
+     "not stated",
+     "the address"
+    ],
+    [
+     "Cutting and polishing",
+     "more than 90% of the world's cut and polished diamonds",
+     "the address"
+    ],
+    [
+     "Making the jewellery",
+     "not stated",
+     "the address"
+    ],
+    [
+     "Brands and showrooms abroad",
+     "not stated",
+     "the address"
+    ]
+   ],
+   "hi": 1,
+   "note": "<b>Source</b> ANI's report of the address, 13 September 2026. <b>The 90%</b> is the only link the speaker attached a figure to, and it covers all cut and polished diamonds, not lab-grown alone. <b>Not stated</b> means the address gave no figure for that link, and this paper has not supplied one. <b>Nothing here</b> is a government target or a published statistic.",
+   "plate": "CC/2026/062"
+  },
+  "sections": [
+   {
+    "h": "Five links, one owner",
+    "p": [
+     {
+      "lead": "Five links in the list.",
+      "text": "The appeal names 5 links: machines, stones, jewellery, brands and showrooms abroad."
+     },
+     {
+      "lead": "Machines come first.",
+      "text": "Shah asked the trade to build the growing machines in India rather than import them."
+     },
+     {
+      "lead": "Showrooms come last.",
+      "text": "The list ends with Indian brands opening shops in cities outside India."
+     }
+    ]
+   },
+   {
+    "h": "The figures are the speaker's",
+    "p": [
+     {
+      "lead": "Rs 2.44 lakh crore.",
+      "text": "Shah put India's 2025 gems and jewellery exports at that figure in the same address."
+     },
+     {
+      "lead": "Seventy-five lakh jobs.",
+      "text": "He said about 75 lakh people take direct and indirect employment from the trade."
+     },
+     {
+      "lead": "Ninety per cent polished.",
+      "text": "He said India processes more than 90% of the world's cut and polished diamonds."
+     },
+     {
+      "lead": "Fifty times, by volume.",
+      "text": "He put lab-grown's potential at nearly 50 times the current diamond market by volume."
+     }
+    ]
+   },
+   {
+    "h": "One state has a policy already",
+    "p": [
+     {
+      "lead": "Maharashtra moved in 2025.",
+      "text": "The state's gems and jewellery policy of 2025 carries provisions for the lab-grown industry."
+     },
+     {
+      "lead": "No federal scheme named.",
+      "text": "The address of 13 September announced no central scheme, outlay or date for the value chain it described."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Next budget",
+    "what": "Whether a central lab-grown scheme follows the appeal with an outlay."
+   },
+   {
+    "when": "Monthly GJEPC",
+    "what": "Whether lab-grown export figures move against the Rs 2.44 lakh crore total."
+   },
+   {
+    "when": "Any state policy",
+    "what": "Whether Gujarat publishes lab-grown provisions to match Maharashtra's."
+   }
+  ],
+  "depth": {
+   "reverse": "A central scheme with money attached. An appeal at an awards dinner and a funded policy are different objects, and only the second would change what a manufacturer does next quarter.",
+   "built": {
+    "title": "What a lab-grown value chain contains",
+    "text": "A lab-grown diamond passes through a reactor, a cutting wheel, a setting bench and a shop window. The reactors themselves, whether chemical vapour deposition chambers or high-pressure presses, are capital equipment that has historically been bought from outside India. The minister's appeal treats the reactor as part of the chain rather than an input to it, which is what makes the list longer than the usual cutting-and-polishing account of India's position."
+   },
+   "method": "The address was given at the 52nd India Gems and Jewellery Awards in Mumbai on Sunday 13 September 2026, with Shah as chief guest. Age is stated from the event and not from the write-up: the Bureau's slate dated this item 14 September, which is the day Rapaport published, and the address was two days before this edition, not one. The primary text was read through two independent reports of ANI's copy, dailyprabhat.com and diamondworld.net, both fetched directly; aninews.in itself returned 403 to this desk and no address was guessed in its place. Divergence between outside sources, disclosed: diamondworld.net, published 15 September 2026, carries the claim that the lab-grown market could expand to nearly 50 times the size of the current diamond market in volume, and Rapaport's report of 14 September carries the same figure without the word volume; the ANI copy read at dailyprabhat does not carry the figure at all and paraphrases the speaker as saying the market is likely to expand on a large scale. This article prints the figure as volume, attributed to the speaker, and marks it to the second source rather than the first. No exchange rate is asserted anywhere: the export figure is printed in rupees and is not converted. The 90%, the Rs 2.44 lakh crore and the 75 lakh are all the speaker's own claims made in the address, and Carat Capital has not audited any of them against GJEPC or customs data. Archive test, both periods named: a search of the archive for Amit Shah returns zero files, and the paper's nearest prior item, 20 August 2026, covers GJEPC's own $100 billion by 2040 export target rather than any ministerial address. New entity and new document, so NEW.",
+   "prior": [
+    {
+     "date": "2026-08-20",
+     "slug": "hundred-billion-on-two-point-four",
+     "claim": "India set a $100 billion export target for 2040, growing at 2.44%"
+    },
+    {
+     "date": "2026-09-07",
+     "slug": "two-thousand-stones-a-day",
+     "claim": "HRD Antwerp opened a Mumbai lab grading 2,000 diamonds a day"
+    },
+    {
+     "date": "2026-08-25",
+     "slug": "five-ninety-four-from-china",
+     "claim": "IIT Madras built a prototype press as China sent $594m of kit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "India should take global leadership in entire value chain of lab-grown diamonds: Amit Shah, ANI copy",
+     "url": "https://www.dailyprabhat.com/india-should-take-global-leadership-in-entire-value-chain-of-lab-grown-diamonds-amit-shah/",
+     "published": "2026-09-13T00:00:00Z"
+    },
+    {
+     "title": "Lab-Grown Diamond Market Could Expand 50-Fold In Volume: Amit Shah, Diamond World",
+     "url": "https://www.diamondworld.net/news/lab-grown-diamond-market-could-expand-50-fold-in-volume-amit-shah",
+     "published": "2026-09-15T00:28:00Z"
+    },
+    {
+     "title": "Govt Minister Says India Should Control Entire Lab-Grown Chain, Rapaport",
+     "url": "https://rapaport.com/news/govt-minister-says-india-should-control-entire-lab-grown-chain/",
+     "published": "2026-09-14T11:14:20Z"
+    }
+   ],
+   "corrections": []
+  },
+  "next": {
+   "slug": "hundred-billion-on-two-point-four",
+   "why": "The export target the trade already carries, against which this appeal has to be measured."
+  },
+  "corrections": []
+ },
+ "five-seventy-five-still-authorised": {
+  "v": 3,
+  "kicker": "Corporate finance",
+  "figures": {
+   "asof": "Signet Jewelers Form 8-K, accession 0000832988-26-000231, filed 14 September 2026 · agreement dated 10 September 2026",
+   "cells": [
+    {
+     "n": "$125m",
+     "dir": "flat",
+     "label": "Repurchase size",
+     "q": "notional, signed 10 September",
+     "src": 0
+    },
+    {
+     "n": "1,023,000",
+     "dir": "up",
+     "label": "Initial shares",
+     "q": "delivered 11 September",
+     "src": 0
+    },
+    {
+     "n": "$575m",
+     "dir": "flat",
+     "label": "Authorisation left",
+     "q": "2017 repurchase programme",
+     "src": 0
+    },
+    {
+     "n": "25 Sep",
+     "dir": "flat",
+     "label": "Settlement opens",
+     "q": "runs to 2 December 2026",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "The agreement is signed.",
+   "text": "Signet entered an accelerated share repurchase with JPMorgan Chase Bank on 10 September and received about 1,023,000 shares on 11 September."
+  },
+  "means": [
+   {
+    "who": "If you hold Signet stock:",
+    "text": "about $575m of authorisation remains under the 2017 programme."
+   },
+   {
+    "who": "If you track the share count:",
+    "text": "1,023,000 shares are already delivered and settlement runs to 2 December."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a new programme. Signet named the $125m at its second-quarter results."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · The $125m, step by step",
+   "asof": "Dates as the filing states them",
+   "cols": [
+    "Step",
+    "Date",
+    "Figure"
+   ],
+   "rows": [
+    [
+     "Programme named at second-quarter results",
+     "9 Sep 2026",
+     "$125m intended"
+    ],
+    [
+     "Agreement signed with JPMorgan Chase",
+     "10 Sep 2026",
+     "$125m notional"
+    ],
+    [
+     "Initial share delivery received",
+     "11 Sep 2026",
+     "about 1,023,000 shares"
+    ],
+    [
+     "Form 8-K filed",
+     "14 Sep 2026",
+     "not applicable"
+    ],
+    [
+     "Final settlement expected",
+     "25 Sep to 2 Dec 2026",
+     "not applicable"
+    ],
+    [
+     "Authorisation remaining, 2017 programme",
+     "as filed",
+     "about $575m"
+    ]
+   ],
+   "hi": 2,
+   "note": "<b>Source</b> Signet's Form 8-K, read at the SEC. <b>The 9 September line</b> is Carat Capital's own prior reporting of the earnings call, not a line in this filing. <b>No implied price</b> is computed here: an initial delivery is a partial advance against the notional and the average price is fixed only at final settlement. <b>The filing</b> does not say whether the $575m is stated before or after this $125m.",
+   "plate": "CC/2026/062"
+  },
+  "sections": [
+   {
+    "h": "JPMorgan is the counterparty",
+    "p": [
+     {
+      "lead": "The bank is named.",
+      "text": "Signet's filing names JPMorgan Chase Bank, National Association as counterparty to the agreement."
+     },
+     {
+      "lead": "Signed on the tenth.",
+      "text": "The master and supplemental confirmations both carry the date 10 September 2026."
+     }
+    ]
+   },
+   {
+    "h": "The shares arrive in two parts",
+    "p": [
+     {
+      "lead": "About a million first.",
+      "text": "Signet received approximately 1,023,000 common shares on 11 September as the initial delivery."
+     },
+     {
+      "lead": "The rest settles later.",
+      "text": "Final settlement is expected between 25 September and 2 December 2026."
+     }
+    ]
+   },
+   {
+    "h": "The authorisation is not exhausted",
+    "p": [
+     {
+      "lead": "Five hundred and seventy-five.",
+      "text": "About $575m of repurchase authorisation remains under Signet's 2017 share repurchase programme."
+     },
+     {
+      "lead": "No price is fixed.",
+      "text": "The filing publishes no average price, and the initial delivery is not the final share count."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "25 Sep",
+    "what": "The earliest date final settlement may occur under the agreement."
+   },
+   {
+    "when": "2 Dec",
+    "what": "The latest settlement date the filing contemplates."
+   },
+   {
+    "when": "Q3 results",
+    "what": "The share count that shows what the $125m actually bought."
+   }
+  ],
+  "depth": {
+   "reverse": "A final settlement delivering far fewer additional shares than the initial tranche implies. That would mean Signet paid a higher average price than the opening delivery suggested, and the $125m bought less of the float.",
+   "built": {
+    "title": "How an accelerated repurchase works",
+    "text": "A company pays a bank a fixed sum up front and receives most of the shares immediately. The bank borrows those shares, then buys them back in the market across the settlement period. The final count is trued up at the end against the volume-weighted average price over that window. The company therefore knows its spend on day one and its share count only at the close."
+   },
+   "method": "The filing was read directly at the SEC rather than through a wire summary: Form 8-K, accession 0000832988-26-000231, filed 14 September 2026, with the agreement dated 10 September 2026. Age is stated from the events in the filing body and not from its filing date: the agreement is five days old and the initial delivery four. No implied price per share was computed from $125m over 1,023,000 shares, because an accelerated repurchase's initial delivery is a partial advance against the notional and the arithmetic would print a number that means nothing. The filing states approximately $575m of authorisation remaining under the 2017 share repurchase programme and does not say whether that figure is struck before or after this $125m, so no addition is performed here either. Archive test, both periods named: Carat Capital's 9 September piece covers Signet's second quarter of fiscal 2027 and reports the company's stated intention to run a $125m accelerated repurchase this month; this item covers the executed agreement of 10 September, its counterparty, its initial delivery and its settlement window. Same entity and the same headline dollar figure, but a different document covering a later period, so ADVANCED, not a repeat. The dollar figure is therefore not treated as news here and does not carry the headline.",
+   "prior": [
+    {
+     "date": "2026-09-09",
+     "slug": "signet-comps-up-sales-down",
+     "claim": "Signet comps rose 2.2% while total sales fell 0.5% in the quarter"
+    },
+    {
+     "date": "2026-09-11",
+     "slug": "kay-cuts-the-assortment",
+     "claim": "Kay cut its assortment about 20% across 1,003 stores"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Signet Jewelers Limited, Form 8-K, accelerated share repurchase",
+     "url": "https://www.sec.gov/Archives/edgar/data/832988/000083298826000231/sig-20260910.htm",
+     "published": "2026-09-14T00:00:00Z"
+    }
+   ],
+   "corrections": []
+  },
+  "next": {
+   "slug": "signet-comps-up-sales-down",
+   "why": "The quarter that paid for this buyback, and where the $125m was first named."
+  },
+  "corrections": []
+ },
+ "fourteen-countries-and-a-london-shop": {
+  "v": 3,
+  "kicker": "Storefronts",
+  "figures": {
+   "asof": "Luk Fook Holdings release distributed by ACN Newswire · shop opened 10 September 2026",
+   "cells": [
+    {
+     "n": "2,900",
+     "dir": "up",
+     "label": "Points of sale",
+     "q": "group-wide, about",
+     "src": 0
+    },
+    {
+     "n": "14",
+     "dir": "up",
+     "label": "Countries and regions",
+     "q": "the United Kingdom included",
+     "src": 0
+    },
+    {
+     "n": "10 Sep",
+     "dir": "flat",
+     "label": "Opening date",
+     "q": "Westfield Stratford City",
+     "src": 0
+    },
+    {
+     "n": "3",
+     "dir": "flat",
+     "label": "New markets targeted",
+     "q": "under a three-year plan",
+     "src": 0
+    },
+    {
+     "n": "1991",
+     "dir": "flat",
+     "label": "First shop",
+     "q": "North Point, Hong Kong",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Luk Fook entered Britain.",
+   "text": "The Hong Kong jeweller opened its first United Kingdom shop at Westfield Stratford City in London on 10 September. The group counts about 2,900 points of sale in 14 countries and regions."
+  },
+  "means": [
+   {
+    "who": "If you trade on a UK high street:",
+    "text": "a group with about 2,900 points of sale now has a London address."
+   },
+   {
+    "who": "If you supply Hong Kong jewellers:",
+    "text": "the three-year plan names three new overseas markets, and one is now filled."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a sales figure. The release publishes no revenue or target for the shop."
+   }
+  ],
+  "sections": [
+   {
+    "h": "One shop, one new market",
+    "p": [
+     {
+      "lead": "Stratford, not Oxford Street.",
+      "text": "The shop sits at Unit SU2037, Westfield Stratford City, next to the Olympic Park in east London."
+     },
+     {
+      "lead": "Opened on the tenth.",
+      "text": "Luk Fook gives 10 September 2026 as the opening date in its own release."
+     }
+    ]
+   },
+   {
+    "h": "The network is the context",
+    "p": [
+     {
+      "lead": "About 2,900 counters.",
+      "text": "The group reports around 2,900 points of sale across 14 countries and regions."
+     },
+     {
+      "lead": "Six brands, one group.",
+      "text": "Lukfook Jewellery, 3DG Jewellery, Heirloom Fortune, Lukfook Joaillerie, Goldstyle and Love LUKFOOK JEWELLERY sit under it."
+     }
+    ]
+   },
+   {
+    "h": "A three-year plan is behind it",
+    "p": [
+     {
+      "lead": "Three markets named.",
+      "text": "Luk Fook says its three-year strategic plan set a goal of entering three new overseas markets."
+     },
+     {
+      "lead": "Listed since 1997.",
+      "text": "The company listed on the Hong Kong exchange's main board in May 1997 and opened its first shop in 1991."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Interim results",
+    "what": "Whether Luk Fook breaks out any overseas contribution."
+   },
+   {
+    "when": "Next opening",
+    "what": "Which of the remaining two overseas markets comes second."
+   },
+   {
+    "when": "Each quarter",
+    "what": "Whether the group's point-of-sale count moves off about 2,900."
+   }
+  ],
+  "depth": {
+   "reverse": "A second and third overseas market inside a year. One shop in one mall is a test; three markets filled would make the three-year plan the story rather than the address.",
+   "built": {
+    "title": "What a point of sale counts",
+    "text": "Luk Fook's network figure counts points of sale rather than owned shops. The group runs self-operated stores, licensed shops and counters inside department stores, and all three are inside the number. A licensed shop carries the brand without the group carrying the lease, so a point-of-sale count moves faster than a store-opening programme would suggest."
+   },
+   "method": "The release was read through ACN Newswire's English distribution, fetched directly, which carries the address, the opening date, the network figures and the executive line. Luk Fook's own investor-relations page for the release was not reached: a constructed address at lukfook.com returned a hard 404 and no further address was guessed, under the Address Rule. The Bureau's slate recorded this item as having zero English-language coverage anywhere. That is wrong and is corrected here: ACN Newswire distributed the release in English and at least three outlets carried it, which changes the item's time-lead but not its facts. What remains true is that the English-language jewelry trade press has not covered it. The executive line about the three-year plan runs to 21 words in the release and is therefore paraphrased here with attribution rather than quoted, under this paper's 15-word cap. No exchange rate and no sales figure is asserted: the release publishes neither. Archive test, both periods named: the archive carries Luk Fook in 37 files, every one of them a Hong Kong gold-counter or pricing-board reference, and a search for Stratford returns zero; this item covers a United Kingdom shop opening on 10 September 2026. Same company, no prior coverage of any UK store, so NEW.",
+   "prior": [
+    {
+     "date": "2026-09-12",
+     "slug": "chow-tai-fook-panda-bond-ten-billion",
+     "claim": "Chow Tai Fook filed to register RMB 10bn of panda bonds"
+    },
+    {
+     "date": "2026-09-05",
+     "slug": "an-international-member-in-hong-kong",
+     "claim": "Chow Tai Seng's Hong Kong arm joined the Shanghai Gold Exchange"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Lukfook Jewellery First Enters the UK Market with Grand Opening of New Shop in Westfield Stratford City, London, ACN Newswire",
+     "url": "https://itbusinessnet.com/2026/09/lukfook-jewellery-first-enters-the-uk-market-with-grand-opening-of-new-shop-in-westfield-stratford-city-london/",
+     "published": "2026-09-15T00:00:00Z"
+    }
+   ],
+   "corrections": []
+  },
+  "next": {
+   "slug": "chow-tai-fook-panda-bond-ten-billion",
+   "why": "The other Hong Kong jeweller raising money and moving this month, on a much larger scale."
+  },
+  "corrections": []
  }
 }

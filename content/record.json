@@ -1,10 +1,46 @@
 {
- "updated": "12 Sep 2026",
+ "updated": "15 Sep 2026",
  "intro": "Eight weeks of the trade, kept the way a ledger should be kept — dated, sourced, and in one place. New entries are added at the top each week; the quarter's running numbers live in the Almanac below.",
  "weeks": [
   {
-   "label": "This week - August 19 to September 12",
+   "label": "This week - August 19 to September 15",
    "entries": [
+    {
+     "d": "gold-metals",
+     "h": "Platinum sheds $44 to $1,748 as all four metals fall",
+     "t": "Platinum stands at $1,748.00 on Kitco's bid, $44 below Friday's final mark, a fall of 2.46% and the largest of the four.",
+     "s": "Kitco precious metals board, bid, read at press time 15 September 2026"
+    },
+    {
+     "d": "retail-tech",
+     "h": "Macy's raises full-year sales guidance by $125m at midpoint",
+     "t": "Macy's lifted full-year net sales guidance by $125m at the midpoint and its comparable sales range to 1.0% to 1.5%, from 0.5% to 1.2% in June.",
+     "s": "Macy's Q2 2026 results, Exhibit 99.1 to Form 8-K, 10 September 2026"
+    },
+    {
+     "d": "auctions",
+     "h": "Christie's estimates a David Morris ring at up to $2.6m",
+     "t": "A David Morris ring set with a 14.63-carat fancy orangey-pink diamond carries a high estimate of $2.6m at Christie's Geneva sale on 10 November.",
+     "s": "Christie's announcement as reported by Rapaport, 14 September 2026"
+    },
+    {
+     "d": "diamonds",
+     "h": "Amit Shah asks India to hold the whole lab-grown chain",
+     "t": "India's home minister asked the trade to hold every link of the lab-grown diamond business, from building the machines to opening showrooms abroad.",
+     "s": "ANI's report of the address, Mumbai, 13 September 2026"
+    },
+    {
+     "d": "retail-tech",
+     "h": "Signet signs the $125m repurchase with JPMorgan Chase",
+     "t": "Signet entered an accelerated share repurchase with JPMorgan Chase Bank on 10 September and received about 1,023,000 shares on 11 September.",
+     "s": "Signet Jewelers Limited, Form 8-K, 14 September 2026"
+    },
+    {
+     "d": "retail-tech",
+     "h": "Luk Fook opens its first UK shop at Westfield Stratford",
+     "t": "The Hong Kong jeweller opened its first United Kingdom shop at Westfield Stratford City in London on 10 September, taking its network to 14 countries and regions.",
+     "s": "Luk Fook Holdings release via ACN Newswire, 15 September 2026"
+    },
     {
      "d": "retail-tech",
      "h": "Chow Tai Fook files to register RMB 10bn of panda bonds",

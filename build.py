@@ -916,7 +916,7 @@ def prices_page():
 {omenu()}
 
 <section class="deskhero"><div class="wrap">
-  <div class="dh-no">The Price Desk · Natural · Updated {P['as_of']}</div>
+  <div class="dh-no">The Price Desk · Natural · Updated {P.get("date_label", P["as_of"])}</div>
   <h1 class="art-h" style="font-size:clamp(38px,5.6vw,80px);text-transform:uppercase;max-width:16ch">The Natural Diamond Price List<em style="font-family:var(--disp);font-style:normal;font-weight:400;color:var(--seal);text-transform:none;font-size:.34em;display:block;margin-top:16px;letter-spacing:-.01em">{P['kicker']}</em></h1>
   <p class="dh-dek" style="max-width:78ch">{P['standfirst']}</p>
 </div></section>
@@ -969,7 +969,7 @@ def prices_page():
 </div></section>
 
 <section class="burin"><div class="wrap">
-  {px_sec("Six counters", "the same certificate, six prices")}
+  {px_sec("Five counters", "the same certificate, five prices")}
   {rt_tbl}
 </div></section>
 
@@ -1205,7 +1205,7 @@ def lx_range(rows):
     pw = W - L - R
     Hh = T + len(rows) * (rowh + gapy) + 6
     mx = 3400.0
-    keys = [("ritani", "Ritani"), ("clean", "Clean Origin"), ("clarity", "Clarity"), ("be", "Brilliant Earth")]
+    keys = [("ritani", "Ritani"), ("clean", "Grown Brilliance"), ("clarity", "With Clarity"), ("be", "Brilliant Earth")]
 
     def x(v):
         return L + v / mx * pw
@@ -1327,7 +1327,7 @@ def lab_prices_page():
 {omenu()}
 
 <section class="deskhero"><div class="wrap">
-  <div class="dh-no">The Price Desk · Lab-grown · Updated {P['as_of']}</div>
+  <div class="dh-no">The Price Desk · Lab-grown · Updated {P.get("date_label", P["as_of"])}</div>
   <h1 class="art-h" style="font-size:clamp(36px,5.2vw,74px);text-transform:uppercase;max-width:17ch">The Lab-Grown Diamond Price List<em style="font-family:var(--disp);font-style:normal;font-weight:400;color:var(--seal);text-transform:none;font-size:.32em;display:block;margin-top:14px;letter-spacing:-.01em">{P['kicker']}</em></h1>
   <p class="dh-dek" style="max-width:82ch">{P['standfirst']}</p>
 </div></section>

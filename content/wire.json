@@ -1,34 +1,41 @@
 {
- "date_line": "Saturday, September 12, 2026",
- "edition": "Vol. I - No. 061",
+ "date_line": "Tuesday, September 15, 2026",
+ "edition": "Vol. I - No. 062",
  "items": [
   {
-   "b": "CHOW TAI FOOK FILES TO REGISTER UP TO RMB 10 BILLION OF PANDA BONDS",
-   "t": "Chow Tai Fook Jewellery Group has applied to register up to RMB 10 billion of debt financing instruments with China's interbank market dealers' association, to be issued in tranches within two years of acceptance."
+   "b": "PLATINUM SHEDS $44 TO $1,748 AS ALL FOUR METALS FALL",
+   "t": "Gold gave back $80.40 an ounce to $4,267.30 and silver 2.24%, measured against Friday's final marks on Kitco's bid. Platinum's 2.46% is the largest of the four falls."
   },
   {
-   "b": "MORPHY ESTIMATES AN OSCAR HEYMAN NECKLACE AT 40.3% OF ITS 2014 INVOICE",
-   "t": "A $150,000 to $250,000 estimate against the $620,000 invoice in the lot's own box, in a 357-lot sale at Denver, Pennsylvania on 24 September."
+   "b": "MACY'S RAISES FULL-YEAR SALES GUIDANCE BY $125M AT MIDPOINT",
+   "t": "Fine jewelry was one of five categories named as outperforming in a quarter when comparable sales rose 2.7% and Bloomingdale's rose 11.3%."
   },
   {
-   "b": "ROLEX HOLDS ABOUT 31% OF CHRONO24 DOLLAR SALES, OMEGA ABOUT 11%",
-   "t": "Buyers under 30 have cut the share of their spending devoted to Rolex by about 30% since 2022, on the marketplace's own research."
+   "b": "CHRISTIE'S ESTIMATES A DAVID MORRIS RING AT UP TO $2.6M",
+   "t": "A 14.63-carat fancy orangey-pink diamond leads nearly 300 lots from one private collection, sold in Geneva on 10 November and online from 5 to 17 November."
   },
   {
-   "b": "PALLADIUM SHEDS $97 TO $1,280 SINCE THE 7 SEPTEMBER MARK",
-   "t": "Gold, silver and platinum each lost between 1.27% and 1.87% over the same four sessions on Kitco's bid."
+   "b": "AMIT SHAH ASKS INDIA TO HOLD THE WHOLE LAB-GROWN CHAIN",
+   "t": "India's home minister named machines, production, jewellery, brands and showrooms in Mumbai on 13 September, and put 2025 gems and jewellery exports at Rs 2.44 lakh crore."
+  },
+  {
+   "b": "SIGNET SIGNS THE $125M REPURCHASE WITH JPMORGAN CHASE",
+   "t": "The accelerated agreement is dated 10 September and an initial 1,023,000 shares landed the next day. About $575m of authorisation remains under the 2017 programme."
+  },
+  {
+   "b": "LUK FOOK OPENS ITS FIRST UK SHOP AT WESTFIELD STRATFORD",
+   "t": "The Hong Kong group counts about 2,900 points of sale in 14 countries and regions after the London opening on 10 September."
   }
  ],
- "tape_ts": "12 Sep 2026 - Kitco's bid, re-read by the Editor at press time and unchanged from the 05:00 tape, so the 05:00 marks stand and print here: gold 4,347.70, silver 64.372, platinum 1,792.00, palladium 1,280.00. The board carries its own 17:00 timestamp of 11 September on all four metals, which is the last print of the week; changes shown are against the 11 September morning mark in Carat Capital's own record, not Kitco's change field.",
+ "tape_ts": "15 Sep 2026 - Kitco's bid, re-read by the Editor at press time. All four metals had moved off the 05:00 tape, so the fresher reading was written back to Carat Capital's dated tape and to latest.json and prints here: gold 4,267.30, silver 62.93, platinum 1,748.00, palladium 1,266.00. The board carries its own timestamp of Sep 15, 2026 05:59 New York on all four. Changes shown are against the 11 September final marks in Carat Capital's own record, three calendar days back, not Kitco's change field.",
  "tape": [
   {
    "name": "Gold / oz",
    "code": "XAU",
-   "px": "4,347.70",
-   "chg": "▲ +0.0092%",
-   "dir": "up",
+   "px": "4,267.30",
+   "chg": "▼ −1.85%",
+   "dir": "down",
    "pts": [
-    19,
     19,
     19,
     12,
@@ -37,7 +44,8 @@
     16,
     19,
     13,
-    11
+    11,
+    6
    ]
   },
   {
@@ -81,11 +89,10 @@
   {
    "name": "Platinum / oz",
    "code": "XPT",
-   "px": "1,792.00",
-   "chg": "▼ −0.2782%",
+   "px": "1,748.00",
+   "chg": "▼ −2.46%",
    "dir": "down",
    "pts": [
-    24,
     24,
     20,
     14,
@@ -94,17 +101,17 @@
     12,
     12,
     12,
-    10
+    10,
+    5
    ]
   },
   {
    "name": "Silver / oz",
    "code": "XAG",
-   "px": "64.372",
-   "chg": "▲ +0.6756%",
-   "dir": "up",
+   "px": "62.93",
+   "chg": "▼ −2.24%",
+   "dir": "down",
    "pts": [
-    18,
     18,
     20,
     11,
@@ -113,7 +120,8 @@
     13,
     16,
     14,
-    12
+    12,
+    5
    ]
   }
  ]
