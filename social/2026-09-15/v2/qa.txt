@@ -1,0 +1,5 @@
+theme: emerald-platinum
+POST 1 david-morris-ring-leads-geneva: 6 slides, words/slide [19, 31, 22, 19, 42, 13] (total 146), largest 188,680 bytes
+   word law: clean
+POST 2 eighty-off-gold-every-mark-lower: 4 slides, words/slide [19, 30, 24, 13] (total 86), largest 231,950 bytes
+   word law: clean
