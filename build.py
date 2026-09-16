@@ -223,6 +223,33 @@ DESKS = [
    ]),
 ]
 
+# ── the desk-furniture price lock (corrected 2026-09-16) ──────────────────────
+# These three headline stats used to be literals typed into the list above. Two
+# of them froze: the diamonds tile carried $5,232 under the label "this week"
+# for a month after the price list stopped carrying that number, and the gold
+# tile carried a 13 July close on a paper that marks gold every morning. A
+# figure that claims currency has to be read from the file that owns it, so the
+# stat now comes off content/prices.json, content/lab-prices.json and the tape,
+# and it prints the date of the reading beside it. Editing the literal is inert.
+def _lock_desk_stats():
+    by = {d["slug"]: d for d in DESKS}
+    _ph = PRICES.get("headline") or {}
+    if _ph.get("trade_ct") and by.get("diamonds"):
+        d = by["diamonds"]
+        _td = _iso_date(_ph.get("trade_date",""))
+        lab = "1ct RBC · natural, trade, %s" % " ".join(_td.split()[:2])
+        d["stats"][0] = ("$%s" % f'{_ph["trade_ct"]:,}', lab)
+    _xau = _tape_code("XAU")
+    if _xau and by.get("gold-metals"):
+        ts = WIRE.get("tape_ts") or ""
+        stamp = _re.split(r"[,.;]| \u00b7 ", ts.strip(), 1)[0].strip() if ts else ""
+        by["gold-metals"]["stats"][0] = (
+            "$%s" % _xau["px"], "Gold/oz · %s" % (stamp or "on the tape"))
+    _lh = LAB.get("headline") or {}
+    if _lh.get("trade_mid") and by.get("retail-tech"):
+        by["retail-tech"]["stats"][0] = (
+            "$%s" % f'{_lh["trade_mid"]:,}', "Lab-grown 1ct, wholesale midpoint")
+
 MOTIFS = dict(
  diamond="""<g stroke="#16130E" fill="none"><path d="M210 40 L300 96 L210 186 L120 96 Z" stroke-width="1.6" stroke-linejoin="round"/><path d="M120 96 H300 M210 40 L168 96 L210 186 L252 96 Z" stroke-width=".8"/><g stroke-width=".4" opacity=".6"><path d="M135 86 L168 52 M147 92 L186 46 M192 44 L150 96"/><path d="M285 86 L252 52 M273 92 L234 46 M228 44 L270 96"/></g><circle cx="210" cy="96" r="3" fill="#BE3319" stroke="none"/></g>""",
  ingot="""<g stroke="#16130E" fill="none"><path d="M140 128 h84 l22 40 H118 Z" stroke-width="1.6" stroke-linejoin="round"/><path d="M172 68 h84 l22 40 h-128 Z" stroke-width="1.6" stroke-linejoin="round"/><g stroke-width=".4" opacity=".6"><path d="M130 150 h110 M126 158 h118 M182 84 h86 M178 92 h94"/></g><text x="210" y="152" text-anchor="middle" font-family="'IBM Plex Mono',monospace" font-size="12" letter-spacing="2" fill="#16130E" stroke="none">999.9</text></g>""",
@@ -852,7 +879,11 @@ def prices_page():
     weight_tbl = px_table(
         ["Weight", "Trade / ct", "Trade, stone", "Retail / ct", "Retail, stone", "Spread", "Basis"],
         wrows,
-        src="IDEX price drivers 30 July 2026 · RAPI 1 July 2026 · six-retailer median 30 July 2026")
+        src="IDEX price drivers %s · RAPI %s · %s %s" % (
+            _iso_date(P["headline"].get("trade_date","")),
+            _iso_date(P["headline"].get("rapi_date","")),
+            P["headline"].get("retail_label","retail median"),
+            _iso_date(P["headline"].get("retail_as_of",""))))
 
     dual = P["dual_basis"]
     dual_tbl = px_table(
@@ -3490,6 +3521,8 @@ def sitemap(pages):
     def _loc(p): return BASE_URL if p == "index.html" else cu(f"{BASE_URL}/{p}")
     urls = "".join(f"<url><loc>{_loc(p)}</loc></url>" for p in pages)
     return f'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{urls}</urlset>'
+
+_lock_desk_stats()
 
 out = ROOT
 (out/"index.html").write_text(index_page())

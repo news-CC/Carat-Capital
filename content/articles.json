@@ -3,7 +3,7 @@
   "slug": "platinum-forty-four-off",
   "desk": "gold-metals",
   "date": "2026-09-15",
-  "lead": true,
+  "lead": false,
   "kicker": "Metals tape",
   "byline": "The Prices & Markets Desk",
   "tags": [
@@ -158,7 +158,7 @@
    "The agreement is signed. Signet entered an accelerated share repurchase with JPMorgan Chase Bank on 10 September and received about 1,023,000 shares on 11 September.",
    "JPMorgan is the counterparty. Signet's filing names JPMorgan Chase Bank, National Association as counterparty to the agreement. The master and supplemental confirmations both carry the date 10 September 2026.",
    "The shares arrive in two parts. Signet received approximately 1,023,000 common shares on 11 September as the initial delivery. Final settlement is expected between 25 September and 2 December 2026.",
-   "The authorisation is not exhausted. About $575m of repurchase authorisation remains under Signet's 2017 share repurchase programme. The filing publishes no average price, and the initial delivery is not the final share count.",
+   "The authorisation is not exhausted. About $575m of repurchase authorisation remains under Signet's 2017 share repurchase programme upon completion of this agreement, on the filing's own wording. The filing publishes no average price, and the initial delivery is not the final share count.",
    "The desk's view: If you hold Signet stock: about $575m of authorisation remains under the 2017 programme. If you track the share count: 1,023,000 shares are already delivered and settlement runs to 2 December. What this is not: a new programme. Signet named the $125m at its second-quarter results."
   ],
   "minutes": 2
@@ -256,7 +256,8 @@
    "The counts do not reconcile. Morphy publishes 850 diamonds at a combined weight of at least 180.15 carats. The four itemised counts sum to 723. The three colourless groups total 18.99 carats, leaving at least 161.16 for the 571 fancy-colour stones.",
    "The desk's view: If you appraise signed American work: the ceiling here is 40.3% of the 2014 retail invoice, not a premium to it. If you consign a boxed lot: the original invoice travels with the piece and sets the comparison a bidder makes. What this is not: a result. The hammer is 12 days out and estimates are not prices."
   ],
-  "minutes": 2
+  "minutes": 2,
+  "lead": false
  },
  {
   "slug": "rolex-thirty-one-percent-chrono24",
@@ -284,7 +285,8 @@
    "Under-30 buyers move away. Buyers under 30 have reduced the share of their spending devoted to Rolex by about 30% since 2022, the research indicates. The same research points them toward dressier models and a wider set of challenger brands.",
    "The desk's view: If you buy secondary stock: one dollar in three on the platform is Rolex, and the Datejust is 28% of that. If you stock for buyers under 30: the pullback is from Rolex, not from watches, and it runs to challenger brands. What this is not: a fall in Rolex sales. These are shares of one platform's volume."
   ],
-  "minutes": 2
+  "minutes": 2,
+  "lead": false
  },
  {
   "slug": "palladium-ninety-seven-off",
@@ -315,7 +317,8 @@
    "The last print is Friday's. Kitco's board carries a 17:00 timestamp of 11 September on gold, silver, platinum and palladium alike. Kitco shows palladium bid at $1,280 and asked at $1,320, a spread of $40.",
    "The desk's view: If you price palladium settings: the week's reference is $1,280 on Kitco's bid, not the $1,377 of Monday. If you hedge a metals book: palladium moved 3.8 times as far as silver, the next largest fall. What this is not: a Friday collapse. The fall accumulated across four sessions in the record."
   ],
-  "minutes": 2
+  "minutes": 2,
+  "lead": false
  },
  {
   "slug": "gemfields-sells-all-forty-four",
@@ -346,7 +349,8 @@
    "Jaipur replaced the London room. Customers viewed the lots in person in Jaipur, then bid through a sealed-bid online platform. Gemfields has historically run its emerald auctions from London. Bidding companies numbered 63, against 55 at the last commercial sale. That is the widest field of the five in the release's own table.",
    "The desk's view: If you cut commercial emerald: your rough cost base rose 30.3% since the last sale. Re-price finished goods against $9.72, not $7.46. If you buy at auction: 63 companies bid, against 55 last time. Expect a tighter room. What this is not: a read on fine emerald. That grade sells separately and last cleared at $146.08."
   ],
-  "minutes": 2
+  "minutes": 2,
+  "lead": false
  },
  {
   "slug": "silver-sheds-two-nineteen",
@@ -377,7 +381,8 @@
    "The ratio widened to 68.0. It takes 68.0 ounces of silver to buy an ounce of gold, against 66.4 at the 9 September marks. Silver fell further than gold in percentage terms.",
    "The desk's view: If you buy silver for the bench: the metal is $2.19 an ounce cheaper than at the 9 September mark. Re-quote. If you scrap palladium: bid and ask sit $40.00 apart, 3.10% of the bid. What this is not: a Friday sell-off. Kitco's own session runs higher on all four."
   ],
-  "minutes": 2
+  "minutes": 2,
+  "lead": false
  },
  {
   "slug": "bulgari-sapphire-nine-five-million",
@@ -404,7 +409,8 @@
    "No published low on the lead. The Bulgari ring is reported with a high estimate and no published low, while the other nine top lots carry ranges. Those nine average 49.9% wider at the high than at the low.",
    "The desk's view: If you estimate Kashmir sapphire: the reference to carry is HKD 963,500 a carat at the high, not the HKD 9.5 million headline. If you consign coloured stones to Hong Kong: colour takes seven of the ten top estimates in this book. What this is not: a result. These are catalogue estimates, and the sale is 18 days out."
   ],
-  "minutes": 2
+  "minutes": 2,
+  "lead": false
  },
  {
   "slug": "urwerk-gold-ur-150-twenty-five",
@@ -439,7 +445,8 @@
    "The case is the story. The 2N yellow gold case middle is satin-finished and microblasted, with concentric grooves, over a sandblasted Grade 5 titanium back. The satellite hour display is unchanged. At 42.5mm wide the Golden Scorpion matches the 2024 case within half a millimetre, so the change is material and run size, not dimension.",
    "The desk's view: If you retail independents: the gold premium here is 19.3% over the titanium list, on half the production. If you value a UR-150: the 2024 Titan at CHF 88,000 is the comparable, not the gold. What this is not: a US price this desk has verified at a dealer. It is a trade-press figure in a different currency from the Swiss list."
   ],
-  "minutes": 2
+  "minutes": 2,
+  "lead": false
  },
  {
   "slug": "kay-cuts-the-assortment",
@@ -470,7 +477,8 @@
    "Stores and packaging wait for 2027. The campaign is live on the website, in advertising and on social from this week. Store redesign and packaging follow in 2027. Kay is also piloting open-sell display for Rocksbox pieces, which Signet bought in 2021, taking rings, earrings and necklaces out from under glass.",
    "The desk's view: If you supply Kay: a fifth of the range has already gone, and custom and men's are where the space went. If you compete with Kay locally: the store refit is a 2027 event, not a this-quarter one. What this is not: a store-closing programme. The count is Signet's to move, and Kay's 1,003 is unchanged in these reports."
   ],
-  "minutes": 2
+  "minutes": 2,
+  "lead": false
  },
  {
   "slug": "seventy-eight-thousand-at-bonhams",
@@ -501,7 +509,8 @@
    "Branded suites price on parts. The room was firm. The weakness sat in one lot, not in the session. Bulgari, Hermes and Chopard pieces also found buyers, Rapaport reports. The rate implied. The paired Hong Kong dollar and US dollar figures imply a rate of 7.8388 to the dollar across both the result and the estimate.",
    "The desk's view: If you consign a branded suite: price the reserve off the parts. The set made 51.1% of its high estimate. If you buy at Hong Kong online sales: the band held. Three lots closed at HKD 179,200 each, all inside estimate. What this is not: a read on rubies or emeralds. One lot, one house, one online session."
   ],
-  "minutes": 2
+  "minutes": 2,
+  "lead": false
  },
  {
   "slug": "cibjo-backs-synthetic-alone",
@@ -537,7 +546,8 @@
    "The market splits by country. Two words, two maps. France and Russia allow only synthetic, while the United States and India use lab-grown or laboratory-grown, CIBJO's release says.",
    "The desk's view: If you print tags outside the US: check your supplier's wording. CIBJO now recommends synthetic alone. If you sell in America: nothing changes. The FTC still allows three terms, and reopens its guides in 2028. What this is not: a ban. Cavalieri says each country follows its own terminology."
   ],
-  "minutes": 2
+  "minutes": 2,
+  "lead": false
  },
  {
   "slug": "six-dollars-each-way",
@@ -571,7 +581,8 @@
    "Palladium carries the widest spread. Forty dollars asked. Palladium is bid $1,371.00 against $1,411.00 asked, a spread of 2.9176% of the bid, the pattern carried since 31 August. Palladium ranged $71.00. The metal traded between $1,361.00 and $1,432.00, the widest range of the four in dollar terms.",
    "The desk's view: If you cost platinum settings: re-quote. The metal is $14.00 dearer than this paper's 7 September mark. If you buy scrap over the counter: gold moved the other way, to $4,399.10, $4.80 under the 7 September mark. What this is not: a rotation. One session, and no source read named a cause."
   ],
-  "minutes": 2
+  "minutes": 2,
+  "lead": false
  },
  {
   "slug": "the-bar-and-the-token",
@@ -602,7 +613,8 @@
    "Secondary trading has not opened. Issue first, market later. DMCC says regulated secondary-market trading is scheduled to open after the initial issuance, subject to regulatory and platform requirements. The bar predates the token. It was unveiled at DMCC's Dubai Precious Metals Conference in November 2025, after Guinness World Records recognised it. The token is the new part.",
    "The desk's view: If you trade Dubai bullion: watch the venue, not the bar. Secondary trading opens after the issue. If you price silver stock: nothing moves. One bar, 63,369 ounces, sits in a vault. What this is not: new silver supply. The metal is locked in custody at Brink's."
   ],
-  "minutes": 2
+  "minutes": 2,
+  "lead": false
  },
  {
   "slug": "three-words-three-tests",
@@ -632,7 +644,8 @@
    "It binds nobody by itself. Guidance, not a standard. CIBJO presented the Blue List as a reference guide to terminology that can be used, and alternatively not used, in responsible jewellery supply chains. First edition. It was presented on the congress's final day in Vicenza, alongside the confederation's decision on what to call a made stone.",
    "The desk's view: If you write product copy: check the ladder. Ethical now carries two tests, responsible one. If you audit a supplier: responsible asks only for recognised standards, so name which ones. What this is not: a certification. CIBJO calls the Blue List a guidance document."
   ],
-  "minutes": 2
+  "minutes": 2,
+  "lead": false
  },
  {
   "slug": "a-trillion-and-the-jewelry-case",
@@ -667,7 +680,8 @@
     "title": "US Holiday Spending Growth to Outpace Last Year's: Bain - Rapaport, 6 September 2026",
     "url": "https://rapaport.com/news/us-holiday-spending-growth-to-outpace-last-years-bain/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "two-thousand-stones-a-day",
@@ -694,7 +708,8 @@
     "title": "HRD Antwerp Opens Expanded Lab in India - Rapaport, 6 September 2026, 14:15 UTC",
     "url": "https://rapaport.com/news/hrd-antwerp-opens-expanded-lab-in-india/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "the-index-turns-daily",
@@ -724,7 +739,8 @@
     "title": "Diamond Price Recovery Broadens Further in August - Rapaport, 2 September 2026",
     "url": "https://rapaport.com/news/diamond-price-recovery-broadens-further-in-august/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "twenty-five-ten-off-gold",
@@ -754,7 +770,8 @@
     "title": "Gold price - Business Insider Markets, read 7 September 2026",
     "url": "https://markets.businessinsider.com/commodities/gold-price"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "twenty-million-on-two-rubies",
@@ -785,7 +802,8 @@
     "title": "Hong Kong's jewellery auctions hold strong as the 2026 season builds - South China Morning Post",
     "url": "https://www.scmp.com/magazines/style/luxury/jewellery/article/3354220/hong-kongs-jewellery-auctions-hold-strong-2026-season-builds"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "de-wever-goes-to-mumbai",
@@ -816,7 +834,8 @@
     "title": "Belgian Prime Minister H.E. Bart De Wever Makes First Visit to Bharat Diamond Bourse - GJEPC, 4 September 2026",
     "url": "https://www.gjepc.org/news_detail.php?news=belgian-prime-minister-h-e-bart-de-wever-makes-historic-first-visit-to-bharat-diamond-bourse-1"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "penny-gives-cibjo-eight-points",
@@ -851,7 +870,8 @@
     "title": "Anglo Said to Be in Talks to Sell De Beers for About $1 Billion - Bloomberg, 29 July 2026",
     "url": "https://www.bloomberg.com/news/articles/2026-07-29/anglo-said-to-be-in-talks-to-sell-de-beers-for-about-1-billion"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "five-up-eight-down-in-august",
@@ -878,7 +898,8 @@
     "title": "August Jewelry Sales Rise 5%, Driven by Higher Ticket Values - JCK, 3 September 2026",
     "url": "https://www.jckonline.com/editorial-article/august-jewelry-sales-up-5-percent/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "fifty-five-thousand-in-california",
@@ -905,7 +926,8 @@
     "title": "Sapphire-and-Diamond Necklace to Sparkle at Bonhams Auction - Rapaport, 2 September 2026",
     "url": "https://rapaport.com/news/sapphire-and-diamond-necklace-to-sparkle-at-bonhams-auction/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "four-one-offs-to-phillips",
@@ -936,7 +958,8 @@
     "title": "Rolex Unique Daytona Set 'Four Seasons' to be Sold for Charity - SJX Watches, 3 September 2026",
     "url": "https://watchesbysjx.com/2026/09/rolex-daytona-four-seasons-charity-auction.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "an-international-member-in-hong-kong",
@@ -967,7 +990,8 @@
     "title": "Carat Capital, RMB 3.641 billion, down 20.79%: Chow Tai Seng's margin rose anyway (1 September 2026)",
     "url": "https://caratcapital.org/a-three-six-four-one-and-thirty-six-ninety-five.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "twenty-three-nine-three-two-ounces",
@@ -998,7 +1022,8 @@
     "title": "Carat Capital, The Perth Mint sold 486,043 ounces of silver in July (17 August 2026)",
     "url": "https://caratcapital.org/a-four-eighty-six-thousand-ounces.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "over-a-billion-at-lugano",
@@ -1033,7 +1058,8 @@
     "title": "SEC Suit Targets Former Lugano Diamonds Founder, CEO - JCK, 4 September 2026",
     "url": "https://www.jckonline.com/editorial-article/sec-suit-lugano-diamonds-ceo/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "twenty-one-nine-million-at-movado",
@@ -1060,7 +1086,8 @@
     "title": "Movado Group, Inc. Form 10-Q for the quarterly period ended 31 July 2026 - SEC EDGAR, filed 26 August 2026",
     "url": "https://www.sec.gov/Archives/edgar/data/72573/000119312526366101/mov-20260731.htm"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "seventeen-weeks-into-the-year",
@@ -1087,7 +1114,8 @@
     "title": "Watches of Switzerland Group PLC - AGM Trading Update, RNS, 3 September 2026",
     "url": "https://www.investegate.co.uk/announcement/rns/watches-of-switzerland-group--wosg/agm-trading-update/9752837"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "thirty-nine-percent-at-christies",
@@ -1122,7 +1150,8 @@
     "title": "Christie's Names Remi Guillemin Global Head of Watches Following Strong Sales in U.S., Asia, Europe - WWD, 3 September 2026",
     "url": "https://wwd.com/business-news/human-resources/christies-remi-guillemin-global-head-watches-strong-sales-1239196630/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "forty-six-fifty-one-off-indian-gold",
@@ -1153,7 +1182,8 @@
     "title": "चांदी 2 दिन में ₹8,803, सोना ₹4,651 सस्ता - Dainik Bhaskar, 2 September 2026, 12:23 IST, citing IBJA",
     "url": "https://www.bhaskar.com/g/business/news/gold-silver-price-fall-india-pm-modi-appeal-market-update-138906693.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "half-a-percent-after-fifteen-months",
@@ -1192,7 +1222,8 @@
     "title": "Carat Capital, Alrosa books the loss, 6 August 2026",
     "url": "https://caratcapital.org/a-alrosa-books-the-loss.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "one-nineteen-thirty-back-on-gold",
@@ -1227,7 +1258,8 @@
     "title": "Carat Capital, Palladium's seven-entry hold ends at $1,381.00, 28 August 2026",
     "url": "https://caratcapital.org/a-thirteen-eighty-one-after-nine-sessions.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "sixty-of-the-ninety-hours",
@@ -1262,7 +1294,8 @@
     "title": "CaratRadar lab-grown diamond prices",
     "url": "https://caratradar.com/diamond-prices/lab-grown-diamonds/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "two-ninety-seven-off-gold",
@@ -1301,7 +1334,8 @@
     "title": "Carat Capital, Gold lost $150.10 and silver 5.85%: the worst session this tape has recorded (29 August 2026)",
     "url": "https://caratcapital.org/a-minus-one-fifty-on-gold.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "six-seventy-five-and-a-rising-index",
@@ -1336,7 +1370,8 @@
     "title": "Carat Capital lab-grown price list, CVD and HPHT wholesale bands, as of 30 July 2026",
     "url": "https://caratcapital.org/lab-prices.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "fifty-nine-thousand-in-penzance",
@@ -1376,7 +1411,8 @@
     "title": "Auction results, jewellery - Bonhams, read by this desk 2 September 2026",
     "url": "https://www.bonhams.com/auctions/results/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "two-ceos-and-a-president-at-kering",
@@ -1415,7 +1451,8 @@
     "title": "Carat Capital, Boucheron hits a record as Kering's jewelry runs 14% ahead (29 July 2026)",
     "url": "https://caratcapital.org/a-boucheron-carries-kering.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "twenty-four-nine-hundred-in-rubber",
@@ -1450,7 +1487,8 @@
     "title": "Carat Capital, 2.4% of units, 36.2% of value: the gold watch inside a 9.6% July (20 August 2026)",
     "url": "https://caratcapital.org/a-two-point-four-for-thirty-six.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "sixteen-hundred-feet-at-south-coast-plaza",
@@ -1485,7 +1523,8 @@
     "title": "Jessica McCormack Opens at South Coast Plaza - Orange Coast",
     "url": "https://orangecoast.com/style-and-home/style/jessica-mccormack-opens-at-south-coast-plaza/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "back-at-nineteen-august",
@@ -1528,7 +1567,8 @@
     "title": "Carat Capital price tape, newsroom/tape, daily marks 5 August to 1 September 2026",
     "url": "https://caratcapital.org/indices.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "six-eighty-seven-in-one-step",
@@ -1563,7 +1603,8 @@
     "title": "Rapaport Diamond Price Index",
     "url": "https://rapaport.com/diamond-price-index/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "three-six-four-one-and-thirty-six-ninety-five",
@@ -1598,7 +1639,8 @@
     "title": "Carat Capital, Profit up 139% on revenue up 17%, and 47 shops closed (29 August 2026)",
     "url": "https://caratcapital.org/a-one-thirty-nine-on-seventeen.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "polished-up-seventeen-rough-down-twenty-six",
@@ -1629,7 +1671,8 @@
     "title": "Antwerp Diamond Industry Data — Antwerp World Diamond Centre",
     "url": "https://www.awdc.be/antwerp-diamond-industry-data"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "seventy-six-nine-and-three-percent",
@@ -1664,7 +1707,8 @@
     "title": "Carat Capital, Dubai's $41.7 billion year: the trade's center of gravity moves, 15 July 2026",
     "url": "https://caratcapital.org/a-dubai-41-billion-year"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "two-point-one-to-ten",
@@ -1703,7 +1747,8 @@
     "title": "Carat Capital, Michael Hill adds 2%, and closes eight stores to do it, 3 August 2026",
     "url": "https://caratcapital.org/a-michael-hill-adds-two"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "four-point-three-from-2015",
@@ -1743,7 +1788,8 @@
     "title": "Here's What Thieves Stole From the Lalique Museum - National Jeweler, 8 July 2026",
     "url": "https://nationaljeweler.com/articles/15112-here-s-what-thieves-stole-from-the-lalique-museum"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "three-ninety-two-districts",
@@ -1778,7 +1824,8 @@
     "title": "Gold hallmarking now mandatory in more districts as Centre notifies 2026 amendment — Zee Business",
     "url": "https://www.zeebiz.com/markets/commodities/news-gold-hallmarking-now-mandatory-in-more-districts-as-centre-notifies-2026-amendment-391527"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "spread-wider-than-the-fall",
@@ -1813,7 +1860,8 @@
     "title": "Carat Capital, India's customs base for gold is $1,500 per 10 grams, 30 August 2026",
     "url": "https://caratcapital.org/a-fifteen-hundred-for-ten-grams"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "fifteen-hundred-for-ten-grams",
@@ -1853,7 +1901,8 @@
     "title": "Kitco precious metals board, re-read at press time 30 August 2026",
     "url": "https://www.kitco.com/price/precious-metals"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "two-counters-one-friday",
@@ -1893,7 +1942,8 @@
     "title": "Xe currency converter, USD/CNY read 04:12 UTC 30 August 2026",
     "url": "https://www.xe.com/currencyconverter/convert/?Amount=1&From=USD&To=CNY"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "pigeon-blood-issued-in-jaipur",
@@ -1925,7 +1975,8 @@
     "title": "Colour Terms: Pigeon Blood Red and Royal Blue - SSEF",
     "url": "https://www.ssef.ch/colour-terms/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "eight-seventy-five-out-of-hong-kong",
@@ -1960,7 +2011,8 @@
     "title": "Carat Capital, Rolex, rejected: 38% fail one marketplace's inspection, 19 July 2026",
     "url": "https://caratcapital.org/a-the-thirty-eight-percent-problem"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "minus-one-fifty-on-gold",
@@ -2005,7 +2057,8 @@
     "title": "Carat Capital daily tape, 5-29 August 2026 (23 sessions, this paper's own marks of record)",
     "url": "https://caratcapital.org/the-record.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "one-more-year-for-the-grandfathered",
@@ -2041,7 +2094,8 @@
     "title": "$151.60 a carat: Antwerp's thinnest rough month in five years - Carat Capital (28 August 2026)",
     "url": "https://caratcapital.org/a-one-fifty-one-sixty-a-carat.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "a-fourth-source-for-paraiba",
@@ -2081,7 +2135,8 @@
     "title": "Two speeds in colour: $906,250 for one sapphire, demand still 30% down - Carat Capital (30 July 2026)",
     "url": "https://caratcapital.org/a-color-runs-two-speeds.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "one-thirty-nine-on-seventeen",
@@ -2116,7 +2171,8 @@
     "title": "Gold, Silver, Platinum & Palladium spot prices - Kitco (read 29 August 2026; board carries Friday's 13:00 ET print)",
     "url": "https://www.kitco.com/price/precious-metals"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "one-number-in-three-cities",
@@ -2152,7 +2208,8 @@
     "title": "Rs 5,000 now buys 0.294 grams of gold at an Ahmedabad counter - Carat Capital (28 August 2026)",
     "url": "https://caratcapital.org/a-point-two-nine-of-a-gram.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "one-fifty-one-sixty-a-carat",
@@ -2184,7 +2241,8 @@
     "title": "Carat Capital, The 4.2 percent month: small stones lead the market out of the hole, 14 July 2026",
     "url": "https://caratcapital.org/a-small-stones-lead-the-turn.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "twenty-five-forty-six-to-new-zealand",
@@ -2215,7 +2273,8 @@
     "title": "Carat Capital, $374 million to Australia: India's jewellery exports there rose 16%, 24 August 2026",
     "url": "https://caratcapital.org/a-three-seventy-four-to-australia.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "thirteen-eighty-one-after-nine-sessions",
@@ -2260,7 +2319,8 @@
     "title": "Carat Capital, The mark that left the range, 27 August 2026",
     "url": "https://caratcapital.org/a-the-mark-that-left-the-range.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "thirteen-eighty-seven-at-the-counter",
@@ -2295,7 +2355,8 @@
     "title": "Carat Capital, Ten Chinese gold counters priced within seven yuan of each other, 27 August 2026",
     "url": "https://caratcapital.org/a-ten-counters-seven-yuan.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "ten-thousand-four-sixty-three-crore",
@@ -2326,7 +2387,8 @@
     "title": "Gold import duty cut under govt review as smuggling concerns rise, Free Press Journal citing Moneycontrol, 26 August 2026",
     "url": "https://www.freepressjournal.in/business/gold-import-duty-cut-under-govt-review-as-smuggling-concerns-rise-report"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "point-two-nine-of-a-gram",
@@ -2353,7 +2415,8 @@
     "title": "Raksha Bandhan brings a sparkle to the gold and silver market, Diamond City, 27 August 2026",
     "url": "https://www.diamondcitynews.com/raksha-bandhan-brings-a-sparkle-to-the-gold-and-silver-market/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "eighty-eight-and-the-payout",
@@ -2392,7 +2455,8 @@
     "title": "Laopu Gold shares fall 23.76% on the 28 July profit alert, 21jingji, 29 July 2026",
     "url": "https://m.21jingji.com/article/20260729/2cb522d6fe32b9abef9c2d4edce1d1d2.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "the-same-figure-the-other-way",
@@ -2428,7 +2492,8 @@
     "title": "Carat Capital, 'Fossil's sales fell 4.9% and the watch line fell 1.5%', 26 August 2026",
     "url": "https://caratcapital.org/a-watches-were-the-line-that-held.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "a-chart-of-the-rough-trade",
@@ -2464,7 +2529,8 @@
     "title": "GJEPC news index",
     "url": "https://www.gjepc.org/news.php"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "ten-counters-seven-yuan",
@@ -2503,7 +2569,8 @@
     "title": "Daily gold jewellery price table, huangjinjiage.cn",
     "url": "http://www.huangjinjiage.cn/11909.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "the-mark-that-left-the-range",
@@ -2546,7 +2613,8 @@
     "title": "Carat Capital wire tape, 27 August 2026",
     "url": "https://caratcapital.org/the-record.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "one-eighty-percent-on-the-sapphires",
@@ -2577,7 +2645,8 @@
     "title": "Bonhams Sydney runs 39 of its first 48 lots away - Carat Capital (25 August 2026)",
     "url": "https://caratcapital.org/a-thirty-nine-of-forty-eight.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "three-times-the-royal-brooch",
@@ -2613,7 +2682,8 @@
     "title": "Natural Melee Diamond Pricing: What Drives Cost Per Carat - Guru Diam, pricing table dated August 2026",
     "url": "https://www.gurudiam.com/blog/natural-melee-diamond-pricing-guide"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "kagem-comes-to-jaipur",
@@ -2648,7 +2718,8 @@
     "title": "$102.9 million, up 72%: Gemfields' emeralds cover for its rubies - Carat Capital (31 July 2026)",
     "url": "https://caratcapital.org/a-gemfields-covers-the-ruby.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "watches-were-the-line-that-held",
@@ -2683,7 +2754,8 @@
     "title": "Gold, Silver, Platinum & Palladium spot prices - Kitco (read 26 August 2026, board timestamp 05:59 ET)",
     "url": "https://www.kitco.com/price/precious-metals"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "only-the-last-test-was-decisive",
@@ -2714,7 +2786,8 @@
     "title": "DNA on the parcel: Provenance Proof marks melee - Carat Capital (25 August 2026)",
     "url": "https://caratcapital.org/a-dna-on-the-parcel.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "two-sessions-and-twenty-one-sixty",
@@ -2757,7 +2830,8 @@
     "title": "Palladium - price, chart, historical data (read 26 August 2026) - TradingEconomics",
     "url": "https://tradingeconomics.com/commodity/palladium"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "ten-oh-four-twenty-one",
@@ -2800,7 +2874,8 @@
     "title": "999.46 in Shanghai: three counters priced the same night three different ways — Carat Capital (23 August 2026)",
     "url": "https://caratcapital.org/a-nine-ninety-nine-forty-six.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "five-ninety-four-from-china",
@@ -2827,7 +2902,8 @@
     "title": "ભારતે લેબ-ગ્રોન ડાયમંડ ક્ષેત્રે રચ્યો ઈતિહાસ: સ્વદેશી HPHT ડાયમંડ પ્રેસનું ટ્રાયલ સફળ (24 August 2026) — Diamond City",
     "url": "https://www.diamondcitynews.com/india-creates-history-in-the-field-of-lab-grown-diamonds/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "eleven-ninety-five-to-three-oh-seven",
@@ -2854,7 +2930,8 @@
     "title": "રશિયાની ડાયમંડ ક્લસ્ટર યોજનાથી સુરતના હીરા ઉદ્યોગને કોઈ જોખમ નહીં (24 August 2026) — Diamond City",
     "url": "https://www.diamondcitynews.com/russias-diamond-cluster-plan-poses-no-threat-to-surats-diamond-industry/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "five-sixty-for-twenty-seven",
@@ -2893,7 +2970,8 @@
     "title": "Watch Technology Institute, Employment Information — North Seattle College (returned HTTP 403 to this desk, 25 August 2026)",
     "url": "https://northseattle.edu/programs/watch-technology-institute/employment-information"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "thirty-nine-of-forty-eight",
@@ -2928,7 +3006,8 @@
     "title": "બોન્હામ્સ સિડની ઓક્શનમાં ૫ કેરેટનો અલભ્ય હીરો (25 August 2026) — Diamond City",
     "url": "https://www.diamondcitynews.com/rare-5-carat-diamond-to-be-the-main-attraction-at-bonhams-sydney-auction/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "dna-on-the-parcel",
@@ -2963,7 +3042,8 @@
     "title": "Doha signs three Asian bourses, thirty-three days after the ink — Carat Capital (24 August 2026)",
     "url": "https://caratcapital.org/a-doha-signs-three-asian-bourses.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "forty-six-forty-three-ninety",
@@ -3006,7 +3086,8 @@
     "title": "Carat Capital tape, 23 August 2026",
     "url": "https://caratcapital.org/the-record.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "thirteen-ninety-five-a-carat",
@@ -3046,7 +3127,8 @@
     "title": "Carat Capital, 31 July 2026 — De Beers loses $188 million",
     "url": "https://caratcapital.org/a-de-beers-narrows-the-loss.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "three-seventy-four-to-australia",
@@ -3077,7 +3159,8 @@
     "title": "India-Australia ECTA to boost gem and jewellery exports — FashionNetwork India",
     "url": "https://in.fashionnetwork.com/news/India-australia-ecta-to-boost-gem-and-jewellery-exports-gjepc,1394615.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "doha-signs-three-asian-bourses",
@@ -3117,7 +3200,8 @@
     "title": "Carat Capital, 28 July 2026 — Doha opens a diamond exchange",
     "url": "https://caratcapital.org/a-doha-opens-a-diamond-door.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "nine-ninety-nine-forty-six",
@@ -3168,7 +3252,8 @@
     "title": "China's jewellery counter charges 39.5% over the exchange price - Carat Capital (14 August 2026)",
     "url": "https://caratcapital.org/a-nine-forty-and-thirteen-twelve.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "israel-rough-down-thirty-five",
@@ -3205,7 +3290,8 @@
     "title": "Israel's diamond chief resigns as exports hit a record low - Carat Capital (27 July 2026)",
     "url": "https://caratcapital.org/a-israel-exchange-loses-its-chief.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "four-five-five-four-in-beijing",
@@ -3256,7 +3342,8 @@
     "title": "938 at the exchange, 1,286 at the counter - Carat Capital (9 August 2026)",
     "url": "https://caratcapital.org/a-nine-thirty-eight-and-twelve-eighty-six.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "four-point-one-six-billion-in-july",
@@ -3292,7 +3379,8 @@
     "title": "India buys fifteen percent less gold - Carat Capital (31 July 2026)",
     "url": "https://caratcapital.org/a-india-buys-fifteen-percent-less.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "one-in-two-out-at-the-lbma",
@@ -3335,7 +3423,8 @@
     "title": "LBMA adds China's Shenzhen Zhonghenglong to Gold Good Delivery List - GJEPC Solitaire",
     "url": "https://gjepc.org/solitaire/lbma-adds-chinas-shenzhen-zhonghenglong-to-gold-good-delivery-list/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "dvash-takes-the-odc-chair",
@@ -3375,7 +3464,8 @@
     "title": "Dubai Diamond Week returns - Carat Capital (1 August 2026)",
     "url": "https://caratcapital.org/a-dubai-diamond-week-returns.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "vasant-mehta-dies-at-81",
@@ -3402,7 +3492,8 @@
     "title": "Former GJEPC chairman Vasant Mehta dies at 81 (18 August 2026) - Rapaport",
     "url": "https://rapaport.com/news/former-gjepc-chairman-vasant-mehta-dies-at-81/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "fifty-three-percent-at-the-top",
@@ -3433,7 +3524,8 @@
     "title": "Zales says 67% of its core shoppers now buy for themselves - Carat Capital (21 August 2026)",
     "url": "https://caratcapital.org/a-sixty-seven-percent-buy-it-for-themselves.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "platinum-takes-the-biggest-move",
@@ -3480,7 +3572,8 @@
     "title": "Two held marks come off the tape at once - Carat Capital (20 August 2026)",
     "url": "https://caratcapital.org/a-both-holds-end-at-once.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "fifty-nine-years-and-thirty-four-percent",
@@ -3523,7 +3616,8 @@
     "title": "Petra's revenue caves as the small-stone squeeze bites - Carat Capital (29 July 2026)",
     "url": "https://caratcapital.org/a-petra-caves-at-the-bottom.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "sixty-seven-percent-buy-it-for-themselves",
@@ -3558,7 +3652,8 @@
     "title": "Signet gives Zales and Banter to a Mattel executive - Carat Capital (12 August 2026)",
     "url": "https://caratcapital.org/a-zales-goes-to-mattel.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "sixty-five-percent-on-a-chip-substrate",
@@ -3593,7 +3688,8 @@
     "title": "Ninety-six down, eighty up - Carat Capital (19 August 2026)",
     "url": "https://caratcapital.org/a-ninety-six-down-eighty-up.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "second-largest-and-no-price",
@@ -3629,7 +3725,8 @@
     "title": "1,305 carats: Karowe finds its tenth thousand-carat diamond - Carat Capital (15 July 2026)",
     "url": "https://caratcapital.org/a-lucara-tenth-thousand-carat.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "eight-percent-deferred-to-march",
@@ -3669,7 +3766,8 @@
     "title": "Alrosa books a $134 million loss and starts idling the pits - Carat Capital (6 August 2026)",
     "url": "https://caratcapital.org/a-alrosa-books-the-loss.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "one-january-and-two-million-customers",
@@ -3704,7 +3802,8 @@
     "title": "People Moves: Jewelers Mutual CEO Murphy to Retire at End of 2026 (20 August 2026) - Insurance Journal",
     "url": "https://www.insurancejournal.com/news/midwest/2026/08/20/882329.htm"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "one-twelve-online-one-seventy-five-live",
@@ -3738,7 +3837,8 @@
     "title": "Two Sotheby's jewel sales closed. Neither has published a number - Carat Capital (17 August 2026)",
     "url": "https://caratcapital.org/a-no-total-for-the-gem-drop.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "a-third-door-for-lab-grown",
@@ -3773,7 +3873,8 @@
     "title": "China's lab-grown exports rise 65.3% on demand from chipmakers - Carat Capital (21 August 2026)",
     "url": "https://caratcapital.org/a-sixty-five-percent-on-a-chip-substrate.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "two-point-four-for-thirty-six",
@@ -3813,7 +3914,8 @@
     "title": "Gold spot, Kitco, read 06:02 New York, 20 August 2026",
     "url": "https://www.kitco.com/price/precious-metals"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "both-holds-end-at-once",
@@ -3858,7 +3960,8 @@
     "title": "Carat Capital tape, 20 August 2026, editor's press-time write-back",
     "url": "https://caratcapital.org/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "hundred-billion-on-two-point-four",
@@ -3895,7 +3998,8 @@
     "title": "India's Gem & Jewellery Exports Rise 2.44% to US$ 9.17 Billion in April-July 2026 (13 August 2026) — GJEPC Solitaire",
     "url": "https://gjepc.org/solitaire/indias-gem-jewellery-exports-rise-2-44-to-us-9-17-billion-in-april-july-2026-led-by-21-surge-in-studded-gold-jewellery/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "silver-down-two-eight-nine",
@@ -3943,7 +4047,8 @@
     "title": "Gold and Silver Slip as Bond Yields Hit Multi-Decade Highs (18 August 2026) — BullionVault",
     "url": "https://www.bullionvault.com/gold-news/gold-price-news/gold-silver-bonds-debt-081820261"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "the-only-verified-price",
@@ -3987,7 +4092,8 @@
     "title": "Custom Rolex: Risks, Value Impact, and What to Avoid — Bob's Watches",
     "url": "https://www.bobswatches.com/rolex-blog/editorial/why-a-custom-rolex-is-a-bad-investment.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "ninety-six-down-eighty-up",
@@ -4032,7 +4138,8 @@
     "title": "$711, $650, $511: one lab-grown carat, three prices — Carat Capital (11 August 2026)",
     "url": "a-three-prices-one-carat.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "one-eleven-up-forty-four-down",
@@ -4068,7 +4175,8 @@
     "title": "Mountain Province's Sales Improve (16 August 2026) — Rapaport",
     "url": "https://rapaport.com/news/mountain-provinces-sales-improve/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "twenty-two-down-seventeen-up",
@@ -4100,7 +4208,8 @@
     "title": "Asian Star Q1 Results: Net profit down 38% YoY to Rs 12 crore — ScanX",
     "url": "https://scanx.trade/stock-market-news/companies/asian-star-q1-results-net-profit-down-38-yoy-12-crore/48175798"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "two-cleared-two-held",
@@ -4139,7 +4248,8 @@
     "title": "Four metals up, and a palladium mark three sessions old retired — Carat Capital (17 August 2026)",
     "url": "a-four-metals-four-write-backs.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "fifty-thousand-and-no-number",
@@ -4179,7 +4289,8 @@
     "title": "India's big August show fills up early — Carat Capital (28 July 2026)",
     "url": "a-india-fills-the-hall.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "no-total-for-the-gem-drop",
@@ -4231,7 +4342,8 @@
     "title": "Trophies carry Sotheby's to $31.4 million; a pink walks — Carat Capital (24 July 2026, corrected 18 August 2026)",
     "url": "a-sothebys-thirty-one-million.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "four-metals-four-write-backs",
@@ -4270,7 +4382,8 @@
     "title": "The platinum hold ends at $1,725 after three mornings — Carat Capital (14 August 2026)",
     "url": "https://caratcapital.org/a-the-platinum-hold-ends.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "thirty-nine-point-six",
@@ -4309,7 +4422,8 @@
     "title": "China's jewellery counter charges 39.5% over the exchange price — Carat Capital (14 August 2026)",
     "url": "https://caratcapital.org/a-nine-forty-and-thirteen-twelve.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "eight-oh-six-out-six-sixty-five-in",
@@ -4352,7 +4466,8 @@
     "title": "Signet Jewelers Ltd, complete filing history — SEC EDGAR",
     "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000832988&type=SC+13&dateb=&owner=include&count=40"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "four-eighty-six-thousand-ounces",
@@ -4387,7 +4502,8 @@
     "title": "$71 million from America in a $3 billion gold month — Carat Capital (14 August 2026)",
     "url": "https://caratcapital.org/a-seventy-one-million-from-america.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "seven-oh-five-across-seventeen-times",
@@ -4426,7 +4542,8 @@
     "title": "The one-carat stops falling — Carat Capital (4 August 2026)",
     "url": "https://caratcapital.org/a-the-one-carat-stops-falling.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "nine-forty-and-thirteen-twelve",
@@ -4469,7 +4586,8 @@
     "title": "China's gold counter falls to its lowest since 2004 — Carat Capital (3 August 2026)",
     "url": "https://caratcapital.org/a-china-lowest-since-2004.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "the-platinum-hold-ends",
@@ -4516,7 +4634,8 @@
     "title": "Palladium prices today per ounce — JM Bullion (cited for the $1,336.71 reading of 14 August 2026)",
     "url": "https://www.jmbullion.com/charts/palladium-price/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "seventy-one-million-from-america",
@@ -4559,7 +4678,8 @@
     "title": "640,000 ounces: China's biggest gold month since 2023 — Carat Capital (9 August 2026)",
     "url": "https://caratcapital.org/a-six-forty-thousand-ounces.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "the-loss-that-wasnt-revenue",
@@ -4599,7 +4719,8 @@
     "title": "Lucara's price a carat rose 24% as its prices fell — Carat Capital (12 August 2026)",
     "url": "https://caratcapital.org/a-the-mix-did-the-work.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "three-sessions-undone",
@@ -4639,7 +4760,8 @@
     "title": "66.59: silver takes a fourth session out of gold — Carat Capital (12 August 2026)",
     "url": "https://caratcapital.org/a-sixty-six-fifty-nine.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "titan-calls-the-price-stable",
@@ -4683,7 +4805,8 @@
     "title": "1.7% in the cheap colours: what July's flat month hid — Carat Capital (12 August 2026)",
     "url": "https://caratcapital.org/a-what-the-flat-month-hid.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "priced-like-1999",
@@ -4723,7 +4846,8 @@
     "title": "Thirty-pointers run while the one-carat stalls — Carat Capital (27 July 2026)",
     "url": "https://caratcapital.org/a-thirties-outrun-the-ones.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "the-mix-did-the-work",
@@ -4763,7 +4887,8 @@
     "title": "1,305 carats: Karowe finds its tenth thousand-carat diamond — Carat Capital (15 July 2026)",
     "url": "https://caratcapital.org/a-lucara-tenth-thousand-carat.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "sixty-six-fifty-nine",
@@ -4802,7 +4927,8 @@
     "title": "AED 10.44 between two Dubai gold pages, and holding — Carat Capital (11 August 2026)",
     "url": "https://caratcapital.org/a-ten-forty-four-and-holding.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "zales-goes-to-mattel",
@@ -4841,7 +4967,8 @@
     "title": "Signet puts 25 years of Tiffany into Blue Nile — Carat Capital (6 August 2026)",
     "url": "https://caratcapital.org/a-tiffany-goes-to-blue-nile.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "what-the-flat-month-hid",
@@ -4880,7 +5007,8 @@
     "title": "Ten and twelve-and-a-half: the tariff wall comes back — Carat Capital (25 July 2026)",
     "url": "https://caratcapital.org/a-tariff-wall-returns.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "three-prices-one-carat",
@@ -4921,7 +5049,8 @@
     "title": "Rapaport Price List, published weekly — Rapaport",
     "url": "https://rapaportauctions.com/rapaport-price-list/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "ten-forty-four-and-holding",
@@ -4960,7 +5089,8 @@
     "title": "Two Dubai gold rates, 2% apart. Neither one is wrong — Carat Capital (10 August 2026)",
     "url": "https://caratcapital.org/a-neither-one-is-wrong.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "one-state-one-banner",
@@ -4999,7 +5129,8 @@
     "title": "Gold, Silver, Platinum & Palladium Spot Prices — Kitco (11 August 2026, 06:00 EST live board)",
     "url": "https://www.kitco.com/price/precious-metals"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "neither-one-is-wrong",
@@ -5039,7 +5170,8 @@
     "title": "Every metal runs before payrolls — Carat Capital (7 August 2026)",
     "url": "https://caratcapital.org/a-every-metal-runs-before-payrolls.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "five-point-nine-million-pieces",
@@ -5083,7 +5215,8 @@
     "title": "Gold, Silver, Platinum & Palladium Spot Prices — Kitco (10 August 2026, 5:57am EST live board)",
     "url": "https://www.kitco.com/price/precious-metals"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "etsy-calls-it-speed",
@@ -5123,7 +5256,8 @@
     "title": "Etsy's Workforce Reduction May Help Sustain Gross Merchandise Sales Uptrend, Wedbush Says — MarketScreener",
     "url": "https://www.marketscreener.com/news/etsy-s-workforce-reduction-may-help-sustain-gross-merchandise-sales-uptrend-wedbush-says-ce7f50d2d180f12d"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "five-billion-in-one-thirteen",
@@ -5163,7 +5297,8 @@
     "title": "QVC Group Emerges From Bankruptcy With $600 Million Asset-Backed Facility — PYMNTS (August 2026)",
     "url": "https://www.pymnts.com/news/retail/2026/qvc-group-emerges-from-bankruptcy-with-600-million-dollar-asset-backed-facility/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "pandoras-third-seat",
@@ -5203,7 +5338,8 @@
     "title": "Pandora fills the seat — Carat Capital (5 August 2026)",
     "url": "https://caratcapital.org/a-pandora-fills-the-seat.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "four-times-melt",
@@ -5244,7 +5380,8 @@
     "title": "$13,000 for costume, £2,000 for gold: Bonhams runs Chanel in three cities — Carat Capital (8 August 2026)",
     "url": "https://caratcapital.org/a-thirteen-thousand-for-costume.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "six-forty-thousand-ounces",
@@ -5284,7 +5421,8 @@
     "title": "Gold, Silver, Platinum & Palladium Spot Prices — Kitco (7 August 2026, 5:00pm EST close)",
     "url": "https://www.kitco.com/price/precious-metals"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "nine-thirty-eight-and-twelve-eighty-six",
@@ -5319,7 +5457,8 @@
     "title": "132 tonnes of jewellery, 339 tonnes of bars: China picks a side — Carat Capital (7 August 2026)",
     "url": "https://caratcapital.org/a-one-thirty-two-against-three-thirty-nine.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "turkey-up-america-down",
@@ -5358,7 +5497,8 @@
     "title": "Plus 11.2%: June hands Swiss watchmaking its month back — Carat Capital (21 July 2026)",
     "url": "https://caratcapital.org/a-plus-eleven-two-in-june.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "forty-six-percent-came-back",
@@ -5397,7 +5537,8 @@
     "title": "India buys fifteen percent less — Carat Capital (31 July 2026)",
     "url": "https://caratcapital.org/a-india-buys-fifteen-percent-less.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "png-retires-litestyle",
@@ -5433,7 +5574,8 @@
     "title": "$29.99 at the counter: America's cheapest lab-grown diamond — Carat Capital (7 August 2026)",
     "url": "https://caratcapital.org/a-twenty-nine-ninety-nine-at-the-counter.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "the-hundred-six-thousand-miss",
@@ -5477,7 +5619,8 @@
     "title": "Gold — commodity price and summary, 7 August 2026 — Trading Economics",
     "url": "https://tradingeconomics.com/commodity/gold"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "gold-kept-it-the-rest-gave-it-back",
@@ -5512,7 +5655,8 @@
     "title": "Nonfarm Payrolls Fall by 23,000 in July as Dollar Sinks and Gold Gains — Brisk Markets (7 August 2026)",
     "url": "https://www.briskmarkets.com/blog/nonfarm-payrolls-fall-by-23000-in-july-as-dollar-sinks-and-gold-gains/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "thirteen-thousand-for-costume",
@@ -5548,7 +5692,8 @@
     "title": "Bonhams — Jewellery department",
     "url": "https://www.bonhams.com/department/JWL/jewellery/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "twenty-nine-said-diamond",
@@ -5587,7 +5732,8 @@
     "title": "Gold, Silver, Platinum & Palladium Spot Prices — Kitco (7 August 2026, 5:00pm EST close)",
     "url": "https://www.kitco.com/price/precious-metals"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "the-fifteen-hundred-line",
@@ -5623,7 +5769,8 @@
     "title": "Tenoris — jewellery retail sales analytics",
     "url": "https://tenoris.bi/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "ninety-six-percent-rebooked",
@@ -5658,7 +5805,8 @@
     "title": "New York Show — Winter & Summer 2026 dates — NY NOW",
     "url": "https://nynow.com/market/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "fifteen-years-no-tax",
@@ -5698,7 +5846,8 @@
     "title": "Taxation and Other Laws (Amendment) Bill, 2026 — Explained",
     "url": "https://vajiramandravi.com/current-affairs/taxation-amendment-bill-2026/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "every-metal-runs-before-payrolls",
@@ -5737,7 +5886,8 @@
     "title": "US Employment Situation (Non-Farm Payrolls), release 7 August 2026 — Bureau of Labor Statistics",
     "url": "https://www.bls.gov/news.release/empsit.nr0.htm"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "one-thirty-two-against-three-thirty-nine",
@@ -5776,7 +5926,8 @@
     "title": "China gold market update: June concludes a divided H1 — World Gold Council",
     "url": "https://www.gold.org/goldhub/gold-focus/2026/07/china-gold-market-update-june-concludes-divided-h1"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "twenty-two-thirty-eight-an-order",
@@ -5811,7 +5962,8 @@
     "title": "Brilliant Earth Raises Profit Outlook After Margins Rebound — JCK",
     "url": "https://www.jckonline.com/editorial-article/brilliant-earth-raises-profit/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "the-fourteen-percent-that-isnt",
@@ -5847,7 +5999,8 @@
     "title": "Gold, Silver, Platinum & Palladium Spot Prices — Kitco (7 August 2026, 5:58am EST)",
     "url": "https://www.kitco.com/price/precious-metals"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "twenty-nine-ninety-nine-at-the-counter",
@@ -5886,7 +6039,8 @@
     "title": "14kt White Gold 0.1 ct tw Laboratory Grown Diamond Studs Ear Piercing Kit — Claire's",
     "url": "https://www.claires.com/us/14kt-white-gold-0.1-ct-tw-laboratory-grown-diamond-studs-baby-ear-piercing-kit-with-ear-care-solution-67004P.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "silver-alone-in-the-red",
@@ -5925,7 +6079,8 @@
     "title": "US Employment Situation (Non-Farm Payrolls), release 7 August 2026 — Bureau of Labor Statistics",
     "url": "https://www.bls.gov/news.release/empsit.nr0.htm"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "alrosa-books-the-loss",
@@ -5961,7 +6116,8 @@
     "title": "Production Report for the Second Quarter of 2026 — De Beers Group (23 July 2026)",
     "url": "https://www.debeersgroup.com/news-insights/latest-group-news/2026/production-report-for-the-second-quarter-of-2026"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "tiffany-goes-to-blue-nile",
@@ -5996,7 +6152,8 @@
     "title": "Pandora Names New Head of North America — Rapaport (4 August 2026)",
     "url": "https://rapaport.com/news/pandora-names-new-head-of-north-america/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "bnpl-inside-the-perimeter",
@@ -6035,7 +6192,8 @@
     "title": "New FCA Regulation of Buy Now Pay Later: What You Need to Know — Reed Smith",
     "url": "https://www.reedsmith.com/our-insights/blogs/viewpoints/102mmmf/new-fca-regulation-of-buy-now-pay-later-what-you-need-to-know/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "nine-thirty-four-for-one-seventeen",
@@ -6070,7 +6228,8 @@
     "title": "Private equity firm tries again to buy 100-plus J.C. Penney stores — Retail Dive",
     "url": "https://www.retaildive.com/news/private-equity-firm-onyx-partners-tries-to-buy-117-jcpenney-stores/826804/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "sixty-seven-percent-asked-a-chatbot",
@@ -6105,7 +6264,8 @@
     "title": "As the holidays near, two-thirds of shoppers are using AI — Retail Dive",
     "url": "https://www.retaildive.com/news/holiday-shoppers-using-ai-gift-purchases/826939/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "four-metals-third-session",
@@ -6145,7 +6305,8 @@
     "title": "Asia-Pacific market news 5 August 2026: Gold jumped above US$4,130 — investingLive",
     "url": "https://investinglive.com/news/investinglive-asia-pacific-market-news-5-august-2026-gold-jumped-above-us-4130/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "india-confirms-the-turn",
@@ -6180,7 +6341,8 @@
     "title": "Gold Rates & Silver Rates Today (04/08/2026): MCX Gold Holds Above Rs 1,43,500 — Goodreturns",
     "url": "https://www.goodreturns.in/news/gold-rates-silver-rates-today-04-08-2026-live-mcx-gold-silver-price-comex-24k-22k-18k-gold-prices-1526065.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "hong-kong-fourteen-months",
@@ -6215,7 +6377,8 @@
     "title": "Hong Kong retail sales rise 4.6% in June as growth streak extends to 14 months — South China Morning Post",
     "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3362917/hong-kong-retail-sales-rise-46-june-growth-streak-extends-14-months"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "pandora-fills-the-seat",
@@ -6250,7 +6413,8 @@
     "title": "Pandora Names New Head of North America — Rapaport (4 August 2026)",
     "url": "https://rapaport.com/news/pandora-names-new-head-of-north-america/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "luk-fook-fixed-price",
@@ -6285,7 +6449,8 @@
     "title": "Strong Gold-Jewelry Demand Boosts Luk Fook Sales — Rapaport",
     "url": "https://rapaport.com/news/strong-gold-jewelry-demand-boosts-luk-fook-sales/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "eighty-percent-to-the-consumer",
@@ -6328,7 +6493,8 @@
     "title": "Production Report for the Second Quarter of 2026 — De Beers Group (23 July 2026)",
     "url": "https://www.debeersgroup.com/news-insights/latest-group-news/2026/production-report-for-the-second-quarter-of-2026"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "joopiter-keeping-measure",
@@ -6363,7 +6529,8 @@
     "title": "JOOPITER",
     "url": "https://www.joopiter.com/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "the-one-carat-stops-falling",
@@ -6399,7 +6566,8 @@
     "title": "Rapaport Research Report: A Recovery in the Diamond Industry? — Rapaport",
     "url": "https://rapaport.com/analysis/rapaport-research-report-a-recovery-in-the-diamond-industry/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "minus-point-one-for-color",
@@ -6434,7 +6602,8 @@
     "title": "An Incongruous Moment for the Gemstone Industry — Rapaport Magazine",
     "url": "https://rapaport.com/magazine-article/an-incongruous-moment-for-the-gemstone-industry/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "independents-pass-lvmh",
@@ -6470,7 +6639,8 @@
     "title": "Analytics — Reports — EveryWatch",
     "url": "https://everywatch.com/analytics/reports"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "one-point-two-million-apply",
@@ -6506,7 +6676,8 @@
     "title": "Precious Metals Spot Prices — Kitco (4 August 2026, 5:59am New York)",
     "url": "https://www.kitco.com/price/precious-metals"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "seventy-three-lots-over-a-million",
@@ -6541,7 +6712,8 @@
     "title": "An F.P. Journe Chronometre a Resonance Sells for $13.9 Million at Phillips — Robb Report",
     "url": "https://robbreport.com/style/watch-collector/f-p-journe-chronometre-a-resonance-13-9-million-1238353415/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "platinum-adds-one-seven",
@@ -6580,7 +6752,8 @@
     "title": "Silver — Price, Chart, Historical Data — Trading Economics",
     "url": "https://tradingeconomics.com/commodity/silver"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "thirteen-hundred-brands-and-a-centenary",
@@ -6619,7 +6792,8 @@
     "title": "CIBJO: the centenary congress at Vicenzaoro September — Vicenzaoro",
     "url": "https://www.vicenzaoro.com/en/news-detail/cibjo-the-centenary-congress-at-vicenzaoro-september?newsId=7057497"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "seventy-three-million-in-shoes",
@@ -6659,7 +6833,8 @@
     "title": "Vietnam diamond scandal shakes trust in certification system — Nikkei Asia",
     "url": "https://asia.nikkei.com/spotlight/society/crime/vietnam-diamond-scandal-shakes-trust-in-certification-system"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "china-lowest-since-2004",
@@ -6695,7 +6870,8 @@
     "title": "US Jewelry Sales Grow in H1 2026 — Tenoris",
     "url": "https://www.tenoris.bi/us-jewelry-sales-continue-to-grow-in-h1-2026/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "silver-leads-the-reopen",
@@ -6726,7 +6902,8 @@
     "title": "Gold — Price, Chart, Historical Data — Trading Economics",
     "url": "https://tradingeconomics.com/commodity/gold"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "michael-hill-adds-two",
@@ -6758,7 +6935,8 @@
     "title": "Michael Hill International — investor centre",
     "url": "https://investor.michaelhill.com/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "shoplifting-down-fraud-up",
@@ -6797,7 +6975,8 @@
     "title": "Dollar Losses Up, Number of Crimes Down: JSA 2025 Annual Crime Report — AGTA",
     "url": "https://agta.org/dollar-losses-up-number-of-crimes-down-takeaways-from-the-jewelers-security-alliance-2025-annual-crime-report/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "nobody-has-de-beers-yet",
@@ -6837,7 +7016,8 @@
     "title": "JCK Take 3: Is De Beers Worth Only $1 Billion? — JCK",
     "url": "https://www.jckonline.com/editorial-article/jck-take-3-de-beers-only-1-billion/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "zero-for-antwerp",
@@ -6876,7 +7056,8 @@
     "title": "US Tariffs on Canadian Imports to Include Diamonds and Jewelry — Rapaport",
     "url": "https://rapaport.com/news/us-tariffs-on-canadian-imports-to-include-diamonds-and-jewelry/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "the-tender-ladder",
@@ -6911,7 +7092,8 @@
     "title": "De Beers Trims Losses Amid Price Stabilization, Cost Cuts — Rapaport",
     "url": "https://rapaport.com/news/de-beers-trims-losses-amid-price-stabilization-cost-cuts/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "record-quarter-weakest-half",
@@ -6947,7 +7129,8 @@
     "title": "Central bank gold purchases jump 62% to 288.9 tonnes in Q2",
     "url": "https://news.bitcoin.com/finance/central-bank-gold-purchases-jump-62-to-288-9-tonnes-in-q2/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "three-hundred-eighty-billion",
@@ -6982,7 +7165,8 @@
     "title": "Gold demand steady in Q2 2026 as central bank buying offsets jewellery slump — IndexBox",
     "url": "https://www.indexbox.io/blog/global-gold-demand-steady-in-q2-2026-as-central-bank-buying-offsets-jewellery-slump/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "gold-waits-on-payrolls",
@@ -7021,7 +7205,8 @@
     "title": "Gold — Price, Chart, Historical Data — Trading Economics",
     "url": "https://tradingeconomics.com/commodity/gold"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "ny-now-opens-today",
@@ -7060,7 +7245,8 @@
     "title": "New York Show, Winter & Summer 2026 Dates — NY NOW",
     "url": "https://nynow.com/market/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "jewellery-tops-a-flat-market",
@@ -7099,7 +7285,8 @@
     "title": "Global luxury stabilizes amid compounding disruptions — Bain & Company",
     "url": "https://www.bain.com/about/media-center/press-releases/2026/global-luxury-stabilizes-amid-compounding-disruptions-as-brands-race-to-amplify-meaning-and-rebuild-relevance/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "russia-bans-the-word",
@@ -7139,7 +7326,8 @@
     "title": "Russia adopts new resolution on labelling and sale of synthetic diamonds — The Retail Jeweller India",
     "url": "https://retailjewellerindia.com/russia-adopts-new-resolution-on-labelling-and-sale-of-synthetic-diamonds-in-jewellery/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "dubai-diamond-week-returns",
@@ -7178,7 +7366,8 @@
     "title": "Dubai Diamond Week Returns Oct. 26-29 With Diamond Conference and JGTD Sourcing Exhibition — InStore",
     "url": "https://instoremag.com/dubai-diamond-week-returns-oct-26-29-with-diamond-conference-and-jgtd-sourcing-exhibition/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "gold-ends-july-higher",
@@ -7217,7 +7406,8 @@
     "title": "Gold — Price, Chart, Historical Data — Trading Economics",
     "url": "https://tradingeconomics.com/commodity/gold"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "white-metals-close-the-month",
@@ -7256,7 +7446,8 @@
     "title": "Gold falls but posts its strongest monthly performance since February — Economies.com",
     "url": "https://www.economies.com/commodities/gold-news/gold-falls-but-posts-its-strongest-monthly-performance-since-february-49403"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "hermes-watches-flat",
@@ -7296,7 +7487,8 @@
     "title": "US Jewelry Sales Grow 9% in H1 2026 — Tenoris",
     "url": "https://www.tenoris.bi/us-jewelry-sales-continue-to-grow-in-h1-2026/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "bucherer-gets-fifth-avenue",
@@ -7336,7 +7528,8 @@
     "title": "July 31 Aurea Informatio: Your Friday Web Roundup — JCK",
     "url": "https://www.jckonline.com/editorial-article/july-31-aurea-informatio/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "sixty-stores-for-friendship-day",
@@ -7376,7 +7569,8 @@
     "title": "July 31 Aurea Informatio: Your Friday Web Roundup — JCK",
     "url": "https://www.jckonline.com/editorial-article/july-31-aurea-informatio/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "dollar-battery-fifteen-dollar-job",
@@ -7415,7 +7609,8 @@
     "title": "US Jewelry Sales Grow 9% in H1 2026 — Tenoris",
     "url": "https://www.tenoris.bi/us-jewelry-sales-continue-to-grow-in-h1-2026/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "de-beers-narrows-the-loss",
@@ -7455,7 +7650,8 @@
     "title": "Half Year Financial Report 2026 — Anglo American",
     "url": "https://www.angloamerican.com/investors/annual-reporting"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "gold-gives-back-thursday",
@@ -7490,7 +7686,8 @@
     "title": "Gold price in India: rates on July 31 — FXStreet",
     "url": "https://www.fxstreet.com/news/india-gold-price-today-gold-falls-according-to-fxstreet-data-202607310435"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "three-metals-one-direction",
@@ -7525,7 +7722,8 @@
     "title": "Palladium — Price, Chart, Historical Data — Trading Economics",
     "url": "https://tradingeconomics.com/commodity/palladium"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "two-seventy-eight-tonnes",
@@ -7560,7 +7758,8 @@
     "title": "Gold — Price, Chart, Historical Data — Trading Economics",
     "url": "https://tradingeconomics.com/commodity/gold"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "india-buys-fifteen-percent-less",
@@ -7599,7 +7798,8 @@
     "title": "India's Gems, Jewellery Exports Jump 26.5% to $2.21 Bn in June — KNN India",
     "url": "https://knnindia.co.in/news/newsdetails/sectors/indias-gems-jewellery-exports-jump-265-to-usd-221-bn-in-june-gjepc"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "confidence-slips-to-ninety",
@@ -7638,7 +7838,8 @@
     "title": "US Jewelry Sales Grow 9% in H1 2026 — Tenoris",
     "url": "https://www.tenoris.bi/us-jewelry-sales-continue-to-grow-in-h1-2026/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "the-ask-is-exclusion",
@@ -7673,7 +7874,8 @@
     "title": "Legislative Action Center — Jewelers of America",
     "url": "https://www.jewelers.org/advocacy"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "gemfields-covers-the-ruby",
@@ -7712,7 +7914,8 @@
     "title": "Auction Update — Gemfields Group",
     "url": "https://www.gemfieldsgroup.com/category/new-and-announcements/auction-update/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "one-billion-for-de-beers",
@@ -7752,7 +7955,8 @@
     "title": "Production Report for the Second Quarter of 2026 — De Beers Group",
     "url": "https://www.debeersgroup.com/news-insights/latest-group-news/2026/production-report-for-the-second-quarter-of-2026"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "angolas-rough-clears",
@@ -7792,7 +7996,8 @@
     "title": "Weak Market and Product Mix Dent Petra Revenue — Rapaport",
     "url": "https://rapaport.com/news/weak-market-and-product-mix-dent-petra-revenue/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "gold-unwinds-the-hold",
@@ -7827,7 +8032,8 @@
     "title": "The price of gold today, July 29, 2026 — CNBC Select",
     "url": "https://www.cnbc.com/select/the-price-of-gold-today-july-29-2026/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "platinum-loses-its-teacher",
@@ -7867,7 +8073,8 @@
     "title": "Kevin Reilly Retires After 20 Years at Platinum Guild International — JCK",
     "url": "https://www.jckonline.com/editorial-article/kevin-reilly-platinum-retire/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "four-groups-in-the-black",
@@ -7906,7 +8113,8 @@
     "title": "Watch industry statistics — Federation of the Swiss Watch Industry",
     "url": "https://www.fhs.swiss/eng/statistics.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "heritage-books-a-record-half",
@@ -7945,7 +8153,8 @@
     "title": "Trophy lots and luxury goods fuel rebound for Christie's and Sotheby's 2026 half-year results — The Art Newspaper",
     "url": "https://www.theartnewspaper.com/2026/07/15/trophy-lots-and-luxury-goods-fuel-rebound-for-christies-and-sothebys-2026-half-year-results"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "the-storefront-that-isnt",
@@ -7984,7 +8193,8 @@
     "title": "Maya and Henry Jewelry Scam: Fake Store Exposed — TempoMail",
     "url": "https://tempomailusa.com/post/maya-and-henry-jewelry-scam-fake-store-exposed"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "color-runs-two-speeds",
@@ -8023,7 +8233,8 @@
     "title": "From Prism Volume II 2026: Welcome to the Color Show — AGTA",
     "url": "https://agta.org/from-prism-volume-ii-2026-welcome-to-the-color-show/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "fed-holds-gold-exhales",
@@ -8058,7 +8269,8 @@
     "title": "Gold Price Forecast: Fed Decision, Central Bank Buying and $4,021 Support in Focus — FX Leaders",
     "url": "https://www.fxleaders.com/news/2026/07/29/gold-price-forecast-fed-decision-central-bank-buying-and-4021-support-in-focus/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "white-metals-lose-their-heat",
@@ -8093,7 +8305,8 @@
     "title": "Platinum & Palladium spot prices — Kitco",
     "url": "https://www.kitco.com/price/precious-metals"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "tiffany-carries-lvmh",
@@ -8128,7 +8341,8 @@
     "title": "LVMH Reports Accelerating Growth for the First Half of 2026, Incl. for the Watch Division — Monochrome",
     "url": "https://monochrome-watches.com/lvmh-reports-accelerating-growth-for-the-first-half-of-2026-incl-for-the-watch-division/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "boucheron-carries-kering",
@@ -8159,7 +8373,8 @@
     "title": "Kering — 2026 First-half results: back to growth — GlobeNewswire",
     "url": "https://www.globenewswire.com/news-release/2026/07/28/3334524/0/en/Kering-2026-First-half-results-back-to-growth-performance-improvement-strategy-execution-on-track.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "petra-caves-at-the-bottom",
@@ -8190,7 +8405,8 @@
     "title": "Petra notes constrained revenue generation as corporate restructuring continues — Mining Weekly",
     "url": "https://www.miningweekly.com/article/petra-notes-constrained-revenue-generation-as-corporate-restructuring-continues-2026-07-28"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "gem-diamonds-rides-the-big-ones",
@@ -8222,7 +8438,8 @@
     "title": "Gem Diamonds' large stones lift quarterly revenue — MINING.COM",
     "url": "https://www.mining.com/gem-diamonds-large-stones-lift-quarterly-revenue/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "rio-diamond-unit-fades",
@@ -8253,7 +8470,8 @@
     "title": "Rio Tinto half-year results 2026 — Rio Tinto",
     "url": "https://www.riotinto.com/en/invest/financial-news-performance"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "india-gold-signals-mixed",
@@ -8280,7 +8498,8 @@
     "title": "India gold market update: Mixed demand signals — World Gold Council",
     "url": "https://www.gold.org/goldhub/gold-focus/2026/07/india-gold-market-update-mixed-demand-signals"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "gold-idles-into-the-fed",
@@ -8311,7 +8530,8 @@
     "title": "Gold Spot Prices — Kitco",
     "url": "https://www.kitco.com/price/precious-metals"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "silver-eyes-sixty",
@@ -8346,7 +8566,8 @@
     "title": "WPIC Platinum Quarterly — fourth straight deficit for 2026",
     "url": "https://platinuminvestment.com/supply-and-demand/platinum-quarterly"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "titan-makes-it-three",
@@ -8377,7 +8598,8 @@
     "title": "Titan Q1 FY27 Revenue Rises 41 Pc on Strong Jewellery Demand — Indian Retailer",
     "url": "https://www.indianretailer.com/news/titan-q1-fy27-revenue-rises-41-pc-strong-jewellery-demand"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "the-watch-trade-sues",
@@ -8409,7 +8631,8 @@
     "title": "New US tariffs on jewelry, diamonds and gemstones — National Jeweler",
     "url": "https://nationaljeweler.com/articles/industry"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "three-fancies-no-reserve",
@@ -8440,7 +8663,8 @@
     "title": "Van Cleef & Arpels, Cartier, and Boucheron Highlight Bonhams' Fine Jewelry Sale — JCK",
     "url": "https://www.jckonline.com/editorial-article/bonhams-california-fine-jewels/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "doha-opens-a-diamond-door",
@@ -8471,7 +8695,8 @@
     "title": "Qatar launches exchange to expand its role in global diamond trade — Euronews",
     "url": "https://www.euronews.com/business/2026/07/28/qatar-launches-exchange-to-expand-its-role-in-global-diamond-trade"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "the-guide-marks-ruby-up",
@@ -8498,7 +8723,8 @@
     "title": "GemGuide Updates Ruby Prices — National Jeweler",
     "url": "https://nationaljeweler.com/articles/15051-gemguide-updates-ruby-prices"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "india-fills-the-hall",
@@ -8529,7 +8755,8 @@
     "title": "India June gems & jewellery exports +26.5% — GJEPC / IANS",
     "url": "https://gjepc.org/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "israel-exchange-loses-its-chief",
@@ -8562,7 +8789,8 @@
     "title": "Israel Diamond Exchange President Resigns — Rapaport",
     "url": "https://rapaport.com/news/israel-diamond-exchange-president-resigns/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "say-synthetic-not-lab-grown",
@@ -8594,7 +8822,8 @@
     "title": "CIBJO Mulls Whether to Call Lab-Grown Diamonds \"Synthetic\" — JCK",
     "url": "https://www.jckonline.com/editorial-article/cibjo-lab-growns-synthetic"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "thirties-outrun-the-ones",
@@ -8625,7 +8854,8 @@
     "title": "Rapaport Press Release: Small-Diamond Recovery Accelerates in June — BusinessWire",
     "url": "https://www.businesswire.com/news/home/20260712762140/en/Rapaport-Press-Release-Small-Diamond-Recovery-Accelerates-in-June"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "gold-coils-for-the-fed",
@@ -8656,7 +8886,8 @@
     "title": "Gold Forecast: XAU/USD Defends $4,000 ahead of Fed, GDP and PCE — FX Leaders",
     "url": "https://www.fxleaders.com/news/2026/07/26/gold-forecast-xau-usd-defends-4000-as-china-imports-soar-ahead-of-fed-gdp-and-pce-inflation/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "china-takes-173-tonnes",
@@ -8687,7 +8918,8 @@
     "title": "New Collection Boosts Chow Tai Fook's Revenue — Rapaport",
     "url": "https://rapaport.com/news/new-collection-boosts-chow-tai-fooks-revenue/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "the-big-three-pull-away",
@@ -8719,7 +8951,8 @@
     "title": "Morgan Stanley × WatchCharts Q2 2026 secondary-market report — WatchCharts",
     "url": "https://watchcharts.com/about/press"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "seventy-carats-no-reserve",
@@ -8750,7 +8983,8 @@
     "title": "Van Cleef & Arpels, Cartier, and Boucheron Highlight Bonhams' Fine Jewelry Sale — JCK",
     "url": "https://www.jckonline.com/editorial-article/bonhams-california-fine-jewels/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "gia-lights-up-fluorescence",
@@ -8781,7 +9015,8 @@
     "title": "GIA grading report updates — Gemological Institute of America",
     "url": "https://www.gia.edu/gia-news-research"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "average-ticket-carries-the-half",
@@ -8813,7 +9048,8 @@
     "title": "US retail sales rose 0.2% in June — CNN Business",
     "url": "https://us.cnn.com/2026/07/16/economy/us-retail-sales-june"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "china-weighs-in-on-gold",
@@ -8845,7 +9081,8 @@
     "title": "Rapaport TradeWire, July 23, 2026",
     "url": "https://rapaport.com/newsletter/rapaport-tradewire-july-23-2026/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "silver-narrows-the-ratio",
@@ -8873,7 +9110,8 @@
     "title": "Daily Precious Metals Market Report, July 24, 2026 — USAGOLD",
     "url": "https://www.usagold.com/daily-precious-metals-market-report-july-24-2026/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "antwerp-thins-india-loads",
@@ -8905,7 +9143,8 @@
     "title": "IIJS Premiere 2026 (Aug 6–10, Mumbai) — GJEPC",
     "url": "https://gjepc.org/iijs-premiere/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "diavik-sells-the-last-ore",
@@ -8937,7 +9176,8 @@
     "title": "Rio Tinto releases second quarter 2026 production results",
     "url": "https://www.riotinto.com/en/news/releases/2026/rio-tinto-releases-second-quarter-2026-production-results"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "de-beers-sale-gets-a-clock",
@@ -8969,7 +9209,8 @@
     "title": "De Beers rough production increases, but prices, demand remain under pressure — Mining Weekly",
     "url": "https://www.miningweekly.com/article/de-beers-rough-diamond-production-increases-but-prices-demand-remain-under-pressure-2026-07-23"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "pearls-keep-a-lane",
@@ -9000,7 +9241,8 @@
     "title": "Chow Tai Fook Q1 FY2027 retail sales value up 15.1% — Bamboo Works",
     "url": "https://thebambooworks.com/chow-tai-fooks-quarterly-retail-sales-value-up-15-1/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "tariff-wall-returns",
@@ -9036,7 +9278,8 @@
     "title": "US imposes new tariffs on 60 trading partners over forced labour — Caliber",
     "url": "https://caliber.az/en/post/us-imposes-new-tariffs-on-60-trading-partners-over-forced-labour"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "surat-eats-the-ten",
@@ -9072,7 +9315,8 @@
     "title": "Small-Diamond Recovery Accelerates in June — Rapaport / BusinessWire",
     "url": "https://www.businesswire.com/news/home/20260712762140/en/Rapaport-Press-Release-Small-Diamond-Recovery-Accelerates-in-June"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "gold-waits-on-the-fed",
@@ -9103,7 +9347,8 @@
     "title": "Gold Spot Prices | Silver | Platinum & Palladium — Kitco",
     "url": "https://www.kitco.com/price/precious-metals"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "platinum-short-a-fourth-year",
@@ -9138,7 +9383,8 @@
     "title": "Gold Spot Prices | Silver | Platinum & Palladium — Kitco",
     "url": "https://www.kitco.com/price/precious-metals"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "india-buys-the-dip",
@@ -9165,7 +9411,8 @@
     "title": "India gold market update: Mixed demand signals — World Gold Council",
     "url": "https://www.gold.org/goldhub/gold-focus/2026/07/india-gold-market-update-mixed-demand-signals"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "list-up-resale-down",
@@ -9200,7 +9447,8 @@
     "title": "Rolex USA Prices to Rise 7% in 2026 — WatchPro",
     "url": "https://www.watchpro.com/rolex-usa-prices-to-rise-7-in-2026/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "furmanovich-cuts-deco",
@@ -9231,7 +9479,8 @@
     "title": "Silvia Furmanovich's New Collection Travels Back to the 1920s — National Jeweler",
     "url": "https://nationaljeweler.com/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "de-beers-eighty-eight-up",
@@ -9271,7 +9520,8 @@
     "title": "Anglo American Flags First-Half Loss at De Beers — Rapaport",
     "url": "https://rapaport.com/news/anglo-american-flags-first-half-loss-at-de-beers/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "gold-defends-four-thousand-again",
@@ -9302,7 +9552,8 @@
     "title": "Gold prices today, Thursday, July 23, 2026 — Yahoo Finance",
     "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-thursday-july-23-2026-gold-price-opens-below-4100-as-inflation-worries-clash-with-safe-haven-demand-153539220.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "apollo-gallery-goes-dark",
@@ -9333,7 +9584,8 @@
     "title": "2025 Louvre heist — background",
     "url": "https://en.wikipedia.org/wiki/2025_Louvre_heist"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "emeralds-hold-at-146",
@@ -9364,7 +9616,8 @@
     "title": "Gemfields Emerald Auction Holds Firm as Ruby Outlook Prompts Cautious Auction Strategy — TipRanks",
     "url": "https://www.tipranks.com/news/company-announcements/gemfields-emerald-auction-holds-firm-as-ruby-outlook-prompts-cautious-auction-strategy"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "small-stones-lead-again",
@@ -9395,7 +9648,8 @@
     "title": "De Beers' Q2 Production Rose, but Prices at Sights Fell Sharply — JCK",
     "url": "https://www.jckonline.com/editorial-article/de-beers-second-quarter-2026/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "seventy-three-percent-cheaper",
@@ -9426,7 +9680,8 @@
     "title": "Lab Grown vs Natural Diamond Statistics 2026 — Draco Diamond",
     "url": "https://www.dracodiamond.com/blogs/news/lab-grown-diamond-statistics-2026"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "sothebys-thirty-one-million",
@@ -9466,7 +9721,8 @@
     "title": "Sotheby's New York High Jewelry Sale Led by 10-ct. Blue Diamond (17 June 2026) — JCK",
     "url": "https://www.jckonline.com/editorial-article/sothebys-ny-high-jewelry-sale/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "exports-up-resale-flat",
@@ -9501,7 +9757,8 @@
     "title": "July 2026 Watch Market Update — WatchCharts",
     "url": "https://watchcharts.com/articles/p/9418/july-2026-watch-market-update"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "fifty-percent-for-canada",
@@ -9528,7 +9785,8 @@
     "title": "National Jeweler — Trump to Put 50% Tariff on Canadian Goods",
     "url": "https://nationaljeweler.com/articles/15157-trump-to-put-50-tariff-on-canadian-goods"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "twelve-point-five-for-color",
@@ -9555,7 +9813,8 @@
     "title": "Rapaport — Fresh US Import Tariffs Could Affect Colored Gemstones and Pearls",
     "url": "https://rapaport.com/news/fresh-us-import-tariffs-could-affect-colored-gemstones-and-pearls/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "oil-talks-gold-listens",
@@ -9586,7 +9845,8 @@
     "title": "Kitco — Precious metals spot board",
     "url": "https://www.kitco.com/price/precious-metals"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "swatch-nine-up-six-down",
@@ -9613,7 +9873,8 @@
     "title": "Rapaport — Swatch Group Records Strong Sales Across All Continents",
     "url": "https://rapaport.com/news/swatch-group-records-strong-sales-across-all-continents/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "birks-narrows-by-73",
@@ -9644,7 +9905,8 @@
     "title": "JCK — Birks Group Narrows Annual Loss in Fiscal 2026 as Sales Rise",
     "url": "https://www.jckonline.com/editorial-article/birks-narrows-annual-loss/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "fruit-that-opens",
@@ -9670,7 +9932,8 @@
     "title": "National Jeweler — Monica Rich Kosann's High Jewelry Is Fruitful",
     "url": "https://nationaljeweler.com/articles/15154-monica-rich-kosann-s-high-jewelry-is-fruitful"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "rolex-on-the-main-corridor",
@@ -9696,7 +9959,8 @@
     "title": "National Jeweler — Liljenquist & Beckstead Opens New Rolex Boutique",
     "url": "https://nationaljeweler.com/articles/15156-liljenquist-beckstead-opens-rolex-new-boutique"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "gold-goes-144-in-a-day",
@@ -9727,7 +9991,8 @@
     "title": "Fortune — Current price of gold, July 20, 2026",
     "url": "https://fortune.com/article/current-price-of-gold-07-20-202/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "india-pays-in-old-gold",
@@ -9755,7 +10020,8 @@
     "title": "World Gold Council — India gold market update: mixed demand signals (Kavita Chacko, July 17, 2026)",
     "url": "https://www.gold.org/goldhub/gold-focus/2026/07/india-gold-market-update-mixed-demand-signals"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "gold-up-fifty-diamonds-down",
@@ -9786,7 +10052,8 @@
     "title": "Rapaport — Chow Sang Sang Revenue Rises as Gold Jewelry Demand Holds Steady",
     "url": "https://rapaport.com/news/chow-sang-sang-revenue-rises-as-gold-jewelry-demand-holds-steady/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "disposable-tools-at-venetia",
@@ -9813,7 +10080,8 @@
     "title": "Rapaport — Mining Union Condemns Potential De Beers Layoffs at Venetia (Suzanne Watkin)",
     "url": "https://rapaport.com/news/mining-union-condemns-potential-de-beers-layoffs-at-venetia/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "sixty-one-percent-said-lab",
@@ -9840,7 +10108,8 @@
     "title": "National Jeweler — Sherry Smith: Shattering the Illusion of the 'Either/Or' Diamond Market",
     "url": "https://nationaljeweler.com/articles/15153-sherry-smith-shattering-the-illusion-of-the-either-or-diamond-market"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "brazil-rough-rides-free",
@@ -9868,7 +10137,8 @@
     "title": "National Jeweler — Tariffs on Brazil to Increase But Rough Gemstones Exempt",
     "url": "https://nationaljeweler.com/articles/15149-tariffs-on-brazil-to-increase-but-rough-gemstones-exempt"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "graff-pins-the-butterfly",
@@ -9895,7 +10165,8 @@
     "title": "National Jeweler — Graff's New Butterfly High Jewelry Brooches Metamorphosize",
     "url": "https://nationaljeweler.com/articles/15152-graff-s-new-butterfly-high-jewelry-brooches-metamorphosize"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "piaget-doubles-at-bonhams",
@@ -9922,7 +10193,8 @@
     "title": "WatchPro — Bonhams sees prices rocket for Cartier and Piaget watches",
     "url": "https://www.watchpro.com/bonhams-sees-prices-rocket-for-cartier-piaget/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "bennahmias-wanted-de-bethune",
@@ -9949,7 +10221,8 @@
     "title": "WatchPro — François-Henri Bennahmias wanted to buy De Bethune, and why you should too",
     "url": "https://www.watchpro.com/why-you-should-be-buying-de-bethune/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "plus-eleven-two-in-june",
@@ -9980,7 +10253,8 @@
     "title": "Federation of the Swiss Watch Industry FH — Watch industry statistics",
     "url": "https://www.fhs.swiss/eng/statistics.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "wos-133-million-answer",
@@ -10016,7 +10290,8 @@
     "title": "Reuters (via US News) — Watches of Switzerland held talks over potential takeover offers",
     "url": "https://money.usnews.com/investing/news/articles/2026-07-13/exclusive-watches-of-switzerland-held-talks-over-potential-takeover-offers-sources-say"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "last-carats-at-diavik",
@@ -10048,7 +10323,8 @@
     "title": "Rio Tinto — Second quarter operations review",
     "url": "https://www.riotinto.com/en/news"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "twelve-hundred-at-venetia",
@@ -10080,7 +10356,8 @@
     "title": "Bloomberg — De Beers to Shutter South African Diamond Mine to Save Cash",
     "url": "https://www.bloomberg.com/news/articles/2026-07-13/de-beers-to-shutter-south-african-diamond-mine-to-save-cash"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "quiet-week-at-four-thousand",
@@ -10111,7 +10388,8 @@
     "title": "The Rio Times — Gold & Silver: The Precious-Metals Wrap, July 21, 2026",
     "url": "https://www.riotimesonline.com/gold-silver-precious-metals-tuesday-july-21-2026/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "more-dollars-fewer-boxes",
@@ -10139,7 +10417,8 @@
     "title": "Tenoris — US Jewelry Sales Continue to Grow in H1 2026",
     "url": "https://www.tenoris.bi/us-jewelry-sales-continue-to-grow-in-h1-2026/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "gold-counters-run-hot",
@@ -10170,7 +10449,8 @@
     "title": "Rapaport — Chow Sang Sang Revenue Rises as Gold Jewelry Demand Holds Steady",
     "url": "https://rapaport.com/news/chow-sang-sang-revenue-rises-as-gold-jewelry-demand-holds-steady/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "pearls-print-a-quiet-win",
@@ -10206,7 +10486,8 @@
     "title": "JCK — Roseate Evokes 'The Odyssey' With Luminous Pearls and Hope-Filled Motifs",
     "url": "https://www.jckonline.com/editorial-article/roseate-evokes-the-odyssey/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "four-thousand-defended",
@@ -10241,7 +10522,8 @@
     "title": "FX Leaders — XAU/USD Holds Above $4,000 Despite the Hawkish Fed (July 19, 2026)",
     "url": "https://www.fxleaders.com/news/2026/07/19/gold-price-forecast-positive-signals-as-xau-usd-holds-above-4000-despite-the-hawkish-fed-or-strait-of-hormuz-tensions/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "india-ships-the-turn",
@@ -10280,7 +10562,8 @@
     "title": "Rapaport — De Beers Poised to Ease Rough Pricing at July Sight",
     "url": "https://rapaport.com/news/de-beers-poised-to-ease-rough-pricing-at-july-sight/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "gaborone-answers-penny",
@@ -10315,7 +10598,8 @@
     "title": "US News — Botswana Says Anglo Picks De Beers Buyer",
     "url": "https://money.usnews.com/investing/news/articles/2026-07-17/botswana-says-anglo-picks-de-beers-buyer-weighs-options-for-optimal-structure"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "greenest-stones-locked-out",
@@ -10342,7 +10626,8 @@
     "title": "Rapaport — Alrosa Achieves Carbon-Neutral Status for Its Operations and Diamonds",
     "url": "https://rapaport.com/news/alrosa-achieves-carbon-neutral-status-for-its-operations-and-diamonds/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "oris-counts-in-tonnes",
@@ -10370,7 +10655,8 @@
     "title": "WatchPro USA — Why Oris CEO Rolf Studer won't stop talking about sustainability",
     "url": "https://usa.watchpro.com/oris-ceo-rolf-studer-sustainable-watches-interview/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "richline-splits-the-till",
@@ -10395,7 +10681,8 @@
     "title": "Rapaport — Richline Names Two Additions to Its Executive Team",
     "url": "https://rapaport.com/news/richline-names-two-additions-to-its-executive-team/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "only-thirty-percent-havent",
@@ -10426,7 +10713,8 @@
     "title": "ONS — Business Insights and Conditions Survey",
     "url": "https://www.ons.gov.uk/businessindustryandtrade/business/businessservices/bulletins/businessinsightsandimpactontheukeconomy/latest"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "sixty-six-dollars-a-carat",
@@ -10461,7 +10749,8 @@
     "title": "Mines to Market — Gemfields announces the results of an auction of mixed-quality rough ruby",
     "url": "https://minestomarket.news/gemfields-announces-the-results-of-an-auction-of-mixed-quality-rough-ruby/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "war-premium-inverts",
@@ -10502,7 +10791,8 @@
     "title": "Trading Economics — Gold",
     "url": "https://tradingeconomics.com/commodity/gold"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "ap-105-million-paradox",
@@ -10529,7 +10819,8 @@
     "title": "WatchPro — Audemars Piguet UK sales jump 29% to £105 million",
     "url": "https://www.watchpro.com/audemars-piguet-uk-sales-jump-29-to-105-million/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "serial-022-comes-to-market",
@@ -10560,7 +10851,8 @@
     "title": "WatchPro — The Big Interview: Geoff Hess on the million-dollar trophy watch market",
     "url": "https://www.watchpro.com/news/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "the-thirty-eight-percent-problem",
@@ -10588,7 +10880,8 @@
     "title": "WatchPro USA — Bezel marketplace rejects Rolex watches during authentication process",
     "url": "https://usa.watchpro.com/bezel-marketplace-rejects-one-in-four-rolexes/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "seventy-dollars-to-southampton",
@@ -10619,7 +10912,8 @@
     "title": "Hamptons Jewelry Show — official site",
     "url": "https://hamptonsjewelryshow.com/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "fifty-years-on-forty-seventh",
@@ -10649,7 +10943,8 @@
     "title": "National Jeweler — Diamond Dealer Jeff Pancis Pens Memoir",
     "url": "https://nationaljeweler.com/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "color-gets-a-chief",
@@ -10679,7 +10974,8 @@
     "title": "IDEX Online — ICA's New CEO Faces Industry Challenges",
     "url": "https://www.idexonline.com/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "guess-lets-the-machine-draw",
@@ -10705,7 +11001,8 @@
     "title": "WatchPro — Guess uses AI to design its latest fashion watch",
     "url": "https://www.watchpro.com/guess-uses-ai-to-design-its-latest-fashion-watch/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "penny-gets-the-nod",
@@ -10745,7 +11042,8 @@
     "title": "Mining Weekly — Botswana says Anglo picks De Beers buyer, weighs options for optimal structure",
     "url": "https://www.miningweekly.com/article/botswana-says-anglo-picks-de-beers-buyer-weighs-options-for-optimal-structure-2026-07-17"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "gold-touches-four-thousand",
@@ -10785,7 +11083,8 @@
     "title": "Kitco News — Gold steadies near $4,000 as chip selloff hits equities (PM Report)",
     "url": "https://www.kitco.com/news/article/2026-07-17/gold-steadies-near-4000-chip-selloff-hits-equities-kitco-pm-report"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "one-carat-wakes-up",
@@ -10816,7 +11115,8 @@
     "title": "Rapaport — Latest News",
     "url": "https://rapaport.com/all-news/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "china-slows-to-four-three",
@@ -10847,7 +11147,8 @@
     "title": "WatchPro — Richemont's watchmakers return to significant growth",
     "url": "https://www.watchpro.com/richemont-watchmakers-grow-8/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "crown-premium-shrinks",
@@ -10878,7 +11179,8 @@
     "title": "WatchPro — Rolex, Patek Philippe and Audemars Piguet tighten grip on secondary market",
     "url": "https://www.watchpro.com/rolex-patek-and-ap-tighten-secondary-market-grip/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "ninety-percent-sold",
@@ -10909,7 +11211,8 @@
     "title": "The Art Newspaper — Christie's and Sotheby's 2026 half year results",
     "url": "https://www.theartnewspaper.com/2026/07/15/trophy-lots-and-luxury-goods-fuel-rebound-for-christies-and-sothebys-2026-half-year-results"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "zero-duty-day-one",
@@ -10944,7 +11247,8 @@
     "title": "Outlook Business — Govt notifies customs tariff rules for India-UK trade pact",
     "url": "https://www.outlookbusiness.com/economy-and-policy/govt-notifies-customs-tariff-rules-for-india-uk-trade-pact-clears-way-for-july-15-rollout"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "the-five-pound-ring",
@@ -10962,7 +11266,7 @@
   "body": [
    "The best trade of the week in the diamond business was made by an amateur at a car boot sale. An unnamed British woman paid £5 — about $7 — for a ring she assumed was paste, and carried it to a WeBuyVintage valuation roadshow in Oxfordshire, where jewelry expert Asha Nayak delivered the news: 18-karat gold, set with a natural diamond of 3.02 carats, worth in the region of £15,000, or $20,225. She had bought it, she said, \"thinking it was just an attractive costume jewelry piece.\" The market calls that a three-thousand-fold return; the rest of us call it a very good Sunday.",
    "Stories like this are rarer than they feel but more explicable than they look. Old stones hide in plain sight: earlier cuts read as dull to eyes trained on modern brilliants, decades of grime mute fire, and heavy period settings look, to the uninitiated, like exactly the sort of thing costume jewelry imitates. Estates empty into house clearances, house clearances empty into boots and bins, and real goods circulate unrecognized until they cross a loupe. Nayak's point, made politely, is the trade's oldest one — quality, craftsmanship and history reveal themselves only under expert examination.",
-   "The economics underneath the fairy tale are worth a paragraph. On this desk's own tape, the wholesale benchmark for a one-carat natural round sits at $5,232 — and value scales steeply, not linearly, with size, before a period mounting adds its own premium. A three-carat natural stone is a serious object in any market, which is precisely why the secondhand channel now teems with testers: as lab-grown goods flood resale platforms unlabeled, the cost of not knowing what you are holding has risen on both sides of the counter.",
+   "The economics underneath the fairy tale are worth a paragraph. On this desk's own tape as it stood in August 2026, the wholesale benchmark for a one-carat natural round was $5,232 — and value scales steeply, not linearly, with size, before a period mounting adds its own premium. A three-carat natural stone is a serious object in any market, which is precisely why the secondhand channel now teems with testers: as lab-grown goods flood resale platforms unlabeled, the cost of not knowing what you are holding has risen on both sides of the counter.",
    "That is the commercial lesson buried in the human-interest story. Valuation events, verification services and point-of-sale testing are quietly becoming a growth business, because provenance anxiety cuts both ways — the fear of overpaying for glass and the fear, sharper still, of selling a diamond for the price of glass. Every £5 ring that turns out to be real is marketing no appraisal service could buy.",
    "The desk's view: For every £5 ring worth £15,000 there are ten thousand £5 rings worth exactly £5, and the house always knows the difference eventually. But the odds favor the curious wherever goods move faster than knowledge — estates, markets, clearance trays. Buy the tester before you buy the tray, and never insult the dull ring at the back; it has heard it all before."
   ],
@@ -10971,7 +11275,8 @@
     "title": "National Jeweler — U.K. Woman Pays £5 for £15K Diamond Ring at Car Boot Sale",
     "url": "https://nationaljeweler.com/articles/15143-u-k-woman-pays-5-for-15k-diamond-ring-at-car-boot-sale"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "woodley-wears-the-frida",
@@ -10998,7 +11303,8 @@
     "title": "National Jeweler — HOWL Taps Shailene Woodley for 'Home Sweet Home' Campaign",
     "url": "https://nationaljeweler.com/articles/15144-howl-taps-shailene-woodley-for-home-sweet-home-campaign"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "ekati-goes-dark",
@@ -11039,7 +11345,8 @@
     "title": "CBC News — N.W.T.'s Ekati mine set to shut down as it enters receivership",
     "url": "https://www.cbc.ca/news/canada/north/n-w-t-s-ekati-mine-set-to-shut-down-as-it-enters-receivership-9.7270281"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "angola-bids-for-the-house",
@@ -11078,7 +11385,8 @@
     "title": "Ecofin Agency — Anglo American Takes Fresh $2.3 Billion Hit on De Beers Ahead of 2026 Sale",
     "url": "https://www.ecofinagency.com/news-industry/2302-53154-anglo-american-takes-fresh-2-3-billion-hit-on-de-beers-ahead-of-2026-sale"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "lab-grown-finds-its-floor",
@@ -11106,7 +11414,8 @@
     "title": "INSTORE — The Q2 2026 LGD Wholesale Price List: Not All Lab-Grown Diamond Prices Are Falling",
     "url": "https://instoremag.com/the-q2-2026-lgd-wholesale-price-list-not-all-lab-grown-diamond-prices-are-falling/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "gold-wears-the-war-premium",
@@ -11145,7 +11454,8 @@
     "title": "Daily Metal Price — Platinum",
     "url": "https://www.dailymetalprice.com/metalprices.php?c=pt&u=oz&d=20&x=USD"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "chronomat-on-a-diet",
@@ -11176,7 +11486,8 @@
     "title": "Wanted Online — Breitling rolls out a new 'fit' for the Chronomat",
     "url": "https://www.wantedonline.co.za/watches-and-jewels/2026-07-15-breitling-rolls-out-a-new-fit-for-the-chronomat/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "odyssey-at-the-counter",
@@ -11211,7 +11522,8 @@
     "title": "Roseate Jewelry",
     "url": "https://roseatejewelry.com/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "guzema-lands-on-wooster",
@@ -11245,7 +11557,8 @@
     "title": "JCK — Guzema Invests in Community at New SoHo Boutique",
     "url": "https://www.jckonline.com/editorial-article/guzema-new-soho-boutique/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "june-retail-thin-cushion",
@@ -11279,7 +11592,8 @@
     "title": "The Washington Times / AP — Retail sales up a modest 0.2% in June",
     "url": "https://www.washingtontimes.com/news/2026/jul/16/retail-sales-slight-02-june-amid-economic-uncertainty-fading-benefits/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "eleven-lots-no-premium",
@@ -11314,7 +11628,8 @@
     "title": "The Art Newspaper — Trophy lots and luxury goods fuel rebound for Christie's and Sotheby's 2026 half-year results",
     "url": "https://www.theartnewspaper.com/2026/07/15/trophy-lots-and-luxury-goods-fuel-rebound-for-christies-and-sothebys-2026-half-year-results"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "richemont-twenty-percent-quarter",
@@ -11345,7 +11660,8 @@
     "title": "Rapaport — Watches of Switzerland's Revenue Continues to Grow",
     "url": "https://rapaport.com/news/watches-of-switzerlands-revenue-continues-to-grow/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "vietnam-certificate-scandal",
@@ -11381,7 +11697,8 @@
     "title": "South China Morning Post — Vietnam jeweller rattled by ex-official's arrest over India-Hong Kong gem-smuggling ring",
     "url": "https://www.scmp.com/news/asia/southeast-asia/article/3360597/vietnam-jeweller-rattled-ex-officials-arrest-over-india-hong-kong-gem-smuggling-ring"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "trophy-lots-carry-the-half",
@@ -11412,7 +11729,8 @@
     "title": "WatchPro USA — Phillips achieves $235 million spring season",
     "url": "https://usa.watchpro.com/phillips-achieves-235-million-spring-season-watch-auction/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "gold-stalls-on-day-four",
@@ -11447,7 +11765,8 @@
     "title": "Fortune — Current price of gold, July 15, 2026",
     "url": "https://fortune.com/article/current-price-of-gold-07-15-2026/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "pomellato-stile-libero",
@@ -11478,7 +11797,8 @@
     "title": "Natural Diamond Council — 2026 Paris Couture Week: The Latest High Jewelry Collections",
     "url": "https://www.naturaldiamonds.com/culture-and-style/paris-couture-week-2026/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "through-the-wall-heist",
@@ -11510,7 +11830,8 @@
     "title": "FBI — Wanted: Alberto Perez-Elias",
     "url": "https://www.fbi.gov/wanted/additional/alberto-perez-elias"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "cartier-secondhand-heat",
@@ -11541,7 +11862,8 @@
     "title": "WatchPro — Richemont's watchmakers return to significant growth",
     "url": "https://www.watchpro.com/richemont-watchmakers-grow-8/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "foundrae-takes-mount-street",
@@ -11576,7 +11898,8 @@
     "title": "National Jeweler — Foundrae Opens First Standalone Store Outside US",
     "url": "https://nationaljeweler.com/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "lucara-tenth-thousand-carat",
@@ -11607,7 +11930,8 @@
     "title": "Rapaport — Lucara Digs Up Massive 1,305ct. Rough from Karowe",
     "url": "https://rapaport.com/news/lucara-digs-up-massive-1305ct-rough-from-karowe/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "dubai-41-billion-year",
@@ -11638,7 +11962,8 @@
     "title": "Rapaport — Antwerp's Diamond Trade Sees Positive Momentum",
     "url": "https://rapaport.com/news/antwerps-diamond-trade-sees-positive-momentum/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "mehul-shah-takes-the-gavel",
@@ -11669,7 +11994,8 @@
     "title": "Rapaport — Dubai Sees Record-High Diamond Trade in 2025",
     "url": "https://rapaport.com/news/dubai-sees-record-high-diamond-trade-in-2025/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "wos-majority-american",
@@ -11704,7 +12030,8 @@
     "title": "Reuters (via US News) — Watches of Switzerland held talks over potential takeover offers",
     "url": "https://money.usnews.com/investing/news/articles/2026-07-13/exclusive-watches-of-switzerland-held-talks-over-potential-takeover-offers-sources-say"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "couture-week-goes-monumental",
@@ -11731,7 +12058,8 @@
     "title": "Natural Diamond Council — 2026 Paris Couture Week: The Latest High Jewelry Collections",
     "url": "https://www.naturaldiamonds.com/culture-and-style/paris-couture-week-2026/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "power-diamond-triples",
@@ -11766,7 +12094,8 @@
     "title": "Edahn Golan — After a 96% Decline, What's Next for LGD Prices?",
     "url": "https://www.edahngolan.com/after-a-96-decline-whats-next-for-lgd-prices/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "seventy-carats-fifty-grand",
@@ -11797,7 +12126,8 @@
     "title": "The Diamond Press — June 2026 News Roundup (New York colored-diamond results)",
     "url": "https://www.thediamondpress.com/post/june-2026-news-roundup"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "palladium-steals-the-close",
@@ -11832,7 +12162,8 @@
     "title": "Trading Economics — Gold",
     "url": "https://tradingeconomics.com/commodity/gold"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "fancy-color-gets-a-tape",
@@ -11858,7 +12189,8 @@
     "title": "Rapaport — FCRF and Cutwise Unveil Pricing Tool for Colored Diamonds",
     "url": "https://rapaport.com/news/fcrf-and-cutwise-unveil-pricing-tool-for-colored-diamonds/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "gold-retakes-4072",
@@ -11893,7 +12225,8 @@
     "title": "Fortune — Current price of silver, July 14, 2026",
     "url": "https://fortune.com/article/current-price-of-silver-7-14-2026/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "guyana-diggers-choose-gold",
@@ -11929,7 +12262,8 @@
     "title": "Rapaport — Small-Diamond Recovery Accelerates in June",
     "url": "https://rapaport.com/news/small-diamond-recovery-accelerates-in-june/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "pearls-run-the-table",
@@ -11961,7 +12295,8 @@
     "title": "Sotheby's — The Gem Drop July (online, July 13–16, 2026)",
     "url": "https://www.sothebys.com/en/buy/auction/2026/the-gem-drop-july"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "platero-halstead-first",
@@ -11992,7 +12327,8 @@
     "title": "JCK — First Traditional Native American Jewelry Artist Wins Halstead Grant",
     "url": "https://www.jckonline.com/editorial-article/native-american-halstead-grant/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "time-boxes-mystery-watch",
@@ -12023,7 +12359,8 @@
     "title": "WatchPro USA — Phillips achieves $235 million spring season",
     "url": "https://usa.watchpro.com/phillips-achieves-235-million-spring-season-watch-auction/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "watch-pawn-goes-algorithmic",
@@ -12054,7 +12391,8 @@
     "title": "WatchPro USA — Arena Club is bringing the thrill of the unboxing to luxury watch collecting",
     "url": "https://usa.watchpro.com/arena-club-is-bringing-the-thrill-of-the-unboxing-to-luxury-watch-collecting/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "de-beers-cuts-the-book",
@@ -12090,7 +12428,8 @@
     "title": "Rapaport — Small-Diamond Recovery Accelerates in June",
     "url": "https://rapaport.com/news/small-diamond-recovery-accelerates-in-june/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "venetia-two-year-pause",
@@ -12126,7 +12465,8 @@
     "title": "National Jeweler — De Beers Announces Potential Layoffs, 2-Year Production Pause at Venetia",
     "url": "https://nationaljeweler.com/articles/15125-de-beers-announces-potential-layoffs-2-year-production-pause-at-venetia"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "small-stones-lead-the-turn",
@@ -12157,7 +12497,8 @@
     "title": "Rapaport — Antwerp's Diamond Trade Sees Positive Momentum",
     "url": "https://rapaport.com/news/antwerps-diamond-trade-sees-positive-momentum/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "silver-air-pocket",
@@ -12192,7 +12533,8 @@
     "title": "Fortune — Current price of gold: July 13, 2026",
     "url": "https://fortune.com/article/current-price-of-gold-07-13-2026/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "watches-of-switzerland-says-no",
@@ -12228,7 +12570,8 @@
     "title": "Bloomberg — Top UK Rolex seller surges after report of takeover offers",
     "url": "https://www.bloomberg.com/news/articles/2026-07-13/top-uk-rolex-seller-surges-after-report-of-takeover-offers"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "brilliant-earth-100-watches",
@@ -12264,7 +12607,8 @@
     "title": "WWD — Brilliant Earth Enters the Luxury Watch Market With the Solstice Watch Collection",
     "url": "https://wwd.com/pop-culture/new-fashion-releases/brilliant-earth-swiss-watch-solstice-collection-1239056776/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "baume-mercier-moves-to-valenza",
@@ -12299,7 +12643,8 @@
     "title": "WatchPro USA — Damiani Group seals Baume & Mercier acquisition",
     "url": "https://usa.watchpro.com/damiani-group-seals-baume-mercier-acquisition/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "joopiter-24-million-resume",
@@ -12331,7 +12676,8 @@
     "title": "WWD — Joopiter Expands Watch Business With Dedicated Division, Appoints Nate Borgelt",
     "url": "https://wwd.com/accessories-news/watches/joopiter-expands-watch-business-pharrell-williams-1239050070/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "lalique-ten-minute-heist",
@@ -12367,7 +12713,8 @@
     "title": "Smithsonian Magazine — Jewelry and artworks worth $5 million stolen from Lalique museum",
     "url": "https://www.smithsonianmag.com/smart-news/in-the-latest-brazen-heist-jewelry-and-artworks-worth-5-million-were-stolen-from-famed-french-designer-lalique-museum-180989105/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "gottlieb-changes-her-mind",
@@ -12399,7 +12746,8 @@
     "title": "National Jeweler — Stephanie Gottlieb Changes Her Mind on Lab-Grown Diamonds",
     "url": "https://nationaljeweler.com/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "gold-4100-redraws-jewelry-map",
@@ -12426,7 +12774,8 @@
     "title": "Forbes Advisor — Gold Price Today",
     "url": "https://www.forbes.com/advisor/investing/gold-price/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "world-cup-watch-gold-rush",
@@ -12448,7 +12797,8 @@
     "title": "JCK — jewelry industry news and trends",
     "url": "https://www.jckonline.com/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "lab-grown-86-percent-question",
@@ -12475,7 +12825,8 @@
     "title": "Branvas — 2026 jewelry industry statistics",
     "url": "https://branvas.com/blogs/news/jewelry-industry-statistics-2026"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "de-beers-blinks-july-sight",
@@ -12507,7 +12858,8 @@
     "title": "CNBC Africa — Botswana seeing soft recovery in diamond demand",
     "url": "https://www.cnbcafrica.com/2026/botswana-seeing-soft-recovery-in-diamond-demand-mines-minister-says"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "gold-half-time-report",
@@ -12534,7 +12886,8 @@
     "title": "CME Group — Precious Metals Outlook 2026",
     "url": "https://www.cmegroup.com/articles/2026/precious-metals-outlook-2026-market-dynamics-following-a-record-breaking-year.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "platinum-and-the-other-podium",
@@ -12565,7 +12918,8 @@
     "title": "The Diamond Press — June 2026 News Roundup",
     "url": "https://www.thediamondpress.com/post/june-2026-news-roundup"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "blue-is-the-color-of-money",
@@ -12596,7 +12950,8 @@
     "title": "Natural Diamond Council — The Azure Blue",
     "url": "https://www.naturaldiamonds.com/historic-diamonds/azure-blue-diamond/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "phillips-235-million-spring",
@@ -12627,7 +12982,8 @@
     "title": "Robb Report — Highest-Grossing Watch Auction in History",
     "url": "https://robbreport.com/style/watch-collector/phillips-highest-grossing-watch-auction-in-history-1238055072/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "swiss-exports-flat-may",
@@ -12658,7 +13014,8 @@
     "title": "FH — Watch industry statistics",
     "url": "https://www.fhs.swiss/eng/statistics.html"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "lab-grown-96-down-and-firming",
@@ -12689,7 +13046,8 @@
     "title": "The Diamond Press — June 2026 News Roundup (Russia labeling)",
     "url": "https://www.thediamondpress.com/post/june-2026-news-roundup"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "color-takes-the-counter",
@@ -12720,7 +13078,8 @@
     "title": "JCK — Marion Fasel on the 3 Trends of Vegas 2026",
     "url": "https://www.jckonline.com/editorial-article/marion-fasel-trends-vegas-2026/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "asia-ledger-record-year",
@@ -12747,7 +13106,8 @@
     "title": "Rapaport — Swiss Watch Exports See Revival in May (HK retail context)",
     "url": "https://rapaport.com/news/swiss-watch-exports-see-revival-in-may/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "tariff-arithmetic-zero-and-eighteen",
@@ -12778,7 +13138,8 @@
     "title": "The Diamond Press — June 2026 News Roundup (India trade data)",
     "url": "https://www.thediamondpress.com/post/june-2026-news-roundup"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "who-buys-diamonds-now",
@@ -12809,7 +13170,8 @@
     "title": "JCK — Marion Fasel on the 3 Trends of Vegas 2026",
     "url": "https://www.jckonline.com/editorial-article/marion-fasel-trends-vegas-2026/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "vegas-2026-mechanicals-and-meaning",
@@ -12836,7 +13198,8 @@
     "title": "JCK — 2026 JCK Show Takeaways",
     "url": "https://www.jckonline.com/editorial-article/show-takeaways-podcast-2026/"
    }
-  ]
+  ],
+  "lead": false
  },
  {
   "slug": "pudong-ends-retail-gold-trading",
@@ -12867,7 +13230,8 @@
    "Institutions are still joining. The exchange admitted Chow Tai Seng's Hong Kong arm as an international member, reported on 5 September. Membership is the institutional route into the exchange; the agency channels closing here are the retail route, run through commercial banks on behalf of individuals.",
    "The desk's view: If you trade gold through a Chinese bank app: sell, close out or take delivery before 25 September. If you price Chinese retail demand: the exchange route is closing to individuals, and the counter and the shop are what remain. What this is not: a ban on owning gold. Bars and jewellery counters are untouched."
   ],
-  "minutes": 1
+  "minutes": 1,
+  "lead": false
  },
  {
   "slug": "sothebys-two-million-without-reserve",
@@ -12894,7 +13258,8 @@
    "A second sale in eight days. Sotheby's runs this day sale of more than 300 pieces on 9 September, and a separate high jewellery sale of more than 200 lots follows on 17 September. That sale is led by ruby earrings at a HK$20 million estimate, roughly ten times the high on this lot.",
    "The desk's view: If you bid in the room: no reserve means the lot sells at whatever it draws, not at a floor. If you value pink goods: three of the five largest named lots carry no reserve, so the day prints real clearing levels. What this is not: a result. Every figure here is an estimate set before the sale."
   ],
-  "minutes": 1
+  "minutes": 1,
+  "lead": false
  },
  {
   "slug": "heritage-two-fifty-on-a-yellow",
@@ -12921,7 +13286,8 @@
    "Yellows have been soft. Fancy colour pricing fell 0.1% in an August survey, with pinks higher and yellows and blues lower. A single result on 28 September prices this stone, not the fancy yellow market; the survey and this lot measure different things.",
    "The desk's view: If you buy fancy colour: the range works out at $9,054 to $11,317 a carat, before buyer's premium. If you sell yellows: documented mine origin and an Internally Flawless grade are what this estimate is priced on. What this is not: a result. The sale is three weeks out and the estimate is Heritage's."
   ],
-  "minutes": 1
+  "minutes": 1,
+  "lead": false
  },
  {
   "slug": "thirty-six-off-palladium",
@@ -12956,7 +13322,8 @@
    "The ratio narrowed to 66.4. It takes 66.4 ounces of silver to buy an ounce of gold, against 66.7 at the 8 September marks. Gold covered $72.90 between $4,340.80 and $4,413.70 on the session, more than seven times the fall it printed.",
    "The desk's view: If you cost palladium: re-quote down, the metal is $36.00 cheaper than at the 8 September mark. If you buy palladium scrap: bid and ask sit $40.00 apart, a spread of 2.9963% of the bid. What this is not: a trend. One session, and no source read named a cause."
   ],
-  "minutes": 1
+  "minutes": 1,
+  "lead": false
  },
  {
   "slug": "signet-comps-up-sales-down",
@@ -12987,6 +13354,223 @@
    "The guidance moved, sales did not. Adjusted diluted EPS guidance rises to $10.45 to $12.15 from $9.20 to $11.00, while the full-year sales range is unchanged at $6.7 to $6.9 billion. The new midpoint of $11.30 sits 11.9% above the old $10.10, and the company intends a $125 million accelerated repurchase this month.",
    "Tariff refunds carried the margin. Gross margin was 39.4% of sales, up 80 basis points, helped by about $15 million of refunds for tariffs previously paid. The company names higher gold costs as an offset inside that same margin, against lower inventory and distribution costs. Adjusted diluted EPS came to $2.19, from $1.61 a year earlier.",
    "The desk's view: If you supply Signet: the chain is 48 stores smaller than at year-end, on comps that are growing. If you price bridal: average unit retail rose about 6%, in both bridal and fashion. What this is not: a sales recovery. The chain sold less in total than a year earlier."
-  ]
+  ],
+  "lead": false
+ },
+ {
+  "slug": "ninety-five-million-in-hong-kong",
+  "desk": "auctions",
+  "date": "2026-09-16",
+  "lead": true,
+  "kicker": "Sale preview",
+  "byline": "The Auctions Desk",
+  "tags": [
+   "NUM",
+   "ACTOR"
+  ],
+  "title": "8.41-carat pink diamond carries a HK$95m Christie's estimate",
+  "dek": "The pear-shaped type IIa stone is graded fancy vivid purple-pink, which works out at HK$11.3m a carat. A Cartier brooch set with a 10.10-carat Burmese ruby carries HK$60m at the same 24 November sale.",
+  "sources": [
+   {
+    "title": "Christie's Puts $12M Price Tag on Pink Diamond, Rapaport, 15 September 2026",
+    "url": "https://rapaport.com/news/christies-puts-12m-price-tag-on-pink-diamond/"
+   }
+  ],
+  "body": [
+   "Christie's set the range. An 8.41-carat fancy vivid purple-pink diamond ring carries a HK$95m high estimate at Christie's Hong Kong sale on 24 November.",
+   "One stone, two currencies. Christie's carries the ring at HK$95m, reported with a US figure of $12m. That pair implies HK$7.92 to the dollar, and the Hong Kong peg trades between HK$7.75 and HK$7.85, so the dollar figure is rounded rather than converted.",
+   "The ruby costs less a carat. A brooch set with a 10.10-carat Burmese ruby carries HK$60m, the second lot Christie's named. The ruby works out at HK$5.94m a carat, which is 52.6% of the diamond's rate and 47.4% below it.",
+   "No low estimates published. Christie's published no low estimate for either lot, so neither a band nor a reserve can be read from the announcement. Bidding opens on 24 November in Hong Kong, ten weeks after the announcement.",
+   "The desk's view: If you price pink goods: the estimate works out at HK$11.3m a carat across 8.41 carats. If you bid in Hong Kong: two named lots carry HK$155m of high estimate between them. What this is not: a result. Both figures are pre-sale estimates and the sale is in November."
+  ],
+  "minutes": 2
+ },
+ {
+  "slug": "silver-retakes-mondays-mark",
+  "desk": "gold-metals",
+  "date": "2026-09-16",
+  "lead": false,
+  "kicker": "The tape",
+  "byline": "The Metals Desk",
+  "tags": [
+   "NUM",
+   "VS"
+  ],
+  "title": "Silver adds $1.48 and retakes Monday's mark, gold stays under",
+  "dek": "All four metals rose on Wednesday's opening tick. Gold recovered $62.00 of the $80.40 it shed on Tuesday, which still leaves it $18.40 under the 14 September mark.",
+  "sources": [
+   {
+    "title": "Precious Metals Prices, Kitco, bid at 05:02 ET 16 September 2026",
+    "url": "https://www.kitco.com/price/precious-metals"
+   },
+   {
+    "title": "Silver Price Charts, JM Bullion, 05:01 ET 16 September 2026",
+    "url": "https://www.jmbullion.com/charts/silver-price/"
+   }
+  ],
+  "body": [
+   "All four metals rose. Silver gained $1.48 to $64.41 on the tape's 05:02 reading, the largest move of the four at 2.35%.",
+   "All four metals rose. Silver gained $1.48 to $64.41 on the tape's opening reading, the largest move of the four at 2.35%.",
+   "Silver leads on both counts. Silver's 2.35% gain is the largest of the four, ahead of palladium at 2.05%, platinum at 1.54% and gold at 1.45%. Gold buys 67.22 ounces of silver on this morning's marks, down from 67.81 on Tuesday's.",
+   "Two clear Monday, two do not. Silver and palladium both sit above Monday's marks, silver by $0.04 and palladium by $12.00. Gold took back $62.00 of the $80.40 it shed on Tuesday, and still sits $18.40 under Monday's mark. Platinum took back $27.00 of the $44.00 it lost, or 61.4%, which leaves it $17.00 under.",
+   "The desk's view: If you buy silver findings: the mark is $64.41 an ounce, $0.04 above Monday's. If you quote platinum work: $1,775.00 is still $17.00 under the 14 September mark. What this is not: a settled close. The board was open at 05:02 ET and the tape says so."
+  ],
+  "minutes": 2
+ },
+ {
+  "slug": "fifty-nine-thousand-for-a-padellone",
+  "desk": "watches",
+  "date": "2026-09-16",
+  "lead": false,
+  "kicker": "List prices",
+  "byline": "The Watch Desk",
+  "tags": [
+   "ACTOR",
+   "NUM"
+  ],
+  "title": "Rolex prices the Perpetual Padellone from US$59,000",
+  "dek": "The annual calendar arrives outside Watches and Wonders, in 39mm Everose gold or platinum. Platinum lists at US$66,200 and the Everose on a Settimo bracelet at US$72,800, per SJX Watches.",
+  "sources": [
+   {
+    "title": "A Rolex Icon Returns as the Perpetual Padellone, SJX Watches, 16 September 2026",
+    "url": "https://watchesbysjx.com/2026/09/rolex-perpetual-padellone-53505-53506.html"
+   },
+   {
+    "title": "In-Depth: The new Rolex Perpetual Padellone, Monochrome, 15 September 2026",
+    "url": "https://monochrome-watches.com/2026-rolex-perpetual-padellone-annual-calendar-moonphase-dynapulse-53505-53506-review-video-price/"
+   }
+  ],
+  "body": [
+   "Rolex set the list. The Perpetual Padellone lists from US$59,000 in Everose gold, US$66,200 in platinum and US$72,800 on the Settimo bracelet.",
+   "The bracelet beats the metal. The Everose gold on a Settimo bracelet lists at US$72,800, above the platinum on leather at US$66,200. Rolex charges 10.0% more for the gold bracelet than for the platinum case, a difference of $6,600 on the US list.",
+   "Two price lists, one ladder. The platinum premium is 12.2% on the US list and 12.4% on the Swiss, and the bracelet premium is 23.4% on both. Each figure is its own market's list price, so neither column is the other divided by a rate.",
+   "An off-calendar launch. Rolex introduced the watch in September rather than at Watches and Wonders, the industry's main exhibition. The Padellone name last ran on reference 8171, a triple calendar discontinued in 1953, which Monochrome puts at roughly 1,000 to 1,200 pieces.",
+   "An off-calendar launch. The case runs 39mm across and 12.20mm deep, in Everose gold or platinum. Rolex introduced the watch in September rather than at Watches and Wonders, the industry's main exhibition. The Padellone name last ran on reference 8171, a triple calendar discontinued in 1953, which Monochrome puts at roughly 1,000 to 1,200 pieces."
+  ],
+  "minutes": 2
+ },
+ {
+  "slug": "thirty-minutes-to-under-five",
+  "desk": "diamonds",
+  "date": "2026-09-16",
+  "lead": false,
+  "kicker": "Screening",
+  "byline": "The Diamond Desk",
+  "tags": [
+   "NUM",
+   "VS"
+  ],
+  "title": "30 minutes to under five: De Beers ships SynthDetect 2",
+  "dek": "The screening instrument cuts at least 25 minutes off a full tray scan and needs less operator input, De Beers Group Science and Technology says. No price is published.",
+  "sources": [
+   {
+    "title": "De Beers Science and Technology division releases new diamond screener, Mining Weekly, 15 September 2026",
+    "url": "https://www.miningweekly.com/article/de-beers-science-and-technology-division-releases-new-diamond-screener-2026-09-15"
+   },
+   {
+    "title": "De Beers reveals SynthDetect 2, African Mining Market",
+    "url": "https://africanminingmarket.com/de-beers-reveals-synthdetect-2/26947/"
+   }
+  ],
+  "body": [
+   "De Beers cut the scan. SynthDetect 2 takes a full tray scan to under five minutes from about 30, the company says, with more automation and less operator input.",
+   "The claim is time. A full tray moves from about 30 minutes to under five, which is at least a six-fold cut on the company's own figures. De Beers says increased automation reduces the need for operator input, which is where most of the cost in screening sits.",
+   "Nine years since the first. The first SynthDetect shipped in 2017 and SynthDetect XL in 2018, both able to test set jewellery without a probe. SynthDetect 2 follows the XL by eight years, the longest gap inside this line of instruments.",
+   "No price, no throughput. The release carries no price, no tray capacity and no throughput figure, so a cost per stone cannot be worked out. The instrument was demonstrated at the De Beers Show and Tell during the Hong Kong Gem and Jewellery Show.",
+   "The desk's view: If you screen parcels in volume: the company claims at least 25 minutes off every full tray. If you run a grading lab: the instrument reports automatically and takes software updates. What this is not: a measured result. Every figure here is the company's own claim and no independent test is published."
+  ],
+  "minutes": 2
+ },
+ {
+  "slug": "two-medallions-in-the-southern-district",
+  "desk": "retail-tech",
+  "date": "2026-09-16",
+  "lead": false,
+  "kicker": "Litigation",
+  "byline": "The Retail & Tech Desk",
+  "tags": [
+   "ACTOR",
+   "STAKES"
+  ],
+  "title": "Pandora must face FoundRae's copyright suit over Talisman charms",
+  "dek": "Judge Colleen McMahon denied the motion to dismiss on 10 September, finding a reasonable juror could hold that Pandora copied the design. Two medallions are at issue.",
+  "sources": [
+   {
+    "title": "Judge Won't Dismiss Copyright Suit Against Pandora, JCK, 15 September 2026",
+    "url": "https://www.jckonline.com/editorial-article/copyright-suit-pandora/"
+   }
+  ],
+  "body": [
+   "The case proceeds. Judge Colleen McMahon denied Pandora's motion to dismiss FoundRae's copyright claim on 10 September, over two medallion designs in the Talisman collection.",
+   "Crossed arrows and a sun. FoundRae says Pandora copied protected elements of its Balance and Passion medallions, which carry crossed arrows and sun-and-moon imagery. Those designs are alleged to appear in Pandora's Talisman collection, launched in August 2025.",
+   "The test is overall feel. McMahon framed the question as whether the overall arrangement and appearance are substantially similar. The order found that “a reasonable juror could find that Pandora misappropriated FoundRae's original design.”",
+   "No damages, no timetable. The report carries no damages figure and no trial date, and neither would be set by an order of this kind. The accused collection has been on sale since August 2025, which is a year of trading before this order.",
+   "The desk's view: If you design symbol jewellery: the court weighed overall arrangement and appearance, not single elements. If you buy for a chain: the order decides nothing about the collection, only that the claim survives. What this is not: a finding of infringement. A motion to dismiss tests the pleading, not the facts."
+  ],
+  "minutes": 2
+ },
+ {
+  "slug": "forty-nine-years-and-a-new-chief",
+  "desk": "retail-tech",
+  "date": "2026-09-16",
+  "lead": false,
+  "kicker": "Succession",
+  "byline": "The Retail & Tech Desk",
+  "tags": [
+   "ACTOR",
+   "NUM"
+  ],
+  "title": "Lagos names Keith Rolfe CEO, 49 years after its founding",
+  "dek": "The Philadelphia house promoted its chief financial and operating officer with immediate effect on 10 September. Founder Steven Lagos becomes executive chairman, creative director and innovation officer.",
+  "sources": [
+   {
+    "title": "LAGOS Announces Leadership Transition, PR Newswire, 10 September 2026",
+    "url": "http://www.prnewswire.com/news-releases/lagos-announces-leadership-transition-302875235.html"
+   },
+   {
+    "title": "Lagos Names Keith Rolfe President & CEO in Leadership Transition, JCK",
+    "url": "https://www.jckonline.com/editorial-article/lagos-keith-rolfe-pres-ceo/"
+   }
+  ],
+  "body": [
+   "The founder stepped back. Keith Rolfe, the chief financial and operating officer, became president and chief executive on 10 September, 49 years after Steven Lagos founded the house.",
+   "The finance seat takes over. Rolfe held the chief financial and chief operating roles before the appointment, which the release says took effect immediately. The release gives him strategy, operations, financial performance, organisational leadership, customer growth and enterprise decision-making.",
+   "The founder keeps the design. Steven Lagos stays as executive chairman, creative director and innovation officer, holding creative vision, product innovation and design leadership. Lagos said of the change: “This is not a change in who we are.”",
+   "No numbers published. The release publishes no revenue, no store count and no employee figure, so the scale of the business cannot be stated here. The company's own checkable dates are a 1977 founding and the 1984 Caviar design.",
+   "The desk's view: If you stock Lagos: the creative side does not change hands; the founder keeps design. If you watch founder successions: an internal finance chief took the seat, not an outside hire. What this is not: a sale. The release describes a leadership transition and names no buyer or investor."
+  ],
+  "minutes": 2
+ },
+ {
+  "slug": "a-third-lab-in-seepz",
+  "desk": "diamonds",
+  "date": "2026-09-16",
+  "lead": false,
+  "kicker": "Grading",
+  "byline": "The Diamond Desk",
+  "tags": [
+   "ACTOR",
+   "NUM"
+  ],
+  "title": "GCAL by Sarine opens a third lab, in Mumbai's SEEPZ",
+  "dek": "The jewellery certification site joins labs in Surat and New York, and it is the second in India. Sarine announced it on 14 September, ahead of the peak export shipping season.",
+  "sources": [
+   {
+    "title": "Sarine Opens New Lab in Mumbai, Rapaport, 15 September 2026",
+    "url": "https://rapaport.com/news/sarine-opens-new-lab-in-mumbai/"
+   },
+   {
+    "title": "GCAL by Sarine Opens Jewelry Certification Lab in Mumbai's SEEPZ Export Zone, INSTORE",
+    "url": "https://instoremag.com/gcal-by-sarine-opens-jewelry-certification-lab-in-mumbais-seepz-export-zone/"
+   }
+  ],
+  "body": [
+   "Sarine added a third lab. GCAL by Sarine opened a jewellery certification and quality assurance lab in Mumbai's SEEPZ export zone on 14 September, alongside Surat and New York.",
+   "A different product. Sarine calls the Mumbai site jewellery certification and quality assurance. Its other two labs grade loose stones. SEEPZ is the Santacruz Electronics Export Processing Zone, and jewellery makers and exporters cluster inside it.",
+   "The logistics leg shortens. Sarine says the site is easier to reach and cuts the shipping leg. It published no time or cost saving. The announcement lands on 14 September, before the Indian festival and Western holiday shipping season.",
+   "The grading line is growing. Sarine reported GCAL grading revenue up more than 50% in the first half of 2026, in its August results. No investment, capacity or staff figure is published, so the lab's weight cannot be sized.",
+   "The desk's view: If you export jewellery from Mumbai: certification moves inside the zone, cutting the shipping leg. If you already use Surat: that lab is unchanged; Mumbai covers jewellery rather than loose stones. What this is not: a diamond grading lab. Sarine calls Mumbai jewellery certification and quality assurance."
+  ],
+  "minutes": 2
  }
 ]

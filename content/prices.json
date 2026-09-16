@@ -26,7 +26,7 @@
   },
   "weights": {
     "caption": "Trade against retail, per carat and per stone",
-    "sub": "Trade column is the IDEX price-driver average where a driver exists, RAPI where it does not. Retail is the observed six-retailer median at one carat and a declining multiple of the trade benchmark elsewhere — stated, not hidden.",
+    "sub": "Trade column is the IDEX price-driver average where a driver exists, RAPI where it does not. Retail is the observed five-retailer median at one carat and a declining multiple of the trade benchmark elsewhere — stated, not hidden.",
     "rows": [
       {
         "w": "0.30 ct",

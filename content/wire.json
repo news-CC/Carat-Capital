@@ -1,40 +1,44 @@
 {
- "date_line": "Tuesday, September 15, 2026",
- "edition": "Vol. I - No. 062",
+ "date_line": "Wednesday, September 16, 2026",
+ "edition": "Vol. I - No. 063",
  "items": [
   {
-   "b": "PLATINUM SHEDS $44 TO $1,748 AS ALL FOUR METALS FALL",
-   "t": "Gold gave back $80.40 an ounce to $4,267.30 and silver 2.24%, measured against Friday's final marks on Kitco's bid. Platinum's 2.46% is the largest of the four falls."
+   "b": "8.41-CARAT PINK DIAMOND CARRIES A HK$95M CHRISTIE'S ESTIMATE",
+   "t": "The fancy vivid purple-pink stone works out at HK$11.3m a carat. A Cartier brooch with a 10.10-carat Burmese ruby carries HK$60m at the same 24 November Hong Kong sale."
   },
   {
-   "b": "MACY'S RAISES FULL-YEAR SALES GUIDANCE BY $125M AT MIDPOINT",
-   "t": "Fine jewelry was one of five categories named as outperforming in a quarter when comparable sales rose 2.7% and Bloomingdale's rose 11.3%."
+   "b": "SILVER ADDS $1.48 AND RETAKES MONDAY'S MARK, GOLD STAYS UNDER",
+   "t": "All four metals rose on the 05:02 ET tape. Silver's 2.35% is the largest move; gold is still $18.40 under Monday's mark and platinum $17.00 under."
   },
   {
-   "b": "CHRISTIE'S ESTIMATES A DAVID MORRIS RING AT UP TO $2.6M",
-   "t": "A 14.63-carat fancy orangey-pink diamond leads nearly 300 lots from one private collection, sold in Geneva on 10 November and online from 5 to 17 November."
+   "b": "ROLEX PRICES THE PERPETUAL PADELLONE FROM US$59,000",
+   "t": "The annual calendar arrives outside Watches and Wonders. Platinum lists at US$66,200 and the Everose on a Settimo bracelet at US$72,800, a 23.4% step."
   },
   {
-   "b": "AMIT SHAH ASKS INDIA TO HOLD THE WHOLE LAB-GROWN CHAIN",
-   "t": "India's home minister named machines, production, jewellery, brands and showrooms in Mumbai on 13 September, and put 2025 gems and jewellery exports at Rs 2.44 lakh crore."
+   "b": "30 MINUTES TO UNDER FIVE: DE BEERS SHIPS SYNTHDETECT 2",
+   "t": "The screening instrument takes at least 25 minutes off a full tray scan on the company's own figures. No price, tray capacity or throughput is published."
   },
   {
-   "b": "SIGNET SIGNS THE $125M REPURCHASE WITH JPMORGAN CHASE",
-   "t": "The accelerated agreement is dated 10 September and an initial 1,023,000 shares landed the next day. About $575m of authorisation remains under the 2017 programme."
+   "b": "PANDORA MUST FACE FOUNDRAE'S COPYRIGHT SUIT OVER TALISMAN CHARMS",
+   "t": "Judge Colleen McMahon denied the motion to dismiss on 10 September over two medallion designs. No damages figure and no trial date are set."
   },
   {
-   "b": "LUK FOOK OPENS ITS FIRST UK SHOP AT WESTFIELD STRATFORD",
-   "t": "The Hong Kong group counts about 2,900 points of sale in 14 countries and regions after the London opening on 10 September."
+   "b": "LAGOS NAMES KEITH ROLFE CEO, 49 YEARS AFTER ITS FOUNDING",
+   "t": "The Philadelphia house promoted its chief financial and operating officer on 10 September. Founder Steven Lagos keeps executive chairman, creative director and innovation officer."
+  },
+  {
+   "b": "GCAL BY SARINE OPENS A THIRD LAB, IN MUMBAI'S SEEPZ",
+   "t": "The jewellery certification site is the second in India, alongside Surat and New York. No investment, capacity or staff figure is published."
   }
  ],
- "tape_ts": "15 Sep 2026 - Kitco's bid, re-read by the Editor at press time. All four metals had moved off the 05:00 tape, so the fresher reading was written back to Carat Capital's dated tape and to latest.json and prints here: gold 4,267.30, silver 62.93, platinum 1,748.00, palladium 1,266.00. The board carries its own timestamp of Sep 15, 2026 05:59 New York on all four. Changes shown are against the 11 September final marks in Carat Capital's own record, three calendar days back, not Kitco's change field.",
+ "tape_ts": "16 Sep 2026 - Kitco's bid at 05:02 ET, as filed to Carat Capital's dated tape and to latest.json in the same step: gold 4,329.30, silver 64.41, platinum 1,775.00, palladium 1,292.00. The board carried its own timestamp of 05:02:59Z on all four metals with a zero close and populated bid and ask, a live intraday tick rather than a settlement. Changes are against the 15 September marks in Carat Capital's own record. The Editor did not re-read at press time: no metals story leads this edition, so the 05:00 mark stands and prints as filed.",
  "tape": [
   {
    "name": "Gold / oz",
    "code": "XAU",
-   "px": "4,267.30",
-   "chg": "▼ −1.85%",
-   "dir": "down",
+   "px": "4,329.30",
+   "chg": "▲ +1.45%",
+   "dir": "up",
    "pts": [
     19,
     19,
@@ -51,9 +55,9 @@
   {
    "name": "Natural 1ct (RAPI proxy)",
    "code": "NAT1",
-   "px": "5,232.00",
-   "chg": "— unch.",
-   "dir": "flat",
+   "px": "3904.00",
+   "chg": "−6.4% YTD",
+   "dir": "down",
    "pts": [
     13,
     13,
@@ -70,8 +74,8 @@
   {
    "name": "Lab-grown 1ct reference",
    "code": "LGD1",
-   "px": "705.00",
-   "chg": "▼ −0.28%",
+   "px": "475.00",
+   "chg": "−13% YoY",
    "dir": "down",
    "pts": [
     14,
@@ -89,9 +93,9 @@
   {
    "name": "Platinum / oz",
    "code": "XPT",
-   "px": "1,748.00",
-   "chg": "▼ −2.46%",
-   "dir": "down",
+   "px": "1,775.00",
+   "chg": "▲ +1.54%",
+   "dir": "up",
    "pts": [
     24,
     20,
@@ -108,9 +112,9 @@
   {
    "name": "Silver / oz",
    "code": "XAG",
-   "px": "62.93",
-   "chg": "▼ −2.24%",
-   "dir": "down",
+   "px": "64.41",
+   "chg": "▲ +2.35%",
+   "dir": "up",
    "pts": [
     18,
     20,

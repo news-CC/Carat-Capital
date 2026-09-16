@@ -86967,7 +86967,7 @@
      },
      {
       "lead": "The economics underneath the fairy tale are worth a paragraph.",
-      "text": "On this desk's own tape, the wholesale benchmark for a one-carat natural round sits at $5,232 — and value scales steeply, not linearly, with size, before a period mounting adds its own premium."
+      "text": "On this desk's own tape as it stood in August 2026, the wholesale benchmark for a one-carat natural round was $5,232 — and value scales steeply, not linearly, with size, before a period mounting adds its own premium."
      },
      {
       "lead": "",
@@ -112310,7 +112310,7 @@
     ]
    ],
    "hi": 2,
-   "note": "<b>Source</b> Signet's Form 8-K, read at the SEC. <b>The 9 September line</b> is Carat Capital's own prior reporting of the earnings call, not a line in this filing. <b>No implied price</b> is computed here: an initial delivery is a partial advance against the notional and the average price is fixed only at final settlement. <b>The filing</b> does not say whether the $575m is stated before or after this $125m.",
+   "note": "<b>Source</b> Signet's Form 8-K, read at the SEC. <b>The 9 September line</b> is Carat Capital's own prior reporting of the earnings call, not a line in this filing. <b>No implied price</b> is computed here: an initial delivery is a partial advance against the notional and the average price is fixed only at final settlement. <b>The filing</b> states the $575m is the authorisation remaining upon completion of this $125m agreement, subject to any further repurchases during its term.",
    "plate": "CC/2026/062"
   },
   "sections": [
@@ -112374,7 +112374,7 @@
     "title": "How an accelerated repurchase works",
     "text": "A company pays a bank a fixed sum up front and receives most of the shares immediately. The bank borrows those shares, then buys them back in the market across the settlement period. The final count is trued up at the end against the volume-weighted average price over that window. The company therefore knows its spend on day one and its share count only at the close."
    },
-   "method": "The filing was read directly at the SEC rather than through a wire summary: Form 8-K, accession 0000832988-26-000231, filed 14 September 2026, with the agreement dated 10 September 2026. Age is stated from the events in the filing body and not from its filing date: the agreement is five days old and the initial delivery four. No implied price per share was computed from $125m over 1,023,000 shares, because an accelerated repurchase's initial delivery is a partial advance against the notional and the arithmetic would print a number that means nothing. The filing states approximately $575m of authorisation remaining under the 2017 share repurchase programme and does not say whether that figure is struck before or after this $125m, so no addition is performed here either. Archive test, both periods named: Carat Capital's 9 September piece covers Signet's second quarter of fiscal 2027 and reports the company's stated intention to run a $125m accelerated repurchase this month; this item covers the executed agreement of 10 September, its counterparty, its initial delivery and its settlement window. Same entity and the same headline dollar figure, but a different document covering a later period, so ADVANCED, not a repeat. The dollar figure is therefore not treated as news here and does not carry the headline.",
+   "method": "The filing was read directly at the SEC rather than through a wire summary: Form 8-K, accession 0000832988-26-000231, filed 14 September 2026, with the agreement dated 10 September 2026. Age is stated from the events in the filing body and not from its filing date: the agreement is five days old and the initial delivery four. No implied price per share was computed from $125m over 1,023,000 shares, because an accelerated repurchase's initial delivery is a partial advance against the notional and the arithmetic would print a number that means nothing. The filing states approximately $575m of authorisation remaining under the 2017 share repurchase programme “upon completion of the ASR Agreement” and “subject to any further repurchases that are made during the term”, so the $575m is the balance struck after this $125m and 575 plus 125 is not computed: it is also a projected figure, not a current one. Archive test, both periods named: Carat Capital's 9 September piece covers Signet's second quarter of fiscal 2027 and reports the company's stated intention to run a $125m accelerated repurchase this month; this item covers the executed agreement of 10 September, its counterparty, its initial delivery and its settlement window. Same entity and the same headline dollar figure, but a different document covering a later period, so ADVANCED, not a repeat. The dollar figure is therefore not treated as news here and does not carry the headline.",
    "prior": [
     {
      "date": "2026-09-09",
@@ -112394,7 +112394,9 @@
      "published": "2026-09-14T00:00:00Z"
     }
    ],
-   "corrections": []
+   "corrections": [
+    "<b>Corrected 16 September 2026.</b> Table I’s footnote and the method note said the 8-K “does not say whether the $575m is stated before or after this $125m”. The filing does say. Its own sentence reads: “Upon completion of the ASR Agreement, the Company will have approximately $575 million in share repurchase authorization remaining under its 2017 Share Repurchase Program, subject to any further repurchases that are made during the term.” The $575m is the balance after this $125m, and it is projected rather than current. Both passages now say so. The $575m and $125m figures were correct as published, in the headline, the dek, the key figures and the table, and none of them changes; so was the decision not to add them together, which this note now rests on the filing’s words rather than on a silence the filing does not have. Found by this paper’s standards desk, 15 September 2026."
+   ]
   },
   "next": {
    "slug": "signet-comps-up-sales-down",
@@ -112549,6 +112551,1362 @@
   "next": {
    "slug": "chow-tai-fook-panda-bond-ten-billion",
    "why": "The other Hong Kong jeweller raising money and moving this month, on a much larger scale."
+  },
+  "corrections": []
+ },
+ "ninety-five-million-in-hong-kong": {
+  "v": 3,
+  "kicker": "Sale preview",
+  "figures": {
+   "asof": "Christie's announcement as reported by Rapaport, 15 September 2026 · pre-sale estimates, nothing sold",
+   "cells": [
+    {
+     "n": "HK$95m",
+     "dir": "up",
+     "label": "Top estimate",
+     "q": "8.41 ct pink diamond, high end",
+     "src": 0
+    },
+    {
+     "n": "8.41 ct",
+     "dir": "flat",
+     "label": "The stone",
+     "q": "fancy vivid purple-pink, type IIa",
+     "src": 0
+    },
+    {
+     "n": "HK$11.3m",
+     "dir": "up",
+     "label": "Per carat",
+     "q": "Carat Capital's division",
+     "src": 0
+    },
+    {
+     "n": "HK$60m",
+     "dir": "up",
+     "label": "Cartier brooch",
+     "q": "10.10 ct Burmese ruby, high estimate",
+     "src": 0
+    },
+    {
+     "n": "24 Nov",
+     "dir": "flat",
+     "label": "Sale date",
+     "q": "Magnificent Jewels, Hong Kong",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Christie's set the range.",
+   "text": "An 8.41-carat fancy vivid purple-pink diamond ring carries a HK$95m high estimate at Christie's Hong Kong sale on 24 November."
+  },
+  "means": [
+   {
+    "who": "If you price pink goods:",
+    "text": "the estimate works out at HK$11.3m a carat across 8.41 carats."
+   },
+   {
+    "who": "If you bid in Hong Kong:",
+    "text": "two named lots carry HK$155m of high estimate between them."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a result. Both figures are pre-sale estimates and the sale is in November."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · The two lots Christie's named",
+   "asof": "High estimates as published · no low estimate published for either lot",
+   "cols": [
+    "Lot",
+    "High estimate, HKD",
+    "High estimate, USD",
+    "Per carat, HKD"
+   ],
+   "rows": [
+    [
+     "8.41 ct fancy vivid purple-pink diamond ring",
+     "HK$95m",
+     "$12m",
+     "HK$11.3m"
+    ],
+    [
+     "Cartier brooch, 10.10 ct Burmese ruby",
+     "HK$60m",
+     "$7.7m",
+     "HK$5.94m"
+    ],
+    [
+     "Both lots",
+     "HK$155m",
+     "$19.7m",
+     "not comparable"
+    ]
+   ],
+   "hi": 0,
+   "note": "<b>Source</b> Christie's announcement as reported by Rapaport, 15 September 2026. <b>Per-carat figures</b> are Carat Capital's division: 95,000,000 over 8.41 is HK$11,296,076, and 60,000,000 over 10.10 is HK$5,940,594. <b>The two-lot totals</b> are Carat Capital's addition. <b>No low estimates</b> are published for either lot, so no band and no reserve can be read here. <b>Estimates exclude</b> the buyer's premium the house adds to the hammer price.",
+   "plate": "CC/2026/063"
+  },
+  "sections": [
+   {
+    "h": "One stone, two currencies",
+    "p": [
+     {
+      "lead": "HK$95m published.",
+      "text": "Christie's carries the ring at HK$95m, reported with a US figure of $12m."
+     },
+     {
+      "lead": "The rounding shows.",
+      "text": "That pair implies HK$7.92 to the dollar. The Hong Kong peg trades between HK$7.75 and HK$7.85, so the dollar figure is rounded rather than converted."
+     }
+    ]
+   },
+   {
+    "h": "The ruby costs less a carat",
+    "p": [
+     {
+      "lead": "Cartier's brooch follows.",
+      "text": "A brooch set with a 10.10-carat Burmese ruby carries HK$60m, the second lot Christie's named."
+     },
+     {
+      "lead": "Half the per-carat.",
+      "text": "The ruby works out at HK$5.94m a carat. That is 52.6% of the diamond's rate and 47.4% below it."
+     }
+    ]
+   },
+   {
+    "h": "No low estimates published",
+    "p": [
+     {
+      "lead": "Only the tops.",
+      "text": "Christie's published no low estimate for either lot, so neither a band nor a reserve can be read from the announcement."
+     },
+     {
+      "lead": "The sale is later.",
+      "text": "Bidding opens on 24 November in Hong Kong, ten weeks after the announcement."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "10 Nov",
+    "what": "Christie's Geneva sale, where the David Morris estimate is tested first."
+   },
+   {
+    "when": "Before 24 Nov",
+    "what": "The printed catalogue, which would carry the low estimates the announcement withholds."
+   },
+   {
+    "when": "24 Nov",
+    "what": "The Hong Kong Magnificent Jewels sale, the test of the HK$95m estimate."
+   }
+  ],
+  "depth": {
+   "reverse": "A published low estimate on either lot. A band would show how far Christie's thinks the ring could fall, and a low near HK$60m would make it a different lot from one near HK$95m.",
+   "built": {
+    "title": "How a Hong Kong estimate reads",
+    "text": "A house publishes a low and a high estimate before the sale; the reserve, the price below which a lot will not sell, is confidential and sits at or under the low. Hong Kong sales are struck in Hong Kong dollars, which the territory pegs to the US dollar inside a band of HK$7.75 to HK$7.85. A US figure quoted alongside an HKD estimate is therefore usually a rounded courtesy rather than a conversion at the day's rate. The buyer pays the hammer price plus the house's premium, so any sum paid sits above the figure a result reports."
+   },
+   "method": "Rapaport's report of 15 September 2026 was fetched directly and carries the carat weight, the colour grade, both estimates, the house and the sale date. christies.com was not fetched and no address was guessed in its place. Arithmetic, all Carat Capital's and printed so it can be checked: 95,000,000 divided by 8.41 is HK$11,296,076 a carat, and 12,000,000 divided by 8.41 is $1,426,873 a carat; 60,000,000 divided by 10.10 is HK$5,940,594 a carat. The comparative was redone here rather than taken from any upstream desk: 5,940,594 over 11,296,076 is 52.59%, so the ruby is 52.6% OF the diamond's per-carat rate and 47.4% BELOW it. The implied exchange rates are 95 over 12, which is HK$7.9167, and 60 over 7.7, which is HK$7.7922; the first sits above the peg band's HK$7.85 ceiling and the second inside it, which is why the dollar figures are treated as rounded and the HKD figures as primary. The ten weeks is 15 September to 24 November, seventy days. Archive test, both periods named: a grep for 8.41 returns five hits in this paper's archive and all five were opened and read, every one a gold-to-silver ratio (68.41, 67.84, 67.49, 66.59) in August metals commentary, so all five are false positives. Carat Capital's 15 September piece covers a Christie's GENEVA sale on 10 November and a 14.63-carat David Morris ring; this item covers a Christie's HONG KONG sale on 24 November and an 8.41-carat stone. Same house, different sale, different city, different stone, different date, so NEW.",
+   "prior": [
+    {
+     "date": "2026-09-15",
+     "slug": "two-point-six-million-in-geneva",
+     "claim": "Christie's estimated a David Morris ring at up to $2.6m in Geneva"
+    },
+    {
+     "date": "2026-09-11",
+     "slug": "bulgari-sapphire-nine-five-million",
+     "claim": "A Bulgari sapphire ring carried a HKD 9.5m high estimate"
+    },
+    {
+     "date": "2026-09-06",
+     "slug": "twenty-million-on-two-rubies",
+     "claim": "HK$20m ruby earrings led Sotheby's Hong Kong sale on 17 September"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Christie's Puts $12M Price Tag on Pink Diamond, Rapaport",
+     "url": "https://rapaport.com/news/christies-puts-12m-price-tag-on-pink-diamond/",
+     "published": "2026-09-15"
+    }
+   ],
+   "corrections": []
+  },
+  "next": {
+   "slug": "two-point-six-million-in-geneva",
+   "why": "The Geneva half of the same house's November season, and the estimate that is tested two weeks earlier."
+  },
+  "corrections": []
+ },
+ "silver-retakes-mondays-mark": {
+  "v": 3,
+  "kicker": "The tape",
+  "figures": {
+   "asof": "Kitco's bid at 05:02 ET, 16 September 2026, as filed to Carat Capital's tape · the board was open and ticking, not a settled close",
+   "cells": [
+    {
+     "n": "$64.41",
+     "dir": "up",
+     "label": "Silver / oz",
+     "q": "+$1.48, +2.35%",
+     "src": 0
+    },
+    {
+     "n": "$4,329.30",
+     "dir": "up",
+     "label": "Gold / oz",
+     "q": "+$62.00, +1.45%",
+     "src": 0
+    },
+    {
+     "n": "$1,775.00",
+     "dir": "up",
+     "label": "Platinum / oz",
+     "q": "+$27.00, +1.54%",
+     "src": 0
+    },
+    {
+     "n": "$1,292.00",
+     "dir": "up",
+     "label": "Palladium / oz",
+     "q": "+$26.00, +2.05%",
+     "src": 0
+    },
+    {
+     "n": "67.22",
+     "dir": "down",
+     "label": "Gold-to-silver",
+     "q": "narrowed from 67.81",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "All four metals rose.",
+   "text": "Silver gained $1.48 to $64.41 on the tape's opening reading, the largest move of the four at 2.35%."
+  },
+  "means": [
+   {
+    "who": "If you buy silver findings:",
+    "text": "the mark is $64.41 an ounce, $0.04 above Monday's."
+   },
+   {
+    "who": "If you quote platinum work:",
+    "text": "$1,775.00 is still $17.00 under the 14 September mark."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a settled close. The board was open at 05:02 ET and the tape says so."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · Two days, four metals",
+   "asof": "US dollars an ounce · Kitco bid, as carried on Carat Capital's tape",
+   "cols": [
+    "Metal",
+    "14 Sep",
+    "15 Sep",
+    "16 Sep",
+    "vs 14 Sep"
+   ],
+   "rows": [
+    [
+     "Gold",
+     "4,347.70",
+     "4,267.30",
+     "4,329.30",
+     "−18.40"
+    ],
+    [
+     "Silver",
+     "64.372",
+     "62.93",
+     "64.41",
+     "+0.04"
+    ],
+    [
+     "Platinum",
+     "1,792.00",
+     "1,748.00",
+     "1,775.00",
+     "−17.00"
+    ],
+    [
+     "Palladium",
+     "1,280.00",
+     "1,266.00",
+     "1,292.00",
+     "+12.00"
+    ]
+   ],
+   "hi": 1,
+   "note": "<b>Source</b> Kitco's bid, read at 05:02 ET on 16 September 2026 and written to Carat Capital's dated tape and to latest.json in the same step. <b>The 14 and 15 September marks</b> are Carat Capital's own record, not re-derived here. <b>The final column</b> is Carat Capital's subtraction. <b>Silver and palladium</b> are above their 14 September marks; gold and platinum are not.",
+   "plate": "CC/2026/063"
+  },
+  "sections": [
+   {
+    "h": "Silver leads on both counts",
+    "p": [
+     {
+      "lead": "Largest in percent.",
+      "text": "Silver's 2.35% gain is the largest of the four, ahead of palladium at 2.05%."
+     },
+     {
+      "lead": "Then the rest.",
+      "text": "Platinum rose 1.54% and gold 1.45%, the smallest move of the morning."
+     },
+     {
+      "lead": "The ratio narrows.",
+      "text": "Gold buys 67.22 ounces of silver on this morning's marks, down from 67.81 on Tuesday's."
+     }
+    ]
+   },
+   {
+    "h": "Two clear Monday, two do not",
+    "p": [
+     {
+      "lead": "Silver and palladium.",
+      "text": "Both sit above Monday's marks, silver by $0.04 and palladium by $12.00."
+     },
+     {
+      "lead": "Gold recovers most.",
+      "text": "Gold took back $62.00 of the $80.40 it shed on Tuesday, and still sits $18.40 under Monday's mark."
+     },
+     {
+      "lead": "Platinum recovers less.",
+      "text": "Platinum took back $27.00 of the $44.00 it lost on Tuesday, or 61.4%."
+     },
+     {
+      "lead": "Seventeen dollars short.",
+      "text": "That leaves platinum $17.00 under its 14 September mark."
+     }
+    ]
+   },
+   {
+    "h": "The tape carries one price",
+    "p": [
+     {
+      "lead": "One reading, one number.",
+      "text": "The tape was filed at 05:02 ET from Kitco's bid, and the paper prints that reading and no other."
+     },
+     {
+      "lead": "A second board agrees.",
+      "text": "JM Bullion's page carried a 05:01 ET timestamp, one minute apart, and tracked Kitco's ask on all four metals."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "17 Sep",
+    "what": "Thursday's 05:00 ET reading, and whether gold closes the $18.40 gap."
+   },
+   {
+    "when": "18 Sep",
+    "what": "Friday's mark, which sets the week against the 14 September open."
+   }
+  ],
+  "depth": {
+   "reverse": "Gold above $4,347.70 or platinum above $1,792.00 on a later reading. Either would close the gap this piece measures and turn the week positive across all four metals.",
+   "built": {
+    "title": "How this paper sets one price",
+    "text": "Carat Capital prints one price per metal per morning. The prices desk reads Kitco's bid at about 05:00 ET, checks it against a second board, and writes the reading to a dated tape file and to the file the dashboard renders, in the same step. The Editor may re-read at press time and, if the reading has moved, writes the new number back before the edition builds. Kitco publishes a bid and an ask; the tape has carried the bid since 31 August, which is why a second board quoting the ask reads higher without disagreeing."
+   },
+   "method": "Every division redone here rather than carried from the prices desk. Gold: 62.00 over 4,267.30 is 1.4529%, printed 1.45%. Silver: 1.48 over 62.93 is 2.3518%, printed 2.35%. Platinum: 27.00 over 1,748.00 is 1.5446%, printed 1.54%. Palladium: 26.00 over 1,266.00 is 2.0537%, printed 2.05%. Against the 14 September marks in this paper's own record: gold 4,329.30 less 4,347.70 is −18.40, or −0.42%; silver 64.41 less 64.372 is +0.038, printed +$0.04; platinum 1,775.00 less 1,792.00 is −17.00, or −0.95%; palladium 1,292.00 less 1,280.00 is +12.00, or +0.94%. Platinum's recovery is 27.00 over 44.00, which is 61.36%, printed 61.4%. The ratio is 4,329.30 over 64.41, which is 67.215, printed 67.22, against 4,267.30 over 62.93, which is 67.811. Market state was read off the board and not inferred from a calendar: Kitco's own JSON carried originalTime 05:02:59Z on all four metals with a zero close and populated bid and ask, which is a live intraday tick, so this piece says the board was open rather than reporting a settlement.",
+   "prior": [
+    {
+     "date": "2026-09-15",
+     "slug": "platinum-forty-four-off",
+     "claim": "Platinum shed $44 to $1,748 as all four metals fell"
+    },
+    {
+     "date": "2026-09-12",
+     "slug": "palladium-ninety-seven-off",
+     "claim": "Palladium shed $97 to $1,280 since Monday's mark"
+    },
+    {
+     "date": "2026-09-11",
+     "slug": "silver-sheds-two-nineteen",
+     "claim": "Silver shed $2.19 to $63.94 since the 9 September mark"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Precious Metals Prices, Kitco",
+     "url": "https://www.kitco.com/price/precious-metals",
+     "published": "2026-09-16"
+    },
+    {
+     "title": "Silver Price Charts, JM Bullion",
+     "url": "https://www.jmbullion.com/charts/silver-price/",
+     "published": "2026-09-16"
+    }
+   ],
+   "corrections": []
+  },
+  "next": {
+   "slug": "platinum-forty-four-off",
+   "why": "The session this one reverses, and the only metal that has not recovered its Monday mark since."
+  },
+  "corrections": []
+ },
+ "fifty-nine-thousand-for-a-padellone": {
+  "v": 3,
+  "kicker": "List prices",
+  "figures": {
+   "asof": "US and Swiss list prices as reported by SJX Watches and Monochrome, 15-16 September 2026 · rolex.com refused Carat Capital's fetch",
+   "cells": [
+    {
+     "n": "US$59,000",
+     "dir": "flat",
+     "label": "Ref 53505, leather",
+     "q": "Everose gold",
+     "src": 0
+    },
+    {
+     "n": "US$66,200",
+     "dir": "up",
+     "label": "Ref 53506",
+     "q": "platinum, leather",
+     "src": 0
+    },
+    {
+     "n": "US$72,800",
+     "dir": "up",
+     "label": "Ref 53505, bracelet",
+     "q": "Everose gold, Settimo",
+     "src": 0
+    },
+    {
+     "n": "39 mm",
+     "dir": "flat",
+     "label": "Case",
+     "q": "12.20mm thick, 50m water resistance",
+     "src": 1
+    },
+    {
+     "n": "66 hours",
+     "dir": "flat",
+     "label": "Power reserve",
+     "q": "calibre 7190, Dynapulse escapement",
+     "src": 1
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Rolex set the list.",
+   "text": "The Perpetual Padellone lists from US$59,000 in Everose gold, US$66,200 in platinum and US$72,800 on the Settimo bracelet."
+  },
+  "means": [
+   {
+    "who": "If you sell Rolex at retail:",
+    "text": "the bracelet adds US$13,800 to the Everose reference, or 23.4%."
+   },
+   {
+    "who": "If you value used Rolex:",
+    "text": "the reference this revives ran from 1949 to 1953 only."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a limited edition. Rolex places the Padellone in its permanent collection."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · Three references, two price lists",
+   "asof": "Each market's own list price · neither column is the other converted",
+   "cols": [
+    "Reference",
+    "Metal and strap",
+    "US list",
+    "Swiss list",
+    "Premium over 53505 leather"
+   ],
+   "rows": [
+    [
+     "53505-0002",
+     "Everose gold, leather",
+     "US$59,000",
+     "CHF 52,500",
+     "—"
+    ],
+    [
+     "53506-0002",
+     "Platinum, leather",
+     "US$66,200",
+     "CHF 59,000",
+     "+12.2% / +12.4%"
+    ],
+    [
+     "53505-0003",
+     "Everose gold, Settimo bracelet",
+     "US$72,800",
+     "CHF 64,800",
+     "+23.4% / +23.4%"
+    ]
+   ],
+   "hi": 2,
+   "note": "<b>Sources</b> US prices from SJX Watches, 16 September 2026; Swiss prices from Monochrome, 15 September 2026. <b>The two columns</b> are each market's own list price, not a conversion of one another. The ladder, not the level, is the comparable thing. <b>The premium column</b> is Carat Capital's division and gives the US figure first, then the Swiss. <b>The gold bracelet</b> lists above the platinum case in both currencies.",
+   "plate": "CC/2026/063"
+  },
+  "sections": [
+   {
+    "h": "The bracelet beats the metal",
+    "p": [
+     {
+      "lead": "Gold over platinum.",
+      "text": "The Everose gold on a Settimo bracelet lists at US$72,800, above the platinum on leather at US$66,200."
+     },
+     {
+      "lead": "A gap of $6,600.",
+      "text": "Rolex charges 10.0% more for the gold bracelet than for the platinum case, on the US list."
+     }
+    ]
+   },
+   {
+    "h": "Two price lists, one ladder",
+    "p": [
+     {
+      "lead": "Same steps, two currencies.",
+      "text": "The platinum premium is 12.2% on the US list and 12.4% on the Swiss. The bracelet premium is 23.4% on both."
+     },
+     {
+      "lead": "Not a conversion.",
+      "text": "Each figure is its own market's list price, so neither column is the other divided by a rate."
+     }
+    ]
+   },
+   {
+    "h": "An off-calendar launch",
+    "p": [
+     {
+      "lead": "Thirty-nine millimetres.",
+      "text": "The case runs 39mm across and 12.20mm deep, in Everose gold or platinum."
+     },
+     {
+      "lead": "Outside the fair.",
+      "text": "Rolex introduced the watch in September rather than at Watches and Wonders, the industry's main exhibition."
+     },
+     {
+      "lead": "A 1949 name returns.",
+      "text": "The Padellone name last ran on reference 8171, a triple calendar discontinued in 1953."
+     },
+     {
+      "lead": "About a thousand made.",
+      "text": "Monochrome puts the original's production at roughly 1,000 to 1,200 pieces."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "17 Sep",
+    "what": "Swiss August watch export figures, due from the Federation of the Swiss Watch Industry."
+   },
+   {
+    "when": "Into 2027",
+    "what": "Whether the Haplos calendar reaches references at lower list prices."
+   }
+  ],
+  "depth": {
+   "reverse": "A price list published by Rolex. These figures come from two specialist outlets, not from the maker, and rolex.com refused this desk's fetch.",
+   "built": {
+    "title": "Why two lists are not one price",
+    "text": "Rolex sets a list price per market, struck in the local currency and reflecting local tax treatment, duty and distribution cost. A US list and a Swiss list for the same reference are therefore two separate prices, not one price expressed twice, and dividing one by the other returns an implied rate that has no market meaning. What does travel between markets is the ladder: the percentage step from one reference to the next, which reflects the maker's own view of what the metal and the bracelet are worth. When two independently reported lists produce the same ladder, each one corroborates the other."
+   },
+   "method": "Prices were taken from two independent specialist outlets and cross-checked against each other rather than from the maker: rolex.com returned 403 to this desk and no substitute address was guessed. Arithmetic, Carat Capital's. US list: 66,200 over 59,000 is 1.12203, a premium of 12.2%; 72,800 over 59,000 is 1.23390, a premium of 23.4%; 72,800 over 66,200 is 1.09970, so the gold bracelet lists 10.0% above the platinum case, a difference of $6,600. Swiss list: 59,000 over 52,500 is 1.12381, a premium of 12.4%; 64,800 over 52,500 is 1.23429, a premium of 23.4%. The two ladders agree to a tenth of a point on the bracelet and within 0.2 points on platinum, which is the check that both lists were read correctly. DISCLOSED DIVERGENCE BETWEEN OUTSIDE SOURCES: on the calibre's frequency, SJX reads 4 Hz and 28,800 vibrations an hour while a second summary of the Monochrome coverage reads 5 Hz and 36,000. Neither is the maker and this desk could not settle it, so the frequency is not printed anywhere in this article. Archive test, both periods named: a grep of this paper's 375-article archive returns zero hits for Padellone, 8171, Dynapulse and Cellini. Carat Capital's 12 September watches piece covers Rolex's share of Chrono24 secondary-market sales in 2026; this item covers a primary-market launch and its list prices. Same maker, different market, different period, so NEW.",
+   "prior": [
+    {
+     "date": "2026-09-12",
+     "slug": "rolex-thirty-one-percent-chrono24",
+     "claim": "Rolex held 31% of Chrono24 sales as under-30 buyers pulled back"
+    },
+    {
+     "date": "2026-09-11",
+     "slug": "urwerk-gold-ur-150-twenty-five",
+     "claim": "Urwerk launched a gold UR-150 at $140,000 in 25 pieces"
+    },
+    {
+     "date": "2026-07-16",
+     "slug": "cartier-secondhand-heat",
+     "claim": "Cartier led the pre-owned recovery at 3.5 times the market"
+    }
+   ],
+   "sources": [
+    {
+     "title": "A Rolex Icon Returns as the Perpetual Padellone, SJX Watches",
+     "url": "https://watchesbysjx.com/2026/09/rolex-perpetual-padellone-53505-53506.html",
+     "published": "2026-09-16"
+    },
+    {
+     "title": "In-Depth: The new Rolex Perpetual Padellone, Monochrome",
+     "url": "https://monochrome-watches.com/2026-rolex-perpetual-padellone-annual-calendar-moonphase-dynapulse-53505-53506-review-video-price/",
+     "published": "2026-09-15"
+    }
+   ],
+   "corrections": []
+  },
+  "next": {
+   "slug": "rolex-thirty-one-percent-chrono24",
+   "why": "What the same maker's watches do after the list price, on the only market that reprices them daily."
+  },
+  "corrections": []
+ },
+ "thirty-minutes-to-under-five": {
+  "v": 3,
+  "kicker": "Screening",
+  "figures": {
+   "asof": "De Beers Group Science and Technology release, reported 15 September 2026 · the company's own stated figures, not measured by Carat Capital",
+   "cells": [
+    {
+     "n": "under 5 min",
+     "dir": "down",
+     "label": "Full tray scan",
+     "q": "SynthDetect 2",
+     "src": 0
+    },
+    {
+     "n": "about 30 min",
+     "dir": "flat",
+     "label": "Full tray scan",
+     "q": "the previous version",
+     "src": 0
+    },
+    {
+     "n": "25 min",
+     "dir": "down",
+     "label": "Time removed",
+     "q": "at least, per full tray",
+     "src": 0
+    },
+    {
+     "n": "2017",
+     "dir": "flat",
+     "label": "First SynthDetect",
+     "q": "the original instrument",
+     "src": 0
+    },
+    {
+     "n": "2018",
+     "dir": "flat",
+     "label": "SynthDetect XL",
+     "q": "the second in the line",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "De Beers cut the scan.",
+   "text": "SynthDetect 2 takes a full tray scan to under five minutes from about 30, the company says, with more automation and less operator input."
+  },
+  "means": [
+   {
+    "who": "If you screen parcels in volume:",
+    "text": "the company claims at least 25 minutes off every full tray."
+   },
+   {
+    "who": "If you run a grading lab:",
+    "text": "the instrument reports automatically and takes software updates."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a measured result. Every figure here is the company's own claim and no independent test is published."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · Three instruments, nine years",
+   "asof": "Release years and the company's own stated scan times",
+   "cols": [
+    "Instrument",
+    "Released",
+    "Full tray scan",
+    "What it added"
+   ],
+   "rows": [
+    [
+     "SynthDetect",
+     "2017",
+     "not stated",
+     "first of the line"
+    ],
+    [
+     "SynthDetect XL",
+     "2018",
+     "not stated",
+     "tests set jewellery without a probe"
+    ],
+    [
+     "The previous version",
+     "—",
+     "about 30 minutes",
+     "the company's own comparison point"
+    ],
+    [
+     "SynthDetect 2",
+     "2026",
+     "under 5 minutes",
+     "at least 25 minutes faster"
+    ]
+   ],
+   "hi": 3,
+   "note": "<b>Source</b> De Beers Group Science and Technology, as reported by Mining Weekly, 15 September 2026. <b>The 30 minutes</b> is attributed in the release to previous versions, not to SynthDetect XL. It is carried the same way here rather than pinned on a named instrument. <b>No price, tray capacity or throughput</b> is published, so a cost per stone cannot be computed. <b>The time saving</b> is the company's claim; no independent test was found.",
+   "plate": "CC/2026/063"
+  },
+  "sections": [
+   {
+    "h": "The claim is time",
+    "p": [
+     {
+      "lead": "Six times faster.",
+      "text": "A full tray moves from about 30 minutes to under five, which is at least a six-fold cut on the company's own figures."
+     },
+     {
+      "lead": "Labour comes out too.",
+      "text": "De Beers says increased automation reduces the need for operator input, which is where most of the cost in screening sits."
+     }
+    ]
+   },
+   {
+    "h": "Nine years since the first",
+    "p": [
+     {
+      "lead": "2017, then 2018.",
+      "text": "The first SynthDetect shipped in 2017 and SynthDetect XL in 2018, both able to test set jewellery without a probe."
+     },
+     {
+      "lead": "Eight years on.",
+      "text": "SynthDetect 2 follows the XL by eight years, the longest gap inside this line of instruments."
+     }
+    ]
+   },
+   {
+    "h": "No price, no throughput",
+    "p": [
+     {
+      "lead": "Nothing on cost.",
+      "text": "The release carries no price, no tray capacity and no throughput figure, so a cost per stone cannot be worked out."
+     },
+     {
+      "lead": "Shown in Hong Kong.",
+      "text": "The instrument was demonstrated at the De Beers Show and Tell during the Hong Kong Gem and Jewellery Show."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Q4 2026",
+    "what": "First shipments, and whether a list price is published with them."
+   },
+   {
+    "when": "2027",
+    "what": "An independent scan-time test from a grading lab, which no source carries yet."
+   }
+  ],
+  "depth": {
+   "reverse": "An independent scan-time measurement, or a published price. Either would move these figures from a company claim to something a buyer can check.",
+   "built": {
+    "title": "Screening is not grading",
+    "text": "A screening instrument sorts a parcel into stones that are certainly natural and stones that need a further test. It does not grade and it does not issue a certificate. The value of a screener is therefore throughput per hour and the false-referral rate, because every stone it cannot clear has to go to a slower and costlier instrument. A scan time on a full tray is the headline figure a manufacturer uses, but it means little without the tray's capacity, which this release does not give."
+   },
+   "method": "Two reports of the same company release were read, Mining Weekly's of 15 September 2026 and African Mining Market's; the De Beers release itself was not fetched from the company's own domain and no address was guessed for it. Arithmetic, Carat Capital's: 30 minus 5 is 25 minutes, and because the new figure is stated as UNDER five minutes the saving is written as at least 25 minutes rather than exactly 25; 30 divided by 5 is 6, so the cut is at least six-fold and is written that way. From 2018 to 2026 is eight years, against one year from 2017 to 2018, which is why eight years is called the longest gap in this line; the claim is scoped to the SynthDetect line and to nothing else De Beers makes. Sarandos Gouvelis, the division's senior vice president, is quoted in the release; the line runs past this paper's 15-word cap and is paraphrased nowhere here because it carries no fact the figures do not. Archive test, both periods named: a grep of the 375-article archive returns zero hits for SynthDetect. Carat Capital's 7 September diamonds piece covers HRD Antwerp opening a Mumbai GRADING lab at 2,000 stones a day; this item covers a De Beers SCREENING instrument and its scan time. Different company, different function, different period, so NEW.",
+   "prior": [
+    {
+     "date": "2026-09-07",
+     "slug": "two-thousand-stones-a-day",
+     "claim": "HRD Antwerp opened a Mumbai lab grading 2,000 diamonds a day"
+    },
+    {
+     "date": "2026-09-15",
+     "slug": "ninety-percent-and-the-machines",
+     "claim": "Amit Shah asked India to hold the whole lab-grown chain"
+    },
+    {
+     "date": "2026-08-25",
+     "slug": "dna-on-the-parcel",
+     "claim": "Gübelin sprayed synthetic DNA onto melee to trace it"
+    }
+   ],
+   "sources": [
+    {
+     "title": "De Beers Science and Technology division releases new diamond screener, Mining Weekly",
+     "url": "https://www.miningweekly.com/article/de-beers-science-and-technology-division-releases-new-diamond-screener-2026-09-15",
+     "published": "2026-09-15"
+    },
+    {
+     "title": "De Beers reveals SynthDetect 2, African Mining Market",
+     "url": "https://africanminingmarket.com/de-beers-reveals-synthdetect-2/26947/"
+    }
+   ],
+   "corrections": []
+  },
+  "next": {
+   "slug": "two-thousand-stones-a-day",
+   "why": "The other Indian instrument story this month, and the one that published a capacity figure."
+  },
+  "corrections": []
+ },
+ "two-medallions-in-the-southern-district": {
+  "v": 3,
+  "kicker": "Litigation",
+  "figures": {
+   "asof": "Order of 10 September 2026 in the Southern District of New York, as reported by JCK on 15 September 2026 · the order itself was not read by Carat Capital",
+   "cells": [
+    {
+     "n": "2",
+     "dir": "flat",
+     "label": "Medallions at issue",
+     "q": "Balance and Passion",
+     "src": 0
+    },
+    {
+     "n": "10 Sep",
+     "dir": "flat",
+     "label": "Order date",
+     "q": "motion to dismiss denied",
+     "src": 0
+    },
+    {
+     "n": "Aug 2025",
+     "dir": "flat",
+     "label": "Talisman launch",
+     "q": "the accused collection",
+     "src": 0
+    },
+    {
+     "n": "none",
+     "dir": "flat",
+     "label": "Damages set",
+     "q": "no figure at this stage",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "The case proceeds.",
+   "text": "Judge Colleen McMahon denied Pandora's motion to dismiss FoundRae's copyright claim on 10 September, over two medallion designs in the Talisman collection."
+  },
+  "means": [
+   {
+    "who": "If you design symbol jewellery:",
+    "text": "the court weighed overall arrangement and appearance, not single elements."
+   },
+   {
+    "who": "If you buy for a chain:",
+    "text": "the order decides nothing about the collection, only that the claim survives."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a finding of infringement. A motion to dismiss tests the pleading, not the facts."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · The claim as reported",
+   "asof": "As reported by JCK, 15 September 2026 · the docket was not read",
+   "cols": [
+    "Element",
+    "As reported"
+   ],
+   "rows": [
+    [
+     "Plaintiff",
+     "Cemayla LLC, the company behind FoundRae"
+    ],
+    [
+     "Defendant",
+     "Pandora Jewelry LLC"
+    ],
+    [
+     "Court",
+     "US District Court, Southern District of New York"
+    ],
+    [
+     "Judge",
+     "Colleen McMahon"
+    ],
+    [
+     "Order",
+     "Motion to dismiss denied, 10 September 2026"
+    ],
+    [
+     "Designs at issue",
+     "The Balance and Passion medallions"
+    ],
+    [
+     "Accused collection",
+     "Pandora Talisman, launched August 2025"
+    ],
+    [
+     "Damages",
+     "No figure set at this stage"
+    ]
+   ],
+   "hi": 4,
+   "note": "<b>Source</b> JCK's report of 15 September 2026. <b>The order itself</b> was not read by Carat Capital and is not quoted beyond the words JCK carries. <b>The case number</b> JCK prints, NYSDCE-26-01331, is not in the Southern District's usual docket format. It was not verified at the court and is left out of the table. <b>Denying a motion to dismiss</b> decides only that a claim may proceed. It is not a ruling on infringement, and no damages figure exists yet.",
+   "plate": "CC/2026/063"
+  },
+  "sections": [
+   {
+    "h": "Crossed arrows and a sun",
+    "p": [
+     {
+      "lead": "Two medallions.",
+      "text": "FoundRae says Pandora copied protected elements of its Balance and Passion medallions, which carry crossed arrows and sun-and-moon imagery."
+     },
+     {
+      "lead": "Into the charms.",
+      "text": "Those designs are alleged to appear in Pandora's Talisman collection, launched in August 2025."
+     }
+    ]
+   },
+   {
+    "h": "The test is overall feel",
+    "p": [
+     {
+      "lead": "Arrangement, not elements.",
+      "text": "McMahon framed the question as whether the overall arrangement and appearance are substantially similar."
+     },
+     {
+      "lead": "The court's own words.",
+      "text": "The order found that “a reasonable juror could find that Pandora misappropriated FoundRae's original design.”"
+     }
+    ]
+   },
+   {
+    "h": "No damages, no timetable",
+    "p": [
+     {
+      "lead": "Nothing on money.",
+      "text": "The report carries no damages figure and no trial date, and neither would be set by an order of this kind."
+     },
+     {
+      "lead": "Pandora's second year.",
+      "text": "The accused collection has been on sale since August 2025, which is a year of trading before this order."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Q4 2026",
+    "what": "Pandora's answer, and any counterclaim on the surviving count."
+   },
+   {
+    "when": "2027",
+    "what": "A scheduling order, which would set the first firm date in the case."
+   }
+  ],
+  "depth": {
+   "reverse": "The order itself. This desk read a trade report, not the docket, and the court's own reasoning may narrow which elements survive.",
+   "built": {
+    "title": "What a motion to dismiss decides",
+    "text": "A defendant moving to dismiss argues that even if everything the plaintiff pleads is true, the law gives no remedy. The judge therefore takes the plaintiff's account as given and asks only whether a claim exists on those facts. Denying the motion says the case may go to discovery; it says nothing about who will win, and no money changes hands. In a design-copyright case the usual battleground at this stage is whether the protected elements are original enough and whether the accused article is substantially similar, which is why the court's framing of that test matters more here than any number."
+   },
+   "method": "JCK's report of 15 September 2026 was fetched directly and carries the judge, the court, the parties, the collection, its launch month and the order's date. The order was NOT read: this desk did not reach the docket, and the case number JCK prints, NYSDCE-26-01331, is not in the format the Southern District of New York uses, so it is reported here as unverified rather than repeated as fact. One quote is used, eleven words, attributed to the order. Archive test, both periods named: a grep of the 375-article archive returns eleven hits for FoundRae and all eleven were opened and read. Every one belongs to Carat Capital's 16 July piece on FoundRae opening its first store outside the United States on Mount Street in July 2026, or to a 17 July piece citing it; that is a retail expansion in the third quarter of 2026. This item covers copyright litigation and an order of 10 September 2026. Same company, different subject, different period, so NEW. Pandora returns twenty-two hits, read by title and dek: the two substantive ones cover executive appointments in August 2026, with no overlap on litigation.",
+   "prior": [
+    {
+     "date": "2026-07-16",
+     "slug": "foundrae-takes-mount-street",
+     "claim": "FoundRae opened its first store outside the United States on Mount Street"
+    },
+    {
+     "date": "2026-08-10",
+     "slug": "pandoras-third-seat",
+     "claim": "Pandora filled its third senior seat in a year from Walmart"
+    },
+    {
+     "date": "2026-08-05",
+     "slug": "pandora-fills-the-seat",
+     "claim": "Pandora handed North America to a beauty executive after six months"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Judge Won't Dismiss Copyright Suit Against Pandora, JCK",
+     "url": "https://www.jckonline.com/editorial-article/copyright-suit-pandora/",
+     "published": "2026-09-15"
+    }
+   ],
+   "corrections": []
+  },
+  "next": {
+   "slug": "foundrae-takes-mount-street",
+   "why": "The plaintiff's own year, and the medallion business the suit is fought over."
+  },
+  "corrections": []
+ },
+ "forty-nine-years-and-a-new-chief": {
+  "v": 3,
+  "kicker": "Succession",
+  "figures": {
+   "asof": "LAGOS release, dated PHILADELPHIA, 10 September 2026 · a company statement, no financial figures published",
+   "cells": [
+    {
+     "n": "1977",
+     "dir": "flat",
+     "label": "Founded",
+     "q": "Steven Lagos, Philadelphia",
+     "src": 0
+    },
+    {
+     "n": "49 years",
+     "dir": "flat",
+     "label": "To the handover",
+     "q": "1977 to 2026",
+     "src": 0
+    },
+    {
+     "n": "10 Sep",
+     "dir": "flat",
+     "label": "Effective",
+     "q": "immediately, per the release",
+     "src": 0
+    },
+    {
+     "n": "1984",
+     "dir": "flat",
+     "label": "Caviar design",
+     "q": "the house's signature",
+     "src": 0
+    },
+    {
+     "n": "3",
+     "dir": "flat",
+     "label": "Titles retained",
+     "q": "by the founder",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "The founder stepped back.",
+   "text": "Keith Rolfe, the chief financial and operating officer, became president and chief executive on 10 September, 49 years after Steven Lagos founded the house."
+  },
+  "means": [
+   {
+    "who": "If you stock Lagos:",
+    "text": "the creative side does not change hands; the founder keeps design."
+   },
+   {
+    "who": "If you watch founder successions:",
+    "text": "an internal finance chief took the seat, not an outside hire."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a sale. The release describes a leadership transition and names no buyer or investor."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · Forty-nine years in four dates",
+   "asof": "Dates the company publishes about itself · no revenue or store count is disclosed",
+   "cols": [
+    "Year",
+    "What the company says happened"
+   ],
+   "rows": [
+    [
+     "1977",
+     "Steven Lagos founds the house in Philadelphia"
+    ],
+    [
+     "1984",
+     "The Caviar design is created"
+    ],
+    [
+     "2026",
+     "Keith Rolfe becomes president and chief executive, 10 September"
+    ],
+    [
+     "Continuing",
+     "Steven Lagos holds executive chairman, creative director and innovation officer"
+    ]
+   ],
+   "hi": 2,
+   "note": "<b>Source</b> the company's own release of 10 September 2026, dated Philadelphia. <b>Forty-nine years</b> is Carat Capital's subtraction, 2026 less 1977; the founder's own statement says \"nearly fifty years ago\". <b>No revenue, store count or headcount</b> is published, so the size of the business is not stated in this article. <b>The transition</b> took effect immediately, per the release.",
+   "plate": "CC/2026/063"
+  },
+  "sections": [
+   {
+    "h": "The finance seat takes over",
+    "p": [
+     {
+      "lead": "An internal promotion.",
+      "text": "Rolfe held the chief financial and chief operating roles before the appointment, which the release says took effect immediately."
+     },
+     {
+      "lead": "The remit is listed.",
+      "text": "The release gives him strategy, operations, financial performance, organisational leadership, customer growth and enterprise decision-making."
+     }
+    ]
+   },
+   {
+    "h": "The founder keeps the design",
+    "p": [
+     {
+      "lead": "Three titles retained.",
+      "text": "Steven Lagos stays as executive chairman, creative director and innovation officer, holding creative vision, product innovation and design leadership."
+     },
+     {
+      "lead": "His own framing.",
+      "text": "Lagos said of the change: “This is not a change in who we are.”"
+     }
+    ]
+   },
+   {
+    "h": "No numbers published",
+    "p": [
+     {
+      "lead": "Nothing on trade.",
+      "text": "The release publishes no revenue, no store count and no employee figure, so the scale of the business cannot be stated here."
+     },
+     {
+      "lead": "Two datable facts.",
+      "text": "The company's own checkable dates are a 1977 founding and the 1984 Caviar design."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Q1 2027",
+    "what": "Rolfe's first moves, and whether the wholesale assortment changes."
+   },
+   {
+    "when": "2027",
+    "what": "Any published revenue figure, which this privately held house does not disclose."
+   }
+  ],
+  "depth": {
+   "reverse": "A financial figure. This is a governance story with no numbers attached, and a revenue or store count would settle how much it matters.",
+   "built": {
+    "title": "Why the finance seat wins these",
+    "text": "A founder-led jewellery house reaches a point where the constraint is no longer design but working capital: metal and stones sit in inventory for months, wholesale accounts pay late, and every new door costs cash before it earns any. The executive who already owns that arithmetic is usually the chief financial officer, and when the operating role sits with the same person the succession is short. Keeping the founder on the creative side is the other half of the pattern, because in this trade the design signature is the asset and handing it to a new hire is the one move that can destroy value faster than a bad quarter."
+   },
+   "method": "The company's own release was read at PR Newswire, dated Philadelphia, 10 September 2026, and JCK's report of the same appointment was read alongside it. Arithmetic, Carat Capital's: 2026 less 1977 is 49 years, which matches the founder's own \"nearly fifty years ago\" without rounding to fifty. One quote is used, nine words, attributed to Steven Lagos. This story was not on the Bureau's slate: it was named as a coverage gap in this paper's own weekly memo of 14 September, which found zero archive hits for it, and it is filed here on that assignment. Archive test, both periods named: a grep of the 375-article archive returns zero hits for Lagos and zero for Rolfe, so there is no prior period to compare and the item is NEW rather than advanced. The nearest comparable this paper has run is Kering's 2 September rewiring of three jewellery maisons, which is a different group, a different country and a listed rather than a private company.",
+   "prior": [
+    {
+     "date": "2026-09-02",
+     "slug": "two-ceos-and-a-president-at-kering",
+     "claim": "Kering rewired Pomellato, DoDo and Qeelin with two CEOs and a president"
+    },
+    {
+     "date": "2026-08-10",
+     "slug": "pandoras-third-seat",
+     "claim": "Pandora filled its third senior seat in a year from Walmart"
+    },
+    {
+     "date": "2026-07-19",
+     "slug": "color-gets-a-chief",
+     "claim": "A 700-member body across 47 countries named a new chief"
+    }
+   ],
+   "sources": [
+    {
+     "title": "LAGOS Announces Leadership Transition, PR Newswire",
+     "url": "http://www.prnewswire.com/news-releases/lagos-announces-leadership-transition-302875235.html",
+     "published": "2026-09-10"
+    },
+    {
+     "title": "Lagos Names Keith Rolfe President & CEO in Leadership Transition, JCK",
+     "url": "https://www.jckonline.com/editorial-article/lagos-keith-rolfe-pres-ceo/"
+    }
+   ],
+   "corrections": []
+  },
+  "next": {
+   "slug": "two-ceos-and-a-president-at-kering",
+   "why": "The other jewellery succession this month, run the opposite way, from the top of a listed group."
+  },
+  "corrections": []
+ },
+ "a-third-lab-in-seepz": {
+  "v": 3,
+  "kicker": "Grading",
+  "figures": {
+   "asof": "Sarine announcement of 14 September 2026, reported by Rapaport on 15 September · no investment, capacity or headcount figure published",
+   "cells": [
+    {
+     "n": "3",
+     "dir": "up",
+     "label": "Labs now",
+     "q": "Surat, New York, Mumbai",
+     "src": 0
+    },
+    {
+     "n": "2",
+     "dir": "up",
+     "label": "Indian sites",
+     "q": "Surat and Mumbai",
+     "src": 0
+    },
+    {
+     "n": "14 Sep",
+     "dir": "flat",
+     "label": "Announced",
+     "q": "Sarine's own statement",
+     "src": 0
+    },
+    {
+     "n": "over 50%",
+     "dir": "up",
+     "label": "GCAL grading revenue",
+     "q": "H1 2026 growth, Sarine's figure",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Sarine added a third lab.",
+   "text": "GCAL by Sarine opened a jewellery certification and quality assurance lab in Mumbai's SEEPZ export zone on 14 September, alongside Surat and New York."
+  },
+  "means": [
+   {
+    "who": "If you export jewellery from Mumbai:",
+    "text": "certification moves inside the zone, cutting the shipping leg."
+   },
+   {
+    "who": "If you already use Surat:",
+    "text": "that lab is unchanged; Mumbai covers jewellery rather than loose stones."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a diamond grading lab. Sarine calls Mumbai jewellery certification and quality assurance."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · Three labs, two countries",
+   "asof": "As described in the company's own announcement",
+   "cols": [
+    "Site",
+    "Country",
+    "What it does",
+    "Opened"
+   ],
+   "rows": [
+    [
+     "New York",
+     "United States",
+     "Diamond grading",
+     "GCAL's original lab"
+    ],
+    [
+     "Surat",
+     "India",
+     "Diamond grading, in the manufacturing cluster",
+     "not established at a primary"
+    ],
+    [
+     "Mumbai (SEEPZ)",
+     "India",
+     "Jewellery certification and quality assurance",
+     "14 September 2026"
+    ]
+   ],
+   "hi": 2,
+   "note": "<b>Source</b> Sarine's announcement of 14 September 2026, reported by Rapaport and INSTORE. <b>The Surat opening date</b> was not verified at a primary and is left blank rather than inferred. <b>No investment, capacity or headcount</b> figure is published for the Mumbai site, so its contribution cannot be sized. <b>The revenue figure</b> in the key figures is Sarine's own half-year number for GCAL grading. It is not a figure about this lab.",
+   "plate": "CC/2026/063"
+  },
+  "sections": [
+   {
+    "h": "Jewellery, not loose stones",
+    "p": [
+     {
+      "lead": "A different product.",
+      "text": "Sarine calls the Mumbai site jewellery certification and quality assurance. Its other two labs grade loose stones."
+     },
+     {
+      "lead": "Inside the zone.",
+      "text": "SEEPZ is the Santacruz Electronics Export Processing Zone. Jewellery makers and exporters cluster inside it."
+     }
+    ]
+   },
+   {
+    "h": "The logistics leg shortens",
+    "p": [
+     {
+      "lead": "Closer to the bench.",
+      "text": "Sarine says the site is easier to reach and cuts the shipping leg. It published no time or cost saving."
+     },
+     {
+      "lead": "Ahead of the season.",
+      "text": "The announcement lands on 14 September, before the Indian festival and Western holiday shipping season."
+     }
+    ]
+   },
+   {
+    "h": "The grading line is growing",
+    "p": [
+     {
+      "lead": "Over half again.",
+      "text": "Sarine reported GCAL grading revenue up more than 50% in the first half of 2026, in its August results."
+     },
+     {
+      "lead": "No figure for Mumbai.",
+      "text": "No investment, capacity or staff figure is published. The lab's weight cannot be sized."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Q4 2026",
+    "what": "Sarine's next results, and whether GCAL revenue holds that growth rate."
+   },
+   {
+    "when": "2027",
+    "what": "Any capacity or throughput figure for the Mumbai site."
+   }
+  ],
+  "depth": {
+   "reverse": "A capacity or investment figure. Without one, a third lab is a location rather than a measurable addition to the business.",
+   "built": {
+    "title": "Why the zone matters more than the city",
+    "text": "SEEPZ is a bonded export processing zone, which means goods inside it are treated as outside the customs territory until they leave. For a jewellery exporter that changes the arithmetic of certification: sending a finished piece out of the zone to a lab and back can mean customs paperwork on both legs and days of transit on goods that are already paid for. A lab inside the same zone removes both. This is why a certification site's address inside a bonded zone is a commercial fact and not a press-release detail, and why it is worth reporting even when no investment figure is published."
+   },
+   "method": "Rapaport's report of 15 September 2026 and INSTORE's of the same announcement were both read; Sarine's own investor release was not fetched from the company's domain and no address was guessed for it. The announcement date of 14 September is the company's, as carried by both reports. Archive test, both periods named and every hit opened: a grep of the 375-article archive returns two hits for GCAL and zero for SEEPZ. Both GCAL hits sit inside one article, Carat Capital's 13 August piece on Sarine's FIRST-HALF 2026 results, where GCAL grading revenue is reported up more than 50% in the half. This item covers a LAB OPENING announced on 14 September 2026. Same company, different period, and a different subject inside that period, so ADVANCED and NEW to print rather than a repeat. A separate grep for Sarine returns eight hits, all read: five are tape and analytical commentary treating Sarine as a listed instrument and none is a lab-opening story. The over-50% figure is carried as Sarine's own half-year number and is explicitly not attached to this lab.",
+   "prior": [
+    {
+     "date": "2026-08-13",
+     "slug": "the-loss-that-wasnt-revenue",
+     "claim": "Sarine's revenue fell 6% while GCAL grading revenue rose more than 50%"
+    },
+    {
+     "date": "2026-09-07",
+     "slug": "two-thousand-stones-a-day",
+     "claim": "HRD Antwerp opened a Mumbai lab grading 2,000 diamonds a day"
+    },
+    {
+     "date": "2026-09-15",
+     "slug": "ninety-percent-and-the-machines",
+     "claim": "Amit Shah asked India to hold the whole lab-grown chain"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Sarine Opens New Lab in Mumbai, Rapaport",
+     "url": "https://rapaport.com/news/sarine-opens-new-lab-in-mumbai/",
+     "published": "2026-09-15"
+    },
+    {
+     "title": "GCAL by Sarine Opens Jewelry Certification Lab in Mumbai's SEEPZ Export Zone, INSTORE",
+     "url": "https://instoremag.com/gcal-by-sarine-opens-jewelry-certification-lab-in-mumbais-seepz-export-zone/"
+    }
+   ],
+   "corrections": []
+  },
+  "next": {
+   "slug": "the-loss-that-wasnt-revenue",
+   "why": "The same company's half-year numbers, where the grading line this lab joins was the only thing growing."
   },
   "corrections": []
  }
