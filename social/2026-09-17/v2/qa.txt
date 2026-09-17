@@ -1,0 +1,5 @@
+theme: emerald-platinum
+POST 1 the-only-market-that-fell: 5 slides, words/slide [22, 26, 30, 31, 16] (total 125), largest 164,280 bytes
+   word law: clean
+POST 2 palladium-fell-four-times-faster: 4 slides, words/slide [17, 35, 22, 13] (total 87), largest 176,489 bytes
+   word law: clean
