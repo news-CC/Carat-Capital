@@ -1,46 +1,45 @@
 {
- "date_line": "Wednesday, September 16, 2026",
- "edition": "Vol. I - No. 063",
+ "date_line": "Thursday, September 17, 2026 | Vol. I - No. 064",
+ "edition": "No. 064",
  "items": [
   {
-   "b": "8.41-CARAT PINK DIAMOND CARRIES A HK$95M CHRISTIE'S ESTIMATE",
-   "t": "The fancy vivid purple-pink stone works out at HK$11.3m a carat. A Cartier brooch with a 10.10-carat Burmese ruby carries HK$60m at the same 24 November Hong Kong sale."
+   "b": "SHANGHAI DIAMOND EXCHANGE SIGNS BEIJING PACT WITH THREE GOVERNMENTS",
+   "t": "Botswana, Namibia and South Africa signed the Beijing Declaration on 15 September. De Beers chief executive Al Cook witnessed it; eight Chinese retail brands attended without signing."
   },
   {
-   "b": "SILVER ADDS $1.48 AND RETAKES MONDAY'S MARK, GOLD STAYS UNDER",
-   "t": "All four metals rose on the 05:02 ET tape. Silver's 2.35% is the largest move; gold is still $18.40 under Monday's mark and platinum $17.00 under."
+   "b": "HONG KONG SETS Q1 2027 FOR CENTRAL GOLD CLEARING",
+   "t": "The Policy Address also implements a half-rate tax on physical commodity trading and has the HKMA exploring a larger Exchange Fund gold holding."
   },
   {
-   "b": "ROLEX PRICES THE PERPETUAL PADELLONE FROM US$59,000",
-   "t": "The annual calendar arrives outside Watches and Wonders. Platinum lists at US$66,200 and the Everose on a Settimo bracelet at US$72,800, a 23.4% step."
+   "b": "SWISS WATCH EXPORTS RISE 9.1% IN AUGUST, US SHIPMENTS FALL 19.4%",
+   "t": "August shipments reached CHF 1,789.2m on one extra working day. The United States fell to CHF 197.5m while the United Kingdom rose 46.1%."
   },
   {
-   "b": "30 MINUTES TO UNDER FIVE: DE BEERS SHIPS SYNTHDETECT 2",
-   "t": "The screening instrument takes at least 25 minutes off a full tray scan on the company's own figures. No price, tray capacity or throughput is published."
+   "b": "US LUXURY STORE OPENINGS FALL 46% TO 123,334 SQUARE FEET",
+   "t": "JLL counted the first half of 2026 against 227,000 square feet a year earlier. Jewellery and watch retailers took 43.5% of the smallest size band."
   },
   {
-   "b": "PANDORA MUST FACE FOUNDRAE'S COPYRIGHT SUIT OVER TALISMAN CHARMS",
-   "t": "Judge Colleen McMahon denied the motion to dismiss on 10 September over two medallion designs. No damages figure and no trial date are set."
+   "b": "INDIA RAISES GOLD HALLMARKING FEE TO RS 75 AN ARTICLE",
+   "t": "The gazette of 14 September sets a Rs 200 minimum per consignment and leaves silver at Rs 35. Indian outlets put the previous gold rate at Rs 45."
   },
   {
-   "b": "LAGOS NAMES KEITH ROLFE CEO, 49 YEARS AFTER ITS FOUNDING",
-   "t": "The Philadelphia house promoted its chief financial and operating officer on 10 September. Founder Steven Lagos keeps executive chairman, creative director and innovation officer."
+   "b": "VICTORINS LISTS OVER 250 LOTS FOR ITS 20 SEPTEMBER SALE",
+   "t": "A Cartier Libre Noeud diamond watch carries $52,500 to $105,750 and a Patek Philippe Calatrava $27,000 to $53,850, both the house's own estimates."
   },
   {
-   "b": "GCAL BY SARINE OPENS A THIRD LAB, IN MUMBAI'S SEEPZ",
-   "t": "The jewellery certification site is the second in India, alongside Surat and New York. No investment, capacity or staff figure is published."
+   "b": "STAR DIAMOND NAMES JEAN RAYMOND BOULLE II CHIEF FROM 1 OCTOBER",
+   "t": "He succeeds Lester Kemp, interim chief executive since November 2025, at the Fort à la Corne kimberlite project. No financing or resource figure accompanies it."
   }
  ],
- "tape_ts": "16 Sep 2026 - Kitco's bid at 05:02 ET, as filed to Carat Capital's dated tape and to latest.json in the same step: gold 4,329.30, silver 64.41, platinum 1,775.00, palladium 1,292.00. The board carried its own timestamp of 05:02:59Z on all four metals with a zero close and populated bid and ask, a live intraday tick rather than a settlement. Changes are against the 15 September marks in Carat Capital's own record. The Editor did not re-read at press time: no metals story leads this edition, so the 05:00 mark stands and prints as filed.",
+ "tape_ts": "17 Sep 2026 - Kitco's bid at 05:00 ET, as filed to Carat Capital's dated tape and to latest.json in the same step: gold 4,310.70, silver 63.73, platinum 1,769.00, palladium 1,270.00. All four are lower against the 16 September marks in Carat Capital's own record. The Editor did not re-read at press time: no metals price story runs in this edition, so the 05:00 mark stands and prints as filed.",
  "tape": [
   {
    "name": "Gold / oz",
    "code": "XAU",
-   "px": "4,329.30",
-   "chg": "▲ +1.45%",
-   "dir": "up",
+   "px": "4,310.70",
+   "chg": "▼ -0.43%",
+   "dir": "down",
    "pts": [
-    19,
     19,
     12,
     8,
@@ -49,6 +48,7 @@
     19,
     13,
     11,
+    6,
     6
    ]
   },
@@ -93,11 +93,10 @@
   {
    "name": "Platinum / oz",
    "code": "XPT",
-   "px": "1,775.00",
-   "chg": "▲ +1.54%",
-   "dir": "up",
+   "px": "1,769.00",
+   "chg": "▼ -0.34%",
+   "dir": "down",
    "pts": [
-    24,
     20,
     14,
     8,
@@ -106,17 +105,17 @@
     12,
     12,
     10,
+    5,
     5
    ]
   },
   {
    "name": "Silver / oz",
    "code": "XAG",
-   "px": "64.41",
-   "chg": "▲ +2.35%",
-   "dir": "up",
+   "px": "63.73",
+   "chg": "▼ -1.06%",
+   "dir": "down",
    "pts": [
-    18,
     20,
     11,
     8,
@@ -125,6 +124,7 @@
     16,
     14,
     12,
+    5,
     5
    ]
   }

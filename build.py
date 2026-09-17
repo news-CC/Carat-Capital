@@ -247,8 +247,13 @@ def _lock_desk_stats():
             "$%s" % _xau["px"], "Gold/oz · %s" % (stamp or "on the tape"))
     _lh = LAB.get("headline") or {}
     if _lh.get("trade_mid") and by.get("retail-tech"):
-        by["retail-tech"]["stats"][0] = (
-            "$%s" % f'{_lh["trade_mid"]:,}', "Lab-grown 1ct, wholesale midpoint")
+        # the third tile now dates itself like its two neighbours (Standards, 2026-09-16:
+        # this function's own comment claimed all three printed a date and this one did not)
+        _ld = _iso_date(_lh.get("trade_date", ""))
+        lab = "Lab-grown 1ct, wholesale midpoint"
+        if _ld:
+            lab = "Lab-grown 1ct, wholesale mid, %s" % " ".join(_ld.split()[:2])
+        by["retail-tech"]["stats"][0] = ("$%s" % f'{_lh["trade_mid"]:,}', lab)
 
 MOTIFS = dict(
  diamond="""<g stroke="#16130E" fill="none"><path d="M210 40 L300 96 L210 186 L120 96 Z" stroke-width="1.6" stroke-linejoin="round"/><path d="M120 96 H300 M210 40 L168 96 L210 186 L252 96 Z" stroke-width=".8"/><g stroke-width=".4" opacity=".6"><path d="M135 86 L168 52 M147 92 L186 46 M192 44 L150 96"/><path d="M285 86 L252 52 M273 92 L234 46 M228 44 L270 96"/></g><circle cx="210" cy="96" r="3" fill="#BE3319" stroke="none"/></g>""",

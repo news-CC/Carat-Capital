@@ -1,10 +1,52 @@
 {
- "updated": "15 Sep 2026",
+ "updated": "17 Sep 2026",
  "intro": "Eight weeks of the trade, kept the way a ledger should be kept — dated, sourced, and in one place. New entries are added at the top each week; the quarter's running numbers live in the Almanac below.",
  "weeks": [
   {
    "label": "This week - August 19 to September 15",
    "entries": [
+    {
+     "d": "diamonds",
+     "h": "Shanghai Diamond Exchange signs Beijing pact with three governments",
+     "t": "The Shanghai Diamond Exchange and the governments of Botswana, Namibia and South Africa signed the Beijing Declaration on Natural Diamonds and Sustainable Development in Beijing on 15 September. De Beers witnessed it and did not sign.",
+     "s": "Media OutReach Newswire release, 17 September 2026; JCK, 16 September 2026"
+    },
+    {
+     "d": "gold-metals",
+     "h": "Hong Kong sets Q1 2027 for central gold clearing",
+     "t": "The Chief Executive's 2026 Policy Address dates Hong Kong's central gold clearing and settlement system to the first quarter of 2027 and implements a half-rate tax concession for physical commodity trading.",
+     "s": "The Chief Executive's 2026 Policy Address, paragraphs 45 and 46, 16 September 2026"
+    },
+    {
+     "d": "watches",
+     "h": "Swiss watch exports rise 9.1% in August, US shipments fall 19.4%",
+     "t": "Swiss watch exports reached CHF 1,789.2m in August, up 9.1% on one more working day than 2025. Exports to the United States fell 19.4% to CHF 197.5m.",
+     "s": "Fédération de l'industrie horlogère suisse, August 2026 statistics, 16 September 2026"
+    },
+    {
+     "d": "retail-tech",
+     "h": "US luxury store openings fall 46% to 123,334 square feet",
+     "t": "JLL counted 123,334 square feet of US luxury store openings in the first half of 2026, against 227,000 a year earlier. Jewellery and watch retailers took 43.5% of the sub-2,500 square foot band.",
+     "s": "JLL leasing report of 8 September 2026, reported by JCK, 16 September 2026"
+    },
+    {
+     "d": "gold-metals",
+     "h": "India raises gold hallmarking fee to Rs 75 an article",
+     "t": "The Bureau of Indian Standards replaced Schedule IV of its hallmarking regulations on 14 September. Jewellers pay Rs 75 an article for gold with a Rs 200 minimum per consignment; silver stays at Rs 35.",
+     "s": "Gazette of India, Extraordinary, Part III Section 4, No. 557, 14 September 2026"
+    },
+    {
+     "d": "auctions",
+     "h": "Victorins lists over 250 lots for its 20 September sale",
+     "t": "Victorins Auctions' own catalogue page carries a 20 September sale of over 250 lots. A Cartier Libre Noeud diamond watch carries a $52,500 to $105,750 estimate.",
+     "s": "Victorins Auctions catalogue page, read 17 September 2026; Auction Daily, 19 August 2026"
+    },
+    {
+     "d": "diamonds",
+     "h": "Star Diamond names Jean Raymond Boulle II chief from 1 October",
+     "t": "Jean Raymond Boulle II becomes chief executive of Star Diamond Corp on 1 October, succeeding Lester Kemp, interim chief since November 2025. No figure accompanies the appointment.",
+     "s": "Rapaport, 15 September 2026"
+    },
     {
      "d": "gold-metals",
      "h": "Platinum sheds $44 to $1,748 as all four metals fall",

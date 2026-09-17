@@ -113909,5 +113909,1366 @@
    "why": "The same company's half-year numbers, where the grading line this lab joins was the only thing growing."
   },
   "corrections": []
+ },
+ "three-governments-sign-in-beijing": {
+  "v": 3,
+  "kicker": "Diamond diplomacy",
+  "figures": {
+   "asof": "Media OutReach Newswire release, 17 September 2026 · signing 15 September · JCK write-up 16 September",
+   "cells": [
+    {
+     "n": "3",
+     "dir": "flat",
+     "label": "Signatory states",
+     "q": "Botswana, Namibia, South Africa",
+     "src": 0
+    },
+    {
+     "n": "8",
+     "dir": "flat",
+     "label": "Retail brands present",
+     "q": "attended, did not sign",
+     "src": 0
+    },
+    {
+     "n": "15 Sep",
+     "dir": "flat",
+     "label": "Signed",
+     "q": "Beijing, hosted by the exchange",
+     "src": 0
+    },
+    {
+     "n": "None",
+     "dir": "flat",
+     "label": "Money attached",
+     "q": "no target, spend or volume",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Three producer states signed.",
+   "text": "The Shanghai Diamond Exchange, Botswana, Namibia and South Africa signed the Beijing Declaration on Natural Diamonds and Sustainable Development in Beijing on 15 September. It sets no target, spend or volume."
+  },
+  "means": [
+   {
+    "who": "If you buy rough from Africa:",
+    "text": "the three signatory states are your suppliers, and they want origin told at the Chinese counter."
+   },
+   {
+    "who": "If you sell natural diamonds in China:",
+    "text": "nothing changes at the till yet. No programme or budget is published."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a De Beers agreement. Al Cook witnessed the signing."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · Who signed, who watched, who attended",
+   "asof": "Categories as the release states them",
+   "cols": [
+    "Party",
+    "Role stated in the release",
+    "Named representative"
+   ],
+   "rows": [
+    [
+     "Shanghai Diamond Exchange",
+     "Signatory, host and key advocate",
+     "Lin Qiang, president"
+    ],
+    [
+     "Botswana",
+     "Signatory government, key advocate",
+     "Amb. Lekoko S. Kenosi"
+    ],
+    [
+     "Namibia",
+     "Signatory government, key advocate",
+     "Amb. Tonata Itenge-Emvula"
+    ],
+    [
+     "South Africa",
+     "Signatory government, key advocate",
+     "Nosiphiwo Mzamo, State Diamond Trader"
+    ],
+    [
+     "De Beers",
+     "Witness",
+     "Al Cook, chief executive"
+    ],
+    [
+     "Natural Diamond Council",
+     "Witness",
+     "Amber Pepper, chief executive"
+    ],
+    [
+     "World Diamond Council",
+     "Witness",
+     "Emma Wade-Smith"
+    ],
+    [
+     "Chow Tai Fook and seven other brands",
+     "Represented at the ceremony",
+     "not named as signatories"
+    ],
+    [
+     "The signature line",
+     "3 governments plus the exchange",
+     "8 retail brands attended, none a signatory"
+    ]
+   ],
+   "hi": 0,
+   "note": "<b>Source</b> Media OutReach Newswire release, 17 September 2026, and JCK's write-up of 16 September. <b>Signatory, witness and represented</b> are the release's own three categories and are kept apart here. <b>The eight brands</b> are Chow Tai Fook, Lao Feng Xiang, Chow Sang Sang, Lukfook Jewellery, CHJ Jewelry, Chow Tai Seng, Sino Gem and Kimberlite. <b>No figure</b> of any kind appears in the release.",
+   "plate": "CC/2026/064"
+  },
+  "sections": [
+   {
+    "h": "The signature line is narrow",
+    "p": [
+     {
+      "lead": "Three states, one exchange.",
+      "text": "The release names the Shanghai Diamond Exchange and the governments of Botswana, Namibia and South Africa as parties. Members of the Chinese and international diamond industry joined them."
+     },
+     {
+      "lead": "De Beers watched.",
+      "text": "Al Cook witnessed the signing for the global industry, alongside the Natural Diamond Council and the World Diamond Council. He welcomed “the Beijing Declaration as a new framework”."
+     }
+    ]
+   },
+   {
+    "h": "Eight retail brands attended",
+    "p": [
+     {
+      "lead": "Attendance, not signature.",
+      "text": "Chow Tai Fook, Lao Feng Xiang, Chow Sang Sang, Lukfook Jewellery, CHJ Jewelry, Chow Tai Seng, Sino Gem and Kimberlite were represented at the ceremony."
+     },
+     {
+      "lead": "The count matters.",
+      "text": "The release calls them major Chinese jewellery retail brands. It does not say they signed, and none is listed among the declaration's four named key advocates."
+     }
+    ]
+   },
+   {
+    "h": "No number is published",
+    "p": [
+     {
+      "lead": "Vision, not budget.",
+      "text": "The declaration sets out consumer education on origin, support for local value creation in Africa, and market data cooperation. No spend, date or volume is attached."
+     },
+     {
+      "lead": "Follow-up is promised.",
+      "text": "Signatory governments and industry representatives will continue exchanges to turn the vision into concrete actions, the release says. It names no schedule."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Q4 2026",
+    "what": "Any budget, date or volume attached to the consumer education commitment."
+   },
+   {
+    "when": "2027",
+    "what": "The next Forum on China-Africa Cooperation, the framework the declaration invokes."
+   },
+   {
+    "when": "Ongoing",
+    "what": "Whether any of the eight retail brands signs rather than attends."
+   }
+  ],
+  "depth": {
+   "reverse": "A signed commitment from one of the eight retail brands, or a published budget. Either would turn a declaration of intent into a programme that can be measured.",
+   "built": {
+    "title": "What a declaration of this kind is, and is not",
+    "text": "A declaration is a statement of shared intent between parties. It is not a contract, it creates no obligation enforceable against a signatory, and it carries no consideration. What it does is fix a public position that later agreements can be built on and that the parties can be held to rhetorically. That matters here because the signature line and the guest list are doing different work: the three producer governments have committed their names to a position on origin disclosure in the Chinese market, while the retail groups that would have to carry that disclosure to a customer have only attended. Reading the two as one group is the error this page is written to avoid."
+   },
+   "method": "The primary was read directly: the Media OutReach Newswire release of 17 September 2026, which is the issuing document, in addition to JCK's write-up of 16 September. The release's three categories are quoted as it draws them. It says the exchange signed “in collaboration with Government representatives from Botswana, Namibia and South Africa”, that “the signing was witnessed by” Al Cook, Amber Pepper and Emma Wade-Smith, and that the eight retail brands “were also represented at the signing ceremony”. A later paragraph refers to “signatory governments”, which confirms the three states as parties. Neither De Beers nor any retail brand is described as a signatory anywhere in the release, so this page does not print them as one. The signing date is the release's own “Sept. 15th”, consistent with JCK's “took place Tuesday” under a Wednesday 16 September byline. Archive test, both periods named: a search of the 382-article archive returns zero hits for Beijing Declaration and three for Shanghai Diamond Exchange, all opened. Those three cover Doha's bourse agreements of August 2026, a chip-substrate story and the July 2026 WFDB presidency, none of which covers a China-Africa declaration in September 2026. Different entity or different period in every case, so NEW.",
+   "prior": [
+    {
+     "date": "2026-08-24",
+     "slug": "doha-signs-three-asian-bourses",
+     "claim": "Doha signed Singapore, Shanghai and Tokyo and disclosed it 33 days later"
+    },
+    {
+     "date": "2026-07-15",
+     "slug": "mehul-shah-takes-the-gavel",
+     "claim": "Mehul Shah won the World Federation of Diamond Bourses presidency"
+    },
+    {
+     "date": "2026-07-14",
+     "slug": "venetia-two-year-pause",
+     "claim": "De Beers paused Venetia, 4,400 jobs and two years of output"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Beijing Declaration on Natural Diamonds and Sustainable Development Signed in Beijing, Media OutReach Newswire",
+     "url": "https://businessintelligence.mo/2026/09/17/beijing-declaration-on-natural-diamonds-and-sustainable-development-signed-in-beijing-ushering-in-a-new-chapter-for-china-africa-natural-diamond-industry-cooperation/",
+     "published": "2026-09-17"
+    },
+    {
+     "title": "Natural Diamonds Get a Global Boost From Beijing Declaration, JCK",
+     "url": "https://www.jckonline.com/editorial-article/beijing-declaration-diamonds/",
+     "published": "2026-09-16"
+    }
+   ]
+  },
+  "next": {
+   "slug": "doha-signs-three-asian-bourses",
+   "why": "The last time a bourse signed its way into a new market, and how long it took to say so."
+  },
+  "corrections": []
+ },
+ "q1-2027-for-hong-kong-gold": {
+  "v": 3,
+  "kicker": "Gold infrastructure",
+  "figures": {
+   "asof": "The Chief Executive's 2026 Policy Address, paragraphs 45 and 46, delivered 16 September 2026 · figures as printed in the address",
+   "cells": [
+    {
+     "n": "Q1 2027",
+     "dir": "flat",
+     "label": "Clearing launch",
+     "q": "central gold clearing and settlement",
+     "src": 0
+    },
+    {
+     "n": "60,000 m²",
+     "dir": "up",
+     "label": "LME warehouse space",
+     "q": "Hong Kong, since 2025",
+     "src": 0
+    },
+    {
+     "n": "20,000 t",
+     "dir": "up",
+     "label": "Metal inventory",
+     "q": "held in the city to date",
+     "src": 0
+    },
+    {
+     "n": "Half-rate",
+     "dir": "flat",
+     "label": "Commodity tax",
+     "q": "physical commodity trading",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Hong Kong dated the system.",
+   "text": "The Policy Address of 16 September dates Hong Kong's central gold clearing and settlement system to Q1 2027. It also implements a half-rate tax concession for physical commodity trading."
+  },
+  "means": [
+   {
+    "who": "If you vault metal in Asia:",
+    "text": "Hong Kong is building a clearing house and vault network to compete for it."
+   },
+   {
+    "who": "If you hedge in renminbi:",
+    "text": "HKEX will detail RMB-settled gold futures this year."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a decision to buy gold. The HKMA is exploring, not committing."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · The eight gold measures, and who owns each",
+   "asof": "Paragraphs 45 and 46, as drafted",
+   "cols": [
+    "Measure",
+    "Body",
+    "Timing as stated"
+   ],
+   "rows": [
+    [
+     "Central gold clearing and settlement system",
+     "Government",
+     "Official launch, Q1 2027"
+    ],
+    [
+     "RMB-denominated, physically settled gold futures",
+     "HKEX",
+     "Details announced this year"
+    ],
+    [
+     "Gold ETF approval mechanism optimised",
+     "MPFA",
+     "Done, July 2026"
+    ],
+    [
+     "OTC derivatives regime enhanced for gold",
+     "SFC",
+     "Not dated"
+    ],
+    [
+     "Larger Exchange Fund gold holding",
+     "HKMA",
+     "Exploring"
+    ],
+    [
+     "Physical gold moved to appointed vaults",
+     "HKMA",
+     "Considering"
+    ],
+    [
+     "Half-rate tax on physical commodity trading",
+     "Government",
+     "Implementing"
+    ],
+    [
+     "Gold and commodity ecosystem tax concession",
+     "Government",
+     "LegCo consultation next year"
+    ]
+   ],
+   "hi": 0,
+   "note": "<b>Source</b> the Chief Executive's 2026 Policy Address, paragraphs 45 and 46, read in the Government's own full-text PDF on 17 September 2026. <b>Exploring, considering and implementing</b> are the address's own verbs and are not upgraded here. <b>No figure</b> is published for the Exchange Fund's current or intended gold holding. <b>The warehouse figures</b> in paragraph 46 cover all LME metals, not gold alone.",
+   "plate": "CC/2026/064"
+  },
+  "sections": [
+   {
+    "h": "The clearing house gets a date",
+    "p": [
+     {
+      "lead": "A launch quarter.",
+      "text": "Hong Kong will officially launch its central clearing and settlement system for gold in Q1 2027, the Policy Address says."
+     },
+     {
+      "lead": "Vaults follow.",
+      "text": "The HKMA is considering gradually transferring its physical gold to vaults appointed by the Hong Kong Precious Metals Central Clearing Company."
+     }
+    ]
+   },
+   {
+    "h": "The reserve question stays open",
+    "p": [
+     {
+      "lead": "Exploring, not buying.",
+      "text": "The HKMA is exploring increasing the Exchange Fund's gold holdings and participating in the city's spot and futures markets. No size is given."
+     },
+     {
+      "lead": "Renminbi pricing.",
+      "text": "HKEX will announce details of new renminbi-denominated, physically settled gold futures contracts this year, to lift the currency's influence in precious-metals pricing."
+     }
+    ]
+   },
+   {
+    "h": "Tax is the bait",
+    "p": [
+     {
+      "lead": "Half rate now.",
+      "text": "A half-rate tax concession for physical commodity trading is being implemented to attract traders to Hong Kong."
+     },
+     {
+      "lead": "Gold's own concession waits.",
+      "text": "A separate proposal covering qualifying activities in the gold and commodity trading ecosystem goes to the Legislative Council for consultation next year."
+     }
+    ]
+   },
+   {
+    "h": "The metal is already there",
+    "p": [
+     {
+      "lead": "Sixty thousand metres.",
+      "text": "Since the London Metal Exchange added Hong Kong to its warehousing network in 2025, storage space has exceeded 60,000 square metres."
+     },
+     {
+      "lead": "Twenty thousand tonnes.",
+      "text": "Inventory in those warehouses runs to more than 20,000 tonnes of metal to date, the address says."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Q4 2026",
+    "what": "HKEX's announcement of the renminbi gold futures contract terms."
+   },
+   {
+    "when": "Q1 2027",
+    "what": "The official launch of the central gold clearing and settlement system."
+   },
+   {
+    "when": "2027",
+    "what": "LegCo consultation on tax concessions for the gold and commodity trading ecosystem."
+   }
+  ],
+  "depth": {
+   "reverse": "A published size for any Exchange Fund gold purchase. Until one exists, the reserve line is an exploration and the clearing system is the only dated item on the list.",
+   "built": {
+    "title": "What a central clearing system changes for a gold trade",
+    "text": "In an over-the-counter gold market each trade settles bilaterally: two parties, two sets of credit lines, two sets of delivery arrangements, and counterparty risk carried on both books until metal and money change hands. A central counterparty stands between them, novates the trade, and nets the exposures across everyone clearing through it. The practical effects are margin instead of full credit exposure, multilateral netting instead of gross settlement, and a single set of vault and delivery rules. That last point is why the vault line in paragraph 45 sits with the clearing line: a clearing house needs designated delivery locations, which is what the Hong Kong Precious Metals Central Clearing Company's appointed vaults are for, and why the HKMA moving its own physical holdings there is a piece of the same machine rather than a separate reserve decision."
+   },
+   "method": "The Government's own full-text PDF of the 2026 Policy Address was downloaded and read directly, not a wire summary of it; the figures and verbs above come from paragraphs 45 and 46 of that document. The overnight desk had flagged this item with the primary unread and its confidence marked down for it; that gap is closed here by reading the primary, which also supplies the warehouse figures and the Q1 2027 date that no wire summary carried. The address's own verbs are preserved: launch and implement for the two dated items, explore and consider for the two reserve items. Archive test, both periods named: zero hits for Policy Address or Exchange Fund across the 382-article archive; three hits for gold trading, all opened, the most recent being Pudong Development Bank's exit from retail gold trading on 9 September 2026, a mainland commercial-bank decision rather than a Hong Kong market-infrastructure plan. Different entity and different jurisdiction, so NEW.",
+   "prior": [
+    {
+     "date": "2026-09-09",
+     "slug": "pudong-ends-retail-gold-trading",
+     "claim": "Pudong Development Bank ended retail gold trading from 25 September"
+    },
+    {
+     "date": "2026-09-12",
+     "slug": "chow-tai-fook-panda-bond-ten-billion",
+     "claim": "Chow Tai Fook filed to register RMB 10bn of panda bonds"
+    },
+    {
+     "date": "2026-08-17",
+     "slug": "four-eighty-six-thousand-ounces",
+     "claim": "The Perth Mint sold 486,043 ounces of silver in July"
+    }
+   ],
+   "sources": [
+    {
+     "title": "The Chief Executive's 2026 Policy Address, full text, Government of the Hong Kong SAR",
+     "url": "https://www.policyaddress.gov.hk/2026/public/pdf/policy/policy-full_en.pdf",
+     "published": "2026-09-16"
+    }
+   ]
+  },
+  "next": {
+   "slug": "pudong-ends-retail-gold-trading",
+   "why": "The other side of the same year: one Chinese bank walking out of gold as one Chinese city builds a clearing house for it."
+  },
+  "corrections": []
+ },
+ "nine-one-up-nineteen-four-down": {
+  "v": 3,
+  "kicker": "Swiss exports",
+  "figures": {
+   "asof": "Fédération de l'industrie horlogère suisse, August 2026 statistics, published 16 September 2026 · export prices, not retail sales",
+   "cells": [
+    {
+     "n": "CHF 1,789.2m",
+     "dir": "up",
+     "label": "August total",
+     "q": "all watch products, export prices",
+     "src": 0
+    },
+    {
+     "n": "−19.4%",
+     "dir": "down",
+     "label": "United States",
+     "q": "CHF 197.5m, largest market",
+     "src": 0
+    },
+    {
+     "n": "+46.1%",
+     "dir": "up",
+     "label": "United Kingdom",
+     "q": "CHF 164.7m, second market",
+     "src": 0
+    },
+    {
+     "n": "+1.7%",
+     "dir": "up",
+     "label": "Eight months",
+     "q": "cumulative, above CHF 17bn",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Growth, minus America.",
+   "text": "Swiss watch exports rose 9.1% in August to CHF 1,789.2m, on one more working day than 2025. Shipments to the United States fell 19.4%."
+  },
+  "means": [
+   {
+    "who": "If you buy Swiss stock:",
+    "text": "August gained a working day over 2025, so the rate flatters the month."
+   },
+   {
+    "who": "If you sell into America:",
+    "text": "US shipments fell 19.4% against a favourable comparison base."
+   },
+   {
+    "who": "What this is not:",
+    "text": "retail demand. FH counts exports at declared export prices."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · Main markets, August 2026",
+   "asof": "CHF million, change year on year, share of the month's total",
+   "cols": [
+    "Market",
+    "CHF m",
+    "Change",
+    "Share"
+   ],
+   "rows": [
+    [
+     "United States",
+     "197.5",
+     "−19.4%",
+     "11.0%"
+    ],
+    [
+     "United Kingdom",
+     "164.7",
+     "+46.1%",
+     "9.2%"
+    ],
+    [
+     "France",
+     "157.3",
+     "+113.5%",
+     "8.8%"
+    ],
+    [
+     "Japan",
+     "135.8",
+     "+22.1%",
+     "7.6%"
+    ],
+    [
+     "China",
+     "133.5",
+     "+15.8%",
+     "7.5%"
+    ],
+    [
+     "Hong Kong",
+     "117.6",
+     "+1.4%",
+     "6.6%"
+    ],
+    [
+     "Total, six markets",
+     "906.6",
+     "+17.1%",
+     "50.7%"
+    ]
+   ],
+   "hi": 0,
+   "note": "<b>Source</b> FH's August 2026 press release, read in the federation's own PDF. <b>Carat Capital checked the shares</b> against the month's CHF 1,789.2m total: 197.5/1,789.2 = 11.04%, and 906.6/1,789.2 = 50.67%, both matching FH's printed 11.0% and 50.7%. <b>France's 113.5%</b> is the federation's own figure and it publishes no explanation for it; a base effect is likely and is not asserted here. <b>These are exports</b>, not sales to consumers.",
+   "plate": "CC/2026/064"
+  },
+  "sections": [
+   {
+    "h": "America fell, everyone else rose",
+    "p": [
+     {
+      "lead": "The biggest market shrank.",
+      "text": "Exports to the United States fell 19.4% to CHF 197.5m in August, despite what the FH calls a favourable basis for comparison."
+     },
+     {
+      "lead": "Europe carried it.",
+      "text": "The United Kingdom rose 46.1% and France 113.5%. Japan, China and Hong Kong all grew."
+     }
+    ]
+   },
+   {
+    "h": "The month bought a day",
+    "p": [
+     {
+      "lead": "One extra day.",
+      "text": "August 2026 had one more working day than August 2025, which the FH states at the top of its release."
+     },
+     {
+      "lead": "Volume matched value.",
+      "text": "Unit shipments of wristwatches rose 9.5%, an additional 95,000 watches in the month."
+     }
+    ]
+   },
+   {
+    "h": "Gold-steel led the materials",
+    "p": [
+     {
+      "lead": "Bimetal jumped.",
+      "text": "Gold-steel wristwatches rose 20.1% by value to CHF 355.3m. Precious metal rose 6.9% and steel 2.8%."
+     },
+     {
+      "lead": "The middle sagged.",
+      "text": "By export price, only the CHF 500 to 3,000 band fell, down 0.9%. Watches over CHF 3,000 rose 10.2%."
+     }
+    ]
+   },
+   {
+    "h": "The year turns positive",
+    "p": [
+     {
+      "lead": "Eight months, plus 1.7%.",
+      "text": "The cumulative result for the first eight months stood at +1.7%, above CHF 17bn."
+     },
+     {
+      "lead": "The average turns.",
+      "text": "The twelve-month moving average moved into positive territory for the first time in two years."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "20 October 2026",
+    "what": "FH publishes September 2026 export statistics, its own next release date."
+   },
+   {
+    "when": "Q4 2026",
+    "what": "Whether the US decline persists through the holiday shipping months."
+   },
+   {
+    "when": "January 2027",
+    "what": "The full-year 2026 result against the +1.7% eight-month run rate."
+   }
+  ],
+  "depth": {
+   "reverse": "A September figure showing the United States back in growth. One month of −19.4% against a favourable base is a data point; two would be a market.",
+   "built": {
+    "title": "What the FH counts, and what it does not",
+    "text": "These figures are export declarations lodged with the Federal Customs Administration and valued at export prices, which is what a Swiss firm declares when the goods leave the country. They are not retail sales, not sell-through at a boutique, and not revenue recognised by a brand. Two consequences follow for a reader pricing inventory. First, a brand can push stock into a market without a customer having bought anything, so exports can rise while counters stay quiet. Second, the figures are consolidated across every Swiss watch firm, so no individual group's performance can be read out of them. The FH says so itself, and adds that the data can be revised, with the most recent publication prevailing."
+   },
+   "method": "The FH's own August 2026 press release PDF was downloaded and parsed directly, along with the statistics landing page carrying the release sentence, rather than taken from a trade write-up. The 9.1%, CHF 1,789.2m, market table, materials table and price-band figures are all read out of that document. Carat Capital redid the two share calculations printed in Table I and both match the federation's figures to the decimal. Archive test, both periods named: this paper's most recent FH story, 20 August 2026, covers JULY 2026, where exports rose 9.6%. This item covers AUGUST 2026, where they rose 9.1%. Same source and same series, different reporting period, so ADVANCED rather than a repeat. Two earlier FH pieces cover June 2026 and a market breakdown published 9 August; neither carries an August 2026 figure. A grep of the archive for 9.1% returns zero hits.",
+   "prior": [
+    {
+     "date": "2026-08-20",
+     "slug": "two-point-four-for-thirty-six",
+     "claim": "Gold watches took 36.2% of July's export value on 2.4% of units"
+    },
+    {
+     "date": "2026-08-09",
+     "slug": "turkey-up-america-down",
+     "claim": "Turkey rose 6.9% and America fell 14.8% in the month then reported"
+    },
+    {
+     "date": "2026-07-21",
+     "slug": "plus-eleven-two-in-june",
+     "claim": "June exports rose 11.2% year on year"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Swiss watchmaking in August 2026, FH press release",
+     "url": "https://www.fhs.swiss/file/59/comm_260808_a.pdf",
+     "published": "2026-09-16"
+    },
+    {
+     "title": "Watch industry statistics, FH",
+     "url": "https://www.fhs.swiss/eng/statistics.html",
+     "published": "2026-09-16"
+    }
+   ]
+  },
+  "next": {
+   "slug": "turkey-up-america-down",
+   "why": "The last time this desk took the FH market table apart, America was already the one falling."
+  },
+  "corrections": []
+ },
+ "one-twenty-three-thousand-square-feet": {
+  "v": 3,
+  "kicker": "Retail leasing",
+  "figures": {
+   "asof": "JLL retail leasing report of 8 September 2026, as reported by JCK on 16 September 2026 · United States, first half of 2026",
+   "cells": [
+    {
+     "n": "123,334 sq ft",
+     "dir": "down",
+     "label": "H1 2026 openings",
+     "q": "all US luxury retail",
+     "src": 0
+    },
+    {
+     "n": "−46%",
+     "dir": "down",
+     "label": "Year on year",
+     "q": "from 227,000 square feet",
+     "src": 0
+    },
+    {
+     "n": "43.5%",
+     "dir": "flat",
+     "label": "Jewellery and watches",
+     "q": "share of the smallest band",
+     "src": 0
+    },
+    {
+     "n": "+30%",
+     "dir": "up",
+     "label": "Flagship size",
+     "q": "average growth, JLL's figure",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Luxury stopped opening shops.",
+   "text": "Luxury retailers opened 123,334 square feet of US store space in the first half of 2026. That is down 46% from 227,000 square feet a year earlier, JLL found."
+  },
+  "means": [
+   {
+    "who": "If you lease jewellery space:",
+    "text": "small boxes are where the activity is. Under 2,500 square feet took nearly half of openings."
+   },
+   {
+    "who": "If you are a flagship landlord:",
+    "text": "fewer stores are opening, but the ones that do are over 30% bigger."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a jewellery-only count. The 123,334 figure covers all luxury retail."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · Who opened the space, H1 2026",
+   "asof": "United States, luxury retail openings tracked by JLL",
+   "cols": [
+    "Cut",
+    "Share or figure",
+    "What JLL counted"
+   ],
+   "rows": [
+    [
+     "Stores under 2,500 sq ft",
+     "nearly half",
+     "of all luxury openings"
+    ],
+    [
+     "Jewellery and watch retailers",
+     "43.5%",
+     "of that smallest band"
+    ],
+    [
+     "Independent and family-controlled brands",
+     "46%",
+     "of all tracked openings"
+    ],
+    [
+     "LVMH and Richemont together",
+     "about 30%",
+     "of openings"
+    ],
+    [
+     "Total openings",
+     "123,334 sq ft",
+     "down from 227,000 a year earlier"
+    ]
+   ],
+   "hi": 4,
+   "note": "<b>Source</b> JLL's leasing report of 8 September 2026, as reported by JCK on 16 September 2026; the report itself was not published to a public address this desk could reach. <b>Carat Capital's arithmetic</b> 123,334/227,000 = 54.3% of last year's total, which is 45.7% below it; JLL prints 46%. <b>Two different 46%s</b> appear above: the fall in openings and the independents' share of them. They are unrelated figures that happen to round alike. <b>No rent or dollar figure</b> is published.",
+   "plate": "CC/2026/064"
+  },
+  "sections": [
+   {
+    "h": "Small boxes took the space",
+    "p": [
+     {
+      "lead": "Half under 2,500 feet.",
+      "text": "Stores under 2,500 square feet accounted for nearly half of all luxury openings JLL tracked in the half."
+     },
+     {
+      "lead": "Jewellers led that band.",
+      "text": "Jewellery and watch retailers represented 43.5% of that smallest store-size category."
+     }
+    ]
+   },
+   {
+    "h": "Flagships grew as counts fell",
+    "p": [
+     {
+      "lead": "Bigger, not more.",
+      "text": "The average size of a luxury flagship store has grown by more than 30%, JLL found in its 8 September report."
+     },
+     {
+      "lead": "One example.",
+      "text": "Dior opened a 52,000 square foot store on Madison Avenue."
+     }
+    ]
+   },
+   {
+    "h": "Independents outweighed the groups",
+    "p": [
+     {
+      "lead": "Forty-six percent independent.",
+      "text": "Independent and family-controlled luxury brands accounted for 46% of all tracked openings."
+     },
+     {
+      "lead": "The groups took thirty.",
+      "text": "LVMH and Richemont together represented roughly 30% of openings."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Q4 2026",
+    "what": "JLL's next US retail leasing report, and whether second-half openings recover."
+   },
+   {
+    "when": "January 2027",
+    "what": "Full-year 2026 luxury leasing against 2025's higher base."
+   },
+   {
+    "when": "Ongoing",
+    "what": "Whether jewellery holds its 43.5% share as average store size rises."
+   }
+  ],
+  "depth": {
+   "reverse": "A second-half figure at or above 227,000 square feet. That would make the first half a pause in a leasing cycle rather than a change in how luxury takes space.",
+   "built": {
+    "title": "Why square feet and not store counts",
+    "text": "JLL measures leasing in square feet because that is the unit a landlord and a tenant actually transact in, and because it is the only measure that survives a change in store format. A count of stores would show this half as a collapse; a count of square feet shows it as a fall of 46% against a base swollen by a handful of very large flagships. The two numbers in this report pull against each other on purpose: total space is down sharply while the average flagship is over 30% bigger, which is only possible if far fewer large boxes opened. For a jeweller the useful cut is the smallest band, because that is the format most independent jewellery and watch retailers actually lease."
+   },
+   "method": "The figures are JLL's, read in JCK's write-up of 16 September 2026; JLL's own 8 September report is not published to a public address this desk could reach, and no attempt is made here to quote it directly. The scope of the headline figure was checked against the source sentence before the headline was written: 123,334 square feet is ALL US luxury store openings, not jewellery alone, and this page's headline and What-this-is-not both say so. The percentage was recomputed rather than carried: 123,334 divided by 227,000 is 54.3% of last year's total, so 45.7% below it, which rounds to JLL's own 46%. Archive test, both periods named: zero hits for JLL and zero for 123,334 across the 382-article archive. The paper's prior store-opening coverage is single-property (South Coast Plaza, 2 September 2026) or single-brand (Bucherer, 1 August 2026) and carries no market-level leasing figure for any half-year. NEW.",
+   "prior": [
+    {
+     "date": "2026-09-02",
+     "slug": "sixteen-hundred-feet-at-south-coast-plaza",
+     "claim": "Jessica McCormack took 1,600 square feet at South Coast Plaza"
+    },
+    {
+     "date": "2026-08-01",
+     "slug": "bucherer-gets-fifth-avenue",
+     "claim": "Bucherer will run Rolex's Fifth Avenue flagship"
+    },
+    {
+     "date": "2026-08-04",
+     "slug": "thirteen-hundred-brands-and-a-centenary",
+     "claim": "Vicenzaoro opened Hall 2 with 1,300 brands"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Luxury Jewelers Are Opening Fewer, Bigger Stores, JCK, reporting JLL",
+     "url": "https://www.jckonline.com/editorial-article/luxury-jewelers-stores-flagships/",
+     "published": "2026-09-16"
+    }
+   ]
+  },
+  "next": {
+   "slug": "sixteen-hundred-feet-at-south-coast-plaza",
+   "why": "One 1,600-square-foot jewellery lease, which is exactly the band this report says took nearly half the market."
+  },
+  "corrections": []
+ },
+ "seventy-five-rupees-an-article": {
+  "v": 3,
+  "kicker": "Hallmarking",
+  "figures": {
+   "asof": "Gazette of India, Extraordinary, Part III Section 4, No. 557, 14 September 2026 · BIS (Hallmarking) Amendment Regulations, 2026",
+   "cells": [
+    {
+     "n": "Rs 75",
+     "dir": "up",
+     "label": "Gold, per article",
+     "q": "jeweller to hallmarking centre",
+     "src": 0
+    },
+    {
+     "n": "Rs 200",
+     "dir": "up",
+     "label": "Gold minimum",
+     "q": "per consignment",
+     "src": 0
+    },
+    {
+     "n": "Rs 35",
+     "dir": "flat",
+     "label": "Silver, per article",
+     "q": "unchanged in the schedule",
+     "src": 0
+    },
+    {
+     "n": "14 Sep",
+     "dir": "flat",
+     "label": "In force",
+     "q": "on gazette publication",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "The fee schedule changed.",
+   "text": "India's Bureau of Indian Standards replaced Schedule IV of its 2018 hallmarking regulations on 14 September. Jewellers now pay Rs 75 an article for gold, with a Rs 200 minimum per consignment."
+  },
+  "means": [
+   {
+    "who": "If you hallmark in India:",
+    "text": "budget Rs 75 an article for gold and Rs 200 a consignment."
+   },
+   {
+    "who": "If you hallmark silver:",
+    "text": "nothing moved. The schedule leaves silver at Rs 35 an article."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a consumer levy. The fee is charged to jewellers by the centres."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · The new Schedule IV in full",
+   "asof": "As notified, 14 September 2026",
+   "cols": [
+    "Who pays whom",
+    "Metal",
+    "Per article",
+    "Minimum per consignment"
+   ],
+   "rows": [
+    [
+     "Jeweller to hallmarking centre",
+     "Gold",
+     "Rs 75",
+     "Rs 200"
+    ],
+    [
+     "Hallmarking centre to the Bureau",
+     "Gold",
+     "Rs 7.50",
+     "Rs 20"
+    ],
+    [
+     "Jeweller to hallmarking centre",
+     "Silver",
+     "Rs 35",
+     "Rs 150"
+    ],
+    [
+     "Hallmarking centre to the Bureau",
+     "Silver",
+     "Rs 3.50",
+     "Rs 15"
+    ]
+   ],
+   "hi": 0,
+   "note": "<b>Source</b> the Gazette of India, Extraordinary, Part III Section 4, No. 557, 14 September 2026, read in the Bureau's own PDF. <b>Taxes apply on top</b> of every rate above, at prevailing rates, per the notification's own closing note. <b>The previous gold rate is not printed</b> in the notification. Indian outlets including ETV Bharat and Deccan Chronicle put it at Rs 45, which gives (75 − 45)/45 = 66.7%. <b>Carat Capital could not verify</b> the old rate at a primary and does not print it as gazetted.",
+   "plate": "CC/2026/064"
+  },
+  "sections": [
+   {
+    "h": "Gold moves, silver stays",
+    "p": [
+     {
+      "lead": "Seventy-five an article.",
+      "text": "Jewellers pay recognised assaying and hallmarking centres Rs 75 for each gold article, with a minimum of Rs 200 a consignment."
+     },
+     {
+      "lead": "Silver is untouched.",
+      "text": "The same schedule keeps silver at Rs 35 an article and Rs 150 a consignment."
+     }
+    ]
+   },
+   {
+    "h": "The centres pay too",
+    "p": [
+     {
+      "lead": "A second tier.",
+      "text": "Hallmarking centres pay the Bureau Rs 7.50 for each gold article and Rs 3.50 for each silver one."
+     },
+     {
+      "lead": "Tax sits on top.",
+      "text": "The notification adds that applicable taxes are levied at prevailing rates, over and above these fees."
+     }
+    ]
+   },
+   {
+    "h": "It bites before the season",
+    "p": [
+     {
+      "lead": "In force at once.",
+      "text": "The regulations come into force on the date of publication in the Official Gazette, dated 14 September."
+     },
+     {
+      "lead": "Old rate unstated.",
+      "text": "The notification does not print the previous gold fee. Indian outlets put it at Rs 45, a rise of 66.7%."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Q4 2026",
+    "what": "Indian festive-season hallmarking volumes under the new schedule."
+   },
+   {
+    "when": "Q4 2026",
+    "what": "Whether jewellers' quoted making charges move with the fee."
+   },
+   {
+    "when": "2027",
+    "what": "Any further amendment to Schedule IV; the last three came in 2018, 2021 and 2022."
+   }
+  ],
+  "depth": {
+   "reverse": "A gazetted record of the previous rate. Until one is read, the 66.7% rise is the Indian press's arithmetic checked by this desk, not a figure the notification itself supports.",
+   "built": {
+    "title": "Who actually pays a hallmarking fee",
+    "text": "India's hallmarking system has three parties and two separate fees, which is why a single headline number misleads. A jeweller sends articles to a recognised Assaying and Hallmarking Centre, an independent private facility licensed by the Bureau of Indian Standards, and pays that centre per article with a floor per consignment. The centre in turn pays the Bureau a much smaller per-article charge for the licence to mark. Neither fee is levied on a consumer, and neither appears on a retail bill as a line item. Whether any of it reaches the customer depends on whether a jeweller absorbs it in making charges, which is a commercial decision the notification does not touch."
+   },
+   "method": "The gazette PDF was downloaded and read directly, in both its Hindi and English texts, rather than taken from press reports: the English Schedule IV reads Rs 75 per article and a Rs 200 minimum for gold paid by jewellers, Rs 7.50 and Rs 20 paid by centres to the Bureau, Rs 35 and Rs 150 for silver paid by jewellers, and Rs 3.50 and Rs 15 paid by centres. The notification carries no previous rate and no percentage, so the Rs 45 comparison and the 66.7% are attributed to the Indian press and the division is shown rather than carried: (75 − 45)/45 = 0.667. The commencement clause is quoted as written, in force on the date of publication in the Official Gazette, which the notification dates 14 September 2026. Archive test, both periods named: zero hits for hallmarking fee across the 382-article archive. Twenty-five hits for hallmark, all read, and every one concerns either the district rollout of mandatory hallmarking, most recently 392 districts on 31 August 2026, or silver testing capacity. Same regulator, different subject and different period, so NEW.",
+   "prior": [
+    {
+     "date": "2026-08-31",
+     "slug": "three-ninety-two-districts",
+     "claim": "Mandatory hallmarking reached 392 districts across 26 of 36 states"
+    },
+    {
+     "date": "2026-09-04",
+     "slug": "forty-six-fifty-one-off-indian-gold",
+     "claim": "IBJA gold added Rs 2,549 after a Rs 4,651 two-day fall"
+    },
+    {
+     "date": "2026-07-22",
+     "slug": "india-pays-in-old-gold",
+     "claim": "Old gold funded about seventy percent of Indian counter purchases"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Bureau of Indian Standards (Hallmarking) Amendment Regulations, 2026, Gazette of India No. 557",
+     "url": "https://www.bis.gov.in/wp-content/uploads/2026/09/Bureau-of-Indian-Standards-Hallmarking-Amendment-Regulations-2026-1.pdf",
+     "published": "2026-09-14"
+    },
+    {
+     "title": "BIS raises gold hallmarking fee to Rs 75 from Rs 45, ETV Bharat",
+     "url": "https://www.etvbharat.com/en/business/bis-raises-gold-hallmarking-fee-to-rs-75-from-rs-45-ahead-of-festive-season-enn26091603290",
+     "published": "2026-09-16"
+    }
+   ]
+  },
+  "next": {
+   "slug": "three-ninety-two-districts",
+   "why": "How far the mandatory hallmark now reaches, which is how many jewellers this fee actually catches."
+  },
+  "corrections": []
+ },
+ "two-fifty-lots-in-fredericksburg": {
+  "v": 3,
+  "kicker": "Sale preview",
+  "figures": {
+   "asof": "Victorins Auctions' own upcoming-catalogue page, read 17 September 2026 · estimates as published by Auction Daily, 19 August 2026",
+   "cells": [
+    {
+     "n": "20 Sep",
+     "dir": "flat",
+     "label": "Sale date",
+     "q": "verified at the house's catalogue",
+     "src": 0
+    },
+    {
+     "n": "250+",
+     "dir": "flat",
+     "label": "Lots offered",
+     "q": "the house's own count",
+     "src": 0
+    },
+    {
+     "n": "$105,750",
+     "dir": "up",
+     "label": "Top watch estimate",
+     "q": "Cartier Libre Noeud, high end",
+     "src": 1
+    },
+    {
+     "n": "$30,000",
+     "dir": "up",
+     "label": "Top jewel estimate",
+     "q": "two lots share it",
+     "src": 1
+    }
+   ]
+  },
+  "changed": {
+   "lead": "The date is verified.",
+   "text": "Victorins Auctions lists its September Edition sale for 20 September on its own catalogue page, with over 250 lots of jewellery, watches and estate property."
+  },
+  "means": [
+   {
+    "who": "If you buy at regional sales:",
+    "text": "five signed lots carry published estimate bands. Registration runs through LiveAuctioneers."
+   },
+   {
+    "who": "If you track Cartier resale:",
+    "text": "the Libre Noeud band is a spread of just over two times."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a major-house sale. No result exists until 20 September."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table II · Five named lots and their estimate bands",
+   "asof": "House estimates in US dollars, as published 19 August 2026",
+   "cols": [
+    "Lot",
+    "Low",
+    "High",
+    "High ÷ low"
+   ],
+   "rows": [
+    [
+     "Cartier Libre Noeud 18K white gold diamond watch",
+     "$52,500",
+     "$105,750",
+     "2.01"
+    ],
+    [
+     "Patek Philippe Calatrava 18K rose gold watch",
+     "$27,000",
+     "$53,850",
+     "1.99"
+    ],
+    [
+     "Bvlgari Monete three-coin 18K gold bracelet",
+     "$22,500",
+     "$30,000",
+     "1.33"
+    ],
+    [
+     "Cartier Byzantine 18K gold multi-gem bangle",
+     "$15,000",
+     "$30,000",
+     "2.00"
+    ],
+    [
+     "Panthère de Cartier 18K white gold half-pavé ring",
+     "$13,500",
+     "$18,750",
+     "1.39"
+    ]
+   ],
+   "hi": 0,
+   "note": "<b>Source</b> estimates as published by Auction Daily on 19 August 2026 from the house's own release. <b>The sale date</b> was confirmed separately at Victorins Auctions' own catalogue page on 17 September 2026, which reads Sep 20, 2026 4:00 PM. <b>The ratios</b> are Carat Capital's division of high estimate by low. <b>No reserve</b> is published for any lot, and no condition report was read by this desk.",
+   "plate": "CC/2026/064"
+  },
+  "sections": [
+   {
+    "h": "The date checks out",
+    "p": [
+     {
+      "lead": "Confirmed at the house.",
+      "text": "Victorins Auctions' own upcoming-catalogue page carries the September Edition sale at 20 September, 4pm."
+     },
+     {
+      "lead": "One platform.",
+      "text": "The house directs bidding to LiveAuctioneers, where its next listed catalogue after this one is a separate Fall Edition."
+     }
+    ]
+   },
+   {
+    "h": "Two watches carry the top",
+    "p": [
+     {
+      "lead": "Cartier leads.",
+      "text": "A Cartier Libre Noeud 18K white gold diamond ladies' watch carries $52,500 to $105,750, the sale's highest published band."
+     },
+     {
+      "lead": "Patek follows.",
+      "text": "A Patek Philippe Calatrava in 18K rose gold carries $27,000 to $53,850."
+     }
+    ]
+   },
+   {
+    "h": "Jewellery tops at thirty thousand",
+    "p": [
+     {
+      "lead": "Two at the mark.",
+      "text": "A Bvlgari Monete three-coin bracelet and a Cartier Byzantine bangle each carry $30,000 at the high end."
+     },
+     {
+      "lead": "Wide bands throughout.",
+      "text": "Three of the five named lots carry high estimates at about twice their low, which leaves the result open."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "20 September 2026",
+    "what": "The September Edition sale, and whether the Cartier watch clears its $52,500 low."
+   },
+   {
+    "when": "After 20 September",
+    "what": "Victorins' Fall Edition, the next catalogue its LiveAuctioneers page lists."
+   },
+   {
+    "when": "Q4 2026",
+    "what": "Whether regional US houses keep posting signed-watch bands at these levels."
+   }
+  ],
+  "depth": {
+   "reverse": "A published result. Five estimate bands say what a house hopes for; a hammer price says what the market paid, and the two have parted company at this level before.",
+   "built": {
+    "title": "Why a high-over-low ratio is worth computing",
+    "text": "An estimate band is a house's public statement of uncertainty. A narrow band, say a third above the low, says the specialist has comparable results and expects the lot to land close to them. A band at twice the low says the house does not know, usually because the piece is signed but not dated, or the condition is unreported, or there are few recent comparables for that exact reference. Three of the five lots here sit at about two times, which for a buyer means the low estimate is doing most of the work as a reserve signal and the high is closer to an aspiration. It is also why this page prints the ratio: the spread is the information the band carries beyond its two endpoints."
+   },
+   "method": "The sale date was verified at the primary before anything else was written, per this paper's standing rule that an unverified date does not enter a what-to-watch list. Victorins Auctions' own upcoming-catalogue page was fetched on 17 September 2026 and reads September Edition: Vintage Jewels, Watches & Estate, Sep 20, 2026 4:00 PM. The house's LiveAuctioneers profile was fetched separately and lists a different, later catalogue, the Fall Edition, as upcoming; that is a second sale, not a contradiction, and the individual catalogue page returned a bot-protection error rather than a date, so no LiveAuctioneers date is printed here. The lot estimates come from Auction Daily's write-up of the house's release of 19 August 2026, attributed as house estimates rather than independent valuations. The five ratios in Table II are this desk's own division. Archive test, both periods named: zero hits for Victorins across the 382-article archive; the paper has covered regional-house jewellery and watch sales before, most recently Penzance on 2 September 2026 and Bonhams on 8 September 2026, both different houses and both completed sales rather than previews. NEW.",
+   "prior": [
+    {
+     "date": "2026-09-02",
+     "slug": "fifty-nine-thousand-in-penzance",
+     "claim": "A steel Patek made £59,000, 11.8 times its low estimate"
+    },
+    {
+     "date": "2026-09-08",
+     "slug": "seventy-eight-thousand-at-bonhams",
+     "claim": "A Mouawad parure sold for $78,277 against a $153,085 high estimate"
+    },
+    {
+     "date": "2026-09-12",
+     "slug": "oscar-heyman-forty-point-three",
+     "claim": "Morphy estimated an Oscar Heyman necklace at 40.3% of its invoice"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Upcoming Auction Catalog, Victorins Auctions",
+     "url": "https://victorins.com/catalog",
+     "published": "2026-09-17"
+    },
+    {
+     "title": "Jewelry, Luxury Timepieces and Rare Collectibles Highlight Victorins Auctions' September Sale, Auction Daily",
+     "url": "https://auctiondaily.com/news/jewelry-luxury-timepieces-and-rare-collectibles-highlight-victorins-auctions-september-sale/",
+     "published": "2026-08-19"
+    }
+   ]
+  },
+  "next": {
+   "slug": "fifty-nine-thousand-in-penzance",
+   "why": "What a regional house's estimate band is actually worth once the hammer falls."
+  },
+  "corrections": []
+ },
+ "star-diamond-names-boulle": {
+  "v": 3,
+  "kicker": "People",
+  "figures": {
+   "asof": "Rapaport report of 15 September 2026 on the company's announcement · no financial figure disclosed",
+   "cells": [
+    {
+     "n": "1 Oct",
+     "dir": "flat",
+     "label": "Effective",
+     "q": "Boulle II takes the seat",
+     "src": 0
+    },
+    {
+     "n": "Nov 2025",
+     "dir": "flat",
+     "label": "Kemp's start",
+     "q": "as interim chief executive",
+     "src": 0
+    },
+    {
+     "n": "11 months",
+     "dir": "flat",
+     "label": "Interim run",
+     "q": "November 2025 to October 2026",
+     "src": 0
+    },
+    {
+     "n": "None",
+     "dir": "flat",
+     "label": "Operational change",
+     "q": "none stated with the appointment",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Star Diamond has a chief.",
+   "text": "Jean Raymond Boulle II becomes chief executive of Star Diamond Corp on 1 October, succeeding Lester Kemp, interim chief executive since November 2025."
+  },
+  "means": [
+   {
+    "who": "If you hold Star Diamond stock:",
+    "text": "the interim label comes off after about 11 months. No strategy change is stated."
+   },
+   {
+    "who": "If you watch Fort à la Corne:",
+    "text": "the project keeps its operator. Nothing here touches the programme."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a financing or a resource update. No figure accompanies the appointment."
+   }
+  ],
+  "sections": [
+   {
+    "h": "The interim label comes off",
+    "p": [
+     {
+      "lead": "A dated handover.",
+      "text": "Boulle II takes the chief executive seat on 1 October. Kemp had held it on an interim basis since November 2025."
+     },
+     {
+      "lead": "About 11 months.",
+      "text": "That is roughly 11 months without a permanent chief executive."
+     }
+    ]
+   },
+   {
+    "h": "Nothing else was announced",
+    "p": [
+     {
+      "lead": "No operational change.",
+      "text": "Rapaport reported the appointment on 15 September. It carries no change to the Fort à la Corne programme, no financing and no resource figure."
+     },
+     {
+      "lead": "The project is named.",
+      "text": "Boulle II said he looks forward to developing the Fort à la Corne kimberlite diamond project with the board and shareholders."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "1 October 2026",
+    "what": "Boulle II's first day, and any statement of programme priorities."
+   },
+   {
+    "when": "Q4 2026",
+    "what": "Star Diamond's next filing, and whether Fort à la Corne spending changes."
+   },
+   {
+    "when": "2027",
+    "what": "Any resource or economic update on the project under new leadership."
+   }
+  ],
+  "depth": {
+   "reverse": "A programme or financing announcement in the first quarter under the new chief. A leadership change with no figure attached is only worth reporting because of what comes after it.",
+   "built": {
+    "title": "What an interim chief executive signals, and for how long",
+    "text": "An interim appointment at a single-asset development company usually means one of three things: the board is searching, the board is waiting on a financing before it can offer a permanent package, or the strategy itself is under review and the permanent hire depends on the outcome. Which of the three applies is rarely stated and is not stated here. What the duration tells a reader is the search cost: about eleven months is long by the standards of a listed company with one project, and it ends without any accompanying change to the programme, which argues for the second or third reading rather than a simple vacancy."
+   },
+   "method": "Rapaport's report of 15 September 2026 was fetched directly. It gives the successor, the predecessor and his interim status since November 2025, the 1 October 2026 effective date and the project name, and states no resource, carat or stake figure; none is printed here. The eleven-month interim span is this desk's own subtraction from November 2025 to October 2026 and is written as approximate because the announcement gives no day in November. Archive test, both periods named: zero hits for Star Diamond and zero for Boulle across the 382-article archive, so this is the company's first appearance in this paper and there is no prior period to compare against. The item appeared on the Bureau's slate on 16 September and again on 17 September without being published in between, so this is a second at-bat for unpublished material rather than a repeat of anything printed.",
+   "prior": [
+    {
+     "date": "2026-07-27",
+     "slug": "israel-exchange-loses-its-chief",
+     "claim": "Israel's diamond exchange chief resigned as exports hit a record low"
+    },
+    {
+     "date": "2026-07-29",
+     "slug": "rio-diamond-unit-fades",
+     "claim": "Rio's diamond unit faded to $118 million as Diavik wound down"
+    },
+    {
+     "date": "2026-09-16",
+     "slug": "forty-nine-years-and-a-new-chief",
+     "claim": "Lagos named Keith Rolfe chief executive, 49 years after founding"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Star Diamond Names New CEO, Rapaport",
+     "url": "https://rapaport.com/news/star-diamond-names-new-ceo/",
+     "published": "2026-09-15"
+    }
+   ]
+  },
+  "next": {
+   "slug": "forty-nine-years-and-a-new-chief",
+   "why": "The other chief executive this paper reported this week, and what was and was not said alongside it."
+  },
+  "corrections": []
  }
 }
