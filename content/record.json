@@ -1,10 +1,40 @@
 {
- "updated": "17 Sep 2026",
+ "updated": "18 Sep 2026",
  "intro": "Eight weeks of the trade, kept the way a ledger should be kept — dated, sourced, and in one place. New entries are added at the top each week; the quarter's running numbers live in the Almanac below.",
  "weeks": [
   {
    "label": "This week - August 19 to September 15",
    "entries": [
+    {
+     "d": "auctions",
+     "h": "Sotheby's sells HK$267.5m in Hong Kong as rubies take top three",
+     "t": "Sotheby's Hong Kong High Jewelry sale of 17 September made HK$267.5 million, or $34.1 million, across more than 180 lots. A Mauboussin ruby necklace led at HK$16 million and no diamond-led lot reached the top ten.",
+     "s": "Rapaport, 17 September 2026"
+    },
+    {
+     "d": "gold-metals",
+     "h": "Silver adds 4.87% to $66.835, highest mark since 31 August",
+     "t": "Gold marked $4,375.70, platinum $1,807.00 and palladium $1,305.00 on Kitco's bid at 06:03 EDT on 18 September. All four metals rose on the 17 September marks.",
+     "s": "Kitco live board, 18 September 2026 06:02:58Z; LBMA fixes, 17 September 2026"
+    },
+    {
+     "d": "watches",
+     "h": "Patek Philippe split-seconds carries CHF 4m estimate at Phillips",
+     "t": "A 1945 Patek Philippe split-seconds chronograph carries an upper estimate of CHF 4 million, or $4.9 million, at Phillips' Geneva Watch Auction XXIV on 7 and 8 November.",
+     "s": "Rapaport, 16 September 2026"
+    },
+    {
+     "d": "retail-tech",
+     "h": "Stuller puts jewellery stores at 26% of doors, 48% of dollars",
+     "t": "Harold Dupuy of Stuller told the American Gem Society's Conclave in Orlando that jewellery-only stores are 26% of national doors and about 48% of the dollars. No period or denominator was published.",
+     "s": "Rapaport, 17 September 2026"
+    },
+    {
+     "d": "diamonds",
+     "h": "GJEPC takes 89 Indian companies into 1,228 sq m in Hong Kong",
+     "t": "GJEPC's India Pavilion at Jewellery & Gem World Hong Kong holds 89 Indian companies across 1,228 square metres, an average of 13.8 square metres a company.",
+     "s": "GJEPC release, 17 September 2026"
+    },
     {
      "d": "diamonds",
      "h": "Shanghai Diamond Exchange signs Beijing pact with three governments",

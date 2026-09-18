@@ -3,7 +3,12 @@
 # Content lives in content/articles.json + content/wire.json — edit those, re-run this.
 import html as H
 import datetime
-import json, pathlib
+import json, pathlib, sys
+
+sys.path.insert(0, str(pathlib.Path(__file__).parent))
+import seo  # ops/search-doctrine.md -- search and answer-engine plumbing
+
+INDEXNOW_KEY = "a58a544718029722e74e529d850aad85"
 
 ROOT = pathlib.Path(__file__).parent
 CONTENT = ROOT / "content"
@@ -368,7 +373,7 @@ def metadesc(text, limit=155):
     return cut.rstrip(" ,;:.\u2014-") + "\u2026"
 
 
-def head(title, desc, path="", extra=""):
+def head(title, desc, path="", extra="", og_type="website", og_image=None):
     canonical = cu(f"{BASE_URL}/{path}") if path else BASE_URL
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -381,9 +386,9 @@ def head(title, desc, path="", extra=""):
 <meta property="og:site_name" content="Carat Capital">
 <meta property="og:title" content="{H.escape(title)}">
 <meta property="og:description" content="{H.escape(desc)}">
-<meta property="og:type" content="website">
+<meta property="og:type" content="{og_type}">
 <meta property="og:url" content="{canonical}">
-<meta property="og:image" content="{BASE_URL}/assets/og-card.png">
+<meta property="og:image" content="{og_image or (BASE_URL + '/assets/og-card.png')}">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="alternate" type="application/rss+xml" title="Carat Capital — all desks" href="{BASE_URL}/feed.xml">
 <script data-goatcounter="https://caratcapital.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
@@ -2805,18 +2810,21 @@ def article_page_v2(a):
     desk_name = DESK_NAMES.get(a["desk"], a["desk"])
     jsonld = json.dumps({
         "@context": "https://schema.org", "@type": "NewsArticle",
-        "headline": a["title"], "description": a["dek"], "datePublished": a["date"],
+        "headline": a["title"], "description": a["dek"],
+        "datePublished": seo.iso_ts(a["date"]), "dateModified": seo.iso_ts(a.get("modified", a["date"])),
         "author": {"@type": "Organization", "name": f"Carat Capital — {a['byline']}"},
         "publisher": {"@type": "Organization", "name": "Carat Capital", "url": BASE_URL},
         "articleSection": desk_name, "mainEntityOfPage": f"{BASE_URL}/a-{a['slug']}"
     })
-    extra = f'<scr' + f'ipt type="application/ld+json">{jsonld}</scr' + f'ipt>'
+    _own = a["slug"] in PH
+    ogimg = f"{BASE_URL}/assets/ph/{a['slug']}.jpg" if _own else None
+    extra = f'<scr' + f'ipt type="application/ld+json">{jsonld}</scr' + f'ipt>' + "\n" + seo.og_article_tags(a, desk_name, ogimg)
     opener = _v2_strip(ed["strip"]) if "strip" in ed else _v2_spec(ed["spec"])
     lead_fig = _v2_fig(ed["figs"][0], 0) if ed.get("figs") else ""
     art_photo = photo_plate(a["slug"], cls="art-photo", eager=True, label="Plate") or motif_plate(a.get("desk","diamonds"), f"CC/{a['date'][-5:]}")
     prog = ('<div id="artprog"></div><scr' + 'ipt>addEventListener("scroll",function(){var h=document.documentElement;'
             'document.getElementById("artprog").style.width=h.scrollTop/(h.scrollHeight-h.clientHeight)*100+"%"})</scr' + 'ipt>')
-    return f"""{head(f"{a['title']} — Carat Capital", metadesc(a['dek']), f"a-{a['slug']}.html", extra)}
+    return f"""{head(f"{a['title']} — Carat Capital", metadesc(a['dek']), f"a-{a['slug']}.html", extra, og_type="article", og_image=ogimg)}
 {prog}
 {folio(f"{a['date']} · {desk_name}")}
 {navbar(a['desk'])}
@@ -3083,14 +3091,16 @@ def article_page_v3(a):
     corr = (ed.get("depth") or {}).get("corrections") or []
     jsonld = json.dumps({
         "@context": "https://schema.org", "@type": "NewsArticle",
-        "headline": a["title"], "description": a["dek"], "datePublished": a["date"], "dateModified": ed.get("modified", a["date"]),
+        "headline": a["title"], "description": a["dek"],
+        "datePublished": seo.iso_ts(a["date"]), "dateModified": seo.iso_ts(ed.get("modified", a["date"])),
         "author": {"@type": "Organization", "name": "Carat Capital — %s" % a["byline"]},
         "publisher": {"@type": "Organization", "name": "Carat Capital", "url": BASE_URL},
         "articleSection": desk_name, "mainEntityOfPage": "%s/a-%s" % (BASE_URL, a["slug"]),
         "wordCount": l1 + l2,
     })
     extra = '<scr' + 'ipt type="application/ld+json">%s</scr' + 'ipt>'
-    extra = extra % jsonld
+    ogimg = ("%s/assets/ph/%s.jpg" % (BASE_URL, a["slug"])) if a["slug"] in PH else None
+    extra = (extra % jsonld) + "\n" + seo.og_article_tags(a, desk_name, ogimg)
     prog = ('<div id="artprog" class="v3prog"></div><scr' + 'ipt>addEventListener("scroll",function(){var h=document.documentElement;'
             'document.getElementById("artprog").style.width=h.scrollTop/(h.scrollHeight-h.clientHeight)*100+"%"})</scr' + 'ipt>')
     kicker = a.get("kicker", desk_name)
@@ -3117,7 +3127,7 @@ def article_page_v3(a):
 <div class="lower">%s%s</div>
 </article>
 %s
-%s""" % (head("%s — Carat Capital" % title, metadesc(a["dek"]), "a-%s.html" % a["slug"], extra), prog, navbar(a["desk"]), omenu(),
+%s""" % (head("%s — Carat Capital" % title, metadesc(a["dek"]), "a-%s.html" % a["slug"], extra, "article", ogimg), prog, navbar(a["desk"]), omenu(),
          folio_, hero_text, _v3_hero(ed), _v3_series(ed.get("series")), _v3_blocks(ed), _v3_photo(ed, a),
          cut, _v3_visual(ed.get("visual")), _v3_sections(secs), _v3_rail(ed, secs), _v3_depth(ed, a), _v3_foot(ed, a), colophon(), SCRIPT)
 
@@ -3132,13 +3142,16 @@ def article_page(a):
     desk_name = DESK_NAMES.get(a["desk"], a["desk"])
     jsonld = json.dumps({
         "@context": "https://schema.org", "@type": "NewsArticle",
-        "headline": a["title"], "description": a["dek"], "datePublished": a["date"],
+        "headline": a["title"], "description": a["dek"],
+        "datePublished": seo.iso_ts(a["date"]), "dateModified": seo.iso_ts(a.get("modified", a["date"])),
         "author": {"@type": "Organization", "name": f"Carat Capital — {a['byline']}"},
         "publisher": {"@type": "Organization", "name": "Carat Capital", "url": BASE_URL},
         "articleSection": desk_name, "mainEntityOfPage": f"{BASE_URL}/a-{a['slug']}"
     })
-    extra = f'<scr' + f'ipt type="application/ld+json">{jsonld}</scr' + f'ipt>'
-    return f"""{head(f"{a['title']} — Carat Capital", metadesc(a['dek']), f"a-{a['slug']}.html", extra)}
+    _own = a["slug"] in PH
+    ogimg = f"{BASE_URL}/assets/ph/{a['slug']}.jpg" if _own else None
+    extra = f'<scr' + f'ipt type="application/ld+json">{jsonld}</scr' + f'ipt>' + "\n" + seo.og_article_tags(a, desk_name, ogimg)
+    return f"""{head(f"{a['title']} — Carat Capital", metadesc(a['dek']), f"a-{a['slug']}.html", extra, og_type="article", og_image=ogimg)}
 {folio(f"{a['date']} · {desk_name}")}
 {navbar(a['desk'])}
 {omenu()}
@@ -3550,6 +3563,27 @@ for _f in out.glob("*.html"):
 (out/"feed.xml").write_text(rss_feed())
 (out/"llms.txt").write_text(llms_txt())
 pages = ["index.html", "field-guide.html", "about.html", "the-record.html", "almanac.html", "natural-diamond-prices.html", "lab-grown-diamond-prices.html", "indices.html", "magazine.html"] + [f"{d['slug']}.html" for d in DESKS] + [f"a-{a['slug']}.html" for a in ARTICLES]
-(out/"sitemap.xml").write_text(sitemap(pages))
-(out/"robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {BASE_URL}/sitemap.xml\n")
-print("built:", ", ".join(pages), "+ sitemap, robots, favicon")
+# --- search plumbing: ops/search-doctrine.md Rules T4, T5, E1 -------------------
+# lastmod (T4). Articles carry their own date. Pages that rebuild with every edition
+# carry the edition date. The four genuinely static pages carry NO lastmod: their
+# bytes do not move daily and saying they do teaches the crawler to distrust us.
+EDITION_DATE = ARTICLES[0]["date"][:10] if ARTICLES else ""
+STATIC_PAGES = {"about.html", "field-guide.html", "privacy.html", "terms.html"}
+ART_DATE = {"a-%s.html" % a["slug"]: a["date"][:10] for a in ARTICLES}
+entries = [(pg, None if pg in STATIC_PAGES else ART_DATE.get(pg, EDITION_DATE)) for pg in pages]
+(out/"sitemap.xml").write_text(seo.sitemap(entries))
+
+# News sitemap (T5) -- last 48h only, <1000 URLs, <news:news> markup.
+(out/"news-sitemap.xml").write_text(seo.news_sitemap(ARTICLES))
+
+# robots.txt now declares both sitemaps. The crawler-permission question
+# (which training bots, if any, to block) is Roomy's and is NOT answered here.
+(out/"robots.txt").write_text(
+    "User-agent: *\nAllow: /\n"
+    f"Sitemap: {BASE_URL}/sitemap.xml\n"
+    f"Sitemap: {BASE_URL}/news-sitemap.xml\n")
+
+# IndexNow key (E1). Public by design -- the protocol requires it be fetchable.
+(out/("%s.txt" % INDEXNOW_KEY)).write_text(INDEXNOW_KEY)
+
+print("built:", len(pages), "pages + sitemap(lastmod), news-sitemap, robots, indexnow key, favicon")

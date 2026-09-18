@@ -114591,7 +114591,7 @@
      "n": "+30%",
      "dir": "up",
      "label": "Flagship size",
-     "q": "average growth, JLL's figure",
+     "q": "Bain & Co., cited by JLL",
      "src": 0
     }
    ]
@@ -114673,7 +114673,7 @@
     "p": [
      {
       "lead": "Bigger, not more.",
-      "text": "The average size of a luxury flagship store has grown by more than 30%, JLL found in its 8 September report."
+      "text": "The average size of a luxury flagship store has grown by more than 30%, per Bain & Co. research cited in JLL's 8 September report."
      },
      {
       "lead": "One example.",
@@ -114739,13 +114739,17 @@
      "url": "https://www.jckonline.com/editorial-article/luxury-jewelers-stores-flagships/",
      "published": "2026-09-16"
     }
+   ],
+   "corrections": [
+    "<b>Corrected 18 September 2026.</b> Section II first read that the average size of a luxury flagship store has grown by more than 30%, \"JLL found in its 8 September report.\" JLL did not find it. JCK's article, fetched again at its own address, reads: the firm \"cited research from the Bain &amp; Co. consulting group\" for that figure. The line now credits Bain &amp; Co., cited by JLL, and the key-figure qualifier changes from \"average growth, JLL's figure\" to \"Bain &amp; Co., cited by JLL.\" The 30% itself was right as published, and so was every other figure on this page, including the separate roughly 30% that is JLL's own count of LVMH and Richemont's share of openings. The error came from this desk compressing JCK's two-step attribution into one name."
    ]
   },
   "next": {
    "slug": "sixteen-hundred-feet-at-south-coast-plaza",
    "why": "One 1,600-square-foot jewellery lease, which is exactly the band this report says took nearly half the market."
   },
-  "corrections": []
+  "corrections": [],
+  "modified": "2026-09-18"
  },
  "seventy-five-rupees-an-article": {
   "v": 3,
@@ -115270,5 +115274,990 @@
    "why": "The other chief executive this paper reported this week, and what was and was not said alongside it."
   },
   "corrections": []
+ },
+ "rubies-take-the-top-three": {
+  "v": 3,
+  "kicker": "Sale result",
+  "figures": {
+   "asof": "Sotheby's Hong Kong High Jewelry sale of 17 September 2026 · results and estimates as reported by Rapaport, 17 September 2026 15:21 UTC",
+   "cells": [
+    {
+     "n": "HK$267.5m",
+     "dir": "flat",
+     "label": "Sale total",
+     "q": "$34.1 million, all lots",
+     "src": 0
+    },
+    {
+     "n": "HK$16m",
+     "dir": "up",
+     "label": "Top lot",
+     "q": "Mauboussin ruby necklace",
+     "src": 0
+    },
+    {
+     "n": "9.3x",
+     "dir": "up",
+     "label": "Best multiple",
+     "q": "Cartier earrings over estimate",
+     "src": 0
+    },
+    {
+     "n": "180+",
+     "dir": "flat",
+     "label": "Lots offered",
+     "q": "Rapaport's own count",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Rubies took the top.",
+   "text": "Sotheby's Hong Kong High Jewelry sale made HK$267.5 million, or $34.1 million. Ruby lots took the three highest prices, led by a Mauboussin necklace at HK$16 million."
+  },
+  "means": [
+   {
+    "who": "If you bid on Burmese ruby:",
+    "text": "the top three lots were ruby. Two cleared HK$12.8 million each."
+   },
+   {
+    "who": "If you consign coloured stones:",
+    "text": "small estimates moved furthest. A Cartier pair made 9.3 times its high estimate."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a diamond market reading. No diamond-led lot reached the top ten."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · The ten highest prices and what the house expected",
+   "asof": "Hong Kong dollars · sale of 17 September 2026 · estimates as published by Rapaport",
+   "cols": [
+    "Lot",
+    "Sale price",
+    "High estimate",
+    "Price ÷ high"
+   ],
+   "rows": [
+    [
+     "Mauboussin necklace, tumbled rubies and ruby beads",
+     "HK$16m",
+     "HK$11m",
+     "1.45"
+    ],
+    [
+     "Burmese ruby earrings, 5.20 and 5.08 carats",
+     "HK$12.8m",
+     "HK$20m",
+     "0.64"
+    ],
+    [
+     "Burmese ruby ring, 5.06 carats",
+     "HK$12.8m",
+     "HK$16m",
+     "0.80"
+    ],
+    [
+     "Paraiba tourmaline ring, 7.52 carats",
+     "HK$10.5m",
+     "HK$15.5m",
+     "0.68"
+    ],
+    [
+     "Cartier tutti frutti earrings",
+     "HK$7.9m",
+     "HK$850,000",
+     "9.29"
+    ],
+    [
+     "Burmese ruby ring, 6.05 carats",
+     "HK$7.7m",
+     "HK$7.8m",
+     "0.99"
+    ],
+    [
+     "Harry Winston Colombian emerald earrings",
+     "HK$7.2m",
+     "HK$15m",
+     "0.48"
+    ],
+    [
+     "Sugarloaf sapphire ring, 20.84 carats",
+     "HK$5.8m",
+     "HK$9.5m",
+     "0.61"
+    ],
+    [
+     "Tanzanian spinel ring, 21.36 carats",
+     "HK$5.2m",
+     "HK$6m",
+     "0.87"
+    ],
+    [
+     "Van Cleef & Arpels mystery-set ruby earrings",
+     "HK$5.1m",
+     "HK$1.4m",
+     "3.64"
+    ]
+   ],
+   "hi": 4,
+   "note": "<b>Source</b> Rapaport's report of 17 September 2026, which pairs each lot with its own estimate band and sale price; the pairing was re-checked against the page's underlying markup rather than its flattened text, because estimate, price and description sit in that order inside each block. <b>Carat Capital's arithmetic</b> the last column is sale price divided by high estimate: 7,900,000 ÷ 850,000 = 9.29, and 12,800,000 ÷ 20,000,000 = 0.64, which is 64% of the high estimate and 36% below it. <b>Not a whole sale</b> these are the ten Rapaport names out of more than 180 lots, so they are a selection, not the catalogue.",
+   "plate": "CC/2026/065"
+  },
+  "sections": [
+   {
+    "h": "Rubies took the three highest prices",
+    "p": [
+     {
+      "lead": "Mauboussin led.",
+      "text": "A Mauboussin necklace of tumbled rubies and ruby beads made HK$16 million, or $2 million, against a HK$11 million high estimate."
+     },
+     {
+      "lead": "Two at 12.8.",
+      "text": "A pair of Burmese ruby earrings and a 5.06-carat Burmese ruby ring each made HK$12.8 million."
+     }
+    ]
+   },
+   {
+    "h": "Small estimates moved furthest",
+    "p": [
+     {
+      "lead": "Cartier multiplied.",
+      "text": "Cartier tutti frutti earrings carrying an HK$850,000 high estimate made HK$7.9 million, 9.3 times that figure."
+     },
+     {
+      "lead": "Van Cleef followed.",
+      "text": "Van Cleef & Arpels mystery-set ruby earrings made HK$5.1 million on a HK$1.4 million high estimate, 3.6 times it."
+     }
+    ]
+   },
+   {
+    "h": "Coloured stones filled the top ten",
+    "p": [
+     {
+      "lead": "No diamond led.",
+      "text": "Every one of the ten highest prices went to a lot led by a coloured stone, out of more than 180 offered. A 7.52-carat Paraiba tourmaline ring made HK$10.5 million.",
+      "links": {
+       "a lot led by a coloured stone": "a-twenty-million-on-two-rubies.html"
+      }
+     },
+     {
+      "lead": "The trailed pair cleared low.",
+      "text": "The earrings led in the 6 September preview made HK$12.8 million, 64% of their HK$20 million high estimate and 36% below it."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "20 September 2026",
+    "what": "Victorins' September Edition sale in Fredericksburg, the next dated jewellery result."
+   },
+   {
+    "when": "Mid-to-late September 2026",
+    "what": "Gemfields' next emerald auction result, the coloured-stone desk's standing anchor."
+   },
+   {
+    "when": "Late September 2026",
+    "what": "FCRF's Q3 fancy-colour index, the next dated coloured-stone reading."
+   }
+  ],
+  "depth": {
+   "reverse": "A second September sale at these levels. One session in one city is a single reading, and a house can assemble a ruby-heavy catalogue in a market that is not paying up for ruby anywhere else.",
+   "built": {
+    "title": "How a price-over-estimate multiple reads",
+    "text": "A high estimate is the house's public ceiling on what it expects, set by its specialists before the room bids. Dividing the hammer-inclusive sale price by that ceiling gives a single number: above 1 the room outbid the house, below 1 it did not. The multiple is most informative at the small end, where a modest band leaves room for a result many times it, and least informative at the top, where a wide band absorbs almost any outcome. A ratio of 9.29 on an HK$850,000 band and a ratio of 0.64 on an HK$20 million band can sit in the same sale without contradicting each other."
+   },
+   "method": "Rapaport's report of 17 September 2026 is the source for the total, the lot descriptions, the estimates and the prices. Its own attribution for the top lot is the Sotheby's website. Sotheby's own High Jewelry results page was fetched directly for a second reading and returned 860,277 bytes of served HTML carrying no sale total, no lot price and no occurrence of the word Mauboussin; the figures are rendered by script after load, so this page is single-sourced on Rapaport and says so. The lot pairing was taken from the article's markup, not its flattened text: each block runs estimate, then sale price, then description, and two separate lots sold at HK$12.8 million, so a text-order read can attach the wrong band to the wrong stone. The last column of Table I is Carat Capital's own division, printed beside the figures it comes from. ARCHIVE: Sotheby's Hong Kong High Jewelry sale - ours of 2026-09-06 covers the PREVIEW period, the published estimates before the sale, and names the HK$20 million earrings, the 5.06 and 6.05 carat rings and the Mauboussin necklace; this item covers the RESULT period, the session of 17 September and its prices. DIFFERENT PERIOD, so ADVANCED, not a repeat. Searches for 267.5, Mauboussin, tutti frutti and Paraiba were each opened and read rather than counted.",
+   "prior": [
+    {
+     "date": "2026-09-06",
+     "slug": "twenty-million-on-two-rubies",
+     "claim": "Nine of the ten costliest lots were led by a coloured stone"
+    },
+    {
+     "date": "2026-09-16",
+     "slug": "ninety-five-million-in-hong-kong",
+     "claim": "An 8.41-carat pink carries a HK$95m Christie's estimate"
+    },
+    {
+     "date": "2026-08-26",
+     "slug": "three-times-the-royal-brooch",
+     "claim": "A Cartier tutti frutti brooch made £60,000 at Elmwood's"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Sotheby's Scores $34M at Hong Kong Sale, Rapaport",
+     "url": "https://rapaport.com/news/sothebys-scores-34m-at-hong-kong-sale/",
+     "published": "2026-09-17T15:21:42Z"
+    }
+   ],
+   "corrections": []
+  },
+  "next": {
+   "slug": "twenty-million-on-two-rubies",
+   "why": "The estimates this result is measured against, published eleven days before the room bid."
+  }
+ },
+ "silver-back-to-august": {
+  "v": 3,
+  "kicker": "Metals tape",
+  "figures": {
+   "asof": "Kitco's live bid, read 2026-09-18 06:03 EDT · change measured on Carat Capital's 17 September marks",
+   "cells": [
+    {
+     "n": "$66.835",
+     "dir": "up",
+     "label": "Silver / oz",
+     "q": "up 4.87% on Thursday",
+     "src": 0
+    },
+    {
+     "n": "$4,375.70",
+     "dir": "up",
+     "label": "Gold / oz",
+     "q": "up 1.51% on Thursday",
+     "src": 0
+    },
+    {
+     "n": "$1,807.00",
+     "dir": "up",
+     "label": "Platinum / oz",
+     "q": "up 2.15% on Thursday",
+     "src": 0
+    },
+    {
+     "n": "$1,305.00",
+     "dir": "up",
+     "label": "Palladium / oz",
+     "q": "up 2.76% on Thursday",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "All four metals rose.",
+   "text": "Silver reached $66.835 an ounce, up 4.87% on Thursday's mark. Gold, platinum and palladium rose too, none by as much."
+  },
+  "means": [
+   {
+    "who": "If you price silver stock:",
+    "text": "the ounce moved 4.87% in one session. Recheck the counter before quoting."
+   },
+   {
+    "who": "If you buy gold for the holidays:",
+    "text": "the mark is $4,375.70, above every reading since 9 September."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a new high. Silver's 28 August mark of $70.37 still stands above it."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · Four metals, one session",
+   "asof": "US dollars an ounce · Kitco's bid at 06:03 EDT on 18 September 2026 against the 17 September marks",
+   "cols": [
+    "Metal",
+    "18 Sep",
+    "17 Sep",
+    "Change",
+    "Change %",
+    "Highest since"
+   ],
+   "rows": [
+    [
+     "Silver",
+     "$66.835",
+     "$63.73",
+     "+$3.105",
+     "+4.87%",
+     "31 August"
+    ],
+    [
+     "Palladium",
+     "$1,305.00",
+     "$1,270.00",
+     "+$35.00",
+     "+2.76%",
+     "9 September"
+    ],
+    [
+     "Platinum",
+     "$1,807.00",
+     "$1,769.00",
+     "+$38.00",
+     "+2.15%",
+     "9 September"
+    ],
+    [
+     "Gold",
+     "$4,375.70",
+     "$4,310.70",
+     "+$65.00",
+     "+1.51%",
+     "9 September"
+    ]
+   ],
+   "hi": 0,
+   "note": "<b>Source</b> Kitco's live board, bid quoted, read at 06:03 EDT on 18 September 2026 from the page's own embedded data. <b>Carat Capital's arithmetic</b> 66.835 − 63.73 = +3.105, and 3.105 ÷ 63.73 = +4.87%; 4,375.70 − 4,310.70 = +65.00, and 65.00 ÷ 4,310.70 = +1.51%. <b>Highest since</b> is measured against this paper's own daily marks: every silver mark from 1 to 17 September, of which the largest was $66.57 on 4 September. <b>Second page</b> LBMA's published 17 September fixes read gold 4,368.10, silver 64.125, platinum 1,796.40 and palladium 1,300.25, all below the bid quoted here.",
+   "plate": "CC/2026/065"
+  },
+  "sections": [
+   {
+    "h": "Silver led the four",
+    "p": [
+     {
+      "lead": "Biggest of four.",
+      "text": "Silver's 4.87% gain was the largest of the four metals, and the only one above 3%."
+     },
+     {
+      "lead": "Below its own peak.",
+      "text": "The 28 August mark of $70.37 remains the highest silver reading in Carat Capital's record."
+     }
+    ]
+   },
+   {
+    "h": "Two pages, one direction",
+    "p": [
+     {
+      "lead": "Kitco and LBMA agree.",
+      "text": "Kitco's bid at 06:03 EDT sits above LBMA's Thursday fixes on all four metals, by 0.17% on gold and 4.23% on silver."
+     },
+     {
+      "lead": "Spreads stayed normal.",
+      "text": "The bid-ask gap read $2 on gold and $0.25 on silver, normal enough to rule out a frozen cell."
+     }
+    ]
+   },
+   {
+    "h": "What the counter pays",
+    "p": [
+     {
+      "lead": "Silver jewellery reprices.",
+      "text": "A 20-gram silver piece carries about $42.98 of metal at $66.835 an ounce, against $40.98 at Thursday's mark."
+     },
+     {
+      "lead": "Gold above the fortnight.",
+      "text": "Gold's $4,375.70 is above every reading since 9 September."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "21 September 2026",
+    "what": "Monday's opening mark, and whether silver holds above $66."
+   },
+   {
+    "when": "21 September 2026",
+    "what": "The weekly refresh of the natural-diamond trade headline, due on the Monday run."
+   },
+   {
+    "when": "Q4 2026",
+    "what": "Whether silver holds the August range into the holiday manufacturing season."
+   }
+  ],
+  "depth": {
+   "reverse": "A single reading is not a trend. One session that reverses on Monday would leave the September range intact, and the 28 August level unbeaten.",
+   "built": {
+    "title": "How this mark is built",
+    "text": "One price per metal per morning, and one record carrying it. The prices desk reads Kitco's live board at 05:00 ET and files the bid to a dated file and to the file the dashboard renders. The Editor may read the same board again at press time when a metals story runs; if the number has moved, the newer verified reading replaces the opening mark in both files before the edition builds, and the article prints that same number. The second page is LBMA's published fix for the prior session, used to confirm direction rather than to set a level, because a fix and a live bid are different instruments and are never averaged."
+   },
+   "method": "Kitco's board was read at 06:03 EDT from the page's own embedded data, timestamped 2026-09-18T06:02:58Z, bid quoted. The four marks are gold $4,375.70, silver $66.835, platinum $1,807.00 and palladium $1,305.00, and they replaced the 05:00 readings in the dated record and in the file the dashboard renders, in the same step; the two files were compared afterwards and match to the decimal on all four metals. Change is measured against the 17 September marks, which were looked up rather than reversed out of a change field: gold +$65.00, silver +$3.105, platinum +$38.00, palladium +$35.00. The superlative in the headline is traced, not asserted: every daily silver mark from 1 September to 17 September was read, the largest of them was $66.57 on 4 September, and the 31 August mark of $66.879 is the first one above the level printed here, which is what makes 31 August the anchor. The gram figures use 31.1035 grams to the troy ounce: 66.835 ÷ 31.1035 × 20 = $42.98, and 63.73 ÷ 31.1035 × 20 = $40.98. No outside divergence was found to disclose; both pages move the same way on all four metals.",
+   "prior": [
+    {
+     "date": "2026-09-16",
+     "slug": "silver-retakes-mondays-mark",
+     "claim": "Silver added $1.48 and retook Monday's mark as gold stayed under"
+    },
+    {
+     "date": "2026-09-15",
+     "slug": "platinum-forty-four-off",
+     "claim": "Platinum shed $44 to $1,748 as all four metals fell"
+    },
+    {
+     "date": "2026-09-11",
+     "slug": "silver-sheds-two-nineteen",
+     "claim": "Silver shed $2.19 to $63.94 since the 9 September mark"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Precious metals live board, Kitco",
+     "url": "https://www.kitco.com/price/precious-metals",
+     "published": "2026-09-18T06:02:58Z"
+    },
+    {
+     "title": "LBMA precious metal prices, 17 September 2026 fixes",
+     "url": "https://prices.lbma.org.uk/json/gold_pm.json",
+     "published": "2026-09-17"
+    }
+   ],
+   "corrections": []
+  },
+  "next": {
+   "slug": "silver-retakes-mondays-mark",
+   "why": "The last time silver moved this way, and how little of it held."
+  }
+ },
+ "four-million-francs-in-geneva": {
+  "v": 3,
+  "kicker": "Sale preview",
+  "figures": {
+   "asof": "Phillips' announcement of the Geneva Watch Auction XXIV, as reported by Rapaport, 16 September 2026 · estimates in Swiss francs with Rapaport's dollar conversion",
+   "cells": [
+    {
+     "n": "CHF 4m",
+     "dir": "up",
+     "label": "Top estimate",
+     "q": "$4.9m, upper end only",
+     "src": 0
+    },
+    {
+     "n": "7-8 Nov",
+     "dir": "flat",
+     "label": "Sale dates",
+     "q": "Geneva, with Bacs & Russo",
+     "src": 0
+    },
+    {
+     "n": "200+",
+     "dir": "flat",
+     "label": "Timepieces offered",
+     "q": "the house's own count",
+     "src": 0
+    },
+    {
+     "n": "CHF 1.6m",
+     "dir": "up",
+     "label": "Rolex Daytona",
+     "q": "Paul Newman dial, upper",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Phillips set the estimate.",
+   "text": "A 1945 Patek Philippe split-seconds chronograph carries an upper estimate of CHF 4 million, or $4.9 million, at Phillips' Geneva Watch Auction XXIV."
+  },
+  "means": [
+   {
+    "who": "If you own a vintage Patek:",
+    "text": "the upper estimate is CHF 4 million. No low estimate is published."
+   },
+   {
+    "who": "If you consign to the autumn season:",
+    "text": "this sale opens it, on 7 and 8 November."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a price. An estimate is the house's opinion before the room bids."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · Five named lots and their upper estimates",
+   "asof": "Swiss francs, with Rapaport's own dollar conversion · Geneva Watch Auction XXIV, 7 and 8 November 2026",
+   "cols": [
+    "Lot",
+    "Estimate",
+    "In dollars"
+   ],
+   "rows": [
+    [
+     "Patek Philippe split-seconds chronograph, 1945",
+     "CHF 4m upper",
+     "$4.9m"
+    ],
+    [
+     "Rolex Daytona, yellow gold, Paul Newman dial",
+     "CHF 1.6m upper",
+     "$2m"
+    ],
+    [
+     "Rolex, circa 1952, Stelline dial",
+     "CHF 1.2m upper",
+     "$1.5m"
+    ],
+    [
+     "F.P. Journe, hand-engraved pink-gold dial",
+     "CHF 1m to CHF 2m",
+     "$1.2m to $2.4m"
+    ],
+    [
+     "F.P. Journe, Tokyo boutique anniversary, 2007",
+     "CHF 800,000 upper",
+     "$976,715"
+    ]
+   ],
+   "hi": 0,
+   "note": "<b>Source</b> Phillips' announcement as reported by Rapaport on 16 September 2026. <b>Four of the five</b> lots are published with an upper estimate only; the F.P. Journe pink-gold dial is the one lot given as a band. <b>The dollar column</b> is Rapaport's conversion, not this paper's, and is carried at the precision the source prints, which is why one row reads $976,715 and the rest read to one decimal. <b>No reserve</b> and no low estimate is published for the Patek.",
+   "plate": "CC/2026/065"
+  },
+  "sections": [
+   {
+    "h": "Patek leads the catalogue",
+    "p": [
+     {
+      "lead": "Upper estimate only.",
+      "text": "The watch has a silver-toned dial with steel hour markers and a tachymeter scale. Phillips gives an upper estimate only, and no low estimate is published for it."
+     }
+    ]
+   },
+   {
+    "h": "Two Rolexes and two Journes",
+    "p": [
+     {
+      "lead": "Journe carries a band.",
+      "text": "An F.P. Journe wristwatch with a hand-engraved pink-gold dial carries CHF 1 million to CHF 2 million."
+     },
+     {
+      "lead": "Rolex takes two places.",
+      "text": "A yellow-gold Daytona with a Paul Newman dial carries CHF 1.6 million, and a 1952 Rolex with a Stelline dial CHF 1.2 million."
+     }
+    ]
+   },
+   {
+    "h": "The autumn season opens here",
+    "p": [
+     {
+      "lead": "Two days, 200 lots.",
+      "text": "The sale runs on 7 and 8 November with more than 200 timepieces, held with Bacs & Russo, and opens the autumn live season."
+     },
+     {
+      "lead": "The last Geneva sale.",
+      "text": "Phillips' Geneva Watch Auction XXIII realised $96.3 million in May.",
+      "links": {
+       "Geneva Watch Auction XXIII": "a-phillips-235-million-spring.html"
+      }
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Before 7 November 2026",
+    "what": "Phillips' full catalogue, and whether a low estimate is published for the Patek."
+   },
+   {
+    "when": "7-8 November 2026",
+    "what": "The sale itself, and whether the CHF 4 million upper estimate is met."
+   },
+   {
+    "when": "November 2026",
+    "what": "The F.P. Journe Resonance serial 022, offered in the same month by another house."
+   }
+  ],
+  "depth": {
+   "reverse": "A published low estimate. An upper figure alone says what the house hopes for and nothing about what it will let the lot go for, and the low is the number that governs the room.",
+   "built": {
+    "title": "Why an upper estimate alone tells you less",
+    "text": "Auction houses normally publish a band. The low estimate is the anchor: it sits at or near the reserve, and it is the number a bidder works back from. The high is the ceiling the specialist thinks the piece can reach on a good day. When only the high is published, as here on four of the five lots, the reader is given the ceiling and not the floor, and the spread that carries most of the information is withheld until the catalogue is complete. That is a normal stage of an auction announcement rather than a concealment, but it means no ratio can be computed yet for this sale."
+   },
+   "method": "Rapaport's report of 16 September 2026 is the source for the lots, the estimates and the dates, and it attributes them to Phillips' own announcement of Tuesday 15 September. The dollar figures are Rapaport's conversion and are printed at its own precision rather than recomputed at a rate this desk cannot date. The $96.3 million comparison for the previous Geneva sale comes from this paper's own coverage of 9 July 2026 and is linked where it is used. ARCHIVE: Phillips Geneva Watch Auction - ours of 2026-07-09 covers the SPRING 2026 season, including Geneva Watch Auction XXIII in May at $96.3 million; this item covers the AUTUMN 2026 season and the separate XXIV sale of 7 and 8 November. DIFFERENT SALE AND DIFFERENT PERIOD, so NEW. Three archive hits for the phrase Geneva Watch Auction were opened and read rather than counted; the third, of 19 July 2026, concerns an F.P. Journe Resonance consigned to a different house in November and is named in what to watch rather than conflated with this catalogue.",
+   "prior": [
+    {
+     "date": "2026-07-09",
+     "slug": "phillips-235-million-spring",
+     "claim": "Phillips made $235 million across a spring watch season"
+    },
+    {
+     "date": "2026-07-19",
+     "slug": "serial-022-comes-to-market",
+     "claim": "The first F.P. Journe Resonance ever sold heads to Geneva"
+    },
+    {
+     "date": "2026-09-17",
+     "slug": "nine-one-up-nineteen-four-down",
+     "claim": "Swiss watch exports rose 9.1% in August as the US fell 19.4%"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Patek Philippe Watch Could Fetch $4.9M at Phillips, Rapaport",
+     "url": "https://rapaport.com/news/patek-philippe-watch-could-fetch-4-9m-at-phillips/",
+     "published": "2026-09-16T14:02:39Z"
+    }
+   ],
+   "corrections": []
+  },
+  "next": {
+   "slug": "phillips-235-million-spring",
+   "why": "What the same house made across the season this sale opens the sequel to."
+  }
+ },
+ "twenty-six-percent-of-doors": {
+  "v": 3,
+  "kicker": "Trade conference",
+  "figures": {
+   "asof": "American Gem Society Conclave, Orlando, 14 to 18 September 2026 · as reported by Rapaport, 17 September 2026",
+   "cells": [
+    {
+     "n": "26%",
+     "dir": "flat",
+     "label": "Of national doors",
+     "q": "jewellery-only stores",
+     "src": 0
+    },
+    {
+     "n": "48%",
+     "dir": "up",
+     "label": "Of the dollars",
+     "q": "the same stores, about",
+     "src": 0
+    },
+    {
+     "n": "14-18 Sep",
+     "dir": "flat",
+     "label": "Conclave dates",
+     "q": "Orlando, Florida",
+     "src": 0
+    },
+    {
+     "n": "2-5 May 2027",
+     "dir": "flat",
+     "label": "Next Conclave",
+     "q": "Kansas City, Missouri",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Jewellers punch above their count.",
+   "text": "Jewellery-only stores are 26% of national doors and about 48% of the dollars, Stuller's Harold Dupuy told the American Gem Society's Conclave in Orlando."
+  },
+  "means": [
+   {
+    "who": "If you run a jewellery store:",
+    "text": "the share of dollars is nearly double the share of doors."
+   },
+   {
+    "who": "If you plan next year's travel:",
+    "text": "Conclave moves to Kansas City, 2 to 5 May 2027."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a measured market share. No period or denominator was published."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · What was said, and who said it",
+   "asof": "AGS Conclave, Orlando · figures as reported by Rapaport, 17 September 2026",
+   "cols": [
+    "Figure",
+    "What it counts",
+    "Attributed to"
+   ],
+   "rows": [
+    [
+     "26%",
+     "jewellery-only stores as a share of national doors",
+     "Harold Dupuy, Stuller"
+    ],
+    [
+     "about 48%",
+     "the same stores as a share of the dollars",
+     "Harold Dupuy, Stuller"
+    ],
+    [
+     "14-18 September 2026",
+     "this year's Conclave, in Orlando",
+     "Katherine Bodoh, AGS"
+    ],
+    [
+     "2-5 May 2027",
+     "next year's Conclave, in Kansas City",
+     "AGS"
+    ],
+    [
+     "$1.70tn to $1.71tn",
+     "US holiday retail spending, November to January",
+     "Deloitte"
+    ]
+   ],
+   "hi": 1,
+   "note": "<b>Source</b> Rapaport's report of 17 September 2026 from the conference floor, except the last row, which is Deloitte's forecast as reported by Rapaport on 16 September 2026 and carries no jewellery breakout. <b>What is not published</b> neither the period nor the denominator of the two Stuller shares is given, so 26% and 48% are printed as attributed statements rather than as measured market shares. <b>A caution on the source page</b> its own automated summary heads the piece 2024 Conclave; the reported body dates the event to 14 to 18 September 2026, and the body is what is used here.",
+   "plate": "CC/2026/065"
+  },
+  "sections": [
+   {
+    "h": "Two shares, one presentation",
+    "p": [
+     {
+      "lead": "Dupuy's count.",
+      "text": "Dupuy is Stuller's vice president of strategic analysis. He told the session that jewellery is taking share from big-box stores."
+     },
+     {
+      "lead": "Spending is slowing.",
+      "text": "He also said consumer spending is slowing against the stimulus years of the pandemic."
+     }
+    ]
+   },
+   {
+    "h": "AirTags entered the security talk",
+    "p": [
+     {
+      "lead": "Trackers in the safe.",
+      "text": "Scott Guginsky of the Jewelers' Security Alliance and Howard Stone of Jewelers Mutual said Apple AirTags placed in jewellery safes can lead to recovered merchandise."
+     }
+    ]
+   },
+   {
+    "h": "September dates end here",
+    "p": [
+     {
+      "lead": "The last autumn edition.",
+      "text": "This year's Conclave ran from 14 to 18 September in Orlando and is the last to be held in September."
+     },
+     {
+      "lead": "Kansas City next.",
+      "text": "The 2027 edition returns to spring, in Kansas City from 2 to 5 May."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "2-5 May 2027",
+    "what": "Conclave in Kansas City, the first spring edition since 2025."
+   },
+   {
+    "when": "November 2026 to January 2027",
+    "what": "US holiday retail spending, which Deloitte forecasts at $1.70tn to $1.71tn."
+   },
+   {
+    "when": "Before year-end",
+    "what": "Whether Stuller publishes the data behind the two shares quoted here."
+   }
+  ],
+  "depth": {
+   "reverse": "A published denominator. If the 26% counts only doors that sell jewellery rather than all US retail doors, the 48% is a much smaller claim than it reads as, and the gap between the two shares narrows.",
+   "built": {
+    "title": "Why doors and dollars are different counts",
+    "text": "A door is one selling location. A dollar share is revenue. The two diverge whenever a category's average ticket differs from the market it sits inside, which is why a jewellery store with one location can carry the revenue of several general-merchandise doors. The useful version of this comparison names its universe: all US retail doors, all doors selling jewellery, or a panel of them. Without that, a gap between 26% and 48% is a direction and not a measurement, and it cannot be compared with any other year's figure."
+   },
+   "method": "Rapaport's report of 17 September 2026, filed from the conference by Jennifer Heebner, is the source for every figure here. Its own automated summary block heads the article as the 2024 Conclave; the reported body says the seminar series ran from 14 to 18 September in Orlando and names this year's award and speakers, so the body is used and the summary is disregarded. The two Stuller shares are printed as Dupuy said them, with the source's own hedge on the second one kept: 26% of national doors, about 48% of the dollars. Neither figure carries a period or a denominator in the report and neither is recomputed here. The Deloitte forecast in Table I and in what to watch is a separate Rapaport item of 16 September 2026 and carries no jewellery-specific breakout, which is stated where it is used. ARCHIVE: AGS Conclave - zero hits across the 389-article archive for Conclave, AirTag and Stuller, each searched separately; no prior period of this event exists in the record, so NEW rather than advanced.",
+   "prior": [
+    {
+     "date": "2026-09-17",
+     "slug": "one-twenty-three-thousand-square-feet",
+     "claim": "US luxury store openings fell 46% to 123,334 square feet"
+    },
+    {
+     "date": "2026-09-11",
+     "slug": "kay-cuts-the-assortment",
+     "claim": "Kay cut its assortment about 20% across 1,003 stores"
+    },
+    {
+     "date": "2026-08-18",
+     "slug": "shoplifting-down-fraud-up",
+     "claim": "Retail shrink moved from the shop floor to the payment page"
+    }
+   ],
+   "sources": [
+    {
+     "title": "AI, Gen Z Are Hot Topics at AGS Conclave, Rapaport",
+     "url": "https://rapaport.com/news/ai-gen-z-are-hot-topics-at-ags-conclave/",
+     "published": "2026-09-17T08:59:47Z"
+    },
+    {
+     "title": "Deloitte: Holiday Spending to Reach $1.71T, Rapaport",
+     "url": "https://rapaport.com/news/deloitte-holiday-spending-to-reach-1-71t/",
+     "published": "2026-09-16T10:52:08Z"
+    }
+   ],
+   "corrections": []
+  },
+  "next": {
+   "slug": "one-twenty-three-thousand-square-feet",
+   "why": "How much space the luxury trade is actually taking, measured rather than told."
+  }
+ },
+ "eighty-nine-companies-in-hong-kong": {
+  "v": 3,
+  "kicker": "Trade fair",
+  "figures": {
+   "asof": "GJEPC's own release, 17 September 2026 · Jewellery & Gem World Hong Kong 2026, opened 14 and 16 September",
+   "cells": [
+    {
+     "n": "89",
+     "dir": "flat",
+     "label": "Indian companies",
+     "q": "in the India Pavilion",
+     "src": 0
+    },
+    {
+     "n": "1,228 sq m",
+     "dir": "flat",
+     "label": "Pavilion space",
+     "q": "the council's own figure",
+     "src": 0
+    },
+    {
+     "n": "13.8 sq m",
+     "dir": "flat",
+     "label": "Space per company",
+     "q": "Carat Capital's division",
+     "src": 0
+    },
+    {
+     "n": "44",
+     "dir": "flat",
+     "label": "Exhibiting countries",
+     "q": "the whole fair",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "India took a hall.",
+   "text": "GJEPC's India Pavilion at Jewellery & Gem World Hong Kong holds 89 Indian companies across 1,228 square metres, the council's own count."
+  },
+  "means": [
+   {
+    "who": "If you source from India:",
+    "text": "89 exporters are in one pavilion, averaging 13.8 square metres each."
+   },
+   {
+    "who": "If you exhibit at Asian fairs:",
+    "text": "the fair draws exhibitors from 44 countries and expects visitors from 141."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a trade figure. No order value or buyer count is published."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · What the release counts, and what it does not",
+   "asof": "GJEPC release of 17 September 2026 · Jewellery & Gem World Hong Kong 2026",
+   "cols": [
+    "Figure",
+    "What it counts",
+    "Source"
+   ],
+   "rows": [
+    [
+     "89",
+     "Indian companies in the India Pavilion",
+     "GJEPC"
+    ],
+    [
+     "1,228 sq m",
+     "the pavilion's exhibition space",
+     "GJEPC"
+    ],
+    [
+     "13.8 sq m",
+     "average space a company",
+     "Carat Capital"
+    ],
+    [
+     "44",
+     "countries with exhibitors at the fair",
+     "GJEPC"
+    ],
+    [
+     "141",
+     "countries visitors are expected from",
+     "GJEPC"
+    ]
+   ],
+   "hi": 2,
+   "note": "<b>Source</b> GJEPC's own news page of 17 September 2026, fetched directly at 32,796 bytes, which names the 14 and 16 September opening dates inside its own text. <b>Carat Capital's arithmetic</b> 1,228 ÷ 89 = 13.8 square metres a company. <b>What is absent</b> the release publishes no order value, no buyer count, no exhibitor list and no closing date for either phase, so none is printed here.",
+   "plate": "CC/2026/065"
+  },
+  "sections": [
+   {
+    "h": "Eighty-nine firms, one pavilion",
+    "p": [
+     {
+      "lead": "Small booths throughout.",
+      "text": "That is an average of 13.8 square metres a company, which is a small-booth pavilion rather than a hall of flagships."
+     }
+    ]
+   },
+   {
+    "h": "Two venues, two opening dates",
+    "p": [
+     {
+      "lead": "Phase one first.",
+      "text": "The first phase ran from 14 September at AsiaWorld-Expo."
+     },
+     {
+      "lead": "Then the convention centre.",
+      "text": "The second opened from 16 September at the Hong Kong Convention and Exhibition Centre."
+     }
+    ]
+   },
+   {
+    "h": "No money is attached",
+    "p": [
+     {
+      "lead": "Countries, not contracts.",
+      "text": "Jewellery & Gem World draws exhibitors from 44 countries and expects visitors from 141."
+     },
+     {
+      "lead": "Nothing priced.",
+      "text": "No order value, buyer count or floor price appears in the council's release."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "October 2026",
+    "what": "GJEPC's next monthly gems and jewellery export figures, covering September."
+   },
+   {
+    "when": "After the fair",
+    "what": "Any GJEPC report on business written at the pavilion, which the release does not promise."
+   },
+   {
+    "when": "21 September 2026",
+    "what": "The weekly refresh of the natural-diamond trade headline this fair's goods price off."
+   }
+  ],
+  "depth": {
+   "reverse": "A published order value. A pavilion is a cost line until someone counts what was written in it, and 89 companies in 1,228 square metres says only what India paid for, not what it sold.",
+   "built": {
+    "title": "What a pavilion figure is and is not",
+    "text": "A national pavilion is floor space a trade council buys in bulk and allots to member exporters, usually at a subsidy. Its two published numbers, companies and square metres, measure the council's commitment and the average stand size, which is a real signal about who is being sent: 13.8 square metres is a two-table booth for showing parcels, not a brand installation. What it cannot measure is demand. Attendance, order value and repeat buyers are counted afterwards if they are counted at all, and no fair organiser is obliged to publish any of them."
+   },
+   "method": "GJEPC's own news page was fetched directly on 18 September 2026 and returned 32,796 bytes; the sentence carrying both figures reads that the India Pavilion features 89 Indian companies across 1,228 sq. m. of exhibition space. The 14 and 16 September opening dates, the 44 exhibiting countries and the 141 expected visitor countries are in the same release. The page is dated 17 September 2026 and its event dates agree with its page date, so no dateline gap arises. The 13.8 square metre average is Carat Capital's division and is labelled as such in the key figures and in Table I. ARCHIVE: Jewellery & Gem World Hong Kong and the India Pavilion - zero hits across the 389-article archive for Jewellery & Gem World, AsiaWorld and 1,228, each searched separately and each returning either nothing or coincidental numeric matches that were opened and read. No prior period of this fair exists in the record, so NEW. The Western trade press carried no version of this pavilion figure at the time of writing, which is a lead rather than an exclusive and is claimed as nothing more.",
+   "prior": [
+    {
+     "date": "2026-09-15",
+     "slug": "ninety-percent-and-the-machines",
+     "claim": "Amit Shah asked India to hold the whole lab-grown chain"
+    },
+    {
+     "date": "2026-09-07",
+     "slug": "two-thousand-stones-a-day",
+     "claim": "HRD Antwerp opened a Mumbai lab grading 2,000 diamonds a day"
+    },
+    {
+     "date": "2026-09-17",
+     "slug": "three-governments-sign-in-beijing",
+     "claim": "The Shanghai Diamond Exchange signed a pact with three producer states"
+    }
+   ],
+   "sources": [
+    {
+     "title": "India Pavilion Brings 89 Companies to Hong Kong Show, GJEPC",
+     "url": "https://www.gjepc.org/news_detail.php?news=india-pavilion-brings-89-companies-to-hong-kong-show-1",
+     "published": "2026-09-17"
+    }
+   ],
+   "corrections": []
+  },
+  "next": {
+   "slug": "three-governments-sign-in-beijing",
+   "why": "The other thing the diamond trade went to China to do this month."
+  }
  }
 }
