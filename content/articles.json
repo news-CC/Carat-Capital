@@ -1,9 +1,206 @@
 [
  {
+  "slug": "no-miner-ever-signed",
+  "desk": "gemstones",
+  "date": "2026-09-19",
+  "lead": true,
+  "kicker": "Certification",
+  "title": "SCS retires SCS-007, the gemstone standard no miner adopted",
+  "seo_title": "SCS retires SCS-007 gemstone standard",
+  "dek": "The scheme covered natural and laboratory-grown diamonds, emeralds, rubies and sapphires, and ended on 1 September. Companies already certified may use their certificates until expiry, but SCS will no longer audit or maintain the standard.",
+  "byline": "The Gemstones Desk",
+  "minutes": 2,
+  "tags": [
+   "gemstones",
+   "diamonds",
+   "lab-grown",
+   "certification",
+   "sustainability"
+  ],
+  "sources": [
+   {
+    "title": "SCS-007 Sustainably Produced Gemstones standard, retirement notice, SCS Standards",
+    "url": "https://www.scsstandards.org/standards/scs-007-sustainability-rated-diamonds",
+    "published": "2026-09-19"
+   },
+   {
+    "title": "Certified Sustainably Produced Gemstones, retirement notice, SCS Global Services",
+    "url": "https://www.scsglobalservices.com/services/certified-sustainably-produced-gemstones",
+    "published": "2026-09-19"
+   },
+   {
+    "title": "SCS Global Ending “Sustainably Rated” Certificates for Diamonds, Gems, JCK",
+    "url": "https://www.jckonline.com/editorial-article/scs-global-ending-certificates/",
+    "published": "2026-09-18T16:28:38Z"
+   }
+  ],
+  "body": [
+   "SCS Standards has retired SCS-007, its gemstone standard, on 1 September 2026. It covered 4 stone types: natural and lab-grown diamonds, emeralds, rubies and sapphires.",
+   "SCS says miners did not take the certificate up, and that the market never came to support a voluntary standard at scale. It also says no clear rule covers chain-of-custody claims on a single stone.",
+   "Only lab-grown firms took an interest, JCK reports, and that faded as synthetic prices fell. Allison Charalambous, Brilliant Earth's vice president of responsible sourcing, called it “cost-prohibitive, particularly for the growers, cutters, and polishers”.",
+   "Nothing already issued is revoked. Firms already certified may keep their certificates to the expiry date, but SCS will no longer audit against the standard or maintain it. SCS began the standard in 2019 and added coloured stones in 2024, JCK reports; few took that up.",
+   "The desk's view. If you sell on a sustainability certificate: audits stopped on 1 September, and your certificate runs only to its expiry date. If you buy laboratory-grown from certified factories: no third party is auditing them to this standard now. What this is not: a finding about any factory. The standard ended for want of buyers, not for failures found."
+  ]
+ },
+ {
+  "slug": "silver-fixes-at-sixty-seven",
+  "desk": "gold-metals",
+  "date": "2026-09-19",
+  "kicker": "Metals tape",
+  "title": "Silver fixes at $67.035 in London, highest since 28 August",
+  "dek": "Kitco's Friday close put spot silver at $66.127, down 1.06% on the session and 1.35% below the London fix. Gold's fix eased to $4,348.15 and palladium's rose to $1,315.50.",
+  "byline": "The Prices Desk",
+  "minutes": 2,
+  "tags": [
+   "silver",
+   "gold",
+   "platinum",
+   "palladium",
+   "lbma",
+   "tape"
+  ],
+  "sources": [
+   {
+    "title": "LBMA silver price, daily fix series, 18 September 2026",
+    "url": "https://prices.lbma.org.uk/json/silver.json",
+    "published": "2026-09-18"
+   },
+   {
+    "title": "LBMA gold price PM, daily fix series, 18 September 2026",
+    "url": "https://prices.lbma.org.uk/json/gold_pm.json",
+    "published": "2026-09-18"
+   },
+   {
+    "title": "LBMA platinum price PM, daily fix series, 18 September 2026",
+    "url": "https://prices.lbma.org.uk/json/platinum_pm.json",
+    "published": "2026-09-18"
+   },
+   {
+    "title": "LBMA palladium price PM, daily fix series, 18 September 2026",
+    "url": "https://prices.lbma.org.uk/json/palladium_pm.json",
+    "published": "2026-09-18"
+   },
+   {
+    "title": "Carat Capital tape, 19 September 2026, covering the 18 September session",
+    "url": "https://caratcapital.org/the-record.html",
+    "published": "2026-09-19"
+   }
+  ],
+  "body": [
+   "The LBMA silver price fixed at $67.035 an ounce on 18 September, 4.54% above Thursday's $64.125. It is the highest London silver fix since 28 August.",
+   "Kitco's close for the same session put spot silver at $66.127, down 1.06% on the day. The fix sits $0.908 above that close, which is 1.35% below the fix.",
+   "The other three metals moved less. Gold's PM fix eased 0.46% to $4,348.15 and platinum's 0.18% to $1,793.20, while palladium's rose 1.17% to $1,315.50.",
+   "August still holds the high. The 28 August fix of $70.26 is the most recent London silver fix above Friday's, and every September fix sits below it.",
+   "The desk's view. If you buy physical silver on the fix: your Friday cost was 1.35% above the screen close. If you price retail off spot: the two instruments parted by $0.908 on one session. What this is not: a new high. August's $70.26 still stands above every September reading."
+  ]
+ },
+ {
+  "slug": "two-medieval-rings-at-noonans",
+  "desk": "auctions",
+  "date": "2026-09-19",
+  "kicker": "Sale preview",
+  "title": "Noonans lists two medieval gold rings at £9,000 to £13,000",
+  "dek": "Andrew Riley found both with a metal detector in fields near Northallerton in 2024, four months apart. The Blood of Christ ring carries £5,000 to £7,000 and the St Margaret ring £4,000 to £6,000.",
+  "byline": "The Auctions Desk",
+  "minutes": 2,
+  "tags": [
+   "auctions",
+   "noonans",
+   "medieval",
+   "gold",
+   "united-kingdom"
+  ],
+  "sources": [
+   {
+    "title": "15th-Century “Blood of Christ,” St. Margaret Rings Found by Metal Detectorist Head to Noonans Mayfair, JCK",
+    "url": "https://www.jckonline.com/editorial-article/noonans-15th-century-rings/",
+    "published": "2026-09-18T15:45:28Z"
+   }
+  ],
+  "body": [
+   "Noonans Mayfair sells two 15th-century gold rings on 22 September 2026. The published bands are £5,000 to £7,000 and £4,000 to £6,000, which is £9,000 to £13,000 for the pair.",
+   "Andrew Riley, a semi-retired architect from North Yorkshire, found both in fields near Northallerton in 2024, four months apart. The first lay about eight inches deep in a ridge and furrow field.",
+   "The first ring is enamelled and carries a blood of Christ devotional inscription. The second depicts St Margaret of Antioch, a figure venerated through the medieval period and invoked by women in childbirth.",
+   "Provenance research is open rather than settled. JCK notes that the Corpus Christi Guild at York, founded in 1408, came to number 17,000 members, one of them a landowner whose holdings lay close to the findspot. It calls the connection possibly coincidental.",
+   "The desk's view. If you buy medieval gold: two rings from one finder and one district come up in a single session. If you estimate devotional jewellery: the enamelled ring carries the higher band by £1,000 at each end. What this is not: a result. Nothing has sold, and both figures are the house's own estimates."
+  ]
+ },
+ {
+  "slug": "gaolathe-names-the-doubt",
+  "desk": "diamonds",
+  "date": "2026-09-19",
+  "kicker": "Producer states",
+  "title": "Botswana's Gaolathe ties lab-grown's rise to De Beers doubt",
+  "dek": "At Chatham House on 17 September, the vice president said uncertainty over the partnership weakened confidence in natural stones. Anglo American is selling its 85% stake and Botswana holds the other 15%.",
+  "byline": "The Diamonds Desk",
+  "minutes": 2,
+  "tags": [
+   "diamonds",
+   "botswana",
+   "de-beers",
+   "anglo-american",
+   "lab-grown"
+  ],
+  "sources": [
+   {
+    "title": "Botswana VP Links Natural Diamond Recovery to Stability of De Beers Relationship, JCK",
+    "url": "https://www.jckonline.com/editorial-article/botswana-natural-diamond-de-beers/",
+    "published": "2026-09-18T15:30:06Z"
+   }
+  ],
+  "body": [
+   "Botswana's vice president Ndaba Gaolathe said doubt over whether Botswana and De Beers would keep acting together gave laboratory-grown diamonds an opening to take market share. He spoke at Chatham House in London on 17 September.",
+   "Gaolathe, who is also finance minister, described the alliance as one of the most successful public-private partnerships of the modern era. He said the two had historically stockpiled rough in downturns and spent on category marketing.",
+   "The ownership question is live behind the remarks. Anglo American is selling its 85% holding in De Beers and Botswana owns the other 15%, with President Duma Boko having said the government wants a larger role.",
+   "He also set a limit on the country's reliance on the stone. Gaolathe named mineral beneficiation, manufacturing, energy, financial services, agriculture and tourism as growth areas, and said “we have no choice to diversify or we perish”.",
+   "The desk's view. If you trade natural rough: a producer state is naming confidence, not geology or price, as what let lab-grown in. If you follow the De Beers sale: Gaborone is talking about capability rather than control. What this is not: a transaction. No price, no bid and no timetable was given."
+  ]
+ },
+ {
+  "slug": "nine-brands-for-twenty-seven",
+  "desk": "watches",
+  "date": "2026-09-19",
+  "kicker": "Trade fair",
+  "title": "Watches and Wonders adds 9 brands to its 2027 roster",
+  "dek": "Thirteen new exhibitors are now confirmed for the salon, which runs 5 to 11 April. Porsche Design, Berneron and Fortis are among nine named on 18 September, alongside four announced in June.",
+  "byline": "The Watches Desk",
+  "minutes": 2,
+  "tags": [
+   "watches",
+   "geneva",
+   "trade-fair",
+   "watches-and-wonders"
+  ],
+  "sources": [
+   {
+    "title": "Watches and Wonders Geneva 2027, exhibitor announcement, watchesandwonders.com",
+    "url": "https://www.watchesandwonders.com/en",
+    "published": "2026-09-18"
+   },
+   {
+    "title": "Watches and Wonders adds 9 more brands to its roster for 2027, Time and Tide",
+    "url": "https://timeandtidewatches.com/watches-and-wonders-adds-7-more-brands-to-its-roster-for-2027-including-berneron-friday-wind-down",
+    "published": "2026-09-18"
+   },
+   {
+    "title": "Fortis, Berneron, and More Join Watches and Wonders 2027, Now Featuring 75 Brands, Worn & Wound",
+    "url": "https://wornandwound.com/fortis-berneron-and-more-join-watches-and-wonders-2027-now-featuring-75-brands/",
+    "published": "2026-09-18"
+   }
+  ],
+  "body": [
+   "Watches and Wonders Geneva named nine more exhibitors for its 2027 edition on 18 September. They are Akhor, Alain Silberstein, Berneron, Breva Genève, Fortis, Kerbedanz, Porsche Design, Singer Reimagined and Stollenwurm.",
+   "Four brands were announced in June 2026: Breitling, Damiani, Gallet and the revived Universal Genève. That takes the count of new exhibitors for 2027 to thirteen.",
+   "The salon runs from 5 to 11 April 2027, on the organiser's own dates. It is the trade's main Geneva week and the calendar most brand-relations desks book around.",
+   "No total roster is printed here. Trade reports put the 2027 field at 75 brands and the organiser's own announcement gives no total, so only the thirteen new exhibitors are carried.",
+   "The desk's view. If you book Geneva appointments: nine more stands exist to plan around, and the week is 5 to 11 April. If you wholesale independents: Berneron, Alain Silberstein and Singer Reimagined move onto the main floor. What this is not: a full roster. The organiser published additions, not a list."
+  ]
+ },
+ {
   "slug": "rubies-take-the-top-three",
   "desk": "auctions",
   "date": "2026-09-18",
-  "lead": true,
+  "lead": false,
   "kicker": "Sale result",
   "title": "Sotheby's sells HK$267.5m in Hong Kong as rubies take top three",
   "dek": "A Mauboussin ruby necklace led at HK$16 million, 1.45 times its high estimate. Cartier tutti frutti earrings made HK$7.9 million on an HK$850,000 high estimate, and over 180 lots were offered.",
@@ -54,8 +251,23 @@
     "published": "2026-09-18T06:02:58Z"
    },
    {
-    "title": "LBMA precious metal prices, 17 September 2026 fixes",
+    "title": "LBMA gold price PM, 17 September 2026 fix (4,368.10)",
     "url": "https://prices.lbma.org.uk/json/gold_pm.json",
+    "published": "2026-09-17"
+   },
+   {
+    "title": "LBMA silver price, 17 September 2026 fix (64.125)",
+    "url": "https://prices.lbma.org.uk/json/silver.json",
+    "published": "2026-09-17"
+   },
+   {
+    "title": "LBMA platinum price PM, 17 September 2026 fix (1,796.40)",
+    "url": "https://prices.lbma.org.uk/json/platinum_pm.json",
+    "published": "2026-09-17"
+   },
+   {
+    "title": "LBMA palladium price PM, 17 September 2026 fix (1,300.25)",
+    "url": "https://prices.lbma.org.uk/json/palladium_pm.json",
     "published": "2026-09-17"
    }
   ],

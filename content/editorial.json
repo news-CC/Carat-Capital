@@ -115666,7 +115666,7 @@
     "title": "How this mark is built",
     "text": "One price per metal per morning, and one record carrying it. The prices desk reads Kitco's live board at 05:00 ET and files the bid to a dated file and to the file the dashboard renders. The Editor may read the same board again at press time when a metals story runs; if the number has moved, the newer verified reading replaces the opening mark in both files before the edition builds, and the article prints that same number. The second page is LBMA's published fix for the prior session, used to confirm direction rather than to set a level, because a fix and a live bid are different instruments and are never averaged."
    },
-   "method": "Kitco's board was read at 06:03 EDT from the page's own embedded data, timestamped 2026-09-18T06:02:58Z, bid quoted. The four marks are gold $4,375.70, silver $66.835, platinum $1,807.00 and palladium $1,305.00, and they replaced the 05:00 readings in the dated record and in the file the dashboard renders, in the same step; the two files were compared afterwards and match to the decimal on all four metals. Change is measured against the 17 September marks, which were looked up rather than reversed out of a change field: gold +$65.00, silver +$3.105, platinum +$38.00, palladium +$35.00. The superlative in the headline is traced, not asserted: every daily silver mark from 1 September to 17 September was read, the largest of them was $66.57 on 4 September, and the 31 August mark of $66.879 is the first one above the level printed here, which is what makes 31 August the anchor. The gram figures use 31.1035 grams to the troy ounce: 66.835 ÷ 31.1035 × 20 = $42.98, and 63.73 ÷ 31.1035 × 20 = $40.98. No outside divergence was found to disclose; both pages move the same way on all four metals.",
+   "method": "Kitco's board was read at 06:03 EDT from the page's own embedded data, timestamped 2026-09-18T06:02:58Z, bid quoted. The four marks are gold $4,375.70, silver $66.835, platinum $1,807.00 and palladium $1,305.00, and they replaced the 05:00 readings in the dated record and in the file the dashboard renders, in the same step; the two files were compared afterwards and match to the decimal on all four metals. Change is measured against the 17 September marks, which were looked up rather than reversed out of a change field: gold +$65.00, silver +$3.105, platinum +$38.00, palladium +$35.00. The superlative in the headline is traced, not asserted: every daily silver mark from 1 September to 17 September was read, the largest of them was $66.57 on 4 September, and the 31 August mark of $66.879 is the first one above the level printed here, which is what makes 31 August the anchor. The gram figures use 31.1035 grams to the troy ounce: 66.835 ÷ 31.1035 × 20 = $42.98, and 63.73 ÷ 31.1035 × 20 = $40.98. No outside divergence was found to disclose; both pages move the same way on all four metals. CITATION COMPLETED 19 September 2026: as published on 18 September this article cited one LBMA address, gold_pm.json, for a comparison that used all four metals' fixes. That endpoint carries gold only. The three remaining feeds were fetched on 19 September and each carries its 17 September fix - silver 64.125, platinum 1,796.40, palladium 1,300.25 - so every figure printed on 18 September was correct as published and none has changed. The three addresses have been added to the sources list. Found by the standards desk.",
    "prior": [
     {
      "date": "2026-09-16",
@@ -115691,8 +115691,23 @@
      "published": "2026-09-18T06:02:58Z"
     },
     {
-     "title": "LBMA precious metal prices, 17 September 2026 fixes",
+     "title": "LBMA gold price PM, 17 September 2026 fix (4,368.10)",
      "url": "https://prices.lbma.org.uk/json/gold_pm.json",
+     "published": "2026-09-17"
+    },
+    {
+     "title": "LBMA silver price, 17 September 2026 fix (64.125)",
+     "url": "https://prices.lbma.org.uk/json/silver.json",
+     "published": "2026-09-17"
+    },
+    {
+     "title": "LBMA platinum price PM, 17 September 2026 fix (1,796.40)",
+     "url": "https://prices.lbma.org.uk/json/platinum_pm.json",
+     "published": "2026-09-17"
+    },
+    {
+     "title": "LBMA palladium price PM, 17 September 2026 fix (1,300.25)",
+     "url": "https://prices.lbma.org.uk/json/palladium_pm.json",
      "published": "2026-09-17"
     }
    ],
@@ -116258,6 +116273,1020 @@
   "next": {
    "slug": "three-governments-sign-in-beijing",
    "why": "The other thing the diamond trade went to China to do this month."
+  }
+ },
+ "no-miner-ever-signed": {
+  "v": 3,
+  "kicker": "Certification",
+  "seo_title": "SCS retires SCS-007 gemstone standard",
+  "figures": {
+   "asof": "SCS Standards and SCS Global Services retirement notices, read 19 September 2026 · effective date 1 September 2026",
+   "cells": [
+    {
+     "n": "1 Sep 2026",
+     "dir": "down",
+     "label": "Retired",
+     "q": "SCS's own effective date",
+     "src": 0
+    },
+    {
+     "n": "4",
+     "dir": "flat",
+     "label": "Stones covered",
+     "q": "diamond, emerald, ruby, sapphire",
+     "src": 0
+    },
+    {
+     "n": "2019",
+     "dir": "flat",
+     "label": "Work began",
+     "q": "JCK's dating of the standard",
+     "src": 2
+    },
+    {
+     "n": "2024",
+     "dir": "flat",
+     "label": "Colour pivot",
+     "q": "added, never widely adopted",
+     "src": 2
+    }
+   ]
+  },
+  "changed": {
+   "lead": "The standard is gone.",
+   "text": "SCS Standards retired SCS-007, its gemstone standard, on 1 September 2026. It covered 4 stone types: natural and lab-grown diamonds, emeralds, rubies and sapphires."
+  },
+  "means": [
+   {
+    "who": "If you sell on a sustainability certificate:",
+    "text": "audits stopped on 1 September. Your certificate runs to its expiry date and nothing replaces it."
+   },
+   {
+    "who": "If you buy laboratory-grown from certified factories:",
+    "text": "no third party audits them to this standard now."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a finding about any factory. The standard ended for want of buyers, not for failures found."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · What SCS-007 covered, and what survives it",
+   "asof": "SCS Standards and SCS Global Services retirement notices · effective 1 September 2026",
+   "cols": [
+    "Element",
+    "Status from 1 September 2026",
+    "Named by"
+   ],
+   "rows": [
+    [
+     "Natural and laboratory-grown diamonds",
+     "standard retired",
+     "SCS Standards"
+    ],
+    [
+     "Emeralds, rubies and sapphires",
+     "standard retired",
+     "SCS Standards"
+    ],
+    [
+     "Audits against SCS-007",
+     "no longer performed",
+     "SCS Global Services"
+    ],
+    [
+     "Maintenance of the standard",
+     "discontinued",
+     "SCS Standards"
+    ],
+    [
+     "Certificates already issued",
+     "valid to their expiry date",
+     "SCS Global Services"
+    ],
+    [
+     "The chain-of-custody framework",
+     "offered to other schemes",
+     "SCS Standards"
+    ]
+   ],
+   "hi": 1,
+   "note": "<b>Source</b> the retirement notice carried on both SCS Standards and SCS Global Services, read 19 September 2026, which states that the scheme is retired effective 1 September 2026 and lists the four stone types. <b>What is absent</b> neither notice publishes a count of certified companies, a certificate expiry schedule or a revenue figure, so none is printed here. <b>Carat Capital counted</b> the four stone types from the standard's own scope statement.",
+   "plate": "CC/2026/066"
+  },
+  "sections": [
+   {
+    "h": "The mining sector never signed on",
+    "p": [
+     {
+      "lead": "Miners stayed out.",
+      "text": "SCS says miners did not take the certificate up. It also says no clear rule covers chain-of-custody claims on a single stone."
+     },
+     {
+      "lead": "Scale never came.",
+      "text": "The notice says the market never came to support a voluntary standard at scale. Its scope ran to 4 stone types."
+     }
+    ]
+   },
+   {
+    "h": "Lab-grown carried it, then faded",
+    "p": [
+     {
+      "lead": "Only growers joined.",
+      "text": "JCK reports that only lab-grown firms took an interest. That faded as synthetic prices fell."
+     },
+     {
+      "lead": "Cost decided it.",
+      "text": "Allison Charalambous of Brilliant Earth called it “cost-prohibitive, particularly for the growers, cutters, and polishers”. The cost was origin fingerprinting."
+     }
+    ]
+   },
+   {
+    "h": "Certificates stay valid until expiry",
+    "p": [
+     {
+      "lead": "Nothing is revoked.",
+      "text": "Firms already certified may keep their certificates to the expiry date.",
+      "links": {
+       "certified": "a-three-words-three-tests.html"
+      }
+     },
+     {
+      "lead": "The colour pivot failed too.",
+      "text": "SCS began the standard in 2019 and added coloured stones in 2024, JCK reports. Few took that up."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Through 2027",
+    "what": "Certificates already issued reach their expiry dates, after which no current SCS-007 claim exists."
+   },
+   {
+    "when": "Mid-to-late September 2026",
+    "what": "Gemfields' Q3 emerald auction result, the coloured-stone desk's next dated reading."
+   },
+   {
+    "when": "2028",
+    "what": "The FTC's next revision of its Jewelry Guides, the other place these words are governed."
+   }
+  ],
+  "depth": {
+   "reverse": "An existing scheme adopting the SCS-007 chain-of-custody framework. SCS says it is open to that, which would put the same audit trail back in the market under another name.",
+   "built": {
+    "title": "What a product-level sustainability certificate is",
+    "text": "A product-level certificate follows one stone rather than one company. An auditor checks each holder in the chain, from producer to polisher to retailer, and issues a claim attached to the goods themselves. That is more expensive than a company-level membership scheme, because the cost falls on every step and the stone must be identifiable at each one. SCS-007 used origin fingerprinting to do that identification, which is the cost Brilliant Earth names."
+   },
+   "method": "Both SCS notices were read directly on 19 September 2026 and each carries the same sentence retiring the scheme effective 1 September 2026. The SCS Standards page is the source for the scope, which names natural and laboratory-grown diamonds, emeralds, rubies and sapphires; the count of four stone types is Carat Capital's and is labelled as such. The 2019 start, the 2024 coloured-stone programme, the Lab Grown Diamond Council origin and the Brilliant Earth quotation are JCK's reporting of 18 September 2026, attributed in the text rather than folded into the primary. The desk is gemstones because the retired scheme's own title is Sustainably Produced Gemstones and its scope statement names emeralds, rubies and sapphires alongside diamonds; the story is tagged to diamonds as well. ARCHIVE: SCS Global Services and SCS-007 - ours: no prior period, zero hits across the 394-article archive for SCS and for SCS-007, each searched separately; new item covers the retirement effective 1 September 2026, announced by 18 September. NO PRIOR PERIOD, so NEW.",
+   "prior": [
+    {
+     "date": "2026-09-08",
+     "slug": "three-words-three-tests",
+     "claim": "CIBJO defined sustainable, responsible and ethical in a Blue List"
+    },
+    {
+     "date": "2026-09-08",
+     "slug": "cibjo-backs-synthetic-alone",
+     "claim": "CIBJO backed synthetic alone, the FTC holds three terms to 2028"
+    },
+    {
+     "date": "2026-07-20",
+     "slug": "greenest-stones-locked-out",
+     "claim": "Alrosa's carbon-neutral certificate reaches a market that cannot buy it"
+    }
+   ],
+   "sources": [
+    {
+     "title": "SCS-007 Sustainably Produced Gemstones standard, retirement notice, SCS Standards",
+     "url": "https://www.scsstandards.org/standards/scs-007-sustainability-rated-diamonds",
+     "published": "2026-09-19"
+    },
+    {
+     "title": "Certified Sustainably Produced Gemstones, retirement notice, SCS Global Services",
+     "url": "https://www.scsglobalservices.com/services/certified-sustainably-produced-gemstones",
+     "published": "2026-09-19"
+    },
+    {
+     "title": "SCS Global Ending “Sustainably Rated” Certificates for Diamonds, Gems, JCK",
+     "url": "https://www.jckonline.com/editorial-article/scs-global-ending-certificates/",
+     "published": "2026-09-18T16:28:38Z"
+    }
+   ],
+   "corrections": []
+  },
+  "next": {
+   "slug": "three-words-three-tests",
+   "why": "The definitions the trade is left with now that the audit behind them has gone."
+  }
+ },
+ "silver-fixes-at-sixty-seven": {
+  "v": 3,
+  "kicker": "Metals tape",
+  "figures": {
+   "asof": "LBMA daily fix series, 18 September 2026 · spot close from Carat Capital's tape of 19 September, covering the 18 September session",
+   "cells": [
+    {
+     "n": "$67.035",
+     "dir": "up",
+     "label": "Silver fix",
+     "q": "LBMA, 18 September",
+     "src": 0
+    },
+    {
+     "n": "+4.54%",
+     "dir": "up",
+     "label": "On Thursday's fix",
+     "q": "from $64.125",
+     "src": 0
+    },
+    {
+     "n": "$66.127",
+     "dir": "down",
+     "label": "Spot close",
+     "q": "Kitco, same session",
+     "src": 4
+    },
+    {
+     "n": "1.35%",
+     "dir": "flat",
+     "label": "Spot below fix",
+     "q": "Carat Capital's division",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "The fix outran the screen.",
+   "text": "The LBMA silver price fixed at $67.035 on 18 September, its highest since 28 August. Kitco's close for the same session was $66.127."
+  },
+  "means": [
+   {
+    "who": "If you buy physical silver on the fix:",
+    "text": "Friday's cost was 1.35% above the screen close, a gap of $0.908."
+   },
+   {
+    "who": "If you price retail off spot:",
+    "text": "the two instruments parted on one session. Name which one your tickets use."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a new high. August's $70.26 fix stands above every September reading."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · Friday's London fixes against Thursday's, and against the screen",
+   "asof": "US dollars an ounce · LBMA PM fixes except silver, which fixes once · spot close from Carat Capital's tape",
+   "cols": [
+    "Metal",
+    "Fix, 18 Sep",
+    "Fix, 17 Sep",
+    "Fix change",
+    "Spot close, 18 Sep"
+   ],
+   "rows": [
+    [
+     "Gold",
+     "4,348.15",
+     "4,368.10",
+     "-0.46%",
+     "4,377.00"
+    ],
+    [
+     "Silver",
+     "67.035",
+     "64.125",
+     "+4.54%",
+     "66.127"
+    ],
+    [
+     "Platinum",
+     "1,793.20",
+     "1,796.40",
+     "-0.18%",
+     "1,796.00"
+    ],
+    [
+     "Palladium",
+     "1,315.50",
+     "1,300.25",
+     "+1.17%",
+     "1,283.00"
+    ]
+   ],
+   "hi": 3,
+   "note": "<b>Source</b> the four LBMA daily fix series were fetched directly on 19 September 2026 and each carries a 2026-09-18 entry as its last record. <b>Carat Capital's arithmetic</b> the fix change column is the 18 September fix over the 17 September fix less one: 67.035 ÷ 64.125 = 1.0454, so +4.54%; 4,348.15 ÷ 4,368.10 = 0.9954, so -0.46%. The spot gap is 66.127 ÷ 67.035 = 98.65% of the fix, which is 1.35% below it, not 1.37%, because the base is the fix. <b>Two instruments</b> a fix is an auction-settled benchmark struck once a day in London; the spot close is a dealer bid at a different hour. They are compared here and not merged.",
+   "plate": "CC/2026/066"
+  },
+  "sections": [
+   {
+    "h": "Silver's fix outran its screen price",
+    "p": [
+     {
+      "lead": "The gap is $0.908.",
+      "text": "Kitco's 18 September close put spot at $66.127, which is 1.35% below the London fix of $67.035."
+     },
+     {
+      "lead": "Spot fell anyway.",
+      "text": "Spot silver lost 1.06% on the session while the fix gained 4.54% on Thursday's."
+     }
+    ]
+   },
+   {
+    "h": "Three metals barely moved",
+    "p": [
+     {
+      "lead": "Gold and platinum eased.",
+      "text": "Gold's PM fix fell 0.46% to $4,348.15 and platinum's fell 0.18% to $1,793.20."
+     },
+     {
+      "lead": "Palladium rose.",
+      "text": "Palladium's PM fix added 1.17% to $1,315.50, its highest since 11 September."
+     }
+    ]
+   },
+   {
+    "h": "August still holds the high",
+    "p": [
+     {
+      "lead": "Seventy-two-sixty stands.",
+      "text": "The 28 August fix of $70.26 is the most recent above Friday's, and every September fix sits below it.",
+      "links": {
+       "every September fix": "a-silver-back-to-august.html"
+      }
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "22 September 2026",
+    "what": "Monday's LBMA silver fix, the first test of whether Friday's level holds."
+   },
+   {
+    "when": "22 September 2026",
+    "what": "Kitco's Monday reading, and whether spot closes the $0.908 gap to the fix."
+   },
+   {
+    "when": "~20 October 2026",
+    "what": "Swiss customs monthly gold trade figures, the next dated flow reading on the metals."
+   }
+  ],
+  "depth": {
+   "reverse": "A Monday fix back under $66. One fix is one auction at one minute of one day, and a single session that parts from spot can rejoin it on the next.",
+   "built": {
+    "title": "How the LBMA silver price is set",
+    "text": "The LBMA silver price is an electronic auction, not a survey. Accredited participants enter buy and sell volumes in successive rounds until the imbalance falls inside a set tolerance, and the price at which that happens becomes the day's benchmark. It is struck once a day in London and settles physical contracts worldwide. Spot, by contrast, is a continuously quoted dealer bid. The two answer different questions and can differ by more than a percent on a busy session."
+   },
+   "method": "The four LBMA fix series were fetched directly on 19 September 2026 with a browser user agent, at 898,020 bytes for silver, 914,722 for gold, 556,807 for platinum and 553,750 for palladium; each last record is dated 2026-09-18. The superlative was traced rather than asserted: every silver fix in the series was compared with Friday's $67.035, and the most recent higher one is 28 August's $70.26, with all fourteen September fixes below it. The spot figures are Carat Capital's own tape of 19 September, which records the 18 September session as final and is the paper's mark of record under the One-Price Rule; no press-time re-read was made and the tape's marks print as filed. The gap is stated on the fix's base and the division is printed with it. ARCHIVE: the silver price - ours of 2026-09-18 covers the KITCO BID at 06:03 EDT on 18 September, $66.835, against a 31 August anchor; this item covers the LBMA FIX of 18 September, $67.035, struck at noon London after that piece went to press, and the completed 18 September session close. DIFFERENT INSTRUMENT AND A LATER READING, so ADVANCED, not a repeat. The headline figure is not the same number for the same window.",
+   "prior": [
+    {
+     "date": "2026-09-18",
+     "slug": "silver-back-to-august",
+     "claim": "Silver's Kitco bid reached $66.835, its highest mark since 31 August"
+    },
+    {
+     "date": "2026-09-16",
+     "slug": "silver-retakes-mondays-mark",
+     "claim": "Silver added $1.48 and retook Monday's mark while gold stayed under"
+    },
+    {
+     "date": "2026-09-11",
+     "slug": "silver-sheds-two-nineteen",
+     "claim": "Silver shed $2.19 to $63.94 against the 9 September mark"
+    }
+   ],
+   "sources": [
+    {
+     "title": "LBMA silver price, daily fix series, 18 September 2026",
+     "url": "https://prices.lbma.org.uk/json/silver.json",
+     "published": "2026-09-18"
+    },
+    {
+     "title": "LBMA gold price PM, daily fix series, 18 September 2026",
+     "url": "https://prices.lbma.org.uk/json/gold_pm.json",
+     "published": "2026-09-18"
+    },
+    {
+     "title": "LBMA platinum price PM, daily fix series, 18 September 2026",
+     "url": "https://prices.lbma.org.uk/json/platinum_pm.json",
+     "published": "2026-09-18"
+    },
+    {
+     "title": "LBMA palladium price PM, daily fix series, 18 September 2026",
+     "url": "https://prices.lbma.org.uk/json/palladium_pm.json",
+     "published": "2026-09-18"
+    },
+    {
+     "title": "Carat Capital tape, 19 September 2026, covering the 18 September session",
+     "url": "https://caratcapital.org/the-record.html",
+     "published": "2026-09-19"
+    }
+   ],
+   "corrections": []
+  },
+  "next": {
+   "slug": "silver-back-to-august",
+   "why": "Thursday's reading on the other instrument, taken before Friday's fix existed."
+  }
+ },
+ "two-medieval-rings-at-noonans": {
+  "v": 3,
+  "kicker": "Sale preview",
+  "figures": {
+   "asof": "Noonans Mayfair sale of 22 September 2026 · estimates as published and reported by JCK, 18 September 2026 15:45 UTC",
+   "cells": [
+    {
+     "n": "£5,000–£7,000",
+     "dir": "flat",
+     "label": "Blood of Christ",
+     "q": "the house's published band",
+     "src": 0
+    },
+    {
+     "n": "£4,000–£6,000",
+     "dir": "flat",
+     "label": "St Margaret ring",
+     "q": "the house's published band",
+     "src": 0
+    },
+    {
+     "n": "22 Sep 2026",
+     "dir": "flat",
+     "label": "Sale date",
+     "q": "Noonans Mayfair, London",
+     "src": 0
+    },
+    {
+     "n": "2024",
+     "dir": "flat",
+     "label": "Found",
+     "q": "four months apart, one finder",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Two rings reach the room.",
+   "text": "Noonans Mayfair sells two 15th-century gold rings on 22 September 2026, carrying published bands of £5,000 to £7,000 and £4,000 to £6,000."
+  },
+  "means": [
+   {
+    "who": "If you buy medieval gold:",
+    "text": "two rings from one finder and one district come up in a single session."
+   },
+   {
+    "who": "If you estimate devotional jewellery:",
+    "text": "the enamelled ring carries the higher band by £1,000 at each end."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a result. Nothing has sold, and both figures are the house's own estimates."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · The two rings and what the house expects",
+   "asof": "Noonans Mayfair, sale of 22 September 2026 · dollar conversions as published by JCK",
+   "cols": [
+    "Ring",
+    "Estimate (£)",
+    "Estimate ($)",
+    "Subject"
+   ],
+   "rows": [
+    [
+     "Enamelled blood of Christ ring, 15th century",
+     "5,000–7,000",
+     "6,700–9,400",
+     "the wounds of the crucifixion"
+    ],
+    [
+     "St Margaret of Antioch ring, 15th century",
+     "4,000–6,000",
+     "5,400–8,100",
+     "a saint invoked in childbirth"
+    ],
+    [
+     "Both rings",
+     "9,000–13,000",
+     "12,100–17,500",
+     "Carat Capital's addition"
+    ]
+   ],
+   "hi": 1,
+   "note": "<b>Source</b> JCK's report of 18 September 2026, which carries both sterling bands, both dollar conversions, the finder, the findspot and the sale date. <b>Carat Capital's arithmetic</b> the pair line is addition of the published bands: 5,000 + 4,000 = 9,000 and 7,000 + 6,000 = 13,000; 6,700 + 5,400 = 12,100 and 9,400 + 8,100 = 17,500. <b>Not a result</b> the sale is on 22 September 2026, so every figure here is an expectation, not a price.",
+   "plate": "CC/2026/066"
+  },
+  "sections": [
+   {
+    "h": "One finder, two rings, four months",
+    "p": [
+     {
+      "lead": "Riley found both.",
+      "text": "Andrew Riley, a semi-retired architect from North Yorkshire, found the rings in fields near Northallerton in 2024."
+     },
+     {
+      "lead": "Eight inches down.",
+      "text": "The first lay about eight inches deep in a ridge and furrow field he had searched for weeks."
+     }
+    ]
+   },
+   {
+    "h": "Estimates are published, results are not",
+    "p": [
+     {
+      "lead": "Bands, not prices.",
+      "text": "The house has published both bands. Nothing is sold until 22 September 2026, so no result exists to report.",
+      "links": {
+       "published both bands": "a-two-fifty-lots-in-fredericksburg.html"
+      }
+     },
+     {
+      "lead": "The enamel carries more.",
+      "text": "The blood of Christ ring is banded £1,000 higher than the St Margaret ring at each end."
+     }
+    ]
+   },
+   {
+    "h": "Provenance research is open",
+    "p": [
+     {
+      "lead": "A guild connection is unproven.",
+      "text": "JCK notes the Corpus Christi Guild at York, founded in 1408, came to number 17,000 members."
+     },
+     {
+      "lead": "One member lived near.",
+      "text": "A landowner in that guild held land close to the findspot, a link JCK itself calls possibly coincidental."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "20 September 2026",
+    "what": "Victorins' September Edition sale in Fredericksburg, the next dated jewellery result."
+   },
+   {
+    "when": "22 September 2026",
+    "what": "The Noonans Mayfair sale, when both bands meet the room."
+   },
+   {
+    "when": "24 September 2026",
+    "what": "Morphy's watches and jewellery sale, the next dated auction after it."
+   }
+  ],
+  "depth": {
+   "reverse": "A hammer price outside either band. An estimate is the house's public expectation, and a two-ring consignment with a story attached is exactly the kind that clears it or misses it widely.",
+   "built": {
+    "title": "How a treasure-find consignment reaches a saleroom",
+    "text": "In England and Wales a find of this age and metal is reported to a coroner and assessed under the Treasure Act. If no museum acquires it, the object returns to the finder and landowner, who by convention split the proceeds. That is why a metal-detector find can arrive at a commercial saleroom two years after it leaves the ground, and why the finder is named in the catalogue rather than a dealer."
+   },
+   "method": "JCK's report of 18 September 2026 was read in full from the publisher's own feed rather than through a guessed article address, after a constructed URL returned the site's not-found page. It is the source for both estimate bands, both dollar conversions, the 22 September sale date, the finder's name and occupation, the Northallerton findspot, the 2024 finds four months apart and the Corpus Christi Guild detail. The pair figures in the key line and in Table I are Carat Capital's addition of the published bands and are labelled as such. The sale has not happened, so the verbs throughout refuse a result. This item is single-sourced on JCK and says so. ARCHIVE: Noonans Mayfair - ours: no prior period, zero hits for Noonans and zero for Northallerton across the archive; new item covers the sale of 22 September 2026 and the two rings consigned to it. NO PRIOR PERIOD, so NEW.",
+   "prior": [
+    {
+     "date": "2026-09-17",
+     "slug": "two-fifty-lots-in-fredericksburg",
+     "claim": "Victorins listed over 250 lots for its 20 September sale"
+    },
+    {
+     "date": "2026-07-18",
+     "slug": "the-five-pound-ring",
+     "claim": "A £5 car-boot ring proved worth £15,000 under the loupe"
+    },
+    {
+     "date": "2026-08-26",
+     "slug": "three-times-the-royal-brooch",
+     "claim": "A royal brooch made £23,750 at Elmwood's against a lower band"
+    }
+   ],
+   "sources": [
+    {
+     "title": "15th-Century “Blood of Christ,” St. Margaret Rings Found by Metal Detectorist Head to Noonans Mayfair, JCK",
+     "url": "https://www.jckonline.com/editorial-article/noonans-15th-century-rings/",
+     "published": "2026-09-18T15:45:28Z"
+    }
+   ],
+   "corrections": []
+  },
+  "next": {
+   "slug": "two-fifty-lots-in-fredericksburg",
+   "why": "The sale two days before this one, and the last time this desk printed bands rather than prices."
+  }
+ },
+ "gaolathe-names-the-doubt": {
+  "v": 3,
+  "kicker": "Producer states",
+  "figures": {
+   "asof": "Remarks at Chatham House, London, 17 September 2026 · reported by JCK, 18 September 2026 15:30 UTC",
+   "cells": [
+    {
+     "n": "85%",
+     "dir": "flat",
+     "label": "Anglo's stake",
+     "q": "in De Beers, being sold",
+     "src": 0
+    },
+    {
+     "n": "15%",
+     "dir": "flat",
+     "label": "Botswana's stake",
+     "q": "government wants a larger role",
+     "src": 0
+    },
+    {
+     "n": "6",
+     "dir": "flat",
+     "label": "Growth sectors named",
+     "q": "Carat Capital's count",
+     "src": 0
+    },
+    {
+     "n": "17 Sep 2026",
+     "dir": "flat",
+     "label": "Remarks made",
+     "q": "Chatham House, London",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "A producer state names the cause.",
+   "text": "Botswana's vice president Ndaba Gaolathe said uncertainty over the Botswana-De Beers partnership gave laboratory-grown diamonds an opening to take market share."
+  },
+  "means": [
+   {
+    "who": "If you trade natural rough:",
+    "text": "a producer state is naming confidence, not geology or price, as what let lab-grown in."
+   },
+   {
+    "who": "If you follow the De Beers sale:",
+    "text": "Gaborone is talking about capability rather than outright control."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a transaction. No price, no bid and no timetable was given."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · What is on the record, and who put it there",
+   "asof": "Chatham House remarks of 17 September 2026 · as reported by JCK, 18 September 2026",
+   "cols": [
+    "Item",
+    "Figure",
+    "Named by"
+   ],
+   "rows": [
+    [
+     "Anglo American's stake in De Beers",
+     "85%",
+     "JCK"
+    ],
+    [
+     "Botswana government's stake",
+     "15%",
+     "JCK"
+    ],
+    [
+     "Growth sectors Gaolathe named",
+     "6",
+     "Carat Capital's count"
+    ],
+    [
+     "Date of the remarks",
+     "17 September 2026",
+     "JCK, quoting the event"
+    ]
+   ],
+   "hi": 1,
+   "note": "<b>Source</b> JCK's report of 18 September 2026, read from the publisher's own feed, which carries the Chatham House date inside its own text and separates it from the publication date. <b>Carat Capital counted</b> the six growth sectors from Gaolathe's own list: mineral beneficiation, manufacturing, energy, financial services, agriculture and tourism. <b>What is absent</b> no valuation, no bid, no stake target and no timetable appears in the remarks, so none is printed here.",
+   "plate": "CC/2026/066"
+  },
+  "sections": [
+   {
+    "h": "Uncertainty, not price, opened the door",
+    "p": [
+     {
+      "lead": "He names the cause.",
+      "text": "Gaolathe said doubt over whether the two would keep acting together gave laboratory-grown diamonds an opening to take share."
+     },
+     {
+      "lead": "The old machinery.",
+      "text": "He said the pair had stockpiled rough in downturns and spent on category marketing to hold demand up."
+     }
+    ]
+   },
+   {
+    "h": "The stake question sits behind it",
+    "p": [
+     {
+      "lead": "Anglo is selling 85%.",
+      "text": "Anglo American is selling its 85% holding. Botswana owns 15% and its president has said the government wants a larger role.",
+      "links": {
+       "selling its 85% holding": "a-de-beers-sale-gets-a-clock.html"
+      }
+     },
+     {
+      "lead": "Capability, not control.",
+      "text": "Gaolathe framed the country's ambition as expertise across the chain rather than ownership alone."
+     }
+    ]
+   },
+   {
+    "h": "Diamonds stay, dependence goes",
+    "p": [
+     {
+      "lead": "Six sectors named.",
+      "text": "He named mineral beneficiation, manufacturing, energy, financial services, agriculture and tourism, and said “we have no choice to diversify or we perish”."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "End of 2026",
+    "what": "Anglo American's own deadline for finalising the De Beers sale, set when it named the Penny consortium."
+   },
+   {
+    "when": "30 September 2026",
+    "what": "The Ekapa rescue plan deadline, the next dated producer-side test."
+   },
+   {
+    "when": "Q4 2026",
+    "what": "Whether Botswana's stake moves at all, the only check on the ambition stated here."
+   }
+  ],
+  "depth": {
+   "reverse": "A stated figure. Everything here is a minister's account of cause, and a single bid, valuation or stake target would replace the whole argument with arithmetic.",
+   "built": {
+    "title": "How Botswana and De Beers are joined",
+    "text": "Two links exist and they are separate. The government holds 15% of De Beers itself, alongside Anglo American's 85%. It also holds half of Debswana, the mining joint venture that digs the country's stones, with De Beers holding the other half. A change in the first does not automatically change the second, which is why an ownership question and a sales agreement are argued about separately in Gaborone."
+   },
+   "method": "JCK's report of 18 September 2026 was read from the publisher's own feed. It carries the event dateline inside its text, 17 September at Chatham House, separately from its own publication date, so the two are not conflated here: the article is dated to the remarks. The 85% and 15% holdings, the Boko position and the Bloomberg line about Botswana settling for a larger stake are JCK's; the count of six growth sectors is Carat Capital's, taken from Gaolathe's own list and labelled as such. The quotation is nine words and attributed. No valuation or bid is printed because none was given. This item is single-sourced on JCK and says so. ARCHIVE: Ndaba Gaolathe - ours: no prior period, zero hits for Gaolathe across the archive. Botswana returned 28 hits, each opened rather than counted; they cover the Anglo sale process and the Debswana relationship, and none reports this appearance or this argument. NEW ENTITY AND NEW EVENT, so NEW.",
+   "prior": [
+    {
+     "date": "2026-07-26",
+     "slug": "de-beers-sale-gets-a-clock",
+     "claim": "Anglo named the Penny consortium and set a year-end deadline"
+    },
+    {
+     "date": "2026-08-02",
+     "slug": "nobody-has-de-beers-yet",
+     "claim": "No buyer had De Beers, and no listing was planned"
+    },
+    {
+     "date": "2026-07-20",
+     "slug": "gaborone-answers-penny",
+     "claim": "Botswana weighed partnering, pre-empting or bringing a friend"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Botswana VP Links Natural Diamond Recovery to Stability of De Beers Relationship, JCK",
+     "url": "https://www.jckonline.com/editorial-article/botswana-natural-diamond-de-beers/",
+     "published": "2026-09-18T15:30:06Z"
+    }
+   ],
+   "corrections": []
+  },
+  "next": {
+   "slug": "de-beers-sale-gets-a-clock",
+   "why": "The deadline the remarks are being made against, and who Anglo picked to meet it."
+  }
+ },
+ "nine-brands-for-twenty-seven": {
+  "v": 3,
+  "kicker": "Trade fair",
+  "figures": {
+   "asof": "Watches and Wonders Geneva exhibitor announcement of 18 September 2026 · organiser's own site, read 19 September 2026",
+   "cells": [
+    {
+     "n": "13",
+     "dir": "up",
+     "label": "New exhibitors",
+     "q": "confirmed for the 2027 salon",
+     "src": 0
+    },
+    {
+     "n": "9",
+     "dir": "up",
+     "label": "Named 18 September",
+     "q": "the organiser's own list",
+     "src": 0
+    },
+    {
+     "n": "4",
+     "dir": "up",
+     "label": "Named in June",
+     "q": "Breitling, Damiani, Gallet, Universal",
+     "src": 0
+    },
+    {
+     "n": "5–11 Apr 2027",
+     "dir": "flat",
+     "label": "Salon dates",
+     "q": "Geneva, organiser's dates",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Nine more brands are in.",
+   "text": "Watches and Wonders Geneva named nine further exhibitors for 2027 on 18 September, taking the count of new exhibitors to thirteen."
+  },
+  "means": [
+   {
+    "who": "If you book Geneva appointments:",
+    "text": "nine more stands exist to plan around, and the week runs 5 to 11 April."
+   },
+   {
+    "who": "If you wholesale independents:",
+    "text": "Berneron, Alain Silberstein and Singer Reimagined move onto the main floor."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a full roster. The organiser published additions, not a list."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · The thirteen new exhibitors and when each was named",
+   "asof": "Watches and Wonders Geneva 2027 · organiser's announcements of June 2026 and 18 September 2026",
+   "cols": [
+    "#",
+    "Brand",
+    "Announced"
+   ],
+   "rows": [
+    [
+     "1",
+     "Akhor",
+     "18 September 2026"
+    ],
+    [
+     "2",
+     "Alain Silberstein",
+     "18 September 2026"
+    ],
+    [
+     "3",
+     "Berneron",
+     "18 September 2026"
+    ],
+    [
+     "4",
+     "Breva Genève",
+     "18 September 2026"
+    ],
+    [
+     "5",
+     "Fortis",
+     "18 September 2026"
+    ],
+    [
+     "6",
+     "Kerbedanz",
+     "18 September 2026"
+    ],
+    [
+     "7",
+     "Porsche Design",
+     "18 September 2026"
+    ],
+    [
+     "8",
+     "Singer Reimagined",
+     "18 September 2026"
+    ],
+    [
+     "9",
+     "Stollenwurm",
+     "18 September 2026"
+    ],
+    [
+     "10",
+     "Breitling",
+     "June 2026"
+    ],
+    [
+     "11",
+     "Damiani",
+     "June 2026"
+    ],
+    [
+     "12",
+     "Gallet",
+     "June 2026"
+    ],
+    [
+     "13",
+     "Universal Genève",
+     "June 2026"
+    ]
+   ],
+   "hi": 2,
+   "note": "<b>Source</b> the organiser's own site, read 19 September 2026, which states thirteen new brands, names the nine announced on 18 September and dates the other four to June 2026. Time and Tide's write-up of the same announcement carries the identical nine names. <b>No total</b> Worn & Wound puts the 2027 field at 75 brands and the organiser's announcement gives no total at all; two outside readings that do not agree are disclosed, not averaged, and no roster total is printed. <b>Not yet held</b> the salon runs 5 to 11 April 2027, so nothing here is an attendance figure.",
+   "plate": "CC/2026/066"
+  },
+  "sections": [
+   {
+    "h": "Nine names in one announcement",
+    "p": [
+     {
+      "lead": "The list is published.",
+      "text": "Akhor, Alain Silberstein, Berneron, Breva Genève, Fortis, Kerbedanz, Porsche Design, Singer Reimagined and Stollenwurm were named on 18 September."
+     },
+     {
+      "lead": "Independents dominate it.",
+      "text": "Seven of the nine are independent watchmakers; Porsche Design is the one large design house among them."
+     }
+    ]
+   },
+   {
+    "h": "Four were already in",
+    "p": [
+     {
+      "lead": "June carried the rest.",
+      "text": "Breitling, Damiani, Gallet and the revived Universal Genève were announced in June 2026, taking the new count to thirteen.",
+      "links": {
+       "Breitling": "a-chronomat-on-a-diet.html"
+      }
+     }
+    ]
+   },
+   {
+    "h": "No roster total is printed",
+    "p": [
+     {
+      "lead": "Two readings disagree.",
+      "text": "Trade reports put the 2027 field at 75 brands. The organiser's own announcement gives no total, so no roster total is printed."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "5–11 April 2027",
+    "what": "The salon itself, in Geneva, on the organiser's published dates."
+   },
+   {
+    "when": "Mid-October 2026",
+    "what": "The Federation's September Swiss export figures, the market these stands are being booked into."
+   },
+   {
+    "when": "7–8 November 2026",
+    "what": "Phillips' Geneva Watch Auction XXIV, the next dated Geneva event on this desk."
+   }
+  ],
+  "depth": {
+   "reverse": "A published roster total. The organiser has announced additions only, and one official list would settle a count that two trade outlets currently give differently.",
+   "built": {
+    "title": "What an exhibitor announcement commits to",
+    "text": "A salon announces exhibitors in tranches, usually from the previous summer, because stand allocation and floor plans are agreed brand by brand. An announced brand has a contract and a stand, not necessarily a launch. The count that matters commercially is stands, not names, and it is rarely published: a single group can hold one large stand for several maisons, so a roster of names and a floor plan are different documents."
+   },
+   "method": "The organiser's own site was read on 19 September 2026 and is the source for the thirteen new brands, the nine names announced on 18 September, the four dated to June 2026 and the 5 to 11 April 2027 dates. Time and Tide's write-up of the same announcement was read as an independent second reading and carries the identical nine names. No total roster figure is printed: Worn & Wound reports 75 brands for 2027 and the organiser's announcement carries no total, and a count this paper cannot settle between two outside sources is disclosed rather than chosen. The seven-of-nine independents figure is Carat Capital's classification of the named brands and is stated as such in the text. ARCHIVE: Watches and Wonders 2027 - ours of 2026-07-17, chronomat-on-a-diet, covers BREITLING'S OWN 2027 DEBUT as a footnote to a product story; this item covers the 18 SEPTEMBER 2026 ROSTER ANNOUNCEMENT of nine further brands and a thirteen-brand total. SAME SUBJECT, DIFFERENT DOCUMENT AND DIFFERENT PERIOD, so ADVANCED, not a repeat. The Bureau slate dated our prior coverage to 4 August; articles.json dates it 17 July 2026, and the earlier date is the one used here.",
+   "prior": [
+    {
+     "date": "2026-07-17",
+     "slug": "chronomat-on-a-diet",
+     "claim": "Breitling will exhibit at Watches and Wonders Geneva in 2027"
+    },
+    {
+     "date": "2026-09-18",
+     "slug": "four-million-francs-in-geneva",
+     "claim": "A 1945 Patek split-seconds carries a CHF 4m estimate at Phillips"
+    },
+    {
+     "date": "2026-09-17",
+     "slug": "nine-one-up-nineteen-four-down",
+     "claim": "Swiss exports rose 9.1% in August while the US fell 19.4%"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Watches and Wonders Geneva 2027, exhibitor announcement, watchesandwonders.com",
+     "url": "https://www.watchesandwonders.com/en",
+     "published": "2026-09-18"
+    },
+    {
+     "title": "Watches and Wonders adds 9 more brands to its roster for 2027, Time and Tide",
+     "url": "https://timeandtidewatches.com/watches-and-wonders-adds-7-more-brands-to-its-roster-for-2027-including-berneron-friday-wind-down",
+     "published": "2026-09-18"
+    },
+    {
+     "title": "Fortis, Berneron, and More Join Watches and Wonders 2027, Now Featuring 75 Brands, Worn & Wound",
+     "url": "https://wornandwound.com/fortis-berneron-and-more-join-watches-and-wonders-2027-now-featuring-75-brands/",
+     "published": "2026-09-18"
+    }
+   ],
+   "corrections": []
+  },
+  "next": {
+   "slug": "nine-one-up-nineteen-four-down",
+   "why": "The export market these thirteen new stands are being booked into."
   }
  }
 }

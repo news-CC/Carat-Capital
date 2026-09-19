@@ -1,10 +1,40 @@
 {
- "updated": "18 Sep 2026",
+ "updated": "19 Sep 2026",
  "intro": "Eight weeks of the trade, kept the way a ledger should be kept — dated, sourced, and in one place. New entries are added at the top each week; the quarter's running numbers live in the Almanac below.",
  "weeks": [
   {
    "label": "This week - August 19 to September 15",
    "entries": [
+    {
+     "d": "gemstones",
+     "h": "SCS retires SCS-007, the gemstone standard no miner adopted",
+     "t": "SCS Standards retired SCS-007, its sustainability certification for natural and laboratory-grown diamonds, emeralds, rubies and sapphires, effective 1 September 2026. Certificates already issued run to their expiry date; no audits continue.",
+     "s": "SCS Standards and SCS Global Services retirement notices, read 19 September 2026; JCK, 18 September 2026"
+    },
+    {
+     "d": "gold-metals",
+     "h": "Silver fixes at $67.035 in London, highest since 28 August",
+     "t": "The LBMA silver price fixed at $67.035 on 18 September, 4.54% above Thursday's $64.125 and the highest London fix since 28 August's $70.26. Kitco's close for the same session was $66.127.",
+     "s": "LBMA daily fix series, 18 September 2026; Carat Capital tape, 19 September 2026"
+    },
+    {
+     "d": "auctions",
+     "h": "Noonans lists two medieval gold rings at £9,000 to £13,000",
+     "t": "Two 15th-century gold rings found near Northallerton in 2024 carry bands of £5,000 to £7,000 and £4,000 to £6,000 at Noonans Mayfair on 22 September. Neither has sold.",
+     "s": "JCK, 18 September 2026"
+    },
+    {
+     "d": "diamonds",
+     "h": "Botswana's Gaolathe ties lab-grown's rise to De Beers doubt",
+     "t": "Vice president Ndaba Gaolathe told Chatham House on 17 September that uncertainty over the Botswana-De Beers partnership gave laboratory-grown diamonds an opening. Anglo American is selling its 85% stake.",
+     "s": "JCK, 18 September 2026"
+    },
+    {
+     "d": "watches",
+     "h": "Watches and Wonders adds 9 brands to its 2027 roster",
+     "t": "Nine further exhibitors were named on 18 September, taking new exhibitors for the 2027 salon to thirteen. Watches and Wonders Geneva runs 5 to 11 April 2027.",
+     "s": "Watches and Wonders Geneva, read 19 September 2026; Time and Tide, 18 September 2026"
+    },
     {
      "d": "auctions",
      "h": "Sotheby's sells HK$267.5m in Hong Kong as rubies take top three",
