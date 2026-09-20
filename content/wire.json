@@ -1,124 +1,124 @@
 {
- "date_line": "Saturday, September 19, 2026 | Vol. I - No. 066",
- "edition": "No. 066",
- "items": [
-  {
-   "b": "SCS RETIRES SCS-007, THE GEMSTONE STANDARD NO MINER ADOPTED",
-   "t": "The scheme covered natural and laboratory-grown diamonds, emeralds, rubies and sapphires and ended on 1 September. Certificates already issued run to their expiry date."
-  },
-  {
-   "b": "SILVER FIXES AT $67.035 IN LONDON, HIGHEST SINCE 28 AUGUST",
-   "t": "The fix rose 4.54% on Thursday's $64.125 while Kitco's close fell 1.06% to $66.127, leaving spot 1.35% below the fix."
-  },
-  {
-   "b": "NOONANS LISTS TWO MEDIEVAL GOLD RINGS AT £9,000 TO £13,000",
-   "t": "Andrew Riley found both near Northallerton in 2024, four months apart. The sale is on 22 September and neither ring has a result yet."
-  },
-  {
-   "b": "BOTSWANA'S GAOLATHE TIES LAB-GROWN'S RISE TO DE BEERS DOUBT",
-   "t": "The vice president spoke at Chatham House on 17 September. Anglo American is selling its 85% stake and Botswana holds the other 15%."
-  },
-  {
-   "b": "WATCHES AND WONDERS ADDS 9 BRANDS TO ITS 2027 ROSTER",
-   "t": "Thirteen new exhibitors are now confirmed, including Porsche Design and Berneron. The salon runs 5 to 11 April 2027."
-  }
- ],
- "tape_ts": "19 Sep 2026 - caratwire's 05:00 ET filing stands under the One-Price Rule and prints as filed: gold 4,377.00, silver 66.127, platinum 1,796.00, palladium 1,283.00, all Kitco, covering the 18 September session and marked final in Carat Capital's dated tape. No metals story leads today and no press-time re-read was made, so the opening marks are the marks of record. Against them, LBMA's 18 September fixes were gold 4,348.15, silver 67.035, platinum 1,793.20 and palladium 1,315.50: a fix and a screen bid are different instruments and are compared, not merged.",
- "tape": [
-  {
-   "name": "Gold / oz",
-   "code": "XAU",
-   "px": "4,377.00",
-   "chg": "▲ +0.03%",
-   "dir": "up",
-   "pts": [
-    4,
-    7,
-    8,
-    9,
-    14,
-    14,
-    24,
-    16,
-    19,
-    11
-   ]
-  },
-  {
-   "name": "Natural 1ct (RAPI proxy)",
-   "code": "NAT1",
-   "px": "3904.00",
-   "chg": "−6.4% YTD",
-   "dir": "down",
-   "pts": [
-    13,
-    13,
-    13,
-    13,
-    13,
-    13,
-    13,
-    13,
-    13,
-    13
-   ]
-  },
-  {
-   "name": "Lab-grown 1ct reference",
-   "code": "LGD1",
-   "px": "475.00",
-   "chg": "−13% YoY",
-   "dir": "down",
-   "pts": [
-    14,
-    14,
-    14,
-    14,
-    13,
-    13,
-    13,
-    13,
-    13,
-    12
-   ]
-  },
-  {
-   "name": "Platinum / oz",
-   "code": "XPT",
-   "px": "1,796.00",
-   "chg": "▼ -0.61%",
-   "dir": "down",
-   "pts": [
-    9,
-    10,
-    7,
-    4,
-    13,
-    15,
-    24,
-    18,
-    19,
-    11
-   ]
-  },
-  {
-   "name": "Silver / oz",
-   "code": "XAG",
-   "px": "66.127",
-   "chg": "▼ -1.06%",
-   "dir": "down",
-   "pts": [
-    8,
-    10,
-    9,
-    8,
-    19,
-    17,
-    24,
-    16,
-    20,
-    4
-   ]
-  }
- ]
+  "date_line": "Sunday, September 20, 2026 | Vol. I - No. 067",
+  "edition": "No. 067",
+  "items": [
+    {
+      "b": "ICBC SETS GOLD MARGIN AT 190%, FORCED-SALE LINE AT 170%",
+      "t": "More than 10 Chinese banks have shut or tightened personal access to Shanghai Gold Exchange metals trading this year. The count stood at 6 on 9 September; Pudong Development closes its channel on 25 September."
+    },
+    {
+      "b": "300KG OF GOLD CLEARS SANYA AIRPORT FROM SINGAPORE",
+      "t": "The consignment transited Guangzhou and moved into the Shanghai Gold Exchange's Sanya warehouse. Customs ran advance declaration, air-to-air transit and apron collection as one procedure, which Sanya Daily reports as a first at the port."
+    },
+    {
+      "b": "DGFT DROPS THE RCMC REQUIREMENT ON EXPORTS UNDER ₹3 LAKH",
+      "t": "Notification 36/2026-27 amends paragraph 2.57 of the Foreign Trade Policy 2023, effective 15 September. Consignments up to USD 3,000 were 43% of India's shipping bills and 0.86% of export value from 2021-22 to 2025-26."
+    },
+    {
+      "b": "INDIA'S POLISHED EXPORTS FALL 4.93% IN VALUE, RISE 3.23% IN CARATS",
+      "t": "Total gem and jewellery exports reached $2.30 billion in August, up 3.14% year on year on the council's figures. Studded gold jewellery added 51.22% to $642.85 million."
+    },
+    {
+      "b": "DGCX HANDS ITS TRADING AND CLEARING ENGINE TO TCS",
+      "t": "Tata Consultancy Services will supply BaNCS for central counterparty clearing and trading, and Quartz for surveillance and connectivity. TCS shares rose 5.19% to ₹2,315 in intraday trade on 15 September."
+    }
+  ],
+  "tape_ts": "20 Sep 2026",
+  "tape": [
+    {
+      "name": "Gold / oz",
+      "code": "XAU",
+      "px": "4,377.00",
+      "chg": "▲ +0.03%",
+      "dir": "up",
+      "pts": [
+        4,
+        7,
+        8,
+        9,
+        14,
+        14,
+        24,
+        16,
+        19,
+        11
+      ]
+    },
+    {
+      "name": "Natural 1ct (RAPI proxy)",
+      "code": "NAT1",
+      "px": "3904.00",
+      "chg": "−6.4% YTD",
+      "dir": "down",
+      "pts": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ]
+    },
+    {
+      "name": "Lab-grown 1ct reference",
+      "code": "LGD1",
+      "px": "475.00",
+      "chg": "−13% YoY",
+      "dir": "down",
+      "pts": [
+        14,
+        14,
+        14,
+        14,
+        13,
+        13,
+        13,
+        13,
+        13,
+        12
+      ]
+    },
+    {
+      "name": "Platinum / oz",
+      "code": "XPT",
+      "px": "1,796.00",
+      "chg": "▼ -0.61%",
+      "dir": "down",
+      "pts": [
+        9,
+        10,
+        7,
+        4,
+        13,
+        15,
+        24,
+        18,
+        19,
+        11
+      ]
+    },
+    {
+      "name": "Silver / oz",
+      "code": "XAG",
+      "px": "66.127",
+      "chg": "▼ -1.06%",
+      "dir": "down",
+      "pts": [
+        8,
+        10,
+        9,
+        8,
+        19,
+        17,
+        24,
+        16,
+        20,
+        4
+      ]
+    }
+  ]
 }
