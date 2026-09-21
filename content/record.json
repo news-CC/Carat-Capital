@@ -1,10 +1,34 @@
 {
-  "updated": "20 Sep 2026",
+  "updated": "21 Sep 2026",
   "intro": "Eight weeks of the trade, kept the way a ledger should be kept — dated, sourced, and in one place. New entries are added at the top each week; the quarter's running numbers live in the Almanac below.",
   "weeks": [
     {
-      "label": "This week - August 19 to September 20",
+      "label": "This week - August 19 to September 21",
       "entries": [
+        {
+          "d": "retail-tech",
+          "h": "Rings.com puts the lab-grown 1-carat median back at $571",
+          "t": "Rings.com's September index puts the one-carat lab-grown market median at $571 a carat. It is the first one-carat median the index has published since June.",
+          "s": "Rings.com Lab-Grown Diamond Price Index, September 2026 edition, published 18 September 2026"
+        },
+        {
+          "d": "gold-metals",
+          "h": "Gold opens the week $28.80 lower at $4,348.20 an ounce",
+          "t": "Spot gold read $4,348.20 an ounce on Monday morning, $28.80 below its 18 September mark. Silver, platinum and palladium each moved by less than a dollar.",
+          "s": "Kitco live board, bid basis, 06:04 ET 21 September 2026; JM Bullion spot pages, 06:07 EDT; LBMA gold PM fix, 18 September 2026"
+        },
+        {
+          "d": "diamonds",
+          "h": "RAPI's 1-carat holds at $3,912.13 for a fifth morning",
+          "t": "RapNet's one-carat index has carried $3,912.13 since 16 September, its newest published point, with no new print in the five mornings since.",
+          "s": "RapNet Diamond Index, newest point 16 September 2026; IDEX Online price drivers, 21 September 2026"
+        },
+        {
+          "d": "diamonds",
+          "h": "De Beers and Shanghai's bourse meet on natural-diamond value",
+          "t": "The Natural Diamond Council and the Diamond Federation of Hong Kong convened a forum on rebuilding natural-diamond value. The Shanghai Diamond Exchange, the World Federation of Diamond Bourses and De Beers joined them.",
+          "s": "Hong Kong Commercial Daily, 19 September 2026"
+        },
         {
           "d": "gold-metals",
           "h": "ICBC sets gold margin at 190%, forced-sale line at 170%",

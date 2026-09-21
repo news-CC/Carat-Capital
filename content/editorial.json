@@ -117944,7 +117944,7 @@
         ]
       ],
       "hi": 4,
-      "note": "<b>Carat Capital's arithmetic</b> the last row is a division, not a published figure: 924,510,000 ÷ 1,336,000 carats = $692.00 a carat. The prior-year base is reconstructed from the published change, because GJEPC's release states the change rather than the 2025 value: 924.51 ÷ 0.9507 = $972.45m over 12.94 lakh carats = $751.51 a carat. The comparison is then 692.00 ÷ 751.51 = 92.08% OF last August's rate, which is 7.92% BELOW it. <b>Lakh</b> one lakh is 100,000, so 13.36 lakh carats is 1,336,000 carats and 12.94 lakh is 1,294,000. <b>Source</b> the four published lines are GJEPC's August release as carried by The Hindu International on 13 September and by KNN India; the council's own statistics page is the standing address for the series."
+      "note": "<b>Carat Capital's arithmetic</b> the last row is a division, not a published figure: 924,510,000 ÷ 1,336,000 carats = $692.00 a carat. The prior-year base is reconstructed from the published change, because GJEPC's release states the change rather than the 2025 value: 924.51 ÷ 0.9507 = $972.45m over 12.94 lakh carats = $751.51 a carat. The comparison is then 692.00 ÷ 751.51 = 92.08% OF last August's rate, which is 7.92% BELOW it. <b>Lakh</b> one lakh is 100,000, so 13.36 lakh carats is 1,336,000 carats and 12.94 lakh is 1,294,000. <b>Source</b> the four published lines are GJEPC's August release as carried by Fashion Value Chain, the one cited outlet whose text carries the $924.51m and -4.93% lines; KNN India carries the volume, gross and studded-gold lines only, and the PressReader copy of The Hindu International is not readable without a subscription. The council's own statistics page is the standing address for the series."
     },
     "sections": [
       {
@@ -118003,7 +118003,7 @@
         "title": "How the series is built",
         "text": "GJEPC publishes India's gem and jewellery export and import figures monthly, in US dollars and in rupees, broken into lines including cut and polished diamonds, rough diamonds, gold jewellery, studded gold jewellery, silver jewellery, coloured gemstones and lab-grown diamonds. Cut and polished diamonds are reported in both value and carat volume, which is what allows the two to be compared. The council reports gross exports, not net of re-imports, and reports a year-on-year change against the same calendar month of the prior year rather than against the previous month. Value is reported at declared export value, so a change in it mixes price and mix."
       },
-      "method": "The four published figures were taken from GJEPC's August release as carried by The Hindu International on 13 September 2026 and by KNN India, with Fashion Value Chain read alongside for the studded gold line; all three carry the same numbers, which is why they are printed as corroborated rather than single-outlet. GJEPC's own statistics page is listed as the standing address for the series and is the primary the diamonds desk's own sweep failed to reach this month, which is why this print is eight days old rather than same-day. One figure here is not published anywhere: the implied value a carat. It is Carat Capital's division and is labelled as such in the key figures, in the table and in the table note, where the arithmetic is printed in full so it can be checked. The prior-year rate is reconstructed from the published percentage change rather than from a published 2025 value, and that reconstruction is stated rather than hidden. The comparative is printed on its base: 692.00 over 751.51 is 92.08% OF last August's rate and therefore 7.92% BELOW it. ARCHIVE: India's monthly gem and jewellery exports - greps of the built archive for this month's headline figures returned zero on all four. The nearest archived items are 2026-08-20, India's $100 billion by 2040 target at a 2.44% growth rate, which is a multi-year target and not a month, and 2026-08-22, India's July gold imports, a different commodity in a different month. DIFFERENT PERIOD AND DIFFERENT SERIES. NEW.",
+      "method": "The four published figures come from GJEPC's August release as carried by Fashion Value Chain, which is the only one of the three outlets cited here whose text actually carries the headline $924.51m and -4.93%. KNN India carries the volume line, 13.36 lakh carats and +3.23%, and the gross and studded-gold lines, but not the polished-value figures. PressReader's copy of The Hindu International answers with a page but no article text without a subscription, so nothing can be read out of it. The lead figure is therefore single-outlet and is no longer described as corroborated. GJEPC's own statistics page is listed as the standing address for the series and is the primary the diamonds desk's own sweep failed to reach this month, which is why this print is eight days old rather than same-day. One figure here is not published anywhere: the implied value a carat. It is Carat Capital's division and is labelled as such in the key figures, in the table and in the table note, where the arithmetic is printed in full so it can be checked. The prior-year rate is reconstructed from the published percentage change rather than from a published 2025 value, and that reconstruction is stated rather than hidden. The comparative is printed on its base: 692.00 over 751.51 is 92.08% OF last August's rate and therefore 7.92% BELOW it. ARCHIVE: India's monthly gem and jewellery exports - greps of the built archive for this month's headline figures returned zero on all four. The nearest archived items are 2026-08-20, India's $100 billion by 2040 target at a 2.44% growth rate, which is a multi-year target and not a month, and 2026-08-22, India's July gold imports, a different commodity in a different month. DIFFERENT PERIOD AND DIFFERENT SERIES. NEW.",
       "prior": [
         {
           "date": "2026-09-18",
@@ -118043,7 +118043,9 @@
           "published": "2026-09-12"
         }
       ],
-      "corrections": []
+      "corrections": [
+        "Citation corrected, 21 September 2026. As published on 20 September this article's method said three outlets carried the same numbers and credited The Hindu International and KNN India with the polished-value figures, with Fashion Value Chain read only for the studded-gold line. Fetched again on 21 September, KNN India's text carries no $924.51m and no -4.93% at all, and the PressReader copy of The Hindu International returns no readable article text without a subscription. Fashion Value Chain carries both figures in full and is the source for them. Every figure printed on 20 September was correct as published and none has changed; what was wrong was the description of how well corroborated they were. The table note has been corrected in the same step. Found by this paper's standards desk."
+      ]
     },
     "next": {
       "slug": "dgft-drops-rcmc-under-three-lakh",
@@ -118054,7 +118056,7 @@
     "v": 3,
     "kicker": "Market infrastructure",
     "figures": {
-      "asof": "Announced 15 September 2026 · share move intraday on the National Stock Exchange, same day",
+      "asof": "Announced 15 September 2026 · share move on the National Stock Exchange, same day",
       "cells": [
         {
           "n": "5.19%",
@@ -118067,7 +118069,7 @@
           "n": "₹2,315",
           "dir": "up",
           "label": "Level reached",
-          "q": "intraday, one outlet",
+          "q": "one outlet, session timing unstated",
           "src": 2
         },
         {
@@ -118131,7 +118133,7 @@
         ]
       ],
       "hi": 0,
-      "note": "<b>Source</b> the component list is carried identically by Business Standard and The Tribune on 15 September 2026. <b>The share figure is weaker than the rest</b> the 5.19% and the ₹2,315 come from one outlet, Whalesbook, and are described there as an intraday move rather than a close; both are labelled intraday in the key figures and in the body, and neither is treated as a settled price. <b>Not printed</b> secondary accounts describe a same-day-settled DGCX gold contract launched earlier in 2026 as the starting point for this rebuild. That contract was not verified at a primary for this piece and is therefore not stated."
+      "note": "<b>Source</b> the component list is carried identically by Business Standard and The Tribune on 15 September 2026. <b>The share figure is weaker than the rest</b> the 5.19% and the ₹2,315 come from one outlet, Whalesbook, whose text does not say whether the level is a close or a mid-session print; both are labelled single-outlet in the key figures and in the body, and neither is treated as a settled price. <b>Not printed</b> secondary accounts describe a same-day-settled DGCX gold contract launched earlier in 2026 as the starting point for this rebuild. That contract was not verified at a primary for this piece and is therefore not stated."
     },
     "sections": [
       {
@@ -118156,7 +118158,7 @@
           },
           {
             "lead": "The market priced it.",
-            "text": "TCS shares rose 5.19% to ₹2,315 on the National Stock Exchange on 15 September, on an intraday figure carried by a single outlet."
+            "text": "TCS shares rose 5.19% to ₹2,315 on the National Stock Exchange on 15 September, on one outlet's figure, which does not say where in the session the print fell."
           }
         ]
       }
@@ -118181,7 +118183,7 @@
         "title": "What a clearing engine does",
         "text": "A derivatives exchange runs three layers that are often bought together. The trading layer matches orders. The clearing layer stands between buyer and seller as central counterparty, holds margin and guarantees settlement if one side fails, which is the layer that carries the exchange's own risk. The surveillance layer watches the order book for manipulation and reports to the regulator. Replacing all three at once is the widest version of this kind of project, because the clearing layer cannot be cut over independently of the book it clears. Connectivity, the gateway members' systems talk through, is the fourth piece named here."
       },
-      "method": "Business Standard's and The Tribune's reports of 15 September 2026 were both read for the component list, and they carry it identically: TCS BaNCS for central counterparty clearing and securities trading, Quartz for market surveillance, Quartz Gateway for market connectivity, and a generative AI layer for reporting and analytics. The asset classes, energy, currencies, bullion and equities, and the intention to extend to crypto-related products, are from the same reports. The share figure is the weakest evidence in the piece and is marked as such rather than levelled up: 5.19% and ₹2,315 come from one outlet, Whalesbook, which describes the move as intraday on the National Stock Exchange on 15 September rather than as a close, and the article says intraday and single-outlet in both the key figures and the body. No contract value, term length or cutover date was published by either party, and none is estimated here; the key figures print that absence as a zero rather than leaving the cell out. The Bureau's original filing carried this as a single Arabic-language source and also carried a same-day-settled gold contract as the background to it. The English-language primaries above supersede the first point; the second was not verified and is not printed. ARCHIVE: DGCX and Tata Consultancy Services - greps of the built archive for the exchange and for both platform names returned zero. The nearest archived item is 2026-09-17, Hong Kong setting Q1 2027 for central gold clearing, which is a different exchange, a different jurisdiction and a different mechanism, and covers a future launch date rather than a systems replacement. NEW.",
+      "method": "Business Standard's and The Tribune's reports of 15 September 2026 were both read for the component list, and they carry it identically: TCS BaNCS for central counterparty clearing and securities trading, Quartz for market surveillance, Quartz Gateway for market connectivity, and a generative AI layer for reporting and analytics. The asset classes, energy, currencies, bullion and equities, and the intention to extend to crypto-related products, are from the same reports. The share figure is the weakest evidence in the piece and is marked as such rather than levelled up: 5.19% and ₹2,315 come from one outlet, Whalesbook, which places the move on the National Stock Exchange on 15 September but never says whether the level is a close or a mid-session print. Its own publication stamp reads 15:35 India time, five minutes after the 15:30 close, which points to a close without settling it; NSE's own daily data was not reachable this morning, so the timing is left unstated rather than guessed, and the key figures and the body say single-outlet. No contract value, term length or cutover date was published by either party, and none is estimated here; the key figures print that absence as a zero rather than leaving the cell out. The Bureau's original filing carried this as a single Arabic-language source and also carried a same-day-settled gold contract as the background to it. The English-language primaries above supersede the first point; the second was not verified and is not printed. ARCHIVE: DGCX and Tata Consultancy Services - greps of the built archive for the exchange and for both platform names returned zero. The nearest archived item is 2026-09-17, Hong Kong setting Q1 2027 for central gold clearing, which is a different exchange, a different jurisdiction and a different mechanism, and covers a future launch date rather than a systems replacement. NEW.",
       "prior": [
         {
           "date": "2026-09-17",
@@ -118206,11 +118208,756 @@
           "published": "2026-09-15"
         }
       ],
-      "corrections": []
+      "corrections": [
+        "Citation corrected, 21 September 2026. As published on 20 September this article called the 5.19% and ₹2,315 an intraday figure and said its source, Whalesbook, described the move as intraday rather than as a close. Whalesbook's text was fetched again on 21 September: the words intraday, intra-day, closing and day's high appear nowhere in it, and its own publication stamp of 15:35 India time falls five minutes after the National Stock Exchange's 15:30 close. The source makes no such distinction, so the qualifier has been removed from the dek, the key figures, the body and the table note, and the piece now says only that the source does not state where in the session the print fell. Both figures, 5.19% and ₹2,315, were correct as published and are unchanged. Found by this paper's standards desk."
+      ]
     },
     "next": {
       "slug": "q1-2027-for-hong-kong-gold",
       "why": "Another gold market rebuilding its clearing layer, with a date attached."
+    }
+  },
+  "the-one-carat-median-returns": {
+    "v": 3,
+    "kicker": "Lab-grown prices",
+    "figures": {
+      "asof": "Rings.com Lab-Grown Diamond Price Index, September 2026 edition · listings collected 17 September, published 18 September 2026",
+      "cells": [
+        {
+          "n": "$571",
+          "dir": "flat",
+          "label": "1ct market median",
+          "q": "first published since June",
+          "src": 0
+        },
+        {
+          "n": "$281–$796",
+          "dir": "flat",
+          "label": "Four counters, 1ct",
+          "src": 0
+        },
+        {
+          "n": "+26%",
+          "dir": "up",
+          "label": "Ritani, 1ct",
+          "src": 0
+        },
+        {
+          "n": "251,098",
+          "dir": "flat",
+          "label": "Listings read, 7 sellers",
+          "src": 0
+        }
+      ]
+    },
+    "changed": {
+      "lead": "The median is published again.",
+      "text": "Rings.com's September index puts the one-carat lab-grown market median at $571 a carat. It is the first one-carat median the index has published since June."
+    },
+    "means": [
+      {
+        "who": "If you price lab-grown at retail:",
+        "text": "Four US counters now quote between $281 and $796 for the same one-carat spec."
+      },
+      {
+        "who": "If you restock lab-grown goods:",
+        "text": "Ritani reversed August's cuts at all three weights. Brilliant Earth moved the other way."
+      },
+      {
+        "who": "What this is not:",
+        "text": "A wholesale price. These are listed asking prices, not transactions."
+      }
+    ],
+    "visual": {
+      "type": "table",
+      "cap": "Table I · The one-carat lab-grown counter",
+      "asof": "E VS1 round excellent, IGI · median listed asking price, USD · collected 17 September 2026",
+      "cols": [
+        "Retailer",
+        "1ct median",
+        "Change on August"
+      ],
+      "rows": [
+        [
+          "Ritani",
+          "$281",
+          "+26%"
+        ],
+        [
+          "Grown Brilliance",
+          "$500",
+          "0%"
+        ],
+        [
+          "With Clarity",
+          "$642",
+          "not published"
+        ],
+        [
+          "Brilliant Earth",
+          "$796",
+          "-7%"
+        ],
+        [
+          "Market median",
+          "$571",
+          "first since June"
+        ]
+      ],
+      "hi": 4,
+      "note": "<b>Carat Capital's arithmetic</b> the distance between the cheapest and the dearest published one-carat counter is a division, not a published figure: 796 ÷ 281 = 2.83 times. On August's published pair it was 856 ÷ 223 = 3.84 times, so the spread narrowed. <b>Not published</b> the index states Ritani's August one-carat median at $223, Grown Brilliance's as unchanged at $500 and Brilliant Earth's at $856, but does not state With Clarity's August one-carat figure, so no change is shown in that row. <b>Two counters are absent</b> Clean Origin and Blue Nile did not clear the index's 30-listing minimum at one carat this edition. VRAI publishes $1,583 but is graded by Diamond Foundry rather than to the IGI specification, and is excluded from the median."
+    },
+    "sections": [
+      {
+        "h": "Two counters moved, two did not",
+        "p": [
+          {
+            "lead": "Ritani reversed course.",
+            "text": "Its one-carat median rose from $223 to $281 a carat, up 26%, the opposite direction from August's cut across the same cells."
+          },
+          {
+            "lead": "Brilliant Earth cut.",
+            "text": "Its 1.5-carat median fell 32%, from $1,151 to $784 a carat, the largest single-cell move on the panel this edition."
+          },
+          {
+            "lead": "Grown Brilliance held.",
+            "text": "All three of its cells moved by 3% or less while its listed one-carat inventory fell from 795 stones to 435."
+          }
+        ]
+      },
+      {
+        "h": "Why two weights stay withheld",
+        "p": [
+          {
+            "lead": "The rule is composition.",
+            "text": "The index withholds a blended median when the contributing retailers change, so the figure measures prices rather than who is in the panel."
+          },
+          {
+            "lead": "One carat passes.",
+            "text": "The same four retailers published a one-carat figure in August and September, so the eligibility test clears and the median is republished."
+          },
+          {
+            "lead": "The other two fail.",
+            "text": "Blue Nile's newly published 1.5-carat and 2-carat cells, and Clean Origin's 1.5-carat cell, were not in August's contributor set."
+          }
+        ]
+      },
+      {
+        "h": "Listings, not transactions",
+        "p": [
+          {
+            "lead": "The basis matters.",
+            "text": "Every figure is a publicly visible list price at the moment of collection, including automatic site-wide reductions but excluding promotional codes."
+          },
+          {
+            "lead": "The sample is large.",
+            "text": "251,098 listings across seven retailers were read on 17 September, and the next edition is due the week of 26 October."
+          }
+        ]
+      }
+    ],
+    "watch": [
+      {
+        "when": "Week of 26 October 2026",
+        "what": "The index's next edition, per its own published schedule."
+      },
+      {
+        "when": "October 2026",
+        "what": "Whether Clean Origin and Blue Nile clear the 30-listing minimum at one carat."
+      },
+      {
+        "when": "November 2026",
+        "what": "Whether a one-carat median publishes twice running, which would let a change be measured."
+      }
+    ],
+    "depth": {
+      "reverse": "A month in which the four contributing retailers change again. The median is withheld whenever the contributor set moves, which is why it went unpublished in July and August; one seller thinning at one carat takes the figure off the page regardless of where prices go.",
+      "built": {
+        "title": "How this median is built",
+        "text": "The index reads publicly visible list prices for a fixed specification, a one-carat E VS1 round excellent stone graded by IGI, at a fixed panel of seven United States online sellers. A retailer's cell publishes only if at least 30 listings clear the specification; below that the cell is shown as thin and left blank. The blended market median is then taken across the sellers that published, but only when the same sellers published in the prior edition as well. That last test is why a figure can vanish for two months while every underlying price is still being collected: the rule is protecting against a median that measures panel composition instead of price."
+      },
+      "method": "The September 2026 edition was fetched directly on 21 September 2026 and read for each figure printed here rather than for a summary. The page's own dateModified and last_updated fields both read 2026-09-18, and its methodology section states the collection date as 17 September 2026. Every figure above appears in the source's own text: the $571 market median and the description of it as the first published since June; the $281 to $796 range across four IGI-panel retailers; the 251,098 listings across seven retailers; Ritani's one-carat move from $223 to $281 and its 1.5-carat and 2-carat moves; Brilliant Earth's 1.5-carat fall from $1,151 to $784 and its one-carat move from $856 to $796; Grown Brilliance's one-carat sample falling from 795 stones to 435 at an unchanged $500; and With Clarity's one-carat figure of $642 on 453 listings. Two figures here are Carat Capital's own division and are labelled as such in the table note: 796 ÷ 281 = 2.83 and 856 ÷ 223 = 3.84. With Clarity's August one-carat median is not stated anywhere in the source, so no change is printed for that row rather than a change being reconstructed. The main table's columns are total stone price; at one carat the total and the per-carat figure are the same number, which is why the one-carat column is used and the heavier columns are not. ARCHIVE: the Rings.com Lab-Grown Diamond Price Index - greps of content/articles.json for 'Rings.com', '251,098', 'Grown Brilliance', 'With Clarity' and 'market median' returned zero hits in 404 articles; the only place the name appears anywhere on this site is the standing lab-grown price list page, which is a data page and not an article. NEW, and this is the first edition of this index the paper has written up.",
+      "prior": [
+        {
+          "date": "2026-09-07",
+          "slug": "the-index-turns-daily",
+          "claim": "RAPI moves to daily publication, 1-carat up 0.59% since 8 August"
+        },
+        {
+          "date": "2026-09-03",
+          "slug": "half-a-percent-after-fifteen-months",
+          "claim": "Natural 1-carat polished up 0.5% in August, first rise in 15 months"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Lab-Grown Diamond Price Index, September 2026 edition, Rings.com",
+          "url": "https://www.rings.com/pages/lab-grown-diamond-price-index",
+          "published": "2026-09-18"
+        },
+        {
+          "title": "The Lab-Grown Diamond Price List, Carat Capital",
+          "url": "https://caratcapital.org/lab-grown-diamond-prices.html",
+          "published": "2026-09-21"
+        }
+      ],
+      "corrections": []
+    },
+    "next": {
+      "slug": "a-fifth-morning-at-thirty-nine-twelve",
+      "why": "The natural counter on the same morning, unmoved for five days."
+    }
+  },
+  "twenty-eight-eighty-off-gold": {
+    "v": 3,
+    "kicker": "Metals",
+    "figures": {
+      "asof": "Kitco board, bid basis, read 06:04 ET 21 September 2026 · change measured against the 18 September marks",
+      "cells": [
+        {
+          "n": "$4,348.20",
+          "dir": "down",
+          "label": "Gold spot",
+          "q": "-$28.80, -0.66%",
+          "src": 0
+        },
+        {
+          "n": "$66.132",
+          "dir": "up",
+          "label": "Silver spot",
+          "src": 0
+        },
+        {
+          "n": "$1,795.00",
+          "dir": "down",
+          "label": "Platinum spot",
+          "src": 0
+        },
+        {
+          "n": "$1,282.00",
+          "dir": "down",
+          "label": "Palladium spot",
+          "src": 0
+        }
+      ]
+    },
+    "changed": {
+      "lead": "Gold opens lower.",
+      "text": "Spot gold read $4,348.20 an ounce on Monday morning, $28.80 below its 18 September mark. Silver, platinum and palladium each moved by less than a dollar."
+    },
+    "means": [
+      {
+        "who": "If you buy metal this week:",
+        "text": "Gold is $28.80 cheaper than Friday's mark. The other three are effectively unchanged."
+      },
+      {
+        "who": "If you price jewellery in gold:",
+        "text": "A 0.66% move does not reprice a ticket. The overnight range was $45 an ounce."
+      },
+      {
+        "who": "What this is not:",
+        "text": "A trend. One reading against one prior mark, with no weekly direction claimed."
+      }
+    ],
+    "visual": {
+      "type": "table",
+      "cap": "Table I · The board against Friday's marks",
+      "asof": "Kitco, bid basis · 06:04 ET 21 September 2026 against the 18 September marks",
+      "cols": [
+        "Metal",
+        "18 Sep",
+        "21 Sep",
+        "Change"
+      ],
+      "rows": [
+        [
+          "Gold",
+          "4,377.00",
+          "4,348.20",
+          "-28.80"
+        ],
+        [
+          "Silver",
+          "66.127",
+          "66.132",
+          "+0.005"
+        ],
+        [
+          "Platinum",
+          "1,796.00",
+          "1,795.00",
+          "-1.00"
+        ],
+        [
+          "Palladium",
+          "1,283.00",
+          "1,282.00",
+          "-1.00"
+        ]
+      ],
+      "hi": 0,
+      "note": "<b>Basis</b> every figure is the bid on Kitco's own embedded price data, the convention Carat Capital's tape has carried since 31 August 2026. The ask at the same tick read 4,350.20 on gold, 66.382 on silver, 1,805.00 on platinum and 1,322.00 on palladium. <b>Carat Capital's arithmetic</b> the overnight range on gold is a subtraction from the board's own session high and low: 4,384.30 − 4,339.30 = 45.00. <b>Second door</b> JM Bullion's four spot pages, stamped 06:07 EDT, publish the ask: gold 4,365.06, silver 67.03, platinum 1,810.30, palladium 1,322.25, each inside the 0.02% to 0.98% band recorded against the Kitco ask on prior sessions. No divergence to disclose. <b>No market-state claim</b> the page's raw markup carries both an open and a closed tooltip pre-rendered, so which one is displayed cannot be read out of it. The live sub-second tick and the session range are the evidence the cells are not frozen."
+    },
+    "sections": [
+      {
+        "h": "Gold does all the moving",
+        "p": [
+          {
+            "lead": "One metal moved.",
+            "text": "Gold fell $28.80 an ounce, or 0.66%, against its 18 September mark. Nothing else on the board moved by more than a dollar."
+          },
+          {
+            "lead": "The range was wider.",
+            "text": "The board's session high and low on gold were $4,384.30 and $4,339.30, a range of $45.00, larger than the net move."
+          }
+        ]
+      },
+      {
+        "h": "The ask sits above the bid",
+        "p": [
+          {
+            "lead": "Two prices exist.",
+            "text": "At the same tick the ask read $4,350.20 on gold and $66.382 on silver, above the bid printed here."
+          },
+          {
+            "lead": "A second board agrees.",
+            "text": "JM Bullion's pages, stamped three minutes later, publish the ask: $4,365.06 on gold, 0.34% above Kitco's."
+          }
+        ]
+      },
+      {
+        "h": "London's last fix is Friday's",
+        "p": [
+          {
+            "lead": "The fix lags.",
+            "text": "LBMA's newest published fixes are dated 18 September, so no London benchmark exists yet for this session."
+          },
+          {
+            "lead": "Gold reads close.",
+            "text": "Friday's London PM gold fix of $4,348.15 sits five cents under Monday's screen bid, which is coincidence rather than confirmation."
+          }
+        ]
+      }
+    ],
+    "watch": [
+      {
+        "when": "22 September 2026",
+        "what": "LBMA's next London fixes, the first benchmark set after this session."
+      },
+      {
+        "when": "~20 October 2026",
+        "what": "Swiss customs monthly gold trade figures, the next dated flow reading on the metal."
+      },
+      {
+        "when": "Each 05:00 ET",
+        "what": "The tape's opening mark, against which the next session's change is measured."
+      }
+    ],
+    "depth": {
+      "reverse": "A second reading at a different hour. Spot metal is a moving number and this one is a single tick; the direction here would be contradicted by any later tick that crosses back above the 18 September mark.",
+      "built": {
+        "title": "Bid, ask and fix are three different numbers",
+        "text": "A screen bid is what a dealer will pay, a screen ask is what a dealer will sell at, and the difference between them is the spread, not a disagreement. A London fix is a third thing again: an auction-determined benchmark struck at a set hour and published once, which is why it can sit a long way from a screen price taken at another moment. Carat Capital's tape quotes the bid, and has done since 31 August 2026, so that every comparison across sessions is like for like. Comparing a fix with a screen quote, or a bid with an ask, produces a divergence that is arithmetic rather than news."
+      },
+      "method": "Kitco's board was fetched at press time and read out of the page's own embedded __NEXT_DATA__ blob rather than off the rendered page, bid quoted. The source's own tick stamps read 2026-09-21T06:04:56.9Z through 06:04:57.03Z; that stamp is the ET wall clock labelled Z, the same offset the tape recorded at its 05:00 filing. Kitco's own change fields agree with the arithmetic against the 18 September marks to the decimal on all four metals: -28.80 and -0.6580% on gold, +0.005 and +0.0076% on silver, -1.00 and -0.0557% on platinum, -1.00 and -0.0779% on palladium. All four readings differed from the 05:00 filing and all four were written back to the dated tape and to the file the dashboard renders in the same step, under the One-Price Rule; the two files were compared afterwards and match on every metal. Two of the four changed sign between those two readings, silver from -$0.112 to +$0.005 and palladium from +$1.00 to -$1.00, which is why the direction on those cells is small and not asserted as a session trend. The second door was JM Bullion's four spot-chart pages, stamped 06:07 EDT, three minutes after the Kitco tick; that source labels its own cells 'Ask' in its markup and its figures track the Kitco ask, as established on 2026-09-16. The four gaps were 0.34%, 0.98%, 0.29% and 0.02%, all inside the band recorded on prior sessions, so no divergence is disclosed and no mark was held. No market condition is claimed: the page carries both an open and a closed tooltip string pre-rendered in its raw HTML, so the displayed state cannot be read out of the bytes, and nothing here says the market was open, closed or thin. The LBMA gold PM series was fetched separately and its newest point is 2026-09-18 at 4,348.15; only that one feed was fetched and only the gold fix is printed.",
+      "prior": [
+        {
+          "date": "2026-09-18",
+          "slug": "silver-back-to-august",
+          "claim": "Silver at $66.835 returns to its 31 August level, gold up $65.00"
+        },
+        {
+          "date": "2026-09-19",
+          "slug": "silver-fixes-at-sixty-seven",
+          "claim": "LBMA's silver fix reaches $67.035, a fix and a screen bid compared not merged"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Precious metals live board, Kitco",
+          "url": "https://www.kitco.com/price/precious-metals",
+          "published": "2026-09-21T06:04:56Z"
+        },
+        {
+          "title": "Gold spot price chart, JM Bullion",
+          "url": "https://www.jmbullion.com/charts/gold-price/",
+          "published": "2026-09-21"
+        },
+        {
+          "title": "LBMA gold price PM, 18 September 2026 fix (4,348.15)",
+          "url": "https://prices.lbma.org.uk/json/gold_pm.json",
+          "published": "2026-09-18"
+        }
+      ],
+      "corrections": []
+    },
+    "next": {
+      "slug": "silver-back-to-august",
+      "why": "The last time all four metals were re-read at press time, and what moved."
+    }
+  },
+  "hong-kong-defends-the-natural": {
+    "v": 3,
+    "kicker": "Category marketing",
+    "figures": {
+      "asof": "Forum held 17 September 2026 at the Hong Kong Convention and Exhibition Centre · reported 19 September 2026",
+      "cells": [
+        {
+          "n": "5",
+          "dir": "flat",
+          "label": "Bodies at the table",
+          "q": "council, federation, Shanghai, WFDB, De Beers",
+          "src": 0
+        },
+        {
+          "n": "17 Sep",
+          "dir": "flat",
+          "label": "Date convened",
+          "src": 0
+        },
+        {
+          "n": "2024",
+          "dir": "flat",
+          "label": "Shanghai pact since",
+          "src": 0
+        },
+        {
+          "n": "0",
+          "dir": "flat",
+          "label": "Figures released",
+          "src": 0
+        }
+      ]
+    },
+    "changed": {
+      "lead": "Five bodies met in Hong Kong.",
+      "text": "The Natural Diamond Council and the Diamond Federation of Hong Kong convened a forum on rebuilding natural-diamond value. The Shanghai Diamond Exchange, the World Federation of Diamond Bourses and De Beers joined them."
+    },
+    "means": [
+      {
+        "who": "If you sell natural stones:",
+        "text": "The category's marketing bodies are coordinating the message, not the price. Nothing was announced."
+      },
+      {
+        "who": "If you watch China:",
+        "text": "The Shanghai exchange named retail partnership as its next step, extending a 2024 agreement."
+      },
+      {
+        "who": "What this is not:",
+        "text": "A supply or pricing decision. No volume, price or budget figure was released."
+      }
+    ],
+    "visual": {
+      "type": "table",
+      "cap": "Table I · Who was at the table",
+      "asof": "Organisations and roles as named in the Hong Kong Commercial Daily report of 19 September 2026",
+      "cols": [
+        "Organisation",
+        "Represented by",
+        "Role in the session"
+      ],
+      "rows": [
+        [
+          "Diamond Federation of Hong Kong",
+          "Founding chairman",
+          "Opening address, roundtable chair"
+        ],
+        [
+          "Shanghai Diamond Exchange",
+          "President",
+          "Keynote, China trading hub"
+        ],
+        [
+          "Natural Diamond Council",
+          "Amber Pepper, chief executive",
+          "Keynote, global strategy"
+        ],
+        [
+          "World Federation of Diamond Bourses",
+          "Mehul Shah, president",
+          "Keynote, global trading"
+        ],
+        [
+          "De Beers Group",
+          "Vice-president, global sightholders",
+          "Roundtable panellist"
+        ]
+      ],
+      "hi": 2,
+      "note": "<b>Names</b> the report gives the Natural Diamond Council's chief executive and the World Federation of Diamond Bourses' president in the Latin alphabet and the remaining four speakers in Chinese characters only. Roles are printed where a name is not given in a form this paper can reproduce without transliterating it. <b>Also present</b> the council's Greater China managing director and the Shanghai exchange's market development manager each gave a session; both are named in Chinese only. <b>Nothing quantified</b> no attendance count, budget, campaign reach or trade figure appears anywhere in the report, which is why the fourth key figure is a zero rather than an omitted cell."
+    },
+    "sections": [
+      {
+        "h": "Supply is the stated premise",
+        "p": [
+          {
+            "lead": "Falling supply framed it.",
+            "text": "The Natural Diamond Council's chief executive said natural-diamond supply is declining, and that buyers now decide more cautiously and with more information."
+          },
+          {
+            "lead": "The ask is education.",
+            "text": "She put the category's task as consumer education on natural origin, rarity and long-term value, rather than on marriage and status alone."
+          }
+        ]
+      },
+      {
+        "h": "China gets its own plan",
+        "p": [
+          {
+            "lead": "Three themes, two levers.",
+            "text": "The council's Greater China managing director described three communication priorities and two collaboration drivers as the 2026 plan for that market."
+          },
+          {
+            "lead": "Retail is the end.",
+            "text": "The Shanghai Diamond Exchange said its partnership with the council, running since 2024, now reaches from consumer campaigns through to shop counters."
+          }
+        ]
+      },
+      {
+        "h": "Separating natural from synthetic",
+        "p": [
+          {
+            "lead": "Bourses want a line.",
+            "text": "The World Federation of Diamond Bourses' president argued for traceability from mine to counter, and for a clear separation between natural and synthetic stones."
+          },
+          {
+            "lead": "No number was given.",
+            "text": "No participant published a volume, a price, a budget or a date, and none is reported here."
+          }
+        ]
+      }
+    ],
+    "watch": [
+      {
+        "when": "Q4 2026",
+        "what": "Any dated output from the Shanghai exchange and council agreement. None has been published."
+      },
+      {
+        "when": "Week of 26 October 2026",
+        "what": "The next lab-grown retail index edition, the counter-side reading this forum answers."
+      },
+      {
+        "when": "After 16 September 2026",
+        "what": "RAPI's next new point. The natural 1-carat index has not printed since."
+      }
+    ],
+    "depth": {
+      "reverse": "A published figure. Everything here is positioning, and a single dated number from the council or the exchange, a campaign budget, a reach count or a China sell-through figure, would move this from a messaging story to a measurable one.",
+      "built": {
+        "title": "What these five bodies each control",
+        "text": "The Natural Diamond Council is a marketing body funded by producers; it buys advertising and writes category messaging, and it does not set prices or supply. The Diamond Federation of Hong Kong is the local trade association and the host. The Shanghai Diamond Exchange is the only legal channel for diamond import into mainland China and therefore sees the volume that a marketing body does not. The World Federation of Diamond Bourses is the umbrella for the world's trading floors and writes the rules those floors trade under. De Beers sells rough to a fixed list of buyers. Only two of the five can move a number, and neither of them published one."
+      },
+      "method": "The Hong Kong Commercial Daily report was fetched directly on 21 September 2026 and read in the original Chinese, not through a syndication or a summary. Its own byline date is 2026-09-19 14:15:56 and the body's dateline is 17 September, a two-day gap between the event and the report which is stated rather than collapsed. The organisations, the speakers' roles and the session structure are all taken from that body text. No quotation is printed. The remarks in the report are rendered in Chinese, and at least two of the speakers gave them in English, so any quotation here would be a translation of a translation; the substance is paraphrased and attributed instead, which is the safer of the two under the house rule on quotes. Four of the six speakers are named only in Chinese characters; their roles are printed rather than a transliteration this paper cannot source. No second outlet carrying this event was found in a general web search, which is disclosed as a limit on the method rather than presented as exclusivity. ARCHIVE: the Natural Diamond Council and the Diamond Federation of Hong Kong - greps of the built archive returned zero hits for 'Hong Kong Diamond Federation' and 'Diamond Federation of Hong Kong', and nine hits for 'natural diamond council', each read and none concerning a Hong Kong forum. The nearest archived item is 2026-09-19, Botswana's vice-president on lab-grown and De Beers, which is a government statement at Chatham House on 17 September rather than a trade forum in Hong Kong. DIFFERENT EVENT, DIFFERENT PARTIES, SAME WEEK. NEW.",
+      "prior": [
+        {
+          "date": "2026-09-19",
+          "slug": "gaolathe-names-the-doubt",
+          "claim": "Botswana ties lab-grown's rise to doubt over the De Beers relationship"
+        },
+        {
+          "date": "2026-09-19",
+          "slug": "no-miner-ever-signed",
+          "claim": "SCS retires SCS-007, the gemstone sustainability standard no miner adopted"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Natural Diamond Council and Diamond Federation of Hong Kong explore new growth paths for the natural diamond category, Hong Kong Commercial Daily",
+          "url": "https://www.hkcd.com/hkcdweb/content/2026/09/19/content_8775978.html",
+          "published": "2026-09-19"
+        },
+        {
+          "title": "Jewellery & Gem WORLD Hong Kong, exhibition dates",
+          "url": "https://jgw.exhibitions.jewellerynet.com/",
+          "published": "2026-09-21"
+        }
+      ],
+      "corrections": []
+    },
+    "next": {
+      "slug": "the-one-carat-median-returns",
+      "why": "The lab-grown counter this category is answering, priced this morning."
+    }
+  },
+  "a-fifth-morning-at-thirty-nine-twelve": {
+    "v": 3,
+    "kicker": "Polished prices",
+    "figures": {
+      "asof": "RAPI 1.00ct, D–H / IF–VS2, newest point dated 16 September 2026 · IDEX price-driver average read 05:00 ET 21 September 2026",
+      "cells": [
+        {
+          "n": "$3,912.13",
+          "dir": "flat",
+          "label": "RAPI, 1 carat",
+          "q": "no new point since 16 September",
+          "src": 0
+        },
+        {
+          "n": "$3,051.17",
+          "dir": "flat",
+          "label": "IDEX 1ct driver",
+          "src": 1
+        },
+        {
+          "n": "16 Sep",
+          "dir": "flat",
+          "label": "RAPI's newest point",
+          "src": 0
+        },
+        {
+          "n": "7 Sep",
+          "dir": "flat",
+          "label": "Daily publication since",
+          "src": 0
+        }
+      ]
+    },
+    "changed": {
+      "lead": "The one-carat stopped moving.",
+      "text": "RapNet's one-carat index has carried $3,912.13 since 16 September, its newest published point, with no new print in the five mornings since."
+    },
+    "means": [
+      {
+        "who": "If you buy one-carat polished:",
+        "text": "The benchmark has not moved in five days. The broad counter sits 22.0% under it."
+      },
+      {
+        "who": "If you quote off RAPI:",
+        "text": "Your reference is five days old. Check the date on the point, not the day you read it."
+      },
+      {
+        "who": "What this is not:",
+        "text": "A frozen market. The index has not printed, not the same thing."
+      }
+    ],
+    "visual": {
+      "type": "table",
+      "cap": "Table I · Two one-carat benchmarks, one morning",
+      "asof": "RAPI 1.00ct D–H/IF–VS2, newest point 16 September 2026 · IDEX price-driver averages read 05:00 ET 21 September 2026",
+      "cols": [
+        "Weight",
+        "RAPI",
+        "IDEX",
+        "Gap"
+      ],
+      "rows": [
+        [
+          "0.50 carat",
+          "$1,315",
+          "$1,379",
+          "+4.8%"
+        ],
+        [
+          "1.00 carat",
+          "$3,912",
+          "$3,051",
+          "-22.0%"
+        ],
+        [
+          "3.00 carat",
+          "$18,024",
+          "$16,224",
+          "-10.0%"
+        ]
+      ],
+      "hi": 1,
+      "note": "<b>Carat Capital's arithmetic</b> the gap column is a division, not a published figure: 3,051.17 ÷ 3,912.13 = 78.0% of the RAPI level, which is 22.0% below it. The same division at half a carat gives 1,379 ÷ 1,315 = 104.9%, or 4.9% above, printed as the price list carries it at 4.8% on its own unrounded inputs. <b>They measure different things</b> RAPI averages the ten per cent lowest-priced D–H, IF–VS2, GIA-graded stones on RapNet, a floor for a narrow top specification. IDEX price drivers average a far broader spread of colour and clarity, so a gap at one carat is expected and is not a disagreement. <b>Hourly</b> IDEX states on its own page that the index updates every hour; a re-read at 06:15 ET showed the same driver at $3,055.60. The figure printed here is the 05:00 ET reading the price list carries."
+    },
+    "sections": [
+      {
+        "h": "The index went quiet",
+        "p": [
+          {
+            "lead": "Five mornings, one level.",
+            "text": "RapNet's one-carat index has carried $3,912.13 on every morning since 17 September, its source not having published a newer point."
+          },
+          {
+            "lead": "Daily was the promise.",
+            "text": "The index moved from monthly to daily publication on 7 September. It has printed no new point in the five days since 16 September."
+          }
+        ]
+      },
+      {
+        "h": "The broad counter sits lower",
+        "p": [
+          {
+            "lead": "Two numbers, one carat.",
+            "text": "IDEX's price-driver average for a one-carat round read $3,051.17, against RAPI's $3,912.13, a gap of 22.0%."
+          },
+          {
+            "lead": "The gap inverts.",
+            "text": "At half a carat the broad counter sits above the narrow one, $1,379 against $1,315, a gap of 4.8% the other way."
+          }
+        ]
+      },
+      {
+        "h": "Lab-grown moved the same week",
+        "p": [
+          {
+            "lead": "The other counter repriced.",
+            "text": "A lab-grown retail index published on 18 September reset its one-carat median to $571, while the natural benchmark stood still.",
+            "links": {
+              "reset its one-carat median to $571": "a-the-one-carat-median-returns.html"
+            }
+          }
+        ]
+      }
+    ],
+    "watch": [
+      {
+        "when": "22 September 2026",
+        "what": "RAPI's next daily point, the first test of whether daily publication resumes."
+      },
+      {
+        "when": "Week of 26 October 2026",
+        "what": "The next lab-grown retail index edition, the counter-side comparison."
+      },
+      {
+        "when": "Each 05:00 ET",
+        "what": "The tape's read of both benchmarks, dated to each source's own newest point."
+      }
+    ],
+    "depth": {
+      "reverse": "A new RAPI point. The level here is not a market judgement, it is the absence of a fresh print; one new daily point ends the story whichever way it goes.",
+      "built": {
+        "title": "Why two indices disagree by a fifth",
+        "text": "RAPI is the average asking price of the ten per cent lowest-priced stones on RapNet within a narrow band, D to H colour and IF to VS2 clarity, GIA graded. It is a floor for a top specification rather than a market mean. IDEX price drivers average a far broader spread of colour and clarity, D to K and IF to I1 at one carat, and weight each driver by its share of the market. A broad average of an inclusive band will sit below a floor for a narrow one, which is what the one-carat row shows. At half a carat the relationship inverts because the two bands overlap differently at that weight. Neither is wrong; a single diamond price does not exist."
+      },
+      "method": "RAPI's level was read from the tape's own dated files rather than from prose, and the hold was counted from entries rather than described: the mark $3,912.13 with sourceDate 2026-09-16 appears in newsroom/tape/2026-09-17.json, 09-18, 09-19, 09-20 and 09-21, five entries, which is what 'five mornings' means here. The source's own newest point is dated 16 September and has not advanced. IDEX's index page was fetched directly on 21 September and its first price driver, Round 4/4 (1.00-1.49) D-K IF-I1 at 12.06% of market, was read from the page's own table; it showed $3,055.60 at 06:15 ET against the $3,051.17 the price list carries from the 05:00 read, because the page states the index updates hourly. The 05:00 figure is printed because it is the one the paper's own record carries for today; the press-time re-read is disclosed in the table note rather than substituted. The gap column is Carat Capital's division and is printed in full in the table note so it can be checked. The 0.50 and 3.00 carat rows are carried from the price list's dual-basis table, which was refreshed from the same IDEX fetch this morning. ARCHIVE: RAPI and the one-carat polished benchmark - ours of 2026-09-07 covers the index's move to daily publication and the 0.59% gain from 8 August to 6 September; ours of 2026-09-03 covers the August monthly reading of +0.5%. This item covers 16 to 21 September 2026, a period neither of them reaches, and its subject is the absence of a new print rather than a move. SAME ENTITY, LATER AND DIFFERENT PERIOD, so ADVANCED, not a repeat.",
+      "prior": [
+        {
+          "date": "2026-09-07",
+          "slug": "the-index-turns-daily",
+          "claim": "RAPI moves to daily publication, 1-carat up 0.59% since 8 August"
+        },
+        {
+          "date": "2026-09-03",
+          "slug": "half-a-percent-after-fifteen-months",
+          "claim": "1-carat polished up 0.5% in August, the first rise in 15 months"
+        }
+      ],
+      "sources": [
+        {
+          "title": "RapNet Diamond Index (RAPI), 1.00ct, newest point 16 September 2026",
+          "url": "https://rapaport.com/diamond-price-index/",
+          "published": "2026-09-16"
+        },
+        {
+          "title": "Diamond Index price drivers, IDEX Online",
+          "url": "https://www.idexonline.com/diamond_prices_index",
+          "published": "2026-09-21"
+        },
+        {
+          "title": "The Natural Diamond Price List, Carat Capital",
+          "url": "https://caratcapital.org/diamond-prices.html",
+          "published": "2026-09-21"
+        }
+      ],
+      "corrections": []
+    },
+    "next": {
+      "slug": "the-index-turns-daily",
+      "why": "The 7 September switch to daily publication, and what it was meant to fix."
     }
   }
 }

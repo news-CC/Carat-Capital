@@ -1,5 +1,168 @@
 [
   {
+    "slug": "a-fifth-morning-at-thirty-nine-twelve",
+    "desk": "diamonds",
+    "date": "2026-09-21",
+    "kicker": "Polished prices",
+    "title": "RAPI's 1-carat holds at $3,912.13 for a fifth morning",
+    "seo_title": "RAPI 1-carat index unchanged at $3,912.13 since 16 September",
+    "dek": "The index has posted no new point since 16 September, though it moved to daily publication on 7 September. IDEX's broad one-carat driver averaged $3,051.17 on the same morning, 22.0% below it.",
+    "byline": "The Diamond Desk",
+    "minutes": 2,
+    "tags": [
+      "diamonds",
+      "polished",
+      "rapi",
+      "idex",
+      "prices"
+    ],
+    "sources": [
+      {
+        "title": "RapNet Diamond Index (RAPI), 1.00ct, newest point 16 September 2026",
+        "url": "https://rapaport.com/diamond-price-index/",
+        "published": "2026-09-16"
+      },
+      {
+        "title": "Diamond Index price drivers, IDEX Online",
+        "url": "https://www.idexonline.com/diamond_prices_index",
+        "published": "2026-09-21"
+      },
+      {
+        "title": "The Natural Diamond Price List, Carat Capital",
+        "url": "https://caratcapital.org/diamond-prices.html",
+        "published": "2026-09-21"
+      }
+    ],
+    "body": [
+      "The one-carat stopped moving. RapNet's one-carat index has carried $3,912.13 since 16 September, its newest published point, with no new print in the five mornings since.",
+      "Daily was the promise. The index moved from monthly to daily publication on 7 September. It has printed no new point in the five days since 16 September.",
+      "Two numbers, one carat. IDEX's price-driver average for a one-carat round read $3,051.17, against RAPI's $3,912.13, a gap of 22.0%. The division is 3,051.17 over 3,912.13, or 78.0% of the RAPI level.",
+      "The gap inverts. At half a carat the broad counter sits above the narrow one, $1,379 against $1,315, a gap of 4.8% the other way.",
+      "The other counter repriced. A lab-grown retail index published on 18 September reset its one-carat median to $571, while the natural benchmark stood still.",
+      "The desk's view: If you buy one-carat polished: the benchmark has not moved in five days and the broad counter sits 22.0% under it. If you quote off RAPI: your reference is five days old, so check the date on the point rather than the day you read it. What this is not: a frozen market. The index has not printed, which is not the same thing."
+    ]
+  },
+  {
+    "slug": "hong-kong-defends-the-natural",
+    "desk": "diamonds",
+    "date": "2026-09-21",
+    "kicker": "Category marketing",
+    "title": "De Beers and Shanghai's bourse meet on natural-diamond value",
+    "seo_title": "Natural Diamond Council convenes Hong Kong forum with De Beers and WFDB",
+    "dek": "The Natural Diamond Council and the Diamond Federation of Hong Kong convened the session on 17 September, during Jewellery & Gem World. The World Federation of Diamond Bourses and De Beers sat on the panel; no figures were released.",
+    "byline": "The Diamond Desk",
+    "minutes": 2,
+    "tags": [
+      "diamonds",
+      "hong-kong",
+      "china",
+      "de-beers",
+      "marketing"
+    ],
+    "sources": [
+      {
+        "title": "Natural Diamond Council and Diamond Federation of Hong Kong explore new growth paths for the natural diamond category, Hong Kong Commercial Daily",
+        "url": "https://www.hkcd.com/hkcdweb/content/2026/09/19/content_8775978.html",
+        "published": "2026-09-19"
+      },
+      {
+        "title": "Jewellery & Gem WORLD Hong Kong, exhibition dates",
+        "url": "https://jgw.exhibitions.jewellerynet.com/",
+        "published": "2026-09-21"
+      }
+    ],
+    "body": [
+      "Five bodies met in Hong Kong. The Natural Diamond Council and the Diamond Federation of Hong Kong convened a forum on rebuilding natural-diamond value. The Shanghai Diamond Exchange, the World Federation of Diamond Bourses and De Beers joined them.",
+      "Falling supply framed it. The council's chief executive said natural-diamond supply is declining, and that buyers now decide more cautiously and with more information.",
+      "Three themes, two levers. The council's Greater China managing director described three communication priorities and two collaboration drivers as the 2026 plan for that market.",
+      "Retail is the end. The Shanghai Diamond Exchange said its partnership with the council, running since 2024, now reaches from consumer campaigns through to shop counters.",
+      "Bourses want a line. The World Federation of Diamond Bourses' president argued for traceability from mine to counter, and for a clear separation between natural and synthetic stones. No participant published a volume, a price, a budget or a date.",
+      "The desk's view: If you sell natural stones: the category's marketing bodies are coordinating the message, not the price, and nothing was announced. If you watch China: the Shanghai exchange named retail partnership as its next step, extending a 2024 agreement. What this is not: a supply or pricing decision. No volume, price or budget figure was released."
+    ]
+  },
+  {
+    "slug": "twenty-eight-eighty-off-gold",
+    "desk": "gold-metals",
+    "date": "2026-09-21",
+    "kicker": "Metals",
+    "title": "Gold opens the week $28.80 lower at $4,348.20 an ounce",
+    "seo_title": "Gold opens the week down $28.80 at $4,348.20",
+    "dek": "Silver added half a cent, platinum lost a dollar and palladium lost a dollar. The board's overnight range on gold ran from $4,339.30 to $4,384.30, a swing of $45.",
+    "byline": "The Metals Desk",
+    "minutes": 2,
+    "tags": [
+      "gold",
+      "silver",
+      "platinum",
+      "palladium",
+      "prices"
+    ],
+    "sources": [
+      {
+        "title": "Precious metals live board, Kitco",
+        "url": "https://www.kitco.com/price/precious-metals",
+        "published": "2026-09-21T06:04:56Z"
+      },
+      {
+        "title": "Gold spot price chart, JM Bullion",
+        "url": "https://www.jmbullion.com/charts/gold-price/",
+        "published": "2026-09-21"
+      },
+      {
+        "title": "LBMA gold price PM, 18 September 2026 fix (4,348.15)",
+        "url": "https://prices.lbma.org.uk/json/gold_pm.json",
+        "published": "2026-09-18"
+      }
+    ],
+    "body": [
+      "Gold opens lower. Spot gold read $4,348.20 an ounce on Monday morning, $28.80 below its 18 September mark. Silver, platinum and palladium each moved by less than a dollar.",
+      "One metal moved. Gold fell $28.80 an ounce, or 0.66%, against its 18 September mark. Nothing else on the board moved by more than a dollar.",
+      "The range was wider. The board's session high and low on gold were $4,384.30 and $4,339.30, a range of $45.00, larger than the net move.",
+      "Two prices exist. At the same tick the ask read $4,350.20 on gold and $66.382 on silver, above the bid printed here. JM Bullion's pages, stamped three minutes later, publish the ask at $4,365.06 on gold, 0.34% above Kitco's.",
+      "The fix lags. LBMA's newest published fixes are dated 18 September, so no London benchmark exists yet for this session. Friday's London PM gold fix of $4,348.15 sits five cents under Monday's screen bid.",
+      "The desk's view: If you buy metal this week: gold is $28.80 cheaper than Friday's mark and the other three are effectively unchanged. If you price jewellery in gold: a 0.66% move does not reprice a ticket, and the overnight range was $45 an ounce. What this is not: a trend. One reading against one prior mark, with no weekly direction claimed."
+    ]
+  },
+  {
+    "slug": "the-one-carat-median-returns",
+    "desk": "retail-tech",
+    "date": "2026-09-21",
+    "kicker": "Lab-grown prices",
+    "title": "Rings.com puts the lab-grown 1-carat median back at $571",
+    "seo_title": "Lab-grown 1-carat market median returns at $571",
+    "dek": "The September edition read 251,098 listings at seven US retailers on 17 September. Ritani raised its one-carat asking median 26% while Brilliant Earth cut its 1.5-carat cell 32%.",
+    "byline": "The Retail Desk",
+    "minutes": 3,
+    "tags": [
+      "lab-grown",
+      "diamonds",
+      "retail",
+      "prices",
+      "united-states"
+    ],
+    "sources": [
+      {
+        "title": "Lab-Grown Diamond Price Index, September 2026 edition, Rings.com",
+        "url": "https://www.rings.com/pages/lab-grown-diamond-price-index",
+        "published": "2026-09-18"
+      },
+      {
+        "title": "The Lab-Grown Diamond Price List, Carat Capital",
+        "url": "https://caratcapital.org/lab-grown-diamond-prices.html",
+        "published": "2026-09-21"
+      }
+    ],
+    "body": [
+      "The median is published again. Rings.com's September index puts the one-carat lab-grown market median at $571 a carat. It is the first one-carat median the index has published since June.",
+      "Ritani reversed course. Its one-carat median rose from $223 to $281 a carat, up 26%, the opposite direction from August's cut across the same cells.",
+      "Brilliant Earth cut. Its 1.5-carat median fell 32%, from $1,151 to $784 a carat, the largest single-cell move on the panel this edition.",
+      "The rule is composition. The index withholds a blended median when the contributing retailers change, so the figure measures prices rather than who is in the panel. One carat passes the test this month; 1.5 and 2 carats do not.",
+      "The basis matters. Every figure is a publicly visible list price at the moment of collection, taken from 251,098 listings across seven retailers on 17 September.",
+      "The desk's view: If you price lab-grown at retail: four US counters now quote between $281 and $796 for the same one-carat spec. If you restock lab-grown goods: Ritani reversed August's cuts at all three weights and Brilliant Earth moved the other way. What this is not: a wholesale price. These are listed asking prices, not transactions."
+    ],
+    "lead": true
+  },
+  {
     "slug": "no-miner-ever-signed",
     "desk": "gemstones",
     "date": "2026-09-19",
@@ -14163,7 +14326,6 @@
     "slug": "icbc-margin-at-one-ninety",
     "desk": "gold-metals",
     "date": "2026-09-20",
-    "lead": true,
     "kicker": "China gold policy",
     "title": "ICBC sets gold margin at 190%, forced-sale line at 170%",
     "seo_title": "ICBC sets gold margin at 190% as more than 10 Chinese banks exit retail gold",
@@ -14361,7 +14523,7 @@
     "kicker": "Market infrastructure",
     "title": "DGCX hands its trading and clearing engine to TCS",
     "seo_title": "DGCX appoints TCS to replace its trading, clearing and surveillance systems",
-    "dek": "Tata Consultancy Services will supply BaNCS for central counterparty clearing and trading, and Quartz for surveillance and connectivity. TCS shares rose 5.19% to ₹2,315 in intraday trade on 15 September.",
+    "dek": "Tata Consultancy Services will supply BaNCS for central counterparty clearing and trading, and Quartz for surveillance and connectivity. TCS shares rose 5.19% to ₹2,315 on the National Stock Exchange on 15 September.",
     "byline": "The Metals Desk",
     "minutes": 2,
     "tags": [
@@ -14393,7 +14555,7 @@
       "The scope is broad. DGCX lists derivatives across 4 asset classes, energy, currencies, bullion and equities, and the replacement covers trading, clearing and surveillance for all of them.",
       "Crypto is named. The exchange says the new foundation is meant to carry new asset classes, including crypto-related products.",
       "The value is absent. Neither DGCX nor Tata Consultancy Services published a contract value, a term length or a cutover date.",
-      "The market priced it. TCS shares rose 5.19% to ₹2,315 on the National Stock Exchange on 15 September, on an intraday figure carried by a single outlet.",
+      "The market priced it. TCS shares rose 5.19% to ₹2,315 on the National Stock Exchange on 15 September, on one outlet's figure, which does not say where in the session the print fell.",
       "The desk's view: If you clear on DGCX: the counterparty system is being replaced and no cutover date has been published. If you hold TCS: the market priced the win at 5.19% on the day, on one outlet's reading. What this is not: a contract value. Neither side published what the deal is worth."
     ]
   }

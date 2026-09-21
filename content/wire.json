@@ -1,36 +1,36 @@
 {
-  "date_line": "Sunday, September 20, 2026 | Vol. I - No. 067",
-  "edition": "No. 067",
+  "date_line": "Monday, September 21, 2026 | Vol. I - No. 068",
+  "edition": "No. 068",
   "items": [
     {
-      "b": "ICBC SETS GOLD MARGIN AT 190%, FORCED-SALE LINE AT 170%",
-      "t": "More than 10 Chinese banks have shut or tightened personal access to Shanghai Gold Exchange metals trading this year. The count stood at 6 on 9 September; Pudong Development closes its channel on 25 September."
+      "b": "RINGS.COM PUTS THE LAB-GROWN 1-CARAT MEDIAN BACK AT $571",
+      "t": "The September edition read 251,098 listings at seven US retailers on 17 September. Ritani raised its one-carat asking median 26% to $281 while Brilliant Earth cut its 1.5-carat cell 32%."
     },
     {
-      "b": "300KG OF GOLD CLEARS SANYA AIRPORT FROM SINGAPORE",
-      "t": "The consignment transited Guangzhou and moved into the Shanghai Gold Exchange's Sanya warehouse. Customs ran advance declaration, air-to-air transit and apron collection as one procedure, which Sanya Daily reports as a first at the port."
+      "b": "GOLD OPENS THE WEEK $28.80 LOWER AT $4,348.20 AN OUNCE",
+      "t": "Silver added half a cent to $66.132, platinum lost a dollar to $1,795.00 and palladium lost a dollar to $1,282.00. Gold's overnight range ran from $4,339.30 to $4,384.30."
     },
     {
-      "b": "DGFT DROPS THE RCMC REQUIREMENT ON EXPORTS UNDER ₹3 LAKH",
-      "t": "Notification 36/2026-27 amends paragraph 2.57 of the Foreign Trade Policy 2023, effective 15 September. Consignments up to USD 3,000 were 43% of India's shipping bills and 0.86% of export value from 2021-22 to 2025-26."
+      "b": "RAPI'S 1-CARAT HOLDS AT $3,912.13 FOR A FIFTH MORNING",
+      "t": "The index has posted no new point since 16 September, though it moved to daily publication on 7 September. IDEX's broad one-carat driver averaged $3,051.17, 22.0% below it."
     },
     {
-      "b": "INDIA'S POLISHED EXPORTS FALL 4.93% IN VALUE, RISE 3.23% IN CARATS",
-      "t": "Total gem and jewellery exports reached $2.30 billion in August, up 3.14% year on year on the council's figures. Studded gold jewellery added 51.22% to $642.85 million."
+      "b": "DE BEERS AND SHANGHAI'S BOURSE MEET ON NATURAL-DIAMOND VALUE",
+      "t": "The Natural Diamond Council and the Diamond Federation of Hong Kong convened the session on 17 September during Jewellery & Gem World. No figures were released."
     },
     {
       "b": "DGCX HANDS ITS TRADING AND CLEARING ENGINE TO TCS",
-      "t": "Tata Consultancy Services will supply BaNCS for central counterparty clearing and trading, and Quartz for surveillance and connectivity. TCS shares rose 5.19% to ₹2,315 in intraday trade on 15 September."
+      "t": "Tata Consultancy Services will supply BaNCS for central counterparty clearing and trading, and Quartz for surveillance and connectivity. TCS shares rose 5.19% to ₹2,315 on the National Stock Exchange on 15 September."
     }
   ],
-  "tape_ts": "20 Sep 2026",
+  "tape_ts": "21 Sep 2026",
   "tape": [
     {
       "name": "Gold / oz",
       "code": "XAU",
-      "px": "4,377.00",
-      "chg": "▲ +0.03%",
-      "dir": "up",
+      "px": "4,348.20",
+      "chg": "▼ -0.66%",
+      "dir": "down",
       "pts": [
         4,
         7,
@@ -85,8 +85,8 @@
     {
       "name": "Platinum / oz",
       "code": "XPT",
-      "px": "1,796.00",
-      "chg": "▼ -0.61%",
+      "px": "1,795.00",
+      "chg": "▼ -0.06%",
       "dir": "down",
       "pts": [
         9,
@@ -104,9 +104,9 @@
     {
       "name": "Silver / oz",
       "code": "XAG",
-      "px": "66.127",
-      "chg": "▼ -1.06%",
-      "dir": "down",
+      "px": "66.132",
+      "chg": "▲ +0.01%",
+      "dir": "up",
       "pts": [
         8,
         10,
