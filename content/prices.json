@@ -3,17 +3,17 @@
   "title": "The Natural Diamond Price List",
   "kicker": "Every shape, every weight, trade and retail side by side",
   "standfirst": "What a natural diamond actually costs — the wholesale benchmark the trade pays, the asking price the counter shows, and the spread between them, across ten shapes and eleven weight bands. Every figure is dated, every source is named, and every number we modelled rather than observed says so.",
-  "as_of": "2026-09-14",
+  "as_of": "2026-09-21",
   "currency": "USD",
   "plate_series": "CC/2026",
   "headline": {
     "spec": "1.00 ct round brilliant, G colour, VS1 clarity, GIA",
-    "trade_ct": 3050,
+    "trade_ct": 3051,
     "trade_label": "IDEX price-driver average",
-    "trade_date": "2026-09-14",
-    "rapi_ct": 3904,
+    "trade_date": "2026-09-21",
+    "rapi_ct": 3912,
     "rapi_label": "RAPI, D–H / IF–VS2",
-    "rapi_date": "2026-09-14",
+    "rapi_date": "2026-09-16",
     "retail_ct": 5454,
     "retail_label": "median of five online retailers",
     "retail_low": 3472,
@@ -21,7 +21,7 @@
     "spread_pct": 79,
     "rap_list_ct": 8600,
     "vs_list_pct": -37,
-    "note": "The counter price is 79% above the trade benchmark and still about 37% below Rapaport list. Both things are true at once: the retail margin is real, and the list itself has stopped being the price anyone pays. Trade benchmark dated 2026-09-14; retail figure dated 2026-07-30, James Allen dropped from the retailer set — see the correction note.",
+    "note": "The counter price is 79% above the trade benchmark and still about 37% below Rapaport list. Both things are true at once: the retail margin is real, and the list itself has stopped being the price anyone pays. Trade benchmark dated 2026-09-21 (IDEX); RAPI's own newest point is dated 2026-09-16, the index having moved from monthly to daily publication on 2026-09-07 — dated to the point, not to today. Retail figure dated 2026-07-30, James Allen dropped from the retailer set — see the correction note.",
     "retail_as_of": "2026-07-30"
   },
   "weights": {
@@ -37,24 +37,24 @@
         "retail_stone": 606,
         "spread": 110,
         "basis": "modelled",
-        "src": "RAPI 2026-09-14"
+        "src": "RAPI 2026-09-16"
       },
       {
         "w": "0.50 ct",
         "wt": 0.5,
-        "trade_ct": 1390,
-        "trade_stone": 695,
+        "trade_ct": 1379,
+        "trade_stone": 690,
         "retail_ct": 2781,
         "retail_stone": 1390,
-        "spread": 100,
+        "spread": 102,
         "basis": "modelled",
         "src": "IDEX 0.50–0.69"
       },
       {
         "w": "0.70 ct",
         "wt": 0.7,
-        "trade_ct": 1532,
-        "trade_stone": 1072,
+        "trade_ct": 1534,
+        "trade_stone": 1074,
         "retail_ct": 2941,
         "retail_stone": 2059,
         "spread": 92,
@@ -64,8 +64,8 @@
       {
         "w": "0.90 ct",
         "wt": 0.9,
-        "trade_ct": 1912,
-        "trade_stone": 1721,
+        "trade_ct": 1915,
+        "trade_stone": 1724,
         "retail_ct": 3595,
         "retail_stone": 3236,
         "spread": 88,
@@ -75,8 +75,8 @@
       {
         "w": "1.00 ct",
         "wt": 1.0,
-        "trade_ct": 3050,
-        "trade_stone": 3050,
+        "trade_ct": 3051,
+        "trade_stone": 3051,
         "retail_ct": 5454,
         "retail_stone": 5454,
         "spread": 79,
@@ -86,8 +86,8 @@
       {
         "w": "1.50 ct",
         "wt": 1.5,
-        "trade_ct": 4574,
-        "trade_stone": 6860,
+        "trade_ct": 4572,
+        "trade_stone": 6858,
         "retail_ct": 7866,
         "retail_stone": 11800,
         "spread": 72,
@@ -97,8 +97,8 @@
       {
         "w": "2.00 ct",
         "wt": 2.0,
-        "trade_ct": 8784,
-        "trade_stone": 17568,
+        "trade_ct": 8775,
+        "trade_stone": 17550,
         "retail_ct": 14055,
         "retail_stone": 28109,
         "spread": 60,
@@ -108,8 +108,8 @@
       {
         "w": "3.00 ct",
         "wt": 3.0,
-        "trade_ct": 16210,
-        "trade_stone": 48630,
+        "trade_ct": 16224,
+        "trade_stone": 48672,
         "retail_ct": 23504,
         "retail_stone": 70513,
         "spread": 45,
@@ -130,8 +130,8 @@
       {
         "w": "5.00 ct",
         "wt": 5.0,
-        "trade_ct": 21507,
-        "trade_stone": 107537,
+        "trade_ct": 21572,
+        "trade_stone": 107860,
         "retail_ct": 29035,
         "retail_stone": 145175,
         "spread": 35,
@@ -150,7 +150,7 @@
         "src": "StoneAlgo live retail"
       }
     ],
-    "withheld_note": "The 4.00–4.99 ct band is the one figure on this page we decline to print. IDEX carries it at $32,660 a carat — above the five-carat band at $21,099 — on 0.32% of the market. A four-carat stone does not cost more per carat than a five-carat stone. The band is too thin to mean anything, so it stays blank rather than being smoothed into something that looks like a price.",
+    "withheld_note": "The 4.00–4.99 ct band is the one figure on this page we decline to print. IDEX carries it at $32,280 a carat — above the five-carat band at $21,572 — on 0.32% of the market. A four-carat stone does not cost more per carat than a five-carat stone. The band is too thin to mean anything, so it stays blank rather than being smoothed into something that looks like a price.",
     "ten_note": "No public source publishes a wholesale per-carat figure for ten carats. IDEX carries no driver at that weight, RAPI publishes no level, and the independent Antwerp grids stop at six. The ten-carat line is a live retail asking average and is marked as such."
   },
   "dual_basis": {
@@ -165,21 +165,21 @@
       },
       {
         "w": "0.50 ct",
-        "rapi": 1312,
-        "idex": 1390,
-        "gap": "+5.9%"
+        "rapi": 1315,
+        "idex": 1379,
+        "gap": "+4.8%"
       },
       {
         "w": "1.00 ct",
-        "rapi": 3904,
-        "idex": 3050,
-        "gap": "-21.9%"
+        "rapi": 3912,
+        "idex": 3051,
+        "gap": "-22.0%"
       },
       {
         "w": "3.00 ct",
-        "rapi": 17908,
-        "idex": 16210,
-        "gap": "-9.5%"
+        "rapi": 18024,
+        "idex": 16224,
+        "gap": "-10.0%"
       }
     ],
     "note": "RAPI is the average asking price of the ten per cent lowest-priced D–H, IF–VS2, GIA-graded stones on RapNet. It is a floor for a narrow top specification, not a market mean. IDEX price drivers average a far broader spread of colour and clarity. At one carat the broad market sits 22% below the narrow top spec, which is what you would expect — and a useful reminder that a single 'diamond price' does not exist."
@@ -595,7 +595,7 @@
     "rows": [
       {
         "h": "What is observed",
-        "b": "The trade per-carat column at 0.50, 0.70, 0.90, 1.00, 1.50, 2.00, 3.00 and 5.00 carats is read directly from IDEX price drivers on 30 July 2026. The 0.30 ct figure is RAPI at 1 July 2026. The one-carat retail figure is the median of five retailers priced on 30 July 2026 (James Allen was dropped 2026-09-15, folded into Blue Nile). The shape table is a live sample of 169,324 asking prices. The colour and clarity indices are published aggregates at 31 December 2025."
+        "b": "The trade per-carat column at 0.50, 0.70, 0.90, 1.00, 1.50, 2.00, 3.00 and 5.00 carats is read directly from IDEX price drivers on 2026-09-21. The 0.30 ct figure is RAPI at its own newest published point, 2026-09-16. The one-carat retail figure is the median of five retailers priced on 30 July 2026 (James Allen was dropped 2026-09-15, folded into Blue Nile). The shape table is a live sample of 169,324 asking prices. The colour and clarity indices are published aggregates at 31 December 2025."
       },
       {
         "h": "What is modelled",
@@ -618,7 +618,7 @@
   "sources": [
     {
       "n": "Rapaport — RAPI daily index levels",
-      "d": "2026-09-14",
+      "d": "2026-09-16",
       "u": "rapaport.com"
     },
     {
@@ -633,7 +633,7 @@
     },
     {
       "n": "IDEX Online — polished price drivers by weight band",
-      "d": "2026-09-14",
+      "d": "2026-09-21",
       "u": "idexonline.com"
     },
     {
@@ -711,6 +711,6 @@
     }
   ],
   "retail_as_of": "2026-07-30",
-  "date_note": "This page now carries two ages, not one. The dual-basis trade headline above (trade_ct, rapi_ct) refreshes weekly from IDEX and RAPI and is dated 2026-09-14. The retail, retailers and shapes figures below are dated 2026-07-30 and move only when we can re-drive each retailer's live filter, which not all of them allow from a static fetch — see the retail_as_of field on each section. Chief's ruling, 2026-09-09: a composite page carries one date per section, never a single page-wide date holding every section hostage to the slowest one.",
-  "date_label": "14 Sep 2026 · trade headline / 30 Jul 2026 · retail sections"
+  "date_note": "This page now carries two ages, not one. The dual-basis trade headline above (trade_ct, rapi_ct) refreshes weekly from IDEX and RAPI and is dated 2026-09-21 (IDEX) / 2026-09-16 (RAPI's own newest point; the index publishes daily as of 2026-09-07 but lags a few sessions). The retail, retailers and shapes figures below are dated 2026-07-30 and move only when we can re-drive each retailer's live filter, which not all of them allow from a static fetch — see the retail_as_of field on each section. Chief's ruling, 2026-09-09: a composite page carries one date per section, never a single page-wide date holding every section hostage to the slowest one.",
+  "date_label": "21 Sep 2026 · trade headline / 30 Jul 2026 · retail sections"
 }

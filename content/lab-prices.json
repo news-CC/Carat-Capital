@@ -4,7 +4,7 @@
  "title": "The Lab-Grown Diamond Price List",
  "kicker": "What a made diamond costs when nothing about it is scarce",
  "standfirst": "Lab-grown prices do not behave like natural ones. The per-carat line is flat, the fancy-shape discount has inverted, and the retail spread is wider than anything on the natural counter. Every figure below is dated, sourced, and marked with the basis it stands on.",
- "as_of": "15 September 2026 (dual-source legs) / 30 July 2026 (page-wide, superseded — see date_note)",
+ "as_of": "21 September 2026 (dual-source legs) / 30 July 2026 (page-wide, superseded — see date_note)",
  "currency": "USD",
  "headline": {
   "spec": "1.00 ct round brilliant, E colour, VS1 clarity, IGI",
@@ -13,14 +13,14 @@
   "trade_lo": 350,
   "trade_hi": 600,
   "trade_mid": 475,
-  "retail_low": 223,
-  "retail_high": 856,
-  "spread_x": "3.84×",
+  "retail_low": 281,
+  "retail_high": 796,
+  "spread_x": "2.83×",
   "nat_ct": 4581,
   "vs_nat_pct": -88.1,
   "multiple": "8.4×",
-  "note": "A one-carat round lab-grown diamond asks $545 per carat against $4,581 for its natural counterpart (StoneAlgo shape sample, 25 Jul 2026) — 88.1% less, a multiple of 8.4. The published wholesale band for the same stone runs $350 to $600 for CVD material (Lepdo, re-confirmed unchanged 2026-09-15). The cheapest tracked retail asking price, $223 at Ritani, sits below the middle of that band. The most expensive, $856 at Brilliant Earth, is 3.8 times the cheapest for an identical specification — both figures re-knocked 2026-09-15 against Rings.com's 30 August 2026 edition.",
-  "trade_date": "2026-09-15"
+  "note": "A one-carat round lab-grown diamond asks $545 per carat against $4,581 for its natural counterpart (StoneAlgo shape sample, 25 Jul 2026) — 88.1% less, a multiple of 8.4. The published wholesale band for the same stone runs $350 to $600 for CVD material (Lepdo, re-confirmed byte-identical and unchanged 2026-09-21). The cheapest tracked retail asking price, $281 at Ritani, sits below the middle of that band. The most expensive, $796 at Brilliant Earth, is 2.8 times the cheapest for an identical specification — both figures re-knocked 2026-09-21 against Rings.com's fresh 18 September 2026 edition, which supersedes the 30 August edition entirely (251,098 listings across seven retailers, collected 17 September 2026). That edition also re-published a 1ct Market Median for the first time since June: $571, across the four retailers with continuous 1ct coverage.",
+  "trade_date": "2026-09-21"
  },
  "weights": {
   "sub": "Natural diamonds get more expensive per carat as they get bigger, because big rough is rare. Lab-grown diamonds do not: the per-carat price is flat from half a carat to five, moving between $514 and $631 across the whole ladder. Everything that follows is a consequence of that one line.",
@@ -327,36 +327,36 @@
   "rows": [
    {
     "w": "1.00 ct",
-    "ritani": 223,
+    "ritani": 281,
     "clean": 500,
-    "clarity": 628,
-    "be": 856,
-    "median": null,
-    "x": 3.84
+    "clarity": 642,
+    "be": 796,
+    "median": 571,
+    "x": 2.83
    },
    {
     "w": "1.50 ct",
-    "ritani": 318,
+    "ritani": 381,
     "clean": 972,
-    "clarity": 1037,
-    "be": 1727,
-    "median": 1005,
-    "x": 5.43
+    "clarity": 1067,
+    "be": 1176,
+    "median": null,
+    "x": 3.09
    },
    {
     "w": "2.00 ct",
-    "ritani": 496,
-    "clean": 1318,
-    "clarity": 1388,
-    "be": 2730,
+    "ritani": 584,
+    "clean": 1356,
+    "clarity": 1472,
+    "be": 2756,
     "median": null,
-    "x": 5.5
+    "x": 4.72
    }
   ],
   "spec": "E colour, VS1 clarity, round brilliant, Excellent cut, IGI-certified — held constant across all seven counters",
-  "note": "Same stone, same paper, four counters. At one carat the most expensive asking price is 3.84 times the cheapest. At two carats it is 5.5 times. On the natural counter the equivalent one-carat spread is 2.19 times (five counters, after the 2026-09-15 James Allen correction). There is no published benchmark list for lab-grown, so there is nothing anchoring the top of the range — the spread is what a market looks like when nobody agrees what the thing is worth. Corrected 15 September 2026: the fourth counter in this table read Clean Origin and now reads Grown Brilliance. Rings.com's August 2026 edition dropped Clean Origin's 1.00 ct and 1.50 ct listings and put Grown Brilliance in their place, so the figures shown were already Grown Brilliance's while the column still carried the old name. The figures as published were correct; the label was not. Clean Origin still lists at 2.00 ct only, at $556, which this table's four-counter schema does not carry.",
-  "floor": "The cheapest tracked asking price at one carat, $223, sits below the midpoint of the published CVD wholesale band for the same specification ($350–600). Either the wholesale guide is stale, or that counter is selling at or below trade. We print both figures and let the gap stand.",
-  "src": "Rings.com lab-grown price index, published 30 Aug 2026, data collected 29 Aug 2026, n=208,903 listings — re-knocked 2026-09-15, still the latest edition"
+  "note": "Same stone, same paper, four counters. At one carat the most expensive asking price is 2.83 times the cheapest, down from 3.84 in the August edition — Ritani raised its 1ct median 26% this edition ($223 to $281), reversing an August decline, while Brilliant Earth's 1ct median eased 7%. At two carats the spread widened to 4.72 times. On the natural counter the equivalent one-carat spread is 2.19 times (five counters, after the 2026-09-15 James Allen correction). Rings.com also re-published a 1ct Market Median this edition ($571, across Ritani/Grown Brilliance/With Clarity/Brilliant Earth) for the first time since June — the 1.5ct and 2ct medians remain withheld under the source's own publication rule (a cell's median only prints when every contributing retailer also had a published figure the prior edition). Clean Origin returned to the panel with n=20 (still below the 30-listing minimum at 1ct; it prints at 1.5ct/2ct, $263/$279 per carat, which this table's four-counter schema does not carry).",
+  "floor": "The cheapest tracked asking price at one carat, $281, sits below the midpoint of the published CVD wholesale band for the same specification ($350–600). Either the wholesale guide is stale, or that counter is selling at or below trade. We print both figures and let the gap stand.",
+  "src": "Rings.com lab-grown price index, published 18 Sep 2026, data collected 17 Sep 2026, n=251,098 listings across seven retailers — fresh edition, supersedes 30 Aug 2026"
  },
  "index": {
   "rows": [
@@ -544,13 +544,13 @@
    "u": "stonealgo.com"
   },
   {
-   "n": "Rings.com lab-grown price index, n=208,903",
-   "d": "30 Aug 2026 (re-knocked 2026-09-15, still latest edition)",
+   "n": "Rings.com lab-grown price index, n=251,098",
+   "d": "18 Sep 2026 (fresh edition, collected 17 Sep 2026, re-knocked 2026-09-21)",
    "u": "rings.com"
   },
   {
    "n": "Lepdo wholesale price guide",
-   "d": "24 Jul 2026 (re-knocked 2026-09-15, byte-identical, unchanged)",
+   "d": "24 Jul 2026 (re-knocked 2026-09-21, byte-identical, unchanged)",
    "u": "lepdodiamonds.com"
   },
   {
@@ -624,6 +624,6 @@
    "why": "publishes no lab-grown list. Nothing to cite and, unlike the natural page, nothing to withhold."
   }
  ],
- "date_note": "Per the chief's 2026-09-09 ruling, this page now carries dates by section rather than one page-wide date. The dispersion table (Ritani/Grown Brilliance/With Clarity/Brilliant Earth) and the wholesale CVD/HPHT bands were both re-knocked 2026-09-15: Rings.com's August 2026 edition (published 2026-08-30, data collected 2026-08-29) is still the latest — its next edition is due the week of 2026-09-28 — and Lepdo's wholesale guide is unchanged, byte-for-byte, since dateModified 2026-07-24. The shapes table, colour/clarity notes and index/resale/context tables were not re-fetched this run and remain dated to their own sources below.",
- "date_label": "15 Sep 2026 · trade legs / 30 Jul 2026 · retail sections"
+ "date_note": "Per the chief's 2026-09-09 ruling, this page now carries dates by section rather than one page-wide date. The dispersion table and the wholesale CVD/HPHT bands were both re-knocked 2026-09-21: Rings.com published a fresh September 2026 edition on 2026-09-18 (data collected 2026-09-17, 251,098 listings, seven retailers) that supersedes the 30 August edition entirely — its next edition is due the week of 2026-10-26 — and Lepdo's wholesale guide is unchanged, byte-for-byte, since dateModified 2026-07-24. The shapes table, colour/clarity notes and index/resale/context tables were not re-fetched this run and remain dated to their own sources below.",
+ "date_label": "21 Sep 2026 · trade legs / 30 Jul 2026 · retail sections"
 }
