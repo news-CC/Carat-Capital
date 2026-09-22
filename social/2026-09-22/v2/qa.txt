@@ -1,0 +1,5 @@
+theme: emerald-platinum
+POST 1 imports-fell-etfs-added-anyway: 6 slides, words/slide [20, 30, 23, 29, 31, 16] (total 149), largest 155,361 bytes
+   word law: clean
+POST 2 first-gem-export-fall-in-five-months: 5 slides, words/slide [21, 23, 29, 38, 15] (total 126), largest 175,095 bytes
+   word law: clean
