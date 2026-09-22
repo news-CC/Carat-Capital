@@ -1,124 +1,124 @@
 {
-  "date_line": "Monday, September 21, 2026 | Vol. I - No. 068",
-  "edition": "No. 068",
-  "items": [
-    {
-      "b": "RINGS.COM PUTS THE LAB-GROWN 1-CARAT MEDIAN BACK AT $571",
-      "t": "The September edition read 251,098 listings at seven US retailers on 17 September. Ritani raised its one-carat asking median 26% to $281 while Brilliant Earth cut its 1.5-carat cell 32%."
-    },
-    {
-      "b": "GOLD OPENS THE WEEK $28.80 LOWER AT $4,348.20 AN OUNCE",
-      "t": "Silver added half a cent to $66.132, platinum lost a dollar to $1,795.00 and palladium lost a dollar to $1,282.00. Gold's overnight range ran from $4,339.30 to $4,384.30."
-    },
-    {
-      "b": "RAPI'S 1-CARAT HOLDS AT $3,912.13 FOR A FIFTH MORNING",
-      "t": "The index has posted no new point since 16 September, though it moved to daily publication on 7 September. IDEX's broad one-carat driver averaged $3,051.17, 22.0% below it."
-    },
-    {
-      "b": "DE BEERS AND SHANGHAI'S BOURSE MEET ON NATURAL-DIAMOND VALUE",
-      "t": "The Natural Diamond Council and the Diamond Federation of Hong Kong convened the session on 17 September during Jewellery & Gem World. No figures were released."
-    },
-    {
-      "b": "DGCX HANDS ITS TRADING AND CLEARING ENGINE TO TCS",
-      "t": "Tata Consultancy Services will supply BaNCS for central counterparty clearing and trading, and Quartz for surveillance and connectivity. TCS shares rose 5.19% to ₹2,315 on the National Stock Exchange on 15 September."
-    }
-  ],
-  "tape_ts": "21 Sep 2026",
-  "tape": [
-    {
-      "name": "Gold / oz",
-      "code": "XAU",
-      "px": "4,348.20",
-      "chg": "▼ -0.66%",
-      "dir": "down",
-      "pts": [
-        4,
-        7,
-        8,
-        9,
-        14,
-        14,
-        24,
-        16,
-        19,
-        11
-      ]
-    },
-    {
-      "name": "Natural 1ct (RAPI proxy)",
-      "code": "NAT1",
-      "px": "3904.00",
-      "chg": "−6.4% YTD",
-      "dir": "down",
-      "pts": [
-        13,
-        13,
-        13,
-        13,
-        13,
-        13,
-        13,
-        13,
-        13,
-        13
-      ]
-    },
-    {
-      "name": "Lab-grown 1ct reference",
-      "code": "LGD1",
-      "px": "475.00",
-      "chg": "−13% YoY",
-      "dir": "down",
-      "pts": [
-        14,
-        14,
-        14,
-        14,
-        13,
-        13,
-        13,
-        13,
-        13,
-        12
-      ]
-    },
-    {
-      "name": "Platinum / oz",
-      "code": "XPT",
-      "px": "1,795.00",
-      "chg": "▼ -0.06%",
-      "dir": "down",
-      "pts": [
-        9,
-        10,
-        7,
-        4,
-        13,
-        15,
-        24,
-        18,
-        19,
-        11
-      ]
-    },
-    {
-      "name": "Silver / oz",
-      "code": "XAG",
-      "px": "66.132",
-      "chg": "▲ +0.01%",
-      "dir": "up",
-      "pts": [
-        8,
-        10,
-        9,
-        8,
-        19,
-        17,
-        24,
-        16,
-        20,
-        4
-      ]
-    }
-  ]
+ "date_line": "Tuesday, September 22, 2026 | Vol. I - No. 069",
+ "edition": "No. 069",
+ "items": [
+  {
+   "b": "INDIA'S GOLD IMPORTS FALL 45% TO US$2.3BN AS ETFS REACH 121.3T",
+   "t": "Domestic prices traded below import parity through August, with discounts widening from US$34 an ounce in July to US$51. Indian gold ETFs took INR25.97bn, an inflow up 67% on the month."
+  },
+  {
+   "b": "GOLD FALLS $14.50 TO $4,333.70 WITH ALL FOUR METALS LOWER",
+   "t": "Silver gave up 0.92% to $65.521 and palladium 0.78% to $1,272.00 against Monday's marks on Kitco's bid. Gold's overnight range ran from $4,290.70 to $4,376.90."
+  },
+  {
+   "b": "RAPI RESTATES ALL FIVE DAILY POINTS READ A DAY EARLIER",
+   "t": "The one-carat series read on 21 September and again on 22 September differs at every overlapping date, by between 12 and 27 cents. The newest point, dated 21 September, is $3,918.53."
+  },
+  {
+   "b": "THAILAND'S GOLD EXPORTS FALL 59.22% IN JULY TO US$411.04M",
+   "t": "Gem and jewellery exports excluding gold slipped 6.36% to US$737.93m. Seven-month exports excluding gold still run 9.87% ahead at US$8,981.12m."
+  },
+  {
+   "b": "RAPI'S 1-CARAT ROSE TO $3,916.19 ACROSS FIVE SESSIONS",
+   "t": "Corrected 22 September 2026. The index published a new point on each of 17, 18, 19 and 20 September; an earlier version of this item reported it as unchanged since the 16th."
+  }
+ ],
+ "tape_ts": "22 Sep 2026",
+ "tape": [
+  {
+   "name": "Gold / oz",
+   "code": "XAU",
+   "px": "4,333.70",
+   "chg": "▼ -0.33%",
+   "dir": "down",
+   "pts": [
+    4,
+    7,
+    8,
+    9,
+    14,
+    14,
+    24,
+    16,
+    19,
+    11
+   ]
+  },
+  {
+   "name": "Natural 1ct (RAPI proxy)",
+   "code": "NAT1",
+   "px": "3904.00",
+   "chg": "−6.4% YTD",
+   "dir": "down",
+   "pts": [
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13
+   ]
+  },
+  {
+   "name": "Lab-grown 1ct reference",
+   "code": "LGD1",
+   "px": "475.00",
+   "chg": "−13% YoY",
+   "dir": "down",
+   "pts": [
+    14,
+    14,
+    14,
+    14,
+    13,
+    13,
+    13,
+    13,
+    13,
+    12
+   ]
+  },
+  {
+   "name": "Platinum / oz",
+   "code": "XPT",
+   "px": "1,788.00",
+   "chg": "▼ -0.39%",
+   "dir": "down",
+   "pts": [
+    9,
+    10,
+    7,
+    4,
+    13,
+    15,
+    24,
+    18,
+    19,
+    11
+   ]
+  },
+  {
+   "name": "Silver / oz",
+   "code": "XAG",
+   "px": "65.521",
+   "chg": "▼ -0.92%",
+   "dir": "down",
+   "pts": [
+    8,
+    10,
+    9,
+    8,
+    19,
+    17,
+    24,
+    16,
+    20,
+    4
+   ]
+  }
+ ]
 }
