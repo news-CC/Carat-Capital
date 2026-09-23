@@ -26,8 +26,12 @@ if PRICES.get("headline"):
     for _t in WIRE.get("tape", []):
         if _t.get("code") == "NAT1":
             _t["px"] = f'{PRICES["headline"]["rapi_ct"]:,.2f}'
-            _t["chg"] = "\u22126.4% YTD"
-            _t["dir"] = "down"
+            # YTD is read off the price list, never hardcoded here: the chip and the
+            # page it opens have to move together when RAPI's own series moves.
+            _ytd = PRICES["headline"].get("rapi_ytd_pct")
+            if _ytd is not None:
+                _t["chg"] = ("\u2212" if _ytd < 0 else "+") + f"{abs(_ytd):.1f}% YTD"
+                _t["dir"] = "down" if _ytd < 0 else "up"
 
 # The lab-grown mark is the midpoint of the published CVD wholesale band for a
 # one-carat D-F/VS stone. Same lock, same reason: the chip and the list it opens

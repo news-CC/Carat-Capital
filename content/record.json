@@ -1,10 +1,40 @@
 {
- "updated": "22 Sep 2026",
+ "updated": "23 Sep 2026",
  "intro": "Eight weeks of the trade, kept the way a ledger should be kept — dated, sourced, and in one place. New entries are added at the top each week; the quarter's running numbers live in the Almanac below.",
  "weeks": [
   {
-   "label": "This week - August 19 to September 22",
+   "label": "This week - August 20 to September 23",
    "entries": [
+    {
+     "d": "watches",
+     "h": "Sotheby's sells a Cartier Cheich for HK$26.52m in Hong Kong",
+     "t": "A unique white-gold Cartier Cheich sold at Sotheby's Hong Kong for HK$26,520,000 with fees on 18 September. No Cartier wristwatch has made more at auction.",
+     "s": "Hodinkee, 18 September 2026; SJX Watches, 22 September 2026"
+    },
+    {
+     "d": "auctions",
+     "h": "Elmwood's puts a £2m high estimate on an 8.03-carat blue",
+     "t": "Elmwood's will offer an 8.03-carat Fancy Light Blue diamond ring in London on 1 October. The estimate is £1.5m to £2m and the consignor is a collector in Glasgow.",
+     "s": "Elmwood's statement via PA Media, 22 September 2026; elmwoods.co.uk sale listing"
+    },
+    {
+     "d": "gold-metals",
+     "h": "China's gold imports top 1,000 tonnes in eight months",
+     "t": "Chinese customs data show gold imports above 1,000 tonnes in the eight months to August. That is past the roughly 886 tonnes imported across all of 2025, and the highest for the period since the series begins in 2017.",
+     "s": "Chinese customs data via FX168/24K99, on.cc and CFi.CN, 22-23 September 2026"
+    },
+    {
+     "d": "diamonds",
+     "h": "De Beers cuts Scope 1 and 2 emissions 14% since 2021",
+     "t": "The 2025 Sustainability Report, published 22 September, puts the group's Scope 1 and 2 emissions 14% below their 2021 level. It books US$70m committed to a Botswana development fund.",
+     "s": "De Beers Group 2025 Sustainability Report announcement, 22 September 2026"
+    },
+    {
+     "d": "retail-tech",
+     "h": "Natural Diamond Council renames itself The Diamond Collective",
+     "t": "The Natural Diamond Council renamed itself The Diamond Collective on 22 September. It changed its logo and palette the same morning, dropping the word natural from its own name.",
+     "s": "JCK, 22 September 2026; the body's own site; RAPI 1.00ct series, 22 September 2026"
+    },
     {
      "d": "gold-metals",
      "h": "India's gold imports fall 45% to US$2.3bn as ETFs reach 121.3t",

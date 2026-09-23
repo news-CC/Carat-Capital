@@ -1,35 +1,35 @@
 {
- "date_line": "Tuesday, September 22, 2026 | Vol. I - No. 069",
- "edition": "No. 069",
+ "date_line": "Wednesday, September 23, 2026 | Vol. I - No. 070",
+ "edition": "No. 070",
  "items": [
   {
-   "b": "INDIA'S GOLD IMPORTS FALL 45% TO US$2.3BN AS ETFS REACH 121.3T",
-   "t": "Domestic prices traded below import parity through August, with discounts widening from US$34 an ounce in July to US$51. Indian gold ETFs took INR25.97bn, an inflow up 67% on the month."
+   "b": "SOTHEBY'S SELLS A CARTIER CHEICH FOR HK$26.52M IN HONG KONG",
+   "t": "The one-off white-gold prize watch carried a HK$8.0m to HK$40m estimate. Hodinkee converts the result to US$3,413,124 and SJX to US$3.38m."
   },
   {
-   "b": "GOLD FALLS $14.50 TO $4,333.70 WITH ALL FOUR METALS LOWER",
-   "t": "Silver gave up 0.92% to $65.521 and palladium 0.78% to $1,272.00 against Monday's marks on Kitco's bid. Gold's overnight range ran from $4,290.70 to $4,376.90."
+   "b": "ELMWOOD'S PUTS A £2M HIGH ESTIMATE ON AN 8.03-CARAT BLUE",
+   "t": "The pear-shaped Fancy Light Blue carries a £1.5m low estimate for a London sale on 1 October. The house counts only two UK precedents above eight carats, in 1865 and 2008."
   },
   {
-   "b": "RAPI RESTATES ALL FIVE DAILY POINTS READ A DAY EARLIER",
-   "t": "The one-carat series read on 21 September and again on 22 September differs at every overlapping date, by between 12 and 27 cents. The newest point, dated 21 September, is $3,918.53."
+   "b": "CHINA'S GOLD IMPORTS TOP 1,000 TONNES IN EIGHT MONTHS",
+   "t": "January to August ran past the roughly 886 tonnes imported in all of 2025, at a cost near US$158.8bn. The PBOC added 20.2 tonnes in August."
   },
   {
-   "b": "THAILAND'S GOLD EXPORTS FALL 59.22% IN JULY TO US$411.04M",
-   "t": "Gem and jewellery exports excluding gold slipped 6.36% to US$737.93m. Seven-month exports excluding gold still run 9.87% ahead at US$8,981.12m."
+   "b": "DE BEERS CUTS SCOPE 1 AND 2 EMISSIONS 14% SINCE 2021",
+   "t": "The 2025 Sustainability Report books US$70m committed to Botswana's Diamonds for Development Fund and 375,000 acres under conservation management."
   },
   {
-   "b": "RAPI'S 1-CARAT ROSE TO $3,916.19 ACROSS FIVE SESSIONS",
-   "t": "Corrected 22 September 2026. The index published a new point on each of 17, 18, 19 and 20 September; an earlier version of this item reported it as unchanged since the 16th."
+   "b": "NATURAL DIAMOND COUNCIL RENAMES ITSELF THE DIAMOND COLLECTIVE",
+   "t": "The body dropped the qualifier from its name on 22 September. Its first fashion partnership is promised for 2027; RAPI's 1-carat index is down 5.1% on the year."
   }
  ],
- "tape_ts": "22 Sep 2026",
+ "tape_ts": "23 Sep 2026",
  "tape": [
   {
    "name": "Gold / oz",
    "code": "XAU",
-   "px": "4,333.70",
-   "chg": "▼ -0.33%",
+   "px": "4,316.10",
+   "chg": "▼ -0.41%",
    "dir": "down",
    "pts": [
     4,
@@ -85,8 +85,8 @@
   {
    "name": "Platinum / oz",
    "code": "XPT",
-   "px": "1,788.00",
-   "chg": "▼ -0.39%",
+   "px": "1,786.00",
+   "chg": "▼ -0.11%",
    "dir": "down",
    "pts": [
     9,
@@ -104,8 +104,8 @@
   {
    "name": "Silver / oz",
    "code": "XAG",
-   "px": "65.521",
-   "chg": "▼ -0.92%",
+   "px": "65.174",
+   "chg": "▼ -0.53%",
    "dir": "down",
    "pts": [
     8,
