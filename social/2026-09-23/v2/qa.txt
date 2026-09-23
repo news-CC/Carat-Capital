@@ -1,0 +1,5 @@
+theme: emerald-platinum
+POST 1 no-cartier-watch-sold-higher: 6 slides, words/slide [23, 34, 30, 23, 25, 13] (total 148), largest 176,828 bytes
+   word law: clean
+POST 2 three-goals-one-carries-a-date: 5 slides, words/slide [20, 29, 33, 43, 14] (total 139), largest 186,684 bytes
+   word law: clean
