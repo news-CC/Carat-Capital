@@ -1,0 +1,5 @@
+theme: emerald-platinum
+POST 1 design-starts-at-the-price: 6 slides, words/slide [21, 25, 23, 28, 36, 13] (total 146), largest 167,656 bytes
+   word law: clean
+POST 2 finished-pieces-pay-far-more: 5 slides, words/slide [23, 32, 30, 35, 10] (total 130), largest 175,013 bytes
+   word law: clean
