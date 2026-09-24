@@ -40,8 +40,17 @@ if LAB.get("headline"):
     for _t in WIRE.get("tape", []):
         if _t.get("code") == "LGD1":
             _t["px"] = f'{LAB["headline"]["trade_mid"]:,.2f}'
-            _t["chg"] = "\u221213% YoY"
-            _t["dir"] = "down"
+            # No qualifier. The chief ruled on 2026-09-23 that this chip carries no
+            # percentage until lab-prices.json holds a dated year-ago level a year-on-year
+            # figure can be computed from. No figure a reader sees is a literal in this file.
+            _lab_yoy = LAB["headline"].get("yoy_pct")
+            _lab_yoy_asof = LAB["headline"].get("yoy_asof")
+            if _lab_yoy is not None and _lab_yoy_asof:
+                _t["chg"] = ("\u2212" if _lab_yoy < 0 else "+") + f"{abs(_lab_yoy):.0f}% YoY"
+                _t["dir"] = "down" if _lab_yoy < 0 else "up"
+            else:
+                _t["chg"] = ""
+                _t["dir"] = "flat"
 
 def lead_article():
     for a in ARTICLES:

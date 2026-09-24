@@ -1,6 +1,6 @@
 {
- "date_line": "Wednesday, September 23, 2026 | Vol. I - No. 070",
- "edition": "No. 070",
+ "date_line": "Thursday, September 24, 2026 | Vol. I - No. 071",
+ "edition": "Vol. I - No. 071",
  "items": [
   {
    "b": "SOTHEBY'S SELLS A CARTIER CHEICH FOR HK$26.52M IN HONG KONG",
@@ -28,8 +28,8 @@
   {
    "name": "Gold / oz",
    "code": "XAU",
-   "px": "4,316.10",
-   "chg": "▼ -0.41%",
+   "px": "4,254.50",
+   "chg": "▼ -1.43%",
    "dir": "down",
    "pts": [
     4,
@@ -67,8 +67,8 @@
    "name": "Lab-grown 1ct reference",
    "code": "LGD1",
    "px": "475.00",
-   "chg": "−13% YoY",
-   "dir": "down",
+   "chg": "",
+   "dir": "flat",
    "pts": [
     14,
     14,
@@ -85,8 +85,8 @@
   {
    "name": "Platinum / oz",
    "code": "XPT",
-   "px": "1,786.00",
-   "chg": "▼ -0.11%",
+   "px": "1,743.00",
+   "chg": "▼ -2.41%",
    "dir": "down",
    "pts": [
     9,
@@ -104,8 +104,8 @@
   {
    "name": "Silver / oz",
    "code": "XAG",
-   "px": "65.174",
-   "chg": "▼ -0.53%",
+   "px": "63.578",
+   "chg": "▼ -2.45%",
    "dir": "down",
    "pts": [
     8,

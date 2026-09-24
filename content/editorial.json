@@ -120672,5 +120672,943 @@
    "why": "The other institutional defence of the natural stone this month, and what it committed to."
   },
   "corrections": []
+ },
+ "sixty-one-sixty-off-gold": {
+  "v": 3,
+  "kicker": "Metals",
+  "figures": {
+   "asof": "Kitco board, bid basis, re-read at press time 06:04 ET 24 September 2026 · change measured against the 23 September marks",
+   "cells": [
+    {
+     "n": "$4,254.50",
+     "dir": "down",
+     "label": "Gold spot",
+     "q": "−$61.60, −1.43%",
+     "src": 0
+    },
+    {
+     "n": "$63.578",
+     "dir": "down",
+     "label": "Silver spot",
+     "q": "−$1.596, −2.45%",
+     "src": 0
+    },
+    {
+     "n": "$1,743.00",
+     "dir": "down",
+     "label": "Platinum spot",
+     "q": "−$43.00, −2.41%",
+     "src": 0
+    },
+    {
+     "n": "$1,240.00",
+     "dir": "down",
+     "label": "Palladium spot",
+     "q": "−$24.00, −1.90%",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "All four metals fall.",
+   "text": "Spot gold read $4,254.50 an ounce at press time, $61.60 below its 23 September mark. Silver, platinum and palladium each fell too, and the first two fell further in percentage terms."
+  },
+  "means": [
+   {
+    "who": "If you buy metal this week:",
+    "text": "Gold is $61.60 cheaper than Wednesday's mark, silver $1.596 cheaper and platinum $43.00."
+   },
+   {
+    "who": "If you price jewellery in gold:",
+    "text": "A 1.43% move trims a gram cost, not a ticket. The session range on gold was $53.90."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A trend. One press-time tick against one prior mark, with no weekly direction claimed."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · The board against Wednesday's marks",
+   "asof": "Kitco, bid basis · 06:04 ET 24 September 2026 against the 23 September marks",
+   "cols": [
+    "Metal",
+    "23 Sep",
+    "24 Sep",
+    "Change",
+    "%"
+   ],
+   "rows": [
+    [
+     "Gold",
+     "4,316.10",
+     "4,254.50",
+     "−61.60",
+     "−1.43%"
+    ],
+    [
+     "Silver",
+     "65.174",
+     "63.578",
+     "−1.596",
+     "−2.45%"
+    ],
+    [
+     "Platinum",
+     "1,786.00",
+     "1,743.00",
+     "−43.00",
+     "−2.41%"
+    ],
+    [
+     "Palladium",
+     "1,264.00",
+     "1,240.00",
+     "−24.00",
+     "−1.90%"
+    ]
+   ],
+   "hi": 0,
+   "note": "<b>Basis</b> every figure is the bid on Kitco's own embedded price data, the convention this tape has carried since 31 August 2026. The ask at the same tick read 4,256.50 on gold, 63.828 on silver, 1,753.00 on platinum and 1,280.00 on palladium. <b>The arithmetic</b> each percentage is this desk's own division of the change by the 23 September mark, shown so it can be checked: 61.60/4,316.10 = 1.4272%; 1.596/65.174 = 2.4488%; 43.00/1,786.00 = 2.4076%; 24.00/1,264.00 = 1.8987%. <b>Second door</b> CNBC's four spot quotes, stamped 06:04:00 ET, the same minute: gold 4,255.84, silver 63.62, platinum 1,745.74, palladium 1,257.65. Compared against Kitco's own mid rather than its bid, because CNBC publishes a single composite last price and not a bid/ask pair: +0.008%, −0.130%, −0.129%, −0.187%. All four agree within rounding and no divergence is disclosed. <b>No market-state claim</b> nothing here says the session was open, closed or thin; the live tick and the session range are the only evidence offered that the cells are not frozen."
+  },
+  "sections": [
+   {
+    "h": "Silver and platinum lead the fall",
+    "p": [
+     {
+      "lead": "Two metals fell hardest.",
+      "text": "Silver lost 2.45% and platinum 2.41%. Gold's 1.43% was the smallest percentage move on the board."
+     },
+     {
+      "lead": "The range was wide.",
+      "text": "Gold's session high and low on the same board were $4,304.10 and $4,250.20, a range of $53.90, close to the net move."
+     }
+    ]
+   },
+   {
+    "h": "London fixed lower on Wednesday",
+    "p": [
+     {
+      "lead": "The fix moved first.",
+      "text": "LBMA's newest published fixes are all dated 23 September: gold $4,284.45, silver $65.185. No 24 September fix exists yet."
+     },
+     {
+      "lead": "Platinum fell most there.",
+      "text": "London's platinum PM fix dropped to $1,768.10 from $1,814.10. Palladium's PM fix fell 3.45%, the largest of the four London moves."
+     }
+    ]
+   },
+   {
+    "h": "The ask sits above the bid",
+    "p": [
+     {
+      "lead": "Two prices exist.",
+      "text": "At the same tick the ask read $4,256.50 on gold and $63.828 on silver, above the bid printed here."
+     },
+     {
+      "lead": "A second board agrees.",
+      "text": "CNBC's spot quotes, stamped the same minute, read $4,255.84 on gold and $63.62 on silver, within 0.13% of Kitco's own mid."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "24 September 2026",
+    "what": "LBMA's London fixes, struck at 10:30 and 15:00 London, the first benchmark set after this reading."
+   },
+   {
+    "when": "Each 05:00 ET",
+    "what": "The tape's opening mark, against which the next session's change is measured."
+   },
+   {
+    "when": "~20 October 2026",
+    "what": "Swiss customs monthly gold trade figures, the next dated flow reading on the metal."
+   }
+  ],
+  "depth": {
+   "reverse": "A later tick. Spot metal moves through the session and this is one press-time reading; any tick that crosses back above the 23 September marks would contradict the direction printed here. The London fixes cited are Wednesday's, so they can confirm Wednesday's direction and cannot confirm this session's.",
+   "built": {
+    "title": "Bid, ask and fix are three different numbers",
+    "text": "A screen bid is what a dealer will pay, a screen ask is what a dealer will sell at, and the difference between them is the spread rather than a disagreement. A London fix is a third thing again: an auction-determined benchmark struck at a set hour and published once, which is why it can sit a long way from a screen price taken at another moment. This tape quotes the bid, and has done since 31 August 2026, so that every comparison across sessions is like for like. Comparing a fix with a screen quote, or a bid with an ask, produces a divergence that is arithmetic rather than news."
+   },
+   "method": "Kitco's board was fetched at press time and read out of the page's own embedded __NEXT_DATA__ blob rather than off the rendered page, bid quoted; the response was 198,012 bytes and every metal carried its own originalTime of 2026-09-24T06:04:00Z. That Z stamp is the ET wall clock mislabelled, which CNBC's independent 2026-09-24T06:04:00-0400 stamp on the same tick settles. The 05:00 tape had filed gold 4,260.50, silver 63.561, platinum 1,743.00 and palladium 1,245.00; three of those four differed at press time, so under the One-Price Rule all four were written back to newsroom/tape/2026-09-24.json and to latest.json in the same step, and the two files were compared afterwards on every metal and match. The figures printed here are the written-back ones. Prior marks were not reversed out of any change field: they are the 23 September tape's own archived values, gold 4,316.10, silver 65.174, platinum 1,786.00, palladium 1,264.00. The second door was CNBC's quote service for XAU=, XAG=, XPT= and XPD=, read at the same minute; its single composite last price is compared against Kitco's mid rather than its bid, because comparing a composite against one side of a bid/ask pair would manufacture a gap. All four LBMA feeds were fetched directly and separately, not through a summariser: gold_pm.json 914,923 bytes, silver.json 898,205, platinum_pm.json 557,005, palladium_pm.json 553,948. Each one was opened and searched for its own newest point, and all four carry 2026-09-23 and nothing later, which is the basis for the sentence that no 24 September fix exists yet. The two London percentages quoted are this desk's own divisions from those same feeds: 1,272.25/1,317.65 gives 96.554% of the prior fix, so 3.446% below it, printed as 3.45%. No market condition is claimed anywhere in this article.",
+   "prior": [
+    {
+     "date": "2026-09-21",
+     "slug": "twenty-eight-eighty-off-gold",
+     "claim": "Gold sheds $28.80 to $4,348.20 and the other three barely move"
+    },
+    {
+     "date": "2026-09-19",
+     "slug": "silver-fixes-at-sixty-seven",
+     "claim": "LBMA's silver fix reaches $67.035, a fix and a screen bid compared not merged"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Precious metals live board, Kitco (press-time re-read, bid basis)",
+     "url": "https://www.kitco.com/price/precious-metals",
+     "published": "2026-09-24T06:04:00Z"
+    },
+    {
+     "title": "Spot metal quotes XAU=, XAG=, XPT=, XPD=, CNBC",
+     "url": "https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=XAU=|XAG=|XPT=|XPD=",
+     "published": "2026-09-24T06:04:00-04:00"
+    },
+    {
+     "title": "LBMA gold price PM, 23 September 2026 fix (4,284.45)",
+     "url": "https://prices.lbma.org.uk/json/gold_pm.json",
+     "published": "2026-09-23"
+    },
+    {
+     "title": "LBMA silver price, 23 September 2026 fix (65.185)",
+     "url": "https://prices.lbma.org.uk/json/silver.json",
+     "published": "2026-09-23"
+    },
+    {
+     "title": "LBMA platinum price PM, 23 September 2026 fix (1,768.10)",
+     "url": "https://prices.lbma.org.uk/json/platinum_pm.json",
+     "published": "2026-09-23"
+    },
+    {
+     "title": "LBMA palladium price PM, 23 September 2026 fix (1,272.25)",
+     "url": "https://prices.lbma.org.uk/json/palladium_pm.json",
+     "published": "2026-09-23"
+    }
+   ],
+   "corrections": []
+  },
+  "next": {
+   "slug": "twenty-eight-eighty-off-gold",
+   "why": "The last press-time re-read of all four metals, and how little moved that morning."
+  }
+ },
+ "fifty-eight-point-eight-in-hong-kong": {
+  "v": 3,
+  "kicker": "Jewellery auctions",
+  "figures": {
+   "asof": "Sotheby's Fine Jewelry, Hong Kong, sale hk1782 · bidding 9–23 September 2026, closed 23 September 03:00 UTC · total reported by Rapaport 24 September 2026",
+   "cells": [
+    {
+     "n": "HK$58,800,000",
+     "dir": "flat",
+     "label": "Sale total, as reported",
+     "q": "US$7.5m at Rapaport's conversion",
+     "src": 0
+    },
+    {
+     "n": "294",
+     "dir": "flat",
+     "label": "Lots in the sale, Sotheby's own page",
+     "src": 1
+    },
+    {
+     "n": "HK$1,800,000",
+     "dir": "up",
+     "label": "Top lot, 44.90-carat Ceylon sapphire",
+     "src": 0
+    },
+    {
+     "n": "2.57×",
+     "dir": "up",
+     "label": "Top lot against its high estimate",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Hong Kong clears the mid-market.",
+   "text": "Sotheby's Fine Jewelry sale in Hong Kong made HK$58,800,000, Rapaport reports. The house's own page gives the sale 294 lots and shows bidding running from 9 September to a close on 23 September."
+  },
+  "means": [
+   {
+    "who": "If you consign coloured stones:",
+    "text": "One 44.90-carat Ceylon sapphire cleared 2.57 times its high estimate while four other top lots clustered near theirs."
+   },
+   {
+    "who": "If you set estimates:",
+    "text": "The without-reserve earrings closed at 0.60 times the high estimate, the only top-five lot to finish under its range."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A house-published result. Sotheby's has released no sale total and the HK$58,800,000 figure is one outlet's report."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · The top five lots against their high estimates",
+   "asof": "Prices with buyer's premium as reported by Rapaport, 24 September 2026 · estimates as published by Sotheby's",
+   "cols": [
+    "Lot",
+    "Price (HKD)",
+    "High estimate (HKD)",
+    "Against high"
+   ],
+   "rows": [
+    [
+     "44.90-ct Ceylon sapphire pendant",
+     "1,800,000",
+     "700,000",
+     "2.57×"
+    ],
+    [
+     "11.08-ct W–X, VVS2 diamond pendant",
+     "832,000",
+     "450,000",
+     "1.85×"
+    ],
+    [
+     "Graff pendant necklace, 27.60 ct",
+     "832,000",
+     "800,000",
+     "1.04×"
+    ],
+    [
+     "5.13-ct F, VVS2 unmounted diamond",
+     "960,000",
+     "950,000",
+     "1.01×"
+    ],
+    [
+     "Pink diamond earrings, 2.08 and 2.21 ct",
+     "1,200,000",
+     "2,000,000",
+     "0.60×"
+    ]
+   ],
+   "hi": 0,
+   "note": "<b>The arithmetic</b> the last column is this desk's own division of the reported price by the published high estimate, printed so it can be checked: 1,800,000/700,000 = 2.571; 832,000/450,000 = 1.849; 832,000/800,000 = 1.040; 960,000/950,000 = 1.011; 1,200,000/2,000,000 = 0.600. Read as a comparison rather than a multiple, the sapphire is 157.1% above its high estimate and the earrings 40.0% below theirs. <b>The total</b> the sale total reported alongside these lots is HK$58.8m, or HK$58,800,000, and is not in this table because the house publishes no lot-by-lot reconciliation to it. <b>Currency</b> every figure is the Hong Kong dollar as struck. Rapaport's own conversions of the two largest figures imply different rates, 7.84 on the sale total and 7.88 on the top lot, and the second falls outside the 7.75–7.85 peg band, so no averaged dollar figure is constructed here. <b>One outlet disagrees with itself</b> the same report gives $228,400 for the top lot in its summary line and $228,472 in its body. <b>Order</b> rows run by multiple, not by price, which is why an 832,000 lot sits above a 960,000 one."
+  },
+  "sections": [
+   {
+    "h": "The sapphire clears its range",
+    "p": [
+     {
+      "lead": "One lot led.",
+      "text": "The 44.90-carat pear-shaped Ceylon sapphire sits in a surround of about 17 carats of brilliant-cut diamonds. It made 2.57 times its high estimate."
+     },
+     {
+      "lead": "The rest did not.",
+      "text": "Two of the other four top lots landed within 5% of their high estimates. The pink diamond earrings, sold without reserve, made 0.60 times theirs."
+     }
+    ]
+   },
+   {
+    "h": "Two dollar figures, two implied rates",
+    "p": [
+     {
+      "lead": "The conversions differ.",
+      "text": "Rapaport converts the sale total to US$7.5m and the top lot to US$228,472. Both are that outlet's arithmetic rather than the house's."
+     },
+     {
+      "lead": "The rates disagree.",
+      "text": "Those two conversions imply 7.84 and 7.88 Hong Kong dollars to the US dollar. The peg band runs 7.75 to 7.85, so the second sits outside it."
+     }
+    ]
+   },
+   {
+    "h": "The sale ran a fortnight",
+    "p": [
+     {
+      "lead": "Bidding ran a fortnight.",
+      "text": "Sotheby's own page records bidding opening 9 September and closing 23 September at 03:00 UTC. The single date in the trade report is that closing date."
+     },
+     {
+      "lead": "No total is published.",
+      "text": "The auction page and the results index were both fetched and neither carries a sale total. The lot data served covers 48 of the 294 lots, all 48 sold."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "1 October 2026",
+    "what": "Elmwood's London Fine Jewellery sale, where an 8.03-carat Fancy Light Blue diamond carries a £1.5m to £2m estimate."
+   },
+   {
+    "when": "Undated",
+    "what": "Sotheby's own published total for sale hk1782, absent from both its auction page and its results index at press time."
+   }
+  ],
+  "depth": {
+   "reverse": "A house-published total. If Sotheby's posts its own figure for sale hk1782 and it differs from HK$58,800,000, the total printed here is the trade report's and not the record. The lot-level prices would be unaffected: those are carried on the house's own page.",
+   "built": {
+    "title": "A timed online sale has no saleroom session",
+    "text": "A timed sale opens for bidding on one date and closes on another, lot by lot, without an auctioneer calling a room. Sotheby's own data for this sale gives an acceptsBids date of 9 September and a startsToClose date of 23 September, with individual lots closing minutes apart after that. A trade report that names one date is naming the close. The distinction matters when a result is compared with a live saleroom sale on the same day, because the bidding behind a timed result accumulated over a fortnight rather than in a few minutes."
+   },
+   "method": "Rapaport's write-up was fetched directly, 467,409 bytes, and its own JSON-LD gives datePublished 2026-09-24T09:19:31+00:00 and dateModified 09:39:29. Every figure taken from it was confirmed present in the raw bytes rather than in a summary: '58.8 million', '228,472', '44.90', 'HKD 700,000', '290 lots' and 'September 23' each grep to at least one hit. Sotheby's own auction page for sale hk1782 was then fetched separately, 781,673 bytes, and read out of the embedded GraphQL state rather than the rendered page. That state carries the sale's own lot connection with totalCount 294 and hasNextPage true, the auction dates acceptsBids 2026-09-09T03:00Z and startsToClose 2026-09-23T03:00Z, and 48 BidState records on the first page, of which 48 carry isSold true and a final price. Those 48 final prices sum to HK$11,572,480, which is not printed as a sale total anywhere in this article because it covers 48 of 294 lots and excludes both of the two largest lots named in the table. The results index was fetched as a third door and returns the sale as a Past Auction dated 9–23 September 2026 with its price element loaded dynamically, so it carries no total in its served bytes either. Neither Sotheby's page yields a sale total, which is why the HK$58,800,000 figure is attributed to Rapaport in the headline furniture, in the table caption and in the desk's view rather than reported as the house's own. The archive was searched by entity and by figure before filing: '44.90' and '228,4' return nothing; 'Fine Jewel' returns 23 older articles, none covering sale hk1782; this paper's 18 September coverage of Sotheby's Hong Kong concerns the Magnificent Jewels sale, a different sale with a different total, so the verdict is a different entity-event rather than a repeat.",
+   "prior": [
+    {
+     "date": "2026-09-23",
+     "slug": "elmwoods-eight-oh-three-blue",
+     "claim": "Elmwood's puts a £2m high estimate on an 8.03-carat blue, for 1 October"
+    },
+    {
+     "date": "2026-09-09",
+     "slug": "sothebys-two-million-without-reserve",
+     "claim": "A without-reserve Sotheby's jewellery result, the last time this desk priced one"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Sotheby's Fine Jewelry Auction Garners $7.5M, Rapaport",
+     "url": "https://rapaport.com/news/sothebys-fine-jewelry-auction-garners-7-5m/",
+     "published": "2026-09-24T09:19:31Z"
+    },
+    {
+     "title": "Fine Jewelry, Hong Kong, sale hk1782, Sotheby's own auction page",
+     "url": "https://www.sothebys.com/en/buy/auction/2026/fine-jewelry",
+     "published": "2026-09-23"
+    },
+    {
+     "title": "Auction results index, Sotheby's",
+     "url": "https://www.sothebys.com/en/results",
+     "published": "2026-09-24"
+    }
+   ],
+   "corrections": []
+  },
+  "next": {
+   "slug": "elmwoods-eight-oh-three-blue",
+   "why": "The next blue diamond with a published estimate, and the sale it goes into on 1 October."
+  }
+ },
+ "thirteen-hundred-under-the-january-high": {
+  "v": 3,
+  "kicker": "Gold and the counter",
+  "figures": {
+   "asof": "JCK, 23 September 2026 · gold's own level re-read on this paper's tape at 06:04 ET 24 September 2026",
+   "cells": [
+    {
+     "n": "$1,300",
+     "dir": "down",
+     "label": "Gold below its January high, as JCK puts it",
+     "src": 0
+    },
+    {
+     "n": "$4,900",
+     "dir": "up",
+     "label": "Goldman Sachs year-end forecast",
+     "src": 0
+    },
+    {
+     "n": "$4,600",
+     "dir": "up",
+     "label": "ING year-end forecast",
+     "src": 0
+    },
+    {
+     "n": "43%",
+     "dir": "down",
+     "label": "Consumers expecting to spend less on jewellery",
+     "q": "next three months, McKinsey",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Design starts at the price.",
+   "text": "JCK reports that manufacturers now begin from where a retailer wants a piece to land and work back to weight and construction. Gold sits about $1,300 under its January high."
+  },
+  "means": [
+   {
+    "who": "If you buy for the holiday:",
+    "text": "Two of the forecasts JCK collected sit above this morning's spot, at $4,900 and $4,600."
+   },
+   {
+    "who": "If you manufacture:",
+    "text": "Metal is roughly three-quarters of the ticket on a plain 14-carat chain, so weight is the lever with room in it."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A forecast from the Metals Desk. Every year-end number here belongs to a named bank and is reported as theirs."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · What a 14-carat ticket is made of",
+   "asof": "Pieces and prices as published by JCK, 23 September 2026 · gold content computed at $4,254.50 an ounce, Kitco bid, 06:04 ET 24 September 2026",
+   "cols": [
+    "Piece",
+    "Weight",
+    "Price",
+    "Gold in it",
+    "Metal share"
+   ],
+   "rows": [
+    [
+     "Miami open-link chain, 5.5 mm, 24 in",
+     "19.8 g",
+     "$2,100",
+     "$1,584",
+     "75%"
+    ],
+    [
+     "Miami Cuban link, 3.6 mm, 20 in",
+     "7.3 g",
+     "$790",
+     "$584",
+     "74%"
+    ],
+    [
+     "Necklace, 0.70 ct diamonds, 1.75 ct rubies",
+     "9.9 g",
+     "$4,500",
+     "$792",
+     "18%"
+    ],
+    [
+     "Ring, 9.50 ct citrine, 0.15 ct diamonds",
+     "12.6 g",
+     "$3,386",
+     "$1,008",
+     "30%"
+    ]
+   ],
+   "hi": 0,
+   "note": "<b>Carat Capital's arithmetic</b> the last two columns are this desk's own and are not JCK's. A troy ounce is 31.1035 grams, so $4,254.50 an ounce is $136.79 a gram of fine gold; 14-carat is 14/24, or 58.5% fine, giving $80.02 of gold a gram. Multiply by the weight JCK publishes: 19.8 × 80.02 = $1,584; 7.3 × 80.02 = $584; 9.9 × 80.02 = $792; 12.6 × 80.02 = $1,008. The share is that figure over the published price. <b>What it excludes</b> the last two rows carry diamonds, rubies and citrine whose value is not in the gold column, so their metal share is a floor on the stone-and-labour content rather than a margin. Refining loss, findings, labour and margin are not modelled anywhere. <b>Not a valuation</b> these are retail asking prices on four named pieces, not a scrap or trade-in basis."
+  },
+  "sections": [
+   {
+    "h": "Weight and construction move first",
+    "p": [
+     {
+      "lead": "Design runs backwards.",
+      "text": "Clyde Duneier's chief executive told JCK that weight, construction and retail price are settled before a piece takes shape. The manufacturer is fourth-generation."
+     },
+     {
+      "lead": "Thinner is refused.",
+      "text": "The same executive said the firm prefers re-engineering a piece to lowering quality to hit a price. No cost figure was given for either route."
+     }
+    ]
+   },
+   {
+    "h": "Metal is most of the ticket",
+    "p": [
+     {
+      "lead": "The arithmetic is blunt.",
+      "text": "At $4,254.50 an ounce, fine gold costs $136.79 a gram, and 14-carat is 58.5% fine. That puts $80.02 of gold into each gram sold."
+     },
+     {
+      "lead": "Three-quarters is metal.",
+      "text": "The 19.8-gram chain carries about $1,584 of gold against its $2,100 ticket, or 75%. The smaller Cuban link works out at 74%."
+     }
+    ]
+   },
+   {
+    "h": "Volatility costs more than level",
+    "p": [
+     {
+      "lead": "The complaint is movement.",
+      "text": "A New York retailer told JCK the problem is fluctuation rather than the level. He blamed the price, then corrected himself: \"The prices are not stable.\""
+     },
+     {
+      "lead": "Demand is already softer.",
+      "text": "McKinsey's ConsumerWise survey found 43% of consumers expect to spend less on jewellery in the next three months, JCK reports."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "31 December 2026",
+    "what": "The horizon on both the Goldman Sachs and ING forecasts named here, against a press-time $4,254.50."
+   },
+   {
+    "when": "Each 05:00 ET",
+    "what": "This paper's opening gold mark, against which the gap to the January high is measured."
+   },
+   {
+    "when": "~20 October 2026",
+    "what": "Swiss customs monthly gold trade figures, the next dated flow reading on the metal."
+   }
+  ],
+  "depth": {
+   "reverse": "A move back toward the January high. The design argument reported here rests on gold being far enough below its high, and moving enough, to force a redesign; a stable ounce would remove the second half of it. The metal-share arithmetic would move with spot on any day, in either direction.",
+   "built": {
+    "title": "Karat is a fraction, and grams do the work",
+    "text": "Fourteen-carat gold is 14 parts in 24, or 58.5% fine by weight, the rest being alloy of much lower value. A jeweller's cost therefore tracks grams of fine gold rather than the piece's gross weight, and a troy ounce is 31.1035 grams, not the 28.35 of an avoirdupois ounce. Those two conversions are the whole of the arithmetic in the table here. They are also why a redesign that removes a gram saves about $80 at this morning's spot, and why the same redesign on a 10-carat piece would save about $57."
+   },
+   "method": "JCK's article was fetched directly, 122,076 bytes, and read as raw markup rather than through a summariser, because a summarised fetch has produced figures absent from the page before. Its own body carries the byline 'By Sam Cooley | September 23, 2026', which is the date used here rather than the feed wrapper's. Every figure attributed to JCK was confirmed in those bytes: the $1,300 gap, the nearly $5,600 January high, Goldman Sachs at $4,900, ING at $4,600, the McKinsey ConsumerWise 43%, and the four priced pieces with their weights. The Goldman Sachs and ING figures are JCK's reporting of those banks and neither bank's own publication was opened, so they are attributed to JCK throughout rather than cited as bank research. The McKinsey survey is likewise carried as JCK reports it; McKinsey's own ConsumerWise release was not fetched and is not cited. JCK's $1,300 is that outlet's rounding against its own reading of spot on 23 September; measured instead against this paper's press-time mark of $4,254.50 the gap to a $5,600 high is about $1,345, which is why the figure is printed as JCK puts it rather than as a subtraction of this desk's own. The gold content in the table is computed from this paper's own written-back tape mark for 24 September and from no other source. The quote is one, at five words, counted before filing. Archive searched by entity before filing: 'Goldman' returns nothing, '4,900' returns two older articles on unrelated subjects, and no prior Carat Capital article carries this JCK piece.",
+   "prior": [
+    {
+     "date": "2026-09-24",
+     "slug": "sixty-one-sixty-off-gold",
+     "claim": "Gold sheds $61.60 to $4,254.50, the mark the metal-share arithmetic here is built on"
+    },
+    {
+     "date": "2026-09-21",
+     "slug": "twenty-eight-eighty-off-gold",
+     "claim": "Gold sheds $28.80 to $4,348.20 and the other three barely move"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Jewelers Plan for Holiday Priced in Volatile Gold, JCK, Sam Cooley",
+     "url": "https://www.jckonline.com/editorial-article/volatile-gold-first-fall/",
+     "published": "2026-09-23"
+    },
+    {
+     "title": "Precious metals live board, Kitco (press-time re-read, bid basis)",
+     "url": "https://www.kitco.com/price/precious-metals",
+     "published": "2026-09-24T06:04:00Z"
+    }
+   ],
+   "corrections": []
+  },
+  "next": {
+   "slug": "sixty-one-sixty-off-gold",
+   "why": "The press-time gold mark every gram figure in this article is computed from."
+  }
+ },
+ "twelve-five-and-nineteen-five-on-thailand": {
+  "v": 3,
+  "kicker": "Coloured stones",
+  "figures": {
+   "asof": "American Gem Trade Association statement of Monday 21 September 2026, reported 22 September · rates as the association states them",
+   "cells": [
+    {
+     "n": "12.5%",
+     "dir": "flat",
+     "label": "US duty, loose coloured gemstones from Thailand",
+     "src": 0
+    },
+    {
+     "n": "17.5%",
+     "dir": "flat",
+     "label": "Thai finished jewellery, bottom of the band",
+     "src": 0
+    },
+    {
+     "n": "19.5%",
+     "dir": "flat",
+     "label": "Thai finished jewellery, top of the band",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Finished goods pay more.",
+   "text": "The AGTA told Thai officials in Bangkok that loose coloured gemstones from Thailand enter the United States at 12.5%. Finished Thai jewellery carries combined duties of 17.5% to 19.5%."
+  },
+  "means": [
+   {
+    "who": "If you import loose stones from Thailand:",
+    "text": "The rate the association named is 12.5%, five to seven points below what the same goods carry once set."
+   },
+   {
+    "who": "If you buy finished Thai jewellery:",
+    "text": "The band runs 17.5% to 19.5% and no change to it has been announced."
+   },
+   {
+    "who": "What this is not:",
+    "text": "An agreement, or news of one. No deadline, no value and no counterparty position was published."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · What the two forms of the same stone pay",
+   "asof": "Rates as stated by the American Gem Trade Association, reported 22 September 2026 · differences are this desk's subtraction",
+   "cols": [
+    "Goods",
+    "US duty",
+    "Gap to the loose rate",
+    "Basis"
+   ],
+   "rows": [
+    [
+     "Loose coloured gemstones from Thailand",
+     "12.5%",
+     "—",
+     "AGTA, as reported"
+    ],
+    [
+     "Thai finished jewellery, bottom of band",
+     "17.5%",
+     "5.0 points",
+     "AGTA, as reported"
+    ],
+    [
+     "Thai finished jewellery, top of band",
+     "19.5%",
+     "7.0 points",
+     "AGTA, as reported"
+    ],
+    [
+     "Value of the Thai trade at risk",
+     "not published",
+     "—",
+     "AGTA published none"
+    ]
+   ],
+   "hi": 2,
+   "note": "<b>Carat Capital's arithmetic</b> the third column is a subtraction from the first, shown so it can be checked: 17.5 − 12.5 = 5.0 points; 19.5 − 12.5 = 7.0 points. These are percentage-point differences and not ratios, so nothing here says finished goods pay a given percentage more than loose ones. <b>Combined</b> the association describes the finished-jewellery figure as combined duties, meaning more than one line of duty summed, and does not break it down. <b>What has no number</b> the association published no value for the trade exposed, no volume, and no date by which an agreement would have to be reached; the last row records that absence rather than leaving it out."
+  },
+  "sections": [
+   {
+    "h": "The meeting had a name",
+    "p": [
+     {
+      "lead": "One official is named.",
+      "text": "The association held a private discussion with Kirida Bhaopichitr, Thailand's vice minister for commerce, who led a delegation of senior officials. The meetings ran alongside the Bangkok Gems and Jewelry Fair."
+     },
+     {
+      "lead": "Washington was told after.",
+      "text": "The AGTA said it shared details of the discussion with the office of the US Trade Representative. No response from that office is reported."
+     }
+    ]
+   },
+   {
+    "h": "No dollar figure was published",
+    "p": [
+     {
+      "lead": "The exposure is unpriced.",
+      "text": "The association put no value on the Thai trade at risk and named no deadline for an agreement. It said Thailand risks losing market share to competing suppliers without one."
+     },
+     {
+      "lead": "One outlet carries it.",
+      "text": "This report rests on a single trade write-up of the association's Monday statement. A JCK headline on related AGTA tariff work was not reachable at the URL tried."
+     }
+    ]
+   },
+   {
+    "h": "The loose rate is not new",
+    "p": [
+     {
+      "lead": "The tariff predates this.",
+      "text": "Carat Capital reported the same 12.5% rate on loose coloured stones on 23 July 2026. The 17.5% to 19.5% band on finished Thai goods has not run here before."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Undated",
+    "what": "The next round of US-Thailand negotiations. The association named no date and none is published."
+   },
+   {
+    "when": "Each USTR Federal Register notice",
+    "what": "Where a change to the 12.5% rate on loose coloured stones would appear first."
+   }
+  ],
+  "depth": {
+   "reverse": "A published exposure figure. The case made here rests on a rate gap with no trade value attached to it; a dollar figure for Thai gem and jewellery shipments to the United States would either make the gap material or make it small. None was published, and none is estimated here.",
+   "built": {
+    "title": "A combined duty is more than one line",
+    "text": "A tariff rate on an import line is rarely a single number. A combined duty sums a most-favoured-nation rate with whatever additional measures apply to that country and product, which is why the association gives a band of 17.5% to 19.5% for finished Thai jewellery rather than a figure. The loose-gemstone rate it names, 12.5%, is quoted flat. Because the two are not built the same way, the difference between them is a percentage-point gap between two stated rates rather than a clean comparison of like duties."
+   },
+   "method": "The trade write-up was fetched directly, 431,477 bytes, and its own JSON-LD gives datePublished 2026-09-22T15:03:02+00:00 and dateModified 2026-09-23T09:14:56Z. The 12.5% rate, the 17.5% to 19.5% band, the Bangkok Gems and Jewelry Fair setting, the named vice minister and the referral to the US Trade Representative were all read out of that page's own body text, not from its automated summary block, which carries the same figures but is machine-generated. The association's own site was not opened and is not cited; every claim here is attributed to the single outlet that reported the statement, which is why the article says so twice. A second outlet was sought: JCK's own site answered 200 at its home page, and the AGTA tariff piece was not reachable at the URL tried, so no cross-confirmation exists and this remains a single-source report. That is disclosed rather than smoothed. On the archive test, the entity matches and the period does not: this paper's 23 July 2026 piece covers the same 12.5% rate on loose coloured stones, which is why that rate is presented here as prior coverage rather than as news, while '17.5%', the named vice minister and the Bangkok fair each return nothing in the archive. The verdict is advanced, not repeat: same subject, a generic rate previously, a named bilateral meeting and a second rate band now. The point differences in the table are this desk's subtraction and are labelled as such.",
+   "prior": [
+    {
+     "date": "2026-07-23",
+     "slug": "twelve-point-five-for-color",
+     "claim": "The 12.5% US rate on loose coloured stones, as this paper first carried it"
+    },
+    {
+     "date": "2026-07-30",
+     "slug": "color-runs-two-speeds",
+     "claim": "The coloured-stone trade splitting between loose and finished goods"
+    }
+   ],
+   "sources": [
+    {
+     "title": "AGTA Facilitates Trade Negotiations Between US and Thai Officials, Rapaport, Suzanne Watkin",
+     "url": "https://rapaport.com/news/agta-facilitates-trade-negotiations-between-us-and-thai-officials/",
+     "published": "2026-09-22"
+    }
+   ],
+   "corrections": []
+  },
+  "next": {
+   "slug": "twelve-point-five-for-color",
+   "why": "Where the 12.5% rate first reached this paper, and what it covered then."
+  }
+ },
+ "seven-seventy-three-nine-in-august": {
+  "v": 3,
+  "kicker": "US retail",
+  "figures": {
+   "asof": "US Census Bureau advance estimate CB26-153, released 16 September 2026, covering August 2026 · seasonally adjusted, not adjusted for price changes",
+   "cells": [
+    {
+     "n": "$773.9bn",
+     "dir": "up",
+     "label": "US retail and food services sales, August 2026",
+     "src": 0
+    },
+    {
+     "n": "+1.2%",
+     "dir": "up",
+     "label": "On July 2026",
+     "q": "margin 0.4 points",
+     "src": 0
+    },
+    {
+     "n": "+6.0%",
+     "dir": "up",
+     "label": "On August 2025",
+     "q": "margin 0.5 points",
+     "src": 0
+    },
+    {
+     "n": "0",
+     "dir": "flat",
+     "label": "Jewellery lines in the release",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "The release carries no jewellery.",
+   "text": "The Census Bureau's advance estimate puts August retail and food services sales at $773.9 billion, up 1.2% on July. It publishes no separate line for jewellery stores."
+  },
+  "means": [
+   {
+    "who": "If you benchmark your own August:",
+    "text": "The national number is $773.9 billion and 6.0% above a year ago, with no jewellery cut inside it."
+   },
+   {
+    "who": "If you read the monthly print:",
+    "text": "1.2% carries a 0.4-point margin, which puts the true change between 0.8% and 1.6%."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A jewellery figure. Nothing in this release measures the jewellery trade."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · The August print and what sits either side of it",
+   "asof": "US Census Bureau CB26-153, released 16 September 2026 · every margin is the Bureau's own",
+   "cols": [
+    "Measure",
+    "Value",
+    "Margin",
+    "Range"
+   ],
+   "rows": [
+    [
+     "August 2026 sales",
+     "$773.9bn",
+     "—",
+     "—"
+    ],
+    [
+     "Change on July 2026",
+     "+1.2%",
+     "0.4 points",
+     "0.8% to 1.6%"
+    ],
+    [
+     "Change on August 2025",
+     "+6.0%",
+     "0.5 points",
+     "5.5% to 6.5%"
+    ],
+    [
+     "June–August on a year earlier",
+     "+6.0%",
+     "0.5 points",
+     "5.5% to 6.5%"
+    ],
+    [
+     "June-to-July change, as revised",
+     "−0.5%",
+     "0.2 points",
+     "−0.3% to −0.7%"
+    ]
+   ],
+   "hi": 1,
+   "note": "<b>The Bureau's own margins</b> every figure in the third column is published by Census beside its estimate and is not this desk's construction. The fourth column is the simple addition and subtraction of the margin from the estimate, printed so it can be checked: 1.2 ± 0.4 gives 0.8 to 1.6; 6.0 ± 0.5 gives 5.5 to 6.5; −0.5 ± 0.2 gives −0.3 to −0.7. <b>The revision</b> the June-to-July change was first published as down 0.6% with a 0.4-point margin and is revised in this release to down 0.5% with a 0.2-point margin, so both the estimate and its uncertainty moved. <b>Basis</b> figures are adjusted for seasonal variation and for holiday and trading-day differences, and are not adjusted for price changes, which the Bureau states on the release itself. <b>No jewellery row exists</b> because the advance report publishes none."
+  },
+  "sections": [
+   {
+    "h": "The margin is worth reading",
+    "p": [
+     {
+      "lead": "The band matters.",
+      "text": "The monthly change carries a margin of 0.4 points, so the released range runs from 0.8% to 1.6%."
+     },
+     {
+      "lead": "The annual band widens.",
+      "text": "The 6.0% year-on-year change carries 0.5 points either side, a range of 5.5% to 6.5%."
+     },
+     {
+      "lead": "A revision landed.",
+      "text": "The same release revised the June-to-July change from down 0.6%, margin 0.4 points, to down 0.5% with a margin of 0.2."
+     }
+    ]
+   },
+   {
+    "h": "No jewellery line is published",
+    "p": [
+     {
+      "lead": "The advance stops short.",
+      "text": "The advance estimate reports broad categories and carries no jewellery-store line. The Census series that separates jewellery is not part of this release."
+     },
+     {
+      "lead": "A key is required.",
+      "text": "Census's own time-series interface returned a missing-key page on a direct request for the jewellery category, so no jewellery figure is printed here."
+     }
+    ]
+   },
+   {
+    "h": "The release is dated 16 September",
+    "p": [
+     {
+      "lead": "The release dates itself.",
+      "text": "The Census Bureau published this estimate on 16 September under CB26-153. A trade write-up dated 22 September is where the figure reached the jewellery press."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "16 October 2026",
+    "what": "The Census Bureau's next advance monthly retail estimate, covering September 2026, on its published monthly rhythm."
+   },
+   {
+    "when": "With that release",
+    "what": "The revision to August's own 1.2%, which the next advance report restates."
+   }
+  ],
+  "depth": {
+   "reverse": "A jewellery cut. Everything said here about the trade is an absence rather than a finding, and a Census series that separates jewellery stores would replace it with a number. The national figures themselves would be unaffected: they are the Bureau's own and are dated.",
+   "built": {
+    "title": "An advance estimate is a first draft",
+    "text": "The advance monthly report is published about two weeks after the month closes, from a smaller sample than the full monthly retail survey that follows it, which is why the Bureau attaches a margin to every change it prints and revises the prior month in each new release. The margin is a sampling band, not a forecast error: a 1.2% change with a 0.4-point margin means the Bureau's own estimate of the true change runs from 0.8% to 1.6%. Reading the point estimate alone, without the band, treats a range as a number, and the revision printed in this same release from down 0.6% to down 0.5% is what that looks like when it resolves."
+   },
+   "method": "The Census Bureau's own release page was fetched directly, 121,613 bytes, and every figure was read out of the served bytes rather than from a secondary account. Its own text carries 'FOR IMMEDIATE RELEASE: Wednesday, September 16, 2026', the release number CB26-153, and the sentence beginning 'Advance estimates of U.S. retail and food services sales for August 2026' with $773.9 billion, 1.2 percent with a 0.4 percent margin, 6.0 percent with a 0.5 percent margin, and the June-through-August comparison. The revision sentence was read in full from that same page rather than quoted from a truncated view, and it reads that the June-to-July change was revised from down 0.6 percent, margin 0.4, to down 0.5 percent, margin 0.2. The page was then searched for a jewellery line: 'jewelry' and 'Jewelry' each return nothing in its text, which is the basis for the zero cell and for the sentence saying so. An attempt was made to reach the jewellery category directly through the Census time-series API for NAICS 4483; that request redirected to a missing-key page, so the attempt is reported as it ended and no jewellery figure was constructed. On the dateline, the trade write-up that surfaced this figure carries datePublished 2026-09-22T15:35:21Z and says the Bureau released the data 'last week'; the date printed throughout this article is the Bureau's own release date of 16 September, not the write-up's, because the release body is the event. That makes the figure eight days old at filing, which is why it is filed low and not led on. The archive was searched by figure and by entity before filing: '773.9' returns nothing. The same trade write-up carries a set of National Retail Federation container-import forecasts; the NRF's own pages were tried at two addresses and both returned 404, so no figure from that forecast is printed here.",
+   "prior": [
+    {
+     "date": "2026-08-03",
+     "slug": "shoplifting-down-fraud-up",
+     "claim": "The last US retail dataset this desk read for what it does and does not measure"
+    },
+    {
+     "date": "2026-09-17",
+     "slug": "one-twenty-three-thousand-square-feet",
+     "claim": "A US retail figure narrowed to what its source actually counted"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Advance Monthly Sales for Retail and Food Services, CB26-153, US Census Bureau",
+     "url": "https://www.census.gov/retail/sales.html",
+     "published": "2026-09-16"
+    },
+    {
+     "title": "US Retail Sales Rise in August, Rapaport, Suzanne Watkin",
+     "url": "https://rapaport.com/news/us-retail-sales-rise-in-august/",
+     "published": "2026-09-22"
+    }
+   ],
+   "corrections": []
+  },
+  "next": {
+   "slug": "thirteen-hundred-under-the-january-high",
+   "why": "What the same holiday quarter looks like priced in gold at the counter."
+  }
  }
 }

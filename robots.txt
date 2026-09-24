@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
 Sitemap: https://caratcapital.org/sitemap.xml
+Sitemap: https://caratcapital.org/news-sitemap.xml

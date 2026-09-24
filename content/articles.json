@@ -1,9 +1,239 @@
 [
  {
+  "slug": "sixty-one-sixty-off-gold",
+  "desk": "gold-metals",
+  "date": "2026-09-24",
+  "lead": true,
+  "kicker": "Metals",
+  "title": "Gold sheds $61.60 to $4,254.50, silver and platinum fall further",
+  "seo_title": "Gold falls $61.60 to $4,254.50 as silver drops 2.45% and platinum 2.41%",
+  "dek": "Silver lost 2.45% and platinum 2.41% on the Kitco bid at 06:04 ET, against Wednesday's marks. London's newest fixes, dated 23 September, moved the same way on all four metals.",
+  "byline": "The Metals Desk",
+  "minutes": 3,
+  "tags": [
+   "gold",
+   "silver",
+   "platinum",
+   "palladium",
+   "lbma",
+   "kitco"
+  ],
+  "sources": [
+   {
+    "title": "Precious metals live board, Kitco (press-time re-read, bid basis)",
+    "url": "https://www.kitco.com/price/precious-metals",
+    "published": "2026-09-24T06:04:00Z"
+   },
+   {
+    "title": "Spot metal quotes XAU=, XAG=, XPT=, XPD=, CNBC",
+    "url": "https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=XAU=|XAG=|XPT=|XPD=",
+    "published": "2026-09-24T06:04:00-04:00"
+   },
+   {
+    "title": "LBMA gold price PM, 23 September 2026 fix (4,284.45)",
+    "url": "https://prices.lbma.org.uk/json/gold_pm.json",
+    "published": "2026-09-23"
+   },
+   {
+    "title": "LBMA silver price, 23 September 2026 fix (65.185)",
+    "url": "https://prices.lbma.org.uk/json/silver.json",
+    "published": "2026-09-23"
+   },
+   {
+    "title": "LBMA platinum price PM, 23 September 2026 fix (1,768.10)",
+    "url": "https://prices.lbma.org.uk/json/platinum_pm.json",
+    "published": "2026-09-23"
+   },
+   {
+    "title": "LBMA palladium price PM, 23 September 2026 fix (1,272.25)",
+    "url": "https://prices.lbma.org.uk/json/palladium_pm.json",
+    "published": "2026-09-23"
+   }
+  ],
+  "body": [
+   "All four metals fall. Spot gold read $4,254.50 an ounce at press time, $61.60 below its 23 September mark. Silver, platinum and palladium each fell too, and the first two fell further in percentage terms.",
+   "Two metals fell hardest. Silver lost 2.45% and platinum 2.41%. Gold's 1.43% was the smallest percentage move on the board.",
+   "The range was wide. Gold's session high and low on the same board were $4,304.10 and $4,250.20, a range of $53.90, close to the net move.",
+   "The fix moved first. LBMA's newest published fixes are all dated 23 September: gold $4,284.45, silver $65.185.",
+   "Platinum fell most there. London's platinum PM fix dropped to $1,768.10 from $1,814.10. Palladium's PM fix fell 3.45%, the largest of the four London moves.",
+   "Two prices exist. At the same tick the ask read $4,256.50 on gold and $63.828 on silver, above the bid printed here.",
+   "A second board agrees. CNBC's spot quotes, stamped the same minute, read $4,255.84 on gold and $63.62 on silver, within 0.13% of Kitco's own mid.",
+   "The desk's view: If you buy metal this week: gold is $61.60 cheaper than Wednesday's mark, silver $1.596 cheaper and platinum $43.00. If you price jewellery in gold: a 1.43% move trims a gram cost, not a ticket, and the session range on gold was $53.90. What this is not: a trend. One press-time tick against one prior mark, with no weekly direction claimed."
+  ]
+ },
+ {
+  "slug": "fifty-eight-point-eight-in-hong-kong",
+  "desk": "auctions",
+  "date": "2026-09-24",
+  "lead": false,
+  "kicker": "Jewellery auctions",
+  "title": "Sotheby's Hong Kong jewellery sale makes HK$58.8m, 294 lots offered",
+  "seo_title": "Sotheby's Fine Jewelry Hong Kong makes HK$58.8m; 44.90-carat sapphire at HK$1.8m",
+  "dek": "A 44.90-carat Ceylon sapphire pendant led at HK$1,800,000, 2.57 times its HK$700,000 high estimate. The house's own page carries no sale total; that figure is Rapaport's.",
+  "byline": "The Auctions Desk",
+  "minutes": 3,
+  "tags": [
+   "sothebys",
+   "hong-kong",
+   "sapphire",
+   "graff",
+   "auctions",
+   "estimates"
+  ],
+  "sources": [
+   {
+    "title": "Sotheby's Fine Jewelry Auction Garners $7.5M, Rapaport",
+    "url": "https://rapaport.com/news/sothebys-fine-jewelry-auction-garners-7-5m/",
+    "published": "2026-09-24T09:19:31Z"
+   },
+   {
+    "title": "Fine Jewelry, Hong Kong, sale hk1782, Sotheby's own auction page",
+    "url": "https://www.sothebys.com/en/buy/auction/2026/fine-jewelry",
+    "published": "2026-09-23"
+   },
+   {
+    "title": "Auction results index, Sotheby's",
+    "url": "https://www.sothebys.com/en/results",
+    "published": "2026-09-24"
+   }
+  ],
+  "body": [
+   "Hong Kong clears the mid-market. Sotheby's Fine Jewelry sale in Hong Kong made HK$58,800,000, Rapaport reports. The house's own page gives the sale 294 lots and shows bidding running from 9 September to a close on 23 September.",
+   "One lot led. The 44.90-carat pear-shaped Ceylon sapphire sits in a surround of about 17 carats of brilliant-cut diamonds. It made 2.57 times its high estimate.",
+   "The rest did not. Two of the other four top lots landed within 5% of their high estimates. The pink diamond earrings, sold without reserve, made 0.60 times theirs.",
+   "Two dollar figures. Rapaport converts the sale total to US$7.5m and the top lot to US$228,472. Both are that outlet's arithmetic rather than the house's.",
+   "The rates disagree. Those two conversions imply 7.84 and 7.88 Hong Kong dollars to the US dollar. The peg band runs 7.75 to 7.85, so the second sits outside it.",
+   "Bidding ran a fortnight. Sotheby's own page records bidding opening 9 September and closing 23 September at 03:00 UTC. The single date in the trade report is the closing date, not a saleroom session.",
+   "No total is published. The auction page and the results index were both fetched and neither carries a sale total in its served bytes. The lot-level data served on the first page covers 48 of the 294 lots, all 48 sold.",
+   "The desk's view: If you consign coloured stones: one 44.90-carat Ceylon sapphire cleared 2.57 times its high estimate while four other top lots clustered near theirs. If you set estimates: the without-reserve earrings closed at 0.60 times the high estimate, the only top-five lot to finish under its range. What this is not: a house-published result. Sotheby's has released no sale total and the HK$58,800,000 figure is one outlet's report."
+  ]
+ },
+ {
+  "slug": "thirteen-hundred-under-the-january-high",
+  "desk": "gold-metals",
+  "date": "2026-09-24",
+  "lead": false,
+  "kicker": "Gold and the counter",
+  "title": "Gold $1,300 below January's high changes what jewellers make",
+  "seo_title": "Gold $1,300 off its January high: Goldman sees $4,900, ING $4,600 by year end",
+  "dek": "Goldman Sachs forecasts $4,900 an ounce by year end and ING $4,600, JCK reports. McKinsey's ConsumerWise survey found 43% of consumers expect to spend less on jewellery over the next three months.",
+  "byline": "The Metals Desk",
+  "minutes": 4,
+  "tags": [
+   "gold",
+   "retail",
+   "holiday",
+   "manufacturing",
+   "forecasts",
+   "14-carat"
+  ],
+  "sources": [
+   {
+    "title": "Jewelers Plan for Holiday Priced in Volatile Gold, JCK, Sam Cooley",
+    "url": "https://www.jckonline.com/editorial-article/volatile-gold-first-fall/",
+    "published": "2026-09-23"
+   },
+   {
+    "title": "Precious metals live board, Kitco (press-time re-read, bid basis)",
+    "url": "https://www.kitco.com/price/precious-metals",
+    "published": "2026-09-24T06:04:00Z"
+   }
+  ],
+  "body": [
+   "Design starts at the price. JCK reports that manufacturers now begin from where a retailer wants a piece to land and work back to weight and construction. Gold sits about $1,300 under its January high.",
+   "Design runs backwards. Clyde Duneier's chief executive told JCK that weight, construction and retail price are settled before a piece takes shape. The manufacturer is fourth-generation.",
+   "Thinner is refused. The same executive said the firm prefers re-engineering a piece to lowering quality to hit a price. No cost figure was given for either route.",
+   "The arithmetic is blunt. At $4,254.50 an ounce, fine gold costs $136.79 a gram, and 14-carat is 58.5% fine. That puts $80.02 of gold into each gram sold.",
+   "Three-quarters is metal. The 19.8-gram chain carries about $1,584 of gold against its $2,100 ticket, or 75%. The smaller Cuban link works out at 74%.",
+   "One alloy dominates. A New Jersey retailer told JCK that customers will not drop to 10-carat even with 14-carat dearer. Much of that shop's stock is made to order.",
+   "The complaint is movement. The New York retailer told JCK the problem is fluctuation rather than the level. He blamed the price, then corrected himself: \"The prices are not stable.\"",
+   "Demand is already softer. McKinsey's ConsumerWise survey found 43% of consumers expect to spend less on jewellery in the next three months, JCK reports.",
+   "The desk's view: If you buy for the holiday: two of the three forecasts JCK collected sit above this morning's spot, at $4,900 and $4,600. If you manufacture: metal is roughly three-quarters of the ticket on a plain 14-carat chain, so weight is the only lever with real room in it. What this is not: a forecast of this paper's own. Every year-end number here belongs to a named bank and is reported as theirs."
+  ]
+ },
+ {
+  "slug": "twelve-five-and-nineteen-five-on-thailand",
+  "desk": "gemstones",
+  "date": "2026-09-24",
+  "lead": false,
+  "kicker": "Coloured stones",
+  "title": "AGTA takes 12.5% gemstone tariff to Bangkok trade talks",
+  "seo_title": "AGTA meets Thai officials on 12.5% gemstone tariff and 17.5-19.5% jewellery duties",
+  "dek": "Thai finished jewellery entering the United States carries combined duties of 17.5% to 19.5%, the association says. It met Thailand's vice minister for commerce and passed the discussion to the US Trade Representative.",
+  "byline": "The Gemstones Desk",
+  "minutes": 3,
+  "tags": [
+   "agta",
+   "thailand",
+   "tariffs",
+   "coloured-stones",
+   "bangkok",
+   "ustr"
+  ],
+  "sources": [
+   {
+    "title": "AGTA Facilitates Trade Negotiations Between US and Thai Officials, Rapaport, Suzanne Watkin",
+    "url": "https://rapaport.com/news/agta-facilitates-trade-negotiations-between-us-and-thai-officials/",
+    "published": "2026-09-22"
+   }
+  ],
+  "body": [
+   "Finished goods pay more. The AGTA told Thai officials in Bangkok that loose coloured gemstones from Thailand enter the United States at 12.5%. Finished Thai jewellery carries combined duties of 17.5% to 19.5%.",
+   "One official is named. The association held a private discussion with Kirida Bhaopichitr, Thailand's vice minister for commerce, who led a delegation of senior government officials. The meetings ran alongside the Bangkok Gems and Jewelry Fair.",
+   "Washington was told after. The AGTA said it shared details of the discussion with the office of the US Trade Representative. No response from that office is reported.",
+   "The exposure is unpriced. The association put no value on the Thai trade at risk and named no deadline for an agreement. It said Thailand risks losing market share to competing suppliers without one.",
+   "The rate is not new. Carat Capital reported the same 12.5% rate on loose coloured stones on 23 July 2026. The 17.5% to 19.5% band on finished Thai goods has not run here before.",
+   "One outlet carries it. This report rests on a single trade write-up of the association's Monday statement. A JCK headline on related AGTA tariff work was not reachable at the URL tried, although JCK's own site answered.",
+   "The desk's view: If you import loose stones from Thailand: the rate the association named is 12.5%, five to seven points below what the same goods carry once set. If you buy finished Thai jewellery: the band runs 17.5% to 19.5% and no change to it has been announced. What this is not: an agreement, or news of one. No deadline, no value and no counterparty position was published."
+  ]
+ },
+ {
+  "slug": "seven-seventy-three-nine-in-august",
+  "desk": "retail-tech",
+  "date": "2026-09-24",
+  "lead": false,
+  "kicker": "US retail",
+  "title": "Census puts August retail sales at $773.9bn, up 1.2%",
+  "seo_title": "US retail sales $773.9bn in August 2026, up 1.2% on July and 6.0% on the year",
+  "dek": "The Census Bureau's advance estimate, released 16 September, carries a margin of 0.4 points on the monthly change and no jewellery line. Sales were 6.0% above August 2025.",
+  "byline": "The Retail Desk",
+  "minutes": 3,
+  "tags": [
+   "census",
+   "us-retail",
+   "august",
+   "data",
+   "margins",
+   "jewellery-stores"
+  ],
+  "sources": [
+   {
+    "title": "Advance Monthly Sales for Retail and Food Services, CB26-153, US Census Bureau",
+    "url": "https://www.census.gov/retail/sales.html",
+    "published": "2026-09-16"
+   },
+   {
+    "title": "US Retail Sales Rise in August, Rapaport, Suzanne Watkin",
+    "url": "https://rapaport.com/news/us-retail-sales-rise-in-august/",
+    "published": "2026-09-22"
+   }
+  ],
+  "body": [
+   "The release carries no jewellery. The Census Bureau's advance estimate puts August retail and food services sales at $773.9 billion, up 1.2% on July. It publishes no separate line for jewellery stores.",
+   "The band matters. The monthly change carries a margin of 0.4 points, so the released range runs from 0.8% to 1.6%.",
+   "The annual band widens. The 6.0% year-on-year change carries 0.5 points either side, a range of 5.5% to 6.5%.",
+   "A revision landed. The same release revised the June-to-July change from down 0.6%, with a margin of 0.4 points, to down 0.5% with a margin of 0.2.",
+   "The advance stops short. The advance estimate reports broad categories and carries no jewellery-store line. The Census series that separates jewellery is not part of this release.",
+   "A key is required. Census's own time-series interface returned a missing-key page on a direct request for the jewellery category, so no jewellery figure is printed here.",
+   "The release dates itself. The Census Bureau published this estimate on 16 September under CB26-153. A trade write-up dated 22 September is where the figure reached the jewellery press.",
+   "The desk's view: If you benchmark your own August: the national number is $773.9 billion and 6.0% above a year ago, with no jewellery cut inside it. If you read the monthly print: 1.2% carries a 0.4-point margin, which puts the true change somewhere between 0.8% and 1.6%. What this is not: a jewellery figure. Nothing in this release measures the jewellery trade."
+  ]
+ },
+ {
   "slug": "twenty-six-five-for-the-cheich",
   "desk": "watches",
   "date": "2026-09-23",
-  "lead": true,
+  "lead": false,
   "kicker": "Watch auctions",
   "title": "Sotheby's sells a Cartier Cheich for HK$26.52m in Hong Kong",
   "seo_title": "Cartier Cheich sells for HK$26,520,000 at Sotheby's Hong Kong, a record for the maker",
@@ -493,6 +723,21 @@
     "title": "LBMA gold price PM, 18 September 2026 fix (4,348.15)",
     "url": "https://prices.lbma.org.uk/json/gold_pm.json",
     "published": "2026-09-18"
+   },
+   {
+    "title": "LBMA silver price, 18 September 2026 fix (67.035)",
+    "url": "https://prices.lbma.org.uk/json/silver.json",
+    "published": "2026-09-18"
+   },
+   {
+    "title": "LBMA platinum price PM, 18 September 2026 fix (1,793.20)",
+    "url": "https://prices.lbma.org.uk/json/platinum_pm.json",
+    "published": "2026-09-18"
+   },
+   {
+    "title": "LBMA palladium price PM, 18 September 2026 fix (1,315.50)",
+    "url": "https://prices.lbma.org.uk/json/palladium_pm.json",
+    "published": "2026-09-18"
    }
   ],
   "body": [
@@ -501,7 +746,8 @@
    "The range was wider. The board's session high and low on gold were $4,384.30 and $4,339.30, a range of $45.00, larger than the net move.",
    "Two prices exist. At the same tick the ask read $4,350.20 on gold and $66.382 on silver, above the bid printed here. JM Bullion's pages, stamped three minutes later, publish the ask at $4,365.06 on gold, 0.34% above Kitco's.",
    "The fix lags. LBMA's newest published fixes are dated 18 September, so no London benchmark exists yet for this session. Friday's London PM gold fix of $4,348.15 sits five cents under Monday's screen bid.",
-   "The desk's view: If you buy metal this week: gold is $28.80 cheaper than Friday's mark and the other three are effectively unchanged. If you price jewellery in gold: a 0.66% move does not reprice a ticket, and the overnight range was $45 an ounce. What this is not: a trend. One reading against one prior mark, with no weekly direction claimed."
+   "The desk's view: If you buy metal this week: gold is $28.80 cheaper than Friday's mark and the other three are effectively unchanged. If you price jewellery in gold: a 0.66% move does not reprice a ticket, and the overnight range was $45 an ounce. What this is not: a trend. One reading against one prior mark, with no weekly direction claimed.",
+   "Corrected 24 September 2026: this article said \"LBMA's newest published fixes are dated 18 September\" - a claim covering all four metals - while citing only the London gold feed. The three other LBMA feeds were re-fetched on 24 September and each confirms an 18 September point and no later one before 21 September: silver 67.035, platinum PM 1,793.20, palladium PM 1,315.50. They are now listed in the sources. Every figure was correct as published; only the citation was short."
   ],
   "lead": false
  },
