@@ -3,7 +3,7 @@
   "slug": "sixty-one-sixty-off-gold",
   "desk": "gold-metals",
   "date": "2026-09-24",
-  "lead": true,
+  "lead": false,
   "kicker": "Metals",
   "title": "Gold sheds $61.60 to $4,254.50, silver and platinum fall further",
   "seo_title": "Gold falls $61.60 to $4,254.50 as silver drops 2.45% and platinum 2.41%",
@@ -15200,5 +15200,281 @@
    "The desk's view: If you clear on DGCX: the counterparty system is being replaced and no cutover date has been published. If you hold TCS: the market priced the win at 5.19% on the day, on one outlet's reading. What this is not: a contract value. Neither side published what the deal is worth."
   ],
   "lead": false
+ },
+ {
+  "slug": "fourteen-one-for-a-ring",
+  "desk": "retail-tech",
+  "date": "2026-09-25",
+  "lead": true,
+  "kicker": "Lead Story · Retail & Technology Desk",
+  "title": "Oura's $44 top IPO price values a ring at $14.1bn",
+  "seo_title": "Oura IPO: a $40-$44 range values the ring maker at $12.8bn to $14.1bn",
+  "dek": "The prospectus filed with the SEC on 21 September puts 50 million shares on sale, 73% of them from existing holders. Eli Lilly and Dragoneer have signalled $400m of interest.",
+  "byline": "The Retail Desk",
+  "minutes": 4,
+  "tags": [
+   "oura",
+   "ipo",
+   "sec",
+   "wearables",
+   "prada",
+   "nasdaq",
+   "retail"
+  ],
+  "sources": [
+   {
+    "title": "Oura Inc. Form S-1/A (preliminary prospectus, dated 21 September 2026)",
+    "url": "https://www.sec.gov/Archives/edgar/data/2133022/000119312526396051/d119865ds1a.htm",
+    "published": "2026-09-21"
+   },
+   {
+    "title": "Oura Inc. filing history, SEC EDGAR (CIK 0002133022)",
+    "url": "https://data.sec.gov/submissions/CIK0002133022.json",
+    "published": "2026-09-24"
+   },
+   {
+    "title": "Prada SpA (1913.HK) quote, market capitalisation HK$97.80bn at the 25 September Hong Kong close",
+    "url": "https://stockanalysis.com/quote/hkg/1913/",
+    "published": "2026-09-25"
+   },
+   {
+    "title": "Oura Targets Up to $15.6 Billion Valuation in IPO, Surpassing Prada and Lululemon, JCK",
+    "url": "https://www.jckonline.com/editorial-article/oura-targets-15-6-billion-ipo/",
+    "published": "2026-09-23"
+   }
+  ],
+  "body": [
+   "A ring clears Prada. Oura Inc. set an IPO range of $40 to $44 a share in its 21 September prospectus. On that document's own post-offering share count, the top of the range values the company at $14.12bn.",
+   "Most shares are secondary. Of the shares offered, Oura is selling 13,500,000 and existing stockholders 36,500,000, or 73.0% of the total. Oura receives none of the stockholders' proceeds.",
+   "Two investors pre-committed. Eli Lilly indicated interest in up to $100.0m of stock and Dragoneer funds up to $300.0m. Together that is 18.2% of the offering at the top of the range.",
+   "Revenue nearly doubled. Revenue reached $1,214.5m in the nine months to 30 June, against $697.6m a year earlier. That is 74.1% growth.",
+   "Profit is real. Net income was $60.8m in the same nine months, against $1.6m a year earlier. Gross margin widened to 55%.",
+   "Membership grew fastest. Membership revenue more than doubled to $240.5m, from $108.8m. That is 19.8% of total revenue.",
+   "One cost jumped. Cost of revenue carried an $84.4m increase in warranty expense. The prospectus attributes it to battery performance issues on certain Oura Ring 4 cohorts.",
+   "Scale is still small. IDC put global wearable shipments at about 212 million units in the year to 30 June. Oura sold 3.6 million rings over the same year.",
+   "One word, once. The prospectus uses the word jewelry a single time, in the phrase \"jewelry-like design\". The ring weighs as little as two grams.",
+   "New to wearables. Oura reports that 33% of new members say it is their first wearable device.",
+   "The desk's view: If you sell fine jewellery: a finger-worn device is about to be worth more than Prada, and the comparison is market value, not revenue. If you watch category spend: Oura took $240.5m of membership revenue in nine months, 19.8% of its total, which is recurring money a jeweller cannot bill. What this is not: a priced deal. The range is indicative and the offering prices 29 September. The $15.6bn figure widely reported is a fully diluted number on a share base this prospectus does not set out."
+  ]
+ },
+ {
+  "slug": "twenty-seven-seventy-two-in-mumbai",
+  "desk": "diamonds",
+  "date": "2026-09-25",
+  "lead": false,
+  "kicker": "Diamonds Desk · Mumbai",
+  "title": "GJEPC puts FY2025-26 exports at $27.72bn, members at 10,910",
+  "seo_title": "GJEPC 60th AGM: FY2025-26 gem and jewellery exports US$27.72bn, membership 10,910",
+  "dek": "The council's 60th annual meeting sat at the Bharat Diamond Bourse on 23 September. Chairman Kirit Bhansali counted four free trade agreements signed in the year, with the UK, EU, Oman and New Zealand.",
+  "byline": "The Diamonds Desk",
+  "minutes": 3,
+  "tags": [
+   "gjepc",
+   "india",
+   "exports",
+   "ftas",
+   "mumbai",
+   "bharat-diamond-bourse"
+  ],
+  "sources": [
+   {
+    "title": "GJEPC Holds 60th AGM, Reviews FY2025-26 Performance and Industry Priorities",
+    "url": "https://www.gjepc.org/news_detail.php?news=gjepc-holds-60th-agm-reviews-fy2025-26-performance-and-industry-priorities-1",
+    "published": "2026-09-23"
+   }
+  ],
+  "body": [
+   "India's council counts $27.72bn. GJEPC told its 60th annual general meeting that Indian gem and jewellery exports stood at US$27.72bn in FY2025-26. Membership rose to 10,910 over the same year.",
+   "Four were signed. Bhansali named agreements with the UK, the EU, Oman and New Zealand as signed during FY2025-26.",
+   "Two already ran. The UAE CEPA and Australia ECTA predate the year. The council says the set gives zero or near-zero duty access in several major markets.",
+   "Demand moved unevenly. The chairman cited the UAE, Hong Kong, Australia, Canada and France as stronger markets in the year.",
+   "Value-added grew. He named studded gold, silver and platinum jewellery as growth categories, set against weak global demand and changing US tariff policy.",
+   "Accounts were adopted. The agenda covered audited standalone and consolidated statements for FY2025-26 and branch auditor appointments.",
+   "Ten seats were confirmed. Members considered resolutions regularising 10 directors earlier appointed as additional directors. CNK & Associates LLP was proposed as statutory auditors for five years.",
+   "The desk's view: If you export from India: four new agreements covering the UK, EU, Oman and New Zealand now sit alongside the UAE CEPA and Australia ECTA. If you buy Indian goods: the council names the UAE, Hong Kong, Australia, Canada and France as its stronger markets in the year. What this is not: a growth figure. The council gave the FY2025-26 total and no prior-year comparison, so nothing here says exports rose or fell."
+  ]
+ },
+ {
+  "slug": "year-five-of-a-ten-year-deal",
+  "desk": "diamonds",
+  "date": "2026-09-25",
+  "lead": false,
+  "kicker": "Diamonds Desk · New York",
+  "title": "Boko ties diamond demand to 20,000 Okavango community members",
+  "seo_title": "Duma Boko links natural diamond demand to Okavango Eternal, now in year five of ten",
+  "dek": "Botswana's president spoke in New York on 23 September at a De Beers and National Geographic event. He announced a second phase for Okavango Eternal, the partnership now in year five of ten.",
+  "byline": "The Diamonds Desk",
+  "minutes": 3,
+  "tags": [
+   "botswana",
+   "de-beers",
+   "okavango",
+   "national-geographic",
+   "natural-diamonds",
+   "provenance"
+  ],
+  "sources": [
+   {
+    "title": "Botswana's President Makes the Case for Natural Diamonds, JCK (Sam Cooley)",
+    "url": "https://www.jckonline.com/editorial-article/botswana-natural-diamonds-okavango/",
+    "published": "2026-09-24"
+   },
+   {
+    "title": "De Beers reports Scope 1 and 2 emissions 14% below 2021 in its 2025 Sustainability Report, Carat Capital",
+    "url": "https://caratcapital.org/a-de-beers-cuts-fourteen-percent",
+    "published": "2026-09-23"
+   }
+  ],
+  "body": [
+   "Botswana pitches conservation. President Duma Boko told a De Beers and National Geographic event in New York that buying natural diamonds funds Okavango conservation. He announced a second phase for the Okavango Eternal partnership.",
+   "Three strands were listed. Phase two covers community-led livelihoods, cross-border tourism and habitat protection, across Angola, Namibia and Botswana.",
+   "The clock is halfway. Okavango Eternal began in 2021 on a ten-year term. This is its fifth year, so half the term remains.",
+   "A stake matters. Botswana owns 15% of De Beers while the sale of the company is running, and Boko spoke from a De Beers platform.",
+   "Two calendars overlapped. The appearance fell in the same week as Climate Week NYC and the UN General Assembly.",
+   "The river crosses borders. Rainfall in Angola feeds the system, which runs through Namibia before reaching the Delta in Botswana.",
+   "A report measured it. De Beers' 2025 sustainability report, covered here on 23 September, credited Okavango Eternal with supporting Angola's first Ramsar wetland. Boko said his country's diamond story \"is not simply one of extraction\".",
+   "The desk's view: If you sell provenance: Boko's claim is specific and checkable, naming the Angolan highlands, the Okavango source waters and more than 20,000 community members. If you follow the De Beers sale: Botswana holds 15% of the company and its president was on a De Beers stage in New York. What this is not: a funding figure. No money was attached to phase two at the event, and no conservation spend per carat was published."
+  ]
+ },
+ {
+  "slug": "forty-two-ten-back-on-gold",
+  "desk": "gold-metals",
+  "date": "2026-09-25",
+  "lead": false,
+  "kicker": "Gold & Metals Desk · The Tape",
+  "title": "Gold rises $42.10 to $4,296.60 after Thursday's four-metal fall",
+  "seo_title": "Gold rises $42.10 to $4,296.60 as silver gains 1.45% and platinum 0.92%",
+  "dek": "Silver gained 1.45% and platinum 0.92% on the Kitco bid at 06:07 ET, against Thursday's marks. London's newest fixes, all dated 24 September, still point the other way.",
+  "byline": "The Metals Desk",
+  "minutes": 3,
+  "tags": [
+   "gold",
+   "silver",
+   "platinum",
+   "palladium",
+   "lbma",
+   "kitco"
+  ],
+  "sources": [
+   {
+    "title": "Precious metals live board, Kitco (press-time re-read, bid basis)",
+    "url": "https://www.kitco.com/price/precious-metals",
+    "published": "2026-09-25T06:07:59Z"
+   },
+   {
+    "title": "Spot metal quotes XAU=, XAG=, XPT=, XPD=, CNBC",
+    "url": "https://www.cnbc.com/quotes/XAU=",
+    "published": "2026-09-25T06:10:03-04:00"
+   },
+   {
+    "title": "LBMA gold price PM, 24 September 2026 fix (4,266.40)",
+    "url": "https://prices.lbma.org.uk/json/gold_pm.json",
+    "published": "2026-09-24"
+   },
+   {
+    "title": "LBMA silver price, 24 September 2026 fix (63.58)",
+    "url": "https://prices.lbma.org.uk/json/silver.json",
+    "published": "2026-09-24"
+   },
+   {
+    "title": "LBMA platinum price PM, 24 September 2026 fix (1,753.60)",
+    "url": "https://prices.lbma.org.uk/json/platinum_pm.json",
+    "published": "2026-09-24"
+   },
+   {
+    "title": "LBMA palladium price PM, 24 September 2026 fix (1,269.75)",
+    "url": "https://prices.lbma.org.uk/json/palladium_pm.json",
+    "published": "2026-09-24"
+   }
+  ],
+  "body": [
+   "All four metals rise. Spot gold read $4,296.60 an ounce at press time, $42.10 above its 24 September mark. Silver, platinum and palladium each rose too, and silver rose furthest in percentage terms.",
+   "One metal moved most. Silver gained 1.45%, the largest percentage move on the board. Palladium's 0.24% was the smallest.",
+   "The range was wide. Gold's session high and low on the same board were $4,299.60 and $4,255.90, a range of $43.70.",
+   "The fix points down. LBMA's newest published fixes are all dated 24 September and all four fell: gold to $4,266.40, silver to $63.58.",
+   "The screen sits higher. Gold's press-time bid is $30.20 above Thursday's PM fix, 0.71% higher. Palladium's bid is $26.75 below its own fix.",
+   "Two prices exist. At the same tick the ask read $4,298.60 on gold and $64.753 on silver, above the bid printed here.",
+   "A second board agrees. CNBC's spot quotes, stamped 06:10 ET, read $4,301.09 on gold and $64.6788 on silver, within 0.15% of Kitco's mid.",
+   "The desk's view: If you buy metal this session: gold is $42.10 dearer than Thursday's mark, silver $0.925 dearer and platinum $16.00. If you price jewellery in gold: a 0.99% move changes a gram cost, not a ticket, and the session range on gold was $43.70. What this is not: a recovery of Thursday's fall. Gold is still $19.50 below its 23 September mark of $4,316.10, so two sessions have not been made back."
+  ]
+ },
+ {
+  "slug": "six-percent-to-december-twenty-four",
+  "desk": "retail-tech",
+  "date": "2026-09-25",
+  "lead": false,
+  "kicker": "Retail & Technology Desk",
+  "title": "Mastercard forecasts 6% US holiday growth, online up 11%",
+  "seo_title": "Mastercard forecasts 6% US holiday sales growth, 11% online and 3.6% in store",
+  "dek": "In-store sales are put at 3.6% for 1 November to 24 December, and Mastercard says higher prices account for about half the rise. It names energy costs and AI-driven demand.",
+  "byline": "The Retail Desk",
+  "minutes": 3,
+  "tags": [
+   "mastercard",
+   "holiday",
+   "us-retail",
+   "forecast",
+   "bain",
+   "pricing"
+  ],
+  "sources": [
+   {
+    "title": "Mastercard: US Holiday Shopping Growth to Reach Four-Year High, Rapaport (Suzanne Watkin)",
+    "url": "https://rapaport.com/news/mastercard-us-holiday-shopping-growth-to-reach-four-year-high/",
+    "published": "2026-09-24"
+   },
+   {
+    "title": "Bain puts US holiday sales above $1 trillion, up 4.5%, Carat Capital",
+    "url": "https://caratcapital.org/a-a-trillion-and-the-jewelry-case",
+    "published": "2026-09-07"
+   }
+  ],
+  "body": [
+   "Half the growth is price. Mastercard forecasts US holiday sales up 6% from 1 November to 24 December, its strongest in four years. It says higher prices account for about half the increase.",
+   "The gap is wide. Mastercard puts online growth at 11% and in-store at 3.6%. Online is forecast to grow about three times as fast.",
+   "November takes more. Cyber Monday falls in November this year, which Mastercard says shifts online sales into the month.",
+   "Dollars are not units. Mastercard attributes about half the increase to higher prices, naming energy costs and AI-driven demand.",
+   "The calendar shortens. Thanksgiving falls late, as in 2025, shortening the run to Christmas and pulling promotions earlier.",
+   "Two houses disagree. Bain put US holiday sales up 4.5%, reported here on 7 September. Mastercard's 6% is 1.5 points higher.",
+   "Methods differ. Mastercard reads its own transaction data. Bain's figure arrived alongside a survey-based view of jewellery intent, and neither is restated here.",
+   "The desk's view: If you plan holiday stock: about half of a 6% rise is price, so the volume signal is nearer 3%, and orders should be set against units rather than dollars. If you set online spend: Mastercard puts online growth at 11% against 3.6% in store, and Cyber Monday falls in November this year. What this is not: a jewellery forecast. This is all US retail on Mastercard's transaction data, with no category split published for jewellery."
+  ]
+ },
+ {
+  "slug": "a-timekeeper-for-the-thirty-eighth",
+  "desk": "watches",
+  "date": "2026-09-25",
+  "lead": false,
+  "kicker": "Watches Desk · Naples",
+  "title": "Richard Mille takes GB1 timekeeping for the 38th America's Cup",
+  "seo_title": "Richard Mille named Official Timekeeping Partner of GB1 for the 38th America's Cup",
+  "dek": "The British challenger races the second preliminary regatta at Naples from 24 to 27 September, and will launch a reconfigured AC75 by the end of 2026. No terms were disclosed.",
+  "byline": "The Watches Desk",
+  "minutes": 2,
+  "tags": [
+   "richard-mille",
+   "gb1",
+   "americas-cup",
+   "sponsorship",
+   "naples",
+   "sailing"
+  ],
+  "sources": [
+   {
+    "title": "Richard Mille announced as Official Timekeeping Partner of GB1 ahead of the 2027 America's Cup, Pressmare",
+    "url": "https://www.pressmare.it/en/team/gb1/2026-09-24/richard-mille-official-timekeeping-partner-america-cup-92945",
+    "published": "2026-09-24"
+   }
+  ],
+  "body": [
+   "No price was published. Richard Mille has become Official Timekeeping Partner of GB1, the British challenger for the 38th America's Cup in Naples in 2027. The announcement carried no financial terms.",
+   "The hull is kept. GB1 retains the core structural hull from its 2024 campaign, with a rebuilt internal layout for five sailing cockpits.",
+   "The systems are new. The team lists battery-based energy storage, upgraded control electronics, appendage interfaces and foil systems for the 2027 rule cycle.",
+   "The regatta is one-design. Six nations race AC40 foiling yachts at Naples from 24 to 27 September, GB1's first racing on those waters.",
+   "A fourth attempt. The British team returns for its fourth America's Cup campaign, representing the Royal Yacht Squadron as Challenger of Record.",
+   "Precision is the pitch. Peter Harrison, chief executive of Richard Mille EMEA, said the \"38th America's Cup rewards precision, relentless innovation and resilience\".",
+   "The sport is old. The trophy dates to 1851, when the schooner America sailed to Britain to race the British fleet.",
+   "The desk's view: If you retail the brand: a sailing tie gives a counter a story with dates on it, and the first regatta window closes on 27 September. If you track sponsorship value: nothing is published, and no fee, term or activation budget appears in the announcement. What this is not: a watch launch. No model, reference or price is attached to the partnership, only the naming of a timekeeping partner."
+  ]
  }
 ]

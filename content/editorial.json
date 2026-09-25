@@ -121627,5 +121627,1211 @@
    "slug": "thirteen-hundred-under-the-january-high",
    "why": "What the same holiday quarter looks like priced in gold at the counter."
   }
+ },
+ "fourteen-one-for-a-ring": {
+  "v": 3,
+  "kicker": "Retail & Technology",
+  "figures": {
+   "asof": "Oura Inc. Form S-1/A, filed with the SEC 21 September 2026 · market values are this desk's own arithmetic on the prospectus's own post-offering share count of 320,945,459",
+   "cells": [
+    {
+     "n": "$14.12bn",
+     "dir": "up",
+     "label": "Market value at $44",
+     "q": "320,945,459 × $44",
+     "src": 0
+    },
+    {
+     "n": "$12.84bn",
+     "dir": "up",
+     "label": "Market value at $40",
+     "q": "bottom of the range",
+     "src": 0
+    },
+    {
+     "n": "$2.20bn",
+     "dir": "flat",
+     "label": "Gross offering at $44",
+     "q": "$594m to Oura",
+     "src": 0
+    },
+    {
+     "n": "$1,214.5m",
+     "dir": "up",
+     "label": "Revenue, 9M to 30 June",
+     "q": "+74.1% on $697.6m",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "A ring clears Prada.",
+   "text": "Oura Inc. set an IPO range of $40 to $44 a share in its 21 September prospectus. On that document's own post-offering share count, the top of the range values the company at $14.12bn."
+  },
+  "means": [
+   {
+    "who": "If you sell fine jewellery:",
+    "text": "A finger-worn device is about to be worth more than Prada. The comparison is market value, not revenue."
+   },
+   {
+    "who": "If you watch category spend:",
+    "text": "Oura took $240.5m of membership revenue in nine months, 19.8% of its total. That is recurring money a jeweller cannot bill."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A priced deal. The range is indicative and the offering prices 29 September. The $15.6bn figure widely reported is a fully diluted number on a share base this prospectus does not set out."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · The offering at both ends of its own range",
+   "asof": "Oura Inc. Form S-1/A cover, 21 September 2026 · Prada at the 25 September Hong Kong close",
+   "cols": [
+    "Measure",
+    "At $40",
+    "At $44",
+    "Basis"
+   ],
+   "rows": [
+    [
+     "Market value, 320,945,459 shares",
+     "$12.84bn",
+     "$14.12bn",
+     "Desk arithmetic"
+    ],
+    [
+     "Gross offering, 50,000,000 shares",
+     "$2.00bn",
+     "$2.20bn",
+     "Prospectus cover"
+    ],
+    [
+     "To Oura, 13,500,000 shares",
+     "$540m",
+     "$594m",
+     "Prospectus cover"
+    ],
+    [
+     "To selling stockholders, 36,500,000",
+     "$1.46bn",
+     "$1.61bn",
+     "Prospectus cover"
+    ],
+    [
+     "Prada SpA market capitalisation",
+     "$12.46bn–$12.62bn",
+     "$12.46bn–$12.62bn",
+     "HK$97.80bn at the peg band"
+    ]
+   ],
+   "hi": 0,
+   "note": "<b>The share count</b> the prospectus states that on completion Oura will have 320,945,459 shares of common stock outstanding, measured from 30 June 2026 and after the preferred, SAFE and RSU conversions it describes. Every market value in this table is that count multiplied by the stated price and nothing else: 320,945,459 × $44 = $14,121,600,196, and × $40 = $12,837,818,360. <b>Prada, converted with the rate shown</b> Prada SpA closed at HK$38.68 on 25 September with a market capitalisation of HK$97.80bn. The Hong Kong dollar's peg band is 7.75–7.85 to the US dollar, so 97.80/7.85 = $12.46bn and 97.80/7.75 = $12.62bn. At every rate inside that band Oura's value at the <i>bottom</i> of its range is the larger figure. <b>The cornerstone arithmetic</b> Eli Lilly's stated interest of up to $100.0m and Dragoneer's of up to $300.0m sum to $400.0m, which is 18.2% of the $2.20bn offering at the top of the range. Indications of interest are not binding commitments and the prospectus says so on its cover. <b>The two valuations in circulation</b> JCK, citing Bloomberg, reported a market value of about $14.1bn, which is the same arithmetic as the first row here; citing Reuters it reported about $15.6bn fully diluted. Those are two different share bases, not a disagreement about the price, and the prospectus cover sets out only the first. The $15.6bn base is not published there and is not reconstructed here. <b>WWD's figure, named separately</b> JCK also relays a WWD figure of about $12.2bn for Prada. This desk did not use it; the HK$97.80bn line above was fetched and converted here so the arithmetic can be checked."
+  },
+  "sections": [
+   {
+    "h": "Existing holders sell three-quarters",
+    "p": [
+     {
+      "lead": "Most shares are secondary.",
+      "text": "Of the shares offered, Oura is selling 13,500,000 and existing stockholders 36,500,000, or 73.0% of the total. Oura receives none of the stockholders' proceeds."
+     },
+     {
+      "lead": "Two investors pre-committed.",
+      "text": "Eli Lilly indicated interest in up to $100.0m of stock and Dragoneer funds up to $300.0m. Together that is 18.2% of the offering at the top of the range."
+     }
+    ]
+   },
+   {
+    "h": "Revenue up 74%, and profitable",
+    "p": [
+     {
+      "lead": "Revenue nearly doubled.",
+      "text": "Revenue reached $1,214.5m in the nine months to 30 June, against $697.6m a year earlier. That is 74.1% growth."
+     },
+     {
+      "lead": "Profit is real.",
+      "text": "Net income was $60.8m in the same nine months, against $1.6m a year earlier. Gross margin widened to 55%."
+     },
+     {
+      "lead": "Membership grew fastest.",
+      "text": "Membership revenue more than doubled to $240.5m, from $108.8m. That is 19.8% of total revenue."
+     }
+    ]
+   },
+   {
+    "h": "A warranty charge on batteries",
+    "p": [
+     {
+      "lead": "One cost jumped.",
+      "text": "Cost of revenue carried an $84.4m increase in warranty expense. The prospectus attributes it to battery performance issues on certain Oura Ring 4 cohorts."
+     },
+     {
+      "lead": "Scale is still small.",
+      "text": "IDC put global wearable shipments at about 212 million units in the year to 30 June. Oura sold 3.6 million rings over the same year."
+     }
+    ]
+   },
+   {
+    "h": "The prospectus says jewelry once",
+    "p": [
+     {
+      "lead": "One word, once.",
+      "text": "The prospectus uses the word jewelry a single time, in the phrase \"jewelry-like design\". The ring weighs as little as two grams."
+     },
+     {
+      "lead": "New to wearables.",
+      "text": "Oura reports that 33% of new members say it is their first wearable device."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "29 September 2026",
+    "what": "The date JCK, citing Reuters, gives for pricing. The prospectus cover is marked subject to completion and sets no date."
+   },
+   {
+    "when": "On pricing",
+    "what": "First trade on the Nasdaq Global Select Market under the ticker OURA, the symbol applied for in the filing."
+   },
+   {
+    "when": "After 30 September 2026",
+    "what": "Oura's fiscal year end per EDGAR, so its first annual report as a public company covers a year that closes days after the offering."
+   }
+  ],
+  "depth": {
+   "reverse": "A repriced deal. An offering can price outside its indicative range in either direction, and the range in this prospectus is explicitly subject to completion. A price below about $38.04 would put the post-offering market value under HK$97.80bn converted at 7.75, which is the point where the comparison with Prada stops holding at every rate in the peg band. A revised amendment could also change the share count this arithmetic rests on.",
+   "built": {
+    "title": "Market value and fully diluted value are two numbers",
+    "text": "A market capitalisation multiplies the shares that will actually be outstanding by the price. A fully diluted valuation adds instruments that could become shares later, such as unexercised options and unvested awards, and so it is always the larger of the two on the same price. Neither is wrong and they are not interchangeable. The gap between the $14.1bn and $15.6bn figures reported for this offering is that choice of denominator, not a disagreement about what a share costs. A prospectus cover states the outstanding count because that is the one an investor can check; the diluted base sits in the notes and varies with the assumptions applied to it. Comparing a fully diluted figure for one company with a market capitalisation for another manufactures a gap that is arithmetic rather than news, which is why both numbers here are built the same way on both sides."
+   },
+   "method": "The prospectus was fetched directly from SEC EDGAR rather than through a summariser: https://www.sec.gov/Archives/edgar/data/2133022/000119312526396051/d119865ds1a.htm, 200, 3,011,086 bytes, which reduced to 1,068,527 characters of text after markup was stripped. Every figure attributed to it here was read out of that text. The cover carries \"50,000,000 Shares\", \"We are offering 13,500,000 shares of our common stock, and the selling stockholders identified in this prospectus are offering 36,500,000 shares\", the range \"between $40.00 and $44.00\", the Nasdaq symbol \"OURA\", and the two cornerstone indications at \"up to $100.0 million\" for Eli Lilly and Company and \"up to $300.0 million\" for funds affiliated with Dragoneer Investment Group, LLC. The share count 320,945,459 is the prospectus's own post-offering figure, stated as of 30 June 2026 after the Preferred Stock Conversion, the SAFE Conversion and the RSU Net Settlement. The revenue lines are the prospectus's own consolidated statements of operations in thousands: total revenue 1,214,506 and 697,569 for the nine months to 30 June 2026 and 2025, hardware 973,980 and 588,726, membership 240,526 and 108,843. The percentages are this desk's divisions of those figures, shown so they can be checked: 1,214,506/697,569 = 174.11%, so 74.1% growth, which the prospectus itself rounds to 74%; 240,526/1,214,506 = 19.80%; 240,526/108,843 = 220.98%. Net income of $60.8m and $1.6m and gross margins of 55% and 51% are the prospectus's own summary figures; the margin recomputes as (1,214,506-552,339)/1,214,506 = 54.5%, consistent with the 55% the document states. The 212 million wearable-unit figure is the prospectus's own citation of International Data Corporation and is not independently verified here. The prospectus states approximately 2% penetration on 3.6 million Rings Sold; 3.6/212 = 1.70%, so the source's own rounding is generous and no share figure is printed in this article. The single use of \"jewelry\" was established by counting occurrences of the string in the stripped text of the whole document: one, in \"Our jewelry-like design enables seamless wear across settings\". The filing history, including the 21 September S-1/A and the 3 September S-1, was read from EDGAR's own submissions feed for CIK 0002133022, which is also where the 30 September fiscal year end and the Delaware incorporation come from. Prada's market capitalisation was fetched separately at https://stockanalysis.com/quote/hkg/1913/, 200, 135,455 bytes, reading HK$38.68 and a market capitalisation of HK$97.80bn stamped 25 September 2026 4:08 PM HKT; the page labels the price delayed. Yahoo Finance was tried first as a second door and returned 429, so the Hong Kong figure rests on one page and is converted across the whole peg band rather than at a single rate, which is the disclosed limit on it. No 29 September pricing date appears on the prospectus cover; that date is JCK's report of Reuters and is attributed to them wherever it appears. This desk did not verify the Lululemon or Dick's Sporting Goods comparisons JCK relays, and does not print them.",
+   "prior": [
+    {
+     "date": "2026-09-07",
+     "slug": "a-trillion-and-the-jewelry-case",
+     "claim": "Bain puts US holiday sales above $1 trillion, up 4.5%"
+    },
+    {
+     "date": "2026-09-19",
+     "slug": "nine-brands-for-twenty-seven",
+     "claim": "Watches and Wonders adds 9 brands to its 2027 roster"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Oura Inc. Form S-1/A (preliminary prospectus, dated 21 September 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/2133022/000119312526396051/d119865ds1a.htm",
+     "published": "2026-09-21"
+    },
+    {
+     "title": "Oura Inc. filing history, SEC EDGAR (CIK 0002133022)",
+     "url": "https://data.sec.gov/submissions/CIK0002133022.json",
+     "published": "2026-09-24"
+    },
+    {
+     "title": "Prada SpA (1913.HK) quote, market capitalisation HK$97.80bn at the 25 September Hong Kong close",
+     "url": "https://stockanalysis.com/quote/hkg/1913/",
+     "published": "2026-09-25"
+    },
+    {
+     "title": "Oura Targets Up to $15.6 Billion Valuation in IPO, Surpassing Prada and Lululemon, JCK",
+     "url": "https://www.jckonline.com/editorial-article/oura-targets-15-6-billion-ipo/",
+     "published": "2026-09-23"
+    }
+   ],
+   "corrections": []
+  },
+  "next": {
+   "slug": "six-percent-to-december-twenty-four",
+   "why": "The other retail number filed this morning: Mastercard's 6% holiday forecast, and how much of it is price."
+  }
+ },
+ "twenty-seven-seventy-two-in-mumbai": {
+  "v": 3,
+  "kicker": "Diamonds",
+  "figures": {
+   "asof": "GJEPC's own release on the 60th annual general meeting, held 23 September 2026 at the Bharat Diamond Bourse, Mumbai, in hybrid mode",
+   "cells": [
+    {
+     "n": "US$27.72bn",
+     "dir": "flat",
+     "label": "Gem & jewellery exports, FY2025-26",
+     "q": "council's own figure",
+     "src": 0
+    },
+    {
+     "n": "10,910",
+     "dir": "up",
+     "label": "GJEPC membership",
+     "q": "increased during the year",
+     "src": 0
+    },
+    {
+     "n": "4",
+     "dir": "up",
+     "label": "FTAs signed in the year",
+     "q": "UK, EU, Oman, New Zealand",
+     "src": 0
+    },
+    {
+     "n": "60th",
+     "dir": "flat",
+     "label": "Annual general meeting",
+     "q": "23 September, Mumbai",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "India's council counts $27.72bn.",
+   "text": "GJEPC told its 60th annual general meeting that Indian gem and jewellery exports stood at US$27.72bn in FY2025-26. Membership rose to 10,910 over the same year."
+  },
+  "means": [
+   {
+    "who": "If you export from India:",
+    "text": "Four new agreements covering the UK, EU, Oman and New Zealand now sit alongside the UAE CEPA and Australia ECTA."
+   },
+   {
+    "who": "If you buy Indian goods:",
+    "text": "The council names the UAE, Hong Kong, Australia, Canada and France as its stronger markets in the year."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A growth figure. The council gave the FY2025-26 total and no prior-year comparison, so nothing here says exports rose or fell."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · What the 60th AGM put on the record",
+   "asof": "GJEPC release, 23 September 2026 · every line is the council's own",
+   "cols": [
+    "Item",
+    "Detail",
+    "Where it appears"
+   ],
+   "rows": [
+    [
+     "Gem & jewellery exports, FY2025-26",
+     "US$27.72bn",
+     "Chairman's address"
+    ],
+    [
+     "Membership",
+     "10,910",
+     "Chairman's address"
+    ],
+    [
+     "FTAs signed in the year",
+     "UK, EU, Oman, New Zealand",
+     "Chairman's address"
+    ],
+    [
+     "Agreements already in force",
+     "UAE CEPA, Australia ECTA",
+     "Chairman's address"
+    ],
+    [
+     "Directors regularised",
+     "10",
+     "AGM agenda"
+    ],
+    [
+     "Statutory auditors proposed",
+     "CNK & Associates LLP, five years",
+     "AGM agenda"
+    ],
+    [
+     "Scrutiniser",
+     "Pramod Shah & Associates",
+     "AGM procedure"
+    ]
+   ],
+   "hi": 0,
+   "note": "<b>The dateline</b> the release's own body reads \"held its 60th Annual General Meeting (AGM) on 23rd September, 2026, at the Bharat Diamond Bourse, Mumbai, in hybrid mode\", and the page's own stamp reads Sep 23, 2026. The 4 agreements counted in the key figures are the 4 named in the row below: the UK, the EU, Oman and New Zealand. <b>One document, no arithmetic</b> every figure in this table is stated in GJEPC's own release and none of it is derived here. The release gives no prior-year export total, no percentage change and no monthly breakdown, so no growth rate is computed or implied anywhere in this article. <b>The currency is the council's</b> the export total is published as US$27.72 billion by GJEPC itself; no rupee figure is given and none is converted. <b>What the release does not carry</b> it does not state the value of trade covered by the four new agreements, the duty rates they set, a membership figure for the prior year, or the vote counts on any resolution. <b>On the platform</b> the release names Kirit Bhansali as chairman presiding, with Shaunak Parikh, vice chairman; Anil Virani, convener, audit and finance; Sabyasachi Ray, executive director; and Sandeep Sharma, chief financial officer. <b>Procedure</b> the meeting ran physically and virtually with e-voting, and the scrutiniser's report is due within three days of the AGM."
+  },
+  "sections": [
+   {
+    "h": "Six agreements, four of them new",
+    "p": [
+     {
+      "lead": "Four were signed.",
+      "text": "Bhansali named agreements with the UK, the EU, Oman and New Zealand as signed during FY2025-26."
+     },
+     {
+      "lead": "Two already ran.",
+      "text": "The UAE CEPA and Australia ECTA predate the year. The council says the set gives zero or near-zero duty access in several major markets."
+     }
+    ]
+   },
+   {
+    "h": "Five markets named as stronger",
+    "p": [
+     {
+      "lead": "Demand moved unevenly.",
+      "text": "The chairman cited the UAE, Hong Kong, Australia, Canada and France as stronger markets in the year."
+     },
+     {
+      "lead": "Value-added grew.",
+      "text": "He named studded gold, silver and platinum jewellery as growth categories, set against weak global demand and changing US tariff policy."
+     }
+    ]
+   },
+   {
+    "h": "The meeting's own business",
+    "p": [
+     {
+      "lead": "Accounts were adopted.",
+      "text": "The agenda covered audited standalone and consolidated statements for FY2025-26 and branch auditor appointments."
+     },
+     {
+      "lead": "Ten seats were confirmed.",
+      "text": "Members considered resolutions regularising 10 directors earlier appointed as additional directors. CNK & Associates LLP was proposed as statutory auditors for five years."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "By 26 September 2026",
+    "what": "The scrutiniser's report on the e-voting, which Pramod Shah & Associates is to submit within three days of the meeting."
+   },
+   {
+    "when": "Mid-October 2026",
+    "what": "GJEPC's next monthly export and import print, the first dated flow reading after this annual total."
+   },
+   {
+    "when": "FY2026-27",
+    "what": "The first full year in which the UK, EU, Oman and New Zealand agreements can show up in the monthly prints."
+   }
+  ],
+  "depth": {
+   "reverse": "A restated total. An annual figure given in a chairman's address can be revised when the council publishes its audited or month-summed series, and GJEPC's own monthly prints have been revised before. A rupee-denominated total struck at a different exchange rate would also change the dollar figure printed here without any trade having changed.",
+   "built": {
+    "title": "An export total and a monthly print are not the same series",
+    "text": "GJEPC publishes monthly gross export and import figures by category and, separately, annual totals in board and meeting documents. The two are built from the same customs base but they are compiled at different times and can be revised on different clocks, so a full-year figure quoted in September need not equal the sum of the twelve monthly prints as they stood when each was published. A financial year in India runs April to March, so FY2025-26 closed on 31 March 2026, roughly six months before this meeting. That gap is why an annual figure can appear settled while the monthly series behind it is still moving. This paper has covered several of those monthly prints by destination market and category, and none of them carried this annual total."
+   },
+   "method": "The release was fetched directly from GJEPC's own site rather than from a trade-press syndication: 200, 34,581 bytes, and the body text was read out of the served page. The dateline in that body reads \"held its 60th Annual General Meeting (AGM) on 23rd September, 2026, at the Bharat Diamond Bourse, Mumbai, in hybrid mode\", and the page's own date stamp reads Sep 23, 2026. The export figure appears as \"total exports stood at US$27.72 billion\" and the membership figure as \"GJEPC's membership increased to 10,910 during the year\" - both quoted from that page and neither taken from an upstream desk's summary. The four agreements, the two already in force, the five named stronger markets, the three value-added categories, the ten directors, the five-year auditor proposal and the scrutiniser's three-day deadline are each stated in that same body. The archive was checked by opening every hit rather than counting them. A search for \"27.72\", \"$27.7\" and \"27,72\" across the built site returns nothing. A search for \"Bhansali\" returns three files; all three were opened, and they are a Delhi customs grievance meeting in Mumbai and Bart De Wever's Antwerp delegation to India, plus the record index - neither is this meeting. A search for \"Annual General Meeting\" returns nothing and \"10,910\" returns nothing. A search for \"FY2025-26\" returns five articles, each of which was opened: they are per-market and per-category export stories on China, Australia, New Zealand, Russia's cutting cluster and silver assay volumes, and none of them carries a full-year total. Under the Period Rule this is the same entity on a period this paper has not covered - the full financial year and the meeting that reviewed it - so the verdict is new rather than a repeat. No growth rate is stated here because the release states none, and none was constructed from our own archived monthly figures, which are compiled on a different clock.",
+   "prior": [
+    {
+     "date": "2026-09-06",
+     "slug": "de-wever-goes-to-mumbai",
+     "claim": "Antwerp's $19.1bn trade turns to India, with Bhansali on the platform"
+    },
+    {
+     "date": "2026-08-28",
+     "slug": "twenty-five-forty-six-to-new-zealand",
+     "claim": "$25.46m to New Zealand, one of the four markets whose agreement was signed in FY2025-26"
+    },
+    {
+     "date": "2026-08-25",
+     "slug": "five-ninety-four-from-china",
+     "claim": "$594 million from China, a monthly GJEPC print by destination"
+    }
+   ],
+   "sources": [
+    {
+     "title": "GJEPC Holds 60th AGM, Reviews FY2025-26 Performance and Industry Priorities",
+     "url": "https://www.gjepc.org/news_detail.php?news=gjepc-holds-60th-agm-reviews-fy2025-26-performance-and-industry-priorities-1",
+     "published": "2026-09-23"
+    }
+   ],
+   "corrections": []
+  },
+  "next": {
+   "slug": "year-five-of-a-ten-year-deal",
+   "why": "The other diamond story filed this morning, and the other government making a case for its own stones."
+  }
+ },
+ "year-five-of-a-ten-year-deal": {
+  "v": 3,
+  "kicker": "Diamonds",
+  "figures": {
+   "asof": "JCK's report of the De Beers and National Geographic Society event in New York, 23 September 2026, published 24 September",
+   "cells": [
+    {
+     "n": "20,000+",
+     "dir": "flat",
+     "label": "Community members named",
+     "q": "Boko's own figure",
+     "src": 0
+    },
+    {
+     "n": "15%",
+     "dir": "flat",
+     "label": "Botswana's stake in De Beers",
+     "q": "during the sale process",
+     "src": 0
+    },
+    {
+     "n": "Year 5 of 10",
+     "dir": "flat",
+     "label": "Okavango Eternal",
+     "q": "started 2021",
+     "src": 0
+    },
+    {
+     "n": "3",
+     "dir": "flat",
+     "label": "Governments in phase two",
+     "q": "Angola, Namibia, Botswana",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Botswana pitches conservation.",
+   "text": "President Duma Boko told a De Beers and National Geographic event in New York that buying natural diamonds funds Okavango conservation. He announced a second phase for the Okavango Eternal partnership."
+  },
+  "means": [
+   {
+    "who": "If you sell provenance:",
+    "text": "Boko's claim is specific and checkable. He named the Angolan highlands, the Okavango source waters and more than 20,000 community members."
+   },
+   {
+    "who": "If you follow the De Beers sale:",
+    "text": "Botswana holds 15% of the company and its president was on a De Beers stage in New York."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A funding figure. No money was attached to phase two at the event, and no conservation spend per carat was published."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · What was announced, and by whom",
+   "asof": "JCK, 24 September 2026, reporting the 23 September event",
+   "cols": [
+    "Element",
+    "Detail"
+   ],
+   "rows": [
+    [
+     "Event",
+     "De Beers and National Geographic Society, New York, 23 September"
+    ],
+    [
+     "Partnership",
+     "Okavango Eternal, started 2021, ten-year term"
+    ],
+    [
+     "Phase two focus",
+     "Community livelihoods, cross-border tourism, habitat protection"
+    ],
+    [
+     "Governments named",
+     "Angola, Namibia, Botswana"
+    ],
+    [
+     "Botswana's De Beers stake",
+     "15%"
+    ],
+    [
+     "Community members cited",
+     "More than 20,000, Boko's figure"
+    ],
+    [
+     "Also on the platform",
+     "Bogolo Joy Kenewendo, minister of mines and energy; Dr Steve Boyes"
+    ],
+    [
+     "Money attached to phase two",
+     "None published"
+    ]
+   ],
+   "hi": 0,
+   "note": "<b>Whose figures these are</b> the 20,000 community members and the 15% stake are as reported by JCK, the first inside a direct quotation from Boko and the second as JCK's own description of Botswana's shareholding. Neither was independently confirmed at a Botswana government or De Beers document in this run, and that is the disclosed limit on both. <b>The arithmetic on the term</b> Okavango Eternal is described as a 10-year partnership started in 2021 and the event is described as celebrating its fifth year; 2021 plus five reaches 2026, so the two statements agree and the term is half run. <b>What the report does not carry</b> no budget for phase two, no spend per carat, no tonnage or carat figure, and no dated milestone for any of the three strands. <b>The De Beers sale</b> this article states that a sale process is running and that Botswana holds 15%; it makes no claim about the outcome, the bidders or the valuation, all of which this paper has covered separately and none of which was advanced at this event. <b>Named but not quoted</b> Dr Steve Boyes is identified by JCK as founder of the National Geographic Okavango Wilderness Project."
+  },
+  "sections": [
+   {
+    "h": "Phase two names three aims",
+    "p": [
+     {
+      "lead": "Three strands were listed.",
+      "text": "Phase two covers community-led livelihoods, cross-border tourism and habitat protection, across Angola, Namibia and Botswana."
+     },
+     {
+      "lead": "The clock is halfway.",
+      "text": "Okavango Eternal began in 2021 on a ten-year term. This is its fifth year, so half the term remains."
+     }
+    ]
+   },
+   {
+    "h": "The sale sits behind the speech",
+    "p": [
+     {
+      "lead": "A stake matters.",
+      "text": "Botswana owns 15% of De Beers while the sale of the company is running, and Boko spoke from a De Beers platform."
+     },
+     {
+      "lead": "Two calendars overlapped.",
+      "text": "The appearance fell in the same week as Climate Week NYC and the UN General Assembly."
+     }
+    ]
+   },
+   {
+    "h": "The water starts in Angola",
+    "p": [
+     {
+      "lead": "The river crosses borders.",
+      "text": "Rainfall in Angola feeds the system, which runs through Namibia before reaching the Delta in Botswana."
+     },
+     {
+      "lead": "A report measured it.",
+      "text": "De Beers' 2025 sustainability report, covered here on 23 September, credited Okavango Eternal with supporting Angola's first Ramsar wetland."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Undated",
+    "what": "A budget or dated milestone for phase two, neither of which was published at the event."
+   },
+   {
+    "when": "Through 2026",
+    "what": "The De Beers sale process, in which Botswana's 15% carries a right to match an external offer as this paper has reported."
+   },
+   {
+    "when": "2031",
+    "what": "The end of Okavango Eternal's stated ten-year term, counted from its 2021 start."
+   }
+  ],
+  "depth": {
+   "reverse": "A budget. Phase two is a stated intention with three named strands and no money against it; a published figure could make the conservation-financing claim measurable, or show it to be smaller than the framing implies. A change in Botswana's shareholding through the sale would also change the standing from which this case is being made.",
+   "built": {
+    "title": "A provenance claim is a marketing instrument, not an audited one",
+    "text": "When a producing state says that buying a stone funds conservation, the claim links two things that are measured on different books: retail demand for polished goods, and a philanthropic or partnership budget set by a company and a nonprofit. Nothing in a public statement of that shape establishes how much of a given retail price reaches a given river. That is not a reason to dismiss it, because the named objects are real and checkable - a Ramsar designation exists or it does not, acres under management are counted, a partnership has a term - but it is the reason this paper prints the named objects and not the implied chain. De Beers' own sustainability reporting is where the measurable version of this claim lives, and it publishes acres and designations rather than a per-carat contribution. Until a phase-two budget is published, the conservation-financing sentence is a stated position and the acreage and designations are the evidence."
+   },
+   "method": "JCK's page was fetched directly: https://www.jckonline.com/editorial-article/botswana-natural-diamonds-okavango/, 200, 111,463 bytes, plain extractable body text, byline \"By Sam Cooley\", dated 24 September 2026. The event date comes from that body's own dateline, \"Speaking Wednesday, Sept. 23, in New York City at a De Beers and National Geographic Society event\", so the publication date and the event date are one day apart and both are printed here rather than merged. The single quotation used is nine words from Boko as JCK records him; the longer quotation in that report, naming the Angolan highlands and the 20,000 community members, is paraphrased in the desk's view rather than run at length, and its figures are attributed to him. The archive was checked by opening every hit rather than counting them. \"Duma Boko\" returns three files: all three were opened and all three are De Beers sale-process stories from July - Penny's bid, Angola's bid, and Gaborone's response - none of which reports this speech or this partnership announcement. \"Okavango\" returns four articles plus the record index, and each was opened: Messika's Okavango Blue stone in a couture piece; the Okavango Diamond Company's Dubai tender arrangement; Yoram Dvash taking the Okavango Diamond Company chair; and De Beers' 2025 sustainability report, which is the one genuine overlap. That report names Okavango Eternal as background on the 2021 partnership and on Angola's first Ramsar wetland; it covers the 2025 reporting year and it does not contain this New York event, this phase-two announcement or any statement by Boko. Under the Period Rule that is the same partnership on a different period and a different event, so the verdict is advanced rather than repeat, and that prior article is cited here as a source rather than treated as a duplicate. Neither the 15% stake nor the 20,000 figure was re-verified at a Botswana government or De Beers primary in this run, and the table says so on its own face. No claim is made here about the state of the De Beers sale beyond that a process is running, which this paper has documented separately.",
+   "prior": [
+    {
+     "date": "2026-09-23",
+     "slug": "de-beers-cuts-fourteen-percent",
+     "claim": "De Beers credits Okavango Eternal with Angola's first Ramsar wetland and 375,000 acres managed"
+    },
+    {
+     "date": "2026-07-20",
+     "slug": "gaborone-answers-penny",
+     "claim": "Botswana answers Penny: partner, pre-empt, or bring a friend"
+    },
+    {
+     "date": "2026-07-18",
+     "slug": "penny-gets-the-nod",
+     "claim": "Penny gets the nod: De Beers' old boss becomes its likeliest buyer"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Botswana's President Makes the Case for Natural Diamonds, JCK (Sam Cooley)",
+     "url": "https://www.jckonline.com/editorial-article/botswana-natural-diamonds-okavango/",
+     "published": "2026-09-24"
+    },
+    {
+     "title": "De Beers reports Scope 1 and 2 emissions 14% below 2021 in its 2025 Sustainability Report, Carat Capital",
+     "url": "https://caratcapital.org/a-de-beers-cuts-fourteen-percent",
+     "published": "2026-09-23"
+    }
+   ],
+   "corrections": []
+  },
+  "next": {
+   "slug": "twenty-seven-seventy-two-in-mumbai",
+   "why": "The other government trade story of the morning: India's council counts its own year."
+  }
+ },
+ "forty-two-ten-back-on-gold": {
+  "v": 3,
+  "kicker": "Metals",
+  "figures": {
+   "asof": "Kitco board, bid basis, re-read at press time 06:07 ET 25 September 2026 · change measured against the 24 September marks",
+   "cells": [
+    {
+     "n": "$4,296.60",
+     "dir": "up",
+     "label": "Gold spot",
+     "q": "+$42.10, +0.99%",
+     "src": 0
+    },
+    {
+     "n": "$64.503",
+     "dir": "up",
+     "label": "Silver spot",
+     "q": "+$0.925, +1.45%",
+     "src": 0
+    },
+    {
+     "n": "$1,759.00",
+     "dir": "up",
+     "label": "Platinum spot",
+     "q": "+$16.00, +0.92%",
+     "src": 0
+    },
+    {
+     "n": "$1,243.00",
+     "dir": "up",
+     "label": "Palladium spot",
+     "q": "+$3.00, +0.24%",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "All four metals rise.",
+   "text": "Spot gold read $4,296.60 an ounce at press time, $42.10 above its 24 September mark. Silver, platinum and palladium each rose too, and silver rose furthest in percentage terms."
+  },
+  "means": [
+   {
+    "who": "If you buy metal this session:",
+    "text": "Gold is $42.10 dearer than Thursday's mark, silver $0.925 dearer and platinum $16.00."
+   },
+   {
+    "who": "If you price jewellery in gold:",
+    "text": "A 0.99% move changes a gram cost, not a ticket. The session range on gold was $43.70."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A recovery of Thursday's fall. Gold is still $19.50 below its 23 September mark of $4,316.10, so two sessions have not been made back."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · The board against Thursday's marks",
+   "asof": "Kitco, bid basis · 06:07 ET 25 September 2026 against the 24 September marks",
+   "cols": [
+    "Metal",
+    "24 Sep",
+    "25 Sep",
+    "Change",
+    "%"
+   ],
+   "rows": [
+    [
+     "Gold",
+     "4,254.50",
+     "4,296.60",
+     "+42.10",
+     "+0.99%"
+    ],
+    [
+     "Silver",
+     "63.578",
+     "64.503",
+     "+0.925",
+     "+1.45%"
+    ],
+    [
+     "Platinum",
+     "1,743.00",
+     "1,759.00",
+     "+16.00",
+     "+0.92%"
+    ],
+    [
+     "Palladium",
+     "1,240.00",
+     "1,243.00",
+     "+3.00",
+     "+0.24%"
+    ]
+   ],
+   "hi": 0,
+   "note": "<b>Basis</b> every figure is the bid on Kitco's own embedded price data, the convention this tape has carried since 31 August 2026. The ask at the same tick read 4,298.60 on gold, 64.753 on silver, 1,769.00 on platinum and 1,283.00 on palladium. <b>The arithmetic</b> each percentage is this desk's own division of the change by the 24 September mark, shown so it can be checked: 42.10/4,254.50 = 0.9895%; 0.925/63.578 = 1.4549%; 16.00/1,743.00 = 0.9180%; 3.00/1,240.00 = 0.2419%. <b>Second door</b> CNBC's four spot quotes, stamped 06:10 to 06:11 ET: gold 4,301.09, silver 64.6788, platinum 1,763.01, palladium 1,261.17. Compared against Kitco's own mid rather than its bid, because CNBC publishes a single composite last price and not a bid/ask pair: -0.081%, -0.079%, +0.056% and +0.145%. All four agree within rounding and no divergence is disclosed. <b>Not Kitco's own change field</b> the board showed gold +23.20 and +0.543% on this read, measured from its own prior basis; the +42.10 and +0.99% printed here are measured from this paper's own 24 September mark, which is the only basis under which the tape's sessions line up. <b>No market-state claim</b> nothing here says the session was open, closed or thin; the live tick and the session range are the only evidence offered that the cells are not frozen."
+  },
+  "sections": [
+   {
+    "h": "Silver leads the four",
+    "p": [
+     {
+      "lead": "One metal moved most.",
+      "text": "Silver gained 1.45%, the largest percentage move on the board. Palladium's 0.24% was the smallest."
+     },
+     {
+      "lead": "The range was wide.",
+      "text": "Gold's session high and low on the same board were $4,299.60 and $4,255.90, a range of $43.70."
+     }
+    ]
+   },
+   {
+    "h": "London last fixed lower",
+    "p": [
+     {
+      "lead": "The fix points down.",
+      "text": "LBMA's newest published fixes are all dated 24 September and all four fell: gold to $4,266.40, silver to $63.58."
+     },
+     {
+      "lead": "The screen sits higher.",
+      "text": "Gold's press-time bid is $30.20 above Thursday's PM fix, 0.71% higher. Palladium's bid is $26.75 below its own fix."
+     }
+    ]
+   },
+   {
+    "h": "The ask sits above the bid",
+    "p": [
+     {
+      "lead": "Two prices exist.",
+      "text": "At the same tick the ask read $4,298.60 on gold and $64.753 on silver, above the bid printed here."
+     },
+     {
+      "lead": "A second board agrees.",
+      "text": "CNBC's spot quotes, stamped 06:10 ET, read $4,301.09 on gold and $64.6788 on silver, within 0.15% of Kitco's mid."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "25 September 2026",
+    "what": "LBMA's London fixes, struck at 10:30 and 15:00 London, the first benchmark set after this reading."
+   },
+   {
+    "when": "Each 05:00 ET",
+    "what": "The tape's opening mark, against which the next session's change is measured."
+   },
+   {
+    "when": "~20 October 2026",
+    "what": "Swiss customs monthly gold trade figures, the next dated flow reading on the metal."
+   }
+  ],
+  "depth": {
+   "reverse": "A later tick. Spot metal moves through the session and this is one press-time reading; any tick that crosses back below the 24 September marks would contradict the direction printed here. The London fixes cited are Thursday's, so they can confirm Thursday's direction and cannot confirm this session's, and the 25 September fixes had not been struck when this was written.",
+   "built": {
+    "title": "Bid, ask and fix are three different numbers",
+    "text": "A screen bid is what a dealer will pay, a screen ask is what a dealer will sell at, and the difference between them is the spread rather than a disagreement. A London fix is a third thing again: an auction-determined benchmark struck at a set hour and published once, which is why it can sit a long way from a screen price taken at another moment. This tape quotes the bid, and has done since 31 August 2026, so that every comparison across sessions is like for like. Comparing a fix with a screen quote, or a bid with an ask, produces a divergence that is arithmetic rather than news. It also means a screen can be above a fix and below it on two metals at the same instant, which is what the palladium line shows here."
+   },
+   "method": "Kitco's board was fetched at press time and read out of the page's own embedded __NEXT_DATA__ blob rather than off the rendered page, bid quoted; the response was 197,100 bytes and every metal carried its own originalTime of 2026-09-25T06:07:59Z. The 05:00 tape had filed gold 4,293.30, silver 64.454, platinum 1,756.00 and palladium 1,240.00; all four differed at press time, so under the One-Price Rule all four were written back to newsroom/tape/2026-09-25.json and to latest.json in the same step, and the two files were compared afterwards on gold and silver and match. The figures printed here are the written-back ones. Prior marks were not reversed out of any change field: they are the 24 September tape's own archived values, gold 4,254.50, silver 63.578, platinum 1,743.00 and palladium 1,240.00, printed by tools/prev-mark.py. Palladium's prior mark and its 05:00 mark were the same number, which is why its change is the smallest on the board and not because it did not trade. The second door was CNBC's quote pages for XAU=, XAG=, XPT= and XPD=, read three minutes later; its single composite last price is compared against Kitco's mid rather than its bid, because comparing a composite against one side of a bid/ask pair would manufacture a gap. All four LBMA feeds were fetched directly and separately, not through a summariser: gold_pm.json 914,989 bytes, silver.json 898,265, platinum_pm.json 557,070, palladium_pm.json 554,014. Each one was opened and searched for its own newest point, and all four carry 2026-09-24 and nothing later, which is the basis for the sentence that London's newest fixes are Thursday's. London's PM fixes publish at 15:00 London time, after this reading, so no 25 September fix could exist at press time. The four London moves from 23 to 24 September are this desk's own divisions from those same feeds and all four are falls: gold 4,266.40 from 4,284.45, silver 63.58 from 65.185, platinum 1,753.60 from 1,768.10, palladium 1,269.75 from 1,272.25. The two screen-against-fix figures are also this desk's own: 4,296.60 less 4,266.40 is 30.20, and 30.20/4,266.40 = 0.7079%, printed as 0.71%; 1,243.00 less 1,269.75 is minus 26.75. The 23 September comparison in the desk's view uses that date's archived tape mark of 4,316.10: 4,316.10 less 4,296.60 is 19.50. No market condition is claimed anywhere in this article.",
+   "prior": [
+    {
+     "date": "2026-09-24",
+     "slug": "sixty-one-sixty-off-gold",
+     "claim": "Gold sheds $61.60 to $4,254.50, silver and platinum fall further"
+    },
+    {
+     "date": "2026-09-24",
+     "slug": "thirteen-hundred-under-the-january-high",
+     "claim": "Gold $1,300 off its January high, and what that does to a 14-carat ticket"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Precious metals live board, Kitco (press-time re-read, bid basis)",
+     "url": "https://www.kitco.com/price/precious-metals",
+     "published": "2026-09-25T06:07:59Z"
+    },
+    {
+     "title": "Spot metal quotes XAU=, XAG=, XPT=, XPD=, CNBC",
+     "url": "https://www.cnbc.com/quotes/XAU=",
+     "published": "2026-09-25T06:10:03-04:00"
+    },
+    {
+     "title": "LBMA gold price PM, 24 September 2026 fix (4,266.40)",
+     "url": "https://prices.lbma.org.uk/json/gold_pm.json",
+     "published": "2026-09-24"
+    },
+    {
+     "title": "LBMA silver price, 24 September 2026 fix (63.58)",
+     "url": "https://prices.lbma.org.uk/json/silver.json",
+     "published": "2026-09-24"
+    },
+    {
+     "title": "LBMA platinum price PM, 24 September 2026 fix (1,753.60)",
+     "url": "https://prices.lbma.org.uk/json/platinum_pm.json",
+     "published": "2026-09-24"
+    },
+    {
+     "title": "LBMA palladium price PM, 24 September 2026 fix (1,269.75)",
+     "url": "https://prices.lbma.org.uk/json/palladium_pm.json",
+     "published": "2026-09-24"
+    }
+   ],
+   "corrections": []
+  },
+  "next": {
+   "slug": "thirteen-hundred-under-the-january-high",
+   "why": "What a gold price at this level does to the metal content of a 14-carat chain."
+  }
+ },
+ "six-percent-to-december-twenty-four": {
+  "v": 3,
+  "kicker": "Retail & Technology",
+  "figures": {
+   "asof": "Mastercard's US holiday forecast for 1 November to 24 December 2026, as reported by Rapaport on 24 September 2026",
+   "cells": [
+    {
+     "n": "6%",
+     "dir": "up",
+     "label": "Total US holiday sales",
+     "q": "1 Nov to 24 Dec, year on year",
+     "src": 0
+    },
+    {
+     "n": "11%",
+     "dir": "up",
+     "label": "Online",
+     "q": "Mastercard's own forecast",
+     "src": 0
+    },
+    {
+     "n": "3.6%",
+     "dir": "up",
+     "label": "In store",
+     "q": "Mastercard's own forecast",
+     "src": 0
+    },
+    {
+     "n": "~3%",
+     "dir": "flat",
+     "label": "The part that is not price",
+     "q": "about half the 6%",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Half the growth is price.",
+   "text": "Mastercard forecasts US holiday sales up 6% from 1 November to 24 December, its strongest in four years. It says higher prices account for about half the increase."
+  },
+  "means": [
+   {
+    "who": "If you plan holiday stock:",
+    "text": "About half of a 6% rise is price, so the volume signal is nearer 3%. Order against units, not dollars."
+   },
+   {
+    "who": "If you set online spend:",
+    "text": "Mastercard puts online growth at 11% against 3.6% in store, and Cyber Monday falls in November this year."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A jewellery forecast. This is all US retail on Mastercard's transaction data, with no category split published for jewellery."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · Two forecasts for the same season",
+   "asof": "Mastercard via Rapaport, 24 September 2026 · Bain as reported here 7 September 2026",
+   "cols": [
+    "Measure",
+    "Figure",
+    "Period",
+    "Source"
+   ],
+   "rows": [
+    [
+     "Total US retail",
+     "+6%",
+     "1 Nov – 24 Dec",
+     "Mastercard"
+    ],
+    [
+     "Online",
+     "+11%",
+     "1 Nov – 24 Dec",
+     "Mastercard"
+    ],
+    [
+     "In store",
+     "+3.6%",
+     "1 Nov – 24 Dec",
+     "Mastercard"
+    ],
+    [
+     "Share of the rise from higher prices",
+     "about half",
+     "1 Nov – 24 Dec",
+     "Mastercard"
+    ],
+    [
+     "Total US holiday sales",
+     "+4.5%",
+     "Holiday season",
+     "Bain"
+    ]
+   ],
+   "hi": 0,
+   "note": "<b>The one derived figure, shown</b> Mastercard states a 6% total and says higher prices account for about half of it; half of six is three, so the volume-side signal is about 3%. That is the only arithmetic in this article and the word \"about\" is the source's, carried through rather than sharpened. No precision beyond one decimal is claimed on any Mastercard figure because the source publishes none. <b>Two outside sources, disclosed</b> Mastercard's 6% and Bain's 4.5% are 1.5 percentage points apart on the same season. That gap is disclosed rather than averaged, and neither figure is adjusted to meet the other. Bain's 4.5% accompanied a total above $1 trillion and a McKinsey survey reading on jewellery intent, and it covers \"the holiday season\" rather than the dated 1 November to 24 December window Mastercard uses, so the periods are close but not identical. <b>Channel arithmetic</b> 11 divided by 3.6 is 3.06, which is the basis for the sentence that online is forecast to grow about three times as fast. <b>No jewellery line</b> the report carries no jewellery, watch or luxury category figure, and none is inferred here from the aggregate."
+  },
+  "sections": [
+   {
+    "h": "Online grows three times in-store",
+    "p": [
+     {
+      "lead": "The gap is wide.",
+      "text": "Mastercard puts online growth at 11% and in-store at 3.6%. Online is forecast to grow about three times as fast."
+     },
+     {
+      "lead": "November takes more.",
+      "text": "Cyber Monday falls in November this year, which Mastercard says shifts online sales into the month."
+     }
+    ]
+   },
+   {
+    "h": "Price does about half the work",
+    "p": [
+     {
+      "lead": "Dollars are not units.",
+      "text": "Mastercard attributes about half the increase to higher prices, naming energy costs and AI-driven demand."
+     },
+     {
+      "lead": "The calendar shortens.",
+      "text": "Thanksgiving falls late, as in 2025, shortening the run to Christmas and pulling promotions earlier."
+     }
+    ]
+   },
+   {
+    "h": "A second forecast reads lower",
+    "p": [
+     {
+      "lead": "Two houses disagree.",
+      "text": "Bain put US holiday sales up 4.5%, reported here on 7 September. Mastercard's 6% is 1.5 points higher."
+     },
+     {
+      "lead": "Methods differ.",
+      "text": "Mastercard reads its own transaction data. Bain's figure arrived alongside a survey-based view of jewellery intent."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "1 November 2026",
+    "what": "The start of the window Mastercard's forecast covers."
+   },
+   {
+    "when": "30 November 2026",
+    "what": "Cyber Monday, which falls inside November this year and shifts online sales into the month."
+   },
+   {
+    "when": "Early January 2027",
+    "what": "Mastercard SpendingPulse's own reading of what the season actually did, against this forecast."
+   }
+  ],
+  "depth": {
+   "reverse": "A price path. The forecast rests on higher prices carrying about half the increase; if energy costs fall through the quarter, the dollar figure and the volume figure converge and a 6% print becomes a stronger real result than it reads here. A weaker labour market would work the other way and pull both down. The 1.5-point gap with Bain will also be settled by the outturn rather than by argument.",
+   "built": {
+    "title": "A transaction panel and a survey measure different things",
+    "text": "Mastercard's holiday forecast is built from payment data the company sees plus estimates for cash and cheque, so it observes spending after it happens and models the rest. A consultancy forecast of the same season is typically built from stated intent, macro inputs and channel checks, so it observes what people say they will do. The first is closer to the till and the second is closer to sentiment, and they can be a point or two apart on the same season without either being wrong. Neither, on its own, says anything about jewellery: the aggregate US retail figure is dominated by categories a jeweller does not compete in, and a category split has to be published separately before it can be used. This is also why a dollar forecast and a unit forecast are not interchangeable. When a source says half of a rise is price, the part of the number that describes real demand is the other half, and a buyer ordering stock is buying units."
+   },
+   "method": "Rapaport's report was fetched directly rather than through a summariser: https://rapaport.com/news/mastercard-us-holiday-shopping-growth-to-reach-four-year-high/, 200, and the body text was read out of the served page. Its own summary lines carry the three channel figures verbatim - \"Mastercard forecasts a 6% year-over-year increase in US holiday sales from November 1 to December 24\", \"In-store sales are expected to rise 3.6%, while online sales could grow 11%\", and \"Higher prices, influenced by energy costs, will account for about half of the spending increase this season\" - and the body adds the four-year framing, the late Thanksgiving and the November Cyber Monday. The byline is Suzanne Watkin and the report is dated 24 September 2026; it attributes the forecast to Mastercard on the Wednesday, which is 23 September, and both dates are carried here rather than merged. Mastercard's own release was not reached in this run, so every figure is attributed to Rapaport's report of it, which is the disclosed limit on this article. The archive was checked by opening every hit rather than counting them. A search for \"Mastercard\" across the built site returns nothing, so no prior article on this company or this forecast exists here. The nearest prior item is the 7 September piece on Bain's holiday forecast, which was opened and read: it is a different forecaster, a different figure and a different method, which under the Period Rule makes this item advanced rather than a repeat on the same general theme. Its 4.5% and its above-$1-trillion total are quoted here from this paper's own published article on it and are not re-derived. The one derived figure in this piece, the roughly 3% volume signal, is half of the source's own stated 6% and is printed with the source's own hedge attached; no attempt is made to compute a precise real-growth rate from a range the source describes only as \"about half\". The channel ratio 11/3.6 = 3.06 is this desk's own division and is printed in the table note so it can be checked. No jewellery, watch or luxury figure is stated or inferred, because the report carries none.",
+   "prior": [
+    {
+     "date": "2026-09-07",
+     "slug": "a-trillion-and-the-jewelry-case",
+     "claim": "Bain puts US holiday sales above $1 trillion, up 4.5%, with McKinsey's 43% jewellery pullback"
+    },
+    {
+     "date": "2026-09-24",
+     "slug": "seven-seventy-three-nine-in-august",
+     "claim": "US retail sales $773.9bn in August, up 1.2% on the month"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Mastercard: US Holiday Shopping Growth to Reach Four-Year High, Rapaport (Suzanne Watkin)",
+     "url": "https://rapaport.com/news/mastercard-us-holiday-shopping-growth-to-reach-four-year-high/",
+     "published": "2026-09-24"
+    },
+    {
+     "title": "Bain puts US holiday sales above $1 trillion, up 4.5%, Carat Capital",
+     "url": "https://caratcapital.org/a-a-trillion-and-the-jewelry-case",
+     "published": "2026-09-07"
+    }
+   ],
+   "corrections": []
+  },
+  "next": {
+   "slug": "fourteen-one-for-a-ring",
+   "why": "The morning's other retail number: a ring maker's IPO range, and what it says about where category spend is going."
+  }
+ },
+ "a-timekeeper-for-the-thirty-eighth": {
+  "v": 3,
+  "kicker": "Watches",
+  "figures": {
+   "asof": "GB1's own announcement as published 24 September 2026, ahead of the second America's Cup Preliminary Regatta at Naples",
+   "cells": [
+    {
+     "n": "38th",
+     "dir": "flat",
+     "label": "America's Cup",
+     "q": "Naples, 2027",
+     "src": 0
+    },
+    {
+     "n": "4th",
+     "dir": "flat",
+     "label": "GB1's Cup campaign",
+     "q": "Royal Yacht Squadron as Challenger of Record",
+     "src": 0
+    },
+    {
+     "n": "5",
+     "dir": "flat",
+     "label": "Sailors named to the squad",
+     "q": "Fletcher plus four",
+     "src": 0
+    },
+    {
+     "n": "1851",
+     "dir": "flat",
+     "label": "First America's Cup",
+     "q": "the schooner America",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "No price was published.",
+   "text": "Richard Mille has become Official Timekeeping Partner of GB1, the British challenger for the 38th America's Cup in Naples in 2027. The announcement carried no financial terms."
+  },
+  "means": [
+   {
+    "who": "If you retail the brand:",
+    "text": "A sailing tie gives a counter a story with dates on it. The first regatta window closes on 27 September."
+   },
+   {
+    "who": "If you track sponsorship value:",
+    "text": "Nothing is published. No fee, term or activation budget appears in the announcement."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A watch launch. No model, reference or price is attached to the partnership, only the naming of a timekeeping partner."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · What was named, and what was not",
+   "asof": "GB1's announcement, published 24 September 2026",
+   "cols": [
+    "Element",
+    "Detail"
+   ],
+   "rows": [
+    [
+     "Role named",
+     "Official Timekeeping Partner, GB1"
+    ],
+    [
+     "Event",
+     "38th America's Cup, Naples, 2027"
+    ],
+    [
+     "Challenger of Record",
+     "Royal Yacht Squadron Ltd"
+    ],
+    [
+     "Team principal and chief executive",
+     "Sir Ben Ainslie; Ian Walker"
+    ],
+    [
+     "Skipper and helm",
+     "Dylan Fletcher MBE"
+    ],
+    [
+     "Sailing squad also named",
+     "Ben Cornish, Bleddyn Mon, Andrea Tesei, Jemima Lines"
+    ],
+    [
+     "Preliminary regatta",
+     "Naples, 24–27 September, six nations, one-design AC40"
+    ],
+    [
+     "Race boat",
+     "Reconfigured AC75, launch by the end of 2026"
+    ],
+    [
+     "Financial terms",
+     "None disclosed"
+    ]
+   ],
+   "hi": 0,
+   "note": "<b>Nothing is priced</b> the announcement names a role and a term of association and states no fee, no contract length, no activation budget and no unit commitment. This article therefore carries no money figure at all, rather than estimating one. <b>Who wears what</b> the announcement says Fletcher \"alongside key members of the team\" will wear Richard Mille watches through the campaign, and separately names four more sailors in the squad; it does not say which of them wear the watches, and no model or reference is given. <b>Counting the squad</b> the five in the table are the sailors the announcement names by name. It does not state a full crew size, and the AC75's rebuilt layout is described as accommodating five sailing crew cockpits, which is a boat specification and not a headcount of the squad. <b>The dateline</b> the announcement is dated 24 September and says it was made ahead of the 24–27 September regatta, so the event and the announcement share a window rather than a single day. A weekly digest on another outlet carried it the following day; that later wrapper date is not used here."
+  },
+  "sections": [
+   {
+    "h": "The boat is a rebuild",
+    "p": [
+     {
+      "lead": "The hull is kept.",
+      "text": "GB1 retains the core structural hull from its 2024 campaign, with a rebuilt internal layout for five sailing cockpits."
+     },
+     {
+      "lead": "The systems are new.",
+      "text": "The team lists battery-based energy storage, upgraded control electronics, appendage interfaces and foil systems for the 2027 rule cycle."
+     }
+    ]
+   },
+   {
+    "h": "Six nations race at Naples",
+    "p": [
+     {
+      "lead": "The regatta is one-design.",
+      "text": "Six nations race AC40 foiling yachts at Naples from 24 to 27 September, GB1's first racing on those waters."
+     },
+     {
+      "lead": "A fourth attempt.",
+      "text": "The British team returns for its fourth America's Cup campaign, representing the Royal Yacht Squadron as Challenger of Record."
+     }
+    ]
+   },
+   {
+    "h": "The brand's reason, in its words",
+    "p": [
+     {
+      "lead": "Precision is the pitch.",
+      "text": "Peter Harrison, chief executive of Richard Mille EMEA, said the \"38th America's Cup rewards precision, relentless innovation and resilience\"."
+     },
+     {
+      "lead": "The sport is old.",
+      "text": "The trophy dates to 1851, when the schooner America sailed to Britain to race the British fleet."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "27 September 2026",
+    "what": "The close of the second America's Cup Preliminary Regatta at Naples, GB1's first racing on those waters."
+   },
+   {
+    "when": "By 31 December 2026",
+    "what": "The launch of GB1's reconfigured AC75, which the team has committed to by the end of the year."
+   },
+   {
+    "when": "2027",
+    "what": "The 38th America's Cup itself, at Naples, with the Royal Yacht Squadron as Challenger of Record."
+   }
+  ],
+  "depth": {
+   "reverse": "A published figure. This partnership is worth nothing on paper until a fee, a term or a product commitment is disclosed, and none is; a later filing or interview that puts a number on it would make it measurable either way. A change of Challenger of Record or a withdrawal from the 2027 event would end the association before it produced anything a counter could sell against.",
+   "built": {
+    "title": "A timekeeping partnership is a naming right, not a supply contract",
+    "text": "Official Timekeeping Partner is a category sponsorship: the brand buys exclusivity in the timing category for an event or a team, and usually the right to place logos, host guests and put product on the wrists of named participants. It is not the same as supplying the instruments that actually time the racing, which in modern America's Cup competition is done by the event's own tracking and telemetry systems rather than by a wristwatch. It is also not a licensing deal, so it does not by itself produce a commemorative model, although brands frequently follow one with a limited edition. The value to a retailer is therefore narrative rather than allocation: the story has dates, names and a location, and it ends in a scheduled event. Whether it moves stock depends on whether a product follows, which nothing in this announcement promises."
+   },
+   "method": "The announcement was located through GB1's own team page on Pressmare and then fetched directly: https://www.pressmare.it/en/team/gb1/2026-09-24/richard-mille-official-timekeeping-partner-america-cup-92945, 200, 60,181 bytes, with the body read out of the served page. A first URL for this item, taken from an upstream desk's note, returned 404 and was not used; the working address was found by reading the team index's own link list. The page is dated 24 September 2026 in its own URL path and carries the sentence \"The announcement was made ahead of the second America's Cup Preliminary Regatta (24-27 September)\", which is the basis for both the publication date and the regatta window printed here. Every name, boat specification and date in this article is stated on that page: Sir Ben Ainslie as team principal, Ian Walker as chief executive, Dylan Fletcher MBE as skipper and helm, Ben Cornish, Bleddyn Mon, Andrea Tesei and Jemima Lines in the squad, the Royal Yacht Squadron Ltd as Challenger of Record, the fourth campaign, the six nations in one-design AC40s, the 2024 hull retained with five sailing crew cockpits, the battery-based energy storage and the end-of-2026 launch commitment. The quotation is ten words from Peter Harrison, identified on that page as chief executive of Richard Mille EMEA, counted before filing. The archive was checked by opening every hit rather than counting them. A search for \"Richard Mille\" across the built site returns three articles plus the record index: all three were opened and they are a Guess watch a reviewer compared to a Richard Mille, a Joopiter auction lot, and a Christie's half-year sale in which an RM 56-02 sold - none is a sponsorship or a sailing story. A search for \"GB1\" returns nothing and a search for \"America's Cup\" returns nothing, so no prior coverage of this event exists here at all. One item this desk was offered on the same beat was not filed: a Swiss watch export figure that conflicted with the Federation's own statistics page and duplicated this paper's 17 September article on the same August data. No financial figure is printed in this article because none was published, and none was estimated from comparable deals.",
+   "prior": [
+    {
+     "date": "2026-09-19",
+     "slug": "nine-brands-for-twenty-seven",
+     "claim": "Watches and Wonders adds 9 brands to its 2027 roster"
+    },
+    {
+     "date": "2026-09-17",
+     "slug": "nine-one-up-nineteen-four-down",
+     "claim": "Swiss watch exports rise 9.1% in August, US shipments fall 19.4%"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Richard Mille announced as Official Timekeeping Partner of GB1 ahead of the 2027 America's Cup, Pressmare",
+     "url": "https://www.pressmare.it/en/team/gb1/2026-09-24/richard-mille-official-timekeeping-partner-america-cup-92945",
+     "published": "2026-09-24"
+    }
+   ],
+   "corrections": []
+  },
+  "next": {
+   "slug": "nine-one-up-nineteen-four-down",
+   "why": "The market the brand is selling into: Swiss exports up 9.1% in August with the US down 19.4%."
+  }
  }
 }

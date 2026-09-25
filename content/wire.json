@@ -1,47 +1,51 @@
 {
- "date_line": "Thursday, September 24, 2026 | Vol. I - No. 071",
- "edition": "Vol. I - No. 071",
+ "date_line": "Friday, September 25, 2026 | Vol. I - No. 072",
+ "edition": "Vol. I - No. 072",
  "items": [
   {
-   "b": "SOTHEBY'S SELLS A CARTIER CHEICH FOR HK$26.52M IN HONG KONG",
-   "t": "The one-off white-gold prize watch carried a HK$8.0m to HK$40m estimate. Hodinkee converts the result to US$3,413,124 and SJX to US$3.38m."
+   "b": "OURA'S IPO RANGE VALUES A RING MAKER AT UP TO $14.1BN",
+   "t": "The 21 September prospectus offers 50,000,000 shares at $40 to $44, 36,500,000 of them from existing holders. Eli Lilly and Dragoneer have signalled $400.0m of interest."
   },
   {
-   "b": "ELMWOOD'S PUTS A £2M HIGH ESTIMATE ON AN 8.03-CARAT BLUE",
-   "t": "The pear-shaped Fancy Light Blue carries a £1.5m low estimate for a London sale on 1 October. The house counts only two UK precedents above eight carats, in 1865 and 2008."
+   "b": "GJEPC PUTS FY2025-26 GEM AND JEWELLERY EXPORTS AT US$27.72BN",
+   "t": "The council's 60th annual general meeting, at the Bharat Diamond Bourse on 23 September, also recorded membership at 10,910 and four free trade agreements signed in the year."
   },
   {
-   "b": "CHINA'S GOLD IMPORTS TOP 1,000 TONNES IN EIGHT MONTHS",
-   "t": "January to August ran past the roughly 886 tonnes imported in all of 2025, at a cost near US$158.8bn. The PBOC added 20.2 tonnes in August."
+   "b": "GOLD BACK TO $4,296.60, UP $42.10 ON THURSDAY'S MARK",
+   "t": "Silver gained 1.45% and platinum 0.92% on the Kitco bid at 06:07 ET. London's newest fixes, all dated 24 September, fell on all four metals."
   },
   {
-   "b": "DE BEERS CUTS SCOPE 1 AND 2 EMISSIONS 14% SINCE 2021",
-   "t": "The 2025 Sustainability Report books US$70m committed to Botswana's Diamonds for Development Fund and 375,000 acres under conservation management."
+   "b": "MASTERCARD FORECASTS 6% US HOLIDAY GROWTH TO 24 DECEMBER",
+   "t": "Online is put at 11% against 3.6% in store, and the company attributes about half the increase to higher prices. Bain's figure for the season is 4.5%."
   },
   {
-   "b": "NATURAL DIAMOND COUNCIL RENAMES ITSELF THE DIAMOND COLLECTIVE",
-   "t": "The body dropped the qualifier from its name on 22 September. Its first fashion partnership is promised for 2027; RAPI's 1-carat index is down 5.1% on the year."
+   "b": "BOKO TIES NATURAL-DIAMOND DEMAND TO THE OKAVANGO BASIN",
+   "t": "Botswana's president announced a second phase for Okavango Eternal in New York on 23 September. The partnership began in 2021 on a 10-year term and Botswana holds 15% of De Beers."
+  },
+  {
+   "b": "RICHARD MILLE TAKES GB1 TIMEKEEPING FOR THE 38TH AMERICA'S CUP",
+   "t": "The British challenger races the second preliminary regatta at Naples from 24 to 27 September. No financial terms were disclosed."
   }
  ],
- "tape_ts": "23 Sep 2026",
+ "tape_ts": "25 Sep 2026",
  "tape": [
   {
    "name": "Gold / oz",
    "code": "XAU",
-   "px": "4,254.50",
-   "chg": "▼ -1.43%",
-   "dir": "down",
+   "px": "4,296.60",
+   "chg": "▲ +0.99%",
+   "dir": "up",
    "pts": [
+    12,
+    15,
     4,
-    7,
-    8,
+    4,
+    4,
     9,
-    14,
+    11,
     14,
     24,
-    16,
-    19,
-    11
+    17
    ]
   },
   {
@@ -85,39 +89,39 @@
   {
    "name": "Platinum / oz",
    "code": "XPT",
-   "px": "1,743.00",
-   "chg": "▼ -2.41%",
-   "dir": "down",
+   "px": "1,759.00",
+   "chg": "▲ +0.92%",
+   "dir": "up",
    "pts": [
-    9,
-    10,
-    7,
+    14,
+    16,
     4,
-    13,
-    15,
+    7,
+    7,
+    8,
+    10,
+    11,
     24,
-    18,
-    19,
-    11
+    19
    ]
   },
   {
    "name": "Silver / oz",
    "code": "XAG",
-   "px": "63.578",
-   "chg": "▼ -2.45%",
-   "dir": "down",
+   "px": "64.503",
+   "chg": "▲ +1.45%",
+   "dir": "up",
    "pts": [
-    8,
-    10,
-    9,
-    8,
     19,
-    17,
+    23,
+    4,
+    8,
+    8,
+    8,
+    12,
+    14,
     24,
-    16,
-    20,
-    4
+    18
    ]
   }
  ]
