@@ -1,0 +1,47 @@
+# The Circulation Desk: Carat Capital's own readership analytics.
+# One Worker does three jobs: it collects beacons from caratcapital.org (POST /c),
+# rolls them up in D1, and serves the password-protected dashboard.
+# Setup and deploy steps are in README.md.
+
+name = "caratcapital-circulation"
+main = "src/index.js"
+compatibility_date = "2026-09-01"
+workers_dev = true
+preview_urls = false
+
+[assets]
+directory = "./public"
+binding = "ASSETS"
+run_worker_first = true
+
+[[d1_databases]]
+binding = "DB"
+database_name = "caratcapital-circulation"
+database_id = "e164fec3-1bd0-4997-b08b-f01d7b8042ce"
+migrations_dir = "migrations"
+
+# Roll up the day's figures every three hours; the dashboard also refreshes
+# them on demand when they are more than ten minutes old.
+[triggers]
+crons = ["17 */3 * * *"]
+
+# Per-IP ceilings: generous for readers, tight for password guesses.
+[[ratelimits]]
+name = "HITS"
+namespace_id = "7301"
+simple = { limit = 120, period = 60 }
+
+[[ratelimits]]
+name = "LOGINS"
+namespace_id = "7302"
+simple = { limit = 10, period = 60 }
+
+[vars]
+SITE_HOSTS = "caratcapital.org,www.caratcapital.org"
+TIMEZONE = "America/New_York"
+RETENTION_DAYS = "400"
+
+[observability]
+enabled = true
+
+# Secret, set once (see README.md): DASHBOARD_PASSWORD

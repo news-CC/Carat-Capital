@@ -1,0 +1,17 @@
+{
+  "name": "caratcapital-circulation",
+  "private": true,
+  "description": "The Circulation Desk: Carat Capital's own cookieless readership analytics (Cloudflare Worker + D1).",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "db:local": "wrangler d1 migrations apply DB --local",
+    "db:remote": "wrangler d1 migrations apply DB --remote",
+    "deploy": "wrangler d1 migrations apply DB --remote && wrangler deploy",
+    "demo": "node scripts/seed-demo.mjs",
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "wrangler": "^4.141.0"
+  }
+}

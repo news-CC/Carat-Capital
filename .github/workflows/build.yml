@@ -20,6 +20,8 @@ jobs:
           python-version: '3.12'
       - name: Build site
         run: python build.py
+      - name: Keep the Circulation Desk's Worker out of the public site
+        run: rm -rf analytics
       - name: Generate social card
         run: |
           pip install pillow --quiet

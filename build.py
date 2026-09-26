@@ -305,6 +305,27 @@ def _clean_links(html):
     html = _re2.sub(r'href="([a-z0-9][a-z0-9-]*)\.html(#[\w-]+)?"', r'href="\1\2"', html)
     return html
 
+# The Circulation Desk (analytics/): the paper's own cookieless readership
+# counter. Set this to the Worker's address once it is deployed, e.g.
+# "https://caratcapital-circulation.<your-subdomain>.workers.dev" (see
+# analytics/README.md). Empty keeps the counter off; GoatCounter runs either way.
+ANALYTICS_ENDPOINT = ""
+
+_CIRC_TAG = _re2.compile(r'\n?<script defer src="/assets/circulation\.js[^"]*" data-endpoint="[^"]*"></script>')
+_GOAT_TAG = _re2.compile(r'<script data-goatcounter="[^"]*" async src="//gc\.zgo\.at/count\.js"></script>')
+def _circulation(html):
+    # The counter rides wherever GoatCounter does, so the two cover the same pages;
+    # re-running the build with a new address (or none) rewrites every page to match.
+    html = _CIRC_TAG.sub("", html)
+    # privacy.html describes the counter in a paragraph shown only while it runs.
+    html = _re2.sub(r'<p data-circulation( hidden)?>', '<p data-circulation>' if ANALYTICS_ENDPOINT else '<p data-circulation hidden>', html)
+    if not ANALYTICS_ENDPOINT:
+        return html
+    tracker = ROOT / "assets" / "circulation.js"
+    v = _hl.md5(tracker.read_bytes()).hexdigest()[:8] if tracker.exists() else "0"
+    tag = f'<script defer src="/assets/circulation.js?v={v}" data-endpoint="{H.escape(ANALYTICS_ENDPOINT)}"></script>'
+    return _GOAT_TAG.sub(lambda m: m.group(0) + "\n" + tag, html, count=1)
+
 import hashlib as _hl
 CSS_V = _hl.md5((ROOT / "assets" / "styles.css").read_bytes()).hexdigest()[:8] if (ROOT / "assets" / "styles.css").exists() else "0"
 
@@ -3570,7 +3591,10 @@ for a in ARTICLES:
 (out/"indices.html").write_text(indices_page())
 (out/"magazine.html").write_text(magazine_page())
 for _f in out.glob("*.html"):
-    _f.write_text(_clean_links(_f.read_text()))
+    _html = _clean_links(_f.read_text())
+    if _f.name != "home_template.html":  # the template stays as authored
+        _html = _circulation(_html)
+    _f.write_text(_html)
 (out/"assets"/"favicon.svg").write_text(FAVICON)
 (out/"assets"/"logo-mark.svg").write_text(logo_mark_svg())
 (out/"feed.xml").write_text(rss_feed())
