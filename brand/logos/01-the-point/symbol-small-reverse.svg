@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Carat Capital identity, round one. Outlined type; knockouts are transparent masks. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" ><defs><mask id="k1v" maskUnits="userSpaceOnUse" x="-50" y="81.51927564305811" width="1100" height="820.9614487138838"><rect x="-50" y="81.51927564305811" width="1100" height="820.9614487138838" fill="#fff"/><path d="M80 352.48L920 352.48M500 556.48L500 782.48" stroke="#000" stroke-width="30"/><circle cx="500" cy="484.48" r="76" fill="#000"/></mask></defs><g mask="url(#k1v)"><path d="M276 231.52L724 231.52L900 352.48L500 752.48L100 352.48Z" fill="#F2EDE3"/></g><circle cx="500" cy="484.48" r="48" fill="#BE3319"/></svg>

@@ -1,0 +1,12 @@
+{
+  "name": "carat-capital-marks",
+  "private": true,
+  "description": "Generates the Carat Capital identity routes (SVG, PNG and the presentation page).",
+  "scripts": {
+    "fonts": "./fonts.sh",
+    "build": "node present.js",
+    "png": "node export.js"
+  },
+  "dependencies": { "opentype.js": "1.3.4" },
+  "devDependencies": { "playwright": "^1.56.1" }
+}
