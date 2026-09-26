@@ -61,7 +61,12 @@ def lead_article():
 def desk_articles(slug, n=6):
     return [a for a in ARTICLES if a.get("desk") == slug][:n]
 
-FONTS = "https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&display=swap"
+# The reading design (articles, desks and the site chrome) is set in two families: Newsreader, Production
+# Type's news serif with optical sizes (display cuts at headline sizes, sturdy text cuts at body sizes), and
+# Public Sans for labels and numbers (tabular lining figures via tnum). Pages not yet moved to it keep the
+# older three families and load the new two only for the shared header and footer.
+FONTS_RD = "https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400..700&family=Public+Sans:wght@400..700&display=swap"
+FONTS = "https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&family=Newsreader:opsz,wght@6..72,400..700&family=Public+Sans:wght@400..700&display=swap"
 
 DEFS = """
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
@@ -386,7 +391,7 @@ def metadesc(text, limit=155):
     return cut.rstrip(" ,;:.\u2014-") + "\u2026"
 
 
-def head(title, desc, path="", extra="", og_type="website", og_image=None):
+def head(title, desc, path="", extra="", og_type="website", og_image=None, body_cls=""):
     canonical = cu(f"{BASE_URL}/{path}") if path else BASE_URL
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -408,108 +413,89 @@ def head(title, desc, path="", extra="", og_type="website", og_image=None):
 <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="{FONTS}" rel="stylesheet">
+<link href="{FONTS_RD if body_cls else FONTS}" rel="stylesheet">
 <link rel="stylesheet" href="assets/styles.css?v={CSS_V}">
 {extra}
 </head>
-<body>
-<div class="grain" aria-hidden="true"></div>
+<body{(' class="%s"' % body_cls) if body_cls else ""}>
+{'<a class="skip" href="#main">Skip to content</a>' if body_cls else ""}
 {DEFS}"""
 
 def folio(right):
     return ""
 
 
-def navbar(active=""):
-    here = ' class="here"'
-    links = "".join(
-        f'<a href="{d["slug"]}.html"{here if active==d["slug"] else ""}><i>D—{d["no"]}</i>{d["nav"]}</a>'
-        for d in DESKS)
-    return f"""<div class="navbar" id="navbar">
-  <div class="wrap"><div class="nav-inner">
-    <button class="menu-btn" onclick="ccMenu(true)" aria-label="Open menu"><span class="bars"><i></i><i></i><i></i></span>Menu</button>
-    <a class="nav-brand" href="index.html"><img class="nav-mark" src="assets/logo-mark.svg" alt="Carat Capital medal">Carat<span class="caret">^</span>Capital</a>
-    <div class="nav-links">{links}</div>
-    <a class="nav-sub" href="the-record.html"><span>The Record — catch up fast</span></a>
-  </div></div>
-</div>"""
+def navbar(active="", here="page"):
+    # here="page" on the section's own page; "true" on a page that belongs to it (an article in a desk)
+    cur = ' aria-current="%s"' % here
+    desks = "".join('<a href="%s.html"%s>%s</a>' % (d["slug"], cur if active == d["slug"] else "", d["nav"]) for d in DESKS)
+    return """<header class="mh" id="navbar">
+  <div class="mh-in">
+    <button class="mh-menu" type="button" onclick="ccMenu(true)" aria-controls="omenu" aria-expanded="false"><span class="bars" aria-hidden="true"><i></i><i></i></span><span class="mh-menu-t">Menu</span></button>
+    <a class="mh-brand" href="index.html" aria-label="Carat Capital, front page"><img src="assets/logo-mark.svg" alt="" width="30" height="30"><span>Carat<span class="caret" aria-hidden="true">^</span>Capital</span></a>
+    <nav class="mh-desks" aria-label="Sections">%s<a href="the-record.html"%s>The Record</a></nav>
+    <a class="mh-cta" href="https://caratcapital.beehiiv.com" target="_blank" rel="noopener">Subscribe</a>
+  </div>
+</header>""" % (desks, cur if active == "the-record" else "")
+
+# The paper's own pages, in the order a reader looks for them; each with the line the paper already uses for it.
+PAPER_LINKS = [
+    ("index.html", "Front page", "Today's edition and the price tape"),
+    ("the-record.html", "The Record", "Eight weeks of the trade, dated and sourced"),
+    ("natural-diamond-prices.html", "Natural diamond prices", "Every shape, every weight"),
+    ("lab-grown-diamond-prices.html", "Lab-grown diamond prices", "What a made diamond costs"),
+    ("indices.html", "The Carat Indices", "The trade, marked to market"),
+    ("almanac.html", "The Almanac", "The quarter in numbers"),
+    ("magazine.html", "The Folio", "The week, bound"),
+    ("field-guide.html", "The Field Guide", "Learn the trade"),
+]
 
 def omenu():
-    rows = "".join(f"""<a class="o-desk" href="{d['slug']}.html">
-      <span class="n">D—{d['no']}</span><span class="t">{d['title']}</span><span class="d">{d['tag']}</span></a>""" for d in DESKS)
-    return f"""<div class="omenu" id="omenu">
-  <div class="wrap">
-    <div class="o-head">
-      <div class="o-brand">Carat<span class="caret">^</span>Capital</div>
-      <button class="o-close" onclick="ccMenu(false)">Close ×</button>
+    desks = "".join('<a class="om-desk" href="%s.html"><span class="t">%s</span><span class="d">%s</span></a>' % (d["slug"], d["title"], d["tag"]) for d in DESKS)
+    paper = "".join('<a class="om-link" href="%s"><span class="t">%s</span><span class="d">%s</span></a>' % l for l in PAPER_LINKS)
+    return """<div class="omenu" id="omenu" role="dialog" aria-modal="true" aria-label="Menu">
+  <div class="om-in">
+    <div class="om-head">
+      <a class="om-brand" href="index.html">Carat<span class="caret" aria-hidden="true">^</span>Capital</a>
+      <button class="om-close" type="button" onclick="ccMenu(false)">Close</button>
     </div>
-    <div class="o-grid">
-      <div>
-        <div class="o-label">The Six Desks</div>
-        {rows}
-      </div>
-      <div class="o-side">
-        <div class="o-label">The Paper</div>
-        <a href="index.html">Front Page</a>
-        <a href="field-guide.html">The Field Guide — Learn the Trade</a>
-        <a href="the-record.html">The Record — Eight Weeks of the Trade</a>
-        <a href="almanac.html">The Almanac — The Quarter in Numbers</a>
-        <a href="natural-diamond-prices.html">The Natural Diamond Price List — Every Shape, Every Weight</a>
-        <a href="lab-grown-diamond-prices.html">The Lab-Grown Diamond Price List — What a Made Diamond Costs</a>
-        <a href="indices.html">The Carat Indices — The Trade, Marked to Market</a>
-        <a href="magazine.html">The Folio — The Week, Bound</a>
-        <a href="index.html#tape-a">The Price Tape</a>
-        <a href="about.html">About the Paper</a>
-        <a href="about.html#standards">Editorial Standards</a>
-        <a href="about.html#contact">Write to the Desk</a>
-      </div>
+    <div class="om-grid">
+      <nav aria-label="Menu: the six desks"><h2 class="om-l">The six desks</h2>%s</nav>
+      <nav aria-label="Menu: the paper"><h2 class="om-l">The paper</h2>%s
+        <p class="om-small"><a href="about.html">About the paper</a><a href="about.html#standards">Editorial standards</a><a href="about.html#contact">Write to the desk</a></p>
+      </nav>
     </div>
-    <div class="o-foot">Carat Capital · The trade paper of the jewelry world · Est. MMXXVI · Free to read</div>
   </div>
-</div>"""
+</div>""" % (desks, paper)
 
 def colophon():
-    desk_links = "".join(f'<a class="fl" href="{d["slug"]}.html">{d["title"]}</a>' for d in DESKS)
-    return f"""<footer class="colophon">
-  <div class="wrap">
-    <div class="top">
-      <div>
-        <div class="cbrand">Carat<span class="caret">^</span>Capital</div>
-        <div class="cbrand-sub">The Trade Paper of the Jewelry World</div>
-        <div class="hallrow" style="color:var(--gilt)">
-          <svg width="32" height="20" viewBox="0 0 32 20"><use href="#hm-maker"/></svg>
-          <svg width="26" height="20" viewBox="0 0 26 20"><use href="#hm-fine"/></svg>
-          <svg width="26" height="20" viewBox="0 0 26 20"><use href="#hm-assay"/></svg>
-          <svg width="20" height="20" viewBox="0 0 20 20"><use href="#hm-date"/></svg>
-        </div>
+    desks = "".join('<a href="%s.html">%s</a>' % (d["slug"], d["title"]) for d in DESKS)
+    data = "".join('<a href="%s">%s</a>' % (h, t) for h, t, _ in PAPER_LINKS[1:7])
+    return """<footer class="ft">
+  <div class="ft-in">
+    <div class="ft-top">
+      <div class="ft-brand">
+        <a class="ft-mark" href="index.html">Carat<span class="caret" aria-hidden="true">^</span>Capital</a>
+        <p>The trade paper of the jewelry world. Every claim priced, sourced, or cut.</p>
+        <a class="ft-btn" href="https://caratcapital.beehiiv.com" target="_blank" rel="noopener">Get the Morning Brief</a>
       </div>
-      <div><h4>Desks</h4>{desk_links}</div>
-      <div><h4>Masthead</h4>
-        <a class="fl" href="about.html">About the paper</a><a class="fl" href="about.html#standards">Editorial standards</a>
-        <a class="fl" href="field-guide.html">The Field Guide</a><a class="fl" href="the-record.html">The Record</a><a class="fl" href="almanac.html">The Almanac</a><a class="fl" href="natural-diamond-prices.html">Natural diamond prices</a><a class="fl" href="lab-grown-diamond-prices.html">Lab-grown diamond prices</a><a class="fl" href="about.html#contact">Write to the desk</a>
-      </div>
-      <div><h4>The Paper</h4>
-        <a class="fl" href="index.html">Front page</a>
-        <a class="fl" href="index.html#tape-a">The price tape</a>
-        <a class="fl" href="natural-diamond-prices.html">The natural diamond price list</a>
-        <a class="fl" href="lab-grown-diamond-prices.html">The lab-grown diamond price list</a>
-        <a class="fl" href="feed.xml">RSS feed</a>
-        <a class="fl" href="https://caratcapital.beehiiv.com">The Morning Brief — free</a>
-      </div>
+      <nav aria-label="Footer: desks"><h2>Desks</h2>%s</nav>
+      <nav aria-label="Footer: prices and data"><h2>Prices &amp; data</h2>%s</nav>
+      <nav aria-label="Footer: the paper"><h2>The paper</h2><a href="index.html">Front page</a><a href="field-guide.html">The Field Guide</a><a href="about.html">About the paper</a><a href="about.html#standards">Editorial standards</a><a href="about.html#contact">Write to the desk</a><a href="feed.xml">RSS feed</a></nav>
     </div>
-    <div class="base">
-      <div>© MMXXVI Carat Capital · Printed daily on the internet</div>
-      <div>Free to read, cover to cover · caratcapital.org</div>
+    <div class="ft-base">
+      <span>&copy; 2026 Carat Capital. Free to read.</span>
+      <span><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></span>
     </div>
   </div>
-</footer>"""
+</footer>""" % (desks, data)
 
 SCRIPT = """<script>
 function tick(){document.querySelectorAll('[data-tz]').forEach(el=>{el.textContent=new Intl.DateTimeFormat('en-GB',{hour:'2-digit',minute:'2-digit',timeZone:el.dataset.tz}).format(new Date())})}
 tick();setInterval(tick,30000);
 const nb=document.getElementById('navbar');
 addEventListener('scroll',()=>nb.classList.toggle('scrolled',scrollY>60),{passive:true});
-function ccMenu(open){document.getElementById('omenu').classList.toggle('open',open);document.body.classList.toggle('menu-open',open)}
+function ccMenu(open){var m=document.getElementById('omenu');if(!m)return;var was=m.classList.contains('open'),b=document.querySelector('.mh-menu');m.classList.toggle('open',open);document.body.classList.toggle('menu-open',open);if(b)b.setAttribute('aria-expanded',String(open));if(open){var c=m.querySelector('.om-close');if(c)setTimeout(function(){c.focus()},60)}else if(was&&b)b.focus()}
 document.addEventListener('keydown',e=>{if(e.key==='Escape')ccMenu(false)});
 const belt=document.getElementById('belt');if(belt)belt.innerHTML+=belt.innerHTML;
 const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.1});
@@ -592,7 +578,7 @@ def record_page():
           {entries}</section>"""
     return f"""{head("The Record — eight weeks of the trade — Carat Capital", "A dated, sourced chronicle of the jewelry trade, week by week.", "the-record.html")}
 {folio("The Record · A running chronicle")}
-{navbar()}
+{navbar("the-record")}
 {omenu()}
 <section class="deskhero"><div class="wrap">
   <div class="dh-no">The Paper · Updated {RECORD.get("updated","")}</div>
@@ -2593,78 +2579,53 @@ html:not(.js) .lp,html:not(.js) #under,html:not(.js) #peelC,html:not(.js) #folds
 
 
 # ---------------- DESK PAGES ----------------
+def _rd_cap1(t):
+    return (t[:1].upper() + t[1:]) if t else t
+
 def desk_page(d):
-    briefs = "".join(f"""<div class="brf rv">
-      <div class="bn">{b[0]}</div><h3>{b[1]}</h3><p>{b[2]}</p><div class="tagm">{b[3]}</div></div>""" for b in d["briefing"])
-    glos = "".join(f"""<div class="glo rv">
-      <div class="term">{g[0]}<i>{g[1]}</i></div><p>{g[2]}</p></div>""" for g in d["glossary"])
-    # published articles for this desk first, then house stubs to fill the list
-    rows = [(f"a-{a['slug']}.html", a["title"], a["dek"], f"{a['date']} · {a['minutes']} min") for a in desk_articles(d["slug"])]
-    stories = ""
-    for i,(href,t,dk,m) in enumerate(rows[:6]):
-        lead_cls = " dstory--lead" if i == 0 else ""
-        stories += f"""<a class="dstory{lead_cls} rv" href="{href}">
-      <div class="n">S—{i+1:02d}</div><h3>{figwrap(t) if i==0 else t}</h3><div class="d">{dk}</div><div class="m">{m}</div></a>"""
-    stats = "".join(f"<div><b>{v}</b><span>{l}</span></div>" for v,l in d["stats"])
-    _dphoto = ""
-    for _a2 in desk_articles(d["slug"], 8):
-        if _a2["slug"] in PH:
-            _dphoto = photo_plate(_a2["slug"], cls="dh-photo", eager=True, label=f"Plate D-{d['no']}"); break
-    dh_fig = _dphoto or f"""<figure class="dh-plate">
-      {plate(d['motif'], f"Plate D-{d['no']} — the {d['title'].lower()} desk", f"CC/2026/D{d['no']}")}
-      <div class="cap"><span>Engraving — CC graphics desk</span><span>D—{d['no']}</span></div>
-    </figure>"""
+    """A desk's front: what it covers, then its latest stories, then the context a reader needs to
+    follow them (what is moving, the vocabulary, the record). Set in the reading design."""
+    arts = desk_articles(d["slug"], 13)
+    lead_html, rest = "", ""
+    if arts:
+        la = arts[0]
+        img = ('<img src="assets/ph/%s.jpg" alt="" width="%s" height="%s" fetchpriority="high" decoding="async">'
+               % (la["slug"], PH[la["slug"]]["w"], PH[la["slug"]]["h"])) if la["slug"] in PH else ""
+        lead_html = ('<a class="d-lead%s" href="a-%s.html"><span class="d-txt"><time datetime="%s">%s</time><span class="d-h">%s</span>'
+                     '<span class="d-dek">%s</span></span>%s</a>'
+                     % (" has-img" if img else "", la["slug"], la["date"][:10], _rd_date(la["date"][:10]), la["title"], la["dek"], img))
+        rest = "".join('<li><a href="a-%s.html"><time datetime="%s">%s</time><span class="d-h">%s</span><span class="d-dek">%s</span></a></li>'
+                       % (x["slug"], x["date"][:10], _rd_date(x["date"][:10]), x["title"], x["dek"]) for x in arts[1:])
+    stats = "".join('<tr><th scope="row">%s</th><td>%s</td></tr>' % (l, v) for v, l in d["stats"])
+    briefs = "".join('<div class="d-bi"><p class="d-where">%s</p><h3>%s</h3><p>%s</p></div>' % (b_[3], b_[1], b_[2]) for b_ in d["briefing"])
+    vocab = "".join('<div class="d-term"><dt>%s <span>%s</span></dt><dd>%s</dd></div>' % (g[0], g[1], g[2]) for g in d["glossary"])
     recs = [(w["label"], e) for w in RECORD.get("weeks", []) for e in w.get("entries", []) if e.get("d") == d["slug"]][:5]
-    recsec = ""
-    if recs:
-        rec_html = "".join(record_entry(e, wl) for wl, e in recs)
-        recsec = f"""<section class="burin"><div class="wrap">
-    <div class="sec-mast rv"><h2>This desk, on the record — <em>the last eight weeks</em></h2><div class="mono-note"><a href="the-record.html">Full chronicle →</a></div></div>
-    <details class="mob-collapse"><summary>Show the chronicle</summary>{rec_html}</details>
-  </div></section>"""
-    body = f"""{head(f"{d['title']} — Carat Capital", metadesc(d['dek']), f"{d['slug']}.html")}
-{folio(f"Desk D—{d['no']} · {d['title']}")}
-{navbar(d['slug'])}
-{omenu()}
-<section class="deskhero">
-  <div class="wrap"><div class="dh-grid">
-    <div>
-      <div class="dh-no">Desk D—{d['no']} · Filed Daily</div>
-      <h1>{d['title']}<em>{d['tag']}</em></h1>
-      <p class="dh-dek">{d['dek']}</p>
-      <div class="dh-stats">{stats}</div>
-    </div>
-    {dh_fig}
-  </div></div>
-</section>
-<section class="briefing">
-  <div class="wrap">
-    <div class="sec-mast rv"><h2>The briefing — <em>what's moving now</em></h2><div class="mono-note">Updated each edition</div></div>
-    <div class="brf-grid">{briefs}</div>
+    rec_html = "".join('<li><p class="d-week">%s</p><h3>%s</h3><p>%s</p><p class="src-line">Source: %s</p></li>'
+                       % (wl.replace(" - ", ", "), e["h"], e["t"], e["s"]) for wl, e in recs)
+    recsec = ('<section class="d-sec d-record"><h2>On the record</h2><p class="d-sub">What this desk filed in the last eight weeks, dated and sourced.</p>'
+              '<ol>%s</ol><p class="d-more"><a href="the-record.html">Read the full Record</a></p></section>' % rec_html) if rec_html else ""
+    return """%s
+%s
+%s
+<main id="main" class="desk">
+<header class="d-head">
+  <div class="d-intro">
+    <h1>%s</h1>
+    <p class="d-tag">%s</p>
+    <p class="d-about">%s</p>
   </div>
-</section>
-<section class="glossary burin">
-  <div class="wrap">
-    <div class="sec-mast rv"><h2>Talk like the trade — <em>the working vocabulary</em></h2><div class="mono-note">The trade's terms, plainly told</div></div>
-    <div class="glo-grid">{glos}</div>
-  </div>
-</section>
-<section class="deskstories">
-  <div class="wrap">
-    <div class="sec-mast rv"><h2>Latest from this desk</h2><div class="mono-note">Filed by correspondents</div></div>
-    <div>{stories}</div>
-  </div>
-</section>
-{recsec}
-<section class="ctastrip">
-  <div class="wrap"><div class="inner">
-    <h2>Go deeper — <em>eight weeks of this trade, on one page.</em></h2>
-    <a class="big" href="the-record.html">Open the Record →</a>
-  </div></div>
-</section>
-{colophon()}
-{SCRIPT}"""
-    return body
+  <section class="d-glance" aria-labelledby="dg-h"><h2 class="lbl" id="dg-h">At a glance</h2><table>%s</table></section>
+</header>
+<section class="d-sec d-latest" aria-labelledby="dl-h"><h2 id="dl-h">Latest</h2>%s<ul class="d-list">%s</ul></section>
+<section class="d-sec d-brief"><h2>What&rsquo;s moving now</h2><div class="d-grid3">%s</div></section>
+<section class="d-sec d-vocab"><h2>The working vocabulary</h2><p class="d-sub">The trade&rsquo;s terms, plainly told. More in <a href="field-guide.html">the Field Guide</a>.</p><dl>%s</dl></section>
+%s
+%s
+</main>
+%s
+%s""" % (head("%s — Carat Capital" % d["title"], metadesc(d["dek"]), "%s.html" % d["slug"], body_cls="rd"),
+         navbar(d["slug"]), omenu(), d["title"], _rd_cap1(d["tag"]), d["dek"], stats, lead_html, rest, briefs, vocab, recsec,
+         _RD_SIGNUP.replace('class="signup"', 'class="signup d-signup"'), colophon(), SCRIPT)
 
 def spark(pts, color):
     n = max(len(pts) - 1, 1)
@@ -2870,32 +2831,41 @@ def article_page_v2(a):
 {colophon()}
 {SCRIPT}"""
 
-# ---------------- ARTICLE v3 — the Article Doctrine (ops/article-doctrine.md, approved 2026-09-03) ----------------
-# Schema v3 lives in content/editorial.json under each slug with "v": 3. The v2 renderer above stays for
-# any spec without it. Three layers on one page: the brief (hero plate, what changed, what it means),
-# the article (table, sections, rail) and the depth (method, sources, corrections, closed by default).
+# ---------------- ARTICLE v3 — the reading design (Edition IV, 2026-09-26) ----------------
+# Schema v3 lives in content/editorial.json under each slug with "v": 3 (ops/article-doctrine.md). This
+# renderer reads the keys the doctrine writes and nothing else; the v2 renderer above stays for any spec
+# without "v": 3.
+#
+# One reading column, in the order a reader needs it:
+#   desk, headline, dek, byline -> the photo, when there is one -> the brief (what changed, what it
+#   means: the bottom line, inside the first screen) -> key figures, as a fact table -> the story,
+#   with its chart and table placed after its first sections -> what to watch -> the story so far
+#   -> go deeper (closed by default) -> one next story -> the Morning Brief.
+# No progress bar and no reading-time label: a 1-3 minute article gains nothing from either.
+# Hierarchy comes from type and space: no boxes around prose, no stamps, no codes, no monospace, no
+# tracked capitals; rules only where they separate data. Figures are tabular lining numerals. Up is green, down is red, and every colour is
+# repeated by a sign or a triangle so colour is never the only signal.
 
-_V3_CORNERS = '<i class="c tl"></i><i class="c tr"></i><i class="c bl"></i><i class="c br"></i>'
-_V3_ROMAN = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII"]
-_V3_SEAL = ('<svg viewBox="0 0 1000 1000" aria-hidden="true"><circle cx="500" cy="500" r="470" fill="none" stroke="#6E5620" stroke-width="14"/>'
-            '<circle cx="500" cy="500" r="405" fill="none" stroke="#6E5620" stroke-width="22" stroke-dasharray="8 44"/>'
-            '<path d="M500 722 413 556C386 478 390 408 430 358 452 330 474 318 500 314c26 4 48 16 70 44 40 50 44 120 17 198Z" fill="#6E5620"/></svg>')
+_RD_CAP_NO = _re.compile(r"^\s*(?:Table|Fig\.?|Figure|Plate|Chart)\s+(?:[IVXLC]+|\d+)\b\s*[·:.—–-]?\s*", _re.I)
+_RD_CODE = _re.compile(r"(?:\s|&nbsp;)*CC/[\d/\-]+\s*$")
+_RD_NUM = _re.compile(r"^[+\-−▲▼]?\s?(?:US\$|HK\$|A\$|S\$|C\$|RMB\s?|Rs\.?\s?|[$£€¥₹])?\s?\d[\d.,]*\s?"
+                      r"(?:%|pp|x|pt|pts|bp|bps|ct|t|kg|oz|g|m|bn|mn|b|k|M|B|K|lakh|crore|million|billion)?$", _re.I)
+_RD_END = '<span class="endmark" aria-hidden="true"></span>'
+_RD_TRI = {
+    "up": '<svg class="tri up" viewBox="0 0 10 10" role="img" aria-label="Up"><path d="M5 1.6 9.4 8.4H.6z"/></svg>',
+    "dn": '<svg class="tri dn" viewBox="0 0 10 10" role="img" aria-label="Down"><path d="M5 8.4 .6 1.6h8.8z"/></svg>',
+}
 
-def _v3_words(s):
-    return len(_re.sub(r"<[^>]+>", " ", s or "").split())
+def _rd_text(s):
+    return _re.sub(r"<[^>]+>", " ", s or "")
 
-def _v3_lab(txt, cls=""):
-    return '<span class="lab%s">%s</span>' % ((" " + cls) if cls else "", txt)
+def _rd_words(s):
+    return len(_rd_text(s).split())
 
-def _v3_dir(s):
-    s = (s or "").strip()
-    if s[:1] in ("+", "▲") or s.lower().startswith("up"):
-        return "up"
-    if s[:1] in ("−", "-", "▼") or s.lower().startswith("down"):
-        return "dn"
-    return ""
+def _rd_iso(s):
+    return bool(_re.match(r"^\d{4}-\d{2}-\d{2}$", s or ""))
 
-def _v3_date(iso, weekday=False):
+def _rd_date(iso, weekday=False):
     try:
         d = datetime.date.fromisoformat(iso)
     except Exception:
@@ -2903,95 +2873,88 @@ def _v3_date(iso, weekday=False):
     s = "%d %s %d" % (d.day, d.strftime("%B"), d.year)
     return (d.strftime("%A") + " " + s) if weekday else s
 
-def _v3_numberish(n):
-    return bool(_re.match(r"^[+\-−▲▼]?[$£€¥₹]?[\d.,]+\s?(%|pp|x|pt|pts|bp|bps|ct|t|kg|oz|m|bn|mn|k)?$", (n or "").strip(), _re.I))
+def _rd_dirfield(d):
+    d = (d or "").strip().lower()
+    return "up" if d == "up" else ("dn" if d in ("dn", "down") else "")
 
-def _v3_hero(ed):
-    h = dict(ed.get("hero") or {})
-    fg = (ed.get("figures") or {}).get("cells") or []
-    if not h.get("n") and fg:
-        h.setdefault("n", fg[0]["n"]); h.setdefault("what", fg[0].get("label", "")); h.setdefault("since", fg[0].get("q", ""))
-    if not h.get("n") and not fg:
+def _rd_sign(s):
+    """Direction read off a figure's own sign, the way a price table is read."""
+    s = _rd_text(s).strip()
+    if s[:1] in ("+", "▲"):
+        return "up"
+    if s[:1] in ("−", "-", "▼"):
+        return "dn"
+    return ""
+
+def _rd_numlike(s):
+    s = _rd_text(s).strip()
+    return s in ("", "—", "–", "-", "n/a", "n.a.") or bool(_RD_NUM.match(s))
+
+def _rd_figures(ed):
+    """Key figures as a fact table: the measure and its comparison on the left, the figure on the
+    right in tabular numerals. A row of display-size numbers reads as a promotion; a table is read."""
+    f = ed.get("figures") or {}
+    cells = [c for c in (f.get("cells") or []) if (c.get("n") or "").strip()][:5]
+    if not cells:
         return ""
-    numberish = _v3_numberish(h.get("n", ""))
-    big = ""
-    if numberish:
-        n = h["n"].strip()
-        m = _re.match(r"^(.*?[\d.,]+)\s?(%|pp|x|pt|pts|bp|bps|ct|oz|kg|t|m|bn|mn|k)?$", n, _re.I)
-        big = "%s<small>%s</small>" % (m.group(1), m.group(2)) if (m and m.group(2)) else n
-        d = h.get("dir") or _v3_dir(n)
-        L = len(_re.sub(r"<[^>]+>", "", big))
-        fs = "clamp(60px,7.6vw,104px)" if L <= 5 else "clamp(52px,6vw,84px)" if L <= 7 else "clamp(44px,5vw,68px)" if L <= 9 else "clamp(36px,4vw,54px)"
-        big = '<div class="big %s" style="font-size:%s">%s</div>' % (d, fs, big)
-        if h.get("what"):
-            big += '<div class="what">%s</div>' % h["what"]
-        if h.get("since"):
-            big += '<div class="since">%s</div>' % h["since"]
-    body = ""
-    if h.get("bars"):
-        rows = h["bars"]
-        vals = [float(r["v"]) for r in rows]
-        mx = max(abs(v) for v in vals) or 1.0
-        signed = any(v < 0 for v in vals)
-        z = 30 if signed else 0
-        out = ""
-        for r in rows:
-            v = float(r["v"]); hi = " hi" if r.get("hi") else ""
-            if v >= 0:
-                w = abs(v) / mx * (100 - z - 2)
-                fill = '<span class="fill%s" style="left:%d%%;width:%.1f%%"></span>' % (hi, z, w)
-            else:
-                w = abs(v) / mx * z
-                fill = '<span class="fill neg" style="left:calc(%d%% - %.1f%%);width:%.1f%%"></span>' % (z, w, w)
-            out += ('<div class="bar%s%s"><span>%s</span><span class="track">%s</span><span class="v%s">%s</span></div>'
-                    % (hi, "" if signed else " nz", r["l"], fill, " neg" if v < 0 else "", r["d"]))
-        body = '<div class="bars">%s%s</div>' % (_v3_lab(h.get("bars_cap", "")) if h.get("bars_cap") else "", out)
-    else:
-        rest = fg[1:4] if numberish else fg[:4]
-        if rest:
-            mini = "".join('<div class="mini"><span class="mv %s">%s</span><span class="ml">%s</span></div>'
-                           % (c.get("dir") or _v3_dir(c["n"]), c["n"], c.get("label", "")) for c in rest)
-            body = '<div class="minis">%s</div>' % mini
-    src = h.get("src") or (ed.get("figures") or {}).get("asof", "")
-    spec = h.get("spec", "")
-    pcap = ""
-    if src or spec:
-        pcap = '<figcaption class="pcap"><span>%s%s</span><span>%s</span></figcaption>' % ("<b>Source</b> " if src else "", src, spec)
-    label = _v3_lab("The number" if numberish else "Key figures")
-    return ('<figure class="plate figplate rv">%s<span class="stamp">PLATE I</span>%s%s%s%s</figure>'
-            % (_V3_CORNERS, label, big, body, pcap))
+    rows = ""
+    for c in cells:
+        n = c["n"].strip()
+        plain = _rd_text(n).strip()
+        d = _rd_dirfield(c.get("dir")) or _rd_sign(plain)
+        q = ('<span class="kf-q">%s</span>' % c["q"]) if c.get("q") else ""
+        if not _re.search(r"\d", plain) or len(plain) > 16:
+            # a name, an order or a date range: words, set under the measure rather than squeezed into a figure column
+            rows += ('<tr class="kf-w"><th scope="row" colspan="2"><span class="kf-l">%s</span><span class="kf-v">%s</span>%s</th></tr>'
+                     % (c.get("label", ""), n, q))
+        else:
+            rows += '<tr><th scope="row"><span class="kf-l">%s</span>%s</th><td>%s%s</td></tr>' % (c.get("label", ""), q, _RD_TRI.get(d, ""), n)
+    src = f.get("asof") or ""
+    return ('<section class="kf" aria-labelledby="kf-h"><h2 class="lbl" id="kf-h">Key figures</h2><table>%s</table>%s</section>'
+            % (rows, ('<p class="src-line">Source: %s</p>' % src) if src else ""))
 
-def _v3_series(s):
-    if not s or not s.get("months"):
-        return ""
-    ms = ""
-    for m in s["months"]:
-        cls = "m" + (" mark" if m.get("mark") else "") + (" gilt" if m.get("mark") == "gilt" else "")
-        y = '<span class="y">%s</span>' % m["y"] if m.get("y") else ""
-        ms += '<span class="%s">%s%s</span>' % (cls, m["m"], y)
-    n = len(s["months"]); b = s.get("band")
-    band = '<span class="band" style="left:calc(100%%/%d*%d);width:calc(100%%/%d*%d)"></span>' % (n, b[0], n, b[1]) if b else ""
-    leg = "".join('<span><i class="%s"></i>%s</span>' % (l["k"], l["t"]) for l in s.get("legend", []))
-    asof = '<span class="asof">%s</span>' % s["asof"] if s.get("asof") else ""
-    return ('<div class="ribbon rv"><div class="head">%s%s</div><div class="months" style="grid-template-columns:repeat(%d,1fr)">%s%s</div><div class="legend">%s</div></div>'
-            % (_v3_lab(s.get("title", "")), asof, n, band, ms, leg))
-
-def _v3_blocks(ed):
+def _rd_brief(ed):
     ch = ed.get("changed") or {}
-    changed = ""
+    parts = ""
     if ch.get("text"):
-        lead = "<b>%s</b> " % ch["lead"] if ch.get("lead") else ""
-        changed = '<div class="blk rv">%s<p>%s%s</p></div>' % (_v3_lab("What changed"), lead, ch["text"])
-    ms = ""
-    for m in ed.get("means") or []:
-        who = '<b class="who">%s</b> ' % m["who"] if m.get("who") else ""
-        ms += "<p>%s%s</p>" % (who, m.get("text", ""))
-    means = '<div class="blk means rv">%s%s</div>' % (_v3_lab("What it means · The Desk’s View"), ms) if ms else ""
-    if not (changed or means):
-        return ""
-    return '<section class="brief"><div class="two%s">%s%s</div></section>' % ("" if (changed and means) else " one", changed, means)
+        lead = "<strong>%s</strong> " % ch["lead"] if ch.get("lead") else ""
+        parts += '<h2 class="lbl">What changed</h2><p>%s%s</p>' % (lead, ch["text"])
+    items = "".join("<li>%s%s</li>" % (("<strong>%s</strong> " % m["who"]) if m.get("who") else "", m.get("text", ""))
+                    for m in ed.get("means") or [])
+    if items:
+        parts += '<h2 class="lbl">What it means</h2><ul class="means">%s</ul>' % items
+    return '<section class="brief" aria-label="The brief">%s</section>' % parts if parts else ""
 
-def _v3_photo(ed, a):
+def _rd_chart(ed):
+    h = ed.get("hero") or {}
+    rows = h.get("bars") or []
+    if not rows:
+        return ""
+    vals = [float(r["v"]) for r in rows]
+    lo, hi = min(0.0, min(vals)), max(0.0, max(vals))
+    span = (hi - lo) or 1.0
+    bars = ""
+    for r, v in zip(rows, vals):
+        left = (min(v, 0.0) - lo) / span * 100
+        width = max(abs(v) / span * 100, 0.8)
+        cls = " ".join(x for x in ("hi" if r.get("hi") else "", "neg" if v < 0 else "") if x)
+        bars += ('<div class="b%s"><span class="bl">%s</span><span class="bt"><i style="left:%.2f%%;width:%.2f%%"></i></span><span class="bv">%s</span></div>'
+                 % ((" " + cls) if cls else "", r["l"], left, width, r.get("d", "")))
+    n = (h.get("n") or "").strip()
+    sub = ""
+    if n and _RD_NUM.match(_rd_text(n).strip()):
+        d = _rd_dirfield(h.get("dir")) or _rd_sign(n)
+        sub = '<b class="%s">%s</b>' % (d, n) + (" &middot; %s" % h["since"] if h.get("since") else "")
+    elif h.get("since"):
+        sub = h["since"]
+    src = [x for x in (h.get("src"), h.get("spec")) if x]
+    return ('<figure class="exhibit chart"><figcaption><span class="ex-t">%s</span>%s</figcaption>%s'
+            '<div class="bars" style="--z:%.2f%%">%s</div>%s</figure>'
+            % (h.get("what", ""), ('<span class="ex-s">%s</span>' % sub) if sub else "",
+               ('<p class="ex-u">%s</p>' % h["bars_cap"]) if h.get("bars_cap") else "", -lo / span * 100, bars,
+               ('<p class="src-line">Source: %s</p>' % " &middot; ".join(src)) if src else ""))
+
+def _rd_photo(ed, a):
     p = ed.get("photo")
     if p is None:
         m = PH.get(a["slug"])
@@ -3002,104 +2965,163 @@ def _v3_photo(ed, a):
         return ""
     cred = p.get("credit", "")
     if cred and "Carat Capital" not in cred:
-        cred = "%s · Wikimedia Commons" % cred
-    return ('<figure class="plate photo rv">%s<img src="%s" alt="%s" width="%s" height="%s" loading="lazy" decoding="async">'
-            '<figcaption class="pcap"><span><b>Plate II</b> %s</span><span>Photograph · %s</span></figcaption></figure>'
-            % (_V3_CORNERS, p["src"], H.escape(p.get("alt", "")), p.get("w", ""), p.get("h", ""), p.get("cap", ""), cred))
+        cred = "%s &middot; Wikimedia Commons" % cred
+    cap = p.get("cap", "")
+    return ('<figure class="photo" style="--w:%spx"><img src="%s" alt="%s" width="%s" height="%s" fetchpriority="high" decoding="async">'
+            '<figcaption>%s%s</figcaption></figure>'
+            % (p.get("w", 1280), p["src"], H.escape(p.get("alt", "")), p.get("w", ""), p.get("h", ""),
+               ('<span class="cap">%s</span> ' % cap) if cap else "", ('<span class="credit">Photograph: %s</span>' % cred) if cred else ""))
 
-def _v3_visual(v):
+def _rd_series(s):
+    if not s or not s.get("months"):
+        return ""
+    ms = "".join('<li class="%s"><span>%s</span>%s</li>'
+                 % ("mark gilt" if m.get("mark") == "gilt" else ("mark" if m.get("mark") else ""), m["m"],
+                    ('<small>%s</small>' % m["y"]) if m.get("y") else "") for m in s["months"])
+    n, b = len(s["months"]), s.get("band")
+    band = ('<span class="band" style="left:calc(100%%/%d*%d);width:calc(100%%/%d*%d)"></span>' % (n, b[0], n, b[1])) if b else ""
+    leg = "".join('<span><i class="%s"></i>%s</span>' % (l["k"], l["t"]) for l in s.get("legend", []))
+    return ('<figure class="exhibit series"><figcaption><span class="ex-t">%s</span>%s</figcaption>'
+            '<div class="months" style="--n:%d">%s<ol>%s</ol></div><p class="legend">%s</p></figure>'
+            % (s.get("title", ""), ('<span class="ex-s">%s</span>' % s["asof"]) if s.get("asof") else "", n, band, ms, leg))
+
+def _rd_notes(note):
+    note = _RD_CODE.sub("", (note or "").strip())
+    if not note:
+        return ""
+    paras = []
+    for part in _re.split(r"(?=<b>)", note):
+        part = part.strip()
+        m = _re.match(r"<b>(.*?)</b>\s*(.*)", part, _re.S)
+        if m:
+            lab = m.group(1).strip()
+            if lab and lab[-1] not in ".:?!":
+                lab += "."
+            paras.append("<p><strong>%s</strong> %s</p>" % (lab, m.group(2)))
+        elif part:
+            paras.append("<p>%s</p>" % part)
+    body = "".join(paras)
+    if _rd_words(note) > 60:
+        return '<details class="notes"><summary>Notes on this %s</summary>%s</details>' % ("{kind}", body)
+    return '<div class="notes">%s</div>' % body
+
+def _rd_exhibit(v):
     if not v:
         return ""
-    cap = '<div class="cap lab"><span>%s</span><span class="asof">%s</span></div>' % (v.get("cap", ""), v.get("asof", ""))
-    foot = '<div class="pcap"><span>%s</span><span>%s</span></div>' % (v.get("note", ""), v.get("plate", ""))
+    cap = _RD_CAP_NO.sub("", (v.get("cap") or "").strip()).strip()
+    if cap.lower() in ("plate", "figure", "fig.", "table", "chart", "engraving"):
+        cap = ""
+    asof = v.get("asof") or ""
+    head = ('<figcaption>%s%s</figcaption>' % (('<span class="ex-t">%s</span>' % cap) if cap else "",
+                                               ('<span class="ex-s">%s</span>' % asof) if asof else "")) if (cap or asof) else ""
     if v.get("type") == "svg":
-        return '<figure class="plate tbl rv">%s%s<div class="frame">%s</div>%s</figure>' % (_V3_CORNERS, cap, v["svg"], foot)
-    ths = "".join("<th>%s</th>" % c for c in v.get("cols", []))
+        return ('<figure class="exhibit art">%s<div class="art-svg">%s</div>%s</figure>'
+                % (head, v["svg"], _rd_notes(v.get("note")).replace("{kind}", "illustration")))
+    cols, rows = v.get("cols") or [], v.get("rows") or []
+    if not rows:
+        return ""
+    ncol = max([len(cols)] + [len(r) for r in rows])
+    num = [j > 0 and sum(1 for r in rows if j < len(r) and _rd_numlike(str(r[j]))) * 2 >= len(rows) for j in range(ncol)]
+    ths = "".join('<th scope="col"%s>%s</th>' % (' class="n"' if num[j] else "", c) for j, c in enumerate(cols))
     trs = ""
-    for i, r in enumerate(v.get("rows", [])):
-        tds = "".join('<td class="%s">%s</td>' % ("" if j == 0 else _v3_dir(str(c)), c) for j, c in enumerate(r))
-        hi = ' class="hi"' if v.get("hi") is not None and i == v["hi"] else ""
-        trs += "<tr%s>%s</tr>" % (hi, tds)
-    return ('<div class="plate tbl rv">%s%s<table><thead><tr>%s</tr></thead><tbody>%s</tbody></table>%s</div>'
-            % (_V3_CORNERS, cap, ths, trs, foot))
+    for i, r in enumerate(rows):
+        cells = ""
+        for j, c in enumerate(r):
+            s = str(c)
+            cls = [x for x in ("n" if num[j] else "", _rd_sign(s) if j else "") if x]
+            tag = "th" if j == 0 else "td"
+            cells += '<%s%s%s>%s</%s>' % (tag, ' scope="row"' if j == 0 else "", (' class="%s"' % " ".join(cls)) if cls else "", s, tag)
+        trs += "<tr%s>%s</tr>" % (' class="hi"' if v.get("hi") is not None and i == v["hi"] else "", cells)
+    label = H.escape(_rd_text(cap).strip()) or "Data table"
+    return ('<figure class="exhibit tbl c%d%s">%s<div class="tb-scroll" role="region" aria-label="%s" tabindex="0"><table>%s<tbody>%s</tbody></table></div>%s</figure>'
+            % (min(ncol, 6), " wide" if ncol >= 5 else "", head, label, ('<thead><tr>%s</tr></thead>' % ths) if ths else "", trs,
+               _rd_notes(v.get("note")).replace("{kind}", "table")))
 
-def _v3_sections(secs):
+def _rd_sections(secs, exhibits=()):
+    """The story, with its exhibits placed inside it: the first after section one, the next after
+    section two, any left over after the last. A chart belongs next to the prose that reads it."""
+    exhibits = [x for x in exhibits if x]
     out = ""
     for i, s in enumerate(secs):
-        ps = "".join("<p>%s%s</p>" % (("<b>%s</b> " % p["lead"]) if p.get("lead") else "", p.get("text", "")) for p in s.get("p", []))
-        num = _V3_ROMAN[i] if i < len(_V3_ROMAN) else str(i + 1)
-        out += '<h2 id="s%d"><span class="num">%s</span>%s</h2>%s' % (i + 1, num, s["h"], ps)
-    return out
+        ps = s.get("p", [])
+        out += '<h2 id="s%d">%s</h2>' % (i + 1, s["h"])
+        for k, p in enumerate(ps):
+            lead = ("<strong>%s</strong> " % p["lead"]) if p.get("lead") else ""
+            out += "<p>%s%s%s</p>" % (lead, p.get("text", ""), _RD_END if (i == len(secs) - 1 and k == len(ps) - 1) else "")
+        if exhibits and i < len(secs) - 1:
+            out += exhibits.pop(0)
+    return out + "".join(exhibits)
 
-def _v3_rail(ed, secs):
-    boxes = ""
-    if secs:
-        toc = "".join('<li><span class="num">%s</span><a href="#s%d">%s</a></li>' % (_V3_ROMAN[i] if i < len(_V3_ROMAN) else i + 1, i + 1, s["h"]) for i, s in enumerate(secs))
-        boxes += '<div class="box">%s<ol class="toc">%s</ol></div>' % (_v3_lab("In this story"), toc)
-    w = ed.get("watch") or []
-    if w:
-        li = "".join('<li><span class="when">%s</span><span>%s</span></li>' % (x["when"], x["what"]) for x in w)
-        boxes += '<div class="box">%s<ul class="watch">%s</ul></div>' % (_v3_lab("What to watch", "seal"), li)
-    pr = (ed.get("depth") or {}).get("prior") or []
-    if pr:
-        li = ""
-        for x in pr[:5]:
-            href = ("a-%s.html" % x["slug"]) if x.get("slug") else x.get("url", "#")
-            claim = "<br>%s" % x["claim"] if x.get("claim") else ""
-            when = _v3_date(x["date"]) if _re.match(r"^\d{4}-\d{2}-\d{2}$", x.get("date", "")) else x.get("date", "")
-            li += '<li><span class="when">%s</span><a href="%s">%s</a>%s</li>' % (when, href, x.get("title", ""), claim)
-        boxes += '<div class="box">%s<ul class="tl">%s</ul></div>' % (_v3_lab("The story so far"), li)
-    return '<aside class="rail">%s</aside>' % boxes
+def _rd_watch(ed):
+    w = [x for x in ed.get("watch") or [] if x.get("what")]
+    if not w:
+        return ""
+    li = "".join('<li><span class="when">%s</span><span class="what">%s</span></li>' % (x.get("when", ""), x["what"]) for x in w)
+    return '<section class="after watch"><h2 class="lbl">What to watch</h2><ul>%s</ul></section>' % li
 
-def _v3_depth(ed, a):
+def _rd_sofar(ed):
+    am = _amap()
+    li = ""
+    for x in ((ed.get("depth") or {}).get("prior") or [])[:5]:
+        slug, d = x.get("slug"), x.get("date", "")
+        title = x.get("title") or ""
+        text = title or x.get("claim") or (am.get(slug) or {}).get("title", "")
+        if not text:
+            continue
+        note = x.get("claim") if (title and x.get("claim")) else ""
+        href = ("a-%s.html" % slug) if slug in am else x.get("url")
+        li += ('<li><time%s>%s</time><span class="t">%s</span>%s</li>'
+               % ((' datetime="%s"' % d) if _rd_iso(d) else "", _rd_date(d) if _rd_iso(d) else d,
+                  ('<a href="%s">%s</a>' % (href, text)) if href else text, ('<span class="why">%s</span>' % note) if note else ""))
+    return '<section class="after sofar"><h2 class="lbl">The story so far</h2><ol>%s</ol></section>' % li if li else ""
+
+def _rd_depth(ed, a):
     d = ed.get("depth") or {}
     items = []
-    if d.get("reverse"):
-        items.append(("What would change this call", "<p>%s</p>" % d["reverse"], "", False))
-    b = d.get("built")
-    if b and b.get("text"):
-        items.append((b.get("title", "How it is built"), "<p>%s</p>" % b["text"], "", False))
-    if d.get("method"):
-        items.append(("Method · the desk’s arithmetic", "<p>%s</p>" % d["method"], "", False))
     corr = d.get("corrections") or []
     if corr:
-        items.append(("Corrections", "".join("<p>%s</p>" % c for c in corr), "%d note%s" % (len(corr), "s" if len(corr) > 1 else ""), True))
+        items.append(("corrections", "Corrections", "".join("<p>%s</p>" % c for c in corr), "%d note%s" % (len(corr), "" if len(corr) == 1 else "s"), True))
+    if d.get("reverse"):
+        items.append(("", "What would change this call", "<p>%s</p>" % d["reverse"], "", False))
+    b = d.get("built") or {}
+    if b.get("text"):
+        items.append(("", b.get("title") or "How it is built", "<p>%s</p>" % b["text"], "", False))
+    if d.get("method"):
+        items.append(("", "Method", "<p>%s</p>" % d["method"], "", False))
     srcs = d.get("sources") or a.get("sources") or []
     if srcs:
-        li = "".join('<li><a href="%s" target="_blank" rel="noopener">%s ↗</a></li>' % (s["url"], s["title"]) for s in srcs)
-        items.append(("Sources", '<ul class="src">%s</ul>' % li, "%d document%s" % (len(srcs), "" if len(srcs) == 1 else "s"), False))
-    out = ""
-    for i, (t, body, right, open_) in enumerate(items):
-        r = '<span class="lab">%s</span>' % right if right else '<span class="plus">+</span>'
-        out += ('<details%s><summary><span class="i">%02d</span><span>%s</span>%s</summary><div class="d">%s</div></details>'
-                % (" open" if open_ else "", i + 1, t, r, body))
-    if not out:
+        li = "".join('<li><a href="%s" target="_blank" rel="noopener">%s</a>%s</li>'
+                     % (s["url"], s["title"], (' <span class="pub">%s</span>' % _rd_date(s["published"])) if _rd_iso(s.get("published")) else "")
+                     for s in srcs if s.get("url"))
+        items.append(("sources", "Sources", '<ol class="src">%s</ol>' % li, "%d" % len(srcs), False))
+    if not items:
         return ""
-    return ('<section class="depth rv"><div class="head">%s<span class="hint">Method, sources, corrections · open what you need</span></div>%s</section>'
-            % (_v3_lab("The depth"), out))
+    out = "".join('<details%s%s><summary><span class="t">%s</span>%s<span class="ic" aria-hidden="true"></span></summary><div class="dd">%s</div></details>'
+                  % ((' id="%s"' % i) if i else "", " open" if o else "", t, ('<span class="meta">%s</span>' % m) if m else "", body)
+                  for i, t, body, m, o in items)
+    return '<section class="after depth"><h2 class="lbl">Go deeper</h2>%s</section>' % out
 
-def _v3_foot(ed, a):
+def _rd_next(ed, a):
     nx = ed.get("next") or {}
-    am = _amap(); card = ""
-    la = am.get(nx.get("slug"))
-    if la and la["slug"] != a["slug"]:
-        card = ('<div class="next rv">%s<a class="card" href="a-%s.html"><div class="t">%s · %s</div><h4>%s</h4><p>%s</p></a></div>'
-                % (_v3_lab("Keep reading · one story, not five"), la["slug"], DESK_NAMES.get(la["desk"], la["desk"]), _v3_date(la["date"]),
-                   la["title"], nx.get("why") or la["dek"]))
-    brief = ('<div class="brief-box rv"><span class="lab">The Morning Brief · free</span><h3>The trade, filed before the New York open.</h3>'
-             '<p>Prices, tenders and the one story that moved the industry overnight. Ninety seconds.</p>'
-             '<a class="btn" href="https://caratcapital.beehiiv.com" target="_blank" rel="noopener">Subscribe free →</a></div>')
-    seal = '<div class="endcard rv">%s<div class="slog">Clarity, daily.</div></div>' % _V3_SEAL
-    return '<section class="foot">%s%s%s</section>' % (card, brief, seal)
+    la = _amap().get(nx.get("slug"))
+    if not la or la["slug"] == a["slug"]:
+        return ""
+    thumb = ('<img src="assets/ph/%s.jpg" alt="" width="%s" height="%s" loading="lazy" decoding="async">' % (la["slug"], PH[la["slug"]]["w"], PH[la["slug"]]["h"])) if la["slug"] in PH else ""
+    return ('<aside class="next%s"><h2 class="lbl">Read next</h2><a href="a-%s.html">%s<span class="nx-k"><span class="nx-desk">%s</span>%s</span>'
+            '<span class="nx-t">%s</span><span class="nx-d">%s</span></a></aside>'
+            % (" has-img" if thumb else "", la["slug"], thumb, DESK_NAMES.get(la["desk"], la["desk"]), _rd_date(la["date"][:10]),
+               la["title"], nx.get("why") or la["dek"]))
+
+_RD_SIGNUP = ('<aside class="signup"><h2 class="lbl">The Morning Brief</h2><p class="su-h">The trade, filed before the New York open.</p>'
+              '<p class="su-p">Prices, tenders and the one story that moved the industry overnight, in ninety seconds. Free, daily.</p>'
+              '<a class="btn" href="https://caratcapital.beehiiv.com" target="_blank" rel="noopener">Subscribe free</a></aside>')
 
 def article_page_v3(a):
     ed = a["ed"]
     desk_name = DESK_NAMES.get(a["desk"], a["desk"])
     secs = ed.get("sections") or []
-    l1 = _v3_words(a["dek"]) + _v3_words((ed.get("changed") or {}).get("text", "")) + sum(_v3_words(m.get("text", "")) for m in ed.get("means") or [])
-    l2 = sum(_v3_words(p.get("text", "")) for s in secs for p in s.get("p", []))
-    brief_s = max(15, int(round(l1 / 230.0 * 60 / 5.0)) * 5)
-    full_m = max(1, -(-(l1 + l2) // 230))
+    l1 = _rd_words(a["dek"]) + _rd_words((ed.get("changed") or {}).get("text", "")) + sum(_rd_words(m.get("text", "")) for m in ed.get("means") or [])
+    l2 = sum(_rd_words(p.get("text", "")) for s in secs for p in s.get("p", []))
     title = ed.get("seo_title") or a["title"]
     corr = (ed.get("depth") or {}).get("corrections") or []
     jsonld = json.dumps({
@@ -3111,38 +3133,20 @@ def article_page_v3(a):
         "articleSection": desk_name, "mainEntityOfPage": "%s/a-%s" % (BASE_URL, a["slug"]),
         "wordCount": l1 + l2,
     })
-    extra = '<scr' + 'ipt type="application/ld+json">%s</scr' + 'ipt>'
     ogimg = ("%s/assets/ph/%s.jpg" % (BASE_URL, a["slug"])) if a["slug"] in PH else None
-    extra = (extra % jsonld) + "\n" + seo.og_article_tags(a, desk_name, ogimg)
-    prog = ('<div id="artprog" class="v3prog"></div><scr' + 'ipt>addEventListener("scroll",function(){var h=document.documentElement;'
-            'document.getElementById("artprog").style.width=h.scrollTop/(h.scrollHeight-h.clientHeight)*100+"%"})</scr' + 'ipt>')
-    kicker = a.get("kicker", desk_name)
-    code = "CC/%s" % a["date"][-5:]
-    corr_line = '<span class="corr">Corrected · see The depth</span>' if corr else ""
-    byline = ('<div class="byline"><span>By <b>%s</b></span><span>%s</span><span>Brief <b>%d sec</b> · Full read <b>%d min</b></span>%s</div>'
-              % (a["byline"], _v3_date(a["date"]), brief_s, full_m, corr_line))
-    folio_ = ('<div class="folio"><div class="in"><span><b>%s</b></span><span>%s</span><span>The %s Desk<span class="pp"> · <b>%s</b></span></span></div></div>'
-              % (code, _v3_date(a["date"], weekday=True), desk_name, kicker))
-    hero_text = ('<div class="hero-text"><div class="kick lab"><span class="desk">%s</span><span class="n">%s · %s</span></div>'
-                 '<h1>%s</h1><p class="dek">%s</p>%s</div>' % (kicker, desk_name, code, figwrap(a["title"]), a["dek"], byline))
-    cut = ('<div class="cut">%s<span class="ln"></span><span class="meta">%d section%s · %d words</span></div>'
-           % (_v3_lab("The article"), len(secs), "" if len(secs) == 1 else "s", l2))
-    return """%s
-%s
-%s
-%s
-<article class="v3">
-%s
-<section class="hero wide"><div class="hero-grid">%s%s</div>%s</section>
-<div class="wide">%s</div>
-<div class="wide">%s</div>
-<section class="agrid wide"><div class="article">%s%s%s</div>%s</section>
-<div class="lower">%s%s</div>
-</article>
-%s
-%s""" % (head("%s — Carat Capital" % title, metadesc(a["dek"]), "a-%s.html" % a["slug"], extra, "article", ogimg), prog, navbar(a["desk"]), omenu(),
-         folio_, hero_text, _v3_hero(ed), _v3_series(ed.get("series")), _v3_blocks(ed), _v3_photo(ed, a),
-         cut, _v3_visual(ed.get("visual")), _v3_sections(secs), _v3_rail(ed, secs), _v3_depth(ed, a), _v3_foot(ed, a), colophon(), SCRIPT)
+    extra = ('<scr' + 'ipt type="application/ld+json">%s</scr' + 'ipt>') % jsonld + "\n" + seo.og_article_tags(a, desk_name, ogimg)
+    date = a["date"][:10]
+    byline = ('<div class="s-by"><p class="who">By %s</p><p class="when"><time datetime="%s">%s</time>%s</p></div>'
+              % (a["byline"], date, _rd_date(date), ' <a class="corr" href="#corrections">Corrected</a>' if corr else ""))
+    story = (
+        '<header class="s-head"><p class="kicker"><a href="%s.html">%s</a></p><h1>%s</h1><p class="dek">%s</p>%s</header>'
+        % (a["desk"], desk_name, a["title"], a["dek"], byline)
+        + _rd_photo(ed, a) + _rd_brief(ed) + _rd_figures(ed)
+        + '<div class="s-body">%s</div>' % _rd_sections(secs, (_rd_series(ed.get("series")), _rd_chart(ed), _rd_exhibit(ed.get("visual"))))
+        + _rd_watch(ed) + _rd_sofar(ed) + _rd_depth(ed, a) + _rd_next(ed, a) + _RD_SIGNUP)
+    return "%s\n%s\n%s\n<main id=\"main\"><article class=\"story\">%s</article></main>\n%s\n%s" % (
+        head("%s — Carat Capital" % title, metadesc(a["dek"]), "a-%s.html" % a["slug"], extra, "article", ogimg, body_cls="rd"),
+        navbar(a["desk"], "true"), omenu(), story, colophon(), SCRIPT)
 
 
 def article_page(a):
@@ -3569,6 +3573,26 @@ for a in ARTICLES:
 (out/"lab-grown-diamond-prices.html").write_text(lab_prices_page())
 (out/"indices.html").write_text(indices_page())
 (out/"magazine.html").write_text(magazine_page())
+
+def _redress_static(path):
+    """The two legal pages are written by hand and keep their own text. Their header, footer, fonts and
+    stylesheet version are re-dressed here from the functions every other page uses, so they cannot drift."""
+    if not path.exists():
+        return
+    h = path.read_text()
+    if "<!--chrome:header-->" not in h:
+        return
+    h = _re.sub(r"<!--chrome:header-->.*?<!--/chrome:header-->",
+                lambda m: "<!--chrome:header-->\n%s\n%s\n<!--/chrome:header-->" % (navbar(), omenu()), h, flags=_re.S)
+    h = _re.sub(r"<!--chrome:footer-->.*?<!--/chrome:footer-->",
+                lambda m: "<!--chrome:footer-->\n%s\n%s\n<!--/chrome:footer-->" % (colophon(), SCRIPT[:SCRIPT.index("</script>") + 9]), h, flags=_re.S)
+    h = _re.sub(r'<link href="(?:FONTS_RD|https://fonts\.googleapis\.com/css2\?[^"]+)" rel="stylesheet">',
+                lambda m: '<link href="%s" rel="stylesheet">' % FONTS_RD, h, count=1)
+    h = _re.sub(r"assets/styles\.css\?v=[0-9a-f]+", lambda m: "assets/styles.css?v=%s" % CSS_V, h)
+    path.write_text(h)
+
+for _static in ("privacy.html", "terms.html"):
+    _redress_static(out / _static)
 for _f in out.glob("*.html"):
     _f.write_text(_clean_links(_f.read_text()))
 (out/"assets"/"favicon.svg").write_text(FAVICON)
