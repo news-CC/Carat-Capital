@@ -1,6 +1,6 @@
 // Writes the logo files into the repo (brand/logos/**) and the presentation page.
 const R = require('./routes'); const { C } = require('./lib'); const fs = require('fs'); const path = require('path');
-const REPO = path.join(__dirname, '..');
+const REPO = path.join(__dirname, '..', 'round-one');
 const P = C.paper, I = C.ink, S = C.seal;
 const files = {
   '01-the-point': {

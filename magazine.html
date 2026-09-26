@@ -11,15 +11,16 @@
 <meta property="og:description" content="Carat Capital&#x27;s weekly digital magazine: the week&#x27;s editions bound into a page-turning issue.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://caratcapital.org/magazine">
-<meta property="og:image" content="https://caratcapital.org/assets/og-card.png">
+<meta property="og:image" content="https://caratcapital.org/assets/share-card.png">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="alternate" type="application/rss+xml" title="Carat Capital — all desks" href="https://caratcapital.org/feed.xml">
 <script data-goatcounter="https://caratcapital.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/styles.css?v=81ae71ac">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&family=Bodoni+Moda:opsz,wght@6..96,400..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css?v=822841a0">
 
 </head>
 <body>
@@ -45,12 +46,13 @@
   </g>
   <g id="hm-assay">
     <ellipse cx="13" cy="10" rx="12" ry="9" fill="url(#foilFill)" stroke="currentColor" stroke-width="1.2"/>
-    <path d="M8.5 13 L13 6.5 L17.5 13" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M9.98 6.48 H16.02 L18.4 8.12 L13 13.52 L7.6 8.12 Z" fill="currentColor"/><circle cx="13" cy="9.92" r=".95" fill="#BE3319"/>
   </g>
   <g id="hm-date">
     <rect x="1" y="1" width="18" height="18" rx="4" fill="url(#foilFill)" stroke="currentColor" stroke-width="1.2"/>
     <text x="10" y="14.6" text-anchor="middle" font-family="'Lora',serif" font-style="italic" font-size="11.5" fill="currentColor">a</text>
   </g>
+  <mask id="medal-k" maskUnits="userSpaceOnUse" x="-10" y="131.52" width="1020" height="720.96"><rect x="-10" y="131.52" width="1020" height="720.96" fill="#fff"/><path d="M76 352.48L924 352.48M356 352.48L500 752.48M644 352.48L500 752.48M500 535.81L500 792.48" stroke="#000" stroke-width="20"/><circle cx="500" cy="485.81" r="54" fill="#000"/></mask><symbol id="medal" viewBox="0 0 1000 1000"><g mask="url(#medal-k)"><path d="M276 231.52L724 231.52L900 352.48L500 752.48L100 352.48Z" fill="currentColor"/></g><circle cx="500" cy="485.81" r="34" fill="#BE3319"/></symbol>
 </defs>
 </svg>
 <style>
@@ -196,7 +198,8 @@ body.zoomed.panning #zoomer{cursor:grabbing;transition:none}
   text-transform:uppercase;color:#C6A24A}
 .cmedal{width:6.8cqw;height:6.8cqw;color:#C6A24A;flex:none}
 .cmedal.big{width:16.6cqw;height:16.6cqw;margin:0 auto 18px}
-.cbrand{font-family:var(--pd);font-weight:700;font-size:2.7cqw;letter-spacing:.24em;text-transform:uppercase}
+.cbrand{font-family:'Bodoni Moda',Didot,'Bodoni 72',Georgia,serif;font-weight:500;font-variation-settings:'opsz' 11;font-size:3.6cqw;letter-spacing:-.008em}
+.cbrand .pt{display:inline-block;width:.16em;height:.16em;border-radius:50%;background:#BE3319;margin-left:.02em}
 .cbrand span{color:#BE3319}
 .cov-mast{font-family:var(--pd);font-weight:700;font-size:16.6cqw;line-height:.92;letter-spacing:-.03em;margin:6.2cqw 0 2cqw}
 .cov-sub{font-family:var(--pm);font-size:1.95cqw;letter-spacing:.26em;text-transform:uppercase;color:#C6A24A}
@@ -284,7 +287,7 @@ html:not(.js) .lp,html:not(.js) #under,html:not(.js) #peelC,html:not(.js) #folds
   <div class="cov-scrim"></div>
   <div class="cov-in">
     <div class="cov-top"><svg viewBox="0 0 100 100" class="cmedal"><use href="#medal"/></svg>
-      <div class="cbrand">Carat<span>^</span>Capital</div>
+      <div class="cbrand">Carat Capital<i class="pt" aria-hidden="true"></i></div>
       <div class="cov-iss">Issue I</div></div>
     <div class="cov-mast">The<br>Folio</div>
     <div class="cov-sub">19 Sep – 25 Sep 2026 &middot; the week, bound</div>

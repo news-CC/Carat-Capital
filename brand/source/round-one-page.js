@@ -1,4 +1,4 @@
-// Builds the identity presentation page: brand/index.html.
+// Builds the round-one presentation page: brand/round-one/index.html.
 const R = require('./routes'); const { C } = require('./lib'); const fs = require('fs');
 const P = C.paper, I = C.ink, S = C.seal;
 const plate = (svg, cls, cap = '', max = '72%', style = '') => `<figure class="plate ${cls}"${style ? ` style="${style}"` : ''}><div class="art" style="max-width:${max}">${svg}</div>${cap ? `<figcaption>${cap}</figcaption>` : ''}</figure>`;
@@ -81,7 +81,7 @@ const masthead = `<figure class="plate paper mast-plate"><div class="mast">
   <div class="mast-row"><div class="ear">${R.hallmarkStrip({})}</div><div class="mast-name">${R.pointLockup({})}</div><div class="ear ear-r">${R.solidusSeal({ detail: 'simple' })}</div></div>
 </div><figcaption>The recommended system in the masthead</figcaption></figure>`;
 
-const tree = Object.entries(require('./build').files).map(([d, set]) => `<div class="tree-dir"><b>brand/logos/${d}/</b>${Object.keys(set).map((f) => `<span>${f}</span>`).join('')}</div>`).join('');
+const tree = Object.entries(require('./round-one-files').files).map(([d, set]) => `<div class="tree-dir"><b>brand/logos/${d}/</b>${Object.keys(set).map((f) => `<span>${f}</span>`).join('')}</div>`).join('');
 
 const css = `
 :root{--paper:#F2EDE3;--paper-hi:#F8F4EB;--paper-lo:#E8E1D1;--ink:#16130E;--ink-2:#3B362C;--ink-3:#6F6758;--seal:#BE3319;--gilt:#96762E;--rule:rgba(22,19,14,.14);--on-ink:#F2EDE3;--on-ink-dim:rgba(242,237,227,.56);color-scheme:light}
@@ -218,5 +218,5 @@ const artifact = `<title>Carat Capital Identity</title>\n${fontLink}\n<style>${c
 const repoDoc = `<!doctype html>\n<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Carat Capital Identity</title>\n${fontLink}\n<style>${css}</style></head><body>${body}</body></html>\n`;
 
 
-fs.writeFileSync(require('path').join(__dirname, '..', 'index.html'), repoDoc);
+fs.writeFileSync(require('path').join(__dirname, '..', 'round-one', 'index.html'), repoDoc);
 console.log('artifact', (artifact.length / 1024).toFixed(0) + 'KB');

@@ -1,6 +1,6 @@
 const { chromium } = require('playwright');
 const R = require('./routes'); const { C } = require('./lib'); const fs = require('fs');
-const out = require('path').join(__dirname, '..', 'png'); fs.mkdirSync(out, { recursive: true });
+const out = require('path').join(__dirname, '..', 'round-one', 'png'); fs.mkdirSync(out, { recursive: true });
 const jobs = [
   ['01-the-point-avatar.png', R.pointSymbol({}), C.paper, 0.70],
   ['01-the-point-app-icon.png', R.pointSymbol({ fg: C.paper, size: 'small' }), C.ink, 0.74],

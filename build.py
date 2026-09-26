@@ -61,7 +61,7 @@ def lead_article():
 def desk_articles(slug, n=6):
     return [a for a in ARTICLES if a.get("desk") == slug][:n]
 
-FONTS = "https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&display=swap"
+FONTS = "https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&family=Bodoni+Moda:opsz,wght@6..96,400..700&display=swap"
 
 DEFS = """
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
@@ -84,12 +84,13 @@ DEFS = """
   </g>
   <g id="hm-assay">
     <ellipse cx="13" cy="10" rx="12" ry="9" fill="url(#foilFill)" stroke="currentColor" stroke-width="1.2"/>
-    <path d="M8.5 13 L13 6.5 L17.5 13" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M9.98 6.48 H16.02 L18.4 8.12 L13 13.52 L7.6 8.12 Z" fill="currentColor"/><circle cx="13" cy="9.92" r=".95" fill="#BE3319"/>
   </g>
   <g id="hm-date">
     <rect x="1" y="1" width="18" height="18" rx="4" fill="url(#foilFill)" stroke="currentColor" stroke-width="1.2"/>
     <text x="10" y="14.6" text-anchor="middle" font-family="'Lora',serif" font-style="italic" font-size="11.5" fill="currentColor">a</text>
   </g>
+  <mask id="medal-k" maskUnits="userSpaceOnUse" x="-10" y="131.52" width="1020" height="720.96"><rect x="-10" y="131.52" width="1020" height="720.96" fill="#fff"/><path d="M76 352.48L924 352.48M356 352.48L500 752.48M644 352.48L500 752.48M500 535.81L500 792.48" stroke="#000" stroke-width="20"/><circle cx="500" cy="485.81" r="54" fill="#000"/></mask><symbol id="medal" viewBox="0 0 1000 1000"><g mask="url(#medal-k)"><path d="M276 231.52L724 231.52L900 352.48L500 752.48L100 352.48Z" fill="currentColor"/></g><circle cx="500" cy="485.81" r="34" fill="#BE3319"/></symbol>
 </defs>
 </svg>"""
 
@@ -401,11 +402,12 @@ def head(title, desc, path="", extra="", og_type="website", og_image=None):
 <meta property="og:description" content="{H.escape(desc)}">
 <meta property="og:type" content="{og_type}">
 <meta property="og:url" content="{canonical}">
-<meta property="og:image" content="{og_image or (BASE_URL + '/assets/og-card.png')}">
+<meta property="og:image" content="{og_image or (BASE_URL + '/assets/share-card.png')}">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="alternate" type="application/rss+xml" title="Carat Capital — all desks" href="{BASE_URL}/feed.xml">
 <script data-goatcounter="https://caratcapital.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="{FONTS}" rel="stylesheet">
@@ -428,7 +430,7 @@ def navbar(active=""):
     return f"""<div class="navbar" id="navbar">
   <div class="wrap"><div class="nav-inner">
     <button class="menu-btn" onclick="ccMenu(true)" aria-label="Open menu"><span class="bars"><i></i><i></i><i></i></span>Menu</button>
-    <a class="nav-brand" href="index.html"><img class="nav-mark" src="assets/logo-mark.svg" alt="Carat Capital medal">Carat<span class="caret">^</span>Capital</a>
+    <a class="nav-brand" href="index.html"><img class="nav-mark" src="assets/logo-mark.svg" alt=""><span>Carat Capital<i class="pt" aria-hidden="true"></i></span></a>
     <div class="nav-links">{links}</div>
     <a class="nav-sub" href="the-record.html"><span>The Record — catch up fast</span></a>
   </div></div>
@@ -440,7 +442,7 @@ def omenu():
     return f"""<div class="omenu" id="omenu">
   <div class="wrap">
     <div class="o-head">
-      <div class="o-brand">Carat<span class="caret">^</span>Capital</div>
+      <div class="o-brand">Carat Capital<i class="pt" aria-hidden="true"></i></div>
       <button class="o-close" onclick="ccMenu(false)">Close ×</button>
     </div>
     <div class="o-grid">
@@ -474,7 +476,7 @@ def colophon():
   <div class="wrap">
     <div class="top">
       <div>
-        <div class="cbrand">Carat<span class="caret">^</span>Capital</div>
+        <div class="cbrand">Carat Capital<i class="pt" aria-hidden="true"></i></div>
         <div class="cbrand-sub">The Trade Paper of the Jewelry World</div>
         <div class="hallrow" style="color:var(--gilt)">
           <svg width="32" height="20" viewBox="0 0 32 20"><use href="#hm-maker"/></svg>
@@ -1820,7 +1822,7 @@ def _folio_issue():
   <div class="cov-scrim"></div>
   <div class="cov-in">
     <div class="cov-top"><svg viewBox="0 0 100 100" class="cmedal"><use href="#medal"/></svg>
-      <div class="cbrand">Carat<span>^</span>Capital</div>
+      <div class="cbrand">Carat Capital<i class="pt" aria-hidden="true"></i></div>
       <div class="cov-iss">Issue {issue_no}</div></div>
     <div class="cov-mast">The<br>Folio</div>
     <div class="cov-sub">{rng} &middot; the week, bound</div>
@@ -2148,7 +2150,8 @@ body.zoomed.panning #zoomer{{cursor:grabbing;transition:none}}
   text-transform:uppercase;color:#C6A24A}}
 .cmedal{{width:6.8cqw;height:6.8cqw;color:#C6A24A;flex:none}}
 .cmedal.big{{width:16.6cqw;height:16.6cqw;margin:0 auto 18px}}
-.cbrand{{font-family:var(--pd);font-weight:700;font-size:2.7cqw;letter-spacing:.24em;text-transform:uppercase}}
+.cbrand{{font-family:'Bodoni Moda',Didot,'Bodoni 72',Georgia,serif;font-weight:500;font-variation-settings:'opsz' 11;font-size:3.6cqw;letter-spacing:-.008em}}
+.cbrand .pt{{display:inline-block;width:.16em;height:.16em;border-radius:50%;background:#BE3319;margin-left:.02em}}
 .cbrand span{{color:#BE3319}}
 .cov-mast{{font-family:var(--pd);font-weight:700;font-size:16.6cqw;line-height:.92;letter-spacing:-.03em;margin:6.2cqw 0 2cqw}}
 .cov-sub{{font-family:var(--pm);font-size:1.95cqw;letter-spacing:.26em;text-transform:uppercase;color:#C6A24A}}
@@ -3505,48 +3508,13 @@ def about_page():
 {colophon()}
 {SCRIPT}"""
 
-FAVICON = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><circle cx="16" cy="16" r="15.2" fill="#F2EDE3" stroke="#16130E" stroke-width="1.3"/><circle cx="16" cy="16" r="12.9" fill="none" stroke="#16130E" stroke-width=".7"/><path d="M 16 26.4 L 11.7 18.3 C 10.4 14.4 10.6 11 12.6 8.6 C 13.7 7.2 14.7 6.6 16 6.4 C 17.3 6.6 18.3 7.2 19.4 8.6 C 21.4 11 21.6 14.4 20.3 18.3 Z" fill="none" stroke="#16130E" stroke-width="1.5" stroke-linejoin="miter"/><path d="M 16 25.2 L 16 16.6" stroke="#16130E" stroke-width=".9"/><path d="M 16 10.2 L 18.7 13.6 L 16 17 L 13.3 13.6 Z" fill="#BE3319"/></svg>"""
+FAVICON = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><style>@media (prefers-color-scheme:dark){.b{fill:#F2EDE3}}</style><defs><mask id="k0" maskUnits="userSpaceOnUse" x="-510" y="-100" width="1020" height="720.96"><rect x="-510" y="-100" width="1020" height="720.96" fill="#fff"/><path d="M-424 120.96L424 120.96M0 326.29L0 560.96" stroke="#000" stroke-width="34"/><circle cx="0" cy="254.29" r="76" fill="#000"/></mask></defs><g class="s" transform="translate(16 6.23) scale(0.0375)"><g mask="url(#k0)"><path d="M-224 0L224 0L400 120.96L0 520.96L-400 120.96Z" class="b" fill="#16130E"/></g><circle cx="0" cy="254.29" r="44" fill="#BE3319"/></g></svg>"""
 
-# ---- the minted mark, nav-scale (engine-turned medal, reduced density) ----
-import math as _m
-def _ring(base, amp, k, ph, steps=200):
-    pts = []
-    for s_ in range(steps + 1):
-        th = 2 * _m.pi * s_ / steps
-        r = base + amp * _m.sin(k * th + ph)
-        pts.append(f"{500 + r*_m.cos(th):.0f} {500 + r*_m.sin(th):.0f}")
-    return "M " + " L ".join(pts) + " Z"
-
-def _chev(apex, half=188, drop=148):
-    return f"M {500-half} {apex+drop} L 500 {apex} L {500+half} {apex+drop}"
+# ---- the nav mark: The Point, small cut (the brilliant-and-nib symbol; brand/README.md) ----
+LOGO_MARK = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 580.96" ><defs><mask id="lm2" maskUnits="userSpaceOnUse" x="-70" y="-70" width="1020" height="720.96"><rect x="-70" y="-70" width="1020" height="720.96" fill="#fff"/><path d="M16 150.96L864 150.96M440 356.29L440 590.96" stroke="#000" stroke-width="34"/><circle cx="440" cy="284.29" r="76" fill="#000"/></mask></defs><g mask="url(#lm2)"><path d="M216 30L664 30L840 150.96L440 550.96L40 150.96Z" fill="#16130E"/></g><circle cx="440" cy="284.29" r="44" fill="#BE3319"/></svg>"""
 
 def logo_mark_svg():
-    rings = []
-    n = 26
-    for i in range(n):
-        base = 118 + (382 - 118) * i / (n - 1)
-        amp = 10.0 * min(1.0, (base - 66) / 170.0)
-        ph = 2 * _m.pi * 2 * i / n
-        rings.append(f'<path d="{_ring(base, amp, 12, ph)}" stroke="#16130E" stroke-width="1.9" fill="none" opacity=".85"/>')
-    ticks = []
-    a = 0.0
-    while a < 360:
-        th = _m.radians(a)
-        ticks.append(f"M {500+458*_m.cos(th):.0f} {500+458*_m.sin(th):.0f} L {500+479*_m.cos(th):.0f} {500+479*_m.sin(th):.0f}")
-        a += 3.6
-    NIB = "M 500 722 L 413 556 C 386 478 390 408 430 358 C 452 330 474 318 500 314 C 526 318 548 330 570 358 C 610 408 614 478 587 556 Z"
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
-<defs><mask id="cm"><rect width="1000" height="1000" fill="white"/>
-<path d="{NIB}" fill="black" stroke="black" stroke-width="54" stroke-linejoin="miter"/></mask></defs>
-<circle cx="500" cy="500" r="480" stroke="#16130E" stroke-width="7" fill="none"/>
-<path d="{" ".join(ticks)}" stroke="#16130E" stroke-width="3" fill="none" opacity=".9"/>
-<circle cx="500" cy="500" r="446" stroke="#16130E" stroke-width="4" fill="none"/>
-<g transform="translate(500,500) scale(1.06) translate(-500,-500)">
-<g mask="url(#cm)">{"".join(rings)}</g>
-<path d="{NIB}" stroke="#16130E" stroke-width="11" fill="none" stroke-linejoin="miter"/>
-<path d="M 500 700 L 500 512" stroke="#16130E" stroke-width="7"/>
-<path d="M 443 574 C 424 500 430 432 462 386 M 557 574 C 576 500 570 432 538 386" stroke="#16130E" stroke-width="4.5" fill="none" opacity=".85"/>
-<path d="M 500 396 L 552 462 L 500 528 L 448 462 Z" fill="#BE3319"/></g></svg>'''
+    return LOGO_MARK
 
 def sitemap(pages):
     def _loc(p): return BASE_URL if p == "index.html" else cu(f"{BASE_URL}/{p}")

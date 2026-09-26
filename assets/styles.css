@@ -117,13 +117,15 @@ a{color:inherit;text-decoration:none}
 .menu-btn:hover{background:var(--ink);color:var(--paper)}
 .menu-btn .bars{display:flex;flex-direction:column;gap:4px}
 .menu-btn .bars i{display:block;width:18px;height:1.6px;background:currentColor;transition:transform .3s var(--ease)}
+/* the wordmark set live: Bodoni Moda 500, text optical size; the point is drawn, never typed */
 .nav-brand{
-  display:flex;align-items:center;gap:10px;
-  font-family:var(--disp);font-weight:700;font-size:19px;text-transform:uppercase;letter-spacing:-.02em;
+  display:flex;align-items:center;gap:11px;
+  font-family:'Bodoni Moda',Didot,'Bodoni 72',Georgia,serif;font-weight:500;font-variation-settings:'opsz' 11;
+  font-size:24px;line-height:1;letter-spacing:-.008em;white-space:nowrap;
   padding:13px 0;
 }
-.nav-brand .caret{color:var(--seal)}
-.nav-mark{height:34px;width:34px;display:block;flex:none}
+.pt{display:inline-block;width:.16em;height:.16em;border-radius:50%;background:var(--seal);margin-left:.02em;vertical-align:baseline}
+.nav-mark{height:22px;width:auto;display:block;flex:none}
 .nav-links{display:flex;align-items:stretch}
 .nav-links a{
   font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;font-weight:500;
@@ -153,7 +155,7 @@ a{color:inherit;text-decoration:none}
 }
 .omenu.open{clip-path:inset(0 0 0 0)}
 .omenu .o-head{display:flex;justify-content:space-between;align-items:center;padding:18px 0;border-bottom:1px solid rgba(242,237,227,.14)}
-.omenu .o-brand{font-family:var(--disp);font-weight:700;font-size:20px;text-transform:uppercase;letter-spacing:-.02em}
+.omenu .o-brand{font-family:'Bodoni Moda',Didot,'Bodoni 72',Georgia,serif;font-weight:500;font-variation-settings:'opsz' 11;font-size:27px;letter-spacing:-.008em}
 .omenu .o-brand .caret{color:var(--seal)}
 .omenu .o-close{
   font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;font-weight:600;
@@ -470,7 +472,7 @@ body.menu-open{overflow:hidden}
    ========================================================================== */
 .colophon{background:var(--carbon);color:#B9B2A2;border-top:3px double var(--ink)}
 .colophon .top{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:clamp(24px,4vw,64px);padding:clamp(40px,5vw,68px) 0 40px}
-.colophon .cbrand{font-family:var(--disp);font-weight:700;font-size:30px;color:var(--paper);text-transform:uppercase;letter-spacing:-.02em;line-height:1}
+.colophon .cbrand{font-family:'Bodoni Moda',Didot,'Bodoni 72',Georgia,serif;font-weight:500;font-variation-settings:'opsz' 28;font-size:42px;color:var(--paper);letter-spacing:-.022em;line-height:1}
 .colophon .cbrand .caret{color:var(--seal)}
 .colophon .cbrand-sub{font-family:var(--mono);font-size:10px;letter-spacing:.28em;text-transform:uppercase;color:var(--term-dim);margin-top:12px}
 .colophon .hallrow{display:flex;gap:6px;margin-top:22px}
@@ -520,8 +522,8 @@ html,body{overflow-x:clip}
   .mast2 .m2-medal{width:82px;height:82px}
   /* nav — icon menu, compact brand, compact subscribe */
   .menu-btn{font-size:0;gap:0;padding:0 15px}
-  .nav-brand{font-size:15.5px;gap:8px}
-  .nav-mark{height:27px;width:27px}
+  .nav-brand{font-size:20px;gap:8px}
+  .nav-mark{height:18px;width:auto}
   .nav-sub{font-size:9.5px;padding:0 12px;letter-spacing:.06em}
   /* price tape breathes */
   .tape .cell{padding:14px 10px 16px 0;margin-right:10px}
@@ -663,7 +665,7 @@ html,body{overflow-x:clip}
   .navbar .nav-sub span{font-size:0}
   .navbar .nav-sub span::before{content:"The Record →";font-size:9.5px;letter-spacing:.08em}
   .navbar .nav-sub{padding:0 10px;flex:none}
-  .navbar .nav-brand{font-size:14px}
+  .navbar .nav-brand{font-size:19px}
 }
 
 /* ============ REDESIGN v3 — imagery, hierarchy, rhythm ============ */
