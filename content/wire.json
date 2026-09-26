@@ -1,42 +1,37 @@
 {
- "date_line": "Friday, September 25, 2026 | Vol. I - No. 072",
- "edition": "Vol. I - No. 072",
+ "date_line": "Saturday, September 26, 2026 | Vol. I - No. 073",
+ "edition": "Vol. I - No. 073",
  "items": [
   {
-   "b": "OURA'S IPO RANGE VALUES A RING MAKER AT UP TO $14.1BN",
-   "t": "The 21 September prospectus offers 50,000,000 shares at $40 to $44, 36,500,000 of them from existing holders. Eli Lilly and Dragoneer have signalled $400.0m of interest."
+   "b": "CHENG KAR SHUN BUYS 5,000,000 CHOW TAI FOOK SHARES FOR HK$54.82M",
+   "t": "Five Form 3A filings at the Hong Kong exchange cover 18 to 24 September. The purchases ran through Dragon Noble Group, a British Virgin Islands company he wholly owns, and his stake moved from 0.25% to 0.30%."
   },
   {
-   "b": "GJEPC PUTS FY2025-26 GEM AND JEWELLERY EXPORTS AT US$27.72BN",
-   "t": "The council's 60th annual general meeting, at the Bharat Diamond Bourse on 23 September, also recorded membership at 10,910 and four free trade agreements signed in the year."
+   "b": "CELLULAR JAMMERS NAMED THE FASTEST-GROWING JEWELRY-THEFT TACTIC",
+   "t": "A Glendale, California store lost more than $1m of inventory while its alarm sat online and raised nothing. The JSA puts violence in 27.1% of 2025 jewelry crimes, against 16.9% in 2024."
   },
   {
-   "b": "GOLD BACK TO $4,296.60, UP $42.10 ON THURSDAY'S MARK",
-   "t": "Silver gained 1.45% and platinum 0.92% on the Kitco bid at 06:07 ET. London's newest fixes, all dated 24 September, fell on all four metals."
+   "b": "LONDON'S SILVER FIX LANDS AT 65.015, UP 2.26% ON THURSDAY",
+   "t": "Gold's PM fix fell to 4,261.05 and palladium's to 1,256.75, while Kitco's Friday screen closed higher on all four metals on its own measure of change."
   },
   {
-   "b": "MASTERCARD FORECASTS 6% US HOLIDAY GROWTH TO 24 DECEMBER",
-   "t": "Online is put at 11% against 3.6% in store, and the company attributes about half the increase to higher prices. Bain's figure for the season is 4.5%."
+   "b": "HANCOCKS AND GRIMA SHOW FIVE PIECES BUILT ON FRENCH CUTS",
+   "t": "The series took three years and each piece carries both houses' makers' marks. One pair of earrings holds 8.19 carats, and every price is on request."
   },
   {
-   "b": "BOKO TIES NATURAL-DIAMOND DEMAND TO THE OKAVANGO BASIN",
-   "t": "Botswana's president announced a second phase for Okavango Eternal in New York on 23 September. The partnership began in 2021 on a 10-year term and Botswana holds 15% of De Beers."
-  },
-  {
-   "b": "RICHARD MILLE TAKES GB1 TIMEKEEPING FOR THE 38TH AMERICA'S CUP",
-   "t": "The British challenger races the second preliminary regatta at Naples from 24 to 27 September. No financial terms were disclosed."
+   "b": "BRILLIANT EARTH PRICES AN ELIZABETH TAYLOR COLLECTION FROM $995",
+   "t": "Seventeen lab-grown pieces went on sale on 24 September, topping out at $15,000 for a tennis necklace of 17.66 cts. t.w."
   }
  ],
- "tape_ts": "25 Sep 2026",
+ "tape_ts": "26 Sep 2026",
  "tape": [
   {
    "name": "Gold / oz",
    "code": "XAU",
-   "px": "4,296.60",
-   "chg": "▲ +0.99%",
-   "dir": "up",
+   "px": "4,284.20",
+   "chg": "▼ −0.29%",
+   "dir": "down",
    "pts": [
-    12,
     15,
     4,
     4,
@@ -45,7 +40,8 @@
     11,
     14,
     24,
-    17
+    17,
+    16
    ]
   },
   {
@@ -89,11 +85,10 @@
   {
    "name": "Platinum / oz",
    "code": "XPT",
-   "px": "1,759.00",
-   "chg": "▲ +0.92%",
+   "px": "1,773.00",
+   "chg": "▲ +0.80%",
    "dir": "up",
    "pts": [
-    14,
     16,
     4,
     7,
@@ -102,17 +97,17 @@
     10,
     11,
     24,
-    19
+    19,
+    20
    ]
   },
   {
    "name": "Silver / oz",
    "code": "XAG",
-   "px": "64.503",
-   "chg": "▲ +1.45%",
-   "dir": "up",
+   "px": "64.169",
+   "chg": "▼ −0.52%",
+   "dir": "down",
    "pts": [
-    19,
     23,
     4,
     8,
@@ -121,7 +116,8 @@
     12,
     14,
     24,
-    18
+    18,
+    17
    ]
   }
  ]

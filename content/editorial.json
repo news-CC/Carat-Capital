@@ -122203,7 +122203,7 @@
     "title": "A provenance claim is a marketing instrument, not an audited one",
     "text": "When a producing state says that buying a stone funds conservation, the claim links two things that are measured on different books: retail demand for polished goods, and a philanthropic or partnership budget set by a company and a nonprofit. Nothing in a public statement of that shape establishes how much of a given retail price reaches a given river. That is not a reason to dismiss it, because the named objects are real and checkable - a Ramsar designation exists or it does not, acres under management are counted, a partnership has a term - but it is the reason this paper prints the named objects and not the implied chain. De Beers' own sustainability reporting is where the measurable version of this claim lives, and it publishes acres and designations rather than a per-carat contribution. Until a phase-two budget is published, the conservation-financing sentence is a stated position and the acreage and designations are the evidence."
    },
-   "method": "JCK's page was fetched directly: https://www.jckonline.com/editorial-article/botswana-natural-diamonds-okavango/, 200, 111,463 bytes, plain extractable body text, byline \"By Sam Cooley\", dated 24 September 2026. The event date comes from that body's own dateline, \"Speaking Wednesday, Sept. 23, in New York City at a De Beers and National Geographic Society event\", so the publication date and the event date are one day apart and both are printed here rather than merged. The single quotation used is nine words from Boko as JCK records him; the longer quotation in that report, naming the Angolan highlands and the 20,000 community members, is paraphrased in the desk's view rather than run at length, and its figures are attributed to him. The archive was checked by opening every hit rather than counting them. \"Duma Boko\" returns three files: all three were opened and all three are De Beers sale-process stories from July - Penny's bid, Angola's bid, and Gaborone's response - none of which reports this speech or this partnership announcement. \"Okavango\" returns four articles plus the record index, and each was opened: Messika's Okavango Blue stone in a couture piece; the Okavango Diamond Company's Dubai tender arrangement; Yoram Dvash taking the Okavango Diamond Company chair; and De Beers' 2025 sustainability report, which is the one genuine overlap. That report names Okavango Eternal as background on the 2021 partnership and on Angola's first Ramsar wetland; it covers the 2025 reporting year and it does not contain this New York event, this phase-two announcement or any statement by Boko. Under the Period Rule that is the same partnership on a different period and a different event, so the verdict is advanced rather than repeat, and that prior article is cited here as a source rather than treated as a duplicate. Neither the 15% stake nor the 20,000 figure was re-verified at a Botswana government or De Beers primary in this run, and the table says so on its own face. No claim is made here about the state of the De Beers sale beyond that a process is running, which this paper has documented separately.",
+   "method": "JCK's page was fetched directly: https://www.jckonline.com/editorial-article/botswana-natural-diamonds-okavango/, 200, 111,463 bytes, plain extractable body text, byline \"By Sam Cooley\", dated 24 September 2026. The event date comes from that body's own dateline, \"Speaking Wednesday, Sept. 23, in New York City at a De Beers and National Geographic Society event\", so the publication date and the event date are one day apart and both are printed here rather than merged. No direct quotation is used anywhere in this article. Boko's words reach this page only as paraphrase with his name attached, including the longer quotation in JCK's report that names the Angolan highlands and the 20,000 community members, whose figures are attributed to him. The archive was checked by opening every hit rather than counting them. \"Duma Boko\" returns three files: all three were opened and all three are De Beers sale-process stories from July - Penny's bid, Angola's bid, and Gaborone's response - none of which reports this speech or this partnership announcement. \"Okavango\" returns four articles plus the record index, and each was opened: Messika's Okavango Blue stone in a couture piece; the Okavango Diamond Company's Dubai tender arrangement; Yoram Dvash taking the Okavango Diamond Company chair; and De Beers' 2025 sustainability report, which is the one genuine overlap. That report names Okavango Eternal as background on the 2021 partnership and on Angola's first Ramsar wetland; it covers the 2025 reporting year and it does not contain this New York event, this phase-two announcement or any statement by Boko. Under the Period Rule that is the same partnership on a different period and a different event, so the verdict is advanced rather than repeat, and that prior article is cited here as a source rather than treated as a duplicate. Neither the 15% stake nor the 20,000 figure was re-verified at a Botswana government or De Beers primary in this run, and the table says so on its own face. No claim is made here about the state of the De Beers sale beyond that a process is running, which this paper has documented separately.",
    "prior": [
     {
      "date": "2026-09-23",
@@ -122233,7 +122233,9 @@
      "published": "2026-09-23"
     }
    ],
-   "corrections": []
+   "corrections": [
+    "<b>Corrected 26 September 2026.</b> As published on 25 September this article's method section said that the single quotation used was nine words from Boko as JCK records him. No quotation from Boko, of nine words or of any length, appears anywhere in this article; his words are carried only as paraphrase. The sentence is rewritten above to say so, and the quote count for this piece is zero. The fault was a claim about this article's own sourcing method, not about a fact in it: every figure printed here - more than 20,000 community members, Botswana's 15% stake in De Beers, and the fifth year of a ten-year term - was correct as published, traces to the cited JCK report of 24 September 2026, and is unchanged. This paper's standards desk found the fault on 25 September 2026 and it is corrected here the next morning."
+   ]
   },
   "next": {
    "slug": "twenty-seven-seventy-two-in-mumbai",
@@ -122832,6 +122834,1035 @@
   "next": {
    "slug": "nine-one-up-nineteen-four-down",
    "why": "The market the brand is selling into: Swiss exports up 9.1% in August with the US down 19.4%."
+  }
+ },
+ "five-million-shares-in-five-sessions": {
+  "v": 3,
+  "kicker": "Retail & Technology",
+  "figures": {
+   "asof": "Hong Kong Exchanges Disclosure of Interests, five Form 3A notices filed 22 to 25 September 2026 for events of 18 to 24 September",
+   "cells": [
+    {
+     "n": "5,000,000",
+     "dir": "up",
+     "label": "Shares bought, 18-24 Sep",
+     "q": "five filings, summed",
+     "src": 0
+    },
+    {
+     "n": "HK$54.82m",
+     "dir": "up",
+     "label": "Consideration",
+     "q": "desk's arithmetic",
+     "src": 0
+    },
+    {
+     "n": "HK$10.9647",
+     "dir": "flat",
+     "label": "Weighted average paid",
+     "q": "close was HK$10.97",
+     "src": 6
+    },
+    {
+     "n": "0.30%",
+     "dir": "up",
+     "label": "Stake after, from 0.25%",
+     "q": "of 9,866,331,200 shares",
+     "src": 5
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Five sessions, one buyer.",
+   "text": "Chow Tai Fook's chairman bought 5,000,000 shares across five consecutive trading sessions to 24 September. Each purchase was disclosed to the Hong Kong exchange the next business day."
+  },
+  "means": [
+   {
+    "who": "If you hold the stock:",
+    "text": "The five average prices ran from HK$10.93 to HK$11.00. The shares closed at HK$10.97 on 25 September, inside that band."
+   },
+   {
+    "who": "If you track the family holding:",
+    "text": "His interest rose from 24,399,400 shares to 29,399,400, a gain of 20.49% on the desk's arithmetic."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A company buyback, a takeover move or a change of control. These are one director's own purchases through a company he owns, not treasury action by Chow Tai Fook, and no offer has been made."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · The five filings, session by session",
+   "asof": "HKEX Disclosure of Interests, Form 3A serials DA20260922E00059, DA20260922E00058, DA20260923E00050, DA20260924E00067 and DA20260925E00059",
+   "cols": [
+    "Event date (2026)",
+    "Shares",
+    "Average price (HKD)",
+    "Consideration (HKD)",
+    "Holding after",
+    "% of issued"
+   ],
+   "rows": [
+    [
+     "18 September",
+     "200,000",
+     "10.9800",
+     "2,196,000",
+     "24,599,400",
+     "0.25%"
+    ],
+    [
+     "21 September",
+     "820,000",
+     "10.9300",
+     "8,962,600",
+     "25,419,400",
+     "0.26%"
+    ],
+    [
+     "22 September",
+     "2,090,200",
+     "10.9755",
+     "22,940,990",
+     "27,509,600",
+     "0.28%"
+    ],
+    [
+     "23 September",
+     "260,000",
+     "11.0000",
+     "2,860,000",
+     "27,769,600",
+     "0.28%"
+    ],
+    [
+     "24 September",
+     "1,629,800",
+     "10.9608",
+     "17,863,912",
+     "29,399,400",
+     "0.30%"
+    ],
+    [
+     "Total",
+     "5,000,000",
+     "10.9647 weighted",
+     "54,823,502",
+     "+5,000,000",
+     ""
+    ]
+   ],
+   "hi": 5,
+   "note": "<b>Which numbers are the regulator's</b> the event dates, share counts, average prices, holdings after each event and the percentage figures are printed on the filings themselves, as is the issued-share count of 9,866,331,200. <b>Which numbers are the desk's</b> the consideration column is not a field on Form 3A. Each figure is the filing's own share count multiplied by the filing's own average price, rounded to the nearest dollar, and the total is the sum of those five products. The weighted average of HK$10.9647 is that total divided by 5,000,000. <b>The share counts reconcile</b> the holding before the first purchase was 24,399,400 and after the last was 29,399,400, a difference of exactly 5,000,000, which equals the sum of the five share counts. <b>What the filings do not carry</b> no reason for the purchases, no stated intention, no programme and no end date. <b>Percentages</b> 0.25%, 0.26%, 0.28% and 0.30% are the filings' own rounded figures; 29,399,400 of 9,866,331,200 works out at 0.2980%."
+  },
+  "sections": [
+   {
+    "h": "A BVI company held the shares",
+    "p": [
+     {
+      "lead": "One vehicle throughout.",
+      "text": "All five Form 3A filings name Dragon Noble Group Limited, a British Virgin Islands company Cheng Kar Shun controls in full."
+     },
+     {
+      "lead": "The code says purchased.",
+      "text": "Each filing carries reason code 1101, which the form spells out as an increase because you purchased the shares."
+     }
+    ]
+   },
+   {
+    "h": "The price sat near the low",
+    "p": [
+     {
+      "lead": "A narrow band.",
+      "text": "The five average prices span HK$10.93 to HK$11.00, seven Hong Kong cents apart."
+     },
+     {
+      "lead": "Far below the high.",
+      "text": "The 25 September close of HK$10.97 is 64.72% of the HK$16.95 52-week high, so 35.28% below it."
+     }
+    ]
+   },
+   {
+    "h": "Each filing came the next day",
+    "p": [
+     {
+      "lead": "A one-day lag.",
+      "text": "The 18 and 21 September events were both filed on 22 September, the first business day after the later of the two."
+     },
+     {
+      "lead": "Then day by day.",
+      "text": "The 22, 23 and 24 September events were filed on 23, 24 and 25 September."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Ongoing",
+    "what": "Any sixth Form 3A on the same chain, at di.hkex.com.hk under stock code 01929."
+   },
+   {
+    "when": "Mid-October",
+    "what": "Chow Tai Fook's second-quarter operational update, on this paper's release calendar."
+   },
+   {
+    "when": "2026-11-25",
+    "what": "The estimated earnings date carried by stockanalysis.com for HKG:1929."
+   }
+  ],
+  "depth": {
+   "reverse": "A sixth filing in the other direction, or a company announcement that reframes these purchases as part of something larger. A buyback authorisation, a placement, or a transaction by the controlling shareholder would all change what a 0.0507 percentage-point personal increase means. The filings themselves state no intention, so any reading of motive here would be invention rather than reporting, and none is offered.",
+   "built": {
+    "title": "What a Form 3A does and does not say",
+    "text": "Hong Kong's Disclosure of Interests regime requires a director to notify the exchange of a change in his interest in the listed corporation's shares, and the notice is published on di.hkex.com.hk as a Form 3A. The form carries the date of the relevant event, the number of shares involved, the highest and average price per share, the capacity in which the interest is held, and the total holding and percentage immediately before and immediately after. It does not carry a consideration total, a motive, or a statement of intent. That is why a money figure for a run of purchases has to be built by multiplying each filing's own share count by its own average price and summing the results, and why it is labelled here as the desk's arithmetic rather than as a disclosed figure. The capacity code is the part most easily missed: code 2201 means the shares are held by a corporation the director controls, not in his own name, so a reader looking for the shares in a personal account would not find them."
+   },
+   "method": "The Hong Kong exchange's own Disclosure of Interests database was searched directly rather than through any wire. The corporation search at di.hkex.com.hk returned Chow Tai Fook Jewellery Group Ltd. under stock code 01929 for 1 to 26 September 2026, and the directors' notice list returned twelve records, of which five are purchases by Cheng Kar Shun with event dates 18, 21, 22, 23 and 24 September 2026. Each of those five Form 3A notices was then opened individually at its own address and read: DA20260922E00059, DA20260922E00058, DA20260923E00050, DA20260924E00067 and DA20260925E00059. All five carry capacity code 2201 and name Dragon Noble Group Limited, of Vistra Corporate Services Centre, Wickhams Cay II, Road Town, Tortola, British Virgin Islands, with Cheng Kar Shun shown at 100.00% control; all five carry reason code 1101, whose text on the form reads that the number of shares in which you are interested has increased because you purchased the shares; and all five give the number of issued shares in class as 9,866,331,200. That sentence was checked against each of the five documents, not inferred from one of them. The share price of HK$10.97 for 25 September, the 52-week range of HK$10.34 to HK$16.95 and the estimated earnings date of 25 November 2026 were read from stockanalysis.com's HKG:1929 quote page, timestamped 25 September 2026 at 4:08 PM Hong Kong time; that page's share count of 9.87bn agrees with the filings' 9,866,331,200. The arithmetic is the desk's own and is shown so it can be checked: 200,000 x 10.9800 = 2,196,000; 820,000 x 10.9300 = 8,962,600; 2,090,200 x 10.9755 = 22,940,990; 260,000 x 11.0000 = 2,860,000; 1,629,800 x 10.9608 = 17,863,912; the five products sum to 54,823,502 and the five share counts sum to 5,000,000, giving a weighted average of 10.9647. The holding check is 29,399,400 minus 24,399,400 = 5,000,000, which matches. The stake gain is 5,000,000 of 9,866,331,200, or 0.0507 percentage points, and the rise in his own holding is 29,399,400 / 24,399,400 = 1.2049, so 20.49% larger. The 52-week comparison is printed both ways so the base is visible: 10.97 / 16.95 = 64.72% of the high, therefore 35.28% below it. The archive was checked by opening every hit. A search of the site for Cheng Kar Shun returns nothing. A search for Chow Tai Fook returns several articles and each was opened: the RMB 10bn panda-bond registration of 12 September, the full-year results, and store-opening coverage. None of them concerns a director's share dealings, and none covers the period 18 to 24 September 2026, so the verdict is new rather than repeat: same company, a bond registration and a results period previously, five days of director purchases now. This desk's own Bureau ranked the item single-source-class on Mandarin and English financial wires with no primary document read; that gap is closed here by reading the regulator's record, and no wire figure has been carried into this article. No motive is attributed to the buyer and none is stated on the filings.",
+   "prior": [
+    {
+     "date": "2026-09-12",
+     "slug": "chow-tai-fook-panda-bond-ten-billion",
+     "claim": "Chow Tai Fook files to register RMB 10bn of panda bonds"
+    }
+   ],
+   "sources": [
+    {
+     "title": "List of DI notices filed by directors, Chow Tai Fook Jewellery Group (01929), 1-26 September 2026, HKEX",
+     "url": "https://di.hkex.com.hk/di/NSNotice3AList.aspx?sa2=nd&sid=67605&corpn=Chow+Tai+Fook+Jewellery+Group+Ltd.&sd=01/09/2026&ed=26/09/2026&cid=0&sa2=cl&scsd=01%2f09%2f2026&sced=26%2f09%2f2026&sc=01929&src=MAIN&lang=EN&",
+     "published": "2026-09-26"
+    },
+    {
+     "title": "Form 3A DA20260922E00059, Cheng Kar Shun, event 18 September 2026",
+     "url": "https://di.hkex.com.hk/di/NSForm3A.aspx?sa2=nd%2ccl&sid=67605&corpn=Chow+Tai+Fook+Jewellery+Group+Ltd.&sd=01%2f09%2f2026&ed=26%2f09%2f2026&cid=0&scsd=01%2f09%2f2026&sced=26%2f09%2f2026&sc=01929&src=MAIN&lang=EN&fn=DA20260922E00059",
+     "published": "2026-09-22"
+    },
+    {
+     "title": "Form 3A DA20260922E00058, Cheng Kar Shun, event 21 September 2026",
+     "url": "https://di.hkex.com.hk/di/NSForm3A.aspx?sa2=nd%2ccl&sid=67605&corpn=Chow+Tai+Fook+Jewellery+Group+Ltd.&sd=01%2f09%2f2026&ed=26%2f09%2f2026&cid=0&scsd=01%2f09%2f2026&sced=26%2f09%2f2026&sc=01929&src=MAIN&lang=EN&fn=DA20260922E00058",
+     "published": "2026-09-22"
+    },
+    {
+     "title": "Form 3A DA20260923E00050, Cheng Kar Shun, event 22 September 2026",
+     "url": "https://di.hkex.com.hk/di/NSForm3A.aspx?sa2=nd%2ccl&sid=67605&corpn=Chow+Tai+Fook+Jewellery+Group+Ltd.&sd=01%2f09%2f2026&ed=26%2f09%2f2026&cid=0&scsd=01%2f09%2f2026&sced=26%2f09%2f2026&sc=01929&src=MAIN&lang=EN&fn=DA20260923E00050",
+     "published": "2026-09-23"
+    },
+    {
+     "title": "Form 3A DA20260924E00067, Cheng Kar Shun, event 23 September 2026",
+     "url": "https://di.hkex.com.hk/di/NSForm3A.aspx?sa2=nd%2ccl&sid=67605&corpn=Chow+Tai+Fook+Jewellery+Group+Ltd.&sd=01%2f09%2f2026&ed=26%2f09%2f2026&cid=0&scsd=01%2f09%2f2026&sced=26%2f09%2f2026&sc=01929&src=MAIN&lang=EN&fn=DA20260924E00067",
+     "published": "2026-09-24"
+    },
+    {
+     "title": "Form 3A DA20260925E00059, Cheng Kar Shun, event 24 September 2026",
+     "url": "https://di.hkex.com.hk/di/NSForm3A.aspx?sa2=nd%2ccl&sid=67605&corpn=Chow+Tai+Fook+Jewellery+Group+Ltd.&sd=01%2f09%2f2026&ed=26%2f09%2f2026&cid=0&scsd=01%2f09%2f2026&sced=26%2f09%2f2026&sc=01929&src=MAIN&lang=EN&fn=DA20260925E00059",
+     "published": "2026-09-25"
+    },
+    {
+     "title": "Chow Tai Fook Jewellery Group (HKG:1929) quote, close 25 September 2026, stockanalysis.com",
+     "url": "https://stockanalysis.com/quote/hkg/1929/",
+     "published": "2026-09-25"
+    }
+   ],
+   "corrections": []
+  },
+  "next": {
+   "slug": "jammers-silence-a-million-dollar-alarm",
+   "why": "The other retail item of the day, and the one with a number attached to a loss."
+  }
+ },
+ "jammers-silence-a-million-dollar-alarm": {
+  "v": 3,
+  "kicker": "Retail & Technology",
+  "figures": {
+   "asof": "JCK, 25 September 2026, with the violence share from the Jewelers' Security Alliance 2025 Annual Crime Report",
+   "cells": [
+    {
+     "n": "$1m+",
+     "dir": "down",
+     "label": "Glendale inventory lost",
+     "q": "store never reopened",
+     "src": 0
+    },
+    {
+     "n": "27.1%",
+     "dir": "up",
+     "label": "2025 jewelry crimes with violence",
+     "q": "16.9% in 2024",
+     "src": 1
+    },
+    {
+     "n": "$1,000-$2,000",
+     "dir": "flat",
+     "label": "Cloud video, a year",
+     "q": "Jewelers Mutual's figure",
+     "src": 0
+    },
+    {
+     "n": "June 2025",
+     "dir": "flat",
+     "label": "DMP's Jam Alert launch",
+     "q": "detector, not a blocker",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "A jammed alarm stays armed.",
+   "text": "Cellular jamming is the fastest-growing tactic in thefts at US retail jewelers, an insurer told JCK. A Glendale, California store lost more than $1m of inventory while its alarm sat online and raised nothing."
+  },
+  "means": [
+   {
+    "who": "If you own a store:",
+    "text": "The cheapest control named is not a device. Multiple communication paths beat a single cellular link, because a jammer that takes out one path does not take out three."
+   },
+   {
+    "who": "If you staff up for December:",
+    "text": "The named exposures are seasonal hires and the long weekend, when nobody returns to the store until Tuesday."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A claim that jamming caused the rise in violent jewelry crime. The 27.1% figure counts crimes involving violence in 2025, and the report attributing it does not connect it to jammers."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · What was named, and what it costs",
+   "asof": "JCK, 25 September 2026; JSA 2025 Annual Crime Report figures via JCK, 28 April 2026",
+   "cols": [
+    "Item",
+    "Named figure",
+    "Source named in the report"
+   ],
+   "rows": [
+    [
+     "Glendale inventory lost",
+     "More than $1,000,000",
+     "Manail Bidrussian, the jeweler"
+    ],
+    [
+     "Jewelry crimes involving violence, 2025",
+     "27.1%, from 16.9% in 2024",
+     "Jewelers' Security Alliance"
+    ],
+    [
+     "Total dollar losses, 2025",
+     "$144.7m, up 1.5% on $142.5m",
+     "Jewelers' Security Alliance"
+    ],
+    [
+     "Crimes against US jewelry firms, 2025",
+     "1,233, down from 1,420",
+     "Jewelers' Security Alliance"
+    ],
+    [
+     "Jam Alert unit",
+     "A few hundred dollars plus programming",
+     "Digital Monitoring Products"
+    ],
+    [
+     "Cloud-backed video",
+     "$1,000 to $2,000 a year",
+     "Jewelers Mutual"
+    ],
+    [
+     "Jammer antenna count",
+     "Six to eight",
+     "Digital Monitoring Products"
+    ],
+    [
+     "Coverage span for detection",
+     "350 sq ft to 100,000 sq ft",
+     "ProNet Security"
+    ],
+    [
+     "Retained video recommended",
+     "60 to 90 days, against a 30-day standard",
+     "Jewelers' Security Alliance"
+    ],
+    [
+     "Safe rating recommended",
+     "TRTL-30x6",
+     "JSA and ProNet Security"
+    ]
+   ],
+   "hi": 1,
+   "note": "<b>Where each figure comes from</b> every row names the party the report attributes it to, because no single dataset covers them. The $1m+ loss is the jeweler's own account of his inventory; a later sentence in the same report quotes him putting his merchandise loss at $3m, and the two figures are not reconciled in the source, so the lower and more specific one is printed and the discrepancy is disclosed here rather than averaged. <b>The violence share</b> 16.9% and 27.1% are the Jewelers' Security Alliance's own figures for 2024 and 2025, reported in April 2026; the 2025 report's other headline figures, $144.7m of losses and 1,233 crimes, were carried by this paper on 3 August 2026 and are repeated here as context, not as news. <b>Prices</b> no installed price for Jam Alert is published; the report says pricing with installation varies and gives only the unit range. <b>What is not a number</b> the fastest-growing characterisation is an insurer's assessment given to JCK by email, not a measured share, and is attributed as such."
+  },
+  "sections": [
+   {
+    "h": "A jammer floods the frequencies",
+    "p": [
+     {
+      "lead": "Noise, not cutting.",
+      "text": "A jammer floods the frequencies a security panel uses, so the panel can sense a problem and still not report it."
+     },
+     {
+      "lead": "Six to eight antennas.",
+      "text": "The devices are battery-operated, carry multiple antennas across radio bands, are sold online and are illegal."
+     }
+    ]
+   },
+   {
+    "h": "Detection reached retail in 2025",
+    "p": [
+     {
+      "lead": "A detector exists.",
+      "text": "DMP launched Jam Alert in June 2025, which trips a relay on the intrusion panel the way a glass-break sensor does."
+     },
+     {
+      "lead": "The unit is cheap.",
+      "text": "Jam Alert sells through dealers at a few hundred dollars plus programming, with installed pricing that varies."
+     },
+     {
+      "lead": "Coverage is not uniform.",
+      "text": "A 350-square-foot shop may need one detector and a 100,000-square-foot store may need several."
+     }
+    ]
+   },
+   {
+    "h": "An alert is not a break-in",
+    "p": [
+     {
+      "lead": "Probing trips it too.",
+      "text": "A detection can fire while a store is open and someone nearby is testing its signals. That happened at a Dallas store served by three alarm companies."
+     },
+     {
+      "lead": "Police response varies.",
+      "text": "Larger cities may take hours to answer that kind of call and some may not answer it at all."
+     }
+    ]
+   },
+   {
+    "h": "The courts have seen the tactic",
+    "p": [
+     {
+      "lead": "A ring was charged.",
+      "text": "The Los Angeles County district attorney charged an international burglary ring in July 2025 over jewelry store heists, alleging the use of signal jammers."
+     },
+     {
+      "lead": "Glendale was one.",
+      "text": "The Glendale store is named in the report as one of the jobs in that series."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "November and December 2026",
+    "what": "JSA's holiday precaution alerts, which the report says are issued for the long-weekend exposure."
+   },
+   {
+    "when": "Thanksgiving weekend",
+    "what": "The extended-weekend pattern the report names, where nobody returns to the store until Tuesday."
+   },
+   {
+    "when": "April 2027",
+    "what": "The JSA annual crime report for 2026, the next reading of the violence share."
+   }
+  ],
+  "depth": {
+   "reverse": "A measured share. The fastest-growing characterisation is an insurer's assessment, not a count, and no party in the report publishes the number of jewelry burglaries in which a jammer was recovered. A count from the JSA or from law enforcement, in either direction, would settle whether this is a fast-growing tactic or a well-publicised one. A conviction rate in the Los Angeles case would also test how far the detection and evidence chain holds up.",
+   "built": {
+    "title": "Why a jammed alarm reports nothing",
+    "text": "A monitored intrusion system is two things: a panel that senses, and a path that tells someone. Most jewelry-store panels now report over a cellular link, because a cut phone line was the classic defeat and cellular removed it. A jammer attacks the path rather than the panel. It transmits noise across the radio bands the panel's cellular radio uses, so the panel can arm, sense a door or a vibration, and raise an internal condition that never reaches the central station. That is why the Glendale owner found his system still online: nothing had failed in the sense the panel understands, and nothing had been reported in the sense the owner needed. Detection inverts the problem. A jam detector does not restore the path; it listens for the signature of the noise and trips a zone on the panel, which can then be reported over whatever path still works. That is the reason the redundancy advice ranks above the detector in the report: a detector with one path left to shout down is still a detector with one path."
+   },
+   "method": "JCK's report was fetched directly at its own address, https://www.jckonline.com/editorial-article/jammers-holidays/, 200, and read as plain body text rather than through a summary. Its byline is Sam Cooley and its date, printed in the body, is 25 September 2026. The figures attributed to each named party were located in that text one at a time: Tyler Jagiello of Jewelers Mutual is the source of the fastest-growing characterisation, given by email; Mark Hillenburg of Digital Monitoring Products describes the flooding mechanism and the June 2025 Jam Alert launch; Christopher Geymuller of ProNet Security gives the antenna count, the 350-square-foot to 100,000-square-foot coverage span, the Dallas case and the multiple-paths advice; Scott Guginsky of the Jewelers' Security Alliance gives the TRTL-30x6 safe rating, the camera height, the 60-to-90-day retention advice and the seasonal exposures. Each of those attributions was checked against the sentence in the source that carries it, not assigned from memory of the piece. The violence share is not JCK's own figure in that article: the sentence carrying 16.9% and 27.1% is hyperlinked in the source to a second JCK article of 28 April 2026 on the Jewelers' Security Alliance 2025 Annual Crime Report, and that second page was fetched separately, 200, and read. It states that crimes involving violence against jewelry industry employees rose from 16.9% in 2024 to 27.1% in 2025, and it is the source cited here for those two numbers. The same report's $144.7m of total dollar losses, up 1.5% from $142.5m, and its count of 1,233 crimes against US jewelry firms in 2025, down from 1,420, are in the table because this paper published both on 3 August 2026 from the same annual report; they are context, and the third source listed is that earlier article. The 27.1% share itself has not appeared in this paper before. The archive was checked by opening every hit rather than counting: a search for jammer returns nothing across the site, so the tactic is new here. A search for the Jewelers' Security Alliance returns two articles, both opened: the 3 August piece on the 2025 annual report, which covers the 2025 calendar year and carries the loss and crime-count totals, and an 18 September piece on Stuller's share-of-doors presentation, which quotes Guginsky on an unrelated point. Under the period rule the new item is a September 2026 trade report on a tactic, and the archived item is an April 2026 report on a 2025 dataset, so this advances rather than repeats, and the overlap is confined to the two 2025 totals, which are labelled as previously published. No direct quotation is used in this article; every attributed statement in the source is paraphrased with the speaker's name attached, and the quote count for this piece is zero. The $3m figure the jeweler gives in his closing quotation is not printed as a loss figure because it conflicts with the report's own more-than-$1m inventory line; the conflict is disclosed in the table note instead of being resolved by this desk.",
+   "prior": [
+    {
+     "date": "2026-08-03",
+     "slug": "shoplifting-down-fraud-up",
+     "claim": "JSA counted 1,233 crimes against US jewellery firms in 2025 and $144.7m of losses"
+    },
+    {
+     "date": "2026-09-18",
+     "slug": "twenty-six-percent-of-doors",
+     "claim": "Stuller puts jewellery stores at 26% of doors, 48% of dollars"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Signal Jammers Silence Store Alarms Ahead of Holidays, Security Experts Say, JCK (Sam Cooley)",
+     "url": "https://www.jckonline.com/editorial-article/jammers-holidays/",
+     "published": "2026-09-25"
+    },
+    {
+     "title": "2025 Jewelry Crimes Down But Total Dollar Losses Rise, JCK (Karen Dybis), on the JSA 2025 Annual Crime Report",
+     "url": "https://www.jckonline.com/editorial-article/report-2025-jewelry-crimes/",
+     "published": "2026-04-28"
+    },
+    {
+     "title": "Shoplifting falls 12.4%, and the fraud desk fills up, Carat Capital",
+     "url": "https://caratcapital.org/a-shoplifting-down-fraud-up",
+     "published": "2026-08-03"
+    }
+   ],
+   "corrections": []
+  },
+  "next": {
+   "slug": "five-million-shares-in-five-sessions",
+   "why": "The day's lead, and the other story read off a primary document rather than a wire."
+  }
+ },
+ "silver-fixes-above-the-screen": {
+  "v": 3,
+  "kicker": "Prices & Markets",
+  "figures": {
+   "asof": "LBMA fixes for 25 September 2026, read from the association's own JSON feeds on 26 September; screen levels from Kitco, stamped 2026-09-25T17:00:00Z",
+   "cells": [
+    {
+     "n": "65.015",
+     "dir": "up",
+     "label": "LBMA silver fix, 25 Sep",
+     "q": "+2.26% on 24 Sep",
+     "src": 1
+    },
+    {
+     "n": "4,261.05",
+     "dir": "down",
+     "label": "LBMA gold PM fix, 25 Sep",
+     "q": "-0.13% on 24 Sep",
+     "src": 0
+    },
+    {
+     "n": "1,768.80",
+     "dir": "up",
+     "label": "LBMA platinum PM fix",
+     "q": "+0.87% on 24 Sep",
+     "src": 2
+    },
+    {
+     "n": "1,256.75",
+     "dir": "down",
+     "label": "LBMA palladium PM fix",
+     "q": "-1.02% on 24 Sep",
+     "src": 3
+    }
+   ]
+  },
+  "changed": {
+   "lead": "London and the screen split.",
+   "text": "LBMA published Friday's fixes for all four metals. Silver's rose 2.26% and gold's fell 0.13% against Thursday. Kitco's screen closed higher on every one."
+  },
+  "means": [
+   {
+    "who": "If you price off the fix:",
+    "text": "Silver's fix sits 1.32% above Friday's screen close of $64.169. Gold's sits 0.54% below the screen's $4,284.20."
+   },
+   {
+    "who": "If you settle against the screen:",
+    "text": "Kitco's own Friday session change reads gold up $10.80 and platinum up $23.00. Each is measured against Kitco's own prior close."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A statement that the two benchmarks disagree about value. A fix is one auction print and a screen close is a bid at a stated minute, so a gap between them is expected."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · Friday's screen close against Friday's London fix",
+   "asof": "Kitco bid, stamped 2026-09-25T17:00:00Z; LBMA fixes dated 2026-09-25",
+   "cols": [
+    "Metal",
+    "Screen close, 25 Sep (USD)",
+    "LBMA fix, 25 Sep (USD)",
+    "Fix minus screen",
+    "Fix against screen"
+   ],
+   "rows": [
+    [
+     "Gold",
+     "4,284.20",
+     "4,261.05",
+     "-23.15",
+     "-0.54%"
+    ],
+    [
+     "Silver",
+     "64.169",
+     "65.015",
+     "+0.846",
+     "+1.32%"
+    ],
+    [
+     "Platinum",
+     "1,773.00",
+     "1,768.80",
+     "-4.20",
+     "-0.24%"
+    ],
+    [
+     "Palladium",
+     "1,251.00",
+     "1,256.75",
+     "+5.75",
+     "+0.46%"
+    ]
+   ],
+   "hi": 1,
+   "note": "<b>What is being compared</b> two different instruments on the same date. The screen column is Kitco's bid, the level this paper's tape carries for Friday, stamped by Kitco's own feed at 2026-09-25T17:00:00Z. The fix column is LBMA's published price for 25 September, the PM auction for gold, platinum and palladium and the single daily auction for silver. <b>The arithmetic, shown both ways</b> gold's fix of 4,261.05 divided by the screen's 4,284.20 is 99.46% of it, therefore 0.54% below it. Silver's 65.015 divided by 64.169 is 101.32%, therefore 1.32% above. Platinum's 1,768.80 divided by 1,773.00 is 99.76%, therefore 0.24% below. Palladium's 1,256.75 divided by 1,251.00 is 100.46%, therefore 0.46% above. <b>The day-on-day figures</b> are computed on LBMA's own consecutive points, 24 to 25 September: gold 4,266.40 to 4,261.05, silver 63.58 to 65.015, platinum 1,753.60 to 1,768.80, palladium 1,269.75 to 1,256.75. <b>Precision</b> LBMA publishes gold, platinum and palladium to two decimals and silver to three, and no figure here is carried beyond the source's own precision. The percentages are the desk's division of those published levels. <b>Kitco's own change field</b> gold +10.80, silver +0.445, platinum +23.00, palladium +4.00, each measured by Kitco against Kitco's own prior close and printed here as Kitco's figure, never used to derive a prior mark."
+  },
+  "sections": [
+   {
+    "h": "Two fixes moved against the screen",
+    "p": [
+     {
+      "lead": "Gold and palladium fell.",
+      "text": "London's gold PM fix went from 4,266.40 to 4,261.05, and palladium's from 1,269.75 to 1,256.75."
+     },
+     {
+      "lead": "The screen went up.",
+      "text": "Kitco's board shows Friday closes above its own prior closes on all four metals, gold by $10.80."
+     }
+    ]
+   },
+   {
+    "h": "Silver made the largest move",
+    "p": [
+     {
+      "lead": "A 2.26% fix gain.",
+      "text": "Silver's fix rose from 63.58 on 24 September to 65.015 on 25 September, the largest of the four moves."
+     },
+     {
+      "lead": "The screen read lower.",
+      "text": "The tape carries silver's Friday close at $64.169, which is 1.32% under London's fix."
+     }
+    ]
+   },
+   {
+    "h": "The board has not ticked",
+    "p": [
+     {
+      "lead": "The board is frozen.",
+      "text": "Kitco stamps every metal 2026-09-25T17:00:00Z, identical across all four, so no new session has printed."
+     },
+     {
+      "lead": "One price stands.",
+      "text": "Those four levels are the marks the tape carries for Friday, and they are the levels printed here."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Monday 28 September",
+    "what": "LBMA's next set of fixes, published as dated JSON at prices.lbma.org.uk."
+   },
+   {
+    "when": "Next screen print",
+    "what": "Kitco's timestamp moving off 2026-09-25T17:00:00Z, which dates the next session rather than any calendar."
+   },
+   {
+    "when": "Early October",
+    "what": "Rapaport's next RAPI points, the tape's other dated benchmark."
+   }
+  ],
+  "depth": {
+   "reverse": "A revision. LBMA republishes its series as dated JSON and a point can be restated; the levels here were read on 26 September and a later read could differ. A Kitco timestamp that moves without a level moving, or a level that moves without the timestamp moving, would also change the reading, because both were used to establish that Friday's close is final rather than intraday.",
+   "built": {
+    "title": "A fix and a screen measure different things",
+    "text": "The London fix is the clearing price of an electronic auction run at a set time, with a defined set of participants entering buy and sell volumes until the imbalance falls inside a tolerance. It is one number for one moment, and it exists because a contract needs a single reference both sides accept. A screen close is not an auction at all: it is the last bid a quote vendor carries before the market pauses, sampled from over-the-counter dealing that has no closing bell. The two therefore answer different questions. The fix answers what price cleared a book at a stated minute in London. The screen answers what a dealer was bidding at a stated minute somewhere. A gap between them on the same date is normal and its size is information about the hours between the two prints, not evidence that either is wrong. It becomes worth reading when the gap changes sign across metals in one session, as it does here, with two metals fixing above the screen and two below."
+   },
+   "method": "All four LBMA feeds were fetched directly as raw JSON rather than through any summary, because a summarising read has produced invented digits on this desk before: prices.lbma.org.uk/json/gold_pm.json, silver.json, platinum_pm.json and palladium_pm.json, four separate 200 responses on 26 September 2026. Each was parsed and its newest points printed, and each carries a 25 September 2026 entry, so the claim that LBMA published Friday's fixes for all four metals rests on all four feeds and not on one of them. Their newest values are gold PM 4,261.05, silver 65.015, platinum PM 1,768.80 and palladium PM 1,256.75, with the 24 September points at 4,266.40, 63.58, 1,753.60 and 1,269.75. Kitco's board was re-read at press time on 26 September under the one-price rule, and the four bids it returned are identical to the marks the tape already carried for Friday: gold 4,284.20, silver 64.169, platinum 1,773.00, palladium 1,251.00. There is no divergence between the press-time read and the tape, so nothing was written back and the tape's own marks print here unchanged. Kitco's per-metal originalTime field reads 2026-09-25T17:00:00Z on all four, which is the evidence for saying the board has not ticked; no closure or holiday is asserted anywhere in this article, and the frozen-timestamp claim is read off the feed rather than off a calendar. The percentages are the desk's own division of the published levels and are shown in the table note so the base is visible in each case. Against this paper's 25 September metals article, which reported a press-time screen reading taken on Friday morning, the period here is different: that piece covered Friday's opening marks and this one covers Friday's settled close and Friday's published London fixes, which did not exist when it ran. Same instruments, a different window, so this advances rather than repeats.",
+   "prior": [
+    {
+     "date": "2026-09-25",
+     "slug": "forty-two-ten-back-on-gold",
+     "claim": "Gold rises $42.10 to $4,296.60 after Thursday's four-metal fall"
+    },
+    {
+     "date": "2026-09-18",
+     "slug": "silver-back-to-august",
+     "claim": "Silver adds 4.87% to $66.835, highest mark since 31 August"
+    }
+   ],
+   "sources": [
+    {
+     "title": "LBMA gold price PM, 25 September 2026 fix (4,261.05)",
+     "url": "https://prices.lbma.org.uk/json/gold_pm.json",
+     "published": "2026-09-25"
+    },
+    {
+     "title": "LBMA silver price, 25 September 2026 fix (65.015)",
+     "url": "https://prices.lbma.org.uk/json/silver.json",
+     "published": "2026-09-25"
+    },
+    {
+     "title": "LBMA platinum price PM, 25 September 2026 fix (1,768.80)",
+     "url": "https://prices.lbma.org.uk/json/platinum_pm.json",
+     "published": "2026-09-25"
+    },
+    {
+     "title": "LBMA palladium price PM, 25 September 2026 fix (1,256.75)",
+     "url": "https://prices.lbma.org.uk/json/palladium_pm.json",
+     "published": "2026-09-25"
+    },
+    {
+     "title": "Precious metals live board, Kitco, re-read 26 September 2026 at 06:21 EDT",
+     "url": "https://www.kitco.com/price/precious-metals",
+     "published": "2026-09-25"
+    }
+   ],
+   "corrections": []
+  },
+  "next": {
+   "slug": "eight-nineteen-carats-of-french-cuts",
+   "why": "Where the stones go once the metal has a price."
+  }
+ },
+ "eight-nineteen-carats-of-french-cuts": {
+  "v": 3,
+  "kicker": "Diamonds",
+  "figures": {
+   "asof": "JCK's report of the Grima for Hancocks debut at Hancocks London, published 25 September 2026",
+   "cells": [
+    {
+     "n": "8.19 ct",
+     "dir": "flat",
+     "label": "Convertible earrings, total weight",
+     "q": "French cuts, platinum",
+     "src": 0
+    },
+    {
+     "n": "11.15 ct",
+     "dir": "flat",
+     "label": "Cognac old-cut oval ring",
+     "q": "held by removable components",
+     "src": 0
+    },
+    {
+     "n": "5.07 ct",
+     "dir": "flat",
+     "label": "Antique pear ring",
+     "q": "plus 2.14 ct of French cuts",
+     "src": 0
+    },
+    {
+     "n": "5",
+     "dir": "flat",
+     "label": "Pieces in the series",
+     "q": "three years in the making",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Two London houses combined.",
+   "text": "Hancocks and Grima have shown a five-piece series built on French-cut diamonds at Hancocks' St James's Street townhouse. Each piece carries both houses' makers' marks."
+  },
+  "means": [
+   {
+    "who": "If you buy antique cuts:",
+    "text": "The series puts 8.19 carats of French cuts into one pair of earrings and 2.14 carats around one ring."
+   },
+   {
+    "who": "If you price estate goods:",
+    "text": "No price is published for any of the five pieces. The house gives them on request only."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A production collection or a priced release. Five pieces were made with one craftsman, by hand, and no edition size, retail figure or wholesale figure has been given."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · The five pieces, as described",
+   "asof": "JCK, 25 September 2026",
+   "cols": [
+    "Piece",
+    "Metal",
+    "Stones named",
+    "Price"
+   ],
+   "rows": [
+    [
+     "Convertible day-to-night earrings",
+     "Platinum",
+     "8.19 ct t.w. French-cut diamonds",
+     "On request"
+    ],
+    [
+     "Antique pear ring",
+     "18k brushed yellow gold",
+     "5.07 ct antique pear, 2.14 ct French cuts",
+     "On request"
+    ],
+    [
+     "Cognac oval ring",
+     "Not published",
+     "11.15 ct cognac old-cut oval",
+     "On request"
+    ],
+    [
+     "Dress set: double clips, cufflinks, three studs",
+     "Brushed yellow gold",
+     "French-cut diamonds, weight not published",
+     "On request"
+    ],
+    [
+     "Earrings",
+     "Not published",
+     "Asscher-cut diamonds, Colombian emeralds, bullet-cut diamonds",
+     "On request"
+    ]
+   ],
+   "hi": 0,
+   "note": "<b>Every price cell reads on request</b> that is the report's own wording and it is printed rather than estimated. This paper does not put a figure on an unpriced piece, so no per-carat rate, no retail estimate and no comparable is offered here. <b>What is published</b> four carat weights, the metals where the report names them, and the cuts. Two of the five pieces have no metal stated and one has no stone weight stated, and those cells say so. <b>The count</b> the series is described as five pieces; the dress set is counted as one piece and contains double clips, cufflinks and three studs. <b>Who sourced the stones</b> Guy Burton, managing director of Hancocks, is named as sourcing the gemstones personally. <b>No quotation is used</b> in this article; the designers' statements are paraphrased with their names attached."
+  },
+  "sections": [
+   {
+    "h": "French cuts carry the series",
+    "p": [
+     {
+      "lead": "One cut repeats.",
+      "text": "French cuts appear in the earrings, the pear ring and the dress set, and removable French-cut components hold the cognac oval in place."
+     },
+     {
+      "lead": "A building inspired it.",
+      "text": "The 8.19-carat earrings take their fracture of light from an Oscar Niemeyer building in Paris, as the report describes it."
+     }
+    ]
+   },
+   {
+    "h": "The work ran three years",
+    "p": [
+     {
+      "lead": "It began in gouache.",
+      "text": "Grima showed Burton a set of gouache paintings three years ago and the five pieces followed."
+     },
+     {
+      "lead": "One bench made them.",
+      "text": "The pieces were worked by a single craftsman whose father had worked with Andrew Grima."
+     }
+    ]
+   },
+   {
+    "h": "Nothing carries a published price",
+    "p": [
+     {
+      "lead": "Prices on request.",
+      "text": "The report gives no figure for any piece, and no edition size or production run is stated."
+     },
+     {
+      "lead": "Carats are the measure.",
+      "text": "The only published numbers are carat weights, and they are the four given above."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Undated",
+    "what": "A price for any of the five pieces, none of which has been published."
+   },
+   {
+    "when": "Ongoing",
+    "what": "The series on view at Hancocks London, 62 St James's Street."
+   },
+   {
+    "when": "Undated",
+    "what": "Whether either house states an edition size or repeats the collaboration."
+   }
+  ],
+  "depth": {
+   "reverse": "A price. Five unpriced pieces cannot be set against any market, so nothing here supports a claim about what antique cuts are worth. A published figure for any one of them, or a resale at auction, would make the series measurable. An edition size would also change the reading, because five pieces made once and five pieces made repeatedly are different propositions for a buyer.",
+   "built": {
+    "title": "What a French cut is, and why weight is the only number here",
+    "text": "A French cut is a square or rectangular step cut with a cross of facets rising to a point, worked in Europe from roughly the sixteenth century and common in Art Deco setting, where it was used in lines and borders rather than as a centre stone. It is a shallow cut that returns light in flat planes instead of the scintillation a modern brilliant is designed for, which is why it reads as a band of light rather than as a sparkle and why a designer describing a metal ceiling that fractures light is describing a real optical property rather than a metaphor. It is also why weight is the only number this story can carry. Antique and revived cuts have no equivalent of the RapNet grid: there is no published per-carat list for a French cut of a given size and quality, because the supply is recut goods and old stock rather than a graded production stream. A house that sells them prices each piece against its own sourcing and its own book, which is what on request means."
+   },
+   "method": "JCK's report was fetched directly at https://www.jckonline.com/editorial-article/hancocks-grima/, 200, 111,564 bytes, and read as plain body text. Its byline is Annie Davidson Watson and its date, printed in the body, is 25 September 2026. Every figure in this article is taken from that body: 8.19 cts. t.w. of French-cut diamonds in the convertible earrings, a 5.07 ct. antique pear-shape diamond ring with 2.14 cts. of surrounding French cuts, an 11.15 ct. cognac old-cut oval, five pieces, and three years from first drawings. The phrase all prices available on request is the report's own. No price, per-carat figure or valuation is printed here because none is published, and none was estimated. The Niemeyer and Trellick Tower references are the designers' stated inspirations as the report gives them and are attributed as description rather than as fact about the stones. The archive was checked by opening hits rather than counting them: searches of the site for Hancocks, for Grima and for French cut and French-cut each return nothing at all, across both built pages and the content files, so there is no prior coverage to advance or repeat and the period test does not arise. No direct quotation is used in this article; the two statements in the source, from Amy Burton and Guy Burton, are paraphrased with their names attached, and the quote count for this piece is zero.",
+   "prior": [],
+   "sources": [
+    {
+     "title": "Hancocks, Grima Unveil 5-Piece Collection Built Around French-Cut Diamonds, JCK (Annie Davidson Watson)",
+     "url": "https://www.jckonline.com/editorial-article/hancocks-grima/",
+     "published": "2026-09-25"
+    }
+   ],
+   "corrections": []
+  },
+  "next": {
+   "slug": "seventeen-pieces-from-nine-ninety-five",
+   "why": "The other collection debut of the week, and the one that publishes prices."
+  }
+ },
+ "seventeen-pieces-from-nine-ninety-five": {
+  "v": 3,
+  "kicker": "Retail & Technology",
+  "figures": {
+   "asof": "JCK's report of the Brilliant Earth x Elizabeth Taylor launch, published 25 September 2026, for a 24 September debut",
+   "cells": [
+    {
+     "n": "17",
+     "dir": "flat",
+     "label": "Pieces in the collection",
+     "q": "lab-grown diamonds used",
+     "src": 0
+    },
+    {
+     "n": "$995",
+     "dir": "flat",
+     "label": "Lowest published price",
+     "q": "baguette huggie earrings",
+     "src": 0
+    },
+    {
+     "n": "$15,000",
+     "dir": "flat",
+     "label": "Highest published price",
+     "q": "17.66 ct t.w. necklace",
+     "src": 0
+    },
+    {
+     "n": "$5,000",
+     "dir": "flat",
+     "label": "Bezel collar necklace",
+     "q": "1.425 ct t.w., 14k gold",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "A licensed estate collection.",
+   "text": "Brilliant Earth put a 17-piece Elizabeth Taylor collection on sale on 24 September, using lab-grown diamonds. Published prices run from $995 upward."
+  },
+  "means": [
+   {
+    "who": "If you sell lab-grown:",
+    "text": "A licensed estate name is being attached to grown goods at $995 to $15,000, not to natural stones."
+   },
+   {
+    "who": "If you licence intellectual property:",
+    "text": "Three parties are named: Brilliant Earth, House of Taylor as the estate-authorized brand, and Clyde Duneier as the manufacturer."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A charitable figure. A portion of revenue from official House of Taylor products goes to the Elizabeth Taylor AIDS Foundation, and no percentage or amount is published."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · The priced pieces, and the unpriced ones named",
+   "asof": "JCK, 25 September 2026",
+   "cols": [
+    "Piece",
+    "Stones",
+    "Metal",
+    "Price"
+   ],
+   "rows": [
+    [
+     "Baguette lab diamond huggie earrings",
+     "Lab-grown diamonds",
+     "Not published",
+     "$995"
+    ],
+    [
+     "Bezel lab diamond collar necklace",
+     "1.425 cts. t.w. lab-grown",
+     "14k yellow gold",
+     "$5,000"
+    ],
+    [
+     "Lab cocktail ring",
+     "6-plus carat lab-grown",
+     "Not published",
+     "$10,000"
+    ],
+    [
+     "Lab diamond tennis necklace",
+     "17.66 cts. t.w. lab-grown",
+     "14k white gold",
+     "$15,000"
+    ],
+    [
+     "Hidden halo cocktail ring",
+     "Blue lab-grown sapphire",
+     "Not published",
+     "Not published"
+    ],
+    [
+     "Remaining pieces",
+     "Not itemised",
+     "Not published",
+     "Not published"
+    ]
+   ],
+   "hi": 3,
+   "note": "<b>Four prices out of seventeen</b> the report names four figures and the collection is described as 17 pieces, so thirteen carry no published price. The table says not published rather than guessing at them. <b>A rate, where it can be worked</b> the tennis necklace's $15,000 across 17.66 cts. t.w. is $849 a carat on the desk's own division, and the collar necklace's $5,000 across 1.425 cts. t.w. is $3,509 a carat. Those two rates are not comparable to each other or to a wholesale lab-grown reference, because a retail price carries the setting, the metal, the brand and the licence, and neither piece's stone quality is published. <b>The stone count is not given</b> for any piece, so no per-stone figure is available. <b>The 6-plus carat ring</b> is the report's own phrasing and is not resolved to a weight here. <b>The donation</b> is described as a portion of revenue from official House of Taylor products, with no percentage, floor, cap or total published."
+  },
+  "sections": [
+   {
+    "h": "Four of 17 pieces carry prices",
+    "p": [
+     {
+      "lead": "Prices are partial.",
+      "text": "The report gives four prices across the 17 pieces: $995, $5,000, $10,000 and $15,000."
+     },
+     {
+      "lead": "The rest are unpublished.",
+      "text": "No price is given for the remaining thirteen pieces, and no collection-wide range beyond those four."
+     }
+    ]
+   },
+   {
+    "h": "Lab-grown carries the estate name",
+    "p": [
+     {
+      "lead": "The stones are grown.",
+      "text": "The collection uses lab-grown diamonds, and a blue lab-grown sapphire sits in a hidden halo cocktail ring."
+     },
+     {
+      "lead": "Two partners are named.",
+      "text": "House of Taylor supervises the name and likeness, and Clyde Duneier is the licensed manufacturing partner."
+     }
+    ]
+   },
+   {
+    "h": "Revenue share has no figure",
+    "p": [
+     {
+      "lead": "A portion goes across.",
+      "text": "A portion of revenue from official House of Taylor products is donated to the Elizabeth Taylor AIDS Foundation."
+     },
+     {
+      "lead": "The share is unstated.",
+      "text": "No percentage, floor or cap is published for that donation, and no total is given."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Undated",
+    "what": "Prices for the thirteen pieces the report does not name."
+   },
+   {
+    "when": "Undated",
+    "what": "A percentage or amount for the Elizabeth Taylor AIDS Foundation donation."
+   },
+   {
+    "when": "Q4 2026",
+    "what": "Whether the collection appears in Brilliant Earth's holiday-quarter reporting as a named line."
+   }
+  ],
+  "depth": {
+   "reverse": "A unit figure. Nothing here says how many pieces have sold, at what discount, or what share of the 17 the four priced items represent by volume. Brilliant Earth's own quarterly reporting, or a restated price list, would make the launch measurable. A published donation percentage would also change the reading of the philanthropic line, which currently carries no number at all.",
+   "built": {
+    "title": "Why an estate licence is a three-party structure",
+    "text": "A dead celebrity's name is an asset with an owner, and a jewellery collection using it runs through at least three sets of books. The estate, or a brand company acting for it, controls the name and likeness and licenses their use; that is House of Taylor's role here, described in the report as the official estate-authorized brand supervising Taylor's name and likeness. A manufacturing licensee holds the right to make fine jewellery under the name; that is Clyde Duneier. The retailer designs, merchandises and sells, and in this case also supplies the lab-grown stones. The money moves as a royalty on wholesale or retail value, a manufacturing margin and a retail margin, and none of those three rates is public for any estate licence of this kind. That is why a launch like this yields four retail prices and no economics: the prices are the only figures any party has a reason to publish, and the split behind them is contractual. The charitable line sits on top of the same structure, which is why a portion of revenue with no percentage is the standard formulation rather than an evasion."
+   },
+   "method": "JCK's report was fetched directly at https://www.jckonline.com/editorial-article/brilliant-earth-elizabeth-taylor/, 200, 117,259 bytes, and read as plain body text rather than through a summary. Its byline is Karen Dybis and its date, printed in the body, is 25 September 2026; the collection's own debut date, 24 September, is given separately in the body as the day it went online and into select showrooms, so the write-up date and the event date are one day apart and both are printed rather than merged. Every price and weight here is taken from that body: the 17-piece count, $995 baguette lab diamond huggie earrings, a 6-plus carat lab cocktail ring at $10,000, a 17-plus carat lab diamond tennis necklace at $15,000 given elsewhere in the same piece as 17.66 cts. t.w. in 14k white gold, and a bezel lab diamond collar necklace at $5,000 with 1.425 cts. t.w. in 14k yellow gold. The two per-carat rates in the table note are the desk's own division of those published pairs and are labelled as such: 15000 / 17.66 = 849 and 5000 / 1.425 = 3,509, both rounded to the nearest dollar. They are printed with the reason they cannot be compared, rather than left to imply a spread. No claim is made about Brilliant Earth's cost, margin or royalty, none of which is published. The archive was checked by opening hits rather than counting them: a search of the site for Elizabeth Taylor returns nothing, and a search for Brilliant Earth returns earlier articles which were opened and concern the company's results and its press access, not this collection or any estate licence. There is no prior article on House of Taylor or on Clyde Duneier, so the verdict is new rather than advanced. No direct quotation is used in this article; Beth Gerstein's statements in the source are paraphrased with her name attached where they carry a fact, and the quote count for this piece is zero.",
+   "prior": [],
+   "sources": [
+    {
+     "title": "Brilliant Earth Channels Elizabeth Taylor's Hollywood Legacy in New Collection, JCK (Karen Dybis)",
+     "url": "https://www.jckonline.com/editorial-article/brilliant-earth-elizabeth-taylor/",
+     "published": "2026-09-25"
+    }
+   ],
+   "corrections": []
+  },
+  "next": {
+   "slug": "five-million-shares-in-five-sessions",
+   "why": "The day's lead: a jewellery chairman buying his own shares for five sessions running."
   }
  }
 }
