@@ -3252,8 +3252,6 @@ def index_page():
 
     # ── the running tape ──
     tape_rows = [[t["name"].upper(), t["px"], _dircls(t.get("dir")), t.get("chg","")] for t in tape[:6]]
-    tape_rows.append(["EDITION", ed_short or "—", "up", "● PRINTED 06:00 ET"])
-    tape_rows.append(["SPECIMEN TAPE", "illustrative", "fl", "not quoted"])
 
     # ── the price desk tabs: the Carat indices, drawn from their real series ──
     # The metals live on the running tape and the bench; this desk charts the
@@ -3375,10 +3373,22 @@ def index_page():
                       "st": {"k": st[1], "v": st[0], "d": d.get("tag",""), "cls": "fl"},
                       "a": [[x["title"], "a-%s.html" % x["slug"], "%s min" % x.get("minutes",5)] for x in da]})
 
+    # ── the point: 1 pt = 0.01 ct, so a hundredth of the natural one-carat on this morning's tape ──
+    point_px = point_line = ""
+    if natv:
+        point_px = "$%s" % f"{natv / 100:,.2f}"
+        point_line = ("The point &middot; <b>%s</b> &middot; 1 pt = 0.01 ct &middot; natural 1 ct %s" % (point_px, nat["px"]))
+    lab_point = "$%s" % f"{lgdv / 100:,.2f}" if lgdv else ""
+    _no = _re.search(r"No\.?\s*(\d+)", edition or "")
+    ed_no = "No. %s" % _no.group(1) if _no else ed_short
+    ed_day = dateline.split("|")[0].strip().replace(",", "") if dateline else ""
+
     lead_href = "a-%s.html" % LEAD["slug"] if LEAD else "#"
     lead_img = "assets/ph/%s.jpg" % LEAD["slug"] if LEAD and LEAD["slug"] in PH else \
                ("assets/ph/%s.jpg" % DESK_HERO.get((LEAD or {}).get("desk",""), "diamonds-hero"))
     lead_plate = "Plate I — %s" % DESK_NAMES.get((LEAD or {}).get("desk"), "Carat Capital")
+    _lk = lead_img.rsplit("/", 1)[-1].rsplit(".", 1)[0]
+    lead_meta = PH.get(_lk, {})
 
     html = HOME_TPL.read_text()
     # ── the menu's six desks, straight from DESKS so they cannot drift ──
@@ -3425,9 +3435,18 @@ def index_page():
       "__LEAD_DEK__": (LEAD or {}).get("dek",""),
       "__LEAD_BY__": "%s · %s min read" % ((LEAD or {}).get("byline","The desk"), (LEAD or {}).get("minutes",5)),
       "__LEAD_HREF__": lead_href, "__LEAD_IMG__": lead_img, "__LEAD_PLATE__": lead_plate,
+      "__LEAD_CREDIT__": lead_meta.get("credit", "Carat Capital"),
+      "__LEAD_W__": lead_meta.get("w", 1280), "__LEAD_H__": lead_meta.get("h", 853),
+      "__POINT_PX__": point_px, "__POINT_LINE__": point_line, "__LAB_POINT__": lab_point,
+      "__NAT_PX__": (nat or {}).get("px", ""), "__LAB_PX__": (lgd or {}).get("px", ""),
+      "__ED_NO__": ed_no, "__ED_DAY__": ed_day,
+      "__IDX_ASOF__": ("Computed %s &middot; exchange closes" % _iso_date(IDX["as_of"])) if IDX else (asof or dateline),
+      # the front page wears the same chrome as every other page of the paper
+      "__SITE_CSS__": "assets/styles.css?v=%s" % CSS_V,
+      "__NAVBAR__": navbar(), "__OMENU__": omenu(), "__COLOPHON__": colophon(), "__DEFS__": DEFS,
     }.items():
         html = html.replace(k, str(v))
-    return html
+    return html.replace("__SITE_SCRIPT__", SCRIPT)
 
 def field_guide():
     sections = ""
