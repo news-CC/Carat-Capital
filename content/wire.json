@@ -1,42 +1,29 @@
 {
- "date_line": "Friday, September 25, 2026 | Vol. I - No. 072",
- "edition": "Vol. I - No. 072",
+ "date_line": "Sunday, September 27, 2026 | Vol. I - No. 074",
+ "edition": "Vol. I - No. 074",
  "items": [
   {
-   "b": "OURA'S IPO RANGE VALUES A RING MAKER AT UP TO $14.1BN",
-   "t": "The 21 September prospectus offers 50,000,000 shares at $40 to $44, 36,500,000 of them from existing holders. Eli Lilly and Dragoneer have signalled $400.0m of interest."
+   "b": "EGYPT'S GOLD EXPORTS FALL 44% WITH UAE SHIPMENTS DOWN 65%",
+   "t": "January to July shipments reached about $2.4bn against $4.3bn. The Emirates took about $1.2bn against $3.4bn, and the Federation of Egyptian Industries blames war-disrupted air freight rather than Emirati buying."
   },
   {
-   "b": "GJEPC PUTS FY2025-26 GEM AND JEWELLERY EXPORTS AT US$27.72BN",
-   "t": "The council's 60th annual general meeting, at the Bharat Diamond Bourse on 23 September, also recorded membership at 10,910 and four free trade agreements signed in the year."
+   "b": "INDIA'S POLISHED CARAT FETCHES $671.39, ITS GROWN CARAT $66.51",
+   "t": "GJEPC's April-to-August master report puts natural polished value 7.38% lower on 6.75% more carats. Grown polished shipped 80.24 lakh carats against natural's 67.34 lakh, at about a tenth of the price."
   },
   {
-   "b": "GOLD BACK TO $4,296.60, UP $42.10 ON THURSDAY'S MARK",
-   "t": "Silver gained 1.45% and platinum 0.92% on the Kitco bid at 06:07 ET. London's newest fixes, all dated 24 September, fell on all four metals."
-  },
-  {
-   "b": "MASTERCARD FORECASTS 6% US HOLIDAY GROWTH TO 24 DECEMBER",
-   "t": "Online is put at 11% against 3.6% in store, and the company attributes about half the increase to higher prices. Bain's figure for the season is 4.5%."
-  },
-  {
-   "b": "BOKO TIES NATURAL-DIAMOND DEMAND TO THE OKAVANGO BASIN",
-   "t": "Botswana's president announced a second phase for Okavango Eternal in New York on 23 September. The partnership began in 2021 on a 10-year term and Botswana holds 15% of De Beers."
-  },
-  {
-   "b": "RICHARD MILLE TAKES GB1 TIMEKEEPING FOR THE 38TH AMERICA'S CUP",
-   "t": "The British challenger races the second preliminary regatta at Naples from 24 to 27 September. No financial terms were disclosed."
+   "b": "DIAMOND WORKERS' UNION GUJARAT ASKS GJEPC FOR A WAGE SURVEY",
+   "t": "A letter dated 24 September asks the council and the Commerce Ministry to survey piece rates across Gujarat. Two Gujarati reports add a union count of about 100 cutter suicides in two years."
   }
  ],
- "tape_ts": "25 Sep 2026",
+ "tape_ts": "27 Sep 2026",
  "tape": [
   {
    "name": "Gold / oz",
    "code": "XAU",
-   "px": "4,296.60",
-   "chg": "▲ +0.99%",
-   "dir": "up",
+   "px": "4,284.20",
+   "chg": "unch.",
+   "dir": "flat",
    "pts": [
-    12,
     15,
     4,
     4,
@@ -45,7 +32,8 @@
     11,
     14,
     24,
-    17
+    17,
+    16
    ]
   },
   {
@@ -89,11 +77,10 @@
   {
    "name": "Platinum / oz",
    "code": "XPT",
-   "px": "1,759.00",
-   "chg": "▲ +0.92%",
-   "dir": "up",
+   "px": "1,773.00",
+   "chg": "unch.",
+   "dir": "flat",
    "pts": [
-    14,
     16,
     4,
     7,
@@ -102,17 +89,17 @@
     10,
     11,
     24,
-    19
+    19,
+    20
    ]
   },
   {
    "name": "Silver / oz",
    "code": "XAG",
-   "px": "64.503",
-   "chg": "▲ +1.45%",
-   "dir": "up",
+   "px": "64.169",
+   "chg": "unch.",
+   "dir": "flat",
    "pts": [
-    19,
     23,
     4,
     8,
@@ -121,7 +108,8 @@
     12,
     14,
     24,
-    18
+    18,
+    17
    ]
   }
  ]

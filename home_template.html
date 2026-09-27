@@ -11,15 +11,16 @@
 <meta property="og:description" content="Carat Capital is the trade paper of the global jewelry industry. Prices, intelligence and reporting from every desk of the stone trade.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://caratcapital.org">
-<meta property="og:image" content="https://caratcapital.org/assets/og-card.png">
+<meta property="og:image" content="https://caratcapital.org/assets/share-card.png">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="alternate" type="application/rss+xml" title="Carat Capital — all desks" href="https://caratcapital.org/feed.xml">
 <script data-goatcounter="https://caratcapital.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=IBM+Plex+Mono:wght@400;500;600&family=Bodoni+Moda:opsz,wght@6..96,400..700&display=swap" rel="stylesheet">
 <style>
 /* ═══════════════════════════════════════════════════════════════════════
    CARAT CAPITAL — THE DAWN EDITION
@@ -145,8 +146,8 @@ html:not(.js) #boot{display:none}
 .tmark svg{width:42px;height:42px;display:block;flex:none}
 /* the wordmark rides with the medal once the reader has scrolled past the
    masthead — the name leaves the hero and takes its seat in the bar */
-.tmark .wm{font-family:var(--disp);font-weight:700;font-size:16px;letter-spacing:.17em;
-  text-transform:uppercase;white-space:nowrap;color:var(--fg);
+.tmark .wm{font-family:'Bodoni Moda',Didot,'Bodoni 72',Georgia,serif;font-weight:500;font-variation-settings:'opsz' 11;font-size:21px;letter-spacing:-.008em;
+  text-transform:none;white-space:nowrap;color:var(--fg);
   max-width:0;overflow:hidden;opacity:0;
   transition:max-width .65s var(--glide),opacity .45s var(--glide),padding .65s var(--glide)}
 .tmark .wm .caret{color:var(--verm)}
@@ -156,11 +157,11 @@ html:not(.js) #boot{display:none}
    the fade instead of colliding */
 @media(max-width:520px){
   .tmark svg{width:34px;height:34px}
-  .tmark .wm{font-size:12.5px;letter-spacing:.15em}
+  .tmark .wm{font-size:17px;letter-spacing:-.008em}
   #top.on .tmark .wm{max-width:160px;padding-left:9px}}
 @media(max-width:430px){
   .tmark svg{width:30px;height:30px}
-  .tmark .wm{font-size:11.5px;letter-spacing:.12em}
+  .tmark .wm{font-size:16px;letter-spacing:-.008em}
   #top.on .tmark .wm{max-width:130px;padding-left:8px}}
 .tmark:hover,.tmark:focus-visible{color:var(--gilt-l);
   transform:translate(-50%,-50%) scale(1.05);outline:0}
@@ -188,8 +189,7 @@ body.menu-open{overflow:hidden}
 .omx.open .omx-panel{transform:none;opacity:1}
 .omx-head{display:flex;align-items:center;justify-content:space-between;gap:16px;
   padding-bottom:clamp(14px,2.4vh,22px);border-bottom:1px solid rgba(142,146,152,.24)}
-.omx-brand{font-family:var(--disp);font-weight:700;font-size:12.5px;letter-spacing:.2em;
-  text-transform:uppercase}
+.omx-brand{font-family:'Bodoni Moda',Didot,'Bodoni 72',Georgia,serif;font-weight:500;font-variation-settings:'opsz' 11;font-size:23px;letter-spacing:-.008em}
 .omx-brand .caret{color:var(--verm)}
 .omx-close{font-family:var(--mono);font-size:9.5px;letter-spacing:.2em;text-transform:uppercase;
   color:var(--fg2);padding:8px 13px;border:1px solid var(--line);border-radius:999px;
@@ -240,6 +240,8 @@ body.menu-open{overflow:hidden}
    pill drifted back to the middle and sat under the mark */
 #top .in{display:flex;align-items:center;justify-content:space-between;gap:18px;width:100%}
 .caret{color:var(--verm)}
+/* the point: 0.16 em, on the baseline, drawn rather than typed */
+.pt{display:inline-block;width:.16em;height:.16em;border-radius:50%;background:var(--verm);margin-left:.02em;vertical-align:baseline}
 
 /* ══════ CUSTOM BUTTONS ══════ */
 .btn{position:relative;display:inline-flex;align-items:center;gap:11px;padding:14px 26px;
@@ -311,8 +313,8 @@ section{position:relative;z-index:1}
 .hero-in{position:relative;z-index:2;display:flex;flex-direction:column;align-items:center;
   justify-content:center;text-align:center;padding:clamp(14px,3vh,40px) 20px}
 @keyframes pulse{50%{opacity:.25}}
-h1.mast{font-family:var(--disp);font-weight:700;letter-spacing:-.02em;line-height:.95;
-  font-size:clamp(38px,8.8vw,126px);text-transform:uppercase;text-wrap:balance;
+h1.mast{font-family:'Bodoni Moda',Didot,'Bodoni 72',Georgia,serif;font-weight:500;font-variation-settings:'opsz' 28;letter-spacing:-.022em;line-height:.95;
+  font-size:clamp(46px,10.6vw,156px);text-transform:none;text-wrap:balance;
   /* the clockline that used to sit here is gone, its air is not: this is
      that line's top margin, its own height and its bottom margin */
   margin-top:calc(clamp(18px,3.4vh,32px) + 12px + clamp(12px,2.4vh,20px))}
@@ -818,9 +820,9 @@ footer{border-top:1px solid var(--line);padding:56px 0 76px;margin-top:clamp(50p
   color:var(--acc);margin-bottom:14px}
 .fcol a{display:block;font-size:13.5px;color:var(--fg3);padding:5px 0;transition:color .25s,padding-left .3s var(--glide)}
 .fcol a:hover{color:var(--fg);padding-left:6px}
-.fbrand{display:flex;align-items:center;gap:12px;font-family:var(--disp);font-weight:700;
-  letter-spacing:.2em;font-size:13px;text-transform:uppercase;margin-bottom:14px}
-.fbrand svg{width:38px;height:38px;color:var(--acc);animation:slow 90s linear infinite}
+.fbrand{display:flex;align-items:center;gap:12px;font-family:'Bodoni Moda',Didot,'Bodoni 72',Georgia,serif;font-weight:500;font-variation-settings:'opsz' 11;
+  letter-spacing:-.008em;font-size:25px;text-transform:none;margin-bottom:14px}
+.fbrand svg{width:46px;height:46px;color:var(--acc)}
 @keyframes slow{to{transform:rotate(360deg)}}
 .fnote{font-family:var(--mono);font-size:9px;letter-spacing:.18em;text-transform:uppercase;
   color:var(--fg3);line-height:2.1}
@@ -862,19 +864,7 @@ footer{border-top:1px solid var(--line);padding:56px 0 76px;margin-top:clamp(50p
 </nav>
 
 <svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
-<symbol id="medal" viewBox="0 0 100 100">
-  <circle cx="50" cy="50" r="47" fill="none" stroke="currentColor" stroke-width="1.5"/>
-  <circle cx="50" cy="50" r="42.5" fill="none" stroke="currentColor" stroke-width=".6" opacity=".6"/>
-  <g stroke="currentColor" stroke-width=".55" opacity=".45" fill="none">
-    <circle cx="50" cy="50" r="35"/><circle cx="50" cy="50" r="28"/><circle cx="50" cy="50" r="21"/></g>
-  <g stroke="currentColor" stroke-width=".9" opacity=".85">
-    <path d="M50 3 v5"/><path d="M50 92 v5"/><path d="M3 50 h5"/><path d="M92 50 h5"/></g>
-  <path d="M50 76 L43.5 58 C40 49 41.5 41.5 45 37.5 C46.8 35.4 48.4 34.6 50 34.3
-           C51.6 34.6 53.2 35.4 55 37.5 C58.5 41.5 60 49 56.5 58 Z"
-        fill="none" stroke="currentColor" stroke-width="2"/>
-  <path d="M50 76 L50 45" stroke="currentColor" stroke-width="1"/>
-  <path d="M50 40 L54 45 L50 50 L46 45 Z" fill="#BE3319"/>
-</symbol>
+<mask id="medal-k" maskUnits="userSpaceOnUse" x="-10" y="131.52" width="1020" height="720.96"><rect x="-10" y="131.52" width="1020" height="720.96" fill="#fff"/><path d="M76 352.48L924 352.48M356 352.48L500 752.48M644 352.48L500 752.48M500 535.81L500 792.48" stroke="#000" stroke-width="20"/><circle cx="500" cy="485.81" r="54" fill="#000"/></mask><symbol id="medal" viewBox="0 0 1000 1000"><g mask="url(#medal-k)"><path d="M276 231.52L724 231.52L900 352.48L500 752.48L100 352.48Z" fill="currentColor"/></g><circle cx="500" cy="485.81" r="34" fill="#BE3319"/></symbol>
 <symbol id="m-scale" viewBox="0 0 40 40">
   <path d="M20 6 V32" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
   <path d="M11 32 H29" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
@@ -954,8 +944,7 @@ footer{border-top:1px solid var(--line);padding:56px 0 76px;margin-top:clamp(50p
         font-weight="600" fill="currentColor">750</text></symbol>
 <symbol id="hm-assay" viewBox="0 0 30 24">
   <ellipse cx="15" cy="12" rx="13.2" ry="10.2" fill="none" stroke="currentColor" stroke-width="1.3"/>
-  <path d="M9.5 15.5 L15 7.4 L20.5 15.5" fill="none" stroke="currentColor" stroke-width="1.7"
-        stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <path d="M11.53 7.96 H18.47 L21.2 9.84 L15 16.04 L8.8 9.84 Z" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/><circle cx="15" cy="11.91" r="1.05" fill="#BE3319"/></symbol>
 <symbol id="hm-date" viewBox="0 0 24 24">
   <rect x="1.5" y="1.5" width="21" height="21" rx="5" fill="none" stroke="currentColor" stroke-width="1.3"/>
   <text x="12" y="16.6" text-anchor="middle" font-family="Lora,serif" font-style="italic"
@@ -974,7 +963,7 @@ footer{border-top:1px solid var(--line);padding:56px 0 76px;margin-top:clamp(50p
       <span class="bars" aria-hidden="true"><i></i><i></i><i></i></span><span class="lab">Menu</span></button>
     <a class="tmark" href="/" aria-label="Carat Capital — front page">
       <svg viewBox="0 0 100 100" aria-hidden="true"><use href="#medal"/></svg>
-      <span class="wm">Carat<span class="caret">^</span>Capital</span></a>
+      <span class="wm">Carat Capital<i class="pt" aria-hidden="true"></i></span></a>
     <a class="spill" href="magazine"><span class="k">Read</span><span class="v">The Folio</span></a>
   </div>
 </header>
@@ -984,7 +973,7 @@ footer{border-top:1px solid var(--line);padding:56px 0 76px;margin-top:clamp(50p
   <div class="omx-panel">
     <div class="wrap">
       <div class="omx-head">
-        <span class="omx-brand">Carat<span class="caret">^</span>Capital</span>
+        <span class="omx-brand">Carat Capital<i class="pt" aria-hidden="true"></i></span>
         <button class="omx-close" id="omxClose">Close &times;</button>
       </div>
       <div class="omx-grid">
@@ -1018,7 +1007,7 @@ footer{border-top:1px solid var(--line);padding:56px 0 76px;margin-top:clamp(50p
 <section id="hero">
   <div class="hero-in">
     <div id="gemwrap"><canvas id="gem"></canvas></div>
-    <h1 class="mast" id="mast">CARAT<span class="caret">^</span>CAPITAL</h1>
+    <h1 class="mast" id="mast">Carat Capital<span class="pt" aria-hidden="true"></span></h1>
     <div class="slogan">Clarity, daily.</div>
     <p class="sub">The trade paper of the jewelry world. Every claim priced, sourced, or cut.</p>
     <div class="hero-cta">
@@ -1242,7 +1231,7 @@ footer{border-top:1px solid var(--line);padding:56px 0 76px;margin-top:clamp(50p
     <div class="fgrid">
       <div class="fcol">
         <div class="fbrand"><svg viewBox="0 0 100 100"><use href="#medal"/></svg>
-          Carat<span class="caret">^</span>Capital</div>
+          <span>Carat Capital<i class="pt" aria-hidden="true"></i></span></div>
         <div class="fnote">The trade paper of the<br>jewelry world<br>caratcapital.org</div>
       </div>
       <div class="fcol"><h5>The Desks</h5>
@@ -1281,7 +1270,7 @@ const RM = matchMedia('(prefers-reduced-motion: reduce)').matches;
 /* ══ masthead strike ══ */
 (function(){
   const el=document.getElementById('mast');
-  const parts=[]; // keep the caret as its own element so it stays vermillion
+  const parts=[]; // keep the point as its own element so it stays red
   el.childNodes.forEach(n=>{
     if(n.nodeType===3) [...n.textContent].forEach(c=>parts.push({c}));
     else parts.push({el:n});

@@ -17,7 +17,7 @@ from datetime import datetime, timedelta, timezone
 
 BASE_URL = "https://caratcapital.org"
 ORG_ID = f"{BASE_URL}/#org"
-DEFAULT_IMAGE = f"{BASE_URL}/assets/og-card.png"
+DEFAULT_IMAGE = f"{BASE_URL}/assets/share-card.png"
 
 # Edition time. The paper files at 06:30 ET; ET is -04:00 on DST, -05:00 off it.
 EDITION_HOUR = "06:30:00"
