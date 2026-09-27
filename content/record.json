@@ -1,10 +1,16 @@
 {
- "updated": "26 Sep 2026",
+ "updated": "27 Sep 2026",
  "intro": "Eight weeks of the trade, kept the way a ledger should be kept — dated, sourced, and in one place. New entries are added at the top each week; the quarter's running numbers live in the Almanac below.",
  "weeks": [
   {
    "label": "This week - August 20 to September 23",
    "entries": [
+    {
+     "d": "standards",
+     "h": "Twenty-seven articles carried self-reference in the wrong layer; all corrected",
+     "t": "Corrected 27 September 2026: the article doctrine of 3 September 2026 bans the phrases \"this paper\", \"this desk\", \"this tape\", \"re-read\" and \"written back\" from an article's first two layers, where a reader meets the story, and permits them only in the depth. The standards audit of 26 September found three of that edition's five articles breaking the rule, and found that the edition's own published gate check had claimed zero such phrases when there were three. Both are corrected. A sweep of every article written since the doctrine took effect found the same fault on 27 pages in total, not the three reported, and 45 phrases have been rewritten across them. No figure on any of the 27 pages was wrong as published and none has changed: in every case a true statement of where a number came from was written in the wrong register, most often \"this desk's own arithmetic\" where the house form is \"Carat Capital's own arithmetic\". The three articles the audit named each carry a dated note of their own. Articles published before 3 September 2026 were written under the previous format and are not rewritten here; 130 of them contain the same phrases and are left as published rather than edited after the fact.",
+     "s": "Carat Capital standards audit, 26 September 2026; ops/article-doctrine.md III.6, in force from 3 September 2026"
+    },
     {
      "d": "diamonds",
      "h": "Boko announces a second phase for Okavango Eternal",
