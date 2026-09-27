@@ -21,3 +21,9 @@ const svg = `<svg class="mast-art" viewBox="0 0 ${r2(VW)} ${r2(VH)}" overflow="v
 const out = path.join(__dirname, 'build', 'snippets'); fs.mkdirSync(out, { recursive: true });
 fs.writeFileSync(path.join(out, 'masthead.svg'), svg);
 console.log('masthead', r2(VW), 'x', r2(VH), 'W_em', r2(VW / size), (svg.length / 1024).toFixed(1) + 'KB');
+
+// The mark the Brief's turning stone settles into: the brand's engraved cut in gilt, served as assets/stone-mark.svg.
+// Its tight viewBox puts the girdle at x 40–840, so the canvas stone (radius s) overlays it at width 2.2 s.
+const eng = Pn.symbol({ style: 'engraved', tight: true, gold: true }).replace(/id="([a-z]+\d*[a-z0-9]*)"/g, 'id="eg-$1"').replace(/url\(#([a-z]+\d*[a-z0-9]*)\)/g, 'url(#eg-$1)');
+fs.writeFileSync(path.join(__dirname, '..', '..', 'assets', 'stone-mark.svg'), eng);
+console.log('stone-mark', (eng.length / 1024).toFixed(1) + 'KB', eng.match(/viewBox="[^"]+"/)[0]);

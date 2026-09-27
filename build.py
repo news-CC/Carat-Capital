@@ -3352,7 +3352,7 @@ def index_page():
         img = a["slug"] if a["slug"] in PH else DESK_HERO.get(a.get("desk", ""), "")
         if img not in PH:
             img = ""
-        arts.append({"h": a["title"], "p": (a.get("dek") or "")[:120],
+        arts.append({"h": a["title"], "p": (a.get("dek") or ""),
                      "img": img, "cr": PH.get(img, {}).get("credit", ""),
                      "s": DESK_NAMES.get(a.get("desk"), "Desk"),
                      "t": "%s min" % a.get("minutes", 5),
@@ -3382,6 +3382,13 @@ def index_page():
     _no = _re.search(r"No\.?\s*(\d+)", edition or "")
     ed_no = "No. %s" % _no.group(1) if _no else ed_short
     ed_day = dateline.split("|")[0].strip().replace(",", "") if dateline else ""
+    ed_day_s = ed_day
+    try:  # house style: Saturday 26 September 2026 / Sat 26 Sep 2026
+        import datetime as _dt
+        _d = _dt.datetime.strptime(dateline.split("|")[0].strip(), "%A, %B %d, %Y")
+        ed_day, ed_day_s = f"{_d:%A} {_d.day} {_d:%B %Y}", f"{_d:%a} {_d.day} {_d:%b %Y}"
+    except Exception:
+        pass
 
     lead_href = "a-%s.html" % LEAD["slug"] if LEAD else "#"
     lead_img = "assets/ph/%s.jpg" % LEAD["slug"] if LEAD and LEAD["slug"] in PH else \
@@ -3389,6 +3396,17 @@ def index_page():
     lead_plate = "Plate I — %s" % DESK_NAMES.get((LEAD or {}).get("desk"), "Carat Capital")
     _lk = lead_img.rsplit("/", 1)[-1].rsplit(".", 1)[0]
     lead_meta = PH.get(_lk, {})
+    # responsive renditions of the plate (assets/ph/w720, w1040) when they exist; the original otherwise
+    _rs = [(w, "assets/ph/w%d/%s.jpg" % (w, _lk)) for w in (720, 1040) if (ROOT / "assets" / "ph" / ("w%d" % w) / (_lk + ".jpg")).exists()]
+    lead_srcset = ", ".join("%s %dw" % (p, w) for w, p in _rs + [(lead_meta.get("w", 1400), lead_img)])
+    lead_small = _rs[0][1] if _rs else lead_img
+
+    # the front page's nav: the running head holds the name's seat until the masthead leaves,
+    # and the Record is a quiet link rather than a red block
+    home_nav = navbar().replace('<span>The Record — catch up fast</span>', '<span>The Record &rarr;</span>')
+    _brand = '<img class="nav-mark" src="assets/logo-mark.svg" alt=""><span>Carat Capital<i class="pt" aria-hidden="true"></i></span></a>'
+    assert _brand in home_nav
+    home_nav = home_nav.replace(_brand, '<span class="nb-rh" aria-hidden="true">%s &middot; %s</span><span class="nb-lk">%s</span></a>' % (ed_no, ed_day_s, _brand[:-4]))
 
     html = HOME_TPL.read_text()
     # ── the menu's six desks, straight from DESKS so they cannot drift ──
@@ -3439,11 +3457,12 @@ def index_page():
       "__LEAD_W__": lead_meta.get("w", 1280), "__LEAD_H__": lead_meta.get("h", 853),
       "__POINT_PX__": point_px, "__POINT_LINE__": point_line, "__LAB_POINT__": lab_point,
       "__NAT_PX__": (nat or {}).get("px", ""), "__LAB_PX__": (lgd or {}).get("px", ""),
-      "__ED_NO__": ed_no, "__ED_DAY__": ed_day,
+      "__ED_NO__": ed_no, "__ED_DAY__": ed_day, "__ED_DAY_S__": ed_day_s,
+      "__LEAD_SRCSET__": lead_srcset, "__LEAD_SMALL__": lead_small,
       "__IDX_ASOF__": ("Computed %s &middot; exchange closes" % _iso_date(IDX["as_of"])) if IDX else (asof or dateline),
       # the front page wears the same chrome as every other page of the paper
       "__SITE_CSS__": "assets/styles.css?v=%s" % CSS_V,
-      "__NAVBAR__": navbar(), "__OMENU__": omenu(), "__COLOPHON__": colophon(), "__DEFS__": DEFS,
+      "__NAVBAR__": home_nav, "__OMENU__": omenu(), "__COLOPHON__": colophon(), "__DEFS__": DEFS,
     }.items():
         html = html.replace(k, str(v))
     return html.replace("__SITE_SCRIPT__", SCRIPT)

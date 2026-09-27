@@ -181,6 +181,7 @@ a{color:inherit;text-decoration:none}
 .omenu .o-side a:hover{color:var(--paper);padding-left:8px}
 .omenu .o-foot{font-family:var(--mono);font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--term-dim);padding:20px 0 34px;border-top:1px solid rgba(242,237,227,.12)}
 @media(max-width:760px){.omenu .o-grid{grid-template-columns:1fr}}
+@media(max-width:599px){.omenu .o-desk{grid-template-columns:40px 1fr;row-gap:6px}.omenu .o-desk .d{grid-column:2}}
 body.menu-open{overflow:hidden}
 
 /* ==========================================================================

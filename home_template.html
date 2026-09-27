@@ -24,7 +24,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@500;600;700&family=Lora:ital,wght@0,400;1,400&family=IBM+Plex+Mono:wght@400;500&family=Bodoni+Moda:opsz,wght@6..96,500&display=swap" rel="stylesheet">
-<link rel="preload" as="image" href="__LEAD_IMG__" fetchpriority="high">
+<link rel="preload" as="image" href="__LEAD_SMALL__" imagesrcset="__LEAD_SRCSET__" imagesizes="(min-width:1180px) 493px,(min-width:900px) 42vw,100vw" fetchpriority="high">
 <link rel="stylesheet" href="__SITE_CSS__">
 <style>
 /* ══════════════════════════════════════════════════════════════════════════
@@ -47,6 +47,7 @@ body.home{
   background-color:var(--paper);color:var(--ink);padding-bottom:0;
   background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='256' height='256'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .09 0 0 0 0 .07 0 0 0 0 .05 0 0 0 .045 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
 }
+html{scroll-padding-top:calc(var(--navh) + 48px)}
 .home ::selection{background:var(--ink);color:var(--paper)}
 .home :focus-visible{outline:2px solid var(--ink);outline-offset:2px}
 .wr{max-width:1280px;margin:0 auto;padding-inline:var(--m)}
@@ -63,10 +64,19 @@ body.home{
 .go-link:hover{border-color:var(--ink)}
 
 /* ── the nav: the site's own bar; on the front page the name waits for the masthead to leave ── */
-.home .nav-brand{clip-path:inset(0 100% 0 0);transition:clip-path .24s var(--strike)}
+.home .nav-brand{position:relative}
+.home .nav-brand .nb-rh{position:absolute;left:0;top:50%;transform:translateY(-50%);font:400 11.5px/16px var(--mono);letter-spacing:.02em;color:var(--ink-2);white-space:nowrap;transition:opacity .24s var(--strike)}
+.home .nav-brand .nb-lk{display:flex;align-items:center;gap:inherit;clip-path:inset(0 100% 0 0);transition:clip-path .24s var(--strike)}
 .home .nav-brand .pt{transform:scale(0);transition:transform .18s var(--set)}
-html.past-mast .home .nav-brand{clip-path:inset(0 -2px 0 0)}
+html.past-mast .home .nav-brand .nb-lk{clip-path:inset(0 -2px 0 0)}
+html.past-mast .home .nav-brand .nb-rh{opacity:0}
 html.past-mast .home .nav-brand .pt{transform:scale(1);transition-delay:.12s}
+.home .nav-sub{background:none;color:var(--ink);border-left:1px solid var(--rule);font-weight:500}
+.home .nav-sub span{position:relative;z-index:1;transition:color .24s var(--strike)}
+.home .nav-sub:hover span{color:var(--paper)}
+.home .nav-links a{white-space:nowrap}
+@media(max-width:1279px){.home .nav-links a i{display:none}}
+@media(min-width:1101px) and (max-width:1179px){.home .nav-sub{display:none}}
 
 /* ── 1 · the edition line ── */
 .fp-ed{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:16px;min-height:36px;padding:9px 0 8px;
@@ -75,7 +85,9 @@ html.past-mast .home .nav-brand .pt{transform:scale(1);transition-delay:.12s}
 .fp-ed .c{text-transform:uppercase;letter-spacing:.14em;font-size:11px}
 .fp-ed .r{text-align:right}
 @media(max-width:899px){.fp-ed{grid-template-columns:1fr auto}.fp-ed .c{display:none}}
-@media(max-width:599px){.fp-ed .asof{display:none}.fp-ed .edd{white-space:nowrap}.fp-ed{font-size:11px}}
+.fp-ed span{white-space:nowrap}.fp-ed .ds{display:none}
+@media(max-width:1179px){.fp-ed .asof{display:none}}
+@media(max-width:599px){.fp-ed .dl,.fp-ed .pr1{display:none}.fp-ed .ds{display:inline}}
 @media(max-width:420px){.home .nav-brand{font-size:17px!important;gap:6px!important}.home .nav-mark{height:15px!important}}
 
 /* ── 2 · the masthead: the lockup set exactly to the measure ── */
@@ -87,13 +99,12 @@ html.past-mast .home .nav-brand .pt{transform:scale(1);transition-delay:.12s}
 @media(max-width:799px){.mast-art .sym-L{display:none}.mast-art .sym-M{display:inline}}
 .mast-art .con{opacity:0;pointer-events:none}
 .mast-art .con .cs{fill:none;stroke:var(--ink);stroke-width:4.4;stroke-linecap:round;stroke-dasharray:1 1;stroke-dashoffset:1}
-.mast-art .lbl{opacity:0;font:500 13.6px var(--mono);letter-spacing:.04em;fill:var(--ink-3)}
+.mast-art .lbl{opacity:0;font:500 15.6px var(--mono);letter-spacing:.04em;fill:var(--ink-3)}
 .mrule{height:2px;background:var(--ink)}
 .fp-pl{display:flex;justify-content:flex-end;flex-wrap:wrap;gap:6px 18px;padding:12px 0 11px;
   font:500 11.5px/16px var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--ink-2)}
 .fp-pl b{font-weight:500;color:var(--point)}
-.fp-pl .pl-l{margin-right:auto;color:var(--ink-2)}
-@media(max-width:599px){.fp-pl{justify-content:flex-start}.fp-pl .pl-l{display:none}}
+@media(max-width:599px){.fp-pl{justify-content:flex-start}}
 
 /* first paint, JS on, motion allowed: everything below starts unprinted */
 @media (prefers-reduced-motion:no-preference){
@@ -109,12 +120,12 @@ html.past-mast .home .nav-brand .pt{transform:scale(1);transition-delay:.12s}
   html.go:not(.done) .mast-art .con .cs{stroke-dashoffset:0;transition:stroke-dashoffset .34s var(--set) calc(var(--i) * 40ms)}
   html.go:not(.done) .mast-art .lbl{animation:lbl 1.1s linear .25s forwards}
   html.js.go .mast-art .sym{opacity:1;transition:opacity .24s var(--set) .7s}
-  html.js.go.inked .mast-art .nm path{fill:var(--ink);filter:none;transition:fill .42s var(--strike),filter .42s var(--strike)}
+  html.js.go .mast-art .nm path{fill:var(--ink);filter:none;transition:fill .42s var(--strike) .3s,filter .42s var(--strike) .3s}
   html.js.go .mast-art .pt{transform:scale(1);transition:transform .18s var(--set) .98s}
   html.js.go .rule-draw{transform:scaleX(1);transition:transform .6s var(--set)}
-  html.js.go .fp-pl{opacity:1;transition:opacity .36s var(--set) 1s}
-  html.js.go .tk-track{opacity:1;transition:opacity .36s var(--set) 1s}
-  html.js.go .lead .pr{opacity:1;transition:opacity .36s var(--set) calc(1s + var(--d,0ms))}
+  html.js.go .fp-pl{opacity:1;transition:opacity .36s var(--set) .9s}
+  html.js.go .tk-track{opacity:1;transition:opacity .36s var(--set) .9s}
+  html.js.go .lead .pr{opacity:1;transition:opacity .36s var(--set) calc(.9s + var(--d,0ms))}
 }
 @keyframes conOut{to{opacity:0}}
 @keyframes lbl{0%{opacity:0}22%{opacity:1}78%{opacity:1}100%{opacity:0}}
@@ -131,8 +142,8 @@ html.past-mast .home .nav-brand .pt{transform:scale(1);transition-delay:.12s}
 .tk .n{color:var(--ink);text-transform:uppercase;letter-spacing:.06em}
 .tk .v{color:var(--ink)}
 .tk .c{color:var(--ink-2);font-weight:400}
-.tk-end{position:absolute;right:0;top:0;bottom:0;display:flex;align-items:center;gap:14px;padding:0 var(--m) 0 56px;z-index:3;
-  background:linear-gradient(90deg,transparent,var(--paper) 44px);font:500 11px/16px var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2)}
+.tk-end{position:absolute;right:0;top:0;bottom:0;display:flex;align-items:center;gap:14px;padding:0 var(--m) 0 84px;z-index:3;
+  background:linear-gradient(90deg,rgba(242,237,227,0),var(--paper) 72px);font:500 11px/16px var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2)}
 .tk-end button{font:inherit;letter-spacing:inherit;text-transform:inherit;color:var(--ink);background:none;border:0;border-bottom:1px solid var(--rule-2);padding:0;cursor:pointer}
 @media(max-width:599px){.tk-end .asof{display:none}}
 @media (prefers-reduced-motion:reduce){.tk-view{overflow-x:auto;scroll-snap-type:x proximity}.tk{scroll-snap-align:start}}
@@ -160,6 +171,13 @@ html.past-mast .home .nav-brand .pt{transform:scale(1);transition-delay:.12s}
 .fp-cap span:last-child{text-align:right}
 @media(max-width:899px){.lead .txt,.lead .fp-plate{grid-column:1/-1}.lead .fp-plate .pl-f{aspect-ratio:3/2}}
 
+/* ── the reading point: beside the label row of the section you are reading (≥1180) ── */
+#front{position:relative}
+.rp{display:none}
+@media(min-width:1180px){.rp{display:block;position:absolute;left:0;top:0;width:7px;height:7px;margin:-3.5px 0 0 -3.5px;border-radius:50%;background:var(--point);
+  opacity:0;pointer-events:none;z-index:5;transition:transform .24s var(--strike),opacity .18s var(--set)}.rp.on{opacity:1}}
+@media (prefers-reduced-motion:reduce){.rp{transition:none}}
+
 /* ── the row press: one red point on the thing under your hand ── */
 .pr-row{position:relative}
 .pr-row::before{content:"";position:absolute;left:-4px;top:var(--py,1.35em);width:7px;height:7px;border-radius:50%;background:var(--point);
@@ -174,7 +192,7 @@ html.past-mast .home .nav-brand .pt{transform:scale(1);transition-delay:.12s}
 .also a:hover,.also a:focus-visible{background-color:var(--paper-lo)}
 .also .mt{display:flex;justify-content:space-between;font:500 11px/16px var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--ink-2)}
 .also h3{margin:0;font:600 clamp(18px,calc(.4vw + 16.5px),22px)/1.2 var(--sans);letter-spacing:-.015em;text-wrap:balance}
-.also p{margin:0;font:400 15px/24px var(--serif);color:var(--ink-2);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.also p{margin:0;font:400 15px/24px var(--serif);color:var(--ink-2)}
 @media(max-width:1179px){.also{grid-template-columns:repeat(2,minmax(0,1fr))}.also a:nth-child(4n+1){border-left:1px solid var(--rule);padding-left:24px}.also a:nth-child(2n+1){border-left:0;padding-left:0}.also a:nth-child(n+3){border-top:1px solid var(--rule)}}
 @media(max-width:599px){.also{grid-template-columns:1fr}.also a{border-left:0!important;padding-left:0!important;padding-right:0}.also a+a{border-top:1px solid var(--rule)}}
 
@@ -195,6 +213,7 @@ html.past-mast .home .nav-brand .pt{transform:scale(1);transition-delay:.12s}
 .ixt .nmx{display:block;font:400 12px/16px var(--serif);letter-spacing:0;color:var(--ink-2);margin-top:1px;white-space:normal}
 .ixt .lv{min-width:9ch;display:inline-block}
 .ixt .ch{color:var(--ink-2);min-width:8ch;display:inline-block;white-space:nowrap}
+.ixt .yt{display:inline-block;min-width:7ch}
 @media(max-width:599px){.ixt{font-size:11.5px}.ixt td{padding-left:8px}}
 .ixt svg{display:block;width:96px;height:20px;margin-left:auto}
 .ixt svg path{fill:none;stroke:var(--ink);stroke-width:1.1}
@@ -204,6 +223,9 @@ html.past-mast .home .nav-brand .pt{transform:scale(1);transition-delay:.12s}
 .fp-big{font:500 clamp(30px,calc(1.2vw + 26px),44px)/1 var(--mono);letter-spacing:-.02em;display:inline-block}
 .ch-n{font:500 11px/16px var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--ink);margin-bottom:8px}
 .ch-s{font:400 11.5px/16px var(--mono);color:var(--ink-2);margin-top:8px}
+.ch-s span{display:block}
+.ch-s i{font-style:normal;white-space:nowrap}
+.ch-s .dk2{font:italic 400 14px/1.4 var(--serif);margin-top:4px}
 .rng{display:flex;gap:0}
 .rng button{position:relative;font:500 11px/16px var(--mono);letter-spacing:.12em;background:none;border:0;padding:6px 10px 6px 16px;color:var(--ink-2);cursor:pointer;transition:color .12s}
 .rng button::before{content:"";position:absolute;left:5px;top:50%;width:6px;height:6px;margin-top:-3px;border-radius:50%;background:var(--point);transform:scale(0);transition:transform .18s var(--set)}
@@ -218,7 +240,10 @@ html.past-mast .home .nav-brand .pt{transform:scale(1);transition-delay:.12s}
 .cv .hair{stroke:var(--ink);stroke-width:1;opacity:0;transition:opacity .12s}
 .cv.hov .hair{opacity:1}
 .cv .dot{fill:var(--point)}
-.cv .dl{font:500 11.5px var(--mono);fill:var(--point)}
+.cv .tag rect{fill:var(--ink)}
+.cv .tag text{font:500 11px var(--mono);fill:var(--paper)}
+.cv .dtag{opacity:0;transition:opacity .12s}
+.cv.hov .dtag{opacity:1}
 .ft{font:400 11.5px/16px var(--mono);color:var(--ink-2)}
 .weigh{animation:weigh .24s var(--weigh)}
 @keyframes weigh{from{transform:translateY(.08em);opacity:.6}to{transform:none;opacity:1}}
@@ -228,6 +253,8 @@ html.past-mast .home .nav-brand .pt{transform:scale(1);transition-delay:.12s}
 .fp-in .fp-k{font:500 11px/16px var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--ink)}
 .fp-in .fp-row{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 14px;font:500 12.5px/20px var(--mono);color:var(--ink)}
 .fp-in .w{font-weight:400;color:var(--ink-2);flex-basis:100%}
+.fp-in .eq{white-space:nowrap}
+@media(max-width:599px){.fp-in .eq{margin-left:auto}}
 .fp-in .res{font:500 22px/1 var(--mono);letter-spacing:-.01em}
 .fp-in .res b{font-weight:500;color:var(--point)}
 .seg{display:inline-flex}
@@ -239,15 +266,19 @@ html.past-mast .home .nav-brand .pt{transform:scale(1);transition-delay:.12s}
 .fp-in input{width:6ch;text-align:right}
 .links{grid-column:1/-1;display:flex;gap:28px;flex-wrap:wrap;padding-top:4px}
 @media(max-width:1179px){.ixt,.chart{grid-column:1/-1}}
-@media(max-width:599px){.ixt .sp{display:none}.fp-in{grid-template-columns:1fr}}
+@media(max-width:599px){.ixt .sp,.ixt .nmx{display:none}.fp-in{grid-template-columns:1fr}}
 
 /* ── 7 · the desks ── */
 .fp-desks{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));border-bottom:1px solid var(--rule)}
 .fp-dk{display:grid;grid-template-rows:auto auto auto 1fr auto;gap:8px;padding:16px 20px 24px;border-left:1px solid var(--rule)}
 .fp-dk:first-child{border-left:0;padding-left:0}
 .fp-dk .no{font:500 11px/16px var(--mono);letter-spacing:.12em;color:var(--ink-2)}
-.fp-dk h3{margin:0;font:600 18px/1.2 var(--sans);letter-spacing:-.015em}
-.fp-dk .tg{margin:0;font:italic 400 14px/1.35 var(--serif);color:var(--ink-2);padding-bottom:10px;border-bottom:1px solid var(--rule)}
+.fp-dk h3{margin:0;font:600 18px/1.2 var(--sans);letter-spacing:-.015em;min-height:2.4em}
+.fp-dk h3 a{--py:.45em}
+.fp-dk h3 a::before{left:-12px}
+.fp-dk .tg{margin:0;font:italic 400 14px/1.35 var(--serif);color:var(--ink-2);padding-bottom:10px;border-bottom:1px solid var(--rule);min-height:calc(2.9em + 10px)}
+@media(max-width:599px){.fp-dk h3,.fp-dk .tg{min-height:0}}
+@supports (grid-template-rows:subgrid){.fp-dk{grid-row:span 5;grid-template-rows:subgrid;row-gap:8px}.fp-dk h3,.fp-dk .tg{min-height:0}}
 .fp-dk ul{list-style:none;margin:0;padding:0;display:grid;align-content:start}
 .fp-dk li a{display:grid;grid-template-columns:1fr;gap:4px;padding:10px 6px 11px 0;border-bottom:1px solid var(--rule);transition:background-color .12s;--py:17px}
 .fp-dk li a::before{left:-10px}
@@ -258,14 +289,16 @@ html.past-mast .home .nav-brand .pt{transform:scale(1);transition-delay:.12s}
 .fp-dk .go-link{justify-self:start;margin-top:10px}
 @media(max-width:1179px){.fp-desks{grid-template-columns:repeat(3,minmax(0,1fr))}.fp-dk:nth-child(3n+1){border-left:0;padding-left:0}.fp-dk:nth-child(n+4){border-top:1px solid var(--rule)}.fp-dk:first-child{padding-left:0}}
 @media(max-width:899px){.fp-desks{grid-template-columns:repeat(2,minmax(0,1fr))}.fp-dk{border-left:1px solid var(--rule)!important;padding-left:20px!important}.fp-dk:nth-child(2n+1){border-left:0!important;padding-left:0!important}.fp-dk:nth-child(n+3){border-top:1px solid var(--rule)}}
-@media(max-width:599px){.fp-desks{grid-template-columns:1fr}.fp-dk{border-left:0!important;padding-left:0!important;padding-right:0}.dk+.fp-dk{border-top:1px solid var(--rule)}}
+@media(max-width:599px){.fp-desks{grid-template-columns:1fr}.fp-dk{border-left:0!important;padding-left:0!important;padding-right:0}.fp-dk+.fp-dk{border-top:1px solid var(--rule)}}
 
 /* ── 8 · the brief, and the stone that becomes the mark ── */
 .fp-brief{background:var(--carbon);color:var(--paper);margin-top:var(--sec);padding:clamp(56px,7vw,112px) 0}
 .fp-brief .g12{align-items:center;row-gap:32px}
-.stone{grid-column:1/6;position:relative;aspect-ratio:1.18}
-.stone canvas{position:absolute;inset:0;width:100%;height:100%}
-.stone .sl{position:absolute;left:0;bottom:-6px;font:500 11px/16px var(--mono);letter-spacing:.12em;text-transform:uppercase;color:rgba(242,237,227,.62)}
+.stone{grid-column:2/6;position:relative;aspect-ratio:1.18}
+.stone canvas{position:absolute;inset:0;width:100%;height:100%;transition:opacity .6s var(--set)}
+.stone-mk{position:absolute;left:50%;top:50%;width:95.652%;height:auto;transform:translate(-50%,-50%);transition:opacity .6s var(--set)}
+html.js .stone:not(.set) .stone-mk{opacity:0}
+html.js .stone.set canvas{opacity:0}
 .bf{grid-column:7/13;display:grid;gap:18px}
 .bf .fp-kick{color:var(--gilt-l)}
 .bf h2{margin:0;font:500 clamp(34px,3.4vw,52px)/1.02 var(--bod);font-variation-settings:'opsz' 28;letter-spacing:-.022em;text-wrap:balance;max-width:16ch}
@@ -281,13 +314,43 @@ html.past-mast .home .nav-brand .pt{transform:scale(1);transition-delay:.12s}
 .bsay{font:400 11.5px/16px var(--mono);color:rgba(242,237,227,.7);min-height:16px}
 .fp-brief :focus-visible{outline-color:var(--paper)}
 @media(max-width:899px){.stone{grid-column:1/-1;max-width:420px;width:100%;justify-self:center}.bf{grid-column:1/-1}}
-.brief+.colophon{margin-top:0;border-top:1px solid rgba(242,237,227,.12)}
+.fp-brief+.colophon{margin-top:0;border-top:1px solid rgba(242,237,227,.12)}
 
 @media(max-width:599px){
   .g12{grid-template-columns:minmax(0,1fr)}
   .g12>*{grid-column:1/-1!important}
 }
 @media (prefers-reduced-motion:reduce){*{scroll-behavior:auto}}
+
+/* ── the paper prints: Cmd-P gives you the edition on A3 — lockup, tape, lead, the morning's stories, the indices, the desks ── */
+@media print{
+  @page{size:A3 portrait;margin:14mm 12mm 16mm}
+  html,body.home{background:#fff!important}
+  body.home{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  #navbar,.omenu,.colophon,.fp-brief,.rp,.tk-end,.fp-tape::before,.dup,.chart,.inst,.links,.go-link,.pl-f canvas,.mast-art .con,.mast-art .lbl,.skip{display:none!important}
+  .wr{max-width:none;padding:0}
+  .mast-art .sym,.mast-art .nm path,.fp-pl,.tk-track,.lead .pr{opacity:1!important;filter:none!important}
+  .mast-art .nm path{fill:var(--ink)!important}
+  .mast-art .pt,.rule-draw{transform:none!important}
+  .fp-tape{position:static!important;height:auto;overflow:visible;border-top:0;margin-bottom:8px}
+  .tk-view{position:static;overflow:visible}
+  .tk-track{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr));width:auto;height:auto;transform:none!important;column-gap:24px}
+  .tk{height:auto;padding:6px 0;border-right:0;border-bottom:1px solid var(--rule);white-space:normal;gap:8px;font-size:10.5px}
+  .tk .n{flex:1;min-width:0}
+  .lead{padding:22px 0 26px}
+  .pl-f{outline:0}.pl-f img{filter:grayscale(1)!important;mix-blend-mode:normal!important}
+  .also{grid-template-columns:repeat(4,minmax(0,1fr))!important}
+  .also a{padding:12px 14px 16px!important;border-left:1px solid var(--rule)!important;border-top:0!important}
+  .also a:nth-child(4n+1){border-left:0!important;padding-left:0!important}
+  .also a:nth-child(n+5){border-top:1px solid var(--rule)!important}
+  .ixt{grid-column:1/-1!important}
+  .fp-desks{grid-template-columns:repeat(3,minmax(0,1fr))!important}
+  .sec{padding-top:28px}
+  .lead,.also a,.ixt tr,.fp-dk{break-inside:avoid}
+  .lr{break-after:avoid}
+  a{text-decoration:none}
+  .pr-row::before,.ixt tr.r td:first-child::before{display:none}
+}
 </style>
 </head>
 <body class="home">
@@ -296,12 +359,13 @@ __NAVBAR__
 __OMENU__
 
 <main id="front">
+  <i class="rp" aria-hidden="true"></i>
   <div class="wr">
     <!-- 1 · which paper, which day -->
     <div class="fp-ed">
-      <span><b>__ED_NO__</b><span class="edd"> &middot; __ED_DAY__</span></span>
+      <span class="l"><b>__ED_NO__</b> &middot; <span class="dl">__ED_DAY__</span><span class="ds">__ED_DAY_S__</span></span>
       <span class="c">The trade paper of the jewelry world</span>
-      <span class="r">Printed 06:00 ET<span class="asof"> &middot; prices as of __ASOF_SHORT__</span></span>
+      <span class="r"><span class="pr1">Printed </span>06:00 ET<span class="asof"> &middot; prices as of __ASOF_SHORT__</span></span>
     </div>
 
     <!-- 2 · the name, set to the measure -->
@@ -309,7 +373,7 @@ __OMENU__
       <h1 class="vh">Carat Capital</h1>
       <svg class="mast-art" viewBox="0 0 1584.9 202" overflow="visible" aria-hidden="true" focusable="false"><defs></defs><g class="symw" transform="translate(155.1 0) scale(0.387745)"><mask id="mastL" maskUnits="userSpaceOnUse" x="-510" y="-100" width="1020" height="720.96"><rect x="-510" y="-100" width="1020" height="720.96" fill="#fff"/><path d="M-424 120.96L424 120.96M-224 0L-144 120.96M224 0L144 120.96M-144 120.96L0 520.96M144 120.96L0 520.96M0 294.29L0 560.96" stroke="#000" stroke-width="11"/><circle cx="0" cy="254.29" r="44" fill="#000"/></mask><g class="sym sym-L"><g mask="url(#mastL)"><path d="M-224 0L224 0L400 120.96L0 520.96L-400 120.96Z" fill="currentColor"/></g><circle class="pt pt-b" cx="0" cy="254.29" r="31" fill="#BE3319"/></g><mask id="mastM" maskUnits="userSpaceOnUse" x="-510" y="-100" width="1020" height="720.96"><rect x="-510" y="-100" width="1020" height="720.96" fill="#fff"/><path d="M-424 120.96L424 120.96M-144 120.96L0 520.96M144 120.96L0 520.96M0 304.29L0 560.96" stroke="#000" stroke-width="20"/><circle cx="0" cy="254.29" r="54" fill="#000"/></mask><g class="sym sym-M"><g mask="url(#mastM)"><path d="M-224 0L224 0L400 120.96L0 520.96L-400 120.96Z" fill="currentColor"/></g><circle class="pt pt-b" cx="0" cy="254.29" r="34" fill="#BE3319"/></g><g class="con"><path class="cs" style="--i:0" pathLength="1" d="M-400 120.96L400 120.96"/><path class="cs" style="--i:1" pathLength="1" d="M-224 0L-400 120.96"/><path class="cs" style="--i:2" pathLength="1" d="M224 0L400 120.96"/><path class="cs" style="--i:3" pathLength="1" d="M-224 0L224 0"/><path class="cs" style="--i:4" pathLength="1" d="M-224 0L-144 120.96"/><path class="cs" style="--i:5" pathLength="1" d="M224 0L144 120.96"/><path class="cs" style="--i:6" pathLength="1" d="M-400 120.96L0 520.96"/><path class="cs" style="--i:7" pathLength="1" d="M400 120.96L0 520.96"/><path class="cs" style="--i:8" pathLength="1" d="M-144 120.96L0 520.96"/><path class="cs" style="--i:9" pathLength="1" d="M144 120.96L0 520.96"/><path class="cs" style="--i:10" pathLength="1" d="M0 298.29L0 520.96"/><circle class="cs cs-o" style="--i:11" pathLength="1" cx="0" cy="254.29" r="44"/></g></g><g class="lbl"><text x="155.1" y="-16" text-anchor="middle">0.56</text><text x="-10" y="27.45" text-anchor="end">34.5°</text><text x="46.94" y="112.04" text-anchor="end">45°</text><text x="155.1" y="228" text-anchor="middle">1 pt = 0.01 ct</text></g><g class="nm"><path fill="currentColor" d="M447.30 154L447.30 154Q426.40 154 410.90 144.05Q395.40 134.10 386.80 116.70Q378.20 99.30 378.20 77L378.20 77Q378.20 54.70 386.80 37.30Q395.40 19.90 410.90 9.95Q426.40 0 447.30 0L447.30 0Q457.20 0 465.85 3.45Q474.50 6.90 481.00 13.10L481.00 13.10L494.30 2L495.60 2L495.60 43.80L494.10 43.80Q493.00 31.60 486.55 22.20Q480.10 12.80 470.30 7.50Q460.50 2.20 449.30 2.20L449.30 2.20Q436.80 2.20 428.20 8.65Q419.60 15.10 414.40 25.95Q409.20 36.80 406.85 50.05Q404.50 63.30 404.50 77L404.50 77Q404.50 90.60 406.85 103.90Q409.20 117.20 414.40 128.05Q419.60 138.90 428.20 145.35Q436.80 151.80 449.30 151.80L449.30 151.80Q459.50 151.80 467.80 148.55Q476.10 145.30 482.20 139.50Q488.30 133.70 491.85 126.15Q495.40 118.60 496.10 110.20L496.10 110.20L497.60 110.20L497.60 152L496.30 152L484.10 140Q477.60 146.50 468.15 150.25Q458.70 154 447.30 154ZM588.10 154L588.10 154Q582.90 154 578.50 152.55Q574.10 151.10 571.40 147.30Q568.70 143.50 568.70 136.70L568.70 136.70L568.70 91.10Q568.70 83.90 567.55 76.80Q566.40 69.70 562.55 65Q558.70 60.30 550.70 60.30L550.70 60.30Q545.60 60.30 540.30 61.55Q535.00 62.80 530.50 65.15Q526.00 67.50 523.20 71Q520.40 74.50 520.40 79.10L520.40 79.10L518.80 79.10Q518.80 73.70 522.50 70.45Q526.20 67.20 530.90 67.20L530.90 67.20Q535.80 67.20 539.75 70.20Q543.70 73.20 543.70 78.70L543.70 78.70Q543.70 85 539.65 87.95Q535.60 90.90 530.90 90.90L530.90 90.90Q525.60 90.90 522.10 87.85Q518.60 84.80 518.60 79.10L518.60 79.10Q518.60 74.10 521.65 70.30Q524.70 66.50 529.90 63.85Q535.10 61.20 541.60 59.80Q548.10 58.40 554.90 58.40L554.90 58.40Q569.10 58.40 576.55 63.05Q584.00 67.70 586.70 75.15Q589.40 82.60 589.40 91.10L589.40 91.10L589.40 142Q589.40 145.40 590.80 147.90Q592.20 150.40 596.30 150.40L596.30 150.40Q599.40 150.40 603.35 147.55Q607.30 144.70 609.60 139.60L609.60 139.60L610.40 140.80Q607.70 146.70 601.80 150.35Q595.90 154 588.10 154ZM540.10 154L540.10 154Q527.10 154 519.35 147.35Q511.60 140.70 511.60 129.30L511.60 129.30Q511.60 115.90 522.95 108.60Q534.30 101.30 555.60 101.30L555.60 101.30L578.00 101.30L578.00 102.60L557.50 102.60Q549.10 102.60 544.10 106.70Q539.10 110.80 536.90 116.60Q534.70 122.40 534.70 127.80L534.70 127.80Q534.70 132.70 535.95 137.65Q537.20 142.60 540.15 145.90Q543.10 149.20 548.00 149.20L548.00 149.20Q553.50 149.20 558.20 145.70Q562.90 142.20 565.80 134.80Q568.70 127.40 568.70 115.80L568.70 115.80L569.80 115.80Q569.80 127.30 566.60 135.90Q563.40 144.50 556.85 149.25Q550.30 154 540.10 154ZM645.50 108.10L644.50 108.10Q644.50 98.50 645.85 89.60Q647.20 80.70 650.35 73.55Q653.50 66.40 658.80 62.20Q664.10 58 672.00 58L672.00 58Q678.00 58 682.20 60.45Q686.40 62.90 688.65 66.85Q690.90 70.80 690.90 75.30L690.90 75.30Q690.90 81 687.45 84.95Q684.00 88.90 678.00 88.90L678.00 88.90Q671.80 88.90 668.25 85.40Q664.70 81.90 664.70 76.90L664.70 76.90Q664.70 70.60 668.75 67.20Q672.80 63.80 677.80 63.80L677.80 63.80Q681.50 63.80 684.45 65.40Q687.40 67 689.10 69.60Q690.80 72.20 690.80 75.30L690.80 75.30L689.30 75.30Q689.30 71.10 687.15 67.55Q685.00 64 681.10 61.80Q677.20 59.60 671.90 59.60L671.90 59.60Q664.50 59.60 659.45 63.65Q654.40 67.70 651.35 74.65Q648.30 81.60 646.90 90.25Q645.50 98.90 645.50 108.10L645.50 108.10ZM612.20 60L645.50 60L645.50 150.50L658.80 150.50L658.80 152L612.20 152L612.20 150.50L624.90 150.50L624.90 61.50L612.20 61.50L612.20 60ZM776.30 154L776.30 154Q771.10 154 766.70 152.55Q762.30 151.10 759.60 147.30Q756.90 143.50 756.90 136.70L756.90 136.70L756.90 91.10Q756.90 83.90 755.75 76.80Q754.60 69.70 750.75 65Q746.90 60.30 738.90 60.30L738.90 60.30Q733.80 60.30 728.50 61.55Q723.20 62.80 718.70 65.15Q714.20 67.50 711.40 71Q708.60 74.50 708.60 79.10L708.60 79.10L707.00 79.10Q707.00 73.70 710.70 70.45Q714.40 67.20 719.10 67.20L719.10 67.20Q724.00 67.20 727.95 70.20Q731.90 73.20 731.90 78.70L731.90 78.70Q731.90 85 727.85 87.95Q723.80 90.90 719.10 90.90L719.10 90.90Q713.80 90.90 710.30 87.85Q706.80 84.80 706.80 79.10L706.80 79.10Q706.80 74.10 709.85 70.30Q712.90 66.50 718.10 63.85Q723.30 61.20 729.80 59.80Q736.30 58.40 743.10 58.40L743.10 58.40Q757.30 58.40 764.75 63.05Q772.20 67.70 774.90 75.15Q777.60 82.60 777.60 91.10L777.60 91.10L777.60 142Q777.60 145.40 779.00 147.90Q780.40 150.40 784.50 150.40L784.50 150.40Q787.60 150.40 791.55 147.55Q795.50 144.70 797.80 139.60L797.80 139.60L798.60 140.80Q795.90 146.70 790.00 150.35Q784.10 154 776.30 154ZM728.30 154L728.30 154Q715.30 154 707.55 147.35Q699.80 140.70 699.80 129.30L699.80 129.30Q699.80 115.90 711.15 108.60Q722.50 101.30 743.80 101.30L743.80 101.30L766.20 101.30L766.20 102.60L745.70 102.60Q737.30 102.60 732.30 106.70Q727.30 110.80 725.10 116.60Q722.90 122.40 722.90 127.80L722.90 127.80Q722.90 132.70 724.15 137.65Q725.40 142.60 728.35 145.90Q731.30 149.20 736.20 149.20L736.20 149.20Q741.70 149.20 746.40 145.70Q751.10 142.20 754.00 134.80Q756.90 127.40 756.90 115.80L756.90 115.80L758.00 115.80Q758.00 127.30 754.80 135.90Q751.60 144.50 745.05 149.25Q738.50 154 728.30 154ZM832.60 153.40L832.60 153.40Q824.00 153.40 819.75 149.90Q815.50 146.40 814.10 140.90Q812.70 135.40 812.70 129.50L812.70 129.50L812.70 40Q817.90 40 823.90 38.20Q829.90 36.40 833.50 34L833.50 34L833.50 136Q833.50 143.50 835.30 146.20Q837.10 148.90 841.20 148.90L841.20 148.90Q846.40 148.90 851.50 143.90Q856.60 138.90 859.60 132L859.60 132L860.90 132.60Q857.20 141.80 850.00 147.60Q842.80 153.40 832.60 153.40ZM854.90 61.50L798.40 61.50L798.40 60L854.90 60L854.90 61.50ZM983.00 154L983.00 154Q962.10 154 946.60 144.05Q931.10 134.10 922.50 116.70Q913.90 99.30 913.90 77L913.90 77Q913.90 54.70 922.50 37.30Q931.10 19.90 946.60 9.95Q962.10 0 983.00 0L983.00 0Q992.90 0 1001.55 3.45Q1010.20 6.90 1016.70 13.10L1016.70 13.10L1030.00 2L1031.30 2L1031.30 43.80L1029.80 43.80Q1028.70 31.60 1022.25 22.20Q1015.80 12.80 1006.00 7.50Q996.20 2.20 985.00 2.20L985.00 2.20Q972.50 2.20 963.90 8.65Q955.30 15.10 950.10 25.95Q944.90 36.80 942.55 50.05Q940.20 63.30 940.20 77L940.20 77Q940.20 90.60 942.55 103.90Q944.90 117.20 950.10 128.05Q955.30 138.90 963.90 145.35Q972.50 151.80 985.00 151.80L985.00 151.80Q995.20 151.80 1003.50 148.55Q1011.80 145.30 1017.90 139.50Q1024.00 133.70 1027.55 126.15Q1031.10 118.60 1031.80 110.20L1031.80 110.20L1033.30 110.20L1033.30 152L1032.00 152L1019.80 140Q1013.30 146.50 1003.85 150.25Q994.40 154 983.00 154ZM1123.80 154L1123.80 154Q1118.60 154 1114.20 152.55Q1109.80 151.10 1107.10 147.30Q1104.40 143.50 1104.40 136.70L1104.40 136.70L1104.40 91.10Q1104.40 83.90 1103.25 76.80Q1102.10 69.70 1098.25 65Q1094.40 60.30 1086.40 60.30L1086.40 60.30Q1081.30 60.30 1076.00 61.55Q1070.70 62.80 1066.20 65.15Q1061.70 67.50 1058.90 71Q1056.10 74.50 1056.10 79.10L1056.10 79.10L1054.50 79.10Q1054.50 73.70 1058.20 70.45Q1061.90 67.20 1066.60 67.20L1066.60 67.20Q1071.50 67.20 1075.45 70.20Q1079.40 73.20 1079.40 78.70L1079.40 78.70Q1079.40 85 1075.35 87.95Q1071.30 90.90 1066.60 90.90L1066.60 90.90Q1061.30 90.90 1057.80 87.85Q1054.30 84.80 1054.30 79.10L1054.30 79.10Q1054.30 74.10 1057.35 70.30Q1060.40 66.50 1065.60 63.85Q1070.80 61.20 1077.30 59.80Q1083.80 58.40 1090.60 58.40L1090.60 58.40Q1104.80 58.40 1112.25 63.05Q1119.70 67.70 1122.40 75.15Q1125.10 82.60 1125.10 91.10L1125.10 91.10L1125.10 142Q1125.10 145.40 1126.50 147.90Q1127.90 150.40 1132.00 150.40L1132.00 150.40Q1135.10 150.40 1139.05 147.55Q1143.00 144.70 1145.30 139.60L1145.30 139.60L1146.10 140.80Q1143.40 146.70 1137.50 150.35Q1131.60 154 1123.80 154ZM1075.80 154L1075.80 154Q1062.80 154 1055.05 147.35Q1047.30 140.70 1047.30 129.30L1047.30 129.30Q1047.30 115.90 1058.65 108.60Q1070.00 101.30 1091.30 101.30L1091.30 101.30L1113.70 101.30L1113.70 102.60L1093.20 102.60Q1084.80 102.60 1079.80 106.70Q1074.80 110.80 1072.60 116.60Q1070.40 122.40 1070.40 127.80L1070.40 127.80Q1070.40 132.70 1071.65 137.65Q1072.90 142.60 1075.85 145.90Q1078.80 149.20 1083.70 149.20L1083.70 149.20Q1089.20 149.20 1093.90 145.70Q1098.60 142.20 1101.50 134.80Q1104.40 127.40 1104.40 115.80L1104.40 115.80L1105.50 115.80Q1105.50 127.30 1102.30 135.90Q1099.10 144.50 1092.55 149.25Q1086.00 154 1075.80 154ZM1193.80 202L1147.90 202L1147.90 200.50L1160.60 200.50L1160.60 61.50L1147.90 61.50L1147.90 60L1181.30 60L1181.30 94.10Q1183.50 77 1191.60 67.60Q1199.70 58.20 1212.80 58.20L1212.80 58.20Q1223.60 58.20 1233.20 63.90Q1242.80 69.60 1248.85 80.30Q1254.90 91 1254.90 106L1254.90 106Q1254.90 121 1248.85 131.75Q1242.80 142.50 1233.20 148.25Q1223.60 154 1212.80 154L1212.80 154Q1199.70 154 1191.60 144.50Q1183.50 135 1181.30 117.90L1181.30 117.90L1181.30 200.50L1193.80 200.50L1193.80 202ZM1208.70 151.10L1208.70 151.10Q1216.20 151.10 1221.10 145.55Q1226.00 140 1228.45 129.85Q1230.90 119.70 1230.90 106L1230.90 106Q1230.90 92.30 1228.45 82.20Q1226.00 72.10 1221.10 66.60Q1216.20 61.10 1208.70 61.10L1208.70 61.10Q1201.40 61.10 1195.15 66.15Q1188.90 71.20 1185.10 81.20Q1181.30 91.20 1181.30 106L1181.30 106Q1181.30 120.80 1185.10 130.85Q1188.90 140.90 1195.15 146Q1201.40 151.10 1208.70 151.10ZM1289.50 27L1289.50 27Q1284.00 27 1280.05 23Q1276.10 19 1276.10 13.50L1276.10 13.50Q1276.10 7.90 1280.05 4Q1284.00 0.10 1289.50 0.10L1289.50 0.10Q1295.10 0.10 1299.00 4Q1302.90 7.90 1302.90 13.50L1302.90 13.50Q1302.90 19.10 1299.00 23.05Q1295.10 27 1289.50 27ZM1266.40 60L1299.80 60L1299.80 150.50L1312.40 150.50L1312.40 152L1266.40 152L1266.40 150.50L1279.00 150.50L1279.00 61.50L1266.40 61.50L1266.40 60ZM1352.80 153.40L1352.80 153.40Q1344.20 153.40 1339.95 149.90Q1335.70 146.40 1334.30 140.90Q1332.90 135.40 1332.90 129.50L1332.90 129.50L1332.90 40Q1338.10 40 1344.10 38.20Q1350.10 36.40 1353.70 34L1353.70 34L1353.70 136Q1353.70 143.50 1355.50 146.20Q1357.30 148.90 1361.40 148.90L1361.40 148.90Q1366.60 148.90 1371.70 143.90Q1376.80 138.90 1379.80 132L1379.80 132L1381.10 132.60Q1377.40 141.80 1370.20 147.60Q1363.00 153.40 1352.80 153.40ZM1375.10 61.50L1318.60 61.50L1318.60 60L1375.10 60L1375.10 61.50ZM1464.80 154L1464.80 154Q1459.60 154 1455.20 152.55Q1450.80 151.10 1448.10 147.30Q1445.40 143.50 1445.40 136.70L1445.40 136.70L1445.40 91.10Q1445.40 83.90 1444.25 76.80Q1443.10 69.70 1439.25 65Q1435.40 60.30 1427.40 60.30L1427.40 60.30Q1422.30 60.30 1417.00 61.55Q1411.70 62.80 1407.20 65.15Q1402.70 67.50 1399.90 71Q1397.10 74.50 1397.10 79.10L1397.10 79.10L1395.50 79.10Q1395.50 73.70 1399.20 70.45Q1402.90 67.20 1407.60 67.20L1407.60 67.20Q1412.50 67.20 1416.45 70.20Q1420.40 73.20 1420.40 78.70L1420.40 78.70Q1420.40 85 1416.35 87.95Q1412.30 90.90 1407.60 90.90L1407.60 90.90Q1402.30 90.90 1398.80 87.85Q1395.30 84.80 1395.30 79.10L1395.30 79.10Q1395.30 74.10 1398.35 70.30Q1401.40 66.50 1406.60 63.85Q1411.80 61.20 1418.30 59.80Q1424.80 58.40 1431.60 58.40L1431.60 58.40Q1445.80 58.40 1453.25 63.05Q1460.70 67.70 1463.40 75.15Q1466.10 82.60 1466.10 91.10L1466.10 91.10L1466.10 142Q1466.10 145.40 1467.50 147.90Q1468.90 150.40 1473.00 150.40L1473.00 150.40Q1476.10 150.40 1480.05 147.55Q1484.00 144.70 1486.30 139.60L1486.30 139.60L1487.10 140.80Q1484.40 146.70 1478.50 150.35Q1472.60 154 1464.80 154ZM1416.80 154L1416.80 154Q1403.80 154 1396.05 147.35Q1388.30 140.70 1388.30 129.30L1388.30 129.30Q1388.30 115.90 1399.65 108.60Q1411.00 101.30 1432.30 101.30L1432.30 101.30L1454.70 101.30L1454.70 102.60L1434.20 102.60Q1425.80 102.60 1420.80 106.70Q1415.80 110.80 1413.60 116.60Q1411.40 122.40 1411.40 127.80L1411.40 127.80Q1411.40 132.70 1412.65 137.65Q1413.90 142.60 1416.85 145.90Q1419.80 149.20 1424.70 149.20L1424.70 149.20Q1430.20 149.20 1434.90 145.70Q1439.60 142.20 1442.50 134.80Q1445.40 127.40 1445.40 115.80L1445.40 115.80L1446.50 115.80Q1446.50 127.30 1443.30 135.90Q1440.10 144.50 1433.55 149.25Q1427.00 154 1416.80 154ZM1488.90 2L1526.30 2L1526.30 150.50L1542.90 150.50L1542.90 152L1488.90 152L1488.90 150.50L1505.60 150.50L1505.60 3.50L1488.90 3.50L1488.90 2Z"/></g><circle class="pt pt-a" cx="1568.9" cy="136" r="16" fill="#BE3319"/></svg>
     </header>
-    <div class="fp-pl"><span class="pl-l">One point, one hundredth of a carat</span><span>__POINT_LINE__</span></div>
+    <div class="fp-pl"><span>__POINT_LINE__</span></div>
     <div class="mrule rule-draw"></div>
   </div>
 
@@ -327,11 +391,11 @@ __OMENU__
         <h2 class="pr" style="--d:60ms"><a href="__LEAD_HREF__">__LEAD_TITLE__</a></h2>
         <p class="fp-dek pr" style="--d:120ms">__LEAD_DEK__</p>
         <span class="by pr" style="--d:180ms">By __LEAD_BY__</span>
-        <a class="go-link rd pr" style="--d:220ms" href="__LEAD_HREF__">Read the lead &rarr;</a>
+        <a class="go-link rd pr" style="--d:240ms" href="__LEAD_HREF__">Read the lead &rarr;</a>
       </div>
-      <figure class="fp-plate pr" id="plate" style="--d:240ms">
+      <figure class="fp-plate pr" id="plate" style="--d:300ms">
         <a class="pl-f" href="__LEAD_HREF__" aria-label="Read the lead story">
-          <img src="__LEAD_IMG__" alt="" width="__LEAD_W__" height="__LEAD_H__" fetchpriority="high" decoding="async">
+          <img src="__LEAD_SMALL__" srcset="__LEAD_SRCSET__" sizes="(min-width:1180px) 493px,(min-width:900px) 42vw,100vw" alt="" width="__LEAD_W__" height="__LEAD_H__" fetchpriority="high" decoding="async">
           <canvas aria-hidden="true"></canvas>
         </a>
         <figcaption class="fp-cap"><span>__LEAD_PLATE__</span><span>__LEAD_CREDIT__</span></figcaption>
@@ -370,8 +434,8 @@ __OMENU__
               <label><span class="vh">Fineness</span><select id="bfine"></select></label>
               <span>&times;</span>
               <label><span class="vh">Weight in grams</span><input id="bgr" type="number" inputmode="decimal" min="0" step="0.1" value="5"></label>
-              <span>g</span><span>=</span>
-              <span class="res" id="bres" aria-live="polite"></span>
+              <span>g</span>
+              <span class="eq">= <span class="res" id="bres" aria-live="polite"></span></span>
               <span class="w" id="bwork"></span>
             </div>
           </div>
@@ -399,7 +463,7 @@ __OMENU__
 <!-- 8 · the brief -->
 <section class="fp-brief" id="brief" aria-labelledby="bf-h">
   <div class="wr g12">
-    <div class="stone" aria-hidden="true"><canvas id="stone"></canvas><span class="sl">The stone turns until it is the mark</span></div>
+    <div class="stone" aria-hidden="true"><canvas id="stone"></canvas><img class="stone-mk" src="assets/stone-mark.svg" alt="" width="880" height="581" loading="lazy" decoding="async"></div>
     <div class="bf">
       <span class="fp-kick">The Morning Brief &middot; free</span>
       <h2 id="bf-h">The trade, filed before the New York open<i class="pt" aria-hidden="true"></i></h2>
@@ -425,16 +489,14 @@ const SPOT={au:__SPOT__, ag:__SPOT_AG__}, SPOTT={au:'__SPOT_TXT__', ag:'__SPOT_A
 const $=(s,r=D)=>r.querySelector(s), esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const fmt=(v,d=2)=>v.toLocaleString('en-US',{minimumFractionDigits:d,maximumFractionDigits:d});
 const minus=s=>String(s).replace(/-/g,'−');
+const bez=(x1,y1,x2,y2)=>t=>{if(t<=0) return 0; if(t>=1) return 1; let x=t; for(let i=0;i<8;i++){const cx=3*x1,bx=3*(x2-x1)-cx,ax=1-cx-bx, f=((ax*x+bx)*x+cx)*x-t, df=(3*ax*x+2*bx)*x+cx; if(Math.abs(df)<1e-6) break; x-=f/df} const cy=3*y1,by=3*(y2-y1)-cy,ay=1-cy-by; return ((ay*x+by)*x+cy)*x};
 
 /* ── the nav height the tape docks under ── */
 const nav=$('#navbar'); const setNav=()=>{if(nav)R.style.setProperty('--navh',nav.offsetHeight+'px')}; setNav(); addEventListener('resize',setNav);
 
 /* ── 2 · the impression: the name is struck from blind to ink once its face is ready ── */
 requestAnimationFrame(()=>requestAnimationFrame(()=>R.classList.add('go')));
-const t0=performance.now();
-const ink=()=>{const w=Math.max(0,300-(performance.now()-t0)); setTimeout(()=>R.classList.add('inked'),w)};
-(D.fonts&&D.fonts.ready?Promise.race([D.fonts.ready,new Promise(r=>setTimeout(r,900))]):Promise.resolve()).then(ink);
-setTimeout(()=>R.classList.add('done'),1700);
+setTimeout(()=>R.classList.add('done'),1500);
 
 /* the name takes its seat in the bar once the masthead has scrolled away */
 const mast=$('#mast');
@@ -443,8 +505,8 @@ if(mast&&'IntersectionObserver' in window){new IntersectionObserver(es=>es.forEa
 /* ── 3 · the tape: 24 px a second whatever the day's length; eases to a stop under the hand ── */
 (function(){
   const tk=$('#tk'), view=$('#tkv'), btn=$('#tkp'); if(!tk) return;
-  const cell=r=>`<span class="tk"><span class="n">${esc(r[0])}</span><span class="v fp-num">${esc(r[1])}</span>${r[3]?`<span class="c fp-num">${esc(minus(r[3]))}</span>`:''}</span>`;
-  const one=TAPE.map(cell).join(''); tk.innerHTML=one+one+one+one;
+  const cell=(r,i,a,dup)=>`<span class="tk${dup?' dup':''}"${dup?' aria-hidden="true"':''}><span class="n">${esc(r[0])}</span><span class="v fp-num">${esc(r[1])}</span>${r[3]?`<span class="c fp-num">${esc(minus(r[3]))}</span>`:''}</span>`;
+  const one=TAPE.map((r,i,a)=>cell(r,i,a,0)).join(''), dup=TAPE.map((r,i,a)=>cell(r,i,a,1)).join(''); tk.innerHTML=one+dup+dup+dup;
   if(RM){tk.innerHTML=one; btn.textContent='Scroll →'; btn.onclick=()=>view.scrollBy({left:240}); return;}
   let anim=null, rate=1, target=1, raf=0, paused=false;
   const start=()=>{const half=tk.scrollWidth/2; if(anim) anim.cancel();
@@ -464,7 +526,7 @@ if(mast&&'IntersectionObserver' in window){new IntersectionObserver(es=>es.forEa
   const draw=()=>{
     try{
       const dpr=Math.min(2,devicePixelRatio||1), r=cv.getBoundingClientRect(), W=Math.round(r.width*dpr), H=Math.round(r.height*dpr); if(!W||!H) return;
-      cv.width=W; cv.height=H; const x=cv.getContext('2d'), cell=3.9*dpr;
+      cv.width=W; cv.height=H; const x=cv.getContext('2d'), cell=(innerWidth>=1180?4.4:innerWidth<600?3.6:4)*dpr;
       const o=D.createElement('canvas'), ow=Math.ceil(W/cell)*2, oh=Math.ceil(H/cell)*2; o.width=ow; o.height=oh; const ox=o.getContext('2d');
       const ir=img.naturalWidth/img.naturalHeight, cr=W/H; let sx=0,sy=0,sw=img.naturalWidth,sh=img.naturalHeight;
       if(ir>cr){sw=sh*cr;sx=(img.naturalWidth-sw)/2}else{sh=sw/cr;sy=(img.naturalHeight-sh)/2}
@@ -472,23 +534,25 @@ if(mast&&'IntersectionObserver' in window){new IntersectionObserver(es=>es.forEa
       const L=[]; for(let i=0;i<d.length;i+=16) L.push(.2126*d[i]+.7152*d[i+1]+.0722*d[i+2]); L.sort((a,b)=>a-b);
       const lo=L[Math.floor(L.length*.04)], hi=Math.max(lo+30,L[Math.floor(L.length*.97)]);
       const lum=(px,py)=>{const X=Math.min(ow-1,Math.max(0,Math.round(px/W*ow))), Y=Math.min(oh-1,Math.max(0,Math.round(py/H*oh))), i=(Y*ow+X)*4;
-        let v=(.2126*d[i]+.7152*d[i+1]+.0722*d[i+2]-lo)/(hi-lo); v=Math.min(1,Math.max(0,v)); return Math.pow(v,.82)};
+        let v=(.2126*d[i]+.7152*d[i+1]+.0722*d[i+2]-lo)/(hi-lo); v=Math.min(1,Math.max(0,v)); return .12+.88*Math.pow(v,.82)};
       x.fillStyle='#F2EDE3'; x.fillRect(0,0,W,H); x.fillStyle='#1D1912'; x.beginPath();
       const a=Math.PI/4, ca=Math.cos(a), sa=Math.sin(a), Rr=Math.hypot(W,H);
       for(let u=-Rr;u<Rr;u+=cell) for(let v=-Rr;v<Rr;v+=cell){const px=W/2+u*ca-v*sa, py=H/2+u*sa+v*ca; if(px<-cell||py<-cell||px>W+cell||py>H+cell) continue;
-        const rad=Math.sqrt(1-lum(px,py))*cell*.56; if(rad<.3) continue; x.moveTo(px+rad,py); x.arc(px,py,rad,0,6.2832);}
+        const rad=Math.sqrt(1-lum(px,py))*cell*.46; if(rad<.3) continue; x.moveTo(px+rad,py); x.arc(px,py,rad,0,6.2832);}
       x.fill(); fig.classList.add('ht');
     }catch(e){/* a tainted or missing image leaves the ink plate as it is */}
   };
-  const go=()=>img.decode?img.decode().then(draw,draw):draw();
+  const idle=f=>('requestIdleCallback' in window)?requestIdleCallback(f,{timeout:1200}):setTimeout(f,60);
+  const go=()=>(img.decode?img.decode():Promise.resolve()).then(()=>idle(draw),()=>idle(draw));
   if(img.complete&&img.naturalWidth) go(); else img.addEventListener('load',go,{once:true});
-  let rt; addEventListener('resize',()=>{clearTimeout(rt); rt=setTimeout(draw,200)});
+  let rt, lw=innerWidth; addEventListener('resize',()=>{if(innerWidth===lw) return; lw=innerWidth; clearTimeout(rt); rt=setTimeout(()=>idle(draw),250)});
 })();
 
 /* ── 5 · also this morning: type only ── */
 (function(){
   const box=$('#also'); if(!box) return;
-  box.innerHTML=ARTS.map(a=>`<a class="pr-row" href="${esc(a.href)}"><span class="mt"><span>${esc(a.s)}</span><span>${esc(a.t)}</span></span><h3>${esc(a.h)}</h3><p>${esc(a.p)}</p></a>`).join('');
+  const first=p=>{p=String(p||'').trim(); const m=p.match(/^.*?[.!?](?=\s+[A-Z"\u201c]|$)/); let f=m?m[0]:p; if(f.length>170){f=f.slice(0,170).replace(/\s+\S*$/,'')+'\u2026'} return f};
+  box.innerHTML=ARTS.map(a=>`<a class="pr-row" href="${esc(a.href)}"><span class="mt"><span>${esc(a.s)}</span><span>${esc(a.t)}</span></span><h3>${esc(a.h)}</h3><p>${esc(first(a.p))}</p></a>`).join('');
 })();
 
 /* ── 6 · the Carat indices: a table that reads the chart ── */
@@ -499,10 +563,15 @@ if(mast&&'IntersectionObserver' in window){new IntersectionObserver(es=>es.forEa
   const code=k=>k.split(' · ')[0], name=k=>k.split(' · ').slice(1).join(' · ');
   const pct=v=>(v>0?'+':v<0?'−':'')+Math.abs(v).toFixed(2)+'%';
   const spark=s=>{const lo=Math.min(...s), hi=Math.max(...s), n=s.length; return 'M'+s.map((v,i)=>`${(i/(n-1)*96).toFixed(1)} ${(18-(v-lo)/((hi-lo)||1)*16).toFixed(1)}`).join('L')};
-  tb.innerHTML=PX.map((p,i)=>`<tr class="r" tabindex="0" data-i="${i}" aria-label="${esc(code(p.k))} ${esc(name(p.k))}, level ${esc(p.v)}"><td><span class="cd">${esc(code(p.k))}</span><span class="nmx">${esc(name(p.k))}</span></td><td><span class="lv">${esc(p.v)}</span></td><td><span class="ch">${esc(minus(p.d))}</span></td><td>${pct(p.st.ytd)}</td><td class="sp"><svg viewBox="0 0 96 20" aria-hidden="true"><path d="${spark(p.ser)}"/></svg></td></tr>`).join('');
+  tb.innerHTML=PX.map((p,i)=>`<tr class="r" tabindex="0" data-i="${i}" aria-label="${esc(code(p.k))} ${esc(name(p.k))}, level ${esc(p.v)}"><td><span class="cd">${esc(code(p.k))}</span><span class="nmx">${esc(name(p.k))}</span></td><td><span class="lv">${esc(p.v)}</span></td><td><span class="ch">${esc(minus(p.d))}</span></td><td><span class="yt">${pct(p.st.ytd)}</span></td><td class="sp"><svg viewBox="0 0 96 20" aria-hidden="true"><path d="${spark(p.ser)}"/></svg></td></tr>`).join('');
   const dims=()=>{VW=Math.max(280,Math.round(cv.clientWidth||640)); VH=Math.round(Math.min(300,Math.max(190,VW*.47)))}; dims();
-  cv.innerHTML=`<svg viewBox="0 0 ${VW} ${VH}" aria-hidden="true"><g class="grid"></g><line class="base" x1="0" x2="${VW-PAD.r}"/><path class="ln"/><line class="hair" y1="${PAD.t}" y2="${VH-PAD.b}"/><circle class="dot" r="4.5"/><text class="dl" text-anchor="start"></text><g class="xax"></g></svg>`;
-  const S=$('svg',cv), g=$('.grid',S), base=$('.base',S), ln=$('.ln',S), hair=$('.hair',S), dot=$('.dot',S), dl=$('.dl',S), xax=$('.xax',S);
+  cv.innerHTML=`<svg viewBox="0 0 ${VW} ${VH}" aria-hidden="true"><g class="grid"></g><line class="base" x1="0" x2="${VW-PAD.r}"/><path class="ln"/><line class="hair" y1="${PAD.t}" y2="${VH-PAD.b}"/><circle class="dot" r="4.5"/><g class="xax"></g><g class="tag dtag"><rect height="18"/><text text-anchor="middle"></text></g><g class="tag vtag"><rect height="18"/><text></text></g></svg>`;
+  const S=$('svg',cv), g=$('.grid',S), base=$('.base',S), ln=$('.ln',S), hair=$('.hair',S), dot=$('.dot',S), xax=$('.xax',S);
+  const vt=$('.vtag',S), vtr=$('rect',vt), vtt=$('text',vt), dt_=$('.dtag',S), dtr=$('rect',dt_), dtt=$('text',dt_);
+  const tagV=(y,t)=>{y=Math.max(PAD.t,Math.min(VH-PAD.b,y)); vtt.textContent=t; const w=Math.ceil(vtt.getComputedTextLength?vtt.getComputedTextLength():t.length*6.6)+12;
+    vtr.setAttribute('x',VW-PAD.r+2); vtr.setAttribute('y',(y-9).toFixed(1)); vtr.setAttribute('width',w); vtt.setAttribute('x',VW-PAD.r+8); vtt.setAttribute('y',(y+4).toFixed(1))};
+  const tagD=(x,t)=>{dtt.textContent=t; const w=Math.ceil(dtt.getComputedTextLength?dtt.getComputedTextLength():t.length*6.6)+14, cx=Math.max(w/2,Math.min(VW-PAD.r-w/2,x));
+    dtr.setAttribute('x',(cx-w/2).toFixed(1)); dtr.setAttribute('y',VH-20); dtr.setAttribute('width',w); dtt.setAttribute('x',cx.toFixed(1)); dtt.setAttribute('y',VH-7)};
   // resample a window of the series to N points so any index or range morphs point for point
   const win=i=>{const s=PX[i].ser, n=range?Math.min(range,s.length):s.length; return {v:s.slice(s.length-n), d:PXD.slice(PXD.length-n)}};
   const res=v=>Array.from({length:N},(_,k)=>{const t=k/(N-1)*(v.length-1), a=Math.floor(t), b=Math.min(v.length-1,a+1); return v[a]+(v[b]-v[a])*(t-a)});
@@ -526,16 +595,15 @@ if(mast&&'IntersectionObserver' in window){new IntersectionObserver(es=>es.forEa
   function head(i,animate){
     const p=PX[i]; $('#chn').textContent=`${code(p.k)} · ${name(p.k)}`; const v=$('#chv'); v.textContent=p.v;
     if(animate&&!RM){v.classList.remove('weigh'); void v.offsetWidth; v.classList.add('weigh')}
-    $('#chs').textContent=`${minus(p.d)} today · ${pct(p.st.ytd)} YTD · high ${fmt(p.st.hi)} · low ${fmt(p.st.lo)} · ${p.dek}`;
-    $('#px-ft').textContent=p.ft;
+    $('#chs').innerHTML=`<span><i>${minus(p.d)} today</i> \u00b7 <i>${pct(p.st.ytd)} YTD</i> \u00b7 <i>high ${fmt(p.st.hi)}</i> \u00b7 <i>low ${fmt(p.st.lo)}</i></span><span class="dk2">${esc(p.dek.charAt(0).toUpperCase()+p.dek.slice(1))}.</span>`;
+    $('#px-ft').textContent=String(p.ft).replace(/\s*\u00b7\s*as of.*$/i,'');
     cv.setAttribute('aria-label',`${code(p.k)} ${name(p.k)}: ${p.v}, ${p.d} today, ${pct(p.st.ytd)} year to date`);
     tb.querySelectorAll('tr').forEach((tr,j)=>{tr.classList.toggle('on',j===i); tr.setAttribute('aria-current',j===i?'true':'false')});
-    dl.textContent=p.v;
   }
-  function labelAt(s){const k=N-1; dl.setAttribute('x',X(k)+10); dl.setAttribute('y',Y(s.r[k],s)-10)}
+  function labelAt(s){tagV(Y(s.r[N-1],s),PX[sel].v)}
   function morph(next){ // interpolate every point, and the scale, in 360 ms on the strike curve
     cancelAnimationFrame(raf); const from=cur, t1=performance.now(), D_=RM||!from?0:360;
-    const ez=t=>{const a=[.8,0,.2,1]; let x=t; for(let i=0;i<6;i++){const cx=3*a[0],bx=3*(a[2]-a[0])-cx,ax=1-cx-bx, f=((ax*x+bx)*x+cx)*x-t, df=(3*ax*x+2*bx)*x+cx; if(Math.abs(df)<1e-6) break; x-=f/df} const cy=3*a[1],by=3*(a[3]-a[1])-cy,ay=1-cy-by; return ((ay*x+by)*x+cy)*x};
+    const ez=bez(.8,0,.2,1);
     const step=now=>{const t=D_?Math.min(1,(now-t1)/D_):1, e=ez(t);
       const s=from?{r:next.r.map((v,k)=>from.r[k]+(v-from.r[k])*e), lo:from.lo+(next.lo-from.lo)*e, hi:from.hi+(next.hi-from.hi)*e, w:next.w}:next;
       paint(s); labelAt(s); if(t<1) raf=requestAnimationFrame(step); else {cur=next; paint(next); labelAt(next)}};
@@ -554,12 +622,12 @@ if(mast&&'IntersectionObserver' in window){new IntersectionObserver(es=>es.forEa
     const n=cur.w.v.length, j=Math.round(k/(N-1)*(n-1)), val=cur.w.v[j], kx=X(j/(n-1)*(N-1));
     hair.setAttribute('x1',kx); hair.setAttribute('x2',kx); dot.style.transition=RM?'none':'transform .12s cubic-bezier(.2,.7,.1,1)';
     dot.style.transform=`translate(${kx-X(N-1)}px,${Y(val,cur)-Y(cur.r[N-1],cur)}px)`;
-    dl.textContent=fmt(val); dl.setAttribute('x',Math.min(kx+10,VW-PAD.r-40)); dl.setAttribute('y',Y(val,cur)-10);
-    const tr=tb.querySelector('tr.on'); if(tr){rowRead=rowRead||tr; $('.lv',tr).textContent=fmt(val); $('.ch',tr).textContent=day(cur.w.d[j])}
+    tagV(Y(val,cur),fmt(val)); tagD(kx,day(cur.w.d[j]));
+    const tr=tb.querySelector('tr.on'); if(tr){rowRead=rowRead||tr; $('.lv',tr).textContent=fmt(val); $('.ch',tr).textContent=day(cur.w.d[j]); $('.yt',tr).textContent=pct(val-100)}
     cv.classList.add('hov');};
   const leave=()=>{cv.classList.remove('hov'); dot.style.transition='transform .24s cubic-bezier(.8,0,.2,1)'; dot.style.transform='none';
-    if(rowRead){const p=PX[+rowRead.dataset.i]; $('.lv',rowRead).textContent=p.v; $('.ch',rowRead).textContent=minus(p.d); rowRead=null}
-    if(cur){dl.textContent=PX[sel].v; labelAt(cur)}};
+    if(rowRead){const p=PX[+rowRead.dataset.i]; $('.lv',rowRead).textContent=p.v; $('.ch',rowRead).textContent=minus(p.d); $('.yt',rowRead).textContent=pct(p.st.ytd); rowRead=null}
+    if(cur) labelAt(cur)};
   cv.addEventListener('pointermove',e=>readAt(e.clientX)); cv.addEventListener('pointerleave',leave);
   cv.tabIndex=0; let kj=-1;
   cv.addEventListener('keydown',e=>{if(!cur) return; const n=cur.w.v.length; if(kj<0) kj=n-1;
@@ -588,12 +656,13 @@ if(mast&&'IntersectionObserver' in window){new IntersectionObserver(es=>es.forEa
 /* ── 7 · the desks ── */
 (function(){
   const box=$('#dks'); if(!box) return;
-  box.innerHTML=BOARD.map(d=>`<div class="fp-dk"><span class="no">${esc(d.n)}</span><h3><a href="${esc(d.href)}">${esc(d.t)}</a></h3><p class="tg">${esc((d.st&&d.st.d)||'')}</p><ul>${d.a.map(a=>`<li><a class="pr-row" href="${esc(a[1])}"><span>${esc(a[0])}</span><i>${esc(a[2])}</i></a></li>`).join('')}</ul><a class="go-link" href="${esc(d.href)}">Open the desk &rarr;</a></div>`).join('');
+  box.innerHTML=BOARD.map(d=>`<div class="fp-dk"><span class="no">${esc(d.n)}</span><h3><a class="pr-row" href="${esc(d.href)}">${esc(d.t)}</a></h3><p class="tg">${esc((d.st&&d.st.d)||'')}</p><ul>${d.a.map(a=>`<li><a class="pr-row" href="${esc(a[1])}"><span>${esc(a[0])}</span></a></li>`).join('')}</ul><a class="go-link" href="${esc(d.href)}">Open the desk &rarr;</a></div>`).join('');
 })();
 
-/* ── 8 · the stone that becomes the mark: a 57-facet brilliant engraved live, in gilt on carbon ── */
+/* ── 8 · the stone that becomes the mark: one engraved turn on arrival, then the brand's engraved cut, for good ── */
 (function(){
-  const cv=$('#stone'); if(!cv||!cv.getContext) return;
+  const box=$('.stone'), cv=$('#stone'), mk=box&&$('.stone-mk',box); if(!box||!cv||!mk||!cv.getContext) return;
+  if(RM||!('IntersectionObserver' in window)){box.classList.add('set'); return}
   const Dg=Math.PI/180, ctx=cv.getContext('2d');
   const R_=1,t=.56,hc=(R_-t)*Math.tan(34.5*Dg),hp=R_*Math.tan(45*Dg),rs=t+(R_-t)*.5,rl=.22,yl=-hp*.78;
   const P=(r,a,y)=>[r*Math.cos(a*Dg),y,r*Math.sin(a*Dg)], yc=r=>hc*(R_-r)/(R_-t);
@@ -602,7 +671,8 @@ if(mast&&'IntersectionObserver' in window){new IntersectionObserver(es=>es.forEa
   for(let k=0;k<8;k++){const n=(k+1)%8,p=(k+7)%8; F.push([T[k],S_[k],T[n]],[T[k],S_[p],G[2*k],S_[k]],[S_[k],G[2*k],G[2*k+1]],[S_[k],G[2*k+1],G[(2*k+2)%16]],[C,L[p],G[2*k],L[k]],[G[2*k],G[2*k+1],L[k]],[G[2*k+1],G[(2*k+2)%16],L[k]])}
   const sub=(a,b)=>[a[0]-b[0],a[1]-b[1],a[2]-b[2]], cr=(a,b)=>[a[1]*b[2]-a[2]*b[1],a[2]*b[0]-a[0]*b[2],a[0]*b[1]-a[1]*b[0]], nm=a=>{const l=Math.hypot(a[0],a[1],a[2])||1;return[a[0]/l,a[1]/l,a[2]/l]}, dt=(a,b)=>a[0]*b[0]+a[1]*b[1]+a[2]*b[2];
   const LT=nm([-.55,.75,.6]), GOLD='#D9B45E', GROUND='#100E0B';
-  let W=0,H=0,dpr=1; const size=()=>{dpr=Math.min(2,devicePixelRatio||1); const r=cv.getBoundingClientRect(); W=r.width; H=r.height; cv.width=Math.round(W*dpr); cv.height=Math.round(H*dpr)};
+  let W=0,H=0,dpr=1; const size=()=>{dpr=Math.min(2,devicePixelRatio||1); const r=cv.getBoundingClientRect(); W=r.width; H=r.height; cv.width=Math.round(W*dpr); cv.height=Math.round(H*dpr);
+    mk.style.width=(2.2*Math.min(W/2.3,H/1.5)).toFixed(1)+'px'}; // radius s in the canvas = 400 units of the mark's viewBox
   function draw(yaw,tilt,pa){
     ctx.setTransform(dpr,0,0,dpr,0,0); ctx.fillStyle=GROUND; ctx.fillRect(0,0,W,H);
     const s=Math.min(W/2.3,H/1.5), cx=W/2, cy=H/2+(hc-hp)*s*.5, cyw=Math.cos(yaw*Dg), syw=Math.sin(yaw*Dg), ct=Math.cos(tilt*Dg), st=Math.sin(tilt*Dg);
@@ -618,23 +688,36 @@ if(mast&&'IntersectionObserver' in window){new IntersectionObserver(es=>es.forEa
       const xs=f.p.map(q=>q[0]), ys=f.p.map(q=>q[1]), mx=(Math.min(...xs)+Math.max(...xs))/2, my=(Math.min(...ys)+Math.max(...ys))/2, rad=Math.hypot(Math.max(...xs)-Math.min(...xs),Math.max(...ys)-Math.min(...ys))/2+2;
       if(dens>.08){const ux=Math.cos(ang),uy=Math.sin(ang),nx=-uy,ny=ux; ctx.beginPath(); for(let d=-rad;d<=rad;d+=sp){const px=mx+nx*d,py=my+ny*d; ctx.moveTo(px-ux*rad,py-uy*rad); ctx.lineTo(px+ux*rad,py+uy*rad)} ctx.strokeStyle=GOLD; ctx.globalAlpha=.55+.45*dens; ctx.lineWidth=lw; ctx.stroke(); ctx.globalAlpha=1}
       ctx.restore(); ctx.beginPath(); f.p.forEach(([x,y],i)=>i?ctx.lineTo(x,y):ctx.moveTo(x,y)); ctx.closePath(); ctx.strokeStyle=GOLD; ctx.lineWidth=.9; ctx.stroke()}
-    if(pa>0){const q=rot([0,-hp/3,0]); ctx.globalAlpha=pa; ctx.beginPath(); ctx.arc(cx+q[0]*s,cy-q[1]*s,s*.055*(0.6+0.4*pa),0,6.2832); ctx.fillStyle='#BE3319'; ctx.fill(); ctx.globalAlpha=1}
+    if(pa>0){const q=rot([0,-hp/3,0]); ctx.beginPath(); ctx.arc(cx+q[0]*s,cy-q[1]*s,s*.07*pa,0,6.2832); ctx.fillStyle='#BE3319'; ctx.fill()}
   }
-  let last=[0,0,1]; const frame=(a,b,c)=>{last=[a,b,c]; draw(a,b,c)};
-  size(); addEventListener('resize',()=>{size(); draw(...last)});
-  if(RM){draw(0,0,1); return}
-  // one cycle: a slow full turn with the table tipped toward you, then it settles side-on and the point lands
-  const TURN=11000, HOLD=3200, CYC=TURN+HOLD, io=('IntersectionObserver' in window);
-  let vis=!io, px=0, py=0, tx=0, ty=0, raf=0, t0=performance.now();
-  const sm=x=>x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2;
-  const loop=now=>{const t=(now-t0)%CYC; px+=(tx-px)*.06; py+=(ty-py)*.06;
-    let yaw, tilt, pa; if(t<TURN){const u=sm(t/TURN); yaw=u*360; tilt=Math.sin(u*Math.PI)*20; pa=Math.max(0,1-t/300)}else{const h=(t-TURN)/HOLD; yaw=0; tilt=0; pa=Math.min(1,h*5)*(h>.92?Math.max(0,1-(h-.92)/.08):1)}
-    frame(yaw+px*8,tilt+py*5,pa); raf=vis?requestAnimationFrame(loop):0};
-  cv.parentNode.addEventListener('pointermove',e=>{const r=cv.getBoundingClientRect(); tx=((e.clientX-r.left)/r.width-.5)*2; ty=((e.clientY-r.top)/r.height-.5)*2});
-  cv.parentNode.addEventListener('pointerleave',()=>{tx=0;ty=0});
-  if(io) new IntersectionObserver(es=>es.forEach(e=>{vis=e.isIntersecting; if(vis&&!raf) raf=requestAnimationFrame(loop)}),{rootMargin:'100px'}).observe(cv);
-  else raf=requestAnimationFrame(loop);
-  draw(0,0,1);
+  let last=[0,0,0], state=0; const frame=(a,b,c)=>{last=[a,b,c]; draw(a,b,c)};
+  addEventListener('resize',()=>{if(state&&state<3){size(); draw(...last)}});
+  const turn=bez(.6,0,.2,1), land=bez(.3,1.25,.5,1), TURN=2400, WAIT=180, LAND=240;
+  const play=()=>{state=2; const t0=performance.now();
+    const step=now=>{const t=now-t0;
+      if(t<TURN){const u=turn(t/TURN); frame(u*360,Math.sin(u*Math.PI)*20,0); requestAnimationFrame(step); return}
+      if(t<TURN+WAIT+LAND){frame(0,0,t<TURN+WAIT?0:land((t-TURN-WAIT)/LAND)); requestAnimationFrame(step); return}
+      frame(0,0,1); const fin=()=>{box.classList.add('set'); state=3}; (mk.decode?mk.decode():Promise.resolve()).then(fin,fin)};
+    requestAnimationFrame(step)};
+  // drawn side-on just before it is seen; turns once when half of it is in view; never again
+  const pre=new IntersectionObserver(es=>{if(es.some(e=>e.isIntersecting)){pre.disconnect(); mk.loading='eager'; size(); frame(0,0,0); state=1; on.observe(box)}},{rootMargin:'240px 0px'});
+  const on=new IntersectionObserver(es=>{if(es.some(e=>e.intersectionRatio>=.5)){on.disconnect(); setTimeout(play,120)}},{threshold:.5});
+  pre.observe(box);
+})();
+
+/* ── the reading point: moves to the section whose top has crossed 45% of the viewport ── */
+(function(){
+  const rp=$('.rp'), front=$('#front'); if(!rp||!front||!('IntersectionObserver' in window)) return;
+  const secs=[...front.querySelectorAll('section[id]')].filter(x=>$('.lr',x)); if(!secs.length) return;
+  let cur=null;
+  const place=(sec,anim)=>{if(!sec){rp.classList.remove('on'); cur=null; return}
+    const f=front.getBoundingClientRect(), b=$('.lr b',sec)||$('.lr',sec), r=b.getBoundingClientRect(), x=$('.lr',sec).getBoundingClientRect().left-f.left-16, y=r.top+r.height/2-f.top;
+    if(!anim){rp.style.transition='opacity .18s var(--set)'; rp.style.transform=`translate(${x}px,${y}px)`; void rp.offsetWidth; rp.style.transition=''}
+    else rp.style.transform=`translate(${x}px,${y}px)`;
+    rp.classList.add('on'); cur=sec};
+  const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting) place(e.target,!!cur); else if(e.target===secs[0]&&e.boundingClientRect.top>0) place(null)}),{rootMargin:'-45% 0px -55% 0px'});
+  secs.forEach(x=>io.observe(x));
+  let rt; addEventListener('resize',()=>{clearTimeout(rt); rt=setTimeout(()=>{if(cur) place(cur,false)},120)});
 })();
 
 /* ── the brief: an honest mailto rather than a form that pretends to post ── */
