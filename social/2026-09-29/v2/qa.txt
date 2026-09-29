@@ -1,0 +1,5 @@
+theme: emerald-platinum
+POST 1 gemfields-doubles-the-writedown: 6 slides, words/slide [21, 16, 19, 28, 38, 10] (total 132), largest 232,090 bytes
+   word law: clean
+POST 2 jammers-silence-the-alarm: 5 slides, words/slide [21, 22, 31, 40, 11] (total 125), largest 205,265 bytes
+   word law: clean
