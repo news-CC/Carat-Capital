@@ -3,25 +3,25 @@
  "title": "The Natural Diamond Price List",
  "kicker": "Every shape, every weight, trade and retail side by side",
  "standfirst": "What a natural diamond actually costs — the wholesale benchmark the trade pays, the asking price the counter shows, and the spread between them, across ten shapes and eleven weight bands. Every figure is dated, every source is named, and every number we modelled rather than observed says so.",
- "as_of": "2026-09-21",
+ "as_of": "2026-09-29",
  "currency": "USD",
  "plate_series": "CC/2026",
  "headline": {
   "spec": "1.00 ct round brilliant, G colour, VS1 clarity, GIA",
-  "trade_ct": 3051,
+  "trade_ct": 3037,
   "trade_label": "IDEX price-driver average",
-  "trade_date": "2026-09-21",
+  "trade_date": "2026-09-29",
   "rapi_ct": 3915,
   "rapi_label": "RAPI, D–H / IF–VS2",
-  "rapi_date": "2026-09-22",
+  "rapi_date": "2026-09-28",
   "retail_ct": 5454,
   "retail_label": "median of five online retailers",
   "retail_low": 3472,
   "retail_high": 7600,
-  "spread_pct": 79,
+  "spread_pct": 80,
   "rap_list_ct": 8600,
   "vs_list_pct": -37,
-  "note": "The counter price is 79% above the trade benchmark and still about 37% below Rapaport list. Both things are true at once: the retail margin is real, and the list itself has stopped being the price anyone pays. Trade benchmark dated 2026-09-21 (IDEX); RAPI's own newest published point is dated 2026-09-22, the index having moved from monthly to daily publication on 2026-09-07 - dated to the point, not to today. Retail figure dated 2026-07-30, James Allen dropped from the retailer set - see the correction note. Corrected 23 September 2026: this page carried \"RAPI's own newest published point is dated 2026-09-16\" and a RAPI figure of $3,912.00; the index's own 1.00 ct series had published daily points past that date and read 3,914.90 on 22 September. The RAPI figure and its date were fixed on 23 September but no correction note was printed with the fix, which this note now supplies. Correct as published throughout: the trade benchmark, its 2026-09-21 IDEX date, the retail median and the 2026-07-30 retail date.",
+  "note": "The counter price is 80% above the trade benchmark and still about 37% below Rapaport list. Both things are true at once: the retail margin is real, and the list itself has stopped being the price anyone pays. Trade benchmark dated 2026-09-29 (IDEX); RAPI's own newest published point is dated 2026-09-28, the index having moved from monthly to daily publication on 2026-09-07 - dated to the point, not to today. Retail figure dated 2026-07-30, James Allen dropped from the retailer set - see the correction note. Corrected 23 September 2026: this page carried \"RAPI's own newest published point is dated 2026-09-16\" and a RAPI figure of $3,912.00; the index's own 1.00 ct series had published daily points past that date and read 3,914.90 on 22 September. The RAPI figure and its date were fixed on 23 September but no correction note was printed with the fix, which this note now supplies. Correct as published throughout: the trade benchmark, its 2026-09-21 IDEX date, the retail median and the 2026-07-30 retail date.",
   "retail_as_of": "2026-07-30",
   "rapi_ytd_pct": -5.1
  },
@@ -32,41 +32,41 @@
    {
     "w": "0.30 ct",
     "wt": 0.3,
-    "trade_ct": 972,
-    "trade_stone": 292,
+    "trade_ct": 968,
+    "trade_stone": 290,
     "retail_ct": 2021,
     "retail_stone": 606,
-    "spread": 108,
+    "spread": 109,
     "basis": "modelled",
-    "src": "RAPI 2026-09-22"
+    "src": "RAPI 2026-09-28"
    },
    {
     "w": "0.50 ct",
     "wt": 0.5,
-    "trade_ct": 1379,
-    "trade_stone": 690,
+    "trade_ct": 1366,
+    "trade_stone": 683,
     "retail_ct": 2781,
     "retail_stone": 1390,
-    "spread": 102,
+    "spread": 104,
     "basis": "modelled",
     "src": "IDEX 0.50–0.69"
    },
    {
     "w": "0.70 ct",
     "wt": 0.7,
-    "trade_ct": 1534,
-    "trade_stone": 1074,
+    "trade_ct": 1517,
+    "trade_stone": 1062,
     "retail_ct": 2941,
     "retail_stone": 2059,
-    "spread": 92,
+    "spread": 94,
     "basis": "modelled",
     "src": "IDEX 0.70–0.89"
    },
    {
     "w": "0.90 ct",
     "wt": 0.9,
-    "trade_ct": 1915,
-    "trade_stone": 1724,
+    "trade_ct": 1912,
+    "trade_stone": 1721,
     "retail_ct": 3595,
     "retail_stone": 3236,
     "spread": 88,
@@ -76,19 +76,19 @@
    {
     "w": "1.00 ct",
     "wt": 1.0,
-    "trade_ct": 3051,
-    "trade_stone": 3051,
+    "trade_ct": 3037,
+    "trade_stone": 3037,
     "retail_ct": 5454,
     "retail_stone": 5454,
-    "spread": 79,
+    "spread": 80,
     "basis": "observed",
     "src": "IDEX 1.00–1.49 · five-retailer median"
    },
    {
     "w": "1.50 ct",
     "wt": 1.5,
-    "trade_ct": 4572,
-    "trade_stone": 6858,
+    "trade_ct": 4573,
+    "trade_stone": 6860,
     "retail_ct": 7866,
     "retail_stone": 11800,
     "spread": 72,
@@ -98,19 +98,19 @@
    {
     "w": "2.00 ct",
     "wt": 2.0,
-    "trade_ct": 8775,
-    "trade_stone": 17550,
+    "trade_ct": 8739,
+    "trade_stone": 17478,
     "retail_ct": 14055,
     "retail_stone": 28109,
-    "spread": 60,
+    "spread": 61,
     "basis": "modelled",
     "src": "IDEX 2.00–2.49"
    },
    {
     "w": "3.00 ct",
     "wt": 3.0,
-    "trade_ct": 16224,
-    "trade_stone": 48672,
+    "trade_ct": 16230,
+    "trade_stone": 48690,
     "retail_ct": 23504,
     "retail_stone": 70513,
     "spread": 45,
@@ -131,11 +131,11 @@
    {
     "w": "5.00 ct",
     "wt": 5.0,
-    "trade_ct": 21572,
-    "trade_stone": 107860,
+    "trade_ct": 21266,
+    "trade_stone": 106330,
     "retail_ct": 29035,
     "retail_stone": 145175,
-    "spread": 35,
+    "spread": 37,
     "basis": "modelled",
     "src": "IDEX 5.00–5.99"
    },
@@ -151,7 +151,7 @@
     "src": "StoneAlgo live retail"
    }
   ],
-  "withheld_note": "The 4.00–4.99 ct band is the one figure on this page we decline to print. IDEX carries it at $32,280 a carat — above the five-carat band at $21,572 — on 0.32% of the market. A four-carat stone does not cost more per carat than a five-carat stone. The band is too thin to mean anything, so it stays blank rather than being smoothed into something that looks like a price.",
+  "withheld_note": "The 4.00–4.99 ct band is the one figure on this page we decline to print. IDEX carries it at $31,640 a carat — above the five-carat band at $21,266 — on 0.32% of the market. A four-carat stone does not cost more per carat than a five-carat stone. The band is too thin to mean anything, so it stays blank rather than being smoothed into something that looks like a price.",
   "ten_note": "No public source publishes a wholesale per-carat figure for ten carats. IDEX carries no driver at that weight, RAPI publishes no level, and the independent Antwerp grids stop at six. The ten-carat line is a live retail asking average and is marked as such."
  },
  "dual_basis": {
@@ -160,31 +160,31 @@
   "rows": [
    {
     "w": "0.30 ct",
-    "rapi": 972,
+    "rapi": 968,
     "idex": 0,
     "gap": ""
    },
    {
     "w": "0.50 ct",
-    "rapi": 1318,
-    "idex": 1379,
-    "gap": "+4.6%"
+    "rapi": 1317,
+    "idex": 1366,
+    "gap": "+3.7%"
    },
    {
     "w": "1.00 ct",
     "rapi": 3915,
-    "idex": 3051,
-    "gap": "-22.1%"
+    "idex": 3037,
+    "gap": "-22.4%"
    },
    {
     "w": "3.00 ct",
-    "rapi": 18176,
-    "idex": 16224,
-    "gap": "-10.7%"
+    "rapi": 18092,
+    "idex": 16230,
+    "gap": "-10.3%"
    }
   ],
-  "note": "RAPI is the average asking price of the ten per cent lowest-priced D–H, IF–VS2, GIA-graded stones on RapNet. It is a floor for a narrow top specification, not a market mean. IDEX price drivers average a far broader spread of colour and clarity. At one carat the broad market sits 22.1% below the narrow top spec (3,051 / 3,915 = 77.9% of it), which is what you would expect — and a useful reminder that a single 'diamond price' does not exist.",
-  "asof": "RAPI at its newest published point, 2026-09-22 - IDEX price drivers read 2026-09-21"
+  "note": "RAPI is the average asking price of the ten per cent lowest-priced D–H, IF–VS2, GIA-graded stones on RapNet. It is a floor for a narrow top specification, not a market mean. IDEX price drivers average a far broader spread of colour and clarity. At one carat the broad market sits 22.4% below the narrow top spec (3,037 / 3,915 = 77.6% of it), which is what you would expect — and a useful reminder that a single 'diamond price' does not exist.",
+  "asof": "RAPI at its newest published point, 2026-09-28 - IDEX price drivers read 2026-09-29"
  },
  "colour": {
   "caption": "Colour",
@@ -409,15 +409,15 @@
   "rows": [
    {
     "w": "0.30 ct",
-    "pct": 110
+    "pct": 109
    },
    {
     "w": "0.50 ct",
-    "pct": 100
+    "pct": 104
    },
    {
     "w": "0.70 ct",
-    "pct": 92
+    "pct": 94
    },
    {
     "w": "0.90 ct",
@@ -425,7 +425,7 @@
    },
    {
     "w": "1.00 ct",
-    "pct": 79
+    "pct": 80
    },
    {
     "w": "1.50 ct",
@@ -433,7 +433,7 @@
    },
    {
     "w": "2.00 ct",
-    "pct": 60
+    "pct": 61
    },
    {
     "w": "3.00 ct",
@@ -441,7 +441,7 @@
    },
    {
     "w": "5.00 ct",
-    "pct": 35
+    "pct": 37
    }
   ],
   "note": "Markup falls as the stone grows. A third of a carat carries roughly double the trade price; a five-carat carries about a third on top. The small stone pays for the shop.",
@@ -597,7 +597,7 @@
   "rows": [
    {
     "h": "What is observed",
-    "b": "The trade per-carat column at 0.50, 0.70, 0.90, 1.00, 1.50, 2.00, 3.00 and 5.00 carats is read directly from IDEX price drivers on 2026-09-21. The 0.30 ct figure is RAPI at its own newest published point, 2026-09-22. The one-carat retail figure is the median of five retailers priced on 30 July 2026 (James Allen was dropped 2026-09-15, folded into Blue Nile). The shape table is a live sample of 169,324 asking prices. The colour and clarity indices are published aggregates at 31 December 2025."
+    "b": "The trade per-carat column at 0.50, 0.70, 0.90, 1.00, 1.50, 2.00, 3.00 and 5.00 carats is read directly from IDEX price drivers on 2026-09-29. The 0.30 ct figure is RAPI at its own newest published point, 2026-09-28. The one-carat retail figure is the median of five retailers priced on 30 July 2026 (James Allen was dropped 2026-09-15, folded into Blue Nile). The shape table is a live sample of 169,324 asking prices. The colour and clarity indices are published aggregates at 31 December 2025."
    },
    {
     "h": "What is modelled",
@@ -620,7 +620,7 @@
  "sources": [
   {
    "n": "Rapaport — RAPI daily index levels",
-   "d": "2026-09-22",
+   "d": "2026-09-28",
    "u": "rapaport.com"
   },
   {
@@ -635,7 +635,7 @@
   },
   {
    "n": "IDEX Online — polished price drivers by weight band",
-   "d": "2026-09-21",
+   "d": "2026-09-29",
    "u": "idexonline.com"
   },
   {
@@ -713,6 +713,6 @@
   }
  ],
  "retail_as_of": "2026-07-30",
- "date_note": "This page now carries two ages, not one. The dual-basis trade headline above (trade_ct, rapi_ct) refreshes weekly from IDEX and RAPI and is dated 2026-09-21 (IDEX) / 2026-09-22 (RAPI's own newest point; the index publishes daily as of 2026-09-07 and lags the calendar by a session). The retail, retailers and shapes figures below are dated 2026-07-30 and move only when we can re-drive each retailer's live filter, which not all of them allow from a static fetch — see the retail_as_of field on each section. Chief's ruling, 2026-09-09: a composite page carries one date per section, never a single page-wide date holding every section hostage to the slowest one.",
- "date_label": "21 Sep 2026 · trade headline / 30 Jul 2026 · retail sections"
+ "date_note": "This page now carries two ages, not one. The dual-basis trade headline above (trade_ct, rapi_ct) refreshes weekly from IDEX and RAPI and is dated 2026-09-29 (IDEX) / 2026-09-28 (RAPI's own newest point; the index publishes daily as of 2026-09-07 and lags the calendar by a session). The retail, retailers and shapes figures below are dated 2026-07-30 and move only when we can re-drive each retailer's live filter, which not all of them allow from a static fetch — see the retail_as_of field on each section. Chief's ruling, 2026-09-09: a composite page carries one date per section, never a single page-wide date holding every section hostage to the slowest one.",
+ "date_label": "29 Sep 2026 · trade headline / 30 Jul 2026 · retail sections"
 }
