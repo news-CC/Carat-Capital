@@ -1,5 +1,237 @@
 [
  {
+  "slug": "one-sixteen-fifty-off-the-fix",
+  "desk": "gold-metals",
+  "date": "2026-09-29",
+  "lead": true,
+  "kicker": "Metals fixes",
+  "title": "Gold's fix falls $116.50 to $4,144.55, lowest since 4 August",
+  "dek": "Silver's fix fell 5.67% to $61.33 and platinum's 2.09% to $1,731.85, both the lowest since early August. Spot gold read $4,144.10 on the Kitco bid at press time, $30 higher on the session.",
+  "byline": "Carat Capital",
+  "tags": [
+   "gold",
+   "silver",
+   "platinum",
+   "palladium",
+   "lbma",
+   "fixes"
+  ],
+  "sources": [
+   {
+    "title": "LBMA gold price PM, US dollar series, 28 September 2026 fix at 4,144.55",
+    "url": "https://prices.lbma.org.uk/json/gold_pm.json",
+    "published": "2026-09-28"
+   },
+   {
+    "title": "LBMA silver price, US dollar series, 28 September 2026 fix at 61.33",
+    "url": "https://prices.lbma.org.uk/json/silver.json",
+    "published": "2026-09-28"
+   },
+   {
+    "title": "LBMA platinum price PM, US dollar series, 28 September 2026 fix at 1,731.85",
+    "url": "https://prices.lbma.org.uk/json/platinum_pm.json",
+    "published": "2026-09-28"
+   },
+   {
+    "title": "LBMA palladium price PM, US dollar series, 28 September 2026 fix at 1,219.25",
+    "url": "https://prices.lbma.org.uk/json/palladium_pm.json",
+    "published": "2026-09-28"
+   },
+   {
+    "title": "Precious metals live board, Kitco, board timestamp 2026-09-29T06:00:57Z",
+    "url": "https://www.kitco.com/price/precious-metals",
+    "published": "2026-09-29"
+   },
+   {
+    "title": "CNBC quote service, XAU=, XAG=, XPT= and XPD=, second reading for every metal",
+    "url": "https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=XAU=",
+    "published": "2026-09-29"
+   }
+  ],
+  "body": [
+   "Silver's fix fell from $65.015 to $61.33, a drop of $3.685. That is the largest percentage fall of the four metals. Palladium's $1,219.25 is its lowest fix since 1 July. The other three metals last sat this low in the first week of August.",
+   "Spot gold read $4,144.10 at press time, $0.45 under Monday's fix. Kitco's own session field shows gold $30 higher on the day. Platinum's $1,688.00 screen sits $43.85 under its Monday fix. That is the widest gap of the four.",
+   "Refiners and fabricators settle against the London fix rather than the screen. Monday's fix is the number a September contract clears at. A buyer who quoted off Friday's $4,261.05 fix and settles at Monday's is $116.50 an ounce better off.",
+   "The desk's view: If you buy metal this week: Gold costs $140.10 an ounce less than at Friday's mark. The screen has stopped falling; the fix has not been tested since Monday. If you quote against London: Platinum moved least at the fix and furthest on the screen. Quote off one instrument, not both. What this is not: A one-day fall. The spot change runs from Friday to Tuesday and spans two sessions."
+  ],
+  "minutes": 2,
+  "seo_title": "London's gold PM fix fell $116.50 to $4,144.55 on 28 September 2026, its lowest since 4 August, with silver, platinum and palladium falling with it"
+ },
+ {
+  "slug": "sixty-five-million-from-thirty-five",
+  "desk": "gemstones",
+  "date": "2026-09-29",
+  "lead": false,
+  "kicker": "Trading statement",
+  "title": "Gemfields restates 2025's writedown to $65.0m from $35.0m",
+  "dek": "Gemfields expects a $73.5m net loss for the six months to 30 June, after a $125.2m impairment at Montepuez. That compares with a $20.5m loss a year earlier, and interim results follow on 30 September.",
+  "byline": "Carat Capital",
+  "tags": [
+   "gemfields",
+   "ruby",
+   "montepuez",
+   "kagem",
+   "impairment",
+   "results"
+  ],
+  "sources": [
+   {
+    "title": "Trading Statement for six months ended 30 June 2026, Gemfields Group Limited, RNS and SENS",
+    "url": "https://www.investegate.co.uk/announcement/rns/gemfields-group-limited--gem/trading-statement-six-months-ended-30-june-2026/9790263",
+    "published": "2026-09-25"
+   },
+   {
+    "title": "Gemfields Group Limited RNS announcement list, used to date and identify the statement",
+    "url": "https://www.investegate.co.uk/company/GEM",
+    "published": "2026-09-29"
+   },
+   {
+    "title": "Gemfields to Post $73.5M Loss Following Ruby-Asset Downgrade, Rapaport News",
+    "url": "https://rapaport.com/news/gemfields-to-post-73-5m-loss-following-ruby-asset-downgrade/",
+    "published": "2026-09-27"
+   }
+  ],
+  "body": [
+   "The impairment booked for 2025 moves to $65.0m from $35.0m. Detail is promised in the interim statements. The announcement names no reason for the $30.0m adjustment. It says further details will follow in the interim financial statements.",
+   "The $125.2m charge follows lower-than-expected premium ruby recoveries at Montepuez. David Lovett, interim chief executive, said \"the first half of 2026 was a challenging period for Gemfields\". Auction revenue reached $102.8m against $60.0m, up 71.3%. A deferred mixed-quality ruby auction lifts that comparison.",
+   "Loss per share widened to USDc 4.3 from USDc 1.7. Headline earnings per share, which strips the impairment out, came in at USDc 0.6. Weighted average shares rose to 1,724,230,526 from 1,224,967,113. The per-share loss therefore rose by less than the total loss did.",
+   "The desk's view: If you hold the shares: The loss is non-cash at its core. Headline earnings per share turned positive, at USDc 0.6 against a 1.5c loss. If you buy Mozambican ruby: The writedown prices weaker premium grade, not weaker demand. Recoveries are the constraint the company names. What this is not: Audited. This is a trading statement, unreviewed by auditors, ahead of results on 30 September."
+  ],
+  "minutes": 2,
+  "seo_title": "Gemfields restated its 2025 impairment to $65.0m from $35.0m and expects a $73.5m net loss for the six months to 30 June 2026"
+ },
+ {
+  "slug": "twenty-five-million-for-thirty-nine-beads",
+  "desk": "auctions",
+  "date": "2026-09-29",
+  "lead": false,
+  "kicker": "Sale preview",
+  "title": "Poly Auction puts a HKD 25m high estimate on jadeite",
+  "dek": "The 39-bead Burmese jadeite and diamond necklace could reach $3.2m at the 6 October High Jewelry and Important Watches sale in Hong Kong. More than 240 jewels are catalogued.",
+  "byline": "Carat Capital",
+  "tags": [
+   "poly-auction",
+   "jadeite",
+   "hong-kong",
+   "coloured-stones",
+   "auctions"
+  ],
+  "sources": [
+   {
+    "title": "Jadeite Necklace Could Nab $3M at Poly Auction, Rapaport News",
+    "url": "https://rapaport.com/news/jadeite-necklace-could-nab-3m-at-poly-auction/",
+    "published": "2026-09-28"
+   }
+  ],
+  "body": [
+   "The necklace comprises 39 Burmese jadeite beads with pear, rose and circular-cut diamonds. The house's HKD 25m top estimate is about $3.2m. More than 240 jewels are catalogued, many with ruby, sapphire and Paraiba tourmaline. The sale is titled High Jewelry and Important Watches.",
+   "Jadeite bead necklaces of Burmese origin sit at the top of the jade market. Bead matching and translucency drive an estimate at this level more than weight does. Bidding opens 6 October in Hong Kong. The house published the estimate before the viewing.",
+   "The desk's view: If you buy coloured stones: Jadeite is leading a Hong Kong catalogue ahead of any diamond lot. The sale also offers ruby, sapphire and Paraiba tourmaline. If you value jade: A published high estimate is the nearest public mark for bead quality at this level. The 6 October result will test it. What this is not: A price. This is a pre-sale estimate set by the house, not a realised result."
+  ],
+  "minutes": 1,
+  "seo_title": "A 39-bead Burmese jadeite and diamond necklace carries a HKD 25 million high estimate at Poly Auction Hong Kong on 6 October 2026"
+ },
+ {
+  "slug": "sixteen-oh-one-in-paris",
+  "desk": "auctions",
+  "date": "2026-09-29",
+  "lead": false,
+  "kicker": "Sale preview",
+  "title": "16.01-carat Van Cleef ring leads Sotheby's Paris at EUR 400,000",
+  "dek": "The rectangular step-cut J-colour, VS2-clarity stone heads a Fine Jewelry sale of more than 270 lots on 8 October. Cartier, Boucheron and Chopard pieces are also catalogued, Sotheby's own site shows.",
+  "byline": "Carat Capital",
+  "tags": [
+   "sothebys",
+   "van-cleef-arpels",
+   "paris",
+   "diamonds",
+   "auctions"
+  ],
+  "sources": [
+   {
+    "title": "Van Cleef & Arpels Diamond Ring to Lead Sotheby's Paris Auction, Rapaport News",
+    "url": "https://rapaport.com/news/van-cleef-arpels-diamond-ring-to-lead-sothebys-paris-auction/",
+    "published": "2026-09-28"
+   }
+  ],
+  "body": [
+   "The ring bears a rectangular step-cut diamond of 16.01 carats, J colour and VS2 clarity. Its EUR 400,000 ceiling is about $455,686. The mount is Van Cleef & Arpels. A signed piece at this weight is valued as jewellery rather than as rough-equivalent goods.",
+   "The Fine Jewelry sale is catalogued with over 270 lots. Cartier, Boucheron and Chopard are among the named houses. Paris bids on 8 October, two days after Hong Kong's jade sale. The October calendar tests coloured and white goods inside one week.",
+   "The desk's view: If you buy large white goods: The stone is J colour and VS2 clarity, not a top-colour lot. The estimate is the house's read on a signed mount at that grade. If you deal in signed jewellery: Cartier, Boucheron and Chopard pieces sit in the same catalogue. One sale will mark several houses at once. What this is not: A per-carat guide. A signed Van Cleef mount carries a premium the stone alone does not."
+  ],
+  "minutes": 1,
+  "seo_title": "A 16.01-carat Van Cleef & Arpels diamond ring carries a EUR 400,000 high estimate at Sotheby's Paris Fine Jewelry sale on 8 October 2026"
+ },
+ {
+  "slug": "zero-percent-into-america",
+  "desk": "diamonds",
+  "date": "2026-09-29",
+  "lead": false,
+  "kicker": "Trade policy",
+  "title": "Botswana targets US jewellery exports on a 0% import tariff",
+  "dek": "Minerals minister Bogolo Joy Kenewendo told Rapaport News the country wants a direct route to the American market. She spoke during Climate Week NYC, which its organiser dates 20 to 27 September.",
+  "byline": "Carat Capital",
+  "tags": [
+   "botswana",
+   "tariffs",
+   "jewellery-exports",
+   "united-states",
+   "beneficiation"
+  ],
+  "sources": [
+   {
+    "title": "Botswana Outlines Future Diamond Plans, Rapaport News, interview with Bogolo Joy Kenewendo",
+    "url": "https://rapaport.com/news/botswana-outlines-future-diamond-plans/",
+    "published": "2026-09-27"
+   },
+   {
+    "title": "Climate Week NYC 2026, organiser's own site, dating the event 20 to 27 September 2026",
+    "url": "https://www.climateweeknyc.org/",
+    "published": "2026-09-29"
+   }
+  ],
+  "body": [
+   "Kenewendo named Botswana's 0% US import-tariff rate as the reason to push finished jewellery there. She said the country wants a more concerted route to the American market. She said manufacturers inside the country are already exporting to the United States. No volume or value was attached to that.",
+   "Kenewendo tied diamond revenue to legislation letting every child finish high school, and to university places without student loans. She gave no figures for either. She described diamonds as the cornerstone of the economy while the country pursues its Botswana Economic Transformation Programme.",
+   "The remarks are placed at Climate Week NYC, which its organiser dates 20 to 27 September. The outlet describes the interview as last week. This is an interview, not a policy release. No tariff schedule, gazette or trade notice was published alongside it.",
+   "The desk's view: If you import from Botswana: The push is finished jewellery, not rough or polished. A 0% line is the stated advantage over competing origins. If you manufacture in India or Dubai: A tariff-free origin competing on the same US shelf changes the landed comparison. Check your own duty line against zero. What this is not: A new tariff, a figure, or a target. No export volume, value or date was given."
+  ],
+  "minutes": 2,
+  "seo_title": "Botswana's minerals minister Bogolo Joy Kenewendo says the country will use its 0% US import tariff to build jewellery exports to the United States"
+ },
+ {
+  "slug": "fifty-to-one-eighty",
+  "desk": "retail-tech",
+  "date": "2026-09-29",
+  "lead": false,
+  "kicker": "Price architecture",
+  "title": "Oak and Luna prices its Arad capsule from $50 to $180",
+  "dek": "The 24-piece styling kit tops out at panther-shape drop earrings in gold-plated brass. Cocktail rings run $120 in silver and $140 in gold tone, JCK reports, with agate, lapis and aventurine as the stones.",
+  "byline": "Carat Capital",
+  "tags": [
+   "oak-and-luna",
+   "abby-arad",
+   "gen-z",
+   "pricing",
+   "dtc"
+  ],
+  "sources": [
+   {
+    "title": "Celebrity Stylist Abby Arad Teams With Oak and Luna on a Capsule Jewelry Kit, JCK, by Karen Dybis",
+    "url": "https://www.jckonline.com/editorial-article/arad-teams-with-oak-and-luna/",
+    "published": "2026-09-28"
+   }
+  ],
+  "body": [
+   "The report names a $50 hat charm at the bottom and $180 panther-shape drop earrings at the top. The earrings are gold-plated brass with tassel chains. A gold-tone stacking ring is $110, and cocktail rings run $120 in silver and $140 in gold tone. Agate, lapis and aventurine are the stone options.",
+   "The $150 Tassel Tie necklace is styled as both a necklace and a belt. A second use is a second reason to carry the same unit. Tassels recur through the collection because they move with the wearer. Oak and Luna says \"clothes get you halfway there; jewelry finishes the look\".",
+   "The collection is presented as a styling kit of 24 pieces rather than as separates. Abby Arad worked on it with the brand for nearly a year. A Gothic Letter necklace on a black cord carries an oversize initial. Personalised product raises the cost of a return.",
+   "The desk's view: If you sell to Gen Z: The whole range sits under $200, with gold tone and plated brass doing the work. Nothing in it needs a finance plan. If you build a price ladder: Check your own entry point against $50 and your ceiling against $180. This kit has no step above that. What this is not: Fine jewellery pricing. These are gold-tone and gold-plated brass pieces with agate, lapis and aventurine."
+  ],
+  "minutes": 2,
+  "seo_title": "Oak and Luna's 24-piece Abby Arad capsule is priced from $50 to $180, with no piece above $180"
+ },
+ {
   "slug": "sixty-one-sixty-off-gold",
   "desk": "gold-metals",
   "date": "2026-09-24",
@@ -15728,7 +15960,7 @@
   "slug": "egypt-gold-exports-fall-forty-four",
   "desk": "gold-metals",
   "date": "2026-09-27",
-  "lead": true,
+  "lead": false,
   "kicker": "Trade data",
   "title": "Egypt's gold exports fall 44% with UAE shipments down 65%",
   "dek": "January to July shipments reached about $2.4bn against $4.3bn a year earlier. The Federation of Egyptian Industries blames domestic demand and war-disrupted air freight to the Emirates, still Egypt's largest destination.",

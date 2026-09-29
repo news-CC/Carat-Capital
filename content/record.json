@@ -1,10 +1,28 @@
 {
- "updated": "27 Sep 2026",
+ "updated": "29 Sep 2026",
  "intro": "Eight weeks of the trade, kept the way a ledger should be kept — dated, sourced, and in one place. New entries are added at the top each week; the quarter's running numbers live in the Almanac below.",
  "weeks": [
   {
    "label": "This week - August 20 to September 23",
    "entries": [
+    {
+     "d": "gold-metals",
+     "h": "London's gold fix fell $116.50 to $4,144.55, its lowest since 4 August",
+     "t": "Gold's London PM fix fell $116.50 to $4,144.55 between the fixes of 25 and 28 September, two consecutive London business days. Silver fell 5.67% to $61.33, platinum 2.09% to $1,731.85 and palladium 2.98% to $1,219.25. Each is the lowest fix since early August, except palladium, whose last lower fix was 1 July. Spot gold read $4,144.10 at press time, $0.45 under Monday's fix, and Kitco's own session field showed gold $30 higher on the day: the fall belongs to Monday, a session for which this paper holds no spot mark because the machine that files the morning tape lost its network from the afternoon of 27 September to the afternoon of 28 September. Every spot change in that article therefore spans two sessions and says so; the fix series has no such gap, which is why the headline is built on it.",
+     "s": "LBMA gold_pm, silver, platinum_pm and palladium_pm JSON feeds, 28 September 2026 fixes; Kitco board, timestamp 2026-09-29T06:00:57Z; CNBC quote service as second reading"
+    },
+    {
+     "d": "gemstones",
+     "h": "Gemfields restated its 2025 writedown to $65.0m from $35.0m",
+     "t": "Gemfields' trading statement of 25 September 2026 restates the impairment booked for FY2025 to $65.0m from $35.0m, an adjustment of $30.0m for which the announcement gives no cause, deferring the explanation to its interim statements. For the six months to 30 June 2026 the company expects a net loss after tax of $73.5m against $20.5m a year earlier, driven by a non-cash impairment of $125.2m at the Montepuez ruby mine. Auction revenue rose to $102.8m from $60.0m. Headline earnings per share, which strips the impairment out, turned positive at USDc 0.6 against a 1.5c headline loss. The restatement was not carried in the secondary trade coverage of the same statement.",
+     "s": "Gemfields Group Limited, Trading Statement for six months ended 30 June 2026, RNS and SENS, 25 September 2026"
+    },
+    {
+     "d": "auctions",
+     "h": "A jadeite necklace carries a HKD 25m high estimate in Hong Kong",
+     "t": "Poly Auction's 6 October High Jewelry and Important Watches sale is led by a necklace of 39 Burmese jadeite beads with pear, rose and circular-cut diamonds, at a HKD 25m high estimate, about $3.2m. The catalogue runs past 240 jewels, many with ruby, sapphire and Paraiba tourmaline. Two days later Sotheby's Paris offers a 16.01-carat, J-colour, VS2-clarity Van Cleef & Arpels ring at a EUR 400,000 high estimate, about $455,686, in a Fine Jewelry sale of more than 270 lots. Both figures are pre-sale estimates set by the houses, not results.",
+     "s": "Rapaport News, 28 September 2026, citing Poly Auction's and Sotheby's own websites"
+    },
     {
      "d": "standards",
      "h": "Twenty-seven articles carried self-reference in the wrong layer; all corrected",

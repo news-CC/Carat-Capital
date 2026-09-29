@@ -123901,7 +123901,7 @@
    ]
   },
   "changed": {
-   "lead": "One corridor carried the fall.",
+   "lead": "One corridor fell.",
    "text": "Egypt's gold and gold jewellery exports fell 44% to about $2.4bn in the first seven months of 2026. Shipments to the UAE, its largest market, fell about 65%."
   },
   "means": [
@@ -124252,7 +124252,7 @@
    ]
   },
   "changed": {
-   "lead": "The union wrote to the council.",
+   "lead": "The union wrote.",
    "text": "Diamond Workers' Union Gujarat asked GJEPC on 24 September to survey piece rates across Gujarat and lift them. Two Gujarati reports put its suicide count at about 100 in two years."
   },
   "means": [
@@ -124398,5 +124398,1018 @@
    "slug": "six-seventy-one-and-sixty-six-fifty-one",
    "why": "The council's own export figures for the goods these cutters make, read from the primary."
   }
+ },
+ "one-sixteen-fifty-off-the-fix": {
+  "v": 3,
+  "kicker": "Metals fixes",
+  "seo_title": "London's gold PM fix fell $116.50 to $4,144.55 on 28 September 2026, its lowest since 4 August, with silver, platinum and palladium falling with it",
+  "figures": {
+   "asof": "LBMA fixes for 25 and 28 September 2026, read direct from the prices.lbma.org.uk JSON feeds · spot from Kitco, board timestamp 2026-09-29T06:00:57Z",
+   "cells": [
+    {
+     "n": "−$116.50",
+     "dir": "dn",
+     "label": "Gold PM fix, 25 to 28 September",
+     "q": "lowest fix since 4 August",
+     "src": 0
+    },
+    {
+     "n": "$4,144.55",
+     "label": "Gold PM fix, 28 September"
+    },
+    {
+     "n": "−5.67%",
+     "dir": "dn",
+     "label": "Silver fix, 25 to 28 September",
+     "q": "lowest fix since 5 August"
+    },
+    {
+     "n": "$4,144.10",
+     "label": "Gold spot, Kitco bid at press time"
+    }
+   ]
+  },
+  "changed": {
+   "lead": "London's fix dropped.",
+   "text": "Gold's London PM fix fell $116.50 to $4,144.55 between Friday and Monday, its lowest since 4 August. Silver, platinum and palladium fixes fell with it."
+  },
+  "means": [
+   {
+    "who": "If you buy metal this week:",
+    "text": "Gold costs $140.10 an ounce less than at Friday's mark. The screen has stopped falling; the fix has not been tested since Monday."
+   },
+   {
+    "who": "If you quote against London:",
+    "text": "Platinum moved least at the fix and furthest on the screen. Quote off one instrument, not both."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A one-day fall. The spot change runs from Friday to Tuesday and spans two sessions."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · London's four fixes, Friday to Monday",
+   "asof": "LBMA JSON feeds, US dollar column, read direct 29 September 2026 · the change and percentage columns are Carat Capital's arithmetic",
+   "cols": [
+    "Metal",
+    "Fix 25 Sep",
+    "Fix 28 Sep",
+    "Change",
+    "% change",
+    "Lowest fix since"
+   ],
+   "rows": [
+    [
+     "Gold PM",
+     "4,261.05",
+     "4,144.55",
+     "−116.50",
+     "−2.73%",
+     "4 August 2026"
+    ],
+    [
+     "Silver",
+     "65.015",
+     "61.33",
+     "−3.685",
+     "−5.67%",
+     "5 August 2026"
+    ],
+    [
+     "Platinum PM",
+     "1,768.80",
+     "1,731.85",
+     "−36.95",
+     "−2.09%",
+     "6 August 2026"
+    ],
+    [
+     "Palladium PM",
+     "1,256.75",
+     "1,219.25",
+     "−37.50",
+     "−2.98%",
+     "1 July 2026"
+    ]
+   ],
+   "hi": 1,
+   "note": "<b>The division</b> every percentage is computed here, not read off a page: −116.50 ÷ 4,261.05 = −2.7341% to −2.73%; −3.685 ÷ 65.015 = −5.6679% to −5.67%; −36.95 ÷ 1,768.80 = −2.0890% to −2.09%; −37.50 ÷ 1,256.75 = −2.9839% to −2.98%. <b>The lowest-since column</b> was established by walking every 2026 fix in each feed, 187 for gold and silver and 188 for the two others, not by recall: the last gold fix at or under 4,144.55 is 4 August at 4,084.20, silver 5 August at 61.265, platinum 6 August at 1,728.05, palladium 1 July at 1,204.75. <b>Consecutive fixes</b> 25 and 28 September are successive London business days, so this pair carries no weekend gap."
+  },
+  "sections": [
+   {
+    "h": "Silver fell furthest at the fix",
+    "p": [
+     {
+      "lead": "Down 5.67%.",
+      "text": "Silver's fix fell from $65.015 to $61.33, a drop of $3.685. That is the largest percentage fall of the four metals."
+     },
+     {
+      "lead": "Palladium reached back further.",
+      "text": "Palladium's $1,219.25 is its lowest fix since 1 July. The other three metals last sat this low in the first week of August."
+     }
+    ]
+   },
+   {
+    "h": "The screen and the fix parted",
+    "p": [
+     {
+      "lead": "Gold matched its fix.",
+      "text": "Spot gold read $4,144.10 at press time, $0.45 under Monday's fix. Kitco's own session field shows gold $30 higher on the day."
+     },
+     {
+      "lead": "Platinum kept falling.",
+      "text": "Platinum's $1,688.00 screen sits $43.85 under its Monday fix. That is the widest gap of the four."
+     }
+    ]
+   },
+   {
+    "h": "Fabrication costs follow the fix",
+    "p": [
+     {
+      "lead": "Contracts price off London.",
+      "text": "Refiners and fabricators settle against the London fix rather than the screen. Monday's fix is the number a September contract clears at."
+     },
+     {
+      "lead": "The gap pays.",
+      "text": "A buyer who quoted off Friday's $4,261.05 fix and settles at Monday's is $116.50 an ounce better off."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "29 September",
+    "what": "The London PM fix for 29 September, the first test of whether Monday's level holds."
+   },
+   {
+    "when": "1 October",
+    "what": "October's opening fix, the basis new fabrication contracts will be written against."
+   },
+   {
+    "when": "Ongoing",
+    "what": "The gold-platinum ratio, which widened as platinum fell furthest on the screen and least at the fix."
+   }
+  ],
+  "depth": {
+   "reverse": "A single fix. If today's London PM fix returns above $4,261.05, Monday's reading was a one-session dislocation rather than a level, and the lowest-since-August framing describes a day instead of a market. The screen already argues that way: gold is higher on today's session.",
+   "built": {
+    "title": "How the London fix differs from the screen",
+    "text": "Spot is a continuous over-the-counter quote. It moves every second, it differs slightly between vendors, and it carries a bid and an ask that can sit far apart on a thin metal. The London fix is something else: an auction run twice a day for gold and once for the other metals, in which participants submit orders until supply and demand balance, and the balancing price is published as a single number. That number is what most refining, fabrication and supply contracts actually settle against, which is why a jeweller's cost base can move on a day the screen barely does. The fix also has a property the screen lacks this week. It is published only on London business days, so Friday 25 and Monday 28 September are consecutive prints with nothing between them. A spot reading taken on Tuesday against a Friday mark, by contrast, has a whole unrecorded session inside it."
+   },
+   "method": "Four LBMA feeds were fetched direct with a browser user agent, each returning 200: gold_pm.json at 915,123 bytes, silver.json at 898,388, platinum_pm.json at 557,203 and palladium_pm.json at 554,146. Each feed was saved and parsed as JSON rather than read through a summariser, and each printed digit string was grepped in the saved file before it was written: '4144.55' 1 hit, '4261.05' 1, '61.33' 1, '65.015' 1, '1731.85' 1, '1768.8' 1, '1219.25' 1, '1256.75' 1. The lowest-since dates were established by iterating the whole 2026 series in each file, not by memory. Spot came from Kitco, fetched direct at 205,969 bytes, with the embedded page data parsed programmatically; the board's own timestamps read 2026-09-29T06:00:57Z and later, seconds apart across the four metals, and greps of the saved file return 2 hits each for '4144.1', '60.526', '1688' and '1203'. A second independent page was read for every metal, CNBC's quote endpoints, and compared against Kitco's own mid rather than its bid so the comparison is like with like: gold 4,145.10 against 4,144.39, a gap of 0.0171%; silver 60.651 against 60.7193, 0.1126%; platinum 1,693.00 against 1,696.21, 0.1895%; palladium 1,223.00 against 1,220.67, 0.1905%. All four agree within rounding, so there is no outside divergence to disclose. CNBC's own market-status field reads REG_MKT on all four quotes, which is how the session is established as live rather than inferred from the calendar. One limit is disclosed rather than smoothed. There is no spot mark for Monday 28 September, because the machine that files the morning tape lost its network from the afternoon of 27 September until the afternoon of 28 September. Every spot change printed here therefore runs from Friday's close to Tuesday's press time and contains two sessions, and the article says so in the strip, in What changed and in What it means. The fix series has no such hole, which is why the headline is built on it. Prior marks were taken from the dated file for 25 September rather than derived: 4,284.20, 64.169, 1,773.00 and 1,251.00. The $140.10 in What it means is this desk's own subtraction against that gold mark, 4,284.20 − 4,144.10 = 140.10, and it is the two-session figure rather than a session move; the equivalent spot falls are 3.643 on silver, 85.00 on platinum and 48.00 on palladium.",
+   "prior": [
+    {
+     "date": "2026-09-24",
+     "slug": "sixty-one-sixty-off-gold",
+     "claim": "Gold shed $61.60 to $4,254.50 with silver and platinum falling further"
+    },
+    {
+     "date": "2026-09-24",
+     "slug": "thirteen-hundred-under-the-january-high",
+     "claim": "What a gold level $1,300 under January's high does to what jewellers make"
+    },
+    {
+     "date": "2026-09-22",
+     "slug": "four-metals-lower-again",
+     "claim": "Gold fell $14.50 to $4,333.70 with all four metals lower"
+    },
+    {
+     "date": "2026-09-19",
+     "slug": "silver-fixes-at-sixty-seven",
+     "claim": "Silver fixed at $67.035 in London, its highest since 28 August"
+    }
+   ],
+   "sources": [
+    {
+     "title": "LBMA gold price PM, US dollar series, 28 September 2026 fix at 4,144.55",
+     "url": "https://prices.lbma.org.uk/json/gold_pm.json",
+     "published": "2026-09-28"
+    },
+    {
+     "title": "LBMA silver price, US dollar series, 28 September 2026 fix at 61.33",
+     "url": "https://prices.lbma.org.uk/json/silver.json",
+     "published": "2026-09-28"
+    },
+    {
+     "title": "LBMA platinum price PM, US dollar series, 28 September 2026 fix at 1,731.85",
+     "url": "https://prices.lbma.org.uk/json/platinum_pm.json",
+     "published": "2026-09-28"
+    },
+    {
+     "title": "LBMA palladium price PM, US dollar series, 28 September 2026 fix at 1,219.25",
+     "url": "https://prices.lbma.org.uk/json/palladium_pm.json",
+     "published": "2026-09-28"
+    },
+    {
+     "title": "Precious metals live board, Kitco, board timestamp 2026-09-29T06:00:57Z",
+     "url": "https://www.kitco.com/price/precious-metals",
+     "published": "2026-09-29"
+    },
+    {
+     "title": "CNBC quote service, XAU=, XAG=, XPT= and XPD=, second reading for every metal",
+     "url": "https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=XAU=",
+     "published": "2026-09-29"
+    }
+   ]
+  },
+  "next": {
+   "slug": "thirteen-hundred-under-the-january-high",
+   "why": "What a lower gold level does to weight, construction and what a retailer can be sold."
+  },
+  "corrections": []
+ },
+ "sixty-five-million-from-thirty-five": {
+  "v": 3,
+  "kicker": "Trading statement",
+  "seo_title": "Gemfields restated its 2025 impairment to $65.0m from $35.0m and expects a $73.5m net loss for the six months to 30 June 2026",
+  "figures": {
+   "asof": "Gemfields Group Limited trading statement for the six months ended 30 June 2026, released 25 September 2026 07:00 UK on RNS and SENS · read from the announcement text, not a summary",
+   "cells": [
+    {
+     "n": "$65.0m",
+     "dir": "up",
+     "label": "FY2025 impairment, restated",
+     "q": "from $35.0m as first reported",
+     "src": 0
+    },
+    {
+     "n": "$125.2m",
+     "label": "H1 2026 impairment at Montepuez"
+    },
+    {
+     "n": "$73.5m",
+     "dir": "dn",
+     "label": "H1 2026 net loss after tax",
+     "q": "against $20.5m in H1 2025"
+    },
+    {
+     "n": "USDc 0.6",
+     "dir": "up",
+     "label": "Headline earnings per share",
+     "q": "a 1.5c headline loss a year ago"
+    },
+    {
+     "n": "$102.8m",
+     "label": "H1 2026 auction revenue"
+    }
+   ]
+  },
+  "changed": {
+   "lead": "The 2025 charge grew.",
+   "text": "Gemfields restated its FY2025 impairment to $65.0m from $35.0m. It expects a $73.5m net loss for the first half of 2026."
+  },
+  "means": [
+   {
+    "who": "If you hold the shares:",
+    "text": "The loss is non-cash at its core. Headline earnings per share turned positive, at USDc 0.6 against a 1.5c loss."
+   },
+   {
+    "who": "If you buy Mozambican ruby:",
+    "text": "The writedown prices weaker premium grade, not weaker demand. Recoveries are the constraint the company names."
+   },
+   {
+    "who": "What this is not:",
+    "text": "Audited. This is a trading statement, unreviewed by auditors, ahead of results on 30 September."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · Gemfields' first half, 2025 against 2026",
+   "asof": "Gemfields trading statement, 25 September 2026 · the change column is Carat Capital's arithmetic, the company states no percentages",
+   "cols": [
+    "Measure",
+    "H1 2025",
+    "H1 2026",
+    "Change"
+   ],
+   "rows": [
+    [
+     "Auction revenue",
+     "$60.0m",
+     "$102.8m",
+     "+71.3%"
+    ],
+    [
+     "Montepuez revenue",
+     "$38.9m",
+     "$76.1m",
+     "+95.6%"
+    ],
+    [
+     "Kagem revenue",
+     "$21.1m",
+     "$26.7m",
+     "+26.5%"
+    ],
+    [
+     "Net loss after tax",
+     "$20.5m",
+     "$73.5m",
+     "3.59 times wider"
+    ],
+    [
+     "Loss per share",
+     "USDc 1.7",
+     "USDc 4.3",
+     "+2.6c of loss"
+    ],
+    [
+     "Headline EPS",
+     "−USDc 1.5",
+     "+USDc 0.6",
+     "+2.1c, to a profit"
+    ]
+   ],
+   "hi": 3,
+   "note": "<b>The division</b> 102.8 ÷ 60.0 = 1.7133, printed as +71.3%; 76.1 ÷ 38.9 = 1.9563, +95.6%; 26.7 ÷ 21.1 = 1.2654, +26.5%; 73.5 ÷ 20.5 = 3.585, printed as 3.59 times wider rather than as a percentage because a widening loss is not a rate of return. <b>The segments add up</b> 38.9 + 21.1 = 60.0 and 76.1 + 26.7 = 102.8, so the two mines account for the whole auction line in both periods. <b>One document difference, disclosed</b> the 30 July operational update put first-half auction revenue at $102.9m and this statement puts it at $102.8m; a grep of the 25 September announcement returns no instance of 102.9, so the figure printed here is the trading statement's own. <b>Not comparable year on year</b> the company states that a mixed-quality ruby auction was deferred from December 2025 into February 2026, which lands in this half and not the last.",
+   "plate": "CC/2026/075"
+  },
+  "sections": [
+   {
+    "h": "A $30m adjustment to 2025",
+    "p": [
+     {
+      "lead": "Restated upward.",
+      "text": "The impairment booked for 2025 moves to $65.0m from $35.0m. Detail is promised in the interim statements."
+     },
+     {
+      "lead": "No cause given.",
+      "text": "The announcement names no reason for the $30.0m adjustment. It says further details will follow in the interim financial statements."
+     }
+    ]
+   },
+   {
+    "h": "Ruby grade, not ruby demand",
+    "p": [
+     {
+      "lead": "Recoveries drove it.",
+      "text": "The $125.2m charge follows lower-than-expected premium ruby recoveries at Montepuez. David Lovett, interim chief executive, said \"the first half of 2026 was a challenging period for Gemfields\"."
+     },
+     {
+      "lead": "Revenue rose anyway.",
+      "text": "Auction revenue reached $102.8m against $60.0m, up 71.3%. A deferred mixed-quality ruby auction lifts that comparison."
+     }
+    ]
+   },
+   {
+    "h": "Headline earnings turned positive",
+    "p": [
+     {
+      "lead": "Two different answers.",
+      "text": "Loss per share widened to USDc 4.3 from USDc 1.7. Headline earnings per share, which strips the impairment out, came in at USDc 0.6."
+     },
+     {
+      "lead": "More shares outstanding.",
+      "text": "Weighted average shares rose to 1,724,230,526 from 1,224,967,113. The per-share loss therefore rose by less than the total loss did."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "30 September",
+    "what": "Interim results on RNS and SENS at 07:00 UK, with the restatement detail the statement defers, and a 09:00 webcast."
+   },
+   {
+    "when": "30 September",
+    "what": "Whether the audited figures hold the $73.5m loss, which this statement gives as unreviewed."
+   },
+   {
+    "when": "H2 2026",
+    "what": "Montepuez premium recoveries, the single input that produced the impairment."
+   }
+  ],
+  "depth": {
+   "reverse": "Sustained premium recoveries at Montepuez. The impairment reflects a forecast of grade, not a sale, so a run of better premium rough would put the charge back under review and would make the positive headline figure the truer read of the half. The company says recent recoveries show early signs of improvement and that further evidence is required.",
+   "built": {
+    "title": "Why headline earnings and the reported loss disagree",
+    "text": "Headline earnings per share is a South African measure, required by the JSE, and it exists precisely for a case like this one. It strips out items that are not part of operating performance, and an impairment of a mining asset is the textbook example: it is a non-cash write-down of what the company thinks the ground will yield in future, booked today. So the two figures here are not in conflict and neither is the honest one on its own. The reported loss of $73.5m says the company has revalued Montepuez downward by a large amount. The headline figure of USDc 0.6 says that, setting that revaluation aside, the half broke into profit on a per-share basis for the first time in a year. A reader who wants to know whether the mines traded better looks at the headline figure and the revenue line. A reader who wants to know what the asset is now carried at looks at the loss. The restatement matters to both, because it moves the base the 2026 charge is measured from."
+   },
+   "method": "The primary document is Gemfields Group Limited's trading statement for the six months ended 30 June 2026, published on RNS and SENS at 07:00 UK on 25 September 2026 and read here through Investegate's announcement page, fetched with a browser user agent, 200, 69,190 bytes. The announcement's own text was read rather than the AI summary the page places above it, and every printed digit string was grepped in the saved file first: '73.5' 2 hits, '125.2' 2, '102.8' 2, '76.1' 1, '26.7' 1, '20.5' 2, '65.0' 1, '35.0' 1, '30.0' 1, '4.3' 2, '0.6' 3 and '1,724,230,526' 1. The figure '102.9' returns zero hits in that file, which is how the difference from the 30 July operational update was established rather than assumed. The announcement list for GEM was read first to identify the document, and it dates the trading statement 25 September 2026 and shows the next scheduled release as interim results; the statement itself names those results for 30 September 2026, which is the date printed here. Every percentage in the table is this desk's own division and is shown in the table note. The restatement of the FY2025 impairment from $35.0m to $65.0m is quoted from the announcement's own sentence, which attributes it to the identification of a $30.0m adjustment and defers the explanation to the interim financial statements; no cause is printed here because the document gives none. The archive was checked by reading each prior Gemfields article rather than counting hits. The closest is 31 July 2026, which covers the same company and the same window, the first half of 2026, and printed auction revenue of $102.9m from the 30 July operational update. That document carried no loss figure, no impairment and no earnings per share. The verdict is therefore advanced rather than repeat, and what advanced is named: revenue previously, the loss, the impairment, the restatement and the per-share figures now. The auction revenue line is not the news here for that reason, and the headline is not built on it.",
+   "prior": [
+    {
+     "date": "2026-09-11",
+     "slug": "gemfields-sells-all-forty-four",
+     "claim": "All 44 commercial emerald lots sold for $29.6m at $9.72 a carat"
+    },
+    {
+     "date": "2026-07-31",
+     "slug": "gemfields-covers-the-ruby",
+     "claim": "First-half auction revenue of $102.9m, from the July operational update"
+    },
+    {
+     "date": "2026-08-26",
+     "slug": "kagem-comes-to-jaipur",
+     "claim": "Kagem took its rough emeralds to Jaipur instead of the London room"
+    },
+    {
+     "date": "2026-07-20",
+     "slug": "sixty-six-dollars-a-carat",
+     "claim": "Gemfields built a middle market for ruby at $66 a carat"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Trading Statement for six months ended 30 June 2026, Gemfields Group Limited, RNS and SENS",
+     "url": "https://www.investegate.co.uk/announcement/rns/gemfields-group-limited--gem/trading-statement-six-months-ended-30-june-2026/9790263",
+     "published": "2026-09-25"
+    },
+    {
+     "title": "Gemfields Group Limited RNS announcement list, used to date and identify the statement",
+     "url": "https://www.investegate.co.uk/company/GEM",
+     "published": "2026-09-29"
+    },
+    {
+     "title": "Gemfields to Post $73.5M Loss Following Ruby-Asset Downgrade, Rapaport News",
+     "url": "https://rapaport.com/news/gemfields-to-post-73-5m-loss-following-ruby-asset-downgrade/",
+     "published": "2026-09-27"
+    }
+   ]
+  },
+  "next": {
+   "slug": "gemfields-covers-the-ruby",
+   "why": "The same half read from the July operational update, when revenue was the only figure the company had given."
+  },
+  "corrections": []
+ },
+ "twenty-five-million-for-thirty-nine-beads": {
+  "v": 3,
+  "kicker": "Sale preview",
+  "seo_title": "A 39-bead Burmese jadeite and diamond necklace carries a HKD 25 million high estimate at Poly Auction Hong Kong on 6 October 2026",
+  "figures": {
+   "asof": "Rapaport News, published 2026-09-28T11:47:24+00:00, citing Poly Auction's own catalogue · page read direct, 475,671 bytes",
+   "cells": [
+    {
+     "n": "HKD 25m",
+     "label": "High estimate, jadeite necklace",
+     "q": "about $3.2m at the rate given",
+     "src": 0
+    },
+    {
+     "n": "39",
+     "label": "Burmese jadeite beads in the lot"
+    },
+    {
+     "n": "240+",
+     "label": "Jewels in the catalogue"
+    },
+    {
+     "n": "6 Oct",
+     "label": "High Jewelry and Important Watches"
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Jadeite leads Hong Kong.",
+   "text": "A Burmese jadeite and diamond necklace carries a HKD 25m high estimate at Poly Auction's 6 October sale. The catalogue runs past 240 lots."
+  },
+  "means": [
+   {
+    "who": "If you buy coloured stones:",
+    "text": "Jadeite is leading a Hong Kong catalogue ahead of any diamond lot. The sale also offers ruby, sapphire and Paraiba tourmaline."
+   },
+   {
+    "who": "If you value jade:",
+    "text": "A published high estimate is the nearest public mark for bead quality at this level. The 6 October result will test it."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A price. This is a pre-sale estimate set by the house, not a realised result."
+   }
+  ],
+  "sections": [
+   {
+    "h": "Thirty-nine beads and diamonds",
+    "p": [
+     {
+      "lead": "The lot itself.",
+      "text": "The necklace comprises 39 Burmese jadeite beads with pear, rose and circular-cut diamonds. The house's HKD 25m top estimate is about $3.2m."
+     },
+     {
+      "lead": "Coloured stones dominate.",
+      "text": "More than 240 jewels are catalogued, many with ruby, sapphire and Paraiba tourmaline. The sale is titled High Jewelry and Important Watches."
+     }
+    ]
+   },
+   {
+    "h": "Hong Kong sets the jade mark",
+    "p": [
+     {
+      "lead": "Burmese origin matters.",
+      "text": "Jadeite bead necklaces of Burmese origin sit at the top of the jade market. Bead matching and translucency drive an estimate at this level more than weight does."
+     },
+     {
+      "lead": "The date is fixed.",
+      "text": "Bidding opens 6 October in Hong Kong. The house published the estimate before the viewing."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "6 October",
+    "what": "The Poly Auction sale itself, and whether the necklace clears HKD 25m or falls inside its range."
+   },
+   {
+    "when": "6 October",
+    "what": "The ruby, sapphire and Paraiba lots in the same catalogue, a broader read on Asian coloured-stone demand."
+   },
+   {
+    "when": "After the sale",
+    "what": "Whether a realised jadeite result reprices bead necklaces held in Hong Kong inventory."
+   }
+  ],
+  "depth": {
+   "reverse": "The result. A high estimate is the house's opinion before bidding and nothing more; a withdrawal, a pass, or a sale far inside the range would each say something different about jade demand than this preview does.",
+   "built": {
+    "title": "Why a jade estimate is not a carat price",
+    "text": "A diamond estimate can be reasoned back to a per-carat figure because the trade prices diamonds that way, by weight, colour and clarity against a published list. Jadeite has no such list. Value in a bead necklace comes from translucency, the evenness and saturation of colour, and above all from matching: a strand of thirty-nine beads that agree with each other in tone and diameter is worth a large multiple of thirty-nine similar beads that do not. Burmese origin carries a premium of its own, and the finest material is described in the trade by terms that are qualitative rather than measured. That is why a house publishes a range for a jade lot and why the range can be wide. It is also why the realised price, when it comes, is a more useful mark than the estimate, and why a single strand selling well can move what dealers ask for comparable material."
+   },
+   "method": "The item was read from Rapaport News, fetched direct with a browser user agent, 200, 475,671 bytes to a saved file, with the prose taken from those raw bytes. The page's own schema markup gives datePublished 2026-09-28T11:47:24+00:00, which is how the date is established rather than from the URL. The figure was grepped in the saved file before it was written: 'HKD 25' returns 1 hit, in the sentence that reads a jadeite and diamond necklace could fetch up to HKD 25 million, with $3.2 million given as the dollar equivalent. The bead count, the diamond cuts, the 6 October sale name and the more-than-240-lots figure are all in the same body text. Both figures are the outlet's, reported from Poly Auction's own website; no separate catalogue page was reached, so the estimate is cited at one remove and the dollar conversion is the outlet's rather than this desk's. The archive was checked by reading every hit rather than counting. A search for Poly Auction returns nothing. A search for jadeite returns one article, 8 September 2026, which covers a Mouawad parure at Bonhams and a different sale, house, lot and period. This is a new house and a new sale for this paper.",
+   "prior": [
+    {
+     "date": "2026-09-08",
+     "slug": "seventy-eight-thousand-at-bonhams",
+     "claim": "A Mouawad parure sold for $78,277 against a $153,085 high estimate"
+    },
+    {
+     "date": "2026-09-23",
+     "slug": "elmwoods-eight-oh-three-blue",
+     "claim": "Elmwood's put a £2m high estimate on an 8.03-carat blue diamond"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Jadeite Necklace Could Nab $3M at Poly Auction, Rapaport News",
+     "url": "https://rapaport.com/news/jadeite-necklace-could-nab-3m-at-poly-auction/",
+     "published": "2026-09-28"
+    }
+   ]
+  },
+  "next": {
+   "slug": "sixteen-oh-one-in-paris",
+   "why": "The other sale preview filed this morning, and the white-diamond end of the same October calendar."
+  },
+  "corrections": []
+ },
+ "sixteen-oh-one-in-paris": {
+  "v": 3,
+  "kicker": "Sale preview",
+  "seo_title": "A 16.01-carat Van Cleef & Arpels diamond ring carries a EUR 400,000 high estimate at Sotheby's Paris Fine Jewelry sale on 8 October 2026",
+  "figures": {
+   "asof": "Rapaport News, published 2026-09-28T06:56:56+00:00, citing Sotheby's own website · page read direct, 466,813 bytes",
+   "cells": [
+    {
+     "n": "EUR 400,000",
+     "label": "High estimate, Van Cleef ring",
+     "q": "about $455,686 at the rate given",
+     "src": 0
+    },
+    {
+     "n": "16.01 ct",
+     "label": "Rectangular step-cut diamond"
+    },
+    {
+     "n": "270+",
+     "label": "Lots in the Fine Jewelry sale"
+    },
+    {
+     "n": "8 Oct",
+     "label": "Sale date, Sotheby's Paris"
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Paris leads on white.",
+   "text": "A 16.01-carat Van Cleef & Arpels ring carries a EUR 400,000 high estimate at Sotheby's Paris on 8 October. The sale runs past 270 lots."
+  },
+  "means": [
+   {
+    "who": "If you buy large white goods:",
+    "text": "The stone is J colour and VS2 clarity, not a top-colour lot. The estimate is the house's read on a signed mount at that grade."
+   },
+   {
+    "who": "If you deal in signed jewellery:",
+    "text": "Cartier, Boucheron and Chopard pieces sit in the same catalogue. One sale will mark several houses at once."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A per-carat guide. A signed Van Cleef mount carries a premium the stone alone does not."
+   }
+  ],
+  "sections": [
+   {
+    "h": "A J-colour stone, signed",
+    "p": [
+     {
+      "lead": "The stone and grade.",
+      "text": "The ring bears a rectangular step-cut diamond of 16.01 carats, J colour and VS2 clarity. Its EUR 400,000 ceiling is about $455,686."
+     },
+     {
+      "lead": "The signature counts.",
+      "text": "The mount is Van Cleef & Arpels. A signed piece at this weight is valued as jewellery rather than as rough-equivalent goods."
+     }
+    ]
+   },
+   {
+    "h": "October fills the Paris room",
+    "p": [
+     {
+      "lead": "More than 270 lots.",
+      "text": "The Fine Jewelry sale is catalogued with over 270 lots. Cartier, Boucheron and Chopard are among the named houses."
+     },
+     {
+      "lead": "Two dates, two cities.",
+      "text": "Paris bids on 8 October, two days after Hong Kong's jade sale. The October calendar tests coloured and white goods inside one week."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "6 October",
+    "what": "Poly Auction Hong Kong, the coloured-stone half of the same week."
+   },
+   {
+    "when": "8 October",
+    "what": "The Sotheby's Paris sale, and where the 16.01-carat ring lands inside its range."
+   },
+   {
+    "when": "After 8 October",
+    "what": "Realised prices for the Cartier, Boucheron and Chopard lots, a mark on signed jewellery generally."
+   }
+  ],
+  "depth": {
+   "reverse": "A result outside the range. A signed 16-carat J VS2 selling well above EUR 400,000 would say the signature is carrying more than the grade; selling below it would say the reverse, and either reading would be firmer than an estimate.",
+   "built": {
+    "title": "What J colour and VS2 mean at sixteen carats",
+    "text": "Colour is graded from D, which is colourless, down the alphabet as faint warmth appears. J sits at the bottom of the near-colourless band: visible as warm against a D in a laboratory comparison, usually not visible to an untrained eye once the stone is mounted, and priced materially below the top letters. VS2 means very slightly included at the second level, with inclusions a grader finds under ten-times magnification and a buyer does not find by eye. At small weights that combination is ordinary. At 16.01 carats it is not, because large stones show colour more readily than small ones do: the same body tint travels through more material, so a J of sixteen carats reads warmer than a J of one carat. This is why a weight this size at this colour is priced as its own case rather than off a table, and why the mount and the maker's name do a large share of the work in an estimate."
+   },
+   "method": "The item was read from Rapaport News, fetched direct with a browser user agent, 200, 466,813 bytes to a saved file, and the prose was taken from those raw bytes rather than a summary. The page's own schema markup gives datePublished 2026-09-28T06:56:56+00:00. The weight was grepped in the saved file before it was written: '16.01' returns 5 hits, including the sentence describing a rectangular step-cut, 16.01-carat, J-color, VS2-clarity diamond. The EUR 400,000 estimate, the $455,686 equivalent, the 8 October date, the more-than-270-lots figure and the three named houses are all in the same body text. Every figure here is the outlet's, reported from Sotheby's own website; no Sotheby's catalogue page was reached, so the estimate is cited at one remove, and the dollar conversion is the outlet's own rather than this desk's arithmetic. The archive was checked by reading the hits rather than counting them. A search for 16.01 returns nothing. A case-insensitive search for Van Cleef across title, dek, body, slug and tags returns thirteen articles, not the twenty-five the slate reported, and each of the thirteen was opened and its Van Cleef sentence read. Two are Sotheby's Hong Kong sales in September, one is a Christie's Geneva preview, three are Elmwood's, Bonhams and Sydney results, two are Richemont group figures, two are theft and counterfeit-seizure stories, and the rest name the house only in a list of signatures. None is this ring, this sale, this estimate or this period. The verdict is new, not advanced and not a repeat.",
+   "prior": [
+    {
+     "date": "2026-09-23",
+     "slug": "elmwoods-eight-oh-three-blue",
+     "claim": "Elmwood's put a £2m high estimate on an 8.03-carat blue diamond"
+    },
+    {
+     "date": "2026-09-08",
+     "slug": "seventy-eight-thousand-at-bonhams",
+     "claim": "A Mouawad parure sold for $78,277 against a $153,085 high estimate"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Van Cleef & Arpels Diamond Ring to Lead Sotheby's Paris Auction, Rapaport News",
+     "url": "https://rapaport.com/news/van-cleef-arpels-diamond-ring-to-lead-sothebys-paris-auction/",
+     "published": "2026-09-28"
+    }
+   ]
+  },
+  "next": {
+   "slug": "twenty-five-million-for-thirty-nine-beads",
+   "why": "The coloured-stone sale two days earlier, and the other half of the same October week."
+  },
+  "corrections": []
+ },
+ "zero-percent-into-america": {
+  "v": 3,
+  "kicker": "Trade policy",
+  "seo_title": "Botswana's minerals minister Bogolo Joy Kenewendo says the country will use its 0% US import tariff to build jewellery exports to the United States",
+  "figures": {
+   "asof": "Bogolo Joy Kenewendo, minister of minerals and energy, in an interview with Rapaport News published 2026-09-27T11:42:14+00:00 · page read direct, 467,072 bytes",
+   "cells": [
+    {
+     "n": "0%",
+     "label": "US import tariff on Botswana goods",
+     "q": "the exemption the minister names",
+     "src": 0
+    },
+    {
+     "n": "20–27 Sep",
+     "label": "Climate Week NYC, where she spoke",
+     "q": "organiser's own published dates",
+     "src": 1
+    },
+    {
+     "n": "Jewellery",
+     "label": "The segment being pushed, not rough"
+    },
+    {
+     "n": "United States",
+     "label": "The destination market named"
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Botswana names a lever.",
+   "text": "Bogolo Joy Kenewendo said Botswana will use its 0% US import tariff to grow jewellery exports to the United States. She spoke during Climate Week NYC."
+  },
+  "means": [
+   {
+    "who": "If you import from Botswana:",
+    "text": "The push is finished jewellery, not rough or polished. A 0% line is the stated advantage over competing origins."
+   },
+   {
+    "who": "If you manufacture in India or Dubai:",
+    "text": "A tariff-free origin competing on the same US shelf changes the landed comparison. Check your own duty line against zero."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A new tariff, a figure, or a target. No export volume, value or date was given."
+   }
+  ],
+  "sections": [
+   {
+    "h": "The tariff is the argument",
+    "p": [
+     {
+      "lead": "Zero into America.",
+      "text": "Kenewendo named Botswana's 0% US import-tariff rate as the reason to push finished jewellery there. She said the country wants a more concerted route to the American market."
+     },
+     {
+      "lead": "Made in Botswana.",
+      "text": "She said manufacturers inside the country are already exporting to the United States. No volume or value was attached to that."
+     }
+    ]
+   },
+   {
+    "h": "Diamonds paid for the schools",
+    "p": [
+     {
+      "lead": "Revenue became policy.",
+      "text": "Kenewendo tied diamond revenue to legislation letting every child finish high school, and to university places without student loans. She gave no figures for either."
+     },
+     {
+      "lead": "Diversification alongside.",
+      "text": "She described diamonds as the cornerstone of the economy while the country pursues its Botswana Economic Transformation Programme."
+     }
+    ]
+   },
+   {
+    "h": "What the interview does not date",
+    "p": [
+     {
+      "lead": "Bounded, not dated.",
+      "text": "The remarks are placed at Climate Week NYC, which its organiser dates 20 to 27 September. The outlet describes the interview as last week."
+     },
+     {
+      "lead": "No document behind it.",
+      "text": "This is an interview, not a policy release. No tariff schedule, gazette or trade notice was published alongside it."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Ongoing",
+    "what": "A Botswana trade notice or US schedule entry that would put a line and a date behind the 0% claim."
+   },
+   {
+    "when": "Monthly",
+    "what": "Botswana jewellery export figures, which would show whether the push moves volume rather than rhetoric."
+   },
+   {
+    "when": "30 September",
+    "what": "Ekapa's rescue-plan deadline, the other Southern African diamond date this week."
+   }
+  ],
+  "depth": {
+   "reverse": "A tariff line. The claim rests on one minister's characterisation of a rate in an interview. A published US schedule entry showing a duty above zero on Botswana jewellery, or a Botswana notice setting out the terms, would either confirm the lever or remove it.",
+   "built": {
+    "title": "Why a 0% line matters more downstream than upstream",
+    "text": "Rough and polished diamonds already move across most borders at low or no duty, so a tariff exemption changes little for a miner or a cutter. Finished jewellery is different. It is a manufactured good, it attracts duty in many markets on the full value of the piece rather than on the stone alone, and that duty is charged on top of gold, labour and margin. A few percentage points on the landed value of a finished ring can decide whether a producing country can sell it into a foreign retail chain at all, or whether it is cheaper for that chain to buy the stone loose and set it somewhere else. This is the whole logic of beneficiation, the policy Botswana has pursued for two decades: capture the cutting, then the setting, then the brand, so the value stays where the stone came out of the ground. A zero duty line into the largest jewellery market is the single external condition that makes the last step arguable."
+   },
+   "method": "The item was read from Rapaport News, fetched direct with a browser user agent, 200, 467,072 bytes to a saved file, with the prose taken from those raw bytes. The page's own schema markup gives datePublished 2026-09-27T11:42:14+00:00. The tariff claim and the minister's name and title are in the body text and are hers, in an interview, not a government document; nothing here is claimed as read from a tariff schedule. The dating question the slate passed up as unresolved was closed in this run rather than carried. The slate flagged the remarks as undated beyond during New York Climate Week and ranked the item down for it. Climate Week NYC's own site was therefore fetched direct, 200, 238,412 bytes, and it dates the 2026 event 20 to 27 September 2026; the string September 20-27 returns hits in those saved bytes, six for the en-dash form and one for the hyphen form. That bounds the remarks to a window rather than leaving them undated, which is why the window is printed in the strip and in a section. It does not fix a day: the outlet's own body text uses the phrase last week, one hit in the saved file, from a 27 September article, which points at or before 26 September but does not settle it. No day is printed here for that reason. The archive was checked by reading, not counting. A search for Botswana returns twenty-four articles. The four most recent were opened in full, covering De Beers emissions on 23 September, Gaolathe on lab-grown on 19 September, Boko on Okavango community members on 25 September and the Beijing exchange pact on 17 September. None concerns tariffs, US market access or finished-jewellery exports. The subject here is new to this paper even though the country is among its most-covered.",
+   "prior": [
+    {
+     "date": "2026-09-25",
+     "slug": "year-five-of-a-ten-year-deal",
+     "claim": "Boko tied diamond demand to 20,000 Okavango community members"
+    },
+    {
+     "date": "2026-09-19",
+     "slug": "gaolathe-names-the-doubt",
+     "claim": "Botswana's Gaolathe tied lab-grown's rise to doubt about De Beers"
+    },
+    {
+     "date": "2026-07-20",
+     "slug": "gaborone-answers-penny",
+     "claim": "Botswana's options on De Beers: partner, pre-empt, or bring a friend"
+    },
+    {
+     "date": "2026-07-31",
+     "slug": "the-ask-is-exclusion",
+     "claim": "Jewelers of America went to Washington with one ask, tariff exclusion"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Botswana Outlines Future Diamond Plans, Rapaport News, interview with Bogolo Joy Kenewendo",
+     "url": "https://rapaport.com/news/botswana-outlines-future-diamond-plans/",
+     "published": "2026-09-27"
+    },
+    {
+     "title": "Climate Week NYC 2026, organiser's own site, dating the event 20 to 27 September 2026",
+     "url": "https://www.climateweeknyc.org/",
+     "published": "2026-09-29"
+    }
+   ]
+  },
+  "next": {
+   "slug": "the-ask-is-exclusion",
+   "why": "The other side of the same tariff question, argued in Washington by American jewellers."
+  },
+  "corrections": []
+ },
+ "fifty-to-one-eighty": {
+  "v": 3,
+  "kicker": "Price architecture",
+  "seo_title": "Oak and Luna's 24-piece Abby Arad capsule is priced from $50 to $180, with no piece above $180",
+  "figures": {
+   "asof": "JCK, published 28 September 2026, reporting the collection and its prices · page read direct, 113,539 bytes",
+   "cells": [
+    {
+     "n": "$180",
+     "label": "Highest price in the capsule",
+     "q": "panther-shape drop earrings",
+     "src": 0
+    },
+    {
+     "n": "$50",
+     "label": "Lowest price, a hat charm"
+    },
+    {
+     "n": "24",
+     "label": "Pieces in the styling kit"
+    },
+    {
+     "n": "$150",
+     "label": "Tassel Tie necklace, worn two ways"
+    },
+    {
+     "n": "$120–$140",
+     "label": "Cocktail rings, silver to gold tone"
+    }
+   ]
+  },
+  "changed": {
+   "lead": "The ceiling is $180.",
+   "text": "Oak and Luna priced a 24-piece Abby Arad capsule from $50 to $180. No piece in the kit is listed above $180."
+  },
+  "means": [
+   {
+    "who": "If you sell to Gen Z:",
+    "text": "The whole range sits under $200, with gold tone and plated brass doing the work. Nothing in it needs a finance plan."
+   },
+   {
+    "who": "If you build a price ladder:",
+    "text": "Check your own entry point against $50 and your ceiling against $180. This kit has no step above that."
+   },
+   {
+    "who": "What this is not:",
+    "text": "Fine jewellery pricing. These are gold-tone and gold-plated brass pieces with agate, lapis and aventurine."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Table I · Where each named piece sits in the ladder",
+   "asof": "Prices as reported by JCK, 28 September 2026 · the spread column is Carat Capital's subtraction from the $50 entry point",
+   "cols": [
+    "Piece",
+    "Price",
+    "Material as described",
+    "Above the $50 entry"
+   ],
+   "rows": [
+    [
+     "Hat charm",
+     "$50",
+     "not specified",
+     "—"
+    ],
+    [
+     "Gold-tone stacking ring",
+     "$110",
+     "gold tone",
+     "+$60"
+    ],
+    [
+     "Cocktail ring, silver",
+     "$120",
+     "silver, with gemstone",
+     "+$70"
+    ],
+    [
+     "Cocktail ring, gold tone",
+     "$140",
+     "gold tone, gemstone",
+     "+$90"
+    ],
+    [
+     "Tassel Tie necklace",
+     "$150",
+     "not specified",
+     "+$100"
+    ],
+    [
+     "Panther-shape drop earrings",
+     "$180",
+     "gold-plated brass",
+     "+$130"
+    ]
+   ],
+   "hi": 5,
+   "note": "<b>The subtraction</b> the last column is Carat Capital's arithmetic against the $50 hat charm, the lowest price the report names: 110−50=60, 120−50=70, 140−50=90, 150−50=100, 180−50=130. <b>Six of twenty-four</b> the report names prices for six pieces out of a stated twenty-four, so this is the named ladder and not the full price list. <b>The gemstones</b> agate, lapis and aventurine are named as the cocktail-ring options, which is what holds those two rings at $120 and $140 rather than higher.",
+   "plate": "CC/2026/075"
+  },
+  "sections": [
+   {
+    "h": "Six named prices, one ceiling",
+    "p": [
+     {
+      "lead": "Fifty to one-eighty.",
+      "text": "The report names a $50 hat charm at the bottom and $180 panther-shape drop earrings at the top. The earrings are gold-plated brass with tassel chains."
+     },
+     {
+      "lead": "Rings fill the middle.",
+      "text": "A gold-tone stacking ring is $110, and cocktail rings run $120 in silver and $140 in gold tone. Agate, lapis and aventurine are the stone options."
+     }
+    ]
+   },
+   {
+    "h": "One piece does two jobs",
+    "p": [
+     {
+      "lead": "Necklace, then belt.",
+      "text": "The $150 Tassel Tie necklace is styled as both a necklace and a belt. A second use is a second reason to carry the same unit."
+     },
+     {
+      "lead": "Movement is the pitch.",
+      "text": "Tassels recur through the collection because they move with the wearer. Oak and Luna says \"clothes get you halfway there; jewelry finishes the look\"."
+     }
+    ]
+   },
+   {
+    "h": "A capsule sold as a kit",
+    "p": [
+     {
+      "lead": "Twenty-four pieces.",
+      "text": "The collection is presented as a styling kit of 24 pieces rather than as separates. Abby Arad worked on it with the brand for nearly a year."
+     },
+     {
+      "lead": "Personalisation included.",
+      "text": "A Gothic Letter necklace on a black cord carries an oversize initial. Personalised product raises the cost of a return."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Q4 2026",
+    "what": "Whether the under-$200 ceiling holds through the holiday season or a higher tier is added."
+   },
+   {
+    "when": "Ongoing",
+    "what": "Gold-tone and plated-brass pricing, which moves with metal only indirectly, unlike solid-gold ladders."
+   },
+   {
+    "when": "Ongoing",
+    "what": "Whether other stylist collaborations land at the same $50 entry point."
+   }
+  ],
+  "depth": {
+   "reverse": "A higher tier. The ceiling is the claim here, and it is drawn from six named prices out of twenty-four pieces. A solid-gold or diamond-set piece inside the same kit above $180 would remove the ceiling and make this an ordinary range rather than a deliberate cap.",
+   "built": {
+    "title": "Why a ceiling matters more than an average",
+    "text": "An average price tells a brand what it took per order. A ceiling tells it who can buy without deciding. Below roughly two hundred dollars a jewellery purchase behaves like an accessory: it is bought on impulse or as a gift, it does not get discussed with a partner, and it does not wait for a payday or a discount code. Above that line, conversion drops sharply and the sale starts to need the machinery of considered purchase, finance options, saved carts, retargeting and a returns policy generous enough to remove the risk. That is why a range with a hard top is a distribution decision rather than a pricing accident. The materials follow from it: gold tone and gold-plated brass keep the ceiling intact where solid gold at these weights would breach it immediately, and semi-precious stones such as agate and lapis do the visual work that a diamond would price out of the range."
+   },
+   "method": "The item was read from JCK, fetched direct with a browser user agent, 200, 113,539 bytes to a saved file, with the prose extracted from those raw bytes rather than through a summariser. The page's own markup gives datePublished 2026-09-28 and the byline Karen Dybis. Each printed price was grepped in that saved file before it was written: '$150' returns 1 hit, '$50' 1 and '$180' 1, and the $110, $120 and $140 figures appear in the two sentences that list them. The string '24' returns seven hits, of which the relevant one is the sentence describing the twenty-four jewellery pieces. One figure that circulated with this story was checked and is not printed: a $228,500 listing price attributed to a related trend piece returns zero hits in these bytes, so it is not carried here. The quotation is nine words and is attributed to Oak and Luna, which is how the report attributes it, rather than to Abby Arad, who is quoted separately in the same piece at greater length. The debut is dated by the report only as mid-September, two hits for that phrase in the saved bytes, so no day is printed. The prices are as reported by one outlet; no brand price list or product page was reached, so every figure is cited at one remove. The archive was checked by reading rather than counting: a case-insensitive search for Oak and Luna returns zero articles, and a search for Abby Arad returns zero, so this is a new brand and a new person for this paper.",
+   "prior": [
+    {
+     "date": "2026-09-25",
+     "slug": "average-ticket-carries-the-half",
+     "claim": "Average ticket, not unit volume, carried the half at retail"
+    },
+    {
+     "date": "2026-09-26",
+     "slug": "bnpl-inside-the-perimeter",
+     "claim": "Buy-now-pay-later moved inside the jeweller's own perimeter"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Celebrity Stylist Abby Arad Teams With Oak and Luna on a Capsule Jewelry Kit, JCK, by Karen Dybis",
+     "url": "https://www.jckonline.com/editorial-article/arad-teams-with-oak-and-luna/",
+     "published": "2026-09-28"
+    }
+   ]
+  },
+  "next": {
+   "slug": "bnpl-inside-the-perimeter",
+   "why": "The other way a jeweller reaches a buyer who will not clear a high ticket in one go."
+  },
+  "corrections": []
  }
 }
