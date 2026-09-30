@@ -1,10 +1,40 @@
 {
- "updated": "29 Sep 2026",
+ "updated": "30 Sep 2026",
  "intro": "Eight weeks of the trade, kept the way a ledger should be kept — dated, sourced, and in one place. New entries are added at the top each week; the quarter's running numbers live in the Almanac below.",
  "weeks": [
   {
    "label": "This week - August 20 to September 23",
    "entries": [
+    {
+     "d": "watches",
+     "h": "Four Rolex Daytonas make £37.3m at Phillips in London",
+     "t": "The private route closed. Rolex sent four one-off Daytonas to a public room instead of one buyer. They made £37.3m on 28 September, against about $4.9m as a private sale.",
+     "s": "Rolex Charity Auction Raises Nearly $50M, JCK, 2026-09-29"
+    },
+    {
+     "d": "auctions",
+     "h": "23.34-carat yellow diamond tops Phillips Hong Kong at HKD 4.3m",
+     "t": "Yellow led, not sapphire. A 23.34-carat fancy-intense-yellow diamond ring took HKD 4.3m at Phillips in Hong Kong. The sale made HKD 37.2m, or $4.7m, from 91 lots.",
+     "s": "Fancy-Yellow Diamond Takes Top Spot at Phillips Sale, Rapaport News, 2026-09-30"
+    },
+    {
+     "d": "gold-metals",
+     "h": "Chow Sang Sang gold reads 1,245 yuan, 11.6% off 25 August",
+     "t": "The counters gave back the summer. Three Chinese brand gold counters read 1,242 to 1,246 yuan a gram on 29 September. Each is down 163 to 165 yuan from its 25 August high.",
+     "s": "一夜大跌33元！金饰克价较1个月前已跌超160元 (Gold jewellery down 33 yuan overnight), Sina Finance / National Business Daily, 2026-09-29"
+    },
+    {
+     "d": "diamonds",
+     "h": "RAPI's 1-carat adds 0.43% in a month, the 0.30-carat 3.3%",
+     "t": "The benchmark barely moved. Rapaport's one-carat index gained 0.43% between 30 August and 30 September; its 0.30-carat gained 3.30%. The one-carat's whole month fits inside a 0.61% band.",
+     "s": "Rapaport Trade Price Index (RAPI), daily series by size, 2026-09-30"
+    },
+    {
+     "d": "retail-tech",
+     "h": "Tamil Nadu orders 441,667 gold rings at one paisa above gold",
+     "t": "A jeweller bid one paisa. Tamil Nadu is buying 441,667 one-gram gold rings a year for babies born in state hospitals. Joy Alukkas won the tender at Rs 0.01 a ring above the metal.",
+     "s": "TN Govt Issues Work Orders To 2 Jewellers For Newborn Gold Ring Scheme, PTI via Deccan Chronicle, 2026-08-22"
+    },
     {
      "d": "gold-metals",
      "h": "London's gold fix fell $116.50 to $4,144.55, its lowest since 4 August",
@@ -14,7 +44,7 @@
     {
      "d": "gemstones",
      "h": "Gemfields restated its 2025 writedown to $65.0m from $35.0m",
-     "t": "Gemfields' trading statement of 25 September 2026 restates the impairment booked for FY2025 to $65.0m from $35.0m, an adjustment of $30.0m for which the announcement gives no cause, deferring the explanation to its interim statements. For the six months to 30 June 2026 the company expects a net loss after tax of $73.5m against $20.5m a year earlier, driven by a non-cash impairment of $125.2m at the Montepuez ruby mine. Auction revenue rose to $102.8m from $60.0m. Headline earnings per share, which strips the impairment out, turned positive at USDc 0.6 against a 1.5c headline loss. The restatement was not carried in the secondary trade coverage of the same statement.",
+     "t": "Gemfields' trading statement of 25 September 2026 restates the impairment booked for FY2025 to $65.0m from $35.0m, an adjustment of $30.0m for which the announcement gives no cause, deferring the explanation to its interim statements. For the six months to 30 June 2026 the company expects a net loss after tax of $73.5m against $20.5m a year earlier, driven by a non-cash impairment of $125.2m at the Montepuez ruby mine. Auction revenue rose to $102.8m from $60.0m. Headline earnings per share, which strips the impairment out, turned positive at USDc 0.6 against a 1.5c headline loss. The restatement was not carried in the secondary trade coverage of the same statement. Corrected 30 September 2026: the article's depth section said the +0.6-cent headline figure meant the half broke into profit on a per-share basis for the first time in a year. None of the three sources cited gives Gemfields' headline earnings per share for the second half of 2025, so the superlative was uncited and has been removed; the sentence now gives only the 0.6-cent headline figure against a 1.5-cent headline loss a year earlier. Every figure named here was correct as published and is unchanged.",
      "s": "Gemfields Group Limited, Trading Statement for six months ended 30 June 2026, RNS and SENS, 25 September 2026"
     },
     {

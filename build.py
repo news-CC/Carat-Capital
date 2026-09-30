@@ -111,7 +111,7 @@ DESKS = [
  dict(no="01", slug="diamonds", nav="Diamonds", title="Diamonds",
    tag="the stone that runs on trust",
    dek="Rough and polished, natural and mined, priced sight by sight. The diamond desk follows the pipeline end to end — producer sales in Gaborone, tenders in Antwerp and Dubai, manufacturing in Surat, memo programs in New York — and publishes the prices the trade actually deals at.",
-   stats=[("$5,232","1ct RBC · natural, this week"),("+4.2%","RAPI 0.30ct, June"),("6","Borders per stone, avg.")],
+   stats=[("","1ct RBC · natural")],  # driven by _lock_desk_stats() from content/prices.json
    motif="diamond",
    briefing=[
      ("B-01","Producers hold the line on rough","De Beers-style supply discipline is back: allocations trimmed, prices defended. Polished has stabilized after two brutal years — the question is whether midstream margins recover before credit patience runs out.","Supply · Gaborone"),
@@ -134,7 +134,7 @@ DESKS = [
  dict(no="02", slug="gold-metals", nav="Gold", title="Gold & Metals",
    tag="the metal beneath every margin",
    dek="Bullion is the jewelry industry's weather. The metals desk files the morning note on gold, silver, platinum and palladium — then follows the price into the workshop: hallmarking policy, recycling flows, hollow-chain engineering and what $4,000-plus gold does to every counter in the world.",
-   stats=[("$3,997","Gold/oz · Jul 13 close"),("−10.9%","Silver, on the month"),("~50%","Of gold demand is jewelry")],
+   stats=[("","Gold/oz")],  # driven by _lock_desk_stats() from the tape
    motif="ingot",
    briefing=[
      ("B-01","$4,000 is the floor — tested three times, held three times","Gold stabbed below $4,000 on war nerves and snapped back within a day. Manufacturers have stopped waiting for a retreat: product architecture is being redesigned around a $4,000-plus planning price.","Bullion · New York"),
@@ -157,7 +157,7 @@ DESKS = [
  dict(no="03", slug="gemstones", nav="Gems", title="Colored Gemstones",
    tag="supply lines drawn in emerald, ruby and sapphire",
    dek="The most opaque corner of the trade — and the most alive. The gemstone desk tracks auction results from Zambian emerald and Mozambican ruby tenders, the cutting rooms of Bangkok and Jaipur, treatment disclosure fights, and the collector demand pushing top stones past diamonds.",
-   stats=[("+12%","Fine sapphire, YoY"),("80%+","Of rubies transit Bangkok"),("3","Stones rule: E · R · S")],
+   stats=[],  # no dated series behind these figures; see the 2026-09-30 note below
    motif="gem",
    briefing=[
      ("B-01","The big three outrun diamonds again","Untreated Burmese rubies, Kashmir-quality sapphire and vivid Colombian emerald keep setting per-carat records. Scarcity is structural: the great mines are old and the new finds are small.","Market · Global"),
@@ -180,7 +180,7 @@ DESKS = [
  dict(no="04", slug="watches", nav="Watches", title="Watches",
    tag="haute horlogerie, priced by the second",
    dek="Where jewelry meets machinery and the secondary market never sleeps. The watch desk reads Swiss export data, brand strategy and auction results — and tracks the collector indices that turned wristwatches into an asset class with a service manual.",
-   stats=[("CHF 26B","Swiss exports, annualized"),("−8%","Secondary index vs peak"),("70%","Of value: top 4 brands")],
+   stats=[],  # no dated series behind these figures; see the 2026-09-30 note below
    motif="watch",
    briefing=[
      ("B-01","World Cup summer becomes a watch story","Diamond-set footballs, athlete ambassadors, limited editions timed to the tournament — the industry is spending the summer converting football fever into waiting lists.","Marketing · Geneva"),
@@ -203,7 +203,7 @@ DESKS = [
  dict(no="05", slug="auctions", nav="Auctions", title="Auctions & Estates",
    tag="where the trade marks itself to market",
    dek="Every hammer price is a data point the whole industry reprices against. The auction desk previews and reports the jewelry sales at Christie's, Sotheby's, Phillips and Bonhams, tracks private treaty and estate flows, and reads provenance the way analysts read balance sheets.",
-   stats=[("$1.1B","Annual jewelry hammer, est."),("×3.2","Provenance premium, avg."),("2","Capitals: GVA · HKG")],
+   stats=[],  # no dated series behind these figures; see the 2026-09-30 note below
    motif="gavel",
    briefing=[
      ("B-01","Signed period jewels carry the season","Cartier Art Deco, JAR, early Bulgari — signed and dated material clears high estimates while generic goods labor. The market is paying for authorship, not just material.","Results · Geneva"),
@@ -226,7 +226,7 @@ DESKS = [
  dict(no="06", slug="retail-tech", nav="Retail", title="Retail & Technology",
    tag="the counter, rebuilt for the next generation",
    dek="Where the industry meets its customer — and its future. The retail desk covers lab-grown economics, e-commerce and live-selling, traceability tech, AI in the showroom, and the store formats winning buyers who are 24, online at midnight, and allergic to velvet ropes.",
-   stats=[("$475","Lab-grown 1ct, wholesale midpoint"),("~20%","Of sales now online"),("24","Median first-buyer age")],
+   stats=[("","Lab-grown 1ct, wholesale midpoint")],  # driven by _lock_desk_stats() from content/lab-prices.json
    motif="store",
    briefing=[
      ("B-01","Lab-grown settles into its true business model","At an 86% discount to natural, LGD is no longer a diamond substitute — it's a fashion-jewelry category with diamond optics. Margins migrate from the stone to the brand and the volume.","Economics · Global"),
@@ -248,7 +248,12 @@ DESKS = [
    ]),
 ]
 
-# ── the desk-furniture price lock (corrected 2026-09-16) ──────────────────────
+# ── the desk-furniture price lock (corrected 2026-09-16; extended 2026-09-30) ──
+# 2026-09-30: the six "At a glance" boxes carried fifteen figures typed into this
+# file. Three were already read from data by the lock below; the other twelve were
+# literals with no dated source behind them, which the chief's 2026-09-23 ruling
+# forbids for any figure a reader sees. They are gone. A desk with no dated series
+# renders no box at all rather than an undated one.
 # These three headline stats used to be literals typed into the list above. Two
 # of them froze: the diamonds tile carried $5,232 under the label "this week"
 # for a month after the price list stopped carrying that number, and the gold
@@ -2600,7 +2605,8 @@ def desk_page(d):
                      % (" has-img" if img else "", la["slug"], la["date"][:10], _rd_date(la["date"][:10]), la["title"], la["dek"], img))
         rest = "".join('<li><a href="a-%s.html"><time datetime="%s">%s</time><span class="d-h">%s</span><span class="d-dek">%s</span></a></li>'
                        % (x["slug"], x["date"][:10], _rd_date(x["date"][:10]), x["title"], x["dek"]) for x in arts[1:])
-    stats = "".join('<tr><th scope="row">%s</th><td>%s</td></tr>' % (l, v) for v, l in d["stats"])
+    stats = "".join('<tr><th scope="row">%s</th><td>%s</td></tr>' % (l, v)
+                    for v, l in d["stats"] if str(v).strip())
     briefs = "".join('<div class="d-bi"><p class="d-where">%s</p><h3>%s</h3><p>%s</p></div>' % (b_[3], b_[1], b_[2]) for b_ in d["briefing"])
     vocab = "".join('<div class="d-term"><dt>%s <span>%s</span></dt><dd>%s</dd></div>' % (g[0], g[1], g[2]) for g in d["glossary"])
     recs = [(w["label"], e) for w in RECORD.get("weeks", []) for e in w.get("entries", []) if e.get("d") == d["slug"]][:5]
@@ -2618,7 +2624,7 @@ def desk_page(d):
     <p class="d-tag">%s</p>
     <p class="d-about">%s</p>
   </div>
-  <section class="d-glance" aria-labelledby="dg-h"><h2 class="lbl" id="dg-h">At a glance</h2><table>%s</table></section>
+  %s
 </header>
 <section class="d-sec d-latest" aria-labelledby="dl-h"><h2 id="dl-h">Latest</h2>%s<ul class="d-list">%s</ul></section>
 <section class="d-sec d-brief"><h2>What&rsquo;s moving now</h2><div class="d-grid3">%s</div></section>
@@ -2628,7 +2634,9 @@ def desk_page(d):
 </main>
 %s
 %s""" % (head("%s — Carat Capital" % d["title"], metadesc(d["dek"]), "%s.html" % d["slug"], body_cls="rd"),
-         navbar(d["slug"]), omenu(), d["title"], _rd_cap1(d["tag"]), d["dek"], stats, lead_html, rest, briefs, vocab, recsec,
+         navbar(d["slug"]), omenu(), d["title"], _rd_cap1(d["tag"]), d["dek"],
+         ('<section class="d-glance" aria-labelledby="dg-h"><h2 class="lbl" id="dg-h">At a glance</h2>'
+          '<table>%s</table></section>' % stats) if stats else "", lead_html, rest, briefs, vocab, recsec,
          _RD_SIGNUP.replace('class="signup"', 'class="signup d-signup"'), colophon(), SCRIPT)
 
 def spark(pts, color):

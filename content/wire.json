@@ -1,39 +1,39 @@
 {
- "date_line": "Tuesday, September 29, 2026 | Vol. I - No. 075",
- "edition": "Vol. I - No. 075",
+ "date_line": "Wednesday, September 30, 2026 | Vol. I - No. 076",
+ "edition": "Vol. I - No. 076",
  "items": [
   {
-   "b": "GOLD'S LONDON FIX FALLS $116.50 TO $4,144.55, LOWEST SINCE 4 AUGUST",
-   "t": "Silver's fix fell 5.67% to $61.33, platinum's 2.09% to $1,731.85 and palladium's 2.98% to $1,219.25. Spot gold read $4,144.10 at press time, $0.45 under Monday's fix and $30 higher on the session."
+   "b": "FOUR ROLEX DAYTONAS MAKE £37.3M AT PHILLIPS IN LONDON",
+   "t": "The one-off Cosmograph Daytonas sold individually on 28 September for the Federer Foundation and Re:wild. The four sterling prices add to the reported total exactly; the four dollar conversions add to $49.37m against a reported $49.5m."
   },
   {
-   "b": "GEMFIELDS RESTATES 2025'S WRITEDOWN TO $65.0M FROM $35.0M",
-   "t": "A $30.0m adjustment, cause not given. The miner expects a $73.5m net loss for the half to 30 June after a $125.2m Montepuez impairment, against $20.5m a year earlier, while headline earnings per share turned positive at USDc 0.6."
+   "b": "23.34-CARAT YELLOW DIAMOND TOPS PHILLIPS HONG KONG AT HKD 4.3M",
+   "t": "The fancy-intense-yellow VVS1 ring sold in line with its high estimate on 29 September, taking 11.6% of a sale that made HKD 37.2m from 91 lots. Two of the top five sold under their low estimate."
   },
   {
-   "b": "POLY AUCTION PUTS A HKD 25M HIGH ESTIMATE ON JADEITE",
-   "t": "A 39-bead Burmese jadeite and diamond necklace, about $3.2m, leads a catalogue of more than 240 jewels in Hong Kong on 6 October. Sotheby's Paris follows on 8 October with a 16.01-carat Van Cleef ring at EUR 400,000."
+   "b": "CHOW SANG SANG GOLD READS 1,245 YUAN, 11.6% OFF 25 AUGUST",
+   "t": "Three Chinese brand counters read 1,242 to 1,246 yuan a gram on 29 September, each down 163 to 165 yuan from the high Carat Capital recorded on 27 August. Spot gold has since risen to $4,191.60."
   }
  ],
- "tape_ts": "29 Sep 2026",
+ "tape_ts": "30 Sep 2026",
  "tape": [
   {
    "name": "Gold / oz",
    "code": "XAU",
-   "px": "4,144.10",
-   "chg": "−3.27% vs 25 Sep",
-   "dir": "down",
+   "px": "4,191.60",
+   "chg": "+1.15% vs 29 Sep",
+   "dir": "up",
    "pts": [
-    15,
     4,
-    4,
-    4,
+    6,
+    8,
     9,
+    15,
     11,
-    14,
+    12,
+    12,
     24,
-    17,
-    16
+    20
    ]
   },
   {
@@ -77,39 +77,39 @@
   {
    "name": "Platinum / oz",
    "code": "XPT",
-   "px": "1,688.00",
-   "chg": "−4.79% vs 25 Sep",
-   "dir": "down",
+   "px": "1,712.00",
+   "chg": "+1.42% vs 29 Sep",
+   "dir": "up",
    "pts": [
-    16,
     4,
-    7,
-    7,
-    8,
-    10,
+    4,
+    5,
+    6,
+    14,
     11,
+    8,
+    8,
     24,
-    19,
     20
    ]
   },
   {
    "name": "Silver / oz",
    "code": "XAG",
-   "px": "60.526",
-   "chg": "−5.68% vs 25 Sep",
-   "dir": "down",
+   "px": "60.918",
+   "chg": "+0.65% vs 29 Sep",
+   "dir": "up",
    "pts": [
-    23,
     4,
-    8,
-    8,
-    8,
-    12,
-    14,
+    4,
+    6,
+    7,
+    13,
+    10,
+    11,
+    11,
     24,
-    18,
-    17
+    23
    ]
   }
  ]

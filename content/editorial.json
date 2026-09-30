@@ -124784,7 +124784,7 @@
    "reverse": "Sustained premium recoveries at Montepuez. The impairment reflects a forecast of grade, not a sale, so a run of better premium rough would put the charge back under review and would make the positive headline figure the truer read of the half. The company says recent recoveries show early signs of improvement and that further evidence is required.",
    "built": {
     "title": "Why headline earnings and the reported loss disagree",
-    "text": "Headline earnings per share is a South African measure, required by the JSE, and it exists precisely for a case like this one. It strips out items that are not part of operating performance, and an impairment of a mining asset is the textbook example: it is a non-cash write-down of what the company thinks the ground will yield in future, booked today. So the two figures here are not in conflict and neither is the honest one on its own. The reported loss of $73.5m says the company has revalued Montepuez downward by a large amount. The headline figure of USDc 0.6 says that, setting that revaluation aside, the half broke into profit on a per-share basis for the first time in a year. A reader who wants to know whether the mines traded better looks at the headline figure and the revenue line. A reader who wants to know what the asset is now carried at looks at the loss. The restatement matters to both, because it moves the base the 2026 charge is measured from."
+    "text": "Headline earnings per share is a South African measure, required by the JSE, and it exists precisely for a case like this one. It strips out items that are not part of operating performance, and an impairment of a mining asset is the textbook example: it is a non-cash write-down of what the company thinks the ground will yield in future, booked today. So the two figures here are not in conflict and neither is the honest one on its own. The reported loss of $73.5m says the company has revalued Montepuez downward by a large amount. The headline figure of USDc 0.6 says that, setting that revaluation aside, the half turned a per-share profit on that basis, against a headline loss of 1.5 cents a share a year earlier. A reader who wants to know whether the mines traded better looks at the headline figure and the revenue line. A reader who wants to know what the asset is now carried at looks at the loss. The restatement matters to both, because it moves the base the 2026 charge is measured from."
    },
    "method": "The primary document is Gemfields Group Limited's trading statement for the six months ended 30 June 2026, published on RNS and SENS at 07:00 UK on 25 September 2026 and read here through Investegate's announcement page, fetched with a browser user agent, 200, 69,190 bytes. The announcement's own text was read rather than the AI summary the page places above it, and every printed digit string was grepped in the saved file first: '73.5' 2 hits, '125.2' 2, '102.8' 2, '76.1' 1, '26.7' 1, '20.5' 2, '65.0' 1, '35.0' 1, '30.0' 1, '4.3' 2, '0.6' 3 and '1,724,230,526' 1. The figure '102.9' returns zero hits in that file, which is how the difference from the 30 July operational update was established rather than assumed. The announcement list for GEM was read first to identify the document, and it dates the trading statement 25 September 2026 and shows the next scheduled release as interim results; the statement itself names those results for 30 September 2026, which is the date printed here. Every percentage in the table is this desk's own division and is shown in the table note. The restatement of the FY2025 impairment from $35.0m to $65.0m is quoted from the announcement's own sentence, which attributes it to the identification of a $30.0m adjustment and defers the explanation to the interim financial statements; no cause is printed here because the document gives none. The archive was checked by reading each prior Gemfields article rather than counting hits. The closest is 31 July 2026, which covers the same company and the same window, the first half of 2026, and printed auction revenue of $102.9m from the 30 July operational update. That document carried no loss figure, no impairment and no earnings per share. The verdict is therefore advanced rather than repeat, and what advanced is named: revenue previously, the loss, the impairment, the restatement and the per-share figures now. The auction revenue line is not the news here for that reason, and the headline is not built on it.",
    "prior": [
@@ -124825,6 +124825,9 @@
      "url": "https://rapaport.com/news/gemfields-to-post-73-5m-loss-following-ruby-asset-downgrade/",
      "published": "2026-09-27"
     }
+   ],
+   "corrections": [
+    "Corrected 30 September 2026: this article's depth section first said the +0.6-cent headline figure meant \"the half broke into profit on a per-share basis for the first time in a year\". None of the three sources cited here gives Gemfields' headline earnings per share for the second half of 2025, so the paper could not stand behind \"for the first time in a year\" and has removed it. The sentence now says only what the trading statement itself supports: headline earnings of 0.6 US cents a share for the first half of 2026, against a headline loss of 1.5 cents a share for the first half of 2025. Every figure in the article was correct as published and none has changed; the superlative around them was uncited and is gone. The gap was found by this paper's standards desk on 29 September 2026."
    ]
   },
   "next": {
@@ -125409,6 +125412,1008 @@
   "next": {
    "slug": "bnpl-inside-the-perimeter",
    "why": "The other way a jeweller reaches a buyer who will not clear a high ticket in one go."
+  },
+  "corrections": []
+ },
+ "four-daytonas-thirty-seven-three": {
+  "v": 3,
+  "kicker": "Charity sale",
+  "seo_title": "Four one-off Rolex Cosmograph Daytonas sold for a combined 37.3 million pounds at Phillips in London on 28 September 2026",
+  "figures": {
+   "asof": "Phillips, The Four Seasons, London, 28 September 2026 · reported by JCK 29 September · page read direct, 107,832 bytes",
+   "cells": [
+    {
+     "n": "£37.3m",
+     "label": "Four Daytonas, combined",
+     "q": "$49.5m at the reported rate",
+     "src": 0
+    },
+    {
+     "n": "£10.3m",
+     "label": "Summer, Everose gold — top lot",
+     "src": 0
+    },
+    {
+     "n": "£6.8m",
+     "label": "Spring, lowest of the four",
+     "src": 0
+    },
+    {
+     "n": "10.1×",
+     "label": "Result against the private price",
+     "q": "$49.5m over about $4.9m, Carat Capital's division"
+    }
+   ]
+  },
+  "changed": {
+   "lead": "The private route closed.",
+   "text": "Rolex sent four one-off Daytonas to a public room instead of one buyer. They made £37.3m on 28 September, against about $4.9m as a private sale."
+  },
+  "means": [
+   {
+    "who": "If you value one-off watches:",
+    "text": "A public result exists where none did. £37.3m is a ceiling, not a clearing price."
+   },
+   {
+    "who": "If you consign to charity:",
+    "text": "Phillips calls it the largest single charity consignment ever sold. The claim is the house's."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A comparable. Charity bidders buy a cause as well as a watch."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "The Four Seasons, lot by lot",
+   "asof": "Phillips, London, 28 September 2026",
+   "cols": [
+    "Lot",
+    "Sterling",
+    "Dollars",
+    "Implied $/£"
+   ],
+   "rows": [
+    [
+     "Summer, Everose gold",
+     "£10.3m",
+     "$13.65m",
+     "1.3252"
+    ],
+    [
+     "Autumn",
+     "£10.2m",
+     "$13.52m",
+     "1.3255"
+    ],
+    [
+     "Winter",
+     "£10.0m",
+     "$13.2m",
+     "1.3200"
+    ],
+    [
+     "Spring",
+     "£6.8m",
+     "$9.0m",
+     "1.3235"
+    ],
+    [
+     "Sum of the four",
+     "£37.3m",
+     "$49.37m",
+     "1.3236"
+    ],
+    [
+     "Total as reported",
+     "£37.3m",
+     "$49.5m",
+     "1.3271"
+    ]
+   ],
+   "hi": 1,
+   "note": "Sterling and dollar figures are JCK's, on Phillips' account. The implied-rate column and the sum row are Carat Capital's arithmetic. The sterling column adds to the reported total exactly; the dollar column is $0.13m short of it, because the four lot conversions run at 1.3200 to 1.3255 and the headline total at 1.3271.",
+   "plate": "CC/2026/076"
+  },
+  "sections": [
+   {
+    "h": "The sterling column is the price",
+    "p": [
+     {
+      "lead": "Four lots, sold separately.",
+      "text": "Phillips offered the Daytonas one at a time, not as a set. Summer took £10.3m and Spring £6.8m; the four sterling prices add to £37.3m exactly."
+     },
+     {
+      "lead": "The dollars do not.",
+      "text": "The four dollar conversions add to $49.37m against a reported $49.5m. Each lot converted at a lower rate than the headline total implies."
+     },
+     {
+      "lead": "Sterling is the mark.",
+      "text": "The sale was struck in London in pounds. A dollar figure from it carries whichever rate the reporter used."
+     }
+    ]
+   },
+   {
+    "h": "Ten times the private price",
+    "p": [
+     {
+      "lead": "The set changed route.",
+      "text": "Carat Capital reported on 5 September that the four were conceived as a private sale to one buyer. The price then was about 4 million Swiss francs, or about $4.9m.",
+      "links": {
+       "reported on 5 September": "a-four-one-offs-to-phillips.html"
+      }
+     },
+     {
+      "lead": "The multiple is ten.",
+      "text": "$49.5m against about $4.9m is about 10.1 times, on Carat Capital's division of two figures the same outlet supplied."
+     }
+    ]
+   },
+   {
+    "h": "What the house claims",
+    "p": [
+     {
+      "lead": "The superlative is Phillips'.",
+      "text": "JCK reports, on Phillips' account, that the total is the largest single consignment ever sold at a charity auction. No series of charity sales was checked here."
+     },
+     {
+      "lead": "One total is contested.",
+      "text": "JCK gives $49.5m in its own copy and cites Hodinkee at $49.4m in the same article. The sterling figure appears once."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "7–8 November",
+    "what": "Phillips' Geneva Watch Auction XXIV, where a 1945 Patek split-seconds carries a CHF 4m estimate."
+   },
+   {
+    "when": "The next one-off Rolex",
+    "what": "Whether a valuer cites £37.3m or a per-watch figure as the comparable."
+   },
+   {
+    "when": "Any Phillips release",
+    "what": "An itemised lot list, which would settle the dollar total."
+   }
+  ],
+  "depth": {
+   "reverse": "A published lot list from Phillips. The house's own results page for this sale could not be reached from this desk (a direct fetch returned 404), so every figure here is JCK's report of the house's account. A release giving four sterling prices and one dollar total would settle which conversion rate is the official one, and could move the dollar figure in either direction. An itemised list would also show whether all four sold or whether any carried a guarantee.",
+   "built": {
+    "title": "Why a charity result is not a comparable",
+    "text": "Ordinary auction price discovery works because the bidder wants the object and nothing else, so the hammer measures what the object is worth to the most motivated buyer in the room. A charity sale breaks that. The bidder is buying the object, a donation, and the visibility of having made it, and only one of those three is a watch. When the beneficiaries are named charities founded by two of the consigning brand's own ambassadors, the third component is larger still, because the room contains people whose relationship with the brand is worth more than the lot. That is why a house can report a result like this one honestly and a valuer still cannot use it: the number is real, it was paid, and it prices something the next seller will not be offering. The useful reading is the one Carat Capital set out before the sale: treat it as a ceiling, note the setting, and keep the private figure as the commercial mark, because that was the only number here that somebody had to justify to a buyer who wanted the watches and not the applause."
+   },
+   "method": "The item was read from JCK's report, fetched direct with a browser user agent, 200, 107,832 bytes to a saved file, with all prose taken from those raw bytes. Grepped in that saved file before anything was written: '49.5' returns 5 hits and '37.3' returns 2. The four lot prices, the Everose attribution on the Summer watch, the beneficiaries, the Bacs attribution, the Hodinkee $49.4m citation and JCK's own AI-drafting disclosure are all in the same body text. Phillips' own results page was attempted at phillips.com and returned 404, so the primary was not reached and the figures are cited at one remove; that limit is disclosed here rather than smoothed over. The implied-rate column, the $49.37m sum and the 10.1 multiple are Carat Capital's arithmetic on JCK's figures and are labelled as such wherever they appear. The $4.9m private figure and the 4 million Swiss francs beside it are JCK's, carried in this paper's own 5 September preview and quoted from it here rather than refetched. The archive was checked by reading every hit rather than counting: 'Daytona' returns five articles, all opened. One, 5 September 2026, covers the same four watches and the same sale as a pre-sale preview and states in terms that there was no published estimate; the period it covers is anticipation and the period covered here is the result, so the verdict is advanced, not a repeat. 'Federer' returns that same article and no other.",
+   "prior": [
+    {
+     "date": "2026-09-05",
+     "slug": "four-one-offs-to-phillips",
+     "claim": "Rolex sent four one-off Daytonas to Phillips for 28 September"
+    },
+    {
+     "date": "2026-09-18",
+     "slug": "four-million-francs-in-geneva",
+     "claim": "A 1945 Patek split-seconds carries a CHF 4m estimate at Phillips"
+    },
+    {
+     "date": "2026-08-19",
+     "slug": "the-only-verified-price",
+     "claim": "A Drake-owned GMT-Master II at $500,000 was the only verified price"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Rolex Charity Auction Raises Nearly $50M, JCK",
+     "url": "https://www.jckonline.com/editorial-article/rolex-auction-raise-nearly-50m/",
+     "published": "2026-09-29"
+    }
+   ]
+  },
+  "next": {
+   "slug": "twenty-three-thirty-four-tops-hong-kong",
+   "why": "The other auction result filed this morning, and what estimates did in a Hong Kong jewels room."
+  },
+  "corrections": []
+ },
+ "twenty-three-thirty-four-tops-hong-kong": {
+  "v": 3,
+  "kicker": "Sale result",
+  "seo_title": "A 23.34-carat fancy-intense-yellow diamond ring took HKD 4.3 million at the Phillips Hong Kong Jewels sale on 29 September 2026",
+  "figures": {
+   "asof": "Phillips Hong Kong Jewels, 29 September 2026 · Rapaport News 30 September · page read direct, 467,998 bytes",
+   "cells": [
+    {
+     "n": "HKD 4.3m",
+     "label": "Top lot, 23.34ct fancy yellow",
+     "q": "$550,810 at the outlet's rate",
+     "src": 0
+    },
+    {
+     "n": "HKD 37.2m",
+     "label": "Whole sale, 91 lots",
+     "q": "$4.7m",
+     "src": 0
+    },
+    {
+     "n": "11.6%",
+     "label": "Top lot's share of the sale",
+     "q": "4.3 over 37.2, Carat Capital's division"
+    },
+    {
+     "n": "2 of 5",
+     "label": "Top-five lots under their low estimate"
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Yellow led, not sapphire.",
+   "text": "A 23.34-carat fancy-intense-yellow diamond ring took HKD 4.3m at Phillips in Hong Kong. The sale made HKD 37.2m, or $4.7m, from 91 lots."
+  },
+  "means": [
+   {
+    "who": "If you trade coloured diamonds:",
+    "text": "A VVS1 fancy-intense-yellow of this size met its high estimate. No other top-five lot did."
+   },
+   {
+    "who": "If you consign to Hong Kong:",
+    "text": "2 of the top 5 lots sold under their low estimate, both coloured."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A sell-through rate. Rapaport gives 91 lots against the 95 catalogued."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "The top five, against estimate",
+   "asof": "Phillips Hong Kong Jewels, 29 September 2026",
+   "cols": [
+    "Lot",
+    "Sold",
+    "Estimate",
+    "Against estimate"
+   ],
+   "rows": [
+    [
+     "23.34ct fancy-intense-yellow diamond ring",
+     "HKD 4.3m",
+     "not published",
+     "in line with the high, per Rapaport"
+    ],
+    [
+     "Harry Winston ruby ear clips, 18.26ct",
+     "HKD 2.1m",
+     "HKD 1.3m–1.9m",
+     "10.5% above the high"
+    ],
+    [
+     "Fancy-brown-yellow diamond earrings",
+     "HKD 2.0m",
+     "HKD 2.2m–3.0m",
+     "9.1% below the low"
+    ],
+    [
+     "Mozambican ruby ring, 6.06ct",
+     "HKD 1.7m",
+     "HKD 1.8m–2.8m",
+     "5.6% below the low"
+    ],
+    [
+     "15.05ct fancy-intense-yellow heart",
+     "HKD 1.6m",
+     "HKD 0.95m–1.6m",
+     "at the high"
+    ]
+   ],
+   "hi": 1,
+   "note": "Sale prices and estimates are Rapaport's, rounded by the outlet to a tenth of a million, and the divisions inherit that rounding. The last column is Carat Capital's arithmetic: 2.1 over 1.9 is 110.5% of the high, so 10.5% above it; 2.0 over 2.2 is 90.9% of the low, so 9.1% below it; 1.7 over 1.8 is 94.4% of the low, so 5.6% below it.",
+   "plate": "CC/2026/076"
+  },
+  "sections": [
+   {
+    "h": "The top lot met its high",
+    "p": [
+     {
+      "lead": "One diamond led.",
+      "text": "A cut-cornered rectangular mixed-cut, fancy-intense-yellow, VVS1 diamond ring took HKD 4.3m on 29 September. Rapaport reports it sold in line with its high estimate, citing Phillips' website; the estimate itself is not printed."
+     },
+     {
+      "lead": "Eleven percent of everything.",
+      "text": "The lot is 11.6% of the sale's HKD 37.2m total, on Carat Capital's division. The other 90 lots averaged about HKD 0.37m each."
+     }
+    ]
+   },
+   {
+    "h": "Two of five missed their low",
+    "p": [
+     {
+      "lead": "Estimates cut both ways.",
+      "text": "Of the four top-five lots carrying a published range, one cleared its high and one matched it. The other two sold under their low estimate."
+     },
+     {
+      "lead": "The misses were coloured.",
+      "text": "A pair of fancy-brown-yellow diamond earrings sold 9.1% below their low estimate. A ring centred on a 6.06-carat Mozambican ruby came in 5.6% under its own low."
+     }
+    ]
+   },
+   {
+    "h": "The catalogue's leader is absent",
+    "p": [
+     {
+      "lead": "A sapphire is missing.",
+      "text": "Carat Capital reported on 11 September that a Bulgari ring with a 9.86-carat Kashmir sapphire led this catalogue at a HKD 9.5m high estimate. It is not in the top five.",
+      "links": {
+       "reported on 11 September": "a-bulgari-sapphire-nine-five-million.html"
+      }
+     },
+     {
+      "lead": "No result is claimed.",
+      "text": "The fifth-placed lot made HKD 1.6m, so anything outside the top five sold at or below that, or did not sell. Neither Phillips nor Rapaport says which."
+     },
+     {
+      "lead": "Ninety-five became ninety-one.",
+      "text": "The catalogue counted here on 11 September held 95 lots; Rapaport gives the total from 91. Whether four were withdrawn or unsold is not on the record."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "6 October",
+    "what": "Poly Auction Hong Kong, where a jadeite necklace carries a HKD 25m high estimate."
+   },
+   {
+    "when": "After the sale",
+    "what": "Phillips' itemised results, which would give the top lot's estimate."
+   },
+   {
+    "when": "The next Hong Kong book",
+    "what": "Whether Kashmir sapphire keeps leading catalogues on estimate."
+   }
+  ],
+  "depth": {
+   "reverse": "Phillips' own itemised results. Rapaport is the only outlet found carrying this sale, and its top-five list is a selection, not a full lot register. A published register could show the Bulgari sapphire selling outside the top five, being withdrawn, or passing, and each of those says a different thing about Kashmir demand. It would also give the 23.34-carat ring's estimate, which would turn 'in line with the high' into a number.",
+   "built": {
+    "title": "Why an estimate range is the reading, not the headline",
+    "text": "A house sets a low estimate to open bidding where it believes the lot will find a buyer, and a high estimate to mark where it believes interest stops. The gap between them is the house's own statement of how confident it is, and it is the only part of a catalogue that can be tested afterwards. A lot that clears its high tells you the room disagreed with the house in one direction; a lot that fails its low tells you the room disagreed in the other. That is why a top-five list read against its own estimates carries more information than a sale total: the total mixes the house's judgement with the size of the consignment, while the residual against estimate isolates the judgement. In this room the judgement was good at the top and poor in the middle. The 23.34-carat yellow was priced to the point where bidding stopped almost exactly. The two coloured lots beneath it were priced above where bidding stopped, by 9.1% and 5.6% of their own lows, and those two misses are the part of this sale a consignor should read before the headline."
+   },
+   "method": "The item was read from Rapaport News, fetched direct with a browser user agent, 200, 467,998 bytes to a saved file, with all prose taken from those raw bytes. Grepped in that saved file before anything was written: '23.34' returns 10 hits, '550,810' returns 4, '37.2' returns 1. The five lot descriptions, their sale prices, their estimate ranges, the VVS1 and fancy-intense-yellow grading, the 91-lot total and the Van Cleef, Cartier and Graff names are all in the same body text. Rapaport attributes the 'in line with its high estimate' reading to Phillips' website; that page was not separately reached here, so the estimate is cited at one remove and no figure is given for it. Rapaport's headline calls the stone fancy-yellow and its body calls it fancy-intense-yellow; the body grading is used and the difference is stated here rather than resolved. Every percentage in the table is Carat Capital's division on Rapaport's own rounded figures, printed with its arithmetic beside it. The 95-lot catalogue count and the HKD 9.5m Bulgari estimate come from this paper's own 11 September preview of the same sale. The archive was checked by reading every hit rather than counting: 'Phillips Hong Kong' returns one article, opened, which is that pre-sale preview and covers the catalogue, not the result, so the verdict is advanced, not a repeat. '23.34', 'HKD 4.3' and '550,810' each return nothing.",
+   "prior": [
+    {
+     "date": "2026-09-11",
+     "slug": "bulgari-sapphire-nine-five-million",
+     "claim": "A Bulgari Kashmir sapphire led this catalogue at a HKD 9.5m high estimate"
+    },
+    {
+     "date": "2026-09-24",
+     "slug": "fifty-eight-point-eight-in-hong-kong",
+     "claim": "Sotheby's Hong Kong offered 294 lots and 48 were confirmed sold"
+    },
+    {
+     "date": "2026-09-29",
+     "slug": "twenty-five-million-for-thirty-nine-beads",
+     "claim": "Poly Auction put a HKD 25m high estimate on a jadeite necklace"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Fancy-Yellow Diamond Takes Top Spot at Phillips Sale, Rapaport News",
+     "url": "https://rapaport.com/news/fancy-yellow-diamond-takes-top-spot-at-phillips-sale/",
+     "published": "2026-09-30"
+    }
+   ]
+  },
+  "next": {
+   "slug": "point-four-three-on-the-one-carat",
+   "why": "What the benchmark polished index did over the same month these stones were catalogued in."
+  },
+  "corrections": []
+ },
+ "twelve-forty-five-off-the-august-high": {
+  "v": 3,
+  "kicker": "China retail",
+  "seo_title": "Chinese brand gold counters read 1,242 to 1,246 yuan a gram on 29 September 2026, down 163 to 165 yuan from their 25 August high",
+  "figures": {
+   "asof": "Sina Finance carrying National Business Daily, 29 September 2026 13:56 CST · page read direct, 32,648 bytes · spot from the Carat Capital tape, 30 September 04:58 UTC",
+   "cells": [
+    {
+     "n": "1,245",
+     "label": "Chow Sang Sang, yuan a gram",
+     "q": "29 September, down 27 in a session",
+     "src": 0
+    },
+    {
+     "n": "−163",
+     "label": "Yuan off the 25 August high",
+     "dir": "down",
+     "q": "1,408 to 1,245, a fall of 11.6%",
+     "src": 0
+    },
+    {
+     "n": "1,242",
+     "label": "Lao Miao, lowest of the three",
+     "src": 0
+    },
+    {
+     "n": "$4,191.60",
+     "label": "Spot gold, the morning tape",
+     "dir": "up",
+     "q": "Kitco bid, 04:58 UTC"
+    }
+   ]
+  },
+  "changed": {
+   "lead": "The counters gave back the summer.",
+   "text": "Three Chinese brand gold counters read 1,242 to 1,246 yuan a gram on 29 September. Each is down 163 to 165 yuan from its 25 August high."
+  },
+  "means": [
+   {
+    "who": "If you buy gold jewellery in China:",
+    "text": "The counter sits more than 11% below its August peak, a week before the holiday."
+   },
+   {
+    "who": "If you price against a counter:",
+    "text": "These are retail boards carrying workmanship and margin, not spot."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A current price. Spot has since risen; no 30 September board was reached."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Three counters, 25 August to 29 September",
+   "asof": "Yuan a gram, pure-gold (足金) finished jewellery",
+   "cols": [
+    "Counter",
+    "25 August",
+    "29 September",
+    "Fall",
+    "Below the high"
+   ],
+   "rows": [
+    [
+     "Chow Sang Sang",
+     "1,408",
+     "1,245",
+     "−163",
+     "11.6%"
+    ],
+    [
+     "Chow Tai Fook",
+     "1,410",
+     "1,246",
+     "−164",
+     "11.6%"
+    ],
+    [
+     "Lao Miao",
+     "1,407",
+     "1,242",
+     "−165",
+     "11.7%"
+    ]
+   ],
+   "hi": 2,
+   "note": "Levels and falls are the source's. The last column is Carat Capital's division: 163 over 1,408 is 11.6%, so 1,245 is 88.4% of the high and 11.6% below it; 164 over 1,410 is 11.6%; 165 over 1,407 is 11.7%. The source states only that all three exceed 11%. The 25 August levels match, to the yuan, the board Carat Capital published on 27 August from a separate reading.",
+   "plate": "CC/2026/076"
+  },
+  "sections": [
+   {
+    "h": "One session, then one month",
+    "p": [
+     {
+      "lead": "Twenty-seven yuan overnight.",
+      "text": "Chow Sang Sang's pure-gold counter read 1,245 yuan a gram on 29 September, down 27 yuan on the session. Lao Miao read 1,242, down 33."
+     },
+     {
+      "lead": "The month is larger.",
+      "text": "Against the near-three-month high of 25 August, the three counters are down 163 to 165 yuan. That is 11.6% to 11.7% below the high, on Carat Capital's division."
+     },
+     {
+      "lead": "Two readings agree.",
+      "text": "Carat Capital published the 25 August board on 27 August: 1,408, 1,410 and 1,407 for the same three brands. The source's base figures match all three to the yuan.",
+      "links": {
+       "published the 25 August board": "a-ten-counters-seven-yuan.html"
+      }
+     }
+    ]
+   },
+   {
+    "h": "Retail buyers came in",
+    "p": [
+     {
+      "lead": "Footfall rose, not fell.",
+      "text": "Merchants in Shenzhen's Shuibei market told Jiemian News that traffic picked up and restocking ran faster than in August. One trader put sales up 20% to 30% on the month."
+     },
+     {
+      "lead": "The holiday explains some.",
+      "text": "The report ties the pickup to the lower price and to weddings clustered around the 1 October holiday."
+     }
+    ]
+   },
+   {
+    "h": "Spot has already turned",
+    "p": [
+     {
+      "lead": "The metal moved back.",
+      "text": "Sina put spot gold at $4,136.73 an ounce at publication on 29 September. The tape read $4,191.60 at 04:58 UTC on 30 September, $54.87 higher."
+     },
+     {
+      "lead": "Counters lag the metal.",
+      "text": "Brand boards price finished jewellery and carry workmanship and margin above the metal. A move in spot reaches them on the brand's own schedule."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "1–8 October",
+    "what": "China's National Day holiday, the strongest retail week of the autumn for gold counters."
+   },
+   {
+    "when": "The next counter board",
+    "what": "Whether the three brands follow spot back up or hold the lower level."
+   },
+   {
+    "when": "Each morning",
+    "what": "The price tape, which carries one spot mark a session."
+   }
+  ],
+  "depth": {
+   "reverse": "A second independent reading of the 29 September board. One outlet carries it, and its two named levels were checked against the internal arithmetic the piece itself supplies, not against a rival source. The 25 August base is independently confirmed by this paper's own reading of a month ago, which is the stronger leg of the check; the 29 September session has one leg only. A rival board showing different closes for either brand would move the percentage column.",
+   "built": {
+    "title": "What a Chinese counter board actually prices",
+    "text": "A Western reader meeting these numbers usually asks why a gram of gold costs 1,245 yuan when the metal, converted, costs a good deal less. The answer is that a brand counter board is not a metal quotation at all. It is the shelf price of finished pure-gold jewellery, which is to say the metal plus a per-gram workmanship charge, plus the brand's margin, plus whatever the shop is carrying in inventory cost from the week it bought the bar. The workmanship charge is the part that varies most between brands and the part the board does not disclose, which is why a board can be read for direction and for the spread between brands but never decomposed into a metal price. The direction is still worth having. When ten brands price within seven yuan of each other, as they did in late August, nobody believes they have room to hold a level the metal has left, and the board becomes a fast and public reading of what Chinese consumers are actually being asked to pay. That is also why the board lags: a brand that reprices every morning is telling you about the metal, and a brand that reprices when its inventory turns is telling you about its own book."
+   },
+   "method": "The item was read from Sina Finance, carrying National Business Daily, fetched direct with a browser user agent, 200, 32,648 bytes to a saved file, with all prose taken from those raw bytes. Grepped in that saved file before anything was written: '1245' returns 7 hits. The source's own sentence gives Chow Sang Sang at 1,245 yuan a gram, down 27 overnight, and Lao Miao at 1,242, down 33; a second sentence gives the 25 August high for all three brands as 1,408, 1,410 and 1,407, the cumulative falls as 163, 164 and 165, and states that all three exceed 11%. The percentage column here is Carat Capital's own division of those figures and matches the source's claim. The 25 August levels were independently confirmed against this paper's own 27 August reading of the same three brands, which gives the identical three figures; that cross-check is the reason the base is treated as firm and the single-session figure is not. The Shenzhen merchant material reaches this desk at two removes, Sina citing Jiemian News citing unnamed traders, and is therefore paraphrased with that chain stated rather than quoted. The spot figure is not re-read here: under the One-Price Rule the tape's 05:00 mark stands when a metals story does not lead, and 4,191.60 is the figure newsroom/tape/2026-09-30.json and latest.json both carry, sourced to Kitco's bid at 04:58:57 UTC and confirmed against CNBC within rounding by the prices desk. The archive was checked by reading every hit rather than counting: 'Chow Sang Sang' returns eleven articles, all opened; the nearest are 27 August (the 25 August board), 23 August (a Shanghai three-counter piece) and 9 August (exchange against counter). Each covers a different session at different levels, so the verdict is new by period, not by digits.",
+   "prior": [
+    {
+     "date": "2026-08-27",
+     "slug": "ten-counters-seven-yuan",
+     "claim": "Ten Chinese counters priced within seven yuan on 25 August"
+    },
+    {
+     "date": "2026-08-23",
+     "slug": "nine-ninety-nine-forty-six",
+     "claim": "Three Shanghai counters priced the same night three different ways"
+    },
+    {
+     "date": "2026-09-29",
+     "slug": "one-sixteen-fifty-off-the-fix",
+     "claim": "London's gold fix fell $116.50 to $4,144.55"
+    }
+   ],
+   "sources": [
+    {
+     "title": "一夜大跌33元！金饰克价较1个月前已跌超160元 (Gold jewellery down 33 yuan overnight), Sina Finance / National Business Daily",
+     "url": "https://finance.sina.cn/2026-09-29/detail-initnmwm2907363.d.html",
+     "published": "2026-09-29"
+    },
+    {
+     "title": "Carat Capital price tape, 30 September 2026",
+     "url": "https://caratcapital.org/the-wire.html",
+     "published": "2026-09-30"
+    }
+   ]
+  },
+  "next": {
+   "slug": "point-four-three-on-the-one-carat",
+   "why": "The other benchmark this paper marks every morning, and what it did over the same month."
+  },
+  "corrections": []
+ },
+ "point-four-three-on-the-one-carat": {
+  "v": 3,
+  "kicker": "Polished prices",
+  "seo_title": "Rapaport's RAPI one-carat index gained 0.43% between 30 August and 30 September 2026 while the 0.30-carat gained 3.30%",
+  "figures": {
+   "asof": "Rapaport Trade Price Index, daily series read 30 September 2026 · page read direct, 306,089 bytes",
+   "cells": [
+    {
+     "n": "+0.43%",
+     "dir": "up",
+     "label": "1-carat, 30 Aug to 30 Sep",
+     "q": "$3,899.09 to $3,915.85",
+     "src": 0
+    },
+    {
+     "n": "+3.30%",
+     "dir": "up",
+     "label": "0.30-carat, same window",
+     "q": "$932.81 to $963.60",
+     "src": 0
+    },
+    {
+     "n": "0.61%",
+     "label": "The 1-carat's whole range",
+     "q": "high over low, Carat Capital's arithmetic"
+    },
+    {
+     "n": "7.7×",
+     "label": "Small size's move against the benchmark",
+     "q": "3.30 over 0.43"
+    }
+   ]
+  },
+  "changed": {
+   "lead": "The benchmark barely moved.",
+   "text": "Rapaport's one-carat index gained 0.43% between 30 August and 30 September; its 0.30-carat gained 3.30%. The one-carat's whole month fits inside a 0.61% band."
+  },
+  "means": [
+   {
+    "who": "If you quote a polished benchmark:",
+    "text": "The 1-carat is the flattest of Rapaport's five sizes, not a proxy for the market."
+   },
+   {
+    "who": "If you buy under a carat:",
+    "text": "The cheap end has done the moving, at 3.3% against 0.43%."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A record low. The window is one month of daily points."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "RAPI by size, 30 August to 30 September",
+   "asof": "Rapaport Trade Price Index · 32 published daily points",
+   "cols": [
+    "Size",
+    "30 Aug",
+    "30 Sep",
+    "Change",
+    "High–low band"
+   ],
+   "rows": [
+    [
+     "0.30-carat",
+     "$932.81",
+     "$963.60",
+     "+3.30%",
+     "4.46%"
+    ],
+    [
+     "0.50-carat",
+     "$1,283.15",
+     "$1,316.38",
+     "+2.59%",
+     "2.93%"
+    ],
+    [
+     "1.00-carat",
+     "$3,899.09",
+     "$3,915.85",
+     "+0.43%",
+     "0.61%"
+    ],
+    [
+     "2.00-carat",
+     "$10,595.54",
+     "$10,665.47",
+     "+0.66%",
+     "1.02%"
+    ],
+    [
+     "3.00-carat",
+     "$17,832.10",
+     "$18,076.40",
+     "+1.37%",
+     "2.13%"
+    ]
+   ],
+   "hi": 3,
+   "note": "Levels are Rapaport's own daily series, 32 published points. The change column was recomputed here from first and last point and matches Rapaport's own published change for all five sizes to two decimals. The band column is Carat Capital's arithmetic: the highest point in the window over the lowest, less one. The 1-carat's high was $3,920.92 on 25 September and its low $3,897.14 on 31 August.",
+   "plate": "CC/2026/076"
+  },
+  "sections": [
+   {
+    "h": "The benchmark moved least",
+    "p": [
+     {
+      "lead": "Five sizes, one laggard.",
+      "text": "The one-carat gained 0.43% across the window while the 0.30-carat gained 3.30%. That is 7.7 times the move, on Carat Capital's division."
+     },
+     {
+      "lead": "The band is narrow.",
+      "text": "The one-carat's highest daily point was $3,920.92 and its lowest $3,897.14. The whole month sits inside 0.61%, the tightest of the five."
+     }
+    ]
+   },
+   {
+    "h": "Small stones did the work",
+    "p": [
+     {
+      "lead": "Cheap sizes led.",
+      "text": "The two sizes under a carat gained 3.30% and 2.59%. None of the three at a carat or above gained more than 1.37%."
+     },
+     {
+      "lead": "The split repeats.",
+      "text": "Carat Capital reported the same pattern on 7 September, when the index first published daily. The 0.30 and 0.50-carat led that window too.",
+      "links": {
+       "reported the same pattern on 7 September": "a-the-index-turns-daily.html"
+      }
+     }
+    ]
+   },
+   {
+    "h": "What the index does not say",
+    "p": [
+     {
+      "lead": "One index, one market.",
+      "text": "Rapaport's page describes RAPI as “the global standard diamond price index” and gives no colour, clarity or cut specification beside the series."
+     },
+     {
+      "lead": "Lab-grown sits elsewhere.",
+      "text": "CaratRadar's one-carat lab-grown reference read $651 on 30 September, unchanged. That is 16.6% of the RAPI level, or 83.4% below it, on Carat Capital's division."
+     },
+     {
+      "lead": "The series restates.",
+      "text": "Carat Capital showed on 22 September that these published points move after publication, by 12 to 27 cents. The levels above are as the page read on 30 September.",
+      "links": {
+       "showed on 22 September": "a-rapi-restates-five-points.html"
+      }
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Early October",
+    "what": "Rapaport's September monthly RAPI, which restates the month on the older basis."
+   },
+   {
+    "when": "Each session",
+    "what": "Whether the one-carat leaves the 0.61% band it has held since 30 August."
+   },
+   {
+    "when": "The next CaratRadar read",
+    "what": "Whether the $651 lab-grown reference moves off a level held two filings."
+   }
+  ],
+  "depth": {
+   "reverse": "A longer series. One month of daily points cannot distinguish a market that has stopped falling from a pause inside a fall, and the band figure would look different on any other window. Rapaport's own monthly series, which runs back years, is the instrument that could settle it, and it is not published free on this page. A restatement of the September points, which this paper has already documented once, would also move every figure here by cents.",
+   "built": {
+    "title": "Why a band is a better reading than a change",
+    "text": "A first-to-last change is the weakest thing you can compute from a series, because it throws away every point in between and answers only what the two endpoints happened to be. Two indices that both finish a month up half a percent can have behaved entirely differently: one may have drifted quietly, the other swung two percent in each direction and landed back near where it started. For a trade that has to decide whether to hold inventory or move it, that difference is the whole question, and the change column does not carry it. The high-to-low band does. It states, in one figure, the widest the instrument got over the window, which is the nearest thing a published index gives to a volatility reading. Here the two measures agree, which is itself the finding: the one-carat's change is small and its band is small, so the flatness is real rather than an artefact of where the month happened to begin and end. The 0.30-carat's band, at 4.46%, is wider than its own 3.30% change, which says the small end both moved and wobbled. A reader who takes only the change column would conclude the two sizes behaved similarly in kind and differently in degree. They did not."
+   },
+   "method": "The series was read from Rapaport's diamond price index page, fetched direct with a browser user agent, 200, 306,089 bytes to a saved file. The five size blocks are carried in the page's own embedded data as dated point arrays and were parsed programmatically from those raw bytes rather than read off a chart or a summary; '3915.85' returns 2 hits in the saved file. Each block gives 32 dated points from 30 August to 30 September inclusive. The change column here was recomputed independently from each series' own first and last point and compared against the changePct field the page publishes beside it: 0.430 against 0.43, 3.301 against 3.3, 2.590 against 2.59, 0.660 against 0.66 and 1.370 against 1.37, so the page's own arithmetic and this desk's agree on all five. The band column is this desk's, computed as the maximum point over the minimum point less one, with the dates of both extremes recorded. The page's description of the index is quoted at six words and is the page's own claim about itself, not a verified one. The lab-grown comparison comes from CaratRadar, fetched separately this morning, 200, 116,862 bytes, whose own sentence gives a 1ct average of $651 as of 30 September 2026 alongside 1,163,879 active listings; '651' returns 3 hits in those bytes and '650' returns none. The 16.6% division is 651 over 3,915.85 and is this desk's. No figure here is carried forward from a prior filing. The archive was checked by reading every hit rather than counting: searching RAPI and RapNet returns 21 articles and the three nearest were opened in full. The 7 September piece covers 8 August to 6 September and the transition from monthly to daily publication; the 21 September piece covers the five sessions from 16 to 20 September; the 22 September piece covers the restatement of those same five points. This piece covers 30 August to 30 September across all five published sizes. Same instrument, different period and different scope, so the verdict is advanced, not a repeat.",
+   "prior": [
+    {
+     "date": "2026-09-07",
+     "slug": "the-index-turns-daily",
+     "claim": "RAPI began publishing a dated level for every day of a 30-day window"
+    },
+    {
+     "date": "2026-09-22",
+     "slug": "rapi-restates-five-points",
+     "claim": "All five daily points read a day earlier were restated"
+    },
+    {
+     "date": "2026-09-03",
+     "slug": "half-a-percent-after-fifteen-months",
+     "claim": "The one-carat rose 0.5% in August, its first rise in 15 months"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Rapaport Trade Price Index (RAPI), daily series by size",
+     "url": "https://rapaport.com/diamond-price-index/",
+     "published": "2026-09-30"
+    },
+    {
+     "title": "Lab Grown Diamond Prices, CaratRadar",
+     "url": "https://caratradar.com/diamond-prices/lab-grown-diamonds/",
+     "published": "2026-09-30"
+    }
+   ]
+  },
+  "next": {
+   "slug": "one-paisa-above-the-gold",
+   "why": "What a government buying 441,667 one-gram rings pays a jeweller above the metal."
+  },
+  "corrections": []
+ },
+ "one-paisa-above-the-gold": {
+  "v": 3,
+  "kicker": "State procurement",
+  "seo_title": "Joy Alukkas won Tamil Nadu's newborn gold-ring tender at one paisa a ring above the cost of the metal, on an order of 441,667 rings",
+  "figures": {
+   "asof": "PTI via Deccan Chronicle, 22 August 2026 (tender and work order) · The News Minute, 28 September 2026 (launch and budget) · pages read direct, 370,206 and 588,249 bytes",
+   "cells": [
+    {
+     "n": "Rs 0.01",
+     "label": "Joy Alukkas' price per ring",
+     "q": "above the cost of one gram of gold",
+     "src": 0
+    },
+    {
+     "n": "4,41,667",
+     "label": "Rings in the government order",
+     "q": "one gram, 22-carat",
+     "src": 0
+    },
+    {
+     "n": "1,28,499",
+     "label": "First-phase work order",
+     "q": "split 70:30 with Kalyan",
+     "src": 0
+    },
+    {
+     "n": "Rs 755.83cr",
+     "label": "Earmarked a year",
+     "q": "about Rs 17,100 a ring, Carat Capital's division",
+     "src": 1
+    }
+   ]
+  },
+  "changed": {
+   "lead": "A jeweller bid one paisa.",
+   "text": "Tamil Nadu is buying 441,667 one-gram gold rings a year for babies born in state hospitals. Joy Alukkas won the tender at Rs 0.01 a ring above the metal."
+  },
+  "means": [
+   {
+    "who": "If you supply a government order:",
+    "text": "Two large chains competed a handling charge down to a hundredth of a rupee."
+   },
+   {
+    "who": "If you model Indian gold demand:",
+    "text": "One state has added about 4.42 lakh grams of 22-carat gold a year."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A gold price. Rs 17,100 is a budget provision, not a purchase price."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "The Thaimaaman order, as published",
+   "asof": "Tender 14 July 2026 · scheme launched 28 September 2026",
+   "cols": [
+    "Item",
+    "Figure",
+    "Source"
+   ],
+   "rows": [
+    [
+     "Rings in the government order",
+     "4,41,667, one gram each",
+     "PTI, 22 Aug"
+    ],
+    [
+     "Bidders at the tender",
+     "11 companies",
+     "PTI, 22 Aug"
+    ],
+    [
+     "Joy Alukkas' price above the metal",
+     "Rs 0.01 a ring",
+     "PTI, 22 Aug"
+    ],
+    [
+     "First-phase work order",
+     "1,28,499 rings, 70:30",
+     "PTI, 22 Aug"
+    ],
+    [
+     "Annual provision",
+     "Rs 755.83 crore",
+     "The News Minute, 28 Sep"
+    ],
+    [
+     "Basis of the provision",
+     "about 4.42 lakh deliveries a year",
+     "The News Minute, 28 Sep"
+    ],
+    [
+     "Implied provision per ring",
+     "about Rs 17,100",
+     "Carat Capital's division"
+    ]
+   ],
+   "hi": 1,
+   "note": "The last row is Carat Capital's arithmetic: Rs 755.83 crore, or Rs 7,558,300,000, over 4.42 lakh deliveries is Rs 17,100 a ring. It is a budget provision covering metal, handling and administration, not a purchase price for gold. Joy Alukkas' Rs 0.01 is one paisa of that provision.",
+   "plate": "CC/2026/076"
+  },
+  "sections": [
+   {
+    "h": "Eleven bidders, one paisa",
+    "p": [
+     {
+      "lead": "The tender was priced.",
+      "text": "Eleven companies bid on 14 July through the state tenders portal. Joy Alukkas quoted Rs 0.01 a ring above the cost of one gram of gold, and was lowest."
+     },
+     {
+      "lead": "That paisa covers everything.",
+      "text": "The quote includes the processing fee, insurance, transportation and hallmarking, on the government's own account. The metal is bought separately."
+     }
+    ]
+   },
+   {
+    "h": "The order is the story",
+    "p": [
+     {
+      "lead": "Four hundred thousand rings.",
+      "text": "The government order covers 441,667 one-gram rings, written 4,41,667 in the release. The first work order is for 1,28,499, split 70:30 between Joy Alukkas and Kalyan Jewellers."
+     },
+     {
+      "lead": "The budget is metal.",
+      "text": "Rs 755.83 crore a year over about 4.42 lakh deliveries is about Rs 17,100 a ring, on Carat Capital's division. The supplier's charge above metal is one paisa of that."
+     }
+    ]
+   },
+   {
+    "h": "Who gets a ring",
+    "p": [
+     {
+      "lead": "Government deliveries only.",
+      "text": "Babies born in state hospitals and primary health centres from 22 June 2026 qualify, on conditions including the mother's residence. Private-hospital births do not."
+     },
+     {
+      "lead": "Half of all births.",
+      "text": "Tamil Nadu records around 7.8 lakh deliveries a year and government facilities take about 4.2 lakh, which the state puts at about 53%. The division gives 53.8%."
+     },
+     {
+      "lead": "Two seats excluded.",
+      "text": "The rollout skips Maduranthakam and Dharapuram for now, under the model code of conduct for by-elections. The scheme launched on 28 September in Madurai."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "The second work order",
+    "what": "Whether the 70:30 split and the one-paisa price hold beyond the first 1,28,499 rings."
+   },
+   {
+    "when": "Next quarterly results",
+    "what": "Whether Kalyan Jewellers discloses the contract's volume and margin separately."
+   },
+   {
+    "when": "Other states",
+    "what": "Whether a welfare gold order at one paisa above metal becomes a template."
+   }
+  ],
+  "depth": {
+   "reverse": "The tender document itself. Both figures for the losing and winning bids reach this desk through PTI's account of a government release, and the release was not located on a state portal from here. A published bid table would show what the other nine companies quoted and whether Kalyan matched Joy Alukkas' price or bid separately, which PTI's copy describes ambiguously. It would also state how the metal itself is priced and on what date, which is the larger number and the one nobody has published.",
+   "built": {
+    "title": "Why a making charge goes to zero",
+    "text": "An Indian jeweller's shelf price has two parts: the metal, quoted by weight against a daily reference, and the making charge, quoted as a percentage or a per-gram fee for turning a bar into an object. The making charge is where the retail margin lives, and on ordinary jewellery it runs from a few percent to well above twenty. On a state order it can go to nothing, and there are three reasons a large chain will let it. The first is volume certainty: four hundred thousand identical one-gram rings is a production run a factory can schedule around, with no design risk and no unsold inventory. The second is the metal itself. A supplier who holds the gold position between the order and the delivery is running a book, and on a contract this size the book is the business, not the fee. The third is what the contract buys outside the contract: a chain whose name is attached to a ring given to every newborn in a state of eighty million people is buying distribution to a generation of future customers at a price the marketing department could not otherwise reach. None of those three is a margin, which is why a bid of one paisa is not irrational and is also not charity."
+   },
+   "method": "Two sources were fetched direct with a browser user agent and read as raw bytes. The tender and work-order figures come from PTI's copy carried by Deccan Chronicle, 200, 370,206 bytes, dated 22 August 2026 in its own byline and not 29 September: the publication date was read off the page rather than assumed from when the item reached this desk. Grepped in that saved file before anything was written: '1,28,499' returns 10 hits and '70:30' returns 10. The same body text gives the 4,41,667-ring government order, the eleven bidders, the 14 July tender date, Joy Alukkas' Rs 0.01 quote and the 22 June eligibility date. The launch, the Rs 755.83 crore annual provision, the 4.42 lakh basis, the 7.8 lakh and 4.2 lakh delivery figures, the 22-carat specification and the two excluded constituencies come from The News Minute, 200, 588,249 bytes, published 2026-09-28T10:23:23Z by its own schema; '755.83' returns 3 hits, 'Rajaji' 7 and '22-carat' 10. PTI's sentence on which company submitted the lowest price is internally contradictory and no losing bid figure is printed here, because none could be grepped in either saved file. GJEPC's own press-release page was also fetched, 200, 196,638 bytes, and contains no hit for Thaimaaman, Kalyan, Joyalukkas, Tamil Nadu, 38,550 or 755.83, so it is not cited. A figure of 38,550 rings for Kalyan's share reached this desk upstream; it is 30% of 1,28,499 and appears in neither saved file, so it is not printed as a source's figure. The Rs 17,100 and 53.8% divisions are Carat Capital's and are labelled wherever they appear. The archive was checked by reading every hit rather than counting: Thaimaaman, Joyalukkas, Joy Alukkas and gold ring scheme each return nothing; Tamil Nadu returns two articles and Kalyan five, all opened, none covering this scheme.",
+   "prior": [
+    {
+     "date": "2026-08-11",
+     "slug": "one-state-one-banner",
+     "claim": "Kalyan opened a Tamil Nadu-only banner in Chennai on 21 August"
+    },
+    {
+     "date": "2026-08-09",
+     "slug": "forty-six-percent-came-back",
+     "claim": "Kalyan took Rs 10,589 crore of revenue in the June quarter"
+    },
+    {
+     "date": "2026-08-31",
+     "slug": "three-ninety-two-districts",
+     "claim": "India's hallmarking order now reaches 392 districts"
+    }
+   ],
+   "sources": [
+    {
+     "title": "TN Govt Issues Work Orders To 2 Jewellers For Newborn Gold Ring Scheme, PTI via Deccan Chronicle",
+     "url": "https://www.deccanchronicle.com/southern-states/tamil-nadu/tn-govt-issues-work-orders-to-joy-alukas-and-kalyan-jewellers-for-newborn-gold-ring-scheme-1981266",
+     "published": "2026-08-22"
+    },
+    {
+     "title": "TN's Thaimaaman gold ring scheme for newborns: who qualifies, what documents are needed, The News Minute",
+     "url": "https://www.thenewsminute.com/tamil-nadu/tns-thaimaaman-gold-ring-scheme-for-newborns-who-qualifies-what-documents-are-needed",
+     "published": "2026-09-28"
+    }
+   ]
+  },
+  "next": {
+   "slug": "twelve-forty-five-off-the-august-high",
+   "why": "The other gold-buying public filed this morning, and what it is paying a gram."
   },
   "corrections": []
  }
