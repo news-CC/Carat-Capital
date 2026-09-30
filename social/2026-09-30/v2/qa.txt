@@ -1,0 +1,5 @@
+theme: emerald-platinum
+POST 1 federers-daytonas-sold-ten-times-quote: 6 slides, words/slide [24, 21, 8, 18, 29, 15] (total 115), largest 209,766 bytes
+   word law: clean
+POST 2 one-paisa-above-the-gold: 5 slides, words/slide [23, 20, 20, 30, 13] (total 106), largest 223,419 bytes
+   word law: clean
