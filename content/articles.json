@@ -3,7 +3,7 @@
   "slug": "four-daytonas-thirty-seven-three",
   "desk": "watches",
   "date": "2026-09-30",
-  "lead": true,
+  "lead": false,
   "kicker": "Charity sale",
   "title": "Four Rolex Daytonas make £37.3m at Phillips in London",
   "dek": "The one-off Cosmograph Daytonas sold individually on 28 September, raising $49.5m for the Federer Foundation and Re:wild. The set was conceived as a private sale at about $4.9m.",
@@ -86,8 +86,8 @@
     "published": "2026-09-29"
    },
    {
-    "title": "Carat Capital price tape, 30 September 2026",
-    "url": "https://caratcapital.org/the-wire.html",
+    "title": "Carat Capital Price Desk tape, 30 September 2026 (homepage strip)",
+    "url": "https://caratcapital.org/",
     "published": "2026-09-30"
    }
   ],
@@ -16251,5 +16251,188 @@
   ],
   "minutes": 2,
   "seo_title": "Diamond Workers' Union Gujarat asked GJEPC on 24 September 2026 for a Gujarat-wide survey of cutters' wages and a rise in piece rates"
+ },
+ {
+  "slug": "one-oh-six-million-and-forty-four-two",
+  "desk": "gemstones",
+  "date": "2026-10-01",
+  "lead": true,
+  "kicker": "Interim results",
+  "title": "Gemfields revenue reaches $106.0m as net debt falls to $44.2m",
+  "dek": "The reviewed accounts for the six months to 30 June carry figures September's trading statement did not. EBITDA was $40.7m against a $4.9m loss a year earlier, and net asset value fell to $248.3m.",
+  "byline": "Carat Capital",
+  "tags": [
+   "gemfields",
+   "emeralds",
+   "rubies",
+   "zambia",
+   "mozambique",
+   "gemstones"
+  ],
+  "sources": [
+   {
+    "title": "Reviewed Interim Report 2026, Gemfields Group Limited, RNS via Investegate",
+    "url": "https://www.investegate.co.uk/announcement/rns/gemfields-group-limited--gem/reviewed-interim-report-2026-/9797637",
+    "published": "2026-09-30"
+   }
+  ],
+  "minutes": 3,
+  "seo_title": "Gemfields' reviewed interim report puts revenue at $106.0m and net debt at $44.2m for the six months to 30 June 2026",
+  "body": [
+   "The reviewed accounts landed. Gemfields published its reviewed interim report for the six months to 30 June 2026 on 30 September. Revenue for the half was $106,007,000 against $64,200,000 a year earlier, 65.12% above the prior half on Carat Capital's division. EBITDA was $40,676,000 against a loss of $4,943,000, a swing of $45.6m, and the measure excludes the impairment by the report's own definition. Loss from operations widened to $100,668,000 from $21,255,000, with the $125.2m non-cash impairment at Montepuez Ruby Mining the stated driver.",
+   "The balance sheet came with it. Net debt at 30 June was $44,237,000, or $44.2m, against $61,216,000 a year earlier, 27.74% below the prior figure. The report states that figure comes before $33.3m of auction receivables. It says those have now been collected in full. Net of them the position is $10.9m. Net asset value attributable to equity holders was $248,263,000, or $248.3m, against a restated $321,762,000 at 31 December 2025, a fall of $73.5m.",
+   "None of those four numbers appeared in the trading statement Carat Capital reported on 29 September. That document gave the loss, the impairment and the per-share figures and no revenue total, no EBITDA, no net debt and no net asset value. The per-share figures are unchanged. Headline earnings were 0.6 US cents a share against a 1.5-cent loss. The statutory loss per share was 4.3 cents. David Lovett, interim CEO and CFO, calls it \"a difficult period for Gemfields\". The trading statement's own version of that sentence used the word challenging instead.",
+   "The desk's view. If you buy Zambian emeralds: Kagem produced well; diesel and a stronger kwacha cut profit. If you hold the equity: Net debt is $17.0m lower, net asset value $73.5m lower, no dividend. What this is not: A ruby recovery. The Montepuez impairment is $125.2m and management calls it too early."
+  ]
+ },
+ {
+  "slug": "eleven-seventy-on-the-widest-spread",
+  "desk": "gold-metals",
+  "date": "2026-10-01",
+  "lead": false,
+  "kicker": "The tape",
+  "title": "Palladium reads $1,170.00, 3.39% under the 30 September mark",
+  "dek": "Gold, silver and platinum also sit below Carat Capital's 30 September mark, by 0.54%, 0.39% and 0.23%. Palladium is the only one of the four also down on the board's own session change.",
+  "byline": "Carat Capital",
+  "tags": [
+   "palladium",
+   "gold",
+   "silver",
+   "platinum",
+   "the-tape",
+   "gold-metals"
+  ],
+  "sources": [
+   {
+    "title": "Precious metals live board, Kitco",
+    "url": "https://www.kitco.com/price/precious-metals",
+    "published": "2026-10-01T06:37:56-04:00"
+   },
+   {
+    "title": "CNBC quote endpoints, XAU= XAG= XPT= XPD=",
+    "url": "https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=XPD=&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json&events=1",
+    "published": "2026-10-01T06:41:00-04:00"
+   },
+   {
+    "title": "Carat Capital Price Desk tape, 1 October 2026 (homepage strip)",
+    "url": "https://caratcapital.org/",
+    "published": "2026-10-01"
+   }
+  ],
+  "minutes": 3,
+  "seo_title": "Palladium is $1,170.00 on the Kitco bid, 3.39% below Carat Capital's 30 September mark, on a $40.00 quoted spread",
+  "body": [
+   "The widest faller was palladium. Palladium is $1,170.00 on the Kitco bid at 06:37 EDT, $41.00 below Carat Capital's 30 September mark of $1,211.00. That is 96.61% of the mark, so 3.39% under it. Gold is $4,168.90, down $22.70 or 0.54%. Silver is $60.681, down $0.237 or 0.39%. Platinum is $1,708.00, down $4.00 or 0.23%. All four are the Kitco bid, which is the convention this tape has carried since 31 August.",
+   "Palladium's quoted spread is the figure to watch rather than its level. Kitco quoted the metal at $1,170.00 bid and $1,210.00 ask, a spread of $40.00, against $2.00 on gold. Kitco's own high and low for the session were $1,242.00 and $1,160.00, and the range is 7.07% of the low on Carat Capital's division. Palladium's spread was 2.91% of its bid on 31 August and is 3.42% on this board. A cost that was already the board's worst has widened.",
+   "The sign on the other three metals depends on which anchor is used. Kitco's own session change reads gold up 0.31%, silver up 0.65% and platinum up 0.35%, because it measures the move since the previous close. Against Carat Capital's 30 September mark all three are lower. Palladium is the only metal where the two anchors agree: down $18.00 on the session change and down $41.00 on the mark. A second page was checked. CNBC's quote endpoints read gold $4,168.49 and palladium $1,186.44 at 06:41 EDT. Its market-status field read REG_MKT on all four quotes. Measured against Kitco's mid, the largest gap of the four is platinum's at 0.21%. All are inside rounding, so no divergence between outside sources is disclosed.",
+   "The desk's view. If you hedge palladium: Its $40.00 spread is twenty times gold's as a share of the bid. If you price gold: Gold is $4,168.90 and platinum $1,708.00, both under the prior mark. What this is not: A reason. No source consulted publishes a cause for these moves."
+  ]
+ },
+ {
+  "slug": "four-seventy-five-on-the-kimberley-yellow",
+  "desk": "auctions",
+  "date": "2026-10-01",
+  "lead": false,
+  "kicker": "Auction results",
+  "title": "Pragnell ring makes $475,000 at Heritage, 90% above the high",
+  "dek": "The 22.09-carat fancy yellow carried a $250,000 high estimate. Heritage's 28 September Fall Fine Jewelry Signature sale took $7.6 million from 425 lots, and four of its top five beat their high estimates.",
+  "byline": "Carat Capital",
+  "tags": [
+   "heritage",
+   "yellow-diamonds",
+   "pragnell",
+   "dallas",
+   "auctions"
+  ],
+  "sources": [
+   {
+    "title": "22ct. Yellow Diamond Stars at Heritage Auction, Rapaport",
+    "url": "https://rapaport.com/news/22ct-yellow-diamond-stars-at-heritage-auction/",
+    "published": "2026-09-29"
+   }
+  ],
+  "minutes": 3,
+  "seo_title": "A Pragnell ring with a 22.09-carat fancy yellow diamond sold for $475,000 at Heritage, 90% above its $250,000 high estimate",
+  "body": [
+   "The top lot doubled its ceiling. A Pragnell ring centring a cushion-shaped 22.09-carat fancy yellow diamond sold for $475,000 at Heritage's Fall Fine Jewelry Signature Auction on 28 September in Dallas. Its high estimate was $250,000. The division is 475,000 divided by 250,000, or 190.00% of the high estimate, so 90.00% above it. The band carries 1.33 carats of French- and carre-cut diamonds. Carat Capital published the estimate on 9 September. Heritage then put the stone at $200,000 to $250,000. It called the diamond Internally Flawless, with documentation to the Kimberley mine.",
+   "The sale took $7.6 million from 425 lots, which is $17,882 a lot on Carat Capital's division. The top five lots made $1,250,000 between them, 16.4% of the sale, against aggregate high estimates of $840,000. That is 148.81% of the aggregate high, so 48.81% above it. Four of the five beat their own high estimate and one did not.",
+   "The misses and the beats are both large. The second lot, an emerald-cut 8.17-carat F VS1 diamond, made $275,000 against a $200,000 high, 37.50% above it. The third, a gold necklace with a 22.06-carat K I1 round brilliant, made $212,500 against a $120,000 high, 77.08% above it. An Oscar Heyman ring with a 14.11-carat fancy yellow made $175,000 against a $150,000 high, 16.67% above it. A Carvin French ring with a 7.02-carat D SI1 diamond made $112,500 against a $120,000 high. That is 93.75% of the high, so 6.25% below it. Bulgari, Hermes and Tiffany & Co. pieces also sold.",
+   "The desk's view. If you consign a fancy yellow: A report and a named mine took this stone 90% above its high. If you set coloured-diamond reserves: Three other top-five stones beat their highs too, by 16.67% to 77.08%. What this is not: A market read. One sale, one house, one outlet; Heritage's own page refused."
+  ]
+ },
+ {
+  "slug": "two-rolexes-above-a-million-francs",
+  "desk": "watches",
+  "date": "2026-10-01",
+  "lead": false,
+  "kicker": "Consignment",
+  "title": "Two Pucci Rolexes carry estimates above CHF 1m at Phillips",
+  "dek": "Sixteen watches from Pucci Papaleo's 70-piece Rolex collection go into the Geneva Watch Auction XXIV on 7 and 8 November. A Stelline Ref. 6062 is estimated at CHF 600,000 to 1,200,000.",
+  "byline": "Carat Capital",
+  "tags": [
+   "rolex",
+   "phillips",
+   "geneva",
+   "daytona",
+   "watches"
+  ],
+  "sources": [
+   {
+    "title": "Rare Rolex Collection Headed to Phillips Geneva Sale, JCK",
+    "url": "https://www.jckonline.com/editorial-article/rolex-phillips-geneva-sale/",
+    "published": "2026-09-30"
+   }
+  ],
+  "minutes": 3,
+  "seo_title": "Sixteen Rolex chronographs from Pucci Papaleo's collection join Phillips' Geneva Watch Auction XXIV, two of them estimated above CHF 1,000,000",
+  "body": [
+   "Two lots cross a million francs. Phillips has taken sixteen watches from Pucci Papaleo's 70-piece Rolex collection into its Geneva Watch Auction XXIV. Two of the sixteen carry estimates exceeding CHF 1,000,000. The report converts that to nearly $1.2 million each. Sixteen of seventy, or 16 of 70, is 22.9% of the collection on Carat Capital's division. The sale runs on 7 and 8 November at Geneva's Hotel President.",
+   "The two million-franc lots are both one-offs on the consignor's own research. The first is a circa 1941 18-carat yellow gold Ref. 3830, a 30mm square stepped-case chronograph described as entirely unique with no other Ref. 3830 recorded at auction, last seen publicly in 2004 and carrying the dial signature of the Milan retailer Verga. The second is a circa 1970 Ref. 6264 Paul Newman Lemon, believed to be the only 14-carat yellow gold example inside the 2.3 million serial range. Neither claim is independently verifiable from a public register and both are the collection's own research, as the report states.",
+   "Four further lots carry published ranges. A Stelline Ref. 6062 in 18-carat yellow gold is estimated at CHF 600,000 to 1,200,000. A Ref. 3525 Bariletto signed by the Australian retailer Prouds, an 18-carat pink gold Ref. 3335 with a Monetti-signed dial and a steel Ref. 6239 with a Paul Newman Musketeer dial are each estimated at CHF 250,000 to 500,000. Taken at their floors, those six named lots add to CHF 3,350,000, and the other ten of the sixteen have no published estimate. Highlights tour Dubai, New York, Singapore, Hong Kong, Riyadh and London before the sale. Aurel Bacs and Livia Russo, Phillips' senior consultants, said in a joint statement that Papaleo has spent \"more than 30 years pursuing knowledge and perfection\".",
+   "The desk's view. If you bid on vintage Daytonas: Both CHF 1m lots are priced on uniqueness, not comparables. If you consign to this sale: It is Carat Capital's third announcement for one November auction. What this is not: A result. Every figure is an estimate and the sale is in November."
+  ]
+ },
+ {
+  "slug": "twelve-sixty-two-and-a-flat-counter",
+  "desk": "gold-metals",
+  "date": "2026-10-01",
+  "lead": false,
+  "kicker": "China counters",
+  "title": "Three Chinese counters rise 12 to 14 yuan, Lao Miao flat",
+  "dek": "Lao Feng Xiang read 1,262 yuan on 30 September, Chow Tai Fook 1,259 and Chow Sang Sang 1,257. Lao Miao held at 1,242, and the three with a published base sit 10.71% to 11.73% below the 25 August high.",
+  "byline": "Carat Capital",
+  "tags": [
+   "china",
+   "gold",
+   "chow-tai-fook",
+   "chow-sang-sang",
+   "lao-feng-xiang",
+   "gold-metals"
+  ],
+  "sources": [
+   {
+    "title": "9月30日多家品牌足金首饰价格上涨 (Several brands' pure-gold jewellery prices rise, 30 September), Huxiu",
+    "url": "https://www.huxiu.com/moment/1284695.html",
+    "published": "2026-09-30"
+   },
+   {
+    "title": "一夜大跌33元！金饰克价较1个月前已跌超160元 (Gold jewellery down 33 yuan overnight), Sina Finance / National Business Daily",
+    "url": "https://finance.sina.cn/2026-09-29/detail-initnmwm2907363.d.html",
+    "published": "2026-09-29"
+   },
+   {
+    "title": "证券之星 daily brand gold quotes, 9月29日 and 9月30日 items, via Google News RSS",
+    "url": "https://news.google.com/rss/search?q=%E9%BB%84%E9%87%91%E6%8A%A5%E4%BB%B7+%E5%91%A8%E5%A4%A7%E7%A6%8F+OR+%E8%80%81%E5%BA%99%E9%BB%84%E9%87%91&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "published": "2026-09-30"
+   }
+  ],
+  "minutes": 3,
+  "seo_title": "Chinese brand gold counters turned back up on 30 September: Lao Feng Xiang 1,262 yuan a gram, Chow Tai Fook 1,259, Chow Sang Sang 1,257, Lao Miao flat at 1,242",
+  "body": [
+   "The counters turned back up. Lao Feng Xiang quoted pure-gold jewellery at 1,262 yuan a gram on 30 September, up 14 yuan on the prior day. Chow Tai Fook read 1,259, up 13. Chow Sang Sang read 1,257, up 12. Lao Miao read 1,242 and was unchanged. The spread across the four is 20 yuan.",
+   "Those four stated day-on-day changes reproduce the 29 September board exactly. Subtracting each move gives 1,248 for Lao Feng Xiang, 1,246 for Chow Tai Fook, 1,245 for Chow Sang Sang and 1,242 for Lao Miao. The last three match the figures Carat Capital published for 29 September, to the yuan, from a separate Chinese source. Two independently dated pages now agree on which session those numbers belong to.",
+   "Against the near-three-month high of 25 August the three with a published base are still well down. Chow Sang Sang at 1,257 is 89.28% of its 1,408 high, so 10.72% below it. Chow Tai Fook at 1,259 is 89.29% of 1,410, so 10.71% below. Lao Miao at 1,242 is 88.27% of 1,407, so 11.73% below. One Chinese daily series disagrees with the dating used here. 证券之星 published a 29 September item carrying Lao Miao at 1,275 and a 30 September item carrying it at 1,242. That would place the 33-yuan fall a day later than the two sources above date it. Its snapshot is taken once a day at about 10:00 Beijing time, and a counter revised after that hour would not reach it.",
+   "The desk's view. If you buy gold in China: Three counters rose into the holiday week; the cheapest did not. If you price against a counter: The 20-yuan gap is brand pricing, not metal. What this is not: A 1 October board. The figures close on 30 September."
+  ]
  }
 ]
