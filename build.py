@@ -115,7 +115,7 @@ DESKS = [
    motif="diamond",
    briefing=[
      ("B-01","Producers hold the line on rough","De Beers-style supply discipline is back: allocations trimmed, prices defended. Polished has stabilized after two brutal years — the question is whether midstream margins recover before credit patience runs out.","Supply · Gaborone"),
-     ("B-02","The 86% gap becomes the strategy","With lab-grown 1ct goods under $750, natural sellers have stopped competing on price and started competing on account of provenance, rarity and resale. Watch the marketing budgets, not the price lists.","Positioning · Global"),
+     ("B-02","The gap becomes the strategy","Natural sellers have stopped competing with lab-grown on price and started competing on provenance, rarity and resale. Watch the marketing budgets, not the price lists. The dated gap itself is on the price pages, not here.","Positioning · Global"),
      ("B-03","Traceability goes from virtue to invoice","Origin platforms are no longer CSR decoration — G7 rules and retailer mandates are making sourcing paperwork a condition of sale. Compliant goods are starting to command a measurable premium.","Regulation · Antwerp"),
    ],
    glossary=[
@@ -137,7 +137,7 @@ DESKS = [
    stats=[("","Gold/oz")],  # driven by _lock_desk_stats() from the tape
    motif="ingot",
    briefing=[
-     ("B-01","$4,000 is the floor — tested three times, held three times","Gold stabbed below $4,000 on war nerves and snapped back within a day. Manufacturers have stopped waiting for a retreat: product architecture is being redesigned around a $4,000-plus planning price.","Bullion · New York"),
+     ("B-01","Manufacturers stopped waiting for a retreat","Product architecture is being redesigned around a higher standing planning price for gold rather than a forecast retreat. The dated level and its change are on the tape and the Indices page, not here.","Bullion · New York"),
      ("B-02","The lightweighting revolution","Hollow forms, electroforming, 9k and 10k revivals, silver-gilt hybrids — the craft of making less metal look like more is the decade's quiet growth industry. Vicenza and Shenzhen lead.","Manufacturing · Vicenza"),
      ("B-03","Recycling becomes a supply line","At these prices, the scrap drawer is a mine. Old-gold buybacks are now a strategic sourcing channel for refiners and brands alike — with its own pricing, logistics and fraud problems.","Supply · Global"),
    ],
@@ -229,7 +229,7 @@ DESKS = [
    stats=[("","Lab-grown 1ct, wholesale midpoint")],  # driven by _lock_desk_stats() from content/lab-prices.json
    motif="store",
    briefing=[
-     ("B-01","Lab-grown settles into its true business model","At an 86% discount to natural, LGD is no longer a diamond substitute — it's a fashion-jewelry category with diamond optics. Margins migrate from the stone to the brand and the volume.","Economics · Global"),
+     ("B-01","Lab-grown settles into its true business model","At its current discount to natural, LGD is no longer a diamond substitute — it's a fashion-jewelry category with diamond optics. Margins migrate from the stone to the brand and the volume. The dated discount is on the lab-grown price page.","Economics · Global"),
      ("B-02","Live selling jumps the Pacific","The livestream counter that built China's jewelry e-commerce is landing in the West — TikTok gem sales, WhatsApp private clienteling, and jewelers becoming broadcasters.","Channels · Shenzhen"),
      ("B-03","Traceability tech grows teeth","Blockchain provenance, ledgers, and assay-office digital passports move from pilot to mandate as regulation and retailer policy converge. The tech stack becomes a condition of shelf space.","Technology · London"),
    ],

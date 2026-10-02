@@ -127475,5 +127475,844 @@
    "why": "The metal those counters price against, and the one that moved furthest on 1 October."
   },
   "corrections": []
+ },
+ "one-fifty-million-in-ho-chi-minh": {
+  "v": 3,
+  "kicker": "Manufacturing",
+  "seo_title": "Pandora's USD 150 million Ho Chi Minh City plant lifts group crafting capacity 50% and adds 60 million pieces of annual capacity",
+  "figures": {
+   "asof": "Pandora A/S press release, 1 October 2026, pandoragroup.com · page read direct, 180,271 bytes; chief executive's figures from CNBC, published 2 October 2026 04:16 UTC, 786,041 bytes",
+   "cells": [
+    {
+     "n": "$150m",
+     "label": "Invested in the site",
+     "q": "Pandora's own figure",
+     "src": 0
+    },
+    {
+     "n": "+50%",
+     "dir": "up",
+     "label": "Group crafting capacity",
+     "q": "the release's own wording",
+     "src": 0
+    },
+    {
+     "n": "60m",
+     "label": "Pieces a year",
+     "q": "capacity when fully ramped",
+     "src": 0
+    },
+    {
+     "n": "7,000",
+     "label": "Local jobs",
+     "q": "when fully operational",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "The plant opened.",
+   "text": "Pandora began crafting in Ho Chi Minh City on 1 October 2026. The USD 150 million site lifts the group's manufacturing capacity by 50% and is its first production plant outside Thailand."
+  },
+  "means": [
+   {
+    "who": "If you buy Pandora wholesale:",
+    "text": "Capacity changed, not price. No Pandora price list moved with this."
+   },
+   {
+    "who": "If you craft in Thailand:",
+    "text": "A second country now shares the volume, and the academy moves skills both ways."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A diamond-growing plant. No stone is grown here; the lab-grown remarks are a separate answer."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Pandora's Vietnam facility, as the company states it",
+   "asof": "Pandora A/S press release, 1 October 2026 · last two rows computed",
+   "cols": [
+    "Item",
+    "Figure",
+    "Source"
+   ],
+   "rows": [
+    [
+     "Investment",
+     "USD 150 million",
+     "Press release"
+    ],
+    [
+     "Annual capacity added",
+     "60 million pieces",
+     "Press release"
+    ],
+    [
+     "Capacity uplift, group",
+     "50%",
+     "Press release"
+    ],
+    [
+     "Local jobs at full operation",
+     "7,000",
+     "Press release"
+    ],
+    [
+     "Site area",
+     "7.5 hectares",
+     "Press release"
+    ],
+    [
+     "Rank among Pandora plants",
+     "Fourth, and first outside Thailand",
+     "Press release"
+    ],
+    [
+     "Implied prior annual capacity",
+     "About 120 million pieces",
+     "Carat Capital"
+    ],
+    [
+     "Implied new annual capacity",
+     "About 180 million pieces",
+     "Carat Capital"
+    ]
+   ],
+   "hi": 0,
+   "note": "The first six rows are figures published in Pandora's own release of 1 October 2026 and were grepped in the saved bytes before being printed. The last two are Carat Capital's arithmetic on the release's own wording: 60 million pieces is stated to be a 50% increase, so 60/0.50 = 120 million pieces as the prior annual capacity and 180 million as the new total. Pandora publishes neither of those two figures and neither is attributed to it. The release's description of the site as the world's largest fine jewellery crafting facility is the company's own claim and is not verified here.",
+   "plate": "CC/2026/078"
+  },
+  "sections": [
+   {
+    "h": "The release gives six figures.",
+    "p": [
+     {
+      "lead": "Six figures published.",
+      "text": "Pandora puts the investment at USD 150 million and the site's annual capacity at 60 million pieces. The facility lifts group crafting capacity by 50%."
+     },
+     {
+      "lead": "Land and jobs follow.",
+      "text": "The release gives 7,000 local jobs when fully operational, on a 7.5-hectare plot in Vietnam-Singapore Industrial Park III. The building holds LEED Gold certification."
+     }
+    ]
+   },
+   {
+    "h": "First plant outside Thailand.",
+    "p": [
+     {
+      "lead": "Thailand keeps the craft.",
+      "text": "This is Pandora's first production site outside Thailand and its fourth worldwide. The company's crafting academy is to move skills between the two countries."
+     },
+     {
+      "lead": "Power is renewable.",
+      "text": "The facility runs solely on renewable electricity and uses 100% recycled silver and gold. Pandora already crafts all its jewellery from recycled silver and gold."
+     },
+     {
+      "lead": "Platinum plating follows.",
+      "text": "The release names the site's role in future platinum-plated jewellery as the company widens its materials. It gives no volume or launch date for that line."
+     }
+    ]
+   },
+   {
+    "h": "Asia carries the growth case.",
+    "p": [
+     {
+      "lead": "Asia grew ten percent.",
+      "text": "Chief executive Berta de Pablos-Barbier told CNBC the region grew 10% in the second quarter. She said Japan's business has roughly doubled in three years."
+     },
+     {
+      "lead": "China turned.",
+      "text": "After three years of declines, Pablos-Barbier said China is returning to growth this year. She put lab-grown stones' carbon emissions around 90% below mined ones."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "4 November 2026",
+    "what": "Pandora's Q3 2026 interim report, the first after the opening, and whether Asia's 10% second-quarter growth rate holds."
+   },
+   {
+    "when": "Full ramp, date not published",
+    "what": "Whether the 60 million-piece capacity and the 7,000 jobs arrive together; the release dates neither."
+   },
+   {
+    "when": "The platinum-plated line",
+    "what": "Whether a volume or a price is attached to the material the release names but does not size."
+   }
+  ],
+  "depth": {
+   "reverse": "A ramp that slips. Every figure above is a capacity figure, not an output figure, and Pandora attaches no date to full operation: 60 million pieces a year and 7,000 jobs are both stated as the fully operational state, not as 2026. If the ramp runs long, the 50% uplift is an option the company holds rather than volume the trade can buy, and the group's reported organic growth of 3% in the second quarter is the better guide to what is actually selling. The second reading that would reverse the desk's view is a Q3 report on 4 November 2026 that carries a Vietnam start-up cost line large enough to move group margin.",
+   "built": {
+    "title": "What a crafting capacity figure counts",
+    "text": "A crafting capacity figure is the number of finished pieces a plant can produce in a year at its designed run rate, not the number it will produce. It is set by the installed bench positions, the shifts the site is designed to run and the throughput of the plating and setting lines, and it is published by the company rather than measured by anyone outside it. That matters for reading the 50% in this release two ways. As a capacity number it is exact arithmetic on Pandora's own installed base: 60 million pieces added to a base the company does not state, which the division in the table puts at about 120 million. As a trading number it says nothing at all, because a plant at designed capacity and a plant at half of it both carry the same capacity figure. The practical consequence for a buyer is that this release changes what Pandora can supply and not what it will price, which is why the key figures above carry no price and the desk's view says the price list did not move."
+   },
+   "method": "Three documents were fetched with a browser identity and saved as raw bytes before any figure was written: Pandora's own press release, 200, 180,271 bytes; CNBC's report, 200, 786,041 bytes, JSON-LD datePublished 2026-10-02T04:16:04+0000; and Pandora's financial calendar, 200, 366,564 bytes. Every figure printed was grepped in the saved files and the hit counts are: '150 million' present in the release and 17 times in CNBC's page, '60 million' once in the release and 5 times in CNBC's, '7,000' once in the release body and 7 times in CNBC's, '50%' present in both, '7.5-hectare' present in the release, 'DKK 32.5 billion' present in the release boilerplate, '10% in the second quarter' present in CNBC's text, '90% fewer' present in CNBC's text, and 'Interim Financial Report Q3 2026' with '4 November 2026' present in the financial calendar. One figure that a web summary offered was refused: a claim that the facility cuts Pandora's carbon footprint by 17%. The exact strings '17%' and '17 percent' each return zero hits in the saved CNBC bytes, so the figure was not printed. Rapaport's report of the same opening was read as a second trade account and carries the same USD 150 million, 50% and 60 million figures; it adds no figure the release does not have. The archive was checked by opening every hit rather than counting: a search of content/articles.json for Pandora returns four articles, all opened, covering a North America appointment on 5 August 2026, a third executive seat on 10 August 2026, a copyright suit on 16 September 2026 and a passing mention in a Signet piece of 6 August 2026. A search for Vietnam returns four more, all opened, covering a certificate scandal, a Forty-Seventh Street profile, a Luk Fook quarter and a counterfeit-footwear piece. None covers a Pandora plant, a capital expenditure or a capacity figure, so the verdict is NEW: period not applicable, first manufacturing story on this company in this archive.",
+   "prior": [
+    {
+     "date": "2026-09-16",
+     "slug": "two-medallions-in-the-southern-district",
+     "claim": "Pandora must answer FoundRae's copyright suit over Talisman charms"
+    },
+    {
+     "date": "2026-08-10",
+     "slug": "pandoras-third-seat",
+     "claim": "Pandora's third executive seat in a year came from Walmart"
+    },
+    {
+     "date": "2026-08-05",
+     "slug": "pandora-fills-the-seat",
+     "claim": "Pandora handed North America to a beauty executive after six months"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Pandora opens world's largest fine jewellery crafting facility, Pandora A/S",
+     "url": "https://pandoragroup.com/media/press-releases/Pandora-opens-worlds-largest-fine-jewellery-crafting-facility",
+     "published": "2026-10-01"
+    },
+    {
+     "title": "Jewelry giant Pandora is getting in on lab-grown diamonds and hoping a new Vietnam plant helps growth in Asia, CNBC",
+     "url": "https://www.cnbc.com/2026/10/02/-jewelry-giant-pandora-vietnam-asia-growth-.html",
+     "published": "2026-10-02"
+    },
+    {
+     "title": "Pandora Lauches New Jewelry-Manufacturing Facility in Vietnam, Rapaport News",
+     "url": "https://rapaport.com/news/pandora-lauches-new-jewelry-manufacturing-facility-in-vietnam/",
+     "published": "2026-10-01"
+    },
+    {
+     "title": "Financial calendar, Pandora A/S",
+     "url": "https://pandoragroup.com/investor/financial-calendar",
+     "published": "2026-10-02"
+    }
+   ]
+  },
+  "next": {
+   "slug": "boodles-takes-the-argyle-brand",
+   "why": "The other brand that changed hands on 1 October, and the one that came with no price at all."
+  },
+  "corrections": []
+ },
+ "boodles-takes-the-argyle-brand": {
+  "v": 3,
+  "kicker": "Brand transfer",
+  "seo_title": "Rio Tinto transferred the Argyle Pink Diamonds brand and its last inventory to Boodles on 1 October 2026 with no price disclosed",
+  "figures": {
+   "asof": "Rio Tinto plc media release, 1 October 2026, riotinto.com · page read direct, 152,664 bytes; Rapaport News report of the same transfer, 1 October 2026 10:42 UTC, 461,824 bytes",
+   "cells": [
+    {
+     "n": "None",
+     "label": "Price disclosed",
+     "q": "no consideration published",
+     "src": 0
+    },
+    {
+     "n": ">90%",
+     "label": "World pink supply",
+     "q": "Argyle over the mine's life",
+     "src": 0
+    },
+    {
+     "n": "228",
+     "label": "Years, Boodles",
+     "q": "Rio Tinto's own description",
+     "src": 0
+    },
+    {
+     "n": "1 Oct 2026",
+     "label": "Transfer completed",
+     "q": "the release's own date",
+     "src": 0
+    },
+    {
+     "n": "3 Nov 2020",
+     "label": "Production ended",
+     "q": "mine closed, stays closed",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Ownership moved.",
+   "text": "Rio Tinto transferred the Argyle Pink Diamonds brand to Boodles on 1 October 2026. Boodles acquired the last remaining Argyle pink-diamond inventory and a suite of trademarks, plus the website and digital marketing assets. No price was published."
+  },
+  "means": [
+   {
+    "who": "If you trade Argyle pinks:",
+    "text": "The last certified inventory now sits with one British retailer."
+   },
+   {
+    "who": "If you value a pink:",
+    "text": "No consideration was published, so this sets no price benchmark."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A reopening. Production ended on 3 November 2020 and the mine stays closed."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "What transferred on 1 October, in Rio Tinto's own words",
+   "asof": "Rio Tinto plc media release, 1 October 2026",
+   "cols": [
+    "Item",
+    "What Rio Tinto states",
+    "Date"
+   ],
+   "rows": [
+    [
+     "Brand ownership",
+     "Transitioned to Boodles",
+     "1 October 2026"
+    ],
+    [
+     "Inventory",
+     "Last remaining Argyle pink diamonds",
+     "1 October 2026"
+    ],
+    [
+     "Trademarks",
+     "A suite, transferred with the brand",
+     "1 October 2026"
+    ],
+    [
+     "Website and digital assets",
+     "Transferred with the brand",
+     "1 October 2026"
+    ],
+    [
+     "Price",
+     "Not disclosed",
+     "Not stated"
+    ],
+    [
+     "Mine production",
+     "Ended",
+     "3 November 2020"
+    ],
+    [
+     "Share of world pink supply",
+     "More than 90 per cent",
+     "Over the mine's life"
+    ],
+    [
+     "Boodles",
+     "Family-owned, 228 years' experience",
+     "Rio Tinto's description"
+    ]
+   ],
+   "hi": 4,
+   "note": "Every row is Rio Tinto's own wording in its release of 1 October 2026, read as raw bytes and grepped before printing. The Price row is an absence in the document, not a redaction inferred here: the release names no consideration, no earn-out, no inventory carat weight and no stone count. Rapaport's report of the same transfer carries no figure either. Carat Capital computes nothing in this table, because there is no number in the document to divide.",
+   "plate": "CC/2026/078"
+  },
+  "sections": [
+   {
+    "h": "No price in the release.",
+    "p": [
+     {
+      "lead": "Nothing was disclosed.",
+      "text": "Rio Tinto's release names no consideration for the brand, the trademarks or the inventory. It gives no carat weight and no stone count for what transferred."
+     },
+     {
+      "lead": "The inventory is finite.",
+      "text": "Boodles acquired the last remaining Argyle pink-diamond inventory. Production at the mine ended on 3 November 2020, so no further Argyle rough exists to replace it."
+     }
+    ]
+   },
+   {
+    "h": "The buyer is a retailer.",
+    "p": [
+     {
+      "lead": "Not a miner.",
+      "text": "Boodles is a family-owned British jeweller. Patrick Coppens, Rio Tinto Diamonds general manager of sales and marketing, calls it “a family-owned company with 228 years' experience”."
+     },
+     {
+      "lead": "Stewardship was the test.",
+      "text": "Coppens names an owner who understands the brand's history as the priority in the choice. Boodles managing director Jody Wainwright puts the stones' role in the firm's designs at more than 40 years."
+     }
+    ]
+   },
+   {
+    "h": "What Rio Tinto keeps.",
+    "p": [
+     {
+      "lead": "The site stays.",
+      "text": "Rio Tinto says it remains committed to closing and rehabilitating the Argyle site, recognising the Traditional Owners' connection to Country. The release attaches no date and no budget to that work."
+     },
+     {
+      "lead": "The unit had shrunk.",
+      "text": "Carat Capital put Rio Tinto's diamond unit revenue at $118 million on 29 July 2026 as Diavik wound down. This transfer removes the last Argyle marketing asset from that unit.",
+      "links": {
+       "$118 million": "a-rio-diamond-unit-fades.html"
+      }
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Rio Tinto's next quarterly operations review",
+    "what": "Whether the diamond segment still carries an Argyle line now the brand has gone. Rio Tinto's own calendar page returned no dated entry when read on 2 October 2026."
+   },
+   {
+    "when": "Boodles' next collection announcement",
+    "what": "Whether Boodles prices Argyle goods publicly or holds them as private-client stock."
+   },
+   {
+    "when": "The Argyle closure plan",
+    "what": "Whether a rehabilitation date or budget is published now the brand sits outside the group."
+   }
+  ],
+  "depth": {
+   "reverse": "A price appearing later. The whole reading here rests on an absence: Rio Tinto published no consideration, so nothing in this transfer prices an Argyle pink. If a figure surfaces in Rio Tinto's accounts or in a Boodles filing, the deal becomes a datum the trade can use to value the remaining certified inventory, and the desk's view that this sets no benchmark fails. The second reading that would change the call is a published carat weight for the inventory: the brand without the stones is a trademark, and the brand with a large certified parcel is a trading position.",
+   "built": {
+    "title": "Why an Argyle brand is separable from a mine",
+    "text": "Argyle Pink Diamonds was a marketing programme as much as a geological fact. Rio Tinto ran an annual invitation-only tender of the mine's best pink, red and violet stones, certified each one against the Argyle name, and built a register of buyers around that certification. The register, the trademarks, the lot-numbering convention and the certificates are assets that survive the orebody, which is why they could be sold six years after production stopped. What a buyer acquires is the right to certify and market under the name, plus whatever certified stones remain in the vault. What it cannot acquire is new supply: the mine's pit is being closed and rehabilitated, and no other deposit produces the same colour at the same scale, which is the sense in which Rio Tinto's own release calls Argyle the world's first and only source of pink diamonds producing more than 90 per cent of world supply. The practical consequence is that the brand's value is now a function of a fixed, shrinking inventory and of how slowly its owner chooses to release it."
+   },
+   "method": "Two documents were fetched with a browser identity and saved as raw bytes before any figure was written: Rio Tinto's own media release, 200, 152,664 bytes, and Rapaport News' report of the same transfer, 200, 461,824 bytes, JSON-LD datePublished 2026-10-01T10:42:04+00:00. Exact-string grep counts in the saved Rio Tinto file: '228 years' one hit, '90 per cent' one hit, '3 November 2020' one hit, '1 October 2026' two hits, '40 years' one hit. A search of the same file for a dollar, pound or consideration figure returned only navigation strings such as share-price links, no transaction figure; that absence is why the Price cell reads None rather than a number. The Coppens quotation is seven words and was read in the release's own body. An SEC exhibit surfaced by search under the file name ex15d24mr_argylepink was fetched with an identifying user agent, 200, 23,813 bytes, and opened: it is an unrelated Argyle Pink Diamonds and West Australian Ballet announcement, not this transfer, and it is therefore not cited. Separately, one Carat Capital beat desk filed this item with a $150 million price attached. The exact string '$150 million' returns zero hits in the Rio Tinto release and three in Pandora's Vietnam report published the same morning, which is where that figure belongs; it is recorded here because the figure never reached print. The archive was checked by opening every hit rather than counting: Boodles returns zero articles; Argyle returns three, all opened, dated 21 July 2026 (Diavik's final 33,000 carats), 26 July 2026 (Diavik's last ore) and 29 July 2026 (Rio's diamond unit at $118 million). The nearest is the last of those: same entity, Rio Tinto, but its period is the first half of 2026's unit revenue, where this item's period is a brand transfer completed on 1 October 2026. Different period and different event, so the verdict is ADVANCED, not a repeat, and the brand sale itself has never been covered here.",
+   "prior": [
+    {
+     "date": "2026-07-29",
+     "slug": "rio-diamond-unit-fades",
+     "claim": "Rio Tinto's diamond unit revenue fell to $118 million as Diavik wound down"
+    },
+    {
+     "date": "2026-07-26",
+     "slug": "diavik-sells-the-last-ore",
+     "claim": "Diavik closed and Rio Tinto sold the last ore from the pit"
+    },
+    {
+     "date": "2026-07-21",
+     "slug": "last-carats-at-diavik",
+     "claim": "Diavik swept 33,000 carats from its own floor after closure"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Argyle Pink Diamonds brand transitions to Boodles, Rio Tinto plc",
+     "url": "https://www.riotinto.com/en/news/releases/2026/argyle-pink-diamonds-brand-transitions-to-boodles",
+     "published": "2026-10-01"
+    },
+    {
+     "title": "Rio Tinto Sells Argyle Pink Diamonds Brand to Luxury Jewelry Group, Rapaport News",
+     "url": "https://rapaport.com/news/rio-tinto-sells-argyle-pink-diamonds-brand-to-luxury-jewelry-group/",
+     "published": "2026-10-01"
+    }
+   ]
+  },
+  "next": {
+   "slug": "eighteen-jewels-and-no-watch",
+   "why": "Another house moving into jewellery, and another launch that published no price."
+  },
+  "corrections": []
+ },
+ "eighteen-jewels-and-no-watch": {
+  "v": 3,
+  "kicker": "Jewellery launch",
+  "seo_title": "Audemars Piguet's Royal Oak Joaillerie is an 18-piece jewellery suite with no watch in it and no published retail price",
+  "figures": {
+   "asof": "Robb Report, Royal Oak Joaillerie launch report, published 1 October 2026 · page read direct, 419,005 bytes. Audemars Piguet has published no release this desk could reach",
+   "cells": [
+    {
+     "n": "18",
+     "label": "Pieces in the suite",
+     "q": "not one is a watch",
+     "src": 0
+    },
+    {
+     "n": "None",
+     "label": "Prices published",
+     "q": "none in the report",
+     "src": 0
+    },
+    {
+     "n": "506",
+     "label": "Diamonds, one cuff",
+     "q": "the Blueberries Royal Oak",
+     "src": 0
+    },
+    {
+     "n": "+24%",
+     "dir": "up",
+     "label": "Richemont jewellery sales",
+     "q": "quarter to 30 June, watches +8%",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "The collection launched.",
+   "text": "Audemars Piguet opened Royal Oak Joaillerie at Paris Fashion Week on 1 October 2026. It is an 18-piece suite of necklaces, earrings, cuffs and chokers, and it contains no watch. No retail price was published."
+  },
+  "means": [
+   {
+    "who": "If you retail high jewellery:",
+    "text": "A watch house is now bidding for the same client."
+   },
+   {
+    "who": "If you price a Royal Oak:",
+    "text": "Nothing here moves a watch price. No watch is in the line."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A priced collection. No figure was published, so no margin can be read."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Royal Oak Joaillerie, counted from the launch report",
+   "asof": "Robb Report, 1 October 2026 · last row computed",
+   "cols": [
+    "Item",
+    "Detail",
+    "Figure"
+   ],
+   "rows": [
+    [
+     "Pieces in the suite",
+     "Necklaces, earrings, cuffs, chokers",
+     "18"
+    ],
+    [
+     "Watches in the suite",
+     "Not one among the 18 pieces",
+     "None"
+    ],
+    [
+     "Bejewelled cuffs",
+     "Nature motifs",
+     "6"
+    ],
+    [
+     "Blueberries cuff, diamonds",
+     "Leaf-shaped and brilliant-cut",
+     "506"
+    ],
+    [
+     "Blueberries cuff, amethyst",
+     "Cabochons",
+     "19"
+    ],
+    [
+     "Blueberries cuff, spinel",
+     "Black cabochons",
+     "16"
+    ],
+    [
+     "Retail prices published",
+     "Not given in the report",
+     "None"
+    ],
+    [
+     "Frosted Gold finish",
+     "Developed with Carolina Bucci",
+     "2016"
+    ],
+    [
+     "Blueberries cuff, stones in total",
+     "Diamonds, amethyst and spinel",
+     "541"
+    ]
+   ],
+   "hi": 3,
+   "note": "Every figure except the last row is Robb Report's, read as raw bytes and grepped before printing: the exact strings '18-piece', '506 leaf-shaped', '19 amethyst cabochons' and '16 black spinel cabochons' each return one hit in the saved file. The last row is Carat Capital's addition, 506 + 19 + 16 = 541, and is not attributed to the report. Audemars Piguet's own site returned 404 for the collection page attempted on 2 October 2026, so no manufacturer document corroborates any count here and the whole table rests on one trade account.",
+   "plate": "CC/2026/078"
+  },
+  "sections": [
+   {
+    "h": "Eighteen pieces, no watch.",
+    "p": [
+     {
+      "lead": "No watch is included.",
+      "text": "Robb Report states the collection does not feature a single watch and is an 18-piece suite of jewels. It names necklaces, earrings, cuffs and chokers."
+     },
+     {
+      "lead": "The bracelet carries over.",
+      "text": "The pieces carry the Royal Oak bracelet's interlocking links in mixed polished and brushed finishes. Materials are gold and titanium, set with precious and non-precious stones."
+     }
+    ]
+   },
+   {
+    "h": "One cuff carries 541 stones.",
+    "p": [
+     {
+      "lead": "One cuff counted.",
+      "text": "The Blueberries Royal Oak cuff carries 506 leaf-shaped and brilliant-cut diamonds, 19 amethyst cabochons and 16 black spinel cabochons. That is 541 stones on Carat Capital's addition."
+     },
+     {
+      "lead": "Six cuffs in all.",
+      "text": "The report counts six bejewelled cuffs in the suite, among them a sunburst of orange and yellow sapphires with spessartites. A Frosted Gold finish appears, developed with Carolina Bucci in 2016."
+     }
+    ]
+   },
+   {
+    "h": "Jewellery outgrew watches at Richemont.",
+    "p": [
+     {
+      "lead": "Jewellery grew faster.",
+      "text": "Robb Report puts Richemont's jewellery maisons up 24% in the quarter to 30 June and its watchmakers up 8%. Both figures are that report's, not Carat Capital's count."
+     },
+     {
+      "lead": "Luxury growth was cut.",
+      "text": "The same report records Morgan Stanley reducing its 2026 luxury sector growth estimate to 2.5% in May. Audemars Piguet has published no sales figure for the new line."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Audemars Piguet's own release",
+    "what": "Whether the house publishes a piece count or any retail price, neither of which exists in the trade account this rests on."
+   },
+   {
+    "when": "Richemont's next quarterly sales",
+    "what": "Whether jewellery keeps outgrowing watches at the 24% against 8% rate cited here."
+   },
+   {
+    "when": "The next Royal Oak Joaillerie pieces",
+    "what": "Whether the suite is extended, which the report expects and the house has not confirmed."
+   }
+  ],
+  "depth": {
+   "reverse": "A single source. Everything here rests on one trade account, because Audemars Piguet has published nothing this desk could reach: the house's own collection page returned 404 on 2 October 2026. If the manufacturer's release carries a different piece count, a different stone count or a retail price, the figures above change and the desk's view that no margin can be read becomes wrong rather than cautious. The second reading that would move the call is a price: an 18-piece suite at high-jewellery money and the same suite at accessible money are two different competitive events for anyone retailing coloured stones.",
+   "built": {
+    "title": "Why a watch house sells jewellery",
+    "text": "A watch maison and a high-jewellery maison sell to overlapping clients through the same boutiques, on the same appointment, with the same credit and the same aftercare, which is why the move costs less than it looks. The constraint is not retail but the workshop: setting hundreds of cabochons and brilliant-cut stones into a titanium and gold cuff is gem-setting work, not watchmaking, and it needs setters, a stone-buying desk and a design language that survives being taken off the wrist. Audemars Piguet has had a jewellery workshop since the 1980s and made pendant and ring watches with jewellers before that, so the capability is old even though the standalone collection is new. The reason to use it now is mix: jewellery has been growing faster than watches inside the large groups, and a jewellery line sells against a client's existing watch rather than instead of it. The measure of whether it worked will be a sales line, and no house in this category publishes one for a single collection."
+   },
+   "method": "One document carries this story and it is a trade account, not a manufacturer release: Robb Report's launch report, fetched with a browser identity, 200, 419,005 bytes, saved as raw bytes before any figure was written. Exact-string grep counts in that saved file: '18-piece' one hit, '506' present in the sentence '506 leaf-shaped and brilliant-cut diamonds', '2.5 percent' one hit, '24 percent' one hit, '8 percent' one hit, 'Royal Oak Joaillerie' three hits, and 'Fashion Week' one hit in the sentence 'launching today - smack in the middle of a buzzy, media-frenzied Paris Fashion Week - is the debut', which is what dates the launch to the report's own publication date of 1 October 2026 rather than to a listing page. Audemars Piguet's own site was tried for a corroborating release and returned 404, 109,273 bytes, so the single-source limit is disclosed rather than papered over. One figure the report gives is printed only in part: it calls the Richemont period the third quarter ending June 30, which does not match Richemont's own fiscal calendar, so only the quarter-end date of 30 June is printed here and the ordinal is left out. Ilaria Resta is quoted in the report; no quotation is carried in this article and the quote count for the piece is zero. The archive was checked by opening every hit rather than counting: Audemars Piguet returns thirteen articles, every one opened, dated 14 July to 4 September 2026 and covering the resale board, a British tax paradox, a De Bethune approach, Rolex's premium, Christie's watch sales and comparable market pieces. Royal Oak returns three, all opened, none about jewellery. No article in this archive covers an Audemars Piguet jewellery collection, so the verdict is NEW: period not applicable, first coverage of this line.",
+   "prior": [
+    {
+     "date": "2026-09-04",
+     "slug": "thirty-nine-percent-at-christies",
+     "claim": "Christie's watch sales rose 39% as Guillemin took a global role"
+    },
+    {
+     "date": "2026-07-27",
+     "slug": "the-big-three-pull-away",
+     "claim": "Patek, Rolex and Audemars Piguet pulled away on the resale board"
+    },
+    {
+     "date": "2026-07-19",
+     "slug": "ap-105-million-paradox",
+     "claim": "Audemars Piguet took £105 million in Britain and returned £7.8 million"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Audemars Piguet Debuts Its First Jewelry Collection, Royal Oak Joaillerie, Robb Report",
+     "url": "https://robbreport.com/style/jewelry/audemars-piguet-first-royal-oak-jewelry-1238715008/",
+     "published": "2026-10-01"
+    }
+   ]
+  },
+  "next": {
+   "slug": "seventeen-dollars-on-platinum",
+   "why": "The metal in the new cuffs moved most on the board at press time."
+  },
+  "corrections": []
+ },
+ "seventeen-dollars-on-platinum": {
+  "v": 3,
+  "kicker": "Metals tape",
+  "seo_title": "Platinum read $1,725.00 on the Kitco bid at press time, $17.00 and 0.9953% above the 1 October mark, with palladium exactly unchanged",
+  "figures": {
+   "asof": "Kitco bid, all four metals timestamped 2026-10-02 06:00:56 EDT, written to Carat Capital's tape for 2 October 2026 under the One-Price Rule · changes computed against the paper's own printed marks for 1 October 2026",
+   "cells": [
+    {
+     "n": "$1,725.00",
+     "dir": "up",
+     "label": "Platinum, press time",
+     "q": "$17.00 above 1 October",
+     "src": 0
+    },
+    {
+     "n": "+0.9953%",
+     "dir": "up",
+     "label": "Platinum, session change",
+     "q": "widest of the four metals",
+     "src": 0
+    },
+    {
+     "n": "$4,183.90",
+     "dir": "up",
+     "label": "Gold, press time",
+     "q": "up 0.3598% on 1 October",
+     "src": 0
+    },
+    {
+     "n": "$1,170.00",
+     "label": "Palladium, unchanged",
+     "q": "second session, same number",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Platinum led the board.",
+   "text": "Platinum read $1,725.00 on the Kitco bid, $17.00 above the 1 October mark. Gold and silver also rose. Palladium was exactly unchanged."
+  },
+  "means": [
+   {
+    "who": "If you cast platinum:",
+    "text": "The metal is up 0.9953% on 1 October. Recheck making charges before quoting."
+   },
+   {
+    "who": "If you quote palladium:",
+    "text": "The bid has not moved, but the quoted spread is $40.00."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A trend. One reading against one prior mark, on a board still trading."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "The four metals at press time, against the 1 October marks",
+   "asof": "Kitco bid, 2026-10-02 06:00:56 EDT · prior marks from Carat Capital's tape for 1 October 2026",
+   "cols": [
+    "Metal",
+    "1 Oct mark",
+    "2 Oct bid",
+    "Change",
+    "Change %",
+    "Spread"
+   ],
+   "rows": [
+    [
+     "Platinum",
+     "$1,708.00",
+     "$1,725.00",
+     "+$17.00",
+     "+0.9953%",
+     "$10.00"
+    ],
+    [
+     "Silver",
+     "$60.681",
+     "$61.062",
+     "+$0.381",
+     "+0.6279%",
+     "$0.250"
+    ],
+    [
+     "Gold",
+     "$4,168.90",
+     "$4,183.90",
+     "+$15.00",
+     "+0.3598%",
+     "$2.00"
+    ],
+    [
+     "Palladium",
+     "$1,170.00",
+     "$1,170.00",
+     "$0.00",
+     "0.0000%",
+     "$40.00"
+    ]
+   ],
+   "hi": 0,
+   "note": "Both price columns are the Kitco bid, so the comparison is like with like. Every change and percentage is Carat Capital's arithmetic against the paper's own prior printed mark, not either board's own session field: platinum 1,725.00 less 1,708.00 is 17.00, and 17.00/1,708.00 = 0.9953%. Spread is the quoted ask less the bid at the same timestamp. A second board read eight minutes later, CNBC's quote service with market status REG_MKT, gave gold 4,178.67, silver 60.9908, platinum 1,723.9125 and palladium 1,186.5575; each is within 0.36% of Kitco's own mid for the same instrument, and the palladium reading falls inside Kitco's quoted 1,170.00 to 1,210.00 band, so that is spread and not divergence.",
+   "plate": "CC/2026/078"
+  },
+  "sections": [
+   {
+    "h": "Platinum moved most.",
+    "p": [
+     {
+      "lead": "Platinum led twice.",
+      "text": "Platinum rose $17.00 to $1,725.00, the largest move on the board in dollars and in percentage terms. That is 0.9953% against the 1 October mark."
+     },
+     {
+      "lead": "Gold moved least.",
+      "text": "Gold added $15.00 to $4,183.90, or 0.3598%. Platinum's percentage move is 2.77 times gold's, on Carat Capital's division."
+     }
+    ]
+   },
+   {
+    "h": "Palladium did not move.",
+    "p": [
+     {
+      "lead": "The bid held exactly.",
+      "text": "Palladium read $1,170.00, the same printed number as 1 October. The change is zero to four decimal places."
+     },
+     {
+      "lead": "Its spread is widest.",
+      "text": "The quoted ask was $1,210.00, a $40.00 spread against gold's $2.00. A single printed palladium number therefore carries the most uncertainty on the board."
+     }
+    ]
+   },
+   {
+    "h": "One board, one timestamp.",
+    "p": [
+     {
+      "lead": "Four readings, one clock.",
+      "text": "Every price above carries the same Kitco timestamp of 06:00:56 EDT. Taking one metal from one board and another from a second would not be a like comparison."
+     },
+     {
+      "lead": "A second board agreed.",
+      "text": "CNBC's quote service read platinum at 1,723.9125 eight minutes later, within 0.36% of Kitco's own mid. Its palladium reading of 1,186.5575 sits inside Kitco's quoted band."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Monday 5 October 2026",
+    "what": "Whether platinum holds above $1,725.00 into the week's first session, or gives back the $17.00."
+   },
+   {
+    "when": "LBMA fixes, 2 October 2026",
+    "what": "Whether London's afternoon fixes confirm platinum ahead of gold on the day."
+   },
+   {
+    "when": "SGE weekly withdrawals, Friday series",
+    "what": "Whether Shanghai's data shows Chinese demand behind the morning's metals move; the series was not yet published at 03:30 EDT."
+   }
+  ],
+  "depth": {
+   "reverse": "A reversal inside the session. These are intraday readings on a board that was still trading when they were taken, not settlements, and platinum's own day range at the same timestamp runs from $1,700.00 to $1,746.00. A reading at the bottom of that range would have made platinum the laggard rather than the leader, so the ranking in the headline is a fact about 06:00:56 EDT and not about the day. The one figure that cannot reverse on more data is palladium's: a bid that prints the same number twice is unchanged whatever happens next to it.",
+   "built": {
+    "title": "Why the bid, and not the mid",
+    "text": "A precious-metals board quotes two prices: a bid, which is what a dealer will pay, and an ask, which is what it will sell at. The midpoint between them is a convenience, not a tradeable level, and the gap between the two is the dealer's spread. Carat Capital prints the bid, the same basis on every metal and on every session, because the bid is the number a jeweller selling scrap or a refiner buying metal actually meets, and because comparing a bid on one day with a mid on another manufactures a change that nobody traded. The consequence shows in palladium. Its bid and ask sat $40.00 apart at the same timestamp that gold's sat $2.00 apart, so a mid-based palladium series would move whenever the spread moved, even on a day the bid did not change at all. That is exactly the case on this reading: on the bid, palladium is unchanged to four decimal places; on a mid, it would read differently from 1 October for reasons that have nothing to do with the price of palladium."
+   },
+   "method": "One board was read at press time and saved as raw bytes before any figure was written: Kitco's precious-metals page, browser identity, 200, 197,609 bytes, whose embedded __NEXT_DATA__ quote objects carry originalTime 2026-10-02T06:00:56 on all four metals, an hour after the 05:00 EDT opening mark. The bids parsed out of that saved file are gold 4183.9, silver 61.062, platinum 1725.0 and palladium 1170.0, and the asks 4185.9, 61.312, 1735.0 and 1210.0. Because those readings differ from the 05:00 marks on all four metals, all four were written back to the tape for 2 October 2026 under the One-Price Rule, with the same source named and the new 06:00:56 timestamp, and latest.json was synced in the same step; a side-by-side check of both files before the build returned MATCH on all six marks. Every change is computed against the paper's own prior printed marks for 1 October 2026 - gold 4,168.90, silver 60.681, platinum 1,708.00, palladium 1,170.00 - and never against either board's own change field: gold plus 15.00 is 0.3598%, silver plus 0.381 is 0.6279%, platinum plus 17.00 is 0.9953%, palladium plus 0.00 is 0.0000%. The multiple in the second section is 0.9953 divided by 0.3598, which is 2.766, printed as 2.77. The second board is CNBC's quote service, 200, 3,343 bytes, market status REG_MKT on all four quotes, last_time 2026-10-02T06:08 to 06:09 EDT; its readings are compared against Kitco's own mid rather than Kitco's bid, because a bid and a mid are not the same measurement. The three diamond marks on the tape - the RapNet index, the lab-grown reference and the rough index - were not re-read at press time and stand exactly as the price desk filed them at 05:00. The archive was checked by opening every hit rather than counting: the newest gold-metals article is 1 October 2026, which covers palladium's reading of $1,170.00 against the 30 September mark. Same instrument board, but its period is the 1 October session and this item's period is the 2 October session, so the verdict is ADVANCED, not a repeat, and the subject here is platinum rather than palladium.",
+   "prior": [
+    {
+     "date": "2026-10-01",
+     "slug": "eleven-seventy-on-the-widest-spread",
+     "claim": "Palladium read $1,170.00, 3.39% under the 30 September mark"
+    },
+    {
+     "date": "2026-09-29",
+     "slug": "one-sixteen-fifty-off-the-fix",
+     "claim": "Gold's London fix fell $116.50 to $4,144.55, lowest since 4 August"
+    },
+    {
+     "date": "2026-09-24",
+     "slug": "sixty-one-sixty-off-gold",
+     "claim": "Gold shed $61.60 to $4,254.50 with silver and platinum falling further"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Precious metals live board, Kitco (bid, 2026-10-02 06:00:56 EDT)",
+     "url": "https://www.kitco.com/price/precious-metals",
+     "published": "2026-10-02"
+    },
+    {
+     "title": "Metals quotes XAU=, XAG=, XPT=, XPD=, CNBC quote service (06:08-06:09 EDT)",
+     "url": "https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=XAU%3D%7CXAG%3D%7CXPT%3D%7CXPD%3D",
+     "published": "2026-10-02"
+    }
+   ]
+  },
+  "next": {
+   "slug": "one-fifty-million-in-ho-chi-minh",
+   "why": "A plant built to plate jewellery in platinum, on the morning platinum led the board."
+  },
+  "corrections": []
  }
 }

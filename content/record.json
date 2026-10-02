@@ -1,10 +1,16 @@
 {
- "updated": "30 Sep 2026",
+ "updated": "2 Oct 2026",
  "intro": "Eight weeks of the trade, kept the way a ledger should be kept — dated, sourced, and in one place. New entries are added at the top each week; the quarter's running numbers live in the Almanac below.",
  "weeks": [
   {
    "label": "This week - August 20 to September 23",
    "entries": [
+    {
+     "d": "diamonds",
+     "h": "Three undated figures come off the desk pages",
+     "t": "Corrected 2 October 2026: the standing briefing cards on diamonds.html and retail-tech.html each carried an undated lab-grown discount to natural of 86%, diamonds.html also carried \"lab-grown 1ct goods under $750\", and gold-metals.html carried \"$4,000 is the floor - tested three times, held three times\". All four figures were written as literal strings inside build.py, so they could not move when the data moved, which is the fault the chief ruled on for the LGD1 chip on 23 September 2026. The 86% figure was correct for the period of this paper's own dated report of it; against the paper's own current record it is 88.1% at 25 July 2026, and gold's own tape mark is $4,183.90 at 2 October 2026. Every one of the four has been removed rather than restated, per the standing rule that an unverified figure is null and never invented; the cards now point the reader to the dated price pages and the tape, which are driven from content/prices.json, content/lab-prices.json and the tape files. No dated article was affected and no article figure has changed. Found by the Editor's own once-per-edition sweep of the builder for figure literals, which the chief ordered on 23 September 2026; the sweep pattern used then matched assignments only and missed figures held inside tuples, which is why these four survived it.",
+     "s": "caratchief ruling of 2026-09-23 on figure literals in build.py; content/prices.json; content/lab-prices.json; newsroom/tape/2026-10-02.json"
+    },
     {
      "d": "watches",
      "h": "Four Rolex Daytonas make £37.3m at Phillips in London",
