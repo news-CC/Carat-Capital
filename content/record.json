@@ -7,6 +7,12 @@
    "entries": [
     {
      "d": "diamonds",
+     "h": "Two RAPI dates on one price page, reconciled",
+     "t": "Corrected 3 October 2026: natural-diamond-prices.html briefly carried two different claims about which RAPI point is newest. The headline block read the 2026-10-02 point at 3,912.48 while the weights table, the dual-basis table, the method note and the Rapaport source row were still dated 2026-09-28, and the 0.30-carat and dual-basis RAPI levels were still the 28 September ones. Every RAPI figure on the page now reads from the 2026-10-02 point: 0.30 ct 960, 0.50 ct 1,315, 1.00 ct 3,912, 3.00 ct 18,208. The cause was a partial edit by this paper's own editing desk during the No. 079 run, found and closed in the same run, not a wrong figure from the source. Correct as published: every 28 September level was correct for 28 September, and the IDEX column, the retail median and their dates are unaffected.",
+     "s": "Rapaport Diamond Price Index, embedded daily series read 2026-10-03, window 2026-09-02 to 2026-10-02; IDEX price drivers 2026-09-29"
+    },
+    {
+     "d": "diamonds",
      "h": "De Beers takes 100% of Gahcho Kue, Canada's last mine",
      "t": "Mountain Province agreed on 1 October 2026 to transfer its 49% participating interest in Gahcho Kue to De Beers Canada, which becomes sole owner. No cash is paid; the interest settles reclamation payments and every debt owed.",
      "s": "Mountain Province Diamonds Inc. restructuring release, 2026-10-01; Q2 2026 financial results release, 2026-08-13; JCK, 2026-10-02"
