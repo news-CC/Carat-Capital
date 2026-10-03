@@ -1,32 +1,36 @@
 {
- "date_line": "Friday, October 2, 2026 | Vol. I - No. 078",
- "edition": "Vol. I - No. 078",
+ "date_line": "Saturday, October 3, 2026 | Vol. I - No. 079",
+ "edition": "Vol. I - No. 079",
  "items": [
   {
-   "b": "PANDORA OPENS $150 MILLION VIETNAM PLANT, CAPACITY UP 50%",
-   "t": "The Ho Chi Minh City site opened 1 October, Pandora's first outside Thailand and its fourth worldwide, with room for 60 million pieces a year and 7,000 local jobs when fully operational."
+   "b": "DE BEERS TAKES 100% OF GAHCHO KUE, CANADA'S LAST MINE",
+   "t": "Mountain Province's release gives no cash consideration: its 49% goes in satisfaction of reclamation costs and every debt owed to De Beers. An option to buy back runs to 31 December 2029."
   },
   {
-   "b": "BOODLES TAKES ARGYLE'S BRAND, ONCE OVER 90% OF PINK SUPPLY",
-   "t": "Rio Tinto put no price on the transfer, completed 1 October. Boodles also acquired the last remaining Argyle pink-diamond inventory, a suite of trademarks, the website and the digital marketing assets."
+   "b": "CHOW SANG SANG'S GOLD FALLS TO 1,249 YUAN, FOOTFALL DOUBLES",
+   "t": "Chow Tai Fook reads 1,255 yuan a gram and Lao Miao 1,252, each more than 10% under the 25 August high, on 21jingji's figures. Showroom gold in Zhengzhou quoted 934 yuan."
   },
   {
-   "b": "AUDEMARS PIGUET LAUNCHES 18 JEWELS, NONE OF THEM A WATCH",
-   "t": "Royal Oak Joaillerie opened at Paris Fashion Week in gold and titanium. No retail price was published. One cuff carries 506 diamonds, 19 amethyst cabochons and 16 black spinel cabochons."
+   "b": "PLATINUM SHEDS $34 TO $1,691 ON THE 2 OCTOBER CLOSE",
+   "t": "Gold closed $4,139.80, silver $60.274 and palladium $1,152.00 on the same mark, all four lower. Kitco's own board puts the session changes smaller, measured against Thursday's close."
   },
   {
-   "b": "PLATINUM ADDS $17 TO $1,725 ON THE 1 OCTOBER MARK",
-   "t": "Silver added $0.381 to $61.062 and gold $15.00 to $4,183.90 against the same mark. Palladium was exactly unchanged at $1,170.00, with a $40.00 quoted spread against gold's $2.00."
+   "b": "META'S MUSE RUNS FREE, THEN $20 TO $100 A MONTH",
+   "t": "The agent connects Shopify, Stripe, QuickBooks, Canva and Zoom to a retailer's Facebook and Instagram accounts. Amazon has asked to be removed, Retail Dive reports."
+  },
+  {
+   "b": "RAPI'S SIZES RISE BETWEEN 0.33% AND 3.00% IN A MONTH",
+   "t": "The window runs 2 September to 2 October on Rapaport's own daily series. Gahcho Kue realised 44.4% less a carat in its latest published quarter, a rough price the polished index does not carry."
   }
  ],
- "tape_ts": "2 Oct 2026, 06:00 EDT",
+ "tape_ts": "2 Oct 2026 close, read 3 Oct 06:00 EDT",
  "tape": [
   {
    "name": "Gold / oz",
    "code": "XAU",
-   "px": "4,183.90",
-   "chg": "+0.3598% vs 1 Oct",
-   "dir": "up",
+   "px": "4,139.80",
+   "chg": "−1.0540% vs 2 Oct open",
+   "dir": "down",
    "pts": [
     2,
     5,
@@ -81,9 +85,9 @@
   {
    "name": "Platinum / oz",
    "code": "XPT",
-   "px": "1,725.00",
-   "chg": "+0.9953% vs 1 Oct",
-   "dir": "up",
+   "px": "1,691.00",
+   "chg": "−1.9710% vs 2 Oct open",
+   "dir": "down",
    "pts": [
     2,
     2,
@@ -100,9 +104,9 @@
   {
    "name": "Silver / oz",
    "code": "XAG",
-   "px": "61.062",
-   "chg": "+0.6279% vs 1 Oct",
-   "dir": "up",
+   "px": "60.274",
+   "chg": "−1.2905% vs 2 Oct open",
+   "dir": "down",
    "pts": [
     2,
     2,

@@ -1,10 +1,40 @@
 {
- "updated": "2 Oct 2026",
+ "updated": "3 Oct 2026",
  "intro": "Eight weeks of the trade, kept the way a ledger should be kept — dated, sourced, and in one place. New entries are added at the top each week; the quarter's running numbers live in the Almanac below.",
  "weeks": [
   {
    "label": "This week - August 20 to September 23",
    "entries": [
+    {
+     "d": "diamonds",
+     "h": "De Beers takes 100% of Gahcho Kue, Canada's last mine",
+     "t": "Mountain Province agreed on 1 October 2026 to transfer its 49% participating interest in Gahcho Kue to De Beers Canada, which becomes sole owner. No cash is paid; the interest settles reclamation payments and every debt owed.",
+     "s": "Mountain Province Diamonds Inc. restructuring release, 2026-10-01; Q2 2026 financial results release, 2026-08-13; JCK, 2026-10-02"
+    },
+    {
+     "d": "gold-metals",
+     "h": "Chow Sang Sang's gold falls to 1,249 yuan, footfall doubles",
+     "t": "China's three big jewellery brands quoted near 1,250 yuan a gram on 2 October, more than 10% under their August highs. Shops in Changsha, Zhengzhou and Hangzhou reported holiday queues.",
+     "s": "金价下跌掀起假期“购金潮” (Gold's fall sets off a holiday buying rush), 21jingji / National Business Daily, 2026-10-02"
+    },
+    {
+     "d": "gold-metals",
+     "h": "Platinum sheds $34 to $1,691 on the 2 October close",
+     "t": "The 2 October session closed with all four precious metals down. Platinum fell hardest, to $1,691.00 on the Kitco bid, a $34.00 loss against the 2 October opening mark.",
+     "s": "Kitco precious metals board, originalTime 2026-10-02T17:00:00Z; Carat Capital tape 2026-10-03; Newsquawk, 2026-10-01"
+    },
+    {
+     "d": "retail-tech",
+     "h": "Meta's Muse runs free, then $20 to $100 a month",
+     "t": "Meta published Muse for Small Business on 29 September 2026. The agent is free to a token allowance, then $20 to $100 a month, and connects a retailer's Facebook and Instagram accounts to outside software.",
+     "s": "Retail Dive, 2026-10-01; JCK, 2026-10-02; TNW, 2026-09-29"
+    },
+    {
+     "d": "diamonds",
+     "h": "RAPI's sizes rise between 0.33% and 3.00% in a month",
+     "t": "Rapaport's published daily series gained on every size across the 30 days to 2 October 2026. The 1-carat added 0.33% to $3,912.48, the least of the five, and the 0.30-carat 3.00%.",
+     "s": "Rapaport Diamond Price Index, embedded daily series 2026-09-02 to 2026-10-02; Mountain Province Q2 2026 release, 2026-08-13"
+    },
     {
      "d": "gold-metals",
      "h": "An undated figure comes off this desk page",

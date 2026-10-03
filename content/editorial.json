@@ -128314,5 +128314,1124 @@
    "why": "A plant built to plate jewellery in platinum, on the morning platinum led the board."
   },
   "corrections": []
+ },
+ "de-beers-takes-all-of-gahcho-kue": {
+  "v": 3,
+  "kicker": "Rough and mining",
+  "seo_title": "De Beers takes full ownership of Gahcho Kue as Mountain Province transfers its 49% interest to settle reclamation payments and joint-venture debt",
+  "figures": {
+   "asof": "Mountain Province Diamonds release, 1 October 2026, mountainprovince.com, read direct, 74,501 bytes; quarterly figures from the company's Q2 2026 release of 13 August 2026, 143,437 bytes",
+   "cells": [
+    {
+     "n": "100%",
+     "dir": "up",
+     "label": "De Beers' interest on completion",
+     "q": "it acquires the other 49%",
+     "src": 0
+    },
+    {
+     "n": "49%",
+     "label": "Interest transferring",
+     "q": "held by a Mountain Province subsidiary",
+     "src": 0
+    },
+    {
+     "n": "CAD 50",
+     "dir": "down",
+     "label": "Realised price a carat, Q2 2026",
+     "q": "CAD 90 a year earlier",
+     "src": 1
+    },
+    {
+     "n": "CAD 89.8m",
+     "dir": "down",
+     "label": "Loss from mine operations, Q2 2026",
+     "q": "the latest published quarter",
+     "src": 1
+    },
+    {
+     "n": "31 Dec 2029",
+     "label": "Buy-back option expires",
+     "q": "priced at the decommissioning share",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "De Beers takes the whole mine.",
+   "text": "Mountain Province agreed on 1 October 2026 to transfer its 49% participating interest in Gahcho Kue to De Beers Canada, which becomes sole owner. No cash is paid; the interest settles reclamation payments and every debt owed."
+  },
+  "means": [
+   {
+    "who": "If you buy Canadian rough:",
+    "text": "One seller now sets the terms at the only producing mine in the country."
+   },
+   {
+    "who": "If you hold MPVD paper:",
+    "text": "Interest and capital repayments are suspended for six months while the balance sheet is restructured."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A sale for money. No purchase price is stated and none was paid."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Gahcho Kue, the last published quarter",
+   "asof": "Mountain Province Q2 2026 release, 13 August 2026 · Canadian dollars as the company reports them · change column computed",
+   "cols": [
+    "Line",
+    "Q2 2026",
+    "Q2 2025",
+    "Change"
+   ],
+   "rows": [
+    [
+     "Carats sold",
+     "869,520",
+     "411,114",
+     "+111.5%"
+    ],
+    [
+     "Revenue",
+     "CAD 43.5m",
+     "CAD 36.8m",
+     "+18.2%"
+    ],
+    [
+     "Realised price a carat",
+     "CAD 50",
+     "CAD 90",
+     "−44.4%"
+    ],
+    [
+     "Realised price a carat, USD",
+     "US$36",
+     "US$65",
+     "−44.6%"
+    ],
+    [
+     "Cash cost a carat recovered",
+     "CAD 48",
+     "CAD 209",
+     "−77.0%"
+    ],
+    [
+     "Adjusted EBITDA",
+     "CAD 8.4m",
+     "CAD (2.2)m",
+     "not computed"
+    ],
+    [
+     "Loss from mine operations",
+     "CAD 89.8m",
+     "CAD 52.6m",
+     "+70.7%"
+    ],
+    [
+     "Net loss",
+     "CAD 120.6m",
+     "CAD 37.7m",
+     "+219.9%"
+    ]
+   ],
+   "hi": 2,
+   "note": "Every figure in the first three columns is published in Mountain Province's own Q2 2026 release of 13 August 2026 and was grepped in the saved bytes before being printed. The change column is Carat Capital's division and is not the company's figure. The realised-price row is the division to read in full: 50 over 90 is 55.6% of the prior level, which is 44.4% below it, and the US dollar pair runs 36 over 65, or 55.4% of and 44.6% below. The EBITDA row is not computed because the prior quarter is negative and a percentage change across zero carries no meaning. No figure in this table is affected by the restructuring agreement, which was signed six weeks after the release.",
+   "plate": "CC/2026/079"
+  },
+  "sections": [
+   {
+    "h": "The price is cancelled debt.",
+    "p": [
+     {
+      "lead": "No cash moves.",
+      "text": "De Beers obtains the 49% in satisfaction of remaining reclamation payments and all other debts owed to it. Those arose under the joint venture agreement of 18 March 2025 and the payment and security agreement of 24 February 2025."
+     },
+     {
+      "lead": "Debts are discharged.",
+      "text": "Mountain Province and its subsidiaries are released from the remainder of any indebtedness owed to De Beers, together with accrued and unpaid interest. The agreements themselves terminate. De Beers holds 100% of the participating interest on completion."
+     }
+    ]
+   },
+   {
+    "h": "Mountain Province keeps three doors.",
+    "p": [
+     {
+      "lead": "A buy-back runs.",
+      "text": "The company holds an option to buy the interest back at any time before 31 December 2029. It is priced at the share of decommissioning costs attributable to the interest. A right of first offer and first refusal applies if De Beers later sells."
+     },
+     {
+      "lead": "Repayments pause.",
+      "text": "Its noteholders and Dunebridge Worldwide have suspended interest and capital repayments for six months. The senior secured lien notes fall due in December 2027."
+     }
+    ]
+   },
+   {
+    "h": "Canada's last producing mine.",
+    "p": [
+     {
+      "lead": "The last operator.",
+      "text": "Mountain Province's own second-quarter release calls Gahcho Kue the last operating diamond mine in Canada. Diavik closed in March and Ekati filed for solvency in the spring, on JCK's account.",
+      "links": {
+       "Diavik closed in March": "a-diavik-sells-the-last-ore.html"
+      }
+     },
+     {
+      "lead": "Grades carried volume.",
+      "text": "The mine recovered more than 2.0 million carats in the three months to 30 June 2026, a second consecutive quarter above that level. Recovery ran 185% above the same quarter of 2025."
+     }
+    ]
+   },
+   {
+    "h": "Fifty against ninety a carat.",
+    "p": [
+     {
+      "lead": "Realisation halved.",
+      "text": "Gahcho Kue sold 869,520 carats in that quarter at CAD 50 a carat against CAD 90 a year earlier. The division is 50 over 90, or 55.6% of the prior level and 44.4% below it.",
+      "links": {
+       "869,520 carats": "a-one-eleven-up-forty-four-down.html"
+      }
+     },
+     {
+      "lead": "Operations lost money.",
+      "text": "Loss from mine operations was CAD 89.8 million against CAD 52.6 million a year earlier. The net loss was CAD 120.6 million. Cash cost fell to CAD 48 a carat recovered from CAD 209."
+     },
+     {
+      "lead": "The reason is stated.",
+      "text": "Jonathan Comerford, Mountain Province's chief executive, set the agreement against “a material decline in diamond prices over the past year”. He named tariff uncertainty and Middle East conflict."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "31 December 2029",
+    "what": "The option to buy the 49% back expires, priced at the share of decommissioning costs attributable to the interest."
+   },
+   {
+    "when": "December 2027",
+    "what": "The senior secured lien notes fall due. The six-month suspension of interest and capital repayments runs out well before that."
+   },
+   {
+    "when": "Q3 2026 results, date not published",
+    "what": "Whether the realised price a carat recovered. In August the company said its most recent sale showed an improvement it was too early to call sustained."
+   }
+  ],
+  "depth": {
+   "reverse": "A transaction that does not complete. Every ownership figure above describes the position on completion of the transaction, not on the date the agreement was signed, and the release states conditions without giving a closing date. If completion slips or fails, Mountain Province still holds the 49% and still owes the reclamation payments, and the six-month standstill from its noteholders becomes the only thing that changed. The second reading that would move the desk's view is a Q3 2026 realised price materially above CAD 50 a carat, which would make the option to 31 December 2029 look like the valuable part of this agreement rather than a courtesy.",
+   "built": {
+    "title": "What a participating interest is",
+    "text": "Gahcho Kue is held as a joint venture, not a company, so what changes hands here is a participating interest rather than a block of shares. A participating interest carries a proportionate share of the mine's output, its operating costs and its end-of-life obligations, and those obligations are the reason this transfer needs no cash. The decommissioning, reclamation and environmental clean-up costs attributable to a 49% interest are a liability that sits against the interest for as long as it is held, and they fall due whether or not the mine is earning. De Beers has been funding Mountain Province's share of them under a payment and security agreement, which is how the debt arose. Taking the interest in satisfaction of that debt therefore moves both the asset and the liability to the same balance sheet in one step. That is also what makes the buy-back option coherent: it is priced at the decommissioning share, so exercising it means re-assuming the liability rather than paying a market price for the ore."
+   },
+   "method": "Three documents were fetched with a browser identity and saved as raw bytes before any figure was written: Mountain Province's restructuring release, 200, 74,501 bytes; the company's Q2 2026 results release, 200, 143,437 bytes; and JCK's write-up, 200, 107,961 bytes. Every figure printed was grepped in the saved files. Hit counts in the restructuring release: '49%' 1, '100%' 2, 'December 31, 2029' 1, 'six-month' 1, 'December 2027' 1, 'March 18, 2025' 1, 'February 24, 2025' 1, '96,000' 1, and the quoted phrase 'material decline in diamond prices over the past year' 1. Hit counts in the Q2 2026 release: '869,520' 3, '411,114' 2, '43.5' 3, '36.8' 2, '$50 per carat' 4, '$90 per carat' 2, 'US$36' 3, 'US$65' 2, '89.8' 2, '52.6' 1, '120.6' 2, '$48 per carat' 2, '$209 per carat' 1, '185%' 2, '2.0 million carats' 1, and 'last operating diamond mine in Canada' 1. One period discrepancy in a secondary source is disclosed rather than carried: JCK's write-up gives the mine's production context as 'the first quarter', with 858,173 carats sold for $29.2 million at $34 a carat against $72 a year earlier, each string grepped once in the saved JCK bytes. Mountain Province's own newest financial release is for the second quarter ended 30 June 2026, published 13 August 2026 and titled as Q2 2026 on the company's own news index. The quarterly figures above are therefore taken from the company's later quarter at the primary, and JCK's first-quarter figures are not printed as current. JCK's page states that its news desk uses AI to produce first drafts and that this story was reviewed by a staff writer. ARCHIVE, periods on both sides: Mountain Province and Gahcho Kue, ours 2026-08-18 'one-eleven-up-forty-four-down' covers Q2 2026 trading, the three months to 30 June 2026 (869,520 carats at CAD 50) | the new item is a corporate transaction dated 1 October 2026 transferring the 49% participating interest, a different event in a different period with no overlapping headline figure. DIFFERENT PERIOD and different event type, so NEW rather than advanced. Four archive hits for 'Gahcho' were opened and read, not counted: 2026-07-14 on the Venetia pause, 2026-07-24 on De Beers' second-quarter production, 2026-08-18 on Mountain Province's own quarter and 2026-08-18 on Asian Star. None reports a change of ownership at Gahcho Kue. A search for 'De Beers Canada' returns zero hits in the archive.",
+   "prior": [
+    {
+     "date": "2026-08-18",
+     "slug": "one-eleven-up-forty-four-down",
+     "claim": "Gahcho Kue sold 111% more carats at 44% less a carat"
+    },
+    {
+     "date": "2026-07-26",
+     "slug": "diavik-sells-the-last-ore",
+     "claim": "Diavik closed and still produced 33,000 carats"
+    },
+    {
+     "date": "2026-07-24",
+     "slug": "de-beers-eighty-eight-up",
+     "claim": "De Beers dug 88% more and banked 44% less"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Mountain Province Diamonds Inc. Announces Comprehensive Restructuring Agreement to Strengthen its Financial Position, Mountain Province Diamonds Inc.",
+     "url": "https://www.mountainprovince.com/2026-10-01-Mountain-Province-Diamonds-Inc-Announces-Comprehensive-Restructuring-Agreement-to-Strengthen-its-Financial-Position",
+     "published": "2026-10-01"
+    },
+    {
+     "title": "Mountain Province Diamonds Announces Second Quarter Financial Results for 2026, Mountain Province Diamonds Inc.",
+     "url": "https://www.mountainprovince.com/2026-08-13-Mountain-Province-Diamonds-Announces-Second-Quarter-Financial-Results-for-2026",
+     "published": "2026-08-13"
+    },
+    {
+     "title": "De Beers to Hold Full Stake in Gahcho Kue Diamond Mine, JCK",
+     "url": "https://www.jckonline.com/editorial-article/de-beers-gahcho-kue-mine/",
+     "published": "2026-10-02"
+    }
+   ]
+  },
+  "next": {
+   "slug": "one-eleven-up-forty-four-down",
+   "why": "The quarter whose figures this transaction is settled against, reported at the time."
+  },
+  "corrections": []
+ },
+ "twelve-forty-nine-and-doubled-footfall": {
+  "v": 3,
+  "kicker": "Gold retail",
+  "seo_title": "China's three largest gold-jewellery brands quote near 1,250 yuan a gram for National Day as shop footfall doubles",
+  "figures": {
+   "asof": "21jingji, published 2 October 2026 19:28 Beijing time, carrying National Business Daily and three regional outlets; page read direct, 38,036 bytes",
+   "cells": [
+    {
+     "n": "1,249",
+     "dir": "down",
+     "label": "Chow Sang Sang, yuan a gram",
+     "q": "2 October, from 1,408 on 25 August",
+     "src": 0
+    },
+    {
+     "n": "1,255",
+     "dir": "down",
+     "label": "Chow Tai Fook, yuan a gram",
+     "q": "from 1,410 on 25 August",
+     "src": 0
+    },
+    {
+     "n": "1,252",
+     "dir": "down",
+     "label": "Lao Miao, yuan a gram",
+     "q": "from 1,407 on 25 August",
+     "src": 0
+    },
+    {
+     "n": "934",
+     "label": "Zhengzhou showroom jewellery gold",
+     "q": "1 October, before labour fees",
+     "src": 0
+    },
+    {
+     "n": "11.3%",
+     "dir": "down",
+     "label": "Chow Sang Sang against its August high",
+     "q": "Carat Capital's division",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Cheaper gold brought buyers.",
+   "text": "China's three big jewellery brands quoted near 1,250 yuan a gram on 2 October, more than 10% under their August highs. Shops in Changsha, Zhengzhou and Hangzhou reported holiday queues."
+  },
+  "means": [
+   {
+    "who": "If you sell gold jewellery:",
+    "text": "A lower gram price moved units, not margin; labour-fee discounts did the rest."
+   },
+   {
+    "who": "If you price bullion:",
+    "text": "Bar and coin sales did not rise with the jewellery, on the same report."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A price floor. Half-hour swings of 10 yuan a gram were reported on the same day."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Three counters against the 25 August high",
+   "asof": "21jingji, 2 October 2026 · yuan a gram · last two columns computed",
+   "cols": [
+    "Brand",
+    "25 August",
+    "2 October",
+    "Fall, yuan",
+    "% of the high",
+    "% below"
+   ],
+   "rows": [
+    [
+     "Chow Sang Sang",
+     "1,408",
+     "1,249",
+     "159",
+     "88.7%",
+     "11.3%"
+    ],
+    [
+     "Chow Tai Fook",
+     "1,410",
+     "1,255",
+     "155",
+     "89.0%",
+     "11.0%"
+    ],
+    [
+     "Lao Miao",
+     "1,407",
+     "1,252",
+     "155",
+     "89.0%",
+     "11.0%"
+    ]
+   ],
+   "hi": 0,
+   "note": "The first four columns are published in 21jingji's own text and each figure was grepped in the saved bytes before being printed. The last two columns are Carat Capital's division, printed as a pair so the two readings cannot be confused: 1,249 over 1,408 is 88.7% of the August high, which is 11.3% below it. The source states only that all three falls exceed 10%, and all three do. These are brand counter prices for finished jewellery, which carry labour and brand charges, and they are not the same instrument as the Shanghai benchmark or a bar price. The 25 August level is described by the source as a near-three-month high, not an all-time high.",
+   "plate": "CC/2026/079"
+  },
+  "sections": [
+   {
+    "h": "Three counters, one level.",
+    "p": [
+     {
+      "lead": "Near twelve-fifty.",
+      "text": "Chow Sang Sang read 1,249 yuan a gram against 1,408 on 25 August. Chow Tai Fook read 1,255 against 1,410, and Lao Miao 1,252 against 1,407."
+     },
+     {
+      "lead": "The falls are stated.",
+      "text": "The source gives the declines in yuan as well as levels: 159 yuan for Chow Sang Sang and 155 each for the other two. All three exceed 10% of the August level."
+     }
+    ]
+   },
+   {
+    "h": "Shops report doubled traffic.",
+    "p": [
+     {
+      "lead": "Changsha doubled.",
+      "text": "A Chow Sang Sang shop in Changsha reported sales recovering in the week before the holiday and first-day footfall doubling, with buyers assembling wedding sets."
+     },
+     {
+      "lead": "Zhengzhou quoted 934.",
+      "text": "A Zhengzhou jewellery hall quoted showroom gold at 934 yuan a gram on 1 October, nearly 10 yuan lower on the day. National Day labour-fee discounts were added on top. Staff named buyers travelling from Qingdao."
+     },
+     {
+      "lead": "Hangzhou posted 979.",
+      "text": "A noticeboard at Hangzhou's Baima jewellery market carried 999 fine gold at 979 yuan a gram and 9999 at 989. It was read on the morning of 1 October."
+     }
+    ]
+   },
+   {
+    "h": "Bars did not follow.",
+    "p": [
+     {
+      "lead": "Bars lagged jewellery.",
+      "text": "Staff said gold and silver bar sales had not risen in step with jewellery, citing volatility. Swings of 10 yuan a gram inside half an hour were reported, which is 0.8% of the counter level."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Next counter reading",
+    "what": "Whether the three brands hold near 1,250 yuan a gram once National Day labour-fee discounts end. The source publishes no end date for the discounts."
+   },
+   {
+    "when": "25 August 2026",
+    "what": "The reference level the three counters are measured against, at 1,408, 1,410 and 1,407 yuan a gram. A new high would reset every percentage above."
+   },
+   {
+    "when": "2026 full year",
+    "what": "HSBC's cut average forecast of USD 4,490 an ounce, against the USD 4,139.80 close the tape carries for 2 October. Covered in the metals piece in this edition."
+   }
+  ],
+  "depth": {
+   "reverse": "A holiday that borrows from November. Every demand figure above is a shop-floor report during an eight-day public holiday with labour-fee discounts running, which is the single best week of the Chinese retail year to find a queue. Doubled footfall against an ordinary Tuesday is not evidence of a demand recovery; it is evidence of a holiday. The reading that would reverse the desk's view is a counter level holding near 1,250 yuan with footfall still elevated once the discounts come off, and the honest answer is that the source gives no date on which to test that.",
+   "built": {
+    "title": "What a brand counter price is",
+    "text": "A Chinese brand gold counter price is the per-gram asking price a chain posts for finished jewellery, and it is not a bullion price. It is built from a reference gold price, which the brands reset daily and often intraday, plus a labour or craft charge that varies by piece and a brand premium. That is why the three brands in the table sit within 6 yuan of each other on 2 October and why the Zhengzhou showroom figure of 934 yuan and the Hangzhou market quotes of 979 and 989 yuan are all lower than the brand counters without contradicting them: those are different goods at a different point in the chain, raw fine gold rather than branded finished jewellery. It also explains why a labour-fee discount moves a buyer's bill without moving the posted gram price, and why bar sales can stay flat while jewellery sells, since a bar carries almost none of the charge that a discount can be cut from. For a reader pricing against these figures, the per-gram counter number is the headline a Chinese consumer sees, not a number anyone in the trade settles on."
+   },
+   "method": "The source page was fetched with a browser identity and saved as raw bytes before any figure was written: 200, 38,036 bytes, with the publication timestamp '2026年10月02日 19:28' carried in the page's own text and attributed to National Business Daily. Every figure printed was grepped in those saved bytes, with hit counts: '1408' 1, '1249' 1, '1410' 1, '1255' 1, '1407' 1, '1252' 1, '159' 1, '155' 2, '1250' 1, '934' 2, '979' 1, '989' 1, and the source's own claim '超过10%' 1. One figure the page carries was refused: it gives spot gold at 4,184.596 dollars an ounce at the moment of filing, which is a reading from 07:28 New York time on 2 October and not the session's close. The tape's own figure for the completed 2 October session is 4,139.80, so printing the page's intraday number beside it would put two unlike readings on one surface. The percentage figures in the last two table columns are Carat Capital's arithmetic on the source's own levels, not the source's percentages, and the source states only that all three falls exceed 10%. The shop-floor reports are attributed in the source to three named regional outlets, Sanxiang City Express in Changsha, Dahe Daily in Zhengzhou and Zhejiang Economic Television in Hangzhou, and they are reported here as what those outlets described rather than as independently verified footfall. No footfall figure is published by any brand. ARCHIVE, periods on both sides: China's big-three gold counters, ours 2026-09-30 'twelve-forty-five-off-the-august-high' covers the 29 September session (Chow Sang Sang 1,245) | ours 2026-10-01 'twelve-sixty-two-and-a-flat-counter' covers the 30 September session (Chow Sang Sang 1,257, Chow Tai Fook 1,259, Lao Miao 1,242) | this item covers the 2 October session (1,249, 1,255, 1,252). DIFFERENT PERIOD, so ADVANCED, not a repeat. Both prior articles were opened and read, not counted. Neither carries the National Day demand response, the doubled-footfall report, the Zhengzhou showroom figure of 934 yuan or the Hangzhou market quotes, which is why the headline here is the demand rather than the percentage under the high, a framing this archive has now carried twice.",
+   "prior": [
+    {
+     "date": "2026-10-01",
+     "slug": "twelve-sixty-two-and-a-flat-counter",
+     "claim": "Lao Miao's counter sat flat while two rivals moved"
+    },
+    {
+     "date": "2026-09-30",
+     "slug": "twelve-forty-five-off-the-august-high",
+     "claim": "Chow Sang Sang read 1,245 yuan, 11.6% under the high"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Gold's fall sets off a holiday buying rush, with footfall surging at jewellery counters in several cities, 21jingji (National Business Daily)",
+     "url": "https://www.21jingji.com/article/20261002/herald/b812e3a16083c59308ab16ba6a840a6f.html",
+     "published": "2026-10-02"
+    }
+   ]
+  },
+  "next": {
+   "slug": "twelve-sixty-two-and-a-flat-counter",
+   "why": "The same three counters two sessions earlier, before the holiday rush."
+  },
+  "corrections": []
+ },
+ "platinum-sheds-thirty-four-to-sixteen-ninety-one": {
+  "v": 3,
+  "kicker": "Prices and markets",
+  "seo_title": "Platinum closes the 2 October session at $1,691.00 as all four precious metals finish lower on the Kitco bid",
+  "figures": {
+   "asof": "Kitco live board, originalTime 2026-10-02T17:00:00Z on all four metals, read direct at press time, 197,730 bytes; bids as carried by the Carat Capital tape for 3 October 2026",
+   "cells": [
+    {
+     "n": "$1,691.00",
+     "dir": "down",
+     "label": "Platinum",
+     "q": "−$34.00 against the 2 October opening mark",
+     "src": 0
+    },
+    {
+     "n": "$4,139.80",
+     "dir": "down",
+     "label": "Gold",
+     "q": "−$44.10",
+     "src": 0
+    },
+    {
+     "n": "$60.274",
+     "dir": "down",
+     "label": "Silver",
+     "q": "−$0.788",
+     "src": 0
+    },
+    {
+     "n": "$1,152.00",
+     "dir": "down",
+     "label": "Palladium",
+     "q": "−$18.00",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Every metal finished lower.",
+   "text": "The 2 October session closed with all four precious metals down. Platinum fell hardest, to $1,691.00 on the Kitco bid, a $34.00 loss against the 2 October opening mark."
+  },
+  "means": [
+   {
+    "who": "If you quote metal over the weekend:",
+    "text": "The board is frozen at Friday's close; there is no Saturday session to read."
+   },
+   {
+    "who": "If you bought on Friday morning:",
+    "text": "Platinum is $34.00 cheaper an ounce by the close, gold $44.10."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A single day's move on the house figures. Those run from Friday morning to Friday's close."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "The 2 October session, bid to bid",
+   "asof": "Kitco, originalTime 2026-10-02T17:00:00Z · USD an ounce · two change bases shown",
+   "cols": [
+    "Metal",
+    "2 Oct close, bid",
+    "Session high",
+    "Session low",
+    "Change vs opening mark",
+    "Kitco's session change"
+   ],
+   "rows": [
+    [
+     "Gold",
+     "4,139.80",
+     "4,226.20",
+     "4,124.50",
+     "−44.10",
+     "−36.70 (−0.8787%)"
+    ],
+    [
+     "Silver",
+     "60.274",
+     "62.201",
+     "59.573",
+     "−0.788",
+     "−0.591 (−0.9710%)"
+    ],
+    [
+     "Platinum",
+     "1,691.00",
+     "1,749.00",
+     "1,671.00",
+     "−34.00",
+     "−23.00 (−1.3419%)"
+    ],
+    [
+     "Palladium",
+     "1,152.00",
+     "1,227.00",
+     "1,143.00",
+     "−18.00",
+     "−12.00 (−1.0309%)"
+    ]
+   ],
+   "hi": 2,
+   "note": "Closes, highs and lows are Kitco's own published fields for the 2 October session and each digit was grepped in the saved page before being printed. The two change columns use different bases and both are correct. 'Change vs opening mark' is measured against the 2 October morning reading the tape carried at 06:00 and printed in the previous edition, so it spans one morning to the same day's close. Kitco's session change is measured against the previous session's close. The percentages in the last column are Kitco's own changePercentage field rounded to four decimals; the raw values are in the saved bytes. Platinum is the largest faller on both bases, so nothing in the ranking of the four depends on which base a reader prefers.",
+   "plate": "CC/2026/079"
+  },
+  "sections": [
+   {
+    "h": "Platinum fell the furthest.",
+    "p": [
+     {
+      "lead": "Platinum lost most.",
+      "text": "Platinum closed $1,691.00, down $34.00 against the opening mark and $23.00 on Kitco's own session change of 1.3419%. It is the largest faller on either base."
+     },
+     {
+      "lead": "Gold gave up forty-four.",
+      "text": "Gold closed $4,139.80, a fall of $44.10 against the opening mark, against Kitco's session change of $36.70, or 0.8787%. Silver closed $60.274 and palladium $1,152.00."
+     },
+     {
+      "lead": "Ranges were wide.",
+      "text": "Gold traded between $4,124.50 and $4,226.20, a span of $101.70, and closed $15.30 above the session low. Platinum ranged $1,671.00 to $1,749.00."
+     }
+    ]
+   },
+   {
+    "h": "The board is frozen.",
+    "p": [
+     {
+      "lead": "One timestamp, four metals.",
+      "text": "All four metals carry the identical originalTime of 2026-10-02T17:00:00Z, which appears nine times in the saved page. An identical freeze across four instruments is the board's own evidence of a closed session."
+     },
+     {
+      "lead": "Two bases, both true.",
+      "text": "The change against the opening mark runs from the 2 October morning reading to the same day's close. Kitco's change field runs from the previous session's close, which is why it is smaller on all four."
+     }
+    ]
+   },
+   {
+    "h": "Palladium quotes forty wide.",
+    "p": [
+     {
+      "lead": "Forty dollars wide.",
+      "text": "Palladium's bid of $1,152.00 against an ask of $1,192.00 is $40.00 wide, or 3.47% of the bid. Gold's spread is $2.00, platinum's $10.00 and silver's $0.250."
+     },
+     {
+      "lead": "Gold trades tightest.",
+      "text": "Gold's $2.00 spread is 0.048% of its bid, the narrowest of the four by a wide margin. A spread is a quoted cost of dealing, not a price move."
+     }
+    ]
+   },
+   {
+    "h": "HSBC trims its forecast.",
+    "p": [
+     {
+      "lead": "Four-four-ninety for 2026.",
+      "text": "HSBC cut its 2026 average gold forecast on 1 October, to $4,490 an ounce from $4,560. The bank said gold may be nearing a bottom after further short-term pressure."
+     },
+     {
+      "lead": "Still above the close.",
+      "text": "The cut average sits above Friday's close. The division is 4,139.80 over 4,490, or 92.2% of the forecast and 7.8% below it. The new number implies a level above where the metal finished."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Monday 5 October 2026",
+    "what": "The next session, and whether platinum holds $1,691.00 and gold $4,139.80. No 3 or 4 October session exists to read."
+   },
+   {
+    "when": "December 2026",
+    "what": "The further US rate rise HSBC's economists are reported to expect, named as a reason the bank trimmed its average."
+   },
+   {
+    "when": "2026 full year",
+    "what": "Whether HSBC's $4,490 average survives the final quarter. With three months left most of that average is already realised, and the realised year-to-date average is not computable from the sources read here."
+   }
+  ],
+  "depth": {
+   "reverse": "A base that flatters the fall. The largest figures above, the $44.10 on gold and the $34.00 on platinum, are measured against a morning reading rather than a previous close, and a morning reading taken at the top of an intraday range will always produce the bigger number. Kitco's own session changes are the smaller and more conventional measure, and they are printed beside the house figures for exactly that reason. If a reader cares only about session-over-session direction, the right column is the right one and the falls are 0.88% to 1.34% rather than 1.05% to 1.97%. What would not change on either base is the ranking: platinum fell most and gold least.",
+   "built": {
+    "title": "Why a bid and an ask differ",
+    "text": "Every figure in the close column is a bid, the price a dealer will pay, and the ask beside it is the price the same dealer will sell at. The gap between them is the spread, and it is a quoted cost of dealing rather than a market move: a metal whose spread widens has not fallen, it has become more expensive to trade. The spread is set by how much inventory a dealer must carry and how easily it can be hedged, which is why gold at $2.00 on a $4,139.80 bid is the tightest of the four and palladium at $40.00 on an $1,152.00 bid is the widest by a factor of seventy-two on the same division. Palladium is the thinnest of the four markets by volume and its spread reflects that, not a view on its price. The house convention since 31 August 2026 is to carry the bid as the single mark, so every price above is a bid and the asks are stated only to size the spreads."
+   },
+   "method": "Kitco's board was fetched with a browser identity at press time and saved as raw bytes before any figure was written: 200, 197,730 bytes. The press-time re-read under the One-Price Rule returned the same values the tape filed at 05:00, so the opening mark stands and no write-back was needed. Each digit printed was grepped in the saved page, with hit counts: '4139.8' 2, '4141.8' 1, '4226.2' 1, '4124.5' 1, '60.274' 2, '60.524' 1, '62.201' 1, '59.573' 1, '1691' 2, '1701' 1, '1749' 1, '1671' 1, '1152' 5, '1192' 1, '1227' 1, '1143' 1, and the frozen stamp 'originalTime\":\"2026-10-02T17:00:00Z' 9. The percentage figures in the right column are Kitco's own changePercentage field; the raw float substrings '0.878726', '0.971001', '1.341890' and '1.030927' each return 2 hits in the saved bytes and are printed rounded to four decimals. MARKET STATE, READ OFF THE BOARD: the identical originalTime across four separate instruments, nine hits, is the page's own evidence that no session is running; no closure is claimed from a calendar. Spreads and ranges are Carat Capital's subtraction on Kitco's own bid, ask, high and low fields. The HSBC figures were checked on a second door rather than taken from one: Newsquawk's page, 200, 271,363 bytes, datePublished 2026-10-01T12:22:57Z, returns 13 hits each for '4490' and '4560' and carries the bank's own framing about nearing a bottom. The 2027 pair, 4,825 from 4,925, is NOT printed in this article: Newsquawk returns zero hits for both digits and TradingView's page returned 200 with zero hits for all four, so only the 2026 figures are carried, each on two independent doors. ARCHIVE, periods on both sides: ours 2026-10-02 'seventeen-dollars-on-platinum' covers the 2 October OPENING mark (platinum 1,725.00 at 06:00:56) | this item covers the 2 October session's CLOSE (platinum 1,691.00 at 17:00:00Z). Same instrument, same calendar day, different reading and different period within it, with no shared headline figure. ADVANCED, not a repeat. A search for HSBC in the archive returns zero hits, so the forecast cut is NEW.",
+   "prior": [
+    {
+     "date": "2026-10-02",
+     "slug": "seventeen-dollars-on-platinum",
+     "claim": "Platinum added $17.00 to $1,725.00 on the opening mark"
+    },
+    {
+     "date": "2026-10-01",
+     "slug": "eleven-seventy-on-the-widest-spread",
+     "claim": "Palladium held $1,170.00 on the widest quoted spread"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Precious metals live board, Kitco",
+     "url": "https://www.kitco.com/price/precious-metals",
+     "published": "2026-10-02T17:00:00Z"
+    },
+    {
+     "title": "Carat Capital tape, 3 October 2026, covering the 2 October session",
+     "url": "https://caratcapital.org/the-record.html",
+     "published": "2026-10-03"
+    },
+    {
+     "title": "HSBC cuts its 2026 average gold price forecast to USD 4,490/oz (prev. USD 4,560/oz), Newsquawk",
+     "url": "https://www.newsquawk.com/headlines/hsbc-cuts-its-2026-average-gold-price-forecast-to-usd-4490oz-prev-usd-4560oz",
+     "published": "2026-10-01T12:22:57Z"
+    }
+   ]
+  },
+  "next": {
+   "slug": "seventeen-dollars-on-platinum",
+   "why": "The same four metals at the 2 October opening, the mark these closes are measured against."
+  },
+  "corrections": []
+ },
+ "muse-runs-free-then-twenty-to-a-hundred": {
+  "v": 3,
+  "kicker": "Retail technology",
+  "seo_title": "Meta's Muse for Small Business is free to a token allowance then $20 to $100 a month, and two trade accounts name different integrations",
+  "figures": {
+   "asof": "Meta's blog post of 29 September 2026 as reported by Retail Dive, published 1 October 2026, read direct, 225,533 bytes; integration lists cross-read against JCK, 2 October 2026, 108,678 bytes",
+   "cells": [
+    {
+     "n": "$20–$100",
+     "label": "Paid tier, a month",
+     "q": "above a free token allowance, on Retail Dive's reporting",
+     "src": 0
+    },
+    {
+     "n": "29 Sep",
+     "label": "Meta's blog post",
+     "q": "trade pickup ran 1 and 2 October",
+     "src": 0
+    },
+    {
+     "n": "7",
+     "label": "Platforms named by Retail Dive",
+     "q": "a different subset from JCK's",
+     "src": 0
+    },
+    {
+     "n": "8",
+     "label": "Platforms named by JCK",
+     "q": "five names overlap",
+     "src": 1
+    },
+    {
+     "n": "8 Sep",
+     "label": "Consumer Muse blog post",
+     "q": "US and Canada, per Retail Dive",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Meta put a price on it.",
+   "text": "Meta published Muse for Small Business on 29 September 2026. The agent is free to a token allowance, then $20 to $100 a month, and connects a retailer's Facebook and Instagram accounts to outside software."
+  },
+  "means": [
+   {
+    "who": "If you run one counter:",
+    "text": "The free tier covers reading your own social performance before any store data is connected."
+   },
+   {
+    "who": "If you connect your till:",
+    "text": "Approval can be required before Muse buys or publishes, on Meta's own account."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A jewellery tool. No source names a single jewellery integration or trade platform."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Which integrations each account names",
+   "asof": "Retail Dive, 1 October 2026 · JCK, 2 October 2026 · neither list states that it is complete",
+   "cols": [
+    "Platform",
+    "Named by Retail Dive",
+    "Named by JCK"
+   ],
+   "rows": [
+    [
+     "Shopify",
+     "yes",
+     "yes"
+    ],
+    [
+     "Stripe",
+     "yes",
+     "yes"
+    ],
+    [
+     "QuickBooks",
+     "yes",
+     "yes"
+    ],
+    [
+     "Canva",
+     "yes",
+     "yes"
+    ],
+    [
+     "Zoom",
+     "yes",
+     "yes"
+    ],
+    [
+     "Asana",
+     "yes",
+     "no"
+    ],
+    [
+     "Box",
+     "yes",
+     "no"
+    ],
+    [
+     "Klaviyo",
+     "no",
+     "yes"
+    ],
+    [
+     "Slack",
+     "no",
+     "yes"
+    ],
+    [
+     "Dropbox",
+     "no",
+     "yes"
+    ]
+   ],
+   "hi": 0,
+   "note": "Each cell was established by grepping the saved bytes of both pages for the platform name: Asana and Box return 1 hit each in Retail Dive and zero in JCK; Klaviyo, Slack and Dropbox return 2 hits each in JCK and zero in Retail Dive; Shopify, Stripe, QuickBooks, Canva and Zoom return hits in both. Both accounts end their list with wording that leaves it open, 'other platforms' in Retail Dive and 'and others' in JCK, so the table shows what each one names and not what Muse supports. Retail Dive names 7 platforms and JCK 8, with 5 in common and 10 distinct platforms between them. Meta's consumer version of Muse launched for US and Canadian users in a blog post of 8 September 2026, per Retail Dive. Neither account names a jewellery-trade platform, a point-of-sale system used by jewellers or a diamond-inventory service.",
+   "plate": "CC/2026/079"
+  },
+  "sections": [
+   {
+    "h": "Two accounts, two lists.",
+    "p": [
+     {
+      "lead": "Lists do not match.",
+      "text": "Retail Dive names seven third-party platforms and JCK names eight, and the two sets are not the same. Asana and Box appear only in one; Klaviyo, Slack and Dropbox only in the other."
+     },
+     {
+      "lead": "Five names overlap.",
+      "text": "Shopify, Stripe, QuickBooks, Canva and Zoom appear on both lists. Neither account states that its list is complete, so no total for the product is printed here."
+     }
+    ]
+   },
+   {
+    "h": "Pricing sits above free.",
+    "p": [
+     {
+      "lead": "Twenty to a hundred.",
+      "text": "Retail Dive puts the charge at $20 to $100 a month for usage beyond a free token allowance. Neither account states the size of that allowance."
+     },
+     {
+      "lead": "The gap matters.",
+      "text": "The unpublished allowance is the figure a single-counter jeweller needs, because it decides whether the free tier ever runs out in a holiday quarter."
+     }
+    ]
+   },
+   {
+    "h": "Amazon asked to leave.",
+    "p": [
+     {
+      "lead": "Amazon wants out.",
+      "text": "Retail Dive reports Amazon asked Meta to take its e-commerce site off the Muse platform, not having consented to being available on it."
+     },
+     {
+      "lead": "Litigation runs alongside.",
+      "text": "It follows Amazon's case against Perplexity over an AI agent making purchases, in which a US appeals court overturned a temporary order in August."
+     }
+    ]
+   },
+   {
+    "h": "Approval is the control.",
+    "p": [
+     {
+      "lead": "Humans can gate it.",
+      "text": "Businesses can require human approval before Muse buys or publishes anything, on Meta's own account as reported."
+     },
+     {
+      "lead": "Data handling is stated.",
+      "text": "A Meta spokesperson told Retail Dive the agent uses single-card numbers for new merchants and collects no password or payment information. It does not share virtual machine data with Meta's advertising systems."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Amazon's request",
+    "what": "Whether Meta removes Amazon's site from Muse. Retail Dive dates the request to the week before 1 October 2026 and reports no Meta response."
+   },
+   {
+    "when": "The Perplexity case",
+    "what": "Amazon's litigation continues after a US appeals court overturned a temporary purchase ban in August 2026."
+   },
+   {
+    "when": "Token allowance, size not published",
+    "what": "Neither account states how many tokens the free tier carries, which is what decides whether a single-store jeweller ever pays."
+   }
+  ],
+  "depth": {
+   "reverse": "A tool with no jewellery in it. Every integration named across both accounts is horizontal software, a storefront, a till, a ledger or a design tool, and nothing in either list touches the systems a jeweller actually runs a counter on: no point-of-sale used in the trade, no diamond-inventory feed, no memo or consignment tracking. That is why the desk's view stops at reading your own social performance. The reading that would change it is a published integration with a jewellery-trade system, or a published token allowance large enough that the free tier covers a full holiday quarter of customer messages.",
+   "built": {
+    "title": "What a token allowance decides",
+    "text": "Pricing an agent by tokens rather than by seat or by action means the bill moves with how much text the model reads and writes, not with how many people use it or how many jobs it finishes. A token is roughly a short word or a fragment of one, so a long thread of customer messages, a month of ad performance data or a full product catalogue each consume them at very different rates for jobs that feel the same size to the person asking. The consequence for a small retailer is that the published price range, $20 to $100 a month, is a cap on usage tiers rather than a price for a task, and the figure that determines which tier a single-counter jeweller lands in is the size of the free allowance underneath it. Neither trade account read here publishes that number, which is why it is printed above as a gap rather than estimated. Until it is published, the honest statement is the range and the condition attached to it, not a monthly cost for a jewellery business."
+   },
+   "method": "Three pages were fetched with a browser identity and saved as raw bytes before any figure was written: Retail Dive, 200, 225,533 bytes, published 1 October 2026, byline Tatiana Walk-Morris; JCK, 200, 108,678 bytes, published 2 October 2026, byline Brittany Siminitz; and TNW, 200, 203,603 bytes, JSON-LD datePublished 2026-09-29T12:30:13+00:00. The event date is established from the release-body dateline rather than a pickup date: Retail Dive states the announcement came in a blog post 'on Tuesday' against its own 1 October publication, and 29 September 2026 is the Tuesday of that week, which TNW's datePublished independently confirms. The price string '$20 to $100' returns 1 hit in the saved Retail Dive bytes and zero in JCK, which gives no figure at all and says only that paid plans exist; the price is therefore attributed to Retail Dive alone. 'Sept. 8' returns 1 hit in Retail Dive, dating the consumer launch blog post. Each platform name in the table was grepped in both saved files and the hit counts are given in the table note. Meta's own announcement could not be read at the primary: the URL pattern linked from JCK returned 400 and two candidate about.fb.com newsroom paths returned 404, so no figure here is sourced to Meta's own page and every attribution to Meta is marked as reported by the outlet that carried it. Search results from several low-quality aggregator domains were seen and not used. ARCHIVE, periods on both sides: a search of content/articles.json for 'Muse' returns seven hits, every one opened and read, and none concerns Meta or an AI agent: five are the Lalique heist, a couture-week piece, a diamond-maths explainer, a Bonhams sale and the Apollo Gallery reopening, where the word appears in 'museum'; the remaining two are a Zales self-purchase piece and the Vienna necklace piece, same reason. A search for 'Meta' as a company returns no article about an AI product. NEW: period not applicable, first coverage of this product in this archive.",
+   "prior": [
+    {
+     "date": "2026-09-23",
+     "slug": "council-becomes-collective",
+     "claim": "The Natural Diamond Council renamed itself The Diamond Collective"
+    },
+    {
+     "date": "2026-09-25",
+     "slug": "six-percent-to-december-twenty-four",
+     "claim": "Mastercard forecast 6% US holiday growth, online up 11%"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Meta debuts AI agent for small businesses, Retail Dive",
+     "url": "https://www.retaildive.com/news/meta-debuts-ai-agent-muse-small-businesses/831890/",
+     "published": "2026-10-01"
+    },
+    {
+     "title": "Meta Introduces Muse For Small Businesses, JCK",
+     "url": "https://www.jckonline.com/editorial-article/meta-muse-small-businesses/",
+     "published": "2026-10-02"
+    },
+    {
+     "title": "Meta launches Muse for small businesses, linking its AI agent to Shopify, TNW",
+     "url": "https://thenextweb.com/news/meta-muse-small-business-ai-agent",
+     "published": "2026-09-29T12:30:13Z"
+    }
+   ]
+  },
+  "next": {
+   "slug": "six-percent-to-december-twenty-four",
+   "why": "The holiday quarter this tool is pitched at, and what is forecast to be spent in it."
+  },
+  "corrections": []
+ },
+ "five-sizes-rise-while-rough-falls": {
+  "v": 3,
+  "kicker": "Polished prices",
+  "seo_title": "All five RAPI sizes rose over the 30 days to 2 October 2026 while the rough price a Canadian mine realised fell 44.4% year on year",
+  "figures": {
+   "asof": "Rapaport Diamond Price Index, embedded daily series, window 2 September to 2 October 2026, 31 points per size · page read direct, 305,223 bytes",
+   "cells": [
+    {
+     "n": "+3.00%",
+     "dir": "up",
+     "label": "0.30-carat over the window",
+     "q": "to $959.58, the largest of the five",
+     "src": 0
+    },
+    {
+     "n": "+0.33%",
+     "dir": "up",
+     "label": "1-carat over the window",
+     "q": "to $3,912.48, the smallest",
+     "src": 0
+    },
+    {
+     "n": "5 of 5",
+     "label": "Sizes higher over the window",
+     "q": "no size fell",
+     "src": 0
+    },
+    {
+     "n": "−44.4%",
+     "dir": "down",
+     "label": "Gahcho Kue rough a carat, Q2 2026",
+     "q": "year on year, CAD 50 against CAD 90",
+     "src": 1
+    }
+   ]
+  },
+  "changed": {
+   "lead": "All five sizes rose.",
+   "text": "Rapaport's published daily series gained on every size across the 30 days to 2 October 2026. The 1-carat added 0.33% to $3,912.48, the least of the five, and the 0.30-carat 3.00%."
+  },
+  "means": [
+   {
+    "who": "If you quote RAPI:",
+    "text": "Carry the window as well as the level. The page's percentage is a trailing-window figure."
+   },
+   {
+    "who": "If you price rough:",
+    "text": "The polished benchmark is not your counter. One rose over 30 days as the other realised 44.4% less."
+   },
+   {
+    "who": "What this is not:",
+    "text": "Evidence the decline narrative is wrong. The two instruments measure different goods over different periods."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "RAPI by size, 2 September to 2 October 2026",
+   "asof": "Rapaport's embedded daily series, 31 points per size · USD a carat · change column computed",
+   "cols": [
+    "Size",
+    "2 September",
+    "2 October",
+    "Change, computed",
+    "Page's own %"
+   ],
+   "rows": [
+    [
+     "0.30-carat",
+     "931.63",
+     "959.58",
+     "+3.00%",
+     "3"
+    ],
+    [
+     "0.50-carat",
+     "1,286.32",
+     "1,315.39",
+     "+2.26%",
+     "2.26"
+    ],
+    [
+     "1.00-carat",
+     "3,899.61",
+     "3,912.48",
+     "+0.33%",
+     "0.33"
+    ],
+    [
+     "2.00-carat",
+     "10,572.46",
+     "10,659.16",
+     "+0.82%",
+     "0.82"
+    ],
+    [
+     "3.00-carat",
+     "17,858.06",
+     "18,208.08",
+     "+1.96%",
+     "1.96"
+    ]
+   ],
+   "hi": 2,
+   "note": "The level columns are the first and last points of each size's embedded 31-point daily series, read out of the page's own JSON. The fourth column is Carat Capital's division, last over first. The fifth is the unlabelled percentage Rapaport prints beside each size. All 5 of 5 sizes rose across the window. The two columns agree on 5 sizes out of 5, which is what establishes the page's field as a trailing-window change rather than a daily or year-to-date move. Levels on this page are restated after publication, shown in Carat Capital's report of 22 September 2026, so a quote needs the date the series was read as well as the date of the point: these were read on 3 October 2026. The series lags one session and carries no colour, clarity or cut specification beside it.",
+   "plate": "CC/2026/079"
+  },
+  "sections": [
+   {
+    "h": "The cheap end led again.",
+    "p": [
+     {
+      "lead": "Thirty-pointer led.",
+      "text": "The 0.30-carat added 3.00% to $959.58 and the 1-carat 0.33% to $3,912.48. That is 9.1 times the move on the division 3.00 over 0.33."
+     },
+     {
+      "lead": "All five rose.",
+      "text": "The 0.50-carat added 2.26% to $1,315.39, the 2-carat 0.82% to $10,659.16 and the 3-carat 1.96% to $18,208.08. No size fell across the window."
+     }
+    ]
+   },
+   {
+    "h": "The page's percentages are established.",
+    "p": [
+     {
+      "lead": "Field equals window.",
+      "text": "Rapaport prints an unlabelled percentage beside each size whose window had not been pinned down. Recomputing first point to last reproduces it on five sizes out of five, to the hundredth."
+     },
+     {
+      "lead": "Date the window.",
+      "text": "A figure read from that field is a 30-day trailing change and should be dated to the window, not to the day it was read. The series also lags one session."
+     }
+    ]
+   },
+   {
+    "h": "Polished is not rough.",
+    "p": [
+     {
+      "lead": "Two different goods.",
+      "text": "RAPI measures polished asking prices. Gahcho Kue sells rough, and realised CAD 50 a carat in the three months to 30 June 2026. That is against CAD 90 a year earlier, or 44.4% below."
+     },
+     {
+      "lead": "Periods do not match.",
+      "text": "A 30-day polished window cannot be set against a year-on-year rough quarter and called a contradiction. Rapaport publishes only 30 trailing days here, so no 12-month polished comparison is available."
+     }
+    ]
+   },
+   {
+    "h": "What the decline claim rests on.",
+    "p": [
+     {
+      "lead": "The reason is stated.",
+      "text": "Mountain Province's chief executive attributed his company's restructuring to a decline in diamond prices over the past year. The attribution is in its release of 1 October 2026.",
+      "links": {
+       "restructuring": "a-de-beers-takes-all-of-gahcho-kue.html"
+      }
+     },
+     {
+      "lead": "Not tested here.",
+      "text": "That claim covers twelve months of rough. Nothing in the 30 days of polished points above tests it, and the two should not be quoted against each other."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Monday 5 October 2026",
+    "what": "The next daily point, and whether the 1-carat holds above $3,912.48. The series publishes on weekdays and lags one session."
+   },
+   {
+    "when": "Q3 2026, date not published",
+    "what": "Mountain Province's next realised rough price. In August the company said its most recent sale showed an improvement it was too early to call sustained."
+   },
+   {
+    "when": "Each read of the page",
+    "what": "Whether published points move again. All five points read on 21 September 2026 were restated by 12 to 27 cents when read a day later."
+   }
+  ],
+  "depth": {
+   "reverse": "A window chosen by the page, not by the desk. Every percentage above is a 30-day trailing change, and the page publishes no longer series, so the window's start date is whatever the page happens to carry on the morning it is read. A month that begins just after a dip will show a rise on any series that has stopped falling, which is the honest reading of a 0.33% move on the 1-carat across 31 points. The reading that would change the desk's view is a longer published series: if Rapaport restores a 12-month view, a polished figure could be set against the rough claim directly instead of being declared untestable.",
+   "built": {
+    "title": "Why polished and rough diverge",
+    "text": "RAPI is an index of asking prices for polished stones of a stated size, in the D to H colour and IF to VS2 clarity range, and it moves when the people holding polished inventory change what they ask. A mine's realised price a carat is the average of what it was actually paid for rough at its sales, across whatever mix of stones that parcel contained. The two can move in opposite directions for reasons that have nothing to do with either being wrong. Rough is bought by cutters who must fund polishing and financing before they sell, so a rough price carries their view of polished demand several months forward and their cost of capital now. A mine's average also moves with the grade and size mix it happens to recover, which is why Gahcho Kue's volume more than doubling in a quarter can pull its average down even if nothing repriced. Polished asking prices, by contrast, can hold or firm while rough falls, because holders of finished goods are not forced sellers in the way a producer with a reclamation bill is. For a reader pricing either, the practical rule is that the polished benchmark sets what a counter can ask and the realised rough price sets what a mine can survive on, and neither substitutes for the other."
+   },
+   "method": "Rapaport's index page was fetched with a browser identity and saved as raw bytes before any figure was written: 200, 305,223 bytes. Levels were read out of the page's own embedded JSON block rather than from any rendered summary, 31 points per size across the window the page itself declares as 2 September to 2 October 2026. The figures printed are the first and last points of each series and are in the saved bytes by construction: $931.63, $959.58, $1,286.32, $1,315.39, $3,899.61, $3,912.48, $10,572.46, $10,659.16, $17,858.06 and $18,208.08. The change column is Carat Capital's arithmetic, last over first, and is owed as arithmetic rather than as a grep. The claim that the page's own unlabelled percentage equals the trailing-window change was tested rather than assumed: recomputation reproduces the page's printed 3, 2.26, 0.33, 0.82 and 1.96 on all five sizes, which is why the sentence establishing it is stated as a finding and the field is no longer described as unestablished in this paper's tooling. The rough figures are from Mountain Province's own Q2 2026 release of 13 August 2026, 200, 143,437 bytes, where '$50 per carat' returns 4 hits and '$90 per carat' 2, and the attribution of the restructuring to a price decline is in the company's release of 1 October 2026, 200, 74,501 bytes, where the phrase 'material decline in diamond prices over the past year' returns 1 hit. No comparative percentage is taken from any upstream desk: every division above was recomputed here and printed as a pair, share of and below. ARCHIVE, periods on both sides: RAPI by size over a trailing window, ours 2026-09-30 'point-four-three-on-the-one-carat' covers the window 30 August to 30 September 2026 (1-carat +0.43%, 0.30-carat +3.30%) | this item covers the window 2 September to 2 October 2026 (1-carat +0.33%, 0.30-carat +3.00%). DIFFERENT PERIOD, so ADVANCED, not a repeat. Nine archive hits for RAPI were opened and read, not counted, and the three closest were read in full: the 30 September window piece, the 21 September five-session piece and the 22 September restatement piece. None establishes what the page's own percentage field measures and none sets the polished window against a realised rough price, which is what is new here. The window percentages themselves are close to the 30 September figures and are printed as the supporting table rather than as the headline for that reason.",
+   "prior": [
+    {
+     "date": "2026-09-30",
+     "slug": "point-four-three-on-the-one-carat",
+     "claim": "The 1-carat added 0.43% in a month, the 0.30-carat 3.3%"
+    },
+    {
+     "date": "2026-09-22",
+     "slug": "rapi-restates-five-points",
+     "claim": "RAPI restated all five daily points read a day earlier"
+    },
+    {
+     "date": "2026-08-18",
+     "slug": "one-eleven-up-forty-four-down",
+     "claim": "Gahcho Kue sold 111% more carats at 44% less a carat"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Diamond Price Index, Rapaport — embedded daily series, 2 September to 2 October 2026",
+     "url": "https://rapaport.com/diamond-price-index/",
+     "published": "2026-10-02"
+    },
+    {
+     "title": "Mountain Province Diamonds Announces Second Quarter Financial Results for 2026, Mountain Province Diamonds Inc.",
+     "url": "https://www.mountainprovince.com/2026-08-13-Mountain-Province-Diamonds-Announces-Second-Quarter-Financial-Results-for-2026",
+     "published": "2026-08-13"
+    },
+    {
+     "title": "Mountain Province Diamonds Inc. Announces Comprehensive Restructuring Agreement to Strengthen its Financial Position, Mountain Province Diamonds Inc.",
+     "url": "https://www.mountainprovince.com/2026-10-01-Mountain-Province-Diamonds-Inc-Announces-Comprehensive-Restructuring-Agreement-to-Strengthen-its-Financial-Position",
+     "published": "2026-10-01"
+    }
+   ]
+  },
+  "next": {
+   "slug": "de-beers-takes-all-of-gahcho-kue",
+   "why": "The transaction whose stated reason this piece tests against the polished index."
+  },
+  "corrections": []
  }
 }
