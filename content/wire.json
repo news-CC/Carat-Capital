@@ -1,29 +1,21 @@
 {
- "date_line": "Saturday, October 3, 2026 | Vol. I - No. 079",
- "edition": "Vol. I - No. 079",
+ "date_line": "Sunday, October 4, 2026 | Vol. I - No. 080",
+ "edition": "Vol. I - No. 080",
  "items": [
   {
-   "b": "DE BEERS TAKES 100% OF GAHCHO KUE, CANADA'S LAST MINE",
-   "t": "Mountain Province's release gives no cash consideration: its 49% goes in satisfaction of reclamation costs and every debt owed to De Beers. An option to buy back runs to 31 December 2029."
+   "b": "FIVE RAPI SIZES SIT BELOW PEAKS SET IN LATE SEPTEMBER",
+   "t": "Every size on Rapaport's daily series is higher over the 30 days to 4 October, and every one is below a peak set between 21 and 26 September. The 0.30-carat sits 1.26% under its own."
   },
   {
-   "b": "CHOW SANG SANG'S GOLD FALLS TO 1,249 YUAN, FOOTFALL DOUBLES",
-   "t": "Chow Tai Fook reads 1,255 yuan a gram and Lao Miao 1,252, each more than 10% under the 25 August high, on 21jingji's figures. Showroom gold in Zhengzhou quoted 934 yuan."
+   "b": "ELEVEN INDIAN EXHIBITORS FILL GJEPC'S SHARJAH PAVILION",
+   "t": "The India Pavilion sits inside the 58th Watch & Jewellery Show Middle East at Expo Centre Sharjah, which runs to 4 October. Organisers expect more than 66,000 visitors from 52 countries."
   },
   {
-   "b": "PLATINUM SHEDS $34 TO $1,691 ON THE 2 OCTOBER CLOSE",
-   "t": "Gold closed $4,139.80, silver $60.274 and palladium $1,152.00 on the same mark, all four lower. Kitco's own board puts the session changes smaller, measured against Thursday's close."
-  },
-  {
-   "b": "META'S MUSE RUNS FREE, THEN $20 TO $100 A MONTH",
-   "t": "The agent connects Shopify, Stripe, QuickBooks, Canva and Zoom to a retailer's Facebook and Instagram accounts. Amazon has asked to be removed, Retail Dive reports."
-  },
-  {
-   "b": "RAPI'S SIZES RISE BETWEEN 0.33% AND 3.00% IN A MONTH",
-   "t": "The window runs 2 September to 2 October on Rapaport's own daily series. Gahcho Kue realised 44.4% less a carat in its latest published quarter, a rough price the polished index does not carry."
+   "b": "GOLD SHEDS $144.40 ON THE WEEK TO CLOSE AT $4,139.80",
+   "t": "All four precious metals fell between the settled marks for 25 September and 2 October. Palladium lost the most in percentage terms at 7.91%, silver 6.07%, platinum 4.62%."
   }
  ],
- "tape_ts": "2 Oct 2026 close, read 3 Oct 06:00 EDT",
+ "tape_ts": "2 Oct 2026 close, read 4 Oct 06:00 EDT",
  "tape": [
   {
    "name": "Gold / oz",

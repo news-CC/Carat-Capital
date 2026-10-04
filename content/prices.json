@@ -3,7 +3,7 @@
  "title": "The Natural Diamond Price List",
  "kicker": "Every shape, every weight, trade and retail side by side",
  "standfirst": "What a natural diamond actually costs — the wholesale benchmark the trade pays, the asking price the counter shows, and the spread between them, across ten shapes and eleven weight bands. Every figure is dated, every source is named, and every number we modelled rather than observed says so.",
- "as_of": "2026-10-02",
+ "as_of": "2026-10-04",
  "currency": "USD",
  "plate_series": "CC/2026",
  "headline": {
@@ -11,9 +11,9 @@
   "trade_ct": 3037,
   "trade_label": "IDEX price-driver average",
   "trade_date": "2026-09-29",
-  "rapi_ct": 3912.48,
+  "rapi_ct": 3911.5,
   "rapi_label": "RAPI, D–H / IF–VS2",
-  "rapi_date": "2026-10-02",
+  "rapi_date": "2026-10-04",
   "retail_ct": 5454,
   "retail_label": "median of five online retailers",
   "retail_low": 3472,
@@ -21,7 +21,7 @@
   "spread_pct": 80,
   "rap_list_ct": 8600,
   "vs_list_pct": -37,
-  "note": "The counter price is 80% above the trade benchmark and still about 37% below Rapaport list. Both things are true at once: the retail margin is real, and the list itself has stopped being the price anyone pays. Trade benchmark dated 2026-09-29 (IDEX); RAPI's own newest published point is dated 2026-10-02, the index having moved from monthly to daily publication on 2026-09-07 - dated to the point, not to the day it was read. The 2026-10-02 point reads 3,912.48 and replaces the 3,915.00 at 2026-09-28 that this page carried before; both were correct for their own dates and neither is a correction of the other. Retail figure dated 2026-07-30, James Allen dropped from the retailer set - see the correction note. Corrected 23 September 2026: this page carried \"RAPI's own newest published point is dated 2026-09-16\" and a RAPI figure of $3,912.00; the index's own 1.00 ct series had published daily points past that date and read 3,914.90 on 22 September. The RAPI figure and its date were fixed on 23 September but no correction note was printed with the fix, which this note now supplies. Correct as published throughout: the trade benchmark, its 2026-09-21 IDEX date, the retail median and the 2026-07-30 retail date. Corrected 3 October 2026: earlier on 3 October this page carried two different claims about which RAPI point is newest. Its headline block had been moved to the 2026-10-02 point (3,912.48) while the weights table, the dual-basis table, the method note and the Rapaport source row were all still dated 2026-09-28, and the 0.30-carat trade figure (968 a carat) and the dual-basis RAPI levels (1,317 at half a carat, 3,915 at one, 18,092 at three) were still the 28 September ones. RAPI's newest published point is 2026-10-02 and every RAPI figure on this page now reads from it: 0.30 ct 960, 0.50 ct 1,315, 1.00 ct 3,912, 3.00 ct 18,208. The fault was a partial edit by this paper's own editing desk, not a wrong figure from the source. Correct as published throughout: every 28 September RAPI level was correct for 28 September, and the IDEX price-driver column, the retail median and all of their dates are untouched and unaffected.",
+  "note": "The counter price is 80% above the trade benchmark and still about 37% below Rapaport list. Both things are true at once: the retail margin is real, and the list itself has stopped being the price anyone pays. Trade benchmark dated 2026-09-29 (IDEX); RAPI's own newest published point is dated 2026-10-04, the index having moved from monthly to daily publication on 2026-09-07 - dated to the point, not to the day it was read. The 2026-10-04 point reads 3,911.50 and replaces the 3,912.48 at 2026-10-02 that this page carried before; both were correct for their own dates and neither is a correction of the other. Refreshed 4 October 2026: the 1.00 ct RAPI level and its date, the 3.00 ct dual-basis level (18,208 to 18,138, its IDEX gap moving from -10.9% to -10.5% on 16,230/18,138 = 89.48% of it) and the Rapaport source date were advanced to the newest published point, read direct from the index's own embedded daily series at 305,250 bytes on 4 October 2026. The 0.30 ct (960), 0.50 ct (1,315) and 1.00 ct (3,912) dual-basis levels are unchanged at this page's rounding and were re-read, not assumed. This is a refresh, not a correction: every 2 October level was correct for 2 October. Retail figure dated 2026-07-30, James Allen dropped from the retailer set - see the correction note. Corrected 23 September 2026: this page carried \"RAPI's own newest published point is dated 2026-09-16\" and a RAPI figure of $3,912.00; the index's own 1.00 ct series had published daily points past that date and read 3,914.90 on 22 September. The RAPI figure and its date were fixed on 23 September but no correction note was printed with the fix, which this note now supplies. Correct as published throughout: the trade benchmark, its 2026-09-21 IDEX date, the retail median and the 2026-07-30 retail date. Corrected 3 October 2026: earlier on 3 October this page carried two different claims about which RAPI point is newest. Its headline block had been moved to the 2026-10-02 point (3,912.48) while the weights table, the dual-basis table, the method note and the Rapaport source row were all still dated 2026-09-28, and the 0.30-carat trade figure (968 a carat) and the dual-basis RAPI levels (1,317 at half a carat, 3,915 at one, 18,092 at three) were still the 28 September ones. RAPI's newest published point was 2026-10-02 on that date, and every RAPI figure on this page was brought onto it: 0.30 ct 960, 0.50 ct 1,315, 1.00 ct 3,912, 3.00 ct 18,208. The page has since been refreshed to the 2026-10-04 point, described above. The fault was a partial edit by this paper's own editing desk, not a wrong figure from the source. Correct as published throughout: every 28 September RAPI level was correct for 28 September, and the IDEX price-driver column, the retail median and all of their dates are untouched and unaffected.",
   "retail_as_of": "2026-07-30",
   "rapi_ytd_pct": -5.1
  },
@@ -38,7 +38,7 @@
     "retail_stone": 606,
     "spread": 111,
     "basis": "modelled",
-    "src": "RAPI 2026-10-02"
+    "src": "RAPI 2026-10-04"
    },
    {
     "w": "0.50 ct",
@@ -178,13 +178,13 @@
    },
    {
     "w": "3.00 ct",
-    "rapi": 18208,
+    "rapi": 18138,
     "idex": 16230,
-    "gap": "-10.9%"
+    "gap": "-10.5%"
    }
   ],
   "note": "RAPI is the average asking price of the ten per cent lowest-priced D–H, IF–VS2, GIA-graded stones on RapNet. It is a floor for a narrow top specification, not a market mean. IDEX price drivers average a far broader spread of colour and clarity. At one carat the broad market sits 22.4% below the narrow top spec (3,037 / 3,912 = 77.6% of it), which is what you would expect — and a useful reminder that a single 'diamond price' does not exist.",
-  "asof": "RAPI at its newest published point, 2026-10-02 - IDEX price drivers read 2026-09-29"
+  "asof": "RAPI at its newest published point, 2026-10-04 - IDEX price drivers read 2026-09-29"
  },
  "colour": {
   "caption": "Colour",
@@ -597,7 +597,7 @@
   "rows": [
    {
     "h": "What is observed",
-    "b": "The trade per-carat column at 0.50, 0.70, 0.90, 1.00, 1.50, 2.00, 3.00 and 5.00 carats is read directly from IDEX price drivers on 2026-09-29. The 0.30 ct figure is RAPI at its own newest published point, 2026-10-02. The one-carat retail figure is the median of five retailers priced on 30 July 2026 (James Allen was dropped 2026-09-15, folded into Blue Nile). The shape table is a live sample of 169,324 asking prices. The colour and clarity indices are published aggregates at 31 December 2025."
+    "b": "The trade per-carat column at 0.50, 0.70, 0.90, 1.00, 1.50, 2.00, 3.00 and 5.00 carats is read directly from IDEX price drivers on 2026-09-29. The 0.30 ct figure is RAPI at its own newest published point, 2026-10-04. The one-carat retail figure is the median of five retailers priced on 30 July 2026 (James Allen was dropped 2026-09-15, folded into Blue Nile). The shape table is a live sample of 169,324 asking prices. The colour and clarity indices are published aggregates at 31 December 2025."
    },
    {
     "h": "What is modelled",
@@ -620,7 +620,7 @@
  "sources": [
   {
    "n": "Rapaport — RAPI daily index levels",
-   "d": "2026-10-02",
+   "d": "2026-10-04",
    "u": "rapaport.com"
   },
   {
@@ -713,6 +713,6 @@
   }
  ],
  "retail_as_of": "2026-07-30",
- "date_note": "This page now carries two ages, not one. The dual-basis trade headline above (trade_ct, rapi_ct) refreshes weekly from IDEX and RAPI and is dated 2026-09-29 (IDEX) / 2026-10-02 (RAPI's own newest point; the index publishes daily as of 2026-09-07 and lags the calendar by a session). The retail, retailers and shapes figures below are dated 2026-07-30 and move only when we can re-drive each retailer's live filter, which not all of them allow from a static fetch — see the retail_as_of field on each section. Chief's ruling, 2026-09-09: a composite page carries one date per section, never a single page-wide date holding every section hostage to the slowest one.",
+ "date_note": "This page now carries two ages, not one. The dual-basis trade headline above (trade_ct, rapi_ct) refreshes weekly from IDEX and RAPI and is dated 2026-09-29 (IDEX) / 2026-10-04 (RAPI's own newest point; the index publishes daily as of 2026-09-07 and lags the calendar by a session). The retail, retailers and shapes figures below are dated 2026-07-30 and move only when we can re-drive each retailer's live filter, which not all of them allow from a static fetch — see the retail_as_of field on each section. Chief's ruling, 2026-09-09: a composite page carries one date per section, never a single page-wide date holding every section hostage to the slowest one.",
  "date_label": "29 Sep 2026 · trade headline / 30 Jul 2026 · retail sections"
 }
