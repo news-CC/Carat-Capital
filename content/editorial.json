@@ -129433,5 +129433,547 @@
    "why": "The transaction whose stated reason this piece tests against the polished index."
   },
   "corrections": []
+ },
+ "five-rapi-sizes-under-a-september-peak": {
+  "v": 3,
+  "kicker": "Polished prices",
+  "seo_title": "All five Rapaport polished sizes are above their 4 September level and below a peak set between 21 and 26 September 2026",
+  "figures": {
+   "asof": "Rapaport Diamond Price Index, embedded daily series, window 4 September to 4 October 2026, 31 points per size · page read direct, 305,250 bytes, 4 October 2026",
+   "cells": [
+    {
+     "n": "5 of 5",
+     "label": "Sizes below their window peak",
+     "q": "peaks dated 21 to 26 September",
+     "src": 0
+    },
+    {
+     "n": "−1.26%",
+     "dir": "down",
+     "label": "0.30-carat against its own peak",
+     "q": "$960.16 against $972.39 on 23 September",
+     "src": 0
+    },
+    {
+     "n": "−0.23%",
+     "dir": "down",
+     "label": "1-carat against its own peak",
+     "q": "$3,911.50 against $3,920.47 on 25 September",
+     "src": 0
+    },
+    {
+     "n": "+2.89%",
+     "dir": "up",
+     "label": "0.30-carat over the 30-day window",
+     "q": "the largest of the five, from a 4 September base",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Every size is off its peak.",
+   "text": "Rapaport's daily series is higher on all five sizes over the 30 days to 4 October. All five now sit below a peak set in late September. The 0.30-carat is 1.26% under its own."
+  },
+  "means": [
+   {
+    "who": "If you quote the month figure:",
+    "text": "It is true and it is trailing, measured from a 4 September base near the bottom of the range."
+   },
+   {
+    "who": "If you are marking stock this week:",
+    "text": "Direction since the third week of September is down on every size, by 0.23% to 1.26%."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A fall in the index. All five sizes remain above where they started."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "RAPI by size: window start, window peak, newest point",
+   "asof": "Rapaport's embedded daily series, 31 points per size · USD a carat · peak and gap columns computed by Carat Capital",
+   "cols": [
+    "Size",
+    "4 Sep",
+    "Peak",
+    "Peak date",
+    "4 Oct",
+    "Vs peak",
+    "Page's own %"
+   ],
+   "rows": [
+    [
+     "0.30-carat",
+     "933.19",
+     "972.39",
+     "23 Sep",
+     "960.16",
+     "−1.26%",
+     "2.89"
+    ],
+    [
+     "0.50-carat",
+     "1,287.61",
+     "1,320.31",
+     "26 Sep",
+     "1,315.42",
+     "−0.37%",
+     "2.16"
+    ],
+    [
+     "1.00-carat",
+     "3,898.25",
+     "3,920.47",
+     "25 Sep",
+     "3,911.50",
+     "−0.23%",
+     "0.34"
+    ],
+    [
+     "2.00-carat",
+     "10,593.76",
+     "10,679.57",
+     "21 Sep",
+     "10,647.79",
+     "−0.30%",
+     "0.51"
+    ],
+    [
+     "3.00-carat",
+     "17,900.21",
+     "18,211.68",
+     "21 Sep",
+     "18,138.29",
+     "−0.40%",
+     "1.33"
+    ]
+   ],
+   "hi": 5,
+   "note": "The 4 September and 4 October columns are the first and last points of each size's embedded 31-point daily series, read out of the page's own JSON. The peak column is the highest point inside that same window and the peak date is its date; both are Carat Capital's reading of the series, not fields Rapaport prints. The Vs peak column is Carat Capital's division, newest over peak, less one: 960.16/972.39 = 98.74% of the peak, so 1.26% below it. The final column is the unlabelled percentage Rapaport prints beside each size; dividing last point by first reproduces it on 5 sizes out of 5, which establishes it as a trailing-window change. Levels on this page are restated after publication, reported by Carat Capital on 22 September 2026, so a quote needs the date the series was read as well as the date of the point: these were read on 4 October 2026.",
+   "plate": "CC/2026/080"
+  },
+  "sections": [
+   {
+    "h": "The month and the fortnight disagree",
+    "p": [
+     {
+      "lead": "Both read alike.",
+      "text": "The 0.30-carat is up 2.89% over the window and 1.26% below its 23 September high of $972.39. The 1-carat is up 0.34% and 0.23% below its $3,920.47."
+     },
+     {
+      "lead": "Base explains it.",
+      "text": "The window opens 4 September, near the bottom of its own range. A positive trailing column and a falling fortnight sit together without either being wrong."
+     }
+    ]
+   },
+   {
+    "h": "The peaks cluster in one week",
+    "p": [
+     {
+      "lead": "Five days apart.",
+      "text": "The 2-carat and 3-carat peaked on 21 September, the 0.30-carat on 23 September, the 1-carat on 25 September and the 0.50-carat on 26 September."
+     },
+     {
+      "lead": "No new high.",
+      "text": "No size has set a window high in the eight days to 4 October. The gaps run from 0.23% on the 1-carat to 1.26% on the 0.30-carat."
+     }
+    ]
+   },
+   {
+    "h": "The page's percentage is established",
+    "p": [
+     {
+      "lead": "Division reproduces it.",
+      "text": "Dividing each size's last point by its first reproduces Rapaport's unlabelled percentage on five sizes out of five, to two decimals.",
+      "links": {
+       "restated after publication": "a-rapi-restates-five-points.html"
+      }
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "6 Oct",
+    "what": "Rapaport's next daily point, which would need $972.39 on the 0.30-carat to set a new window high"
+   },
+   {
+    "when": "Early Oct",
+    "what": "Rapaport's September RAPI monthly commentary, overdue on the release calendar"
+   }
+  ],
+  "depth": {
+   "reverse": "A new high on any size inside the next week. The gaps are 0.23% to 1.26%, small enough that one firm session on the 1-carat or 0.50-carat would close them. A monthly RAPI commentary giving a different window would also change which number this desk treats as the headline figure.",
+   "built": {
+    "title": "How the index and the peak are built",
+    "text": "RAPI is built from asking prices on RapNet for round, D to H, IF to VS2 goods, published daily since August 2026 with a one-session lag. The page carries a 31-point daily series per size in embedded JSON, and an unlabelled percentage beside each size."
+   },
+   "method": "The page was fetched direct at 305,250 bytes on 4 October 2026 and the embedded JSON parsed rather than read off the rendered chart. Every level printed here is a point in that JSON. The peak, the peak date and the Vs peak column are Carat Capital's own computation over the same 31 points and are labelled as such; Rapaport publishes no peak field. The page's own percentage was checked by dividing last point by first on each size and matched on five of five. The 2 October point now reads 3,912.28 on the 1-carat, where this paper read 3,912.48 on 3 October; that restatement is the behaviour already reported on 22 September and is not treated here as a new finding.",
+   "prior": [
+    {
+     "date": "2026-10-03",
+     "slug": "five-sizes-rise-while-rough-falls",
+     "claim": "All five sizes rose over the 30 days to 2 October"
+    },
+    {
+     "date": "2026-09-22",
+     "slug": "rapi-restates-five-points",
+     "claim": "RAPI restated all five daily points read a day earlier"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Diamond Price Index, Rapaport — embedded daily series, 4 September to 4 October 2026, 31 points per size",
+     "url": "https://rapaport.com/diamond-price-index/",
+     "published": "2026-10-04"
+    }
+   ]
+  },
+  "next": {
+   "slug": "five-sizes-rise-while-rough-falls",
+   "why": "The same series one window earlier, when every size was rising and none had been measured against its own peak"
+  },
+  "corrections": []
+ },
+ "eleven-indian-exhibitors-in-sharjah": {
+  "v": 3,
+  "kicker": "Trade shows",
+  "seo_title": "GJEPC's India Pavilion at the 58th Watch & Jewellery Show Middle East in Sharjah carries 11 Indian exhibitors and closes 4 October 2026",
+  "figures": {
+   "asof": "GJEPC release dated Oct 01, 2026, in-body dateline · page read direct, 34,025 bytes, 4 October 2026",
+   "cells": [
+    {
+     "n": "11",
+     "label": "Indian exhibitors on the pavilion",
+     "q": "named individually in the release",
+     "src": 0
+    },
+    {
+     "n": "66,000",
+     "label": "Visitors the organiser expects",
+     "q": "forecast, not an audited count",
+     "src": 0
+    },
+    {
+     "n": "1,000+",
+     "label": "Trade visitors expected",
+     "q": "from 52 countries",
+     "src": 0
+    },
+    {
+     "n": "4 Oct",
+     "label": "Show closes",
+     "q": "ran from 30 September",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Eleven exhibitors opened.",
+   "text": "GJEPC's India Pavilion opened at the 58th Watch & Jewellery Show Middle East at Expo Centre Sharjah, a show running 30 September to 4 October 2026. The council names 11 Indian exhibitors on the stand."
+  },
+  "means": [
+   {
+    "who": "If you sell into the Gulf:",
+    "text": "The pavilion closes 4 October. This is a record of who was on the stand, not a reason to travel."
+   },
+   {
+    "who": "If you track Indian export promotion:",
+    "text": "Eleven names across seven product categories is the size of this push, at a show the organiser sizes at 66,000 visitors."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A sales figure. GJEPC publishes no order value, no footfall count and no exhibitor revenue for the pavilion."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "The India Pavilion at Sharjah, as the release describes it",
+   "asof": "GJEPC release, Oct 01, 2026 · every cell quoted or counted from that release",
+   "cols": [
+    "Item",
+    "Figure",
+    "Basis"
+   ],
+   "rows": [
+    [
+     "Indian exhibitors",
+     "11",
+     "Stated in the release and matched by counting its own named list"
+    ],
+    [
+     "Product categories named",
+     "7",
+     "Diamond, gold and silver jewellery, coloured stones, pearls, watches, packaging"
+    ],
+    [
+     "Expected visitors",
+     "more than 66,000",
+     "Organiser forecast, carried as a forecast"
+    ],
+    [
+     "Expected trade visitors",
+     "over 1,000",
+     "Organiser forecast, from 52 countries"
+    ],
+    [
+     "Countries participating",
+     "18 named",
+     "Bahrain to Yemen, listed in the release"
+    ],
+    [
+     "Show dates",
+     "30 Sep to 4 Oct 2026",
+     "Expo Centre Sharjah"
+    ]
+   ],
+   "hi": 1,
+   "note": "Every figure in this table is the release's own, read from a direct fetch of 34,025 bytes on 4 October 2026. The exact string 11 Indian exhibitors returns one hit in those bytes, and counting the release's own list of exhibitor names independently returns 11, so the figure is sourced and corroborated rather than tallied. The 66,000 and 1,000-plus attendance figures are the show organiser's forward estimate and are carried as an estimate; Carat Capital has not independently audited them and no post-show count exists. The 58th ordinal and the venue are the release's own. No order value, footfall count or revenue figure is published for the pavilion.",
+   "plate": "CC/2026/080"
+  },
+  "sections": [
+   {
+    "h": "Eleven names, seven categories",
+    "p": [
+     {
+      "lead": "List spans categories.",
+      "text": "GJEPC names Omega Jewellery, Core Jewellery, Peacemoon Traders, Exclusive Diamond Jewellery and Teyana Jewels. It also names Sejal Exports, Veekay Diamants, Harshwardhan Gems, Sherly Jewels, Rajesh Gems and Arina Jewellery."
+     },
+     {
+      "lead": "Count is corroborated.",
+      "text": "The release states 11 Indian exhibitors and its own named list counts to 11, so the figure is checkable twice inside one document."
+     }
+    ]
+   },
+   {
+    "h": "The scale figures are a forecast",
+    "p": [
+     {
+      "lead": "Organiser's own estimate.",
+      "text": "More than 66,000 visitors and over 1,000 trade buyers from 52 countries are expectations the release states. They are not a measured gate count."
+     },
+     {
+      "lead": "Eighteen countries named.",
+      "text": "International participation runs from Bahrain to Yemen and includes China, Saudi Arabia, Russia, Türkiye, the UK and the US."
+     }
+    ]
+   },
+   {
+    "h": "One dated event, not a result",
+    "p": [
+     {
+      "lead": "Consul General visited.",
+      "text": "Emmadi Vishnu Vardhan Reddy, Consul General of India in Dubai, toured the pavilion on the opening day. GJEPC's Antarpal Singh Sawhney and Ashish Sakhardande received him."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "4 Oct",
+    "what": "The show closes at Expo Centre Sharjah; any post-show visitor count would replace the 66,000 forecast"
+   },
+   {
+    "when": "Oct",
+    "what": "GJEPC's monthly gem and jewellery export figures, the series that would show whether Gulf promotion moves volume"
+   }
+  ],
+  "depth": {
+   "reverse": "A published post-show attendance count materially under 66,000, which would make the organiser's forecast the wrong figure to have carried. An exhibitor withdrawal or addition reported before the show closes would also move the count of 11.",
+   "built": {
+    "title": "What an India Pavilion is",
+    "text": "GJEPC is India's statutory gem and jewellery export promotion council. An India Pavilion is a curated block of member stands inside a third-party trade show, booked and staffed by the council rather than by the show organiser."
+   },
+   "method": "The release was fetched direct at 34,025 bytes on 4 October 2026 and read as raw bytes rather than through a summariser. The exact strings 11 Indian exhibitors, 66,000, 52 countries and Expo Centre Sharjah each return one hit in those bytes. The exhibitor count was then checked a second way by counting the release's own named list, which returns 11 independently. The in-body dateline reads Oct 01, 2026, beside the headline. The archive was searched by entity on website/content/articles.json: Sharjah returns zero hits and India Pavilion returns prior coverage of GJEPC's Hong Kong pavilion only, a different show and a different event, so this is new. The attendance figures were not independently verified and are labelled as the organiser's forecast wherever they appear.",
+   "prior": [],
+   "sources": [
+    {
+     "title": "GJEPC India Pavilion Opens Strong at Watch & Jewellery Show Middle East 2026",
+     "url": "https://www.gjepc.org/news_detail.php?news=gjepc-india-pavilion-opens-strong-at-watch-jewellery-show-middle-east-2026-1",
+     "published": "2026-10-01"
+    }
+   ]
+  },
+  "next": {
+   "slug": "five-rapi-sizes-under-a-september-peak",
+   "why": "The polished benchmark the diamond jewellery on that stand is priced against"
+  },
+  "corrections": []
+ },
+ "gold-sheds-one-forty-four-on-the-week": {
+  "v": 3,
+  "kicker": "Metals",
+  "seo_title": "Gold, silver, platinum and palladium all fell between the settled marks of 25 September and 2 October 2026, palladium furthest at 7.91%",
+  "figures": {
+   "asof": "Kitco live board, session of 2 October 2026, originalTime 2026-10-02T17:00:00Z · prior mark from Carat Capital's tape for the session of 25 September 2026 · board read direct, 197,730 bytes, 4 October 2026",
+   "cells": [
+    {
+     "n": "$4,139.80",
+     "dir": "down",
+     "label": "Gold an ounce",
+     "q": "$144.40 off the 25 September mark, 3.37%",
+     "src": 0
+    },
+    {
+     "n": "−7.91%",
+     "dir": "down",
+     "label": "Palladium on the week",
+     "q": "$1,152.00 against $1,251.00, the steepest of four",
+     "src": 0
+    },
+    {
+     "n": "−6.07%",
+     "dir": "down",
+     "label": "Silver on the week",
+     "q": "$60.274 against $64.169",
+     "src": 0
+    },
+    {
+     "n": "4 of 4",
+     "dir": "down",
+     "label": "Metals lower on the week",
+     "q": "none rose",
+     "src": 1
+    }
+   ]
+  },
+  "changed": {
+   "lead": "All four metals fell.",
+   "text": "Gold lost $144.40 to $4,139.80 between the settled marks for the sessions of 25 September and 2 October 2026. Silver, platinum and palladium fell with it, palladium furthest at 7.91%."
+  },
+  "means": [
+   {
+    "who": "If you quote a customer before Monday:",
+    "text": "This is Friday's close, not a live market, and it is the same figure the tape carried on 3 October. Nothing has traded since."
+   },
+   {
+    "who": "If you hold white metal:",
+    "text": "Palladium and platinum both fell faster than gold again, by 7.91% and 4.62% against gold's 3.37%."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A Monday prediction. No session has traded since these marks were set, and Carat Capital publishes no forecast."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "The four metals, 25 September to 2 October 2026 settled marks",
+   "asof": "USD an ounce · prior mark from the tape for the 25 September session · change columns computed by Carat Capital",
+   "cols": [
+    "Metal",
+    "25 Sep",
+    "2 Oct",
+    "Change",
+    "Percent",
+    "Of prior mark"
+   ],
+   "rows": [
+    [
+     "Gold",
+     "4,284.20",
+     "4,139.80",
+     "−144.40",
+     "−3.37%",
+     "96.63%"
+    ],
+    [
+     "Silver",
+     "64.169",
+     "60.274",
+     "−3.895",
+     "−6.07%",
+     "93.93%"
+    ],
+    [
+     "Platinum",
+     "1,773.00",
+     "1,691.00",
+     "−82.00",
+     "−4.62%",
+     "95.38%"
+    ],
+    [
+     "Palladium",
+     "1,251.00",
+     "1,152.00",
+     "−99.00",
+     "−7.91%",
+     "92.09%"
+    ]
+   ],
+   "hi": 4,
+   "note": "The 2 October column is the Kitco bid for the session of 2 October 2026, read direct at 197,730 bytes on 4 October 2026, carrying originalTime 2026-10-02T17:00:00Z. It is the mark Carat Capital's tape carries for 4 October and is printed here unchanged, under the One-Price Rule. The 25 September column is the settled mark Carat Capital's own tape carried for that session in newsroom/tape/2026-09-27.json, which is the figure that stood after the session closed rather than the intraday reading filed on 25 September itself. The Change, Percent and Of prior mark columns are Carat Capital's arithmetic, shown so they can be checked: 1,152.00/1,251.00 = 92.09% of the prior mark, so 7.91% below it. Prior marks are looked up in the tape, never derived from the board's own change field.",
+   "plate": "CC/2026/080"
+  },
+  "sections": [
+   {
+    "h": "Palladium fell furthest, gold least",
+    "p": [
+     {
+      "lead": "Division printed.",
+      "text": "Palladium's $1,152.00 is 92.09% of $1,251.00, so 7.91% below it. Gold's $4,139.80 is 96.63% of $4,284.20, so 3.37% below."
+     },
+     {
+      "lead": "Spread is wide.",
+      "text": "Palladium's 7.91% is 2.35 times gold's 3.37% on the division. Silver fell 6.07% and platinum 4.62%, both faster than gold."
+     }
+    ]
+   },
+   {
+    "h": "The board is frozen until Monday",
+    "p": [
+     {
+      "lead": "Friday's settle stands.",
+      "text": "Kitco's board carries an originalTime of 2026-10-02T17:00:00Z and has not moved across the weekend. The tape carries the same four marks."
+     },
+     {
+      "lead": "Read, not assumed.",
+      "text": "The frozen timestamp was read off the board fetched this morning, which is the evidence for the claim that no session has settled since."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "5 Oct",
+    "what": "Asian trade reopens; the first print that would move any of these four marks"
+   },
+   {
+    "when": "6 Oct",
+    "what": "The LBMA gold and silver fixes, the independent check on the Kitco board's direction"
+   }
+  ],
+  "depth": {
+   "reverse": "A revision to the 2 October settle on the Kitco board, or a prior mark in the tape being restated for 25 September. Both are looked-up figures rather than computed ones, so a change at either end moves every percentage in the table.",
+   "built": {
+    "title": "How the tape sets a weekly mark",
+    "text": "The tape is this paper's single daily mark per metal, filed at 05:00 ET and re-read by the Editor at press time. Kitco's board publishes a bid and an ask; the tape carries the bid, and has done since 31 August 2026."
+   },
+   "method": "The Kitco board was fetched direct at 197,730 bytes on 4 October 2026 and its originalTime field read off the raw bytes as 2026-10-02T17:00:00Z, which establishes the weekend freeze rather than inferring it from the calendar. The four 2 October figures match the tape in newsroom/tape/2026-10-04.json to the decimal, so no write-back was owed under the One-Price Rule. The 25 September prior marks were looked up in newsroom/tape/2026-09-27.json, the file that carried the settled figures for that session after it closed, and not derived from any change field on the board. Every percentage here is Carat Capital's own division and is printed with its arithmetic beside it.",
+   "prior": [
+    {
+     "date": "2026-10-03",
+     "slug": "platinum-sheds-thirty-four-to-sixteen-ninety-one",
+     "claim": "Platinum fell $34.00 to $1,691.00 on the 2 October session"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Precious metals live board, Kitco — session of 2 October 2026, originalTime 2026-10-02T17:00:00Z",
+     "url": "https://www.kitco.com/price/precious-metals",
+     "published": "2026-10-02"
+    },
+    {
+     "title": "Carat Capital tape, newsroom/tape/2026-09-27.json and 2026-10-04.json — settled marks for the sessions of 25 September and 2 October 2026",
+     "url": "https://caratcapital.org/the-record.html",
+     "published": "2026-10-04"
+    }
+   ]
+  },
+  "next": {
+   "slug": "platinum-sheds-thirty-four-to-sixteen-ninety-one",
+   "why": "The single session inside this week that took platinum to the mark the table closes on"
+  },
+  "corrections": []
  }
 }
