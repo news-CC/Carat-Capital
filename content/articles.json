@@ -16592,7 +16592,7 @@
   "slug": "de-beers-takes-all-of-gahcho-kue",
   "desk": "diamonds",
   "date": "2026-10-03",
-  "lead": true,
+  "lead": false,
   "kicker": "Rough and mining",
   "title": "De Beers takes 100% of Gahcho Kue, Canada's last mine",
   "dek": "Mountain Province's release gives no cash consideration: its 49% goes in satisfaction of reclamation costs and every debt owed to De Beers. An option to buy back runs to 31 December 2029.",
@@ -16838,7 +16838,7 @@
   "slug": "five-rapi-sizes-under-a-september-peak",
   "desk": "diamonds",
   "date": "2026-10-04",
-  "lead": true,
+  "lead": false,
   "kicker": "Polished prices",
   "title": "Five RAPI sizes sit below peaks set in late September",
   "dek": "Every size on Rapaport's daily series is higher over the 30 days to 4 October. Every one is also below a peak set between 21 and 26 September, the 0.30-carat by 1.26%.",
@@ -16903,6 +16903,149 @@
    "The spread between the fastest and slowest faller is wide for one week. Palladium's 7.91% is 2.35 times gold's 3.37% on the division. Both white metals fell further than gold in percentage terms.",
    "The board a reader opens before Monday is Friday's. Kitco's live board carries an originalTime of 2026-10-02T17:00:00Z, the Friday settle, and has not moved across the weekend. These four marks are the ones the tape carries until Monday's session opens.",
    "The desk's view. If you quote a price to a customer before Monday: it is Friday's close, not a live market. It is the same figure the tape carried on 3 October. If you hold white metal: palladium and platinum both fell faster than gold again this week. What this is not: a Monday prediction. No session has traded since the marks above were set."
+  ]
+ },
+ {
+  "slug": "hmrc-seeks-to-wind-up-a-petra-unit",
+  "desk": "diamonds",
+  "date": "2026-10-05",
+  "kicker": "Producer finance",
+  "lead": true,
+  "title": "HMRC seeks to wind up a Petra unit over £5.65m",
+  "dek": "The winding-up petition against Petra Diamonds UK Treasury, advertised in the London Gazette, is listed for a court hearing on 14 October. It lands a day after the board opened a strategic review including a possible sale of assets.",
+  "byline": "The Diamonds Desk",
+  "tags": [
+   "Petra Diamonds",
+   "HMRC",
+   "winding-up petition",
+   "strategic review",
+   "Cullinan",
+   "rough diamonds"
+  ],
+  "body": [
+   "HMRC advertised a winding-up petition in the London Gazette against Petra Diamonds UK Treasury Limited for £5,647,811.32, or £5.65m, of corporation tax for the year ended 30 June 2025. The hearing is listed for 14 October 2026. The company states that PDUK Treasury and Ealing Management Services, the affiliate named alongside it, are non-operating subsidiaries that own and operate none of Petra's mining operations. The liability arose on interest income accrued on a receivable due from Ealing Management Services, interest the filing says was not and has not been received.",
+   "The petition lands a day after a separate filing. On 1 October the board said it had decided, after consulting key stakeholders including its first and second lien creditors, to undertake a strategic review considering all potential paths to address near-term liquidity, including a possible sales process for the company's assets. The same filing records José Manuel Vargas stepping down as chair and director with effect from that day, Lerato Molebatsi taking the chair on an interim basis, and a financial adviser appointment being finalised. On the review's outcome the filing says: “There is no certainty as to the outcome of the Strategic Review.”",
+   "The balance sheet behind both filings was already tight. Petra's 28 July operating update put consolidated net debt at US$322m at 30 June 2026 against US$298m three months earlier, a rise of US$24m, with the revolving facility drawn in full at ZAR1.75bn, about US$107m. Full-year revenue was US$206m on 2,292,540 carats sold, which divides out at about US$90 a carat; the revenue figure is rounded to the nearest million in the filing, so no closer figure is printed here. The same update records roughly US$6m of cash interest deferred from July 2026 to January 2027.",
+   "Both October filings describe interests in two underground mines, Cullinan and Finsch, and name Cullinan as the principal operating asset, each stating that Finsch entered business rescue on 29 May 2026. Petra's own announcement index carries Finsch business-rescue updates on 10 June and 7 August 2026. Finsch is in a rescue and asset-sale process; nothing read for this piece describes it as sold.",
+   "The desk's view. If you hold Petra paper: the petition names a non-operating subsidiary, not Cullinan, and the company says it is assessing the implications for its financing. If you buy rough from Petra: tenders run from Cullinan, the asset the company calls principal. What this is not: an insolvency of the group. One subsidiary is petitioned, and the hearing has not happened."
+  ],
+  "sources": [
+   "Petra Diamonds Limited, Update in relation to Petra Diamonds UK Treasury Limited (RNS), 2 October 2026 — https://www.investegate.co.uk/announcement/prn/petra-diamonds-ltd-di---pdl/update-in-relation-to-petra-diamonds-uk-treas-/9804497",
+   "Petra Diamonds Limited, Strategic Review and Directorate Change (RNS), 1 October 2026 — https://www.investegate.co.uk/announcement/prn/petra-diamonds-ltd-di---pdl/strategic-review-and-directorate-change/9802382",
+   "Petra Diamonds Limited, Q4 and FY 2026 Operating & Business Update (RNS), 28 July 2026 — https://www.investegate.co.uk/announcement/prn/petra-diamonds-ltd-di---pdl/q4-and-fy-2026-operating-business-update/9691440",
+   "Petra Diamonds Ltd.(DI) (PDL) announcement index, read 5 October 2026 — https://www.investegate.co.uk/company/pdl"
+  ]
+ },
+ {
+  "slug": "gold-adds-eighteen-sixty-on-the-monday-board",
+  "desk": "gold-metals",
+  "date": "2026-10-05",
+  "kicker": "Metals tape",
+  "lead": false,
+  "title": "Gold adds $18.60 to $4,158.40 on the Monday board",
+  "dek": "Silver, platinum and palladium rose with it on Kitco's bid: silver $61.52, platinum $1,728.00, palladium $1,161.00. Palladium's intraday band was 6.03% of its own bid, the widest of the four.",
+  "byline": "The Prices Desk",
+  "tags": [
+   "gold",
+   "silver",
+   "platinum",
+   "palladium",
+   "Kitco",
+   "metals tape"
+  ],
+  "body": [
+   "All four metals opened the week higher on the Kitco bid. Gold read $4,158.40 against the $4,139.80 close Carat Capital's tape printed for 2 October, a gain of $18.60 or 0.45%. Silver read $61.52 against $60.274, up $1.246 or 2.07%. Platinum read $1,728.00 against $1,691.00, up $37.00 or 2.19%, the largest percentage gain of the four. Palladium read $1,161.00 against $1,152.00, up $9.00 or 0.78%.",
+   "The widest movement of the morning is not in the direction but in the range. Palladium traded between $1,142.00 and $1,212.00, a band of $70.00, which is 6.03% of its own bid. Gold's band of $46.80 between $4,124.60 and $4,171.40 is 1.13% of its bid. The ratio between the two is 5.4. Palladium also carries the widest spread on the board at $40.00 between bid and ask, against $2.00 on gold.",
+   "Gold gained least of the four in percentage terms and platinum most, 0.45% against 2.19%, a difference of 1.74 percentage points. The session is open on the board's own evidence rather than on any assumption: Kitco stamps all four metals 2026-10-05T05:58:59Z, an hour on from the 04:58:59Z stamp the same page carried earlier in the morning, and three of the four bids differ between the two readings. Platinum's bid was identical in both.",
+   "The desk's view. If you price off the board: three of four bids moved between the two stamps, so quote the time with the number. If you buy palladium: the spread is $40.00 against $2.00 on gold, and that is a cost before any price move. What this is not: a settled session. These are intraday bids an hour into the European morning, not closes."
+  ],
+  "sources": [
+   "Kitco, precious metals price board, embedded price payload, board stamp 2026-10-05T05:58:59Z — https://www.kitco.com/price/precious-metals",
+   "Carat Capital tape, session of 2 October 2026, prior marks — https://caratcapital.org/prices.html"
+  ]
+ },
+ {
+  "slug": "shuibei-wholesale-gold-reads-one-thousand-sixty-one",
+  "desk": "gold-metals",
+  "date": "2026-10-05",
+  "kicker": "China counters",
+  "lead": false,
+  "title": "Shuibei wholesale gold reads 1,061 yuan on 3 October",
+  "dek": "The Shenzhen district's real-time price sits 15.05% to 15.46% below three Chinese brand counters on their 2 October levels. 第一現場 supplied the figure, carried by HK01 on 4 October.",
+  "byline": "The Gold Desk",
+  "tags": [
+   "gold",
+   "China",
+   "Shenzhen",
+   "Shuibei",
+   "wholesale",
+   "Golden Week"
+  ],
+  "body": [
+   "Shenzhen's Shuibei jewellery market quoted real-time jewellery gold at 1,061 yuan a gram on 3 October, a level carried by HK01 on 4 October from 第一現場. Set against the three Chinese brand counters Carat Capital published on 3 October for the 2 October session, the wholesale district is well under the shop window: 188 yuan under Chow Sang Sang's 1,249, 191 under Lao Miao's 1,252 and 194 under Chow Tai Fook's 1,255.",
+   "Expressed as shares, 1,061 is 84.95% of the Chow Sang Sang level, so 15.05% below it, and 84.54% of Chow Tai Fook's, so 15.46% below. The two legs are a day apart, 3 October against 2 October, and are not a same-day comparison. Both are jewellery gold rather than bullion, so what separates them is workmanship, brand premium and retail cost rather than the metal.",
+   "Volume on the wholesale side is reported firmer but thinly evidenced. One Shuibei merchant put September sales 20% to 30% above August, attributing it to holiday wedding buying and the lower gold price; that figure is one stallholder's, for one stall, and no shop-level volume is published. Traders described restocking more often than in August with some popular styles out of stock, and the report describes queueing car parks and buyers driving in from outside Shenzhen. No visitor count is given.",
+   "The desk's view. If you buy wedding gold in China: the wholesale district is quoting about 190 yuan a gram under the brand counters. If you price a counter: that gap is workmanship and brand, not metal, and both legs are jewellery gold. What this is not: a same-day comparison, nor a new finding about holiday footfall, already priced twice in the archive. The new figure is the wholesale level."
+  ],
+  "sources": [
+   "HK01, 金價回落遇中秋國慶　深圳水貝人頭湧湧　部分熱門金飾賣到斷貨, citing 央視財經 and 第一現場, published 4 October 2026 19:30 HKT — https://www.hk01.com/%E5%A4%A7%E5%9C%8B%E5%B0%8F%E4%BA%8B/60396253/",
+   "Carat Capital, Chow Sang Sang's gold falls to 1,249 yuan, footfall doubles, 3 October 2026, for the 2 October counter levels — https://caratcapital.org/a-twelve-forty-nine-and-doubled-footfall.html"
+  ]
+ },
+ {
+  "slug": "caibai-takes-back-its-own-gold-at-fifteen-yuan",
+  "desk": "retail-tech",
+  "date": "2026-10-05",
+  "kicker": "Retail terms",
+  "lead": false,
+  "title": "Caibai takes back its own gold at 15 yuan a gram",
+  "dek": "Without the shop's original receipt the same gold loses 6% of its weight and pays 25 yuan a gram. 时代周报 priced both routes at the Beijing flagship on 1 October.",
+  "byline": "The Retail Desk",
+  "tags": [
+   "gold",
+   "China",
+   "Beijing",
+   "Caibai",
+   "trade-in",
+   "retail"
+  ],
+  "body": [
+   "Caibai's Beijing flagship prices a gold trade-in two ways, and the difference is the receipt. A customer holding the shop's own original purchase slip pays a flat 15 yuan a gram depreciation fee, with no weight deduction and no additional charge, settled against the day's recycling base price. A customer without that slip meets a different schedule: the shop writes off 6% of the total weight first, then charges 25 yuan a gram on the weight that remains.",
+   "On a 52-gram piece the arithmetic runs as follows. With the receipt the fee is 780 yuan. Without it, 6% of 52 grams is 3.12 grams, leaving 48.88 grams, and 25 yuan a gram on that is 1,222 yuan. The fee gap alone is 442 yuan, and that is before the 3.12 grams of metal that are never paid for. Caibai publishes no recycling base price, so the value of those 3.12 grams cannot be priced here and is not.",
+   "On the buying side the report describes demand splitting at both ends of the price range. A couple bought a 52-gram antique-method bracelet at the day's 1,248.00 yuan a gram jewellery-gold price, which multiplies out at 64,896 yuan before workmanship. An office worker at the same store compared one-gram pure-gold beads against a budget under 2,000 yuan, and sales staff put young buyers' budgets at 1,500 to 2,000 yuan. On the fourth floor the investment-bar counter held three or four customers while the jewellery floor stayed busy.",
+   "The fall in the metal is given as the reason, on a buyer's account rather than a measured series. Jewellery gold is described as about 100 yuan a gram below its end-August level, which the buyer put at roughly 5,000 yuan off a 50-gram bracelet. Those two figures are that buyer's, quoted inside the report, and are not Carat Capital's measurement.",
+   "The desk's view. If you sell gold back: keep the original receipt, because on 52 grams the fee gap is 442 yuan before any weight is cut. If you price trade-ins: the 6% cut is 3.12 grams on 52, and with no published base price that metal stays unpriced. What this is not: a market tariff. These are one retailer's published terms, at one store, on one day."
+  ],
+  "sources": [
+   "21经济网 carrying 时代周报, 国庆假期黄金消费“两头热”：有人毫不犹豫拿下50克古法手镯，有人寻觅2000元以下转运珠, published 3 October 2026 16:14 CST, from a 1 October visit — https://www.21jingji.com/article/20261003/herald/8cff101dd99a85083d1f5ccac689f021.html"
+  ]
+ },
+ {
+  "slug": "patek-prices-a-womens-gondolo-at-thirty-seven-five-ten",
+  "desk": "watches",
+  "date": "2026-10-05",
+  "kicker": "Watch pricing",
+  "lead": false,
+  "title": "Patek prices a women's Gondolo at $37,510 and $68,768",
+  "dek": "The two priced references in the new Gondolo Ladies First line share a 31 x 34.8 mm rose-gold case. JCK reported both from the brand's Milan exhibition, which runs to 18 October.",
+  "byline": "The Watches Desk",
+  "tags": [
+   "Patek Philippe",
+   "Gondolo",
+   "watches",
+   "Milan",
+   "pricing",
+   "women's watches"
+  ],
+  "body": [
+   "Patek Philippe introduced a dedicated women's collection, Gondolo Ladies First, as it opened its seventh Watch Art Grand Exhibition in Milan on 2 October. JCK reports the line as six quartz-powered cushion-shape models in two diamond-set executions. Two of the six carry a published price: Ref. 7043R at $37,510 and Ref. 7043/250GR at $68,768. Both sit in a 31 x 34.8 mm 18k rose gold case, so the two prices describe the same case in two executions.",
+   "The gap between them is $31,258. Dividing one by the other, $37,510 is 54.55% of $68,768, so 45.45% below it, and the higher reference is 1.83 times the lower. Nothing in the case metal, the case size or the movement accounts for that difference on the published description; the setting does. Four of the six models carry no published price, so $37,510 is the lower of two figures rather than an established floor for the line.",
+   "The brand's stated reasoning is a change of approach rather than a change of product category. Patek's president said women have long bought the brand's men's watches and changed the strap and the colour to suit, and of the new line he said: “But now I would like to be more aggressive.” The Gondolo name is the brand's own shaped-watch lineage, created in 1902 as the Chronometro Gondolo for a Brazilian retailer.",
+   "The exhibition itself is the larger number. The Milan show covers 2,900 square metres, or 9,514 square feet, runs to 18 October, and is described by JCK as the largest the brand has organised; that characterisation is the report's and is not independently traced here. It is the seventh in a series that began in Dubai in 2012, and it carries more than 500 timepieces.",
+   "The desk's view. If you stock women's watches: both priced references are quartz and share one case size, so the spread is execution rather than metal. If you quote a client: only two of the six models shown carry a published price. What this is not: a full price list, and not an entry price. Four of six models are unpriced."
+  ],
+  "sources": [
+   "JCK, Patek Philippe Debuts Gondolo Ladies First Collection and New Grand Complication in Milan, by Victoria Gomelsky, published 2 October 2026 — https://www.jckonline.com/editorial-article/patek-philippe-gondolo-milan/"
   ]
  }
 ]

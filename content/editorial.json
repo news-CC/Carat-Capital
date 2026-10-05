@@ -129975,5 +129975,1032 @@
    "why": "The single session inside this week that took platinum to the mark the table closes on"
   },
   "corrections": []
+ },
+ "hmrc-seeks-to-wind-up-a-petra-unit": {
+  "v": 3,
+  "kicker": "Producer finance",
+  "figures": {
+   "asof": "Petra Diamonds RNS, LSE: PDL · filings of 1 and 2 October 2026 · read via Investegate, 2 October",
+   "cells": [
+    {
+     "n": "£5,647,811.32",
+     "dir": "down",
+     "label": "Petition sum",
+     "q": "corporation tax owed HMRC",
+     "src": 0
+    },
+    {
+     "n": "14 Oct 2026",
+     "dir": "flat",
+     "label": "Court date",
+     "q": "hearing listed in London",
+     "src": 0
+    },
+    {
+     "n": "1 Oct 2026",
+     "dir": "flat",
+     "label": "Review opened",
+     "q": "day before the petition",
+     "src": 1
+    },
+    {
+     "n": "US$322m",
+     "dir": "down",
+     "label": "Net debt",
+     "q": "at 30 June 2026",
+     "src": 2
+    },
+    {
+     "n": "2",
+     "dir": "flat",
+     "label": "Mines listed",
+     "q": "Cullinan operating, Finsch rescued",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "A tax arm is in court.",
+   "text": "HMRC advertised a winding-up petition against Petra Diamonds UK Treasury for £5,647,811.32 of corporation tax. The hearing is listed for 14 October, a day after the board opened a strategic review."
+  },
+  "means": [
+   {
+    "who": "If you hold Petra paper:",
+    "text": "The petition names a non-operating subsidiary, not Cullinan. The company is assessing the implications for its financing."
+   },
+   {
+    "who": "If you buy rough from Petra:",
+    "text": "Tenders run from Cullinan, which the company calls its principal operating asset."
+   },
+   {
+    "who": "What this is not:",
+    "text": "An insolvency of the group. One subsidiary is petitioned and the hearing has not happened."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Two filings in two days, and the balance sheet behind them",
+   "asof": "Petra Diamonds RNS · LSE: PDL",
+   "cols": [
+    "Item",
+    "Figure",
+    "Date it covers",
+    "Filing"
+   ],
+   "rows": [
+    [
+     "HMRC petition, PDUK Treasury",
+     "£5,647,811.32 (£5.65m)",
+     "year to 30 June 2025",
+     "2 Oct 2026"
+    ],
+    [
+     "Court hearing listed",
+     "14 Oct 2026",
+     "—",
+     "2 Oct 2026"
+    ],
+    [
+     "Strategic review opened",
+     "1 Oct 2026",
+     "—",
+     "1 Oct 2026"
+    ],
+    [
+     "Consolidated net debt",
+     "US$322m",
+     "30 June 2026",
+     "28 Jul 2026"
+    ],
+    [
+     "Net debt a quarter earlier",
+     "US$298m",
+     "31 March 2026",
+     "28 Jul 2026"
+    ],
+    [
+     "Quarter-on-quarter rise",
+     "US$24m",
+     "to 30 June 2026",
+     "Carat Capital"
+    ],
+    [
+     "Revolving facility drawn",
+     "ZAR1.75bn (US$107m)",
+     "30 June 2026",
+     "28 Jul 2026"
+    ],
+    [
+     "Revenue, FY2026",
+     "US$206m",
+     "year to 30 June 2026",
+     "28 Jul 2026"
+    ],
+    [
+     "Carats sold, FY2026",
+     "2,292,540",
+     "year to 30 June 2026",
+     "28 Jul 2026"
+    ],
+    [
+     "Revenue per carat, FY2026",
+     "about US$90",
+     "year to 30 June 2026",
+     "Carat Capital"
+    ]
+   ],
+   "hi": 1,
+   "note": "Petition sum, hearing date and tax year from the 2 October RNS; £5.65m is that sum rounded, as the headline carries it. Review date from the 1 October RNS. Balance-sheet and sales lines from the 28 July Q4 and FY 2026 operating update. The US$24m rise is Carat Capital's subtraction, 322 − 298. Revenue per carat is Carat Capital's division, 206,000,000 ÷ 2,292,540 = 89.86; the numerator is rounded to the nearest million in the filing, so the quotient is stated as about US$90 and no closer.",
+   "plate": "CC/2026/081"
+  },
+  "sections": [
+   {
+    "h": "The petition names a non-operating unit",
+    "p": [
+     {
+      "lead": "Scope is narrow.",
+      "text": "HMRC advertised the petition in the London Gazette against Petra Diamonds UK Treasury, a wholly owned indirect subsidiary. The filing states it owns and operates none of Petra's mining operations."
+     },
+     {
+      "lead": "Interest never arrived.",
+      "text": "The liability arose on interest accrued on a receivable due from Ealing Management Services, an affiliate. The filing states that interest was never received."
+     }
+    ]
+   },
+   {
+    "h": "Two filings in two days",
+    "p": [
+     {
+      "lead": "The review came first.",
+      "text": "On 1 October the board said it had decided to undertake a strategic review after consulting first and second lien creditors. It will consider a possible sale of assets."
+     },
+     {
+      "lead": "The chair left.",
+      "text": "José Manuel Vargas stepped down as chair and director on 1 October. Lerato Molebatsi takes the chair on an interim basis."
+     },
+     {
+      "lead": "Outcome is open.",
+      "text": "The 1 October filing says: “There is no certainty as to the outcome of the Strategic Review.”"
+     }
+    ]
+   },
+   {
+    "h": "The balance sheet was already tight",
+    "p": [
+     {
+      "lead": "Debt rose.",
+      "text": "Consolidated net debt reached US$322m at 30 June 2026, from US$298m three months earlier, a rise of US$24m."
+     },
+     {
+      "lead": "Goods sell cheap.",
+      "text": "Full-year revenue was US$206m on 2,292,540 carats sold. Dividing gives about US$90 a carat."
+     }
+    ]
+   },
+   {
+    "h": "Finsch is in rescue, not sold",
+    "p": [
+     {
+      "lead": "Boilerplate lists two.",
+      "text": "Both October filings describe interests in two underground mines and name Cullinan as the principal operating asset. Each states Finsch entered business rescue on 29 May 2026."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "14 Oct 2026",
+    "what": "Court hearing on the petition against PDUK Treasury. Tests whether the subsidiary is wound up, dismissed or adjourned."
+   },
+   {
+    "when": "After 14 Oct 2026",
+    "what": "Any filing on the financing implications the company says it is assessing."
+   },
+   {
+    "when": "Jan 2027",
+    "what": "US$6m of cash interest deferred from July 2026 falls due. Tests the liquidity the review exists to address."
+   }
+  ],
+  "depth": {
+   "reverse": "Payment or withdrawal of the petition before 14 October. The sum is small against group net debt, and a petition settled once the tax is paid removes the court date without changing the strategic review.",
+   "built": {
+    "title": "How a winding-up petition works",
+    "text": "A creditor advertises a petition in the London Gazette and the court lists a hearing. Advertisement lets other creditors support or oppose it. At the hearing the court may wind the company up, dismiss the petition, or adjourn. The petition binds only the company named in it."
+   },
+   "method": "Both October filings were fetched to raw bytes from Investegate and searched for the exact strings printed here. The 2 October filing (59,941 bytes) returns £5,647,811.32 twice, “14 October 2026” once, “30 June 2025” once, “London Gazette” twice and “29 May 2026” once. The 1 October filing (60,820 bytes) returns “1 October 2026” once and “strategic review” thirteen times; the quoted sentence is present verbatim. The balance-sheet figures come from the 28 July Q4 and FY 2026 operating update (486,599 bytes), where US$322 million returns three hits, US$298 million two, US$206 million three, 2,292,540 three, ZAR1.75 billion three and US$6 million two. Both the US$24m rise and the about-US$90 per carat are Carat Capital's own arithmetic on those filed figures, shown in the table note, not quoted from any source. No currency conversion is attempted: the petition is in sterling, the balance sheet in US dollars and the facility in rand, and each is printed in the unit its own filing uses. Petra's announcement index on Investegate (84,655 bytes) was read to establish that the 2 October filing is the company's newest, and it lists “Update on Finsch Business Rescue Process” on 7 August and 10 June 2026 — Finsch is in a rescue and asset-sale process, not sold to a buyer, and no filing read for this piece states otherwise.",
+   "prior": [
+    {
+     "date": "2026-08-21",
+     "slug": "fifty-nine-years-and-thirty-four-percent",
+     "claim": "Finsch will not reopen; creditors approved an asset sale on 7 August."
+    },
+    {
+     "date": "2026-07-29",
+     "slug": "petra-caves-at-the-bottom",
+     "claim": "Q4 FY2026 revenue US$38m, net debt US$322m, Finsch into business rescue."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Petra Diamonds Limited — Update in relation to Petra Diamonds UK Treasury Limited (RNS)",
+     "url": "https://www.investegate.co.uk/announcement/prn/petra-diamonds-ltd-di---pdl/update-in-relation-to-petra-diamonds-uk-treas-/9804497",
+     "published": "2026-10-02"
+    },
+    {
+     "title": "Petra Diamonds Limited — Strategic Review and Directorate Change (RNS)",
+     "url": "https://www.investegate.co.uk/announcement/prn/petra-diamonds-ltd-di---pdl/strategic-review-and-directorate-change/9802382",
+     "published": "2026-10-01"
+    },
+    {
+     "title": "Petra Diamonds Limited — Q4 and FY 2026 Operating & Business Update (RNS)",
+     "url": "https://www.investegate.co.uk/announcement/prn/petra-diamonds-ltd-di---pdl/q4-and-fy-2026-operating-business-update/9691440",
+     "published": "2026-07-28"
+    },
+    {
+     "title": "Petra Diamonds Ltd.(DI) (PDL) — announcement index",
+     "url": "https://www.investegate.co.uk/company/pdl",
+     "published": "2026-10-05"
+    }
+   ]
+  },
+  "next": {
+   "slug": "fifty-nine-years-and-thirty-four-percent",
+   "why": "The mine the review would be selling into, and why its goods stopped clearing."
+  },
+  "corrections": []
+ },
+ "gold-adds-eighteen-sixty-on-the-monday-board": {
+  "v": 3,
+  "kicker": "Metals tape",
+  "figures": {
+   "asof": "Kitco bid · board stamp 2026-10-05T05:58:59Z · prior marks from Carat Capital's tape for 2 October",
+   "cells": [
+    {
+     "n": "$4,158.40",
+     "dir": "up",
+     "label": "Gold bid",
+     "q": "up $18.60 on Friday",
+     "src": 0
+    },
+    {
+     "n": "$61.52",
+     "dir": "up",
+     "label": "Silver bid",
+     "q": "up 2.07% on Friday",
+     "src": 0
+    },
+    {
+     "n": "$1,728.00",
+     "dir": "up",
+     "label": "Platinum bid",
+     "q": "largest percentage gain",
+     "src": 0
+    },
+    {
+     "n": "$1,161.00",
+     "dir": "up",
+     "label": "Palladium bid",
+     "q": "widest intraday band",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Every metal gained.",
+   "text": "Gold's bid reached $4,158.40 against Friday's $4,139.80 close. Platinum's 2.19% was the largest percentage gain of the four."
+  },
+  "means": [
+   {
+    "who": "If you price off the board:",
+    "text": "Three of four bids moved between the board's two stamps. Quote the time with the number."
+   },
+   {
+    "who": "If you buy palladium:",
+    "text": "The bid-ask spread is $40.00, against $2.00 on gold."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A settled session. These are intraday bids, not closes."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Four metals on the Monday board",
+   "asof": "Kitco bid, board stamp 2026-10-05T05:58:59Z",
+   "cols": [
+    "Metal",
+    "Bid",
+    "2 Oct close",
+    "Change",
+    "% change",
+    "Session low–high",
+    "Band ÷ bid"
+   ],
+   "rows": [
+    [
+     "Gold",
+     "4,158.40",
+     "4,139.80",
+     "+18.60",
+     "+0.45%",
+     "4,124.60–4,171.40",
+     "1.13%"
+    ],
+    [
+     "Silver",
+     "61.52",
+     "60.274",
+     "+1.246",
+     "+2.07%",
+     "60.240–61.953",
+     "2.78%"
+    ],
+    [
+     "Platinum",
+     "1,728.00",
+     "1,691.00",
+     "+37.00",
+     "+2.19%",
+     "1,694.00–1,745.00",
+     "2.95%"
+    ],
+    [
+     "Palladium",
+     "1,161.00",
+     "1,152.00",
+     "+9.00",
+     "+0.78%",
+     "1,142.00–1,212.00",
+     "6.03%"
+    ]
+   ],
+   "hi": 6,
+   "note": "Bids, asks and session ranges read out of Kitco's own embedded price payload, board stamp 2026-10-05T05:58:59Z on all four metals. The 2 October closes are the marks Carat Capital's tape printed for that session and are looked up, never derived. Change and percentage change are Carat Capital's arithmetic against those marks: 4,158.40 ÷ 4,139.80 = 1.004493, so +0.4493%. Band ÷ bid is Carat Capital's division of the session range by the bid: palladium 1,212.00 − 1,142.00 = 70.00, and 70.00 ÷ 1,161.00 = 6.03%.",
+   "plate": "CC/2026/082"
+  },
+  "sections": [
+   {
+    "h": "Palladium's band is the widest",
+    "p": [
+     {
+      "lead": "Range beats direction.",
+      "text": "Palladium traded between $1,142.00 and $1,212.00 on the same board, a band of $70.00."
+     },
+     {
+      "lead": "Width is relative.",
+      "text": "Divided by palladium's own bid that band is 6.03%. Gold's is 1.13%. The ratio between the two is 5.4."
+     }
+    ]
+   },
+   {
+    "h": "Gold gained least of the four",
+    "p": [
+     {
+      "lead": "Smallest move, largest level.",
+      "text": "Gold's 0.45% is the smallest percentage gain on the board and platinum's 2.19% the largest. The two are 1.74 percentage points apart."
+     }
+    ]
+   },
+   {
+    "h": "The board is live, not frozen",
+    "p": [
+     {
+      "lead": "The stamp advanced.",
+      "text": "Kitco stamps all four metals 2026-10-05T05:58:59Z, an hour on from the 04:58:59Z stamp the same page carried earlier. Three of the four bids differ between the two readings."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "08:00 ET, 5 Oct",
+    "what": "LBMA gold and silver fixes publish. Tests whether the morning gain survives into a fixed price."
+   },
+   {
+    "when": "17:00 ET, 5 Oct",
+    "what": "US session closes. Monday's bids become a settled mark against these levels."
+   },
+   {
+    "when": "6 Oct",
+    "what": "Next session's opening marks, measured against Monday's bids rather than Friday's closes."
+   }
+  ],
+  "depth": {
+   "reverse": "A close below Friday's marks. These are intraday bids an hour into the European morning, and a session that gives back 0.45% on gold would erase the smallest of the four gains entirely.",
+   "built": {
+    "title": "How the bid on this board is read",
+    "text": "Kitco publishes a bid, an ask and a mid for each metal, stamped with the time the quote was captured. Carat Capital prints the bid under the One-Price Rule, so one number per metal per morning carries through the paper. The ask is kept in the tape for the spread, not printed as the price."
+   },
+   "method": "Kitco's precious-metals board was fetched to raw bytes (197,612) and the figures parsed out of the page's own embedded price payload rather than read off the rendered board. Exact-digit greps on that saved file: 4158.4 two hits, 4160.4 one, 4171.4 one, 4124.6 one, 61.52 seven, 61.769 one, 61.953 one, 60.24 three, 1728 two, 1738 one, 1745 one, 1694 one, 1161 two, 1201 one, 1212 one, 1142 one, and the stamp 2026-10-05T05:58:59 eight hits. The 2 October closes are not on Kitco's page and were not expected to be: they are looked up in Carat Capital's own tape file for 4 October, where 4139.8 returns nine hits, 60.274 six, 1691.0 three and 1152.0 three. Kitco's own change fields on this fetch read +18.5999 and +0.44930% on gold, +1.246 and +2.06723% on silver, +37 and +2.18805% on platinum, +9 and +0.78125% on palladium, which means the board's own prior close equals the tape's archived mark on all four metals; the arithmetic was redone independently and matches. The market is called open because the board's own stamp advanced and three of four bids changed with it, not because of anything inferred from a calendar; no holiday is named and none is claimed. The stamp is printed exactly as the source emits it and no local-time conversion is asserted.",
+   "prior": [
+    {
+     "date": "2026-10-04",
+     "slug": "gold-sheds-one-forty-four-on-the-week",
+     "claim": "All four metals fell over the week to the 2 October close."
+    },
+    {
+     "date": "2026-10-03",
+     "slug": "platinum-sheds-thirty-four-to-sixteen-ninety-one",
+     "claim": "Platinum lost $34.00 in the single 2 October session."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Kitco — precious metals price board, embedded price payload",
+     "url": "https://www.kitco.com/price/precious-metals",
+     "published": "2026-10-05T05:58:59Z"
+    },
+    {
+     "title": "Carat Capital tape, session of 2 October 2026 (prior marks)",
+     "url": "https://caratcapital.org/prices.html",
+     "published": "2026-10-04"
+    }
+   ]
+  },
+  "next": {
+   "slug": "gold-sheds-one-forty-four-on-the-week",
+   "why": "The week these four bids are climbing back out of, metal by metal."
+  },
+  "corrections": []
+ },
+ "shuibei-wholesale-gold-reads-one-thousand-sixty-one": {
+  "v": 3,
+  "kicker": "China counters",
+  "figures": {
+   "asof": "第一現場 via HK01 · level dated 3 October 2026 · published 4 October 2026 19:30 HKT",
+   "cells": [
+    {
+     "n": "¥1,061/g",
+     "dir": "flat",
+     "label": "Shuibei wholesale",
+     "q": "real-time level, 3 October",
+     "src": 0
+    },
+    {
+     "n": "−15.05%",
+     "dir": "down",
+     "label": "Versus Chow",
+     "q": "below Chow Sang Sang",
+     "src": 1
+    },
+    {
+     "n": "−15.46%",
+     "dir": "down",
+     "label": "Versus CTF",
+     "q": "below Chow Tai Fook",
+     "src": 1
+    },
+    {
+     "n": "¥188",
+     "dir": "down",
+     "label": "Yuan gap",
+     "q": "1,249 minus 1,061",
+     "src": 1
+    },
+    {
+     "n": "20%–30%",
+     "dir": "up",
+     "label": "Merchant sales",
+     "q": "September over August, attributed",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "The wholesale district prints a level.",
+   "text": "Shenzhen's Shuibei market quoted real-time jewellery gold at ¥1,061 a gram on 3 October. Three Chinese brand counters sat near ¥1,250 a gram a day earlier."
+  },
+  "means": [
+   {
+    "who": "If you buy wedding gold in China:",
+    "text": "The wholesale district is quoting about ¥190 a gram under the brand counters."
+   },
+   {
+    "who": "If you price a counter:",
+    "text": "That gap is workmanship and brand, not metal. Both legs are jewellery gold."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A same-day comparison. The levels are dated 3 and 2 October."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Shuibei wholesale against three brand counters",
+   "asof": "Jewellery gold, yuan per gram",
+   "cols": [
+    "Quote",
+    "Level",
+    "Date",
+    "Gap to Shuibei",
+    "Shuibei as % of it"
+   ],
+   "rows": [
+    [
+     "Shuibei wholesale, Shenzhen",
+     "1,061",
+     "3 Oct 2026",
+     "—",
+     "—"
+    ],
+    [
+     "Chow Sang Sang counter",
+     "1,249",
+     "2 Oct 2026",
+     "188",
+     "84.95%"
+    ],
+    [
+     "Lao Miao counter",
+     "1,252",
+     "2 Oct 2026",
+     "191",
+     "84.74%"
+    ],
+    [
+     "Chow Tai Fook counter",
+     "1,255",
+     "2 Oct 2026",
+     "194",
+     "84.54%"
+    ]
+   ],
+   "hi": 4,
+   "note": "The Shuibei level is 第一現場's, carried by HK01 on 4 October and dated to 3 October. The three counter levels are the ones Carat Capital published on 3 October from 21jingji, dated to 2 October. Gap and share are Carat Capital's arithmetic: 1,249 − 1,061 = 188, and 1,061 ÷ 1,249 = 84.95% of it, so 15.05% below it; 1,061 ÷ 1,255 = 84.54%, so 15.46% below. The two legs are a day apart and are not a same-day comparison.",
+   "plate": "CC/2026/083"
+  },
+  "sections": [
+   {
+    "h": "Wholesale sits under the counters",
+    "p": [
+     {
+      "lead": "The gap is priced.",
+      "text": "At ¥1,061 a gram the Shuibei level is ¥188 under Chow Sang Sang's ¥1,249. The gap to Lao Miao and Chow Tai Fook is wider, and the table carries both."
+     },
+     {
+      "lead": "Shares, not guesses.",
+      "text": "Dividing gives 84.95% of the Chow Sang Sang level, so 15.05% below it. Both counter levels are dated a day earlier than the wholesale reading."
+     },
+     {
+      "lead": "The widest leg.",
+      "text": "Against Chow Tai Fook's ¥1,255 the Shuibei level is 84.54% of it, so 15.46% below it."
+     }
+    ]
+   },
+   {
+    "h": "Merchants report firmer volume",
+    "p": [
+     {
+      "lead": "One stallholder quantifies.",
+      "text": "A Shuibei merchant put September sales 20% to 30% above August, attributing it to holiday weddings and a lower gold price. The figure is that merchant's, for one stall."
+     },
+     {
+      "lead": "Stock ran short.",
+      "text": "Traders described restocking more often than in August, with some popular styles out of stock. No shop-level volume figure is published."
+     }
+    ]
+   },
+   {
+    "h": "Buyers travelled for the level",
+    "p": [
+     {
+      "lead": "Out-of-town plates.",
+      "text": "The report describes car parks queuing and buyers driving in from outside Shenzhen to buy at the wholesale district. No visitor count is given."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "6 Oct 2026",
+    "what": "First post-holiday Shuibei quote. Tests whether the ¥1,061 level was a holiday reading."
+   },
+   {
+    "when": "8 Oct 2026",
+    "what": "Golden Week ends in China. Tests whether the wholesale-counter gap narrows once wedding buying clears."
+   },
+   {
+    "when": "Mid-Oct 2026",
+    "what": "Next Chinese brand-counter board, measured against this wholesale level rather than against August's high."
+   }
+  ],
+  "depth": {
+   "reverse": "A counter board under ¥1,150. The gap printed here rests on counter levels dated 2 October, and a sharp counter cut would shrink a ¥188 difference to something a labour-fee discount could close.",
+   "built": {
+    "title": "Why a wholesale district quotes a different price",
+    "text": "Shuibei in Shenzhen is a wholesale jewellery market where stalls sell close to the metal price plus a thin fabrication charge. A brand counter adds workmanship, brand premium and retail cost to the same metal. Both legs here are jewellery gold rather than bullion, so the difference is the trade margin, not the metal."
+   },
+   "method": "HK01's report was fetched to raw bytes (497,327) and searched for the exact strings printed here: 1061元 two hits, 20%到30% two, 10月3日 two, 許樂虹 two, 第一現場 two. The page's own datePublished field reads 2026-10-04T19:30:35+08:00. The three counter levels are not re-sourced here; they are Carat Capital's own published figures of 3 October, drawn from 21jingji and dated to 2 October, and they are cited as prior coverage rather than as a fresh read. The gap and the percentage shares are Carat Capital's divisions on those two sets of figures and are shown in the table note. The archive was searched before filing: in website/content/articles.json, the string 1,061 returns zero hits and 水貝 returns zero, while Shuibei returns two, both opened and read — 9 August 2026, on the Shanghai exchange and counter spread, and 30 September 2026, on Chow Sang Sang at ¥1,245. Neither carries a Shuibei wholesale level. Golden Week footfall itself is not new to this paper and is not the claim here; the new fact is the wholesale level and the arithmetic against the counters.",
+   "prior": [
+    {
+     "date": "2026-10-03",
+     "slug": "twelve-forty-nine-and-doubled-footfall",
+     "claim": "Three Chinese counters near ¥1,250 on 2 October as holiday footfall doubled."
+    },
+    {
+     "date": "2026-10-01",
+     "slug": "twelve-sixty-two-and-a-flat-counter",
+     "claim": "Four Chinese counters read ¥1,242 to ¥1,262 on 30 September."
+    },
+    {
+     "date": "2026-09-30",
+     "slug": "twelve-forty-five-off-the-august-high",
+     "claim": "Chow Sang Sang read ¥1,245, 11.6% under its 25 August high."
+    }
+   ],
+   "sources": [
+    {
+     "title": "HK01 — 金價回落遇中秋國慶　深圳水貝人頭湧湧　部分熱門金飾賣到斷貨 (citing 央視財經 and 第一現場)",
+     "url": "https://www.hk01.com/%E5%A4%A7%E5%9C%8B%E5%B0%8F%E4%BA%8B/60396253/",
+     "published": "2026-10-04T19:30:35+08:00"
+    },
+    {
+     "title": "Carat Capital — Chow Sang Sang's gold falls to 1,249 yuan, footfall doubles (counter levels for 2 October)",
+     "url": "https://caratcapital.org/a-twelve-forty-nine-and-doubled-footfall.html",
+     "published": "2026-10-03"
+    }
+   ]
+  },
+  "next": {
+   "slug": "twelve-forty-nine-and-doubled-footfall",
+   "why": "The brand-counter side of the same holiday, priced three days earlier."
+  },
+  "corrections": []
+ },
+ "caibai-takes-back-its-own-gold-at-fifteen-yuan": {
+  "v": 3,
+  "kicker": "Retail terms",
+  "figures": {
+   "asof": "时代周报 via 21jingji · terms observed 1 October 2026 · published 3 October 2026 16:14 CST",
+   "cells": [
+    {
+     "n": "¥15/g",
+     "dir": "flat",
+     "label": "With receipt",
+     "q": "flat fee, weight intact",
+     "src": 0
+    },
+    {
+     "n": "¥25/g",
+     "dir": "down",
+     "label": "Without receipt",
+     "q": "6% weight cut first",
+     "src": 0
+    },
+    {
+     "n": "¥1,248.00/g",
+     "dir": "flat",
+     "label": "Counter price",
+     "q": "jewellery gold, 1 October",
+     "src": 0
+    },
+    {
+     "n": "¥64,896",
+     "dir": "flat",
+     "label": "52-gram bracelet",
+     "q": "metal only, workmanship excluded",
+     "src": 0
+    },
+    {
+     "n": "¥442",
+     "dir": "down",
+     "label": "Fee gap",
+     "q": "on 52 grams, computed",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "The receipt is the price.",
+   "text": "Caibai charges a flat 15 yuan a gram to take back gold bought on its own slip. Without that slip the shop cuts 6% of the weight, then charges 25 yuan a gram."
+  },
+  "means": [
+   {
+    "who": "If you sell gold back:",
+    "text": "Keep the original receipt. On 52 grams the fee gap is 442 yuan before any weight is cut."
+   },
+   {
+    "who": "If you price trade-ins:",
+    "text": "The 6% cut is 3.12 grams on 52. Caibai publishes no recycling base price, so that metal is unpriced here."
+   },
+   {
+    "who": "What this is not:",
+    "text": "One retailer's terms, not a market tariff."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Two routes for selling gold back to Caibai",
+   "asof": "Terms as published, 3 October 2026",
+   "cols": [
+    "Route",
+    "Weight cut",
+    "Fee per gram",
+    "Fee on 52 grams",
+    "Grams lost"
+   ],
+   "rows": [
+    [
+     "With Caibai receipt",
+     "none",
+     "¥15",
+     "¥780",
+     "0.00"
+    ],
+    [
+     "Without receipt",
+     "6%",
+     "¥25",
+     "¥1,222",
+     "3.12"
+    ],
+    [
+     "Difference",
+     "6%",
+     "¥10",
+     "¥442",
+     "3.12"
+    ]
+   ],
+   "hi": 3,
+   "note": "Fee rates, the 6% weight cut and the 1,248.00 yuan counter price are 时代周报's, from a 1 October visit to Caibai's Beijing flagship, published 3 October. The last two columns are Carat Capital's arithmetic: 52 × 15 = 780; 52 × 0.94 = 48.88 grams, × 25 = 1,222; 1,222 − 780 = 442; 52 × 0.06 = 3.12 grams. Caibai's recycling base price is not published, so the value of the 3.12 grams is not priced here.",
+   "plate": "CC/2026/084"
+  },
+  "sections": [
+   {
+    "h": "The receipt is worth 442 yuan",
+    "p": [
+     {
+      "lead": "Two routes, two fees.",
+      "text": "With the shop's own purchase slip the fee is 15 yuan a gram and no weight is deducted. On 52 grams that is 780 yuan."
+     },
+     {
+      "lead": "The other route compounds.",
+      "text": "Without the slip the shop deducts 6% of total weight, then charges 25 yuan a gram on what remains. The fee becomes 1,222 yuan on the same piece."
+     }
+    ]
+   },
+   {
+    "h": "Buying splits at both ends",
+    "p": [
+     {
+      "lead": "Big tickets cleared fast.",
+      "text": "A couple bought a 52-gram antique-method bracelet at 1,248.00 yuan a gram. Multiplying gives 64,896 yuan before workmanship."
+     },
+     {
+      "lead": "Small tickets held budgets.",
+      "text": "An office worker compared one-gram pure-gold beads against a budget under 2,000 yuan. Sales staff put young buyers' budgets at 1,500 to 2,000 yuan."
+     }
+    ]
+   },
+   {
+    "h": "The bar counter sat empty",
+    "p": [
+     {
+      "lead": "Investment bars lag.",
+      "text": "On the fourth floor the investment-bar counter held three or four customers while the jewellery floor stayed busy. Staff described buyers waiting rather than transacting."
+     }
+    ]
+   },
+   {
+    "h": "Jewellery gold fell since August",
+    "p": [
+     {
+      "lead": "The discount drove it.",
+      "text": "Jewellery gold is about 100 yuan a gram below its end-August level, so a 50-gram bracelet costs roughly 5,000 yuan less. Both figures are the buyer's own account, not a measured series."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "8 Oct 2026",
+    "what": "Golden Week ends. Tests whether the two-ended buying pattern was a holiday effect."
+   },
+   {
+    "when": "Mid-Oct 2026",
+    "what": "Any change to Caibai's published depreciation fees. The 15 and 25 yuan rates are the testable part."
+   },
+   {
+    "when": "Nov 2026",
+    "what": "Next Chinese counter board. Tests whether the 100-yuan fall from August holds or reverses."
+   }
+  ],
+  "depth": {
+   "reverse": "A published recycling base price. The fee schedule is only half the cost of selling gold back, and a base price materially below the counter level would make the 3.12 grams the larger loss, not the 442 yuan.",
+   "built": {
+    "title": "How a Chinese gold trade-in is costed",
+    "text": "A retailer buys old gold against a daily recycling base price, then deducts a per-gram depreciation fee for refining and remaking. Where no purchase receipt proves the piece's origin, a percentage of total weight is written off first as loss, and the fee is charged on the reduced weight. The base price, not the fee, sets most of the payout."
+   },
+   "method": "21jingji's carriage of 时代周报's report was fetched to raw bytes (39,667) and searched for the exact strings printed here: 1248.00元/克 one hit, 15元/克 one, 25元/克 one, 6% one, 52克 two, 6.5万元 one, 1500元到2000元 one, 100元 one, 5000元 one, 10月1日 two, 菜百 ten. The page's own datePublished reads 2026-10-03T16:14:11+08:00. Every figure in the last two table columns is Carat Capital's arithmetic on those rates, shown in the table note; nothing in them is quoted. The 100-yuan fall and the 5,000-yuan saving are a named buyer's account inside the report rather than a measured series, and are labelled as such. The archive was searched before filing: in website/content/articles.json the strings Caibai, 菜百, depreciation fee and recycling base each return zero hits, so this fee schedule is new to the paper. One coincidence is named so it is not read as a repeat: 1,248 returns hits in the archive, and they were opened — Carat Capital's own 1 October piece derives 1,248 as Lao Feng Xiang's 29 September counter level by subtraction. That is a different retailer, a different city and a different date from Caibai's 1,248.00 on 1 October; the shared digits are coincidence, not repetition.",
+   "prior": [
+    {
+     "date": "2026-10-03",
+     "slug": "twelve-forty-nine-and-doubled-footfall",
+     "claim": "Chinese counters near ¥1,250 on 2 October as holiday footfall doubled."
+    },
+    {
+     "date": "2026-10-01",
+     "slug": "twelve-sixty-two-and-a-flat-counter",
+     "claim": "Four Chinese counters read ¥1,242 to ¥1,262 on 30 September."
+    }
+   ],
+   "sources": [
+    {
+     "title": "21经济网 / 时代周报 — 国庆假期黄金消费“两头热”：有人毫不犹豫拿下50克古法手镯，有人寻觅2000元以下转运珠",
+     "url": "https://www.21jingji.com/article/20261003/herald/8cff101dd99a85083d1f5ccac689f021.html",
+     "published": "2026-10-03T16:14:11+08:00"
+    }
+   ]
+  },
+  "next": {
+   "slug": "shuibei-wholesale-gold-reads-one-thousand-sixty-one",
+   "why": "What the same metal costs two provinces away, wholesale rather than retail."
+  },
+  "corrections": []
+ },
+ "patek-prices-a-womens-gondolo-at-thirty-seven-five-ten": {
+  "v": 3,
+  "kicker": "Watch pricing",
+  "figures": {
+   "asof": "JCK, Milan · Watch Art Grand Exhibition opened 2 October 2026 · published 2 October 2026",
+   "cells": [
+    {
+     "n": "$37,510",
+     "dir": "flat",
+     "label": "Ref. 7043R",
+     "q": "18k rose gold case",
+     "src": 0
+    },
+    {
+     "n": "$68,768",
+     "dir": "up",
+     "label": "Ref. 7043/250GR",
+     "q": "same case, diamond-set",
+     "src": 0
+    },
+    {
+     "n": "$31,258",
+     "dir": "up",
+     "label": "Price gap",
+     "q": "1.83 times the lower",
+     "src": 0
+    },
+    {
+     "n": "6",
+     "dir": "flat",
+     "label": "Models shown",
+     "q": "quartz, cushion-shape, two executions",
+     "src": 0
+    },
+    {
+     "n": "18 Oct 2026",
+     "dir": "flat",
+     "label": "Exhibition closes",
+     "q": "Milan, opened 2 October",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "A dedicated women's line arrives.",
+   "text": "Patek Philippe introduced Gondolo Ladies First at its Milan exhibition on 2 October. Two references carry published prices, $37,510 and $68,768."
+  },
+  "means": [
+   {
+    "who": "If you stock women's watches:",
+    "text": "Both priced references are quartz and share one case size. The spread is execution, not metal."
+   },
+   {
+    "who": "If you quote a client:",
+    "text": "Only two of the six models shown carry a published price."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A full price list. Four of six models are unpriced."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "The two priced Gondolo Ladies First references",
+   "asof": "Prices as published by JCK, 2 October 2026",
+   "cols": [
+    "Reference",
+    "Case",
+    "Movement",
+    "Published price"
+   ],
+   "rows": [
+    [
+     "Gondolo Ladies First 7043R",
+     "31 x 34.8 mm, 18k rose gold",
+     "Quartz",
+     "$37,510"
+    ],
+    [
+     "Gondolo Ladies First 7043/250GR",
+     "31 x 34.8 mm, 18k rose gold",
+     "Quartz",
+     "$68,768"
+    ],
+    [
+     "Difference",
+     "identical",
+     "identical",
+     "$31,258"
+    ]
+   ],
+   "hi": 3,
+   "note": "References, case dimensions and both prices are JCK's, reported from the Milan exhibition on 2 October. The collection is described there as six quartz-powered cushion-shape models in two diamond-set executions, so both priced references are quartz. The difference is Carat Capital's subtraction, 68,768 − 37,510 = 31,258, and the multiple is Carat Capital's division, 68,768 ÷ 37,510 = 1.83. Four of the six models carry no published price.",
+   "plate": "CC/2026/085"
+  },
+  "sections": [
+   {
+    "h": "One case, two prices",
+    "p": [
+     {
+      "lead": "The case is shared.",
+      "text": "Both priced references sit in the same 18k rose gold case, 31 x 34.8 mm."
+     },
+     {
+      "lead": "Prices split wide.",
+      "text": "The published prices are $37,510 and $68,768, a difference of $31,258."
+     },
+     {
+      "lead": "Setting carries it.",
+      "text": "Dividing, the lower reference is 54.55% of the higher, so 45.45% below it. Case metal, case size and movement are identical on the published description."
+     }
+    ]
+   },
+   {
+    "h": "Stern names the strategy",
+    "p": [
+     {
+      "lead": "The brand goes direct.",
+      "text": "Patek's president said women have long bought the brand's men's watches and changed the strap and the colour. Of the new approach he said: “But now I would like to be more aggressive.”"
+     }
+    ]
+   },
+   {
+    "h": "The exhibition is the brand's largest",
+    "p": [
+     {
+      "lead": "Scale is stated.",
+      "text": "The Milan show covers 2,900 square metres, or 9,514 square feet, and is described as the largest the brand has organised. It is the seventh in the series."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "18 Oct 2026",
+    "what": "Milan exhibition closes. Tests whether the four unpriced models reach a published price."
+   },
+   {
+    "when": "20 Oct 2026",
+    "what": "FH publishes September Swiss watch export data. Tests the demand backdrop this line is launching into."
+   },
+   {
+    "when": "Q4 2026",
+    "what": "Authorised dealer listings for the two priced references, against the $37,510 and $68,768 shown in Milan."
+   }
+  ],
+  "depth": {
+   "reverse": "A published price for the remaining four models. The $31,258 gap described here is the whole range as currently priced, and a mid-priced reference would turn a two-point spread into a ladder.",
+   "built": {
+    "title": "How a reference number carries the price",
+    "text": "Patek identifies each watch by a reference number, with suffixes for case metal and setting. 7043R and 7043/250GR share the 7043 case in rose gold; the /250 suffix marks the gem-set execution. Two watches on the same reference base can therefore differ in price by the setting alone, with no change in case, size or movement."
+   },
+   "method": "JCK's report was fetched to raw bytes (115,379) and searched for the exact strings printed here: 37,510 one hit, 68,768 one, 7043R one, 7043/250GR one, 31 x 34.8 two, 2,900 square meters one, 9,514 one, Oct. 18 one, six quartz-powered one, more aggressive one. The page's own datePublished reads 2026-10-02. The byte count matches the Bureau's own independent fetch exactly, confirming the same document was read. The $31,258 difference, the 1.83 multiple and the 54.55%/45.45% shares are Carat Capital's arithmetic on JCK's two prices and are shown in the table note. The claim that the Milan show is the brand's largest is JCK's own characterisation and is attributed rather than verified against any series of exhibition floor areas; no independent trace for it was sought or found. The six-model count and the quartz movement are JCK's description of the collection, which is why both priced references are listed as quartz rather than confirmed individually. No entry price is claimed: only two of six models are priced, so $37,510 is the lower of two published figures, not established as the line's floor. The archive was searched before filing: in website/content/articles.json the strings Gondolo, Ladies First, 7043, Grand Exhibition and Watch Art each return zero hits. Patek returns nineteen articles, every one opened and read; none covers a women's collection launch or a Milan exhibition.",
+   "prior": [
+    {
+     "date": "2026-10-02",
+     "slug": "eighteen-jewels-and-no-watch",
+     "claim": "Audemars Piguet opened an 18-piece jewellery suite with no watch in it."
+    },
+    {
+     "date": "2026-09-18",
+     "slug": "four-million-francs-in-geneva",
+     "claim": "A Patek split-seconds carried a CHF 4m estimate at Phillips."
+    },
+    {
+     "date": "2026-07-27",
+     "slug": "the-big-three-pull-away",
+     "claim": "Patek, Rolex and AP pulled away on the resale board."
+    }
+   ],
+   "sources": [
+    {
+     "title": "JCK — Patek Philippe Debuts Gondolo Ladies First Collection and New Grand Complication in Milan, by Victoria Gomelsky",
+     "url": "https://www.jckonline.com/editorial-article/patek-philippe-gondolo-milan/",
+     "published": "2026-10-02"
+    }
+   ]
+  },
+  "next": {
+   "slug": "eighteen-jewels-and-no-watch",
+   "why": "The other watch house that spent last week selling something other than watches."
+  },
+  "corrections": []
  }
 }
