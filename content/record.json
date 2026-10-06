@@ -1,10 +1,16 @@
 {
- "updated": "3 Oct 2026",
+ "updated": "6 Oct 2026",
  "intro": "Eight weeks of the trade, kept the way a ledger should be kept — dated, sourced, and in one place. New entries are added at the top each week; the quarter's running numbers live in the Almanac below.",
  "weeks": [
   {
    "label": "This week - August 20 to September 23",
    "entries": [
+    {
+     "d": "retail-tech",
+     "h": "A subhead said the bar counter was empty; it was quiet",
+     "t": "Corrected 6 October 2026: a-caibai-takes-back-its-own-gold-at-fifteen-yuan.html, published 5 October 2026 in No. 081, carried the depth subhead “The bar counter sat empty.” It now reads “The bar counter drew few buyers.” The counter was not empty. The article's own next sentence says it held three or four customers, and the primary (时代周报 via 21jingji, 3 October 2026) describes the investment-bar counter as “somewhat quiet” (「略显冷清」) with “very few” (「寥寥无几」) consumers at it. The wrong word was this paper's, not the source's. What was right as published: every priced figure on the page — ¥15/g, ¥25/g, 6%, ¥1,248.00/g, ¥64,896 and ¥442 — and the body sentence beneath the subhead, which gave the three-or-four count correctly.",
+     "s": "Carat Capital, No. 081, a-caibai-takes-back-its-own-gold-at-fifteen-yuan.html, 5 October 2026; primary 时代周报 via 21jingji, 3 October 2026 — https://www.21jingji.com/article/20261003/herald/8cff101dd99a85083d1f5ccac689f021.html; finding routed by caratcheck, newsroom/standards/2026-10-05.md"
+    },
     {
      "d": "diamonds",
      "h": "Two RAPI dates on one price page, reconciled",

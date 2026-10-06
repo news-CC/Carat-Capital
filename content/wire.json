@@ -1,40 +1,40 @@
 {
- "date_line": "Monday, October 5, 2026 | Vol. I - No. 081",
- "edition": "Vol. I - No. 081",
+ "date_line": "Tuesday, October 6, 2026 | Vol. I - No. 082",
+ "edition": "Vol. I - No. 082",
  "items": [
   {
-   "slug": "hmrc-seeks-to-wind-up-a-petra-unit",
+   "slug": "rapi-point-three-oh-adds-three-point-two",
    "desk": "Diamonds",
-   "title": "HMRC seeks to wind up a Petra unit over £5.65m"
+   "title": "RAPI's 0.30-carat gains 3.2% in September, the 1-carat 0.3%"
   },
   {
-   "slug": "gold-adds-eighteen-sixty-on-the-monday-board",
+   "slug": "gold-sheds-eight-ten-at-press-time",
    "desk": "Gold & Metals",
-   "title": "Gold adds $18.60 to $4,158.40 on the Monday board"
+   "title": "Gold sheds $8.10 to $4,150.30, all four metals lower"
   },
   {
-   "slug": "shuibei-wholesale-gold-reads-one-thousand-sixty-one",
-   "desk": "Gold & Metals",
-   "title": "Shuibei wholesale gold reads 1,061 yuan on 3 October"
+   "slug": "phillips-two-rings-at-two-point-nine-million",
+   "desk": "Auctions",
+   "title": "Phillips estimates two rings at CHF 2.9m each for 9 November"
   },
   {
-   "slug": "caibai-takes-back-its-own-gold-at-fifteen-yuan",
-   "desk": "Retail & Technology",
-   "title": "Caibai takes back its own gold at 15 yuan a gram"
-  },
-  {
-   "slug": "patek-prices-a-womens-gondolo-at-thirty-seven-five-ten",
+   "slug": "thirty-one-four-tops-a-four-twenty-six-sale",
    "desk": "Watches",
-   "title": "Patek prices a women's Gondolo at $37,510 and $68,768"
+   "title": "F.P. Journe's HK$31,400,000 tops a HK$426m Sotheby's sale"
+  },
+  {
+   "slug": "hong-kong-jewelry-adds-twelve-percent-in-august",
+   "desk": "Retail & Technology",
+   "title": "Hong Kong's jewelry sales rise 12% to HK$5.14bn in August"
   }
  ],
- "tape_ts": "Kitco bid, board stamp 2026-10-05T05:58:59Z, read 5 Oct 06:00 EDT",
+ "tape_ts": "Kitco bid, board stamp 2026-10-06T10:11:00Z, press-time re-read 6 Oct 06:11 EDT",
  "tape": [
   {
    "name": "Gold / oz",
    "code": "XAU",
-   "px": "4,139.80",
-   "chg": "−1.0540% vs 2 Oct open",
+   "px": "4,150.30",
+   "chg": "−0.1948% vs 5 Oct mark",
    "dir": "down",
    "pts": [
     2,
@@ -90,8 +90,8 @@
   {
    "name": "Platinum / oz",
    "code": "XPT",
-   "px": "1,691.00",
-   "chg": "−1.9710% vs 2 Oct open",
+   "px": "1,697.00",
+   "chg": "−1.7940% vs 5 Oct mark",
    "dir": "down",
    "pts": [
     2,
@@ -109,8 +109,8 @@
   {
    "name": "Silver / oz",
    "code": "XAG",
-   "px": "60.274",
-   "chg": "−1.2905% vs 2 Oct open",
+   "px": "60.87",
+   "chg": "−1.0566% vs 5 Oct mark",
    "dir": "down",
    "pts": [
     2,

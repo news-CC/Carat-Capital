@@ -130754,7 +130754,7 @@
     ]
    },
    {
-    "h": "The bar counter sat empty",
+    "h": "The bar counter drew few buyers",
     "p": [
      {
       "lead": "Investment bars lag.",
@@ -130811,6 +130811,9 @@
      "url": "https://www.21jingji.com/article/20261003/herald/8cff101dd99a85083d1f5ccac689f021.html",
      "published": "2026-10-03T16:14:11+08:00"
     }
+   ],
+   "corrections": [
+    "Corrected 6 October 2026: the subhead over this section first read “The bar counter sat empty.” It now reads “The bar counter drew few buyers.” The counter was not empty. This article's own next sentence states it held three or four customers, and the primary report (时代周报 via 21jingji, 3 October 2026) says the investment-bar counter “appeared somewhat quiet” (「略显冷清」) with “very few” (「寥寥无几」) consumers at it. The bad wording was this paper's own subhead, not the source's. Everything else on this page was correct as published: ¥15/g, ¥25/g, 6%, ¥1,248.00/g, ¥64,896 and ¥442 all traced to the primary, and the body sentence beneath the subhead was accurate throughout."
    ]
   },
   "next": {
@@ -131002,5 +131005,1399 @@
    "why": "The other watch house that spent last week selling something other than watches."
   },
   "corrections": []
+ },
+ "rapi-point-three-oh-adds-three-point-two": {
+  "v": 3,
+  "kicker": "Polished prices",
+  "figures": {
+   "asof": "Rapaport Trade Diamond Index · monthly release, New York, 6 October 2026 · asking prices, round D-H IF-VS2",
+   "cells": [
+    {
+     "n": "+3.2%",
+     "dir": "up",
+     "label": "0.30-carat, September",
+     "q": "largest of four sizes",
+     "src": 0
+    },
+    {
+     "n": "+2.5%",
+     "dir": "up",
+     "label": "0.50-carat, September",
+     "q": "matches August",
+     "src": 0
+    },
+    {
+     "n": "+0.3%",
+     "dir": "up",
+     "label": "1-carat, September",
+     "q": "second rise running",
+     "src": 0
+    },
+    {
+     "n": "+1.5%",
+     "dir": "up",
+     "label": "3-carat, September",
+     "q": "reverses August's fall",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "The 3-carat turned.",
+   "text": "Rapaport's September release has the 3-carat index up 1.5% after August's 0.4% fall. The 1-carat rose 0.3%, its second consecutive monthly increase."
+  },
+  "means": [
+   {
+    "who": "If you hold small round goods:",
+    "text": "The 0.30-carat has done the year's work at 15.1% and carries the most to give back."
+   },
+   {
+    "who": "If you price 1-carat stones:",
+    "text": "0.3% is a second rise, not a recovery. The size has been the flattest of the four all year."
+   },
+   {
+    "who": "If you sell at the bottom of the range:",
+    "text": "Rapaport reports smaller, lower-quality goods still under lab-grown pressure. The index gain does not reach you."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A report of settled trades. RAPI measures asking prices on one marketplace."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Four RAPI sizes, two monthly releases and the year",
+   "asof": "Rapaport monthly releases, 2 September and 6 October 2026",
+   "cols": [
+    "Size",
+    "September",
+    "August",
+    "Year to date"
+   ],
+   "rows": [
+    [
+     "0.30-carat",
+     "+3.2%",
+     "+2.0%",
+     "+15.1%"
+    ],
+    [
+     "0.50-carat",
+     "+2.5%",
+     "+2.5%",
+     "+5.8%"
+    ],
+    [
+     "1-carat",
+     "+0.3%",
+     "+0.5%",
+     "not given"
+    ],
+    [
+     "3-carat",
+     "+1.5%",
+     "−0.4%",
+     "not given"
+    ]
+   ],
+   "hi": 1,
+   "note": "September figures are from Rapaport's release of 6 October 2026, read from the page's own body paragraphs. August figures are the ones Rapaport published on 2 September 2026 and Carat Capital printed on 3 September; they are looked up in that article, never re-derived. Year-to-date figures are published for two sizes only and the other two cells say so rather than carry an estimate. Rapaport's release gives no year-to-date figure for the 1-carat or 3-carat.",
+   "plate": "CC/2026/086"
+  },
+  "sections": [
+   {
+    "h": "The small end leads again",
+    "p": [
+     {
+      "lead": "Ten times the move.",
+      "text": "The 0.30-carat's 3.2% is 10.7 times the 1-carat's 0.3%, on Carat Capital's division of the two figures."
+     },
+     {
+      "lead": "Rounds beat fancies.",
+      "text": "Rapaport attributes the gap to round production having fallen more sharply than fancy-shape production in earlier months."
+     }
+    ]
+   },
+   {
+    "h": "The 3-carat reverses August",
+    "p": [
+     {
+      "lead": "A one-month decline.",
+      "text": "August's release had the 3-carat down 0.4% after what it called a year and a half without a move. September puts it up 1.5%."
+     },
+     {
+      "lead": "Second half carried it.",
+      "text": "Rapaport says most of the 3-carat's advance came in the month's second half rather than across the whole period."
+     }
+    ]
+   },
+   {
+    "h": "The price list moved mid-month",
+    "p": [
+     {
+      "lead": "A dated increase.",
+      "text": "On 11 September Rapaport raised its price list for certain round 0.30 to 0.69-carat, D-G, VVS1-SI1 diamonds."
+     },
+     {
+      "lead": "Two instruments.",
+      "text": "The index measures asking prices on Rapaport Trade. The list is Rapaport's own published benchmark and moves by decision, not by averaging."
+     }
+    ]
+   },
+   {
+    "h": "Lab-grown still holds the bottom",
+    "p": [
+     {
+      "lead": "The cheap end lags.",
+      "text": "Rapaport reports smaller, lower-quality diamonds stayed under pressure from lab-grown competition through the month."
+     },
+     {
+      "lead": "The reference is flat.",
+      "text": "Carat Capital's tape carries the one-carat lab-grown reference at $651, unchanged on the prior session."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Early November 2026",
+    "what": "Rapaport's October release. Tests whether the 3-carat holds its reversal and whether the 1-carat posts a third consecutive rise."
+   },
+   {
+    "when": "Through October 2026",
+    "what": "Rapaport Price List revisions. September's came on the 11th; a second increase would move the published benchmark, not only asking prices."
+   },
+   {
+    "when": "9 November 2026",
+    "what": "Phillips' Geneva Jewels Auction: VII prices large polished at the top of the market, against an index that measures the cheapest tenth of listings."
+   }
+  ],
+  "depth": {
+   "reverse": "A negative month in the small sizes. The 0.30-carat carries 15.1% of year-to-date gain and the most to give back; a fall there would end the pattern Rapaport has reported since July.",
+   "built": {
+    "title": "How RAPI is built",
+    "text": "Rapaport defines RAPI as the average asking price of the 10% lowest-priced round diamonds in each of the top 25 quality categories — D-H, IF-VS2, GIA-graded, RapSpec-A3 and better — offered for sale on Rapaport Trade, the marketplace formerly called RapNet. It is an index of what sellers ask, not of what buyers paid, and it reads the cheap tenth of each category rather than the middle."
+   },
+   "method": "The release was fetched to raw bytes at rapaport.com, HTTP 200, 460,898 bytes, saved to newsroom/sources/2026-10-06/rapi-sept.html. Figures were greped only inside the story's own body paragraphs, stopping before the page's More Stories widget, because a whole-page grep on this site also matches figures belonging to adjacent stories. Exact-digit greps on the saved file: 3.2% one hit, 2.5% one, 0.3% one, 1.5% one, 15.1% one, 5.8% one, September 11 one. The release's own dateline reads New York, NY – October 6, 2026 and the feed stamps it Tue, 06 Oct 2026 08:41:35 +0000. Archive check, by entity and period, not by figure: Carat Capital's own monthly-release coverage is a-half-a-percent-after-fifteen-months.html, which covers the AUGUST 2026 release (1-carat +0.5%, 0.30-carat +2%, 0.50-carat +2.5%, 3-carat −0.4%); this item covers the SEPTEMBER 2026 release. Different reporting period, same entity, so advanced, not a repeat. The paper's 30 September, 3 October and 4 October pieces read Rapaport's separate DAILY series on 30-day trailing windows and are a different instrument with different figures; they are named here so the two are not confused. The one quote carried below was counted at 11 words before it was written.",
+   "prior": [
+    {
+     "date": "2026-09-03",
+     "slug": "half-a-percent-after-fifteen-months",
+     "claim": "August's release put the 1-carat up 0.5%, its first rise in fifteen months, and the 3-carat down 0.4%."
+    },
+    {
+     "date": "2026-10-04",
+     "slug": "five-rapi-sizes-under-a-september-peak",
+     "claim": "All five sizes on Rapaport's separate daily series sat below peaks set between 21 and 26 September."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Rapaport News — Small Diamonds Lead Price Gains in September",
+     "url": "https://rapaport.com/news/small-diamonds-lead-price-gains-in-september/",
+     "published": "2026-10-06"
+    },
+    {
+     "title": "Carat Capital — 1-carat polished up 0.5% in August, first rise in 15 months",
+     "url": "https://caratcapital.org/a-half-a-percent-after-fifteen-months.html",
+     "published": "2026-09-03"
+    },
+    {
+     "title": "Carat Capital tape, session of 6 October 2026 (lab-grown reference)",
+     "url": "https://caratcapital.org/prices.html",
+     "published": "2026-10-06"
+    }
+   ]
+  },
+  "next": {
+   "slug": "five-rapi-sizes-under-a-september-peak",
+   "why": "The daily series behind this monthly number, and why its month column reads differently."
+  }
+ },
+ "phillips-two-rings-at-two-point-nine-million": {
+  "v": 3,
+  "kicker": "Geneva sale",
+  "figures": {
+   "asof": "Phillips pre-sale estimates · Geneva Jewels Auction: VII, 9 November 2026 · reported 4 October 2026",
+   "cells": [
+    {
+     "n": "CHF 2.9m",
+     "dir": "flat",
+     "label": "Upper estimate, each ring",
+     "q": "$3.5m",
+     "src": 0
+    },
+    {
+     "n": "1.35 ct",
+     "dir": "flat",
+     "label": "Fancy-vivid-blue diamond",
+     "q": "CHF 2,148,148 a carat at the ceiling",
+     "src": 0
+    },
+    {
+     "n": "16.40 ct",
+     "dir": "flat",
+     "label": "Kashmir sapphire, ring",
+     "q": "CHF 176,829 a carat at the ceiling",
+     "src": 0
+    },
+    {
+     "n": "9 Nov",
+     "dir": "flat",
+     "label": "Sale date, Geneva",
+     "q": "Auction VII",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Two lots share one ceiling.",
+   "text": "Phillips has put the same CHF 2.9 million upper estimate on a 1.35-carat blue diamond ring and a 16.40-carat sapphire ring. The sale is 9 November."
+  },
+  "means": [
+   {
+    "who": "If you are bidding at the top:",
+    "text": "The ceiling is shared but the per-carat ceilings are 12.1 times apart. The two lots are not substitutes."
+   },
+   {
+    "who": "If you buy Kashmir sapphire:",
+    "text": "The larger 18.69-carat stone carries the lower per-carat estimate. The setting is doing the pricing, not the weight."
+   },
+   {
+    "who": "If you buy provenance:",
+    "text": "A royal-owned necklace tops out at CHF 180,000, 6.2% of a headline ring's ceiling."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A result. These are pre-sale estimates for a sale that has not taken place."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Five named lots and what Phillips expects",
+   "asof": "Phillips pre-sale estimates as reported 4 October 2026",
+   "cols": [
+    "Lot",
+    "Stone",
+    "High estimate, CHF",
+    "High estimate, USD",
+    "CHF a carat at the ceiling"
+   ],
+   "rows": [
+    [
+     "Ring",
+     "1.35-ct fancy-vivid-blue diamond",
+     "2,900,000",
+     "3,500,000",
+     "2,148,148"
+    ],
+    [
+     "Ring",
+     "16.40-ct Kashmir sapphire",
+     "2,900,000",
+     "3,500,000",
+     "176,829"
+    ],
+    [
+     "Brooch and pendant, late 19th c.",
+     "18.69-ct Kashmir sapphire",
+     "1,200,000",
+     "1,500,000",
+     "64,206"
+    ],
+    [
+     "Harry Winston earrings",
+     "9.67 and 10.29-ct Colombian emeralds",
+     "900,000",
+     "1,100,000",
+     "not computed"
+    ],
+    [
+     "Necklace, circa 1928",
+     "Cultured pearl and diamond",
+     "180,000",
+     "220,000",
+     "not applicable"
+    ]
+   ],
+   "hi": 4,
+   "note": "Estimates are as reported on 4 October 2026 and read only out of that story's own body paragraphs. CHF a carat at the ceiling is Carat Capital's division of the high estimate by the stated carat weight: 2,900,000 ÷ 1.35 = 2,148,148 and 2,900,000 ÷ 16.40 = 176,829. The earrings hold two stones of different weights under one estimate, so a per-carat figure would be arbitrary and none is printed. The necklace's value is not carried by a single graded stone and no per-carat figure applies. The emerald earrings' estimate is a range, CHF 600,000 to CHF 900,000; the high end is the figure tabled.",
+   "plate": "CC/2026/087"
+  },
+  "sections": [
+   {
+    "h": "One ceiling, twelve times apart",
+    "p": [
+     {
+      "lead": "Same number, different stone.",
+      "text": "Both rings top out at CHF 2.9 million. The blue diamond weighs 1.35 carats and the sapphire 16.40."
+     },
+     {
+      "lead": "Per carat it splits.",
+      "text": "That is CHF 2,148,148 a carat against CHF 176,829, a ratio of 12.1 on Carat Capital's division."
+     }
+    ]
+   },
+   {
+    "h": "The bigger sapphire costs less",
+    "p": [
+     {
+      "lead": "Weight misleads.",
+      "text": "The 18.69-carat Kashmir sapphire in the 19th-century brooch has a high estimate of CHF 1.2 million."
+     },
+     {
+      "lead": "Setting carries it.",
+      "text": "At CHF 64,206 a carat it is priced at 36.3% of the ring sapphire's per-carat ceiling, despite being the heavier stone."
+     }
+    ]
+   },
+   {
+    "h": "Provenance is priced modestly",
+    "p": [
+     {
+      "lead": "A royal name.",
+      "text": "The cultured pearl and diamond necklace of about 1928 belonged to Mary of Teck, queen of the United Kingdom."
+     },
+     {
+      "lead": "Six percent.",
+      "text": "Its CHF 180,000 top estimate is 6.2% of a headline ring's ceiling, on Carat Capital's division."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "9 November 2026",
+    "what": "Geneva Jewels Auction: VII. Hammer prices against these five estimates, and whether the shared CHF 2.9m ceiling holds on either ring."
+   },
+   {
+    "when": "Before 9 November 2026",
+    "what": "Phillips' full catalogue and any revised estimates. The figures above are a pre-catalogue announcement, not a final book."
+   },
+   {
+    "when": "Mid-November 2026",
+    "what": "Christie's and Sotheby's Geneva jewellery weeks price comparable Kashmir material in the same fortnight."
+   }
+  ],
+  "depth": {
+   "reverse": "A withdrawal or a revised estimate. Pre-catalogue figures move, and a lot pulled before 9 November would take its ceiling with it.",
+   "built": {
+    "title": "What a pre-sale estimate is",
+    "text": "An estimate is a range the house publishes before bidding, net of the buyer's premium it will add to the hammer price. It is a marketing figure as much as a valuation: a low estimate is set to attract bidding and a high estimate to frame the ceiling. Neither end is a price anyone has paid, and the realised total can land outside the range in either direction."
+   },
+   "method": "The report was fetched to raw bytes at rapaport.com, HTTP 200, 454,360 bytes, saved to newsroom/sources/2026-10-06/phillips.html, with its payload datePublished reading 2026-10-04T10:36:59+00:00. Figures were greped only inside the story's own body paragraphs and the page's related-stories widget was excluded, because this site embeds other stories' figures in the same HTML document. Exact-digit greps on the saved file: 2.9 million one hit, 1.35-carat five, 16.40 five, 3.5 million three, November 9 one, Geneva Jewels Auction: VII three. Every per-carat figure above is Carat Capital's own division and is shown as arithmetic in the table note rather than attributed to Phillips. Archive check, by entity and period: no file in website/ matches Phillips Geneva together with Kashmir sapphire and 1.35-carat; the Geneva Jewels Auction: VII sale of 9 November 2026 has not been covered here before. Phillips said the figures last week, per the report; the sale itself is a future event and no result is claimed.",
+   "prior": [
+    {
+     "date": "2026-10-02",
+     "slug": "boodles-takes-the-argyle-brand",
+     "claim": "Rio Tinto sold the Argyle Pink Diamonds brand to Boodles, the last previous auctions-adjacent item on this desk."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Rapaport News — Fancy-Vivid-Blue-Diamond and Sapphire Rings to Headline at Phillips",
+     "url": "https://rapaport.com/news/fancy-vivid-blue-diamond-and-sapphire-rings-to-headline-at-phillips/",
+     "published": "2026-10-04"
+    }
+   ]
+  },
+  "next": {
+   "slug": "rapi-point-three-oh-adds-three-point-two",
+   "why": "What the polished index says about the market these estimates are being set into."
+  }
+ },
+ "thirty-one-four-tops-a-four-twenty-six-sale": {
+  "v": 3,
+  "kicker": "Hong Kong result",
+  "figures": {
+   "asof": "Sotheby's post-sale recap · Important Watches, Hong Kong, 21 September 2026 · released 22 September",
+   "cells": [
+    {
+     "n": "HK$426m",
+     "dir": "flat",
+     "label": "Sale total",
+     "q": "US$55m",
+     "src": 1
+    },
+    {
+     "n": "HK$31,400,000",
+     "dir": "flat",
+     "label": "Top lot, F.P. Journe",
+     "q": "7.4% of the sale",
+     "src": 1
+    },
+    {
+     "n": "HK$26,520,000",
+     "dir": "flat",
+     "label": "Cartier Cheich, record",
+     "q": "second by price",
+     "src": 1
+    },
+    {
+     "n": "2,000+",
+     "dir": "flat",
+     "label": "Bidders, 50 countries",
+     "q": "two-day sale",
+     "src": 1
+    }
+   ]
+  },
+  "changed": {
+   "lead": "The record was not the top lot.",
+   "text": "An F.P. Journe Tourbillon Souverain took HK$31,400,000 at Sotheby's Hong Kong sale, 18.4% more than the Cartier Cheich the house led its announcement with."
+  },
+  "means": [
+   {
+    "who": "If you consign independent watchmaking:",
+    "text": "Four of the top six lots were F.P. Journe, and the highest price in the room was not a listed group's brand."
+   },
+   {
+    "who": "If you read house announcements for price:",
+    "text": "The record watch and the dearest watch were different lots here. Check the lot table, not the headline."
+   },
+   {
+    "who": "If you valued a Cartier Cheich:",
+    "text": "HK$26,520,000 is 3.32 times the low estimate and 33.7% below the high."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A current reading. The sale is 15 days old and nothing since has been measured against it here."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "The sale's five highest lots",
+   "asof": "Sotheby's post-sale recap, sale of 21 September 2026",
+   "cols": [
+    "Rank",
+    "Lot",
+    "Watch",
+    "HK$",
+    "US$",
+    "Share of HK$426m"
+   ],
+   "rows": [
+    [
+     "1",
+     "2400",
+     "F.P. Journe, Tourbillon Souverain",
+     "31,400,000",
+     "4,002,558",
+     "7.4%"
+    ],
+    [
+     "2",
+     "2292",
+     "Cartier Cheich",
+     "26,520,000",
+     "3,413,124",
+     "6.2%"
+    ],
+    [
+     "3",
+     "2579",
+     "F.P. Journe, Tourbillon Souverain",
+     "23,470,000",
+     "2,991,721",
+     "5.5%"
+    ],
+    [
+     "4",
+     "2387",
+     "F.P. Journe, Répétition Souveraine",
+     "12,160,000",
+     "1,550,035",
+     "2.9%"
+    ],
+    [
+     "5",
+     "2596",
+     "Patek Philippe, Reference 5074R-018",
+     "11,520,000",
+     "1,468,454",
+     "2.7%"
+    ]
+   ],
+   "hi": 5,
+   "note": "Lot numbers, names and both currency figures are read from the Top 10 lots table inside Sotheby's own post-sale recap PDF, 436,953 bytes, fetched to raw bytes and decompressed locally. Share of total is Carat Capital's division by the HK$426,000,000 the same document reports: 31,400,000 ÷ 426,000,000 = 7.37%. Only the top five are tabled. The recap's table lists lot 6, an F.P. Journe Octa Chronographe, at the same figure as lot 5, HK$11,520,000 / US$1,468,454; that may be a genuine tie or an artefact of the document, it could not be resolved against a second source, and lot 6 is therefore named in the prose by brand and lot number but not priced here. The recap also prints the Cartier London Midi Pebble's second figure as HK$494,208 where a US$ label is expected; that figure is not reproduced.",
+   "plate": "CC/2026/088"
+  },
+  "sections": [
+   {
+    "h": "The dearest lot set no record",
+    "p": [
+     {
+      "lead": "Eighteen percent apart.",
+      "text": "Lot 2400 took HK$31,400,000 and the Cheich HK$26,520,000. The division gives 1.184, so 18.4% more."
+     },
+     {
+      "lead": "Different headline.",
+      "text": "Sotheby's leads its recap on the record rather than on the highest price realised in the room."
+     }
+    ]
+   },
+   {
+    "h": "Four of six are Journe",
+    "p": [
+     {
+      "lead": "Independent at the top.",
+      "text": "Lots 2400, 2579, 2387 and 2414 are all F.P. Journe, four of the six highest by the recap's own ordering."
+     },
+     {
+      "lead": "Groups take the rest.",
+      "text": "Patek Philippe holds three of the top ten and Audemars Piguet one, by the same table."
+     }
+    ]
+   },
+   {
+    "h": "Doubled, and under its high",
+    "p": [
+     {
+      "lead": "A wide band.",
+      "text": "The Cheich was estimated at HK$8 million to HK$40 million. It realised HK$26,520,000."
+     },
+     {
+      "lead": "Print the division.",
+      "text": "26,520,000 ÷ 8,000,000 = 3.32 times the low; 26,520,000 ÷ 40,000,000 = 66.3% of the high, so 33.7% below it."
+     }
+    ]
+   },
+   {
+    "h": "One document, two durations",
+    "p": [
+     {
+      "lead": "Nine or sixteen.",
+      "text": "The recap's body calls the Cheich's contest a nine-minute bidding battle. A quoted comment in the same document says sixteen minutes."
+     },
+     {
+      "lead": "Neither is printed.",
+      "text": "No second source carries either figure, so no duration appears in the figures above or the table."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "October to November 2026",
+    "what": "Christie's and Phillips Hong Kong and Geneva watch sales. The first comparable totals to set against HK$426m."
+   },
+   {
+    "when": "Next Cartier Cheich at auction",
+    "what": "Whether HK$26,520,000 holds as the Cartier wristwatch record. The recap says the prior record was set in May 2026."
+   },
+   {
+    "when": "May 2027",
+    "what": "The anniversary of the record this one displaced, and the usual window for the house's Hong Kong luxury week."
+   }
+  ],
+  "depth": {
+   "reverse": "A corrected recap. Two internal inconsistencies were found in this one document — two bidding durations and a currency label — and a reissued table could change the lot ordering printed here.",
+   "built": {
+    "title": "What a sale total counts",
+    "text": "A house total is the sum of hammer prices plus the buyer's premium on each sold lot. It excludes lots that failed to sell, so a high total can coexist with a weak sell-through rate. Sotheby's recap for this sale publishes no sell-through percentage and none is estimated here. Currency conversions are the house's own, struck at the rate on the day of sale, which is why the HK$ and US$ columns do not move together across lots."
+   },
+   "method": "The press-release page was fetched to raw bytes, HTTP 200, 127,219 bytes, and carries datePublished 2026-09-22T15:17:52.032Z; the headline string HK$426 returns seven hits on it. The page's body is script-rendered, so the figures were taken instead from the house's own post-sale recap PDF, fetched to raw bytes, HTTP 200, 436,953 bytes, four pages, decompressed and flattened locally to newsroom/sources/2026-10-06/sothebys-recap.txt. Exact-digit greps on that extracted text: HK$426 two hits, US$55 two, HK$26.5 one, US$3.4 one, HK$26,520,000 one, HK$31,400,000 one, 2,000+ one, 50 Countries one, 21 September one. The recap's own dateline reads HONG KONG 21 September 2026. Age is computed from that dateline to today's clock, 2026-10-06, and is 15 days; from the release date it is 14. Both are printed rather than either being hidden. Archive check, by entity and period: no file in website/ matches Important Watches together with 426 million, and no prior Carat Capital article covers this sale; the September 2026 Hong Kong Important Watches sale is a new period for this desk. The estimate comparison is Carat Capital's arithmetic, shown on one line in the prose so the division and the sentence can be compared. Sotheby's own words unprecedented and smashing are not reproduced as this paper's prose. No quote is carried: the house's two available comments run 34 and 22 words, both over the 15-word cap, and were paraphrased with attribution instead.",
+   "prior": [
+    {
+     "date": "2026-09-25",
+     "slug": "a-timekeeper-for-the-thirty-eighth",
+     "claim": "The last watches-desk auction item before this one, on a different house and sale."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Sotheby's — Record Breaking Results at Sotheby's Hong Kong, Important Watches",
+     "url": "https://www.sothebys.com/en/articles/record-breaking-results-at-sothebys-hong-kong-important-watches-auction-achieves-hk-426-million-us-55-million",
+     "published": "2026-09-22"
+    },
+    {
+     "title": "Sotheby's — Important Watches Hong Kong post-sale recap (PDF, 4 pages)",
+     "url": "https://www.sothebys.com/en/docs/pdf/20260921-important-watches-sothebys-hk-post-sales-recap.pdf",
+     "published": "2026-09-21"
+    }
+   ]
+  },
+  "next": {
+   "slug": "phillips-two-rings-at-two-point-nine-million",
+   "why": "The next Geneva sale pricing single stones at the same altitude, three weeks out."
+  }
+ },
+ "hong-kong-jewelry-adds-twelve-percent-in-august": {
+  "v": 3,
+  "kicker": "Hong Kong retail",
+  "figures": {
+   "asof": "Hong Kong Census and Statistics Department, August 2026 · reported 4 October 2026 · revenue, not volume",
+   "cells": [
+    {
+     "n": "HK$5.14bn",
+     "dir": "up",
+     "label": "Jewelry, watches, clocks, gifts",
+     "q": "US$655.3m, up 12% YoY",
+     "src": 0
+    },
+    {
+     "n": "HK$30.06bn",
+     "dir": "up",
+     "label": "All retail, August",
+     "q": "US$4.09bn, up 6%",
+     "src": 0
+    },
+    {
+     "n": "17.1%",
+     "dir": "flat",
+     "label": "Hard luxury share of retail",
+     "q": "Carat Capital's division",
+     "src": 0
+    },
+    {
+     "n": "16th",
+     "dir": "up",
+     "label": "Consecutive month of growth",
+     "q": "department's own count",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Luxury grew twice as fast.",
+   "text": "Hong Kong's jewelry, watch and valuable-gift revenue rose 12% to HK$5.14 billion in August while all retail rose 6%, a gap of six percentage points."
+  },
+  "means": [
+   {
+    "who": "If you hold Hong Kong retail space:",
+    "text": "The year-to-date gap is 14 points. Hard luxury is carrying this market rather than following it."
+   },
+   {
+    "who": "If you plan inventory on the monthly print:",
+    "text": "The level is 6.4% below June even with a 12% annual gain. Direction and level disagree."
+   },
+   {
+    "who": "If you report the streak:",
+    "text": "August is the 16th consecutive month on the department's count, two on from the 14th Carat Capital printed in August."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A volume figure. These are revenue numbers with no unit counts published beside them."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Hard luxury against the whole basket, month and year",
+   "asof": "Hong Kong Census and Statistics Department, August and January–August 2026",
+   "cols": [
+    "Measure",
+    "August HK$",
+    "August change",
+    "Jan–Aug HK$",
+    "Jan–Aug change"
+   ],
+   "rows": [
+    [
+     "Jewelry, watches, clocks, valuable gifts",
+     "5.14bn",
+     "+12%",
+     "41.1bn",
+     "+23%"
+    ],
+    [
+     "All retail categories",
+     "30.06bn",
+     "+6%",
+     "266.08bn",
+     "+9%"
+    ],
+    [
+     "Hard-luxury share of retail",
+     "17.1%",
+     "—",
+     "15.4%",
+     "—"
+    ],
+    [
+     "Gap, luxury minus all retail",
+     "—",
+     "+6 pts",
+     "—",
+     "+14 pts"
+    ]
+   ],
+   "hi": 0,
+   "note": "HK$ and percentage figures are the department's, read out of the 4 October report's own body paragraphs and not from any widget on that page. The US$ equivalents the report prints alongside them are US$655.3m, US$4.09bn, US$5.24bn and US$33.91bn. Share and gap rows are Carat Capital's arithmetic on the department's figures: 5.14 ÷ 30.06 = 17.10% and 41.1 ÷ 266.08 = 15.45%; the gaps are subtractions of the two published growth rates, 12 − 6 and 23 − 9, and are stated in percentage points, never as percentages. No monthly unit volumes are published and none are inferred.",
+   "plate": "CC/2026/089"
+  },
+  "sections": [
+   {
+    "h": "Luxury outruns the whole basket",
+    "p": [
+     {
+      "lead": "Six points clear.",
+      "text": "The category rose 12% in August against 6% for all retail categories, a gap of six percentage points."
+     },
+     {
+      "lead": "A sixth share.",
+      "text": "Hard luxury was 17.1% of August retail revenue, on Carat Capital's division of the two published levels."
+     }
+    ]
+   },
+   {
+    "h": "The year gap is wider",
+    "p": [
+     {
+      "lead": "Fourteen points.",
+      "text": "January to August has luxury up 23% and all retail up 9%, a gap more than twice August's own."
+     },
+     {
+      "lead": "Share holds.",
+      "text": "Across the eight months the category is 15.4% of retail revenue, against 17.1% in the single month of August."
+     }
+    ]
+   },
+   {
+    "h": "Growth without a higher level",
+    "p": [
+     {
+      "lead": "June was dearer.",
+      "text": "Carat Capital printed Hong Kong's June figure at HK$5.49 billion on 5 August, the 14th consecutive month of improvement."
+     },
+     {
+      "lead": "Down from there.",
+      "text": "August's HK$5.14 billion is 93.6% of June's level, which is 6.4% below it, while still being a 12% annual gain."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Early November 2026",
+    "what": "September retail figures from the Census and Statistics Department. Tests whether the streak reaches 17 months and whether the monthly level recovers June's."
+   },
+   {
+    "when": "Mid-October 2026",
+    "what": "Chow Tai Fook's quarterly operational update. The listed read-through on the same Hong Kong demand these figures measure."
+   },
+   {
+    "when": "Through Q4 2026",
+    "what": "Visitor arrivals and the mega-event calendar the government named as supports. Either shows up in the monthly print or it does not."
+   }
+  ],
+  "depth": {
+   "reverse": "A September print below last September. The streak is a count of year-on-year improvements, and one negative month ends it regardless of the level.",
+   "built": {
+    "title": "What this series measures",
+    "text": "The Census and Statistics Department publishes monthly retail sales revenue by category for Hong Kong, in Hong Kong dollars, at current prices. Jewellery, watches, clocks and valuable gifts is one category and mixes fine jewellery, watches and gift items, so it cannot be read as a jewellery-only number. The series is revenue, not volume and not margin: a 12% gain is consistent with flat units at higher prices, or with more units at lower ones, and the department publishes nothing that separates the two."
+   },
+   "method": "The report was fetched to raw bytes at rapaport.com, HTTP 200, 458,356 bytes, saved to newsroom/sources/2026-10-06/hkluxury.html, payload datePublished 2026-10-04T14:36:11+00:00. Figures were greped only inside the story's own body paragraphs, stopping before the page's More Stories widget. Exact-digit greps on the saved file: 5.14 billion three hits, 655.3 million three, 12% seven, 16th consecutive three. Archive check, by entity AND period, per the Period Rule: Carat Capital already holds a-hong-kong-fourteen-months.html of 5 August 2026 on the SAME series from the same department, covering JUNE 2026 data at HK$5.49bn and the 14th consecutive month. This item covers AUGUST 2026 data at HK$5.14bn and the 16th month. Same entity, different reporting period, so advanced, not a repeat, and what advanced is named: June previously, August now. The June level was read back out of that published article, not remembered. The underlying government release is dated by the report only as last week and no sharper date is claimed here. The department's 16-month count is its own and is not recomputed; the two-month interval between the 14th and the 16th is stated because it is arithmetic, not a finding. No quote is carried: the government spokesperson's two available sentences run 19 and 20 words, both over the cap, and were paraphrased with attribution.",
+   "prior": [
+    {
+     "date": "2026-08-05",
+     "slug": "hong-kong-fourteen-months",
+     "claim": "June revenue was HK$5.49bn, the 14th consecutive month of retail improvement."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Rapaport News — Hong Kong Luxury Sales Maintain Growth in August",
+     "url": "https://rapaport.com/news/hong-kong-luxury-sales-maintain-growth-in-august/",
+     "published": "2026-10-04"
+    },
+    {
+     "title": "Carat Capital — Hong Kong's fourteenth month (June data, prior period)",
+     "url": "https://caratcapital.org/a-hong-kong-fourteen-months.html",
+     "published": "2026-08-05"
+    }
+   ]
+  },
+  "next": {
+   "slug": "hong-kong-fourteen-months",
+   "why": "The June print this August figure advances, and the level it has fallen back from."
+  }
+ },
+ "namibia-unveils-a-176-29-carat-rough": {
+  "v": 3,
+  "kicker": "Namibian rough",
+  "figures": {
+   "asof": "GJEPC report, 5 October 2026 · NAMDEB, Southern Coastal Mine, Oranjemund · no valuation disclosed",
+   "cells": [
+    {
+     "n": "176.29 ct",
+     "dir": "flat",
+     "label": "Rough weight, “Owishi”",
+     "q": "natural, gem-grade",
+     "src": 0
+    },
+    {
+     "n": "10 May 2026",
+     "dir": "flat",
+     "label": "Date of recovery",
+     "q": "148 days before the unveiling",
+     "src": 0
+    },
+    {
+     "n": "Two decades",
+     "dir": "flat",
+     "label": "Largest of its kind there in",
+     "q": "NAMDEB's own claim",
+     "src": 0
+    },
+    {
+     "n": "no price",
+     "dir": "flat",
+     "label": "Valuation disclosed",
+     "q": "no tender, reserve or buyer",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "A large rough, no price.",
+   "text": "NAMDEB has unveiled a 176.29-carat natural diamond found at Oranjemund on 10 May 2026. No valuation, tender date or buyer accompanies it."
+  },
+  "means": [
+   {
+    "who": "If you buy large rough:",
+    "text": "There is nothing to bid on yet. No tender, no reserve and no date were given."
+   },
+   {
+    "who": "If you track Namibian beneficiation:",
+    "text": "The call for domestic cutting carries no target, timetable or capital figure to measure."
+   },
+   {
+    "who": "If you price by weight:",
+    "text": "176.29 carats is the only hard number in the announcement. Everything else is characterisation."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A sale. Owishi has been shown, not sold, and no price is implied by its weight."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "What the announcement does and does not carry",
+   "asof": "GJEPC report, 5 October 2026",
+   "cols": [
+    "Item",
+    "Value",
+    "Source states it"
+   ],
+   "rows": [
+    [
+     "Rough weight",
+     "176.29 carats",
+     "yes, in the headline and body"
+    ],
+    [
+     "Date of recovery",
+     "10 May 2026",
+     "yes, in the body"
+    ],
+    [
+     "Date of unveiling",
+     "5 October 2026",
+     "yes, the page's own byline date"
+    ],
+    [
+     "Interval, find to unveiling",
+     "148 days",
+     "no — Carat Capital's count"
+    ],
+    [
+     "Largest of its kind at the mine in",
+     "two decades",
+     "yes, attributed to the operator"
+    ],
+    [
+     "Valuation, tender date or buyer",
+     "none",
+     "no — absent from the report"
+    ],
+    [
+     "Government–De Beers split",
+     "50/50",
+     "yes, cited by the president"
+    ]
+   ],
+   "hi": 5,
+   "note": "Every row marked yes is read out of the report's own article text, below the site's navigation block, not from the page furniture. The 148-day interval is Carat Capital's own count from 10 May 2026 to 5 October 2026 and is labelled as such. The valuation row is a negative claim and is established by search rather than assertion: the saved file was greped for a currency mark, for carat and for tender, and no price, estimate, reserve or sale date appears anywhere in the article text. Carat weight is the only quantity in the announcement that a market could act on.",
+   "plate": "CC/2026/090"
+  },
+  "sections": [
+   {
+    "h": "No valuation was disclosed",
+    "p": [
+     {
+      "lead": "The absent number.",
+      "text": "The report gives no estimate, no tender date and no buyer for a gem-grade rough of 176.29 carats."
+     },
+     {
+      "lead": "Nothing substituted.",
+      "text": "No per-carat comparison is printed here, because a weight alone does not price a stone of unknown colour and clarity."
+     }
+    ]
+   },
+   {
+    "h": "Five months from pit to podium",
+    "p": [
+     {
+      "lead": "A long interval.",
+      "text": "The stone was recovered on 10 May 2026 and shown on 5 October, 148 days later on Carat Capital's count."
+     },
+     {
+      "lead": "Two decades claimed.",
+      "text": "NAMDEB describes it as the largest of its kind recovered at the Southern Coastal Mine in the past twenty years."
+     }
+    ]
+   },
+   {
+    "h": "The partnership is half-owned",
+    "p": [
+     {
+      "lead": "Fifty-fifty split.",
+      "text": "President Nandi-Ndaitwah cited the government's 50/50 partnership with De Beers Group as a model of public-private development."
+     },
+     {
+      "lead": "A request only.",
+      "text": "She asked for commercially viable domestic cutting and polishing. No target, timetable or capital figure accompanied the request."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Next NAMDEB or Namib Desert Diamonds tender",
+    "what": "Whether Owishi is offered and at what reserve. The announcement names no sale channel."
+   },
+   {
+    "when": "Through Q4 2026",
+    "what": "Any valuation or sale price attached to the stone. Until one exists, the weight is the only number."
+   },
+   {
+    "when": "Namibia's next budget cycle",
+    "what": "Whether the call for domestic cutting acquires a target or a capital figure."
+   }
+  ],
+  "depth": {
+   "reverse": "A disclosed valuation. A tender reserve or sale price would turn this from a weight into a priced stone, and would be the first number in the story a buyer could act on.",
+   "built": {
+    "title": "Why a rough weight is not a price",
+    "text": "A rough diamond's value is set by colour, clarity, shape and expected polished yield, not by carats alone. Two stones of the same weight can differ by more than an order of magnitude in realised price once a cutter models the yield. Large gem-grade rough is normally sold by tender or special arrangement rather than at a list price, which is why a weight published without a tender gives a market nothing to work with."
+   },
+   "method": "The GJEPC page was fetched to raw bytes, HTTP 200, 33,730 bytes, saved to newsroom/sources/2026-10-06/owishi.html, and its article text was isolated from the site's long navigation block before any figure was read. Exact-digit greps on the saved file: 176.29 six hits, Owishi eight, Namibia twelve. The page's own byline reads Oct 05, 2026 and the find date 10 May 2026 appears in the body. Archive check: grep -ril -F 'Owishi' website/ returns zero files, so the stone is new to this archive by name as well as by event. The negative price claim was established by searching the saved file rather than asserted: no currency mark, estimate, reserve or tender date appears in the article text. The stone is carried as solid but single-source — GJEPC is the only outlet reached that reports the unveiling, and no second primary was found to cross the 10 May find date against. That limit is disclosed rather than smoothed over. No quote is carried: the president's remarks are reported in GJEPC's own summary rather than quoted verbatim, so there is nothing under the cap to lift.",
+   "prior": [
+    {
+     "date": "2026-07-15",
+     "slug": "lucara-tenth-thousand-carat",
+     "claim": "Karowe's tenth thousand-carat recovery, the last large-rough unveiling covered here, also published without a valuation."
+    }
+   ],
+   "sources": [
+    {
+     "title": "GJEPC — Namibia Unveils 176.29-Carat Diamond “Owishi”",
+     "url": "https://www.gjepc.org/news_detail.php?news=namibia-unveils-176-29-carat-diamond-owishi--1",
+     "published": "2026-10-05"
+    }
+   ]
+  },
+  "next": {
+   "slug": "rapi-point-three-oh-adds-three-point-two",
+   "why": "The polished index this rough would eventually feed, and the direction it is moving."
+  }
+ },
+ "watches-of-switzerland-opens-a-dual-brand-store": {
+  "v": 3,
+  "kicker": "US retail",
+  "figures": {
+   "asof": "JCK report, 5 October 2026 · The Promenade at Sagemore, Marlton, New Jersey · no financial figure disclosed",
+   "cells": [
+    {
+     "n": "4,500 sq ft",
+     "dir": "flat",
+     "label": "Store area",
+     "q": "the only quantity disclosed",
+     "src": 0
+    },
+    {
+     "n": "Two",
+     "dir": "flat",
+     "label": "Entrances, one interior",
+     "q": "two fascias",
+     "src": 0
+    },
+    {
+     "n": "2017",
+     "dir": "flat",
+     "label": "Mayors acquired from Birks",
+     "q": "by Watches of Switzerland",
+     "src": 0
+    },
+    {
+     "n": "First",
+     "dir": "flat",
+     "label": "Mayors store in New Jersey",
+     "q": "previously Florida and Georgia only",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Two fascias, one floor.",
+   "text": "Watches of Switzerland has opened a 4,500-square-foot Marlton, New Jersey store with separate Watches of Switzerland and Mayors Jewelers entrances into a shared interior."
+  },
+  "means": [
+   {
+    "who": "If you run a multi-brand group:",
+    "text": "This tests whether two fascias on one floor beat two leases on the same street."
+   },
+   {
+    "who": "If you supply either brand:",
+    "text": "The watch and jewellery rosters stay separate. The shared floor is a staffing change, not a merchandising merger."
+   },
+   {
+    "who": "If you lease to jewellers:",
+    "text": "4,500 square feet now carries two tenant brands' footfall. The announcement gives no rent or cost figure."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A national rollout. One store has opened and no second site has been named."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "What the two fascias carry",
+   "asof": "JCK report, 5 October 2026",
+   "cols": [
+    "Fascia",
+    "Named brands carried",
+    "Disclosed figure"
+   ],
+   "rows": [
+    [
+     "Watches of Switzerland",
+     "Rolex, Tudor, Omega, Grand Seiko and others",
+     "none"
+    ],
+    [
+     "Mayors Jewelers",
+     "Messika, Fope, Marco Bicego, Roberto Coin, John Hardy",
+     "none"
+    ],
+    [
+     "Shared space",
+     "one interior, two entrances",
+     "4,500 sq ft"
+    ],
+    [
+     "Ownership",
+     "Mayors bought from Birks Group",
+     "2017"
+    ],
+    [
+     "Geography",
+     "first Mayors in New Jersey",
+     "Florida and Georgia previously"
+    ]
+   ],
+   "hi": 2,
+   "note": "Brand names, the floor area, the 2017 acquisition and the geography are read out of the 5 October report's own article text, below the site's navigation block. The disclosed-figure column is a negative finding established by search, not assertion: the saved file carries no capital cost, no revenue target, no rent and no store-count plan for the format, and the 4,500-square-foot area is the only quantity in it. No per-square-foot figure is computed, because no revenue figure exists to divide by.",
+   "plate": "CC/2026/091"
+  },
+  "sections": [
+   {
+    "h": "Split outside, shared inside",
+    "p": [
+     {
+      "lead": "Two doors.",
+      "text": "Separate entrances carry the Watches of Switzerland and Mayors Jewelers fascias into one 4,500-square-foot interior."
+     },
+     {
+      "lead": "One sales floor.",
+      "text": "The group says staff inside can work across either brand's inventory rather than being held to one fascia."
+     }
+    ]
+   },
+   {
+    "h": "Mayors leaves its two states",
+    "p": [
+     {
+      "lead": "First in New Jersey.",
+      "text": "The Fort Lauderdale business had previously opened only in Florida and Georgia. This is its first New Jersey address."
+     },
+     {
+      "lead": "Bought in 2017.",
+      "text": "Watches of Switzerland acquired Mayors Jewelers from Canada's Birks Group in 2017."
+     }
+    ]
+   },
+   {
+    "h": "No financial figure was given",
+    "p": [
+     {
+      "lead": "Area only.",
+      "text": "The announcement discloses 4,500 square feet and no capital cost, revenue target or rent."
+     },
+     {
+      "lead": "No rollout count.",
+      "text": "No second dual-brand site is named, so the format's store plan cannot be sized from this report."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Watches of Switzerland Group's next interim results",
+    "what": "Whether the dual-brand format is named as a capital line or a store-count target."
+   },
+   {
+    "when": "Through 2027",
+    "what": "A second dual-brand address. One store is a test; two is a format."
+   },
+   {
+    "when": "Birks Group's next filing",
+    "what": "The seller's side of the 2017 Mayors transaction, for the brand's pre-acquisition footprint."
+   }
+  ],
+  "depth": {
+   "reverse": "A disclosed cost or a second site. Either would turn this from a single opening into a format with a number attached, which is what a rollout claim would need.",
+   "built": {
+    "title": "Why a dual fascia is a property decision",
+    "text": "A multi-brand group pays rent per door and staffs per door. Putting two fascias on one lease halves the fixed property cost of carrying both names in a catchment while keeping the shop signage a customer searches for. The trade-off is inventory: a shared floor needs staff trained across both categories and a single stockroom serving two very different price ladders. Nothing in this announcement says how either was resolved."
+   },
+   "method": "The report was fetched to raw bytes at jckonline.com, HTTP 200, 112,601 bytes, saved to newsroom/sources/2026-10-06/wosmayors.html, with datePublished 2026-10-05 and a byline reading By Karen Dybis, October 05, 2026. Figures and brand names were read from the article text only, after the site's long navigation and section menus were cut away; a whole-page grep on this site matches menu labels and other stories' teasers. Exact-digit and string greps on the saved file: Mayors 37 hits, Watches of Switzerland 28, 4,500-square-foot one. Archive check, by entity: grep -ril -F 'Mayors Jewelers' website/ returns zero files; the only adjacent coverage is this paper's Birks Group piece, which is the seller of the 2017 transaction and a different entity and period. The negative financial claim was established by searching the saved file for a currency mark and for cost, investment and target, and none attaches to this store. No quote is carried: the two available statements from the group's North America president run 17 and 36 words, both over the 15-word cap, and were paraphrased with attribution instead.",
+   "prior": [
+    {
+     "date": "2026-07-23",
+     "slug": "birks-narrows-by-73",
+     "claim": "Birks Group, which sold Mayors Jewelers to Watches of Switzerland in 2017, narrowed its loss by 73%."
+    }
+   ],
+   "sources": [
+    {
+     "title": "JCK — Watches of Switzerland Opens First Dual-Brand Store With Mayors Jewelers",
+     "url": "https://www.jckonline.com/editorial-article/watches-of-switzerland-mayors/",
+     "published": "2026-10-05"
+    }
+   ]
+  },
+  "next": {
+   "slug": "hong-kong-jewelry-adds-twelve-percent-in-august",
+   "why": "The other retail read this morning, where the revenue figures are published rather than withheld."
+  }
+ },
+ "gold-sheds-eight-ten-at-press-time": {
+  "v": 3,
+  "kicker": "Metals tape",
+  "figures": {
+   "asof": "Kitco bid · board stamp 2026-10-06T10:11:00Z · prior marks from Carat Capital's tape for 5 October",
+   "cells": [
+    {
+     "n": "$4,150.30",
+     "dir": "down",
+     "label": "Gold bid",
+     "q": "down $8.10 on Monday's mark",
+     "src": 0
+    },
+    {
+     "n": "$60.87",
+     "dir": "down",
+     "label": "Silver bid",
+     "q": "down 1.06%",
+     "src": 0
+    },
+    {
+     "n": "$1,697.00",
+     "dir": "down",
+     "label": "Platinum bid",
+     "q": "largest percentage fall",
+     "src": 0
+    },
+    {
+     "n": "$1,148.00",
+     "dir": "down",
+     "label": "Palladium bid",
+     "q": "widest band and spread",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "All four metals fell.",
+   "text": "Gold's bid read $4,150.30 against Monday's $4,158.40 mark, down $8.10. Platinum's 1.79% was the largest percentage fall of the four."
+  },
+  "means": [
+   {
+    "who": "If you price off the board:",
+    "text": "Name the stamp with the number. Two readings five hours apart disagree on all four metals."
+   },
+   {
+    "who": "If you trade palladium:",
+    "text": "The bid-ask spread is $40.00, twenty times gold's $2.00, and wider than the day's move."
+   },
+   {
+    "who": "If you reconcile against Kitco's own column:",
+    "text": "It reads gold $10.80 higher, because its reference close is not Monday's printed mark."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A settled session. These are intraday bids, not closes."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Four metals at press time, against Monday's marks",
+   "asof": "Kitco bid, board stamp 2026-10-06T10:11:00Z",
+   "cols": [
+    "Metal",
+    "Bid",
+    "5 Oct mark",
+    "Change",
+    "% change",
+    "Session low–high",
+    "Band ÷ bid",
+    "Bid-ask"
+   ],
+   "rows": [
+    [
+     "Gold",
+     "4,150.30",
+     "4,158.40",
+     "−8.10",
+     "−0.19%",
+     "4,105.50–4,158.80",
+     "1.28%",
+     "2.00"
+    ],
+    [
+     "Silver",
+     "60.87",
+     "61.52",
+     "−0.650",
+     "−1.06%",
+     "60.156–61.359",
+     "1.98%",
+     "0.25"
+    ],
+    [
+     "Platinum",
+     "1,697.00",
+     "1,728.00",
+     "−31.00",
+     "−1.79%",
+     "1,688.00–1,727.00",
+     "2.30%",
+     "10.00"
+    ],
+    [
+     "Palladium",
+     "1,148.00",
+     "1,161.00",
+     "−13.00",
+     "−1.12%",
+     "1,142.00–1,203.00",
+     "5.31%",
+     "40.00"
+    ]
+   ],
+   "hi": 6,
+   "note": "Bids, asks and session ranges are read out of Kitco's own embedded price payload, board stamp 2026-10-06T10:11:00Z on all four metals. The 5 October marks are the ones Carat Capital's tape printed for that morning and are looked up, never derived. Change and percentage change are Carat Capital's arithmetic against those marks: 4,150.30 − 4,158.40 = −8.10 and −8.10 ÷ 4,158.40 = −0.1948%. Band ÷ bid is Carat Capital's division of the session range by the bid: palladium 1,203.00 − 1,142.00 = 61.00, and 61.00 ÷ 1,148.00 = 5.31%. Bid-ask is the ask minus the bid on the same stamp. Kitco's own day column on this fetch reads gold +10.80 and +0.2609%, silver −0.068, platinum −15.00 and palladium −8.00, measured against its own reference close; those are not the figures in this table and are disclosed in the prose rather than mixed into it.",
+   "plate": "CC/2026/092"
+  },
+  "sections": [
+   {
+    "h": "Platinum falls furthest",
+    "p": [
+     {
+      "lead": "Nine times gold.",
+      "text": "Platinum lost 1.79% and gold 0.19%. The division gives 9.2, the widest ratio on the board."
+     },
+     {
+      "lead": "Dollars tell it differently.",
+      "text": "Platinum's $31.00 loss is 3.8 times gold's $8.10 in money, against 9.2 times in percentage."
+     }
+    ]
+   },
+   {
+    "h": "Two change columns disagree",
+    "p": [
+     {
+      "lead": "Minus eight, plus eleven.",
+      "text": "Against Monday's printed mark gold is down $8.10. Kitco's own day column on the same fetch reads it up $10.80."
+     },
+     {
+      "lead": "Different reference.",
+      "text": "Kitco measures from its own session close. Carat Capital measures from the mark it printed on Monday morning."
+     }
+    ]
+   },
+   {
+    "h": "Palladium's band stays widest",
+    "p": [
+     {
+      "lead": "Sixty-one dollars.",
+      "text": "Palladium traded between $1,142.00 and $1,203.00 on the same board, a band of $61.00."
+     },
+     {
+      "lead": "Four times gold's.",
+      "text": "That band is 5.31% of palladium's own bid against 1.28% for gold, a ratio of 4.1."
+     }
+    ]
+   },
+   {
+    "h": "The board is live",
+    "p": [
+     {
+      "lead": "The stamp advanced.",
+      "text": "Kitco stamps all four metals 2026-10-06T10:11:00Z, five hours and twelve minutes on from the 04:58:59Z stamp in the 05:00 tape."
+     },
+     {
+      "lead": "All four moved.",
+      "text": "Every one of the four bids differs between the two readings. No holiday is named and none is claimed."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "10:00 and 15:00 London, 6 Oct",
+    "what": "LBMA gold and silver fixes. Tests whether the morning's fall survives into a fixed price."
+   },
+   {
+    "when": "17:00 ET, 6 Oct",
+    "what": "The US session closes. These intraday bids become a settled mark against Monday's levels."
+   },
+   {
+    "when": "7 October 2026",
+    "what": "The People's Bank of China publishes September reserve figures, the next scheduled official buyer datapoint."
+   }
+  ],
+  "depth": {
+   "reverse": "A recovery into the US session. These are intraday bids five hours into the European morning, and gold's 0.19% is small enough that one session could erase it entirely.",
+   "built": {
+    "title": "How the bid on this board is read",
+    "text": "Kitco publishes a bid, an ask and a mid for each metal, stamped with the time the quote was captured. Carat Capital prints the bid under the One-Price Rule, so one number per metal per morning carries through the paper. The ask is kept in the tape for the spread, not printed as the price. A board's own change column runs off its own reference close, which is not the same object as the mark this paper printed the previous morning; the two are reported separately rather than reconciled into one figure."
+   },
+   "method": "Kitco's precious-metals board was fetched to raw bytes, HTTP 200, 199,918 bytes, saved to newsroom/sources/2026-10-06/kitco.html, and the figures parsed out of the page's own embedded price payload rather than read off the rendered board. Exact-field reads on that saved file: gold bid 4150.3 ask 4152.3 high 4158.8 low 4105.5; silver bid 60.87 ask 61.12 high 61.359 low 60.156; platinum bid 1697 ask 1707 high 1727 low 1688; palladium bid 1148 ask 1188 high 1203 low 1142; payload timestamp 1791281460, which converts to 2026-10-06T10:11:00Z. The 5 October marks are not on Kitco's page and were not expected to be: they are looked up in Carat Capital's own tape file for 5 October, where gold reads 4158.4, silver 61.52, platinum 1728.0 and palladium 1161.0. Under the One-Price Rule this press-time reading differed from the 05:00 tape on all four metals, so the new bids, asks, changes and stamp were written back into newsroom/tape/2026-10-06.json AND newsroom/tape/latest.json in the same step before this edition built, with a dated note naming the source; the two files were then compared value by value and match on all four metals. The market is called open because the board's own stamp advanced five hours and twelve minutes and all four bids changed with it, not because of anything inferred from a calendar. The stamp is printed exactly as the source emits it and no local-time conversion is asserted. No quote is carried.",
+   "prior": [
+    {
+     "date": "2026-10-05",
+     "slug": "gold-adds-eighteen-sixty-on-the-monday-board",
+     "claim": "All four metals rose on Monday's board, gold by $18.60 to $4,158.40."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Kitco — precious metals price board, embedded price payload",
+     "url": "https://www.kitco.com/price/precious-metals",
+     "published": "2026-10-06T10:11:00Z"
+    },
+    {
+     "title": "Carat Capital tape, session of 5 October 2026 (prior marks)",
+     "url": "https://caratcapital.org/prices.html",
+     "published": "2026-10-05"
+    }
+   ]
+  },
+  "next": {
+   "slug": "gold-adds-eighteen-sixty-on-the-monday-board",
+   "why": "Monday's gains these four bids are giving back, metal by metal."
+  }
  }
 }

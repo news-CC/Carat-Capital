@@ -2927,6 +2927,11 @@ def _rd_figures(ed):
 
 def _rd_brief(ed):
     ch = ed.get("changed") or {}
+    # caratchief 2026-10-05: ops/article-doctrine.md printed `"changed": "…"` (a string) while this
+    # reads changed["text"]. A desk obeying the published law crashed the build outright on No. 081.
+    # The law is corrected; this coercion means neither shape can ever stop an edition again.
+    if isinstance(ch, str):
+        ch = {"text": ch}
     parts = ""
     if ch.get("text"):
         lead = "<strong>%s</strong> " % ch["lead"] if ch.get("lead") else ""
@@ -3096,6 +3101,10 @@ def _rd_depth(ed, a):
     if d.get("reverse"):
         items.append(("", "What would change this call", "<p>%s</p>" % d["reverse"], "", False))
     b = d.get("built") or {}
+    # same class as `changed` above — the doctrine printed a bare string, the renderer reads
+    # built["text"]. This broke the build on No. 080. caratchief 2026-10-05.
+    if isinstance(b, str):
+        b = {"text": b}
     if b.get("text"):
         items.append(("", b.get("title") or "How it is built", "<p>%s</p>" % b["text"], "", False))
     if d.get("method"):
