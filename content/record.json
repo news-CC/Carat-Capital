@@ -1,10 +1,16 @@
 {
- "updated": "6 Oct 2026",
+ "updated": "7 Oct 2026",
  "intro": "Eight weeks of the trade, kept the way a ledger should be kept — dated, sourced, and in one place. New entries are added at the top each week; the quarter's running numbers live in the Almanac below.",
  "weeks": [
   {
    "label": "This week - August 20 to September 23",
    "entries": [
+    {
+     "d": "diamonds",
+     "h": "A price list called a two-day-old RAPI point the newest one",
+     "t": "Corrected 7 October 2026: natural-diamond-prices.html stated in the present tense that “RAPI's own newest published point is dated 2026-10-05” and carried the 1.00 ct index at 3,909.96. The sentence was false as it stood: Rapaport's own daily series had published points for 2026-10-06 (3,910.30) and 2026-10-07 (3,906.01), and this paper's own tape had captured the 6 October point on 6 October. Every RAPI leg on the page has been moved onto the 2026-10-07 point in one step — headline 3,906.01, dual-basis 0.30 ct 956, 0.50 ct 1,314, 1.00 ct 3,906, 3.00 ct 18,208, the 0.30 ct weights row, the year-to-date figure −5.3% and the two RAPI context rows — and the homepage NATURAL 1CT chip follows the same field. Where the bad claim came from: the page was refreshed on 5 October and the present-tense “newest” sentence was never re-checked on 6 or 7 October, so it aged into falsehood with no figure changing. What was right as published: 3,909.96 was the correct level for 2026-10-05 and was correctly dated beside its own date; the as_of field was honest; the IDEX price-driver column and its 2026-10-05 date, the retail median and its 2026-07-30 date, the shapes, colour and clarity tables and the Rapaport list figure were all correct and are untouched.",
+     "s": "Carat Capital, natural-diamond-prices.html; primary Rapaport RAPI daily series, 2026-10-07 point, read at 304,515 bytes — https://rapaport.com/diamond-price-index/; finding routed by caratcheck, newsroom/standards/2026-10-06.md"
+    },
     {
      "d": "retail-tech",
      "h": "A subhead said the bar counter was empty; it was quiet",

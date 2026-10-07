@@ -17053,7 +17053,7 @@
   "desk": "diamonds",
   "date": "2026-10-06",
   "kicker": "Polished prices",
-  "lead": true,
+  "lead": false,
   "title": "RAPI's 0.30-carat gains 3.2% in September, the 1-carat 0.3%",
   "dek": "Rapaport's monthly release again puts small round goods ahead of large ones. The 3-carat index turned positive after August's 0.4% decline, and the year-to-date column reads 15.1% on the smallest of the four sizes.",
   "byline": "The Diamonds Desk",
@@ -17252,6 +17252,219 @@
   "sources": [
    "Kitco, precious metals price board, embedded price payload, board stamp 2026-10-06T10:11:00Z — https://www.kitco.com/price/precious-metals",
    "Carat Capital tape, session of 5 October 2026, prior marks — https://caratcapital.org/prices.html"
+  ]
+ },
+ {
+  "slug": "seven-forty-thousand-in-september",
+  "desk": "gold-metals",
+  "date": "2026-10-07",
+  "kicker": "Official sector",
+  "lead": true,
+  "title": "PBoC adds 740,000 ounces, the most of its 23-month run",
+  "dek": "China's gold reserve reached 77.47 million ounces at the end of September, about 2,409.59 tonnes. Foreign-exchange reserves fell $38.1 billion in the same month, and London gold closed September down 6.52%.",
+  "byline": "The Gold & Metals Desk",
+  "tags": [
+   "PBoC",
+   "central banks",
+   "gold reserves",
+   "China",
+   "September 2026"
+  ],
+  "body": [
+   "China's central bank added 740,000 troy ounces of gold in September, its largest single month since it resumed buying in November 2024. Figures published on 7 October put official holdings at 77.47 million ounces at the end of the month, up from 76.73 million at the end of August. In tonnes the source gives 2,409.59 against 2,386.57. It was the twenty-third consecutive month in which the People's Bank of China has reported a purchase.",
+   "The addition equals rather than beats the largest of the wider series. Carat Capital's record of 9 August put the previous biggest single month at 740,000 ounces, in October 2023, before the pause that preceded the current run. July 2026's addition was 640,000 ounces against holdings of 76.08 million. August's addition is not published in the September report; subtracting July's level from August's gives 650,000 ounces, and that figure is this paper's arithmetic rather than the bank's.",
+   "The bank bought into a falling month. London gold and COMEX gold both closed September down 6.52%, ending two consecutive monthly gains, on the figures in the Eastmoney report. The Perth Mint's own September update, published the same day, puts gold down more than 5.5% in dollars over the month against its own reference close. Both outside readings are printed here and neither is reconciled into the other.",
+   "At the $4,117.40 Kitco bid Carat Capital's tape carries at press time, 740,000 ounces is worth about $3.05 billion and the whole 77.47-million-ounce reserve about $318.97 billion. Both are divisions of published ounces by a published price rather than figures either source reports.",
+   "The reserve mix is the stated motive. Wang Qing, chief macro analyst at Golden Credit Rating, puts gold at about 8.8% of Chinese official reserves at the end of 2025 against 27% across all central banks, and argues the gap is the reason to keep buying. A World Gold Council survey cited in the same report has 45% of reserve managers expecting to add gold within twelve months, a share it calls a record.",
+   "Foreign exchange moved the other way. Reserves ended September at $3,400.3 billion, down $38.1 billion or 1.11% from August. The State Administration of Foreign Exchange attributes the fall to a stronger dollar and lower global asset prices rather than to any change in policy.",
+   "The desk's view: for anyone buying metal for the bench, the number that matters is not the month's 740,000 ounces but the twenty-three. A central bank that buys in a month gold falls 6.52% is provisioning, not trading, and that behaviour does not reverse on an inflation print. If you quote customers into the fourth quarter, quote metal-plus rather than forward on spot, because the largest single buyer in this market is not reading the chart. What this is not is a forecast: one month of a published series, with no guidance attached."
+  ],
+  "sources": [
+   "Eastmoney / 中国基金报, central bank adds gold for a 23rd consecutive month, 7 October 2026 — https://finance.eastmoney.com/a/202610073888851580.html",
+   "Carat Capital, 640,000 ounces: China's biggest gold month since 2023, 9 August 2026 — https://caratcapital.org/a-six-forty-thousand-ounces.html",
+   "The Perth Mint, September 2026 sales update, 7 October 2026 — https://www.perthmint.com/news/investor/market-research-and-analysis/september-2026-sales-update/",
+   "Carat Capital tape, session of 7 October 2026, Kitco bid at press time — https://caratcapital.org/prices.html"
+  ]
+ },
+ {
+  "slug": "forty-seven-three-hundred-after-a-quiet-winter",
+  "desk": "gold-metals",
+  "date": "2026-10-07",
+  "kicker": "Fabrication demand",
+  "lead": false,
+  "title": "Perth Mint sells 47,300 ounces of gold, up 98% on August",
+  "dek": "Silver minted-product sales reached 605,408 ounces and platinum 4,711, which the Mint puts at 344% above the prior month. The first 2027 Year of the Goat coins carried the month.",
+  "byline": "The Gold & Metals Desk",
+  "tags": [
+   "Perth Mint",
+   "bullion coins",
+   "gold demand",
+   "silver",
+   "September 2026"
+  ],
+  "body": [
+   "The Perth Mint sold 47,300 troy ounces of gold, 605,408 ounces of silver and 4,711 ounces of platinum as coins and minted bars in September 2026. Published on 7 October, the figures carry the Mint's own change columns of 98%, 81% and 344% against the prior month. Carat Capital's record of 5 September puts August at 23,932 ounces of gold, 333,880 of silver and 1,060 of platinum, and those divisions return 1.976, 1.813 and 4.444 respectively, matching the Mint's three percentages.",
+   "The Mint credits a product launch rather than a change in demand. Its general manager for distributors and product development says minted sales of gold and silver bounced back strongly after a quiet midyear period, and names the first releases of the 2027 Year of the Goat coins in the Lunar series as the highlight. September's new bullion list runs from a 1/20-ounce gold coin to a one-kilo silver coin, with 10-ounce and 100-ounce silver cast bars alongside.",
+   "Platinum moved most in proportion and least in absolute terms. Its 4,711 ounces is more than four and a half times August's 1,060, and it is the only one of the three metals below its year-ago level, at minus 23%. The Mint's twelve-month columns read plus 29% for gold and plus 5% for silver. Its three-month columns read plus 59%, plus 106% and plus 291%; the June levels behind those are not in this paper's record, so they are reported rather than tabled.",
+   "The buying came in a month the metals fell. The Mint has gold near $4,400 mid-month before softening to about $4,200 and ending September down more than 5.5% in dollars against its own reference close. Silver traded as high as $67 and closed near $60, a fall of 8%, with the gold-silver ratio near 69.75. In Australian dollars gold ended near A$6,012 for a loss of 3% and silver near A$87.75 for 5.5%, cushioned by a currency that slipped to 69 US cents, its lowest since June.",
+   "The Mint names two rate decisions in the month: a 25-basis-point increase from the Federal Reserve and a rise of the same size from the Reserve Bank of Australia, to 4.6%. It describes the Australian move as already priced, with a stronger dollar the dominant influence on the local gold price.",
+   "The desk's view: if you buy coin and bar stock, two months at this pace clears a quiet winter's inventory, and the Mint has told you exactly why it happened. A Lunar release is a date on a calendar, not a demand signal, so read the twelve-month columns rather than the one-month ones. Gold at plus 29% on the year is a real improvement; silver at plus 5% is not. What this is not is investment demand in total: these are minted products from a single mint, excluding cast bars, exchange-traded holdings and jewellery offtake."
+  ],
+  "sources": [
+   "The Perth Mint, September 2026 sales update, 7 October 2026 — https://www.perthmint.com/news/investor/market-research-and-analysis/september-2026-sales-update/",
+   "Carat Capital, Perth Mint sold 23,932 ounces of gold in August, 5 September 2026 — https://caratcapital.org/a-twenty-three-nine-three-two-ounces.html",
+   "Carat Capital, Perth Mint July sales, 486,043 ounces of silver, 17 August 2026 — https://caratcapital.org/a-four-eighty-six-thousand-ounces.html"
+  ]
+ },
+ {
+  "slug": "platinum-sheds-sixty-three-at-press-time",
+  "desk": "gold-metals",
+  "date": "2026-10-07",
+  "kicker": "The tape",
+  "lead": false,
+  "title": "Platinum sheds $63.00 to $1,634.00, all four metals lower",
+  "dek": "A six o'clock reading of the Kitco bid puts gold at $4,117.40, silver at $60.029 and palladium at $1,119.00. All four metals sit lower than they did at five.",
+  "byline": "The Gold & Metals Desk",
+  "tags": [
+   "platinum",
+   "gold price",
+   "silver",
+   "palladium",
+   "press-time tape"
+  ],
+  "body": [
+   "Platinum is the worst of the four metals this morning. Its bid reads $1,634.00 on the Kitco board stamped 2026-10-07T05:58:58Z, down $63.00 or 3.71% against the $1,697.00 Carat Capital printed on 6 October. Gold reads $4,117.40, down $32.90 or 0.79%. Silver reads $60.029, down $0.841 or 1.38%. Palladium reads $1,119.00, down $29.00 or 2.53%.",
+   "Kitco's own day column, which runs off its own reference close rather than this paper's printed mark, is steeper on every metal: gold minus $45.90 or 1.10%, silver minus $1.204 or 1.97%, platinum minus $68.00 or 4.00%, palladium minus $34.00 or 2.95%. Both columns are printed above and both are labelled. They disagree because they start from different places, not because either is wrong.",
+   "Platinum's session was the widest in proportion. The board gives a low of $1,632.00 and a high of $1,716.00, an $84.00 band worth 5.14% of its own bid. Gold's band is 1.35% of its bid, silver's 2.73% and palladium's 7.15%. Palladium also carries a $40.00 bid-ask spread against gold's $2.00, twenty times as wide, which is a quoting risk rather than a direction.",
+   "Every mark moved after the opening filing. The five o'clock tape had gold at $4,122.90, silver at $60.233, platinum at $1,648.00 and palladium at $1,125.00. All four are lower at press time, so all four have been carried into the paper's record on the press-time bid and the opening marks no longer stand.",
+   "A second board agrees on direction. An independent CNBC feed reads silver at 60.191, platinum at 1,641.98 and palladium at 1,137.89, each inside Kitco's own bid-ask range for that metal. Its gold reading of 4,117.26 sits fourteen cents below Kitco's bid, 0.0034% outside the band, and that gap is disclosed rather than averaged away. No closure is claimed here: Kitco's payload carries sub-second timestamps and CNBC's market-status field reads REG_MKT on all four quotes at 06:06 Eastern, which is how the session is known to be open.",
+   "The desk's view: if you quote platinum work today, quote off the band rather than the bid, because $1,632.00 to $1,716.00 in one session is 5.14% of the number you are quoting from and a customer can be on the wrong side of it by lunchtime. Gold is the calmest of the four and the cheapest to hedge, at a $2.00 spread. Palladium's $40.00 spread is the figure to respect in that metal, whatever its direction. What this is not is a close: these are intraday bids on a live board, and the first settled prices of the day are the LBMA fixes at eight o'clock."
+  ],
+  "sources": [
+   "Kitco, precious metals live board, bid, board stamp 2026-10-07T05:58:58Z — https://www.kitco.com/price/precious-metals",
+   "CNBC quote service, XAU, XAG, XPT and XPD, second independent page, 7 October 2026 — https://quote.cnbc.com/quote-html-webservice/quote.htm",
+   "Carat Capital, gold sheds $8.10 to $4,150.30, all four metals lower, 6 October 2026 — https://caratcapital.org/a-gold-sheds-eight-ten-at-press-time.html"
+  ]
+ },
+ {
+  "slug": "six-sixty-nine-breaks-the-flat-run",
+  "desk": "diamonds",
+  "date": "2026-10-07",
+  "kicker": "Lab-grown prices",
+  "lead": false,
+  "title": "$669 lab-grown reference breaks eight sessions at $651",
+  "dek": "CaratRadar's one-carat average moved 2.77% in a single session after holding flat since 29 September. RAPI's natural one-carat index eased 0.11% on the same morning, to 3,906.01.",
+  "byline": "The Diamonds Desk",
+  "tags": [
+   "lab-grown",
+   "CaratRadar",
+   "RAPI",
+   "diamond prices",
+   "October 2026"
+  ],
+  "body": [
+   "The one-carat lab-grown reference moved for the first time in eight tape entries. CaratRadar's listings page, read on 7 October, gives a one-carat average of $669 against the $651 Carat Capital's tape carried in each of its dated files from 29 September to 6 October. The page's own sentence reads: as of October 7, 2026, the lab grown market includes 873,170 active listings, a market price index of $1,481, a 1ct average of $669, and listed prices from $50 to $772,237.",
+   "The step is 2.77% on this paper's division of $18 by $651. The flat run was established by opening each dated tape file and reading its mark rather than by quoting the prior day's prose, and it is eight entries rather than nine days because there is no 28 September file. The level before $651 was $650, carried on 26 and 27 September.",
+   "The book behind the average thinned at the same time. Active certified listings read 873,170 against 1,003,013 on the prior session, a fall of 129,843 or about 12.9% in one day. An asking-price average rises when the cheapest listings leave the market as readily as when sellers raise prices, and the two figures moved together rather than independently.",
+   "Natural prices went the other way on the same morning. Rapaport's one-carat index reads 3,906.01 at its own 7 October point against the 3,910.26 this paper printed for 6 October, a fall of 0.11%. Dividing the natural index by the lab-grown average gives 5.84 times, against 6.01 times on the prior session.",
+   "That ratio carries a limit worth stating. RAPI is a per-carat asking average for the cheapest tenth of round D-H, IF-VS2 stones on one marketplace. CaratRadar's figure is a whole-stone average of retail asking prices across many retailers. Neither instrument is built to be divided into the other, and the ratio is printed with that disclosed rather than presented as a market multiple.",
+   "The desk's view: if you quote lab-grown by the stone, anything priced off last week's reference is now 2.77% light, and that is the practical consequence of this morning. But one session on a book that shed about 13% of its listings in the same day is the weakest evidence this series produces, and the right response is to re-read it tomorrow rather than to re-price a case today. If you sell natural against lab, note that the gap narrowed from both ends at once. What this is not is a wholesale price: both numbers are asking prices, and neither records a settled trade."
+  ],
+  "sources": [
+   "CaratRadar, lab-grown diamond prices, 1ct average, read 7 October 2026 — https://caratradar.com/diamond-prices/lab-grown-diamonds/",
+   "Rapaport, RAPI daily index, 1.00ct point dated 2026-10-07 — https://rapaport.com/diamond-price-index/",
+   "Carat Capital tape, dated files 29 September to 7 October 2026 — https://caratcapital.org/prices.html"
+  ]
+ },
+ {
+  "slug": "blue-nile-takes-the-royal-asscher-licence",
+  "desk": "retail-tech",
+  "date": "2026-10-07",
+  "kicker": "Brand licensing",
+  "lead": false,
+  "title": "Blue Nile takes Royal Asscher's North American licence",
+  "dek": "Signet's online division becomes exclusive retailer of the 1854-founded house's diamonds and jewelry under a multiyear agreement. No value is disclosed, and six patented cuts come with it.",
+  "byline": "The Retail & Technology Desk",
+  "tags": [
+   "Blue Nile",
+   "Signet",
+   "Royal Asscher",
+   "licensing",
+   "natural diamonds"
+  ],
+  "body": [
+   "Blue Nile, a division of Signet Jewelers, has become the exclusive North American retailer of Royal Asscher diamonds and jewelry under a multiyear licensing agreement disclosed on Monday 5 October 2026. The agreement covers six patented Royal Asscher cuts and the recently launched Curated by the Asscher Family and Six by Royal Asscher collections.",
+   "Royal Asscher's own site names six cuts under its shape menu: the Royal Asscher Cut, Brilliant, Cushion, Oval, Pear and Emerald. That list corroborates the six patented cuts the report describes. The site also states 172 years of diamond cutting and dates the house to 1854. It makes no mention of the Blue Nile agreement, so the licence itself rests on a single outlet and that limit is stated rather than glossed.",
+   "Nothing about the deal is priced. No fee, royalty rate, minimum volume or term length appears in the report, and a search of the article's own body text for any currency mark or for the words million, value, terms, royalty and undisclosed returns nothing across 726 characters. The term is given only as multiyear.",
+   "The stated purpose is a shift in what Blue Nile sells. The report describes the licence as part of a plan to focus more on natural diamonds and to establish Blue Nile as the premier luxury jewelry brand within Signet's portfolio. It is the first brand move on this paper's record since Pam Cloud took the division's presidency on 10 August, after more than twenty-five years at Tiffany.",
+   "The only way to size it today is through the parent. Signet's last disclosed quarter, the thirteen weeks to 1 August 2026, ran $1,528.1 million in sales, down 0.5%, with same-store sales up 2.2% across 2,534 open stores. Those are context figures from this paper's own 9 September record and say nothing about the licence itself.",
+   "The desk's view: for anyone competing with Blue Nile online, an exclusive on patented cuts is the one kind of differentiator a marketplace rival cannot answer by cutting price, which is why this matters more than its unpublished value suggests. For anyone supplying Signet, the natural-diamond sentence is the useful part: a retailer that has spent two years leaning into lab-grown stones is saying on the record which way it is now buying. What this is not is an acquisition. Royal Asscher remains its own company, and until terms are published the deal cannot be sized from anything on the record."
+  ],
+  "sources": [
+   "WWD, Signet's Blue Nile partners with Royal Asscher, 5 October 2026 — https://wwd.com/business-news/retail/signets-blue-nile-brand-partners-with-royal-asscher-1239312283",
+   "Royal Asscher Diamond Company, brand site, named cuts and founding year, read 7 October 2026 — https://www.royalasscher.com/",
+   "Carat Capital, Signet comps rise 2.2% as total sales fall 0.5%, 9 September 2026 — https://caratcapital.org/a-signet-comps-up-sales-down.html",
+   "Carat Capital, Signet puts 25 years of Tiffany into Blue Nile, 6 August 2026 — https://caratcapital.org/a-tiffany-goes-to-blue-nile.html"
+  ]
+ },
+ {
+  "slug": "gjepc-opens-unnati-in-surat",
+  "desk": "diamonds",
+  "date": "2026-10-07",
+  "kicker": "Workforce",
+  "lead": false,
+  "title": "GJEPC opens UNNATI with 1,100 women at Surat launch",
+  "dek": "The export council's skilling mission aims to register at least 200 women in a first phase. A thousand women artisans also get identity cards carrying ₹1 lakh of medical cover.",
+  "byline": "The Diamonds Desk",
+  "tags": [
+   "GJEPC",
+   "Surat",
+   "skilling",
+   "Ratnakalakar",
+   "India"
+  ],
+  "body": [
+   "The Gem & Jewellery Export Promotion Council launched UNNATI, a mission for women in the gem and jewellery industry, at Sardar Patel Smruti Bhavan in Surat on 5 October 2026. More than 1,100 women attended the Gujarat chapter launch, including homemakers and students, on the council's own count. The first phase aims to register at least 200 women for skilling courses, which is one place for every five and a half who turned up.",
+   "A separate commitment covers artisans already in the trade. GJEPC will issue Ratnakalakar Parichay identity cards to 1,000 women artisans in a first phase, each carrying free medical insurance of up to ₹1 lakh, which the council says is intended to give holders access to treatment at leading hospitals. It urged eligible women artisans to register for the card.",
+   "The courses behind the 200 places are specific rather than general. The release names ten job roles: diamond assorter, diamond polisher, diamond planner, jewellery designer by hand sketch, jewellery designer in CAD, wax setter, filer and assembler, metal setter, jewellery polisher and cleaner, and jewellery retail sales associate. The mission also handed its first UNNATI Woman Achiever Awards across seven individual categories and company awards across five.",
+   "The council ties the mission to its standing export goal. Chairman Kirit Bhansali links UNNATI to an ambition of US$100 billion in gem and jewellery exports by 2040 and argues that target cannot be met without the industry drawing more on women's skills and leadership. The council frames the mission as an investment in industry capacity rather than a welfare scheme.",
+   "The launch produced a larger ask than the programme contains. Harsh Sanghavi, Gujarat's deputy chief minister, told the council to carry the scheme into the state's rural and tribal areas and said: \"Unnati should not stop at 1,000 or 2,000 women.\" He asked for 10,000 within the coming year, a figure that is his request rather than a council commitment. Govind Dholakia, a Rajya Sabha member, urged young women to start businesses rather than only to join them.",
+   "No money is attached to any of it on the record. The release publishes no budget, outlay, funding or allocation figure for the programme, and a search of its own text for a cost figure returns nothing beyond the ₹1 lakh insurance ceiling. The release was carried the same day by several Indian trade titles, so this is a same-day reading of a primary rather than an exclusive.",
+   "The desk's view: if you run a Surat cutting floor, the Parichay Card is the part of this with an operational edge, because it puts a thousand of your women artisans on a formal register with medical cover attached, and an informal workforce that acquires a record acquires bargaining power with it. The training numbers are small against the turnout, and the honest reading of 1,100 attending for 200 places is that the demand side of India's skilling problem is not the constraint. What this is not is a sized commitment: every figure except the attendance is a target, and the programme's own cost is not published."
+  ],
+  "sources": [
+   "GJEPC, GJEPC launches UNNATI: Powering Women in Gems & Jewellery, release dated 6 October 2026, launch event 5 October 2026 — https://www.gjepc.org/news_detail.php?news=gjepc-launches-unnati-powering-women-in-gems-jewellery-to-drive-industry-growth-towards-viksit-bharat-1"
+  ]
+ },
+ {
+  "slug": "gjc-claims-a-record-and-prints-no-figure",
+  "desk": "retail-tech",
+  "date": "2026-10-07",
+  "kicker": "Trade shows",
+  "lead": false,
+  "title": "GJC claims record GJS sales and publishes no figure",
+  "dek": "The 10th India Gem & Jewellery Show closed on 4 October with 400 exhibitors and more than 700 booths at Mumbai's Jio World Convention Centre. Its pre-show targets were higher than anything it reported after.",
+  "byline": "The Retail & Technology Desk",
+  "tags": [
+   "GJC",
+   "GJS 2026",
+   "trade shows",
+   "Mumbai",
+   "National Jewellery Awards"
+  ],
+  "body": [
+   "The All India Gem and Jewellery Domestic Council closed the 10th India Gem & Jewellery Show on 4 October 2026 and credited the edition with record sales figures without publishing one. The claim appears in the quoted remarks of GJC chairman Rajesh Rokde in the council's closing release. No sales figure, order value or footfall count appears anywhere in that release's own text.",
+   "The pre-show release had been more specific than the closing one. Issued on 30 September, it promised more than 400 exhibitors, more than 700 booths, more than 10,000 visitors and 2,000 hosted buyers across 15,000 square metres at the Jio World Convention Centre. The closing release repeats the exhibitor and booth counts, drops the visitor and hosted-buyer figures entirely, and reports only thousands of buyers.",
+   "What is measured is the physical scale. Over 400 exhibitors and more than 700 booths are the two figures both releases carry. The show ran from 2 to 4 October, opened by Uday Samant, Maharashtra's cabinet minister for industries and Marathi language, after a 1 October business workshop for family jewellery firms led by the business coach Rahul Jain.",
+   "The awards were the set-piece. The National Jewellery Awards 2026 ran on 3 October, presented by the World Gold Council and powered by India Gold Metaverse, with the actor Sonakshi Sinha handing prizes to winners. MindSpeak seminars across the three days covered sustainability, digital transformation, consumer trends, family-business strategy and the use of artificial intelligence in design, retail and customer engagement.",
+   "The absence had to be established rather than assumed. The closing release sits on a page of 3,936,124 bytes whose breaking-news rail and related-stories block return twenty-two hits for crore and ten for a rupee mark, all belonging to other articles. Inside this story's own paragraphs there is no currency mark, no crore, no visitor count and no sales figure. GJC's own site was reached and carries a navigation shell with no release text; two likely release paths returned 404. The council's words therefore reach this paper only through syndication, which is stated rather than dressed up as a direct read.",
+   "The desk's view: if you exhibited at this show, you have been given a verdict on your own three days and no way to check it, and that is the practical cost of an unpriced record. If you are costing a 2027 stand, the only usable figures are the pre-show ones, and a show that stops reporting against its own targets is a show whose targets stop being worth reading. For anyone modelling Indian festive demand, treat the 2 to 4 October window as unmeasured and go to the export statistics on 17 October instead. What this is not is evidence the show went badly: an unpublished number is an absence of evidence in both directions, and ten editions in, GJC has the registration data to settle it in a sentence."
+  ],
+  "sources": [
+   "GJC pre-show release via JewelBuzz, GJS 2026 Diwali Edition to shine at Jio World Convention Centre, 30 September 2026 — https://jewelbuzz.in/gjcs-10th-edition-of-india-gem-jewellery-show-gjs2026-diwali-edition-to-shine-bright-at-jio-world-convention-centre-mumbai-from-october-2-4-2026/",
+   "GJC inaugural release via ANI, 10th India Gem & Jewellery Show inaugurated, 3 October 2026 — https://aninews.in/news/business/gjc8217s-10th-india-gem-amp-jewellery-show-gjs-2026-diwali-edition-inaugurated-by-shri-uday-samant-ji20261003171519/",
+   "GJC closing release via Heera Zhaveraat, GJS 2026 Diwali edition concludes on a high note with record sales, 5 October 2026 — https://heerazhaveraat.com/gjs-2026-diwali-edition-concludes-on-a-high-note-with-record-sales/",
+   "All India Gem and Jewellery Domestic Council, own site, reached 7 October 2026 and carrying no release text — https://gjc.org.in/"
   ]
  }
 ]

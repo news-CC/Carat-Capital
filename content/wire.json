@@ -1,40 +1,40 @@
 {
- "date_line": "Tuesday, October 6, 2026 | Vol. I - No. 082",
- "edition": "Vol. I - No. 082",
+ "date_line": "Wednesday, October 7, 2026 | Vol. I - No. 083",
+ "edition": "Vol. I - No. 083",
  "items": [
   {
-   "slug": "rapi-point-three-oh-adds-three-point-two",
-   "desk": "Diamonds",
-   "title": "RAPI's 0.30-carat gains 3.2% in September, the 1-carat 0.3%"
-  },
-  {
-   "slug": "gold-sheds-eight-ten-at-press-time",
+   "slug": "seven-forty-thousand-in-september",
    "desk": "Gold & Metals",
-   "title": "Gold sheds $8.10 to $4,150.30, all four metals lower"
+   "title": "PBoC adds 740,000 ounces, the most of its 23-month run"
   },
   {
-   "slug": "phillips-two-rings-at-two-point-nine-million",
-   "desk": "Auctions",
-   "title": "Phillips estimates two rings at CHF 2.9m each for 9 November"
+   "slug": "forty-seven-three-hundred-after-a-quiet-winter",
+   "desk": "Gold & Metals",
+   "title": "Perth Mint sells 47,300 ounces of gold, up 98% on August"
   },
   {
-   "slug": "thirty-one-four-tops-a-four-twenty-six-sale",
-   "desk": "Watches",
-   "title": "F.P. Journe's HK$31,400,000 tops a HK$426m Sotheby's sale"
+   "slug": "platinum-sheds-sixty-three-at-press-time",
+   "desk": "Gold & Metals",
+   "title": "Platinum sheds $63.00 to $1,634.00, all four metals lower"
   },
   {
-   "slug": "hong-kong-jewelry-adds-twelve-percent-in-august",
+   "slug": "six-sixty-nine-breaks-the-flat-run",
+   "desk": "Diamonds",
+   "title": "$669 lab-grown reference breaks eight sessions at $651"
+  },
+  {
+   "slug": "blue-nile-takes-the-royal-asscher-licence",
    "desk": "Retail & Technology",
-   "title": "Hong Kong's jewelry sales rise 12% to HK$5.14bn in August"
+   "title": "Blue Nile takes Royal Asscher's North American licence"
   }
  ],
- "tape_ts": "Kitco bid, board stamp 2026-10-06T10:11:00Z, press-time re-read 6 Oct 06:11 EDT",
+ "tape_ts": "Kitco bid, board stamp 2026-10-07T05:58:58Z, press-time read 7 Oct 06:00 EDT",
  "tape": [
   {
    "name": "Gold / oz",
    "code": "XAU",
-   "px": "4,150.30",
-   "chg": "−0.1948% vs 5 Oct mark",
+   "px": "4,117.40",
+   "chg": "−0.7927% vs 6 Oct mark",
    "dir": "down",
    "pts": [
     2,
@@ -90,8 +90,8 @@
   {
    "name": "Platinum / oz",
    "code": "XPT",
-   "px": "1,697.00",
-   "chg": "−1.7940% vs 5 Oct mark",
+   "px": "1,634.00",
+   "chg": "−3.7124% vs 6 Oct mark",
    "dir": "down",
    "pts": [
     2,
@@ -109,8 +109,8 @@
   {
    "name": "Silver / oz",
    "code": "XAG",
-   "px": "60.87",
-   "chg": "−1.0566% vs 5 Oct mark",
+   "px": "60.029",
+   "chg": "−1.3816% vs 6 Oct mark",
    "dir": "down",
    "pts": [
     2,
