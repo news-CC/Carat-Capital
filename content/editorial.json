@@ -133819,5 +133819,1524 @@
    "slug": "gjepc-opens-unnati-in-surat",
    "why": "The same week in the Indian trade, with its figures published."
   }
+ },
+ "five-point-seven-on-fewer-units": {
+  "v": 3,
+  "kicker": "US retail",
+  "figures": {
+   "asof": "Tenoris monthly data for September 2026, reported by analyst Edahn Golan on 7 October 2026 and published by JCK the same day",
+   "cells": [
+    {
+     "n": "+5.7%",
+     "dir": "up",
+     "label": "US specialty jeweller revenue",
+     "q": "September, year on year",
+     "src": 0
+    },
+    {
+     "n": "+11%",
+     "dir": "up",
+     "label": "Average spend per item",
+     "q": "September",
+     "src": 0
+    },
+    {
+     "n": "−11%",
+     "dir": "down",
+     "label": "Lower-priced jewellery sales",
+     "q": "September",
+     "src": 0
+    },
+    {
+     "n": "−0.6%",
+     "dir": "down",
+     "label": "Finished natural-diamond jewellery",
+     "q": "ends an extended streak",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Natural diamond jewellery turned negative.",
+   "text": "Revenue at US specialty jewellers rose 5.7% in September, but finished natural-diamond jewellery sales fell 0.6% and lower-priced jewellery fell 11%."
+  },
+  "means": [
+   {
+    "who": "If you set assortment for Q4:",
+    "text": "The revenue sits in the upper price bands and the units are leaving the lower ones. A shelf built for last year's unit mix will under-earn."
+   },
+   {
+    "who": "If you sell natural against lab:",
+    "text": "Natural jewellery revenue went negative in the same month lab-grown unit demand rose about 26%."
+   },
+   {
+    "who": "If you plan cash:",
+    "text": "Average spend per item rose 11%. Fewer transactions carrying more money each is a thinner, more fragile top line."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A channel-wide read. Tenoris measures US specialty jewellers, not chains, department stores or marketplaces, and 0.6% is inside one month's noise."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "September, by line",
+   "asof": "Tenoris, September 2026, via JCK 7 October 2026",
+   "cols": [
+    "Line",
+    "September change",
+    "Note"
+   ],
+   "rows": [
+    [
+     "All specialty jeweller revenue",
+     "+5.7%",
+     "Year to date +8.5%"
+    ],
+    [
+     "Average spend per item",
+     "+11%",
+     "Unit demand still falling"
+    ],
+    [
+     "Lower-priced jewellery",
+     "−11%",
+     "Revenue rose anyway"
+    ],
+    [
+     "Finished natural-diamond jewellery",
+     "−0.6%",
+     "Ends an extended streak"
+    ],
+    [
+     "Natural-diamond jewellery, incl. loose",
+     "−1%",
+     "Spend per stone +11%"
+    ],
+    [
+     "Lab-grown diamond jewellery demand",
+     "+26% approx.",
+     "Loose lab-grown revenue down a 5th month"
+    ]
+   ],
+   "hi": 3,
+   "note": "Every row is Tenoris's own September figure as JCK prints it. The approximation on lab-grown demand is the source's own word, 'nearly 26%', and is carried as approximate rather than rounded to a false precision. No row is Carat Capital's arithmetic.",
+   "plate": "CC/2026/094"
+  },
+  "sections": [
+   {
+    "h": "Revenue up, units down",
+    "p": [
+     {
+      "lead": "Two years running.",
+      "text": "Golan put September at 5.7% above a year earlier and the streak at close to two years of uninterrupted monthly growth. Year to date, revenue is up 8.5%."
+     },
+     {
+      "lead": "The ladder tilted.",
+      "text": "Average spend per item rose 11% while unit demand weakened. Lower-priced jewellery sales fell 11% at the same stores that were growing revenue."
+     }
+    ]
+   },
+   {
+    "h": "Natural diamonds slipped",
+    "p": [
+     {
+      "lead": "Minus zero point six.",
+      "text": "Finished natural-diamond jewellery sales fell 0.6% in September, ending an extended growth streak. Including loose stones, the natural-diamond total fell 1%."
+     },
+     {
+      "lead": "Buyers spent more.",
+      "text": "Average spending per stone rose 11% among the consumers who did buy. The money per transaction held while the number of transactions did not."
+     }
+    ]
+   },
+   {
+    "h": "Lab-grown splits two ways",
+    "p": [
+     {
+      "lead": "Demand up, revenue down.",
+      "text": "Lab-grown diamond jewellery demand rose close to 26% year on year. Revenue from loose lab-grown stones fell for a fifth consecutive month as prices kept dropping."
+     },
+     {
+      "lead": "One quote, attributed.",
+      "text": "Golan described a market “increasingly divided by price point”, which is the clearest short statement of what the month's two directions mean together."
+     }
+    ]
+   },
+   {
+    "h": "Luxury read points down",
+    "p": [
+     {
+      "lead": "Citi says minus six.",
+      "text": "JCK cites Reuters of 6 October for a Citi credit-card analysis. It puts US luxury purchases down 6% in September, after 4% falls in July and August."
+     },
+     {
+      "lead": "Jewellery held better.",
+      "text": "Citi found watches and luxury jewellery weakening further inside that figure, while jewellery-store data stayed positive. The two instruments measure different buyers."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Early November 2026",
+    "what": "Tenoris's October reading. A second negative month on natural-diamond jewellery would end the streak properly rather than nicking it."
+   },
+   {
+    "when": "Through Q4 2026",
+    "what": "Whether lower-priced unit demand stabilises. Eleven per cent down is the number that decides entry-level assortment for 2027."
+   },
+   {
+    "when": "Mid-October 2026",
+    "what": "Citi's next luxury card read, which is the only outside check on whether jewellery keeps outperforming the wider category."
+   }
+  ],
+  "depth": {
+   "reverse": "An October reading that puts unit demand flat or positive while revenue holds. The whole reading here rests on revenue and units moving in opposite directions; if they re-converge, this is a one-month mix effect and not a bifurcation.",
+   "built": {
+    "title": "How the Tenoris series is built",
+    "text": "Tenoris aggregates point-of-sale data from US specialty jewellers and publishes monthly year-on-year changes in revenue, unit demand and average spend, broken out by category and price band. It is a measure of sell-through at independent and specialty doors, not of the whole US jewellery market: chains, department stores and online marketplaces sit outside it. Comparisons are to the same month a year earlier rather than to the prior month, so a figure can be positive against a weak base while trading is flat in sequence."
+   },
+   "method": "JCK's article was fetched to raw bytes, HTTP 200, 108,248 bytes, saved to newsroom/sources/2026-10-08/jck-tenoris.html, and the figures were read out of the article's own body paragraphs rather than from a whole-page grep, because the page carries a popular-stories rail and a supplier-news block whose figures belong to other stories. Exact-digit greps on that saved file: 5.7% two hits, 8.5% one, 11% three, 0.6% one, 26% one, 6% three. The quote attributed to Edahn Golan was counted at seven words before filing. The Citi figure is attributed as JCK attributes it, to Reuters of 6 October, and was not re-opened at Citi or at Reuters, which is stated in the article rather than smoothed. Archive check, searched in website/content/articles.json by entity: 'Tenoris' returns five prior pieces, each opened and read -- more-dollars-fewer-boxes and pearls-print-a-quiet-win of 21 July, average-ticket-carries-the-half of 26 July, china-lowest-since-2004 of 3 August and the-fifteen-hundred-line of 8 August. All five cover the first half of 2026 or June 2026. This item covers September 2026 monthly data. SAME ENTITY, DIFFERENT PERIOD -- ADVANCED, not a repeat: ours covered H1 2026 and June 2026, this covers September 2026.",
+   "prior": [
+    {
+     "date": "2026-08-08",
+     "slug": "the-fifteen-hundred-line",
+     "claim": "Tenoris first-half data showed revenue up 8.6% in dollars while units fell, split at the $1,500 line."
+    },
+    {
+     "date": "2026-07-26",
+     "slug": "average-ticket-carries-the-half",
+     "claim": "The average ticket, not unit volume, carried the first half at America's specialty counters."
+    }
+   ],
+   "sources": [
+    {
+     "title": "U.S. Jewelry Sales Keep Growing As Demand Shifts to Higher Price Points, JCK (Tenoris data, Edahn Golan)",
+     "url": "https://www.jckonline.com/editorial-article/u-s-jewelry-sales-keep-growing/",
+     "published": "2026-10-07"
+    }
+   ]
+  },
+  "next": {
+   "slug": "the-fifteen-hundred-line"
+  }
+ },
+ "silver-sheds-two-twelve-at-press-time": {
+  "v": 3,
+  "kicker": "Metals",
+  "figures": {
+   "asof": "Kitco bid, board stamp 2026-10-08T06:00:58Z, read at press time 06:06 EDT; prior marks looked up in the 7 October tape file",
+   "cells": [
+    {
+     "n": "$58.757",
+     "dir": "down",
+     "label": "Silver spot",
+     "q": "−2.1190% on 7 Oct",
+     "src": 0
+    },
+    {
+     "n": "$4,121.00",
+     "dir": "up",
+     "label": "Gold spot",
+     "q": "+0.0874%",
+     "src": 0
+    },
+    {
+     "n": "$1,642.00",
+     "dir": "up",
+     "label": "Platinum spot",
+     "q": "+0.4896%",
+     "src": 0
+    },
+    {
+     "n": "$1,114.00",
+     "dir": "down",
+     "label": "Palladium spot",
+     "q": "−0.4468%",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "All four marks were rewritten.",
+   "text": "Kitco's board at a 06:00:58 stamp put silver at $58.757, down 2.1190% on the 7 October mark. Gold, platinum and palladium each moved less than half a per cent."
+  },
+  "means": [
+   {
+    "who": "If you quote silver by the ounce:",
+    "text": "The figure is $58.757 and it is 2.12% under the 7 October mark. It is the only one of four marks that will change a price list."
+   },
+   {
+    "who": "If you settle in palladium:",
+    "text": "Quote off the bid and say so. The $40.00 bid-ask band is wider than the day's move in any of the four metals."
+   },
+   {
+    "who": "If you price scrap:",
+    "text": "Gold moved $3.60 net on a session that ranged $41.40. The net change is not the day's risk."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A close. This is an intraday snapshot of an open session, and gold's own range says the figure will move again before the London fix."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Four metals, bid against yesterday",
+   "asof": "Kitco bid, board stamp 2026-10-08T06:00:58Z; prior column from newsroom/tape/2026-10-07.json",
+   "cols": [
+    "Metal",
+    "8 Oct bid",
+    "7 Oct mark",
+    "Change",
+    "Per cent"
+   ],
+   "rows": [
+    [
+     "Silver",
+     "$58.757",
+     "$60.029",
+     "−$1.272",
+     "−2.1190%"
+    ],
+    [
+     "Gold",
+     "$4,121.00",
+     "$4,117.40",
+     "+$3.60",
+     "+0.0874%"
+    ],
+    [
+     "Platinum",
+     "$1,642.00",
+     "$1,634.00",
+     "+$8.00",
+     "+0.4896%"
+    ],
+    [
+     "Palladium",
+     "$1,114.00",
+     "$1,119.00",
+     "−$5.00",
+     "−0.4468%"
+    ]
+   ],
+   "hi": 0,
+   "note": "Prior-session marks were looked up in the 7 October tape file, never derived from this board's own change field. Each percentage is shown with its division: silver −1.272/60.029 = −2.1190%; gold 3.60/4117.40 = +0.0874%; platinum 8.00/1634.00 = +0.4896%; palladium −5.00/1119.00 = −0.4468%.",
+   "plate": "CC/2026/095"
+  },
+  "sections": [
+   {
+    "h": "Silver carried the move",
+    "p": [
+     {
+      "lead": "Down one twenty-seven.",
+      "text": "Silver read $58.757 against $60.029 on the prior mark, a fall of $1.272. The division gives 2.1190%, the only move above half a per cent on the board."
+     },
+     {
+      "lead": "A wide range too.",
+      "text": "The same board showed silver between $58.597 and $60.724 on the session. The print sits near the bottom of that range rather than in the middle."
+     }
+    ]
+   },
+   {
+    "h": "The board was open",
+    "p": [
+     {
+      "lead": "Timestamps prove it.",
+      "text": "Kitco's originalTime fields read 2026-10-08T06:00:58Z on all four metals, fractions of a second apart. CNBC's quote feed returned REG_MKT at 06:06 Eastern."
+     },
+     {
+      "lead": "No stale mark.",
+      "text": "Nothing here was carried forward. Every one of the four figures was read off a ticking board in this run and written to the day's tape file."
+     }
+    ]
+   },
+   {
+    "h": "A second door agreed",
+    "p": [
+     {
+      "lead": "All four in band.",
+      "text": "CNBC's lasts were gold 4,122.18, silver 58.9547, platinum 1,648.99 and palladium 1,134.2786. Each sits inside Kitco's own bid-ask band for that metal."
+     },
+     {
+      "lead": "Palladium's band is wide.",
+      "text": "Palladium ran $1,114.00 against $1,154.00, a $40.00 spread, against $2.00 on gold. The mid would read $1,134.00, twenty dollars above the printed figure."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "8 October 2026",
+    "what": "The LBMA afternoon fixes, which settle the day on an auction rather than a screen and will say whether silver's fall held."
+   },
+   {
+    "when": "9 October 2026",
+    "what": "Whether silver stays under $59.00 for a second session. One session at $58.757 after $60.029 is a step, not a level."
+   },
+   {
+    "when": "Through October 2026",
+    "what": "Palladium's bid-ask band. A $40.00 spread that does not narrow is a liquidity signal rather than a price one."
+   }
+  ],
+  "depth": {
+   "reverse": "Silver back above $60.00 on the next board read, or an LBMA fix that settles materially above this screen print. A screen snapshot inside an open session is the weakest evidence this paper publishes on metals, and it is published as such.",
+   "built": {
+    "title": "How these marks are set",
+    "text": "The paper prints one price per metal per morning. The prices desk files an opening mark at 05:00 Eastern and this desk may re-read any metal at press time; where the two readings differ, the press-time reading is written back to the day's tape file and to the live tape, with a new timestamp and the source named, before the edition builds. The figure printed in an article and the figure the tape carries are therefore always the same number. All four marks here are Kitco's bid rather than its mid, the convention this tape has carried since 31 August 2026, because a bid is a price a seller can actually transact against."
+   },
+   "method": "Kitco's board was fetched to raw bytes at press time, HTTP 200, 197,498 bytes, saved to newsroom/sources/2026-10-08/kitco.html. Exact-digit greps on that saved file: \"bid\":4121 two hits, \"bid\":58.757 two, \"bid\":1642 two, \"bid\":1114 two, 4144.3 one, 4102.9 one, 60.724 one, 58.597 one. The second door, CNBC's quote-html-webservice endpoint for XAU= XAG= XPT= XPD=, answered HTTP 200 at 3,344 bytes with curmktstatus REG_MKT on all four and last_time 2026-10-08T06:06 Eastern. Prior-session marks were read out of newsroom/tape/2026-10-07.json and not derived from Kitco's own change field. All four figures were written back to newsroom/tape/2026-10-08.json and to newsroom/tape/latest.json in the same step, and the two files were then read side by side: gold 4121.0 against 4121.0, silver 58.757 against 58.757, platinum 1642.0 against 1642.0, palladium 1114.0 against 1114.0.",
+   "prior": [
+    {
+     "date": "2026-10-07",
+     "slug": "platinum-sheds-sixty-three-at-press-time",
+     "claim": "All four metals were lower at press time, setting the 7 October marks used in today's change column."
+    },
+    {
+     "date": "2026-10-06",
+     "slug": "gold-sheds-eight-ten-at-press-time",
+     "claim": "A press-time reading moved the gold mark before the edition built."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Precious metals live board, Kitco (bid, board stamp 2026-10-08T06:00:58Z)",
+     "url": "https://www.kitco.com/price/precious-metals",
+     "published": "2026-10-08T06:00:58Z"
+    },
+    {
+     "title": "CNBC quote feed, XAU= XAG= XPT= XPD=, curmktstatus REG_MKT",
+     "url": "https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=XAU=|XAG=|XPT=|XPD=",
+     "published": "2026-10-08T10:06:00Z"
+    },
+    {
+     "title": "Carat Capital tape, 8 October 2026 (press-time write-back) and 7 October 2026 (prior marks)",
+     "url": "https://caratcapital.org/the-record.html",
+     "published": "2026-10-08"
+    }
+   ]
+  },
+  "next": {
+   "slug": "platinum-sheds-sixty-three-at-press-time"
+  }
+ },
+ "twenty-one-against-thirty-nine": {
+  "v": 3,
+  "kicker": "India retail",
+  "figures": {
+   "asof": "Titan Company's second-quarter operational disclosure for the three months ended 30 September 2026, reported 6 October 2026",
+   "cells": [
+    {
+     "n": "+21%",
+     "dir": "up",
+     "label": "Jewellery segment revenue",
+     "q": "against +39% a year earlier",
+     "src": 0
+    },
+    {
+     "n": "+25%",
+     "dir": "up",
+     "label": "Consolidated sales",
+     "q": "incl. subsidiaries",
+     "src": 0
+    },
+    {
+     "n": "3,758",
+     "dir": "up",
+     "label": "Total outlets",
+     "q": "78 added in the quarter",
+     "src": 0
+    },
+    {
+     "n": "+30%",
+     "dir": "up",
+     "label": "Watch revenue",
+     "q": "year on year",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "The comparison decelerated.",
+   "text": "Titan's jewellery segment grew 21% in the quarter to 30 September, against 39% in the same quarter a year earlier. Consolidated sales rose 25%."
+  },
+  "means": [
+   {
+    "who": "If you supply Titan:",
+    "text": "Studded jewellery grew in the low 30s against about 20% on plain gold. The diamond demand sits in that gap, not in the headline."
+   },
+   {
+    "who": "If you benchmark India:",
+    "text": "A 21% print on a base that grew 39% is a decelerating comparison rather than a weak quarter."
+   },
+   {
+    "who": "If you plan for Diwali:",
+    "text": "Titan says the festive calendar shifted into its third fiscal quarter. The next print carries the trade this one lost."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A margin statement. Titan reported revenue and store count, not profit, and a 25% sales rise with gold near record levels can carry a thinner gross margin."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Inside the quarter",
+   "asof": "Titan Company, quarter ended 30 September 2026, as reported by Rapaport 7 October 2026",
+   "cols": [
+    "Line",
+    "Growth",
+    "Note"
+   ],
+   "rows": [
+    [
+     "Consolidated sales",
+     "+25%",
+     "Includes subsidiaries"
+    ],
+    [
+     "Jewellery segment",
+     "+21%",
+     "+39% in the same quarter last year"
+    ],
+    [
+     "Studded, incl. diamonds",
+     "Low 30s %",
+     "Source's own phrasing"
+    ],
+    [
+     "Plain-gold jewellery",
+     "+20% approx.",
+     "Source's own approximation"
+    ],
+    [
+     "Watches",
+     "+30%",
+     "Year on year"
+    ],
+    [
+     "Outlets",
+     "3,758",
+     "78 added in the quarter"
+    ]
+   ],
+   "hi": 1,
+   "note": "The low-30s band and the approximate 20% are Titan's own phrasings as reported, carried unrounded rather than converted into a false single figure. The 39% prior-year comparison is in the same disclosure and is not Carat Capital's calculation.",
+   "plate": "CC/2026/096"
+  },
+  "sections": [
+   {
+    "h": "Jewellery grew twenty-one",
+    "p": [
+     {
+      "lead": "Against thirty-nine.",
+      "text": "The jewellery segment, covering Tanishq, Mia and CaratLane, grew 21% for the quarter against a 39% improvement in the same period a year earlier."
+     },
+     {
+      "lead": "The group grew more.",
+      "text": "Consolidated sales including subsidiaries advanced 25% for the three months that ended 30 September. The group outgrew its largest segment."
+     }
+    ]
+   },
+   {
+    "h": "Studded outgrew plain gold",
+    "p": [
+     {
+      "lead": "Low thirties, studded.",
+      "text": "Studded jewellery including diamonds grew in the low 30s in percentage terms. Plain-gold jewellery rose about 20%, and watch revenue gained 30%."
+     },
+     {
+      "lead": "Promotions did work.",
+      "text": "Titan credited Tanishq's Festival of Diamonds range and brand-level promotions. Demand eased toward the end of the quarter as the festive calendar shifted."
+     }
+    ]
+   },
+   {
+    "h": "Seventy-eight new doors",
+    "p": [
+     {
+      "lead": "Three seven five eight.",
+      "text": "The company added 78 stores during the quarter, reaching 3,758 outlets at period end. The estate grew while the growth rate against last year fell."
+     },
+     {
+      "lead": "More than jewellery.",
+      "text": "Titan also earns from eyewear, fragrances and fashion accessories. The outlet count spans all of those, not jewellery doors alone."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Early January 2027",
+    "what": "Titan's third-quarter update, which carries the Diwali trade this quarter lost to the calendar shift."
+   },
+   {
+    "when": "Through October 2026",
+    "what": "Indian gold prices against the studded mix. Plain gold grew about 20% with the metal near records; studded is the volume signal."
+   },
+   {
+    "when": "Mid-November 2026",
+    "what": "Titan's full quarterly results with margins, which this operational disclosure does not carry."
+   }
+  ],
+  "depth": {
+   "reverse": "Full results showing the 21% came with a materially lower jewellery margin, which would make this a volume story bought with price. The disclosure here is an operational update and carries no profit line at all.",
+   "built": {
+    "title": "What an operational update contains",
+    "text": "Indian listed companies commonly publish a short pre-results operational update giving segment revenue growth, store counts and qualitative demand commentary within days of a quarter closing, ahead of the audited results with margins and profit several weeks later. Growth figures in such an update are year-on-year revenue changes, not like-for-like or same-store figures, so a company adding 78 doors inside the quarter has part of its growth coming from new space rather than from existing counters. Titan's fiscal year runs April to March, so the quarter ended 30 September is its second."
+   },
+   "method": "Rapaport's report was fetched to raw bytes, HTTP 200, 222,063 bytes, saved to newsroom/sources/2026-10-08/titan.html, and the figures were read out of the article's own body paragraphs after isolating them from the page's related-article rail. Exact-digit greps on that saved file: 25% six hits, 21% three, 39% one, 30% five, '78 new stores' three, 3,758 three. Archive check, searched in website/content/articles.json by entity: 'Titan' returns nine hits, each opened. The two that cover this company's results are titan-makes-it-three of 28 July 2026 and titan-calls-the-price-stable of 13 August 2026, which covers Q1 FY2027. The remaining seven are other companies or unrelated uses of the word. SAME ENTITY, DIFFERENT PERIOD -- ADVANCED, not a repeat: ours covered Q1 FY2027, this covers Q2 FY2027, the quarter ended 30 September 2026.",
+   "prior": [
+    {
+     "date": "2026-08-13",
+     "slug": "titan-calls-the-price-stable",
+     "claim": "Titan's jewellery arm grew 43% in the first fiscal quarter and called diamond prices settled."
+    },
+    {
+     "date": "2026-07-28",
+     "slug": "titan-makes-it-three",
+     "claim": "Titan posted a third consecutive quarter of revenue growth on India's gold counter."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Titan Sees Surge in Diamond Jewelry Sales in Second Quarter, Rapaport",
+     "url": "https://rapaport.com/news/titan-sees-surge-in-diamond-jewelry-sales-in-second-quarter/",
+     "published": "2026-10-07"
+    }
+   ]
+  },
+  "next": {
+   "slug": "titan-calls-the-price-stable"
+  }
+ },
+ "fifty-million-for-elizabeth-bay": {
+  "v": 3,
+  "kicker": "Mining",
+  "figures": {
+   "asof": "Kenzoll Capital announcement of Wednesday 7 October 2026, as reported by Rapaport the same day",
+   "cells": [
+    {
+     "n": "$50m",
+     "dir": "up",
+     "label": "Investment expected",
+     "q": "some of it for other minerals",
+     "src": 0
+    },
+    {
+     "n": "10.5m",
+     "dir": "flat",
+     "label": "Carats of resource",
+     "q": "onshore and offshore",
+     "src": 0
+    },
+    {
+     "n": "−67%",
+     "dir": "down",
+     "label": "Namibian diamond exports",
+     "q": "2022 peak to 2025",
+     "src": 0
+    },
+    {
+     "n": "NAD 1.7bn",
+     "dir": "down",
+     "label": "2025 exports",
+     "q": "from NAD 5.1bn in 2022",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "A closed mine gets capital.",
+   "text": "Kenzoll Capital and MSF Commercials will restart Elizabeth Bay, renamed Sperrgebiet, on an expected $50 million against a stated 10.5 million carats of resource."
+  },
+  "means": [
+   {
+    "who": "If you buy Namibian rough:",
+    "text": "A 10.5-million-carat resource coming back is a supply signal with no date on it. Nothing here says when a first parcel ships."
+   },
+   {
+    "who": "If you read country risk:",
+    "text": "Exports fell to a third of their 2022 level by 2025. The central bank calls the slump a threat to national growth."
+   },
+   {
+    "who": "If you track De Beers:",
+    "text": "It sold this deposit in 2019 because it could not run it economically. The restart is somebody else's arithmetic."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A production figure. No annual output, grade, capital schedule or restart date was given, and a resource is not a reserve."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Namibia's export collapse, both currencies",
+   "asof": "Bank of Namibia figures as reported by Rapaport, 7 October 2026",
+   "cols": [
+    "Year",
+    "Namibian dollars",
+    "US dollars",
+    "Share of 2022"
+   ],
+   "rows": [
+    [
+     "2022 peak",
+     "NAD 5.1bn",
+     "$306.9m",
+     "100%"
+    ],
+    [
+     "2025",
+     "NAD 1.7bn",
+     "$102.3m",
+     "33.3%"
+    ],
+    [
+     "Change",
+     "−NAD 3.4bn",
+     "−$204.6m",
+     "−66.7%, printed as −67%"
+    ]
+   ],
+   "hi": 1,
+   "note": "The division is shown so it can be checked: 1.7/5.1 = 33.3% of the 2022 peak, which is 66.7% below it. The source prints 67% and the dollar legs agree, 102.3/306.9 = 33.3% of, so 66.7% below. The share and the fall are different numbers and are labelled separately here.",
+   "plate": "CC/2026/097"
+  },
+  "sections": [
+   {
+    "h": "Fifty million, two parties",
+    "p": [
+     {
+      "lead": "Kenzoll and MSF.",
+      "text": "Dutch private-equity investor Kenzoll Capital is partnering with Namibian-registered MSF Commercials. The deposit is renamed the Sperrgebiet Diamond Mine and holds 10.5 million carats."
+     },
+     {
+      "lead": "Not only diamonds.",
+      "text": "Some of the $50 million will fund exploration for other minerals. Kenzoll says it has already put more than $10 million into Namibia."
+     }
+    ]
+   },
+   {
+    "h": "Exports fell by two thirds",
+    "p": [
+     {
+      "lead": "Down to a third.",
+      "text": "Namibian diamond exports fell from NAD 5.1 billion in 2022 to NAD 1.7 billion in 2025. That is 33.3% of the peak and 66.7% below it."
+     },
+     {
+      "lead": "The bank is worried.",
+      "text": "The Bank of Namibia has called the industry slump a major threat to national growth. The restart lands against that backdrop, not a healthy one."
+     }
+    ]
+   },
+   {
+    "h": "De Beers left in 2019",
+    "p": [
+     {
+      "lead": "Sold as uneconomic.",
+      "text": "De Beers began selling Elizabeth Bay in 2019 because it could no longer run the deposit economically. The sale completed the following year."
+     },
+     {
+      "lead": "A familiar buyer.",
+      "text": "That 2020 consortium had Lewcor Group as majority owner and MSF Commercials as a minority shareholder. MSF is the party restarting it now."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Through Q4 2026",
+    "what": "A restart date or production schedule. The announcement carries neither, and a resource with no date is not supply."
+   },
+   {
+    "when": "Early 2027",
+    "what": "Bank of Namibia export data for 2026, the first read on whether the NAD 1.7 billion level was the floor."
+   },
+   {
+    "when": "2027",
+    "what": "Whether the critical-minerals exploration is funded out of the same $50 million or needs fresh capital."
+   }
+  ],
+  "depth": {
+   "reverse": "A disclosed capital schedule showing the $50 million is committed over several years rather than deployed into a restart, which would move this from a supply story to an intention.",
+   "built": {
+    "title": "Resource is not reserve",
+    "text": "A stated diamond resource is an estimate of contained carats at a defined confidence, derived from sampling and geological modelling. It is not a reserve, which is the economically mineable portion established by a feasibility study at an assumed price and cost base. A deposit that De Beers judged uneconomic in 2019 can hold the same resource and a different reserve under a new owner's cost structure, lower overheads or a higher rough price. Elizabeth Bay is a coastal deposit with both onshore and offshore ground, and the 10.5-million-carat figure covers both without splitting them."
+   },
+   "method": "Rapaport's report was fetched to raw bytes, HTTP 200, 221,148 bytes, saved to newsroom/sources/2026-10-08/elizabethbay.html, and the figures were read out of the article's own body paragraphs after isolating them from the page's related-article rail. Exact-digit greps on that saved file: '10.5 million carats' six hits, '$50 million' three, 67% one, '5.1 billion' one, '306.9 million' one, '1.7 billion' one, '102.3 million' one, '$10 million' one. The comparative percentage was re-divided rather than taken from the source: 1.7/5.1 = 33.3% of, 66.7% below, which rounds to the source's 67%. Archive check, searched in website/content/articles.json by entity: 'Elizabeth Bay' returns zero hits and 'Kenzoll' returns zero hits. The search file is the archive of record and the hit count on both terms is nil, so this is new to this paper. Kenzoll's chief executive is quoted in the source at length; no quote is carried here, and the chief executive's framing of diamonds as a starting point is paraphrased with attribution instead.",
+   "prior": [
+    {
+     "date": "2026-10-06",
+     "slug": "namibia-unveils-a-176-29-carat-rough",
+     "claim": "Namibia unveiled a 176.29-carat rough, the production side of the same country's trade."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Operations at Namibia's Elizabeth Bay Mine to Restart, Rapaport",
+     "url": "https://rapaport.com/news/operations-at-namibias-elizabeth-bay-mine-to-restart/",
+     "published": "2026-10-07"
+    }
+   ]
+  },
+  "next": {
+   "slug": "namibia-unveils-a-176-29-carat-rough"
+  }
+ },
+ "three-fifty-on-an-eight-seventeen": {
+  "v": 3,
+  "kicker": "Auctions",
+  "figures": {
+   "asof": "Christie's announcement of Tuesday 6 October 2026 as reported by Rapaport, and Christie's own auction calendar read 8 October 2026",
+   "cells": [
+    {
+     "n": "$350,000",
+     "dir": "up",
+     "label": "High estimate, 8.17ct",
+     "q": "no low estimate; no reserve",
+     "src": 0
+    },
+    {
+     "n": "8.17ct",
+     "dir": "flat",
+     "label": "Round brilliant, D, IF",
+     "q": "leads the sale",
+     "src": 0
+    },
+    {
+     "n": "260+",
+     "dir": "flat",
+     "label": "Lots on offer",
+     "q": "Bulgari, Cartier, Harry Winston",
+     "src": 0
+    },
+    {
+     "n": "6-15 Oct",
+     "dir": "flat",
+     "label": "Bidding window",
+     "q": "online auction 24557",
+     "src": 1
+    }
+   ]
+  },
+  "changed": {
+   "lead": "The top lot has no floor.",
+   "text": "Christie's put an 8.17-carat D, internally flawless round brilliant into Jewels Online at up to $350,000 and offered it without reserve. Bidding closes 15 October."
+  },
+  "means": [
+   {
+    "who": "If you are bidding:",
+    "text": "The only floor is the next bidder. On a D/IF round of this size the comparable set is small enough that one buyer sets the print."
+   },
+   {
+    "who": "If you price comparable rounds:",
+    "text": "Watch what this clears against $350,000, not against the Graff lot's $280,000 ceiling. Different cut, different terms."
+   },
+   {
+    "who": "If you consign:",
+    "text": "A house taking its headline lot to no reserve is buying certainty of sale. That is a read on demand, not on the stone."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A result. Bidding closes on 15 October and nothing in this sale has sold yet."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "The preview's top lots by estimate",
+   "asof": "Estimates as published in Christie's sale preview, 7 October 2026",
+   "cols": [
+    "Lot",
+    "Low estimate",
+    "High estimate"
+   ],
+   "rows": [
+    [
+     "8.17ct round brilliant, D, IF, no reserve",
+     "None published",
+     "$350,000"
+    ],
+    [
+     "Graff ring, 7.85ct emerald-cut, D, VS1",
+     "$180,000",
+     "$280,000"
+    ],
+    [
+     "Van Cleef & Arpels ring, 5.22ct, D, VVS2",
+     "$150,000",
+     "$250,000"
+    ],
+    [
+     "Riviere necklace, 67 pear brilliants",
+     "$150,000",
+     "$250,000"
+    ],
+    [
+     "Ring, 6.52ct heart brilliant, D, VVS1",
+     "$150,000",
+     "$250,000"
+    ],
+    [
+     "Riviere necklace, 53 emerald-cuts, G-I",
+     "$130,000",
+     "$230,000"
+    ],
+    [
+     "Unmounted 5.34ct pear brilliant, D, IF",
+     "$120,000",
+     "$180,000"
+    ],
+    [
+     "Cartier ring circa 1950, 5ct, D, VS1",
+     "$100,000",
+     "$150,000"
+    ]
+   ],
+   "hi": 0,
+   "note": "The $180,000 to $280,000 band belongs to the Graff 7.85-carat lot and not to the 8.17-carat headline stone; the two sit in the same document and were read apart lot by lot from the preview's own captions. Only the headline lot has no published low estimate.",
+   "plate": "CC/2026/098"
+  },
+  "sections": [
+   {
+    "h": "The stone and the terms",
+    "p": [
+     {
+      "lead": "Up to three fifty.",
+      "text": "The 8.17-carat round brilliant is D in colour and internally flawless, and Christie's says it could fetch as much as $350,000. It is offered without reserve."
+     },
+     {
+      "lead": "No low estimate.",
+      "text": "Every other lot in the preview carries a published low estimate. This one does not, so the only floor at the close is the next bid."
+     }
+    ]
+   },
+   {
+    "h": "Bidding is already open",
+    "p": [
+     {
+      "lead": "Six to fifteen.",
+      "text": "Christie's own calendar lists online auction 24557 running 6 to 15 October and marks it happening now. The 15 October date is the close."
+     },
+     {
+      "lead": "Over 260 lots.",
+      "text": "The sale carries more than 260 lots including Bulgari, Cartier and Harry Winston pieces. The headline stone leads a deep rather than a thin catalogue."
+     }
+    ]
+   },
+   {
+    "h": "A crowded second tier",
+    "p": [
+     {
+      "lead": "Graff at two eighty.",
+      "text": "The next-highest estimate is $180,000 to $280,000 on a Graff ring. Its stone is a 7.85-carat emerald-cut D, VS1 type IIa said to have internally flawless potential."
+     },
+     {
+      "lead": "Three at two fifty.",
+      "text": "A Van Cleef & Arpels 5.22-carat ring, a 67-stone pear riviere and a 6.52-carat heart brilliant ring each carry $150,000 to $250,000."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "15 October 2026",
+    "what": "The close at 260-plus lots, and what the no-reserve 8.17-carat clears against its $350,000 ceiling."
+   },
+   {
+    "when": "15 October 2026",
+    "what": "Whether the Graff 7.85-carat makes its $180,000 low estimate, which is the sale's real second data point."
+   },
+   {
+    "when": "Late October 2026",
+    "what": "Christie's published sale total, the only figure that says whether online jewellery demand matched the preview's estimates."
+   }
+  ],
+  "depth": {
+   "reverse": "A result at or below the Graff lot's $280,000, which would say the no-reserve term cost the house money rather than finding a deeper bidder. Nothing in a preview predicts a hammer price.",
+   "built": {
+    "title": "What no reserve means",
+    "text": "A reserve is a confidential minimum below which a consignor will not sell; an estimate range is a published guide and is not itself a floor. A lot offered without reserve can sell at whatever the highest bid is, which removes the risk of the lot going unsold and transfers all price risk to the consignor. Houses use the term on property they are confident will attract competition, and on online sales where a bought-in lot is a visible failure. The absence of a published low estimate on this lot, where every comparable lot has one, is consistent with that term rather than an omission."
+   },
+   "method": "Rapaport's report was fetched to raw bytes, HTTP 200, 235,092 bytes, saved to newsroom/sources/2026-10-08/christies-rap.html. Exact-digit greps on that saved file: '8.17-carat' four hits, '$350,000' seven, '260 lots' one, 'without reserve' one. The $350,000 was read in the article's own opening body paragraph; the $180,000 to $280,000 band was read in a figure caption belonging to a different lot in the same document, and the two were kept apart rather than grepped together, because a whole-page figure sweep on a multi-lot preview cannot tell one lot's estimate from another's. All nine subsidiary estimates in the table were read lot by lot out of the preview's own captions. A third door was then opened on Christie's own site, HTTP 200, 1,032,614 bytes, saved as christies-sale.html: it carries 'Jewels Online' seven times and the string 'Online Auction 24557 6-15 OCT 2026 Jewels Online New York' with a happening-now marker, which establishes the bidding window independently of Rapaport. The single '8.17' hit on that Christie's page was opened and is an SVG path coordinate, not a lot reference, so the calendar page confirms the sale and the dates but not the stone. Archive check, searched in website/content/articles.json: 'Jewels Online' returns zero hits. Carat Capital's prior 8.17-carat hits were checked by the Bureau and are a different stone, an emerald-cut F VS1 that already sold for $275,000 at a past sale, so same carat weight, different cut, grade and event.",
+   "prior": [
+    {
+     "date": "2026-10-01",
+     "slug": "four-seventy-five-on-the-kimberley-yellow",
+     "claim": "A different 8.17-carat stone, an emerald-cut F VS1, made $275,000 against a $200,000 high at Heritage."
+    }
+   ],
+   "sources": [
+    {
+     "title": "8ct. Diamond to Headline Christie's New York Auction, Rapaport",
+     "url": "https://rapaport.com/news/8ct-diamond-to-headline-christies-new-york-auction/",
+     "published": "2026-10-07"
+    },
+    {
+     "title": "Christie's auction calendar, Jewels Online New York, online auction 24557, 6-15 Oct 2026",
+     "url": "https://www.christies.com/en/auction/jewels-online-new-york-32046/",
+     "published": "2026-10-08"
+    }
+   ]
+  },
+  "next": {
+   "slug": "four-seventy-five-on-the-kimberley-yellow"
+  }
+ },
+ "seven-hundred-thousand-on-a-voutilainen": {
+  "v": 3,
+  "kicker": "Watch auctions",
+  "figures": {
+   "asof": "Bids at the time of JCK's report of 6 October 2026, in a sale that closes 9 October 2026 at 10 a.m. Eastern",
+   "cells": [
+    {
+     "n": "$700,000",
+     "dir": "up",
+     "label": "Top bid, Voutilainen 28Sport",
+     "q": "2.92x the $240,000 high est.",
+     "src": 0
+    },
+    {
+     "n": "3.5x",
+     "dir": "up",
+     "label": "F.P. Journe Centigraphe",
+     "q": "on a $60,000 low estimate",
+     "src": 0
+    },
+    {
+     "n": "88",
+     "dir": "flat",
+     "label": "Lots in the sale",
+     "q": "closing at one-minute intervals",
+     "src": 0
+    },
+    {
+     "n": "$235.5m",
+     "dir": "flat",
+     "label": "Phillips spring watch sales",
+     "q": "prior season, for context",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "An independent cleared its estimate.",
+   "text": "A Voutilainen 28Sport was bid to $700,000 against a $240,000 high estimate at Phillips New York, with two F.P. Journe lots also above estimate before the 9 October close."
+  },
+  "means": [
+   {
+    "who": "If you are bidding Friday:",
+    "text": "The three lots running hot are all independents and the Patek is not. The premium is for scarcity of maker, not of reference."
+   },
+   {
+    "who": "If you value a 28Sport:",
+    "text": "The comparable set is eight watches and this is the onyx-dial one. That is why the $240,000 estimate stopped mattering."
+   },
+   {
+    "who": "If you consign heritage:",
+    "text": "A fresh-to-market Patek 5270 complete set sat inside $80,000 to $160,000 while independents tripled. Estimates are holding on heritage."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A result. Bidding runs to 10 a.m. Eastern on 9 October and every figure here can still move before the hammer."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Where the bidding sat before the close",
+   "asof": "Bids as reported 6 October 2026; estimates as published by Phillips",
+   "cols": [
+    "Lot",
+    "Estimate",
+    "Position at report"
+   ],
+   "rows": [
+    [
+     "Voutilainen 28Sport Ltd Ed",
+     "High $240,000",
+     "Top bid $700,000, 2.92x high"
+    ],
+    [
+     "Lot 40, F.P. Journe lineSport Centigraphe",
+     "Low $60,000",
+     "3.5x the low estimate"
+    ],
+    [
+     "Lot 4, F.P. Journe Octa Lune",
+     "High $120,000",
+     "Close to 2x high, a dozen bids"
+    ],
+    [
+     "Lot 50, Patek Philippe 5270J",
+     "$80,000-$160,000",
+     "Inside estimate"
+    ],
+    [
+     "Lot 39, JLC Atmos Marqueterie Klimt",
+     "$70,000-$140,000",
+     "First of the edition at auction"
+    ]
+   ],
+   "hi": 0,
+   "note": "Multiples are stated against the leg the source names: Voutilainen against its high estimate, the Centigraphe against its low, the Octa Lune against its high. Each is Carat Capital's own division and is printed with its leg so the two cannot be confused. $700,000/$240,000 = 2.92 times the high estimate, which is 192% above it.",
+   "plate": "CC/2026/099"
+  },
+  "sections": [
+   {
+    "h": "Nearly three times estimate",
+    "p": [
+     {
+      "lead": "Seven hundred thousand.",
+      "text": "The top bid on the Voutilainen 28Sport was $700,000 against a $240,000 high estimate. Dividing one by the other gives 2.92 times, or 192% above."
+     },
+     {
+      "lead": "Eight were made.",
+      "text": "The watch is one of eight in stainless steel and believed one of two with an onyx centre dial. Its first owner bought it in 2021."
+     }
+    ]
+   },
+   {
+    "h": "Journe runs, Patek holds",
+    "p": [
+     {
+      "lead": "Three and a half.",
+      "text": "Lot 40, a 2025 lineSport Centigraphe Souverain in hammered platinum, has climbed to 3.5 times its $60,000 low estimate during bidding."
+     },
+     {
+      "lead": "Inside the range.",
+      "text": "Lot 50, a fresh-to-market Patek Philippe 5270 complete set, remained within its $80,000 to $160,000 estimate at the same point in the sale."
+     }
+    ]
+   },
+   {
+    "h": "The lot that is a clock",
+    "p": [
+     {
+      "lead": "Klimt on a cabinet.",
+      "text": "Lot 39, a Jaeger-LeCoultre Atmos Marqueterie Gustav Klimt, carries a $70,000 to $140,000 estimate. Its marquetry panels re-create The Kiss and open at a hidden button."
+     },
+     {
+      "lead": "It never winds.",
+      "text": "The Atmos movement runs on small shifts in room temperature. Phillips says this is the first of the edition to come to auction."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "9 October 2026",
+    "what": "The 10 a.m. Eastern close at one-minute lot intervals, and whether the Voutilainen's $700,000 holds as a hammer price."
+   },
+   {
+    "when": "9 October 2026",
+    "what": "Whether the Patek 5270 clears its $160,000 high estimate once the independents stop absorbing the room's attention."
+   },
+   {
+    "when": "Mid-October 2026",
+    "what": "Phillips' published total against the $235.5 million its spring watch season produced."
+   }
+  ],
+  "depth": {
+   "reverse": "A close in which the Voutilainen's bid does not advance and the Journe lots retrace, which would make this a story about three early bidders rather than about demand for independents. Mid-sale bids are the weakest auction evidence there is.",
+   "built": {
+    "title": "Why a mid-sale bid is not a price",
+    "text": "An online timed auction accepts bids over a window and closes lots in sequence, here at one-minute intervals. A bid standing days before the close is a floor set by whoever has committed so far, not a clearing price, and online sales routinely see the largest increments in the final minutes once bidders stop revealing their limits. A multiple quoted against an estimate also depends on which leg is used: three and a half times a low estimate and three and a half times a high estimate are very different sums of money, which is why each multiple here is printed with the leg it was taken from. Buyer's premium sits on top of every figure quoted."
+   },
+   "method": "JCK's report was fetched to raw bytes, HTTP 200, 114,616 bytes, saved to newsroom/sources/2026-10-08/phillips.html, and read out of the article's own body text rather than from a whole-page sweep, because the page carries a popular-stories rail whose figures belong to other stories. Every multiple is this paper's own division and is shown: 700,000/240,000 = 2.92 times the high estimate, 192% above it. The 3.5 times on the Centigraphe and the near-2 times on the Octa Lune are the source's own multiples and are printed against the legs the source names, low and high respectively. Phillips' claim that this is the highest-value online sale its New York watch team has organised is the house's statement about its own history and is attributed rather than asserted. Archive check, searched in website/content/articles.json by entity: 'Voutilainen' returns one hit, opened -- ninety-percent-sold of 18 July 2026, a trophy-watch-market piece covering a different season and different sales. 'New York Sessions' returns zero hits and '235.5' returns zero hits. 'Journe' returns nine hits, all opened; the most recent, thirty-one-four-tops-a-four-twenty-six-sale of 6 October 2026, covers a Sotheby's Hong Kong sale. SAME MAKERS, DIFFERENT EVENT AND PERIOD -- new, not a repeat: ours covered Sotheby's Hong Kong October sale, this covers Phillips' New York Sessions Fall 2026 online sale closing 9 October.",
+   "prior": [
+    {
+     "date": "2026-10-06",
+     "slug": "thirty-one-four-tops-a-four-twenty-six-sale",
+     "claim": "An F.P. Journe took HK$31,400,000 to top a HK$426m Sotheby's sale in Hong Kong."
+    },
+    {
+     "date": "2026-07-18",
+     "slug": "ninety-percent-sold",
+     "claim": "The trophy watch market cleared ninety per cent of lots, with Voutilainen among the makers named."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Bidding Heats Up for 5 Standout Timepieces at Phillips New York, JCK",
+     "url": "https://www.jckonline.com/editorial-article/phillips-new-york-timepieces/",
+     "published": "2026-10-06"
+    }
+   ]
+  },
+  "next": {
+   "slug": "thirty-one-four-tops-a-four-twenty-six-sale"
+  }
+ },
+ "four-styles-swap-the-lab-grown": {
+  "v": 3,
+  "kicker": "Coloured stones",
+  "figures": {
+   "asof": "Mejuri's September 2026 announcement and interview, as reported by JCK on 7 October 2026",
+   "cells": [
+    {
+     "n": "4",
+     "dir": "up",
+     "label": "New styles with Montana sapphire",
+     "q": "two rings, a charm, earrings",
+     "src": 0
+    },
+    {
+     "n": "$498",
+     "dir": "flat",
+     "label": "Lowest published price",
+     "q": "to $896 at the top",
+     "src": 0
+    },
+    {
+     "n": "$1.5m",
+     "dir": "flat",
+     "label": "Invested in Regeneration",
+     "q": "2023, founding partner",
+     "src": 0
+    },
+    {
+     "n": "2024",
+     "dir": "flat",
+     "label": "Salmon Gold introduced",
+     "q": "lab-grown used last year",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "A lab-grown stone came out.",
+   "text": "Mejuri replaced lab-grown diamonds with Montana sapphires in four new Salmon Gold styles. The pieces are priced from $498 to $896."
+  },
+  "means": [
+   {
+    "who": "If you sell coloured stones:",
+    "text": "A direct-to-consumer brand taking lab-grown diamonds out and a domestic sapphire in is a substitution running the unfamiliar direction."
+   },
+   {
+    "who": "If you buy Montana rough:",
+    "text": "The demand here is small calibrated goods set in tension and partial tension, not single large stones."
+   },
+   {
+    "who": "If you price origin:",
+    "text": "The range tops at $896 on a traceability story rather than a carat story. Origin is doing the pricing work."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A volume figure. Mejuri published no unit numbers and no contracted tonnage, and four styles is a test rather than a line."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "The four styles and what they cost",
+   "asof": "Prices as published by JCK, 7 October 2026",
+   "cols": [
+    "Piece",
+    "Price",
+    "Note"
+   ],
+   "rows": [
+    [
+     "River Ring",
+     "$498",
+     "Named in the article's text"
+    ],
+    [
+     "Open Dome River charm",
+     "$498",
+     "Named in the article's caption"
+    ],
+    [
+     "River Drop earrings",
+     "$648",
+     "Montana sapphires, 14k Salmon Gold"
+    ],
+    [
+     "Open Dome Twin River ring",
+     "$698",
+     "Caption price"
+    ],
+    [
+     "River pendant necklace",
+     "$896",
+     "Top of the published range"
+    ]
+   ],
+   "hi": 4,
+   "note": "The source attaches $498 to the River Ring in its body text and to the Open Dome River charm in its photo caption, and both lines are reproduced here rather than reconciled, because the document carries the figure twice against two different names. The published range is $498 to $896 and the article says four new styles, which is one fewer than the five names the page gives prices for.",
+   "plate": "CC/2026/100"
+  },
+  "sections": [
+   {
+    "h": "Sapphires replace lab-grown",
+    "p": [
+     {
+      "lead": "Four new styles.",
+      "text": "Two rings, a charm and a pair of earrings carry Montana sapphires in the latest Salmon Gold pieces. Last year's collection used lab-grown diamonds in the same place."
+     },
+     {
+      "lead": "A North American stone.",
+      "text": "The brand's product-design director said the search was for a stone from North America, and that Montana came up quickly given where the business sells."
+     }
+    ]
+   },
+   {
+    "h": "Salmon Gold is a programme",
+    "p": [
+     {
+      "lead": "Not a colour.",
+      "text": "The name refers to Regeneration's work returning salmon and other migratory fish to streams damaged by gold mining across North America. Mejuri introduced the line in 2024."
+     },
+     {
+      "lead": "One point five million.",
+      "text": "Mejuri invested $1.5 million in Regeneration in 2023 as a founding partner and strategic adviser, and holds rights to buy its gold and silver."
+     }
+    ]
+   },
+   {
+    "h": "Metal pressure sits behind it",
+    "p": [
+     {
+      "lead": "Four to five thousand.",
+      "text": "The brand has told media including The Wall Street Journal that it is examining its supply chain with gold in a $4,000 to $5,000 range."
+     },
+     {
+      "lead": "Steel came too.",
+      "text": "It has introduced new metals including stainless steel into its collections. The stone swap and the metal swap answer the same cost pressure."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Through Q4 2026",
+    "what": "Whether the four styles become a standing line or stay a capsule. Four styles is the smallest commitment a brand can make."
+   },
+   {
+    "when": "Through 2027",
+    "what": "Montana sapphire supply into calibrated commercial sizes, which is the constraint on anyone copying this."
+   },
+   {
+    "when": "Early 2027",
+    "what": "Whether other direct-to-consumer brands substitute a domestic coloured stone for lab-grown diamond at these price points."
+   }
+  ],
+  "depth": {
+   "reverse": "Mejuri reinstating lab-grown diamonds in the next Salmon Gold drop, or the four styles disappearing without replacement, either of which would make this a marketing capsule rather than a sourcing decision.",
+   "built": {
+    "title": "Why a domestic coloured stone is hard",
+    "text": "Montana sapphire comes mostly from alluvial deposits worked at small scale, and the material is typically small, pale and heat-treated to reach commercial blues. That makes it well suited to calibrated goods used several at a time and poorly suited to a single large centre stone, which is the shape of the pieces here. A fully traceable North American chain is therefore available to a brand buying small sizes in modest quantities and effectively unavailable to one needing matched parcels at volume. Substituting it for lab-grown diamond changes the story a piece tells about origin without changing the price band it sells in."
+   },
+   "method": "JCK's article was fetched to raw bytes, HTTP 200, 112,854 bytes, saved to newsroom/sources/2026-10-08/mejuri.html, and read out of the article's own body and its own photo captions rather than from a whole-page sweep, because the page carries a popular-stories rail whose figures belong to other stories. The price discrepancy between the body's River Ring and the caption's River charm at $498 is reported rather than resolved, because the document genuinely says both. No quote is carried in this article: the product-design director's account of the search for a North American stone is paraphrased with attribution, so the quote count for this page is zero. Archive check, searched in website/content/articles.json: 'Mejuri' returns zero hits, 'Montana sapphire' zero, 'Salmon Gold' zero and 'Regeneration' zero. The search file is the archive of record and the hit count on all four terms is nil, so this is new to this paper and to its gemstones desk.",
+   "prior": [
+    {
+     "date": "2026-08-30",
+     "slug": "pigeon-blood-issued-in-jaipur",
+     "claim": "GSI brought coloured-stone trade names home to Jaipur, pricing origin rather than carat."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Montana Sapphires Latest Addition to Mejuri's Sustainability Storytelling, JCK",
+     "url": "https://www.jckonline.com/editorial-article/mejuri-montana-sapphires/",
+     "published": "2026-10-07"
+    }
+   ]
+  },
+  "next": {
+   "slug": "pigeon-blood-issued-in-jaipur"
+  }
+ },
+ "two-seventy-five-one-and-the-bnpl": {
+  "v": 3,
+  "kicker": "E-commerce",
+  "figures": {
+   "asof": "Adobe Analytics annual holiday shopping forecast, as reported by Rapaport on 6 October 2026; period 1 November to 31 December 2026",
+   "cells": [
+    {
+     "n": "$275.1bn",
+     "dir": "up",
+     "label": "US online holiday spend, forecast",
+     "q": "+7% year on year",
+     "src": 0
+    },
+    {
+     "n": "$21.3bn",
+     "dir": "up",
+     "label": "Buy Now Pay Later",
+     "q": "+7%, the same rate",
+     "src": 0
+    },
+    {
+     "n": "$15.1bn",
+     "dir": "up",
+     "label": "Cyber Monday",
+     "q": "+6%, first day above $15bn",
+     "src": 0
+    },
+    {
+     "n": "$47.5bn",
+     "dir": "up",
+     "label": "Cyber Week",
+     "q": "17% of the season",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "BNPL grows at the market rate.",
+   "text": "Adobe forecasts $275.1 billion of US online holiday spending, up 7%, and $21.3 billion of Buy Now Pay Later, up 7%. Deferred payment holds its share rather than gaining."
+  },
+  "means": [
+   {
+    "who": "If you run jewellery e-commerce:",
+    "text": "The plannable figure is $47.5 billion in four days at 17% of the season. That is a promotional calendar, not a steady November."
+   },
+   {
+    "who": "If you use a BNPL partner:",
+    "text": "The forecast has deferred payment growing at exactly the market rate. Any share gain you see in Q4 is yours, not the category's."
+   },
+   {
+    "who": "If you set ad budgets:",
+    "text": "Black Friday is forecast to outgrow Cyber Monday, 9% against 6%, on earlier discounting. The weight has moved earlier."
+   },
+   {
+    "who": "What this is not:",
+    "text": "Jewellery data. Adobe publishes no jewellery line in this forecast, and a forecast is a projection rather than a reading of trade."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Adobe's forecast, day by day",
+   "asof": "Adobe Analytics holiday forecast, as reported 6 October 2026",
+   "cols": [
+    "Period",
+    "Forecast",
+    "Growth"
+   ],
+   "rows": [
+    [
+     "1 Nov - 31 Dec total",
+     "$275.1bn",
+     "+7%"
+    ],
+    [
+     "October (separate)",
+     "$95.8bn",
+     "+8%"
+    ],
+    [
+     "Cyber Week, Thanksgiving to Cyber Monday",
+     "$47.5bn",
+     "+7%"
+    ],
+    [
+     "Cyber Monday",
+     "$15.1bn",
+     "+6%"
+    ],
+    [
+     "Black Friday",
+     "$12.9bn",
+     "+9%"
+    ],
+    [
+     "Prime Day, 6-7 October",
+     "$9.9bn",
+     "+9%"
+    ],
+    [
+     "Thanksgiving",
+     "$6.9bn",
+     "+8.5%"
+    ],
+    [
+     "Buy Now Pay Later, Nov-Dec",
+     "$21.3bn",
+     "+7%"
+    ]
+   ],
+   "hi": 7,
+   "note": "Every figure is Adobe's own projection as reported, not an outcome. The BNPL share of the holiday total, 21.3/275.1 = 7.7%, is Carat Capital's division and is labelled as such; Adobe does not publish that share. October's $95.8 billion sits outside the 1 November to 31 December holiday window and is not part of the $275.1 billion.",
+   "plate": "CC/2026/101"
+  },
+  "sections": [
+   {
+    "h": "Two sevens, one share",
+    "p": [
+     {
+      "lead": "Both up seven.",
+      "text": "Adobe forecasts $275.1 billion of holiday online spending and $21.3 billion of BNPL, each up 7%. Deferred payment is projected to hold its position, not gain it."
+     },
+     {
+      "lead": "Seven point seven.",
+      "text": "Dividing 21.3 by 275.1 gives 7.7% of the holiday total. Adobe does not publish that share; it is Carat Capital's own arithmetic."
+     }
+    ]
+   },
+   {
+    "h": "Cyber Monday breaks fifteen",
+    "p": [
+     {
+      "lead": "First single day.",
+      "text": "Cyber Monday is forecast at $15.1 billion, up 6%, the first time US e-commerce will exceed $15 billion in one day on Adobe's measure."
+     },
+     {
+      "lead": "Friday grows faster.",
+      "text": "Black Friday is projected up 9% to $12.9 billion on earlier discounting, outgrowing Cyber Monday. Thanksgiving is put at $6.9 billion, up 8.5%."
+     }
+    ]
+   },
+   {
+    "h": "Four days, a sixth",
+    "p": [
+     {
+      "lead": "Forty-seven and a half.",
+      "text": "Cyber Week is forecast to rise 7% to $47.5 billion, which Adobe puts at 17% of the total holiday outlay. The concentration is the planning problem."
+     },
+     {
+      "lead": "No jewellery line.",
+      "text": "Adobe's named categories are electronics, apparel, furniture, grocery, toys and cosmetics. Jewellery is not broken out in this forecast at all."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Early December 2026",
+    "what": "Adobe's Cyber Week actuals against the $47.5 billion forecast, the first test of the whole projection."
+   },
+   {
+    "when": "Early December 2026",
+    "what": "Whether Cyber Monday clears $15.1 billion, which is the headline the forecast is built to produce."
+   },
+   {
+    "when": "January 2027",
+    "what": "Adobe's full-season figure against $275.1 billion, and whether BNPL came in above or below its 7.7% implied share."
+   }
+  ],
+  "depth": {
+   "reverse": "Cyber Week actuals materially under $47.5 billion, or a BNPL share above 8%, either of which would undo the reading that deferred payment is holding rather than gaining. This is a forecast and every figure in it is an estimate of a future period.",
+   "built": {
+    "title": "What Adobe Analytics measures",
+    "text": "Adobe Analytics bases its e-commerce figures on aggregated, anonymised data from transactions it processes for retail websites in the United States, covering a large share of online retail but not the whole of it and not physical stores. Its holiday window is 1 November to 31 December, so the October figure quoted here sits outside the headline total rather than inside it. The forecast is a projection made before the period, not a measurement of it, and Adobe publishes actuals against the same definitions afterwards, which is what makes the two comparable. Category growth rates are revenue, not units, so a category can grow while selling fewer items at higher prices."
+   },
+   "method": "Rapaport's report was fetched to raw bytes, HTTP 200, 221,269 bytes, saved to newsroom/sources/2026-10-08/adobe.html, and the figures were read out of the article's own body paragraphs after isolating them from the page's related-article rail. Exact-digit greps on that saved file: '$275.1 billion' five hits, '$21.3 billion' three, '$15.1 billion' three, '$47.5 billion' one, '$12.9 billion' one, '$95.8 billion' one. The 7.7% BNPL share is this paper's own division of two of Adobe's figures and is labelled as such everywhere it appears, because Adobe does not publish it. Archive check, searched in website/content/articles.json: 'Adobe' returns zero hits. The Bureau's own grep for '275.1' returned one hit which it opened and dismissed as an SVG chart coordinate in website/indices.html, and that dismissal was confirmed here rather than taken on trust. The search file is the archive of record and the entity hit count is nil.",
+   "prior": [
+    {
+     "date": "2026-08-06",
+     "slug": "bnpl-inside-the-perimeter",
+     "claim": "Deferred payment moved inside the jewellery retailer's own perimeter rather than sitting beside it."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Adobe Expects Online Holiday Shopping to Reach Record High, Rapaport",
+     "url": "https://rapaport.com/news/adobe-expects-online-holiday-shopping-to-reach-record-high/",
+     "published": "2026-10-06"
+    }
+   ]
+  },
+  "next": {
+   "slug": "bnpl-inside-the-perimeter"
+  }
  }
 }

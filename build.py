@@ -15,6 +15,40 @@ CONTENT = ROOT / "content"
 ARTICLES = json.loads((CONTENT / "articles.json").read_text()) if (CONTENT / "articles.json").exists() else []
 ARTICLES.sort(key=lambda a: a.get("date", ""), reverse=True)
 WIRE = json.loads((CONTENT / "wire.json").read_text()) if (CONTENT / "wire.json").exists() else {}
+
+# ---------------------------------------------------------------------------
+# THE EDITION-ADVANCE GUARD (caratchief 2026-10-07, closing carateditor's
+# escalation of 05, 06 and 07 October).
+#
+# The fault: build.py READ wire.json's edition number and nothing ever wrote
+# it, and nothing compared it against the newest article. Every repair to date
+# was a hand edit at press time, so the homepage could carry yesterday's
+# edition number over today's articles and no step in the pipeline would
+# object. The Editor asked three mornings running for an owner.
+#
+# The owner is this assertion. wire.json now carries "editionDate" beside
+# "edition", and the build REFUSES to run if that date is not the date of the
+# newest article in articles.json. Whoever advances the number must stamp the
+# day it belongs to, and a stale number can no longer reach a reader quietly:
+# it stops the build instead, by name, with both values printed.
+# ---------------------------------------------------------------------------
+if ARTICLES and WIRE.get("edition"):
+    _newest = ARTICLES[0].get("date", "")
+    _stamped = WIRE.get("editionDate", "")
+    if not _stamped:
+        raise SystemExit(
+            "BUILD STOPPED - content/wire.json has an edition (%s) but no "
+            "editionDate. Add \"editionDate\": \"%s\" beside it, matching the "
+            "newest article, then rebuild. See the edition-advance guard."
+            % (WIRE.get("edition"), _newest))
+    if _stamped != _newest:
+        raise SystemExit(
+            "BUILD STOPPED - the edition number and the newest article "
+            "disagree. content/wire.json says edition %s stamped %s; the "
+            "newest article in articles.json is dated %s. Advance the edition "
+            "and its editionDate together, then rebuild."
+            % (WIRE.get("edition"), _stamped, _newest))
+
 RECORD = json.loads((CONTENT / "record.json").read_text()) if (CONTENT / "record.json").exists() else {}
 PRICES = json.loads((CONTENT / "prices.json").read_text()) if (CONTENT / "prices.json").exists() else {}
 LAB = json.loads((CONTENT / "lab-prices.json").read_text()) if (CONTENT / "lab-prices.json").exists() else {}
@@ -124,16 +158,14 @@ DESKS = [
      ("Midstream squeeze","Dynamic","Miners set rough prices, retailers set polished prices, and the cutters and traders in between absorb the difference. When both ends tighten at once, Surat and Antwerp bleed first — the industry's recurring crisis."),
      ("Memo","Practice","Goods consigned to retailers on memorandum — sold before they're paid for. Memo keeps counters full and balance sheets fragile; its terms are one of the best barometers of trade confidence."),
    ],
-   stories=[
-     ("Gold at $4,100 is quietly redrawing the entire map of the jewelry trade","Lighter mountings, re-cut margins — and a diamond demand ripple nobody has priced yet.","Lead · 8 min"),
-     ("Inside the sight: what the boxes said this month","Allocations read like a mood ring for the whole pipeline. This month's mood: cautious defiance.","Gaborone · 6 min"),
-     ("The 86% question nobody in Surat will answer aloud","Lab-grown slipped again. The polishing capital's answer is a pivot two years in the making.","Surat · 7 min"),
-     ("Antwerp's tender season opens hot on fancy color","Pinks and vivid yellows clear well above reserve while white melee stays soft.","Antwerp · 4 min"),
-     ("Provenance premiums are now measurable — we measured them","Certified-origin goods are clearing 3–5% over identical uncertified stones. The paper is the product.","Data · 5 min"),
-   ]),
+   # stories=[] REMOVED by caratchief 2026-10-07: five hand-written sample headlines per desk,
+   #   carrying undated hardcoded figures. The renderer never read this key, so they were never
+   #   live -- which is exactly why they were dangerous: one template line would have published a
+   #   fistful of invented figures at once. Originals in website/build.py.bak-20261007.
+   ),
  dict(no="02", slug="gold-metals", nav="Gold", title="Gold & Metals",
    tag="the metal beneath every margin",
-   dek="Bullion is the jewelry industry's weather. The metals desk files the morning note on gold, silver, platinum and palladium — then follows the price into the workshop: hallmarking policy, recycling flows, hollow-chain engineering and what $4,000-plus gold does to every counter in the world.",
+   dek="Bullion is the jewelry industry's weather. The metals desk files the morning note on gold, silver, platinum and palladium — then follows the price into the workshop: hallmarking policy, recycling flows, hollow-chain engineering and what the standing gold price does to every counter in the world. The dated level is on the tape and the Indices page, not here.",
    stats=[("","Gold/oz")],  # driven by _lock_desk_stats() from the tape
    motif="ingot",
    briefing=[
@@ -147,13 +179,11 @@ DESKS = [
      ("Fineness ladder","Concept","24k is pure; 22k, 18k, 14k, 10k and 9k trade purity for durability and price. Bull markets in bullion push whole countries down a rung — India's 18k boom is this cycle's signature."),
      ("Melt value","Metric","What a piece is worth as raw metal, ignoring craft entirely. The gap between melt and retail is where brand, design and trust live — and it's the number every buyback desk starts from."),
    ],
-   stories=[
-     ("Morning bullion note: gold opens 1.2% higher at $4,135","Futures firm overnight on haven flows; silver and platinum follow.","Bullion · 3 min"),
-     ("How Vicenza learned to make more jewelry with less gold","Inside the hollow-chain engineering arms race remaking Italian manufacturing.","Vicenza · 7 min"),
-     ("India shrugs at $4,000 gold — wedding season doesn't wait","Volumes dip, values soar. The world's largest gold-jewelry market adapts in real time.","Mumbai · 5 min"),
-     ("The scrap-gold gold rush","Buyback desks, melt logistics and the fraud fight inside recycling's boom.","Supply · 6 min"),
-     ("Platinum's stealth rally is finally reaching the counter","At a widening discount to gold, the once-premium metal becomes the value play.","Metals · 4 min"),
-   ]),
+   # stories=[] REMOVED by caratchief 2026-10-07: five hand-written sample headlines per desk,
+   #   carrying undated hardcoded figures. The renderer never read this key, so they were never
+   #   live -- which is exactly why they were dangerous: one template line would have published a
+   #   fistful of invented figures at once. Originals in website/build.py.bak-20261007.
+   ),
  dict(no="03", slug="gemstones", nav="Gems", title="Colored Gemstones",
    tag="supply lines drawn in emerald, ruby and sapphire",
    dek="The most opaque corner of the trade — and the most alive. The gemstone desk tracks auction results from Zambian emerald and Mozambican ruby tenders, the cutting rooms of Bangkok and Jaipur, treatment disclosure fights, and the collector demand pushing top stones past diamonds.",
@@ -170,13 +200,11 @@ DESKS = [
      ("Origin determination","Science","Labs read a stone's chemistry and inclusions like a birth certificate — Mogok ruby, Panjshir emerald, Ceylon sapphire. It's expert judgment, not barcode certainty, and labs occasionally disagree."),
      ("Pigeon's blood","Grade","The trade's most contested color term: the pure vivid red, historically Burmese, that marks the summit of the ruby market. Whose lab gets to say it is a running commercial war."),
    ],
-   stories=[
-     ("Zambian emerald tender clears 14% above expectations","Auction transparency keeps repricing the whole green supply chain.","Lusaka · 5 min"),
-     ("The Odyssey effect — ancient-world jewelry is about to have its moment","Nolan's epic has buyers hunting intaglios, granulation and antique cuts.","Trends · 6 min"),
-     ("Bangkok's cutting rooms bet big on sapphire","The world's colored-stone capital retools for the blue decade.","Bangkok · 6 min"),
-     ("When labs disagree: inside a $2m origin dispute","Two reports, two origins, one very expensive ruby. A case study in gem science's limits.","Certification · 8 min"),
-     ("Spinel completes its climb from consolation prize to headline","The connoisseur's secret is now on maison counters at maison prices.","Market · 4 min"),
-   ]),
+   # stories=[] REMOVED by caratchief 2026-10-07: five hand-written sample headlines per desk,
+   #   carrying undated hardcoded figures. The renderer never read this key, so they were never
+   #   live -- which is exactly why they were dangerous: one template line would have published a
+   #   fistful of invented figures at once. Originals in website/build.py.bak-20261007.
+   ),
  dict(no="04", slug="watches", nav="Watches", title="Watches",
    tag="haute horlogerie, priced by the second",
    dek="Where jewelry meets machinery and the secondary market never sleeps. The watch desk reads Swiss export data, brand strategy and auction results — and tracks the collector indices that turned wristwatches into an asset class with a service manual.",
@@ -193,13 +221,11 @@ DESKS = [
      ("Reference","Practice","A watch's model number — collectors trade references the way equity desks trade tickers. One digit can double a price at auction."),
      ("Complication","Term","Any function beyond telling the time: chronograph, perpetual calendar, minute repeater. Complexity is the currency of horological prestige — and of service costs."),
    ],
-   stories=[
-     ("World Cup gold rush: watchmakers bet the summer on football","Inside the tournament marketing offensive from Geneva to Miami.","Geneva · 4 min"),
-     ("Swiss exports hold as America buys the dip","The US overtakes on volume while Asia consolidates on value.","Data · 5 min"),
-     ("The steel waiting list, decoded","Allocation strategy is the industry's most effective pricing machine. Here's how it works.","Strategy · 7 min"),
-     ("Independents keep outrunning the majors at auction","Small-series watchmaking is the collector story of the decade.","Auctions · 5 min"),
-     ("America 250 editions land on the wrist","Heritage dials and anniversary references join the patriotic product wave.","Market · 3 min"),
-   ]),
+   # stories=[] REMOVED by caratchief 2026-10-07: five hand-written sample headlines per desk,
+   #   carrying undated hardcoded figures. The renderer never read this key, so they were never
+   #   live -- which is exactly why they were dangerous: one template line would have published a
+   #   fistful of invented figures at once. Originals in website/build.py.bak-20261007.
+   ),
  dict(no="05", slug="auctions", nav="Auctions", title="Auctions & Estates",
    tag="where the trade marks itself to market",
    dek="Every hammer price is a data point the whole industry reprices against. The auction desk previews and reports the jewelry sales at Christie's, Sotheby's, Phillips and Bonhams, tracks private treaty and estate flows, and reads provenance the way analysts read balance sheets.",
@@ -211,18 +237,16 @@ DESKS = [
      ("B-03","Private sales eat the middle","Six-figure stones increasingly trade by private treaty instead of the room — faster, quieter, fee-flexible. The public sale is becoming the shop window; the deal happens after.","Structure · Global"),
    ],
    glossary=[
-     ("Hammer vs. premium","Term","The hammer price is what the gavel confirms; the buyer's premium (20–27%) goes to the house on top. Read carefully: reports mix the two, and the difference is the house's entire business."),
+     ("Hammer vs. premium","Term","The hammer price is what the gavel confirms; the buyer's premium goes to the house on top. The rate is tiered by lot value and differs by house, so read that house's own published schedule rather than a single number. Read carefully: reports mix the two, and the difference is the house's entire business."),
      ("Provenance","Concept","A jewel's chain of ownership. A documented duchess multiplies value like a lab report multiplies a ruby's — history is the one gem that can't be mined."),
      ("Reserve","Practice","The confidential minimum below which a lot won't sell. 'Bought in' means the reserve wasn't met — auction-speak for a price the market refused."),
      ("Fresh to market","Signal","A piece unseen for decades. Freshness is the auction world's scarcity premium; a jewel flipped twice in five years trades tired."),
    ],
-   stories=[
-     ("Geneva magnificent jewels: signed Deco clears the century mark","Cartier and Van Cleef period pieces triple estimates in a selective room.","Geneva · 6 min"),
-     ("The estate flood is here — and the trade is the buyer","How dealers restock from the greatest wealth transfer in history.","New York · 7 min"),
-     ("Private treaty: the auction you never see","More top stones now trade behind the room than in it. Inside the quiet market.","Structure · 6 min"),
-     ("A duchess's clip and the mathematics of provenance","Case study: same stones, 3.2× the price. History priced per carat.","Analysis · 5 min"),
-     ("Hong Kong preview: jadeite tests the ceiling again","Imperial green returns to the block with an eight-figure ambition.","Hong Kong · 4 min"),
-   ]),
+   # stories=[] REMOVED by caratchief 2026-10-07: five hand-written sample headlines per desk,
+   #   carrying undated hardcoded figures. The renderer never read this key, so they were never
+   #   live -- which is exactly why they were dangerous: one template line would have published a
+   #   fistful of invented figures at once. Originals in website/build.py.bak-20261007.
+   ),
  dict(no="06", slug="retail-tech", nav="Retail", title="Retail & Technology",
    tag="the counter, rebuilt for the next generation",
    dek="Where the industry meets its customer — and its future. The retail desk covers lab-grown economics, e-commerce and live-selling, traceability tech, AI in the showroom, and the store formats winning buyers who are 24, online at midnight, and allergic to velvet ropes.",
@@ -239,13 +263,11 @@ DESKS = [
      ("Omnichannel","Concept","The customer researches at midnight, tries on Saturday, buys by DM on Tuesday. Winning retailers price, stock and staff as one continuous counter across all of it."),
      ("Digital product passport","Regulation","An EU-led ID standard giving each piece a scannable record of origin, materials and custody. Coming for jewelry the way nutrition labels came for food."),
    ],
-   stories=[
-     ("Lab-grown slips again — the 86% question nobody will answer aloud","The discount widened. The business model finally makes sense. Both are true.","Economics · 7 min"),
-     ("The midnight counter: how 24-year-olds actually buy emeralds","Live streams, DMs and the death of the appointment. A field study.","Channels · 8 min"),
-     ("America 250: heritage houses mint an anniversary economy","The patriotic product wave is a retail calendar event now.","New York · 4 min"),
-     ("The digital product passport is coming for your inventory","What the EU standard means for every stockroom, explained.","Regulation · 6 min"),
-     ("Store of the decade: the jeweler as broadcaster","Shenzhen's livestream studios are the new flagship format.","Shenzhen · 5 min"),
-   ]),
+   # stories=[] REMOVED by caratchief 2026-10-07: five hand-written sample headlines per desk,
+   #   carrying undated hardcoded figures. The renderer never read this key, so they were never
+   #   live -- which is exactly why they were dangerous: one template line would have published a
+   #   fistful of invented figures at once. Originals in website/build.py.bak-20261007.
+   ),
 ]
 
 # ── the desk-furniture price lock (corrected 2026-09-16; extended 2026-09-30) ──

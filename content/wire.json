@@ -1,41 +1,56 @@
 {
- "date_line": "Wednesday, October 7, 2026 | Vol. I - No. 083",
- "edition": "Vol. I - No. 083",
+ "date_line": "Thursday, October 8, 2026 | Vol. I - No. 084",
+ "edition": "Vol. I - No. 084",
  "items": [
   {
-   "slug": "seven-forty-thousand-in-september",
-   "desk": "Gold & Metals",
-   "title": "PBoC adds 740,000 ounces, the most of its 23-month run"
-  },
-  {
-   "slug": "forty-seven-three-hundred-after-a-quiet-winter",
-   "desk": "Gold & Metals",
-   "title": "Perth Mint sells 47,300 ounces of gold, up 98% on August"
-  },
-  {
-   "slug": "platinum-sheds-sixty-three-at-press-time",
-   "desk": "Gold & Metals",
-   "title": "Platinum sheds $63.00 to $1,634.00, all four metals lower"
-  },
-  {
-   "slug": "six-sixty-nine-breaks-the-flat-run",
-   "desk": "Diamonds",
-   "title": "$669 lab-grown reference breaks eight sessions at $651"
-  },
-  {
-   "slug": "blue-nile-takes-the-royal-asscher-licence",
+   "slug": "five-point-seven-on-fewer-units",
    "desk": "Retail & Technology",
-   "title": "Blue Nile takes Royal Asscher's North American licence"
+   "title": "US specialty jewelers add 5.7% in September on fewer units"
+  },
+  {
+   "slug": "silver-sheds-two-twelve-at-press-time",
+   "desk": "Gold & Metals",
+   "title": "Silver sheds 2.12% to $58.757 as gold and platinum gain"
+  },
+  {
+   "slug": "twenty-one-against-thirty-nine",
+   "desk": "Retail & Technology",
+   "title": "Titan's jewellery revenue rises 21%, against 39% a year ago"
+  },
+  {
+   "slug": "fifty-million-for-elizabeth-bay",
+   "desk": "Diamonds",
+   "title": "$50 million restarts Elizabeth Bay, Namibia's exports down 67%"
+  },
+  {
+   "slug": "three-fifty-on-an-eight-seventeen",
+   "desk": "Auctions",
+   "title": "8.17-carat D/IF ring carries $350,000 at Christie's, no reserve"
+  },
+  {
+   "slug": "seven-hundred-thousand-on-a-voutilainen",
+   "desk": "Watches",
+   "title": "Voutilainen 28Sport reaches $700,000, 2.9 times its estimate"
+  },
+  {
+   "slug": "four-styles-swap-the-lab-grown",
+   "desk": "Gemstones",
+   "title": "Mejuri swaps lab-grown diamonds for sapphires in four styles"
+  },
+  {
+   "slug": "two-seventy-five-one-and-the-bnpl",
+   "desk": "Retail & Technology",
+   "title": "$275.1 billion holiday forecast carries $21.3 billion in BNPL"
   }
  ],
- "tape_ts": "Kitco bid, board stamp 2026-10-07T05:58:58Z, press-time read 7 Oct 06:00 EDT",
+ "tape_ts": "Kitco bid, board stamp 2026-10-08T06:00:58Z, press-time read 8 Oct 06:06 EDT",
  "tape": [
   {
    "name": "Gold / oz",
    "code": "XAU",
-   "px": "4,117.40",
-   "chg": "−0.7927% vs 6 Oct mark",
-   "dir": "down",
+   "px": "4,121.00",
+   "chg": "+0.0874% vs 7 Oct mark",
+   "dir": "up",
    "pts": [
     2,
     5,
@@ -90,9 +105,9 @@
   {
    "name": "Platinum / oz",
    "code": "XPT",
-   "px": "1,634.00",
-   "chg": "−3.7124% vs 6 Oct mark",
-   "dir": "down",
+   "px": "1,642.00",
+   "chg": "+0.4896% vs 7 Oct mark",
+   "dir": "up",
    "pts": [
     2,
     2,
@@ -109,8 +124,8 @@
   {
    "name": "Silver / oz",
    "code": "XAG",
-   "px": "60.029",
-   "chg": "−1.3816% vs 6 Oct mark",
+   "px": "58.757",
+   "chg": "−2.1190% vs 7 Oct mark",
    "dir": "down",
    "pts": [
     2,
@@ -125,5 +140,6 @@
     23
    ]
   }
- ]
+ ],
+ "editionDate": "2026-10-08"
 }

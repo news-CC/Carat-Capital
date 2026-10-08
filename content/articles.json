@@ -17259,7 +17259,7 @@
   "desk": "gold-metals",
   "date": "2026-10-07",
   "kicker": "Official sector",
-  "lead": true,
+  "lead": false,
   "title": "PBoC adds 740,000 ounces, the most of its 23-month run",
   "dek": "China's gold reserve reached 77.47 million ounces at the end of September, about 2,409.59 tonnes. Foreign-exchange reserves fell $38.1 billion in the same month, and London gold closed September down 6.52%.",
   "byline": "The Gold & Metals Desk",
@@ -17465,6 +17465,280 @@
    "GJC inaugural release via ANI, 10th India Gem & Jewellery Show inaugurated, 3 October 2026 — https://aninews.in/news/business/gjc8217s-10th-india-gem-amp-jewellery-show-gjs-2026-diwali-edition-inaugurated-by-shri-uday-samant-ji20261003171519/",
    "GJC closing release via Heera Zhaveraat, GJS 2026 Diwali edition concludes on a high note with record sales, 5 October 2026 — https://heerazhaveraat.com/gjs-2026-diwali-edition-concludes-on-a-high-note-with-record-sales/",
    "All India Gem and Jewellery Domestic Council, own site, reached 7 October 2026 and carrying no release text — https://gjc.org.in/"
+  ]
+ },
+ {
+  "slug": "five-point-seven-on-fewer-units",
+  "desk": "retail-tech",
+  "date": "2026-10-08",
+  "kicker": "US retail",
+  "lead": true,
+  "title": "US specialty jewelers add 5.7% in September on fewer units",
+  "dek": "Tenoris recorded close to two years of uninterrupted monthly growth, with year-to-date revenue up 8.5%. Average spend per item rose 11%; sales of lower-priced jewellery fell 11% and natural diamond jewellery slipped 0.6%.",
+  "byline": "The Retail & Technology Desk",
+  "tags": [
+   "Tenoris",
+   "US retail",
+   "diamond jewellery",
+   "lab-grown",
+   "September 2026"
+  ],
+  "body": [
+   "Revenue at American specialty jewellers rose 5.7% year on year in September, on monthly data from the Tenoris analytics firm reported by analyst Edahn Golan on 7 October. Golan put the run at close to two years of uninterrupted monthly growth. Year-to-date revenue is up 8.5%.",
+   "The growth is concentrated at the top of the price ladder. Average spending per item rose 11% in September while unit demand kept weakening, and sales of lower-priced jewellery fell 11% at the same stores whose revenue was rising. A revenue gain and a unit loss in the same month are the same sentence read two ways.",
+   "Natural diamonds turned negative inside that month. Sales of finished natural-diamond jewellery slipped 0.6% in September after an extended growth streak, and total natural-diamond jewellery sales including loose stones fell 1%. Buyers who did purchase diamond jewellery spent 11% more per stone.",
+   "Lab-grown moved the other way on volume and the wrong way on money. Demand for lab-grown diamond jewellery rose close to 26% year on year, while revenue from loose lab-grown stones fell for a fifth consecutive month as prices kept dropping under rising unit demand. Golan called the market increasingly divided by price point.",
+   "A wider luxury read points down. JCK's own account cites Reuters on 6 October reporting a Citi analysis of credit-card data that found US luxury purchases fell 6% in September after 4% falls in July and August, with watches and luxury jewellery weakening further. That Citi figure is carried here as JCK attributes it and was not re-verified at Citi or Reuters.",
+   "The desk's view: if you set assortment for Q4, the September split says the revenue is in the upper price bands and the units are leaving the lower ones, so a shelf built for last year's unit mix will under-earn. If you sell natural against lab-grown, note that natural jewellery revenue went negative in the same month lab-grown unit demand rose about 26% and lab-grown loose revenue fell again. What this is not: a channel-wide read. Tenoris measures US specialty jewellers, not chains, department stores or marketplaces, and a 0.6% move is inside the noise of one month."
+  ],
+  "sources": [
+   {
+    "title": "U.S. Jewelry Sales Keep Growing As Demand Shifts to Higher Price Points, JCK (Tenoris data, Edahn Golan)",
+    "url": "https://www.jckonline.com/editorial-article/u-s-jewelry-sales-keep-growing/",
+    "published": "2026-10-07"
+   }
+  ]
+ },
+ {
+  "slug": "silver-sheds-two-twelve-at-press-time",
+  "desk": "gold-metals",
+  "date": "2026-10-08",
+  "kicker": "Metals",
+  "lead": false,
+  "title": "Silver sheds 2.12% to $58.757 as gold and platinum gain",
+  "dek": "A 06:00 board stamp put gold at $4,121.00, platinum at $1,642.00 and palladium at $1,114.00. CNBC's independent quotes sat inside Kitco's own bid-ask band on all four metals.",
+  "byline": "The Gold & Metals Desk",
+  "tags": [
+   "gold",
+   "silver",
+   "platinum",
+   "palladium",
+   "Kitco",
+   "October 2026"
+  ],
+  "body": [
+   "Silver was the day's move. On Kitco's bid at a board stamp of 06:00:58 GMT on 8 October, silver read $58.757 an ounce against the $60.029 carried for 7 October, a fall of $1.272 or 2.1190% on that division. The other three metals moved less than half a per cent each.",
+   "Gold and platinum went the other way. Gold read $4,121.00 against $4,117.40, up $3.60 or 0.0874%. Platinum read $1,642.00 against $1,634.00, up $8.00 or 0.4896%. Palladium read $1,114.00 against $1,119.00, down $5.00 or 0.4468%.",
+   "The board was live and the page says so. Kitco's own originalTime fields read 2026-10-08T06:00:58Z across all four metals within fractions of a second of each other, and CNBC's quote feed returned a market status of REG_MKT on all four at 06:06 Eastern. Neither reading was taken from a stale timestamp.",
+   "A second door agreed on every metal. CNBC's independent last prints were gold 4,122.18, silver 58.9547, platinum 1,648.99 and palladium 1,134.2786, and each of the four sits inside Kitco's own bid-ask band for the same metal. No mark was held and no outside divergence has to be disclosed today.",
+   "One spread is worth naming. Palladium's band ran $1,114.00 bid against $1,154.00 asked, $40.00 wide, against $2.00 on gold and $10.00 on platinum. A quote drawn off the mid rather than the bid would read $1,134.00 on palladium, $20.00 above the figure printed here.",
+   "Session ranges were wider than the closes. Gold traded between $4,102.90 and $4,144.30 on the same board, a $41.40 range against a $3.60 net change, and silver between $58.597 and $60.724. A near-flat gold print sat on top of a session that moved more than ten times that far.",
+   "The desk's view: if you quote silver by the ounce, the figure to use is $58.757 and it is 2.12% under yesterday's, which is the only one of the four marks that will change a price list. If you settle in palladium, quote off the bid and say so, because the $40.00 band is wider than the day's move in any metal. What this is not: a close. This is a press-time intraday snapshot of a session that was open and trading, and gold's own range says the number will have moved by the time the London fix prints."
+  ],
+  "sources": [
+   {
+    "title": "Precious metals live board, Kitco (bid, board stamp 2026-10-08T06:00:58Z)",
+    "url": "https://www.kitco.com/price/precious-metals",
+    "published": "2026-10-08T06:00:58Z"
+   },
+   {
+    "title": "CNBC quote feed, XAU= XAG= XPT= XPD=, curmktstatus REG_MKT",
+    "url": "https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=XAU=|XAG=|XPT=|XPD=",
+    "published": "2026-10-08T10:06:00Z"
+   },
+   {
+    "title": "Carat Capital tape, 8 October 2026 (press-time write-back) and 7 October 2026 (prior marks)",
+    "url": "https://caratcapital.org/the-record.html",
+    "published": "2026-10-08"
+   }
+  ]
+ },
+ {
+  "slug": "twenty-one-against-thirty-nine",
+  "desk": "retail-tech",
+  "date": "2026-10-08",
+  "kicker": "India retail",
+  "lead": false,
+  "title": "Titan's jewellery revenue rises 21%, against 39% a year ago",
+  "dek": "Consolidated sales at India's largest jewellery retailer advanced 25% in the quarter to 30 September. Studded sales grew in the low 30s in percentage terms, and the chain added 78 stores to reach 3,758.",
+  "byline": "The Retail & Technology Desk",
+  "tags": [
+   "Titan",
+   "Tanishq",
+   "CaratLane",
+   "India",
+   "Q2 FY2027"
+  ],
+  "body": [
+   "Titan's jewellery segment grew 21% in the three months to 30 September, the company reported on Tuesday. Consolidated sales across the group and its subsidiaries advanced 25%. The jewellery figure is the one to read against last year: the same segment grew 39% in the same quarter of the prior year.",
+   "The mix inside that 21% is uneven. Studded jewellery including diamonds grew in the low 30s in percentage terms, plain-gold jewellery grew about 20% and watch revenue gained 30% year on year. Studded and watches both outgrew the jewellery segment they sit beside.",
+   "Demand did not hold evenly across the quarter. Titan said trading was healthy for most of the period and eased toward the end of it as the festive calendar moved into the third fiscal quarter. Tanishq's Festival of Diamonds range and brand-level promotions supported the spending that did happen.",
+   "The store estate kept growing through it. The company added 78 doors during the quarter to reach 3,758 outlets at period end, across Tanishq, Mia and CaratLane in jewellery plus eyewear, fragrances and fashion accessories elsewhere in the group.",
+   "The desk's view: if you supply Titan, the studded line grew in the low 30s against about 20% on plain gold, so the diamond demand sits in that gap and the order book should follow it rather than the headline. If you benchmark against India, a 21% jewellery print on a base that itself grew 39% is a decelerating comparison, not a weak quarter, and the festive shift into Q3 means the next print carries the Diwali trade. What this is not: a margin statement. Titan reported revenue and store count here, not profit, and a 25% sales rise at gold near record levels can carry a thinner gross margin."
+  ],
+  "sources": [
+   {
+    "title": "Titan Sees Surge in Diamond Jewelry Sales in Second Quarter, Rapaport",
+    "url": "https://rapaport.com/news/titan-sees-surge-in-diamond-jewelry-sales-in-second-quarter/",
+    "published": "2026-10-07"
+   }
+  ]
+ },
+ {
+  "slug": "fifty-million-for-elizabeth-bay",
+  "desk": "diamonds",
+  "date": "2026-10-08",
+  "kicker": "Mining",
+  "lead": false,
+  "title": "$50 million restarts Elizabeth Bay, Namibia's exports down 67%",
+  "dek": "Kenzoll Capital and MSF Commercials will revive the mine renamed Sperrgebiet, which holds 10.5 million carats onshore and offshore. Namibian diamond exports fell from NAD 5.1 billion in 2022 to NAD 1.7 billion in 2025.",
+  "byline": "The Diamonds Desk",
+  "tags": [
+   "Namibia",
+   "Elizabeth Bay",
+   "Kenzoll Capital",
+   "De Beers",
+   "rough diamonds"
+  ],
+  "body": [
+   "Dutch private-equity investor Kenzoll Capital is partnering with Namibian-registered MSF Commercials to restart the Elizabeth Bay diamond mine, Kenzoll said on Wednesday. The deposit, now called the Sperrgebiet Diamond Mine, holds 10.5 million carats of onshore and offshore diamond resources. It is expected to receive $50 million in investment.",
+   "Part of that money is not for diamonds. Kenzoll said some of the $50 million will go toward exploration for other minerals, and its chief executive framed diamonds as the starting point with critical minerals to follow. The firm says it has already invested more than $10 million in Namibia.",
+   "The country it is investing into has had a bad three years. Namibian diamond exports fell 67% from a peak of NAD 5.1 billion in 2022 to NAD 1.7 billion in 2025, the article reports, which in dollars is $306.9 million falling to $102.3 million. The Bank of Namibia has called the industry slump a major threat to growth.",
+   "That percentage is worth showing as arithmetic. NAD 1.7 billion divided by NAD 5.1 billion is 33.3% of the 2022 peak, which is 66.7% below it and rounds to the 67% the source prints. The dollar legs give the same answer: $102.3 million against $306.9 million is 33.3% of, so 66.7% below.",
+   "De Beers wanted out of this mine six years ago. It began selling Elizabeth Bay in 2019 because it could no longer run the deposit economically, and the sale completed the following year to a consortium with Lewcor Group as majority owner and MSF Commercials as a minority shareholder. MSF is the party still there.",
+   "The desk's view: if you buy Namibian rough, a 10.5-million-carat resource coming back on $50 million is a supply signal with no date on it, and nothing in this announcement says when the first parcel ships. If you read country risk, note that the operator taking it on is the minority shareholder from the 2020 consortium rather than a new entrant, which is continuity rather than fresh capital discovering the asset. What this is not: a production figure. No annual carat output, grade, capital schedule or restart date was given, and the resource number is a resource, not a reserve."
+  ],
+  "sources": [
+   {
+    "title": "Operations at Namibia's Elizabeth Bay Mine to Restart, Rapaport",
+    "url": "https://rapaport.com/news/operations-at-namibias-elizabeth-bay-mine-to-restart/",
+    "published": "2026-10-07"
+   }
+  ]
+ },
+ {
+  "slug": "three-fifty-on-an-eight-seventeen",
+  "desk": "auctions",
+  "date": "2026-10-08",
+  "kicker": "Auctions",
+  "lead": false,
+  "title": "8.17-carat D/IF ring carries $350,000 at Christie's, no reserve",
+  "dek": "Bidding on Jewels Online opened 6 October and closes 15 October, on Christie's own calendar. The round brilliant leads more than 260 lots; the next-highest estimate in the preview tops out at $280,000.",
+  "byline": "The Auctions Desk",
+  "tags": [
+   "Christie's",
+   "Jewels Online",
+   "New York",
+   "diamond ring",
+   "October 2026"
+  ],
+  "body": [
+   "Christie's is offering an 8.17-carat diamond ring in New York where it could fetch as much as $350,000, the house said on Tuesday. The stone is a round brilliant, D in colour and internally flawless in clarity, and it is on offer without reserve. No low estimate was published for it.",
+   "The sale is already live. Christie's own auction calendar lists Jewels Online New York as online auction 24557 running 6 to 15 October 2026 and marks it happening now, so the 15 October date Rapaport reports is the close rather than the opening. Bidding has been open for two days.",
+   "The headline lot sits above a crowded second tier. Christie's will offer more than 260 lots including pieces from Bulgari, Cartier and Harry Winston, and the next-highest estimate in the preview is $180,000 to $280,000 on a Graff ring with a 7.85-carat emerald-cut D, VS1 type IIa diamond described as having the potential to be internally flawless.",
+   "Three more lots cluster at the same level. A Van Cleef & Arpels ring with a 5.22-carat D, VVS2 emerald-cut stone, a riviere necklace of 67 pear brilliants from 0.50 to 2.47 carats, and a ring built on a 6.52-carat D, VVS1 heart brilliant each carry $150,000 to $250,000.",
+   "The no-reserve term is the unusual part. Every other lot in the preview carries a published low estimate; the 8.17-carat carries none and can sell at any price a bidder sets. A no-reserve headline lot is a house choosing certainty of sale over a price floor.",
+   "The desk's view: if you are bidding, the absence of a reserve on the top lot means the only floor is the next bidder, and on a D/IF round of that size the comparable set is small enough that one determined buyer sets the print. If you price comparable rounds, watch what this clears against $350,000 rather than against the Graff's $280,000 ceiling, because those are different cuts and different terms. What this is not: a result. Bidding closes on 15 October and nothing here has sold."
+  ],
+  "sources": [
+   {
+    "title": "8ct. Diamond to Headline Christie's New York Auction, Rapaport",
+    "url": "https://rapaport.com/news/8ct-diamond-to-headline-christies-new-york-auction/",
+    "published": "2026-10-07"
+   },
+   {
+    "title": "Christie's auction calendar, Jewels Online New York, online auction 24557, 6-15 Oct 2026",
+    "url": "https://www.christies.com/en/auction/jewels-online-new-york-32046/",
+    "published": "2026-10-08"
+   }
+  ]
+ },
+ {
+  "slug": "seven-hundred-thousand-on-a-voutilainen",
+  "desk": "watches",
+  "date": "2026-10-08",
+  "kicker": "Watch auctions",
+  "lead": false,
+  "title": "Voutilainen 28Sport reaches $700,000, 2.9 times its estimate",
+  "dek": "Phillips' 88-lot New York Sessions sale opened 1 October and closes 9 October at 10 a.m. Eastern. Two F.P. Journe lots also sit above estimate; a Patek Philippe 5270 stays inside its $80,000 to $160,000 range.",
+  "byline": "The Watches Desk",
+  "tags": [
+   "Phillips",
+   "Voutilainen",
+   "F.P. Journe",
+   "Patek Philippe",
+   "watch auctions"
+  ],
+  "body": [
+   "A Voutilainen 28Sport Limited Edition was bid to $700,000 at Phillips in New York, against a high estimate of $240,000. The division gives 2.92 times the high estimate, which is 192% above it. The watch is one of eight made in stainless steel and is believed to be one of only two with an onyx centre dial.",
+   "The sale is in progress, not finished. Phillips Watches Online: The New York Sessions Fall 2026, held with Bacs & Russo, opened for bidding on 1 October and closes on 9 October at 10 a.m. Eastern with lots closing at one-minute intervals. All figures here are bids at the time of the source's report, not hammer prices.",
+   "Two F.P. Journe lots are also through their estimates. Lot 40, a virtually unworn 2025 lineSport Centigraphe Souverain in hammered platinum, has climbed to 3.5 times its $60,000 low estimate, which puts it near $210,000. Lot 4, a 2022 Octa Lune in pink gold with a salmon dial, has drawn a dozen bids and is close to twice its $120,000 high estimate.",
+   "The heritage lots are behaving differently. A fresh-to-market Patek Philippe reference 5270, the brand's first perpetual calendar chronograph with a fully in-house movement, arriving as a complete set from its original owner, was still inside its $80,000 to $160,000 estimate at the same point. Independents are running away from their estimates and the Patek is not.",
+   "The sale's oddest lot is not a wristwatch. Lot 39 is a Jaeger-LeCoultre Atmos Marqueterie Gustav Klimt, estimated at $70,000 to $140,000, in a cabinet whose marquetry panels re-create The Kiss and open at a hidden button. The clock runs on shifts in room temperature and Phillips says it is the first of the edition to reach auction.",
+   "Phillips calls the sale a record for its own New York desk. The house describes the 88-lot auction as the highest-value online sale ever organised by its New York watch team, a claim about its own history that cannot be checked outside the house. Its spring watch sales totalled $235.5 million.",
+   "The desk's view: if you are bidding into the close on 9 October, note that the three lots running hot are all independents and the Patek is not, so the premium in this room is being paid for scarcity of maker rather than scarcity of reference. If you value a 28Sport, the comparable set is eight watches and this is the onyx-dial one, which is why the $240,000 estimate stopped mattering. What this is not: a result. Bidding runs to 10 a.m. Eastern on 9 October and every figure above can still move."
+  ],
+  "sources": [
+   {
+    "title": "Bidding Heats Up for 5 Standout Timepieces at Phillips New York, JCK",
+    "url": "https://www.jckonline.com/editorial-article/phillips-new-york-timepieces/",
+    "published": "2026-10-06"
+   }
+  ]
+ },
+ {
+  "slug": "four-styles-swap-the-lab-grown",
+  "desk": "gemstones",
+  "date": "2026-10-08",
+  "kicker": "Coloured stones",
+  "lead": false,
+  "title": "Mejuri swaps lab-grown diamonds for sapphires in four styles",
+  "dek": "The Toronto brand put Montana stones into its Salmon Gold line, pricing two rings, a charm and earrings from $498 to $896. It invested $1.5 million in the Regeneration project in 2023.",
+  "byline": "The Gemstones Desk",
+  "tags": [
+   "Mejuri",
+   "Montana sapphire",
+   "Salmon Gold",
+   "traceability",
+   "coloured stones"
+  ],
+  "body": [
+   "Mejuri has replaced lab-grown diamonds with Montana sapphires in the latest pieces of its Salmon Gold collection, the Toronto brand said in September and JCK reported on 7 October. Four new styles carry the stones: two rings, a charm and a pair of earrings. The company calls the change an evolution for the collection.",
+   "The prices are published and they are not entry-level. The range runs from $498 to $896, with the River Drop earrings at $648, an Open Dome Twin River ring at $698 and the River pendant necklace at the top of the range. The $498 figure is given for the River Ring in the article's text and for the River charm in its caption; both appear in the same document.",
+   "The swap has a stated reason. A senior director of product design told JCK the brand went looking for a North American stone after using lab-grown diamonds in last year's Salmon Gold pieces, and that Montana came up quickly because most of the company's business is in the United States. Montana sapphire's shades of blue were the second reason given.",
+   "Salmon Gold is a sourcing programme, not a colour. The name refers to work by Regeneration, a restoration and metals-recovery social enterprise, to bring salmon and other migratory fish back to streams and rivers damaged by gold mining in North America. Mejuri invested $1.5 million in Regeneration in 2023 as a founding partner and is its exclusive jewellery partner with rights to buy gold and silver.",
+   "The metal price is part of the context. Mejuri has told media outlets including The Wall Street Journal that it is examining its supply chain with gold between $4,000 and $5,000, and has introduced new metals including stainless steel into its collections. A stone swap and a metal swap are the same pressure answered twice.",
+   "The desk's view: if you sell coloured stones, a direct-to-consumer brand taking lab-grown diamonds out and a domestic sapphire in is the first substitution Carat Capital has seen run that direction, and the price points say it is being sold on origin rather than on carat. If you buy Montana rough, note that the demand here is for small calibrated goods in tension settings, not for single large stones. What this is not: a volume figure. Mejuri published neither unit numbers nor how much Montana material it has contracted, and four styles is a test rather than a line."
+  ],
+  "sources": [
+   {
+    "title": "Montana Sapphires Latest Addition to Mejuri's Sustainability Storytelling, JCK",
+    "url": "https://www.jckonline.com/editorial-article/mejuri-montana-sapphires/",
+    "published": "2026-10-07"
+   }
+  ]
+ },
+ {
+  "slug": "two-seventy-five-one-and-the-bnpl",
+  "desk": "retail-tech",
+  "date": "2026-10-08",
+  "kicker": "E-commerce",
+  "lead": false,
+  "title": "$275.1 billion holiday forecast carries $21.3 billion in BNPL",
+  "dek": "Adobe Analytics projects a 7% rise in US online spending between 1 November and 31 December. Cyber Monday alone is forecast at $15.1 billion, the first single day above that line.",
+  "byline": "The Retail & Technology Desk",
+  "tags": [
+   "Adobe Analytics",
+   "BNPL",
+   "holiday",
+   "e-commerce",
+   "Q4 2026"
+  ],
+  "body": [
+   "Adobe Analytics projects US online spending of $275.1 billion between 1 November and 31 December, up 7% year on year, in its annual holiday forecast. Buy Now Pay Later is forecast to grow 7% to $21.3 billion over the same period, with a spike on Cyber Monday. The two growth rates are identical.",
+   "That identical rate is the finding. BNPL is forecast to take 7.7% of the holiday total on these numbers, the same share it would have taken at last year's figures, so Adobe is projecting deferred payment to hold its position rather than gain. For a category sold at high tickets, a flat share is the signal.",
+   "Cyber Monday crosses a line. Adobe puts the day at $15.1 billion, up 6%, the first time US e-commerce spending will exceed $15 billion in a single day. Black Friday is forecast to grow faster, up 9% to $12.9 billion, on earlier discounting, and Thanksgiving to yield $6.9 billion, up 8.5%.",
+   "Cyber Week carries a sixth of the season. Thanksgiving through Cyber Monday is projected to rise 7% to $47.5 billion, which Adobe puts at 17% of the total holiday outlay. Four days doing a sixth of a two-month season concentrates the discounting risk tightly.",
+   "October is already moving. Adobe forecast the 6 and 7 October Prime Day event would lift revenue 9% to $9.9 billion, and expects $95.8 billion of US online spending across October, up 8%. Electronics are set to grow 6% and apparel 4.7%; furniture 7%; grocery, toys and cosmetics about 10% each.",
+   "Jewellery is not broken out. Adobe's category list in this forecast names electronics, apparel, furniture, grocery, toys and cosmetics, and gives no jewellery line, so the relevance here is the BNPL and Cyber Week arithmetic rather than a category read.",
+   "The desk's view: if you run a jewellery e-commerce site, the plannable number is the $47.5 billion in four days at 17% of the season, which says promotional calendar rather than steady November. If you work with a BNPL partner, note the forecast has deferred payment growing at exactly the market rate, so any share gain you see in Q4 is yours and not the category's. What this is not: jewellery data. Adobe publishes no jewellery line in this forecast, and a forecast is a projection, not a reading."
+  ],
+  "sources": [
+   {
+    "title": "Adobe Expects Online Holiday Shopping to Reach Record High, Rapaport",
+    "url": "https://rapaport.com/news/adobe-expects-online-holiday-shopping-to-reach-record-high/",
+    "published": "2026-10-06"
+   }
   ]
  }
 ]
