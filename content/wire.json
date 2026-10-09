@@ -1,46 +1,46 @@
 {
- "date_line": "Thursday, October 8, 2026 | Vol. I - No. 084",
- "edition": "Vol. I - No. 084",
+ "date_line": "Friday, October 9, 2026 | Vol. I - No. 085",
+ "edition": "Vol. I - No. 085",
  "items": [
   {
-   "slug": "five-point-seven-on-fewer-units",
-   "desk": "Retail & Technology",
-   "title": "US specialty jewelers add 5.7% in September on fewer units"
-  },
-  {
-   "slug": "silver-sheds-two-twelve-at-press-time",
-   "desk": "Gold & Metals",
-   "title": "Silver sheds 2.12% to $58.757 as gold and platinum gain"
-  },
-  {
-   "slug": "twenty-one-against-thirty-nine",
-   "desk": "Retail & Technology",
-   "title": "Titan's jewellery revenue rises 21%, against 39% a year ago"
-  },
-  {
-   "slug": "fifty-million-for-elizabeth-bay",
-   "desk": "Diamonds",
-   "title": "$50 million restarts Elizabeth Bay, Namibia's exports down 67%"
-  },
-  {
-   "slug": "three-fifty-on-an-eight-seventeen",
-   "desk": "Auctions",
-   "title": "8.17-carat D/IF ring carries $350,000 at Christie's, no reserve"
-  },
-  {
-   "slug": "seven-hundred-thousand-on-a-voutilainen",
+   "slug": "sixty-six-five-for-ninety-five-of-ebel",
    "desk": "Watches",
-   "title": "Voutilainen 28Sport reaches $700,000, 2.9 times its estimate"
+   "title": "Movado sells 95% of EBEL for $66.5 million, keeps 5%"
   },
   {
-   "slug": "four-styles-swap-the-lab-grown",
-   "desk": "Gemstones",
-   "title": "Mejuri swaps lab-grown diamonds for sapphires in four styles"
+   "slug": "twenty-four-carats-at-eighteen-million",
+   "desk": "Auctions",
+   "title": "24-carat pink diamond carries a CHF 15 million high estimate"
   },
   {
-   "slug": "two-seventy-five-one-and-the-bnpl",
+   "slug": "twenty-three-showrooms-become-stores",
    "desk": "Retail & Technology",
-   "title": "$275.1 billion holiday forecast carries $21.3 billion in BNPL"
+   "title": "23 Blue Nile showrooms convert to stores with inventory"
+  },
+  {
+   "slug": "one-ninety-companies-and-nine-hundred-stores",
+   "desk": "Retail & Technology",
+   "title": "Over 190 companies and 900 stores join India's gold audit"
+  },
+  {
+   "slug": "one-eight-million-on-a-sapphire",
+   "desk": "Coloured Stones",
+   "title": "HKD 1.8 million tops Poly Auction's Hong Kong jewellery sale"
+  },
+  {
+   "slug": "five-watches-and-no-reserve",
+   "desk": "Watches",
+   "title": "Five seized watches worth GBP 1 million go to no-reserve sale"
+  },
+  {
+   "slug": "forty-euros-once-per-shipment",
+   "desk": "Diamonds",
+   "title": "AWDC charges its EUR 40 Diamond Office fee once per shipment"
+  },
+  {
+   "slug": "gold-opens-at-four-one-eighty-eight",
+   "desk": "Gold & Metals",
+   "title": "Gold opens at $4,188.10 and silver gains 2.56% on Kitco"
   }
  ],
  "tape_ts": "Kitco bid, board stamp 2026-10-08T06:00:58Z, press-time read 8 Oct 06:06 EDT",
@@ -141,5 +141,5 @@
    ]
   }
  ],
- "editionDate": "2026-10-08"
+ "editionDate": "2026-10-09"
 }

@@ -10076,7 +10076,7 @@
     "url": "https://tradingeconomics.com/commodity/platinum"
    },
    {
-    "title": "Carat Capital tape, 23 August 2026",
+    "title": "Carat Capital, The Paper (corrections ledger and archive by desk) — this paper's own marks of record for 23 August 2026 are held in newsroom/tape/, not on this page",
     "url": "https://caratcapital.org/the-record.html"
    }
   ],
@@ -10739,7 +10739,7 @@
     "url": "https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=XPT="
    },
    {
-    "title": "Carat Capital wire tape, 27 August 2026",
+    "title": "Carat Capital, The Paper (corrections ledger and archive by desk) — this paper's own marks of record for 27 August 2026 are held in newsroom/tape/, not on this page",
     "url": "https://caratcapital.org/the-record.html"
    }
   ],
@@ -11070,7 +11070,7 @@
     "url": "https://tradingeconomics.com/commodity/gold"
    },
    {
-    "title": "Carat Capital daily tape, 5-29 August 2026 (23 sessions, this paper's own marks of record)",
+    "title": "Carat Capital, The Paper (corrections ledger and archive by desk) — this paper's own marks of record for 5-29 August 2026 are held in newsroom/tape/, not on this page",
     "url": "https://caratcapital.org/the-record.html"
    }
   ],
@@ -13122,7 +13122,7 @@
     "url": "https://www.kitco.com/price/precious-metals"
    },
    {
-    "title": "Carat Capital tape, 7 and 12 September 2026",
+    "title": "Carat Capital, The Paper (corrections ledger and archive by desk) — this paper's own marks of record for 7 and 12 September 2026 are held in newsroom/tape/, not on this page",
     "url": "https://caratcapital.org/the-record.html"
    }
   ],
@@ -13315,7 +13315,7 @@
     "url": "https://www.livepriceofgold.com/"
    },
    {
-    "title": "Carat Capital tape, 12 and 15 September 2026",
+    "title": "Carat Capital, The Paper (corrections ledger and archive by desk) — this paper's own marks of record for 12 and 15 September 2026 are held in newsroom/tape/, not on this page",
     "url": "https://caratcapital.org/the-record.html"
    }
   ],
@@ -14122,7 +14122,7 @@
     "published": "2026-09-18"
    },
    {
-    "title": "Carat Capital tape, 19 September 2026, covering the 18 September session",
+    "title": "Carat Capital, The Paper (corrections ledger and archive by desk) — this paper's own marks of record for 19 September 2026, covering the 18 September session are held in newsroom/tape/, not on this page",
     "url": "https://caratcapital.org/the-record.html",
     "published": "2026-09-19"
    }
@@ -16746,7 +16746,7 @@
     "published": "2026-10-02T17:00:00Z"
    },
    {
-    "title": "Carat Capital tape, 3 October 2026, covering the 2 October session",
+    "title": "Carat Capital, The Paper (corrections ledger and archive by desk) — this paper's own marks of record for 3 October 2026, covering the 2 October session are held in newsroom/tape/, not on this page",
     "url": "https://caratcapital.org/the-record.html",
     "published": "2026-10-03"
    },
@@ -16891,7 +16891,7 @@
     "published": "2026-10-02"
    },
    {
-    "title": "Carat Capital tape, newsroom/tape/2026-09-27.json and 2026-10-04.json — settled marks for the sessions of 25 September and 2 October 2026",
+    "title": "Carat Capital, The Paper (corrections ledger and archive by desk) — this paper's own marks of record for newsroom/tape/2026-09-27.json and 2026-10-04.json — settled marks for the sessions of 25 September and 2 October 2026 are held in newsroom/tape/, not on this page",
     "url": "https://caratcapital.org/the-record.html",
     "published": "2026-10-04"
    }
@@ -17472,7 +17472,7 @@
   "desk": "retail-tech",
   "date": "2026-10-08",
   "kicker": "US retail",
-  "lead": true,
+  "lead": false,
   "title": "US specialty jewelers add 5.7% in September on fewer units",
   "dek": "Tenoris recorded close to two years of uninterrupted monthly growth, with year-to-date revenue up 8.5%. Average spend per item rose 11%; sales of lower-priced jewellery fell 11% and natural diamond jewellery slipped 0.6%.",
   "byline": "The Retail & Technology Desk",
@@ -17537,9 +17537,9 @@
     "published": "2026-10-08T10:06:00Z"
    },
    {
-    "title": "Carat Capital tape, 8 October 2026 (press-time write-back) and 7 October 2026 (prior marks)",
-    "url": "https://caratcapital.org/the-record.html",
-    "published": "2026-10-08"
+    "title": "Carat Capital, Platinum sheds $63.00 to $1,634.00, all four metals lower, 7 October 2026 (the prior marks this article runs its changes off)",
+    "url": "https://caratcapital.org/a-platinum-sheds-sixty-three-at-press-time.html",
+    "published": "2026-10-07"
    }
   ]
  },
@@ -17738,6 +17738,303 @@
     "title": "Adobe Expects Online Holiday Shopping to Reach Record High, Rapaport",
     "url": "https://rapaport.com/news/adobe-expects-online-holiday-shopping-to-reach-record-high/",
     "published": "2026-10-06"
+   }
+  ]
+ },
+ {
+  "slug": "sixty-six-five-for-ninety-five-of-ebel",
+  "desk": "watches",
+  "date": "2026-10-09",
+  "kicker": "Brand ownership",
+  "lead": true,
+  "title": "Movado sells 95% of EBEL for $66.5 million, keeps 5%",
+  "dek": "The buyer group is led by F.P. Journe's parent, with Chanel and Pierre Jacques, who becomes chief executive. Movado's owned-brand sales grew 3.7% in the half year; its licensed brands grew 7.8%.",
+  "byline": "The Watches Desk",
+  "tags": [
+   "Movado Group",
+   "EBEL",
+   "F.P. Journe",
+   "Chanel",
+   "Pierre Jacques",
+   "divestiture"
+  ],
+  "body": [
+   "Movado Group agreed, effective 5 October 2026, to sell a 95% interest in the EBEL brand to a strategic buyer group led by Montres Journe SA, the Geneva maker that trades as F.P. Journe, with the participation of Chanel and of Pierre Jacques. Consideration is expected to total approximately $66.5 million, subject to customary closing adjustments. Movado Group retains a 5% interest. The agreement was filed on Form 8-K on 8 October 2026 under Item 8.01 and announced the same day.",
+   "The structure is a carve-out rather than a share sale of an existing company. Trademarks, other intellectual property, inventory and certain other assets primarily dedicated to the EBEL business transfer first to a newly formed Swiss subsidiary of Movado Group. Among those assets is the Villa Turque, a modernist house in La Chaux-de-Fonds designed by Le Corbusier. Certain Movado personnel dedicated to EBEL become employees of the new subsidiary. At closing, 95% of that subsidiary's equity passes to the buyer group, and Movado provides services under a transition services agreement.",
+   "Pierre Jacques will serve as chief executive of EBEL following the transaction. This paper recorded Jacques leaving the chief executive seat at De Bethune in July 2026, replaced by Antoine Pin. EBEL was founded in La Chaux-de-Fonds in 1911 and sits in Movado's owned brands category alongside Movado, Concord, Olivia Burton and MVMT.",
+   "Francois-Paul Journe, the maker's founder, said in the release that \"EBEL has always stood for exceptional product\", seven words that are the only quotation in this edition.",
+   "The category EBEL sat in is the slower of Movado's two. In the six months to 31 July 2026 the owned brands category produced $78.009 million of net sales, up 3.7% on $75.252 million a year earlier. The licensed brands category produced $186.190 million, up 7.8% on $172.662 million. Consolidated net sales were $312.154 million, up 6.3%. The licensed line, which carries Coach, Tommy Hilfiger, Hugo Boss, Lacoste and Calvin Klein, is more than twice the size of the owned line and growing faster.",
+   "EBEL's own sales have never been broken out. Movado reports the owned brands category as one line, so the $66.5 million cannot be set against a brand revenue figure. As a size comparison only, $66.5 million is 85.2% of the entire owned brands half-year line ($66,500,000 divided by $78,009,000). That is a scale check, not a multiple, and it should not be read as a valuation ratio.",
+   "Closing is expected in the fourth quarter of Movado's fiscal 2026, which ends 31 January 2027, subject to conditions including completion of a pre-closing reorganisation. The press release says closing is expected in the next few months. Movado's own risk factors name the possibility that final consideration differs from the announced amount as a result of purchase price adjustments, and the possibility that the sale does not complete at all.",
+   "The desk's view: for a Movado shareholder, this is the portfolio line being cut where it was growing slowest, and the proceeds are roughly a fifth of a half-year of consolidated sales. For anyone wholesaling EBEL, the counterparty changes to a new Swiss company with F.P. Journe and Chanel capital behind it, run by an industry veteran who has just left another independent. For a collector, the Le Corbusier villa going with the trademarks is the signal that this is the whole brand and not a licence. What this is not is a valuation of EBEL. No brand revenue, margin or multiple has been published, and nothing has yet closed."
+  ],
+  "sources": [
+   {
+    "title": "Movado Group, Form 8-K, Item 8.01, agreement to sell 95% of EBEL",
+    "url": "https://www.sec.gov/Archives/edgar/data/72573/000095014226002717/eh260839729_8k.htm",
+    "published": "2026-10-08"
+   },
+   {
+    "title": "Movado Group, Exhibit 99.1 press release, agreement to sell majority interest in EBEL",
+    "url": "https://www.sec.gov/Archives/edgar/data/72573/000095014226002717/eh260839729_ex9901.htm",
+    "published": "2026-10-08"
+   },
+   {
+    "title": "Movado Group, Form 10-Q for the quarter ended 31 July 2026, segment and category net sales",
+    "url": "https://www.sec.gov/Archives/edgar/data/72573/000119312526366101/mov-20260731.htm",
+    "published": "2026-08-26"
+   }
+  ]
+ },
+ {
+  "slug": "twenty-four-carats-at-eighteen-million",
+  "desk": "auctions",
+  "date": "2026-10-09",
+  "kicker": "Sale preview",
+  "lead": false,
+  "title": "24-carat pink diamond carries a CHF 15 million high estimate",
+  "dek": "Christie's puts the emerald-cut, fancy-intense-pink, type IIa stone in its Geneva Magnificent Jewels sale on 10 November. Bulgari set it in a ring in the 1950s for a noble family that has held it since.",
+  "byline": "The Auctions Desk",
+  "tags": [
+   "Christie's",
+   "Bulgari",
+   "pink diamond",
+   "Geneva",
+   "Magnificent Jewels"
+  ],
+  "body": [
+   "Christie's has estimated a 24-carat pink diamond ring at CHF 10 million to CHF 15 million, which the auction house gives as $12 million to $18 million. The stone is emerald-cut, graded fancy intense pink and is type IIa. It will be offered in the Magnificent Jewels auction on 10 November 2026, part of the house's Autumn Luxury Week in Geneva. Christie's announced the estimate on Friday 9 October.",
+   "Bulgari set the diamond in a ring in the 1950s. Christie's attributes the stone's history to family lore from the noble household that has owned it since acquisition: the current owner's great-grandfather brought it back from India in the 1950s and later handed it to the Roman jeweller, which the house describes as then emerging as a destination for collectors. That provenance is the owner's account as relayed by the auction house, not an independently documented chain.",
+   "The ring goes on public display at the Four Seasons Hotel des Bergues in Geneva from 5 to 10 November, immediately before the sale.",
+   "Carat Capital's own division puts the high estimate at CHF 625,000 a carat (CHF 15,000,000 divided by 24) and the low estimate at CHF 416,667 a carat. The per-carat figures are this paper's arithmetic, not Christie's, and they assume the catalogued 24-carat weight is exact rather than rounded. Christie's has published neither a per-carat estimate nor the precise weight to two decimal places.",
+   "A second pink diamond is due in Geneva on the same day in a different sale. This paper reported on 15 September that Christie's estimated a 14.63-carat David Morris orangey-pink ring at up to CHF 2.1 million in Exceptional Jewels and Objects of Elegance: A Connoisseur's Collection, a 123-lot single-owner auction also dated 10 November. The two stones are different weights, colours, clarities and consignments, and they sit in two separate catalogues.",
+   "The desk's view: if you bid colour, the number to watch is not the hammer but the spread, because a CHF 10 million to CHF 15 million band on a single stone is a 50% range and the house is telling you it does not know where this clears. If you value pink inventory, a type IIa fancy intense pink of this size trading in public sets a visible comparable for everything below it. If you consign, the Bulgari attribution and the fifty-year single-family provenance are the parts of this lot that cannot be replicated. What this is not is a result. The estimate is a pre-sale opinion, the lot can be withdrawn, and no reserve has been published."
+  ],
+  "sources": [
+   {
+    "title": "Christie's Slaps $18M Price Tag on Bulgari Pink Diamond, Rapaport News",
+    "url": "https://rapaport.com/news/christies-slaps-18m-price-tag-on-bulgari-pink-diamond/",
+    "published": "2026-10-09"
+   }
+  ]
+ },
+ {
+  "slug": "twenty-three-showrooms-become-stores",
+  "desk": "retail-tech",
+  "date": "2026-10-09",
+  "kicker": "Retail strategy",
+  "lead": false,
+  "title": "23 Blue Nile showrooms convert to stores with inventory",
+  "dek": "Signet's chief financial officer says the conversion runs over the next year or so. The digital-first division is being rebuilt around natural diamonds, and a bought-in concierge desk now staffs the bespoke requests its sales floor could not answer.",
+  "byline": "The Retail Desk",
+  "tags": [
+   "Signet Jewelers",
+   "Blue Nile",
+   "The Clear Cut",
+   "Royal Asscher",
+   "natural diamonds"
+  ],
+  "body": [
+   "Blue Nile's 23 showrooms will be converted into stores holding sellable inventory and point-of-sale capability over the next year or so, Signet chief operating and financial officer Joan Hilson said in an interview published 7 October 2026. The division currently uses the showrooms for education and appointment viewing rather than for purchase. Hilson said Signet would expect the count to rise over time and sees potential international expansion, without naming a target number or a market.",
+   "Hilson named three pillars: a shift to natural-diamond-led assortment, a white-glove service acquired with The Clear Cut, and the store experience. On the first, she said that at engagement price points above $5,000, 90% of transactions are natural. She did not say whether that figure is Blue Nile's or Signet's group-wide, and this paper has not matched it to a filing; it is printed as the executive's own statement and is attributed rather than asserted.",
+   "The Clear Cut is an acquisition, and it is new to this paper's record. Blue Nile bought the business to gain a concierge desk staffed by gemologists; Hilson put the team it carried at five to eight gemologists, and named its founder Olivia Landau and Kyle Simon as the people who will train Blue Nile consultants. Full technology integration is expected next year. Blue Nile president Pam Cloud said showroom heads and the customer-service diamond team were trained on the handoff at a session in New York.",
+   "The structural case Hilson gives for putting inventory in stores is group-level. She said 80% of Signet's overall business is done in-store and that Signet is a 50% bridal business, which is why the physical moment matters. On the natural-diamond market she said it is stable, with higher price points and higher carat weights trending up.",
+   "Two figures stayed undisclosed. Hilson declined to give the share of Blue Nile sales or inventory that is lab-grown, saying it has not been shared, and offered no data on whether customers prefer to view natural stones in person rather than lab-grown ones. Cloud named two new natural-diamond collections on the site, Modern Pave and Ellipse.",
+   "This advances rather than repeats this paper's 7 October report, which covered the Royal Asscher North American licence from a 5 October WWD account and said explicitly that nothing about that deal was priced and that it was not an acquisition. The Clear Cut purchase, the 23-showroom conversion, the gemologist headcount and the above-$5,000 figure are all new, and they come from named executives on the record rather than from a release.",
+   "The desk's view: if you compete with Blue Nile online, the thing that changed is not the licence but the inventory, because a showroom that can close a sale is a different competitor from one that can only show. If you supply Signet, the natural-led language has now been said twice in three days by two different executives, which is as close to a buying signal as a listed retailer gives. If you price concierge service, five to eight gemologists is the staffing benchmark a buyer paid for. What this is not is a sized deal. No price was given for The Clear Cut, no store-conversion capital figure was given, and the lab-grown share was explicitly withheld."
+  ],
+  "sources": [
+   {
+    "title": "Signet on Blue Nile, Royal Asscher and The Clear Cut, Rapaport News",
+    "url": "https://rapaport.com/news/signet-on-blue-nile-royal-asscher-and-the-clear-cut/",
+    "published": "2026-10-07"
+   }
+  ]
+ },
+ {
+  "slug": "one-ninety-companies-and-nine-hundred-stores",
+  "desk": "retail-tech",
+  "date": "2026-10-09",
+  "kicker": "Trade standards",
+  "lead": false,
+  "title": "Over 190 companies and 900 stores join India's gold audit",
+  "dek": "IAGES chief executive Kaushlendra Sinha says about 150 audit firms have been trained to run the third-party checks. Thirty to forty Gujarat stores have joined, along with manufacturers in Surat, Rajkot and Ahmedabad.",
+  "byline": "The Retail Desk",
+  "tags": [
+   "IAGES",
+   "India",
+   "gold",
+   "accreditation",
+   "hallmarking",
+   "Gujarat"
+  ],
+  "body": [
+   "More than 190 companies and more than 900 stores across India have joined the Indian Association for Gold Excellence and Standards, its chief executive Kaushlendra Sinha said in a Gujarati-language interview published 8 October 2026 at 22:15 India time. IAGES is a self-regulatory body and began granting accreditation in September 2025. In Gujarat roughly 30 to 40 stores have joined, with manufacturers in Surat, Rajkot and Ahmedabad also entering the process.",
+   "The mechanism is a third-party audit rather than a self-declaration. A gold business seeking accreditation must comply with the association's code of conduct, and compliance is verified through a neutral third-party audit. Sinha said about 150 chartered accountancy, company secretary and cost accountancy firms in India have been trained on the code of conduct, document verification and the reporting process. Accreditation is granted only after an audit shows the criteria are met.",
+   "The audit reaches into the display case. Sinha described an assessment step in which jewellery is selected at random from the retailer's own shop and its HUID is checked against the listing on the Bureau of Indian Standards' BIS Care app, which returns design and purity details. He said consumers should check hallmark and HUID through that app when buying. IAGES has also started a consumer campaign under the line Before buying gold, First check IAGES.",
+   "Sinha put Gujarat among India's top markets by gold consumption per head, alongside the southern states and Maharashtra, and attributed the demand to the state's income levels. He said manufacturing, diamond processing and export work in Rajkot and Surat is what connects Gujarat to the global supply chain. On buying patterns he said younger consumers are moving toward modern designs, daily-wear gold and lower caratage, while 24-carat jewellery is increasingly treated as an investment as well as something to wear.",
+   "Asked how much further gold could rise, Sinha declined to forecast. He named geopolitical conditions, the United States bond market, crude oil, the dollar and rising US debt as factors, against limited supply and increased central-bank buying. He said gold has returned roughly 15% compound annual growth over the last 25 years, and that Indian buying has eased somewhat for several reasons without the cultural attachment weakening.",
+   "The 15% figure is the executive's own and is the one number in the interview this paper could not trace to a published series. It is printed as attributed to him and should not be read as a verified return. Every other figure above appears verbatim in the article's own body text in Gujarati, and the raw bytes were grepped for each.",
+   "The desk's view: if you retail gold in Gujarat, 30 to 40 accredited stores in a state this size means the scheme is early enough that accreditation is still a differentiator rather than a baseline. If you audit, 150 trained firms is the supply side of this market and it is being built before the demand side. If you buy, the HUID-against-BIS-Care check Sinha describes is something a consumer can do in a shop without anyone's permission. What this is not is a regulator. IAGES is self-regulatory, its code of conduct is its own, and accreditation carries no statutory force."
+  ],
+  "sources": [
+   {
+    "title": "Gujarat gold trade joins the global supply chain: 30 to 40 stores accredited, Divya Bhaskar (Gujarati)",
+    "url": "https://www.divyabhaskar.co.in/local/gujarat/gandhinagar/news/gujarat-gold-manufacturing-hub-rajkot-surat-iages-accreditation-139292313.html",
+    "published": "2026-10-08"
+   }
+  ]
+ },
+ {
+  "slug": "one-eight-million-on-a-sapphire",
+  "desk": "gemstones",
+  "date": "2026-10-09",
+  "kicker": "Coloured stones",
+  "lead": false,
+  "title": "HKD 1.8 million tops Poly Auction's Hong Kong jewellery sale",
+  "dek": "A Van Cleef and Arpels sapphire and diamond necklace led the 6 October High Jewelry and Important Watches sale. Burmese ruby and cabochon sapphire earrings cleared their high estimate by more than twice.",
+  "byline": "The Gemstones Desk",
+  "tags": [
+   "Poly Auction",
+   "Van Cleef & Arpels",
+   "sapphire",
+   "Burmese ruby",
+   "jadeite",
+   "Hong Kong"
+  ],
+  "body": [
+   "A Van Cleef and Arpels necklace of oval-cut sapphires and circular-cut diamonds sold for HKD 1.8 million, which Rapaport gives as $235,488, at Poly Auction's High Jewelry and Important Watches sale in Hong Kong on 6 October 2026. It took the highest price in the sale and narrowly beat its high estimate, according to the auction house's own website as reported. The high estimate itself was not published in the report, so the margin cannot be quantified here.",
+   "Coloured stones carried the top of the book. The five highest jewels named are a sapphire and diamond necklace, a Burmese jadeite triple-hoop necklace, a Van Cleef and Arpels ruby and diamond necklace and earring set, a pair of Burmese ruby and cabochon sapphire earrings, and a pair of Gubelin Burmese sapphire earrings. Sapphires, rubies, jadeite and Paraiba tourmaline all found buyers.",
+   "The widest clearance was on the ruby and sapphire earrings. They sold for HKD 756,000 ($96,337) against an estimate of HKD 250,000 to HKD 350,000 ($31,857 to $44,599). Carat Capital's division gives 2.16 times the high estimate, which is 116% above it (756,000 divided by 350,000). The pair carries 31.80 carats of oval-cut Burmese rubies and 31.33 carats of Burmese cabochon sapphires with rectangular and circular-cut diamonds.",
+   "Not every lot cleared its range. The Van Cleef and Arpels ruby necklace and earring set sold for HKD 840,000 ($107,040) against an estimate of HKD 860,000 to HKD 1.2 million, which is below the low estimate. The jadeite triple-hoop necklace made HKD 900,000 ($114,686) inside an HKD 800,000 to HKD 1.2 million range, and the Gubelin sapphire earrings made HKD 456,000 ($58,106) inside an HKD 300,000 to HKD 500,000 range.",
+   "This paper previewed a different Poly lot on 29 September: a 39-bead Burmese jadeite and diamond necklace carrying an HKD 25 million high estimate. That piece does not appear in the top five of the 6 October sale, whose highest price was HKD 1.8 million. Either it was not in this sale or it did not sell, and the report does not say which. The absence is stated rather than explained.",
+   "The desk's view: if you buy Burmese goods, the earrings are the data point, because a pair estimated at HKD 350,000 taking HKD 756,000 says the estimate and not the demand was wrong. If you hold signed coloured-stone jewellery, note that the Van Cleef ruby set went below its own low estimate in the same room on the same day, so the house name is not carrying everything. If you consign jadeite, one triple-hoop necklace clearing inside its range is a thin read. What this is not a sale total. Poly Auction has not published an aggregate, a lot count or a sell-through rate for the sale, and five named lots are not a market."
+  ],
+  "sources": [
+   {
+    "title": "Van Cleef Sapphire Necklace Takes Top Spot at Poly Auction, Rapaport News",
+    "url": "https://rapaport.com/news/van-cleef-sapphire-necklace-takes-top-spot-at-poly-auction/",
+    "published": "2026-10-08"
+   }
+  ]
+ },
+ {
+  "slug": "five-watches-and-no-reserve",
+  "desk": "watches",
+  "date": "2026-10-09",
+  "kicker": "Government sale",
+  "lead": false,
+  "title": "Five seized watches worth GBP 1 million go to no-reserve sale",
+  "dek": "Wilsons Auctions will sell timepieces forfeited from an HMRC payroll-fraud investigation online from 29 to 30 October. A Philippe Dufour Simplicity leads; every lot sells whatever the hammer price.",
+  "byline": "The Watches Desk",
+  "tags": [
+   "Wilsons Auctions",
+   "HMRC",
+   "Philippe Dufour",
+   "Patek Philippe",
+   "Audemars Piguet",
+   "proceeds of crime"
+  ],
+  "body": [
+   "Wilsons Auctions will offer luxury watches forfeited from a fraud investigation in an online sale running 24 hours from 29 October 2026 at 11 a.m. to 30 October at 11 a.m. GMT. The auction house said on Thursday 8 October that His Majesty's Revenue and Customs investigated suspected payroll fraud in the United Kingdom and found that more than GBP 7 million, which Rapaport gives as $9.2 million, had been spent on luxury watches over a three-year period.",
+   "The lots reaching the sale are a subset of that spending. HMRC's findings included five timepieces worth around GBP 1 million ($1.3 million) seized from an individual as they attempted to leave the United Kingdom. Those assets were later forfeited and will now appear at the sale. The GBP 7 million is the sum the investigation found was spent on watches over three years, not the value of the lots on offer, and the two figures should not be conflated.",
+   "Every lot is offered without reserve. Wilsons is selling on behalf of United Kingdom government bodies and law enforcement agencies as proceeds of crime, and says it will sell every watch regardless of the final hammer price. The house frames that as an opportunity to acquire pieces that are difficult to find on the open market.",
+   "A Philippe Dufour Simplicity leads the auction. Launched in 2000, the example offered has an 18-karat rose gold case, a white dial and leather straps. The other named lots are a Patek Philippe Perpetual Calendar Split Seconds Chronograph, two Audemars Piguet Royal Oaks, one a self-winding Flying Tourbillon in stainless steel with a black and blue dial and the other with a blue dial and integrated bracelet, and an Omega Speedmaster Racing in stainless steel with a black dial.",
+   "No estimates have been published for any lot, and the auction house has not given a total lot count. A no-reserve format removes the floor rather than the ceiling, so the only published figure that bounds the sale is the GBP 1 million attached to the five seized watches as a group.",
+   "This is a separate HMRC matter from the one this paper reported on 5 October, which was a winding-up petition against Petra Diamonds UK Treasury over GBP 5.65 million. Same agency, different proceeding, different industry, no overlap of parties or figures.",
+   "The desk's view: if you collect independents, a Dufour Simplicity with no reserve is the rarest combination in this market, because the one watch that never needs a floor is being sold without one. If you broker watches, an unreserved government sale is a public price discovery event on references that normally trade privately, and it will be quoted at you afterwards. If you insure, note the forfeiture chain is complete, so title is not the risk here. What this is not a valuation. GBP 1 million is a seizure figure attached to five watches as a group, not a published estimate on any lot, and a no-reserve sale can clear anywhere."
+  ],
+  "sources": [
+   {
+    "title": "Sale to Offer Watches Seized in Multimillion-Pound Fraud, Rapaport News",
+    "url": "https://rapaport.com/news/sale-to-offer-watches-seized-in-multimillion-pound-fraud/",
+    "published": "2026-10-08"
+   }
+  ]
+ },
+ {
+  "slug": "forty-euros-once-per-shipment",
+  "desk": "diamonds",
+  "date": "2026-10-09",
+  "kicker": "Trade costs",
+  "lead": false,
+  "title": "AWDC charges its EUR 40 Diamond Office fee once per shipment",
+  "dek": "The minimum fee stops applying per declaration line for polished shipments worth under EUR 100,000. It takes effect with the September invoicing cycle, on invoices issued 2 October.",
+  "byline": "The Diamonds Desk",
+  "tags": [
+   "AWDC",
+   "Antwerp",
+   "Diamond Office",
+   "polished diamonds",
+   "trade costs"
+  ],
+  "body": [
+   "The Antwerp World Diamond Centre will charge its EUR 40 Diamond Office minimum fee only once per shipment containing polished diamonds, instead of once per declaration line, where multiple minimum-fee lines would otherwise apply. The change applies only when the total value of the entire shipment, all lines combined, is less than EUR 100,000. AWDC published the notice dated Wednesday 30 September 2026 and applies it from the September invoicing cycle, on invoices issued 2 October 2026.",
+   "The saving is arithmetic and it scales with line count, not with value. A qualifying shipment declared on one line pays EUR 40 and is unchanged. The same shipment split across five lines previously attracted five minimum fees, EUR 200, and now attracts EUR 40, a reduction of EUR 160. AWDC has not published the distribution of line counts per shipment, so the average saving per shipment cannot be computed from anything on the record.",
+   "The stated purpose is to stop fees accumulating on small parcels. AWDC says the adjustment aims to reduce costs for companies that regularly import or export polished shipments with a total value below EUR 100,000, and that it prevents Diamond Office fees from unnecessarily accumulating when a shipment consists of multiple lines.",
+   "The threshold is a cliff rather than a slope. A shipment at EUR 99,999 across five lines pays one EUR 40 fee; the same five lines at EUR 100,001 pay five, or EUR 200. AWDC's notice gives no tapering mechanism and no indexation of the EUR 100,000 figure.",
+   "This paper has covered AWDC's rough import series and its trade-volume statements before, most recently the July rough figure of $151.60 a carat on 28 August and the Antwerp volume loss described in Mumbai on 6 September. It has not previously reported Diamond Office fees; a search of this paper's archive of record for the term Diamond Office returns zero hits.",
+   "The desk's view: if you ship small polished parcels through Antwerp, the action is to consolidate declaration lines inside a single shipment and to check whether your October invoice already reflects the change. If you ship above the threshold, nothing has changed for you and the cliff at EUR 100,000 now gives a reason to think about how a shipment is valued and split. If you compete with Antwerp as a trading centre, this is a small, specific cost cut aimed at exactly the low-value polished flow that moves most easily. What this is not a tariff or a duty change. The Diamond Office fee is AWDC's own administrative charge, the headline EUR 40 rate is unchanged, and only the number of times it is levied has moved."
+  ],
+  "sources": [
+   {
+    "title": "Lower Diamond Office Fees for Shipments Containing Polished Diamonds, AWDC",
+    "url": "https://www.awdc.be/news/news/lower-diamond-office-fees-shipments-containing-polished-diamonds",
+    "published": "2026-09-30"
+   }
+  ]
+ },
+ {
+  "slug": "gold-opens-at-four-one-eighty-eight",
+  "desk": "gold-metals",
+  "date": "2026-10-09",
+  "kicker": "Metals",
+  "lead": false,
+  "title": "Gold opens at $4,188.10 and silver gains 2.56% on Kitco",
+  "dek": "All four precious metals opened higher against the paper's prior printed marks on Friday, with platinum up the most in percentage terms. CNBC's independent feed agrees on direction on every metal.",
+  "byline": "The Prices Desk",
+  "tags": [
+   "gold",
+   "silver",
+   "platinum",
+   "palladium",
+   "Kitco",
+   "lab-grown",
+   "RAPI"
+  ],
+  "body": [
+   "Gold opened at $4,188.10 an ounce on Kitco's bid at the tape's 05:00 ET mark on 9 October 2026, up $67.10 or 1.63% on this paper's prior printed mark of $4,121.00. Silver opened at $60.26, up 2.56%. Platinum opened at $1,686.00, up 2.68%, the largest percentage move of the four. Palladium opened at $1,139.00, up 2.24%. All four moved in the same direction, which makes this a broad rally rather than one metal moving alone.",
+   "Every change above is computed against this paper's own last printed mark, not against an exchange settlement. Those prior marks are gold $4,121.00, silver $58.757, platinum $1,642.00 and palladium $1,114.00, carried from the tape file of 8 October 2026. A board's own day-over-day change runs off its own previous close, which is a different number, and the two are reported separately here rather than blended.",
+   "CNBC's quote feed gives different previous closes and therefore different percentage moves on the same opening prices. Against CNBC's closes of $4,133.93 on gold, $59.3425 on silver, $1,634.25 on platinum and $1,123.0633 on palladium, the same opening marks work out at 1.31%, 1.55%, 3.17% and 1.42% respectively. Direction agrees on all four. The magnitudes differ because the baseline differs, not because the boards disagree about the price.",
+   "Two of the four sit outside Kitco's own bid-ask band on the second board. Kitco's spreads this morning were $4,188.10 to $4,190.10 on gold, $60.26 to $60.509 on silver, $1,686.00 to $1,696.00 on platinum and $1,139.00 to $1,179.00 on palladium. CNBC's last prices put silver and palladium inside those bands. Gold's CNBC last of $4,187.57 sits $0.53 below Kitco's bid, and platinum's $1,683.95 sits $2.05 below it. Both gaps are disclosed rather than smoothed.",
+   "On the diamond side of the tape, the lab-grown 1.00-carat reference eased to $666 from $669, a second consecutive session lower, on a CaratRadar page that also carried 924,229 active listings and a market price index of $1,473. The RapNet Diamond Index for 1.00-carat goods reads 3,903.82 for 8 October, down 2.19 on this paper's last printed level of 3,906.01. Zimnisky's rough index remains paywalled with no citable figure.",
+   "The desk's view: if you quote metal daily, the number that matters is platinum, because 2.68% in one session on a metal with a $10 published spread is a move the spread cannot explain. If you hedge, the two boards agreeing on direction and disagreeing on magnitude is the normal state of the morning, and the baseline is the thing to fix before the percentage. If you price lab-grown goods, two consecutive sessions down is not yet a trend and this desk is not calling one. What this is not an intraday high or a settlement. These are the 05:00 ET opening marks the tape carries, filed as an intraday snapshot well before the United States day session."
+  ],
+  "sources": [
+   {
+    "title": "Kitco precious metals price board, bid and ask",
+    "url": "https://www.kitco.com/price/precious-metals",
+    "published": "2026-10-09"
+   },
+   {
+    "title": "CNBC quote feed, XAU= XAG= XPT= XPD=, last and previous close",
+    "url": "https://www.cnbc.com/quotes/XAU=",
+    "published": "2026-10-09"
+   },
+   {
+    "title": "CaratRadar lab-grown diamond price page, 1.00ct average",
+    "url": "https://caratradar.com/diamond-prices/lab-grown-diamonds/",
+    "published": "2026-10-09"
+   },
+   {
+    "title": "Rapaport Diamond Price Index, RAPI 1.00ct daily series",
+    "url": "https://rapaport.com/diamond-price-index/",
+    "published": "2026-10-08"
+   },
+   {
+    "title": "Carat Capital, Silver sheds 2.12% to $58.757 as gold and platinum gain, 8 October 2026 (the prior marks this article runs its changes off)",
+    "url": "https://caratcapital.org/a-silver-sheds-two-twelve-at-press-time.html",
+    "published": "2026-10-08"
    }
   ]
  }

@@ -110756,12 +110756,12 @@
      "published": "2026-09-11T17:00:00Z"
     },
     {
-     "title": "Carat Capital tape, 7 September 2026",
+     "title": "Carat Capital, The Paper (corrections ledger and archive by desk) — this paper's own marks of record for 7 September 2026 are held in newsroom/tape/, not on this page",
      "url": "https://caratcapital.org/the-record.html",
      "published": "2026-09-07T10:04:00Z"
     },
     {
-     "title": "Carat Capital tape, 12 September 2026",
+     "title": "Carat Capital, The Paper (corrections ledger and archive by desk) — this paper's own marks of record for 12 September 2026 are held in newsroom/tape/, not on this page",
      "url": "https://caratcapital.org/the-record.html",
      "published": "2026-09-12T05:00:00Z"
     }
@@ -111563,12 +111563,12 @@
      "published": "2026-09-15T10:05:00Z"
     },
     {
-     "title": "Carat Capital tape, 12 September 2026",
+     "title": "Carat Capital, The Paper (corrections ledger and archive by desk) — this paper's own marks of record for 12 September 2026 are held in newsroom/tape/, not on this page",
      "url": "https://caratcapital.org/the-record.html",
      "published": "2026-09-12T05:00:00Z"
     },
     {
-     "title": "Carat Capital tape, 15 September 2026",
+     "title": "Carat Capital, The Paper (corrections ledger and archive by desk) — this paper's own marks of record for 15 September 2026 are held in newsroom/tape/, not on this page",
      "url": "https://caratcapital.org/the-record.html",
      "published": "2026-09-15T09:59:00Z"
     }
@@ -116682,7 +116682,7 @@
      "published": "2026-09-18"
     },
     {
-     "title": "Carat Capital tape, 19 September 2026, covering the 18 September session",
+     "title": "Carat Capital, The Paper (corrections ledger and archive by desk) — this paper's own marks of record for 19 September 2026, covering the 18 September session are held in newsroom/tape/, not on this page",
      "url": "https://caratcapital.org/the-record.html",
      "published": "2026-09-19"
     }
@@ -128959,7 +128959,7 @@
      "published": "2026-10-02T17:00:00Z"
     },
     {
-     "title": "Carat Capital tape, 3 October 2026, covering the 2 October session",
+     "title": "Carat Capital, The Paper (corrections ledger and archive by desk) — this paper's own marks of record for 3 October 2026, covering the 2 October session are held in newsroom/tape/, not on this page",
      "url": "https://caratcapital.org/the-record.html",
      "published": "2026-10-03"
     },
@@ -129964,7 +129964,7 @@
      "published": "2026-10-02"
     },
     {
-     "title": "Carat Capital tape, newsroom/tape/2026-09-27.json and 2026-10-04.json — settled marks for the sessions of 25 September and 2 October 2026",
+     "title": "Carat Capital, The Paper (corrections ledger and archive by desk) — this paper's own marks of record for newsroom/tape/2026-09-27.json and 2026-10-04.json — settled marks for the sessions of 25 September and 2 October 2026 are held in newsroom/tape/, not on this page",
      "url": "https://caratcapital.org/the-record.html",
      "published": "2026-10-04"
     }
@@ -134211,9 +134211,9 @@
      "published": "2026-10-08T10:06:00Z"
     },
     {
-     "title": "Carat Capital tape, 8 October 2026 (press-time write-back) and 7 October 2026 (prior marks)",
-     "url": "https://caratcapital.org/the-record.html",
-     "published": "2026-10-08"
+     "title": "Carat Capital, Platinum sheds $63.00 to $1,634.00, all four metals lower, 7 October 2026 (the prior marks this article runs its changes off)",
+     "url": "https://caratcapital.org/a-platinum-sheds-sixty-three-at-press-time.html",
+     "published": "2026-10-07"
     }
    ]
   },
@@ -134461,7 +134461,7 @@
    },
    {
     "who": "If you track De Beers:",
-    "text": "It sold this deposit in 2019 because it could not run it economically. The restart is somebody else's arithmetic."
+    "text": "It began selling this deposit in 2019 because it could not run it economically. The restart is somebody else's arithmetic."
    },
    {
     "who": "What this is not:",
@@ -135337,6 +135337,1631 @@
   },
   "next": {
    "slug": "bnpl-inside-the-perimeter"
+  }
+ },
+ "sixty-six-five-for-ninety-five-of-ebel": {
+  "v": 3,
+  "kicker": "Brand ownership",
+  "figures": {
+   "asof": "Terms as filed in Movado Group's Form 8-K of 8 October 2026, reporting an agreement effective 5 October 2026. Segment figures are for the six months to 31 July 2026.",
+   "cells": [
+    {
+     "n": "$66.5m",
+     "dir": "flat",
+     "label": "Consideration for 95% of EBEL",
+     "q": "subject to closing adjustments",
+     "src": 0
+    },
+    {
+     "n": "95%",
+     "dir": "flat",
+     "label": "Equity sold to the buyer group",
+     "q": "Movado retains 5%",
+     "src": 0
+    },
+    {
+     "n": "$78.009m",
+     "dir": "up",
+     "label": "Owned brands, half-year sales",
+     "q": "+3.7%; EBEL sits in this line",
+     "src": 2
+    },
+    {
+     "n": "$186.190m",
+     "dir": "up",
+     "label": "Licensed brands, half-year sales",
+     "q": "+7.8%, the faster line",
+     "src": 2
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Movado sold its Swiss brand.",
+   "text": "Movado Group agreed to sell 95% of EBEL to a group led by Montres Journe SA, with Chanel and Pierre Jacques, for about $66.5 million. Movado retains 5%."
+  },
+  "means": [
+   {
+    "who": "If you hold MOV:",
+    "text": "The sale takes the slower line out of the portfolio. Owned brands grew 3.7% last half year while licensed brands grew 7.8%."
+   },
+   {
+    "who": "If you wholesale EBEL:",
+    "text": "Your counterparty becomes a new Swiss company with F.P. Journe and Chanel behind it. Pierre Jacques runs it from closing."
+   },
+   {
+    "who": "If you collect EBEL:",
+    "text": "Trademarks, inventory and the Le Corbusier Villa Turque move into that subsidiary first. The buyer group then takes 95% of it."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A valuation of EBEL. Movado has never broken out the brand's sales, so the consideration cannot be set against a brand revenue line, and nothing has closed."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "The two lines EBEL was reported inside",
+   "asof": "Six months to 31 July 2026 against the year-earlier period, from Movado's Form 10-Q",
+   "cols": [
+    "Line",
+    "H1 to 31 Jul 2026",
+    "Year earlier",
+    "Change"
+   ],
+   "rows": [
+    [
+     "Owned brands (contains EBEL)",
+     "$78.009m",
+     "$75.252m",
+     "+3.7%"
+    ],
+    [
+     "Licensed brands",
+     "$186.190m",
+     "$172.662m",
+     "+7.8%"
+    ],
+    [
+     "Watch and Accessory Brands",
+     "$266.558m",
+     "$250.479m",
+     "+6.4%"
+    ],
+    [
+     "Company Stores",
+     "$45.596m",
+     "$43.119m",
+     "+5.7%"
+    ],
+    [
+     "Consolidated net sales",
+     "$312.154m",
+     "$293.598m",
+     "+6.3%"
+    ]
+   ],
+   "hi": 0,
+   "note": "Every percentage in the change column is Movado's own figure from the same filing, not Carat Capital's division. EBEL's own sales are not disclosed separately, so the $66.5 million consideration cannot be set against a brand revenue figure. As a scale check only, $66,500,000 divided by $78,009,000 is 85.2% of the whole owned-brands half-year line; that is a size comparison, not a multiple.",
+   "plate": "CC/2026/258"
+  },
+  "sections": [
+   {
+    "h": "Ninety-five percent, not all",
+    "p": [
+     {
+      "lead": "Sixty-six point five.",
+      "text": "Consideration is expected to total approximately $66.5 million, subject to customary closing adjustments. Movado keeps a 5% interest and will supply services under a transition agreement."
+     },
+     {
+      "lead": "A new subsidiary.",
+      "text": "Trademarks, intellectual property, inventory and the Villa Turque transfer first to a newly formed Swiss subsidiary. The buyer group takes 95% of that entity at closing."
+     }
+    ]
+   },
+   {
+    "h": "Who is buying it",
+    "p": [
+     {
+      "lead": "Journe leads it.",
+      "text": "Montres Journe SA, the Geneva maker trading as F.P. Journe, leads the group. Chanel participates, and Pierre Jacques becomes EBEL's chief executive."
+     },
+     {
+      "lead": "Jacques returns.",
+      "text": "Jacques left De Bethune's chief executive seat in July 2026, replaced by Antoine Pin. EBEL was founded in La Chaux-de-Fonds in 1911."
+     }
+    ]
+   },
+   {
+    "h": "The slower of two lines",
+    "p": [
+     {
+      "lead": "Owned brands lagged.",
+      "text": "Movado's owned brands category, which contains EBEL, grew 3.7% to $78.009 million in the six months to 31 July 2026."
+     },
+     {
+      "lead": "Licensed brands grew faster.",
+      "text": "The licensed category grew 7.8% to $186.190 million over the same half. It carries Coach, Tommy Hilfiger, Hugo Boss, Lacoste and Calvin Klein under licence."
+     }
+    ]
+   },
+   {
+    "h": "Closing is not done",
+    "p": [
+     {
+      "lead": "Fourth quarter, fiscal 2026.",
+      "text": "The filing expects closing in the fourth quarter of fiscal 2026, which ends 31 January 2027, subject to a pre-closing reorganisation."
+     },
+     {
+      "lead": "Price may move.",
+      "text": "Movado names purchase-price adjustments among its own risk factors, so final consideration may differ from the announced amount. Nothing has changed hands yet."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "By 31 January 2027",
+    "what": "Whether the sale closes inside the fourth quarter of fiscal 2026 that the filing names, or slips past the year end."
+   },
+   {
+    "when": "Late November 2026",
+    "what": "Movado's third-quarter results, the first set that should carry EBEL's accounting treatment as a pending disposal."
+   },
+   {
+    "when": "After closing",
+    "what": "Whether EBEL's new owners publish a brand revenue figure Movado never broke out."
+   }
+  ],
+  "depth": {
+   "reverse": "A failed condition or a collapsed pre-closing reorganisation, which would leave EBEL inside Movado and the $66.5 million unpaid. The agreement is binding but not closed, and Movado itself lists non-completion and purchase-price adjustment among its risk factors.",
+   "built": {
+    "title": "Why a carve-out price is not a brand value",
+    "text": "EBEL does not exist today as a separate legal entity with its own accounts. The transaction first moves trademarks, intellectual property, inventory, certain other dedicated assets and certain dedicated employees into a newly formed Swiss subsidiary of Movado Group, then sells 95% of that subsidiary's equity. What the buyer group pays for is therefore a defined asset perimeter plus a transition services agreement, not a going concern with an audited revenue line. Three things follow. The perimeter determines the price, so two carve-outs of the same brand with different asset lists are not comparable. The retained 5% keeps the seller economically interested through the transition, which is a common structure where the buyer needs the seller's systems for a period. And because consideration is subject to customary closing adjustments, the announced figure is an expectation rather than a settled sum."
+   },
+   "method": "Primary read at the source, not through trade press. Form 8-K fetched to raw bytes from sec.gov with an identifying user agent, HTTP 200, 29,034 bytes, saved to newsroom/sources/2026-10-09/mov8k.htm; Exhibit 99.1 press release fetched the same way, 200, 16,211 bytes, saved as mov_pr.htm; Form 10-Q for the quarter ended 31 July 2026 fetched, 200, 3,466,001 bytes, saved as mov10q.htm. Raw-byte grep counts stated: '66.5' 1 hit in the press release and 1 in the 8-K, '95%' 3 and 1, 'Montres Journe' 5, 'Pierre Jacques' 3, '1911' 2, 'La Chaux-de-Fonds' 1, 'fourth quarter of fiscal 2026' 1. In the 10-Q, '78,009' 2 hits, '186,190' 2, '266,558' 4, '312,154' 7, '42,399' 2, '100,693' 2. The filing index was read first to confirm the accession number: data.sec.gov submissions for CIK 0000072573, 200, 171,116 bytes, newest filing 2026-10-08, Form 8-K, items 8.01 and 9.01, accession 0000950142-26-002717, report date 2026-10-05. A first attempt at CIK 0000832988 returned Signet Jewelers, not Movado, so the CIK was looked up through EDGAR company search rather than assumed. The 85.2% scale check is Carat Capital's own division and is printed with its terms: 66,500,000 divided by 78,009,000. Every percentage in the table is Movado's own stated figure from the 10-Q, not re-derived here. Archive check, searched by entity in website/content/articles.json, the archive of record: 'EBEL' 0 hits; 'Montres Journe' 0 hits; 'Movado' 14 string hits in 2 articles, both opened and read, the-same-figure-the-other-way of 27 August 2026 and twenty-one-nine-million-at-movado of 4 September 2026, both covering first-half fiscal 2027 earnings. PERIOD NAMED ON BOTH SIDES: ours cover Movado's first half of fiscal 2027 (results) | this item covers a single corporate event of 5 October 2026 (a divestiture agreement) - DIFFERENT SUBJECT AND PERIOD, so NEW, not a repeat. 'Pierre Jacques' 1 hit, opened and read: bennahmias-wanted-de-bethune of 22 July 2026, where Jacques is named as the outgoing De Bethune chief executive replaced by Antoine Pin. Same person, different company and different event, so new. One quote is used, in the plain-prose record only: seven words attributed to Francois-Paul Journe from the Exhibit 99.1 press release, counted before filing.",
+   "prior": [
+    {
+     "date": "2026-09-04",
+     "slug": "twenty-one-nine-million-at-movado",
+     "claim": "Movado's first-half operating income rose 409% to $21.9 million."
+    },
+    {
+     "date": "2026-08-27",
+     "slug": "the-same-figure-the-other-way",
+     "claim": "Movado's sales rose 4.9%, the exact figure by which Fossil's fell."
+    },
+    {
+     "date": "2026-07-22",
+     "slug": "bennahmias-wanted-de-bethune",
+     "claim": "Pierre Jacques left the chief executive seat at De Bethune, replaced by Antoine Pin."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Movado Group, Form 8-K, Item 8.01, agreement to sell 95% of EBEL",
+     "url": "https://www.sec.gov/Archives/edgar/data/72573/000095014226002717/eh260839729_8k.htm",
+     "published": "2026-10-08"
+    },
+    {
+     "title": "Movado Group, Exhibit 99.1 press release, agreement to sell majority interest in EBEL",
+     "url": "https://www.sec.gov/Archives/edgar/data/72573/000095014226002717/eh260839729_ex9901.htm",
+     "published": "2026-10-08"
+    },
+    {
+     "title": "Movado Group, Form 10-Q for the quarter ended 31 July 2026, segment and category net sales",
+     "url": "https://www.sec.gov/Archives/edgar/data/72573/000119312526366101/mov-20260731.htm",
+     "published": "2026-08-26"
+    }
+   ]
+  },
+  "next": {
+   "slug": "twenty-one-nine-million-at-movado"
+  }
+ },
+ "twenty-four-carats-at-eighteen-million": {
+  "v": 3,
+  "kicker": "Sale preview",
+  "figures": {
+   "asof": "Estimate as published by Christie's on Friday 9 October 2026 for a sale on 10 November 2026",
+   "cells": [
+    {
+     "n": "CHF 10-15m",
+     "dir": "flat",
+     "label": "Estimate, 24-carat pink diamond",
+     "q": "given as $12m to $18m",
+     "src": 0
+    },
+    {
+     "n": "24 ct",
+     "dir": "flat",
+     "label": "Weight, emerald-cut stone",
+     "q": "fancy intense pink, type IIa",
+     "src": 0
+    },
+    {
+     "n": "CHF 625,000",
+     "dir": "flat",
+     "label": "High estimate a carat",
+     "q": "CC division, 15,000,000/24",
+     "src": 0
+    },
+    {
+     "n": "10 Nov",
+     "dir": "flat",
+     "label": "Magnificent Jewels, Geneva",
+     "q": "viewing 5 to 10 November",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Christie's priced a pink.",
+   "text": "Christie's has estimated a 24-carat emerald-cut fancy intense pink diamond at CHF 10 million to CHF 15 million. Bulgari set it as a ring in the 1950s."
+  },
+  "means": [
+   {
+    "who": "If you bid colour:",
+    "text": "The band is 50% wide on a single stone. That is the house saying it does not know where this clears."
+   },
+   {
+    "who": "If you hold pink inventory:",
+    "text": "A type IIa fancy intense pink of this size trading in public sets a visible comparable for everything below it."
+   },
+   {
+    "who": "If you consign:",
+    "text": "A Bulgari setting and one noble family since the 1950s is the part of this lot nobody can replicate."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A result, or an independently documented provenance. The India story is family lore relayed by the auction house, the estimate is a pre-sale opinion, and no reserve has been published."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Two pink diamonds, one Geneva day",
+   "asof": "Estimates as published by Christie's; the David Morris figure as Carat Capital reported it on 15 September 2026",
+   "cols": [
+    "Stone",
+    "Sale",
+    "Estimate"
+   ],
+   "rows": [
+    [
+     "24 ct emerald-cut, fancy intense pink, type IIa, Bulgari ring",
+     "Magnificent Jewels, 10 Nov",
+     "CHF 10m-15m ($12m-$18m)"
+    ],
+    [
+     "14.63 ct emerald-cut, orangey-pink, VVS1, David Morris ring",
+     "A Connoisseur's Collection Part I, 10 Nov",
+     "up to CHF 2.1m ($2.5m)"
+    ],
+    [
+     "Per carat, high estimate, 24 ct stone",
+     "CC division",
+     "CHF 625,000"
+    ],
+    [
+     "Per carat, low estimate, 24 ct stone",
+     "CC division",
+     "CHF 416,667"
+    ]
+   ],
+   "hi": 0,
+   "note": "The two stones are different weights, colours, clarities, consignments and catalogues, and are listed together only because both fall on 10 November in Geneva. The per-carat rows are Carat Capital's own division and assume the catalogued 24-carat weight is exact rather than rounded: 15,000,000/24 and 10,000,000/24. Christie's has published neither a per-carat estimate nor a weight to two decimal places.",
+   "plate": "CC/2026/259"
+  },
+  "sections": [
+   {
+    "h": "Ten to fifteen million",
+    "p": [
+     {
+      "lead": "Fifty percent wide.",
+      "text": "Christie's estimate runs CHF 10 million to CHF 15 million. The high is one and a half times the low, a band the house has left deliberately open."
+     },
+     {
+      "lead": "Twelve to eighteen.",
+      "text": "Christie's gives the same band as $12 million to $18 million. The stone is emerald-cut, graded fancy intense pink, and type IIa."
+     }
+    ]
+   },
+   {
+    "h": "A ring from the 1950s",
+    "p": [
+     {
+      "lead": "Bulgari set it.",
+      "text": "Bulgari mounted the diamond as a ring in the 1950s. The house has stayed in one noble family since acquisition, according to Christie's."
+     },
+     {
+      "lead": "Family lore, not record.",
+      "text": "Christie's attributes the India origin to family lore from that household. It is the owner's account relayed by the auction house, not a documented chain."
+     }
+    ]
+   },
+   {
+    "h": "Two pinks, same day",
+    "p": [
+     {
+      "lead": "A second stone.",
+      "text": "Carat Capital reported on 15 September that Christie's estimated a 14.63-carat David Morris pink ring at up to CHF 2.1 million."
+     },
+     {
+      "lead": "Different catalogues.",
+      "text": "That ring leads a 123-lot single-owner sale. The Bulgari stone sits in Magnificent Jewels. Two separate consignments, two separate books."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "5 to 10 November 2026",
+    "what": "Public viewing at the Four Seasons Hotel des Bergues in Geneva, the first chance for the trade to see the stone."
+   },
+   {
+    "when": "10 November 2026",
+    "what": "Whether the ring clears CHF 10 million, and where inside the CHF 5 million band it lands."
+   },
+   {
+    "when": "10 November 2026",
+    "what": "The David Morris pink in the single-owner sale on the same day, as a second read on pink demand."
+   }
+  ],
+  "depth": {
+   "reverse": "A withdrawal before the sale, or a result at or below the low estimate, which would make this a story about one house's pricing ambition rather than about pink demand. A pre-sale estimate is an opinion that has not been tested by a bidder.",
+   "built": {
+    "title": "What a 50% estimate band tells you",
+    "text": "An auction estimate is the house's published opinion of where a lot should clear, and its width is information. A narrow band is a claim to know the market; a band whose high is one and a half times its low is a claim that the market for this object is thin enough that two serious bidders could land far apart. For large fancy-colour diamonds the comparable set is a handful of stones over a span of years, so the estimate is set from few data points and the reserve, which is confidential and usually at or below the low estimate, does the real work. Buyer's premium sits on top of the hammer price, so the price a buyer pays is above any figure quoted here. Per-carat arithmetic on a rounded catalogue weight is indicative only: at 23.5 carats the high estimate would be CHF 638,298 a carat and at 24.5 it would be CHF 612,245."
+   },
+   "method": "Rapaport's report was fetched to raw bytes with a browser identity, HTTP 200, 218,937 bytes, saved to newsroom/sources/2026-10-09/bulgari.html, and figures were read out of the article's own body paragraphs rather than from a whole-page sweep, because the page carries recirculation rails whose figures belong to other stories. Raw-byte grep counts stated: '24-carat' 6 hits, 'CHF 10 million' 1, 'CHF 15 million' 1, '$12 million' 4, '$18 million' 4, 'type IIa' 1, 'November 10' 1, 'November 5' 1. The dollar figures appear more than once because the page repeats them in its own metadata and headline; the body occurrence is the one quoted. The per-carat figures are Carat Capital's own division and are printed with their terms. Archive check, searched in website/content/articles.json, the archive of record: 'Autumn Luxury Week' 0 hits; 'Hollywood on the Tiber' 0; 'Four Seasons Hotel des Bergues' 0; 'CHF 15' 0; '24-carat pink' 0. 'fancy intense pink' 2 hits, both opened and read: blue-is-the-color-of-money of 11 July 2026 and sothebys-thirty-one-million of 24 July 2026, both covering New York summer sales and different stones. 'Magnificent Jewels' 2 hits in 1 article, opened: blue-is-the-color-of-money, covering Christie's New York June sale. 'Bulgari' 16 hits across 11 articles, all listed and read by date and title; the nearest, bulgari-sapphire-nine-five-million of 11 September 2026, is a sapphire ring in Hong Kong. PERIOD AND EVENT NAMED ON BOTH SIDES: ours 2026-09-15 covers the 14.63-carat David Morris orangey-pink ring in Christie's single-owner Connoisseur's Collection sale | this item covers a 24-carat Bulgari-set fancy intense pink in Christie's Magnificent Jewels sale - SAME HOUSE, SAME DATE, DIFFERENT STONE, DIFFERENT CATALOGUE, so NEW, not a repeat. The David Morris sale itself was correctly killed as already covered and is cited here as prior coverage instead.",
+   "prior": [
+    {
+     "date": "2026-09-15",
+     "slug": "two-point-six-million-in-geneva",
+     "claim": "Christie's estimated a 14.63-carat David Morris pink ring at up to $2.6 million in Geneva."
+    },
+    {
+     "date": "2026-09-11",
+     "slug": "bulgari-sapphire-nine-five-million",
+     "claim": "A Bulgari sapphire ring carried an HKD 9.5 million high estimate in Hong Kong."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Christie's Slaps $18M Price Tag on Bulgari Pink Diamond, Rapaport News",
+     "url": "https://rapaport.com/news/christies-slaps-18m-price-tag-on-bulgari-pink-diamond/",
+     "published": "2026-10-09"
+    }
+   ]
+  },
+  "next": {
+   "slug": "two-point-six-million-in-geneva"
+  }
+ },
+ "twenty-three-showrooms-become-stores": {
+  "v": 3,
+  "kicker": "Retail strategy",
+  "figures": {
+   "asof": "Statements by Signet and Blue Nile executives in an interview published 7 October 2026",
+   "cells": [
+    {
+     "n": "23",
+     "dir": "flat",
+     "label": "Blue Nile showrooms converting",
+     "q": "to stores, over the next year or so",
+     "src": 0
+    },
+    {
+     "n": "90%",
+     "dir": "flat",
+     "label": "Engagement sales above $5,000",
+     "q": "natural; scope not specified",
+     "src": 0
+    },
+    {
+     "n": "80%",
+     "dir": "flat",
+     "label": "Signet business done in-store",
+     "q": "group-wide, per Hilson",
+     "src": 0
+    },
+    {
+     "n": "5-8",
+     "dir": "flat",
+     "label": "Gemologists from The Clear Cut",
+     "q": "acquired team, integration in 2027",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "The showrooms get inventory.",
+   "text": "Signet will convert all 23 Blue Nile showrooms into stores holding sellable stock and point-of-sale capability. It has also bought The Clear Cut for a concierge desk."
+  },
+  "means": [
+   {
+    "who": "If you compete online:",
+    "text": "A showroom that can close a sale is a different competitor from one that can only show a stone."
+   },
+   {
+    "who": "If you supply Signet:",
+    "text": "Natural-led buying has now been stated twice in three days by two named executives. That is the signal."
+   },
+   {
+    "who": "If you price concierge:",
+    "text": "Five to eight gemologists is the team a buyer just paid for. Full technology integration is expected next year."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A sized deal. No price was published for The Clear Cut, no conversion capital figure was given, and the lab-grown share of Blue Nile sales was explicitly withheld."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "What the executives put on the record",
+   "asof": "All figures as stated in the 7 October 2026 interview; none traced to a Signet filing",
+   "cols": [
+    "Figure",
+    "What it covers",
+    "Said by"
+   ],
+   "rows": [
+    [
+     "23 showrooms",
+     "Blue Nile locations converting to stores",
+     "Joan Hilson"
+    ],
+    [
+     "90% of transactions",
+     "Engagement above $5,000 that is natural; scope not specified",
+     "Joan Hilson"
+    ],
+    [
+     "80% of business",
+     "Signet group sales done in-store",
+     "Joan Hilson"
+    ],
+    [
+     "50% bridal",
+     "Signet group business mix",
+     "Joan Hilson"
+    ],
+    [
+     "5 to 8 gemologists",
+     "The Clear Cut team carried over",
+     "Joan Hilson"
+    ],
+    [
+     "Not shared",
+     "Lab-grown share of Blue Nile sales and inventory",
+     "Joan Hilson"
+    ]
+   ],
+   "hi": 1,
+   "note": "Every row is an executive statement from the interview, not a filed figure. The 90% is printed with its limit: Hilson said 'for the higher price points above $5,000 in the engagement business, 90% of those transactions are natural' and did not say whether that covers Blue Nile or Signet group-wide. Carat Capital has not matched it to a filing and does not assert either reading.",
+   "plate": "CC/2026/260"
+  },
+  "sections": [
+   {
+    "h": "Showrooms get sellable stock",
+    "p": [
+     {
+      "lead": "Twenty-three locations.",
+      "text": "Hilson said the conversion runs over the next year or so. For the first time, product will be in store for customers to buy rather than only to view."
+     },
+     {
+      "lead": "Count may rise.",
+      "text": "She said Signet would expect the number to grow over time and sees potential international expansion, without naming a target or a market."
+     }
+    ]
+   },
+   {
+    "h": "Three pillars, one named figure",
+    "p": [
+     {
+      "lead": "Natural-led assortment.",
+      "text": "The first pillar is natural-diamond-led rather than natural-exclusive buying. Hilson said 90% of engagement transactions above $5,000 are natural."
+     },
+     {
+      "lead": "Scope not specified.",
+      "text": "She did not say whether that figure is Blue Nile's or Signet's group-wide. It is printed as her statement and attributed, not asserted."
+     }
+    ]
+   },
+   {
+    "h": "An acquisition, not a licence",
+    "p": [
+     {
+      "lead": "The Clear Cut bought.",
+      "text": "Blue Nile acquired the business for a white-glove concierge desk. Hilson put the team carried over at five to eight gemologists, with full integration expected next year."
+     },
+     {
+      "lead": "New to the record.",
+      "text": "Carat Capital's 7 October report said the Royal Asscher licence was not an acquisition. The Clear Cut purchase is one, and it had not been disclosed before."
+     }
+    ]
+   },
+   {
+    "h": "Two figures withheld",
+    "p": [
+     {
+      "lead": "Lab-grown share undisclosed.",
+      "text": "Asked what share of Blue Nile sales and inventory is lab-grown, Hilson said it has not been shared. No proxy was offered."
+     },
+     {
+      "lead": "No viewing data.",
+      "text": "Asked whether customers prefer to see natural stones in person rather than lab-grown, she said she does not have data on that."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "During 2027",
+    "what": "Completion of The Clear Cut technology integration, which Hilson expects next year."
+   },
+   {
+    "when": "Through late 2027",
+    "what": "Whether all 23 showrooms carry inventory inside the year-or-so window Hilson gave."
+   },
+   {
+    "when": "Next Signet results",
+    "what": "Whether the above-$5,000 natural share, or any Blue Nile lab-grown share, appears in a filing rather than an interview."
+   }
+  ],
+  "depth": {
+   "reverse": "A conversion that stalls on working capital, or a Signet filing that puts the natural share at a materially different level from the interview figure. Every number here is an executive statement rather than a filed one, and nothing in it has been audited.",
+   "built": {
+    "title": "Why a showroom is not a store",
+    "text": "A digital-first jeweller's showroom is an appointment room: it holds samples rather than saleable stock, so the transaction is completed later on the website and the inventory sits centrally. Converting to a store changes three things at once. It puts working capital into each location, because stock on a shelf is cash that is not in a warehouse. It changes the staff's job from education to closing, which is why training sessions and handoff protocols are being run. And it changes the measurement, because a store has a point of sale and attributable revenue where a showroom has influenced revenue that is hard to allocate. The group context Hilson gives explains the direction: if 80% of the parent's business is done in person and half of it is bridal, then a division selling an emotional high-ticket purchase entirely online is the outlier in that portfolio rather than its future."
+   },
+   "method": "Rapaport's interview was fetched to raw bytes with a browser identity, HTTP 200, 231,112 bytes, saved to newsroom/sources/2026-10-09/signet.html, and every figure was read out of the interview's own question-and-answer body rather than from a whole-page sweep. Raw-byte grep counts stated: ' 23' 6 hits, '80%' 2, '50%' 8, '5,000' 1, '90%' 1, 'five to eight' 1. The loose strings were resolved by reading the surrounding sentences rather than by counting: the showroom figure appears as 'the current level of 23' and again as 'those 23 showrooms'. No figure here was traced to a Signet filing, and that limit is printed on the page. Archive check, searched in website/content/articles.json, the archive of record: 'Clear Cut' 0 hits; 'Modern Pave' 0; 'Ellipse' 0. 'Royal Asscher' 1 hit, opened and read in full: blue-nile-takes-the-royal-asscher-licence of 7 October 2026, whose sources are WWD of 5 October and the Royal Asscher brand site, not this interview. 'Blue Nile' 23 string hits across 3 articles, all opened: tiffany-goes-to-blue-nile of 6 August 2026, zales-goes-to-mattel of 12 August 2026 and the 7 October licence piece. PERIOD AND DOCUMENT NAMED ON BOTH SIDES: ours 2026-10-07 covers the Royal Asscher licence as announced on 5 October and states that nothing about it was priced and that it was not an acquisition | this item covers a 7 October named-executive interview disclosing The Clear Cut acquisition, the 23-showroom conversion, the gemologist headcount and the above-$5,000 natural share - SAME ENTITY, DIFFERENT DOCUMENT AND DIFFERENT FACTS, so ADVANCED, not a repeat. Source-attribution note: all statements in this article are attributed to Joan Hilson or Pam Cloud by name as the interview records them; nothing is attributed to Signet as a corporate statement.",
+   "prior": [
+    {
+     "date": "2026-10-07",
+     "slug": "blue-nile-takes-the-royal-asscher-licence",
+     "claim": "Blue Nile took Royal Asscher's exclusive North American licence, with no value disclosed."
+    },
+    {
+     "date": "2026-08-06",
+     "slug": "tiffany-goes-to-blue-nile",
+     "claim": "Signet put a twenty-five-year Tiffany veteran in charge of Blue Nile."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Signet on Blue Nile, Royal Asscher and The Clear Cut, Rapaport News",
+     "url": "https://rapaport.com/news/signet-on-blue-nile-royal-asscher-and-the-clear-cut/",
+     "published": "2026-10-07"
+    }
+   ]
+  },
+  "next": {
+   "slug": "blue-nile-takes-the-royal-asscher-licence"
+  }
+ },
+ "one-ninety-companies-and-nine-hundred-stores": {
+  "v": 3,
+  "kicker": "Trade standards",
+  "figures": {
+   "asof": "Statements by the IAGES chief executive in an interview published 8 October 2026 at 22:15 India time",
+   "cells": [
+    {
+     "n": "190+",
+     "dir": "up",
+     "label": "Companies accredited by IAGES",
+     "q": "since September 2025",
+     "src": 0
+    },
+    {
+     "n": "900+",
+     "dir": "up",
+     "label": "Stores accredited nationwide",
+     "q": "across India",
+     "src": 0
+    },
+    {
+     "n": "~150",
+     "dir": "flat",
+     "label": "Audit firms trained on the code",
+     "q": "CA, CS and CMA firms",
+     "src": 0
+    },
+    {
+     "n": "30-40",
+     "dir": "flat",
+     "label": "Gujarat stores joined",
+     "q": "plus Surat, Rajkot, Ahmedabad makers",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "The audit side got built.",
+   "text": "IAGES says more than 190 companies and 900 stores have joined its gold accreditation scheme. About 150 Indian audit firms have been trained to verify compliance."
+  },
+  "means": [
+   {
+    "who": "If you retail in Gujarat:",
+    "text": "Thirty to forty accredited stores in a state this size means accreditation is still a differentiator, not a baseline."
+   },
+   {
+    "who": "If you audit:",
+    "text": "One hundred and fifty trained firms is the supply side of this market, and it was built before the demand side."
+   },
+   {
+    "who": "If you buy gold:",
+    "text": "The check the scheme runs is one you can run yourself: hallmark and HUID against the BIS Care app listing."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A regulator. IAGES is self-regulatory, its code of conduct is its own, and accreditation carries no statutory force. Nothing here is a government requirement."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "The scheme, as its chief executive describes it",
+   "asof": "All figures as stated in the 8 October 2026 interview; none traced to an IAGES publication",
+   "cols": [
+    "Figure",
+    "What it counts",
+    "Status"
+   ],
+   "rows": [
+    [
+     "More than 190",
+     "Companies joined",
+     "Nationwide, since September 2025"
+    ],
+    [
+     "More than 900",
+     "Stores joined",
+     "Nationwide"
+    ],
+    [
+     "About 30 to 40",
+     "Stores joined in Gujarat",
+     "Plus Surat, Rajkot and Ahmedabad manufacturers"
+    ],
+    [
+     "About 150",
+     "CA, CS and CMA firms trained",
+     "On code, document verification, reporting"
+    ],
+    [
+     "Roughly 15% CAGR",
+     "Gold return over 25 years",
+     "Executive's own figure, untraced"
+    ]
+   ],
+   "hi": 3,
+   "note": "Every row is an executive statement from a single interview, not an IAGES publication or a filing. The 15% compound annual growth figure is the only number in the interview Carat Capital could not trace to any published series, and it is printed as attributed to him rather than as a verified return. The other four appear verbatim in the article's own Gujarati body text and the raw bytes were grepped for each.",
+   "plate": "CC/2026/261"
+  },
+  "sections": [
+   {
+    "h": "Two numbers and a date",
+    "p": [
+     {
+      "lead": "Companies and stores.",
+      "text": "Sinha put the scheme at more than 190 companies and more than 900 stores nationwide. IAGES began granting accreditation in September 2025."
+     },
+     {
+      "lead": "Gujarat is thin.",
+      "text": "Roughly 30 to 40 stores have joined in Gujarat, with manufacturers in Surat, Rajkot and Ahmedabad also in the process."
+     }
+    ]
+   },
+   {
+    "h": "The audit is third-party",
+    "p": [
+     {
+      "lead": "Not self-declared.",
+      "text": "A business must comply with the association's code of conduct, and compliance is verified through a neutral third-party audit. Accreditation follows only a passing audit."
+     },
+     {
+      "lead": "Audit capacity first.",
+      "text": "About 150 chartered accountancy, company secretary and cost accountancy firms have been trained on the code, document verification and the reporting process."
+     }
+    ]
+   },
+   {
+    "h": "A check inside the shop",
+    "p": [
+     {
+      "lead": "Random piece, real app.",
+      "text": "Assessment includes picking jewellery at random from the retailer's own shop and checking its HUID against the Bureau of Indian Standards' BIS Care listing."
+     },
+     {
+      "lead": "Consumers can repeat it.",
+      "text": "Sinha said buyers should verify hallmark and HUID through that app. The app returns design and purity details for the piece."
+     }
+    ]
+   },
+   {
+    "h": "He declined the forecast",
+    "p": [
+     {
+      "lead": "No price call.",
+      "text": "Asked how much further gold could rise, Sinha declined to forecast, naming geopolitics, the United States bond market, crude, the dollar and rising US debt."
+     },
+     {
+      "lead": "One untraced figure.",
+      "text": "He said gold has returned roughly 15% compound annual growth over 25 years. That figure is his own, and Carat Capital could not trace it to a published series."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "September 2026 onward",
+    "what": "Whether IAGES publishes an accredited-member register that lets the 190 and 900 counts be checked from outside."
+   },
+   {
+    "when": "Diwali 2026",
+    "what": "Whether accredited retailers price or market the accreditation during India's heaviest gold-buying weeks."
+   },
+   {
+    "when": "Within a year",
+    "what": "Whether the Gujarat count moves off 30 to 40 stores, in a state its own chief executive calls a top market."
+   }
+  ],
+  "depth": {
+   "reverse": "An IAGES register or an independent count that puts accredited stores materially below the stated figures, or evidence that the third-party audit is run by firms the applicant chooses and pays. Every number here comes from the scheme's own chief executive in one interview, with no published register to check it against.",
+   "built": {
+    "title": "How a voluntary scheme gets its teeth",
+    "text": "India already has a statutory layer: hallmarking under the Bureau of Indian Standards, with a HUID identifier that a consumer can look up in the BIS Care app. A voluntary accreditation scheme cannot add legal force on top of that, so it has to add something the statute does not reach, and what IAGES says it adds is process audit rather than product testing. The distinction matters. A hallmark certifies a piece's purity; a code-of-conduct audit examines how a business documents, discloses and reports. That is why the trained-auditor count is the load-bearing figure in this interview rather than the member count: a scheme with 900 stores and no capacity to audit them is a logo, and a scheme with 150 trained firms has built the thing that makes the logo mean something. The open question a register would answer is who selects and pays the auditor, because a neutral audit chosen by the audited party is neutral only in form."
+   },
+   "method": "The interview was fetched to raw bytes with a browser identity after the summarising fetch tool was not used for any figure, HTTP 200, 436,879 bytes, saved to newsroom/sources/2026-10-09/iages.html. Figures were read out of the article's own Gujarati body paragraphs; the tail of the page carries a weather and recirculation rail whose items belong to other stories and it was excluded. Quoted verbatim from the raw bytes: '190થી વધુ કંપનીઓ અને દેશભરમાં 900થી વધુ સ્ટોર' (more than 190 companies and more than 900 stores nationwide) and 'લગભગ 30થી 40 સ્ટોર્સ જોડાયા છે. સુરત, રાજકોટ અને' (roughly 30 to 40 stores have joined. Surat, Rajkot and). The publication timestamp was read from the page's own structured data: datePublished 2026-10-08T22:15:53+05:30. Raw-byte grep counts stated: '190' 30 hits, '900' 14, 'IAGES' 34; the loose numeric strings were resolved by reading the Gujarati sentences they sit in rather than by counting, since '190' and '900' also occur in page scripts. A separate GJEPC page the Bureau had ranked for this beat was fetched in the same run and returned a 'Page Not Found' body behind a 200 status, 32,266 bytes, so that item was dropped rather than carried. Archive check, searched in website/content/articles.json, the archive of record: 'IAGES' 0 hits; 'Kaushlendra' 0 hits. The nearest prior item, gjc-claims-a-record-and-prints-no-figure of 7 October 2026, names IAGES's chairman at a GJC trade show and carries no accreditation figures; it was opened and read. PERIOD AND SUBJECT NAMED ON BOTH SIDES: ours 2026-10-07 covers GJC's claim about India Gem and Jewellery Show sales in October 2026 | this item covers IAGES's accreditation totals from September 2025 to October 2026 and its audit capacity - DIFFERENT ORGANISATION, DIFFERENT SUBJECT, so NEW, not a repeat.",
+   "prior": [
+    {
+     "date": "2026-10-07",
+     "slug": "gjc-claims-a-record-and-prints-no-figure",
+     "claim": "GJC claimed record India Gem and Jewellery Show sales and published no figure."
+    },
+    {
+     "date": "2026-09-30",
+     "slug": "one-paisa-above-the-gold",
+     "claim": "Tamil Nadu ordered 441,667 gold rings at one paisa above the gold price."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Gujarat gold trade joins the global supply chain: 30 to 40 stores accredited, Divya Bhaskar (Gujarati)",
+     "url": "https://www.divyabhaskar.co.in/local/gujarat/gandhinagar/news/gujarat-gold-manufacturing-hub-rajkot-surat-iages-accreditation-139292313.html",
+     "published": "2026-10-08"
+    }
+   ]
+  },
+  "next": {
+   "slug": "gjc-claims-a-record-and-prints-no-figure"
+  }
+ },
+ "one-eight-million-on-a-sapphire": {
+  "v": 3,
+  "kicker": "Coloured stones",
+  "figures": {
+   "asof": "Prices and estimates for Poly Auction's High Jewelry and Important Watches sale of 6 October 2026, as reported 8 October",
+   "cells": [
+    {
+     "n": "HKD 1.8m",
+     "dir": "up",
+     "label": "Top price, Van Cleef sapphire necklace",
+     "q": "$235,488; beat its high estimate",
+     "src": 0
+    },
+    {
+     "n": "2.16 times",
+     "dir": "up",
+     "label": "Ruby and sapphire earrings",
+     "q": "CC division, 756,000/350,000",
+     "src": 0
+    },
+    {
+     "n": "HKD 840,000",
+     "dir": "down",
+     "label": "Van Cleef ruby suite",
+     "q": "below its HKD 860,000 low estimate",
+     "src": 0
+    },
+    {
+     "n": "Five",
+     "dir": "flat",
+     "label": "Lots the report names",
+     "q": "no sale total published",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Coloured stones took the top.",
+   "text": "A Van Cleef and Arpels sapphire and diamond necklace sold for HKD 1.8 million at Poly Auction's Hong Kong sale on 6 October. It narrowly beat its high estimate."
+  },
+  "means": [
+   {
+    "who": "If you buy Burmese goods:",
+    "text": "A pair of ruby and sapphire earrings estimated to HKD 350,000 took HKD 756,000. The estimate was wrong, not the demand."
+   },
+   {
+    "who": "If you hold signed jewellery:",
+    "text": "A Van Cleef ruby suite went below its own low estimate in the same room on the same day. The name is not carrying everything."
+   },
+   {
+    "who": "If you consign jadeite:",
+    "text": "One triple-hoop necklace clearing inside its range is a thin read. The HKD 25 million lot previewed on 29 September is absent from the top five."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A sale total. Poly Auction has published no aggregate, lot count or sell-through rate, and five named lots are not a market."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "The five lots the report names",
+   "asof": "Sale of 6 October 2026; HKD figures with the report's own dollar conversions",
+   "cols": [
+    "Lot",
+    "Estimate",
+    "Price"
+   ],
+   "rows": [
+    [
+     "Van Cleef and Arpels oval sapphire and diamond necklace",
+     "not published",
+     "HKD 1,800,000 ($235,488)"
+    ],
+    [
+     "Burmese jadeite triple-hoop necklace, pear diamonds",
+     "HKD 800,000-1.2m",
+     "HKD 900,000 ($114,686)"
+    ],
+    [
+     "Van Cleef and Arpels oval ruby necklace and earrings",
+     "HKD 860,000-1.2m",
+     "HKD 840,000 ($107,040)"
+    ],
+    [
+     "Burmese ruby 31.80ct and cabochon sapphire 31.33ct earrings",
+     "HKD 250,000-350,000",
+     "HKD 756,000 ($96,337)"
+    ],
+    [
+     "Gubelin Burmese sapphire earrings, 3.05ct and 3.23ct",
+     "HKD 300,000-500,000",
+     "HKD 456,000 ($58,106)"
+    ]
+   ],
+   "hi": 3,
+   "note": "The top lot's own high estimate is not published in the report, so the phrase 'narrowly beating its high estimate' cannot be quantified and no multiple is printed for it. The 2.16 times on the ruby and sapphire earrings is Carat Capital's own division against the high estimate and is printed with its terms: 756,000 divided by 350,000 is 2.16 times the high estimate, which is 116% above it. The Van Cleef ruby suite sold below its low estimate, which the table shows rather than describes.",
+   "plate": "CC/2026/262"
+  },
+  "sections": [
+   {
+    "h": "A sapphire necklace led",
+    "p": [
+     {
+      "lead": "One point eight.",
+      "text": "The Van Cleef and Arpels necklace of oval-cut sapphires and circular-cut diamonds took HKD 1.8 million. Rapaport reports that as $235,488, the sale's highest price."
+     },
+     {
+      "lead": "Margin not published.",
+      "text": "The report says it narrowly beat its high estimate but does not give that estimate, so the margin cannot be stated here."
+     }
+    ]
+   },
+   {
+    "h": "The earrings cleared widest",
+    "p": [
+     {
+      "lead": "Seven fifty-six thousand.",
+      "text": "Burmese ruby and cabochon sapphire earrings made HKD 756,000 against an estimate of HKD 250,000 to HKD 350,000."
+     },
+     {
+      "lead": "Two point one six.",
+      "text": "Carat Capital's division gives 2.16 times the high estimate, which is 116% above it."
+     },
+     {
+      "lead": "Two Burmese species.",
+      "text": "The pair carries 31.80 carats of oval-cut Burmese rubies and 31.33 carats of Burmese cabochon sapphires, with rectangular and circular-cut diamonds."
+     }
+    ]
+   },
+   {
+    "h": "Not every lot cleared",
+    "p": [
+     {
+      "lead": "Below the low.",
+      "text": "A Van Cleef and Arpels ruby necklace and earring set made HKD 840,000 against an estimate of HKD 860,000 to HKD 1.2 million."
+     },
+     {
+      "lead": "Two inside range.",
+      "text": "The jadeite triple-hoop necklace made HKD 900,000 and the Gubelin sapphire earrings HKD 456,000, each inside its own published band."
+     }
+    ]
+   },
+   {
+    "h": "A preview lot is missing",
+    "p": [
+     {
+      "lead": "Twenty-five million absent.",
+      "text": "Carat Capital previewed a 39-bead Burmese jadeite necklace at Poly carrying an HKD 25 million high estimate on 29 September."
+     },
+     {
+      "lead": "The report is silent.",
+      "text": "It does not appear among the five top lots of the 6 October sale. Whether it was not offered or did not sell is not stated."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Within weeks",
+    "what": "Whether Poly Auction publishes a sale total, lot count or sell-through rate for the 6 October sale."
+   },
+   {
+    "when": "Within weeks",
+    "what": "Whether the 39-bead jadeite necklace previewed on 29 September reappears in a later Poly catalogue."
+   },
+   {
+    "when": "Hong Kong autumn season",
+    "what": "Whether Burmese ruby and sapphire lots keep clearing above estimate at other Hong Kong houses."
+   }
+  ],
+  "depth": {
+   "reverse": "A published sale total showing a weak sell-through, which would make five strong named lots the exception rather than the read. A report that names only the top five jewels cannot distinguish a firm sale from a thin one with a good top end.",
+   "built": {
+    "title": "Why a top-five list is weak evidence",
+    "text": "An auction house's own summary of its best lots is selected, not sampled. It tells you the ceiling and nothing about the floor, because unsold lots and lots that cleared below estimate are not the material a house promotes. Three specific limits apply here. There is no sell-through rate, so the proportion of the book that found buyers is unknown. There is no aggregate, so the five named prices cannot be set against the sale's size. And the figures quoted are hammer prices as reported, with buyer's premium on top, so what a buyer paid is higher than any number here. The one piece of genuine information in a list like this is internal contradiction: when a signed suite goes below its low estimate in the same room where an unsigned pair of earrings doubles its high, the useful read is about which category the room wanted, not about whether the sale was good."
+   },
+   "method": "Rapaport's report was fetched to raw bytes with a browser identity, HTTP 200, 224,882 bytes, saved to newsroom/sources/2026-10-09/poly.html, and every figure was read out of the article's own body paragraphs rather than from a whole-page sweep, because the page carries recirculation rails whose figures belong to other stories. Raw-byte grep counts stated, each 1 hit: '1.8 million', '235,488', '900,000', '114,686', '840,000', '107,040', '756,000', '96,337', '456,000', '58,106', 'October 6'; '31.80' 3 hits and '31.33' 11 hits, both resolved by reading the sentence rather than by counting. Estimates were bound to their own lots by reading each price-and-estimate pair as a single block in sequence, not by pattern-matching numbers across a flattened page. The 2.16 times figure is Carat Capital's own division and is printed with its terms. Archive check, searched in website/content/articles.json, the archive of record: '235,488' 0 hits. 'Poly Auction' 3 string hits in 1 article, opened and read in full: twenty-five-million-for-thirty-nine-beads of 29 September 2026. PERIOD AND EVENT NAMED ON BOTH SIDES: ours 2026-09-29 covers a preview of a 39-bead jadeite necklace with an HKD 25 million high estimate | this item covers the results of Poly Auction's High Jewelry and Important Watches sale held 6 October 2026 - SAME HOUSE, PREVIEW PREVIOUSLY, RESULTS NOW, DIFFERENT SALE AND PERIOD, so ADVANCED, not a repeat. The preview lot's absence from this sale's top five is reported as an absence rather than explained, and the report's silence on it is stated.",
+   "prior": [
+    {
+     "date": "2026-09-29",
+     "slug": "twenty-five-million-for-thirty-nine-beads",
+     "claim": "Poly Auction put an HKD 25 million high estimate on a 39-bead jadeite necklace."
+    },
+    {
+     "date": "2026-09-30",
+     "slug": "twenty-three-thirty-four-tops-hong-kong",
+     "claim": "A 23.34-carat yellow diamond topped Phillips Hong Kong at HKD 4.3 million."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Van Cleef Sapphire Necklace Takes Top Spot at Poly Auction, Rapaport News",
+     "url": "https://rapaport.com/news/van-cleef-sapphire-necklace-takes-top-spot-at-poly-auction/",
+     "published": "2026-10-08"
+    }
+   ]
+  },
+  "next": {
+   "slug": "twenty-five-million-for-thirty-nine-beads"
+  }
+ },
+ "five-watches-and-no-reserve": {
+  "v": 3,
+  "kicker": "Government sale",
+  "figures": {
+   "asof": "Wilsons Auctions statement of Thursday 8 October 2026 for a sale running 29 to 30 October 2026",
+   "cells": [
+    {
+     "n": "GBP 1m",
+     "dir": "flat",
+     "label": "Five seized watches, as a group",
+     "q": "$1.3m; the lots reaching sale",
+     "src": 0
+    },
+    {
+     "n": "GBP 7m",
+     "dir": "flat",
+     "label": "Spent on watches, HMRC finding",
+     "q": "$9.2m over three years",
+     "src": 0
+    },
+    {
+     "n": "24 hours",
+     "dir": "flat",
+     "label": "Online sale window",
+     "q": "29 Oct 11 a.m. to 30 Oct 11 a.m. GMT",
+     "src": 0
+    },
+    {
+     "n": "No reserve",
+     "dir": "flat",
+     "label": "Every lot",
+     "q": "sold at any hammer price",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Forfeited watches reach a sale.",
+   "text": "Wilsons Auctions will sell watches forfeited from an HMRC payroll-fraud investigation without reserve over 24 hours from 29 October. Five seized timepieces are worth around GBP 1 million as a group."
+  },
+  "means": [
+   {
+    "who": "If you collect independents:",
+    "text": "A Philippe Dufour Simplicity with no reserve is the rarest combination here. The one watch that never needs a floor is being sold without one."
+   },
+   {
+    "who": "If you broker watches:",
+    "text": "An unreserved government sale is public price discovery on references that normally trade privately. It will be quoted at you afterwards."
+   },
+   {
+    "who": "If you insure or appraise:",
+    "text": "The forfeiture chain is complete and the seller is acting for government bodies, so title is not the open question here."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A valuation, and not a GBP 7 million sale. That figure is what HMRC found was spent on watches over three years, not the value of the lots on offer."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "What is published and what is not",
+   "asof": "As stated by Wilsons Auctions on 8 October 2026",
+   "cols": [
+    "Item",
+    "Figure or detail",
+    "Status"
+   ],
+   "rows": [
+    [
+     "Five seized timepieces, as a group",
+     "around GBP 1 million ($1.3 million)",
+     "Published"
+    ],
+    [
+     "Spent on luxury watches, HMRC finding",
+     "more than GBP 7 million ($9.2 million)",
+     "Published; three-year period"
+    ],
+    [
+     "Sale window",
+     "29 Oct 11 a.m. to 30 Oct 11 a.m. GMT",
+     "Published; online, 24 hours"
+    ],
+    [
+     "Lead lot",
+     "Philippe Dufour Simplicity, 18k rose gold",
+     "Published; launched 2000"
+    ],
+    [
+     "Estimate per lot",
+     "none",
+     "Not published"
+    ],
+    [
+     "Total lot count",
+     "none",
+     "Not published"
+    ]
+   ],
+   "hi": 1,
+   "note": "The two published money figures measure different things and are not comparable. GBP 1 million is a seizure value attached to five watches as a group. GBP 7 million is what HMRC's investigation found had been spent on luxury watches over a three-year period, of which the sale lots are a subset. No estimate has been published for any individual lot, and a no-reserve format removes the floor rather than the ceiling.",
+   "plate": "CC/2026/263"
+  },
+  "sections": [
+   {
+    "h": "A payroll-fraud investigation",
+    "p": [
+     {
+      "lead": "Seven million spent.",
+      "text": "HMRC investigated suspected payroll fraud in the United Kingdom. It found more than GBP 7 million had been spent on luxury watches over three years."
+     },
+     {
+      "lead": "Five seized watches.",
+      "text": "Its findings included five timepieces worth around GBP 1 million, seized from an individual attempting to leave the country, later forfeited."
+     }
+    ]
+   },
+   {
+    "h": "No reserve on anything",
+    "p": [
+     {
+      "lead": "Every lot sells.",
+      "text": "Wilsons is selling as proceeds of crime for United Kingdom government bodies and law enforcement. It says it will sell every watch whatever the hammer price."
+     },
+     {
+      "lead": "Twenty-four hours only.",
+      "text": "The Unreserved Government Auction runs online from 29 October at 11 a.m. to 30 October at 11 a.m. GMT."
+     }
+    ]
+   },
+   {
+    "h": "A Simplicity leads it",
+    "p": [
+     {
+      "lead": "Dufour at the front.",
+      "text": "The Philippe Dufour Simplicity leading the sale was launched in 2000 and has an 18-karat rose gold case, a white dial and leather straps."
+     },
+     {
+      "lead": "Four more named.",
+      "text": "A Patek Philippe Perpetual Calendar Split Seconds Chronograph, two Audemars Piguet Royal Oaks and an Omega Speedmaster Racing are also listed."
+     }
+    ]
+   },
+   {
+    "h": "Two figures never given",
+    "p": [
+     {
+      "lead": "No estimates published.",
+      "text": "Wilsons has published no estimate for any individual lot. The GBP 1 million is the only figure bounding the five seized watches, and it covers them as a group."
+     },
+     {
+      "lead": "No lot count.",
+      "text": "The house has not said how many lots the sale carries in total, so the named watches cannot be sized against the book."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "29 to 30 October 2026",
+    "what": "The 24-hour online window, and what an unreserved Dufour Simplicity clears at in public."
+   },
+   {
+    "when": "Before 29 October 2026",
+    "what": "Whether Wilsons publishes a catalogue with per-lot estimates and a total lot count."
+   },
+   {
+    "when": "After the sale",
+    "what": "Whether the results are quoted as comparables for Dufour and Royal Oak references that normally trade privately."
+   }
+  ],
+  "depth": {
+   "reverse": "A withdrawal of lots before the window, or a catalogue that turns out to carry reserves on some material. The no-reserve claim and the GBP 1 million seizure figure both rest on the auction house's own statement, with no HMRC publication cited and no per-lot estimate to check them against.",
+   "built": {
+    "title": "What no reserve actually removes",
+    "text": "A reserve is a confidential minimum below which a lot will not sell, usually set at or below the low estimate. Removing it does two things and not a third. It guarantees a sale, which is why government and insolvency sellers use the format: the mandate is to convert assets, not to defend a price. And it changes bidder behaviour at the bottom of the book, because the opening bid no longer has to clear a hidden floor. What it does not do is cap the price. An unreserved sale of scarce references can clear well above a reserved one, because the removal of the floor pulls in bidders who then compete. The consequence for anyone reading the results afterwards is that a no-reserve result is a real transaction price but a poor comparable: it was produced under a selling constraint that a private owner does not face, and it carries buyer's premium on top of whatever is reported."
+   },
+   "method": "Rapaport's report was fetched to raw bytes with a browser identity, HTTP 200, 219,620 bytes, saved to newsroom/sources/2026-10-09/wilsons.html, and figures were read out of the article's own body paragraphs rather than from a whole-page sweep. Raw-byte grep counts stated, each 1 hit: 'GBP 7 million', '9.2 million', 'GBP 1 million', '1.3 million', 'October 29', 'October 30', '24 hours'. The two money figures were deliberately kept apart in every layer because they measure different things and the headline figure of the two is the smaller one. The sale date is published in the source body, which corrects the Bureau's own flag that the timing was not stated. Archive check, searched in website/content/articles.json, the archive of record: 'Wilsons' 0 hits; 'Dufour' 0 hits; 'Simplicity' searched and returns nothing relevant. 'HMRC' 3 string hits in 1 article, opened and read in full: hmrc-seeks-to-wind-up-a-petra-unit of 5 October 2026. PERIOD AND MATTER NAMED ON BOTH SIDES: ours 2026-10-05 covers an HMRC winding-up petition against Petra Diamonds UK Treasury over GBP 5.65 million, advertised in September 2026 | this item covers an HMRC payroll-fraud forfeiture reaching auction on 29 to 30 October 2026 - SAME AGENCY, DIFFERENT PROCEEDING, DIFFERENT PARTIES, DIFFERENT PERIOD, so NEW, not a repeat.",
+   "prior": [
+    {
+     "date": "2026-10-05",
+     "slug": "hmrc-seeks-to-wind-up-a-petra-unit",
+     "claim": "HMRC sought to wind up Petra Diamonds UK Treasury over GBP 5.65 million."
+    },
+    {
+     "date": "2026-10-08",
+     "slug": "seven-hundred-thousand-on-a-voutilainen",
+     "claim": "A Voutilainen 28Sport reached $700,000, 2.9 times its estimate, at Phillips New York."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Sale to Offer Watches Seized in Multimillion-Pound Fraud, Rapaport News",
+     "url": "https://rapaport.com/news/sale-to-offer-watches-seized-in-multimillion-pound-fraud/",
+     "published": "2026-10-08"
+    }
+   ]
+  },
+  "next": {
+   "slug": "seven-hundred-thousand-on-a-voutilainen"
+  }
+ },
+ "forty-euros-once-per-shipment": {
+  "v": 3,
+  "kicker": "Trade costs",
+  "figures": {
+   "asof": "AWDC notice dated Wednesday 30 September 2026, applying from the September invoicing cycle on invoices issued 2 October 2026",
+   "cells": [
+    {
+     "n": "EUR 40",
+     "dir": "flat",
+     "label": "Diamond Office minimum fee",
+     "q": "rate unchanged; levied once per shipment",
+     "src": 0
+    },
+    {
+     "n": "EUR 100,000",
+     "dir": "flat",
+     "label": "Shipment value ceiling",
+     "q": "all lines combined; a cliff, not a taper",
+     "src": 0
+    },
+    {
+     "n": "EUR 160",
+     "dir": "down",
+     "label": "Saved on a five-line shipment",
+     "q": "CC arithmetic, 5x40 against 1x40",
+     "src": 0
+    },
+    {
+     "n": "2 Oct",
+     "dir": "flat",
+     "label": "First invoices affected",
+     "q": "September invoicing cycle",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "The fee stopped multiplying.",
+   "text": "AWDC will charge its EUR 40 Diamond Office minimum fee once per shipment of polished diamonds, not once per declaration line. The rule applies below EUR 100,000."
+  },
+  "means": [
+   {
+    "who": "If you ship small parcels:",
+    "text": "Consolidate declaration lines inside one shipment, and check whether your October invoice already carries the change."
+   },
+   {
+    "who": "If you ship above the ceiling:",
+    "text": "Nothing changed for you. The cliff at EUR 100,000 is now worth thinking about when a shipment is valued and split."
+   },
+   {
+    "who": "If you compete with Antwerp:",
+    "text": "This is a small, specific cost cut aimed at exactly the low-value polished flow that moves most easily between centres."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A duty or tariff change, and not a rate cut. The Diamond Office fee is AWDC's own administrative charge. The EUR 40 rate is unchanged; only the number of times it is levied has moved."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "What a qualifying shipment pays",
+   "asof": "Carat Capital's arithmetic on AWDC's stated rule, for a shipment worth under EUR 100,000",
+   "cols": [
+    "Declaration lines",
+    "Before",
+    "From 2 Oct",
+    "Saved"
+   ],
+   "rows": [
+    [
+     "1 line",
+     "EUR 40",
+     "EUR 40",
+     "EUR 0"
+    ],
+    [
+     "2 lines",
+     "EUR 80",
+     "EUR 40",
+     "EUR 40"
+    ],
+    [
+     "5 lines",
+     "EUR 200",
+     "EUR 40",
+     "EUR 160"
+    ],
+    [
+     "10 lines",
+     "EUR 400",
+     "EUR 40",
+     "EUR 360"
+    ]
+   ],
+   "hi": 2,
+   "note": "Every figure in this table is Carat Capital's own multiplication of AWDC's stated EUR 40 minimum fee by a line count, not a figure AWDC published. AWDC has not published the distribution of declaration lines per shipment, so the average saving per shipment cannot be computed from anything on the record and none is asserted here. The table applies only where the total value of all lines combined is less than EUR 100,000, and only to minimum-fee lines.",
+   "plate": "CC/2026/264"
+  },
+  "sections": [
+   {
+    "h": "Once per shipment, not line",
+    "p": [
+     {
+      "lead": "Forty euros, once.",
+      "text": "Where multiple minimum-fee lines would apply to a polished shipment, AWDC will now charge the EUR 40 minimum once for the whole shipment."
+     },
+     {
+      "lead": "From the September cycle.",
+      "text": "The notice is dated Wednesday 30 September 2026 and applies from the September invoicing cycle, on invoices issued 2 October 2026."
+     }
+    ]
+   },
+   {
+    "h": "The threshold is a cliff",
+    "p": [
+     {
+      "lead": "Under one hundred thousand.",
+      "text": "The rule applies only where the total value of the entire shipment, all lines combined, is less than EUR 100,000."
+     },
+     {
+      "lead": "No taper, no indexation.",
+      "text": "A five-line shipment at EUR 99,999 now pays EUR 40 where it once paid EUR 200. AWDC's notice gives no tapering mechanism and no indexation."
+     }
+    ]
+   },
+   {
+    "h": "Who this is aimed at",
+    "p": [
+     {
+      "lead": "Regular small shippers.",
+      "text": "AWDC says the adjustment aims to reduce costs for companies that regularly import or export polished shipments with a total value below EUR 100,000."
+     },
+     {
+      "lead": "Stops fees accumulating.",
+      "text": "The stated purpose is to prevent Diamond Office fees from unnecessarily accumulating when a shipment consists of multiple declaration lines."
+     }
+    ]
+   },
+   {
+    "h": "Nine days to verify",
+    "p": [
+     {
+      "lead": "First reachable morning.",
+      "text": "The notice is dated 30 September and reached Carat Capital's sweep on 9 October. Its age is stated rather than hidden."
+     },
+     {
+      "lead": "Fees, not volumes.",
+      "text": "AWDC has appeared in Carat Capital five times on rough imports and trade volumes. Its Diamond Office fee schedule has not been reported here before."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "October 2026 invoices",
+    "what": "Whether the September-cycle invoices issued 2 October carry one minimum fee per qualifying shipment rather than one per line."
+   },
+   {
+    "when": "Within months",
+    "what": "Whether AWDC publishes any data on how many shipments qualify, which would let the saving be sized."
+   },
+   {
+    "when": "Next AWDC fee notice",
+    "what": "Whether the EUR 100,000 ceiling is indexed or tapered, or stays a hard cliff."
+   }
+  ],
+  "depth": {
+   "reverse": "An October invoice that still carries a minimum fee per line on a qualifying shipment, or an AWDC clarification narrowing which lines count as minimum-fee lines. The rule is published but its first application has not yet been observed from outside.",
+   "built": {
+    "title": "Why a per-line fee punishes small parcels",
+    "text": "A customs declaration for a diamond shipment is broken into lines, typically one per distinct description, origin or tariff code. A fee levied per line is therefore a fee on the complexity of the parcel rather than on its value, and complexity does not scale down with value: a small mixed parcel of polished goods can carry as many lines as a large one. The result is a regressive charge, where a EUR 5,000 shipment across six lines pays the same administrative cost as a EUR 500,000 shipment across six lines, and a far higher cost as a share of value. Charging the minimum once per shipment removes that regressivity below the threshold and leaves it intact above. The reason a ceiling exists at all is that above it the fee is no longer a minimum: a value-based fee takes over and the minimum stops binding, which is why the rule is written as applying only to minimum-fee lines and only below EUR 100,000."
+   },
+   "method": "AWDC's own notice page was fetched to raw bytes with a browser identity, HTTP 200, 129,721 bytes, saved to newsroom/sources/2026-10-09/awdc.html, and read as the primary rather than through trade press. The page body was isolated from its related-news rail before any figure was taken, because that rail carries three earlier Diamond Office items whose figures belong to other notices. Raw-byte grep counts stated: 'EUR 40' as the euro-sign form 4 hits, the euro-sign form of 100,000 2 hits, 'once per shipment' 3 hits, 'October 2' 2 hits, '30 September' 1 hit. Quoted from the page's own text: the minimum fee 'will from now on be charged only once per shipment, instead of per line' and 'This applies only when the total value of the entire shipment (all lines combined) is less than EUR 100,000'. Every figure in the table is Carat Capital's own multiplication and is labelled as such; no average saving is asserted because AWDC publishes no line-count distribution. Archive check, searched in website/content/articles.json, the archive of record: 'Diamond Office' 0 hits. 'AWDC' 5 string hits in 3 articles, each opened and read: small-stones-lead-the-turn of 14 July 2026 on polished repricing, one-fifty-one-sixty-a-carat of 28 August 2026 on July rough imports at $151.60 a carat, and de-wever-goes-to-mumbai of 6 September 2026 on Antwerp trade volumes. PERIOD AND SUBJECT NAMED ON BOTH SIDES: ours cover AWDC's monthly rough import series for July 2026 and its trade-volume statements in September 2026 | this item covers an AWDC administrative fee rule dated 30 September 2026 and effective from the September invoicing cycle - SAME BODY, DIFFERENT SUBJECT ENTIRELY, so NEW, not a repeat. Age is disclosed: the notice is nine days old at publication and no new-today angle is claimed for it.",
+   "prior": [
+    {
+     "date": "2026-08-28",
+     "slug": "one-fifty-one-sixty-a-carat",
+     "claim": "Antwerp's July rough imports averaged $151.60 a carat on the lowest monthly volume in the series."
+    },
+    {
+     "date": "2026-09-06",
+     "slug": "de-wever-goes-to-mumbai",
+     "claim": "AWDC said Antwerp had lost 30% of the volume and value of goods traded."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Lower Diamond Office Fees for Shipments Containing Polished Diamonds, AWDC",
+     "url": "https://www.awdc.be/news/news/lower-diamond-office-fees-shipments-containing-polished-diamonds",
+     "published": "2026-09-30"
+    }
+   ]
+  },
+  "next": {
+   "slug": "one-fifty-one-sixty-a-carat"
+  }
+ },
+ "gold-opens-at-four-one-eighty-eight": {
+  "v": 3,
+  "kicker": "Metals",
+  "figures": {
+   "asof": "Kitco bid at the tape's 05:00 ET opening mark, 9 October 2026, against the marks last printed here on 8 October 2026",
+   "cells": [
+    {
+     "n": "$4,188.10",
+     "dir": "up",
+     "label": "Gold spot, Kitco bid",
+     "q": "+$67.10, +1.63% on the prior printed mark",
+     "src": 4
+    },
+    {
+     "n": "$60.26",
+     "dir": "up",
+     "label": "Silver spot, Kitco bid",
+     "q": "+2.56%",
+     "src": 4
+    },
+    {
+     "n": "$1,686.00",
+     "dir": "up",
+     "label": "Platinum spot, Kitco bid",
+     "q": "+2.68%, the largest move",
+     "src": 4
+    },
+    {
+     "n": "$666",
+     "dir": "down",
+     "label": "Lab-grown 1.00ct reference",
+     "q": "from $669, second session lower",
+     "src": 2
+    }
+   ]
+  },
+  "changed": {
+   "lead": "All four metals opened up.",
+   "text": "Gold opened at $4,188.10 on Kitco's bid, up 1.63% on the prior printed mark. Silver, platinum and palladium rose with it, platinum most at 2.68%."
+  },
+  "means": [
+   {
+    "who": "If you quote metal daily:",
+    "text": "Platinum is the number. A 2.68% session on a metal with a $10 published spread is a move the spread cannot explain."
+   },
+   {
+    "who": "If you hedge:",
+    "text": "Two boards agreeing on direction and disagreeing on magnitude is the normal morning. Fix the baseline before the percentage."
+   },
+   {
+    "who": "If you price lab-grown goods:",
+    "text": "The one-carat reference eased to $666 from $669. Two sessions down is not a trend, and none is called here."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A settlement or an intraday high. These are the 05:00 ET opening marks the tape carries, filed as an intraday snapshot well before the United States day session."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Two baselines, one set of opening prices",
+   "asof": "Kitco bid at the 05:00 ET mark, 9 October 2026; prior marks from the tape file of 8 October; CNBC previous closes from its own quote feed",
+   "cols": [
+    "Metal",
+    "Open (Kitco bid)",
+    "Change vs our prior mark",
+    "Change vs CNBC prev close"
+   ],
+   "rows": [
+    [
+     "Gold",
+     "$4,188.10",
+     "+1.63% (from $4,121.00)",
+     "+1.31% (from $4,133.93)"
+    ],
+    [
+     "Silver",
+     "$60.26",
+     "+2.56% (from $58.757)",
+     "+1.55% (from $59.3425)"
+    ],
+    [
+     "Platinum",
+     "$1,686.00",
+     "+2.68% (from $1,642.00)",
+     "+3.17% (from $1,634.25)"
+    ],
+    [
+     "Palladium",
+     "$1,139.00",
+     "+2.24% (from $1,114.00)",
+     "+1.42% (from $1,123.0633)"
+    ]
+   ],
+   "hi": 2,
+   "note": "The two change columns are not alternatives and neither is wrong. The left column runs off the last mark printed here, which is what the One-Price Rule requires and what the tape carries. The right column runs off CNBC's own previous-close field for the same instrument and is Carat Capital's own division, shown so the two cannot be confused: for gold, 4,188.10 divided by 4,133.93 gives 1.0131, which is 1.31% above. Direction agrees on all four metals on both baselines. The RapNet 1.00ct index reads 3,903.82 for 8 October, down 2.19 on the 3,906.01 last printed here; Zimnisky's rough index stays paywalled with no citable figure.",
+   "plate": "CC/2026/265"
+  },
+  "sections": [
+   {
+    "h": "Four metals, one direction",
+    "p": [
+     {
+      "lead": "Gold forty-one eighty-eight.",
+      "text": "Gold opened at $4,188.10 an ounce on Kitco's bid, up $67.10 on the prior printed mark of $4,121.00."
+     },
+     {
+      "lead": "One point six three.",
+      "text": "That is a 1.63% move. Platinum opened at $1,686.00, up 2.68%, the largest percentage gain of the four."
+     },
+     {
+      "lead": "Silver and palladium.",
+      "text": "Silver rose 2.56% and palladium 2.24%. All four metals moved in the same direction, which makes this a broad rally rather than one metal moving alone."
+     }
+    ]
+   },
+   {
+    "h": "The baseline changes it",
+    "p": [
+     {
+      "lead": "Prior mark, not settlement.",
+      "text": "Every change above runs off the last mark printed here, not off an exchange settlement. That mark is carried from the tape file of 8 October 2026."
+     },
+     {
+      "lead": "CNBC closes differ.",
+      "text": "Against CNBC's own previous closes the same opening prices give 1.31% on gold and 1.55% on silver."
+     },
+     {
+      "lead": "Platinum widest there.",
+      "text": "On that baseline platinum gives 3.17% and palladium 1.42%. Direction agrees on all four metals on both baselines."
+     }
+    ]
+   },
+   {
+    "h": "Two lasts outside the band",
+    "p": [
+     {
+      "lead": "Gold fifty-three cents.",
+      "text": "CNBC's gold last of $4,187.57 sits $0.53 below Kitco's bid, 0.0127% outside Kitco's own bid-ask band."
+     },
+     {
+      "lead": "Platinum two dollars.",
+      "text": "CNBC's platinum last of $1,683.95 sits $2.05 below Kitco's bid, 0.1216% outside the band. Silver and palladium sit inside theirs."
+     }
+    ]
+   },
+   {
+    "h": "Diamonds on the same tape",
+    "p": [
+     {
+      "lead": "Six sixty-six.",
+      "text": "The lab-grown one-carat reference eased to $666 from $669 on CaratRadar, a second consecutive session lower."
+     },
+     {
+      "lead": "Listings and index.",
+      "text": "The same page carried 924,229 active listings and a market price index of $1,473."
+     },
+     {
+      "lead": "RAPI lags a session.",
+      "text": "The RapNet Diamond Index for one-carat goods reads 3,903.82 dated 8 October, down 2.19 on the level last printed here."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Later on 9 October 2026",
+    "what": "Whether the United States day session holds the opening marks or gives them back, and where the metals settle."
+   },
+   {
+    "when": "Monday 12 October 2026",
+    "what": "The next scheduled refresh of the retail price lists on caratcapital.org, last dated 5 October."
+   },
+   {
+    "when": "Each session",
+    "what": "Whether the lab-grown 1.00-carat reference makes a third consecutive move down, which would be the first sign of a trend."
+   }
+  ],
+  "depth": {
+   "reverse": "A day session that gives back the opening gains, which would make this a story about an early bid rather than about a metals rally. An opening mark is the weakest price evidence in a trading day, and the tape files it as an intraday snapshot for exactly that reason.",
+   "built": {
+    "title": "Why the baseline matters more than the move",
+    "text": "A percentage change is two numbers, and only one of them is the price. The denominator is a prior close, and different boards keep different ones: a spot aggregator's prior mark, an exchange settlement, and a quote vendor's previous-close field are three distinct series that can disagree by several dollars on the same metal on the same morning. This paper's rule is that the denominator is always its own last printed mark, looked up from the dated tape file rather than derived, so that a change the paper prints is a change against something a reader can find in the paper. That makes the paper internally consistent and it makes the paper's percentages not directly comparable with a vendor's. Both baselines are therefore printed side by side here. The bid-ask band is the second thing to hold onto: a quote from one board sitting slightly below another board's bid is a spread artefact, not a disagreement about the price, and the only honest treatment is to state the gap in dollars and as a share rather than to pick a winner."
+   },
+   "method": "Under the One-Price Rule this edition prints the tape's 05:00 ET opening mark as filed. No metals story leads this edition, so no press-time re-read was performed and no write-back to the tape was required; the 05:00 mark stands and prints as-is, and newsroom/tape/2026-10-09.json and newsroom/tape/latest.json were checked to agree before publication, gold 4188.1 in both - MATCH. The prices themselves were read by the prices desk from Kitco's board, 197,082 bytes, HTTP 200, with its embedded originalTime fields reading 2026-10-09T04:58:57.52Z, .55Z and .577Z for gold, silver and platinum and 04:57:57.64Z for palladium - fractions of a second apart, which is a live ticking board rather than a stale close. The second board was CNBC's quote endpoint for XAU=, XAG=, XPT= and XPD=, 3,334 bytes, HTTP 200, whose curmktstatus field read REG_MKT on all four. MARKET STATE READ OFF THE BOARD, not from a calendar: both boards were live and ticking this morning and no closure is claimed. Prior marks were looked up and never derived: tools/prev-mark.py was run against newsroom/tape/2026-10-08.json and returned gold 4121.0, silver 58.757, platinum 1642.0, palladium 1114.0, labgrown 669 and RAPI 3906.01, and every prior figure printed here is copied from that output. The CNBC-baseline column is Carat Capital's own division from CNBC's own previous_day_closing fields and is shown with its arithmetic. The lab-grown figure was read from CaratRadar's raw bytes, 116,848 bytes, HTTP 200, whose own sentence reads 'a 1ct average of $666'; raw-byte greps on the saved file returned 3 hits for '$666', 3 for '924,229' and 3 for '$1,473'. RAPI came from tools/rapi_fetch.py, whose newest daily point is 3,903.82 dated 2026-10-08; the source's own prior point for 7 October now reads 3,906.16 rather than the 3,906.01 this paper printed, so the two day-over-day reads differ and are reported separately rather than blended. Zimnisky was re-knocked at 137,286 bytes, HTTP 200, and its text searched for any dollar or percentage figure with zero hits, so the rough index stays paywalled rather than unreachable. Builder-literal check run before this edition built: no reader-facing figure is a quoted literal in build.py.",
+   "prior": [
+    {
+     "date": "2026-10-08",
+     "slug": "silver-sheds-two-twelve-at-press-time",
+     "claim": "Silver shed 2.12% to $58.757 while gold and platinum gained at press time."
+    },
+    {
+     "date": "2026-09-27",
+     "slug": "six-seventy-one-and-sixty-six-fifty-one",
+     "claim": "India's polished carat fetched $671.39 and its grown carat $66.51."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Kitco precious metals price board, bid and ask",
+     "url": "https://www.kitco.com/price/precious-metals",
+     "published": "2026-10-09"
+    },
+    {
+     "title": "CNBC quote feed, XAU= XAG= XPT= XPD=, last and previous close",
+     "url": "https://www.cnbc.com/quotes/XAU=",
+     "published": "2026-10-09"
+    },
+    {
+     "title": "CaratRadar lab-grown diamond price page, 1.00ct average",
+     "url": "https://caratradar.com/diamond-prices/lab-grown-diamonds/",
+     "published": "2026-10-09"
+    },
+    {
+     "title": "Rapaport Diamond Price Index, RAPI 1.00ct daily series",
+     "url": "https://rapaport.com/diamond-price-index/",
+     "published": "2026-10-08"
+    },
+    {
+     "title": "Carat Capital, Silver sheds 2.12% to $58.757 as gold and platinum gain, 8 October 2026 (the prior marks this article runs its changes off)",
+     "url": "https://caratcapital.org/a-silver-sheds-two-twelve-at-press-time.html",
+     "published": "2026-10-08"
+    }
+   ]
+  },
+  "next": {
+   "slug": "silver-sheds-two-twelve-at-press-time"
   }
  }
 }
