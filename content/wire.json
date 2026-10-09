@@ -43,13 +43,13 @@
    "title": "Gold opens at $4,188.10 and silver gains 2.56% on Kitco"
   }
  ],
- "tape_ts": "Kitco bid, board stamp 2026-10-08T06:00:58Z, press-time read 8 Oct 06:06 EDT",
+ "tape_ts": "Kitco bid, board stamp 2026-10-09T04:58:57Z, tape's 05:00 ET opening mark 9 Oct",
  "tape": [
   {
    "name": "Gold / oz",
    "code": "XAU",
-   "px": "4,121.00",
-   "chg": "+0.0874% vs 7 Oct mark",
+   "px": "4,188.10",
+   "chg": "+1.6283% vs 8 Oct mark",
    "dir": "up",
    "pts": [
     2,
@@ -105,8 +105,8 @@
   {
    "name": "Platinum / oz",
    "code": "XPT",
-   "px": "1,642.00",
-   "chg": "+0.4896% vs 7 Oct mark",
+   "px": "1,686.00",
+   "chg": "+2.6797% vs 8 Oct mark",
    "dir": "up",
    "pts": [
     2,
@@ -124,9 +124,9 @@
   {
    "name": "Silver / oz",
    "code": "XAG",
-   "px": "58.757",
-   "chg": "−2.1190% vs 7 Oct mark",
-   "dir": "down",
+   "px": "60.26",
+   "chg": "+2.5582% vs 8 Oct mark",
+   "dir": "up",
    "pts": [
     2,
     2,

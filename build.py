@@ -3284,6 +3284,13 @@ def index_page():
     spot_ag_txt = (xag or {}).get("px", "63.99")
     spot = _num(xau["px"]) if xau else 4341.30
     spot_txt = (xau or {}).get("px", "4,341.30")
+    # The Bench's server-rendered first paint is DRIVEN FROM THE TAPE, never a
+    # literal (chief, 2026-09-23). Mirrors bench() in home_template.html exactly:
+    # 1 g (the grams input's own default), 18ct = 0.750, OZT 31.1035.
+    _OZT, _G, _PUR = 31.1035, 1, 0.750
+    _pg = spot / _OZT
+    melt_val = "$%s" % format(_G * _pg * _PUR, ",.2f")
+    melt_der = "%d g &times; 18ct (75.0%%) &times; $%s/g fine" % (_G, format(_pg, ",.2f"))
     asof = WIRE.get("tape_ts") or WIRE.get("date_line") or ""
     # The Bench carries a stamp, not the Editor's whole audit note: keep the
     # date and the source, drop the prose that follows the first clause.
@@ -3454,6 +3461,7 @@ def index_page():
       "__ARTS_JSON__": _json.dumps(arts),
       "__BOARD_JSON__": _json.dumps(board),
       "__SPOT__": "%.2f" % spot, "__SPOT_TXT__": spot_txt,
+      "__MELT_VAL__": melt_val, "__MELT_DER__": melt_der,
       "__SPOT_AG__": "%.2f" % spot_ag, "__SPOT_AG_TXT__": spot_ag_txt,
       "__SPOT_AG_LINE__": "SILVER %s / OZ &middot; %s" % (spot_ag_txt, str((xag or {}).get("chg","")).upper()),
       "__SPOT_LINE__": "GOLD %s / OZ &middot; %s" % (spot_txt, str((xau or {}).get("chg","")).upper()),
