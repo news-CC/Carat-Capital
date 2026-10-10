@@ -1,55 +1,55 @@
 {
- "date_line": "Friday, October 9, 2026 | Vol. I - No. 085",
- "edition": "Vol. I - No. 085",
+ "date_line": "Saturday, October 10, 2026 | Vol. I - No. 086",
+ "edition": "Vol. I - No. 086",
  "items": [
   {
-   "slug": "sixty-six-five-for-ninety-five-of-ebel",
-   "desk": "Watches",
-   "title": "Movado sells 95% of EBEL for $66.5 million, keeps 5%"
+   "slug": "one-hundred-stores-back-to-the-family",
+   "desk": "Retail & Technology",
+   "title": "Sherwood family buys back Daniel's 100 stores from PE"
   },
   {
-   "slug": "twenty-four-carats-at-eighteen-million",
+   "slug": "one-point-two-million-and-no-sale",
    "desk": "Auctions",
-   "title": "24-carat pink diamond carries a CHF 15 million high estimate"
+   "title": "£1.2 million stops short of an 8.03-carat blue's reserve"
   },
   {
-   "slug": "twenty-three-showrooms-become-stores",
-   "desk": "Retail & Technology",
-   "title": "23 Blue Nile showrooms convert to stores with inventory"
-  },
-  {
-   "slug": "one-ninety-companies-and-nine-hundred-stores",
-   "desk": "Retail & Technology",
-   "title": "Over 190 companies and 900 stores join India's gold audit"
-  },
-  {
-   "slug": "one-eight-million-on-a-sapphire",
-   "desk": "Coloured Stones",
-   "title": "HKD 1.8 million tops Poly Auction's Hong Kong jewellery sale"
-  },
-  {
-   "slug": "five-watches-and-no-reserve",
-   "desk": "Watches",
-   "title": "Five seized watches worth GBP 1 million go to no-reserve sale"
-  },
-  {
-   "slug": "forty-euros-once-per-shipment",
+   "slug": "twenty-percent-the-cutters-want-back",
    "desk": "Diamonds",
-   "title": "AWDC charges its EUR 40 Diamond Office fee once per shipment"
+   "title": "Surat's cutters ask for the 20% their wages lost"
   },
   {
-   "slug": "gold-opens-at-four-one-eighty-eight",
+   "slug": "ninety-percent-sanctioned-without-an-officer",
+   "desk": "Diamonds",
+   "title": "GST Council puts 90% of export refunds on automation"
+  },
+  {
+   "slug": "nine-months-and-twenty-seven-point-four",
    "desk": "Gold & Metals",
-   "title": "Gold opens at $4,188.10 and silver gains 2.56% on Kitco"
+   "title": "Nine months take 27.4% off China's brand gold counters"
+  },
+  {
+   "slug": "eighty-one-carats-of-paraiba-in-paris",
+   "desk": "Coloured Stones",
+   "title": "81.17-carat Paraiba leads Bonhams Paris on 29 October"
+  },
+  {
+   "slug": "thirty-eight-percent-paid-in-old-gold",
+   "desk": "Retail & Technology",
+   "title": "Old gold now funds 38% of PNG Jewellers' Q2 sales"
+  },
+  {
+   "slug": "seventeen-styles-from-fifteen-hundred",
+   "desk": "Coloured Stones",
+   "title": "Le Vian prices 17 antique-cushion styles from $1,499.99"
   }
  ],
- "tape_ts": "Kitco bid, board stamp 2026-10-09T04:58:57.52Z, tape's 05:00 ET opening mark 9 Oct",
+ "tape_ts": "Kitco bid, board frozen at 2026-10-09T17:00:00Z, final 9 Oct session (no Saturday session)",
  "tape": [
   {
    "name": "Gold / oz",
    "code": "XAU",
-   "px": "4,188.10",
-   "chg": "+1.6283% vs 8 Oct mark",
+   "px": "4,193.60",
+   "chg": "+0.1313% vs 9 Oct mark",
    "dir": "up",
    "pts": [
     2,
@@ -105,9 +105,9 @@
   {
    "name": "Platinum / oz",
    "code": "XPT",
-   "px": "1,686.00",
-   "chg": "+2.6797% vs 8 Oct mark",
-   "dir": "up",
+   "px": "1,685.00",
+   "chg": "−0.0593% vs 9 Oct mark",
+   "dir": "down",
    "pts": [
     2,
     2,
@@ -124,8 +124,8 @@
   {
    "name": "Silver / oz",
    "code": "XAG",
-   "px": "60.26",
-   "chg": "+2.5582% vs 8 Oct mark",
+   "px": "60.699",
+   "chg": "+0.7285% vs 9 Oct mark",
    "dir": "up",
    "pts": [
     2,
@@ -141,5 +141,5 @@
    ]
   }
  ],
- "editionDate": "2026-10-09"
+ "editionDate": "2026-10-10"
 }

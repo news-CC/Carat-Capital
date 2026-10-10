@@ -1,10 +1,22 @@
 {
- "updated": "7 Oct 2026",
+ "updated": "10 Oct 2026",
  "intro": "Eight weeks of the trade, kept the way a ledger should be kept — dated, sourced, and in one place. New entries are added at the top each week; the quarter's running numbers live in the Almanac below.",
  "weeks": [
   {
    "label": "This week - August 20 to September 23",
    "entries": [
+    {
+     "d": "diamonds",
+     "h": "A home-page card called two older figures “this morning’s tape”",
+     "t": "Corrected 10 October 2026: the home page’s natural-to-lab-grown ratio card (the “8.2×” tile, D—01 Diamonds) printed the line “both figures as carried on this morning’s tape” beneath its arithmetic. Neither figure came from that morning. The natural leg is read from content/prices.json, dated by its own rapi_date field, and the lab-grown leg from content/lab-prices.json, dated by its own trade_date; on 9 October those dates were 7 October and 5 October. The line was a hardcoded string in website/build.py and was generated unconditionally on every build, so it could never have been true except by coincidence; it had been live since at least 29 September. It now prints each leg’s own label and date, read from the two price files at build time, using the same dated-attribution pattern the natural-diamond tape footer three lines above it already used. The RAPI leg has also been moved onto the index’s newest published point, 2026-10-09 at 3,903.03, so the card no longer sits behind this paper’s own reporting. What was right as published: both figures were real, sourced and correctly dated inside their own files, and both pages they link to carried the right date beside the right number. The fault was the claim of freshness wrapped around them, not an invented price.",
+     "s": "Carat Capital, index.html ledger card and website/build.py; newsroom/standards/2026-10-09.md; primary Rapaport RAPI daily series via tools/rapi_fetch.py, 2026-10-09 point"
+    },
+    {
+     "d": "auctions",
+     "h": "Two houses disagree on whether Christie’s published a low estimate",
+     "t": "Disclosed 10 October 2026: “8.17-carat D/IF ring carries $350,000 at Christie’s, no reserve”, published 8 October 2026 in No. 084, reported that no low estimate was published for the sale’s top lot and built a section on the no-reserve term. Rapaport, the source that article used, carried it that way. JCK, writing on 9 October about the same lot in the same sale, states an estimate of $250,000 to $350,000. Carat Capital cannot settle which is right: Christie’s own sale page for Jewels Online New York 24557 was fetched this morning at 978,864 bytes and returns 200, but its lot data is rendered in the browser and the only “8.17” strings in the raw bytes are SVG path coordinates, and the house’s lot-search endpoint returns 404. The two outside reports are therefore printed against each other rather than reconciled, and the $350,000 top of the range — the one figure both carry — is the only estimate this paper stands behind for that lot. Bidding closes 15 October 2026; the result will settle it.",
+     "s": "Carat Capital, a-three-fifty-on-an-eight-seventeen.html; JCK, 9 October 2026; Rapaport; Christie’s sale page for online auction 24557 (fetched 10 October 2026, 200, lot data not readable)"
+    },
     {
      "d": "diamonds",
      "h": "A price list called a two-day-old RAPI point the newest one",

@@ -3368,7 +3368,13 @@ def index_page():
           "ctr": "The same look at a fraction of the ticket. Your case has to answer for the difference, out loud.",
           "viz": {"t":"ratio","a":["Natural",natv,"#8CC5FF"],"b":["Lab",lgdv,"rgba(220,234,245,.30)"]},
           "work": ["%s &divide; %s = %.2f&times;" % (nat["px"], lgd["px"], natv/lgdv),
-                   "both figures as carried on this morning&rsquo;s tape"],
+                   # Dated attribution, read from the price files at build time. Never a
+                   # freshness claim: these two legs refresh on their own schedules and
+                   # are routinely days apart. Same pattern as the NAT1 tape footer above.
+                   "natural: %s &middot; %s price list; lab-grown: CVD wholesale band midpoint &middot; %s" % (
+                       (PRICES.get("headline") or {}).get("rapi_label", "RAPI"),
+                       _iso_date((PRICES.get("headline") or {}).get("rapi_date", "")) or "undated",
+                       _iso_date((LAB.get("headline") or {}).get("trade_date", "")) or "undated")],
           "src": ["The lab-grown price list", "lab-grown-diamond-prices.html"]})
     # two editorial lines, taken from whatever the desks actually filed
     _seen = {LEAD["slug"]} if LEAD else set()

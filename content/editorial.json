@@ -134776,6 +134776,9 @@
      "url": "https://www.christies.com/en/auction/jewels-online-new-york-32046/",
      "published": "2026-10-08"
     }
+   ],
+   "corrections": [
+    "Disclosed 10 October 2026. This article reported that no low estimate was published for the 8.17-carat lot and that it is offered without reserve, following Rapaport. JCK, writing on 9 October about the same lot in the same sale, gives an estimate of $250,000 to $350,000. This desk fetched Christie's own page for Jewels Online New York 24557 on 10 October 2026 (200, 978,864 bytes) and could not settle it: the lot data is rendered in the browser, the only “8.17” strings in the raw bytes are SVG path coordinates, and the house's lot-search endpoint returns 404. The $350,000 top of the range is the one figure both outside reports carry and is the only estimate this paper stands behind for this lot. The no-reserve term is Rapaport's and is not confirmed by JCK. Nothing printed here is withdrawn; the divergence between two outside sources is disclosed because it could not be closed at the primary."
    ]
   },
   "next": {
@@ -136962,6 +136965,1604 @@
   },
   "next": {
    "slug": "silver-sheds-two-twelve-at-press-time"
+  }
+ },
+ "one-hundred-stores-back-to-the-family": {
+  "v": 3,
+  "kicker": "Retail & Technology",
+  "figures": {
+   "asof": "Announced in a JCK interview published 9 October 2026; the transfer itself closed in September 2026. Terms were not disclosed by either party.",
+   "cells": [
+    {
+     "n": "100",
+     "label": "Daniel's stores, seven states",
+     "q": "73 when Palladium bought in",
+     "src": 1
+    },
+    {
+     "n": "$350m",
+     "label": "Combined AJS revenue, group figure",
+     "q": "Shah's own figure, after five years",
+     "src": 1
+    },
+    {
+     "n": "Twelve",
+     "label": "Years Palladium held it",
+     "q": "holding period, not performance",
+     "src": 1
+    },
+    {
+     "n": "80–100",
+     "label": "Further stores Shah sees room for",
+     "q": "once the chain is stabilised",
+     "src": 1
+    }
+   ]
+  },
+  "changed": {
+   "lead": "The family owns it again.",
+   "text": "David Sherwood and relatives bought Daniel's Jewelers back from Palladium Equity Partners last month, partnering with AJS Creations. Terms were not disclosed for the 100-store chain."
+  },
+  "means": [
+   {
+    "who": "If you weigh a PE exit:",
+    "text": "The flip to a second fund is the default. This is the counter-example."
+   },
+   {
+    "who": "If you sell lab-grown online:",
+    "text": "A 100-store credit chain is distribution AJS did not have."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A disclosed price, or a change of operator."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "What the two sides bring",
+   "asof": "All figures from the JCK interview of 9 October 2026; store count as stated by Daniel's, revenue as stated by AJS",
+   "cols": [
+    "",
+    "Daniel's Jewelers",
+    "AJS Creations"
+   ],
+   "rows": [
+    [
+     "Stores",
+     "100, seven states",
+     "Three lab-grown e-tailers, no store base stated"
+    ],
+    [
+     "Model",
+     "Credit jeweller, heavily Hispanic clientele",
+     "Online, lab-grown and moissanite"
+    ],
+    [
+     "Revenue",
+     "Not disclosed",
+     "$350 million, combined, group figure"
+    ],
+    [
+     "Age",
+     "Founded by Sherwood's grandfather",
+     "Five years in business"
+    ],
+    [
+     "Recent moves",
+     "73 to 100 stores under Palladium",
+     "Charles & Colvard in July, Jwlr.com in October"
+    ]
+   ],
+   "hi": 2,
+   "note": "The two columns are not comparable and are printed side by side for that reason. Daniel's publishes a store count and no revenue; AJS publishes a group revenue figure and no store count. The $350 million is Shah's own characterisation of the whole AJS portfolio, not of Daniel's, and no breakdown was given. The store growth figure is Carat Capital's subtraction from the two counts Sherwood gave: 100 less 73 is 27 stores added over a dozen years.",
+   "plate": "CC/2026/266"
+  },
+  "sections": [
+   {
+    "h": "PE grew it, then left",
+    "p": [
+     {
+      "lead": "Twelve years of PE.",
+      "text": "Palladium owned Daniel's for a dozen years and took it from 73 stores to 100. Sherwood says the family would not have carried that risk alone."
+     },
+     {
+      "lead": "Nothing else moves.",
+      "text": "He expects no change to day-to-day operations. Management stays, the Culver City base stays and the credit-jeweller positioning stays."
+     },
+     {
+      "lead": "One quote, one reason.",
+      "text": "Sherwood's stated reason is the holding period, not performance. He puts it this way: “Twelve years is too long in the tooth for any PE group.”"
+     }
+    ]
+   },
+   {
+    "h": "The buyer sells lab-grown",
+    "p": [
+     {
+      "lead": "AJS runs three e-tailers.",
+      "text": "Tejas Shah's group owns Grown Brilliance, Von Diamonds and Clean Origin, all primarily selling lab-grown stones. It bought Charles & Colvard out of bankruptcy in July."
+     },
+     {
+      "lead": "Three hundred fifty million.",
+      "text": "Shah puts combined AJS revenue at $350 million after five years in business. No breakdown by brand was given and Daniel's own revenue is not published."
+     },
+     {
+      "lead": "A different customer.",
+      "text": "Shah's stated interest is that Daniel's customer and branding are unlike his own. He calls it well-priced and says growing to 100 stores is not easy."
+     }
+    ]
+   },
+   {
+    "h": "Expansion is the open question",
+    "p": [
+     {
+      "lead": "Eighty to a hundred.",
+      "text": "Shah sees room for another 80 to 100 stores once the chain is stabilised, which would roughly double it. Sherwood is more cautious and is not counting it out."
+     },
+     {
+      "lead": "Texas and Florida.",
+      "text": "Daniel's trades in seven states and is well penetrated only in California. Sherwood names those two states as the open ground."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Through FY27",
+    "what": "Whether the store count moves off 100, and in which states. Both sides named expansion without committing to a number or a date."
+   },
+   {
+    "when": "Next AJS filing or announcement",
+    "what": "Whether the $350 million group figure is restated once Charles & Colvard and Jwlr.com are inside it for a full period."
+   },
+   {
+    "when": "Not announced",
+    "what": "Whether Daniel's shelves start carrying AJS lab-grown product in volume. Shah says some; no share was given."
+   }
+  ],
+  "depth": {
+   "reverse": "A price. The whole transaction is characterised and not quantified, so a later filing or a disclosed multiple could change how this reads entirely. It would also change if AJS turns out to be buying distribution for its own lab-grown brands rather than a standalone credit chain, which both men denied in the same interview.",
+   "built": {
+    "title": "What a credit jeweller actually sells",
+    "text": "A credit jeweller underwrites its own customer. The merchandise is the visible half of the business and the receivable is the other half, which means the chain carries consumer credit risk on its balance sheet and earns on the finance as well as the margin. That shapes everything about who can own it: a buyer is taking on a lending book with a concentrated customer base, in this case heavily Hispanic and concentrated in California, and the quality of that book is not something a store count discloses. It also explains why the model travels slowly. Opening in Texas or Florida is not only a lease and a staff; it is a new underwriting population, new state consumer-credit rules and a collections operation that has no local history. Sherwood's caution about expansion and Shah's enthusiasm for it are both consistent with that: the partner sees shelves, the operator sees a book. Neither is wrong, and the gap between them is the thing to watch over FY27."
+   },
+   "method": "One source, read in full and treated as an interview rather than a release. The JCK piece of 9 October 2026 was fetched directly this morning (200, 111,500 bytes, saved to newsroom/sources/2026-10-10/desk/daniels.html) and its figures were greped in the raw bytes before anything was written: '100 stores' 2 hits, '73 stores' 1, '350 million' 1, 'Twelve years' 2, '80 to 100' 1, 'seven states' 1, 'Palladium Equity Partners' 5, 'Tejas Shah' 1, 'Grown Brilliance' 1, 'Clean Origin' 1, 'Culver City' 1, and the JSON-LD datePublished reads 2026-10-09. Figures were taken only from the article's own body paragraphs: the extraction stops at the 'SEE MORE' and 'Popular on JCK' recirculation blocks, which on this page carry four unrelated same-day stories including an 8.17-carat Christie's lot this paper has already covered separately. Nothing from those blocks is used here. Archive check, by entity and not by figure, run against website/content/articles.json: 'Daniel’s Jewelers' 0 hits, \"Daniel's Jewelers\" 0, 'Sherwood' 0, 'AJS Creations' 0, 'Palladium Equity' 0, 'Grown Brilliance' 0, 'Clean Origin' 0, 'Charles & Colvard' 0 — new subject, no prior period to advance from. The 27-store figure in the table note is Carat Capital's own subtraction and is labelled as such. No price is printed because none was disclosed; the paper asked no party and quotes none beyond the published interview.",
+   "prior": [
+    {
+     "date": "2026-10-09",
+     "slug": "twenty-three-showrooms-become-stores",
+     "claim": "Signet is converting 23 Blue Nile showrooms into stores carrying inventory."
+    },
+    {
+     "date": "2026-10-08",
+     "slug": "two-seventy-five-one-and-the-bnpl",
+     "claim": "A retailer's buy-now-pay-later mix and what it does to the ticket."
+    }
+   ],
+   "sources": [
+    {
+     "title": "JCK, How the Sherwood Family Bought Back Daniel's Jewelers (Rob Bates)",
+     "url": "https://www.jckonline.com/editorial-article/sherwood-family-daniels-jewelers/",
+     "published": "2026-10-09"
+    },
+    {
+     "title": "Carat Capital, 23 Blue Nile showrooms convert to stores with inventory, 9 October 2026",
+     "url": "https://caratcapital.org/a-twenty-three-showrooms-become-stores.html",
+     "published": "2026-10-09"
+    }
+   ]
+  },
+  "next": {
+   "slug": "twenty-three-showrooms-become-stores"
+  }
+ },
+ "one-point-two-million-and-no-sale": {
+  "v": 3,
+  "kicker": "Auctions",
+  "figures": {
+   "asof": "Sale held 1 October 2026 at Elmwood's, London; result reported by National Jeweler on 9 October 2026. Dollar conversions are the source's own.",
+   "cells": [
+    {
+     "n": "£1.2m",
+     "dir": "down",
+     "label": "Top bid on the 8.03ct blue",
+     "q": "20.0% below the £1.5m low estimate",
+     "src": 1
+    },
+    {
+     "n": "£1.5–2m",
+     "label": "Pre-sale estimate",
+     "q": "$2m to $2.6m, source's conversion",
+     "src": 1
+    },
+    {
+     "n": "£13,000",
+     "label": "Highest hammer price in the sale",
+     "q": "Tiffany & Co. 1.84ct D/VVS1, within estimate",
+     "src": 1
+    },
+    {
+     "n": "92×",
+     "label": "Failed bid against the sale's best print",
+     "q": "CC division, 1,200,000 / 13,000",
+     "src": 1
+    }
+   ]
+  },
+  "changed": {
+   "lead": "The reserve was not met.",
+   "text": "Elmwood's 8.03-carat fancy light blue failed to sell in London. Bidding stopped at £1.2 million against a £1.5 million low estimate."
+  },
+  "means": [
+   {
+    "who": "If you consign a coloured diamond:",
+    "text": "The bid stopped a fifth short of the low estimate, not fractionally short."
+   },
+   {
+    "who": "If you estimate for a house:",
+    "text": "Nothing else in this sale cleared above £13,000."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A withdrawal, or a value for the stone."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "The headline lot against the five that sold",
+   "asof": "Hammer prices and estimates as reported by National Jeweler, 9 October 2026, for the Elmwood's sale of 1 October 2026",
+   "cols": [
+    "Lot",
+    "Hammer",
+    "Against estimate"
+   ],
+   "rows": [
+    [
+     "8.03ct fancy light blue diamond",
+     "Unsold, bidding to £1.2m",
+     "£1.5m–£2m, reserve not met"
+    ],
+    [
+     "Tiffany & Co. ring, 1.84ct D/VVS1",
+     "£13,000 ($17,200)",
+     "Within estimate"
+    ],
+    [
+     "Art Deco “Tutti Frutti” clip brooch",
+     "£8,000 ($10,600)",
+     "At the low estimate"
+    ],
+    [
+     "Van Cleef & Arpels Art Deco vanity case",
+     "£5,800 ($7,700)",
+     "Just below the low estimate"
+    ],
+    [
+     "Vintage gold and sapphire bracelet",
+     "£5,500 ($7,275)",
+     "Within estimate"
+    ],
+    [
+     "Platinum ring, 5.45ct step-cut sapphire, c.1940",
+     "£5,500 ($7,275)",
+     "Within estimate"
+    ]
+   ],
+   "hi": 1,
+   "note": "The arithmetic, printed so it can be checked. 1,200,000 divided by 1,500,000 is 0.800, so the top bid is 80.0% of the low estimate and 20.0% below it. 1,200,000 divided by 2,000,000 is 0.600, so it is 60.0% of the high estimate and 40.0% below it. 1,200,000 divided by 13,000 is 92.3, so the failed bid is 92 times the sale's highest hammer price. Dollar figures in the right-hand columns are National Jeweler's own conversions and are not recomputed here.",
+   "plate": "CC/2026/267"
+  },
+  "sections": [
+   {
+    "h": "The bid stopped short",
+    "p": [
+     {
+      "lead": "One point two million.",
+      "text": "Bidding on the 8.03-carat fancy light blue topped off at £1.2 million, about $1.6 million, and did not meet the seller's reserve."
+     },
+     {
+      "lead": "A fifth below.",
+      "text": "That is 80.0% of the £1.5 million low estimate, so 20.0% under it."
+     },
+     {
+      "lead": "Forty below the high.",
+      "text": "Against the £2 million high estimate the same bid is 60.0%, so 40.0% under it."
+     },
+     {
+      "lead": "Grading is not it.",
+      "text": "The GIA report gives even colour distribution, VS2 clarity and no fluorescence. Elmwood's calls it the third largest blue ever offered at a UK auction."
+     }
+    ]
+   },
+   {
+    "h": "Everything else cleared four figures.",
+    "p": [
+     {
+      "lead": "Thirteen thousand topped it.",
+      "text": "A Tiffany & Co. ring with a 1.84-carat D/VVS1 round took £13,000, inside estimate. That was the sale's highest hammer price."
+     },
+     {
+      "lead": "Then eight thousand.",
+      "text": "An Art Deco Tutti Frutti clip brooch made £8,000 at its low estimate. A Van Cleef & Arpels vanity case took £5,800, just below its low estimate."
+     },
+     {
+      "lead": "Two at five five.",
+      "text": "Two sapphire jewels each sold within estimate at £5,500. One is a vintage gold bracelet; the other a c.1940 platinum ring on a 5.45-carat step-cut sapphire."
+     }
+    ]
+   },
+   {
+    "h": "Same stone, second stage",
+    "p": [
+     {
+      "lead": "We priced it first.",
+      "text": "Carat Capital published the £1.5 million to £2 million estimate on 23 September, before the sale. This is the outcome of that same lot."
+     },
+     {
+      "lead": "Nine days to report.",
+      "text": "The sale ran on 1 October and the result was reported on 9 October. The eight-day gap is the reporting lag, not the event."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "21 October 2026",
+    "what": "Elmwood's antique and vintage jewels sale, the next of its several fine jewellery sales this month."
+   },
+   {
+    "when": "Not announced",
+    "what": "Whether the 8.03-carat blue is re-offered, placed privately or withdrawn. The house has published no plan for it."
+   },
+   {
+    "when": "10 November 2026",
+    "what": "Christie's Geneva Magnificent Jewels, where a 24-carat pink carries a CHF 15 million high estimate — the next test of coloured-diamond demand at a far larger number."
+   }
+  ],
+  "depth": {
+   "reverse": "A private sale at or near the reserve, which would make this a story about the room on the day rather than about demand. It would also read differently if Elmwood's published the reserve: a bid 20% under the low estimate says nothing about how far under the reserve it fell, and the house has not disclosed that figure.",
+   "built": {
+    "title": "Why an unsold lot is still information",
+    "text": "An auction result is usually read off the prices that printed, which makes a no-sale look like an absence of data. It is not. A hammer price tells you what one determined bidder would pay on one afternoon; a failed lot with published bidding tells you where the bidding actually ran out, which is a floor on demand rather than a ceiling on it. The useful number here is therefore not the estimate but the £1.2 million, because that is an amount somebody was willing to commit. The limitation is the reserve. A reserve is a private instruction between consignor and house and is almost never published, so a reader can see how far the bid fell below the printed estimate but not how far it fell below the number that would have released the stone. Those are different distances and only one of them is knowable from outside. The second thing to hold onto is the catalogue. A single seven-figure lot in a sale whose other top five prints run £5,500 to £13,000 draws a different bidder population than the same stone in a sale where the second lot is six figures, because the specialist buyers for a large fancy-colour diamond are not reliably in the room for a £5,800 vanity case."
+   },
+   "method": "One primary and one archive page. National Jeweler's report was fetched directly this morning (200, 94,813 bytes, saved to newsroom/sources/2026-10-10/desk/elmwood.html) and every printed figure was greped in the raw bytes before writing: '8.03' 1 hit, '1.5 million' 1, '1.2 million' 1, '1.6 million' 1, 'VS2' 1, '1.84' 6, '13,000' 1, '17,200' 1, '8,000' 1, 'third largest' 1, 'Oct. 1' 6. Figures were taken from the article's own body paragraphs only; the 'Editors' Picks', 'Related Stories' and 'More on Auctions' widgets on this page carry other sales, including a $3.4m Cartier watch and a $1.3m Paraiba tourmaline, and none of those figures is used here. ARCHIVE, period rule, both sides named: ours of 2026-09-23 (a-elmwoods-eight-oh-three-blue.html) covers the PRE-SALE estimate for this stone, £1.5m to £2m; this item covers the SALE OUTCOME of 1 October 2026 for the same stone at the same house in the same sale. Same entity, different stage of the same event — ADVANCED, not a repeat, and what advanced is estimate to result. Entity search run against website/content/articles.json: 'Elmwood' 2 hits, both opened and read — the 2026-08-26 piece is a different sale (a royal brooch at £23,750 and a 1927 feather at £75,000) and the 2026-09-23 piece is this stone's pre-sale. The three comparative percentages and the 92× multiple are Carat Capital's own divisions and are printed with their arithmetic in the table note. Dollar conversions are the source's and are not recomputed.",
+   "prior": [
+    {
+     "date": "2026-09-23",
+     "slug": "elmwoods-eight-oh-three-blue",
+     "claim": "Elmwood's put a £1.5m to £2m estimate on the 8.03-carat fancy light blue before the sale."
+    },
+    {
+     "date": "2026-10-09",
+     "slug": "twenty-four-carats-at-eighteen-million",
+     "claim": "Christie's put a CHF 15 million high estimate on a 24-carat pink for 10 November in Geneva."
+    }
+   ],
+   "sources": [
+    {
+     "title": "National Jeweler, 8-Carat Blue Diamond Goes Unsold at UK Jewelry Auction (Lauren McLemore)",
+     "url": "https://www.nationaljeweler.com/articles/15399-8-carat-blue-diamond-goes-unsold-at-uk-jewelry-auction",
+     "published": "2026-10-09"
+    },
+    {
+     "title": "Carat Capital, Elmwood's puts a £2m high estimate on an 8.03-carat blue, 23 September 2026",
+     "url": "https://caratcapital.org/a-elmwoods-eight-oh-three-blue.html",
+     "published": "2026-10-09"
+    },
+    {
+     "title": "Carat Capital, 24-carat pink diamond carries a CHF 15 million high estimate, 9 October 2026",
+     "url": "https://caratcapital.org/a-twenty-four-carats-at-eighteen-million.html",
+     "published": "2026-10-09"
+    }
+   ]
+  },
+  "next": {
+   "slug": "elmwoods-eight-oh-three-blue"
+  }
+ },
+ "eighty-one-carats-of-paraiba-in-paris": {
+  "v": 3,
+  "kicker": "Coloured Stones",
+  "figures": {
+   "asof": "Pre-sale estimates as published by Bonhams on 9 October 2026 for its Paris Fine Jewellery sale of 29 October 2026. Nothing has sold.",
+   "cells": [
+    {
+     "n": "81.17ct",
+     "label": "Kat Florence Paraiba tourmaline",
+     "q": "€60,000–80,000, the sale's top estimate",
+     "src": 1
+    },
+    {
+     "n": "12.5ct",
+     "label": "Chaumet sapphire, Sri Lanka, unheated",
+     "q": "€45,000–65,000",
+     "src": 1
+    },
+    {
+     "n": "11.5ct",
+     "label": "Cartier “Royal Blue”, Madagascar, untreated",
+     "q": "€40,000–60,000",
+     "src": 1
+    },
+    {
+     "n": "€739/ct",
+     "label": "Tourmaline low estimate per carat",
+     "q": "CC division, 60,000 / 81.17",
+     "src": 1
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Paris gets a date and a lead stone.",
+   "text": "Bonhams will sell Fine Jewellery in Paris on 29 October. An 81.17-carat neon-blue Paraiba tourmaline leads at a €60,000 low estimate."
+  },
+  "means": [
+   {
+    "who": "If you buy coloured stones at auction:",
+    "text": "Three of the four lead stones are described as untreated. Read each report."
+   },
+   {
+    "who": "If you consign tourmaline:",
+    "text": "Eighty-one carats is being asked to clear what a 12-carat sapphire clears."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A result, or a trophy sale. The top estimate is €80,000."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "The six lots Bonhams named, by estimate",
+   "asof": "All weights, origins, treatment statements and estimates as published by Bonhams, 9 October 2026",
+   "cols": [
+    "Lot",
+    "Stone",
+    "Estimate"
+   ],
+   "rows": [
+    [
+     "Kat Florence pendant necklace",
+     "81.17ct cushion-cut natural Paraiba tourmaline, neon blue",
+     "€60,000–80,000"
+    ],
+    [
+     "Chaumet Paris ring",
+     "12.5ct octagonal step-cut sapphire, Sri Lanka, no indications of heating",
+     "€45,000–65,000"
+    ],
+    [
+     "Cartier ring",
+     "11.5ct oval “Royal Blue” sapphire, Madagascar, no indications of treatment",
+     "€40,000–60,000"
+    ],
+    [
+     "Onyx and diamond ring",
+     "Princess-cut diamond centre, onyx surround",
+     "€35,000–55,000"
+    ],
+    [
+     "Onyx, sapphire and diamond bracelet",
+     "Emerald-cut diamonds, calibré-cut sapphire and onyx",
+     "€30,000–50,000"
+    ],
+    [
+     "Sapphire, pearl and diamond necklace",
+     "c.22ct colour-change blue-to-violet sapphire, Sri Lanka, untreated",
+     "€16,000–26,000"
+    ]
+   ],
+   "hi": 1,
+   "note": "The per-carat figures are Carat Capital's own divisions off the published low estimates and are shown so they can be checked: 60,000 divided by 81.17 is €739 a carat for the tourmaline, 45,000 divided by 12.5 is €3,600 a carat for the Chaumet sapphire, and 40,000 divided by 11.5 is €3,478 a carat for the Cartier. All three attribute the whole lot estimate to the stone and none deducts anything for the mount, the diamonds or the signature, so each is an upper bound on the implied stone price rather than a stone price. The 22-carat colour-change sapphire is published as approximate and is not divided here.",
+   "plate": "CC/2026/268"
+  },
+  "sections": [
+   {
+    "h": "One stone carries the sale",
+    "p": [
+     {
+      "lead": "Eighty-one carats.",
+      "text": "The lead lot is a Kat Florence pendant necklace on a cushion-cut natural Paraiba tourmaline of 81.17 carats. Its colour is neon blue and the mount is openwork brilliant-cut diamond."
+     },
+     {
+      "lead": "Sixty to eighty.",
+      "text": "Bonhams estimates it at €60,000 to €80,000. That is the highest estimate in the catalogue the house has published."
+     },
+     {
+      "lead": "Seven hundred a carat.",
+      "text": "Attributing the whole low estimate to the stone gives €739 a carat. That is an upper bound on the implied stone price, not a stone price."
+     }
+    ]
+   },
+   {
+    "h": "Untreated is the term",
+    "p": [
+     {
+      "lead": "Chaumet, 12.5 carats.",
+      "text": "An octagonal step-cut Sri Lankan sapphire of 12.5 carats, with no indications of heating, is offered at €45,000 to €65,000 in a Chaumet Paris ring."
+     },
+     {
+      "lead": "Cartier, 11.5 carats.",
+      "text": "An oval Royal Blue sapphire of Madagascan origin, 11.5 carats, with no indications of treatment, carries €40,000 to €60,000."
+     },
+     {
+      "lead": "Twenty-two, colour-change.",
+      "text": "A necklace pendant holds an approximately 22-carat Sri Lankan oval that changes blue to violet, untreated, at €16,000 to €26,000."
+     }
+    ]
+   },
+   {
+    "h": "The rest is signature",
+    "p": [
+     {
+      "lead": "Onyx twice over.",
+      "text": "An onyx and diamond ring carries €35,000 to €55,000. An onyx, sapphire and diamond bracelet follows it in the table, both on geometric Deco construction."
+     },
+     {
+      "lead": "Five names listed.",
+      "text": "Buccellati, Lacloche, Schlumberger, Zolotas and Lalaounis are named, with a separate section of artist jewellery. No estimates were published for those."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "29 October 2026",
+    "what": "The sale itself, at Avenue Hoche in Paris. Whether the 81.17-carat tourmaline clears €60,000 is the one number that settles this."
+   },
+   {
+    "when": "Before the sale",
+    "what": "Whether Bonhams publishes the laboratory reports behind the three no-treatment statements. The estimates rest on them and the press release names no laboratory."
+   },
+   {
+    "when": "10 November 2026",
+    "what": "Christie's Geneva Magnificent Jewels, the next dated coloured-stone and coloured-diamond test on the autumn calendar."
+   }
+  ],
+  "depth": {
+   "reverse": "A published laboratory report that qualifies any of the three no-treatment statements, which would move the estimates rather than the description. It would also read differently if Bonhams adds a trophy lot before the sale: the catalogue as announced tops out at €80,000, and one late consignment at a higher level would change what this sale is for.",
+   "built": {
+    "title": "Why Paraiba is priced per stone, not per carat",
+    "text": "Paraiba tourmaline trades on colour and on copper content, and its auction record is short. The material was only identified in Brazil in the 1980s and the Mozambican and Nigerian sources that supply most of the large stones arrived later still, so there is no century of comparable results to calibrate against in the way there is for Burmese or Ceylon sapphire. That has two consequences for a reader looking at an estimate. The first is that very large Paraiba is not simply small Paraiba multiplied: a stone this size is a distinct object with its own tiny comparable set, and a house pricing it is choosing a number from a handful of prior sales rather than reading it off a curve. The second is that the mount matters more than usual. A signed pendant on an openwork diamond mount carries value that is not in the tourmaline, and no auction house breaks a lot estimate into stone and setting, so any per-carat figure a reader computes from a published estimate is necessarily an upper bound. Sapphire is the opposite case. A 12.5-carat unheated Ceylon stone sits in a deep, long-documented market where heating status is the single largest value determinant, which is why the treatment line in the catalogue does more work than the weight does."
+   },
+   "method": "One primary, read as a press release and not as a result. Bonhams' own press release 41740 was fetched directly this morning (200, 48,487 bytes, saved to newsroom/sources/2026-10-10/desk/bonhams.html) and every figure printed here was greped in the raw bytes first: '29 October 2026' 1 hit, '81.17' 1, '60,000-80,000' 1, '12.5 carats' 1, '45,000-65,000' 1, '11.5 carats' 1, '40,000-60,000' 1, '22 carats' 1, '16,000-26,000' 1, 'Avenue Hoche' 3, 'Kat Florence' 2. The treatment language is the house's own and is quoted in its own terms, 'no indications of heating' and 'no indications of treatment'; no laboratory is named in the release and none is asserted here. ARCHIVE, period rule, both sides named: entity search for 'Bonhams' against website/content/articles.json returns 18 hits, all read. Seventeen are other sales at other houses' dates — Sydney, California, Penzance, three Chanel sales, a Piaget sale, a Garrard egg, a Mouawad parure — and the single hit that mentions Paris at all is 2026-08-08 (a-thirteen-thousand-for-costume.html), a Chanel handbag and fashion sale running 14 to 24 September 2026, a different department, a different catalogue and a different month. 'Kat Florence' 0 hits, 'Avenue Hoche' 0 hits. This paper has never covered a Bonhams Paris Fine Jewellery sale: NEW, no prior period. Filed to the coloured-stones desk rather than auctions because the news is three named stones and their treatment status, following the same call this paper made on 9 October for the Poly Auction sapphire. The per-carat figures are Carat Capital's divisions and are labelled as upper bounds in the table note. Bonhams' quoted specialist comment was read and is not printed: it carries no figure this article needs.",
+   "prior": [
+    {
+     "date": "2026-10-09",
+     "slug": "one-eight-million-on-a-sapphire",
+     "claim": "HKD 1.8 million topped Poly Auction's Hong Kong jewellery sale on a sapphire."
+    },
+    {
+     "date": "2026-08-29",
+     "slug": "a-fourth-source-for-paraiba",
+     "claim": "GIA and Gubelin both put Ethiopia on the map as a Paraiba source."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Bonhams press release, Fine Jewellery Sale in Paris, 29 October 2026",
+     "url": "https://www.bonhams.com/press_release/41740/",
+     "published": "2026-10-09"
+    },
+    {
+     "title": "Carat Capital, HKD 1.8 million tops Poly Auction's Hong Kong jewellery sale, 9 October 2026",
+     "url": "https://caratcapital.org/a-one-eight-million-on-a-sapphire.html",
+     "published": "2026-10-09"
+    },
+    {
+     "title": "Carat Capital, A fourth source for Paraiba, 29 August 2026",
+     "url": "https://caratcapital.org/a-a-fourth-source-for-paraiba.html",
+     "published": "2026-08-29"
+    }
+   ]
+  },
+  "next": {
+   "slug": "a-fourth-source-for-paraiba"
+  }
+ },
+ "twenty-percent-the-cutters-want-back": {
+  "v": 3,
+  "kicker": "Diamonds",
+  "figures": {
+   "asof": "Union statements as published by Divya Bhaskar on 9 October 2026, dateline Surat. The vacation has not been declared and no wage settlement has been announced.",
+   "cells": [
+    {
+     "n": "20%",
+     "dir": "down",
+     "label": "Pay cut the union wants restored",
+     "q": "Union's own figure, untraced to a payroll",
+     "src": 1
+    },
+    {
+     "n": "5–15 Nov",
+     "label": "Diwali break the union expects",
+     "q": "11 days, or at most 20",
+     "src": 1
+    },
+    {
+     "n": "20–25 days",
+     "label": "Break in each of the last two years",
+     "q": "declared for lack of work",
+     "src": 1
+    },
+    {
+     "n": "3–4 yrs",
+     "label": "Slowdown the union describes",
+     "q": "Shah's own characterisation",
+     "src": 1
+    }
+   ]
+  },
+  "changed": {
+   "lead": "The union wants the cut reversed.",
+   "text": "Surat's Diamond Worker Union asked factory owners to restore a 20% cut to cutters' pay. It expects this year's Diwali break to run 5 to 15 November."
+  },
+  "means": [
+   {
+    "who": "If you buy polished from Surat:",
+    "text": "A shorter closure is a capacity signal, available before any wage settlement."
+   },
+   {
+    "who": "If you employ cutters in Gujarat:",
+    "text": "The ask is restoration plus a rise, not a strike. No deadline is attached."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A settlement, or an audited wage. Both figures are the union's."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "The break, this year against the last two",
+   "asof": "Durations as stated by the Diamond Worker Union to Divya Bhaskar, 9 October 2026; day counts and shares are Carat Capital's own arithmetic",
+   "cols": [
+    "",
+    "Duration",
+    "Against this year's expected 11 days"
+   ],
+   "rows": [
+    [
+     "Expected 2026 break, 5–15 November",
+     "11 days",
+     "—"
+    ],
+    [
+     "Union's stated 2026 maximum",
+     "20 days",
+     "9 days longer"
+    ],
+    [
+     "Each of the last two years, floor",
+     "20 days",
+     "9 days longer"
+    ],
+    [
+     "Each of the last two years, ceiling",
+     "25 days",
+     "14 days longer"
+    ]
+   ],
+   "hi": 0,
+   "note": "The arithmetic, printed so it can be compared. 5 to 15 November inclusive is 11 days. 11 divided by 20 is 0.550, so the expected break is 55.0% of a 20-day one and 45.0% shorter than it. 11 divided by 25 is 0.440, so it is 44.0% of a 25-day one and 56.0% shorter. The union's own stated maximum of 20 days is not shorter than the floor of the last two years, which is why the range matters more than the headline dates. All durations are the union's; none is an employer's or a government notice, and the 2026 break has not been declared.",
+   "plate": "CC/2026/269"
+  },
+  "sections": [
+   {
+    "h": "Orders came back first",
+    "p": [
+     {
+      "lead": "Three to four years.",
+      "text": "Shah describes heavy slowdown conditions across the last three to four years in the diamond trade, and says the position has now changed."
+     },
+     {
+      "lead": "Both markets ordering.",
+      "text": "He attributes the change to large diamond orders out of international and domestic markets, which he says has restarted movement in the Surat trade."
+     },
+     {
+      "lead": "No figure attached.",
+      "text": "No order value, carat volume or factory utilisation number is published with the claim. The recovery is described rather than measured."
+     }
+    ]
+   },
+   {
+    "h": "The break gets shorter",
+    "p": [
+     {
+      "lead": "Eleven days expected.",
+      "text": "The union expects a break from 5 to 15 November, or at most 20 days. The order load will not allow a longer closure."
+     },
+     {
+      "lead": "Twenty to twenty-five.",
+      "text": "In each of the last two years the break ran 20 to 25 days. Those were declared for lack of work rather than as a holiday."
+     },
+     {
+      "lead": "Forty-five percent shorter.",
+      "text": "Eleven days is 55.0% of a 20-day break, so 45.0% shorter. The comparison against 25 days is in the table."
+     }
+    ]
+   },
+   {
+    "h": "The wage ask is separate",
+    "p": [
+     {
+      "lead": "Twenty percent off.",
+      "text": "The union says factory owners cut cutters' pay by about 20% through the downturn, and that workers accepted the lower wage at the time."
+     },
+     {
+      "lead": "Restore, then raise.",
+      "text": "Its representation is that the recovery should reach cutters: restore the cut and add an increase on top. No employer response is published."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Before 5 November 2026",
+    "what": "Whether Surat's factory associations declare the Diwali break and on what dates. The union's expectation is not a notice."
+   },
+   {
+    "when": "After the break",
+    "what": "Whether any wage restoration is announced. No deadline, forum or mechanism has been attached to the union's ask."
+   },
+   {
+    "when": "Mid-October 2026",
+    "what": "GJEPC's monthly export figures, the nearest independent read on whether the order recovery the union describes is showing up in shipments."
+   }
+  ],
+  "depth": {
+   "reverse": "An employer or association statement with a payroll number in it, which would move the 20% from a claim to a figure. It would also read differently if the break is declared at the union's own stated maximum of 20 days, which is no shorter than the floor of the last two years and would make the vacation story a non-event while leaving the wage ask untouched.",
+   "built": {
+    "title": "Why Surat's holiday length is a demand indicator",
+    "text": "Surat cuts and polishes on piece rates, and its factories close en masse for Diwali. In a normal year that closure is a holiday with a length set by custom. In a weak year it becomes a capacity valve: a factory with no order book extends the break, pays nothing for the extra days because the work is priced per stone rather than per hour, and avoids laying anybody off. That is why the duration of the Surat Diwali vacation is read in the trade as a demand signal rather than a cultural one, and why a shortening break is treated as the first visible sign of an order recovery — it appears before export figures, before price indices and before any wage settlement. The limitation is who gets to say it. The break is declared by factory owners and their associations, not by the union, so a union's expectation of 11 days is a forecast from the people doing the work rather than a notice from the people scheduling it. The two have diverged before. The wage question sits one step behind: piece rates cut in a downturn do not automatically rise when volume returns, because the rate is negotiated and the volume is not, which is precisely the gap the union is pointing at."
+   },
+   "method": "One primary, read in the original Gujarati rather than through an English rewrite. The Divya Bhaskar report was fetched directly this morning (200, 429,626 bytes, saved to newsroom/sources/2026-10-10/desk/surat.html) and every printed figure was greped in the raw bytes in Gujarati script before writing: '20 ટકા' (20 per cent) 2 hits, '5થી 15 નવેમ્બર 2026' (5 to 15 November 2026) 2 hits, '20થી 25 દિવસ' (20 to 25 days) 2 hits, '20 દિવસ' 5 hits, 'ભાવેશ શાહ' (Bhavesh Shah) 4 hits, and the JSON-LD datePublished reads 2026-10-09T11:06:50+05:30 exactly. The teaser paragraph on this page is truncated mid-sentence at 'સામાન્ય રીતે 30' (normally 30), and because the sentence does not complete in the bytes this desk holds, no normal-year duration is printed here. ARCHIVE, period rule, both sides named: entity search against website/content/articles.json gives 'Bhavesh Shah' 0 hits, 'Diwali vacation' 0 hits, 'wage cut' 0 hits, and 'Diamond Worker' 1 hit, which was opened and read in full. That hit is 2026-09-27 (a-wage-survey-for-the-cutters.html): a different body, Diamond Workers' Union Gujarat, writing to GJEPC and the Commerce Ministry on 24 September asking for a Gujarat-wide SURVEY of piece rates across four Saurashtra districts. This item is Surat's Diamond Worker Union, in October, asking factory owners directly to restore a specific 20% cut and shorten the Diwali break. Different body, different addressee, different demand, different period — ADVANCED, and what advanced is a survey request in September to a restoration demand in October. The day counts and the four percentages are Carat Capital's own arithmetic and are printed with their divisions. No quote is carried: Shah's remarks are paraphrased with attribution rather than translated and quoted, because a translated quotation cannot be verified word-for-word against the source by a reader of this paper.",
+   "prior": [
+    {
+     "date": "2026-09-27",
+     "slug": "a-wage-survey-for-the-cutters",
+     "claim": "Diamond Workers' Union Gujarat asked GJEPC on 24 September for a Gujarat-wide survey of cutters' piece rates."
+    },
+    {
+     "date": "2026-10-09",
+     "slug": "one-ninety-companies-and-nine-hundred-stores",
+     "claim": "More than 190 companies and 900 stores joined India's gold audit."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Divya Bhaskar (Gujarati), Surat Diamond Workers Demand Salary Hike Amid Industry Boom & Diwali Vacation",
+     "url": "https://www.divyabhaskar.co.in/local/gujarat/surat/news/surat-diamond-workers-demand-salary-hike-industry-boom-diwali-vacation-139297113.html",
+     "published": "2026-10-09T11:06:50+05:30"
+    },
+    {
+     "title": "Carat Capital, Diamond Workers' Union Gujarat asks GJEPC for a wage survey, 27 September 2026",
+     "url": "https://caratcapital.org/a-a-wage-survey-for-the-cutters.html",
+     "published": "2026-09-27"
+    }
+   ]
+  },
+  "next": {
+   "slug": "a-wage-survey-for-the-cutters"
+  }
+ },
+ "ninety-percent-sanctioned-without-an-officer": {
+  "v": 3,
+  "kicker": "Diamonds",
+  "figures": {
+   "asof": "Recommendations of the 57th GST Council, announced 8 October 2026, as published by GJEPC. Not yet notified; no effective date has been given.",
+   "cells": [
+    {
+     "n": "90%",
+     "label": "Eligible refunds sanctioned provisionally",
+     "q": "automated, risk-based, no officer intervention",
+     "src": 1
+    },
+    {
+     "n": "15 → 10",
+     "dir": "down",
+     "label": "Days to acknowledgement or deficiency memo",
+     "q": "33.3% shorter, CC division",
+     "src": 1
+    },
+    {
+     "n": "Rs 1 → 5 cr",
+     "label": "Prosecution threshold",
+     "q": "five-fold, CC division",
+     "src": 1
+    },
+    {
+     "n": "Rs 25k → 10k",
+     "dir": "down",
+     "label": "Maximum general penalty, Section 125",
+     "q": "60.0% below, CC division",
+     "src": 1
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Refunds would clear without an officer.",
+   "text": "India's GST Council recommended that 90% of eligible export refunds be sanctioned provisionally, by automated risk-based processing. The acknowledgement window falls from 15 days to 10."
+  },
+  "means": [
+   {
+    "who": "If you export polished from India:",
+    "text": "The officer review is where refund delay lives. Taking it out is the change."
+   },
+   {
+    "who": "If you plan working capital:",
+    "text": "Do not model a date. Nothing here has been notified."
+   },
+   {
+    "who": "What this is not:",
+    "text": "Law, or a quantified benefit for this industry."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "What each recommendation moves, and by how much",
+   "asof": "All present and proposed values as published by GJEPC, 8 October 2026 announcement; the right-hand column is Carat Capital's own arithmetic",
+   "cols": [
+    "Measure",
+    "Now",
+    "Proposed",
+    "Change"
+   ],
+   "rows": [
+    [
+     "Eligible refunds sanctioned provisionally",
+     "Officer review",
+     "90% automated, risk-based",
+     "Phase one, share not previously published"
+    ],
+    [
+     "Acknowledgement or deficiency memo",
+     "15 days",
+     "10 days",
+     "10/15 = 66.7%, so 33.3% shorter"
+    ],
+    [
+     "Prosecution threshold",
+     "Rs 1 crore",
+     "Rs 5 crore",
+     "5/1 = 5.0×, so five-fold"
+    ],
+    [
+     "Maximum general penalty, Section 125",
+     "Rs 25,000",
+     "Rs 10,000",
+     "10,000/25,000 = 40.0%, so 60.0% below"
+    ],
+    [
+     "Arrest provisions under GST",
+     "In force",
+     "Removed",
+     "Not a quantity"
+    ],
+    [
+     "Optional quarterly payment, B2C only",
+     "Not available",
+     "Turnover up to Rs 5 crore",
+     "Approved in principle"
+    ],
+    [
+     "Pre-deposit ceiling, penalty-only appeals",
+     "Not specified",
+     "Rs 40 crore",
+     "Upper limit, proposed"
+    ]
+   ],
+   "hi": 1,
+   "note": "Every division is printed so it can be checked rather than taken. 10 divided by 15 is 0.667, so the acknowledgement window becomes 66.7% of its present length and is 33.3% shorter. 5 divided by 1 is 5.0, a five-fold rise in the prosecution threshold. 10,000 divided by 25,000 is 0.400, so the penalty ceiling becomes 40.0% of its present level and is 60.0% below it. The 90% is the Council's own figure for the share of eligible claims in the proposed first phase and is not a division. Nothing in this table is in force: each row is a recommendation with no notified date.",
+   "plate": "CC/2026/270"
+  },
+  "sections": [
+   {
+    "h": "The officer comes out",
+    "p": [
+     {
+      "lead": "Ninety percent provisional.",
+      "text": "Under the proposed first phase, 90% of eligible refund claims would be sanctioned provisionally. That covers zero-rated supplies and inverted duty structures, with no officer intervention."
+     },
+     {
+      "lead": "Fifteen days to ten.",
+      "text": "The timeline for issuing an acknowledgement or deficiency memo would fall from 15 days to 10, which is 66.7% of its present length."
+     },
+     {
+      "lead": "Credit on capital goods.",
+      "text": "Refunds of accumulated input tax credit on capital goods for zero-rated supplies would be allowed, subject to conditions and timelines the Council has not published."
+     }
+    ]
+   },
+   {
+    "h": "Penalties move further",
+    "p": [
+     {
+      "lead": "Arrest provisions removed.",
+      "text": "The Council recommended removing arrest provisions under GST altogether and raising the prosecution threshold from Rs 1 crore to Rs 5 crore, a five-fold rise."
+     },
+     {
+      "lead": "Twenty-five to ten.",
+      "text": "The maximum general penalty would fall from Rs 25,000 to Rs 10,000. That is 40.0% of the present ceiling."
+     },
+     {
+      "lead": "Forty crore cap.",
+      "text": "An upper limit of Rs 40 crore on pre-deposits is proposed for certain appeals involving only penalties with no tax demand."
+     }
+    ]
+   },
+   {
+    "h": "Nothing is in force",
+    "p": [
+     {
+      "lead": "Recommendations, not notifications.",
+      "text": "Every item here is a Council recommendation announced on 8 October. No effective date has been given and none of it has been notified."
+     },
+     {
+      "lead": "No industry figure.",
+      "text": "GJEPC frames the package as working-capital and compliance relief for gem and jewellery exporters and MSMEs. It publishes no rupee benefit for the industry."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "After 8 October 2026",
+    "what": "The notifications and CGST rule amendments that would give these recommendations effect, and the conditions attached to the ITC legs."
+   },
+   {
+    "when": "Mid-October 2026",
+    "what": "GJEPC's monthly export figures, which will show whether refund timing is still a stated constraint for exporters."
+   },
+   {
+    "when": "Not dated",
+    "what": "Whether the automated-refund phase one actually begins at 90% or is narrowed on notification. A share in a recommendation is not a share in a rule."
+   }
+  ],
+  "depth": {
+   "reverse": "The notification. A Council recommendation can be narrowed, delayed or conditioned when it is written into rules, and the 90% is explicitly a proposed first phase rather than a settled share. It would also read differently if the conditions attached to the capital-goods and input-services ITC legs exclude the asset profile a cutting or jewellery manufacturing unit actually holds, which the Council has not published.",
+   "built": {
+    "title": "Why a refund timetable is a price for this trade",
+    "text": "India's gem and jewellery exporters hold value in inventory rather than in plant. A polishing or jewellery manufacturing unit buys rough, gold or gemstones at full value, carries them through a work-in-progress cycle measured in weeks, and ships on terms. Tax paid on inputs is therefore money parked in the state's hands for exactly the period when the business most needs it back, which is why a refund timetable behaves less like an administrative detail and more like a cost of capital. The arithmetic is simple and it is the reason the industry bodies push on timing rather than on rates: a firm financing a refund gap at working-capital rates pays for every week of that gap, and shortening the gap is mathematically the same as a rate cut on the financed portion. Two cautions belong beside that. First, an acknowledgement is not a payment — the 10-day clock in this package starts the process rather than ending it, and the Council has not published a sanction-to-credit timetable. Second, provisional sanction on a risk-based basis means some claims are paid before they are examined, which transfers risk rather than removing it; a claim provisionally sanctioned and later reversed is a working-capital event in the other direction."
+   },
+   "method": "One primary, fetched this morning and greped before writing. GJEPC's own news page was fetched directly (200, 36,130 bytes, saved to newsroom/sources/2026-10-10/desk/gst.html) and every printed figure was confirmed in the raw bytes: '90%' 1 hit, '15 days to 10 days' 1 hit, '8 October' 1 hit, '57th GST Council' 7 hits, '1 crore to' 1 hit, '25,000 to' 1 hit, '5 crore' 2 hits, 'Kirit Bhansali' 1 hit. The event date is taken from the page's own body sentence, which states the recommendations were 'announced on 8 October', and not from the site's 'Oct 09, 2026' listing stamp, which is a publication artefact; the overnight desk made the same distinction and it is kept here. ARCHIVE, period rule, both sides named: entity search against website/content/articles.json gives 'GST Council' 0 hits, 'provisional refund' 0 hits and 'inverted duty' 0 hits. This paper has never covered a GST Council meeting or India's GST refund mechanism. NEW, no prior period to advance from. GJEPC's chairman Kirit Bhansali is quoted on the page welcoming the recommendations; that quotation is not carried here because it contains no figure and adds nothing the recommendations do not already state, and the one-quote allowance is better spent elsewhere in this edition. The four comparative figures are Carat Capital's own divisions and are printed with their arithmetic in the table note. No rupee benefit for the industry is printed because none is published; the words 'working capital' in the article are GJEPC's framing and are attributed as such.",
+   "prior": [
+    {
+     "date": "2026-10-09",
+     "slug": "forty-euros-once-per-shipment",
+     "claim": "AWDC charges its EUR 40 Diamond Office fee once per shipment rather than per parcel."
+    },
+    {
+     "date": "2026-10-09",
+     "slug": "one-ninety-companies-and-nine-hundred-stores",
+     "claim": "More than 190 companies and 900 stores joined India's gold audit."
+    }
+   ],
+   "sources": [
+    {
+     "title": "GJEPC, 57th GST Council Recommends Faster Refunds, Lower Penalties and Simpler Compliance",
+     "url": "https://www.gjepc.org/news_detail.php?news=57th-gst-council-recommends-faster-refunds-lower-penalties-and-simpler-compliance",
+     "published": "2026-10-08"
+    },
+    {
+     "title": "Carat Capital, AWDC charges its EUR 40 Diamond Office fee once per shipment, 9 October 2026",
+     "url": "https://caratcapital.org/a-forty-euros-once-per-shipment.html",
+     "published": "2026-10-09"
+    }
+   ]
+  },
+  "next": {
+   "slug": "forty-euros-once-per-shipment"
+  }
+ },
+ "nine-months-and-twenty-seven-point-four": {
+  "v": 3,
+  "kicker": "Gold & Metals",
+  "figures": {
+   "asof": "Shuibei figures from a Huaxia Times report dated 7 October 2026 18:25 CST, carried by Eastmoney. The international level is the Carat Capital tape of 10 October 2026, which covers the final 9 October session.",
+   "cells": [
+    {
+     "n": "27.4%",
+     "dir": "down",
+     "label": "Brand gold against its 29 January peak",
+     "q": "CC division, 1,250 / 1,722 = 72.6%",
+     "src": 1
+    },
+    {
+     "n": "183 yuan",
+     "label": "Shuibei buy-sell spread per gram, 4 Oct",
+     "q": "from about 190 a month earlier",
+     "src": 1
+    },
+    {
+     "n": "30 yuan",
+     "dir": "down",
+     "label": "Largest single-day move, 27 September",
+     "q": "1,100 to 1,070 a gram",
+     "src": 1
+    },
+    {
+     "n": "$4,193.60",
+     "label": "Gold spot, Kitco bid, final 9 Oct session",
+     "q": "the tape's mark, carried as filed",
+     "src": 2
+    }
+   ]
+  },
+  "changed": {
+   "lead": "The dealer's spread has not moved with the price.",
+   "text": "A Shuibei wholesaler puts gold's selling-to-buyback gap near 183 yuan a gram, down from roughly 190 a month earlier. Brand counters sit 27.4% below their January peak."
+  },
+  "means": [
+   {
+    "who": "If you wholesale gold in China:",
+    "text": "Watch the spread, not the price. The middle of the chain gave up almost nothing."
+   },
+   {
+    "who": "If you retail finished jewellery:",
+    "text": "Counters sit roughly a quarter below January."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A current international price, or a verified footfall count."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "What moved, what did not",
+   "asof": "Shuibei and brand-counter figures as published by Huaxia Times via Eastmoney, 7 October 2026; the spot figure is the Carat Capital tape of 10 October 2026 covering the final 9 October session",
+   "cols": [
+    "Measure",
+    "Then",
+    "Now",
+    "Change"
+   ],
+   "rows": [
+    [
+     "Brand jewellery gold, per gram",
+     "1,722 yuan, 29 January 2026",
+     "1,250 level",
+     "1,250/1,722 = 72.6%, so 27.4% below"
+    ],
+    [
+     "Shuibei buy-sell spread, per gram",
+     "about 190 yuan, early September",
+     "about 183 yuan, 4 October",
+     "183/190 = 96.3%, so 3.7% narrower"
+    ],
+    [
+     "Gold unit price, 27 September",
+     "1,100 yuan a gram",
+     "1,070 yuan a gram",
+     "about 30 yuan in one session"
+    ],
+    [
+     "Shuibei Jinzuo footfall, 3 days",
+     "Not published",
+     "Estimated over 80,000 visits",
+     "One unnamed employee's estimate"
+    ],
+    [
+     "Gold spot, international",
+     "$4,104 intraday, 6 October, per the report",
+     "$4,193.60, final 9 October session",
+     "Tape mark, above the cited intraday"
+    ]
+   ],
+   "hi": 1,
+   "note": "Every comparative is printed with its division so the two can be compared. 1,250 divided by 1,722 is 0.7259, so brand counters are at 72.6% of the January peak and 27.4% below it; the report's own wording is 'nearly 30%' and the difference is the rounding of the current level, which the report gives as a threshold rather than a quote. 183 divided by 190 is 0.9632, so the spread is 96.3% of its early-September width and 3.7% narrower. The 1,100-to-1,070 move is the source's own two figures, not a division. The footfall figure is attributed to an unnamed counter employee at one mall and is not upgraded here. The spot line compares the report's cited 6 October intraday with this paper's own tape mark and is labelled on both sides; it is not a same-moment comparison.",
+   "plate": "CC/2026/271"
+  },
+  "sections": [
+   {
+    "h": "The spread barely narrowed",
+    "p": [
+     {
+      "lead": "One eighty-three a gram.",
+      "text": "A Shuibei stallholder in finished jewellery puts gold's selling-to-buyback gap near 183 yuan a gram. That is 4 October's market."
+     },
+     {
+      "lead": "From about one ninety.",
+      "text": "He gives roughly 190 yuan for the same period a month earlier. That is 96.3% of the earlier figure, so 3.7% narrower."
+     },
+     {
+      "lead": "Not a margin cut.",
+      "text": "His own account is that middlemen have not compressed margins and are passively tracking the international board rather than passing anything through."
+     }
+    ]
+   },
+   {
+    "h": "Nine months, a quarter off",
+    "p": [
+     {
+      "lead": "Seventeen twenty-two.",
+      "text": "Brand jewellery gold peaked at 1,722 yuan a gram on 29 January, the report's own historical high. It now sits at the 1,250 level."
+     },
+     {
+      "lead": "Twenty-seven point four.",
+      "text": "That is 72.6% of the peak, so 27.4% below it. The report describes the same fall as nearly 30%."
+     },
+     {
+      "lead": "Twenty-seven September.",
+      "text": "The unit price fell from 1,100 to 1,070 yuan a gram in one session, the largest single day of the move. Silver eased about 1 yuan a gram alongside it."
+     }
+    ]
+   },
+   {
+    "h": "Footfall is the soft figure",
+    "p": [
+     {
+      "lead": "Eighty thousand, estimated.",
+      "text": "A counter employee at Shuibei Jinzuo estimated the mall's traffic topped 80,000 visits over the holiday's first three days. One mall, one unnamed source."
+     },
+     {
+      "lead": "Asking, not buying.",
+      "text": "The report sets that traffic against a stalled transaction pace, with wholesale stalls locked and buyers querying prices repeatedly."
+     },
+     {
+      "lead": "Growth, but slower.",
+      "text": "Zhu Zhigang of the Guangdong Gold Association says holiday sales grew by less than last year. He says investment demand has exceeded jewellery demand since 2025."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Through November 2026",
+    "what": "Whether the Shuibei buy-sell spread narrows below 180 yuan a gram. Holding near 183 through a 27.4% drawdown is the finding; a break would be the next one."
+   },
+   {
+    "when": "Monday 12 October 2026",
+    "what": "The next scheduled refresh of this paper's retail price lists, last dated 5 October."
+   },
+   {
+    "when": "Post-holiday",
+    "what": "Zhu Zhigang's own forecast of a sales decline once the holiday peak clears, which is checkable against the next monthly Chinese retail figures."
+   }
+  ],
+  "depth": {
+   "reverse": "A narrowing spread. The whole argument here is that the middle of the chain held its gap while the price fell a quarter, and a Shuibei buy-sell gap printed materially under 180 yuan would reverse it. It would also read differently if the 183 and 190 figures turn out to describe different products: both come from one stallholder in finished jewellery, and a bullion desk's spread is a different instrument.",
+   "built": {
+    "title": "Why a buyback spread is the honest margin",
+    "text": "A retail gold price tells you what a counter asks. It does not tell you what the counter earns, because the asking price contains the metal, the workmanship, the brand and the shop, and none of those is disclosed separately. A buy-sell spread does tell you something, because it is the same operator quoting both sides of the same material at the same moment: the gap between what it sells gold for and what it pays to take gold back is the clearest published read on what the intermediary keeps. That is why this figure is worth more than the headline price in a falling market. When the metal drops, a retailer can appear to be passing savings on while holding its own gap constant, and only the two-sided quote shows which is happening. Two cautions belong with it. First, a buyback price is not purely a margin: it carries assay, refining and remelt cost, and a buyer of scrap takes real risk on purity, so some of the gap is genuine cost rather than profit. Second, this figure is one stall's, self-reported, for finished jewellery. It is indicative of the Shuibei wholesale layer rather than a market statistic, and no exchange or association publishes a Shuibei spread that could be used to check it."
+   },
+   "method": "One Chinese primary plus this paper's own tape and its own prior article. The Eastmoney page carrying the Huaxia Times report was fetched directly this morning (200, 70,428 bytes, saved to newsroom/sources/2026-10-10/desk/shuibei.html) and every printed figure was greped in the raw bytes in the original Chinese before writing: '1722元/克' 1 hit, '1250元关口' 2 hits, '183元/克' 1 hit, '回收价差约183' 1 hit, '190元上下' 1 hit, '约190元的价差' 1 hit, '8万人次' 7 hits, '朱志刚' 3 hits, '1100' 1 hit, '1070' 1 hit, with the page's own dateline reading 2026年10月07日 18:25. ARCHIVE, period rule, both sides named, and a repeat was killed on it: entity search for 'Shuibei' against website/content/articles.json returns 3 hits and all three were opened and read. Ours of 2026-10-05 (a-shuibei-wholesale-gold-reads-one-thousand-sixty-one.html) covers the 3 OCTOBER wholesale level, 1,061 yuan a gram, against brand counters at 1,249, 1,252 and 1,255 on 2 October, with the retail gap at about 190 yuan — THE SAME HEADLINE NUMBERS AND THE SAME HOLIDAY WINDOW as the retail-gap material in today's source, which also gives 1,061 on 4 October and the same roughly 190-yuan retail gap. That framing is therefore a repeat and is not printed again; this article is confined to what our archive does not hold. Exact-digit checks against website/content/articles.json: '1,722' 0 hits, '1722' 0 hits, '183 yuan' 0 hits — the 29 January peak, the nine-month drawdown and the dealer buy-sell spread have never appeared in this paper. Ours of 2026-09-30 (a-twelve-forty-five-off-the-august-high.html) covers the 25 August to 29 September fall on the same counters and is a different window. DIFFERENT PERIOD AND DIFFERENT INSTRUMENT on the legs printed here: ADVANCED, and what advanced is a holiday-week retail gap previously published to a nine-month drawdown and a dealer's two-sided spread. Under the One-Price Rule the international figure is the tape's own mark and is not re-read: no metals story leads this edition, today is Saturday and the tape itself records, from Kitco's identical originalTime across four metals and CNBC's UNCH flag, that there is no Saturday session to report, so the mark filed at 05:00 ET stands and prints as filed at $4,193.60. newsroom/tape/2026-10-10.json and newsroom/tape/latest.json were compared before publication: gold_spot 4193.6 in both — MATCH. The report's own $4,104 intraday for 6 October and its claim of a $4,697 high on 25 August are the source's and are labelled as the source's; this paper's tape does not carry those marks and neither is adopted here. The three divisions are Carat Capital's and are printed with their arithmetic. No quotation is carried: the stallholder and the analyst are paraphrased with attribution, because a translated quotation cannot be checked word-for-word by a reader of this paper.",
+   "prior": [
+    {
+     "date": "2026-10-05",
+     "slug": "shuibei-wholesale-gold-reads-one-thousand-sixty-one",
+     "claim": "Shuibei quoted real-time jewellery gold at 1,061 yuan a gram on 3 October, about 190 yuan under three brand counters."
+    },
+    {
+     "date": "2026-09-30",
+     "slug": "twelve-forty-five-off-the-august-high",
+     "claim": "Chow Sang Sang read 1,245 yuan on 29 September, 11.6% off the 25 August high."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Eastmoney, carrying Huaxia Times: unit price falls to near 1,060 yuan a gram; 80,000 visits in the first three National Day days at Shenzhen Shuibei",
+     "url": "https://finance.eastmoney.com/a/202610073888990959.html",
+     "published": "2026-10-07T18:25:00+08:00"
+    },
+    {
+     "title": "Carat Capital tape, 10 October 2026 (covers the final 9 October session)",
+     "url": "https://caratcapital.org/almanac.html",
+     "published": "2026-10-10"
+    },
+    {
+     "title": "Carat Capital, Shuibei wholesale gold reads 1,061 yuan on 3 October, 5 October 2026",
+     "url": "https://caratcapital.org/a-shuibei-wholesale-gold-reads-one-thousand-sixty-one.html",
+     "published": "2026-10-05"
+    }
+   ]
+  },
+  "next": {
+   "slug": "shuibei-wholesale-gold-reads-one-thousand-sixty-one"
+  }
+ },
+ "thirty-eight-percent-paid-in-old-gold": {
+  "v": 3,
+  "kicker": "Retail & Technology",
+  "figures": {
+   "asof": "Company-reported figures for the quarter ended 30 September 2026 (Q2 FY27), published by GJEPC on 9 October 2026. Both companies state the figures remain subject to limited review by their statutory auditors.",
+   "cells": [
+    {
+     "n": "38%",
+     "dir": "up",
+     "label": "Old gold exchange share of PNG sales",
+     "q": "from 29% in Q2 FY26",
+     "src": 1
+    },
+    {
+     "n": "22.4%",
+     "dir": "up",
+     "label": "PNG Jewellers revenue growth",
+     "q": "despite Navratri moving to Q3",
+     "src": 1
+    },
+    {
+     "n": "26%+",
+     "dir": "up",
+     "label": "Kalyan consolidated revenue growth",
+     "q": "India up about 27%, SSSG about 20%",
+     "src": 1
+    },
+    {
+     "n": "546",
+     "label": "Kalyan showrooms at 30 September",
+     "q": "365 India, 42 international, 138 Candere",
+     "src": 1
+    }
+   ]
+  },
+  "changed": {
+   "lead": "The customer's own metal paid for more of it.",
+   "text": "Old gold exchange made up 38% of PNG Jewellers' quarterly sales against 29% a year earlier. Revenue rose 22.4% at PNG and more at Kalyan Jewellers."
+  },
+  "means": [
+   {
+    "who": "If you buy old gold:",
+    "text": "More than a third of one chain's sales are funded by the customer's metal."
+   },
+   {
+    "who": "If you read Indian revenue growth:",
+    "text": "PNG's 22.4% sits beside an 83.6% fall in e-commerce. The mix matters."
+   },
+   {
+    "who": "What this is not:",
+    "text": "Audited, or comparable between the two chains."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "The quarter to 30 September, as each company reports it",
+   "asof": "All figures company-reported for Q2 FY27 and published by GJEPC on 9 October 2026; subject to limited review by statutory auditors",
+   "cols": [
+    "Measure",
+    "Kalyan Jewellers",
+    "PNG Jewellers"
+   ],
+   "rows": [
+    [
+     "Consolidated revenue growth",
+     "over 26%",
+     "22.4%"
+    ],
+    [
+     "Same-store sales growth",
+     "about 20% (India)",
+     "25.5% (retail)"
+    ],
+    [
+     "Retail / franchise detail",
+     "India about 27%, international 18%",
+     "retail 31.1%, franchise 34.7%"
+    ],
+    [
+     "E-commerce / digital",
+     "Candere about 64%",
+     "down 83.6%, gold coins cut"
+    ],
+    [
+     "Old gold exchange share",
+     "Not published",
+     "38%, from 29%"
+    ],
+    [
+     "Studded ratio",
+     "Not published",
+     "11.8%, from 9%"
+    ],
+    [
+     "Stores at 30 September",
+     "546 (365 + 42 + 138 Candere)",
+     "80 (79 India, 1 US)"
+    ],
+    [
+     "Stated plan",
+     "4 more Akshaya Thanga Maligai franchises in FY27",
+     "about 23 more in FY27, to around 103"
+    ]
+   ],
+   "hi": 2,
+   "note": "The two columns are not like for like and are printed side by side for that reason. Kalyan publishes a consolidated group figure with an India and an international split; PNG publishes retail and franchise segments. Neither publishes the other's disclosures, so the empty cells are genuine absences rather than zeros. Both companies state the figures remain subject to limited review by their statutory auditors, with detailed results to follow after board approval, and neither published a profit figure in this release. Kalyan's Middle East growth of 12% is stated as driven entirely by same-store sales, and its international operations contributed approximately 11% of consolidated revenue.",
+   "plate": "CC/2026/272"
+  },
+  "sections": [
+   {
+    "h": "A third paid in metal",
+    "p": [
+     {
+      "lead": "Thirty-eight from twenty-nine.",
+      "text": "Old gold exchange reached 38% of PNG Jewellers' Q2 sales, against 29% a year earlier."
+     },
+     {
+      "lead": "Studded moved too.",
+      "text": "The retail studded jewellery ratio rose to 11.8% from 9% a year earlier, which the company attributes to stronger diamond jewellery demand."
+     },
+     {
+      "lead": "Coins came out.",
+      "text": "E-commerce revenue fell 83.6% on what PNG calls a strategic reduction in lower-margin gold coin sales, against retail growth of 31.1%."
+     }
+    ]
+   },
+   {
+    "h": "Kalyan grew on a larger base",
+    "p": [
+     {
+      "lead": "Twenty-six and up.",
+      "text": "Consolidated revenue rose more than 26% year on year. India operations grew approximately 27% on same-store sales growth of around 20%."
+     },
+     {
+      "lead": "Eighteen abroad.",
+      "text": "International operations grew 18%, including 12% in the Middle East driven entirely by same-store sales, and contributed about 11% of consolidated revenue."
+     },
+     {
+      "lead": "Candere sixty-four.",
+      "text": "The digital-first brand grew approximately 64%. Kalyan opened nine Candere showrooms in India during the quarter."
+     }
+    ]
+   },
+   {
+    "h": "Both are still opening",
+    "p": [
+     {
+      "lead": "Five hundred forty-six.",
+      "text": "Kalyan's network reached 546 showrooms at 30 September. It opened 12 showrooms in India during the quarter, a net addition of 11."
+     },
+     {
+      "lead": "Eighty, nearing a hundred.",
+      "text": "PNG opened two stores during the quarter to reach 80 in total. It plans about 23 more this financial year, for roughly 103 outlets."
+     },
+     {
+      "lead": "Debt and a disposal.",
+      "text": "Kalyan completed the sale of a non-core property valued at about Rs 86 crore. It expects a second at around Rs 16 crore this quarter, and reports non-GML debt at zero."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "After board approval",
+    "what": "The audited Q2 FY27 results from both companies. Every figure here is pre-review and no profit number has been published."
+   },
+   {
+    "when": "Q3 FY27",
+    "what": "Whether Navratri landing in the third quarter lifts PNG's comparative, since the company names that shift as a drag on this quarter."
+   },
+   {
+    "when": "Through FY27",
+    "what": "Whether PNG's old gold exchange share holds above a third, and whether its guided network of about 103 stores is reached."
+   }
+  ],
+  "depth": {
+   "reverse": "The audited numbers. Both companies state plainly that these figures are subject to limited review by their statutory auditors and that detailed results follow board approval, so any of them can move. The old gold share is the figure most worth re-reading at that point, because it is a mix statistic rather than a revenue line and mix statistics are the ones most often restated once a reporting basis is fixed.",
+   "built": {
+    "title": "What an old-gold share actually measures",
+    "text": "In Indian jewellery retail a customer frequently part-pays by handing over existing gold, which the retailer takes in at an assayed value and credits against the new purchase. That transaction is recorded as a sale at the full ticket, so a rising old-gold share does not reduce reported revenue; it changes what the revenue is made of. Two things follow and they point in opposite directions. The first is that a high old-gold share is a demand support in an expensive market: a customer priced out of a cash purchase at 1,250-rupee-plus gram levels can still transact by converting metal they already own, which keeps units moving when affordability is stretched. The second is that it is a cash-flow and margin question, because the retailer receives metal rather than money and then has to decide whether to remelt, resell or hold it, and the making charge on the new piece is the part of the ticket that is genuinely new income. A share moving from 29% to 38% in a single year is therefore a statement about the customer's purchasing power at least as much as about the retailer's performance, and it cannot be read as either good or bad without the margin disclosure that neither company published here."
+   },
+   "method": "One primary, fetched this morning and greped before writing. GJEPC's own page was fetched directly (200, 35,673 bytes, saved to newsroom/sources/2026-10-10/desk/kalyan.html) and every printed figure was confirmed in the raw bytes: '38% from 29%' 1 hit, '22.4%' 1, '26%' 1, '11.8%' 1, '83.6%' 1, '25.5%' 1, '31.1%' 1, '64%' 1, '546 showrooms' 1, '365 Kalyan' 1, '80, including 79' 1. All figures are taken from the page's own body paragraphs; GJEPC's listing chrome and its 'Prev / Next' navigation carry other stories and nothing from them is used. ARCHIVE, period rule, both sides named: entity search for 'Kalyan Jewellers' against website/content/articles.json returns 4 hits, all opened and read — 2026-08-09 (a-forty-six-percent-came-back.html) is a different metric and a different period, 2026-09 (a-one-state-one-banner.html) is a brand-positioning story, and neither of the other two carries a quarterly result. No article in this paper covers Q2 FY27 for either company. Same entity, different reporting period — ADVANCED, and what advanced is that this paper has never printed a Kalyan or PNG quarter and now prints the one ended 30 September 2026. Exclusivity is low and that is stated rather than hidden: the Indian financial press carries these releases in English on the same day, and the reason to print it here is the old-gold mix figure rather than the growth rates. No quotation is carried; neither company's release contains a figure-bearing quotation worth the allowance. No percentage here is Carat Capital's own division: every figure is the company's, reproduced at the precision the source gives it, and the two columns of the table are deliberately not reconciled because the companies report on different bases.",
+   "prior": [
+    {
+     "date": "2026-10-09",
+     "slug": "one-ninety-companies-and-nine-hundred-stores",
+     "claim": "More than 190 companies and 900 stores joined India's gold audit."
+    },
+    {
+     "date": "2026-10-09",
+     "slug": "twenty-three-showrooms-become-stores",
+     "claim": "Signet is converting 23 Blue Nile showrooms into stores carrying inventory."
+    }
+   ],
+   "sources": [
+    {
+     "title": "GJEPC, Kalyan Jewellers and PNG Jewellers report strong Q2 growth",
+     "url": "https://www.gjepc.org/news_detail.php?news=kalyan-jewellers-and-png-jewellers-report-strong-q2-growth-1",
+     "published": "2026-10-09"
+    },
+    {
+     "title": "Carat Capital, Over 190 companies and 900 stores join India's gold audit, 9 October 2026",
+     "url": "https://caratcapital.org/a-one-ninety-companies-and-nine-hundred-stores.html",
+     "published": "2026-10-09"
+    }
+   ]
+  },
+  "next": {
+   "slug": "one-ninety-companies-and-nine-hundred-stores"
+  }
+ },
+ "seventeen-styles-from-fifteen-hundred": {
+  "v": 3,
+  "kicker": "Coloured Stones",
+  "figures": {
+   "asof": "Collection and pricing as published by JCK on 9 October 2026, from Le Vian's own statement; in-store arrival stated as mid-October 2026.",
+   "cells": [
+    {
+     "n": "17",
+     "label": "In-store styles at Kay Jewelers",
+     "q": "more designs online, number not given",
+     "src": 1
+    },
+    {
+     "n": "$1,499.99",
+     "label": "Bottom of the in-store range",
+     "q": "to $4,999.99 at the top",
+     "src": 1
+    },
+    {
+     "n": "8",
+     "label": "Natural gemstones in the collection",
+     "q": "quartz, topaz, aquamarine, morganite",
+     "src": 1
+    },
+    {
+     "n": "3.33×",
+     "label": "Top of range against bottom",
+     "q": "CC division, 4,999.99 / 1,499.99",
+     "src": 1
+    }
+   ]
+  },
+  "changed": {
+   "lead": "A cut goes national at Kay.",
+   "text": "Le Vian priced its Antique Cushion Cut collection for Kay Jewelers at $1,499.99 to $4,999.99 across 17 in-store styles, arriving mid-October. It uses eight natural gemstones rather than diamonds."
+  },
+  "means": [
+   {
+    "who": "If you buy for a mass-market case:",
+    "text": "A chain is selling a cut as the reason to buy, opening at four figures."
+   },
+   {
+    "who": "If you sell antique-cut diamonds:",
+    "text": "The hand-cut argument is now being made with quartz, not diamond."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A carat-weight disclosure. None is published."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "What is in the collection and what it costs",
+   "asof": "All names and prices as published by JCK on 9 October 2026, from Le Vian's own statement",
+   "cols": [
+    "Item",
+    "Detail"
+   ],
+   "rows": [
+    [
+     "In-store styles",
+     "17, at Kay locations from mid-October 2026"
+    ],
+    [
+     "In-store price range",
+     "$1,499.99 to $4,999.99"
+    ],
+    [
+     "Published example",
+     "Oval-cut diamond ring, $3,499.99, 14k honey gold, Chocolate and Nude Diamonds"
+    ],
+    [
+     "Published example",
+     "Natural aquamarine and diamond ring, $1,949.99, oval-cut Sea Aquamarine in 14k honey gold"
+    ],
+    [
+     "Stones used",
+     "Nude, Mint, Honey and Chocolate Quartz; Sky and Deep Sea Blue Topaz; Sea Aquamarine; Rose Morganite"
+    ],
+    [
+     "Cut features",
+     "Larger facet, linear culet, broad crown facets, pavilion step cuts, hidden halo in key pieces"
+    ],
+    [
+     "Online",
+     "Additional designs, count and prices not published"
+    ]
+   ],
+   "hi": 1,
+   "note": "The ratio in the key figures is Carat Capital's own division and is printed so it can be checked: 4,999.99 divided by 1,499.99 is 3.333, so the top of the in-store range is 3.33 times the bottom. Every other figure in this table is Le Vian's or Kay's own, reproduced at the precision published. No carat weight is given for any stone in the collection, and no price is published for the online-only designs or for the natural fancy colour diamonds whose palette the eight gemstones are said to evoke. The cut description is the company's own and is not independently assessed here.",
+   "plate": "CC/2026/273"
+  },
+  "sections": [
+   {
+    "h": "Seventeen styles, four figures",
+    "p": [
+     {
+      "lead": "Fifteen hundred up.",
+      "text": "The in-store range runs $1,499.99 to $4,999.99 across 17 styles, in Kay locations from mid-October, with further designs online."
+     },
+     {
+      "lead": "Two published examples.",
+      "text": "An oval-cut diamond ring in 14-carat honey gold is listed at $3,499.99 and an aquamarine and diamond ring at $1,949.99."
+     },
+     {
+      "lead": "Three and a third.",
+      "text": "The top of the in-store range is 3.33 times the bottom. That is a mass-market ladder rather than a fine-jewellery one."
+     }
+    ]
+   },
+   {
+    "h": "Eight stones, no diamonds",
+    "p": [
+     {
+      "lead": "Quartz leads the palette.",
+      "text": "The collection uses nude, mint, honey and chocolate quartz, sky and deep sea blue topaz, sea aquamarine and rose morganite: eight natural gemstones."
+     },
+     {
+      "lead": "Chosen for colour.",
+      "text": "Le Vian says the eight were selected for colours that evoke the palette of rare natural fancy colour diamonds. No price for those diamonds is published."
+     },
+     {
+      "lead": "No weights given.",
+      "text": "No carat weight is published for any stone. The collection is positioned by cut and colour rather than by size."
+     }
+    ]
+   },
+   {
+    "h": "The cut is the argument",
+    "p": [
+     {
+      "lead": "Four stated features.",
+      "text": "Le Vian describes a larger facet, a linear culet and broad crown facets. It adds longer mirrored reflections from pavilion step cuts, and a hidden halo in key pieces."
+     },
+     {
+      "lead": "Vintage was forecast.",
+      "text": "Le Vian's 2027 forecast centred on personal style and vintage, including natural gemstones cut in the manner of old mine diamonds."
+     },
+     {
+      "lead": "Against lab-grown.",
+      "text": "JCK attributes the antique-cut trend partly to hand-cut irregularity that separates such stones from lab-grown material, and partly to celebrity wear."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Mid-October 2026",
+    "what": "In-store arrival at Kay. The 17 styles and the $1,499.99 opening price are the checkable part once the cases are set."
+   },
+   {
+    "when": "Not published",
+    "what": "The online-only designs, their count and their prices. Le Vian has published neither."
+   },
+   {
+    "when": "Through 2027",
+    "what": "Whether Le Vian's own vintage-and-personal-style forecast shows up in Signet's reported mix, which would make this more than a collection launch."
+   }
+  ],
+  "depth": {
+   "reverse": "Carat weights. A collection priced by cut with no size disclosure is a marketing position rather than a measurable one, and published weights could make the same prices read as either generous or thin. It would also read differently if the online assortment is priced materially above or below the in-store range, which Le Vian has not published.",
+   "built": {
+    "title": "Why a cut can be a mass-market product",
+    "text": "A modern round brilliant is engineered for light return and is reproducible to a tolerance, which is exactly why it is hard to sell as a differentiator: every retailer has it and a lab-grown stone cut the same way is optically indistinguishable to a shopper. Antique cuts behave differently. An old mine or old European cut was finished by hand against a different optical objective, with a large open culet, fewer and broader facets and a chunkier crown, and the result reads as warmer flashes rather than the fine scintillation of a modern round. That irregularity is the selling point, because it is a look rather than a specification and therefore cannot be undercut purely on price per carat. Applying it to coloured gemstones rather than to diamonds is the commercially interesting move here. Quartz, topaz, aquamarine and morganite are abundant and inexpensive relative to diamond, so the cut has to carry the value proposition on its own, and the cost of cutting a broad-facet antique style into mid-hardness material is low enough to keep a four-figure retail price intact. What that buys a chain is a reason to buy that a lab-grown round cannot answer, at a price point a lab-grown round competes at directly."
+   },
+   "method": "One primary, fetched this morning and greped before writing. The JCK piece was fetched directly (200, 113,406 bytes, saved to newsroom/sources/2026-10-10/desk/levian.html) and every printed figure was confirmed in the raw bytes: '17 in-store styles' 1 hit, '1,499.99' 1, '4,999.99' 1, 'eight natural gemstones' 1, 'mid-October' 1, '3,499.99' 1, '1,949.99' 1, and the JSON-LD datePublished reads 2026-10-09. Figures were taken only from the article's own body paragraphs and image captions; the extraction stops before the recirculation blocks, which on JCK pages this morning carried four other same-day stories. The Bureau's slate recorded this item as having no price disclosed; it does, and the prices above are what the page carries. DEPTH SOURCING, stated to the standard this house holds for printed numbers: the cut description, the eight stone names, the 2027 forecast framing and the lab-grown contrast are all JCK's or Le Vian's own, read on that page this morning; no other outlet is credited with carrying them and none was consulted. The optical account of antique cuts in 'how this is built' is general gemmology and is not attributed to the source. Eddie LeVian's statement on the page was read and is not quoted: both of his published sentences run well past this paper's fifteen-word cap and neither carries a figure, so the collection is described from the company's statement with attribution instead. ARCHIVE, period rule, both sides named: entity search against website/content/articles.json gives 'Le Vian' 0 hits, 'LeVian' 0 hits, 'Antique Cushion' 0 hits and 'Kay Jewelers' 0 hits. This paper has never covered Le Vian or a Kay Jewelers collection launch. NEW, no prior period to advance from. Filed to the coloured-stones desk rather than retail because the news is a cut and an eight-stone palette; the source itself files it under Colored Stones. The one ratio is Carat Capital's own division and is printed with its arithmetic.",
+   "prior": [
+    {
+     "date": "2026-10-09",
+     "slug": "one-eight-million-on-a-sapphire",
+     "claim": "HKD 1.8 million topped Poly Auction's Hong Kong jewellery sale on a sapphire."
+    },
+    {
+     "date": "2026-10-09",
+     "slug": "twenty-three-showrooms-become-stores",
+     "claim": "Signet is converting 23 Blue Nile showrooms into stores carrying inventory."
+    }
+   ],
+   "sources": [
+    {
+     "title": "JCK, Le Vian's Antique Cushion Arrives at Kay as Old Diamond Cuts Trend (Karen Dybis)",
+     "url": "https://www.jckonline.com/editorial-article/le-vian-antique-cushion-cut/",
+     "published": "2026-10-09"
+    },
+    {
+     "title": "Carat Capital, 23 Blue Nile showrooms convert to stores with inventory, 9 October 2026",
+     "url": "https://caratcapital.org/a-twenty-three-showrooms-become-stores.html",
+     "published": "2026-10-09"
+    }
+   ]
+  },
+  "next": {
+   "slug": "eighty-one-carats-of-paraiba-in-paris"
   }
  }
 }
