@@ -1,46 +1,26 @@
 {
- "date_line": "Saturday, October 10, 2026 | Vol. I - No. 086",
- "edition": "Vol. I - No. 086",
+ "date_line": "Sunday, October 11, 2026 | Vol. I - No. 087",
+ "edition": "Vol. I - No. 087",
  "items": [
   {
-   "slug": "one-hundred-stores-back-to-the-family",
-   "desk": "Retail & Technology",
-   "title": "Sherwood family buys back Daniel's 100 stores from PE"
-  },
-  {
-   "slug": "one-point-two-million-and-no-sale",
-   "desk": "Auctions",
-   "title": "£1.2 million stops short of an 8.03-carat blue's reserve"
-  },
-  {
-   "slug": "twenty-percent-the-cutters-want-back",
-   "desk": "Diamonds",
-   "title": "Surat's cutters ask for the 20% their wages lost"
-  },
-  {
-   "slug": "ninety-percent-sanctioned-without-an-officer",
-   "desk": "Diamonds",
-   "title": "GST Council puts 90% of export refunds on automation"
-  },
-  {
-   "slug": "nine-months-and-twenty-seven-point-four",
+   "slug": "one-crore-a-kilo-in-a-bhuj-back-room",
    "desk": "Gold & Metals",
-   "title": "Nine months take 27.4% off China's brand gold counters"
+   "title": "₹1 crore a kilo: a Bhuj ring pitches Swiss gold"
   },
   {
-   "slug": "eighty-one-carats-of-paraiba-in-paris",
-   "desk": "Coloured Stones",
-   "title": "81.17-carat Paraiba leads Bonhams Paris on 29 October"
+   "slug": "twenty-lakh-on-a-twenty-four-crore-sale",
+   "desk": "Diamonds",
+   "title": "₹20 lakh advance fee ends a ₹24 crore Surat sale"
   },
   {
-   "slug": "thirty-eight-percent-paid-in-old-gold",
+   "slug": "one-lot-no-estimate-in-hong-kong",
+   "desk": "Auctions",
+   "title": "One lot, no estimate: Christie’s offers a Qianlong ewer"
+  },
+  {
+   "slug": "hk-278-million-and-the-wrong-chow-tai-fook",
    "desk": "Retail & Technology",
-   "title": "Old gold now funds 38% of PNG Jewellers' Q2 sales"
-  },
-  {
-   "slug": "seventeen-styles-from-fifteen-hundred",
-   "desk": "Coloured Stones",
-   "title": "Le Vian prices 17 antique-cushion styles from $1,499.99"
+   "title": "HK$278m top-up lifts the Cheng vehicle to 73.57%"
   }
  ],
  "tape_ts": "Kitco bid, board frozen at 2026-10-09T17:00:00Z, final 9 Oct session (no Saturday session)",
@@ -141,5 +121,5 @@
    ]
   }
  ],
- "editionDate": "2026-10-10"
+ "editionDate": "2026-10-11"
 }
