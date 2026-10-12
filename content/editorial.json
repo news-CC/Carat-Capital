@@ -138733,7 +138733,7 @@
     "title": "What an angadia is, and why the bar format matters",
     "text": "An angadia is a courier firm, mostly Gujarati and mostly old, that moves cash and valuables between cities against a slip and a trusted name rather than a bank wire. It is lawful, it is licensed in places, and it is the ordinary plumbing of the Indian gem and bullion trade, which is exactly why a seller would route a payment through one: the money arrives in another city with no bank record of a gold purchase, and the buyer collects it against identity documents he would show anyway. The second detail worth reading closely is the bar. A 100-gram bar from Metalor or PAMP is a refined, serial-numbered product made for vaults and good-delivery chains, not something a backyard operation can imitate convincingly. If bars of that exact format are circulating off-book in Gujarat, they entered the country as finished refinery product and the question is only which door they came through. That is a checkable claim, unlike a discount percentage, and it is the one a customs authority can test against its own seizure records."
    },
-   "method": "One primary, read in the original Gujarati and scoped to the article's own body paragraphs. The page was fetched this morning with a browser identity, 200, 545,719 bytes, saved to newsroom/sources/2026-10-11/desk/smuggle.html. Exact-string greps on the saved file, with hit counts: '1 કરોડ 40 લાખ' (₹1.40 crore) 2; 'રાઉન્ડ ફિગર 1 કરોડ' (round figure ₹1 crore) 2; '3 કરોડ' 6; '15 ટકા' 2; '30થી 35' 2; '40 ટકા' 12; '100 ગ્રામ' 6; 'મેટાલોર' (Metalor) 2; 'PAMP' 6; 'LBMA' 2; 'આંગળીયા' (angadia) 6; 'ગાંધીધામ' (Gandhidham) 4; 'સ્વિટ્ઝરલેન્ડ' (Switzerland) 17. JSON-LD datePublished reads 2026-10-10T06:00:00+05:30, confirmed in the raw bytes. Figures were taken only from the investigation's own narrative and transcript; extraction stops before the site's Top News and weather rails, which on this page carry unrelated Gujarat items and no gold figures. The one quote is eight words, translated by Carat Capital from the Gujarati 'અમારો માલ તો જ્વલર્સ જ લઇ જતા હોય છે' and attributed to the agent as the newspaper records him. Archive check by entity against website/content/articles.json, not by figure: 'Bhuj' 0 hits, 'angadia' 0, 'hawala' 0, 'Metalor' 0, 'Mahidharpura' 0; 'smuggl' returned 4 hits and every one was opened and read — two are the Vietnam diamond certificate case (16 July and 3 August), one is a US counterfeit-jewellery seizure (30 August), one is this paper's own 28 August piece on India's gold import duty, which is a different event and period and is cited above as prior coverage. Second-source attempt disclosed: the India Bullion and Jewellers Association home page opened (200, 135,663 bytes) but its rate ticker is undated, so no Indian retail benchmark is printed. This paper's 28 August piece reported the import duty going from 6% to 15% on 13 May 2026 and then under review; no door was knocked on the rate this morning, so that figure is cited as prior coverage and not as today's rate.",
+   "method": "One primary, read in the original Gujarati and scoped to the article's own body paragraphs. The page was fetched this morning with a browser identity, 200, 545,719 bytes, saved to newsroom/sources/2026-10-11/desk/smuggle.html. Exact-string greps on the saved file, with hit counts: '1 કરોડ 40 લાખ' (₹1.40 crore) 2; 'રાઉન્ડ ફિગર 1 કરોડ' (round figure ₹1 crore) 2; '3 કરોડ' 6; '15 ટકા' 2; '30થી 35' 2; '40 ટકા' 12; '100 ગ્રામ' 6; 'મેટાલોર' (Metalor) 2; 'PAMP' 6; 'LBMA' 2; 'આંગળીયા' (angadia) 6; 'ગાંધીધામ' (Gandhidham) 4; 'સ્વિટ્ઝરલેન્ડ' (Switzerland) 17. JSON-LD datePublished reads 2026-10-10T06:00:00+05:30, confirmed in the raw bytes. Figures were taken only from the investigation's own narrative and transcript; extraction stops before the site's Top News and weather rails, which on this page carry unrelated Gujarat items and no gold figures. The one quote is eight words, translated by Carat Capital from the Gujarati 'અમારો માલ તો જ્વેલર્સ જ લઇ જતા હોય છે' and attributed to the agent as the newspaper records him. Archive check by entity against website/content/articles.json, not by figure: 'Bhuj' 0 hits, 'angadia' 0, 'hawala' 0, 'Metalor' 0, 'Mahidharpura' 0; 'smuggl' returned 4 hits and every one was opened and read — two are the Vietnam diamond certificate case (16 July and 3 August), one is a US counterfeit-jewellery seizure (30 August), one is this paper's own 28 August piece on India's gold import duty, which is a different event and period and is cited above as prior coverage. Second-source attempt disclosed: the India Bullion and Jewellers Association home page opened (200, 135,663 bytes) but its rate ticker is undated, so no Indian retail benchmark is printed. This paper's 28 August piece reported the import duty going from 6% to 15% on 13 May 2026 and then under review; no door was knocked on the rate this morning, so that figure is cited as prior coverage and not as today's rate.",
    "prior": [
     {
      "date": "2026-08-28",
@@ -138762,6 +138762,9 @@
      "url": "https://caratcapital.org/a-ten-thousand-four-sixty-three-crore.html",
      "published": "2026-08-28"
     }
+   ],
+   "corrections": [
+    "Corrected 12 October 2026: the Method section of this article quoted the agent's Gujarati as ‘અમારો માલ તો જ્વલર્સ જ લઇ જતા હોય છે’. The saved primary, newsroom/sources/2026-10-11/desk/smuggle.html (545,719 bytes), reads જ્વેલર્સ — with the vowel sign ે — and the printed form dropped it, turning the word for jewellers into a non-word. Re-checked by exact string count against the saved bytes on both sides: જ્વલર્સ returns 0 hits in the primary, જ્વેલર્સ returns 4, and the full sentence as the primary carries it returns 2. The quoted Gujarati now matches the primary character for character. Where the bad text came from: a transcription slip when the string was typed into the Method note, not a figure taken from the wrong place. What was right as published: the quote is real, correctly attributed to the agent the newspaper names as Amar, and the English rendering disclosed in the same sentence is a fair translation of what the source actually says. No number, no table cell, no headline and no reader-facing English claim on the page was wrong, and none has changed. Found by this paper's standards desk."
    ]
   },
   "next": {
@@ -139307,6 +139310,961 @@
   },
   "next": {
    "slug": "five-million-shares-in-five-sessions"
+  }
+ },
+ "eighty-seven-eighty-one-lakh-out-for-stone-setting": {
+  "v": 3,
+  "kicker": "Retail & Technology",
+  "figures": {
+   "asof": "From Divya Bhaskar's report published 11 October 2026 (JSON-LD datePublished 2026-10-11T14:01:24+05:30). Every figure is as stated in a police complaint by the jeweller who says he lost the goods. Nothing is adjudicated, no arrest is reported, and the three people named have not been heard.",
+   "cells": [
+    {
+     "n": "₹87.81 lakh",
+     "label": "Value of the 17 sets",
+     "q": "the complainant's own figure",
+     "src": 1
+    },
+    {
+     "n": "646.470g",
+     "label": "Weight handed over",
+     "q": "17 gold sets and earrings",
+     "src": 1
+    },
+    {
+     "n": "₹13,583",
+     "label": "Implied value a gram",
+     "q": "finished sets with stones, not a metal price",
+     "src": 1
+    },
+    {
+     "n": "10 months",
+     "label": "Handover to published report",
+     "q": "22 December 2025 to 11 October 2026",
+     "src": 1
+    }
+   ]
+  },
+  "changed": {
+   "lead": "The shop emptied overnight.",
+   "text": "A C.G. Road jeweller gave 17 gold sets worth ₹87.81 lakh to a Nava Wadaj workshop for stone-setting. Two days later the shop was gone."
+  },
+  "means": [
+   {
+    "who": "If you send work out to a karigar:",
+    "text": "The first three sets came back on time. That is what the receipt bought."
+   },
+   {
+    "who": "If you underwrite trade credit:",
+    "text": "Nothing here was bonded, insured or held against security. A receipt was the whole protection."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A conviction, a recovery, or a figure any court or valuer has tested. One complainant's valuation and one police complaint."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "The handover and what followed",
+   "hi": 1,
+   "asof": "Every date and figure in this table is from Divya Bhaskar's report of 11 October 2026, read in Gujarati",
+   "cols": [
+    "Date",
+    "What the complaint says happened",
+    "Figure"
+   ],
+   "rows": [
+    [
+     "December 2025",
+     "First three sets finished on time",
+     "3 sets"
+    ],
+    [
+     "22 December 2025",
+     "17 sets and earrings handed over, receipt issued",
+     "₹87.81 lakh / 646.470g"
+    ],
+    [
+     "24 December 2025",
+     "Return asked for, told to come at 10 pm",
+     "3 numbers switched off"
+    ],
+    [
+     "25 December 2025",
+     "Rented shop found cleared, New Ranip home locked",
+     "No recovery"
+    ],
+    [
+     "11 October 2026",
+     "Complaint at Wadaj police station reported",
+     "About 10 months on"
+    ]
+   ],
+   "note": "The arithmetic, printed so it can be checked: ₹87.81 lakh against 646.470 grams is 8,781,000/646.470 = ₹13,583 a gram. That is not a gold rate. The work handed over was jadtar, stone-setting, so the complainant's valuation of finished sets contains metal, stones and making together, and no breakdown is given. Carat Capital has not benchmarked it against a dated Indian gold rate and prints no comparison. The ten-month figure is the gap between the 22 December 2025 handover and the 11 October 2026 report; the newspaper gives no reason for it.",
+   "plate": "CC/2026/272"
+  },
+  "sections": [
+   {
+    "h": "A receipt bought the trust",
+    "p": [
+     {
+      "lead": "Three sets first.",
+      "text": "Dipen Ashokbhai Soni, his wife Khushbu and their partner Parth Jigneshbhai Soni ran S.S. Ornaments in Nava Wadaj. They finished three sets on time in December 2025."
+     },
+     {
+      "lead": "Then seventeen more.",
+      "text": "On 22 December the jeweller handed over 17 gold sets and earrings for stone-setting. Khushbu Soni issued the receipt, the newspaper reports."
+     },
+     {
+      "lead": "Ten at night.",
+      "text": "Asked for the goods back on 24 December, Dipen said to come at 10 pm. All three mobile numbers were switched off after that."
+     }
+    ]
+   },
+   {
+    "h": "Two addresses, both empty",
+    "p": [
+     {
+      "lead": "The shop went.",
+      "text": "The rented shop in Nava Wadaj had been cleared the night before, the jeweller found on enquiring the next day."
+     },
+     {
+      "lead": "The house too.",
+      "text": "The three had a residence at New Ranip. That was found locked as well."
+     },
+     {
+      "lead": "Wadaj station now.",
+      "text": "The complaint sits with Wadaj police, who have begun investigating. No arrest, no recovery and no charge sheet is reported."
+     }
+    ]
+   },
+   {
+    "h": "The gap is ten months",
+    "p": [
+     {
+      "lead": "December to October.",
+      "text": "The handover was 22 December 2025 and the report is dated 11 October 2026. The newspaper gives no reason for the gap."
+     },
+     {
+      "lead": "Nothing was secured.",
+      "text": "Stone-setting work moves finished stock to a third party against a slip. No bond, insurance or security appears anywhere in the account."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Not announced",
+    "what": "Whether Wadaj police make an arrest or recover any of the 17 sets. Neither is reported."
+   },
+   {
+    "when": "Ongoing",
+    "what": "Whether the complaint produces a charge sheet naming all three, including the partner who did not issue the receipt."
+   },
+   {
+    "when": "Ongoing",
+    "what": "Whether any Gujarat jewellers' association publishes guidance on securing karigar consignments. None appears in the account."
+   }
+  ],
+  "depth": {
+   "reverse": "A recovery, or a court. Everything priced here is one complainant's valuation inside one police complaint, and the three people named have not been heard. A charge sheet, a seizure of the 17 sets, or an independent valuation would each change the reading. So would a reason for the ten-month gap between the handover and the report, which the newspaper does not give.",
+   "built": {
+    "title": "Why stone-setting work leaves a jeweller unsecured",
+    "text": "Jadtar is stone-setting, and in the Indian trade it is almost always sent out. A retailer with a showroom does not keep a setter on the premises; he hands finished or semi-finished gold to a karigar's workshop, which sets the stones and returns the piece. The transaction is ordinary, it happens thousands of times a week in Gujarat alone, and the whole of the retailer's protection is normally a receipt in the workshop's own hand. There is no bond, no escrow, no bailment insurance in common use and no registry of who holds whose stock. That is why the weight matters more than the money in a case like this one: 646.470 grams is a figure both sides can agree on and a court can test, while a valuation of finished sets carrying stones is an assertion until someone appraises them. It is also why the receipt is the only document in the account. When a workshop vacates its premises, the retailer is left holding a piece of paper against a counterparty whose address has stopped being an address, and the loss converts from a trade debt into a police matter with nothing securing it."
+   },
+   "method": "One primary, read in the original Gujarati and scoped to the report's own body paragraphs. The page was fetched at press time with a browser identity, 200, 429,097 bytes, saved to newsroom/sources/2026-10-12/desk/ahmedabad.html. Exact-string counts on the saved file, run against the raw bytes rather than a summary, with hit counts: '87.81' 18; '646.470' 10; 'વાડજ' (Wadaj) 31; 'એસ.એસ. ઓર્નામેન્ટ્સ' (S.S. Ornaments) 10; 'લબ્ધી ઓર્નામેન્ટ્સ' (Labdhi Ornaments) 2; 'સંજય શાહ' (Sanjay Shah) 2; 'દિપેન અશોકભાઈ સોની' 2; 'ખુશ્બુ સોની' 4; 'પાર્થ જીગ્નેશભાઈ સોની' 2; '22 ડિસેમ્બર 2025' 2; '24 ડિસેમ્બર, 2025' 2; 'ન્યુ રાણીપ' (New Ranip) 2; 'પ્રહલાદનગર' (Prahladnagar) 2; 'રાત્રે 10 વાગ્યે' (at 10 pm) 2; 'વાડજ પોલીસ સ્ટેશન' (Wadaj police station) 2. JSON-LD datePublished reads 2026-10-11T14:01:24+05:30, confirmed in the raw bytes. Extraction stops before the page's Top News and weather rails, which carry unrelated Gujarat items, temperatures and no gold figures; none of their numbers is used here. The ₹13,583 a gram is Carat Capital's own division, printed in the table note so it can be checked, and is not taken from the source. ADVANCE ON THE BUREAU'S OWN READ, disclosed because it changes the story: the Bureau slate of 2026-10-12 recorded that the report gave no calendar date for the disappearance distinct from the report date, the fuller timeline sitting behind the outlet's app prompt. The dated paragraphs are in fact present in the raw bytes and give December 2025, 22 December 2025 and 24 December 2025, which is why this article is built on a ten-month-old loss rather than an overnight one. Archive check by entity, date and event against website/content/articles.json, not by figure: '87.81' 0 hits, '646.470' 0, 'Wadaj' 0, 'S.S. Ornaments' 0, 'Labdhi' 0. No prior Carat Capital story covers this complaint or these parties, so the verdict is NEW on entity and on period. The two pieces cited as prior coverage are different events with different parties: the Surat advance-fee case of 11 October 2026 and this paper's Bhuj bullion piece of the same date. No second source exists for a single police complaint and none is claimed; no Gujarat police release was found for it.",
+   "prior": [
+    {
+     "date": "2026-10-11",
+     "slug": "twenty-lakh-on-a-twenty-four-crore-sale",
+     "claim": "A ₹20 lakh advance fee ended a ₹24 crore Surat diamond sale, also on a police complaint."
+    },
+    {
+     "date": "2026-10-11",
+     "slug": "one-crore-a-kilo-in-a-bhuj-back-room",
+     "claim": "A Bhuj seller named ₹1 crore a kilo for Swiss bars against ₹1.40 crore called the full rate."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Divya Bhaskar: C.G. Road jeweller cheated of ₹87.81 lakh on a stone-setting job (Gujarati)",
+     "url": "https://www.divyabhaskar.co.in/local/gujarat/ahmedabad/news/ahmedabad-jeweler-fraud-wadaj-couple-absconding-gold-theft-139321269.html",
+     "published": "2026-10-11"
+    },
+    {
+     "title": "Carat Capital, ₹20 lakh advance fee ends a ₹24 crore Surat sale, 11 October 2026",
+     "url": "https://caratcapital.org/a-twenty-lakh-on-a-twenty-four-crore-sale.html",
+     "published": "2026-10-11"
+    }
+   ]
+  },
+  "next": {
+   "slug": "nine-point-five-billion-passes-china"
+  }
+ },
+ "nine-point-five-billion-passes-china": {
+  "v": 3,
+  "kicker": "Gold & Metals",
+  "figures": {
+   "asof": "World Gold Council, Gold ETF Flows: September 2026, published 7 October 2026 and unchanged since; read five days later. Flows data as of 30 September 2026. All figures are the council's own and in US dollars.",
+   "cells": [
+    {
+     "n": "4,256t",
+     "label": "Global ETF holdings",
+     "q": "a record, up 67t on the month",
+     "src": 1
+    },
+    {
+     "n": "US$574bn",
+     "label": "Total assets under management",
+     "q": "down 7% month on month",
+     "src": 1
+    },
+    {
+     "n": "US$31bn",
+     "label": "Q3 inflow",
+     "q": "a record quarter",
+     "src": 1
+    },
+    {
+     "n": "US$9.5bn",
+     "label": "UK-listed funds, year to date",
+     "q": "marginally above China",
+     "src": 1
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Britain took the lead.",
+   "text": "UK-listed funds have drawn US$9.5bn this year, marginally overtaking Chinese funds as the largest country-level source of gold ETF inflows."
+  },
+  "means": [
+   {
+    "who": "If you allocate institutionally:",
+    "text": "Holdings rose while assets fell. The gap is price, not redemptions."
+   },
+   {
+    "who": "If you sell gold at retail:",
+    "text": "Investment demand held through a falling price. Buyers treated the pullback as an entry, not an exit."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A reading on jewellery demand, a forecast, or a figure newer than 30 September. The council published it on 7 October and nothing has moved since."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "September and the quarter, by region",
+   "hi": 4,
+   "asof": "World Gold Council, flows data as of 30 September 2026, published 7 October",
+   "cols": [
+    "Region",
+    "September inflow",
+    "Q3 inflow"
+   ],
+   "rows": [
+    [
+     "North America",
+     "US$4bn",
+     "US$12bn"
+    ],
+    [
+     "Europe",
+     "US$3.6bn",
+     "US$14bn"
+    ],
+    [
+     "Asia",
+     "US$2.3bn",
+     "US$4.9bn"
+    ],
+    [
+     "Listed elsewhere",
+     "US$104mn",
+     "US$476mn"
+    ],
+    [
+     "Global",
+     "US$10bn",
+     "US$31bn"
+    ]
+   ],
+   "note": "The regional legs are checked against the headline, printed so the rounding is visible. September: 4 + 3.6 + 2.3 + 0.104 = US$10.004bn against a stated US$10bn. Quarter: 12 + 14 + 4.9 + 0.476 = US$31.376bn against a stated US$31bn. The council rounds its headline figures to the nearest billion, so the legs sum slightly above both; Carat Capital prints the sum rather than reconciling it silently. The 7% decline in assets under management is a month-on-month fall in dollars, not a fall in metal: holdings rose 67 tonnes over the same month.",
+   "plate": "CC/2026/273"
+  },
+  "sections": [
+   {
+    "h": "Holdings rose as assets fell",
+    "p": [
+     {
+      "lead": "Sixty-seven tonnes in.",
+      "text": "Global holdings gained 67 tonnes in September to a record 4,256 tonnes. Total assets under management fell 7% on the month to US$574bn."
+     },
+     {
+      "lead": "Price did that.",
+      "text": "The council attributes the decline in assets to a lower gold price, not to selling. The two series moved in opposite directions for the month."
+     },
+     {
+      "lead": "The quarter grew.",
+      "text": "Across the third quarter total assets rose 9% and collective holdings grew by 211 tonnes. Inflows reached a record US$31bn."
+     }
+    ]
+   },
+   {
+    "h": "Europe outbought North America",
+    "p": [
+     {
+      "lead": "Fourteen billion in Europe.",
+      "text": "European funds drew US$3.6bn in September and US$14bn across the quarter, a record. North America took US$4bn and US$12bn."
+     },
+     {
+      "lead": "First since 2021.",
+      "text": "The council says this is the first quarter in which Europe beat North America while both recorded inflows since the second quarter of 2021."
+     },
+     {
+      "lead": "Britain led it.",
+      "text": "UK-listed funds added US$2.2bn in the month and US$7.5bn in the quarter. German, French and Swiss-listed funds also recorded inflows."
+     }
+    ]
+   },
+   {
+    "h": "Twelve weeks out of thirteen",
+    "p": [
+     {
+      "lead": "A consistent run.",
+      "text": "UK funds recorded inflows in 12 of the 13 weeks to 25 September, which the council calls the most consistent run since 2022."
+     },
+     {
+      "lead": "Gilts beside gold.",
+      "text": "The council links the run to a rising gilt term premium and to investor concern over inflation uncertainty and fiscal sustainability."
+     },
+     {
+      "lead": "Asia bought too.",
+      "text": "Asian funds added US$2.3bn, a third straight month of inflows, with China the largest contributor. India, Japan, South Korea and Singapore also took money."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Early November 2026",
+    "what": "The council's October flows report, which shows whether the UK's lead over China survived a single month."
+   },
+   {
+    "when": "Ongoing",
+    "what": "Whether holdings keep rising while assets fall. The two parted company in September on price alone."
+   },
+   {
+    "when": "Next Fed decision",
+    "what": "The council names a 25 basis point rise during September, and a signal of further tightening, as pressure on the gold price."
+   }
+  ],
+  "depth": {
+   "reverse": "A month of outflows, or a revision. The series is the council's own and is restated in later reports when fund filings change, so the September point is not final. The UK's lead over China is described by the council itself as marginal, which means a single month of Chinese buying could reverse it. Nothing here has moved since 7 October, and a reading five days old is not a reading of this morning.",
+   "built": {
+    "title": "Why holdings and flows are two different series",
+    "text": "The council publishes two things on the same page and they answer different questions. Demand captures the change in the physical gold held by the funds, measured in tonnes. Fund flows capture the net amount of money in US dollars that came into or went out of those funds. Assets under management are a third thing again: tonnes multiplied by the gold price, which means they move when either the metal or the price moves. That is why September can show holdings at a record and assets down 7% in the same sentence without contradicting itself. The funds bought 67 tonnes; the price of what they already held fell further than the new metal added. Reading the AUM line as a demand signal is the common error, and it is the one that would have had investors selling gold ETFs in a month when they bought a record quarter's worth. The tonnage line is the demand line. The dollar line is the price line wearing a demand label."
+   },
+   "method": "One primary, fetched at press time independently of the filing desk, 200, 81,366 bytes, saved to newsroom/sources/2026-10-12/desk/wgc.html. Exact-digit greps on the saved raw bytes, with hit counts, for every figure in the headline, dek and key-figure cells: '4,256' 3; '574' 3; '67t' 4; '31bn' 3; '10bn' 3; '7%' 3. The page's own sentence, quoted so it can be compared with what is printed above: 'Despite a lower gold price, global holdings rose 67t to a record 4,256t, while total AUM declined 7% m/m to US$574bn'. The US$9.5bn year-to-date figure and the US$7.5bn quarter figure for UK-listed funds, the 12-of-13-weeks run, the 211 tonnes and 9% quarterly figures and every regional leg in the table were each read out of the report's own body text in the same saved file. The page carries no JSON-LD datePublished; the publication date is taken from the report's own printed line, 'Published: 7 October, 2026', and the age is disclosed in the key-figure as-of line and in the article. No second source is cited and none is claimed: this is the council's own series and no independent party publishes it. ARCHIVE, by entity and by period, against website/content/articles.json, every hit opened and read rather than counted: 'gold ETF' returned 6 articles and all six were read. Ours of 2026-08-14 covers JULY 2026 global flows (US$3bn in the month, holdings up 23 tonnes); the new item covers SEPTEMBER 2026 AND Q3 2026 (US$10bn in the month, US$31bn in the quarter, holdings up 67 tonnes to 4,256 tonnes) — SAME ENTITY, DIFFERENT PERIOD, therefore ADVANCED, not a repeat. The other four hits are India-only or China-only sub-series from 22 July, 22 September and 23 September and a Perth Mint piece of 17 August, each a different entity and a different period. A separate grep for '4,256' returned one hit, which was opened: it is a gold ASK price of $4,256.50 in a 24 September markets piece, a coincidence of digits and not this report's tonnage.",
+   "prior": [
+    {
+     "date": "2026-08-14",
+     "slug": "seventy-one-million-from-america",
+     "claim": "Global gold ETFs took US$3bn in July 2026, of which North America supplied US$71 million."
+    },
+    {
+     "date": "2026-09-22",
+     "slug": "india-imports-fall-forty-five",
+     "claim": "Indian gold ETF holdings reached 121.3 tonnes in August on a 67% rise in monthly inflows."
+    }
+   ],
+   "sources": [
+    {
+     "title": "World Gold Council, Gold ETF Flows: September 2026 — UK crowned in a record quarter",
+     "url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/10",
+     "published": "2026-10-07"
+    },
+    {
+     "title": "Carat Capital, $71 million from America in a $3 billion gold month, 14 August 2026",
+     "url": "https://caratcapital.org/a-seventy-one-million-from-america.html",
+     "published": "2026-08-14"
+    }
+   ]
+  },
+  "next": {
+   "slug": "swiss-refining-comes-to-tuen-mun"
+  }
+ },
+ "swiss-refining-comes-to-tuen-mun": {
+  "v": 3,
+  "kicker": "Gold & Metals",
+  "figures": {
+   "asof": "Valcambi SA press release, Balerna and Hong Kong, dated 8 October 2026 (JSON-LD datePublished 2026-10-08T08:24:04+00:00), read four days later. The letter of intent was signed on 7 October. No financial term is disclosed anywhere in the release.",
+   "cells": [
+    {
+     "n": "7 October",
+     "label": "Date the letter was signed",
+     "q": "released the following day",
+     "src": 1
+    },
+    {
+     "n": "1956",
+     "label": "Shiu Wing Steel founded",
+     "q": "Hong Kong's only steel mill",
+     "src": 1
+    },
+    {
+     "n": "65 years",
+     "label": "In rebar production and retail",
+     "q": "the company's own figure",
+     "src": 1
+    },
+    {
+     "n": "None",
+     "label": "Investment, capacity or date",
+     "q": "no figure published for any of the three",
+     "src": 1
+    }
+   ]
+  },
+  "changed": {
+   "lead": "A letter, not a deal.",
+   "text": "Valcambi and Shiu Wing Steel signed a letter of intent on 7 October to form a Hong Kong refining company. No terms were given."
+  },
+  "means": [
+   {
+    "who": "If you refine or vault in Asia:",
+    "text": "A Swiss refiner is proposing capacity inside Hong Kong rather than shipping metal to Switzerland."
+   },
+   {
+    "who": "If you trade Hong Kong bullion:",
+    "text": "The government was in the room. The finance secretary arrived from the LBMA conference in Sorrento."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A signed joint venture, a funded project, or a plant with a date. A letter of intent commits neither party to build."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "What the release states, and what it does not",
+   "hi": 4,
+   "asof": "Every row is read from Valcambi's release of 8 October 2026; the three 'Not stated' rows are absences verified by search, not estimates withheld",
+   "cols": [
+    "Item",
+    "What the release says"
+   ],
+   "rows": [
+    [
+     "Instrument",
+     "Letter of intent, signed 7 October 2026"
+    ],
+    [
+     "Site",
+     "Shiu Wing Steel's facility, Tuen Mun, Hong Kong"
+    ],
+    [
+     "Scope",
+     "Refining and vaulting, serving Asia Pacific"
+    ],
+    [
+     "Headquarters",
+     "Hong Kong"
+    ],
+    [
+     "Investment",
+     "Not stated"
+    ],
+    [
+     "Capacity",
+     "Not stated"
+    ],
+    [
+     "Timetable",
+     "Not stated"
+    ]
+   ],
+   "note": "The three absences were established by search rather than assumed, because an absence is a measurement. The release body was isolated between its own dateline and its photograph caption, 3,456 characters, and searched for a figure: hits for '$' 0, 'CHF' 0, 'HK$' 0, 'USD' 0, 'EUR' 0, '€' 0, 'tonne' 0, 'ton' 0, 'million' 0, 'billion' 0, and for any year after 2026, 0. The only numerals in the whole body are 8 (the October date), 2026, 1956 and 65. So 'Not stated' is what the document supports, and Carat Capital prints no sum, tonnage or date for the plant.",
+   "plate": "CC/2026/274"
+  },
+  "sections": [
+   {
+    "h": "A letter signed in Balerna",
+    "p": [
+     {
+      "lead": "Two companies, one plan.",
+      "text": "Valcambi and Shiu Wing Steel aim to establish a new enterprise headquartered in Hong Kong. The release calls the instrument a letter of intent."
+     },
+     {
+      "lead": "At Tuen Mun.",
+      "text": "The project would put a refining and vaulting operation at Shiu Wing's existing facility in Tuen Mun. No build date is given."
+     },
+     {
+      "lead": "A government guest.",
+      "text": "Christopher Hui, Hong Kong's Secretary for Financial Services and the Treasury, visited the Balerna plant on 7 October from the LBMA conference in Sorrento."
+     }
+    ]
+   },
+   {
+    "h": "A steel mill diversifies",
+    "p": [
+     {
+      "lead": "Founded in 1956.",
+      "text": "Shiu Wing Steel was founded by the late Pong Ding Yuen and is Hong Kong's only steel mill. It has made and sold rebar for over 65 years."
+     },
+     {
+      "lead": "Landmarks, not bullion.",
+      "text": "The release names the Mass Transit Railway, the Cross-Harbour Tunnels, Hong Kong International Airport, Jardine House, Taikoo Shing and the IFC among its projects."
+     },
+     {
+      "lead": "A new chapter.",
+      "text": "Dario Pong, the mill's executive director, frames refining as industrial diversification. Simone Knobloch, Valcambi's chief executive, puts the reasoning on the region: \"Asia is a key market for the precious metals industry.\""
+     }
+    ]
+   },
+   {
+    "h": "Nothing is committed yet",
+    "p": [
+     {
+      "lead": "No figure anywhere.",
+      "text": "The release gives no investment sum, no refining capacity and no completion date. The parties intend to evaluate creating a refining platform."
+     },
+     {
+      "lead": "Clearing was present.",
+      "text": "Ping Keung Chan, chief executive of Hong Kong Precious Metals Central Clearing Company, appears in the release's own photograph caption."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Not announced",
+    "what": "Whether a definitive joint-venture agreement follows the letter of intent, and on what terms."
+   },
+   {
+    "when": "Q1 2027",
+    "what": "Hong Kong's own target for central gold clearing, against which a local refinery would sit."
+   },
+   {
+    "when": "Ongoing",
+    "what": "Whether any capacity figure in tonnes is published for the Tuen Mun plant. None exists."
+   }
+  ],
+  "depth": {
+   "reverse": "A definitive agreement, or silence. A letter of intent is not a contract and either side may walk; Valcambi's own wording is that the parties intend to evaluate a platform. An investment sum, a tonnage or a commissioning date would each turn this from an intention into a project, and none has been published. A refusal of a Hong Kong site permit, or a definitive agreement naming a different site, would change the reading entirely.",
+   "built": {
+    "title": "Why a refiner would want metal refined in Hong Kong",
+    "text": "Refining capacity is not evenly spread. Switzerland refines a disproportionate share of the world's gold, which means metal mined or scrapped in Asia has historically travelled to Europe, been refined to good-delivery standard, and travelled back to the Asian markets that bought it. Every leg of that journey costs freight, insurance and time, and every leg is a point at which a bar leaves one jurisdiction's chain of custody for another's. A plant in Tuen Mun shortens the loop: metal refined in Hong Kong can be vaulted in Hong Kong and delivered against Hong Kong contracts without crossing a continent twice. That is also why the clearing company's chief executive is in the photograph. A refinery is only useful to a market if the bars it makes are deliverable into that market's own clearing system, and Hong Kong has set itself a first-quarter 2027 target for central gold clearing. The territory has been assembling the pieces of a bullion centre in public: a clearing house, a stated government plan, and now a letter of intent for the plant that would make the metal. What it does not have yet is a number attached to any of it."
+   },
+   "method": "One primary, fetched at press time independently of the filing desk, 200, 68,310 bytes, saved to newsroom/sources/2026-10-12/desk/valcambi.html, and scoped to the release's own body between its dateline and its photograph caption. Exact-string counts on the saved raw bytes: 'Shiu Wing' 19; 'Christopher Hui' 16; 'FSTB' 23; 'Letter of Intent' 3; 'Tuen Mun' 1; 'Balerna' 4; '1956' and '65' both located inside the body paragraph that states them. JSON-LD datePublished reads 2026-10-08T08:24:04+00:00, confirmed in the raw bytes, and the release's own printed date line reads 08 October 2026; the age is four days and is disclosed. The three 'Not stated' rows are negative claims and were established by search, not inferred: the figures and commands are set out in the table note above. SOURCING-PROSE CHECK, held to the same standard as a printed number: the only sentence in this article attributing specific words to the source is the quotation from Simone Knobloch, and that string was read out of the saved file before the sentence was written. Mr Hui's Sorrento speech is described only as the release describes it, as a speech on Hong Kong's strategic plan for gold and precious metals; no text of that speech was obtained and none is characterised here. No second source is cited because none was found carrying the letter of intent, and that is disclosed rather than papered over. ARCHIVE, by entity, every term searched against website/content/articles.json: 'Valcambi' 0 hits, 'Shiu Wing' 0, 'Tuen Mun' 0, 'Christopher Hui' 0. NEW on entity, so no period test is owed. The 17 September piece cited as prior coverage is a different entity and event, Hong Kong's clearing timetable, and is cited for the context it supplies rather than as coverage of this letter.",
+   "prior": [
+    {
+     "date": "2026-09-17",
+     "slug": "q1-2027-for-hong-kong-gold",
+     "claim": "Hong Kong set the first quarter of 2027 as its target for central gold clearing."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Valcambi SA, press release: visit from Christopher Hui (FSTB) and a letter of intent with Shiu Wing Steel",
+     "url": "https://www.valcambi.com/valcambi-hosts-a-visit-from-christopher-hui-hong-kongs-secretary-for-financial-services-and-the-treasury-fstb-and-signs-a-letter-of-intent-for-a-joint-venture-with-shiu/",
+     "published": "2026-10-08"
+    },
+    {
+     "title": "Carat Capital, Hong Kong sets Q1 2027 for central gold clearing, 17 September 2026",
+     "url": "https://caratcapital.org/a-q1-2027-for-hong-kong-gold.html",
+     "published": "2026-09-17"
+    }
+   ]
+  },
+  "next": {
+   "slug": "two-holds-end-at-press-time"
+  }
+ },
+ "two-holds-end-at-press-time": {
+  "v": 3,
+  "kicker": "Gold & Metals",
+  "figures": {
+   "asof": "Carat Capital's own press-time reading of the Kitco board at 06:05 EDT on 12 October 2026, corroborated on the CNBC quote webservice at 06:05 EDT. All four figures are the bid, the convention Carat Capital has carried since 31 August 2026. Prior marks are the paper's own printed marks of 11 October, looked up with tools/prev-mark.py rather than derived.",
+   "cells": [
+    {
+     "n": "$1,693.00",
+     "label": "Platinum, press time",
+     "q": "held at $1,685.00 earlier this morning",
+     "src": 1
+    },
+    {
+     "n": "$1,140.00",
+     "label": "Palladium, press time",
+     "q": "held at $1,132.00 earlier this morning",
+     "src": 1
+    },
+    {
+     "n": "$4,171.90",
+     "label": "Gold, press time",
+     "q": "down $21.70 on the 11 October mark",
+     "src": 1
+    },
+    {
+     "n": "$60.584",
+     "label": "Silver, press time",
+     "q": "down 11.5 cents",
+     "src": 1
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Two held marks clear.",
+   "text": "Platinum and palladium could not be marked earlier this morning because two price pages disagreed on direction. An hour later both pages agree, at $1,693.00 and $1,140.00."
+  },
+  "means": [
+   {
+    "who": "If you price platinum group metals:",
+    "text": "The $1,685.00 platinum mark and the $1,132.00 palladium mark are both superseded. The press-time figures are the printed ones."
+   },
+   {
+    "who": "If you read a single price board:",
+    "text": "One board showed palladium unchanged for four straight reads while the metal was trading. A second board caught it."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A close, a fix or a settlement. These are spot bids off a live board at one minute of an open session, not a session close."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "The four marks, 05:00 and press time",
+   "hi": 2,
+   "asof": "Kitco bid, 12 October 2026. Prior marks are Carat Capital's own printed marks of 11 October, looked up with tools/prev-mark.py",
+   "cols": [
+    "Metal",
+    "11 October mark",
+    "05:00 reading",
+    "Press time",
+    "Change on the mark"
+   ],
+   "rows": [
+    [
+     "Gold",
+     "$4,193.60",
+     "$4,173.90 written",
+     "$4,171.90",
+     "−$21.70 (−0.5175%)"
+    ],
+    [
+     "Silver",
+     "$60.699",
+     "$60.400 written",
+     "$60.584",
+     "−$0.115 (−0.1895%)"
+    ],
+    [
+     "Platinum",
+     "$1,685.00",
+     "held, pages disagreed",
+     "$1,693.00",
+     "+$8.00 (+0.4748%)"
+    ],
+    [
+     "Palladium",
+     "$1,132.00",
+     "held, cell flat four reads",
+     "$1,140.00",
+     "+$8.00 (+0.7067%)"
+    ]
+   ],
+   "note": "Every change is computed against Carat Capital's own printed mark of 11 October, looked up rather than reversed out of a change field, and the division is printed beside the sentence so it can be checked. Gold: 4,171.90 − 4,193.60 = −21.70; −21.70/4,193.60 = −0.5175%. Silver: 60.584 − 60.699 = −0.115; −0.115/60.699 = −0.1895%. Platinum: 1,693.00 − 1,685.00 = +8.00; 8.00/1,685.00 = +0.4748%. Palladium: 1,140.00 − 1,132.00 = +8.00; 8.00/1,132.00 = +0.7067%. Kitco's own change fields read −21.70, −0.115, +8 and +8, which implies its basis for each metal is the same figure this paper had already printed, to the cent, on all four.",
+   "plate": "CC/2026/275"
+  },
+  "sections": [
+   {
+    "h": "Two pages had to agree",
+    "p": [
+     {
+      "lead": "The rule is simple.",
+      "text": "A mark is printed only when a second independent page corroborates the first. At 05:00 platinum failed that test and palladium looked frozen."
+     },
+     {
+      "lead": "Platinum disagreed on direction.",
+      "text": "Kitco read platinum a dollar higher while CNBC read it $4.48 lower, below Kitco's own bid. The mark stood at $1,685.00."
+     },
+     {
+      "lead": "Palladium would not move.",
+      "text": "Kitco's palladium cell printed bid $1,132 and ask $1,172 with zero change for four consecutive reads through an open session."
+     }
+    ]
+   },
+   {
+    "h": "An hour changed both",
+    "p": [
+     {
+      "lead": "Platinum cleared cleanly.",
+      "text": "Kitco now reads platinum bid $1,693 and ask $1,703, against CNBC's $1,694.26, inside the band. Both pages read the metal higher."
+     },
+     {
+      "lead": "The palladium cell moved.",
+      "text": "Kitco's palladium reads bid $1,140, ask $1,180, with a session high of $1,188 and a low of $1,127. The cell is live, not stale."
+     },
+     {
+      "lead": "CNBC agreed there.",
+      "text": "CNBC reads palladium at $1,156.49, up $8.68, inside Kitco's band. Both pages put the metal up about three-quarters of a percent."
+     }
+    ]
+   },
+   {
+    "h": "Gold and silver fell",
+    "p": [
+     {
+      "lead": "Gold shed twenty-one.",
+      "text": "Gold's bid reads $4,171.90, which is $21.70 below the 11 October mark. CNBC reads $4,173.22, inside the band."
+     },
+     {
+      "lead": "Silver barely moved.",
+      "text": "Silver's bid reads $60.584, down 11.5 cents on the mark. An hour earlier it read $60.400, so the metal recovered through the hour."
+     },
+     {
+      "lead": "The session is open.",
+      "text": "CNBC reported regular market status at 06:05 with a distinct timestamp for each metal. No closure is claimed for any of the four."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Tomorrow, 05:00 ET",
+    "what": "Whether palladium's Kitco cell keeps moving. Four flat reads through an open session was the reason it was held."
+   },
+   {
+    "when": "Ongoing",
+    "what": "Whether the platinum divergence returns. It resolved inside an hour and the same conflict held the mark on 18 August."
+   },
+   {
+    "when": "Ongoing",
+    "what": "Whether Kitco's palladium bid-ask band narrows from $40. A band that wide can contain a conflicting print and hide a disagreement."
+   }
+  ],
+  "depth": {
+   "reverse": "A third page. Both resolutions here rest on two sources agreeing, and two can be wrong together, particularly when one board's bid-ask band is $40 wide and can swallow a conflicting print. A London fix, an exchange settlement or a dealer's own screen would each be a harder test than a second web board. These are also spot bids at a single minute of an open session: all four will have moved by the close, and nothing printed here is a settlement.",
+   "built": {
+    "title": "What the two-page rule does and what it costs",
+    "text": "The rule is that no price goes into print on one source. A second, independent page must corroborate the first, and the test is whether that second page's reading falls inside the first page's own bid-ask band and agrees on the direction and rough size of the move. When it does not, the previous printed mark stands and the age of that mark is disclosed. The cost is visible this morning: at 05:00 two of the four metals could not be marked, and a reader checking the board would have seen a platinum figure three days old beside two fresh ones. The benefit is also visible, and it is the palladium case. A board cell that has frozen looks exactly like a market that has not traded, and nothing inside that one page can tell the two apart. The second page showed palladium ticking while the first showed it flat, which is enough to withhold a mark but not enough to replace it, because a wide band can contain a nearby live print by accident. An hour later the first board moved $8 and the question answered itself. The rule did not identify which page was right. It identified that the question was open, which is the whole job."
+   },
+   "method": "Two independent pages, both fetched in this run at press time and both saved as raw bytes before any figure was taken from them. Kitco: 200, 197,917 bytes, newsroom/sources/2026-10-12/desk/kitco_press.html; the figures are read out of the page's own embedded JSON payload, which gives for each metal a bid, ask, mid, session high, low, its own change field and an originalTime. Gold bid 4171.9 ask 4173.9 originalTime 2026-10-12T06:02:55.943Z; silver 60.584/60.834 at 06:02:55.973Z; platinum 1693/1703 at 06:02:56Z; palladium 1140/1180 at 06:02:56.03Z. CNBC: 200, 3,346 bytes, newsroom/sources/2026-10-12/desk/cnbc_press.json; gold last 4,173.22, silver 60.6853, platinum 1,694.2559, palladium 1,156.49, each stamped 06:05 EDT, curmktstatus REG_MKT. MARKET STATE READ OFF THE BOARD, not inferred from a calendar: the open session is established by CNBC's own REG_MKT field and by distinct per-metal timestamps on both pages, and no closure or holiday is claimed for any metal. The 05:00 readings quoted for comparison are this paper's own tape of 2026-10-12 as caratwire filed it, with its saved sources newsroom/sources/2026-10-12/kitco.html and cnbc.json. Prior marks were looked up with tools/prev-mark.py, whose output names newsroom/tape/2026-10-11.json as the file it read, and are not reversed out of any change field; the arithmetic is printed in the table note. Under the One-Price Rule all four metals were written back to newsroom/tape/2026-10-12.json and newsroom/tape/latest.json in the same step before this edition was built, and the two files were then printed side by side and confirmed to match on all seven marks. ARCHIVE, by entity and by period, hits opened and read: the nearest prior piece is this paper's own of 2026-08-18, which covers the morning of 18 AUGUST 2026 (gold $4,393.10, silver $65.00, platinum and palladium held on a 0.66% and 1.46% disagreement); this item covers the morning of 12 OCTOBER 2026 and the inverse event, two held marks being released rather than created — SAME SHAPE, DIFFERENT PERIOD AND DIFFERENT OUTCOME, therefore ADVANCED, not a repeat.",
+   "prior": [
+    {
+     "date": "2026-08-18",
+     "slug": "two-cleared-two-held",
+     "claim": "Gold and silver cleared two pages on 18 August while platinum and palladium were held on a source disagreement."
+    },
+    {
+     "date": "2026-10-09",
+     "slug": "gold-opens-at-four-one-eighty-eight",
+     "claim": "Gold opened at $4,188.10 and silver gained 2.56% on the Kitco board."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Kitco precious metals board, press-time read 06:05 EDT (bid)",
+     "url": "https://www.kitco.com/price/precious-metals",
+     "published": "2026-10-12"
+    },
+    {
+     "title": "CNBC quote webservice, spot gold, silver, platinum and palladium, 06:05 EDT",
+     "url": "https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=XAU%3D%7CXAG%3D%7CXPT%3D%7CXPD%3D&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json&events=1",
+     "published": "2026-10-12"
+    },
+    {
+     "title": "Carat Capital, Gold and silver cleared two pages. Platinum and palladium did not, 18 August 2026",
+     "url": "https://caratcapital.org/a-two-cleared-two-held.html",
+     "published": "2026-08-18"
+    }
+   ]
+  },
+  "next": {
+   "slug": "forty-eight-brands-at-gotham-hall"
+  }
+ },
+ "forty-eight-brands-at-gotham-hall": {
+  "v": 3,
+  "kicker": "Watches Desk",
+  "figures": {
+   "asof": "JCK, published 9 October 2026 (JSON-LD datePublished 2026-10-09), read three days later. Exhibitor counts, dates and venues are the organisers' own as JCK records them. No attendance, sales or revenue figure appears anywhere in the article, and the week has not yet happened.",
+   "cells": [
+    {
+     "n": "48",
+     "label": "Exhibiting brands, WatchTime New York",
+     "q": "counted against the published list",
+     "src": 1
+    },
+    {
+     "n": "11th",
+     "label": "Annual edition of the show",
+     "q": "Gotham Hall, 16 to 18 October",
+     "src": 1
+    },
+    {
+     "n": "4",
+     "label": "Events in the week",
+     "q": "two on 15 October, two from 16 October",
+     "src": 1
+    },
+    {
+     "n": "None",
+     "label": "Attendance, sales or revenue",
+     "q": "no figure published for any of the four",
+     "src": 1
+    }
+   ]
+  },
+  "changed": {
+   "lead": "The exhibitor count is 48.",
+   "text": "WatchTime New York will show 48 brands at Gotham Hall from 16 to 18 October, which organisers call a record for the eleven-year-old event."
+  },
+  "means": [
+   {
+    "who": "If you retail watches in New York:",
+    "text": "Four events run across four days, and two of them are already fully booked or sold out in part."
+   },
+   {
+    "who": "If you track independent brands:",
+    "text": "The exhibitor list is weighted to independents, some of which organisers say carry delivery waits beyond five years."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A sales event with published numbers, a trade-only fair, or a figure anyone has audited. The counts are the organisers' own and the week has not happened."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "New York Watch Week, the four events",
+   "hi": 2,
+   "asof": "Dates, venues and figures as JCK records them on 9 October 2026; 'Not stated' marks an absence verified in the article's own text",
+   "cols": [
+    "Event",
+    "Dates",
+    "Venue",
+    "Published figure"
+   ],
+   "rows": [
+    [
+     "FHH New York Watch Summit",
+     "15 October",
+     "Neuehouse Madison Square",
+     "4 panels"
+    ],
+    [
+     "Indies.NYC",
+     "15 October",
+     "Not stated",
+     "Fully booked"
+    ],
+    [
+     "WatchTime New York",
+     "16 to 18 October",
+     "Gotham Hall",
+     "48 brands"
+    ],
+    [
+     "Windup Watch Fair",
+     "16 to 18 October",
+     "Center415",
+     "Not stated"
+    ]
+   ],
+   "note": "The 48 was checked rather than taken on the source's word. JCK publishes the confirmed exhibitor list in full; splitting that list string gives exactly 48 names, which matches the figure the article states in two places. The Windup fair is described as carrying a record exhibitor count but no number is given for it anywhere in the article, so 'Not stated' is printed rather than an estimate. Indies.NYC is given no venue. No attendance, ticket-volume, sales or revenue figure exists for any of the four events, which is why the only demand signal in the piece is which sessions have sold out.",
+   "plate": "CC/2026/276"
+  },
+  "sections": [
+   {
+    "h": "Gotham Hall takes forty-eight",
+    "p": [
+     {
+      "lead": "A counted list.",
+      "text": "JCK names every confirmed exhibitor and the list runs to 48. Organisers call it a new high for the show's eleven years."
+     },
+     {
+      "lead": "Independents dominate.",
+      "text": "Armin Strom, Czapek, H. Moser & Cie., Laurent Ferrier, MB&F, Urwerk and Voutilainen appear alongside Chopard, Citizen, Piaget and Zenith."
+     },
+     {
+      "lead": "Premieres are promised.",
+      "text": "Blancpain will show a new Lady B. Organisers confirmed that Kudoke and Frederique Constant are debuting models at the show."
+     }
+    ]
+   },
+   {
+    "h": "Four events, four days",
+    "p": [
+     {
+      "lead": "Two on Thursday.",
+      "text": "The FHH New York Watch Summit runs 15 October at Neuehouse Madison Square with four panels. Indies.NYC runs the same day and is fully booked."
+     },
+     {
+      "lead": "Two from Friday.",
+      "text": "WatchTime New York and the Windup Watch Fair both run 16 to 18 October, at Gotham Hall and Center415 respectively."
+     },
+     {
+      "lead": "One panel asks.",
+      "text": "The FHH panels cover knowledge, what qualifies as an icon, perceived value, and whether America keeps its place as the largest fine-watch market."
+     }
+    ]
+   },
+   {
+    "h": "No figure is published",
+    "p": [
+     {
+      "lead": "Tickets, not revenue.",
+      "text": "The only demand signal is ticket supply. Friday night is sold out and single days remain for Saturday and Sunday."
+     },
+     {
+      "lead": "Waits beyond five years.",
+      "text": "Sara Orlando, WatchTime's publisher, says of the independents taking part: \"Many of the brands have wait lists exceeding five years for delivery.\""
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "15 to 18 October 2026",
+    "what": "The week itself. No attendance or sales figure has been published in advance for any of the four events."
+   },
+   {
+    "when": "After the show",
+    "what": "Whether WatchTime publishes an attendance number. It published none for this edition in advance."
+   },
+   {
+    "when": "Ongoing",
+    "what": "Whether the United States holds its place as the largest market for fine watch sales, the question FHH has put on a panel."
+   }
+  ],
+  "depth": {
+   "reverse": "An attendance or sales figure, which would turn a calendar into a market reading. None exists for any of the four events and none has been published for this show in previous years. The 48 is an exhibitor count, not a measure of trade: a show can add brands in a falling market, and stands are sold months ahead of the week they fill. A cancellation, or a brand withdrawing between now and 16 October, would move the only number this piece carries.",
+   "built": {
+    "title": "Why exhibitor counts are the only public series",
+    "text": "New York Watch Week is not one event and nobody owns it. It is a cluster of independently run shows, summits and brand showings that have gravitated to the same four days in October, and that structure is why there is no number for it. A trade fair with a single organiser publishes attendance because exhibitors pay for stands on the strength of it. A loose week of consumer-facing shows, private appointments and panel discussions has no single party with an interest in counting, and no audited gate figure has ever been published for WatchTime New York. What is left is the exhibitor count, which is public because the list of who is coming is itself the marketing. That makes it a supply number rather than a demand number: it says how many brands bought space, not how many watches moved or how many people came. It is still worth printing, because it is countable and because it can be checked against the published list, which is more than can be said for the adjectives around it. But a reader should treat a rising exhibitor count as evidence about the cost and perceived value of exhibiting, not as evidence about watch sales in America."
+   },
+   "method": "One primary, fetched at press time independently of the filing desk, 200, 114,713 bytes, saved to newsroom/sources/2026-10-12/desk/jck_watchtime.html. JSON-LD datePublished and dateModified both read 2026-10-09, confirmed in the raw bytes; the age is three days and is disclosed. Exact-string counts on the saved file: 'WatchTime' 60; 'Windup' 15; 'FHH' 15; 'Gotham' 3; '48 ' 3. THE SUPERLATIVE WAS GIVEN ITS OWN TRACE rather than carried: the article calls the 48 a new high and a record, and that claim is the organisers' and JCK's, attributed to them here and not asserted by this paper. What Carat Capital did verify independently is the count itself — the confirmed exhibitor list was isolated from the article body and split, giving exactly 48 names, which are set out in the saved file and match the stated figure. No prior-year exhibitor count was obtained, so the record claim is not checkable from this source and is not endorsed. FIGURE SCOPING, applied because this page carries other stories: extraction stops at the article's own body. The page's recirculation rail beneath the article carries headlines belonging to four unrelated JCK stories, including an 8.17-carat diamond ring figure from a Christie's online sale and a De Beers restructuring item; none of those figures is used here and none appears above. Carat Capital has separately covered that 8.17-carat ring, which is how the overlap was noticed. ABSENCE CLAIMS, each established in the article's own text rather than assumed: a search of the body for an attendance, ticket-volume, sales or revenue figure for any of the four events returns none, and no number is given for the Windup fair's exhibitor count despite its being described as a record. ARCHIVE, by entity, against website/content/articles.json: 'WatchTime New York' 0 hits, 'Windup' 0, 'Gotham Hall' 0. NEW on entity, so no period test is owed.",
+   "prior": [
+    {
+     "date": "2026-09-19",
+     "slug": "nine-brands-for-twenty-seven",
+     "claim": "Watches and Wonders added nine brands to its 2027 roster, the other exhibitor-count series this desk tracks."
+    }
+   ],
+   "sources": [
+    {
+     "title": "JCK, Karen Dybis: WatchTime New York, Windup Watch Fair, FHH Summit Anchor Packed Watch Week",
+     "url": "https://www.jckonline.com/editorial-article/watchtime-new-york-2026/",
+     "published": "2026-10-09"
+    },
+    {
+     "title": "Carat Capital, Watches and Wonders adds 9 brands to its 2027 roster, 19 September 2026",
+     "url": "https://caratcapital.org/a-nine-brands-for-twenty-seven.html",
+     "published": "2026-09-19"
+    }
+   ]
+  },
+  "next": {
+   "slug": "eighty-seven-eighty-one-lakh-out-for-stone-setting"
   }
  }
 }

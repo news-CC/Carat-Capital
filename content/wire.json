@@ -1,36 +1,41 @@
 {
- "date_line": "Sunday, October 11, 2026 | Vol. I - No. 087",
- "edition": "Vol. I - No. 087",
+ "date_line": "Monday, October 12, 2026 | Vol. I - No. 088",
+ "edition": "Vol. I - No. 088",
  "items": [
   {
-   "slug": "one-crore-a-kilo-in-a-bhuj-back-room",
-   "desk": "Gold & Metals",
-   "title": "₹1 crore a kilo: a Bhuj ring pitches Swiss gold"
-  },
-  {
-   "slug": "twenty-lakh-on-a-twenty-four-crore-sale",
-   "desk": "Diamonds",
-   "title": "₹20 lakh advance fee ends a ₹24 crore Surat sale"
-  },
-  {
-   "slug": "one-lot-no-estimate-in-hong-kong",
-   "desk": "Auctions",
-   "title": "One lot, no estimate: Christie’s offers a Qianlong ewer"
-  },
-  {
-   "slug": "hk-278-million-and-the-wrong-chow-tai-fook",
+   "slug": "eighty-seven-eighty-one-lakh-out-for-stone-setting",
    "desk": "Retail & Technology",
-   "title": "HK$278m top-up lifts the Cheng vehicle to 73.57%"
+   "title": "₹87.81 lakh of gold never returns from a Wadaj workshop"
+  },
+  {
+   "slug": "nine-point-five-billion-passes-china",
+   "desk": "Gold & Metals",
+   "title": "UK's $9.5bn passes China as gold ETF inflow leader"
+  },
+  {
+   "slug": "swiss-refining-comes-to-tuen-mun",
+   "desk": "Gold & Metals",
+   "title": "Valcambi signs a Hong Kong refining venture with Shiu Wing"
+  },
+  {
+   "slug": "two-holds-end-at-press-time",
+   "desk": "Gold & Metals",
+   "title": "Platinum's $1,693 and palladium's $1,140 end two holds"
+  },
+  {
+   "slug": "forty-eight-brands-at-gotham-hall",
+   "desk": "Watches",
+   "title": "48 brands fill Gotham Hall for New York Watch Week"
   }
  ],
- "tape_ts": "Kitco bid, board frozen at 2026-10-09T17:00:00Z, final 9 Oct session (no Saturday session)",
+ "tape_ts": "Kitco bid, press-time read 2026-10-12T06:05 EDT, Monday session open and moving (CNBC curmktstatus REG_MKT, distinct per-metal timestamps); corroborated on a second page",
  "tape": [
   {
    "name": "Gold / oz",
    "code": "XAU",
-   "px": "4,193.60",
-   "chg": "+0.1313% vs 9 Oct mark",
-   "dir": "up",
+   "px": "4,171.90",
+   "chg": "−0.5175% vs 11 Oct mark",
+   "dir": "down",
    "pts": [
     2,
     5,
@@ -85,9 +90,9 @@
   {
    "name": "Platinum / oz",
    "code": "XPT",
-   "px": "1,685.00",
-   "chg": "−0.0593% vs 9 Oct mark",
-   "dir": "down",
+   "px": "1,693.00",
+   "chg": "+0.4748% vs 11 Oct mark",
+   "dir": "up",
    "pts": [
     2,
     2,
@@ -104,9 +109,9 @@
   {
    "name": "Silver / oz",
    "code": "XAG",
-   "px": "60.699",
-   "chg": "+0.7285% vs 9 Oct mark",
-   "dir": "up",
+   "px": "60.584",
+   "chg": "−0.1895% vs 11 Oct mark",
+   "dir": "down",
    "pts": [
     2,
     2,
@@ -121,5 +126,5 @@
    ]
   }
  ],
- "editionDate": "2026-10-11"
+ "editionDate": "2026-10-12"
 }

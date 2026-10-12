@@ -1,10 +1,16 @@
 {
- "updated": "10 Oct 2026",
+ "updated": "12 Oct 2026",
  "intro": "Eight weeks of the trade, kept the way a ledger should be kept — dated, sourced, and in one place. New entries are added at the top each week; the quarter's running numbers live in the Almanac below.",
  "weeks": [
   {
    "label": "This week - August 20 to September 23",
    "entries": [
+    {
+     "d": "gold-metals",
+     "h": "A Gujarati quote in a sourcing note dropped one vowel sign",
+     "t": "Corrected 12 October 2026: the Method section of a-one-crore-a-kilo-in-a-bhuj-back-room.html (No. 087, 11 October 2026) quoted the agent's Gujarati as ‘અમારો માલ તો જ્વલર્સ જ લઇ જતા હોય છે’. The saved primary, newsroom/sources/2026-10-11/desk/smuggle.html (545,719 bytes), reads જ્વેલર્સ — with the vowel sign ે — and the printed form dropped it, turning the word for jewellers into a non-word. Re-checked by exact string count against the saved bytes on both sides: જ્વલર્સ returns 0 hits in the primary, જ્વેલર્સ returns 4, and the full sentence as the primary carries it returns 2. The quoted Gujarati now matches the primary character for character. Where the bad text came from: a transcription slip when the string was typed into the Method note, not a figure taken from the wrong place. What was right as published: the quote is real, correctly attributed to the agent the newspaper names as Amar, and the English rendering disclosed in the same sentence is a fair translation of what the source actually says. No number, no table cell, no headline and no reader-facing English claim on the page was wrong, and none has changed. Found by this paper's standards desk.",
+     "s": "Carat Capital, a-one-crore-a-kilo-in-a-bhuj-back-room.html Method section; newsroom/standards/2026-10-11.md; primary Divya Bhaskar investigation saved at newsroom/sources/2026-10-11/desk/smuggle.html, 545,719 bytes — exact string counts re-run on the saved bytes at press time on 12 October 2026: જ્વલર્સ 0 hits, જ્વેલર્સ 4 hits, and the full sentence as the primary carries it 2 hits — https://www.divyabhaskar.co.in/local/gujarat/surat/news/gujarat-gold-smuggling-dubai-switzerland-scam-investigation-video-139301829.html"
+    },
     {
      "d": "diamonds",
      "h": "A home-page card called two older figures “this morning’s tape”",
