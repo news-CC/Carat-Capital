@@ -2,6 +2,8 @@
 
 The identity is **The Point**: a round brilliant seen from the side whose pavilion is also a pen nib. The nib's breather hole holds a red point, because printers set type in points and diamond dealers weigh stones in points (1 pt = 0.01 ct). The same point closes the wordmark, *Carat Capital.*, set in Bodoni Moda 500.
 
+**Colour (edition 1.1):** the brand colours are **Black** `#0D0D0F` and **Pearl White** `#F3F1EC`. Point Red `#BE3319` is kept for the point alone, and the gilt foil is replaced by a pearl lustre. The palette lives in `C` in [`source/lib.js`](source/lib.js); files named `gold` and `paper` keep their names and now carry the pearl lustre and Pearl White.
+
 - **Brand book:** [`brand-book.html`](brand-book.html) (web, `noindex`) and [`Carat-Capital-Brand-Book.pdf`](Carat-Capital-Brand-Book.pdf), 18 pages: idea, anatomy, construction, optical sizes, the engraved cut, wordmark, lockups, clear space, colour, typography, misuse and applications.
 - **Logo kit:** [`logo/`](logo)
   - `svg/` lockups (horizontal, stacked, wordmark) in ink, reverse, gold and one-colour; the symbol in L, M and S cuts, gold and engraved

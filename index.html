@@ -29,7 +29,7 @@
    engraved rules, the dial, the plates, the tape.
    ═══════════════════════════════════════════════════════════════════════ */
 :root{
-  --verm:#BE3319; --gilt:#C6A24A; --gilt-d:#96762E; --gilt-l:#E8CB7C;
+  --verm:#BE3319; --gilt:#C6A24A; --gilt-d:#77737E; --gilt-l:#E8CB7C;
   --ok:#2BFF95; --dn:#FF6B4A;
   /* resting values are what a no-JS reader gets, so they carry AA too */
   --bg:#04060B; --fg:#DCEAF5; --fg2:rgba(220,234,245,.78); --fg3:rgba(220,234,245,.72);
@@ -1765,7 +1765,7 @@ function paint(){
   const ln=ramp(LINE,ks);
   root.style.setProperty('--line',rgba(ln,.30));
   root.style.setProperty('--line-hi',rgba(ln,.62));
-  root.style.setProperty('--plate',dark?'rgba(22,19,14,.035)':'rgba(255,255,255,.03)');
+  root.style.setProperty('--plate',dark?'rgba(13,13,15,.035)':'rgba(255,255,255,.03)');
   document.getElementById('vig').style.opacity=(1-ks*.9).toFixed(3);
   }
   if(gemwrap){const g=Math.max(0,Math.min(1,(sc-vh*.16)/(vh*.9)));

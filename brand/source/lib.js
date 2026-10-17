@@ -2,10 +2,12 @@
 const opentype = require('opentype.js');
 const path = require('path');
 
+// Edition 1.1: Black and Pearl White are the brand colours; Point Red is kept for the point alone.
+// The gilt foil is retired for a pearl lustre (foilA–D), still keyed as foil so every drawing follows.
 const C = {
-  paper: '#F2EDE3', paperHi: '#F8F4EB', ink: '#16130E', ink2: '#3B362C', ink3: '#7A7263',
-  seal: '#BE3319', sealDeep: '#93250F', gilt: '#96762E',
-  foilA: '#7A5E1F', foilB: '#D9B45E', foilC: '#F1DFA4', foilD: '#8A6C28',
+  paper: '#F3F1EC', paperHi: '#FAF9F6', paperLo: '#E6E3DD', ink: '#0D0D0F', ink2: '#3A3A3F', ink3: '#6E6D74',
+  seal: '#BE3319', sealDeep: '#93250F', gilt: '#77737E',
+  foilA: '#B9B5C1', foilB: '#E9E4DE', foilC: '#FFFFFF', foilD: '#BFC6CE',
 };
 
 const fontCache = {};
