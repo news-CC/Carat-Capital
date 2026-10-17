@@ -35,9 +35,9 @@ function reading(kind) { // three small line drawings: stone, pen, point
 }
 function wordmarkSpec() {
   const W = Pn.wordmark({ cut: 'display', size: 200, x: 200, base: 250 }), cap = W.cap, px = 200 + W.w - 16;
-  let o = `<path d="M20 250H${r2(W.w + 230)}M20 ${r2(250 - cap)}H${r2(W.w + 230)}M20 ${r2(250 + W.desc)}H${r2(W.w + 230)}" stroke="${I}" stroke-opacity=".28" stroke-width="1.4" stroke-dasharray="5 6"/>` + W.body;
+  let o = `<path d="M20 250H${r2(W.w + 230)}M20 ${r2(250 - cap)}H${r2(W.w + 230)}" stroke="${I}" stroke-opacity=".28" stroke-width="1.4" stroke-dasharray="5 6"/>` + W.body;
   o += `<circle cx="${r2(px)}" cy="234" r="30" fill="none" stroke="${RED}" stroke-width="1.6"/>` + halo(`M${r2(px + 22)} 214L${r2(px + 60)} 150L${r2(px + 80)} 150`, RED);
-  o += T('BASELINE', 20, 243, { size: 14, fill: C.ink3 }) + T('CAP HEIGHT', 20, r2(250 - cap - 8), { size: 14, fill: C.ink3 }) + T('DESCENDER', 20, r2(250 + W.desc - 8), { size: 14, fill: C.ink3 });
+  o += T('BASELINE', 20, 243, { size: 14, fill: C.ink3 }) + T('CAP HEIGHT', 20, r2(250 - cap - 8), { size: 14, fill: C.ink3 });
   o += T('THE POINT', px + 88, 146, { size: 15, fill: RED }) + T('0.16 EM · ON THE BASELINE', px + 88, 168, { size: 12, fill: RED });
   return `<svg viewBox="0 30 ${r2(W.w + 580)} 290" aria-hidden="true">${o}</svg>`;
 }
@@ -82,8 +82,8 @@ page('Construction', `<div class="two" style="--c:6fr 5fr"><div class="plate lo"
 page('Optical sizes', `<div class="stack gap-l"><div class="two" style="--c:6fr 5fr;align-items:end"><div class="stack"><p class="kick">Optical sizes</p><h2>Three cuts for three distances</h2></div><p class="lede">Fine knockouts disappear on small screens, so the mark comes in three cuts. Each keeps the silhouette and the point and drops detail as it shrinks.</p></div>
 <div class="three">${['L', 'M', 'S'].map((c) => `<div class="cut"><div class="plate paper sq">${inl(Pn.symbol({ cut: c, tight: true }))}</div><h3>${c} cut</h3><p class="mono">${Pn.CUTS[c].use}</p><p>${{ L: 'All facets. The master drawing.', M: 'Crown facets removed, knockouts doubled.', S: 'Girdle, slit and point only. Favicons and app bars.' }[c]}</p><div class="ladder">${(c === 'L' ? [128, 96] : c === 'M' ? [64, 32] : [24, 16]).map((s) => `<span style="width:${s}px">${inl(Pn.symbol({ cut: c, tight: true }))}</span>`).join('')}</div></div>`).join('')}</div></div>`);
 page('The engraved cut', `<div class="two" style="--c:5fr 7fr"><div class="stack"><p class="kick">The engraved cut</p><h2>For print that invites a closer look</h2><p>Each facet is hatched at its own angle and density, lit from the upper left, so the stone reads in pure line. Use it on certificates, the Almanac cover, foil and blind stamping, and letterpress.</p><p class="note">Use it at 40 mm or 400 px and larger. Below that, use the L cut.</p></div><div class="pair"><div class="plate paper">${inl(Pn.symbol({ style: 'engraved', tight: true }))}</div><div class="plate ink">${inl(Pn.symbol({ style: 'engraved', tight: true, gold: true }))}</div></div></div>`);
-page('The wordmark', `<div class="stack gap-l"><div class="two" style="--c:6fr 5fr;align-items:end"><div class="stack"><p class="kick">The wordmark</p><h2>Bodoni Moda, and one red point</h2></div><p class="lede">The name is set in Bodoni Moda 500. Its hairlines echo the facet edges, and the full stop is drawn as the point.</p></div><div class="wmspec">${wordmarkSpec()}</div>
-<div class="three small"><div><h3>Display cut</h3><p>Optical size 28, tracking −22. For every lockup and any wordmark with a cap height of 24 px or 6 mm and up.</p></div><div><h3>Text cut</h3><p>Optical size 11, tracking −8. Sturdier hairlines for small sizes, navigation bars and live web text. <span class="tcut">Carat Capital<i class="pt"></i></span></p></div><div><h3>Artwork, not type</h3><p>Use the files; don’t retype the name. The website is the one exception: it sets the name live in Bodoni Moda and draws the point in CSS to the same measurements.</p></div></div></div>`);
+page('The wordmark', `<div class="stack gap-l"><div class="two" style="--c:6fr 5fr;align-items:end"><div class="stack"><p class="kick">The wordmark</p><h2>Instrument Sans Bold, and one red point</h2></div><p class="lede">The name is set in Instrument Sans Bold capitals, the face the paper’s nameplate has always used. The full stop is drawn as the point.</p></div><div class="wmspec">${wordmarkSpec()}</div>
+<div class="three small"><div><h3>Display cut</h3><p>Tracking −20, word space +0.06 em. For every lockup and the masthead, at a cap height of 24 px or 6 mm and up.</p></div><div><h3>Text cut</h3><p>Tracking 0, word space +0.06 em. A little more air for small sizes, navigation bars and live web text. <span class="tcut">Carat Capital<i class="pt"></i></span></p></div><div><h3>Artwork, not type</h3><p>Use the files; don’t retype the name. The website is the one exception: it sets the name live in Instrument Sans Bold and draws the point in CSS to the same measurements.</p></div></div></div>`);
 page('Lockups', `<div class="lockgrid"><div class="lk-head stack"><p class="kick">Lockups</p><h2>Five arrangements</h2><p>The horizontal lockup is the default. Choose another only when the space asks for it.</p></div>
 ${[['Primary · horizontal with tagline', 'Mastheads, covers, the share card, anything with room.', Pn.lockup({}), 'wide'], ['Horizontal, no tagline', 'Headers and bars under 300 px wide.', Pn.lockup({ tag: false }), ''], ['Stacked', 'Square and portrait formats, social cards, posters.', Pn.lockup({ layout: 'stacked' }), 'tall'], ['Wordmark', 'Where the symbol already appears nearby.', Pn.lockup({ layout: 'wordmark', tag: false }), ''], ['Symbol', 'Favicons, avatars, app icons, stamps.', Pn.symbol({ cut: 'L', tight: true }), 'sym']].map(([t, u, s, cls]) => `<figure class="lk ${cls}"><div class="plate paper">${inl(s)}</div><figcaption><b>${t}</b>${u}</figcaption></figure>`).join('')}</div>`);
 page('Clear space and minimum size', `<div class="two" style="--c:7fr 4fr"><div class="plate paper">${clearSpace()}</div><div class="stack"><p class="kick">Clear space and minimum size</p><h2>Give it one cap height</h2><p>Keep everything else at least <b>x</b> away from the lockup on every side, where <b>x</b> is the cap height of the C.</p><table class="spec"><tbody>${[['Lockup with tagline', '180 px · 45 mm wide'], ['Lockup, no tagline', '120 px · 30 mm'], ['Stacked lockup', '100 px · 25 mm'], ['Wordmark', '90 px · 22 mm'], ['Symbol, S cut', '16 px · 5 mm']].map(([k, v]) => `<tr><th>${k}</th><td>${v}</td></tr>`).join('')}</tbody></table><p class="note">Below 180 px the tagline stops being legible, so drop it rather than shrink it.</p></div></div>`);
@@ -92,8 +92,8 @@ page('Colour', `<div class="stack gap-m"><div class="two" style="--c:6fr 5fr;ali
 const tile = (bg, s, t, style = '') => `<figure class="use"><div class="plate" style="background:${bg};${style}">${inl(s)}</div><figcaption>${t}</figcaption></figure>`;
 page('Colour in use', `<div class="stack gap-m"><div class="two" style="--c:6fr 5fr;align-items:end"><div class="stack"><p class="kick">Colour in use</p><h2>Six approved pairings</h2></div><p class="lede">The point stays red in every pairing but one: one-colour work, where it takes the colour of the mark.</p></div>
 <div class="uses">${tile(P, Pn.lockup({ tag: false }), '<b>Primary.</b> Black and Point Red on Pearl White')}${tile(I, Pn.lockup({ tag: false, fg: P }), '<b>Reverse.</b> Pearl White and Point Red on Black')}${tile(I, Pn.lockup({ tag: false, fg: GOLD, gold: true }), '<b>Foil.</b> Pearl lustre on Black, the point in red foil')}${tile(RED, Pn.lockup({ tag: false, fg: P, dot: I }), '<b>On Point Red.</b> Pearl White, with the point in Black')}${tile('#FFFFFF', Pn.lockup({ tag: false, dot: I }), '<b>One colour.</b> Black only, for faxes, engraving, embossing')}${tile(I, Pn.lockup({ tag: false, fg: P, dot: P }), '<b>One colour, reversed.</b> Pearl White only, on dark images with a plate', `background-image:url(${b64(path.join(BUILD, 'cap-folio.jpg'), 'image/jpeg')});background-size:cover;background-position:center;box-shadow:inset 0 0 0 999px rgba(13,13,15,.62)`)}</div></div>`);
-page('Typography', `<div class="two" style="--c:4fr 7fr;align-items:start"><div class="stack"><p class="kick">Typography</p><h2>One face for the name, three for the paper</h2><p>Bodoni Moda belongs to the name. The paper keeps the faces it already reads in, so the new mark arrives without a redesign.</p></div><div class="types">
-<div class="ty"><p class="mono">Bodoni Moda 500 · the name, the masthead</p><p class="ty-bod">Carat Capital<i class="pt"></i></p></div>
+page('Typography', `<div class="two" style="--c:4fr 7fr;align-items:start"><div class="stack"><p class="kick">Typography</p><h2>The nameplate face, and the paper’s own</h2><p>The name keeps the paper’s original nameplate face, Instrument Sans Bold in capitals, so the mark and the headlines speak with one voice. Lora and Plex Mono carry the text and the data.</p></div><div class="types">
+<div class="ty"><p class="mono">Instrument Sans 700, capitals · the name, the masthead</p><p class="ty-bod">Carat Capital<i class="pt"></i></p></div>
 <div class="ty"><p class="mono">Instrument Sans 600–700 · headlines</p><p class="ty-ins">De Beers digs 88% more, banks 44% less</p></div>
 <div class="ty"><p class="mono">Lora 400 · text</p><p class="ty-lor">Second-quarter rough output jumped 88% to 7.8 million carats even as the average price fell 32% to $105 a carat.</p></div>
 <div class="ty"><p class="mono">IBM Plex Mono 500 · data, labels, the tape</p><p class="ty-mono"><span>NATURAL 1CT (RAPI PROXY)</span> <b>3,915.00</b> <em>−5.1% YTD</em></p></div></div></div>`);
@@ -137,7 +137,7 @@ code{font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:.88em}
 .plate.paper{background:var(--paper-hi)}.plate.lo{background:var(--paper-lo)}.plate.ink{background:var(--ink)}
 .plate>svg,.plate>img{display:block;width:100%;height:auto;max-height:100%}
 .plate.sq{aspect-ratio:1.45}
-.pt{display:inline-block;width:.16em;height:.16em;border-radius:50%;background:var(--red);margin-left:.02em;vertical-align:baseline}
+.pt{display:inline-block;width:.16em;height:.16em;border-radius:50%;background:var(--red);margin-left:.04em;vertical-align:baseline}
 /* cover */
 .cover{grid-template-rows:auto minmax(0,1fr) auto auto;gap:0;padding:2.6em 3.4em 2.4em}
 .cv-top,.cv-bot{display:flex;justify-content:space-between;font:500 .72em/1 'IBM Plex Mono',ui-monospace,monospace;letter-spacing:.2em;text-transform:uppercase;color:rgba(243,241,236,.6)}
@@ -162,7 +162,7 @@ code{font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:.88em}
 /* wordmark */
 .wmspec svg{width:100%;height:auto;display:block;max-height:17em}
 .three.small p{font-size:.95em}
-.tcut{display:inline-block;margin-top:.5em;font-family:'Bodoni Moda',Didot,Georgia,serif;font-weight:500;font-variation-settings:'opsz' 11;letter-spacing:-.008em;font-size:18px}
+.tcut{display:inline-block;margin-top:.5em;font-family:'Instrument Sans',Arial,sans-serif;font-weight:700;text-transform:uppercase;word-spacing:.06em;letter-spacing:0;font-size:15px}
 /* lockups */
 .lockgrid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));grid-template-rows:auto auto;gap:1.2em 1.4em;align-content:center}
 .lk-head{grid-column:1/2}.lk.wide{grid-column:2/5}
@@ -178,7 +178,7 @@ code{font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:.88em}
 .use{margin:0;display:grid;gap:.55em}.use .plate{aspect-ratio:2.6;padding:6% 12%;border:1px solid var(--rule)}.use figcaption{font-size:.84em;color:var(--ink-2)}
 /* typography */
 .types{display:grid;gap:1.4em}.ty{display:grid;gap:.5em;border-top:1px solid var(--ink);padding-top:.9em}
-.ty-bod{font-family:'Bodoni Moda',Didot,Georgia,serif;font-weight:500;font-variation-settings:'opsz' 28;letter-spacing:-.022em;font-size:5.6em;line-height:1;max-width:none}
+.ty-bod{font-family:'Instrument Sans',Arial,sans-serif;font-weight:700;text-transform:uppercase;word-spacing:.06em;letter-spacing:-.02em;font-size:4.2em;line-height:1;max-width:none}
 .ty-ins{font:700 3em/1 'Instrument Sans',Arial,sans-serif;letter-spacing:-.03em;max-width:none}
 .ty-lor{font-size:1.4em;max-width:34em}
 .ty-mono{font:500 1.25em 'IBM Plex Mono',monospace;letter-spacing:.06em;max-width:none}.ty-mono span{color:${C.gilt}}.ty-mono em{font-style:normal;color:var(--red)}
@@ -230,7 +230,7 @@ code{font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:.88em}
 @page{size:1600px 1000px;margin:0}
 @media print{body{background:none}.book{max-width:none;padding:0;gap:0}.sp{width:1600px;height:1000px;aspect-ratio:auto;box-shadow:none;break-after:page;font-size:16px}}
 `;
-const FONTS = `<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400..700&family=Instrument+Sans:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,500;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">`;
+const FONTS = `<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,500;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">`;
 const body = `<main class="book">${pages.join('\n')}</main>`;
 fs.mkdirSync(BUILD, { recursive: true });
 fs.writeFileSync(path.join(BUILD, 'carat-capital-brand-book.artifact.html'), `<title>Carat Capital Brand Book</title>\n${FONTS}\n<style>${css}</style>\n${body}\n`);

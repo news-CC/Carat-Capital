@@ -1,6 +1,6 @@
 # Carat Capital brand
 
-The identity is **The Point**: a round brilliant seen from the side whose pavilion is also a pen nib. The nib's breather hole holds a red point, because printers set type in points and diamond dealers weigh stones in points (1 pt = 0.01 ct). The same point closes the wordmark, *Carat Capital.*, set in Bodoni Moda 500.
+The identity is **The Point**: a round brilliant seen from the side whose pavilion is also a pen nib. The nib's breather hole holds a red point, because printers set type in points and diamond dealers weigh stones in points (1 pt = 0.01 ct). The same point closes the wordmark, *CARAT CAPITAL.*, set in Instrument Sans Bold capitals (the paper's original nameplate face; Bodoni Moda until edition 1.1).
 
 **Colour (edition 1.1):** the brand colours are **Black** `#0D0D0F` and **Pearl White** `#F3F1EC`. Point Red `#BE3319` is kept for the point alone, and the gilt foil is replaced by a pearl lustre. The palette lives in `C` in [`source/lib.js`](source/lib.js); files named `gold` and `paper` keep their names and now carry the pearl lustre and Pearl White.
 
@@ -18,7 +18,7 @@ The site builds every page from `build.py` and `home_template.html`, so the mark
 
 | Where | What changed |
 | --- | --- |
-| `build.py` | Nav bar, menu and footer wordmark; the Folio cover; `FAVICON`; `LOGO_MARK` (the nav symbol); the `#medal` symbol; the assay hallmark; Bodoni Moda in `FONTS`; share image and apple-touch-icon in `head()` |
+| `build.py` | Nav bar, menu and footer wordmark; the Folio cover; `FAVICON`; `LOGO_MARK` (the nav symbol); the `#medal` symbol; the assay hallmark; the wordmark face (Instrument Sans Bold) in `FONTS`; share image and apple-touch-icon in `head()` |
 | `home_template.html` | Front-page masthead, top bar, menu, loader and footer; `#medal`; the assay hallmark; share image |
 | `assets/styles.css` | Wordmark styles and the drawn point (`.pt`: 0.16 em, on the baseline) |
 | `seo.py` | Default share image |
@@ -41,4 +41,4 @@ node site-caps.js      # screenshots of the built site for the book
 node book.js && node pdf.js   # brand-book.html and the PDF
 ```
 
-The scripts render with Playwright and Chromium. Typefaces (SIL Open Font License): Bodoni Moda, IBM Plex Mono; round one also uses Castoro Titling and Gloock.
+The scripts render with Playwright and Chromium. Typefaces (SIL Open Font License): Instrument Sans, IBM Plex Mono; round one also uses Bodoni Moda, Castoro Titling and Gloock.

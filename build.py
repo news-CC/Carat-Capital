@@ -99,9 +99,9 @@ def desk_articles(slug, n=6):
 # Type's news serif with optical sizes (display cuts at headline sizes, sturdy text cuts at body sizes), and
 # Public Sans for labels and numbers (tabular lining figures via tnum). Pages not yet moved to it keep the
 # older three families and load the new two only for the shared header and footer. Both loads also carry
-# Bodoni Moda, which sets The Point wordmark (brand/README.md).
-FONTS_RD = "https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400..700&family=Public+Sans:wght@400..700&family=Bodoni+Moda:opsz,wght@6..96,400..700&display=swap"
-FONTS = "https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&family=Newsreader:opsz,wght@6..72,400..700&family=Public+Sans:wght@400..700&family=Bodoni+Moda:opsz,wght@6..96,400..700&display=swap"
+# Instrument Sans Bold, which sets The Point wordmark in capitals (brand/README.md).
+FONTS_RD = "https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400..700&family=Public+Sans:wght@400..700&family=Instrument+Sans:wght@700&display=swap"
+FONTS = "https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&family=Newsreader:opsz,wght@6..72,400..700&family=Public+Sans:wght@400..700&display=swap"
 
 DEFS = """
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
@@ -2164,8 +2164,8 @@ body.zoomed.panning #zoomer{{cursor:grabbing;transition:none}}
   text-transform:uppercase;color:#C6A24A}}
 .cmedal{{width:6.8cqw;height:6.8cqw;color:#C6A24A;flex:none}}
 .cmedal.big{{width:16.6cqw;height:16.6cqw;margin:0 auto 18px}}
-.cbrand{{font-family:'Bodoni Moda',Didot,'Bodoni 72',Georgia,serif;font-weight:500;font-variation-settings:'opsz' 11;font-size:3.6cqw;letter-spacing:-.008em}}
-.cbrand .pt{{display:inline-block;width:.16em;height:.16em;border-radius:50%;background:#BE3319;margin-left:.02em}}
+.cbrand{{font-family:'Instrument Sans',Arial,sans-serif;font-weight:700;text-transform:uppercase;word-spacing:.06em;font-size:2.8cqw;letter-spacing:-.01em}}
+.cbrand .pt{{display:inline-block;width:.16em;height:.16em;border-radius:50%;background:#BE3319;margin-left:.04em}}
 .cbrand span{{color:#BE3319}}
 .cov-mast{{font-family:var(--pd);font-weight:700;font-size:16.6cqw;line-height:.92;letter-spacing:-.03em;margin:6.2cqw 0 2cqw}}
 .cov-sub{{font-family:var(--pm);font-size:1.95cqw;letter-spacing:.26em;text-transform:uppercase;color:#C6A24A}}

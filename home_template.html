@@ -20,7 +20,7 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=IBM+Plex+Mono:wght@400;500;600&family=Bodoni+Moda:opsz,wght@6..96,400..700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
 /* ═══════════════════════════════════════════════════════════════════════
    CARAT CAPITAL — THE DAWN EDITION
@@ -146,7 +146,7 @@ html:not(.js) #boot{display:none}
 .tmark svg{width:42px;height:42px;display:block;flex:none}
 /* the wordmark rides with the medal once the reader has scrolled past the
    masthead — the name leaves the hero and takes its seat in the bar */
-.tmark .wm{font-family:'Bodoni Moda',Didot,'Bodoni 72',Georgia,serif;font-weight:500;font-variation-settings:'opsz' 11;font-size:21px;letter-spacing:-.008em;
+.tmark .wm{font-family:'Instrument Sans',Arial,sans-serif;font-weight:700;text-transform:uppercase;word-spacing:.06em;font-size:16px;letter-spacing:0;
   text-transform:none;white-space:nowrap;color:var(--fg);
   max-width:0;overflow:hidden;opacity:0;
   transition:max-width .65s var(--glide),opacity .45s var(--glide),padding .65s var(--glide)}
@@ -189,7 +189,7 @@ body.menu-open{overflow:hidden}
 .omx.open .omx-panel{transform:none;opacity:1}
 .omx-head{display:flex;align-items:center;justify-content:space-between;gap:16px;
   padding-bottom:clamp(14px,2.4vh,22px);border-bottom:1px solid rgba(142,146,152,.24)}
-.omx-brand{font-family:'Bodoni Moda',Didot,'Bodoni 72',Georgia,serif;font-weight:500;font-variation-settings:'opsz' 11;font-size:23px;letter-spacing:-.008em}
+.omx-brand{font-family:'Instrument Sans',Arial,sans-serif;font-weight:700;text-transform:uppercase;word-spacing:.06em;font-size:18px;letter-spacing:-.01em}
 .omx-brand .caret{color:var(--verm)}
 .omx-close{font-family:var(--mono);font-size:9.5px;letter-spacing:.2em;text-transform:uppercase;
   color:var(--fg2);padding:8px 13px;border:1px solid var(--line);border-radius:999px;
@@ -241,7 +241,7 @@ body.menu-open{overflow:hidden}
 #top .in{display:flex;align-items:center;justify-content:space-between;gap:18px;width:100%}
 .caret{color:var(--verm)}
 /* the point: 0.16 em, on the baseline, drawn rather than typed */
-.pt{display:inline-block;width:.16em;height:.16em;border-radius:50%;background:var(--verm);margin-left:.02em;vertical-align:baseline}
+.pt{display:inline-block;width:.16em;height:.16em;border-radius:50%;background:var(--verm);margin-left:.04em;vertical-align:baseline}
 
 /* ══════ CUSTOM BUTTONS ══════ */
 .btn{position:relative;display:inline-flex;align-items:center;gap:11px;padding:14px 26px;
@@ -313,8 +313,8 @@ section{position:relative;z-index:1}
 .hero-in{position:relative;z-index:2;display:flex;flex-direction:column;align-items:center;
   justify-content:center;text-align:center;padding:clamp(14px,3vh,40px) 20px}
 @keyframes pulse{50%{opacity:.25}}
-h1.mast{font-family:'Bodoni Moda',Didot,'Bodoni 72',Georgia,serif;font-weight:500;font-variation-settings:'opsz' 28;letter-spacing:-.022em;line-height:.95;
-  font-size:clamp(46px,10.6vw,156px);text-transform:none;text-wrap:balance;
+h1.mast{font-family:'Instrument Sans',Arial,sans-serif;font-weight:700;text-transform:uppercase;word-spacing:.06em;letter-spacing:-.02em;line-height:.95;
+  font-size:clamp(38px,8.8vw,126px);text-wrap:balance;
   /* the clockline that used to sit here is gone, its air is not: this is
      that line's top margin, its own height and its bottom margin */
   margin-top:calc(clamp(18px,3.4vh,32px) + 12px + clamp(12px,2.4vh,20px))}
@@ -820,8 +820,8 @@ footer{border-top:1px solid var(--line);padding:56px 0 76px;margin-top:clamp(50p
   color:var(--acc);margin-bottom:14px}
 .fcol a{display:block;font-size:13.5px;color:var(--fg3);padding:5px 0;transition:color .25s,padding-left .3s var(--glide)}
 .fcol a:hover{color:var(--fg);padding-left:6px}
-.fbrand{display:flex;align-items:center;gap:12px;font-family:'Bodoni Moda',Didot,'Bodoni 72',Georgia,serif;font-weight:500;font-variation-settings:'opsz' 11;
-  letter-spacing:-.008em;font-size:25px;text-transform:none;margin-bottom:14px}
+.fbrand{display:flex;align-items:center;gap:12px;font-family:'Instrument Sans',Arial,sans-serif;font-weight:700;text-transform:uppercase;word-spacing:.06em;
+  letter-spacing:-.01em;font-size:19px;margin-bottom:14px}
 .fbrand svg{width:46px;height:46px;color:var(--acc)}
 @keyframes slow{to{transform:rotate(360deg)}}
 .fnote{font-family:var(--mono);font-size:9px;letter-spacing:.18em;text-transform:uppercase;

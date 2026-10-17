@@ -1,5 +1,6 @@
 // The Point, v2 — the Carat Capital identity. A brilliant in profile whose pavilion is a pen nib;
-// the breather hole holds the red point. Three optical cuts, an engraved cut, two wordmark cuts.
+// the breather hole holds the red point. Three optical cuts, an engraved cut, two wordmark cuts
+// (Instrument Sans Bold capitals since edition 1.1).
 const L = require('./lib');
 const { C, r2, deg, setText, inkBox, poly, line, hatch, svg, foilGrad } = L;
 
@@ -57,14 +58,16 @@ function symbol({ cut = 'L', fg = C.ink, dot = C.seal, bg = 'none', tight = fals
   return svg(vb, bgRect(bg) + m.body, (gold ? foilGrad(gid, 0, 0, 1, 1) : '') + m.defs);
 }
 
-// Wordmark: Bodoni Moda 500. Display cut = optical size 28 (lockups); text cut = optical size 11
-// (small sizes, live web text). The point is 0.16 em, on the baseline, 0.05 em after the l.
-const WM = { display: { f: 'bodoni500o28', tr: -22 }, text: { f: 'bodoni500', tr: -8 } };
+// Wordmark (edition 1.1): the paper's old nameplate face, Instrument Sans Bold in capitals. Display cut =
+// tracking −20 (lockups, the masthead); text cut = tracking 0 (small sizes, live web text). Both open the
+// word space by 0.06 em, where the old caret used to sit. The point is 0.16 em, on the baseline, 0.05 em after the L.
+const NAME = 'CARAT CAPITAL';
+const WM = { display: { f: 'instrumentsans700', tr: -20, ws: 60 }, text: { f: 'instrumentsans700', tr: 0, ws: 60 } };
 function wordmark({ cut = 'display', size = 200, fg = C.ink, dot = C.seal, x = 0, base = 0 } = {}) {
-  const { f, tr } = WM[cut], b = inkBox(f, 'Carat Capital', size, tr), cap = inkBox(f, 'C', size);
-  const t = setText(f, 'Carat Capital', x - b.x1, base, size, tr);
+  const { f, tr, ws } = WM[cut], b = inkBox(f, NAME, size, tr, ws), cap = inkBox(f, 'C', size);
+  const t = setText(f, NAME, x - b.x1, base, size, tr, ws);
   const r = size * 0.08, px = x + b.w + size * 0.05 + r;
-  return { w: px + r - x, cap: -cap.y1, desc: size * 0.25, body: `<path fill="${fg}" d="${t.d}"/><circle cx="${r2(px)}" cy="${r2(base - r)}" r="${r2(r)}" fill="${dot}"/>` };
+  return { w: px + r - x, cap: -cap.y1, desc: 0, body: `<path fill="${fg}" d="${t.d}"/><circle cx="${r2(px)}" cy="${r2(base - r)}" r="${r2(r)}" fill="${dot}"/>` };
 }
 const TAG = 'THE TRADE PAPER OF THE JEWELRY WORLD';
 // Tagline justified to a given measure (tracking solved so ink width = measure).
@@ -79,10 +82,11 @@ function lockup({ layout = 'horizontal', tag = true, fg = C.ink, dot = C.seal, b
   const size = 200, W = wordmark({ cut, size, fg, dot }), cap = W.cap, gid = uid('g');
   const P = pad ?? cap * 0.5; let body = '', defs = '', vw, vh;
   const symFill = gold ? `url(#${gid})` : null; if (gold) defs += foilGrad(gid, 0, 0, 1, 1);
-  const tagSize = size * 0.16, tagGap = size * 0.56; // tagline baseline below the wordmark baseline
+  const tagSize = size * 0.21, tagGap = size * 0.6; // tagline baseline below the wordmark baseline; sized so its tracking stays near 0.48 em under the wider capitals
   if (layout === 'horizontal') {
-    const symH = tag ? cap + tagGap : cap + W.desc, sc = symH / G.H, symW = G.half * 2 * sc, gap = size * 0.34;
-    const tx = P + symW + gap, base = P + cap;
+    // With the tagline the stone spans cap line to tagline; without it, it is centred on the capitals.
+    const symH = tag ? cap + tagGap : cap * 1.36, sc = symH / G.H, symW = G.half * 2 * sc, gap = size * 0.34;
+    const tx = P + symW + gap, base = P + (tag ? cap : (symH + cap) / 2);
     const m = mark({ fg, dot, cut: 'L', cx: 0, top: 0, fill: symFill }); defs += m.defs;
     body += `<g transform="translate(${r2(P + symW / 2)} ${r2(P)}) scale(${r2(sc * 10000) / 10000})">${m.body}</g>`;
     const Wm = wordmark({ cut, size, fg, dot, x: tx, base }); body += Wm.body;
@@ -99,7 +103,7 @@ function lockup({ layout = 'horizontal', tag = true, fg = C.ink, dot = C.seal, b
   } else { // wordmark only
     const base = P + cap; body += wordmark({ cut, size, fg, dot, x: P, base }).body;
     if (tag) body += tagline(W.w, tagSize, { fg, x: P, base: base + tagGap });
-    vw = W.w + 2 * P; vh = base + (tag ? tagGap + P * 0.6 : W.desc + P * 0.4);
+    vw = W.w + 2 * P; vh = base + (tag ? tagGap + P * 0.6 : P);
   }
   return svg(`0 0 ${r2(vw)} ${r2(vh)}`, bgRect(bg) + body, defs);
 }
