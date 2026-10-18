@@ -18602,7 +18602,7 @@
   ],
   "body": [
    "Platinum reads $1,693.00 and palladium $1,140.00 on the Kitco board at 06:05 New York time, each corroborated on a second page within a dollar and a half. Both marks had been held earlier in the morning because two price pages disagreed, and both holds now end.",
-   "At 05:00 platinum was the clearer conflict. Kitco read the metal a dollar higher while the CNBC quote webservice read it $4.48 lower at $1,682.73, below Kitco's own bid, so the two pages disagreed on direction and the mark stood at the $1,685.00 printed on 9 October.",
+   "At 05:00 platinum was the clearer conflict. Kitco read the metal's bid at $1,686.00 with its own change field at plus a dollar. The CNBC quote webservice read $1,686.16, sixteen cents above that bid, with its change field down $1.05. The two pages disagreed on direction while agreeing on level, so the mark stood at the $1,685.00 printed on 9 October.",
    "Palladium was held for a different reason. Kitco's cell had printed an identical bid of $1,132 and ask of $1,172 with zero change for four consecutive reads through a session that was open on the other metals, which is the signature of a stale cell flagged in August 2026.",
    "At press time both resolved. Kitco's platinum reads bid $1,693, ask $1,703, against CNBC's $1,694.26, inside the band and higher on both pages. Palladium's cell has moved to bid $1,140, ask $1,180, with a session high of $1,188 and a low of $1,127, and CNBC reads $1,156.49, up $8.68. The cell is live.",
    "Gold and silver went the other way. Gold's bid reads $4,171.90, down $21.70 on the 11 October mark, with CNBC at $4,173.22 inside the band. Silver reads $60.584, down 11.5 cents, having recovered from the $60.400 read an hour earlier. CNBC reported regular market status at 06:05 with distinct timestamps for each metal, so no closure is claimed for any of the four.",
@@ -18652,6 +18652,285 @@
     "title": "JCK, Karen Dybis: WatchTime New York, Windup Watch Fair, FHH Summit Anchor Packed Watch Week",
     "url": "https://www.jckonline.com/editorial-article/watchtime-new-york-2026/",
     "published": "2026-10-09"
+   }
+  ]
+ },
+ {
+  "slug": "de-beers-tenders-in-ramat-gan",
+  "desk": "diamonds",
+  "date": "2026-10-17",
+  "lead": true,
+  "kicker": "Diamonds & Rough",
+  "title": "De Beers tenders rough in Ramat Gan after nine years",
+  "dek": "Hon reports the two-day sale ran on 14 and 15 October at the exchange in Ramat Gan. Days earlier the bourse and Israel's Tax Authority signed a flat turnover-tax agreement covering 2027 and 2028, replacing a minimum-income floor.",
+  "byline": "Carat Capital",
+  "tags": [
+   "De Beers",
+   "Israel",
+   "Israel Diamond Exchange",
+   "rough",
+   "tax",
+   "Ramat Gan"
+  ],
+  "body": [
+   "De Beers put rough in front of buyers at the Israel Diamond Exchange in Ramat Gan on 14 and 15 October. Hon reports it as the first such sale in the country in nine years. The Hebrew financial title dated its report 13 October Israel time. It placed the goods on the table from the following day until Thursday. No result has been published. The report does not say how many lots were offered, what they weighed, or what was asked. Neither De Beers nor the exchange has issued a figure since.",
+   "The second event is the one with a date attached to it. Days before the tender, Hon reports, the Israel Diamond Exchange and Israel's Tax Authority signed an agreement covering the 2027 and 2028 tax years. A dealer who joins the arrangement pays a fixed percentage of turnover and knows the liability before the year starts. The minimum-income floor, which obliged a dealer to report a set level of income even in a thin year, is cancelled for anyone who enters.",
+   "Hon does not print Israel's new rate. It prints the comparator instead. Taxable income for diamond dealers in Belgium is set at 2.1% of turnover, which the article calls more than three times the Israeli figure. Carat Capital has not computed an Israeli rate from that sentence and does not print one. On the same page, gems and jewellery enter Israel free of customs duty against 5% in Dubai. Registering a foreign company is described as faster in Israel than there.",
+   "The tax arithmetic is the part a dealer can act on, and it is the part that is deliberately incomplete. A flat charge on turnover rewards high-volume, low-margin trading and penalises a house that turns a small book at a wide margin. Without the percentage, nobody outside the arrangement can work out which side of that line they fall on. The exchange has not published the rate and the Tax Authority has not either.",
+   "The timing is the argument. Antwerp and Dubai have both spent this year competing for the same migratory dealer base. Israel's answer is a predictable tax bill plus a major seller back on the floor. Whether buyers signed is the test the tender was for, and that answer is not yet public. A tender that draws viewers and no signatures looks identical, from outside, to one that clears."
+  ],
+  "sources": [
+   {
+    "title": "Hon (Avishai Ben Moshe), De Beers returns to the Ramat Gan Diamond Exchange after nine years, 13 October 2026",
+    "url": "https://www.hon.co.il/%D7%93%D7%94-%D7%91%D7%99%D7%A8%D7%A1-%D7%97%D7%95%D7%96%D7%A8%D7%AA-%D7%9C%D7%91%D7%95%D7%A8%D7%A1%D7%AA-%D7%94%D7%99%D7%94%D7%9C%D7%95%D7%9E%D7%99%D7%9D-%D7%91%D7%A8%D7%9E%D7%AA-%D7%92%D7%9F-%D7%90/",
+    "published": "2026-10-12"
+   },
+   {
+    "title": "Carat Capital, Israel's rough trade fell 35%, its polished 18%, 23 August 2026",
+    "url": "https://caratcapital.org/a-israel-rough-down-thirty-five.html",
+    "published": "2026-08-23"
+   },
+   {
+    "title": "Carat Capital, De Beers loses $188 million and points at a steady index, 31 July 2026",
+    "url": "https://caratcapital.org/a-de-beers-narrows-the-loss.html",
+    "published": "2026-07-31"
+   }
+  ]
+ },
+ {
+  "slug": "eighty-six-forty-seven-lakh-in-sardarnagar",
+  "desk": "retail-tech",
+  "date": "2026-10-17",
+  "lead": false,
+  "kicker": "Retail & Technology",
+  "title": "₹86.47 lakh of gold and silver never reach a Sardarnagar buyer",
+  "dek": "A woman's Ahmedabad complaint itemises ₹23.47 lakh for 150 grams of gold and ₹63 lakh for 28 kilos of silver, neither delivered. Police tell Divya Bhaskar more than twenty people dealt with the pair over seven months.",
+  "byline": "Carat Capital",
+  "tags": [
+   "Ahmedabad",
+   "Gujarat",
+   "fraud",
+   "gold",
+   "silver",
+   "India"
+  ],
+  "body": [
+   "A woman has told Ahmedabad's crime branch that she paid ₹86.47 lakh and received nothing. The money went to the father-and-son owners of Komal Jewellers in Sardarnagar. The Gujarati daily Divya Bhaskar reports the complaint as two line items. They are ₹23.47 lakh against 150 grams of gold and ₹63 lakh against 28 kilos of silver. The two add to the total exactly. Police registered the case at ₹87 lakh and opened an investigation. The pair are reported as having fled. Nobody has been convicted and these are allegations at complaint stage.",
+   "The pitch, as the newspaper reports it, was smuggled metal. The pair told people in their community that gold came cheap out of Dubai. They offered a tola at ₹5,000 to ₹6,000 below the market, and silver up to ₹10,000 less a kilo. More than twenty people dealt with them over seven months, police say, in individual amounts of ₹50 lakh to ₹1 crore. Metal was delivered for most of that run. On the last lot the money went and the goods did not.",
+   "The complainant's own two figures do not describe a discount. On Carat Capital's division, ₹23.47 lakh for 150 grams is ₹15,646.67 a gram, or ₹1,56,467 per ten grams. On the same division, ₹63 lakh for 28 kilos is ₹2,25,000 a kilo of silver. The complaint gives no date for either transaction and no purity for either metal. Neither figure can therefore be set against a dated Indian quote. What it can be set against is this paper's own reporting six days earlier from Bhuj.",
+   "In that account a Bhuj agent named ₹1.40 crore a kilo as the full, undiscounted rate for 24-carat gold and asked ₹1 crore. Per gram those are ₹14,000 and ₹10,000. The Sardarnagar complainant's ₹15,646.67 a gram is 11.8% above the Bhuj agent's full rate and 56.5% above his ask. Purity is the hole in that comparison and it is a real one. Bhuj was quoted as 24-carat and the Ahmedabad complaint states no fineness at all.",
+   "The police figure sits on a different footing from the complaint. Officers put the combined value the group ordered over seven months at more than ₹100 crore. They describe victims reselling the metal at a profit until the last lot. That is a round estimate given to a newspaper, not an itemised total from a charge sheet. The report attributes no document to it. The ₹86.47 lakh is the only figure here that comes with two line items behind it."
+  ],
+  "sources": [
+   {
+    "title": "Divya Bhaskar (Gujarati), Ahmedabad, jewellers father and son took money from twenty people of the community, 18 October 2026",
+    "url": "https://www.divyabhaskar.co.in/local/gujarat/ahmedabad/news/jewelers-father-and-son-exchanged-gifts-of-20-people-from-the-community-after-giving-cheap-gold-and-silver-for-7-months-dbp-139403497.html",
+    "published": "2026-10-18"
+   },
+   {
+    "title": "Carat Capital, ₹1 crore a kilo: a Bhuj ring pitches Swiss gold, 11 October 2026",
+    "url": "https://caratcapital.org/a-one-crore-a-kilo-in-a-bhuj-back-room.html",
+    "published": "2026-10-11"
+   },
+   {
+    "title": "Carat Capital, ₹87.81 lakh of gold never returns from a Wadaj workshop, 12 October 2026",
+    "url": "https://caratcapital.org/a-eighty-seven-eighty-one-lakh-out-for-stone-setting.html",
+    "published": "2026-10-12"
+   }
+  ]
+ },
+ {
+  "slug": "twenty-seven-one-million-in-luanda",
+  "desk": "diamonds",
+  "date": "2026-10-17",
+  "lead": false,
+  "kicker": "Diamonds & Rough",
+  "title": "TAGS sells 1,721 carats for $27.1m at a Luanda tender",
+  "dek": "The 30 September to 8 October sale cleared 94% of 53 lots drawn from twelve Angolan mines, with 39 manufacturers bidding. That works out at $15,746.66 a carat on Carat Capital's division, a large-stone average rather than a run-of-mine one.",
+  "byline": "Carat Capital",
+  "tags": [
+   "TAGS",
+   "Angola",
+   "Sodiam",
+   "rough",
+   "tender",
+   "Luanda"
+  ],
+  "body": [
+   "Trans Atlantic Gem Sales sold 1,721 carats of rough for $27.1 million at a tender held in Luanda from 30 September to 8 October. The house says 94% of lots found buyers and that 39 specialist manufacturers attended. The offering ran to 53 lots drawn from twelve mines and included special-sized and fancy-coloured stones. The figures were given by the company on Wednesday and carried by Rapaport.",
+   "The number that matters is the one neither party printed. On Carat Capital's division, $27.1 million across 1,721 carats is $15,746.66 a carat. That is not a rough price in any ordinary sense. It is what a tender looks like when the parcels are specials and colours rather than run-of-mine goods. It says nothing about what a Luanda sorting house gets for its smalls.",
+   "Lot count against carat count tells the same story. Fifty-three lots holding 1,721 carats averages 32.5 carats a lot, again on this paper's division. A tender built out of thirty-carat average parcels is a tender of named stones. The 94% clearance is a clearance on that material and should not be read across to the segment lab-grown competition has hollowed out.",
+   "This is a different sale from the Angolan tender this paper reported on 30 July. That one covered goods above 10.8 carats offered in June and closed at 95% sell-through. Same house, same city, same state partner in Sodiam; different window and different figures. The carat total, the dollar total and the lot count are all new, and the June sale published none of the three in this form.",
+   "What is still missing is a price direction. TAGS gave a total and a clearance rate. It said nothing about whether prices rose or fell against its previous Angolan sale, and Rapaport's item makes no comparison. A 94% clearance establishes that bidders turned up. It does not establish what they paid relative to the last time they did."
+  ],
+  "sources": [
+   {
+    "title": "Rapaport News, TAGS Tender Generates $27.1M in Revenue, 15 October 2026 (full item read from rapaport.com/feed/)",
+    "url": "https://rapaport.com/news/tags-tender-generates-27-1m-in-revenue/",
+    "published": "2026-10-15"
+   },
+   {
+    "title": "Carat Capital, Ninety-five percent sold in Luanda, and Sodiam beats its book by 23%, 30 July 2026",
+    "url": "https://caratcapital.org/a-angolas-rough-clears.html",
+    "published": "2026-07-30"
+   },
+   {
+    "title": "Carat Capital, The tender ladder: 100% in Dubai, 75% in Johannesburg, 2 August 2026",
+    "url": "https://caratcapital.org/a-the-tender-ladder.html",
+    "published": "2026-08-02"
+   }
+  ]
+ },
+ {
+  "slug": "silver-sheds-six-point-one-four",
+  "desk": "gold-metals",
+  "date": "2026-10-17",
+  "lead": false,
+  "kicker": "Gold & Metals",
+  "title": "Silver sheds 6.14% over five sessions, gold barely moves",
+  "dek": "Kitco's board, frozen at its 16 October tick, reads silver at $56.866 against this paper's $60.584 mark of 12 October. Gold gave up $7.80 over the same stretch, and the gold-silver ratio widened from 68.86 to 73.23.",
+  "byline": "Carat Capital",
+  "tags": [
+   "silver",
+   "gold",
+   "platinum",
+   "palladium",
+   "Kitco",
+   "ratio"
+  ],
+  "body": [
+   "Silver's bid reads $56.866 an ounce against the $60.584 this paper printed on 12 October, a fall of $3.718 or 6.1369%. Gold's bid reads $4,164.10 against $4,171.90, down $7.80 or 0.187%. Platinum is at $1,626.00 from $1,693.00, off $67.00 or 3.9575%. Palladium is at $1,096.00 from $1,140.00, off $44.00 or 3.8596%. Each change is measured against Carat Capital's own printed mark of 12 October, looked up with tools/prev-mark.py rather than reversed out of any change field. Rounded to two decimals, that is 6.14% off silver and 0.19% off gold.",
+   "The board is not moving. All four metals carry the same Kitco originalTime of 2026-10-16T17:00:00Z, the venue's own last tick. A press-time re-read at 22:01 EDT returned the identical four bids and the identical timestamp. That is a halt read off the page, not inferred from the day of the week. Kitco's own change fields read minus $5.70, minus $0.434, plus $6.00 and minus $18.00. Those are its one-session numbers on its own prior close, not changes against this paper's marks.",
+   "The spread between the two biggest metals is the whole story. Gold divided by silver was 68.8614 on this paper's 12 October marks and is 73.2265 now, a widening of 4.3651 points or 6.339%. A ratio moves that far in five sessions only when one leg does nearly all the work, and here silver did. Gold's 0.187% is inside the noise of a bid-ask spread. Rounded, the ratio went from 68.86 to 73.23.",
+   "Platinum and palladium fell close to four percent each and have no story of their own in these figures. Both moves are smaller than silver's in percentage terms and larger than gold's. That is the ordinary arrangement when the industrial end sells off and the monetary end does not. Nothing in the saved board explains why.",
+   "Two reference prices are missing rather than unchanged. The Rapaport one-carat index refused three separate identities with HTTP 403 and is carried as unreachable, with no value printed. The prior mark of 3,903.60 is not restated as today's. The Zimnisky rough index opened at 200 but publishes its level only inside a chart image. The lab-grown one-carat reference reads $663 against $665, down $2 or 0.3008%."
+  ],
+  "sources": [
+   {
+    "title": "Kitco precious metals board, press-time re-read 22:01 EDT, raw bytes saved (bid)",
+    "url": "https://www.kitco.com/price/precious-metals",
+    "published": "2026-10-17"
+   },
+   {
+    "title": "CaratRadar lab-grown diamond prices, one-carat average",
+    "url": "https://caratradar.com/diamond-prices/lab-grown-diamonds/",
+    "published": "2026-10-17"
+   },
+   {
+    "title": "Carat Capital, Two holds end at press time, 12 October 2026",
+    "url": "https://caratcapital.org/a-two-holds-end-at-press-time.html",
+    "published": "2026-10-12"
+   }
+  ]
+ },
+ {
+  "slug": "patek-2499-leads-phillips-new-york",
+  "desk": "watches",
+  "date": "2026-10-17",
+  "lead": false,
+  "kicker": "Watches",
+  "title": "Patek 2499 in pink gold leads Phillips at over $3m",
+  "dek": "The 5 and 6 December sale in New York carries a second-series pink gold example. Phillips says eight are publicly known of 349 made, and seven named lots carry a $6.3 million floor.",
+  "byline": "Carat Capital",
+  "tags": [
+   "Phillips",
+   "Patek Philippe",
+   "F.P. Journe",
+   "Cartier",
+   "auction",
+   "New York"
+  ],
+  "body": [
+   "Phillips will hold The New York Watch Auction: XV on 5 and 6 December at its New York gallery. The leader is a second-series Patek Philippe Reference 2499 in 18-carat pink gold, estimated above $3 million. The house says 349 examples of the reference were made over nearly 35 years. It says only eight second-series examples in pink gold are publicly known. Both counts are Phillips' own and this paper has not independently verified either.",
+   "Phillips describes the sale as the highest-value watch auction ever assembled in the United States. That is the house's claim about its own catalogue, made before a single lot has sold, and Carat Capital carries it as such. JCK, which reported the catalogue on 16 October, discloses that its first draft was produced with AI assistance and reviewed by a staff writer.",
+   "Behind the Patek the estimates cluster tightly. A second-generation F.P. Journe Tourbillon Souverain and what Phillips calls the only known pink gold Pre-Souscription Chronometre a Resonance each carry $600,000 to $1.2 million. One of three Octa Reserve de Marche prototypes is estimated above $500,000. A gem-set Patek Reference 5971 with 42 baguette-cut emeralds on the bezel and seven emerald hour markers also carries $600,000 to $1.2 million.",
+   "The non-wristwatch lots are where the catalogue gets unusual. A Cartier Model A Mystery Clock commissioned by King Farouk I of Egypt in 1936 is expected above $500,000. It was delivered the following year in rock crystal, platinum, black onyx and diamonds. A unique Akrivia AK-02 Tourbillon carries $500,000 to $1 million. The Vic Elford Rolex Daytona from Jerry Seinfeld's collection returns, previously announced.",
+   "Seven named lots with published floors add to at least $6.3 million on Carat Capital's addition, and three of those floors are open-ended. That is a floor on seven lots in a sale whose total lot count Phillips has not given. It says nothing about the sale's size. The third edition of TimeForArt runs inside the December event with the Swiss Institute taking all proceeds, including the house's donated buyer's premium."
+  ],
+  "sources": [
+   {
+    "title": "JCK, Rare $3M Patek Philippe to Lead Potential Record-Value U.S. Watch Sale, 16 October 2026",
+    "url": "https://www.jckonline.com/editorial-article/patek-record-watch-sale/",
+    "published": "2026-10-16"
+   },
+   {
+    "title": "Carat Capital, $235 million in a season: Phillips just rewrote the watch-auction record book, 9 July 2026",
+    "url": "https://caratcapital.org/a-phillips-235-million-spring.html",
+    "published": "2026-07-09"
+   }
+  ]
+ },
+ {
+  "slug": "three-hundred-thousand-tops-sothebys-milan",
+  "desk": "auctions",
+  "date": "2026-10-17",
+  "lead": false,
+  "kicker": "Auctions",
+  "title": "€300,000 high estimate leads Sotheby's Milan on 28 October",
+  "dek": "A 1965 necklace of intertwined ribbons tops a sale of more than 300 lots in Milan. It holds 35 carats of oval sapphires and about 55 carats of brilliant-cut diamonds, and four further lots sit at a €100,000 floor.",
+  "byline": "Carat Capital",
+  "tags": [
+   "Sotheby's",
+   "Milan",
+   "sapphire",
+   "auction",
+   "Italy",
+   "estimates"
+  ],
+  "body": [
+   "Sotheby's will lead its Fine Jewelry and Watches sale in Milan on 28 October with a sapphire and diamond necklace of 1965. The upper estimate is 300,000 euros. The piece is designed as intertwined ribbons and holds 35 carats of oval sapphires with an estimated 55 carats of brilliant-cut diamonds. Rapaport, which reported the catalogue on 15 October, converts the high estimate at $333,524. That implies a rate of 1.11175 dollars to the euro, the figure used throughout its item.",
+   "Ninety carats of stone against a 300,000 euro ceiling is 3,333.33 euros a carat on Carat Capital's division. That is blended across sapphire and diamond, before any value is attributed to the design, the age or the signature. That is a catalogue priced for buyers rather than for records. The sale runs to more than 300 lots and the house names Cartier, Bulgari and David Webb among the signatures.",
+   "The four lots behind the leader all start in the same place. A necklace that can also be worn as a hair accessory is estimated at 100,000 to 200,000 euros. It carries two brilliants of about 4.10 and 4.20 carats, with further stones between 2 and 2.90 carats. A ring with a 9.09-carat brilliant-cut diamond and a ring with an oval 15.08-carat Burmese sapphire each carry 100,000 to 150,000 euros. So does a white-lacquered Lucio Fontana cuff on a silver bracelet.",
+   "A Fontana cuff sitting at the same floor as a 15-carat Burmese sapphire is the detail a specialist will read first. One is priced on a gemstone with an origin, the other on an artist's name and a pierced white oval. The house has put them in the same bracket. Italian sales have been doing this for several seasons and Milan is where it shows most plainly.",
+   "No sell-through, no total and no reserve has been published, and none will be until 28 October. The five estimates above are the whole of what is public. Four of the top five lots share a 100,000 euro floor. That compresses the distance between the leader and the field more than a 300,000 euro top estimate suggests."
+  ],
+  "sources": [
+   {
+    "title": "Rapaport News, Sapphire and Diamond Necklace to Star in Sotheby's Italy Auction, 15 October 2026 (full item read from rapaport.com/feed/)",
+    "url": "https://rapaport.com/news/sapphire-and-diamond-necklace-to-star-at-sothebys-italy-auction/",
+    "published": "2026-10-15"
+   },
+   {
+    "title": "Carat Capital, 81.17-carat Paraiba leads Bonhams Paris on 29 October, 10 October 2026",
+    "url": "https://caratcapital.org/a-eighty-one-carats-of-paraiba-in-paris.html",
+    "published": "2026-10-10"
+   }
+  ]
+ },
+ {
+  "slug": "lvmh-jewellery-up-eight-in-the-quarter",
+  "desk": "retail-tech",
+  "date": "2026-10-17",
+  "lead": false,
+  "kicker": "Retail & Technology",
+  "title": "LVMH jewellery and watches rise 8% to €2.5bn in the quarter",
+  "dek": "The division grew eight times faster than the group in the three months to 30 September, when total LVMH revenue rose 1%. Nine-month divisional sales reached €7.73 billion, up 4%, against a group figure down 1.6%.",
+  "byline": "Carat Capital",
+  "tags": [
+   "LVMH",
+   "Tiffany",
+   "Bulgari",
+   "Chaumet",
+   "results",
+   "luxury"
+  ],
+  "body": [
+   "LVMH's jewellery and watch division booked 2.5 billion euros in the three months to 30 September, up 8% year on year. Group revenue was 18.5 billion euros, up 1%. Over nine months the division took 7.73 billion euros, up 4%, while the group fell 1.6% to 57.15 billion euros. Rapaport, reporting the figures on Monday, converts the quarter at $2.79 billion and the nine months at $8.64 billion.",
+   "The two divisional figures tie out against this paper's own reporting. LVMH's first-half jewellery and watch sales were 5.23 billion euros, printed here on 29 July. Nine months at 7.73 billion less a first half of 5.23 billion leaves exactly 2.5 billion. That is the figure the company reports for the quarter, on Carat Capital's subtraction.",
+   "The division is carrying a group that is not growing. Jewellery and watches were 13.5% of LVMH's quarterly revenue and 13.5% of its nine-month revenue, on this paper's division. It is the only segment named as improving. That is the same pattern this paper reported at the half year, when the division grew about 9% organically while group revenue fell 3%.",
+   "LVMH attributes the quarter's softness to China and names the United States, Europe and Japan as improving. Within the division it credits Tiffany's HardWear, Knot and Sixteen Stone lines and a store-renovation programme. It credits Bulgari's Eclettica high jewellery and prestige watches, which it says generated record revenue, and Chaumet's Bee de Chaumet. The Blue Book 2026 Hidden Garden collection moved from New York to Venice for the autumn.",
+   "One qualification belongs on the 8%. The report carried here does not state whether the quarterly growth figure is organic or reported, and LVMH ordinarily publishes both. The half-year figure this paper printed in July was explicitly organic. Until the company's own release is read against this, the 8% should be treated as the growth rate Rapaport printed. It should not be assumed like for like with the 9% of six months ago."
+  ],
+  "sources": [
+   {
+    "title": "Rapaport News, Revenue for LVMH's Jewelry Segment Improves, 13 October 2026 (full item read from rapaport.com/feed/)",
+    "url": "https://rapaport.com/news/revenue-for-lvmhs-jewelry-segment-improves/",
+    "published": "2026-10-13"
+   },
+   {
+    "title": "Carat Capital, Tiffany and Bulgari carry LVMH as the group slips 3%, 29 July 2026",
+    "url": "https://caratcapital.org/a-tiffany-carries-lvmh.html",
+    "published": "2026-07-29"
    }
   ]
  }

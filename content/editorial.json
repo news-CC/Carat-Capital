@@ -139984,8 +139984,8 @@
       "text": "A mark is printed only when a second independent page corroborates the first. At 05:00 platinum failed that test and palladium looked frozen."
      },
      {
-      "lead": "Platinum disagreed on direction.",
-      "text": "Kitco read platinum a dollar higher while CNBC read it $4.48 lower, below Kitco's own bid. The mark stood at $1,685.00."
+      "lead": "Platinum split the pages.",
+      "text": "Kitco read platinum's bid at $1,686.00, its own change field up a dollar. CNBC read $1,686.16, its change field down $1.05. The levels agreed; the directions did not."
      },
      {
       "lead": "Palladium would not move.",
@@ -140077,6 +140077,9 @@
      "url": "https://caratcapital.org/a-two-cleared-two-held.html",
      "published": "2026-08-18"
     }
+   ],
+   "corrections": [
+    "Correction, 17 October 2026: an earlier version of this article said that at 05:00 the CNBC quote webservice read platinum \"$4.48 lower at $1,682.73, below Kitco's own bid\". Neither figure traces. This desk's own saved capture of that read, newsroom/sources/2026-10-12/cnbc.json, 3,350 bytes, carries platinum last 1,686.1602, change −1.0507, previous close 1,687.2109; an exact-digit grep of that file returns 0 hits for 1,682.73 and 0 for 4.48, against 1 hit for 1,686.1602. Kitco's own 05:00 bid, from the saved kitco.html, 197,881 bytes, was $1,686.00, with its own change field at +1. CNBC's reading was therefore sixteen cents ABOVE Kitco's bid and inside that board's $1,686.00–$1,696.00 band, not below it. The two pages did disagree in their own change fields, +1.00 against −1.0507 on a previous close of 1,687.2109, and that is what the hold rested on; they agreed on the level, and the figures this article gave for the disagreement were wrong. The bad numbers came from this desk's own tape note of 12 October rather than from either source page, and this paper cannot reconstruct how they arose. Correct as published and unchanged: all four press-time figures (gold $4,171.90, silver $60.584, platinum $1,693.00, palladium $1,140.00), all four 05:00 Kitco readings, the palladium frozen-cell finding, and every number in the change table. This paper's standards desk found the error on 12 October 2026."
    ]
   },
   "next": {
@@ -140265,6 +140268,1465 @@
   },
   "next": {
    "slug": "eighty-seven-eighty-one-lakh-out-for-stone-setting"
+  }
+ },
+ "de-beers-tenders-in-ramat-gan": {
+  "v": 3,
+  "kicker": "Diamonds & Rough",
+  "figures": {
+   "asof": "All figures from Hon's report of 13 October 2026 Israel time, read from the raw page saved as newsroom/sources/2026-10-17/desk/hon_debeers.html, 200, 755,369 bytes. The tender dates are derived from the report's own dateline and its phrase placing the goods on the table from the following day until Thursday. No result has been published by De Beers or by the exchange.",
+   "cells": [
+    {
+     "n": "14-15 Oct",
+     "label": "The tender's two days",
+     "q": "Israel Diamond Exchange, Ramat Gan",
+     "src": 1
+    },
+    {
+     "n": "Nine years",
+     "label": "Since the last such sale in Israel",
+     "q": "Hon's count, not independently verified",
+     "src": 1
+    },
+    {
+     "n": "2027-28",
+     "label": "Years the new tax agreement covers",
+     "q": "signed days before the tender",
+     "src": 1
+    },
+    {
+     "n": "2.1%",
+     "label": "Belgium's taxable income on turnover",
+     "q": "described as more than three times Israel's",
+     "src": 1
+    }
+   ]
+  },
+  "changed": {
+   "lead": "De Beers tendered in Israel again.",
+   "text": "Rough went in front of buyers at the Ramat Gan exchange on 14 and 15 October, after nine years without such a sale. Days earlier the bourse signed a 2027-28 turnover-tax deal."
+  },
+  "means": [
+   {
+    "who": "If you trade on the Ramat Gan floor:",
+    "text": "A flat charge on turnover replaces the minimum-income floor for anyone who joins. The rate is not published, so the sum cannot yet be done."
+   },
+   {
+    "who": "If you are weighing Antwerp against Dubai:",
+    "text": "Israel now offers a known tax bill plus duty-free entry for gems, against 5% customs in Dubai."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A result. No lots, carats, prices or signatures have been reported from the tender, and Israel's own tax rate has not been printed by anyone."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "What the report states, and what it does not",
+   "hi": 1,
+   "asof": "Hon, 13 October 2026, read from the saved 755,369-byte page",
+   "cols": [
+    "Item",
+    "As Hon states it",
+    "Printed figure"
+   ],
+   "rows": [
+    [
+     "De Beers tender, Ramat Gan",
+     "Goods on the table 14 to 15 October",
+     "Dates only"
+    ],
+    [
+     "Gap since the last Israeli sale",
+     "Nine years",
+     "Nine years"
+    ],
+    [
+     "Tax agreement",
+     "Signed with the Tax Authority, covering 2027 and 2028",
+     "No rate given"
+    ],
+    [
+     "Belgian comparator",
+     "2.1% of turnover as taxable income",
+     "2.1%"
+    ],
+    [
+     "Israel's own rate",
+     "“More than three times” below Belgium's",
+     "Not printed"
+    ],
+    [
+     "Customs on gems and jewellery",
+     "Free in Israel, 5% in Dubai",
+     "0% / 5%"
+    ],
+    [
+     "Tender result",
+     "Not reported",
+     "None"
+    ]
+   ],
+   "note": "Carat Capital has not divided 2.1% by three or by any other number to produce an Israeli rate. The source states a comparison and withholds the figure; a rate computed from “more than three times” would be a range this paper invented, not a number anyone published. The row reads Not printed for that reason.",
+   "plate": "CC/2026/289"
+  },
+  "sections": [
+   {
+    "h": "The tender has already run",
+    "p": [
+     {
+      "lead": "Two days, now past.",
+      "text": "Hon dated its report 13 October Israel time and placed the goods on the table from the following day until Thursday. That is 14 and 15 October."
+     },
+     {
+      "lead": "No result exists.",
+      "text": "Neither De Beers nor the exchange has published a lot count, a carat weight, an asking price or a sell-through. The report carries none of them either."
+     },
+     {
+      "lead": "Nine years is theirs.",
+      "text": "The gap since the last such sale in Israel is Hon's own count. Carat Capital has not matched it against a De Beers sight calendar."
+     }
+    ]
+   },
+   {
+    "h": "The tax deal has a date",
+    "p": [
+     {
+      "lead": "A floor is cancelled.",
+      "text": "A dealer who joins the arrangement pays a fixed percentage of turnover. The minimum-income floor, which forced a set reported income in thin years, goes for entrants."
+     },
+     {
+      "lead": "The rate is withheld.",
+      "text": "Hon prints Belgium's 2.1% of turnover and calls it more than three times Israel's figure. It never prints the Israeli number itself."
+     },
+     {
+      "lead": "Two years, not more.",
+      "text": "The agreement covers the 2027 and 2028 tax years. Nothing in the report says what happens after that or who is eligible to elect in."
+     }
+    ]
+   },
+   {
+    "h": "The competition is the point",
+    "p": [
+     {
+      "lead": "Duty is another lever.",
+      "text": "Gems and jewellery enter Israel free of customs duty against 5% in Dubai, and Hon describes foreign company registration as faster in Israel."
+     },
+     {
+      "lead": "Volume wins, margin loses.",
+      "text": "A flat charge on turnover favours a house that turns stock fast at a thin margin and penalises one that trades a small book wide."
+     },
+     {
+      "lead": "The test is unanswered.",
+      "text": "Whether buyers signed at the tender is what the two days were for. From outside, a sale that drew lookers reads the same as one that cleared."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Any day now",
+    "what": "A De Beers or exchange statement giving the tender's result. Nothing has been issued since the sale closed on 15 October."
+   },
+   {
+    "when": "Before 1 January 2027",
+    "what": "Publication of the Israeli flat rate. Until it exists, no dealer outside the arrangement can price the choice."
+   },
+   {
+    "when": "Ongoing",
+    "what": "Whether Antwerp or Dubai answers. Both have competed for the same dealer base through 2026."
+   }
+  ],
+  "depth": {
+   "reverse": "A second Israeli outlet, or the exchange's own statement. This rests on one Hebrew financial title. The tender dates are derived from the report's dateline rather than stated as calendar dates in the text, and if Hon published later than its JSON-LD timestamp says, the two days shift. A published Israeli rate would also change the reading entirely: a flat charge that lands near 0.7% of turnover is a different proposition from one near 0.2%, and nothing available tonight distinguishes them.",
+   "built": {
+    "title": "What a minimum-income floor does to a diamond book",
+    "text": "Israel has long taxed diamond dealers against a floor rather than purely against their accounts. The mechanism obliges a dealer to report at least a set level of income, calculated by formula, whatever the books say. In a strong year the floor is irrelevant because real profit clears it. In a weak year it becomes the whole tax bill, and it arrives in exactly the year a dealer can least afford it. That asymmetry is why the floor has been a grievance in Ramat Gan through a two-year downturn in which polished exports fell by a fifth. Replacing it with a flat percentage of turnover does two things at once. It makes the bill predictable, because turnover is known monthly and a percentage of it can be budgeted. And it moves the burden from profit to volume, which rewards a trading house that moves goods quickly and thin, and punishes a house that holds inventory and sells a few stones at a wide spread. Belgium made the same move years ago and settled at 2.1% of turnover as deemed taxable income, which is the comparator Hon reaches for. The Israeli number is the thing that decides whether this is a concession or a restructuring, and it has not been published."
+   },
+   "method": "One source, fetched directly in this run and saved as raw bytes before any figure was read: hon.co.il, 200, 755,369 bytes, newsroom/sources/2026-10-17/desk/hon_debeers.html. The publication date is the page's own JSON-LD datePublished, 2026-10-12T21:05:57+00:00, which is 13 October 00:05 Israel time; it is not a listing artefact. Figures were read only from the article's own body block, taken between the entry-content opening and the related-posts widget, so that no figure belonging to a neighbouring story could be matched. ARCHIVE, by entity and by period, hits opened and read, not counted: grep -ril 'Ramat Gan' website/*.html returns 6 hits; the five article pages among them are a-dubai-diamond-week-returns, a-dvash-takes-the-odc-chair, a-israel-exchange-loses-its-chief, a-israel-rough-down-thirty-five and a-one-carat-wakes-up, each opened and read, covering a Dubai event, a chairmanship, a resignation, Israel's H1 2026 trade figures and a polished index. None covers a De Beers tender in Israel. grep -ril 'Tax Authority' website/a-*.html returns 0 and grep -ril 'minimum income' returns 0; grep -rl '2.1%' returns 12 article pages, each checked for the word Belgium, none carrying both. DELIBERATELY NOT PRINTED, because this paper has already run them and they are not new: the H1 2026 Israeli trade figures carried on the same Hon page ($625.7m net polished exports, down 22.3%) are this paper's own of 23 August, and De Beers' $105 a carat and $1.313bn H1 rough revenue are this paper's own of 31 July. ALSO WITHHELD, as unreconciled rather than new: Hon gives De Beers' H1 underlying EBITDA as a $113m loss against $189m, and unit cost at $64 a carat from $87; this paper printed an underlying loss of $188 million and $64 a carat on 31 July, and the two accounts do not obviously describe the same measure. That discrepancy is routed to the standards desk rather than printed here.",
+   "prior": [
+    {
+     "date": "2026-08-23",
+     "slug": "israel-rough-down-thirty-five",
+     "claim": "Israel's net polished exports fell 22.3% to $625.7 million in the first half of 2026."
+    },
+    {
+     "date": "2026-07-31",
+     "slug": "de-beers-narrows-the-loss",
+     "claim": "De Beers' realised rough price fell 32% to $105 a carat and unit costs fell 26% to $64."
+    },
+    {
+     "date": "2026-07-27",
+     "slug": "israel-exchange-loses-its-chief",
+     "claim": "The Israel Diamond Exchange's chief resigned as exports hit a record low."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Hon (Avishai Ben Moshe), De Beers returns to the Ramat Gan Diamond Exchange after nine years",
+     "url": "https://www.hon.co.il/%D7%93%D7%94-%D7%91%D7%99%D7%A8%D7%A1-%D7%97%D7%95%D7%96%D7%A8%D7%AA-%D7%9C%D7%91%D7%95%D7%A8%D7%A1%D7%AA-%D7%94%D7%99%D7%94%D7%9C%D7%95%D7%9E%D7%99%D7%9D-%D7%91%D7%A8%D7%9E%D7%AA-%D7%92%D7%9F-%D7%90/",
+     "published": "2026-10-12"
+    },
+    {
+     "title": "Carat Capital, Israel's rough trade fell 35%, its polished 18%",
+     "url": "https://caratcapital.org/a-israel-rough-down-thirty-five.html",
+     "published": "2026-08-23"
+    },
+    {
+     "title": "Carat Capital, De Beers loses $188 million and points at a steady index",
+     "url": "https://caratcapital.org/a-de-beers-narrows-the-loss.html",
+     "published": "2026-07-31"
+    }
+   ]
+  },
+  "next": {
+   "slug": "eighty-six-forty-seven-lakh-in-sardarnagar"
+  }
+ },
+ "eighty-six-forty-seven-lakh-in-sardarnagar": {
+  "v": 3,
+  "kicker": "Retail & Technology",
+  "figures": {
+   "asof": "All rupee figures from Divya Bhaskar's report, read from the raw page saved as newsroom/sources/2026-10-17/desk/bhaskar_komal.html, 200, 420,527 bytes, JSON-LD datePublished 2026-10-18T05:30:00+05:30. The per-gram and per-kilo figures are Carat Capital's division of the complaint's own two line items. These are allegations at complaint stage; nobody has been convicted.",
+   "cells": [
+    {
+     "n": "₹86.47 lakh",
+     "label": "The complaint's total",
+     "q": "₹23.47 lakh gold plus ₹63 lakh silver",
+     "src": 1
+    },
+    {
+     "n": "₹15,646.67",
+     "label": "Paid per gram of gold",
+     "q": "on Carat Capital's division, purity unstated",
+     "src": 1
+    },
+    {
+     "n": "₹2,25,000",
+     "label": "Paid per kilo of silver",
+     "q": "on Carat Capital's division",
+     "src": 1
+    },
+    {
+     "n": "20+",
+     "label": "People police say dealt with the pair",
+     "q": "over seven months",
+     "src": 1
+    }
+   ]
+  },
+  "changed": {
+   "lead": "A complaint names a figure.",
+   "text": "Ahmedabad's crime branch has registered a ₹86.47 lakh case against the owners of Komal Jewellers in Sardarnagar. The complaint itemises 150 grams of gold and 28 kilos of silver, paid for and not delivered."
+  },
+  "means": [
+   {
+    "who": "If you buy gold outside the bill:",
+    "text": "The two line items here price gold at ₹15,646.67 a gram. That is above the full, undiscounted rate a Bhuj seller named six days earlier."
+   },
+   {
+    "who": "If you run a counter in Gujarat:",
+    "text": "This is the third alleged jewellery fraud in the state this paper has reported in a week, and the second in Ahmedabad."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A conviction, a charge sheet or an assay. No metal has been tested, no court has ruled, and the ₹100 crore aggregate is a police estimate given to a newspaper."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "The complaint, and what it divides into",
+   "hi": 2,
+   "asof": "Divya Bhaskar, 18 October 2026 IST. Divisions are Carat Capital's own",
+   "cols": [
+    "Item",
+    "Quantity",
+    "Amount paid",
+    "Unit price on our division"
+   ],
+   "rows": [
+    [
+     "Gold",
+     "150 grams",
+     "₹23.47 lakh",
+     "₹15,646.67 a gram"
+    ],
+    [
+     "Silver",
+     "28 kilos",
+     "₹63 lakh",
+     "₹2,25,000 a kilo"
+    ],
+    [
+     "Complaint total",
+     "-",
+     "₹86.47 lakh",
+     "-"
+    ],
+    [
+     "Case registered at",
+     "-",
+     "₹87 lakh",
+     "-"
+    ],
+    [
+     "Bhuj full rate, 11 October",
+     "1 kilo, 24 carat",
+     "₹1.40 crore",
+     "₹14,000 a gram"
+    ],
+    [
+     "Bhuj asking price, 11 October",
+     "1 kilo, 24 carat",
+     "₹1 crore",
+     "₹10,000 a gram"
+    ]
+   ],
+   "note": "Arithmetic printed so it can be checked. 23,47,000 / 150 = 15,646.67 a gram; multiplied by ten, ₹1,56,467 per ten grams. 63,00,000 / 28 = 2,25,000 a kilo. 23,47,000 + 63,00,000 = 86,47,000, matching the complaint's stated total exactly. Against Bhuj: 15,646.67 / 14,000 = 1.1176, so 11.8% above the full rate named there; 15,646.67 / 10,000 = 1.5647, so 56.5% above the asking price. The Bhuj quotes were for 24-carat metal and the Ahmedabad complaint states no fineness, so the comparison is of money paid, not of like metal.",
+   "plate": "CC/2026/290"
+  },
+  "sections": [
+   {
+    "h": "Two line items and a total",
+    "p": [
+     {
+      "lead": "The woman's figures.",
+      "text": "She told the crime branch she paid ₹23.47 lakh towards 150 grams of gold and ₹63 lakh towards 28 kilos of silver. Neither was delivered."
+     },
+     {
+      "lead": "They add up exactly.",
+      "text": "The two amounts sum to ₹86.47 lakh, the figure the complaint states. Police registered the case at a rounded ₹87 lakh."
+     },
+     {
+      "lead": "The pair are absent.",
+      "text": "Divya Bhaskar reports the father and son as having fled. No charge sheet has been filed and no court has heard the matter."
+     }
+    ]
+   },
+   {
+    "h": "The discount that was not one",
+    "p": [
+     {
+      "lead": "The pitch was Dubai.",
+      "text": "The pair told their community the gold came cheap out of Dubai. They offered a tola at ₹5,000 to ₹6,000 under market, and silver up to ₹10,000 less a kilo."
+     },
+     {
+      "lead": "The maths disagrees.",
+      "text": "Her gold works out at ₹15,646.67 a gram. A Bhuj agent this paper reported on 11 October called ₹14,000 a gram the full, undiscounted rate for 24-carat metal."
+     },
+     {
+      "lead": "Purity is the gap.",
+      "text": "Bhuj was quoted as 24 carat. The Ahmedabad complaint states no fineness, no hallmark and no date for either transaction, so the two are not like metal."
+     }
+    ]
+   },
+   {
+    "h": "The bigger number is softer",
+    "p": [
+     {
+      "lead": "Police estimate the rest.",
+      "text": "Officers put the combined value ordered over seven months at more than ₹100 crore. Individual dealings ran ₹50 lakh to ₹1 crore."
+     },
+     {
+      "lead": "It carries no document.",
+      "text": "That aggregate is a round figure given to a reporter. No charge sheet, seizure memo or itemised schedule is cited anywhere in the report."
+     },
+     {
+      "lead": "Most deliveries happened.",
+      "text": "Police describe metal changing hands for most of the seven months, with buyers reselling at a profit. The money disappeared on the final lot."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Next few weeks",
+    "what": "A charge sheet. It would replace the ₹100 crore estimate with an itemised total and name the number of complainants."
+   },
+   {
+    "when": "Ongoing",
+    "what": "Whether either man is arrested. Both are reported absconding and neither has answered the allegation."
+   },
+   {
+    "when": "Ongoing",
+    "what": "Whether any seized metal is assayed. No fineness has been established for anything described in this case."
+   }
+  ],
+  "depth": {
+   "reverse": "An assay and a charge sheet. Every figure here comes from one complainant's statement as a newspaper reports it, and a first information report records what a complainant says and nothing more. If the 150 grams were to include making charges, stones or a part-payment against a larger order, the per-gram figure collapses and the comparison with Bhuj goes with it. The report does not say, and this paper has not reached the complainant or the crime branch.",
+   "built": {
+    "title": "Why a fake-smuggling pitch needs a real delivery first",
+    "text": "The structure in this complaint is older than the metal. A seller offers goods below market on a premise the buyer cannot verify and would not want verified, usually that duty has been avoided. The illegality is the point: it explains the discount, it explains the absence of a bill, and it guarantees the buyer will not complain to anyone while the arrangement is working. The first several rounds are then delivered honestly, at or near the promised price, which is what the police account describes here across most of seven months. Those rounds are not the fraud, they are the cost of it. They convert a stranger into a repeat customer who tells others, which is how twenty people from one community end up dealing with the same two men. The loss arrives on the largest lot, after the buyer has scaled up on the strength of the earlier ones, and it arrives at a moment when the victim has the weakest possible footing for a complaint. What makes this particular case worth printing is that the arithmetic in the one itemised complaint does not support the premise at all. The woman paid more per gram than a different Gujarat seller called his full rate six days earlier, in this paper's own reporting. The discount was the story the buyers were told. It was not, on these two numbers, the deal they got."
+   },
+   "method": "One primary, fetched in this run and saved as raw bytes before any figure was read: divyabhaskar.co.in, 200, 420,527 bytes, newsroom/sources/2026-10-17/desk/bhaskar_komal.html. Date established from the page's own JSON-LD datePublished, 2026-10-18T05:30:00+05:30. Figures were read from the article body inside the single article block, not from the page as a whole. ARCHIVE, by entity: grep -ril 'Komal' website/*.html returns 0, grep -ril 'Komal Jewel' returns 0 and grep -ril 'Sardarnagar' returns 0. Those zeroes were validated against a positive control before being written up, because a grep that returns zero may be a wrong query rather than an absence: grep -ril 'Wadaj' website/*.html returns 5 hits, which is this paper's own Ahmedabad fraud story of 12 October, so the search term, the file set and the method all match this archive's schema. The 12 October story was opened and read: it concerns S.S. Ornaments in Wadaj and ₹87.81 lakh of gold sent out for stone setting, a different firm, a different locality and a different complainant. DIFFERENT ENTITY, not a repeat. The Bhuj comparison is drawn from this paper's own article of 11 October, opened and read in this run, which states that the agent 'had called ₹1.40 crore the full rate' and that 'the figure finally named was a round ₹1 crore a kilo'. Both of those sentences were quoted from the stored article record, not recalled.",
+   "prior": [
+    {
+     "date": "2026-10-12",
+     "slug": "eighty-seven-eighty-one-lakh-out-for-stone-setting",
+     "claim": "₹87.81 lakh of gold left a Wadaj workshop for stone setting and did not come back."
+    },
+    {
+     "date": "2026-10-11",
+     "slug": "one-crore-a-kilo-in-a-bhuj-back-room",
+     "claim": "A Bhuj agent asked ₹1 crore a kilo for 24-carat gold and called ₹1.40 crore the full rate."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Divya Bhaskar (Gujarati), Ahmedabad crime branch registers ₹87 lakh complaint against Komal Jewellers' owners",
+     "url": "https://www.divyabhaskar.co.in/local/gujarat/ahmedabad/news/jewelers-father-and-son-exchanged-gifts-of-20-people-from-the-community-after-giving-cheap-gold-and-silver-for-7-months-dbp-139403497.html",
+     "published": "2026-10-18"
+    },
+    {
+     "title": "Carat Capital, ₹1 crore a kilo: a Bhuj ring pitches Swiss gold",
+     "url": "https://caratcapital.org/a-one-crore-a-kilo-in-a-bhuj-back-room.html",
+     "published": "2026-10-11"
+    },
+    {
+     "title": "Carat Capital, ₹87.81 lakh of gold never returns from a Wadaj workshop",
+     "url": "https://caratcapital.org/a-eighty-seven-eighty-one-lakh-out-for-stone-setting.html",
+     "published": "2026-10-12"
+    }
+   ]
+  },
+  "next": {
+   "slug": "twenty-seven-one-million-in-luanda"
+  }
+ },
+ "twenty-seven-one-million-in-luanda": {
+  "v": 3,
+  "kicker": "Diamonds & Rough",
+  "figures": {
+   "asof": "Figures as given by Trans Atlantic Gem Sales and carried by Rapaport News on 15 October 2026, read in full from the raw feed saved as newsroom/sources/2026-10-17/desk/rapaport_feed.xml, 200, 48,713 bytes. The per-carat and per-lot averages are Carat Capital's division of the company's own totals.",
+   "cells": [
+    {
+     "n": "$27.1m",
+     "label": "Tender revenue",
+     "q": "30 September to 8 October, Luanda",
+     "src": 1
+    },
+    {
+     "n": "1,721 ct",
+     "label": "Carats sold",
+     "q": "53 lots from twelve mines",
+     "src": 1
+    },
+    {
+     "n": "$15,746.66",
+     "label": "Per carat on our division",
+     "q": "specials and colours, not run-of-mine",
+     "src": 1
+    },
+    {
+     "n": "94%",
+     "label": "Of lots sold",
+     "q": "39 manufacturers attended",
+     "src": 1
+    }
+   ]
+  },
+  "changed": {
+   "lead": "A specials tender cleared.",
+   "text": "TAGS sold 1,721 carats for $27.1 million in Luanda between 30 September and 8 October, with 94% of 53 lots finding buyers. That is $15,746.66 a carat on this paper's division."
+  },
+  "means": [
+   {
+    "who": "If you buy Angolan rough:",
+    "text": "This clearance is on special sizes and fancy colours. It says nothing about what the same channel gets for run-of-mine goods."
+   },
+   {
+    "who": "If you model rough prices:",
+    "text": "An average of $15,746.66 a carat is a parcel-mix figure, not a price index. Thirty-two carats a lot explains most of it."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A price direction. TAGS published a total and a clearance rate and made no comparison with its previous Angolan sale."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "The tender, and the averages inside it",
+   "hi": 3,
+   "asof": "TAGS via Rapaport News, 15 October 2026. Averages are Carat Capital's division",
+   "cols": [
+    "Measure",
+    "Figure",
+    "Source"
+   ],
+   "rows": [
+    [
+     "Revenue",
+     "$27.1 million",
+     "TAGS"
+    ],
+    [
+     "Carats sold",
+     "1,721",
+     "TAGS"
+    ],
+    [
+     "Lots offered",
+     "53",
+     "TAGS"
+    ],
+    [
+     "Mines represented",
+     "12",
+     "TAGS"
+    ],
+    [
+     "Manufacturers attending",
+     "39",
+     "TAGS"
+    ],
+    [
+     "Lots sold",
+     "94%",
+     "TAGS"
+    ],
+    [
+     "Average per carat",
+     "$15,746.66",
+     "Our division"
+    ],
+    [
+     "Average carats per lot",
+     "32.5",
+     "Our division"
+    ]
+   ],
+   "note": "Arithmetic printed so it can be checked. 27,100,000 / 1,721 = 15,746.66 a carat. 1,721 / 53 = 32.5 carats a lot. Both divisions use the company's own two published totals and introduce no outside figure. TAGS published neither average, and neither is a price index: a parcel average moves with the mix of goods offered, so a higher figure here than at a run-of-mine sale is a statement about what was on the table, not about the market.",
+   "plate": "CC/2026/291"
+  },
+  "sections": [
+   {
+    "h": "The sale and its shape",
+    "p": [
+     {
+      "lead": "Nine days in Luanda.",
+      "text": "The tender ran from 30 September to 8 October. TAGS gave the figures on Wednesday and Rapaport carried them the same day."
+     },
+     {
+      "lead": "Fifty-three lots, twelve mines.",
+      "text": "The offering drew 39 specialist manufacturers and included special-sized and fancy-coloured stones. The house calls it one of its widest ranges at the sale."
+     },
+     {
+      "lead": "Angola's state partner.",
+      "text": "TAGS markets Angolan production alongside the state trader Sodiam and credited that partnership in its statement. No Sodiam figure was given."
+     }
+    ]
+   },
+   {
+    "h": "The averages do the work",
+    "p": [
+     {
+      "lead": "Fifteen thousand a carat.",
+      "text": "On this paper's division, $27.1 million across 1,721 carats is $15,746.66 a carat. TAGS did not publish that figure."
+     },
+     {
+      "lead": "Thirty-two carats a lot.",
+      "text": "Fifty-three lots holding 1,721 carats averages 32.5 carats each. A tender built on parcels that size is a tender of named stones."
+     },
+     {
+      "lead": "Read it narrowly.",
+      "text": "Neither average is a price index. Both move with the mix of goods offered, and the mix here was specials and colours by the seller's own description."
+     }
+    ]
+   },
+   {
+    "h": "What the figures withhold",
+    "p": [
+     {
+      "lead": "No direction is given.",
+      "text": "The statement says nothing about whether prices rose or fell against the house's previous Angolan sale. Rapaport's item makes no comparison either."
+     },
+     {
+      "lead": "Clearance is attendance.",
+      "text": "Ninety-four percent of lots sold establishes that bidders came and bid. It does not establish what they paid relative to last time."
+     },
+     {
+      "lead": "The smalls are absent.",
+      "text": "Nothing here covers the run-of-mine segment that lab-grown competition has pressed hardest. That part of the Angolan book was not on this table."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Next TAGS tender",
+    "what": "Whether the house publishes a price direction alongside the total. It has not done so on either Angolan sale this year."
+   },
+   {
+    "when": "Ongoing",
+    "what": "A Sodiam figure for the same window. The state trader has published auction totals before and has not for this one."
+   },
+   {
+    "when": "Ongoing",
+    "what": "Whether run-of-mine Angolan goods reach a tender. Every published Luanda figure this year has been a large-stone sale."
+   }
+  ],
+  "depth": {
+   "reverse": "A carat-weight breakdown. The $15,746.66 average rests entirely on the mix, and a single exceptional stone inside 1,721 carats could move it a long way. TAGS published no size distribution, no top-lot price and no per-lot results, so the average cannot be decomposed. A seller's own release is also the only account of this sale available; no buyer has described the bidding and no independent party has confirmed the total.",
+   "built": {
+    "title": "Why a tender average is not a rough price",
+    "text": "Rough diamonds are not a commodity with a single price, and a tender average is one of the easiest numbers in this trade to misread. A tender is a parcel sale. The seller chooses what to put on the table, sorts it into lots, and the average that falls out afterwards is mostly a description of that choice. Put thirty-carat specials and fancy colours in front of 39 manufacturers and the average will run into five figures a carat. Put run-of-mine production from the same mines on the same table and it will read in the hundreds. Nothing about the market has changed between the two; the goods have. This is why clearance rate and average price have to be read together and why neither travels well on its own. A 94% clearance on specials tells you that the top of the market has buyers, which in a year when the bottom of it has been hollowed out by lab-grown competition is genuinely useful information. It does not tell you that rough has recovered, and a reader who carries $15,746.66 a carat forward as an Angolan rough price will be wrong by an order of magnitude the next time a run-of-mine parcel is sold. The figure this paper would most like, and which no tender house publishes, is the change in realised price on like goods between consecutive sales."
+   },
+   "method": "The item was read in full from Rapaport's own RSS feed, fetched in this run and saved as raw bytes: rapaport.com/feed/, 200, 48,713 bytes, newsroom/sources/2026-10-17/desk/rapaport_feed.xml. The article page itself refused an ordinary browser identity three times with HTTP 403 at 5,801 bytes, so the feed's content:encoded block is the text relied on; every figure printed here appears in that block. ARCHIVE, by entity and by period, hits opened and read rather than counted: grep -ril 'TAGS' website/*.html returns 11 hits and grep -ril 'Trans Atlantic' returns 2. The two that are TAGS the company, a-angolas-rough-clears and a-the-tender-ladder, were both opened and read in full. OURS 2026-07-30 covers a Luanda sale of goods above 10.8 carats held in JUNE 2026, reporting 95% sell-through and Sodiam's seventeenth auction at about $21.7 million from 6,586.89 carats; OURS 2026-08-02 covers the same June and July window across Dubai, Johannesburg and Angola. THIS ITEM covers 30 SEPTEMBER TO 8 OCTOBER 2026 and reports $27.1 million from 1,721 carats across 53 lots. SAME ENTITY, DIFFERENT REPORTING PERIOD, and no figure is shared between them. ADVANCED, not a repeat. NOT PRINTED, and routed to the standards desk instead: this paper's 30 July article attributes the $21.7 million to Sodiam's seventeenth auction while its 2 August article attributes the same $21.7 million to the TAGS Angolan sale, and those two sentences cannot both be right. No comparison with the June sale is drawn here for that reason.",
+   "prior": [
+    {
+     "date": "2026-07-30",
+     "slug": "angolas-rough-clears",
+     "claim": "TAGS cleared 95% of a June Luanda tender of goods above 10.8 carats."
+    },
+    {
+     "date": "2026-08-02",
+     "slug": "the-tender-ladder",
+     "claim": "TAGS sell-through ran 100% in Dubai, 95% in Angola and about 75% in Johannesburg across June and July."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Rapaport News, TAGS Tender Generates $27.1M in Revenue (full item read from the publisher's RSS feed)",
+     "url": "https://rapaport.com/news/tags-tender-generates-27-1m-in-revenue/",
+     "published": "2026-10-15"
+    },
+    {
+     "title": "Carat Capital, Ninety-five percent sold in Luanda, and Sodiam beats its book by 23%",
+     "url": "https://caratcapital.org/a-angolas-rough-clears.html",
+     "published": "2026-07-30"
+    },
+    {
+     "title": "Carat Capital, The tender ladder: 100% in Dubai, 75% in Johannesburg",
+     "url": "https://caratcapital.org/a-the-tender-ladder.html",
+     "published": "2026-08-02"
+    }
+   ]
+  },
+  "next": {
+   "slug": "silver-sheds-six-point-one-four"
+  }
+ },
+ "silver-sheds-six-point-one-four": {
+  "v": 3,
+  "kicker": "Gold & Metals",
+  "figures": {
+   "asof": "Carat Capital's press-time reading of the Kitco board at 22:01 EDT on 17 October 2026, raw bytes saved, 200, 197,364 bytes. All four figures are the bid, the convention this paper has carried since 31 August 2026. The board's own last tick is stamped 2026-10-16T17:00:00Z on every metal. Prior marks are this paper's own printed marks of 12 October, looked up with tools/prev-mark.py rather than derived.",
+   "cells": [
+    {
+     "n": "$56.866",
+     "label": "Silver",
+     "q": "down $3.718, or 6.1369%, on the 12 October mark",
+     "src": 1
+    },
+    {
+     "n": "$4,164.10",
+     "label": "Gold",
+     "q": "down $7.80, or 0.187%",
+     "src": 1
+    },
+    {
+     "n": "73.2265",
+     "label": "Gold-silver ratio",
+     "q": "from 68.8614, on our division",
+     "src": 1
+    },
+    {
+     "n": "$1,626.00",
+     "label": "Platinum",
+     "q": "down $67.00, or 3.9575%",
+     "src": 1
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Silver did all the moving.",
+   "text": "Against this paper's marks of 12 October, silver is down 6.1369% and gold down 0.187%. The ratio between them widened from 68.8614 to 73.2265."
+  },
+  "means": [
+   {
+    "who": "If you hedge a silver book:",
+    "text": "The $3.718 came off across five sessions, not one. The board has not opened since its 16 October tick."
+   },
+   {
+    "who": "If you price scrap on a ratio:",
+    "text": "Gold now buys 73.2265 ounces of silver against 68.8614 five sessions ago, on this paper's division of its own marks."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A close, a fix or a settlement. These are spot bids off a halted board, and two of the paper's reference indices returned no value at all."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Five sessions, measured against our own marks",
+   "hi": 1,
+   "asof": "Kitco bid, press-time re-read 22:01 EDT 17 October 2026. Prior marks are Carat Capital's own of 12 October",
+   "cols": [
+    "Metal",
+    "12 October mark",
+    "Press time",
+    "Change",
+    "Change %"
+   ],
+   "rows": [
+    [
+     "Gold",
+     "$4,171.90",
+     "$4,164.10",
+     "−$7.80",
+     "−0.187%"
+    ],
+    [
+     "Silver",
+     "$60.584",
+     "$56.866",
+     "−$3.718",
+     "−6.1369%"
+    ],
+    [
+     "Platinum",
+     "$1,693.00",
+     "$1,626.00",
+     "−$67.00",
+     "−3.9575%"
+    ],
+    [
+     "Palladium",
+     "$1,140.00",
+     "$1,096.00",
+     "−$44.00",
+     "−3.8596%"
+    ],
+    [
+     "Lab-grown 1ct",
+     "$665",
+     "$663",
+     "−$2",
+     "−0.3008%"
+    ],
+    [
+     "RAPI 1.00ct",
+     "3,903.60",
+     "unreachable",
+     "-",
+     "-"
+    ],
+    [
+     "Zimnisky rough",
+     "no prior mark",
+     "paywalled",
+     "-",
+     "-"
+    ]
+   ],
+   "note": "Every change is computed against Carat Capital's own printed mark of 12 October, looked up rather than reversed out of a change field, and the division is printed beside the sentence so it can be compared. Gold: 4,164.10 − 4,171.90 = −7.80; −7.80/4,171.90 = −0.187%. Silver: 56.866 − 60.584 = −3.718; −3.718/60.584 = −6.1369%. Platinum: 1,626.00 − 1,693.00 = −67.00; −67.00/1,693.00 = −3.9575%. Palladium: 1,096.00 − 1,140.00 = −44.00; −44.00/1,140.00 = −3.8596%. Ratio: 4,171.90/60.584 = 68.8614 and 4,164.10/56.866 = 73.2265, a widening of 4.3651 points, which is 4.3651/68.8614 = 6.339%. Kitco's own change fields read −5.70, −0.434, +6.00 and −18.00; those are its one-session numbers on its own prior close and are not the changes printed here, because the basis is different.",
+   "plate": "CC/2026/292"
+  },
+  "sections": [
+   {
+    "h": "The board is halted",
+    "p": [
+     {
+      "lead": "One timestamp, four metals.",
+      "text": "Every metal carries Kitco's originalTime of 2026-10-16T17:00:00Z, the venue's own last tick. The page is serving that tick, not a new one."
+     },
+     {
+      "lead": "A re-read confirmed it.",
+      "text": "A press-time fetch at 22:01 EDT returned the identical four bids and the identical timestamp. The halt is read off the page, not inferred from the weekend."
+     },
+     {
+      "lead": "Five sessions, not one.",
+      "text": "These changes run from this paper's own marks of 12 October, the last tape filed. No mark was taken between."
+     }
+    ]
+   },
+   {
+    "h": "One leg moved",
+    "p": [
+     {
+      "lead": "Silver gave up 6.1369%.",
+      "text": "The bid fell from $60.584 to $56.866, a loss of $3.718. Nothing in the saved board says why."
+     },
+     {
+      "lead": "Gold stood still.",
+      "text": "A move of $7.80 on $4,164.10 is 0.187%, which is narrower than the board's own quoted bid-ask spread on the metal."
+     },
+     {
+      "lead": "The ratio widened.",
+      "text": "Gold divided by silver went from 68.8614 to 73.2265, up 4.3651 points or 6.339% on this paper's own division of its own marks."
+     }
+    ]
+   },
+   {
+    "h": "Two indices gave nothing",
+    "p": [
+     {
+      "lead": "Rapaport refused three times.",
+      "text": "The one-carat index returned HTTP 403 to a tool request, a browser identity and an identifying header. It is carried as unreachable with no value."
+     },
+     {
+      "lead": "No prior is restated.",
+      "text": "The 12 October mark of 3,903.60 is not printed as today's level. An unverified price is carried as null in this paper, never forward."
+     },
+     {
+      "lead": "Zimnisky opened and withheld.",
+      "text": "The rough index page returned 200 at 133,273 bytes and publishes its level only inside a chart image. Status is paywalled, not unreachable."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Monday, 05:00 ET",
+    "what": "The first live tick after the halt. Every figure here is a Friday-evening last price carried through a closed weekend."
+   },
+   {
+    "when": "Monday",
+    "what": "Whether Rapaport's index answers. Three identities were refused tonight and the host served this paper cleanly on 12 October."
+   },
+   {
+    "when": "Ongoing",
+    "what": "Whether the ratio holds above 73. It has moved 6.339% in five sessions on silver's leg alone."
+   }
+  ],
+  "depth": {
+   "reverse": "A live session. Everything here is a halted board's last tick, and the first hour of Monday trade can erase a five-session move in one leg. A second page would also harden it: this reading rests on Kitco alone because the halt makes a two-page corroboration test close to meaningless, as a frozen quote will agree with anything near it. The prior marks are this paper's own, which means a fault in the 12 October tape would propagate into every change printed here.",
+   "built": {
+    "title": "What a five-session gap does to a change column",
+    "text": "This paper's change column normally answers one question: what happened since yesterday. Tonight it answers a different one, because no mark was taken between 12 and 17 October, and the column spans five sessions rather than one. That distinction is not cosmetic. A single-session change is a statement about a day's trading and can reasonably be attributed to the day's news. A five-session change is an accumulation, and attributing it to anything in particular requires the intervening closes, which this paper does not hold. So the figures are printed as what they are, differences between two marks five sessions apart, and no cause is offered for any of them. The second thing the gap does is make the venue's own change field useless for comparison. Kitco publishes a change against its own prior close, which is one session, and that is why its silver field reads minus 43.4 cents while this paper's reads minus $3.718. Neither is wrong. They measure different intervals, and a reader comparing them without knowing that would conclude one of the two sources was broken. The habit this house keeps, of looking the prior mark up in its own tape rather than reading a change field off the page, exists precisely so the interval is always the one the paper claims it is."
+   },
+   "method": "One page, fetched at press time in this run and saved as raw bytes before any figure was taken: kitco.com/price/precious-metals, 200, 197,364 bytes, newsroom/sources/2026-10-17/desk/kitco_press.html. Figures are read from the page's own embedded JSON payload, which gives a bid, ask, mid and originalTime per metal: gold bid 4164.1, silver 56.866, platinum 1626, palladium 1096, all stamped 2026-10-16T17:00:00Z. MARKET STATE READ OFF THE BOARD, not inferred from a calendar: the identical originalTime on all four metals, returned twice from two separate fetches ninety minutes apart, is the evidence for the halt, and no exchange holiday is claimed. Under the One-Price Rule the press-time reading was compared against newsroom/tape/2026-10-17.json as caratwire filed it at 21:47 EDT and all four bids match to the cent, so no write-back was required and the tape stands as filed; newsroom/tape/latest.json carries the same four values. Prior marks were looked up with tools/prev-mark.py, which names newsroom/tape/2026-10-12.json as the file it read, and are not reversed out of any change field. The lab-grown reference is CaratRadar's one-carat average at $663, taken from the 116,865-byte capture in this run's wire folder, whose own stated date is 18 October 2026, one day ahead of this machine's clock and printed as the source gave it. The RAPI and Zimnisky statuses are caratwire's three-knock and re-knock results from the same run.",
+   "prior": [
+    {
+     "date": "2026-10-12",
+     "slug": "two-holds-end-at-press-time",
+     "claim": "Gold marked at $4,171.90 and silver at $60.584 at press time on 12 October."
+    },
+    {
+     "date": "2026-07-14",
+     "slug": "silver-air-pocket",
+     "claim": "Silver fell through an air pocket in a single session while gold held its level."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Kitco precious metals board, press-time re-read 22:01 EDT (bid)",
+     "url": "https://www.kitco.com/price/precious-metals",
+     "published": "2026-10-17"
+    },
+    {
+     "title": "CaratRadar lab-grown diamond prices, one-carat average",
+     "url": "https://caratradar.com/diamond-prices/lab-grown-diamonds/",
+     "published": "2026-10-17"
+    },
+    {
+     "title": "Carat Capital, Two holds end at press time",
+     "url": "https://caratcapital.org/a-two-holds-end-at-press-time.html",
+     "published": "2026-10-12"
+    }
+   ]
+  },
+  "next": {
+   "slug": "patek-2499-leads-phillips-new-york"
+  }
+ },
+ "patek-2499-leads-phillips-new-york": {
+  "v": 3,
+  "kicker": "Watches",
+  "figures": {
+   "asof": "All figures as published by JCK on 16 October 2026, read from the raw page saved as newsroom/sources/2026-10-17/desk/jck_patek.html, 200, 110,659 bytes, JSON-LD datePublished 2026-10-16. Every estimate and every count is Phillips' own, pre-sale. The $6.3 million floor is Carat Capital's addition of seven published low estimates. No lot has sold.",
+   "cells": [
+    {
+     "n": "Over $3m",
+     "label": "Estimate, pink gold Patek Reference 2499",
+     "q": "second series, 18-carat",
+     "src": 1
+    },
+    {
+     "n": "8 of 349",
+     "label": "Second-series pink gold examples known",
+     "q": "Phillips' own counts, unverified here",
+     "src": 1
+    },
+    {
+     "n": "$6.3m",
+     "label": "Floor across seven named lots",
+     "q": "on our addition; three floors open-ended",
+     "src": 1
+    },
+    {
+     "n": "5-6 Dec",
+     "label": "The New York Watch Auction: XV",
+     "q": "Phillips' New York gallery",
+     "src": 1
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Phillips names its December leader.",
+   "text": "A second-series Patek Philippe Reference 2499 in pink gold leads The New York Watch Auction: XV on 5 and 6 December. Phillips estimates it above $3 million and says eight such examples are publicly known."
+  },
+  "means": [
+   {
+    "who": "If you collect perpetual chronographs:",
+    "text": "Phillips puts the second-series pink gold population at eight, against 349 examples of the reference in total. That is its count, not an independent census."
+   },
+   {
+    "who": "If you bid on independents:",
+    "text": "Three F.P. Journe lots carry floors of $600,000, $600,000 and above $500,000. One is described as the only known pink gold Pre-Souscription Resonance."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A result or a record. Phillips' claim to the highest-value US watch catalogue is a pre-sale claim about its own consignments."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Seven named lots and their published floors",
+   "hi": 1,
+   "asof": "Phillips estimates as carried by JCK, 16 October 2026",
+   "cols": [
+    "Lot",
+    "Estimate",
+    "Floor used"
+   ],
+   "rows": [
+    [
+     "Patek Philippe Reference 2499, second series, pink gold",
+     "More than $3,000,000",
+     "$3,000,000"
+    ],
+    [
+     "F.P. Journe Tourbillon Souverain, second generation",
+     "$600,000 to $1,200,000",
+     "$600,000"
+    ],
+    [
+     "F.P. Journe Pre-Souscription Chronometre a Resonance, pink gold",
+     "$600,000 to $1,200,000",
+     "$600,000"
+    ],
+    [
+     "F.P. Journe Octa Reserve de Marche prototype, one of three",
+     "More than $500,000",
+     "$500,000"
+    ],
+    [
+     "Cartier Model A Mystery Clock, ex-King Farouk I",
+     "More than $500,000",
+     "$500,000"
+    ],
+    [
+     "Akrivia AK-02 Tourbillon, unique",
+     "$500,000 to $1,000,000",
+     "$500,000"
+    ],
+    [
+     "Patek Philippe Reference 5971, 42 baguette emeralds",
+     "$600,000 to $1,200,000",
+     "$600,000"
+    ],
+    [
+     "Total floor",
+     "-",
+     "$6,300,000"
+    ]
+   ],
+   "note": "Addition printed so it can be checked: 3,000,000 + 600,000 + 600,000 + 500,000 + 500,000 + 500,000 + 600,000 = 6,300,000. Three of the seven estimates are open-ended, given as more than a figure, so the true floor is above $6.3 million by an unknown amount. Phillips has not published a total lot count for the sale, so this figure is a floor on seven lots and not an indication of the sale's size. Separately, 8 divided by 349 is 2.29%, which is the share of all Reference 2499s made that Phillips says are publicly known second-series examples in pink gold.",
+   "plate": "CC/2026/293"
+  },
+  "sections": [
+   {
+    "h": "The leader and its population",
+    "p": [
+     {
+      "lead": "One reference, two counts.",
+      "text": "Phillips says 349 examples of the Reference 2499 were made over nearly 35 years and that eight second-series examples in pink gold are publicly known."
+     },
+     {
+      "lead": "Both are the house's.",
+      "text": "Carat Capital has not matched either count against a registry or a maker's record. They are repeated here as Phillips' statements about its own leading lot."
+     },
+     {
+      "lead": "The estimate is open.",
+      "text": "The watch is given as more than $3 million with no upper figure. An open-ended estimate sets a floor and declines to set a ceiling."
+     }
+    ]
+   },
+   {
+    "h": "Independents fill the middle",
+    "p": [
+     {
+      "lead": "Journe takes three slots.",
+      "text": "A second-generation Tourbillon Souverain and a pink gold Pre-Souscription Resonance each carry $600,000 to $1.2 million. An Octa Reserve de Marche prototype is above $500,000."
+     },
+     {
+      "lead": "Akrivia joins them.",
+      "text": "A unique AK-02 Tourbillon carries $500,000 to $1 million, which puts a contemporary independent in the same bracket as the vintage Patek's supporting lots."
+     },
+     {
+      "lead": "A gem-set Patek follows.",
+      "text": "Reference 5971 with 42 baguette-cut emeralds on the bezel and seven emerald hour markers is estimated at $600,000 to $1.2 million."
+     }
+    ]
+   },
+   {
+    "h": "Two lots are not wristwatches",
+    "p": [
+     {
+      "lead": "Farouk's clock returns.",
+      "text": "A Cartier Model A Mystery Clock commissioned by King Farouk I in 1936 and delivered the following year is expected above $500,000."
+     },
+     {
+      "lead": "Seinfeld's Daytona too.",
+      "text": "The Vic Elford Rolex Daytona from Jerry Seinfeld's collection was announced earlier and carries no published estimate in this report."
+     },
+     {
+      "lead": "A charity section runs.",
+      "text": "The third TimeForArt edition sits inside the sale with the Swiss Institute taking all proceeds, including the house's donated buyer's premium."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Before 5 December",
+    "what": "A full catalogue with a lot count. Seven lots are named and the sale's size is not published."
+   },
+   {
+    "when": "5-6 December",
+    "what": "Whether the Reference 2499 clears $3 million. The estimate is a floor with no stated ceiling."
+   },
+   {
+    "when": "5-6 December",
+    "what": "Whether the sale total supports Phillips' pre-sale claim to the highest-value US watch auction."
+   }
+  ],
+  "depth": {
+   "reverse": "The catalogue itself. Everything here comes from one trade report of a house's own pre-sale announcement, and no lot has sold. Phillips' two population counts for the Reference 2499 are the softest claims in the piece: a count of publicly known examples is by construction a count of what the counter knows, and a ninth pink gold second series could surface in the sale room. The reporting outlet also discloses that its first draft was produced with AI assistance before staff review, which is a reason to hold each figure to the catalogue when it appears.",
+   "built": {
+    "title": "Why an open-ended estimate is a different instrument",
+    "text": "Most auction estimates come as a range, a low and a high, and the pair does two jobs at once. The low is a signal to bidders about where the reserve sits, because a reserve is conventionally at or below it. The high is a signal about where the house expects competition to stop. When a house publishes an estimate as more than a figure, it is deliberately doing only the first job. It establishes a floor, usually to reassure a consignor and to filter the room, and it declines to guess at a ceiling because it does not want the published high to become one. Three of the seven named lots in this catalogue are presented that way: the Patek at more than $3 million, the Journe prototype and the Cartier clock each at more than $500,000. For a reader trying to size the sale, the practical consequence is that no total can be built from these numbers. A sum of the published lows is a hard floor, which is why this paper prints $6.3 million and calls it exactly that. A sum of the highs cannot be built at all, because three of them do not exist. That asymmetry is not a reporting gap; it is the house's choice, and it is worth noticing which lots it applies to. Here it applies to the leader and to the two most difficult-to-comparable objects in the sale, a prototype and a royal commission, which are precisely the lots with the thinnest comparable record."
+   },
+   "method": "One source, fetched in this run and saved as raw bytes before any figure was read: jckonline.com, 200, 110,659 bytes, newsroom/sources/2026-10-17/desk/jck_patek.html. Date established from the page's own JSON-LD datePublished, 2026-10-16, which matches the byline date in the body. Figures were read from the article's own paragraph run and the extraction was stopped before the SEE MORE recirculation block, so no figure belonging to a neighbouring story could be matched; the adjacent teaser on that page carries no figures in any case. JCK's own page states that its News Desk used AI to produce the first draft and that the story was reviewed by a named staff writer; that disclosure is printed in the article above rather than left in this note. ARCHIVE, by entity and by period, hits opened and read: grep -ril '2499' website/*.html returns exactly 1 hit, a-phillips-235-million-spring, which was opened. OURS 2026-07-09 covers PHILLIPS' SPRING 2026 SEASON and lists, among its comparators, a Reference 2499 sold in HONG KONG at $10.3 million, a different physical watch in a different metal that has already sold. THIS ITEM covers a NOT-YET-SOLD second-series PINK GOLD Reference 2499 catalogued for a NEW YORK sale on 5 and 6 DECEMBER 2026. Same reference number, different object, different market, different period. NEW. grep -ril 'Akrivia' returns 0 and grep -ril 'Farouk' returns 0, both validated against the positive control grep -ril 'Phillips', which returns 39.",
+   "prior": [
+    {
+     "date": "2026-07-09",
+     "slug": "phillips-235-million-spring",
+     "claim": "Phillips sold $235 million of watches across the spring 2026 season, including a Reference 2499 at $10.3 million in Hong Kong."
+    },
+    {
+     "date": "2026-10-09",
+     "slug": "five-watches-and-no-reserve",
+     "claim": "Five watches forfeited in an HMRC payroll-fraud investigation go to a no-reserve Wilsons sale on 29 and 30 October."
+    }
+   ],
+   "sources": [
+    {
+     "title": "JCK, Rare $3M Patek Philippe to Lead Potential Record-Value U.S. Watch Sale",
+     "url": "https://www.jckonline.com/editorial-article/patek-record-watch-sale/",
+     "published": "2026-10-16"
+    },
+    {
+     "title": "Carat Capital, $235 million in a season: Phillips just rewrote the watch-auction record book",
+     "url": "https://caratcapital.org/a-phillips-235-million-spring.html",
+     "published": "2026-07-09"
+    }
+   ]
+  },
+  "next": {
+   "slug": "three-hundred-thousand-tops-sothebys-milan"
+  }
+ },
+ "three-hundred-thousand-tops-sothebys-milan": {
+  "v": 3,
+  "kicker": "Auctions",
+  "figures": {
+   "asof": "Estimates as published by Sotheby's and carried by Rapaport News on 15 October 2026, read in full from the raw feed saved as newsroom/sources/2026-10-17/desk/rapaport_feed.xml, 200, 48,713 bytes. Dollar conversions are Rapaport's own at 1.11175 to the euro. The per-carat figure is Carat Capital's division. Nothing has sold.",
+   "cells": [
+    {
+     "n": "€300,000",
+     "label": "High estimate, the lead necklace",
+     "q": "$333,524 at Rapaport's rate",
+     "src": 1
+    },
+    {
+     "n": "90 ct",
+     "label": "Stone in the lead lot",
+     "q": "35 ct sapphire, about 55 ct diamond",
+     "src": 1
+    },
+    {
+     "n": "€3,333.33",
+     "label": "Per carat at the high estimate",
+     "q": "on our division, blended",
+     "src": 1
+    },
+    {
+     "n": "300+",
+     "label": "Lots in the sale",
+     "q": "Milan, 28 October",
+     "src": 1
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Milan names its lead lot.",
+   "text": "A 1965 sapphire and diamond necklace of intertwined ribbons tops Sotheby's Fine Jewelry and Watches sale on 28 October at a high estimate of €300,000. The sale runs to more than 300 lots."
+  },
+  "means": [
+   {
+    "who": "If you buy signed period jewellery:",
+    "text": "Four of the top five lots share a €100,000 floor. The distance between the leader and the field is narrower than the top estimate suggests."
+   },
+   {
+    "who": "If you value by the carat:",
+    "text": "Ninety carats of stone against €300,000 is €3,333.33 a carat blended, before anything is attributed to design, age or signature."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A result. No reserve, total or sell-through exists until 28 October, and five estimates are the whole of what is public."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "The top five, as the house has priced them",
+   "hi": 1,
+   "asof": "Sotheby's estimates via Rapaport News, 15 October 2026. Dollar figures are Rapaport's conversions",
+   "cols": [
+    "Lot",
+    "Estimate (EUR)",
+    "Estimate (USD)"
+   ],
+   "rows": [
+    [
+     "Sapphire and diamond necklace, 1965, intertwined ribbons",
+     "up to 300,000",
+     "up to 333,524"
+    ],
+    [
+     "Necklace convertible to a hair accessory",
+     "100,000 to 200,000",
+     "111,175 to 222,349"
+    ],
+    [
+     "Ring, 9.09-carat brilliant-cut diamond",
+     "100,000 to 150,000",
+     "111,175 to 166,748"
+    ],
+    [
+     "Ring, 15.08-carat oval Burmese sapphire",
+     "100,000 to 150,000",
+     "111,175 to 166,748"
+    ],
+    [
+     "Lucio Fontana cuff, white lacquer on silver",
+     "100,000 to 150,000",
+     "111,175 to 166,748"
+    ]
+   ],
+   "note": "Arithmetic printed so it can be checked. The lead lot holds 35 carats of oval sapphires and an estimated 55 carats of brilliant-cut diamonds, so 300,000 / 90 = 3,333.33 euros a carat at the high estimate, blended across two materials and before any value is attributed to the mount, the date or the signature. Rapaport's conversions imply a rate of 333,524 / 300,000 = 1.11175 dollars to the euro, and the same rate reproduces 111,175, 222,349 and 166,748 from 100,000, 200,000 and 150,000 exactly, so one rate is used throughout its item. The second lot's component weights, about 4.10 and 4.20 carats at the front with further stones between 2 and 2.90 carats and two pear shapes of about 1.20 carats, do not sum to a published total and no per-carat figure is given for it.",
+   "plate": "CC/2026/294"
+  },
+  "sections": [
+   {
+    "h": "Ninety carats, one ceiling",
+    "p": [
+     {
+      "lead": "The necklace is dated.",
+      "text": "Sotheby's gives the piece as 1965 and describes it as intertwined ribbons. It holds 35 carats of oval sapphires and an estimated 55 carats of brilliant-cut diamonds."
+     },
+     {
+      "lead": "A low blended rate.",
+      "text": "On this paper's division, €300,000 across 90 carats is €3,333.33 a carat. That is a design and signature price, not a gemstone price."
+     },
+     {
+      "lead": "Diamond weight is estimated.",
+      "text": "Sotheby's gives the sapphires at 35 carats and the diamonds as approximately 55, so the denominator in that division is partly the house's estimate."
+     }
+    ]
+   },
+   {
+    "h": "The field sits at one floor",
+    "p": [
+     {
+      "lead": "Four share €100,000.",
+      "text": "A convertible necklace, a 9.09-carat diamond ring, a 15.08-carat Burmese sapphire ring and a Lucio Fontana cuff all start at the same figure."
+     },
+     {
+      "lead": "Two ceilings, not four.",
+      "text": "The convertible necklace reaches €200,000 and the other three reach €150,000. The spread across the whole top five is €300,000 to €100,000."
+     },
+     {
+      "lead": "Artist and origin collide.",
+      "text": "A pierced white-lacquer Fontana cuff carries the same floor as an oval Burmese sapphire of 15.08 carats. One is priced on a name, the other on a stone."
+     }
+    ]
+   },
+   {
+    "h": "What has not been published",
+    "p": [
+     {
+      "lead": "No reserve exists publicly.",
+      "text": "The house has given five estimates and a lot count above 300. No reserve, no total and no sell-through will exist before 28 October."
+     },
+     {
+      "lead": "Signatures without lots.",
+      "text": "Cartier, Bulgari and David Webb are named among the designers represented. No individual lot is attributed to any of them in this report."
+     },
+     {
+      "lead": "Lot two lacks arithmetic.",
+      "text": "Its stone weights are given as approximations in parts and never totalled, so no per-carat figure can be built from them."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Before 28 October",
+    "what": "The full catalogue. Five lots are priced publicly against a sale of more than 300."
+   },
+   {
+    "when": "28 October",
+    "what": "Whether the leader clears €300,000. The figure is a ceiling, not a reserve."
+   },
+   {
+    "when": "29 October",
+    "what": "Bonhams Paris the next day, where an 81.17-carat Paraiba leads at a €80,000 ceiling. Two Continental sales in two days."
+   }
+  ],
+  "depth": {
+   "reverse": "The catalogue. This is one trade report of a pre-sale announcement, and the carat weights behind the €3,333.33 figure include an approximation the house itself flagged. If the diamond total is materially below 55 carats the blended rate rises, and a buyer paying for a 1965 Italian design would not price it per carat in any case. No lot has sold and no reserve is public.",
+   "built": {
+    "title": "Why a per-carat rate on period jewellery is a floor test",
+    "text": "Dividing an estimate by the carats inside a piece is a crude instrument and it is useful for exactly one thing: telling you whether a house is pricing the stones or pricing the object. A 1965 necklace holding 35 carats of sapphire and about 55 carats of diamond, estimated to €300,000, works out at €3,333.33 a carat blended. Sapphire and diamond of auction quality can each fetch multiples of that on their own, which means the estimate is not built up from the stones at all. It is built on what the design, the date and the maker are expected to fetch, with the gem content effectively acting as a floor under the lot. That is the ordinary arrangement in a mid-market period sale and it explains the shape of the rest of this catalogue, where a Lucio Fontana cuff in lacquer and silver sits at the same €100,000 floor as a 15.08-carat Burmese sapphire. One lot is priced on an artist's name and the other on an origin, and the house has decided they meet at the same number. The reading a specialist takes from that is about the room rather than the goods: Milan draws buyers who will pay for Italian twentieth-century design, and a sale assembled for that room prices its gemstones conservatively because the stones are not what the competition will be about."
+   },
+   "method": "The item was read in full from Rapaport's own RSS feed, fetched in this run and saved as raw bytes: rapaport.com/feed/, 200, 48,713 bytes, newsroom/sources/2026-10-17/desk/rapaport_feed.xml. The publisher's article page refused an ordinary browser identity with HTTP 403 at 5,919 bytes, so the feed's content:encoded block is the text relied on and every figure printed here appears inside it. Date established from the feed item's own pubDate, Thu, 15 Oct 2026 06:42:54 +0000. ARCHIVE, by entity: grep -ril 'Milan' website/*.html returns 8 hits; each was tested for the string Sotheby and only two carry both, watches.html and the-record.html, which are a desk index and the corrections record rather than articles. The Milan passage in watches.html was opened and read and concerns a Patek Philippe Gondolo exhibition, not an auction. grep -ril 'Lucio Fontana' returns 0, validated against the positive control grep -ril 'Sotheby', which returns a large hit set on this archive. NEW. ONE FIGURE DELIBERATELY NOT RECOMPUTED: Rapaport describes the Bonhams Chaumet sapphire in a separate item as 13.70 carats where this paper's own article of 10 October gives 12.5 carats from the Bonhams catalogue; that discrepancy concerns a story already published and is routed to the standards desk rather than resolved here.",
+   "prior": [
+    {
+     "date": "2026-10-10",
+     "slug": "eighty-one-carats-of-paraiba-in-paris",
+     "claim": "An 81.17-carat Paraiba tourmaline leads Bonhams Paris on 29 October at €60,000 to €80,000."
+    },
+    {
+     "date": "2026-09-11",
+     "slug": "bulgari-sapphire-nine-five-million",
+     "claim": "A Bulgari sapphire took $9.5 million at a Hong Kong jewellery sale."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Rapaport News, Sapphire and Diamond Necklace to Star in Sotheby's Italy Auction (full item read from the publisher's RSS feed)",
+     "url": "https://rapaport.com/news/sapphire-and-diamond-necklace-to-star-at-sothebys-italy-auction/",
+     "published": "2026-10-15"
+    },
+    {
+     "title": "Carat Capital, 81.17-carat Paraiba leads Bonhams Paris on 29 October",
+     "url": "https://caratcapital.org/a-eighty-one-carats-of-paraiba-in-paris.html",
+     "published": "2026-10-10"
+    }
+   ]
+  },
+  "next": {
+   "slug": "lvmh-jewellery-up-eight-in-the-quarter"
+  }
+ },
+ "lvmh-jewellery-up-eight-in-the-quarter": {
+  "v": 3,
+  "kicker": "Retail & Technology",
+  "figures": {
+   "asof": "LVMH's third-quarter and nine-month figures as reported by Rapaport News on 13 October 2026, read in full from the raw feed saved as newsroom/sources/2026-10-17/desk/rapaport_feed.xml, 200, 48,713 bytes. Dollar conversions are Rapaport's. The share-of-group and quarter-from-nine-months figures are Carat Capital's arithmetic on the company's own published totals.",
+   "cells": [
+    {
+     "n": "€2.5bn",
+     "label": "Jewellery and watches, Q3",
+     "q": "up 8% year on year",
+     "src": 1
+    },
+    {
+     "n": "€7.73bn",
+     "label": "The division, nine months",
+     "q": "up 4%",
+     "src": 1
+    },
+    {
+     "n": "13.5%",
+     "label": "The division's share of group revenue",
+     "q": "same in Q3 and nine months, on our division",
+     "src": 1
+    },
+    {
+     "n": "−1.6%",
+     "label": "Group revenue, nine months",
+     "q": "€57.15bn against the division's +4%",
+     "src": 1
+    }
+   ]
+  },
+  "changed": {
+   "lead": "The division outgrew the group.",
+   "text": "LVMH's jewellery and watches took €2.5 billion in the three months to 30 September, up 8%, while group revenue rose 1% to €18.5 billion. Over nine months the group fell 1.6%."
+  },
+  "means": [
+   {
+    "who": "If you supply Tiffany or Bulgari:",
+    "text": "The division is the only segment LVMH names as improving, and it is 13.5% of group revenue in both reported periods on this paper's division."
+   },
+   {
+    "who": "If you read China exposure:",
+    "text": "LVMH attributes the quarter's softness to China and names the United States, Europe and Japan as improving. No country figures are given."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A like-for-like read against the half year. The report carried here does not say whether the 8% is organic or reported, and the 9% printed in July was organic."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "The division against the group it sits in",
+   "hi": 1,
+   "asof": "LVMH figures via Rapaport News, 13 October 2026. Shares and the quarterly subtraction are Carat Capital's",
+   "cols": [
+    "Measure",
+    "Q3 2026",
+    "Nine months 2026"
+   ],
+   "rows": [
+    [
+     "Jewellery and watches",
+     "€2.5bn",
+     "€7.73bn"
+    ],
+    [
+     "Growth, as reported",
+     "+8%",
+     "+4%"
+    ],
+    [
+     "Group revenue",
+     "€18.5bn",
+     "€57.15bn"
+    ],
+    [
+     "Group growth",
+     "+1%",
+     "−1.6%"
+    ],
+    [
+     "Division share of group",
+     "13.5%",
+     "13.5%"
+    ],
+    [
+     "In dollars, at Rapaport's rate",
+     "$2.79bn",
+     "$8.64bn"
+    ]
+   ],
+   "note": "Arithmetic printed so it can be checked. 2.5 / 18.5 = 13.5% and 7.73 / 57.15 = 13.5%, so the division's share of the group is the same to one decimal in both periods. The quarterly figure ties out against this paper's own reporting of the half year: 7.73 − 5.23 = 2.50, matching the €2.5 billion the company reports for the three months, where €5.23 billion is the first-half divisional figure this paper printed on 29 July 2026. Rapaport's conversions imply 2.79 / 2.5 = 1.116 and 8.64 / 7.73 = 1.1177 dollars to the euro, which are not identical, so the dollar figures are carried as that publication gave them and no single rate is asserted.",
+   "plate": "CC/2026/295"
+  },
+  "sections": [
+   {
+    "h": "Eight against one",
+    "p": [
+     {
+      "lead": "The quarter's two numbers.",
+      "text": "Jewellery and watches took €2.5 billion in the three months to 30 September, up 8%. Group revenue was €18.5 billion, up 1%."
+     },
+     {
+      "lead": "Nine months diverge further.",
+      "text": "The division is up 4% at €7.73 billion while the group is down 1.6% at €57.15 billion. One line is growing and the whole is not."
+     },
+     {
+      "lead": "Share stayed put.",
+      "text": "On this paper's division the segment is 13.5% of group revenue in the quarter and 13.5% across nine months. Growing faster has not yet changed its weight."
+     }
+    ]
+   },
+   {
+    "h": "The figures tie out",
+    "p": [
+     {
+      "lead": "Subtraction confirms it.",
+      "text": "Nine months at €7.73 billion less the €5.23 billion first half this paper printed in July leaves exactly €2.5 billion, matching the reported quarter."
+     },
+     {
+      "lead": "The pattern repeats.",
+      "text": "At the half year the division grew about 9% organically while group revenue fell 3%. The third quarter repeats that shape at a smaller gap."
+     },
+     {
+      "lead": "One label is missing.",
+      "text": "The report does not state whether this quarter's 8% is organic or reported growth. The 9% printed in July was explicitly organic."
+     }
+    ]
+   },
+   {
+    "h": "What the company credits",
+    "p": [
+     {
+      "lead": "Tiffany leads the list.",
+      "text": "LVMH names the HardWear, Knot and Sixteen Stone lines and a continuing store-renovation programme. The Blue Book 2026 Hidden Garden collection moved from New York to Venice."
+     },
+     {
+      "lead": "Bulgari claims a record.",
+      "text": "The group says its Eclettica high jewellery and prestige watch line generated record revenue. No figure is attached to that claim anywhere in the report."
+     },
+     {
+      "lead": "China is the drag.",
+      "text": "Softer activity in China is named as the limit on organic growth, against improvement in the United States, Europe and Japan. No country revenue is published."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Late January 2027",
+    "what": "LVMH's full-year results, where the organic and reported splits for the division are published together."
+   },
+   {
+    "when": "Ongoing",
+    "what": "Whether the division's 13.5% share rises. It has grown faster than the group for two reported periods without moving."
+   },
+   {
+    "when": "Ongoing",
+    "what": "A figure behind Bulgari's record claim. The group has named a record and published no number for the line."
+   }
+  ],
+  "depth": {
+   "reverse": "LVMH's own release. Every figure here is taken from one trade report of a company announcement, and the single most important qualifier, whether the 8% is organic or reported, is absent from that report. If the quarter's growth is reported rather than organic, it is not comparable with the 9% this paper printed in July, and the two-period narrative in this article weakens. The group's own document settles it and has not been read here.",
+   "built": {
+    "title": "Organic and reported, and why the gap matters at LVMH",
+    "text": "Luxury groups publish two growth rates and the difference between them is rarely small. Reported growth is what the accounts show, including the effect of currency movements and of businesses bought or sold during the period. Organic growth strips both out and tries to say what the existing business did at constant exchange rates. For a group that sells roughly half its goods outside the euro and reports in euros, the gap between the two can run several points in either direction in a single quarter, which is enough to turn a decline into a rise or the reverse. LVMH ordinarily publishes both for the group and for each division, and this paper's July article on the half year was careful to attach the word organic to the 9% it printed for jewellery and watches. The report relied on tonight does not carry that label for the 8%, and this paper will not supply it. The practical consequence is narrow but real. The claim that the division outgrew the group eight times over in the quarter holds either way, because both figures come from the same report on the same basis. The claim that growth slowed from 9% to 8% does not hold, because those two numbers may be measuring different things, and that is why this article does not make it."
+   },
+   "method": "The item was read in full from Rapaport's own RSS feed, fetched in this run and saved as raw bytes: rapaport.com/feed/, 200, 48,713 bytes, newsroom/sources/2026-10-17/desk/rapaport_feed.xml. The publisher's article page refused a browser identity with HTTP 403 at 5,813 bytes, so the feed's content:encoded block is the text relied on; every figure printed here appears inside it. Date established from the feed item's own pubDate, Tue, 13 Oct 2026 10:25:41 +0000. ARCHIVE, by entity and by period, hits opened and read: grep -ril 'LVMH' website/*.html returns 12 hits, of which 9 are article pages; the one covering the company's own divisional results, a-tiffany-carries-lvmh, was opened and read. OURS 2026-07-29 covers the FIRST HALF of 2026, giving €5.23 billion in divisional sales up about 9% organically, group revenue down 3% to €38.6 billion and recurring operating profit of €831 million. THIS ITEM covers the THIRD QUARTER and the NINE MONTHS to 30 September 2026. SAME ENTITY, DIFFERENT REPORTING PERIOD, and the half-year figure is reused here only as the subtrahend in a published-to-published check, which is confirmation the right company has been matched rather than evidence of a repeat. ADVANCED, not a repeat. The other eight LVMH hits were opened and cover Kering, Hermes, Swiss export data, Fossil, Boucheron, Joopiter, Bain's luxury survey and US store openings, none of them LVMH's own quarterly results.",
+   "prior": [
+    {
+     "date": "2026-07-29",
+     "slug": "tiffany-carries-lvmh",
+     "claim": "LVMH's watches and jewellery took €5.23 billion in the first half, up about 9% organically, while group revenue fell 3%."
+    },
+    {
+     "date": "2026-08-02",
+     "slug": "jewellery-tops-a-flat-market",
+     "claim": "Bain put jewellery at the top of an otherwise flat luxury market."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Rapaport News, Revenue for LVMH's Jewelry Segment Improves (full item read from the publisher's RSS feed)",
+     "url": "https://rapaport.com/news/revenue-for-lvmhs-jewelry-segment-improves/",
+     "published": "2026-10-13"
+    },
+    {
+     "title": "Carat Capital, Tiffany and Bulgari carry LVMH as the group slips 3%",
+     "url": "https://caratcapital.org/a-tiffany-carries-lvmh.html",
+     "published": "2026-07-29"
+    }
+   ]
+  },
+  "next": {
+   "slug": "de-beers-tenders-in-ramat-gan"
   }
  }
 }

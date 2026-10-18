@@ -1,40 +1,40 @@
 {
- "date_line": "Monday, October 12, 2026 | Vol. I - No. 088",
- "edition": "Vol. I - No. 088",
+ "date_line": "Saturday, October 17, 2026 | Vol. I - No. 089",
+ "edition": "Vol. I - No. 089",
  "items": [
   {
-   "slug": "eighty-seven-eighty-one-lakh-out-for-stone-setting",
+   "slug": "de-beers-tenders-in-ramat-gan",
+   "desk": "Diamonds & Rough",
+   "title": "De Beers tenders rough in Ramat Gan after nine years"
+  },
+  {
+   "slug": "eighty-six-forty-seven-lakh-in-sardarnagar",
    "desk": "Retail & Technology",
-   "title": "₹87.81 lakh of gold never returns from a Wadaj workshop"
+   "title": "₹86.47 lakh of gold and silver never reach a Sardarnagar buyer"
   },
   {
-   "slug": "nine-point-five-billion-passes-china",
+   "slug": "silver-sheds-six-point-one-four",
    "desk": "Gold & Metals",
-   "title": "UK's $9.5bn passes China as gold ETF inflow leader"
+   "title": "Silver sheds 6.14% over five sessions, gold barely moves"
   },
   {
-   "slug": "swiss-refining-comes-to-tuen-mun",
-   "desk": "Gold & Metals",
-   "title": "Valcambi signs a Hong Kong refining venture with Shiu Wing"
-  },
-  {
-   "slug": "two-holds-end-at-press-time",
-   "desk": "Gold & Metals",
-   "title": "Platinum's $1,693 and palladium's $1,140 end two holds"
-  },
-  {
-   "slug": "forty-eight-brands-at-gotham-hall",
+   "slug": "patek-2499-leads-phillips-new-york",
    "desk": "Watches",
-   "title": "48 brands fill Gotham Hall for New York Watch Week"
+   "title": "Patek 2499 in pink gold leads Phillips at over $3m"
+  },
+  {
+   "slug": "twenty-seven-one-million-in-luanda",
+   "desk": "Diamonds & Rough",
+   "title": "TAGS sells 1,721 carats for $27.1m at a Luanda tender"
   }
  ],
- "tape_ts": "Kitco bid, press-time read 2026-10-12T06:05 EDT, Monday session open and moving (CNBC curmktstatus REG_MKT, distinct per-metal timestamps); corroborated on a second page",
+ "tape_ts": "Kitco bid, press-time re-read 22:01 EDT 17 October 2026 (board's last tick 16 Oct 17:00 UTC)",
  "tape": [
   {
    "name": "Gold / oz",
    "code": "XAU",
-   "px": "4,171.90",
-   "chg": "−0.5175% vs 11 Oct mark",
+   "px": "4,164.10",
+   "chg": "−0.187% vs 12 Oct mark",
    "dir": "down",
    "pts": [
     2,
@@ -90,9 +90,9 @@
   {
    "name": "Platinum / oz",
    "code": "XPT",
-   "px": "1,693.00",
-   "chg": "+0.4748% vs 11 Oct mark",
-   "dir": "up",
+   "px": "1,626.00",
+   "chg": "−3.9575% vs 12 Oct mark",
+   "dir": "down",
    "pts": [
     2,
     2,
@@ -109,8 +109,8 @@
   {
    "name": "Silver / oz",
    "code": "XAG",
-   "px": "60.584",
-   "chg": "−0.1895% vs 11 Oct mark",
+   "px": "56.866",
+   "chg": "−6.1369% vs 12 Oct mark",
    "dir": "down",
    "pts": [
     2,
@@ -126,5 +126,5 @@
    ]
   }
  ],
- "editionDate": "2026-10-12"
+ "editionDate": "2026-10-17"
 }
