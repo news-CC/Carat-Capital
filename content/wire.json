@@ -1,6 +1,6 @@
 {
- "date_line": "Saturday, October 17, 2026 | Vol. I - No. 089",
- "edition": "Vol. I - No. 089",
+ "date_line": "Sunday, October 18, 2026 | Vol. I - No. 090",
+ "edition": "Vol. I - No. 090",
  "items": [
   {
    "slug": "de-beers-tenders-in-ramat-gan",
@@ -28,14 +28,14 @@
    "title": "TAGS sells 1,721 carats for $27.1m at a Luanda tender"
   }
  ],
- "tape_ts": "Kitco bid, press-time re-read 22:01 EDT 17 October 2026 (board's last tick 16 Oct 17:00 UTC)",
+ "tape_ts": "Kitco bid, 05:00 mark 18 October 2026 (board's last tick 16 Oct 17:00 UTC, frozen through the weekend) · newsroom/tape/2026-10-18.json",
  "tape": [
   {
    "name": "Gold / oz",
    "code": "XAU",
    "px": "4,164.10",
-   "chg": "−0.187% vs 12 Oct mark",
-   "dir": "down",
+   "chg": "unch. vs 17 Oct mark",
+   "dir": "flat",
    "pts": [
     2,
     5,
@@ -91,8 +91,8 @@
    "name": "Platinum / oz",
    "code": "XPT",
    "px": "1,626.00",
-   "chg": "−3.9575% vs 12 Oct mark",
-   "dir": "down",
+   "chg": "unch. vs 17 Oct mark",
+   "dir": "flat",
    "pts": [
     2,
     2,
@@ -110,8 +110,8 @@
    "name": "Silver / oz",
    "code": "XAG",
    "px": "56.866",
-   "chg": "−6.1369% vs 12 Oct mark",
-   "dir": "down",
+   "chg": "unch. vs 17 Oct mark",
+   "dir": "flat",
    "pts": [
     2,
     2,
@@ -126,5 +126,5 @@
    ]
   }
  ],
- "editionDate": "2026-10-17"
+ "editionDate": "2026-10-18"
 }
