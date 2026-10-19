@@ -18938,7 +18938,7 @@
   "slug": "richemont-and-signet-weigh-the-de-beers-bid",
   "desk": "diamonds",
   "date": "2026-10-18",
-  "lead": true,
+  "lead": false,
   "kicker": "Diamonds & Rough",
   "title": "Richemont and Signet are in talks to join the De Beers bid",
   "dek": "Bloomberg and Reuters report both in talks to join the Global Diamond Consortium, the preferred bidder for Anglo American's De Beers stake. Neither investment would necessarily be large.",
@@ -19235,17 +19235,247 @@
    "Brown has more than two decades building nonprofit and start-up organisations. He has been a society member since 2016. He belongs to the Academy of the Grand Prix d'Horlogerie de Geneve, and he covered Baselworld and other trade events for TimeZone. Most recently he was chief operating officer of Sailworks, building the back office for four artist-run nonprofit foundations.",
    "The post is an education job. Brown will oversee the society's education and preservation work. He is also to widen its role in watchmaking abroad. The society says it plans larger programmes that bring watch-industry figures together to talk about horology and its future. No date, venue or programme size is named.",
    "Founded in 1866 by working watchmakers, the society now gives aid to individuals and grants to watchmaking schools. It backs independent watchmakers and runs classes and monthly lectures. It also runs the Jost Burgi Research Library, whose collection holds more than 25,000 items on horological scholarship and history. From 1866 to 2026 is 160 years, which matches the report's description of a 160-year-old body.",
+   "Correction, 19 October 2026: an earlier version of this article said, in its Method, that the predecessor's name and tenure, Carolina Navarro's continuation, Gregory Brown's 2016 membership, his Academy and TimeZone details and the 25,000-item library figure were carried on JCK Online's report alone and not on the society's own page. That was true of the copy fetched at 06:05 EDT on 18 October, 1,048,348 bytes, which returned 0 hits for 'Manousos' and 0 for '25,000'. The society's announcement at the same address now carries all of them: re-fetched on 19 October, 1,027,765 bytes, 'Manousos' 1 hit, '25,000' 1, '2016' 1, 'Navarro' 3. The society's page is now cited for those facts beside the trade report. Where the stale claim came from: the society's page, as first fetched, did not yet print those details. What was right as published: every fact and figure in the article, including Brown's appointment, the 1866 founding, Manousos as predecessor and the library count. Found by this paper's standards desk on 18 October 2026.",
    "The desk's view: this is one of the few bodies in watches that does not speak for brands. That is what makes the office worth a paragraph. American watchmaking trains through a handful of schools, and their intake depends partly on who funds scholarships. A body that both grants to those schools and convenes the trade can widen that pipeline without a brand's consent. No budget, membership count or programme spend is published. So the test is whether the larger programmes appear, not whether a stated target is met."
   ],
   "sources": [
    {
-    "title": "Horological Society of New York, HSNY Announces Gregory Brown as Executive Director, 14 October 2026 (read from the society's own site)",
+    "title": "Horological Society of New York, HSNY Announces Gregory Brown as Executive Director, 14 October 2026 (the society's own announcement; re-read 19 October 2026, it carries the predecessor, the deputy, the 2016 membership and the library count)",
     "url": "https://hs-ny.org/news/2026/10/14/2wmhgg88p2sdodxcctc559fshc4xjd",
     "published": "2026-10-14"
    },
    {
     "title": "JCK Online, JCK Take 5: New Plumb Club Members, Indian Exports Rise, Personnel Moves, 15 October 2026 (HSNY Names Gregory Brown Executive Director section)",
     "url": "https://www.jckonline.com/editorial-article/jck-take-5-new-plumb-club-members/",
+    "published": "2026-10-15"
+   }
+  ]
+ },
+ {
+  "slug": "petra-treasury-unit-is-wound-up",
+  "desk": "diamonds",
+  "date": "2026-10-19",
+  "kicker": "Diamonds & Rough",
+  "lead": true,
+  "title": "Court winds up Petra's treasury unit over £5.65m tax claim",
+  "dek": "The order came at the 14 October hearing, nine days after Questco was named to run the strategic review. A restructuring accountant joined the board as senior independent director on 13 October.",
+  "byline": "Carat Capital",
+  "tags": [
+   "Petra Diamonds",
+   "HMRC",
+   "Questco",
+   "Piers Marsden",
+   "Cullinan",
+   "winding-up"
+  ],
+  "body": [
+   "A court made a winding-up order against Petra Diamonds UK Treasury on 14 October over £5,647,811.32 of corporation tax. Petra says the unit is non-operating and its mines are not directly affected.",
+   "HMRC's claim covers the year ended 30 June 2025. It arose on interest accrued on a receivable from Ealing Management Services, another Petra subsidiary, and that interest was never received.",
+   "Petra says PDUK Treasury and Ealing own and operate none of its mines. Its principal asset is Cullinan, and Finsch entered business rescue on 29 May 2026.",
+   "Petra appointed Questco Corporate Advisory on 5 October to manage the strategic review it opened on 1 October. Interested parties are told to contact Questco director Ciska Kloppers.",
+   "Piers Marsden became senior independent director on 13 October. He is a chartered accountant with over 20 years in turnarounds and capital restructurings, mostly in mining.",
+   "Lerato Molebatsi, interim chair since 1 October, now chairs a combined remuneration and nomination committee. Marsden joins every board committee.",
+   "The desk's view. If you lend to Petra: Petra is assessing what the order means for its financing and refinancing talks, and has published no conclusion. If you want Petra's assets: Questco runs the strategic review and asks interested parties to contact it. What this is not: A group insolvency. The order names one non-operating subsidiary."
+  ],
+  "sources": [
+   {
+    "title": "Petra Diamonds, Further update in relation to Petra Diamonds UK Treasury Limited, RNS",
+    "url": "https://www.investegate.co.uk/announcement/prn/petra-diamonds-ltd-di---pdl/further-update-in-relation-to-petra-diamonds-/9823096",
+    "published": "2026-10-14"
+   },
+   {
+    "title": "Petra Diamonds, Appointment of Financial Advisor, RNS",
+    "url": "https://www.investegate.co.uk/announcement/prn/petra-diamonds-ltd-di---pdl/appointment-of-financial-advisor/9806951",
+    "published": "2026-10-05"
+   },
+   {
+    "title": "Petra Diamonds, Appointment of Senior Independent Non-Executive Director, RNS",
+    "url": "https://www.investegate.co.uk/announcement/prn/petra-diamonds-ltd-di---pdl/appointment-of-senior-independent-non-executi-/9820984",
+    "published": "2026-10-13"
+   }
+  ]
+ },
+ {
+  "slug": "india-gold-imports-fall-eighty-one-percent",
+  "desk": "gold-metals",
+  "date": "2026-10-19",
+  "kicker": "Gold & Metals",
+  "lead": false,
+  "title": "India's gold imports fall 81.27% to $1.8bn in September",
+  "dek": "Silver imports fell 49.11% to $665.08m, on Commerce Ministry data released 15 October. From April to September, gold imports were down 27.32% at $19.27bn against the same months of 2025.",
+  "byline": "Carat Capital",
+  "tags": [
+   "India",
+   "gold imports",
+   "silver imports",
+   "import duty",
+   "Commerce Ministry"
+  ],
+  "body": [
+   "India imported $1.8 billion of gold in September, 81.27% less than a year earlier, Commerce Ministry data released 15 October show. Silver imports roughly halved.",
+   "India's August gold imports had dropped 45% to $2.3 billion. September's $1.8 billion sits about a fifth below that.",
+   "From April to September, gold imports fell 27.32% on the same months of 2025, to $19.27 billion. Silver fell 25.17% to $2.4 billion over the same six months.",
+   "The government raised the import duty on precious metals to 15% from 6%, effective 13 May.",
+   "Prime Minister Narendra Modi urged buyers to defer gold purchases amid the West Asia crisis, Kotak reports. The data do not separate the appeal from the duty.",
+   "Switzerland supplied about 40% of India's gold imports, the UAE more than 16% and South Africa about 10%, Kotak reports.",
+   "The desk's view. If you import bullion: The duty has been 15% since 13 May, up from 6%. If you make for India's market: Less metal is entering the trade, but retail prices still follow the world price and the rupee. What this is not: Proof the duty did it. Neither named cause is quantified."
+  ],
+  "sources": [
+   {
+    "title": "Kotak Neo, Gold Imports Plunge 81% In September As Silver Falls 49%, Vishwa Ved",
+    "url": "https://www.kotakneo.com/news/commodities/india-gold-silver-imports-fall-september/",
+    "published": "2026-10-16"
+   },
+   {
+    "title": "The Hans India, Gold, silver imports slump in Sept; Switzerland top source",
+    "url": "https://www.thehansindia.com/business/market-compass/gold-silver-imports-slump-in-sept-switzerland-top-source-1132763",
+    "published": "2026-10-16"
+   }
+  ]
+ },
+ {
+  "slug": "india-rough-imports-rise-in-carats",
+  "desk": "diamonds",
+  "date": "2026-10-19",
+  "kicker": "Diamonds & Rough",
+  "lead": false,
+  "title": "India's rough imports rise 65.65% in carats, 15.14% in value",
+  "dek": "September's 130.17 lakh carats cost $1.05bn, GJEPC provisional data show. On Carat Capital's division, the average imported carat cost about 30% less than a year earlier.",
+  "byline": "Carat Capital",
+  "tags": [
+   "India",
+   "rough diamonds",
+   "imports",
+   "GJEPC",
+   "Surat"
+  ],
+  "body": [
+   "India's rough diamond imports rose 65.65% by weight in September but only 15.14% by value, to $1.05 billion, GJEPC provisional data show.",
+   "Dividing value growth by volume growth, 1.1514 by 1.6565, gives 0.695. The average imported carat was worth about 30.5% less than a year earlier.",
+   "From April to September, carats rose 16.47% to 592.24 lakh while value fell 16.81% to $5 billion. One lakh is 100,000 carats.",
+   "Cut and polished natural exports fell 5.44% to $1.29 billion in September, while six-month export volume rose 4.64%.",
+   "Polished lab-grown exports rose 40.72% to $151.43 million in the month.",
+   "The desk's view. If you sell rough to India: Volume is back, value is not: the average carat cost about 30% less than a year earlier. If you buy polished from Surat: More, cheaper rough is entering the cutting pipeline. What this is not: A price index. A cheaper average can mean a cheaper mix."
+  ],
+  "sources": [
+   {
+    "title": "Angel One, India's gems and jewellery exports reach $2.95 billion in September 2026 (citing The Economic Times and GJEPC provisional data)",
+    "url": "https://www.angelone.in/news/economy/india-s-gems-and-jewellery-exports-reach-2-95-billion-in-september-2026",
+    "published": "2026-10-15"
+   }
+  ]
+ },
+ {
+  "slug": "eight-seventeen-carats-sells-under-its-low",
+  "desk": "auctions",
+  "date": "2026-10-19",
+  "kicker": "Auctions",
+  "lead": false,
+  "title": "Christie's 8.17-carat D/IF ring sells for $243,200, below estimate",
+  "dek": "A Graff 7.85-carat D VS1 ring led Jewels Online at $256,000, inside its range. The New York online sale closed 15 October with $9.3m in total, Rapaport reports.",
+  "byline": "Carat Capital",
+  "tags": [
+   "Christie's",
+   "Jewels Online",
+   "Graff",
+   "Bulgari",
+   "D colour",
+   "auction results"
+  ],
+  "body": [
+   "The 8.17-carat ring, offered without reserve, sold for $243,200, under its $250,000 low estimate. A Graff ring took the top price.",
+   "The 8.17-carat round sold 2.7% below its $250,000 low estimate. With no reserve, the bidding alone set the price.",
+   "A Van Cleef & Arpels ring with a 5.22-carat D stone made $140,800, under its $150,000 low.",
+   "Graff's 7.85-carat D VS1 ring sold for $256,000, inside its range. The sale closed 15 October with $9.3 million.",
+   "A Bulgari peridot and sapphire necklace made $153,600, 2.56 times its $60,000 high estimate.",
+   "Bulgari sapphire and emerald earrings sold for $128,000, against a $35,000 high.",
+   "A 9.04-carat I VS1 ring sold with a David Webb ring jacket for $166,400, against a $100,000 high.",
+   "The desk's view. If you price large D rounds: With no reserve, bidders set $243,200 on a D flawless 8-carat round. A Van Cleef D ring also missed its low. If you consign signed coloured pieces: Two Bulgari lots made 2.56 and 3.66 times their highs. What this is not: A fall in D prices. Two lots is a small sample."
+  ],
+  "sources": [
+   {
+    "title": "Rapaport, Colorless Diamonds Dominate Top 10 at Christie's (read from the Rapaport RSS feed body)",
+    "url": "https://rapaport.com/news/colorless-diamonds-dominate-top-10-at-christies/",
+    "published": "2026-10-18T13:28:49Z"
+   },
+   {
+    "title": "JCK Online, Christie's Jewels Online Sale Tops Out With an 8.17-Ct. Diamond Ring, Annie Davidson Watson",
+    "url": "https://www.jckonline.com/editorial-article/christies-jewels-online-2026-2/",
+    "published": "2026-10-09"
+   }
+  ]
+ },
+ {
+  "slug": "census-puts-september-retail-at-seven-forty-five",
+  "desk": "retail-tech",
+  "date": "2026-10-19",
+  "kicker": "Retail & Technology",
+  "lead": false,
+  "title": "Census puts September retail sales at $745.0bn, up 0.8%",
+  "dek": "Sales were 6.3% above September 2025. A 28 September annual revision restated August at $739.3bn, against $773.9bn first published, and the release carries no jewellery line.",
+  "byline": "Carat Capital",
+  "tags": [
+   "US Census Bureau",
+   "retail sales",
+   "NRF",
+   "annual revision"
+  ],
+  "body": [
+   "US retail and food services sales rose 0.8% in September to $745.0 billion, the Census Bureau's advance estimate shows. August's gain was revised up to 1.3%.",
+   "Census revised monthly retail estimates using its 2023 and 2024 Annual Integrated Economic Survey. The August release now says it no longer carries the latest estimates.",
+   "Sales were 6.3% above September 2025. July to September ran 5.5% above the same months a year earlier.",
+   "August stands at $739.3 billion in the October release, 4.5% below the $773.9 billion first printed.",
+   "The advance release publishes no jewellery store category, so the trade reads it only as a measure of overall demand.",
+   "NRF's card-based data put clothing and accessories, which includes jewellery, up 2.2% on the year and 0.5% on the month, Rapaport reports.",
+   "The desk's view. If you compare months: Use the revised series: August is $739.3 billion, not the $773.9 billion first printed. If you sell jewellery: There is no jewellery line. NRF's clothing and accessories group, which includes jewellery, rose 2.2% on the year. What this is not: A weaker August. Census revised its history."
+  ],
+  "sources": [
+   {
+    "title": "US Census Bureau, Advance Monthly Sales for Retail and Food Services, September 2026, CB26-165",
+    "url": "https://www.census.gov/retail/marts/www/marts_current.pdf",
+    "published": "2026-10-15T12:30:00Z"
+   },
+   {
+    "title": "US Census Bureau, Advance Monthly Sales for Retail and Food Services, August 2026, CB26-153 (with its notice of revision)",
+    "url": "https://www2.census.gov/retail/releases/historical/marts/adv2608.pdf",
+    "published": "2026-09-16T12:30:00Z"
+   },
+   {
+    "title": "Rapaport, US Retail Sales Continue to Rise in September (read from the Rapaport RSS feed body)",
+    "url": "https://rapaport.com/news/us-retail-sales-continue-to-rise-in-september/",
+    "published": "2026-10-18T13:54:08Z"
+   }
+  ]
+ },
+ {
+  "slug": "namdeb-asks-namibia-for-fresh-capital",
+  "desk": "diamonds",
+  "date": "2026-10-19",
+  "kicker": "Diamonds & Rough",
+  "lead": false,
+  "title": "Namdeb asks Namibia for fresh capital as diamond revenue falls",
+  "dek": "Finance minister Ericah Shafudah says Namdeb Holdings proposed a recapitalisation in September. No amount is set, and its chief executive puts revenue 60% below the pre-slump forecast.",
+  "byline": "Carat Capital",
+  "tags": [
+   "Namdeb",
+   "Debmarine Namibia",
+   "De Beers",
+   "Namibia",
+   "recapitalisation"
+  ],
+  "body": [
+   "Namdeb Holdings, which owns Namdeb and Debmarine Namibia, approached the government in September proposing a recapitalisation, the finance minister told The Namibian. The amount is not yet known.",
+   "Namibia and De Beers each own half of Namdeb Holdings. Shafudah said the request is unusual for a company once asked only about dividends.",
+   "Diamond miners paid N$239 million in corporate tax and N$1.16 billion in royalties in 2024/25, the budget shows. Diamonds once yielded up to N$5 billion a year, Shafudah said.",
+   "Chief executive Riaan Burger says revenue has run 60% below what Namdeb forecast before prices fell.",
+   "Shafudah said Namdeb has not finalised its proposal, so the government does not yet know how much it needs. She did not say what the capital would fund.",
+   "Board chair Alex Gawanab said management has contingency plans for worst-case scenarios. Spokesperson Grace Luvindao declined to comment.",
+   "The desk's view. If you buy Namibian rough: The producer is asking its owners for capital. No change to output or sales is announced. If you follow the De Beers sale: De Beers owns half, so a recapitalisation falls partly on whoever owns De Beers. What this is not: A bailout. No amount is named, and Namdeb declined to comment."
+  ],
+  "sources": [
+   {
+    "title": "The Namibian, Namdeb, Debmarine ask govt for relief as prices drop, Nishi Felton",
+    "url": "https://www.namibian.com.na/namdeb-debmarine-ask-govt-for-relief-as-prices-drop/",
     "published": "2026-10-15"
    }
   ]

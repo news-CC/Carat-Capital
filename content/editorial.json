@@ -134778,7 +134778,8 @@
     }
    ],
    "corrections": [
-    "Disclosed 10 October 2026. This article reported that no low estimate was published for the 8.17-carat lot and that it is offered without reserve, following Rapaport. JCK, writing on 9 October about the same lot in the same sale, gives an estimate of $250,000 to $350,000. This desk fetched Christie's own page for Jewels Online New York 24557 on 10 October 2026 (200, 978,864 bytes) and could not settle it: the lot data is rendered in the browser, the only “8.17” strings in the raw bytes are SVG path coordinates, and the house's lot-search endpoint returns 404. The $350,000 top of the range is the one figure both outside reports carry and is the only estimate this paper stands behind for this lot. The no-reserve term is Rapaport's and is not confirmed by JCK. Nothing printed here is withdrawn; the divergence between two outside sources is disclosed because it could not be closed at the primary."
+    "Disclosed 10 October 2026. This article reported that no low estimate was published for the 8.17-carat lot and that it is offered without reserve, following Rapaport. JCK, writing on 9 October about the same lot in the same sale, gives an estimate of $250,000 to $350,000. This desk fetched Christie's own page for Jewels Online New York 24557 on 10 October 2026 (200, 978,864 bytes) and could not settle it: the lot data is rendered in the browser, the only “8.17” strings in the raw bytes are SVG path coordinates, and the house's lot-search endpoint returns 404. The $350,000 top of the range is the one figure both outside reports carry and is the only estimate this paper stands behind for this lot. The no-reserve term is Rapaport's and is not confirmed by JCK. Nothing printed here is withdrawn; the divergence between two outside sources is disclosed because it could not be closed at the primary.",
+    "Updated 19 October 2026: the result settles the estimate question disclosed on 10 October. Rapaport's results report of 18 October, read from its RSS feed body (newsroom/sources/2026-10-19/desk/rapfeed.xml, 54,832 bytes), prints the 8.17-carat ring's estimate as $250,000 to $350,000, the same range JCK gave on 9 October, and confirms it was sold without a reserve. The ring sold for $243,200. The low estimate was $250,000; this article's statement that none was published was true of the Rapaport preview it read and is not true of the sale. What was right as published: the $350,000 top of the range, the no-reserve term, the sale dates and the lot count."
    ]
   },
   "next": {
@@ -143147,7 +143148,7 @@
    "type": "table",
    "cap": "What the society is, and what the post covers",
    "hi": 0,
-   "asof": "Society details per JCK Online, 15 October 2026; the appointment confirmed on hs-ny.org, 14 October 2026",
+   "asof": "Appointment, predecessor, deputy, membership and library on hs-ny.org, 14 October 2026, as re-read 19 October 2026; also reported by JCK Online, 15 October 2026",
    "cols": [
     "Item",
     "Detail"
@@ -143241,7 +143242,7 @@
     "title": "Why a society's executive director matters to a watch trade",
     "text": "The Horological Society of New York is not a trade association and does not represent brands, which is what makes the post it has just filled unusual in a business where most institutions are funded by the companies they speak for. It was founded in 1866 by working watchmakers, and the things it does now are the things a trade cannot easily do for itself: grants to the schools that train watchmakers, financial aid to individuals, support for independents who have no marketing department, classes, monthly lectures, and a research library of more than 25,000 items. The constraint on all of it is a small institution's capacity, which is why the executive director's job is substantially a fundraising and programme-building one rather than a curatorial one. The succession matters for a practical reason. American watchmaking has a documented training shortage, and the pipeline runs through a handful of schools whose intake is partly a function of who funds scholarships. An organisation that both grants to those schools and convenes the industry is one of the few places where that pipeline can be widened without a brand's permission. The society says the new director will work to expand its role internationally and to build larger-scale programmes, and has attached no figure to either ambition, so the test is whether the programmes appear rather than whether a target is met."
    },
-   "method": "Two independent doors were fetched in this run and saved as raw bytes. FIRST, the society's own site: hs-ny.org, 200, 1,048,348 bytes, at newsroom/sources/2026-10-18/desk/hsny.html. Greps against those saved bytes: 'Gregory Brown' 3 hits, '1866' 8 hits, 'Executive Director' 3 hits case-sensitive and 3 hits under a case-insensitive sweep, confirming the same three. The society's own summary block reads 'The Horological Society of New York Announces Gregory Brown as Executive Director' and links to /news/2026/10/14/, which is how the 14 October announcement date was established - from the society's own URL, not from the trade report. DISCLOSED LIMIT on this door: 'Manousos' returns 0 hits in the society's saved bytes, so the predecessor's name, his tenure, Carolina Navarro's continuation, the 2016 membership date, the Academy and TimeZone details and the 25,000-item library figure are carried on the trade report alone and not on the society's own page as fetched. SECOND, JCK Online's Take 5 column, 200, 114,249 bytes, at newsroom/sources/2026-10-18/desk/jck_take5.html, in its section headed 'HSNY Names Gregory Brown Executive Director', with greps 'Gregory Brown' 5 hits, 'Nicholas Manousos' 1 hit, '1866' 1 hit, '25,000' 1 hit, '160-year-old' 1 hit; its feed entry, newsroom/sources/2026-10-18/desk/jck_feed.xml, 200, 78,292 bytes, is dated Thu, 15 Oct 2026 16:30:14 +0000. ARCHIVE: 'HSNY' returns 0 hits in website/content/articles.json, and the zero was checked against the schema first by printing a row of that file to confirm a whole-record search matches its fields. NEW, a first filing; this paper has never covered this organisation.",
+   "method": "Two independent doors were fetched in this run and saved as raw bytes. FIRST, the society's own site: hs-ny.org, 200, 1,048,348 bytes, at newsroom/sources/2026-10-18/desk/hsny.html. Greps against those saved bytes: 'Gregory Brown' 3 hits, '1866' 8 hits, 'Executive Director' 3 hits case-sensitive and 3 hits under a case-insensitive sweep, confirming the same three. The society's own summary block reads 'The Horological Society of New York Announces Gregory Brown as Executive Director' and links to /news/2026/10/14/, which is how the 14 October announcement date was established - from the society's own URL, not from the trade report. UPDATED 19 October 2026: the society's own announcement, re-fetched at the same address on 19 October, 200, 1,027,765 bytes, saved at newsroom/sources/2026-10-19/desk/hsny.html, now carries every fact this article first sourced to the trade report alone. Greps against those bytes: 'Manousos' 1 hit, 'more than a decade' 2, 'Navarro' 3, '2016' 1, 'Academy' 1, '25,000' 1. The 18 October capture, 1,048,348 bytes, returned 0 for 'Manousos' and 0 for '25,000'. SECOND, JCK Online's Take 5 column, 200, 114,249 bytes, at newsroom/sources/2026-10-18/desk/jck_take5.html, in its section headed 'HSNY Names Gregory Brown Executive Director', with greps 'Gregory Brown' 5 hits, 'Nicholas Manousos' 1 hit, '1866' 1 hit, '25,000' 1 hit, '160-year-old' 1 hit; its feed entry, newsroom/sources/2026-10-18/desk/jck_feed.xml, 200, 78,292 bytes, is dated Thu, 15 Oct 2026 16:30:14 +0000. ARCHIVE: 'HSNY' returns 0 hits in website/content/articles.json, and the zero was checked against the schema first by printing a row of that file to confirm a whole-record search matches its fields. NEW, a first filing; this paper has never covered this organisation.",
    "prior": [
     {
      "date": "2026-10-17",
@@ -143251,7 +143252,7 @@
    ],
    "sources": [
     {
-     "title": "Horological Society of New York, HSNY Announces Gregory Brown as Executive Director (read from the society's own site)",
+     "title": "Horological Society of New York, HSNY Announces Gregory Brown as Executive Director (the society's own announcement; carries the appointment, the predecessor, the deputy, the 2016 membership and the library count as re-read on 19 October 2026)",
      "url": "https://hs-ny.org/news/2026/10/14/2wmhgg88p2sdodxcctc559fshc4xjd",
      "published": "2026-10-14"
     },
@@ -143260,10 +143261,1120 @@
      "url": "https://www.jckonline.com/editorial-article/jck-take-5-new-plumb-club-members/",
      "published": "2026-10-15"
     }
+   ],
+   "corrections": [
+    "Correction, 19 October 2026: an earlier version of this article said, in its Method, that the predecessor's name and tenure, Carolina Navarro's continuation, Gregory Brown's 2016 membership, his Academy and TimeZone details and the 25,000-item library figure were carried on JCK Online's report alone and not on the society's own page. That was true of the copy fetched at 06:05 EDT on 18 October, 1,048,348 bytes, which returned 0 hits for 'Manousos' and 0 for '25,000'. The society's announcement at the same address now carries all of them: re-fetched on 19 October, 1,027,765 bytes, 'Manousos' 1 hit, '25,000' 1, '2016' 1, 'Navarro' 3. The society's page is now cited for those facts beside the trade report. Where the stale claim came from: the society's page, as first fetched, did not yet print those details. What was right as published: every fact and figure in the article, including Brown's appointment, the 1866 founding, Manousos as predecessor and the library count. Found by this paper's standards desk on 18 October 2026."
    ]
   },
   "next": {
    "slug": "richemont-and-signet-weigh-the-de-beers-bid"
   }
+ },
+ "petra-treasury-unit-is-wound-up": {
+  "v": 3,
+  "kicker": "Diamonds & Rough",
+  "figures": {
+   "asof": "Petra Diamonds RNS announcements of 5, 13 and 14 October 2026, read on Investegate. Raw bytes saved at newsroom/sources/2026-10-19/desk: petra_order.html 58,716 bytes, petra_questco.html 58,984 bytes, petra_sid.html 61,008 bytes.",
+   "cells": [
+    {
+     "n": "£5.65m",
+     "dir": "down",
+     "label": "Tax claimed",
+     "q": "year to 30 June 2025",
+     "src": 1
+    },
+    {
+     "n": "14 Oct",
+     "label": "Order made",
+     "q": "at the petition hearing",
+     "src": 1
+    },
+    {
+     "n": "5 Oct",
+     "label": "Adviser named",
+     "q": "Questco runs the review",
+     "src": 2
+    },
+    {
+     "n": "20+ years",
+     "label": "New director's record",
+     "q": "turnarounds, mostly in mining",
+     "src": 3
+    }
+   ]
+  },
+  "changed": {
+   "lead": "The petition became an order.",
+   "text": "A court made a winding-up order against Petra Diamonds UK Treasury on 14 October over £5,647,811.32 of corporation tax. Petra says the unit is non-operating and its mines are not directly affected."
+  },
+  "means": [
+   {
+    "who": "If you lend to Petra:",
+    "text": "Petra is assessing what the order means for its financing and refinancing talks, and has published no conclusion."
+   },
+   {
+    "who": "If you want Petra's assets:",
+    "text": "Questco runs the strategic review and asks interested parties to contact it."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A group insolvency. The order names one non-operating subsidiary."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Petra's October filings, in order",
+   "hi": 4,
+   "asof": "Petra Diamonds RNS, 1 to 14 October 2026",
+   "cols": [
+    "Date",
+    "Filing",
+    "What it says"
+   ],
+   "rows": [
+    [
+     "1 Oct",
+     "Strategic review",
+     "Board reviews all paths to near-term liquidity, including a possible asset sale"
+    ],
+    [
+     "2 Oct",
+     "Petition advertised",
+     "HMRC seeks to wind up PDUK Treasury for £5.65m"
+    ],
+    [
+     "5 Oct",
+     "Adviser named",
+     "Questco Corporate Advisory to manage the review"
+    ],
+    [
+     "13 Oct",
+     "Board change",
+     "Piers Marsden becomes senior independent director"
+    ],
+    [
+     "14 Oct",
+     "Order made",
+     "Court winds up PDUK Treasury at the hearing"
+    ]
+   ],
+   "note": "The 5, 13 and 14 October rows were read from the RNS bodies saved at newsroom/sources/2026-10-19/desk. The 1 and 2 October rows are from Carat Capital's 5 October report on the petition, which read those filings. £5.65m is £5,647,811.32 rounded to the nearest ten thousand pounds.",
+   "plate": "CC/2026/304"
+  },
+  "sections": [
+   {
+    "h": "One subsidiary is named",
+    "p": [
+     {
+      "lead": "The tax was never funded.",
+      "text": "HMRC's claim covers the year ended 30 June 2025. It arose on interest accrued on a receivable from Ealing Management Services, another Petra subsidiary, and that interest was never received.",
+      "links": {
+       "HMRC's claim": "a-hmrc-seeks-to-wind-up-a-petra-unit.html"
+      }
+     },
+     {
+      "lead": "Operations sit elsewhere.",
+      "text": "Petra says PDUK Treasury and Ealing own and operate none of its mines. Its principal asset is Cullinan, and Finsch entered business rescue on 29 May 2026."
+     }
+    ]
+   },
+   {
+    "h": "An adviser now runs the review",
+    "p": [
+     {
+      "lead": "Questco holds the process.",
+      "text": "Petra appointed Questco Corporate Advisory on 5 October to manage the strategic review it opened on 1 October. Interested parties are told to contact Questco director Ciska Kloppers."
+     },
+     {
+      "lead": "The board added restructuring.",
+      "text": "Piers Marsden became senior independent director on 13 October. He is a chartered accountant with over 20 years in turnarounds and capital restructurings, mostly in mining."
+     },
+     {
+      "lead": "Committees were merged.",
+      "text": "Lerato Molebatsi, interim chair since 1 October, now chairs a combined remuneration and nomination committee. Marsden joins every board committee."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Next RNS",
+    "what": "Petra's view of what the order means for its financing and refinancing talks. The company says updates will follow as appropriate."
+   },
+   {
+    "when": "Q4 2026",
+    "what": "Whether Questco's process produces a bid for Cullinan, Finsch or the group. No timetable is published."
+   },
+   {
+    "when": "Next tender",
+    "what": "Whether Cullinan's sales calendar holds. None of the October filings mentions tenders."
+   }
+  ],
+  "depth": {
+   "reverse": "A filing that ties the order to Petra's lenders. If Petra says the winding-up is a default or cross-default under its financing, the subsidiary-only reading here fails and the story becomes the group's balance sheet.",
+   "built": {
+    "title": "How a winding-up order reaches a group",
+    "text": "A winding-up order is a court's instruction that a company be liquidated, usually on a creditor's petition over an unpaid debt. It binds the named company only. Whether it reaches the rest of a group depends on the group's lending documents, which can treat a subsidiary's insolvency as a default. Petra has said only that it is assessing the implications."
+   },
+   "method": "Three Petra RNS bodies were fetched on 19 October 2026 from Investegate with a browser identity and saved as raw bytes at newsroom/sources/2026-10-19/desk. 14 October, 'Further update in relation to Petra Diamonds UK Treasury Limited', 200, 58,716 bytes: 'winding-up order' 2 hits, '5,647,811.32' 2, '14 October 2026' 1, 'does not directly affect' 1. 5 October, 'Appointment of Financial Advisor', 200, 58,984 bytes: 'Questco' 5, '5 October 2026' 1. 13 October, 'Appointment of Senior Independent Non-Executive Director', 200, 61,008 bytes: 'Piers Marsden' 5, 'over 20 years' 2, '13 October 2026' 1, 'consolidated' 1. Investegate prints an AI summary box above each body; every figure and sentence here was taken from the RNS text below it, not from the summary. The announcement list, petra_list.html, 200, 84,523 bytes, shows the three filings at 05 Oct, 13 Oct 03:25 PM and 14 Oct 02:01 PM. ARCHIVE: website/content/articles.json searched by entity. 'Questco' and 'Marsden' return no rows; 'Petra' returns hmrc-seeks-to-wind-up-a-petra-unit (5 October, covering the 1 and 2 October filings and the listed hearing) and one unrelated mention. Ours covers 1 to 2 October; this covers 5 to 14 October. DIFFERENT PERIOD, ADVANCED.",
+   "prior": [
+    {
+     "date": "2026-10-05",
+     "slug": "hmrc-seeks-to-wind-up-a-petra-unit",
+     "claim": "HMRC petitioned to wind up PDUK Treasury for £5.65m; hearing listed 14 October."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Petra Diamonds, Further update in relation to Petra Diamonds UK Treasury Limited, RNS",
+     "url": "https://www.investegate.co.uk/announcement/prn/petra-diamonds-ltd-di---pdl/further-update-in-relation-to-petra-diamonds-/9823096",
+     "published": "2026-10-14"
+    },
+    {
+     "title": "Petra Diamonds, Appointment of Financial Advisor, RNS",
+     "url": "https://www.investegate.co.uk/announcement/prn/petra-diamonds-ltd-di---pdl/appointment-of-financial-advisor/9806951",
+     "published": "2026-10-05"
+    },
+    {
+     "title": "Petra Diamonds, Appointment of Senior Independent Non-Executive Director, RNS",
+     "url": "https://www.investegate.co.uk/announcement/prn/petra-diamonds-ltd-di---pdl/appointment-of-senior-independent-non-executi-/9820984",
+     "published": "2026-10-13"
+    }
+   ]
+  },
+  "next": {
+   "slug": "hmrc-seeks-to-wind-up-a-petra-unit",
+   "why": "The petition, the listed hearing and the strategic review this order follows."
+  },
+  "corrections": []
+ },
+ "india-gold-imports-fall-eighty-one-percent": {
+  "v": 3,
+  "kicker": "Gold & Metals",
+  "figures": {
+   "asof": "India Commerce Ministry trade data for September 2026, released 15 October 2026, as reported by Kotak Neo (16 October, 12:09 IST) and The Hans India. Raw bytes saved at newsroom/sources/2026-10-19/desk: kotak.html 463,625 bytes, hans.html 896,598 bytes. The ministry's own release was not read.",
+   "cells": [
+    {
+     "n": "−81.27%",
+     "dir": "down",
+     "label": "Gold imports, September",
+     "q": "year on year, to $1.8bn",
+     "src": 1
+    },
+    {
+     "n": "$19.27bn",
+     "dir": "down",
+     "label": "Gold, April–September",
+     "q": "down 27.32%",
+     "src": 1
+    },
+    {
+     "n": "−49.11%",
+     "dir": "down",
+     "label": "Silver imports, September",
+     "q": "to $665.08m",
+     "src": 1
+    },
+    {
+     "n": "15%",
+     "dir": "up",
+     "label": "Import duty",
+     "q": "from 6%, since 13 May",
+     "src": 1
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Gold imports fell for a second month.",
+   "text": "India imported $1.8 billion of gold in September, 81.27% less than a year earlier, Commerce Ministry data released 15 October show. Silver imports roughly halved."
+  },
+  "means": [
+   {
+    "who": "If you import bullion:",
+    "text": "The duty has been 15% since 13 May, up from 6%."
+   },
+   {
+    "who": "If you make for India's market:",
+    "text": "Less metal is entering the trade, but retail prices still follow the world price and the rupee."
+   },
+   {
+    "who": "What this is not:",
+    "text": "Proof the duty did it. Neither named cause is quantified."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "India's precious-metal imports, by period",
+   "hi": 0,
+   "asof": "Commerce Ministry data via Kotak Neo and The Hans India, 16 October 2026; August from Carat Capital's 22 September report",
+   "cols": [
+    "Measure",
+    "Period",
+    "Value",
+    "Change on a year"
+   ],
+   "rows": [
+    [
+     "Gold imports",
+     "September 2026",
+     "$1.8bn",
+     "−81.27%"
+    ],
+    [
+     "Silver imports",
+     "September 2026",
+     "$665.08m",
+     "−49.11%"
+    ],
+    [
+     "Gold imports",
+     "April–September",
+     "$19.27bn",
+     "−27.32%"
+    ],
+    [
+     "Silver imports",
+     "April–September",
+     "$2.4bn",
+     "−25.17%"
+    ],
+    [
+     "Gold imports",
+     "August 2026",
+     "$2.3bn",
+     "−45%"
+    ]
+   ],
+   "note": "Carat Capital's arithmetic on rounded figures. The implied September 2025 base is 1.8 / (1 − 0.8127) = $9.61bn. September against August: 1.8 / 2.3 = 0.783, so September sits about 22% below August, both figures rounded to a tenth of a billion.",
+   "plate": "CC/2026/305"
+  },
+  "sections": [
+   {
+    "h": "A second month of steep falls",
+    "p": [
+     {
+      "lead": "August fell first.",
+      "text": "India's August gold imports had dropped 45% to $2.3 billion. September's $1.8 billion sits about a fifth below that.",
+      "links": {
+       "August gold imports": "a-india-imports-fall-forty-five.html"
+      }
+     },
+     {
+      "lead": "The half-year confirms it.",
+      "text": "From April to September, gold imports fell 27.32% on the same months of 2025, to $19.27 billion. Silver fell 25.17% to $2.4 billion over the same six months."
+     }
+    ]
+   },
+   {
+    "h": "Two causes named, neither measured",
+    "p": [
+     {
+      "lead": "The duty rose.",
+      "text": "The government raised the import duty on precious metals to 15% from 6%, effective 13 May."
+     },
+     {
+      "lead": "An appeal followed.",
+      "text": "Prime Minister Narendra Modi urged buyers to defer gold purchases amid the West Asia crisis, Kotak reports. The data do not separate the appeal from the duty."
+     }
+    ]
+   },
+   {
+    "h": "Switzerland still supplies most",
+    "p": [
+     {
+      "lead": "Supply is concentrated.",
+      "text": "Switzerland supplied about 40% of India's gold imports, the UAE more than 16% and South Africa about 10%, Kotak reports."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Mid-November",
+    "what": "October's trade data. A third fall would extend the pattern into the wedding season; a rebound would test the duty reading."
+   },
+   {
+    "when": "Around 20 October",
+    "what": "Swiss customs' September gold exports by destination, the supply side of India's figure."
+   },
+   {
+    "when": "Ongoing",
+    "what": "Any change to the 15% duty. None is announced."
+   }
+  ],
+  "depth": {
+   "reverse": "A rebound in October with the duty unchanged. That would point to timing, or to the purchase appeal fading, rather than a lasting fall in India's gold demand.",
+   "built": {
+    "title": "How India's import figure is built",
+    "text": "The Commerce Ministry publishes monthly merchandise trade by commodity, in US dollars, around the middle of the following month. The figures are provisional and are revised. A value series moves with the gold price as well as with tonnes, so a fall in dollars is not by itself a fall in weight."
+   },
+   "method": "Two outlets were fetched on 19 October 2026 and saved as raw bytes at newsroom/sources/2026-10-19/desk. Kotak Neo, 'Gold Imports Plunge 81% In September As Silver Falls 49%', by Vishwa Ved, posted 16 Oct 2026 12:09 PM IST, 200, 463,625 bytes; the figures were read in the article's own body paragraphs, before its 'Also Read' block. Grep on the saved bytes: '81.27' 9 hits, '665.08' 19, '49.11' 9, '19.27' 6, '27.32' 6, '13 May' 6, '40%' 6. The Hans India, 200, 896,598 bytes: '81.27' 2, '1.8 billion' 2, '665.08' 2, '49.11' 2, '19.27' 2, '27.32' 2, '25.17' 2. Both outlets attribute the figures to Commerce Ministry data; the ministry's own release was not opened, so this is two secondary readings of one primary. The supplier shares are Kotak's alone. ARCHIVE: website/content/articles.json returns india-imports-fall-forty-five (22 September 2026), which covers August. This covers September. DIFFERENT PERIOD, ADVANCED.",
+   "prior": [
+    {
+     "date": "2026-09-22",
+     "slug": "india-imports-fall-forty-five",
+     "claim": "India's August gold imports fell 45% to US$2.3bn as ETF holdings reached 121.3t."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Kotak Neo, Gold Imports Plunge 81% In September As Silver Falls 49%, Vishwa Ved",
+     "url": "https://www.kotakneo.com/news/commodities/india-gold-silver-imports-fall-september/",
+     "published": "2026-10-16"
+    },
+    {
+     "title": "The Hans India, Gold, silver imports slump in Sept; Switzerland top source",
+     "url": "https://www.thehansindia.com/business/market-compass/gold-silver-imports-slump-in-sept-switzerland-top-source-1132763",
+     "published": "2026-10-16"
+    }
+   ]
+  },
+  "next": {
+   "slug": "india-imports-fall-forty-five",
+   "why": "August's 45% fall, the first month of the run."
+  },
+  "corrections": []
+ },
+ "india-rough-imports-rise-in-carats": {
+  "v": 3,
+  "kicker": "Diamonds & Rough",
+  "figures": {
+   "asof": "GJEPC provisional data for September 2026, as reported by Angel One on 15 October 2026 (14:55 IST), citing The Economic Times. Raw bytes saved at newsroom/sources/2026-10-19/desk/angel.html, 240,073 bytes. Per-carat figures are Carat Capital's division.",
+   "cells": [
+    {
+     "n": "130.17 lakh ct",
+     "dir": "up",
+     "label": "Rough imported, September",
+     "q": "up 65.65% year on year",
+     "src": 1
+    },
+    {
+     "n": "$1.05bn",
+     "dir": "up",
+     "label": "Rough import value",
+     "q": "up 15.14%",
+     "src": 1
+    },
+    {
+     "n": "−30.5%",
+     "dir": "down",
+     "label": "Average value per carat",
+     "q": "Carat Capital's division",
+     "src": 1
+    },
+    {
+     "n": "592.24 lakh ct",
+     "dir": "up",
+     "label": "April–September carats",
+     "q": "value down 16.81%",
+     "src": 1
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Carats outran dollars.",
+   "text": "India's rough diamond imports rose 65.65% by weight in September but only 15.14% by value, to $1.05 billion, GJEPC provisional data show."
+  },
+  "means": [
+   {
+    "who": "If you sell rough to India:",
+    "text": "Volume is back, value is not: the average carat cost about 30% less than a year earlier."
+   },
+   {
+    "who": "If you buy polished from Surat:",
+    "text": "More, cheaper rough is entering the cutting pipeline."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A price index. A cheaper average can mean a cheaper mix."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "India's rough imports and polished exports",
+   "hi": 2,
+   "asof": "GJEPC provisional data via Angel One, 15 October 2026. Per-carat rows are Carat Capital's division; 1 lakh is 100,000",
+   "cols": [
+    "Measure",
+    "September",
+    "Change",
+    "April–September",
+    "Change"
+   ],
+   "rows": [
+    [
+     "Rough imports, value",
+     "$1.05bn",
+     "+15.14%",
+     "$5bn",
+     "−16.81%"
+    ],
+    [
+     "Rough imports, volume",
+     "130.17 lakh ct",
+     "+65.65%",
+     "592.24 lakh ct",
+     "+16.47%"
+    ],
+    [
+     "Average value per carat",
+     "about $81",
+     "−30.5%",
+     "about $84",
+     "−28.6%"
+    ],
+    [
+     "Natural polished exports, value",
+     "$1.29bn",
+     "−5.44%",
+     "$5.81bn",
+     "−6.96%"
+    ]
+   ],
+   "note": "Per-carat change is value growth divided by volume growth: September 1.1514 / 1.6565 = 0.695, a fall of 30.5%; six months 0.8319 / 1.1647 = 0.714, a fall of 28.6%. Levels: $1.05bn / 13.017m carats = $80.7; $5bn / 59.224m carats = $84.4, both on values the source rounds. The implied September 2025 volume is 130.17 / 1.6565 = 78.58 lakh carats.",
+   "plate": "CC/2026/306"
+  },
+  "sections": [
+   {
+    "h": "Weight up, value lagging",
+    "p": [
+     {
+      "lead": "A cheaper carat.",
+      "text": "Dividing value growth by volume growth, 1.1514 by 1.6565, gives 0.695. The average imported carat was worth about 30.5% less than a year earlier."
+     },
+     {
+      "lead": "Six months agree.",
+      "text": "From April to September, carats rose 16.47% to 592.24 lakh while value fell 16.81% to $5 billion. One lakh is 100,000 carats."
+     }
+    ]
+   },
+   {
+    "h": "Polished moved the other way",
+    "p": [
+     {
+      "lead": "Natural exports fell.",
+      "text": "Cut and polished natural exports fell 5.44% to $1.29 billion in September, while six-month export volume rose 4.64%.",
+      "links": {
+       "Cut and polished natural exports": "a-one-nineteen-billion-of-gold-jewellery.html"
+      }
+     },
+     {
+      "lead": "Lab-grown rose.",
+      "text": "Polished lab-grown exports rose 40.72% to $151.43 million in the month."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Mid-November",
+    "what": "GJEPC's October figures, which cover the Diwali month and test whether the rough intake holds."
+   },
+   {
+    "when": "Monthly",
+    "what": "AWDC's Antwerp figures for September, which show whether the rough trade moved the same way at the other end."
+   },
+   {
+    "when": "Ongoing",
+    "what": "Whether GJEPC posts the September statement on its own site. It has not yet."
+   }
+  ],
+  "depth": {
+   "reverse": "A per-carat price from a producer or tender house showing September rough flat or higher. Then the 30% fall is mix, smaller and cheaper goods, not price.",
+   "built": {
+    "title": "How the import line is built",
+    "text": "GJEPC compiles India's gem and jewellery trade from customs data and publishes provisional monthly totals by category, in dollars and in lakh carats. Rough imports carry no quality split, so value per carat mixes price with assortment."
+   },
+   "method": "Angel One, 'India's gems and jewellery exports reach $2.95 billion in September 2026', published 15 October 2026 2:55 PM IST, fetched 19 October 2026 at its canonical URL, 200, 240,073 bytes, saved at newsroom/sources/2026-10-19/desk/angel.html. Figures read inside the article body, before its stock table. Grep on the saved bytes: '130.17' 5 hits, '65.65' 5, '15.14' 5, '592.24' 5, '16.81' 5, '16.47' 5; the repeat count is the page's own structured-data copies of the body. Angel One cites The Economic Times, which cites GJEPC provisional data; GJEPC's own news and data pages carried no September statement when the Bureau read them, so this is a single secondary reading, labelled as one. The Bureau also reports the Gujarati daily Divya Bhaskar carrying 130.17 against 78.58 lakh carats; that page was not read for this article. ARCHIVE: website/content/articles.json, '65.65' and '592.24' return no rows. The 18 October GJEPC piece, one-nineteen-billion-of-gold-jewellery, covers exports from the same September release and carries no rough-import figure. Same release, different line: NEW.",
+   "prior": [
+    {
+     "date": "2026-10-18",
+     "slug": "one-nineteen-billion-of-gold-jewellery",
+     "claim": "September exports rose 9.4% to $2.95bn; gold jewellery led at $1.19bn."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Angel One, India's gems and jewellery exports reach $2.95 billion in September 2026 (citing The Economic Times and GJEPC provisional data)",
+     "url": "https://www.angelone.in/news/economy/india-s-gems-and-jewellery-exports-reach-2-95-billion-in-september-2026",
+     "published": "2026-10-15"
+    }
+   ]
+  },
+  "next": {
+   "slug": "one-nineteen-billion-of-gold-jewellery",
+   "why": "The export side of the same September release."
+  },
+  "corrections": []
+ },
+ "eight-seventeen-carats-sells-under-its-low": {
+  "v": 3,
+  "kicker": "Auctions",
+  "figures": {
+   "asof": "Christie's Jewels Online, New York, 6 to 15 October 2026. Results as reported by Rapaport on 18 October 2026, read from its RSS feed body; estimates also in JCK's 9 October preview. Raw bytes at newsroom/sources/2026-10-19/desk: rapfeed.xml 54,832 bytes, jck_246431.html 113,866 bytes.",
+   "cells": [
+    {
+     "n": "$243,200",
+     "dir": "down",
+     "label": "8.17-carat D/IF ring",
+     "q": "low estimate $250,000",
+     "src": 1
+    },
+    {
+     "n": "$256,000",
+     "label": "Top lot, Graff ring",
+     "q": "inside $180,000–$280,000",
+     "src": 1
+    },
+    {
+     "n": "$9.3m",
+     "label": "Sale total",
+     "q": "6 to 15 October",
+     "src": 1
+    },
+    {
+     "n": "3.66x",
+     "dir": "up",
+     "label": "Bulgari earrings",
+     "q": "times the high estimate",
+     "src": 1
+    }
+   ]
+  },
+  "changed": {
+   "lead": "The headline lot missed its range.",
+   "text": "The 8.17-carat ring, offered without reserve, sold for $243,200, under its $250,000 low estimate. A Graff ring took the top price."
+  },
+  "means": [
+   {
+    "who": "If you price large D rounds:",
+    "text": "With no reserve, bidders set $243,200 on a D flawless 8-carat round. A Van Cleef D ring also missed its low."
+   },
+   {
+    "who": "If you consign signed coloured pieces:",
+    "text": "Two Bulgari lots made 2.56 and 3.66 times their highs."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A fall in D prices. Two lots is a small sample."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "The ten top lots against their estimates",
+   "hi": 1,
+   "asof": "Rapaport, 18 October 2026; estimates for the 8.17-carat ring and the Bulgari necklace also in JCK, 9 October 2026",
+   "cols": [
+    "Lot",
+    "Price",
+    "Estimate",
+    "Against the range"
+   ],
+   "rows": [
+    [
+     "Graff ring, 7.85ct D VS1",
+     "$256,000",
+     "$180,000–$280,000",
+     "Inside"
+    ],
+    [
+     "Ring, 8.17ct D IF round, no reserve",
+     "$243,200",
+     "$250,000–$350,000",
+     "2.7% below low"
+    ],
+    [
+     "Ring, 6.52ct D VVS1 heart",
+     "$204,800",
+     "$150,000–$250,000",
+     "Inside"
+    ],
+    [
+     "Unmounted 5.34ct D IF pear",
+     "$192,200",
+     "$120,000–$180,000",
+     "6.8% above high"
+    ],
+    [
+     "Necklace, 53 emerald-cut diamonds",
+     "$179,200",
+     "$130,000–$230,000",
+     "Inside"
+    ],
+    [
+     "Ring, 9.04ct I VS1, David Webb jacket",
+     "$166,400",
+     "$70,000–$100,000",
+     "66.4% above high"
+    ],
+    [
+     "Necklace, 47 fancy-light-yellow diamonds",
+     "$166,400",
+     "$120,000–$180,000",
+     "Inside"
+    ],
+    [
+     "Bulgari peridot and sapphire necklace",
+     "$153,600",
+     "$40,000–$60,000",
+     "2.56x high"
+    ],
+    [
+     "Van Cleef & Arpels ring, 5.22ct D VVS2",
+     "$140,800",
+     "$150,000–$250,000",
+     "6.1% below low"
+    ],
+    [
+     "Bulgari sapphire and emerald earrings",
+     "$128,000",
+     "$25,000–$35,000",
+     "3.66x high"
+    ]
+   ],
+   "note": "Carat Capital's division. 243,200 / 250,000 = 97.3% of the low, 2.7% below it. 140,800 / 150,000 = 93.9% of the low, 6.1% below. 192,200 / 180,000 = 1.068, 6.8% above the high. 166,400 / 100,000 = 1.664, 66.4% above. 153,600 / 60,000 = 2.56 times. 128,000 / 35,000 = 3.66 times. Rapaport labels each figure 'Sale Price' and does not say whether it includes the buyer's premium.",
+   "plate": "CC/2026/307"
+  },
+  "sections": [
+   {
+    "h": "Two D stones missed their lows",
+    "p": [
+     {
+      "lead": "No reserve, no floor.",
+      "text": "The 8.17-carat round sold 2.7% below its $250,000 low estimate. With no reserve, the bidding alone set the price.",
+      "links": {
+       "8.17-carat round": "a-three-fifty-on-an-eight-seventeen.html"
+      }
+     },
+     {
+      "lead": "A second D missed.",
+      "text": "A Van Cleef & Arpels ring with a 5.22-carat D stone made $140,800, under its $150,000 low."
+     },
+     {
+      "lead": "The top lot held.",
+      "text": "Graff's 7.85-carat D VS1 ring sold for $256,000, inside its range. The sale closed 15 October with $9.3 million."
+     }
+    ]
+   },
+   {
+    "h": "Signed coloured pieces ran ahead",
+    "p": [
+     {
+      "lead": "Bulgari led.",
+      "text": "A Bulgari peridot and sapphire necklace made $153,600, 2.56 times its $60,000 high estimate."
+     },
+     {
+      "lead": "Earrings went further.",
+      "text": "Bulgari sapphire and emerald earrings sold for $128,000, against a $35,000 high."
+     },
+     {
+      "lead": "A Webb pairing too.",
+      "text": "A 9.04-carat I VS1 ring sold with a David Webb ring jacket for $166,400, against a $100,000 high."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "December",
+    "what": "Christie's Magnificent Jewels and Jewels Online sales, which JCK says will offer more from the Joel Arem collection. A second reading on large D stones."
+   },
+   {
+    "when": "25–26 November",
+    "what": "Christie's Hong Kong sales, the house's next large test of top-end demand, in watches."
+   },
+   {
+    "when": "Q4 2026",
+    "what": "Whether other no-reserve D lots clear under their lows, or this stays one result."
+   }
+  ],
+  "depth": {
+   "reverse": "Large D rounds clearing above their high estimates at the December sales. Then this result reads as one online room on one day, not a price signal.",
+   "built": {
+    "title": "How an estimate range works",
+    "text": "An auction house sets a low and a high estimate from comparable sales. A reserve, usually at or below the low, is the price under which the lot does not sell. A lot without reserve sells to the top bidder at any price, so a result under the low is a market reading, not a failed sale."
+   },
+   "method": "Rapaport's article page returned a Cloudflare challenge, 403, on four identities this run. Its RSS feed, https://rapaport.com/feed/, returned 200, 54,832 bytes, saved at newsroom/sources/2026-10-19/desk/rapfeed.xml, and carries the full article body for 'Colorless Diamonds Dominate Top 10 at Christie's', pubDate Sun, 18 Oct 2026 13:28:49 +0000. Figures were read inside that item's own content block only. Grep on the saved bytes: '243,200' 1 hit, '256,000' 1, '9.3 million' 1, '153,600' 1, '128,000' 1, '140,800' 1, '166,400' 2, 'without a reserve' 2. JCK's 9 October preview, 'Christie's Jewels Online Sale Tops Out With an 8.17-Ct. Diamond Ring', by Annie Davidson Watson, 200, 113,866 bytes, carries the 8.17-carat estimate as $250,000 to $350,000 and the Bulgari peridot necklace at $40,000 to $60,000, both matching Rapaport. Christie's own lot pages render in the browser and were not read. ARCHIVE: articles.json 'Jewels Online' returns three-fifty-on-an-eight-seventeen (8 October), the pre-sale report. Ours covers the preview; this covers the result. SAME SALE, DIFFERENT STAGE, ADVANCED. That piece's 10 October disclosure on the low estimate is closed by a note added on 19 October.",
+   "prior": [
+    {
+     "date": "2026-10-08",
+     "slug": "three-fifty-on-an-eight-seventeen",
+     "claim": "Christie's offered the 8.17-carat D/IF ring at up to $350,000, no reserve."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Rapaport, Colorless Diamonds Dominate Top 10 at Christie's (read from the Rapaport RSS feed body)",
+     "url": "https://rapaport.com/news/colorless-diamonds-dominate-top-10-at-christies/",
+     "published": "2026-10-18T13:28:49Z"
+    },
+    {
+     "title": "JCK Online, Christie's Jewels Online Sale Tops Out With an 8.17-Ct. Diamond Ring, Annie Davidson Watson",
+     "url": "https://www.jckonline.com/editorial-article/christies-jewels-online-2026-2/",
+     "published": "2026-10-09"
+    }
+   ]
+  },
+  "next": {
+   "slug": "three-fifty-on-an-eight-seventeen",
+   "why": "The pre-sale report on the same ring, and the estimate question it left open."
+  },
+  "corrections": []
+ },
+ "census-puts-september-retail-at-seven-forty-five": {
+  "v": 3,
+  "kicker": "Retail & Technology",
+  "figures": {
+   "asof": "US Census Bureau, Advance Monthly Sales for Retail and Food Services, September 2026, CB26-165, released 15 October 2026 08:30 EDT. Seasonally adjusted, not adjusted for prices. Raw bytes at newsroom/sources/2026-10-19/desk/marts_current.pdf, 184,928 bytes.",
+   "cells": [
+    {
+     "n": "$745.0bn",
+     "dir": "up",
+     "label": "September sales",
+     "q": "±0.4 points on the month",
+     "src": 1
+    },
+    {
+     "n": "+6.3%",
+     "dir": "up",
+     "label": "Year on year",
+     "q": "±0.5 points",
+     "src": 1
+    },
+    {
+     "n": "$739.3bn",
+     "label": "August, revised",
+     "q": "first printed at $773.9bn",
+     "src": 1
+    },
+    {
+     "n": "+5.5%",
+     "dir": "up",
+     "label": "July to September",
+     "q": "on the same months of 2025",
+     "src": 1
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Spending rose again.",
+   "text": "US retail and food services sales rose 0.8% in September to $745.0 billion, the Census Bureau's advance estimate shows. August's gain was revised up to 1.3%."
+  },
+  "means": [
+   {
+    "who": "If you compare months:",
+    "text": "Use the revised series: August is $739.3 billion, not the $773.9 billion first printed."
+   },
+   {
+    "who": "If you sell jewellery:",
+    "text": "There is no jewellery line. NRF's clothing and accessories group, which includes jewellery, rose 2.2% on the year."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A weaker August. Census revised its history."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "The advance estimates, before and after the revision",
+   "hi": 0,
+   "asof": "Census Bureau CB26-165 (15 October 2026) and CB26-153 (16 September 2026); figures in brackets are the stated margins",
+   "cols": [
+    "Month",
+    "Level",
+    "Monthly change",
+    "Release"
+   ],
+   "rows": [
+    [
+     "September 2026",
+     "$745.0bn",
+     "+0.8% (±0.4)",
+     "CB26-165, 15 Oct"
+    ],
+    [
+     "August 2026, revised",
+     "$739.3bn",
+     "+1.3% (±0.1)",
+     "CB26-165, 15 Oct"
+    ],
+    [
+     "August 2026, advance",
+     "$773.9bn",
+     "+1.2% (±0.4)",
+     "CB26-153, 16 Sep"
+    ],
+    [
+     "July 2026, as revised in September",
+     "$764.5bn",
+     "−0.5% (±0.2)",
+     "CB26-153, 16 Sep"
+    ]
+   ],
+   "note": "Carat Capital's division: 739.3 / 773.9 = 0.955, so the revised August level is 4.5% below its advance print. CB26-165 says August's monthly change was revised from up 1.1% to up 1.3%; CB26-153 had printed 1.2%. The 1.1% is the figure carried after the 28 September annual revision, which Census says restated monthly estimates on its 2023 and 2024 Annual Integrated Economic Survey. The July and August levels in different rows sit on different bases and should not be compared with each other.",
+   "plate": "CC/2026/308"
+  },
+  "sections": [
+   {
+    "h": "The series was rebased",
+    "p": [
+     {
+      "lead": "History moved on 28 September.",
+      "text": "Census revised monthly retail estimates using its 2023 and 2024 Annual Integrated Economic Survey. The August release now says it no longer carries the latest estimates."
+     },
+     {
+      "lead": "The year looks firmer.",
+      "text": "Sales were 6.3% above September 2025. July to September ran 5.5% above the same months a year earlier."
+     },
+     {
+      "lead": "August sits lower.",
+      "text": "August stands at $739.3 billion in the October release, 4.5% below the $773.9 billion first printed.",
+      "links": {
+       "first printed": "a-seven-seventy-three-nine-in-august.html"
+      }
+     }
+    ]
+   },
+   {
+    "h": "Jewellery has no line",
+    "p": [
+     {
+      "lead": "No category exists.",
+      "text": "The advance release publishes no jewellery store category, so the trade reads it only as a measure of overall demand."
+     },
+     {
+      "lead": "NRF's proxy rose.",
+      "text": "NRF's card-based data put clothing and accessories, which includes jewellery, up 2.2% on the year and 0.5% on the month, Rapaport reports."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "17 November",
+    "what": "October's advance estimate, the first month of the holiday quarter."
+   },
+   {
+    "when": "November–December",
+    "what": "Whether holiday spending tracks NRF's $1.013 trillion forecast."
+   },
+   {
+    "when": "Ongoing",
+    "what": "Further revisions to August and September in the next two releases."
+   }
+  ],
+  "depth": {
+   "reverse": "A large downward revision to September in the 17 November release. That would turn a second monthly gain into a flat quarter.",
+   "built": {
+    "title": "How the advance estimate is built",
+    "text": "Census surveys a sample of retailers about two weeks after each month ends and publishes an advance estimate, adjusted for season, holidays and trading days but not for prices. It is revised in the following two releases and rebased each year on the annual survey."
+   },
+   "method": "Census CB26-165, https://www.census.gov/retail/marts/www/marts_current.pdf, fetched 19 October 2026, 200, 184,928 bytes, and CB26-153, https://www2.census.gov/retail/releases/historical/marts/adv2608.pdf, 200, 375,380 bytes, both saved at newsroom/sources/2026-10-19/desk. Grep on the extracted text: CB26-165 '745.0' 2 hits, '739.3' 1, '6.3 percent' 1, '5.5 percent' 1, '1.3 percent' 1, 'September 28, 2026' 1; CB26-153 '773.9' 2, '1.2 percent' 2, '764.5' 1. Neither release text contains 'jewel'. The NRF clothing and accessories figure is from Rapaport's 18 October report, read from its RSS feed body (rapfeed.xml, 54,832 bytes): '2.2%' 1 hit. Rapaport rounds the yearly rise to 6% and gives July to September as 6%; Census prints 6.3% and 5.5%, and Census is printed here. Carat Capital's 24 September report printed $773.9bn, which CB26-153 carried and which was correct as published; the revision is disclosed here, not corrected there. ARCHIVE: seven-seventy-three-nine-in-august covers August; this covers September. ADVANCED.",
+   "prior": [
+    {
+     "date": "2026-10-18",
+     "slug": "one-point-oh-one-three-trillion-for-the-holidays",
+     "claim": "NRF forecasts holiday sales of $1.013tn, up as much as 4.2%."
+    },
+    {
+     "date": "2026-09-24",
+     "slug": "seven-seventy-three-nine-in-august",
+     "claim": "Census advance estimate put August at $773.9bn, up 1.2%, no jewellery line."
+    }
+   ],
+   "sources": [
+    {
+     "title": "US Census Bureau, Advance Monthly Sales for Retail and Food Services, September 2026, CB26-165",
+     "url": "https://www.census.gov/retail/marts/www/marts_current.pdf",
+     "published": "2026-10-15T12:30:00Z"
+    },
+    {
+     "title": "US Census Bureau, Advance Monthly Sales for Retail and Food Services, August 2026, CB26-153 (with its notice of revision)",
+     "url": "https://www2.census.gov/retail/releases/historical/marts/adv2608.pdf",
+     "published": "2026-09-16T12:30:00Z"
+    },
+    {
+     "title": "Rapaport, US Retail Sales Continue to Rise in September (read from the Rapaport RSS feed body)",
+     "url": "https://rapaport.com/news/us-retail-sales-continue-to-rise-in-september/",
+     "published": "2026-10-18T13:54:08Z"
+    }
+   ]
+  },
+  "next": {
+   "slug": "one-point-oh-one-three-trillion-for-the-holidays",
+   "why": "The holiday forecast these monthly figures will be measured against."
+  },
+  "corrections": []
+ },
+ "namdeb-asks-namibia-for-fresh-capital": {
+  "v": 3,
+  "kicker": "Diamonds & Rough",
+  "figures": {
+   "asof": "The Namibian, 15 October 2026, reporting the finance minister's remarks of 14 October and Namibia's 2024/25 budget. Raw bytes saved at newsroom/sources/2026-10-19/desk/namibian.html, 119,565 bytes.",
+   "cells": [
+    {
+     "n": "N$13bn",
+     "dir": "down",
+     "label": "Value lost since mid-2022",
+     "q": "Namdeb's own estimate",
+     "src": 1
+    },
+    {
+     "n": "−60%",
+     "dir": "down",
+     "label": "Revenue against forecast",
+     "q": "per chief executive Riaan Burger",
+     "src": 1
+    },
+    {
+     "n": "50:50",
+     "label": "Ownership",
+     "q": "Namibian state and De Beers",
+     "src": 1
+    },
+    {
+     "n": "N$1.16bn",
+     "label": "Diamond royalties, 2024/25",
+     "q": "plus N$239m corporate tax",
+     "src": 1
+    }
+   ]
+  },
+  "changed": {
+   "lead": "The producer wants its owners to pay in.",
+   "text": "Namdeb Holdings, which owns Namdeb and Debmarine Namibia, approached the government in September proposing a recapitalisation, the finance minister told The Namibian. The amount is not yet known."
+  },
+  "means": [
+   {
+    "who": "If you buy Namibian rough:",
+    "text": "The producer is asking its owners for capital. No change to output or sales is announced."
+   },
+   {
+    "who": "If you follow the De Beers sale:",
+    "text": "De Beers owns half, so a recapitalisation falls partly on whoever owns De Beers."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A bailout. No amount is named, and Namdeb declined to comment."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "What the request sits on",
+   "hi": 0,
+   "asof": "The Namibian, 15 October 2026",
+   "cols": [
+    "Measure",
+    "Figure",
+    "Who says so"
+   ],
+   "rows": [
+    [
+     "Value lost since mid-2022",
+     "Nearly N$13bn",
+     "Namdeb, August 2026"
+    ],
+    [
+     "Revenue against pre-slump forecast",
+     "60% lower",
+     "Chief executive Riaan Burger"
+    ],
+    [
+     "Diamond miners' corporate tax, 2024/25",
+     "N$239m",
+     "Namibia's budget"
+    ],
+    [
+     "Diamond miners' royalties, 2024/25",
+     "N$1.16bn",
+     "Namibia's budget"
+    ],
+    [
+     "Diamond revenue to the state, at its height",
+     "Up to N$5bn a year",
+     "Finance minister Ericah Shafudah"
+    ]
+   ],
+   "note": "Every figure is The Namibian's report of what each person or document said; none is Carat Capital's arithmetic. The N$13bn is described by Burger as net present value. The tax and royalty figures cover all diamond mining companies, not Namdeb alone.",
+   "plate": "CC/2026/309"
+  },
+  "sections": [
+   {
+    "h": "The state is half the owner",
+    "p": [
+     {
+      "lead": "A 50:50 company.",
+      "text": "Namibia and De Beers each own half of Namdeb Holdings. Shafudah said the request is unusual for a company once asked only about dividends."
+     },
+     {
+      "lead": "The revenue already fell.",
+      "text": "Diamond miners paid N$239 million in corporate tax and N$1.16 billion in royalties in 2024/25, the budget shows. Diamonds once yielded up to N$5 billion a year, Shafudah said."
+     }
+    ]
+   },
+   {
+    "h": "No amount, no comment",
+    "p": [
+     {
+      "lead": "Forecasts were missed.",
+      "text": "Chief executive Riaan Burger says revenue has run 60% below what Namdeb forecast before prices fell."
+     },
+     {
+      "lead": "The proposal is unfinished.",
+      "text": "Shafudah said Namdeb has not finalised its proposal, so the government does not yet know how much it needs. She did not say what the capital would fund."
+     },
+     {
+      "lead": "The board escalated it.",
+      "text": "Board chair Alex Gawanab said management has contingency plans for worst-case scenarios. Spokesperson Grace Luvindao declined to comment."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Q4 2026",
+    "what": "Whether Namdeb finalises its proposal and names an amount."
+   },
+   {
+    "when": "Q4 2026",
+    "what": "The De Beers sale process, since half of any capital call on Namdeb falls on De Beers' owner."
+   },
+   {
+    "when": "Next budget update",
+    "what": "Namibia's revised diamond revenue, which the minister says has been cut."
+   }
+  ],
+  "depth": {
+   "reverse": "A statement from Namdeb or De Beers that the capital is for a specific project, such as a new vessel or mine extension, rather than for operations. Then this is investment, not distress.",
+   "built": {
+    "title": "How Namdeb is owned",
+    "text": "Namdeb Holdings is a 50:50 joint venture of the Namibian state and De Beers. It owns Namdeb, which mines on land and along the coast, and Debmarine Namibia, which mines offshore. A recapitalisation asks both owners for new equity in proportion to their stakes."
+   },
+   "method": "The Namibian, 'Namdeb, Debmarine ask govt for relief as prices drop', by Nishi Felton, 15 October 2026, fetched 19 October 2026 with a browser identity, 200, 119,565 bytes, saved at newsroom/sources/2026-10-19/desk/namibian.html. Figures read in the article's own body. Grep on the saved bytes: 'recapitalisation' 2 hits, 'Shafudah' 5, '15 October 2026' 1, 'N$239' 1, 'N$1.16' 1, 'N$13' 2, '50:50' 1, 'N$5 billion' 1, 'Gawanab' 2, 'Luvindao' 1. Single source: a web search found no second outlet with the minister's remarks, and wires were not searched. The ownership description in 'How Namdeb is owned' is general knowledge of the joint venture, not from this report. ARCHIVE: website/content/articles.json, 'Namdeb' returns namibia-unveils-a-176-29-carat-rough (6 October, a stone); 'recapitalisation' and 'Debmarine' return no rows. NEW.",
+   "prior": [
+    {
+     "date": "2026-10-18",
+     "slug": "richemont-and-signet-weigh-the-de-beers-bid",
+     "claim": "Richemont and Signet weigh joining the consortium bidding for De Beers."
+    },
+    {
+     "date": "2026-10-06",
+     "slug": "namibia-unveils-a-176-29-carat-rough",
+     "claim": "Namibia unveiled a 176.29-carat diamond found on 10 May."
+    }
+   ],
+   "sources": [
+    {
+     "title": "The Namibian, Namdeb, Debmarine ask govt for relief as prices drop, Nishi Felton",
+     "url": "https://www.namibian.com.na/namdeb-debmarine-ask-govt-for-relief-as-prices-drop/",
+     "published": "2026-10-15"
+    }
+   ]
+  },
+  "next": {
+   "slug": "richemont-and-signet-weigh-the-de-beers-bid",
+   "why": "Who may own the other half of Namdeb Holdings."
+  },
+  "corrections": []
  }
 }

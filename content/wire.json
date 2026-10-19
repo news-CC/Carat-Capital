@@ -1,41 +1,41 @@
 {
  "date_line": "Sunday, October 18, 2026 | Vol. I - No. 090",
- "edition": "Vol. I - No. 090",
+ "edition": "Vol. I - No. 091",
  "items": [
   {
-   "slug": "de-beers-tenders-in-ramat-gan",
+   "slug": "petra-treasury-unit-is-wound-up",
    "desk": "Diamonds & Rough",
-   "title": "De Beers tenders rough in Ramat Gan after nine years"
+   "title": "Court winds up Petra's treasury unit over £5.65m tax claim"
   },
   {
-   "slug": "eighty-six-forty-seven-lakh-in-sardarnagar",
-   "desk": "Retail & Technology",
-   "title": "₹86.47 lakh of gold and silver never reach a Sardarnagar buyer"
-  },
-  {
-   "slug": "silver-sheds-six-point-one-four",
+   "slug": "india-gold-imports-fall-eighty-one-percent",
    "desk": "Gold & Metals",
-   "title": "Silver sheds 6.14% over five sessions, gold barely moves"
+   "title": "India's gold imports fall 81.27% to $1.8bn in September"
   },
   {
-   "slug": "patek-2499-leads-phillips-new-york",
-   "desk": "Watches",
-   "title": "Patek 2499 in pink gold leads Phillips at over $3m"
-  },
-  {
-   "slug": "twenty-seven-one-million-in-luanda",
+   "slug": "india-rough-imports-rise-in-carats",
    "desk": "Diamonds & Rough",
-   "title": "TAGS sells 1,721 carats for $27.1m at a Luanda tender"
+   "title": "India's rough imports rise 65.65% in carats, 15.14% in value"
+  },
+  {
+   "slug": "eight-seventeen-carats-sells-under-its-low",
+   "desk": "Auctions",
+   "title": "Christie's 8.17-carat D/IF ring sells for $243,200, below estimate"
+  },
+  {
+   "slug": "namdeb-asks-namibia-for-fresh-capital",
+   "desk": "Diamonds & Rough",
+   "title": "Namdeb asks Namibia for fresh capital as diamond revenue falls"
   }
  ],
- "tape_ts": "Kitco bid, 05:00 mark 18 October 2026 (board's last tick 16 Oct 17:00 UTC, frozen through the weekend) · newsroom/tape/2026-10-18.json",
+ "tape_ts": "Kitco bid, board stamp 2026-10-19T04:58:57.297Z, tape's 05:00 ET opening mark 19 Oct",
  "tape": [
   {
    "name": "Gold / oz",
    "code": "XAU",
-   "px": "4,164.10",
-   "chg": "unch. vs 17 Oct mark",
-   "dir": "flat",
+   "px": "4,170.30",
+   "chg": "+0.1489% vs 18 Oct mark",
+   "dir": "up",
    "pts": [
     2,
     5,
@@ -90,9 +90,9 @@
   {
    "name": "Platinum / oz",
    "code": "XPT",
-   "px": "1,626.00",
-   "chg": "unch. vs 17 Oct mark",
-   "dir": "flat",
+   "px": "1,644.00",
+   "chg": "+1.1070% vs 18 Oct mark",
+   "dir": "up",
    "pts": [
     2,
     2,
@@ -109,9 +109,9 @@
   {
    "name": "Silver / oz",
    "code": "XAG",
-   "px": "56.866",
-   "chg": "unch. vs 17 Oct mark",
-   "dir": "flat",
+   "px": "57.374",
+   "chg": "+0.8933% vs 18 Oct mark",
+   "dir": "up",
    "pts": [
     2,
     2,
@@ -126,5 +126,5 @@
    ]
   }
  ],
- "editionDate": "2026-10-18"
+ "editionDate": "2026-10-19"
 }
