@@ -1,6 +1,6 @@
 {
  "date_line": "Sunday, October 18, 2026 | Vol. I - No. 090",
- "edition": "Vol. I - No. 091",
+ "edition": "Vol. I - No. 092",
  "items": [
   {
    "slug": "petra-treasury-unit-is-wound-up",
@@ -28,14 +28,14 @@
    "title": "Namdeb asks Namibia for fresh capital as diamond revenue falls"
   }
  ],
- "tape_ts": "Kitco bid, board stamp 2026-10-19T04:58:57.297Z, tape's 05:00 ET opening mark 19 Oct",
+ "tape_ts": "Kitco bid, board stamp 2026-10-20T04:58:56.833Z, tape's 05:00 ET opening mark 20 Oct",
  "tape": [
   {
    "name": "Gold / oz",
    "code": "XAU",
-   "px": "4,170.30",
-   "chg": "+0.1489% vs 18 Oct mark",
-   "dir": "up",
+   "px": "4,119.90",
+   "chg": "-1.2085% vs 19 Oct mark",
+   "dir": "down",
    "pts": [
     2,
     5,
@@ -90,9 +90,9 @@
   {
    "name": "Platinum / oz",
    "code": "XPT",
-   "px": "1,644.00",
-   "chg": "+1.1070% vs 18 Oct mark",
-   "dir": "up",
+   "px": "1,637.00",
+   "chg": "-0.4258% vs 19 Oct mark",
+   "dir": "down",
    "pts": [
     2,
     2,
@@ -109,9 +109,9 @@
   {
    "name": "Silver / oz",
    "code": "XAG",
-   "px": "57.374",
-   "chg": "+0.8933% vs 18 Oct mark",
-   "dir": "up",
+   "px": "57.193",
+   "chg": "-0.3155% vs 19 Oct mark",
+   "dir": "down",
    "pts": [
     2,
     2,
@@ -126,5 +126,5 @@
    ]
   }
  ],
- "editionDate": "2026-10-19"
+ "editionDate": "2026-10-20"
 }

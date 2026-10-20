@@ -56233,7 +56233,7 @@
     "p": [
      {
       "lead": "The June quarter explains where the bid sits.",
-      "text": "De Beers dug 88% more rough than a year earlier, 7.8 million carats, and banked 44% less for it: revenue of $665 million at an average price of $105 a carat, down 32%."
+      "text": "De Beers dug 88% more rough than a year earlier, 7.8 million carats, and banked 44% less for it: revenue of $665 million at an average price of $110 a carat, down 37%."
      },
      {
       "lead": "",
@@ -56298,7 +56298,9 @@
      "url": "https://www.debeersgroup.com/news-insights/latest-group-news/2026/production-report-for-the-second-quarter-of-2026"
     }
    ],
-   "corrections": []
+   "corrections": [
+    "Correction, 20 October 2026: this article as published gave the June quarter's average price as $105 a carat, down 32%. That is De Beers' first-half figure. De Beers' Q2 2026 production report, re-read on 20 October 2026, 123,318 bytes, says 'The H1 2026 consolidated average realised price declined by 32% to $105/carat'; its table gives the second quarter at $110, down 37%, with the price index at 69, down 17%. The sentence now carries the quarter's $110, down 37%. What was right as published: the 88% production rise, the 7.8 million carats and the $665 million. Found by this paper's Editor on 20 October 2026."
+   ]
   },
   "next": {
    "slug": "de-beers-eighty-eight-up",
@@ -56416,7 +56418,8 @@
      }
     ]
    }
-  }
+  },
+  "modified": "2026-10-20"
  },
  "angolas-rough-clears": {
   "v": 3,
@@ -56459,8 +56462,8 @@
     },
     {
      "l": "De Beers, Q2 2026",
-     "v": 105.0,
-     "d": "$105",
+     "v": 110.0,
+     "d": "$110",
      "hi": false
     }
    ],
@@ -56499,7 +56502,7 @@
     ],
     [
      "De Beers, Q2 2026",
-     "$105"
+     "$110"
     ]
    ],
    "hi": 0,
@@ -56529,7 +56532,7 @@
     "p": [
      {
       "lead": "The split is by size, not by geography.",
-      "text": "In the same soft market, Petra's fourth-quarter revenue fell 44% to $38 million on weak tender prices and small goods, and De Beers' average price dropped 32% to $105 a carat."
+      "text": "In the same soft market, Petra's fourth-quarter revenue fell 44% to $38 million on weak tender prices and small goods, and De Beers' second-quarter average price dropped 37% to $110 a carat."
      },
      {
       "lead": "",
@@ -56595,7 +56598,8 @@
     }
    ],
    "corrections": [
-    "Correction, 24 August 2026: this article as published compared Gem Diamonds' average of roughly $1,501 a carat with Petra's fourth quarter and De Beers' second quarter without saying which period the Gem figure covered. It is Gem Diamonds' first quarter of 2026, and the label has been added here and to Plate I. The figure was correct for that quarter and is unchanged. Gem Diamonds has since published a first-half average of $1,395 a carat on 42,624 carats, up 38% from $1,008, which is the number to set against a half-year comparison. Nothing about the Angolan results in this article, the 95% TAGS sell-through or Sodiam's $21.7 million, is affected."
+    "Correction, 24 August 2026: this article as published compared Gem Diamonds' average of roughly $1,501 a carat with Petra's fourth quarter and De Beers' second quarter without saying which period the Gem figure covered. It is Gem Diamonds' first quarter of 2026, and the label has been added here and to Plate I. The figure was correct for that quarter and is unchanged. Gem Diamonds has since published a first-half average of $1,395 a carat on 42,624 carats, up 38% from $1,008, which is the number to set against a half-year comparison. Nothing about the Angolan results in this article, the 95% TAGS sell-through or Sodiam's $21.7 million, is affected.",
+    "Correction, 20 October 2026: this article as published gave De Beers' second-quarter average price as $105 a carat, down 32%. That is its first-half figure. De Beers' Q2 2026 production report, re-read on 20 October 2026, 123,318 bytes, says 'The H1 2026 consolidated average realised price declined by 32% to $105/carat'; its table gives the second quarter at $110, down 37%, with the price index at 69, down 17%. The text and Plate I now carry the quarter's $110, down 37%, which keeps the plate's note that the De Beers figure is its second quarter true. What was right as published: the Angolan results, the 95% TAGS sell-through, Sodiam's $21.7 million and the Petra and Gem Diamonds figures. Found by this paper's Editor on 20 October 2026."
    ]
   },
   "next": {
@@ -56644,8 +56648,8 @@
       },
       {
        "l": "DE BEERS, Q2 2026",
-       "v": 105,
-       "d": "$105"
+       "v": 110,
+       "d": "$110"
       }
      ],
      "note": "USD per carat. Large-stone producers against the mainstream rough book. The Gem Diamonds figure is its first quarter of 2026; the De Beers figure is its second quarter. The two are not the same period and are set side by side as orders of magnitude, not as a like-for-like comparison. Gem Diamonds' first-half average, published 28 July, is $1,395 a carat.",
@@ -56713,7 +56717,8 @@
      }
     ]
    }
-  }
+  },
+  "modified": "2026-10-20"
  },
  "gold-unwinds-the-hold": {
   "v": 3,
@@ -67278,7 +67283,7 @@
      },
      {
       "lead": "The house being sold is priced at a cyclical low.",
-      "text": "De Beers reported an estimated first-half loss, with second-quarter rough sales down 44% year on year to $665 million and the average realized price down 32% to $105 a carat, even as production rose 88% in the quarter to leave first-half output up 46%."
+      "text": "De Beers reported an estimated first-half loss, with second-quarter rough sales down 44% year on year to $665 million and the first-half average realized price down 32% to $105 a carat, even as production rose 88% in the quarter to leave first-half output up 46%."
      },
      {
       "lead": "",
@@ -67348,7 +67353,9 @@
      "url": "https://www.miningweekly.com/article/de-beers-rough-diamond-production-increases-but-prices-demand-remain-under-pressure-2026-07-23"
     }
    ],
-   "corrections": []
+   "corrections": [
+    "Correction, 20 October 2026: this article as published set the $105 a carat, down 32%, in a sentence about the second quarter. It is De Beers' first-half average, as the figures panel already said. De Beers' Q2 2026 production report, re-read on 20 October 2026, 123,318 bytes, says 'The H1 2026 consolidated average realised price declined by 32% to $105/carat'; its table gives the second quarter at $110, down 37%, with the price index at 69, down 17%. The sentence now says first-half. What was right as published: every figure, including the $665 million second-quarter sales and the 88% production rise. Found by this paper's Editor on 20 October 2026."
+   ]
   },
   "next": {
    "slug": "de-beers-eighty-eight-up",
@@ -67469,7 +67476,8 @@
      }
     ]
    }
-  }
+  },
+  "modified": "2026-10-20"
  },
  "pearls-keep-a-lane": {
   "v": 3,
@@ -69783,15 +69791,15 @@
      "q": ""
     },
     {
-     "n": "$105",
+     "n": "$110",
      "dir": "dn",
-     "label": "average price / carat",
+     "label": "average price / carat, Q2",
      "q": ""
     },
     {
-     "n": "−16%",
+     "n": "−17%",
      "dir": "dn",
-     "label": "rough price index, YoY",
+     "label": "rough price index, Q2 YoY",
      "q": ""
     },
     {
@@ -69889,7 +69897,7 @@
      },
      {
       "lead": "The price line tells the opposite story.",
-      "text": "The average realised price fell 32% year on year to $105 a carat, and De Beers' rough price index, its measure of like-for-like pricing, was down 16%."
+      "text": "The quarter's average realised price fell 37% year on year to $110 a carat, and De Beers' rough price index, its measure of like-for-like pricing, was down 17%. Over the first half the average was $105, down 32%."
      },
      {
       "lead": "",
@@ -69967,7 +69975,9 @@
      "url": "https://rapaport.com/news/anglo-american-flags-first-half-loss-at-de-beers/"
     }
    ],
-   "corrections": []
+   "corrections": [
+    "Correction, 20 October 2026: this article as published gave the second quarter's average realised price as $105 a carat, down 32%, and the price index as down 16%. Those are De Beers' first-half figures. De Beers' Q2 2026 production report, re-read on 20 October 2026, 123,318 bytes, says 'The H1 2026 consolidated average realised price declined by 32% to $105/carat'; its table gives the second quarter at $110, down 37%, with the price index at 69, down 17%. The dek, figures and body now carry the quarter's $110, down 37%, and index down 17%; the first-half $105 is kept and labelled. Where the error came from: the release's prose gives the H1 price, and the desk read it as the quarter's. What was right as published: the 7.8 million carats, the 88% rise, the $665 million and its 44% fall, and the $1.31 billion first-half revenue. Found by this paper's Editor on 20 October 2026."
+   ]
   },
   "next": {
    "slug": "twelve-hundred-at-venetia",
@@ -69985,14 +69995,14 @@
       "lab": "carats mined, Q2"
      },
      {
-      "fig": "$105",
-      "delta": "▼ −32%",
+      "fig": "$110",
+      "delta": "▼ −37%",
       "dir": "dn",
-      "lab": "average price / carat"
+      "lab": "average price / carat, Q2"
      },
      {
-      "fig": "−16%",
-      "lab": "rough price index, YoY"
+      "fig": "−17%",
+      "lab": "rough price index, Q2 YoY"
      },
      {
       "fig": "$665M",
@@ -70095,7 +70105,8 @@
      }
     ]
    }
-  }
+  },
+  "modified": "2026-10-20"
  },
  "gold-defends-four-thousand-again": {
   "v": 3,
@@ -142306,7 +142317,7 @@
   "v": 3,
   "kicker": "Gold & Metals",
   "figures": {
-   "asof": "India's September gem and jewellery export figures as reported by JCK Online on 15 October 2026, attributed there to the Gem & Jewellery Export Promotion Council, read from raw bytes saved as newsroom/sources/2026-10-18/desk/jck_take5.html, 200, 114,249 bytes. GJEPC's own trade-data page (32,404 bytes) and press-release page (196,776 bytes) were both fetched in this run and carry none of these figures, so this is a single-source filing and is labelled as one. Category shares are Carat Capital's division.",
+   "asof": "GJEPC's own statement of 14 October 2026, re-read at newsroom/sources/2026-10-20/desk/gjepc-sep.html, 200, 38,669 bytes, fetched 06:00 EDT 20 October 2026, and JCK Online's report of 15 October 2026, saved at newsroom/sources/2026-10-18/desk/jck_take5.html, 114,249 bytes. The two agree. Category shares are Carat Capital's division.",
    "cells": [
     {
      "n": "$1.19bn",
@@ -142349,14 +142360,14 @@
    },
    {
     "who": "What this is not:",
-    "text": "A figure read off the council's own page. Its trade-data and press pages were both fetched on 18 October and neither carries the September release."
+    "text": "A volume count. Every line is dollar value, so a 34% rise can mean more gold, dearer gold, or both."
    }
   ],
   "visual": {
    "type": "table",
    "cap": "September's categories, and the six months behind them",
    "hi": 0,
-   "asof": "GJEPC figures via JCK Online, 15 October 2026. Shares of the monthly total are Carat Capital's division",
+   "asof": "GJEPC statement, 14 October 2026, and JCK Online, 15 October 2026. Shares of the monthly total are Carat Capital's division",
    "cols": [
     "Category",
     "September",
@@ -142374,7 +142385,7 @@
      "Gold jewellery",
      "$1.19bn",
      "+34%",
-     "Not given"
+     "$6.23bn, +11.37%"
     ],
     [
      "Studded gold jewellery",
@@ -142402,8 +142413,8 @@
     ],
     [
      "Silver jewellery",
-     "Not given",
-     "Declined",
+     "$134.5m",
+     "-12.49%",
      "$729.3m, +23.1%"
     ]
    ],
@@ -142469,21 +142480,21 @@
     "what": "October's monthly release, which would show whether studded gold holds a growth rate above 50%."
    },
    {
-    "when": "When published",
-    "what": "GJEPC's own posting of the September data. Neither of its two pages carried it when both were fetched today."
-   },
-   {
     "when": "Ongoing",
     "what": "Whether natural polished turns positive in dollars. It has risen in rupees while falling in dollars."
+   },
+   {
+    "when": "Monthly",
+    "what": "Whether studded gold keeps its six-month gain of 31.3%. The council's chairman credits the India-UK trade agreement and lower US tariffs."
    }
   ],
   "depth": {
-   "reverse": "The council's own release reading differently. Every figure in this article is taken from one trade report of a GJEPC release, and GJEPC's own two public doors were checked in this run and carry none of it. If the council's published table gives a different monthly total or a different category split, this article is wrong in whichever cell differs, and there is no second source here to catch it. The internal checks available were applied instead: the category shares were recomputed from the published monthly total, and the two opposing 8.8% figures were separated by period rather than reconciled.",
+   "reverse": "The October figures. GJEPC's own statement and JCK's report agree on every figure here, so the risk is not the reading but the trend: if studded gold slows sharply in October, September's 50.2% was a single strong month, not a shift in what India exports.",
    "built": {
     "title": "Why a dollar fall and a rupee rise are both true",
     "text": "India exports jewellery priced in dollars and keeps its accounts in rupees, so every export figure has two growth rates and the gap between them is the currency's move over the same window. September's cut and polished natural diamond exports fell 5.4% in dollars and rose 2.2% in rupees, which is not a contradiction: it is the rupee having weakened against the dollar by roughly the difference. Neither figure is the more honest one. A Surat cutter paying wages in rupees experienced a rising business; an Antwerp dealer paying in dollars experienced a cheaper supplier. The same two-currency effect runs the other way through the gold jewellery line, and it is the reason the six-month plain gold figure looks so much worse than the monthly one. Plain gold jewellery is sold largely by weight with a thin making charge, so when bullion rises 31.2% year on year to $4,415.70 an ounce, the dollar value of a given tonnage rises while the tonnage a buyer can afford falls. Studded jewellery carries stones and labour that do not move with the gold price, so the same bullion move compresses it far less. That is the mechanism behind a month in which studded gold grew 50.2% and plain gold grew 8.8%, and behind a half-year in which plain gold fell 8.8% outright. The metal did not help both lines equally because the metal is a different share of each."
    },
-   "method": "The figures were read from JCK Online's Take 5 column of 15 October 2026, fetched in this run with a browser identity and saved as raw bytes: www.jckonline.com/editorial-article/jck-take-5-new-plumb-club-members/, 200, 114,249 bytes, at newsroom/sources/2026-10-18/desk/jck_take5.html. The publisher's feed, newsroom/sources/2026-10-18/desk/jck_feed.xml, 200, 78,292 bytes, carries the item with its own pubDate of Thu, 15 Oct 2026 16:30:14 +0000, which is how the date was established. Every figure printed here was grepped against the saved bytes before being written, each returning one hit: '9.4%', '2.95 billion', '34%', '1.19 billion', '50.2%', '812.6', '378 million', '5.4%', '1.29 billion', '2.2%', '40.7%', '151.4', '14.3 billion', '5.81', '8.398', '4.6%', '31.2%', '4,415.70', '2.53 billion', 'Kirit Bhansali', 'gradual recovery'. SECOND DOORS, both tried in this run and both negative, with byte counts: gjepc.org/gem-and-jewellery-export-import-data.php, 200, 32,404 bytes, greps for '2.95', '9.4', '14.3' and '1.19' return 0 hits each; gjepc.org/press_release.php, 200, 196,776 bytes, greps for '2.95' and '9.4' return 0 hits each. Rapaport's feed, newsroom/sources/2026-10-18/desk/rapaport_feed.xml, 200, 44,609 bytes, carries no GJEPC item in its ten entries. This is therefore a single-source filing and says so on the page. ARCHIVE, by entity and by period, hits opened and read: 'GJEPC' returns 31 hits in website/content/articles.json; the three newest, 2026-10-07 (the Unnati centre in Surat) and two dated 2026-10-10 (sanctioning without an officer, and old-gold payment shares), were opened and none reports monthly export data. The four 'Bhansali' hits were opened; the newest, 2026-10-07, quotes him on a training centre, not on exports. Period test on the figures themselves: '1.19 billion' 0 hits, '812.6' 0 hits, '14.3 billion' 0 hits and '8.398' 0 hits across the whole archive. SAME COUNCIL, NEW REPORTING PERIOD - the archive covers GJEPC's institutional news through 10 October and has never carried the SEPTEMBER 2026 monthly export print or the April-September half. NEW. This release was also the item the release calendar listed as due and unmet this morning; it is out, carried by the trade press rather than by the council's own pages.",
+   "method": "The figures were read from GJEPC's own statement, 'India's Gem & Jewellery Exports Continue to Grow, Rising 9.43% to US$ 2.95 Billion in September 2026', dated Oct 14, 2026 in its body, at https://gjepc.org/news_detail.php?news=india-s-gem-jewellery-exports-continue-to-grow-rising-9-43-to-us-2-95-billion-in-september-2026-1, re-read at newsroom/sources/2026-10-20/desk/gjepc-sep.html, 200, 38,669 bytes, fetched 06:00 EDT 20 October 2026. Greps on those bytes: '2.95' 7 hits, '9.43' 8, '1.19 billion' 1, '34.01' 1, '1.29 billion' 1, '5.44' 1, '151.43' 1, '40.72' 1, '5.81 billion' 2, '6.96' 2, '4.64' 1, 'Kirit Bhansali' 1. The second reading is JCK Online's Take 5 column of 15 October 2026, fetched 18 October and saved at newsroom/sources/2026-10-18/desk/jck_take5.html, 200, 114,249 bytes, whose rounded figures ('9.4%', '1.19 billion', '50.2%', '812.6', '378 million', '5.4%', '40.7%', '8.398', '4,415.70', '2.53 billion', 'gradual recovery') each return one hit. On 18 October the desk opened gjepc.org/gem-and-jewellery-export-import-data.php (32,404 bytes) and gjepc.org/press_release.php (196,776 bytes); the statement sits on the council's news page, linked from its homepage. ARCHIVE, by entity and period: 'GJEPC' returned 31 hits in website/content/articles.json on 18 October; the newest, covering the Unnati centre and two 10 October items, carry no monthly export data. '1.19 billion', '812.6', '14.3 billion' and '8.398' returned 0 hits. Same council, new reporting period: NEW.",
    "prior": [
     {
      "date": "2026-10-07",
@@ -142498,25 +142509,24 @@
    ],
    "sources": [
     {
+     "title": "GJEPC, India's Gem & Jewellery Exports Continue to Grow, Rising 9.43% to US$ 2.95 Billion in September 2026 (the council's own statement, dated 14 October 2026, re-read 20 October 2026)",
+     "url": "https://gjepc.org/news_detail.php?news=india-s-gem-jewellery-exports-continue-to-grow-rising-9-43-to-us-2-95-billion-in-september-2026-1",
+     "published": "2026-10-14"
+    },
+    {
      "title": "JCK Online, JCK Take 5: New Plumb Club Members, Indian Exports Rise, Personnel Moves (India's Jewelry Exports Rise 9% in September section, attributing the Gem & Jewellery Export Promotion Council)",
      "url": "https://www.jckonline.com/editorial-article/jck-take-5-new-plumb-club-members/",
      "published": "2026-10-15"
-    },
-    {
-     "title": "GJEPC gem and jewellery export and import data page, fetched 18 October 2026, 200, 32,404 bytes, carrying none of the September figures",
-     "url": "https://gjepc.org/gem-and-jewellery-export-import-data.php",
-     "published": "2026-10-18"
-    },
-    {
-     "title": "GJEPC press release page, fetched 18 October 2026, 200, 196,776 bytes, carrying none of the September figures",
-     "url": "https://gjepc.org/press_release.php",
-     "published": "2026-10-18"
     }
+   ],
+   "corrections": [
+    "Correction, 20 October 2026: an earlier version of this article said GJEPC's own pages carried none of these figures, so the article was a single-source filing on the trade press. That was wrong. GJEPC published its own statement on 14 October at gjepc.org, linked from its homepage. Re-read at 06:00 EDT on 20 October, 38,669 bytes, it carries the $2.95 billion and 9.43% ('2.95' 7 hits, '9.43' 8), gold jewellery at $1.19 billion, up 34.01% ('1.19 billion' 1, '34.01' 1), and the studded, plain, polished and lab-grown lines. It is now cited as the primary, with JCK Online as the second reading. Two table cells that read 'Not given' now carry the council's figures: six-month gold jewellery $6.23bn, up 11.37%, and September silver jewellery $134.5m, down 12.49%. Where the error came from: the two GJEPC pages the desk opened were the wrong doors, and the council's news page was not read. What was right as published: every figure in the article. Found by this paper's standards desk on 19 October 2026."
    ]
   },
   "next": {
    "slug": "one-point-oh-one-three-trillion-for-the-holidays"
-  }
+  },
+  "modified": "2026-10-20"
  },
  "one-point-oh-one-three-trillion-for-the-holidays": {
   "v": 3,
@@ -143639,7 +143649,7 @@
   "v": 3,
   "kicker": "Diamonds & Rough",
   "figures": {
-   "asof": "GJEPC provisional data for September 2026, as reported by Angel One on 15 October 2026 (14:55 IST), citing The Economic Times. Raw bytes saved at newsroom/sources/2026-10-19/desk/angel.html, 240,073 bytes. Per-carat figures are Carat Capital's division.",
+   "asof": "Rough-import figures: GJEPC provisional data for September 2026 as reported by Angel One on 15 October 2026 (14:55 IST), citing The Economic Times, saved at newsroom/sources/2026-10-19/desk/angel.html, 240,073 bytes. Export rows: GJEPC's own statement of 14 October 2026. Per-carat figures are Carat Capital's division.",
    "cells": [
     {
      "n": "130.17 lakh ct",
@@ -143693,7 +143703,7 @@
    "type": "table",
    "cap": "India's rough imports and polished exports",
    "hi": 2,
-   "asof": "GJEPC provisional data via Angel One, 15 October 2026. Per-carat rows are Carat Capital's division; 1 lakh is 100,000",
+   "asof": "Rough rows: GJEPC provisional data via Angel One, 15 October 2026. Polished row: GJEPC statement, 14 October 2026. Per-carat rows are Carat Capital's division; 1 lakh is 100,000",
    "cols": [
     "Measure",
     "September",
@@ -143768,7 +143778,7 @@
   "watch": [
    {
     "when": "Mid-November",
-    "what": "GJEPC's October figures, which cover the Diwali month and test whether the rough intake holds."
+    "what": "GJEPC's October figures, which cover the pre-Diwali month and test whether the rough intake holds."
    },
    {
     "when": "Monthly",
@@ -143776,7 +143786,7 @@
    },
    {
     "when": "Ongoing",
-    "what": "Whether GJEPC posts the September statement on its own site. It has not yet."
+    "what": "A rough-import line from GJEPC itself. Its 14 October statement carries exports only, so the rough figures remain Angel One's reading."
    }
   ],
   "depth": {
@@ -143785,7 +143795,7 @@
     "title": "How the import line is built",
     "text": "GJEPC compiles India's gem and jewellery trade from customs data and publishes provisional monthly totals by category, in dollars and in lakh carats. Rough imports carry no quality split, so value per carat mixes price with assortment."
    },
-   "method": "Angel One, 'India's gems and jewellery exports reach $2.95 billion in September 2026', published 15 October 2026 2:55 PM IST, fetched 19 October 2026 at its canonical URL, 200, 240,073 bytes, saved at newsroom/sources/2026-10-19/desk/angel.html. Figures read inside the article body, before its stock table. Grep on the saved bytes: '130.17' 5 hits, '65.65' 5, '15.14' 5, '592.24' 5, '16.81' 5, '16.47' 5; the repeat count is the page's own structured-data copies of the body. Angel One cites The Economic Times, which cites GJEPC provisional data; GJEPC's own news and data pages carried no September statement when the Bureau read them, so this is a single secondary reading, labelled as one. The Bureau also reports the Gujarati daily Divya Bhaskar carrying 130.17 against 78.58 lakh carats; that page was not read for this article. ARCHIVE: website/content/articles.json, '65.65' and '592.24' return no rows. The 18 October GJEPC piece, one-nineteen-billion-of-gold-jewellery, covers exports from the same September release and carries no rough-import figure. Same release, different line: NEW.",
+   "method": "Rough imports: Angel One, 'India's gems and jewellery exports reach $2.95 billion in September 2026', published 15 October 2026 2:55 PM IST, fetched 19 October 2026 at its canonical URL, 200, 240,073 bytes, saved at newsroom/sources/2026-10-19/desk/angel.html. Figures read inside the article body, before its stock table. Grep on the saved bytes: '130.17' 5 hits, '65.65' 5, '15.14' 5, '592.24' 5, '16.81' 5, '16.47' 5; the repeat count is the page's own structured-data copies of the body. Angel One cites The Economic Times, which cites GJEPC provisional data. Exports: GJEPC's own statement of 14 October 2026 at https://gjepc.org/news_detail.php?news=india-s-gem-jewellery-exports-continue-to-grow-rising-9-43-to-us-2-95-billion-in-september-2026-1, re-read at newsroom/sources/2026-10-20/desk/gjepc-sep.html, 200, 38,669 bytes, fetched 06:00 EDT 20 October 2026: '1.29 billion' 1, '5.44' 1, '151.43' 1, '40.72' 1, '4.64' 1, '5.81 billion' 2. The same 38,669 bytes, fetched 06:00 EDT 20 October, return 0 hits for '130.17', '65.65', '15.14', '592.24' and '16.81', so the rough line is a single secondary reading, labelled as one. ARCHIVE: website/content/articles.json, '65.65' and '592.24' return no rows. The 18 October GJEPC piece, one-nineteen-billion-of-gold-jewellery, covers exports from the same September release and carries no rough-import figure. Same release, different line: NEW.",
    "prior": [
     {
      "date": "2026-10-18",
@@ -143798,14 +143808,23 @@
      "title": "Angel One, India's gems and jewellery exports reach $2.95 billion in September 2026 (citing The Economic Times and GJEPC provisional data)",
      "url": "https://www.angelone.in/news/economy/india-s-gems-and-jewellery-exports-reach-2-95-billion-in-september-2026",
      "published": "2026-10-15"
+    },
+    {
+     "title": "GJEPC, India's Gem & Jewellery Exports Continue to Grow, Rising 9.43% to US$ 2.95 Billion in September 2026 (the council's own statement, dated 14 October 2026, re-read 20 October 2026)",
+     "url": "https://gjepc.org/news_detail.php?news=india-s-gem-jewellery-exports-continue-to-grow-rising-9-43-to-us-2-95-billion-in-september-2026-1",
+     "published": "2026-10-14"
     }
+   ],
+   "corrections": [
+    "Correction, 20 October 2026: an earlier version of this article said GJEPC had not posted its September statement on its own site, and its Method said the council's own pages carried none. That was wrong. GJEPC published the statement on 14 October at gjepc.org, linked from its homepage. Re-read at 06:00 EDT on 20 October, 38,669 bytes, it carries every export row in the table: '1.29 billion' 1 hit, '5.44' 1, '151.43' 1, '40.72' 1, '5.81 billion' 2, '4.64' 1. It carries no rough-import line: in the same 38,669 bytes, '130.17', '65.65', '15.14', '592.24' and '16.81' each return 0 hits. Where the error came from: the desk read two other GJEPC pages and not the news page that held the statement. What was right as published: every figure in the article. The rough-import figures still rest on Angel One alone. The watch line on GJEPC's October figures also now reads the pre-Diwali month; Diwali falls on 8 November. Found by this paper's standards desk on 19 October 2026."
    ]
   },
   "next": {
    "slug": "one-nineteen-billion-of-gold-jewellery",
    "why": "The export side of the same September release."
   },
-  "corrections": []
+  "corrections": [],
+  "modified": "2026-10-20"
  },
  "eight-seventeen-carats-sells-under-its-low": {
   "v": 3,
@@ -144374,6 +144393,771 @@
   "next": {
    "slug": "richemont-and-signet-weigh-the-de-beers-bid",
    "why": "Who may own the other half of Namdeb Holdings."
+  },
+  "corrections": []
+ },
+ "de-beers-price-index-falls-twenty-percent": {
+  "v": 3,
+  "kicker": "Diamonds & Rough",
+  "figures": {
+   "asof": "De Beers production report for the third quarter of 2026, dated 20 October 2026, read from raw bytes saved at newsroom/sources/2026-10-20/desk/db.html, 97,156 bytes. The price index is De Beers' own, 100 at December 2006; its 2025 values are restated by De Beers for stock rebalancing. Percentage changes are De Beers' table.",
+   "cells": [
+    {
+     "n": "65",
+     "dir": "down",
+     "label": "Rough price index, Q3",
+     "q": "down 20% year on year, 6% on Q2",
+     "src": 1
+    },
+    {
+     "n": "$731m",
+     "dir": "up",
+     "label": "Rough sales, Q3",
+     "q": "up 4% on 91% more carats",
+     "src": 1
+    },
+    {
+     "n": "6.8m ct",
+     "dir": "down",
+     "label": "Carats recovered, Q3",
+     "q": "down 11% year on year",
+     "src": 1
+    },
+    {
+     "n": "25–28m ct",
+     "dir": "up",
+     "label": "2026 production guidance",
+     "q": "from 21–26m, 100% basis",
+     "src": 1
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Prices fell as volume rose.",
+   "text": "De Beers' rough price index fell 20% year on year in the third quarter, while consolidated sales volume rose 91% and sales revenue 4%."
+  },
+  "means": [
+   {
+    "who": "If you buy at the Sights:",
+    "text": "Like-for-like prices fell 6% on the second quarter. De Beers says trading showed signs of stability; the index did not rise."
+   },
+   {
+    "who": "If you plan Q4 supply:",
+    "text": "Jwaneng maintenance is expected to cut output well below third-quarter rates."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A clean price read from the $84 average. Mix moved it."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "De Beers' third quarter against the year before and the quarter before",
+   "hi": 4,
+   "asof": "De Beers Q3 2026 production report, 20 October 2026. Carats in thousands",
+   "cols": [
+    "Measure",
+    "Q3 2026",
+    "Q3 2025",
+    "Change",
+    "Q2 2026"
+   ],
+   "rows": [
+    [
+     "Carats recovered (000)",
+     "6,807",
+     "7,657",
+     "−11%",
+     "7,781"
+    ],
+    [
+     "Consolidated sales volume (000 ct)",
+     "8,713",
+     "4,558",
+     "+91%",
+     "6,038"
+    ],
+    [
+     "Rough sales value ($m)",
+     "731",
+     "700",
+     "+4%",
+     "665"
+    ],
+    [
+     "Average realised price ($/ct)",
+     "84",
+     "154",
+     "−45%",
+     "110"
+    ],
+    [
+     "Average price index",
+     "65",
+     "81",
+     "−20%",
+     "69"
+    ]
+   ],
+   "note": "Checks on De Beers' rounded changes: 6,807 / 7,657 = 0.889, 11.1% below; 8,713 / 4,558 = 1.912, 91.2% above; 731 / 700 = 1.044, 4.4% above; 84 / 154 = 0.545, 45.5% below; 65 / 81 = 0.802, 19.8% below; 65 / 69 = 0.942, 5.8% below. Gahcho Kué is in these production figures at 51%; it moves to 100% from the fourth-quarter report.",
+   "plate": "CC/2026/310"
+  },
+  "sections": [
+   {
+    "h": "Maintenance cut the output",
+    "p": [
+     {
+      "lead": "Botswana fell hardest.",
+      "text": "Production fell 11% to 6.8 million carats. Botswana produced 4.8 million, down 20%, because of planned plant maintenance at Orapa."
+     },
+     {
+      "lead": "Venetia is winding down.",
+      "text": "South Africa's output fell 37% to 0.4 million carats as Venetia ramped down ahead of a planned two-year pause. De Beers expects no more Venetia carats this year."
+     },
+     {
+      "lead": "Canada doubled.",
+      "text": "Gahcho Kué's attributable output rose 108% to 1.06 million carats on planned processing of higher-grade ore."
+     }
+    ]
+   },
+   {
+    "h": "More carats, cheaper carats",
+    "p": [
+     {
+      "lead": "Volume carried revenue.",
+      "text": "Consolidated sales reached 8.7 million carats against 4.6 million a year earlier, bringing in $731 million from two Sights."
+     },
+     {
+      "lead": "The average hides mix.",
+      "text": "The average realised price fell 45% to $84 a carat. De Beers says the year-to-date fall reflects a lower price index and a more balanced sales mix."
+     },
+     {
+      "lead": "The index is cleaner.",
+      "text": "The price index, which tracks like-for-like rough, averaged 65 against 81 a year earlier and 69 in the second quarter."
+     }
+    ]
+   },
+   {
+    "h": "Gahcho Kué lifts the guidance",
+    "p": [
+     {
+      "lead": "Ownership changed hands.",
+      "text": "De Beers took full ownership of Gahcho Kué on 16 October by enforcing security over Mountain Province's 49% interest. It will report the mine at 100% from the fourth quarter.",
+      "links": {
+       "full ownership of Gahcho Kué": "a-de-beers-takes-all-of-gahcho-kue.html"
+      }
+     },
+     {
+      "lead": "Guidance rose.",
+      "text": "Production guidance for 2026 moves to 25–28 million carats, from 21–26 million. De Beers says the change reflects the Gahcho Kué ownership, not new global supply."
+     },
+     {
+      "lead": "Costs fell too.",
+      "text": "Unit cost guidance drops to about $70 a carat from about $80, on Gahcho Kué's larger share, the Venetia pause and cost control."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Q4 2026",
+    "what": "Planned plant maintenance at Jwaneng, which De Beers expects to cut output substantially from third-quarter rates."
+   },
+   {
+    "when": "Next Sight",
+    "what": "Whether the price index holds at 65 or falls again."
+   },
+   {
+    "when": "Q4 2026 report",
+    "what": "The first quarter with Gahcho Kué at 100%, which raises De Beers' reported carats without adding to world supply."
+   }
+  ],
+  "depth": {
+   "reverse": "A rise in the price index at the next Sights. Then the third quarter's 20% fall marks the bottom of the cycle, and the 91% volume rise reads as restocking at a low.",
+   "built": {
+    "title": "How the De Beers price index works",
+    "text": "The index averages De Beers' rough prices across the Sights in a period, relative to 100 at December 2006. It is meant to hold the assortment steady, so it strips out the mix that moves the average realised price. The 2025 values are restated to include the effect of De Beers' stock rebalancing."
+   },
+   "method": "De Beers, 'Production report for the third quarter of 2026', fetched 20 October 2026 at https://www.debeersgroup.com/news-insights/latest-group-news/2026/production-report-for-the-third-quarter-of-2026, 200, 97,156 bytes, saved at newsroom/sources/2026-10-20/desk/db.html; the body is dated 20 Oct 2026 (the string returns 3 hits). Greps on the saved bytes: '6,807' 2, '7,657' 2, '7,781' 2, '8,713' 1, '4,558' 1, '731' 2, '4,830' 3, '1,064' 4, '108%' 4, '(20)%' 5, '(45)%' 1, '16 October 2026' 1, '49%' 1, '25&ndash;28 million' 1, '21-26' 1, 'c.$70/carat' 1, 'signs of stability' 1, 'substantially decrease' 1, 'no further carat production' 1. Index cells '>65<' 1, '>81<' 1, '>69<' 1. The second-quarter column was checked against De Beers' Q2 report, fetched the same morning, 123,318 bytes: Q2 $110 a carat and index 69 match. ARCHIVE, by entity and period: website/content/articles.json, 'De Beers' 'third quarter' 0 rows; '6,807' 0 rows; 'De Beers' 'production' 18 rows, newest 2026-10-08 (Namibia), 2026-07-31 (H1 results) and 2026-07-24 de-beers-eighty-eight-up, opened, which covers Q2 2026. Ours 24 July covers Q2 2026 (7.8m carats, $665m); this covers Q3 2026 (6.8m carats, $731m). DIFFERENT PERIOD, ADVANCED. 'Gahcho' 6 rows; 2026-10-03 de-beers-takes-all-of-gahcho-kue, opened, covers the agreement; the 16 October effective date is new here.",
+   "prior": [
+    {
+     "date": "2026-10-03",
+     "slug": "de-beers-takes-all-of-gahcho-kue",
+     "claim": "Mountain Province's 49% of Gahcho Kué passes to De Beers in satisfaction of debts and reclamation costs."
+    },
+    {
+     "date": "2026-07-24",
+     "slug": "de-beers-eighty-eight-up",
+     "claim": "Second-quarter output rose 88% to 7.8 million carats; revenue fell 44% to $665 million."
+    }
+   ],
+   "sources": [
+    {
+     "title": "De Beers Group, Production report for the third quarter of 2026",
+     "url": "https://www.debeersgroup.com/news-insights/latest-group-news/2026/production-report-for-the-third-quarter-of-2026",
+     "published": "2026-10-20"
+    },
+    {
+     "title": "De Beers Group, Production report for the second quarter of 2026 (comparator column)",
+     "url": "https://www.debeersgroup.com/news-insights/latest-group-news/2026/production-report-for-the-second-quarter-of-2026",
+     "published": "2026-07-23"
+    }
+   ]
+  },
+  "next": {
+   "slug": "de-beers-takes-all-of-gahcho-kue",
+   "why": "The deal that moves Gahcho Kué to 100% and lifts the guidance."
+  },
+  "corrections": []
+ },
+ "swiss-watch-exports-rise-eleven-point-seven": {
+  "v": 3,
+  "kicker": "Watches Desk · Exports",
+  "figures": {
+   "asof": "Federation of the Swiss Watch Industry (FH), Swiss watchmaking in September 2026, released 20 October 2026; PDF saved at newsroom/sources/2026-10-20/desk/fh.pdf, 163,791 bytes, text extracted to fh.txt. FH figures are exports, not sales to consumers, and may be revised.",
+   "cells": [
+    {
+     "n": "CHF 2,225.9m",
+     "dir": "up",
+     "label": "Exports, September",
+     "q": "up 11.7%",
+     "src": 1
+    },
+    {
+     "n": "+85.7%",
+     "dir": "up",
+     "label": "United States",
+     "q": "CHF 292.9m; FH cites a base effect",
+     "src": 1
+    },
+    {
+     "n": "+128.2%",
+     "dir": "up",
+     "label": "France",
+     "q": "CHF 246.5m; FH urges caution",
+     "src": 1
+    },
+    {
+     "n": "CHF 19.5bn",
+     "dir": "up",
+     "label": "January to September",
+     "q": "up 2.7%",
+     "src": 1
+    }
+   ]
+  },
+  "changed": {
+   "lead": "A fourth monthly gain.",
+   "text": "Swiss watch exports rose 11.7% to CHF 2,225.9 million in September, the fourth consecutive monthly rise, FH figures show."
+  },
+  "means": [
+   {
+    "who": "If you hold US allocation:",
+    "text": "Shipments rose 85.7%, and FH puts it down to a favourable base."
+   },
+   {
+    "who": "If you sell into China:",
+    "text": "Exports there fell 14.2%, which FH also blames on the base."
+   },
+   {
+    "who": "What this is not:",
+    "text": "Retail sales. FH counts shipments leaving Switzerland, not watches sold."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Swiss watch exports to the six largest markets, September 2026",
+   "hi": 0,
+   "asof": "FH, 20 October 2026. Change is FH's, against September 2025",
+   "cols": [
+    "Market",
+    "CHF million",
+    "Change",
+    "Share"
+   ],
+   "rows": [
+    [
+     "United States",
+     "292.9",
+     "+85.7%",
+     "13.2%"
+    ],
+    [
+     "France",
+     "246.5",
+     "+128.2%",
+     "11.1%"
+    ],
+    [
+     "Japan",
+     "177.3",
+     "+12.3%",
+     "8.0%"
+    ],
+    [
+     "United Kingdom",
+     "164.3",
+     "−5.2%",
+     "7.4%"
+    ],
+    [
+     "Hong Kong",
+     "160.5",
+     "+3.0%",
+     "7.2%"
+    ],
+    [
+     "China",
+     "130.1",
+     "−14.2%",
+     "5.8%"
+    ],
+    [
+     "Six markets",
+     "1,171.6",
+     "+29.5%",
+     "52.6%"
+    ]
+   ],
+   "note": "Carat Capital's division, from FH's levels and changes: US base 292.9 / 1.857 = 157.7, a gain of CHF 135.2m; France base 246.5 / 2.282 = 108.0, a gain of CHF 138.5m; total base 2,225.9 / 1.117 = 1,992.8, a gain of CHF 233.2m. The two markets together added CHF 273.7m, so all other markets shipped CHF 40.5m less: 1,686.5 / 1,727.0 = 0.977, 2.3% below. The sign holds across the rounding of FH's 11.7%.",
+   "plate": "CC/2026/311"
+  },
+  "sections": [
+   {
+    "h": "Steel and bimetal led value",
+    "p": [
+     {
+      "lead": "Nine months positive.",
+      "text": "From January to September, exports reached CHF 19.5 billion, up 2.7% on the same months of 2025."
+     },
+     {
+      "lead": "Steel drove volume.",
+      "text": "Steel watches rose 13.0% in value, to CHF 698.7 million, and 21.5% in units."
+     },
+     {
+      "lead": "Bimetal rose fastest.",
+      "text": "Gold-steel models gained 29.3% to CHF 418.5 million, while precious-metal watches rose 1.3%."
+     },
+     {
+      "lead": "Cheap watches jumped.",
+      "text": "Watches priced below CHF 500 at export rose 39.5%, which FH singles out as a particularly sharp increase."
+     }
+    ]
+   },
+   {
+    "h": "Two markets carried the month",
+    "p": [
+     {
+      "lead": "America swung back.",
+      "text": "US exports rose 85.7% to CHF 292.9 million. In August they had fallen 19.4%.",
+      "links": {
+       "In August they had fallen": "a-nine-one-up-nineteen-four-down.html"
+      }
+     },
+     {
+      "lead": "France needs caution.",
+      "text": "France rose 128.2% to CHF 246.5 million. FH says the figure may reflect trade reallocated from other markets in the region."
+     },
+     {
+      "lead": "The rest fell.",
+      "text": "On our division, the US and France added about CHF 274 million, more than the CHF 233 million total gain. The other markets shipped about CHF 40 million less."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "19 November 2026",
+    "what": "FH's October figures, the date its statistics page gives for the next release."
+   },
+   {
+    "when": "Monthly",
+    "what": "Whether France's surge reverses as EU trade flows settle, which FH says to read with caution."
+   }
+  ],
+  "depth": {
+   "reverse": "An October in which the US falls back below its 2025 level. Then September was a base effect and nothing more, and the four-month run rests on France.",
+   "built": {
+    "title": "What FH counts",
+    "text": "FH publishes the value and units of watches leaving Switzerland each month, by market, material and export price. These are exports to distributors and subsidiaries, not sales to consumers, and FH says they can be revised. A favourable base means the same month a year earlier was weak, so the percentage flatters the level."
+   },
+   "method": "FH, 'Swiss watchmaking in September 2026', fetched 20 October 2026 at https://www.fhs.swiss/scripts/getstat.php?file=comm_260909_a.pdf, 200, 163,791 bytes, saved at newsroom/sources/2026-10-20/desk/fh.pdf and extracted with pypdf to fh.txt. Greps on fh.txt: '2,225.9' 1, '11.7%' 2, 'fourth consecutive' 1, '19.5 billion' 1, '2.7%' 1, '292.9' 1, '85.7%' 2, '246.5' 1, '128.2%' 2, '130.1' 1, '-14.2%' 2, '1,171.6' 1, '698.7' 1, '418.5' 1, '29.3%' 2, '780.1' 1, '39.5%' 1. FH's statistics page, https://www.fhs.swiss/eng/statistics.html, 200, 13,860 bytes, carries '11.7%' 1 and the next release date '11.19.2026' 1. The release prints no day; the 20 October date is FH's published schedule. ARCHIVE, by entity and period: website/content/articles.json, '2,225.9' 0 rows, '19.5 billion' 0 rows; 'Swiss watch' 'September' 2 rows (a Hublot item and the July print). nine-one-up-nineteen-four-down, opened, covers August (CHF 1,789.2m, +9.1%, US −19.4%). Ours covers August; this covers September. DIFFERENT PERIOD, NEW in the series.",
+   "prior": [
+    {
+     "date": "2026-09-17",
+     "slug": "nine-one-up-nineteen-four-down",
+     "claim": "August exports rose 9.1% to CHF 1,789.2m; US shipments fell 19.4%."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Federation of the Swiss Watch Industry FH, Swiss watchmaking in September 2026 (PDF)",
+     "url": "https://www.fhs.swiss/scripts/getstat.php?file=comm_260909_a.pdf",
+     "published": "2026-10-20"
+    },
+    {
+     "title": "Federation of the Swiss Watch Industry FH, Statistics page",
+     "url": "https://www.fhs.swiss/eng/statistics.html",
+     "published": "2026-10-20"
+    }
+   ]
+  },
+  "next": {
+   "slug": "nine-one-up-nineteen-four-down",
+   "why": "August, the month the US line was still falling."
+  },
+  "corrections": []
+ },
+ "gemfields-ruby-auction-raises-fifty-two-million": {
+  "v": 3,
+  "kicker": "Gemstones Desk · Rough Markets",
+  "figures": {
+   "asof": "Gemfields RNS, Auction Results: Mixed-Quality Rubies, London, 19 October 2026, for the auction held 5 to 16 October; saved at newsroom/sources/2026-10-20/desk/gem.html, 80,875 bytes. Gemfields says results are not always directly comparable between auctions.",
+   "cells": [
+    {
+     "n": "$52.0m",
+     "label": "Auction revenue",
+     "q": "February: $53.0m",
+     "src": 1
+    },
+    {
+     "n": "$564.54",
+     "label": "Average per carat",
+     "q": "lot mix differs from February",
+     "src": 1
+    },
+    {
+     "n": "92,153 ct",
+     "label": "Carats sold",
+     "q": "of 102,099 offered",
+     "src": 1
+    },
+    {
+     "n": "90 of 99",
+     "label": "Lots sold",
+     "q": "46 bidding companies",
+     "src": 1
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Fewer carats, same money.",
+   "text": "Gemfields' October mixed-quality ruby auction raised $52.0 million, close to February's $53.0 million, on about half the carats."
+  },
+  "means": [
+   {
+    "who": "If you buy Mozambican ruby:",
+    "text": "Gemfields says this sale was mostly higher-quality goods, so the per-carat figure is not a price move."
+   },
+   {
+    "who": "If you hold Gemfields:",
+    "text": "Revenue held while volume halved."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A ruby price index. Averages follow the assortment."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "The last five mixed-quality ruby auctions",
+   "hi": 4,
+   "asof": "Gemfields RNS, 19 October 2026. Gemfields says lot mix varies and results are not always directly comparable",
+   "cols": [
+    "Auction",
+    "Carats sold",
+    "Lots sold",
+    "Revenue",
+    "Per carat"
+   ],
+   "rows": [
+    [
+     "June 2024",
+     "216,600",
+     "94 of 97",
+     "$68.7m",
+     "$316.95"
+    ],
+    [
+     "December 2024",
+     "143,613",
+     "97 of 102",
+     "$46.2m",
+     "$321.94"
+    ],
+    [
+     "June 2025",
+     "68,705",
+     "78 of 90",
+     "$31.7m",
+     "$461.48"
+    ],
+    [
+     "February 2026",
+     "189,620",
+     "121 of 135",
+     "$53.0m",
+     "$279.39"
+    ],
+    [
+     "October 2026",
+     "92,153",
+     "90 of 99",
+     "$52.0m",
+     "$564.54"
+    ]
+   ],
+   "note": "Carat Capital's division against February: carats 92,153 / 189,620 = 0.486, 51.4% fewer; revenue 52.0 / 53.0 = 0.981, 1.9% lower; check 92,153 × 564.54 = $52.02m, matching the stated $52.0m. The per-carat ratio is not printed as a price change because the release says the mix differed.",
+   "plate": "CC/2026/312"
+  },
+  "sections": [
+   {
+    "h": "A smaller, richer sale",
+    "p": [
+     {
+      "lead": "Twenty kilograms offered.",
+      "text": "The sale offered 102,099 carats, slightly over 20 kilograms, which Gemfields says was smaller than in previous years and mostly higher-quality ruby."
+     },
+     {
+      "lead": "Nine lots unsold.",
+      "text": "Buyers took 90 of 99 lots, or 90% of the weight offered, in sealed bids after viewings in Bangkok."
+     },
+     {
+      "lead": "Bidders held steady.",
+      "text": "Forty-six companies placed bids, the same number as in February."
+     }
+    ]
+   },
+   {
+    "h": "Trade Select splits the grades",
+    "p": [
+     {
+      "lead": "June changed the format.",
+      "text": "Gemfields introduced Trade Select in June, offering selected grades and categories in separate auctions. It says the lower volume reflects that change and the year's operational challenges.",
+      "links": {
+       "introduced Trade Select": "a-sixty-six-dollars-a-carat.html"
+      }
+     },
+     {
+      "lead": "December is next.",
+      "text": "The next Trade Select auction is planned for December. Proceeds go to Montepuez Ruby Mining, 75% owned by Gemfields, which pays Mozambique's royalties on the full sale prices."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "December 2026",
+    "what": "The next Trade Select auction, the second test of the split format after July."
+   },
+   {
+    "when": "Next mixed-quality sale",
+    "what": "Whether volume returns toward February's 189,620 carats or stays near 92,000."
+   }
+  ],
+  "depth": {
+   "reverse": "A December sale at sharply lower prices for comparable grades. Then October's average reflects a small, rich lot, not demand that holds across the range.",
+   "built": {
+    "title": "How a Gemfields ruby auction runs",
+    "text": "Montepuez rough is graded into lots, viewed in person in Bangkok, then sold by sealed bid on an online platform in sequential mini-auctions. A mixed-quality sale spans many sizes and grades, so its average per carat moves with what is offered as much as with price."
+   },
+   "method": "Gemfields Group, 'Auction Results: Mixed-Quality Rubies', RNS dated 'LONDON, 19 OCTOBER 2026', fetched 20 October 2026 on Investegate at https://www.investegate.co.uk/announcement/rns/gemfields-group-limited--gem/auction-results-october-mixed-quality-rubies/9828182, 200, 80,875 bytes, saved at newsroom/sources/2026-10-20/desk/gem.html. Investegate prints a summary box above the RNS; every figure was read from the RNS text below it. Greps: '52.0' 3, '564.54' 3, '92,153' 3, '102,099' 3, '189,620' 1, '279.39' 1, '90 of the 99' 1, '20 kilograms' 1, 'predominantly higher-quality' 1, 'introduced in June' 1, 'Trade Select' 3, 'December' 1, '75% owned' 1, 'not always directly comparable' 1, '316.95' 1, '321.94' 1, '461.48' 1. ARCHIVE, by entity and period: website/content/articles.json, '564.54' 0 rows; 'Trade Select' 1 row, sixty-six-dollars-a-carat (20 July), opened, which covers the first Trade Select sale ($66.30 a carat on 348,409 carats, a different grade mix); 'Montepuez' 3 rows covering H1 results and a writedown. Ours covers July's Trade Select sale; this covers the 5 to 16 October mixed-quality sale. NEW.",
+   "prior": [
+    {
+     "date": "2026-07-20",
+     "slug": "sixty-six-dollars-a-carat",
+     "claim": "The first Trade Select auction sold 348,409 carats at $66.30 a carat."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Gemfields Group, Auction Results: Mixed-Quality Rubies, RNS",
+     "url": "https://www.investegate.co.uk/announcement/rns/gemfields-group-limited--gem/auction-results-october-mixed-quality-rubies/9828182",
+     "published": "2026-10-19"
+    }
+   ]
+  },
+  "next": {
+   "slug": "sixty-six-dollars-a-carat",
+   "why": "The first Trade Select sale, the format that shrank this one."
+  },
+  "corrections": []
+ },
+ "indian-gold-dealers-swing-to-a-premium": {
+  "v": 3,
+  "kicker": "Gold & Metals Desk · India",
+  "figures": {
+   "asof": "Reuters weekly Asian physical gold report, carried by Kitco on 16 October 2026, for the week to Friday 16 October; saved at newsroom/sources/2026-10-20/desk/kitco-india.html, 110,584 bytes. Premiums are against official Indian prices, which include import and sales levies.",
+   "cells": [
+    {
+     "n": "up to $7",
+     "dir": "up",
+     "label": "Indian premium, per ounce",
+     "q": "week to 16 October",
+     "src": 1
+    },
+    {
+     "n": "up to $6",
+     "dir": "down",
+     "label": "Discount a week earlier",
+     "q": "per ounce",
+     "src": 1
+    },
+    {
+     "n": "₹148,200",
+     "label": "Domestic price, per 10 grams",
+     "q": "after a ₹145,627 low",
+     "src": 1
+    },
+    {
+     "n": "$4–$13",
+     "label": "China premium, per ounce",
+     "q": "over the global benchmark",
+     "src": 1
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Discount became premium.",
+   "text": "Indian dealers quoted gold at premiums of up to $7 an ounce in the week to 16 October, against discounts of up to $6 a week earlier, Reuters reported."
+  },
+  "means": [
+   {
+    "who": "If you buy bullion in India:",
+    "text": "Local supply is tight; a Mumbai dealer says imports have run below their usual pre-festival level."
+   },
+   {
+    "who": "If you hold Indian gold ETFs:",
+    "text": "Several large funds suspended bulk subscriptions. Reuters names none."
+   },
+   {
+    "who": "What this is not:",
+    "text": "Investor buying. CapsGold says investors are still holding back."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Physical gold premiums and discounts in Asia, week to 16 October",
+   "hi": 0,
+   "asof": "Reuters via Kitco, 16 October 2026. US dollars an ounce; positive is a premium",
+   "cols": [
+    "Market",
+    "This week",
+    "Basis"
+   ],
+   "rows": [
+    [
+     "India",
+     "up to $7 premium",
+     "over official domestic price, incl. levies"
+    ],
+    [
+     "India, a week earlier",
+     "up to $6 discount",
+     "same basis"
+    ],
+    [
+     "China",
+     "$4 to $13 premium",
+     "over the global benchmark"
+    ],
+    [
+     "Singapore",
+     "$0.50 to $1.70 premium",
+     "as reported"
+    ],
+    [
+     "Hong Kong",
+     "flat to $1.50 premium",
+     "as reported"
+    ],
+    [
+     "Japan",
+     "$0.25 discount to $0.50 premium",
+     "as reported"
+    ]
+   ],
+   "note": "Every row is Reuters' figure as printed. Reuters says the Indian premium is the first in more than three months.",
+   "plate": "CC/2026/313"
+  },
+  "sections": [
+   {
+    "h": "Lower prices brought buyers back",
+    "p": [
+     {
+      "lead": "The price eased.",
+      "text": "Domestic gold was quoted near ₹148,200 per 10 grams on the Friday, after a two-week low of ₹145,627 earlier in the week."
+     },
+     {
+      "lead": "Jewellers led demand.",
+      "text": "Chanda Venkatesh of Hyderabad bullion merchant CapsGold told Reuters that jewellery demand is picking up with the festive and wedding season. Investors are still holding back, Venkatesh said, as prices continue to fall."
+     },
+     {
+      "lead": "Supply is short.",
+      "text": "Imports usually rise before the festivals but have run lower this year, a Mumbai dealer at a private bank said. September imports were $1.8 billion against $9.6 billion a year earlier.",
+      "links": {
+       "September imports": "a-india-gold-imports-fall-eighty-one-percent.html"
+      }
+     }
+    ]
+   },
+   {
+    "h": "Funds and neighbours moved too",
+    "p": [
+     {
+      "lead": "ETF inflows paused.",
+      "text": "Several large Indian mutual funds issued notices late on 15 October suspending bulk subscriptions to gold exchange-traded funds. Reuters gave no fund names and no reason."
+     },
+     {
+      "lead": "China stayed premium.",
+      "text": "Chinese bullion traded at premiums of $4 to $13 an ounce over the global benchmark. MKS PAMP's Bernard Sin said physical buyers were cautious in a volatile range."
+     },
+     {
+      "lead": "Elsewhere, near flat.",
+      "text": "Singapore premiums ran $0.50 to $1.70, and Hong Kong flat to $1.50."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Next weekly survey",
+    "what": "Whether India's premium holds through the festival weeks or slips back to a discount."
+   },
+   {
+    "when": "8 November",
+    "what": "Diwali, the peak of India's festive buying."
+   },
+   {
+    "when": "Mid-November",
+    "what": "October import data, which shows whether dealers restocked."
+   }
+  ],
+  "depth": {
+   "reverse": "A return to discounts in the next survey. Then the premium was a one-week squeeze in supply, not a turn in demand.",
+   "built": {
+    "title": "How the Indian premium is quoted",
+    "text": "Dealers quote a premium or discount against the official domestic price, which already includes the 15% import levy and 3% sales tax. A premium means buyers pay above landed cost, usually because local stock is short. A discount means dealers are clearing metal that buyers will not take at the official price."
+   },
+   "method": "Reuters, 'India gold swings to premium as lower prices lift jewellery demand', by Sukanya Mitra and Rajendra Jadhav, carried by Kitco at https://www.kitco.com/news/off-the-wire/2026-10-16/india-gold-swings-premium-lower-prices-lift-jewellery-demand, fetched 20 October 2026, 200, 110,584 bytes, saved at newsroom/sources/2026-10-20/desk/kitco-india.html. The page dates the story 16 October 2026 in its URL and timestamps; the body says the fund notices came 'late on Thursday', which is 15 October. The body text sits in the page's description field and is repeated four times in the bytes, so each grep returns 4: 'premiums of up to $7 an ounce', 'discounts of up to $6 last', '148,200', '145,627', '1.8 billion', '9.6 billion', 'suspending bulk subscriptions', 'premiums of $4 to $13 an ounce to', 'more than three months', 'CapsGold', '15% import'. Single source: one wire report; no fund notice or regulator statement was read. Diwali's 8 November date is from the paper's standards desk, 19 October. ARCHIVE, by entity and period: website/content/articles.json, 'premium' 'CapsGold' 0 rows; 'gold' 'premium' 'India' 5 rows, none a weekly premium survey (the newest, 12 October, covers UK ETF flows; india-buys-the-dip, 25 July, covers June's price fall); 'bulk subscriptions' 0 rows. NEW.",
+   "prior": [
+    {
+     "date": "2026-10-19",
+     "slug": "india-gold-imports-fall-eighty-one-percent",
+     "claim": "India's September gold imports fell 81.27% to $1.8bn."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Reuters via Kitco, India gold swings to premium as lower prices lift jewellery demand",
+     "url": "https://www.kitco.com/news/off-the-wire/2026-10-16/india-gold-swings-premium-lower-prices-lift-jewellery-demand",
+     "published": "2026-10-16"
+    }
+   ]
+  },
+  "next": {
+   "slug": "india-gold-imports-fall-eighty-one-percent",
+   "why": "The import collapse behind the tight supply."
   },
   "corrections": []
  }
