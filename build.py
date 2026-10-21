@@ -138,20 +138,20 @@ def desk_articles(slug, n=6):
 # Type's news serif with optical sizes (display cuts at headline sizes, sturdy text cuts at body sizes), and
 # Public Sans for labels and numbers (tabular lining figures via tnum). Pages not yet moved to it keep the
 # older three families and load the new two only for the shared header and footer. Both loads also carry
-# Bodoni Moda, which sets The Point wordmark (brand/README.md).
-FONTS_RD = "https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400..700&family=Public+Sans:wght@400..700&family=Bodoni+Moda:opsz,wght@6..96,400..700&display=swap"
-FONTS = "https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&family=Newsreader:opsz,wght@6..72,400..700&family=Public+Sans:wght@400..700&family=Bodoni+Moda:opsz,wght@6..96,400..700&display=swap"
+# Instrument Sans Bold, which sets The Point wordmark in capitals (brand/README.md).
+FONTS_RD = "https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400..700&family=Public+Sans:wght@400..700&family=Instrument+Sans:wght@700&display=swap"
+FONTS = "https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&family=Newsreader:opsz,wght@6..72,400..700&family=Public+Sans:wght@400..700&display=swap"
 
 DEFS = """
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
 <defs>
   <linearGradient id="foilFill" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0" stop-color="#8A6C28"/><stop offset=".3" stop-color="#D9B45E"/>
-    <stop offset=".48" stop-color="#F1DFA4"/><stop offset=".62" stop-color="#B08F3F"/>
-    <stop offset=".85" stop-color="#D9B45E"/><stop offset="1" stop-color="#7A5E1F"/>
+    <stop offset="0" stop-color="#BFC6CE"/><stop offset=".3" stop-color="#E9E4DE"/>
+    <stop offset=".48" stop-color="#FFFFFF"/><stop offset=".62" stop-color="#B08F3F"/>
+    <stop offset=".85" stop-color="#E9E4DE"/><stop offset="1" stop-color="#B9B5C1"/>
   </linearGradient>
   <pattern id="engrave" width="4" height="4" patternUnits="userSpaceOnUse" patternTransform="rotate(-42)">
-    <rect width="4" height="4" fill="none"/><line x1="0" y1="0" x2="0" y2="4" stroke="#16130E" stroke-width="1.1"/>
+    <rect width="4" height="4" fill="none"/><line x1="0" y1="0" x2="0" y2="4" stroke="#0D0D0F" stroke-width="1.1"/>
   </pattern>
   <g id="hm-maker">
     <path d="M16 1 L31 10 L16 19 L1 10 Z" fill="url(#foilFill)" stroke="currentColor" stroke-width="1.2"/>
@@ -347,24 +347,24 @@ def _lock_desk_stats():
         by["retail-tech"]["stats"][0] = ("$%s" % f'{_lh["trade_mid"]:,}', lab)
 
 MOTIFS = dict(
- diamond="""<g stroke="#16130E" fill="none"><path d="M210 40 L300 96 L210 186 L120 96 Z" stroke-width="1.6" stroke-linejoin="round"/><path d="M120 96 H300 M210 40 L168 96 L210 186 L252 96 Z" stroke-width=".8"/><g stroke-width=".4" opacity=".6"><path d="M135 86 L168 52 M147 92 L186 46 M192 44 L150 96"/><path d="M285 86 L252 52 M273 92 L234 46 M228 44 L270 96"/></g><circle cx="210" cy="96" r="3" fill="#BE3319" stroke="none"/></g>""",
- ingot="""<g stroke="#16130E" fill="none"><path d="M140 128 h84 l22 40 H118 Z" stroke-width="1.6" stroke-linejoin="round"/><path d="M172 68 h84 l22 40 h-128 Z" stroke-width="1.6" stroke-linejoin="round"/><g stroke-width=".4" opacity=".6"><path d="M130 150 h110 M126 158 h118 M182 84 h86 M178 92 h94"/></g><text x="210" y="152" text-anchor="middle" font-family="'IBM Plex Mono',monospace" font-size="12" letter-spacing="2" fill="#16130E" stroke="none">999.9</text></g>""",
- gem="""<g stroke="#16130E" fill="none"><path d="M160 60 h100 l34 34 v50 l-34 34 h-100 l-34 -34 v-50 Z" stroke-width="1.6" stroke-linejoin="round"/><path d="M182 84 h56 l22 22 v26 l-22 22 h-56 l-22 -22 v-26 Z" stroke-width=".8"/><g stroke-width=".4" opacity=".6"><path d="M160 60 L182 84 M260 60 L238 84 M294 94 L260 132 M126 94 L160 132 M160 178 L182 154 M260 178 L238 154"/></g><circle cx="210" cy="119" r="3" fill="#BE3319" stroke="none"/></g>""",
- watch="""<g stroke="#16130E" fill="none"><circle cx="210" cy="118" r="62" stroke-width="1.6"/><circle cx="210" cy="118" r="52" stroke-width=".7"/><path d="M210 82 V118 L238 138" stroke-width="1.4" stroke-linecap="round"/><g stroke-width=".5" opacity=".7"><path d="M210 66 v8 M210 162 v8 M158 118 h8 M254 118 h8"/></g><path d="M186 50 L192 30 h36 l6 20 M186 186 L192 206 h36 l6 -20" stroke-width="1.1"/><circle cx="210" cy="118" r="2.6" fill="#BE3319" stroke="none"/></g>""",
- gavel="""<g stroke="#16130E" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M172 92 l52 52 M198 64 l64 64 M186 76 l-22 -22 M240 130 l22 22" stroke-width="1.6"/><path d="M130 196 h108 M152 196 l44 -58" stroke-width="1.4"/><g stroke-width=".4" opacity=".6"><path d="M196 70 l54 54 M190 82 l50 50"/></g><circle cx="198" cy="118" r="3" fill="#BE3319" stroke="none"/></g>""",
- store="""<g stroke="#16130E" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M138 108 L152 62 h116 l14 46" stroke-width="1.6"/><path d="M138 108 a15 15 0 0 0 30.6 0 a15 15 0 0 0 30.6 0 a15 15 0 0 0 30.6 0 a15 15 0 0 0 30.6 0 a15 15 0 0 0 30.6 0" stroke-width="1.3"/><path d="M152 126 v66 h116 v-66 M186 192 v-40 h30 v40" stroke-width="1.4"/><g stroke-width=".4" opacity=".6"><path d="M160 70 h100 M156 82 h108 M152 94 h116"/></g><circle cx="238" cy="166" r="3" fill="#BE3319" stroke="none"/></g>""",
+ diamond="""<g stroke="#0D0D0F" fill="none"><path d="M210 40 L300 96 L210 186 L120 96 Z" stroke-width="1.6" stroke-linejoin="round"/><path d="M120 96 H300 M210 40 L168 96 L210 186 L252 96 Z" stroke-width=".8"/><g stroke-width=".4" opacity=".6"><path d="M135 86 L168 52 M147 92 L186 46 M192 44 L150 96"/><path d="M285 86 L252 52 M273 92 L234 46 M228 44 L270 96"/></g><circle cx="210" cy="96" r="3" fill="#BE3319" stroke="none"/></g>""",
+ ingot="""<g stroke="#0D0D0F" fill="none"><path d="M140 128 h84 l22 40 H118 Z" stroke-width="1.6" stroke-linejoin="round"/><path d="M172 68 h84 l22 40 h-128 Z" stroke-width="1.6" stroke-linejoin="round"/><g stroke-width=".4" opacity=".6"><path d="M130 150 h110 M126 158 h118 M182 84 h86 M178 92 h94"/></g><text x="210" y="152" text-anchor="middle" font-family="'IBM Plex Mono',monospace" font-size="12" letter-spacing="2" fill="#0D0D0F" stroke="none">999.9</text></g>""",
+ gem="""<g stroke="#0D0D0F" fill="none"><path d="M160 60 h100 l34 34 v50 l-34 34 h-100 l-34 -34 v-50 Z" stroke-width="1.6" stroke-linejoin="round"/><path d="M182 84 h56 l22 22 v26 l-22 22 h-56 l-22 -22 v-26 Z" stroke-width=".8"/><g stroke-width=".4" opacity=".6"><path d="M160 60 L182 84 M260 60 L238 84 M294 94 L260 132 M126 94 L160 132 M160 178 L182 154 M260 178 L238 154"/></g><circle cx="210" cy="119" r="3" fill="#BE3319" stroke="none"/></g>""",
+ watch="""<g stroke="#0D0D0F" fill="none"><circle cx="210" cy="118" r="62" stroke-width="1.6"/><circle cx="210" cy="118" r="52" stroke-width=".7"/><path d="M210 82 V118 L238 138" stroke-width="1.4" stroke-linecap="round"/><g stroke-width=".5" opacity=".7"><path d="M210 66 v8 M210 162 v8 M158 118 h8 M254 118 h8"/></g><path d="M186 50 L192 30 h36 l6 20 M186 186 L192 206 h36 l6 -20" stroke-width="1.1"/><circle cx="210" cy="118" r="2.6" fill="#BE3319" stroke="none"/></g>""",
+ gavel="""<g stroke="#0D0D0F" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M172 92 l52 52 M198 64 l64 64 M186 76 l-22 -22 M240 130 l22 22" stroke-width="1.6"/><path d="M130 196 h108 M152 196 l44 -58" stroke-width="1.4"/><g stroke-width=".4" opacity=".6"><path d="M196 70 l54 54 M190 82 l50 50"/></g><circle cx="198" cy="118" r="3" fill="#BE3319" stroke="none"/></g>""",
+ store="""<g stroke="#0D0D0F" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M138 108 L152 62 h116 l14 46" stroke-width="1.6"/><path d="M138 108 a15 15 0 0 0 30.6 0 a15 15 0 0 0 30.6 0 a15 15 0 0 0 30.6 0 a15 15 0 0 0 30.6 0 a15 15 0 0 0 30.6 0" stroke-width="1.3"/><path d="M152 126 v66 h116 v-66 M186 192 v-40 h30 v40" stroke-width="1.4"/><g stroke-width=".4" opacity=".6"><path d="M160 70 h100 M156 82 h108 M152 94 h116"/></g><circle cx="238" cy="166" r="3" fill="#BE3319" stroke="none"/></g>""",
 )
 
 def plate(motif, label, code):
     waves_top = "".join(f'<path d="M0 {y} Q105 {y-8} 210 {y} T420 {y}"/>' for y in range(20, 120, 16))
     waves_bot = "".join(f'<path d="M0 {y} Q105 {y+8} 210 {y} T420 {y}"/>' for y in range(190, 240, 16))
     return f"""<svg class="plate" viewBox="0 0 420 240" role="img" aria-label="{label}">
-<rect width="420" height="240" fill="#F8F4EB"/>
-<g stroke="#16130E" stroke-width=".45" fill="none" opacity=".3">{waves_top}</g>
-<g stroke="#16130E" stroke-width=".45" fill="none" opacity=".2">{waves_bot}</g>
+<rect width="420" height="240" fill="#FAF9F6"/>
+<g stroke="#0D0D0F" stroke-width=".45" fill="none" opacity=".3">{waves_top}</g>
+<g stroke="#0D0D0F" stroke-width=".45" fill="none" opacity=".2">{waves_bot}</g>
 {MOTIFS[motif]}
-<text x="14" y="228" font-family="'IBM Plex Mono',monospace" font-size="8" letter-spacing="2" fill="#7A7263">{label.upper()}</text>
-<text x="406" y="228" text-anchor="end" font-family="'IBM Plex Mono',monospace" font-size="8" letter-spacing="2" fill="#7A7263">{code}</text>
+<text x="14" y="228" font-family="'IBM Plex Mono',monospace" font-size="8" letter-spacing="2" fill="#6E6D74">{label.upper()}</text>
+<text x="406" y="228" text-anchor="end" font-family="'IBM Plex Mono',monospace" font-size="8" letter-spacing="2" fill="#6E6D74">{code}</text>
 </svg>"""
 
 BASE_URL = "https://caratcapital.org"  # swap when the real domain is connected
@@ -385,7 +385,7 @@ CSS_V = _hl.md5((ROOT / "assets" / "styles.css").read_bytes()).hexdigest()[:8] i
 import re as _re
 PH = json.loads((ROOT / "assets" / "ph" / "manifest.json").read_text()) if (ROOT / "assets" / "ph" / "manifest.json").exists() else {}
 
-DESK_ACCENTS = {"diamonds":"#BE3319","gold-metals":"#96762E","gemstones":"#2E6E5E","watches":"#16130E","auctions":"#8A5A2E","retail-tech":"#4A5A6E"}
+DESK_ACCENTS = {"diamonds":"#BE3319","gold-metals":"#77737E","gemstones":"#2E6E5E","watches":"#0D0D0F","auctions":"#8A5A2E","retail-tech":"#4A5A6E"}
 
 # A representative openly-licensed photo per desk (from assets/ph), used so photoless
 # stories still get a real, tinted image instead of a bare engraving glyph.
@@ -631,7 +631,7 @@ DESK_CHIP = {"diamonds":"Diamonds","gold-metals":"Gold & Metals","gemstones":"Ge
 def record_entry(e, week=""):
     chip = DESK_CHIP.get(e.get("d",""), "The Paper")
     wk = f'<span style="color:var(--ink-3)">{week}</span>' if week else ""
-    return f"""<div class="rec-e rv" style="padding:22px 0;border-bottom:1px solid rgba(22,19,14,.14)">
+    return f"""<div class="rec-e rv" style="padding:22px 0;border-bottom:1px solid rgba(13,13,15,.14)">
       <div style="font-family:var(--mono);font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--seal);display:flex;gap:14px;align-items:baseline">{chip} {wk}</div>
       <h3 style="font-family:var(--disp);font-weight:700;font-size:clamp(19px,2vw,25px);letter-spacing:-.02em;margin:8px 0 7px">{e["h"]}</h3>
       <p style="max-width:820px;font-size:15.5px;line-height:1.65;color:var(--ink-2)">{e["t"]}</p>
@@ -668,8 +668,8 @@ def almanac_table(t):
     headr = "".join(f'<th style="text-align:left;font-family:var(--mono);font-size:9.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-3);padding:0 14px 10px 0;border-bottom:2px solid var(--ink)">{c}</th>' for c in t["cols"])
     rows = ""
     for r in t["rows"]:
-        tds = f'<td style="font-family:var(--text);font-size:14.5px;padding:9px 14px 9px 0;border-bottom:1px solid rgba(22,19,14,.12)">{r[0]}</td>'
-        tds += "".join(f'<td style="font-family:var(--mono);font-size:13px;padding:9px 14px 9px 0;border-bottom:1px solid rgba(22,19,14,.12);white-space:nowrap">{c}</td>' for c in r[1:])
+        tds = f'<td style="font-family:var(--text);font-size:14.5px;padding:9px 14px 9px 0;border-bottom:1px solid rgba(13,13,15,.12)">{r[0]}</td>'
+        tds += "".join(f'<td style="font-family:var(--mono);font-size:13px;padding:9px 14px 9px 0;border-bottom:1px solid rgba(13,13,15,.12);white-space:nowrap">{c}</td>' for c in r[1:])
         rows += f"<tr>{tds}</tr>"
     return f"""<div class="rv" style="break-inside:avoid;margin:0 0 44px">
       <h3 style="font-family:var(--disp);font-weight:700;font-size:21px;letter-spacing:-.02em">{t["title"]}</h3>
@@ -700,8 +700,8 @@ def almanac_page():
 # ---------------- THE PRICE LIST (natural diamonds) ----------------
 import math as _pm
 
-PX_INK, PX_SEAL, PX_GILT, PX_DIM = "#16130E", "#BE3319", "#96762E", "#7A7263"
-PX_SOFT, PX_HAIR = "rgba(22,19,14,.16)", "rgba(22,19,14,.07)"
+PX_INK, PX_SEAL, PX_GILT, PX_DIM = "#0D0D0F", "#BE3319", "#77737E", "#6E6D74"
+PX_SOFT, PX_HAIR = "rgba(13,13,15,.16)", "rgba(13,13,15,.07)"
 
 
 def _usd(n, dp=0):
@@ -859,7 +859,7 @@ def px_bars(rows, colour=PX_SEAL, unit="$", show=None, tint=None):
                 f'font-size="12.5" fill="{PX_INK}">{r["right"]}</text>')
     hatch = ('<defs><pattern id="pxHatch" width="6" height="6" patternUnits="userSpaceOnUse" '
              'patternTransform="rotate(45)"><rect width="6" height="6" fill="none"/>'
-             '<line x1="0" y1="0" x2="0" y2="6" stroke="#F2EDE3" stroke-width="2"/></pattern></defs>')
+             '<line x1="0" y1="0" x2="0" y2="6" stroke="#F3F1EC" stroke-width="2"/></pattern></defs>')
     return (f'<svg viewBox="0 0 {W} {Hh}" width="100%" role="img" style="display:block">{hatch}{out}</svg>')
 
 
@@ -1232,7 +1232,7 @@ def lx_flat(rows):
                      f'stroke="{PX_GILT}" stroke-width="2.2"/>')
             my = (y(r["nat_ct"]) + y(r["lab_ct"])) / 2
             ratios += (f'<text x="{xs[i]:.1f}" y="{my+3.6:.1f}" text-anchor="middle" paint-order="stroke" '
-                       f'stroke="#F2EDE3" stroke-width="3.4" font-family="IBM Plex Mono,monospace" '
+                       f'stroke="#F3F1EC" stroke-width="3.4" font-family="IBM Plex Mono,monospace" '
                        f'font-size="11" fill="{PX_GILT}">{r["ratio"]:g}×</text>')
         col = PX_SEAL if not r["nat_ct"] else PX_DIM
         xlab += (f'<text x="{xs[i]:.1f}" y="{T+ph+22}" text-anchor="middle" font-family="IBM Plex Mono,monospace" '
@@ -1559,7 +1559,7 @@ def lab_prices_page():
 IDX = json.loads((CONTENT / "indices.json").read_text()) if (CONTENT / "indices.json").exists() else {}
 
 # index hues chosen for ink-on-paper legibility, echoing the desk hues
-IDX_HUE = {"CC20": "#96762E", "CC-M": "#7C5CD6", "CC-C": "#0E7C7B",
+IDX_HUE = {"CC20": "#77737E", "CC-M": "#7C5CD6", "CC-C": "#0E7C7B",
            "CC-P": "#2563A8", "CC-W": "#1E7D46"}
 SEG_NAME = {"M": "Maison", "C": "Counter", "P": "Pit", "W": "Movement"}
 
@@ -1588,9 +1588,9 @@ def _idx_chart(lines, W=960, Hh=420, pad_l=46, pad_r=118, pad_t=18, pad_b=30,
         y = Y(g)
         em = abs(g - baseline) < 1e-9
         out.append(f'<line x1="{pad_l}" y1="{y:.1f}" x2="{W-pad_r}" y2="{y:.1f}" '
-                   f'stroke="{"#3B362C" if em else "#3B362C22"}" stroke-width="{1.2 if em else 1}"/>')
+                   f'stroke="{"#3A3A3F" if em else "#3A3A3F22"}" stroke-width="{1.2 if em else 1}"/>')
         out.append(f'<text x="{pad_l-8}" y="{y+3:.1f}" text-anchor="end" font-size="10" '
-                   f'fill="#3B362C88">{g}</text>')
+                   f'fill="#3A3A3F88">{g}</text>')
         g += step
     # month ticks
     seen = set()
@@ -1600,10 +1600,10 @@ def _idx_chart(lines, W=960, Hh=420, pad_l=46, pad_r=118, pad_t=18, pad_b=30,
         seen.add(mo)
         if d == days[0]: continue
         x = X[d]
-        out.append(f'<line x1="{x:.1f}" y1="{pad_t}" x2="{x:.1f}" y2="{Hh-pad_b}" stroke="#3B362C14"/>')
+        out.append(f'<line x1="{x:.1f}" y1="{pad_t}" x2="{x:.1f}" y2="{Hh-pad_b}" stroke="#3A3A3F14"/>')
         lab = datetime.date.fromisoformat(d).strftime("%b").upper()
         out.append(f'<text x="{x:.1f}" y="{Hh-10}" text-anchor="middle" font-size="9" '
-                   f'letter-spacing="1" fill="#3B362C88">{lab}</text>')
+                   f'letter-spacing="1" fill="#3A3A3F88">{lab}</text>')
     # the lines
     ends = []
     for lab, hue, s, dash in lines:
@@ -1642,16 +1642,16 @@ def _spread_chart(a, b, W=960, Hh=230, pad_l=46, pad_r=20, pad_t=14, pad_b=28):
     area = f"{pad_l},{z:.1f} " + pts + f" {X[days[-1]]:.1f},{z:.1f}"
     out = [f'<svg viewBox="0 0 {W} {Hh}" width="100%" role="img" aria-label="Spread" '
            f'style="display:block;font-family:var(--mono)">',
-           f'<line x1="{pad_l}" y1="{z:.1f}" x2="{W-pad_r}" y2="{z:.1f}" stroke="#3B362C" stroke-width="1.2"/>',
-           f'<polygon points="{area}" fill="#96762E1E"/>',
-           f'<polyline points="{pts}" fill="none" stroke="#96762E" stroke-width="2"/>']
+           f'<line x1="{pad_l}" y1="{z:.1f}" x2="{W-pad_r}" y2="{z:.1f}" stroke="#3A3A3F" stroke-width="1.2"/>',
+           f'<polygon points="{area}" fill="#77737E1E"/>',
+           f'<polyline points="{pts}" fill="none" stroke="#77737E" stroke-width="2"/>']
     for gv in (lo + (hi - lo) * .25, hi - (hi - lo) * .25):
         out.append(f'<text x="{pad_l-8}" y="{Y(gv)+3:.1f}" text-anchor="end" font-size="10" '
-                   f'fill="#3B362C88">{gv:+.0f}</text>')
+                   f'fill="#3A3A3F88">{gv:+.0f}</text>')
     d_end, v_end = sp[-1]
-    out.append(f'<circle cx="{X[d_end]:.1f}" cy="{Y(v_end):.1f}" r="3" fill="#96762E"/>')
+    out.append(f'<circle cx="{X[d_end]:.1f}" cy="{Y(v_end):.1f}" r="3" fill="#77737E"/>')
     out.append(f'<text x="{X[d_end]-8:.1f}" y="{Y(v_end)-8:.1f}" text-anchor="end" font-size="11" '
-               f'font-weight="600" fill="#96762E">{v_end:+.1f} pts</text>')
+               f'font-weight="600" fill="#77737E">{v_end:+.1f} pts</text>')
     out.append("</svg>")
     return "".join(out)
 
@@ -2061,8 +2061,8 @@ def magazine_page():
       "Carat Capital's weekly digital magazine: the week's editions bound into a page-turning issue.",
       "magazine.html")}
 <style>
-:root{{--pink:#16130E;--pink2:#3B362C;--pink3:#8A8272;--pgilt:#96762E;--pseal:#BE3319;
-  --paper:#F6F1E6;--paper2:#EFE8D8;--pline:rgba(59,54,44,.22);
+:root{{--pink:#0D0D0F;--pink2:#3A3A3F;--pink3:#8A8272;--pgilt:#77737E;--pseal:#BE3319;
+  --paper:#F6F1E6;--paper2:#EFE8D8;--pline:rgba(58,58,63,.22);
   --pd:'Instrument Sans',sans-serif;--pt:'Lora',Georgia,serif;--pm:'IBM Plex Mono',monospace}}
 html,body{{background:#100E0B;overflow-x:clip;overscroll-behavior:none}}
 body{{margin:0;color:var(--pink);font-family:var(--pt);
@@ -2122,7 +2122,7 @@ body.zoomed.panning #zoomer{{cursor:grabbing;transition:none}}
 #peel .curl{{position:absolute;inset:0;pointer-events:none}}
 #foldsh{{position:absolute;top:0;bottom:0;width:70px;display:none;z-index:9;pointer-events:none}}
 #cornhint{{position:absolute;right:0;bottom:0;width:46px;height:46px;z-index:12;pointer-events:none;
-  background:linear-gradient(315deg,rgba(59,54,44,.20) 6%,rgba(255,252,244,.4) 12%,transparent 46%);
+  background:linear-gradient(315deg,rgba(58,58,63,.20) 6%,rgba(255,252,244,.4) 12%,transparent 46%);
   opacity:0;transition:opacity .4s;border-radius:0 0 2px 0}}
 #book:hover #cornhint{{opacity:1;animation:breathe 2.6s ease-in-out infinite}}
 @keyframes breathe{{50%{{transform:scale(1.22);opacity:.75}}}}
@@ -2203,8 +2203,8 @@ body.zoomed.panning #zoomer{{cursor:grabbing;transition:none}}
   text-transform:uppercase;color:#C6A24A}}
 .cmedal{{width:6.8cqw;height:6.8cqw;color:#C6A24A;flex:none}}
 .cmedal.big{{width:16.6cqw;height:16.6cqw;margin:0 auto 18px}}
-.cbrand{{font-family:'Bodoni Moda',Didot,'Bodoni 72',Georgia,serif;font-weight:500;font-variation-settings:'opsz' 11;font-size:3.6cqw;letter-spacing:-.008em}}
-.cbrand .pt{{display:inline-block;width:.16em;height:.16em;border-radius:50%;background:#BE3319;margin-left:.02em}}
+.cbrand{{font-family:'Instrument Sans',Arial,sans-serif;font-weight:700;text-transform:uppercase;word-spacing:.06em;font-size:2.8cqw;letter-spacing:-.01em}}
+.cbrand .pt{{display:inline-block;width:.16em;height:.16em;border-radius:50%;background:#BE3319;margin-left:.04em}}
 .cbrand span{{color:#BE3319}}
 .cov-mast{{font-family:var(--pd);font-weight:700;font-size:16.6cqw;line-height:.92;letter-spacing:-.03em;margin:6.2cqw 0 2cqw}}
 .cov-sub{{font-family:var(--pm);font-size:1.95cqw;letter-spacing:.26em;text-transform:uppercase;color:#C6A24A}}
@@ -2263,7 +2263,7 @@ body.zoomed.panning #zoomer{{cursor:grabbing;transition:none}}
 .th:hover{{border-color:#6E7278}}
 .th .pg{{transform:scale(.19);transform-origin:top left;width:400px;height:560px;position:absolute}}
 .th b{{position:absolute;right:3px;bottom:2px;z-index:9;font-family:var(--pm);font-weight:500;
-  font-size:7px;color:#96762E;background:rgba(246,241,230,.85);padding:1px 4px;border-radius:3px}}
+  font-size:7px;color:#77737E;background:rgba(246,241,230,.85);padding:1px 4px;border-radius:3px}}
 #tocp{{display:flex;flex-direction:column;gap:2px;max-height:44vh;overflow-y:auto}}
 #tocp button{{font-family:var(--pm);font-size:10px;letter-spacing:.14em;text-transform:uppercase;
   text-align:left;color:#CFC5AC;background:none;border:0;border-bottom:1px solid rgba(198,162,74,.14);
@@ -2393,7 +2393,7 @@ html:not(.js) .lp,html:not(.js) #under,html:not(.js) #peelC,html:not(.js) #folds
       peel.style.left=x0+'px'; peel.style.width=Math.max(0,l-x0)+'px';
       const pb1=peel.querySelector('.pback'); if(pb1) pb1.style.display='block';
       peelIn.style.display='none';
-      curl.style.background='linear-gradient(90deg,transparent 55%,rgba(59,54,44,.16) 88%,rgba(20,16,8,.32) 99%),'+
+      curl.style.background='linear-gradient(90deg,transparent 55%,rgba(58,58,63,.16) 88%,rgba(20,16,8,.32) 99%),'+
         'linear-gradient(90deg,rgba(255,252,240,.5) 0%,transparent 10%)';
       foldsh.style.display='block'; foldsh.style.left=l+'px';
       foldsh.style.background='linear-gradient(90deg,rgba(10,8,4,'+(0.34*Math.sin(Math.min(1,p*1.2)*Math.PI)).toFixed(3)+'),transparent)';
@@ -2415,7 +2415,7 @@ html:not(.js) .lp,html:not(.js) #under,html:not(.js) #peelC,html:not(.js) #folds
         if(lf) peelIn.appendChild(lf.cloneNode(true));
         peel.dataset.face='b'+(2*cur+1);
       }}
-      curl.style.background='linear-gradient(90deg,transparent 55%,rgba(59,54,44,.14) 88%,rgba(20,16,8,.30) 99%),'+
+      curl.style.background='linear-gradient(90deg,transparent 55%,rgba(58,58,63,.14) 88%,rgba(20,16,8,.30) 99%),'+
         'linear-gradient(90deg,rgba(255,252,240,.5) 0%,transparent 8%)';
       foldsh.style.display='block';
       foldsh.style.left=l+'px';
@@ -2436,7 +2436,7 @@ html:not(.js) .lp,html:not(.js) #under,html:not(.js) #peelC,html:not(.js) #folds
         if(lf) peelIn.appendChild(lf.cloneNode(true));
         peel.dataset.face='f'+(2*(cur-1));
       }}
-      curl.style.background='linear-gradient(-90deg,transparent 55%,rgba(59,54,44,.14) 88%,rgba(20,16,8,.30) 99%),'+
+      curl.style.background='linear-gradient(-90deg,transparent 55%,rgba(58,58,63,.14) 88%,rgba(20,16,8,.30) 99%),'+
         'linear-gradient(-90deg,rgba(255,252,240,.5) 0%,transparent 8%)';
       foldsh.style.display='block';
       foldsh.style.left=(l-70)+'px';
@@ -2759,11 +2759,11 @@ def _fig_bars(f):
     H = top + len(rows) * (bh + gap) + 34
     mx = max(r["v"] for r in rows) or 1
     out = [f'<svg viewBox="0 0 {W} {H}" role="img" aria-label="{f.get("title","")}">',
-           f'<text x="20" y="24" font-family="\'IBM Plex Mono\',monospace" font-size="11" letter-spacing="1" fill="#7A7263">{f.get("title","").upper()}</text>']
+           f'<text x="20" y="24" font-family="\'IBM Plex Mono\',monospace" font-size="11" letter-spacing="1" fill="#6E6D74">{f.get("title","").upper()}</text>']
     y = top
     for r in rows:
         w = max(10, int((RX - LX - 76) * r["v"] / mx))
-        col = "#BE3319" if r.get("hi") else "#16130E"
+        col = "#BE3319" if r.get("hi") else "#0D0D0F"
         fw = ' font-weight="600"' if r.get("hi") else ""
         lfs = 11.5 if len(r["l"]) <= 19 else (9.5 if len(r["l"]) <= 24 else 8)
         out.append(f'<text x="{LX-8}" y="{y+bh-12}" font-family="\'IBM Plex Mono\',monospace" font-size="{lfs}" text-anchor="end" fill="{col}"{fw}>{r["l"]}</text>')
@@ -2777,7 +2777,7 @@ def _fig_bars(f):
     if f.get("note"):
         nfs = 10 if len(f["note"]) <= 80 else (9 if len(f["note"]) <= 100 else 8)
         nls = 1 if len(f["note"]) <= 80 else 0
-        out.append(f'<text x="20" y="{H-8}" font-family="\'IBM Plex Mono\',monospace" font-size="{nfs}" letter-spacing="{nls}" fill="#7A7263">{f["note"].upper()}</text>')
+        out.append(f'<text x="20" y="{H-8}" font-family="\'IBM Plex Mono\',monospace" font-size="{nfs}" letter-spacing="{nls}" fill="#6E6D74">{f["note"].upper()}</text>')
     out.append('</svg>')
     return "".join(out)
 
@@ -3605,10 +3605,10 @@ def about_page():
 {colophon()}
 {SCRIPT}"""
 
-FAVICON = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><style>@media (prefers-color-scheme:dark){.b{fill:#F2EDE3}}</style><defs><mask id="k0" maskUnits="userSpaceOnUse" x="-510" y="-100" width="1020" height="720.96"><rect x="-510" y="-100" width="1020" height="720.96" fill="#fff"/><path d="M-424 120.96L424 120.96M0 326.29L0 560.96" stroke="#000" stroke-width="34"/><circle cx="0" cy="254.29" r="76" fill="#000"/></mask></defs><g class="s" transform="translate(16 6.23) scale(0.0375)"><g mask="url(#k0)"><path d="M-224 0L224 0L400 120.96L0 520.96L-400 120.96Z" class="b" fill="#16130E"/></g><circle cx="0" cy="254.29" r="44" fill="#BE3319"/></g></svg>"""
+FAVICON = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><style>@media (prefers-color-scheme:dark){.b{fill:#F3F1EC}}</style><defs><mask id="k0" maskUnits="userSpaceOnUse" x="-510" y="-100" width="1020" height="720.96"><rect x="-510" y="-100" width="1020" height="720.96" fill="#fff"/><path d="M-424 120.96L424 120.96M0 326.29L0 560.96" stroke="#000" stroke-width="34"/><circle cx="0" cy="254.29" r="76" fill="#000"/></mask></defs><g class="s" transform="translate(16 6.23) scale(0.0375)"><g mask="url(#k0)"><path d="M-224 0L224 0L400 120.96L0 520.96L-400 120.96Z" class="b" fill="#0D0D0F"/></g><circle cx="0" cy="254.29" r="44" fill="#BE3319"/></g></svg>"""
 
 # ---- the nav mark: The Point, small cut (the brilliant-and-nib symbol; brand/README.md) ----
-LOGO_MARK = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 580.96" ><defs><mask id="lm2" maskUnits="userSpaceOnUse" x="-70" y="-70" width="1020" height="720.96"><rect x="-70" y="-70" width="1020" height="720.96" fill="#fff"/><path d="M16 150.96L864 150.96M440 356.29L440 590.96" stroke="#000" stroke-width="34"/><circle cx="440" cy="284.29" r="76" fill="#000"/></mask></defs><g mask="url(#lm2)"><path d="M216 30L664 30L840 150.96L440 550.96L40 150.96Z" fill="#16130E"/></g><circle cx="440" cy="284.29" r="44" fill="#BE3319"/></svg>"""
+LOGO_MARK = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 580.96" ><defs><mask id="lm2" maskUnits="userSpaceOnUse" x="-70" y="-70" width="1020" height="720.96"><rect x="-70" y="-70" width="1020" height="720.96" fill="#fff"/><path d="M16 150.96L864 150.96M440 356.29L440 590.96" stroke="#000" stroke-width="34"/><circle cx="440" cy="284.29" r="76" fill="#000"/></mask></defs><g mask="url(#lm2)"><path d="M216 30L664 30L840 150.96L440 550.96L40 150.96Z" fill="#0D0D0F"/></g><circle cx="440" cy="284.29" r="44" fill="#BE3319"/></svg>"""
 
 def logo_mark_svg():
     return LOGO_MARK

@@ -8,3 +8,4 @@ get "Bodoni+Moda" 700 bodoni700.ttf
 get "Castoro+Titling" 400 castorotitling.ttf
 get "Gloock" 400 gloock.ttf
 get "IBM+Plex+Mono" 500 plexmono500.ttf
+get "Instrument+Sans" 700 instrumentsans700.ttf

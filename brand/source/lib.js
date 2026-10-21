@@ -2,10 +2,12 @@
 const opentype = require('opentype.js');
 const path = require('path');
 
+// Edition 1.1: Black and Pearl White are the brand colours; Point Red is kept for the point alone.
+// The gilt foil is retired for a pearl lustre (foilA–D), still keyed as foil so every drawing follows.
 const C = {
-  paper: '#F2EDE3', paperHi: '#F8F4EB', ink: '#16130E', ink2: '#3B362C', ink3: '#7A7263',
-  seal: '#BE3319', sealDeep: '#93250F', gilt: '#96762E',
-  foilA: '#7A5E1F', foilB: '#D9B45E', foilC: '#F1DFA4', foilD: '#8A6C28',
+  paper: '#F3F1EC', paperHi: '#FAF9F6', paperLo: '#E6E3DD', ink: '#0D0D0F', ink2: '#3A3A3F', ink3: '#6E6D74',
+  seal: '#BE3319', sealDeep: '#93250F', gilt: '#77737E',
+  foilA: '#B9B5C1', foilB: '#E9E4DE', foilC: '#FFFFFF', foilD: '#BFC6CE',
 };
 
 const fontCache = {};
@@ -17,8 +19,8 @@ function font(name) {
 const r2 = (n) => Math.round(n * 100) / 100;
 const deg = (a) => (a * Math.PI) / 180;
 
-// Lay out a string with kerning + tracking (tracking in em/1000). Returns {d, width}.
-function setText(fontName, str, x, y, size, tracking = 0) {
+// Lay out a string with kerning + tracking (tracking in em/1000; wordSpace adds em/1000 after each space). Returns {d, width}.
+function setText(fontName, str, x, y, size, tracking = 0, wordSpace = 0) {
   const f = font(fontName);
   const glyphs = f.stringToGlyphs(str);
   const scale = size / f.unitsPerEm;
@@ -27,12 +29,13 @@ function setText(fontName, str, x, y, size, tracking = 0) {
     d += g.getPath(cx, y, size).toPathData(2);
     cx += g.advanceWidth * scale;
     if (i < glyphs.length - 1) cx += f.getKerningValue(g, glyphs[i + 1]) * scale + (tracking / 1000) * size;
+    if (g.unicode === 32) cx += (wordSpace / 1000) * size;
   });
   return { d, width: cx - x };
 }
 function textWidth(fontName, str, size, tracking = 0) { return setText(fontName, str, 0, 0, size, tracking).width; }
 // Optical bounding box of a string (ink extents), useful for centring.
-function inkBox(fontName, str, size, tracking = 0) {
+function inkBox(fontName, str, size, tracking = 0, wordSpace = 0) {
   const f = font(fontName); const glyphs = f.stringToGlyphs(str); const scale = size / f.unitsPerEm;
   let cx = 0, x1 = Infinity, x2 = -Infinity, y1 = Infinity, y2 = -Infinity;
   glyphs.forEach((g, i) => {
@@ -40,6 +43,7 @@ function inkBox(fontName, str, size, tracking = 0) {
     if (bb.x1 !== bb.x2) { x1 = Math.min(x1, bb.x1); x2 = Math.max(x2, bb.x2); y1 = Math.min(y1, bb.y1); y2 = Math.max(y2, bb.y2); }
     cx += g.advanceWidth * scale;
     if (i < glyphs.length - 1) cx += f.getKerningValue(g, glyphs[i + 1]) * scale + (tracking / 1000) * size;
+    if (g.unicode === 32) cx += (wordSpace / 1000) * size;
   });
   return { x1, x2, y1, y2, w: x2 - x1, h: y2 - y1, adv: cx };
 }

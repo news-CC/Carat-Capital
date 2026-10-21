@@ -45,7 +45,7 @@ function pointLockup({ fg = C.ink, dot = C.seal, bg = 'none', tag = true } = {})
   if (tag) body += `<path fill="${fg}" opacity=".8" d="${setText('plexmono500', TAG, tx + 4, base + 118, 33, 262).d}"/>`;
   return svg(`0 0 ${r2(W)} ${r2(H)}`, body, m.defs);
 }
-function pointConstruction({ fg = C.ink, red = C.seal, faint = 'rgba(22,19,14,.3)' } = {}) {
+function pointConstruction({ fg = C.ink, red = C.seal, faint = 'rgba(13,13,15,.3)' } = {}) {
   // a line drawing: guides, facet lines, angles and labels kept outside the stone
   const g = pointGeom(), cx = 500, top = 250, P = (x, y) => [cx + x, top + y], fx = 0.36, hy = g.ch + g.pd * 0.33, hr = 44;
   const TL = P(-g.tw, 0), TR = P(g.tw, 0), GR = P(g.half, g.ch), GL = P(-g.half, g.ch), CU = P(0, g.H);
@@ -164,7 +164,7 @@ function stepCutLockup({ fg = C.ink, bg = 'none', gold = false, stacked = false 
   const D = decoWord('CARAT CAPITAL', { fg, x: 30, y: 30 + symH + 70, Hc, w: 14, gap: 46 });
   return svg(`0 0 ${r2(W)} ${r2(30 + symH + 70 + Hc + 30)}`, bgRect(bg) + `<g transform="translate(${r2(W / 2 - 500 * s)} ${r2(30 - 95 * s)}) scale(${s})">${m.body}</g>${D.body}`, m.defs + D.defs);
 }
-function stepCutConstruction({ fg = C.ink, red = C.seal, faint = 'rgba(22,19,14,.3)' } = {}) {
+function stepCutConstruction({ fg = C.ink, red = C.seal, faint = 'rgba(13,13,15,.3)' } = {}) {
   const m = stepCutMarkup({ fg, kw: 0 });
   let o = `<path d="M170 95H830V905H170Z M500 30V970 M60 500H940" fill="none" stroke="${faint}" stroke-width="1.6" stroke-dasharray="5 7"/>`;
   o += `<path d="${m.outer}" fill="none" stroke="${fg}" stroke-width="3"/><path d="${m.cuts}" fill="none" stroke="${red}" stroke-width="2.2"/>`;

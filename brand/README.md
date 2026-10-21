@@ -1,13 +1,11 @@
 # Carat Capital brand
 
-The identity is **The Point**: a round brilliant seen from the side whose pavilion is also a pen nib. The nib's breather hole holds a red point, because printers set type in points and diamond dealers weigh stones in points (1 pt = 0.01 ct). The same point closes the wordmark, *CARAT CAPITAL.*, set in Instrument Sans Bold capitals.
+The identity is **The Point**: a round brilliant seen from the side whose pavilion is also a pen nib. The nib's breather hole holds a red point, because printers set type in points and diamond dealers weigh stones in points (1 pt = 0.01 ct). The same point closes the wordmark, *CARAT CAPITAL.*, set in Instrument Sans Bold capitals (the paper's original nameplate face; Bodoni Moda until edition 1.1).
 
-**Edition 1.1 (17 October 2026):** the brand colours are **Black** `#0D0D0F` and **Pearl White** `#F3F1EC`. Point Red `#BE3319` is kept for the point alone, and a pearl lustre replaces the gilt foil.
+**Colour (edition 1.1):** the brand colours are **Black** `#0D0D0F` and **Pearl White** `#F3F1EC`. Point Red `#BE3319` is kept for the point alone, and the gilt foil is replaced by a pearl lustre. The palette lives in `C` in [`source/lib.js`](source/lib.js); files named `gold` and `paper` keep their names and now carry the pearl lustre and Pearl White.
 
-- **Brand book:** [`book/`](book/), live at [caratcapital.org/brand/book/](https://caratcapital.org/brand/book/) (`noindex`). *The Point in Limelight*, on Edition 1.1: the symbol, its cuts, the name and lockups, colour, type, voice, the theatrical stills, misuse and applications. [`brand-book.html`](brand-book.html) now forwards there.
-- **Previous edition:** [`Carat-Capital-Brand-Book.pdf`](Carat-Capital-Brand-Book.pdf), the 18-page Edition 1.0 book.
-
-> **Edition 1.1 is not merged yet.** On `main`, the logo kit in `logo/`, the PDF, the scripts in `source/` and the site itself still carry Edition 1.0 (Bodoni Moda, Ink and Paper). The Edition 1.1 versions are on the branch `claude/admiring-maxwell-4zfh7t`. The brand book carries its own copies of the Edition 1.1 artwork in [`book/img/point/`](book/img/point/).
+- **Brand book:** [`book/`](book/), live at [caratcapital.org/brand/book/](https://caratcapital.org/brand/book/) (`noindex`). *The Point in Limelight*: the symbol, its cuts, the name and lockups, colour, type, voice, the theatrical stills, misuse and applications. [`brand-book.html`](brand-book.html) forwards there.
+- **Specification:** [`Carat-Capital-Brand-Book.pdf`](Carat-Capital-Brand-Book.pdf), 18 pages: idea, anatomy, construction, optical sizes, the engraved cut, wordmark, lockups, clear space, colour, typography, misuse and applications. Rebuilt by `source/book.js` and `source/pdf.js`.
 - **Logo kit:** [`logo/`](logo)
   - `svg/` lockups (horizontal, stacked, wordmark) in ink, reverse, gold and one-colour; the symbol in L, M and S cuts, gold and engraved
   - `png/` transparent PNGs of the lockups and symbols
@@ -21,7 +19,7 @@ The site builds every page from `build.py` and `home_template.html`, so the mark
 
 | Where | What changed |
 | --- | --- |
-| `build.py` | Nav bar, menu and footer wordmark; the Folio cover; `FAVICON`; `LOGO_MARK` (the nav symbol); the `#medal` symbol; the assay hallmark; Bodoni Moda in `FONTS`; share image and apple-touch-icon in `head()` |
+| `build.py` | Nav bar, menu and footer wordmark; the Folio cover; `FAVICON`; `LOGO_MARK` (the nav symbol); the `#medal` symbol; the assay hallmark; the wordmark face (Instrument Sans Bold) in `FONTS`; share image and apple-touch-icon in `head()` |
 | `home_template.html` | Front-page masthead, top bar, menu, loader and footer; `#medal`; the assay hallmark; share image |
 | `assets/styles.css` | Wordmark styles and the drawn point (`.pt`: 0.16 em, on the baseline) |
 | `seo.py` | Default share image |
@@ -41,7 +39,7 @@ node site-assets.js    # assets/share-card.png, apple-touch-icon.png, cc-icon-10
 node site-snippets.js  # build/snippets: paste into FAVICON, LOGO_MARK and #medal (see file header)
 cd ../.. && python3 build.py && cd brand/source
 node site-caps.js      # screenshots of the built site for the book
-node book.js && node pdf.js   # brand-book.html and the PDF
+node book.js && node pdf.js   # the 18-page spec and its PDF; keep brand-book.html as the forwarder to book/
 ```
 
-The scripts render with Playwright and Chromium. Typefaces (SIL Open Font License): Bodoni Moda, IBM Plex Mono; round one also uses Castoro Titling and Gloock.
+The scripts render with Playwright and Chromium. Typefaces (SIL Open Font License): Instrument Sans, IBM Plex Mono; round one also uses Bodoni Moda, Castoro Titling and Gloock.
