@@ -49,6 +49,45 @@ if ARTICLES and WIRE.get("edition"):
             "and its editionDate together, then rebuild."
             % (WIRE.get("edition"), _stamped, _newest))
 
+# ---------------------------------------------------------------------------
+# THE DATE LINE IS DERIVED, NEVER STORED (caratchief 2026-10-18, closing
+# caratdesk's escalation of 11, 12, 17 and 18 October).
+#
+# The guard above closed the door it was pointed at: "edition" can no longer
+# disagree with the newest article. But wire.json carried a SECOND literal the
+# guard could not see — "date_line" — holding the weekday, the date AND the
+# edition number, all frozen. On 18 October it read "Saturday, October 17,
+# 2026 | Vol. I - No. 089" while editionDate was correctly 2026-10-18, so the
+# build PASSED and the homepage would have served yesterday's date and edition
+# number above today's eight articles. caratdesk caught it by grepping the
+# built homepage for "No. 090" and finding "October 17" instead. That is four
+# consecutive press times fixed by hand.
+#
+# A reader-facing date that is a literal a builder prints is a date that will
+# eventually be yesterday's. So the date line is now COMPUTED from the two
+# fields the guard already polices, and whatever wire.json stores is inert —
+# the same treatment the natural-1ct and lab chips get above, for the same
+# reason. If the stored value disagrees, the build says so and uses the
+# derived one; it does not stop, because the derived value is always right.
+# ---------------------------------------------------------------------------
+if WIRE.get("edition") and WIRE.get("editionDate"):
+    try:
+        _d = datetime.datetime.strptime(WIRE["editionDate"], "%Y-%m-%d")
+        _derived = "%s, %s %d, %d | %s" % (
+            _d.strftime("%A"), _d.strftime("%B"), _d.day, _d.year,
+            WIRE["edition"].strip())
+        _stored = (WIRE.get("date_line") or "").strip()
+        if _stored and _stored != _derived:
+            print("NOTE - content/wire.json's date_line said %r; the build is "
+                  "using %r, derived from edition + editionDate. The stored "
+                  "value is inert." % (_stored, _derived))
+        WIRE["date_line"] = _derived
+    except ValueError as _e:
+        raise SystemExit(
+            "BUILD STOPPED - content/wire.json's editionDate (%r) is not "
+            "YYYY-MM-DD, so the date line cannot be derived: %s"
+            % (WIRE.get("editionDate"), _e))
+
 RECORD = json.loads((CONTENT / "record.json").read_text()) if (CONTENT / "record.json").exists() else {}
 PRICES = json.loads((CONTENT / "prices.json").read_text()) if (CONTENT / "prices.json").exists() else {}
 LAB = json.loads((CONTENT / "lab-prices.json").read_text()) if (CONTENT / "lab-prices.json").exists() else {}

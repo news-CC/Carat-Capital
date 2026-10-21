@@ -4,7 +4,8 @@ The identity is **The Point**: a round brilliant seen from the side whose pavili
 
 **Colour (edition 1.1):** the brand colours are **Black** `#0D0D0F` and **Pearl White** `#F3F1EC`. Point Red `#BE3319` is kept for the point alone, and the gilt foil is replaced by a pearl lustre. The palette lives in `C` in [`source/lib.js`](source/lib.js); files named `gold` and `paper` keep their names and now carry the pearl lustre and Pearl White.
 
-- **Brand book:** [`brand-book.html`](brand-book.html) (web, `noindex`) and [`Carat-Capital-Brand-Book.pdf`](Carat-Capital-Brand-Book.pdf), 18 pages: idea, anatomy, construction, optical sizes, the engraved cut, wordmark, lockups, clear space, colour, typography, misuse and applications.
+- **Brand book:** [`book/`](book/), live at [caratcapital.org/brand/book/](https://caratcapital.org/brand/book/) (`noindex`). *The Point in Limelight*: the symbol, its cuts, the name and lockups, colour, type, voice, the theatrical stills, misuse and applications. [`brand-book.html`](brand-book.html) forwards there.
+- **Specification:** [`Carat-Capital-Brand-Book.pdf`](Carat-Capital-Brand-Book.pdf), 18 pages: idea, anatomy, construction, optical sizes, the engraved cut, wordmark, lockups, clear space, colour, typography, misuse and applications. Rebuilt by `source/book.js` and `source/pdf.js`.
 - **Logo kit:** [`logo/`](logo)
   - `svg/` lockups (horizontal, stacked, wordmark) in ink, reverse, gold and one-colour; the symbol in L, M and S cuts, gold and engraved
   - `png/` transparent PNGs of the lockups and symbols
@@ -38,7 +39,7 @@ node site-assets.js    # assets/share-card.png, apple-touch-icon.png, cc-icon-10
 node site-snippets.js  # build/snippets: paste into FAVICON, LOGO_MARK and #medal (see file header)
 cd ../.. && python3 build.py && cd brand/source
 node site-caps.js      # screenshots of the built site for the book
-node book.js && node pdf.js   # brand-book.html and the PDF
+node book.js && node pdf.js   # the 18-page spec and its PDF; keep brand-book.html as the forwarder to book/
 ```
 
 The scripts render with Playwright and Chromium. Typefaces (SIL Open Font License): Instrument Sans, IBM Plex Mono; round one also uses Bodoni Moda, Castoro Titling and Gloock.

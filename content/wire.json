@@ -1,43 +1,42 @@
 {
- "date_line": "Monday, October 12, 2026 | Vol. I - No. 088",
- "edition": "Vol. I - No. 088",
+ "date_line": "Sunday, October 18, 2026 | Vol. I - No. 090",
+ "edition": "Vol. I - No. 093",
  "items": [
   {
-   "slug": "eighty-seven-eighty-one-lakh-out-for-stone-setting",
-   "desk": "Retail & Technology",
-   "title": "₹87.81 lakh of gold never returns from a Wadaj workshop"
-  },
-  {
-   "slug": "nine-point-five-billion-passes-china",
+   "slug": "vietnam-ends-gold-jewellery-certificate",
    "desk": "Gold & Metals",
-   "title": "UK's $9.5bn passes China as gold ETF inflow leader"
+   "title": "Vietnam ends gold jewellery certificate, caps cash deals at VND 5m"
   },
   {
-   "slug": "swiss-refining-comes-to-tuen-mun",
-   "desk": "Gold & Metals",
-   "title": "Valcambi signs a Hong Kong refining venture with Shiu Wing"
-  },
-  {
-   "slug": "two-holds-end-at-press-time",
-   "desk": "Gold & Metals",
-   "title": "Platinum's $1,693 and palladium's $1,140 end two holds"
-  },
-  {
-   "slug": "forty-eight-brands-at-gotham-hall",
+   "slug": "sothebys-expects-nine-million-for-thirty-watches",
    "desk": "Watches",
-   "title": "48 brands fill Gotham Hall for New York Watch Week"
+   "title": "Sotheby's expects $9m-plus for 30 watches, nearly all first-owner"
+  },
+  {
+   "slug": "phillips-puts-six-to-twelve-million-on-a-journe",
+   "desk": "Auctions",
+   "title": "Phillips puts HK$6m–12m on Mark Cho's Journe Résonance"
+  },
+  {
+   "slug": "burgundy-director-deals-broke-an-asx-rule",
+   "desk": "Diamonds & Rough",
+   "title": "Burgundy board says US$50.6m director deals broke an ASX rule"
+  },
+  {
+   "slug": "de-beers-price-index-falls-twenty-percent",
+   "desk": "Diamonds & Rough",
+   "title": "De Beers' rough price index falls 20% as sales volume nearly doubles"
   }
  ],
- "tape_ts": "Kitco bid, press-time read 2026-10-12T06:05 EDT, Monday session open and moving (CNBC curmktstatus REG_MKT, distinct per-metal timestamps); corroborated on a second page",
+ "tape_ts": "Kitco bid, board stamp 2026-10-21T04:58:56.21Z, tape's 05:00 ET opening mark 21 Oct",
  "tape": [
   {
    "name": "Gold / oz",
    "code": "XAU",
-   "px": "4,171.90",
-   "chg": "−0.5175% vs 11 Oct mark",
+   "px": "4,119.80",
+   "chg": "-0.0024% vs 20 Oct mark",
    "dir": "down",
    "pts": [
-    2,
     5,
     6,
     8,
@@ -46,6 +45,7 @@
     11,
     24,
     20,
+    22,
     22
    ]
   },
@@ -90,11 +90,10 @@
   {
    "name": "Platinum / oz",
    "code": "XPT",
-   "px": "1,693.00",
-   "chg": "+0.4748% vs 11 Oct mark",
-   "dir": "up",
+   "px": "1,626.00",
+   "chg": "-0.6720% vs 20 Oct mark",
+   "dir": "down",
    "pts": [
-    2,
     2,
     4,
     4,
@@ -103,17 +102,17 @@
     7,
     24,
     19,
-    20
+    20,
+    19
    ]
   },
   {
    "name": "Silver / oz",
    "code": "XAG",
-   "px": "60.584",
-   "chg": "−0.1895% vs 11 Oct mark",
+   "px": "57.166",
+   "chg": "-0.0472% vs 20 Oct mark",
    "dir": "down",
    "pts": [
-    2,
     2,
     4,
     6,
@@ -122,9 +121,10 @@
     10,
     24,
     22,
+    23,
     23
    ]
   }
  ],
- "editionDate": "2026-10-12"
+ "editionDate": "2026-10-21"
 }

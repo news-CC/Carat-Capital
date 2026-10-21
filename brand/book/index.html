@@ -1,0 +1,1304 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<link rel="icon" type="image/svg+xml" href="img/point/symbol-S.svg">
+<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0;font:14px system-ui,sans-serif}img{max-width:100%}[hidden]{display:none!important}</style>
+<title>The Point in Limelight</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Carat Capital brand book, The Point Edition 1.1: the symbol, the name, the colour, the type and the light, laid out like a product page.">
+<meta name="robots" content="noindex,nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Instrument+Sans:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap">
+<style>
+:root{
+  /* Layout: a product page in Apple's manner. A frosted chapter bar over full-width bands that alternate
+     Pearl White, Black and Pearl Low; each band is an eyebrow, a large headline and a two-tone intro, then
+     one big visual or a bento of rounded tiles. Colours and faces are The Point, Edition 1.1. */
+  --pearl:#F3F1EC;
+  --pearl-hi:#FAF9F6;
+  --pearl-lo:#E6E3DD;
+  --lustre:#E9E4DE;
+  --black:#0D0D0F;
+  --black-hi:#1A1A1E;
+  --black-2:#3A3A3F;
+  --black-3:#6E6D74;
+  --black-3g:#5E5D64;
+  --red:#BE3319;
+  --on-black:#F3F1EC;
+  --on-black-2:#9C9A98;
+  --on-black-3:rgba(243,241,236,.5);
+  --hair:rgba(13,13,15,.1);
+  --hair-d:rgba(243,241,236,.13);
+  --foil:linear-gradient(135deg,#B9B5C1 0%,#E9E4DE 38%,#FFFFFF 55%,#E9E4DE 72%,#BFC6CE 100%);
+  --head:'Instrument Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
+  --body:'Lora',Georgia,'Times New Roman',serif;
+  --mono:'IBM Plex Mono',ui-monospace,Menlo,Consolas,monospace;
+  --wrap:1180px;
+  --r:28px;
+  --gap:20px;
+  --nav:52px;
+  --ease:cubic-bezier(.28,.11,.32,1);
+  color-scheme:light;
+}
+
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{background:var(--pearl);color:var(--black);font-family:var(--head);font-size:17px;line-height:1.47;letter-spacing:-.005em;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:optimizeLegibility}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:60;background:var(--black)}
+body:has(.ln:not(.on-dark))::before{background:var(--pearl)}
+h1,h2,h3,h4,p,figure,dl,dd,ol,ul{margin:0}
+ol,ul{padding:0;list-style:none}
+img{display:block;max-width:100%}
+a{color:inherit}
+button{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--red);outline-offset:3px;border-radius:6px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.wrap{box-sizing:content-box;max-width:var(--wrap);margin-inline:auto;padding-left:max(22px,env(safe-area-inset-left,0px));padding-right:max(22px,env(safe-area-inset-right,0px))}
+
+/* ---------- chapter bar ---------- */
+.ln{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;height:var(--nav);background:rgba(243,241,236,.8);color:var(--black);-webkit-backdrop-filter:saturate(180%) blur(20px);backdrop-filter:saturate(180%) blur(20px);box-shadow:0 1px 0 rgba(13,13,15,.08);transition:background-color .4s var(--ease),color .4s var(--ease),box-shadow .4s var(--ease)}
+.ln.on-dark{background:rgba(13,13,15,.74);color:var(--on-black);box-shadow:0 1px 0 rgba(243,241,236,.08)}
+.ln-in{display:flex;align-items:center;gap:28px;height:100%}
+.ln-title{display:flex;align-items:center;gap:10px;flex:none;font:700 19px/1 var(--head);letter-spacing:-.02em;text-decoration:none}
+.ln-title img{width:27px;height:auto}
+.ln-rev{display:none}
+.on-dark .ln-ink{display:none}
+.on-dark .ln-rev{display:block}
+.ln-links{display:flex;gap:22px;margin-left:auto;min-width:0;overflow-x:auto;scrollbar-width:none}
+.ln-links::-webkit-scrollbar{display:none}
+.ln-links a{flex:none;font:500 12.5px/1 var(--head);letter-spacing:0;text-decoration:none;opacity:.64;padding-block:10px;transition:opacity .2s}
+.ln-links a:hover,.ln-links a.on{opacity:1}
+.ln-ed{flex:none;font:500 11px/1 var(--mono);letter-spacing:.12em;text-transform:uppercase;opacity:.55}
+
+/* ---------- bands and type ---------- */
+.band{position:relative;padding-block:clamp(88px,11vw,160px);scroll-margin-top:var(--nav)}
+.light{background:var(--pearl);color:var(--black)}
+.gray{background:var(--pearl-lo);color:var(--black)}
+.dark{background:var(--black);color:var(--on-black)}
+.hb{display:grid;gap:16px;max-width:920px;margin-bottom:clamp(48px,6vw,84px)}
+.eyebrow{font:700 19px/1.2 var(--head);letter-spacing:-.01em;color:var(--red)}
+.h2{font:700 clamp(42px,6.2vw,84px)/1.02 var(--head);letter-spacing:-.04em;text-wrap:balance}
+.h3{font:700 clamp(28px,3.3vw,44px)/1.08 var(--head);letter-spacing:-.032em;text-wrap:balance}
+.intro{font:600 clamp(19px,2.05vw,28px)/1.3 var(--head);letter-spacing:-.016em;color:var(--black-3);max-width:31em;text-wrap:pretty}
+.intro strong{font-weight:600;color:var(--black)}
+.gray .intro{color:var(--black-3g)}
+.dark .intro,.dk .intro{color:var(--on-black-2)}
+.dark .intro strong,.dk .intro strong{color:var(--on-black)}
+.sub{margin:clamp(80px,9vw,128px) 0 12px}
+.sub-note{font:400 17px/1.55 var(--body);color:var(--black-2);max-width:60ch;margin-bottom:clamp(28px,3vw,40px)}
+.gray .sub-note{color:var(--black-2)}
+.dark .sub-note{color:var(--on-black-2)}
+.lbl{font:500 11px/1.4 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--black-3)}
+.gray .lbl{color:var(--black-3g)}
+.dark .lbl,.dk .lbl{color:var(--on-black-2)}
+.mono{font:500 12.5px/1.5 var(--mono);letter-spacing:.05em;font-variant-numeric:tabular-nums}
+.link{font:600 19px/1.3 var(--head);letter-spacing:-.01em;text-decoration:none;color:inherit}
+.link::after{content:"";display:inline-block;width:.4em;height:.4em;margin-left:.36em;border-right:2px solid currentColor;border-top:2px solid currentColor;transform:translateY(-.1em) rotate(45deg)}
+.link:hover{text-decoration:underline;text-underline-offset:.18em}
+.fc{margin-top:16px;font:600 17px/1.42 var(--head);letter-spacing:-.012em;color:var(--black-3);max-width:46em;text-wrap:pretty}
+.fc strong{font-weight:600;color:var(--black)}
+.gray .fc{color:var(--black-3g)}
+.dark .fc{color:var(--on-black-2)}
+.dark .fc strong{color:var(--on-black)}
+.note{margin-top:28px;font:400 16px/1.55 var(--body);color:var(--black-2);max-width:64ch}
+.note strong{font:600 16px/1 var(--head);color:var(--black)}
+.fine{margin-top:20px;font:400 12.5px/1.5 var(--head);color:var(--black-3);max-width:80ch}
+.gray .fine{color:var(--black-3g)}
+.x{color:var(--red);font-weight:700}
+
+/* ---------- tiles ---------- */
+.tile{position:relative;overflow:hidden;border-radius:var(--r);background:var(--pearl-lo);isolation:isolate;container-type:inline-size;min-width:0}
+.gray .tile{background:var(--pearl-hi)}
+.dark .tile{background:var(--black-hi);color:var(--on-black)}
+.ph{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-1}
+.tc{padding:clamp(24px,3.4vw,44px)}
+.tc h3{font:700 clamp(22px,2.4vw,30px)/1.12 var(--head);letter-spacing:-.026em;text-wrap:balance}
+.tc h4{font:700 clamp(18px,1.7vw,21px)/1.2 var(--head);letter-spacing:-.016em}
+.tc p:not([class]){margin-top:8px;font:400 16px/1.55 var(--body);color:var(--black-2);max-width:48ch;text-wrap:pretty}
+.dark .tc p:not([class]),.dk .tc p:not([class]){color:var(--on-black-2)}
+.g2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--gap)}
+.art{display:block;width:100%;height:auto}
+.specs{display:grid;margin-top:22px}
+.specs>div{display:grid;grid-template-columns:minmax(104px,.42fr) minmax(0,1fr);gap:16px;padding:12px 0;border-top:1px solid var(--hair)}
+.specs>div:last-child{border-bottom:1px solid var(--hair)}
+.specs dt{font:600 15px/1.45 var(--head)}
+.specs dd{font:400 15.5px/1.45 var(--body);color:var(--black-2)}
+.specs .m{font:500 13.5px/1.6 var(--mono);letter-spacing:.02em;color:var(--black);font-variant-numeric:tabular-nums}
+.dark .specs>div,.dk .specs>div{border-color:var(--hair-d)}
+.dark .specs dd,.dk .specs dd{color:var(--on-black-2)}
+.dark .specs .m,.dk .specs .m{color:var(--on-black)}
+
+/* ---------- hero ---------- */
+.hero{background:var(--black);color:var(--on-black);padding-top:clamp(56px,8vw,112px);overflow:clip;scroll-margin-top:var(--nav)}
+.hero-copy{display:grid;justify-items:center;text-align:center;gap:clamp(18px,2.4vw,28px)}
+.hero-lockup{width:min(540px,82%);height:auto}
+.hero .intro{max-width:24em;text-align:center}
+.hero-links{display:flex;flex-wrap:wrap;justify-content:center;gap:12px 32px;margin-top:4px}
+.hero-photo{position:relative;margin-top:clamp(56px,7vw,96px);height:clamp(340px,50vw,760px);isolation:isolate}
+.hero-photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:60% 34%;z-index:-2}
+.hero-photo::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,var(--black) 0%,rgba(13,13,15,0) 34%,rgba(13,13,15,0) 76%,rgba(13,13,15,.55) 100%)}
+.hero-photo figcaption{position:absolute;left:0;right:0;bottom:18px;text-align:right;font:500 10.5px/1.4 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--on-black-3)}
+
+/* ---------- the symbol ---------- */
+.t-nib{aspect-ratio:16/7.2}
+.t-nib .ph{object-position:50% 52%}
+.t-nib::after{content:"";position:absolute;inset:auto 0 0;height:50%;background:linear-gradient(0deg,rgba(13,13,15,.72),rgba(13,13,15,0))}
+.t-nib figcaption{position:absolute;z-index:1;left:clamp(24px,3.4vw,44px);right:clamp(24px,3.4vw,44px);bottom:clamp(22px,3vw,40px);font:700 clamp(22px,2.6vw,34px)/1.1 var(--head);letter-spacing:-.026em;color:var(--on-black)}
+.seq{position:relative;margin-block:clamp(72px,8vw,112px) 0}
+.seq-stage{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:clamp(32px,5vw,80px);align-items:center}
+.seq-art{position:relative;width:100%;aspect-ratio:880/580.96;justify-self:center}
+.sl{position:absolute;inset:0;width:100%;height:100%;transition:opacity .8s var(--ease)}
+.sl0,.sl1,.sl2{opacity:0}
+.seq-steps{display:grid;gap:28px}
+.seq-steps li{display:grid;grid-template-columns:auto minmax(0,1fr);column-gap:16px;row-gap:6px;transition:opacity .6s var(--ease)}
+.seq-n{grid-row:1/3;font:500 12px/1 var(--mono);letter-spacing:.08em;color:var(--red);padding-top:9px}
+.seq-steps h3{font:700 clamp(22px,2.3vw,30px)/1.1 var(--head);letter-spacing:-.026em}
+.seq-steps p{font:400 17px/1.55 var(--body);color:var(--black-2);max-width:40ch}
+.seq-live .seq{height:300vh}
+.seq-live .seq-stage{position:sticky;top:calc(var(--nav) + env(safe-area-inset-top,0px));height:calc(100vh - var(--nav))}
+.seq-live .seq-art{width:min(100%,calc((100vh - var(--nav) - 120px) * 1.515))}
+.seq-live .sl{opacity:0}
+.seq-live .seq[data-step="0"] .sl0,.seq-live .seq[data-step="1"] .sl1,.seq-live .seq[data-step="2"] .sl2,.seq-live .seq[data-step="3"] .sl3{opacity:1}
+.seq-live .seq-steps li{opacity:.22}
+.seq-live .seq[data-step="0"] li[data-i="0"],.seq-live .seq[data-step="1"] li[data-i="1"],.seq-live .seq[data-step="2"] li[data-i="2"],.seq-live .seq[data-step="3"] li[data-i="3"]{opacity:1}
+.t-anat{margin-top:clamp(80px,9vw,128px)}
+.anat{padding:0 clamp(16px,4vw,64px) clamp(24px,4vw,56px)}
+.anat svg{display:block;width:100%;height:auto}
+.cons{margin-top:var(--gap)}
+.t-cons{display:grid;place-items:center;padding:clamp(28px,4vw,56px)}
+.t-specs .tc{height:100%;display:grid;align-content:center}
+
+/* ---------- optical sizes ---------- */
+.lineup{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--gap)}
+.lu{display:grid;justify-items:center;align-content:start;text-align:center;gap:10px}
+.lu-art{height:clamp(120px,20vw,250px);width:100%;display:flex;align-items:flex-end;justify-content:center;margin-bottom:22px}
+.lu-L{width:min(92%,380px)}
+.lu-M{width:min(56%,232px)}
+.lu-S{width:min(32%,132px)}
+.lu h3{font:700 clamp(24px,2.4vw,32px)/1.1 var(--head);letter-spacing:-.026em}
+.lu .mono{color:var(--on-black-2)}
+.lu-d{font:400 16px/1.5 var(--body);color:var(--on-black-2);max-width:26ch}
+.lu-at{display:flex;align-items:flex-end;justify-content:center;gap:18px;margin-top:14px;padding-top:18px;border-top:1px solid var(--hair-d);width:min(100%,240px)}
+.lu-at figure{display:grid;justify-items:center;gap:8px}
+.lu-at figcaption{font:500 10px/1 var(--mono);letter-spacing:.08em;color:var(--on-black-3)}
+.t-eng{margin-top:clamp(72px,8vw,112px);display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:center}
+.t-eng .eng-art{padding:clamp(24px,4vw,64px)}
+
+/* ---------- the name ---------- */
+.wm-hero{margin-bottom:clamp(56px,7vw,96px)}
+.wm-hero img{width:100%}
+.cut-sample{margin:20px 0 4px;font-family:var(--head);font-weight:700;text-transform:uppercase;word-spacing:.06em;line-height:1;color:var(--black);white-space:nowrap}
+.dcut{font-size:clamp(28px,7.4cqw,52px);letter-spacing:-.02em}
+.tcut{font-size:clamp(18px,4.4cqw,26px);letter-spacing:0}
+.pt{display:inline-block;width:.16em;height:.16em;border-radius:50%;background:var(--red);margin-left:.02em;vertical-align:baseline}
+.locks{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:var(--gap)}
+.lk{display:grid;grid-template-rows:auto 1fr;min-height:clamp(250px,25vw,330px)}
+.lk-primary{grid-column:1/-1;min-height:clamp(320px,34vw,470px)}
+.lk .tc{padding-bottom:0}
+.lk .art{align-self:center;justify-self:center;width:80%;margin-block:20px 34px}
+.lk-primary .art{width:min(64%,760px)}
+.lk-st .art{width:66%}
+.lk-sym .art{width:42%}
+.t-space{margin-top:var(--gap);display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);column-gap:clamp(24px,4vw,64px);align-items:start}
+.t-space .specs{margin:clamp(24px,3.4vw,44px) clamp(24px,3.4vw,44px) clamp(24px,3.4vw,44px) 0}
+
+/* ---------- colour ---------- */
+.sw-main{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--gap)}
+.sw{appearance:none;border:0;margin:0;text-align:left;cursor:copy;font:inherit;display:grid;align-content:end;gap:6px;padding:clamp(24px,3.4vw,44px);min-height:clamp(280px,30vw,420px);transition:transform .5s var(--ease)}
+.sw:hover{transform:scale(1.012)}
+.sw-name{font:700 clamp(34px,4.6vw,58px)/1 var(--head);letter-spacing:-.036em}
+.sw-role{font:600 17px/1.35 var(--head);letter-spacing:-.01em;opacity:.72}
+.sw-vals{display:flex;flex-wrap:wrap;gap:4px 18px;margin-top:12px;font:500 12px/1.5 var(--mono);letter-spacing:.04em;opacity:.78;font-variant-numeric:tabular-nums}
+.sw-copy{position:absolute;top:clamp(18px,2.4vw,26px);right:clamp(18px,2.4vw,28px);font:600 13px/1 var(--head);opacity:.5}
+.sw:hover .sw-copy{opacity:.9}
+.sw-row{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:var(--gap);margin-top:var(--gap)}
+.sw-row .sw{min-height:clamp(190px,17vw,240px);padding:clamp(18px,2.2vw,26px)}
+.sw-row .sw-name{font-size:clamp(20px,2.1vw,26px);letter-spacing:-.024em}
+.sw-row .sw-role{font-size:14px}
+.sw-row .sw-vals{flex-direction:column;gap:0;margin-top:8px;font-size:11px}
+.band .tile.sw-black{background:var(--black);color:var(--on-black)}
+.band .tile.sw-pearl{background:var(--pearl);color:var(--black)}
+.band .tile.sw-red{background:var(--red);color:var(--pearl)}
+.band .tile.sw-lustre{background:var(--foil);color:var(--black)}
+.band .tile.sw-b2{background:var(--black-2);color:var(--pearl)}
+.band .tile.sw-b3{background:var(--black-3);color:var(--pearl)}
+.band .tile.sw-plo{background:var(--pearl-lo);color:var(--black);box-shadow:inset 0 0 0 1px rgba(13,13,15,.12)}
+.pairs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(28px,3vw,40px) var(--gap)}
+.pairs .tile{aspect-ratio:16/10;display:grid;place-items:center;padding:12%}
+.pairs .art{width:100%}
+.band .tile.pt-light{background:var(--pearl-hi)}
+.band .tile.pt-dark{background:var(--black)}
+.band .tile.pt-red{background:var(--red)}
+.band .tile.pt-photo{padding:0}
+.pt-photo .ph{object-position:50% 45%}
+.pt-photo .plate-sm{position:relative;width:76%;padding:5.5% 7%;background:rgba(13,13,15,.92);border-radius:6px}
+
+/* ---------- typography ---------- */
+.t-face{padding:clamp(28px,4vw,56px)}
+.t-ins{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(24px,4vw,64px);align-items:end}
+.tf-l{display:grid;gap:10px;align-content:start}
+.tf-l .tf-set{font-family:var(--head)}
+.tf-l h4,.tf-solo h4{font:700 clamp(26px,2.8vw,36px)/1.1 var(--head);letter-spacing:-.03em}
+.tf-l p:not([class]),.tf-solo p.tf-p{font:400 16px/1.55 var(--body);color:var(--black-2);max-width:40ch}
+.tf-set{margin-top:18px;font-size:clamp(13px,1.3vw,15px);line-height:1.7;color:var(--black-2);overflow-wrap:anywhere}
+.tf-aa{font-size:clamp(110px,24cqw,280px);line-height:.8;letter-spacing:-.05em;color:var(--black);white-space:nowrap}
+.tf-sample{margin-top:22px;font-size:clamp(19px,2.1vw,26px);line-height:1.3;color:var(--black)}
+.tf-solo{display:grid;gap:10px;align-content:start}
+.tf-solo .tf-aa{margin-top:28px;font-size:clamp(110px,40cqw,220px)}
+.t-ins .tf-aa,.t-ins .tf-sample,.t-ins .tf-set{font-family:var(--head)}
+.t-ins .tf-aa{font-weight:700}
+.t-ins .tf-sample{font-weight:700;letter-spacing:-.03em}
+.t-lor .tf-aa,.t-lor .tf-sample{font-family:var(--body)}
+.t-mono .tf-aa,.t-mono .tf-sample{font-family:var(--mono)}
+.t-mono .tf-aa{font-weight:500;letter-spacing:-.07em}
+.t-mono .tf-sample{font-size:clamp(14px,1.5vw,18px);letter-spacing:.02em}
+.tf-row{margin-top:var(--gap)}
+.tune{display:grid;grid-template-columns:minmax(280px,340px) minmax(0,1fr);border-radius:var(--r);overflow:hidden;background:var(--pearl-lo);min-height:clamp(500px,44vw,620px)}
+.tune-ctl{padding:28px;display:grid;align-content:start;gap:20px}
+.ctl{display:grid;gap:9px}
+.ctl .lbl{display:flex;justify-content:space-between;gap:8px;color:var(--black-3g)}
+.ctl output{color:var(--black);font-variant-numeric:tabular-nums;letter-spacing:.06em}
+.seg{display:flex;flex-wrap:wrap;gap:2px;padding:3px;border-radius:12px;background:rgba(13,13,15,.07)}
+.seg button{flex:1 1 auto;appearance:none;border:0;background:transparent;color:var(--black-2);font:500 13px/1 var(--head);padding:10px 10px;border-radius:9px;cursor:pointer;white-space:nowrap;transition:background-color .2s,box-shadow .2s,color .2s}
+.seg button[aria-pressed="true"]{background:var(--pearl-hi);color:var(--black);box-shadow:0 1px 4px rgba(13,13,15,.12),0 1px 1px rgba(13,13,15,.06)}
+.presets{display:flex;flex-wrap:wrap;gap:8px}
+.presets button{appearance:none;border:1px solid rgba(13,13,15,.16);background:transparent;color:var(--black);font:500 13px/1 var(--head);padding:10px 14px;border-radius:980px;cursor:pointer;transition:background-color .2s,border-color .2s}
+.presets button:hover{background:var(--pearl-hi);border-color:rgba(13,13,15,.3)}
+input[type=range]{width:100%;accent-color:var(--black);margin:0}
+.tune-out{position:relative;display:grid;grid-template-rows:1fr auto;min-width:0;background:var(--pearl-hi);transition:background-color .3s,color .3s}
+.tune-out[data-ground=paper]{background:var(--pearl-hi);color:var(--black)}
+.tune-out[data-ground=ink]{background:var(--black);color:var(--on-black)}
+.tune-out[data-ground=foil]{background:var(--black);color:var(--lustre)}
+.tune-out[data-ground=low]{background:var(--pearl);color:var(--black-2)}
+.tune-sample{align-self:center;padding:40px 48px;outline:none;overflow-wrap:anywhere;line-height:1.04;min-width:0;font-family:var(--head);font-weight:700;font-size:96px;letter-spacing:-.03em;caret-color:var(--red)}
+.tune-sample:focus-visible{box-shadow:inset 0 0 0 2px var(--red);border-radius:0}
+.tune-hint{position:absolute;top:18px;left:48px;font:500 10.5px/1 var(--mono);letter-spacing:.14em;text-transform:uppercase;opacity:.55}
+.tune-css{display:flex;align-items:flex-end;justify-content:space-between;gap:14px;padding:16px 20px 18px 48px;border-top:1px solid color-mix(in srgb,currentColor 14%,transparent)}
+.tune-css code{font:400 11.5px/1.6 var(--mono);white-space:pre-wrap;opacity:.82;min-width:0}
+.tune-css button{appearance:none;flex:none;border:0;background:var(--black);color:var(--pearl);font:600 13px/1 var(--head);padding:11px 16px;border-radius:980px;cursor:pointer}
+.tune-out[data-ground=ink] .tune-css button,.tune-out[data-ground=foil] .tune-css button{background:var(--pearl);color:var(--black)}
+
+/* ---------- voice ---------- */
+.voice{padding-top:0}
+.statement{position:relative;height:clamp(480px,60vw,860px);overflow:clip;isolation:isolate;margin-bottom:clamp(72px,9vw,128px)}
+.statement .ph{object-position:50% 20%;z-index:-2}
+.statement::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(13,13,15,.86) 0%,rgba(13,13,15,.5) 38%,rgba(13,13,15,0) 62%),linear-gradient(0deg,var(--black) 0%,rgba(13,13,15,0) 32%)}
+.st-copy{position:absolute;left:0;right:0;bottom:clamp(40px,6vw,96px);display:grid;gap:16px}
+.st-big{font:700 clamp(56px,10vw,150px)/.9 var(--head);letter-spacing:-.05em;max-width:6.4em;color:var(--on-black)}
+.rules{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(28px,3vw,44px) clamp(24px,3vw,48px)}
+.rules li{display:grid;gap:12px;align-content:start;padding-top:18px;border-top:1px solid var(--hair-d)}
+.rn{font:500 12px/1 var(--mono);letter-spacing:.1em;color:var(--lustre)}
+.rules p{font:600 clamp(19px,1.8vw,24px)/1.3 var(--head);letter-spacing:-.016em}
+.voice .g2{margin-top:clamp(72px,8vw,112px)}
+.t-promise .pt-row{display:grid;grid-template-columns:62px minmax(0,1fr);gap:4px 16px;align-items:baseline;padding:16px 0;border-top:1px solid var(--hair-d)}
+.t-promise .rows{margin-top:24px}
+.pt-tag{font:500 10.5px/1.4 var(--mono);letter-spacing:.16em;text-transform:uppercase;color:var(--on-black)}
+.pt-h{font:700 clamp(19px,2.1vw,26px)/1.12 var(--head);letter-spacing:-.022em}
+.killed .pt-tag{color:#E0684A}
+.killed .pt-h{color:var(--on-black-3);text-decoration:line-through;text-decoration-color:var(--red);text-decoration-thickness:2px}
+.pt-why{grid-column:2;font:italic 400 14.5px/1.5 var(--body);color:var(--on-black-2)}
+.t-slogan .tc{height:100%;display:grid;align-content:space-between;gap:28px}
+.sl-big{font:700 clamp(44px,8.6cqw,92px)/.92 var(--head);letter-spacing:-.048em;color:var(--on-black)}
+
+/* ---------- imagery ---------- */
+.gal{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));grid-template-rows:repeat(2,clamp(220px,22vw,300px));gap:var(--gap)}
+.gal .tile{background:var(--black)}
+.gal .tile::after{content:"";position:absolute;inset:auto 0 0;height:46%;z-index:0;background:linear-gradient(0deg,rgba(13,13,15,.72),rgba(13,13,15,0))}
+.gal .ph{transition:transform 1.6s var(--ease)}
+.gal .tile:hover .ph{transform:scale(1.04)}
+.gal figcaption{position:absolute;z-index:1;left:22px;right:22px;bottom:18px;font:600 17px/1.2 var(--head);letter-spacing:-.012em;color:var(--on-black)}
+.g-auc{grid-column:1/3}.g-gold{grid-column:3;grid-row:1/3}.g-watch{grid-column:4}.g-rough{grid-column:1;grid-row:2}.g-gems{grid-column:2;grid-row:2}.g-retail{grid-column:4;grid-row:2}
+.g-auc .ph{object-position:50% 46%}.g-gold .ph{object-position:44% 50%}.g-watch .ph{object-position:50% 70%}.g-retail .ph{object-position:50% 50%}
+.band .tile.t-light{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.06fr);margin-top:clamp(56px,6vw,80px);background:var(--black);color:var(--on-black);min-height:clamp(560px,48vw,700px)}
+.l-img{position:relative;overflow:hidden;isolation:isolate}
+.fitbox{position:absolute;left:0;width:100%;aspect-ratio:3/4;top:50%;transform:translateY(-50%)}
+.fitbox img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.ann{position:absolute;z-index:1;display:flex;align-items:center;gap:8px;font:500 clamp(8.5px,1.6cqw,10.5px)/1.3 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--on-black);white-space:nowrap;transform:translate(-5px,-50%)}
+.ann i{display:block;width:10px;height:10px;border-radius:50%;border:1.5px solid var(--lustre);flex:none;box-shadow:0 0 0 4px rgba(13,13,15,.3)}
+.ann span{background:rgba(13,13,15,.7);padding:5px 8px;border-radius:6px;-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}
+.ann.rev{flex-direction:row-reverse;transform:translate(calc(-100% + 5px),-50%)}
+.l-rules{padding:clamp(26px,3.6vw,52px);display:grid;align-content:center}
+.l-rules h3{font:700 clamp(22px,2.4vw,30px)/1.12 var(--head);letter-spacing:-.026em;margin-bottom:18px}
+.l-rule{display:grid;grid-template-columns:minmax(92px,.3fr) minmax(0,1fr);gap:16px;padding:13px 0;border-top:1px solid var(--hair-d)}
+.l-rule .lbl{padding-top:3px;color:var(--lustre)}
+.l-rule p{font:400 15.5px/1.5 var(--body);color:var(--on-black)}
+.l-rule.never .lbl{color:var(--on-black)}
+.made{margin-top:22px;padding:16px 18px;border:1px dashed rgba(233,228,222,.36);border-radius:14px;display:grid;gap:8px}
+.made p{font:400 11.5px/1.6 var(--mono);color:var(--on-black-2)}
+.made .formula{color:var(--lustre)}
+
+/* ---------- misuse ---------- */
+.mis-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:clamp(28px,3vw,40px) var(--gap)}
+.mis .tile{aspect-ratio:4/3;display:grid;place-items:center;padding:10%}
+.mis .art{width:94%}
+.mis .fc{font-size:16px}
+.m-stretch .art{width:66%;transform:scaleX(1.4)}
+.m-rotate .art{transform:rotate(-13deg)}
+.m-glow .art{filter:drop-shadow(0 0 6px rgba(190,51,25,.55)) drop-shadow(0 6px 10px rgba(13,13,15,.45))}
+.band .tile.m-swap{display:flex;align-items:center;justify-content:center;gap:5%}
+.m-swap .w{width:62%}
+.m-swap .s{width:20%}
+.band .tile.m-busy{padding:10%}
+.m-busy .ph{z-index:0}
+.m-busy .art{position:relative;z-index:1;width:84%}
+.oldcaret{font:700 clamp(13px,7.4cqw,30px)/1 var(--head);letter-spacing:.12em;color:var(--black);white-space:nowrap}
+.oldcaret span{color:var(--red)}
+
+/* ---------- applications ---------- */
+.app+.app,.app+.objs,.objs+.app{margin-top:clamp(56px,6vw,84px)}
+.t-sign{aspect-ratio:16/8.4}
+.band .tile.t-sign{background:var(--black)}
+.t-sign .ph{filter:brightness(.6) saturate(.6)}
+.plaque{position:absolute;z-index:1;left:50%;top:50%;width:46cqw;aspect-ratio:2.5;transform:translate(-50%,-52%);background:linear-gradient(160deg,#1F1F23 0%,var(--black) 42%,#08080A 100%);border-radius:4px;display:grid;place-items:center;padding:4.2cqw 5cqw;box-shadow:inset 0 2px 0 rgba(243,241,236,.06),0 1px 0 rgba(0,0,0,.6),0 30px 50px rgba(0,0,0,.55)}
+.sign-tag{position:absolute;z-index:1;left:50%;top:calc(50% + 12.4cqw);transform:translateX(-50%);font:400 clamp(8px,.92cqw,12px)/1 var(--mono);letter-spacing:.24em;text-transform:uppercase;color:var(--on-black-2);white-space:nowrap}
+.t-posters{aspect-ratio:16/9;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:3.2cqw;padding:3.4cqw 9cqw;align-items:center}
+.band .tile.t-posters{background:var(--pearl-lo)}
+.poster{position:relative;aspect-ratio:2/3;background:var(--black);overflow:hidden;isolation:isolate;container-type:inline-size;box-shadow:0 2px 3px rgba(13,13,15,.16),0 22px 40px rgba(13,13,15,.3)}
+.poster .ph{height:76%;object-position:50% 26%}
+.poster::before{content:"";position:absolute;left:0;right:0;top:0;height:76%;z-index:0;background:linear-gradient(0deg,rgba(13,13,15,.78),rgba(13,13,15,0) 46%)}
+.p-band{position:absolute;left:0;right:0;bottom:0;height:24%;padding:6cqw 7cqw;display:grid;align-content:space-between;background:var(--black)}
+.p-band .art{width:70%}
+.p-band .lbl{font-size:3.1cqw;letter-spacing:.2em;color:var(--on-black-3)}
+.poster .line{position:absolute;left:7cqw;right:7cqw;bottom:calc(24% + 6cqw);z-index:1;font:700 12.6cqw/.92 var(--head);letter-spacing:-.045em;color:var(--on-black)}
+.t-print{aspect-ratio:16/9.4}
+.band .tile.t-print{background:var(--black)}
+.t-print .dim{position:absolute;inset:0;z-index:0;background:radial-gradient(ellipse 62% 74% at 40% 34%,transparent,rgba(13,13,15,.42))}
+.obj{position:absolute;z-index:1;box-shadow:0 1px 0 rgba(255,255,255,.05),0 20px 32px rgba(0,0,0,.55),0 4px 9px rgba(0,0,0,.4)}
+.brief{left:12%;top:7%;width:24.5%;aspect-ratio:210/297;background:#FAF9F6;color:var(--black);padding:2cqw 1.9cqw 1.6cqw;display:grid;grid-template-rows:auto auto auto 1fr auto;gap:1.05cqw;border-radius:2px}
+.brief-top{display:grid;gap:.7cqw;padding-bottom:1cqw;border-bottom:3px double var(--black)}
+.brief-top .art{width:62%}
+.brief-date{font:500 .52cqw/1.3 var(--mono);letter-spacing:.16em;text-transform:uppercase;color:var(--red)}
+.brief-h0{font:700 1.36cqw/1.06 var(--head);letter-spacing:-.022em}
+.brief-desk{display:block;margin-bottom:.35cqw;font:400 .5cqw/1.3 var(--mono);letter-spacing:.18em;text-transform:uppercase;color:#6E6D74}
+.brief-h{font:700 1.06cqw/1.08 var(--head);letter-spacing:-.018em}
+.brief-dek{font:400 .62cqw/1.45 var(--body);color:#2A2A2E;margin-top:.35cqw}
+.brief-cols{display:grid;grid-template-columns:1fr 1fr;gap:.9cqw;align-content:start}
+.brief-cols i,.lh-lines i{display:block;height:.26cqw;margin-bottom:.36cqw;background:rgba(13,13,15,.14);border-radius:1px}
+.brief-cols i:nth-child(4n),.lh-lines i:nth-child(5n){width:72%}
+.letter{left:39.5%;top:7%;width:19%;aspect-ratio:210/297;background:#FAF9F6;padding:1.8cqw 1.6cqw;display:grid;grid-template-rows:auto 1fr auto;gap:1cqw;border-radius:2px}
+.letter .art{width:66%}
+.lh-lines{padding-top:2.2cqw}
+.letter .foot{font:400 .44cqw/1.4 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:#6E6D74}
+.card{left:61.5%;width:15.4%;aspect-ratio:85/55;border-radius:.5cqw}
+.card-front{top:8%;background:var(--black);display:grid;place-items:center}
+.card-front .art{width:46%}
+.card-back{top:30.5%;background:#FAF9F6;display:grid;align-content:space-between;padding:1.3cqw 1.4cqw}
+.card-back .art{width:70%}
+.card-back p{font:500 .5cqw/1.6 var(--mono);letter-spacing:.08em;color:var(--black-2)}
+.envelope{left:39.5%;top:64%;width:19%;aspect-ratio:220/110;background:#EEECE7;border-radius:2px;overflow:hidden}
+.envelope::before{content:"";position:absolute;inset:0;background:#E6E3DD;clip-path:polygon(0 0,100% 0,50% 60%)}
+.wax{position:absolute;z-index:2;left:50%;top:60%;width:3.9cqw;aspect-ratio:1;transform:translate(-50%,-50%);border-radius:47% 53% 49% 51%/52% 47% 53% 48%;background:radial-gradient(circle at 38% 32%,#D9512F,var(--red) 46%,#86200C 100%);box-shadow:0 2px 4px rgba(0,0,0,.35),inset 0 0 0 .3cqw rgba(134,32,12,.5);display:grid;place-items:center}
+.wax img{width:60%;opacity:.42;mix-blend-mode:multiply}
+.objs{--h:clamp(440px,46vw,600px);display:grid;grid-template-columns:39fr 31fr 30fr;gap:var(--gap);align-items:start}
+.o-tote,.o-pass{height:var(--h)}
+.o-col{display:grid;grid-template-rows:1fr 1fr;gap:var(--gap);height:var(--h)}
+.o-tote .ph{transform:scale(1.04)}
+.tote-mark{position:absolute;z-index:0;left:50%;top:47%;width:24%;transform:translate(-50%,-50%);mix-blend-mode:screen;opacity:.94}
+.band .tile.o-pass{background:#1C1C20;display:grid;justify-items:center;align-content:start}
+.lanyard{width:12cqw;height:22cqw;background:var(--black);position:relative;overflow:hidden;box-shadow:inset 2px 0 0 rgba(255,255,255,.05),inset -2px 0 0 rgba(0,0,0,.4)}
+.lanyard i{position:absolute;inset:0;background:repeating-linear-gradient(180deg,transparent 0 10cqw,rgba(233,228,222,.75) 10cqw 10.5cqw)}
+.clip{width:17cqw;height:5cqw;border-radius:2cqw;background:linear-gradient(180deg,#C9C8CE,#707078);margin-top:-1cqw;box-shadow:0 2px 4px rgba(0,0,0,.4)}
+.pass{width:62cqw;aspect-ratio:54/86;margin-top:-1cqw;border-radius:3.6cqw;background:var(--black);position:relative;overflow:hidden;display:grid;justify-items:center;align-content:start;text-align:center;box-shadow:0 22px 40px rgba(0,0,0,.5),0 0 0 1px rgba(233,228,222,.22)}
+.pass-slot{width:20cqw;height:3cqw;border-radius:2cqw;background:#1C1C20;margin-top:4cqw;box-shadow:inset 0 1px 2px rgba(0,0,0,.6)}
+.pass .sym{width:34cqw;margin-top:8cqw}
+.pass-press{font:700 12cqw/1 var(--head);letter-spacing:-.025em;color:var(--on-black);margin-top:7cqw}
+.pass .wmk{width:44cqw;margin-top:5cqw}
+.pass-desk{font-size:2.8cqw;color:var(--on-black-3);margin-top:3cqw}
+.band .tile.o-book{background:var(--pearl-lo);display:grid;place-items:center}
+.notebook{width:44cqw;aspect-ratio:148/210;border-radius:1.4cqw 2.4cqw 2.4cqw 1.4cqw;background:linear-gradient(90deg,#08080A 0 5%,#1C1C20 5% 6%,var(--black) 6%);position:relative;overflow:hidden;display:grid;place-items:center;box-shadow:0 16px 30px rgba(13,13,15,.38),0 3px 6px rgba(13,13,15,.3)}
+.notebook .deboss{width:66%;opacity:.13}
+.notebook .foilmark{position:absolute;bottom:9%;left:22%;width:56%}
+.nb-band{position:absolute;top:0;bottom:0;right:12%;width:2.4cqw;background:linear-gradient(90deg,#000,#1E1E22,#000)}
+.band .tile.o-emboss{background:#E1DED8;display:grid;place-items:center}
+.emboss{width:66cqw;aspect-ratio:1.5;border-radius:3px;display:grid;place-items:center;background:linear-gradient(150deg,#F7F6F2,#E7E4DE);box-shadow:0 10px 24px rgba(13,13,15,.22)}
+.emboss img{width:58%;opacity:.16;filter:drop-shadow(1px 1px 0 rgba(255,255,255,.95)) drop-shadow(-1px -1px 0 rgba(13,13,15,.45))}
+.t-posts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:2.4cqw;padding:3.6cqw 7cqw 3cqw;align-items:start}
+.band .tile.t-posts{background:var(--pearl-lo)}
+.post{display:grid;gap:1.2cqw}
+.post>.lbl{color:var(--black-3g);font-size:clamp(7.5px,.8cqw,10px);text-align:center}
+.ig{background:#FFFFFF;color:#111111;border-radius:12px;overflow:hidden;box-shadow:0 2px 3px rgba(13,13,15,.12),0 20px 40px rgba(13,13,15,.22);container-type:inline-size;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.ig-top{display:flex;align-items:center;gap:2.6cqw;padding:2.6cqw 3.4cqw}
+.av{width:8.4cqw;height:8.4cqw;border-radius:50%;background:var(--black);display:grid;place-items:center;flex:none}
+.av img{width:62%}
+.ig-handle{font-size:3.7cqw;font-weight:600;flex:1;min-width:0}
+.ig-dots{font-size:4.4cqw;letter-spacing:.06em;line-height:1}
+.ig-media{position:relative;aspect-ratio:3/4;overflow:hidden;isolation:isolate;background:var(--black)}
+.ig-bar{display:flex;align-items:center;gap:3.6cqw;padding:2.8cqw 3.4cqw 1.4cqw}
+.ig-bar svg{width:6.6cqw;height:6.6cqw;fill:none;stroke:#111111;stroke-width:1.9;stroke-linejoin:round;stroke-linecap:round}
+.ig-bar .save{margin-left:auto}
+.ig-cap{margin:0 3.4cqw 3.4cqw;font-size:3.4cqw;line-height:1.4;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.ig-cap b{font-weight:600}
+.news{position:absolute;inset:0;background:var(--pearl);color:var(--black);padding:7cqw 7cqw 6cqw;display:grid;grid-template-rows:auto auto 1fr auto auto;gap:3cqw}
+.news .top{display:flex;justify-content:space-between;align-items:center;padding-bottom:3cqw;border-bottom:1px solid var(--hair)}
+.news .top .art{width:46%}
+.news .top span{font-family:var(--mono);font-size:2.6cqw;letter-spacing:.14em;color:var(--black-3)}
+.news .k{font:500 2.7cqw/1.3 var(--mono);letter-spacing:.16em;text-transform:uppercase;color:var(--red)}
+.news .fig{font:700 21cqw/.9 var(--head);letter-spacing:-.045em;align-self:end;font-variant-numeric:tabular-nums}
+.news .h{font:700 7.4cqw/1 var(--head);letter-spacing:-.03em}
+.news .src{font:400 2.3cqw/1.4 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--black-3);padding-top:2.4cqw;border-top:1px solid var(--hair)}
+.camp .ph{height:78%}
+.camp::before{content:"";position:absolute;left:0;right:0;top:0;height:78%;z-index:0;background:linear-gradient(0deg,rgba(13,13,15,.72),rgba(13,13,15,0) 50%)}
+.camp-line{position:absolute;z-index:1;left:6cqw;right:6cqw;bottom:calc(22% + 5cqw);font:700 11.6cqw/.92 var(--head);letter-spacing:-.045em;color:var(--on-black)}
+.camp-band{position:absolute;left:0;right:0;bottom:0;height:22%;background:var(--black);display:flex;align-items:center;justify-content:space-between;gap:4cqw;padding:0 6cqw}
+.camp-band .art{width:58%}
+.camp-band span{font:400 2.4cqw/1.3 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--on-black-3);text-align:right}
+.t-stories{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:3cqw;padding:3.4cqw 8.4cqw;align-items:center}
+.band .tile.t-stories{background:linear-gradient(160deg,#26262B 0%,#121215 72%)}
+.story{position:relative;aspect-ratio:9/16;border-radius:16px;overflow:hidden;isolation:isolate;container-type:inline-size;background:#000;box-shadow:0 24px 46px rgba(0,0,0,.55)}
+.story>.ph{z-index:-2}
+.story::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(0,0,0,.5),rgba(0,0,0,0) 20%,rgba(0,0,0,0) 62%,rgba(0,0,0,.66))}
+.st-bars{position:absolute;top:3.2cqw;left:3.2cqw;right:3.2cqw;display:grid;grid-template-columns:repeat(3,1fr);gap:1.4cqw}
+.st-bars i{display:block;height:.9cqw;border-radius:1cqw;background:rgba(255,255,255,.4)}
+.st-bars i:first-child{background:#FFFFFF}
+.st-head{position:absolute;top:7cqw;left:3.6cqw;right:3.6cqw;display:flex;align-items:center;gap:2.6cqw;color:#FFFFFF;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:4.2cqw;font-weight:600}
+.st-head .av{width:9.4cqw;height:9.4cqw}
+.st-head .xx{margin-left:auto;font-size:6cqw;font-weight:300;line-height:1}
+.st-copy2{position:absolute;left:7cqw;right:7cqw;display:grid;gap:3cqw;color:#FFFFFF}
+.st-copy2.top{top:22cqw}
+.st-copy2.low{bottom:34cqw}
+.st-copy2 .lbl{font-size:3.4cqw;color:var(--lustre);letter-spacing:.22em}
+.st-line{font:700 12.4cqw/.92 var(--head);letter-spacing:-.045em}
+.sticker{justify-self:start;display:inline-flex;align-items:center;gap:2cqw;background:#FFFFFF;color:#111111;border-radius:2.4cqw;padding:2.2cqw 3.4cqw;font:500 3.6cqw/1 var(--mono);margin-top:2cqw}
+.sticker svg{width:4.4cqw;height:4.4cqw;fill:none;stroke:#111111;stroke-width:2.2;stroke-linecap:round}
+.st-foot{position:absolute;left:3.6cqw;right:3.6cqw;bottom:4cqw;display:flex;align-items:center;gap:3cqw}
+.st-msg{flex:1;border:1px solid rgba(255,255,255,.75);border-radius:6cqw;padding:2.6cqw 4cqw;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:3.8cqw;color:#FFFFFF}
+.st-foot svg{width:7cqw;height:7cqw;fill:none;stroke:#FFFFFF;stroke-width:1.9;stroke-linejoin:round;stroke-linecap:round;flex:none}
+
+/* ---------- footer ---------- */
+.foot{padding-block:clamp(64px,8vw,104px) 40px}
+.foot-lock{width:min(420px,80%)}
+.colo{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px 32px;margin-top:44px;padding-top:28px;border-top:1px solid var(--hair)}
+.colo dt{font:600 14px/1.4 var(--head)}
+.colo dd{margin-top:6px;font:400 13px/1.55 var(--head);color:var(--black-3g);overflow-wrap:anywhere}
+.colo code{font:400 12px/1.5 var(--mono);color:var(--black-2)}
+.notes{margin-top:36px;display:grid;gap:8px;counter-reset:n}
+.notes li{font:400 12px/1.5 var(--head);color:var(--black-3g);max-width:90ch}
+.notes li::before{counter-increment:n;content:counter(n) ". "}
+.notes code{font:400 11.5px/1.5 var(--mono);color:var(--black-2)}
+.foot-line{margin-top:28px;padding-top:18px;border-top:1px solid var(--hair);display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 20px;font:400 12px/1.4 var(--head);color:var(--black-3g)}
+
+.toast{position:fixed;z-index:70;left:50%;bottom:calc(24px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:rgba(13,13,15,.86);color:var(--pearl);font:500 13px/1 var(--head);padding:12px 18px;border-radius:980px;-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);box-shadow:0 10px 30px rgba(13,13,15,.25)}
+
+/* ---------- motion ---------- */
+@media (prefers-reduced-motion:no-preference){
+  .hero-lockup{animation:lift 1.6s var(--ease) both}
+  .hero .intro,.hero-links{animation:lift 1.6s .1s var(--ease) both}
+  .hero-photo img{animation:settle 2.8s var(--ease) both}
+  @supports (animation-timeline:view()){
+    .rv{animation:rv linear both;animation-timeline:view();animation-range:entry 0% cover 22%}
+  }
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
+@keyframes lift{from{transform:translateY(20px)}to{transform:none}}
+@keyframes settle{from{transform:scale(1.06)}to{transform:none}}
+@keyframes rv{from{opacity:0;transform:translateY(40px)}to{opacity:1;transform:none}}
+
+/* ---------- tablet ---------- */
+@media (max-width:1068px){
+  .ln-ed{display:none}
+  .locks{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .sw-row{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .pairs{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .rules{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .mis-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .colo{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .tune{grid-template-columns:1fr}
+}
+
+/* ---------- phone ---------- */
+@media (max-width:734px){
+  :root{--r:20px;--gap:14px;--nav:48px}
+  .ln-in{gap:18px}
+  .ln-title{font-size:17px}
+  .ln-title img{width:24px}
+  .ln-links{gap:18px}
+  .ln-links a{font-size:12px}
+  .hb{gap:12px}
+  .eyebrow{font-size:17px}
+  .g2,.t-ins,.t-eng,.t-space,.band .tile.t-light{grid-template-columns:1fr}
+  .t-nib{aspect-ratio:4/3}
+  .seq-stage{grid-template-columns:1fr;gap:26px}
+  .seq-steps{gap:20px}
+  .seq-steps p{font-size:16px}
+  .seq-live .seq-stage{align-content:center}
+  .seq-live .seq-art{width:min(100%,calc((100vh - var(--nav) - 250px) * 1.515))}
+  .seq-live .seq-steps li{display:none;opacity:1}
+  .seq-live .seq[data-step="0"] li[data-i="0"],.seq-live .seq[data-step="1"] li[data-i="1"],.seq-live .seq[data-step="2"] li[data-i="2"],.seq-live .seq[data-step="3"] li[data-i="3"]{display:grid}
+  .anat{padding:0 10px 18px}
+  .lineup{grid-template-columns:1fr;gap:56px}
+  .lu-art{height:150px}
+  .t-eng .eng-art{padding:8px 24px 32px}
+  .locks{grid-template-columns:1fr 1fr}
+  .lk{min-height:220px}
+  .lk-primary{min-height:250px}
+  .lk .art{width:86%}
+  .t-space .specs{margin:0 24px 26px}
+  .sw-main{grid-template-columns:1fr}
+  .sw{min-height:230px}
+  .sw-row{grid-template-columns:1fr 1fr}
+  .sw-row .sw:last-child{grid-column:1/-1}
+  .pairs{grid-template-columns:1fr 1fr;gap:24px 12px}
+  .pairs .fc{font-size:14.5px}
+  .tf-aa{font-size:31vw}
+  .tf-solo .tf-aa{font-size:31vw}
+  .tune-ctl{padding:22px}
+  .tune-out{min-height:340px}
+  .tune-sample{padding:48px 22px 26px}
+  .tune-hint{left:22px}
+  .tune-css{padding:14px 16px 16px 22px;flex-wrap:wrap}
+  .statement{height:auto;aspect-ratio:3/4}
+  .statement .ph{object-position:58% 20%}
+  .statement::before{background:linear-gradient(0deg,rgba(13,13,15,.92) 0%,rgba(13,13,15,.55) 30%,rgba(13,13,15,0) 58%)}
+  .st-big{font-size:15vw}
+  .rules{grid-template-columns:1fr;gap:22px}
+  .gal{grid-template-columns:1fr 1fr;grid-template-rows:none;grid-auto-rows:auto}
+  .gal .tile{grid-column:auto;grid-row:auto;aspect-ratio:1}
+  .gal .g-auc,.gal .g-retail{grid-column:1/-1;aspect-ratio:4/3}
+  .gal .g-gold{aspect-ratio:3/4}
+  .gal .g-watch{aspect-ratio:3/4}
+  .gal figcaption{left:14px;right:14px;bottom:12px;font-size:15px}
+  .l-img{aspect-ratio:3/4}
+  .ann{font-size:2.3cqw}
+  .l-rule{grid-template-columns:86px minmax(0,1fr)}
+  .mis-grid{gap:22px 12px}
+  .mis .fc{font-size:14px}
+  .t-sign{aspect-ratio:4/5}
+  .plaque{width:78cqw}
+  .sign-tag{top:calc(50% + 21cqw);font-size:2.2cqw;letter-spacing:.18em}
+  .t-posters{aspect-ratio:auto;grid-template-columns:1fr;padding:22px 0;justify-items:center;gap:22px}
+  .poster{width:min(320px,84%)}
+  .t-print{aspect-ratio:auto;display:grid;gap:16px;padding:22px 20px 26px;justify-items:center}
+  .t-print .obj{position:relative;left:auto;top:auto}
+  .brief{width:100%;max-width:360px;padding:18px 16px 14px;gap:9px}
+  .brief-date,.brief-desk{font-size:7px}
+  .letter .foot{font-size:6.5px}
+  .brief-h0{font-size:18px}
+  .brief-h{font-size:14px}
+  .brief-dek{font-size:10px}
+  .brief-cols i,.lh-lines i{height:3px;margin-bottom:5px}
+  .letter{width:100%;max-width:300px;padding:18px 16px;gap:10px}
+  .lh-lines{padding-top:16px}
+  .card{width:100%;max-width:300px;border-radius:6px}
+  .card-back{padding:16px 18px}
+  .card-back p{font-size:8px}
+  .envelope{width:100%;max-width:320px}
+  .wax{width:54px}
+  .objs{--h:auto;grid-template-columns:1fr}
+  .o-tote,.o-pass{height:auto;aspect-ratio:3/4}
+  .band .tile.o-tote{background:var(--black)}
+  .o-col{height:auto;grid-template-rows:none;grid-template-columns:1fr 1fr}
+  .o-col .tile{aspect-ratio:3/4}
+  .t-posts{grid-template-columns:1fr;padding:22px 0;justify-items:center;gap:22px}
+  .post{width:min(320px,82%)}
+  .post>.lbl{font-size:9px}
+  .t-stories{grid-template-columns:1fr 1fr;padding:22px 18px;gap:16px}
+  .story:last-child{grid-column:1/-1;width:calc(50% - 8px);justify-self:center}
+  .colo{grid-template-columns:1fr}
+  .foot-line{flex-direction:column}
+}
+</style>
+</head>
+<body>
+
+<nav class="ln on-dark" aria-label="Chapters">
+  <div class="wrap ln-in">
+    <a class="ln-title" href="#top"><img class="ln-ink" src="img/point/symbol-S.svg" alt="" width="27" height="18"><img class="ln-rev" src="img/point/symbol-rev-S.svg" alt="" width="27" height="18"><span>Brand Book</span></a>
+    <div class="ln-links">
+      <a href="#point">The Symbol</a>
+      <a href="#cuts">Cuts</a>
+      <a href="#name">The Name</a>
+      <a href="#colour">Colour</a>
+      <a href="#type">Type</a>
+      <a href="#voice">Voice</a>
+      <a href="#imagery">Imagery</a>
+      <a href="#misuse">Misuse</a>
+      <a href="#applications">Applications</a>
+    </div>
+    <span class="ln-ed">Edition 1.1</span>
+  </div>
+</nav>
+
+<main>
+
+<!-- ============ HERO ============ -->
+<header class="hero dark" id="top" data-tone="dark" data-q="1">
+  <div class="wrap hero-copy">
+    <p class="eyebrow">Brand Book · Edition 1.1</p>
+    <h1 class="sr">Carat Capital Brand Book</h1>
+    <img class="hero-lockup" src="img/point/lockup-stacked-paper.svg" alt="CARAT CAPITAL. The trade paper of the jewelry world" decoding="async" fetchpriority="high">
+    <p class="intro"><strong>How Carat Capital looks, reads and photographs.</strong> The symbol, the name, the colour, the type and the light, set down in one place.</p>
+    <p class="hero-links"><a class="link" href="#point">Start with the symbol</a><a class="link" href="#imagery">See the stills</a></p>
+  </div>
+  <figure class="hero-photo">
+    <img src="img/00-cover-dealer.jpg" alt="A diamond dealer in a dark suit raises a loupe to his eye under a single spotlight" decoding="async" fetchpriority="high">
+    <figcaption class="wrap">Generated still · Higgsfield Soul 2.0 · Theatrical light</figcaption>
+  </figure>
+</header>
+
+<!-- ============ THE SYMBOL ============ -->
+<section class="band light" id="point" data-tone="light" data-q="2">
+  <div class="wrap">
+    <div class="hb rv">
+      <p class="eyebrow">The symbol</p>
+      <h2 class="h2">A diamond that is also a pen.</h2>
+      <p class="intro"><strong>Printers set type in points. Dealers weigh diamonds in points.</strong> One point is a hundredth of a carat, and the mark sits where the two trades meet.</p>
+    </div>
+    <figure class="tile t-nib rv">
+      <img class="ph" src="img/22-nib-wax.jpg" alt="A gold fountain pen on a sheet of cream paper beside one plain drop of red wax, under one spotlight" loading="lazy" decoding="async">
+      <figcaption>The press meets the stone.</figcaption>
+    </figure>
+  </div>
+  <div class="seq" data-step="3">
+    <div class="wrap seq-stage">
+      <div class="seq-art" role="img" aria-label="The Point, drawn from a round brilliant whose pavilion is a pen nib, with a red point in the breather hole">
+        <img class="sl sl0" src="img/point/seq-stone.svg" alt="" loading="lazy">
+        <img class="sl sl1" src="img/point/seq-pen.svg" alt="" loading="lazy">
+        <img class="sl sl2" src="img/point/seq-point.svg" alt="" loading="lazy">
+        <img class="sl sl3" src="img/point/cut-L.svg" alt="" loading="lazy">
+      </div>
+      <ol class="seq-steps">
+        <li data-i="0"><span class="seq-n">01</span><h3>The stone.</h3><p>A round brilliant seen from the side. The crown is cut at 34.5°, the angle Marcel Tolkowsky published in <i>Diamond Design</i> in 1919.</p></li>
+        <li data-i="1"><span class="seq-n">02</span><h3>The pen.</h3><p>Its pavilion is a nib. The slit runs down the centre facet, and the two pavilion mains become the tines.</p></li>
+        <li data-i="2"><span class="seq-n">03</span><h3>The point.</h3><p>The nib's breather hole holds a red point. The same point closes the name.</p></li>
+        <li data-i="3"><span class="seq-n">04</span><h3>The Point.</h3><p>Every line is a facet edge or the slit of a nib. Nothing is there for decoration, so it holds together at every size.</p></li>
+      </ol>
+    </div>
+  </div>
+  <div class="wrap">
+    <figure class="tile t-anat rv">
+      <figcaption class="tc"><h3>Six parts, all from the stone.</h3><p>The symbol is always drawn table up, with the point red. It never sits in a circle, badge or frame.</p></figcaption>
+      <div class="anat"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-40 60 1040 520" role="img" aria-label="Anatomy of The Point: table, crown, girdle, pavilion, slit and point"><defs><mask id="ka" maskUnits="userSpaceOnUse" x="-110" y="-100" width="1020" height="720.96"><rect x="-110" y="-100" width="1020" height="720.96" fill="#fff"/><path d="M-24 120.96L824 120.96M176 0L256 120.96M624 0L544 120.96M256 120.96L400 520.96M544 120.96L400 520.96M400 294.29L400 560.96" stroke="#000" stroke-width="11"/><circle cx="400" cy="254.29" r="44" fill="#000"/></mask></defs><g transform="translate(70 120) scale(0.78)"><g mask="url(#ka)"><path d="M176 0L624 0L800 120.96L400 520.96L0 120.96Z" fill="#0D0D0F"/></g><circle cx="400" cy="254.29" r="31" fill="#BE3319"/></g><path d="M475.6 120L505.6 120L770 120" stroke="#F3F1EC" stroke-width="5" fill="none" stroke-linecap="round"/><path d="M475.6 120L505.6 120L770 120" stroke="#0D0D0F" stroke-width="1.5" fill="none"/><circle cx="475.6" cy="120" r="4" fill="#0D0D0F" stroke="#F3F1EC" stroke-width="2"/><text x="782" y="126" font-family="IBM Plex Mono, monospace" font-size="17" font-weight="500" letter-spacing="1.6" fill="#0D0D0F" text-anchor="start">TABLE</text><path d="M616 171.89L646 171.89L770 171.89" stroke="#F3F1EC" stroke-width="5" fill="none" stroke-linecap="round"/><path d="M616 171.89L646 171.89L770 171.89" stroke="#0D0D0F" stroke-width="1.5" fill="none"/><circle cx="616" cy="171.89" r="4" fill="#0D0D0F" stroke="#F3F1EC" stroke-width="2"/><text x="782" y="177.89" font-family="IBM Plex Mono, monospace" font-size="17" font-weight="500" letter-spacing="1.6" fill="#0D0D0F" text-anchor="start">CROWN</text><path d="M694 214.35L724 228.35L770 228.35" stroke="#F3F1EC" stroke-width="5" fill="none" stroke-linecap="round"/><path d="M694 214.35L724 228.35L770 228.35" stroke="#0D0D0F" stroke-width="1.5" fill="none"/><circle cx="694" cy="214.35" r="4" fill="#0D0D0F" stroke="#F3F1EC" stroke-width="2"/><text x="782" y="234.35" font-family="IBM Plex Mono, monospace" font-size="17" font-weight="500" letter-spacing="1.6" fill="#0D0D0F" text-anchor="start">GIRDLE</text><path d="M577 331.35L607 331.35L770 331.35" stroke="#F3F1EC" stroke-width="5" fill="none" stroke-linecap="round"/><path d="M577 331.35L607 331.35L770 331.35" stroke="#0D0D0F" stroke-width="1.5" fill="none"/><circle cx="577" cy="331.35" r="4" fill="#0D0D0F" stroke="#F3F1EC" stroke-width="2"/><text x="782" y="337.35" font-family="IBM Plex Mono, monospace" font-size="17" font-weight="500" letter-spacing="1.6" fill="#0D0D0F" text-anchor="start">PAVILION</text><path d="M382 318.35L342 318.35L118 318.35" stroke="#F3F1EC" stroke-width="5" fill="none" stroke-linecap="round"/><path d="M382 318.35L342 318.35L118 318.35" stroke="#BE3319" stroke-width="1.5" fill="none"/><circle cx="382" cy="318.35" r="4" fill="#BE3319" stroke="#F3F1EC" stroke-width="2"/><text x="106" y="324.35" font-family="IBM Plex Mono, monospace" font-size="17" font-weight="500" letter-spacing="1.6" fill="#BE3319" text-anchor="end">THE POINT</text><path d="M382 471.75L342 471.75L118 471.75" stroke="#F3F1EC" stroke-width="5" fill="none" stroke-linecap="round"/><path d="M382 471.75L342 471.75L118 471.75" stroke="#0D0D0F" stroke-width="1.5" fill="none"/><circle cx="382" cy="471.75" r="4" fill="#0D0D0F" stroke="#F3F1EC" stroke-width="2"/><text x="106" y="477.75" font-family="IBM Plex Mono, monospace" font-size="17" font-weight="500" letter-spacing="1.6" fill="#0D0D0F" text-anchor="end">THE SLIT</text></svg></div>
+    </figure>
+    <div class="g2 cons">
+      <figure class="tile t-cons rv"><img class="art" src="img/point/construction.svg" alt="Construction drawing of the symbol with the cutter's measurements" loading="lazy"></figure>
+      <div class="tile t-specs rv">
+        <div class="tc">
+          <h3>Drawn to a cutter's figures.</h3>
+          <dl class="specs">
+            <div><dt>Girdle</dt><dd class="m">1.000, the unit</dd></div>
+            <div><dt>Table</dt><dd class="m">0.56 of the girdle</dd></div>
+            <div><dt>Crown angle</dt><dd class="m">34.5°</dd></div>
+            <div><dt>Crown height</dt><dd class="m">0.151</dd></div>
+            <div><dt>Pavilion angle</dt><dd class="m">45°</dd></div>
+            <div><dt>Pavilion depth</dt><dd class="m">0.500</dd></div>
+            <div><dt>Overall height</dt><dd class="m">0.651</dd></div>
+            <div><dt>Facet break</dt><dd class="m">0.36 of the half-girdle</dd></div>
+            <div><dt>The point</dt><dd>A third of the way down the pavilion</dd></div>
+            <div><dt>Knockout, L cut</dt><dd class="m">1.4% of the width</dd></div>
+          </dl>
+          <p>The pavilion runs deeper than an ideal cut, 45° against 40.75°. That extra depth is what lets the stone read as a nib.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ OPTICAL SIZES ============ -->
+<section class="band dark" id="cuts" data-tone="dark" data-q="3">
+  <div class="wrap">
+    <div class="hb rv">
+      <p class="eyebrow">Optical sizes</p>
+      <h2 class="h2">Three cuts for three distances.</h2>
+      <p class="intro"><strong>Fine knockouts disappear on small screens.</strong> So the mark comes in three cuts. Each keeps the silhouette and the point, and drops detail as it shrinks.</p>
+    </div>
+    <div class="lineup rv">
+      <div class="lu">
+        <div class="lu-art"><img class="lu-L" src="img/point/symbol-rev-L.svg" alt="The Point, L cut" loading="lazy"></div>
+        <h3>L cut</h3>
+        <p class="mono">96 px and up · 25 mm and up</p>
+        <p class="lu-d">All facets. The master drawing.</p>
+        <div class="lu-at" aria-hidden="true"><figure><img src="img/point/symbol-rev-L.svg" alt="" width="96" loading="lazy"><figcaption>96</figcaption></figure><figure><img src="img/point/symbol-rev-L.svg" alt="" width="64" loading="lazy"><figcaption>64</figcaption></figure></div>
+      </div>
+      <div class="lu">
+        <div class="lu-art"><img class="lu-M" src="img/point/symbol-rev-M.svg" alt="The Point, M cut" loading="lazy"></div>
+        <h3>M cut</h3>
+        <p class="mono">32–96 px · 9–25 mm</p>
+        <p class="lu-d">Crown facets removed, knockouts doubled.</p>
+        <div class="lu-at" aria-hidden="true"><figure><img src="img/point/symbol-rev-M.svg" alt="" width="48" loading="lazy"><figcaption>48</figcaption></figure><figure><img src="img/point/symbol-rev-M.svg" alt="" width="32" loading="lazy"><figcaption>32</figcaption></figure></div>
+      </div>
+      <div class="lu">
+        <div class="lu-art"><img class="lu-S" src="img/point/symbol-rev-S.svg" alt="The Point, S cut" loading="lazy"></div>
+        <h3>S cut</h3>
+        <p class="mono">16–32 px · under 9 mm</p>
+        <p class="lu-d">Girdle, slit and point only. Favicons and app bars.</p>
+        <div class="lu-at" aria-hidden="true"><figure><img src="img/point/symbol-rev-S.svg" alt="" width="24" loading="lazy"><figcaption>24</figcaption></figure><figure><img src="img/point/symbol-rev-S.svg" alt="" width="16" loading="lazy"><figcaption>16</figcaption></figure></div>
+      </div>
+    </div>
+    <div class="tile t-eng rv">
+      <div class="tc">
+        <p class="lbl">The engraved cut</p>
+        <h3 style="margin-top:12px">For print that invites a closer look.</h3>
+        <p>Each facet is hatched at its own angle and density, lit from the upper left, so the stone reads in pure line.</p>
+        <dl class="specs">
+          <div><dt>Use at</dt><dd class="m">40 mm or 400 px and up</dd></div>
+          <div><dt>Below that</dt><dd>The L cut</dd></div>
+          <div><dt>For</dt><dd>Certificates, the Almanac cover, foil and blind stamping, letterpress</dd></div>
+        </dl>
+      </div>
+      <img class="eng-art art" src="img/point/engraved-foil.svg" alt="The engraved cut in pearl foil on Black" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<!-- ============ THE NAME ============ -->
+<section class="band light" id="name" data-tone="light" data-q="4">
+  <div class="wrap">
+    <div class="hb rv">
+      <p class="eyebrow">The name</p>
+      <h2 class="h2">Set in capitals. Closed by the point.</h2>
+      <p class="intro"><strong>Instrument Sans Bold, in capitals.</strong> The face the paper's nameplate has always used. The full stop is drawn as the point, so the symbol and the name end on one mark.</p>
+    </div>
+    <figure class="wm-hero rv"><img src="img/point/wordmark-ink.svg" alt="CARAT CAPITAL." loading="lazy"></figure>
+    <div class="g2">
+      <div class="tile rv">
+        <div class="tc">
+          <p class="lbl">Display cut</p>
+          <p class="cut-sample dcut">CARAT CAPITAL<i class="pt"></i></p>
+          <dl class="specs">
+            <div><dt>Tracking</dt><dd class="m">−20</dd></div>
+            <div><dt>Word space</dt><dd class="m">+0.06 em</dd></div>
+            <div><dt>For</dt><dd>Every lockup and the masthead, at a cap height of 24 px or 6 mm and up</dd></div>
+          </dl>
+        </div>
+      </div>
+      <div class="tile rv">
+        <div class="tc">
+          <p class="lbl">Text cut</p>
+          <p class="cut-sample tcut">CARAT CAPITAL<i class="pt"></i></p>
+          <dl class="specs">
+            <div><dt>Tracking</dt><dd class="m">0</dd></div>
+            <div><dt>Word space</dt><dd class="m">+0.06 em</dd></div>
+            <div><dt>For</dt><dd>Navigation bars and live web text. The point is drawn in CSS, 0.16 em across, on the baseline</dd></div>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <p class="note rv"><strong>Artwork, not type.</strong> Use the files; don't retype the name. The website is the one exception: it sets the name live in Instrument Sans Bold and draws the point in CSS to the same measurements.</p>
+
+    <h3 class="h3 sub rv">Five arrangements.</h3>
+    <p class="sub-note rv">The horizontal lockup with the tagline is the default. Choose another only when the space asks for it.</p>
+    <div class="locks">
+      <figure class="tile lk lk-primary rv"><figcaption class="tc"><h4>Primary</h4><p>Horizontal with tagline. Mastheads, covers, the share card, anything with room.</p></figcaption><img class="art" src="img/point/lockup-h-tagline-ink.svg" alt="Primary lockup, horizontal with tagline" loading="lazy"></figure>
+      <figure class="tile lk rv"><figcaption class="tc"><h4>Horizontal</h4><p>No tagline. Headers and bars under 300 px wide.</p></figcaption><img class="art" src="img/point/lockup-h-ink.svg" alt="Horizontal lockup without tagline" loading="lazy"></figure>
+      <figure class="tile lk lk-st rv"><figcaption class="tc"><h4>Stacked</h4><p>Square and portrait formats, social cards, posters.</p></figcaption><img class="art" src="img/point/lockup-stacked-ink.svg" alt="Stacked lockup" loading="lazy"></figure>
+      <figure class="tile lk rv"><figcaption class="tc"><h4>Wordmark</h4><p>Where the symbol already appears nearby.</p></figcaption><img class="art" src="img/point/wordmark-ink.svg" alt="Wordmark" loading="lazy"></figure>
+      <figure class="tile lk lk-sym rv"><figcaption class="tc"><h4>Symbol</h4><p>Favicons, avatars, app icons, stamps.</p></figcaption><img class="art" src="img/point/symbol-ink.svg" alt="Symbol" loading="lazy"></figure>
+    </div>
+    <div class="tile t-space rv">
+      <div class="tc"><h4>Clear space and minimum size.</h4><p>Keep everything at least x away on every side, where x is the cap height of the C. Below 180 px the tagline stops being legible, so drop it rather than shrink it.</p></div>
+      <dl class="specs">
+        <div><dt>Lockup with tagline</dt><dd class="m">180 px · 45 mm</dd></div>
+        <div><dt>Lockup, no tagline</dt><dd class="m">120 px · 30 mm</dd></div>
+        <div><dt>Stacked lockup</dt><dd class="m">100 px · 25 mm</dd></div>
+        <div><dt>Wordmark</dt><dd class="m">90 px · 22 mm</dd></div>
+        <div><dt>Symbol, S cut</dt><dd class="m">16 px · 5 mm</dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<!-- ============ COLOUR ============ -->
+<section class="band gray" id="colour" data-tone="light" data-q="5">
+  <div class="wrap">
+    <div class="hb rv">
+      <p class="eyebrow">Colour</p>
+      <h2 class="h2">Black, Pearl White, and the point.</h2>
+      <p class="intro"><strong>Two colours carry the brand.</strong> Black for the mark and the type, Pearl White for the ground. Point Red is kept for the point, and never becomes a background for long text.</p>
+    </div>
+    <div class="sw-main">
+      <button type="button" class="tile sw sw-black rv" data-hex="#0D0D0F"><span class="sw-copy">Copy</span><span class="sw-name">Black</span><span class="sw-role">Brand colour · the mark, the type</span><span class="sw-vals"><span>HEX #0D0D0F</span><span>RGB 13 13 15</span><span>CMYK¹ 13 13 0 94</span></span></button>
+      <button type="button" class="tile sw sw-pearl rv" data-hex="#F3F1EC"><span class="sw-copy">Copy</span><span class="sw-name">Pearl White</span><span class="sw-role">Brand colour · the ground</span><span class="sw-vals"><span>HEX #F3F1EC</span><span>RGB 243 241 236</span><span>CMYK¹ 0 1 3 5</span></span></button>
+    </div>
+    <div class="sw-row">
+      <button type="button" class="tile sw sw-red rv" data-hex="#BE3319"><span class="sw-name">Point Red</span><span class="sw-role">The point only</span><span class="sw-vals"><span>#BE3319</span><span>RGB 190 51 25</span><span>CMYK¹ 0 73 87 25</span></span></button>
+      <button type="button" class="tile sw sw-lustre rv" data-hex="#E9E4DE"><span class="sw-name">Pearl Lustre</span><span class="sw-role">Foil, hallmarks</span><span class="sw-vals"><span>#E9E4DE</span><span>RGB 233 228 222</span><span>CMYK¹ 0 2 5 9</span></span></button>
+      <button type="button" class="tile sw sw-b2 rv" data-hex="#3A3A3F"><span class="sw-name">Black 2</span><span class="sw-role">Secondary text</span><span class="sw-vals"><span>#3A3A3F</span><span>RGB 58 58 63</span><span>CMYK¹ 8 8 0 75</span></span></button>
+      <button type="button" class="tile sw sw-b3 rv" data-hex="#6E6D74"><span class="sw-name">Black 3</span><span class="sw-role">Captions, rules</span><span class="sw-vals"><span>#6E6D74</span><span>RGB 110 109 116</span><span>CMYK¹ 5 6 0 55</span></span></button>
+      <button type="button" class="tile sw sw-plo rv" data-hex="#E6E3DD"><span class="sw-name">Pearl Low</span><span class="sw-role">Plates, panels</span><span class="sw-vals"><span>#E6E3DD</span><span>RGB 230 227 221</span><span>CMYK¹ 0 1 4 10</span></span></button>
+    </div>
+    <p class="fine">Click a swatch to copy its hex. ¹ CMYK values are converted from RGB as a starting point. Ask the printer for a proof, and match it to these swatches.</p>
+
+    <h3 class="h3 sub rv">Six approved pairings.</h3>
+    <p class="sub-note rv">The point stays red in every pairing but one: one-colour work, where it takes the colour of the mark. On a photograph the mark always sits on a plate.</p>
+    <div class="pairs">
+      <figure class="rv"><div class="tile pt-light"><img class="art" src="img/point/pair-primary.svg" alt="Primary pairing" loading="lazy"></div><figcaption class="fc"><strong>Primary.</strong> Black and Point Red on Pearl White.</figcaption></figure>
+      <figure class="rv"><div class="tile pt-dark"><img class="art" src="img/point/pair-reverse.svg" alt="Reverse pairing" loading="lazy"></div><figcaption class="fc"><strong>Reverse.</strong> Pearl White and Point Red on Black.</figcaption></figure>
+      <figure class="rv"><div class="tile pt-dark"><img class="art" src="img/point/pair-foil.svg" alt="Foil pairing" loading="lazy"></div><figcaption class="fc"><strong>Foil.</strong> Pearl lustre on Black, the point in red foil.</figcaption></figure>
+      <figure class="rv"><div class="tile pt-red"><img class="art" src="img/point/pair-on-red.svg" alt="On Point Red pairing" loading="lazy"></div><figcaption class="fc"><strong>On Point Red.</strong> Pearl White, with the point in Black.</figcaption></figure>
+      <figure class="rv"><div class="tile pt-light"><img class="art" src="img/point/pair-one-ink.svg" alt="One-colour pairing in Black" loading="lazy"></div><figcaption class="fc"><strong>One colour.</strong> Black only, for faxes, engraving, embossing.</figcaption></figure>
+      <figure class="rv"><div class="tile pt-photo"><img class="ph" src="img/05-auction-room.jpg" alt="" loading="lazy" decoding="async"><div class="plate-sm"><img class="art" src="img/point/pair-one-paper.svg" alt="One-colour pairing in Pearl White on a plate" loading="lazy"></div></div><figcaption class="fc"><strong>One colour, reversed.</strong> Pearl White only, on dark images with a plate.</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TYPOGRAPHY ============ -->
+<section class="band light" id="type" data-tone="light" data-q="6">
+  <div class="wrap">
+    <div class="hb rv">
+      <p class="eyebrow">Typography</p>
+      <h2 class="h2">The nameplate face, and the paper's own.</h2>
+      <p class="intro"><strong>Three faces, one job each.</strong> Instrument Sans announces the name, the masthead and the headline. Lora reads. IBM Plex Mono counts.</p>
+    </div>
+    <div class="tile t-face t-ins rv">
+      <div class="tf-l">
+        <p class="lbl">Instrument Sans · 400–700</p>
+        <h4>Announces.</h4>
+        <p>The name in Bold capitals. Headlines at 600–700, tight at −0.03 em, in sentence case.</p>
+        <p class="tf-set">ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>abcdefghijklmnopqrstuvwxyz<br>0123456789 $ € ₹ % &amp;</p>
+      </div>
+      <div>
+        <p class="tf-aa">Aa</p>
+        <p class="tf-sample">De Beers digs 88% more, banks 44% less</p>
+      </div>
+    </div>
+    <div class="g2 tf-row">
+      <div class="tile t-face t-lor rv">
+        <div class="tf-solo">
+          <p class="lbl">Lora · 400–700, italic</p>
+          <h4>Reads.</h4>
+          <p class="tf-p">Articles, briefs and captions. Italic is the only emphasis in running text.</p>
+          <p class="tf-aa">Aa</p>
+          <p class="tf-sample">Second-quarter rough output jumped 88% to 7.8 million carats even as the average price fell 32% to $105 a carat.</p>
+        </div>
+      </div>
+      <div class="tile t-face t-mono rv">
+        <div class="tf-solo">
+          <p class="lbl">IBM Plex Mono · 400–600</p>
+          <h4>Counts.</h4>
+          <p class="tf-p">Data, labels, sources and the tape. Figures are tabular wherever they line up.</p>
+          <p class="tf-aa">Aa</p>
+          <p class="tf-sample">NATURAL 1CT (RAPI PROXY) 3,915.00 −5.1% YTD</p>
+        </div>
+      </div>
+    </div>
+
+    <h3 class="h3 sub rv">Try a line.</h3>
+    <p class="sub-note rv">Set any line in the house faces before it goes anywhere. The CSS under the sample follows every change. The name itself is never typed: place the wordmark artwork.</p>
+    <div class="tune rv">
+      <div class="tune-ctl" role="group" aria-label="Type settings">
+        <div class="ctl"><span class="lbl">Face</span>
+          <div class="seg" id="t-face">
+            <button type="button" id="f-head" data-face="head" aria-pressed="true">Instrument Sans</button>
+            <button type="button" id="f-body" data-face="body" aria-pressed="false">Lora</button>
+            <button type="button" id="f-mono" data-face="mono" aria-pressed="false">Plex Mono</button>
+          </div>
+        </div>
+        <div class="ctl"><label class="lbl" for="t-wght"><span>Weight</span><output id="o-wght" for="t-wght">700</output></label><input type="range" id="t-wght" min="400" max="700" step="10" value="700"></div>
+        <div class="ctl"><span class="lbl">Case</span>
+          <div class="seg" id="t-case">
+            <button type="button" id="c-none" data-case="none" aria-pressed="true">Sentence</button>
+            <button type="button" id="c-upper" data-case="uppercase" aria-pressed="false">Capitals</button>
+          </div>
+        </div>
+        <div class="ctl"><label class="lbl" for="t-size"><span>Size</span><output id="o-size" for="t-size">96 px</output></label><input type="range" id="t-size" min="12" max="180" step="1" value="96"></div>
+        <div class="ctl"><label class="lbl" for="t-track"><span>Tracking</span><output id="o-track" for="t-track">−0.03 em</output></label><input type="range" id="t-track" min="-0.06" max="0.4" step="0.002" value="-0.03"></div>
+        <div class="ctl"><span class="lbl">Ground</span>
+          <div class="seg" id="t-ground">
+            <button type="button" id="g-paper" data-ground="paper" aria-pressed="true">Pearl</button>
+            <button type="button" id="g-ink" data-ground="ink" aria-pressed="false">Black</button>
+            <button type="button" id="g-foil" data-ground="foil" aria-pressed="false">Lustre</button>
+            <button type="button" id="g-low" data-ground="low" aria-pressed="false">Low</button>
+          </div>
+        </div>
+        <div class="ctl"><span class="lbl">House presets</span>
+          <div class="presets" id="t-presets">
+            <button type="button" id="p-mast" data-preset="mast">Masthead</button>
+            <button type="button" id="p-head" data-preset="head">Headline</button>
+            <button type="button" id="p-body" data-preset="body">Text</button>
+            <button type="button" id="p-data" data-preset="data">Data</button>
+            <button type="button" id="p-label" data-preset="label">Label</button>
+          </div>
+        </div>
+      </div>
+      <div class="tune-out" id="t-out" data-ground="paper">
+        <span class="tune-hint" aria-hidden="true">Sample · click to edit</span>
+        <p class="tune-sample" id="t-sample" contenteditable="true" spellcheck="false" role="textbox" aria-label="Sample text, editable">De Beers digs 88% more, banks 44% less</p>
+        <div class="tune-css"><code id="t-css">font-family: 'Instrument Sans';</code><button type="button" id="t-copy">Copy CSS</button></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ VOICE ============ -->
+<section class="band dark voice" id="voice" data-tone="dark" data-q="7">
+  <figure class="statement">
+    <img class="ph" src="img/07-earrings-portrait.jpg" alt="A woman in a black coat wearing long diamond drop earrings, lit from one side" loading="lazy" decoding="async">
+    <div class="wrap st-copy"><p class="eyebrow">House rule · every edition</p><p class="st-big">Priced, sourced, or cut.</p></div>
+  </figure>
+  <div class="wrap">
+    <div class="hb rv">
+      <p class="eyebrow">Voice</p>
+      <h2 class="h2">Calm, exact, a little dry.</h2>
+      <p class="intro"><strong>We write like the best-informed person in the room.</strong> No need to raise our voice: no hype words, no exclamation marks, and every headline a promise the article keeps.</p>
+    </div>
+    <ol class="rules rv">
+      <li><span class="rn">01</span><p>Original reporting only.</p></li>
+      <li><span class="rn">02</span><p>Every claim priced, sourced or cut.</p></li>
+      <li><span class="rn">03</span><p>One quote at most, under fifteen words, attributed.</p></li>
+      <li><span class="rn">04</span><p>No hype words. No exclamation marks.</p></li>
+      <li><span class="rn">05</span><p>Never fabricate a price. Verify it, or carry it as “unch.”</p></li>
+      <li><span class="rn">06</span><p>A short honest edition beats a padded one.</p></li>
+    </ol>
+    <div class="g2">
+      <div class="tile t-promise rv">
+        <div class="tc">
+          <p class="lbl">The promise test · headline lab, 21 October 2026</p>
+          <h3 style="margin-top:14px">A headline that could mislead is killed, whatever it would score.</h3>
+          <div class="rows">
+            <p class="pt-row"><span class="pt-tag">Kept</span><span class="pt-h">Shareholders ratified deals already closed.</span></p>
+            <p class="pt-row killed"><span class="pt-tag">Killed</span><span class="pt-h">16 times the limit</span><span class="pt-why">Three deals added together, measured against a per-deal threshold. Not like for like, so the multiple was never printed.</span></p>
+          </div>
+        </div>
+      </div>
+      <div class="tile t-slogan rv">
+        <div class="tc">
+          <p class="lbl">The house line</p>
+          <p class="sl-big">Clarity, daily.</p>
+          <p>Always with the comma and the full stop. Never italic, never quoted, never punned.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ IMAGERY ============ -->
+<section class="band light" id="imagery" data-tone="light" data-q="8">
+  <div class="wrap">
+    <div class="hb rv">
+      <p class="eyebrow">Imagery</p>
+      <h2 class="h2">Lit once.</h2>
+      <p class="intro"><strong>Limelight lit the nineteenth-century stage.</strong> One hard source, a painted backdrop, and everything else falling to black. Every still here is made that way, one for each desk.</p>
+    </div>
+    <div class="gal rv">
+      <figure class="tile g-auc"><img class="ph" src="img/05-auction-room.jpg" alt="An auctioneer at a rostrum, gavel raised, under a spotlight" loading="lazy" decoding="async"><figcaption>Auctions</figcaption></figure>
+      <figure class="tile g-gold"><img class="ph" src="img/02-gold-bars.jpg" alt="A stack of gold bars on a dark side table" loading="lazy" decoding="async"><figcaption>Gold &amp; metals</figcaption></figure>
+      <figure class="tile g-watch"><img class="ph" src="img/04-watch-cushion.jpg" alt="A gold wristwatch on a red velvet cushion" loading="lazy" decoding="async"><figcaption>Watches</figcaption></figure>
+      <figure class="tile g-rough"><img class="ph" src="img/03-rough-hands.jpg" alt="Two hands hold an uncut crystal to the light" loading="lazy" decoding="async"><figcaption>Diamonds &amp; rough</figcaption></figure>
+      <figure class="tile g-gems"><img class="ph" src="img/17-gems-scatter.jpg" alt="Loose sapphire, ruby, emerald and tourmaline on slate" loading="lazy" decoding="async"><figcaption>Coloured gemstones</figcaption></figure>
+      <figure class="tile g-retail"><img class="ph" src="img/18-pearls.jpg" alt="A strand of pearls on folded linen, under one soft spotlight" loading="lazy" decoding="async"><figcaption>Retail &amp; technology</figcaption></figure>
+    </div>
+    <div class="tile t-light dk rv">
+      <div class="l-img">
+        <div class="fitbox">
+          <img src="img/06-emerald-portrait.jpg" alt="Portrait lit by a single studio lamp at the right edge of the frame" loading="lazy" decoding="async">
+          <span class="ann rev" style="left:95.5%;top:35%"><i></i><span>Key · one hard source</span></span>
+          <span class="ann" style="left:53%;top:52%"><i></i><span>The stone · brightest point</span></span>
+          <span class="ann" style="left:12%;top:19%"><i></i><span>Painted canvas ground</span></span>
+          <span class="ann" style="left:10%;top:84%"><i></i><span>Falloff to black</span></span>
+        </div>
+      </div>
+      <div class="l-rules">
+        <h3>How a still is lit.</h3>
+        <div class="l-rule"><span class="lbl">The light</span><p>One hard key, high and to one side. No fill card. The shadow side is allowed to go.</p></div>
+        <div class="l-rule"><span class="lbl">The ground</span><p>Hand-painted canvas in umber, slate or teal. Never a paper sweep, never a gradient.</p></div>
+        <div class="l-rule"><span class="lbl">The subject</span><p>A stone in a hand, on velvet or under a loupe. People appear as dealers, cutters and the wearers.</p></div>
+        <div class="l-rule"><span class="lbl">The grain</span><p>Fine analogue grain. No sharpening halo, no glow added afterwards.</p></div>
+        <div class="l-rule never"><span class="lbl"><span class="x">×</span> Never</span><p>Text, logos or real brands inside the picture. The mark set straight onto a still. A generated still beside a news story.</p></div>
+        <div class="made">
+          <p>Higgsfield Soul 2.0 · style: Theatrical light · 2K · 21 October 2026</p>
+          <p class="formula">[subject] + [one material] + one theatrical spotlight + hand-painted [umber · slate · teal] canvas + film grain + no text</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MISUSE ============ -->
+<section class="band gray" id="misuse" data-tone="light" data-q="9">
+  <div class="wrap">
+    <div class="hb rv">
+      <p class="eyebrow">The rules</p>
+      <h2 class="h2">Eight things not to do.</h2>
+      <p class="intro"><strong>Each one breaks the geometry of the stone, or the single red point.</strong></p>
+    </div>
+    <div class="mis-grid">
+      <figure class="mis rv"><div class="tile m-stretch"><img class="art" src="img/point/pair-primary.svg" alt="" loading="lazy"></div><figcaption class="fc"><span class="x">×</span> Don't stretch or squash it.</figcaption></figure>
+      <figure class="mis rv"><div class="tile"><img class="art" src="img/point/mis-recolour.svg" alt="" loading="lazy"></div><figcaption class="fc"><span class="x">×</span> Don't recolour the point.</figcaption></figure>
+      <figure class="mis rv"><div class="tile m-rotate"><img class="art" src="img/point/pair-primary.svg" alt="" loading="lazy"></div><figcaption class="fc"><span class="x">×</span> Don't rotate it.</figcaption></figure>
+      <figure class="mis rv"><div class="tile"><img class="art" src="img/point/mis-outline.svg" alt="" loading="lazy"></div><figcaption class="fc"><span class="x">×</span> Don't outline it.</figcaption></figure>
+      <figure class="mis rv"><div class="tile m-glow"><img class="art" src="img/point/pair-primary.svg" alt="" loading="lazy"></div><figcaption class="fc"><span class="x">×</span> Don't add shadows or glows.</figcaption></figure>
+      <figure class="mis rv"><div class="tile m-swap"><img class="w" src="img/point/wordmark-ink.svg" alt="" loading="lazy"><img class="s" src="img/point/symbol-ink.svg" alt="" loading="lazy"></div><figcaption class="fc"><span class="x">×</span> Don't rearrange the lockup.</figcaption></figure>
+      <figure class="mis rv"><div class="tile m-busy"><img class="ph" src="img/08-letterpress.jpg" alt="" loading="lazy" decoding="async"><img class="art" src="img/point/pair-reverse.svg" alt="" loading="lazy"></div><figcaption class="fc"><span class="x">×</span> Don't set it on a busy image without a plate.</figcaption></figure>
+      <figure class="mis rv"><div class="tile"><p class="oldcaret">CARAT<span>^</span>CAPITAL</p></div><figcaption class="fc"><span class="x">×</span> Don't bring back the caret.</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============ APPLICATIONS ============ -->
+<section class="band dark" id="applications" data-tone="dark" data-q="10">
+  <div class="wrap">
+    <div class="hb rv">
+      <p class="eyebrow">Applications</p>
+      <h2 class="h2">Struck, printed, posted.</h2>
+      <p class="intro"><strong>One mark, from a press pass to a story.</strong> On objects it is struck rather than printed loud. On a photograph it always sits on a plate.</p>
+    </div>
+
+    <figure class="app rv">
+      <div class="tile t-sign">
+        <img class="ph" src="img/09-curtain-stage.jpg" alt="A black lacquer plaque with the pearl foil Carat Capital lockup, on a velvet curtain under a spotlight" loading="lazy" decoding="async">
+        <div class="plaque"><img class="art" src="img/point/lockup-h-foil.svg" alt="CARAT CAPITAL., foil lockup" loading="lazy"></div>
+        <p class="sign-tag">The trade paper of the jewelry world</p>
+      </div>
+      <figcaption class="fc"><strong>Signage.</strong> A lacquered Black plaque carrying the foil lockup. The room supplies the light; the artwork never carries a glow, a shadow or a light box.</figcaption>
+    </figure>
+
+    <figure class="app rv">
+      <div class="tile t-posters">
+        <div class="poster"><img class="ph" src="img/13-story-loupe.jpg" alt="A woman in a black suit raises a loupe to one eye" loading="lazy" decoding="async"><p class="line">Clarity, daily.</p><div class="p-band"><img class="art" src="img/point/lockup-h-paper.svg" alt="CARAT CAPITAL." loading="lazy"><span class="lbl">The trade paper of the jewelry world</span></div></div>
+        <div class="poster"><img class="ph" src="img/05-auction-room.jpg" alt="An auctioneer raises a gavel in a dark salesroom" loading="lazy" decoding="async" style="object-position:48% 40%"><p class="line">From the rough to the hammer.</p><div class="p-band"><img class="art" src="img/point/lockup-h-paper.svg" alt="CARAT CAPITAL." loading="lazy"><span class="lbl">Six desks · one edition</span></div></div>
+        <div class="poster"><img class="ph" src="img/20-story-tweezers.jpg" alt="Tweezers hold a diamond that blazes in a spotlight" loading="lazy" decoding="async" style="object-position:50% 40%"><p class="line">One point is a hundredth of a carat.</p><div class="p-band"><img class="art" src="img/point/lockup-h-paper.svg" alt="CARAT CAPITAL." loading="lazy"><span class="lbl">The Point · the mark</span></div></div>
+      </div>
+      <figcaption class="fc"><strong>Posters.</strong> One still, one line, and the lockup on an ink band that serves as its plate. 2:3, the line just above the band, inside the picture's darkest third.</figcaption>
+    </figure>
+
+    <figure class="app rv">
+      <div class="tile t-print">
+        <img class="ph" src="img/10-desk-topdown.jpg" alt="" loading="lazy" decoding="async">
+        <div class="dim"></div>
+        <article class="obj brief" aria-label="The Morning Brief, printed">
+          <header class="brief-top"><img class="art" src="img/point/lockup-h-ink.svg" alt="CARAT CAPITAL." loading="lazy"><span class="brief-date">The Morning Brief · Wednesday 21 October 2026</span></header>
+          <p class="brief-h0">The trade, filed before the New York open.</p>
+          <div>
+            <span class="brief-desk">The edition · Gold &amp; metals</span>
+            <p class="brief-h">VND 5 million a day. The certificate ends.</p>
+            <p class="brief-dek">Since 16 October, gold buys of VND 5 million or more a day must be paid without cash, and makers no longer need a production certificate.</p>
+          </div>
+          <div class="brief-cols" aria-hidden="true"><div><i></i><i></i><i></i><i></i><i></i><i></i></div><div><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+          <div>
+            <span class="brief-desk">The second story · Diamonds</span>
+            <p class="brief-h">Shareholders ratified deals already closed.</p>
+            <p class="brief-dek">Burgundy's board says three 2025 rough-sale agreements went to a company controlled by its own director, without shareholder approval first.</p>
+          </div>
+        </article>
+        <div class="obj letter"><img class="art" src="img/point/lockup-h-tagline-ink.svg" alt="Letterhead lockup" loading="lazy"><div class="lh-lines" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><p class="foot">caratcapital.org · The trade paper of the jewelry world</p></div>
+        <div class="obj card card-front"><img class="art" src="img/point/print-engraved-foil.svg" alt="Business card front, engraved cut in pearl foil" loading="lazy"></div>
+        <div class="obj card card-back"><img class="art" src="img/point/lockup-h-ink.svg" alt="Business card back" loading="lazy"><p>The Newsroom<br>caratcapital.org</p></div>
+        <div class="obj envelope"><div class="wax"><img src="img/point/symbol-one-ink.svg" alt="" loading="lazy"></div></div>
+      </div>
+      <figcaption class="fc"><strong>Print.</strong> The Morning Brief opens with the lockup and a date line in Plex Mono; this sheet carries the edition of 21 October 2026. Cards take the engraved cut in pearl foil on Black stock.</figcaption>
+    </figure>
+
+    <div class="objs">
+      <figure class="rv">
+        <div class="tile o-tote"><img class="ph" src="img/16-tote.jpg" alt="Black canvas tote on a white plinth, the engraved symbol struck in pearl foil on its face" loading="lazy" decoding="async"><img class="tote-mark" src="img/point/print-engraved-foil.svg" alt="" loading="lazy"></div>
+        <figcaption class="fc"><strong>Tote.</strong> The engraved cut in pearl foil on black canvas.</figcaption>
+      </figure>
+      <figure class="rv">
+        <div class="tile o-pass">
+          <div class="lanyard" aria-hidden="true"><i></i></div>
+          <div class="clip" aria-hidden="true"></div>
+          <div class="pass"><div class="pass-slot"></div><img class="sym" src="img/point/symbol-paper-M.svg" alt="" loading="lazy"><p class="pass-press">Press</p><img class="wmk" src="img/point/wordmark-paper.svg" alt="CARAT CAPITAL." loading="lazy"><p class="lbl pass-desk">The Newsroom</p></div>
+        </div>
+        <figcaption class="fc"><strong>Press pass.</strong> Reverse on Black.</figcaption>
+      </figure>
+      <figure class="rv">
+        <div class="o-col">
+          <div class="tile o-book"><div class="notebook"><img class="deboss" src="img/point/symbol-one-paper.svg" alt="" loading="lazy"><i class="nb-band"></i><img class="foilmark" src="img/point/wordmark-foil.svg" alt="" loading="lazy"></div></div>
+          <div class="tile o-emboss"><div class="emboss"><img src="img/point/symbol-one-ink.svg" alt="" loading="lazy"></div></div>
+        </div>
+        <figcaption class="fc"><strong>Notebook and stock.</strong> A deboss and foil on the cover, a blind emboss on Pearl White.</figcaption>
+      </figure>
+    </div>
+
+    <figure class="app rv">
+      <div class="tile t-posts">
+        <div class="post">
+          <figure class="ig">
+            <div class="ig-top"><span class="av"><img src="img/point/symbol-paper-L.svg" alt="" loading="lazy"></span><span class="ig-handle">caratcapitalnews</span><span class="ig-dots" aria-hidden="true">···</span></div>
+            <div class="ig-media"><div class="news"><div class="top"><img class="art" src="img/point/lockup-h-ink.svg" alt="CARAT CAPITAL." loading="lazy"><span>21 OCT 2026</span></div><p class="k">The edition · Gold &amp; metals</p><p class="fig">VND 5M</p><p class="h">VND 5 million a day. The certificate ends.</p><p class="src">Decree 390/2026 · in force 16 October</p></div></div>
+            <div class="ig-bar" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 20.5s-7.5-4.6-7.5-10.4A4.3 4.3 0 0 1 12 7.6a4.3 4.3 0 0 1 7.5 2.5c0 5.8-7.5 10.4-7.5 10.4z"/></svg><svg viewBox="0 0 24 24"><path d="M20.5 11.6a8.6 8.6 0 0 1-12.3 7.7L3.5 20.6l1.4-4.4a8.6 8.6 0 1 1 15.6-4.6z"/></svg><svg viewBox="0 0 24 24"><path d="M21.5 3 10.6 13.6M21.5 3l-6.6 18-4.3-7.4L3 9.6z"/></svg><svg class="save" viewBox="0 0 24 24"><path d="M6 3.5h12v17l-6-4.2-6 4.2z"/></svg></div>
+            <figcaption class="ig-cap"><b>caratcapitalnews</b> Vietnam now requires non-cash payment for gold purchases of VND 5 million or more a day, down from VND 20 million.</figcaption>
+          </figure>
+          <span class="lbl">News · typographic</span>
+        </div>
+        <div class="post">
+          <figure class="ig">
+            <div class="ig-top"><span class="av"><img src="img/point/symbol-paper-L.svg" alt="" loading="lazy"></span><span class="ig-handle">caratcapitalnews</span><span class="ig-dots" aria-hidden="true">···</span></div>
+            <div class="ig-media camp"><img class="ph" src="img/05-auction-room.jpg" alt="" loading="lazy" decoding="async"><p class="camp-line">From the rough to the hammer.</p><div class="camp-band"><img class="art" src="img/point/lockup-h-paper.svg" alt="CARAT CAPITAL." loading="lazy"><span>Six desks</span></div></div>
+            <div class="ig-bar" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 20.5s-7.5-4.6-7.5-10.4A4.3 4.3 0 0 1 12 7.6a4.3 4.3 0 0 1 7.5 2.5c0 5.8-7.5 10.4-7.5 10.4z"/></svg><svg viewBox="0 0 24 24"><path d="M20.5 11.6a8.6 8.6 0 0 1-12.3 7.7L3.5 20.6l1.4-4.4a8.6 8.6 0 1 1 15.6-4.6z"/></svg><svg viewBox="0 0 24 24"><path d="M21.5 3 10.6 13.6M21.5 3l-6.6 18-4.3-7.4L3 9.6z"/></svg><svg class="save" viewBox="0 0 24 24"><path d="M6 3.5h12v17l-6-4.2-6 4.2z"/></svg></div>
+            <figcaption class="ig-cap"><b>caratcapitalnews</b> Diamonds and rough, gold and metals, coloured gemstones, watches, auctions, retail and technology. One edition, every morning.</figcaption>
+          </figure>
+          <span class="lbl">Brand · campaign still</span>
+        </div>
+        <div class="post">
+          <figure class="ig">
+            <div class="ig-top"><span class="av"><img src="img/point/symbol-paper-L.svg" alt="" loading="lazy"></span><span class="ig-handle">caratcapitalnews</span><span class="ig-dots" aria-hidden="true">···</span></div>
+            <div class="ig-media camp"><img class="ph" src="img/13-story-loupe.jpg" alt="" loading="lazy" decoding="async" style="object-position:50% 22%"><p class="camp-line">Clarity, daily.</p><div class="camp-band"><img class="art" src="img/point/lockup-h-paper.svg" alt="CARAT CAPITAL." loading="lazy"><span>caratcapital.org</span></div></div>
+            <div class="ig-bar" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 20.5s-7.5-4.6-7.5-10.4A4.3 4.3 0 0 1 12 7.6a4.3 4.3 0 0 1 7.5 2.5c0 5.8-7.5 10.4-7.5 10.4z"/></svg><svg viewBox="0 0 24 24"><path d="M20.5 11.6a8.6 8.6 0 0 1-12.3 7.7L3.5 20.6l1.4-4.4a8.6 8.6 0 1 1 15.6-4.6z"/></svg><svg viewBox="0 0 24 24"><path d="M21.5 3 10.6 13.6M21.5 3l-6.6 18-4.3-7.4L3 9.6z"/></svg><svg class="save" viewBox="0 0 24 24"><path d="M6 3.5h12v17l-6-4.2-6 4.2z"/></svg></div>
+            <figcaption class="ig-cap"><b>caratcapitalnews</b> The trade paper of the jewelry world, every morning at caratcapital.org.</figcaption>
+          </figure>
+          <span class="lbl">Brand · the house line</span>
+        </div>
+      </div>
+      <figcaption class="fc"><strong>Posts.</strong> News is typographic: Pearl White ground, the figure and headline in Instrument Sans, the source in Plex Mono. Brand posts carry one still and a house line. 3:4, 1080 × 1440.</figcaption>
+    </figure>
+
+    <figure class="app rv">
+      <div class="tile t-stories">
+        <div class="story">
+          <img class="ph" src="img/13-story-loupe.jpg" alt="A woman in a black suit raises a loupe to one eye" loading="lazy" decoding="async">
+          <div class="st-bars" aria-hidden="true"><i></i><i></i><i></i></div>
+          <div class="st-head"><span class="av"><img src="img/point/symbol-paper-L.svg" alt="" loading="lazy"></span>caratcapitalnews<span class="xx" aria-hidden="true">×</span></div>
+          <div class="st-copy2 low"><span class="lbl">Today's edition</span><p class="st-line">Clarity, daily.</p><span class="sticker"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></svg>caratcapital.org</span></div>
+          <div class="st-foot" aria-hidden="true"><span class="st-msg">Send message</span><svg viewBox="0 0 24 24"><path d="M12 20.5s-7.5-4.6-7.5-10.4A4.3 4.3 0 0 1 12 7.6a4.3 4.3 0 0 1 7.5 2.5c0 5.8-7.5 10.4-7.5 10.4z"/></svg><svg viewBox="0 0 24 24"><path d="M21.5 3 10.6 13.6M21.5 3l-6.6 18-4.3-7.4L3 9.6z"/></svg></div>
+        </div>
+        <div class="story">
+          <img class="ph" src="img/20-story-tweezers.jpg" alt="Steel tweezers hold a diamond that blazes in a spotlight" loading="lazy" decoding="async">
+          <div class="st-bars" aria-hidden="true"><i></i><i></i><i></i></div>
+          <div class="st-head"><span class="av"><img src="img/point/symbol-paper-L.svg" alt="" loading="lazy"></span>caratcapitalnews<span class="xx" aria-hidden="true">×</span></div>
+          <div class="st-copy2 top"><span class="lbl">The diamonds desk</span><p class="st-line">Rough to polished, every morning.</p></div>
+          <div class="st-foot" aria-hidden="true"><span class="st-msg">Send message</span><svg viewBox="0 0 24 24"><path d="M12 20.5s-7.5-4.6-7.5-10.4A4.3 4.3 0 0 1 12 7.6a4.3 4.3 0 0 1 7.5 2.5c0 5.8-7.5 10.4-7.5 10.4z"/></svg><svg viewBox="0 0 24 24"><path d="M21.5 3 10.6 13.6M21.5 3l-6.6 18-4.3-7.4L3 9.6z"/></svg></div>
+        </div>
+        <div class="story">
+          <img class="ph" src="img/15-story-paddle.jpg" alt="A gloved hand raises a blank auction paddle in a dark salesroom" loading="lazy" decoding="async">
+          <div class="st-bars" aria-hidden="true"><i></i><i></i><i></i></div>
+          <div class="st-head"><span class="av"><img src="img/point/symbol-paper-L.svg" alt="" loading="lazy"></span>caratcapitalnews<span class="xx" aria-hidden="true">×</span></div>
+          <div class="st-copy2 low"><span class="lbl">The auctions desk</span><p class="st-line">Hammer prices, sourced.</p></div>
+          <div class="st-foot" aria-hidden="true"><span class="st-msg">Send message</span><svg viewBox="0 0 24 24"><path d="M12 20.5s-7.5-4.6-7.5-10.4A4.3 4.3 0 0 1 12 7.6a4.3 4.3 0 0 1 7.5 2.5c0 5.8-7.5 10.4-7.5 10.4z"/></svg><svg viewBox="0 0 24 24"><path d="M21.5 3 10.6 13.6M21.5 3l-6.6 18-4.3-7.4L3 9.6z"/></svg></div>
+        </div>
+      </div>
+      <figcaption class="fc"><strong>Stories.</strong> One idea each, one still, one line, one link. Keep the top 250 px and the bottom 340 px of a 1080 × 1920 frame clear of type.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ COLOPHON ============ -->
+<footer class="band gray foot" data-tone="light" data-q="11">
+  <div class="wrap">
+    <img class="foot-lock" src="img/point/lockup-h-tagline-ink.svg" alt="CARAT CAPITAL. The trade paper of the jewelry world" loading="lazy">
+    <dl class="colo">
+      <div><dt>The mark</dt><dd>The Point, Edition 1.1, 17 October 2026. Symbol in L, M and S cuts, the engraved cut, five lockups, six pairings.</dd></div>
+      <div><dt>The type</dt><dd>Instrument Sans, Lora and IBM Plex Mono, under the SIL Open Font License, from Google Fonts.</dd></div>
+      <div><dt>The stills</dt><dd>Higgsfield Soul 2.0, Theatrical light style, 2K, made 21 October 2026. Web copies in <code>brand/book/img/</code>; the full-size originals stay in the company folder.</dd></div>
+      <div><dt>The book</dt><dd><code>brand/book/</code> on GitHub, at caratcapital.org/brand/book/, with its artwork in <code>brand/book/img/point/</code></dd></div>
+    </dl>
+    <ol class="notes">
+      <li>CMYK values are converted from RGB as a starting point. Ask the printer for a proof, and match it to the swatches in this book.</li>
+      <li>The stills are generated images. They dress brand surfaces only; news is illustrated with licensed photography, credited on the slide.</li>
+      <li>The artwork on these pages is the Edition 1.1 kit, placed as files and never redrawn. Edition 1.1 draws every file from <code>brand/source/point.js</code>.</li>
+    </ol>
+    <p class="foot-line"><span>The Point in Limelight · Carat Capital Brand Book · Edition 1.1</span><span>caratcapital.org</span></p>
+  </div>
+</footer>
+
+</main>
+<div class="toast" id="toast" role="status" hidden></div>
+
+<script>
+(() => {
+  const doc = document.documentElement;
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)');
+
+  /* ---------- the symbol, told in four steps ---------- */
+  const seq = document.querySelector('.seq');
+  const stage = seq && seq.querySelector('.seq-stage');
+  const live = !!seq && !reduce.matches;
+  if (live) { doc.classList.add('seq-live'); seq.dataset.step = '0'; }
+
+  /* ---------- chapter bar: tone under the bar, current chapter ---------- */
+  const nav = document.querySelector('.ln');
+  const bands = [...document.querySelectorAll('[data-tone]')];
+  const links = new Map([...nav.querySelectorAll('.ln-links a')].map(a => [a.getAttribute('href').slice(1), a]));
+  const frame = () => {
+    const edge = nav.getBoundingClientRect().bottom;
+    let under = bands[0];
+    let chapter = null;
+    for (const b of bands) {
+      if (b.getBoundingClientRect().top <= edge + 1) { under = b; if (links.has(b.id)) chapter = b.id; } else break;
+    }
+    nav.classList.toggle('on-dark', under.dataset.tone === 'dark');
+    links.forEach((a, id) => { const on = id === chapter; a.classList.toggle('on', on); if (on) a.setAttribute('aria-current', 'true'); else a.removeAttribute('aria-current'); });
+    if (live) {
+      const span = seq.offsetHeight - stage.offsetHeight;
+      const p = span > 0 ? Math.min(1, Math.max(0, (edge - seq.getBoundingClientRect().top) / span)) : 1;
+      const step = String(Math.min(3, Math.floor(p * 4)));
+      if (seq.dataset.step !== step) seq.dataset.step = step;
+    }
+  };
+  /* the browser already sends scroll events at most once a frame */
+  addEventListener('scroll', frame, { passive: true });
+  addEventListener('resize', frame);
+  frame();
+
+  /* ---------- copy ---------- */
+  const toast = document.getElementById('toast');
+  let tId;
+  const say = msg => { toast.textContent = msg; toast.hidden = false; clearTimeout(tId); tId = setTimeout(() => { toast.hidden = true; }, 1800); };
+  const fallback = (text, msg) => {
+    const ta = document.createElement('textarea');
+    ta.value = text; ta.setAttribute('readonly', ''); ta.style.position = 'fixed'; ta.style.opacity = '0';
+    document.body.appendChild(ta); ta.select();
+    let ok = false; try { ok = document.execCommand('copy'); } catch (err) { ok = false; }
+    ta.remove();
+    say(ok ? msg : `Select and copy: ${text}`);
+  };
+  const copy = (text, msg) => {
+    try { navigator.clipboard.writeText(text).then(() => say(msg), () => fallback(text, msg)); }
+    catch (err) { fallback(text, msg); }
+  };
+  document.querySelectorAll('.sw').forEach(b => b.addEventListener('click', () => copy(b.dataset.hex, `Copied ${b.dataset.hex}`)));
+
+  /* ---------- type tuning ---------- */
+  const faces = {
+    head: { fam: "'Instrument Sans'", min: 400, max: 700, step: 10 },
+    body: { fam: "'Lora'",            min: 400, max: 700, step: 10 },
+    mono: { fam: "'IBM Plex Mono'",   min: 400, max: 600, step: 100 }
+  };
+  const presets = {
+    mast:  { face: 'head', wght: 700, size: 92, track: -0.02, kase: 'uppercase', text: 'The Morning Brief' },
+    head:  { face: 'head', wght: 700, size: 84, track: -0.03, kase: 'none',      text: 'De Beers digs 88% more, banks 44% less' },
+    body:  { face: 'body', wght: 400, size: 22, track: 0,     kase: 'none',      text: 'Second-quarter rough output jumped 88% to 7.8 million carats even as the average price fell 32% to $105 a carat.' },
+    data:  { face: 'mono', wght: 500, size: 22, track: 0.04,  kase: 'none',      text: 'NATURAL 1CT (RAPI PROXY) 3,915.00 −5.1% YTD' },
+    label: { face: 'mono', wght: 500, size: 15, track: 0.18,  kase: 'uppercase', text: 'The edition · Gold & metals' }
+  };
+  const $ = id => document.getElementById(id);
+  const sample = $('t-sample'), out = $('t-out'), wght = $('t-wght'), size = $('t-size'), track = $('t-track');
+  const st = { face: 'head', wght: 700, size: 96, track: -0.03, kase: 'none' };
+  const fmt = n => (n < 0 ? '−' : '') + Math.abs(n).toFixed(3).replace(/0+$/, '').replace(/\.$/, '');
+  const press = (groupId, attr, val) => $(groupId).querySelectorAll('button').forEach(b => b.setAttribute('aria-pressed', String(b.dataset[attr] === val)));
+  const apply = () => {
+    const f = faces[st.face];
+    wght.min = f.min; wght.max = f.max; wght.step = f.step;
+    st.wght = Math.min(f.max, Math.max(f.min, Math.round(st.wght / f.step) * f.step));
+    wght.value = st.wght; size.value = st.size; track.value = st.track;
+    sample.style.fontFamily = `var(--${st.face})`;
+    sample.style.fontWeight = st.wght;
+    sample.style.fontSize = st.size + 'px';
+    sample.style.letterSpacing = st.track + 'em';
+    sample.style.textTransform = st.kase;
+    sample.style.wordSpacing = st.face === 'head' && st.kase === 'uppercase' ? '0.06em' : 'normal';
+    sample.style.lineHeight = st.size < 30 ? '1.5' : '1.04';
+    $('o-wght').textContent = st.wght;
+    $('o-size').textContent = st.size + ' px';
+    $('o-track').textContent = fmt(st.track) + ' em';
+    press('t-face', 'face', st.face); press('t-case', 'case', st.kase);
+    const lines = [`font-family: ${f.fam};`, `font-weight: ${st.wght};`, `font-size: ${st.size}px;`, `letter-spacing: ${fmt(st.track).replace('−', '-')}em;`];
+    if (st.kase !== 'none') lines.push(`text-transform: ${st.kase};`);
+    if (st.face === 'head' && st.kase === 'uppercase') lines.push('word-spacing: 0.06em;');
+    $('t-css').textContent = lines.join('\n');
+  };
+  const fitSize = s => { const w = out.clientWidth || 800; return Math.max(14, Math.min(s, Math.round(w / 8.2))); };
+  $('t-face').addEventListener('click', e => { const b = e.target.closest('button'); if (!b) return; st.face = b.dataset.face; apply(); });
+  $('t-case').addEventListener('click', e => { const b = e.target.closest('button'); if (!b) return; st.kase = b.dataset.case; apply(); });
+  $('t-ground').addEventListener('click', e => { const b = e.target.closest('button'); if (!b) return; out.dataset.ground = b.dataset.ground; press('t-ground', 'ground', b.dataset.ground); });
+  $('t-presets').addEventListener('click', e => {
+    const b = e.target.closest('button'); if (!b) return;
+    const p = presets[b.dataset.preset];
+    Object.assign(st, { face: p.face, wght: p.wght, size: Math.min(p.size, fitSize(p.size)), track: p.track, kase: p.kase });
+    sample.textContent = p.text; apply();
+  });
+  wght.addEventListener('input', () => { st.wght = +wght.value; apply(); });
+  size.addEventListener('input', () => { st.size = +size.value; apply(); });
+  track.addEventListener('input', () => { st.track = +track.value; apply(); });
+  $('t-copy').addEventListener('click', () => copy($('t-css').textContent, 'Copied the CSS'));
+  sample.addEventListener('keydown', e => { if (e.key === 'Enter') e.preventDefault(); });
+  st.size = fitSize(96);
+  apply();
+})();
+</script>
+
+</body>
+</html>
