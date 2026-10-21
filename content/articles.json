@@ -15340,6 +15340,7 @@
    "The advance stops short. The advance estimate reports broad categories and carries no jewellery-store line. The Census series that separates jewellery is not part of this release.",
    "A key is required. Census's own time-series interface returned a missing-key page on a direct request for the jewellery category, so no jewellery figure is printed here.",
    "The release dates itself. The Census Bureau published this estimate on 16 September under CB26-153. A trade write-up dated 22 September is where the figure reached the jewellery press.",
+   "Updated 21 October 2026: the Census Bureau's annual revision of 28 September 2026 restated August retail sales at $739.3 billion, against the $773.9 billion advance estimate this article reported. The advance figure was right as published on 24 September. The revised level and September's estimate are in census-puts-september-retail-at-seven-forty-five.html (19 October 2026).",
    "The desk's view: If you benchmark your own August: the national number is $773.9 billion and 6.0% above a year ago, with no jewellery cut inside it. If you read the monthly print: 1.2% carries a 0.4-point margin, which puts the true change somewhere between 0.8% and 1.6%. What this is not: a jewellery figure. Nothing in this release measures the jewellery trade."
   ]
  },
@@ -19393,10 +19394,11 @@
    "The 8.17-carat round sold 2.7% below its $250,000 low estimate. With no reserve, the bidding alone set the price.",
    "A Van Cleef & Arpels ring with a 5.22-carat D stone made $140,800, under its $150,000 low.",
    "Graff's 7.85-carat D VS1 ring sold for $256,000, inside its range. The sale closed 15 October with $9.3 million.",
-   "A Bulgari peridot and sapphire necklace made $153,600, 2.56 times its $60,000 high estimate.",
+   "A Bulgari peridot and sapphire necklace made $153,600, against a $60,000 high estimate.",
    "Bulgari sapphire and emerald earrings sold for $128,000, against a $35,000 high.",
    "A 9.04-carat I VS1 ring sold with a David Webb ring jacket for $166,400, against a $100,000 high.",
-   "The desk's view. If you price large D rounds: With no reserve, bidders set $243,200 on a D flawless 8-carat round. A Van Cleef D ring also missed its low. If you consign signed coloured pieces: Two Bulgari lots made 2.56 and 3.66 times their highs. What this is not: A fall in D prices. Two lots is a small sample."
+   "Updated 21 October 2026: this article first gave the two Bulgari lots as 2.56 and 3.66 times their high estimates, including in its key figures. Rapaport does not say whether its sale prices include the buyer's premium, and nine of the ten equal 1.28 times a round figure, the pattern of a hammer price plus premium; estimates are usually quoted without it. The multiples are withdrawn until Christie's own results are read; the prices and estimates stand. The table's percentages are now labelled as sale price against estimate. What was right as published: every price and every estimate.",
+   "The desk's view. If you price large D rounds: With no reserve, bidders set $243,200 on a D flawless 8-carat round. A Van Cleef D ring also missed its low. If you consign signed coloured pieces: Two Bulgari lots beat their highs; the premium basis is unstated. What this is not: A fall in D prices. Two lots is a small sample."
   ],
   "sources": [
    {
@@ -19472,11 +19474,11 @@
   "body": [
    "Namdeb Holdings, which owns Namdeb and Debmarine Namibia, approached the government in September proposing a recapitalisation, the finance minister told The Namibian. The amount is not yet known.",
    "Namibia and De Beers each own half of Namdeb Holdings. Shafudah said the request is unusual for a company once asked only about dividends.",
-   "Diamond miners paid N$239 million in corporate tax and N$1.16 billion in royalties in 2024/25, the budget shows. Diamonds once yielded up to N$5 billion a year, Shafudah said.",
+   "Shafudah said the diamond sector's troubles contributed to a downward revision of revenue. Miners paid N$239 million in corporate tax and N$1.16 billion in royalties in 2024/25, the budget shows. Diamonds once yielded up to N$5 billion a year, she said.",
    "Chief executive Riaan Burger says revenue has run 60% below what Namdeb forecast before prices fell.",
    "Shafudah said Namdeb has not finalised its proposal, so the government does not yet know how much it needs. She did not say what the capital would fund.",
    "Board chair Alex Gawanab said management has contingency plans for worst-case scenarios. Spokesperson Grace Luvindao declined to comment.",
-   "The desk's view. If you buy Namibian rough: The producer is asking its owners for capital. No change to output or sales is announced. If you follow the De Beers sale: De Beers owns half, so a recapitalisation falls partly on whoever owns De Beers. What this is not: A bailout. No amount is named, and Namdeb declined to comment."
+   "The desk's view. If you buy Namibian rough: The producer is asking its owners for capital. The Namibian's report mentions no change to output or sales. If you follow the De Beers sale: De Beers owns half, so a recapitalisation falls partly on whoever owns De Beers. What this is not: A bailout. No amount is named, and Namdeb declined to comment."
   ],
   "sources": [
    {
@@ -19491,7 +19493,7 @@
   "desk": "diamonds",
   "date": "2026-10-20",
   "kicker": "Diamonds & Rough",
-  "lead": true,
+  "lead": false,
   "title": "De Beers' rough price index falls 20% as sales volume nearly doubles",
   "dek": "Third-quarter output fell 11% to 6.8 million carats as Orapa and Venetia slowed. Rough sales rose 4% to $731m, and 2026 guidance rises to 25–28 million carats with all of Gahcho Kué.",
   "byline": "Carat Capital",
@@ -19510,12 +19512,14 @@
    "South Africa's output fell 37% to 0.4 million carats as Venetia ramped down ahead of a planned two-year pause. De Beers expects no more Venetia carats this year.",
    "Gahcho Kué's attributable output rose 108% to 1.06 million carats on planned processing of higher-grade ore.",
    "Consolidated sales reached 8.7 million carats against 4.6 million a year earlier, bringing in $731 million from two Sights.",
-   "The average realised price fell 45% to $84 a carat. De Beers says the year-to-date fall reflects a lower price index and a more balanced sales mix.",
-   "The price index, which tracks like-for-like rough, averaged 65 against 81 a year earlier and 69 in the second quarter.",
+   "The average realised price fell 45% to $84 a carat, against $154 a year earlier.",
+   "Year to date the average fell 37% to $97. De Beers cites an 18% lower index and a more balanced sales mix.",
+   "The price index, an average across the period's Sights, stood at 65 against 81 a year earlier and 69 in the second quarter.",
    "De Beers took full ownership of Gahcho Kué on 16 October by enforcing security over Mountain Province's 49% interest. It will report the mine at 100% from the fourth quarter.",
    "Production guidance for 2026 moves to 25–28 million carats, from 21–26 million. De Beers says the change reflects the Gahcho Kué ownership, not new global supply.",
    "Unit cost guidance drops to about $70 a carat from about $80, on Gahcho Kué's larger share, the Venetia pause and cost control.",
-   "The desk's view. If you buy at the Sights: Like-for-like prices fell 6% on the second quarter. De Beers says trading showed signs of stability; the index did not rise. If you plan Q4 supply: Jwaneng maintenance is expected to cut output well below third-quarter rates. What this is not: A clean price read from the $84 average. Mix moved it."
+   "Correction, 21 October 2026: this article as published set De Beers' explanation, a lower price index and a more balanced sales mix, under the third quarter's 45% fall to $84 a carat, and said mix moved that average. De Beers gives that explanation for the year-to-date average, which fell 37% to $97 a carat as the index fell 18%; its report says 'The YTD consolidated average realised price declined by 37% to $97/carat'. The page now prints the year-to-date figures beside De Beers' sentence and labels the quarter's reading as ours. It also described the index as tracking like-for-like rough, a phrase the report does not use; it now gives De Beers' own definition. Source re-read on 21 October from the 97,156 bytes saved on 20 October. What was right as published: every figure in the article.",
+   "The desk's view. If you buy at the Sights: The index fell 6% on the second quarter, though De Beers reports signs of stability. If you plan Q4 supply: Jwaneng maintenance is expected to cut output well below third-quarter rates. What this is not: A clean price read. The average fell 45%, the index 20%; we read the gap as mix."
   ],
   "sources": [
    {
@@ -19555,7 +19559,7 @@
    "Watches priced below CHF 500 at export rose 39.5%, which FH singles out as a particularly sharp increase.",
    "US exports rose 85.7% to CHF 292.9 million. In August they had fallen 19.4%.",
    "France rose 128.2% to CHF 246.5 million. FH says the figure may reflect trade reallocated from other markets in the region.",
-   "On our division, the US and France added about CHF 274 million, more than the CHF 233 million total gain. The other markets shipped about CHF 40 million less.",
+   "On our arithmetic, the US and France added about CHF 274 million, more than the CHF 233 million total gain. The other markets shipped about CHF 40 million less.",
    "The desk's view. If you hold US allocation: Shipments rose 85.7%, and FH puts it down to a favourable base. If you sell into China: Exports there fell 14.2%, which FH also blames on the base. What this is not: Retail sales. FH counts shipments leaving Switzerland, not watches sold."
   ],
   "sources": [
@@ -19568,6 +19572,11 @@
     "title": "Federation of the Swiss Watch Industry FH, Statistics page",
     "url": "https://www.fhs.swiss/eng/statistics.html",
     "published": "2026-10-20"
+   },
+   {
+    "title": "Carat Capital, Swiss watch exports in August (US −19.4%), 17 September 2026",
+    "url": "https://caratcapital.org/a-nine-one-up-nineteen-four-down.html",
+    "published": "2026-09-17"
    }
   ]
  },
@@ -19590,11 +19599,12 @@
   ],
   "body": [
    "Gemfields' October mixed-quality ruby auction raised $52.0 million, close to February's $53.0 million, on about half the carats.",
-   "The sale offered 102,099 carats, slightly over 20 kilograms, which Gemfields says was smaller than in previous years and mostly higher-quality ruby.",
+   "The sale offered 102,099 carats, slightly over 20 kilograms, mostly higher-quality ruby. Gemfields calls it smaller than previous years' sales; by its own table, June 2025 offered fewer, 99,830 carats.",
    "Buyers took 90 of 99 lots, or 90% of the weight offered, in sealed bids after viewings in Bangkok.",
    "Forty-six companies placed bids, the same number as in February.",
    "Gemfields introduced Trade Select in June, offering selected grades and categories in separate auctions. It says the lower volume reflects that change and the year's operational challenges.",
    "The next Trade Select auction is planned for December. Proceeds go to Montepuez Ruby Mining, 75% owned by Gemfields, which pays Mozambique's royalties on the full sale prices.",
+   "Correction, 21 October 2026: this article as published carried, unqualified, Gemfields' statement that the October sale was smaller than those held in previous years. The table on this page shows June 2025 offered fewer carats, 99,830 against 102,099, and sold fewer, 68,705 against 92,153, so October was smaller than three of the four previous mixed-quality auctions listed. Both figures come from the five-auction table in Gemfields' RNS of 19 October 2026, re-read on 21 October from the 80,875 bytes saved on 20 October. What was right as published: every figure in the article, and the sentence was correctly attributed to Gemfields.",
    "The desk's view. If you buy Mozambican ruby: Gemfields says this sale was mostly higher-quality goods, so the per-carat figure is not a price move. If you hold Gemfields: Revenue held while volume halved. What this is not: A ruby price index. Averages follow the assortment."
   ],
   "sources": [
@@ -19612,7 +19622,7 @@
   "kicker": "Gold & Metals Desk · India",
   "lead": false,
   "title": "Indian gold dealers swing to premiums of up to $7 an ounce",
-  "dek": "Dealers had offered discounts of up to $6 the week before, Reuters reported on 16 October, as lower prices drew festive and wedding buyers. Several large Indian funds suspended bulk gold ETF subscriptions.",
+  "dek": "Lower prices drew festive and wedding buyers, Reuters reported on 16 October; dealers had offered discounts of up to $6 the week before. Several large Indian funds suspended bulk gold ETF subscriptions.",
   "byline": "Carat Capital",
   "tags": [
    "India",
@@ -19626,16 +19636,177 @@
    "Indian dealers quoted gold at premiums of up to $7 an ounce in the week to 16 October, against discounts of up to $6 a week earlier, Reuters reported.",
    "Domestic gold was quoted near ₹148,200 per 10 grams on the Friday, after a two-week low of ₹145,627 earlier in the week.",
    "Chanda Venkatesh of Hyderabad bullion merchant CapsGold told Reuters that jewellery demand is picking up with the festive and wedding season. Investors are still holding back, Venkatesh said, as prices continue to fall.",
-   "Imports usually rise before the festivals but have run lower this year, a Mumbai dealer at a private bank said. September imports were $1.8 billion against $9.6 billion a year earlier.",
+   "Imports usually rise before the festivals but have run lower this year, tightening supply, a Mumbai dealer at a private bank told Reuters. Trade ministry data showed September imports of $1.8 billion against $9.6 billion a year earlier.",
    "Several large Indian mutual funds issued notices late on 15 October suspending bulk subscriptions to gold exchange-traded funds. Reuters gave no fund names and no reason.",
    "Chinese bullion traded at premiums of $4 to $13 an ounce over the global benchmark. MKS PAMP's Bernard Sin said physical buyers were cautious in a volatile range.",
    "Singapore premiums ran $0.50 to $1.70, and Hong Kong flat to $1.50.",
-   "The desk's view. If you buy bullion in India: Local supply is tight; a Mumbai dealer says imports have run below their usual pre-festival level. If you hold Indian gold ETFs: Several large funds suspended bulk subscriptions. Reuters names none. What this is not: Investor buying. CapsGold says investors are still holding back."
+   "Correction, 21 October 2026: this article as published stated in its own voice that local supply is tight, under the subhead 'Supply is short.' That was one unnamed dealer's view: Reuters attributes it to 'a Mumbai-based dealer at a private bank'. The September import figures were printed without their source; Reuters attributes them to trade ministry data. Both are now attributed, and the dek no longer reads as if lower prices caused the discounts. Reuters' report was re-read on 21 October from the 110,584 bytes saved on 20 October. What was right as published: every figure in the article.",
+   "The desk's view. If you buy bullion in India: A Mumbai dealer told Reuters imports have run below their usual pre-festival level, tightening supply. If you hold Indian gold ETFs: Several large funds suspended bulk subscriptions. Reuters names none. What this is not: Investor buying. CapsGold says investors are still holding back."
   ],
   "sources": [
    {
     "title": "Reuters via Kitco, India gold swings to premium as lower prices lift jewellery demand",
     "url": "https://www.kitco.com/news/off-the-wire/2026-10-16/india-gold-swings-premium-lower-prices-lift-jewellery-demand",
+    "published": "2026-10-16"
+   }
+  ]
+ },
+ {
+  "slug": "vietnam-ends-gold-jewellery-certificate",
+  "desk": "gold-metals",
+  "date": "2026-10-21",
+  "kicker": "Gold & Metals Desk · Vietnam",
+  "lead": true,
+  "title": "Vietnam ends gold jewellery certificate, caps cash deals at VND 5m",
+  "dek": "Decree 390/2026 took effect on 16 October, cutting the non-cash line from VND 20 million a day. Makers with foreign contracts can seek raw-gold import licences; pending certificate files are closed.",
+  "byline": "Carat Capital",
+  "tags": [
+   "Vietnam",
+   "State Bank of Vietnam",
+   "gold",
+   "jewellery manufacturing",
+   "regulation",
+   "cashless"
+  ],
+  "body": [
+   "Vietnam now requires non-cash payment for gold deals of VND 5 million or more a day, down from VND 20 million, from 16 October. Jewellery makers no longer need a central bank certificate.",
+   "Gold purchases and sales worth VND 5 million or more in a day must be paid by non-cash means. The old line was VND 20 million, so the threshold falls 75%.",
+   "Deputy Prime Minister Nguyễn Văn Thắng signed Decree 390/2026 on 16 October, and it took effect that day. It amends Decree 24/2012, the base rule for Vietnam's gold trade.",
+   "The decree repeals all its rules on making, processing and trading jewellery gold, both outlets report. A central bank production certificate is no longer a condition to operate.",
+   "Certificate applications still undecided on 16 October are terminated, and the central bank will notify the applicants.",
+   "Makers with foreign processing contracts may get raw-gold import licences for that work. Foreign-invested makers can win annual licences based on capacity and export record.",
+   "The Ministry of Science and Technology will set national standards for jewellery and bar gold and check their quality and measurement.",
+   "Gold businesses and commercial banks must report bar trading, gold imports and exports, and the use and stock of imported raw gold.",
+   "The desk's view. If you sell gold in Vietnam: Customers buying VND 5 million or more a day must pay by non-cash means. If you make jewellery there: The central bank's production certificate is no longer a condition to operate. What this is not: A ban on cash. Deals under VND 5 million a day are outside the rule."
+  ],
+  "sources": [
+   {
+    "title": "Tạp chí Công Thương, 'Từ 16/10/2026, mua, bán vàng từ 5 triệu đồng/ngày phải thanh toán không dùng tiền mặt' (Vietnamese)",
+    "url": "https://tapchicongthuong.vn/tu-16-10-2026--mua--ban-vang-tu-5-trieu-dong-ngay-phai-thanh-toan-khong-dung-tien-mat-558821.htm",
+    "published": "2026-10-18"
+   },
+   {
+    "title": "VOV, 'Từ 16/10, mua bán vàng từ 5 triệu đồng phải thanh toán không tiền mặt' (Vietnamese)",
+    "url": "https://vov.vn/kinh-te/tu-1610-mua-ban-vang-tu-5-trieu-dong-phai-thanh-toan-khong-tien-mat-post1342302.vov",
+    "published": "2026-10-17"
+   }
+  ]
+ },
+ {
+  "slug": "sothebys-expects-nine-million-for-thirty-watches",
+  "desk": "watches",
+  "date": "2026-10-21",
+  "kicker": "Watches · Auctions",
+  "lead": false,
+  "title": "Sotheby's expects $9m-plus for 30 watches, nearly all first-owner",
+  "dek": "A platinum Patek 5374/300P-001 leads at $2.5 million to $5 million in New York on 7 December. Most of the rest are Tiffany-retailed Pateks, several double-signed and new to auction.",
+  "byline": "Carat Capital",
+  "tags": [
+   "Sotheby's",
+   "Patek Philippe",
+   "Tiffany & Co.",
+   "auction",
+   "New York",
+   "provenance"
+  ],
+  "body": [
+   "Sotheby's expects The Original Owner Collection, 30 watches nearly all kept by their first buyers, to make more than $9 million in New York on 7 December.",
+   "The platinum Patek 5374/300P-001, a minute repeater perpetual calendar set with baguette diamonds and sapphires, is estimated at $2.5 million to $5 million. Patek unveiled the reference in 2022.",
+   "The 5260/355R Aquanaut Luce Rainbow minute repeater, circa 2024, carries $1.4 million to $2.8 million. Sotheby's says both are making their auction debuts.",
+   "A pink gold 5208R-001, which pairs a minute repeater with a chronograph and an instantaneous perpetual calendar, is estimated at $900,000 to $1.8 million.",
+   "The remaining watches are mainly Patek references retailed by Tiffany & Co., Patek's first US retail partner since 1851. Several are double-signed and new to auction.",
+   "The 5711/1A-018, a 2022 edition of 170 with a Tiffany-blue dial, is estimated at $1 million to $1.6 million.",
+   "Sotheby's calls its Tiffany-signed Cubitus 5821/1AR-001 and Aquanaut Travel Time 5164G-001 the first of each offered at auction. Both carry $150,000 to $300,000.",
+   "Phillips holds its New York Watch Auction on 5 and 6 December, led by a pink gold Patek 2499 estimated above $3 million.",
+   "The desk's view. If you consign modern Patek: Sotheby's is marketing first-owner provenance and Tiffany signatures, not age alone. If you bid in New York in December: Phillips sells on 5 and 6 December, two days earlier. Both houses lead with Patek. What this is not: A result. Estimates exclude the buyer's premium, and nothing sells before 7 December."
+  ],
+  "sources": [
+   {
+    "title": "Sotheby's, The Original Owner Collection, press release (PDF), New York, 20 October 2026",
+    "url": "https://www.sothebys.com/en/docs/pdf/263066265-rush-watches-press-release-v4-compressed.pdf",
+    "published": "2026-10-20"
+   },
+   {
+    "title": "JCK Online, Sotheby's to auction original-owner watch collection",
+    "url": "https://www.jckonline.com/editorial-article/sothebys-auction-watches/",
+    "published": "2026-10-20"
+   }
+  ]
+ },
+ {
+  "slug": "phillips-puts-six-to-twelve-million-on-a-journe",
+  "desk": "auctions",
+  "date": "2026-10-21",
+  "kicker": "Auctions · Watches",
+  "lead": false,
+  "title": "Phillips puts HK$6m–12m on Mark Cho's Journe Résonance",
+  "dek": "The Hong Kong sale on 21 and 22 November adds eight independent lots to a Patek group. An early Tourbillon Souverain carries a range of HK$3.9 million to HK$11.6 million.",
+  "byline": "Carat Capital",
+  "tags": [
+   "Phillips",
+   "F.P. Journe",
+   "Mark Cho",
+   "Hong Kong",
+   "independent watchmaking",
+   "auction"
+  ],
+  "body": [
+   "Phillips estimates Mark Cho's F.P. Journe Résonance at HK$6 million to HK$12 million for its 21 and 22 November Hong Kong sale.",
+   "The Résonance 'Mark Cho Special' comes from the collection of The Armoury's co-founder. Phillips says five were made, the last in Journe's 38mm platinum case, and this one bears serial 168.",
+   "Tourbillon Souverain No. 069, a 2001 platinum watch with a yellow gold dial, carries HK$3.9 million to HK$11.6 million. Phillips says nine such dials are documented.",
+   "A Centigraphe made for the Hong Kong boutique's tenth anniversary carries HK$2.4 million to HK$4.8 million. Octa Calendrier Ruthenium 01 of 99 is estimated above HK$1.6 million.",
+   "A titanium Voutilainen Vingt-8 carries HK$1.5 million to HK$2.5 million and a Haldimann H1 HK$1 million to HK$2 million. Auffret and Kiu Tai Yu complete the list.",
+   "The eight named lots carry low estimates of HK$17.45 million on our sum, counting the Octa at its floor.",
+   "Another Tourbillon Souverain took HK$31.4 million at Sotheby's Hong Kong on 21 September.",
+   "The desk's view. If you consign independents: Phillips is adding eight independent lots to a sale it has already announced around Patek. If you bid on early Journe: The Tourbillon Souverain's high estimate is nearly three times its low. What this is not: A result. Estimates exclude the buyer's premium."
+  ],
+  "sources": [
+   {
+    "title": "Phillips, Independent watchmaking highlights for The Hong Kong Watch Auction: XXIII, press release (PDF), Hong Kong, 20 October 2026",
+    "url": "https://dist.phillips.com/content/web/press/PHILLIPS-UNVEILS-EXCEPTIONAL-INDEPENDENT-WATCHMAKING-HIGHLIGHTS-FOR-THE-HONG-KONG-WATCH-AUCTION-XXIII_hoj5r0vl.pdf",
+    "published": "2026-10-20"
+   }
+  ]
+ },
+ {
+  "slug": "burgundy-director-deals-broke-an-asx-rule",
+  "desk": "diamonds",
+  "date": "2026-10-21",
+  "kicker": "Diamonds & Rough · Canada",
+  "lead": false,
+  "title": "Burgundy board says US$50.6m director deals broke an ASX rule",
+  "dek": "Three 2025 advance-sale agreements sent rough to Choron BV, controlled by director Anshul Gandhi, without prior shareholder approval. ASX lists Burgundy as long suspended, with three periodic reports overdue.",
+  "byline": "Carat Capital",
+  "tags": [
+   "Burgundy Diamond Mines",
+   "ASX",
+   "Choron",
+   "Ekati",
+   "governance",
+   "rough"
+  ],
+  "body": [
+   "Burgundy Diamond Mines' board acknowledged on 9 October that three 2025 rough-sale agreements with a director's company, worth about US$50.6 million, needed shareholder approval first.",
+   "Between May and July 2025, Choron BV paid Burgundy in advance for independently valued rough inventories, then took the diamonds. It also held security over the stones.",
+   "Choron was a related party because Anshul Gandhi, a Burgundy director, controlled it. Each deal exceeded the approval threshold of about US$3.10 million, 5% of US$62.04 million in equity.",
+   "The agreements were signed on 31 May, 30 June and 24 July 2025 without prior shareholder approval.",
+   "Burgundy requested a trading suspension on 29 September 2025 and announced the breach on 7 October 2025.",
+   "An independent expert's report followed on 27 March 2026. Shareholders not associated with Choron ratified the dealings on 30 April 2026.",
+   "Burgundy is appointing a joint company secretary; its chief financial officer has held the role alone. ASX directed a further announcement, expected around 30 November.",
+   "ASX's 16 October list of long-suspended entities names Burgundy. Its full-year accounts, annual report and half-year accounts, due 31 March, 30 April and 11 September 2026, are outstanding.",
+   "The oldest report must be lodged by 31 March 2027, and trading must be able to resume by 29 September 2027. ASX removes entities that miss either.",
+   "Burgundy's Ekati mine in Canada's Northwest Territories was placed in court receivership in July 2026.",
+   "The desk's view. If you hold Burgundy: Trading has been suspended since 29 September 2025. ASX's deadline for trading to resume is 29 September 2027. If you lend against rough: Burgundy funded itself by pre-selling inventory to an insider. What this is not: An underpricing finding. The expert found fair market value, but judged the dealings 'not fair but reasonable'."
+  ],
+  "sources": [
+   {
+    "title": "Burgundy Diamond Mines, Acknowledgement and Remediation of ASX Listing Rule 10.1 Breach, ASX announcement, 9 October 2026 (PDF)",
+    "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03146587-6A1348472",
+    "published": "2026-10-09"
+   },
+   {
+    "title": "ASX, Long Term Suspended Entities, market announcement, 16 October 2026 (PDF)",
+    "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03149447-3A704308",
     "published": "2026-10-16"
    }
   ]

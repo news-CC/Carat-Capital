@@ -121632,7 +121632,9 @@
      "published": "2026-09-22"
     }
    ],
-   "corrections": []
+   "corrections": [
+    "Updated 21 October 2026: the Census Bureau's annual revision of 28 September 2026 restated August retail sales at $739.3 billion, against the $773.9 billion advance estimate this article reported. The advance figure was right as published on 24 September. The revised level and September's estimate are in census-puts-september-retail-at-seven-forty-five.html (19 October 2026)."
+   ]
   },
   "next": {
    "slug": "thirteen-hundred-under-the-january-high",
@@ -143376,7 +143378,7 @@
     "h": "One subsidiary is named",
     "p": [
      {
-      "lead": "The tax was never funded.",
+      "lead": "The interest never arrived.",
       "text": "HMRC's claim covers the year ended 30 June 2025. It arose on interest accrued on a receivable from Ealing Management Services, another Petra subsidiary, and that interest was never received.",
       "links": {
        "HMRC's claim": "a-hmrc-seeks-to-wind-up-a-petra-unit.html"
@@ -143830,7 +143832,7 @@
   "v": 3,
   "kicker": "Auctions",
   "figures": {
-   "asof": "Christie's Jewels Online, New York, 6 to 15 October 2026. Results as reported by Rapaport on 18 October 2026, read from its RSS feed body; estimates also in JCK's 9 October preview. Raw bytes at newsroom/sources/2026-10-19/desk: rapfeed.xml 54,832 bytes, jck_246431.html 113,866 bytes.",
+   "asof": "Christie's Jewels Online, New York, 6 to 15 October 2026. Results as reported by Rapaport on 18 October 2026, read from its RSS feed body; estimates also in JCK's 9 October preview. Raw bytes at newsroom/sources/2026-10-19/desk: rapfeed.xml 54,832 bytes, jck_246431.html 113,866 bytes. Rapaport labels each figure 'Sale Price' without saying whether it includes the buyer's premium; estimates are usually quoted without it.",
    "cells": [
     {
      "n": "$243,200",
@@ -143852,10 +143854,10 @@
      "src": 1
     },
     {
-     "n": "3.66x",
+     "n": "$128,000",
      "dir": "up",
      "label": "Bulgari earrings",
-     "q": "times the high estimate",
+     "q": "high estimate $35,000",
      "src": 1
     }
    ]
@@ -143871,7 +143873,7 @@
    },
    {
     "who": "If you consign signed coloured pieces:",
-    "text": "Two Bulgari lots made 2.56 and 3.66 times their highs."
+    "text": "Two Bulgari lots beat their highs; the premium basis is unstated."
    },
    {
     "who": "What this is not:",
@@ -143887,7 +143889,7 @@
     "Lot",
     "Price",
     "Estimate",
-    "Against the range"
+    "Sale price against the range"
    ],
    "rows": [
     [
@@ -143936,7 +143938,7 @@
      "Bulgari peridot and sapphire necklace",
      "$153,600",
      "$40,000–$60,000",
-     "2.56x high"
+     "Above high"
     ],
     [
      "Van Cleef & Arpels ring, 5.22ct D VVS2",
@@ -143948,10 +143950,10 @@
      "Bulgari sapphire and emerald earrings",
      "$128,000",
      "$25,000–$35,000",
-     "3.66x high"
+     "Above high"
     ]
    ],
-   "note": "Carat Capital's division. 243,200 / 250,000 = 97.3% of the low, 2.7% below it. 140,800 / 150,000 = 93.9% of the low, 6.1% below. 192,200 / 180,000 = 1.068, 6.8% above the high. 166,400 / 100,000 = 1.664, 66.4% above. 153,600 / 60,000 = 2.56 times. 128,000 / 35,000 = 3.66 times. Rapaport labels each figure 'Sale Price' and does not say whether it includes the buyer's premium.",
+   "note": "Carat Capital's division. 243,200 / 250,000 = 97.3% of the low, 2.7% below it. 140,800 / 150,000 = 93.9% of the low, 6.1% below. 192,200 / 180,000 = 1.068, 6.8% above the high. 166,400 / 100,000 = 1.664, 66.4% above. Rapaport labels each figure 'Sale Price' and does not say whether it includes the buyer's premium. Nine of the ten prices equal 1.28 times a round figure, which suggests a hammer price plus premium; the percentages above compare sale price with estimate and would be wider on a hammer basis.",
    "plate": "CC/2026/307"
   },
   "sections": [
@@ -143980,7 +143982,7 @@
     "p": [
      {
       "lead": "Bulgari led.",
-      "text": "A Bulgari peridot and sapphire necklace made $153,600, 2.56 times its $60,000 high estimate."
+      "text": "A Bulgari peridot and sapphire necklace made $153,600, against a $60,000 high estimate."
      },
      {
       "lead": "Earrings went further.",
@@ -144032,6 +144034,9 @@
      "url": "https://www.jckonline.com/editorial-article/christies-jewels-online-2026-2/",
      "published": "2026-10-09"
     }
+   ],
+   "corrections": [
+    "Updated 21 October 2026: this article first gave the two Bulgari lots as 2.56 and 3.66 times their high estimates, including in its key figures. Rapaport does not say whether its sale prices include the buyer's premium, and nine of the ten equal 1.28 times a round figure, the pattern of a hammer price plus premium; estimates are usually quoted without it. The multiples are withdrawn until Christie's own results are read; the prices and estimates stand. The table's percentages are now labelled as sale price against estimate. What was right as published: every price and every estimate."
    ]
   },
   "next": {
@@ -144266,7 +144271,7 @@
   "means": [
    {
     "who": "If you buy Namibian rough:",
-    "text": "The producer is asking its owners for capital. No change to output or sales is announced."
+    "text": "The producer is asking its owners for capital. The Namibian's report mentions no change to output or sales."
    },
    {
     "who": "If you follow the De Beers sale:",
@@ -144326,8 +144331,8 @@
       "text": "Namibia and De Beers each own half of Namdeb Holdings. Shafudah said the request is unusual for a company once asked only about dividends."
      },
      {
-      "lead": "The revenue already fell.",
-      "text": "Diamond miners paid N$239 million in corporate tax and N$1.16 billion in royalties in 2024/25, the budget shows. Diamonds once yielded up to N$5 billion a year, Shafudah said."
+      "lead": "Revenue was revised down.",
+      "text": "Shafudah said the diamond sector's troubles contributed to a downward revision of revenue. Miners paid N$239 million in corporate tax and N$1.16 billion in royalties in 2024/25, the budget shows. Diamonds once yielded up to N$5 billion a year, she said."
      }
     ]
    },
@@ -144439,7 +144444,7 @@
   "means": [
    {
     "who": "If you buy at the Sights:",
-    "text": "Like-for-like prices fell 6% on the second quarter. De Beers says trading showed signs of stability; the index did not rise."
+    "text": "The index fell 6% on the second quarter, though De Beers reports signs of stability."
    },
    {
     "who": "If you plan Q4 supply:",
@@ -144447,7 +144452,7 @@
    },
    {
     "who": "What this is not:",
-    "text": "A clean price read from the $84 average. Mix moved it."
+    "text": "A clean price read. The average fell 45%, the index 20%; we read the gap as mix."
    }
   ],
   "visual": {
@@ -144507,7 +144512,7 @@
     "h": "Maintenance cut the output",
     "p": [
      {
-      "lead": "Botswana fell hardest.",
+      "lead": "Botswana lost most carats.",
       "text": "Production fell 11% to 6.8 million carats. Botswana produced 4.8 million, down 20%, because of planned plant maintenance at Orapa."
      },
      {
@@ -144528,12 +144533,16 @@
       "text": "Consolidated sales reached 8.7 million carats against 4.6 million a year earlier, bringing in $731 million from two Sights."
      },
      {
-      "lead": "The average hides mix.",
-      "text": "The average realised price fell 45% to $84 a carat. De Beers says the year-to-date fall reflects a lower price index and a more balanced sales mix."
+      "lead": "The quarter's average fell.",
+      "text": "The average realised price fell 45% to $84 a carat, against $154 a year earlier."
      },
      {
-      "lead": "The index is cleaner.",
-      "text": "The price index, which tracks like-for-like rough, averaged 65 against 81 a year earlier and 69 in the second quarter."
+      "lead": "De Beers explains the year.",
+      "text": "Year to date the average fell 37% to $97. De Beers cites an 18% lower index and a more balanced sales mix."
+     },
+     {
+      "lead": "The index fell less.",
+      "text": "The price index, an average across the period's Sights, stood at 65 against 81 a year earlier and 69 in the second quarter."
      }
     ]
    },
@@ -144576,9 +144585,9 @@
    "reverse": "A rise in the price index at the next Sights. Then the third quarter's 20% fall marks the bottom of the cycle, and the 91% volume rise reads as restocking at a low.",
    "built": {
     "title": "How the De Beers price index works",
-    "text": "The index averages De Beers' rough prices across the Sights in a period, relative to 100 at December 2006. It is meant to hold the assortment steady, so it strips out the mix that moves the average realised price. The 2025 values are restated to include the effect of De Beers' stock rebalancing."
+    "text": "The index averages De Beers' rough prices across the Sights in a period, relative to 100 at December 2006. The average realised price also moves with the mix of goods sold; De Beers attributes the year-to-date fall to both. The 2025 values are restated to include the effect of De Beers' stock rebalancing."
    },
-   "method": "De Beers, 'Production report for the third quarter of 2026', fetched 20 October 2026 at https://www.debeersgroup.com/news-insights/latest-group-news/2026/production-report-for-the-third-quarter-of-2026, 200, 97,156 bytes, saved at newsroom/sources/2026-10-20/desk/db.html; the body is dated 20 Oct 2026 (the string returns 3 hits). Greps on the saved bytes: '6,807' 2, '7,657' 2, '7,781' 2, '8,713' 1, '4,558' 1, '731' 2, '4,830' 3, '1,064' 4, '108%' 4, '(20)%' 5, '(45)%' 1, '16 October 2026' 1, '49%' 1, '25&ndash;28 million' 1, '21-26' 1, 'c.$70/carat' 1, 'signs of stability' 1, 'substantially decrease' 1, 'no further carat production' 1. Index cells '>65<' 1, '>81<' 1, '>69<' 1. The second-quarter column was checked against De Beers' Q2 report, fetched the same morning, 123,318 bytes: Q2 $110 a carat and index 69 match. ARCHIVE, by entity and period: website/content/articles.json, 'De Beers' 'third quarter' 0 rows; '6,807' 0 rows; 'De Beers' 'production' 18 rows, newest 2026-10-08 (Namibia), 2026-07-31 (H1 results) and 2026-07-24 de-beers-eighty-eight-up, opened, which covers Q2 2026. Ours 24 July covers Q2 2026 (7.8m carats, $665m); this covers Q3 2026 (6.8m carats, $731m). DIFFERENT PERIOD, ADVANCED. 'Gahcho' 6 rows; 2026-10-03 de-beers-takes-all-of-gahcho-kue, opened, covers the agreement; the 16 October effective date is new here.",
+   "method": "De Beers, 'Production report for the third quarter of 2026', fetched 20 October 2026 at https://www.debeersgroup.com/news-insights/latest-group-news/2026/production-report-for-the-third-quarter-of-2026, 200, 97,156 bytes, saved at newsroom/sources/2026-10-20/desk/db.html; the body is dated 20 Oct 2026 (the string returns 3 hits). Greps on the saved bytes: '6,807' 2, '7,657' 2, '7,781' 2, '8,713' 1, '4,558' 1, '731' 2, '4,830' 3, '1,064' 4, '108%' 4, '(20)%' 5, '(45)%' 1, '16 October 2026' 1, '49%' 1, '25&ndash;28 million' 1, '21-26' 1, 'c.$70/carat' 1, 'signs of stability' 1, 'substantially decrease' 1, 'no further carat production' 1. Index cells '>65<' 1, '>81<' 1, '>69<' 1. The second-quarter column was checked against De Beers' Q2 report, fetched the same morning, 123,318 bytes: Q2 $110 a carat and index 69 match. ARCHIVE, by entity and period: website/content/articles.json, 'De Beers' 'third quarter' 0 rows; '6,807' 0 rows; 'De Beers' 'production' 18 rows, newest 2026-10-08 (Namibia), 2026-07-31 (H1 results) and 2026-07-24 de-beers-eighty-eight-up, opened, which covers Q2 2026. Ours 24 July covers Q2 2026 (7.8m carats, $665m); this covers Q3 2026 (6.8m carats, $731m). DIFFERENT PERIOD, ADVANCED. 'Gahcho' 6 rows; 2026-10-03 de-beers-takes-all-of-gahcho-kue, opened, covers the agreement; the 16 October effective date is new here. Re-read 21 October 2026 from the same 97,156 bytes: 'YTD consolidated average realised price declined by 37% to $97/carat' 1 hit, '18% decrease in the average rough price index' 1, 'like-for-like' 0. The reading that mix explains much of the quarter's gap is Carat Capital's; the report gives no separate reason for the quarter.",
    "prior": [
     {
      "date": "2026-10-03",
@@ -144602,6 +144611,9 @@
      "url": "https://www.debeersgroup.com/news-insights/latest-group-news/2026/production-report-for-the-second-quarter-of-2026",
      "published": "2026-07-23"
     }
+   ],
+   "corrections": [
+    "Correction, 21 October 2026: this article as published set De Beers' explanation, a lower price index and a more balanced sales mix, under the third quarter's 45% fall to $84 a carat, and said mix moved that average. De Beers gives that explanation for the year-to-date average, which fell 37% to $97 a carat as the index fell 18%; its report says 'The YTD consolidated average realised price declined by 37% to $97/carat'. The page now prints the year-to-date figures beside De Beers' sentence and labels the quarter's reading as ours. It also described the index as tracking like-for-like rough, a phrase the report does not use; it now gives De Beers' own definition. Source re-read on 21 October from the 97,156 bytes saved on 20 October. What was right as published: every figure in the article."
    ]
   },
   "next": {
@@ -144739,7 +144751,7 @@
       "text": "Gold-steel models gained 29.3% to CHF 418.5 million, while precious-metal watches rose 1.3%."
      },
      {
-      "lead": "Cheap watches jumped.",
+      "lead": "Sub-CHF 500 watches jumped.",
       "text": "Watches priced below CHF 500 at export rose 39.5%, which FH singles out as a particularly sharp increase."
      }
     ]
@@ -144760,7 +144772,7 @@
      },
      {
       "lead": "The rest fell.",
-      "text": "On our division, the US and France added about CHF 274 million, more than the CHF 233 million total gain. The other markets shipped about CHF 40 million less."
+      "text": "On our arithmetic, the US and France added about CHF 274 million, more than the CHF 233 million total gain. The other markets shipped about CHF 40 million less."
      }
     ]
    }
@@ -144772,7 +144784,7 @@
    },
    {
     "when": "Monthly",
-    "what": "Whether France's surge reverses as EU trade flows settle, which FH says to read with caution."
+    "what": "Whether France's rise reverses as EU trade flows settle, which FH says to read with caution."
    }
   ],
   "depth": {
@@ -144799,6 +144811,11 @@
      "title": "Federation of the Swiss Watch Industry FH, Statistics page",
      "url": "https://www.fhs.swiss/eng/statistics.html",
      "published": "2026-10-20"
+    },
+    {
+     "title": "Carat Capital, Swiss watch exports in August (US −19.4%), 17 September 2026",
+     "url": "https://caratcapital.org/a-nine-one-up-nineteen-four-down.html",
+     "published": "2026-09-17"
     }
    ]
   },
@@ -144916,7 +144933,7 @@
     "p": [
      {
       "lead": "Twenty kilograms offered.",
-      "text": "The sale offered 102,099 carats, slightly over 20 kilograms, which Gemfields says was smaller than in previous years and mostly higher-quality ruby."
+      "text": "The sale offered 102,099 carats, slightly over 20 kilograms, mostly higher-quality ruby. Gemfields calls it smaller than previous years' sales; by its own table, June 2025 offered fewer, 99,830 carats."
      },
      {
       "lead": "Nine lots unsold.",
@@ -144975,6 +144992,9 @@
      "url": "https://www.investegate.co.uk/announcement/rns/gemfields-group-limited--gem/auction-results-october-mixed-quality-rubies/9828182",
      "published": "2026-10-19"
     }
+   ],
+   "corrections": [
+    "Correction, 21 October 2026: this article as published carried, unqualified, Gemfields' statement that the October sale was smaller than those held in previous years. The table on this page shows June 2025 offered fewer carats, 99,830 against 102,099, and sold fewer, 68,705 against 92,153, so October was smaller than three of the four previous mixed-quality auctions listed. Both figures come from the five-auction table in Gemfields' RNS of 19 October 2026, re-read on 21 October from the 80,875 bytes saved on 20 October. What was right as published: every figure in the article, and the sentence was correctly attributed to Gemfields."
    ]
   },
   "next": {
@@ -145024,7 +145044,7 @@
   "means": [
    {
     "who": "If you buy bullion in India:",
-    "text": "Local supply is tight; a Mumbai dealer says imports have run below their usual pre-festival level."
+    "text": "A Mumbai dealer told Reuters imports have run below their usual pre-festival level, tightening supply."
    },
    {
     "who": "If you hold Indian gold ETFs:",
@@ -145093,8 +145113,8 @@
       "text": "Chanda Venkatesh of Hyderabad bullion merchant CapsGold told Reuters that jewellery demand is picking up with the festive and wedding season. Investors are still holding back, Venkatesh said, as prices continue to fall."
      },
      {
-      "lead": "Supply is short.",
-      "text": "Imports usually rise before the festivals but have run lower this year, a Mumbai dealer at a private bank said. September imports were $1.8 billion against $9.6 billion a year earlier.",
+      "lead": "A dealer sees tight supply.",
+      "text": "Imports usually rise before the festivals but have run lower this year, tightening supply, a Mumbai dealer at a private bank told Reuters. Trade ministry data showed September imports of $1.8 billion against $9.6 billion a year earlier.",
       "links": {
        "September imports": "a-india-gold-imports-fall-eighty-one-percent.html"
       }
@@ -145125,12 +145145,12 @@
     "what": "Whether India's premium holds through the festival weeks or slips back to a discount."
    },
    {
-    "when": "8 November",
-    "what": "Diwali, the peak of India's festive buying."
+    "when": "Festival and wedding season",
+    "what": "Whether the jewellery demand CapsGold describes holds as the season runs."
    },
    {
-    "when": "Mid-November",
-    "what": "October import data, which shows whether dealers restocked."
+    "when": "Next monthly trade data",
+    "what": "October gold imports, which show whether dealers restocked."
    }
   ],
   "depth": {
@@ -145139,7 +145159,7 @@
     "title": "How the Indian premium is quoted",
     "text": "Dealers quote a premium or discount against the official domestic price, which already includes the 15% import levy and 3% sales tax. A premium means buyers pay above landed cost, usually because local stock is short. A discount means dealers are clearing metal that buyers will not take at the official price."
    },
-   "method": "Reuters, 'India gold swings to premium as lower prices lift jewellery demand', by Sukanya Mitra and Rajendra Jadhav, carried by Kitco at https://www.kitco.com/news/off-the-wire/2026-10-16/india-gold-swings-premium-lower-prices-lift-jewellery-demand, fetched 20 October 2026, 200, 110,584 bytes, saved at newsroom/sources/2026-10-20/desk/kitco-india.html. The page dates the story 16 October 2026 in its URL and timestamps; the body says the fund notices came 'late on Thursday', which is 15 October. The body text sits in the page's description field and is repeated four times in the bytes, so each grep returns 4: 'premiums of up to $7 an ounce', 'discounts of up to $6 last', '148,200', '145,627', '1.8 billion', '9.6 billion', 'suspending bulk subscriptions', 'premiums of $4 to $13 an ounce to', 'more than three months', 'CapsGold', '15% import'. Single source: one wire report; no fund notice or regulator statement was read. Diwali's 8 November date is from the paper's standards desk, 19 October. ARCHIVE, by entity and period: website/content/articles.json, 'premium' 'CapsGold' 0 rows; 'gold' 'premium' 'India' 5 rows, none a weekly premium survey (the newest, 12 October, covers UK ETF flows; india-buys-the-dip, 25 July, covers June's price fall); 'bulk subscriptions' 0 rows. NEW.",
+   "method": "Reuters, 'India gold swings to premium as lower prices lift jewellery demand', by Sukanya Mitra and Rajendra Jadhav, carried by Kitco at https://www.kitco.com/news/off-the-wire/2026-10-16/india-gold-swings-premium-lower-prices-lift-jewellery-demand, fetched 20 October 2026, 200, 110,584 bytes, saved at newsroom/sources/2026-10-20/desk/kitco-india.html. The page dates the story 16 October 2026 in its URL and timestamps; the body says the fund notices came 'late on Thursday', which is 15 October. The body text sits in the page's description field and is repeated four times in the bytes, so each grep returns 4: 'premiums of up to $7 an ounce', 'discounts of up to $6 last', '148,200', '145,627', '1.8 billion', '9.6 billion', 'suspending bulk subscriptions', 'premiums of $4 to $13 an ounce to', 'more than three months', 'CapsGold', '15% import'. Single source: one wire report; no fund notice or regulator statement was read. ARCHIVE, by entity and period: website/content/articles.json, 'premium' 'CapsGold' 0 rows; 'gold' 'premium' 'India' 5 rows, none a weekly premium survey (the newest, 12 October, covers UK ETF flows; india-buys-the-dip, 25 July, covers June's price fall); 'bulk subscriptions' 0 rows. NEW. Re-read 21 October 2026 from the same bytes: the tight-supply view is attributed in Reuters to 'a Mumbai-based dealer at a private bank' (4 hits) and the import figures to 'trade ministry data' (4 hits).",
    "prior": [
     {
      "date": "2026-10-19",
@@ -145153,11 +145173,798 @@
      "url": "https://www.kitco.com/news/off-the-wire/2026-10-16/india-gold-swings-premium-lower-prices-lift-jewellery-demand",
      "published": "2026-10-16"
     }
+   ],
+   "corrections": [
+    "Correction, 21 October 2026: this article as published stated in its own voice that local supply is tight, under the subhead 'Supply is short.' That was one unnamed dealer's view: Reuters attributes it to 'a Mumbai-based dealer at a private bank'. The September import figures were printed without their source; Reuters attributes them to trade ministry data. Both are now attributed, and the dek no longer reads as if lower prices caused the discounts. Reuters' report was re-read on 21 October from the 110,584 bytes saved on 20 October. What was right as published: every figure in the article."
    ]
   },
   "next": {
    "slug": "india-gold-imports-fall-eighty-one-percent",
    "why": "The import collapse behind the tight supply."
+  },
+  "corrections": []
+ },
+ "vietnam-ends-gold-jewellery-certificate": {
+  "v": 3,
+  "kicker": "Gold & Metals Desk · Vietnam",
+  "figures": {
+   "asof": "Decree 390/2026/NĐ-CP, dated and in force 16 October 2026, as reported by Tạp chí Công Thương (18 October) and VOV (17 October), whose summaries of the decree match. The decree text itself was not read. No dollar conversion is printed.",
+   "cells": [
+    {
+     "n": "VND 5m",
+     "dir": "down",
+     "label": "Non-cash threshold, per day",
+     "q": "gold purchases and sales",
+     "src": 1
+    },
+    {
+     "n": "VND 20m",
+     "label": "Previous threshold",
+     "q": "cut by 75%",
+     "src": 1
+    },
+    {
+     "n": "16 Oct",
+     "label": "In force",
+     "q": "Decree 390/2026",
+     "src": 1
+    },
+    {
+     "n": "2012",
+     "label": "Base decree amended",
+     "q": "Decree 24/2012",
+     "src": 1
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Less cash, fewer permits.",
+   "text": "Vietnam now requires non-cash payment for gold deals of VND 5 million or more a day, down from VND 20 million, from 16 October. Jewellery makers no longer need a central bank certificate."
+  },
+  "means": [
+   {
+    "who": "If you sell gold in Vietnam:",
+    "text": "Customers buying VND 5 million or more a day must pay by non-cash means."
+   },
+   {
+    "who": "If you make jewellery there:",
+    "text": "The central bank's production certificate is no longer a condition to operate."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A ban on cash. Deals under VND 5 million a day are outside the rule."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "What Decree 390/2026 changes",
+   "hi": 0,
+   "asof": "Tạp chí Công Thương, 18 October 2026; VOV, 17 October 2026. Both summarise the decree; the decree text was not read",
+   "cols": [
+    "Area",
+    "Rule from 16 October 2026"
+   ],
+   "rows": [
+    [
+     "Payment",
+     "Non-cash for gold deals of VND 5m or more a day; was VND 20m"
+    ],
+    [
+     "Jewellery making",
+     "Central bank certificate no longer a condition"
+    ],
+    [
+     "Pending certificate files",
+     "Applications not decided by 16 October are terminated"
+    ],
+    [
+     "Export processors",
+     "May get raw-gold import licences for foreign processing contracts"
+    ],
+    [
+     "Foreign-invested makers",
+     "Annual raw-gold import licence, on capacity and export record"
+    ],
+    [
+     "Gold powder, wire, semi-finished",
+     "Traded under business registration and customs law"
+    ],
+    [
+     "Existing licences and quotas",
+     "Run to their stated terms"
+    ]
+   ],
+   "note": "5 / 20 = 25% of the old threshold, so the line falls 75%. The VND 20 million prior level is in Tạp chí Công Thương's report; VOV's report gives the new level only.",
+   "plate": "CC/2026/314"
+  },
+  "sections": [
+   {
+    "h": "The cash line drops",
+    "p": [
+     {
+      "lead": "A quarter of before.",
+      "text": "Gold purchases and sales worth VND 5 million or more in a day must be paid by non-cash means. The old line was VND 20 million, so the threshold falls 75%."
+     },
+     {
+      "lead": "Signed and live together.",
+      "text": "Deputy Prime Minister Nguyễn Văn Thắng signed Decree 390/2026 on 16 October, and it took effect that day. It amends Decree 24/2012, the base rule for Vietnam's gold trade."
+     }
+    ]
+   },
+   {
+    "h": "Jewellery making loses its certificate",
+    "p": [
+     {
+      "lead": "The permit step goes.",
+      "text": "The decree repeals all its rules on making, processing and trading jewellery gold, both outlets report. A central bank production certificate is no longer a condition to operate."
+     },
+     {
+      "lead": "Pending files close.",
+      "text": "Certificate applications still undecided on 16 October are terminated, and the central bank will notify the applicants."
+     },
+     {
+      "lead": "Exporters can import.",
+      "text": "Makers with foreign processing contracts may get raw-gold import licences for that work. Foreign-invested makers can win annual licences based on capacity and export record."
+     }
+    ]
+   },
+   {
+    "h": "Standards and reporting move",
+    "p": [
+     {
+      "lead": "A ministry sets standards.",
+      "text": "The Ministry of Science and Technology will set national standards for jewellery and bar gold and check their quality and measurement."
+     },
+     {
+      "lead": "Dealers and banks report.",
+      "text": "Gold businesses and commercial banks must report bar trading, gold imports and exports, and the use and stock of imported raw gold."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Licence renewals",
+    "what": "Existing gold import licences and quotas run to their terms; renewals fall under the new decree."
+   },
+   {
+    "when": "Annual licence round",
+    "what": "The central bank's first yearly raw-gold import licences for foreign-invested jewellery makers."
+   }
+  ],
+  "depth": {
+   "reverse": "Guidance that restores a separate jewellery permit under another name. Then the licence change is cosmetic and only the cash line bites.",
+   "built": {
+    "title": "How Vietnam regulates gold",
+    "text": "Decree 24/2012 is the base rule. As amended, the central bank inspects bar-gold production and trading, gold imports and exports, and the use of imported raw gold. Decree 232/2025 amended it before this decree did."
+   },
+   "method": "Tạp chí Công Thương, 'Từ 16/10/2026, mua, bán vàng từ 5 triệu đồng/ngày phải thanh toán không dùng tiền mặt', timestamped 18/10/2026 09:48 GMT, fetched 21 October 2026, 200, 66,932 bytes. Greps on the saved bytes: '390/2026' 6, '16/10/2026' 10, '05 triệu' 1, '20 triệu' 2, '24/2012' 5, '232/2025' 1, 'Nguyễn Văn Thắng' 1, 'bãi bỏ toàn bộ' 1, 'không còn là điều kiện' 1, 'chấm dứt việc giải quyết' 1, 'có vốn đầu tư nước ngoài' 1, 'Bộ Khoa học và Công nghệ' 2. VOV, dated 17/10/2026 22:05, fetched 21 October 2026 with an identifying header, 200, 265,107 bytes (a browser identity was refused, 403, 6,066 bytes): '390/2026' 15, '16/10/2026' 9, '5 triệu' 18, '20 triệu' 0, 'bãi bỏ toàn bộ' 1, 'không còn là điều kiện' 1, 'Nguyễn Văn Thắng' 4. The two outlets print the same summary of the decree; the VND 20 million prior level rests on Tạp chí Công Thương alone. Translations are Carat Capital's. The decree text, penalties and treatment of split payments were not read. ARCHIVE, by entity and period: website/content/articles.json, 'Vietnam' 5 rows, opened: a 2 October Pandora plant, a 16 July lab certificate case, a 3 August diamond-smuggling case, a Luk Fook store line and a passing mention; 'Decree' 1 row, a Russian duty. None covers Vietnam's gold payment or licensing rules. NEW.",
+   "prior": [
+    {
+     "date": "2026-10-02",
+     "slug": "one-fifty-million-in-ho-chi-minh",
+     "claim": "Pandora opened a $150 million plant in Ho Chi Minh City, lifting its crafting capacity by 50%."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Tạp chí Công Thương, 'Từ 16/10/2026, mua, bán vàng từ 5 triệu đồng/ngày phải thanh toán không dùng tiền mặt' (Vietnamese)",
+     "url": "https://tapchicongthuong.vn/tu-16-10-2026--mua--ban-vang-tu-5-trieu-dong-ngay-phai-thanh-toan-khong-dung-tien-mat-558821.htm",
+     "published": "2026-10-18"
+    },
+    {
+     "title": "VOV, 'Từ 16/10, mua bán vàng từ 5 triệu đồng phải thanh toán không tiền mặt' (Vietnamese)",
+     "url": "https://vov.vn/kinh-te/tu-1610-mua-ban-vang-tu-5-trieu-dong-phai-thanh-toan-khong-tien-mat-post1342302.vov",
+     "published": "2026-10-17"
+    }
+   ]
+  },
+  "next": {
+   "slug": "one-fifty-million-in-ho-chi-minh",
+   "why": "The largest jewellery plant in Vietnam this paper has reported, and the trade these rules now govern."
+  },
+  "corrections": []
+ },
+ "sothebys-expects-nine-million-for-thirty-watches": {
+  "v": 3,
+  "kicker": "Watches · Auctions",
+  "figures": {
+   "asof": "Sotheby's press release, New York, 20 October 2026. Estimates exclude buyer's premium, the release says. Sale: Important Watches, New York, 7 December 2026.",
+   "cells": [
+    {
+     "n": "$9m+",
+     "label": "Expected for the collection",
+     "q": "30 watches",
+     "src": 1
+    },
+    {
+     "n": "$2.5–5m",
+     "label": "Patek 5374/300P-001",
+     "q": "auction debut",
+     "src": 1
+    },
+    {
+     "n": "$1–1.6m",
+     "label": "Tiffany Nautilus 5711/1A-018",
+     "q": "edition of 170",
+     "src": 1
+    },
+    {
+     "n": "7 Dec",
+     "label": "Sale date",
+     "q": "New York",
+     "src": 1
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Provenance is the pitch.",
+   "text": "Sotheby's expects The Original Owner Collection, 30 watches nearly all kept by their first buyers, to make more than $9 million in New York on 7 December."
+  },
+  "means": [
+   {
+    "who": "If you consign modern Patek:",
+    "text": "Sotheby's is marketing first-owner provenance and Tiffany signatures, not age alone."
+   },
+   {
+    "who": "If you bid in New York in December:",
+    "text": "Phillips sells on 5 and 6 December, two days earlier. Both houses lead with Patek."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A result. Estimates exclude the buyer's premium, and nothing sells before 7 December."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Nine of the 30 watches, with Sotheby's estimates",
+   "hi": 0,
+   "asof": "Sotheby's press release, 20 October 2026. Estimates exclude buyer's premium",
+   "cols": [
+    "Watch",
+    "Made",
+    "Estimate"
+   ],
+   "rows": [
+    [
+     "Patek 5374/300P-001 minute repeater perpetual calendar, platinum",
+     "c. 2026",
+     "$2.5m–$5m"
+    ],
+    [
+     "Patek 5260/355R Aquanaut Luce Rainbow minute repeater",
+     "c. 2024",
+     "$1.4m–$2.8m"
+    ],
+    [
+     "Patek 5711/1A-018 Nautilus, Tiffany dial",
+     "c. 2022",
+     "$1m–1.6m"
+    ],
+    [
+     "Patek 5208R-001 minute repeater chronograph perpetual",
+     "c. 2023",
+     "$900,000–$1.8m"
+    ],
+    [
+     "Patek 7118/1451G-001 Nautilus, gem-set, Tiffany",
+     "c. 2026",
+     "$400,000–$800,000"
+    ],
+    [
+     "Patek 5980/1R-001 Nautilus chronograph, Tiffany",
+     "c. 2024",
+     "$250,000–$500,000"
+    ],
+    [
+     "Patek 5261R-001 Aquanaut Luce, Tiffany",
+     "c. 2025",
+     "$200,000–$400,000"
+    ],
+    [
+     "Patek 5164G-001 Aquanaut Travel Time, Tiffany",
+     "c. 2024",
+     "$150,000–$300,000"
+    ],
+    [
+     "Patek 5821/1AR-001 Cubitus, Tiffany",
+     "c. 2025",
+     "$150,000–$300,000"
+    ]
+   ],
+   "note": "Carat Capital's sum of the nine low estimates: 2.5 + 1.4 + 1.0 + 0.9 + 0.4 + 0.25 + 0.2 + 0.15 + 0.15 = $6.95m; of the highs, $13.5m. The release does not say whether its $9m expectation includes the buyer's premium.",
+   "plate": "CC/2026/315"
+  },
+  "sections": [
+   {
+    "h": "Two Pateks make auction debuts",
+    "p": [
+     {
+      "lead": "A jewelled grand complication.",
+      "text": "The platinum Patek 5374/300P-001, a minute repeater perpetual calendar set with baguette diamonds and sapphires, is estimated at $2.5 million to $5 million. Patek unveiled the reference in 2022."
+     },
+     {
+      "lead": "A Rainbow Aquanaut follows.",
+      "text": "The 5260/355R Aquanaut Luce Rainbow minute repeater, circa 2024, carries $1.4 million to $2.8 million. Sotheby's says both are making their auction debuts."
+     },
+     {
+      "lead": "A third repeater too.",
+      "text": "A pink gold 5208R-001, which pairs a minute repeater with a chronograph and an instantaneous perpetual calendar, is estimated at $900,000 to $1.8 million."
+     }
+    ]
+   },
+   {
+    "h": "Tiffany signatures fill the rest",
+    "p": [
+     {
+      "lead": "Most came through Tiffany.",
+      "text": "The remaining watches are mainly Patek references retailed by Tiffany & Co., Patek's first US retail partner since 1851. Several are double-signed and new to auction."
+     },
+     {
+      "lead": "The blue Nautilus.",
+      "text": "The 5711/1A-018, a 2022 edition of 170 with a Tiffany-blue dial, is estimated at $1 million to $1.6 million."
+     },
+     {
+      "lead": "Several firsts at auction.",
+      "text": "Sotheby's calls its Tiffany-signed Cubitus 5821/1AR-001 and Aquanaut Travel Time 5164G-001 the first of each offered at auction. Both carry $150,000 to $300,000."
+     }
+    ]
+   },
+   {
+    "h": "Phillips sells two days earlier",
+    "p": [
+     {
+      "lead": "A crowded week.",
+      "text": "Phillips holds its New York Watch Auction on 5 and 6 December, led by a pink gold Patek 2499 estimated above $3 million.",
+      "links": {
+       "New York Watch Auction": "a-patek-2499-leads-phillips-new-york.html"
+      }
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "5–6 December",
+    "what": "Phillips' New York sale, two days before, and how far its Patek lots clear estimate."
+   },
+   {
+    "when": "7 December",
+    "what": "Sotheby's Important Watches sale in New York, where the collection is offered."
+   }
+  ],
+  "depth": {
+   "reverse": "First-owner Tiffany pieces selling near their low estimates. Then provenance adds little to a modern Patek's price.",
+   "built": {
+    "title": "How an auction estimate is quoted",
+    "text": "Sotheby's says its estimates exclude the buyer's premium, while prices achieved include hammer price, buyer's premium and overhead premium. A sale-day result is therefore higher than a hammer price set against the same estimate."
+   },
+   "method": "Sotheby's press release PDF, dated 'NEW YORK, 20 OCTOBER 2026', fetched 21 October 2026 at https://www.sothebys.com/en/docs/pdf/263066265-rush-watches-press-release-v4-compressed.pdf, 200, 6,040,002 bytes; text extracted with pypdf, 17,278 characters. Greps on the extracted text: 'in excess of $9 million' 2, '7 December' 1, 'thirty' 1, '5374/300P' 3, '$2.5–5 million' 1, '$1.4–2.8 million' 1, '$900,000–1.8 million' 1, '$1–1.6 million' 1, '$400,000–800,000' 1, '$250,000–500,000' 1, '$200,000–400,000' 1, '$150,000–300,000' 2, '170 examples' 1, '1851' 1, 'first Tiffany' 2, 'Estimates do not include' 1. JCK Online, 20 October 2026, 200, 112,011 bytes, carries the same $9 million and 7 December. That nearly all were kept by their first owners is the release's claim, not verified. The Phillips date and lot are from this paper's 17 October report. ARCHIVE, by entity and period: website/content/articles.json, 'Original Owner' 1 row, seven-hundred-thousand-on-a-voutilainen (8 October), opened: a Patek lot in a Phillips online sale, a different house and sale; 'Sotheby' 25 rows, titles read, none a 7 December New York watch sale. NEW.",
+   "prior": [
+    {
+     "date": "2026-10-17",
+     "slug": "patek-2499-leads-phillips-new-york",
+     "claim": "Phillips' 5 and 6 December New York sale is led by a pink gold Patek 2499 above $3 million."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Sotheby's, The Original Owner Collection, press release (PDF), New York, 20 October 2026",
+     "url": "https://www.sothebys.com/en/docs/pdf/263066265-rush-watches-press-release-v4-compressed.pdf",
+     "published": "2026-10-20"
+    },
+    {
+     "title": "JCK Online, Sotheby's to auction original-owner watch collection",
+     "url": "https://www.jckonline.com/editorial-article/sothebys-auction-watches/",
+     "published": "2026-10-20"
+    }
+   ]
+  },
+  "next": {
+   "slug": "patek-2499-leads-phillips-new-york",
+   "why": "The rival New York sale two days earlier, also led by Patek."
+  },
+  "corrections": []
+ },
+ "phillips-puts-six-to-twelve-million-on-a-journe": {
+  "v": 3,
+  "kicker": "Auctions · Watches",
+  "figures": {
+   "asof": "Phillips press release, Hong Kong, 20 October 2026. Estimates exclude buyer's premium, the release says. Sale: The Hong Kong Watch Auction: XXIII, 21 and 22 November 2026.",
+   "cells": [
+    {
+     "n": "HK$6m–HK$12m",
+     "label": "Journe Résonance, Mark Cho",
+     "q": "one of five made",
+     "src": 1
+    },
+    {
+     "n": "HK$3.9m–HK$11.6m",
+     "label": "Journe Tourbillon Souverain",
+     "q": "No. 069, 2001",
+     "src": 1
+    },
+    {
+     "n": "HK$17.45m",
+     "label": "Low estimates, eight lots",
+     "q": "Carat Capital's sum",
+     "src": 1
+    },
+    {
+     "n": "21–22 Nov",
+     "label": "Sale dates",
+     "q": "Hong Kong",
+     "src": 1
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Journe heads the independents.",
+   "text": "Phillips estimates Mark Cho's F.P. Journe Résonance at HK$6 million to HK$12 million for its 21 and 22 November Hong Kong sale."
+  },
+  "means": [
+   {
+    "who": "If you consign independents:",
+    "text": "Phillips is adding eight independent lots to a sale it has already announced around Patek."
+   },
+   {
+    "who": "If you bid on early Journe:",
+    "text": "The Tourbillon Souverain's high estimate is nearly three times its low."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A result. Estimates exclude the buyer's premium."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Eight independent lots and Phillips' estimates",
+   "hi": 0,
+   "asof": "Phillips press release, 20 October 2026. Estimates exclude buyer's premium; US dollar figures are Phillips'",
+   "cols": [
+    "Watch",
+    "Made",
+    "Estimate (HK$)",
+    "Estimate (US$)"
+   ],
+   "rows": [
+    [
+     "F.P. Journe Chronomètre à Résonance 'Mark Cho Special', platinum",
+     "c. 2018",
+     "6m–12m",
+     "769,000–1.54m"
+    ],
+    [
+     "F.P. Journe Tourbillon Souverain No. 069, platinum",
+     "c. 2001",
+     "3.9m–11.6m",
+     "500,000–1.49m"
+    ],
+    [
+     "F.P. Journe Centigraphe Souverain Anniversaire Hong Kong, 10 of 20",
+     "c. 2016",
+     "2.4m–4.8m",
+     "308,000–615,000"
+    ],
+    [
+     "F.P. Journe Octa Calendrier Ruthenium, 01 of 99",
+     "c. 2004",
+     "over 1.6m",
+     "over 205,000"
+    ],
+    [
+     "Voutilainen Vingt-8, titanium",
+     "c. 2022",
+     "1.5m–2.5m",
+     "192,000–321,000"
+    ],
+    [
+     "Haldimann H1 Flying Central Tourbillon",
+     "c. 2012",
+     "1.0m–2.0m",
+     "128,000–256,000"
+    ],
+    [
+     "Auffret Tourbillon à Paris, Subscription No. 18",
+     "c. 2023",
+     "900,000–1.8m",
+     "115,000–231,000"
+    ],
+    [
+     "Kiu Tai Yu HK 2000, 14 of 20",
+     "c. 2000",
+     "150,000–300,000",
+     "19,200–38,500"
+    ]
+   ],
+   "note": "Carat Capital's sum of the low estimates, with the Octa at its HK$1.6m floor: 6.0 + 3.9 + 2.4 + 1.6 + 1.5 + 1.0 + 0.9 + 0.15 = HK$17.45m. Tourbillon Souverain range: 11.6 / 3.9 = 2.97 times. Résonance: 12 / 6 = 2.0 times. HK$12,000,000 / US$1,540,000 = 7.79, consistent with the peg.",
+   "plate": "CC/2026/316"
+  },
+  "sections": [
+   {
+    "h": "Four Journes carry the list",
+    "p": [
+     {
+      "lead": "A commission from Cho.",
+      "text": "The Résonance 'Mark Cho Special' comes from the collection of The Armoury's co-founder. Phillips says five were made, the last in Journe's 38mm platinum case, and this one bears serial 168."
+     },
+     {
+      "lead": "A wide early range.",
+      "text": "Tourbillon Souverain No. 069, a 2001 platinum watch with a yellow gold dial, carries HK$3.9 million to HK$11.6 million. Phillips says nine such dials are documented."
+     },
+     {
+      "lead": "Two more Journes.",
+      "text": "A Centigraphe made for the Hong Kong boutique's tenth anniversary carries HK$2.4 million to HK$4.8 million. Octa Calendrier Ruthenium 01 of 99 is estimated above HK$1.6 million."
+     }
+    ]
+   },
+   {
+    "h": "Smaller names, smaller ranges",
+    "p": [
+     {
+      "lead": "Four other makers.",
+      "text": "A titanium Voutilainen Vingt-8 carries HK$1.5 million to HK$2.5 million and a Haldimann H1 HK$1 million to HK$2 million. Auffret and Kiu Tai Yu complete the list."
+     },
+     {
+      "lead": "The total floor.",
+      "text": "The eight named lots carry low estimates of HK$17.45 million on our sum, counting the Octa at its floor."
+     },
+     {
+      "lead": "A recent comparison.",
+      "text": "Another Tourbillon Souverain took HK$31.4 million at Sotheby's Hong Kong on 21 September.",
+      "links": {
+       "took HK$31.4 million": "a-thirty-one-four-tops-a-four-twenty-six-sale.html"
+      }
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "16–22 November",
+    "what": "The Hong Kong preview, after a tour of Taipei, Geneva and Singapore."
+   },
+   {
+    "when": "21–22 November",
+    "what": "The sale, and where the Tourbillon Souverain lands inside its nearly threefold range."
+   }
+  ],
+  "depth": {
+   "reverse": "The Journe lots selling below their lows. Then September's HK$31.4 million result reads as a single trophy, not a level.",
+   "built": {
+    "title": "How a house sets a range",
+    "text": "An auction house sets low and high estimates from comparable sales and the consignor's terms. Phillips says its estimates exclude the buyer's premium, while prices achieved include it. A wide range often signals few recent comparables."
+   },
+   "method": "Phillips press release PDF, dateline 'HONG KONG – 20 OCTOBER 2026', fetched 21 October 2026, 200, 870,098 bytes; text extracted with pypdf, 14,148 characters. Greps on the extracted text: 'HK$6,000,000-12,000,000' 1, 'HK$3,900,000–11,600,000' 1, 'HK$2,400,000–4,800,000' 1, 'HK$1,600,000' 1, 'HK$1,500,000–2,500,000' 1, 'HK$1,000,000–2,000,000' 1, 'HK$900,000–1,800,000' 1, 'HK$150,000–300,000' 1, 'five examples' 1, 'serial number 168' 1, 'nine' 1, '01 of 99' 1, '21 and 22 November' 1, 'Patek Philippe wristwatches leading' 1, 'Estimates do not include' 1. The release says an earlier announcement put a Patek group at the head of the sale; that release was not read. The 21 September result is this paper's 6 October report of Sotheby's own recap; the two watches' series and dials were not compared, so no ratio is printed. The line 'a wide range often signals few recent comparables' is Carat Capital's. ARCHIVE, by entity and period: website/content/articles.json, 'Mark Cho' 0 rows, 'Journe' 12 rows, titles read and the 6 October and 19 July pieces opened: neither covers this November sale. NEW.",
+   "prior": [
+    {
+     "date": "2026-10-06",
+     "slug": "thirty-one-four-tops-a-four-twenty-six-sale",
+     "claim": "An F.P. Journe Tourbillon Souverain made HK$31.4 million, the top lot of a HK$426 million Sotheby's Hong Kong sale on 21 September."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Phillips, Independent watchmaking highlights for The Hong Kong Watch Auction: XXIII, press release (PDF), Hong Kong, 20 October 2026",
+     "url": "https://dist.phillips.com/content/web/press/PHILLIPS-UNVEILS-EXCEPTIONAL-INDEPENDENT-WATCHMAKING-HIGHLIGHTS-FOR-THE-HONG-KONG-WATCH-AUCTION-XXIII_hoj5r0vl.pdf",
+     "published": "2026-10-20"
+    }
+   ]
+  },
+  "next": {
+   "slug": "thirty-one-four-tops-a-four-twenty-six-sale",
+   "why": "The September Journe result this sale will be read against."
+  },
+  "corrections": []
+ },
+ "burgundy-director-deals-broke-an-asx-rule": {
+  "v": 3,
+  "kicker": "Diamonds & Rough · Canada",
+  "figures": {
+   "asof": "Burgundy Diamond Mines ASX announcement, 9 October 2026, and ASX's list of long-term suspended entities, 16 October 2026, both read from the PDFs. Figures in US dollars as printed.",
+   "cells": [
+    {
+     "n": "US$50.6m",
+     "label": "Value of the director dealings",
+     "q": "three agreements, 2025",
+     "src": 1
+    },
+    {
+     "n": "US$3.10m",
+     "label": "Approval threshold per deal",
+     "q": "5% of US$62.04m equity",
+     "src": 1
+    },
+    {
+     "n": "29 Sep 2025",
+     "label": "Trading suspended since",
+     "q": "at Burgundy's request",
+     "src": 1
+    },
+    {
+     "n": "31 Mar 2027",
+     "label": "Deadline for the oldest report",
+     "q": "or removal from the list",
+     "src": 2
+    }
+   ]
+  },
+  "changed": {
+   "lead": "The board concedes the breach.",
+   "text": "Burgundy Diamond Mines' board acknowledged on 9 October that three 2025 rough-sale agreements with a director's company, worth about US$50.6 million, needed shareholder approval first."
+  },
+  "means": [
+   {
+    "who": "If you hold Burgundy:",
+    "text": "Trading has been suspended since 29 September 2025. ASX's deadline for trading to resume is 29 September 2027."
+   },
+   {
+    "who": "If you lend against rough:",
+    "text": "Burgundy funded itself by pre-selling inventory to an insider."
+   },
+   {
+    "who": "What this is not:",
+    "text": "An underpricing finding. The expert found fair market value, but judged the dealings 'not fair but reasonable'."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "From the agreements to the deadlines",
+   "hi": 7,
+   "asof": "Burgundy ASX announcement, 9 October 2026; ASX Long Term Suspended Entities, 16 October 2026. 'About' dates are Burgundy's estimates",
+   "cols": [
+    "Date",
+    "Event"
+   ],
+   "rows": [
+    [
+     "31 May, 30 June, 24 July 2025",
+     "Three advance diamond purchase agreements with Choron BV, without prior approval"
+    ],
+    [
+     "29 September 2025",
+     "Burgundy requests a voluntary trading suspension"
+    ],
+    [
+     "7 October 2025",
+     "Burgundy announces the Listing Rule 10.1 breach"
+    ],
+    [
+     "27 March 2026",
+     "Independent expert's report released"
+    ],
+    [
+     "31 March 2026",
+     "Full-year accounts due; not lodged by 16 October"
+    ],
+    [
+     "30 April 2026",
+     "Non-associated shareholders ratify the dealings; annual report due"
+    ],
+    [
+     "11 September 2026",
+     "Half-year accounts due; not lodged by 16 October"
+    ],
+    [
+     "9 October 2026",
+     "Board acknowledges the breach and lists remedies"
+    ],
+    [
+     "About 30 November 2026",
+     "Supplementary announcement on the governance review, directed by ASX"
+    ],
+    [
+     "31 March 2027",
+     "ASX deadline to lodge the oldest overdue report"
+    ],
+    [
+     "29 September 2027",
+     "ASX deadline for trading to resume"
+    ]
+   ],
+   "note": "US$3.10m is 5% of US$62.04m: 62.04 x 0.05 = 3.102. The threshold applies to each agreement, and Burgundy says each exceeded it; US$50.6m is the total of all three, so no multiple of the threshold is printed. ASX says an entity that misses either deadline is removed from the official list.",
+   "plate": "CC/2026/317"
+  },
+  "sections": [
+   {
+    "h": "Three pre-sales to a director",
+    "p": [
+     {
+      "lead": "Advances bought the rough.",
+      "text": "Between May and July 2025, Choron BV paid Burgundy in advance for independently valued rough inventories, then took the diamonds. It also held security over the stones."
+     },
+     {
+      "lead": "A director controlled Choron.",
+      "text": "Choron was a related party because Anshul Gandhi, a Burgundy director, controlled it. Each deal exceeded the approval threshold of about US$3.10 million, 5% of US$62.04 million in equity."
+     },
+     {
+      "lead": "No vote came first.",
+      "text": "The agreements were signed on 31 May, 30 June and 24 July 2025 without prior shareholder approval."
+     }
+    ]
+   },
+   {
+    "h": "Ratified after the fact",
+    "p": [
+     {
+      "lead": "Suspension, then disclosure.",
+      "text": "Burgundy requested a trading suspension on 29 September 2025 and announced the breach on 7 October 2025."
+     },
+     {
+      "lead": "Shareholders voted in April.",
+      "text": "An independent expert's report followed on 27 March 2026. Shareholders not associated with Choron ratified the dealings on 30 April 2026."
+     },
+     {
+      "lead": "Governance review due.",
+      "text": "Burgundy is appointing a joint company secretary; its chief financial officer has held the role alone. ASX directed a further announcement, expected around 30 November."
+     }
+    ]
+   },
+   {
+    "h": "ASX lists missing reports",
+    "p": [
+     {
+      "lead": "Three reports outstanding.",
+      "text": "ASX's 16 October list of long-suspended entities names Burgundy. Its full-year accounts, annual report and half-year accounts, due 31 March, 30 April and 11 September 2026, are outstanding."
+     },
+     {
+      "lead": "Two deadlines stand.",
+      "text": "The oldest report must be lodged by 31 March 2027, and trading must be able to resume by 29 September 2027. ASX removes entities that miss either."
+     },
+     {
+      "lead": "Ekati went into receivership.",
+      "text": "Burgundy's Ekati mine in Canada's Northwest Territories was placed in court receivership in July 2026.",
+      "links": {
+       "placed in court receivership": "a-ekati-goes-dark.html"
+      }
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "About 17 November",
+    "what": "Burgundy expects the outcome of its external governance review."
+   },
+   {
+    "when": "About 30 November",
+    "what": "The supplementary announcement ASX directed, on that review."
+   },
+   {
+    "when": "31 March 2027",
+    "what": "ASX's deadline for the oldest overdue report, the full-year accounts."
+   }
+  ],
+  "depth": {
+   "reverse": "Lodged accounts and a path to resumed trading before March. Then the breach closes as a remedied governance failure.",
+   "built": {
+    "title": "How ASX Listing Rule 10.1 works",
+    "text": "A listed company needs shareholder approval before it disposes of a substantial asset to a related party, such as a director's company. Burgundy's notice puts substantial at 5% of equity interests."
+   },
+   "method": "Burgundy Diamond Mines, 'Acknowledgement and Remediation of ASX Listing Rule 10.1 Breach', dated 'October 9 2026', fetched 21 October 2026 from ASX's document store with an identifying header, 200, 183,947 bytes; AES-encrypted PDF, text extracted with pypdf, 6,051 characters. Greps on the text: '50.6' 1, '3.10' 1, '62.04' 1, '31 May 2025' 1, '30 June 2025' 1, '24 July 2025' 1, '29 September 2025' 1, '7 October 2025' 1, '27 March 2026' 1, '30 April 2026' 2, '17 November 2026' 1, '30 November 2026' 1, 'Anshul Gandhi' 1, 'not fair but reasonable' 1, 'fair market value' 1, 'Chief Financial Officer' 1. ASX, 'Long Term Suspended Entities', 16 October 2026, 200, 343,472 bytes, text 7,876 characters: 'Full Year Accounts due 31 March 2026' 4 (the string recurs for other entities; Burgundy's row was read), 'Half Year Accounts due 11 September 2026' 1, 'removed from the official list' 1; the company name prints in capitals. The 7 October 2025 notice was not read, so whether it carried the US$50.6 million total is not established. The notice names no mine; Ekati is Burgundy's mine per this paper's July reporting. ARCHIVE, by entity and period: website/content/articles.json, 'Burgundy' 2 rows, ekati-goes-dark (17 July) and last-carats-at-diavik (21 July), opened: both cover the mine's closure; 'Choron' 0; 'Listing Rule' 0. Ours covers the July 2026 receivership; this covers the 2025 dealings and the October 2026 filings. NEW.",
+   "prior": [
+    {
+     "date": "2026-07-17",
+     "slug": "ekati-goes-dark",
+     "claim": "A British Columbia court placed Ekati in receivership after a sale process drew no viable bid."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Burgundy Diamond Mines, Acknowledgement and Remediation of ASX Listing Rule 10.1 Breach, ASX announcement, 9 October 2026 (PDF)",
+     "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03146587-6A1348472",
+     "published": "2026-10-09"
+    },
+    {
+     "title": "ASX, Long Term Suspended Entities, market announcement, 16 October 2026 (PDF)",
+     "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03149447-3A704308",
+     "published": "2026-10-16"
+    }
+   ]
+  },
+  "next": {
+   "slug": "ekati-goes-dark",
+   "why": "How Burgundy's only mine went into receivership."
   },
   "corrections": []
  }
