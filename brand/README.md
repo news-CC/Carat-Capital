@@ -1,8 +1,13 @@
 # Carat Capital brand
 
-The identity is **The Point**: a round brilliant seen from the side whose pavilion is also a pen nib. The nib's breather hole holds a red point, because printers set type in points and diamond dealers weigh stones in points (1 pt = 0.01 ct). The same point closes the wordmark, *Carat Capital.*, set in Bodoni Moda 500.
+The identity is **The Point**: a round brilliant seen from the side whose pavilion is also a pen nib. The nib's breather hole holds a red point, because printers set type in points and diamond dealers weigh stones in points (1 pt = 0.01 ct). The same point closes the wordmark, *CARAT CAPITAL.*, set in Instrument Sans Bold capitals.
 
-- **Brand book:** [`brand-book.html`](brand-book.html) (web, `noindex`) and [`Carat-Capital-Brand-Book.pdf`](Carat-Capital-Brand-Book.pdf), 18 pages: idea, anatomy, construction, optical sizes, the engraved cut, wordmark, lockups, clear space, colour, typography, misuse and applications.
+**Edition 1.1 (17 October 2026):** the brand colours are **Black** `#0D0D0F` and **Pearl White** `#F3F1EC`. Point Red `#BE3319` is kept for the point alone, and a pearl lustre replaces the gilt foil.
+
+- **Brand book:** [`book/`](book/), live at [caratcapital.org/brand/book/](https://caratcapital.org/brand/book/) (`noindex`). *The Point in Limelight*, on Edition 1.1: the symbol, its cuts, the name and lockups, colour, type, voice, the theatrical stills, misuse and applications. [`brand-book.html`](brand-book.html) now forwards there.
+- **Previous edition:** [`Carat-Capital-Brand-Book.pdf`](Carat-Capital-Brand-Book.pdf), the 18-page Edition 1.0 book.
+
+> **Edition 1.1 is not merged yet.** On `main`, the logo kit in `logo/`, the PDF, the scripts in `source/` and the site itself still carry Edition 1.0 (Bodoni Moda, Ink and Paper). The Edition 1.1 versions are on the branch `claude/admiring-maxwell-4zfh7t`. The brand book carries its own copies of the Edition 1.1 artwork in [`book/img/point/`](book/img/point/).
 - **Logo kit:** [`logo/`](logo)
   - `svg/` lockups (horizontal, stacked, wordmark) in ink, reverse, gold and one-colour; the symbol in L, M and S cuts, gold and engraved
   - `png/` transparent PNGs of the lockups and symbols
