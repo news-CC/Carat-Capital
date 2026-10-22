@@ -145175,12 +145175,13 @@
     }
    ],
    "corrections": [
-    "Correction, 21 October 2026: this article as published stated in its own voice that local supply is tight, under the subhead 'Supply is short.' That was one unnamed dealer's view: Reuters attributes it to 'a Mumbai-based dealer at a private bank'. The September import figures were printed without their source; Reuters attributes them to trade ministry data. Both are now attributed, and the dek no longer reads as if lower prices caused the discounts. Reuters' report was re-read on 21 October from the 110,584 bytes saved on 20 October. What was right as published: every figure in the article."
+    "Correction, 21 October 2026: this article as published stated in its own voice that local supply is tight, under the subhead 'Supply is short.' That was one unnamed dealer's view: Reuters attributes it to 'a Mumbai-based dealer at a private bank'. The September import figures were printed without their source; Reuters attributes them to trade ministry data. Both are now attributed, and the dek no longer reads as if lower prices caused the discounts. Reuters' report was re-read on 21 October from the 110,584 bytes saved on 20 October. What was right as published: every figure in the article.",
+    "Correction, 22 October 2026: the 21 October correction left one line in the paper's own voice. The Keep reading card said 'The import collapse behind the tight supply.', which restated a single dealer's view of supply as fact and asserted a cause. It now reads: India's September imports fell 81.27% to $1.8bn, the figure a Mumbai dealer points to. What was right as published: every figure."
    ]
   },
   "next": {
    "slug": "india-gold-imports-fall-eighty-one-percent",
-   "why": "The import collapse behind the tight supply."
+   "why": "India's September imports fell 81.27% to $1.8bn, the figure a Mumbai dealer points to."
   },
   "corrections": []
  },
@@ -145224,11 +145225,11 @@
   "means": [
    {
     "who": "If you sell gold in Vietnam:",
-    "text": "Customers buying VND 5 million or more a day must pay by non-cash means."
+    "text": "Gold deals of VND 5 million or more a day must be non-cash. The summaries do not say if jewellery differs."
    },
    {
     "who": "If you make jewellery there:",
-    "text": "The central bank's production certificate is no longer a condition to operate."
+    "text": "The central bank certificate is no longer required."
    },
    {
     "who": "What this is not:",
@@ -145242,7 +145243,7 @@
    "asof": "Tạp chí Công Thương, 18 October 2026; VOV, 17 October 2026. Both summarise the decree; the decree text was not read",
    "cols": [
     "Area",
-    "Rule from 16 October 2026"
+    "Decree 390/2026, as summarised"
    ],
    "rows": [
     [
@@ -145259,11 +145260,11 @@
     ],
     [
      "Export processors",
-     "May get raw-gold import licences for foreign processing contracts"
+     "Raw-gold import licence clause amended; change from earlier text not read"
     ],
     [
      "Foreign-invested makers",
-     "Annual raw-gold import licence, on capacity and export record"
+     "Annual raw-gold import licence clause amended; change from earlier text not read"
     ],
     [
      "Gold powder, wire, semi-finished",
@@ -145296,15 +145297,15 @@
     "p": [
      {
       "lead": "The permit step goes.",
-      "text": "The decree repeals all its rules on making, processing and trading jewellery gold, both outlets report. A central bank production certificate is no longer a condition to operate."
+      "text": "The decree repeals all its rules on making, processing and trading jewellery gold, both summaries say. A central bank production certificate is no longer a condition to operate."
      },
      {
       "lead": "Pending files close.",
       "text": "Certificate applications still undecided on 16 October are terminated, and the central bank will notify the applicants."
      },
      {
-      "lead": "Exporters can import.",
-      "text": "Makers with foreign processing contracts may get raw-gold import licences for that work. Foreign-invested makers can win annual licences based on capacity and export record."
+      "lead": "Import licences are amended.",
+      "text": "The decree restates and amends the raw-gold import licence clauses for makers with foreign processing contracts and for foreign-invested makers. What changed from the earlier text was not read."
      }
     ]
    },
@@ -145329,7 +145330,7 @@
    },
    {
     "when": "Annual licence round",
-    "what": "The central bank's first yearly raw-gold import licences for foreign-invested jewellery makers."
+    "what": "The central bank's yearly raw-gold import licences for foreign-invested jewellery makers under the amended clause."
    }
   ],
   "depth": {
@@ -145338,7 +145339,7 @@
     "title": "How Vietnam regulates gold",
     "text": "Decree 24/2012 is the base rule. As amended, the central bank inspects bar-gold production and trading, gold imports and exports, and the use of imported raw gold. Decree 232/2025 amended it before this decree did."
    },
-   "method": "Tạp chí Công Thương, 'Từ 16/10/2026, mua, bán vàng từ 5 triệu đồng/ngày phải thanh toán không dùng tiền mặt', timestamped 18/10/2026 09:48 GMT, fetched 21 October 2026, 200, 66,932 bytes. Greps on the saved bytes: '390/2026' 6, '16/10/2026' 10, '05 triệu' 1, '20 triệu' 2, '24/2012' 5, '232/2025' 1, 'Nguyễn Văn Thắng' 1, 'bãi bỏ toàn bộ' 1, 'không còn là điều kiện' 1, 'chấm dứt việc giải quyết' 1, 'có vốn đầu tư nước ngoài' 1, 'Bộ Khoa học và Công nghệ' 2. VOV, dated 17/10/2026 22:05, fetched 21 October 2026 with an identifying header, 200, 265,107 bytes (a browser identity was refused, 403, 6,066 bytes): '390/2026' 15, '16/10/2026' 9, '5 triệu' 18, '20 triệu' 0, 'bãi bỏ toàn bộ' 1, 'không còn là điều kiện' 1, 'Nguyễn Văn Thắng' 4. The two outlets print the same summary of the decree; the VND 20 million prior level rests on Tạp chí Công Thương alone. Translations are Carat Capital's. The decree text, penalties and treatment of split payments were not read. ARCHIVE, by entity and period: website/content/articles.json, 'Vietnam' 5 rows, opened: a 2 October Pandora plant, a 16 July lab certificate case, a 3 August diamond-smuggling case, a Luk Fook store line and a passing mention; 'Decree' 1 row, a Russian duty. None covers Vietnam's gold payment or licensing rules. NEW.",
+   "method": "Tạp chí Công Thương, 'Từ 16/10/2026, mua, bán vàng từ 5 triệu đồng/ngày phải thanh toán không dùng tiền mặt', timestamped 18/10/2026 09:48 GMT, fetched 21 October 2026, 200, 66,932 bytes. Greps on the saved bytes: '390/2026' 6, '16/10/2026' 10, '05 triệu' 1, '20 triệu' 2, '24/2012' 5, '232/2025' 1, 'Nguyễn Văn Thắng' 1, 'bãi bỏ toàn bộ' 1, 'không còn là điều kiện' 1, 'chấm dứt việc giải quyết' 1, 'có vốn đầu tư nước ngoài' 1, 'Bộ Khoa học và Công nghệ' 2. VOV, dated 17/10/2026 22:05, fetched 21 October 2026 with an identifying header, 200, 265,107 bytes (a browser identity was refused, 403, 6,066 bytes): '390/2026' 15, '16/10/2026' 9, '5 triệu' 18, '20 triệu' 0, 'bãi bỏ toàn bộ' 1, 'không còn là điều kiện' 1, 'Nguyễn Văn Thắng' 4. The two outlets print the same summary of the decree; the VND 20 million prior level rests on Tạp chí Công Thương alone. Translations are Carat Capital's. The decree text, penalties and treatment of split payments were not read. ARCHIVE, by entity and period: website/content/articles.json, 'Vietnam' 5 rows, opened: a 2 October Pandora plant, a 16 July lab certificate case, a 3 August diamond-smuggling case, a Luk Fook store line and a passing mention; 'Decree' 1 row, a Russian duty. None covers Vietnam's gold payment or licensing rules. NEW. Re-read 22 October 2026 for the correction below: the Tạp chí Công Thương text introduces the licence clauses as 'Sửa đổi, bổ sung khoản 4' and 'khoản 5 Điều 14' (amended clauses 4 and 5 of Article 14). It does not say the permissions are new, and the clause text of Decree 232/2025 and Circular 16/2012 was not read, so the change from the earlier rule is not established.",
    "prior": [
     {
      "date": "2026-10-02",
@@ -145357,6 +145358,9 @@
      "url": "https://vov.vn/kinh-te/tu-1610-mua-ban-vang-tu-5-trieu-dong-phai-thanh-toan-khong-tien-mat-post1342302.vov",
      "published": "2026-10-17"
     }
+   ],
+   "corrections": [
+    "Correction, 22 October 2026: this article as published presented the raw-gold import licences for export processors and foreign-invested makers as new permissions, under the subhead 'Exporters can import.', and its What to watch line called the next round the 'first' yearly licences. Tạp chí Công Thương's text, the source for both, prints them as amended clauses 4 and 5 of Article 14; similar licence conditions existed before Decree 390/2026, and what changed was not read. The subhead, table rows, dek and watch line now say the clauses are amended, and 'first' is removed. The body also now says 'both summaries say' rather than 'both outlets report', since the two outlets print one summary. What was right as published: every figure, the 16 October date, the VND 5 million threshold and the end of the certificate."
    ]
   },
   "next": {
@@ -145498,7 +145502,7 @@
     "p": [
      {
       "lead": "Most came through Tiffany.",
-      "text": "The remaining watches are mainly Patek references retailed by Tiffany & Co., Patek's first US retail partner since 1851. Several are double-signed and new to auction."
+      "text": "The remaining watches are mainly Patek references retailed by Tiffany & Co., which Sotheby's calls Patek's first US retail partner since 1851. Several are double-signed and new to auction."
      },
      {
       "lead": "The blue Nautilus.",
@@ -145965,6 +145969,702 @@
   "next": {
    "slug": "ekati-goes-dark",
    "why": "How Burgundy's only mine went into receivership."
+  },
+  "corrections": []
+ },
+ "christies-puts-twenty-six-million-on-a-sky-moon": {
+  "v": 3,
+  "kicker": "Watches · Auctions",
+  "figures": {
+   "asof": "Christie's sale page, The Iconic 40 Watches Evening Sale, Hong Kong, 25 November 2026, read 22 October 2026. Estimates do not include buyer's premium, the page says.",
+   "cells": [
+    {
+     "n": "HK$26.5m–HK$43m",
+     "label": "Patek Sky Moon",
+     "q": "Ref. 6002G-010",
+     "src": 0
+    },
+    {
+     "n": "HK$16m–HK$32m",
+     "label": "Journe Souverain",
+     "q": "ruby dial, platinum",
+     "src": 0
+    },
+    {
+     "n": "HK$63.1m",
+     "label": "Five low estimates",
+     "q": "Carat Capital's sum",
+     "src": 0
+    },
+    {
+     "n": "25 Nov",
+     "label": "Sale date",
+     "q": "Hong Kong, 40 watches",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "A Sky Moon tops the list.",
+   "text": "Christie's estimates a Patek Philippe Sky Moon Tourbillon at HK$26.5 million to HK$43 million. It leads five named lots in a Hong Kong evening sale on 25 November."
+  },
+  "means": [
+   {
+    "who": "If you bid on Journe:",
+    "text": "The ruby-dial Souverain's high estimate sits just above September's HK$31.4 million result for the model."
+   },
+   {
+    "who": "If you consign Patek complications:",
+    "text": "Three of the five named lots are Patek, from a 2016 chronograph to the Sky Moon."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A result or a sale total. These are five estimates, before premium."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "The five lots Christie's names, with its estimates",
+   "hi": 0,
+   "asof": "Christie's sale page, specialist selection, read 22 October 2026. Estimates exclude buyer's premium",
+   "cols": [
+    "Watch",
+    "Reference",
+    "Estimate (HK$)"
+   ],
+   "rows": [
+    [
+     "Patek Philippe Sky Moon Tourbillon, white gold",
+     "6002G-010",
+     "26.5m–43m"
+    ],
+    [
+     "F.P. Journe Tourbillon Souverain, ruby dial, platinum",
+     "Case 758-TN",
+     "16m–32m"
+    ],
+    [
+     "Patek Philippe Celestial, ruby-set, white gold",
+     "6104/12G-010, c. 2017",
+     "12m–24m"
+    ],
+    [
+     "Patek Philippe perpetual calendar chronograph, emerald-set, platinum",
+     "5271/13P-001, c. 2016",
+     "4.8m–9.6m"
+    ],
+    [
+     "Cartier Crash, special order, pink gold",
+     "NSO",
+     "3.8m–7.6m"
+    ]
+   ],
+   "note": "Carat Capital's sums: lows 26.5 + 16 + 12 + 4.8 + 3.8 = HK$63.1m; highs 43 + 32 + 24 + 9.6 + 7.6 = HK$116.2m. These are five of the sale's 40 watches, not a sale total.",
+   "plate": "CC/2026/318"
+  },
+  "sections": [
+   {
+    "h": "Patek fills three slots",
+    "p": [
+     {
+      "lead": "Twelve complications lead.",
+      "text": "The Sky Moon is a white gold double-dial watch. Christie's lists twelve complications, among them a cathedral minute repeater, a tourbillon and a sky chart."
+     },
+     {
+      "lead": "A possibly unique Celestial.",
+      "text": "A ruby-set Celestial, Ref. 6104/12G-010, from about 2017 carries HK$12 million to HK$24 million. Christie's calls it possibly unique and previously unknown."
+     },
+     {
+      "lead": "An emerald chronograph.",
+      "text": "A platinum, emerald-set perpetual calendar chronograph from about 2016, double sealed, carries HK$4.8 million to HK$9.6 million."
+     }
+    ]
+   },
+   {
+    "h": "A Journe tests September's price",
+    "p": [
+     {
+      "lead": "The ruby-dial Souverain.",
+      "text": "The F.P. Journe, case 758-TN, is a platinum limited-edition Tourbillon Souverain with a ruby dial. It carries HK$16 million to HK$32 million."
+     },
+     {
+      "lead": "September set the mark.",
+      "text": "Another Tourbillon Souverain made HK$31.4 million at Sotheby's Hong Kong on 21 September, just under this lot's high estimate.",
+      "links": {
+       "made HK$31.4 million": "a-thirty-one-four-tops-a-four-twenty-six-sale.html"
+      }
+     },
+     {
+      "lead": "A Cartier closes it.",
+      "text": "A specially ordered pink gold Cartier Crash with a black dial carries HK$3.8 million to HK$7.6 million."
+     }
+    ]
+   },
+   {
+    "h": "Forty watches for forty years",
+    "p": [
+     {
+      "lead": "An anniversary sale.",
+      "text": "Christie's says the sale gathers 40 watches to mark its 40th anniversary year in Asia. The five it names carry low estimates of HK$63.1 million on Carat Capital's sum."
+     },
+     {
+      "lead": "Phillips sells first.",
+      "text": "Phillips' Hong Kong sale on 21 and 22 November is led among independents by a Journe Résonance at HK$6 million to HK$12 million.",
+      "links": {
+       "Journe Résonance": "a-phillips-puts-six-to-twelve-million-on-a-journe.html"
+      }
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "21–22 November",
+    "what": "Phillips' Hong Kong sale, the month's first read on Journe demand."
+   },
+   {
+    "when": "25 November",
+    "what": "The Iconic 40 sale, and whether the Souverain clears September's HK$31.4 million."
+   },
+   {
+    "when": "Before the sale",
+    "what": "The full lot list and estimates for the other 35 watches."
+   }
+  ],
+  "depth": {
+   "reverse": "The Sky Moon and the Souverain selling below their lows. Then September's Journe result reads as a single trophy, not a level for the model.",
+   "built": {
+    "title": "How the estimates are read",
+    "text": "An auction house sets a low and a high estimate from comparable sales and the consignor's terms. Christie's says its estimates exclude the buyer's premium, while sale totals include it. A result is read against the low and high, not the midpoint."
+   },
+   "method": "Christie's sale page, The Iconic 40 Watches Evening Sale, sale 25299, fetched 22 October 2026, 200, 102,853 bytes. Each estimate was read from the same record as its lot title and reference in the page's specialist selection: 'HK$26,500,000-43,000,000' with 'REF. 6002G-010' and 'SKY MOON TOURBILLON MODEL'; 'HK$16,000,000-32,000,000' with 'CASE NO. 758-TN'; 'HK$12,000,000-24,000,000' with 'REF. 6104/12G-010, CIRCA 2017'; 'HK$4,800,000-9,600,000' with 'REF. 5271/13P-001, CIRCA 2016'; 'HK$3,800,000-7,600,000' with 'CRASH \"NSO\" MODEL'. Each record carries start date '2026-11-25T10:00Z', which is 18:00 in Hong Kong. The page description gives the 40 watches and the 40th anniversary year in Asia; its tooltip reads 'Estimates do not include buyer's premium.' The page carries no publication date. A second Christie's watch sale on 26 November has been reported elsewhere; it is not on this page and is not printed. The September result is from Carat Capital's 6 October report of Sotheby's recap; the two watches' series were not compared, so no ratio is printed. ARCHIVE, by entity and period: Carat Capital's archive, 'Iconic 40' 0 rows, 'Sky Moon' 0, '6002G' 0; 'Hong Kong' 'Patek' 5 rows, opened: the 21 October Phillips preview and the 6 October Sotheby's result are different houses and sales. NEW.",
+   "prior": [
+    {
+     "date": "2026-10-21",
+     "slug": "phillips-puts-six-to-twelve-million-on-a-journe",
+     "claim": "Phillips estimates Mark Cho's Journe Résonance at HK$6m–12m for 21–22 November."
+    },
+    {
+     "date": "2026-10-06",
+     "slug": "thirty-one-four-tops-a-four-twenty-six-sale",
+     "claim": "A Journe Tourbillon Souverain made HK$31.4m, the top lot of Sotheby's 21 September sale."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Christie's, The Iconic 40 Watches Evening Sale, Hong Kong, 25 November 2026, sale page",
+     "url": "https://www.christies.com/en/auction/the-iconic-40-watches-evening-sale-25299-hgk/",
+     "published": null
+    }
+   ]
+  },
+  "next": {
+   "slug": "phillips-puts-six-to-twelve-million-on-a-journe",
+   "why": "The other Hong Kong November sale, and the Journe estimates this one will be read against."
+  },
+  "corrections": []
+ },
+ "de-beers-pays-one-billion-pula-into-botswana-fund": {
+  "v": 3,
+  "kicker": "Diamonds & Rough",
+  "figures": {
+   "asof": "JCK, 21 October 2026, for the transfer; Botswana Daily News, 20 July 2023, for the deal terms. No De Beers or Botswana statement on the transfer was read.",
+   "cells": [
+    {
+     "n": "P1bn",
+     "label": "Initial payment",
+     "q": "transferred 21 Oct, per JCK",
+     "src": 0
+    },
+    {
+     "n": "P10bn",
+     "label": "Total commitment",
+     "q": "over 10 years",
+     "src": 1
+    },
+    {
+     "n": "10%",
+     "label": "Paid so far",
+     "q": "Carat Capital's division",
+     "src": 1
+    },
+    {
+     "n": "5%",
+     "label": "Annual base payment",
+     "q": "of De Beers' distribution share",
+     "src": 1
+    }
+   ]
+  },
+  "changed": {
+   "lead": "The first payment lands.",
+   "text": "De Beers transferred its initial contribution of 1 billion pula to Botswana's Diamonds for Development Fund on 21 October, JCK reports. JCK puts it at about $73 million."
+  },
+  "means": [
+   {
+    "who": "If you follow Debswana's sales:",
+    "text": "Later payments are 5% of De Beers' share of the distribution, so they move with sales."
+   },
+   {
+    "who": "If you sell on Botswana provenance:",
+    "text": "The fund now has money and a board, but no named programmes."
+   },
+   {
+    "who": "What this is not:",
+    "text": "The P10 billion. Nine-tenths of the commitment is still to come."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "The fund's terms and its first payment",
+   "hi": 0,
+   "asof": "Botswana Daily News, 20 July 2023; JCK, 21 October 2026",
+   "cols": [
+    "Item",
+    "Figure",
+    "Source"
+   ],
+   "rows": [
+    [
+     "Initial contribution",
+     "P1 billion",
+     "Botswana, July 2023"
+    ],
+    [
+     "Annual base contribution",
+     "5% of De Beers' share of the distribution",
+     "Botswana, July 2023"
+    ],
+    [
+     "Total over 10 years",
+     "P10 billion",
+     "Botswana, July 2023"
+    ],
+    [
+     "Transferred",
+     "1 billion pula, about $73 million",
+     "JCK, 21 October 2026"
+    ]
+   ],
+   "note": "1 / 10 = 10% of the total commitment paid on the initial transfer. The dollar figure is JCK's conversion; Carat Capital did not check the rate.",
+   "plate": "CC/2026/319"
+  },
+  "sections": [
+   {
+    "h": "The 2023 deal set the sum",
+    "p": [
+     {
+      "lead": "Agreed three years ago.",
+      "text": "Botswana's minerals ministry said in July 2023 that De Beers would make an initial contribution of P1 billion to the fund."
+     },
+     {
+      "lead": "Payments track sales.",
+      "text": "An annual base contribution of 5% of De Beers' share of the distribution follows, until the total reaches P10 billion over 10 years."
+     },
+     {
+      "lead": "Pledged, then paid.",
+      "text": "De Beers' 2025 report had booked US$70m committed to the fund.",
+      "links": {
+       "booked US$70m committed": "a-de-beers-cuts-fourteen-percent.html"
+      }
+     }
+    ]
+   },
+   {
+    "h": "Governance came before money",
+    "p": [
+     {
+      "lead": "A board first.",
+      "text": "JCK says the money arrived only after the fund's governance was in place. Akinwumi Adesina, a former African Development Bank president, chairs a 10-member independent board."
+     },
+     {
+      "lead": "Plans still pending.",
+      "text": "The fund says it is completing its strategy and business plan. It aims to use the payment to draw in private, domestic and international capital."
+     }
+    ]
+   },
+   {
+    "h": "Diamonds still pay for it",
+    "p": [
+     {
+      "lead": "Exports lean on stones.",
+      "text": "Diamonds account for 62.3% of Botswana's export earnings, JCK reports. Diamond export revenue fell about 29% year on year in the first five months of 2026."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Not dated",
+    "what": "The fund's strategy and business plan, and its first named programmes."
+   },
+   {
+    "when": "Next annual payment",
+    "what": "The first 5% base contribution, and how far lower sales shrink it."
+   },
+   {
+    "when": "Ongoing",
+    "what": "Botswana's talks to raise its De Beers stake, and whether the fund terms change with ownership."
+   }
+  ],
+  "depth": {
+   "reverse": "A De Beers or Botswana statement giving a different sum or date for the transfer. Then the payment rests on JCK alone and is reprinted.",
+   "built": {
+    "title": "How the fund is paid",
+    "text": "Under the 2023 statement of principles, De Beers pays an initial P1 billion, then a yearly base of 5% of its share of the distribution. Payments stop when the total reaches P10 billion over 10 years."
+   },
+   "method": "JCK, 'Botswana development receipts' article by Sam Cooley, dated October 21, 2026, fetched 22 October 2026, 200, 112,655 bytes. Greps in the article text: '1 billion pula' 1, 'about $73 million' 1, 'initial contribution' 2, '10-member' 1, 'Adesina' 2, 'strategy and business plan' 1, '62.3%' 1, '29%' 2. 'On Wednesday' in the article is 21 October. Botswana Daily News, government statement on the De Beers negotiations, dated 20 Jul 2023, fetched 22 October 2026, 200, 39,912 bytes: 'P1 billion' 1, '5 per cent' 1, 'P10 billion' 1. A search found no De Beers or Botswana release on the transfer; that is not proof none exists. The US$70m in De Beers' 2025 report and JCK's $73 million may use different rates and dates, so they are not compared. ARCHIVE, by entity and period: Carat Capital's archive, 'Diamonds for Development' 1 row, opened: the 23 September report covers the commitment as booked in De Beers' 2025 report. This is the transfer. ADVANCED.",
+   "prior": [
+    {
+     "date": "2026-10-18",
+     "slug": "botswana-nears-twenty-five-percent-of-de-beers",
+     "claim": "Botswana nears a deal to raise its De Beers stake to 25%, Bloomberg reported."
+    },
+    {
+     "date": "2026-09-23",
+     "slug": "de-beers-cuts-fourteen-percent",
+     "claim": "De Beers' 2025 report booked US$70m committed to Botswana's development fund."
+    }
+   ],
+   "sources": [
+    {
+     "title": "JCK, De Beers transfers initial 1 billion pula to Botswana's Diamonds for Development Fund, by Sam Cooley",
+     "url": "https://www.jckonline.com/editorial-article/botswana-development-receipts/",
+     "published": "2026-10-21"
+    },
+    {
+     "title": "Botswana Daily News, government statement on the De Beers sales agreement negotiations",
+     "url": "https://dailynews.gov.bw/news-detail/74162",
+     "published": "2023-07-20"
+    }
+   ]
+  },
+  "next": {
+   "slug": "botswana-nears-twenty-five-percent-of-de-beers",
+   "why": "The ownership talks running alongside the fund's first payment."
+  },
+  "corrections": []
+ },
+ "gjepc-targets-fifty-million-in-new-zealand": {
+  "v": 3,
+  "kicker": "Trade · India",
+  "figures": {
+   "asof": "GJEPC release, dated 21 October 2026. FY2024-25 figure from GJEPC's 27 August 2026 release.",
+   "cells": [
+    {
+     "n": "$50m",
+     "dir": "up",
+     "label": "Export target",
+     "q": "within two years",
+     "src": 0
+    },
+    {
+     "n": "$25.43m",
+     "label": "FY2025-26 exports",
+     "q": "to New Zealand",
+     "src": 0
+    },
+    {
+     "n": "$16.91m",
+     "label": "FY2024-25 exports",
+     "q": "GJEPC, 27 August",
+     "src": 1
+    },
+    {
+     "n": "40%",
+     "dir": "up",
+     "label": "Yearly growth needed",
+     "q": "Carat Capital's arithmetic",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Duty-free access starts.",
+   "text": "GJEPC said on 21 October that the India-New Zealand free trade agreement enters into force that day. The council aims to double exports to $50 million within two years."
+  },
+  "means": [
+   {
+    "who": "If you export gold jewellery to New Zealand:",
+    "text": "GJEPC says duty-free access starts now and plans buyer-seller meets."
+   },
+   {
+    "who": "If you judge the target:",
+    "text": "It needs about 40% growth a year, below last year's 50%."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A large market. The whole trade is about $25 million."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "India's gem and jewellery exports to New Zealand",
+   "hi": 2,
+   "asof": "GJEPC releases of 27 August and 21 October 2026; growth rates are Carat Capital's",
+   "cols": [
+    "Period",
+    "Exports",
+    "Change"
+   ],
+   "rows": [
+    [
+     "FY2024-25",
+     "$16.91m",
+     "Base year"
+    ],
+    [
+     "FY2025-26",
+     "$25.43m",
+     "+50.4%"
+    ],
+    [
+     "Target, two years on",
+     "$50m",
+     "+40.2% a year"
+    ]
+   ],
+   "note": "25.43 / 16.91 = 1.504, a 50.4% rise. 50 / 25.43 = 1.966; its square root is 1.402, so about 40.2% a year for two years. GJEPC calls the target a doubling. GJEPC's 27 August release gave FY2025-26 as $25.46m; the 21 October release gives $25.43m, which is used here.",
+   "plate": "CC/2026/320"
+  },
+  "sections": [
+   {
+    "h": "The pact is live",
+    "p": [
+     {
+      "lead": "Signed in April.",
+      "text": "India and New Zealand signed the free trade agreement on 27 April 2026. It had not entered into force when the August figures came out.",
+      "links": {
+       "August figures": "a-twenty-five-forty-six-to-new-zealand.html"
+      }
+     },
+     {
+      "lead": "First shipments named.",
+      "text": "GJEPC says Malabar Gold & Diamonds and Jewelex in Mumbai, Emerald Jewel in Chennai and Hasmukh Parekh in Kolkata shipped gold jewellery. SRK shipped cut and polished diamonds."
+     },
+     {
+      "lead": "Silver filigree too.",
+      "text": "Padmesh Industries of Odisha shipped GI-tagged silver filigree jewellery, the council says."
+     }
+    ]
+   },
+   {
+    "h": "Gold jewellery carries the trade",
+    "p": [
+     {
+      "lead": "Gold led last year.",
+      "text": "In August, GJEPC put gold jewellery at $17.47 million of the FY2025-26 total, up 84%."
+     },
+     {
+      "lead": "The target is modest.",
+      "text": "Doubling in two years needs about 40% growth a year, on Carat Capital's arithmetic. Exports grew about 50% in FY2025-26 without the agreement."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Not dated",
+    "what": "GJEPC's buyer-seller meets in New Zealand, and which exporters take part."
+   },
+   {
+    "when": "Monthly",
+    "what": "GJEPC's country figures, the first to show trade under the agreement."
+   },
+   {
+    "when": "Two years on",
+    "what": "Whether exports reach the $50 million target."
+   }
+  ],
+  "depth": {
+   "reverse": "A first year under the agreement with growth below last year's 50%. Then duty-free access is not what drove the trade.",
+   "built": {
+    "title": "How the figures are counted",
+    "text": "GJEPC is India's government-backed gem and jewellery export council. It publishes exports by country and product from Indian trade data, on India's April-to-March fiscal year. These are the council's figures on its own trade."
+   },
+   "method": "GJEPC release, 'India-New Zealand FTA Enters into Force; Targets US$ 50 Million in Exports in the Next Two Years', dated 'Oct 21, 2026', fetched 22 October 2026, 200, 34,653 bytes. Greps in the release: 'enters into force today' 1, 'US$ 25.43 million' 1, 'US$ 50 million' 2, 'double' 2, 'Malabar' 1, 'SRK' 1, 'Padmesh' 1. GJEPC's 27 August release, reported here on 28 August, gave $25.46m for FY2025-26, $16.91m for FY2024-25 and $17.47m for gold jewellery; the 21 October release does not say why the total moved by $0.03m. Some outside reports gave 20 October as the start date; they were not read, and the date printed is GJEPC's. The release does not give New Zealand's previous duty on jewellery, so no tariff saving is printed. ARCHIVE, by entity and period: Carat Capital's archive, 'New Zealand' '25.46' 1 row, opened: the 28 August report covers the same fiscal year before the agreement took effect. New event and new target. ADVANCED.",
+   "prior": [
+    {
+     "date": "2026-08-28",
+     "slug": "twenty-five-forty-six-to-new-zealand",
+     "claim": "Exports to New Zealand rose 50.56% to $25.46m in FY2025-26, per GJEPC."
+    }
+   ],
+   "sources": [
+    {
+     "title": "GJEPC, India-New Zealand FTA Enters into Force; Targets US$ 50 Million in Exports in the Next Two Years",
+     "url": "https://www.gjepc.org/news_detail.php?news=gjepc-facilitates-regional-exporter-participation-as-india-new-zealand-fta-enters-into-force-targets-us-50-million-in-exports-in-the-next-two-years-1",
+     "published": "2026-10-21"
+    },
+    {
+     "title": "GJEPC, Auckland visit targets growth in India-New Zealand jewellery trade",
+     "url": "https://www.gjepc.org/news_detail.php?news=gjepc-auckland-visit-targets-growth-in-india-new-zealand-jewellery-trade-1",
+     "published": "2026-08-27"
+    }
+   ]
+  },
+  "next": {
+   "slug": "twenty-five-forty-six-to-new-zealand",
+   "why": "The August figures, and which goods carried the trade before the agreement."
+  },
+  "corrections": []
+ },
+ "paspaley-sells-through-fourteen-us-doors": {
+  "v": 3,
+  "kicker": "Retail & Technology",
+  "figures": {
+   "asof": "JCK, 21 October 2026, reporting a Paspaley event in New York on 15 October 2026. Company figures as Paspaley gave them.",
+   "cells": [
+    {
+     "n": "14",
+     "label": "US doors",
+     "q": "not 70, by choice",
+     "src": 0
+    },
+    {
+     "n": "~80%",
+     "label": "Australian output",
+     "q": "South Sea pearls, company figure",
+     "src": 0
+    },
+    {
+     "n": "$12,500",
+     "label": "Delfini Blue strand",
+     "q": "11–14mm, per JCK",
+     "src": 0
+    },
+    {
+     "n": "$17,050",
+     "label": "Lavalier earrings",
+     "q": "18k gold, per JCK",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Slow by design.",
+   "text": "Paspaley sells through 14 US retailers and caps new partners each year, executive director Chris Paspaley told JCK on 15 October in New York."
+  },
+  "means": [
+   {
+    "who": "If you want the line:",
+    "text": "Paspaley says it partners with multigenerational family jewellers and adds only a few a year."
+   },
+   {
+    "who": "If you price South Sea pearls:",
+    "text": "JCK prints a $12,500 strand and $17,050 earrings as the brand's US price points."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A store target. Paspaley gave no number or date for new doors."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Paspaley in the US, as reported by JCK",
+   "hi": 0,
+   "asof": "JCK, 21 October 2026. Figures are the company's or JCK's, as labelled",
+   "cols": [
+    "Item",
+    "Figure",
+    "Whose figure"
+   ],
+   "rows": [
+    [
+     "US retail doors",
+     "14",
+     "Paspaley"
+    ],
+    [
+     "Doors it says it avoids",
+     "70",
+     "Paspaley"
+    ],
+    [
+     "Share of Australia's South Sea pearl output",
+     "about 80%",
+     "Paspaley"
+    ],
+    [
+     "Own jewellery retail",
+     "more than 35 years",
+     "Paspaley"
+    ],
+    [
+     "Delfini Blue strand, 11–14mm",
+     "$12,500",
+     "JCK"
+    ],
+    [
+     "Lavalier earrings, 18k gold",
+     "$17,050",
+     "JCK"
+    ]
+   ],
+   "note": "Single source. JCK reports the company's figures; no Paspaley release was read.",
+   "plate": "CC/2026/321"
+  },
+  "sections": [
+   {
+    "h": "Growth at a set pace",
+    "p": [
+     {
+      "lead": "No growth at any cost.",
+      "text": "“We're not looking to grow at any cost,” Chris Paspaley told JCK. He says brands that added stores too fast fell behind on service and stock."
+     },
+     {
+      "lead": "A capped intake.",
+      "text": "The company limits how many new retail partners it takes on each year. It wants family jewellers that, he says, do not think in quarters."
+     },
+     {
+      "lead": "Research came first.",
+      "text": "Paspaley opened with its first US partners in 2024, after spending on market research and data analytics, JCK reports."
+     }
+    ]
+   },
+   {
+    "h": "Three lines, one campaign",
+    "p": [
+     {
+      "lead": "Icons groups them.",
+      "text": "The Icons campaign gathers the Lavalier, Strands and Cicada collections. Lavalier and Strands are the brand's two US best sellers, JCK reports."
+     },
+     {
+      "lead": "Untreated pearls.",
+      "text": "Paspaley says every pearl it supplies is untreated, never bleached or washed with acid, and it guarantees natural colour and lustre."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Next 12 months",
+    "what": "How many US partners Paspaley adds to its 14."
+   },
+   {
+    "when": "Holiday season",
+    "what": "Whether US buyers keep favouring Lavalier and Strands over the newer Cicada line."
+   }
+  ],
+  "depth": {
+   "reverse": "A store count well above 14 within a year. Then the cap is a pace, not a policy.",
+   "built": {
+    "title": "How Paspaley sells",
+    "text": "Paspaley farms the Pinctada maxima oyster off Australia's Kimberley coast. It sells pearls at auction, to wholesalers and to jewellery houses, and makes its own jewellery, JCK reports."
+   },
+   "method": "JCK, 'Paspaley Plots a Calculated Expansion in America', by Sam Cooley, dated October 21, 2026, fetched 22 October 2026, 200, 115,735 bytes. Greps in the article text: '14 doors' 1, '70 doors' 1, 'Oct. 15 event' 1, 'about 80%' 1, 'more than 35 years' 1, '$12,500' 1, '$17,050' 1, 'grow at any cost' 1, 'do not think in quarters' 1, 'untreated' 2. The speaker is Chris Paspaley, named by JCK as executive director. Single source; no Paspaley release was read. The quote is 7 words. ARCHIVE, by entity and period: Carat Capital's archive, 'Paspaley' 0 rows. NEW.",
+   "prior": [],
+   "sources": [
+    {
+     "title": "JCK, Paspaley Plots a Calculated Expansion in America, by Sam Cooley",
+     "url": "https://www.jckonline.com/editorial-article/paspaley-pearls-america/",
+     "published": "2026-10-21"
+    }
+   ]
+  },
+  "next": {
+   "slug": "christies-puts-twenty-six-million-on-a-sky-moon",
+   "why": "The edition's lead, on the top of the November watch market."
   },
   "corrections": []
  }

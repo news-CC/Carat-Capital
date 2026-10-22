@@ -1,40 +1,35 @@
 {
  "date_line": "Sunday, October 18, 2026 | Vol. I - No. 090",
- "edition": "Vol. I - No. 093",
+ "edition": "Vol. I - No. 094",
  "items": [
   {
-   "slug": "vietnam-ends-gold-jewellery-certificate",
-   "desk": "Gold & Metals",
-   "title": "Vietnam ends gold jewellery certificate, caps cash deals at VND 5m"
-  },
-  {
-   "slug": "sothebys-expects-nine-million-for-thirty-watches",
+   "slug": "christies-puts-twenty-six-million-on-a-sky-moon",
    "desk": "Watches",
-   "title": "Sotheby's expects $9m-plus for 30 watches, nearly all first-owner"
+   "title": "Christie's puts HK$26.5m–43m on a Patek Sky Moon in Hong Kong"
   },
   {
-   "slug": "phillips-puts-six-to-twelve-million-on-a-journe",
-   "desk": "Auctions",
-   "title": "Phillips puts HK$6m–12m on Mark Cho's Journe Résonance"
-  },
-  {
-   "slug": "burgundy-director-deals-broke-an-asx-rule",
+   "slug": "de-beers-pays-one-billion-pula-into-botswana-fund",
    "desk": "Diamonds & Rough",
-   "title": "Burgundy board says US$50.6m director deals broke an ASX rule"
+   "title": "De Beers pays 1bn pula into Botswana fund, JCK reports"
   },
   {
-   "slug": "de-beers-price-index-falls-twenty-percent",
+   "slug": "gjepc-targets-fifty-million-in-new-zealand",
    "desk": "Diamonds & Rough",
-   "title": "De Beers' rough price index falls 20% as sales volume nearly doubles"
+   "title": "GJEPC targets $50m in New Zealand as trade pact takes effect"
+  },
+  {
+   "slug": "paspaley-sells-through-fourteen-us-doors",
+   "desk": "Retail & Technology",
+   "title": "Paspaley sells through 14 US doors and caps new partners each year"
   }
  ],
- "tape_ts": "Kitco bid, board stamp 2026-10-21T04:58:56.21Z, tape's 05:00 ET opening mark 21 Oct",
+ "tape_ts": "Kitco bid, board stamp 2026-10-22T04:58:55.677Z, tape's 05:00 ET opening mark 22 Oct",
  "tape": [
   {
    "name": "Gold / oz",
    "code": "XAU",
-   "px": "4,119.80",
-   "chg": "-0.0024% vs 20 Oct mark",
+   "px": "4,081.20",
+   "chg": "-0.9369% vs 21 Oct mark",
    "dir": "down",
    "pts": [
     5,
@@ -90,8 +85,8 @@
   {
    "name": "Platinum / oz",
    "code": "XPT",
-   "px": "1,626.00",
-   "chg": "-0.6720% vs 20 Oct mark",
+   "px": "1,577.00",
+   "chg": "-3.0135% vs 21 Oct mark",
    "dir": "down",
    "pts": [
     2,
@@ -109,8 +104,8 @@
   {
    "name": "Silver / oz",
    "code": "XAG",
-   "px": "57.166",
-   "chg": "-0.0472% vs 20 Oct mark",
+   "px": "55.739",
+   "chg": "-2.4962% vs 21 Oct mark",
    "dir": "down",
    "pts": [
     2,
@@ -126,5 +121,5 @@
    ]
   }
  ],
- "editionDate": "2026-10-21"
+ "editionDate": "2026-10-22"
 }
