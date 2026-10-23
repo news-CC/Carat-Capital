@@ -146011,7 +146011,7 @@
   "means": [
    {
     "who": "If you bid on Journe:",
-    "text": "The ruby-dial Souverain's high estimate sits just above September's HK$31.4 million result for the model."
+    "text": "September's HK$31.4 million is a result. This lot's HK$32 million high is an estimate before premium."
    },
    {
     "who": "If you consign Patek complications:",
@@ -146081,15 +146081,15 @@
     ]
    },
    {
-    "h": "A Journe tests September's price",
+    "h": "A Journe follows September's sale",
     "p": [
      {
       "lead": "The ruby-dial Souverain.",
       "text": "The F.P. Journe, case 758-TN, is a platinum limited-edition Tourbillon Souverain with a ruby dial. It carries HK$16 million to HK$32 million."
      },
      {
-      "lead": "September set the mark.",
-      "text": "Another Tourbillon Souverain made HK$31.4 million at Sotheby's Hong Kong on 21 September, just under this lot's high estimate.",
+      "lead": "September set a price.",
+      "text": "A Tourbillon Souverain of unstated dial made HK$31.4 million at Sotheby's Hong Kong on 21 September. A second Souverain in that sale made HK$23.47 million.",
       "links": {
        "made HK$31.4 million": "a-thirty-one-four-tops-a-four-twenty-six-sale.html"
       }
@@ -146124,7 +146124,7 @@
    },
    {
     "when": "25 November",
-    "what": "The Iconic 40 sale, and whether the Souverain clears September's HK$31.4 million."
+    "what": "The Iconic 40 sale, and where the Souverain lands against its HK$16 million low."
    },
    {
     "when": "Before the sale",
@@ -146132,12 +146132,12 @@
    }
   ],
   "depth": {
-   "reverse": "The Sky Moon and the Souverain selling below their lows. Then September's Journe result reads as a single trophy, not a level for the model.",
+   "reverse": "The Sky Moon and the Souverain selling below their lows. Then September's HK$31.4 million reads as one watch's price, not a level.",
    "built": {
     "title": "How the estimates are read",
     "text": "An auction house sets a low and a high estimate from comparable sales and the consignor's terms. Christie's says its estimates exclude the buyer's premium, while sale totals include it. A result is read against the low and high, not the midpoint."
    },
-   "method": "Christie's sale page, The Iconic 40 Watches Evening Sale, sale 25299, fetched 22 October 2026, 200, 102,853 bytes. Each estimate was read from the same record as its lot title and reference in the page's specialist selection: 'HK$26,500,000-43,000,000' with 'REF. 6002G-010' and 'SKY MOON TOURBILLON MODEL'; 'HK$16,000,000-32,000,000' with 'CASE NO. 758-TN'; 'HK$12,000,000-24,000,000' with 'REF. 6104/12G-010, CIRCA 2017'; 'HK$4,800,000-9,600,000' with 'REF. 5271/13P-001, CIRCA 2016'; 'HK$3,800,000-7,600,000' with 'CRASH \"NSO\" MODEL'. Each record carries start date '2026-11-25T10:00Z', which is 18:00 in Hong Kong. The page description gives the 40 watches and the 40th anniversary year in Asia; its tooltip reads 'Estimates do not include buyer's premium.' The page carries no publication date. A second Christie's watch sale on 26 November has been reported elsewhere; it is not on this page and is not printed. The September result is from Carat Capital's 6 October report of Sotheby's recap; the two watches' series were not compared, so no ratio is printed. ARCHIVE, by entity and period: Carat Capital's archive, 'Iconic 40' 0 rows, 'Sky Moon' 0, '6002G' 0; 'Hong Kong' 'Patek' 5 rows, opened: the 21 October Phillips preview and the 6 October Sotheby's result are different houses and sales. NEW.",
+   "method": "Christie's sale page, The Iconic 40 Watches Evening Sale, sale 25299, fetched 22 October 2026, 200, 102,853 bytes. Each estimate was read from the same record as its lot title and reference in the page's specialist selection: 'HK$26,500,000-43,000,000' with 'REF. 6002G-010' and 'SKY MOON TOURBILLON MODEL'; 'HK$16,000,000-32,000,000' with 'CASE NO. 758-TN'; 'HK$12,000,000-24,000,000' with 'REF. 6104/12G-010, CIRCA 2017'; 'HK$4,800,000-9,600,000' with 'REF. 5271/13P-001, CIRCA 2016'; 'HK$3,800,000-7,600,000' with 'CRASH \"NSO\" MODEL'. Each record carries start date '2026-11-25T10:00Z', which is 18:00 in Hong Kong. The page description gives the 40 watches and the 40th anniversary year in Asia; its tooltip reads 'Estimates do not include buyer's premium.' The page carries no publication date. A second Christie's watch sale on 26 November has been reported elsewhere; it is not on this page and is not printed. The September results are from Sotheby's recap of its 21 September sale, saved 6 October: lot 2400, F.P. Journe Tourbillon Souverain, 'HK$31,400,000', and lot 2579, the same model, 'HK$23,470,000'. The recap does not say whether these include buyer's premium ('premium' 0 hits) or give either dial ('ruby' 0 hits), so the results and this pre-premium estimate are not compared as like with like. ARCHIVE, by entity and period: Carat Capital's archive, 'Iconic 40' 0 rows, 'Sky Moon' 0, '6002G' 0; 'Hong Kong' 'Patek' 5 rows, opened: the 21 October Phillips preview and the 6 October Sotheby's result are different houses and sales. NEW.",
    "prior": [
     {
      "date": "2026-10-21",
@@ -146156,13 +146156,17 @@
      "url": "https://www.christies.com/en/auction/the-iconic-40-watches-evening-sale-25299-hgk/",
      "published": null
     }
+   ],
+   "corrections": [
+    "Clarified, 23 October 2026: an earlier version said the ruby-dial Souverain's high estimate sat just above September's HK$31.4 million 'result for the model', and asked whether it would clear that price. The HK$31.4 million is a sale result for a Souverain of unstated dial, one of two in that sale (the other made HK$23.47 million), and Christie's HK$32 million high is an estimate before buyer's premium. The page no longer compares the two as like with like. What was right as published: every estimate and result. Raised by Carat Capital's standards desk on 22 October 2026."
    ]
   },
   "next": {
    "slug": "phillips-puts-six-to-twelve-million-on-a-journe",
    "why": "The other Hong Kong November sale, and the Journe estimates this one will be read against."
   },
-  "corrections": []
+  "corrections": [],
+  "modified": "2026-10-23"
  },
  "de-beers-pays-one-billion-pula-into-botswana-fund": {
   "v": 3,
@@ -146178,8 +146182,8 @@
     },
     {
      "n": "P10bn",
-     "label": "Total commitment",
-     "q": "over 10 years",
+     "label": "Ten-year total",
+     "q": "a ceiling, 2023 terms",
      "src": 1
     },
     {
@@ -146211,7 +146215,7 @@
    },
    {
     "who": "What this is not:",
-    "text": "The P10 billion. Nine-tenths of the commitment is still to come."
+    "text": "The P10 billion. Up to nine-tenths remains, and later payments depend on sales."
    }
   ],
   "visual": {
@@ -146313,7 +146317,7 @@
     "title": "How the fund is paid",
     "text": "Under the 2023 statement of principles, De Beers pays an initial P1 billion, then a yearly base of 5% of its share of the distribution. Payments stop when the total reaches P10 billion over 10 years."
    },
-   "method": "JCK, 'Botswana development receipts' article by Sam Cooley, dated October 21, 2026, fetched 22 October 2026, 200, 112,655 bytes. Greps in the article text: '1 billion pula' 1, 'about $73 million' 1, 'initial contribution' 2, '10-member' 1, 'Adesina' 2, 'strategy and business plan' 1, '62.3%' 1, '29%' 2. 'On Wednesday' in the article is 21 October. Botswana Daily News, government statement on the De Beers negotiations, dated 20 Jul 2023, fetched 22 October 2026, 200, 39,912 bytes: 'P1 billion' 1, '5 per cent' 1, 'P10 billion' 1. A search found no De Beers or Botswana release on the transfer; that is not proof none exists. The US$70m in De Beers' 2025 report and JCK's $73 million may use different rates and dates, so they are not compared. ARCHIVE, by entity and period: Carat Capital's archive, 'Diamonds for Development' 1 row, opened: the 23 September report covers the commitment as booked in De Beers' 2025 report. This is the transfer. ADVANCED.",
+   "method": "JCK, 'Botswana development receipts' article by Sam Cooley, dated October 21, 2026, fetched 22 October 2026, 200, 112,655 bytes. Greps in the article text: '1 billion pula' 1, 'about $73 million' 1, 'initial contribution' 2, '10-member' 1, 'Adesina' 2, 'strategy and business plan' 1, '62.3%' 1, '29%' 2. 'On Wednesday' in the article is 21 October. Botswana Daily News, government statement on the De Beers negotiations, dated 20 Jul 2023, fetched 22 October 2026, 200, 39,912 bytes: 'P1 billion' 1, '5 per cent' 1, 'P10 billion' 1. A search found no De Beers or Botswana release on the transfer; that is not proof none exists. The US$70m in De Beers' 2025 report and JCK's $73 million may use different rates and dates, so they are not compared. ARCHIVE, by entity and period: Carat Capital's archive, 'Diamonds for Development' 1 row, opened: the 23 September report covers the commitment as booked in De Beers' 2025 report. This is the transfer. ADVANCED. The terms are the July 2023 agreement in principle as the Daily News reported it; the signed terms were not read. The P10 billion is a total reached through payments that move with sales, not a fixed schedule.",
    "prior": [
     {
      "date": "2026-10-18",
@@ -146337,19 +146341,23 @@
      "url": "https://dailynews.gov.bw/news-detail/74162",
      "published": "2023-07-20"
     }
+   ],
+   "corrections": [
+    "Clarified, 23 October 2026: an earlier version said nine-tenths of the commitment was still to come. Under the 2023 terms, later payments are 5% of De Beers' share of the distribution until the total reaches P10 billion, so the remainder depends on sales. The page now says up to nine-tenths remains, and that the terms are Botswana's July 2023 agreement in principle. What was right as published: every figure. Raised by Carat Capital's standards desk on 22 October 2026."
    ]
   },
   "next": {
    "slug": "botswana-nears-twenty-five-percent-of-de-beers",
    "why": "The ownership talks running alongside the fund's first payment."
   },
-  "corrections": []
+  "corrections": [],
+  "modified": "2026-10-23"
  },
  "gjepc-targets-fifty-million-in-new-zealand": {
   "v": 3,
   "kicker": "Trade · India",
   "figures": {
-   "asof": "GJEPC release, dated 21 October 2026. FY2024-25 figure from GJEPC's 27 August 2026 release.",
+   "asof": "GJEPC release, dated 21 October 2026. FY2024-25 figure from GJEPC's 27 August 2026 release. Entry-into-force date from New Zealand's Ministry of Foreign Affairs and Trade.",
    "cells": [
     {
      "n": "$50m",
@@ -146381,16 +146389,16 @@
   },
   "changed": {
    "lead": "Duty-free access starts.",
-   "text": "GJEPC said on 21 October that the India-New Zealand free trade agreement enters into force that day. The council aims to double exports to $50 million within two years."
+   "text": "The India-New Zealand free trade agreement entered into force on 20 October, New Zealand's foreign ministry says. GJEPC aims to double exports to $50 million within two years."
   },
   "means": [
    {
     "who": "If you export gold jewellery to New Zealand:",
-    "text": "GJEPC says duty-free access starts now and plans buyer-seller meets."
+    "text": "GJEPC says duty-free access is open and plans buyer-seller meets."
    },
    {
     "who": "If you judge the target:",
-    "text": "It needs about 40% growth a year, below last year's 50%."
+    "text": "It needs about 40% growth a year on Carat Capital's arithmetic. Exports grew about 50% last year."
    },
    {
     "who": "What this is not:",
@@ -146439,7 +146447,7 @@
       }
      },
      {
-      "lead": "First shipments named.",
+      "lead": "Exporters named.",
       "text": "GJEPC says Malabar Gold & Diamonds and Jewelex in Mumbai, Emerald Jewel in Chennai and Hasmukh Parekh in Kolkata shipped gold jewellery. SRK shipped cut and polished diamonds."
      },
      {
@@ -146456,7 +146464,7 @@
       "text": "In August, GJEPC put gold jewellery at $17.47 million of the FY2025-26 total, up 84%."
      },
      {
-      "lead": "The target is modest.",
+      "lead": "Last year grew faster.",
       "text": "Doubling in two years needs about 40% growth a year, on Carat Capital's arithmetic. Exports grew about 50% in FY2025-26 without the agreement."
      }
     ]
@@ -146482,7 +146490,7 @@
     "title": "How the figures are counted",
     "text": "GJEPC is India's government-backed gem and jewellery export council. It publishes exports by country and product from Indian trade data, on India's April-to-March fiscal year. These are the council's figures on its own trade."
    },
-   "method": "GJEPC release, 'India-New Zealand FTA Enters into Force; Targets US$ 50 Million in Exports in the Next Two Years', dated 'Oct 21, 2026', fetched 22 October 2026, 200, 34,653 bytes. Greps in the release: 'enters into force today' 1, 'US$ 25.43 million' 1, 'US$ 50 million' 2, 'double' 2, 'Malabar' 1, 'SRK' 1, 'Padmesh' 1. GJEPC's 27 August release, reported here on 28 August, gave $25.46m for FY2025-26, $16.91m for FY2024-25 and $17.47m for gold jewellery; the 21 October release does not say why the total moved by $0.03m. Some outside reports gave 20 October as the start date; they were not read, and the date printed is GJEPC's. The release does not give New Zealand's previous duty on jewellery, so no tariff saving is printed. ARCHIVE, by entity and period: Carat Capital's archive, 'New Zealand' '25.46' 1 row, opened: the 28 August report covers the same fiscal year before the agreement took effect. New event and new target. ADVANCED.",
+   "method": "GJEPC release, 'India-New Zealand FTA Enters into Force; Targets US$ 50 Million in Exports in the Next Two Years', dated 'Oct 21, 2026', fetched 22 October 2026, 200, 34,653 bytes. Greps in the release: 'enters into force today' 1, 'US$ 25.43 million' 1, 'US$ 50 million' 2, 'double' 2, 'Malabar' 1, 'SRK' 1, 'Padmesh' 1. GJEPC's 27 August release, reported here on 28 August, gave $25.46m for FY2025-26, $16.91m for FY2024-25 and $17.47m for gold jewellery; the 21 October release does not say why the total moved by $0.03m. The release says the agreement 'enters into force today'. New Zealand's Ministry of Foreign Affairs and Trade page, fetched 06:05 EDT 23 October 2026, 200 after a redirect, 60,170 bytes, reads 'entered into force on 20 October 2026' (1 hit), and India's commerce minister gave 20 October in September. The date printed is the ministry's; GJEPC's 'today' is its release date. The release does not give New Zealand's previous duty on jewellery, so no tariff saving is printed. ARCHIVE, by entity and period: Carat Capital's archive, 'New Zealand' '25.46' 1 row, opened: the 28 August report covers the same fiscal year before the agreement took effect. New event and new target. ADVANCED.",
    "prior": [
     {
      "date": "2026-08-28",
@@ -146500,14 +146508,23 @@
      "title": "GJEPC, Auckland visit targets growth in India-New Zealand jewellery trade",
      "url": "https://www.gjepc.org/news_detail.php?news=gjepc-auckland-visit-targets-growth-in-india-new-zealand-jewellery-trade-1",
      "published": "2026-08-27"
+    },
+    {
+     "title": "New Zealand Ministry of Foreign Affairs and Trade, NZ-India Free Trade Agreement",
+     "url": "https://www.mfat.govt.nz/indiafta",
+     "published": null
     }
+   ],
+   "corrections": [
+    "Correction, 23 October 2026: an earlier version of this article said the India-New Zealand free trade agreement entered into force on 21 October. New Zealand's Ministry of Foreign Affairs and Trade says it entered into force on 20 October 2026, the date India's commerce minister had also given. Where the error came from: GJEPC's release, dated 21 October, says the agreement 'enters into force today', and that date was printed without reading the two governments' pages. What was right as published: every export figure and the arithmetic. Two wordings also changed: 'First shipments named' is now 'Exporters named', because the release does not say the shipments were the first, and the target is no longer called modest. Found by Carat Capital's standards desk on 22 October 2026."
    ]
   },
   "next": {
    "slug": "twenty-five-forty-six-to-new-zealand",
    "why": "The August figures, and which goods carried the trade before the agreement."
   },
-  "corrections": []
+  "corrections": [],
+  "modified": "2026-10-23"
  },
  "paspaley-sells-through-fourteen-us-doors": {
   "v": 3,
@@ -146543,16 +146560,16 @@
   },
   "changed": {
    "lead": "Slow by design.",
-   "text": "Paspaley sells through 14 US retailers and caps new partners each year, executive director Chris Paspaley told JCK on 15 October in New York."
+   "text": "Paspaley sells through 14 US doors and caps new partners each year, executive director Chris Paspaley told JCK on 15 October in New York."
   },
   "means": [
    {
     "who": "If you want the line:",
-    "text": "Paspaley says it partners with multigenerational family jewellers and adds only a few a year."
+    "text": "Paspaley says it partners with multigenerational family jewellers and caps how many it takes each year."
    },
    {
     "who": "If you price South Sea pearls:",
-    "text": "JCK prints a $12,500 strand and $17,050 earrings as the brand's US price points."
+    "text": "JCK's photo captions print a $12,500 strand and $17,050 earrings."
    },
    {
     "who": "What this is not:",
@@ -146660,11 +146677,735 @@
      "url": "https://www.jckonline.com/editorial-article/paspaley-pearls-america/",
      "published": "2026-10-21"
     }
+   ],
+   "corrections": [
+    "Correction, 23 October 2026: an earlier version of What changed said Paspaley sells through 14 US retailers. JCK quotes Chris Paspaley saying the brand is in 14 doors in the US, a count of selling locations; JCK gives no retailer count. The desk's view also said Paspaley adds 'only a few' partners a year. JCK says it caps new partners each year and gives no number, and the line now says so. The two prices are now described as JCK's photo captions. Where the error came from: the desk's paraphrase of JCK. What was right as published: the headline, the strip, the table and every figure. Found by Carat Capital's standards desk on 22 October 2026."
    ]
   },
   "next": {
    "slug": "christies-puts-twenty-six-million-on-a-sky-moon",
    "why": "The edition's lead, on the top of the November watch market."
+  },
+  "corrections": [],
+  "modified": "2026-10-23"
+ },
+ "petra-diamonds-holders-face-a-share-suspension": {
+  "v": 3,
+  "kicker": "Diamonds & Rough",
+  "figures": {
+   "asof": "Petra Diamonds RNS, 'Delay in Publication of Annual Results', 22 October 2026. Net debt from Petra's Q4 and FY2026 update, 28 July 2026.",
+   "cells": [
+    {
+     "n": "2 Nov",
+     "label": "Expected suspension",
+     "q": "from 07:30 UK time",
+     "src": 0
+    },
+    {
+     "n": "31 Oct",
+     "label": "Report deadline",
+     "q": "under rule DTR 4.1.3R",
+     "src": 0
+    },
+    {
+     "n": "FY2026",
+     "label": "Audit unfinished",
+     "q": "year to 30 June",
+     "src": 0
+    },
+    {
+     "n": "US$322m",
+     "dir": "down",
+     "label": "Net debt",
+     "q": "at 30 June 2026",
+     "src": 2
+    }
+   ]
+  },
+  "changed": {
+   "lead": "The audit runs late.",
+   "text": "Petra Diamonds expects its shares to be suspended from listing and trading from 2 November. It says it will not publish its FY2026 annual report by the 31 October deadline."
+  },
+  "means": [
+   {
+    "who": "If you hold Petra shares:",
+    "text": "Plan for trading to stop on 2 November, with no resumption date."
+   },
+   {
+    "who": "If you buy Cullinan goods:",
+    "text": "The notice concerns the accounts and the listing. It names no change at the mine."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A finding on the accounts. Petra cites unfinished audit procedures and gives no other cause."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Petra's October, from its own announcements",
+   "hi": 4,
+   "asof": "Petra Diamonds RNS, 1 to 22 October 2026; the last two rows are dates the 22 October notice sets",
+   "cols": [
+    "Date",
+    "Event"
+   ],
+   "rows": [
+    [
+     "1 October",
+     "Strategic review opened, including a possible sale of assets"
+    ],
+    [
+     "14 October",
+     "Court winds up Petra Diamonds UK Treasury over a £5.65m tax claim"
+    ],
+    [
+     "22 October",
+     "Petra says the FY2026 audit is unfinished"
+    ],
+    [
+     "31 October",
+     "Deadline for the FY2026 annual report, which Petra expects to miss"
+    ],
+    [
+     "2 November",
+     "Shares expected to be suspended from 07:30 UK time"
+    ]
+   ],
+   "note": "The 1 and 14 October rows were reported by Carat Capital on 5 and 19 October from Petra's own announcements. 31 October is four months after Petra's 30 June year end.",
+   "plate": "CC/2026/322"
+  },
+  "sections": [
+   {
+    "h": "The deadline will be missed",
+    "p": [
+     {
+      "lead": "Audit work remains.",
+      "text": "Petra says the group audit is still in progress. It needs more time for outstanding component and group procedures, and to finalise the consolidated statements."
+     },
+     {
+      "lead": "A rule sets the date.",
+      "text": "Under the UK transparency rule DTR 4.1.3R, 31 October is the last day Petra may publish its report for the year to 30 June 2026."
+     },
+     {
+      "lead": "The AGM slips too.",
+      "text": "Petra says the usual timing of its annual general meeting will likely be delayed as well."
+     }
+    ]
+   },
+   {
+    "h": "A review is already running",
+    "p": [
+     {
+      "lead": "A sale is possible.",
+      "text": "Petra opened a strategic review on 1 October after consulting its first and second lien creditors. It covers paths to meet near-term liquidity needs, including a possible asset sale.",
+      "links": {
+       "strategic review": "a-hmrc-seeks-to-wind-up-a-petra-unit.html"
+      }
+     },
+     {
+      "lead": "A unit was wound up.",
+      "text": "A court wound up Petra Diamonds UK Treasury on 14 October over a £5.65 million tax claim. Petra calls the unit non-operating.",
+      "links": {
+       "wound up Petra Diamonds UK Treasury": "a-petra-treasury-unit-is-wound-up.html"
+      }
+     }
+    ]
+   },
+   {
+    "h": "One mine carries the group",
+    "p": [
+     {
+      "lead": "Cullinan is the asset.",
+      "text": "Petra names Cullinan as its principal operating asset. Finsch entered business rescue on 29 May 2026.",
+      "links": {
+       "Finsch entered business rescue": "a-fifty-nine-years-and-thirty-four-percent.html"
+      }
+     },
+     {
+      "lead": "Debt rose first.",
+      "text": "Net debt was US$322 million at 30 June 2026, up from US$298 million three months earlier, Petra reported in July."
+     },
+     {
+      "lead": "Shares, not notes.",
+      "text": "The suspension notice covers Petra's shares. Its loan notes due 2030 are listed on Euronext Dublin."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "31 October",
+    "what": "The FY2026 report deadline. Publication before it would stop the suspension."
+   },
+   {
+    "when": "2 November, 07:30 UK",
+    "what": "The expected suspension of Petra's shares."
+   },
+   {
+    "when": "Not dated",
+    "what": "The annual report, the AGM date and the strategic review's outcome."
+   }
+  ],
+  "depth": {
+   "reverse": "Petra publishing its FY2026 report before 2 November. Then the suspension does not happen and this is a delay of days.",
+   "built": {
+    "title": "How the deadline is set",
+    "text": "DTR 4.1.3R gives a London-listed company four months from its year end to publish its annual financial report. For Petra's year to 30 June, that ends on 31 October. Petra ties the expected suspension to missing it."
+   },
+   "method": "Petra Diamonds RNS, 'Delay in Publication of Annual Results', dated 22 October 2026 in its body, read on Investegate, fetched 06:04 EDT 23 October 2026, 200, 60,871 bytes. The announcement text was read, not Investegate's AI summary box. Greps: '31 October 2026' 1, '02 November 2026' 2, 'DTR 4.1.3R' 1, 'no certainty' 1 in the announcement, 'Finsch entered business rescue on 29 May 2026' 1, 'EuroNext Dublin' 1. Strategic review RNS of 1 October, fetched 23 October, 200, 60,634 bytes: 'first and second lien creditors' 1, 'potential sales process' 1. Q4 and FY2026 update of 28 July, fetched 23 October, 200, 486,413 bytes: 'US$322 million' and '31 March 2026: US$298 million' each read in the text. The £5.65 million and the 14 October order are from Carat Capital's 19 October report of Petra's own announcement, not re-fetched. No share price is printed. ARCHIVE, by entity and period: Carat Capital's archive, 'Petra' 8 rows, 'Petra' with 'annual' 0, 'Petra' with 'suspen' 3, opened: none concerns Petra's shares. FY2026 audit delay: NEW event, ADVANCED on the entity.",
+   "prior": [
+    {
+     "date": "2026-10-19",
+     "slug": "petra-treasury-unit-is-wound-up",
+     "claim": "A court wound up Petra's treasury unit over a £5.65m tax claim."
+    },
+    {
+     "date": "2026-10-05",
+     "slug": "hmrc-seeks-to-wind-up-a-petra-unit",
+     "claim": "HMRC sought to wind up a Petra unit as the board opened a strategic review."
+    },
+    {
+     "date": "2026-08-21",
+     "slug": "fifty-nine-years-and-thirty-four-percent",
+     "claim": "Finsch closed after 59 years, taking 34% of Petra's revenue."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Petra Diamonds, Delay in Publication of Annual Results (RNS)",
+     "url": "https://www.investegate.co.uk/announcement/prn/petra-diamonds-ltd-di---pdl/delay-in-publication-of-annual-results/9837001",
+     "published": "2026-10-22"
+    },
+    {
+     "title": "Petra Diamonds, Strategic Review and Directorate Change (RNS)",
+     "url": "https://www.investegate.co.uk/announcement/prn/petra-diamonds-ltd-di---pdl/strategic-review-and-directorate-change/9802382",
+     "published": "2026-10-01"
+    },
+    {
+     "title": "Petra Diamonds, Q4 and FY 2026 Operating and Business Update (RNS)",
+     "url": "https://www.investegate.co.uk/announcement/prn/petra-diamonds-ltd-di---pdl/q4-and-fy-2026-operating-business-update/9691440",
+     "published": "2026-07-28"
+    }
+   ]
+  },
+  "next": {
+   "slug": "petra-treasury-unit-is-wound-up",
+   "why": "The wind-up order a week earlier, and who now runs Petra's review."
+  },
+  "corrections": []
+ },
+ "newmont-reports-1454-an-ounce-all-in-cost": {
+  "v": 3,
+  "kicker": "Gold & Metals",
+  "figures": {
+   "asof": "Newmont Q3 2026 earnings release (Exhibit 99.1), 22 October 2026. Spot gold: Carat Capital tape, Kitco bid, 05:01 EDT 23 October 2026.",
+   "cells": [
+    {
+     "n": "$1,454/oz",
+     "dir": "down",
+     "label": "All-in sustaining cost",
+     "q": "by-product, Q3 2026",
+     "src": 0
+    },
+    {
+     "n": "$4,317/oz",
+     "dir": "down",
+     "label": "Realised gold",
+     "q": "down $97 on Q2",
+     "src": 0
+    },
+    {
+     "n": "1.30 Moz",
+     "label": "Attributable gold",
+     "q": "flat on Q2",
+     "src": 0
+    },
+    {
+     "n": "$1.9bn",
+     "label": "Free cash flow",
+     "q": "Q3, company measure",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Costs fell on the quarter.",
+   "text": "Newmont's all-in sustaining cost fell 10% to $1,454 an ounce in the third quarter. Its realised gold price slipped to $4,317 from $4,414 in the second quarter."
+  },
+  "means": [
+   {
+    "who": "If you model miners against spot:",
+    "text": "Spot gold sat at $4,020.90 at 05:01 EDT, 6.9% under Newmont's third-quarter realised price."
+   },
+   {
+    "who": "If you track cost inflation:",
+    "text": "All-in cost is 11.6% above a year earlier, on 8.5% fewer ounces."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A profit margin. All-in sustaining cost leaves out growth capital and tax."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Newmont's quarter against the last one and a year earlier",
+   "hi": 1,
+   "asof": "Newmont release, summary of results, 22 October 2026. Gold by-product measures",
+   "cols": [
+    "Measure",
+    "Q3 2025",
+    "Q2 2026",
+    "Q3 2026"
+   ],
+   "rows": [
+    [
+     "Realised gold, $/oz",
+     "3,539",
+     "4,414",
+     "4,317"
+    ],
+    [
+     "All-in sustaining cost, $/oz",
+     "1,303",
+     "1,621",
+     "1,454"
+    ],
+    [
+     "Costs applicable to sales, $/oz",
+     "831",
+     "1,043",
+     "832"
+    ],
+    [
+     "Attributable gold, Moz",
+     "1.42",
+     "1.29",
+     "1.30"
+    ],
+    [
+     "Free cash flow, $m",
+     "1,571",
+     "2,205",
+     "1,912"
+    ]
+   ],
+   "note": "Carat Capital's arithmetic: 1454/1621 = 0.897, 10.3% lower; 1454/1303 = 1.116, 11.6% higher; 4317/3539 = 1.220, 22.0% higher; 1.30/1.42 = 0.915, 8.5% lower. 4317 - 1454 = $2,863 an ounce, not a company measure.",
+   "plate": "CC/2026/323"
+  },
+  "sections": [
+   {
+    "h": "Cadia's recovery lowered costs",
+    "p": [
+     {
+      "lead": "Cadia drove it.",
+      "text": "Newmont says the 10% fall came mainly from lower other expense, chiefly second-quarter costs at Cadia. Higher sustaining capital partly offset it."
+     },
+     {
+      "lead": "Guidance improved.",
+      "text": "It improved full-year guidance to $925 an ounce for costs applicable to sales and $1,520 for all-in sustaining cost."
+     }
+    ]
+   },
+   {
+    "h": "The gold price slipped",
+    "p": [
+     {
+      "lead": "Lower than Q2.",
+      "text": "The $4,317 realised price is $97 below the second quarter, Newmont says. It is below the nine-month average of $4,546."
+     },
+     {
+      "lead": "Spot is lower still.",
+      "text": "The tape's 05:01 EDT gold bid of $4,020.90 is 6.9% under the quarter's realised price, on Carat Capital's division."
+     }
+    ]
+   },
+   {
+    "h": "Cash went back out",
+    "p": [
+     {
+      "lead": "Returns matched cash.",
+      "text": "Free cash flow was $1.9 billion. Newmont says it returned $1.9 billion through dividends and buybacks since its last earnings call."
+     },
+     {
+      "lead": "Net income rose.",
+      "text": "Reported net income was $2.5 billion, against $2.2 billion in the second quarter. Newmont declared a dividend of $0.26 a share."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Fourth quarter",
+    "what": "Whether all-in cost holds near $1,454 or moves to the $1,520 full-year guide."
+   },
+   {
+    "when": "21 December",
+    "what": "The $0.26 dividend is paid to holders of record on 25 November."
+   },
+   {
+    "when": "Early 2027",
+    "what": "Newmont's full-funds decision on the Red Chris block cave."
+   }
+  ],
+  "depth": {
+   "reverse": "A fourth quarter with all-in cost back above $1,600. Then the third quarter's fall was Cadia's one-off, not a trend.",
+   "built": {
+    "title": "How all-in sustaining cost is built",
+    "text": "All-in sustaining cost adds sustaining capital, overheads and other sustaining costs to the cost of mining and processing an ounce. By-product treatment credits copper, silver and other metal sales against gold. It excludes growth projects, interest and tax. Newmont reports it as a non-GAAP measure."
+   },
+   "method": "Newmont Q3 2026 earnings release, Exhibit 99.1, dated 'October 22, 2026' in its dateline, read on SEC EDGAR with an identifying header, fetched 23 October 2026, 200, 2,474,421 bytes, text extracted by script. Read in the release text: '$832 per ounce', '$1,454 per ounce', '$925 and $1,520 per ounce', 'a decrease of $97 per ounce from the prior quarter', '$1.9 billion of free cash flow', '$0.26', 'December 21, 2026', 'November 25, 2026', 'decreased 10 percent to $1,454'. Table rows from the summary of results: realised gold '$ 3,539' (Q3 2025), '$ 4,414' (Q2), '$ 4,317' (Q3), '$ 4,546' (year to date); by-product AISC '$ 1,303', '$ 1,621', '$ 1,454'; CAS '$ 831', '$ 1,043', '$ 832'; production '1.42', '1.29', '1.30'; free cash flow '$ 1,571', '$ 2,205', '$ 1,912'; net income '$ 2,202', '$ 2,475'. Spot is the paper's 05:00 tape mark, Kitco bid 4020.9 at 05:01 EDT 23 October, two-page checked against CNBC 4,022.53; 4020.9/4317 = 0.9314, 6.9% under. The quarterly average and a single morning's bid are different measures and the comparison is labelled. ARCHIVE: Carat Capital's archive, 'Newmont' 0 rows. NEW.",
+   "prior": [],
+   "sources": [
+    {
+     "title": "Newmont, Third Quarter 2026 Results, Exhibit 99.1 (SEC EDGAR)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1164727/000116472726000041/newmontq32026earningsrelea.htm",
+     "published": "2026-10-22"
+    }
+   ]
+  },
+  "next": {
+   "slug": "petra-diamonds-holders-face-a-share-suspension",
+   "why": "The edition's lead, a miner at the other end of the cost curve."
+  },
+  "corrections": []
+ },
+ "chow-tai-fook-names-gold-loan-gains-first": {
+  "v": 3,
+  "kicker": "Retail · Hong Kong",
+  "figures": {
+   "asof": "RTHK, 22 October 2026, 17:22 HKT, and on.cc, 22 October 2026, 16:33, reporting the company's announcement. The HKEX filing itself was not read.",
+   "cells": [
+    {
+     "n": "+90–100%",
+     "dir": "up",
+     "label": "Half-year net profit",
+     "q": "expected, to 30 September",
+     "src": 0
+    },
+    {
+     "n": "−0.5%",
+     "dir": "down",
+     "label": "Group retail value",
+     "q": "July to September",
+     "src": 0
+    },
+    {
+     "n": "−5.3%",
+     "dir": "down",
+     "label": "Mainland retail value",
+     "q": "over 83% of the total",
+     "src": 0
+    },
+    {
+     "n": "+29.6%",
+     "dir": "up",
+     "label": "Hong Kong, Macau same-store",
+     "q": "July to September",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Gold loans come first.",
+   "text": "Chow Tai Fook expects net profit for the six months to 30 September to rise about 90–100%. Its first-named reason is a fair-value gain on gold-loan contracts."
+  },
+  "means": [
+   {
+    "who": "If you hold the stock:",
+    "text": "Read the interim split between the gold-loan gain and sales before pricing the alert."
+   },
+   {
+    "who": "If you franchise on the mainland:",
+    "text": "The group closed 263 mainland points and opened 23 in the quarter."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A doubling of jewellery sales. Group retail value fell 0.5% in the quarter."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Chow Tai Fook, July to September 2026, as reported",
+   "hi": 0,
+   "asof": "RTHK and on.cc, 22 October 2026. Year-on-year changes as the outlets report them",
+   "cols": [
+    "Measure",
+    "Mainland",
+    "Hong Kong, Macau and other"
+   ],
+   "rows": [
+    [
+     "Retail value",
+     "−5.3%",
+     "+33.2%"
+    ],
+    [
+     "Same-store sales",
+     "+2.2%",
+     "+29.6%"
+    ],
+    [
+     "Same-store volume",
+     "−9.7%",
+     "+14%"
+    ],
+    [
+     "Share of retail value",
+     "over 83%",
+     "nearly 17%"
+    ],
+    [
+     "Chow Tai Fook jewellery points",
+     "263 closed, 23 opened",
+     "net 1 opened"
+    ]
+   ],
+   "note": "Same-store volume and the store moves are on.cc's; the shares are RTHK's. The group's -0.5% should not be rebuilt from the regional figures: the shares are rounded and the weights are not the base year's.",
+   "plate": "CC/2026/324"
+  },
+  "sections": [
+   {
+    "h": "Two reasons, in order",
+    "p": [
+     {
+      "lead": "Accounting leads.",
+      "text": "The alert credits a fair-value gain on revaluing gold-loan contracts, against a fair-value loss a year earlier. Improved sales in core markets come second."
+     },
+     {
+      "lead": "The split waits.",
+      "text": "The interim results will show how much of the rise each reason explains."
+     }
+    ]
+   },
+   {
+    "h": "The mainland shrank again",
+    "p": [
+     {
+      "lead": "The mainland fell.",
+      "text": "Mainland retail value fell 5.3% in the quarter, which RTHK ties to network optimisation and a high base a year earlier."
+     },
+     {
+      "lead": "Fewer pieces sold.",
+      "text": "Mainland same-store sales rose 2.2% while same-store volume fell 9.7%, on.cc reports."
+     },
+     {
+      "lead": "Fewer points.",
+      "text": "The group had 5,192 points at the end of September, 242 fewer than at the end of June, RTHK reports."
+     }
+    ]
+   },
+   {
+    "h": "Hong Kong carried the quarter",
+    "p": [
+     {
+      "lead": "Hong Kong rose.",
+      "text": "Retail value in Hong Kong, Macau and other markets rose 33.2%, and same-store sales there rose 29.6%."
+     },
+     {
+      "lead": "Luk Fook too.",
+      "text": "Rival Luk Fook reported group same-store sales up 12% for July to September. Hong Kong and Macau rose 13% and the mainland 3%, on.cc reports.",
+      "links": {
+       "Luk Fook": "a-gold-up-fifty-diamonds-down.html"
+      }
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Late November",
+    "what": "Chow Tai Fook's interim results, and the gold-loan gain in Hong Kong dollars."
+   },
+   {
+    "when": "Monthly",
+    "what": "Hong Kong's retail sales figures, the test of the 29.6% same-store rise."
+   },
+   {
+    "when": "Next quarter",
+    "what": "Whether mainland closures keep outrunning openings."
+   }
+  ],
+  "depth": {
+   "reverse": "Interim results showing sales, not the gold-loan gain, carried most of the profit rise. Then the alert reads as a retail recovery.",
+   "built": {
+    "title": "How a gold-loan gain arises",
+    "text": "Under a gold-loan contract a jeweller borrows gold and owes gold back. The contract is revalued at the gold price, so a gain or loss lands in profit as the price moves."
+   },
+   "method": "RTHK Chinese-language report, page stamp '2026-10-22 HKT 17:22', fetched 23 October 2026, 200, 80,073 bytes. on.cc report, dateline '2026年10月22日 16:33', fetched 23 October 2026, 200, 20,064 bytes. Read in the bodies: '約90%至1倍' (RTHK) and '約90至100%' (on.cc) for the alert; '黃金借貸合約重估產生公允值收益' in both; RTHK '零售值按年跌0.5%', '33.2%', '5.3%', '逾83%', '近17%', '29.6%', '2.2%', '5192個', '242個'; on.cc '9.7%', '14%', '23個', '263個', '淨關閉240個'. RTHK's 242 is the group's total points; on.cc's 240 is the mainland net for Chow Tai Fook Jewellery points, so the two are different counts. The HKEX announcement was not read; a search found only earlier alerts. The prior-year half's profit was not re-read, so no Hong Kong dollar range is printed. Luk Fook: on.cc, dateline '2026年10月22日 18:06', fetched 23 October 2026, 200, 20,304 bytes: '同店銷售分別升8%、23%及12%' (retail value, retail revenue, same-store), '同店銷售升13%', '同店銷售升3%'; on.cc does not say 'year on year' on those lines. ARCHIVE, by entity and period: 'Chow Tai Fook' with 'profit alert' 0 rows; 'same-store' 3 rows, opened: the 26 July report covers April to June, group retail value +15.1%. This is July to September and the half: ADVANCED. Luk Fook's 22 July report covers April to June: ADVANCED.",
+   "prior": [
+    {
+     "date": "2026-07-26",
+     "slug": "china-weighs-in-on-gold",
+     "claim": "Chow Tai Fook's April-to-June group retail value rose 15.1%."
+    },
+    {
+     "date": "2026-07-22",
+     "slug": "gold-up-fifty-diamonds-down",
+     "claim": "Luk Fook's April-to-June group same-store sales rose 39%."
+    }
+   ],
+   "sources": [
+    {
+     "title": "RTHK, 周大福發盈喜 料中期盈利最多升約1倍",
+     "url": "https://news.rthk.hk/rthk/ch/component/k2/1874946-20261022.htm",
+     "published": "2026-10-22T09:22:00Z"
+    },
+    {
+     "title": "on.cc, 周大福上季港澳同店銷售增29.6% 預喜半年多賺1倍",
+     "url": "https://hk.on.cc/hk/bkn/cnt/finance/20261022/bkn-20261022163324193-1022_00842_001.html",
+     "published": "2026-10-22T08:33:00Z"
+    },
+    {
+     "title": "on.cc, 六福上季同店銷售升12% 港澳市場升13%",
+     "url": "https://hk.on.cc/hk/bkn/cnt/finance/20261022/bkn-20261022180619688-1022_00842_001.html",
+     "published": "2026-10-22T10:06:00Z"
+    }
+   ]
+  },
+  "next": {
+   "slug": "china-weighs-in-on-gold",
+   "why": "The April-to-June quarter this one is read against."
+  },
+  "corrections": []
+ },
+ "zenith-opens-layoff-talks-at-le-locle": {
+  "v": 3,
+  "kicker": "Watches · Switzerland",
+  "figures": {
+   "asof": "cash.ch (AWP), 22 October 2026, 16:32; RTS, 22 October 2026. The consultation is company-confirmed; the job figures are one internal source quoted by AWP.",
+   "cells": [
+    {
+     "n": "100 of 196",
+     "dir": "down",
+     "label": "Le Locle jobs",
+     "q": "per AWP's internal source",
+     "src": 0
+    },
+    {
+     "n": "101",
+     "dir": "down",
+     "label": "Distribution jobs",
+     "q": "international network, same source",
+     "src": 0
+    },
+    {
+     "n": "About 200",
+     "dir": "down",
+     "label": "Worldwide total",
+     "q": "per cash.ch",
+     "src": 0
+    },
+    {
+     "n": "26 Oct",
+     "label": "Consultation opens",
+     "q": "Monday, per RTS",
+     "src": 1
+    }
+   ]
+  },
+  "changed": {
+   "lead": "The cuts are confirmed.",
+   "text": "Zenith confirmed it has opened a mass-layoff consultation as part of a planned strategic repositioning. An internal source quoted by AWP says about 100 of 196 jobs at Le Locle are affected."
+  },
+  "means": [
+   {
+    "who": "If you stock Zenith:",
+    "text": "The brand is moving to the top luxury tier and cutting volume, per the same source."
+   },
+   {
+    "who": "If you read the export figures:",
+    "text": "Swiss watch exports rose 11.7% in September. Zenith cites the franc and tariffs, and its own oversized structure."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A final number. Zenith will say more only after the consultation."
+   }
+  ],
+  "sections": [
+   {
+    "h": "Half of Le Locle at risk",
+    "p": [
+     {
+      "lead": "Staff were told.",
+      "text": "Management told staff on Thursday morning, RTS reports. About 200 jobs are at stake worldwide, per cash.ch."
+     },
+     {
+      "lead": "Talks open Monday.",
+      "text": "The consultation between the social partners opens on Monday 26 October, RTS reports."
+     },
+     {
+      "lead": "One source, one wire.",
+      "text": "The 100, 196 and 101 come from one internal source quoted by AWP. cash.ch and RTS carry the same figures."
+     }
+    ]
+   },
+   {
+    "h": "The reasons Zenith gives",
+    "p": [
+     {
+      "lead": "Costs and currency.",
+      "text": "RTS reports the company cited the strong franc, tariffs and geopolitics. It also named an oversized industrial and commercial arm that weighs on costs."
+     },
+     {
+      "lead": "Losses for years.",
+      "text": "The source told AWP the brand has lost money for years, apart from a post-pandemic rebound. It called the shift a matter of survival."
+     }
+    ]
+   },
+   {
+    "h": "A sale was denied",
+    "p": [
+     {
+      "lead": "LVMH keeps it.",
+      "text": "LVMH firmly rejected rumours of a sale of Zenith in January, cash.ch reports. The source quoted by AWP also denied such plans."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "26 October",
+    "what": "The consultation opens, and whether unions publish their own count."
+   },
+   {
+    "when": "After the consultation",
+    "what": "Zenith's own figures, which would replace the source's."
+   },
+   {
+    "when": "Mid-November",
+    "what": "Swiss watch exports for October, the market the brand says it is shrinking within."
+   }
+  ],
+  "depth": {
+   "reverse": "A company figure well below 100 at Le Locle once the consultation closes. Then the source's count was the opening position, not the outcome.",
+   "built": {
+    "title": "How a Swiss mass layoff works",
+    "text": "Under the Swiss Code of Obligations, an employer planning a mass layoff must consult staff representatives and notify the cantonal employment office. The consultation lets staff propose ways to avoid or reduce the cuts."
+   },
+   "method": "cash.ch, 'LVMH-Marke Zenith will in Le Locle jede zweite Stelle streichen', AWP copy, dateline '22.10.2026 16:32', fetched 23 October 2026, 200, 158,838 bytes. Read in the body: 'Rund 100 der 196 Arbeitsplätze', 'rund 200 Stellen', 'Konsultationsverfahren für eine Massenentlassung', 'Weitere 101 Arbeitsplätze', 'erst nach Abschluss des Verfahrens', 'im vergangenen Januar entschieden zurückgewiesen', 'bestritt entsprechende Pläne'. RTS, fetched 23 October 2026, 200, 137,461 bytes, 'modifié hier à 20:33': 'où 196 personnes sont employées', 'jeudi matin', 's'ouvre lundi', 'franc fort', 'surdimensionné'. Monday after Thursday 22 October is 26 October. The Le Temps report that preceded the wire was not read. The September export figure is from Carat Capital's 20 October report of FH data. ARCHIVE: Carat Capital's archive, 'Zenith' 3 rows, opened: LVMH group pieces, none on Le Locle or jobs; 'Locle' 0. NEW.",
+   "prior": [
+    {
+     "date": "2026-10-20",
+     "slug": "swiss-watch-exports-rise-eleven-point-seven",
+     "claim": "Swiss watch exports rose 11.7% in September, a fourth straight monthly gain."
+    }
+   ],
+   "sources": [
+    {
+     "title": "cash.ch (AWP), LVMH-Marke Zenith will in Le Locle jede zweite Stelle streichen",
+     "url": "https://www.cash.ch/news/top-news/lvmh-marke-zenith-will-in-le-locle-jede-zweite-stelle-streichen-978945",
+     "published": "2026-10-22T14:32:00Z"
+    },
+    {
+     "title": "RTS, L'horloger Zenith supprime une centaine de postes au Locle",
+     "url": "https://www.rts.ch/info/economie/2026/article/l-horloger-zenith-supprime-une-centaine-de-postes-au-locle-29393381.html",
+     "published": "2026-10-22"
+    }
+   ]
+  },
+  "next": {
+   "slug": "swiss-watch-exports-rise-eleven-point-seven",
+   "why": "The export month the cuts arrive against."
   },
   "corrections": []
  }

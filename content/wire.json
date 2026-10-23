@@ -1,35 +1,35 @@
 {
  "date_line": "Sunday, October 18, 2026 | Vol. I - No. 090",
- "edition": "Vol. I - No. 094",
+ "edition": "Vol. I - No. 095",
  "items": [
   {
-   "slug": "christies-puts-twenty-six-million-on-a-sky-moon",
-   "desk": "Watches",
-   "title": "Christie's puts HK$26.5m–43m on a Patek Sky Moon in Hong Kong"
-  },
-  {
-   "slug": "de-beers-pays-one-billion-pula-into-botswana-fund",
+   "slug": "petra-diamonds-holders-face-a-share-suspension",
    "desk": "Diamonds & Rough",
-   "title": "De Beers pays 1bn pula into Botswana fund, JCK reports"
+   "title": "Petra Diamonds holders face a share suspension from 2 November"
   },
   {
-   "slug": "gjepc-targets-fifty-million-in-new-zealand",
-   "desk": "Diamonds & Rough",
-   "title": "GJEPC targets $50m in New Zealand as trade pact takes effect"
+   "slug": "newmont-reports-1454-an-ounce-all-in-cost",
+   "desk": "Gold & Metals",
+   "title": "Newmont reports $1,454 an ounce all-in cost on $4,317 gold"
   },
   {
-   "slug": "paspaley-sells-through-fourteen-us-doors",
+   "slug": "chow-tai-fook-names-gold-loan-gains-first",
    "desk": "Retail & Technology",
-   "title": "Paspaley sells through 14 US doors and caps new partners each year"
+   "title": "Chow Tai Fook names gold-loan gains first in 90–100% profit alert"
+  },
+  {
+   "slug": "zenith-opens-layoff-talks-at-le-locle",
+   "desk": "Watches",
+   "title": "Zenith opens layoff talks at Le Locle; source says 100 of 196 jobs"
   }
  ],
- "tape_ts": "Kitco bid, board stamp 2026-10-22T04:58:55.677Z, tape's 05:00 ET opening mark 22 Oct",
+ "tape_ts": "Kitco bid, board stamp 2026-10-23T05:01:01.07Z, tape's 05:00 ET opening mark 23 Oct",
  "tape": [
   {
    "name": "Gold / oz",
    "code": "XAU",
-   "px": "4,081.20",
-   "chg": "-0.9369% vs 21 Oct mark",
+   "px": "4,020.90",
+   "chg": "-1.4775% vs 22 Oct mark",
    "dir": "down",
    "pts": [
     5,
@@ -85,8 +85,8 @@
   {
    "name": "Platinum / oz",
    "code": "XPT",
-   "px": "1,577.00",
-   "chg": "-3.0135% vs 21 Oct mark",
+   "px": "1,555.00",
+   "chg": "-1.3951% vs 22 Oct mark",
    "dir": "down",
    "pts": [
     2,
@@ -104,8 +104,8 @@
   {
    "name": "Silver / oz",
    "code": "XAG",
-   "px": "55.739",
-   "chg": "-2.4962% vs 21 Oct mark",
+   "px": "53.734",
+   "chg": "-3.5971% vs 22 Oct mark",
    "dir": "down",
    "pts": [
     2,
@@ -121,5 +121,5 @@
    ]
   }
  ],
- "editionDate": "2026-10-22"
+ "editionDate": "2026-10-23"
 }
