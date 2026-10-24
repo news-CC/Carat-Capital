@@ -1,35 +1,30 @@
 {
  "date_line": "Sunday, October 18, 2026 | Vol. I - No. 090",
- "edition": "Vol. I - No. 095",
+ "edition": "Vol. I - No. 096",
  "items": [
   {
-   "slug": "petra-diamonds-holders-face-a-share-suspension",
-   "desk": "Diamonds & Rough",
-   "title": "Petra Diamonds holders face a share suspension from 2 November"
-  },
-  {
-   "slug": "newmont-reports-1454-an-ounce-all-in-cost",
-   "desk": "Gold & Metals",
-   "title": "Newmont reports $1,454 an ounce all-in cost on $4,317 gold"
-  },
-  {
-   "slug": "chow-tai-fook-names-gold-loan-gains-first",
+   "slug": "luk-fooks-self-run-mainland-shops-post-39-percent",
    "desk": "Retail & Technology",
-   "title": "Chow Tai Fook names gold-loan gains first in 90–100% profit alert"
+   "title": "Luk Fook's self-run Mainland shops post +39% for 1–7 October"
   },
   {
-   "slug": "zenith-opens-layoff-talks-at-le-locle",
-   "desk": "Watches",
-   "title": "Zenith opens layoff talks at Le Locle; source says 100 of 196 jobs"
+   "slug": "zijin-takes-control-of-chifeng-gold",
+   "desk": "Gold & Metals",
+   "title": "Zijin takes control of Chifeng Gold; third-quarter profit falls 41.84%"
+  },
+  {
+   "slug": "lyon-and-turnbull-sells-98-of-113-jewellery-lots",
+   "desk": "Auctions",
+   "title": "Lyon & Turnbull sells 98 of 113 London jewellery lots"
   }
  ],
- "tape_ts": "Kitco bid, board stamp 2026-10-23T05:01:01.07Z, tape's 05:00 ET opening mark 23 Oct",
+ "tape_ts": "Kitco bid, board stamp 2026-10-23T17:00:00Z, tape's 05:00 ET opening mark 24 Oct",
  "tape": [
   {
    "name": "Gold / oz",
    "code": "XAU",
-   "px": "4,020.90",
-   "chg": "-1.4775% vs 22 Oct mark",
+   "px": "3,994.90",
+   "chg": "-0.6466% vs 23 Oct mark",
    "dir": "down",
    "pts": [
     5,
@@ -85,8 +80,8 @@
   {
    "name": "Platinum / oz",
    "code": "XPT",
-   "px": "1,555.00",
-   "chg": "-1.3951% vs 22 Oct mark",
+   "px": "1,548.00",
+   "chg": "-0.4502% vs 23 Oct mark",
    "dir": "down",
    "pts": [
     2,
@@ -104,9 +99,9 @@
   {
    "name": "Silver / oz",
    "code": "XAG",
-   "px": "53.734",
-   "chg": "-3.5971% vs 22 Oct mark",
-   "dir": "down",
+   "px": "53.796",
+   "chg": "+0.1154% vs 23 Oct mark",
+   "dir": "up",
    "pts": [
     2,
     4,
@@ -121,5 +116,5 @@
    ]
   }
  ],
- "editionDate": "2026-10-23"
+ "editionDate": "2026-10-24"
 }

@@ -105,6 +105,30 @@ if PRICES.get("headline"):
             if _ytd is not None:
                 _t["chg"] = ("\u2212" if _ytd < 0 else "+") + f"{abs(_ytd):.1f}% YTD"
                 _t["dir"] = "down" if _ytd < 0 else "up"
+            # 2026-10-24 (caratdesk, carrying caratcheck 21 Oct / carateditor 22 Oct / caratwire 23 Oct):
+            # a carried mark never prints as if current. When the price list's own point is older
+            # than the edition, or the edition's tape marks the RAPI line anything but fresh, the
+            # cell says "carried" and the point's own date, read from the data, never typed here.
+            _pd = PRICES["headline"].get("rapi_date") or ""
+            _edd = WIRE.get("editionDate") or ""
+            _tst = None
+            try:
+                _tp = ROOT.parent / "newsroom" / "tape" / ("%s.json" % _edd)
+                if _edd and _tp.exists():
+                    for _m in json.loads(_tp.read_text()).get("marks", []):
+                        if _m.get("key") == "diamond_index_rapi":
+                            _tst = _m.get("status")
+            except Exception:
+                _tst = None
+            if _pd and ((_edd and _pd < _edd) or (_tst and _tst != "fresh")):
+                import datetime as _dtc
+                try:
+                    _pdd = _dtc.date.fromisoformat(_pd)
+                    _pds = "%d %s" % (_pdd.day, _pdd.strftime("%b"))
+                except ValueError:
+                    _pds = _pd
+                _t["chg"] = ((_t.get("chg") or "") + " \u00b7 carried, " + _pds).lstrip(" \u00b7")
+                _t["carried"] = _pd
 
 # The lab-grown mark is the midpoint of the published CVD wholesale band for a
 # one-carat D-F/VS stone. Same lock, same reason: the chip and the list it opens
@@ -124,6 +148,17 @@ if LAB.get("headline"):
             else:
                 _t["chg"] = ""
                 _t["dir"] = "flat"
+            # 2026-10-24 (caratcheck 23 Oct fault 9a): the 475 is a midpoint of a published band,
+            # last re-read on trade_date. Say so in the cell, with the date from the data file.
+            _ltd = LAB["headline"].get("trade_date") or ""
+            if _ltd:
+                import datetime as _dtl
+                try:
+                    _ltdd = _dtl.date.fromisoformat(_ltd)
+                    _lts = "%d %s" % (_ltdd.day, _ltdd.strftime("%b"))
+                except ValueError:
+                    _lts = _ltd
+                _t["chg"] = ((_t.get("chg") or "") + " · band midpoint, read " + _lts).lstrip(" ·")
 
 def lead_article():
     for a in ARTICLES:
