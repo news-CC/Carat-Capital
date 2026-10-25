@@ -131388,7 +131388,7 @@
     "what": "Phillips' full catalogue and any revised estimates. The figures above are a pre-catalogue announcement, not a final book."
    },
    {
-    "when": "Mid-November 2026",
+    "when": "November 2026, dates not confirmed",
     "what": "Christie's and Sotheby's Geneva jewellery weeks price comparable Kashmir material in the same fortnight."
    }
   ],
@@ -131412,12 +131412,16 @@
      "url": "https://rapaport.com/news/fancy-vivid-blue-diamond-and-sapphire-rings-to-headline-at-phillips/",
      "published": "2026-10-04"
     }
+   ],
+   "corrections": [
+    "Clarified, 25 October 2026: a What to watch line was dated 'Mid-November'. No date has been set: Christie's Geneva jewellery sale has no confirmed date, and Sotheby's Geneva dates rest on a search summary. The line now says so. Found in a Carat Capital audit of 25 October 2026."
    ]
   },
   "next": {
    "slug": "rapi-point-three-oh-adds-three-point-two",
    "why": "What the polished index says about the market these estimates are being set into."
-  }
+  },
+  "modified": "2026-10-25"
  },
  "thirty-one-four-tops-a-four-twenty-six-sale": {
   "v": 3,
@@ -132569,7 +132573,7 @@
     "what": "The gold price itself. September's addition came in a month that fell; October tests whether the pace holds when the metal is not cheapening."
    },
    {
-    "when": "Mid-November 2026",
+    "when": "Date not announced",
     "what": "World Gold Council quarterly demand trends, which price official-sector buying in tonnes against these monthly reserve prints."
    }
   ],
@@ -132613,12 +132617,16 @@
      "url": "https://caratcapital.org/prices.html",
      "published": "2026-10-07"
     }
+   ],
+   "corrections": [
+    "Clarified, 25 October 2026: a What to watch line was dated 'Mid-November'. No date has been set: the World Gold Council has not announced the date of its third-quarter demand report. The line now says so. Found in a Carat Capital audit of 25 October 2026."
    ]
   },
   "next": {
    "slug": "forty-seven-three-hundred-after-a-quiet-winter",
    "why": "The other side of the same month: what a mint sold while a central bank bought."
-  }
+  },
+  "modified": "2026-10-25"
  },
  "forty-seven-three-hundred-after-a-quiet-winter": {
   "v": 3,
@@ -134388,7 +134396,7 @@
     "what": "Indian gold prices against the studded mix. Plain gold grew about 20% with the metal near records; studded is the volume signal."
    },
    {
-    "when": "Mid-November 2026",
+    "when": "Date not announced",
     "what": "Titan's full quarterly results with margins, which this operational disclosure does not carry."
    }
   ],
@@ -134417,11 +134425,15 @@
      "url": "https://rapaport.com/news/titan-sees-surge-in-diamond-jewelry-sales-in-second-quarter/",
      "published": "2026-10-07"
     }
+   ],
+   "corrections": [
+    "Clarified, 25 October 2026: a What to watch line was dated 'Mid-November'. No date has been set: Titan has not announced the date of its quarterly results. The line now says so. Found in a Carat Capital audit of 25 October 2026."
    ]
   },
   "next": {
    "slug": "titan-calls-the-price-stable"
-  }
+  },
+  "modified": "2026-10-25"
  },
  "fifty-million-for-elizabeth-bay": {
   "v": 3,
@@ -137752,11 +137764,15 @@
      "url": "https://caratcapital.org/a-a-wage-survey-for-the-cutters.html",
      "published": "2026-09-27"
     }
+   ],
+   "corrections": [
+    "Clarified, 25 October 2026: this article names the union's vice-president as Bhavesh Shah, as its source, Divya Bhaskar of 9 October, does. The Indian Express of 24 October names the Surat vice-president of the Diamond Workers Union Gujarat as Bhavesh Tank. Carat Capital has not established which surname is right, or whether the two reports describe the same post. Found by Carat Capital's Bureau on 25 October 2026."
    ]
   },
   "next": {
    "slug": "a-wage-survey-for-the-cutters"
-  }
+  },
+  "modified": "2026-10-25"
  },
  "ninety-percent-sanctioned-without-an-officer": {
   "v": 3,
@@ -143602,7 +143618,7 @@
   ],
   "watch": [
    {
-    "when": "Mid-November",
+    "when": "Mid-month, date not announced",
     "what": "October's trade data. A third fall would extend the pattern into the wedding season; a rebound would test the duty reading."
    },
    {
@@ -143639,13 +143655,17 @@
      "url": "https://www.thehansindia.com/business/market-compass/gold-silver-imports-slump-in-sept-switzerland-top-source-1132763",
      "published": "2026-10-16"
     }
+   ],
+   "corrections": [
+    "Clarified, 25 October 2026: a What to watch line was dated 'Mid-November'. No date has been set: the Commerce Ministry has not announced the date of its October trade release. The line now says so. Found in a Carat Capital audit of 25 October 2026."
    ]
   },
   "next": {
    "slug": "india-imports-fall-forty-five",
    "why": "August's 45% fall, the first month of the run."
   },
-  "corrections": []
+  "corrections": [],
+  "modified": "2026-10-25"
  },
  "india-rough-imports-rise-in-carats": {
   "v": 3,
@@ -143785,10 +143805,6 @@
    {
     "when": "Monthly",
     "what": "AWDC's Antwerp figures for September, which show whether the rough trade moved the same way at the other end."
-   },
-   {
-    "when": "Ongoing",
-    "what": "A rough-import line from GJEPC itself. Its 14 October statement carries exports only, so the rough figures remain Angel One's reading."
    }
   ],
   "depth": {
@@ -143824,7 +143840,8 @@
    ],
    "corrections": [
     "Correction, 20 October 2026: an earlier version of this article said GJEPC had not posted its September statement on its own site, and its Method said the council's own pages carried none. That was wrong. GJEPC published the statement on 14 October at gjepc.org, linked from its homepage. Re-read at 06:00 EDT on 20 October, 38,669 bytes, it carries every export row in the table: '1.29 billion' 1 hit, '5.44' 1, '151.43' 1, '40.72' 1, '5.81 billion' 2, '4.64' 1. It carries no rough-import line: in the same 38,669 bytes, '130.17', '65.65', '15.14', '592.24' and '16.81' each return 0 hits. Where the error came from: the desk read two other GJEPC pages and not the news page that held the statement. What was right as published: every figure in the article. The rough-import figures then rested on Angel One alone; see the note of 24 October. The watch line on GJEPC's October figures also now reads the pre-Diwali month; Diwali falls on 8 November. Found by this paper's standards desk on 19 October 2026.",
-    "Correction, 24 October 2026: the 20 October note said the rough-import figures rest on Angel One alone. GJEPC's own master statement for September, dated 13 October, carries every one of them: US$1,046.23 million, up 15.14%, and 130.17 lakh carats, up 65.65% on 78.58 lakh. The sources now name it. The table's September per-carat value read 'about $81', worked from the rounded $1.05 billion; GJEPC prints $80.37, and the six-month figure is now GJEPC's $84.46. What was right as published: every rough-import figure and both percentage changes. Raised by Carat Capital's Managing Editor on 22 October 2026."
+    "Correction, 24 October 2026: the 20 October note said the rough-import figures rest on Angel One alone. GJEPC's own master statement for September, dated 13 October, carries every one of them: US$1,046.23 million, up 15.14%, and 130.17 lakh carats, up 65.65% on 78.58 lakh. The sources now name it. The table's September per-carat value read 'about $81', worked from the rounded $1.05 billion; GJEPC prints $80.37, and the six-month figure is now GJEPC's $84.46. What was right as published: every rough-import figure and both percentage changes. Raised by Carat Capital's Managing Editor on 22 October 2026.",
+    "Clarified, 25 October 2026: a What to watch line still said GJEPC's statement carries exports only and the rough figures remain Angel One's reading. That contradicted this page's note of 24 October: GJEPC's September master statement carries every rough figure. The line has been removed. What was right as published: every figure. Found by Carat Capital's standards desk on 24 October 2026."
    ]
   },
   "next": {
@@ -143832,7 +143849,7 @@
    "why": "The export side of the same September release."
   },
   "corrections": [],
-  "modified": "2026-10-24"
+  "modified": "2026-10-25"
  },
  "eight-seventeen-carats-sells-under-its-low": {
   "v": 3,
@@ -147097,7 +147114,7 @@
   "v": 3,
   "kicker": "Retail · Hong Kong",
   "figures": {
-   "asof": "RTHK, 22 October 2026, 17:22 HKT, and on.cc, 22 October 2026, 16:33, reporting the company's announcement. The HKEX filing itself was not read.",
+   "asof": "RTHK, 22 October 2026, 17:22 HKT, and on.cc, 22 October 2026, 16:33, reporting the company's announcements. The HKEX operational data and profit alert were read on 24 and 25 October.",
    "cells": [
     {
      "n": "+90–100%",
@@ -147180,7 +147197,7 @@
     ],
     [
      "Chow Tai Fook jewellery points",
-     "263 closed, 23 opened",
+     "23 opened, 263 closed, net 240 closed",
      "net 1 opened"
     ]
    ],
@@ -147258,7 +147275,7 @@
     "title": "How a gold-loan gain arises",
     "text": "Under a gold-loan contract a jeweller borrows gold and owes gold back. The contract is revalued at the gold price, so a gain or loss lands in profit as the price moves."
    },
-   "method": "RTHK Chinese-language report, page stamp '2026-10-22 HKT 17:22', fetched 23 October 2026, 200, 80,073 bytes. on.cc report, dateline '2026年10月22日 16:33', fetched 23 October 2026, 200, 20,064 bytes. Read in the bodies: '約90%至1倍' (RTHK) and '約90至100%' (on.cc) for the alert; '黃金借貸合約重估產生公允值收益' in both; RTHK '零售值按年跌0.5%', '33.2%', '5.3%', '逾83%', '近17%', '29.6%', '2.2%', '5192個', '242個'; on.cc '9.7%', '14%', '23個', '263個', '淨關閉240個'. RTHK's 242 is the group's total points; on.cc's 240 is the mainland net for Chow Tai Fook Jewellery points, so the two are different counts. The HKEX announcement was not read; a search found only earlier alerts. The prior-year half's profit was not re-read, so no Hong Kong dollar range is printed. Luk Fook: on.cc, dateline '2026年10月22日 18:06', fetched 23 October 2026, 200, 20,304 bytes: '同店銷售分別升8%、23%及12%' (retail value, retail revenue, same-store), '同店銷售升13%', '同店銷售升3%'; on.cc does not say 'year on year' on those lines. ARCHIVE, by entity and period: 'Chow Tai Fook' with 'profit alert' 0 rows; 'same-store' 3 rows, opened: the 26 July report covers April to June, group retail value +15.1%. This is July to September and the half: ADVANCED. Luk Fook's 22 July report covers April to June: ADVANCED. Re-read 24 October 2026 for the correction below: Chow Tai Fook's HKEX operational data, 200, 254,871 bytes, PDF created 14:32 HKT 22 October 2026: 'RSV growth –5.3% +33.2%' under a 'Hong Kong & Macao of China and other markets' column, 'Same Store Sales' '+2.2% +29.6%' and 'SSS volume growth –9.7% +14.0%' under a 'Hong Kong & Macao of China' column, 'Contribution to Group RSV 83.3% 16.7%', and 'closed 263 POS' for Chow Tai Fook Jewellery in the Mainland. April to June mainland growth of 10.7% is from Carat Capital's 26 July report of the company's previous quarter.",
+   "method": "RTHK Chinese-language report, page stamp '2026-10-22 HKT 17:22', fetched 23 October 2026, 200, 80,073 bytes. on.cc report, dateline '2026年10月22日 16:33', fetched 23 October 2026, 200, 20,064 bytes. Read in the bodies: '約90%至1倍' (RTHK) and '約90至100%' (on.cc) for the alert; '黃金借貸合約重估產生公允值收益' in both; RTHK '零售值按年跌0.5%', '33.2%', '5.3%', '逾83%', '近17%', '29.6%', '2.2%', '5192個', '242個'; on.cc '9.7%', '14%', '23個', '263個', '淨關閉240個'. RTHK's 242 is the group's total points; on.cc's 240 is the mainland net for Chow Tai Fook Jewellery points, so the two are different counts. The HKEX operational data was read on 24 October (below), and the HKEX profit alert on 25 October. The prior-year half's profit was not re-read, so no Hong Kong dollar range is printed. Luk Fook: on.cc, dateline '2026年10月22日 18:06', fetched 23 October 2026, 200, 20,304 bytes: '同店銷售分別升8%、23%及12%' (retail value, retail revenue, same-store), '同店銷售升13%', '同店銷售升3%'; on.cc does not say 'year on year' on those lines. ARCHIVE, by entity and period: 'Chow Tai Fook' with 'profit alert' 0 rows; 'same-store' 3 rows, opened: the 26 July report covers April to June, group retail value +15.1%. This is July to September and the half: ADVANCED. Luk Fook's 22 July report covers April to June: ADVANCED. Re-read 24 October 2026 for the correction below: Chow Tai Fook's HKEX operational data, 200, 254,871 bytes, PDF created 14:32 HKT 22 October 2026: 'RSV growth –5.3% +33.2%' under a 'Hong Kong & Macao of China and other markets' column, 'Same Store Sales' '+2.2% +29.6%' and 'SSS volume growth –9.7% +14.0%' under a 'Hong Kong & Macao of China' column, 'Contribution to Group RSV 83.3% 16.7%', and 'closed 263 POS' for Chow Tai Fook Jewellery in the Mainland. April to June mainland growth of 10.7% is from Carat Capital's 26 July report of the company's previous quarter. Profit alert re-read 25 October 2026 at HKEX, 200, 44,330 bytes: '90' 1, '100%' 1, 'gold loan' 1, 'end of November 2026' 1; reason (b) is 'improved sales performance in the Group's key markets'.",
    "prior": [
     {
      "date": "2026-07-26",
@@ -147291,10 +147308,16 @@
      "title": "Chow Tai Fook Jewellery Group, operational data for the quarter ended 30 September 2026 (HKEX)",
      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1022/2026102200383.pdf",
      "published": "2026-10-22"
+    },
+    {
+     "title": "Chow Tai Fook Jewellery Group, Positive Profit Alert (HKEX)",
+     "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1022/2026102200335.pdf",
+     "published": "2026-10-22"
     }
    ],
    "corrections": [
-    "Correction, 24 October 2026: a subhead in this article read 'The mainland shrank again'. In April to June, the previous quarter, Chow Tai Fook's mainland retail value grew 10.7%, as Carat Capital reported on 26 July, so 'again' was wrong; the subhead now reads 'The mainland turned down' and the paragraph gives the earlier quarter. Four labels also changed against the company's HKEX filing: the 263 closures are Chow Tai Fook Jewellery points, not the group's; 'Fewer pieces sold' is now 'Volume fell', because the measure is same-store volume; the +29.6% same-store figure covers Hong Kong and Macao only, while +33.2% includes other markets; and 'Hong Kong carried the quarter' is now 'Hong Kong offset most of it', since group retail value still fell 0.5%. What was right as published: every figure. Found by Carat Capital's standards desk on 23 October 2026."
+    "Correction, 24 October 2026: a subhead in this article read 'The mainland shrank again'. In April to June, the previous quarter, Chow Tai Fook's mainland retail value grew 10.7%, as Carat Capital reported on 26 July, so 'again' was wrong; the subhead now reads 'The mainland turned down' and the paragraph gives the earlier quarter. Four labels also changed against the company's HKEX filing: the 263 closures are Chow Tai Fook Jewellery points, not the group's; 'Fewer pieces sold' is now 'Volume fell', because the measure is same-store volume; the +29.6% same-store figure covers Hong Kong and Macao only, while +33.2% includes other markets; and 'Hong Kong carried the quarter' is now 'Hong Kong offset most of it', since group retail value still fell 0.5%. What was right as published: every figure. Found by Carat Capital's standards desk on 23 October 2026.",
+    "Clarified, 25 October 2026: the page said the HKEX filing was not read, while also citing it. The HKEX operational data was read on 24 October and the HKEX profit alert on 25 October; both now appear in the sources. The closures cell now states the mainland net. What was right as published: every figure. Found by Carat Capital's standards desk on 24 October 2026."
    ]
   },
   "next": {
@@ -147302,7 +147325,7 @@
    "why": "The April-to-June quarter this one is read against."
   },
   "corrections": [],
-  "modified": "2026-10-24"
+  "modified": "2026-10-25"
  },
  "zenith-opens-layoff-talks-at-le-locle": {
   "v": 3,
@@ -147564,7 +147587,7 @@
      },
      {
       "lead": "The quarter was slower.",
-      "text": "For July to September, self-operated Mainland same-store sales rose 3% and licensed shops 1%. Neither company gives a reason for the first week beyond the price gap."
+      "text": "For July to September, self-operated Mainland same-store sales rose 3% and licensed shops 1%. Luk Fook gives no reason for the Mainland jump; it names the price gap for Hong Kong and Macao."
      }
     ]
    },
@@ -147626,13 +147649,17 @@
      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1022/2026102200335.pdf",
      "published": "2026-10-22"
     }
+   ],
+   "corrections": [
+    "Clarified, 25 October 2026: a sentence said neither company gives a reason for the first week beyond the price gap. Chow Tai Fook reports no first-week figure, and Luk Fook names the price gap for Hong Kong and Macao, not for its Mainland self-run jump. The sentence now says so. What was right as published: every figure. Found by Carat Capital's standards desk on 24 October 2026."
    ]
   },
   "next": {
    "slug": "chow-tai-fook-names-gold-loan-gains-first",
    "why": "Chow Tai Fook's quarter, and why its profit alert leads on gold loans."
   },
-  "corrections": []
+  "corrections": [],
+  "modified": "2026-10-25"
  },
  "zijin-takes-control-of-chifeng-gold": {
   "v": 3,
@@ -147642,7 +147669,7 @@
    "cells": [
     {
      "n": "25.85%",
-     "label": "Zijin Gold's holding",
+     "label": "Zijin Gold and concert parties",
      "q": "572 million A and H shares",
      "src": 0
     },
@@ -147789,13 +147816,17 @@
      "url": "https://www.guandian.cn/article/20261023/617420.html",
      "published": "2026-10-23"
     }
+   ],
+   "corrections": [
+    "Correction, 25 October 2026: the summary and a key figure said Zijin Gold holds about 25.85% of Chifeng, 572 million A and H shares. The China Business Journal report gives that stake to Zijin Gold and its concert parties together; Zijin Gold's own purchases on this page, 242 million A-shares and 311 million new H-shares, come to 553 million. Both now say Zijin Gold and concert parties. What was right as published: every figure, and the body's wording. Found by Carat Capital's standards desk on 24 October 2026."
    ]
   },
   "next": {
    "slug": "newmont-reports-1454-an-ounce-all-in-cost",
    "why": "Another miner's quarter, with its cost per ounce."
   },
-  "corrections": []
+  "corrections": [],
+  "modified": "2026-10-25"
  },
  "lyon-and-turnbull-sells-98-of-113-jewellery-lots": {
   "v": 3,
@@ -147892,16 +147923,20 @@
      "£17,000"
     ]
    ],
-   "note": "Carat Capital's sums from the 113 lot records: 98 marked sold, 15 unsold; 98/113 = 86.7%. Sold lots' estimates total £215,900 to £308,450; 323,620/308,450 = 1.049, so 4.9% above the high. Pearl lots 113, 28 and 25: 61,000/21,000 = 2.9 times their high estimates.",
+   "note": "Carat Capital's sums from the 113 lot records: 98 marked sold, 15 unsold; 98/113 = 86.7%. Sold lots' estimates total £215,900 to £308,450; 323,620/308,450 = 1.049, so 4.9% above the high. Pearl lots 113, 28 and 25: 61,000/21,000 = 2.9 times their high estimates. Without lots 113, 28 and 25: 323,620 − 61,000 = 262,620 against 308,450 − 21,000 = 287,450; 262,620/287,450 = 0.914, so 8.6% below. Without lots 113, 28 and 25: 323,620 − 61,000 = 262,620 against 308,450 − 21,000 = 287,450; 262,620/287,450 = 0.914, so 8.6% below.",
    "plate": "CC/2026/327"
   },
   "sections": [
    {
-    "h": "Sold lots beat their high estimates",
+    "h": "Pearls carried the sale past estimate",
     "p": [
      {
       "lead": "Above the top.",
-      "text": "The 98 sold lots carried estimates totalling £215,900 to £308,450. Their hammer total is 4.9% above the top of that range, on Carat Capital's division."
+      "text": "The 98 sold lots made 4.9% more than their combined high estimates of £308,450, on Carat Capital's division."
+     },
+     {
+      "lead": "Not without pearls.",
+      "text": "Without the three natural pearl lots, the other 95 sold lots made £262,620 against £287,450 in high estimates, 8.6% under."
      },
      {
       "lead": "Fifteen failed.",
@@ -147942,7 +147977,7 @@
   "watch": [
    {
     "when": "24 November",
-    "what": "Christie's Hong Kong Magnificent Jewels, the next large test of diamond and pearl bidding."
+    "what": "Christie's Hong Kong Magnificent Jewels Autumn, the next large jewellery sale on Carat Capital's calendar."
    },
    {
     "when": "Not dated",
@@ -147955,7 +147990,7 @@
     "title": "How the sums are built",
     "text": "Each lot record on the sale page carries its estimate, hammer price, buyer's premium and status. Carat Capital added the hammer prices of the 98 lots marked sold. Adding the house's premium fields gives £414,118.60; premium runs 28% to £25,000, then 27% and 26% in higher bands."
    },
-   "method": "Lyon & Turnbull, 'London Jewellery | 21 October 2026', sale 921, fetched by the Bureau 24 October 2026, 200, 334,769 bytes. The Editor parsed the page's embedded lot array this run: 113 records, 113 distinct lot numbers, currency GBP, session date 2026-10-21T13:00Z; status 'sold' 98, 'unsold' 15; hammer above zero on exactly the 98 sold; hammer sum 323,620.0; premium sum 90,498.60; sold lots' low estimates 215,900 and high estimates 308,450; 37 sold above the high, 46 within, 15 below the low. Premium tiers in the lot data: 28% from £0, 27% over £25,000, 26% over £500,000. The house publishes no sale total; the page has no dateline. The sale is three days old; Carat Capital had not reported it. ARCHIVE, by entity: Carat Capital's archive, 'Lyon' with 'Turnbull' 0 rows; 'natural pearl' 3 rows, opened: Bonhams pearl results of 14 and 21 July and a 2 August piece; none covers this sale. NEW.",
+   "method": "Lyon & Turnbull, 'London Jewellery | 21 October 2026', sale 921, fetched by the Bureau 24 October 2026, 200, 334,769 bytes. The Editor parsed the page's embedded lot array this run: 113 records, 113 distinct lot numbers, currency GBP, session date 2026-10-21T13:00Z; status 'sold' 98, 'unsold' 15; hammer above zero on exactly the 98 sold; hammer sum 323,620.0; premium sum 90,498.60; sold lots' low estimates 215,900 and high estimates 308,450; 37 sold above the high, 46 within, 15 below the low. Premium tiers in the lot data: 28% from £0, 27% over £25,000, 26% over £500,000. The house publishes no sale total; the page has no dateline. The sale is three days old; Carat Capital had not reported it. ARCHIVE, by entity: Carat Capital's archive, 'Lyon' with 'Turnbull' 0 rows; 'natural pearl' 3 rows, opened: Bonhams pearl results of 14 and 21 July and a 2 August piece; none covers this sale. NEW. Christie's sale date from its release as carried by artdaily, re-fetched 25 October 2026, 200, 98,117 bytes: '24 November 2026' 2 hits.",
    "prior": [
     {
      "date": "2026-07-14",
@@ -147968,12 +148003,719 @@
      "title": "Lyon & Turnbull, London Jewellery, 21 October 2026, sale 921 (lot data)",
      "url": "https://www.lyonandturnbull.com/auctions/london-jewellery-921",
      "published": "2026-10-21"
+    },
+    {
+     "title": "Christie's release, 'Christie's presents highlights from the Hong Kong Magnificent Jewels Autumn Auction', via artdaily",
+     "url": "https://artdaily.com/news/201431/Christie-s-presents-highlights-from-the-Hong-Kong-Magnificent-Jewels-Autumn-Auction",
+     "published": "2026-10-21"
     }
+   ],
+   "corrections": [
+    "Correction, 25 October 2026: a subhead read 'Sold lots beat their high estimates' and the summary said the hammer total was above the sold lots' combined high estimate, as a sale-wide result. That was true only because of three natural pearl lots; the other 95 sold lots made £262,620 against £287,450 in high estimates, 8.6% under. The subhead, summary and section now say so, and the Christie's sale date now carries its source. What was right as published: every figure. Found by Carat Capital's standards desk on 24 October 2026."
    ]
   },
   "next": {
    "slug": "pearls-run-the-table",
    "why": "The last time natural pearls ran this far past estimate."
+  },
+  "corrections": [],
+  "modified": "2026-10-25"
+ },
+ "newmont-puts-red-chris-block-cave-at-4-2-to-4-8-billion": {
+  "v": 3,
+  "kicker": "Gold & Metals",
+  "figures": {
+   "asof": "Newmont third-quarter 2026 results release, SEC Exhibit 99.1, dated 22 October 2026. Development capital on a 100% ownership basis, in real terms, including contingency.",
+   "cells": [
+    {
+     "n": "$4.2–4.8bn",
+     "label": "Development capital",
+     "q": "100% basis, net of the grant",
+     "src": 0
+    },
+    {
+     "n": "CAD$500m",
+     "label": "Canadian grant",
+     "q": "terms due before end-2026",
+     "src": 0
+    },
+    {
+     "n": "2033",
+     "label": "Commercial production",
+     "q": "construction from 2027",
+     "src": 0
+    },
+    {
+     "n": "275–325koz",
+     "dir": "up",
+     "label": "Gold a year, 2035–2040",
+     "q": "average, plus copper",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "A price on the cave.",
+   "text": "Newmont puts development capital for the Red Chris block cave in British Columbia at $4.2–4.8 billion. It calls this an updated estimate and does not give the earlier one."
+  },
+  "means": [
+   {
+    "who": "If you finance copper-gold projects:",
+    "text": "The range already counts a federal grant whose terms are still being negotiated."
+   },
+   {
+    "who": "If you hold Newmont:",
+    "text": "Newmont says it will pay from internal cash flows, with a full-funds decision expected in early 2027."
+   },
+   {
+    "who": "What this is not:",
+    "text": "An approved project. Newmont's board and the joint venture board must both still approve it."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "What Newmont gives for the Red Chris block cave",
+   "hi": 0,
+   "asof": "Newmont Exhibit 99.1, 22 October 2026. 100% basis unless stated",
+   "cols": [
+    "Measure",
+    "Figure",
+    "Basis"
+   ],
+   "rows": [
+    [
+     "Development capital",
+     "$4.2bn to $4.8bn",
+     "real terms, with contingency, net of grant"
+    ],
+    [
+     "In Canadian dollars",
+     "CAD$5.6bn to $6.4bn",
+     "at US$0.75 = CAD$1.00"
+    ],
+    [
+     "Government of Canada contribution",
+     "CAD$500m",
+     "announced July 2026; terms due before end-2026"
+    ],
+    [
+     "First phase output",
+     "3.0m oz gold, over 850kt copper",
+     "initial 13-year cave life"
+    ],
+    [
+     "Average output, 2035 to 2040",
+     "275koz to 325koz gold; 65kt to 85kt copper",
+     "per year"
+    ],
+    [
+     "Ownership",
+     "Newmont 70%, Imperial Metals 30%",
+     "Red Chris Joint Venture"
+    ]
+   ],
+   "note": "Excludes the cost of moving from open-pit mining to block caving, for which Newmont gives no figure. Newmont evaluated the project across scenarios including gold at $3,600 an ounce and copper at $5.00 a pound.",
+   "plate": "CC/2026/328"
+  },
+  "sections": [
+   {
+    "h": "The grant sits inside it",
+    "p": [
+     {
+      "lead": "Net of Ottawa.",
+      "text": "The range is net of a CAD$500 million contribution the Government of Canada announced in July. The joint venture expects to agree the terms in the coming months."
+     },
+     {
+      "lead": "One cost left out.",
+      "text": "The range excludes the cost of moving from open-pit mining to block caving. Newmont gives no figure for that transition."
+     }
+    ]
+   },
+   {
+    "h": "Six years to production",
+    "p": [
+     {
+      "lead": "Construction from 2027.",
+      "text": "Subject to both boards, construction is expected to start in 2027. Commercial production is targeted for 2033."
+     },
+     {
+      "lead": "Steady output later.",
+      "text": "Newmont expects an average of 275,000 to 325,000 ounces of gold a year from 2035 to 2040, with copper alongside."
+     }
+    ]
+   },
+   {
+    "h": "Planned at $3,600 gold",
+    "p": [
+     {
+      "lead": "Below the tape.",
+      "text": "Newmont's scenarios include gold at $3,600 an ounce. The tape's bid of $3,994.90, Friday's close, is 11.0% above that."
+     },
+     {
+      "lead": "Cheap to run, it says.",
+      "text": "Newmont expects the mine to be one of its lowest-cost operations over its life. It also expects a double-digit internal rate of return."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Before end-2026",
+    "what": "Final terms of the Government of Canada's CAD$500 million contribution."
+   },
+   {
+    "when": "Early 2027",
+    "what": "Newmont's full-funds investment decision, which also needs the joint venture board."
+   },
+   {
+    "when": "2027",
+    "what": "Construction start, if both boards approve."
+   }
+  ],
+  "depth": {
+   "reverse": "Grant terms that shrink the contribution, or a feasibility study that prices the open-pit transition high. Either would lift the real bill above $4.8 billion.",
+   "built": {
+    "title": "What the range covers",
+    "text": "The figure is development capital for the first block-cave phase. It is stated on a 100% ownership basis, in real terms, with contingency, after the grant. Newmont owns 70% of the joint venture and operates it; Imperial Metals owns 30%."
+   },
+   "method": "Newmont Exhibit 99.1 to its third-quarter 2026 filing, dateline 'DENVER, October 22, 2026', fetched by the Editor from sec.gov on 25 October 2026 with an identifying header, 200, 2,474,418 bytes; tags stripped and searched. Read in the text: 'Total development capital for the project is currently estimated between $4.2 and $4.8 billion in real terms' (1 hit); 'The updated capital estimate reflects the latest development plan' (1); 'net of the anticipated CAD$500 million contribution from the Government of Canada' ('CAD$500 million' 3); footnote 3, '100% ownership basis' (1), 'Estimates exclude costs to transition from open pit to block cave operations', 'CAD$5.6 and $6.4 billion' at 'US$0.75 = CAD$1.00'; footnote 4, terms 'expected to be finalized before the end of 2026'; 'expected to commence in 2027, with commercial production targeted for 2033' ('2033' 1); 'between 275 and 325 thousand ounces of gold per year, and between 65 and 85 thousand tonnes of copper per year between 2035 and 2040'; '3.0 million ounces of gold and more than 850 thousand tonnes of copper over its initial thirteen-year cave life'; 'Newmont owns 70% of the Red Chris Joint Venture'; 'Imperial Metals (TSX:III) owns 30%'; 'fund the capital investment through internal cash flows'; 'full-funds investment decision in early 2027'; footnote 5, 'gold at $3,600/oz and copper at $5.00/lb'. The release gives no earlier capital figure, so no change is printed. Gold: the tape's Kitco bid of 3,994.90, board stamp 23 October 2026; 3,994.90 / 3,600 = 1.110, so 11.0% above. ARCHIVE, by entity: Carat Capital's archive, 'Red Chris' 0 rows, 'block cave' 0 rows, 'Newmont' 1 row (23 October, opened: third-quarter all-in sustaining cost; no Red Chris figure). Same release, different subject: NEW to the paper.",
+   "prior": [
+    {
+     "date": "2026-10-23",
+     "slug": "newmont-reports-1454-an-ounce-all-in-cost",
+     "claim": "Newmont's third-quarter all-in sustaining cost fell 10% to $1,454 an ounce."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Newmont Corporation, Third Quarter 2026 Results, Exhibit 99.1 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1164727/000116472726000041/newmontq32026earningsrelea.htm",
+     "published": "2026-10-22"
+    },
+    {
+     "title": "Kitco precious metals board, gold bid, close of 23 October 2026 (Carat Capital tape)",
+     "url": "https://www.kitco.com/price/precious-metals",
+     "published": "2026-10-23"
+    }
+   ]
+  },
+  "next": {
+   "slug": "newmont-reports-1454-an-ounce-all-in-cost",
+   "why": "Newmont's quarter, from the same release."
+  },
+  "corrections": []
+ },
+ "india-us-gem-and-jewellery-exports-near-three-billion": {
+  "v": 3,
+  "kicker": "Diamonds",
+  "figures": {
+   "asof": "GJEPC release on the India-USA Virtual Exhibition of 23 October 2026, giving chairman Kirit Bhansali's figures. Rounded as he gave them; GJEPC publishes no table with them.",
+   "cells": [
+    {
+     "n": "Almost $3bn",
+     "label": "Exports to the US",
+     "q": "April to September 2026",
+     "src": 0
+    },
+    {
+     "n": "+6%",
+     "dir": "up",
+     "label": "Year on year",
+     "q": "'nearly', the chairman's word",
+     "src": 0
+    },
+    {
+     "n": "$2.77bn",
+     "label": "Same months of 2025",
+     "q": "the base",
+     "src": 0
+    },
+    {
+     "n": "−44%",
+     "dir": "down",
+     "label": "April to December 2025",
+     "q": "'more than', on tariff uncertainty",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "The US came back.",
+   "text": "India's gem and jewellery exports to the US rose nearly 6% to almost $3 billion in April to September, GJEPC chairman Kirit Bhansali said on 23 October."
+  },
+  "means": [
+   {
+    "who": "If you buy for US stores:",
+    "text": "GJEPC is pitching for holiday and 2027 orders."
+   },
+   {
+    "who": "If you export to the US:",
+    "text": "The chairman looks to a proposed India-US trade deal for clarity; it is not final."
+   },
+   {
+    "who": "What this is not:",
+    "text": "The old level. The US took nearly $10 billion in FY2024-25; six months at almost $3 billion is well under half."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "India's gem and jewellery exports to the US",
+   "hi": 3,
+   "asof": "GJEPC release, event of 23 October 2026. Figures as the chairman gave them",
+   "cols": [
+    "Period",
+    "Exports to the US",
+    "Change",
+    "Also given"
+   ],
+   "rows": [
+    [
+     "FY2024-25, April to March",
+     "nearly $10bn",
+     "not given",
+     "around 30% of India's gem and jewellery exports"
+    ],
+    [
+     "April to December 2025",
+     "not given",
+     "fell more than 44%",
+     "tariff uncertainty"
+    ],
+    [
+     "April to September 2025",
+     "$2.77bn",
+     "not given",
+     ""
+    ],
+    [
+     "April to September 2026",
+     "almost $3bn",
+     "up nearly 6%",
+     ""
+    ]
+   ],
+   "note": "Carat Capital's check: 2.77 × 1.06 = 2.94, consistent with 'almost US$3 billion'. Half of nearly $10 billion is about $5 billion, so six months at almost $3 billion is well under half the FY2024-25 total; that ignores seasonality.",
+   "plate": "CC/2026/329"
+  },
+  "sections": [
+   {
+    "h": "Six months after the fall",
+    "p": [
+     {
+      "lead": "Down 44% first.",
+      "text": "Exports to the US fell more than 44% in April to December 2025, Bhansali said, as tariff uncertainty hit trade."
+     },
+     {
+      "lead": "Up 6% now.",
+      "text": "April to September 2026 came in at almost $3 billion, against $2.77 billion a year earlier."
+     }
+    ]
+   },
+   {
+    "h": "A pitch for 2027 orders",
+    "p": [
+     {
+      "lead": "Thirty-five exporters online.",
+      "text": "India's Consulate General in New York and GJEPC ran a virtual exhibition for 35 Indian companies on 23 October. Many are small firms."
+     },
+     {
+      "lead": "A trade deal pending.",
+      "text": "Bhansali said the proposed India-US Bilateral Trade Agreement could bring clarity for exporters and buyers once its terms are final."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Mid-November 2026",
+    "what": "GJEPC's October export statement, the first month of the US holiday shipping season."
+   },
+   {
+    "when": "Not dated",
+    "what": "Terms of the proposed India-US Bilateral Trade Agreement."
+   }
+  ],
+  "depth": {
+   "reverse": "A GJEPC country table that puts the six months well under $2.94 billion. Then 'almost $3 billion' was rounded generously.",
+   "built": {
+    "title": "How the figure is reported",
+    "text": "The numbers are the chairman's, given in a speech and carried in GJEPC's release. They cover all gem and jewellery exports to the US. The release gives no product split and no table."
+   },
+   "method": "GJEPC news release, listed 'Oct 24, 2026', event 'on 23 October 2026', fetched by the Editor on 25 October 2026, 200, 34,368 bytes, read in the body: 'Between April and September 2026, India's gem and jewellery exports to the US grew nearly 6% year-on-year to almost US$3 billion, compared with US$2.77 billion in the corresponding period of 2025' ('almost US$3 billion' 1, 'nearly 6%' 1, '2.77 billion' 1); 'falling by more than 44% between April and December 2025' (1); 'around 30% of India's gem and jewellery exports, worth nearly US$10 billion, in FY2024-25'; '35 Indian companies' (1); the India-US Bilateral Trade Agreement sentence; the holiday, Valentine's Day and 2027 sourcing sentence. GJEPC's dollar figures are printed without the 'US' prefix in the text above. ARCHIVE, by entity and period: Carat Capital's archive, 'India-US' 0 rows; 'Bhansali' 5 rows, newest 18 October (September all-destination exports); no US-destination figure for any period. NEW.",
+   "prior": [
+    {
+     "date": "2026-10-18",
+     "slug": "one-nineteen-billion-of-gold-jewellery",
+     "claim": "Gold jewellery worth $1.19bn led India's September gem and jewellery exports."
+    }
+   ],
+   "sources": [
+    {
+     "title": "GJEPC, 'Indian Consulate in New York Hosts India-USA Virtual Jewellery Exhibition; Facilitated by GJEPC'",
+     "url": "https://www.gjepc.org/news_detail.php?news=indian-consulate-in-new-york-indian-hosts-india-usa-virtual-jewellery-exhibition-facilitated-by-gjepc-1",
+     "published": "2026-10-24"
+    }
+   ]
+  },
+  "next": {
+   "slug": "one-nineteen-billion-of-gold-jewellery",
+   "why": "India's September exports to every destination."
+  },
+  "corrections": []
+ },
+ "surat-diamond-unit-shuts-with-ten-lakh-unpaid": {
+  "v": 3,
+  "kicker": "Diamonds",
+  "figures": {
+   "asof": "The Indian Express, 24 October 2026, quoting Surat police and the Diamond Workers Union Gujarat. Rupee amounts are the union's and the police's; the unpaid balance is Carat Capital's subtraction.",
+   "cells": [
+    {
+     "n": "₹14.50 lakh",
+     "label": "Wages pending",
+     "q": "police and union",
+     "src": 0
+    },
+    {
+     "n": "₹4.50 lakh",
+     "dir": "up",
+     "label": "Paid in October",
+     "q": "union",
+     "src": 0
+    },
+    {
+     "n": "₹10 lakh",
+     "dir": "down",
+     "label": "Still unpaid",
+     "q": "Carat Capital's subtraction",
+     "src": 0
+    },
+    {
+     "n": "55",
+     "label": "Polishers at the unit",
+     "q": "union; 20 came forward",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "The owner left.",
+   "text": "Marutinandan Diamonds, a Varachha cutting and polishing unit, has shut and its owner is untraceable, police said on 23 October. On the union's figures, ₹10 lakh of wages is unpaid."
+  },
+  "means": [
+   {
+    "who": "If you run a Surat unit:",
+    "text": "Workers are taking unpaid wages to the union and the police before the Diwali break."
+   },
+   {
+    "who": "If you buy from Surat:",
+    "text": "The unit cut and polished both natural and lab-grown diamonds, the newspaper's sources say."
+   },
+   {
+    "who": "What this is not:",
+    "text": "Evidence of wider closures. This is one unit, and no count of others exists."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Marutinandan Diamonds, by the numbers given",
+   "hi": 2,
+   "asof": "The Indian Express, 24 October 2026",
+   "cols": [
+    "Measure",
+    "Figure",
+    "Who says"
+   ],
+   "rows": [
+    [
+     "Wages pending, total",
+     "₹14.50 lakh",
+     "police; union"
+    ],
+    [
+     "Paid in October's second week",
+     "₹4.50 lakh",
+     "union"
+    ],
+    [
+     "Still unpaid",
+     "₹10 lakh",
+     "Carat Capital's subtraction"
+    ],
+    [
+     "Polishers at the unit",
+     "55",
+     "union; unnamed sources say over 50"
+    ],
+    [
+     "Workers who came to the union",
+     "20",
+     "union"
+    ],
+    [
+     "One polisher's arrears, August and September",
+     "₹60,000",
+     "the polisher"
+    ]
+   ],
+   "note": "14.50 − 4.50 = 10.00 lakh rupees. The union says 20 of 55 came forward and 30 others are owed; 20 + 30 = 50, and the union does not account for the other five.",
+   "plate": "CC/2026/330"
+  },
+  "sections": [
+   {
+    "h": "Part-paid, then gone",
+    "p": [
+     {
+      "lead": "One payment came.",
+      "text": "The union says owner Kiritbhai Vagadiya paid ₹4.50 lakh in the second week of October and promised the rest on 19 October."
+     },
+     {
+      "lead": "Then silence.",
+      "text": "He did not come, and his phone was off on 20 October, the union says. Workers found his home locked."
+     }
+    ]
+   },
+   {
+    "h": "Police take statements first",
+    "p": [
+     {
+      "lead": "A complaint filed.",
+      "text": "The Diamond Workers Union Gujarat asked police on 22 October to register a cheating offence against the owner."
+     },
+     {
+      "lead": "No case yet.",
+      "text": "Inspector H B Patel says police will record polishers' statements, then file an offence report."
+     }
+    ]
+   },
+   {
+    "h": "Thirty more may be owed",
+    "p": [
+     {
+      "lead": "Twenty came forward.",
+      "text": "The union's Surat vice-president, Bhavesh Tank, says 20 of 55 polishers contacted it. He says 30 others are also owed two months' pay."
+     },
+     {
+      "lead": "Two months each.",
+      "text": "One polisher, Monaben Mali, says she is owed ₹60,000 for August and September."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Not dated",
+    "what": "A police offence report against the owner, after statements are recorded."
+   },
+   {
+    "when": "5 to 15 November 2026",
+    "what": "The Diwali break the union expected in October, when unpaid wages bite hardest."
+   }
+  ],
+  "depth": {
+   "reverse": "The owner reappears and pays the balance before Diwali. Then this is a payment dispute, not a closure.",
+   "built": {
+    "title": "Where the figures come from",
+    "text": "Police gave the ₹14.50 lakh total. The part-payment, the headcount and the 30 further workers are the union's. The ₹10 lakh balance is Carat Capital's subtraction. No figure is from the owner, who could not be reached."
+   },
+   "method": "The Indian Express, 'Surat diamond unit shuts, owner untraceable as workers flag pending salaries', datePublished 2026-10-24T08:12:33+05:30, fetched by the Editor on 25 October 2026, 200, 715,025 bytes; the article body read in the page's structured data. Read: 'salaries, amounting to nearly Rs 14.50 lakh ... police said on Friday'; 'On Thursday, the Diamond Workers Union Gujarat (DWUG) submitted an application at the Ashwani Kumar police station'; 'cleared part payment of Rs 4.50 lakh of the pending salaries of Rs 14.50 lakh and assured that he would pay the remaining amount on October 19'; 'on October 20 and found that his mobile phone was switched off'; 'Of the 55 diamond polishers working in the firm, only 20 contacted us'; 'remaining 30 workers'; 'DWUG vice president (Surat), Bhavesh Tank'; 'Police inspector H B Patel'; Monaben Mali's 'Rs 60,000'. Friday is 23 October and Thursday 22 October 2026. One outlet: Gujarati-language reports of a union petition on 24 October were not read for this article. The Diwali dates are the union's expectation as reported by Carat Capital on 10 October. ARCHIVE, by entity: Carat Capital's archive, 'Marutinandan' 0 rows; 'Varachha' 1 row (11 October, a Surat property sale, opened, unrelated). NEW.",
+   "prior": [
+    {
+     "date": "2026-10-10",
+     "slug": "twenty-percent-the-cutters-want-back",
+     "claim": "Surat's cutters asked owners to restore a 20% pay cut before Diwali."
+    }
+   ],
+   "sources": [
+    {
+     "title": "The Indian Express, 'Surat diamond unit shuts, owner untraceable as workers flag pending salaries'",
+     "url": "https://indianexpress.com/article/cities/ahmedabad/surat-diamond-unit-shuts-owner-untraceable-as-workers-flag-pending-salaries-10934573/",
+     "published": "2026-10-24"
+    }
+   ]
+  },
+  "next": {
+   "slug": "twenty-percent-the-cutters-want-back",
+   "why": "What Surat's cutters asked for before Diwali."
+  },
+  "corrections": []
+ },
+ "chow-sang-sang-gold-reads-1200-yuan": {
+  "v": 3,
+  "kicker": "Gold & Metals",
+  "figures": {
+   "asof": "Qianjiang Evening News via Sina, 25 October 2026, giving brand boards for 24 October. Yuan per gram, pure-gold jewellery. The 25 August levels are from Carat Capital's report of 27 August.",
+   "cells": [
+    {
+     "n": "1,200",
+     "dir": "down",
+     "label": "Chow Sang Sang, yuan/g",
+     "q": "−6 on the day",
+     "src": 0
+    },
+    {
+     "n": "1,202",
+     "dir": "down",
+     "label": "Chow Tai Fook, yuan/g",
+     "q": "−6 on the day",
+     "src": 0
+    },
+    {
+     "n": "1,196",
+     "dir": "down",
+     "label": "Lao Miao, yuan/g",
+     "q": "−12 on the day",
+     "src": 0
+    },
+    {
+     "n": "1,206",
+     "dir": "down",
+     "label": "Lao Feng Xiang, yuan/g",
+     "q": "−6 on the day",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Another step down.",
+   "text": "Chow Sang Sang's pure-gold counter read 1,200 yuan a gram on 24 October, down 6 yuan on the day. Its 25 August level was 1,408."
+  },
+  "means": [
+   {
+    "who": "If you buy gold jewellery in China:",
+    "text": "The four big brand counters sit within 10 yuan of each other, near 1,200."
+   },
+   {
+    "who": "If you price against a counter:",
+    "text": "These are retail boards carrying workmanship and margin, not spot metal."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A spot price. The tape's gold bid, Friday's close, is $3,994.90 an ounce."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Brand gold counters, 24 October against 25 August",
+   "hi": 0,
+   "asof": "24 October: Qianjiang Evening News via Sina. 25 August: Carat Capital, 27 August. Yuan per gram",
+   "cols": [
+    "Brand",
+    "24 October",
+    "On the day",
+    "25 August",
+    "Below 25 August"
+   ],
+   "rows": [
+    [
+     "Chow Sang Sang",
+     "1,200",
+     "−6",
+     "1,408",
+     "14.8%"
+    ],
+    [
+     "Chow Tai Fook",
+     "1,202",
+     "−6",
+     "1,410",
+     "14.8%"
+    ],
+    [
+     "Lao Miao",
+     "1,196",
+     "−12",
+     "1,407",
+     "15.0%"
+    ],
+    [
+     "Lao Feng Xiang",
+     "1,206",
+     "−6",
+     "1,406",
+     "14.2%"
+    ]
+   ],
+   "note": "Carat Capital's divisions: 1,200/1,408 = 85.2% of the August level, so 14.8% below; 1,202/1,410 = 85.2%, 14.8% below; 1,196/1,407 = 85.0%, 15.0% below; 1,206/1,406 = 85.8%, 14.2% below.",
+   "plate": "CC/2026/331"
+  },
+  "sections": [
+   {
+    "h": "About 100 yuan in a month",
+    "p": [
+     {
+      "lead": "Near 1,300 before.",
+      "text": "Brand counters stood near 1,300 yuan a gram on 24 September, the report says. A month later they are about 100 yuan lower."
+     },
+     {
+      "lead": "Cuts of 6 to 12.",
+      "text": "Lao Miao cut 12 yuan on 24 October. Chow Sang Sang, Chow Tai Fook and Lao Feng Xiang each cut 6."
+     }
+    ]
+   },
+   {
+    "h": "Shuibei filled up",
+    "p": [
+     {
+      "lead": "Weekend crowds.",
+      "text": "Shenzhen's Shuibei jewellery market drew crowds on Saturday 24 October, the report says. Buyers posted online that it was busier than a vegetable market."
+     },
+     {
+      "lead": "Counters lag spot.",
+      "text": "Brand boards price finished jewellery and reset on each brand's own schedule. A move in the metal reaches them later."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Monday 26 October",
+    "what": "The first spot gold session since Friday's close, which the brand boards follow with a lag."
+   },
+   {
+    "when": "Daily",
+    "what": "The brand boards. A return above 1,250, the early-October level, would undo the month's fall."
+   }
+  ],
+  "depth": {
+   "reverse": "Brand boards back above 1,250 yuan within the week. Then 24 October was a dip, not a new level.",
+   "built": {
+    "title": "How a brand board works",
+    "text": "Chinese jewellery brands post a daily price per gram for pure-gold jewellery. It includes workmanship and margin over the metal, so it runs above the bullion price. Each brand sets its own board."
+   },
+   "method": "Qianjiang Evening News, carried by Sina, datePublished 2026-10-25 11:00:41, fetched by the Editor on 25 October 2026, 200, 38,315 bytes, read in the body: '10月24日国内多家品牌足金饰品价格下调'; '老庙黄金足金饰品报1196元/克，较前一日跌了12元' (1 hit); '周生生足金饰品报1200元/克，较前一日跌了6元' (1); '周大福足金饰品报1202元/克，较前一日跌了6元' (1); '老凤祥足金饰品报1206元/克，较前一日跌了6元' (1); '此前9月24日，国内品牌金饰克价普遍在1300元/克附近' and '金饰价格已下跌约100元'; '昨日（10月24日） 深圳水贝迎来人流'. The report also carries a spot price from CCTV Finance and an analyst's three causes; neither is printed, under the house's one-price rule and because the causes are one analyst's view. Translations are Carat Capital's. 25 August levels from Carat Capital's 27 August report of ten brand boards (Chow Sang Sang 1,408, Chow Tai Fook 1,410, Lao Miao 1,407, Lao Feng Xiang 1,406), opened. The early-October level of about 1,250 is from Carat Capital's 3 October report. ARCHIVE, by entity and period: 'Chow Sang Sang' 15 rows, newest three opened: 5 October (Shuibei wholesale, 3 October), 3 October (2 October boards, 1,249) and 1 October. Ours covers boards to 3 October; this covers 24 October. ADVANCED.",
+   "prior": [
+    {
+     "date": "2026-10-03",
+     "slug": "twelve-forty-nine-and-doubled-footfall",
+     "claim": "Chow Sang Sang's gold fell to 1,249 yuan as holiday footfall doubled."
+    },
+    {
+     "date": "2026-09-30",
+     "slug": "twelve-forty-five-off-the-august-high",
+     "claim": "Chow Sang Sang gold read 1,245 yuan, 11.6% off 25 August."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Qianjiang Evening News via Sina, '金价连日大跌！深圳水贝被挤爆' (Chinese)",
+     "url": "https://news.sina.cn/gn/2026-10-25/detail-iniwkrxi3624028.d.html",
+     "published": "2026-10-25"
+    },
+    {
+     "title": "Carat Capital, 'Ten Chinese gold counters priced within seven yuan of each other', 27 August 2026",
+     "url": "https://caratcapital.org/a-ten-counters-seven-yuan.html",
+     "published": "2026-08-27"
+    },
+    {
+     "title": "Kitco precious metals board, gold bid, close of 23 October 2026 (Carat Capital tape)",
+     "url": "https://www.kitco.com/price/precious-metals",
+     "published": "2026-10-23"
+    }
+   ]
+  },
+  "next": {
+   "slug": "twelve-forty-nine-and-doubled-footfall",
+   "why": "The same counters at the start of the October holiday."
   },
   "corrections": []
  }

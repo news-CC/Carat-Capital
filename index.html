@@ -1022,7 +1022,7 @@ footer{border-top:1px solid var(--line);padding:56px 0 76px;margin-top:clamp(50p
 <section class="band" id="marks" style="padding-top:clamp(38px,6vh,74px);padding-bottom:0">
   <div class="wrap">
     <div class="skick rv"><svg viewBox="0 0 40 40" aria-hidden="true"><use href="#m-scale"/></svg>
-      <span>The Bench</span><i></i><em>melt value, on the live tape</em></div>
+      <span>The Bench</span><i></i><em>melt value, at the tape's 05:00 bid</em></div>
     <div class="bench rv spot">
       <canvas class="guil" id="bguil" aria-hidden="true"></canvas>
       <div class="bhead">
@@ -1030,7 +1030,7 @@ footer{border-top:1px solid var(--line);padding:56px 0 76px;margin-top:clamp(50p
           <button role="radio" aria-checked="true" data-m="0" class="on">Gold</button>
           <button role="radio" aria-checked="false" data-m="1">Silver</button>
         </span>
-        <span class="spot"><i></i><span id="spotline">GOLD 3,994.90 / OZ &middot; -0.6466% VS 23 OCT MARK</span></span>
+        <span class="spot"><i></i><span id="spotline">GOLD 3,994.90 / OZ &middot; +0.0000% VS 24 OCT MARK</span></span>
       </div>
 
       <div class="bgrid">
@@ -1080,19 +1080,19 @@ footer{border-top:1px solid var(--line);padding:56px 0 76px;margin-top:clamp(50p
     <!-- no clock here: the readership spans time zones, the paper does not
          tell them what hour it is somewhere else -->
     <div class="skick rv"><svg viewBox="0 0 40 40" aria-hidden="true"><use href="#m-nib"/></svg>
-      <span>The Edition</span><i></i><em>Saturday, October 24, 2026 | Vol. I - No. 096</em></div>
+      <span>The Edition</span><i></i><em>Sunday, October 25, 2026 | Vol. I - No. 097</em></div>
     <div class="lead">
       <article class="rv rv-1">
-        <span class="kick"><i></i>Retail & Technology</span>
-        <h3><a href="a-luk-fooks-self-run-mainland-shops-post-39-percent">Luk Fook's self-run Mainland shops post +39% for 1–7 October</a></h3>
-        <p class="dek">Hong Kong and Macao same-store sales rose 15% that week, and licensed Mainland shops were flat. Chow Tai Fook's filing shows Macao up 47.3% in July to September, against Hong Kong's 24.0%.</p>
+        <span class="kick"><i></i>Gold & Metals</span>
+        <h3><a href="a-newmont-puts-red-chris-block-cave-at-4-2-to-4-8-billion">Newmont puts Red Chris block-cave capital at $4.2–4.8 billion</a></h3>
+        <p class="dek">The estimate is net of a CAD$500 million Canadian grant whose terms are not final, and leaves out the cost of moving from open pit to block cave. Production is targeted for 2033.</p>
         <div class="by">Carat Capital · 5 min read</div>
-        <div style="margin-top:26px"><a class="btn" href="a-luk-fooks-self-run-mainland-shops-post-39-percent" data-loupe="Read">
+        <div style="margin-top:26px"><a class="btn" href="a-newmont-puts-red-chris-block-cave-at-4-2-to-4-8-billion" data-loupe="Read">
           <span class="d"></span>Read this morning's lead</a></div>
       </article>
       <figure class="plate spot wipe rv rv-2">
-        <div class="im"><img class="prx" src="assets/ph/retail-hero.jpg" alt="" loading="lazy" onerror="this.closest('.plate').style.display='none'"></div>
-        <figcaption class="cap"><span>Plate I — Retail & Technology</span><span>CC</span></figcaption>
+        <div class="im"><img class="prx" src="assets/ph/gold-hero.jpg" alt="" loading="lazy" onerror="this.closest('.plate').style.display='none'"></div>
+        <figcaption class="cap"><span>Plate I — Gold & Metals</span><span>CC</span></figcaption>
       </figure>
     </div>
   </div>
@@ -1105,7 +1105,7 @@ footer{border-top:1px solid var(--line);padding:56px 0 76px;margin-top:clamp(50p
     <div class="shead rv">
       <span class="n"><svg viewBox="0 0 40 40" aria-hidden="true"><use href="#m-folio"/></svg></span>
       <h2>Also in today's paper.</h2>
-      <span class="r">two more this morning</span>
+      <span class="r">three more this morning</span>
     </div>
     <div class="agrid stg rv" id="agrid"></div>
   </div>
@@ -1173,7 +1173,7 @@ footer{border-top:1px solid var(--line);padding:56px 0 76px;margin-top:clamp(50p
     <div class="shead rv">
       <span class="n"><svg viewBox="0 0 40 40" aria-hidden="true"><use href="#m-scale"/></svg></span>
       <h2>Those are the prices.<br>This is what they cost you.</h2>
-      <span class="r">the counter sheet<br>Vol. I - No. 096 &middot; 24 Oct</span>
+      <span class="r">the counter sheet<br>Vol. I - No. 097 &middot; 25 Oct</span>
     </div>
     <p class="lede rv rv-1" style="margin-bottom:clamp(22px,3.6vh,40px)">Every price above is a number.
       This is what the rest of the market is doing to your margin. Four lines, each one a figure
@@ -1182,7 +1182,7 @@ footer{border-top:1px solid var(--line);padding:56px 0 76px;margin-top:clamp(50p
 
     <div class="sheet rv rv-2">
       <div class="shbar">
-        <span>The counter sheet &middot; <b>Vol. I - No. 096</b> &middot; four lines &middot; struck 06:00 ET</span>
+        <span>The counter sheet &middot; <b>Vol. I - No. 097</b> &middot; four lines &middot; struck 06:00 ET</span>
         <span>Tap any line for the working</span>
       </div>
       <div class="shhead">
@@ -1289,7 +1289,7 @@ const RM = matchMedia('(prefers-reduced-motion: reduce)').matches;
 })();
 
 /* ══ tape ══ */
-(function(){const rows=[["GOLD / OZ", "3,994.90", "dn", "-0.6466% vs 23 Oct mark"], ["NATURAL 1CT (RAPI PROXY)", "3,891.97", "dn", "\u22125.7% YTD \u00b7 carried, 18 Oct"], ["LAB-GROWN 1CT REFERENCE", "475.00", "fl", "band midpoint, read 12 Oct"], ["PLATINUM / OZ", "1,548.00", "dn", "-0.4502% vs 23 Oct mark"], ["SILVER / OZ", "53.796", "up", "+0.1154% vs 23 Oct mark"], ["EDITION", "Vol. I - No. 096", "up", "\u25cf PRINTED 06:00 ET"], ["SPECIMEN TAPE", "illustrative", "fl", "not quoted"]];
+(function(){const rows=[["GOLD / OZ", "3,994.90", "fl", "+0.0000% vs 24 Oct mark"], ["NATURAL 1CT (RAPI PROXY)", "3,891.97", "dn", "\u22125.7% YTD \u00b7 carried, 18 Oct"], ["LAB-GROWN 1CT REFERENCE", "475.00", "fl", "band midpoint, read 12 Oct"], ["PLATINUM / OZ", "1,548.00", "fl", "+0.0000% vs 24 Oct mark"], ["SILVER / OZ", "53.796", "fl", "+0.0000% vs 24 Oct mark"], ["EDITION", "Vol. I - No. 097", "up", "\u25cf PRINTED 06:00 ET"], ["SPECIMEN TAPE", "illustrative", "fl", "not quoted"]];
  const mk=()=>rows.map(r=>`<span class="tk"><span class="d"></span><b>${r[0]}</b> ${r[1]} <span class="${r[2]}">${r[3]}</span></span>`).join('');
  document.getElementById('tkrun').innerHTML=mk()+mk();})();
 
@@ -1298,9 +1298,9 @@ const RM = matchMedia('(prefers-reduced-motion: reduce)').matches;
    units, so the chips and the label change with the metal. ══ */
 const OZT=31.1035;
 const METALS=[
- {name:'Gold',   spot:3994.90,    txt:'3,994.90',    line:'GOLD 3,994.90 / OZ &middot; -0.6466% VS 23 OCT MARK',    unitLab:'Karat',
+ {name:'Gold',   spot:3994.90,    txt:'3,994.90',    line:'GOLD 3,994.90 / OZ &middot; +0.0000% VS 24 OCT MARK',    unitLab:'Karat',
   pur:[['9kt',.375],['10kt',.4167],['14kt',.5833],['18kt',.750],['22kt',.9167],['24kt',.999]], def:3},
- {name:'Silver', spot:53.80, txt:'53.796', line:'SILVER 53.796 / OZ &middot; +0.1154% VS 23 OCT MARK', unitLab:'Fineness',
+ {name:'Silver', spot:53.80, txt:'53.796', line:'SILVER 53.796 / OZ &middot; +0.0000% VS 24 OCT MARK', unitLab:'Fineness',
   pur:[['800',.800],['925',.925],['958',.958],['999',.999]], def:1}];
 let mIdx=0, kIdx=METALS[0].def;
 const fmt=(n,d=2)=>n.toLocaleString('en-US',{minimumFractionDigits:d,maximumFractionDigits:d});
@@ -1389,7 +1389,7 @@ paintChips(); bench();
   io.observe(cv);
 })();
 
-const LEDGER=[{"num": "$128.44", "lab": "per gram, fine", "dk": "#E8C06A", "desk": "D\u201402 Gold", "move": "Gold sits at 3,994.90 the ounce, -0.6466% vs 23 Oct mark.", "ctr": "A 5&nbsp;g 18ct band carries about $482 of metal before you have made a thing on it.", "viz": {"t": "spark", "seed": 9, "trend": 1, "lo": "the tape", "hi": "3,994.90"}, "work": ["3,994.90 &divide; 31.1035 g = 128.44 per gram fine", "128.44 &times; 0.750 (18ct) = 96.33 per gram at 18ct", "96.33 &times; 5 g = 481.65"], "src": ["Full tape &amp; tables", "almanac.html"]}, {"num": "8.2&times;", "lab": "natural : lab", "dk": "#8CC5FF", "desk": "D\u201401 Diamonds", "move": "Natural one-carat at 3,891.97 against lab-grown at 475.00.", "ctr": "The same look at a fraction of the ticket. Your case has to answer for the difference, out loud.", "viz": {"t": "ratio", "a": ["Natural", 3891.97, "#8CC5FF"], "b": ["Lab", 475.0, "rgba(220,234,245,.30)"]}, "work": ["3,891.97 &divide; 475.00 = 8.19&times;", "natural: RAPI, D\u2013H / IF\u2013VS2 &middot; 18 Oct 2026 price list; lab-grown: CVD wholesale band midpoint &middot; 12 Oct 2026"], "src": ["The lab-grown price list", "lab-grown-diamond-prices.html"]}, {"num": "&rarr;", "lab": "Gold & Metals", "dk": "#6FE3E3", "desk": "D\u201402", "move": "Zijin takes control of Chifeng Gold; third-quarter profit falls 41.84%", "ctr": "Zijin Gold now holds about 25.85% of the Chinese miner after a new H-share issue at HK$29.82, Chifeng said on 22 October. Nine-month net profit still ", "viz": {"t": "split", "a": ["Filed today", 100, "#6FE3E3"], "b": ["", 0, "rgba(220,234,245,.22)"]}, "work": ["filed by Carat Capital", "5 minutes"], "src": ["Zijin takes control of Chifeng Gold; third-quarter profit falls 41.84%", "a-zijin-takes-control-of-chifeng-gold.html"]}, {"num": "&rarr;", "lab": "Auctions & Estates", "dk": "#6FE3E3", "desk": "D\u201405", "move": "Lyon & Turnbull sells 98 of 113 London jewellery lots", "ctr": "Hammer prices totalled \u00a3323,620 by Carat Capital's count of the house's lot data, above the sold lots' combined high estimate. Three natural pearl lot", "viz": {"t": "split", "a": ["Filed today", 100, "#6FE3E3"], "b": ["", 0, "rgba(220,234,245,.22)"]}, "work": ["filed by Carat Capital", "5 minutes"], "src": ["Lyon & Turnbull sells 98 of 113 London jewellery lots", "a-lyon-and-turnbull-sells-98-of-113-jewellery-lots.html"]}];
+const LEDGER=[{"num": "$128.44", "lab": "per gram, fine", "dk": "#E8C06A", "desk": "D\u201402 Gold", "move": "Gold sits at 3,994.90 the ounce, +0.0000% vs 24 Oct mark.", "ctr": "A 5&nbsp;g 18ct band carries about $482 of metal before you have made a thing on it.", "viz": {"t": "spark", "seed": 9, "trend": 1, "lo": "the tape", "hi": "3,994.90"}, "work": ["3,994.90 &divide; 31.1035 g = 128.44 per gram fine", "128.44 &times; 0.750 (18ct) = 96.33 per gram at 18ct", "96.33 &times; 5 g = 481.65"], "src": ["Full tape &amp; tables", "almanac.html"]}, {"num": "8.2&times;", "lab": "natural : lab", "dk": "#8CC5FF", "desk": "D\u201401 Diamonds", "move": "Natural one-carat at 3,891.97 against lab-grown at 475.00.", "ctr": "The same look at a fraction of the ticket. Your case has to answer for the difference, out loud.", "viz": {"t": "ratio", "a": ["Natural", 3891.97, "#8CC5FF"], "b": ["Lab", 475.0, "rgba(220,234,245,.30)"]}, "work": ["3,891.97 &divide; 475.00 = 8.19&times;", "natural: RAPI, D\u2013H / IF\u2013VS2 &middot; 18 Oct 2026 price list; lab-grown: CVD wholesale band midpoint &middot; 12 Oct 2026"], "src": ["The lab-grown price list", "lab-grown-diamond-prices.html"]}, {"num": "&rarr;", "lab": "Diamonds", "dk": "#6FE3E3", "desk": "D\u201401", "move": "India's US gem and jewellery exports near $3 billion, GJEPC says", "ctr": "Exports to the US rose nearly 6% in April to September from US$2.77 billion a year earlier, GJEPC's chairman said on 23 October. They had fallen more ", "viz": {"t": "split", "a": ["Filed today", 100, "#6FE3E3"], "b": ["", 0, "rgba(220,234,245,.22)"]}, "work": ["filed by Carat Capital", "5 minutes"], "src": ["India's US gem and jewellery exports near $3 billion, GJEPC says", "a-india-us-gem-and-jewellery-exports-near-three-billion.html"]}, {"num": "&rarr;", "lab": "Diamonds", "dk": "#6FE3E3", "desk": "D\u201401", "move": "Surat diamond unit shuts before Diwali with \u20b910 lakh of pay owed", "ctr": "The owner of Marutinandan Diamonds in Varachha is untraceable, police said on 23 October. The union says he paid \u20b94.50 lakh of \u20b914.50 lakh in wages, t", "viz": {"t": "split", "a": ["Filed today", 100, "#6FE3E3"], "b": ["", 0, "rgba(220,234,245,.22)"]}, "work": ["filed by Carat Capital", "5 minutes"], "src": ["Surat diamond unit shuts before Diwali with \u20b910 lakh of pay owed", "a-surat-diamond-unit-shuts-with-ten-lakh-unpaid.html"]}];
 
 function vizHTML(v){
   if(v.t==='spark') return `<div class="viz"><canvas class="spk" data-seed="${v.seed}" data-trend="${v.trend}" data-c="#77737E"></canvas>
@@ -1444,7 +1444,7 @@ document.getElementById('ledger').addEventListener('click',e=>{
 });
 
 /* ══ TODAY'S PAPER — article grid from the real archive ══ */
-const ARTS=[{"h": "Zijin takes control of Chifeng Gold; third-quarter profit falls 41.84%", "p": "Zijin Gold now holds about 25.85% of the Chinese miner after a new H-share issue at HK$29.82, Chifeng said on 22 October", "img": "gold-hero", "cr": "Carat Capital", "s": "Gold & Metals", "t": "5 min", "href": "a-zijin-takes-control-of-chifeng-gold.html"}, {"h": "Lyon & Turnbull sells 98 of 113 London jewellery lots", "p": "Hammer prices totalled \u00a3323,620 by Carat Capital's count of the house's lot data, above the sold lots' combined high est", "img": "auctions-hero", "cr": "Carat Capital", "s": "Auctions & Estates", "t": "5 min", "href": "a-lyon-and-turnbull-sells-98-of-113-jewellery-lots.html"}];
+const ARTS=[{"h": "India's US gem and jewellery exports near $3 billion, GJEPC says", "p": "Exports to the US rose nearly 6% in April to September from US$2.77 billion a year earlier, GJEPC's chairman said on 23 October.", "img": "diamonds-hero", "cr": "Carat Capital", "s": "Diamonds", "t": "5 min", "href": "a-india-us-gem-and-jewellery-exports-near-three-billion.html"}, {"h": "Surat diamond unit shuts before Diwali with \u20b910 lakh of pay owed", "p": "The owner of Marutinandan Diamonds in Varachha is untraceable, police said on 23 October.", "img": "diamonds-hero", "cr": "Carat Capital", "s": "Diamonds", "t": "5 min", "href": "a-surat-diamond-unit-shuts-with-ten-lakh-unpaid.html"}, {"h": "Chow Sang Sang gold reads 1,200 yuan a gram, 14.8% below 25 August", "p": "Chow Tai Fook quoted 1,202 yuan and Lao Miao 1,196 on 24 October, after cuts of 6 to 12 yuan on the day.", "img": "gold-hero", "cr": "Carat Capital", "s": "Gold & Metals", "t": "5 min", "href": "a-chow-sang-sang-gold-reads-1200-yuan.html"}];
 document.getElementById('agrid').innerHTML=ARTS.map((a,i)=>`
  <a class="acard wipe${a.img?'':' noimg'}" href="${a.href}" data-loupe="Read">${a.img?`
    <img class="ph" src="assets/ph/${a.img}.jpg" alt="" loading="lazy" onerror="this.closest('.acard').classList.add('noimg');this.remove()">
@@ -1455,7 +1455,7 @@ document.getElementById('agrid').innerHTML=ARTS.map((a,i)=>`
      <div class="mt"><span>${a.s} desk</span><span>${a.t}</span></div></div></a>`).join('');
 
 /* ══ THE DESK BOARD — real headlines, real numbers ══ */
-const BOARD=[{"n": "D\u201401", "t": "Diamonds", "c": "#8CC5FF", "img": "diamonds-hero", "seed": 9, "trend": 1, "href": "diamonds.html", "st": {"k": "1ct RBC \u00b7 natural, trade, 19 Oct", "v": "$3,025", "d": "the stone that runs on trust", "cls": "fl"}, "a": [["Petra Diamonds holders face a share suspension from 2 November", "a-petra-diamonds-holders-face-a-share-suspension.html", "5 min"], ["De Beers pays 1bn pula into Botswana fund, JCK reports", "a-de-beers-pays-one-billion-pula-into-botswana-fund.html", "5 min"], ["GJEPC targets $50m in New Zealand as trade pact takes effect", "a-gjepc-targets-fifty-million-in-new-zealand.html", "5 min"]]}, {"n": "D\u201402", "t": "Gold & Metals", "c": "#E8C06A", "img": "gold-hero", "seed": 15, "trend": 1, "href": "gold-metals.html", "st": {"k": "Gold/oz \u00b7 Kitco bid", "v": "$3,994.90", "d": "the metal beneath every margin", "cls": "fl"}, "a": [["Zijin takes control of Chifeng Gold; third-quarter profit falls 41.84%", "a-zijin-takes-control-of-chifeng-gold.html", "5 min"], ["Newmont reports $1,454 an ounce all-in cost on $4,317 gold", "a-newmont-reports-1454-an-ounce-all-in-cost.html", "5 min"], ["Vietnam ends gold jewellery certificate, caps cash deals at VND 5m", "a-vietnam-ends-gold-jewellery-certificate.html", "5 min"]]}, {"n": "D\u201403", "t": "Colored Gemstones", "c": "#4FD08A", "img": "gemstones-hero", "seed": 21, "trend": 1, "href": "gemstones.html", "st": {"k": "", "v": "\u2014", "d": "supply lines drawn in emerald, ruby and sapphire", "cls": "fl"}, "a": [["Gemfields ruby auction raises $52.0m at $564.54 a carat", "a-gemfields-ruby-auction-raises-fifty-two-million.html", "5 min"], ["81.17-carat Paraiba leads Bonhams Paris on 29 October", "a-eighty-one-carats-of-paraiba-in-paris.html", "5 min"], ["Le Vian prices 17 antique-cushion styles from $1,499.99", "a-seventeen-styles-from-fifteen-hundred.html", "5 min"]]}, {"n": "D\u201404", "t": "Watches", "c": "#B79BFF", "img": "watches-hero", "seed": 27, "trend": 1, "href": "watches.html", "st": {"k": "", "v": "\u2014", "d": "haute horlogerie, priced by the second", "cls": "fl"}, "a": [["Zenith opens layoff talks at Le Locle; source says 100 of 196 jobs", "a-zenith-opens-layoff-talks-at-le-locle.html", "5 min"], ["Christie's puts HK$26.5m\u201343m on a Patek Sky Moon in Hong Kong", "a-christies-puts-twenty-six-million-on-a-sky-moon.html", "5 min"], ["Sotheby's expects $9m-plus for 30 watches, nearly all first-owner", "a-sothebys-expects-nine-million-for-thirty-watches.html", "5 min"]]}, {"n": "D\u201405", "t": "Auctions & Estates", "c": "#FF8FA8", "img": "auctions-hero", "seed": 33, "trend": 1, "href": "auctions.html", "st": {"k": "", "v": "\u2014", "d": "where the trade marks itself to market", "cls": "fl"}, "a": [["Lyon & Turnbull sells 98 of 113 London jewellery lots", "a-lyon-and-turnbull-sells-98-of-113-jewellery-lots.html", "5 min"], ["Phillips puts HK$6m\u201312m on Mark Cho's Journe R\u00e9sonance", "a-phillips-puts-six-to-twelve-million-on-a-journe.html", "5 min"], ["Christie's 8.17-carat D/IF ring sells for $243,200, below estimate", "a-eight-seventeen-carats-sells-under-its-low.html", "5 min"]]}, {"n": "D\u201406", "t": "Retail & Technology", "c": "#6FE3E3", "img": "retail-hero", "seed": 39, "trend": 1, "href": "retail-tech.html", "st": {"k": "Lab-grown 1ct, wholesale mid, 12 Oct", "v": "$475", "d": "the counter, rebuilt for the next generation", "cls": "fl"}, "a": [["Luk Fook's self-run Mainland shops post +39% for 1\u20137 October", "a-luk-fooks-self-run-mainland-shops-post-39-percent.html", "5 min"], ["Chow Tai Fook names gold-loan gains first in 90\u2013100% profit alert", "a-chow-tai-fook-names-gold-loan-gains-first.html", "5 min"], ["Paspaley sells through 14 US doors and caps new partners each year", "a-paspaley-sells-through-fourteen-us-doors.html", "5 min"]]}];
+const BOARD=[{"n": "D\u201401", "t": "Diamonds", "c": "#8CC5FF", "img": "diamonds-hero", "seed": 9, "trend": 1, "href": "diamonds.html", "st": {"k": "1ct RBC \u00b7 natural, trade, 19 Oct", "v": "$3,025", "d": "the stone that runs on trust", "cls": "fl"}, "a": [["India's US gem and jewellery exports near $3 billion, GJEPC says", "a-india-us-gem-and-jewellery-exports-near-three-billion.html", "5 min"], ["Surat diamond unit shuts before Diwali with \u20b910 lakh of pay owed", "a-surat-diamond-unit-shuts-with-ten-lakh-unpaid.html", "5 min"], ["Petra Diamonds holders face a share suspension from 2 November", "a-petra-diamonds-holders-face-a-share-suspension.html", "5 min"]]}, {"n": "D\u201402", "t": "Gold & Metals", "c": "#E8C06A", "img": "gold-hero", "seed": 15, "trend": 1, "href": "gold-metals.html", "st": {"k": "Gold/oz \u00b7 Kitco bid", "v": "$3,994.90", "d": "the metal beneath every margin", "cls": "fl"}, "a": [["Newmont puts Red Chris block-cave capital at $4.2\u20134.8 billion", "a-newmont-puts-red-chris-block-cave-at-4-2-to-4-8-billion.html", "5 min"], ["Chow Sang Sang gold reads 1,200 yuan a gram, 14.8% below 25 August", "a-chow-sang-sang-gold-reads-1200-yuan.html", "5 min"], ["Zijin takes control of Chifeng Gold; third-quarter profit falls 41.84%", "a-zijin-takes-control-of-chifeng-gold.html", "5 min"]]}, {"n": "D\u201403", "t": "Colored Gemstones", "c": "#4FD08A", "img": "gemstones-hero", "seed": 21, "trend": 1, "href": "gemstones.html", "st": {"k": "", "v": "\u2014", "d": "supply lines drawn in emerald, ruby and sapphire", "cls": "fl"}, "a": [["Gemfields ruby auction raises $52.0m at $564.54 a carat", "a-gemfields-ruby-auction-raises-fifty-two-million.html", "5 min"], ["81.17-carat Paraiba leads Bonhams Paris on 29 October", "a-eighty-one-carats-of-paraiba-in-paris.html", "5 min"], ["Le Vian prices 17 antique-cushion styles from $1,499.99", "a-seventeen-styles-from-fifteen-hundred.html", "5 min"]]}, {"n": "D\u201404", "t": "Watches", "c": "#B79BFF", "img": "watches-hero", "seed": 27, "trend": 1, "href": "watches.html", "st": {"k": "", "v": "\u2014", "d": "haute horlogerie, priced by the second", "cls": "fl"}, "a": [["Zenith opens layoff talks at Le Locle; source says 100 of 196 jobs", "a-zenith-opens-layoff-talks-at-le-locle.html", "5 min"], ["Christie's puts HK$26.5m\u201343m on a Patek Sky Moon in Hong Kong", "a-christies-puts-twenty-six-million-on-a-sky-moon.html", "5 min"], ["Sotheby's expects $9m-plus for 30 watches, nearly all first-owner", "a-sothebys-expects-nine-million-for-thirty-watches.html", "5 min"]]}, {"n": "D\u201405", "t": "Auctions & Estates", "c": "#FF8FA8", "img": "auctions-hero", "seed": 33, "trend": 1, "href": "auctions.html", "st": {"k": "", "v": "\u2014", "d": "where the trade marks itself to market", "cls": "fl"}, "a": [["Lyon & Turnbull sells 98 of 113 London jewellery lots", "a-lyon-and-turnbull-sells-98-of-113-jewellery-lots.html", "5 min"], ["Phillips puts HK$6m\u201312m on Mark Cho's Journe R\u00e9sonance", "a-phillips-puts-six-to-twelve-million-on-a-journe.html", "5 min"], ["Christie's 8.17-carat D/IF ring sells for $243,200, below estimate", "a-eight-seventeen-carats-sells-under-its-low.html", "5 min"]]}, {"n": "D\u201406", "t": "Retail & Technology", "c": "#6FE3E3", "img": "retail-hero", "seed": 39, "trend": 1, "href": "retail-tech.html", "st": {"k": "Lab-grown 1ct, wholesale mid, 12 Oct", "v": "$475", "d": "the counter, rebuilt for the next generation", "cls": "fl"}, "a": [["Luk Fook's self-run Mainland shops post +39% for 1\u20137 October", "a-luk-fooks-self-run-mainland-shops-post-39-percent.html", "5 min"], ["Chow Tai Fook names gold-loan gains first in 90\u2013100% profit alert", "a-chow-tai-fook-names-gold-loan-gains-first.html", "5 min"], ["Paspaley sells through 14 US doors and caps new partners each year", "a-paspaley-sells-through-fourteen-us-doors.html", "5 min"]]}];
 document.getElementById('bnav').innerHTML=BOARD.map((d,i)=>
  `<button data-i="${i}" class="${i?'':'on'}" style="--dk:${d.c}" data-loupe="${d.t}">${d.img?`
     <img class="bg" src="assets/ph/${d.img}.jpg" alt="" loading="lazy" onerror="this.remove()">

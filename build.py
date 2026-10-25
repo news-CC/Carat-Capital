@@ -160,10 +160,51 @@ if LAB.get("headline"):
                     _lts = _ltd
                 _t["chg"] = ((_t.get("chg") or "") + " · band midpoint, read " + _lts).lstrip(" ·")
 
+# The metal chips' "vs <date> mark" qualifier is read from the edition's own tape, never typed
+# (chief, 2026-10-24, carried since 18 Oct). On 14-18 Oct wire.json shipped "vs 12 Oct mark" four
+# editions running and the Editor patched it by hand each morning. The date is the prior tape file
+# that tools/prev-mark.py says the change was measured against. If the tape cannot be read, the
+# typed text stands untouched: this lock only ever replaces a date with a date read from data.
+def _lock_metal_qualifiers():
+    _map = {"XAU": "gold_spot", "XAG": "silver_spot", "XPT": "platinum_spot"}
+    _edd = WIRE.get("editionDate") or ""
+    _tp = ROOT.parent / "newsroom" / "tape" / ("%s.json" % _edd)
+    if not _edd or not _tp.exists():
+        return
+    try:
+        _marks = {m.get("key"): m for m in json.loads(_tp.read_text()).get("marks", [])}
+    except Exception:
+        return
+    import datetime as _dtq, re as _req
+    for _t in WIRE.get("tape", []):
+        _m = _marks.get(_map.get(_t.get("code"), ""))
+        if not _m:
+            continue
+        _src = _m.get("prev_printed_source") or ""
+        _hit = _req.search(r"tape/(\d{4}-\d{2}-\d{2})\.json", _src)
+        if not _hit or " mark" not in (_t.get("chg") or ""):
+            continue
+        try:
+            _pd = _dtq.date.fromisoformat(_hit.group(1))
+        except ValueError:
+            continue
+        _t["chg"] = _req.sub(r"vs .*? mark", "vs %d %s mark" % (_pd.day, _pd.strftime("%b")), _t["chg"], count=1)
+_lock_metal_qualifiers()
+
 def lead_article():
-    for a in ARTICLES:
-        if a.get("lead"):
-            return a
+    # The one-lead invariant, enforced here rather than by the Editor's hand (chief, 2026-10-24,
+    # carried since 18 Oct). articles.json is NOT in date order, so with two lead:true rows the old
+    # "first one in the file" rule could put a stale lead on the front page. Newest date wins, and
+    # the build says so loudly.
+    leads = [a for a in ARTICLES if a.get("lead")]
+    if len(leads) > 1:
+        leads.sort(key=lambda a: a.get("date") or "", reverse=True)
+        import sys as _sys
+        print("BUILD WARNING: %d articles carry lead:true (%s); using the newest, %s"
+              % (len(leads), ", ".join(a.get("slug", "?") for a in leads), leads[0].get("slug")),
+              file=_sys.stderr)
+    if leads:
+        return leads[0]
     return ARTICLES[0] if ARTICLES else None
 
 def desk_articles(slug, n=6):
@@ -3471,6 +3512,21 @@ def index_page():
     # stories and says how many there are; a thin day prints a short grid.
     _WORDS = {0:"No", 1:"One", 2:"Two", 3:"Three", 4:"Four", 5:"Five", 6:"Six"}
     _today = (LEAD or {}).get("date")
+    def _blurb(dek, cap=160):
+        # a homepage blurb ends at a sentence, never mid-word (Managing Editor, 24 Oct 2026):
+        # the dek's first sentence if it fits, else the whole sentences that fit, else the dek cut at a word
+        dek = dek.strip()
+        if len(dek) <= cap:
+            return dek
+        parts = _re.split(r"(?<=[.?])\s+(?=[A-Z0-9\u00a3$\u20ac])", dek)
+        out = ""
+        for s in parts:
+            if len((out + " " + s).strip()) > cap:
+                break
+            out = (out + " " + s).strip()
+        if out:
+            return out
+        return dek[:cap].rsplit(" ", 1)[0].rstrip(",;:") + "\u2026"
     _todays = [x for x in ARTICLES if not x.get("lead") and x.get("date") == _today]
     if len(_todays) >= 2:
         _pick = _todays[:6]
@@ -3485,7 +3541,7 @@ def index_page():
         img = a["slug"] if a["slug"] in PH else DESK_HERO.get(a.get("desk", ""), "")
         if img not in PH:
             img = ""
-        arts.append({"h": a["title"], "p": (a.get("dek") or "")[:120],
+        arts.append({"h": a["title"], "p": _blurb(a.get("dek") or ""),
                      "img": img, "cr": PH.get(img, {}).get("credit", ""),
                      "s": DESK_NAMES.get(a.get("desk"), "Desk"),
                      "t": "%s min" % a.get("minutes", 5),
