@@ -137766,7 +137766,7 @@
     }
    ],
    "corrections": [
-    "Clarified, 25 October 2026: this article names the union's vice-president as Bhavesh Shah, as its source, Divya Bhaskar of 9 October, does. The Indian Express of 24 October names the Surat vice-president of the Diamond Workers Union Gujarat as Bhavesh Tank. Carat Capital has not established which surname is right, or whether the two reports describe the same post. Found by Carat Capital's Bureau on 25 October 2026."
+    "Clarified, 25 October 2026: this article names the union's vice-president as Bhavesh Shah, as its source, Divya Bhaskar of 9 October, does. The Indian Express of 24 October names the Surat vice-president of the Diamond Workers Union Gujarat as Bhavesh Tank. Carat Capital has not established which surname is right, or whether the two reports describe the same post. Found by Carat Capital's Bureau on 25 October 2026. Updated 26 October 2026: two outlets of 24 October, the Indian Express and ETV Bharat (Gujarati), print the vice-president as Bhavesh Tank, and Divya Bhaskar's own report of 22 October does too. Which surname is right is still not established."
    ]
   },
   "next": {
@@ -148036,7 +148036,7 @@
     {
      "n": "CAD$500m",
      "label": "Canadian grant",
-     "q": "terms due before end-2026",
+     "q": "terms expected by end-2026",
      "src": 0
     },
     {
@@ -148065,7 +148065,7 @@
    },
    {
     "who": "If you hold Newmont:",
-    "text": "Newmont says it will pay from internal cash flows, with a full-funds decision expected in early 2027."
+    "text": "Newmont expects to fund it from internal cash flows, with a full-funds decision expected in early 2027."
    },
    {
     "who": "What this is not:",
@@ -148132,7 +148132,7 @@
     ]
    },
    {
-    "h": "Six years to production",
+    "h": "Production targeted for 2033",
     "p": [
      {
       "lead": "Construction from 2027.",
@@ -148145,11 +148145,11 @@
     ]
    },
    {
-    "h": "Planned at $3,600 gold",
+    "h": "One scenario at $3,600 gold",
     "p": [
      {
-      "lead": "Below the tape.",
-      "text": "Newmont's scenarios include gold at $3,600 an ounce. The tape's bid of $3,994.90, Friday's close, is 11.0% above that."
+      "lead": "A range of prices.",
+      "text": "Newmont evaluated the return across a range of gold prices that includes $3,600 an ounce. The release names no other. The tape's bid of $3,994.90, Friday's close, is 11.0% above that one scenario."
      },
      {
       "lead": "Cheap to run, it says.",
@@ -148197,6 +148197,9 @@
      "url": "https://www.kitco.com/price/precious-metals",
      "published": "2026-10-23"
     }
+   ],
+   "corrections": [
+    "Corrected, 26 October 2026: a section was headed 'Planned at $3,600 gold' and called the tape's price 'below the tape' of Newmont's plan. Newmont's release, footnote 5, says the return was 'evaluated across a range of economic scenarios, including gold at $3,600/oz'; it does not say the capital was planned at that price. The section now calls $3,600 one scenario. Two lines also hardened Newmont's expectations: it 'expects to fund' the project from internal cash flows, and expects the grant's terms to be finalised by end-2026; both now say so. A subhead said six years to production; it now names the 2033 target. What was right as published: every figure, including 11.0%. Found by Carat Capital's Standards desk on 25 October 2026."
    ]
   },
   "next": {
@@ -148328,7 +148331,7 @@
   "watch": [
    {
     "when": "Mid-November 2026",
-    "what": "GJEPC's October export statement, the first month of the US holiday shipping season."
+    "what": "GJEPC's October export statement. The release says only that the US holiday season is approaching."
    },
    {
     "when": "Not dated",
@@ -148355,6 +148358,9 @@
      "url": "https://www.gjepc.org/news_detail.php?news=indian-consulate-in-new-york-indian-hosts-india-usa-virtual-jewellery-exhibition-facilitated-by-gjepc-1",
      "published": "2026-10-24"
     }
+   ],
+   "corrections": [
+    "Clarified, 26 October 2026: a watch line called October 'the first month of the US holiday shipping season'. GJEPC's release says only that the US holiday season is approaching; the line now says that. No figure changed. Found by Carat Capital's Standards desk on 25 October 2026."
    ]
   },
   "next": {
@@ -148372,7 +148378,7 @@
     {
      "n": "₹14.50 lakh",
      "label": "Wages pending",
-     "q": "police and union",
+     "q": "union: total; police: unpaid",
      "src": 0
     },
     {
@@ -148398,7 +148404,7 @@
    ]
   },
   "changed": {
-   "lead": "The owner left.",
+   "lead": "The unit shut.",
    "text": "Marutinandan Diamonds, a Varachha cutting and polishing unit, has shut and its owner is untraceable, police said on 23 October. On the union's figures, ₹10 lakh of wages is unpaid."
   },
   "means": [
@@ -148412,7 +148418,7 @@
    },
    {
     "who": "What this is not:",
-    "text": "Evidence of wider closures. This is one unit, and no count of others exists."
+    "text": "Evidence of wider closures. The source gives no count of other closures."
    }
   ],
   "visual": {
@@ -148427,9 +148433,9 @@
    ],
    "rows": [
     [
-     "Wages pending, total",
+     "Wages: the union's pending total, the police's unpaid sum",
      "₹14.50 lakh",
-     "police; union"
+     "union; police"
     ],
     [
      "Paid in October's second week",
@@ -148462,7 +148468,7 @@
   },
   "sections": [
    {
-    "h": "Part-paid, then gone",
+    "h": "Part-paid, then silent",
     "p": [
      {
       "lead": "One payment came.",
@@ -148508,16 +148514,16 @@
    },
    {
     "when": "5 to 15 November 2026",
-    "what": "The Diwali break the union expected in October, when unpaid wages bite hardest."
+    "what": "The Diwali break the union expects, as it told Divya Bhaskar on 9 October."
    }
   ],
   "depth": {
    "reverse": "The owner reappears and pays the balance before Diwali. Then this is a payment dispute, not a closure.",
    "built": {
     "title": "Where the figures come from",
-    "text": "Police gave the ₹14.50 lakh total. The part-payment, the headcount and the 30 further workers are the union's. The ₹10 lakh balance is Carat Capital's subtraction. No figure is from the owner, who could not be reached."
+    "text": "The union calls ₹14.50 lakh the total pending, of which ₹4.50 lakh was paid. The Indian Express's lead sentence, citing police, reads the same ₹14.50 lakh as the unpaid sum. This article follows the union's quote, so the ₹10 lakh balance is Carat Capital's subtraction on that reading. The headcount and the 30 further workers are the union's. No figure is from the owner, who could not be reached."
    },
-   "method": "The Indian Express, 'Surat diamond unit shuts, owner untraceable as workers flag pending salaries', datePublished 2026-10-24T08:12:33+05:30, fetched by the Editor on 25 October 2026, 200, 715,025 bytes; the article body read in the page's structured data. Read: 'salaries, amounting to nearly Rs 14.50 lakh ... police said on Friday'; 'On Thursday, the Diamond Workers Union Gujarat (DWUG) submitted an application at the Ashwani Kumar police station'; 'cleared part payment of Rs 4.50 lakh of the pending salaries of Rs 14.50 lakh and assured that he would pay the remaining amount on October 19'; 'on October 20 and found that his mobile phone was switched off'; 'Of the 55 diamond polishers working in the firm, only 20 contacted us'; 'remaining 30 workers'; 'DWUG vice president (Surat), Bhavesh Tank'; 'Police inspector H B Patel'; Monaben Mali's 'Rs 60,000'. Friday is 23 October and Thursday 22 October 2026. One outlet: Gujarati-language reports of a union petition on 24 October were not read for this article. The Diwali dates are the union's expectation as reported by Carat Capital on 10 October. ARCHIVE, by entity: Carat Capital's archive, 'Marutinandan' 0 rows; 'Varachha' 1 row (11 October, a Surat property sale, opened, unrelated). NEW.",
+   "method": "The Indian Express, 'Surat diamond unit shuts, owner untraceable as workers flag pending salaries', datePublished 2026-10-24T08:12:33+05:30, fetched by the Editor on 25 October 2026, 200, 715,025 bytes; the article body read in the page's structured data. Read: 'salaries, amounting to nearly Rs 14.50 lakh ... police said on Friday'; 'On Thursday, the Diamond Workers Union Gujarat (DWUG) submitted an application at the Ashwani Kumar police station'; 'cleared part payment of Rs 4.50 lakh of the pending salaries of Rs 14.50 lakh and assured that he would pay the remaining amount on October 19'; 'on October 20 and found that his mobile phone was switched off'; 'Of the 55 diamond polishers working in the firm, only 20 contacted us'; 'remaining 30 workers'; 'DWUG vice president (Surat), Bhavesh Tank'; 'Police inspector H B Patel'; Monaben Mali's 'Rs 60,000'. Friday is 23 October and Thursday 22 October 2026. Two readings of one figure: the Indian Express's lead sentence says salaries 'amounting to nearly Rs 14.50 lakh' are unpaid, police said; its union quote says 'part payment of Rs 4.50 lakh of the pending salaries of Rs 14.50 lakh'. Carat Capital follows the quote. Gujarati reports, read by the Editor on 26 October 2026: Divya Bhaskar, datePublished 2026-10-22T14:49:34+05:30, 200, 432,510 bytes, gives no rupee total; it reports the owner paid 40% after the union's mediation and 60% is unpaid ('60 ટકા'). On the Indian Express quote, ₹4.50 lakh of ₹14.50 lakh is 31% (4.50 / 14.50 = 0.310). ETV Bharat, datePublished 2026-10-24T20:10:06+05:30, 200, 245,149 bytes, covers the union's bonus and overtime petition and does not name this unit ('મારુતિ' 0 hits, 'વાગડિયા' 0 hits). Both name the union's vice-president as Bhavesh Tank ('ભાવેશ ટાંક'). The Diwali dates are the union's expectation as reported by Carat Capital on 10 October. ARCHIVE, by entity: Carat Capital's archive, 'Marutinandan' 0 rows; 'Varachha' 1 row (11 October, a Surat property sale, opened, unrelated). NEW.",
    "prior": [
     {
      "date": "2026-10-10",
@@ -148531,6 +148537,9 @@
      "url": "https://indianexpress.com/article/cities/ahmedabad/surat-diamond-unit-shuts-owner-untraceable-as-workers-flag-pending-salaries-10934573/",
      "published": "2026-10-24"
     }
+   ],
+   "corrections": [
+    "Corrected, 26 October 2026: this article opened 'The owner left.' and headed a section 'Part-paid, then gone'. Its source, the Indian Express of 24 October, reports that the owner 'allegedly fled', and police call him untraceable; the page no longer states his departure as fact. It also said police gave ₹14.50 lakh as the total. The police sentence uses that figure as the unpaid sum; the union calls it the pending total, of which ₹4.50 lakh was paid. The page now gives both readings and says it follows the union's. A closing line said no count of other closures exists; it now says the source gives none. A watch line now attributes the 5 to 15 November break to the union's expectation, as Divya Bhaskar reported on 9 October. What was right as published: every figure. Found by Carat Capital's Standards desk on 25 October 2026."
    ]
   },
   "next": {
@@ -148649,6 +148658,10 @@
      {
       "lead": "Cuts of 6 to 12.",
       "text": "Lao Miao cut 12 yuan on 24 October. Chow Sang Sang, Chow Tai Fook and Lao Feng Xiang each cut 6."
+     },
+     {
+      "lead": "14.8% below August.",
+      "text": "Against its 1,408 yuan on 25 August, Chow Sang Sang's 1,200 is 14.8% lower."
      }
     ]
    },
@@ -148660,8 +148673,8 @@
       "text": "Shenzhen's Shuibei jewellery market drew crowds on Saturday 24 October, the report says. Buyers posted online that it was busier than a vegetable market."
      },
      {
-      "lead": "Counters lag spot.",
-      "text": "Brand boards price finished jewellery and reset on each brand's own schedule. A move in the metal reaches them later."
+      "lead": "Cut on spot's fall.",
+      "text": "The report ties the 24 October cuts to the fall in international gold prices."
      }
     ]
    }
@@ -148669,11 +148682,11 @@
   "watch": [
    {
     "when": "Monday 26 October",
-    "what": "The first spot gold session since Friday's close, which the brand boards follow with a lag."
+    "what": "The first spot gold session since Friday's close."
    },
    {
     "when": "Daily",
-    "what": "The brand boards. A return above 1,250, the early-October level, would undo the month's fall."
+    "what": "The brand boards. A return to 1,250, the early-October level, would retrace about half the month's fall."
    }
   ],
   "depth": {
@@ -148682,7 +148695,7 @@
     "title": "How a brand board works",
     "text": "Chinese jewellery brands post a daily price per gram for pure-gold jewellery. It includes workmanship and margin over the metal, so it runs above the bullion price. Each brand sets its own board."
    },
-   "method": "Qianjiang Evening News, carried by Sina, datePublished 2026-10-25 11:00:41, fetched by the Editor on 25 October 2026, 200, 38,315 bytes, read in the body: '10月24日国内多家品牌足金饰品价格下调'; '老庙黄金足金饰品报1196元/克，较前一日跌了12元' (1 hit); '周生生足金饰品报1200元/克，较前一日跌了6元' (1); '周大福足金饰品报1202元/克，较前一日跌了6元' (1); '老凤祥足金饰品报1206元/克，较前一日跌了6元' (1); '此前9月24日，国内品牌金饰克价普遍在1300元/克附近' and '金饰价格已下跌约100元'; '昨日（10月24日） 深圳水贝迎来人流'. The report also carries a spot price from CCTV Finance and an analyst's three causes; neither is printed, under the house's one-price rule and because the causes are one analyst's view. Translations are Carat Capital's. 25 August levels from Carat Capital's 27 August report of ten brand boards (Chow Sang Sang 1,408, Chow Tai Fook 1,410, Lao Miao 1,407, Lao Feng Xiang 1,406), opened. The early-October level of about 1,250 is from Carat Capital's 3 October report. ARCHIVE, by entity and period: 'Chow Sang Sang' 15 rows, newest three opened: 5 October (Shuibei wholesale, 3 October), 3 October (2 October boards, 1,249) and 1 October. Ours covers boards to 3 October; this covers 24 October. ADVANCED.",
+   "method": "Qianjiang Evening News, carried by Sina, datePublished 2026-10-25 11:00:41, fetched by the Editor on 25 October 2026, 200, 38,315 bytes, read in the body: '10月24日国内多家品牌足金饰品价格下调'; '老庙黄金足金饰品报1196元/克，较前一日跌了12元' (1 hit); '周生生足金饰品报1200元/克，较前一日跌了6元' (1); '周大福足金饰品报1202元/克，较前一日跌了6元' (1); '老凤祥足金饰品报1206元/克，较前一日跌了6元' (1); '此前9月24日，国内品牌金饰克价普遍在1300元/克附近' and '金饰价格已下跌约100元'; '昨日（10月24日） 深圳水贝迎来人流'. The report also carries a spot price from CCTV Finance and an analyst's three causes; neither is printed, under the house's one-price rule and because the causes are one analyst's view. Translations are Carat Capital's. 25 August levels from Carat Capital's 27 August report of ten brand boards (Chow Sang Sang 1,408, Chow Tai Fook 1,410, Lao Miao 1,407, Lao Feng Xiang 1,406), opened. The early-October level of about 1,250 is from Carat Capital's 3 October report. ARCHIVE, by entity and period: 'Chow Sang Sang' 15 rows, newest three opened: 5 October (Shuibei wholesale, 3 October), 3 October (2 October boards, 1,249) and 1 October. Ours covers boards to 3 October; this covers 24 October. ADVANCED. Read on 25 October in the same body: '受国际金价下跌影响' (1 hit), the report's stated cause of the 24 October cuts.",
    "prior": [
     {
      "date": "2026-10-03",
@@ -148711,6 +148724,9 @@
      "url": "https://www.kitco.com/price/precious-metals",
      "published": "2026-10-23"
     }
+   ],
+   "corrections": [
+    "Corrected, 26 October 2026: a watch line said a return above 1,250 yuan would undo the month's fall. On this page's own figures, counters fell about 100 yuan from near 1,300 to 1,200, so 1,250 retraces about half. A paragraph headed 'Counters lag spot' said a move in the metal reaches brand boards later, and a watch line said the boards follow spot with a lag. The source does not say so; it ties the 24 October cuts to the fall in international gold prices. Both now follow the source. A sentence now also prints the division behind the headline's 14.8%: 1,200 against 1,408. What was right as published: every figure. Found by Carat Capital's Standards desk on 25 October 2026."
    ]
   },
   "next": {
@@ -148718,5 +148734,720 @@
    "why": "The same counters at the start of the October holiday."
   },
   "corrections": []
+ },
+ "lab-grown-council-threatens-action-over-synthetic": {
+  "v": 3,
+  "kicker": "Nomenclature",
+  "figures": {
+   "asof": "Diamond Producers Council statement, 20 October 2026, 9:00 a.m. EDT. Output and survey figures are the council's own claims.",
+   "cells": [
+    {
+     "n": "20m+ ct",
+     "label": "Members' output",
+     "q": "a year, council's claim",
+     "src": 0
+    },
+    {
+     "n": "56%",
+     "label": "Read 'synthetic' as fake",
+     "q": "2016 survey the council cites",
+     "src": 0
+    },
+    {
+     "n": "7 Sep",
+     "label": "CIBJO's decision",
+     "q": "'synthetic' as sole term",
+     "src": 1
+    },
+    {
+     "n": "20 Oct",
+     "label": "Council's reply",
+     "q": "9:00 a.m. EDT",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Lab-grown growers push back.",
+   "text": "The Diamond Producers Council, which speaks for lab-grown producers, told jewelers to reject CIBJO's 'synthetic' as biased and deceptive. It says it will initiate proceedings against jewelers who use the word deceptively."
+  },
+  "means": [
+   {
+    "who": "If you sell lab-grown in the US:",
+    "text": "Check tags and listings that say 'synthetic' against US consumer law, not CIBJO's Blue Books."
+   },
+   {
+    "who": "If you sell natural:",
+    "text": "The council says a buyer steered to a costlier mined stone could ground a damages claim."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A lawsuit. The council names no defendant and no court."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Who says what about 'synthetic'",
+   "asof": "Positions as stated, September to October 2026",
+   "cols": [
+    "Body",
+    "Position on 'synthetic'",
+    "Stated"
+   ],
+   "rows": [
+    [
+     "CIBJO",
+     "Sole preferred term for made stones",
+     "7 Sep 2026"
+    ],
+    [
+     "Diamond Producers Council",
+     "Reject it; say lab-grown or lab-created",
+     "20 Oct 2026"
+    ],
+    [
+     "US FTC, by the council's reading",
+     "Dropped from its example qualifiers",
+     "Jewelry Guides"
+    ],
+    [
+     "US FTC, per CIBJO's release",
+     "Allowed, beside lab-grown and lab-created",
+     "2018 Guides"
+    ],
+    [
+     "France and Russia, per CIBJO",
+     "The only permitted term",
+     "In force"
+    ]
+   ],
+   "hi": 1,
+   "note": "The council's row and its reading of the FTC are from its 20 October statement. CIBJO's decision and the FTC, France and Russia rows are from CIBJO's release as Carat Capital reported it on 8 September.",
+   "plate": "CC/2026/332"
+  },
+  "sections": [
+   {
+    "h": "A legal notice, no defendant.",
+    "p": [
+     {
+      "lead": "Proceedings promised.",
+      "text": "The council says it will initiate proceedings against jewelers who use 'synthetic' deceptively. Its notice also names trade organisations and other market participants."
+     },
+     {
+      "lead": "Damages framed.",
+      "text": "Where a buyer pays more for a mined diamond after being misled, the council says the premium may be economic injury. It is weighing claims on behalf of classes of consumers."
+     }
+    ]
+   },
+   {
+    "h": "Voluntary books, local law.",
+    "p": [
+     {
+      "lead": "CIBJO cannot compel.",
+      "text": "“CIBJO's Blue Books are voluntary recommendations, not regulations,” the council said. A jeweler's duties come from consumer law where it trades, it says."
+     },
+     {
+      "lead": "Two readings of Washington.",
+      "text": "The council says the FTC removed 'synthetic' from its examples of recommended qualifiers. CIBJO's release, as Carat Capital reported in September, says the FTC still allows the word.",
+      "links": {
+       "as Carat Capital reported in September": "a-cibjo-backs-synthetic-alone.html"
+      }
+     },
+     {
+      "lead": "A survey cited.",
+      "text": "The council cites a 2016 survey, submitted to the FTC by IGDA, in which 56% took 'synthetic diamond' to mean an imitation."
+     }
+    ]
+   },
+   {
+    "h": "The 4Cs are next.",
+    "p": [
+     {
+      "lead": "Grading in the frame.",
+      "text": "The council says CIBJO's 2026 Diamond Commission report calls for exploring every possible way to keep the 4Cs for natural diamonds. That would deny lab-grown stones the same carat, colour, clarity and cut terms."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Not dated",
+    "what": "Any CIBJO reply to the council. The test is whether it defends 'synthetic' as disclosure or drops the 4Cs plan."
+   },
+   {
+    "when": "Holiday season 2026",
+    "what": "Whether the council names a jeweler or files a claim. Until then the notice is a threat, not a case."
+   },
+   {
+    "when": "2028",
+    "what": "The FTC's next Jewelry Guides revision, where the US term is set, per CIBJO's release."
+   }
+  ],
+  "depth": {
+   "reverse": "A filed claim, or an FTC statement backing one term. Either would turn a trade dispute into a legal rule a jeweler must follow.",
+   "built": {
+    "title": "Who the council is",
+    "text": "The Diamond Producers Council advocates for lab-grown diamonds and the producers who grow them, by its own description. It is not the African Diamond Producers Association, a natural-mining body that backed 'synthetic' alongside CIBJO in September."
+   },
+   "method": "Diamond Producers Council, 'Diamond Producers Council Advises Jewelers to Reject CIBJO's Biased and Deceptive \"Synthetic\" Terminology Recommendation', dateline 'October 20, 2026 · 9:00 a.m. EDT', fetched by the Editor at 06:0x EDT on 26 October 2026, 200, 34,785 bytes. Read in the saved bytes: 'more than 20 million carats annually' (1 hit); 'found that 56% of respondents understood' (1); 'A 2016 Opinions Ltd. survey submitted to the FTC by IGDA' (1); 'will initiate proceedings against jewelers who deceptively use' (1); 'voluntary recommendations, not regulations' (1); 'removed \"synthetic\" from its examples of recommended qualifiers' (1); 'every way possible' (1); 'classes of consumers' (1). The 20 million carats, the 2016 survey, the FTC reading and the description of CIBJO's 2026 Diamond Commission report are the council's; none was read at its own source. Second reading: JCK, 'Diamond Producers Council Calls CIBJO's \"Synthetic\" Mandate \"Biased and Deceptive\"', dated October 22, 2026, fetched 25 October, 200, 117,949 bytes ('20 million' 1 hit). CIBJO's 7 September decision, the 2018 FTC Guides and the France and Russia rule are from Carat Capital's 8 September report of CIBJO's release. ARCHIVE, by entity and period: Carat Capital's archive, 'Producers Council' 0 rows; 'synthetic' 16 rows, all opened by title and passage; the CIBJO decision is 2026-09-08 cibjo-backs-synthetic-alone. Ours 8 September covers CIBJO's 7 September decision | new item covers the lab-grown producers' reply of 20 October. Same decision, different actor and date: ADVANCED, not a repeat. The two 'Diamond Producers' rows in the archive are the African Diamond Producers Association, a different body.",
+   "prior": [
+    {
+     "date": "2026-09-08",
+     "slug": "cibjo-backs-synthetic-alone",
+     "claim": "CIBJO backed 'synthetic' alone; the FTC keeps three terms to 2028."
+    },
+    {
+     "date": "2026-08-01",
+     "slug": "russia-bans-the-word",
+     "claim": "Russia required lab-grown tags to say synthetic from 1 September."
+    },
+    {
+     "date": "2026-07-27",
+     "slug": "say-synthetic-not-lab-grown",
+     "claim": "CIBJO moved to strike 'laboratory-grown' from its Blue Books."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Diamond Producers Council, statement on CIBJO's 'synthetic' terminology recommendation",
+     "url": "https://diamondproducers.org/news/cibjo-synthetic-terminology",
+     "published": "2026-10-20T09:00:00-04:00"
+    },
+    {
+     "title": "JCK, Diamond Producers Council Calls CIBJO's 'Synthetic' Mandate 'Biased and Deceptive' (Karen Dybis)",
+     "url": "https://www.jckonline.com/editorial-article/diamond-producers-council/",
+     "published": "2026-10-22"
+    }
+   ]
+  },
+  "next": {
+   "slug": "cibjo-backs-synthetic-alone",
+   "why": "The CIBJO decision the council is answering."
+  }
+ },
+ "igi-lab-grown-jewelry-grows-47-percent": {
+  "v": 3,
+  "kicker": "Grading labs",
+  "figures": {
+   "asof": "IGI press release filed with NSE and BSE, 21 October 2026. Quarter to 30 September 2026 (Q2 FY27), consolidated, against Q2 FY26.",
+   "cells": [
+    {
+     "n": "INR 3,980m",
+     "dir": "up",
+     "label": "Quarter revenue",
+     "q": "+31% on a year",
+     "src": 0
+    },
+    {
+     "n": "INR 1,858m",
+     "dir": "up",
+     "label": "Profit after tax",
+     "q": "+43% on a year",
+     "src": 0
+    },
+    {
+     "n": "61.4%",
+     "dir": "up",
+     "label": "EBITDA margin",
+     "q": "58.0% a year earlier",
+     "src": 0
+    },
+    {
+     "n": "4.35m",
+     "dir": "up",
+     "label": "Reports issued",
+     "q": "+26% on a year",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Lab-grown jewelry led.",
+   "text": "IGI says its lab-grown jewelry segment grew 47% on a year in the quarter to 30 September. Natural diamond jewelry grew 3%."
+  },
+  "means": [
+   {
+    "who": "If you sell lab-grown jewelry:",
+    "text": "Certified lab-grown pieces are IGI's fastest-growing segment, ahead of loose lab-grown stones at 37%."
+   },
+   {
+    "who": "If you trade natural goods:",
+    "text": "Natural loose stones grew 8% at the same lab, faster than natural jewelry."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A price signal. IGI does not say whether its segment growth counts fees or reports."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "IGI growth by segment, Q2 FY27 on Q2 FY26",
+   "asof": "Quarter to 30 September 2026",
+   "cols": [
+    "Segment",
+    "Growth on a year"
+   ],
+   "rows": [
+    [
+     "Lab-grown, loose stones",
+     "+37%"
+    ],
+    [
+     "Lab-grown, jewelry",
+     "+47%"
+    ],
+    [
+     "Natural, loose stones",
+     "+8%"
+    ],
+    [
+     "Natural, jewelry",
+     "+3%"
+    ],
+    [
+     "Coloured gemstones, including AGL",
+     "7x"
+    ]
+   ],
+   "hi": 1,
+   "note": "Growth rates as IGI states them. The release does not say whether they measure revenue or report volume, and gives no rupee figure by segment.",
+   "plate": "CC/2026/333"
+  },
+  "sections": [
+   {
+    "h": "Profit outran revenue.",
+    "p": [
+     {
+      "lead": "Revenue rose 31%.",
+      "text": "Quarter revenue rose 31% to INR 3,980 million, from INR 3,037 million a year earlier."
+     },
+     {
+      "lead": "Profit rose 43%.",
+      "text": "Profit after tax rose 43% to INR 1,858 million."
+     },
+     {
+      "lead": "Margins widened.",
+      "text": "EBITDA rose 39% to INR 2,445 million, a margin of 61.4%."
+     }
+    ]
+   },
+   {
+    "h": "The half and the quarter.",
+    "p": [
+     {
+      "lead": "The half held.",
+      "text": "For April to September, revenue rose 27% to INR 7,688 million."
+     },
+     {
+      "lead": "Quarter on quarter.",
+      "text": "Subtracting the second quarter from the half leaves INR 3,708 million for April to June. The July quarter was 7.3% higher."
+     },
+     {
+      "lead": "Reports rose 26%.",
+      "text": "IGI issued 4.35 million grading reports in the quarter."
+     }
+    ]
+   },
+   {
+    "h": "Gemstones multiplied, with AGL.",
+    "p": [
+     {
+      "lead": "Seven times.",
+      "text": "IGI says coloured gemstones grew sevenfold on a year, a figure that includes AGL. It gives no rupee amount for the line."
+     },
+     {
+      "lead": "The chief's read.",
+      "text": "Managing director Tehmasp Printer says lab-grown diamonds have started to see higher adoption. He calls natural diamonds and gemstones a key growth lever."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "November to December 2026",
+    "what": "India's festive season and the US holiday ordering cycle, which IGI's chief says are ramping up."
+   },
+   {
+    "when": "Quarter to 31 December 2026",
+    "what": "IGI's next results. The test is whether lab-grown jewelry keeps outgrowing natural jewelry."
+   }
+  ],
+  "depth": {
+   "reverse": "A quarter in which IGI's natural jewelry segment outgrows its lab-grown jewelry segment would undo the split this quarter shows.",
+   "built": {
+    "title": "What IGI's figures count",
+    "text": "IGI grades and certifies stones and jewelry, so its revenue is fees, not sales of goods. It calls itself India's largest independent certifier, with a 50% market share, and runs 37 laboratories in 10 countries."
+   },
+   "method": "IGI press release to NSE and BSE, 'PRESS RELEASE: Mumbai, October 21, 2026', cover letter digitally signed 2026.10.21 16:29:44 +05'30'. Fetched by the Editor at 06:0x EDT on 26 October 2026 from nsearchives.nseindia.com, 200, 1,070,816 bytes, byte-identical to an earlier capture at 03:05 EDT. Text extracted with PyMuPDF, 6,879 characters, and searched: 'grew 31% YoY to INR 3,980 Mn' (1 hit); '3,037' (1); 'EBITDA grew 39% to INR 2,445 Mn' (1); '61.4%' (1); '58.0%' (1); '43% to INR 1,858 Mn' (1); '1,298' (1); 'LGD loose stones up 37%' (1); 'LGD jewelry up 47%' (1); 'natural diamond loose stones up 8%' (1); 'natural diamond jewelry up 3%' (1); 'colored gemstones up 7x' (1); '4.35 Mn reports' (1); '27% to INR 7,688 Mn' (1); '50% market share' (1); 'With 37' then 'laboratories' across a line break (1). Carat Capital's arithmetic: 3,980 / 3,037 = 1.3105, +31.0%; 1,858 / 1,298 = 1.4314, +43.1%; 2,445 / 1,763 = 1.3869, +38.7%; 7,688 - 3,980 = 3,708; 3,980 / 3,708 = 1.0734, +7.3%. IGI's fiscal year runs April to March, so Q2 FY27 is July to September 2026. Dollar conversions published elsewhere are not used: the release gives rupees only and no exchange rate. ARCHIVE, by entity: Carat Capital's archive, 'IGI' as a whole word 0 rows; 'International Gemological' 0 rows. NEW: no earlier IGI item, any period.",
+   "prior": [
+    {
+     "date": "2026-08-07",
+     "slug": "twenty-nine-ninety-nine-at-the-counter",
+     "claim": "Lab-grown studs at $29.99 reached the mass-market piercing counter."
+    }
+   ],
+   "sources": [
+    {
+     "title": "International Gemological Institute Limited, press release on Q2 and H1 FY27 results (NSE filing)",
+     "url": "https://nsearchives.nseindia.com/corporate/IGIINDIA_21102026163436_SE_PR.pdf",
+     "published": "2026-10-21T16:29:44+05:30"
+    }
+   ]
+  },
+  "next": {
+   "slug": "lab-grown-council-threatens-action-over-synthetic",
+   "why": "What lab-grown producers say a jeweler should call the stones IGI grades."
+  }
+ },
+ "audemars-piguet-charges-sellers-up-to-20-percent": {
+  "v": 3,
+  "kicker": "Certified pre-owned",
+  "figures": {
+   "asof": "The Watch Keepers, Audemars Piguet's own site: FAQ, listings and shipping pages read 26 October 2026, 06:0x EDT.",
+   "cells": [
+    {
+     "n": "20%",
+     "label": "Seller commission",
+     "q": "on the first EUR 25,000",
+     "src": 0
+    },
+    {
+     "n": "10%",
+     "label": "Lowest tier",
+     "q": "on value above EUR 50,000",
+     "src": 0
+    },
+    {
+     "n": "43",
+     "label": "Watches listed",
+     "q": "read 26 October",
+     "src": 1
+    },
+    {
+     "n": "2 years",
+     "label": "Sales warranty",
+     "q": "from date of purchase",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "AP resells its own.",
+   "text": "Audemars Piguet runs The Watch Keepers, a certified pre-owned site it fully owns and operates. Sellers pay a fixed, tiered commission that starts at 20% and falls to 10%."
+  },
+  "means": [
+   {
+    "who": "If you sell pre-owned AP:",
+    "text": "On a EUR 40,000 watch the commission is EUR 7,250, or 18.1% of the price."
+   },
+   {
+    "who": "If you buy in the EU or Switzerland:",
+    "text": "Each watch carries AP's own authentication, a five-point grade and a two-year warranty."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A global market. Buying and selling are open only to verified EU and Swiss residents."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "What AP keeps, by sale price",
+   "asof": "AP's published tiers, read 26 October 2026",
+   "cols": [
+    "Sale price",
+    "Commission",
+    "Share of price"
+   ],
+   "rows": [
+    [
+     "EUR 10,000",
+     "EUR 2,000",
+     "20.0%"
+    ],
+    [
+     "EUR 25,000",
+     "EUR 5,000",
+     "20.0%"
+    ],
+    [
+     "EUR 40,000",
+     "EUR 7,250",
+     "18.1%"
+    ],
+    [
+     "EUR 50,000",
+     "EUR 8,750",
+     "17.5%"
+    ],
+    [
+     "EUR 100,000",
+     "EUR 13,750",
+     "13.8%"
+    ]
+   ],
+   "hi": 2,
+   "note": "AP's FAQ: 20% on the portion up to EUR 25,000, 15% between EUR 25,001 and EUR 50,000, 10% above EUR 50,000, calculated cumulatively. Commissions and shares are Carat Capital's arithmetic.",
+   "plate": "CC/2026/334"
+  },
+  "sections": [
+   {
+    "h": "AP fixes the commission.",
+    "p": [
+     {
+      "lead": "Tiered, not negotiable.",
+      "text": "The seller commission is not negotiable, AP's FAQ says. It covers authentication, servicing, logistics, photography, listing and insurance."
+     },
+     {
+      "lead": "Sellers set prices.",
+      "text": "Sellers choose a set price or a bidding window, with an optional reserve on a bidding window. An unsold watch can be repriced or retrieved, subject to a service fee."
+     }
+    ]
+   },
+   {
+    "h": "Checked against AP's archives.",
+    "p": [
+     {
+      "lead": "Archive and theft checks.",
+      "text": "AP watchmakers authenticate each watch against the brand's archives and check it has not been reported stolen. It ships with a certificate of authenticity."
+     },
+     {
+      "lead": "Returns within 14 days.",
+      "text": "Buyers may return a watch within 14 days of receipt. Delivery covers 29 countries: the 27 EU members, Liechtenstein and Switzerland."
+     },
+     {
+      "lead": "A 2-year warranty.",
+      "text": "Each sale carries a 2-year international sales warranty from purchase. The site listed 43 watches on 26 October."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Not dated",
+    "what": "New regions. AP's FAQ says it plans to extend buying and selling beyond the EU and Switzerland."
+   },
+   {
+    "when": "Through December 2026",
+    "what": "The listing count, 43 on 26 October. A rising count would show owners consigning to AP over dealers."
+   }
+  ],
+  "depth": {
+   "reverse": "A cut to the 20% tier, or buying opened to the US, would put the site in price competition with dealers. At these rates it sells certainty, not price.",
+   "built": {
+    "title": "How The Watch Keepers works",
+    "text": "Audemars Piguet (Marketing) SA runs the site from Le Brassus. Guests over 16 may browse; Residents over 18 who pass an identity check may buy, sell and bid. Its terms were last updated on 11 June 2026."
+   },
+   "method": "Read by the Editor on 26 October 2026, 06:0x EDT,: thewatchkeepers.com home (301 to 302 to 200, 187,527 bytes), /en/faq (200, 436,223), /en/listings (200, 259,495), /en/guide/shipping (200, 207,849), /en/about-us (200, 158,081), /en/terms-of-use (200, 520,615). Exact strings in the saved bytes: '20% on the portion up to EUR 25,000' (1 hit); '15% on the portion between EUR 25,001 and EUR 50,000' (1); '10% on the portion above EUR 50,000' (1); 'A seller commission applies and is not negotiable' (1); '43 items' (1); 'two-year international sales warranty' (1); 'within 14 days of receipt' (1); 'fully owned and operated by Audemars Piguet' (1); 'residing in the European Union and Switzerland' (1); 'last updated on June 11, 2026' (2, terms of use, English text). Shipping lists 29 locations, counted by hand. The page's own configuration also carries two unlabelled thresholds, 27,000 and 54,000, with no currency; they are not printed. Carat Capital's arithmetic: on EUR 40,000, 25,000 x 20% = 5,000 plus 15,000 x 15% = 2,250, total 7,250, 18.1%; on EUR 100,000, 5,000 + 3,750 + 5,000 = 13,750, 13.75%. The site carries no launch date and no price is visible without verification; neither is printed. ARCHIVE, by entity: 'Watch Keepers' 0 rows; 'certified pre-owned' 5 rows, all opened: Rolex's programme (18 Jul, 22 Jul, 23 Jul, 1 Aug, 4 Aug). No earlier AP programme item: NEW.",
+   "prior": [
+    {
+     "date": "2026-08-04",
+     "slug": "independents-pass-lvmh",
+     "claim": "Rolex certified pre-owned did $385 million, more than double a year earlier."
+    },
+    {
+     "date": "2026-07-18",
+     "slug": "crown-premium-shrinks",
+     "claim": "Rolex's certified pre-owned premium over the open market shrank to 22.6%."
+    }
+   ],
+   "sources": [
+    {
+     "title": "The Watch Keepers, FAQ (Audemars Piguet (Marketing) SA)",
+     "url": "https://thewatchkeepers.com/en/faq",
+     "published": "read 2026-10-26"
+    },
+    {
+     "title": "The Watch Keepers, watch listings",
+     "url": "https://thewatchkeepers.com/en/listings",
+     "published": "read 2026-10-26"
+    },
+    {
+     "title": "The Watch Keepers, shipping guide",
+     "url": "https://thewatchkeepers.com/en/guide/shipping",
+     "published": "read 2026-10-26"
+    },
+    {
+     "title": "The Watch Keepers, terms of use",
+     "url": "https://thewatchkeepers.com/en/terms-of-use",
+     "published": "2026-06-11"
+    }
+   ]
+  },
+  "next": {
+   "slug": "independents-pass-lvmh",
+   "why": "How large Rolex's own certified pre-owned business already is."
+  }
+ },
+ "platinum-guild-to-close-four-offices-including-new-york": {
+  "v": 3,
+  "kicker": "Platinum",
+  "figures": {
+   "asof": "JCK, 23 October 2026, reporting a PGI statement. Platinum is the tape's 05:00 ET Kitco bid, 26 October 2026.",
+   "cells": [
+    {
+     "n": "4",
+     "dir": "down",
+     "label": "Offices closing",
+     "q": "US, Japan, Korea, Hong Kong",
+     "src": 0
+    },
+    {
+     "n": "31 Dec",
+     "label": "US and Korea close",
+     "q": "Japan on 30 December",
+     "src": 0
+    },
+    {
+     "n": "+6%",
+     "dir": "up",
+     "label": "N. America demand",
+     "q": "platinum jewelry, 2025",
+     "src": 0
+    },
+    {
+     "n": "$1,544",
+     "dir": "down",
+     "label": "Platinum, tape bid",
+     "q": "05:00 ET, 26 October",
+     "src": 1
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Two markets kept.",
+   "text": "Platinum Guild International will close its offices in the US, Japan, South Korea and Hong Kong, JCK reports. Dedicated operations continue in China and India from 2027."
+  },
+  "means": [
+   {
+    "who": "If you sell platinum bridal in the US:",
+    "text": "PGI USA closes on 31 December; plan 2027 platinum marketing without its New York office."
+   },
+   {
+    "who": "If you work with PGI in Japan or Korea:",
+    "text": "PGI says it will still support platinum jewelry marketing where offices close."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A PGI exit from platinum. It calls the move structural."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "PGI offices, by closing date",
+   "asof": "As JCK reports PGI's statement, 23 October 2026",
+   "cols": [
+    "Office",
+    "Status",
+    "Date"
+   ],
+   "rows": [
+    [
+     "PGI USA, New York",
+     "Closes",
+     "31 Dec 2026"
+    ],
+    [
+     "PGI South Korea",
+     "Closes",
+     "31 Dec 2026"
+    ],
+    [
+     "PGI Japan",
+     "Closes",
+     "30 Dec 2026"
+    ],
+    [
+     "Hong Kong",
+     "Operations end",
+     "Same time frame"
+    ],
+    [
+     "China",
+     "Continues",
+     "From 2027"
+    ],
+    [
+     "India",
+     "Continues",
+     "From 2027"
+    ]
+   ],
+   "hi": 0,
+   "note": "Dates and statuses as JCK reports PGI's statement. PGI's own statement was not read at source.",
+   "plate": "CC/2026/335"
+  },
+  "sections": [
+   {
+    "h": "New York closes in December.",
+    "p": [
+     {
+      "lead": "Luker stays through 2026.",
+      "text": "The 4 closures include New York, where PGI USA president Jenny Luker keeps her role through 2026, JCK reports. PGI has had a US presence since 1992."
+     },
+     {
+      "lead": "Structure, not confidence.",
+      "text": "PGI says it will keep its education and market-intelligence work. It called the move “a change in operating structure, not a change in confidence in these markets.”"
+     }
+    ]
+   },
+   {
+    "h": "North America had grown.",
+    "p": [
+     {
+      "lead": "Demand rose 6%.",
+      "text": "Platinum jewelry demand in North America rose 6% in 2025, PGI chief executive Tim Schlick said in June. Some brands switched designs from white gold, he said."
+     },
+     {
+      "lead": "The metal is steady.",
+      "text": "The tape's platinum bid at 05:00 ET on 26 October was $1,544 an ounce, $4 below Friday's close."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "30 and 31 December 2026",
+    "what": "Japan closes, then PGI USA and PGI South Korea."
+   },
+   {
+    "when": "2027",
+    "what": "PGI's China and India operations. The test is whether PGI still publishes a US demand figure without a US office."
+   },
+   {
+    "when": "June 2027",
+    "what": "PGI's next annual Platinum Jewellery Business Review, if it keeps June's timing."
+   }
+  ],
+  "depth": {
+   "reverse": "A PGI statement naming a US partner or successor to carry its marketing would make this a handover, not a withdrawal from the US trade.",
+   "built": {
+    "title": "What PGI is",
+    "text": "Platinum Guild International was founded as a marketing organisation in 1975, JCK reports. It focused on four jewelry markets: China, Japan, India and the US."
+   },
+   "method": "JCK, 'PGI Restructures, Closing Offices as It Concentrates on China and India', by Karen Dybis, dated October 23, 2026, fetched by the Editor at 06:0x EDT on 26 October 2026, 200, 110,664 bytes. Read in the article body: 'closures of four offices' (body), 'from 2027 onward' (1 hit), 'Dec. 31' (1), 'Dec. 30' (1), 'rose by 6%' (1), 'not a change in confidence in these markets' (1), '1975' (1), 'since 1992' in the body. PGI's statement was not read at source; every PGI fact here is as JCK reports it. Platinum: Carat Capital's tape for 26 October, Kitco bid 1544 at 05:00 ET, prior mark 1548 (Friday's close); 1544 - 1548 = -4. ARCHIVE, by entity and period: 'Platinum Guild' 1 row, 2026-07-30 platinum-loses-its-teacher, opened: PGI USA's Kevin Reilly retired. Ours 30 July covers one executive's retirement | new item covers four office closures announced 23 October: ADVANCED, not a repeat.",
+   "prior": [
+    {
+     "date": "2026-07-30",
+     "slug": "platinum-loses-its-teacher",
+     "claim": "PGI USA's Kevin Reilly retired as platinum jumped to $1,628."
+    }
+   ],
+   "sources": [
+    {
+     "title": "JCK, PGI Restructures, Closing Offices as It Concentrates on China and India (Karen Dybis)",
+     "url": "https://www.jckonline.com/editorial-article/pgi-restructures-globally/",
+     "published": "2026-10-23"
+    },
+    {
+     "title": "Kitco precious metals board, via Carat Capital's tape, 26 October 2026 05:00 ET",
+     "url": "https://www.kitco.com/price/precious-metals",
+     "published": "2026-10-26T09:00:00Z"
+    }
+   ]
+  },
+  "next": {
+   "slug": "platinum-loses-its-teacher",
+   "why": "The PGI USA retirement that came before the closures."
+  }
  }
 }

@@ -1,36 +1,36 @@
 {
  "date_line": "Sunday, October 18, 2026 | Vol. I - No. 090",
- "edition": "Vol. I - No. 097",
+ "edition": "Vol. I - No. 098",
  "items": [
   {
-   "slug": "newmont-puts-red-chris-block-cave-at-4-2-to-4-8-billion",
-   "desk": "Gold & Metals",
-   "title": "Newmont puts Red Chris block-cave capital at $4.2–4.8 billion"
-  },
-  {
-   "slug": "india-us-gem-and-jewellery-exports-near-three-billion",
+   "slug": "lab-grown-council-threatens-action-over-synthetic",
    "desk": "Diamonds",
-   "title": "India's US gem and jewellery exports near $3 billion, GJEPC says"
+   "title": "Lab-grown producers' council threatens action over 'synthetic'"
   },
   {
-   "slug": "surat-diamond-unit-shuts-with-ten-lakh-unpaid",
+   "slug": "igi-lab-grown-jewelry-grows-47-percent",
    "desk": "Diamonds",
-   "title": "Surat diamond unit shuts before Diwali with ₹10 lakh of pay owed"
+   "title": "IGI's lab-grown jewelry line grows 47%, natural jewelry 3%"
   },
   {
-   "slug": "chow-sang-sang-gold-reads-1200-yuan",
+   "slug": "audemars-piguet-charges-sellers-up-to-20-percent",
+   "desk": "Watches",
+   "title": "Audemars Piguet charges sellers up to 20% on its own resale site"
+  },
+  {
+   "slug": "platinum-guild-to-close-four-offices-including-new-york",
    "desk": "Gold & Metals",
-   "title": "Chow Sang Sang gold reads 1,200 yuan a gram, 14.8% below 25 August"
+   "title": "Platinum Guild cuts four offices, including New York"
   }
  ],
- "tape_ts": "Kitco bid, board stamp 2026-10-23T17:00:00Z, tape's 05:00 ET opening mark 25 Oct",
+ "tape_ts": "Kitco bid, board stamp 2026-10-26T04:59:58.573Z, tape's 05:00 ET opening mark 26 Oct",
  "tape": [
   {
    "name": "Gold / oz",
    "code": "XAU",
-   "px": "3,994.90",
-   "chg": "+0.0000% vs 24 Oct mark",
-   "dir": "flat",
+   "px": "4,015.90",
+   "chg": "+0.5257% vs 25 Oct mark",
+   "dir": "up",
    "pts": [
     5,
     6,
@@ -85,9 +85,9 @@
   {
    "name": "Platinum / oz",
    "code": "XPT",
-   "px": "1,548.00",
-   "chg": "+0.0000% vs 24 Oct mark",
-   "dir": "flat",
+   "px": "1,544.00",
+   "chg": "-0.2584% vs 25 Oct mark",
+   "dir": "down",
    "pts": [
     2,
     4,
@@ -104,9 +104,9 @@
   {
    "name": "Silver / oz",
    "code": "XAG",
-   "px": "53.796",
-   "chg": "+0.0000% vs 24 Oct mark",
-   "dir": "flat",
+   "px": "53.94",
+   "chg": "+0.2677% vs 25 Oct mark",
+   "dir": "up",
    "pts": [
     2,
     4,
@@ -121,5 +121,5 @@
    ]
   }
  ],
- "editionDate": "2026-10-25"
+ "editionDate": "2026-10-26"
 }
