@@ -1,36 +1,31 @@
 {
  "date_line": "Sunday, October 18, 2026 | Vol. I - No. 090",
- "edition": "Vol. I - No. 098",
+ "edition": "Vol. I - No. 099",
  "items": [
   {
-   "slug": "lab-grown-council-threatens-action-over-synthetic",
-   "desk": "Diamonds",
-   "title": "Lab-grown producers' council threatens action over 'synthetic'"
-  },
-  {
-   "slug": "igi-lab-grown-jewelry-grows-47-percent",
-   "desk": "Diamonds",
-   "title": "IGI's lab-grown jewelry line grows 47%, natural jewelry 3%"
-  },
-  {
-   "slug": "audemars-piguet-charges-sellers-up-to-20-percent",
-   "desk": "Watches",
-   "title": "Audemars Piguet charges sellers up to 20% on its own resale site"
-  },
-  {
-   "slug": "platinum-guild-to-close-four-offices-including-new-york",
+   "slug": "shanghai-gold-exchange-volume-up-7-6-percent-to-5064-tonnes",
    "desk": "Gold & Metals",
-   "title": "Platinum Guild cuts four offices, including New York"
+   "title": "Shanghai Gold Exchange volume up 7.6% on year to 5,064.6 tonnes"
+  },
+  {
+   "slug": "chrono24-watch-price-index-closes-q3-at-1471",
+   "desk": "Watches",
+   "title": "Chrono24 watch price index closes Q3 at 1,471, up 0.7%"
+  },
+  {
+   "slug": "il-ponte-jewellery-sale-totals-over-3-million-euros",
+   "desk": "Auctions",
+   "title": "Il Ponte's jewellery sale totals over €3 million, 98% of lots sold"
   }
  ],
- "tape_ts": "Kitco bid, board stamp 2026-10-26T04:59:58.573Z, tape's 05:00 ET opening mark 26 Oct",
+ "tape_ts": "Kitco bid, board stamp 2026-10-27T05:00:58.047Z, tape's 05:00 ET opening mark 27 Oct",
  "tape": [
   {
    "name": "Gold / oz",
    "code": "XAU",
-   "px": "4,015.90",
-   "chg": "+0.5257% vs 25 Oct mark",
-   "dir": "up",
+   "px": "3,995.10",
+   "chg": "-0.5179% vs 26 Oct mark",
+   "dir": "down",
    "pts": [
     5,
     6,
@@ -85,8 +80,8 @@
   {
    "name": "Platinum / oz",
    "code": "XPT",
-   "px": "1,544.00",
-   "chg": "-0.2584% vs 25 Oct mark",
+   "px": "1,489.00",
+   "chg": "-3.5622% vs 26 Oct mark",
    "dir": "down",
    "pts": [
     2,
@@ -104,9 +99,9 @@
   {
    "name": "Silver / oz",
    "code": "XAG",
-   "px": "53.94",
-   "chg": "+0.2677% vs 25 Oct mark",
-   "dir": "up",
+   "px": "52.92",
+   "chg": "-1.8910% vs 26 Oct mark",
+   "dir": "down",
    "pts": [
     2,
     4,
@@ -121,5 +116,5 @@
    ]
   }
  ],
- "editionDate": "2026-10-26"
+ "editionDate": "2026-10-27"
 }

@@ -20488,7 +20488,7 @@
   "desk": "diamonds",
   "date": "2026-10-26",
   "kicker": "Nomenclature",
-  "lead": true,
+  "lead": false,
   "title": "Lab-grown producers' council threatens action over 'synthetic'",
   "dek": "The Diamond Producers Council told jewelers on 20 October to reject CIBJO's September call for the word. It says its members grow more than 20 million carats a year.",
   "byline": "Carat Capital",
@@ -20502,13 +20502,13 @@
   ],
   "body": [
    "The Diamond Producers Council, which speaks for lab-grown producers, told jewelers to reject CIBJO's 'synthetic' as biased and deceptive. It says it will initiate proceedings against jewelers who use the word deceptively.",
-   "The council says it will initiate proceedings against jewelers who use 'synthetic' deceptively. Its notice also names trade organisations and other market participants.",
+   "The council says it will initiate proceedings against jewelers who use 'synthetic' deceptively. Its notice also covers trade organisations and other market participants.",
    "Where a buyer pays more for a mined diamond after being misled, the council says the premium may be economic injury. It is weighing claims on behalf of classes of consumers.",
    "“CIBJO's Blue Books are voluntary recommendations, not regulations,” the council said. A jeweler's duties come from consumer law where it trades, it says.",
    "The council says the FTC removed 'synthetic' from its examples of recommended qualifiers. CIBJO's release, as Carat Capital reported in September, says the FTC still allows the word.",
    "The council cites a 2016 survey, submitted to the FTC by IGDA, in which 56% took 'synthetic diamond' to mean an imitation.",
-   "The council says CIBJO's 2026 Diamond Commission report calls for exploring every possible way to keep the 4Cs for natural diamonds. That would deny lab-grown stones the same carat, colour, clarity and cut terms.",
-   "The desk's view. If you sell lab-grown in the US: Check tags and listings that say 'synthetic' against US consumer law, not CIBJO's Blue Books. If you sell natural: The council says a buyer steered to a costlier mined stone could ground a damages claim. What this is not: A lawsuit. The council names no defendant and no court."
+   "The council says CIBJO's 2026 Diamond Commission report calls for exploring every possible way to keep the 4Cs for natural diamonds. The council says that could keep lab-grown stones from using the same four terms.",
+   "The desk's view. If you sell lab-grown in the US: Check tags and listings that say 'synthetic' against US consumer law, not CIBJO's Blue Books. If you sell natural: The council says a premium paid for a costlier mined stone may count as economic injury in assessing damages. What this is not: A lawsuit. The council names no defendant and no court."
   ],
   "sources": [
    {
@@ -20529,7 +20529,7 @@
   "date": "2026-10-26",
   "kicker": "Grading labs",
   "lead": false,
-  "title": "IGI's lab-grown jewelry line grows 47%, natural jewelry 3%",
+  "title": "IGI's lab-grown jewelry segment grows 47%, natural jewelry 3%",
   "dek": "Revenue at the Mumbai-listed grader rose 31% to INR 3,980 million in the July to September quarter. Profit after tax rose 43% to INR 1,858 million on 4.35 million reports.",
   "byline": "Carat Capital",
   "tags": [
@@ -20550,7 +20550,7 @@
    "IGI issued 4.35 million grading reports in the quarter.",
    "IGI says coloured gemstones grew sevenfold on a year, a figure that includes AGL. It gives no rupee amount for the line.",
    "Managing director Tehmasp Printer says lab-grown diamonds have started to see higher adoption. He calls natural diamonds and gemstones a key growth lever.",
-   "The desk's view. If you sell lab-grown jewelry: Certified lab-grown pieces are IGI's fastest-growing segment, ahead of loose lab-grown stones at 37%. If you trade natural goods: Natural loose stones grew 8% at the same lab, faster than natural jewelry. What this is not: A price signal. IGI does not say whether its segment growth counts fees or reports."
+   "The desk's view. If you sell lab-grown jewelry: Certified lab-grown pieces are IGI's fastest-growing diamond segment, ahead of loose lab-grown stones at 37%. If you trade natural goods: Natural loose stones grew 8% at the same lab, faster than natural jewelry. What this is not: A price signal. IGI does not say whether its segment growth counts fees or reports."
   ],
   "sources": [
    {
@@ -20643,6 +20643,110 @@
     "title": "Kitco precious metals board, via Carat Capital's tape, 26 October 2026 05:00 ET",
     "url": "https://www.kitco.com/price/precious-metals",
     "published": "2026-10-26T09:00:00Z"
+   }
+  ]
+ },
+ {
+  "slug": "shanghai-gold-exchange-volume-up-7-6-percent-to-5064-tonnes",
+  "desk": "gold-metals",
+  "date": "2026-10-27",
+  "kicker": "Gold & Metals",
+  "lead": true,
+  "title": "Shanghai Gold Exchange volume up 7.6% on year to 5,064.6 tonnes",
+  "dek": "In its September market report, China's central bank puts Shanghai Futures Exchange gold volume down 12.8% on the year. It does not say whether the exchange tonnage counts one side of each trade or both.",
+  "byline": "Carat Capital",
+  "tags": [
+   "Shanghai Gold Exchange",
+   "People's Bank of China",
+   "Shanghai Futures Exchange",
+   "Au(T+D)",
+   "China",
+   "gold volume"
+  ],
+  "body": [
+   "The Shanghai Gold Exchange traded 5,064.6 tonnes of gold in September, 7.6% more than a year earlier, the PBoC says. Gold volume on the Shanghai Futures Exchange fell 12.8%.",
+   "The SGE's Au(T+D) contract closed September at 906.6 yuan a gram, 5.7% below its end-August close. Spot volume still rose on the year.",
+   "Gold volume on the Shanghai Futures Exchange fell to about 15,000 tonnes, the bank's rounded figure. The PBoC gives no reason for either move.",
+   "The report gives SGE volume as trades done. It does not say whether each trade is counted once or for both buyer and seller.",
+   "The 7.6% rise compares the bank's figure with its own figure a year earlier. Set against totals from other publishers, the tonnage may not compare.",
+   "Chinese jewellery counters quote above the exchange price. On 14 August Carat Capital measured Chow Tai Fook's counter at 39.5% over the SGE's Au99.99 close.",
+   "The desk's view. If you price off Shanghai: Check counter quotes against Au(T+D)'s September close of 906.6 yuan a gram. If you track Chinese demand: Read the spot rise and the futures fall together. The bank gives no reason for either. What this is not: A demand figure. Traded volume is not metal bought by jewellers or withdrawn from the vaults."
+  ],
+  "sources": [
+   {
+    "title": "People's Bank of China, '2026年9月金融市场运行情况' (September 2026 financial market operations, Chinese)",
+    "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026102614131538957/index.html",
+    "published": "2026-10-26T18:00:06+08:00"
+   }
+  ]
+ },
+ {
+  "slug": "chrono24-watch-price-index-closes-q3-at-1471",
+  "desk": "watches",
+  "date": "2026-10-27",
+  "kicker": "Watches",
+  "lead": false,
+  "title": "Chrono24 watch price index closes Q3 at 1,471, up 0.7%",
+  "dek": "Haute Time, citing Chrono24's Q3 Quarterly Dial, puts the index 7.5% above a year earlier. Vacheron Constantin led with 17.7% over twelve months, Patek Philippe 17.0%, while Rolex slipped 0.2% in the quarter.",
+  "byline": "Carat Capital",
+  "tags": [
+   "Chrono24",
+   "ChronoPulse",
+   "pre-owned watches",
+   "Vacheron Constantin",
+   "Patek Philippe",
+   "Rolex"
+  ],
+  "body": [
+   "Chrono24's ChronoPulse index of pre-owned watch prices rose 0.7% in the third quarter to 1,471 points, Haute Time reports. It was the fourth quarterly rise in a row.",
+   "The index rose 2.8% in Q1, 1.9% in Q2 and 0.7% in Q3, Haute Time reports. It touched a 52-week high of 1,477 points in August.",
+   "At 1,471 the index is 7.5% above a year earlier. Haute Time calls it the highest reading in three years.",
+   "Vacheron Constantin rose 17.7% over twelve months and Patek Philippe 17.0%, on Chrono24's figures. Vacheron added 6.7% in Q3, Patek 3.0%.",
+   "Each brand closed September at a 52-week high, Vacheron at 1,670 points and Patek at 2,086, Haute Time reports.",
+   "Chrono24 says three steel Nautilus references ranked among the index's best performers over twelve months. It does not name them.",
+   "Rolex slipped 0.2% in the quarter. It gained 2.2% over six months and is 6.0% above a year earlier.",
+   "Hublot was the only tracked brand down over twelve months. Chrono24 does not publish its figure.",
+   "The desk's view. If you price pre-owned Vacheron or Patek: Chrono24 has both brands at 52-week highs at the end of September. If you hold Rolex stock: A 0.2% quarterly dip sits inside a 6.0% twelve-month gain. What this is not: A dealer or auction price. The index is built from Chrono24's own marketplace sales."
+  ],
+  "sources": [
+   {
+    "title": "Haute Time, 'Luxury watch values 2026: Chrono24 Q3' (Adrienne Faurote), citing Chrono24's Q3 2026 Quarterly Dial",
+    "url": "https://www.hautetime.com/luxury-watch-values-2026-chrono24-q3/",
+    "published": "2026-10-23T16:37:39Z"
+   }
+  ]
+ },
+ {
+  "slug": "il-ponte-jewellery-sale-totals-over-3-million-euros",
+  "desk": "auctions",
+  "date": "2026-10-27",
+  "kicker": "Auctions",
+  "lead": false,
+  "title": "Il Ponte's jewellery sale totals over €3 million, 98% of lots sold",
+  "dek": "The Milan house's off-calendar Important Jewellery auction ran on 7 and 8 October. A Nardi coral necklace and a Cartier pearl-and-diamond choker each sold for €88,200, among the highlights it names.",
+  "byline": "Carat Capital",
+  "tags": [
+   "Il Ponte",
+   "Milan",
+   "jewellery auction",
+   "Cartier",
+   "Nardi",
+   "Buccellati"
+  ],
+  "body": [
+   "Il Ponte's off-calendar Important Jewellery auction in Milan, held on 7 and 8 October, sold 98% of its lots for over €3 million, the house says. Every lot in the first session sold.",
+   "A Nardi three-strand coral bead necklace, lot 77, and a Cartier pearl and old-cut diamond choker, lot 92, each sold for €88,200.",
+   "A Krauss cabochon tourmaline necklace made €44,100. A Lährm gold chain hung with 17 pocket watches made €41,580, the house says.",
+   "A carved jadeite, onyx and diamond belt sold for €41,580. A pair of diamond, coral and jadeite pendant earrings made €37,800.",
+   "Necklaces by Buccellati and Bulgari each made €37,800. The Bulgari chain carries a 12.81-carat yellow sapphire.",
+   "Il Ponte says its regular November jewellery auction will offer another reading of demand. The release gives no date or estimates for it.",
+   "The desk's view. If you consign signed jewels in Europe: Il Ponte's regular November sale follows. Ask for its estimates against these prices. If you buy at Italian sales: Signed coral, jadeite and Central European gold made the named results, €37,800 to €88,200. What this is not: A market index. One house reports one sale, and the release prints no estimates."
+  ],
+  "sources": [
+   {
+    "title": "Il Ponte, press release, Important Jewellery auction results, 7 and 8 October 2026",
+    "url": "https://www.ponteonline.com/en/news/auction-results-important-jewels-oct-26",
+    "published": "2026-10-09"
    }
   ]
  }

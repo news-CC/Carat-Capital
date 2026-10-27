@@ -101,7 +101,16 @@ if PRICES.get("headline"):
             _t["px"] = f'{PRICES["headline"]["rapi_ct"]:,.2f}'
             # YTD is read off the price list, never hardcoded here: the chip and the
             # page it opens have to move together when RAPI's own series moves.
+            # 2026-10-27 (caratdesk, carrying carateditor's 26 Oct order 1): on 26 Oct the stored
+            # rapi_ytd_pct lagged rapi_ct and the chip printed -5.7% beside a level that is -6.0%.
+            # The YTD is now computed from rapi_ct and the 1 January base held in the same file.
             _ytd = PRICES["headline"].get("rapi_ytd_pct")
+            _rb = PRICES["headline"].get("rapi_base")
+            if _rb:
+                _ytd_c = round((PRICES["headline"]["rapi_ct"] / _rb - 1) * 100, 1)
+                if _ytd is not None and abs(_ytd - _ytd_c) > 0.05:
+                    print("NOTE - prices.json rapi_ytd_pct said %s; the build is using %s (rapi_ct / rapi_base)" % (_ytd, _ytd_c))
+                _ytd = _ytd_c
             if _ytd is not None:
                 _t["chg"] = ("\u2212" if _ytd < 0 else "+") + f"{abs(_ytd):.1f}% YTD"
                 _t["dir"] = "down" if _ytd < 0 else "up"
@@ -127,7 +136,16 @@ if PRICES.get("headline"):
                     _pds = "%d %s" % (_pdd.day, _pdd.strftime("%b"))
                 except ValueError:
                     _pds = _pd
-                _t["chg"] = ((_t.get("chg") or "") + " \u00b7 carried, " + _pds).lstrip(" \u00b7")
+                # caratcheck 26 Oct 4(c): a point read fresh this morning is not "carried".
+                if _tst == "fresh" and _edd:
+                    try:
+                        _edq = _dtc.date.fromisoformat(_edd)
+                        _lbl = " \u00b7 read %d %s, point %s" % (_edq.day, _edq.strftime("%b"), _pds)
+                    except ValueError:
+                        _lbl = " \u00b7 carried, " + _pds
+                else:
+                    _lbl = " \u00b7 carried, " + _pds
+                _t["chg"] = ((_t.get("chg") or "") + _lbl).lstrip(" \u00b7")
                 _t["carried"] = _pd
 
 # The lab-grown mark is the midpoint of the published CVD wholesale band for a
@@ -136,7 +154,8 @@ if PRICES.get("headline"):
 if LAB.get("headline"):
     for _t in WIRE.get("tape", []):
         if _t.get("code") == "LGD1":
-            _t["px"] = f'{LAB["headline"]["trade_mid"]:,.2f}'
+            # No cents on the midpoint of an approximate range (caratcheck 25 and 26 Oct).
+            _t["px"] = f'{LAB["headline"]["trade_mid"]:,.0f}'
             # No qualifier. The chief ruled on 2026-09-23 that this chip carries no
             # percentage until lab-prices.json holds a dated year-ago level a year-on-year
             # figure can be computed from. No figure a reader sees is a literal in this file.
@@ -150,8 +169,22 @@ if LAB.get("headline"):
                 _t["dir"] = "flat"
             # 2026-10-24 (caratcheck 23 Oct fault 9a): the 475 is a midpoint of a published band,
             # last re-read on trade_date. Say so in the cell, with the date from the data file.
-            _ltd = LAB["headline"].get("trade_date") or ""
-            if _ltd:
+            # 2026-10-27 (carateditor 26 Oct order 5): the label carries the band, the newest read
+            # and the page's own modification date, each read from lab-prices.json, never typed.
+            _ltd = LAB["headline"].get("reread_date") or LAB["headline"].get("trade_date") or ""
+            _lsm = LAB["headline"].get("source_modified") or ""
+            _llo, _lhi = LAB["headline"].get("trade_lo"), LAB["headline"].get("trade_hi")
+            if _ltd and _lsm and _llo is not None and _lhi is not None:
+                import datetime as _dtl
+                def _dm(_x):
+                    try:
+                        _d = _dtl.date.fromisoformat(_x)
+                        return "%d %s" % (_d.day, _d.strftime("%b"))
+                    except ValueError:
+                        return _x
+                _t["chg"] = ((_t.get("chg") or "") + " · midpoint of %s to %s, read %s, page modified %s"
+                             % (f"{_llo:,}", f"{_lhi:,}", _dm(_ltd), _dm(_lsm))).lstrip(" ·")
+            elif _ltd:
                 import datetime as _dtl
                 try:
                     _ltdd = _dtl.date.fromisoformat(_ltd)
@@ -187,6 +220,11 @@ def _lock_metal_qualifiers():
         try:
             _pd = _dtq.date.fromisoformat(_hit.group(1))
         except ValueError:
+            continue
+        # carateditor 26 Oct order 6: a weekend tape carries Friday's close; say so.
+        if _pd.weekday() >= 5:
+            _fr = _pd - _dtq.timedelta(days=_pd.weekday() - 4)
+            _t["chg"] = _req.sub(r"vs .*? mark", "vs Fri %d %s close" % (_fr.day, _fr.strftime("%b")), _t["chg"], count=1)
             continue
         _t["chg"] = _req.sub(r"vs .*? mark", "vs %d %s mark" % (_pd.day, _pd.strftime("%b")), _t["chg"], count=1)
 _lock_metal_qualifiers()

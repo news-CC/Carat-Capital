@@ -148096,7 +148096,7 @@
     [
      "Government of Canada contribution",
      "CAD$500m",
-     "announced July 2026; terms due before end-2026"
+     "announced July 2026; terms expected before end-2026"
     ],
     [
      "First phase output",
@@ -148199,7 +148199,7 @@
     }
    ],
    "corrections": [
-    "Corrected, 26 October 2026: a section was headed 'Planned at $3,600 gold' and called the tape's price 'below the tape' of Newmont's plan. Newmont's release, footnote 5, says the return was 'evaluated across a range of economic scenarios, including gold at $3,600/oz'; it does not say the capital was planned at that price. The section now calls $3,600 one scenario. Two lines also hardened Newmont's expectations: it 'expects to fund' the project from internal cash flows, and expects the grant's terms to be finalised by end-2026; both now say so. A subhead said six years to production; it now names the 2033 target. What was right as published: every figure, including 11.0%. Found by Carat Capital's Standards desk on 25 October 2026."
+    "Corrected, 26 October 2026: a section was headed 'Planned at $3,600 gold' and called the tape's price 'below the tape' of Newmont's plan. Newmont's release, footnote 5, says the return was 'evaluated across a range of economic scenarios, including gold at $3,600/oz'; it does not say the capital was planned at that price. The section now calls $3,600 one scenario. Two lines also hardened Newmont's expectations: it 'expects to fund' the project from internal cash flows, and expects the grant's terms to be finalised by end-2026; both now say so. On 27 October the same change was made to a table row that still read 'terms due before end-2026'; it now reads 'terms expected before end-2026', as footnote 4 of the release gives it. A subhead said six years to production; it now names the 2033 target. What was right as published: every figure, including 11.0%. Found by Carat Capital's Standards desk on 25 October 2026."
    ]
   },
   "next": {
@@ -148778,7 +148778,7 @@
    },
    {
     "who": "If you sell natural:",
-    "text": "The council says a buyer steered to a costlier mined stone could ground a damages claim."
+    "text": "The council says a premium paid for a costlier mined stone may count as economic injury in assessing damages."
    },
    {
     "who": "What this is not:",
@@ -148831,7 +148831,7 @@
     "p": [
      {
       "lead": "Proceedings promised.",
-      "text": "The council says it will initiate proceedings against jewelers who use 'synthetic' deceptively. Its notice also names trade organisations and other market participants."
+      "text": "The council says it will initiate proceedings against jewelers who use 'synthetic' deceptively. Its notice also covers trade organisations and other market participants."
      },
      {
       "lead": "Damages framed.",
@@ -148860,11 +148860,11 @@
     ]
    },
    {
-    "h": "The 4Cs are next.",
+    "h": "4Cs next, the council says.",
     "p": [
      {
       "lead": "Grading in the frame.",
-      "text": "The council says CIBJO's 2026 Diamond Commission report calls for exploring every possible way to keep the 4Cs for natural diamonds. That would deny lab-grown stones the same carat, colour, clarity and cut terms."
+      "text": "The council says CIBJO's 2026 Diamond Commission report calls for exploring every possible way to keep the 4Cs for natural diamonds. The council says that could keep lab-grown stones from using the same four terms."
      }
     ]
    }
@@ -148918,6 +148918,9 @@
      "url": "https://www.jckonline.com/editorial-article/diamond-producers-council/",
      "published": "2026-10-22"
     }
+   ],
+   "corrections": [
+    "Corrected, 27 October 2026: a section was headed 'The 4Cs are next.' and said CIBJO's report 'would deny' lab-grown stones the four grading terms. The council's statement says the report calls for exploring 'every way possible' to restrict the 4Cs, 'potentially preventing' that use; the heading and sentence now attribute it to the council and keep its hedge. The page said the notice 'names' trade organisations; it covers them by category and names none, as the page also says. A line said a misled buyer 'could ground a damages claim'; the council says the price premium 'may constitute' economic injury in assessing damages, and the line now says so. What was right as published: every figure and the quote. Found by Carat Capital's Standards desk and Managing Editor on 26 October 2026."
    ]
   },
   "next": {
@@ -148968,7 +148971,7 @@
   "means": [
    {
     "who": "If you sell lab-grown jewelry:",
-    "text": "Certified lab-grown pieces are IGI's fastest-growing segment, ahead of loose lab-grown stones at 37%."
+    "text": "Certified lab-grown pieces are IGI's fastest-growing diamond segment, ahead of loose lab-grown stones at 37%."
    },
    {
     "who": "If you trade natural goods:",
@@ -149076,7 +149079,7 @@
    "reverse": "A quarter in which IGI's natural jewelry segment outgrows its lab-grown jewelry segment would undo the split this quarter shows.",
    "built": {
     "title": "What IGI's figures count",
-    "text": "IGI grades and certifies stones and jewelry, so its revenue is fees, not sales of goods. It calls itself India's largest independent certifier, with a 50% market share, and runs 37 laboratories in 10 countries."
+    "text": "IGI describes itself as a grading and accreditation services provider and reports revenue from operations. It calls itself India's largest independent certifier, with a 50% market share, and runs 37 laboratories in 10 countries."
    },
    "method": "IGI press release to NSE and BSE, 'PRESS RELEASE: Mumbai, October 21, 2026', cover letter digitally signed 2026.10.21 16:29:44 +05'30'. Fetched by the Editor at 06:0x EDT on 26 October 2026 from nsearchives.nseindia.com, 200, 1,070,816 bytes, byte-identical to an earlier capture at 03:05 EDT. Text extracted with PyMuPDF, 6,879 characters, and searched: 'grew 31% YoY to INR 3,980 Mn' (1 hit); '3,037' (1); 'EBITDA grew 39% to INR 2,445 Mn' (1); '61.4%' (1); '58.0%' (1); '43% to INR 1,858 Mn' (1); '1,298' (1); 'LGD loose stones up 37%' (1); 'LGD jewelry up 47%' (1); 'natural diamond loose stones up 8%' (1); 'natural diamond jewelry up 3%' (1); 'colored gemstones up 7x' (1); '4.35 Mn reports' (1); '27% to INR 7,688 Mn' (1); '50% market share' (1); 'With 37' then 'laboratories' across a line break (1). Carat Capital's arithmetic: 3,980 / 3,037 = 1.3105, +31.0%; 1,858 / 1,298 = 1.4314, +43.1%; 2,445 / 1,763 = 1.3869, +38.7%; 7,688 - 3,980 = 3,708; 3,980 / 3,708 = 1.0734, +7.3%. IGI's fiscal year runs April to March, so Q2 FY27 is July to September 2026. Dollar conversions published elsewhere are not used: the release gives rupees only and no exchange rate. ARCHIVE, by entity: Carat Capital's archive, 'IGI' as a whole word 0 rows; 'International Gemological' 0 rows. NEW: no earlier IGI item, any period.",
    "prior": [
@@ -149092,6 +149095,9 @@
      "url": "https://nsearchives.nseindia.com/corporate/IGIINDIA_21102026163436_SE_PR.pdf",
      "published": "2026-10-21T16:29:44+05:30"
     }
+   ],
+   "corrections": [
+    "Corrected, 27 October 2026: the headline called IGI's lab-grown jewelry figure a 'line', which can read as a product IGI sells; IGI certifies jewelry and the release calls it a segment, so the headline now says segment. 'What it means' called certified lab-grown jewelry IGI's fastest-growing segment; the page's own table shows coloured gemstones up sevenfold, so it now says fastest-growing diamond segment (47% leads 37%, 8% and 3%). A depth line said IGI's revenue 'is fees, not sales of goods'; the release does not use the word fee, and the line now uses the release's own description. What was right as published: every figure. Found by Carat Capital's Standards desk and Managing Editor on 26 October 2026."
    ]
   },
   "next": {
@@ -149228,7 +149234,7 @@
    },
    {
     "when": "Through December 2026",
-    "what": "The listing count, 43 on 26 October. A rising count would show owners consigning to AP over dealers."
+    "what": "The listing count, 43 on 26 October. A rising count would suggest owners consigning to AP over dealers."
    }
   ],
   "depth": {
@@ -149271,6 +149277,9 @@
      "url": "https://thewatchkeepers.com/en/terms-of-use",
      "published": "2026-06-11"
     }
+   ],
+   "corrections": [
+    "Clarified, 27 October 2026: a watch line said a rising listing count 'would show' owners consigning to AP over dealers. The Watch Keepers pages say nothing about who sells; a rising count could also be AP's own stock. It now says 'would suggest'. What was right as published: every figure. Raised by Carat Capital's Standards desk on 26 October 2026."
    ]
   },
   "next": {
@@ -149429,7 +149438,7 @@
     {
      "date": "2026-07-30",
      "slug": "platinum-loses-its-teacher",
-     "claim": "PGI USA's Kevin Reilly retired as platinum jumped to $1,628."
+     "claim": "Kevin Reilly's retirement was announced as platinum jumped to $1,628."
     }
    ],
    "sources": [
@@ -149443,11 +149452,567 @@
      "url": "https://www.kitco.com/price/precious-metals",
      "published": "2026-10-26T09:00:00Z"
     }
+   ],
+   "corrections": [
+    "Clarified, 27 October 2026: the story-so-far line said PGI USA's Kevin Reilly 'retired as platinum jumped to $1,628'. JCK says he retired in June 2026; our 30 July page reported the retirement as announced on 28 July. The line now says the retirement was announced as platinum jumped. What was right as published: every figure. Raised by Carat Capital's Standards desk on 26 October 2026."
    ]
   },
   "next": {
    "slug": "platinum-loses-its-teacher",
    "why": "The PGI USA retirement that came before the closures."
   }
+ },
+ "shanghai-gold-exchange-volume-up-7-6-percent-to-5064-tonnes": {
+  "v": 3,
+  "kicker": "Shanghai gold",
+  "figures": {
+   "asof": "People's Bank of China, September 2026 financial market report, section 5, published 26 October 2026 18:00 Beijing time.",
+   "cells": [
+    {
+     "n": "5,064.6t",
+     "dir": "up",
+     "label": "SGE gold traded",
+     "q": "September 2026, basis undefined",
+     "src": 0
+    },
+    {
+     "n": "+7.6%",
+     "dir": "up",
+     "label": "SGE, on year",
+     "q": "against September 2025",
+     "src": 0
+    },
+    {
+     "n": "−12.8%",
+     "dir": "down",
+     "label": "SHFE, on year",
+     "q": "about 15,000 tonnes traded",
+     "src": 0
+    },
+    {
+     "n": "906.6",
+     "dir": "down",
+     "label": "Au(T+D), yuan/g",
+     "q": "September close, −5.7% on month",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Spot trade rose.",
+   "text": "The Shanghai Gold Exchange traded 5,064.6 tonnes of gold in September, 7.6% more than a year earlier, the PBoC says. Gold volume on the Shanghai Futures Exchange fell 12.8%."
+  },
+  "means": [
+   {
+    "who": "If you price off Shanghai:",
+    "text": "Check counter quotes against Au(T+D)'s September close of 906.6 yuan a gram."
+   },
+   {
+    "who": "If you track Chinese demand:",
+    "text": "Read the spot rise and the futures fall together. The bank gives no reason for either."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A demand figure. Traded volume is not metal bought by jewellers or withdrawn from the vaults."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Shanghai gold markets, September 2026",
+   "hi": 0,
+   "asof": "PBoC September 2026 financial market report, published 26 October 2026",
+   "cols": [
+    "Measure",
+    "September 2026",
+    "Change",
+    "Against"
+   ],
+   "rows": [
+    [
+     "SGE gold traded",
+     "5,064.6 tonnes",
+     "+7.6%",
+     "September 2025"
+    ],
+    [
+     "SHFE gold traded",
+     "about 15,000 tonnes",
+     "−12.8%",
+     "September 2025"
+    ],
+    [
+     "SGE Au(T+D), month-end close",
+     "906.6 yuan a gram",
+     "−5.7%",
+     "end-August 2026"
+    ]
+   ],
+   "note": "All figures are the PBoC's. The bank rounds SHFE volume to 1.5 万 (15,000) tonnes and does not say whether either volume counts one side of each trade or both. No figure here is Carat Capital's arithmetic.",
+   "plate": "CC/2026/336"
+  },
+  "sections": [
+   {
+    "h": "The price fell 5.7%.",
+    "p": [
+     {
+      "lead": "Lower close, more trade.",
+      "text": "The SGE's Au(T+D) contract closed September at 906.6 yuan a gram, 5.7% below its end-August close. Spot volume still rose on the year."
+     },
+     {
+      "lead": "Futures traded less.",
+      "text": "Gold volume on the Shanghai Futures Exchange fell to about 15,000 tonnes, the bank's rounded figure. The PBoC gives no reason for either move."
+     }
+    ]
+   },
+   {
+    "h": "The basis is not stated.",
+    "p": [
+     {
+      "lead": "One side or two.",
+      "text": "The report gives SGE volume as trades done. It does not say whether each trade is counted once or for both buyer and seller."
+     },
+     {
+      "lead": "The change stands.",
+      "text": "The 7.6% rise compares the bank's figure with its own figure a year earlier. Set against totals from other publishers, the tonnage may not compare."
+     }
+    ]
+   },
+   {
+    "h": "Counters price off the exchange.",
+    "p": [
+     {
+      "lead": "A premium on top.",
+      "text": "Chinese jewellery counters quote above the exchange price. On 14 August Carat Capital measured Chow Tai Fook's counter at 39.5% over the SGE's Au99.99 close.",
+      "links": {
+       "39.5% over the SGE's Au99.99 close": "a-nine-forty-and-thirteen-twelve.html"
+      }
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Late November 2026",
+    "what": "The PBoC's October market report, if its monthly timing holds. The test: SGE volume above its year-earlier level again."
+   },
+   {
+    "when": "Each morning",
+    "what": "Au(T+D) against its 906.6-yuan September close."
+   }
+  ],
+  "depth": {
+   "reverse": "A PBoC or SGE statement that the volume counts both sides would halve the metal behind 5,064.6 tonnes. The year-on-year rise would stand, measured on the same basis.",
+   "built": {
+    "title": "What the figure counts",
+    "text": "成交 means trades done. The PBoC's monthly financial market report gives it for the SGE and the Shanghai Futures Exchange, with the month-end close of Au(T+D), the SGE's spot gold contract with deferred settlement."
+   },
+   "method": "People's Bank of China, '2026年9月金融市场运行情况', section 五、黄金市场运行情况, dated '文章来源： 2026-10-26 18:00:06' on the page. Fetched by the Editor on 27 October 2026, door.py 200, 36,257 bytes, the same byte count as the Bureau's 04:3x capture. Exact strings in the tag-stripped text (2,528 characters): '5064.6' 1 hit, '906.6' 1, '7.6%' 1, '12.8%' 1, '5.7%' 1, '1.5万吨' 1. The gold paragraph, quoted: '2026年9月末，上海黄金交易所Au（T+D）合约收于每克906.6元，环比下降5.7%。2026年9月，上海黄金交易所黄金成交5064.6吨，同比增加7.6%；上海期货交易所黄金成交1.5万吨，同比下降12.8%。' Translations are Carat Capital's. The SHFE figure is printed as about 15,000 tonnes because the bank gives 1.5 万 tonnes. No half-year or annual SGE total is set beside the September figure, because the report does not state its basis. Source verbs: the bank says 增加 (rose) and 下降 (fell); the page says rose and fell. ARCHIVE, by entity and period: 'Shanghai Gold Exchange' 11 rows in articles.json, each read at the matching sentence: counter and contract prices (9, 14, 17, 23, 25 August), refiner and member admissions (22 August, 5 September), Pudong's exit (9 September), ICBC margin (20 September), Sanya transit (20 September), imports (23 September). Ours: no SGE monthly volume on file | new: SGE volume for September 2026: NEW.",
+   "prior": [
+    {
+     "date": "2026-09-23",
+     "slug": "china-tops-a-thousand-tonnes",
+     "claim": "China's gold imports passed 1,000 tonnes in eight months."
+    },
+    {
+     "date": "2026-08-14",
+     "slug": "nine-forty-and-thirteen-twelve",
+     "claim": "China's jewellery counter charged 39.5% over the exchange price."
+    }
+   ],
+   "sources": [
+    {
+     "title": "People's Bank of China, '2026年9月金融市场运行情况' (September 2026 financial market operations, Chinese)",
+     "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026102614131538957/index.html",
+     "published": "2026-10-26T18:00:06+08:00"
+    }
+   ]
+  },
+  "next": {
+   "slug": "china-tops-a-thousand-tonnes",
+   "why": "The import side of the same market."
+  },
+  "corrections": []
+ },
+ "chrono24-watch-price-index-closes-q3-at-1471": {
+  "v": 3,
+  "kicker": "Pre-owned watches",
+  "figures": {
+   "asof": "Chrono24 Q3 2026 Quarterly Dial (published 20 October 2026), as reported by Haute Time, 23 October 2026. Chrono24's own page was not read.",
+   "cells": [
+    {
+     "n": "1,471",
+     "dir": "up",
+     "label": "ChronoPulse close",
+     "q": "Q3 2026, in points",
+     "src": 0
+    },
+    {
+     "n": "+7.5%",
+     "dir": "up",
+     "label": "Twelve months",
+     "q": "highest in three years",
+     "src": 0
+    },
+    {
+     "n": "+17.7%",
+     "dir": "up",
+     "label": "Vacheron, 12 months",
+     "q": "Patek Philippe +17.0%",
+     "src": 0
+    },
+    {
+     "n": "−0.2%",
+     "dir": "down",
+     "label": "Rolex, Q3",
+     "q": "+6.0% over twelve months",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "A fourth rise.",
+   "text": "Chrono24's ChronoPulse index of pre-owned watch prices rose 0.7% in the third quarter to 1,471 points, Haute Time reports. It was the fourth quarterly rise in a row."
+  },
+  "means": [
+   {
+    "who": "If you price pre-owned Vacheron or Patek:",
+    "text": "Chrono24 has both brands at 52-week highs at the end of September."
+   },
+   {
+    "who": "If you hold Rolex stock:",
+    "text": "A 0.2% quarterly dip sits inside a 6.0% twelve-month gain."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A dealer or auction price. The index is built from Chrono24's own marketplace sales."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "ChronoPulse and tracked brands, to September 2026",
+   "hi": 1,
+   "asof": "Chrono24 Q3 2026 Quarterly Dial via Haute Time, 23 October 2026",
+   "cols": [
+    "Series",
+    "Q3 2026",
+    "Six months",
+    "Twelve months"
+   ],
+   "rows": [
+    [
+     "ChronoPulse index",
+     "+0.7%",
+     "not given",
+     "+7.5%"
+    ],
+    [
+     "Vacheron Constantin",
+     "+6.7%",
+     "+8.2%",
+     "+17.7%"
+    ],
+    [
+     "Patek Philippe",
+     "+3.0%",
+     "+5.8%",
+     "+17.0%"
+    ],
+    [
+     "Jaeger-LeCoultre",
+     "+1.2%",
+     "+2.3%",
+     "+11.0%"
+    ],
+    [
+     "Audemars Piguet",
+     "+2.0%",
+     "not given",
+     "not given"
+    ],
+    [
+     "Rolex",
+     "−0.2%",
+     "+2.2%",
+     "+6.0%"
+    ],
+    [
+     "Hublot",
+     "not given",
+     "not given",
+     "down, figure not published"
+    ]
+   ],
+   "note": "Every figure as Haute Time reports Chrono24's Q3 Quarterly Dial. Index quarters in 2026: Q1 +2.8%, Q2 +1.9%, Q3 +0.7%. Chrono24 gives no figures for Richard Mille, Blancpain or F.P. Journe.",
+   "plate": "CC/2026/337"
+  },
+  "sections": [
+   {
+    "h": "Four quarters of gains.",
+    "p": [
+     {
+      "lead": "Small, steady steps.",
+      "text": "The index rose 2.8% in Q1, 1.9% in Q2 and 0.7% in Q3, Haute Time reports. It touched a 52-week high of 1,477 points in August."
+     },
+     {
+      "lead": "A three-year high.",
+      "text": "At 1,471 the index is 7.5% above a year earlier. Haute Time calls it the highest reading in three years."
+     }
+    ]
+   },
+   {
+    "h": "Vacheron and Patek lead.",
+    "p": [
+     {
+      "lead": "Two Geneva houses.",
+      "text": "Vacheron Constantin rose 17.7% over twelve months and Patek Philippe 17.0%, on Chrono24's figures. Vacheron added 6.7% in Q3, Patek 3.0%."
+     },
+     {
+      "lead": "Both at highs.",
+      "text": "Each brand closed September at a 52-week high, Vacheron at 1,670 points and Patek at 2,086, Haute Time reports."
+     },
+     {
+      "lead": "Nautilus carried Patek.",
+      "text": "Chrono24 says three steel Nautilus references ranked among the index's best performers over twelve months. It does not name them."
+     }
+    ]
+   },
+   {
+    "h": "Rolex paused in Q3.",
+    "p": [
+     {
+      "lead": "A small dip.",
+      "text": "Rolex slipped 0.2% in the quarter. It gained 2.2% over six months and is 6.0% above a year earlier."
+     },
+     {
+      "lead": "Hublot fell.",
+      "text": "Hublot was the only tracked brand down over twelve months. Chrono24 does not publish its figure."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Late January 2027",
+    "what": "Chrono24's Q4 Quarterly Dial, if its timing holds. The test: a fifth positive quarter."
+   },
+   {
+    "when": "Each quarter",
+    "what": "Rolex's twelve-month gain, 6.0% now. A turn below zero would end the steady run."
+   }
+  ],
+  "depth": {
+   "reverse": "A negative Q4, or Vacheron and Patek both falling from their September highs, would make Q3 the top of the run rather than a step in it.",
+   "built": {
+    "title": "How ChronoPulse is built",
+    "text": "Chrono24's index follows secondary-market prices across 13 major brands and more than 140 references. It uses transactions on Chrono24's own marketplace, converted into euros at each day's rate, Haute Time reports."
+   },
+   "method": "Haute Time, 'Luxury watch values 2026: Chrono24 Q3' by Adrienne Faurote, datePublished 2026-10-23T16:37:39+00:00, fetched by the Editor on 27 October 2026, door.py 200, 234,127 bytes (the Bureau's capture was the same count). Read inside the article element only, 5,846 characters: '1,471' 2 hits, '0.7%' 2, '7.5%' 2, '17.7%' 3, '17.0%' 3, '6.7%' 3, '1,477' 1, '1,670' 1, '2,086' 1, '2.8%' 1, '1.9%' 1, '0.2%' 4, '2.2%' 2, '6.0%' 2, '8.2%' 1, '5.8%' 2, '3.0%' 2, '11.0%' 1, '1.2%' 1, '2.3%' 1, '2.0%' 3, '13 major brands' 2, 'more than 140 references' 2, 'published October 20' 1, 'three steel Nautilus' 1. Single source: Chrono24's Quarterly Dial itself was not read; the watches desk's two identities got 403 from Chrono24 on 27 October (Bureau slate). Every figure is printed as Haute Time's report of Chrono24's. Arithmetic, not printed above: the three 2026 quarters compound to 1.028 x 1.019 x 1.007 = 1.0549, so +5.5% for Q1 to Q3; the 7.5% twelve-month figure implies about +1.9% in Q4 2025 (1.075 / 1.0549), which was not read. Source verbs: Haute Time says rose, slipped, added; the page says the same. ARCHIVE, by entity and period: 'Chrono24' 3 rows, opened: 16 July (June market heat, Cartier), 16 July (Richemont quarter), 12 September (Rolex 31% of sales). 'ChronoPulse' 1 row, 16 July, June heat. Ours: June 2026 heat by brand | new: index close for Q3 2026: ADVANCED.",
+   "prior": [
+    {
+     "date": "2026-09-12",
+     "slug": "rolex-thirty-one-percent-chrono24",
+     "claim": "Rolex held about 31% of Chrono24's dollar sales volume."
+    },
+    {
+     "date": "2026-07-16",
+     "slug": "cartier-secondhand-heat",
+     "claim": "Chrono24's June data put Cartier at the front of the pre-owned recovery."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Haute Time, 'Luxury watch values 2026: Chrono24 Q3' (Adrienne Faurote), citing Chrono24's Q3 2026 Quarterly Dial",
+     "url": "https://www.hautetime.com/luxury-watch-values-2026-chrono24-q3/",
+     "published": "2026-10-23T16:37:39Z"
+    }
+   ]
+  },
+  "next": {
+   "slug": "rolex-thirty-one-percent-chrono24",
+   "why": "Who sells on the marketplace behind the index."
+  },
+  "corrections": []
+ },
+ "il-ponte-jewellery-sale-totals-over-3-million-euros": {
+  "v": 3,
+  "kicker": "Milan saleroom",
+  "figures": {
+   "asof": "Il Ponte press release, published 9 October 2026, on the sale of 7 and 8 October 2026. Prices as the house prints them.",
+   "cells": [
+    {
+     "n": "€3m+",
+     "dir": "up",
+     "label": "Total sales",
+     "q": "house's figure, two sessions",
+     "src": 0
+    },
+    {
+     "n": "98%",
+     "dir": "up",
+     "label": "Lots sold",
+     "q": "first session 100%",
+     "src": 0
+    },
+    {
+     "n": "€88,200",
+     "dir": "up",
+     "label": "Top named lots",
+     "q": "Nardi and Cartier, each",
+     "src": 0
+    },
+    {
+     "n": "7–8 Oct",
+     "label": "Sale dates",
+     "q": "results released 9 October",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Almost every lot sold.",
+   "text": "Il Ponte's off-calendar Important Jewellery auction in Milan, held on 7 and 8 October, sold 98% of its lots for over €3 million, the house says. Every lot in the first session sold."
+  },
+  "means": [
+   {
+    "who": "If you consign signed jewels in Europe:",
+    "text": "Il Ponte's regular November sale follows. Ask for its estimates against these prices."
+   },
+   {
+    "who": "If you buy at Italian sales:",
+    "text": "Signed coral, jadeite and Central European gold made the named results, €37,800 to €88,200."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A market index. One house reports one sale, and the release prints no estimates."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Lots Il Ponte names, by price",
+   "hi": 0,
+   "asof": "Il Ponte press release, 9 October 2026",
+   "cols": [
+    "Lot",
+    "Maker",
+    "Piece",
+    "Sold"
+   ],
+   "rows": [
+    [
+     "77",
+     "Nardi",
+     "Three-strand coral bead necklace",
+     "€88,200"
+    ],
+    [
+     "92",
+     "Cartier",
+     "Pearl and old-cut diamond choker",
+     "€88,200"
+    ],
+    [
+     "121",
+     "Krauss",
+     "Cabochon tourmaline gold necklace",
+     "€44,100"
+    ],
+    [
+     "105",
+     "Lährm",
+     "Gold chain, 17 pocket-watch charms",
+     "€41,580"
+    ],
+    [
+     "51",
+     "Not named",
+     "Carved jade, onyx and diamond belt",
+     "€41,580"
+    ],
+    [
+     "49",
+     "Not named",
+     "Diamond, coral, onyx and jade earrings",
+     "€37,800"
+    ],
+    [
+     "93",
+     "Buccellati",
+     "Emerald, carved ruby and diamond necklace",
+     "€37,800"
+    ],
+    [
+     "97",
+     "Bulgari",
+     "Gold chain with 12.81-carat yellow sapphire",
+     "€37,800"
+    ]
+   ],
+   "note": "Prices as the house prints them ('Sold €'). The release does not say whether they include buyer's premium. Lots chosen by the house; they are its highlights, not a full results list.",
+   "plate": "CC/2026/338"
+  },
+  "sections": [
+   {
+    "h": "Coral and Cartier led.",
+    "p": [
+     {
+      "lead": "Two at €88,200.",
+      "text": "A Nardi three-strand coral bead necklace, lot 77, and a Cartier pearl and old-cut diamond choker, lot 92, each sold for €88,200."
+     },
+     {
+      "lead": "Central Europe sold.",
+      "text": "A Krauss cabochon tourmaline necklace made €44,100. A Lährm gold chain hung with 17 pocket watches made €41,580, the house says."
+     }
+    ]
+   },
+   {
+    "h": "Jadeite drew bidders.",
+    "p": [
+     {
+      "lead": "Jade and onyx.",
+      "text": "A carved jadeite, onyx and diamond belt sold for €41,580. A pair of diamond, coral and jadeite pendant earrings made €37,800."
+     },
+     {
+      "lead": "Italian names held.",
+      "text": "Necklaces by Buccellati and Bulgari each made €37,800. The Bulgari chain carries a 12.81-carat yellow sapphire."
+     }
+    ]
+   },
+   {
+    "h": "November sale is next.",
+    "p": [
+     {
+      "lead": "A further test.",
+      "text": "Il Ponte says its regular November jewellery auction will offer another reading of demand. The release gives no date or estimates for it."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "November 2026",
+    "what": "Il Ponte's regular Important Jewellery sale. The test: sell-through near 98% again."
+   }
+  ],
+  "depth": {
+   "reverse": "A November sale well below 98% sold would make the October result an off-calendar exception, not a reading of Milan demand.",
+   "built": {
+    "title": "What the totals count",
+    "text": "The house gives a total 'over €3 million' and a 98% share of lots sold. It prints no lot count, no estimates and no premium basis. Lot prices are as printed."
+   },
+   "method": "Il Ponte, 'A white-glove first session marks a high point for the Important Jewellery auction', 'Published on 09/10/2026' (day first), fetched by the Editor on 27 October 2026, door.py 200, 35,750 bytes (the Bureau's capture was the same count). Tag-stripped text 7,160 characters: '3 million' 1 hit, '98%' 1, 'white-glove' 3, '88,200' 4, '44,100', '41,580', '37,800' and '12.81' read at each lot line; 'regular November' 1; the house's address reads 'Via Pontaccio 12, 20121 Milan'. The release also claims 'an average increase of 434% over the initial estimates'; no estimate is in the release, so the figure cannot be checked and is not printed in the article. The sale is 19 days old at print. It runs because no Carat Capital page has covered it and the house's next sale is in November. Source verbs: the house says 'generating', 'achieved', 'sold'; the page says sold and made. ARCHIVE, by entity: 'Il Ponte' 0 rows, 'Ponteonline' 0 rows in articles.json (regex over each row's JSON). Ours: nothing on Il Ponte | new: the 7 to 8 October 2026 sale: NEW.",
+   "prior": [],
+   "sources": [
+    {
+     "title": "Il Ponte, press release, Important Jewellery auction results, 7 and 8 October 2026",
+     "url": "https://www.ponteonline.com/en/news/auction-results-important-jewels-oct-26",
+     "published": "2026-10-09"
+    }
+   ]
+  },
+  "next": {
+   "slug": "one-point-two-million-and-no-sale",
+   "why": "The auctions desk's last result, a lot that did not sell."
+  },
+  "corrections": []
  }
 }
