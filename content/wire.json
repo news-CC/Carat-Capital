@@ -34,8 +34,8 @@
    "name": "Gold / oz",
    "code": "XAU",
    "px": "3,995.60",
-   "chg": "+0.0% vs 27 Oct mark",
-   "dir": "down",
+   "chg": "0.0% vs 27 Oct mark",
+   "dir": "flat",
    "pts": [
     5,
     6,
@@ -91,7 +91,7 @@
    "name": "Platinum / oz",
    "code": "XPT",
    "px": "1,438.00",
-   "chg": "-3.4% vs 27 Oct mark",
+   "chg": "−3.4% vs 27 Oct mark",
    "dir": "down",
    "pts": [
     2,
@@ -110,7 +110,7 @@
    "name": "Silver / oz",
    "code": "XAG",
    "px": "50.782",
-   "chg": "-4.0% vs 27 Oct mark",
+   "chg": "−4.0% vs 27 Oct mark",
    "dir": "down",
    "pts": [
     2,
