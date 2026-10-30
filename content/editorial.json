@@ -149505,7 +149505,7 @@
   "means": [
    {
     "who": "If you price off Shanghai:",
-    "text": "Check counter quotes against Au(T+D)'s September close of 906.6 yuan a gram."
+    "text": "Check counter quotes against the SGE's current Au(T+D) close. September's 906.6 yuan a gram is a month old."
    },
    {
     "who": "If you track Chinese demand:",
@@ -149597,7 +149597,7 @@
    },
    {
     "when": "Each morning",
-    "what": "Au(T+D) against its 906.6-yuan September close."
+    "what": "Au(T+D)'s current close on the SGE, the yardstick for counter quotes in yuan."
    }
   ],
   "depth": {
@@ -149625,6 +149625,9 @@
      "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026102614131538957/index.html",
      "published": "2026-10-26T18:00:06+08:00"
     }
+   ],
+   "corrections": [
+    "Clarified, 30 October 2026: the desk's view told readers to check counter quotes against Au(T+D)'s September close of 906.6 yuan a gram, and a watch line repeated it. On 27 October that close was a month old: this paper's own gold mark fell from 4,191.6 on 30 September to 3,995.1 on 27 October, 4.7% lower. Both lines now point to the current close, and 906.6 stays as a September figure. What was right as published: 906.6 and every other figure. Found by Carat Capital's Standards desk on 27 October 2026."
    ]
   },
   "next": {
@@ -149771,7 +149774,7 @@
       "text": "Each brand closed September at a 52-week high, Vacheron at 1,670 points and Patek at 2,086, Haute Time reports."
      },
      {
-      "lead": "Nautilus carried Patek.",
+      "lead": "Nautilus among the leaders.",
       "text": "Chrono24 says three steel Nautilus references ranked among the index's best performers over twelve months. It does not name them."
      }
     ]
@@ -149825,6 +149828,9 @@
      "url": "https://www.hautetime.com/luxury-watch-values-2026-chrono24-q3/",
      "published": "2026-10-23T16:37:39Z"
     }
+   ],
+   "corrections": [
+    "Clarified, 30 October 2026: a paragraph lead-in read 'Nautilus carried Patek.' Chrono24, as Haute Time reports it, says only that three steel Nautilus references ranked among the whole index's best performers over twelve months; it does not say they carried Patek Philippe's 17.0%. The lead-in now reads 'Nautilus among the leaders.' No figure changed. Found by Carat Capital's Standards desk on 27 October 2026."
    ]
   },
   "next": {
@@ -149843,7 +149849,7 @@
      "n": "€3m+",
      "dir": "up",
      "label": "Total sales",
-     "q": "house's figure, two sessions",
+     "q": "house's figure, 7–8 Oct",
      "src": 0
     },
     {
@@ -150007,11 +150013,407 @@
      "url": "https://www.ponteonline.com/en/news/auction-results-important-jewels-oct-26",
      "published": "2026-10-09"
     }
+   ],
+   "corrections": [
+    "Clarified, 30 October 2026: a key-figure label said the over-€3 million total came from 'two sessions'. Il Ponte's release names the sale dates, 7 and 8 October, and a first session; it does not say there were two. The label now reads '7–8 Oct'. The Keep-reading line also called a 10 October unsold lot the auctions desk's last result; two later results had run, on 19 and 24 October. It now points to the 24 October Lyon & Turnbull sale. What was right as published: every figure, including over €3 million and 98%. Found by Carat Capital's Standards desk on 27 October 2026."
    ]
   },
   "next": {
-   "slug": "one-point-two-million-and-no-sale",
-   "why": "The auctions desk's last result, a lot that did not sell."
+   "slug": "lyon-and-turnbull-sells-98-of-113-jewellery-lots",
+   "why": "A London jewellery sale, 98 of 113 lots sold."
+  },
+  "corrections": []
+ },
+ "8-63-carat-pink-leads-sothebys-geneva": {
+  "v": 3,
+  "kicker": "Geneva saleroom",
+  "figures": {
+   "asof": "Estimates as JCK reported them on 28 October 2026, for a Sotheby's sale on 11 November 2026. Per-carat figure is Carat Capital's division.",
+   "cells": [
+    {
+     "n": "CHF 3.3–5m",
+     "dir": "flat",
+     "label": "Estimate, 8.63-ct pink",
+     "q": "fancy intense, unmounted",
+     "src": 0
+    },
+    {
+     "n": "CHF 579,000",
+     "dir": "flat",
+     "label": "High estimate a carat",
+     "q": "CC division, 5,000,000/8.63",
+     "src": 0
+    },
+    {
+     "n": "CHF 1.7–2.5m",
+     "dir": "flat",
+     "label": "Estimate, blue and pink",
+     "q": "Graff blue, 8.11-ct pink, each",
+     "src": 0
+    },
+    {
+     "n": "11 Nov",
+     "dir": "flat",
+     "label": "Sale date",
+     "q": "Mandarin Oriental, Geneva",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Sotheby's priced a pink.",
+   "text": "JCK reports Sotheby's has estimated an unmounted 8.63-carat fancy intense pink diamond at CHF 3.3 million to CHF 5 million. It leads the house's High Jewelry sale in Geneva."
+  },
+  "means": [
+   {
+    "who": "If you bid on coloured diamonds:",
+    "text": "The high estimate is about CHF 579,000 a carat, under the CHF 625,000 Christie's put on its 24-carat pink."
+   },
+   {
+    "who": "If you consign before Geneva:",
+    "text": "Four coloured diamonds here carry low estimates of CHF 850,000 or more."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A price. These are estimates, relayed by JCK, for a sale on 11 November."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Lots JCK names, by high estimate",
+   "hi": 0,
+   "asof": "JCK, 28 October 2026; dollar figures are JCK's conversion",
+   "cols": [
+    "Piece",
+    "Stone",
+    "Estimate, CHF",
+    "JCK's US$"
+   ],
+   "rows": [
+    [
+     "Unmounted",
+     "8.63 ct fancy intense pink",
+     "3.3m–5m",
+     "4m–6m"
+    ],
+    [
+     "Graff ring",
+     "2.88 ct pear fancy deep blue",
+     "1.7m–2.5m",
+     "2m–3m"
+    ],
+    [
+     "Unmounted",
+     "8.11 ct fancy pink, VVS1",
+     "1.7m–2.5m",
+     "same range"
+    ],
+    [
+     "Not named",
+     "18.03 ct fancy vivid yellow",
+     "850,000–1.6m",
+     "1m–2m"
+    ],
+    [
+     "Ring",
+     "5.027 ct ruby, 'pigeon blood'",
+     "850,000–1.3m",
+     "1m–1.5m"
+    ],
+    [
+     "Harry Winston ring",
+     "69.44 ct Ceylon sapphire, listed unheated",
+     "580,000–750,000",
+     "700,000–900,000"
+    ],
+    [
+     "Necklace, 1883, attrib. Boucheron",
+     "Heart-shaped sapphire",
+     "330,000–650,000",
+     "400,000–800,000"
+    ],
+    [
+     "Bulgari necklace, c. 1970",
+     "35 Burmese sapphires",
+     "130,000–200,000",
+     "155,000–240,000"
+    ]
+   ],
+   "note": "Estimates as JCK prints them. Carat Capital has not read Sotheby's catalogue. 'Pigeon blood' and 'unheated' are the house's descriptions as JCK relays them; JCK cites no laboratory report. The 8.11 ct row reads 'carries the same range' in JCK.",
+   "plate": "CC/2026/339"
+  },
+  "sections": [
+   {
+    "h": "Four coloured diamonds lead.",
+    "p": [
+     {
+      "lead": "Blue matches pink.",
+      "text": "A Graff ring set with a 2.88-carat pear-shaped fancy deep blue carries CHF 1.7 million to 2.5 million. An unmounted 8.11-carat fancy pink, graded VVS1, carries the same range."
+     },
+     {
+      "lead": "The yellow is fourth.",
+      "text": "An 18.03-carat fancy vivid yellow is estimated at CHF 850,000 to CHF 1.6 million, JCK reports."
+     }
+    ]
+   },
+   {
+    "h": "Ceylon sapphires listed as unheated.",
+    "p": [
+     {
+      "lead": "Ruby from CHF 850,000.",
+      "text": "A ring with a 5.027-carat ruby described as pigeon blood carries CHF 850,000 to CHF 1.3 million. JCK cites no laboratory report for the description."
+     },
+     {
+      "lead": "Heat treatment is named.",
+      "text": "Sotheby's lists several large Ceylon sapphires as unheated, JCK reports. The largest named is a 69.44-carat stone in a Harry Winston ring, at CHF 580,000 to CHF 750,000."
+     }
+    ]
+   },
+   {
+    "h": "Provenance carries older pieces.",
+    "p": [
+     {
+      "lead": "Rubinstein, then Wrightsman.",
+      "text": "An 1883 convertible necklace attributed to Boucheron, centred on a heart-shaped sapphire, belonged to Helena Rubinstein and then Jayne Wrightsman. It carries CHF 330,000 to CHF 650,000."
+     },
+     {
+      "lead": "Bulgari's Burmese bib.",
+      "text": "A circa 1970 Bulgari necklace of 35 Burmese sapphires hung from a diamond bib carries CHF 130,000 to CHF 200,000."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "10 November 2026",
+    "what": "Christie's Magnificent Jewels, Geneva, with its 24-carat pink estimated at CHF 10 million to 15 million. The test: both pinks priced a carat."
+   },
+   {
+    "when": "11 November 2026",
+    "what": "Sotheby's High Jewelry, Mandarin Oriental, Geneva. The test: the 8.63-carat pink against its CHF 3.3 million low estimate."
+   }
+  ],
+  "depth": {
+   "reverse": "An 8.63-carat pink that fails to reach its CHF 3.3 million low estimate, a day after Christie's offers its 24-carat pink, would mark Geneva's November week as soft for coloured diamonds.",
+   "built": {
+    "title": "What an estimate is",
+    "text": "An estimate is the range the house expects bidding to reach, agreed with the consignor. It is not a price. JCK's page does not say whether these figures include buyer's premium."
+   },
+   "method": "JCK, 'Sotheby's Geneva Sale Led by 8.63-Ct. Pink Diamond That Could Fetch $6M', byline 'By Annie Davidson Watson | October 28, 2026'. Captured by the Bureau at 04:31 EDT 30 October 2026 (door.py 200, 113,788 bytes, newsroom/bureau/raw/2026-10-30/jck-sothebys.html); the Editor re-fetched it at 06:09 EDT (door.py 200, 113,788 bytes, identical by cmp) and read the article's body paragraphs only. Raw-byte hits: '8.63' 16, 'CHF 3.3 million' 2, '2.88' 3, '8.11' 1, '18.03' 1, '5.027' 1, '69.44' 1, '580,000' 1, '1883' 2, '35 Burmese' 1, '130,000' 1, 'Nov. 11' 5, 'October 28, 2026' 1. Every estimate on this page is read in its sentence there; the claims file and its hit counts are in newsroom/sources/2026-10-30/desk/. Per carat: 5,000,000 / 8.63 = 579,374, printed as about CHF 579,000; 3,300,000 / 8.63 = 382,387. Christie's 24-carat high estimate a carat, 15,000,000 / 24 = 625,000, is from this paper's 9 October page. Sotheby's own release and catalogue were not read for this page, so every figure is attributed to JCK. JCK quotes a statement by Jessica Wyndham, Sotheby's head of high jewelry in Geneva; no quote is used. Source verbs: JCK says 'estimated', 'carries', 'pegged at', 'lists ... as unheated'; this page says estimated, carries and lists. ARCHIVE, by entity and event: no Carat Capital row names Sotheby's High Jewelry sale in Geneva of 11 November 2026 (python over website/content/articles.json for 'Sotheby' with 'Geneva', 30 Oct; the Bureau's archive-hits.py returned 4 rows, all other sales). Ours: nothing on this sale | new: Sotheby's Geneva, 11 November 2026: NEW.",
+   "prior": [
+    {
+     "date": "2026-10-17",
+     "slug": "three-hundred-thousand-tops-sothebys-milan",
+     "claim": "Sotheby's Milan sale of 28 October led by a €300,000 high estimate."
+    },
+    {
+     "date": "2026-10-09",
+     "slug": "twenty-four-carats-at-eighteen-million",
+     "claim": "Christie's estimates a 24-carat fancy intense pink at CHF 10 million to 15 million."
+    },
+    {
+     "date": "2026-09-16",
+     "slug": "ninety-five-million-in-hong-kong",
+     "claim": "An 8.41-carat pink carries a HK$95m Christie's estimate in Hong Kong."
+    }
+   ],
+   "sources": [
+    {
+     "title": "JCK, 'Sotheby's Geneva Sale Led by 8.63-Ct. Pink Diamond That Could Fetch $6M', 28 October 2026",
+     "url": "https://www.jckonline.com/editorial-article/sothebys-geneva-sale/",
+     "published": "2026-10-28"
+    }
+   ],
+   "corrections": []
+  },
+  "next": {
+   "slug": "twenty-four-carats-at-eighteen-million",
+   "why": "The other Geneva pink, offered a day earlier."
+  },
+  "corrections": []
+ },
+ "agnico-eagle-output-falls-6-1-percent-in-q3": {
+  "v": 3,
+  "kicker": "Gold miners",
+  "figures": {
+   "asof": "Agnico Eagle Q3 2026 MD&A, Form 6-K Exhibit 99.1, dated 28 October 2026. Spot gold: Carat Capital tape, Kitco bid, 05:00 EDT 30 October 2026.",
+   "cells": [
+    {
+     "n": "814,012 oz",
+     "dir": "down",
+     "label": "Gold production",
+     "q": "Q3, from 866,936",
+     "src": 0
+    },
+    {
+     "n": "$4,264/oz",
+     "dir": "up",
+     "label": "Realised gold",
+     "q": "Q3, from $3,476",
+     "src": 0
+    },
+    {
+     "n": "111,202 oz",
+     "dir": "down",
+     "label": "Canadian Malartic",
+     "q": "29.1% below Q3 2025",
+     "src": 0
+    },
+    {
+     "n": "3.3–3.5 Moz",
+     "dir": "flat",
+     "label": "2026 guidance",
+     "q": "payable, now the low end",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Less gold, higher price.",
+   "text": "Agnico Eagle produced 814,012 ounces of gold in the third quarter, 6.1% fewer than a year earlier. Its average realised price rose 22.7%."
+  },
+  "means": [
+   {
+    "who": "If you price gold jewellery:",
+    "text": "The tape's $3,995.60 is 6.3% under Agnico's third-quarter average of $4,264."
+   },
+   {
+    "who": "If you follow mine supply:",
+    "text": "Agnico guides to the bottom of its 2026 range, with costs near the top."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A shortage. It is one miner's quarter, and group output fell 6.1%."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Agnico Eagle, third quarter against a year earlier",
+   "hi": 0,
+   "asof": "Agnico Eagle MD&A, 28 October 2026",
+   "cols": [
+    "Measure",
+    "Q3 2026",
+    "Q3 2025",
+    "Change"
+   ],
+   "rows": [
+    [
+     "Gold production, oz",
+     "814,012",
+     "866,936",
+     "−6.1%"
+    ],
+    [
+     "Realised gold, $/oz",
+     "4,264",
+     "3,476",
+     "+22.7%"
+    ],
+    [
+     "Revenue from mining, $m",
+     "3,583.6",
+     "3,059.5",
+     "+17.1%"
+    ],
+    [
+     "Net income, $m",
+     "1,352.9",
+     "1,055.0",
+     "+28.2%"
+    ],
+    [
+     "Canadian Malartic, oz",
+     "111,202",
+     "156,875",
+     "−29.1%"
+    ]
+   ],
+   "note": "Source tables give dollars in thousands; shown here in millions. The company prints 22.7% and 29.1%; −6.1%, +17.1% and +28.2% are Carat Capital's division.",
+   "plate": "CC/2026/340"
+  },
+  "sections": [
+   {
+    "h": "Revenue rose on price.",
+    "p": [
+     {
+      "lead": "Revenue up 17.1%.",
+      "text": "Revenue from mining rose to $3.58 billion from $3.06 billion. Agnico credits mainly the higher realised price, plus more sales from Meliadine, LaRonde and Kittila."
+     },
+     {
+      "lead": "Profit up 28.2%.",
+      "text": "Net income rose to $1.35 billion from $1.05 billion. Production costs also rose, which Agnico ties to higher royalties and diesel."
+     }
+    ]
+   },
+   {
+    "h": "Malartic supplemented feed with stockpiles.",
+    "p": [
+     {
+      "lead": "A pit wall moved.",
+      "text": "A rock mass moved on the north wall of the Barnat pit on 1 July. Mining there stopped and resumed on 27 September."
+     },
+     {
+      "lead": "Lower grades, less throughput.",
+      "text": "Canadian Malartic produced 111,202 ounces in Q3, 29.1% below a year earlier. Agnico cites lower grades, as low-grade stockpiles fed the mill, and lower throughput."
+     }
+    ]
+   },
+   {
+    "h": "Guidance at the low end.",
+    "p": [
+     {
+      "lead": "Costs near the top.",
+      "text": "Agnico expects payable 2026 output at the low end of 3.3 million to 3.5 million ounces. Total cash costs should sit near the top of $1,020 to $1,120 an ounce."
+     },
+     {
+      "lead": "Malartic costs rise.",
+      "text": "Agnico now expects Malartic's 2026 total cash cost at about $1,260 an ounce, against prior guidance of $1,187. It gave the Barnat output cuts on 2 July."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Q4 2026 results, early 2027",
+    "what": "The first full quarter of Barnat ore since 27 September. The test: Malartic above its Q3 111,202 ounces."
+   },
+   {
+    "when": "Full-year 2026",
+    "what": "Full-year payable output against the expected 3.3 million ounce low end. The test: whether the low end holds."
+   }
+  ],
+  "depth": {
+   "reverse": "A fourth-quarter Malartic figure below 111,202 ounces, with Barnat mining again, would point at the mine plan, not the three-month pause.",
+   "built": {
+    "title": "What realised price means",
+    "text": "Realised price is the average a miner received for each ounce it sold in the period. It reflects when the ounces were sold, so it differs from spot on any single day."
+   },
+   "method": "Agnico Eagle Mines, MD&A for the three and nine months ended 30 September 2026, Form 6-K Exhibit 99.1, accession 0001104659-26-119671, dated 'October 28, 2026'. Captured by the Bureau at 04:31 EDT 30 October 2026 with the identifying header (door.py 200, 3,350,995 bytes, newsroom/bureau/raw/2026-10-30/agnico-ex99.htm); the Editor re-fetched it at 06:09 EDT with the identifying header (200, 3,350,995 bytes, identical by cmp; the browser identity got 403, 4,819 bytes) and grepped the raw bytes: '814,012' 4 hits, '866,936' 4, '4,264' 2, '3,476' 2, '3,583,609' 5, '3,059,529' 5, '1,352,874' 11, '1,054,958' 11, '22.7%' 1, '111,202' 4, '156,875' 4, '29.1%' 1, '1,260' 2, '1,187' 1, 'low end of the range of 3.3' 1. The statements are headed 'thousands of United States dollars'; 3,583,609 thousand / 4,264 = about 840,000 ounces sold, consistent with output. Arithmetic: 814,012 / 866,936 = 0.9390 -> 6.1% below; 3,583,609 / 3,059,529 = 1.1713 -> +17.1%; 1,352,874 / 1,054,958 = 1.2824 -> +28.2%; tape 3,995.6 / 4,264 = 0.9371 -> 6.3% under. Spot gold is the tape's 05:00 EDT 30 October mark (Kitco bid). Causes as the company gives them: group output fell 'primarily due to decreased production at Canadian Malartic following the rock mass movement on July 1, 2026 and at Meadowbank'; Malartic fell 'primarily due to lower grades, as the Company supplemented the mill feed with lower-grade stockpiles, and lower throughput'. The Barnat reductions of 60,000 to 80,000 ounces in H2 2026 and up to 150,000 ounces in each of 2027 and 2028 were 'reported on July 2, 2026' and are not new. English-language press carried the results on 28 and 29 October. Source verbs: Agnico says 'decreased', 'increased', 'remains at the low end', 'expected to be near the upper end'; this page says fell, rose, expects. ARCHIVE: 'Agnico' 0 rows and 'Malartic' 0 rows in website/content/articles.json (archive-hits.py, the Bureau, 30 Oct; python over titles and deks, the Editor, 30 Oct). Ours: nothing on Agnico | new: Q3 2026: NEW.",
+   "prior": [
+    {
+     "date": "2026-10-25",
+     "slug": "newmont-puts-red-chris-block-cave-at-4-2-to-4-8-billion",
+     "claim": "Newmont puts Red Chris block-cave capital at $4.2 billion to $4.8 billion."
+    },
+    {
+     "date": "2026-10-23",
+     "slug": "newmont-reports-1454-an-ounce-all-in-cost",
+     "claim": "Newmont's Q3 all-in sustaining cost $1,454 an ounce on $4,317 realised gold."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Agnico Eagle Mines, MD&A Q3 2026, Form 6-K Exhibit 99.1 (SEC EDGAR)",
+     "url": "https://www.sec.gov/Archives/edgar/data/2809/000110465926119671/tm2628160d2_ex99-1.htm",
+     "published": "2026-10-28"
+    }
+   ],
+   "corrections": []
+  },
+  "next": {
+   "slug": "newmont-reports-1454-an-ounce-all-in-cost",
+   "why": "Another miner's third quarter, at $4,317 realised."
   },
   "corrections": []
  }

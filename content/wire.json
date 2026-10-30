@@ -1,7 +1,17 @@
 {
  "date_line": "Sunday, October 18, 2026 | Vol. I - No. 090",
- "edition": "Vol. I - No. 099",
+ "edition": "Vol. I - No. 100",
  "items": [
+  {
+   "slug": "8-63-carat-pink-leads-sothebys-geneva",
+   "desk": "Auctions",
+   "title": "8.63-carat pink leads Sotheby's Geneva with CHF 3.3m-5m estimate"
+  },
+  {
+   "slug": "agnico-eagle-output-falls-6-1-percent-in-q3",
+   "desk": "Gold & Metals",
+   "title": "Agnico Eagle output falls 6.1% in Q3 as realised gold rises 22.7%"
+  },
   {
    "slug": "shanghai-gold-exchange-volume-up-7-6-percent-to-5064-tonnes",
    "desk": "Gold & Metals",
@@ -18,13 +28,13 @@
    "title": "Il Ponte's jewellery sale totals over €3 million, 98% of lots sold"
   }
  ],
- "tape_ts": "Kitco bid, board stamp 2026-10-27T05:00:58.047Z, tape's 05:00 ET opening mark 27 Oct",
+ "tape_ts": "Kitco bid, board stamp 2026-10-30T05:00:01.447Z, tape's 05:00 ET opening mark 30 Oct",
  "tape": [
   {
    "name": "Gold / oz",
    "code": "XAU",
-   "px": "3,995.10",
-   "chg": "-0.5179% vs 26 Oct mark",
+   "px": "3,995.60",
+   "chg": "+0.0% vs 27 Oct mark",
    "dir": "down",
    "pts": [
     5,
@@ -80,8 +90,8 @@
   {
    "name": "Platinum / oz",
    "code": "XPT",
-   "px": "1,489.00",
-   "chg": "-3.5622% vs 26 Oct mark",
+   "px": "1,438.00",
+   "chg": "-3.4% vs 27 Oct mark",
    "dir": "down",
    "pts": [
     2,
@@ -99,8 +109,8 @@
   {
    "name": "Silver / oz",
    "code": "XAG",
-   "px": "52.92",
-   "chg": "-1.8910% vs 26 Oct mark",
+   "px": "50.782",
+   "chg": "-4.0% vs 27 Oct mark",
    "dir": "down",
    "pts": [
     2,
@@ -116,5 +126,5 @@
    ]
   }
  ],
- "editionDate": "2026-10-27"
+ "editionDate": "2026-10-30"
 }

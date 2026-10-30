@@ -7,6 +7,36 @@
    "entries": [
     {
      "d": "diamonds",
+     "h": "The homepage diamond ratio dated its lab-grown leg 12 October and called an index level a price list",
+     "t": "Corrected 30 October 2026: the homepage natural : lab line read 'natural: RAPI, D–H / IF–VS2 · 25 Oct 2026 price list; lab-grown: CVD wholesale band midpoint · 12 Oct 2026' while the lab-grown chip on the same page said the 475 was read 27 October from a page modified 24 July. 12 October was the date the band entered the price file, not a source date, and 3,876.42 is the RAPI 1.00ct index level, not a price list. The line now carries the index level with its own date and the lab-grown band, read date and page date from the same fields as the chip. What was right as published: 3,876.42, 475 and the ratio. Found by Carat Capital's Standards desk on 27 October 2026.",
+     "s": "Carat Capital homepage; Carat Capital Standards desk, 27 October 2026"
+    },
+    {
+     "d": "diamonds",
+     "h": "The Record's own stamp said 12 October on a page edited since",
+     "t": "Corrected 30 October 2026: this page's heading read 'Updated 12 Oct 2026' while it carried dated notes of 26 and 27 October. The stamp is now set at build time from the newest dated entry on the page. Found by Carat Capital's Standards desk on 27 October 2026.",
+     "s": "Carat Capital, the-record.html; Carat Capital Standards desk, 27 October 2026"
+    },
+    {
+     "d": "watches",
+     "h": "A Chrono24 lead-in said Nautilus carried Patek",
+     "t": "Clarified 30 October 2026: chrono24-watch-price-index-closes-q3-at-1471.html (No. 099, 27 October 2026) opened a paragraph 'Nautilus carried Patek.' The source says three steel Nautilus references ranked among the whole index's best performers; it does not tie them to Patek's 17.0%. The lead-in now reads 'Nautilus among the leaders.' No figure changed. Found by Carat Capital's Standards desk on 27 October 2026.",
+     "s": "Carat Capital, a-chrono24-watch-price-index-closes-q3-at-1471.html; Haute Time"
+    },
+    {
+     "d": "auctions",
+     "h": "Il Ponte's total labelled 'two sessions', and a Keep-reading line called an old result the last",
+     "t": "Clarified 30 October 2026: il-ponte-jewellery-sale-totals-over-3-million-euros.html (No. 099, 27 October 2026) labelled the over-€3 million total 'two sessions'; the release names 7 and 8 October and a first session, not a session count. The label now reads '7–8 Oct'. Its Keep-reading line called a 10 October unsold lot the desk's last result; results of 19 and 24 October had run since. It now points to the 24 October Lyon & Turnbull sale. No figure changed. Found by Carat Capital's Standards desk on 27 October 2026.",
+     "s": "Carat Capital, a-il-ponte-jewellery-sale-totals-over-3-million-euros.html; Il Ponte release, 9 October 2026"
+    },
+    {
+     "d": "gold-metals",
+     "h": "A month-old Shanghai close offered as the yardstick for counter quotes",
+     "t": "Clarified 30 October 2026: shanghai-gold-exchange-volume-up-7-6-percent-to-5064-tonnes.html (No. 099, 27 October 2026) told readers to check counter quotes against Au(T+D)'s September close of 906.6 yuan a gram. This paper's gold mark was 4.7% lower on 27 October than on 30 September (3,995.1 against 4,191.6). The page now points to the current close and keeps 906.6 as a September figure. No figure changed. Found by Carat Capital's Standards desk on 27 October 2026.",
+     "s": "Carat Capital, a-shanghai-gold-exchange-volume-up-7-6-percent-to-5064-tonnes.html; Carat Capital tape, 30 September and 27 October 2026"
+    },
+    {
+     "d": "diamonds",
      "h": "The homepage diamond chip's year-to-date figure lagged its own level",
      "t": "Corrected 27 October 2026: on the morning of 26 October (No. 098) the homepage NATURAL 1CT (RAPI PROXY) cell printed −5.7% YTD beside 3,876.42. That level is −6.0% on the year (3,876.42 / 4,125.20 = 0.9397), as the natural price list said; −5.7% belonged to the 18 October level, 3,891.97. The cell read −6.0% from a redeploy at about 08:22 EDT the same day. From No. 099 the build computes the figure from the level and the 1 January base in the same file. What was right as published: the level, 3,876.42, and its date.",
      "s": "Carat Capital homepage; natural-diamond-prices.html; Carat Capital Managing Editor digest and standards audit, 2026-10-26"

@@ -20651,7 +20651,7 @@
   "desk": "gold-metals",
   "date": "2026-10-27",
   "kicker": "Gold & Metals",
-  "lead": true,
+  "lead": false,
   "title": "Shanghai Gold Exchange volume up 7.6% on year to 5,064.6 tonnes",
   "dek": "In its September market report, China's central bank puts Shanghai Futures Exchange gold volume down 12.8% on the year. It does not say whether the exchange tonnage counts one side of each trade or both.",
   "byline": "Carat Capital",
@@ -20670,7 +20670,7 @@
    "The report gives SGE volume as trades done. It does not say whether each trade is counted once or for both buyer and seller.",
    "The 7.6% rise compares the bank's figure with its own figure a year earlier. Set against totals from other publishers, the tonnage may not compare.",
    "Chinese jewellery counters quote above the exchange price. On 14 August Carat Capital measured Chow Tai Fook's counter at 39.5% over the SGE's Au99.99 close.",
-   "The desk's view. If you price off Shanghai: Check counter quotes against Au(T+D)'s September close of 906.6 yuan a gram. If you track Chinese demand: Read the spot rise and the futures fall together. The bank gives no reason for either. What this is not: A demand figure. Traded volume is not metal bought by jewellers or withdrawn from the vaults."
+   "The desk's view. If you price off Shanghai: Check counter quotes against the SGE's current Au(T+D) close. September's 906.6 yuan a gram is a month old. If you track Chinese demand: Read the spot rise and the futures fall together. The bank gives no reason for either. What this is not: A demand figure. Traded volume is not metal bought by jewellers or withdrawn from the vaults."
   ],
   "sources": [
    {
@@ -20748,6 +20748,70 @@
     "url": "https://www.ponteonline.com/en/news/auction-results-important-jewels-oct-26",
     "published": "2026-10-09"
    }
+  ]
+ },
+ {
+  "slug": "8-63-carat-pink-leads-sothebys-geneva",
+  "desk": "auctions",
+  "date": "2026-10-30",
+  "kicker": "Sale preview",
+  "lead": true,
+  "title": "8.63-carat pink leads Sotheby's Geneva with CHF 3.3m-5m estimate",
+  "dek": "JCK reports the unmounted fancy intense pink heads Sotheby's High Jewelry sale at the Mandarin Oriental on 11 November. A Graff ring with a 2.88-carat fancy deep blue carries an estimate of CHF 1.7 million to 2.5 million.",
+  "byline": "Carat Capital",
+  "tags": [
+   "Sotheby's",
+   "Geneva",
+   "pink diamond",
+   "High Jewelry",
+   "coloured diamonds",
+   "Ceylon sapphire"
+  ],
+  "sources": [
+   {
+    "title": "JCK, 'Sotheby's Geneva Sale Led by 8.63-Ct. Pink Diamond That Could Fetch $6M', Annie Davidson Watson, 28 October 2026",
+    "url": "https://www.jckonline.com/editorial-article/sothebys-geneva-sale/",
+    "published": "2026-10-28"
+   }
+  ],
+  "body": [
+   "JCK reports Sotheby's has estimated an unmounted 8.63-carat fancy intense pink diamond at CHF 3.3 million to CHF 5 million. It leads the house's High Jewelry sale at the Mandarin Oriental in Geneva on 11 November.",
+   "A Graff ring set with a 2.88-carat pear-shaped fancy deep blue carries CHF 1.7 million to 2.5 million. An unmounted 8.11-carat fancy pink, graded VVS1, carries the same range. An 18.03-carat fancy vivid yellow is estimated at CHF 850,000 to CHF 1.6 million.",
+   "A ring with a 5.027-carat ruby described as pigeon blood carries CHF 850,000 to CHF 1.3 million. Sotheby's lists several large Ceylon sapphires as unheated, JCK reports, the largest named a 69.44-carat stone in a Harry Winston ring at CHF 580,000 to CHF 750,000. JCK cites no laboratory report for either description.",
+   "An 1883 convertible necklace attributed to Boucheron belonged to Helena Rubinstein and then Jayne Wrightsman, at CHF 330,000 to CHF 650,000. A circa 1970 Bulgari necklace of 35 Burmese sapphires carries CHF 130,000 to CHF 200,000.",
+   "The desk's view. If you bid on coloured diamonds: The pink's high estimate is about CHF 579,000 a carat, under the CHF 625,000 Christie's put on its 24-carat pink. If you consign before Geneva: Four coloured diamonds here carry low estimates of CHF 850,000 or more. What this is not: A price. These are estimates, relayed by JCK, for a sale on 11 November."
+  ]
+ },
+ {
+  "slug": "agnico-eagle-output-falls-6-1-percent-in-q3",
+  "desk": "gold-metals",
+  "date": "2026-10-30",
+  "kicker": "Gold & Metals",
+  "lead": false,
+  "title": "Agnico Eagle output falls 6.1% in Q3 as realised gold rises 22.7%",
+  "dek": "The miner expects 2026 payable output at the low end of its 3.3 million to 3.5 million ounce range. Canadian Malartic made 111,202 ounces in the third quarter, 29.1% below a year earlier, as lower-grade stockpiles supplemented mill feed.",
+  "byline": "Carat Capital",
+  "tags": [
+   "Agnico Eagle",
+   "gold miners",
+   "Canadian Malartic",
+   "realised gold price",
+   "Q3 2026",
+   "earnings"
+  ],
+  "sources": [
+   {
+    "title": "Agnico Eagle Mines, Management's Discussion and Analysis for the three and nine months ended 30 September 2026, Form 6-K Exhibit 99.1 (SEC)",
+    "url": "https://www.sec.gov/Archives/edgar/data/2809/000110465926119671/tm2628160d2_ex99-1.htm",
+    "published": "2026-10-28"
+   }
+  ],
+  "body": [
+   "Agnico Eagle produced 814,012 ounces of gold in the third quarter of 2026, 6.1% fewer than the 866,936 a year earlier. Its average realised price rose 22.7% to $4,264 an ounce.",
+   "Revenue from mining rose to $3.58 billion from $3.06 billion, which Agnico puts mainly down to the higher price. Net income rose to $1.35 billion from $1.05 billion.",
+   "A rock mass moved on the north wall of the Barnat pit at Canadian Malartic on 1 July. Mining there resumed on 27 September. The mine produced 111,202 ounces in Q3, 29.1% below a year earlier; Agnico cites lower grades from stockpile feed and lower throughput.",
+   "Agnico expects payable 2026 output at the low end of 3.3 million to 3.5 million ounces, and total cash costs near the top of $1,020 to $1,120 an ounce.",
+   "The desk's view. If you price gold jewellery: The tape's $3,995.60 is 6.3% under Agnico's third-quarter average. If you follow mine supply: Agnico guides to the bottom of its 2026 range, with costs near the top. What this is not: A shortage. It is one miner's quarter, and group output fell 6.1%."
   ]
  }
 ]

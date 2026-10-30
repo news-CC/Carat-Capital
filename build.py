@@ -227,7 +227,52 @@ def _lock_metal_qualifiers():
             _t["chg"] = _req.sub(r"vs .*? mark", "vs Fri %d %s close" % (_fr.day, _fr.strftime("%b")), _t["chg"], count=1)
             continue
         _t["chg"] = _req.sub(r"vs .*? mark", "vs %d %s mark" % (_pd.day, _pd.strftime("%b")), _t["chg"], count=1)
+    # carateditor 27 Oct order 1: the change prints at one decimal, rounded here from the tape's
+    # own changePct, never typed; the price is the tape's value. A chip whose mark is missing a
+    # field is left untouched.
+    for _t in WIRE.get("tape", []):
+        _m = _marks.get(_map.get(_t.get("code"), ""))
+        if not _m or _m.get("changePct") is None or _m.get("value") is None:
+            continue
+        _cp = round(float(_m["changePct"]), 1)
+        _ps = ("0.0" if _cp == 0 else ("\u2212" if _cp < 0 else "+") + "%.1f" % abs(_cp)) + "%"
+        _t["chg"] = _req.sub(r"^[^ ]*%", _ps, _t.get("chg") or "", count=1)
+        _t["dir"] = "flat" if _cp == 0 else ("down" if _cp < 0 else "up")
+        _v = float(_m["value"])
+        _dec = max(2, len(repr(_v).split(".")[1]) if "." in repr(_v) else 2)
+        _t["px"] = f"{_v:,.{_dec}f}"
 _lock_metal_qualifiers()
+
+def _lab_leg_label():
+    """The lab-grown leg's dated label, from the same lab-prices.json fields as the LGD1 chip."""
+    import datetime as _dtk
+    _h = LAB.get("headline") or {}
+    def _dm(_x):
+        try:
+            _d = _dtk.date.fromisoformat(_x); return "%d %s" % (_d.day, _d.strftime("%b"))
+        except (ValueError, TypeError):
+            return _x or "undated"
+    _lo, _hi = _h.get("trade_lo"), _h.get("trade_hi")
+    _rd, _sm = _h.get("reread_date") or _h.get("trade_date"), _h.get("source_modified")
+    if _lo is not None and _hi is not None and _rd and _sm:
+        return "midpoint of %s to %s, read %s, page modified %s" % (f"{_lo:,}", f"{_hi:,}", _dm(_rd), _dm(_sm))
+    return "band midpoint, read %s" % _dm(_rd)
+
+def _record_updated():
+    """caratcheck 27 Oct item 2: The Record's stamp is the newest dated note or week in record.json."""
+    import datetime as _dtr, re as _rer
+    _best = None
+    for _m in _rer.finditer(r"\b(\d{1,2}) (January|February|March|April|May|June|July|August|September|October|November|December) (20\d\d)\b", json.dumps(RECORD.get("weeks", []), ensure_ascii=False)):
+        try:
+            _d = _dtr.datetime.strptime(" ".join(_m.groups()), "%d %B %Y").date()
+        except ValueError:
+            continue
+        _cap = WIRE.get("editionDate") or ""
+        if _cap and _d.isoformat() > _cap:
+            continue  # a forward date (a sale, a deadline) is not an edit
+        if _best is None or _d > _best:
+            _best = _d
+    return "%d %s %d" % (_best.day, _best.strftime("%b"), _best.year) if _best else RECORD.get("updated", "")
 
 def lead_article():
     # The one-lead invariant, enforced here rather than by the Editor's hand (chief, 2026-10-24,
@@ -764,7 +809,7 @@ def record_page():
 {navbar("the-record")}
 {omenu()}
 <section class="deskhero"><div class="wrap">
-  <div class="dh-no">The Paper · Updated {RECORD.get("updated","")}</div>
+  <div class="dh-no">The Paper · Updated {_record_updated()}</div>
   <h1 class="art-h" style="font-size:clamp(40px,6vw,86px);text-transform:uppercase">The Record<em style="font-family:var(--disp);font-style:normal;font-weight:400;color:var(--seal);text-transform:none;font-size:.5em;display:block;margin-top:12px;letter-spacing:-.01em">Eight weeks of the trade, kept properly</em></h1>
   <p class="dh-dek" style="max-width:760px">{RECORD.get("intro","")}</p>
 </div></section>
@@ -3524,10 +3569,12 @@ def index_page():
                    # Dated attribution, read from the price files at build time. Never a
                    # freshness claim: these two legs refresh on their own schedules and
                    # are routinely days apart. Same pattern as the NAT1 tape footer above.
-                   "natural: %s &middot; %s price list; lab-grown: CVD wholesale band midpoint &middot; %s" % (
-                       (PRICES.get("headline") or {}).get("rapi_label", "RAPI"),
+                   # caratcheck 27 Oct item 1: the RAPI figure is an index level, not a price list,
+                   # and the lab leg carries the same band, read date and page date as its chip.
+                   "natural: RAPI 1.00ct index level &middot; %s%s; lab-grown: %s" % (
                        _iso_date((PRICES.get("headline") or {}).get("rapi_date", "")) or "undated",
-                       _iso_date((LAB.get("headline") or {}).get("trade_date", "")) or "undated")],
+                       ", carried" if any(_c.get("code") == "NAT1" and "carried" in (_c.get("chg") or "") for _c in WIRE.get("tape", [])) else "",
+                       _lab_leg_label())],
           "src": ["The lab-grown price list", "lab-grown-diamond-prices.html"]})
     # two editorial lines, taken from whatever the desks actually filed
     _seen = {LEAD["slug"]} if LEAD else set()
