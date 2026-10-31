@@ -114,6 +114,16 @@ if PRICES.get("headline"):
             if _ytd is not None:
                 _t["chg"] = ("\u2212" if _ytd < 0 else "+") + f"{abs(_ytd):.1f}% YTD"
                 _t["dir"] = "down" if _ytd < 0 else "up"
+                # 2026-10-31 (carateditor 30 Oct order 2): the YTD names its second input,
+                # the base level, its point date and the date it was read, all from prices.json.
+                _bd, _br = PRICES["headline"].get("rapi_base_date"), PRICES["headline"].get("rapi_base_read")
+                if _rb and _bd and _br:
+                    import datetime as _dtb
+                    try:
+                        _f = lambda _x: (lambda _d: "%d %s" % (_d.day, _d.strftime("%b")))(_dtb.date.fromisoformat(_x))
+                        _t["chg"] += " \u00b7 base %s, %s, read %s" % (f"{_rb:,.2f}", _f(_bd), _f(_br))
+                    except ValueError:
+                        pass
             # 2026-10-24 (caratdesk, carrying caratcheck 21 Oct / carateditor 22 Oct / caratwire 23 Oct):
             # a carried mark never prints as if current. When the price list's own point is older
             # than the edition, or the edition's tape marks the RAPI line anything but fresh, the
@@ -202,6 +212,11 @@ def _lock_metal_qualifiers():
     _map = {"XAU": "gold_spot", "XAG": "silver_spot", "XPT": "platinum_spot"}
     _edd = WIRE.get("editionDate") or ""
     _tp = ROOT.parent / "newsroom" / "tape" / ("%s.json" % _edd)
+    # chief, 2026-10-30 (carateditor's escalation): the CI build has no newsroom/ folder, so this lock
+    # was a no-op in the build that publishes. The Editor ships the day's tape inside the site at
+    # content/tape/<editionDate>.json; read that when the newsroom copy is not there.
+    if _edd and not _tp.exists():
+        _tp = ROOT / "content" / "tape" / ("%s.json" % _edd)
     if not _edd or not _tp.exists():
         return
     try:
@@ -499,10 +514,19 @@ def _lock_desk_stats():
     if _lh.get("trade_mid") and by.get("retail-tech"):
         # the third tile now dates itself like its two neighbours (Standards, 2026-09-16:
         # this function's own comment claimed all three printed a date and this one did not)
-        _ld = _iso_date(_lh.get("trade_date", ""))
+        # 2026-10-31 (caratcheck 30 Oct item 1): trade_date is the date the band entered
+        # lab-prices.json, a file date. The card dates itself from the same read and
+        # page-modified fields as the LGD1 chip and the natural : lab line.
+        _rd = _lh.get("reread_date") or _lh.get("trade_date") or ""
+        _sm = _lh.get("source_modified") or ""
+        def _dmc(_x):
+            _i = _iso_date(_x or "")
+            return " ".join(_i.split()[:2]) if _i else ""
         lab = "Lab-grown 1ct, wholesale midpoint"
-        if _ld:
-            lab = "Lab-grown 1ct, wholesale mid, %s" % " ".join(_ld.split()[:2])
+        if _dmc(_rd) and _dmc(_sm):
+            lab = "Lab-grown 1ct, wholesale mid, read %s, page modified %s" % (_dmc(_rd), _dmc(_sm))
+        elif _dmc(_rd):
+            lab = "Lab-grown 1ct, wholesale mid, read %s" % _dmc(_rd)
         by["retail-tech"]["stats"][0] = ("$%s" % f'{_lh["trade_mid"]:,}', lab)
 
 MOTIFS = dict(

@@ -1,41 +1,31 @@
 {
  "date_line": "Sunday, October 18, 2026 | Vol. I - No. 090",
- "edition": "Vol. I - No. 100",
+ "edition": "Vol. I - No. 101",
  "items": [
   {
-   "slug": "8-63-carat-pink-leads-sothebys-geneva",
-   "desk": "Auctions",
-   "title": "8.63-carat pink leads Sotheby's Geneva with CHF 3.3m-5m estimate"
+   "slug": "lao-feng-xiang-ends-september-with-4809-outlets",
+   "desk": "Retail & Technology",
+   "title": "Lao Feng Xiang ends September with 4,809 outlets, down 107 in Q3"
   },
   {
-   "slug": "agnico-eagle-output-falls-6-1-percent-in-q3",
+   "slug": "snb-books-1-2-billion-gold-gain-after-h1-loss",
    "desk": "Gold & Metals",
-   "title": "Agnico Eagle output falls 6.1% in Q3 as realised gold rises 22.7%"
+   "title": "SNB books CHF 1.2bn gold gain after a CHF 6.4bn loss in H1"
   },
   {
-   "slug": "shanghai-gold-exchange-volume-up-7-6-percent-to-5064-tonnes",
-   "desk": "Gold & Metals",
-   "title": "Shanghai Gold Exchange volume up 7.6% on year to 5,064.6 tonnes"
-  },
-  {
-   "slug": "chrono24-watch-price-index-closes-q3-at-1471",
-   "desk": "Watches",
-   "title": "Chrono24 watch price index closes Q3 at 1,471, up 0.7%"
-  },
-  {
-   "slug": "il-ponte-jewellery-sale-totals-over-3-million-euros",
-   "desk": "Auctions",
-   "title": "Il Ponte's jewellery sale totals over €3 million, 98% of lots sold"
+   "slug": "cartier-sapphire-ring-makes-205400-euros-at-bonhams-paris",
+   "desk": "Gemstones",
+   "title": "Cartier 11.5-ct sapphire ring makes €205,400 at Bonhams Paris"
   }
  ],
- "tape_ts": "Kitco bid, board stamp 2026-10-30T05:00:01.447Z, tape's 05:00 ET opening mark 30 Oct",
+ "tape_ts": "Kitco bid, board stamp 2026-10-30T17:00:00Z, tape's 05:00 ET opening mark 31 Oct",
  "tape": [
   {
    "name": "Gold / oz",
    "code": "XAU",
-   "px": "3,995.60",
-   "chg": "0.0% vs 27 Oct mark",
-   "dir": "flat",
+   "px": "3,874.40",
+   "chg": "−3.0% vs 30 Oct mark",
+   "dir": "down",
    "pts": [
     5,
     6,
@@ -90,8 +80,8 @@
   {
    "name": "Platinum / oz",
    "code": "XPT",
-   "px": "1,438.00",
-   "chg": "−3.4% vs 27 Oct mark",
+   "px": "1,429.00",
+   "chg": "−0.6% vs 30 Oct mark",
    "dir": "down",
    "pts": [
     2,
@@ -109,8 +99,8 @@
   {
    "name": "Silver / oz",
    "code": "XAG",
-   "px": "50.782",
-   "chg": "−4.0% vs 27 Oct mark",
+   "px": "49.004",
+   "chg": "−3.5% vs 30 Oct mark",
    "dir": "down",
    "pts": [
     2,
@@ -126,5 +116,5 @@
    ]
   }
  ],
- "editionDate": "2026-10-30"
+ "editionDate": "2026-10-31"
 }

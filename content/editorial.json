@@ -150005,7 +150005,7 @@
     "title": "What the totals count",
     "text": "The house gives a total 'over €3 million' and a 98% share of lots sold. It prints no lot count, no estimates and no premium basis. Lot prices are as printed."
    },
-   "method": "Il Ponte, 'A white-glove first session marks a high point for the Important Jewellery auction', 'Published on 09/10/2026' (day first), fetched by the Editor on 27 October 2026, door.py 200, 35,750 bytes (the Bureau's capture was the same count). Tag-stripped text 7,160 characters: '3 million' 1 hit, '98%' 1, 'white-glove' 3, '88,200' 4, '44,100', '41,580', '37,800' and '12.81' read at each lot line; 'regular November' 1; the house's address reads 'Via Pontaccio 12, 20121 Milan'. The release also claims 'an average increase of 434% over the initial estimates'; no estimate is in the release, so the figure cannot be checked and is not printed in the article. The sale is 19 days old at print. It runs because no Carat Capital page has covered it and the house's next sale is in November. Source verbs: the house says 'generating', 'achieved', 'sold'; the page says sold and made. ARCHIVE, by entity: 'Il Ponte' 0 rows, 'Ponteonline' 0 rows in articles.json (regex over each row's JSON). Ours: nothing on Il Ponte | new: the 7 to 8 October 2026 sale: NEW.",
+   "method": "Il Ponte, 'A white-glove first session marks a high point for the Important Jewellery auction', 'Published on 09/10/2026' (day first), fetched by the Editor on 27 October 2026, door.py 200, 35,750 bytes (the Bureau's capture was the same count). Tag-stripped text 7,160 characters: '3 million' 1 hit, '98%' 1, 'white-glove' 3, '88,200' 4, '44,100', '41,580', '37,800' and '12.81' read at each lot line; 'regular November' 1; the house's address reads 'Via Pontaccio 12, 20121 Milan'. The release also claims 'an average increase of 434% over the initial estimates'; no estimate is in the release, so the figure cannot be checked and is not used in the text above. The sale is 19 days old at print. It runs because no Carat Capital page has covered it and the house's next sale is in November. Source verbs: the house says 'generating', 'achieved', 'sold'; the page says sold and made. ARCHIVE, by entity: 'Il Ponte' 0 rows, 'Ponteonline' 0 rows in articles.json (regex over each row's JSON). Ours: nothing on Il Ponte | new: the 7 to 8 October 2026 sale: NEW.",
    "prior": [],
    "sources": [
     {
@@ -150015,7 +150015,8 @@
     }
    ],
    "corrections": [
-    "Clarified, 30 October 2026: a key-figure label said the over-€3 million total came from 'two sessions'. Il Ponte's release names the sale dates, 7 and 8 October, and a first session; it does not say there were two. The label now reads '7–8 Oct'. The Keep-reading line also called a 10 October unsold lot the auctions desk's last result; two later results had run, on 19 and 24 October. It now points to the 24 October Lyon & Turnbull sale. What was right as published: every figure, including over €3 million and 98%. Found by Carat Capital's Standards desk on 27 October 2026."
+    "Clarified, 30 October 2026: a key-figure label said the over-€3 million total came from 'two sessions'. Il Ponte's release names the sale dates, 7 and 8 October, and a first session; it does not say there were two. The label now reads '7–8 Oct'. The Keep-reading line also called a 10 October unsold lot the auctions desk's last result; two later results had run, on 19 and 24 October. It now points to the 24 October Lyon & Turnbull sale. What was right as published: every figure, including over €3 million and 98%. Found by Carat Capital's Standards desk on 27 October 2026.",
+    "Clarified, 31 October 2026: the Method said the house's 434% average rise over estimates 'is not printed in the article', in a sentence that printed it. It now says the figure is not used in the text above. No figure changed. Found by Carat Capital's Standards desk on 27 October 2026."
    ]
   },
   "next": {
@@ -150061,7 +150062,7 @@
    ]
   },
   "changed": {
-   "lead": "Sotheby's priced a pink.",
+   "lead": "Sotheby's estimated a pink.",
    "text": "JCK reports Sotheby's has estimated an unmounted 8.63-carat fancy intense pink diamond at CHF 3.3 million to CHF 5 million. It leads the house's High Jewelry sale in Geneva."
   },
   "means": [
@@ -150080,7 +150081,7 @@
   ],
   "visual": {
    "type": "table",
-   "cap": "Lots JCK names, by high estimate",
+   "cap": "Eight lots JCK names, by high estimate",
    "hi": 0,
    "asof": "JCK, 28 October 2026; dollar figures are JCK's conversion",
    "cols": [
@@ -150147,7 +150148,7 @@
     "h": "Four coloured diamonds lead.",
     "p": [
      {
-      "lead": "Blue matches pink.",
+      "lead": "Blue ties a second pink.",
       "text": "A Graff ring set with a 2.88-carat pear-shaped fancy deep blue carries CHF 1.7 million to 2.5 million. An unmounted 8.11-carat fancy pink, graded VVS1, carries the same range."
      },
      {
@@ -150164,7 +150165,7 @@
       "text": "A ring with a 5.027-carat ruby described as pigeon blood carries CHF 850,000 to CHF 1.3 million. JCK cites no laboratory report for the description."
      },
      {
-      "lead": "Heat treatment is named.",
+      "lead": "Unheated is stated.",
       "text": "Sotheby's lists several large Ceylon sapphires as unheated, JCK reports. The largest named is a 69.44-carat stone in a Harry Winston ring, at CHF 580,000 to CHF 750,000."
      }
     ]
@@ -150224,7 +150225,9 @@
      "published": "2026-10-28"
     }
    ],
-   "corrections": []
+   "corrections": [
+    "Clarified, 31 October 2026: a lead-in read 'Blue matches pink.' after a lead about the 8.63-carat pink; the Graff blue's CHF 1.7 million to 2.5 million matches the 8.11-carat pink, not the lead stone. It now reads 'Blue ties a second pink.' Three smaller changes: 'Sotheby's priced a pink' now reads 'estimated', since these are estimates; 'Heat treatment is named' now reads 'Unheated is stated', the source's description; the table, which omits a JAR brooch JCK also prices, is titled 'Eight lots JCK names'. No figure changed. Found by Carat Capital's Standards desk on 30 October 2026."
+   ]
   },
   "next": {
    "slug": "twenty-four-carats-at-eighteen-million",
@@ -150263,7 +150266,7 @@
      "n": "3.3–3.5 Moz",
      "dir": "flat",
      "label": "2026 guidance",
-     "q": "payable, now the low end",
+     "q": "payable, unchanged at the low end",
      "src": 0
     }
    ]
@@ -150409,11 +150412,553 @@
      "published": "2026-10-28"
     }
    ],
-   "corrections": []
+   "corrections": [
+    "Clarified, 31 October 2026: the guidance cell read 'payable, now the low end'. Agnico Eagle says 2026 payable production 'remains' at the low end of 3.3 to 3.5 million ounces; the guidance did not move. The cell now reads 'payable, unchanged at the low end'. What was right as published: 3.3 to 3.5 million ounces, the low end, and every other figure. Found by Carat Capital's Standards desk on 30 October 2026."
+   ]
   },
   "next": {
    "slug": "newmont-reports-1454-an-ounce-all-in-cost",
    "why": "Another miner's third quarter, at $4,317 realised."
+  },
+  "corrections": []
+ },
+ "lao-feng-xiang-ends-september-with-4809-outlets": {
+  "v": 3,
+  "kicker": "Chinese jewellers",
+  "figures": {
+   "asof": "Guandian's summary of Lao Feng Xiang's notice of third-quarter 2026 operating data, 30 October 2026. The notice itself was not read.",
+   "cells": [
+    {
+     "n": "4,809",
+     "dir": "down",
+     "label": "Outlets, 30 September",
+     "q": "from 4,916 at end-June",
+     "src": 0
+    },
+    {
+     "n": "537",
+     "dir": "down",
+     "label": "Franchise stores closed",
+     "q": "Jan–Sep, tier-3 and tier-4 cities",
+     "src": 0
+    },
+    {
+     "n": "RMB 26.49bn",
+     "dir": "down",
+     "label": "Main-business revenue",
+     "q": "Jan–Sep, −44.67%",
+     "src": 0
+    },
+    {
+     "n": "10.43%",
+     "dir": "up",
+     "label": "Gross margin",
+     "q": "Jan–Sep, +2.26 points",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Closures outran openings.",
+   "text": "Lao Feng Xiang closed 194 outlets and opened 87 in the third quarter, according to a summary of its notice. It ended September with 4,809."
+  },
+  "means": [
+   {
+    "who": "If you supply Chinese chains:",
+    "text": "Closures hit low-yield franchises in tier-3 and tier-4 cities; about half of new franchises opened in tier-1 and tier-2."
+   },
+   {
+    "who": "If you sell gold jewellery:",
+    "text": "Comparable direct stores grew 10.02% while jewellery revenue fell 35.13%."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A full set of accounts. These figures come from a summary of the notice."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Main-business revenue, January to September 2026",
+   "hi": 4,
+   "asof": "Guandian summary of the company's notice, 30 October 2026",
+   "cols": [
+    "Line",
+    "RMB bn",
+    "Change on year"
+   ],
+   "rows": [
+    [
+     "Jewellery",
+     "24.63",
+     "−35.13%"
+    ],
+    [
+     "Gold trading",
+     "1.73",
+     "−82.20%"
+    ],
+    [
+     "Domestic sales",
+     "26.08",
+     "−44.94%"
+    ],
+    [
+     "Overseas sales",
+     "0.41",
+     "−18.18%"
+    ],
+    [
+     "Total main business",
+     "26.49",
+     "−44.67%"
+    ]
+   ],
+   "note": "Guandian prints these in 亿 (100 million yuan); converted to billions and rounded by Carat Capital. Percentages are as printed. Pens and crafts lines are omitted.",
+   "plate": "CC/2026/341"
+  },
+  "sections": [
+   {
+    "h": "Closures concentrate in small cities.",
+    "p": [
+     {
+      "lead": "Low-yield franchises shut.",
+      "text": "Over nine months the chain closed 537 low-yield franchise stores in tier-3 and tier-4 cities, about 73% of all franchise closures, the summary says."
+     },
+     {
+      "lead": "Bigger cities gain.",
+      "text": "It opened 90 franchise stores in tier-1 and tier-2 cities, about 49% of franchise openings. The net quarterly fall was 107 outlets."
+     }
+    ]
+   },
+   {
+    "h": "Own stores grew, revenue fell.",
+    "p": [
+     {
+      "lead": "Direct stores rose.",
+      "text": "Comparable directly operated stores, excluding those opened or closed in the period, grew sales 10.02%. Online platform sales rose 49.19% to RMB 466m."
+     },
+     {
+      "lead": "Gold trading fell most.",
+      "text": "Main-business revenue fell to RMB 26.49bn. Jewellery fell 35.13% and gold trading 82.20%; the summary gives no cause for either."
+     }
+    ]
+   },
+   {
+    "h": "Margin widens, openings planned.",
+    "p": [
+     {
+      "lead": "Margin up.",
+      "text": "Gross margin rose 2.26 points to 10.43%. For the fourth quarter the chain plans 38 new outlets, eight of them in Shanghai."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "31 December 2026",
+    "what": "The year-end outlet count against 38 planned fourth-quarter openings. The test: a count above 4,809."
+   },
+   {
+    "when": "Full-year 2026 report, 2027",
+    "what": "The year's tier-3 and tier-4 franchise closures. The test: whether the total runs past 537."
+   }
+  ],
+  "depth": {
+   "reverse": "The company's own notice, read at the exchange, carrying a different outlet count or revenue line would change this call.",
+   "built": {
+    "title": "What main-business revenue counts",
+    "text": "主营业务收入 is revenue from the company's main lines: jewellery, gold trading, pens and crafts. It is not the operating revenue line in the half-year report, so the two are not compared here."
+   },
+   "method": "Guandian (观点网), '老凤祥前三季度主营业务收入264.89亿元 同比降44.67%', page stamp '2026-10-30 17:22:06', body '10月30日，老凤祥股份有限公司披露2026年第三季度主要经营数据公告'. Captured by the Bureau at 04:31 EDT 31 October 2026 (door.py 200, 20,821 bytes, newsroom/bureau/raw/2026-10-31/lfx.html); the Editor read those bytes and greped the article text before the page's '你可能感兴趣' (related items) boundary: '264.89', '44.67%', '10.43%', '2.26', '246.27', '35.13%', '17.32', '82.20%', '260.82', '44.94%', '4.07', '18.18%', '4809', '4916', '107', '87', '194', '215', '4594', '537', '73%', '90', '49%', '38', '10.02%', '9.64%', '4.66', '49.19%' each read in its sentence. The notice itself sits on the Shanghai exchange behind a cookie-challenge page (caratglobal, 7,373 bytes) and was not read; every figure here is the summary's. Conversions: 264.89亿 = RMB 26.489bn; 246.27亿 = 24.627bn; 17.32亿 = 1.732bn; 260.82亿 = 26.082bn; 4.07亿 = 0.407bn; 4.66亿 = RMB 466m. Roll-forward: 4,916 + 87 − 194 = 4,809; 215 + 4,594 = 4,809. Not printed: a third-quarter-only franchise closure count (nine-month 537 minus the half-year 342 reported elsewhere gives 195, one more than the quarter's 194 closures of all kinds), and any comparison of the −44.67% with the half-year −40.08%, which is a different revenue line. Source verbs: the summary says 减少 (fell), 增长 (grew), 关闭 (closed), 新开 (opened), 拟新开 (plans to open); this page says fell, grew, closed, opened, plans. English cover: not found by general search (the Bureau and caratglobal, six searches); wire services were not checked. ARCHIVE, by entity: 'Lao Feng Xiang' 6 rows in website/content/articles.json (archive-hits.py, the Bureau, 31 Oct), each opened: five counter-price comparisons and one exchange attendee list. Ours: counter gold prices, August to October | new: January to September 2026 operating data: NEW.",
+   "prior": [
+    {
+     "date": "2026-10-24",
+     "slug": "luk-fooks-self-run-mainland-shops-post-39-percent",
+     "claim": "Luk Fook's self-run Mainland shops post +39% for 1 to 7 October."
+    },
+    {
+     "date": "2026-10-23",
+     "slug": "chow-tai-fook-names-gold-loan-gains-first",
+     "claim": "Chow Tai Fook names gold-loan gains first in a 90% to 100% profit alert."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Guandian (观点网), summary of Lao Feng Xiang's notice of third-quarter 2026 operating data",
+     "url": "https://www.guandian.cn/m/show/621102",
+     "published": "2026-10-30"
+    }
+   ]
+  },
+  "next": {
+   "slug": "luk-fooks-self-run-mainland-shops-post-39-percent",
+   "why": "Another Chinese chain's own shops, a week of October."
+  },
+  "corrections": []
+ },
+ "snb-books-1-2-billion-gold-gain-after-h1-loss": {
+  "v": 3,
+  "kicker": "Central bank gold",
+  "figures": {
+   "asof": "SNB interim results as at 30 September 2026 (released 30 October 2026) and as at 30 June 2026 (released 31 July 2026). Dollar gold: Carat Capital tape, Kitco bid.",
+   "cells": [
+    {
+     "n": "CHF 1.2bn",
+     "dir": "up",
+     "label": "Gold valuation gain",
+     "q": "nine months to 30 Sep",
+     "src": 0
+    },
+    {
+     "n": "CHF 7.6bn",
+     "dir": "up",
+     "label": "Implied Q3 gold swing",
+     "q": "CC arithmetic, 1.2 + 6.4",
+     "src": 0
+    },
+    {
+     "n": "CHF 112,118",
+     "dir": "up",
+     "label": "Gold, per kilogram",
+     "q": "end-Sep, from 104,812 end-June",
+     "src": 0
+    },
+    {
+     "n": "CHF 44.2bn",
+     "dir": "up",
+     "label": "Nine-month profit",
+     "q": "before currency provisions",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Gold loss reversed.",
+   "text": "The SNB recorded a CHF 1.2bn valuation gain on gold for the first nine months. In H1 the same line was a CHF 6.4bn loss."
+  },
+  "means": [
+   {
+    "who": "If you hold gold stock:",
+    "text": "The gain is price alone; volume was unchanged. Gold in francs rose 7.0% in Q3."
+   },
+   {
+    "who": "If you price in dollars:",
+    "text": "Dollar gold on the tape fell 7.6% from its 30 September mark to $3,874.40 at Friday's close."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A purchase or a sale. No metal moved."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "SNB results, CHF bn, half year against nine months",
+   "hi": 2,
+   "asof": "SNB interim results, 31 July and 30 October 2026",
+   "cols": [
+    "Line",
+    "H1 2026",
+    "Nine months",
+    "Implied Q3"
+   ],
+   "rows": [
+    [
+     "Profit",
+     "25.2",
+     "44.2",
+     "19.0"
+    ],
+    [
+     "Foreign currency positions",
+     "31.7",
+     "43.3",
+     "11.6"
+    ],
+    [
+     "Gold holdings",
+     "−6.4",
+     "1.2",
+     "7.6"
+    ],
+    [
+     "Swiss franc positions",
+     "0.1",
+     "0.1",
+     "0.0"
+    ],
+    [
+     "Gold, CHF per kg, period end",
+     "104,812",
+     "112,118",
+     "+7.0%"
+    ]
+   ],
+   "note": "The Q3 column is Carat Capital's subtraction; the gold price change is its division. The SNB's line items do not sum to its total profit in either release.",
+   "plate": "CC/2026/342"
+  },
+  "sections": [
+   {
+    "h": "Price did the work.",
+    "p": [
+     {
+      "lead": "Volume unchanged.",
+      "text": "The SNB says its gold holdings remained unchanged in volume terms. Gold traded at CHF 110,919 a kilogram at end-2025."
+     },
+     {
+      "lead": "A third-quarter swing.",
+      "text": "From a loss at end-June to a gain at end-September, the gold line moved CHF 7.6bn. The subtraction is ours, not the bank's."
+     }
+    ]
+   },
+   {
+    "h": "Currency positions carried the profit.",
+    "p": [
+     {
+      "lead": "Exchange rates helped.",
+      "text": "Exchange-rate gains on foreign currency positions were CHF 29.8bn. Equity price gains were CHF 23.7bn, against CHF 22.6bn of price losses on interest-bearing paper."
+     }
+    ]
+   },
+   {
+    "h": "What the release leaves out.",
+    "p": [
+     {
+      "lead": "No tonnage given.",
+      "text": "The release gives no tonnage. Dividing the CHF 7.6bn swing by the CHF 7,306 rise per kilogram gives about 1,040 tonnes, on our arithmetic."
+     },
+     {
+      "lead": "Provisional until December.",
+      "text": "The SNB says only provisional conclusions are possible on the annual result. Its allocation to currency reserve provisions is set at the end of the year."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "31 December 2026",
+    "what": "Gold in francs against CHF 110,919, the end-2025 price. The test: below it, the year's gold line turns to a loss."
+   },
+   {
+    "when": "After 31 December 2026",
+    "what": "The SNB's full-year gold valuation line, set at the end of the year. The test: whether it stays above zero after October's fall in dollar gold."
+   }
+  ],
+  "depth": {
+   "reverse": "A year-end franc gold price below CHF 110,919 a kilogram would turn the nine-month gain into a loss for the year, with volume unchanged.",
+   "built": {
+    "title": "How the gold line moves",
+    "text": "The SNB reports a valuation gain or loss on gold holdings that were unchanged in volume. The line therefore moves with the franc gold price between reporting dates."
+   },
+   "method": "Swiss National Bank, 'Interim results of the Swiss National Bank as at 30 September 2026', ad hoc announcement dated '30 October 2026' in the body; fetched by the Editor on 31 October 2026, door.py 200, 72,832 bytes (newsroom/sources/2026-10-31/desk/pre_20261030.html, the Bureau's count was the same). Tag-stripped text: 'profit of CHF 44.2 billion', 'CHF 43.3 billion', 'valuation gain of CHF 1.2 billion', 'unchanged in volume terms', 'CHF 112,118 per kilogram', 'end-2025: CHF 110,919', 'CHF 29.8 billion', 'CHF 23.7 billion', 'CHF 22.6 billion', 'only provisional conclusions are possible' each read in its sentence. Half-year release 'as at 30 June 2026', dated '31 July 2026' (the Bureau's capture, 72,781 bytes, newsroom/bureau/raw/2026-10-31/snb-h1.html): 'profit of CHF 25.2 billion', 'CHF 31.7 billion', 'valuation loss of CHF 6.4 billion', 'CHF 104,812 per kilogram at the end of June 2026'. Arithmetic, ours: 1.2 − (−6.4) = 7.6; 44.2 − 25.2 = 19.0; 43.3 − 31.7 = 11.6; 112,118 / 104,812 = 1.0697 -> +7.0%; 112,118 − 104,812 = 7,306; 7.6bn / 7,306 = 1.04m kg; on the SNB's one-decimal rounding (7.55 to 7.65) the range is about 1,033 to 1,047 tonnes; the nine-month check, 1.2bn / (112,118 − 110,919 = 1,199) = 1.0m kg, agrees within its wider rounding. Components do not sum: 43.3 + 1.2 + 0.1 = 44.6 against 44.2; 31.7 − 6.4 + 0.1 = 25.4 against 25.2; no share of profit is printed. Dollar gold: tape 30 September 2026 gold_spot 4,191.6 (Kitco); tape 31 October 2026 gold_spot 3,874.4, Kitco bid, originalTime 2026-10-30T17:00:00Z, Friday's New York close; 3,874.4 / 4,191.6 = 0.9243 -> 7.6% lower. No franc rate was read, so no franc price for October is given. English wires carried the results on 30 October; a CNBC headline figure of $23 billion is not in the release and is not used. Source verbs: the SNB says 'reports', 'recorded', 'remained unchanged'; this page says recorded, books, reports. ARCHIVE, by entity: 'Swiss National Bank' 0 rows and 'SNB' 0 hits in website/content/articles.json (archive-hits.py and a substring search, the Bureau, 31 Oct). Ours: nothing on the SNB | new: nine months to 30 September 2026: NEW.",
+   "prior": [
+    {
+     "date": "2026-10-30",
+     "slug": "agnico-eagle-output-falls-6-1-percent-in-q3",
+     "claim": "Agnico Eagle's Q3 output falls 6.1% as realised gold rises 22.7%."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Swiss National Bank, Interim results as at 30 September 2026",
+     "url": "https://www.snb.ch/en/publications/communication/press-releases/2026/pre_20261030",
+     "published": "2026-10-30"
+    },
+    {
+     "title": "Swiss National Bank, Interim results as at 30 June 2026",
+     "url": "https://www.snb.ch/en/publications/communication/press-releases/2026/pre_20260731",
+     "published": "2026-07-31"
+    }
+   ]
+  },
+  "next": {
+   "slug": "agnico-eagle-output-falls-6-1-percent-in-q3",
+   "why": "A miner's third quarter, on the same gold price."
+  },
+  "corrections": []
+ },
+ "cartier-sapphire-ring-makes-205400-euros-at-bonhams-paris": {
+  "v": 3,
+  "kicker": "Sapphire at auction",
+  "figures": {
+   "asof": "Bonhams press release, 30 October 2026, for its Paris Fine Jewellery sale of 29 October 2026. Ratios are Carat Capital's division.",
+   "cells": [
+    {
+     "n": "€205,400",
+     "dir": "up",
+     "label": "Cartier sapphire ring",
+     "q": "estimate €40,000–60,000",
+     "src": 0
+    },
+    {
+     "n": "3.4×",
+     "dir": "up",
+     "label": "Against high estimate",
+     "q": "CC division, 205,400/60,000",
+     "src": 0
+    },
+    {
+     "n": "€83,800",
+     "dir": "up",
+     "label": "Cartier rose brooch",
+     "q": "c.1940, estimate €15,000–20,000",
+     "src": 0
+    },
+    {
+     "n": "€64,600",
+     "dir": "flat",
+     "label": "Paraiba-type pendant",
+     "q": "inside €60,000–80,000",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "The sapphire led.",
+   "text": "Bonhams says a Cartier ring with an 11.5-carat Madagascan sapphire was the top lot of its Paris sale on 29 October. It made €205,400."
+  },
+  "means": [
+   {
+    "who": "If you buy sapphire:",
+    "text": "Two sapphires described with no indications of treatment made 3.4 and 1.8 times their high estimates."
+   },
+   {
+    "who": "If you consign signed jewels:",
+    "text": "Five of the six named lots beat their high estimates; the tourmaline did not."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A sale total. Bonhams gives none, nor a share of lots sold."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Six lots Bonhams names, against estimate",
+   "hi": 0,
+   "asof": "Bonhams press release, 30 October 2026",
+   "cols": [
+    "Lot",
+    "Result, €",
+    "Estimate, €",
+    "Result ÷ high"
+   ],
+   "rows": [
+    [
+     "Cartier sapphire ring, 11.5 ct",
+     "205,400",
+     "40,000–60,000",
+     "3.4×"
+    ],
+    [
+     "Cartier rose brooch, c.1940",
+     "83,800",
+     "15,000–20,000",
+     "4.2×"
+    ],
+    [
+     "Kat Florence tourmaline pendant, 81.17 ct",
+     "64,600",
+     "60,000–80,000",
+     "0.8×"
+    ],
+    [
+     "Diamond ring, 4.23 ct",
+     "46,680",
+     "23,000–33,000",
+     "1.4×"
+    ],
+    [
+     "Sapphire, pearl and diamond necklace",
+     "46,680",
+     "16,000–26,000",
+     "1.8×"
+    ],
+    [
+     "Lacloche Frères ruby necklace, c.1912",
+     "32,500",
+     "6,000–10,000",
+     "3.3×"
+    ]
+   ],
+   "note": "Results as Bonhams states them; the release does not say whether they include buyer's premium. The last column is Carat Capital's division, rounded.",
+   "plate": "CC/2026/343"
+  },
+  "sections": [
+   {
+    "h": "Sapphires without treatment indications led.",
+    "p": [
+     {
+      "lead": "No treatment indicated.",
+      "text": "Bonhams describes the oval 11.5-carat 'Royal Blue' stone as Madagascan, with no indications of treatment. Its estimate was €40,000 to €60,000."
+     },
+     {
+      "lead": "Sri Lanka followed.",
+      "text": "A necklace with a colour-change Sri Lankan sapphire of about 22 carats made €46,680, 1.8 times its high estimate. Bonhams describes that stone the same way."
+     }
+    ]
+   },
+   {
+    "h": "The preview's lead sold inside estimate.",
+    "p": [
+     {
+      "lead": "Paraiba within range.",
+      "text": "The 81.17-carat Paraiba-type tourmaline pendant led Carat Capital's 10 October preview. It made €64,600, inside its €60,000 to €80,000 estimate."
+     },
+     {
+      "lead": "Chaumet not listed.",
+      "text": "The preview's 12.5-carat Chaumet sapphire, estimated at €45,000 to €65,000, is not among the results Bonhams names."
+     }
+    ]
+   },
+   {
+    "h": "Older signed pieces beat estimates.",
+    "p": [
+     {
+      "lead": "Brooch at 4.2 times.",
+      "text": "A Cartier rose brooch in ruby, emerald and diamond, from about 1940, made €83,800. It came from the collection of the milliner Madame Paulette."
+     },
+     {
+      "lead": "Lacloche well above.",
+      "text": "A Lacloche Frères ruby and diamond necklace from about 1912 made €32,500 against €6,000 to €10,000."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "11 November 2026",
+    "what": "Sotheby's Geneva, where a 69.44-carat Ceylon sapphire listed as unheated is estimated at CHF 580,000 to 750,000. The test: a result above the high estimate."
+   }
+  ],
+  "depth": {
+   "reverse": "A full lot list showing many lots unsold or below estimate would change this call. Bonhams names only six results.",
+   "built": {
+    "title": "Estimate against result",
+    "text": "An estimate is the house's pre-sale range. Dividing the result by the high estimate shows how far bidding ran past it; a figure under 1.0 means the lot sold inside or below the range."
+   },
+   "method": "Bonhams, press release 41838, header 'Fine Jewellery, Paris 29 Oct 2026', listed in the Bonhams press RSS with pubDate 30 October 2026 11:16 UTC (the Bureau's capture, 899,995 bytes). Fetched by the Editor on 31 October 2026, door.py 200, 44,470 bytes (newsroom/sources/2026-10-31/desk/41838.html; the Bureau's count was the same). Tag-stripped text: 'The top lot was a Cartier sapphire and diamond ring', 'weighing 11.5 carats with no indications of treatment', '€205,400', '€40,000–60,000', '€83,800', '€15,000–20,000', 'Madame Paulette', '81.17 carats', '€64,600', '€60,000–80,000', '4.23 carats', '€46,680' (two lots), '€23,000-33,000', '€16,000-26,000', 'approximately 22 carats, with no indications of any treatment', '€32,500', '€6,000-10,000' each read in its sentence. The release says the sapphire made 'five times its pre-sale estimate'; that is the low-estimate ratio (205,400 / 40,000 = 5.1) and is not used. Arithmetic, ours: 205,400 / 60,000 = 3.42; 83,800 / 20,000 = 4.19; 64,600 / 80,000 = 0.81; 46,680 / 33,000 = 1.41; 46,680 / 26,000 = 1.80; 32,500 / 10,000 = 3.25, shown as 3.3. The release gives no sale total, no sell-through and no premium basis, and names no laboratory report; 'untreated' and 'no indications of treatment' are the house's descriptions. The Chaumet 12.5-carat sapphire (estimate €45,000 to €65,000 in the 10 October preview) is not in the release: no result for it is printed. One quotation from a Bonhams specialist is in the release and is not used. Source verbs: the house says 'achieved', 'realised', 'exceeded'; this page says made and beat. ARCHIVE, by entity: 'Bonhams' 20 rows in website/content/articles.json (the Bureau, 31 Oct); the 10 October preview, eighty-one-carats-of-paraiba-in-paris, opened and read. Ours: preview of the 29 October sale, 10 October | new: its results: ADVANCED.",
+   "prior": [
+    {
+     "date": "2026-10-10",
+     "slug": "eighty-one-carats-of-paraiba-in-paris",
+     "claim": "An 81.17-carat Paraiba-type tourmaline leads Bonhams Paris at €60,000 to €80,000."
+    },
+    {
+     "date": "2026-10-30",
+     "slug": "8-63-carat-pink-leads-sothebys-geneva",
+     "claim": "Sotheby's Geneva lists Ceylon sapphires as unheated for 11 November."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Bonhams, press release, Fine Jewellery, Paris, 29 October 2026",
+     "url": "https://www.bonhams.com/press_release/41838/",
+     "published": "2026-10-30"
+    }
+   ]
+  },
+  "next": {
+   "slug": "eighty-one-carats-of-paraiba-in-paris",
+   "why": "The preview of this sale, and the lot it put first."
   },
   "corrections": []
  }
