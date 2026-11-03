@@ -1,21 +1,21 @@
 {
  "date_line": "Sunday, October 18, 2026 | Vol. I - No. 090",
- "edition": "Vol. I - No. 101",
+ "edition": "Vol. I - No. 102",
  "items": [
   {
-   "slug": "lao-feng-xiang-ends-september-with-4809-outlets",
-   "desk": "Retail & Technology",
-   "title": "Lao Feng Xiang ends September with 4,809 outlets, down 107 in Q3"
-  },
-  {
-   "slug": "snb-books-1-2-billion-gold-gain-after-h1-loss",
+   "slug": "central-banks-buy-321-tonnes-of-gold-in-q3",
    "desk": "Gold & Metals",
-   "title": "SNB books CHF 1.2bn gold gain after a CHF 6.4bn loss in H1"
+   "title": "Central banks buy 321.2t of gold in Q3; jewellery down 17% on year"
   },
   {
-   "slug": "cartier-sapphire-ring-makes-205400-euros-at-bonhams-paris",
-   "desk": "Gemstones",
-   "title": "Cartier 11.5-ct sapphire ring makes €205,400 at Bonhams Paris"
+   "slug": "fca-suspends-petra-diamonds-listing",
+   "desk": "Diamonds & Rough",
+   "title": "FCA suspends Petra Diamonds' listing with its audit unfinished"
+  },
+  {
+   "slug": "phillips-offers-cartier-portico-clock-no-4",
+   "desk": "Watches",
+   "title": "Phillips estimates Cartier Portico clock No. 4 at CHF 1.8m to 3.2m"
   }
  ],
  "tape_ts": "Kitco bid, board stamp 2026-10-30T17:00:00Z, tape's 05:00 ET opening mark 31 Oct",
@@ -116,5 +116,5 @@
    ]
   }
  ],
- "editionDate": "2026-10-31"
+ "editionDate": "2026-11-03"
 }

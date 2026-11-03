@@ -150392,7 +150392,7 @@
     "title": "What realised price means",
     "text": "Realised price is the average a miner received for each ounce it sold in the period. It reflects when the ounces were sold, so it differs from spot on any single day."
    },
-   "method": "Agnico Eagle Mines, MD&A for the three and nine months ended 30 September 2026, Form 6-K Exhibit 99.1, accession 0001104659-26-119671, dated 'October 28, 2026'. Captured by the Bureau at 04:31 EDT 30 October 2026 with the identifying header (door.py 200, 3,350,995 bytes, newsroom/bureau/raw/2026-10-30/agnico-ex99.htm); the Editor re-fetched it at 06:09 EDT with the identifying header (200, 3,350,995 bytes, identical by cmp; the browser identity got 403, 4,819 bytes) and grepped the raw bytes: '814,012' 4 hits, '866,936' 4, '4,264' 2, '3,476' 2, '3,583,609' 5, '3,059,529' 5, '1,352,874' 11, '1,054,958' 11, '22.7%' 1, '111,202' 4, '156,875' 4, '29.1%' 1, '1,260' 2, '1,187' 1, 'low end of the range of 3.3' 1. The statements are headed 'thousands of United States dollars'; 3,583,609 thousand / 4,264 = about 840,000 ounces sold, consistent with output. Arithmetic: 814,012 / 866,936 = 0.9390 -> 6.1% below; 3,583,609 / 3,059,529 = 1.1713 -> +17.1%; 1,352,874 / 1,054,958 = 1.2824 -> +28.2%; tape 3,995.6 / 4,264 = 0.9371 -> 6.3% under. Spot gold is the tape's 05:00 EDT 30 October mark (Kitco bid). Causes as the company gives them: group output fell 'primarily due to decreased production at Canadian Malartic following the rock mass movement on July 1, 2026 and at Meadowbank'; Malartic fell 'primarily due to lower grades, as the Company supplemented the mill feed with lower-grade stockpiles, and lower throughput'. The Barnat reductions of 60,000 to 80,000 ounces in H2 2026 and up to 150,000 ounces in each of 2027 and 2028 were 'reported on July 2, 2026' and are not new. English-language press carried the results on 28 and 29 October. Source verbs: Agnico says 'decreased', 'increased', 'remains at the low end', 'expected to be near the upper end'; this page says fell, rose, expects. ARCHIVE: 'Agnico' 0 rows and 'Malartic' 0 rows in website/content/articles.json (archive-hits.py, the Bureau, 30 Oct; python over titles and deks, the Editor, 30 Oct). Ours: nothing on Agnico | new: Q3 2026: NEW.",
+   "method": "Agnico Eagle Mines, MD&A for the three and nine months ended 30 September 2026, Form 6-K Exhibit 99.1, accession 0001104659-26-119671, dated 'October 28, 2026'. Captured by the Bureau at 04:31 EDT 30 October 2026 with the identifying header (door.py 200, 3,350,995 bytes, newsroom/bureau/raw/2026-10-30/agnico-ex99.htm); the Editor re-fetched it at 06:09 EDT with the identifying header (200, 3,350,995 bytes, identical by cmp; the browser identity got 403, 4,819 bytes) and grepped the raw bytes: '814,012' 4 hits, '866,936' 4, '4,264' 2, '3,476' 2, '3,583,609' 5, '3,059,529' 5, '1,352,874' 11, '1,054,958' 11, '22.7%' 1, '111,202' 4, '156,875' 4, '29.1%' 1, '1,260' 2, '1,187' 1, 'low end of the range of 3.3' 1. The statements are headed 'thousands of United States dollars'; 3,583,609 thousand / 4,264 = about 840,000 ounces, an upper bound only: revenue from mining includes silver and other by-products, so the division overstates gold ounces sold and is not a check on output. Arithmetic: 814,012 / 866,936 = 0.9390 -> 6.1% below; 3,583,609 / 3,059,529 = 1.1713 -> +17.1%; 1,352,874 / 1,054,958 = 1.2824 -> +28.2%; tape 3,995.6 / 4,264 = 0.9371 -> 6.3% under. Spot gold is the tape's 05:00 EDT 30 October mark (Kitco bid). Causes as the company gives them: group output fell 'primarily due to decreased production at Canadian Malartic following the rock mass movement on July 1, 2026 and at Meadowbank'; Malartic fell 'primarily due to lower grades, as the Company supplemented the mill feed with lower-grade stockpiles, and lower throughput'. The Barnat reductions of 60,000 to 80,000 ounces in H2 2026 and up to 150,000 ounces in each of 2027 and 2028 were 'reported on July 2, 2026' and are not new. English-language press carried the results on 28 and 29 October. Source verbs: Agnico says 'decreased', 'increased', 'remains at the low end', 'expected to be near the upper end'; this page says fell, rose, expects. ARCHIVE: 'Agnico' 0 rows and 'Malartic' 0 rows in website/content/articles.json (archive-hits.py, the Bureau, 30 Oct; python over titles and deks, the Editor, 30 Oct). Ours: nothing on Agnico | new: Q3 2026: NEW.",
    "prior": [
     {
      "date": "2026-10-25",
@@ -150413,7 +150413,8 @@
     }
    ],
    "corrections": [
-    "Clarified, 31 October 2026: the guidance cell read 'payable, now the low end'. Agnico Eagle says 2026 payable production 'remains' at the low end of 3.3 to 3.5 million ounces; the guidance did not move. The cell now reads 'payable, unchanged at the low end'. What was right as published: 3.3 to 3.5 million ounces, the low end, and every other figure. Found by Carat Capital's Standards desk on 30 October 2026."
+    "Clarified, 31 October 2026: the guidance cell read 'payable, now the low end'. Agnico Eagle says 2026 payable production 'remains' at the low end of 3.3 to 3.5 million ounces; the guidance did not move. The cell now reads 'payable, unchanged at the low end'. What was right as published: 3.3 to 3.5 million ounces, the low end, and every other figure. Found by Carat Capital's Standards desk on 30 October 2026.",
+    "Clarified, 3 November 2026: the Method divided revenue by the realised gold price and called the result, about 840,000 ounces, 'consistent with output'. Revenue includes silver and other by-products, so the division overstates gold ounces; the Method now says so. No printed figure changed. Raised by Carat Capital's Standards desk on 30 October 2026."
    ]
   },
   "next": {
@@ -150643,7 +150644,7 @@
    },
    {
     "who": "If you price in dollars:",
-    "text": "Dollar gold on the tape fell 7.6% from its 30 September mark to $3,874.40 at Friday's close."
+    "text": "Dollar gold on the tape fell 7.6% from its 30 September intraday read to $3,874.40 at Friday's close."
    },
    {
     "who": "What this is not:",
@@ -150749,7 +150750,7 @@
     "title": "How the gold line moves",
     "text": "The SNB reports a valuation gain or loss on gold holdings that were unchanged in volume. The line therefore moves with the franc gold price between reporting dates."
    },
-   "method": "Swiss National Bank, 'Interim results of the Swiss National Bank as at 30 September 2026', ad hoc announcement dated '30 October 2026' in the body; fetched by the Editor on 31 October 2026, door.py 200, 72,832 bytes (newsroom/sources/2026-10-31/desk/pre_20261030.html, the Bureau's count was the same). Tag-stripped text: 'profit of CHF 44.2 billion', 'CHF 43.3 billion', 'valuation gain of CHF 1.2 billion', 'unchanged in volume terms', 'CHF 112,118 per kilogram', 'end-2025: CHF 110,919', 'CHF 29.8 billion', 'CHF 23.7 billion', 'CHF 22.6 billion', 'only provisional conclusions are possible' each read in its sentence. Half-year release 'as at 30 June 2026', dated '31 July 2026' (the Bureau's capture, 72,781 bytes, newsroom/bureau/raw/2026-10-31/snb-h1.html): 'profit of CHF 25.2 billion', 'CHF 31.7 billion', 'valuation loss of CHF 6.4 billion', 'CHF 104,812 per kilogram at the end of June 2026'. Arithmetic, ours: 1.2 − (−6.4) = 7.6; 44.2 − 25.2 = 19.0; 43.3 − 31.7 = 11.6; 112,118 / 104,812 = 1.0697 -> +7.0%; 112,118 − 104,812 = 7,306; 7.6bn / 7,306 = 1.04m kg; on the SNB's one-decimal rounding (7.55 to 7.65) the range is about 1,033 to 1,047 tonnes; the nine-month check, 1.2bn / (112,118 − 110,919 = 1,199) = 1.0m kg, agrees within its wider rounding. Components do not sum: 43.3 + 1.2 + 0.1 = 44.6 against 44.2; 31.7 − 6.4 + 0.1 = 25.4 against 25.2; no share of profit is printed. Dollar gold: tape 30 September 2026 gold_spot 4,191.6 (Kitco); tape 31 October 2026 gold_spot 3,874.4, Kitco bid, originalTime 2026-10-30T17:00:00Z, Friday's New York close; 3,874.4 / 4,191.6 = 0.9243 -> 7.6% lower. No franc rate was read, so no franc price for October is given. English wires carried the results on 30 October; a CNBC headline figure of $23 billion is not in the release and is not used. Source verbs: the SNB says 'reports', 'recorded', 'remained unchanged'; this page says recorded, books, reports. ARCHIVE, by entity: 'Swiss National Bank' 0 rows and 'SNB' 0 hits in website/content/articles.json (archive-hits.py and a substring search, the Bureau, 31 Oct). Ours: nothing on the SNB | new: nine months to 30 September 2026: NEW.",
+   "method": "Swiss National Bank, 'Interim results of the Swiss National Bank as at 30 September 2026', ad hoc announcement dated '30 October 2026' in the body; fetched by the Editor on 31 October 2026, door.py 200, 72,832 bytes (newsroom/sources/2026-10-31/desk/pre_20261030.html, the Bureau's count was the same). Tag-stripped text: 'profit of CHF 44.2 billion', 'CHF 43.3 billion', 'valuation gain of CHF 1.2 billion', 'unchanged in volume terms', 'CHF 112,118 per kilogram', 'end-2025: CHF 110,919', 'CHF 29.8 billion', 'CHF 23.7 billion', 'CHF 22.6 billion', 'only provisional conclusions are possible' each read in its sentence. Half-year release 'as at 30 June 2026', dated '31 July 2026' (the Bureau's capture, 72,781 bytes, newsroom/bureau/raw/2026-10-31/snb-h1.html): 'profit of CHF 25.2 billion', 'CHF 31.7 billion', 'valuation loss of CHF 6.4 billion', 'CHF 104,812 per kilogram at the end of June 2026'. Arithmetic, ours: 1.2 − (−6.4) = 7.6; 44.2 − 25.2 = 19.0; 43.3 − 31.7 = 11.6; 112,118 / 104,812 = 1.0697 -> +7.0%; 112,118 − 104,812 = 7,306; 7.6bn / 7,306 = 1.04m kg; on the SNB's one-decimal rounding (7.55 to 7.65) the range is about 1,033 to 1,047 tonnes; the nine-month check, 1.2bn / (112,118 − 110,919 = 1,199) = 1.0m kg, agrees within its wider rounding. Components do not sum: 43.3 + 1.2 + 0.1 = 44.6 against 44.2; 31.7 − 6.4 + 0.1 = 25.4 against 25.2; no share of profit is printed. Dollar gold: tape 30 September 2026 gold_spot 4,191.6 (Kitco, sessionStatus intraday, read 04:58Z); tape 31 October 2026 gold_spot 3,874.4, Kitco bid, originalTime 2026-10-30T17:00:00Z, Friday's New York close; 3,874.4 / 4,191.6 = 0.9243 -> 7.6% lower. No franc rate was read, so no franc price for October is given. English wires carried the results on 30 October; a CNBC headline figure of $23 billion is not in the release and is not used. Source verbs: the SNB says 'reports', 'recorded', 'remained unchanged'; this page says recorded, books, reports. ARCHIVE, by entity: 'Swiss National Bank' 0 rows and 'SNB' 0 hits in website/content/articles.json (archive-hits.py and a substring search, the Bureau, 31 Oct). Ours: nothing on the SNB | new: nine months to 30 September 2026: NEW.",
    "prior": [
     {
      "date": "2026-10-30",
@@ -150768,6 +150769,9 @@
      "url": "https://www.snb.ch/en/publications/communication/press-releases/2026/pre_20260731",
      "published": "2026-07-31"
     }
+   ],
+   "corrections": [
+    "Clarified, 3 November 2026: the dollar line said gold fell 7.6% 'from its 30 September mark'. That mark was the tape's intraday read of 30 September, not a close, and the line now says so. What was right as published: the 7.6% and $3,874.40. Raised by Carat Capital's Managing Editor on 31 October 2026."
    ]
   },
   "next": {
@@ -150959,6 +150963,549 @@
   "next": {
    "slug": "eighty-one-carats-of-paraiba-in-paris",
    "why": "The preview of this sale, and the lot it put first."
+  },
+  "corrections": []
+ },
+ "central-banks-buy-321-tonnes-of-gold-in-q3": {
+  "v": 3,
+  "kicker": "Gold demand",
+  "figures": {
+   "asof": "World Gold Council, Gold Demand Trends Q3 2026, released 3 November 2026; data to 30 September. Spot gold: Carat Capital tape, Kitco bid, 13:51 EST 3 November.",
+   "cells": [
+    {
+     "n": "321.2t",
+     "dir": "up",
+     "label": "Central bank buying",
+     "q": "Q3, +42% on the year",
+     "src": 0
+    },
+    {
+     "n": "312.9t",
+     "dir": "down",
+     "label": "Jewellery consumption",
+     "q": "Q3, weakest third quarter in the series",
+     "src": 0
+    },
+    {
+     "n": "211.2t",
+     "dir": "up",
+     "label": "ETF inflows",
+     "q": "Q3, after a 47.3t outflow in Q2",
+     "src": 0
+    },
+    {
+     "n": "1,368.6t",
+     "dir": "down",
+     "label": "Total demand, incl. OTC",
+     "q": "Q3, −1% on the year",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Central banks carried Q3.",
+   "text": "Central banks bought 321.2 tonnes of gold in the third quarter, up 42% on the year. Total demand slipped 1%, the World Gold Council says."
+  },
+  "means": [
+   {
+    "who": "If you restock for the holidays:",
+    "text": "Jewellery took 312.9 tonnes, the weakest Q3 in the series; its value rose 2% to $43bn."
+   },
+   {
+    "who": "If you price off gold:",
+    "text": "The tape's $3,926.50, at 13:51 EST on 3 November, sits 7.9% under the Q3 LBMA average of $4,262.2."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A record year: nine-month demand is 3 tonnes short of 2025's."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Gold demand by sector, tonnes, Q3 2025 against Q3 2026",
+   "hi": 3,
+   "asof": "World Gold Council, Gold Demand Trends Q3 2026, Table 1, 3 November 2026",
+   "cols": [
+    "Sector",
+    "Q3 2025",
+    "Q3 2026",
+    "Change"
+   ],
+   "rows": [
+    [
+     "Jewellery consumption",
+     "376.4",
+     "312.9",
+     "−17%"
+    ],
+    [
+     "Bar and coin",
+     "328.6",
+     "267.8",
+     "−19%"
+    ],
+    [
+     "ETFs and similar",
+     "225.7",
+     "211.2",
+     "−6%"
+    ],
+    [
+     "Central banks and other institutions",
+     "226.3",
+     "321.2",
+     "+42%"
+    ],
+    [
+     "Technology",
+     "82.0",
+     "84.8",
+     "+3%"
+    ],
+    [
+     "OTC and other",
+     "100.6",
+     "143.5",
+     "+43%"
+    ],
+    [
+     "Total demand",
+     "1,383.2",
+     "1,368.6",
+     "−1%"
+    ]
+   ],
+   "note": "Q3 2025 as given in the council's 3 November table; its July table gave Q3 2025 total demand as 1,370.6 tonnes. Changes as printed by the council.",
+   "plate": "CC/2026/344"
+  },
+  "sections": [
+   {
+    "h": "Investment split in two.",
+    "p": [
+     {
+      "lead": "ETFs turned back.",
+      "text": "Gold ETFs and similar products added 211.2 tonnes after an outflow of 47.3 tonnes in Q2. The council ties the inflow to concerns over fiscal sustainability and inflation."
+     },
+     {
+      "lead": "Bars and coins fell.",
+      "text": "Bar and coin demand fell 19% on the year to 267.8 tonnes. The council says investors waited for a clearer price trend."
+     }
+    ]
+   },
+   {
+    "h": "Q2 reads lower than in July.",
+    "p": [
+     {
+      "lead": "The total was revised.",
+      "text": "The council's July table put Q2 total demand at 1,268.9 tonnes. Its 3 November table gives 1,254.5 tonnes for the same quarter."
+     },
+     {
+      "lead": "Central banks revised up.",
+      "text": "Q2 central bank buying now reads 296.3 tonnes, against 288.9 in July. Q3's figure is the highest of the five quarters in the new table."
+     }
+    ]
+   },
+   {
+    "h": "Mines set a record.",
+    "p": [
+     {
+      "lead": "Output rose 3%.",
+      "text": "Mine production rose 3% to 1,070.9 tonnes, a third-quarter record, the council says. Recycling fell 8% to 314.5 tonnes, a three-year low."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "7 November 2026",
+    "what": "The People's Bank of China's October reserve figures. The test: whether official buying carries into the fourth quarter."
+   },
+   {
+    "when": "Q4 2026 report, early 2027",
+    "what": "The council's full-year count. The test: whether central bank buying at least matches 2025, as the council expects."
+   }
+  ],
+  "depth": {
+   "reverse": "A fourth quarter in which official buying falls back toward Q1 2026's 57.7 tonnes would test the council's view that the year's central bank buying at least matches 2025.",
+   "built": {
+    "title": "How the council counts demand",
+    "text": "Total demand adds jewellery, technology, investment and central bank buying, plus an 'OTC and other' line. In this table total demand equals total supply in every quarter."
+   },
+   "method": "World Gold Council, 'Gold Demand Trends Q3 2026', page dated '3 November, 2026' (1 hit). Fetched by the Editor at about 14:20 EST 3 November 2026 with tools/door.py, 200, 87,353 bytes (newsroom/sources/2026-11-03/desk/wgc.html), the same byte count as the Bureau's 13:52 capture. Table 1 read from the tag-stripped text: Q3'26 central banks 321.2, jewellery consumption 312.9, bar and coin 267.8, ETFs 211.2, technology 84.8, OTC and other 143.5, total demand 1,368.6, mine production 1,070.9, recycled 314.5, LBMA price 4,262.2; Q3'25 226.3, 376.4, 328.6, 225.7, 82.0, 100.6, 1,383.2; Q1'26 central banks 57.7; Q2'26 total 1,254.5, central banks 296.3, ETFs −47.3. Text: 'Central bank buying jumped to 321t', 'Jewellery demand fell 17% y/y to 313t, the weakest third quarter in our data series', 'Demand value edged up 2% y/y to US$43bn', 'demand of 3,881t virtually matches the 2025 record (3,884t)', 'investors waited for a clearer price trend to emerge', 'mounting concerns over fiscal sustainability and inflation', 'a third quarter record', 'a three-year low of 314t', 'Central bank buying likely to at least match 2025'. Grep of the raw bytes, single-quoted: '1,368.6' 2, '321.2' 1, '312.9' 1, '211.2' 1, '267.8' 1, '4,262.2' 1, '1,254.5' 2, '296.3' 1. Q2 as first published: the council's Q2 2026 page, fetched 14:25 EST with door.py, 200, 86,782 bytes (wgc-q2.html), Table 1 Q2'26 total demand 1,268.9, central banks 288.9, Q3'25 total 1,370.6. Arithmetic, ours: 321.2 / 226.3 = 1.419 -> +42%; 312.9 / 376.4 = 0.831 -> −17%; 1,368.6 / 1,383.2 = 0.989 -> −1%; 3,884 − 3,881 = 3; tape gold 3,926.5 (Kitco bid, 13:51 EST 3 November, newsroom/tape/2026-11-03.json, the tape's intraday read, not a close) / 4,262.2 = 0.921 -> 7.9% below. Not used: a Reuters headline of 3 November saying the council lowered its outlook for investment demand growth; its body was not read, and the council's own outlook says ETF, bar and coin demand will 'remain resilient'. Source verbs: the council says 'jumped', 'fell', 'edged up', 'adding'; this page says bought, fell, rose, added. ARCHIVE, by entity: 'Gold Demand Trends' 2 hits and 'World Gold Council' 21 hits in website/content/articles.json (tools/archive-hits.py, 3 November); the two Q2 pieces of 31 July and 2 August opened. Ours: Q2 2026 | new: Q3 2026: NEW, same series, new period.",
+   "prior": [
+    {
+     "date": "2026-08-02",
+     "slug": "record-quarter-weakest-half",
+     "claim": "Central banks bought 289 tonnes in Q2, by the council's July count."
+    },
+    {
+     "date": "2026-07-31",
+     "slug": "two-seventy-eight-tonnes",
+     "claim": "Q2 jewellery demand was 278 tonnes, down 17%."
+    }
+   ],
+   "sources": [
+    {
+     "title": "World Gold Council, Gold Demand Trends Q3 2026",
+     "url": "https://www.gold.org/goldhub/research/gold-demand-trends/gold-demand-trends-q3-2026",
+     "published": "2026-11-03"
+    },
+    {
+     "title": "World Gold Council, Gold Demand Trends Q2 2026",
+     "url": "https://www.gold.org/goldhub/research/gold-demand-trends/gold-demand-trends-q2-2026",
+     "published": "2026-07-30"
+    }
+   ]
+  },
+  "next": {
+   "slug": "snb-books-1-2-billion-gold-gain-after-h1-loss",
+   "why": "A central bank's gold, valued in francs."
+  },
+  "corrections": []
+ },
+ "fca-suspends-petra-diamonds-listing": {
+  "v": 3,
+  "kicker": "Diamond miners",
+  "figures": {
+   "asof": "Petra Diamonds, Suspension of Listing and Trading, 2 November 2026; TR-1 holding notices of 19 and 22 October 2026.",
+   "cells": [
+    {
+     "n": "07:30",
+     "dir": "down",
+     "label": "Shares suspended",
+     "q": "UK time, 2 November, listing and trading",
+     "src": 0
+    },
+    {
+     "n": "31 Oct",
+     "dir": "flat",
+     "label": "Report deadline missed",
+     "q": "year to 30 June 2026, DTR 4.1.3R",
+     "src": 0
+    },
+    {
+     "n": "27.04%",
+     "dir": "flat",
+     "label": "Terris Fund",
+     "q": "voting rights, notified 22 October",
+     "src": 2
+    },
+    {
+     "n": "13.93%",
+     "dir": "down",
+     "label": "Azvalor",
+     "q": "voting rights, 16 October, from 15.02%",
+     "src": 3
+    }
+   ]
+  },
+  "changed": {
+   "lead": "The suspension took effect.",
+   "text": "The FCA suspended Petra Diamonds' listing at 07:30 UK time on 2 November, and London trading stopped with it. Petra had warned of this on 22 October."
+  },
+  "means": [
+   {
+    "who": "If you hold Petra shares:",
+    "text": "Trading has stopped. Petra will seek a return after publishing, subject to the FCA and the exchange."
+   },
+   {
+    "who": "If you buy Cullinan goods:",
+    "text": "The notice concerns the listing and the accounts. It names no change at the mine."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A finding on the accounts. Petra says only that the audit remains in progress."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Petra's two largest notified holders, October filings",
+   "hi": 0,
+   "asof": "TR-1 forms published through Investegate, 19 and 22 October 2026",
+   "cols": [
+    "Holder",
+    "Voting rights",
+    "Previous notice",
+    "Threshold date"
+   ],
+   "rows": [
+    [
+     "The Terris Fund, Nassau",
+     "27.04%",
+     "28.30%",
+     "1 Jul 2026"
+    ],
+    [
+     "Azvalor Asset Management, Madrid",
+     "13.93%",
+     "15.02%",
+     "16 Oct 2026"
+    ]
+   ],
+   "note": "Percentages of voting rights as filed (27.040000, 28.302660, 13.934000, 15.018400), rounded to two places by Carat Capital. Terris notified Petra on 22 October, Azvalor on 19 October.",
+   "plate": "CC/2026/345"
+  },
+  "sections": [
+   {
+    "h": "Restoration is not automatic.",
+    "p": [
+     {
+      "lead": "Audit still running.",
+      "text": "Petra says the group audit remains in progress, past the 31 October deadline. It is working with its auditors to publish as soon as practicable."
+     },
+     {
+      "lead": "Two approvals needed.",
+      "text": "Petra intends to seek a return to listing and trading after it publishes. That needs the agreement of the FCA and the London Stock Exchange."
+     }
+    ]
+   },
+   {
+    "h": "Two large holders filed in October.",
+    "p": [
+     {
+      "lead": "Terris holds 27.04%.",
+      "text": "The Terris Fund, of Nassau, notified Petra on 22 October that it holds 27.04% of voting rights. Its form gives the reason as a change in the breakdown of voting rights."
+     },
+     {
+      "lead": "Azvalor's stake fell.",
+      "text": "Azvalor Asset Management, of Madrid, held 13.93% on 16 October, against 15.02% in its previous notice. Its form cites an acquisition or disposal, and a change in the breakdown."
+     }
+    ]
+   },
+   {
+    "h": "The loan notes go unnamed.",
+    "p": [
+     {
+      "lead": "Dublin notes unmentioned.",
+      "text": "Petra's loan notes due 2030 are listed on Euronext Dublin. The suspension notice names the ordinary shares only and says nothing about the notes."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "No date set by Petra",
+    "what": "Publication of the annual report for the year to 30 June 2026. The test: whether Petra then applies for restoration, as it says it intends to."
+   },
+   {
+    "when": "After publication",
+    "what": "The FCA's and the exchange's decisions. The test: whether trading returns, which Petra says is not automatic."
+   }
+  ],
+  "depth": {
+   "reverse": "Publication of the annual report, followed by the FCA's and the exchange's agreement, would end the suspension. Petra says there is no certainty as to its timing.",
+   "built": {
+    "title": "How the deadline works",
+    "text": "Under DTR 4.1.3R a listed company publishes its annual financial report within four months of its year end. Petra's year ended 30 June, so its deadline was 31 October."
+   },
+   "method": "Petra Diamonds, 'Suspension of Listing and Trading', dated '2 November 2026' in the body, published 07:00 on Investegate (company page row '02 Nov 2026 07:00 AM PRN'). Fetched by the Editor at about 14:20 EST 3 November 2026 with tools/door.py, 200, 58,818 bytes (newsroom/sources/2026-11-03/desk/petra.html; the Bureau's 13:52 capture was 58,817 and the rough desk's of 2 November 57,517, differences in the page's sidebar). Read from the notice text only, not from the AI summary Investegate prints above it: 'has not published its annual financial report for the year ended 30 June 2026 by the deadline of 31 October 2026 under DTR 4.1.3R', 'with effect from 07:30 (UK time) today', 'Trading in those shares on the Main Market of the London Stock Exchange has also been suspended', 'The Group audit remains in progress', 'as soon as practicable', 'subject to the agreement of the FCA and the London Stock Exchange respectively', 'Restoration will not be automatic upon publication, and there can be no certainty as to its timing'; boilerplate: 'The Company's loan notes, due in 2030, are listed on EuroNext Dublin'. TR-1 forms, door.py 200: Terris (87,538 bytes, pdl-9838904.html) 'The Terris Fund Ltd., SAC', 'Nassau', 'An event changing the breakdown of voting rights', threshold '01-Jul-2026', notified '22-Oct-2026', '27.040000', previous '28.302660', 95,905,121 voting rights; Azvalor (87,626 bytes, pdl-9834158.html) 'Azvalor Asset Management SGIIC SA', 'Madrid', 'An acquisition or disposal of voting rights; An event changing the breakdown of voting rights', threshold '16-Oct-2026', notified '19-Oct-2026', '13.934000', previous '15.018400', 49,416,725 voting rights. The forms do not say which way either holder moved by trade; no sale is claimed. Company page (door.py 200, 82,021 bytes, pdl.html): no Petra announcement after 2 November at 14:22 EST. The four-month rule is the FCA's DTR 4.1.3R, named in the notice. ARCHIVE, by entity: 'Petra' 9 hits in website/content/articles.json (archive-hits.py, the Bureau, 3 November); 23 October piece opened, it reads 'expects its shares to be suspended'; 'Terris' 0 hits and 'Azvalor' 0 hits (archive-hits.py, the Editor, 3 November). Ours: expected suspension, 22 October notice | new: suspension in effect 2 November, restoration terms, October holder filings: ADVANCED, not a repeat.",
+   "prior": [
+    {
+     "date": "2026-10-23",
+     "slug": "petra-diamonds-holders-face-a-share-suspension",
+     "claim": "Petra expects its shares to be suspended from 2 November."
+    },
+    {
+     "date": "2026-10-19",
+     "slug": "petra-treasury-unit-is-wound-up",
+     "claim": "A court winds up Petra's treasury unit over a £5.65m tax claim."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Petra Diamonds, Suspension of Listing and Trading (RNS)",
+     "url": "https://www.investegate.co.uk/announcement/prn/petra-diamonds-ltd-di---pdl/suspension-of-listing-and-trading/9852065",
+     "published": "2026-11-02"
+    },
+    {
+     "title": "Petra Diamonds, Delay in Publication of Annual Results (RNS)",
+     "url": "https://www.investegate.co.uk/announcement/prn/petra-diamonds-ltd-di---pdl/delay-in-publication-of-annual-results/9837001",
+     "published": "2026-10-22"
+    },
+    {
+     "title": "Petra Diamonds, Holding(s) in Company, The Terris Fund (TR-1)",
+     "url": "https://www.investegate.co.uk/announcement/prn/petra-diamonds-ltd-di---pdl/holding-s-in-company/9838904",
+     "published": "2026-10-23"
+    },
+    {
+     "title": "Petra Diamonds, Notification of major holdings, Azvalor (TR-1)",
+     "url": "https://www.investegate.co.uk/announcement/prn/petra-diamonds-ltd-di---pdl/notification-of-major-holdings/9834158",
+     "published": "2026-10-21"
+    }
+   ]
+  },
+  "next": {
+   "slug": "petra-diamonds-holders-face-a-share-suspension",
+   "why": "The 22 October notice that said this was coming."
+  },
+  "corrections": []
+ },
+ "phillips-offers-cartier-portico-clock-no-4": {
+  "v": 3,
+  "kicker": "Watch auctions",
+  "figures": {
+   "asof": "Phillips in Association with Bacs & Russo, press release, Geneva, 27 October 2026. Estimates exclude buyer's premium.",
+   "cells": [
+    {
+     "n": "CHF 1.8m–3.2m",
+     "dir": "flat",
+     "label": "Estimate, Lot 220",
+     "q": "excludes buyer's premium",
+     "src": 0
+    },
+    {
+     "n": "CHF 3,932,000",
+     "dir": "flat",
+     "label": "No. 3 at Phillips",
+     "q": "May 2025, includes premium",
+     "src": 0
+    },
+    {
+     "n": "1996",
+     "dir": "flat",
+     "label": "Last offered publicly",
+     "q": "Geneva, 19 November 1996",
+     "src": 0
+    },
+    {
+     "n": "38.5 cm",
+     "dir": "flat",
+     "label": "Height",
+     "q": "weight 10.6 kg",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "A Portico returns to sale.",
+   "text": "Phillips will offer Cartier's Portico Mystery Clock No. 4 as Lot 220, estimated at CHF 1.8m to 3.2m. It was last offered publicly in 1996."
+  },
+  "means": [
+   {
+    "who": "If you bid in Geneva:",
+    "text": "The preview runs 4 to 7 November at the Hotel President. The sale is on 7 and 8 November."
+   },
+   {
+    "who": "If you value Cartier objects:",
+    "text": "The high estimate is 18.6% below the CHF 3,932,000 that No. 3 made, a price that includes premium."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A result. Phillips' estimates exclude buyer's premium."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "The two largest Portico clocks, side by side",
+   "hi": 4,
+   "asof": "Phillips press release, 27 October 2026",
+   "cols": [
+    "Detail",
+    "No. 4",
+    "No. 3"
+   ],
+   "rows": [
+    [
+     "Made",
+     "1924",
+     "1924"
+    ],
+    [
+     "Dial",
+     "Six sides",
+     "12 sides"
+    ],
+    [
+     "Columns",
+     "Square, rock crystal",
+     "Square, rose quartz"
+    ],
+    [
+     "Last at auction",
+     "Offered 1996",
+     "Sold May 2025"
+    ],
+    [
+     "Price",
+     "Estimate CHF 1.8m–3.2m",
+     "Sold CHF 3,932,000"
+    ]
+   ],
+   "note": "Phillips' estimates exclude buyer's premium; its prices achieved include hammer plus premium, the release says.",
+   "plate": "CC/2026/346"
+  },
+  "sections": [
+   {
+    "h": "One of six Porticos.",
+    "p": [
+     {
+      "lead": "Six were made.",
+      "text": "Cartier made six Portico Mystery Clocks between 1923 and 1925 with clockmaker Maurice Coüet. No. 4, from 1924, is the only one with a hexagonal dial."
+     },
+     {
+      "lead": "Built like a gate.",
+      "text": "It stands 38.5 cm high and weighs 10.6 kg. Its rock-crystal dial hangs between two square rock-crystal columns, under an arch that hides the movement."
+     }
+    ]
+   },
+   {
+    "h": "Provenance runs through the family.",
+    "p": [
+     {
+      "lead": "Alain Cartier owned it.",
+      "text": "The clock belonged to Alain Cartier, grandson of Louis Cartier, Phillips says. It was last offered at The Magical Art of Cartier in Geneva on 19 November 1996."
+     },
+     {
+      "lead": "A maharajah, reputedly.",
+      "text": "Phillips says the clock reputedly belonged to the Maharajah of Nawanagar. It comes with a Cartier certificate of authenticity dated 2002."
+     }
+    ]
+   },
+   {
+    "h": "No. 3 set the mark.",
+    "p": [
+     {
+      "lead": "The sister sold.",
+      "text": "Its sister, made the same year, sold at Phillips' Geneva Watch Auction XXI in May 2025 for CHF 3,932,000. That price includes buyer's premium; the estimate for this clock does not."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "4 to 7 November 2026",
+    "what": "The Geneva preview at the Hotel President. The test: whether Phillips changes the estimate before the sale."
+   },
+   {
+    "when": "7 and 8 November 2026",
+    "what": "The Geneva Watch Auction XXIV. The test: whether Lot 220 sells, and how it compares with No. 3's CHF 3,932,000."
+   }
+  ],
+  "depth": {
+   "reverse": "No sale, or a hammer below CHF 1.8m, would put No. 4 under the house's own estimate despite No. 3's result in May 2025.",
+   "built": {
+    "title": "How an estimate is read",
+    "text": "Phillips' estimates exclude buyer's premium, and its prices achieved include hammer plus premium, the release says. An estimate and a result are not like for like."
+   },
+   "method": "Phillips in Association with Bacs & Russo, 'Phillips to offer Cartier Portico Mystery Clock No. 4 at the Geneva Watch Auction: XXIV', dateline 'GENEVA – 27 OCTOBER 2026'. PDF fetched by the Editor at about 14:20 EST 3 November 2026 with tools/door.py, 200, 326,174 bytes (newsroom/sources/2026-11-03/desk/portico.pdf, the same count as the Bureau's), text layer extracted with pypdf, 3 pages, 9,556 characters (portico.txt). Grep of the extracted text: '1,800,000' 1, '3,200,000' 1, '3,932,000' 1, '38.5' 1, '10.6' 1, 'Lot 220' 1, '7 & 8 November' 3, '1996' 3; read in their sentences: 'one of only six examples of the series created between 1923 and 1925', 'the only Portico known with a hexagonal dial', 'Lot 220 with an estimate of CHF 1,800,000–3,200,000', 'Formerly the property of Alain Cartier – grandson of Louis Cartier', 'last offered publicly at The Magical Art of Cartier in Geneva on 19 November 1996', 'Reputedly, the clock had once belonged to the Maharajah of Nawanagar', 'Cartier Certificate of Authenticity dated 2002', 'Preview: 4–7 November 2026', 'Hotel President', 'the only two with square rather than round columns', 'rose-quartz columns and 12-sided carved rock-crystal dial', 'Estimates do not include buyer's premium; prices achieved include the hammer price plus buyer's premium'. Arithmetic, ours: 3,200,000 / 3,932,000 = 0.814 -> 81.4% of No. 3's price -> 18.6% below. No dollar figure: the release prices in francs and no rate was read. Not used: JCK's estimate of CHF 1.8m to 3.6m and its 'up to $3.9M' headline (2 November), and a Rapaport 'USD 4M' headline; neither is in the release. ARCHIVE, by entity: 'Portico' 0 hits, 'Geneva Watch Auction' 4 hits (none names this sale or lot), 'Cartier' with 'clock' 1 hit, a Patek piece of 17 October (archive-hits.py, the Editor, 3 November). Ours: none on this lot | new: Lot 220, sale 7 and 8 November: NEW. Filed under watches for the clock and the sale; the auctions desk filed the same release.",
+   "prior": [
+    {
+     "date": "2026-10-01",
+     "slug": "two-rolexes-above-a-million-francs",
+     "claim": "Two Pucci Rolexes carry estimates above CHF 1m at Phillips."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Phillips, Cartier Portico Mystery Clock No. 4 at The Geneva Watch Auction: XXIV (press release)",
+     "url": "https://dist.phillips.com/content/web/press/PHILLIPS-TO-OFFER-CARTIER-PORTICO-MYSTERY-CLOCK-NO-4-AT-THE-GENEVA-WATCH-AUCTION-XXIV_yac3milo.pdf",
+     "published": "2026-10-27"
+    }
+   ]
+  },
+  "next": {
+   "slug": "two-rolexes-above-a-million-francs",
+   "why": "An earlier Phillips Geneva sale, priced in francs."
   },
   "corrections": []
  }
