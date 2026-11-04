@@ -1289,7 +1289,7 @@ const RM = matchMedia('(prefers-reduced-motion: reduce)').matches;
 })();
 
 /* ══ tape ══ */
-(function(){const rows=[["GOLD / OZ", "4,041.90", "up", "+2.9% vs 3 Nov mark"], ["NATURAL 1CT (RAPI PROXY)", "3,876.42", "dn", "\u22126.0% YTD \u00b7 base 4,125.20, 1 Jan, read 23 Sep \u00b7 carried, 25 Oct"], ["LAB-GROWN 1CT REFERENCE", "475", "fl", "midpoint of 350 to 600, read 27 Oct, page modified 24 Jul"], ["PLATINUM / OZ", "1,459.00", "up", "+2.8% vs 3 Nov mark"], ["SILVER / OZ", "51.893", "up", "+4.7% vs 3 Nov mark"], ["EDITION", "Vol. I - No. 103", "up", "\u25cf PRINTED 06:11 EST"], ["SPECIMEN TAPE", "illustrative", "fl", "not quoted"]];
+(function(){const rows=[["GOLD / OZ", "4,041.90", "up", "+2.9% vs 3 Nov mark"], ["NATURAL 1CT (RAPI PROXY)", "3,876.42", "dn", "\u22126.0% YTD \u00b7 base 4,125.20, 1 Jan, read 23 Sep \u00b7 carried, 25 Oct"], ["LAB-GROWN 1CT REFERENCE", "475", "fl", "midpoint of 350 to 600, read 27 Oct, page modified 24 Jul"], ["PLATINUM / OZ", "1,459.00", "up", "+2.8% vs 3 Nov mark"], ["SILVER / OZ", "51.893", "up", "+4.7% vs 3 Nov mark"], ["EDITION", "Vol. I - No. 103", "up", "\u25cf PRINTED 06:17 EST"], ["SPECIMEN TAPE", "illustrative", "fl", "not quoted"]];
  const mk=()=>rows.map(r=>`<span class="tk"><span class="d"></span><b>${r[0]}</b> ${r[1]} <span class="${r[2]}">${r[3]}</span></span>`).join('');
  document.getElementById('tkrun').innerHTML=mk()+mk();})();
 
