@@ -150439,7 +150439,7 @@
     {
      "n": "537",
      "dir": "down",
-     "label": "Franchise stores closed",
+     "label": "Low-yield franchise stores closed",
      "q": "Jan–Sep, tier-3 and tier-4 cities",
      "src": 0
     },
@@ -150589,13 +150589,17 @@
      "url": "https://www.guandian.cn/m/show/621102",
      "published": "2026-10-30"
     }
+   ],
+   "corrections": [
+    "Clarified, 4 November 2026: the key-figure cell read \"Franchise stores closed\"; Lao Feng Xiang's figure of 537 counts low-yield franchise stores in tier-3 and tier-4 cities, and the cell now says so. No printed figure changed. Raised by Carat Capital's Standards desk on 3 November 2026."
    ]
   },
   "next": {
    "slug": "luk-fooks-self-run-mainland-shops-post-39-percent",
    "why": "Another Chinese chain's own shops, a week of October."
   },
-  "corrections": []
+  "corrections": [],
+  "modified": "2026-11-04"
  },
  "snb-books-1-2-billion-gold-gain-after-h1-loss": {
   "v": 3,
@@ -150827,7 +150831,7 @@
    },
    {
     "who": "If you consign signed jewels:",
-    "text": "Five of the six named lots beat their high estimates; the tourmaline did not."
+    "text": "Bonhams names six results; five beat their high estimates. It gives no sell-through."
    },
    {
     "who": "What this is not:",
@@ -150888,7 +150892,7 @@
   },
   "sections": [
    {
-    "h": "Sapphires without treatment indications led.",
+    "h": "A sapphire without treatment indications led.",
     "p": [
      {
       "lead": "No treatment indicated.",
@@ -150958,13 +150962,17 @@
      "url": "https://www.bonhams.com/press_release/41838/",
      "published": "2026-10-30"
     }
+   ],
+   "corrections": [
+    "Clarified, 4 November 2026: a sub-head said sapphires without treatment indications \"led\"; one led and the other tied fourth, and the sub-head now says \"A sapphire\". A line for consignors now says the six lots are the results Bonhams chose to name and that no sell-through is given. No printed figure changed. Raised by Carat Capital's Standards desk on 3 November 2026."
    ]
   },
   "next": {
    "slug": "eighty-one-carats-of-paraiba-in-paris",
    "why": "The preview of this sale, and the lot it put first."
   },
-  "corrections": []
+  "corrections": [],
+  "modified": "2026-11-04"
  },
  "central-banks-buy-321-tonnes-of-gold-in-q3": {
   "v": 3,
@@ -151017,7 +151025,7 @@
    },
    {
     "who": "What this is not:",
-    "text": "A record year: nine-month demand is 3 tonnes short of 2025's."
+    "text": "A record year in tonnes: nine-month demand is 3 tonnes short of 2025's."
    }
   ],
   "visual": {
@@ -151037,6 +151045,12 @@
      "376.4",
      "312.9",
      "−17%"
+    ],
+    [
+     "Jewellery inventory",
+     "43.6",
+     "27.2",
+     "−38%"
     ],
     [
      "Bar and coin",
@@ -151075,7 +151089,7 @@
      "−1%"
     ]
    ],
-   "note": "Q3 2025 as given in the council's 3 November table; its July table gave Q3 2025 total demand as 1,370.6 tonnes. Changes as printed by the council.",
+   "note": "Q3 2025 as given in the council's 3 November table; its July table gave Q3 2025 total demand as 1,370.6 tonnes. Changes as printed by the council. Rows sum to the total.",
    "plate": "CC/2026/344"
   },
   "sections": [
@@ -151084,7 +151098,7 @@
     "p": [
      {
       "lead": "ETFs turned back.",
-      "text": "Gold ETFs and similar products added 211.2 tonnes after an outflow of 47.3 tonnes in Q2. The council ties the inflow to concerns over fiscal sustainability and inflation."
+      "text": "Gold ETFs and similar products added 211.2 tonnes after an outflow of 47.3 tonnes in Q2. The council says the inflow seemed driven by concerns over fiscal sustainability and inflation, among other things."
      },
      {
       "lead": "Bars and coins fell.",
@@ -151106,7 +151120,7 @@
     ]
    },
    {
-    "h": "Mines set a record.",
+    "h": "Mines set a third-quarter record.",
     "p": [
      {
       "lead": "Output rose 3%.",
@@ -151117,7 +151131,7 @@
   ],
   "watch": [
    {
-    "when": "7 November 2026",
+    "when": "Around 7 November 2026",
     "what": "The People's Bank of China's October reserve figures. The test: whether official buying carries into the fourth quarter."
    },
    {
@@ -151131,7 +151145,7 @@
     "title": "How the council counts demand",
     "text": "Total demand adds jewellery, technology, investment and central bank buying, plus an 'OTC and other' line. In this table total demand equals total supply in every quarter."
    },
-   "method": "World Gold Council, 'Gold Demand Trends Q3 2026', page dated '3 November, 2026' (1 hit). Fetched by the Editor at 14:06 EST 3 November 2026 with tools/door.py, 200, 87,353 bytes (newsroom/sources/2026-11-03/desk/wgc.html), the same byte count as the Bureau's 13:52 capture. Table 1 read from the tag-stripped text: Q3'26 central banks 321.2, jewellery consumption 312.9, bar and coin 267.8, ETFs 211.2, technology 84.8, OTC and other 143.5, total demand 1,368.6, mine production 1,070.9, recycled 314.5, LBMA price 4,262.2; Q3'25 226.3, 376.4, 328.6, 225.7, 82.0, 100.6, 1,383.2; Q1'26 central banks 57.7; Q2'26 total 1,254.5, central banks 296.3, ETFs −47.3. Text: 'Central bank buying jumped to 321t', 'Jewellery demand fell 17% y/y to 313t, the weakest third quarter in our data series', 'Demand value edged up 2% y/y to US$43bn', 'demand of 3,881t virtually matches the 2025 record (3,884t)', 'investors waited for a clearer price trend to emerge', 'mounting concerns over fiscal sustainability and inflation', 'a third quarter record', 'a three-year low of 314t', 'Central bank buying likely to at least match 2025'. Grep of the raw bytes, single-quoted: '1,368.6' 2, '321.2' 1, '312.9' 1, '211.2' 1, '267.8' 1, '4,262.2' 1, '1,254.5' 2, '296.3' 1. Q2 as first published: the council's Q2 2026 page, fetched 14:06 EST with door.py, 200, 86,782 bytes (wgc-q2.html), Table 1 Q2'26 total demand 1,268.9, central banks 288.9, Q3'25 total 1,370.6. Arithmetic, ours: 321.2 / 226.3 = 1.419 -> +42%; 312.9 / 376.4 = 0.831 -> −17%; 1,368.6 / 1,383.2 = 0.989 -> −1%; 3,884 − 3,881 = 3; tape gold 3,926.5 (Kitco bid, 13:51 EST 3 November, newsroom/tape/2026-11-03.json, the tape's intraday read, not a close) / 4,262.2 = 0.921 -> 7.9% below. Not used: a Reuters headline of 3 November saying the council lowered its outlook for investment demand growth; its body was not read, and the council's own outlook says ETF, bar and coin demand will 'remain resilient'. Source verbs: the council says 'jumped', 'fell', 'edged up', 'adding'; this page says bought, fell, rose, added. ARCHIVE, by entity: 'Gold Demand Trends' 2 hits and 'World Gold Council' 21 hits in website/content/articles.json (tools/archive-hits.py, 3 November); the two Q2 pieces of 31 July and 2 August opened. Ours: Q2 2026 | new: Q3 2026: NEW, same series, new period.",
+   "method": "World Gold Council, 'Gold Demand Trends Q3 2026', page dated '3 November, 2026' (1 hit). Fetched by the Editor at 14:06 EST 3 November 2026 with tools/door.py, 200, 87,353 bytes (newsroom/sources/2026-11-03/desk/wgc.html), the same byte count as the Bureau's 13:52 capture. Table 1 read from the tag-stripped text: Q3'26 central banks 321.2, jewellery consumption 312.9, jewellery inventory 27.2 (Q3'25 43.6, −38%), bar and coin 267.8, ETFs 211.2, technology 84.8, OTC and other 143.5, total demand 1,368.6, mine production 1,070.9, recycled 314.5, LBMA price 4,262.2; Q3'25 226.3, 376.4, 328.6, 225.7, 82.0, 100.6, 1,383.2; Q1'26 central banks 57.7; Q2'26 total 1,254.5, central banks 296.3, ETFs −47.3. Text: 'Central bank buying jumped to 321t', 'Jewellery demand fell 17% y/y to 313t, the weakest third quarter in our data series', 'Demand value edged up 2% y/y to US$43bn', 'demand of 3,881t virtually matches the 2025 record (3,884t)', 'investors waited for a clearer price trend to emerge', 'The inflow seemed to be driven by mounting concerns over fiscal sustainability and inflation, among other things', 'a third quarter record', 'a three-year low of 314t', 'Central bank buying likely to at least match 2025'. Grep of the raw bytes, single-quoted: '1,368.6' 2, '321.2' 1, '312.9' 1, '211.2' 1, '267.8' 1, '4,262.2' 1, '1,254.5' 2, '296.3' 1. Q2 as first published: the council's Q2 2026 page, fetched 14:06 EST with door.py, 200, 86,782 bytes (wgc-q2.html), Table 1 Q2'26 total demand 1,268.9, central banks 288.9, Q3'25 total 1,370.6. Arithmetic, ours: 321.2 / 226.3 = 1.419 -> +42%; 312.9 / 376.4 = 0.831 -> −17%; 1,368.6 / 1,383.2 = 0.989 -> −1%; 3,884 − 3,881 = 3; tape gold 3,926.5 (Kitco bid, 13:51 EST 3 November, newsroom/tape/2026-11-03.json, the tape's intraday read, not a close) / 4,262.2 = 0.921 -> 7.9% below. Not used: a Reuters headline of 3 November saying the council lowered its outlook for investment demand growth; its body was not read, and the council's own outlook says ETF, bar and coin demand will 'remain resilient'. Source verbs: the council says 'jumped', 'fell', 'edged up', 'adding'; this page says bought, fell, rose, added. ARCHIVE, by entity: 'Gold Demand Trends' 2 hits and 'World Gold Council' 21 hits in website/content/articles.json (tools/archive-hits.py, 3 November); the two Q2 pieces of 31 July and 2 August opened. Ours: Q2 2026 | new: Q3 2026: NEW, same series, new period.",
    "prior": [
     {
      "date": "2026-08-02",
@@ -151155,19 +151169,23 @@
      "url": "https://www.gold.org/goldhub/research/gold-demand-trends/gold-demand-trends-q2-2026",
      "published": "2026-07-30"
     }
+   ],
+   "corrections": [
+    "Clarified, 4 November 2026: this page said the council \"ties\" the ETF inflow to fiscal and inflation concerns; the council says the inflow \"seemed to be driven\" by them, \"among other things\". The table omitted the council's jewellery inventory row (27.2 tonnes; 43.6 in Q3 2025), so its rows did not sum to the total; the row is now shown. A sub-head now says \"third-quarter record\", \"a record year\" is qualified \"in tonnes\", and the PBoC date reads \"around 7 November\". No printed figure changed. Raised by Carat Capital's Standards desk on 3 November 2026."
    ]
   },
   "next": {
    "slug": "snb-books-1-2-billion-gold-gain-after-h1-loss",
    "why": "A central bank's gold, valued in francs."
   },
-  "corrections": []
+  "corrections": [],
+  "modified": "2026-11-04"
  },
  "fca-suspends-petra-diamonds-listing": {
   "v": 3,
   "kicker": "Diamond miners",
   "figures": {
-   "asof": "Petra Diamonds, Suspension of Listing and Trading, 2 November 2026; TR-1 holding notices of 19 and 22 October 2026.",
+   "asof": "Petra Diamonds, Suspension of Listing and Trading, 2 November 2026; TR-1 holding notices of 19 and 22 October 2026; Application for admission of shares, 1 July 2026.",
    "cells": [
     {
      "n": "07:30",
@@ -151187,14 +151205,14 @@
      "n": "27.04%",
      "dir": "flat",
      "label": "Terris Fund",
-     "q": "voting rights, notified 22 October",
+     "q": "voting rights as of 1 July, notified 22 October",
      "src": 2
     },
     {
      "n": "13.93%",
      "dir": "down",
      "label": "Azvalor",
-     "q": "voting rights, 16 October, from 15.02%",
+     "q": "16 October, from 15.02%; its votes rose",
      "src": 3
     }
    ]
@@ -151219,13 +151237,15 @@
   ],
   "visual": {
    "type": "table",
-   "cap": "Petra's two largest notified holders, October filings",
+   "cap": "Petra's largest holders on the TR-1 record",
    "hi": 0,
-   "asof": "TR-1 forms published through Investegate, 19 and 22 October 2026",
+   "asof": "TR-1 forms published through Investegate, November and December 2025 and October 2026",
    "cols": [
     "Holder",
     "Voting rights",
-    "Previous notice",
+    "Previous",
+    "Votes",
+    "Previous votes",
     "Threshold date"
    ],
    "rows": [
@@ -151233,16 +151253,28 @@
      "The Terris Fund, Nassau",
      "27.04%",
      "28.30%",
+     "95,905,121",
+     "90,529,412",
      "1 Jul 2026"
     ],
     [
      "Azvalor Asset Management, Madrid",
      "13.93%",
      "15.02%",
+     "49,416,725",
+     "48,038,053",
      "16 Oct 2026"
+    ],
+    [
+     "JOSIVAR S.à r.l.",
+     "13.70%",
+     "n/a",
+     "43,833,195",
+     "n/a",
+     "28 Nov 2025"
     ]
    ],
-   "note": "Percentages of voting rights as filed (27.040000, 28.302660, 13.934000, 15.018400), rounded to two places by Carat Capital. Terris notified Petra on 22 October, Azvalor on 19 October.",
+   "note": "Percentages as filed (27.040000, 28.302660, 13.934000, 15.018400, 13.703793), rounded to two places by Carat Capital. Previous notices: Terris 27 November 2025, Azvalor 3 December 2025. Both vote counts rose; the percentages fell because Petra's share count rose to 354,640,773 after the 1 July coupon shares. Josivar's form is dated 28 November 2025 and carries no later notice.",
    "plate": "CC/2026/345"
   },
   "sections": [
@@ -151260,24 +151292,28 @@
     ]
    },
    {
-    "h": "Two large holders filed in October.",
+    "h": "Both percentages fell on new shares.",
     "p": [
      {
-      "lead": "Terris holds 27.04%.",
-      "text": "The Terris Fund, of Nassau, notified Petra on 22 October that it holds 27.04% of voting rights. Its form gives the reason as a change in the breakdown of voting rights."
+      "lead": "Terris reported 27.04%.",
+      "text": "The Terris Fund, of Nassau, notified Petra on 22 October that it held 27.04% as of 1 July. Its previous notice, in November 2025, gave 28.30%."
      },
      {
-      "lead": "Azvalor's stake fell.",
-      "text": "Azvalor Asset Management, of Madrid, held 13.93% on 16 October, against 15.02% in its previous notice. Its form cites an acquisition or disposal, and a change in the breakdown."
+      "lead": "Azvalor's votes rose.",
+      "text": "Azvalor Asset Management, of Madrid, held 13.93% on 16 October, against 15.02% in its December 2025 notice. Its vote count rose; its percentage fell."
+     },
+     {
+      "lead": "Coupon paid in shares.",
+      "text": "Petra admitted 19,219,980 new shares on 1 July to pay its June note coupon. That took its share count to 354,640,773."
      }
     ]
    },
    {
-    "h": "The loan notes go unnamed.",
+    "h": "No word on the notes.",
     "p": [
      {
-      "lead": "Dublin notes unmentioned.",
-      "text": "Petra's loan notes due 2030 are listed on Euronext Dublin. The suspension notice names the ordinary shares only and says nothing about the notes."
+      "lead": "Notes status unstated.",
+      "text": "The notice's own boilerplate says Petra's loan notes due 2030 are listed on Euronext Dublin. It does not say whether the suspension affects them."
      }
     ]
    }
@@ -151298,7 +151334,7 @@
     "title": "How the deadline works",
     "text": "Under DTR 4.1.3R a listed company publishes its annual financial report within four months of its year end. Petra's year ended 30 June, so its deadline was 31 October."
    },
-   "method": "Petra Diamonds, 'Suspension of Listing and Trading', dated '2 November 2026' in the body, published 07:00 on Investegate (company page row '02 Nov 2026 07:00 AM PRN'). Fetched by the Editor at 14:06 EST 3 November 2026 with tools/door.py, 200, 58,818 bytes (newsroom/sources/2026-11-03/desk/petra.html; the Bureau's 13:52 capture was 58,817 and the rough desk's of 2 November 57,517, differences in the page's sidebar). Read from the notice text only, not from the AI summary Investegate prints above it: 'has not published its annual financial report for the year ended 30 June 2026 by the deadline of 31 October 2026 under DTR 4.1.3R', 'with effect from 07:30 (UK time) today', 'Trading in those shares on the Main Market of the London Stock Exchange has also been suspended', 'The Group audit remains in progress', 'as soon as practicable', 'subject to the agreement of the FCA and the London Stock Exchange respectively', 'Restoration will not be automatic upon publication, and there can be no certainty as to its timing'; boilerplate: 'The Company's loan notes, due in 2030, are listed on EuroNext Dublin'. TR-1 forms, door.py 200: Terris (87,538 bytes, pdl-9838904.html) 'The Terris Fund Ltd., SAC', 'Nassau', 'An event changing the breakdown of voting rights', threshold '01-Jul-2026', notified '22-Oct-2026', '27.040000', previous '28.302660', 95,905,121 voting rights; Azvalor (87,626 bytes, pdl-9834158.html) 'Azvalor Asset Management SGIIC SA', 'Madrid', 'An acquisition or disposal of voting rights; An event changing the breakdown of voting rights', threshold '16-Oct-2026', notified '19-Oct-2026', '13.934000', previous '15.018400', 49,416,725 voting rights. The forms do not say which way either holder moved by trade; no sale is claimed. Company page (door.py 200, 82,021 bytes, pdl.html): no Petra announcement after 2 November at 14:07 EST. The four-month rule is the FCA's DTR 4.1.3R, named in the notice. ARCHIVE, by entity: 'Petra' 9 hits in website/content/articles.json (archive-hits.py, the Bureau, 3 November); 23 October piece opened, it reads 'expects its shares to be suspended'; 'Terris' 0 hits and 'Azvalor' 0 hits (archive-hits.py, the Editor, 3 November). Ours: expected suspension, 22 October notice | new: suspension in effect 2 November, restoration terms, October holder filings: ADVANCED, not a repeat.",
+   "method": "Petra Diamonds, 'Suspension of Listing and Trading', dated '2 November 2026' in the body, published 07:00 on Investegate (company page row '02 Nov 2026 07:00 AM PRN'). Fetched by the Editor at 14:06 EST 3 November 2026 with tools/door.py, 200, 58,818 bytes (newsroom/sources/2026-11-03/desk/petra.html; the Bureau's 13:52 capture was 58,817 and the rough desk's of 2 November 57,517, differences in the page's sidebar). Read from the notice text only, not from the AI summary Investegate prints above it: 'has not published its annual financial report for the year ended 30 June 2026 by the deadline of 31 October 2026 under DTR 4.1.3R', 'with effect from 07:30 (UK time) today', 'Trading in those shares on the Main Market of the London Stock Exchange has also been suspended', 'The Group audit remains in progress', 'as soon as practicable', 'subject to the agreement of the FCA and the London Stock Exchange respectively', 'Restoration will not be automatic upon publication, and there can be no certainty as to its timing'; boilerplate: 'The Company's loan notes, due in 2030, are listed on EuroNext Dublin'. TR-1 forms, door.py 200: Terris (87,538 bytes, pdl-9838904.html) 'The Terris Fund Ltd., SAC', 'Nassau', 'An event changing the breakdown of voting rights', threshold '01-Jul-2026', notified '22-Oct-2026', '27.040000', previous '28.302660', 95,905,121 voting rights; Azvalor (87,626 bytes, pdl-9834158.html) 'Azvalor Asset Management SGIIC SA', 'Madrid', 'An acquisition or disposal of voting rights; An event changing the breakdown of voting rights', threshold '16-Oct-2026', notified '19-Oct-2026', '13.934000', previous '15.018400', 49,416,725 voting rights. Both holders' vote counts rose against their previous notices: Terris from 90,529,412 (threshold 27-Nov-2025, Investegate 9303488) and Azvalor from 48,038,053 (threshold 03-Dec-2025, Investegate 9297628). The percentages fell because Petra admitted 19,219,980 shares to pay the June 2026 coupon, taking its share capital to 354,640,773 ('Application for admission of shares', 1 July 2026, Investegate 9645954). Check: 49,416,725 / 354,640,773 = 13.934%; 95,905,121 / 354,640,773 = 27.04%. Third on the TR-1 record: JOSIVAR S.à r.l., 13.703793%, 43,833,195 votes, threshold 28-Nov-2025 (Investegate 9291559), no later notice on the company page as read on 3 November. Each digit grepped in the raw bytes Standards saved on 3 November (newsroom/sources/2026-11-03/standards/prim/), one hit or more each. Company page (door.py 200, 82,021 bytes, pdl.html): no Petra announcement after 2 November at 14:07 EST. The four-month rule is the FCA's DTR 4.1.3R, named in the notice. ARCHIVE, by entity: 'Petra' 9 hits in website/content/articles.json (archive-hits.py, the Bureau, 3 November); 23 October piece opened, it reads 'expects its shares to be suspended'; 'Terris' 0 hits and 'Azvalor' 0 hits (archive-hits.py, the Editor, 3 November). Ours: expected suspension, 22 October notice | new: suspension in effect 2 November, restoration terms, October holder filings: ADVANCED, not a repeat.",
    "prior": [
     {
      "date": "2026-10-23",
@@ -151331,14 +151367,38 @@
      "title": "Petra Diamonds, Notification of major holdings, Azvalor (TR-1)",
      "url": "https://www.investegate.co.uk/announcement/prn/petra-diamonds-ltd-di---pdl/notification-of-major-holdings/9834158",
      "published": "2026-10-21"
+    },
+    {
+     "title": "Petra Diamonds, TR-1 Holding(s) in Company, The Terris Fund, November 2025",
+     "url": "https://www.investegate.co.uk/announcement/prn/petra-diamonds-ltd-di---pdl/tr-1-holding-s-in-company/9303488",
+     "published": "2025-11-27"
+    },
+    {
+     "title": "Petra Diamonds, TR-1 Holding(s) in Company, Azvalor, December 2025",
+     "url": "https://www.investegate.co.uk/announcement/prn/petra-diamonds-ltd-di---pdl/tr-1-holding-s-in-company/9297628",
+     "published": "2025-12-03"
+    },
+    {
+     "title": "Petra Diamonds, TR1 Holding(s) in Company, JOSIVAR, November 2025",
+     "url": "https://www.investegate.co.uk/announcement/prn/petra-diamonds-ltd-di---pdl/tr1-holding-s-in-company/9291559",
+     "published": "2025-11-28"
+    },
+    {
+     "title": "Petra Diamonds, Application for admission of shares (RNS)",
+     "url": "https://www.investegate.co.uk/announcement/prn/petra-diamonds-ltd-di---pdl/application-for-admission-of-shares/9645954",
+     "published": "2026-07-01"
     }
+   ],
+   "corrections": [
+    "Corrected, 4 November 2026: this page said \"Azvalor's stake fell\" and that the forms did not say which way either holder moved. Azvalor's vote count rose, from 48,038,053 to 49,416,725, and Terris's from 90,529,412 to 95,905,121; both percentages fell because Petra issued 19,219,980 new shares on 1 July. The page also said Terris \"holds\" 27.04%, a position as of 1 July, and that the notice did not mention the loan notes; it names them but does not say whether they are affected. What was right as published: every percentage and date. Raised by Carat Capital's Standards desk on 3 November 2026."
    ]
   },
   "next": {
    "slug": "petra-diamonds-holders-face-a-share-suspension",
    "why": "The 22 October notice that said this was coming."
   },
-  "corrections": []
+  "corrections": [],
+  "modified": "2026-11-04"
  },
  "phillips-offers-cartier-portico-clock-no-4": {
   "v": 3,
@@ -151506,6 +151566,547 @@
   "next": {
    "slug": "two-rolexes-above-a-million-francs",
    "why": "An earlier Phillips Geneva sale, priced in francs."
+  },
+  "corrections": []
+ },
+ "gem-diamonds-letseng-sells-at-1945-a-carat-in-q3": {
+  "v": 3,
+  "kicker": "Diamond miners",
+  "figures": {
+   "asof": "Gem Diamonds, Q3 2026 Trading Update, 4 November 2026; quarter 1 July to 30 September 2026.",
+   "cells": [
+    {
+     "n": "$1,945",
+     "dir": "up",
+     "label": "Average price per carat",
+     "q": "Q3 2026, against $1,124 in Q3 2025",
+     "src": 0
+    },
+    {
+     "n": "17,899",
+     "dir": "down",
+     "label": "Carats sold",
+     "q": "Q3 2026, against 22,830 in Q3 2025",
+     "src": 0
+    },
+    {
+     "n": "$22.2m",
+     "dir": "up",
+     "label": "Four stones above $1m each",
+     "q": "of $34.8m Q3 revenue",
+     "src": 0
+    },
+    {
+     "n": "80,000",
+     "dir": "up",
+     "label": "Carats recovered, top of 2026 guidance",
+     "q": "range 78,000 to 80,000, from 75,000 to 78,000",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Price rose as volume fell.",
+   "text": "Letšeng sold 21.6% fewer carats in the third quarter than a year earlier, at $1,945 a carat. Revenue rose to $34.8m."
+  },
+  "means": [
+   {
+    "who": "If you tender large rough:",
+    "text": "Four stones made 64% of quarterly revenue; the average tracks a few large goods."
+   },
+   {
+    "who": "If you lend to or hold Gem:",
+    "text": "The credit lines expire on 21 December; Gem says renewal is progressing."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A market-wide price rise. Gem's chief executive calls prices firm for Letšeng-quality goods only."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Letšeng sales by period, as reported",
+   "hi": 2,
+   "asof": "Gem Diamonds, Q3 2026 Trading Update, production and sales table, 4 November 2026",
+   "cols": [
+    "Period",
+    "Carats sold",
+    "Revenue, $m",
+    "$ per carat"
+   ],
+   "rows": [
+    [
+     "Q3 2025",
+     "22,830",
+     "25.7",
+     "1,124"
+    ],
+    [
+     "H1 2026",
+     "42,624",
+     "59.5",
+     "1,395"
+    ],
+    [
+     "Q3 2026",
+     "17,899",
+     "34.8",
+     "1,945"
+    ],
+    [
+     "Nine months 2025",
+     "67,190",
+     "70.4",
+     "1,047"
+    ],
+    [
+     "Nine months 2026",
+     "60,524",
+     "94.3",
+     "1,558"
+    ]
+   ],
+   "note": "Figures as printed by Gem Diamonds. H1 and Q3 are separate windows; the nine-month rows cover January to September.",
+   "plate": "CC/2026/346"
+  },
+  "sections": [
+   {
+    "h": "Four stones carried the quarter.",
+    "p": [
+     {
+      "lead": "Four above $1m.",
+      "text": "Four diamonds sold for more than $1m each and brought in $22.2m. Gem says the 347-carat Lesotho Jubilee, sold in the quarter, lifted the average."
+     },
+     {
+      "lead": "Up 73% on year.",
+      "text": "Against $1,124 a carat in Q3 2025, the average is up 73%. Revenue was $25.7m a year earlier."
+     },
+     {
+      "lead": "Recoveries fell too.",
+      "text": "Carats recovered fell to 19,299 from 22,268 a year earlier. Ore came mainly from the Main Pipe, in line with the mine plan."
+     }
+    ]
+   },
+   {
+    "h": "Guidance rises before a deadline.",
+    "p": [
+     {
+      "lead": "More carats expected.",
+      "text": "Gem raised its 2026 guidance for carats recovered to 78,000 to 80,000, from 75,000 to 78,000. It cites operating performance and cost control."
+     },
+     {
+      "lead": "Facilities due 21 December.",
+      "text": "Gem's revolving credit facilities expire on 21 December. It says commercial terms are being finalised with Nedbank and Standard Bank."
+     }
+    ]
+   },
+   {
+    "h": "Lesotho sets a variable royalty.",
+    "p": [
+     {
+      "lead": "Three to six percent.",
+      "text": "Lesotho approved a royalty of 3% to 6%, set on the six-monthly average price per carat. It applies to sales after 1 October."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "By 21 December 2026",
+    "what": "Renewal of Gem's revolving credit facilities. The test: whether terms are signed before they expire."
+   },
+   {
+    "when": "Full-year 2026 report, date not announced",
+    "what": "The year's carats recovered. The test: whether they land inside the raised 78,000 to 80,000 range."
+   }
+  ],
+  "depth": {
+   "reverse": "A fourth quarter that holds near $1,945 a carat without stones above $1m would mean the run of goods, not a few large stones, is lifting Letšeng's price.",
+   "built": {
+    "title": "How the average is set",
+    "text": "Gem reports the average as revenue divided by carats sold. Here $34.8m over 17,899 carats gives about $1,944, against the printed $1,945."
+   },
+   "method": "Gem Diamonds, 'Q3 2026 Trading Update', RNS dated '04 November 2026' in the body, read at Investegate. Fetched by the Editor at 06:04 EST 4 November 2026 with tools/door.py, 200, 85,655 bytes (newsroom/sources/2026-11-04/desk/gem.html; the Bureau's 04:3x capture was 85,685, the difference in the page's sidebar). Read from the RNS text only, with Investegate's 'Summary by AI BETA' block removed before every grep. Grep of the raw bytes: '1 945' 2, '17 899' 2, '22 830' 2, '1 124' 2, '347 carat' 2, '19 299' 2, '22 268' 2, '21 December 2026' 2, '3% and 6%' 2, 'Nedbank' 2, '1 395' 1, '42 624' 1, '1 558' 1, '60 524' 1, '1 047' 1; 'US$34.8', 'US$22.2' and '78 &#8211; 80' are split by entities in the bytes and were read in the tag-stripped text (gem.txt): 'generating revenue of US$34.8 million (Q3 2025: US$25.7 million)', 'Four diamonds sold for more than US$1.0 million each, contributing US$22.2 million', 'Carats recovered (Kct) 75 – 78 78 – 80', 'Carats sold (Kct) 77 – 80 79 – 81', 'Carats sold 42 624 17 899 60 524 22 830 67 190', 'Total value (US$ millions) 59.5 34.8 94.3 25.7 70.4', 'positively revising its FY2026 guidance', 'Following strong operational performance and cost containment', 'which contributed to the higher US$ per carat achieved', 'commercial terms and conditions are currently being finalised with Nedbank Limited and Standard Bank', 'demand and prices for Letšeng quality diamonds are firm'. Arithmetic, ours: 17,899 / 22,830 = 0.784 -> 21.6% fewer; 1,945 / 1,124 = 1.730 -> 73% more; 34.8 / 25.7 = 1.354 -> +35%; 22.2 / 34.8 = 0.638 -> 64%; 34.8m / 17,899 = $1,944. The four stones above $1m and the Jubilee: the release does not say the Jubilee is one of the four, and this page does not say so. Gem says 'US$'; this page writes '$'. ARCHIVE, by entity: 'Gem Diamonds' 4 hits and 'Letšeng' 2 hits in website/content/articles.json (tools/archive-hits.py, the Editor, 4 November); the 24 August H1 piece and the 29 July Q1 piece are Gem's own. Ours: Q1 2026 (29 July) and H1 2026 ($1,395, 24 August) | new: Q3 2026 and revised 2026 guidance: ADVANCED, not a repeat. Q3 is not set against H1 as one measure.",
+   "prior": [
+    {
+     "date": "2026-08-24",
+     "slug": "thirteen-ninety-five-a-carat",
+     "claim": "Gem Diamonds' half-year averaged $1,395 a carat, up 38%."
+    },
+    {
+     "date": "2026-07-29",
+     "slug": "gem-diamonds-rides-the-big-ones",
+     "claim": "Gem leaned on large stones in a soft first quarter."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Gem Diamonds, Q3 2026 Trading Update (RNS)",
+     "url": "https://www.investegate.co.uk/announcement/rns/gem-diamonds-ltd-di---gemd/q3-2026-trading-update/9856835",
+     "published": "2026-11-04"
+    }
+   ]
+  },
+  "next": {
+   "slug": "thirteen-ninety-five-a-carat",
+   "why": "Letšeng's first half, the window before this one."
+  },
+  "corrections": []
+ },
+ "petra-diamonds-signs-advance-payment-deal-of-at-least-20m": {
+  "v": 3,
+  "kicker": "Diamond miners",
+  "figures": {
+   "asof": "Petra Diamonds, Q1 FY 2027 Operating Update, 4 November 2026; quarter to 30 September 2026.",
+   "cells": [
+    {
+     "n": "$20m",
+     "dir": "up",
+     "label": "Advance payments, at least",
+     "q": "revolving, against run-of-mine output",
+     "src": 0
+    },
+    {
+     "n": "$63",
+     "dir": "down",
+     "label": "Average price per carat",
+     "q": "Q1 FY2027, against $76 in Q4",
+     "src": 0
+    },
+    {
+     "n": "$21m",
+     "dir": "down",
+     "label": "Revenue",
+     "q": "Q1 FY2027, against $30m in Q4",
+     "src": 0
+    },
+    {
+     "n": "$348m",
+     "dir": "up",
+     "label": "Consolidated net debt",
+     "q": "30 September, against $322m on 30 June",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Cash against future output.",
+   "text": "Petra's Cullinan mine signed a binding agreement under which a buyer advances at least $20m against its run-of-mine production. Petra's senior lender agreed to hold off enforcement."
+  },
+  "means": [
+   {
+    "who": "If you buy Cullinan rough:",
+    "text": "The advances cover all future run-of-mine output. Petra does not name the buyer or the price terms."
+   },
+   {
+    "who": "If you lend to Petra:",
+    "text": "The senior lender pauses action on specified defaults for up to 12 months, on conditions."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A refinancing. Petra calls it short-term liquidity while its review continues."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Petra's quarter against the one before",
+   "hi": 2,
+   "asof": "Petra Diamonds, Q1 FY 2027 Operating Update, 4 November 2026",
+   "cols": [
+    "Measure",
+    "Q4 FY2026",
+    "Q1 FY2027"
+   ],
+   "rows": [
+    [
+     "Revenue, $m",
+     "30",
+     "21"
+    ],
+    [
+     "Carats sold",
+     "395,005",
+     "329,948"
+    ],
+    [
+     "Average price, $ per carat",
+     "76",
+     "63"
+    ],
+    [
+     "Net debt, $m, quarter end",
+     "322",
+     "348"
+    ],
+    [
+     "Unrestricted cash, $m, quarter end",
+     "9",
+     "7"
+    ]
+   ],
+   "note": "As stated in the release text. Petra's operating summary table gives Q4 carats sold as 396,398. Revenue excludes profit-share arrangements.",
+   "plate": "CC/2026/347"
+  },
+  "sections": [
+   {
+    "h": "The lender pauses enforcement.",
+    "p": [
+     {
+      "lead": "Forbearance tied in.",
+      "text": "As a condition of the advance deal, Petra's senior secured lender will not act on specified defaults. The pause ends after 12 months or on full repayment of the advances, whichever is earlier."
+     },
+     {
+      "lead": "Three paths reviewed.",
+      "text": "Petra began a strategic review on 1 October. It covers short-term liquidity, a consensual refinancing and a possible sale of assets."
+     },
+     {
+      "lead": "Debt rose to $348m.",
+      "text": "Consolidated net debt rose to $348m on 30 September, from $322m on 30 June. Unrestricted cash was $7m."
+     },
+     {
+      "lead": "Exit without penalty.",
+      "text": "Cullinan may end the agreement at any time without penalty once outstanding amounts are settled. Petra says the terms are in line with similar agreements."
+     }
+    ]
+   },
+   {
+    "h": "Prices fell on a weaker mix.",
+    "p": [
+     {
+      "lead": "Average down c. 18%.",
+      "text": "Petra realised $63 a carat against $76 in the prior quarter, on revenue of $21m. It cites a weaker product mix and fewer Type II diamonds."
+     },
+     {
+      "lead": "Down 43% on year.",
+      "text": "Petra's own table puts revenue 43% below the same quarter a year earlier, on 18% more carats. Its year-ago figures exclude Finsch."
+     }
+    ]
+   },
+   {
+    "h": "Dublin suspended the notes.",
+    "p": [
+     {
+      "lead": "Notes followed shares.",
+      "text": "Euronext Dublin suspended Petra's second lien notes due 2030 on 2 November, Petra says, as an automatic result of the late accounts. Petra will seek restoration of shares and notes after publishing."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "No date set by Petra",
+    "what": "Audited results for the year to 30 June 2026. The test: whether shares and notes return to trading."
+   },
+   {
+    "when": "Up to 12 months from the letter, date not given",
+    "what": "The end of the forbearance period. The test: whether the review produces a refinancing or a sale first."
+   }
+  ],
+  "depth": {
+   "reverse": "A signed refinancing or an asset sale under the strategic review would replace this short-term support and change the call.",
+   "built": {
+    "title": "How the advance works",
+    "text": "The buyer makes revolving advance payments against future run-of-mine production. The release gives the minimum, $20m, but no price, tenor or name."
+   },
+   "method": "Petra Diamonds, 'Q1 FY 2027 Operating Update, Entry into Binding Advance Payment Agreement, Business and Strategic Review Update', dated '04 November 2026' in the body, read at Investegate. Fetched by the Editor at 06:04 EST 4 November 2026 with tools/door.py, 200, 222,085 bytes (newsroom/sources/2026-11-04/desk/petra.html; the Bureau's capture was 222,115, a sidebar difference). Read from the announcement text with Investegate's 'Summary by AI BETA' block removed. Grep of the raw bytes: 'US$20 million' 1, '329,948' 5, '395,005' 1, '396,398' 2, 'US$63/ct' 3, 'US$76/ct' 2, 'US$21 million' 2, 'US$30 million' 1, 'c. 18%' 2, 'US$348 million' 1, 'US$322 million' 1, 'US$7 million' 2, 'US$9 million' 1, 'mid-stream diamantaire' 1, 'without penalty' 1, 'Type II' 1, '278,968' 2, '-43%' 1, '+18%' 1. Text: 'has entered a binding Advance Payment Agreement with a mid-stream diamantaire group', 'will make available at least US$20 million through revolving advance payments for all future run-of-mine production', 'in line with other agreements of this type', 'Cullinan Mine may terminate this agreement at any time without penalty, provided that any outstanding amounts are settled in full', 'will not take enforcement action on specified defaults until the earlier of 12 months from the date of the letter or full repayment', 'subject to certain ongoing conditions being met', 'A strategic review commenced on 1 October', 'decreased c. 18% compared to Q4 FY 2026 due to a weaker product mix and lower occurrence of Type II diamonds', 'Euronext Dublin has confirmed by announcement on 2 November 2026 a temporary suspension of listing and trading of the second lien notes due 2030', 'an automatic consequence of such delays', 'FY26 numbers exclude Finsch'. The operating summary table gives Q1 FY2026 revenue $36m and 278,968 carats, with variances '-43%' and '+18%' as printed; its Q4 carats sold read 396,398 against the text's 395,005, and the table note is carried. Arithmetic, ours: 63 / 76 = 0.829 on rounded figures; the company's 'c. 18%' is printed as its own. The letter's date, the buyer's name, the price terms and the tenor are not in the release and are not printed. ARCHIVE, by entity: 'Petra' 10 hits in website/content/articles.json; 'Advance Payment' 0 hits (tools/archive-hits.py, the Editor, 4 November). Ours: the listing suspension of 2 November (3 November) | new: Q1 FY2027 and the advance-payment agreement: ADVANCED, not a repeat. No holder figure is printed here.",
+   "prior": [
+    {
+     "date": "2026-11-03",
+     "slug": "fca-suspends-petra-diamonds-listing",
+     "claim": "The FCA suspended Petra's listing from 2 November."
+    },
+    {
+     "date": "2026-10-19",
+     "slug": "petra-treasury-unit-is-wound-up",
+     "claim": "A court wound up Petra's treasury unit over a £5.65m tax claim."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Petra Diamonds, Q1 FY 2027 Operating Update and Advance Payment Agreement (RNS)",
+     "url": "https://www.investegate.co.uk/announcement/prn/petra-diamonds-ltd-di---pdl/q1-fy-2027-business-strategic-review-and-ope-/9857127",
+     "published": "2026-11-04"
+    }
+   ]
+  },
+  "next": {
+   "slug": "fca-suspends-petra-diamonds-listing",
+   "why": "The suspension this deal is meant to carry Petra through."
+  },
+  "corrections": []
+ },
+ "monaco-legend-reports-22-26m-and-every-lot-sold": {
+  "v": 3,
+  "kicker": "Watch auctions",
+  "figures": {
+   "asof": "Monaco Legend Group journal, 2 November 2026, for the sale the weekend before; April figures from the house's journal of 29 April and 5 May 2026.",
+   "cells": [
+    {
+     "n": "€22.26m",
+     "dir": "flat",
+     "label": "Total sales",
+     "q": "the house's figure",
+     "src": 0
+    },
+    {
+     "n": "100%",
+     "dir": "up",
+     "label": "Sell-through",
+     "q": "the house's figure; 98.3% in April",
+     "src": 0
+    },
+    {
+     "n": "€1,858,000",
+     "dir": "up",
+     "label": "Top lot, Rolex 6062",
+     "q": "Lot 50, with buyer's premium",
+     "src": 0
+    },
+    {
+     "n": "€26.47m",
+     "dir": "flat",
+     "label": "April sale total",
+     "q": "288 lots, the house's figure",
+     "src": 1
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Every lot sold.",
+   "text": "Monaco Legend Group reports total sales of €22.26m at its Exclusive Timepieces auction, with 100% of lots sold. Its April sale sold 98.3%."
+  },
+  "means": [
+   {
+    "who": "If you consign vintage watches:",
+    "text": "Every lot found a buyer. The house gives no lot count or estimate total, so depth against April cannot be judged."
+   },
+   {
+    "who": "If you price Patek complications:",
+    "text": "A 2499/100 made €1,424,000 and a 3974 €1,144,000, both with premium."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A like-for-like fall. The total is 15.9% below April's, on an unstated lot count."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "The six highest results the house names",
+   "hi": 0,
+   "asof": "Monaco Legend Group journal, 2 November 2026; prices include buyer's premium",
+   "cols": [
+    "Lot",
+    "Watch",
+    "Price, €"
+   ],
+   "rows": [
+    [
+     "50",
+     "Rolex 6062 Triple Calendar Moonphase, steel",
+     "1,858,000"
+    ],
+    [
+     "234",
+     "Patek Philippe 2499/100, yellow gold, 1982",
+     "1,424,000"
+    ],
+    [
+     "181",
+     "Patek Philippe 3974, yellow gold, 1990",
+     "1,144,000"
+    ],
+    [
+     "40",
+     "Nautilus ref. 3700/1, white gold, 1978",
+     "858,000"
+    ],
+    [
+     "80",
+     "Cloisonné enamel ref. 4724, yellow gold",
+     "702,000"
+    ],
+    [
+     "30",
+     "Vacheron Constantin 'Cioccolatone' ref. 4764",
+     "494,000"
+    ]
+   ],
+   "note": "The house names sixteen results; these are its six highest. It does not name the maker of Lot 80.",
+   "plate": "CC/2026/348"
+  },
+  "sections": [
+   {
+    "h": "A Rolex led the weekend.",
+    "p": [
+     {
+      "lead": "Goldberger provenance led.",
+      "text": "Lot 50, a steel Rolex 6062 Triple Calendar Moonphase, made €1,858,000 with premium. It was bought new in 1955 and joined John Goldberger's collection in 2017."
+     },
+     {
+      "lead": "Two Pateks above €1m.",
+      "text": "A Patek Philippe 2499/100 closed the sale at €1,424,000, and a Patek 3974 made €1,144,000."
+     }
+    ]
+   },
+   {
+    "h": "April made more on 288 lots.",
+    "p": [
+     {
+      "lead": "Spring was larger.",
+      "text": "The April sale made €26.47m across 288 lots, with 98.3% sold, the house said then."
+     },
+     {
+      "lead": "Totals only compare.",
+      "text": "November's total is 15.9% below April's. The house gives no lot count or estimate for November, so only the totals can be set side by side."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "7 and 8 November 2026",
+    "what": "Phillips' Geneva Watch Auction XXIV. The test: how a second autumn total compares with its spring sale."
+   },
+   {
+    "when": "Next Monaco Legend sale, date not announced",
+    "what": "The house's next Exclusive Timepieces auction. The test: whether it again sells every lot."
+   }
+  ],
+  "depth": {
+   "reverse": "A November lot count well below April's 288 would make the lower total a smaller sale rather than a weaker one.",
+   "built": {
+    "title": "How the total is reported",
+    "text": "The house publishes its own total and sell-through rate. The lot prices it names include buyer's premium; the release does not say whether the total does."
+   },
+   "method": "Monaco Legend Group journal, 'A Landmark Auction Weekend in Monaco', dated '02 November 2026', describing 'this weekend's Exclusive Timepieces auction in Monaco'; the body gives no sale dates, so none is printed. Fetched by the Editor at 06:04 EST 4 November 2026 with tools/door.py, 200, 61,940 bytes (newsroom/sources/2026-11-04/desk/monaco.html), the same byte count as the Bureau's capture. Grep of the raw bytes: '22,260,000' 2, '100% sell-through' 2, '1,858,000' 4, '1,424,000' 2, '1,144,000' 4, '858,000' 6 (it also sits inside 1,858,000), '702,000' 2, '494,000' 2, '1955' 2, '2017' 2, 'Goldberger' 6. Text: 'an exceptional 100% sell-through rate, with total sales reaching €22,260,000', 'LOT 50 – ROLEX 6062 €1,858,000 incl. buyers premium', 'Originally purchased in 1955', 'entering the collection of renowned watch scholar John Goldberger in 2017', 'becoming the highest-selling lot of the auction', 'Closing the auction in spectacular fashion, this superb yellow-gold fourth-series reference 2499/100', 'Dating to 1982', 'This early yellow-gold example from 1990', 'An exceptionally rare early Nautilus from 1978', 'mid-century Vacheron Constantin'. Sixteen 'LOT' results named (grep 16). April: journal of 29 April, 200, 49,156 bytes (mlg106.html), 'total sales of €26.47 million and an exceptional 98.3% sell-through rate'; journal of 5 May, 200, 45,609 bytes (mlg107.html), 'Across 288 lots, the auction achieved €26.46 million'. The house prints April two ways; this page uses €26.47m, the figure in its results release. Arithmetic, ours: 22.26 / 26.47 = 0.841 -> 84.1% of April -> 15.9% below (15.9% on €26.46m too). Single source: the house's own figures; no independent report of the total was found in one web search by the Bureau, and none is claimed. ARCHIVE, by entity: 'Monaco Legend' 1 hit (23 September, a Sotheby's sale that names the house in passing, opened), 'Goldberger' 0 hits (tools/archive-hits.py, the Editor, 4 November). Ours: no Monaco Legend result | new: the sale reported 2 November: NEW.",
+   "prior": [
+    {
+     "date": "2026-11-03",
+     "slug": "phillips-offers-cartier-portico-clock-no-4",
+     "claim": "Phillips offers Cartier Portico No. 4 in Geneva on 7 and 8 November."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Monaco Legend Group, A Landmark Auction Weekend in Monaco",
+     "url": "https://www.monacolegendauctions.com/posts/a-landmark-auction-weekend-in-monaco-119",
+     "published": "2026-11-02"
+    },
+    {
+     "title": "Monaco Legend Group, €26.47M achieved in Exclusive Timepieces Monaco Auction",
+     "url": "https://www.monacolegendauctions.com/posts/eur2647m-achieved-in-exclusive-timepieces-monaco-auction-106",
+     "published": "2026-04-29"
+    },
+    {
+     "title": "Monaco Legend Group, Monaco delivers a focused market",
+     "url": "https://www.monacolegendauctions.com/posts/monaco-delivers-a-focused-market-rewards-quality-and-r-107",
+     "published": "2026-05-05"
+    }
+   ]
+  },
+  "next": {
+   "slug": "phillips-offers-cartier-portico-clock-no-4",
+   "why": "The next big watch weekend, in Geneva."
   },
   "corrections": []
  }

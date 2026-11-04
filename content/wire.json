@@ -1,31 +1,31 @@
 {
  "date_line": "Sunday, October 18, 2026 | Vol. I - No. 090",
- "edition": "Vol. I - No. 102",
+ "edition": "Vol. I - No. 103",
  "items": [
   {
-   "slug": "central-banks-buy-321-tonnes-of-gold-in-q3",
-   "desk": "Gold & Metals",
-   "title": "Central banks buy 321.2t of gold in Q3; jewellery down 17% on year"
+   "slug": "gem-diamonds-letseng-sells-at-1945-a-carat-in-q3",
+   "desk": "Diamonds",
+   "title": "Gem Diamonds' Letšeng averages $1,945 a carat in Q3, up 73% on year"
   },
   {
-   "slug": "fca-suspends-petra-diamonds-listing",
-   "desk": "Diamonds & Rough",
-   "title": "FCA suspends Petra Diamonds' listing with its audit unfinished"
+   "slug": "petra-diamonds-signs-advance-payment-deal-of-at-least-20m",
+   "desk": "Diamonds",
+   "title": "Petra Diamonds signs advance-payment deal worth at least $20m"
   },
   {
-   "slug": "phillips-offers-cartier-portico-clock-no-4",
-   "desk": "Watches",
-   "title": "Phillips estimates Cartier Portico clock No. 4 at CHF 1.8m to 3.2m"
+   "slug": "monaco-legend-reports-22-26m-and-every-lot-sold",
+   "desk": "Auctions",
+   "title": "Monaco Legend reports €22.26m and 100% sell-through at its watch sale"
   }
  ],
- "tape_ts": "Kitco bid, board stamp 2026-10-30T17:00:00Z, tape's 05:00 ET opening mark 31 Oct",
+ "tape_ts": "Kitco bid, board stamp 2026-11-04T04:59:28-05:00, tape's 05:00 ET opening mark 4 Nov",
  "tape": [
   {
    "name": "Gold / oz",
    "code": "XAU",
-   "px": "3,874.40",
-   "chg": "−3.0% vs 30 Oct mark",
-   "dir": "down",
+   "px": "4,041.90",
+   "chg": "+2.9390% vs 3 Nov mark",
+   "dir": "up",
    "pts": [
     5,
     6,
@@ -80,9 +80,9 @@
   {
    "name": "Platinum / oz",
    "code": "XPT",
-   "px": "1,429.00",
-   "chg": "−0.6% vs 30 Oct mark",
-   "dir": "down",
+   "px": "1,459.00",
+   "chg": "+2.8189% vs 3 Nov mark",
+   "dir": "up",
    "pts": [
     2,
     4,
@@ -99,9 +99,9 @@
   {
    "name": "Silver / oz",
    "code": "XAG",
-   "px": "49.004",
-   "chg": "−3.5% vs 30 Oct mark",
-   "dir": "down",
+   "px": "51.893",
+   "chg": "+4.7074% vs 3 Nov mark",
+   "dir": "up",
    "pts": [
     2,
     4,
@@ -116,5 +116,5 @@
    ]
   }
  ],
- "editionDate": "2026-11-03"
+ "editionDate": "2026-11-04"
 }

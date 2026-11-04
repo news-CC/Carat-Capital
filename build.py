@@ -208,6 +208,39 @@ if LAB.get("headline"):
 # editions running and the Editor patched it by hand each morning. The date is the prior tape file
 # that tools/prev-mark.py says the change was measured against. If the tape cannot be read, the
 # typed text stands untouched: this lock only ever replaces a date with a date read from data.
+# Clock labels on the homepage are read from data, never typed (Standards 3 Nov, ME order 2, 4 Nov).
+# "06:00 ET" and "05:00 bid" were literals, true only when the Editor printed at 06:00 on a 05:00 tape;
+# on 3 Nov the tape was a 13:51 EST read printed at 14:43. The tape clock is the gold mark's sourceDate
+# in the edition's own tape file; the print clock is this build's own clock in New York.
+def _ny_clock(_dt):
+    try:
+        from zoneinfo import ZoneInfo as _ZI
+        _dt = _dt.astimezone(_ZI("America/New_York"))
+    except Exception:
+        pass
+    return _dt.strftime("%H:%M ") + (_dt.tzname() or "ET")
+
+def _tape_clock():
+    _edd = WIRE.get("editionDate") or ""
+    _tp = ROOT.parent / "newsroom" / "tape" / ("%s.json" % _edd)
+    if _edd and not _tp.exists():
+        _tp = ROOT / "content" / "tape" / ("%s.json" % _edd)
+    try:
+        _marks = {m.get("key"): m for m in json.loads(_tp.read_text()).get("marks", [])}
+        return _ny_clock(datetime.datetime.fromisoformat(_marks["gold_spot"]["sourceDate"]))
+    except Exception:
+        return ""
+
+def _print_clock():
+    return _ny_clock(datetime.datetime.now(datetime.timezone.utc))
+
+def _idx_clock():
+    try:
+        _b = datetime.datetime.fromisoformat(IDX.get("built") or "")
+        return _ny_clock(_b) + " " + _b.strftime("%-d %b")
+    except Exception:
+        return ""
+
 def _lock_metal_qualifiers():
     _map = {"XAU": "gold_spot", "XAG": "silver_spot", "XPT": "platinum_spot"}
     _edd = WIRE.get("editionDate") or ""
@@ -1921,7 +1954,7 @@ def indices_page():
         f'color:var(--ink-3);margin-top:10px;line-height:1.7">{l}</span></div>')
 
     return f"""{head("The Carat Indices — the listed jewelry world, marked to market — Carat Capital",
-      "Five proprietary indices computed daily from exchange closes: the Jewelry Twenty, the Maisons, the Counter, the Pit and the Movement.",
+      "Five proprietary indices computed daily from the latest exchange prices: the Jewelry Twenty, the Maisons, the Counter, the Pit and the Movement.",
       "indices.html")}
 {navbar()}{omenu()}
 
@@ -3525,7 +3558,7 @@ def index_page():
 
     # ── the running tape ──
     tape_rows = [[t["name"].upper(), t["px"], _dircls(t.get("dir")), t.get("chg","")] for t in tape[:6]]
-    tape_rows.append(["EDITION", ed_short or "—", "up", "● PRINTED 06:00 ET"])
+    tape_rows.append(["EDITION", ed_short or "—", "up", "● PRINTED " + _print_clock()])
     tape_rows.append(["SPECIMEN TAPE", "illustrative", "fl", "not quoted"])
 
     # ── the price desk tabs: the Carat indices, drawn from their real series ──
@@ -3552,8 +3585,8 @@ def index_page():
                 "st": {"w1": x["w1p"], "m1": x["m1p"], "ytd": x["ytdp"],
                        "hi": x["hi"], "lo": x["lo"], "dd": x["mddp"]},
                 "dek": x["dek"],
-                "ft": ("Drawn from exchange closes · equal weight, base 100 = "
-                       "first trading day of the year · as of %s" % IDX["as_of"])})
+                "ft": ("Drawn from each exchange's last price at %s, intraday where a market was open · equal weight, base 100 = "
+                       "first trading day of the year · as of %s" % (_idx_clock() or "build", IDX["as_of"]))})
     else:
         _ph, _lh = PRICES.get("headline", {}), LAB.get("headline", {})
         _px_src = {}
@@ -3711,9 +3744,9 @@ def index_page():
       "__SPOT_AG_LINE__": "SILVER %s / OZ &middot; %s" % (spot_ag_txt, str((xag or {}).get("chg","")).upper()),
       "__SPOT_LINE__": "GOLD %s / OZ &middot; %s" % (spot_txt, str((xau or {}).get("chg","")).upper()),
       # the price desk's stamp: the tape's own as-of, never a frozen date
-      "__PX_ASOF__": (("The Carat indices · computed %s · exchange closes" % IDX["as_of"]) if IDX
+      "__PX_ASOF__": (("The Carat indices · computed %s · last prices, intraday where a market was open" % (_idx_clock() or IDX["as_of"])) if IDX
                       else "Metals " + (" · ".join((asof or "").split(" · ")[:2]) or dateline)),
-      "__ALSO_HOOK__": _hook, "__ALSO_LINE__": _hook[:1].lower() + _hook[1:],
+      "__TAPE_CLOCK__": _tape_clock() or "the tape's own time", "__ALSO_HOOK__": _hook, "__ALSO_LINE__": _hook[:1].lower() + _hook[1:],
       "__ASOF__": asof, "__ASOF_SHORT__": asof_short,
       "__DATELINE__": dateline, "__EDITION__": edition,
       "__EDITION_SHORT__": ed_short, "__DATE_SHORT__": _short_date(dateline),

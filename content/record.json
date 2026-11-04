@@ -6,6 +6,30 @@
    "label": "This week - August 20 to September 23",
    "entries": [
     {
+     "d": "diamonds",
+     "h": "A Petra holder's vote count rose; the page said its stake fell",
+     "t": "Corrected 4 November 2026: fca-suspends-petra-diamonds-listing.html (No. 102, 3 November 2026) said \"Azvalor's stake fell\" and that the forms did not say which way either holder moved. Azvalor's votes rose from 48,038,053 to 49,416,725 and Terris's from 90,529,412 to 95,905,121; both percentages fell on 19,219,980 new shares Petra issued on 1 July. Terris's 27.04% is now dated 1 July, the loan-notes line says the notice names the notes without saying whether they are affected, and the holders table names JOSIVAR third. What was right as published: every percentage and date. Raised by Carat Capital's Standards desk on 3 November 2026.",
+     "s": "Carat Capital, a-fca-suspends-petra-diamonds-listing.html; Petra Diamonds TR-1 notices and Application for admission of shares, Investegate"
+    },
+    {
+     "d": "gold-metals",
+     "h": "A WGC table left out a row, and a hedge was dropped",
+     "t": "Clarified 4 November 2026: central-banks-buy-321-tonnes-of-gold-in-q3.html (No. 102, 3 November 2026) omitted the council's jewellery inventory row (27.2 tonnes; 43.6 in Q3 2025), so its table did not sum to its total, and said the council \"ties\" the ETF inflow to fiscal concerns where the council says it \"seemed\" driven by them \"among other things\". Both fixed; three wording changes on the same page. No printed figure changed. Raised by Carat Capital's Standards desk on 3 November 2026.",
+     "s": "Carat Capital, a-central-banks-buy-321-tonnes-of-gold-in-q3.html; World Gold Council, Gold Demand Trends Q3 2026"
+    },
+    {
+     "d": "gold-metals",
+     "h": "The homepage printed 06:00 clocks on a 13:51 tape",
+     "t": "Clarified 4 November 2026: the homepage of No. 102 (3 November 2026) said \"PRINTED 06:00 ET\", \"melt value, at the tape's 05:00 bid\", \"struck 06:00 ET\" and \"priced by 06:00 ET\". That tape was read at 13:51 EST and the edition went live at 14:43 EST. The labels were fixed text in the builder; from No. 103 they are read from the tape's own timestamp and the build clock. The same homepage called the Carat indices' 3 November point \"exchange closes\" when it was computed at 13:54 EST with New York open; the label now gives the computing time and says prices are intraday where a market was open. No printed figure changed. Raised by Carat Capital's Standards desk on 3 November 2026.",
+     "s": "Carat Capital, index.html (No. 102); Carat Capital tape, 3 November 2026; content/indices.json"
+    },
+    {
+     "d": "retail-tech",
+     "h": "A Lao Feng Xiang cell dropped 'low-yield'",
+     "t": "Clarified 4 November 2026: lao-feng-xiang-ends-september-with-4809-outlets.html (No. 101, 31 October 2026) labelled 537 closures \"Franchise stores closed\"; the company's count is of low-yield franchise stores in tier-3 and tier-4 cities. On the same edition, cartier-sapphire-ring-makes-205400-euros-at-bonhams-paris.html said sapphires without treatment indications \"led\" (one led, one tied fourth) and that five of six named lots beat their high estimates without saying Bonhams chose the six. All three lines fixed. No printed figure changed. Raised by Carat Capital's Standards desk on 3 November 2026.",
+     "s": "Carat Capital, a-lao-feng-xiang-ends-september-with-4809-outlets.html; a-cartier-sapphire-ring-makes-205400-euros-at-bonhams-paris.html"
+    },
+    {
      "d": "gold-metals",
      "h": "An SNB line called an intraday tape read a 'mark'",
      "t": "Clarified 3 November 2026: snb-books-1-2-billion-gold-gain-after-h1-loss.html (No. 101, 31 October 2026) said dollar gold fell 7.6% 'from its 30 September mark'. That mark was the tape's intraday read of 30 September, not a close; the line now says 'intraday read'. What was right as published: 7.6% and $3,874.40. Raised by Carat Capital's Managing Editor on 31 October 2026.",
