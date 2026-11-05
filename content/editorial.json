@@ -150200,7 +150200,7 @@
     "title": "What an estimate is",
     "text": "An estimate is the range the house expects bidding to reach, agreed with the consignor. It is not a price. JCK's page does not say whether these figures include buyer's premium."
    },
-   "method": "JCK, 'Sotheby's Geneva Sale Led by 8.63-Ct. Pink Diamond That Could Fetch $6M', byline 'By Annie Davidson Watson | October 28, 2026'. Captured by the Bureau at 04:31 EDT 30 October 2026 (door.py 200, 113,788 bytes, newsroom/bureau/raw/2026-10-30/jck-sothebys.html); the Editor re-fetched it at 06:09 EDT (door.py 200, 113,788 bytes, identical by cmp) and read the article's body paragraphs only. Raw-byte hits: '8.63' 16, 'CHF 3.3 million' 2, '2.88' 3, '8.11' 1, '18.03' 1, '5.027' 1, '69.44' 1, '580,000' 1, '1883' 2, '35 Burmese' 1, '130,000' 1, 'Nov. 11' 5, 'October 28, 2026' 1. Every estimate on this page is read in its sentence there; the claims file and its hit counts are in newsroom/sources/2026-10-30/desk/. Per carat: 5,000,000 / 8.63 = 579,374, printed as about CHF 579,000; 3,300,000 / 8.63 = 382,387. Christie's 24-carat high estimate a carat, 15,000,000 / 24 = 625,000, is from this paper's 9 October page. Sotheby's own release and catalogue were not read for this page, so every figure is attributed to JCK. JCK quotes a statement by Jessica Wyndham, Sotheby's head of high jewelry in Geneva; no quote is used. Source verbs: JCK says 'estimated', 'carries', 'pegged at', 'lists ... as unheated'; this page says estimated, carries and lists. ARCHIVE, by entity and event: no Carat Capital row names Sotheby's High Jewelry sale in Geneva of 11 November 2026 (python over website/content/articles.json for 'Sotheby' with 'Geneva', 30 Oct; the Bureau's archive-hits.py returned 4 rows, all other sales). Ours: nothing on this sale | new: Sotheby's Geneva, 11 November 2026: NEW.",
+   "method": "JCK, 'Sotheby's Geneva Sale Led by 8.63-Ct. Pink Diamond That Could Fetch $6M', byline 'By Annie Davidson Watson | October 28, 2026'. Captured by the Bureau at 04:31 EDT 30 October 2026; the Editor re-fetched it at 06:09 EDT and read the article's body paragraphs only. Raw-byte hits: '8.63' 16, 'CHF 3.3 million' 2, '2.88' 3, '8.11' 1, '18.03' 1, '5.027' 1, '69.44' 1, '580,000' 1, '1883' 2, '35 Burmese' 1, '130,000' 1, 'Nov. 11' 5, 'October 28, 2026' 1.Per carat: 5,000,000 / 8.63 = 579,374, printed as about CHF 579,000; 3,300,000 / 8.63 = 382,387. Christie's 24-carat high estimate a carat, 15,000,000 / 24 = 625,000, is from this paper's 9 October page. Sotheby's own release and catalogue were not read for this page, so every figure is attributed to JCK. JCK quotes a statement by Jessica Wyndham, Sotheby's head of high jewelry in Geneva; no quote is used. Source verbs: JCK says 'estimated', 'carries', 'pegged at', 'lists... as unheated'; this page says estimated, carries and lists.",
    "prior": [
     {
      "date": "2026-10-17",
@@ -150754,7 +150754,7 @@
     "title": "How the gold line moves",
     "text": "The SNB reports a valuation gain or loss on gold holdings that were unchanged in volume. The line therefore moves with the franc gold price between reporting dates."
    },
-   "method": "Swiss National Bank, 'Interim results of the Swiss National Bank as at 30 September 2026', ad hoc announcement dated '30 October 2026' in the body; fetched by the Editor on 31 October 2026, door.py 200, 72,832 bytes (newsroom/sources/2026-10-31/desk/pre_20261030.html, the Bureau's count was the same). Tag-stripped text: 'profit of CHF 44.2 billion', 'CHF 43.3 billion', 'valuation gain of CHF 1.2 billion', 'unchanged in volume terms', 'CHF 112,118 per kilogram', 'end-2025: CHF 110,919', 'CHF 29.8 billion', 'CHF 23.7 billion', 'CHF 22.6 billion', 'only provisional conclusions are possible' each read in its sentence. Half-year release 'as at 30 June 2026', dated '31 July 2026' (the Bureau's capture, 72,781 bytes, newsroom/bureau/raw/2026-10-31/snb-h1.html): 'profit of CHF 25.2 billion', 'CHF 31.7 billion', 'valuation loss of CHF 6.4 billion', 'CHF 104,812 per kilogram at the end of June 2026'. Arithmetic, ours: 1.2 − (−6.4) = 7.6; 44.2 − 25.2 = 19.0; 43.3 − 31.7 = 11.6; 112,118 / 104,812 = 1.0697 -> +7.0%; 112,118 − 104,812 = 7,306; 7.6bn / 7,306 = 1.04m kg; on the SNB's one-decimal rounding (7.55 to 7.65) the range is about 1,033 to 1,047 tonnes; the nine-month check, 1.2bn / (112,118 − 110,919 = 1,199) = 1.0m kg, agrees within its wider rounding. Components do not sum: 43.3 + 1.2 + 0.1 = 44.6 against 44.2; 31.7 − 6.4 + 0.1 = 25.4 against 25.2; no share of profit is printed. Dollar gold: tape 30 September 2026 gold_spot 4,191.6 (Kitco, sessionStatus intraday, read 04:58Z); tape 31 October 2026 gold_spot 3,874.4, Kitco bid, originalTime 2026-10-30T17:00:00Z, Friday's New York close; 3,874.4 / 4,191.6 = 0.9243 -> 7.6% lower. No franc rate was read, so no franc price for October is given. English wires carried the results on 30 October; a CNBC headline figure of $23 billion is not in the release and is not used. Source verbs: the SNB says 'reports', 'recorded', 'remained unchanged'; this page says recorded, books, reports. ARCHIVE, by entity: 'Swiss National Bank' 0 rows and 'SNB' 0 hits in website/content/articles.json (archive-hits.py and a substring search, the Bureau, 31 Oct). Ours: nothing on the SNB | new: nine months to 30 September 2026: NEW.",
+   "method": "Swiss National Bank, 'Interim results of the Swiss National Bank as at 30 September 2026', ad hoc announcement dated '30 October 2026' in the body; fetched by the Editor on 31 October 2026, 72,832 bytes. Tag-stripped text: 'profit of CHF 44.2 billion', 'CHF 43.3 billion', 'valuation gain of CHF 1.2 billion', 'unchanged in volume terms', 'CHF 112,118 per kilogram', 'end-2025: CHF 110,919', 'CHF 29.8 billion', 'CHF 23.7 billion', 'CHF 22.6 billion', 'only provisional conclusions are possible' each read in its sentence. Half-year release 'as at 30 June 2026', dated '31 July 2026': 'profit of CHF 25.2 billion', 'CHF 31.7 billion', 'valuation loss of CHF 6.4 billion', 'CHF 104,812 per kilogram at the end of June 2026'. Arithmetic, ours: 1.2 − (−6.4) = 7.6; 44.2 − 25.2 = 19.0; 43.3 − 31.7 = 11.6; 112,118 / 104,812 = 1.0697 -> +7.0%; 112,118 − 104,812 = 7,306; 7.6bn / 7,306 = 1.04m kg; on the SNB's one-decimal rounding (7.55 to 7.65) the range is about 1,033 to 1,047 tonnes; the nine-month check, 1.2bn / (112,118 − 110,919 = 1,199) = 1.0m kg, agrees within its wider rounding. Components do not sum: 43.3 + 1.2 + 0.1 = 44.6 against 44.2; 31.7 − 6.4 + 0.1 = 25.4 against 25.2; no share of profit is printed. Dollar gold: tape 30 September 2026 gold_spot 4,191.6 (Kitco, sessionStatus intraday, read 04:58Z); tape 31 October 2026 gold_spot 3,874.4, Kitco bid, originalTime 2026-10-30T17:00:00Z, Friday's New York close; 3,874.4 / 4,191.6 = 0.9243 -> 7.6% lower. No franc rate was read, so no franc price for October is given. English wires carried the results on 30 October; a CNBC headline figure of $23 billion is not in the release and is not used. Source verbs: the SNB says 'reports', 'recorded', 'remained unchanged'; this page says recorded, books, reports.",
    "prior": [
     {
      "date": "2026-10-30",
@@ -150943,7 +150943,7 @@
     "title": "Estimate against result",
     "text": "An estimate is the house's pre-sale range. Dividing the result by the high estimate shows how far bidding ran past it; a figure under 1.0 means the lot sold inside or below the range."
    },
-   "method": "Bonhams, press release 41838, header 'Fine Jewellery, Paris 29 Oct 2026', listed in the Bonhams press RSS with pubDate 30 October 2026 11:16 UTC (the Bureau's capture, 899,995 bytes). Fetched by the Editor on 31 October 2026, door.py 200, 44,470 bytes (newsroom/sources/2026-10-31/desk/41838.html; the Bureau's count was the same). Tag-stripped text: 'The top lot was a Cartier sapphire and diamond ring', 'weighing 11.5 carats with no indications of treatment', '€205,400', '€40,000–60,000', '€83,800', '€15,000–20,000', 'Madame Paulette', '81.17 carats', '€64,600', '€60,000–80,000', '4.23 carats', '€46,680' (two lots), '€23,000-33,000', '€16,000-26,000', 'approximately 22 carats, with no indications of any treatment', '€32,500', '€6,000-10,000' each read in its sentence. The release says the sapphire made 'five times its pre-sale estimate'; that is the low-estimate ratio (205,400 / 40,000 = 5.1) and is not used. Arithmetic, ours: 205,400 / 60,000 = 3.42; 83,800 / 20,000 = 4.19; 64,600 / 80,000 = 0.81; 46,680 / 33,000 = 1.41; 46,680 / 26,000 = 1.80; 32,500 / 10,000 = 3.25, shown as 3.3. The release gives no sale total, no sell-through and no premium basis, and names no laboratory report; 'untreated' and 'no indications of treatment' are the house's descriptions. The Chaumet 12.5-carat sapphire (estimate €45,000 to €65,000 in the 10 October preview) is not in the release: no result for it is printed. One quotation from a Bonhams specialist is in the release and is not used. Source verbs: the house says 'achieved', 'realised', 'exceeded'; this page says made and beat. ARCHIVE, by entity: 'Bonhams' 20 rows in website/content/articles.json (the Bureau, 31 Oct); the 10 October preview, eighty-one-carats-of-paraiba-in-paris, opened and read. Ours: preview of the 29 October sale, 10 October | new: its results: ADVANCED.",
+   "method": "Bonhams, press release 41838, header 'Fine Jewellery, Paris 29 Oct 2026', listed in the Bonhams press RSS with pubDate 30 October 2026 11:16 UTC (the Bureau's capture, 899,995 bytes). Fetched by the Editor on 31 October 2026, 44,470 bytes. Tag-stripped text: 'The top lot was a Cartier sapphire and diamond ring', 'weighing 11.5 carats with no indications of treatment', '€205,400', '€40,000–60,000', '€83,800', '€15,000–20,000', 'Madame Paulette', '81.17 carats', '€64,600', '€60,000–80,000', '4.23 carats', '€46,680' (two lots), '€23,000-33,000', '€16,000-26,000', 'approximately 22 carats, with no indications of any treatment', '€32,500', '€6,000-10,000' each read in its sentence. The release says the sapphire made 'five times its pre-sale estimate'; that is the low-estimate ratio (205,400 / 40,000 = 5.1) and is not used. Arithmetic, ours: 205,400 / 60,000 = 3.42; 83,800 / 20,000 = 4.19; 64,600 / 80,000 = 0.81; 46,680 / 33,000 = 1.41; 46,680 / 26,000 = 1.80; 32,500 / 10,000 = 3.25, shown as 3.3. The release gives no sale total, no sell-through and no premium basis, and names no laboratory report; 'untreated' and 'no indications of treatment' are the house's descriptions. The Chaumet 12.5-carat sapphire (estimate €45,000 to €65,000 in the 10 October preview) is not in the release: no result for it is printed. One quotation from a Bonhams specialist is in the release and is not used. Source verbs: the house says 'achieved', 'realised', 'exceeded'; this page says made and beat.",
    "prior": [
     {
      "date": "2026-10-10",
@@ -151145,7 +151145,7 @@
     "title": "How the council counts demand",
     "text": "Total demand adds jewellery, technology, investment and central bank buying, plus an 'OTC and other' line. In this table total demand equals total supply in every quarter."
    },
-   "method": "World Gold Council, 'Gold Demand Trends Q3 2026', page dated '3 November, 2026' (1 hit). Fetched by the Editor at 14:06 EST 3 November 2026 with tools/door.py, 200, 87,353 bytes (newsroom/sources/2026-11-03/desk/wgc.html), the same byte count as the Bureau's 13:52 capture. Table 1 read from the tag-stripped text: Q3'26 central banks 321.2, jewellery consumption 312.9, jewellery inventory 27.2 (Q3'25 43.6, −38%), jewellery inventory 27.2 (Q3'25 43.6, −38%), jewellery inventory 27.2 (Q3'25 43.6, −38%), jewellery inventory 27.2 (Q3'25 43.6, −38%), jewellery inventory 27.2 (Q3'25 43.6, −38%), bar and coin 267.8, ETFs 211.2, technology 84.8, OTC and other 143.5, total demand 1,368.6, mine production 1,070.9, recycled 314.5, LBMA price 4,262.2; Q3'25 226.3, 376.4, 328.6, 225.7, 82.0, 100.6, 1,383.2; Q1'26 central banks 57.7; Q2'26 total 1,254.5, central banks 296.3, ETFs −47.3. Text: 'Central bank buying jumped to 321t', 'Jewellery demand fell 17% y/y to 313t, the weakest third quarter in our data series', 'Demand value edged up 2% y/y to US$43bn', 'demand of 3,881t virtually matches the 2025 record (3,884t)', 'investors waited for a clearer price trend to emerge', 'The inflow seemed to be driven by mounting concerns over fiscal sustainability and inflation, among other things', 'a third quarter record', 'a three-year low of 314t', 'Central bank buying likely to at least match 2025'. Grep of the raw bytes, single-quoted: '1,368.6' 2, '321.2' 1, '312.9' 1, '211.2' 1, '267.8' 1, '4,262.2' 1, '1,254.5' 2, '296.3' 1. Q2 as first published: the council's Q2 2026 page, fetched 14:06 EST with door.py, 200, 86,782 bytes (wgc-q2.html), Table 1 Q2'26 total demand 1,268.9, central banks 288.9, Q3'25 total 1,370.6. Arithmetic, ours: 321.2 / 226.3 = 1.419 -> +42%; 312.9 / 376.4 = 0.831 -> −17%; 1,368.6 / 1,383.2 = 0.989 -> −1%; 3,884 − 3,881 = 3; tape gold 3,926.5 (Kitco bid, 13:51 EST 3 November, newsroom/tape/2026-11-03.json, the tape's intraday read, not a close) / 4,262.2 = 0.921 -> 7.9% below. Not used: a Reuters headline of 3 November saying the council lowered its outlook for investment demand growth; its body was not read, and the council's own outlook says ETF, bar and coin demand will 'remain resilient'. Source verbs: the council says 'jumped', 'fell', 'edged up', 'adding'; this page says bought, fell, rose, added. ARCHIVE, by entity: 'Gold Demand Trends' 2 hits and 'World Gold Council' 21 hits in website/content/articles.json (tools/archive-hits.py, 3 November); the two Q2 pieces of 31 July and 2 August opened. Ours: Q2 2026 | new: Q3 2026: NEW, same series, new period.",
+   "method": "World Gold Council, 'Gold Demand Trends Q3 2026', page dated '3 November, 2026' (1 hit). Fetched at 14:06 EST 3 November 2026, the same byte count as the Bureau's 13:52 capture. Table 1 read from the tag-stripped text: Q3'26 central banks 321.2, jewellery consumption 312.9, jewellery inventory 27.2 (Q3'25 43.6, −38%), jewellery inventory 27.2 (Q3'25 43.6, −38%), jewellery inventory 27.2 (Q3'25 43.6, −38%), jewellery inventory 27.2 (Q3'25 43.6, −38%), jewellery inventory 27.2 (Q3'25 43.6, −38%), bar and coin 267.8, ETFs 211.2, technology 84.8, OTC and other 143.5, total demand 1,368.6, mine production 1,070.9, recycled 314.5, LBMA price 4,262.2; Q3'25 226.3, 376.4, 328.6, 225.7, 82.0, 100.6, 1,383.2; Q1'26 central banks 57.7; Q2'26 total 1,254.5, central banks 296.3, ETFs −47.3. Text: 'Central bank buying jumped to 321t', 'Jewellery demand fell 17% y/y to 313t, the weakest third quarter in our data series', 'Demand value edged up 2% y/y to US$43bn', 'demand of 3,881t virtually matches the 2025 record (3,884t)', 'investors waited for a clearer price trend to emerge', 'The inflow seemed to be driven by mounting concerns over fiscal sustainability and inflation, among other things', 'a third quarter record', 'a three-year low of 314t', 'Central bank buying likely to at least match 2025'. Grep of the raw bytes, single-quoted: '1,368.6' 2, '321.2' 1, '312.9' 1, '211.2' 1, '267.8' 1, '4,262.2' 1, '1,254.5' 2, '296.3' 1. Q2 as first published: the council's Q2 2026 page, fetched 14:06 EST, 86,782 bytes, Table 1 Q2'26 total demand 1,268.9, central banks 288.9, Q3'25 total 1,370.6. Arithmetic, ours: 321.2 / 226.3 = 1.419 -> +42%; 312.9 / 376.4 = 0.831 -> −17%; 1,368.6 / 1,383.2 = 0.989 -> −1%; 3,884 − 3,881 = 3; tape gold 3,926.5 / 4,262.2 = 0.921 -> 7.9% below. Not used: a Reuters headline of 3 November saying the council lowered its outlook for investment demand growth; its body was not read, and the council's own outlook says ETF, bar and coin demand will 'remain resilient'. Source verbs: the council says 'jumped', 'fell', 'edged up', 'adding'; this page says bought, fell, rose, added.",
    "prior": [
     {
      "date": "2026-08-02",
@@ -151334,7 +151334,7 @@
     "title": "How the deadline works",
     "text": "Under DTR 4.1.3R a listed company publishes its annual financial report within four months of its year end. Petra's year ended 30 June, so its deadline was 31 October."
    },
-   "method": "Petra Diamonds, 'Suspension of Listing and Trading', dated '2 November 2026' in the body, published 07:00 on Investegate (company page row '02 Nov 2026 07:00 AM PRN'). Fetched by the Editor at 14:06 EST 3 November 2026 with tools/door.py, 200, 58,818 bytes (newsroom/sources/2026-11-03/desk/petra.html; the Bureau's 13:52 capture was 58,817 and the rough desk's of 2 November 57,517, differences in the page's sidebar). Read from the notice text only, not from the AI summary Investegate prints above it: 'has not published its annual financial report for the year ended 30 June 2026 by the deadline of 31 October 2026 under DTR 4.1.3R', 'with effect from 07:30 (UK time) today', 'Trading in those shares on the Main Market of the London Stock Exchange has also been suspended', 'The Group audit remains in progress', 'as soon as practicable', 'subject to the agreement of the FCA and the London Stock Exchange respectively', 'Restoration will not be automatic upon publication, and there can be no certainty as to its timing'; boilerplate: 'The Company's loan notes, due in 2030, are listed on EuroNext Dublin'. TR-1 forms, door.py 200: Terris (87,538 bytes, pdl-9838904.html) 'The Terris Fund Ltd., SAC', 'Nassau', 'An event changing the breakdown of voting rights', threshold '01-Jul-2026', notified '22-Oct-2026', '27.040000', previous '28.302660', 95,905,121 voting rights; Azvalor (87,626 bytes, pdl-9834158.html) 'Azvalor Asset Management SGIIC SA', 'Madrid', 'An acquisition or disposal of voting rights; An event changing the breakdown of voting rights', threshold '16-Oct-2026', notified '19-Oct-2026', '13.934000', previous '15.018400', 49,416,725 voting rights. Both holders' vote counts rose against their previous notices: Terris from 90,529,412 (threshold 27-Nov-2025, Investegate 9303488) and Azvalor from 48,038,053 (threshold 03-Dec-2025, Investegate 9297628). The percentages fell because Petra admitted 19,219,980 shares to pay the June 2026 coupon, taking its share capital to 354,640,773 ('Application for admission of shares', 1 July 2026, Investegate 9645954). Check: 49,416,725 / 354,640,773 = 13.934%; 95,905,121 / 354,640,773 = 27.04%. Third on the TR-1 record: JOSIVAR S.à r.l., 13.703793%, 43,833,195 votes, threshold 28-Nov-2025 (Investegate 9291559), no later notice on the company page as read on 3 November. Each digit grepped in the raw bytes Standards saved on 3 November (newsroom/sources/2026-11-03/standards/prim/), one hit or more each. Company page (door.py 200, 82,021 bytes, pdl.html): no Petra announcement after 2 November at 14:07 EST. The four-month rule is the FCA's DTR 4.1.3R, named in the notice. ARCHIVE, by entity: 'Petra' 9 hits in website/content/articles.json (archive-hits.py, the Bureau, 3 November); 23 October piece opened, it reads 'expects its shares to be suspended'; 'Terris' 0 hits and 'Azvalor' 0 hits (archive-hits.py, the Editor, 3 November). Ours: expected suspension, 22 October notice | new: suspension in effect 2 November, restoration terms, October holder filings: ADVANCED, not a repeat.",
+   "method": "Petra Diamonds, 'Suspension of Listing and Trading', dated '2 November 2026' in the body, published 07:00 on Investegate (company page row '02 Nov 2026 07:00 AM PRN'). Fetched at 14:06 EST 3 November 2026. Read from the notice text only, not from the AI summary Investegate prints above it: 'has not published its annual financial report for the year ended 30 June 2026 by the deadline of 31 October 2026 under DTR 4.1.3R', 'with effect from 07:30 (UK time) today', 'Trading in those shares on the Main Market of the London Stock Exchange has also been suspended', 'The Group audit remains in progress', 'as soon as practicable', 'subject to the agreement of the FCA and the London Stock Exchange respectively', 'Restoration will not be automatic upon publication, and there can be no certainty as to its timing'; boilerplate: 'The Company's loan notes, due in 2030, are listed on EuroNext Dublin'. TR-1 forms Terris 'The Terris Fund Ltd., SAC', 'Nassau', 'An event changing the breakdown of voting rights', threshold '01-Jul-2026', notified '22-Oct-2026', '27.040000', previous '28.302660', 95,905,121 voting rights; Azvalor 'Azvalor Asset Management SGIIC SA', 'Madrid', 'An acquisition or disposal of voting rights; An event changing the breakdown of voting rights', threshold '16-Oct-2026', notified '19-Oct-2026', '13.934000', previous '15.018400', 49,416,725 voting rights. Both holders' vote counts rose against their previous notices: Terris from 90,529,412 (threshold 27-Nov-2025, Investegate 9303488) and Azvalor from 48,038,053 (threshold 03-Dec-2025, Investegate 9297628). The percentages fell because Petra admitted 19,219,980 shares to pay the June 2026 coupon, taking its share capital to 354,640,773 ('Application for admission of shares', 1 July 2026, Investegate 9645954). Check: 49,416,725 / 354,640,773 = 13.934%; 95,905,121 / 354,640,773 = 27.04%. Third on the TR-1 record: JOSIVAR S.à r.l., 13.703793%, 43,833,195 votes, threshold 28-Nov-2025 (Investegate 9291559), no later notice on the company page as read on 3 November. Each digit grepped in the raw bytes Standards saved on 3 November, one hit or more each. Company page: no Petra announcement after 2 November at 14:07 EST. The four-month rule is the FCA's DTR 4.1.3R, named in the notice.",
    "prior": [
     {
      "date": "2026-10-23",
@@ -151547,7 +151547,7 @@
     "title": "How an estimate is read",
     "text": "Phillips' estimates exclude buyer's premium, and its prices achieved include hammer plus premium, the release says. An estimate and a result are not like for like."
    },
-   "method": "Phillips in Association with Bacs & Russo, 'Phillips to offer Cartier Portico Mystery Clock No. 4 at the Geneva Watch Auction: XXIV', dateline 'GENEVA – 27 OCTOBER 2026'. PDF fetched by the Editor at 14:06 EST 3 November 2026 with tools/door.py, 200, 326,174 bytes (newsroom/sources/2026-11-03/desk/portico.pdf, the same count as the Bureau's), text layer extracted with pypdf, 3 pages, 9,556 characters (portico.txt). Grep of the extracted text: '1,800,000' 1, '3,200,000' 1, '3,932,000' 1, '38.5' 1, '10.6' 1, 'Lot 220' 1, '7 & 8 November' 3, '1996' 3; read in their sentences: 'one of only six examples of the series created between 1923 and 1925', 'the only Portico known with a hexagonal dial', 'Lot 220 with an estimate of CHF 1,800,000–3,200,000', 'Formerly the property of Alain Cartier – grandson of Louis Cartier', 'last offered publicly at The Magical Art of Cartier in Geneva on 19 November 1996', 'Reputedly, the clock had once belonged to the Maharajah of Nawanagar', 'Cartier Certificate of Authenticity dated 2002', 'Preview: 4–7 November 2026', 'Hotel President', 'the only two with square rather than round columns', 'rose-quartz columns and 12-sided carved rock-crystal dial', 'Estimates do not include buyer's premium; prices achieved include the hammer price plus buyer's premium'. Arithmetic, ours: 3,200,000 / 3,932,000 = 0.814 -> 81.4% of No. 3's price -> 18.6% below. No dollar figure: the release prices in francs and no rate was read. Not used: JCK's estimate of CHF 1.8m to 3.6m and its 'up to $3.9M' headline (2 November), and a Rapaport 'USD 4M' headline; neither is in the release. ARCHIVE, by entity: 'Portico' 0 hits, 'Geneva Watch Auction' 4 hits (none names this sale or lot), 'Cartier' with 'clock' 1 hit, a Patek piece of 17 October (archive-hits.py, the Editor, 3 November). Ours: none on this lot | new: Lot 220, sale 7 and 8 November: NEW. Filed under watches for the clock and the sale; the auctions desk filed the same release.",
+   "method": "Phillips in Association with Bacs & Russo, 'Phillips to offer Cartier Portico Mystery Clock No. 4 at the Geneva Watch Auction: XXIV', dateline 'GENEVA – 27 OCTOBER 2026'. PDF fetched at 14:06 EST 3 November 2026, text layer read, 3 pages, 9,556 characters. Times each string appears in the text: '1,800,000' 1, '3,200,000' 1, '3,932,000' 1, '38.5' 1, '10.6' 1, 'Lot 220' 1, '7 & 8 November' 3, '1996' 3; read in their sentences: 'one of only six examples of the series created between 1923 and 1925', 'the only Portico known with a hexagonal dial', 'Lot 220 with an estimate of CHF 1,800,000–3,200,000', 'Formerly the property of Alain Cartier – grandson of Louis Cartier', 'last offered publicly at The Magical Art of Cartier in Geneva on 19 November 1996', 'Reputedly, the clock had once belonged to the Maharajah of Nawanagar', 'Cartier Certificate of Authenticity dated 2002', 'Preview: 4–7 November 2026', 'Hotel President', 'the only two with square rather than round columns', 'rose-quartz columns and 12-sided carved rock-crystal dial', 'Estimates do not include buyer's premium; prices achieved include the hammer price plus buyer's premium'. Arithmetic, ours: 3,200,000 / 3,932,000 = 0.814 -> 81.4% of No. 3's price -> 18.6% below. No dollar figure: the release prices in francs and no rate was read. Not used: JCK's estimate of CHF 1.8m to 3.6m and its 'up to $3.9M' headline (2 November), and a Rapaport 'USD 4M' headline; neither is in the release. Filed under watches for the clock and the sale; the auctions desk filed the same release.",
    "prior": [
     {
      "date": "2026-10-01",
@@ -151599,7 +151599,7 @@
     {
      "n": "80,000",
      "dir": "up",
-     "label": "Carats recovered, top of 2026 guidance",
+     "label": "2026 recovery guidance, top",
      "q": "range 78,000 to 80,000, from 75,000 to 78,000",
      "src": 0
     }
@@ -151620,7 +151620,7 @@
    },
    {
     "who": "What this is not:",
-    "text": "A market-wide price rise. Gem's chief executive calls prices firm for Letšeng-quality goods only."
+    "text": "A market-wide price rise. Gem's chief executive calls prices for Letšeng-quality diamonds firm and says nothing of the wider market."
    }
   ],
   "visual": {
@@ -151726,7 +151726,7 @@
     "title": "How the average is set",
     "text": "Gem reports the average as revenue divided by carats sold. Here $34.8m over 17,899 carats gives about $1,944, against the printed $1,945."
    },
-   "method": "Gem Diamonds, 'Q3 2026 Trading Update', RNS dated '04 November 2026' in the body, read at Investegate. Fetched by the Editor at 06:04 EST 4 November 2026 with tools/door.py, 200, 85,655 bytes (newsroom/sources/2026-11-04/desk/gem.html; the Bureau's 04:3x capture was 85,685, the difference in the page's sidebar). Read from the RNS text only, with Investegate's 'Summary by AI BETA' block removed before every grep. Grep of the raw bytes: '1 945' 2, '17 899' 2, '22 830' 2, '1 124' 2, '347 carat' 2, '19 299' 2, '22 268' 2, '21 December 2026' 2, '3% and 6%' 2, 'Nedbank' 2, '1 395' 1, '42 624' 1, '1 558' 1, '60 524' 1, '1 047' 1; 'US$34.8', 'US$22.2' and '78 &#8211; 80' are split by entities in the bytes and were read in the tag-stripped text (gem.txt): 'generating revenue of US$34.8 million (Q3 2025: US$25.7 million)', 'Four diamonds sold for more than US$1.0 million each, contributing US$22.2 million', 'Carats recovered (Kct) 75 – 78 78 – 80', 'Carats sold (Kct) 77 – 80 79 – 81', 'Carats sold 42 624 17 899 60 524 22 830 67 190', 'Total value (US$ millions) 59.5 34.8 94.3 25.7 70.4', 'positively revising its FY2026 guidance', 'Following strong operational performance and cost containment', 'which contributed to the higher US$ per carat achieved', 'commercial terms and conditions are currently being finalised with Nedbank Limited and Standard Bank', 'demand and prices for Letšeng quality diamonds are firm'. Arithmetic, ours: 17,899 / 22,830 = 0.784 -> 21.6% fewer; 1,945 / 1,124 = 1.730 -> 73% more; 34.8 / 25.7 = 1.354 -> +35%; 22.2 / 34.8 = 0.638 -> 64%; 34.8m / 17,899 = $1,944. The four stones above $1m and the Jubilee: the release does not say the Jubilee is one of the four, and this page does not say so. Gem says 'US$'; this page writes '$'. ARCHIVE, by entity: 'Gem Diamonds' 4 hits and 'Letšeng' 2 hits in website/content/articles.json (tools/archive-hits.py, the Editor, 4 November); the 24 August H1 piece and the 29 July Q1 piece are Gem's own. Ours: Q1 2026 (29 July) and H1 2026 ($1,395, 24 August) | new: Q3 2026 and revised 2026 guidance: ADVANCED, not a repeat. Q3 is not set against H1 as one measure.",
+   "method": "Gem Diamonds, 'Q3 2026 Trading Update', RNS dated '04 November 2026' in the body, read at Investegate. Fetched at 06:04 EST 4 November 2026. Read from the RNS text only, with Investegate's 'Summary by AI BETA' block removed before every grep. Times each string appears in the source text: '1 945' 2, '17 899' 2, '22 830' 2, '1 124' 2, '347 carat' 2, '19 299' 2, '22 268' 2, '21 December 2026' 2, '3% and 6%' 2, 'Nedbank' 2, '1 395' 1, '42 624' 1, '1 558' 1, '60 524' 1, '1 047' 1; 'US$34.8', 'US$22.2' and '78 &#8211; 80' are split by entities in the bytes and were read in the tag-stripped text: 'generating revenue of US$34.8 million (Q3 2025: US$25.7 million)', 'Four diamonds sold for more than US$1.0 million each, contributing US$22.2 million', 'Carats recovered (Kct) 75 – 78 78 – 80', 'Carats sold (Kct) 77 – 80 79 – 81', 'Carats sold 42 624 17 899 60 524 22 830 67 190', 'Total value (US$ millions) 59.5 34.8 94.3 25.7 70.4', 'positively revising its FY2026 guidance', 'Following strong operational performance and cost containment', 'which contributed to the higher US$ per carat achieved', 'commercial terms and conditions are currently being finalised with Nedbank Limited and Standard Bank', 'demand and prices for Letšeng quality diamonds are firm'. Arithmetic, ours: 17,899 / 22,830 = 0.784 -> 21.6% fewer; 1,945 / 1,124 = 1.730 -> 73% more; 34.8 / 25.7 = 1.354 -> +35%; 22.2 / 34.8 = 0.638 -> 64%; 34.8m / 17,899 = $1,944. The four stones above $1m and the Jubilee: the release does not say the Jubilee is one of the four, and this page does not say so. Gem says 'US$'; this page writes '$'. Q3 is not set against H1 as one measure.",
    "prior": [
     {
      "date": "2026-08-24",
@@ -151745,6 +151745,9 @@
      "url": "https://www.investegate.co.uk/announcement/rns/gem-diamonds-ltd-di---gemd/q3-2026-trading-update/9856835",
      "published": "2026-11-04"
     }
+   ],
+   "corrections": [
+    "Clarified, 5 November 2026: the desk's view said Gem's chief executive calls prices firm \"for Letšeng-quality goods only\". He says demand and prices for Letšeng quality diamonds are firm and says nothing of other goods; \"only\" was this page's inference and is removed. A key-figure label read \"Carats recovered, top of 2026 guidance\"; 80,000 is the top of the guidance range, not a recovered total, and the label now says so. No printed figure changed. Raised by Carat Capital's Standards desk on 4 November 2026."
    ]
   },
   "next": {
@@ -151763,7 +151766,7 @@
      "n": "$20m",
      "dir": "up",
      "label": "Advance payments, at least",
-     "q": "revolving, against run-of-mine output",
+     "q": "revolving advances against run-of-mine output",
      "src": 0
     },
     {
@@ -151908,7 +151911,7 @@
     "title": "How the advance works",
     "text": "The buyer makes revolving advance payments against future run-of-mine production. The release gives the minimum, $20m, but no price, tenor or name."
    },
-   "method": "Petra Diamonds, 'Q1 FY 2027 Operating Update, Entry into Binding Advance Payment Agreement, Business and Strategic Review Update', dated '04 November 2026' in the body, read at Investegate. Fetched by the Editor at 06:04 EST 4 November 2026 with tools/door.py, 200, 222,085 bytes (newsroom/sources/2026-11-04/desk/petra.html; the Bureau's capture was 222,115, a sidebar difference). Read from the announcement text with Investegate's 'Summary by AI BETA' block removed. Grep of the raw bytes: 'US$20 million' 1, '329,948' 5, '395,005' 1, '396,398' 2, 'US$63/ct' 3, 'US$76/ct' 2, 'US$21 million' 2, 'US$30 million' 1, 'c. 18%' 2, 'US$348 million' 1, 'US$322 million' 1, 'US$7 million' 2, 'US$9 million' 1, 'mid-stream diamantaire' 1, 'without penalty' 1, 'Type II' 1, '278,968' 2, '-43%' 1, '+18%' 1. Text: 'has entered a binding Advance Payment Agreement with a mid-stream diamantaire group', 'will make available at least US$20 million through revolving advance payments for all future run-of-mine production', 'in line with other agreements of this type', 'Cullinan Mine may terminate this agreement at any time without penalty, provided that any outstanding amounts are settled in full', 'will not take enforcement action on specified defaults until the earlier of 12 months from the date of the letter or full repayment', 'subject to certain ongoing conditions being met', 'A strategic review commenced on 1 October', 'decreased c. 18% compared to Q4 FY 2026 due to a weaker product mix and lower occurrence of Type II diamonds', 'Euronext Dublin has confirmed by announcement on 2 November 2026 a temporary suspension of listing and trading of the second lien notes due 2030', 'an automatic consequence of such delays', 'FY26 numbers exclude Finsch'. The operating summary table gives Q1 FY2026 revenue $36m and 278,968 carats, with variances '-43%' and '+18%' as printed; its Q4 carats sold read 396,398 against the text's 395,005, and the table note is carried. Arithmetic, ours: 63 / 76 = 0.829 on rounded figures; the company's 'c. 18%' is printed as its own. The letter's date, the buyer's name, the price terms and the tenor are not in the release and are not printed. ARCHIVE, by entity: 'Petra' 10 hits in website/content/articles.json; 'Advance Payment' 0 hits (tools/archive-hits.py, the Editor, 4 November). Ours: the listing suspension of 2 November (3 November) | new: Q1 FY2027 and the advance-payment agreement: ADVANCED, not a repeat. No holder figure is printed here.",
+   "method": "Petra Diamonds, 'Q1 FY 2027 Operating Update, Entry into Binding Advance Payment Agreement, Business and Strategic Review Update', dated '04 November 2026' in the body, read at Investegate. Fetched at 06:04 EST 4 November 2026. Read from the announcement text with Investegate's 'Summary by AI BETA' block removed. Times each string appears in the source text: 'US$20 million' 1, '329,948' 5, '395,005' 1, '396,398' 2, 'US$63/ct' 3, 'US$76/ct' 2, 'US$21 million' 2, 'US$30 million' 1, 'c. 18%' 2, 'US$348 million' 1, 'US$322 million' 1, 'US$7 million' 2, 'US$9 million' 1, 'mid-stream diamantaire' 1, 'without penalty' 1, 'Type II' 1, '278,968' 2, '-43%' 1, '+18%' 1. Text: 'has entered a binding Advance Payment Agreement with a mid-stream diamantaire group', 'will make available at least US$20 million through revolving advance payments for all future run-of-mine production', 'in line with other agreements of this type', 'Cullinan Mine may terminate this agreement at any time without penalty, provided that any outstanding amounts are settled in full', 'will not take enforcement action on specified defaults until the earlier of 12 months from the date of the letter or full repayment', 'subject to certain ongoing conditions being met', 'A strategic review commenced on 1 October', 'decreased c. 18% compared to Q4 FY 2026 due to a weaker product mix and lower occurrence of Type II diamonds', 'Euronext Dublin has confirmed by announcement on 2 November 2026 a temporary suspension of listing and trading of the second lien notes due 2030', 'an automatic consequence of such delays', 'FY26 numbers exclude Finsch'. The operating summary table gives Q1 FY2026 revenue $36m and 278,968 carats, with variances '-43%' and '+18%' as printed; its Q4 carats sold read 396,398 against the text's 395,005, and the table note is carried. Arithmetic, ours: 63 / 76 = 0.829 on rounded figures; the company's 'c. 18%' is printed as its own. The letter's date, the buyer's name, the price terms and the tenor are not in the release and are not printed. No holder figure is printed here.",
    "prior": [
     {
      "date": "2026-11-03",
@@ -151972,13 +151975,13 @@
    ]
   },
   "changed": {
-   "lead": "Every lot sold.",
-   "text": "Monaco Legend Group reports total sales of €22.26m at its Exclusive Timepieces auction, with 100% of lots sold. Its April sale sold 98.3%."
+   "lead": "The house reports full sell-through.",
+   "text": "Monaco Legend Group reports total sales of €22.26m at its Exclusive Timepieces auction and a 100% sell-through rate. Its April rate was 98.3%."
   },
   "means": [
    {
     "who": "If you consign vintage watches:",
-    "text": "Every lot found a buyer. The house gives no lot count or estimate total, so depth against April cannot be judged."
+    "text": "Every lot offered sold, if the house's rate counts lots; it does not say. It gives no lot count or estimate total, so depth against April cannot be judged."
    },
    {
     "who": "If you price Patek complications:",
@@ -152078,7 +152081,7 @@
     "title": "How the total is reported",
     "text": "The house publishes its own total and sell-through rate. The lot prices it names include buyer's premium; the release does not say whether the total does."
    },
-   "method": "Monaco Legend Group journal, 'A Landmark Auction Weekend in Monaco', dated '02 November 2026', describing 'this weekend's Exclusive Timepieces auction in Monaco'; the body gives no sale dates, so none is printed. Fetched by the Editor at 06:04 EST 4 November 2026 with tools/door.py, 200, 61,940 bytes (newsroom/sources/2026-11-04/desk/monaco.html), the same byte count as the Bureau's capture. Grep of the raw bytes: '22,260,000' 2, '100% sell-through' 2, '1,858,000' 4, '1,424,000' 2, '1,144,000' 4, '858,000' 6 (it also sits inside 1,858,000), '702,000' 2, '494,000' 2, '1955' 2, '2017' 2, 'Goldberger' 6. Text: 'an exceptional 100% sell-through rate, with total sales reaching €22,260,000', 'LOT 50 – ROLEX 6062 €1,858,000 incl. buyers premium', 'Originally purchased in 1955', 'entering the collection of renowned watch scholar John Goldberger in 2017', 'becoming the highest-selling lot of the auction', 'Closing the auction in spectacular fashion, this superb yellow-gold fourth-series reference 2499/100', 'Dating to 1982', 'This early yellow-gold example from 1990', 'An exceptionally rare early Nautilus from 1978', 'mid-century Vacheron Constantin'. Sixteen 'LOT' results named (grep 16). April: journal of 29 April, 200, 49,156 bytes (mlg106.html), 'total sales of €26.47 million and an exceptional 98.3% sell-through rate'; journal of 5 May, 200, 45,609 bytes (mlg107.html), 'Across 288 lots, the auction achieved €26.46 million'. The house prints April two ways; this page uses €26.47m, the figure in its results release. Arithmetic, ours: 22.26 / 26.47 = 0.841 -> 84.1% of April -> 15.9% below (15.9% on €26.46m too). Single source: the house's own figures; no independent report of the total was found in one web search by the Bureau, and none is claimed. ARCHIVE, by entity: 'Monaco Legend' 1 hit (23 September, a Sotheby's sale that names the house in passing, opened), 'Goldberger' 0 hits (tools/archive-hits.py, the Editor, 4 November). Ours: no Monaco Legend result | new: the sale reported 2 November: NEW.",
+   "method": "Monaco Legend Group journal, 'A Landmark Auction Weekend in Monaco', dated '02 November 2026', describing 'this weekend's Exclusive Timepieces auction in Monaco'; the body gives no sale dates, so none is printed. Fetched at 06:04 EST 4 November 2026. Times each string appears in the source text: '22,260,000' 2, '100% sell-through' 2, '1,858,000' 4, '1,424,000' 2, '1,144,000' 4, '858,000' 6 (it also sits inside 1,858,000), '702,000' 2, '494,000' 2, '1955' 2, '2017' 2, 'Goldberger' 6. Text: 'an exceptional 100% sell-through rate, with total sales reaching €22,260,000', 'LOT 50 – ROLEX 6062 €1,858,000 incl. buyers premium', 'Originally purchased in 1955', 'entering the collection of renowned watch scholar John Goldberger in 2017', 'becoming the highest-selling lot of the auction', 'Closing the auction in spectacular fashion, this superb yellow-gold fourth-series reference 2499/100', 'Dating to 1982', 'This early yellow-gold example from 1990', 'An exceptionally rare early Nautilus from 1978', 'mid-century Vacheron Constantin'. Sixteen 'LOT' results named (grep 16). April: journal of 29 April, 'total sales of €26.47 million and an exceptional 98.3% sell-through rate'; journal of 5 May, 'Across 288 lots, the auction achieved €26.46 million'. The house prints April two ways; this page uses €26.47m, the figure in its results release. Arithmetic, ours: 22.26 / 26.47 = 0.841 -> 84.1% of April -> 15.9% below (15.9% on €26.46m too). Single source: the house's own figures; no independent report of the total was found in one web search, and none is claimed.",
    "prior": [
     {
      "date": "2026-11-03",
@@ -152102,11 +152105,611 @@
      "url": "https://www.monacolegendauctions.com/posts/monaco-delivers-a-focused-market-rewards-quality-and-r-107",
      "published": "2026-05-05"
     }
+   ],
+   "corrections": [
+    "Clarified, 5 November 2026: this page said Monaco Legend Group \"says every lot sold\" and that \"every lot found a buyer\". The house reports \"an exceptional 100% sell-through rate\" and does not say whether the rate counts lots or value, nor give a lot count. The dek, the opening line and the consignor line now carry the house's own term. No printed figure changed. Raised by Carat Capital's Standards desk on 4 November 2026."
    ]
   },
   "next": {
    "slug": "phillips-offers-cartier-portico-clock-no-4",
    "why": "The next big watch weekend, in Geneva."
+  },
+  "corrections": []
+ },
+ "royal-gold-q3-revenue-rises-84-percent-to-464-8m": {
+  "v": 3,
+  "kicker": "Gold royalties",
+  "figures": {
+   "asof": "Royal Gold, third-quarter 2026 results, Exhibit 99.1 to Form 8-K, 4 November 2026; quarter to 30 September 2026.",
+   "cells": [
+    {
+     "n": "$464.8m",
+     "dir": "up",
+     "label": "Revenue",
+     "q": "Q3 2026, against $252.1m in Q3 2025",
+     "src": 0
+    },
+    {
+     "n": "$344.4m",
+     "dir": "up",
+     "label": "Operating cash flow",
+     "q": "a record, against $174.0m",
+     "src": 0
+    },
+    {
+     "n": "109,000",
+     "dir": "up",
+     "label": "GEOs sold",
+     "q": "a record, against 72,900",
+     "src": 0
+    },
+    {
+     "n": "$1.4bn",
+     "dir": "flat",
+     "label": "Credit facility undrawn",
+     "q": "after the last $150m, 19 October",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Revenue rose 84%.",
+   "text": "Royal Gold's Q3 revenue was $464.8m against $252.1m a year earlier. Gold brought in $340.3m of it."
+  },
+  "means": [
+   {
+    "who": "If you price gold jewellery:",
+    "text": "Gold averaged $4,262 an ounce in the quarter. The tape's $4,123.20 bid is 3.3% lower."
+   },
+   {
+    "who": "If you hold Royal Gold:",
+    "text": "Earnings per share rose to $2.68 from $1.92, on 84.6m weighted shares against 65.8m."
+   },
+   {
+    "who": "What this is not:",
+    "text": "Growth on the same assets. The year-ago quarter preceded the Sandstorm and Horizon deal of October 2025."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Royal Gold revenue by metal, third quarter, as reported",
+   "hi": 4,
+   "asof": "Royal Gold, Q3 2026 results, revenue summary and average metal prices, 4 November 2026",
+   "cols": [
+    "Line",
+    "Q3 2025",
+    "Q3 2026",
+    "Change"
+   ],
+   "rows": [
+    [
+     "Gold, $m",
+     "196.6",
+     "340.3",
+     "+73%"
+    ],
+    [
+     "Silver, $m",
+     "30.3",
+     "64.1",
+     "+112%"
+    ],
+    [
+     "Copper, $m",
+     "16.4",
+     "45.0",
+     "+175%"
+    ],
+    [
+     "Other metals, $m",
+     "8.8",
+     "15.3",
+     "+74%"
+    ],
+    [
+     "Total revenue, $m",
+     "252.1",
+     "464.8",
+     "+84%"
+    ],
+    [
+     "GEOs sold",
+     "72,900",
+     "109,000",
+     "+50%"
+    ],
+    [
+     "Average gold price, $/oz",
+     "3,457",
+     "4,262",
+     "+23%"
+    ]
+   ],
+   "note": "Figures and changes as printed by Royal Gold. Gold was also 73% of Q3 revenue, a share; the +73% in the gold row is growth. The two are separate figures.",
+   "plate": "CC/2026/349"
+  },
+  "sections": [
+   {
+    "h": "Price and volume both rose.",
+    "p": [
+     {
+      "lead": "Gold up 23%.",
+      "text": "Gold averaged $4,262 an ounce in the quarter against $3,457 a year earlier, the company's table shows. GEOs sold rose 50% to a record."
+     },
+     {
+      "lead": "The deal is inside.",
+      "text": "The year-ago quarter preceded the Sandstorm and Horizon transaction, closed in October 2025. Revenue from South and Central America rose to $111.5m from $32.2m. The release does not split the growth between the deal and the price."
+     }
+    ]
+   },
+   {
+    "h": "Debt repaid in under a year.",
+    "p": [
+     {
+      "lead": "Cash flow nearly doubled.",
+      "text": "Operating cash flow was a record $344.4m against $174.0m a year earlier."
+     },
+     {
+      "lead": "Two years became one.",
+      "text": "Royal Gold had $1.225bn of debt after closing the deal and expected to repay it within two years, its chief executive says. It repaid $250m in the quarter."
+     },
+     {
+      "lead": "The last $150m.",
+      "text": "The remaining $150m went on 19 October, leaving the $1.4bn credit facility undrawn. A final $50m advance for Solaris's Warintza project in Ecuador is documented and due."
+     }
+    ]
+   },
+   {
+    "h": "Gold guidance stays unchanged.",
+    "p": [
+     {
+      "lead": "Gold range holds.",
+      "text": "Royal Gold keeps its 2026 gold sales guidance at 290,000 to 320,000 ounces, with 224,265 sold through September. It expects silver and copper at or above the top of their ranges."
+     },
+     {
+      "lead": "Other metals raised.",
+      "text": "Guidance for other metals revenue rises to $53m to $56m, from a top of $38m."
+     },
+     {
+      "lead": "Shares bought back.",
+      "text": "It repurchased 190,045 shares in the quarter at an average $259.83, for $49m."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Q4 2026 results, date not announced",
+    "what": "Full-year gold sales. The test: whether they reach the 290,000 to 320,000 ounce range, which needs 65,735 to 95,735 more ounces."
+   },
+   {
+    "when": "In the coming days, Royal Gold says",
+    "what": "The final $50m Warintza advance, after its security documents are registered. The test: whether the facility stays undrawn."
+   }
+  ],
+  "depth": {
+   "reverse": "If Royal Gold splits out the interests it acquired and they explain little of the $212.7m rise in revenue, the quarter was the gold price on the old portfolio, not the deal.",
+   "built": {
+    "title": "How a GEO is counted",
+    "text": "Royal Gold defines gold-equivalent ounces as revenue for a period divided by the average LBMA PM gold fixing price for that period. $464.8m over $4,262 gives about 109,057, against the printed 109,000."
+   },
+   "method": "Royal Gold, 'Royal Gold Reports Strong Third Quarter Results, Including Record Operating Cash Flow and Gold Equivalent Ounce Sales, Additional Share Repurchases and Full Repayment of Debt after Quarter End', Exhibit 99.1 to its Form 8-K, dateline 'DENVER, COLORADO. NOVEMBER 4, 2026', read at SEC EDGAR at 06:04 EST 5 November 2026. Text: 'Revenue of $464.8 million (compared to $252.1 million in the prior year period)', 'Record operating cash flow of $344.4 million (compared to $174.0 million in the prior year period)', 'Record sales volume of 109,000 GEOs', 'Repaid the remaining $150 million on the revolving credit facility on October 19, 2026, leaving the full $1.4 billion credit facility undrawn and available', 'We had $1.225 billion of debt outstanding immediately after closing and initially expected to repay it within two years', 'Repurchased 190,045 shares at an average price of $259.83 per share, for total consideration of $49 million', 'Revenue split by commodity: 73% gold, 14% silver, 10% copper'. Revenue table: 'Gold $ 340.3 $ 196.6 73 %', 'Total revenue $ 464.8 $ 252.1 84 %', 'GEOs 109,000 72,900 50 %'. Average prices: 'Gold ($/oz) $4,262 $3,457 23%'. Guidance table: gold 290,000–320,000 oz, 224,265 through 30 September; other metals $34–$38m revised to $53–$56m. Region table: South and Central America $111.5m against $32.2m. Per share: basic $2.68 against $1.92 on 84,622,120 weighted shares against 65,761,896. Arithmetic, ours: 464.8 / 252.1 = 1.844, the release's 84%; 340.3 / 464.8 = 73.2% of revenue; 464.8 - 252.1 = 212.7; 4,123.20 / 4,262 = 0.967, so the tape is 3.3% below the quarter's average; 290,000 - 224,265 = 65,735 and 320,000 - 224,265 = 95,735. The tape figure is Kitco's bid at 04:59 EST 5 November. The release's CEO sentence is paraphrased, not quoted. Net cash used in financing was also $340.3m in the quarter; that figure is not gold revenue and is not used.",
+   "prior": [
+    {
+     "date": "2026-10-30",
+     "slug": "agnico-eagle-output-falls-6-1-percent-in-q3",
+     "claim": "Agnico Eagle's Q3 output fell 6.1% as its realised gold price rose 22.7%."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Royal Gold, third-quarter 2026 results, Exhibit 99.1 to Form 8-K (SEC EDGAR)",
+     "url": "https://www.sec.gov/Archives/edgar/data/85535/000008553526000049/rgld-20261104xexx991.htm",
+     "published": "2026-11-04"
+    }
+   ]
+  },
+  "next": {
+   "slug": "agnico-eagle-output-falls-6-1-percent-in-q3",
+   "why": "A miner's third quarter at the same gold price."
+  },
+  "corrections": []
+ },
+ "pandora-reports-6-percent-q3-organic-growth": {
+  "v": 3,
+  "kicker": "Jewellery brands",
+  "figures": {
+   "asof": "Pandora A/S, Q3 2026 company announcement, 4 November 2026; quarter to 30 September 2026.",
+   "cells": [
+    {
+     "n": "6%",
+     "dir": "flat",
+     "label": "Organic growth",
+     "q": "Q3 2026, same as Q3 2025",
+     "src": 0
+    },
+    {
+     "n": "4%",
+     "dir": "up",
+     "label": "Like-for-like growth",
+     "q": "Q3 2026, against 2% in Q3 2025",
+     "src": 0
+    },
+    {
+     "n": "15.9%",
+     "dir": "up",
+     "label": "EBIT margin",
+     "q": "Q3; includes a 370bp one-off; 14.0% a year earlier",
+     "src": 0
+    },
+    {
+     "n": "1%",
+     "dir": "down",
+     "label": "October like-for-like",
+     "q": "lower promotions, Pandora says",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Growth held at 6%.",
+   "text": "Pandora's third-quarter organic growth was 6%, matching a year earlier, with like-for-like sales up 4%. It narrowed 2026 guidance toward the top of its range."
+  },
+  "means": [
+   {
+    "who": "If you hold Pandora:",
+    "text": "370bp of the 15.9% EBIT margin was a one-off tariff refund; Pandora calls the underlying margin broadly flat."
+   },
+   {
+    "who": "If you compete with charm brands:",
+    "text": "Pandora is taking platinum-plated tests to the US, UK and Australia, for 2027."
+   },
+   {
+    "who": "What this is not:",
+    "text": "An acceleration. Q3 2025 organic growth was 6% too, and October like-for-like slowed to 1%."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Pandora headline figures, as reported",
+   "hi": 1,
+   "asof": "Pandora A/S, Q3 2026 company announcement, summary table, 4 November 2026",
+   "cols": [
+    "Line",
+    "Q3 2025",
+    "Q3 2026",
+    "9M 2026"
+   ],
+   "rows": [
+    [
+     "Revenue, DKKm",
+     "6,269",
+     "6,694",
+     "21,022"
+    ],
+    [
+     "Organic growth",
+     "6%",
+     "6%",
+     "3%"
+    ],
+    [
+     "Like-for-like",
+     "2%",
+     "4%",
+     "1%"
+    ],
+    [
+     "EBIT, DKKm",
+     "880",
+     "1,064",
+     "4,015"
+    ],
+    [
+     "EBIT margin",
+     "14.0%",
+     "15.9%",
+     "19.1%"
+    ]
+   ],
+   "note": "Figures as printed by Pandora. The Q3 2026 margin includes 370bp of one-off income from a partial refund of Pandora's claim against US IEEPA tariffs.",
+   "plate": "CC/2026/351"
+  },
+  "sections": [
+   {
+    "h": "Every region grew like-for-like.",
+    "p": [
+     {
+      "lead": "North America picks up.",
+      "text": "North America accelerated to 3% like-for-like and EMEA improved to 1%."
+     },
+     {
+      "lead": "Asia-Pacific leads.",
+      "text": "Asia-Pacific grew 20% like-for-like and Latin America 6%."
+     },
+     {
+      "lead": "Newer ranges lead.",
+      "text": "The range Pandora calls Fuel with More accelerated to 9% like-for-like; the Core improved to 1%."
+     }
+    ]
+   },
+   {
+    "h": "A one-off lifted Q3's margin.",
+    "p": [
+     {
+      "lead": "Refund in the margin.",
+      "text": "A partial refund of Pandora's claim against US emergency-powers (IEEPA) tariffs added 340bp to the 83.7% gross margin. Without it, the margin rose 100bp, Pandora says."
+     },
+     {
+      "lead": "Underlying margin flat.",
+      "text": "The EBIT margin was 15.9%, up 190bp, with 370bp from the one-off. Pandora calls the underlying margin broadly flat and prints no figure for it."
+     }
+    ]
+   },
+   {
+    "h": "Guidance narrows toward the top.",
+    "p": [
+     {
+      "lead": "A higher floor.",
+      "text": "Pandora now guides 2026 organic growth at 2-3%, previously 0-3%."
+     },
+     {
+      "lead": "Margin range tightens.",
+      "text": "The 2026 EBIT margin guide is 22.5-23%, previously 22-23%."
+     },
+     {
+      "lead": "October slowed.",
+      "text": "Like-for-like growth was 1% in October, which Pandora puts down to lower promotional activity. It says underlying trends remain around 3%."
+     },
+     {
+      "lead": "Platinum plating spreads.",
+      "text": "A platinum-plated jewellery test begun in the Netherlands in July now covers markets including the US, UK and Australia. Pandora plans to start the transition in 2027."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Full-year 2026 report, date not announced",
+    "what": "The year's organic growth. The test: whether it lands at 2-3% after a 1% October."
+   },
+   {
+    "when": "November and December 2026",
+    "what": "Holiday trading. The test: whether like-for-like returns to the roughly 3% underlying trend Pandora cites."
+   }
+  ],
+  "depth": {
+   "reverse": "A full-year report below 2% organic growth would mean October's 1% was the trend rather than the promotions, and the narrowed range was early.",
+   "built": {
+    "title": "How organic growth is built",
+    "text": "Pandora's organic growth is like-for-like growth plus network expansion and other. In Q3 that was 4% plus 2%, giving 6%."
+   },
+   "method": "Pandora A/S, 'Pandora delivers 6% organic growth in Q3 - Guidance narrowed towards upper end', dated '4 November 2026 Company announcement' in the body, read at pandoragroup.com at 06:04 EST 5 November 2026. Text: 'In Q3, Pandora delivered LFL growth of 4% and network expansion and other of 2%, resulting in 6% organic growth', 'LFL growth in North America accelerated to 3% and EMEA improved to 1%', 'Asia-Pacific continued to grow strongly at 20% LFL whilst Latin America delivered 6%', 'LFL growth in the Core improved slightly to 1% LFL whilst Fuel with More accelerated to 9%', 'One-off income from a partial refund of Pandora's US IEEPA tariff claim positively impacted the gross margin by 340bp', 'The Q3 EBIT margin landed at 15.9%, +190bp Y/Y, benefitting 370bp from above mentioned one-off tariff impact. The underlying EBIT margin was broadly flat Y/Y', 'narrowed towards the upper end of the previous ranges to 2-3% organic growth (previously 0-3%) and an EBIT margin of 22.5-23% (previously 22-23%)', 'LFL growth in October was 1%. This was negatively impacted by lower promotional activity. Underlying trends remain healthy at around 3% LFL growth', and the platinum-plated pilot 'initiated in the Netherlands in July'. Summary table: revenue 6,694 against 6,269; organic growth 6% and 6%; LFL 4% and 2%; EBIT 1,064 against 880; margin 15.9% against 14.0%. Arithmetic, ours: 1,064 / 6,694 = 15.9% and 880 / 6,269 = 14.0%, a gap of about 186bp against the printed 190bp. The release sizes the one-off and calls the underlying margin broadly flat without printing an underlying figure; this page prints none. The release also updates a 2027 EBIT margin target to 14-15% including one-offs and 15.5-16.5% excluding them; it does not set those against the 22.5-23% range for 2026, and they are not used here. The chief executive's statement is not quoted.",
+   "prior": [
+    {
+     "date": "2026-10-02",
+     "slug": "one-fifty-million-in-ho-chi-minh",
+     "claim": "Pandora opened a $150m Vietnam plant, lifting crafting capacity 50%."
+    },
+    {
+     "date": "2026-09-16",
+     "slug": "two-medallions-in-the-southern-district",
+     "claim": "Pandora must face FoundRae's copyright suit over its Talisman charms."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Pandora A/S, Q3 2026 company announcement",
+     "url": "https://pandoragroup.com/news/27971",
+     "published": "2026-11-04"
+    }
+   ]
+  },
+  "next": {
+   "slug": "two-medallions-in-the-southern-district",
+   "why": "Pandora credits its Talisman range; the range is in a copyright suit."
+  },
+  "corrections": []
+ },
+ "china-jewellery-gold-falls-33-86-percent-in-nine-months": {
+  "v": 3,
+  "kicker": "China gold demand",
+  "figures": {
+   "asof": "China Gold Association, January to September 2026, via Xinhua, 4 November 2026 15:25 Beijing.",
+   "cells": [
+    {
+     "n": "−33.86%",
+     "dir": "down",
+     "label": "Jewellery",
+     "q": "178.612 tonnes in nine months, on year",
+     "src": 0
+    },
+    {
+     "n": "+26.26%",
+     "dir": "up",
+     "label": "Bars and coins",
+     "q": "444.576 tonnes in nine months, on year",
+     "src": 0
+    },
+    {
+     "n": "+0.28%",
+     "dir": "up",
+     "label": "Total consumption",
+     "q": "684.623 tonnes in nine months, on year",
+     "src": 0
+    },
+    {
+     "n": "−18.71%",
+     "dir": "down",
+     "label": "Domestic mine output",
+     "q": "220.935 tonnes in nine months, on year",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Bars replaced jewellery.",
+   "text": "China's gold jewellery consumption fell 33.86% in the first nine months while bars and coins rose 26.26%, the China Gold Association says. Total consumption rose 0.28%."
+  },
+  "means": [
+   {
+    "who": "If you supply Chinese jewellers:",
+    "text": "The third quarter alone took about 46 tonnes, by subtraction. The fall did not ease."
+   },
+   {
+    "who": "If you sell investment gold:",
+    "text": "Bars and coins are 64.9% of nine-month consumption."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A fall in China's gold buying. Total consumption is still up; the metal moved from the counter to bars and coins."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "China gold consumption and output, tonnes, as reported",
+   "hi": 0,
+   "asof": "China Gold Association via Xinhua, 4 November 2026; H1 as printed 7 August 2026",
+   "cols": [
+    "Line",
+    "First half 2026",
+    "Q3, by subtraction",
+    "Nine months 2026",
+    "Nine months, on year"
+   ],
+   "rows": [
+    [
+     "Jewellery",
+     "132.13",
+     "46.5",
+     "178.612",
+     "−33.86%"
+    ],
+    [
+     "Bars and coins",
+     "339.34",
+     "105.2",
+     "444.576",
+     "+26.26%"
+    ],
+    [
+     "Industrial and other",
+     "n/a",
+     "n/a",
+     "61.434",
+     "+1.41%"
+    ],
+    [
+     "Total consumption",
+     "511.41",
+     "173.2",
+     "684.623",
+     "+0.28%"
+    ],
+    [
+     "Domestic mine output",
+     "n/a",
+     "n/a",
+     "220.935",
+     "−18.71%"
+    ],
+    [
+     "From imported material",
+     "n/a",
+     "n/a",
+     "127.055",
+     "+4.87%"
+    ]
+   ],
+   "note": "Nine-month figures as printed by the association via Xinhua. H1 figures are the association's half-year release as reported by Carat Capital on 7 August. The Q3 column is Carat Capital's subtraction and assumes the half-year figures were not revised.",
+   "plate": "CC/2026/350"
+  },
+  "sections": [
+   {
+    "h": "Jewellery down a third on year.",
+    "p": [
+     {
+      "lead": "Jewellery kept falling.",
+      "text": "Jewellery consumption was 178.612 tonnes in nine months, down 33.86% on the year. At the half it was down 33.88%, so the third quarter did not change the pace."
+     },
+     {
+      "lead": "Higher-value pieces gain.",
+      "text": "The association says jewellery is moving to higher value-added products. Fixed-price pieces, sold at a set price rather than by weight, are taking a growing share."
+     }
+    ]
+   },
+   {
+    "h": "Bars and coins rose on year.",
+    "p": [
+     {
+      "lead": "Investment metal leads.",
+      "text": "Bars and coins reached 444.576 tonnes, up 26.26%, slower than the 28.42% rise at the half."
+     },
+     {
+      "lead": "Direct sales rise.",
+      "text": "The association says direct sales are replacing distributors for investment products. Domestic gold ETFs added 56.114 tonnes, 28.98% less than a year earlier, to hold 303.965 tonnes."
+     }
+    ]
+   },
+   {
+    "h": "Total growth nearly stalled.",
+    "p": [
+     {
+      "lead": "Q3 was softer.",
+      "text": "By subtraction, total consumption was about 173.2 tonnes in the third quarter. The implied year-ago quarter is about 177.5 tonnes, so Q3 was roughly 2.4% lower."
+     }
+    ]
+   },
+   {
+    "h": "Domestic output fell on year.",
+    "p": [
+     {
+      "lead": "Safety work cut output.",
+      "text": "Gold from domestic raw material fell 18.71% on the year to 220.935 tonnes. The association cites safety upgrades at mines and maintenance shutdowns at some key projects."
+     },
+     {
+      "lead": "Overseas mines grew.",
+      "text": "Mines abroad owned by large Chinese gold groups produced 71.126 tonnes, up 15.77%."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Full-year 2026 figures, date not announced",
+    "what": "The association's annual print. The test: whether jewellery ends the year down by about a third, and whether the total stays above 2025's."
+   }
+  ],
+  "depth": {
+   "reverse": "If full-year bar and coin tonnage rises by less than jewellery falls, total consumption declines, and the shift becomes a contraction.",
+   "built": {
+    "title": "How the association counts",
+    "text": "Consumption is the association's sum of jewellery, bars and coins, and industrial and other use. Output here is gold produced from domestic raw material; gold refined from imported material is counted separately."
+   },
+   "method": "China Gold Association figures in a Xinhua dispatch, '前三季度我国黄金产量同比下降 消费量同比微增', stamped '2026-11-04 15:25:58 来源：新华网', dateline '新华社北京11月4日电', read at news.cn at 06:04 EST 5 November 2026. Text: '黄金消费量684.623吨，同比增长0.28%' (consumption 684.623 tonnes, up 0.28%); '黄金首饰178.612吨，同比下降33.86%' (jewellery 178.612 tonnes, down 33.86%); '金条及金币444.576吨，同比增长26.26%' (bars and coins 444.576 tonnes, up 26.26%); '工业及其他用金61.434吨，同比增长1.41%'; '国内原料产金220.935吨，同比下降18.71%' (gold from domestic raw material); '进口原料产金127.055吨，同比增长4.87%'; '大型黄金集团境外矿山产金71.126吨，同比增长15.77%'; '国内黄金ETF增仓量为56.114吨，同比下降28.98%' and '持仓量为303.965吨'. The association's reasons: '受部分重点项目停产检修等因素影响' (some key projects halted for maintenance), '直营销售逐步替代经销模式' (direct sales replacing distribution), '定价类产品销售份额稳步提升' (fixed-price products' share rising). Translations are Carat Capital's. Half-year figures from the association as printed by Carat Capital on 7 August: jewellery 132.13 t (down 33.88%), bars and coins 339.34 t (up 28.42%), total 511.41 t (up 1.23%). Arithmetic, ours: Q3 jewellery 178.612 - 132.13 = 46.5 t; bars and coins 444.576 - 339.34 = 105.2 t; total 684.623 - 511.41 = 173.2 t. Implied year-ago totals: 684.623 / 1.0028 = 682.7 t for nine months, 511.41 / 1.0123 = 505.2 t for the half, so Q3 2025 about 177.5 t and 173.2 / 177.5 = 0.976, about 2.4% lower. Share: 444.576 / 684.623 = 64.9%. These assume the half-year figures were not revised; the dispatch does not say. No claim is made that Carat Capital reported the figures first.",
+   "prior": [
+    {
+     "date": "2026-10-10",
+     "slug": "nine-months-and-twenty-seven-point-four",
+     "claim": "Brand counter gold sat 27.4% below its January peak, a Shuibei report said."
+    },
+    {
+     "date": "2026-08-07",
+     "slug": "one-thirty-two-against-three-thirty-nine",
+     "claim": "The association's half: jewellery 132.13 tonnes, down 33.88%; bars 339.34 tonnes."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Xinhua, China Gold Association figures for the first three quarters of 2026 (Chinese)",
+     "url": "https://www.news.cn/fortune/20261104/df457a1dfae34b38b973eeb048fd3ea3/c.html",
+     "published": "2026-11-04T15:25:58+08:00"
+    }
+   ]
+  },
+  "next": {
+   "slug": "one-thirty-two-against-three-thirty-nine",
+   "why": "The association's first half, the window these nine months contain."
   },
   "corrections": []
  }

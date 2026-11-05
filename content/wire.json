@@ -1,30 +1,30 @@
 {
  "date_line": "Sunday, October 18, 2026 | Vol. I - No. 090",
- "edition": "Vol. I - No. 103",
+ "edition": "Vol. I - No. 104",
  "items": [
   {
-   "slug": "gem-diamonds-letseng-sells-at-1945-a-carat-in-q3",
-   "desk": "Diamonds",
-   "title": "Gem Diamonds' Letšeng averages $1,945 a carat in Q3, up 73% on year"
+   "slug": "royal-gold-q3-revenue-rises-84-percent-to-464-8m",
+   "desk": "Gold & Metals",
+   "title": "Royal Gold's Q3 revenue rises 84% to $464.8m, debt cleared in October"
   },
   {
-   "slug": "petra-diamonds-signs-advance-payment-deal-of-at-least-20m",
-   "desk": "Diamonds",
-   "title": "Petra Diamonds signs advance-payment deal worth at least $20m"
+   "slug": "china-jewellery-gold-falls-33-86-percent-in-nine-months",
+   "desk": "Gold & Metals",
+   "title": "China's nine-month jewellery gold falls 33.86% on year, bars up 26.26%"
   },
   {
-   "slug": "monaco-legend-reports-22-26m-and-every-lot-sold",
-   "desk": "Auctions",
-   "title": "Monaco Legend reports €22.26m and 100% sell-through at its watch sale"
+   "slug": "pandora-reports-6-percent-q3-organic-growth",
+   "desk": "Retail & Technology",
+   "title": "Pandora reports 6% Q3 organic growth and narrows 2026 guidance"
   }
  ],
- "tape_ts": "Kitco bid, board stamp 2026-11-04T04:59:28-05:00, tape's 05:00 ET opening mark 4 Nov",
+ "tape_ts": "Kitco bid, board stamp 2026-11-05T04:59:00-05:00, tape's 05:00 ET opening mark 5 Nov",
  "tape": [
   {
    "name": "Gold / oz",
    "code": "XAU",
-   "px": "4,041.90",
-   "chg": "+2.9390% vs 3 Nov mark",
+   "px": "4,123.20",
+   "chg": "+2.0114% vs 4 Nov mark",
    "dir": "up",
    "pts": [
     5,
@@ -80,8 +80,8 @@
   {
    "name": "Platinum / oz",
    "code": "XPT",
-   "px": "1,459.00",
-   "chg": "+2.8189% vs 3 Nov mark",
+   "px": "1,518.00",
+   "chg": "+4.0439% vs 4 Nov mark",
    "dir": "up",
    "pts": [
     2,
@@ -99,8 +99,8 @@
   {
    "name": "Silver / oz",
    "code": "XAG",
-   "px": "51.893",
-   "chg": "+4.7074% vs 3 Nov mark",
+   "px": "52.577",
+   "chg": "+1.3181% vs 4 Nov mark",
    "dir": "up",
    "pts": [
     2,
@@ -116,5 +116,10 @@
    ]
   }
  ],
- "editionDate": "2026-11-04"
+ "editionDate": "2026-11-05",
+ "printed": {
+  "editionDate": "2026-11-05",
+  "clock": "06:15 EST",
+  "note": "the Editor's press time for this edition, written once at push; build.py reads it so later rebuilds by other desks do not move it"
+ }
 }

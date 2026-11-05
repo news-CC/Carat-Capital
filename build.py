@@ -232,6 +232,12 @@ def _tape_clock():
         return ""
 
 def _print_clock():
+    # caratdesk, 2026-11-05 (Standards, 4 Nov item 3): the stamp floated to whichever desk's push
+    # rebuilt the page last (07:47 on 4 Nov against a 06:35 publish). The Editor writes the press
+    # time into content/wire.json "printed" for the edition; every later rebuild reads it from there.
+    _p = WIRE.get("printed") or {}
+    if _p.get("editionDate") and _p.get("editionDate") == WIRE.get("editionDate") and _p.get("clock"):
+        return _p["clock"]
     return _ny_clock(datetime.datetime.now(datetime.timezone.utc))
 
 def _idx_clock():
