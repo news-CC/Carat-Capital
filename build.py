@@ -3625,7 +3625,9 @@ def index_page():
     if natv and lgdv:
         ledger.append({
           "num": "%.1f&times;" % (natv/lgdv), "lab": "natural : lab", "dk": "#8CC5FF", "desk": "D—01 Diamonds",
-          "move": "Natural one-carat at %s against lab-grown at %s." % (nat["px"], lgd["px"]),
+          # caratcheck 5 Nov low item: the sentence carries what each leg is, not two bare figures.
+          "move": "Natural one-carat RAPI index level %s (%s) against a lab-grown one-carat price of %s (%s). Two different measures." % (
+              nat["px"], _iso_date((PRICES.get("headline") or {}).get("rapi_date", "")) or "undated", lgd["px"], _lab_leg_label()),
           "ctr": "The same look at a fraction of the ticket. Your case has to answer for the difference, out loud.",
           "viz": {"t":"ratio","a":["Natural",natv,"#8CC5FF"],"b":["Lab",lgdv,"rgba(220,234,245,.30)"]},
           "work": ["%s &divide; %s = %.2f&times;" % (nat["px"], lgd["px"], natv/lgdv),
