@@ -1,31 +1,36 @@
 {
  "date_line": "Sunday, October 18, 2026 | Vol. I - No. 090",
- "edition": "Vol. I - No. 104",
+ "edition": "Vol. I - No. 105",
  "items": [
   {
-   "slug": "royal-gold-q3-revenue-rises-84-percent-to-464-8m",
-   "desk": "Gold & Metals",
-   "title": "Royal Gold's Q3 revenue rises 84% to $464.8m, debt cleared in October"
-  },
-  {
-   "slug": "china-jewellery-gold-falls-33-86-percent-in-nine-months",
-   "desk": "Gold & Metals",
-   "title": "China's nine-month jewellery gold falls 33.86% on year, bars up 26.26%"
-  },
-  {
-   "slug": "pandora-reports-6-percent-q3-organic-growth",
+   "slug": "titan-q2-pre-tax-profit-rises-53-percent",
    "desk": "Retail & Technology",
-   "title": "Pandora reports 6% Q3 organic growth and narrows 2026 guidance"
+   "title": "Titan's Q2 pre-tax profit rises 53%, 18% excluding customs gains"
+  },
+  {
+   "slug": "fancy-color-diamond-index-eases-0-1-percent-in-q3",
+   "desk": "Gemstones",
+   "title": "Fancy Color Diamond Index eases 0.1% in Q3, 0.5% below a year ago"
+  },
+  {
+   "slug": "bonhams-estimates-fp-journe-souscription-at-700000",
+   "desk": "Watches",
+   "title": "Bonhams estimates an F.P. Journe Souscription at €700,000 to €1.2m"
+  },
+  {
+   "slug": "brilliant-earth-q3-orders-rise-5-6-percent",
+   "desk": "Retail & Technology",
+   "title": "Brilliant Earth Q3 orders rise 5.6%, average order value falls 3.1%"
   }
  ],
- "tape_ts": "Kitco bid, board stamp 2026-11-05T04:59:00-05:00, tape's 05:00 ET opening mark 5 Nov",
+ "tape_ts": "Kitco bid, board stamp 2026-11-06T04:59:00-05:00, tape's 05:00 ET opening mark 6 Nov",
  "tape": [
   {
    "name": "Gold / oz",
    "code": "XAU",
-   "px": "4,123.20",
-   "chg": "+2.0114% vs 4 Nov mark",
-   "dir": "up",
+   "px": "4,072.10",
+   "chg": "-1.2393% vs 5 Nov mark",
+   "dir": "down",
    "pts": [
     5,
     6,
@@ -80,8 +85,8 @@
   {
    "name": "Platinum / oz",
    "code": "XPT",
-   "px": "1,518.00",
-   "chg": "+4.0439% vs 4 Nov mark",
+   "px": "1,522.00",
+   "chg": "+0.2635% vs 5 Nov mark",
    "dir": "up",
    "pts": [
     2,
@@ -99,9 +104,9 @@
   {
    "name": "Silver / oz",
    "code": "XAG",
-   "px": "52.577",
-   "chg": "+1.3181% vs 4 Nov mark",
-   "dir": "up",
+   "px": "51.984",
+   "chg": "-1.1279% vs 5 Nov mark",
+   "dir": "down",
    "pts": [
     2,
     4,
@@ -116,10 +121,10 @@
    ]
   }
  ],
- "editionDate": "2026-11-05",
+ "editionDate": "2026-11-06",
  "printed": {
-  "editionDate": "2026-11-05",
-  "clock": "06:15 EST",
+  "editionDate": "2026-11-06",
+  "clock": "06:25 EST",
   "note": "the Editor's press time for this edition, written once at push; build.py reads it so later rebuilds by other desks do not move it"
  }
 }

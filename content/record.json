@@ -6,6 +6,48 @@
    "label": "This week - August 20 to September 23",
    "entries": [
     {
+     "d": "retail-tech",
+     "h": "A company's 'broadly flat' margin was printed as a fact",
+     "t": "Clarified 6 November 2026: pandora-reports-6-percent-q3-organic-growth.html (No. 104, 5 November 2026) carried the lead-in \"Underlying margin flat.\" Pandora says its underlying EBIT margin was \"broadly flat\"; taking its 3.7-point one-off from the 15.9% margin leaves about 12.2%, against 14.0% a year earlier, and the release does not reconcile the two. The lead-in now attributes the claim and the arithmetic is printed beside it. No printed figure changed. Raised by Carat Capital's Standards desk on 5 November 2026.",
+     "s": "Carat Capital, a-pandora-reports-6-percent-q3-organic-growth.html; Pandora A/S, Q3 2026 company announcement"
+    },
+    {
+     "d": "gold-metals",
+     "h": "A repayment claim ran in house voice without its date",
+     "t": "Clarified 6 November 2026: royal-gold-q3-revenue-rises-84-percent-to-464-8m.html (No. 104) carried the sub-head \"Debt repaid in under a year.\" without attribution. It is the chief executive's statement (\"just under one year\" after the October 2025 closing), and the page now says so and that the release does not itemise earlier repayments. \"Record\" is attributed to the company. No printed figure changed. Raised by Carat Capital's Standards desk on 5 November 2026.",
+     "s": "Carat Capital, a-royal-gold-q3-revenue-rises-84-percent-to-464-8m.html; Royal Gold Q3 2026 Exhibit 99.1"
+    },
+    {
+     "d": "gold-metals",
+     "h": "Context was printed as the cause of a fall in Chinese mine output",
+     "t": "Clarified 6 November 2026: china-jewellery-gold-falls-33-86-percent-in-nine-months.html (No. 104) carried the lead-in \"Safety work cut output.\" The China Gold Association attributes the fall to factors including maintenance shutdowns at some key projects; safety upgrades are context. The story-so-far line now says the 10 October 27.4% was Carat Capital's arithmetic. No printed figure changed. Raised by Carat Capital's Standards desk on 5 November 2026.",
+     "s": "Carat Capital, a-china-jewellery-gold-falls-33-86-percent-in-nine-months.html; Xinhua, China Gold Association figures"
+    },
+    {
+     "d": "gemstones",
+     "h": "A London auction history had no source and the page's own table contradicted it",
+     "t": "Corrected 6 November 2026: gemfields-sells-all-forty-four.html said \"Jaipur replaced the London room\" and that Gemfields has historically run its emerald auctions from London. No source was cited, and Gemfields' table on the page lists Jaipur or online for all five auctions shown. The sub-head and sentence are replaced. No printed figure changed. Raised by Carat Capital's Standards desk on 5 November 2026.",
+     "s": "Carat Capital, a-gemfields-sells-all-forty-four.html; Gemfields auction announcement, 10 September 2026"
+    },
+    {
+     "d": "auctions",
+     "h": "A house's sell-through claim ran in house voice",
+     "t": "Clarified 6 November 2026: il-ponte-jewellery-sale-totals-over-3-million-euros.html said \"Every lot in the first session sold.\" without attribution. It is Il Ponte's statement (\"100% of lots sold\"), and the page now attributes it in the house's own terms. No printed figure changed. Raised by Carat Capital's Standards desk on 5 November 2026.",
+     "s": "Carat Capital, a-il-ponte-jewellery-sale-totals-over-3-million-euros.html; Il Ponte auction results"
+    },
+    {
+     "d": "diamonds",
+     "h": "Method notes on 36 more pages named desk tools and verdicts",
+     "t": "Clarified 6 November 2026: the Method notes on 36 article pages carried internal archive-test verdicts, the name of a desk tool, the phrase 'saved bytes' and references to working captures. Those are removed; quoted source text, dates and arithmetic stay. Byte counts that date a disclosed limit are kept. No printed figure changed. Raised by Carat Capital's Standards desk on 5 November 2026.",
+     "s": "Carat Capital, 36 article pages"
+    },
+    {
+     "d": "diamonds",
+     "h": "The homepage set an index level against a price midpoint without saying so",
+     "t": "Clarified 6 November 2026: the homepage diamonds line read \"Natural one-carat at 3,876.42 against lab-grown at 475.\" The first figure is a dated RAPI index level and the second a range midpoint on a page last modified in July. The line now names each measure and its date. No printed figure changed. Raised by Carat Capital's Standards desk on 5 November 2026.",
+     "s": "Carat Capital, index.html"
+    },
+    {
      "d": "auctions",
      "h": "A sell-through rate was printed as every lot sold",
      "t": "Clarified 5 November 2026: monaco-legend-reports-22-26m-and-every-lot-sold.html (No. 103, 4 November 2026) said Monaco Legend Group \"says every lot sold\" and that \"every lot found a buyer\". The house reports \"an exceptional 100% sell-through rate\" and gives no lot count, nor whether the rate counts lots or value. The dek, the opening line and the consignor line now carry the house's term; the address is unchanged. No printed figure changed. Raised by Carat Capital's Standards desk on 4 November 2026.",

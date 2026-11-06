@@ -13224,7 +13224,7 @@
    "Every lot sold. Gemfields' commercial-quality emerald auction took $29.6 million, with all 44 lots placed at an average $9.72 a carat. The goods came from Kagem in Zambia.",
    "Price per carat did the work. Revenue rose 16.5% while carats sold fell 10.5%. The gain came from price, not volume. The average realised price of $9.72 a carat sits 30.3% above the $7.46 of the November-December 2025 sale. Against the $4.45 of March 2024, the same grade now realises 118.4% more, and the average has risen at each of the last four commercial auctions.",
    "Zambia takes the proceeds. The proceeds go to Kagem in Zambia, with royalties paid to the government on the full auction prices. Gemfields owns 75% of the mine; Zambia's Industrial Development Corporation holds 25%. Gemfields last sold commercial-quality emeralds in the auction that closed 4 December 2025, and attributes this result to Kagem's production over the past year.",
-   "Jaipur replaced the London room. Customers viewed the lots in person in Jaipur, then bid through a sealed-bid online platform. Gemfields has historically run its emerald auctions from London. Bidding companies numbered 63, against 55 at the last commercial sale. That is the widest field of the five in the release's own table.",
+   "Jaipur replaced the London room. Customers viewed the lots in person in Jaipur, then bid through a sealed-bid online platform. All five auctions in the table above were held in Jaipur or online. Bidding companies numbered 63, against 55 at the last commercial sale. That is the widest field of the five in the release's own table.",
    "The desk's view: If you cut commercial emerald: your rough cost base rose 30.3% since the last sale. Re-price finished goods against $9.72, not $7.46. If you buy at auction: 63 companies bid, against 55 last time. Expect a tighter room. What this is not: a read on fine emerald. That grade sells separately and last cleared at $146.08."
   ],
   "minutes": 2,
@@ -20734,7 +20734,7 @@
    "Buccellati"
   ],
   "body": [
-   "Il Ponte's off-calendar Important Jewellery auction in Milan, held on 7 and 8 October, sold 98% of its lots for over €3 million, the house says. Every lot in the first session sold.",
+   "Il Ponte's off-calendar Important Jewellery auction in Milan, on 7 and 8 October, sold 98% of its lots for over €3 million, the house says. The house says every lot in the first session sold.",
    "A Nardi three-strand coral bead necklace, lot 77, and a Cartier pearl and old-cut diamond choker, lot 92, each sold for €88,200.",
    "A Krauss cabochon tourmaline necklace made €44,100. A Lährm gold chain hung with 17 pocket watches made €41,580, the house says.",
    "A carved jadeite, onyx and diamond belt sold for €41,580. A pair of diamond, coral and jadeite pendant earrings made €37,800.",
@@ -21186,7 +21186,7 @@
   "desk": "gold-metals",
   "date": "2026-11-05",
   "kicker": "Gold & Metals",
-  "lead": true,
+  "lead": false,
   "title": "Royal Gold's Q3 revenue rises 84% to $464.8m, debt cleared in October",
   "dek": "Operating cash flow reached a record $344.4m on 109,000 gold-equivalent ounces sold, against 72,900 a year earlier. The last $150m on its credit facility was repaid on 19 October.",
   "byline": "Carat Capital",
@@ -21199,11 +21199,11 @@
   ],
   "body": [
    "Royal Gold's Q3 revenue was $464.8m against $252.1m a year earlier. Gold brought in $340.3m of it.",
-   "Gold averaged $4,262 an ounce in the quarter against $3,457 a year earlier, the company's table shows. GEOs sold rose 50% to a record.",
+   "Gold averaged $4,262 an ounce in the quarter against $3,457 a year earlier, the company's table shows. GEOs sold rose 50% to what Royal Gold calls a record.",
    "The year-ago quarter preceded the Sandstorm and Horizon transaction, closed in October 2025. Revenue from South and Central America rose to $111.5m from $32.2m. The release does not split the growth between the deal and the price.",
-   "Operating cash flow was a record $344.4m against $174.0m a year earlier.",
+   "Operating cash flow was $344.4m against $174.0m a year earlier, a record, the company says.",
    "Royal Gold had $1.225bn of debt after closing the deal and expected to repay it within two years, its chief executive says. It repaid $250m in the quarter.",
-   "The remaining $150m went on 19 October, leaving the $1.4bn credit facility undrawn. A final $50m advance for Solaris's Warintza project in Ecuador is documented and due.",
+   "The remaining $150m went on 19 October, leaving the $1.4bn credit facility undrawn. Its chief executive says the balance was fully repaid just under a year after closing; the release does not itemise earlier repayments. A final $50m advance for Solaris's Warintza project in Ecuador is documented and due.",
    "Royal Gold keeps its 2026 gold sales guidance at 290,000 to 320,000 ounces, with 224,265 sold through September. It expects silver and copper at or above the top of their ranges.",
    "Guidance for other metals revenue rises to $53m to $56m, from a top of $38m.",
    "It repurchased 190,045 shares in the quarter at an average $259.83, for $49m.",
@@ -21240,7 +21240,7 @@
    "Bars and coins reached 444.576 tonnes, up 26.26%, slower than the 28.42% rise at the half.",
    "The association says direct sales are replacing distributors for investment products. Domestic gold ETFs added 56.114 tonnes, 28.98% less than a year earlier, to hold 303.965 tonnes.",
    "By subtraction, total consumption was about 173.2 tonnes in the third quarter. The implied year-ago quarter is about 177.5 tonnes, so Q3 was roughly 2.4% lower.",
-   "Gold from domestic raw material fell 18.71% on the year to 220.935 tonnes. The association cites safety upgrades at mines and maintenance shutdowns at some key projects.",
+   "Gold from domestic raw material fell 18.71% on the year to 220.935 tonnes. The association puts the fall down to factors including maintenance shutdowns at some key projects. It also cites safety upgrades at mines.",
    "Mines abroad owned by large Chinese gold groups produced 71.126 tonnes, up 15.77%.",
    "The desk's view. If you supply Chinese jewellers: The third quarter alone took about 46 tonnes, by subtraction. The fall did not ease. If you sell investment gold: Bars and coins are 64.9% of nine-month consumption. What this is not: A fall in China's gold buying. Total consumption is still up; the metal moved from the counter to bars and coins."
   ],
@@ -21274,18 +21274,159 @@
    "Asia-Pacific grew 20% like-for-like and Latin America 6%.",
    "The range Pandora calls Fuel with More accelerated to 9% like-for-like; the Core improved to 1%.",
    "A partial refund of Pandora's claim against US emergency-powers (IEEPA) tariffs added 340bp to the 83.7% gross margin. Without it, the margin rose 100bp, Pandora says.",
-   "The EBIT margin was 15.9%, up 190bp, with 370bp from the one-off. Pandora calls the underlying margin broadly flat and prints no figure for it.",
+   "The EBIT margin was 15.9%, up 190bp, with 370bp from the one-off. Pandora calls the underlying margin broadly flat and prints no figure for it. Taking the 3.7-point one-off from the margin leaves about 12.2%, below the 14.0% of Q3 2025. Pandora's release does not reconcile that with broadly flat.",
    "Pandora now guides 2026 organic growth at 2-3%, previously 0-3%.",
    "The 2026 EBIT margin guide is 22.5-23%, previously 22-23%.",
    "Like-for-like growth was 1% in October, which Pandora puts down to lower promotional activity. It says underlying trends remain around 3%.",
    "A platinum-plated jewellery test begun in the Netherlands in July now covers markets including the US, UK and Australia. Pandora plans to start the transition in 2027.",
-   "The desk's view. If you hold Pandora: 370bp of the 15.9% EBIT margin was a one-off tariff refund; Pandora calls the underlying margin broadly flat. If you compete with charm brands: Pandora is taking platinum-plated tests to the US, UK and Australia, for 2027. What this is not: An acceleration. Q3 2025 organic growth was 6% too, and October like-for-like slowed to 1%."
+   "The desk's view. If you hold Pandora: 370bp of Pandora's 15.9% Q3 EBIT margin was a one-off tariff refund. Without it the margin is about 12.2%, against 14.0% a year earlier. If you compete with charm brands: Pandora has widened its platinum-plated test to the US, UK and Australia and plans to start the transition in 2027. What this is not: An acceleration. Q3 2025 organic growth was 6% too, and October like-for-like slowed to 1%."
   ],
   "sources": [
    {
     "title": "Pandora A/S, Q3 2026 company announcement",
     "url": "https://pandoragroup.com/news/27971",
     "published": "2026-11-04"
+   }
+  ]
+ },
+ {
+  "slug": "titan-q2-pre-tax-profit-rises-53-percent",
+  "desk": "retail-tech",
+  "date": "2026-11-06",
+  "kicker": "Retail & Technology",
+  "lead": true,
+  "title": "Titan's Q2 pre-tax profit rises 53%, 18% excluding customs gains",
+  "dek": "Profit before tax was about ₹2,329 crore in the quarter to 30 September, on total income of about ₹20,533 crore, up 25%. Excluding ₹536 crore of customs-duty gains, it was about ₹1,793 crore.",
+  "byline": "Carat Capital",
+  "tags": [
+   "Titan",
+   "Tanishq",
+   "India",
+   "jewellery retail",
+   "Q2 FY27",
+   "customs duty"
+  ],
+  "body": [
+   "Titan's Q2 profit before tax rose 53%, the company says. Excluding ₹536 crore of customs-duty gains, the rise was 18%.",
+   "Profit before tax rose by ₹807 crore to about ₹2,329 crore. The customs-duty gains are 66.4% of that rise, on Carat Capital's arithmetic.",
+   "Titan ties the gains to the increase in customs duty on gold in the quarter. Without them, profit before tax was about ₹1,793 crore, an 8.7% margin.",
+   "India jewellery EBIT was about ₹2,281 crore, or ₹1,745 crore at a 10.7% margin without the customs-duty gains, Titan says.",
+   "Total income rose 25% to about ₹20,533 crore in the quarter to 30 September, excluding bullion and digital-gold sales.",
+   "Jewellery income rose 24% to about ₹17,495 crore, excluding bullion and digital gold. Titan credits its Festival of Diamonds and brand promotions.",
+   "India jewellery income rose 21% to about ₹16,343 crore. CaratLane, inside it, grew 31%.",
+   "The international jewellery business grew 105% to about ₹1,152 crore. It includes Damas, consolidated since the fourth quarter of the last financial year.",
+   "The highlights exclude a ₹671 crore non-operational credit, a fair-value change on a put option over minority holders. The statutory statement shows profit before tax of ₹3,000 crore.",
+   "Titan says the festive calendar shifted into its third quarter, October to December.",
+   "The desk's view. If you hold Titan: Read the 18%. The customs-duty gains are about two-thirds of the profit increase, on our arithmetic. If you price against Tanishq: Jewellery income rose 24%, and Titan says studded jewellery grew in the early thirties. What this is not: The festive quarter. Titan says the festive calendar shifted into October to December."
+  ],
+  "sources": [
+   {
+    "title": "Titan Company, outcome of board meeting: Q2 FY27 results and press release (NSE filing)",
+    "url": "https://nsearchives.nseindia.com/corporate/TITAN_05112026165028_SEoutcomeQ227.pdf",
+    "published": "2026-11-05"
+   }
+  ]
+ },
+ {
+  "slug": "fancy-color-diamond-index-eases-0-1-percent-in-q3",
+  "desk": "gemstones",
+  "date": "2026-11-06",
+  "kicker": "Gemstones",
+  "lead": false,
+  "title": "Fancy Color Diamond Index eases 0.1% in Q3, 0.5% below a year ago",
+  "dek": "Pink diamonds edged up in the third quarter while blue eased 0.2% and yellow 0.4%, the Fancy Color Research Foundation says. Fancy Vivid Pink, the grade that led, rose 1.0%.",
+  "byline": "Carat Capital",
+  "tags": [
+   "fancy color diamonds",
+   "FCRF",
+   "pink diamonds",
+   "price index",
+   "Q3 2026"
+  ],
+  "body": [
+   "The Fancy Color Diamond Index eased 0.1% in Q3 2026, the Fancy Color Research Foundation says. It stands 0.5% below a year earlier.",
+   "Pink diamonds edged up 0.1% in the third quarter, their second consecutive quarterly gain, FCRF says. Blue eased 0.2% and yellow 0.4%.",
+   "Fancy Vivid was the only intensity grade to gain overall, led by Fancy Vivid Pink at 1.0%. The 1.5-carat Fancy Vivid Pink rose 2.2%, the quarter's strongest result.",
+   "Stones of 1 to 1.5 carats drew firmer pricing, FCRF says, while stones of 8 carats and above softened modestly.",
+   "No single segment moved more than 2.3% in the quarter. The index covers three colours, three intensity grades and seven carat weights.",
+   "Since FCRF began full data collection in 2005, the index has risen 201.8%. Pink has risen 390.1% and yellow 46.4%.",
+   "The desk's view. If you sell pink: The gains sit in Fancy Vivid and in 1 to 1.5 carats, FCRF says. If you hold yellow: Yellow fell 0.4% in the quarter and 0.9% on the year, the weakest of the three colours. What this is not: A turn. The second quarter read the same 0.1% and 0.5% declines."
+  ],
+  "sources": [
+   {
+    "title": "Fancy Color Research Foundation, FCRF Q3 2026 index release",
+    "url": "https://www.fcresearch.org/press-releases/",
+    "published": "2026-11-04"
+   }
+  ]
+ },
+ {
+  "slug": "bonhams-estimates-fp-journe-souscription-at-700000",
+  "desk": "watches",
+  "date": "2026-11-06",
+  "kicker": "Watches",
+  "lead": false,
+  "title": "Bonhams estimates an F.P. Journe Souscription at €700,000 to €1.2m",
+  "dek": "Bonhams shows two F.P. Journe watches in Geneva on 5 and 6 November ahead of its Paris Fine Watches sale on 19 November. The second watch, a Chronomètre à Résonance, is estimated at €300,000 to €600,000.",
+  "byline": "Carat Capital",
+  "tags": [
+   "F.P. Journe",
+   "Bonhams",
+   "watch auctions",
+   "Paris",
+   "Souscription"
+  ],
+  "body": [
+   "Bonhams estimates a first-series platinum F.P. Journe Tourbillon Souverain Souscription at €700,000 to €1.2m. It sells in Paris on 19 November.",
+   "The tourbillon belongs to the first Souscription series, which Bonhams says enabled François-Paul Journe to launch his manufacture. It is in platinum with its original box.",
+   "Bonhams calls it one of the most significant examples to appear at auction, citing its number.",
+   "A platinum Chronomètre à Résonance Première Génération, made around 2001, carries an estimate of €300,000 to €600,000.",
+   "Bonhams showed both watches in Geneva on 5 and 6 November before the Paris sale at Avenue Hoche.",
+   "A Journe Tourbillon Souverain made HK$31,400,000 at Sotheby's Hong Kong in October.",
+   "Phillips estimates Mark Cho's Journe Résonance at HK$6 million to HK$12 million for its 21 and 22 November sale.",
+   "The desk's view. If you collect Journe: This is number 07 of the first series, which Bonhams says financed Journe's manufacture. The low estimate is €700,000. If you consign watches: Bonhams sells in Paris on 19 November, two days before Phillips Hong Kong offers a Journe Résonance. What this is not: A price. Both figures are the house's estimates until the sale."
+  ],
+  "sources": [
+   {
+    "title": "Bonhams, press release 41870: Geneva preview of two F.P. Journe watches ahead of the Paris Fine Watches sale (listed in Bonhams' press feed 4 November 2026)",
+    "url": "https://www.bonhams.com/press_release/41870/",
+    "published": "2026-11-04"
+   }
+  ]
+ },
+ {
+  "slug": "brilliant-earth-q3-orders-rise-5-6-percent",
+  "desk": "retail-tech",
+  "date": "2026-11-06",
+  "kicker": "Retail & Technology",
+  "lead": false,
+  "title": "Brilliant Earth Q3 orders rise 5.6%, average order value falls 3.1%",
+  "dek": "Orders were 52,720 against 49,910, while average order value fell to $2,140 from $2,209 in the quarter to 30 September. Net sales were $112.8m, and the company forecasts full-year 2026 growth of 2.75% to 4% on 2025's $437m.",
+  "byline": "Carat Capital",
+  "tags": [
+   "Brilliant Earth",
+   "jewellery retail",
+   "bridal",
+   "Q3 2026",
+   "lab-grown"
+  ],
+  "body": [
+   "Brilliant Earth's net sales rose 2.3% in the quarter to 30 September. Orders grew 5.6% while average order value fell 3.1%, the reverse of its second quarter.",
+   "Total orders rose to 52,720, while average order value fell to $2,140 from $2,209 a year earlier. Average order value is net sales divided by orders, the company says.",
+   "In the second quarter, orders fell 2.1% and average order value rose 8% to $2,238.",
+   "Fine jewellery reached 16% of total bookings, and wedding and anniversary band bookings had their highest quarter, the company says.",
+   "Gross margin was 59.7% against 57.6% a year earlier, on net sales of $112.8m.",
+   "Reported net income was $2.4m against a loss of $0.7m a year earlier.",
+   "Brilliant Earth forecasts 2026 net sales growth of 2.75% to 4%, assuming tariffs and metal prices as of 3 November.",
+   "On 2025 net sales of $437m, the range implies fourth-quarter sales of about $121.6m to $127.1m, on Carat Capital's arithmetic.",
+   "The fourth quarter of 2025 was about $123.9m, so the implied change runs from about 1.9% lower to 2.6% higher.",
+   "The desk's view. If you sell bridal online: Brilliant Earth grew on order count, not ticket size. Fine jewellery reached 16% of its bookings, it says. If you hold BRLT: Adjusted EBITDA rose to $5.1m from $3.6m, and reported net income was $2.4m. What this is not: A faster year. The outlook implies fourth-quarter sales close to a year earlier."
+  ],
+  "sources": [
+   {
+    "title": "Brilliant Earth Group, Q3 2026 results, Exhibit 99.1 to Form 8-K (SEC EDGAR)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1866757/000162828026070530/brlt-3q26earningsrelease.htm",
+    "published": "2026-11-05"
    }
   ]
  }
