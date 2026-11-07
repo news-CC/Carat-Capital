@@ -115776,7 +115776,7 @@
   "means": [
    {
     "who": "If you own a vintage Patek:",
-    "text": "the upper estimate is CHF 4 million. No low estimate is published."
+    "text": "the upper estimate is CHF 4 million. No low estimate was published on 18 September; Phillips' sale page now gives CHF 2 million."
    },
    {
     "who": "If you consign to the autumn season:",
@@ -115833,7 +115833,7 @@
     "p": [
      {
       "lead": "Upper estimate only.",
-      "text": "The watch has a silver-toned dial with steel hour markers and a tachymeter scale. Phillips gives an upper estimate only, and no low estimate is published for it."
+      "text": "The watch has a silver-toned dial with steel hour markers and a tachymeter scale. Phillips gave an upper estimate only when this page was written. Its sale page, read 7 November, gives CHF 2,000,000 to 4,000,000."
      }
     ]
    },
@@ -115912,12 +115912,15 @@
      "published": "2026-09-16T14:02:39Z"
     }
    ],
-   "corrections": []
+   "corrections": [
+    "Updated, 7 November 2026: this page, written from Rapaport's 16 September report, said no low estimate was published for lot 95. Phillips' sale page for Geneva Watch Auction XXIV, read on 7 November 2026, gives an estimate of CHF 2,000,000 to 4,000,000 for the Patek Philippe Ref. 1436. When Phillips added the low figure is not established; the other lots' estimates on this page were not re-read. What was right as published: the CHF 4 million upper estimate."
+   ]
   },
   "next": {
    "slug": "phillips-235-million-spring",
    "why": "What the same house made across the season this sale opens the sequel to."
-  }
+  },
+  "modified": "2026-11-07"
  },
  "twenty-six-percent-of-doors": {
   "v": 3,
@@ -150008,7 +150011,12 @@
     "text": "The house gives a total 'over €3 million' and a 98% share of lots sold. It prints no lot count, no estimates and no premium basis. Lot prices are as printed."
    },
    "method": "Il Ponte, 'A white-glove first session marks a high point for the Important Jewellery auction', 'Published on 09/10/2026' (day first), read on 27 October 2026. Tag-stripped text 7,160 characters: '3 million' 1 hit, '98%' 1, 'white-glove' 3, '88,200' 4, '44,100', '41,580', '37,800' and '12.81' read at each lot line; 'regular November' 1; the house's address reads 'Via Pontaccio 12, 20121 Milan'. The release also claims 'an average increase of 434% over the initial estimates'; no estimate is in the release, so the figure cannot be checked and is not used in the text above. The sale is 19 days old at print. It runs because no Carat Capital page has covered it and the house's next sale is in November. Source verbs: the house says 'generating', 'achieved', 'sold'; the page says sold and made. ARCHIVE, by entity: 'Il Ponte' 0 rows, 'Ponteonline' 0 rows in articles.json (regex over each row's JSON). Ours: nothing on Il Ponte | new: the 7 to 8 October 2026 sale: NEW.",
-   "prior": [],
+   "prior": [
+    {
+     "date": "",
+     "claim": "No earlier Carat Capital coverage of Il Ponte."
+    }
+   ],
    "sources": [
     {
      "title": "Il Ponte, press release, Important Jewellery auction results, 7 and 8 October 2026",
@@ -150201,7 +150209,7 @@
    "reverse": "An 8.63-carat pink that fails to reach its CHF 3.3 million low estimate, a day after Christie's offers its 24-carat pink, would mark Geneva's November week as soft for coloured diamonds.",
    "built": {
     "title": "What an estimate is",
-    "text": "An estimate is the range the house expects bidding to reach, agreed with the consignor. It is not a price. JCK's page does not say whether these figures include buyer's premium."
+    "text": "An estimate is the range the house expects bidding to reach. It is not a price. JCK's page does not say whether these figures include buyer's premium."
    },
    "method": "JCK, 'Sotheby's Geneva Sale Led by 8.63-Ct. Pink Diamond That Could Fetch $6M', byline 'By Annie Davidson Watson | October 28, 2026'. Captured by the Bureau at 04:31 EDT 30 October 2026; the Editor re-fetched it at 06:09 EDT and read the article's body paragraphs only. Raw-byte hits: '8.63' 16, 'CHF 3.3 million' 2, '2.88' 3, '8.11' 1, '18.03' 1, '5.027' 1, '69.44' 1, '580,000' 1, '1883' 2, '35 Burmese' 1, '130,000' 1, 'Nov. 11' 5, 'October 28, 2026' 1.Per carat: 5,000,000 / 8.63 = 579,374, printed as about CHF 579,000; 3,300,000 / 8.63 = 382,387. Christie's 24-carat high estimate a carat, 15,000,000 / 24 = 625,000, is from this paper's 9 October page. Sotheby's own release and catalogue were not read for this page, so every figure is attributed to JCK. JCK quotes a statement by Jessica Wyndham, Sotheby's head of high jewelry in Geneva; no quote is used. Source verbs: JCK says 'estimated', 'carries', 'pegged at', 'lists... as unheated'; this page says estimated, carries and lists.",
    "prior": [
@@ -150229,14 +150237,16 @@
     }
    ],
    "corrections": [
-    "Clarified, 31 October 2026: a lead-in read 'Blue matches pink.' after a lead about the 8.63-carat pink; the Graff blue's CHF 1.7 million to 2.5 million matches the 8.11-carat pink, not the lead stone. It now reads 'Blue ties a second pink.' Three smaller changes: 'Sotheby's priced a pink' now reads 'estimated', since these are estimates; 'Heat treatment is named' now reads 'Unheated is stated', the source's description; the table, which omits a JAR brooch JCK also prices, is titled 'Eight lots JCK names'. No figure changed. Found by Carat Capital's Standards desk on 30 October 2026."
+    "Clarified, 31 October 2026: a lead-in read 'Blue matches pink.' after a lead about the 8.63-carat pink; the Graff blue's CHF 1.7 million to 2.5 million matches the 8.11-carat pink, not the lead stone. It now reads 'Blue ties a second pink.' Three smaller changes: 'Sotheby's priced a pink' now reads 'estimated', since these are estimates; 'Heat treatment is named' now reads 'Unheated is stated', the source's description; the table, which omits a JAR brooch JCK also prices, is titled 'Eight lots JCK names'. No figure changed. Found by Carat Capital's Standards desk on 30 October 2026.",
+    "Clarified, 7 November 2026: a line explaining estimates said the range is agreed with the consignor. No source on the page supports that, and it is removed. No printed figure changed. Found in a sweep after Carat Capital's Standards desk raised the same line on another page on 6 November 2026."
    ]
   },
   "next": {
    "slug": "twenty-four-carats-at-eighteen-million",
    "why": "The other Geneva pink, offered a day earlier."
   },
-  "corrections": []
+  "corrections": [],
+  "modified": "2026-11-07"
  },
  "agnico-eagle-output-falls-6-1-percent-in-q3": {
   "v": 3,
@@ -151564,13 +151574,17 @@
      "url": "https://dist.phillips.com/content/web/press/PHILLIPS-TO-OFFER-CARTIER-PORTICO-MYSTERY-CLOCK-NO-4-AT-THE-GENEVA-WATCH-AUCTION-XXIV_yac3milo.pdf",
      "published": "2026-10-27"
     }
+   ],
+   "corrections": [
+    "Updated, 7 November 2026: Phillips' sale page for Geneva Watch Auction XXIV, read on 7 November 2026, gives lot 220 an estimate of CHF 1,800,000–3,600,000. Phillips' release of 27 October, from which this page was written, gives CHF 1,800,000–3,200,000. The two Phillips documents differ on the upper estimate; the headline and figures on this page follow the release, and the 18.6% comparison with No. 3 uses its CHF 3.2 million."
    ]
   },
   "next": {
    "slug": "two-rolexes-above-a-million-francs",
    "why": "An earlier Phillips Geneva sale, priced in francs."
   },
-  "corrections": []
+  "corrections": [],
+  "modified": "2026-11-07"
  },
  "gem-diamonds-letseng-sells-at-1945-a-carat-in-q3": {
   "v": 3,
@@ -152967,7 +152981,7 @@
   "means": [
    {
     "who": "If you collect Journe:",
-    "text": "This is number 07 of the first series, which Bonhams says financed Journe's manufacture. The low estimate is €700,000."
+    "text": "This is number 07 of the first series, which Bonhams says enabled Journe to launch his manufacture. The low estimate is €700,000."
    },
    {
     "who": "If you consign watches:",
@@ -153003,7 +153017,7 @@
      "300,000–600,000"
     ]
    ],
-   "note": "Estimates exclude the buyer's premium. Both watches were shown in Geneva on 5 and 6 November.",
+   "note": "Estimates exclude the buyer's premium, Bonhams' sale pages say. Both watches were shown in Geneva on 5 and 6 November.",
    "plate": "CC/2026/354"
   },
   "sections": [
@@ -153038,7 +153052,7 @@
     "p": [
      {
       "lead": "Hong Kong's mark.",
-      "text": "A Journe Tourbillon Souverain made <a href='a-thirty-one-four-tops-a-four-twenty-six-sale.html'>HK$31,400,000</a> at Sotheby's Hong Kong in October."
+      "text": "A Journe Tourbillon Souverain made <a href='a-thirty-one-four-tops-a-four-twenty-six-sale.html'>HK$31,400,000</a> at Sotheby's Hong Kong on 21 September, premium included."
      },
      {
       "lead": "A Phillips estimate follows.",
@@ -153061,9 +153075,9 @@
    "reverse": "A Souscription unsold or hammered below €700,000 would say the first series is priced lower than the house expects. A hammer above €1.2m would say the opposite.",
    "built": {
     "title": "How an auction estimate is built",
-    "text": "An estimate is the house's range for the hammer price, agreed with the consignor before the sale. It excludes the buyer's premium, which is added to the hammer price in a published result."
+    "text": "An estimate is the house's range for the hammer price. Bonhams' sale pages say its estimates exclude the buyer's premium and any applicable taxes; the premium is added to the hammer price in a published result."
    },
-   "method": "Bonhams press release 41870, 'Geneva preview of two F.P. Journe masterpieces ahead of Bonhams Paris Fine Watches sale', dated 'Paris, November 2026' with no day, read on bonhams.com on 6 November 2026. Text: 'Estimated at €700,000-1,200,000, it bears the highly desirable number 07, making it one of the most significant examples ever to appear at auction'; 'this historic watch belongs to the legendary first \"Souscription\" series that enabled François-Paul Journe to launch his manufacture'; 'this early example of one of Journe's most iconic creations carries an estimate of €300,000-600,000'; 'a special exhibition in Geneva on 5 & 6 November 2026 showcasing two of the most important timepieces from its upcoming Fine Watches auction in Paris on 19 November 2026'. The page header gives the reference as 'Ref: 007/99T' and the body as 'No. 07/99T'; this page uses the body's number. The specialist's statement mentions a Souscription 'Limited 20 pieces', which the release does not explain; it is not used. The Hong Kong figures are from Carat Capital's 6 and 21 October pages.",
+   "method": "Bonhams press release 41870, 'Geneva preview of two F.P. Journe masterpieces ahead of Bonhams Paris Fine Watches sale', dated 'Paris, November 2026' with no day, read on bonhams.com on 6 November 2026. Text: 'Estimated at €700,000-1,200,000, it bears the highly desirable number 07, making it one of the most significant examples ever to appear at auction'; 'this historic watch belongs to the legendary first \"Souscription\" series that enabled François-Paul Journe to launch his manufacture'; 'this early example of one of Journe's most iconic creations carries an estimate of €300,000-600,000'; 'a special exhibition in Geneva on 5 & 6 November 2026 showcasing two of the most important timepieces from its upcoming Fine Watches auction in Paris on 19 November 2026'. The page header gives the reference as 'Ref: 007/99T' and the body as 'No. 07/99T'; this page uses the body's number. The specialist's statement mentions a Souscription 'Limited 20 pieces', which the release does not explain; it is not used. The Hong Kong figures are from Carat Capital's 6 and 21 October pages; the Sotheby's result is from its sale of 21 September and, as Sotheby's prints it, includes the buyer's premium. The premium basis of the Bonhams estimates is from Bonhams' own sale-page note, 'estimates do not reflect the final hammer price and exclude buyer's premium and any applicable taxes', read on its New York Fine Watches sale page on 7 November 2026 (678,571 bytes); the Paris sale page was not read.",
    "prior": [
     {
      "date": "2026-10-21",
@@ -153073,7 +153087,7 @@
     {
      "date": "2026-10-06",
      "slug": "thirty-one-four-tops-a-four-twenty-six-sale",
-     "claim": "A Journe Tourbillon Souverain made HK$31,400,000 at Sotheby's Hong Kong."
+     "claim": "Our 6 October report: a Journe Tourbillon Souverain made HK$31,400,000 at Sotheby's Hong Kong on 21 September."
     }
    ],
    "sources": [
@@ -153081,14 +153095,23 @@
      "title": "Bonhams, press release 41870: Geneva preview of two F.P. Journe watches ahead of the Paris Fine Watches sale (listed in Bonhams' press feed 4 November 2026)",
      "url": "https://www.bonhams.com/press_release/41870/",
      "published": "2026-11-04"
+    },
+    {
+     "title": "Bonhams, New York Fine Watches: Discovery of Time, sale page note on estimates and buyer's premium (Bonhams' general wording; the Paris sale page was not read)",
+     "url": "https://www.bonhams.com/auction/32648/new-york-fine-watches-discovery-of-time/",
+     "published": "read 2026-11-07"
     }
+   ],
+   "corrections": [
+    "Corrected, 7 November 2026: this page said a Journe Tourbillon Souverain made HK$31,400,000 at Sotheby's Hong Kong in October. The sale was on 21 September, and the result includes the buyer's premium, which the Bonhams estimates beside it exclude; both are now said. The premium basis of the estimates is now sourced to Bonhams' own sale-page note, an unsourced line that an estimate is agreed with the consignor is removed, and a line saying Bonhams credits the series with financing the manufacture now uses Bonhams' own wording, that it enabled Journe to launch it. What was right as published: the HK$31,400,000 and every Bonhams figure. Raised by Carat Capital's Standards desk on 6 November 2026."
    ]
   },
   "next": {
    "slug": "phillips-puts-six-to-twelve-million-on-a-journe",
    "why": "The other Journe Résonance on offer in November, in Hong Kong."
   },
-  "corrections": []
+  "corrections": [],
+  "modified": "2026-11-07"
  },
  "brilliant-earth-q3-orders-rise-5-6-percent": {
   "v": 3,
@@ -153196,7 +153219,7 @@
     "p": [
      {
       "lead": "Orders rose 5.6%.",
-      "text": "Total orders rose to 52,720, while average order value fell to $2,140 from $2,209 a year earlier. Average order value is net sales divided by orders, the company says."
+      "text": "Total orders rose to 52,720 in the third quarter, while average order value fell to $2,140 from $2,209 a year earlier. Average order value is net sales divided by orders, the company says."
      },
      {
       "lead": "The second quarter reversed.",
@@ -153274,13 +153297,17 @@
      "url": "https://www.sec.gov/Archives/edgar/data/1866757/000162828026070530/brlt-3q26earningsrelease.htm",
      "published": "2026-11-05"
     }
+   ],
+   "corrections": [
+    "Clarified, 7 November 2026: a sentence giving orders of 52,720 and an average order value of $2,140 now names the third quarter, which was given only in the lines above it. No printed figure changed. Raised by Carat Capital's Standards desk on 6 November 2026."
    ]
   },
   "next": {
    "slug": "twenty-two-thirty-eight-an-order",
    "why": "The second quarter, when the two legs ran the other way."
   },
-  "corrections": []
+  "corrections": [],
+  "modified": "2026-11-07"
  },
  "fancy-color-diamond-index-eases-0-1-percent-in-q3": {
   "v": 3,
@@ -153325,7 +153352,7 @@
   "means": [
    {
     "who": "If you sell pink:",
-    "text": "The gains sit in Fancy Vivid and in 1 to 1.5 carats, FCRF says."
+    "text": "Fancy Vivid Pink rose 1.0%; the index's firmer sizes were 1 to 1.5 carats, FCRF says."
    },
    {
     "who": "If you hold yellow:",
@@ -153448,11 +153475,562 @@
      "url": "https://www.fcresearch.org/press-releases/",
      "published": "2026-11-04"
     }
+   ],
+   "corrections": [
+    "Clarified, 7 November 2026: a line for pink sellers said the gains sit in Fancy Vivid and in 1 to 1.5 carats. FCRF gives the 1 to 1.5 carat firmness for the index as a whole, not for pink; the line now says Fancy Vivid Pink rose 1.0% and that the index's firmer sizes were 1 to 1.5 carats. No printed figure changed. Raised by Carat Capital's Standards desk on 6 November 2026."
    ]
   },
   "next": {
    "slug": "minus-point-one-for-color",
    "why": "The second quarter, with the same headline reading."
+  },
+  "corrections": [],
+  "modified": "2026-11-07"
+ },
+ "china-gold-reserves-rise-830000-ounces-in-october": {
+  "v": 3,
+  "kicker": "Official gold",
+  "figures": {
+   "asof": "State Administration of Foreign Exchange data published 7 November 2026, as reported by Sina Finance and Eastmoney; reserves at end-October 2026.",
+   "cells": [
+    {
+     "n": "78.30m oz",
+     "dir": "up",
+     "label": "Gold reserves, end-October",
+     "q": "about 2,435.4 tonnes, SAFE data",
+     "src": 0
+    },
+    {
+     "n": "+830,000 oz",
+     "dir": "up",
+     "label": "Added on the month",
+     "q": "October; over 25 tonnes, Sina reports",
+     "src": 0
+    },
+    {
+     "n": "24",
+     "dir": "flat",
+     "label": "Months of additions",
+     "q": "since buying restarted in November 2024",
+     "src": 1
+    },
+    {
+     "n": "$3,405.2bn",
+     "dir": "up",
+     "label": "Foreign-exchange reserves",
+     "q": "end-October, up $4.9bn on September",
+     "src": 1
+    }
+   ]
+  },
+  "changed": {
+   "lead": "A bigger month than September.",
+   "text": "China's official gold reserves rose 830,000 ounces in October to 78.30m, the 24th month of additions, SAFE data show. Eastmoney calls it the largest since buying restarted in November 2024."
+  },
+  "means": [
+   {
+    "who": "If you model official demand:",
+    "text": "September's addition was 740,000 ounces. Caijing, on Sina, puts buying since November 2024 above 170 tonnes."
+   },
+   {
+    "who": "If you trade gold into year-end:",
+    "text": "The bank added in a month when spot gold fell 6.79%, Eastmoney says."
+   },
+   {
+    "who": "What this is not:",
+    "text": "An all-time comparison. Eastmoney's 'largest' runs from November 2024 only."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "China's monthly gold additions in 2026, as Caijing rounds them",
+   "hi": 7,
+   "asof": "Caijing on Sina Finance, 7 November 2026; tonnes, approximate as printed",
+   "cols": [
+    "Month, 2026",
+    "Addition, tonnes"
+   ],
+   "rows": [
+    [
+     "March",
+     "about 5"
+    ],
+    [
+     "April",
+     "over 8"
+    ],
+    [
+     "May",
+     "about 10"
+    ],
+    [
+     "June",
+     "about 15"
+    ],
+    [
+     "July",
+     "about 20"
+    ],
+    [
+     "August",
+     "over 20"
+    ],
+    [
+     "September",
+     "over 23"
+    ],
+    [
+     "October",
+     "over 25"
+    ]
+   ],
+   "note": "Caijing's list starts in March. SAFE publishes gold in ounces; October's 830,000 ounces is about 25.8 tonnes at 31.1035 grams an ounce, on Carat Capital's conversion.",
+   "plate": "CC/2026/356"
+  },
+  "sections": [
+   {
+    "h": "A month 90,000 ounces above September.",
+    "p": [
+     {
+      "lead": "Two months compared.",
+      "text": "Reserves rose to 78.30 million ounces from 77.47 million at the end of September. September's addition was 740,000 ounces."
+     },
+     {
+      "lead": "About 25.8 tonnes.",
+      "text": "In tonnes, October's addition is about 25.8 on Carat Capital's conversion, and over 25 in Sina's report. The reserve is about 2,435.4 tonnes."
+     }
+    ]
+   },
+   {
+    "h": "Additions grew through 2026.",
+    "p": [
+     {
+      "lead": "Over 25 by October.",
+      "text": "Caijing, on Sina Finance, lists additions of about 5 tonnes in March rising to over 25 in October. It puts buying since November 2024 above 170 tonnes."
+     },
+     {
+      "lead": "Spot fell in October.",
+      "text": "Spot gold fell 6.79% in October and gold futures 7.21%, Eastmoney reports. The bank's additions have now run 24 months."
+     }
+    ]
+   },
+   {
+    "h": "Currency reserves rose too.",
+    "p": [
+     {
+      "lead": "Up $4.9bn.",
+      "text": "China's foreign-exchange reserves rose $4.9bn in October to $3,405.2bn, up 0.14%, Eastmoney reports from SAFE's data."
+     },
+     {
+      "lead": "SAFE cites currency moves.",
+      "text": "SAFE says the dollar index rose in October, and that currency translation and asset-price changes, among other factors, lifted the reserves."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Early December 2026, SAFE's November data (date not announced)",
+    "what": "A 25th month. The test: an addition above October's 830,000 ounces."
+   },
+   {
+    "when": "World Gold Council Q4 Gold Demand Trends, early 2027",
+    "what": "Official-sector buying for the quarter. The test: against the 321.2 tonnes the council reported for Q3."
+   }
+  ],
+  "depth": {
+   "reverse": "A November addition below September's 740,000 ounces would make October a peak rather than a step. A month with no addition would end the run at 24.",
+   "built": {
+    "title": "How the reserve figure is built",
+    "text": "SAFE publishes China's official reserve assets each month, with gold in ounces. Tonnes here are converted at 31.1035 grams a troy ounce; Sina and Eastmoney print the tonnes they quote."
+   },
+   "method": "SAFE's figures as reported by two Chinese outlets, both read on 7 November 2026. Sina Finance (Caijing, 112,968 bytes): '国家外汇管理局（下称\"外汇局\"）2026年11月7日公布的数据显示，中国10月末黄金储备报7830万盎司（约2435.4吨），环比增加83万盎司（超25吨），为连续第24个月增持黄金' (SAFE data published 7 November show end-October reserves of 78.30m ounces, about 2,435.4 tonnes, up 830,000 ounces, over 25 tonnes, the 24th consecutive monthly increase); and the monthly list: '3月增持约5吨、4月超8吨、5月约10吨、6月约15吨，7月达到约20吨，8月超20吨，9月超23吨，10月超25吨', with '已累计购金超170吨' (over 170 tonnes since November 2024). Eastmoney (62,042 bytes): '单月跌幅分别为6.79%、7.21%' for spot gold and gold futures in October, and '为2024年11月重启购金以来的最大月度增持量' (the largest monthly addition since buying restarted in November 2024); foreign-exchange reserves '34052亿美元，较9月末上升49亿美元，升幅为0.14%'. Eastmoney attributes the gold figures to 'central bank data', Sina to SAFE; this page uses SAFE. Arithmetic, ours: 77.47 + 0.83 = 78.30; 830,000 - 740,000 = 90,000; 830,000 x 31.1035 g = 25.8 tonnes. September's figures are from Carat Capital's 7 October page. 'Largest' is Eastmoney's and runs from November 2024; this page makes no comparison with earlier buying runs. No metal price is printed here; the spot and futures falls are Eastmoney's October figures.",
+   "prior": [
+    {
+     "date": "2026-10-07",
+     "slug": "seven-forty-thousand-in-september",
+     "claim": "China added 740,000 ounces in September, to 77.47 million."
+    },
+    {
+     "date": "2026-11-03",
+     "slug": "central-banks-buy-321-tonnes-of-gold-in-q3",
+     "claim": "Central banks bought 321.2 tonnes of gold in Q3, the World Gold Council said."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Sina Finance (Caijing), China's October gold reserves, 24th month of additions",
+     "url": "https://finance.sina.com.cn/tech/roll/2026-11-07/doc-inixwtha4781622.shtml",
+     "published": "2026-11-07"
+    },
+    {
+     "title": "Eastmoney, central bank adds 830,000 ounces of gold in October; foreign-exchange reserves",
+     "url": "https://finance.eastmoney.com/a/202611073925466947.html",
+     "published": "2026-11-07"
+    }
+   ]
+  },
+  "next": {
+   "slug": "seven-forty-thousand-in-september",
+   "why": "September's addition, the step before October's."
+  },
+  "corrections": []
+ },
+ "burgundy-diamond-mines-ends-september-with-a596000-cash": {
+  "v": 3,
+  "kicker": "Rough supply",
+  "figures": {
+   "asof": "Burgundy Diamond Mines, Appendix 5B quarterly cash-flow report and quarterly activities report for the quarter to 30 September 2026, filed to ASX 3 November 2026.",
+   "cells": [
+    {
+     "n": "A$596,000",
+     "dir": "down",
+     "label": "Cash, 30 September",
+     "q": "from A$11.67m at the quarter's start",
+     "src": 1
+    },
+    {
+     "n": "−A$4.03m",
+     "dir": "down",
+     "label": "Net operating cash flow",
+     "q": "quarter to 30 September",
+     "src": 1
+    },
+    {
+     "n": "A$8.25m",
+     "dir": "flat",
+     "label": "Receipts from customers",
+     "q": "quarter; A$42.2m in nine months",
+     "src": 1
+    },
+    {
+     "n": "None",
+     "dir": "flat",
+     "label": "Unused finance facilities",
+     "q": "at quarter end, item 7.5",
+     "src": 1
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Cash fell to A$596,000.",
+   "text": "Burgundy Diamond Mines held A$596,000 at 30 September, against A$11.67 million at the start of the quarter, its ASX cash-flow report shows."
+  },
+  "means": [
+   {
+    "who": "If you buy Ekati goods:",
+    "text": "Burgundy says the receiver reports that all mining at Ekati has ceased."
+   },
+   {
+    "who": "If you hold BDM shares:",
+    "text": "The report lists no unused finance facilities. Asked to estimate its quarters of funding, it says no funding is available."
+   },
+   {
+    "who": "What this is not:",
+    "text": "News of the closure. The receivership began on 14 July."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Burgundy's cash flow, quarter and nine months to 30 September",
+   "hi": 5,
+   "asof": "Burgundy Diamond Mines, Appendix 5B, section 4, filed 3 November 2026; A$ thousand",
+   "cols": [
+    "Line, A$ thousand",
+    "Quarter",
+    "Nine months"
+   ],
+   "rows": [
+    [
+     "Cash at start of period",
+     "11,668",
+     "39,832"
+    ],
+    [
+     "Net cash, operating activities",
+     "(4,034)",
+     "(142,508)"
+    ],
+    [
+     "Net cash, investing activities",
+     "(9,287)",
+     "(22,097)"
+    ],
+    [
+     "Net cash, financing activities",
+     "2,496",
+     "126,897"
+    ],
+    [
+     "Exchange-rate effect",
+     "(247)",
+     "(1,528)"
+    ],
+    [
+     "Cash at end of period",
+     "596",
+     "596"
+    ]
+   ],
+   "note": "As filed. The report's reconciliation gives the previous quarter's closing cash as 11,670, against 11,668 as this quarter's opening line.",
+   "plate": "CC/2026/357"
+  },
+  "sections": [
+   {
+    "h": "Net cash left in the quarter.",
+    "p": [
+     {
+      "lead": "Net outflow of A$4.03m.",
+      "text": "Net operating cash outflow was A$4.03 million in the quarter, after A$8.25 million of receipts from customers."
+     },
+     {
+      "lead": "Net investing outflow larger.",
+      "text": "Net investing outflows were A$9.29 million, and net financing brought in A$2.50 million, the report shows."
+     }
+    ]
+   },
+   {
+    "h": "No funding offer came forward.",
+    "p": [
+     {
+      "lead": "The sale process ended.",
+      "text": "No letter of intent or proposed transaction able to fund continued operations came from the sale process, Burgundy says."
+     },
+     {
+      "lead": "The receiver took control.",
+      "text": "PricewaterhouseCoopers, as receiver, took control of Ekati on behalf of the Northwest Territories government. Burgundy says the receiver reports planning for reclamation is under way."
+     }
+    ]
+   },
+   {
+    "h": "The board weighs its options.",
+    "p": [
+     {
+      "lead": "Naujaat subsidiary too.",
+      "text": "The subsidiary holding Burgundy's 40% of the Naujaat project was also placed into receivership on 14 July."
+     },
+     {
+      "lead": "Possibilities under review.",
+      "text": "The board continues to assess all possibilities for the company, the report says. It names none."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Expected around 30 November 2026",
+    "what": "The further update ASX directed on Burgundy's related-party breach. The test: whether it says anything on funding."
+   },
+   {
+    "when": "Quarter to 31 December 2026, report early 2027",
+    "what": "The next cash-flow report. The test: whether cash stays above zero without a facility."
+   }
+  ],
+  "depth": {
+   "reverse": "A transaction or new facility in the December quarter would change the funding answer. Without one, the report names no source of cash.",
+   "built": {
+    "title": "How an Appendix 5B is built",
+    "text": "ASX's Appendix 5B is a quarterly cash-flow report for mining and exploration companies. Section 8 divides available funding by outgoings to estimate quarters of funding; Burgundy answers that no funding is available."
+   },
+   "method": "Burgundy Diamond Mines Limited, two ASX documents dated 3 November 2026, fetched from ASX's announcement file service on 7 November (437,648 and 828,911 bytes). The cash-flow figures were read on rendered images of the Appendix 5B's pages 1, 3 and 5. Section 4, current quarter, A$ thousand: 11,668; (4,034); (9,287); 2,496; (247); 596. Nine months: 39,832; (142,508); (22,097); 126,897; (1,528); 596. Item 1.1, receipts from customers: 8,251 and 42,203. Item 8.5, unused finance facilities: 0. Item 8.7: 'No funding available'. Item 8.1 uses the nine-month operating figure, (142,508). Activities report: 'No letter of intent or proposed transaction capable of providing the funding required to continue operations was received as a result of the SISP'; 'The receiver has reported publicly that all mining operations at the Ekati Diamond Mine have subsequently ceased, and planning and preparatory work for reclamation activities is underway'; 'the Board continues to assess all possibilities for the Company'. Cross-foot, ours: 11,668 - 4,034 - 9,287 + 2,496 - 247 = 596; nine months 39,832 - 142,508 - 22,097 + 126,897 - 1,528 = 596. The report does not say what the investing outflow was for in the quarter; this page does not either.",
+   "prior": [
+    {
+     "date": "2026-10-21",
+     "slug": "burgundy-director-deals-broke-an-asx-rule",
+     "claim": "Burgundy set out remedies for a related-party breach; ASX directed a further update."
+    },
+    {
+     "date": "2026-07-17",
+     "slug": "ekati-goes-dark",
+     "claim": "A court placed Ekati in receivership after the sale process drew no viable bid."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Burgundy Diamond Mines, Quarterly Activities Report for the period ending 30 September 2026 (ASX)",
+     "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03157519-6A1353423",
+     "published": "2026-11-03"
+    },
+    {
+     "title": "Burgundy Diamond Mines, Appendix 5B quarterly cash flow report, quarter ended 30 September 2026 (ASX)",
+     "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03157521-6A1353424",
+     "published": "2026-11-03"
+    }
+   ]
+  },
+  "next": {
+   "slug": "ekati-goes-dark",
+   "why": "The July receivership that this quarter's report follows."
+  },
+  "corrections": []
+ },
+ "197-80-carat-romanov-sapphire-leads-sothebys-geneva-sale": {
+  "v": 3,
+  "kicker": "Sale preview",
+  "figures": {
+   "asof": "Sotheby's sale page, Royal and Noble Jewels, Geneva, read 7 November 2026; estimates as reported by JCK, 4 November 2026.",
+   "cells": [
+    {
+     "n": "197.80 ct",
+     "dir": "flat",
+     "label": "Romanov sapphire",
+     "q": "house page; mounted by Cartier",
+     "src": 0
+    },
+    {
+     "n": "CHF 850,000–1,700,000",
+     "dir": "flat",
+     "label": "Estimate, as JCK reports",
+     "q": "not printed on the house page",
+     "src": 1
+    },
+    {
+     "n": "11 November",
+     "dir": "flat",
+     "label": "Sale closes",
+     "q": "Geneva; sale opened 28 October",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "A Romanov stone leads Geneva.",
+   "text": "Sotheby's says a 197.80-carat Romanov sapphire mounted by Cartier leads its Royal and Noble Jewels sale in Geneva. The sale closes on 11 November."
+  },
+  "means": [
+   {
+    "who": "If you buy historic jewels:",
+    "text": "JCK puts the estimate at CHF 850,000 to 1.7 million. Sotheby's sale page prints no estimate."
+   },
+   {
+    "who": "If you consign provenance pieces:",
+    "text": "Sotheby's says the last three editions of this sale achieved white glove status."
+   },
+   {
+    "who": "What this is not:",
+    "text": "A result. Prices are known only after the sale closes."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Four lots and their estimates, as JCK reports them",
+   "hi": 0,
+   "asof": "JCK, 4 November 2026; Swiss francs",
+   "cols": [
+    "Lot",
+    "Detail",
+    "Estimate, CHF"
+   ],
+   "rows": [
+    [
+     "Romanov sapphire, Cartier bracelet setting",
+     "197.8 carats",
+     "estimated 850,000–1,700,000"
+    ],
+    [
+     "Devonshire opal and diamond tiara, Cartier London",
+     "late 1930s",
+     "estimated 780,000–1,100,000"
+    ],
+    [
+     "Lady Walston toi et moi ring",
+     "7.83-carat sapphire, 6.77-carat emerald",
+     "estimated 350,000–500,000"
+    ],
+    [
+     "Queen Amélie of Portugal, two emerald and diamond jewels",
+     "each",
+     "estimated 70,000–100,000"
+    ]
+   ],
+   "note": "JCK gives the sapphire as 197.8 carats; Sotheby's page gives 197.80. Sotheby's sale page prints none of these estimates.",
+   "plate": "CC/2026/358"
+  },
+  "sections": [
+   {
+    "h": "The sapphire's Romanov history.",
+    "p": [
+     {
+      "lead": "Worn in 1903.",
+      "text": "JCK reports the stone was worn by the Dowager Empress Maria Feodorovna at the Winter Palace Ball of 1903."
+     },
+     {
+      "lead": "Dispersed after the revolution.",
+      "text": "It was documented among the Russian crown jewels before the Soviet government dispersed them, JCK says. The opera singer Ganna Walska later owned it."
+     },
+     {
+      "lead": "Cartier reset it.",
+      "text": "Cartier, which acquired the stone, made its current bracelet setting in 2015, according to JCK."
+     }
+    ]
+   },
+   {
+    "h": "A coronation tiara follows.",
+    "p": [
+     {
+      "lead": "Worn in 1953.",
+      "text": "An opal and diamond tiara made by Cartier in the 1930s for Mary Cavendish, Duchess of Devonshire, was worn at the 1953 coronation, Sotheby's says."
+     },
+     {
+      "lead": "Tiara estimate reported.",
+      "text": "JCK reports Sotheby's estimate for the tiara at CHF 780,000 to 1.1 million."
+     }
+    ]
+   },
+   {
+    "h": "Nearly 80 lots close together.",
+    "p": [
+     {
+      "lead": "Lots with royal provenance.",
+      "text": "JCK counts nearly 80 lots, with pieces linked to the Romanovs and to the Houses of Orléans and Braganza."
+     },
+     {
+      "lead": "Viewing in Geneva.",
+      "text": "The sale opened on 28 October and closes on 11 November. Highlights are on view at the Mandarin Oriental, Geneva, from 6 to 10 November."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "11 November 2026",
+    "what": "The sale closes. The test: the sapphire against JCK's reported CHF 850,000 low estimate."
+   },
+   {
+    "when": "After 11 November 2026",
+    "what": "Sotheby's results. The test: whether the sale keeps the white glove status of its last three editions."
+   }
+  ],
+  "depth": {
+   "reverse": "An unsold sapphire, or one sold below CHF 850,000, would say this provenance is priced below JCK's reported range. A price above CHF 1.7 million would say the opposite.",
+   "built": {
+    "title": "Where the estimates come from",
+    "text": "Sotheby's sale page names the sapphire, its weight and the tiara, and prints no estimate. Every estimate on this page is as JCK reported it on 4 November."
+   },
+   "method": "Sotheby's sale page for Royal and Noble Jewels, sale code GE2609, read 7 November 2026 (748,936 bytes): 'The Royal and Noble Jewels sale this November will feature many outstanding historical pieces, led by the 197.80 carat Romanov sapphire mounted by Cartier and an exceptional, transformable opal and diamond tiara created by Cartier in the 1930s for Mary Cavendish, Duchess of Devonshire, worn at the coronation of Queen Elizabeth II in 1953'; sale dates '28 October - 11 November 2026 • Geneva'; 'have for the last three consecutive editions achieved white glove status'; viewing 'Mandarin Oriental, Geneva 6–10 November'. The figure 850,000 does not appear in that page's 748,936 bytes, fetched 06:04 EST 7 November. JCK, '197-Ct. Romanov Sapphire Leads Sotheby's Royal Jewels Auction', JCK News Desk, 4 November 2026 (112,913 bytes): 'The Romanov Sapphire is estimated at 850,000–1,700,000 Swiss francs'; 'Sotheby's estimates it at 780,000–1,100,000 Swiss francs' for the Devonshire piece; 'The nearly 80-lot sale'; the 1903 ball, the Soviet dispersal, Ganna Walska and the 2015 Cartier setting. JCK also reports laboratory findings on the stone's origin and treatment; this page does not carry them. JCK's dollar conversions are not used.",
+   "prior": [
+    {
+     "date": "2026-10-30",
+     "slug": "8-63-carat-pink-leads-sothebys-geneva",
+     "claim": "Sotheby's Geneva High Jewelry sale, a different sale, offered an 8.63-carat pink."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Sotheby's, Royal and Noble Jewels, Geneva, sale page (GE2609)",
+     "url": "https://www.sothebys.com/en/buy/auction/2026/royal-noble-jewelry-ge2609",
+     "published": "read 2026-11-07"
+    },
+    {
+     "title": "JCK, 197-Ct. Romanov Sapphire Leads Sotheby's Royal Jewels Auction",
+     "url": "https://www.jckonline.com/editorial-article/romanov-sapphire-sothebys/",
+     "published": "2026-11-04"
+    }
+   ]
+  },
+  "next": {
+   "slug": "8-63-carat-pink-leads-sothebys-geneva",
+   "why": "Sotheby's other Geneva jewel sale this season."
   },
   "corrections": []
  }

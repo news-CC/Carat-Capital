@@ -1,35 +1,30 @@
 {
  "date_line": "Sunday, October 18, 2026 | Vol. I - No. 090",
- "edition": "Vol. I - No. 105",
+ "edition": "Vol. I - No. 106",
  "items": [
   {
-   "slug": "titan-q2-pre-tax-profit-rises-53-percent",
-   "desk": "Retail & Technology",
-   "title": "Titan's Q2 pre-tax profit rises 53%, 18% excluding customs gains"
+   "slug": "china-gold-reserves-rise-830000-ounces-in-october",
+   "desk": "Gold & Metals",
+   "title": "China's gold reserves rise 830,000 oz in October, a 24th month"
   },
   {
-   "slug": "fancy-color-diamond-index-eases-0-1-percent-in-q3",
-   "desk": "Gemstones",
-   "title": "Fancy Color Diamond Index eases 0.1% in Q3, 0.5% below a year ago"
+   "slug": "burgundy-diamond-mines-ends-september-with-a596000-cash",
+   "desk": "Diamonds",
+   "title": "Burgundy Diamond Mines ends September with A$596,000 in cash"
   },
   {
-   "slug": "bonhams-estimates-fp-journe-souscription-at-700000",
-   "desk": "Watches",
-   "title": "Bonhams estimates an F.P. Journe Souscription at €700,000 to €1.2m"
-  },
-  {
-   "slug": "brilliant-earth-q3-orders-rise-5-6-percent",
-   "desk": "Retail & Technology",
-   "title": "Brilliant Earth Q3 orders rise 5.6%, average order value falls 3.1%"
+   "slug": "197-80-carat-romanov-sapphire-leads-sothebys-geneva-sale",
+   "desk": "Auctions",
+   "title": "197.80-carat Romanov sapphire leads Sotheby's Geneva royal sale"
   }
  ],
- "tape_ts": "Kitco bid, board stamp 2026-11-06T04:59:00-05:00, tape's 05:00 ET opening mark 6 Nov",
+ "tape_ts": "Kitco bid, board stamp 2026-11-06T17:00:00-05:00, tape's 05:00 ET opening mark 7 Nov",
  "tape": [
   {
    "name": "Gold / oz",
    "code": "XAU",
-   "px": "4,072.10",
-   "chg": "-1.2393% vs 5 Nov mark",
+   "px": "4,070.10",
+   "chg": "-0.0491% vs 6 Nov mark",
    "dir": "down",
    "pts": [
     5,
@@ -85,8 +80,8 @@
   {
    "name": "Platinum / oz",
    "code": "XPT",
-   "px": "1,522.00",
-   "chg": "+0.2635% vs 5 Nov mark",
+   "px": "1,534.00",
+   "chg": "+0.7884% vs 6 Nov mark",
    "dir": "up",
    "pts": [
     2,
@@ -104,8 +99,8 @@
   {
    "name": "Silver / oz",
    "code": "XAG",
-   "px": "51.984",
-   "chg": "-1.1279% vs 5 Nov mark",
+   "px": "51.821",
+   "chg": "-0.3136% vs 6 Nov mark",
    "dir": "down",
    "pts": [
     2,
@@ -121,10 +116,10 @@
    ]
   }
  ],
- "editionDate": "2026-11-06",
+ "editionDate": "2026-11-07",
  "printed": {
-  "editionDate": "2026-11-06",
-  "clock": "06:25 EST",
+  "editionDate": "2026-11-07",
+  "clock": "06:15 EST",
   "note": "the Editor's press time for this edition, written once at push; build.py reads it so later rebuilds by other desks do not move it"
  }
 }
