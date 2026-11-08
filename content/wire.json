@@ -1,31 +1,31 @@
 {
  "date_line": "Sunday, October 18, 2026 | Vol. I - No. 090",
- "edition": "Vol. I - No. 106",
+ "edition": "Vol. I - No. 107",
  "items": [
   {
-   "slug": "china-gold-reserves-rise-830000-ounces-in-october",
-   "desk": "Gold & Metals",
-   "title": "China's gold reserves rise 830,000 oz in October, a 24th month"
-  },
-  {
-   "slug": "burgundy-diamond-mines-ends-september-with-a596000-cash",
-   "desk": "Diamonds",
-   "title": "Burgundy Diamond Mines ends September with A$596,000 in cash"
-  },
-  {
-   "slug": "197-80-carat-romanov-sapphire-leads-sothebys-geneva-sale",
+   "slug": "phillips-geneva-sells-a-journe-at-chf-8-68m",
    "desk": "Auctions",
-   "title": "197.80-carat Romanov sapphire leads Sotheby's Geneva royal sale"
+   "title": "Phillips Geneva sells a Journe at CHF 8.68m and a Patek at CHF 6.27m"
+  },
+  {
+   "slug": "chow-tai-sengs-franchise-income-falls-67-84-percent-in-nine-months",
+   "desk": "Retail & Tech",
+   "title": "Chow Tai Seng's nine-month franchise income falls 67.84% on the year"
+  },
+  {
+   "slug": "rexhep-rexhepis-chronograph-flyback-wins-the-2026-aiguille-dor",
+   "desk": "Watches",
+   "title": "Rexhep Rexhepi's Chronograph Flyback wins the 2026 Aiguille d'Or"
   }
  ],
- "tape_ts": "Kitco bid, board stamp 2026-11-06T17:00:00-05:00, tape's 05:00 ET opening mark 7 Nov",
+ "tape_ts": "Kitco bid, board stamp 2026-11-06T17:00:00-05:00, tape's 05:00 ET opening mark 8 Nov",
  "tape": [
   {
    "name": "Gold / oz",
    "code": "XAU",
    "px": "4,070.10",
-   "chg": "-0.0491% vs 6 Nov mark",
-   "dir": "down",
+   "chg": "+0.0000% vs 7 Nov mark",
+   "dir": "flat",
    "pts": [
     5,
     6,
@@ -81,8 +81,8 @@
    "name": "Platinum / oz",
    "code": "XPT",
    "px": "1,534.00",
-   "chg": "+0.7884% vs 6 Nov mark",
-   "dir": "up",
+   "chg": "+0.0000% vs 7 Nov mark",
+   "dir": "flat",
    "pts": [
     2,
     4,
@@ -100,8 +100,8 @@
    "name": "Silver / oz",
    "code": "XAG",
    "px": "51.821",
-   "chg": "-0.3136% vs 6 Nov mark",
-   "dir": "down",
+   "chg": "+0.0000% vs 7 Nov mark",
+   "dir": "flat",
    "pts": [
     2,
     4,
@@ -116,10 +116,10 @@
    ]
   }
  ],
- "editionDate": "2026-11-07",
+ "editionDate": "2026-11-08",
  "printed": {
-  "editionDate": "2026-11-07",
-  "clock": "06:15 EST",
+  "editionDate": "2026-11-08",
+  "clock": "06:18 EST",
   "note": "the Editor's press time for this edition, written once at push; build.py reads it so later rebuilds by other desks do not move it"
  }
 }

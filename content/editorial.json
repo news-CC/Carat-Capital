@@ -115737,13 +115737,13 @@
   "v": 3,
   "kicker": "Sale preview",
   "figures": {
-   "asof": "Phillips' announcement of the Geneva Watch Auction XXIV, as reported by Rapaport, 16 September 2026 · estimates in Swiss francs with Rapaport's dollar conversion",
+   "asof": "Phillips' sale page for Geneva Watch Auction XXIV, read 8 November 2026, and Rapaport, 16 September 2026 · estimates in Swiss francs, excluding buyer's premium",
    "cells": [
     {
-     "n": "CHF 4m",
-     "dir": "up",
-     "label": "Top estimate",
-     "q": "$4.9m, upper end only",
+     "n": "CHF 2m–4m",
+     "dir": "flat",
+     "label": "Patek estimate",
+     "q": "lot 95, house sale page",
      "src": 0
     },
     {
@@ -115751,32 +115751,32 @@
      "dir": "flat",
      "label": "Sale dates",
      "q": "Geneva, with Bacs & Russo",
-     "src": 0
+     "src": 1
     },
     {
      "n": "200+",
      "dir": "flat",
      "label": "Timepieces offered",
      "q": "the house's own count",
-     "src": 0
+     "src": 1
     },
     {
      "n": "CHF 1.6m",
-     "dir": "up",
+     "dir": "flat",
      "label": "Rolex Daytona",
-     "q": "Paul Newman dial, upper",
+     "q": "lot 20, high estimate",
      "src": 0
     }
    ]
   },
   "changed": {
    "lead": "Phillips set the estimate.",
-   "text": "A 1945 Patek Philippe split-seconds chronograph carries an upper estimate of CHF 4 million, or $4.9 million, at Phillips' Geneva Watch Auction XXIV."
+   "text": "A 1945 Patek Philippe split-seconds chronograph, lot 95, carries an estimate of CHF 2 million to 4 million at Phillips' Geneva Watch Auction XXIV."
   },
   "means": [
    {
     "who": "If you own a vintage Patek:",
-    "text": "the upper estimate is CHF 4 million. No low estimate was published on 18 September; Phillips' sale page now gives CHF 2 million."
+    "text": "Phillips' sale page gives lot 95 CHF 2 million to 4 million. It sold on 7 November for CHF 6,267,000, premium included."
    },
    {
     "who": "If you consign to the autumn season:",
@@ -115789,42 +115789,42 @@
   ],
   "visual": {
    "type": "table",
-   "cap": "Table I · Five named lots and their upper estimates",
-   "asof": "Swiss francs, with Rapaport's own dollar conversion · Geneva Watch Auction XXIV, 7 and 8 November 2026",
+   "cap": "Table I · Five named lots, as Phillips' sale page reads them",
+   "asof": "Swiss francs, excluding buyer's premium · Geneva Watch Auction XXIV, 7 and 8 November 2026",
    "cols": [
     "Lot",
-    "Estimate",
-    "In dollars"
+    "Phillips estimate",
+    "Rapaport, 16 Sept"
    ],
    "rows": [
     [
-     "Patek Philippe split-seconds chronograph, 1945",
-     "CHF 4m upper",
-     "$4.9m"
+     "Lot 95, Patek Philippe Ref. 1436 split-seconds, 1945",
+     "CHF 2m–4m",
+     "CHF 4m upper"
     ],
     [
-     "Rolex Daytona, yellow gold, Paul Newman dial",
-     "CHF 1.6m upper",
-     "$2m"
+     "Lot 20, Rolex Daytona Ref. 6241, yellow gold, Paul Newman dial",
+     "CHF 800,000–1.6m",
+     "CHF 1.6m upper"
     ],
     [
-     "Rolex, circa 1952, Stelline dial",
-     "CHF 1.2m upper",
-     "$1.5m"
+     "Lot 129, Rolex Ref. 6062 Stelline dial, circa 1952",
+     "In excess of CHF 600,000",
+     "CHF 1.2m upper"
     ],
     [
-     "F.P. Journe, hand-engraved pink-gold dial",
-     "CHF 1m to CHF 2m",
-     "$1.2m to $2.4m"
+     "Lot 7, F.P. Journe Résonance, hand-engraved pink-gold dial",
+     "In excess of CHF 1m",
+     "CHF 1m to CHF 2m"
     ],
     [
-     "F.P. Journe, Tokyo boutique anniversary, 2007",
-     "CHF 800,000 upper",
-     "$976,715"
+     "Lot 161, F.P. Journe Résonance Tokyo Boutique, 2007",
+     "CHF 400,000–800,000",
+     "CHF 800,000 upper"
     ]
    ],
    "hi": 0,
-   "note": "<b>Source</b> Phillips' announcement as reported by Rapaport on 16 September 2026. <b>Four of the five</b> lots are published with an upper estimate only; the F.P. Journe pink-gold dial is the one lot given as a band. <b>The dollar column</b> is Rapaport's conversion, not Carat Capital's, and is carried at the precision the source prints, which is why one row reads $976,715 and the rest read to one decimal. <b>No reserve</b> and no low estimate is published for the Patek.",
+   "note": "<b>Source</b> Phillips' sale page and lot pages, read 8 November 2026, for lot numbers, titles and estimates; Rapaport's report of 16 September 2026 for the third column. <b>Two lots carry a floor.</b> Lots 129 and 7 are given as \"in excess of\" a figure, not as a band. <b>Estimates</b> exclude buyer's premium.",
    "plate": "CC/2026/065"
   },
   "sections": [
@@ -115832,8 +115832,8 @@
     "h": "Patek leads the catalogue",
     "p": [
      {
-      "lead": "Upper estimate only.",
-      "text": "The watch has a silver-toned dial with steel hour markers and a tachymeter scale. Phillips gave an upper estimate only when this page was written. Its sale page, read 7 November, gives CHF 2,000,000 to 4,000,000."
+      "lead": "Two to four million.",
+      "text": "The watch has a silver-toned dial with steel hour markers and a tachymeter scale. Rapaport reported only the CHF 4 million upper figure on 16 September. Phillips' sale page gives CHF 2,000,000 to 4,000,000."
      }
     ]
    },
@@ -115841,12 +115841,16 @@
     "h": "Two Rolexes and two Journes",
     "p": [
      {
-      "lead": "Journe carries a band.",
-      "text": "An F.P. Journe wristwatch with a hand-engraved pink-gold dial carries CHF 1 million to CHF 2 million."
+      "lead": "Journe carries a floor.",
+      "text": "An F.P. Journe Résonance with a hand-engraved pink-gold dial, lot 7, is estimated by Phillips at in excess of CHF 1 million. Rapaport reported CHF 1 million to CHF 2 million."
      },
      {
       "lead": "Rolex takes two places.",
-      "text": "A yellow-gold Daytona with a Paul Newman dial carries CHF 1.6 million, and a 1952 Rolex with a Stelline dial CHF 1.2 million."
+      "text": "Lot 20, a yellow-gold Daytona with a Paul Newman dial, carries CHF 800,000 to 1.6 million."
+     },
+     {
+      "lead": "Stelline carries a floor.",
+      "text": "Lot 129, a 1952 Rolex with a Stelline dial, carries in excess of CHF 600,000. Rapaport reported CHF 1.2 million."
      }
     ]
    },
@@ -115869,12 +115873,8 @@
   ],
   "watch": [
    {
-    "when": "Before 7 November 2026",
-    "what": "Phillips' full catalogue, and whether a low estimate is published for the Patek."
-   },
-   {
-    "when": "7-8 November 2026",
-    "what": "The sale itself, and whether the CHF 4 million upper estimate is met."
+    "when": "8 November 2026",
+    "what": "The sale's second session, with lots 129 and 161. The test: whether each sells inside or above the house's estimate."
    },
    {
     "when": "November 2026",
@@ -115882,12 +115882,12 @@
    }
   ],
   "depth": {
-   "reverse": "A published low estimate. An upper figure alone says what the house hopes for and nothing about what it will let the lot go for, and the low is the number that governs the room.",
+   "reverse": "The room. Lot 95's hammer of CHF 5.1 million on 7 November already sits above its CHF 4 million high estimate; the second session decides lots 129 and 161.",
    "built": {
-    "title": "Why an upper estimate alone tells you less",
-    "text": "Auction houses normally publish a band. The low estimate is the anchor: it sits at or near the reserve, and it is the number a bidder works back from. The high is the ceiling the specialist thinks the piece can reach on a good day. When only the high is published, as here on four of the five lots, the reader is given the ceiling and not the floor, and the spread that carries most of the information is withheld until the catalogue is complete. That is a normal stage of an auction announcement rather than a concealment, but it means no ratio can be computed yet for this sale."
+    "title": "How a Phillips estimate is read",
+    "text": "Phillips publishes a band, a low and a high, for most lots, and a floor (\"in excess of\") for a few. Estimates exclude buyer's premium; the Sold For price includes it. Rapaport's 16 September report gave the upper figures, which is why this page first printed four of five lots as upper only."
    },
-   "method": "Rapaport's report of 16 September 2026 is the source for the lots, the estimates and the dates, and it attributes them to Phillips' own announcement of Tuesday 15 September. The dollar figures are Rapaport's conversion and are printed at its own precision rather than recomputed at a rate this desk cannot date. The $96.3 million comparison for the previous Geneva sale comes from this paper's own coverage of 9 July 2026 and is linked where it is used. ARCHIVE: Phillips Geneva Watch Auction - ours of 2026-07-09 covers the SPRING 2026 season, including Geneva Watch Auction XXIII in May at $96.3 million; this item covers the AUTUMN 2026 season and the separate XXIV sale of 7 and 8 November. DIFFERENT SALE AND DIFFERENT PERIOD, so NEW. Three archive hits for the phrase Geneva Watch Auction were opened and read rather than counted; the third, of 19 July 2026, concerns an F.P. Journe Resonance consigned to a different house in November and is named in what to watch rather than conflated with this catalogue.",
+   "method": "Rapaport's report of 16 September 2026 is the source for the lots, the estimates and the dates, and it attributes them to Phillips' own announcement of Tuesday 15 September. The dollar figures are Rapaport's conversion and are printed at its own precision rather than recomputed at a rate this desk cannot date. The $96.3 million comparison for the previous Geneva sale comes from this paper's own coverage of 9 July 2026 and is linked where it is used. ARCHIVE: Phillips Geneva Watch Auction - ours of 2026-07-09 covers the SPRING 2026 season, including Geneva Watch Auction XXIII in May at $96.3 million; this item covers the AUTUMN 2026 season and the separate XXIV sale of 7 and 8 November. DIFFERENT SALE AND DIFFERENT PERIOD, so NEW. Three archive hits for the phrase Geneva Watch Auction were opened and read rather than counted; the third, of 19 July 2026, concerns an F.P. Journe Resonance consigned to a different house in November and is named in what to watch rather than conflated with this catalogue. Re-read 8 November 2026: Phillips' sale page for Geneva Watch Auction XXIV (2,487,676 bytes, 04:5x EST) and the lot pages for lots 95, 20, 129, 7 and 161. House tiles, verbatim: lot 95 'Ref. 1436 | Estimate | CHF2,000,000–4,000,000'; lot 20 'Cosmograph Daytona \"John Player Special\" | CHF800,000–1,600,000', described on its lot page as 14K yellow gold with a black \"Paul Newman John Player Special\" dial; lot 129 '\"Time Capsule Stelline\" | In Excess of CHF600,000', circa 1952; lot 7 'Chronomètre à Resonance \"Régence\" | In Excess of CHF1,000,000', with a 'hand engraved shiny pink gold dial'; lot 161 'Chronomètre à Resonance \"Tokyo Boutique\" | CHF400,000–800,000', 2007. The matching of Rapaport's five descriptions to these lot numbers is Carat Capital's, by maker, model, metal, dial and year. Where Rapaport and the house differ (lots 129 and 7), both are printed and labelled.",
    "prior": [
     {
      "date": "2026-07-09",
@@ -115907,20 +115907,26 @@
    ],
    "sources": [
     {
+     "title": "Phillips, Geneva Watch Auction: XXIV, sale page and lot pages",
+     "url": "https://www.phillips.com/auction/CH080426",
+     "published": "read 2026-11-08"
+    },
+    {
      "title": "Patek Philippe Watch Could Fetch $4.9M at Phillips, Rapaport",
      "url": "https://rapaport.com/news/patek-philippe-watch-could-fetch-4-9m-at-phillips/",
      "published": "2026-09-16T14:02:39Z"
     }
    ],
    "corrections": [
-    "Updated, 7 November 2026: this page, written from Rapaport's 16 September report, said no low estimate was published for lot 95. Phillips' sale page for Geneva Watch Auction XXIV, read on 7 November 2026, gives an estimate of CHF 2,000,000 to 4,000,000 for the Patek Philippe Ref. 1436. When Phillips added the low figure is not established; the other lots' estimates on this page were not re-read. What was right as published: the CHF 4 million upper estimate."
+    "Updated, 7 November 2026: this page, written from Rapaport's 16 September report, said no low estimate was published for lot 95. Phillips' sale page for Geneva Watch Auction XXIV, read on 7 November 2026, gives an estimate of CHF 2,000,000 to 4,000,000 for the Patek Philippe Ref. 1436. When Phillips added the low figure is not established; the other lots' estimates on this page were not re-read. What was right as published: the CHF 4 million upper estimate.",
+    "Corrected, 8 November 2026: this page said four of the five lots were published with an upper estimate only, that no low estimate was published for the Patek, and gave Rapaport's figures as the estimates. Phillips' sale page, read on 8 November, gives lot 95 CHF 2,000,000–4,000,000, lot 20 CHF 800,000–1,600,000 and lot 161 CHF 400,000–800,000, and gives lots 129 and 7 as in excess of CHF 600,000 and CHF 1,000,000. The table, notes, key figures and what to watch now follow the house page, with Rapaport's 16 September figures in their own column. Where the bad wording came from: Rapaport's report, written before the catalogue was complete. What was right as published: the CHF 4 million upper estimate for lot 95 and the CHF 1.6 million upper estimate for the Daytona. Lot 95 sold on 7 November for CHF 6,267,000, premium included."
    ]
   },
   "next": {
    "slug": "phillips-235-million-spring",
    "why": "What the same house made across the season this sale opens the sequel to."
   },
-  "modified": "2026-11-07"
+  "modified": "2026-11-08"
  },
  "twenty-six-percent-of-doors": {
   "v": 3,
@@ -132520,7 +132526,7 @@
     "p": [
      {
       "lead": "Equal to October 2023.",
-      "text": "Carat Capital's 9 August record put the prior largest single addition at 740,000 ounces, in October 2023. September matches that figure rather than beating it."
+      "text": "Carat Capital's 9 August report called July's 640,000 ounces the largest addition since the 740,000 recorded in October 2023. September matches October 2023. SAFE's series shows larger months before it, including about 1.03 million ounces in November 2022."
      },
      {
       "lead": "Twenty-three months running.",
@@ -132588,7 +132594,7 @@
     "title": "How the reserve print is built",
     "text": "The People's Bank of China publishes official gold reserves monthly through the State Administration of Foreign Exchange, in units of 万盎司 — ten thousand troy ounces — alongside foreign-exchange reserves. The tonnage beside it is a conversion rather than a separate measurement. At 31.1035 grams an ounce, 7,747万 ounces is 2,409.6 tonnes; the source's own 2,409.59 is what prints above."
    },
-   "method": "The report was fetched to raw bytes at finance.eastmoney.com, HTTP 200, 64,602 bytes. Figures were taken only from inside the story's own body paragraphs, stopping before the page's hot-news and recommendation widgets, because a whole-page grep on this site also matches figures belonging to unrelated market stories. Exact-digit greps on the saved file: 7747 three hits, 74万 four, 7673 two, 2409.59 two, 2386.57 two, 23.02 two, 23个月 nine. The page's own dateline reads 2026年10月07日 10:00, Beijing time, and the body attributes the data to central-bank figures released on 7 October. ARCHIVE, by entity and period: ours of 2026-08-09, six-forty-thousand-ounces, covers JULY 2026 (640,000 ounces, 76.08 million ounces, twenty-first consecutive month); this item covers SEPTEMBER 2026 (740,000 ounces, 77.47 million ounces, twenty-third consecutive month). Same entity, different reporting period, so ADVANCED, not a repeat. Searched in Carat Capital's archive: 7747 zero hits, 76.73 zero, 2,386.57 zero, 23rd zero, so August's print was never covered here either and September's is new. Derived figures, with the division shown: 740,000 divided by 76,730,000 is 0.96% month on month; 740,000 ounces at the $4,117.40 Kitco bid is $3,046,876,000, printed as about $3.05 billion; 77,470,000 ounces at the same bid is $318,974,678,000, printed as about $318.97 billion. August's 650,000-ounce addition is this paper's subtraction and is labelled as such in the table note. No pull quote is carried; Wang Qing's and SAFE's comments are paraphrased with attribution. The Perth Mint's \"more than 5.5%\" monthly gold figure was read in the same run and is a different reference close from the Eastmoney report's 6.52%; both are printed and labelled rather than reconciled.",
+   "method": "The report was fetched to raw bytes at finance.eastmoney.com, HTTP 200, 64,602 bytes. Figures were taken only from inside the story's own body paragraphs, stopping before the page's hot-news and recommendation widgets, because a whole-page grep on this site also matches figures belonging to unrelated market stories. Exact-digit greps on the saved file: 7747 three hits, 74万 four, 7673 two, 2409.59 two, 2386.57 two, 23.02 two, 23个月 nine. The page's own dateline reads 2026年10月07日 10:00, Beijing time, and the body attributes the data to central-bank figures released on 7 October. ARCHIVE, by entity and period: ours of 2026-08-09, six-forty-thousand-ounces, covers JULY 2026 (640,000 ounces, 76.08 million ounces, twenty-first consecutive month); this item covers SEPTEMBER 2026 (740,000 ounces, 77.47 million ounces, twenty-third consecutive month). Same entity, different reporting period, so ADVANCED, not a repeat. Searched in Carat Capital's archive: 7747 zero hits, 76.73 zero, 2,386.57 zero, 23rd zero, so August's print was never covered here either and September's is new. Derived figures, with the division shown: 740,000 divided by 76,730,000 is 0.96% month on month; 740,000 ounces at the $4,117.40 Kitco bid is $3,046,876,000, printed as about $3.05 billion; 77,470,000 ounces at the same bid is $318,974,678,000, printed as about $318.97 billion. August's 650,000-ounce addition is this paper's subtraction and is labelled as such in the table note. No pull quote is carried; Wang Qing's and SAFE's comments are paraphrased with attribution. The Perth Mint's \"more than 5.5%\" monthly gold figure was read in the same run and is a different reference close from the Eastmoney report's 6.52%; both are printed and labelled rather than reconciled. Clarified 8 November 2026: SAFE's monthly gold volumes, from its reserve templates on safe.gov.cn, read by Carat Capital for October 2022 to September 2026: November 2022 62.64m to 63.67m ounces (+1.03m); December 2022 to 64.64m (+0.97m); August 2023 +0.93m; September 2023 +0.84m; October 2023 70.46m to 71.20m (+0.74m). No month from November 2023 to June 2026 reached 500,000 ounces.",
    "prior": [
     {
      "date": "2026-08-09",
@@ -132624,14 +132630,15 @@
     }
    ],
    "corrections": [
-    "Clarified, 25 October 2026: a What to watch line was dated 'Mid-November'. No date has been set: the World Gold Council has not announced the date of its third-quarter demand report. The line now says so. Found in a Carat Capital audit of 25 October 2026."
+    "Clarified, 25 October 2026: a What to watch line was dated 'Mid-November'. No date has been set: the World Gold Council has not announced the date of its third-quarter demand report. The line now says so. Found in a Carat Capital audit of 25 October 2026.",
+    "Clarified, 8 November 2026: this page said Carat Capital's 9 August report 'put the prior largest single addition at 740,000 ounces, in October 2023'. The 9 August page said July's addition was the largest since the 740,000 ounces of October 2023, which is a different claim. SAFE's series shows five larger months before October 2023, the largest about 1.03 million ounces in November 2022. What was right as published: September's 740,000 ounces, the 77.47 million holding, and that September was the largest month since buying restarted in November 2024."
    ]
   },
   "next": {
    "slug": "forty-seven-three-hundred-after-a-quiet-winter",
    "why": "The other side of the same month: what a mint sold while a central bank bought."
   },
-  "modified": "2026-10-25"
+  "modified": "2026-11-08"
  },
  "forty-seven-three-hundred-after-a-quiet-winter": {
   "v": 3,
@@ -151417,10 +151424,10 @@
   "v": 3,
   "kicker": "Watch auctions",
   "figures": {
-   "asof": "Phillips in Association with Bacs & Russo, press release, Geneva, 27 October 2026. Estimates exclude buyer's premium.",
+   "asof": "Phillips' lot page for Lot 220, Geneva Watch Auction XXIV, read 8 November 2026; press release of 27 October 2026. Estimates exclude buyer's premium.",
    "cells": [
     {
-     "n": "CHF 1.8m–3.2m",
+     "n": "CHF 1.8m–3.6m",
      "dir": "flat",
      "label": "Estimate, Lot 220",
      "q": "excludes buyer's premium",
@@ -151431,27 +151438,27 @@
      "dir": "flat",
      "label": "No. 3 at Phillips",
      "q": "May 2025, includes premium",
-     "src": 0
+     "src": 1
     },
     {
      "n": "1996",
      "dir": "flat",
      "label": "Last offered publicly",
      "q": "Geneva, 19 November 1996",
-     "src": 0
+     "src": 1
     },
     {
      "n": "38.5 cm",
      "dir": "flat",
      "label": "Height",
      "q": "weight 10.6 kg",
-     "src": 0
+     "src": 1
     }
    ]
   },
   "changed": {
    "lead": "A Portico returns to sale.",
-   "text": "Phillips will offer Cartier's Portico Mystery Clock No. 4 as Lot 220, estimated at CHF 1.8m to 3.2m. It was last offered publicly in 1996."
+   "text": "Phillips will offer Cartier's Portico Mystery Clock No. 4, estimated at CHF 1.8m to 3.6m on its sale page. It was last offered publicly in 1996."
   },
   "means": [
    {
@@ -151460,7 +151467,7 @@
    },
    {
     "who": "If you value Cartier objects:",
-    "text": "The high estimate is 18.6% below the CHF 3,932,000 that No. 3 made, a price that includes premium."
+    "text": "The high estimate is 8.4% below the CHF 3,932,000 that No. 3 made, a price that includes premium."
    },
    {
     "who": "What this is not:",
@@ -151500,7 +151507,7 @@
     ],
     [
      "Price",
-     "Estimate CHF 1.8m–3.2m",
+     "Estimate CHF 1.8m–3.6m",
      "Sold CHF 3,932,000"
     ]
    ],
@@ -151560,7 +151567,7 @@
     "title": "How an estimate is read",
     "text": "Phillips' estimates exclude buyer's premium, and its prices achieved include hammer plus premium, the release says. An estimate and a result are not like for like."
    },
-   "method": "Phillips in Association with Bacs & Russo, 'Phillips to offer Cartier Portico Mystery Clock No. 4 at the Geneva Watch Auction: XXIV', dateline 'GENEVA – 27 OCTOBER 2026'. PDF fetched at 14:06 EST 3 November 2026, text layer read, 3 pages, 9,556 characters. Times each string appears in the text: '1,800,000' 1, '3,200,000' 1, '3,932,000' 1, '38.5' 1, '10.6' 1, 'Lot 220' 1, '7 & 8 November' 3, '1996' 3; read in their sentences: 'one of only six examples of the series created between 1923 and 1925', 'the only Portico known with a hexagonal dial', 'Lot 220 with an estimate of CHF 1,800,000–3,200,000', 'Formerly the property of Alain Cartier – grandson of Louis Cartier', 'last offered publicly at The Magical Art of Cartier in Geneva on 19 November 1996', 'Reputedly, the clock had once belonged to the Maharajah of Nawanagar', 'Cartier Certificate of Authenticity dated 2002', 'Preview: 4–7 November 2026', 'Hotel President', 'the only two with square rather than round columns', 'rose-quartz columns and 12-sided carved rock-crystal dial', 'Estimates do not include buyer's premium; prices achieved include the hammer price plus buyer's premium'. Arithmetic, ours: 3,200,000 / 3,932,000 = 0.814 -> 81.4% of No. 3's price -> 18.6% below. No dollar figure: the release prices in francs and no rate was read. Not used: JCK's estimate of CHF 1.8m to 3.6m and its 'up to $3.9M' headline (2 November), and a Rapaport 'USD 4M' headline; neither is in the release. Filed under watches for the clock and the sale; the auctions desk filed the same release.",
+   "method": "Phillips in Association with Bacs & Russo, 'Phillips to offer Cartier Portico Mystery Clock No. 4 at the Geneva Watch Auction: XXIV', dateline 'GENEVA – 27 OCTOBER 2026'. PDF fetched at 14:06 EST 3 November 2026, text layer read, 3 pages, 9,556 characters. Times each string appears in the text: '1,800,000' 1, '3,200,000' 1, '3,932,000' 1, '38.5' 1, '10.6' 1, 'Lot 220' 1, '7 & 8 November' 3, '1996' 3; read in their sentences: 'one of only six examples of the series created between 1923 and 1925', 'the only Portico known with a hexagonal dial', 'Lot 220 with an estimate of CHF 1,800,000–3,200,000', 'Formerly the property of Alain Cartier – grandson of Louis Cartier', 'last offered publicly at The Magical Art of Cartier in Geneva on 19 November 1996', 'Reputedly, the clock had once belonged to the Maharajah of Nawanagar', 'Cartier Certificate of Authenticity dated 2002', 'Preview: 4–7 November 2026', 'Hotel President', 'the only two with square rather than round columns', 'rose-quartz columns and 12-sided carved rock-crystal dial', 'Estimates do not include buyer's premium; prices achieved include the hammer price plus buyer's premium'. Arithmetic, ours: 3,200,000 / 3,932,000 = 0.814 -> 81.4% of No. 3's price -> 18.6% below. No dollar figure: the release prices in francs and no rate was read. Not used: JCK's estimate of CHF 1.8m to 3.6m and its 'up to $3.9M' headline (2 November), and a Rapaport 'USD 4M' headline; neither is in the release. Filed under watches for the clock and the sale; the auctions desk filed the same release. Re-read 8 November 2026: Phillips' lot page for Lot 220 (https://www.phillips.com/detail/cartier/237488, 209,060 bytes) and the sale page's tile ('220 | Cartier | Portico No. 4 | Estimate | CHF1,800,000–3,600,000', 1 hit; 'CHF1,800,000–3,200,000', 0 hits). The sale page governs; the release's CHF 3,200,000 is the earlier document. Arithmetic, ours: 3,600,000 / 3,932,000 = 0.9156 -> 91.6% of No. 3's price -> 8.4% below. No. 3's price includes premium and the estimate does not, so the comparison is a guide, not like for like.",
    "prior": [
     {
      "date": "2026-10-01",
@@ -151570,13 +151577,19 @@
    ],
    "sources": [
     {
+     "title": "Phillips, Lot 220, Cartier Portico No. 4, Geneva Watch Auction: XXIV (lot page)",
+     "url": "https://www.phillips.com/detail/cartier/237488",
+     "published": "read 2026-11-08"
+    },
+    {
      "title": "Phillips, Cartier Portico Mystery Clock No. 4 at The Geneva Watch Auction: XXIV (press release)",
      "url": "https://dist.phillips.com/content/web/press/PHILLIPS-TO-OFFER-CARTIER-PORTICO-MYSTERY-CLOCK-NO-4-AT-THE-GENEVA-WATCH-AUCTION-XXIV_yac3milo.pdf",
      "published": "2026-10-27"
     }
    ],
    "corrections": [
-    "Updated, 7 November 2026: Phillips' sale page for Geneva Watch Auction XXIV, read on 7 November 2026, gives lot 220 an estimate of CHF 1,800,000–3,600,000. Phillips' release of 27 October, from which this page was written, gives CHF 1,800,000–3,200,000. The two Phillips documents differ on the upper estimate; the headline and figures on this page follow the release, and the 18.6% comparison with No. 3 uses its CHF 3.2 million."
+    "Updated, 7 November 2026: Phillips' sale page for Geneva Watch Auction XXIV, read on 7 November 2026, gives lot 220 an estimate of CHF 1,800,000–3,600,000. Phillips' release of 27 October, from which this page was written, gives CHF 1,800,000–3,200,000. The two Phillips documents differ on the upper estimate; the headline and figures on this page follow the release, and the 18.6% comparison with No. 3 uses its CHF 3.2 million.",
+    "Corrected, 8 November 2026: the headline, key figure, summary and table gave lot 220's estimate as CHF 1.8m to 3.2m, and the desk's view put the high estimate 18.6% below No. 3's CHF 3,932,000. Phillips' sale page and lot page, read on 8 November, give CHF 1,800,000–3,600,000, so the page now prints that band and the comparison is 8.4% below. Where the earlier figure came from: Phillips' press release of 27 October, which gives CHF 1,800,000–3,200,000. What was right as published: the CHF 1.8m low estimate and every other figure on the page."
    ]
   },
   "next": {
@@ -151584,7 +151597,7 @@
    "why": "An earlier Phillips Geneva sale, priced in francs."
   },
   "corrections": [],
-  "modified": "2026-11-07"
+  "modified": "2026-11-08"
  },
  "gem-diamonds-letseng-sells-at-1945-a-carat-in-q3": {
   "v": 3,
@@ -153543,7 +153556,7 @@
   ],
   "visual": {
    "type": "table",
-   "cap": "China's monthly gold additions in 2026, as Caijing rounds them",
+   "cap": "China's monthly gold additions, March to October 2026, about or over each figure as Caijing rounds them",
    "hi": 7,
    "asof": "Caijing on Sina Finance, 7 November 2026; tonnes, approximate as printed",
    "cols": [
@@ -153674,7 +153687,8 @@
    "slug": "seven-forty-thousand-in-september",
    "why": "September's addition, the step before October's."
   },
-  "corrections": []
+  "corrections": [],
+  "modified": "2026-11-08"
  },
  "burgundy-diamond-mines-ends-september-with-a596000-cash": {
   "v": 3,
@@ -153707,7 +153721,7 @@
      "n": "None",
      "dir": "flat",
      "label": "Unused finance facilities",
-     "q": "at quarter end, item 7.5",
+     "q": "at quarter end, item 8.5",
      "src": 1
     }
    ]
@@ -153772,7 +153786,7 @@
      "596"
     ]
    ],
-   "note": "As filed. The report's reconciliation gives the previous quarter's closing cash as 11,670, against 11,668 as this quarter's opening line.",
+   "note": "Opening cash differs by 2. The report's reconciliation gives the previous quarter's closing cash as 11,670, against 11,668 as this quarter's opening line.",
    "plate": "CC/2026/357"
   },
   "sections": [
@@ -153832,7 +153846,7 @@
     "title": "How an Appendix 5B is built",
     "text": "ASX's Appendix 5B is a quarterly cash-flow report for mining and exploration companies. Section 8 divides available funding by outgoings to estimate quarters of funding; Burgundy answers that no funding is available."
    },
-   "method": "Burgundy Diamond Mines Limited, two ASX documents dated 3 November 2026, fetched from ASX's announcement file service on 7 November (437,648 and 828,911 bytes). The cash-flow figures were read on rendered images of the Appendix 5B's pages 1, 3 and 5. Section 4, current quarter, A$ thousand: 11,668; (4,034); (9,287); 2,496; (247); 596. Nine months: 39,832; (142,508); (22,097); 126,897; (1,528); 596. Item 1.1, receipts from customers: 8,251 and 42,203. Item 8.5, unused finance facilities: 0. Item 8.7: 'No funding available'. Item 8.1 uses the nine-month operating figure, (142,508). Activities report: 'No letter of intent or proposed transaction capable of providing the funding required to continue operations was received as a result of the SISP'; 'The receiver has reported publicly that all mining operations at the Ekati Diamond Mine have subsequently ceased, and planning and preparatory work for reclamation activities is underway'; 'the Board continues to assess all possibilities for the Company'. Cross-foot, ours: 11,668 - 4,034 - 9,287 + 2,496 - 247 = 596; nine months 39,832 - 142,508 - 22,097 + 126,897 - 1,528 = 596. The report does not say what the investing outflow was for in the quarter; this page does not either.",
+   "method": "Burgundy Diamond Mines Limited, two ASX documents dated 3 November 2026, fetched from ASX's announcement file service on 7 November (437,648 and 828,911 bytes). The cash-flow figures were read on rendered images of the Appendix 5B's pages 1, 3 and 5. Section 4, current quarter, A$ thousand: 11,668; (4,034); (9,287); 2,496; (247); 596. Nine months: 39,832; (142,508); (22,097); 126,897; (1,528); 596. Item 1.1, receipts from customers: 8,251 and 42,203. Item 8.5, unused finance facilities (carried from item 7.5): 0. Item 8.7: 'No funding available'. Item 8.1 uses the nine-month operating figure, (142,508). Activities report: 'No letter of intent or proposed transaction capable of providing the funding required to continue operations was received as a result of the SISP'; 'The receiver has reported publicly that all mining operations at the Ekati Diamond Mine have subsequently ceased, and planning and preparatory work for reclamation activities is underway'; 'the Board continues to assess all possibilities for the Company'. Cross-foot, ours: 11,668 - 4,034 - 9,287 + 2,496 - 247 = 596; nine months 39,832 - 142,508 - 22,097 + 126,897 - 1,528 = 596. The report does not say what the investing outflow was for in the quarter; this page does not either.",
    "prior": [
     {
      "date": "2026-10-21",
@@ -153842,7 +153856,7 @@
     {
      "date": "2026-07-17",
      "slug": "ekati-goes-dark",
-     "claim": "A court placed Ekati in receivership after the sale process drew no viable bid."
+     "claim": "A court placed Ekati in receivership on 14 July after the sale drew no viable bid."
     }
    ],
    "sources": [
@@ -153862,7 +153876,8 @@
    "slug": "ekati-goes-dark",
    "why": "The July receivership that this quarter's report follows."
   },
-  "corrections": []
+  "corrections": [],
+  "modified": "2026-11-08"
  },
  "197-80-carat-romanov-sapphire-leads-sothebys-geneva-sale": {
   "v": 3,
@@ -153881,7 +153896,7 @@
      "n": "CHF 850,000–1,700,000",
      "dir": "flat",
      "label": "Estimate, as JCK reports",
-     "q": "not printed on the house page",
+     "q": "as JCK and National Jeweler report it",
      "src": 1
     },
     {
@@ -153900,11 +153915,11 @@
   "means": [
    {
     "who": "If you buy historic jewels:",
-    "text": "JCK puts the estimate at CHF 850,000 to 1.7 million. Sotheby's sale page prints no estimate."
+    "text": "JCK and National Jeweler put the estimate at CHF 850,000 to 1.7 million."
    },
    {
     "who": "If you consign provenance pieces:",
-    "text": "Sotheby's says the last three editions of this sale achieved white glove status."
+    "text": "Sotheby's says the last three editions of this sale achieved white glove status, meaning every lot sold."
    },
    {
     "who": "What this is not:",
@@ -153943,7 +153958,7 @@
      "estimated 70,000–100,000"
     ]
    ],
-   "note": "JCK gives the sapphire as 197.8 carats; Sotheby's page gives 197.80. Sotheby's sale page prints none of these estimates.",
+   "note": "JCK gives the sapphire as 197.8 carats; Sotheby's page gives 197.80. Estimates are as JCK and National Jeweler report them.",
    "plate": "CC/2026/358"
   },
   "sections": [
@@ -154005,9 +154020,9 @@
    "reverse": "An unsold sapphire, or one sold below CHF 850,000, would say this provenance is priced below JCK's reported range. A price above CHF 1.7 million would say the opposite.",
    "built": {
     "title": "Where the estimates come from",
-    "text": "Sotheby's sale page names the sapphire, its weight and the tiara, and prints no estimate. Every estimate on this page is as JCK reported it on 4 November."
+    "text": "Sotheby's sale page names the sapphire, its weight and the tiara. Its estimate was not read from the house page. Every estimate on this page is as JCK reported it on 4 November."
    },
-   "method": "Sotheby's sale page for Royal and Noble Jewels, sale code GE2609, read 7 November 2026 (748,936 bytes): 'The Royal and Noble Jewels sale this November will feature many outstanding historical pieces, led by the 197.80 carat Romanov sapphire mounted by Cartier and an exceptional, transformable opal and diamond tiara created by Cartier in the 1930s for Mary Cavendish, Duchess of Devonshire, worn at the coronation of Queen Elizabeth II in 1953'; sale dates '28 October - 11 November 2026 • Geneva'; 'have for the last three consecutive editions achieved white glove status'; viewing 'Mandarin Oriental, Geneva 6–10 November'. The figure 850,000 does not appear in that page's 748,936 bytes, fetched 06:04 EST 7 November. JCK, '197-Ct. Romanov Sapphire Leads Sotheby's Royal Jewels Auction', JCK News Desk, 4 November 2026 (112,913 bytes): 'The Romanov Sapphire is estimated at 850,000–1,700,000 Swiss francs'; 'Sotheby's estimates it at 780,000–1,100,000 Swiss francs' for the Devonshire piece; 'The nearly 80-lot sale'; the 1903 ball, the Soviet dispersal, Ganna Walska and the 2015 Cartier setting. JCK also reports laboratory findings on the stone's origin and treatment; this page does not carry them. JCK's dollar conversions are not used.",
+   "method": "Sotheby's sale page for Royal and Noble Jewels, sale code GE2609, read 7 November 2026 (748,936 bytes): 'The Royal and Noble Jewels sale this November will feature many outstanding historical pieces, led by the 197.80 carat Romanov sapphire mounted by Cartier and an exceptional, transformable opal and diamond tiara created by Cartier in the 1930s for Mary Cavendish, Duchess of Devonshire, worn at the coronation of Queen Elizabeth II in 1953'; sale dates '28 October - 11 November 2026 • Geneva'; 'have for the last three consecutive editions achieved white glove status'; viewing 'Mandarin Oriental, Geneva 6–10 November'. Lot estimates in that page's data are written as plain numbers ('850000', not '850,000'), and the copy read at 06:04 EST 7 November (748,936 bytes) loaded 48 lots, 1001 to 1048, not the sapphire's; a re-read at 06:2x EST 8 November (749,630 bytes) held the same 48 and no '850000'. National Jeweler, '197-Carat Romanov Sapphire Heads to Sotheby's Geneva', 2 November 2026 (99,903 bytes): 'The jewel is estimated to achieve CHF 850,000 to CHF 1,700,000', attributed to the auction house. JCK, '197-Ct. Romanov Sapphire Leads Sotheby's Royal Jewels Auction', JCK News Desk, 4 November 2026 (112,913 bytes): 'The Romanov Sapphire is estimated at 850,000–1,700,000 Swiss francs'; 'Sotheby's estimates it at 780,000–1,100,000 Swiss francs' for the Devonshire piece; 'The nearly 80-lot sale'; the 1903 ball, the Soviet dispersal, Ganna Walska and the 2015 Cartier setting. JCK also reports laboratory findings on the stone's origin and treatment; this page does not carry them. JCK's dollar conversions are not used.",
    "prior": [
     {
      "date": "2026-10-30",
@@ -154025,12 +154040,700 @@
      "title": "JCK, 197-Ct. Romanov Sapphire Leads Sotheby's Royal Jewels Auction",
      "url": "https://www.jckonline.com/editorial-article/romanov-sapphire-sothebys/",
      "published": "2026-11-04"
+    },
+    {
+     "title": "National Jeweler, 197-Carat 'Romanov Sapphire' Heads to Sotheby's Geneva",
+     "url": "https://www.nationaljeweler.com/articles/15465-197-carat-romanov-sapphire-heads-to-sotheby-s-geneva",
+     "published": "2026-11-02"
     }
+   ],
+   "corrections": [
+    "Corrected, 8 November 2026: this page said Sotheby's sale page prints no estimate for the sapphire. The copy of the page read on 7 November loaded lots 1001 to 1048 only, and its data writes estimates as plain numbers, so the search could not establish what the full page shows. The page now says only that the estimate was not read from the house page, and adds National Jeweler, which attributes the same CHF 850,000 to 1,700,000 to Sotheby's. What was right as published: the estimate, the 197.80-carat weight and the sale dates."
    ]
   },
   "next": {
    "slug": "8-63-carat-pink-leads-sothebys-geneva",
    "why": "Sotheby's other Geneva jewel sale this season."
+  },
+  "corrections": [],
+  "modified": "2026-11-08"
+ },
+ "phillips-geneva-sells-a-journe-at-chf-8-68m": {
+  "v": 3,
+  "kicker": "Watch auctions",
+  "figures": {
+   "asof": "Phillips, Geneva Watch Auction: XXIV, session of 7 November 2026, sale page and lot pages read 8 November 2026 · Sold For includes buyer's premium; estimates exclude it",
+   "cells": [
+    {
+     "n": "CHF 8,680,500",
+     "dir": "up",
+     "label": "Lot 7, Journe",
+     "q": "hammer CHF 7.1m",
+     "src": 1
+    },
+    {
+     "n": "CHF 6,267,000",
+     "dir": "up",
+     "label": "Lot 95, Patek",
+     "q": "hammer CHF 5.1m",
+     "src": 2
+    },
+    {
+     "n": "+27.5%",
+     "dir": "up",
+     "label": "Patek hammer",
+     "q": "above CHF 4m high estimate",
+     "src": 2
+    },
+    {
+     "n": "5.9x",
+     "dir": "up",
+     "label": "Vagabondage III",
+     "q": "hammer over high estimate",
+     "src": 3
+    },
+    {
+     "n": "7",
+     "dir": "flat",
+     "label": "Lots over CHF 1m",
+     "q": "Sold For, lots 1-107",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "The Journe outsold the Patek.",
+   "text": "Phillips sold an F.P. Journe Résonance for CHF 8.68m and a 1945 Patek Philippe Ref. 1436 for CHF 6.27m in Geneva on 7 November. Both prices include buyer's premium."
+  },
+  "means": [
+   {
+    "who": "If you price independents:",
+    "text": "lot 60, a Journe Vagabondage III, hammered at CHF 4.1 million, 5.9 times its CHF 700,000 high estimate."
+   },
+   {
+    "who": "If you consign vintage Patek:",
+    "text": "the Ref. 1436 hammered 27.5% above its high estimate."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a sale total or a sell-through rate. The second session, with the Cartier Portico clock, runs on 8 November."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "The seven lots that sold for more than CHF 1 million on 7 November",
+   "asof": "Phillips sale page and lot pages · Swiss francs · Sold For includes premium; estimates and hammers exclude it",
+   "cols": [
+    "Lot",
+    "Watch",
+    "Estimate",
+    "Hammer",
+    "Sold For"
+   ],
+   "rows": [
+    [
+     "7",
+     "F.P. Journe Résonance Régence, platinum, 2002",
+     "In excess of 1,000,000",
+     "7,100,000",
+     "8,680,500"
+    ],
+    [
+     "95",
+     "Patek Philippe Ref. 1436 split-seconds, steel, 1945",
+     "2,000,000–4,000,000",
+     "5,100,000",
+     "6,267,000"
+    ],
+    [
+     "60",
+     "F.P. Journe Vagabondage III, 2019",
+     "350,000–700,000",
+     "4,100,000",
+     "5,057,000"
+    ],
+    [
+     "106",
+     "Philippe Dufour Simplicity, platinum, 2004",
+     "350,000–700,000",
+     "1,550,000",
+     "1,968,500"
+    ],
+    [
+     "20",
+     "Rolex Daytona Ref. 6241 John Player Special",
+     "800,000–1,600,000",
+     "1,500,000",
+     "1,905,000"
+    ],
+    [
+     "107",
+     "Harry Winston and F.P. Journe Opus One",
+     "400,000–800,000",
+     "1,100,000",
+     "1,397,000"
+    ],
+    [
+     "34",
+     "F.P. Journe Octa Calendrier Sincere, circa 2006",
+     "250,000–500,000",
+     "925,000",
+     "1,174,750"
+    ]
+   ],
+   "hi": 0,
+   "note": "<b>Source</b> Phillips' sale page for lots and estimates; hammer and Sold For from each lot page's data, and for lot 107 from the sale page's. <b>Five of six banded lots</b> hammered above the high estimate; lot 20 hammered inside its band. <b>Lot 7</b> carried a floor, not a band.",
+   "plate": "CC/2026/356"
+  },
+  "sections": [
+   {
+    "h": "Two hammers above CHF 5 million.",
+    "p": [
+     {
+      "lead": "Lot 7 led.",
+      "text": "The Journe, a 2002 platinum Résonance with a hand-engraved pink-gold dial, hammered at CHF 7.1 million and sold for CHF 8,680,500. Phillips had estimated it at more than CHF 1 million."
+     },
+     {
+      "lead": "Patek beat its estimate.",
+      "text": "The 1945 steel split-seconds chronograph hammered at CHF 5.1 million, above its CHF 4 million high estimate. It sold for CHF 6,267,000.",
+      "links": {
+       "CHF 4 million high estimate": "a-four-million-francs-in-geneva.html"
+      }
+     }
+    ]
+   },
+   {
+    "h": "Independents cleared their estimates.",
+    "p": [
+     {
+      "lead": "Journe and Dufour ran.",
+      "text": "The Journe Vagabondage III hammered at 5.9x its high estimate, and Philippe Dufour's Simplicity at 2.2 times. The Harry Winston and Journe Opus One hammered at 1.4 times."
+     },
+     {
+      "lead": "The Rolex stayed inside.",
+      "text": "The Daytona John Player Special hammered at CHF 1.5 million, inside its CHF 800,000 to 1.6 million band."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "8 November 2026",
+    "what": "The second session, lots 108 to 221, with the Cartier Portico No. 4. The test: whether lot 220 hammers inside its CHF 1.8 million to 3.6 million estimate."
+   },
+   {
+    "when": "8 November 2026",
+    "what": "Second-session Journe lots 125, 151, 161, 211 and 213. The test: whether they too hammer above their high estimates."
+   },
+   {
+    "when": "November 2026",
+    "what": "The F.P. Journe Résonance serial 022, offered by another house. The test: how it compares with lot 7's CHF 7.1 million hammer."
+   }
+  ],
+  "depth": {
+   "reverse": "Lot 7 and lot 60 are two watches. If the second session's Journe lots, 125, 151, 161, 211 and 213, hammer inside their bands, the first session's multiples read as single-lot results, not a trend.",
+   "built": {
+    "title": "How a Phillips price is built",
+    "text": "The hammer is the winning bid. Phillips adds a buyer's premium on a cumulative basis: 27% of the hammer up to CHF 1,600,000, 21% from there to CHF 7,000,000 and 14.5% above. The Sold For price is hammer plus premium. Estimates are set on the hammer, so a Sold For price is never compared with an estimate here."
+   },
+   "method": "Phillips' sale page for Geneva Watch Auction: XXIV, https://www.phillips.com/auction/CH080426, read 04:5x EST 8 November 2026 (2,487,676 bytes, identifying user agent; the same byte count the Bureau measured at 04:4x). Each grid tile reads lot, maker, model, 'Estimate', and 'Sold For'. Lots 1 to 107 each carry a Sold For; the page data gives the second session as lots 108 to 221 ('lotNumberStart' 108, 'lotNumberEnd' 221). Lot pages read 8 November: lot 7 (180,438 bytes) 'soldPrice',8680500,'hammerPrice',7100000, year 2002, platinum, 'hand engraved shiny pink gold dial'; lot 95 (194,243) 6267000 / 5100000, 1945, stainless steel; lot 60 (170,356) 5057000 / 4100000, 2019; lot 106 (170,615) 1968500 / 1550000, 2004, platinum; lot 20 (179,901) 1905000 / 1500000; lot 34 (165,066) 1174750 / 925000; lot 107 from the sale page's data, 1397000 / 1100000. Premium tiers quoted from the sale page: '27% of the hammer price up to and including CHF1,600,000, 21% of the portion of the hammer price above CHF1,600,000 up to and including CHF7,000,000 and 14.5% of the portion ... above CHF7,000,000'. Checks, ours: lot 7, 432,000 + 0.21 x 5,400,000 + 0.145 x 100,000 = 1,580,500; 7,100,000 + 1,580,500 = 8,680,500. Lot 95, 432,000 + 0.21 x 3,500,000 = 1,167,000; 5,100,000 + 1,167,000 = 6,267,000. Ratios of hammer to high estimate: 5,100,000 / 4,000,000 = 1.275, so 27.5% above; 4,100,000 / 700,000 = 5.86; 1,550,000 / 700,000 = 2.21; 1,100,000 / 800,000 = 1.375; 925,000 / 500,000 = 1.85; 1,500,000 / 1,600,000 = 0.9375, inside the band. Seven Sold For values at or above CHF 1,000,000 among lots 1 to 107 (parsed from the tiles: 8,680,500; 6,267,000; 5,057,000; 1,968,500; 1,905,000; 1,397,000; 1,174,750). No sale total is printed: Phillips' page gives none that was read, and a sum of tiles is not a house figure. Prior coverage: the 18 September preview gave lot 95's estimate; this page gives the result. The 18 July Vagabondage II result was a different watch.",
+   "prior": [
+    {
+     "date": "2026-11-03",
+     "slug": "phillips-offers-cartier-portico-clock-no-4",
+     "claim": "Phillips offers Cartier's Portico No. 4 as lot 220 in the second session."
+    },
+    {
+     "date": "2026-09-18",
+     "slug": "four-million-francs-in-geneva",
+     "claim": "Lot 95, the 1945 Patek split-seconds, carried a CHF 4 million upper estimate."
+    },
+    {
+     "date": "2026-07-18",
+     "slug": "ninety-percent-sold",
+     "claim": "A Journe Vagabondage II made $1,016,000 as bidding moved toward independents."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Phillips, Geneva Watch Auction: XXIV, sale page (session of 7 November 2026)",
+     "url": "https://www.phillips.com/auction/CH080426",
+     "published": "read 2026-11-08"
+    },
+    {
+     "title": "Phillips, Lot 7, F.P. Journe Chronomètre à Resonance \"Régence\"",
+     "url": "https://www.phillips.com/detail/f.p.-journe/232379",
+     "published": "read 2026-11-08"
+    },
+    {
+     "title": "Phillips, Lot 95, Patek Philippe Ref. 1436",
+     "url": "https://www.phillips.com/detail/patek-philippe/237684",
+     "published": "read 2026-11-08"
+    },
+    {
+     "title": "Phillips, Lot 60, F.P. Journe Vagabondage III",
+     "url": "https://www.phillips.com/detail/f.p.-journe/236407",
+     "published": "read 2026-11-08"
+    },
+    {
+     "title": "Phillips, Lot 106, Philippe Dufour Simplicity",
+     "url": "https://www.phillips.com/detail/philippe-dufour/236224",
+     "published": "read 2026-11-08"
+    },
+    {
+     "title": "Phillips, Lot 20, Rolex Ref. 6241 \"John Player Special\"",
+     "url": "https://www.phillips.com/detail/rolex/237809",
+     "published": "read 2026-11-08"
+    },
+    {
+     "title": "Phillips, Lot 34, F.P. Journe Octa Calendrier \"Sincere\"",
+     "url": "https://www.phillips.com/detail/f.p.-journe/237160",
+     "published": "read 2026-11-08"
+    }
+   ]
+  },
+  "next": {
+   "slug": "four-million-francs-in-geneva",
+   "why": "The preview of this sale, corrected on 8 November to the house's own estimates."
+  },
+  "corrections": []
+ },
+ "rexhep-rexhepis-chronograph-flyback-wins-the-2026-aiguille-dor": {
+  "v": 3,
+  "kicker": "Watch prizes",
+  "figures": {
+   "asof": "Grand Prix d'Horlogerie de Genève (GPHG), prize list and release of the 26th edition, Geneva, 7 November 2026",
+   "cells": [
+    {
+     "n": "20",
+     "dir": "flat",
+     "label": "Prizes given",
+     "q": "26th GPHG, 7 November",
+     "src": 0
+    },
+    {
+     "n": "84",
+     "dir": "flat",
+     "label": "Watches nominated",
+     "q": "on show to 15 November",
+     "src": 0
+    },
+    {
+     "n": "3",
+     "dir": "flat",
+     "label": "Double winners",
+     "q": "Audemars Piguet, Chopard, Berthoud",
+     "src": 0
+    },
+    {
+     "n": "1,000+",
+     "dir": "flat",
+     "label": "Academy members",
+     "q": "more than 1,000 take part",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Rexhepi took the top prize.",
+   "text": "The Aiguille d'Or Grand Prix, the GPHG's highest award, went to Rexhep Rexhepi for the Chronograph Flyback. The 2026 ceremony, the 26th, was held in Geneva on 7 November."
+  },
+  "means": [
+   {
+    "who": "If you stock the winners:",
+    "text": "they show at Watches of Switzerland in Knightsbridge, London, from 18 to 23 November."
+   },
+   {
+    "who": "If you track brand awards:",
+    "text": "Audemars Piguet, Chopard and Ferdinand Berthoud each won two of the twenty prizes."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a sales figure or a price. The prizes are the judgement of an Academy and a jury."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "The twenty prizes of the 26th GPHG",
+   "asof": "GPHG prize list, 7 November 2026",
+   "cols": [
+    "Prize",
+    "Winner",
+    "Watch"
+   ],
+   "rows": [
+    [
+     "Aiguille d'Or Grand Prix",
+     "Rexhep Rexhepi",
+     "Chronograph Flyback"
+    ],
+    [
+     "Iconic Watch",
+     "Audemars Piguet",
+     "Royal Oak Jumbo Extra-thin Flying Tourbillon Chronograph RD#5"
+    ],
+    [
+     "Special Jury Prize",
+     "Patek Philippe",
+     "Watch Art Grand Exhibition"
+    ],
+    [
+     "Audacity",
+     "Konstantin Chaykin",
+     "ThinKing Mystery"
+    ],
+    [
+     "Chronometry",
+     "Ferdinand Berthoud",
+     "Naissance d'une Montre 3"
+    ],
+    [
+     "Horological Revelation",
+     "Dominique Renaud",
+     "Pulse60 Titanium Black"
+    ],
+    [
+     "Mechanical Exception",
+     "Blancpain",
+     "Grande Double Sonnerie"
+    ],
+    [
+     "Complication",
+     "Cleguer",
+     "Inspiration One"
+    ],
+    [
+     "Chronograph",
+     "Parmigiani Fleurier",
+     "Tonda PF Chronographe Mystérieux"
+    ],
+    [
+     "Tourbillon",
+     "Ferdinand Berthoud",
+     "Chronomètre FB 2TV"
+    ],
+    [
+     "Sports",
+     "Grand Seiko",
+     "Spring Drive U.F.A. Ushio 300 Diver"
+    ],
+    [
+     "Calendar and Astronomy",
+     "Audemars Piguet",
+     "150 Heritage"
+    ],
+    [
+     "Essential",
+     "Daniel Roth",
+     "Extra Plat Rose Gold Skeleton"
+    ],
+    [
+     "Time Only",
+     "Chopard",
+     "L.U.C 1860"
+    ],
+    [
+     "Jewellery",
+     "Chopard",
+     "Mystery Nut"
+    ],
+    [
+     "Artistic Crafts",
+     "Louis Vuitton",
+     "Tambour Taiko Arty Automata"
+    ],
+    [
+     "Gemset",
+     "Piaget",
+     "Swinging Pebble"
+    ],
+    [
+     "Petite Aiguille",
+     "Otsuka Lotec",
+     "No.8"
+    ],
+    [
+     "Challenge",
+     "SpaceOne",
+     "SpaceOne X Baltic - Seconde Majeure"
+    ],
+    [
+     "Mechanical Clock",
+     "La Vallée",
+     "Cosmo"
+    ]
+   ],
+   "hi": 0,
+   "note": "<b>Source</b> the GPHG's release of 7 November 2026 and its prize-list page, which agree on all twenty. <b>Prize names</b> are shortened; the GPHG adds the words Watch Prize.",
+   "plate": "CC/2026/357"
+  },
+  "sections": [
+   {
+    "h": "Rexhepi wins the Aiguille d'Or.",
+    "p": [
+     {
+      "lead": "A jury chose.",
+      "text": "An Academy of more than 1,000 members took part in the selection, and a jury chaired by Wei Koh awarded 20 prizes, the GPHG says."
+     }
+    ]
+   },
+   {
+    "h": "Three houses win twice.",
+    "p": [
+     {
+      "lead": "Two prizes each.",
+      "text": "Audemars Piguet, Chopard and Ferdinand Berthoud are the 3 double winners. Audemars Piguet won Iconic and Calendar and Astronomy, Chopard won Time Only and Jewellery. Ferdinand Berthoud won Chronometry and Tourbillon."
+     },
+     {
+      "lead": "Patek's prize is cultural.",
+      "text": "Patek Philippe took the Special Jury Prize for its Watch Art Grand Exhibition, an exhibition rather than a watch."
+     }
+    ]
+   },
+   {
+    "h": "The winners travel to London.",
+    "p": [
+     {
+      "lead": "Geneva, then Knightsbridge.",
+      "text": "The 84 nominated watches stay at Geneva's Musée d'Art et d'Histoire until 15 November, after showings in Mumbai and Bangkok. The winners go to Watches of Switzerland in Knightsbridge from 18 to 23 November."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Until 15 November 2026",
+    "what": "The nominees' exhibition at the Musée d'Art et d'Histoire, Geneva."
+   },
+   {
+    "when": "18 to 23 November 2026",
+    "what": "The winners at Watches of Switzerland, Knightsbridge. The test: whether the retailer reports enquiries for the prize models."
+   },
+   {
+    "when": "8 November 2026",
+    "what": "Phillips' second session in Geneva. The test: whether prize-winning makers' lots hammer above their high estimates."
+   }
+  ],
+  "depth": {
+   "reverse": "Nothing in a prize list moves a price by itself. The call that matters is at auction: if Rexhepi and the double winners' pieces sell inside their estimates over the coming season, the prize is recognition, not demand.",
+   "built": {
+    "title": "How the GPHG is chosen",
+    "text": "An Academy of more than 1,000 members takes part in the selection and a jury of international experts awards the prizes. The GPHG was created in 2001 and has been overseen since 2011 by a foundation recognised as a public-interest organisation, it says."
+   },
+   "method": "GPHG release, https://www.gphg.org/en/news/prize-list-of-the-26th-grand-prix-dhorlogerie-de-geneve-gphg-rexhep-rexhepi-wins-the-2026-aiguille-dor, read 8 November 2026 (56,167 bytes): 'Geneva reaffirmed its status as the world capital of watchmaking this Saturday, 7 November'; 'the prestigious Aiguille d'Or Grand Prix was awarded to Rexhep Rexhepi for the Chronograph Flyback watch'; 'twenty prizes were attributed'; 'an Academy of more than 1,000 members and a Jury of international experts chaired this year by Wei Koh'; 'The Special Jury Prize was awarded to Patek Philippe for the Watch Art Grand Exhibition'; 'the 84 timepieces nominated by the Academy remains open at the Musée d'Art et d'Histoire in Geneva until 15 November'; 'presented from 18 to 23 November at the Watches of Switzerland boutique in Knightsbridge'. The twenty prizes in the table are the release's list, checked line by line against the prize-list page (https://www.gphg.org/en/prize-list-26, 75,764 bytes); both give the same winner and watch for every prize. The count of double winners is ours, from that list: Audemars Piguet (Iconic; Calendar and Astronomy), Chopard (Time Only; Jewellery), Ferdinand Berthoud (Chronometry; Tourbillon). Prior coverage: no earlier Carat Capital article on the GPHG; one on 18 July names Rexhepi among independents at auction.",
+   "prior": [
+    {
+     "date": "2026-07-18",
+     "slug": "ninety-percent-sold",
+     "claim": "Sotheby's watch bidding moved toward independents, Rexhep Rexhepi among them."
+    }
+   ],
+   "sources": [
+    {
+     "title": "GPHG, Prize list of the 26th Grand Prix d'Horlogerie de Genève: Rexhep Rexhepi wins the 2026 Aiguille d'Or",
+     "url": "https://www.gphg.org/en/news/prize-list-of-the-26th-grand-prix-dhorlogerie-de-geneve-gphg-rexhep-rexhepi-wins-the-2026-aiguille-dor",
+     "published": "2026-11-07"
+    },
+    {
+     "title": "GPHG, Prize list 26",
+     "url": "https://www.gphg.org/en/prize-list-26",
+     "published": "read 2026-11-08"
+    }
+   ]
+  },
+  "next": {
+   "slug": "phillips-geneva-sells-a-journe-at-chf-8-68m",
+   "why": "The same weekend in Geneva, priced: what independents made at Phillips."
+  },
+  "corrections": []
+ },
+ "chow-tai-sengs-franchise-income-falls-67-84-percent-in-nine-months": {
+  "v": 3,
+  "kicker": "Jewellery retail",
+  "figures": {
+   "asof": "Chow Tai Seng (002867.SZ) third-quarter report, 27 October 2026, as reported by Huaxia Times on Eastmoney, 31 October 2026 08:00 Beijing · first nine months of 2026 against a year earlier",
+   "cells": [
+    {
+     "n": "−67.84%",
+     "dir": "down",
+     "label": "Franchise income",
+     "q": "RMB 1.076bn, nine months, y/y",
+     "src": 0
+    },
+    {
+     "n": "19.27%",
+     "dir": "down",
+     "label": "Franchise share",
+     "q": "of revenue, from 49.39%",
+     "src": 0
+    },
+    {
+     "n": "−84.32%",
+     "dir": "down",
+     "label": "Gold wholesale",
+     "q": "to RMB 362m, y/y",
+     "src": 0
+    },
+    {
+     "n": "3,424",
+     "dir": "down",
+     "label": "Franchise stores",
+     "q": "net 657 fewer since January",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Franchising shrank to a fifth.",
+   "text": "Chow Tai Seng's franchise income fell 67.84% on the year to RMB 1.076bn in the first nine months of 2026, Huaxia Times reports. That is about a fifth of revenue."
+  },
+  "means": [
+   {
+    "who": "If you supply Chinese franchisees:",
+    "text": "franchisees are destocking, the company says, and restock through designated suppliers, Everbright Securities says."
+   },
+   {
+    "who": "If you hold the shares:",
+    "text": "own stores and e-commerce made 78% of revenue, and both grew more than 30% on the year."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a third-quarter figure. These are nine-month totals, from a press report of the filing."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Chow Tai Seng revenue by channel, first nine months of 2026",
+   "asof": "RMB · as reported by Huaxia Times from the third-quarter report",
+   "cols": [
+    "Channel",
+    "Nine months 2026",
+    "Change",
+    "Share of revenue",
+    "A year earlier"
+   ],
+   "rows": [
+    [
+     "Franchise",
+     "RMB 1.076bn",
+     "−67.84% y/y",
+     "19.27%",
+     "49.39%"
+    ],
+    [
+     "Own stores",
+     "RMB 1.764bn",
+     "+31.46% y/y",
+     "31.59%",
+     "19.82%"
+    ],
+    [
+     "E-commerce",
+     "RMB 2.595bn",
+     "+33.42% y/y",
+     "46.46%",
+     "28.72%"
+    ],
+    [
+     "Total revenue",
+     "RMB 5.584bn",
+     "−17.54% y/y",
+     "",
+     ""
+    ],
+    [
+     "Net profit attributable to shareholders",
+     "RMB 651m",
+     "−26.15% y/y",
+     "",
+     ""
+    ]
+   ],
+   "hi": 0,
+   "note": "<b>Source</b> Huaxia Times, carried on Eastmoney on 31 October 2026, reporting the company's third-quarter filing. <b>Inside franchise income</b> gold product wholesale was RMB 362m, down 84.32% on the year, and gem-set wholesale RMB 40.46m, down 87.97%. <b>The three channels</b> sum to 97.32% of revenue.",
+   "plate": "CC/2026/358"
+  },
+  "sections": [
+   {
+    "h": "Wholesale fell hardest.",
+    "p": [
+     {
+      "lead": "Gold wholesale shrank.",
+      "text": "Gold product sales to franchisees fell 84.32% on the year, to RMB 362m. The company says it actively changed its supply structure, so brand fees rose as a share."
+     },
+     {
+      "lead": "Franchisees pay fees instead.",
+      "text": "Everbright Securities, in a note of 28 October, says brand fees rose to 48.2% of franchise income in the first half, from 15.2%."
+     }
+    ]
+   },
+   {
+    "h": "Own stores and online gained share.",
+    "p": [
+     {
+      "lead": "Both rose over 30%.",
+      "text": "Own-store income rose 31.46% and e-commerce 33.42% on the year. Together they made 78% of revenue, Huaxia Times reports."
+     }
+    ]
+   },
+   {
+    "h": "A net 670 fewer stores.",
+    "p": [
+     {
+      "lead": "Net 670 fewer.",
+      "text": "The store count ended September at 3,809, a net 670 fewer than at the start of the year."
+     },
+     {
+      "lead": "Net franchise closures.",
+      "text": "Franchised stores fell by a net 657 to 3,424."
+     },
+     {
+      "lead": "Small-city shops, it says.",
+      "text": "The company told investors on 28 October that closures are mainly unprofitable street shops in lower-tier cities and counties."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "By 30 April 2027",
+    "what": "The 2026 annual report. The test: whether franchise income keeps falling as brand fees grow."
+   },
+   {
+    "when": "Monthly",
+    "what": "Shenzhen and Shanghai counter prices for 24-carat gold. The test: whether a lower gold price brings franchisees back to buying stock."
+   }
+  ],
+  "depth": {
+   "reverse": "Franchisees buying stock directly again. If gold prices settle and wholesale income returns, the fall reads as a gold-price effect, not a change of model.",
+   "built": {
+    "title": "How a franchise earns for Chow Tai Seng",
+    "text": "Franchise income has two parts: product wholesale, where the company sells stock to franchisees, and brand-use fees. When franchisees restock through designated suppliers, the company collects only the fee, so its income falls even if counters keep selling, Everbright Securities says."
+   },
+   "method": "Huaxia Times, carried on Eastmoney, https://finance.eastmoney.com/a/202610313917509756.html, dateline '2026年10月31日 08:00', read 8 November 2026 (67,768 bytes). Figures read in the article's own paragraphs, before the page's recirculation lists; raw-byte hits: '10.76亿元' 1, '67.84%' 1, '49.39%' 1, '19.27%' 1, '17.64亿元' 1, '31.46%' 1, '25.95亿元' 1, '33.42%' 1, '31.59%' 1, '46.46%' 1, '19.82%' 1, '28.72%' 1, '3.62亿元' 1, '84.32%' 1, '4046.01万元' 1, '87.97%' 1, '55.84亿元' 1, '17.54%' 1, '6.51亿元' 1, '26.15%' 1, '15.2%' 1, '48.2%' 1, '3809家' 1, '670家' 1, '657家' 1, '3424家' 1. The company's own words, as quoted: franchisees '普遍采取去库存策略' (generally destocking); the fall's main factor was '公司主动调整供货结构' (the company actively adjusting its supply structure). Checks, ours: 0.1927 x 5.584bn = 1.076bn; 17.64 + 25.95 = 43.59, and 43.59 / 55.84 = 78.1%, matching '两者合计占比升至78%'; a year earlier 19.82% + 28.72% = 48.54%; channels 19.27 + 31.59 + 46.46 = 97.32%. Not printed: a third-quarter-alone figure, which would be derived from our 1 September first-half page. The filing itself (SZSE) was not opened; every figure is the newspaper's report of it. Prior coverage: the 1 September page covers the first half (revenue RMB 3.641bn, down 20.79%); this page covers the first nine months and the franchise split.",
+   "prior": [
+    {
+     "date": "2026-09-05",
+     "slug": "an-international-member-in-hong-kong",
+     "claim": "Chow Tai Seng's Hong Kong arm joined the Shanghai Gold Exchange."
+    },
+    {
+     "date": "2026-09-01",
+     "slug": "three-six-four-one-and-thirty-six-ninety-five",
+     "claim": "First-half revenue fell 20.79% while gross margin rose 6.61 points."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Huaxia Times on Eastmoney, Chow Tai Seng's channel 'sharp turn': franchise stores down a net 657 this year, self-run and e-commerce near 80% of revenue",
+     "url": "https://finance.eastmoney.com/a/202610313917509756.html",
+     "published": "2026-10-31T00:00:00Z"
+    }
+   ]
+  },
+  "next": {
+   "slug": "three-six-four-one-and-thirty-six-ninety-five",
+   "why": "The first half that this nine-month report extends."
   },
   "corrections": []
  }
