@@ -1780,6 +1780,25 @@ def lab_prices_page():
 # ---------------- THE CARAT INDICES ----------------
 IDX = json.loads((CONTENT / "indices.json").read_text()) if (CONTENT / "indices.json").exists() else {}
 
+# caratcheck 8 Nov item 1: a weekend-dated newest point is not a session. When the series'
+# newest date is a Saturday or Sunday the 1D compares carried values with themselves, so the
+# 1D is withheld on every surface and the reason, with both dates, is read from the series.
+def _idx_d1_hold():
+    try:
+        _ser = IDX["indices"]["CC20"]["series"]
+        _last = datetime.date.fromisoformat(_ser[-1][0])
+    except Exception:
+        return ""
+    if _last.weekday() < 5:
+        return ""
+    _prev = next((datetime.date.fromisoformat(d) for d, _ in reversed(_ser)
+                  if datetime.date.fromisoformat(d).weekday() < 5), None)
+    _fmt = lambda d: "%s %d %s" % (d.strftime("%A"), d.day, d.strftime("%B"))
+    return ("1D withheld: the newest point in the series is dated %s, a day with no full session; "
+            "the last weekday session in the series is %s" % (_fmt(_last), _fmt(_prev) if _prev else "not in the series"))
+IDX_D1_HOLD = _idx_d1_hold() if IDX else ""
+IDX_NOTES = json.loads((CONTENT / "index-notes.json").read_text()) if (CONTENT / "index-notes.json").exists() else {}
+
 # index hues chosen for ink-on-paper legibility, echoing the desk hues
 IDX_HUE = {"CC20": "#77737E", "CC-M": "#7C5CD6", "CC-C": "#0E7C7B",
            "CC-P": "#2563A8", "CC-W": "#1E7D46"}
@@ -1919,7 +1938,7 @@ def indices_page():
     <div style="font-family:var(--mono);font-size:22px;font-weight:500;letter-spacing:-.02em">{x['level']:,.2f}</div>
   </div>
   <div style="font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;color:var(--ink-2);margin:7px 0 12px;display:flex;gap:18px;flex-wrap:wrap">
-    <span>1D {pill(x['d1p'])}</span><span>1W {pill(x['w1p'])}</span>
+    <span>1D {pill(x['d1p']) if not IDX_D1_HOLD else '<span style="color:var(--ink-3)">withheld</span>'}</span><span>1W {pill(x['w1p'])}</span>
     <span>1M {pill(x['m1p'])}</span><span>YTD {pill(x['ytdp'])}</span>
   </div>
   {mini}
@@ -1980,9 +1999,10 @@ def indices_page():
       {tile(f"{IDX['corr63']:+.2f}", "63-day correlation · CC20 daily moves vs gold", "var(--ink-3)")}
     </div>
     <p style="font-family:var(--text);font-size:15.5px;line-height:1.64;color:var(--ink-2);max-width:74ch;margin:26px 0 0">
-      Gold is having a historic year and the old rule says jewelry equities should suffer for it —
-      the metal is their input cost. The tape says otherwise: {mg_line}. The divergence is not the
-      houses; it is the watchmakers, and the table below names them.</p>
+      {"Gold is up" if g['ytdp'] > 0 else "Gold is down"} {abs(g['ytdp']):.1f}% this year, and the old rule says jewelry equities move against
+      the metal, their input cost. The tape: {mg_line}. The table below names the five indices and their constituents.</p>
+    {('<p style="font-family:var(--mono);font-size:10.5px;letter-spacing:.04em;color:var(--ink-3);max-width:74ch;margin:14px 0 0">' + IDX_D1_HOLD + '.</p>') if IDX_D1_HOLD else ""}
+    {"".join('<p class="idx-corr" style="font-family:var(--text);font-size:14px;line-height:1.6;color:var(--ink-2);max-width:74ch;margin:14px 0 0;border-left:2px solid var(--seal);padding-left:12px">' + n["text"] + '</p>' for n in IDX_NOTES.get("corrections", []))}
   </div>
 </div></section>
 
@@ -3584,15 +3604,17 @@ def index_page():
             arrow = "▲" if d1 > 0 else ("▼" if d1 < 0 else "—")
             px_rows.append({
                 "k": f"{code} · {x['name']}", "v": f"{x['level']:,.2f}",
-                "d": f"{arrow} {d1:+.2f}%",
-                "cls": "up" if d1 > 0 else ("dn" if d1 < 0 else "fl"),
+                "d": f"{arrow} {d1:+.2f}%" if not IDX_D1_HOLD else "1D withheld",
+                "cls": ("up" if d1 > 0 else ("dn" if d1 < 0 else "fl")) if not IDX_D1_HOLD else "fl",
                 "ser": [round(v, 2) for _, v in x["series"]],
                 # the analyst's row: enough to read the index without leaving
                 "st": {"w1": x["w1p"], "m1": x["m1p"], "ytd": x["ytdp"],
                        "hi": x["hi"], "lo": x["lo"], "dd": x["mddp"]},
                 "dek": x["dek"],
                 "ft": ("Drawn from each exchange's last price at %s, intraday where a market was open · equal weight, base 100 = "
-                       "first trading day of the year · as of %s" % (_idx_clock() or "build", IDX["as_of"]))})
+                       "first trading day of the year · as of %s" % (_idx_clock() or "build", IDX["as_of"]))
+                      + ((" · " + IDX_D1_HOLD) if IDX_D1_HOLD else "")
+                      + "".join(" · " + n.get("short", "") for n in IDX_NOTES.get("corrections", []) if n.get("short"))})
     else:
         _ph, _lh = PRICES.get("headline", {}), LAB.get("headline", {})
         _px_src = {}

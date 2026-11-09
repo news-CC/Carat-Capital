@@ -1,0 +1,9 @@
+{
+ "corrections": [
+  {
+   "date": "2026-11-09",
+   "text": "Corrected, 9 November 2026: on 8 November this page and the homepage price desk printed a 1D change of +0.00% for all five indices. The newest point in the series was dated Sunday 8 November, created when one constituent printed a bar stamped that day, so the 1D compared Friday's values with themselves. It was not a session move. The 1D is now withheld whenever the newest point falls on a weekend. What was right as published: the index levels.",
+   "short": "corrected 9 Nov: the 8 Nov 1D of +0.00% was a Sunday-dated point, not a session; see indices.html"
+  }
+ ]
+}

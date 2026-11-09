@@ -1,31 +1,31 @@
 {
  "date_line": "Sunday, October 18, 2026 | Vol. I - No. 090",
- "edition": "Vol. I - No. 107",
+ "edition": "Vol. I - No. 108",
  "items": [
   {
-   "slug": "phillips-geneva-sells-a-journe-at-chf-8-68m",
-   "desk": "Auctions",
-   "title": "Phillips Geneva sells a Journe at CHF 8.68m and a Patek at CHF 6.27m"
-  },
-  {
-   "slug": "chow-tai-sengs-franchise-income-falls-67-84-percent-in-nine-months",
-   "desk": "Retail & Tech",
-   "title": "Chow Tai Seng's nine-month franchise income falls 67.84% on the year"
-  },
-  {
-   "slug": "rexhep-rexhepis-chronograph-flyback-wins-the-2026-aiguille-dor",
+   "slug": "cartier-portico-no-4-sells-for-chf-4-8m-22-5-percent-above-no-3",
    "desk": "Watches",
-   "title": "Rexhep Rexhepi's Chronograph Flyback wins the 2026 Aiguille d'Or"
+   "title": "Cartier Portico No. 4 sells for CHF 4.8m, 22.5% above No. 3"
+  },
+  {
+   "slug": "hong-kong-jewelry-and-watch-sales-rise-20-3-percent-in-september",
+   "desk": "Retail & Tech",
+   "title": "Hong Kong jewelry and watch sales rise 20.3% in September"
+  },
+  {
+   "slug": "noel-tata-retires-as-titan-vice-chairman-on-12-november",
+   "desk": "Retail & Tech",
+   "title": "Noel Tata retires as Titan vice-chairman on 12 November"
   }
  ],
- "tape_ts": "Kitco bid, board stamp 2026-11-06T17:00:00-05:00, tape's 05:00 ET opening mark 8 Nov",
+ "tape_ts": "Kitco bid, board stamp 2026-11-09T04:59:00-05:00, tape's 05:00 ET opening mark 9 Nov",
  "tape": [
   {
    "name": "Gold / oz",
    "code": "XAU",
-   "px": "4,070.10",
-   "chg": "+0.0000% vs 7 Nov mark",
-   "dir": "flat",
+   "px": "4,096.40",
+   "chg": "+0.6462% vs 8 Nov mark",
+   "dir": "up",
    "pts": [
     5,
     6,
@@ -81,7 +81,7 @@
    "name": "Platinum / oz",
    "code": "XPT",
    "px": "1,534.00",
-   "chg": "+0.0000% vs 7 Nov mark",
+   "chg": "+0.0000% vs 8 Nov mark",
    "dir": "flat",
    "pts": [
     2,
@@ -99,9 +99,9 @@
   {
    "name": "Silver / oz",
    "code": "XAG",
-   "px": "51.821",
-   "chg": "+0.0000% vs 7 Nov mark",
-   "dir": "flat",
+   "px": "52.473",
+   "chg": "+1.2582% vs 8 Nov mark",
+   "dir": "up",
    "pts": [
     2,
     4,
@@ -116,10 +116,10 @@
    ]
   }
  ],
- "editionDate": "2026-11-08",
+ "editionDate": "2026-11-09",
  "printed": {
-  "editionDate": "2026-11-08",
-  "clock": "06:18 EST",
-  "note": "the Editor's press time for this edition, written once at push; build.py reads it so later rebuilds by other desks do not move it"
+  "editionDate": "2026-11-09",
+  "clock": "06:20 EST",
+  "note": "the Editor's press time for this edition, written once at push; build.py reads it so later rebuilds by other desks do not move it. It is press time, not the CI publish time."
  }
 }
