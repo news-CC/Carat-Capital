@@ -1,6 +1,11 @@
 {
  "corrections": [
   {
+   "date": "2026-11-10",
+   "text": "Method changed, 10 November 2026: the indices are now built on each exchange's own dates, from completed sessions only. A bar from a session still open is dropped, and the headline date is the latest day on which at least 18 of 20 constituents have a completed bar. Before this, Hong Kong and Tokyo bars could sit a day ahead of Europe and New York in the same point. On the old build the CC20 fell 6.4% on 5 November; on the new build that step is 3.1%. Levels and changes printed before 10 November were on the old build.",
+   "short": "method changed 10 Nov: completed sessions only, exchange-local dates; see indices.html"
+  },
+  {
    "date": "2026-11-09",
    "text": "Corrected, 9 November 2026: on 8 November this page and the homepage price desk printed a 1D change of +0.00% for all five indices. The newest point in the series was dated Sunday 8 November, created when one constituent printed a bar stamped that day, so the 1D compared Friday's values with themselves. It was not a session move. The 1D is now withheld whenever the newest point falls on a weekend. What was right as published: the index levels.",
    "short": "corrected 9 Nov: the 8 Nov 1D of +0.00% was a Sunday-dated point, not a session; see indices.html"

@@ -6,6 +6,36 @@
    "label": "This week - August 20 to September 23",
    "entries": [
     {
+     "d": "prices",
+     "h": "The 9 November platinum chip was a held close",
+     "t": "Corrected 10 November 2026: on 9 November the homepage tape printed platinum at 1,534.00, '0.0% vs 8 Nov mark', which read as a flat session. It was Friday 6 November's close, held by the price desk that morning; the board had moved. The builder now prints a held mark as 'held at' its own day's close. What was right as published: the price, as Friday's close.",
+     "s": "Carat Capital, index.html"
+    },
+    {
+     "d": "watches",
+     "h": "Serial 022 was Phillips' own lot, on a second page",
+     "t": "Corrected 10 November 2026: four-million-francs-in-geneva.html said the Journe Resonance serial 022 would be offered by another house in November. It was Phillips lot 125 in the same XXIV sale, sold for CHF 4,936,000. The What to watch entry is removed and the method sentence rewritten. What was right as published: every lot, estimate and price.",
+     "s": "Carat Capital, a-four-million-francs-in-geneva.html"
+    },
+    {
+     "d": "retail",
+     "h": "Hong Kong's 20.3% is on the year",
+     "t": "Clarified 10 November 2026: hong-kong-jewelry-and-watch-sales-rise-20-3-percent-in-september.html (No. 108) gave a 20.3% rise without its base. It is on September 2025; against August, sales fell 8.7%. A subhead implying the government named a cause for the category is rewritten. What was right as published: every figure.",
+     "s": "Carat Capital, a-hong-kong-jewelry-and-watch-sales-rise-20-3-percent-in-september.html"
+    },
+    {
+     "d": "watches",
+     "h": "'Every lot sold' is Phillips' claim",
+     "t": "Clarified 10 November 2026: cartier-portico-no-4-sells-for-chf-4-8m-22-5-percent-above-no-3.html (No. 108) carried 'Every lot sold.' as a lead-in in the paper's voice. It is Phillips' claim; lot 189's page reads Sold with no price. The lead-in is attributed. What was right as published: every price and total.",
+     "s": "Carat Capital, a-cartier-portico-no-4-sells-for-chf-4-8m-22-5-percent-above-no-3.html"
+    },
+    {
+     "d": "indices",
+     "h": "The indices now use completed sessions",
+     "t": "Method changed 10 November 2026: indices.html now builds every Carat index on each exchange's own dates from completed sessions, with a headline date needing 18 of 20 constituents. On the old build the CC20 fell 6.4% on 5 November; on the new build 3.1%. Figures printed before 10 November were on the old build.",
+     "s": "Carat Capital, indices.html"
+    },
+    {
      "d": "watches",
      "h": "Journe serial 022 was Phillips' own lot",
      "t": "Corrected 9 November 2026: phillips-geneva-sells-a-journe-at-chf-8-68m.html (No. 107, 8 November 2026) said in What to watch that the Journe Résonance serial 022 would be offered by another house. It was Phillips lot 125 in the same sale, as the 19 July report said. The entry is removed. What was right as published: every lot, estimate and price.",

@@ -1,31 +1,41 @@
 {
  "date_line": "Sunday, October 18, 2026 | Vol. I - No. 090",
- "edition": "Vol. I - No. 108",
+ "edition": "Vol. I - No. 109",
  "items": [
   {
-   "slug": "cartier-portico-no-4-sells-for-chf-4-8m-22-5-percent-above-no-3",
+   "slug": "botswana-would-double-its-de-beers-stake-to-30-percent",
+   "desk": "Diamonds",
+   "title": "Botswana would double its De Beers stake to 30%, its president says"
+  },
+  {
+   "slug": "watches-of-switzerland-half-year-revenue-rises-15-percent-to-974m",
    "desk": "Watches",
-   "title": "Cartier Portico No. 4 sells for CHF 4.8m, 22.5% above No. 3"
+   "title": "Watches of Switzerland Group half-year revenue rises 15% to £974m"
   },
   {
-   "slug": "hong-kong-jewelry-and-watch-sales-rise-20-3-percent-in-september",
-   "desk": "Retail & Tech",
-   "title": "Hong Kong jewelry and watch sales rise 20.3% in September"
+   "slug": "phillips-kashmir-sapphire-ring-hammers-18-9-percent-below-its-low-estimate",
+   "desk": "Gemstones",
+   "title": "Phillips Kashmir sapphire ring hammers 18.9% below its low estimate"
   },
   {
-   "slug": "noel-tata-retires-as-titan-vice-chairman-on-12-november",
-   "desk": "Retail & Tech",
-   "title": "Noel Tata retires as Titan vice-chairman on 12 November"
+   "slug": "christies-says-geneva-watch-sale-made-chf-47-8m-100-percent-sold",
+   "desk": "Auctions",
+   "title": "Christie's says Geneva watch sale made CHF 47.8m, 100% sold"
+  },
+  {
+   "slug": "barricks-q3-all-in-sustaining-cost-rises-24-percent-to-1911-an-ounce",
+   "desk": "Gold & Metals",
+   "title": "Barrick's Q3 all-in sustaining cost rises 24% to $1,911 an ounce"
   }
  ],
- "tape_ts": "Kitco bid, board stamp 2026-11-09T04:59:00-05:00, tape's 05:00 ET opening mark 9 Nov",
+ "tape_ts": "Kitco bid, board stamp 2026-11-10T04:59:00-05:00, tape's 05:00 ET opening mark 10 Nov",
  "tape": [
   {
    "name": "Gold / oz",
    "code": "XAU",
-   "px": "4,096.40",
-   "chg": "+0.6462% vs 8 Nov mark",
-   "dir": "up",
+   "px": "4,085.90",
+   "chg": "-0.2563% vs 9 Nov mark",
+   "dir": "down",
    "pts": [
     5,
     6,
@@ -80,9 +90,9 @@
   {
    "name": "Platinum / oz",
    "code": "XPT",
-   "px": "1,534.00",
-   "chg": "+0.0000% vs 8 Nov mark",
-   "dir": "flat",
+   "px": "1,552.00",
+   "chg": "+1.1734% vs 9 Nov mark",
+   "dir": "up",
    "pts": [
     2,
     4,
@@ -99,8 +109,8 @@
   {
    "name": "Silver / oz",
    "code": "XAG",
-   "px": "52.473",
-   "chg": "+1.2582% vs 8 Nov mark",
+   "px": "52.483",
+   "chg": "+0.0191% vs 9 Nov mark",
    "dir": "up",
    "pts": [
     2,
@@ -116,10 +126,10 @@
    ]
   }
  ],
- "editionDate": "2026-11-09",
+ "editionDate": "2026-11-10",
  "printed": {
-  "editionDate": "2026-11-09",
-  "clock": "06:20 EST",
+  "editionDate": "2026-11-10",
+  "clock": "06:23 EST",
   "note": "the Editor's press time for this edition, written once at push; build.py reads it so later rebuilds by other desks do not move it. It is press time, not the CI publish time."
  }
 }

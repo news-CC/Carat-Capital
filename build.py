@@ -269,6 +269,12 @@ def _lock_metal_qualifiers():
             continue
         _src = _m.get("prev_printed_source") or ""
         _hit = _req.search(r"tape/(\d{4}-\d{2}-\d{2})\.json", _src)
+        if not _hit:
+            # caratdesk 10 Nov: a mark with no prev_printed_source is measured against the newest
+            # earlier tape file in the same folder (what tools/prev-mark.py reads).
+            _prior = sorted(p.stem for p in _tp.parent.glob("20??-??-??.json") if p.stem < _edd)
+            if _prior:
+                _hit = _req.search(r"(\d{4}-\d{2}-\d{2})", "tape/%s.json" % _prior[-1])
         if not _hit or " mark" not in (_t.get("chg") or ""):
             continue
         try:
@@ -280,6 +286,20 @@ def _lock_metal_qualifiers():
             _fr = _pd - _dtq.timedelta(days=_pd.weekday() - 4)
             _t["chg"] = _req.sub(r"vs .*? mark", "vs Fri %d %s close" % (_fr.day, _fr.strftime("%b")), _t["chg"], count=1)
             continue
+        # caratdesk 10 Nov: when the prior tape HELD this metal, the change is measured against the
+        # close that tape carried, not against a session of its own date. Read it from that tape.
+        try:
+            _pt = _tp.parent / ("%s.json" % _hit.group(1))
+            _pm = {m.get("key"): m for m in json.loads(_pt.read_text()).get("marks", [])}.get(_map.get(_t.get("code"), "")) or {}
+        except Exception:
+            _pm = {}
+        if _pm and (_pm.get("status") or "fresh") != "fresh":
+            try:
+                _hd = _dtq.datetime.fromisoformat(_pm.get("sourceDate") or "").date()
+                _t["chg"] = _req.sub(r"vs .*? mark", "vs %s %d %s close" % (_hd.strftime("%a"), _hd.day, _hd.strftime("%b")), _t["chg"], count=1)
+                continue
+            except ValueError:
+                pass
         _t["chg"] = _req.sub(r"vs .*? mark", "vs %d %s mark" % (_pd.day, _pd.strftime("%b")), _t["chg"], count=1)
     # carateditor 27 Oct order 1: the change prints at one decimal, rounded here from the tape's
     # own changePct, never typed; the price is the tape's value. A chip whose mark is missing a
@@ -295,7 +315,53 @@ def _lock_metal_qualifiers():
         _v = float(_m["value"])
         _dec = max(2, len(repr(_v).split(".")[1]) if "." in repr(_v) else 2)
         _t["px"] = f"{_v:,.{_dec}f}"
+        # caratdesk 10 Nov (caratcheck 9 Nov item 1, carateditor order 2): a mark the Wire holds
+        # (status not "fresh") is the close of the session its sourceDate names, never a flat
+        # session. The chip says "held at <day> close", with the day read from the mark.
+        if (_m.get("status") or "fresh") != "fresh":
+            try:
+                _sd = _dtq.datetime.fromisoformat(_m.get("sourceDate") or "").date()
+                _t["chg"] = "held at %s %d %s close" % (_sd.strftime("%a"), _sd.day, _sd.strftime("%b"))
+            except ValueError:
+                _t["chg"] = "held, not a session move"
+            _t["dir"] = "flat"
+            _t["held"] = True
 _lock_metal_qualifiers()
+
+def _edition_tape_marks():
+    """The edition's own tape marks by key (newsroom copy, else the copy shipped in the site)."""
+    _edd = WIRE.get("editionDate") or ""
+    _tp = ROOT.parent / "newsroom" / "tape" / ("%s.json" % _edd)
+    if _edd and not _tp.exists():
+        _tp = ROOT / "content" / "tape" / ("%s.json" % _edd)
+    try:
+        return {m.get("key"): m for m in json.loads(_tp.read_text()).get("marks", [])}
+    except Exception:
+        return {}
+
+# caratdesk 10 Nov (carateditor 9 Nov order 3, Standards 8 Nov item 6): the lab-grown chip prints the
+# Wire's dated mark from the edition's tape when it is fresh, not the 27 Oct band midpoint. It is a
+# different measure (an asking-price average), so its label names the source and the read date.
+LAB_TAPE = None
+_lm = _edition_tape_marks().get("labgrown_diamond_1ct") or {}
+if _lm.get("status") == "fresh" and _lm.get("value") is not None:
+    import datetime as _dtg
+    try:
+        _ld = _dtg.date.fromisoformat((_lm.get("sourceDate") or "")[:10])
+        LAB_TAPE = {"px": f'{float(_lm["value"]):,.0f}', "src": _lm.get("source") or "the tape",
+                    "date": "%d %s" % (_ld.day, _ld.strftime("%b"))}
+    except ValueError:
+        LAB_TAPE = None
+if LAB_TAPE:
+    for _t in WIRE.get("tape", []):
+        if _t.get("code") == "LGD1":
+            _t["name"] = "Lab-grown 1ct average"
+            _t["px"] = LAB_TAPE["px"]
+            _t["chg"] = "%s asking average, read %s" % (LAB_TAPE["src"], LAB_TAPE["date"])
+            _t["dir"] = "flat"
+# The natural : lab ratio is printed only when the RAPI leg was read fresh for this edition
+# (carateditor 9 Nov order 3: a ratio built on a carried index is not worth printing).
+RAPI_FRESH = (_edition_tape_marks().get("diamond_index_rapi") or {}).get("status") == "fresh"
 
 def _lab_leg_label():
     """The lab-grown leg's dated label, from the same lab-prices.json fields as the LGD1 chip."""
@@ -567,6 +633,9 @@ def _lock_desk_stats():
         elif _dmc(_rd):
             lab = "Lab-grown 1ct, wholesale mid, read %s" % _dmc(_rd)
         by["retail-tech"]["stats"][0] = ("$%s" % f'{_lh["trade_mid"]:,}', lab)
+        if LAB_TAPE:
+            by["retail-tech"]["stats"][0] = ("$%s" % LAB_TAPE["px"],
+                "Lab-grown 1ct, %s asking average, read %s" % (LAB_TAPE["src"], LAB_TAPE["date"]))
 
 MOTIFS = dict(
  diamond="""<g stroke="#0D0D0F" fill="none"><path d="M210 40 L300 96 L210 186 L120 96 Z" stroke-width="1.6" stroke-linejoin="round"/><path d="M120 96 H300 M210 40 L168 96 L210 186 L252 96 Z" stroke-width=".8"/><g stroke-width=".4" opacity=".6"><path d="M135 86 L168 52 M147 92 L186 46 M192 44 L150 96"/><path d="M285 86 L252 52 M273 92 L234 46 M228 44 L270 96"/></g><circle cx="210" cy="96" r="3" fill="#BE3319" stroke="none"/></g>""",
@@ -1797,6 +1866,7 @@ def _idx_d1_hold():
     return ("1D withheld: the newest point in the series is dated %s, a day with no full session; "
             "the last weekday session in the series is %s" % (_fmt(_last), _fmt(_prev) if _prev else "not in the series"))
 IDX_D1_HOLD = _idx_d1_hold() if IDX else ""
+HOME_NOTES = json.loads((CONTENT / "home-notes.json").read_text()) if (CONTENT / "home-notes.json").exists() else {}
 IDX_NOTES = json.loads((CONTENT / "index-notes.json").read_text()) if (CONTENT / "index-notes.json").exists() else {}
 
 # index hues chosen for ink-on-paper legibility, echoing the desk hues
@@ -3315,7 +3385,10 @@ def _rd_notes(note):
         m = _re.match(r"<b>(.*?)</b>\s*(.*)", part, _re.S)
         if m:
             lab = m.group(1).strip()
-            if lab and lab[-1] not in ".:?!":
+            rest = m.group(2).lstrip()
+            # a label that runs into a lowercase sentence is part of that sentence; a full stop
+            # is added only when the next word starts a new sentence (caratcheck 9 Nov item 6)
+            if lab and lab[-1] not in ".:?!" and not (rest[:1].islower()):
                 lab += "."
             paras.append("<p><strong>%s</strong> %s</p>" % (lab, m.group(2)))
         elif part:
@@ -3585,6 +3658,10 @@ def index_page():
     # ── the running tape ──
     tape_rows = [[t["name"].upper(), t["px"], _dircls(t.get("dir")), t.get("chg","")] for t in tape[:6]]
     tape_rows.append(["EDITION", ed_short or "—", "up", "● PRINTED " + _print_clock()])
+    # Dated correction notes owed by the running tape itself are data (content/home-notes.json),
+    # never literals here (caratdesk 10 Nov, the 9 Nov platinum chip).
+    for _hn in HOME_NOTES.get("tape", []):
+        tape_rows.append([_hn["k"], _hn["v"], "fl", _hn["t"]])
     tape_rows.append(["SPECIMEN TAPE", "illustrative", "fl", "not quoted"])
 
     # ── the price desk tabs: the Carat indices, drawn from their real series ──
@@ -3618,7 +3695,9 @@ def index_page():
     else:
         _ph, _lh = PRICES.get("headline", {}), LAB.get("headline", {})
         _px_src = {}
-        if _lh:
+        if LAB_TAPE:
+            _px_src["LGD1"] = "%s asking average · read %s" % (LAB_TAPE["src"], LAB_TAPE["date"])
+        elif _lh:
             _px_src["LGD1"] = "CVD wholesale band midpoint · %s" % (LAB.get("as_of") or "published list")
         if _ph:
             _px_src["NAT1"] = "%s · %s price list" % (
@@ -3644,7 +3723,7 @@ def index_page():
                "%s &times; 0.750 (18ct) = %s per gram at 18ct" % (f"{perg:,.2f}", f"{perg*0.75:,.2f}"),
                "%s &times; 5 g = %s" % (f"{perg*0.75:,.2f}", f"{perg*0.75*5:,.2f}")],
       "src": ["Full tape &amp; tables", "almanac.html"]}]
-    if natv and lgdv:
+    if natv and lgdv and RAPI_FRESH:
         ledger.append({
           "num": "%.1f&times;" % (natv/lgdv), "lab": "natural : lab", "dk": "#8CC5FF", "desk": "D—01 Diamonds",
           # caratcheck 5 Nov low item: the sentence carries what each leg is, not two bare figures.
