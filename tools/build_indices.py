@@ -11,6 +11,14 @@ Writes content/indices.json. build.py reads that file and never touches the
 network, so the CI build cannot silently print a stale or fabricated number:
 if this script has not run, the page says so.
 
+Dates and sessions (managing editor's order, 2026-11-09): every bar is dated in
+its own exchange's local calendar, a bar whose session is still open at run time
+is dropped, and the headline date is the latest date on which at least MIN_BARS of
+the twenty constituents have a completed bar. A name with no completed bar on a
+date is carried from its own last completed bar and listed in "carried". 1D, 1W
+and 1M count those qualifying dates only, so a half-open Asian Monday can never
+become a day of its own.
+
 Run:  python3 tools/build_indices.py
 """
 import json, time, datetime, pathlib, urllib.request
@@ -19,6 +27,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT  = ROOT / "content" / "indices.json"
 
 BASE_YEAR = 2026            # rebased to 100 at the year's first trading day
+MIN_BARS  = 18              # constituents (of 20) with a completed bar for a date to count
 
 # ── the roster ───────────────────────────────────────────────────────────
 # seg: M maisons · C the counter · P the pit · W the movement
@@ -77,23 +86,33 @@ def fetch(sym, tries=3):
             d = json.loads(urllib.request.urlopen(req, timeout=20).read())
             res = d["chart"]["result"][0]
             ts  = res["timestamp"]; cl = res["indicators"]["quote"][0]["close"]
+            meta = res["meta"]; off = meta.get("gmtoffset", 0)
+            local = lambda e: datetime.datetime.fromtimestamp(e+off, datetime.timezone.utc).date().isoformat()
             out = {}
             for t, c in zip(ts, cl):
                 if c is None: continue
-                out[datetime.date.fromtimestamp(t).isoformat()] = float(c)
-            meta = res["meta"]
-            return out, meta.get("currency",""), meta.get("longName") or meta.get("shortName","")
+                out[local(t)] = float(c)
+            # the newest bar is a live price while its session is open: drop it
+            reg = (meta.get("currentTradingPeriod") or {}).get("regular") or {}
+            dropped = None
+            if out and reg.get("start") and reg["start"] <= time.time() < reg["end"] \
+                    and max(out) == local(reg["start"]):
+                dropped = max(out); del out[dropped]
+            return out, meta.get("currency",""), dict(
+                name=meta.get("longName") or meta.get("shortName",""), dropped=dropped)
         except Exception as e:
             if k == tries-1: raise
             time.sleep(2.0*(k+1))
 
 def main():
-    series, meta = {}, {}
+    series, meta, open_dropped = {}, {}, {}
     for sym, name, ex, seg, cc in ROSTER:
-        s, cur, _ = fetch(sym)
+        s, cur, info = fetch(sym)
         series[sym] = s
         meta[sym] = dict(name=name, ex=ex, seg=seg, cc20=cc, cur=cur)
-        print(f"  {sym:10} {name:24} {len(s):3} closes  last {sorted(s)[-1]}")
+        if info["dropped"]: open_dropped[sym] = info["dropped"]
+        print(f"  {sym:10} {name:24} {len(s):3} closes  last completed {sorted(s)[-1]}"
+              + (f"  (open bar {info['dropped']} dropped)" if info["dropped"] else ""))
         time.sleep(0.6)
     try:
         gold, gcur, _ = fetch(GOLD); gold_label = "gold spot (XAU/USD)"
@@ -101,16 +120,25 @@ def main():
         gold, gcur, _ = fetch("GC=F"); gold_label = "gold, COMEX front month"
     print(f"  gold: {gold_label}, {len(gold)} closes")
 
-    # master calendar: every date any constituent traded, forward-filled
-    cal = sorted(set().union(*[set(s) for s in series.values()], set(gold)))
-    base_day = next(d for d in cal if d >= f"{BASE_YEAR}-01-01" and
-                    sum(1 for s in series.values() if d in s) > len(series)//2)
+    # master calendar: exchange-local dates on which MIN_BARS names have a completed bar
+    nbars = {}
+    for s in series.values():
+        for d in s: nbars[d] = nbars.get(d, 0) + 1
+    all_dates = sorted(nbars)
+    base_day = next(d for d in all_dates if d >= f"{BASE_YEAR}-01-01" and nbars[d] > len(series)//2)
+    cal = sorted({d for d, n in nbars.items() if n >= MIN_BARS} | {base_day})
+    head = cal[-1]
+    calset = set(cal)
+    carried = [dict(sym=k, name=meta[k]["name"], last_bar=max(d for d in s if d <= head))
+               for k, s in series.items() if head not in s]
 
     def ffill(s):
+        # a name keeps its own last completed bar on dates where it has none
         out, last = {}, None
-        for d in cal:
+        for d in sorted(calset | set(s)):
+            if d > head: break
             if d in s: last = s[d]
-            if last is not None: out[d] = last
+            if d in calset and last is not None: out[d] = last
         return out
     F = {k: ffill(s) for k, s in series.items()}
     FG = ffill(gold)
@@ -178,7 +206,9 @@ def main():
     corr = round(cov/(sc*sg), 2) if sc and sg else None
 
     OUT.write_text(json.dumps(dict(
-        as_of=max(max(sorted(s)) for s in series.values()),
+        as_of=head,
+        rule=f"headline date = latest exchange-local date with at least {MIN_BARS} of {len(series)} completed bars; open sessions dropped",
+        carried=carried, open_bars_dropped=open_dropped,
         built=datetime.datetime.now().astimezone().isoformat(timespec="seconds"),
         base_day=base_day, base_note=f"100 = first trading day of {BASE_YEAR} ({base_day})",
         source="exchange closes via Yahoo Finance chart API, each stock in its home currency",
@@ -187,7 +217,9 @@ def main():
         metal_gap=round(RG[sorted(RG)[-1]] - out_idx["CC20"]["level"], 2),
         corr63=corr, breadth50=breadth,
         indices=out_idx, constituents=cons), separators=(",", ":")))
-    print(f"\nwrote {OUT}  as of {max(max(sorted(s)) for s in series.values())}")
+    print(f"\nwrote {OUT}  as of {head}  ({nbars.get(head,0)} of {len(series)} names have a bar on it)")
+    print(f"  carried on {head}: " + (", ".join(f"{c['sym']} (last bar {c['last_bar']})" for c in carried) or "none"))
+    print(f"  open bars dropped: " + (", ".join(f"{k} {v}" for k, v in open_dropped.items()) or "none"))
     for code, x in out_idx.items():
         print(f"  {code:5} {x['level']:8.2f}  ytd {x['ytdp']:+6.2f}%  1d {x['d1p']:+5.2f}%")
     print(f"  gold ytd {round(RG[sorted(RG)[-1]]-100,2):+.2f}%  metal gap {round(RG[sorted(RG)[-1]]-out_idx['CC20']['level'],2):+.2f}pts  corr63 {corr}  breadth {breadth}%")
