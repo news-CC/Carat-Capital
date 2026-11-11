@@ -155315,7 +155315,7 @@
      "dir": "flat",
      "label": "Bloomberg's 13 October figure",
      "q": "reported: would likely reach",
-     "src": 0
+     "src": 3
     }
    ]
   },
@@ -155378,7 +155378,7 @@
     "p": [
      {
       "lead": "Double the current share.",
-      "text": "Boko said the stake would double from 15% to 30% \"when this transaction is complete\", Reuters reported. AP and JCK carry the same two figures."
+      "text": "Boko said the stake would double from 15% to 30% \"when this transaction is complete\", Reuters reported. JCK carries both figures; AP carries the 30% and Anglo's 85%."
      },
      {
       "lead": "Above Bloomberg's figure.",
@@ -155435,7 +155435,7 @@
    "reverse": "If the binding documents give Botswana less than 30%, or the consortium does not sign with Anglo, Boko's figure reads as a negotiating position rather than an outcome.",
    "built": {
     "title": "How De Beers is owned",
-    "text": "Anglo American owns 85% of De Beers and Botswana 15%, AP reports; Anglo put its stake up for sale in 2024. Botswana holds a right of first refusal on that stake, Reuters reports, so its consent shapes any sale. The two also run Debswana, the joint venture that operates Botswana's largest mines."
+    "text": "Anglo American owns 85% of De Beers, AP reports, and Botswana 15%, Reuters and JCK report; Anglo put its stake up for sale in 2024. Botswana holds a right of first refusal on that stake, Reuters reports, so its consent shapes any sale. The two also run Debswana, the joint venture that operates Botswana's largest mines."
    },
    "method": "Three reports of the speech, read 10 November 2026, raw bytes saved: Reuters via Mining.com, 200, 103,916 bytes ('double from the current 15% to 30%' 1 hit; 'binding transaction documents' 1; 'Botswana, Angola, Namibia and Oman' 1; 'right of first refusal' 1; '$600 million' 1); AP via ABC News, 200, 174,419 bytes ('double its stake in De Beers to 30%' 2 hits; 'has not been finalized' 1; 'gave no details' 1); JCK, 200, 116,432 bytes (byline 'November 09, 2026'). No price for the stake: '1 billion' returns 0 hits in the Reuters text (103,916 bytes) and 0 in the AP text (174,419 bytes), both fetched 06:05 EST 10 November 2026; the AP page re-fetched at 06:23 EST read 171,920 bytes and still 0. JCK's body says the consortium's proposed price is $1 billion; that is the figure Bloomberg reported on 30 July for Anglo's 85%, so it is not attached here to Botswana's added 15 points. Anglo American's own words were not read: its Investegate announcement list (200, 82,053 bytes, fetched 06:08 EST 10 November 2026) shows no announcement after 2 November, so Anglo is quoted as Reuters reported it. 'Largest single shareholder' is Boko's claim, attributed to him.",
    "prior": [
@@ -155475,14 +155475,23 @@
      "title": "JCK, Botswana President Boko names Global Diamond Consortium preferred De Beers bidder",
      "url": "https://www.jckonline.com/editorial-article/botswana-de-beers-consortium/",
      "published": "2026-11-09"
+    },
+    {
+     "title": "JCK Online, Bloomberg: Botswana Nears Deal to Raise De Beers Stake to 25% (Bloomberg's 13 October report)",
+     "url": "https://www.jckonline.com/editorial-article/botswana-nears-deal-de-beers-stake/",
+     "published": "2026-10-14"
     }
+   ],
+   "corrections": [
+    "Corrected, 11 November 2026: this page said AP and JCK carry both the 15% and the 30%, and credited AP with Botswana's present 15%. AP's report carries the 30% and Anglo American's 85%, not the 15%; Reuters and JCK carry the 15%. The two sentences now say so. The Sources list also lacked the report behind the key figure and table row giving Bloomberg's 25%; JCK's 14 October report of Bloomberg's 13 October story is added. Where the error came from: the three reports were credited together without each being searched for each figure. What was right as published: every figure on the page."
    ]
   },
   "next": {
    "slug": "botswana-nears-twenty-five-percent-of-de-beers",
    "why": "The 25% Bloomberg reported four weeks earlier."
   },
-  "corrections": []
+  "corrections": [],
+  "modified": "2026-11-11"
  },
  "watches-of-switzerland-half-year-revenue-rises-15-percent-to-974m": {
   "v": 3,
@@ -156217,6 +156226,823 @@
   "next": {
    "slug": "royal-gold-q3-revenue-rises-84-percent-to-464-8m",
    "why": "A royalty company's view of the same gold quarter."
+  },
+  "corrections": []
+ },
+ "fossil-gross-margin-climbs-to-59-8-percent-as-sales-rise-0-4-percent": {
+  "v": 3,
+  "kicker": "Watch results",
+  "figures": {
+   "asof": "Fossil Group, third-quarter results for the quarter to 3 October 2026, released 10 November 2026 (Exhibit 99.1, SEC) · constant currency is a company non-GAAP measure",
+   "cells": [
+    {
+     "n": "59.8%",
+     "dir": "up",
+     "label": "Q3 gross margin",
+     "q": "from 49.0% in Q3 2025",
+     "src": 0
+    },
+    {
+     "n": "$271.2m",
+     "dir": "up",
+     "label": "Q3 net sales",
+     "q": "+0.4% reported, +2.0% constant currency",
+     "src": 0
+    },
+    {
+     "n": "$11.7m",
+     "dir": "up",
+     "label": "Q3 net income",
+     "q": "against a $39.9m loss in Q3 2025",
+     "src": 0
+    },
+    {
+     "n": "$980m to $990m",
+     "dir": "up",
+     "label": "Full-year net sales outlook",
+     "q": "raised to a range of; excludes currency",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Margin did the work.",
+   "text": "Fossil's third-quarter gross margin rose to 59.8% from 49.0%, on net sales up 0.4%. The company raised its full-year outlook."
+  },
+  "means": [
+   {
+    "who": "If you hold the shares:",
+    "text": "part of the margin is timing. Fossil cites lower licensed-brand minimum royalties and their earlier recognition."
+   },
+   {
+    "who": "If you distribute watches:",
+    "text": "traditional watches rose 6.4% at constant currency in the quarter while jewellery fell 10.8%."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a sales recovery. Store closures cut Q3 net sales by about 190 basis points, Fossil says."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Third quarter, this year against last",
+   "asof": "$ million · quarter to 3 October 2026 against the third quarter of fiscal 2025 · reported",
+   "cols": [
+    "Line",
+    "Q3 2026",
+    "Q3 2025",
+    "Change"
+   ],
+   "rows": [
+    [
+     "Net sales",
+     "271.2",
+     "270.2",
+     "+0.4%"
+    ],
+    [
+     "Gross profit",
+     "162.3",
+     "132.4",
+     "+22.6%"
+    ],
+    [
+     "Gross margin",
+     "59.8%",
+     "49.0%",
+     "+10.8 points"
+    ],
+    [
+     "Operating expenses",
+     "137.0",
+     "154.1",
+     "−11.1%"
+    ],
+    [
+     "Operating income",
+     "25.3",
+     "(21.7)",
+     "from a loss"
+    ],
+    [
+     "Net income",
+     "11.7",
+     "(39.9)",
+     "from a loss"
+    ]
+   ],
+   "hi": 2,
+   "note": "<b>Source</b> Fossil Group, Exhibit 99.1, 10 November 2026. <b>Gross profit change</b> is Carat Capital's division (162.3 / 132.4). Brackets are losses.",
+   "plate": "CC/2026/364"
+  },
+  "sections": [
+   {
+    "h": "Lower licensed-brand royalties lifted margin.",
+    "p": [
+     {
+      "lead": "Three causes named.",
+      "text": "Fossil attributes the rise mainly to lower licensed-brand minimum royalties and earlier recognition of them. Better product margins and lower tariffs also helped, it says."
+     },
+     {
+      "lead": "Costs fell 11.1%.",
+      "text": "Operating expenses were $137.0 million against $154.1 million a year earlier."
+     },
+     {
+      "lead": "Operating and net profit.",
+      "text": "Operating income was $25.3 million against a loss of $21.7 million. Net income was $11.7 million."
+     }
+    ]
+   },
+   {
+    "h": "Watches grew, jewellery shrank.",
+    "p": [
+     {
+      "lead": "Watches up 6.4%.",
+      "text": "Traditional watch sales rose 6.4% at constant currency. The Fossil brand itself rose 13.6%.",
+      "links": {
+       "Traditional watch sales": "a-watches-were-the-line-that-held.html"
+      }
+     },
+     {
+      "lead": "Jewellery down 10.8%.",
+      "text": "Jewellery sales fell 10.8% and leathers 20.5%, both at constant currency."
+     },
+     {
+      "lead": "Asia led.",
+      "text": "Asia's net sales rose 15.1% at constant currency and the Americas' 0.1%. Europe's fell 5.6%."
+     }
+    ]
+   },
+   {
+    "h": "Full-year outlook up, interest too.",
+    "p": [
+     {
+      "lead": "Guidance raised.",
+      "text": "Fossil now expects 2026 net sales in a range of $980 million to $990 million, excluding currency effects."
+     },
+     {
+      "lead": "Interest more than doubled.",
+      "text": "Interest expense was $8.9 million against $4.2 million, on higher debt, costs and rates. Total debt was $208.0 million."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Holiday season, November to December 2026",
+    "what": "Fossil's fourth quarter. The test: whether full-year net sales land inside $980 million to $990 million."
+   },
+   {
+    "when": "Fourth-quarter results, early 2027",
+    "what": "The full-year margin. The test: how much of the 59.8% came from royalty timing."
+   }
+  ],
+  "depth": {
+   "reverse": "If the fourth quarter's gross margin falls back towards 49% once the royalty timing reverses, the third quarter reads as an accounting quarter, not a turnaround.",
+   "built": {
+    "title": "What constant currency means here",
+    "text": "Constant currency restates this year's sales at last year's exchange rates. Fossil reports it as a non-GAAP measure, with a reconciliation in the release. Reported sales rose 0.4%; at constant currency, 2.0%."
+   },
+   "method": "Exhibit 99.1 to Fossil Group's 8-K, fetched 06:12 EST 11 November 2026 with an identifying agent: 200, 373,315 bytes (door.py's browser identity took a 403). Exact-digit greps of the saved bytes: '$271' 2, '0.4%' 2, '2.0%' 2, '59.8%' 2, '49.0%' 1 or more, '$980 million' 1, '$990 million' 1, '5.5% to 6.5%' 1, '$208.0 million' 1. Body: 'Net sales totaled $271.2 million, an increase of 0.4% on a reported basis and 2.0% in constant currency, compared to $270.2 million'; 'Gross margin increased 10.8 percentage points to 59.8% versus 49.0%'; 'primarily reflects reduced licensed brand minimum royalties, the accelerated timing of minimum royalty recognition'; 'Our store rationalization initiatives unfavorably impacted sales by approximately 190 basis points'; 'traditional watch sales increased 6.4% in constant currency'; 'jewelry sales declined 10.8%'. Division, Carat Capital's: 271.2 / 270.2 = 1.0037 -> +0.4%; 162.3 / 132.4 = 1.2258 -> +22.6%; 137.0 / 154.1 = 0.889 -> -11.1%; 8.9 / 4.2 = 2.12 -> more than doubled. The same guidance sets an adjusted operating margin of 5.5% to 6.5% and positive free cash flow. The release says it is raising guidance and does not print the earlier range, so no 'from' figure is given. The nine-month columns compare 39 weeks with 40 weeks, so no nine-month change is printed.",
+   "prior": [
+    {
+     "date": "2026-08-27",
+     "slug": "the-same-figure-the-other-way",
+     "claim": "Movado's sales rose 4.9%, the figure by which Fossil's fell."
+    },
+    {
+     "date": "2026-08-26",
+     "slug": "watches-were-the-line-that-held",
+     "claim": "Fossil's quarter to 4 July: net sales down 4.9% to $209.7 million."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Fossil Group, Inc., Exhibit 99.1: Fossil Group reports third quarter 2026 financial results (SEC EDGAR)",
+     "url": "https://www.sec.gov/Archives/edgar/data/883569/000088356926000069/q32026ex991.htm",
+     "published": "2026-11-10"
+    }
+   ]
+  },
+  "next": {
+   "slug": "watches-were-the-line-that-held",
+   "why": "The quarter before: sales down 4.9%, watches the line that held."
+  },
+  "corrections": []
+ },
+ "kalyan-jewellers-half-year-revenue-rises-38-percent-to-rs-20912-crore": {
+  "v": 3,
+  "kicker": "Jewellery retail",
+  "figures": {
+   "asof": "Kalyan Jewellers India, press release on unaudited results for the quarter and half year to 30 September 2026, filed with the NSE 10 November 2026 · consolidated unless stated",
+   "cells": [
+    {
+     "n": "Rs 20,912 cr",
+     "dir": "up",
+     "label": "Half-year revenue",
+     "q": "+38% on the year",
+     "src": 0
+    },
+    {
+     "n": "Rs 776 cr",
+     "dir": "up",
+     "label": "Half-year profit",
+     "q": "+48%, after tax",
+     "src": 0
+    },
+    {
+     "n": "Rs 10,323 cr",
+     "dir": "up",
+     "label": "Q2 revenue",
+     "q": "+31% on the year",
+     "src": 0
+    },
+    {
+     "n": "Rs 427 cr",
+     "dir": "up",
+     "label": "Q2 profit",
+     "q": "+64%, after tax",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Half-year profit outgrew sales.",
+   "text": "Kalyan Jewellers' first-half profit rose 48% to Rs 776 crore on revenue up 38%, unaudited results show. The six months ran to 30 September."
+  },
+  "means": [
+   {
+    "who": "If you supply Indian jewellers:",
+    "text": "the company says the festive quarter started well, especially Navratri and Dhanteras."
+   },
+   {
+    "who": "If you hold the shares:",
+    "text": "June-quarter revenue grew 46%; September's grew 31%."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a volume figure. The release gives rupee revenue and profit only."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Revenue and profit, half year and quarter",
+   "asof": "Rs crore · consolidated unless stated · periods to 30 June and 30 September 2026 · unaudited",
+   "cols": [
+    "Line",
+    "Period",
+    "Rs crore",
+    "A year earlier",
+    "Change"
+   ],
+   "rows": [
+    [
+     "Revenue",
+     "H1 FY27",
+     "20,912",
+     "15,125",
+     "+38%"
+    ],
+    [
+     "Profit after tax",
+     "H1 FY27",
+     "776",
+     "525",
+     "+48%"
+    ],
+    [
+     "Revenue",
+     "Q1 FY27",
+     "10,589",
+     "7,268",
+     "+46%"
+    ],
+    [
+     "Revenue",
+     "Q2 FY27",
+     "10,323",
+     "not printed",
+     "+31%"
+    ],
+    [
+     "Profit after tax",
+     "Q2 FY27",
+     "427",
+     "not printed",
+     "+64%"
+    ],
+    [
+     "India revenue, standalone",
+     "Q2 FY27",
+     "9,007",
+     "not printed",
+     "+32%"
+    ]
+   ],
+   "hi": 3,
+   "note": "<b>Source</b> Kalyan Jewellers press release, 10 November 2026; Q1 FY27 from the company's 30 June quarter, as reported here on 9 August. <b>Q1 FY27</b> also equals 20,912 minus 10,323, Carat Capital's subtraction.",
+   "plate": "CC/2026/365"
+  },
+  "sections": [
+   {
+    "h": "The half grew 38%.",
+    "p": [
+     {
+      "lead": "H1 revenue up 38%.",
+      "text": "Consolidated revenue rose to Rs 20,912 crore in the half, from Rs 15,125 crore a year earlier."
+     },
+     {
+      "lead": "H1 profit rose faster.",
+      "text": "Profit after tax rose to Rs 776 crore in the half, from Rs 525 crore."
+     }
+    ]
+   },
+   {
+    "h": "The second quarter slowed.",
+    "p": [
+     {
+      "lead": "Q2 revenue up 31%.",
+      "text": "Second-quarter consolidated revenue was Rs 10,323 crore, against Rs 10,589 crore in the June quarter.",
+      "links": {
+       "June quarter": "a-forty-six-percent-came-back.html"
+      }
+     },
+     {
+      "lead": "June quarter grew 46%.",
+      "text": "The June quarter's revenue rose 46%, so growth slowed by 15 points in the September quarter."
+     },
+     {
+      "lead": "Q2 profit up 64%.",
+      "text": "Second-quarter profit after tax was Rs 427 crore."
+     }
+    ]
+   },
+   {
+    "h": "India made most of Q2.",
+    "p": [
+     {
+      "lead": "India Q2 up 32%.",
+      "text": "Standalone India revenue was Rs 9,007 crore in the quarter, 87.3% of the group's, on Carat Capital's division."
+     },
+     {
+      "lead": "India profit up 62%.",
+      "text": "Standalone profit after tax was Rs 424 crore in the quarter. Kalyan has 546 showrooms in India, the US, the UK and the Middle East."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "31 December 2026",
+    "what": "Kalyan's third quarter ends. The test: whether the strong festive start its executive director describes shows in revenue."
+   },
+   {
+    "when": "November 2026 to February 2027",
+    "what": "India's wedding season. The test: the company says it is upbeat about it."
+   }
+  ],
+  "depth": {
+   "reverse": "If third-quarter revenue growth falls below the second quarter's 31% despite the festive start the company describes, the half reads as a June-quarter story.",
+   "built": {
+    "title": "What Kalyan's figures cover",
+    "text": "Consolidated figures include the Middle East, the US, the UK and Candere, the online arm. Standalone covers India. Revenue is in rupees and includes the metal's value, so it moves with the gold price."
+   },
+   "method": "NSE press release PDF, fetched 06:10 EST 11 November 2026, door.py 200, 1,364,227 bytes; page 2 read on the rendered page image, not OCR alone. Page text: 'consolidated revenue of Rs 20,912 crore for the first half of FY27 as against Rs 15,125 crore ... a growth of 38%'; 'Consolidated PAT for the first half of FY27 was Rs 776 crore as against a PAT of Rs 525 crore ... a growth of 48%'; 'Consolidated revenue and PAT for Q2 FY27 was Rs 10,323 Cr and Rs 427 Cr respectively, a growth of 31% and 64%'; 'Standalone revenue (India) and PAT for Q2 FY27 was Rs 9,007 Cr and Rs 424 Cr respectively, a growth of 32% and 62%'; '546 showrooms across India, USA, UK and the Middle East'. Division, Carat Capital's: 20,912 / 15,125 = 1.3826 -> +38.3%; 776 / 525 = 1.478 -> +47.8%; 20,912 - 10,323 = 10,589, equal to the June-quarter revenue Kalyan reported in August (our 9 August piece: Rs 10,589 crore, up 46% from Rs 7,268 crore); 46 - 31 = 15 points; 9,007 / 10,323 = 0.8725 -> 87.3%. The release prints no year-earlier rupee figure for the quarter, so none is derived. Quote: 'The ongoing festive quarter has started off very well', Ramesh Kalyanaraman, executive director, nine words; paraphrased on the page, not quoted.",
+   "prior": [
+    {
+     "date": "2026-08-11",
+     "slug": "one-state-one-banner",
+     "claim": "Kalyan opens a Tamil Nadu-only banner, Akshaya Thanga Maligai."
+    },
+    {
+     "date": "2026-08-09",
+     "slug": "forty-six-percent-came-back",
+     "claim": "June quarter: revenue Rs 10,589 crore, up 46%; recycled gold over 46%."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Kalyan Jewellers India, press release: unaudited financial results for the quarter and half year ended 30 September 2026 (NSE filing)",
+     "url": "https://nsearchives.nseindia.com/corporate/KALYANKJIL_10112026173732_PR.pdf",
+     "published": "2026-11-10"
+    }
+   ]
+  },
+  "next": {
+   "slug": "forty-six-percent-came-back",
+   "why": "The June quarter: 46% growth, and how much of it came back as old gold."
+  },
+  "corrections": []
+ },
+ "lazurde-nine-month-revenue-rises-29-3-percent-6-1-percent-without-gold": {
+  "v": 3,
+  "kicker": "Gulf jewellery",
+  "figures": {
+   "asof": "L'azurde Company for Jewelry, preliminary results for the nine months to 30 September 2026, Tadawul announcement as published by Mubasher, 8 November 2026 08:03 · SAR million",
+   "cells": [
+    {
+     "n": "2,940.4",
+     "dir": "up",
+     "label": "Revenue, SAR million",
+     "q": "+29.3%, gold included, nine months",
+     "src": 0
+    },
+    {
+     "n": "448.0",
+     "dir": "up",
+     "label": "Operating revenue, SAR million",
+     "q": "+6.1%, gold value excluded",
+     "src": 0
+    },
+    {
+     "n": "0.2",
+     "dir": "up",
+     "label": "Net profit, SAR million",
+     "q": "against a 16.8 million loss",
+     "src": 0
+    },
+    {
+     "n": "−4.4%",
+     "dir": "down",
+     "label": "Q3 retail revenue",
+     "q": "company cites regional geopolitics",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Without gold, 6.1%.",
+   "text": "Lazurde's nine-month revenue rose 29.3% to SAR 2,940.4 million. Its operating revenue, which strips out the gold's value, rose 6.1%, preliminary results show."
+  },
+  "means": [
+   {
+    "who": "If you supply Saudi retailers:",
+    "text": "Lazurde's third-quarter retail revenue fell 4.4%, though most like-for-like Saudi stores grew 3%."
+   },
+   {
+    "who": "If you sell wholesale:",
+    "text": "its wholesale revenue rose 12% over nine months, on higher making charges, it says."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a large profit. Nine-month net profit was SAR 0.2 million."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Nine months, this year against last",
+   "asof": "SAR million · nine months to 30 September 2026 against the same period of 2025 · preliminary",
+   "cols": [
+    "Line",
+    "9M 2026",
+    "9M 2025",
+    "Change"
+   ],
+   "rows": [
+    [
+     "Revenue, gold included",
+     "2,940.4",
+     "2,274.0",
+     "+29.3%"
+    ],
+    [
+     "Operating revenue, gold excluded",
+     "448.0",
+     "422.3",
+     "+6.1%"
+    ],
+    [
+     "Gross profit",
+     "191.8",
+     "175.6",
+     "+9.2%"
+    ],
+    [
+     "Operating profit",
+     "64.8",
+     "26.3",
+     "+146%"
+    ],
+    [
+     "Net profit to shareholders",
+     "0.2",
+     "−16.8",
+     "from a loss"
+    ],
+    [
+     "Shareholders' equity",
+     "236.3",
+     "269.1",
+     "−12.2%"
+    ]
+   ],
+   "hi": 1,
+   "note": "<b>Source</b> Lazurde's preliminary results announcement, Tadawul, 8 November 2026, Arabic text as published by Mubasher. Changes as the announcement's table prints them, rounded.",
+   "plate": "CC/2026/366"
+  },
+  "sections": [
+   {
+    "h": "Gold swelled the top line.",
+    "p": [
+     {
+      "lead": "Total up 29.3%.",
+      "text": "Revenue reached SAR 2,940.4 million against SAR 2,274.0 million. Lazurde credits better operations and higher world gold prices."
+     },
+     {
+      "lead": "Ex-gold up 6.1%.",
+      "text": "Operating revenue, the company's measure without the gold's value, rose to SAR 448.0 million from SAR 422.3 million."
+     }
+    ]
+   },
+   {
+    "h": "Retail slipped in the quarter.",
+    "p": [
+     {
+      "lead": "Q3 retail down 4.4%.",
+      "text": "Lazurde attributes the third-quarter fall to geopolitical conditions in the region. Most of its like-for-like Saudi stores grew 3%, it says."
+     },
+     {
+      "lead": "Nine months up 1%.",
+      "text": "Retail revenue rose 1% over nine months and makes 50% of the group's operating revenue. E-commerce sales grew 10%."
+     }
+    ]
+   },
+   {
+    "h": "Net profit returned, thinly.",
+    "p": [
+     {
+      "lead": "Q3 net profit returned.",
+      "text": "Lazurde made a net profit of SAR 1.8 million in the third quarter against a SAR 4.3 million loss a year earlier."
+     },
+     {
+      "lead": "A one-off gold loss.",
+      "text": "Nine-month profit absorbed a SAR 5.7 million unrealised loss on the fair value of gold stock, the company says."
+     },
+     {
+      "lead": "Equity fell.",
+      "text": "Shareholders' equity was SAR 236.3 million against SAR 269.1 million. Excluding a currency translation reserve, it was SAR 603 million, Lazurde says."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "31 December 2026",
+    "what": "Lazurde's financial year ends. The test: whether retail revenue rises in the fourth quarter after the third quarter's 4.4% fall."
+   }
+  ],
+  "depth": {
+   "reverse": "If the full-year statements show operating revenue growth below 6.1% for the year, the nine months' rise would read as the gold price alone.",
+   "built": {
+    "title": "How Lazurde's two revenue lines differ",
+    "text": "Total revenue includes the value of the gold in each piece, so it rises with the metal price. Operating revenue, the company's own measure, excludes the gold's value and its price rise, leaving making charges and margin."
+   },
+   "method": "Tadawul announcement as published by Mubasher (Arabic), re-fetched 06:08 EST 11 November 2026, door.py 301 to 200, 324,079 bytes (324,085 on 10 November). Header '08 نوفمبر 2026 08:03'. Exact-string greps: '2,940.4' 2, '448.0' 1, '422.3' 1, '6.1%' 1, '4.4%' 1, '236.3' 2, '269.1' 2. Table row as printed: 'المبيعات/الايرادات 2,940.4 2,274 29.305'; net profit row '0.2 -16.8'; gross profit '191.8 175.6 9.225'; operating profit '64.8 26.3 146.387'; equity '236.3 269.1 -12.188'. Notes, translated: operating revenue 'better reflects the group's revenue after excluding the value of gold metal and its price rise', up 6.1% to 448.0 from 422.3; wholesale up 12%; retail up 1% for nine months and down 4.4% in the third quarter, 'mainly due to the geopolitical situation in the region'; most comparable Saudi stores up 3%; one-off unrealised fair-value loss on gold stock 5.7; equity excluding the currency translation reserve 603; e-commerce up 10%. The announcement's quarter-on-quarter paragraph calls a rise from 887.1 to 1,019 a 14.9% decrease; the table is used. Lazurde's own investor page was not read; the company says full statements will be posted at lazurde.com.",
+   "prior": [
+    {
+     "date": "2026-10-10",
+     "slug": "thirty-eight-percent-paid-in-old-gold",
+     "claim": "PNG Jewellers: old gold funded 38% of second-quarter sales."
+    }
+   ],
+   "sources": [
+    {
+     "title": "L'azurde Company for Jewelry, preliminary financial results for the period ended 30 September 2026 (nine months), Tadawul announcement via Mubasher, Arabic",
+     "url": "https://www.mubasher.info/TDWL/news/4697829/%D8%A7%D8%B9%D9%84%D8%A7%D9%86-%D8%B4%D8%B1%D9%83%D8%A9-%D9%84%D8%A7%D8%B2%D9%88%D8%B1%D8%AF%D9%8A-%D9%84%D9%84%D9%85%D8%AC%D9%88%D9%87%D8%B1%D8%A7%D8%AA-%D8%B9%D9%86-%D8%A7%D9%84%D9%86%D8%AA%D8%A7%D8%A6%D8%AC-%D8%A7%D9%84%D9%85%D8%A7%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D8%A3%D9%88%D9%84%D9%8A%D8%A9-%D9%84%D9%84%D9%81%D8%AA%D8%B1%D8%A9-%D8%A7%D9%84%D9%85%D9%86%D8%AA%D9%87%D9%8A%D8%A9-%D9%81%D9%8A-2026-09-30-%D8%AA%D8%B3%D8%B9%D8%A9-%D8%A3%D8%B4%D9%87%D8%B1-",
+     "published": "2026-11-08T08:03:00+03:00"
+    }
+   ]
+  },
+  "next": {
+   "slug": "kalyan-jewellers-half-year-revenue-rises-38-percent-to-rs-20912-crore",
+   "why": "India's largest listed jeweller, same season, gold in the rupee figures too."
+  },
+  "corrections": []
+ },
+ "lab-grown-1-carat-asks-82-5-percent-below-natural-on-caratradar": {
+  "v": 3,
+  "kicker": "Diamond prices",
+  "figures": {
+   "asof": "CaratRadar natural and lab-grown pages, both dated 11 November 2026, read 06:06 EST · asking prices, not transactions · IDEX read 11 November 2026",
+   "cells": [
+    {
+     "n": "82.5%",
+     "dir": "down",
+     "label": "Lab-grown below natural",
+     "q": "one-carat average asking price, 11 Nov",
+     "src": 0
+    },
+    {
+     "n": "$643",
+     "dir": "flat",
+     "label": "Lab-grown one-carat average",
+     "q": "CaratRadar asking average, 11 Nov",
+     "src": 1
+    },
+    {
+     "n": "$3,680",
+     "dir": "flat",
+     "label": "Natural one-carat average",
+     "q": "CaratRadar asking average, 11 Nov",
+     "src": 0
+    },
+    {
+     "n": "79.9% to 88.3%",
+     "dir": "down",
+     "label": "Trade-level gap",
+     "q": "Lepdo's expected range of prices, against IDEX",
+     "src": 2
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Average gap is 82.5%.",
+   "text": "A 1-carat lab-grown diamond asked $643 on CaratRadar's 11 November averages, against $3,680 for natural. Both are online asking averages across specifications."
+  },
+  "means": [
+   {
+    "who": "If you price a bridal counter:",
+    "text": "quote both stones from one source on one day. Across four bases the gap runs from 79.9% to 88.3%."
+   },
+   {
+    "who": "If you buy at the trade:",
+    "text": "set Lepdo's expected range of $350 to $600 against IDEX's $2,991 natural average."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a trend from July. The 73% then was another source's basis."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "One carat, natural against lab-grown, by basis",
+   "asof": "US$ per carat or per one-carat stone as each source prints it · each row dated by its own source",
+   "cols": [
+    "Basis",
+    "Natural",
+    "Lab-grown",
+    "Lab-grown below natural",
+    "Dated"
+   ],
+   "rows": [
+    [
+     "Online asking average, all specifications (CaratRadar)",
+     "$3,680",
+     "$643",
+     "82.5%",
+     "11 Nov 2026"
+    ],
+    [
+     "Trade asking, round (IDEX natural average; Lepdo's expected range of CVD prices)",
+     "$2,991",
+     "$350 to $600",
+     "79.9% to 88.3%",
+     "IDEX 11 Nov; Lepdo 24 Jul 2026"
+    ],
+    [
+     "Retail asking, round, one sample (StoneAlgo)",
+     "$4,581",
+     "$545",
+     "88.1%",
+     "25 Jul 2026, unverified on 11 Nov"
+    ],
+    [
+     "Appraisal records (BriteCo)",
+     "about $4,200",
+     "$1,000 or less",
+     "72.8%",
+     "data to May 2025"
+    ],
+    [
+     "RAPI, D to H, IF to VS2 (natural only)",
+     "$3,876.42",
+     "no counterpart",
+     "",
+     "25 Oct 2026, carried"
+    ]
+   ],
+   "hi": 0,
+   "note": "<b>Sources</b> CaratRadar, IDEX and Lepdo pages read 11 November 2026; StoneAlgo as printed on the price lists from 25 July; BriteCo as reported 24 July; RAPI's 25 October point, refused on 11 November. <b>Percentages</b> are Carat Capital's division. Rows are not comparable with each other.",
+   "plate": "CC/2026/367"
+  },
+  "sections": [
+   {
+    "h": "One source, one day.",
+    "p": [
+     {
+      "lead": "Both dated 11 November.",
+      "text": "CaratRadar averages asking prices across online listings and dates both pages 11 November 2026. Natural averaged $3,680 at one carat; lab-grown $643.",
+      "links": {
+       "lab-grown": "lab-grown-diamond-prices.html"
+      }
+     },
+     {
+      "lead": "Lab-grown listings outnumber natural.",
+      "text": "The site counted 1,676,190 lab-grown listings against 939,127 natural."
+     },
+     {
+      "lead": "An average across specifications.",
+      "text": "The averages cover every shape, colour and clarity listed at one carat. The two pools need not hold the same mix, so 82.5% is a market average, not a like-for-like quote."
+     }
+    ]
+   },
+   {
+    "h": "The trade gap is similar.",
+    "p": [
+     {
+      "lead": "IDEX reads $2,991.",
+      "text": "IDEX's one-carat round driver, D to K colour and IF to I1 clarity, asked $2,991.21, against $3,018.98 on 26 October.",
+      "links": {
+       "one-carat round driver": "natural-diamond-prices.html"
+      }
+     },
+     {
+      "lead": "Lepdo's expected range.",
+      "text": "Lepdo's wholesale guide expects one-carat CVD lab-grown, D to F and VS, in a range of $350 to $600 a carat in 2026."
+     },
+     {
+      "lead": "Up to 88.3% lower.",
+      "text": "Set against IDEX's round average, that range sits 79.9% to 88.3% below natural."
+     }
+    ]
+   },
+   {
+    "h": "One series shows widening.",
+    "p": [
+     {
+      "lead": "BriteCo's series widened.",
+      "text": "BriteCo's appraisal records put the lab-grown discount at 26.6% in 2019 and 72.8% by 2025.",
+      "links": {
+       "BriteCo's appraisal records": "a-seventy-three-percent-cheaper.html"
+      }
+     },
+     {
+      "lead": "Levels, not a trend.",
+      "text": "The 82.5% is CaratRadar's asking basis, not BriteCo's appraisal basis. Set side by side, the two show levels, not a change."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "From 12 November 2026, daily",
+    "what": "CaratRadar's two averages on the 05:00 ET tape. The test: whether the gap holds within a point of 82.5% over a week."
+   },
+   {
+    "when": "When Rapaport's index page answers",
+    "what": "RAPI's one-carat point, carried at 25 October. The test: whether the natural top-specification level has moved."
+   }
+  ],
+  "depth": {
+   "reverse": "If CaratRadar's natural and lab-grown pools turn out to hold different weight bands under 'one carat', the 82.5% would mix sizes, and the IDEX-against-Lepdo band would be the better guide.",
+   "built": {
+    "title": "How the four bases are built",
+    "text": "CaratRadar averages online asking prices across all listed specifications. IDEX averages trade asking prices for a defined round driver. Lepdo publishes a wholesale band for one lab-grown specification. BriteCo drew on appraisal and insurance records. None is a transaction price."
+   },
+   "method": "CaratRadar natural page, door.py 06:06 EST 11 November 2026, 200, 122,156 bytes: 'As of November 11, 2026, the natural market includes 939,127 active listings, a market price index of $4,182, a 1ct average of $3,680'; lab-grown page, 200, 122,364 bytes: 'a 1ct average of $643', '1,676,190 active listings'. 'November 11, 2026' 2 hits on each page. Division, Carat Capital's: 643 / 3,680 = 0.1747 -> 82.5% below; 3,680 / 643 = 5.72 times; 1,676,190 / 939,127 = 1.78. IDEX price drivers, door.py 11 November 2026, 200, 19,711 bytes: 'Round, 4/4 (1.00-1.49), D-K, IF-I1 | 12.06 % | 2991.21'; the page states no time beyond 'updated every hour'. 26 October read: 3018.98, 1 hit in the saved 26 October bytes. Lepdo wholesale guide, 200, 370,455 bytes: '$350 to $600' 4 hits, dateModified 2026-07-24T11:49:13+00:00; the band is for D to F, VS1 to VS2 CVD material. 350 / 2,991.21 = 0.117 -> 88.3% below; 600 / 2,991.21 = 0.2006 -> 79.9% below. The Lepdo specification is narrower and higher than IDEX's D to K mix. StoneAlgo's 25 July sample, as printed on the price lists: natural round $4,581; lab-grown round $545 on the lab-grown list and $550 on the natural list's comparison panel; the raw StoneAlgo bytes of 25 July are not in the saved sources, so the row is marked not re-read and carries the lab-grown list's figure. 545 / 4,581 = 0.119 -> 88.1% below. BriteCo: 26.6% in 2019 and 72.8% by 2025, data March 2019 to May 2025, as reported on 24 July. RAPI: rapaport.com/diamond-price-index/ answered 403, 103 bytes, at 06:13 EST 11 November 2026; the 25 October point, 3,876.42, is 17 days old on this edition and is carried, not re-read. It has no lab-grown counterpart. CaratRadar's 'market price index' figures ($4,182 natural, $1,437 lab-grown) are not defined on the pages and are not used.",
+   "prior": [
+    {
+     "date": "2026-07-24",
+     "slug": "seventy-three-percent-cheaper",
+     "claim": "BriteCo: lab-grown priced 72.8% below natural in 2025, against 26.6% in 2019."
+    }
+   ],
+   "sources": [
+    {
+     "title": "CaratRadar, Natural diamond prices (as of 11 November 2026)",
+     "url": "https://caratradar.com/diamond-prices/natural-diamonds/",
+     "published": "2026-11-11"
+    },
+    {
+     "title": "CaratRadar, Lab grown diamond prices (as of 11 November 2026)",
+     "url": "https://caratradar.com/diamond-prices/lab-grown-diamonds/",
+     "published": "2026-11-11"
+    },
+    {
+     "title": "Lepdo, Lab-grown diamond wholesale price guide (modified 24 July 2026)",
+     "url": "https://lepdodiamonds.com/lab-grown-diamond-wholesale-price-guide/",
+     "published": "2026-07-24T11:49:13Z"
+    },
+    {
+     "title": "IDEX Online, Diamond price index and price drivers (read 11 November 2026)",
+     "url": "https://www.idexonline.com/diamond_prices_index",
+     "published": "2026-11-11"
+    },
+    {
+     "title": "BriteCo via AOL, Lab-grown diamonds now cost 73% less than natural diamonds",
+     "url": "https://www.aol.com/news/lab-grown-diamonds-now-cost-190021227.html",
+     "published": "2026-07-24"
+    },
+    {
+     "title": "Rapaport, RAPI diamond price index (25 October 2026 point; page refused 11 November)",
+     "url": "https://rapaport.com/diamond-price-index/",
+     "published": "2026-10-25"
+    }
+   ]
+  },
+  "next": {
+   "slug": "seventy-three-percent-cheaper",
+   "why": "The 24 July report this updates: BriteCo's 72.8%, and the ring share."
   },
   "corrections": []
  }
