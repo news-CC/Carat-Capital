@@ -2054,7 +2054,7 @@ def indices_page():
 {navbar()}{omenu()}
 
 <section class="deskhero"><div class="wrap">
-  <div class="dh-no">The Index Desk · computed {IDX['as_of']} · base {IDX['base_day']}</div>
+  <div class="dh-no">The Index Desk · as of the {IDX['as_of']} close · base {IDX['base_day']}</div>
   <h1 class="art-h" style="font-size:clamp(38px,5.6vw,80px);text-transform:uppercase;max-width:16ch">The Carat Indices<em style="font-family:var(--disp);font-style:normal;font-weight:400;color:var(--seal);text-transform:none;font-size:.34em;display:block;margin-top:16px;letter-spacing:-.01em">The listed jewelry world, marked to market. Computed by this desk, quoted from no one.</em></h1>
   <p class="dh-dek" style="max-width:78ch">Twenty listed companies across nine exchanges — the maisons, the jewelers' counters, the diamond pits and the watchmakers — folded into five equal-weight indices and rebased to 100 at the first trading day of the year. Every close is an exchange print. Nothing here is estimated, and nothing is anyone else's number.</p>
 </div></section>
@@ -2134,7 +2134,7 @@ def indices_page():
       gold is {g['label']}. Exchanges close at different hours, so the latest session differs by
       market; each series carries its own last print. The indices are computed with each edition,
       not live. They are editorial instruments of Carat Capital, not investment advice and not a
-      tradeable benchmark — quote them with attribution: “Carat Capital indices, {IDX['as_of']}.”</p>
+      tradeable benchmark — quote them with attribution: “Carat Capital indices, {IDX['as_of']} close.”</p>
     <p style="font-family:var(--mono);font-size:9.5px;letter-spacing:.1em;color:var(--ink-3);margin-top:14px">
       {IDX['base_note']} · computed {IDX['built'][:16].replace('T',' ')} · CC20 twenty names ·
       Maisons five · Counter eight · Pit three · Movement seven</p>
@@ -3688,8 +3688,8 @@ def index_page():
                 "st": {"w1": x["w1p"], "m1": x["m1p"], "ytd": x["ytdp"],
                        "hi": x["hi"], "lo": x["lo"], "dd": x["mddp"]},
                 "dek": x["dek"],
-                "ft": ("Drawn from each exchange's last price at %s, intraday where a market was open · equal weight, base 100 = "
-                       "first trading day of the year · as of %s" % (_idx_clock() or "build", IDX["as_of"]))
+                "ft": ("Completed sessions only, each exchange's own dates · computed %s · equal weight, base 100 = "
+                       "first trading day of the year · as of the %s close" % (_idx_clock() or "build", IDX["as_of"]))
                       + ((" · " + IDX_D1_HOLD) if IDX_D1_HOLD else "")
                       + "".join(" · " + n.get("short", "") for n in IDX_NOTES.get("corrections", []) if n.get("short"))})
     else:
@@ -3853,7 +3853,7 @@ def index_page():
       "__SPOT_AG_LINE__": "SILVER %s / OZ &middot; %s" % (spot_ag_txt, str((xag or {}).get("chg","")).upper()),
       "__SPOT_LINE__": "GOLD %s / OZ &middot; %s" % (spot_txt, str((xau or {}).get("chg","")).upper()),
       # the price desk's stamp: the tape's own as-of, never a frozen date
-      "__PX_ASOF__": (("The Carat indices · computed %s · last prices, intraday where a market was open" % (_idx_clock() or IDX["as_of"])) if IDX
+      "__PX_ASOF__": (("The Carat indices · as of the %s close · computed %s" % (IDX["as_of"], _idx_clock() or "with the edition")) if IDX
                       else "Metals " + (" · ".join((asof or "").split(" · ")[:2]) or dateline)),
       "__TAPE_CLOCK__": _tape_clock() or "the tape's own time", "__ALSO_HOOK__": _hook, "__ALSO_LINE__": _hook[:1].lower() + _hook[1:],
       "__ASOF__": asof, "__ASOF_SHORT__": asof_short,

@@ -6,6 +6,18 @@
    "label": "This week - August 20 to September 23",
    "entries": [
     {
+     "d": "diamonds",
+     "h": "AP did not carry Botswana's 15%",
+     "t": "Corrected 11 November 2026: botswana-would-double-its-de-beers-stake-to-30-percent.html (No. 109) credited AP with Botswana's present 15% stake and said AP and JCK carry both figures. AP carries the 30% and Anglo American's 85%; Reuters and JCK carry the 15%. The page's Sources list now includes the report behind Bloomberg's 25%. What was right as published: every figure.",
+     "s": "Carat Capital, a-botswana-would-double-its-de-beers-stake-to-30-percent.html"
+    },
+    {
+     "d": "prices",
+     "h": "The indices page carried two dates",
+     "t": "Corrected 11 November 2026: on 10 November indices.html said 'computed 2026-11-09' in its header and 'computed 2026-11-10 05:03' in its footer. 9 November was the last completed session; the build ran on 10 November. The header and the attribution line now name the last completed close, for example 'as of the 2026-11-10 close', and the computed time appears once. What was right as published: every index level and change.",
+     "s": "Carat Capital, indices.html"
+    },
+    {
      "d": "prices",
      "h": "The 9 November platinum chip was a held close",
      "t": "Corrected 10 November 2026: on 9 November the homepage tape printed platinum at 1,534.00, '0.0% vs 8 Nov mark', which read as a flat session. It was Friday 6 November's close, held by the price desk that morning; the board had moved. The builder now prints a held mark as 'held at' its own day's close. What was right as published: the price, as Friday's close.",

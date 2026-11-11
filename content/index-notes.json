@@ -1,6 +1,11 @@
 {
  "corrections": [
   {
+   "date": "2026-11-11",
+   "text": "Corrected, 11 November 2026: on 10 November this page's header read 'computed 2026-11-09' and its footer 'computed 2026-11-10 05:03'. The first date was the last completed session, not the computation. The header and the attribution line now name the last completed close, for example 'as of the 2026-11-10 close', and the computed time appears once, in the footer. What was right as published: every level and change.",
+   "short": "corrected 11 Nov: header date is the last completed close, not the computation time"
+  },
+  {
    "date": "2026-11-10",
    "text": "Method changed, 10 November 2026: the indices are now built on each exchange's own dates, from completed sessions only. A bar from a session still open is dropped, and the headline date is the latest day on which at least 18 of 20 constituents have a completed bar. Before this, Hong Kong and Tokyo bars could sit a day ahead of Europe and New York in the same point. On the old build the CC20 fell 6.4% on 5 November; on the new build that step is 3.1%. Levels and changes printed before 10 November were on the old build.",
    "short": "method changed 10 Nov: completed sessions only, exchange-local dates; see indices.html"
