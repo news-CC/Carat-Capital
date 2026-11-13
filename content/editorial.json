@@ -156337,11 +156337,11 @@
   },
   "sections": [
    {
-    "h": "Lower licensed-brand royalties lifted margin.",
+    "h": "Three named causes lifted margin.",
     "p": [
      {
       "lead": "Three causes named.",
-      "text": "Fossil attributes the rise mainly to lower licensed-brand minimum royalties and earlier recognition of them. Better product margins and lower tariffs also helped, it says."
+      "text": "Fossil lists three causes and does not say how much each added. They are lower minimum royalties, earlier recognition of them, and better product margins from full-price selling, sourcing and lower tariffs."
      },
      {
       "lead": "Costs fell 11.1%.",
@@ -156422,6 +156422,9 @@
      "url": "https://www.sec.gov/Archives/edgar/data/883569/000088356926000069/q32026ex991.htm",
      "published": "2026-11-10"
     }
+   ],
+   "corrections": [
+    "Corrected, 13 November 2026: the sub-head 'Lower licensed-brand royalties lifted margin' and the sentence beneath it ranked the royalty items above better product margins. Fossil's release names all three under one 'primarily' and does not rank or size them; the sub-head and sentence now list the three causes unranked. What was right as published: every figure."
    ]
   },
   "next": {
@@ -156772,7 +156775,7 @@
     "p": [
      {
       "lead": "Q3 net profit returned.",
-      "text": "Lazurde made a net profit of SAR 1.8 million in the third quarter against a SAR 4.3 million loss a year earlier."
+      "text": "Lazurde made a net profit of SAR 1.8 million in the third quarter against a SAR 4.3 million loss a year earlier. Lazurde says the quarter included SAR 5.4 million of unrealised gains on gold stock."
      },
      {
       "lead": "A one-off gold loss.",
@@ -156811,11 +156814,14 @@
      "url": "https://www.mubasher.info/TDWL/news/4697829/%D8%A7%D8%B9%D9%84%D8%A7%D9%86-%D8%B4%D8%B1%D9%83%D8%A9-%D9%84%D8%A7%D8%B2%D9%88%D8%B1%D8%AF%D9%8A-%D9%84%D9%84%D9%85%D8%AC%D9%88%D9%87%D8%B1%D8%A7%D8%AA-%D8%B9%D9%86-%D8%A7%D9%84%D9%86%D8%AA%D8%A7%D8%A6%D8%AC-%D8%A7%D9%84%D9%85%D8%A7%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D8%A3%D9%88%D9%84%D9%8A%D8%A9-%D9%84%D9%84%D9%81%D8%AA%D8%B1%D8%A9-%D8%A7%D9%84%D9%85%D9%86%D8%AA%D9%87%D9%8A%D8%A9-%D9%81%D9%8A-2026-09-30-%D8%AA%D8%B3%D8%B9%D8%A9-%D8%A3%D8%B4%D9%87%D8%B1-",
      "published": "2026-11-08T08:03:00+03:00"
     }
+   ],
+   "corrections": [
+    "Corrected, 13 November 2026: the Read next line called Kalyan Jewellers 'India's largest listed jeweller'. Kalyan's release calls it one of the largest jewellery retailers in India, and Titan, also listed, reports larger jewellery sales; the line now quotes the release. The third-quarter profit paragraph omitted that the quarter included SAR 5.4 million of unrealised fair-value gains on gold the group bought, which the announcement states; it is added, so the return to profit no longer reads as wholly operational. What was right as published: every figure."
    ]
   },
   "next": {
    "slug": "kalyan-jewellers-half-year-revenue-rises-38-percent-to-rs-20912-crore",
-   "why": "India's largest listed jeweller, same season, gold in the rupee figures too."
+   "why": "One of India's largest jewellery retailers, its release says; same season, gold in the rupee figures too."
   },
   "corrections": []
  },
@@ -156850,7 +156856,7 @@
      "n": "79.9% to 88.3%",
      "dir": "down",
      "label": "Trade-level gap",
-     "q": "Lepdo's expected range of prices, against IDEX",
+     "q": "Lepdo's expected range, 24 Jul guide, against IDEX 11 Nov, different specifications",
      "src": 2
     }
    ]
@@ -156862,7 +156868,7 @@
   "means": [
    {
     "who": "If you price a bridal counter:",
-    "text": "quote both stones from one source on one day. Across four bases the gap runs from 79.9% to 88.3%."
+    "text": "quote both stones from one source on one day. Across the four priced bases in the table the gap runs from 72.8% to 88.3%."
    },
    {
     "who": "If you buy at the trade:",
@@ -157038,11 +157044,744 @@
      "url": "https://rapaport.com/diamond-price-index/",
      "published": "2026-10-25"
     }
+   ],
+   "corrections": [
+    "Corrected, 13 November 2026: this page said 'Across four bases the gap runs from 79.9% to 88.3%.' The table's four priced bases include BriteCo at 72.8%, so the range is 72.8% to 88.3%; the line now says so. The key-figure cell and the dek gave the 79.9% to 88.3% trade gap without dates or specifications; they now say it sets the range Lepdo's 24 July vendor guide expects for D to F, VS CVD stones against IDEX's 11 November D to K round average. Where the error came from: the range was built from the Lepdo band counted at both ends, leaving BriteCo out. What was right as published: every figure and every division."
    ]
   },
   "next": {
    "slug": "seventy-three-percent-cheaper",
    "why": "The 24 July report this updates: BriteCo's 72.8%, and the ring share."
+  },
+  "corrections": []
+ },
+ "richemont-jewellery-sales-rise-19-percent-at-constant-rates-in-the-half": {
+  "v": 3,
+  "kicker": "Luxury results",
+  "figures": {
+   "asof": "Richemont, results for the six months to 30 September 2026, released 13 November 2026 · unaudited · constant rates are the company's measure",
+   "cells": [
+    {
+     "n": "+19%",
+     "dir": "up",
+     "label": "Jewellery Maisons sales",
+     "q": "at constant rates, +18% actual, six months",
+     "src": 0
+    },
+    {
+     "n": "€3.2bn",
+     "dir": "up",
+     "label": "Jewellery Maisons operating result",
+     "q": "first half, from €2.5bn; margin 35.3%, or 33.4% excluding one-time items",
+     "src": 0
+    },
+    {
+     "n": "€12,282m",
+     "dir": "up",
+     "label": "Group sales, six months",
+     "q": "+16% actual, +17% at constant rates",
+     "src": 0
+    },
+    {
+     "n": "+12%",
+     "dir": "up",
+     "label": "Specialist Watchmakers sales, Q2",
+     "q": "at constant rates; +10% for the six months",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Jewellery carried the half.",
+   "text": "Richemont's jewellery sales rose 19% at constant rates in the six months to 30 September. The Maisons' operating result for the half rose to €3.2 billion from €2.5 billion."
+  },
+  "means": [
+   {
+    "who": "If you supply gold to the trade:",
+    "text": "Richemont says raw materials, notably gold, largely drove costs, mostly offset by price rises and mix."
+   },
+   {
+    "who": "If you sell watches:",
+    "text": "watchmakers grew 12% at constant rates in the September quarter, after 8% in June's."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a clean profit line. Excluding €229 million of one-time items, it was €2.9 billion."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Six months to 30 September, this year against last",
+   "asof": "€ million unless stated · six months to 30 September 2026 against the same period of 2025 · unaudited",
+   "cols": [
+    "Line",
+    "H1 2026",
+    "H1 2025",
+    "Change"
+   ],
+   "rows": [
+    [
+     "Group sales",
+     "12,282",
+     "10,619",
+     "+16%"
+    ],
+    [
+     "Gross margin",
+     "66.5%",
+     "65.3%",
+     "+120 bp"
+    ],
+    [
+     "Operating profit (€2,900m excluding €229m one-time items)",
+     "3,129",
+     "2,358",
+     "+33%"
+    ],
+    [
+     "Operating margin",
+     "25.5%",
+     "22.2%",
+     "+330 bp"
+    ],
+    [
+     "Profit for the period",
+     "2,528",
+     "1,813",
+     "+39%"
+    ],
+    [
+     "Net cash",
+     "7,729",
+     "6,519",
+     "+1,210"
+    ]
+   ],
+   "hi": 2,
+   "note": "<b>Source</b> Richemont interim results announcement, 13 November 2026, key financial data table. <b>Operating profit</b> includes €229 million of positive tariff-related one-time items; excluding them it was €2.9 billion and the margin 23.6%. <b>Net cash change</b> is Carat Capital's subtraction.",
+   "plate": "CC/2026/368"
+  },
+  "sections": [
+   {
+    "h": "Double digits except Middle East.",
+    "p": [
+     {
+      "lead": "Four houses, 19%.",
+      "text": "Buccellati, Cartier, Van Cleef & Arpels and Vhernier grew sales 19% at constant rates in the half and 14% in the second quarter."
+     },
+     {
+      "lead": "Margin 35.3%, or 33.4%.",
+      "text": "The Maisons' operating result was €3.2 billion. Their margin was 35.3%, or 33.4% excluding positive one-time items."
+     },
+     {
+      "lead": "Group at €12.3 billion.",
+      "text": "Group sales were €12,282 million, about €12.3 billion. Jewellery grew by double digits in every region except Middle East & Africa, Richemont says."
+     }
+    ]
+   },
+   {
+    "h": "Price rises mostly offset costs.",
+    "p": [
+     {
+      "lead": "Raw materials, notably gold.",
+      "text": "Higher raw material prices, notably gold, largely drove higher production costs. Price increases over the past year and a better sales mix mostly offset them, Richemont says."
+     },
+     {
+      "lead": "Reported gross margin rose.",
+      "text": "Group gross margin was 66.5%, up 120 basis points, helped by €229 million of positive tariff-related one-time items."
+     },
+     {
+      "lead": "Underlying gross margin fell.",
+      "text": "Excluding those items, gross margin fell 70 basis points. Currency moves also weighed, the company says."
+     }
+    ]
+   },
+   {
+    "h": "Watches picked up in Q2.",
+    "p": [
+     {
+      "lead": "Q2 up 12%.",
+      "text": "Specialist Watchmakers' sales were €1.7 billion in the half, up 10% at constant rates and 12% in the second quarter.",
+      "links": {
+       "Specialist Watchmakers' sales": "a-richemont-twenty-percent-quarter.html"
+      }
+     },
+     {
+      "lead": "Profit at €150 million.",
+      "text": "The watchmakers' operating result was €150 million, from €50 million in the same half a year earlier."
+     },
+     {
+      "lead": "Not linear, it warns.",
+      "text": "Chairman Johann Rupert says recovery is unlikely to be linear in an environment that stays challenging for the industry."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "From 13 November 2026, daily",
+    "what": "Gold on the 05:00 ET tape, $3,899.10 on 13 November. The test: whether the cost Richemont names keeps rising."
+   },
+   {
+    "when": "Year to 31 March 2027, results after the year end",
+    "what": "The second half. The test: whether jewellery holds double-digit growth at constant rates."
+   }
+  ],
+  "depth": {
+   "reverse": "If jewellery growth at constant rates falls to single digits in the second half, the first half's 19% would read as a peak, not a pace.",
+   "built": {
+    "title": "What constant rates means here",
+    "text": "Richemont restates this year's sales at last year's exchange rates to show growth without currency moves. Group sales rose 16% as reported and 17% at constant rates."
+   },
+   "method": "Richemont's results announcement, door.py 06:04 EST 13 November 2026, 200, 129,659 bytes (the Bureau's 04:30 read was 129,662 bytes, same figures). Exact-string greps of the text copy: '12 282' 1, '10 619' 1, '3 129' 2, '2 358' 1, '2 528' 3, '1 813' 1, '7 729' 2, '6 519' 1, '66.5%' 2, '35.3%' 1, '33.4%' 1, '€ 3.2 billion' 1, '19% at constant' 2, '+18% actual' 1, 'Q2 up by 14%' 1, '229 million' 3, '70 basis points' 1, 'notably gold' 1, '€ 1.7 billion' 1, '+12% in the second quarter' 1, '€ 150 million' 1, '8.8%' 1, '23.6%' 2. Body: 'the Jewellery Maisons delivered a € 3.2 billion operating result in the first half, up from € 2.5 billion'; 'Operating margin stood at 35.3%, or 33.4% excluding positive one-time items'; 'Increased production costs, largely due to higher raw material prices (notably gold), were mostly offset by the combined effect of price increases over the past year and a positive sales mix'. The 8% June-quarter watch figure is from this paper's 16 July report of Richemont's first-quarter statement. Net cash change, Carat Capital's subtraction: 7,729 - 6,519 = 1,210. The Maisons' sales in euros and the watch segment's full table are in the PDF review, which was not read; no figure here comes from it.",
+   "prior": [
+    {
+     "date": "2026-10-18",
+     "slug": "richemont-and-signet-weigh-the-de-beers-bid",
+     "claim": "Richemont and Signet are in talks to join the De Beers bid."
+    },
+    {
+     "date": "2026-07-16",
+     "slug": "richemont-twenty-percent-quarter",
+     "claim": "The quarter to 30 June: sales up 20% at constant currency, watches up 8%."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Richemont, results for the six-month period ended 30 September 2026 (company announcement)",
+     "url": "https://www.richemont.com/news-media/press-releases-news/richemont-posts-strong-results-for-the-six-month-period-ended-30-september-2026-driven-by-sustained-double-digit-sales-growth/",
+     "published": "2026-11-13"
+    },
+    {
+     "title": "Carat Capital, Twenty percent: Richemont's quarter calls the luxury turn (16 July 2026), for the June-quarter watch figure",
+     "url": "https://caratcapital.org/a-richemont-twenty-percent-quarter.html",
+     "published": "2026-07-16"
+    }
+   ]
+  },
+  "next": {
+   "slug": "richemont-twenty-percent-quarter",
+   "why": "The quarter before: sales up 20% at constant currency, and watches back to growth at 8%."
+  },
+  "corrections": []
+ },
+ "sothebys-says-romanov-sapphire-bracelet-sold-for-over-chf-4-1m": {
+  "v": 3,
+  "kicker": "Gem auctions",
+  "figures": {
+   "asof": "AP report of 12 November 2026, attributing the result to Sotheby's · Sotheby's sale page and press room read 13 November 2026 show no realised price · price basis not stated",
+   "cells": [
+    {
+     "n": "Over CHF 4.1m",
+     "dir": "up",
+     "label": "Price, per AP citing Sotheby's",
+     "q": "about $4.9 million, AP's conversion",
+     "src": 0
+    },
+    {
+     "n": "CHF 850,000 to 1,700,000",
+     "dir": "flat",
+     "label": "Pre-sale estimate",
+     "q": "as AP reports it",
+     "src": 0
+    },
+    {
+     "n": "197.80 ct",
+     "dir": "flat",
+     "label": "Ceylon sapphire",
+     "q": "cushion-shaped, on a diamond bracelet",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Reported above expected range.",
+   "text": "A 197.80-carat Romanov sapphire on a diamond bracelet sold for more than CHF 4.1 million at Sotheby's Geneva on 11 November, AP reports."
+  },
+  "means": [
+   {
+    "who": "If you bid on historic jewels:",
+    "text": "the price, more than CHF 4.1 million, passed the CHF 1.7 million high estimate, AP reports; Sotheby's has not published its figure."
+   },
+   {
+    "who": "If you value sapphires:",
+    "text": "one named stone at one sale, not a per-carat market price."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a house result. The sale page showed none on 13 November."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "The lot, as reported",
+   "asof": "AP, 12 November 2026, attributing to Sotheby's · Sotheby's sale page, read 13 November 2026",
+   "cols": [
+    "Item",
+    "Figure",
+    "Source"
+   ],
+   "rows": [
+    [
+     "Weight",
+     "197.80 ct",
+     "AP; Sotheby's sale page"
+    ],
+    [
+     "Estimate",
+     "CHF 850,000 to 1,700,000",
+     "AP"
+    ],
+    [
+     "Price",
+     "more than CHF 4.1 million",
+     "AP, per Sotheby's"
+    ],
+    [
+     "Price in dollars",
+     "about $4.9 million",
+     "AP"
+    ],
+    [
+     "Buyer",
+     "private collector, not identified",
+     "AP"
+    ],
+    [
+     "Mount",
+     "Cartier, per Sotheby's",
+     "Sotheby's sale page"
+    ]
+   ],
+   "hi": 2,
+   "note": "<b>Sources</b> AP report as carried by KIRO 7, 12 November 2026; Sotheby's Royal & Noble Jewels sale page. <b>Basis</b> neither source states whether the price includes the buyer's premium.",
+   "plate": "CC/2026/369"
+  },
+  "sections": [
+   {
+    "h": "AP reports the price.",
+    "p": [
+     {
+      "lead": "Reported: over CHF 4.1m.",
+      "text": "AP reports the bracelet sold for more than 4.1 million Swiss francs, about $4.9 million, citing Sotheby's. The buyer, a private collector, was not identified."
+     },
+     {
+      "lead": "No house figure yet.",
+      "text": "Sotheby's sale page for Royal & Noble Jewels showed no realised price when read on 13 November. Its press page carried no release on the sale."
+     }
+    ]
+   },
+   {
+    "h": "Imperial owners, per Sotheby's.",
+    "p": [
+     {
+      "lead": "Worn in 1903.",
+      "text": "Dowager Empress Maria Feodorovna, mother of Nicholas II, wore the sapphire at the Winter Palace Ball of 1903, Sotheby's says, as AP reports."
+     },
+     {
+      "lead": "Cartier mount, per Sotheby's.",
+      "text": "Sotheby's sale page describes the sapphire as mounted by Cartier. AP says the stone likely came from the Mughal Empire."
+     },
+     {
+      "lead": "Soviet sales, per Sotheby's.",
+      "text": "After the revolution it was recorded in inventory before entering the Soviet government's sales of imperial treasures, Sotheby's says."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "From 13 November 2026",
+    "what": "Sotheby's own result for the lot. The test: whether the house figure states the buyer's premium basis."
+   }
+  ],
+  "depth": {
+   "reverse": "If Sotheby's own figure shows CHF 4.1 million was the hammer price, the buyer paid more once the premium is added.",
+   "built": {
+    "title": "Hammer and premium",
+    "text": "The hammer price is the winning bid. Houses add a buyer's premium on top. AP does not say which basis the CHF 4.1 million is on, and the estimate's basis is not stated either."
+   },
+   "method": "AP report as carried by KIRO 7, door.py 06:04 EST 13 November 2026, 200, 231,425 bytes; JSON-LD datePublished 2026-11-12T08:14:57Z, author Associated Press. Exact-string greps: '4.1 million Swiss francs' 9, '850,000 and 1.7 million' 2, 'private collector' 2, '197.80-carat' 2, 'Winter Palace Ball of 1903' 2, 'Mughal Empire' 2, 'premium' 0. Body: 'sold for more than 4.1 million Swiss francs ($4.9 million) at auction, vastly higher than the expected price range, Sotheby's said'. Sotheby's Royal & Noble Jewels sale page, 200, 746,357 bytes, fetched 06:04 EST 13 November 2026: 'soldPrice' 0, '197.80 carat Romanov sapphire mounted by Cartier' 3. Sotheby's press page, 200, 240,692 bytes, 06:07 EST: 'Romanov' 0. The price is AP's report of the house's statement; no house-published result was read. Division for the desk, not printed as a comparison: 4,100,000 / 1,700,000 = 2.41 times the high estimate, basis unknown.",
+   "prior": [
+    {
+     "date": "2026-11-07",
+     "slug": "197-80-carat-romanov-sapphire-leads-sothebys-geneva-sale",
+     "claim": "The preview: an estimate of CHF 850,000 to 1.7 million for the 197.80-carat sapphire."
+    }
+   ],
+   "sources": [
+    {
+     "title": "AP, A Romanov sapphire bracelet sells for $4.9 million at Geneva auction (as carried by KIRO 7)",
+     "url": "https://www.kiro7.com/news/business/romanov-sapphire/53PNU4CLS4Y3DHZRBLGOPGQYRA/",
+     "published": "2026-11-12T08:14:57Z"
+    },
+    {
+     "title": "Sotheby's, Royal & Noble Jewels, Geneva, sale page",
+     "url": "https://www.sothebys.com/en/buy/auction/2026/royal-noble-jewelry-ge2609",
+     "published": "2026-11-13"
+    }
+   ]
+  },
+  "next": {
+   "slug": "197-80-carat-romanov-sapphire-leads-sothebys-geneva-sale",
+   "why": "The preview: the stone, its estimate and its provenance before the sale."
+  },
+  "corrections": []
+ },
+ "or-royalties-q3-revenue-rises-26-percent-on-0-4-percent-fewer-gold-ounces": {
+  "v": 3,
+  "kicker": "Gold royalties",
+  "figures": {
+   "asof": "OR Royalties, third-quarter 2026 results, released 11 November 2026 (Exhibit 99.6 to Form 6-K, SEC) · US dollars · quarter to 30 September",
+   "cells": [
+    {
+     "n": "$90.2m",
+     "dir": "up",
+     "label": "Q3 revenue",
+     "q": "from $71.6m in Q3 2025",
+     "src": 0
+    },
+    {
+     "n": "20,237",
+     "dir": "down",
+     "label": "Gold equivalent ounces earned",
+     "q": "against 20,326 in Q3 2025",
+     "src": 0
+    },
+    {
+     "n": "$4,304",
+     "dir": "up",
+     "label": "Realised gold price, per ounce",
+     "q": "LBMA PM average, against $3,434",
+     "src": 0
+    },
+    {
+     "n": "80,000 to 90,000",
+     "dir": "flat",
+     "label": "2026 ounce guidance",
+     "q": "reaffirmed; 63,734 earned in nine months",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Price, not ounces.",
+   "text": "OR Royalties' third-quarter revenue rose 26% to $90.2 million while gold equivalent ounces earned fell 0.4%, its results show."
+  },
+  "means": [
+   {
+    "who": "If you buy gold for manufacture:",
+    "text": "the quarter's realised price averaged $4,304 an ounce. The 05:00 ET tape on 13 November reads $3,899.10."
+   },
+   {
+    "who": "If you follow mining finance:",
+    "text": "the company kept 96.8% of revenue as cash margin, its own measure."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a fall in underlying earnings. Adjusted earnings, a company measure, rose 28%."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Third quarter, this year against last",
+   "asof": "US$ million unless stated · quarter to 30 September 2026 against Q3 2025",
+   "cols": [
+    "Line",
+    "Q3 2026",
+    "Q3 2025",
+    "Change"
+   ],
+   "rows": [
+    [
+     "Revenue",
+     "90.2",
+     "71.6",
+     "+26%"
+    ],
+    [
+     "Gold equivalent ounces earned",
+     "20,237",
+     "20,326",
+     "−0.4%"
+    ],
+    [
+     "Realised gold price, $/oz",
+     "4,304",
+     "3,434",
+     "+25%"
+    ],
+    [
+     "Cash margin",
+     "87.3",
+     "69.3",
+     "+26%"
+    ],
+    [
+     "Net earnings (Q3 2025 had a $54.4m one-off gain)",
+     "55.4",
+     "82.8",
+     "−33%"
+    ],
+    [
+     "Adjusted earnings",
+     "53.9",
+     "42.3",
+     "+28%"
+    ]
+   ],
+   "hi": 2,
+   "note": "<b>Source</b> OR Royalties, Exhibit 99.6, 11 November 2026. <b>Net earnings</b> for Q3 2025 included a $54.4 million non-cash gain on the deemed disposal of an associate. <b>Cash margin</b> and adjusted earnings are company non-IFRS measures.",
+   "plate": "CC/2026/370"
+  },
+  "sections": [
+   {
+    "h": "Same ounces, higher price.",
+    "p": [
+     {
+      "lead": "Revenue up 26%.",
+      "text": "Revenue was $90.2 million in the quarter to 30 September, against $71.6 million a year earlier."
+     },
+     {
+      "lead": "Ounces 0.4% lower.",
+      "text": "Gold equivalent ounces earned were 20,237 against 20,326. The company converts silver and copper into gold ounces at each period's prices."
+     },
+     {
+      "lead": "Gold up 25%.",
+      "text": "The realised gold price, on the LBMA PM fix, averaged $4,304 an ounce against $3,434."
+     }
+    ]
+   },
+   {
+    "h": "Net earnings fell on a one-off.",
+    "p": [
+     {
+      "lead": "Net down 33%, one-off.",
+      "text": "Net earnings were $55.4 million against $82.8 million. The 2025 quarter included a $54.4 million non-cash gain on the deemed disposal of an associate."
+     },
+     {
+      "lead": "Adjusted earnings up 28%.",
+      "text": "Adjusted earnings, a company measure, rose to $53.9 million from $42.3 million."
+     }
+    ]
+   },
+   {
+    "h": "2026 guidance reaffirmed.",
+    "p": [
+     {
+      "lead": "63,734 ounces so far.",
+      "text": "OR Royalties earned 63,734 gold equivalent ounces in nine months and expects about the mid-point of its 80,000 to 90,000 guidance."
+     },
+     {
+      "lead": "Malartic is the cornerstone.",
+      "text": "The company calls a 3-5% net smelter return royalty on Agnico Eagle's Canadian Malartic complex its cornerstone asset."
+     },
+     {
+      "lead": "Dividend of $0.065.",
+      "text": "The board declared a quarterly dividend of $0.065 a share, payable on 15 January 2027."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "By February 2027",
+    "what": "Gold Fields expects its investment decision on Windfall, where OR Royalties holds a 2.0% to 3.0% net smelter return royalty. The test: whether construction is approved."
+   },
+   {
+    "when": "Full-year 2026 results, early 2027",
+    "what": "Ounces earned for the year. The test: whether deliveries land near 85,000, the guidance mid-point."
+   }
+  ],
+  "depth": {
+   "reverse": "If the gold price falls back towards last year's $3,434 average, revenue falls with it, because ounces earned are flat.",
+   "built": {
+    "title": "What a gold equivalent ounce is",
+    "text": "OR Royalties is a precious metals royalty and streaming company. It converts the silver and copper it earns into gold ounces at each period's average prices, so one figure covers the portfolio."
+   },
+   "method": "Exhibit 99.6 to OR Royalties' Form 6-K (accession 0001062993-26-005892, filed 12 November 2026), fetched 06:04 EST 13 November 2026 with an identifying agent: 200, 322,413 bytes (door.py's browser identity took a 403, 4,819 bytes). Exact-string greps of the text copy: '90.2 million' 2, '71.6 million' 1, '20,237' 3, '20,326' 2, '(0.4%)' 1, '4,304' 1, '3,434' 2, '87.3 million' 1, '96.8%' 7, '55.4 million' 1, '82.8 million' 1, '54.4 million' 2, '53.9 million' 1, '42.3 million' 1, '63,734' 4, '80,000 to 90,000' 3, 'cornerstone asset' 1, 'February 2027' 1, '2.0% to 3.0%' 1. Table row: 'Realized gold price (LBMA PM, $/oz) 4,304 3,434 25%'. Exhibit 99.5, 200, 9,159 bytes: '$0.065' per share, 'January 15, 2027'. Division, Carat Capital's: 90.2 / 71.6 = 1.260 -> +26%; 20,237 / 20,326 = 0.9956 -> 0.4% fewer; 4,304 / 3,434 = 1.253 -> +25%; guidance mid-point (80,000 + 90,000) / 2 = 85,000. 'Record' is the company's word for nine-month revenue and is not used. The tape's $3,899.10 is this paper's 05:00 ET Kitco mark of 13 November.",
+   "prior": [
+    {
+     "date": "2026-11-10",
+     "slug": "barricks-q3-all-in-sustaining-cost-rises-24-percent-to-1911-an-ounce",
+     "claim": "Barrick's third quarter: all-in sustaining cost up 24% to $1,911 an ounce."
+    }
+   ],
+   "sources": [
+    {
+     "title": "OR Royalties Inc., Exhibit 99.6 to Form 6-K: OR Royalties reports strong third quarter 2026 results (SEC EDGAR)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1627272/000106299326005892/exhibit99-6.htm",
+     "published": "2026-11-11"
+    },
+    {
+     "title": "OR Royalties Inc., Exhibit 99.5 to Form 6-K: quarterly dividend (SEC EDGAR)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1627272/000106299326005892/exhibit99-5.htm",
+     "published": "2026-11-11"
+    }
+   ]
+  },
+  "next": {
+   "slug": "barricks-q3-all-in-sustaining-cost-rises-24-percent-to-1911-an-ounce",
+   "why": "The miner's side of the same quarter: Barrick's cost per ounce rose 24%."
+  },
+  "corrections": []
+ },
+ "bulgari-pink-diamond-sells-for-chf-12086000-at-christies-geneva": {
+  "v": 3,
+  "kicker": "Diamond auctions",
+  "figures": {
+   "asof": "Christie's press release, Geneva, 10 November 2026, read 13 November 2026 · the release does not state the price basis",
+   "cells": [
+    {
+     "n": "US$14,809,761",
+     "dir": "flat",
+     "label": "Price in dollars",
+     "q": "Christie's own conversion",
+     "src": 0
+    },
+    {
+     "n": "24.00 ct",
+     "dir": "flat",
+     "label": "Fancy Intense Pink, emerald cut",
+     "q": "Type IIa, per Christie's",
+     "src": 0
+    },
+    {
+     "n": "CHF 10m to 15m",
+     "dir": "flat",
+     "label": "Pre-sale estimate",
+     "q": "as Christie's announced it on 9 October",
+     "src": 1
+    }
+   ]
+  },
+  "changed": {
+   "lead": "The last lot sold.",
+   "text": "Christie's sold the 24.00-carat Bulgari Pink for CHF 12,086,000 at its Geneva Magnificent Jewels sale on 10 November."
+  },
+  "means": [
+   {
+    "who": "If you hold pink diamonds:",
+    "text": "compare this price with others only on the same basis. The release does not say whether it includes the premium."
+   },
+   {
+    "who": "If you consign:",
+    "text": "Christie's says the stone was fresh to the market, held by one family since the 1950s."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a sale total. Christie's says its full Geneva results follow."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "The Bulgari Pink, as Christie's describes it",
+   "asof": "Christie's press release, 10 November 2026 · estimate from Christie's announcement of 9 October 2026",
+   "cols": [
+    "Item",
+    "Figure"
+   ],
+   "rows": [
+    [
+     "Weight",
+     "24.00 ct"
+    ],
+    [
+     "Colour and cut",
+     "Fancy Intense Pink, emerald cut"
+    ],
+    [
+     "Type",
+     "IIa, fewer than 2% of gem-quality diamonds, per Christie's"
+    ],
+    [
+     "Price",
+     "CHF 12,086,000"
+    ],
+    [
+     "Price in dollars",
+     "US$14,809,761"
+    ],
+    [
+     "Pre-sale estimate",
+     "CHF 10 million to 15 million"
+    ]
+   ],
+   "hi": 3,
+   "note": "<b>Sources</b> Christie's press release, Geneva, 10 November 2026; the estimate as Christie's announced it on 9 October 2026. <b>Basis</b> neither document states whether its figure includes the buyer's premium.",
+   "plate": "CC/2026/371"
+  },
+  "sections": [
+   {
+    "h": "The sale's final lot.",
+    "p": [
+     {
+      "lead": "Sold for CHF 12,086,000.",
+      "text": "The emerald-cut ring by Bulgari sold for US$14,809,761, Christie's says. It was the final lot of the Magnificent Jewels sale."
+     },
+     {
+      "lead": "Basis not stated.",
+      "text": "The release does not say whether the price includes the buyer's premium. Christie's says the full Geneva Luxury Week results follow later."
+     }
+    ]
+   },
+   {
+    "h": "A family stone since the 1950s.",
+    "p": [
+     {
+      "lead": "Bought in India.",
+      "text": "The consignor's great-grandparents acquired the stone in India in the 1950s, and Bulgari set it in Rome, Christie's says."
+     },
+     {
+      "lead": "Type IIa.",
+      "text": "Christie's classes the diamond as Type IIa, a category it puts at fewer than 2% of gem-quality diamonds."
+     },
+     {
+      "lead": "Estimated at CHF 10m-15m.",
+      "text": "Christie's estimated the ring at CHF 10 million to CHF 15 million when it announced the sale on 9 October.",
+      "links": {
+       "estimated the ring": "a-twenty-four-carats-at-eighteen-million.html"
+      }
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Week of 9 November 2026, per Christie's",
+    "what": "The Geneva Luxury Week results announcement. The test: whether it states the Bulgari Pink's price basis."
+   }
+  ],
+  "depth": {
+   "reverse": "If Christie's results show CHF 12,086,000 is a premium-inclusive price, the hammer was lower, and the ring's place against its CHF 10 million low estimate would need restating.",
+   "built": {
+    "title": "Hammer and premium",
+    "text": "The hammer price is the winning bid. Houses add a buyer's premium on top. The release gives one price without naming its basis, and the 9 October estimate did not name one either."
+   },
+   "method": "Christie's press release, door.py 06:04 EST 13 November 2026, 301 to 200, 152,526 bytes, the same byte count the auctions desk read on 11 November. Exact-string greps of the text copy: 'CHF12,086,000' 2, 'US$14,809,761' 2, '24.00-carat Fancy Intense Pink' 1, 'more than seven decades' 2, 'final lot' 1, 'Type IIa' 1, 'fewer than 2%' 1, 'later this week' 1; 'premium' 0, 'hammer' 0 and 'fees' 0 in the 152,526 bytes. Body: 'The remarkable 24.00-carat Fancy Intense Pink emerald-cut diamond ring by Bulgari sold for CHF12,086,000/US$14,809,761'. The CHF 10 million to CHF 15 million estimate is from Christie's 9 October announcement as reported on this site that day. No comparison with the estimate is printed because neither figure's basis is stated. The sale total was not in the release ('The full Geneva Luxury Week Results announcement will be issued later this week').",
+   "prior": [
+    {
+     "date": "2026-10-09",
+     "slug": "twenty-four-carats-at-eighteen-million",
+     "claim": "The preview: a CHF 10 million to CHF 15 million estimate for the 24-carat pink."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Christie's, Star of Christie's Geneva Magnificent Jewels: The Bulgari Pink achieves more than CHF12 million / US$14 million (press release)",
+     "url": "https://press.christies.com/?p=230905",
+     "published": "2026-11-10"
+    },
+    {
+     "title": "Carat Capital, 24-carat pink diamond carries a CHF 15 million high estimate (9 October 2026)",
+     "url": "https://caratcapital.org/a-twenty-four-carats-at-eighteen-million.html",
+     "published": "2026-10-09"
+    }
+   ]
+  },
+  "next": {
+   "slug": "twenty-four-carats-at-eighteen-million",
+   "why": "The preview: the estimate, the stone and the family that held it."
   },
   "corrections": []
  }

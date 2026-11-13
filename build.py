@@ -727,6 +727,10 @@ def figwrap(title):
     return _FIG_RE.sub(r'<span class="fign">\1</span>', title, count=1)
 
 
+_SENT_END = _re.compile(r"[.?](?=\s+[A-Z0-9\"\u201c\u2018(])")
+_NOT_SENT_END = {"inc", "co", "ltd", "st", "no", "vs", "cr", "mr", "ms", "dr", "corp", "approx", "est"}
+
+
 def metadesc(text, limit=155):
     """Cut a dek for the search-result summary without breaking a word.
 
@@ -739,10 +743,29 @@ def metadesc(text, limit=155):
     2026-08-20 to website/build.py, which is a MIRROR: the publish run rsyncs this
     file over it, so that edit was erased and never reached a page. This copy is
     the one that ships.
+
+    Sentence cut, 2026-11-13 (caratchief ruling T3, 11 Nov,
+    caratchief/answers/2026-11-11-caratreach-T3-metadesc.md): when the dek is
+    too long, end on the last complete sentence that fits inside the limit,
+    if that text is at least 60 characters; otherwise keep the word-boundary
+    cut and its ellipsis. A full stop counts as a sentence end only when it
+    is followed by a space and a capital, digit or opening quote, and is not
+    part of an initial ("U.S.") or a short abbreviation ("Inc.", "No.").
     """
     text = (text or "").strip()
     if len(text) <= limit:
         return text
+    best = None
+    for m in _SENT_END.finditer(text):
+        end = m.end()
+        if end > limit:
+            break
+        before = text[:end - 1].split()[-1] if text[:end - 1].split() else ""
+        if _re.fullmatch(r"(?:[A-Z]\.)*[A-Z]", before) or before.lower() in _NOT_SENT_END:
+            continue
+        best = end
+    if best and best >= 60:
+        return text[:best].rstrip()
     cut = text[:limit]
     sp = cut.rfind(" ")
     if sp > limit * 0.6:
