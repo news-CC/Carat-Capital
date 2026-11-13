@@ -532,16 +532,20 @@
     "lab_date": "2026-07-25",
     "rows": [
       {
-        "k": "1 ct round, natural, live retail average",
+        "k": "1 ct round, natural, StoneAlgo 25 Jul 2026, not re-read",
         "v": "$4,581 / ct"
       },
       {
-        "k": "1 ct round, lab-grown, live retail average",
+        "k": "1 ct round, lab-grown, StoneAlgo 25 Jul 2026, not re-read",
         "v": "$550 / ct"
       },
       {
         "k": "Natural to lab multiple",
         "v": "8.3×"
+      },
+      {
+        "k": "Note",
+        "v": "StoneAlgo sample of 25 July 2026, not re-read: this paper's natural list printed the lab-grown round at $550 (8.3×) and its lab-grown list at $545 (8.4×); the 25 July bytes are not held, so neither figure is confirmed."
       },
       {
         "k": "Lab-grown wholesale since July 2018",
