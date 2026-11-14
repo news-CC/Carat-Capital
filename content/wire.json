@@ -1,6 +1,6 @@
 {
  "date_line": "Sunday, October 18, 2026 | Vol. I - No. 090",
- "edition": "Vol. I - No. 111",
+ "edition": "Vol. I - No. 112",
  "items": [
   {
    "slug": "fossil-gross-margin-climbs-to-59-8-percent-as-sales-rise-0-4-percent",
@@ -23,13 +23,13 @@
    "title": "Lab-grown 1-carat average asks 82.5% below natural on CaratRadar"
   }
  ],
- "tape_ts": "Kitco bid, board stamp 2026-11-13T04:59:00-05:00, tape's 05:00 ET opening mark 13 Nov",
+ "tape_ts": "Kitco bid, board stamp 2026-11-14T04:59:00-05:00, tape's 05:00 ET opening mark 14 Nov",
  "tape": [
   {
    "name": "Gold / oz",
    "code": "XAU",
-   "px": "3,899.10",
-   "chg": "-1.1134% vs 12 Nov mark",
+   "px": "3,883.40",
+   "chg": "-0.4027% vs 13 Nov mark",
    "dir": "down",
    "pts": [
     5,
@@ -85,8 +85,8 @@
   {
    "name": "Platinum / oz",
    "code": "XPT",
-   "px": "1,512.00",
-   "chg": "-0.7874% vs 12 Nov mark",
+   "px": "1,487.00",
+   "chg": "-1.6534% vs 13 Nov mark",
    "dir": "down",
    "pts": [
     2,
@@ -104,8 +104,8 @@
   {
    "name": "Silver / oz",
    "code": "XAG",
-   "px": "49.938",
-   "chg": "-2.0958% vs 12 Nov mark",
+   "px": "48.631",
+   "chg": "-2.6172% vs 13 Nov mark",
    "dir": "down",
    "pts": [
     2,
@@ -121,7 +121,7 @@
    ]
   }
  ],
- "editionDate": "2026-11-13",
+ "editionDate": "2026-11-14",
  "printed": {
   "editionDate": "2026-11-11",
   "clock": "06:17 EST",

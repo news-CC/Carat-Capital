@@ -157106,7 +157106,7 @@
    },
    {
     "who": "What this is not:",
-    "text": "a clean profit line. Excluding €229 million of one-time items, it was €2.9 billion."
+    "text": "a clean profit line. Group operating profit was €3.1 billion, or €2.9 billion excluding €229 million of one-time items. The Maisons' margin excluding such items was 33.4%."
    }
   ],
   "visual": {
@@ -157257,6 +157257,9 @@
      "url": "https://caratcapital.org/a-richemont-twenty-percent-quarter.html",
      "published": "2026-07-16"
     }
+   ],
+   "corrections": [
+    "Corrected, 14 November 2026: the 'What this is not' line said that excluding €229 million of one-time items, 'it was €2.9 billion', under a page whose headline figure is the Jewellery Maisons' €3.2 billion operating result. The €2.9 billion and the €229 million are Richemont's Group figures; the release gives the Maisons' underlying result only as a margin, 33.4%. The line now names the Group figure and the Maisons' margin. What was right as published: every figure."
    ]
   },
   "next": {
@@ -157782,6 +157785,736 @@
   "next": {
    "slug": "twenty-four-carats-at-eighteen-million",
    "why": "The preview: the estimate, the stone and the family that held it."
+  },
+  "corrections": []
+ },
+ "india-cut-and-polished-exports-rise-10-5-percent-in-october": {
+  "v": 3,
+  "kicker": "Diamond trade",
+  "figures": {
+   "asof": "GJEPC press release, 13 November 2026 · October 2026 against October 2025 · US dollar values; the release gives no carat figures",
+   "cells": [
+    {
+     "n": "US$1.13bn",
+     "dir": "up",
+     "label": "Cut and polished exports, October",
+     "q": "+10.50% in dollars, +19.26% in rupees",
+     "src": 0
+    },
+    {
+     "n": "−4.50%",
+     "dir": "down",
+     "label": "Cut and polished, April to October",
+     "q": "US$6.95bn in dollars; +4.74% in rupees",
+     "src": 0
+    },
+    {
+     "n": "US$2.92bn",
+     "dir": "up",
+     "label": "All gem and jewellery exports, October",
+     "q": "+34.01%, from US$2.18bn",
+     "src": 0
+    },
+    {
+     "n": "US$170.46m",
+     "dir": "up",
+     "label": "Polished lab-grown exports, October",
+     "q": "+81.02% in dollars",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Polished turned positive in October.",
+   "text": "India's cut and polished diamond exports rose 10.50% to US$1.13 billion in October, GJEPC says. From April to October they were still down 4.50%."
+  },
+  "means": [
+   {
+    "who": "If you buy polished from India:",
+    "text": "Diwali moved to November this year, giving October a longer working window, the council says."
+   },
+   {
+    "who": "If you sell into the US:",
+    "text": "seven-month polished exports to the USA fell 29.92%, and to the UAE 12.26%, GJEPC says."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a volume reading. The release gives values, not carats."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "October and April to October, in US dollars",
+   "asof": "GJEPC press release, 13 November 2026 · change is year on year in US dollar terms",
+   "cols": [
+    "Line",
+    "October 2026",
+    "Change",
+    "April–October 2026",
+    "Change"
+   ],
+   "rows": [
+    [
+     "Cut and polished diamonds",
+     "US$1.13bn",
+     "+10.50%",
+     "US$6.95bn",
+     "−4.50%"
+    ],
+    [
+     "Gold jewellery, plain and studded",
+     "US$1.26bn",
+     "+48.20%",
+     "US$7.49bn",
+     "+16.28%"
+    ],
+    [
+     "Polished lab-grown diamonds",
+     "US$170.46m",
+     "+81.02%",
+     "US$855.56m",
+     "+25.95%"
+    ],
+    [
+     "Silver jewellery",
+     "US$203.83m",
+     "+55.52%",
+     "US$933.15m",
+     "+28.98%"
+    ],
+    [
+     "All gem and jewellery, gross exports",
+     "US$2.92bn",
+     "+34.01%",
+     "US$17.22bn",
+     "+7.28%"
+    ]
+   ],
+   "hi": 0,
+   "note": "<b>Source</b> GJEPC press release, 13 November 2026. <b>Basis</b> export values; in rupees, cut and polished rose 19.26% in October and 4.74% from April to October.",
+   "plate": "CC/2026/372"
+  },
+  "sections": [
+   {
+    "h": "Month up, seven months down.",
+    "p": [
+     {
+      "lead": "October: US$1.13 billion.",
+      "text": "Cut and polished exports rose 10.50% in dollars and 19.26% in rupees in October, GJEPC's release shows."
+     },
+     {
+      "lead": "Seven months: still down.",
+      "text": "From April to October they fell 4.50% in dollars to US$6.95 billion, while rising 4.74% in rupees. GJEPC says the pace of decline has moderated."
+     },
+     {
+      "lead": "September was negative.",
+      "text": "In September, cut and polished exports fell 5.4% year on year to US$1.29 billion, GJEPC's figures for that month showed.",
+      "links": {
+       "GJEPC's figures for that month": "a-one-nineteen-billion-of-gold-jewellery.html"
+      }
+     }
+    ]
+   },
+   {
+    "h": "Diwali moved the month.",
+    "p": [
+     {
+      "lead": "Calendar, per GJEPC.",
+      "text": "Diwali fell in October last year, when manufacturing centres observed their festive shutdowns. This year it falls in November, which gave October a longer working window, the council says."
+     },
+     {
+      "lead": "Prices firming, per Bhansali.",
+      "text": "GJEPC chairman Kirit Bhansali says polished prices have shown signs of firming in recent months."
+     }
+    ]
+   },
+   {
+    "h": "Lab-grown and gold rose faster.",
+    "p": [
+     {
+      "lead": "Lab-grown up 81.02%.",
+      "text": "Polished lab-grown exports rose 81.02% to US$170.46 million in October."
+     },
+     {
+      "lead": "Gold value, not weight.",
+      "text": "Gold jewellery exports rose 48.20% to US$1.26 billion. Vijaykumar Mangukiya, a GJEPC panel convener, says higher values should not be equated with higher volumes."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "GJEPC's November figures, expected mid-December 2026 on this year's pattern",
+    "what": "The first month with this year's Diwali inside it. The test: whether polished stays positive against a November 2025 without the festival."
+   }
+  ],
+  "depth": {
+   "reverse": "If November falls by more than October rose, the October gain was the calendar, not demand.",
+   "built": {
+    "title": "Value, not volume",
+    "text": "GJEPC reports exports in US dollars and rupees. A higher value can mean more stones, dearer stones or a weaker rupee, and the October release gives no carat count."
+   },
+   "method": "GJEPC press release, door.py 06:01 EST 14 November 2026, 200, 47,330 bytes (the Bureau's capture was the same size), page stamp 'Nov 13, 2026'. Exact-string greps of the saved bytes: '10.50%' 2, '1.13 billion' 1, '4.50%' 2, '6.95 billion' 1, '19.26%' 1, '4.74%' 1, '2.92 billion' 2, '34.01%' 6, '170.46 million' 1, '81.02%' 1, '1.26 billion' 1, '48.20%' 2, '855.56 million' 1, '933.15 million' 2, '17.22 billion' 1, '29.92%' 1, '12.26%' 1, 'Diwali' 3, 'firming' 2, 'pace of decline has moderated' 1, 'physical volumes' 1. The release gives values only: 'carat' 0 hits in the 47,330 bytes, read 06:01 EST 14 November; 'index' 3 hits, all page links. The September figure, 5.4% lower at $1.29 billion, is from GJEPC's September statement as reported on this site on 18 October. Kirit Bhansali's and Vijaykumar Mangukiya's views are paraphrased from the release, which names each speaker. Diwali's dates are as the release states them.",
+   "prior": [
+    {
+     "date": "2026-10-18",
+     "slug": "one-nineteen-billion-of-gold-jewellery",
+     "claim": "September: cut and polished exports fell 5.4% to $1.29 billion; April to September down 7%."
+    },
+    {
+     "date": "2026-09-20",
+     "slug": "polished-value-down-carats-up",
+     "claim": "August: polished exports fell 4.93% in value while rising 3.23% in carats."
+    }
+   ],
+   "sources": [
+    {
+     "title": "GJEPC, India's gem and jewellery exports surge 34.01% to US$2.92 billion in October 2026 (press release)",
+     "url": "https://www.gjepc.org/news_detail.php?news=india-s-gem-jewellery-exports-surge-34-01-to-us-2-92-billion-in-october-2026-driven-by-strong-orders-ahead-of-the-christmas-and-holiday-shopping-season-1",
+     "published": "2026-11-13"
+    },
+    {
+     "title": "Carat Capital, $1.19bn of gold jewellery carries India's September exports (18 October 2026), for the September polished figure",
+     "url": "https://caratcapital.org/a-one-nineteen-billion-of-gold-jewellery.html",
+     "published": "2026-10-18"
+    }
+   ]
+  },
+  "next": {
+   "slug": "one-nineteen-billion-of-gold-jewellery",
+   "why": "The month before: polished down 5.4% while gold jewellery carried September."
+  },
+  "corrections": []
+ },
+ "citizen-and-seiko-raise-watch-sales-forecasts-to-242bn-and-236bn-yen": {
+  "v": 3,
+  "kicker": "Watch results",
+  "figures": {
+   "asof": "Citizen Watch, 12 November 2026; Seiko Group, 10 November 2026 · six months to 30 September 2026, forecasts for the year to 31 March 2027 · yen, English translations",
+   "cells": [
+    {
+     "n": "¥242.0bn",
+     "dir": "up",
+     "label": "Citizen watch sales forecast",
+     "q": "year to March 2027, from ¥223.0bn on 14 August",
+     "src": 1
+    },
+    {
+     "n": "¥236.0bn",
+     "dir": "up",
+     "label": "Seiko watch sales forecast",
+     "q": "year to March 2027, from ¥224.0bn on 7 August",
+     "src": 3
+    },
+    {
+     "n": "+91.1%",
+     "dir": "up",
+     "label": "Citizen watch operating profit, half",
+     "q": "year on year, to ¥22.4bn; includes US tariff refunds",
+     "src": 0
+    },
+    {
+     "n": "¥26.4bn",
+     "dir": "up",
+     "label": "Seiko watch operating profit, half",
+     "q": "from ¥15.4bn",
+     "src": 3
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Two full-year forecasts raised.",
+   "text": "Citizen raised its full-year watch sales forecast to ¥242.0 billion on 12 November. Seiko raised its own to ¥236.0 billion on 10 November."
+  },
+  "means": [
+   {
+    "who": "If you stock Japanese watches:",
+    "text": "Citizen credits North America; Seiko credits its global brands at home and overseas."
+   },
+   {
+    "who": "If you compare margins:",
+    "text": "Citizen's watch profit includes refunds of additional US tariffs; ¥3.6 billion cut group cost of sales."
+   },
+   {
+    "who": "What this is not:",
+    "text": "the whole group. Half-year group operating profit was ¥29,228 million at Citizen and ¥31,429 million at Seiko."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Watch segments, six months to 30 September and the full-year forecasts",
+   "asof": "Citizen, 12 November 2026; Seiko, 10 November 2026 · yen · Seiko's half-year watch figures from its results presentation",
+   "cols": [
+    "Line",
+    "Citizen",
+    "Seiko"
+   ],
+   "rows": [
+    [
+     "Watch sales, six months, against a year earlier",
+     "¥117.0bn, +31.0%",
+     "¥122.4bn, from ¥98.2bn"
+    ],
+    [
+     "Watch operating profit, six months, against a year earlier",
+     "¥22.4bn, +91.1%",
+     "¥26.4bn, from ¥15.4bn"
+    ],
+    [
+     "Full-year watch sales forecast, before",
+     "¥223.0bn (14 Aug)",
+     "¥224.0bn (7 Aug)"
+    ],
+    [
+     "Full-year watch sales forecast, now",
+     "¥242.0bn",
+     "¥236.0bn"
+    ],
+    [
+     "Full-year watch operating profit forecast",
+     "¥40.0bn, from ¥29.0bn",
+     "¥39.0bn, from ¥35.0bn"
+    ],
+    [
+     "Group operating profit, six months",
+     "¥29,228m",
+     "¥31,429m"
+    ]
+   ],
+   "hi": 3,
+   "note": "<b>Sources</b> Citizen interim results and forecast notice, 12 November 2026; Seiko Group results summary and presentation, 10 November 2026. <b>Translations</b> both companies say the Japanese originals prevail.",
+   "plate": "CC/2026/373"
+  },
+  "sections": [
+   {
+    "h": "Citizen: refunds and net sales.",
+    "p": [
+     {
+      "lead": "Sales up 31.0%.",
+      "text": "Citizen's watch net sales rose 31.0% year on year to ¥117.0 billion in the six months to 30 September."
+     },
+     {
+      "lead": "Profit up 91.1%.",
+      "text": "Watch operating profit rose 91.1% year on year to ¥22.4 billion."
+     },
+     {
+      "lead": "Refunds, then net sales.",
+      "text": "Citizen attributes the profit rise to refunds for additional US tariffs, in addition to higher net sales. It also raised its watch profit forecast for the year to March 2027 to ¥40.0 billion."
+     }
+    ]
+   },
+   {
+    "h": "Seiko: global brands carried it.",
+    "p": [
+     {
+      "lead": "Sales about 24.6% higher.",
+      "text": "Seiko's watches business sold ¥122.4 billion in the half, against ¥98.2 billion. The 24.6% is Carat Capital's division."
+     },
+     {
+      "lead": "Profit ¥26.4 billion.",
+      "text": "Watch operating profit was ¥26.4 billion, against ¥15.4 billion. Seiko credits Grand Seiko, Prospex, Presage and Astron, at home and overseas."
+     },
+     {
+      "lead": "Profit forecast ¥39.0 billion.",
+      "text": "Seiko raised its full-year watch profit forecast to ¥39.0 billion from ¥35.0 billion."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Year to 31 March 2027",
+    "what": "Each maker's second six months. The test: whether watch profit holds where no tariff refund is booked."
+   }
+  ],
+  "depth": {
+   "reverse": "If Citizen's second half books no refunds and watch profit falls back, the 91.1% will read as a one-off.",
+   "built": {
+    "title": "Reported yen, not constant rates",
+    "text": "The headline figures are in yen at each period's exchange rates; Seiko also gives some watch growth rates at constant currency. Citizen assumes 155 yen to the dollar from the third quarter."
+   },
+   "method": "Citizen interim results PDF, door.py 06:01 EST 14 November 2026, 200, 424,761 bytes, and its forecast notice, 200, 155,129 bytes; Seiko results summary, 200, 260,728 bytes, and presentation, 200, 870,105 bytes. Text extracted with PyMuPDF. Citizen greps: '117.0 billion' 1, '31.0%' 1, '22.4 billion' 1, '91.1%' 1, '3.9 billion' 2, '3.6 billion' 1, '155 yen' 1, '223,000' 1, '242,000' 1, '29,000' 1; notice '207,103' 1, '29,228' 1, 'November 12, 2026' 1. Release: watch operating profit rose 'due to refunds for the additional U.S. tariffs in addition to an increase in net sales'. Seiko greps: summary '196,303' 2, '31,429' 2, 'November 10, 2026' 1; presentation '122.4' 2, '98.2' 2, '26.4' 2, '15.4' 4, '236.0' 2, '224.0' 1, '39.0' 2, '35.0' 2. Seiko's forecast row reads 'Watches 203.1 224.0 236.0 +32.9 +12.0 27.0 35.0 39.0', headed previous (Aug. 7) and current (Nov. 10), in ¥ billion. Seiko's half-year percentages are Carat Capital's division: 122.4/98.2 = 1.246, so 24.6% higher. Both companies' English documents say the Japanese originals prevail; those were not opened.",
+   "prior": [
+    {
+     "date": "2026-11-13",
+     "slug": "richemont-jewellery-sales-rise-19-percent-at-constant-rates-in-the-half",
+     "claim": "Richemont's Specialist Watchmakers grew 10% at constant rates in the same half."
+    },
+    {
+     "date": "2026-11-11",
+     "slug": "fossil-gross-margin-climbs-to-59-8-percent-as-sales-rise-0-4-percent",
+     "claim": "Fossil's third quarter: gross margin 59.8%, net sales up 0.4%."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Citizen Watch Co., consolidated financial results for the six months ended September 30, 2026 (English translation)",
+     "url": "https://www.citizen.co.jp/cms/cwc/global/files/FY26_2Qe.pdf",
+     "published": "2026-11-12"
+    },
+    {
+     "title": "Citizen Watch Co., notice of differences between forecasts and results, and revision to full-year forecasts",
+     "url": "https://www.citizen.co.jp/cms/cwc/global/files/20261112dae.pdf",
+     "published": "2026-11-12"
+    },
+    {
+     "title": "Seiko Group Corporation, consolidated financial results for the six months ended September 30, 2026 (English translation)",
+     "url": "https://www.seiko.co.jp/en/ir/2026/11/10/e_fsumFY2026Q2.pdf",
+     "published": "2026-11-10"
+    },
+    {
+     "title": "Seiko Group Corporation, results presentation for the first half of FY2026",
+     "url": "https://www.seiko.co.jp/en/ir/2026/11/10/e_irpFY2026Q2.pdf",
+     "published": "2026-11-10"
+    }
+   ]
+  },
+  "next": {
+   "slug": "richemont-jewellery-sales-rise-19-percent-at-constant-rates-in-the-half",
+   "why": "The Swiss side of the same half: Richemont's watchmakers up 10% at constant rates."
+  },
+  "corrections": []
+ },
+ "senco-gold-q2-revenue-rises-34-percent-as-release-gives-two-profit-figures": {
+  "v": 3,
+  "kicker": "Jewellery retail",
+  "figures": {
+   "asof": "Senco Gold press release, 14 November 2026 · consolidated · quarter to 30 September 2026 (Q2 FY27) · ₹ crore · statutory results not read",
+   "cells": [
+    {
+     "n": "₹2,058.7 crore",
+     "dir": "up",
+     "label": "Q2 revenue",
+     "q": "+34%; ₹5,114.8cr in the half, +52%",
+     "src": 0
+    },
+    {
+     "n": "₹83.5 or ₹86.7 crore",
+     "dir": "flat",
+     "label": "Q2 profit after tax",
+     "q": "results table, and the chief executive's commentary",
+     "src": 0
+    },
+    {
+     "n": "₹190.0 crore",
+     "dir": "up",
+     "label": "Q2 EBIT",
+     "q": "+81%, against EBITDA of ₹90.2cr in the same table",
+     "src": 0
+    },
+    {
+     "n": "215",
+     "dir": "up",
+     "label": "Showrooms",
+     "q": "net 14 added in the half",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Revenue up, profit unclear.",
+   "text": "Senco Gold's revenue rose 34% to ₹2,058.7 crore in the quarter to September. Its release gives two different figures for quarterly profit after tax."
+  },
+  "means": [
+   {
+    "who": "If you track Indian jewellers:",
+    "text": "Senco credits the festive calendar: four days of Pitru Paksha fell in the quarter, against 15."
+   },
+   {
+    "who": "If you lend or supply gold:",
+    "text": "inventory rose to ₹5,487.8 crore and borrowings to ₹2,612.7 crore ahead of the festive season."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a settled profit figure. The statutory results will decide which is right."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Quarter and half to 30 September, as the release prints them",
+   "asof": "₹ crore, consolidated · Senco Gold press release, 14 November 2026",
+   "cols": [
+    "Line",
+    "Q2 FY27",
+    "Q2 FY26",
+    "Change",
+    "H1 FY27"
+   ],
+   "rows": [
+    [
+     "Revenue",
+     "2,058.7",
+     "1,536.1",
+     "+34%",
+     "5,114.8"
+    ],
+    [
+     "EBITDA",
+     "90.2",
+     "106.5",
+     "−15%",
+     "391.2"
+    ],
+    [
+     "EBIT",
+     "190.0",
+     "105.2",
+     "+81%",
+     "396.9"
+    ],
+    [
+     "Profit after tax, results table",
+     "83.5",
+     "48.8",
+     "+71%",
+     "187.8"
+    ],
+    [
+     "Profit after tax, chief executive",
+     "86.7",
+     "not given",
+     "not given",
+     "187.8"
+    ]
+   ],
+   "hi": 3,
+   "note": "<b>Source</b> Senco Gold press release, 14 November 2026. <b>Arithmetic</b> Carat Capital's: the Q1 and Q2 columns add to the half for revenue and EBIT. For EBITDA, 213.1 + 90.2 = 303.3 against 391.2; for table profit, 101.1 + 83.5 = 184.6 against 187.8.",
+   "plate": "CC/2026/374"
+  },
+  "sections": [
+   {
+    "h": "Revenue rose on festivals and stores.",
+    "p": [
+     {
+      "lead": "Half up 52%.",
+      "text": "Revenue was ₹2,058.7 crore in the quarter. Half-year revenue rose 52% to ₹5,114.8 crore."
+     },
+     {
+      "lead": "Same-store sales up 19%.",
+      "text": "Same-store sales grew 19% in the quarter, Senco says. It added a net 14 showrooms in the half, to 215."
+     }
+    ]
+   },
+   {
+    "h": "Two quarterly profit figures, one release.",
+    "p": [
+     {
+      "lead": "Table says ₹83.5 crore.",
+      "text": "The results table gives quarterly profit after tax of ₹83.5 crore. The chief executive's commentary gives ₹86.7 crore."
+     },
+     {
+      "lead": "Bullet says up 78%.",
+      "text": "A summary bullet says profit grew 78%. That fits ₹86.7 crore against ₹48.8 crore a year earlier, on Carat Capital's division."
+     },
+     {
+      "lead": "Half-year fits ₹86.7 crore.",
+      "text": "The first quarter's ₹101.1 crore plus ₹86.7 crore makes the half-year column's ₹187.8 crore."
+     }
+    ]
+   },
+   {
+    "h": "EBIT sits above EBITDA.",
+    "p": [
+     {
+      "lead": "Table: EBITDA down 15%.",
+      "text": "The table puts quarterly EBITDA at ₹90.2 crore, below EBIT of ₹190.0 crore."
+     },
+     {
+      "lead": "Columns do not add.",
+      "text": "First-quarter EBITDA plus the second quarter's makes ₹303.3 crore, against a half-year column of ₹391.2 crore."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Senco's statutory results for the quarter to 30 September 2026",
+    "what": "The filed profit after tax. The test: whether it reads ₹83.5 crore or ₹86.7 crore."
+   },
+   {
+    "when": "Second half, to 31 March 2027",
+    "what": "Senco's target of over 25% value growth and a 7.5% EBITDA margin. The test: whether the margin recovers from 4.4% in the second quarter."
+   }
+  ],
+  "depth": {
+   "reverse": "If the statutory results confirm ₹86.7 crore and restate the table, the discrepancy is a typing error, and profit grew 78%.",
+   "built": {
+    "title": "EBIT above EBITDA",
+    "text": "EBITDA is earnings before interest, tax, depreciation and amortisation. EBIT is normally the smaller of the two. Here it is larger, which only income outside EBITDA, such as other income, can explain; the release does not say."
+   },
+   "method": "Senco Gold press release filed with NSE, door.py 06:01 EST 14 November 2026, 200, 658,629 bytes, dated 'November 14, 2026'. Text extracted with PyMuPDF, 12,963 bytes. Greps: '2,058.7' 1, '1,536.1' 1, '5,114.8' 2, '90.2' 1, '106.5' 1, '391.2' 1, '213.1' 1, '190.0' 1, '396.9' 1, '83.5' 1, '48.8' 1, '101.1' 1, '187.8' 2, '86.7' 1, '78%' 1, '71%' 1, '5,487.8' 1, '2,612.7' 1, 'four days' 1, '15 days' 1. Table row: 'Profit after Tax (PAT) 83.5 48.8 71% 101.1 -17% 187.8 153.4 22%'. Commentary: 'Consolidated PAT for Q2 FY27 stood at ₹86.7 crore'. Bullet: 'PAT growth of 78% YoY in Q2'. Carat Capital's arithmetic: 86.7/48.8 = 1.777, so 78%; 83.5/48.8 = 1.711, so 71%; 101.1 + 86.7 = 187.8; 101.1 + 83.5 = 184.6; 213.1 + 90.2 = 303.3 against 391.2. The statutory results were filed as a scanned board document and were not read; this article does not say which profit figure is right.",
+   "prior": [
+    {
+     "date": "2026-11-11",
+     "slug": "kalyan-jewellers-half-year-revenue-rises-38-percent-to-rs-20912-crore",
+     "claim": "Kalyan Jewellers' half-year revenue rose 38% to Rs 20,912 crore."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Senco Gold Limited, press release on the financial performance for the quarter and half year ended 30 September 2026 (NSE filing)",
+     "url": "https://nsearchives.nseindia.com/corporate/Sencogold_14112026122808_SE_Intimation_Press_Release_Q2_FY_27.pdf",
+     "published": "2026-11-14"
+    }
+   ]
+  },
+  "next": {
+   "slug": "kalyan-jewellers-half-year-revenue-rises-38-percent-to-rs-20912-crore",
+   "why": "A larger Indian jeweller's half: Kalyan's revenue up 38%."
+  },
+  "corrections": []
+ },
+ "christies-geneva-magnificent-jewels-sale-totals-chf-41481200": {
+  "v": 3,
+  "kicker": "Jewel auctions",
+  "figures": {
+   "asof": "Christie's sale pages, read 14 November 2026 · sales held 10 November 2026 in Geneva · totals are hammer price plus buyer's premium, per the pages",
+   "cells": [
+    {
+     "n": "CHF 41,481,200",
+     "dir": "flat",
+     "label": "Magnificent Jewels, total",
+     "q": "including buyer's premium",
+     "src": 0
+    },
+    {
+     "n": "CHF 20,916,480",
+     "dir": "flat",
+     "label": "Connoisseur's Collection part I, total",
+     "q": "including buyer's premium",
+     "src": 1
+    },
+    {
+     "n": "CHF 12,086,000",
+     "dir": "flat",
+     "label": "Bulgari Pink",
+     "q": "basis not stated by Christie's",
+     "src": 2
+    }
+   ]
+  },
+  "changed": {
+   "lead": "The sale total is in.",
+   "text": "Christie's Magnificent Jewels sale in Geneva on 10 November totalled CHF 41,481,200 including buyer's premium, its sale page shows."
+  },
+  "means": [
+   {
+    "who": "If you consign to Geneva:",
+    "text": "the two jewel sales that day made CHF 62,397,680, on Carat Capital's addition."
+   },
+   {
+    "who": "If you value pink diamonds:",
+    "text": "the Bulgari Pink's price would be 29.1% of the sale total if both are on the same basis."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a result against estimate. Christie's estimates exclude the premium and its totals include it."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Christie's Geneva jewel sales, 10 November",
+   "asof": "Christie's sale pages, read 14 November 2026 · CHF, hammer price plus buyer's premium",
+   "cols": [
+    "Sale",
+    "Total"
+   ],
+   "rows": [
+    [
+     "Magnificent Jewels Including the Bulgari Pink",
+     "CHF 41,481,200"
+    ],
+    [
+     "Exceptional Jewels & Objects of Elegance: A Connoisseur's Collection, part I",
+     "CHF 20,916,480"
+    ],
+    [
+     "Both sales",
+     "CHF 62,397,680"
+    ],
+    [
+     "Bulgari Pink, the first sale's final lot",
+     "CHF 12,086,000, basis not stated"
+    ]
+   ],
+   "hi": 0,
+   "note": "<b>Sources</b> Christie's sale pages for auctions 31087 and 31493; Christie's press release of 10 November 2026 for the Bulgari Pink. <b>Both sales</b> is Carat Capital's addition.",
+   "plate": "CC/2026/375"
+  },
+  "sections": [
+   {
+    "h": "Two jewel sales, one day.",
+    "p": [
+     {
+      "lead": "Magnificent Jewels: CHF 41.5m.",
+      "text": "The Magnificent Jewels sale, which included the Bulgari Pink, totalled CHF 41,481,200, Christie's sale page shows."
+     },
+     {
+      "lead": "Part I: CHF 20.9m.",
+      "text": "Exceptional Jewels & Objects of Elegance, part I of a connoisseur's collection, made CHF 20,916,480 the same day."
+     }
+    ]
+   },
+   {
+    "h": "The pink's share is uncertain.",
+    "p": [
+     {
+      "lead": "Totals include premium.",
+      "text": "Both sale pages say totals are hammer price plus buyer's premium, and that estimates exclude it."
+     },
+     {
+      "lead": "Lot basis unstated.",
+      "text": "Christie's 10 November release gave the Bulgari Pink at CHF 12,086,000 without naming a basis. On the same basis as the total, it would be 29.1%."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "From 14 November 2026",
+    "what": "A lot-level result for the Bulgari Pink. The test: whether Christie's states that its price includes the premium."
+   }
+  ],
+  "depth": {
+   "reverse": "If the Bulgari Pink's price excludes the premium, its share of the premium-inclusive total is larger than 29.1%.",
+   "built": {
+    "title": "Hammer and premium",
+    "text": "The hammer price is the winning bid. The house adds a buyer's premium on top. Christie's sale totals include it; its estimates do not."
+   },
+   "method": "Christie's sale pages, door.py 06:01 EST 14 November 2026: auction 31087, 200, 230,639 bytes, '41,481,200' 2 hits; auction 31493, 200, 237,705 bytes, '20,916,480' 2 hits. Each page's tooltip reads 'Estimates do not include buyer's premium. Sales totals are hammer price plus buyer's premium.' (1 hit on each). The lot-level price is not in either page's bytes. Christie's press release of 10 November, re-fetched 06:05 EST 14 November, 301 to 200, 152,526 bytes, the size read on 13 November: 'CHF12,086,000' 6, 'premium' 0, 'hammer' 0, 'fees' 0. Carat Capital's arithmetic: 41,481,200 + 20,916,480 = 62,397,680; 12,086,000/41,481,200 = 0.2914, so 29.1% of the total on a common basis.",
+   "prior": [
+    {
+     "date": "2026-11-13",
+     "slug": "bulgari-pink-diamond-sells-for-chf-12086000-at-christies-geneva",
+     "claim": "The Bulgari Pink sold for CHF 12,086,000; the release did not state the price basis."
+    },
+    {
+     "date": "2026-10-09",
+     "slug": "twenty-four-carats-at-eighteen-million",
+     "claim": "The preview: a CHF 10 million to CHF 15 million estimate."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Christie's, Magnificent Jewels Including the Bulgari Pink, Geneva, 10 November 2026 (sale page)",
+     "url": "https://www.christies.com/en/auction/auction-31087",
+     "published": "2026-11-10"
+    },
+    {
+     "title": "Christie's, Exceptional Jewels & Objects of Elegance: A Connoisseur's Collection, part I, Geneva (sale page)",
+     "url": "https://www.christies.com/en/auction/auction-31493",
+     "published": "2026-11-10"
+    },
+    {
+     "title": "Christie's, The Bulgari Pink achieves more than CHF12 million (press release)",
+     "url": "https://press.christies.com/?p=230905",
+     "published": "2026-11-10"
+    }
+   ]
+  },
+  "next": {
+   "slug": "bulgari-pink-diamond-sells-for-chf-12086000-at-christies-geneva",
+   "why": "The sale's final lot: the Bulgari Pink and what Christie's said of it."
   },
   "corrections": []
  }
