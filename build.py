@@ -227,7 +227,19 @@ def _tape_clock():
         _tp = ROOT / "content" / "tape" / ("%s.json" % _edd)
     try:
         _marks = {m.get("key"): m for m in json.loads(_tp.read_text()).get("marks", [])}
-        return _ny_clock(datetime.datetime.fromisoformat(_marks["gold_spot"]["sourceDate"]))
+        _sd = datetime.datetime.fromisoformat(_marks["gold_spot"]["sourceDate"].replace("Z", "+00:00"))
+        _c = _ny_clock(_sd)
+        # caratdesk 15 Nov (Standards 14 Nov item C): on a weekend tape the board's price time is
+        # Friday's, so the clock alone read as a live bid. When the price time is not the edition's
+        # own day, the day prints beside it, read from the same field.
+        try:
+            from zoneinfo import ZoneInfo as _ZI
+            _sdl = _sd.astimezone(_ZI("America/New_York"))
+            if _sdl.date().isoformat() != _edd:
+                _c += " %s %d %s" % (_sdl.strftime("%a"), _sdl.day, _sdl.strftime("%b"))
+        except Exception:
+            pass
+        return _c
     except Exception:
         return ""
 
@@ -295,7 +307,7 @@ def _lock_metal_qualifiers():
             _pm = {}
         if _pm and (_pm.get("status") or "fresh") != "fresh":
             try:
-                _hd = _dtq.datetime.fromisoformat(_pm.get("sourceDate") or "").date()
+                _hd = _dtq.datetime.fromisoformat((_pm.get("sourceDate") or "").replace("Z", "+00:00")).date()
                 _t["chg"] = _req.sub(r"vs .*? mark", "vs %s %d %s close" % (_hd.strftime("%a"), _hd.day, _hd.strftime("%b")), _t["chg"], count=1)
                 continue
             except ValueError:
@@ -320,12 +332,43 @@ def _lock_metal_qualifiers():
         # session. The chip says "held at <day> close", with the day read from the mark.
         if (_m.get("status") or "fresh") != "fresh":
             try:
-                _sd = _dtq.datetime.fromisoformat(_m.get("sourceDate") or "").date()
+                _sd = _dtq.datetime.fromisoformat((_m.get("sourceDate") or "").replace("Z", "+00:00")).date()
                 _t["chg"] = "held at %s %d %s close" % (_sd.strftime("%a"), _sd.day, _sd.strftime("%b"))
             except ValueError:
                 _t["chg"] = "held, not a session move"
             _t["dir"] = "flat"
             _t["held"] = True
+    # caratdesk 15 Nov (carateditor 14 Nov order 2, Standards 10/11/13 Nov): the paper's change is
+    # measured mark to mark; the board's own day change can carry the opposite sign. Each chip now
+    # prints the board's day change beside the paper's, and the board's price time, both read from
+    # the mark's boardChangePct / boardTime fields. A mark without them prints neither: no field,
+    # no figure.
+    for _t in WIRE.get("tape", []):
+        _m = _marks.get(_map.get(_t.get("code"), ""))
+        if not _m:
+            continue
+        _bits = []
+        if _m.get("boardChangePct") is not None:
+            _bp = round(float(_m["boardChangePct"]), 2)
+            _bits.append("Kitco day " + ("0.00" if _bp == 0 else ("\u2212" if _bp < 0 else "+") + "%.2f" % abs(_bp)) + "%")
+        if _m.get("boardTime"):
+            try:
+                _bt = _dtq.datetime.fromisoformat(_m["boardTime"].replace("Z", "+00:00"))
+                _btc = _ny_clock(_bt)
+                try:
+                    from zoneinfo import ZoneInfo as _ZI
+                    _btl = _bt.astimezone(_ZI("America/New_York"))
+                    if _btl.date().isoformat() != _edd:
+                        _btc += " %s %d %s" % (_btl.strftime("%a"), _btl.day, _btl.strftime("%b"))
+                except Exception:
+                    pass
+                _bits.append("board time " + _btc)
+            except ValueError:
+                pass
+        if _bits and _t.get("held") and _m.get("boardTime"):
+            _t["chg"] = "held"
+        if _bits:
+            _t["chg"] = ((_t.get("chg") or "") + " · " + " · ".join(_bits)).lstrip(" ·")
 _lock_metal_qualifiers()
 
 def _edition_tape_marks():
