@@ -1,36 +1,36 @@
 {
  "date_line": "Sunday, October 18, 2026 | Vol. I - No. 090",
- "edition": "Vol. I - No. 112",
+ "edition": "Vol. I - No. 113",
  "items": [
   {
-   "slug": "fossil-gross-margin-climbs-to-59-8-percent-as-sales-rise-0-4-percent",
-   "desk": "Watches",
-   "title": "Fossil Q3 gross margin climbs to 59.8% as net sales rise 0.4%"
-  },
-  {
-   "slug": "kalyan-jewellers-half-year-revenue-rises-38-percent-to-rs-20912-crore",
-   "desk": "Retail & Tech",
-   "title": "Kalyan Jewellers half-year revenue rises 38% to Rs 20,912 crore"
-  },
-  {
-   "slug": "lazurde-nine-month-revenue-rises-29-3-percent-6-1-percent-without-gold",
-   "desk": "Retail & Tech",
-   "title": "Lazurde nine-month revenue rises 29.3%, 6.1% without gold"
-  },
-  {
-   "slug": "lab-grown-1-carat-asks-82-5-percent-below-natural-on-caratradar",
+   "slug": "lucara-q3-revenue-rises-19-percent-to-61-1m-on-1303-carat-diamond-sale",
    "desk": "Diamonds",
-   "title": "Lab-grown 1-carat average asks 82.5% below natural on CaratRadar"
+   "title": "Lucara Q3 revenue rises 19% to $61.1m on 1,303-carat diamond sale"
+  },
+  {
+   "slug": "fossil-year-to-date-sales-fall-2-5-percent-over-a-period-one-week-shorter",
+   "desk": "Watches",
+   "title": "Fossil year-to-date net sales fall 2.5% over a period one week shorter"
+  },
+  {
+   "slug": "christies-shanghai-sells-90-80-carat-starlight-necklace-for-cny-8-32m",
+   "desk": "Auctions",
+   "title": "Christie's Shanghai sells 90.80-carat Starlight necklace for CNY 8.32m"
+  },
+  {
+   "slug": "lbma-adds-fujian-jinyudeshang-refinery-to-gold-good-delivery-list",
+   "desk": "Gold & Metals",
+   "title": "LBMA adds Fujian Jinyudeshang Refinery to its gold Good Delivery List"
   }
  ],
- "tape_ts": "Kitco bid, board stamp 2026-11-14T04:59:00-05:00, tape's 05:00 ET opening mark 14 Nov",
+ "tape_ts": "Kitco bid, board stamp 2026-11-13T17:00:00Z, tape's 05:00 ET opening mark 15 Nov",
  "tape": [
   {
    "name": "Gold / oz",
    "code": "XAU",
    "px": "3,883.40",
-   "chg": "-0.4027% vs 13 Nov mark",
-   "dir": "down",
+   "chg": "+0.0000% vs 14 Nov mark",
+   "dir": "flat",
    "pts": [
     5,
     6,
@@ -86,8 +86,8 @@
    "name": "Platinum / oz",
    "code": "XPT",
    "px": "1,487.00",
-   "chg": "-1.6534% vs 13 Nov mark",
-   "dir": "down",
+   "chg": "+0.0000% vs 14 Nov mark",
+   "dir": "flat",
    "pts": [
     2,
     4,
@@ -105,8 +105,8 @@
    "name": "Silver / oz",
    "code": "XAG",
    "px": "48.631",
-   "chg": "-2.6172% vs 13 Nov mark",
-   "dir": "down",
+   "chg": "+0.0000% vs 14 Nov mark",
+   "dir": "flat",
    "pts": [
     2,
     4,
@@ -121,10 +121,10 @@
    ]
   }
  ],
- "editionDate": "2026-11-14",
+ "editionDate": "2026-11-15",
  "printed": {
-  "editionDate": "2026-11-11",
-  "clock": "06:17 EST",
+  "editionDate": "2026-11-15",
+  "clock": "06:19 EST",
   "note": "the Editor's press time for this edition, written once at push; build.py reads it so later rebuilds by other desks do not move it. It is press time, not the CI publish time."
  }
 }

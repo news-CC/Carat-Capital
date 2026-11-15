@@ -158517,5 +158517,722 @@
    "why": "The sale's final lot: the Bulgari Pink and what Christie's said of it."
   },
   "corrections": []
+ },
+ "lucara-q3-revenue-rises-19-percent-to-61-1m-on-1303-carat-diamond-sale": {
+  "v": 3,
+  "kicker": "Rough producers",
+  "figures": {
+   "asof": "Lucara Q3 2026 release, quarter to 30 September 2026 · published 13 November 2026, 15:45 PT · US dollars",
+   "cells": [
+    {
+     "n": "$61.1m",
+     "dir": "up",
+     "label": "Q3 revenue",
+     "q": "from $51.2m in Q3 2025",
+     "src": 0
+    },
+    {
+     "n": "$140m-$160m",
+     "dir": "up",
+     "label": "2026 guidance",
+     "q": "raised from $100m-$130m",
+     "src": 0
+    },
+    {
+     "n": "79%",
+     "dir": "up",
+     "label": "HB share",
+     "q": "of Q3 revenue; 74% a year earlier",
+     "src": 0
+    },
+    {
+     "n": "−11%",
+     "dir": "down",
+     "label": "Tender price",
+     "q": "average per carat, on the year",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Lucara raised its guidance.",
+   "text": "Lucara now expects 2026 revenue of $140m to $160m, crediting the sale of the Motswedi and a 1,303-carat Type IIa diamond."
+  },
+  "means": [
+   {
+    "who": "If you buy at Lucara's tenders:",
+    "text": "the average price per carat fell 11% on the year; volume kept revenue level."
+   },
+   {
+    "who": "If you hold Lucara paper:",
+    "text": "the raise rests on stones that may sell for more than $10m."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a run-of-mine recovery. Clara's average price fell 26%, and Lucara cites pressure on smaller goods."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Lucara revenue by sales channel",
+   "asof": "Lucara Q3 2026 release, page 4 · US$ millions · figures may not add due to rounding, per Lucara",
+   "cols": [
+    "Channel",
+    "Q3 2026",
+    "Q3 2025",
+    "9M 2026",
+    "9M 2025"
+   ],
+   "rows": [
+    [
+     "HB Trading",
+     "48.5",
+     "38.0",
+     "96.0",
+     "91.3"
+    ],
+    [
+     "Tender",
+     "11.2",
+     "11.2",
+     "23.9",
+     "28.3"
+    ],
+    [
+     "Clara",
+     "1.4",
+     "2.0",
+     "4.1",
+     "5.6"
+    ],
+    [
+     "Total",
+     "61.1",
+     "51.2",
+     "123.9",
+     "125.2"
+    ]
+   ],
+   "hi": 0,
+   "note": "<b>Source</b> Lucara Diamond Corp., Q3 2026 news release, 13 November 2026, sales by channel table. Nine months end 30 September.",
+   "plate": "CC/2026/376"
+  },
+  "sections": [
+   {
+    "h": "Lucara credits one diamond.",
+    "p": [
+     {
+      "lead": "Revenue rose 19%.",
+      "text": "Lucara says Q3 revenue rose to $61.1m from $51.2m, primarily driven by the sale of the 1,303-carat Type IIa diamond."
+     },
+     {
+      "lead": "HB: 79% of revenue.",
+      "text": "Revenue from HB Trading, which buys under a sales agreement, was $48.5m, against 74% of the total a year earlier. The release does not say which channel sold the large stone."
+     },
+     {
+      "lead": "Q3 tender revenue level.",
+      "text": "Tender revenue was $11.2m, level with Q3 2025, as an 11% fall in the average price per carat met a higher volume of carats."
+     },
+     {
+      "lead": "Clara's average fell 26%.",
+      "text": "Clara revenue was $1.4m against $2.0m, on a 26% lower average price. Lucara has given notice to end the Clara agreement; from Q1 2027 those goods go to tender."
+     }
+    ]
+   },
+   {
+    "h": "Legacy Stones lifted guidance.",
+    "p": [
+     {
+      "lead": "Two sales, one range.",
+      "text": "The new range reflects Legacy Stones sales, including the Motswedi and the 1,303-carat diamond, the release says. Lucara defines Legacy Stones as rough that may sell for more than $10m."
+     },
+     {
+      "lead": "Nine months trail 2025.",
+      "text": "Revenue for the nine months was $123.9m against $125.2m, 1.0% lower on Carat Capital's division."
+     },
+     {
+      "lead": "Q4 needs $16.1m-$36.1m.",
+      "text": "On Carat Capital's subtraction, the range leaves $16.1m to $36.1m for the fourth quarter, if guidance and the table measure the same revenue. Q4 2025 was $34.5m."
+     }
+    ]
+   },
+   {
+    "h": "A longer quarter at Karowe.",
+    "p": [
+     {
+      "lead": "Q3 ran 97 days.",
+      "text": "The quarter ran from 26 June to 30 September after a move to calendar-month reporting; Q2 ran 92 days. Karowe processed 829,822 tonnes of ore."
+     },
+     {
+      "lead": "More carats sold.",
+      "text": "Lucara sold 113,227 carats in the quarter, 12% more than a year earlier, the release says."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "16 November 2026, 06:00 PT",
+    "what": "Lucara's results call. The test: whether it names the channel and price for the 1,303-carat stone."
+   },
+   {
+    "when": "Q4 2026 results",
+    "what": "Fourth-quarter revenue against the $16.1m to $36.1m the range implies, and the end of open-pit mining."
+   },
+   {
+    "when": "From Q1 2027",
+    "what": "Clara's goods move to tender. The test: the tender's average price per carat with smaller goods added."
+   }
+  ],
+  "depth": {
+   "reverse": "If fourth-quarter revenue comes in under $16.1m, the raised range fails on Lucara's own nine-month table, and the raise was one stone, not a trend.",
+   "built": {
+    "title": "How Lucara sells Karowe's rough",
+    "text": "Three channels: a sales agreement with HB Trading, which pays top-up or top-down amounts when the polished price differs from the agreed value; quarterly tenders; and the Clara platform, which Lucara is leaving."
+   },
+   "method": "Lucara's release PDF, door.py 06:02 EST 15 November 2026, 200, 775,494 bytes, byte-identical (cmp) to the rough desk's 03:00 copy; text extracted to 26,396 bytes. Greps on the text: '61.1' 4, '113,227' 3, '140 to' 3, '1,303' 5, '79%' 1, '123.9' 2, '125.2' 1, '829,822' 2, '97 days' 1, '34.5' 1. Release page, 200, 100,582 bytes. Carat Capital's arithmetic: 61.1/51.2 = 1.193, the release's 19%; 123.9/125.2 = 0.9896, so 1.0% lower; 140 - 123.9 = 16.1 and 160 - 123.9 = 36.1; 48.5/61.1 = 0.794, the release's 79%. The release's guidance line reads 'Diamond revenue' and the table 'Total Revenue'; the subtraction assumes they match. Our 15 July article reported a 1,305.4-carat stone recovered on 13 July; the release names a 1,303-carat Type IIa recovered in the quarter. Lucara does not link the two figures and this article does not either. The release names no buyer or price for the 1,303-carat stone. No second outlet was read; every figure is Lucara's.",
+   "prior": [
+    {
+     "date": "2026-08-21",
+     "slug": "second-largest-and-no-price",
+     "claim": "Lucara sold the 2,488-carat Motswedi and published no price."
+    },
+    {
+     "date": "2026-08-12",
+     "slug": "the-mix-did-the-work",
+     "claim": "Q2: revenue $41.0m, guidance held at $100m to $130m."
+    },
+    {
+     "date": "2026-07-15",
+     "slug": "lucara-tenth-thousand-carat",
+     "claim": "Karowe recovered a 1,305.4-carat diamond on 13 July."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Lucara Diamond Corp., Lucara announces Q3 2026 results (news release, PDF)",
+     "url": "https://lucaradiamond.com/site/assets/files/63211/lucara-diamond-corp-lucara-announces-q3-2026-results.pdf",
+     "published": "2026-11-13T23:45:00Z"
+    },
+    {
+     "title": "Lucara Diamond Corp., Lucara announces Q3 2026 results (news release page)",
+     "url": "https://lucaradiamond.com/newsroom/news-releases/lucara-announces-q3-2026-results-122941/",
+     "published": "2026-11-13"
+    }
+   ]
+  },
+  "next": {
+   "slug": "the-mix-did-the-work",
+   "why": "The quarter before: guidance held at $100m to $130m and prices fell in both channels."
+  },
+  "corrections": []
+ },
+ "fossil-year-to-date-sales-fall-2-5-percent-over-a-period-one-week-shorter": {
+  "v": 3,
+  "kicker": "Watch groups",
+  "figures": {
+   "asof": "Fossil Group 10-Q, 39 weeks to 3 October 2026 against 40 weeks to 4 October 2025 · filed 12 November 2026",
+   "cells": [
+    {
+     "n": "$705.7m",
+     "dir": "down",
+     "label": "Net sales",
+     "q": "against $723.9m",
+     "src": 0
+    },
+    {
+     "n": "−2.7%",
+     "dir": "down",
+     "label": "Constant currency",
+     "q": "change in net sales",
+     "src": 0
+    },
+    {
+     "n": "−9.8%",
+     "dir": "down",
+     "label": "Europe sales",
+     "q": "to $212.5m",
+     "src": 0
+    },
+    {
+     "n": "60.6%",
+     "dir": "up",
+     "label": "Gross margin",
+     "q": "2026 period, from 55.6%",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "Year-to-date net sales fell.",
+   "text": "Fossil's net sales for the 39 weeks to 3 October fell 2.5% to $705.7m, its quarterly filing shows. The prior-year period ran a week longer."
+  },
+  "means": [
+   {
+    "who": "If you sell Fossil brands wholesale:",
+    "text": "wholesale rose 6.3% over the period while direct-to-consumer sales fell 16.1%."
+   },
+   {
+    "who": "If you hold the stock:",
+    "text": "operating income for the 2026 period was $40.6m, against a $19.9m loss."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a like-for-like decline. The 10-Q does not restate 2025 on 39 weeks, so the extra week's weight is unknown."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Fossil net sales by segment, year to date",
+   "asof": "Fossil 10-Q · US$ millions · 39 weeks to 3 Oct 2026 against 40 weeks to 4 Oct 2025",
+   "cols": [
+    "Segment",
+    "2026",
+    "2025",
+    "Change",
+    "Constant currency"
+   ],
+   "rows": [
+    [
+     "Americas",
+     "303.5",
+     "303.2",
+     "+0.1%",
+     "−0.9%"
+    ],
+    [
+     "Europe",
+     "212.5",
+     "235.7",
+     "−9.8%",
+     "−12.1%"
+    ],
+    [
+     "Asia",
+     "188.5",
+     "183.7",
+     "+2.6%",
+     "+6.4%"
+    ],
+    [
+     "Corporate",
+     "1.2",
+     "1.3",
+     "−7.7%",
+     "−7.7%"
+    ],
+    [
+     "Total",
+     "705.7",
+     "723.9",
+     "−2.5%",
+     "−2.7%"
+    ]
+   ],
+   "hi": 1,
+   "note": "<b>Source</b> Fossil Group, Form 10-Q, segment net sales table for the Year To Date Period. The periods differ in length, per the filing.",
+   "plate": "CC/2026/377"
+  },
+  "sections": [
+   {
+    "h": "Europe led the decline.",
+    "p": [
+     {
+      "lead": "Europe fell 9.8%.",
+      "text": "Europe sales were $212.5m against $235.7m, which the filing ties to the geopolitical climate in Europe and the Middle East. Americas net sales were about flat; Asia rose 2.6%, led by India."
+     },
+     {
+      "lead": "Closures, about 220 points.",
+      "text": "Store rationalisation comprised about 220 basis points of the decline, Fossil says. It has 30 fewer stores, or 14.7%, than at the end of the year-ago quarter."
+     }
+    ]
+   },
+   {
+    "h": "Wholesale up, direct sales down.",
+    "p": [
+     {
+      "lead": "Direct sales fell 16.1%.",
+      "text": "Direct-to-consumer sales fell 16.1%, which the filing puts down to a smaller store base. Comparable retail sales fell 7.3%, mainly from a return to full-price selling, it says."
+     },
+     {
+      "lead": "Traditional watches rose 2.0%.",
+      "text": "Traditional watch sales rose 2.0%. Smartwatch net sales fell 57.0% as Fossil exited the category, and jewellery fell 10.9%."
+     }
+    ]
+   },
+   {
+    "h": "One week fewer.",
+    "p": [
+     {
+      "lead": "The calendars differ.",
+      "text": "Fossil's 2025 fiscal year had 53 weeks, with the extra week in the first quarter, so the 2026 period has 39 weeks against 40."
+     },
+     {
+      "lead": "Q3 matched weeks.",
+      "text": "The third quarter compared 13 weeks with 13, and net sales rose 0.4%, as reported on 11 November."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Q4 2026 results",
+    "what": "Fossil's 2026 outlook of $980m to $990m in net sales. The test: whether the fourth quarter delivers the $274.3m to $284.3m that range implies."
+   }
+  ],
+  "depth": {
+   "reverse": "If Fossil gives a 39-week figure for 2025 and the decline disappears, the fall was the calendar, not demand, and Europe's drop reads smaller.",
+   "built": {
+    "title": "Fossil's 52- and 53-week year",
+    "text": "Fossil's fiscal year periodically runs 53 weeks instead of 52. The year ended 3 January 2026 had 53, with the extra week in the first quarter, the filing says."
+   },
+   "method": "Fossil's 10-Q, https://www.sec.gov/Archives/edgar/data/883569/000088356926000073/fosl-20261003.htm: door.py 06:02 EST 15 November 2026 returned 403, 4,819 bytes (EDGAR refuses that identity); curl with an identifying user agent at 06:02 EST returned 200, 2,319,968 bytes, the size of the shop desk's 03:51 copy. Text extracted to 197,743 bytes. Greps: '18.2 million' 1, '705.7' 1, '723.9' 1, '220 basis points' 1, 'thirty-nine week period' 1, 'forty week period' 1, '60.6%' 1, '40.6 million' 1. The sentence: 'Net sales decreased by $18.2 million, or 2.5% (2.7% in constant currency), for the Year To Date Period compared to the Prior Year YTD Period, with declines primarily in our Europe segment'. The basis note: 'the thirty-nine week period ended October 3, 2026 (\"Year To Date Period\") as compared to the forty week period ended October 4, 2025'. The filing gives no 39-week figure for 2025 and does not size the extra week. Carat Capital's arithmetic: 705.7 - 723.9 = -18.2; 980 - 705.7 = 274.3 and 990 - 705.7 = 284.3 for the outlook's remaining quarter, which is 13 weeks in a 52-week year. Gross margin and operating income are the filing's own Year To Date figures. Store count: 'reduced our store footprint by 30 stores (14.7%), since the end of the Prior Year Quarter'.",
+   "prior": [
+    {
+     "date": "2026-11-11",
+     "slug": "fossil-gross-margin-climbs-to-59-8-percent-as-sales-rise-0-4-percent",
+     "claim": "Q3: gross margin 59.8%, net sales up 0.4%, outlook $980m to $990m."
+    },
+    {
+     "date": "2026-08-27",
+     "slug": "the-same-figure-the-other-way",
+     "claim": "Movado's sales rose 4.9%, the figure by which Fossil's fell."
+    },
+    {
+     "date": "2026-08-26",
+     "slug": "watches-were-the-line-that-held",
+     "claim": "Fossil's Q2 sales fell 4.9%; watches held."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Fossil Group, Inc., Form 10-Q for the quarter ended 3 October 2026 (SEC EDGAR)",
+     "url": "https://www.sec.gov/Archives/edgar/data/883569/000088356926000073/fosl-20261003.htm",
+     "published": "2026-11-12"
+    }
+   ]
+  },
+  "next": {
+   "slug": "fossil-gross-margin-climbs-to-59-8-percent-as-sales-rise-0-4-percent",
+   "why": "The quarter inside these 39 weeks, with the margin and the outlook."
+  },
+  "corrections": []
+ },
+ "christies-shanghai-sells-90-80-carat-starlight-necklace-for-cny-8-32m": {
+  "v": 3,
+  "kicker": "Jewel auctions",
+  "figures": {
+   "asof": "Christie's lot and sale pages, read 15 November 2026 · Luxury Evening Sale, Shanghai, 13 November 2026 · CNY",
+   "cells": [
+    {
+     "n": "CNY 8,320,000",
+     "dir": "flat",
+     "label": "Price realised",
+     "q": "basis not stated on the lot page",
+     "src": 0
+    },
+    {
+     "n": "CNY 8,600,000",
+     "dir": "flat",
+     "label": "Low estimate",
+     "q": "excludes buyer's premium",
+     "src": 0
+    },
+    {
+     "n": "90.80 ct",
+     "dir": "flat",
+     "label": "Centre diamond",
+     "q": "GIA: Light Brown, VS2",
+     "src": 0
+    },
+    {
+     "n": "CNY 38,620,160",
+     "dir": "flat",
+     "label": "Sale total",
+     "q": "includes buyer's premium",
+     "src": 1
+    }
+   ]
+  },
+  "changed": {
+   "lead": "The Starlight sold.",
+   "text": "Christie's sold William Goldberg's Starlight necklace, set with a 90.80-carat pear-shaped diamond, for CNY 8,320,000 in Shanghai on 13 November, the lot page shows."
+  },
+  "means": [
+   {
+    "who": "If you price large brown diamonds:",
+    "text": "a Light Brown Type IIa of this size sold under its low estimate."
+   },
+   {
+    "who": "If you consign to Shanghai:",
+    "text": "the lot was 21.5% of the sale total, if both share a basis."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a measured miss. The lot page does not say whether the price includes the premium."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "The Starlight necklace, lot 30",
+   "asof": "Christie's lot 30 and sale pages, Shanghai, 13 November 2026",
+   "cols": [
+    "Item",
+    "Figure",
+    "Basis, per Christie's"
+   ],
+   "rows": [
+    [
+     "Price realised",
+     "CNY 8,320,000",
+     "not stated on the lot page"
+    ],
+    [
+     "Low estimate",
+     "CNY 8,600,000",
+     "excludes buyer's premium"
+    ],
+    [
+     "High estimate",
+     "CNY 18,000,000",
+     "excludes buyer's premium"
+    ],
+    [
+     "Sale total",
+     "CNY 38,620,160",
+     "hammer plus buyer's premium"
+    ],
+    [
+     "Centre stone",
+     "90.80 carats",
+     "GIA report, 2012"
+    ]
+   ],
+   "hi": 0,
+   "note": "<b>Sources</b> Christie's lot page for lot 30 and the sale page for auction 31225. <b>Share of total</b> is Carat Capital's division.",
+   "plate": "CC/2026/378"
+  },
+  "sections": [
+   {
+    "h": "Under the low estimate.",
+    "p": [
+     {
+      "lead": "Price below estimate.",
+      "text": "The lot made CNY 8,320,000, or CNY 8.32m, against a low estimate of CNY 8,600,000. Christie's says its estimates exclude the buyer's premium."
+     },
+     {
+      "lead": "Under estimate, either basis.",
+      "text": "If the price includes the premium, the winning bid was lower still. If it excludes the premium, the bid itself fell short of the low estimate."
+     }
+    ]
+   },
+   {
+    "h": "A 2012 grade, untested colour.",
+    "p": [
+     {
+      "lead": "Graded Light Brown.",
+      "text": "GIA's 2012 report gives 90.80 carats, W to X range, Light Brown colour, VS2 clarity and Type IIa. Christie's notes the report is over five years old."
+     },
+     {
+      "lead": "Colour not tested.",
+      "text": "The necklace's coloured diamonds, a yellow rectangular-cut stone and pink pears, have not been tested for natural colour, the lot page says."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "From 15 November 2026",
+    "what": "A Christie's results release for the Shanghai sale. The test: whether it states that lot prices include the premium."
+   }
+  ],
+  "depth": {
+   "reverse": "If Christie's states the price excludes the premium, the buyer paid more than CNY 8,600,000 once fees are added, and the lot cleared its low estimate in cost.",
+   "built": {
+    "title": "Price realised and the estimate",
+    "text": "Christie's estimates exclude the buyer's premium, and its sale totals are hammer price plus premium, per its own sale page. The lot page prints a price realised without naming its basis."
+   },
+   "method": "Christie's lot page, https://www.christies.com/en/lot/lot-6610247, door.py 06:02 EST 15 November 2026, 200, 116,994 bytes: '8,320,000' 1 hit, '8,600,000' 1, '18,000,000' 1, '90.80' 2, 'Light Brown' 1, 'VS2' 1, '\"lot_id_txt\":\"30\"' 1; page data '\"price_realised_txt\":\"CNY 8,320,000\"' and '\"estimate_txt\":\"CNY 8,600,000 – CNY 18,000,000\"'; tooltip 'Estimates do not reflect the final hammer price and do not include buyer's premium'. The name is in the lot title in capitals ('STARLIGHT'), so a case-sensitive grep for 'Starlight' reads 0 on this page. Sale page, https://www.christies.com/en/auction/auction-31225, 200, 149,898 bytes: '\"auction_total\":{\"total\":\"38,620,160\"' 1 hit; tooltip 'Sales totals are hammer price plus buyer's premium.' Carat Capital's arithmetic: 8,320,000/8,600,000 = 0.967, not printed as a percentage because the two may be on different bases; 8,320,000/38,620,160 = 0.2154, so 21.5% on a common basis. The sale page's introduction calls the necklace 'a masterwork' showcasing 90.80 carats of coloured diamonds; the GIA line on the lot page grades the centre stone Light Brown.",
+   "prior": [
+    {
+     "date": "2026-11-14",
+     "slug": "christies-geneva-magnificent-jewels-sale-totals-chf-41481200",
+     "claim": "Christie's Geneva Magnificent Jewels totalled CHF 41,481,200 with premium."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Christie's, A rare coloured diamond and diamond 'Starlight' necklace, by William Goldberg, lot 30, Luxury Evening Sale, Shanghai (lot page)",
+     "url": "https://www.christies.com/en/lot/lot-6610247",
+     "published": "2026-11-13"
+    },
+    {
+     "title": "Christie's, Luxury Evening Sale, Shanghai, 13 November 2026 (sale page)",
+     "url": "https://www.christies.com/en/auction/auction-31225",
+     "published": "2026-11-13"
+    }
+   ]
+  },
+  "next": {
+   "slug": "christies-geneva-magnificent-jewels-sale-totals-chf-41481200",
+   "why": "The same house's Geneva week, where totals and lot prices also sat on different bases."
+  },
+  "corrections": []
+ },
+ "lbma-adds-fujian-jinyudeshang-refinery-to-gold-good-delivery-list": {
+  "v": 3,
+  "kicker": "Bullion",
+  "figures": {
+   "asof": "LBMA notice, published 9 November 2026 · effective 9 November 2026",
+   "cells": [
+    {
+     "n": "9 Nov",
+     "dir": "flat",
+     "label": "Effective date",
+     "q": "gold list only",
+     "src": 0
+    },
+    {
+     "n": "68",
+     "dir": "up",
+     "label": "Gold refiners",
+     "q": "with 86 silver, per LBMA",
+     "src": 0
+    },
+    {
+     "n": "86",
+     "dir": "flat",
+     "label": "Silver refiners",
+     "q": "with 68 gold, per LBMA",
+     "src": 0
+    },
+    {
+     "n": "2009",
+     "dir": "flat",
+     "label": "Founded",
+     "q": "September, per LBMA",
+     "src": 0
+    }
+   ]
+  },
+  "changed": {
+   "lead": "A Fujian refiner is in.",
+   "text": "Fujian Jinyudeshang Refinery Technology has joined the LBMA's gold Good Delivery List with effect from 9 November 2026, the association said."
+  },
+  "means": [
+   {
+    "who": "If you buy kilobars from China:",
+    "text": "check the refiner against the LBMA list itself, not against a supplier's word."
+   },
+   {
+    "who": "If you sell old gold:",
+    "text": "LBMA says this refiner's main feedstock is jewellery-trade material and old jewellery bought back from jewellers."
+   },
+   {
+    "who": "What this is not:",
+    "text": "a capacity figure. LBMA gives no tonnage, output or price for the refiner."
+   }
+  ],
+  "visual": {
+   "type": "table",
+   "cap": "Chinese refiners on the London lists, in our archive",
+   "asof": "LBMA notices · earlier rows from Carat Capital's 22 August article · notices between 22 August and 9 November not read",
+   "cols": [
+    "Effective",
+    "Refiner",
+    "Change",
+    "List"
+   ],
+   "rows": [
+    [
+     "5 Aug 2026",
+     "Shandong Gold Smelting",
+     "Suspended",
+     "Gold and silver"
+    ],
+    [
+     "17 Aug 2026",
+     "Shenzhen Zhonghenglong Industrial",
+     "Added",
+     "Gold"
+    ],
+    [
+     "21 Aug 2026",
+     "Hunan Shuikoushan Nonferrous Metals Group (SKS)",
+     "Suspended",
+     "Silver"
+    ],
+    [
+     "9 Nov 2026",
+     "Fujian Jinyudeshang Refinery Technology",
+     "Added",
+     "Gold"
+    ]
+   ],
+   "hi": 3,
+   "note": "<b>Sources</b> LBMA notice of 9 November 2026; rows one to three from Carat Capital, 22 August 2026. Not a complete list of changes.",
+   "plate": "CC/2026/379"
+  },
+  "sections": [
+   {
+    "h": "The tests it passed.",
+    "p": [
+     {
+      "lead": "Four checks, then assay.",
+      "text": "LBMA says the refiner satisfied it on ownership, history, production capability and financial standing. Independent referees assayed its bars, and its own assaying was tested."
+     },
+     {
+      "lead": "Founded in 2009.",
+      "text": "The company was founded in September 2009 and refines precious metals and produces gold. In 2023 it gained Shanghai Gold Exchange standard gold ingot status, LBMA says."
+     }
+    ]
+   },
+   {
+    "h": "Jewellery is the feedstock.",
+    "p": [
+     {
+      "lead": "Old jewellery goes in.",
+      "text": "Its main source is material from clients that process and sell gold jewellery, plus old and damaged jewellery bought back from jewellers, per LBMA."
+     },
+     {
+      "lead": "List includes 68 gold.",
+      "text": "The list now includes 68 gold and 86 silver refiners, LBMA says. Our 22 August read counted 67 gold refiners."
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "Each LBMA notice",
+    "what": "Additions and suspensions take effect on the dates LBMA names. The test: whether Chinese refiners keep moving both ways, as in August."
+   }
+  ],
+  "depth": {
+   "reverse": "If LBMA suspends the refiner, as it did Shandong Gold Smelting from 5 August, its bars stop counting as Good Delivery.",
+   "built": {
+    "title": "The Good Delivery List",
+    "text": "LBMA's list of refiners whose gold and silver bars met the London market's standard when first tested. Bars from listed refiners are accepted in London settlement; LBMA maintains the list."
+   },
+   "method": "LBMA notice, door.py 06:02 EST 15 November 2026, 200, 274,243 bytes, the size the Bureau read at 04:3x. 'with effect from 9 November 2026' 2 hits (page description); body text 'with effect from Monday, 9 November 2026'; '\"datePublished\":\"2026-11-09T00:00:00+00:00\"' 1. Body sentences used: ownership, history, production capability and financial standing; bars 'examined and assayed by independent referees'; 'founded in September 2009'; 'Shanghai Gold Exchange Standard Gold Ingot Enterprise' (2023); feedstock 'material from clients who specialise in the processing and sales of gold jewellery as well as old and damaged jewellery repurchased from jewellers'; 'The List now includes 68 gold and 86 silver refiners.' The notice gives no tonnage, capacity or price ('tonne' 0 hits in the 274,243 bytes fetched 06:02 EST 15 November 2026). Our count of 67 gold refiners is from our 22 August article; the change from 67 to 68 includes notices between the two dates that were not read, so no net count is claimed.",
+   "prior": [
+    {
+     "date": "2026-08-22",
+     "slug": "one-in-two-out-at-the-lbma",
+     "claim": "One Chinese refiner added, two suspended, in seventeen days."
+    }
+   ],
+   "sources": [
+    {
+     "title": "LBMA, Fujian Jinyudeshang Refinery Technology Co Ltd added to LBMA's Gold Good Delivery List",
+     "url": "https://www.lbma.org.uk/articles/fujian-jinyudeshang-refinery-technology-co-ltd-added-to-lbmas-gold-good-delivery-list",
+     "published": "2026-11-09"
+    }
+   ]
+  },
+  "next": {
+   "slug": "one-in-two-out-at-the-lbma",
+   "why": "August's three Chinese listing changes, and why a notice is a settlement fact."
+  },
+  "corrections": []
  }
 }
